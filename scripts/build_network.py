@@ -98,15 +98,6 @@ def build_html(nodes, edges):
     """Generate self-contained D3.js interactive network visualization."""
     graph_json = json.dumps({"nodes": nodes, "links": edges}, ensure_ascii=False)
 
-    legend_items = "".join(
-        f'<div style="display:flex;align-items:center;margin:4px 12px">'
-        f'<div style="width:14px;height:14px;border-radius:50%;background:{color};margin-right:6px"></div>'
-        f'<span style="font-size:13px">{label}</span></div>'
-        for cat, (color, label) in {
-            k: (CATEGORY_COLORS[k], CATEGORY_LABELS[k]) for k in CATEGORY_COLORS
-        }.items()
-    )
-
     return f"""<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -120,7 +111,122 @@ def build_html(nodes, edges):
   #controls label {{ font-size: 13px; display: block; margin: 6px 0 2px; }}
   #controls input[type=range] {{ width: 180px; }}
   #controls input[type=text] {{ width: 180px; padding: 4px 8px; background: #2a2a4e; border: 1px solid #444; color: #eee; border-radius: 4px; }}
-  #legend {{ position: fixed; bottom: 12px; left: 12px; z-index: 10; background: rgba(26,26,46,0.95); padding: 12px; border-radius: 10px; border: 1px solid #333; display: flex; flex-wrap: wrap; }}
+  
+  #legend {{
+    position: fixed;
+    bottom: 12px;
+    left: 12px;
+    z-index: 10;
+    background: rgba(26,26,46,0.95);
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    max-width: 500px;
+  }}
+  #legend-container {{
+    display: flex;
+    gap: 16px;
+  }}
+  .legend-left {{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 1px solid #444;
+    padding-right: 16px;
+    flex-shrink: 0;
+  }}
+  .legend-right {{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex-grow: 1;
+    min-width: 100px;
+    transition: min-width 0.3s ease;
+  }}
+  .legend-right.expanded {{
+    min-width: 260px;
+  }}
+  .legend-item {{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }}
+  #app-title-container {{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }}
+  #app-title-container:hover {{
+    background: rgba(255,255,255,0.08);
+  }}
+  #app-arrow {{
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 10px;
+    color: #888;
+    transition: transform 0.2s;
+  }}
+  .legend-right.expanded #app-arrow {{
+    transform: rotate(90deg);
+  }}
+  #app-breakdown-list {{
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px 12px;
+    max-height: 110px;
+    overflow-y: auto;
+    padding-right: 4px;
+    margin-top: 4px;
+  }}
+  .legend-right.expanded #app-breakdown-list {{
+    display: grid;
+  }}
+  #app-breakdown-list label {{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+    color: #ccc;
+    user-select: none;
+  }}
+  #app-breakdown-list input[type=checkbox] {{
+    margin-right: 6px;
+    cursor: pointer;
+    accent-color: #9b59b6;
+  }}
+  #app-breakdown-list::-webkit-scrollbar {{
+    width: 6px;
+  }}
+  #app-breakdown-list::-webkit-scrollbar-track {{
+    background: rgba(0,0,0,0.1);
+  }}
+  #app-breakdown-list::-webkit-scrollbar-thumb {{
+    background: #444;
+    border-radius: 3px;
+  }}
+  #app-breakdown-list::-webkit-scrollbar-thumb:hover {{
+    background: #555;
+  }}
+  #toggle-all-apps {{
+    display: none;
+    margin-left: auto;
+    font-size: 10px;
+    padding: 2px 6px;
+    background: #2a2a4e;
+    border: 1px solid #444;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }}
+  .legend-right.expanded #toggle-all-apps {{
+    display: inline-block;
+  }}
+
   #tooltip {{ position: fixed; background: rgba(0,0,0,0.9); color: #fff; padding: 8px 14px; border-radius: 6px; font-size: 13px; pointer-events: none; display: none; z-index: 20; border: 1px solid #555; }}
   #stats {{ position: fixed; top: 12px; right: 12px; z-index: 10; background: rgba(26,26,46,0.95); padding: 12px 16px; border-radius: 10px; border: 1px solid #333; font-size: 13px; }}
   svg {{ width: 100vw; height: 100vh; }}
@@ -134,7 +240,41 @@ def build_html(nodes, edges):
   <label>Search:</label>
   <input type="text" id="search" placeholder="e.g. 台積電, NVIDIA, CoWoS">
 </div>
-<div id="legend">{legend_items}</div>
+
+<div id="legend">
+  <div id="legend-container">
+    <div class="legend-left">
+      <div class="legend-item">
+        <div style="width:12px;height:12px;border-radius:50%;background:#e74c3c;margin-right:8px"></div>
+        <span>台灣公司</span>
+      </div>
+      <div class="legend-item">
+        <div style="width:12px;height:12px;border-radius:50%;background:#3498db;margin-right:8px"></div>
+        <span>國際公司</span>
+      </div>
+      <div class="legend-item">
+        <div style="width:12px;height:12px;border-radius:50%;background:#2ecc71;margin-right:8px"></div>
+        <span>技術/標準</span>
+      </div>
+      <div class="legend-item">
+        <div style="width:12px;height:12px;border-radius:50%;background:#f39c12;margin-right:8px"></div>
+        <span>材料/基板</span>
+      </div>
+    </div>
+    <div class="legend-right">
+      <div style="display:flex;align-items:center;margin-bottom:4px;">
+        <div id="app-title-container">
+          <div style="width:12px;height:12px;border-radius:50%;background:#9b59b6;margin-right:8px"></div>
+          <span style="font-size:13px;font-weight:bold;color:#fff;">終端應用</span>
+          <span id="app-arrow">▸</span>
+        </div>
+        <button id="toggle-all-apps">全選/全不選</button>
+      </div>
+      <div id="app-breakdown-list"></div>
+    </div>
+  </div>
+</div>
+
 <div id="tooltip"></div>
 <div id="stats"></div>
 <svg></svg>
@@ -153,8 +293,72 @@ svg.call(d3.zoom().scaleExtent([0.1, 8]).on("zoom", (e) => g.attr("transform", e
 const tooltip = d3.select("#tooltip");
 let simulation, linkG, nodeG, labelG;
 
+// 儲存目前勾選的終端應用 id
+const activeAppIds = new Set(fullData.nodes.filter(n => n.category === 'application').map(n => n.id));
+
+// 動態渲染終端應用 checkbox 清單
+const appListDiv = d3.select("#app-breakdown-list");
+const appNodes = fullData.nodes.filter(n => n.category === 'application').sort((a, b) => b.count - a.count);
+
+appNodes.forEach(node => {{
+  const label = appListDiv.append("label");
+  
+  label.append("input")
+    .attr("type", "checkbox")
+    .property("checked", true)
+    .attr("value", node.id)
+    .on("change", function() {{
+      if (this.checked) {{
+        activeAppIds.add(node.id);
+      }} else {{
+        activeAppIds.delete(node.id);
+      }}
+      render(+d3.select("#weightSlider").property("value"));
+    }});
+    
+  label.append("span").text(`${{node.id}} (${{node.count}})`);
+}});
+
+// 點擊「終端應用」標題切換展開/收合
+d3.select("#app-title-container").on("click", function() {{
+  const container = d3.select(".legend-right");
+  const isExpanded = container.classed("expanded");
+  container.classed("expanded", !isExpanded);
+}});
+
+// 全選/全不選功能
+let allSelected = true;
+d3.select("#toggle-all-apps").on("click", function() {{
+  allSelected = !allSelected;
+  appListDiv.selectAll("input[type=checkbox]").property("checked", allSelected);
+  if (allSelected) {{
+    appNodes.forEach(node => activeAppIds.add(node.id));
+  }} else {{
+    activeAppIds.clear();
+  }}
+  render(+d3.select("#weightSlider").property("value"));
+}});
+
 function render(minWeight) {{
-  const links = fullData.links.filter(l => l.weight >= minWeight);
+  // 過濾連結，如果端點是未被選取的終端應用，就過濾掉
+  const links = fullData.links.filter(l => {{
+    if (l.weight < minWeight) return false;
+    
+    const sourceId = l.source.id || l.source;
+    const targetId = l.target.id || l.target;
+    
+    const sourceNode = fullData.nodes.find(n => n.id === sourceId);
+    const targetNode = fullData.nodes.find(n => n.id === targetId);
+    
+    if (sourceNode && sourceNode.category === 'application' && !activeAppIds.has(sourceId)) {{
+      return false;
+    }}
+    if (targetNode && targetNode.category === 'application' && !activeAppIds.has(targetId)) {{
+      return false;
+    }}
+    return true;
+  }});
+
   const activeIds = new Set();
   links.forEach(l => {{ activeIds.add(l.source.id || l.source); activeIds.add(l.target.id || l.target); }});
   const nodes = fullData.nodes.filter(n => activeIds.has(n.id));
