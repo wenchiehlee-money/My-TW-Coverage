@@ -1,0 +1,59 @@
+name: Daily Update Financials & Valuation
+
+on:
+  schedule:
+    # 每天 UTC 19:00 (台灣時間凌晨 03:00) 執行一次
+    - cron: '0 19 * * *'
+  workflow_dispatch: # 允許手動觸發
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Update Financials
+        run: python scripts/update_financials.py
+
+      - name: Run Update Valuation
+        run: python scripts/update_valuation.py
+
+      - name: Rebuild Wikilink Index
+        run: python scripts/build_wikilink_index.py
+
+      - name: Rebuild Themes Value Chain
+        run: python scripts/build_themes.py
+
+      - name: Rebuild Network Graph
+        run: python scripts/build_network.py
+
+      - name: Run Quality Audit
+        run: python scripts/audit_batch.py --all -v
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update financial data, valuation, and generated indexes [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
