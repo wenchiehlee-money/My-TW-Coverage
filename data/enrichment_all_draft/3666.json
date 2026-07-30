@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3666",
+  "company_name": "光耀",
+  "title": "3666 - 光耀",
+  "source_md": "Pilot_Reports/Electronic Components/3666_光耀.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,238 百萬台幣",
+    "enterprise_value": "2,221 百萬台幣"
+  },
+  "business": {
+    "summary": "光耀科技 (3666，[[Optivision]]) 是專業的精密光學膜研發與製造商，專注於增亮膜 (Brightness Enhancement Film, BEF) 產品，為液晶顯示器 ([[LCD]]) 背光模組中的關鍵零組件。\n\n業務概況與市場定位：\n1. **光學膜設計與製造**: 主要產品包括標準稜鏡片、高輝度增益稜鏡片及整合型擴散稜鏡片，具備自有專利塗佈與滾輪壓印技術。\n2. **中小尺寸應用**: 主攻智慧型手機、平板電腦及筆記型電腦市場，開發複合膜以提升毛利與性價比。\n3. **海外市場**: 營收高佔比來自中國及韓國市場，積極爭取一線品牌廠及面板大廠認證。",
+    "entities": [
+      "Optivision",
+      "LCD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學薄膜材料)",
+        "text": "**上游 (光學薄膜材料):**",
+        "entities": []
+      },
+      {
+        "category": "PET 薄膜",
+        "text": "日韓 PET 基材供應商",
+        "entities": []
+      },
+      {
+        "category": "UV 膠水",
+        "text": "紫外線固化膠水",
+        "entities": []
+      },
+      {
+        "category": "模具/滾輪",
+        "text": "精密壓印用微結構滾輪",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光學膜製造)",
+        "text": "**中游 (光學膜製造):**",
+        "entities": []
+      },
+      {
+        "category": "增亮膜",
+        "text": "**光耀** (稜鏡片/BEF 光學微結構設計與壓印)",
+        "entities": []
+      },
+      {
+        "category": "複合膜",
+        "text": "**光耀** (擴散片與稜鏡片整合型產品)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板與背光模組)",
+        "text": "**下游 (面板與背光模組):**",
+        "entities": []
+      },
+      {
+        "category": "背光模組廠",
+        "text": "[[瑞儀]]、[[中強光電]] — 背光模組用增亮膜",
+        "entities": [
+          "瑞儀",
+          "中強光電"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "[[群創]]、[[友達]]、[[京東方]] — LCD 面板背光",
+        "entities": [
+          "群創",
+          "友達",
+          "京東方"
+        ]
+      },
+      {
+        "category": "品牌廠",
+        "text": "[[Lenovo]]、[[Huawei]] — 手機/平板/筆電終端",
+        "entities": [
+          "Lenovo",
+          "Huawei"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "背光模組",
+        "text": "[[瑞儀]]、[[中強光電]] — 稜鏡片/增亮膜",
+        "entities": [
+          "瑞儀",
+          "中強光電"
+        ]
+      },
+      {
+        "role": "面板廠",
+        "text": "[[群創]]、[[友達]]、[[京東方]] — LCD 面板背光用光學膜",
+        "entities": [
+          "群創",
+          "友達",
+          "京東方"
+        ]
+      },
+      {
+        "role": "品牌終端",
+        "text": "[[Lenovo]]、[[Huawei]] — 手機/平板/筆電",
+        "entities": [
+          "Lenovo",
+          "Huawei"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PET 基材",
+        "text": "日韓 PET 薄膜供應商",
+        "entities": []
+      },
+      {
+        "role": "UV 膠水",
+        "text": "紫外線固化膠水供應商",
+        "entities": []
+      },
+      {
+        "role": "精密模具",
+        "text": "微結構壓印滾輪製造商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "瑞儀",
+          "中強光電",
+          "群創",
+          "友達",
+          "京東方",
+          "Lenovo",
+          "Huawei"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Optivision",
+      "type": "international_company_or_term",
+      "wikilink": "Optivision"
+    },
+    {
+      "name": "LCD",
+      "type": "international_company_or_term",
+      "wikilink": "LCD"
+    },
+    {
+      "name": "瑞儀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞儀"
+    },
+    {
+      "name": "中強光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中強光電"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Huawei",
+      "type": "international_company_or_term",
+      "wikilink": "Huawei"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "光耀科技 (3666，[[Optivision]]) 是專業的精密光學膜研發與製造商，專注於增亮膜 (Brightness Enhancement Film, BEF) 產品，為液晶顯示器 ([[LCD]]) 背光模組中的關鍵零組件。\n\n業務概況與市場定位：\n1. **光學膜設計與製造**: 主要產品包括標準稜鏡片、高輝度增益稜鏡片及整合型擴散稜鏡片，具備自有專利塗佈與滾輪壓印技術。\n2. **中小尺寸應用**: 主攻智慧型手機、平板電腦及筆記型電腦市場，開發複合膜以提升毛利與性價比。\n3. **海外市場**: 營收高佔比來自中國及韓國市場，積極爭取一線品牌廠及面板大廠認證。",
+    "supply_chain_md": "**上游 (光學薄膜材料):**\n- **PET 薄膜:** 日韓 PET 基材供應商\n- **UV 膠水:** 紫外線固化膠水\n- **模具/滾輪:** 精密壓印用微結構滾輪\n\n**中游 (光學膜製造):**\n- **增亮膜:** **光耀** (稜鏡片/BEF 光學微結構設計與壓印)\n- **複合膜:** **光耀** (擴散片與稜鏡片整合型產品)\n\n**下游 (面板與背光模組):**\n- **背光模組廠:** [[瑞儀]]、[[中強光電]] — 背光模組用增亮膜\n- **面板廠:** [[群創]]、[[友達]]、[[京東方]] — LCD 面板背光\n- **品牌廠:** [[Lenovo]]、[[Huawei]] — 手機/平板/筆電終端",
+    "customers_suppliers_md": "### 主要客戶\n- **背光模組:** [[瑞儀]]、[[中強光電]] — 稜鏡片/增亮膜\n- **面板廠:** [[群創]]、[[友達]]、[[京東方]] — LCD 面板背光用光學膜\n- **品牌終端:** [[Lenovo]]、[[Huawei]] — 手機/平板/筆電\n\n### 主要供應商\n- **PET 基材:** 日韓 PET 薄膜供應商\n- **UV 膠水:** 紫外線固化膠水供應商\n- **精密模具:** 微結構壓印滾輪製造商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

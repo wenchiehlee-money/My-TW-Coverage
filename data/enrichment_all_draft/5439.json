@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5439",
+  "company_name": "高技",
+  "title": "5439 - 高技",
+  "source_md": "Pilot_Reports/Electronic Components/5439_高技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "18,177 百萬台幣",
+    "enterprise_value": "19,134 百萬台幣"
+  },
+  "business": {
+    "summary": "高技企業 (First Hi-tec) 成立於 1988 年，總部位於台灣[[桃園]]。公司專注於 **厚銅、多層、高頻微波印刷電路板 (PCB)** 之製造。產品主要應用於 **網通設備** (交換器/路由器)、**電工** (电源供应器)、**車用電子** ([[電動車]]充電椿/BMS) 及 **半導體測試** (IC Tester)。高技以少量多樣、高客製化之利基型市場為主，避開[[消費性電子]]之價格競爭。",
+    "entities": [
+      "桃園",
+      "電動車",
+      "消費性電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[銅箔]]基板 (CCL)、[[銅箔]]、膠片供應商。",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "角色",
+        "text": "印刷電路板製造商 (中游)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[網通]]設備廠、電源供應器廠、車用零組件廠、[[工業電腦]]廠。",
+        "entities": [
+          "網通",
+          "工業電腦"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網通",
+        "text": "智邦 (Accton), 明泰 (Alpha Networks), 中磊 (Sercomm)。",
+        "entities": []
+      },
+      {
+        "role": "車用/電源",
+        "text": "[[台達電]] (Delta Electronics, 透過其打入 [[Tesla]]/[[GM]]/[[Ford]]), 華城 (Fortune)。",
+        "entities": [
+          "台達電",
+          "Tesla",
+          "GM",
+          "Ford"
+        ]
+      },
+      {
+        "role": "工控",
+        "text": "研華 (Advantech), 威強電 (Portwell)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台達電",
+          "Tesla",
+          "GM",
+          "Ford"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "高技企業 (First Hi-tec) 成立於 1988 年，總部位於台灣[[桃園]]。公司專注於 **厚銅、多層、高頻微波印刷電路板 (PCB)** 之製造。產品主要應用於 **網通設備** (交換器/路由器)、**電工** (电源供应器)、**車用電子** ([[電動車]]充電椿/BMS) 及 **半導體測試** (IC Tester)。高技以少量多樣、高客製化之利基型市場為主，避開[[消費性電子]]之價格競爭。",
+        "entities": [
+          "桃園",
+          "電動車",
+          "消費性電子"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "桃園",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "高技企業 (First Hi-tec) 成立於 1988 年，總部位於台灣[[桃園]]。公司專注於 **厚銅、多層、高頻微波印刷電路板 (PCB)** 之製造。產品主要應用於 **網通設備** (交換器/路由器)、**電工** (电源供应器)、**車用電子** ([[電動車]]充電椿/BMS) 及 **半導體測試** (IC Tester)。高技以少量多樣、高客製化之利基型市場為主，避開[[消費性電子]]之價格競爭。",
+    "supply_chain_md": "**角色:** 印刷電路板製造商 (中游)。\n**上游:** [[銅箔]]基板 (CCL)、[[銅箔]]、膠片供應商。\n**下游:** [[網通]]設備廠、電源供應器廠、車用零組件廠、[[工業電腦]]廠。",
+    "customers_suppliers_md": "### 主要客戶\n- **網通:** 智邦 (Accton), 明泰 (Alpha Networks), 中磊 (Sercomm)。\n- **車用/電源:** [[台達電]] (Delta Electronics, 透過其打入 [[Tesla]]/[[GM]]/[[Ford]]), 華城 (Fortune)。\n- **工控:** 研華 (Advantech), 威強電 (Portwell)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9917",
+  "company_name": "中保科",
+  "title": "9917 - 中保科",
+  "source_md": "Pilot_Reports/Security & Protection Services/9917_中保科.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Security & Protection Services",
+    "market_cap": "49,290 百萬台幣",
+    "enterprise_value": "52,514 百萬台幣"
+  },
+  "business": {
+    "summary": "中興保全科技股份有限公司（Taiwan Secom）成立於1977年，為台灣最大保全集團，與日本[[SECOM]]技術合作，總部位於台北市。核心業務涵蓋：（1）**電子保全：** 電子系統安全監控設備製造與安裝，為主要營收來源；（2）**駐衛保全：** 企業及大樓駐衛警衛服務；（3）**現金運送：** ATM現金補鈔及貴重物品運送；（4）**物流服務：** 航空貨物運輸服務；（5）**餐飲：** 空廚及餐飲服務（[[華膳空廚]]）。此外亦跨足迷你倉庫租賃（[[中保迷你倉]]）、停車場管理（[[中興保全停車場]]）、資安服務及節能解決方案等多元事業。子公司[[國興保全]]負責駐衛保全業務，[[立保保全]]經營現金運送。",
+    "entities": [
+      "SECOM",
+      "華膳空廚",
+      "中保迷你倉",
+      "中興保全停車場",
+      "國興保全",
+      "立保保全"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與技術)",
+        "text": "**上游 (設備與技術):**",
+        "entities": []
+      },
+      {
+        "category": "安防設備",
+        "text": "監控攝影機、門禁系統、防盜/防火設備",
+        "entities": []
+      },
+      {
+        "category": "通訊系統",
+        "text": "通訊網路設備與資安系統",
+        "entities": []
+      },
+      {
+        "category": "車輛",
+        "text": "現金運送專用車輛",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (保全服務)",
+        "text": "**中游 (保全服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中保科** — 電子保全系統監控、駐衛保全、現金運送、物流、空廚餐飲、迷你倉庫（[[中保迷你倉]]）",
+        "entities": [
+          "中保迷你倉"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "企業用戶",
+        "text": "金融機構（ATM補鈔）、商辦大樓、零售通路",
+        "entities": []
+      },
+      {
+        "category": "住宅用戶",
+        "text": "社區大樓與住宅保全",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "公共場域安防標案",
+        "entities": []
+      },
+      {
+        "category": "航空餐飲",
+        "text": "航空公司（空廚服務）",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融機構",
+        "text": "銀行ATM現金補鈔與金庫運送（如[[台灣銀行]]、[[兆豐銀行]]等）",
+        "entities": [
+          "台灣銀行",
+          "兆豐銀行"
+        ]
+      },
+      {
+        "role": "企業用戶",
+        "text": "商辦大樓、零售通路之電子保全與駐衛警衛",
+        "entities": []
+      },
+      {
+        "role": "住宅社區",
+        "text": "社區大樓保全監控系統",
+        "entities": []
+      },
+      {
+        "role": "政府機關",
+        "text": "公共場域安防專案標案",
+        "entities": []
+      },
+      {
+        "role": "航空餐飲",
+        "text": "航空公司空廚服務",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "安防設備",
+        "text": "監控攝影機、門禁及防盜/防火設備供應商",
+        "entities": []
+      },
+      {
+        "role": "通訊/資安",
+        "text": "通訊網路及資安系統設備供應商",
+        "entities": []
+      },
+      {
+        "role": "車輛",
+        "text": "現金運送與物流專用車輛供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Security & Protection Services):** [[云辰]]、[[杭特]]、[[奇偶]]、[[晶睿]]、[[建騰]]",
+        "entities": [
+          "云辰",
+          "杭特",
+          "奇偶",
+          "晶睿",
+          "建騰"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台灣銀行",
+          "兆豐銀行"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "SECOM",
+      "type": "international_company_or_term",
+      "wikilink": "SECOM"
+    },
+    {
+      "name": "華膳空廚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華膳空廚"
+    },
+    {
+      "name": "中保迷你倉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中保迷你倉"
+    },
+    {
+      "name": "中興保全停車場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興保全停車場"
+    },
+    {
+      "name": "國興保全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國興保全"
+    },
+    {
+      "name": "立保保全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立保保全"
+    },
+    {
+      "name": "台灣銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣銀行"
+    },
+    {
+      "name": "兆豐銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐銀行"
+    },
+    {
+      "name": "云辰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "云辰"
+    },
+    {
+      "name": "杭特",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杭特"
+    },
+    {
+      "name": "奇偶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇偶"
+    },
+    {
+      "name": "晶睿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶睿"
+    },
+    {
+      "name": "建騰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建騰"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中興保全科技股份有限公司（Taiwan Secom）成立於1977年，為台灣最大保全集團，與日本[[SECOM]]技術合作，總部位於台北市。核心業務涵蓋：（1）**電子保全：** 電子系統安全監控設備製造與安裝，為主要營收來源；（2）**駐衛保全：** 企業及大樓駐衛警衛服務；（3）**現金運送：** ATM現金補鈔及貴重物品運送；（4）**物流服務：** 航空貨物運輸服務；（5）**餐飲：** 空廚及餐飲服務（[[華膳空廚]]）。此外亦跨足迷你倉庫租賃（[[中保迷你倉]]）、停車場管理（[[中興保全停車場]]）、資安服務及節能解決方案等多元事業。子公司[[國興保全]]負責駐衛保全業務，[[立保保全]]經營現金運送。",
+    "supply_chain_md": "**上游 (設備與技術):**\n- **安防設備:** 監控攝影機、門禁系統、防盜/防火設備\n- **通訊系統:** 通訊網路設備與資安系統\n- **車輛:** 現金運送專用車輛\n\n**中游 (保全服務):**\n- **中保科** — 電子保全系統監控、駐衛保全、現金運送、物流、空廚餐飲、迷你倉庫（[[中保迷你倉]]）\n\n**下游 (終端客戶):**\n- **企業用戶:** 金融機構（ATM補鈔）、商辦大樓、零售通路\n- **住宅用戶:** 社區大樓與住宅保全\n- **政府機關:** 公共場域安防標案\n- **航空餐飲:** 航空公司（空廚服務）",
+    "customers_suppliers_md": "### 主要客戶\n- **金融機構:** 銀行ATM現金補鈔與金庫運送（如[[台灣銀行]]、[[兆豐銀行]]等）\n- **企業用戶:** 商辦大樓、零售通路之電子保全與駐衛警衛\n- **住宅社區:** 社區大樓保全監控系統\n- **政府機關:** 公共場域安防專案標案\n- **航空餐飲:** 航空公司空廚服務\n\n### 主要供應商\n- **安防設備:** 監控攝影機、門禁及防盜/防火設備供應商\n- **通訊/資安:** 通訊網路及資安系統設備供應商\n- **車輛:** 現金運送與物流專用車輛供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

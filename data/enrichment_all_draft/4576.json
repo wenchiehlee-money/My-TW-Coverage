@@ -1,0 +1,176 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4576",
+  "company_name": "大銀微系統",
+  "title": "4576 - 大銀微系統",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/4576_大銀微系統.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "21,085 百萬台幣",
+    "enterprise_value": "21,692 百萬台幣"
+  },
+  "business": {
+    "summary": "大銀微系統 (4576，Hiwin Mikrosystem) 為[[上銀科技]]集團高階機電廠，核心含[[線性馬達]]/力矩馬達/奈米定位平台。客戶含[[ASML]]、[[Applied Materials]]、[[KLA]]、[[Tokyo Electron]]。",
+    "entities": [
+      "上銀科技",
+      "線性馬達",
+      "ASML",
+      "Applied Materials",
+      "KLA",
+      "Tokyo Electron"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "稀土磁石/矽鋼片/編碼器",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**大銀** ([[線性馬達]]/奈米定位)",
+        "entities": [
+          "線性馬達"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[ASML]]、[[Applied Materials]]、[[KLA]]、[[Tokyo Electron]]",
+        "entities": [
+          "ASML",
+          "Applied Materials",
+          "KLA",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[ASML]]、[[Applied Materials]]、[[KLA]]、[[Tokyo Electron]]",
+        "entities": [
+          "ASML",
+          "Applied Materials",
+          "KLA",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "稀土磁石; [[上銀科技]] (母集團)",
+        "entities": [
+          "上銀科技"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ASML",
+          "Applied Materials",
+          "KLA",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "上銀科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上銀科技"
+    },
+    {
+      "name": "線性馬達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "線性馬達"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "KLA",
+      "type": "international_company_or_term",
+      "wikilink": "KLA"
+    },
+    {
+      "name": "Tokyo Electron",
+      "type": "international_company_or_term",
+      "wikilink": "Tokyo Electron"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大銀微系統 (4576，Hiwin Mikrosystem) 為[[上銀科技]]集團高階機電廠，核心含[[線性馬達]]/力矩馬達/奈米定位平台。客戶含[[ASML]]、[[Applied Materials]]、[[KLA]]、[[Tokyo Electron]]。",
+    "supply_chain_md": "**上游:** 稀土磁石/矽鋼片/編碼器\n**中游:** **大銀** ([[線性馬達]]/奈米定位)\n**下游:** [[ASML]]、[[Applied Materials]]、[[KLA]]、[[Tokyo Electron]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[ASML]]、[[Applied Materials]]、[[KLA]]、[[Tokyo Electron]]\n\n### 主要供應商\n- 稀土磁石; [[上銀科技]] (母集團)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

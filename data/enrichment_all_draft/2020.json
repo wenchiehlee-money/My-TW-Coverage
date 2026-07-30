@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2020",
+  "company_name": "美亞",
+  "title": "2020 - 美亞",
+  "source_md": "Pilot_Reports/Steel/2020_美亞.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "5,688 百萬台幣",
+    "enterprise_value": "8,297 百萬台幣"
+  },
+  "business": {
+    "summary": "美亞鋼管廠股份有限公司 (Mayer Steel Pipe Corporation) 成立於 1959 年，總部位於台灣[[台北]]。公司為台灣老牌專業[[鋼管]]製造商，主要生產[[鍍鋅鋼管]] (GIP)、[[黑鋼管]]、[[錏板管]] (EMT)、[[不鏽鋼管]]及[[碳鋼鋼管]]。美亞鋼管產品廣泛應用於建築配管、消防管線、機械結構及公共工程。公司在越南及泰國設有海外生產基地，積極佈局東南亞市場。美亞以品質優良著稱，參與多項國內指標性建設 (如[[台北101]]、[[大巨蛋]]及捷運工程)。",
+    "entities": [
+      "台北",
+      "鋼管",
+      "鍍鋅鋼管",
+      "黑鋼管",
+      "錏板管",
+      "不鏽鋼管",
+      "碳鋼鋼管",
+      "台北101",
+      "大巨蛋"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "熱軋/冷軋鋼捲",
+        "text": "向[[中鋼]] (CSC)、[[中鴻]]等國內外鋼廠採購原料卷。",
+        "entities": [
+          "中鋼",
+          "中鴻"
+        ]
+      },
+      {
+        "category": "鋅錠/不鏽鋼捲",
+        "text": "進口或國內採購。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "營建機電",
+        "text": "自來水管、消防管、電線導管 (EMT)。",
+        "entities": []
+      },
+      {
+        "category": "公共工程",
+        "text": "捷運、機場航廈、大型場館結構。",
+        "entities": []
+      },
+      {
+        "category": "機械/傢俱",
+        "text": "運動器材、辦公傢俱管件、汽機車零件。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經銷商",
+        "text": "全台五金建材行及配管材料商。",
+        "entities": []
+      },
+      {
+        "role": "工程專案",
+        "text": "[[營造]]廠及機電工程公司 ([[台積電]]廠房、公共建設)。",
+        "entities": [
+          "營造",
+          "台積電"
+        ]
+      },
+      {
+        "role": "海外市場",
+        "text": "越南及東協國家之台商及當地客戶。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[中鋼]] (2002)、[[中鴻]] (2014)、[[燁輝]] (2023)。",
+        "entities": [
+          "中鋼",
+          "中鴻",
+          "燁輝"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "營造",
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "鋼管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼管"
+    },
+    {
+      "name": "鍍鋅鋼管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鍍鋅鋼管"
+    },
+    {
+      "name": "黑鋼管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "黑鋼管"
+    },
+    {
+      "name": "錏板管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "錏板管"
+    },
+    {
+      "name": "不鏽鋼管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不鏽鋼管"
+    },
+    {
+      "name": "碳鋼鋼管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳鋼鋼管"
+    },
+    {
+      "name": "台北101",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北101"
+    },
+    {
+      "name": "大巨蛋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大巨蛋"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "中鴻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鴻"
+    },
+    {
+      "name": "營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "營造"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "燁輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁輝"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "美亞鋼管廠股份有限公司 (Mayer Steel Pipe Corporation) 成立於 1959 年，總部位於台灣[[台北]]。公司為台灣老牌專業[[鋼管]]製造商，主要生產[[鍍鋅鋼管]] (GIP)、[[黑鋼管]]、[[錏板管]] (EMT)、[[不鏽鋼管]]及[[碳鋼鋼管]]。美亞鋼管產品廣泛應用於建築配管、消防管線、機械結構及公共工程。公司在越南及泰國設有海外生產基地，積極佈局東南亞市場。美亞以品質優良著稱，參與多項國內指標性建設 (如[[台北101]]、[[大巨蛋]]及捷運工程)。",
+    "supply_chain_md": "**上游 (原料):**\n- **熱軋/冷軋鋼捲:** 向[[中鋼]] (CSC)、[[中鴻]]等國內外鋼廠採購原料卷。\n- **鋅錠/不鏽鋼捲:** 進口或國內採購。\n\n**下游應用:**\n- **營建機電:** 自來水管、消防管、電線導管 (EMT)。\n- **公共工程:** 捷運、機場航廈、大型場館結構。\n- **機械/傢俱:** 運動器材、辦公傢俱管件、汽機車零件。",
+    "customers_suppliers_md": "### 主要客戶\n- **經銷商:** 全台五金建材行及配管材料商。\n- **工程專案:** [[營造]]廠及機電工程公司 ([[台積電]]廠房、公共建設)。\n- **海外市場:** 越南及東協國家之台商及當地客戶。\n\n### 主要供應商\n- **原料:** [[中鋼]] (2002)、[[中鴻]] (2014)、[[燁輝]] (2023)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

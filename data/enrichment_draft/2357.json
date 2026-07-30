@@ -185,7 +185,24 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **PC/gaming/server brand overlap:** [[宏碁]]、[[微星]]、[[技嘉]]、[[Lenovo]]、[[HP]]、[[Dell]]",
+        "entities": [
+          "宏碁",
+          "微星",
+          "技嘉",
+          "Lenovo",
+          "HP",
+          "Dell"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "Amazon",
+          "NVIDIA"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -265,6 +282,36 @@
       "name": "Amazon",
       "type": "international_company_or_term",
       "wikilink": "Amazon"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
     }
   ],
   "source_text": {
@@ -276,6 +323,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 14,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

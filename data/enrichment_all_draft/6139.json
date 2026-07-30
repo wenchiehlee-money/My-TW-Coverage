@@ -1,0 +1,247 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6139",
+  "company_name": "亞翔",
+  "title": "6139_亞翔",
+  "source_md": "Pilot_Reports/Engineering & Construction/6139_亞翔.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "158,071 百萬台幣",
+    "enterprise_value": "126,130 百萬台幣"
+  },
+  "business": {
+    "summary": "[[亞翔工程]]為台灣無塵室工程龍頭，專營半導體、光電、高科技電子、生技醫藥、航太及食品製造等產業之潔淨室設計建造。服務涵蓋無塵室隔間牆、天花板、灑水系統、加濕系統及室外空調機組等整廠建置。公司為 [[台積電]] 長期合作夥伴，隨 [[台積電]] 2 奈米先進製程及 [[CoWoS]] 先進封裝製程擴產，對潔淨室潔淨度、穩定性與複雜度之要求大幅提升，帶動亞翔工程服務價值與利潤率同步提升。近年取得 [[台積電]] 先進封裝廠 AP8 之無塵室工程合約。在手訂單規模逾 2,000 億元。",
+    "entities": [
+      "亞翔工程",
+      "台積電",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與材料)",
+        "text": "**上游 (設備與材料):**",
+        "entities": []
+      },
+      {
+        "category": "空調設備",
+        "text": "[[大金工業]] 等空調廠",
+        "entities": [
+          "大金工業"
+        ]
+      },
+      {
+        "category": "無塵室材料",
+        "text": "FFU、HEPA/ULPA 濾網、潔淨室隔間板",
+        "entities": []
+      },
+      {
+        "category": "消防系統",
+        "text": "灑水與消防設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (無塵室工程)",
+        "text": "**中游 (無塵室工程):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**亞翔工程** — 無塵室設計建造、空調機電統包",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (高科技製造)",
+        "text": "**下游 (高科技製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]（2 奈米廠、[[CoWoS]] AP8 先進封裝廠）",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[群創光電]]（[[台積電]] 竹南[[群創]]舊廠改建）",
+        "entities": [
+          "群創光電",
+          "台積電",
+          "群創"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Micron]]、[[南亞科技]]",
+        "entities": [
+          "Micron",
+          "南亞科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]（2 奈米廠房、[[CoWoS]] AP8 先進封裝廠）",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[群創光電]]",
+        "entities": [
+          "群創光電"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Micron]]、[[南亞科技]]",
+        "entities": [
+          "Micron",
+          "南亞科技"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "空調設備",
+        "text": "[[大金工業]] 等空調廠",
+        "entities": [
+          "大金工業"
+        ]
+      },
+      {
+        "role": "無塵室材料",
+        "text": "FFU、HEPA/ULPA 濾網供應商",
+        "entities": []
+      },
+      {
+        "role": "消防設備",
+        "text": "灑水與消防系統供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Engineering & Construction):** [[三洋實業]]、[[日高]]、[[世紀風電]]、[[漢唐]]、[[龍邦]]",
+        "entities": [
+          "三洋實業",
+          "日高",
+          "世紀風電",
+          "漢唐",
+          "龍邦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "CoWoS",
+          "群創光電",
+          "Micron",
+          "南亞科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "亞翔工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞翔工程"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "大金工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大金工業"
+    },
+    {
+      "name": "群創光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創光電"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "南亞科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞科技"
+    },
+    {
+      "name": "三洋實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋實業"
+    },
+    {
+      "name": "日高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日高"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "漢唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢唐"
+    },
+    {
+      "name": "龍邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "龍邦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[亞翔工程]]為台灣無塵室工程龍頭，專營半導體、光電、高科技電子、生技醫藥、航太及食品製造等產業之潔淨室設計建造。服務涵蓋無塵室隔間牆、天花板、灑水系統、加濕系統及室外空調機組等整廠建置。公司為 [[台積電]] 長期合作夥伴，隨 [[台積電]] 2 奈米先進製程及 [[CoWoS]] 先進封裝製程擴產，對潔淨室潔淨度、穩定性與複雜度之要求大幅提升，帶動亞翔工程服務價值與利潤率同步提升。近年取得 [[台積電]] 先進封裝廠 AP8 之無塵室工程合約。在手訂單規模逾 2,000 億元。",
+    "supply_chain_md": "**上游 (設備與材料):**\n- **空調設備:** [[大金工業]] 等空調廠\n- **無塵室材料:** FFU、HEPA/ULPA 濾網、潔淨室隔間板\n- **消防系統:** 灑水與消防設備\n\n**中游 (無塵室工程):**\n- **亞翔工程** — 無塵室設計建造、空調機電統包\n\n**下游 (高科技製造):**\n- **晶圓代工:** [[台積電]]（2 奈米廠、[[CoWoS]] AP8 先進封裝廠）\n- **面板:** [[群創光電]]（[[台積電]] 竹南[[群創]]舊廠改建）\n- **記憶體:** [[Micron]]、[[南亞科技]]",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]]（2 奈米廠房、[[CoWoS]] AP8 先進封裝廠）\n- **面板:** [[群創光電]]\n- **記憶體:** [[Micron]]、[[南亞科技]]\n\n### 主要供應商\n- **空調設備:** [[大金工業]] 等空調廠\n- **無塵室材料:** FFU、HEPA/ULPA 濾網供應商\n- **消防設備:** 灑水與消防系統供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

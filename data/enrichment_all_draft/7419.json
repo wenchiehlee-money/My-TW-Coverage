@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7419",
+  "company_name": "達勝",
+  "title": "7419 - 達勝",
+  "source_md": "Pilot_Reports/Electronic Components/7419_達勝.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,828 百萬台幣",
+    "enterprise_value": "2,222 百萬台幣"
+  },
+  "business": {
+    "summary": "達勝科技 (7419，[[Mortech]]) 為台灣專業[[聚醯亞胺]] (Polyimide, PI) 薄膜製造商，擁有平均 10-30 年 PI 產業經驗的技術團隊，成立於 1993 年。\n\n核心產品與應用：(1) 標準型 PI 膜 (PIF) — 應用於軟性印刷電路板 ([[FPCB]])、IC 封裝與馬達電器絕緣；(2) 改良型 PI 膜 (PIN) — 增強機械與熱性能之特殊 PI 膜；(3) 黑色 PI 膜 (PIB/PMB) — 應用於 [[FPCB]] 補強板與 COF 材料；(4) 散熱型 PI 膜 (PIT) — 可製成人工石墨散熱片，應用於智慧型手機與平板散熱。公司持續擴充 PI 新產能，積極拓展 FCCL 基板、COF 材料等 [[FPCB]] 主流應用市場。",
+    "entities": [
+      "Mortech",
+      "聚醯亞胺",
+      "FPCB"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (化工原料)",
+        "text": "**上游 (化工原料):**",
+        "entities": []
+      },
+      {
+        "category": "PI 樹脂",
+        "text": "[[聚醯亞胺]]樹脂原料供應商",
+        "entities": [
+          "聚醯亞胺"
+        ]
+      },
+      {
+        "category": "溶劑",
+        "text": "特殊化學溶劑",
+        "entities": []
+      },
+      {
+        "category": "設備",
+        "text": "PI 膜塗佈與延伸設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (PI 膜製造)",
+        "text": "**中游 (PI 膜製造):**",
+        "entities": []
+      },
+      {
+        "category": "標準 PI 膜",
+        "text": "**達勝** ([[FPCB]]/IC 封裝用 PI 膜)",
+        "entities": [
+          "FPCB"
+        ]
+      },
+      {
+        "category": "黑色 PI 膜",
+        "text": "**達勝** ([[FPCB]] 補強板/COF 用黑色 PI)",
+        "entities": [
+          "FPCB"
+        ]
+      },
+      {
+        "category": "散熱 PI 膜",
+        "text": "**達勝** (人工石墨散熱片用 PI 膜)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 ([[FPCB]] 與電子產業)",
+        "text": "**下游 ([[FPCB]] 與電子產業):**",
+        "entities": [
+          "FPCB"
+        ]
+      },
+      {
+        "category": "FPCB/FCCL",
+        "text": "[[FPCB]] 與 FCCL 基板製造商 — PI 基材",
+        "entities": [
+          "FPCB"
+        ]
+      },
+      {
+        "category": "IC 封裝",
+        "text": "IC 封裝廠 — 封裝用 PI 膜",
+        "entities": []
+      },
+      {
+        "category": "散熱模組",
+        "text": "散熱模組廠 — 人工石墨散熱片",
+        "entities": []
+      },
+      {
+        "category": "馬達電器",
+        "text": "馬達與電器廠 — 絕緣用 PI 膜",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "FPCB/FCCL",
+        "text": "[[FPCB]] 與 FCCL 基板製造商 — [[聚醯亞胺]]基材",
+        "entities": [
+          "FPCB",
+          "聚醯亞胺"
+        ]
+      },
+      {
+        "role": "IC 封裝",
+        "text": "IC 封裝廠 — 封裝用 PI 膜",
+        "entities": []
+      },
+      {
+        "role": "散熱模組",
+        "text": "散熱模組廠 — 人工石墨散熱片用 PI",
+        "entities": []
+      },
+      {
+        "role": "馬達電器",
+        "text": "馬達與電器廠 — 絕緣 PI 膜",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PI 樹脂",
+        "text": "[[聚醯亞胺]]樹脂原料供應商",
+        "entities": [
+          "聚醯亞胺"
+        ]
+      },
+      {
+        "role": "溶劑",
+        "text": "特殊化學溶劑供應商",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "PI 膜塗佈與延伸設備製造商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "FPCB",
+          "聚醯亞胺"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Mortech",
+      "type": "international_company_or_term",
+      "wikilink": "Mortech"
+    },
+    {
+      "name": "聚醯亞胺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚醯亞胺"
+    },
+    {
+      "name": "FPCB",
+      "type": "international_company_or_term",
+      "wikilink": "FPCB"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達勝科技 (7419，[[Mortech]]) 為台灣專業[[聚醯亞胺]] (Polyimide, PI) 薄膜製造商，擁有平均 10-30 年 PI 產業經驗的技術團隊，成立於 1993 年。\n\n核心產品與應用：(1) 標準型 PI 膜 (PIF) — 應用於軟性印刷電路板 ([[FPCB]])、IC 封裝與馬達電器絕緣；(2) 改良型 PI 膜 (PIN) — 增強機械與熱性能之特殊 PI 膜；(3) 黑色 PI 膜 (PIB/PMB) — 應用於 [[FPCB]] 補強板與 COF 材料；(4) 散熱型 PI 膜 (PIT) — 可製成人工石墨散熱片，應用於智慧型手機與平板散熱。公司持續擴充 PI 新產能，積極拓展 FCCL 基板、COF 材料等 [[FPCB]] 主流應用市場。",
+    "supply_chain_md": "**上游 (化工原料):**\n- **PI 樹脂:** [[聚醯亞胺]]樹脂原料供應商\n- **溶劑:** 特殊化學溶劑\n- **設備:** PI 膜塗佈與延伸設備\n\n**中游 (PI 膜製造):**\n- **標準 PI 膜:** **達勝** ([[FPCB]]/IC 封裝用 PI 膜)\n- **黑色 PI 膜:** **達勝** ([[FPCB]] 補強板/COF 用黑色 PI)\n- **散熱 PI 膜:** **達勝** (人工石墨散熱片用 PI 膜)\n\n**下游 ([[FPCB]] 與電子產業):**\n- **FPCB/FCCL:** [[FPCB]] 與 FCCL 基板製造商 — PI 基材\n- **IC 封裝:** IC 封裝廠 — 封裝用 PI 膜\n- **散熱模組:** 散熱模組廠 — 人工石墨散熱片\n- **馬達電器:** 馬達與電器廠 — 絕緣用 PI 膜",
+    "customers_suppliers_md": "### 主要客戶\n- **FPCB/FCCL:** [[FPCB]] 與 FCCL 基板製造商 — [[聚醯亞胺]]基材\n- **IC 封裝:** IC 封裝廠 — 封裝用 PI 膜\n- **散熱模組:** 散熱模組廠 — 人工石墨散熱片用 PI\n- **馬達電器:** 馬達與電器廠 — 絕緣 PI 膜\n\n### 主要供應商\n- **PI 樹脂:** [[聚醯亞胺]]樹脂原料供應商\n- **溶劑:** 特殊化學溶劑供應商\n- **設備:** PI 膜塗佈與延伸設備製造商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

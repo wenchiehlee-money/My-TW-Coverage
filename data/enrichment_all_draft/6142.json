@@ -1,0 +1,258 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6142",
+  "company_name": "友勁",
+  "title": "6142_友勁",
+  "source_md": "Pilot_Reports/Communication Equipment/6142_友勁.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "3,202 百萬台幣",
+    "enterprise_value": "2,962 百萬台幣"
+  },
+  "business": {
+    "summary": "友勁科技 (6142，Alpha Networks) 為[[友訊科技]] (2332，[[D-Link]]) 轉投資之專業網通設備製造商，隸屬[[台鋼集團]]。公司堅持「台灣製造 (MIT)」以確保品質與資訊安全，近年全面轉型，汰換低毛利消費型網通產品，將營運重心集中於高毛利的商用/企業級網通市場。\n\n主力產品涵蓋 2.5G/10G/100G 規格之 L2/L3 企業級網路交換器、[[Wi-Fi 7]] 企業級智慧型基地台 (AP)、以及小型資料中心交換器。公司在美國對 [[TP-Link]] 等中系網通產品實施禁令的「去中化」趨勢下，以 100% 台灣製造優勢成為客戶產能轉移的首選。",
+    "entities": [
+      "友訊科技",
+      "D-Link",
+      "台鋼集團",
+      "Wi-Fi 7",
+      "TP-Link"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與射頻元件)",
+        "text": "**上游 (網通晶片與射頻元件):**",
+        "entities": []
+      },
+      {
+        "category": "交換器晶片",
+        "text": "[[Broadcom]]、[[瑞昱]] — 企業級網路交換器 IC",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — Wi-Fi 6/7 射頻模組",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "PCB/天線",
+        "text": "高頻多層 PCB 及射頻天線",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (企業級網通設備 MIT 製造)",
+        "text": "**中游 (企業級網通設備 MIT 製造):**",
+        "entities": []
+      },
+      {
+        "category": "企業交換器",
+        "text": "**友勁** (L2/L3 10G/100G 網管交換器)",
+        "entities": []
+      },
+      {
+        "category": "企業 AP",
+        "text": "**友勁** ([[Wi-Fi 7]] 商用基地台)",
+        "entities": [
+          "Wi-Fi 7"
+        ]
+      },
+      {
+        "category": "製造優勢",
+        "text": "100% 台灣在地製造 (MIT)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業網通品牌與系統整合商)",
+        "text": "**下游 (企業網通品牌與系統整合商):**",
+        "entities": []
+      },
+      {
+        "category": "關係企業",
+        "text": "[[D-Link]] (友訊) — 企業級網通設備代工",
+        "entities": [
+          "D-Link"
+        ]
+      },
+      {
+        "category": "企業客戶",
+        "text": "歐美企業級網通品牌商",
+        "entities": []
+      },
+      {
+        "category": "去中化受惠",
+        "text": "原中系網通客戶轉單",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "關係企業",
+        "text": "[[D-Link]] (友訊科技) — 企業級交換器及 AP 代工",
+        "entities": [
+          "D-Link"
+        ]
+      },
+      {
+        "role": "企業品牌商",
+        "text": "歐美企業級網通品牌 — 去中化轉單受惠",
+        "entities": []
+      },
+      {
+        "role": "系統整合商",
+        "text": "國內外大型系統整合商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "交換器晶片",
+        "text": "[[Broadcom]]、[[瑞昱]]",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "[[Qualcomm]]、[[聯發科]]",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "集團關聯",
+        "text": "[[台鋼集團]] 供應鏈資源",
+        "entities": [
+          "台鋼集團"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "D-Link"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "友訊科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊科技"
+    },
+    {
+      "name": "D-Link",
+      "type": "international_company_or_term",
+      "wikilink": "D-Link"
+    },
+    {
+      "name": "台鋼集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鋼集團"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "TP-Link",
+      "type": "international_company_or_term",
+      "wikilink": "TP-Link"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "友勁科技 (6142，Alpha Networks) 為[[友訊科技]] (2332，[[D-Link]]) 轉投資之專業網通設備製造商，隸屬[[台鋼集團]]。公司堅持「台灣製造 (MIT)」以確保品質與資訊安全，近年全面轉型，汰換低毛利消費型網通產品，將營運重心集中於高毛利的商用/企業級網通市場。\n\n主力產品涵蓋 2.5G/10G/100G 規格之 L2/L3 企業級網路交換器、[[Wi-Fi 7]] 企業級智慧型基地台 (AP)、以及小型資料中心交換器。公司在美國對 [[TP-Link]] 等中系網通產品實施禁令的「去中化」趨勢下，以 100% 台灣製造優勢成為客戶產能轉移的首選。",
+    "supply_chain_md": "**上游 (網通晶片與射頻元件):**\n- **交換器晶片:** [[Broadcom]]、[[瑞昱]] — 企業級網路交換器 IC\n- **Wi-Fi 晶片:** [[Qualcomm]]、[[聯發科]] — Wi-Fi 6/7 射頻模組\n- **PCB/天線:** 高頻多層 PCB 及射頻天線\n\n**中游 (企業級網通設備 MIT 製造):**\n- **企業交換器:** **友勁** (L2/L3 10G/100G 網管交換器)\n- **企業 AP:** **友勁** ([[Wi-Fi 7]] 商用基地台)\n- **製造優勢:** 100% 台灣在地製造 (MIT)\n\n**下游 (企業網通品牌與系統整合商):**\n- **關係企業:** [[D-Link]] (友訊) — 企業級網通設備代工\n- **企業客戶:** 歐美企業級網通品牌商\n- **去中化受惠:** 原中系網通客戶轉單",
+    "customers_suppliers_md": "### 主要客戶\n- **關係企業:** [[D-Link]] (友訊科技) — 企業級交換器及 AP 代工\n- **企業品牌商:** 歐美企業級網通品牌 — 去中化轉單受惠\n- **系統整合商:** 國內外大型系統整合商\n\n### 主要供應商\n- **交換器晶片:** [[Broadcom]]、[[瑞昱]]\n- **Wi-Fi 晶片:** [[Qualcomm]]、[[聯發科]]\n- **集團關聯:** [[台鋼集團]] 供應鏈資源"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

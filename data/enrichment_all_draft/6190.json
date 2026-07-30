@@ -1,0 +1,260 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6190",
+  "company_name": "萬泰科",
+  "title": "6190_萬泰科",
+  "source_md": "Pilot_Reports/Communication Equipment/6190_萬泰科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "10,831 百萬台幣",
+    "enterprise_value": "13,452 百萬台幣"
+  },
+  "business": {
+    "summary": "萬泰科技 (6190，Wonderful Hi-Tech) 為台灣歷史悠久之專業電線電纜製造商，早期以傳統電子線為主，現已成功轉型為網路通訊線、高頻同軸線及車用/伺服器高速線材領導廠。公司具備業界極難跨越的發泡鐵氟龍 (FEP) 絕緣工藝門檻。\n\n公司為 [[SpaceX]] 星鏈計畫 ([[Starlink]]) 地面接收站電源線及網路線之主力供應商，每週出貨約 8 萬套。同時成功打入 [[NVIDIA]] GB200/GB300 [[AI 伺服器]]高速線材供應鏈，開發 PCIe 5.0/6.0 高頻高速銅軸線材。為配合美系客戶「去中化」需求，產能大舉移轉至泰國及越南旗艦廠區。子公司[[萬旭電業]] (6134) 協同發展 AI 伺服器及衛星線材業務。",
+    "entities": [
+      "SpaceX",
+      "Starlink",
+      "NVIDIA",
+      "AI 伺服器",
+      "萬旭電業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (銅原料與絕緣材料)",
+        "text": "**上游 (銅原料與絕緣材料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材",
+        "text": "國際銅線盤元冶金廠 — 純銅原料",
+        "entities": []
+      },
+      {
+        "category": "絕緣材料",
+        "text": "[[3M]]、[[Daikin]] (大金)、[[DuPont]] (杜邦) — 鐵氟龍 (FEP) 等高頻絕緣被覆材料",
+        "entities": [
+          "3M",
+          "Daikin",
+          "DuPont"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (高階網通與衛星線材製造)",
+        "text": "**中游 (高階網通與衛星線材製造):**",
+        "entities": []
+      },
+      {
+        "category": "高速線材",
+        "text": "**萬泰科** (PCIe 5.0/6.0 AI 伺服器銅軸線材)",
+        "entities": []
+      },
+      {
+        "category": "衛星線材",
+        "text": "**萬泰科** (Starlink 地面站電源線/網路線)",
+        "entities": []
+      },
+      {
+        "category": "海外產能",
+        "text": "泰國廠、越南廠 (去中化布局)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (AI 伺服器與低軌衛星)",
+        "text": "**下游 (AI 伺服器與低軌衛星):**",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星",
+        "text": "[[SpaceX]] ([[Starlink]]) — 地面接收站線纜主力供應",
+        "entities": [
+          "SpaceX",
+          "Starlink"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "美系伺服器 OEM 大廠 — [[NVIDIA]] GB200/GB300 高速線材",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "網通基建",
+        "text": "北美寬頻基礎建設標案終端",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "歐美日系汽車零組件大廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "低軌衛星",
+        "text": "[[SpaceX]] ([[Starlink]]) — 地面接收站電源線/網路線 (每週出貨約 8 萬套)",
+        "entities": [
+          "SpaceX",
+          "Starlink"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "美系伺服器 OEM 大廠 — [[NVIDIA]] NVLink 銅線直連生態系",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "網通基建",
+        "text": "北美寬頻網路標案建設終端設備",
+        "entities": []
+      },
+      {
+        "role": "車用/家電",
+        "text": "歐美傳統車用及家電品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "絕緣材料",
+        "text": "[[3M]]、[[Daikin]]、[[DuPont]] — 鐵氟龍 (FEP) 特用塑料",
+        "entities": [
+          "3M",
+          "Daikin",
+          "DuPont"
+        ]
+      },
+      {
+        "role": "銅材",
+        "text": "國際銅礦冶煉廠及銅材盤元供應商",
+        "entities": []
+      },
+      {
+        "role": "子公司",
+        "text": "[[萬旭電業]] (6134) — 極細同軸線材協同開發",
+        "entities": [
+          "萬旭電業"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "SpaceX",
+          "Starlink",
+          "NVIDIA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "Starlink",
+      "type": "international_company_or_term",
+      "wikilink": "Starlink"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "萬旭電業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬旭電業"
+    },
+    {
+      "name": "3M",
+      "type": "international_company_or_term",
+      "wikilink": "3M"
+    },
+    {
+      "name": "Daikin",
+      "type": "international_company_or_term",
+      "wikilink": "Daikin"
+    },
+    {
+      "name": "DuPont",
+      "type": "international_company_or_term",
+      "wikilink": "DuPont"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "萬泰科技 (6190，Wonderful Hi-Tech) 為台灣歷史悠久之專業電線電纜製造商，早期以傳統電子線為主，現已成功轉型為網路通訊線、高頻同軸線及車用/伺服器高速線材領導廠。公司具備業界極難跨越的發泡鐵氟龍 (FEP) 絕緣工藝門檻。\n\n公司為 [[SpaceX]] 星鏈計畫 ([[Starlink]]) 地面接收站電源線及網路線之主力供應商，每週出貨約 8 萬套。同時成功打入 [[NVIDIA]] GB200/GB300 [[AI 伺服器]]高速線材供應鏈，開發 PCIe 5.0/6.0 高頻高速銅軸線材。為配合美系客戶「去中化」需求，產能大舉移轉至泰國及越南旗艦廠區。子公司[[萬旭電業]] (6134) 協同發展 AI 伺服器及衛星線材業務。",
+    "supply_chain_md": "**上游 (銅原料與絕緣材料):**\n- **銅材:** 國際銅線盤元冶金廠 — 純銅原料\n- **絕緣材料:** [[3M]]、[[Daikin]] (大金)、[[DuPont]] (杜邦) — 鐵氟龍 (FEP) 等高頻絕緣被覆材料\n\n**中游 (高階網通與衛星線材製造):**\n- **高速線材:** **萬泰科** (PCIe 5.0/6.0 AI 伺服器銅軸線材)\n- **衛星線材:** **萬泰科** (Starlink 地面站電源線/網路線)\n- **海外產能:** 泰國廠、越南廠 (去中化布局)\n\n**下游 (AI 伺服器與低軌衛星):**\n- **低軌衛星:** [[SpaceX]] ([[Starlink]]) — 地面接收站線纜主力供應\n- **AI 伺服器:** 美系伺服器 OEM 大廠 — [[NVIDIA]] GB200/GB300 高速線材\n- **網通基建:** 北美寬頻基礎建設標案終端\n- **車用:** 歐美日系汽車零組件大廠",
+    "customers_suppliers_md": "### 主要客戶\n- **低軌衛星:** [[SpaceX]] ([[Starlink]]) — 地面接收站電源線/網路線 (每週出貨約 8 萬套)\n- **AI 伺服器:** 美系伺服器 OEM 大廠 — [[NVIDIA]] NVLink 銅線直連生態系\n- **網通基建:** 北美寬頻網路標案建設終端設備\n- **車用/家電:** 歐美傳統車用及家電品牌\n\n### 主要供應商\n- **絕緣材料:** [[3M]]、[[Daikin]]、[[DuPont]] — 鐵氟龍 (FEP) 特用塑料\n- **銅材:** 國際銅礦冶煉廠及銅材盤元供應商\n- **子公司:** [[萬旭電業]] (6134) — 極細同軸線材協同開發"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

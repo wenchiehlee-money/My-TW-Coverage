@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2497",
+  "company_name": "怡利電",
+  "title": "2497 - 怡利電",
+  "source_md": "Pilot_Reports/Auto Parts/2497_怡利電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "5,602 百萬台幣",
+    "enterprise_value": "6,399 百萬台幣"
+  },
+  "business": {
+    "summary": "怡利電子 (2497，E-Lead Electronic) 為車用抬頭顯示器 ([[HUD]]) 及[[AR-HUD]]之 Tier 1 供應商，中國 HUD 市場排名前三。核心產品涵蓋[[HUD]]、[[AR-HUD]]、[[3D HUD]]及車載資通訊系統。主要 OEM 客戶涵蓋[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]。印度市場拓展中，已取得[[Tata Motors]] C-HUD 訂單。正與歐系[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]]洽談 3D HUD 專案。2024 年出貨約 50 萬台 HUD (年增 67%)。泰國設有工廠服務非中國市場。",
+    "entities": [
+      "HUD",
+      "AR-HUD",
+      "3D HUD",
+      "吉利汽車",
+      "一汽紅旗",
+      "長城汽車",
+      "奇瑞汽車",
+      "Tata Motors",
+      "Volkswagen",
+      "Mercedes-Benz",
+      "BMW"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "光學投影",
+        "text": "光學投影模組供應商",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "顯示面板元件",
+        "entities": []
+      },
+      {
+        "category": "車用晶片",
+        "text": "車載運算晶片",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**怡利電** ([[HUD]]/[[AR-HUD]]/[[3D HUD]] 製造，中國/泰國工廠)",
+        "entities": [
+          "HUD",
+          "AR-HUD",
+          "3D HUD"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OEM 客戶)",
+        "text": "**下游 (OEM 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "中國",
+        "text": "[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]",
+        "entities": [
+          "吉利汽車",
+          "一汽紅旗",
+          "長城汽車",
+          "奇瑞汽車"
+        ]
+      },
+      {
+        "category": "印度",
+        "text": "[[Tata Motors]] — C-HUD",
+        "entities": [
+          "Tata Motors"
+        ]
+      },
+      {
+        "category": "歐系洽談",
+        "text": "[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — 3D HUD",
+        "entities": [
+          "Volkswagen",
+          "Mercedes-Benz",
+          "BMW"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "中國",
+        "text": "[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]] — [[HUD]]/[[AR-HUD]]",
+        "entities": [
+          "吉利汽車",
+          "一汽紅旗",
+          "長城汽車",
+          "奇瑞汽車",
+          "HUD",
+          "AR-HUD"
+        ]
+      },
+      {
+        "role": "印度",
+        "text": "[[Tata Motors]] — C-HUD 訂單",
+        "entities": [
+          "Tata Motors"
+        ]
+      },
+      {
+        "role": "歐系洽談",
+        "text": "[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — [[3D HUD]]",
+        "entities": [
+          "Volkswagen",
+          "Mercedes-Benz",
+          "BMW",
+          "3D HUD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學投影",
+        "text": "光學模組供應商",
+        "entities": []
+      },
+      {
+        "role": "面板/晶片",
+        "text": "顯示面板及車用運算晶片",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "吉利汽車",
+          "一汽紅旗",
+          "長城汽車",
+          "奇瑞汽車",
+          "HUD",
+          "AR-HUD",
+          "Tata Motors",
+          "Volkswagen",
+          "Mercedes-Benz",
+          "BMW",
+          "3D HUD"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "HUD",
+      "type": "international_company_or_term",
+      "wikilink": "HUD"
+    },
+    {
+      "name": "AR-HUD",
+      "type": "international_company_or_term",
+      "wikilink": "AR-HUD"
+    },
+    {
+      "name": "3D HUD",
+      "type": "international_company_or_term",
+      "wikilink": "3D HUD"
+    },
+    {
+      "name": "吉利汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "吉利汽車"
+    },
+    {
+      "name": "一汽紅旗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "一汽紅旗"
+    },
+    {
+      "name": "長城汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長城汽車"
+    },
+    {
+      "name": "奇瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇瑞汽車"
+    },
+    {
+      "name": "Tata Motors",
+      "type": "international_company_or_term",
+      "wikilink": "Tata Motors"
+    },
+    {
+      "name": "Volkswagen",
+      "type": "international_company_or_term",
+      "wikilink": "Volkswagen"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "怡利電子 (2497，E-Lead Electronic) 為車用抬頭顯示器 ([[HUD]]) 及[[AR-HUD]]之 Tier 1 供應商，中國 HUD 市場排名前三。核心產品涵蓋[[HUD]]、[[AR-HUD]]、[[3D HUD]]及車載資通訊系統。主要 OEM 客戶涵蓋[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]。印度市場拓展中，已取得[[Tata Motors]] C-HUD 訂單。正與歐系[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]]洽談 3D HUD 專案。2024 年出貨約 50 萬台 HUD (年增 67%)。泰國設有工廠服務非中國市場。",
+    "supply_chain_md": "**上游 (零組件):**\n- **光學投影:** 光學投影模組供應商\n- **面板:** 顯示面板元件\n- **車用晶片:** 車載運算晶片\n\n**中游 (製造):**\n- **怡利電** ([[HUD]]/[[AR-HUD]]/[[3D HUD]] 製造，中國/泰國工廠)\n\n**下游 (OEM 客戶):**\n- **中國:** [[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]\n- **印度:** [[Tata Motors]] — C-HUD\n- **歐系洽談:** [[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — 3D HUD",
+    "customers_suppliers_md": "### 主要客戶\n- **中國:** [[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]] — [[HUD]]/[[AR-HUD]]\n- **印度:** [[Tata Motors]] — C-HUD 訂單\n- **歐系洽談:** [[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — [[3D HUD]]\n\n### 主要供應商\n- **光學投影:** 光學模組供應商\n- **面板/晶片:** 顯示面板及車用運算晶片"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

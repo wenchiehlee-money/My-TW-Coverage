@@ -1,0 +1,320 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3305",
+  "company_name": "昇貿",
+  "title": "3305 - 昇貿",
+  "source_md": "Pilot_Reports/Electronic Components/3305_昇貿.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "13,286 百萬台幣",
+    "enterprise_value": "18,071 百萬台幣"
+  },
+  "business": {
+    "summary": "昇貿科技 (3305，[[Shenmao Technology]]) 是全球領先的電子銲錫材料供應商，規模位居台灣第一、全球前三，僅次於日本[[千住金屬]]與美國 Alpha 金屬。公司專注於錫膏、錫棒、錫絲及錫球等電子連結材料，是 [[PCB]] 組裝與半導體封裝鏈的關鍵隱型冠軍。\n\n技術優勢與成長引擎：(1) 低溫錫膏 (LTS) 先驅 — 與 [[Intel]] 深度合作開發低溫焊接技術，可降低焊接溫度約 40%，減少能耗與板材變形，已大量應用於 [[AI 伺服器]]主板與高階筆電；(2) [[AI 伺服器]]紅利 — 隨算力中心擴建，CPU/GPU Socket 對高可靠度焊接材料需求激增，帶動高毛利錫膏產品占比提升；(3) 回收再生技術 — 領先開發「回收廢金屬再生錫」製程，協助 [[Apple]]、[[Dell]] 等品牌商達成綠色供應鏈目標；(4) 全球化布局 — 在台灣、中國、泰國、馬來西亞、越南及墨西哥均設有生產據點。前十大客戶佔營收不到 50%，客戶分散度高。",
+    "entities": [
+      "Shenmao Technology",
+      "千住金屬",
+      "PCB",
+      "Intel",
+      "AI 伺服器",
+      "Apple",
+      "Dell"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬原料)",
+        "text": "**上游 (金屬原料):**",
+        "entities": []
+      },
+      {
+        "category": "錫錠",
+        "text": "全球錫錠供應商 — 核心原料",
+        "entities": []
+      },
+      {
+        "category": "銀/銅",
+        "text": "貴金屬與銅材供應商 — 合金配方",
+        "entities": []
+      },
+      {
+        "category": "助焊劑",
+        "text": "特種助焊劑化學品供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (焊錫材料製造)",
+        "text": "**中游 (焊錫材料製造):**",
+        "entities": []
+      },
+      {
+        "category": "錫膏",
+        "text": "**昇貿** (低溫錫膏/無鉛錫膏，全球前三)",
+        "entities": []
+      },
+      {
+        "category": "錫棒/錫絲",
+        "text": "**昇貿** (波焊與手焊用焊錫材料)",
+        "entities": []
+      },
+      {
+        "category": "錫球",
+        "text": "**昇貿** (BGA/CSP 封裝用錫球)",
+        "entities": []
+      },
+      {
+        "category": "回收再生",
+        "text": "**昇貿** (廢金屬再生錫製程)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (EMS 代工與半導體封裝)",
+        "text": "**下游 (EMS 代工與半導體封裝):**",
+        "entities": []
+      },
+      {
+        "category": "EMS 代工",
+        "text": "[[鴻海]]、[[廣達]]、[[緯創]]、[[仁寶]]、[[英業達]] — SMT 製程用錫膏",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創",
+          "仁寶",
+          "英業達"
+        ]
+      },
+      {
+        "category": "品牌客戶",
+        "text": "[[華碩]]、[[Apple]]、[[Dell]] — 指定焊錫材料",
+        "entities": [
+          "華碩",
+          "Apple",
+          "Dell"
+        ]
+      },
+      {
+        "category": "半導體封裝",
+        "text": "[[日月光投控]]、[[力成]] — 封裝用錫球與錫膏",
+        "entities": [
+          "日月光投控",
+          "力成"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "車用電子模組焊接材料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EMS 龍頭",
+        "text": "[[鴻海]]、[[廣達]]、[[緯創]]、[[仁寶]]、[[英業達]] — SMT 製程錫膏",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創",
+          "仁寶",
+          "英業達"
+        ]
+      },
+      {
+        "role": "品牌廠",
+        "text": "[[華碩]]、[[Apple]]、[[Dell]] — 綠色供應鏈指定焊錫",
+        "entities": [
+          "華碩",
+          "Apple",
+          "Dell"
+        ]
+      },
+      {
+        "role": "半導體封裝",
+        "text": "[[日月光投控]]、[[力成]] — BGA/CSP 錫球",
+        "entities": [
+          "日月光投控",
+          "力成"
+        ]
+      },
+      {
+        "role": "車用電子",
+        "text": "車用電子模組焊接材料客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "錫錠",
+        "text": "全球錫錠供應商 — 核心金屬原料",
+        "entities": []
+      },
+      {
+        "role": "銀/銅",
+        "text": "貴金屬與銅材供應商",
+        "entities": []
+      },
+      {
+        "role": "助焊劑",
+        "text": "特種助焊劑化學品廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "鴻海",
+          "廣達",
+          "緯創",
+          "仁寶",
+          "英業達",
+          "華碩",
+          "Apple",
+          "Dell",
+          "日月光投控",
+          "力成"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Shenmao Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Shenmao Technology"
+    },
+    {
+      "name": "千住金屬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "千住金屬"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昇貿科技 (3305，[[Shenmao Technology]]) 是全球領先的電子銲錫材料供應商，規模位居台灣第一、全球前三，僅次於日本[[千住金屬]]與美國 Alpha 金屬。公司專注於錫膏、錫棒、錫絲及錫球等電子連結材料，是 [[PCB]] 組裝與半導體封裝鏈的關鍵隱型冠軍。\n\n技術優勢與成長引擎：(1) 低溫錫膏 (LTS) 先驅 — 與 [[Intel]] 深度合作開發低溫焊接技術，可降低焊接溫度約 40%，減少能耗與板材變形，已大量應用於 [[AI 伺服器]]主板與高階筆電；(2) [[AI 伺服器]]紅利 — 隨算力中心擴建，CPU/GPU Socket 對高可靠度焊接材料需求激增，帶動高毛利錫膏產品占比提升；(3) 回收再生技術 — 領先開發「回收廢金屬再生錫」製程，協助 [[Apple]]、[[Dell]] 等品牌商達成綠色供應鏈目標；(4) 全球化布局 — 在台灣、中國、泰國、馬來西亞、越南及墨西哥均設有生產據點。前十大客戶佔營收不到 50%，客戶分散度高。",
+    "supply_chain_md": "**上游 (金屬原料):**\n- **錫錠:** 全球錫錠供應商 — 核心原料\n- **銀/銅:** 貴金屬與銅材供應商 — 合金配方\n- **助焊劑:** 特種助焊劑化學品供應商\n\n**中游 (焊錫材料製造):**\n- **錫膏:** **昇貿** (低溫錫膏/無鉛錫膏，全球前三)\n- **錫棒/錫絲:** **昇貿** (波焊與手焊用焊錫材料)\n- **錫球:** **昇貿** (BGA/CSP 封裝用錫球)\n- **回收再生:** **昇貿** (廢金屬再生錫製程)\n\n**下游 (EMS 代工與半導體封裝):**\n- **EMS 代工:** [[鴻海]]、[[廣達]]、[[緯創]]、[[仁寶]]、[[英業達]] — SMT 製程用錫膏\n- **品牌客戶:** [[華碩]]、[[Apple]]、[[Dell]] — 指定焊錫材料\n- **半導體封裝:** [[日月光投控]]、[[力成]] — 封裝用錫球與錫膏\n- **車用電子:** 車用電子模組焊接材料",
+    "customers_suppliers_md": "### 主要客戶\n- **EMS 龍頭:** [[鴻海]]、[[廣達]]、[[緯創]]、[[仁寶]]、[[英業達]] — SMT 製程錫膏\n- **品牌廠:** [[華碩]]、[[Apple]]、[[Dell]] — 綠色供應鏈指定焊錫\n- **半導體封裝:** [[日月光投控]]、[[力成]] — BGA/CSP 錫球\n- **車用電子:** 車用電子模組焊接材料客戶\n\n### 主要供應商\n- **錫錠:** 全球錫錠供應商 — 核心金屬原料\n- **銀/銅:** 貴金屬與銅材供應商\n- **助焊劑:** 特種助焊劑化學品廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

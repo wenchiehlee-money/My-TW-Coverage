@@ -1,0 +1,297 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3029",
+  "company_name": "零壹",
+  "title": "3029 - 零壹",
+  "source_md": "Pilot_Reports/Computer Hardware/3029_零壹.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "16,405 百萬台幣",
+    "enterprise_value": "14,027 百萬台幣"
+  },
+  "business": {
+    "summary": "零壹科技 (3029，[[Zero One Technology]]) 成立於 1980 年，為台灣領先之企業 IT 解決方案代理商，代理品牌超過六十家，涵蓋資訊安全、雲端服務、大數據與 AI 運算等領域。\n\n公司為 [[NVIDIA]]、[[Microsoft]]、[[Cisco]]、[[Palo Alto Networks]]、[[Fortinet]] 在台灣之重要合作夥伴。隨著企業數位轉型與資安需求大增，零壹已從傳統設備經銷轉型為提供顧問諮詢與技術支援之加值型通路商 (VAD)，積極發展雲端代理 (Azure/AWS/GCP) 及 AI 算力解決方案，協助企業客戶導入 [[NVIDIA]] GPU 運算平台。",
+    "entities": [
+      "Zero One Technology",
+      "NVIDIA",
+      "Microsoft",
+      "Cisco",
+      "Palo Alto Networks",
+      "Fortinet"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際軟硬體原廠)",
+        "text": "**上游 (國際軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "AI 運算",
+        "text": "[[NVIDIA]] — GPU 伺服器與 AI 運算平台",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[Microsoft]] (Azure)、[[AWS]]、[[Google Cloud]]",
+        "entities": [
+          "Microsoft",
+          "AWS",
+          "Google Cloud"
+        ]
+      },
+      {
+        "category": "網路設備",
+        "text": "[[Cisco]] — 企業網路基礎設施",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "category": "資訊安全",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]]、[[Trend Micro]] — 次世代防火牆與資安",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet",
+          "Trend Micro"
+        ]
+      },
+      {
+        "category": "儲存",
+        "text": "[[NetApp]] — 企業級儲存設備",
+        "entities": [
+          "NetApp"
+        ]
+      },
+      {
+        "category": "虛擬化",
+        "text": "[[VMware]] — 虛擬化平台",
+        "entities": [
+          "VMware"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (加值型通路與技術顧問)",
+        "text": "**中游 (加值型通路與技術顧問):**",
+        "entities": []
+      },
+      {
+        "category": "VAD 服務",
+        "text": "**零壹** (IT 解決方案規劃、技術顧問、教育訓練)",
+        "entities": []
+      },
+      {
+        "category": "雲端代理",
+        "text": "**零壹** (Azure/AWS/GCP 雲端服務代理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業客戶與經銷體系)",
+        "text": "**下游 (企業客戶與經銷體系):**",
+        "entities": []
+      },
+      {
+        "category": "經銷商/SI",
+        "text": "國內各大系統整合商 — 轉銷企業客戶",
+        "entities": []
+      },
+      {
+        "category": "大型企業",
+        "text": "金控、半導體、電信等產業 — IT 採購",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "中央與地方政府單位 — IT 標案",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經銷體系",
+        "text": "國內各大系統整合商 (SI) 及 IT 經銷商",
+        "entities": []
+      },
+      {
+        "role": "大型企業",
+        "text": "金控、半導體廠、電信業 — IT 軟硬體採購",
+        "entities": []
+      },
+      {
+        "role": "政府機關",
+        "text": "中央與地方政府單位 — IT 系統標案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "AI 運算",
+        "text": "[[NVIDIA]] — GPU 伺服器平台",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "雲端",
+        "text": "[[Microsoft]] (Azure)、[[AWS]]、[[Google Cloud]]",
+        "entities": [
+          "Microsoft",
+          "AWS",
+          "Google Cloud"
+        ]
+      },
+      {
+        "role": "網路",
+        "text": "[[Cisco]] — 企業網路設備",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "role": "資安",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]]、[[Trend Micro]]",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet",
+          "Trend Micro"
+        ]
+      },
+      {
+        "role": "儲存",
+        "text": "[[NetApp]] — 企業儲存平台",
+        "entities": [
+          "NetApp"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Zero One Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Zero One Technology"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "Fortinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fortinet"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Google Cloud",
+      "type": "international_company_or_term",
+      "wikilink": "Google Cloud"
+    },
+    {
+      "name": "Trend Micro",
+      "type": "international_company_or_term",
+      "wikilink": "Trend Micro"
+    },
+    {
+      "name": "NetApp",
+      "type": "international_company_or_term",
+      "wikilink": "NetApp"
+    },
+    {
+      "name": "VMware",
+      "type": "international_company_or_term",
+      "wikilink": "VMware"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "零壹科技 (3029，[[Zero One Technology]]) 成立於 1980 年，為台灣領先之企業 IT 解決方案代理商，代理品牌超過六十家，涵蓋資訊安全、雲端服務、大數據與 AI 運算等領域。\n\n公司為 [[NVIDIA]]、[[Microsoft]]、[[Cisco]]、[[Palo Alto Networks]]、[[Fortinet]] 在台灣之重要合作夥伴。隨著企業數位轉型與資安需求大增，零壹已從傳統設備經銷轉型為提供顧問諮詢與技術支援之加值型通路商 (VAD)，積極發展雲端代理 (Azure/AWS/GCP) 及 AI 算力解決方案，協助企業客戶導入 [[NVIDIA]] GPU 運算平台。",
+    "supply_chain_md": "**上游 (國際軟硬體原廠):**\n- **AI 運算:** [[NVIDIA]] — GPU 伺服器與 AI 運算平台\n- **雲端平台:** [[Microsoft]] (Azure)、[[AWS]]、[[Google Cloud]]\n- **網路設備:** [[Cisco]] — 企業網路基礎設施\n- **資訊安全:** [[Palo Alto Networks]]、[[Fortinet]]、[[Trend Micro]] — 次世代防火牆與資安\n- **儲存:** [[NetApp]] — 企業級儲存設備\n- **虛擬化:** [[VMware]] — 虛擬化平台\n\n**中游 (加值型通路與技術顧問):**\n- **VAD 服務:** **零壹** (IT 解決方案規劃、技術顧問、教育訓練)\n- **雲端代理:** **零壹** (Azure/AWS/GCP 雲端服務代理)\n\n**下游 (企業客戶與經銷體系):**\n- **經銷商/SI:** 國內各大系統整合商 — 轉銷企業客戶\n- **大型企業:** 金控、半導體、電信等產業 — IT 採購\n- **政府機關:** 中央與地方政府單位 — IT 標案",
+    "customers_suppliers_md": "### 主要客戶\n- **經銷體系:** 國內各大系統整合商 (SI) 及 IT 經銷商\n- **大型企業:** 金控、半導體廠、電信業 — IT 軟硬體採購\n- **政府機關:** 中央與地方政府單位 — IT 系統標案\n\n### 主要供應商\n- **AI 運算:** [[NVIDIA]] — GPU 伺服器平台\n- **雲端:** [[Microsoft]] (Azure)、[[AWS]]、[[Google Cloud]]\n- **網路:** [[Cisco]] — 企業網路設備\n- **資安:** [[Palo Alto Networks]]、[[Fortinet]]、[[Trend Micro]]\n- **儲存:** [[NetApp]] — 企業儲存平台"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

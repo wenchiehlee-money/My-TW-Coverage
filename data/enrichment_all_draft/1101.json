@@ -1,0 +1,330 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1101",
+  "company_name": "台泥",
+  "title": "1101 - [[台泥]]",
+  "source_md": "Pilot_Reports/Building Materials/1101_台泥.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "182,459 百萬台幣",
+    "enterprise_value": "309,132 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣水泥股份有限公司 (1101，TCC Group) 成立於 1946 年，為台灣第一家股票上市公司，已從傳統水泥製造廠轉型為「綠色環境工程集團」。核心業務涵蓋三大板塊：(1) 低碳建材 — 生產[[低碳水泥]]、[[預拌混凝土]]，為[[台積電]]南科建廠主力低碳混凝土供應商；(2) 資源循環 — 利用水泥窯協同處理廢棄物；(3) 綠色能源 — 透過子公司[[能元科技]]生產鋰電池、[[台泥儲能]]發展儲能系統，並透過子公司[[NHOA]]佈局歐洲電動車充電網絡。營運版圖橫跨歐、亞、非三洲，子公司[[台泥國際]]深耕中國市場，土耳其[[OYAK]]水泥為當地最大水泥廠。",
+    "entities": [
+      "低碳水泥",
+      "預拌混凝土",
+      "台積電",
+      "能元科技",
+      "台泥儲能",
+      "NHOA",
+      "台泥國際",
+      "OYAK"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與能源)",
+        "text": "**上游 (原料與能源):**",
+        "entities": []
+      },
+      {
+        "category": "核心原料",
+        "text": "[[石灰石]] (自有礦山)、砂石、[[熟料]]、[[石膏]]",
+        "entities": [
+          "石灰石",
+          "熟料",
+          "石膏"
+        ]
+      },
+      {
+        "category": "替代燃料",
+        "text": "工業廢棄物、廢輪胎、生質能作為水泥窯替代燃料",
+        "entities": []
+      },
+      {
+        "category": "循環經濟材料",
+        "text": "[[中聯資源]] — 提供高爐石等循環經濟材料",
+        "entities": [
+          "中聯資源"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (水泥生產與新能源)",
+        "text": "**中游 (水泥生產與新能源):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[台泥]]** — 水泥研磨、[[預拌混凝土]]生產",
+        "entities": [
+          "台泥",
+          "預拌混凝土"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[能元科技]]** — 高階鋰電池製造",
+        "entities": [
+          "能元科技"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[台泥儲能]]** — 大型儲能系統開發",
+        "entities": [
+          "台泥儲能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "基礎建設",
+        "text": "機場、港口、橋樑、捷運、高速公路",
+        "entities": []
+      },
+      {
+        "category": "科技廠房",
+        "text": "[[台積電]] — 建廠用低碳混凝土",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "綠能事業",
+        "text": "[[NHOA]] — 歐洲電動車充電網絡",
+        "entities": [
+          "NHOA"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技業",
+        "text": "[[台積電]] — 南科建廠主力低碳混凝土供應商",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "營建與預拌業",
+        "text": "[[和昌國際]]、[[永炬]]、[[得福混凝土]]等營造廠與預拌混凝土廠",
+        "entities": [
+          "和昌國際",
+          "永炬",
+          "得福混凝土"
+        ]
+      },
+      {
+        "role": "公共工程",
+        "text": "政府交通部、捷運局",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "循環經濟材料",
+        "text": "[[中聯資源]] — 高爐石",
+        "entities": [
+          "中聯資源"
+        ]
+      },
+      {
+        "role": "陸海運物流",
+        "text": "[[宇鑫交通]]、[[有麒實業]] — 陸運；[[裕民航運]] — 海運",
+        "entities": [
+          "宇鑫交通",
+          "有麒實業",
+          "裕民航運"
+        ]
+      },
+      {
+        "role": "海外原料",
+        "text": "土耳其[[OYAK]]水泥集團 — 熟料",
+        "entities": [
+          "OYAK"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Materials):** [[亞泥]]、[[嘉泥]]、[[環泥]]、[[幸福]]、[[信大]]",
+        "entities": [
+          "亞泥",
+          "嘉泥",
+          "環泥",
+          "幸福",
+          "信大"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "和昌國際",
+          "永炬",
+          "得福混凝土"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "- **替代燃料:** 工業廢棄物、廢輪胎、生質能作為水泥窯替代燃料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "低碳水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低碳水泥"
+    },
+    {
+      "name": "預拌混凝土",
+      "type": "taiwan_company_or_term",
+      "wikilink": "預拌混凝土"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "能元科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "能元科技"
+    },
+    {
+      "name": "台泥儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥儲能"
+    },
+    {
+      "name": "NHOA",
+      "type": "international_company_or_term",
+      "wikilink": "NHOA"
+    },
+    {
+      "name": "台泥國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥國際"
+    },
+    {
+      "name": "OYAK",
+      "type": "international_company_or_term",
+      "wikilink": "OYAK"
+    },
+    {
+      "name": "石灰石",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石灰石"
+    },
+    {
+      "name": "熟料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "熟料"
+    },
+    {
+      "name": "石膏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石膏"
+    },
+    {
+      "name": "中聯資源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中聯資源"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "和昌國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和昌國際"
+    },
+    {
+      "name": "永炬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永炬"
+    },
+    {
+      "name": "得福混凝土",
+      "type": "taiwan_company_or_term",
+      "wikilink": "得福混凝土"
+    },
+    {
+      "name": "宇鑫交通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宇鑫交通"
+    },
+    {
+      "name": "有麒實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "有麒實業"
+    },
+    {
+      "name": "裕民航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕民航運"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "嘉泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉泥"
+    },
+    {
+      "name": "環泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環泥"
+    },
+    {
+      "name": "幸福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "幸福"
+    },
+    {
+      "name": "信大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信大"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣水泥股份有限公司 (1101，TCC Group) 成立於 1946 年，為台灣第一家股票上市公司，已從傳統水泥製造廠轉型為「綠色環境工程集團」。核心業務涵蓋三大板塊：(1) 低碳建材 — 生產[[低碳水泥]]、[[預拌混凝土]]，為[[台積電]]南科建廠主力低碳混凝土供應商；(2) 資源循環 — 利用水泥窯協同處理廢棄物；(3) 綠色能源 — 透過子公司[[能元科技]]生產鋰電池、[[台泥儲能]]發展儲能系統，並透過子公司[[NHOA]]佈局歐洲電動車充電網絡。營運版圖橫跨歐、亞、非三洲，子公司[[台泥國際]]深耕中國市場，土耳其[[OYAK]]水泥為當地最大水泥廠。",
+    "supply_chain_md": "**上游 (原料與能源):**\n- **核心原料:** [[石灰石]] (自有礦山)、砂石、[[熟料]]、[[石膏]]\n- **替代燃料:** 工業廢棄物、廢輪胎、生質能作為水泥窯替代燃料\n- **循環經濟材料:** [[中聯資源]] — 提供高爐石等循環經濟材料\n\n**中游 (水泥生產與新能源):**\n- **[[台泥]]** — 水泥研磨、[[預拌混凝土]]生產\n- **[[能元科技]]** — 高階鋰電池製造\n- **[[台泥儲能]]** — 大型儲能系統開發\n\n**下游 (終端應用):**\n- **基礎建設:** 機場、港口、橋樑、捷運、高速公路\n- **科技廠房:** [[台積電]] — 建廠用低碳混凝土\n- **綠能事業:** [[NHOA]] — 歐洲電動車充電網絡",
+    "customers_suppliers_md": "### 主要客戶\n- **科技業:** [[台積電]] — 南科建廠主力低碳混凝土供應商\n- **營建與預拌業:** [[和昌國際]]、[[永炬]]、[[得福混凝土]]等營造廠與預拌混凝土廠\n- **公共工程:** 政府交通部、捷運局\n\n### 主要供應商\n- **循環經濟材料:** [[中聯資源]] — 高爐石\n- **陸海運物流:** [[宇鑫交通]]、[[有麒實業]] — 陸運；[[裕民航運]] — 海運\n- **海外原料:** 土耳其[[OYAK]]水泥集團 — 熟料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

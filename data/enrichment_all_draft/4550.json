@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4550",
+  "company_name": "長佳",
+  "title": "4550 - 長佳",
+  "source_md": "Pilot_Reports/Engineering & Construction/4550_長佳.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Healthcare",
+    "industry": "Health Information Services",
+    "market_cap": "921 百萬台幣",
+    "enterprise_value": "369 百萬台幣"
+  },
+  "business": {
+    "summary": "[[長佳智能]]（EverFortune.ai）為[[中國醫藥大學]]衍生新創公司，隸屬[[晟德大藥廠]]集團，專注於醫療人工智慧（AI）與大數據應用。公司以醫療 AI、雲端生醫平台與醫療大數據為三大核心發展方向，提供臨床輔助診斷、醫學研究、醫務核保理賠自動化審查、營養保健及體重管理等解決方案。已取得 49 張國際醫療器材許可證（含 11 張美國 [[FDA]]、15 張台灣 TFDA、越南 4 張、泰國 5 張、新加坡 1 張、馬來西亞 4 張）及 30 項全球專利。合作醫療機構超過 12 家。近期與 [[群[[聯電]]子]] 合資成立「長聯科技」，發展 AI 醫療機器人。",
+    "entities": [
+      "長佳智能",
+      "中國醫藥大學",
+      "晟德大藥廠",
+      "FDA",
+      "群[[聯電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與數據)",
+        "text": "**上游 (技術與數據):**",
+        "entities": []
+      },
+      {
+        "category": "醫療數據",
+        "text": "[[中國醫藥大學]]附設醫院（臨床資料庫）",
+        "entities": [
+          "中國醫藥大學"
+        ]
+      },
+      {
+        "category": "AI 運算",
+        "text": "[[NVIDIA]] GPU、雲端運算平台",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "儲存晶片",
+        "text": "[[群[[聯電]]子]]（合資長聯科技）",
+        "entities": [
+          "群[[聯電"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (AI 平台開發)",
+        "text": "**中游 (AI 平台開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**長佳智能** — 醫療 AI 演算法、雲端生醫平台開發",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "醫院",
+        "text": "[[中國醫藥大學]]附設醫院等 12 家以上醫療機構",
+        "entities": [
+          "中國醫藥大學"
+        ]
+      },
+      {
+        "category": "保險",
+        "text": "壽險公司（核保理賠 AI）",
+        "entities": []
+      },
+      {
+        "category": "海外",
+        "text": "東南亞醫療市場",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "醫療機構",
+        "text": "[[中國醫藥大學]]附設醫院等 12 家以上合作醫院",
+        "entities": [
+          "中國醫藥大學"
+        ]
+      },
+      {
+        "role": "壽險業",
+        "text": "壽險公司（醫務核保與理賠自動化 AI）",
+        "entities": []
+      },
+      {
+        "role": "海外",
+        "text": "東南亞醫療機構（越南、泰國、馬來西亞、新加坡）",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母集團",
+        "text": "[[晟德大藥廠]]（策略股東）",
+        "entities": [
+          "晟德大藥廠"
+        ]
+      },
+      {
+        "role": "學術合作",
+        "text": "[[中國醫藥大學]]（數據與研發）",
+        "entities": [
+          "中國醫藥大學"
+        ]
+      },
+      {
+        "role": "AI 硬體",
+        "text": "[[NVIDIA]]（GPU 運算）",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "合資夥伴",
+        "text": "[[群[[聯電]]子]]（長聯科技）",
+        "entities": [
+          "群[[聯電"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Engineering & Construction):** [[三洋實業]]、[[日高]]、[[世紀風電]]、[[漢唐]]、[[龍邦]]",
+        "entities": [
+          "三洋實業",
+          "日高",
+          "世紀風電",
+          "漢唐",
+          "龍邦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中國醫藥大學"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "長佳智能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長佳智能"
+    },
+    {
+      "name": "中國醫藥大學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國醫藥大學"
+    },
+    {
+      "name": "晟德大藥廠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晟德大藥廠"
+    },
+    {
+      "name": "FDA",
+      "type": "international_company_or_term",
+      "wikilink": "FDA"
+    },
+    {
+      "name": "群[[聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群[[聯電"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "三洋實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋實業"
+    },
+    {
+      "name": "日高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日高"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "漢唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢唐"
+    },
+    {
+      "name": "龍邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "龍邦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[長佳智能]]（EverFortune.ai）為[[中國醫藥大學]]衍生新創公司，隸屬[[晟德大藥廠]]集團，專注於醫療人工智慧（AI）與大數據應用。公司以醫療 AI、雲端生醫平台與醫療大數據為三大核心發展方向，提供臨床輔助診斷、醫學研究、醫務核保理賠自動化審查、營養保健及體重管理等解決方案。已取得 49 張國際醫療器材許可證（含 11 張美國 [[FDA]]、15 張台灣 TFDA、越南 4 張、泰國 5 張、新加坡 1 張、馬來西亞 4 張）及 30 項全球專利。合作醫療機構超過 12 家。近期與 [[群[[聯電]]子]] 合資成立「長聯科技」，發展 AI 醫療機器人。",
+    "supply_chain_md": "**上游 (技術與數據):**\n- **醫療數據:** [[中國醫藥大學]]附設醫院（臨床資料庫）\n- **AI 運算:** [[NVIDIA]] GPU、雲端運算平台\n- **儲存晶片:** [[群[[聯電]]子]]（合資長聯科技）\n\n**中游 (AI 平台開發):**\n- **長佳智能** — 醫療 AI 演算法、雲端生醫平台開發\n\n**下游 (終端應用):**\n- **醫院:** [[中國醫藥大學]]附設醫院等 12 家以上醫療機構\n- **保險:** 壽險公司（核保理賠 AI）\n- **海外:** 東南亞醫療市場",
+    "customers_suppliers_md": "### 主要客戶\n- **醫療機構:** [[中國醫藥大學]]附設醫院等 12 家以上合作醫院\n- **壽險業:** 壽險公司（醫務核保與理賠自動化 AI）\n- **海外:** 東南亞醫療機構（越南、泰國、馬來西亞、新加坡）\n\n### 主要供應商\n- **母集團:** [[晟德大藥廠]]（策略股東）\n- **學術合作:** [[中國醫藥大學]]（數據與研發）\n- **AI 硬體:** [[NVIDIA]]（GPU 運算）\n- **合資夥伴:** [[群[[聯電]]子]]（長聯科技）"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

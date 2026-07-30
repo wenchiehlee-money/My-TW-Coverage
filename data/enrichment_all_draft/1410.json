@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1410",
+  "company_name": "南染",
+  "title": "1410 - 南染",
+  "source_md": "Pilot_Reports/Textile Manufacturing/1410_南染.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "1,538 百萬台幣",
+    "enterprise_value": "976 百萬台幣"
+  },
+  "business": {
+    "summary": "[[南染]] (Nan Yang Dyeing & Finishing) 早期從事紡織染整業務，近年已轉型為控股公司模式。核心業務涵蓋不動產租賃 (利用桃園及三重土地資產) 及轉投資半導體封測業務 (透過子公司[[南岩半導體]])。[[南岩半導體]]專注於[[半導體]]封裝測試及編帶業務，受惠於供應鏈[[去中化]]趨勢，積極開發美國車用電子客戶。",
+    "entities": [
+      "南染",
+      "南岩半導體",
+      "半導體",
+      "去中化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[半導體]]封測設備及材料供應商",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "[[南岩半導體]] — [[半導體]]封裝測試及編帶",
+        "entities": [
+          "南岩半導體",
+          "半導體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "車用電子及[[分離式元件]]客戶",
+        "entities": [
+          "分離式元件"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "不動產事業",
+        "text": "**不動產事業:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "位於資產租賃端，出租桃園及三重廠辦獲取租金收益",
+        "entities": []
+      },
+      {
+        "category": "半導體事業 (子公司[[南岩半導體]])",
+        "text": "**半導體事業 (子公司[[南岩半導體]]):**",
+        "entities": [
+          "南岩半導體"
+        ]
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "不動產",
+        "text": "廠房及倉庫承租戶",
+        "entities": []
+      },
+      {
+        "role": "半導體 (子公司[[南岩半導體]])",
+        "text": "車用電子及[[分離式元件]]客戶，受惠[[去中化]]趨勢積極開發美國客戶",
+        "entities": [
+          "南岩半導體",
+          "分離式元件",
+          "去中化"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "半導體",
+        "text": "封測設備商如[[日月光投控]]系統供應鏈、[[導線架]]及[[IC載板]]材料供應商",
+        "entities": [
+          "日月光投控",
+          "導線架",
+          "IC載板"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "南岩半導體",
+          "分離式元件",
+          "去中化"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "南染",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南染"
+    },
+    {
+      "name": "南岩半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南岩半導體"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "去中化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "去中化"
+    },
+    {
+      "name": "分離式元件",
+      "type": "taiwan_company_or_term",
+      "wikilink": "分離式元件"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "IC載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC載板"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[南染]] (Nan Yang Dyeing & Finishing) 早期從事紡織染整業務，近年已轉型為控股公司模式。核心業務涵蓋不動產租賃 (利用桃園及三重土地資產) 及轉投資半導體封測業務 (透過子公司[[南岩半導體]])。[[南岩半導體]]專注於[[半導體]]封裝測試及編帶業務，受惠於供應鏈[[去中化]]趨勢，積極開發美國車用電子客戶。",
+    "supply_chain_md": "**不動產事業:**\n- 位於資產租賃端，出租桃園及三重廠辦獲取租金收益\n\n**半導體事業 (子公司[[南岩半導體]]):**\n- **上游:** [[半導體]]封測設備及材料供應商\n- **中游:** [[南岩半導體]] — [[半導體]]封裝測試及編帶\n- **下游:** 車用電子及[[分離式元件]]客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **不動產:** 廠房及倉庫承租戶\n- **半導體 (子公司[[南岩半導體]]):** 車用電子及[[分離式元件]]客戶，受惠[[去中化]]趨勢積極開發美國客戶\n\n### 主要供應商\n- **半導體:** 封測設備商如[[日月光投控]]系統供應鏈、[[導線架]]及[[IC載板]]材料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

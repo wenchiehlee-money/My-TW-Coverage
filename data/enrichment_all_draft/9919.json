@@ -1,0 +1,271 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9919",
+  "company_name": "康那香",
+  "title": "9919 - 康那香",
+  "source_md": "Pilot_Reports/Household & Personal Products/9919_康那香.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products",
+    "market_cap": "2,676 百萬台幣",
+    "enterprise_value": "4,633 百萬台幣"
+  },
+  "business": {
+    "summary": "康那香企業股份有限公司 (9919) 成立於 1968 年，總部位於台灣台北，為台灣歷史悠久之不織布與衛生用品製造大廠，位列全球前 40 大不織布廠商。公司產品涵蓋衛生棉 (「[[康乃馨]]」品牌)、紙尿褲、濕紙巾 (「[[康乃馨]]」濕紙巾)、化妝棉 (「[[蘭韻]]」品牌) 及各式不織布製品。其中「[[蘭韻]]」化妝棉與「[[康乃馨]]」濕紙巾在國內品牌銷售居龍頭地位。康那香並具備整廠輸出能力，涵蓋從不織布原料製造到成品加工之完整產業鏈。公司亦跨足空氣過濾與水處理事業。生產基地位於台灣台南及中國上海。",
+    "entities": [
+      "康乃馨",
+      "蘭韻"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (纖維與化工原料)",
+        "text": "**上游 (纖維與化工原料):**",
+        "entities": []
+      },
+      {
+        "category": "纖維原料",
+        "text": "[[聚酯纖維]]、[[聚丙烯]] (PP)、[[嫘縈]] (Rayon)、木漿棉",
+        "entities": [
+          "聚酯纖維",
+          "聚丙烯",
+          "嫘縈"
+        ]
+      },
+      {
+        "category": "吸收材料",
+        "text": "[[SAP]] (高吸水性樹脂) 用於紙尿褲",
+        "entities": [
+          "SAP"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "黏合劑、柔軟劑等加工助劑",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (不織布與衛材製造)",
+        "text": "**中游 (不織布與衛材製造):**",
+        "entities": []
+      },
+      {
+        "category": "不織布製造",
+        "text": "**康那香 (9919)** — 熱風、壓延、氣流成網、水刺、熔噴等多製程不織布製造",
+        "entities": []
+      },
+      {
+        "category": "成品加工",
+        "text": "衛生棉、紙尿褲、濕紙巾、化妝棉等衛材成品",
+        "entities": []
+      },
+      {
+        "category": "工業應用",
+        "text": "空氣過濾材料、廢水處理與淨水方案",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "品牌零售",
+        "text": "全台各大量販超市、藥妝店 (「[[康乃馨]]」、「[[蘭韻]]」品牌)",
+        "entities": [
+          "康乃馨",
+          "蘭韻"
+        ]
+      },
+      {
+        "category": "OEM 代工",
+        "text": "國內外衛材品牌代工",
+        "entities": []
+      },
+      {
+        "category": "工業客戶",
+        "text": "空氣過濾設備商及水處理工程業者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "自有品牌零售",
+        "text": "「[[康乃馨]]」(衛生棉/濕紙巾)、「[[蘭韻]]」(化妝棉) — 透過 [[全聯]]、[[家樂福]]、[[統一超商]] 等通路銷售",
+        "entities": [
+          "康乃馨",
+          "蘭韻",
+          "全聯",
+          "家樂福",
+          "統一超商"
+        ]
+      },
+      {
+        "role": "OEM 代工",
+        "text": "國內外衛材品牌之代工製造",
+        "entities": []
+      },
+      {
+        "role": "工業客戶",
+        "text": "空氣過濾及水處理事業之設備商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "纖維原料",
+        "text": "[[聚酯纖維]]、[[嫘縈]]、木漿棉等化學纖維供應商",
+        "entities": [
+          "聚酯纖維",
+          "嫘縈"
+        ]
+      },
+      {
+        "role": "吸收材料",
+        "text": "國際 [[SAP]] 供應商 (如 [[BASF]]、[[Evonik]])",
+        "entities": [
+          "SAP",
+          "BASF",
+          "Evonik"
+        ]
+      },
+      {
+        "role": "設備供應",
+        "text": "歐洲不織布產線及衛材加工設備廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Household & Personal Products):** [[花仙子]]、[[毛寶]]、[[凱撒衛]]、[[嘉威]]、[[南六]]",
+        "entities": [
+          "花仙子",
+          "毛寶",
+          "凱撒衛",
+          "嘉威",
+          "南六"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "康乃馨",
+          "蘭韻",
+          "全聯",
+          "家樂福",
+          "統一超商"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "康乃馨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康乃馨"
+    },
+    {
+      "name": "蘭韻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蘭韻"
+    },
+    {
+      "name": "聚酯纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚酯纖維"
+    },
+    {
+      "name": "聚丙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚丙烯"
+    },
+    {
+      "name": "嫘縈",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嫘縈"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "全聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全聯"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Evonik",
+      "type": "international_company_or_term",
+      "wikilink": "Evonik"
+    },
+    {
+      "name": "花仙子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "花仙子"
+    },
+    {
+      "name": "毛寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "毛寶"
+    },
+    {
+      "name": "凱撒衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱撒衛"
+    },
+    {
+      "name": "嘉威",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉威"
+    },
+    {
+      "name": "南六",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南六"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "康那香企業股份有限公司 (9919) 成立於 1968 年，總部位於台灣台北，為台灣歷史悠久之不織布與衛生用品製造大廠，位列全球前 40 大不織布廠商。公司產品涵蓋衛生棉 (「[[康乃馨]]」品牌)、紙尿褲、濕紙巾 (「[[康乃馨]]」濕紙巾)、化妝棉 (「[[蘭韻]]」品牌) 及各式不織布製品。其中「[[蘭韻]]」化妝棉與「[[康乃馨]]」濕紙巾在國內品牌銷售居龍頭地位。康那香並具備整廠輸出能力，涵蓋從不織布原料製造到成品加工之完整產業鏈。公司亦跨足空氣過濾與水處理事業。生產基地位於台灣台南及中國上海。",
+    "supply_chain_md": "**上游 (纖維與化工原料):**\n- **纖維原料:** [[聚酯纖維]]、[[聚丙烯]] (PP)、[[嫘縈]] (Rayon)、木漿棉\n- **吸收材料:** [[SAP]] (高吸水性樹脂) 用於紙尿褲\n- **化學品:** 黏合劑、柔軟劑等加工助劑\n\n**中游 (不織布與衛材製造):**\n- **不織布製造:** **康那香 (9919)** — 熱風、壓延、氣流成網、水刺、熔噴等多製程不織布製造\n- **成品加工:** 衛生棉、紙尿褲、濕紙巾、化妝棉等衛材成品\n- **工業應用:** 空氣過濾材料、廢水處理與淨水方案\n\n**下游 (銷售通路):**\n- **品牌零售:** 全台各大量販超市、藥妝店 (「[[康乃馨]]」、「[[蘭韻]]」品牌)\n- **OEM 代工:** 國內外衛材品牌代工\n- **工業客戶:** 空氣過濾設備商及水處理工程業者",
+    "customers_suppliers_md": "### 主要客戶\n- **自有品牌零售:** 「[[康乃馨]]」(衛生棉/濕紙巾)、「[[蘭韻]]」(化妝棉) — 透過 [[全聯]]、[[家樂福]]、[[統一超商]] 等通路銷售\n- **OEM 代工:** 國內外衛材品牌之代工製造\n- **工業客戶:** 空氣過濾及水處理事業之設備商\n\n### 主要供應商\n- **纖維原料:** [[聚酯纖維]]、[[嫘縈]]、木漿棉等化學纖維供應商\n- **吸收材料:** 國際 [[SAP]] 供應商 (如 [[BASF]]、[[Evonik]])\n- **設備供應:** 歐洲不織布產線及衛材加工設備廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

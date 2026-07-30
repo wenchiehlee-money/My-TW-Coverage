@@ -1,0 +1,244 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9925",
+  "company_name": "新保",
+  "title": "9925 - 新保",
+  "source_md": "Pilot_Reports/Security & Protection Services/9925_新保.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Security & Protection Services",
+    "market_cap": "15,560 百萬台幣",
+    "enterprise_value": "10,184 百萬台幣"
+  },
+  "business": {
+    "summary": "新光保全股份有限公司成立於1969年，為[[新光集團]]旗下保全事業，與[[中保科]]（9917）並列台灣兩大保全集團。核心業務涵蓋：（1）**電子保全：** 防盜/防火設備之設計、銷售、租賃、安裝及維修，為主要營收來源；（2）**現金運送：** 現金及貴重物品押運服務；（3）**駐衛保全：** 企業及大樓駐警衛服務。此外亦跨足停車場經營、電腦系統整合、服務[[機器人]]研發（[[新保智慧]]）、大樓物業管理、醫療設備零售及汽車租賃等多元事業。公司持續發展智慧化安防系統，推動門禁[[自動化]]與[[AI]]監控升級。",
+    "entities": [
+      "新光集團",
+      "中保科",
+      "機器人",
+      "新保智慧",
+      "自動化",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與技術)",
+        "text": "**上游 (設備與技術):**",
+        "entities": []
+      },
+      {
+        "category": "安防設備",
+        "text": "監控攝影機、門禁系統、防盜/防火設備",
+        "entities": []
+      },
+      {
+        "category": "機器人",
+        "text": "服務機器人研發零組件",
+        "entities": []
+      },
+      {
+        "category": "車輛",
+        "text": "現金運送專用車輛",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (保全服務)",
+        "text": "**中游 (保全服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**新光保全** — 電子保全系統、駐衛保全、現金運送、停車場管理、物業管理、[[AI]]監控系統",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "金融機構",
+        "text": "銀行ATM補鈔與金庫運送",
+        "entities": []
+      },
+      {
+        "category": "企業/商辦",
+        "text": "商辦大樓、零售通路之安防系統",
+        "entities": []
+      },
+      {
+        "category": "住宅社區",
+        "text": "社區大樓保全",
+        "entities": []
+      },
+      {
+        "category": "[[新光集團]]",
+        "text": "集團內各事業體（新光人壽大樓、百貨等）之安防需求",
+        "entities": [
+          "新光集團"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融機構",
+        "text": "銀行ATM現金補鈔與貴重物品押運",
+        "entities": []
+      },
+      {
+        "role": "[[新光集團]]",
+        "text": "集團內事業體（[[新光人壽]]大樓、新光百貨等）",
+        "entities": [
+          "新光集團",
+          "新光人壽"
+        ]
+      },
+      {
+        "role": "企業/商辦",
+        "text": "商辦大樓與零售通路之電子保全與駐衛保全",
+        "entities": []
+      },
+      {
+        "role": "住宅社區",
+        "text": "社區大樓保全監控",
+        "entities": []
+      },
+      {
+        "role": "公共場域",
+        "text": "政府安防專案標案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "安防設備",
+        "text": "監控攝影機、門禁及防盜/防火設備供應商",
+        "entities": []
+      },
+      {
+        "role": "資訊系統",
+        "text": "電腦系統整合與[[AI]]監控軟體供應商",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "role": "車輛",
+        "text": "現金運送專用車輛供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Security & Protection Services):** [[云辰]]、[[杭特]]、[[奇偶]]、[[晶睿]]、[[建騰]]",
+        "entities": [
+          "云辰",
+          "杭特",
+          "奇偶",
+          "晶睿",
+          "建騰"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "新光集團",
+          "新光人壽"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新光集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光集團"
+    },
+    {
+      "name": "中保科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中保科"
+    },
+    {
+      "name": "機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "機器人"
+    },
+    {
+      "name": "新保智慧",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新保智慧"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "新光人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光人壽"
+    },
+    {
+      "name": "云辰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "云辰"
+    },
+    {
+      "name": "杭特",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杭特"
+    },
+    {
+      "name": "奇偶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇偶"
+    },
+    {
+      "name": "晶睿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶睿"
+    },
+    {
+      "name": "建騰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建騰"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新光保全股份有限公司成立於1969年，為[[新光集團]]旗下保全事業，與[[中保科]]（9917）並列台灣兩大保全集團。核心業務涵蓋：（1）**電子保全：** 防盜/防火設備之設計、銷售、租賃、安裝及維修，為主要營收來源；（2）**現金運送：** 現金及貴重物品押運服務；（3）**駐衛保全：** 企業及大樓駐警衛服務。此外亦跨足停車場經營、電腦系統整合、服務[[機器人]]研發（[[新保智慧]]）、大樓物業管理、醫療設備零售及汽車租賃等多元事業。公司持續發展智慧化安防系統，推動門禁[[自動化]]與[[AI]]監控升級。",
+    "supply_chain_md": "**上游 (設備與技術):**\n- **安防設備:** 監控攝影機、門禁系統、防盜/防火設備\n- **機器人:** 服務機器人研發零組件\n- **車輛:** 現金運送專用車輛\n\n**中游 (保全服務):**\n- **新光保全** — 電子保全系統、駐衛保全、現金運送、停車場管理、物業管理、[[AI]]監控系統\n\n**下游 (終端客戶):**\n- **金融機構:** 銀行ATM補鈔與金庫運送\n- **企業/商辦:** 商辦大樓、零售通路之安防系統\n- **住宅社區:** 社區大樓保全\n- **[[新光集團]]:** 集團內各事業體（新光人壽大樓、百貨等）之安防需求",
+    "customers_suppliers_md": "### 主要客戶\n- **金融機構:** 銀行ATM現金補鈔與貴重物品押運\n- **[[新光集團]]:** 集團內事業體（[[新光人壽]]大樓、新光百貨等）\n- **企業/商辦:** 商辦大樓與零售通路之電子保全與駐衛保全\n- **住宅社區:** 社區大樓保全監控\n- **公共場域:** 政府安防專案標案\n\n### 主要供應商\n- **安防設備:** 監控攝影機、門禁及防盜/防火設備供應商\n- **資訊系統:** 電腦系統整合與[[AI]]監控軟體供應商\n- **車輛:** 現金運送專用車輛供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

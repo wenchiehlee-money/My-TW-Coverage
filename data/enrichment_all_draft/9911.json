@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9911",
+  "company_name": "櫻花",
+  "title": "9911 - 櫻花",
+  "source_md": "Pilot_Reports/Furnishings, Fixtures & Appliances/9911_櫻花.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "market_cap": "18,112 百萬台幣",
+    "enterprise_value": "16,348 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣櫻花 (9911，Sakura) 創立於 1978 年，總部位於台中，為台灣廚衛電器第一品牌，主要競爭者包括 [[林內]] (Rinnai)、[[莊頭北]]。主要產品涵蓋三大事業：(1) [[熱水器]] — 台灣市佔第一，內銷佔 89%；(2) 廚房配備 — [[瓦斯爐]]、[[排油煙機]]等，內銷佔 90%；(3) 整體廚房 — [[系統廚具]]，全數內銷。擁有 9 家總經銷商、全台近 3,500 家經銷據點，通路覆蓋率超過八成。與逾 300 家建設公司合作新建案配套。旗下超過 100 家「櫻花廚藝生活館」連鎖專屬通路。生產基地分佈台灣 4 廠區、中國 2 廠房及越南 1 廠。近年打造智能化生產線，推動少量多樣客製化生產。",
+    "entities": [
+      "林內",
+      "莊頭北",
+      "熱水器",
+      "瓦斯爐",
+      "排油煙機",
+      "系統廚具"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原物料與零組件)",
+        "text": "**上游 (原物料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "不鏽鋼板、銅管、鑄件",
+        "entities": []
+      },
+      {
+        "category": "電子零件",
+        "text": "控制器、點火器、感測元件",
+        "entities": []
+      },
+      {
+        "category": "玻璃/陶瓷",
+        "text": "爐面玻璃、衛浴陶瓷",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與品牌)",
+        "text": "**中游 (製造與品牌):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台灣櫻花** — [[熱水器]]、[[瓦斯爐]]、[[排油煙機]]、[[系統廚具]]設計製造；品牌行銷及全台售後服務",
+        "entities": [
+          "熱水器",
+          "瓦斯爐",
+          "排油煙機",
+          "系統廚具"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與終端)",
+        "text": "**下游 (通路與終端):**",
+        "entities": []
+      },
+      {
+        "category": "經銷體系",
+        "text": "9 家總經銷、近 3,500 家經銷據點",
+        "entities": []
+      },
+      {
+        "category": "專屬通路",
+        "text": "逾 100 家「櫻花廚藝生活館」",
+        "entities": []
+      },
+      {
+        "category": "建設公司",
+        "text": "逾 300 家建商 — 新建案配套",
+        "entities": []
+      },
+      {
+        "category": "海外市場",
+        "text": "中國、越南",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經銷體系",
+        "text": "全台近 3,500 家經銷據點 — 熱水器/廚具零售",
+        "entities": []
+      },
+      {
+        "role": "專屬通路",
+        "text": "逾 100 家「櫻花廚藝生活館」",
+        "entities": []
+      },
+      {
+        "role": "建設公司",
+        "text": "逾 300 家國內建商 — 新建案廚衛配套",
+        "entities": []
+      },
+      {
+        "role": "海外市場",
+        "text": "中國、越南",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬材料",
+        "text": "不鏽鋼板、銅管供應商",
+        "entities": []
+      },
+      {
+        "role": "電子零件",
+        "text": "控制器及感測元件供應商",
+        "entities": []
+      },
+      {
+        "role": "玻璃",
+        "text": "爐面強化玻璃供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "role": "",
+        "text": "[[林內]] (Rinnai)、[[莊頭北]] — 台灣廚衛電器",
+        "entities": [
+          "林內",
+          "莊頭北"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "林內",
+      "type": "taiwan_company_or_term",
+      "wikilink": "林內"
+    },
+    {
+      "name": "莊頭北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "莊頭北"
+    },
+    {
+      "name": "熱水器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "熱水器"
+    },
+    {
+      "name": "瓦斯爐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瓦斯爐"
+    },
+    {
+      "name": "排油煙機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "排油煙機"
+    },
+    {
+      "name": "系統廚具",
+      "type": "taiwan_company_or_term",
+      "wikilink": "系統廚具"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣櫻花 (9911，Sakura) 創立於 1978 年，總部位於台中，為台灣廚衛電器第一品牌，主要競爭者包括 [[林內]] (Rinnai)、[[莊頭北]]。主要產品涵蓋三大事業：(1) [[熱水器]] — 台灣市佔第一，內銷佔 89%；(2) 廚房配備 — [[瓦斯爐]]、[[排油煙機]]等，內銷佔 90%；(3) 整體廚房 — [[系統廚具]]，全數內銷。擁有 9 家總經銷商、全台近 3,500 家經銷據點，通路覆蓋率超過八成。與逾 300 家建設公司合作新建案配套。旗下超過 100 家「櫻花廚藝生活館」連鎖專屬通路。生產基地分佈台灣 4 廠區、中國 2 廠房及越南 1 廠。近年打造智能化生產線，推動少量多樣客製化生產。",
+    "supply_chain_md": "**上游 (原物料與零組件):**\n- **金屬材料:** 不鏽鋼板、銅管、鑄件\n- **電子零件:** 控制器、點火器、感測元件\n- **玻璃/陶瓷:** 爐面玻璃、衛浴陶瓷\n\n**中游 (製造與品牌):**\n- **台灣櫻花** — [[熱水器]]、[[瓦斯爐]]、[[排油煙機]]、[[系統廚具]]設計製造；品牌行銷及全台售後服務\n\n**下游 (通路與終端):**\n- **經銷體系:** 9 家總經銷、近 3,500 家經銷據點\n- **專屬通路:** 逾 100 家「櫻花廚藝生活館」\n- **建設公司:** 逾 300 家建商 — 新建案配套\n- **海外市場:** 中國、越南",
+    "customers_suppliers_md": "### 主要客戶\n- **經銷體系:** 全台近 3,500 家經銷據點 — 熱水器/廚具零售\n- **專屬通路:** 逾 100 家「櫻花廚藝生活館」\n- **建設公司:** 逾 300 家國內建商 — 新建案廚衛配套\n- **海外市場:** 中國、越南\n\n### 主要供應商\n- **金屬材料:** 不鏽鋼板、銅管供應商\n- **電子零件:** 控制器及感測元件供應商\n- **玻璃:** 爐面強化玻璃供應商\n\n### 主要競爭者\n- [[林內]] (Rinnai)、[[莊頭北]] — 台灣廚衛電器"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

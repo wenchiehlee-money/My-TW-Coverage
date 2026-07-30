@@ -1,0 +1,296 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2002",
+  "company_name": "中鋼",
+  "title": "2002 - [[中鋼]]",
+  "source_md": "Pilot_Reports/Steel/2002_中鋼.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "289,556 百萬台幣",
+    "enterprise_value": "548,683 百萬台幣"
+  },
+  "business": {
+    "summary": "中國鋼鐵 (2002，China Steel) 為台灣最大鋼鐵企業、唯一[[高爐]]煉鋼一貫廠 (年粗鋼1,050萬噸)。集團含[[中龍鋼鐵]]、[[中鋼構]]、[[中鋼鋁業]]、[[中鋼運通]]。上游鐵礦自[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]。下游含汽車 ([[國瑞汽車]]/[[福特六和]])、家電 ([[東元]]/[[大同]]用[[電磁鋼片]])、造船 ([[台灣國際造船]])、鋼構 ([[中鋼構]]/[[長榮鋼]])、扣件 ([[春雨]])。",
+    "entities": [
+      "高爐",
+      "中龍鋼鐵",
+      "中鋼構",
+      "中鋼鋁業",
+      "中鋼運通",
+      "Vale",
+      "BHP",
+      "Rio Tinto",
+      "FMG",
+      "國瑞汽車",
+      "福特六和",
+      "東元",
+      "大同",
+      "電磁鋼片",
+      "台灣國際造船",
+      "長榮鋼",
+      "春雨"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]] — 鐵礦; [[中鋼運通]] — 海運",
+        "entities": [
+          "Vale",
+          "BHP",
+          "Rio Tinto",
+          "FMG",
+          "中鋼運通"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**[[中鋼]]** ([[高爐]]一貫1,050萬噸); [[中龍鋼鐵]] (250萬噸)",
+        "entities": [
+          "中鋼",
+          "高爐",
+          "中龍鋼鐵"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[國瑞汽車]]、[[福特六和]]、[[東元]]、[[大同]]、[[台灣國際造船]]、[[中鋼構]]、[[長榮鋼]]、[[春雨]]",
+        "entities": [
+          "國瑞汽車",
+          "福特六和",
+          "東元",
+          "大同",
+          "台灣國際造船",
+          "中鋼構",
+          "長榮鋼",
+          "春雨"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "汽車",
+        "text": "[[國瑞汽車]]、[[福特六和]]",
+        "entities": [
+          "國瑞汽車",
+          "福特六和"
+        ]
+      },
+      {
+        "role": "家電",
+        "text": "[[東元]]、[[大同]] — [[電磁鋼片]]",
+        "entities": [
+          "東元",
+          "大同",
+          "電磁鋼片"
+        ]
+      },
+      {
+        "role": "造船",
+        "text": "[[台灣國際造船]]",
+        "entities": [
+          "台灣國際造船"
+        ]
+      },
+      {
+        "role": "鋼構",
+        "text": "[[中鋼構]]、[[長榮鋼]]",
+        "entities": [
+          "中鋼構",
+          "長榮鋼"
+        ]
+      },
+      {
+        "role": "扣件",
+        "text": "[[春雨]]",
+        "entities": [
+          "春雨"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]",
+        "entities": [
+          "Vale",
+          "BHP",
+          "Rio Tinto",
+          "FMG"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]、[[春源]]",
+        "entities": [
+          "華新",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌",
+          "春源"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "國瑞汽車",
+          "福特六和",
+          "東元",
+          "大同",
+          "電磁鋼片",
+          "台灣國際造船",
+          "中鋼構",
+          "長榮鋼",
+          "春雨"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "高爐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高爐"
+    },
+    {
+      "name": "中龍鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中龍鋼鐵"
+    },
+    {
+      "name": "中鋼構",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼構"
+    },
+    {
+      "name": "中鋼鋁業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼鋁業"
+    },
+    {
+      "name": "中鋼運通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼運通"
+    },
+    {
+      "name": "Vale",
+      "type": "international_company_or_term",
+      "wikilink": "Vale"
+    },
+    {
+      "name": "BHP",
+      "type": "international_company_or_term",
+      "wikilink": "BHP"
+    },
+    {
+      "name": "Rio Tinto",
+      "type": "international_company_or_term",
+      "wikilink": "Rio Tinto"
+    },
+    {
+      "name": "FMG",
+      "type": "international_company_or_term",
+      "wikilink": "FMG"
+    },
+    {
+      "name": "國瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國瑞汽車"
+    },
+    {
+      "name": "福特六和",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福特六和"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "電磁鋼片",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電磁鋼片"
+    },
+    {
+      "name": "台灣國際造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣國際造船"
+    },
+    {
+      "name": "長榮鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮鋼"
+    },
+    {
+      "name": "春雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春雨"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    },
+    {
+      "name": "春源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春源"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國鋼鐵 (2002，China Steel) 為台灣最大鋼鐵企業、唯一[[高爐]]煉鋼一貫廠 (年粗鋼1,050萬噸)。集團含[[中龍鋼鐵]]、[[中鋼構]]、[[中鋼鋁業]]、[[中鋼運通]]。上游鐵礦自[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]。下游含汽車 ([[國瑞汽車]]/[[福特六和]])、家電 ([[東元]]/[[大同]]用[[電磁鋼片]])、造船 ([[台灣國際造船]])、鋼構 ([[中鋼構]]/[[長榮鋼]])、扣件 ([[春雨]])。",
+    "supply_chain_md": "**上游:** [[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]] — 鐵礦; [[中鋼運通]] — 海運\n**中游:** **[[中鋼]]** ([[高爐]]一貫1,050萬噸); [[中龍鋼鐵]] (250萬噸)\n**下游:** [[國瑞汽車]]、[[福特六和]]、[[東元]]、[[大同]]、[[台灣國際造船]]、[[中鋼構]]、[[長榮鋼]]、[[春雨]]",
+    "customers_suppliers_md": "### 主要客戶\n- **汽車:** [[國瑞汽車]]、[[福特六和]]\n- **家電:** [[東元]]、[[大同]] — [[電磁鋼片]]\n- **造船:** [[台灣國際造船]]\n- **鋼構:** [[中鋼構]]、[[長榮鋼]]\n- **扣件:** [[春雨]]\n\n### 主要供應商\n- [[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 18,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

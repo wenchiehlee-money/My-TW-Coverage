@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3555",
+  "company_name": "博士旺",
+  "title": "3555 - 博士旺",
+  "source_md": "Pilot_Reports/Software - Infrastructure/3555_博士旺.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "5,360 百萬台幣",
+    "enterprise_value": "4,744 百萬台幣"
+  },
+  "business": {
+    "summary": "博士旺創新 (3555，BaaS Innovation) 為企業級[[區塊鏈]]基礎建設與數位資產合規服務商。公司前身為 IC 設計廠，現已轉型為控股式經營，核心業務涵蓋：(1) 區塊鏈供應鏈金融平台開發，與[[中國信託]]合作建置企業應收帳款融資系統；(2) [[VASP]] 合規與數位資產基礎建設顧問服務；(3) 去中心化數位身分認證 ([[DID]]) 技術開發；(4) 生技保健食品與美容產品銷售；(5) [[記憶體]]與電子材料買賣。公司透過旗下子公司推動區塊鏈技術商業化，定位為台灣少數具備 VASP 牌照與合規能力之區塊鏈軟體商。",
+    "entities": [
+      "區塊鏈",
+      "中國信託",
+      "VASP",
+      "DID",
+      "記憶體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與原料)",
+        "text": "**上游 (技術與原料):**",
+        "entities": []
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 區塊鏈節點運算基礎設施",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "category": "區塊鏈協議",
+        "text": "[[Ethereum]]、[[Hyperledger]] — 底層分散式帳本技術",
+        "entities": [
+          "Ethereum",
+          "Hyperledger"
+        ]
+      },
+      {
+        "category": "電子材料",
+        "text": "[[記憶體]]模組及電子零組件供應商",
+        "entities": [
+          "記憶體"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台開發)",
+        "text": "**中游 (平台開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**博士旺** (企業級[[區塊鏈]]平台開發、[[DID]]數位身分認證、VASP 合規服務)",
+        "entities": [
+          "區塊鏈",
+          "DID"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "金融機構",
+        "text": "[[中國信託]] — 供應鏈金融區塊鏈平台合作",
+        "entities": [
+          "中國信託"
+        ]
+      },
+      {
+        "category": "政府專案",
+        "text": "數位身分與資安驗證",
+        "entities": []
+      },
+      {
+        "category": "生技通路",
+        "text": "保健食品與美容產品經銷",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融機構",
+        "text": "[[中國信託]] — 供應鏈金融區塊鏈平台合作",
+        "entities": [
+          "中國信託"
+        ]
+      },
+      {
+        "role": "政府單位",
+        "text": "數位身分認證與資安專案",
+        "entities": []
+      },
+      {
+        "role": "生技/電子",
+        "text": "經銷商與終端消費者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端基礎設施",
+        "text": "[[AWS]]、[[Microsoft Azure]]",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "區塊鏈技術",
+        "text": "[[Ethereum]]、[[Hyperledger]] 開源社群",
+        "entities": [
+          "Ethereum",
+          "Hyperledger"
+        ]
+      },
+      {
+        "role": "電子零組件",
+        "text": "[[記憶體]]模組供應商",
+        "entities": [
+          "記憶體"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Infrastructure):** [[凌網]]、[[悠遊卡]]、[[神盾]]、[[物聯]]、[[伊雲谷]]",
+        "entities": [
+          "凌網",
+          "悠遊卡",
+          "神盾",
+          "物聯",
+          "伊雲谷"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中國信託"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "區塊鏈",
+      "type": "taiwan_company_or_term",
+      "wikilink": "區塊鏈"
+    },
+    {
+      "name": "中國信託",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託"
+    },
+    {
+      "name": "VASP",
+      "type": "international_company_or_term",
+      "wikilink": "VASP"
+    },
+    {
+      "name": "DID",
+      "type": "international_company_or_term",
+      "wikilink": "DID"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "Ethereum",
+      "type": "international_company_or_term",
+      "wikilink": "Ethereum"
+    },
+    {
+      "name": "Hyperledger",
+      "type": "international_company_or_term",
+      "wikilink": "Hyperledger"
+    },
+    {
+      "name": "凌網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌網"
+    },
+    {
+      "name": "悠遊卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "悠遊卡"
+    },
+    {
+      "name": "神盾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神盾"
+    },
+    {
+      "name": "物聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯"
+    },
+    {
+      "name": "伊雲谷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伊雲谷"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "博士旺創新 (3555，BaaS Innovation) 為企業級[[區塊鏈]]基礎建設與數位資產合規服務商。公司前身為 IC 設計廠，現已轉型為控股式經營，核心業務涵蓋：(1) 區塊鏈供應鏈金融平台開發，與[[中國信託]]合作建置企業應收帳款融資系統；(2) [[VASP]] 合規與數位資產基礎建設顧問服務；(3) 去中心化數位身分認證 ([[DID]]) 技術開發；(4) 生技保健食品與美容產品銷售；(5) [[記憶體]]與電子材料買賣。公司透過旗下子公司推動區塊鏈技術商業化，定位為台灣少數具備 VASP 牌照與合規能力之區塊鏈軟體商。",
+    "supply_chain_md": "**上游 (技術與原料):**\n- **雲端平台:** [[AWS]]、[[Microsoft Azure]] — 區塊鏈節點運算基礎設施\n- **區塊鏈協議:** [[Ethereum]]、[[Hyperledger]] — 底層分散式帳本技術\n- **電子材料:** [[記憶體]]模組及電子零組件供應商\n\n**中游 (平台開發):**\n- **博士旺** (企業級[[區塊鏈]]平台開發、[[DID]]數位身分認證、VASP 合規服務)\n\n**下游 (終端應用):**\n- **金融機構:** [[中國信託]] — 供應鏈金融區塊鏈平台合作\n- **政府專案:** 數位身分與資安驗證\n- **生技通路:** 保健食品與美容產品經銷",
+    "customers_suppliers_md": "### 主要客戶\n- **金融機構:** [[中國信託]] — 供應鏈金融區塊鏈平台合作\n- **政府單位:** 數位身分認證與資安專案\n- **生技/電子:** 經銷商與終端消費者\n\n### 主要供應商\n- **雲端基礎設施:** [[AWS]]、[[Microsoft Azure]]\n- **區塊鏈技術:** [[Ethereum]]、[[Hyperledger]] 開源社群\n- **電子零組件:** [[記憶體]]模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

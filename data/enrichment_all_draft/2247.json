@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2247",
+  "company_name": "汎德永業",
+  "title": "2247 - 汎德永業",
+  "source_md": "Pilot_Reports/Auto & Truck Dealerships/2247_汎德永業.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto & Truck Dealerships",
+    "market_cap": "18,240 百萬台幣",
+    "enterprise_value": "19,357 百萬台幣"
+  },
+  "business": {
+    "summary": "汎德永業 (2247，Pan German Motor) 為台灣頂級豪華進口車代理商，經營逾 40 年，獨家代理[[BMW AG]]、[[MINI]]、[[Porsche AG]]及[[BMW Motorrad]]重型機車四大品牌。公司以頂級展間體驗與完整售後服務建立高端品牌形象，服務台灣高資產客群。近年持續擴大展間佈局，台中[[Porsche]] Centre (2023 年開幕)、[[BMW]] 汎德台中新展間 (預算 14.8 億元)、高雄展間擴建等投資計畫持續推進。另提供認證中古車及企業長期租賃服務。",
+    "entities": [
+      "BMW AG",
+      "MINI",
+      "Porsche AG",
+      "BMW Motorrad",
+      "Porsche",
+      "BMW"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌原廠)",
+        "text": "**上游 (品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "豪華車",
+        "text": "[[BMW AG]] — 乘用車品牌授權與整車供應",
+        "entities": [
+          "BMW AG"
+        ]
+      },
+      {
+        "category": "跑車",
+        "text": "[[Porsche AG]] — 跑車品牌代理",
+        "entities": [
+          "Porsche AG"
+        ]
+      },
+      {
+        "category": "小型車",
+        "text": "[[MINI]] — 都會小車品牌",
+        "entities": [
+          "MINI"
+        ]
+      },
+      {
+        "category": "重機",
+        "text": "[[BMW Motorrad]] — 重型機車",
+        "entities": [
+          "BMW Motorrad"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌代理)",
+        "text": "**中游 (品牌代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**汎德永業** (品牌總代理、展間經營、認證中古車、企業租賃)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "個人",
+        "text": "台灣高資產消費者",
+        "entities": []
+      },
+      {
+        "category": "企業",
+        "text": "企業長期租賃客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "個人",
+        "text": "台灣高資產消費者 — [[BMW]]、[[Porsche]]、[[MINI]] 車主",
+        "entities": [
+          "BMW",
+          "Porsche",
+          "MINI"
+        ]
+      },
+      {
+        "role": "企業",
+        "text": "企業長期租賃客戶",
+        "entities": []
+      },
+      {
+        "role": "重機",
+        "text": "[[BMW Motorrad]] 重機愛好者",
+        "entities": [
+          "BMW Motorrad"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "豪華車",
+        "text": "[[BMW AG]] — 整車、零件及品牌授權",
+        "entities": [
+          "BMW AG"
+        ]
+      },
+      {
+        "role": "跑車",
+        "text": "[[Porsche AG]] — 整車及零件供應",
+        "entities": [
+          "Porsche AG"
+        ]
+      },
+      {
+        "role": "小型車",
+        "text": "[[MINI]] — 整車供應",
+        "entities": [
+          "MINI"
+        ]
+      },
+      {
+        "role": "重機",
+        "text": "[[BMW Motorrad]] — 重型機車",
+        "entities": [
+          "BMW Motorrad"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto & Truck Dealerships):** [[和泰車]]",
+        "entities": [
+          "和泰車"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "BMW",
+          "Porsche",
+          "MINI",
+          "BMW Motorrad"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "BMW AG",
+      "type": "international_company_or_term",
+      "wikilink": "BMW AG"
+    },
+    {
+      "name": "MINI",
+      "type": "international_company_or_term",
+      "wikilink": "MINI"
+    },
+    {
+      "name": "Porsche AG",
+      "type": "international_company_or_term",
+      "wikilink": "Porsche AG"
+    },
+    {
+      "name": "BMW Motorrad",
+      "type": "international_company_or_term",
+      "wikilink": "BMW Motorrad"
+    },
+    {
+      "name": "Porsche",
+      "type": "international_company_or_term",
+      "wikilink": "Porsche"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "和泰車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和泰車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "汎德永業 (2247，Pan German Motor) 為台灣頂級豪華進口車代理商，經營逾 40 年，獨家代理[[BMW AG]]、[[MINI]]、[[Porsche AG]]及[[BMW Motorrad]]重型機車四大品牌。公司以頂級展間體驗與完整售後服務建立高端品牌形象，服務台灣高資產客群。近年持續擴大展間佈局，台中[[Porsche]] Centre (2023 年開幕)、[[BMW]] 汎德台中新展間 (預算 14.8 億元)、高雄展間擴建等投資計畫持續推進。另提供認證中古車及企業長期租賃服務。",
+    "supply_chain_md": "**上游 (品牌原廠):**\n- **豪華車:** [[BMW AG]] — 乘用車品牌授權與整車供應\n- **跑車:** [[Porsche AG]] — 跑車品牌代理\n- **小型車:** [[MINI]] — 都會小車品牌\n- **重機:** [[BMW Motorrad]] — 重型機車\n\n**中游 (品牌代理):**\n- **汎德永業** (品牌總代理、展間經營、認證中古車、企業租賃)\n\n**下游 (終端客戶):**\n- **個人:** 台灣高資產消費者\n- **企業:** 企業長期租賃客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **個人:** 台灣高資產消費者 — [[BMW]]、[[Porsche]]、[[MINI]] 車主\n- **企業:** 企業長期租賃客戶\n- **重機:** [[BMW Motorrad]] 重機愛好者\n\n### 主要供應商\n- **豪華車:** [[BMW AG]] — 整車、零件及品牌授權\n- **跑車:** [[Porsche AG]] — 整車及零件供應\n- **小型車:** [[MINI]] — 整車供應\n- **重機:** [[BMW Motorrad]] — 重型機車"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

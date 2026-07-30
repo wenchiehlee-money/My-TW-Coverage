@@ -1,0 +1,291 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5251",
+  "company_name": "天鉞電",
+  "title": "5251 - 天鉞電",
+  "source_md": "Pilot_Reports/Electronic Components/5251_天鉞電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "842 百萬台幣",
+    "enterprise_value": "594 百萬台幣"
+  },
+  "business": {
+    "summary": "天鉞電子 (5251，[[JSW Pacific]]) 為 **智慧安防 (Smart Security)** 解決方案供應商，早期以無線電話起家，後成功轉型 DIY 安防產品。\n\n核心業務：(1) **智慧攝影機 (Smart Camera)** — 戶外電池機、PTZ 攝影機、[[AI]] 影像辨識視訊門鈴；(2) **電子鎖 (Smart Lock)** — 整合影像辨識與遠端控制之智慧門禁系統；(3) **安防訂閱服務 (SaaS)** — 從純硬體代工轉向雲端安防訂閱制，與保全公司合作；(4) **代理業務** — 獨家代理日本 [[Optex]] 感測器與德國 [[ABUS]] 安防產品，打入國內 [[AI]] 資料中心與工廠安防市場。公司以 ODM 模式服務歐美 DIY 安防品牌，產品行銷全球。",
+    "entities": [
+      "JSW Pacific",
+      "AI",
+      "Optex",
+      "ABUS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (安防電子元件)",
+        "text": "**上游 (安防電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "SoC 晶片",
+        "text": "[[海思]]、[[聯詠]] — 安防攝影機處理器",
+        "entities": [
+          "海思",
+          "聯詠"
+        ]
+      },
+      {
+        "category": "影像感測器",
+        "text": "[[CMOS]] Sensor 供應商",
+        "entities": [
+          "CMOS"
+        ]
+      },
+      {
+        "category": "通訊模組",
+        "text": "WiFi/藍牙/4G 無線通訊模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (安防產品設計製造)",
+        "text": "**中游 (安防產品設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "智慧攝影機",
+        "text": "**天鉞電** (ODM 設計/軟韌體開發)",
+        "entities": []
+      },
+      {
+        "category": "電子鎖",
+        "text": "**天鉞電** (影像辨識智慧門禁)",
+        "entities": []
+      },
+      {
+        "category": "代理產品",
+        "text": "[[Optex]] 感測器、[[ABUS]] 安防產品",
+        "entities": [
+          "Optex",
+          "ABUS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (安防終端市場)",
+        "text": "**下游 (安防終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "歐美 DIY 連鎖賣場如 [[Home Depot]]、[[Lowe's]]",
+        "entities": [
+          "Home Depot",
+          "Lowe's"
+        ]
+      },
+      {
+        "category": "安防品牌",
+        "text": "歐美 DIY 安防品牌 — ODM 代工",
+        "entities": []
+      },
+      {
+        "category": "保全業者",
+        "text": "[[中保科技]]、[[新光保全]] — 國內系統整合",
+        "entities": [
+          "中保科技",
+          "新光保全"
+        ]
+      },
+      {
+        "category": "工廠/資料中心",
+        "text": "[[Optex]] 感測器打入國內安防供應鏈",
+        "entities": [
+          "Optex"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "安防品牌",
+        "text": "歐美 DIY 安防品牌 — 智慧攝影機/門鈴 ODM 代工 (主要營收)",
+        "entities": []
+      },
+      {
+        "role": "零售通路",
+        "text": "[[Home Depot]]、[[Lowe's]] — 北美 DIY 安防零售",
+        "entities": [
+          "Home Depot",
+          "Lowe's"
+        ]
+      },
+      {
+        "role": "保全系統",
+        "text": "[[中保科技]]、[[新光保全]] — 國內保全業者",
+        "entities": [
+          "中保科技",
+          "新光保全"
+        ]
+      },
+      {
+        "role": "代理專案",
+        "text": "國內 [[AI]] 資料中心與工廠 — [[Optex]] 感測器代理",
+        "entities": [
+          "AI",
+          "Optex"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "代理原廠",
+        "text": "[[Optex]] (日本感測器大廠) — 獨家代理",
+        "entities": [
+          "Optex"
+        ]
+      },
+      {
+        "role": "代理原廠",
+        "text": "[[ABUS]] (德國安防品牌) — 代理銷售",
+        "entities": [
+          "ABUS"
+        ]
+      },
+      {
+        "role": "SoC 晶片",
+        "text": "安防攝影機處理器供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Home Depot",
+          "Lowe's",
+          "中保科技",
+          "新光保全",
+          "AI",
+          "Optex"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "JSW Pacific",
+      "type": "international_company_or_term",
+      "wikilink": "JSW Pacific"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Optex",
+      "type": "international_company_or_term",
+      "wikilink": "Optex"
+    },
+    {
+      "name": "ABUS",
+      "type": "international_company_or_term",
+      "wikilink": "ABUS"
+    },
+    {
+      "name": "海思",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海思"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "CMOS",
+      "type": "international_company_or_term",
+      "wikilink": "CMOS"
+    },
+    {
+      "name": "Home Depot",
+      "type": "international_company_or_term",
+      "wikilink": "Home Depot"
+    },
+    {
+      "name": "Lowe's",
+      "type": "international_company_or_term",
+      "wikilink": "Lowe's"
+    },
+    {
+      "name": "中保科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中保科技"
+    },
+    {
+      "name": "新光保全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光保全"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "天鉞電子 (5251，[[JSW Pacific]]) 為 **智慧安防 (Smart Security)** 解決方案供應商，早期以無線電話起家，後成功轉型 DIY 安防產品。\n\n核心業務：(1) **智慧攝影機 (Smart Camera)** — 戶外電池機、PTZ 攝影機、[[AI]] 影像辨識視訊門鈴；(2) **電子鎖 (Smart Lock)** — 整合影像辨識與遠端控制之智慧門禁系統；(3) **安防訂閱服務 (SaaS)** — 從純硬體代工轉向雲端安防訂閱制，與保全公司合作；(4) **代理業務** — 獨家代理日本 [[Optex]] 感測器與德國 [[ABUS]] 安防產品，打入國內 [[AI]] 資料中心與工廠安防市場。公司以 ODM 模式服務歐美 DIY 安防品牌，產品行銷全球。",
+    "supply_chain_md": "**上游 (安防電子元件):**\n- **SoC 晶片:** [[海思]]、[[聯詠]] — 安防攝影機處理器\n- **影像感測器:** [[CMOS]] Sensor 供應商\n- **通訊模組:** WiFi/藍牙/4G 無線通訊模組\n\n**中游 (安防產品設計製造):**\n- **智慧攝影機:** **天鉞電** (ODM 設計/軟韌體開發)\n- **電子鎖:** **天鉞電** (影像辨識智慧門禁)\n- **代理產品:** [[Optex]] 感測器、[[ABUS]] 安防產品\n\n**下游 (安防終端市場):**\n- **零售通路:** 歐美 DIY 連鎖賣場如 [[Home Depot]]、[[Lowe's]]\n- **安防品牌:** 歐美 DIY 安防品牌 — ODM 代工\n- **保全業者:** [[中保科技]]、[[新光保全]] — 國內系統整合\n- **工廠/資料中心:** [[Optex]] 感測器打入國內安防供應鏈",
+    "customers_suppliers_md": "### 主要客戶\n- **安防品牌:** 歐美 DIY 安防品牌 — 智慧攝影機/門鈴 ODM 代工 (主要營收)\n- **零售通路:** [[Home Depot]]、[[Lowe's]] — 北美 DIY 安防零售\n- **保全系統:** [[中保科技]]、[[新光保全]] — 國內保全業者\n- **代理專案:** 國內 [[AI]] 資料中心與工廠 — [[Optex]] 感測器代理\n\n### 主要供應商\n- **代理原廠:** [[Optex]] (日本感測器大廠) — 獨家代理\n- **代理原廠:** [[ABUS]] (德國安防品牌) — 代理銷售\n- **SoC 晶片:** 安防攝影機處理器供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

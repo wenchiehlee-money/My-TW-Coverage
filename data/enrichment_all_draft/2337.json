@@ -1,0 +1,230 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2337",
+  "company_name": "旺宏",
+  "title": "2337 - 旺宏",
+  "source_md": "Pilot_Reports/Semiconductors/2337_旺宏.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "196,771 百萬台幣",
+    "enterprise_value": "203,725 百萬台幣"
+  },
+  "business": {
+    "summary": "旺宏電子 (Macronix International, MXIC) 成立於 1989 年，總部位於台灣[[新竹]]。公司為全球非揮發性[[記憶體]] (Non-Volatile Memory) 整合元件製造商 (IDM) 領導廠商。主要產品包括 **NOR Flash** (編碼型快閃[[記憶體]])、**ROM** (唯讀[[記憶體]]) 及 [[NAND]] Flash。旺宏在 ROM 市場為全球最大供應商 (主要受惠於 Nintendo 遊戲機)，在車用及工業用 NOR Flash 市場也居全球領先地位。公司擁有自有的 12 吋及 8 吋晶圓廠。",
+    "entities": [
+      "新竹",
+      "記憶體",
+      "NAND"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "[[矽晶圓]]",
+        "text": "透過長期合約取得。",
+        "entities": [
+          "矽晶圓"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "遊戲機 (ROM)",
+        "text": "任天堂 (Nintendo) 是最重要單一客戶，供應 Switch 卡帶[[記憶體]]。",
+        "entities": [
+          "記憶體"
+        ]
+      },
+      {
+        "category": "車用/工控 (NOR Flash)",
+        "text": "廣泛應用於車載資通訊、[[ADAS]]、工業控制等高品質要求領域。",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "category": "通訊/消費",
+        "text": "[[5G]] 基地台、TWS 耳機、[[物聯網]]裝置。",
+        "entities": [
+          "5G",
+          "物聯網"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "遊戲",
+        "text": "Nintendo (任天堂)。",
+        "entities": []
+      },
+      {
+        "role": "車用/工控",
+        "text": "[[NVIDIA]] (自駕平台), [[Qualcomm]], Cypress ([[Infineon]]), 車用 Tier 1 廠商。",
+        "entities": [
+          "NVIDIA",
+          "Qualcomm",
+          "Infineon"
+        ]
+      },
+      {
+        "role": "消費",
+        "text": "各大[[消費性電子]]品牌。",
+        "entities": [
+          "消費性電子"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "設備/材料",
+        "text": "國際[[半導體]]設備及材料廠。",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[台亞]]、[[茂矽]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "台亞",
+          "茂矽"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NVIDIA",
+          "Qualcomm",
+          "Infineon",
+          "消費性電子"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "NAND",
+      "type": "technology",
+      "wikilink": "NAND"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    },
+    {
+      "name": "茂矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "茂矽"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "旺宏電子 (Macronix International, MXIC) 成立於 1989 年，總部位於台灣[[新竹]]。公司為全球非揮發性[[記憶體]] (Non-Volatile Memory) 整合元件製造商 (IDM) 領導廠商。主要產品包括 **NOR Flash** (編碼型快閃[[記憶體]])、**ROM** (唯讀[[記憶體]]) 及 [[NAND]] Flash。旺宏在 ROM 市場為全球最大供應商 (主要受惠於 Nintendo 遊戲機)，在車用及工業用 NOR Flash 市場也居全球領先地位。公司擁有自有的 12 吋及 8 吋晶圓廠。",
+    "supply_chain_md": "**上游 (原料):**\n- **[[矽晶圓]]:** 透過長期合約取得。\n\n**下游應用:**\n- **遊戲機 (ROM):** 任天堂 (Nintendo) 是最重要單一客戶，供應 Switch 卡帶[[記憶體]]。\n- **車用/工控 (NOR Flash):** 廣泛應用於車載資通訊、[[ADAS]]、工業控制等高品質要求領域。\n- **通訊/消費:** [[5G]] 基地台、TWS 耳機、[[物聯網]]裝置。",
+    "customers_suppliers_md": "### 主要客戶\n- **遊戲:** Nintendo (任天堂)。\n- **車用/工控:** [[NVIDIA]] (自駕平台), [[Qualcomm]], Cypress ([[Infineon]]), 車用 Tier 1 廠商。\n- **消費:** 各大[[消費性電子]]品牌。\n\n### 主要供應商\n- **設備/材料:** 國際[[半導體]]設備及材料廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

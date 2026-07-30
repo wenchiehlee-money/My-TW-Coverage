@@ -1,0 +1,326 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6176",
+  "company_name": "瑞儀",
+  "title": "6176_瑞儀",
+  "source_md": "Pilot_Reports/Electronic Components/6176_瑞儀.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "28,961 百萬台幣",
+    "enterprise_value": "17,271 百萬台幣"
+  },
+  "business": {
+    "summary": "瑞儀光電 (6176，[[Radiant Opto-Electronics]]) 成立於 1995 年，為全球第一大 LCD 背光模組廠。\n\n主要業務：(1) 背光模組 — 具備從光學設計、模具開發、導光板射出成型到 LCM 組裝的一條龍整合能力，[[Apple]] 為最大客戶 (Macbook/iPad 背光)；(2) 超穎透鏡 ([[Meta]]-lens) — 透過併購丹麥 [[NIL Technology]]、芬蘭 [[Inkron]] 及 [[Nanocomp]]，跨足奈米壓印光學，2025 年已實現超穎透鏡量產，應用於工業機器人 3D 感測；(3) 電子紙前光板 — 為[[元太科技]] ([[E Ink]]) 供應彩色電子紙前光板設計；(4) [[AR]]/[[VR]] 光學 — 佈局 AR 波導鏡片與車用 HUD 光學材料。",
+    "entities": [
+      "Radiant Opto-Electronics",
+      "Apple",
+      "Meta",
+      "NIL Technology",
+      "Inkron",
+      "Nanocomp",
+      "元太科技",
+      "E Ink",
+      "AR",
+      "VR"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料)",
+        "text": "**上游 (光學材料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "PMMA、PC 光學級高分子塑膠粒",
+        "entities": []
+      },
+      {
+        "category": "LED",
+        "text": "LED 晶粒/封裝供應商",
+        "entities": []
+      },
+      {
+        "category": "光學膜",
+        "text": "[[3M]] 等光學膜片大廠 — 增輝膜、擴散膜",
+        "entities": [
+          "3M"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光學模組製造)",
+        "text": "**中游 (光學模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "**瑞儀** (LCD 背光模組、導光板)",
+        "entities": []
+      },
+      {
+        "category": "超穎透鏡",
+        "text": "**瑞儀**/[[NIL Technology]] ([[Meta]]-lens 奈米壓印)",
+        "entities": [
+          "NIL Technology",
+          "Meta"
+        ]
+      },
+      {
+        "category": "光學材料",
+        "text": "[[Inkron]]、[[Nanocomp]] — 高折射率光學材料",
+        "entities": [
+          "Inkron",
+          "Nanocomp"
+        ]
+      },
+      {
+        "category": "電子紙前光板",
+        "text": "**瑞儀** (彩色電子紙前光設計)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌)",
+        "text": "**下游 (終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "消費性電子",
+        "text": "[[Apple]] — Macbook/iPad 背光模組 (最大客戶)",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "[[Samsung]]、[[LG]]、[[群創]]、[[友達]] — LCD 背光模組",
+        "entities": [
+          "Samsung",
+          "LG",
+          "群創",
+          "友達"
+        ]
+      },
+      {
+        "category": "電子紙",
+        "text": "[[元太科技]] ([[E Ink]]) — 彩色電子紙前光板",
+        "entities": [
+          "元太科技",
+          "E Ink"
+        ]
+      },
+      {
+        "category": "3D 感測",
+        "text": "工業機器人廠 — [[Meta]]-lens 光學模組",
+        "entities": [
+          "Meta"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費性電子",
+        "text": "[[Apple]] — Macbook/iPad 背光模組 (營收占比最高)",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "面板廠",
+        "text": "[[Samsung]]、[[LG]]、[[群創]]、[[友達]] — LCD 背光模組",
+        "entities": [
+          "Samsung",
+          "LG",
+          "群創",
+          "友達"
+        ]
+      },
+      {
+        "role": "電子紙",
+        "text": "[[元太科技]] ([[E Ink]]) — 彩色電子紙前光板",
+        "entities": [
+          "元太科技",
+          "E Ink"
+        ]
+      },
+      {
+        "role": "3D 感測",
+        "text": "工業機器人廠 — 超穎透鏡光學模組",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學膜",
+        "text": "[[3M]] 等日系/美系光學膜片大廠",
+        "entities": [
+          "3M"
+        ]
+      },
+      {
+        "role": "塑膠粒",
+        "text": "國內外化工原料廠 — PMMA/PC 光學級塑膠粒",
+        "entities": []
+      },
+      {
+        "role": "LED",
+        "text": "LED 晶片原廠 — LED 晶粒與封裝",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "Samsung",
+          "LG",
+          "群創",
+          "友達",
+          "元太科技",
+          "E Ink"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Radiant Opto-Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Radiant Opto-Electronics"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "NIL Technology",
+      "type": "international_company_or_term",
+      "wikilink": "NIL Technology"
+    },
+    {
+      "name": "Inkron",
+      "type": "international_company_or_term",
+      "wikilink": "Inkron"
+    },
+    {
+      "name": "Nanocomp",
+      "type": "international_company_or_term",
+      "wikilink": "Nanocomp"
+    },
+    {
+      "name": "元太科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元太科技"
+    },
+    {
+      "name": "E Ink",
+      "type": "international_company_or_term",
+      "wikilink": "E Ink"
+    },
+    {
+      "name": "AR",
+      "type": "international_company_or_term",
+      "wikilink": "AR"
+    },
+    {
+      "name": "VR",
+      "type": "international_company_or_term",
+      "wikilink": "VR"
+    },
+    {
+      "name": "3M",
+      "type": "international_company_or_term",
+      "wikilink": "3M"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "瑞儀光電 (6176，[[Radiant Opto-Electronics]]) 成立於 1995 年，為全球第一大 LCD 背光模組廠。\n\n主要業務：(1) 背光模組 — 具備從光學設計、模具開發、導光板射出成型到 LCM 組裝的一條龍整合能力，[[Apple]] 為最大客戶 (Macbook/iPad 背光)；(2) 超穎透鏡 ([[Meta]]-lens) — 透過併購丹麥 [[NIL Technology]]、芬蘭 [[Inkron]] 及 [[Nanocomp]]，跨足奈米壓印光學，2025 年已實現超穎透鏡量產，應用於工業機器人 3D 感測；(3) 電子紙前光板 — 為[[元太科技]] ([[E Ink]]) 供應彩色電子紙前光板設計；(4) [[AR]]/[[VR]] 光學 — 佈局 AR 波導鏡片與車用 HUD 光學材料。",
+    "supply_chain_md": "**上游 (光學材料):**\n- **塑膠粒:** PMMA、PC 光學級高分子塑膠粒\n- **LED:** LED 晶粒/封裝供應商\n- **光學膜:** [[3M]] 等光學膜片大廠 — 增輝膜、擴散膜\n\n**中游 (光學模組製造):**\n- **背光模組:** **瑞儀** (LCD 背光模組、導光板)\n- **超穎透鏡:** **瑞儀**/[[NIL Technology]] ([[Meta]]-lens 奈米壓印)\n- **光學材料:** [[Inkron]]、[[Nanocomp]] — 高折射率光學材料\n- **電子紙前光板:** **瑞儀** (彩色電子紙前光設計)\n\n**下游 (終端品牌):**\n- **消費性電子:** [[Apple]] — Macbook/iPad 背光模組 (最大客戶)\n- **面板廠:** [[Samsung]]、[[LG]]、[[群創]]、[[友達]] — LCD 背光模組\n- **電子紙:** [[元太科技]] ([[E Ink]]) — 彩色電子紙前光板\n- **3D 感測:** 工業機器人廠 — [[Meta]]-lens 光學模組",
+    "customers_suppliers_md": "### 主要客戶\n- **消費性電子:** [[Apple]] — Macbook/iPad 背光模組 (營收占比最高)\n- **面板廠:** [[Samsung]]、[[LG]]、[[群創]]、[[友達]] — LCD 背光模組\n- **電子紙:** [[元太科技]] ([[E Ink]]) — 彩色電子紙前光板\n- **3D 感測:** 工業機器人廠 — 超穎透鏡光學模組\n\n### 主要供應商\n- **光學膜:** [[3M]] 等日系/美系光學膜片大廠\n- **塑膠粒:** 國內外化工原料廠 — PMMA/PC 光學級塑膠粒\n- **LED:** LED 晶片原廠 — LED 晶粒與封裝"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

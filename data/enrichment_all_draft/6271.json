@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6271",
+  "company_name": "同欣電",
+  "title": "6271_同欣電",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/6271_同欣電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "31,150 百萬台幣",
+    "enterprise_value": "27,577 百萬台幣"
+  },
+  "business": {
+    "summary": "同欣電子工業股份有限公司 (6271，同欣電) 是台灣著名的[[半導體]]微型模組封裝及陶瓷電路板製造大廠，亦是全球前三大CMOS影像感測器([[CIS]])封測廠之一。同欣電的核心業務橫跨四大領域：影像感測器封裝(主力為車用[[CIS]])、混合積體電路模組(含[[低軌衛星]]RF模組及[[光通訊]]模組)、高頻無線通訊模組與陶瓷基板(LED及高功率[[半導體]][[散熱]]用)。伴隨[[AI[[伺服器]]]](帶動800G[[光通訊]]模組需求)、[[ADAS]]自駕車(大量增加車用[[CIS]])及[[低軌衛星]](如[[SpaceX]])商機爆發，同欣電營運具備強大動能。",
+    "entities": [
+      "半導體",
+      "CIS",
+      "低軌衛星",
+      "光通訊",
+      "散熱",
+      "AI[[伺服器",
+      "ADAS",
+      "SpaceX"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 無晶圓IC設計公司(提供[[CIS]]感測晶片/RF通訊晶片)、陶瓷粉末/基板原料商及封裝膠料廠。",
+        "entities": [
+          "CIS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **同欣電** (影像感測器[[CIS]]封裝測試、高頻RF無線通訊模組/[[光通訊]]模組構裝，及陶瓷電路板製造)。",
+        "entities": [
+          "CIS",
+          "光通訊"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 全球大型一線車用電子模組廠(Tier 1)、[[低軌衛星]]營運商、[[光通訊]]設備商及光電/LED照明廠。",
+        "entities": [
+          "低軌衛星",
+          "光通訊"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[ON Semi]](安森美)、[[OmniVision]](豪威)等車用[[CIS]]巨頭(間接打入[[Tesla]]供應鏈)及[[SpaceX]][[低軌衛星]]。",
+        "entities": [
+          "ON Semi",
+          "OmniVision",
+          "CIS",
+          "Tesla",
+          "SpaceX",
+          "低軌衛星"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外封裝材料(金線、基板、封膠)供應商及日系陶瓷原料/設備廠。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ON Semi",
+          "OmniVision",
+          "CIS",
+          "Tesla",
+          "SpaceX",
+          "低軌衛星"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "光通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光通訊"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "ON Semi",
+      "type": "international_company_or_term",
+      "wikilink": "ON Semi"
+    },
+    {
+      "name": "OmniVision",
+      "type": "international_company_or_term",
+      "wikilink": "OmniVision"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "同欣電子工業股份有限公司 (6271，同欣電) 是台灣著名的[[半導體]]微型模組封裝及陶瓷電路板製造大廠，亦是全球前三大CMOS影像感測器([[CIS]])封測廠之一。同欣電的核心業務橫跨四大領域：影像感測器封裝(主力為車用[[CIS]])、混合積體電路模組(含[[低軌衛星]]RF模組及[[光通訊]]模組)、高頻無線通訊模組與陶瓷基板(LED及高功率[[半導體]][[散熱]]用)。伴隨[[AI[[伺服器]]]](帶動800G[[光通訊]]模組需求)、[[ADAS]]自駕車(大量增加車用[[CIS]])及[[低軌衛星]](如[[SpaceX]])商機爆發，同欣電營運具備強大動能。",
+    "supply_chain_md": "*   **上游**: 無晶圓IC設計公司(提供[[CIS]]感測晶片/RF通訊晶片)、陶瓷粉末/基板原料商及封裝膠料廠。\n*   **中游**: **同欣電** (影像感測器[[CIS]]封裝測試、高頻RF無線通訊模組/[[光通訊]]模組構裝，及陶瓷電路板製造)。\n*   **下游**: 全球大型一線車用電子模組廠(Tier 1)、[[低軌衛星]]營運商、[[光通訊]]設備商及光電/LED照明廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[ON Semi]](安森美)、[[OmniVision]](豪威)等車用[[CIS]]巨頭(間接打入[[Tesla]]供應鏈)及[[SpaceX]][[低軌衛星]]。\n\n### 主要供應商\n*   國內外封裝材料(金線、基板、封膠)供應商及日系陶瓷原料/設備廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4438",
+  "company_name": "廣越",
+  "title": "4438 - 廣越",
+  "source_md": "Pilot_Reports/Apparel Manufacturing/4438_廣越.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "6,873 百萬台幣",
+    "enterprise_value": "10,509 百萬台幣"
+  },
+  "business": {
+    "summary": "廣越企業 (4438，Kwong Lung Enterprise) 成立於 1995 年，為全球最大高階羽絨外套製造商。生產基地分布於中國、越南、約旦及羅馬尼亞。主要客戶涵蓋[[adidas]] (訂單年增 60%)、[[Nike]] (年增 10%)、[[The North Face]] ([[VF Corporation]]旗下，年增 60%)、[[Patagonia]] (年增 5%)、[[lululemon]] (最快速成長新客戶)、[[PUMA]]、[[Mont-bell]] (年增 60%)、[[Alo Yoga]] (最新客戶，約旦廠出貨) 及[[Arc'teryx]]等全球頂級運動戶外品牌。策略性股東[[福懋興業]]持股約 20%，同時為主要布料供應商。",
+    "entities": [
+      "adidas",
+      "Nike",
+      "The North Face",
+      "VF Corporation",
+      "Patagonia",
+      "lululemon",
+      "PUMA",
+      "Mont-bell",
+      "Alo Yoga",
+      "Arc'teryx",
+      "福懋興業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "布料",
+        "text": "[[福懋興業]] — 主要布料供應商 (同時為 20% 策略股東，台灣/越南/中國設廠配合)",
+        "entities": [
+          "福懋興業"
+        ]
+      },
+      {
+        "category": "羽絨",
+        "text": "[[尚弘羽絨]] — 鴨鵝絨填充材料供應 (廣越投資入股確保供應)",
+        "entities": [
+          "尚弘羽絨"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**廣越** (高階羽絨外套 OEM，中國/越南/約旦/羅馬尼亞工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "運動品牌",
+        "text": "[[adidas]]、[[Nike]]、[[PUMA]]、[[lululemon]]、[[Under Armour]]",
+        "entities": [
+          "adidas",
+          "Nike",
+          "PUMA",
+          "lululemon",
+          "Under Armour"
+        ]
+      },
+      {
+        "category": "戶外品牌",
+        "text": "[[The North Face]]、[[Patagonia]]、[[Mont-bell]]、[[Arc'teryx]]",
+        "entities": [
+          "The North Face",
+          "Patagonia",
+          "Mont-bell",
+          "Arc'teryx"
+        ]
+      },
+      {
+        "category": "新興品牌",
+        "text": "[[Alo Yoga]]、[[Ralph Lauren]]",
+        "entities": [
+          "Alo Yoga",
+          "Ralph Lauren"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "運動品牌",
+        "text": "[[adidas]] (年增 60%)、[[Nike]] (年增 10%)、[[PUMA]]、[[lululemon]] (最快成長)",
+        "entities": [
+          "adidas",
+          "Nike",
+          "PUMA",
+          "lululemon"
+        ]
+      },
+      {
+        "role": "戶外品牌",
+        "text": "[[The North Face]] (年增 60%)、[[Patagonia]]、[[Mont-bell]] (年增 60%)、[[Arc'teryx]]",
+        "entities": [
+          "The North Face",
+          "Patagonia",
+          "Mont-bell",
+          "Arc'teryx"
+        ]
+      },
+      {
+        "role": "時尚/新興",
+        "text": "[[Alo Yoga]] (最新客戶)、[[Ralph Lauren]]",
+        "entities": [
+          "Alo Yoga",
+          "Ralph Lauren"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "布料",
+        "text": "[[福懋興業]] — 主要布料供應商兼 20% 策略股東",
+        "entities": [
+          "福懋興業"
+        ]
+      },
+      {
+        "role": "羽絨",
+        "text": "[[尚弘羽絨]] — 鴨鵝絨填充材料",
+        "entities": [
+          "尚弘羽絨"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Apparel Manufacturing):** [[達新]]、[[南緯]]、[[台南]]、[[儒鴻]]、[[聚陽]]",
+        "entities": [
+          "達新",
+          "南緯",
+          "台南",
+          "儒鴻",
+          "聚陽"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "adidas",
+          "Nike",
+          "PUMA",
+          "lululemon",
+          "The North Face",
+          "Patagonia",
+          "Mont-bell",
+          "Arc'teryx",
+          "Alo Yoga",
+          "Ralph Lauren"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "adidas",
+      "type": "international_company_or_term",
+      "wikilink": "adidas"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "The North Face",
+      "type": "international_company_or_term",
+      "wikilink": "The North Face"
+    },
+    {
+      "name": "VF Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "VF Corporation"
+    },
+    {
+      "name": "Patagonia",
+      "type": "international_company_or_term",
+      "wikilink": "Patagonia"
+    },
+    {
+      "name": "lululemon",
+      "type": "international_company_or_term",
+      "wikilink": "lululemon"
+    },
+    {
+      "name": "PUMA",
+      "type": "international_company_or_term",
+      "wikilink": "PUMA"
+    },
+    {
+      "name": "Mont-bell",
+      "type": "international_company_or_term",
+      "wikilink": "Mont-bell"
+    },
+    {
+      "name": "Alo Yoga",
+      "type": "international_company_or_term",
+      "wikilink": "Alo Yoga"
+    },
+    {
+      "name": "Arc'teryx",
+      "type": "international_company_or_term",
+      "wikilink": "Arc'teryx"
+    },
+    {
+      "name": "福懋興業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福懋興業"
+    },
+    {
+      "name": "尚弘羽絨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尚弘羽絨"
+    },
+    {
+      "name": "Under Armour",
+      "type": "international_company_or_term",
+      "wikilink": "Under Armour"
+    },
+    {
+      "name": "Ralph Lauren",
+      "type": "international_company_or_term",
+      "wikilink": "Ralph Lauren"
+    },
+    {
+      "name": "達新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達新"
+    },
+    {
+      "name": "南緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南緯"
+    },
+    {
+      "name": "台南",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台南"
+    },
+    {
+      "name": "儒鴻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儒鴻"
+    },
+    {
+      "name": "聚陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚陽"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣越企業 (4438，Kwong Lung Enterprise) 成立於 1995 年，為全球最大高階羽絨外套製造商。生產基地分布於中國、越南、約旦及羅馬尼亞。主要客戶涵蓋[[adidas]] (訂單年增 60%)、[[Nike]] (年增 10%)、[[The North Face]] ([[VF Corporation]]旗下，年增 60%)、[[Patagonia]] (年增 5%)、[[lululemon]] (最快速成長新客戶)、[[PUMA]]、[[Mont-bell]] (年增 60%)、[[Alo Yoga]] (最新客戶，約旦廠出貨) 及[[Arc'teryx]]等全球頂級運動戶外品牌。策略性股東[[福懋興業]]持股約 20%，同時為主要布料供應商。",
+    "supply_chain_md": "**上游 (原料):**\n- **布料:** [[福懋興業]] — 主要布料供應商 (同時為 20% 策略股東，台灣/越南/中國設廠配合)\n- **羽絨:** [[尚弘羽絨]] — 鴨鵝絨填充材料供應 (廣越投資入股確保供應)\n\n**中游 (製造):**\n- **廣越** (高階羽絨外套 OEM，中國/越南/約旦/羅馬尼亞工廠)\n\n**下游 (品牌客戶):**\n- **運動品牌:** [[adidas]]、[[Nike]]、[[PUMA]]、[[lululemon]]、[[Under Armour]]\n- **戶外品牌:** [[The North Face]]、[[Patagonia]]、[[Mont-bell]]、[[Arc'teryx]]\n- **新興品牌:** [[Alo Yoga]]、[[Ralph Lauren]]",
+    "customers_suppliers_md": "### 主要客戶\n- **運動品牌:** [[adidas]] (年增 60%)、[[Nike]] (年增 10%)、[[PUMA]]、[[lululemon]] (最快成長)\n- **戶外品牌:** [[The North Face]] (年增 60%)、[[Patagonia]]、[[Mont-bell]] (年增 60%)、[[Arc'teryx]]\n- **時尚/新興:** [[Alo Yoga]] (最新客戶)、[[Ralph Lauren]]\n\n### 主要供應商\n- **布料:** [[福懋興業]] — 主要布料供應商兼 20% 策略股東\n- **羽絨:** [[尚弘羽絨]] — 鴨鵝絨填充材料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

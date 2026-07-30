@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5009",
+  "company_name": "榮剛",
+  "title": "5009 - 榮剛",
+  "source_md": "Pilot_Reports/Steel/5009_榮剛.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "17,535 百萬台幣",
+    "enterprise_value": "30,139 百萬台幣"
+  },
+  "business": {
+    "summary": "榮剛材料 (Gloria Material) 隸屬於 **台灣鋼鐵集團 (TSG)**，為台灣唯一具備全製程之 **特殊合金鋼 (Specialty Steel)** 廠。\n專注於高階應用材料，擁有 **VAR (真空電弧重熔)** 與 **ESR (電渣重熔)** 等高階煉鋼設備。\n三大高毛利產品線：\n1.  **航太 (Aerospace)**: 起落架、發動機材料，獲 [[Boeing]], [[Airbus]], [[Safran]] 認證。\n2.  **能源 (Energy)**: 發電機葉片、油氣鑽探材料。\n3.  **軍工 (Defense)**: 飛彈彈體、槍砲管材料。\n亦切入 **AI 伺服器** 液冷模組 (CDU/CDM) 之關鍵不鏽鋼材與工具鋼市場。",
+    "entities": [
+      "Boeing",
+      "Airbus",
+      "Safran"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游 (本體)**: **榮剛 (5009)** - 特殊鋼冶煉與加工 (棒材/板材/鍛件).",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**上游**: 廢鋼, 鐵合金 (鎳/鉻/鉬).",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**航太**: [[漢翔]], [[Boeing]], [[Airbus]], [[Safran]].",
+        "entities": [
+          "漢翔",
+          "Boeing",
+          "Airbus",
+          "Safran"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**能源**: 奇異 ([[GE]]), [[Siemens]].",
+        "entities": [
+          "GE",
+          "Siemens"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**機械/模具**: 工具機廠, 模具廠.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**航太**: [[Boeing]], [[Airbus]], [[Safran]], [[GE Aviation]].",
+        "entities": [
+          "Boeing",
+          "Airbus",
+          "Safran",
+          "GE Aviation"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**國內**: [[漢翔]] (軍工/航太合作).",
+        "entities": [
+          "漢翔"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**原料**: 國際合金原料貿易商, 台鋼集團內部廢鋼整合 ([[台鋼環保]]).",
+        "entities": [
+          "台鋼環保"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Boeing",
+          "Airbus",
+          "Safran",
+          "GE Aviation",
+          "漢翔"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Boeing",
+      "type": "international_company_or_term",
+      "wikilink": "Boeing"
+    },
+    {
+      "name": "Airbus",
+      "type": "international_company_or_term",
+      "wikilink": "Airbus"
+    },
+    {
+      "name": "Safran",
+      "type": "international_company_or_term",
+      "wikilink": "Safran"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "Siemens",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens"
+    },
+    {
+      "name": "GE Aviation",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aviation"
+    },
+    {
+      "name": "台鋼環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鋼環保"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "榮剛材料 (Gloria Material) 隸屬於 **台灣鋼鐵集團 (TSG)**，為台灣唯一具備全製程之 **特殊合金鋼 (Specialty Steel)** 廠。\n專注於高階應用材料，擁有 **VAR (真空電弧重熔)** 與 **ESR (電渣重熔)** 等高階煉鋼設備。\n三大高毛利產品線：\n1.  **航太 (Aerospace)**: 起落架、發動機材料，獲 [[Boeing]], [[Airbus]], [[Safran]] 認證。\n2.  **能源 (Energy)**: 發電機葉片、油氣鑽探材料。\n3.  **軍工 (Defense)**: 飛彈彈體、槍砲管材料。\n亦切入 **AI 伺服器** 液冷模組 (CDU/CDM) 之關鍵不鏽鋼材與工具鋼市場。",
+    "supply_chain_md": "*   **上游 (本體)**: **榮剛 (5009)** - 特殊鋼冶煉與加工 (棒材/板材/鍛件).\n*   **上游**: 廢鋼, 鐵合金 (鎳/鉻/鉬).\n*   **下游**:\n    *   **航太**: [[漢翔]], [[Boeing]], [[Airbus]], [[Safran]].\n    *   **能源**: 奇異 ([[GE]]), [[Siemens]].\n    *   **機械/模具**: 工具機廠, 模具廠.",
+    "customers_suppliers_md": "### 主要客戶\n*   **航太**: [[Boeing]], [[Airbus]], [[Safran]], [[GE Aviation]].\n*   **國內**: [[漢翔]] (軍工/航太合作).\n\n### 主要供應商\n*   **原料**: 國際合金原料貿易商, 台鋼集團內部廢鋼整合 ([[台鋼環保]])."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

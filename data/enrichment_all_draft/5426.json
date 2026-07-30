@@ -1,0 +1,233 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5426",
+  "company_name": "振發",
+  "title": "5426 - 振發",
+  "source_md": "Pilot_Reports/Metal Fabrication/5426_振發.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "3,394 百萬台幣",
+    "enterprise_value": "2,702 百萬台幣"
+  },
+  "business": {
+    "summary": "振發實業 (5426) 為精密金屬沖壓廠，主力為電腦/[[伺服器]]機殼及[[工業電腦]] (IPC) 機殼。近年佈局[[AI 伺服器]]機殼及散熱機構件 (受惠[[GB200]])。客戶含[[廣達]]、[[緯穎]]等ODM廠及[[研華]]、[[凌華]]等IPC廠。上游鋼材來自[[中鋼]]。",
+    "entities": [
+      "伺服器",
+      "工業電腦",
+      "AI 伺服器",
+      "GB200",
+      "廣達",
+      "緯穎",
+      "研華",
+      "凌華",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[中鋼]] — 鋼材/鋁板",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**振發** (精密沖壓: [[伺服器]]/[[工業電腦]]機殼)",
+        "entities": [
+          "伺服器",
+          "工業電腦"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[伺服器]] ODM: [[廣達]]、[[緯穎]]、[[英業達]]",
+        "entities": [
+          "伺服器",
+          "廣達",
+          "緯穎",
+          "英業達"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[工業電腦]]: [[研華]]、[[凌華]]",
+        "entities": [
+          "工業電腦",
+          "研華",
+          "凌華"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[AI 伺服器]]機殼/散熱",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[廣達]]、[[緯穎]] — [[AI 伺服器]]機殼",
+        "entities": [
+          "廣達",
+          "緯穎",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[研華]]、[[凌華]] — [[工業電腦]]",
+        "entities": [
+          "研華",
+          "凌華",
+          "工業電腦"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[中鋼]] — 鋼材",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "廣達",
+          "緯穎",
+          "AI 伺服器",
+          "研華",
+          "凌華",
+          "工業電腦"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "GB200",
+      "type": "international_company_or_term",
+      "wikilink": "GB200"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯穎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯穎"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "凌華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌華"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "振發實業 (5426) 為精密金屬沖壓廠，主力為電腦/[[伺服器]]機殼及[[工業電腦]] (IPC) 機殼。近年佈局[[AI 伺服器]]機殼及散熱機構件 (受惠[[GB200]])。客戶含[[廣達]]、[[緯穎]]等ODM廠及[[研華]]、[[凌華]]等IPC廠。上游鋼材來自[[中鋼]]。",
+    "supply_chain_md": "**上游:** [[中鋼]] — 鋼材/鋁板\n**中游:** **振發** (精密沖壓: [[伺服器]]/[[工業電腦]]機殼)\n**下游:**\n- [[伺服器]] ODM: [[廣達]]、[[緯穎]]、[[英業達]]\n- [[工業電腦]]: [[研華]]、[[凌華]]\n- [[AI 伺服器]]機殼/散熱",
+    "customers_suppliers_md": "### 主要客戶\n- [[廣達]]、[[緯穎]] — [[AI 伺服器]]機殼\n- [[研華]]、[[凌華]] — [[工業電腦]]\n\n### 主要供應商\n- [[中鋼]] — 鋼材"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

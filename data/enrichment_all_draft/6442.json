@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6442",
+  "company_name": "光聖",
+  "title": "6442_光聖",
+  "source_md": "Pilot_Reports/Electronic Components/6442_光聖.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "86,439 百萬台幣",
+    "enterprise_value": "81,474 百萬台幣"
+  },
+  "business": {
+    "summary": "光環科技股份有限公司 (6442，光聖) 是一家專注於[[光通訊]]主動與被動元件、以及射頻(RF)[[連接器]]的製造商。光環以其優異的光纖跳接線、光被動元件與高頻[[連接器]]產品，廣泛應用於電信基礎建設、有線電視寬頻及企業[[資料中心]](Data Center)。隨著[[AI[[伺服器]]]]與雲端運算帶來龐大的數據傳輸需求，光聖的高階光被動元件與多芯光纖[[連接器]]需求暴增，並成功打入美系大型[[雲端服務]]供應商([[CSP]])的[[資料中心]]供應鏈。",
+    "entities": [
+      "光通訊",
+      "連接器",
+      "資料中心",
+      "AI[[伺服器",
+      "雲端服務",
+      "CSP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 光纖裸線、雷射二極體(LD)及檢光二極體(PIN)晶粒、陶瓷插芯及各類金屬機構件。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **光聖** ([[光通訊]]主動/被動元件、光纖跳接線及高頻無源RF[[連接器]]之製造)。",
+        "entities": [
+          "光通訊",
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 大型電信營運商(Telco)、有線電視多系統經營者(MSO)、[[網通]]設備廠及[[雲端服務]]商([[CSP]])。",
+        "entities": [
+          "網通",
+          "雲端服務",
+          "CSP"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Google]]等美國四大雲端[[資料中心]]業者([[CSP]])，及歐美各大電信設備與網路設備品牌。",
+        "entities": [
+          "Google",
+          "資料中心",
+          "CSP"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "日本與美國各大光電晶片原廠及國內外精密陶瓷、金屬加工件供應商。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Google",
+          "資料中心",
+          "CSP"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "光通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光通訊"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "光環科技股份有限公司 (6442，光聖) 是一家專注於[[光通訊]]主動與被動元件、以及射頻(RF)[[連接器]]的製造商。光環以其優異的光纖跳接線、光被動元件與高頻[[連接器]]產品，廣泛應用於電信基礎建設、有線電視寬頻及企業[[資料中心]](Data Center)。隨著[[AI[[伺服器]]]]與雲端運算帶來龐大的數據傳輸需求，光聖的高階光被動元件與多芯光纖[[連接器]]需求暴增，並成功打入美系大型[[雲端服務]]供應商([[CSP]])的[[資料中心]]供應鏈。",
+    "supply_chain_md": "*   **上游**: 光纖裸線、雷射二極體(LD)及檢光二極體(PIN)晶粒、陶瓷插芯及各類金屬機構件。\n*   **中游**: **光聖** ([[光通訊]]主動/被動元件、光纖跳接線及高頻無源RF[[連接器]]之製造)。\n*   **下游**: 大型電信營運商(Telco)、有線電視多系統經營者(MSO)、[[網通]]設備廠及[[雲端服務]]商([[CSP]])。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Google]]等美國四大雲端[[資料中心]]業者([[CSP]])，及歐美各大電信設備與網路設備品牌。\n\n### 主要供應商\n*   日本與美國各大光電晶片原廠及國內外精密陶瓷、金屬加工件供應商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

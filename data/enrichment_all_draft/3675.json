@@ -1,0 +1,210 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3675",
+  "company_name": "德微",
+  "title": "3675 - 德微",
+  "source_md": "Pilot_Reports/Electronic Components/3675_德微.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "10,744 百萬台幣",
+    "enterprise_value": "11,603 百萬台幣"
+  },
+  "business": {
+    "summary": "德微科技 (Eris) 為台灣專業的 **二極體 (Diode)** 設計與製造商，隸屬於全球[[半導體]]巨頭 **Diodes Inc.** 集團。\n公司已從早期的貿易商轉型為具備生產能力的專業製造廠，並正邁向 **垂直整合製造 (IDM)** 模式。\n核心競爭力與發展方向：\n1.  **[[AI 伺服器]]供應鏈**: 已成功打入美系 [[AI]] [[伺服器]]供應鏈，供應[[伺服器]]電源供應器 (PSU) 所需的功率元件，[[AI]] 產品營收佔比已達約 25%。\n2.  **車用與工控佈局**: 受惠於母公司 Diodes 的策略支持，其蕭特基二極體與溝槽式晶圓結構產品廣泛應用於[[電動車]]與[[自動化]]工業控制。\n3.  **併購基隆廠效益**: 透過併購取得高階整流器製程技術，強化高電壓、大電流功率元件生產能力，提升整體毛利率。\n4.  **高度自動化生產**: 擁有自主開發的[[自動化]]檢測與生產設備，確保產品的一致性與高品質。",
+    "entities": [
+      "半導體",
+      "AI 伺服器",
+      "AI",
+      "伺服器",
+      "電動車",
+      "自動化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[矽晶圓]]基板、光罩、化學氣體。",
+        "entities": [
+          "矽晶圓"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **德微 (3675)** - 功率[[半導體]]研發、晶圓製造、封裝測試。",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**母公司渠道**: 美商達爾 (Diodes Inc.) 銷往全球。",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**電源供應器廠**: [[台達電]], [[光寶科]] 等[[伺服器]]電源供應商。",
+        "entities": [
+          "台達電",
+          "光寶科",
+          "伺服器"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**車用/工業**: 全球 Tier-1 汽車供應商與工控設備廠。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "核心大股東兼最大客戶：Diodes Inc. (達爾科技)。",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "[[AI]] [[伺服器]]電源模組合力廠商。",
+        "entities": [
+          "AI",
+          "伺服器"
+        ]
+      },
+      {
+        "role": "",
+        "text": "國際一線車廠與消費電子品牌。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AI",
+          "伺服器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "核心競爭力與發展方向：",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "核心競爭力與發展方向：",
+        "entities": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "德微科技 (Eris) 為台灣專業的 **二極體 (Diode)** 設計與製造商，隸屬於全球[[半導體]]巨頭 **Diodes Inc.** 集團。\n公司已從早期的貿易商轉型為具備生產能力的專業製造廠，並正邁向 **垂直整合製造 (IDM)** 模式。\n核心競爭力與發展方向：\n1.  **[[AI 伺服器]]供應鏈**: 已成功打入美系 [[AI]] [[伺服器]]供應鏈，供應[[伺服器]]電源供應器 (PSU) 所需的功率元件，[[AI]] 產品營收佔比已達約 25%。\n2.  **車用與工控佈局**: 受惠於母公司 Diodes 的策略支持，其蕭特基二極體與溝槽式晶圓結構產品廣泛應用於[[電動車]]與[[自動化]]工業控制。\n3.  **併購基隆廠效益**: 透過併購取得高階整流器製程技術，強化高電壓、大電流功率元件生產能力，提升整體毛利率。\n4.  **高度自動化生產**: 擁有自主開發的[[自動化]]檢測與生產設備，確保產品的一致性與高品質。",
+    "supply_chain_md": "*   **上游**: [[矽晶圓]]基板、光罩、化學氣體。\n*   **中游**: **德微 (3675)** - 功率[[半導體]]研發、晶圓製造、封裝測試。\n*   **下游**:\n    *   **母公司渠道**: 美商達爾 (Diodes Inc.) 銷往全球。\n    *   **電源供應器廠**: [[台達電]], [[光寶科]] 等[[伺服器]]電源供應商。\n    *   **車用/工業**: 全球 Tier-1 汽車供應商與工控設備廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   核心大股東兼最大客戶：Diodes Inc. (達爾科技)。\n*   [[AI]] [[伺服器]]電源模組合力廠商。\n*   國際一線車廠與消費電子品牌。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

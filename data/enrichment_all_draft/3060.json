@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3060",
+  "company_name": "銘異",
+  "title": "3060 - 銘異",
+  "source_md": "Pilot_Reports/Electronic Components/3060_銘異.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,597 百萬台幣",
+    "enterprise_value": "3,448 百萬台幣"
+  },
+  "business": {
+    "summary": "銘異科技 ([[Min Aik Technology]]) 為全球主要硬碟零組件供應商。核心產品包含音圈馬達 (VCM) 與硬碟上蓋 (Top Cover)，在硬碟市場具極高市佔率。\n\n隨硬碟市場受 SSD 排擠，近年積極轉型多元化發展：(1) 醫療 — 醫療器材塑膠射出 (智慧藥品調配系統)；(2) 光學 — 投影機振鏡模組、鏡頭模組；(3) 自動化設備與治具。儲存應用仍為營收主力，產品供應 [[Western Digital]]、[[Seagate]]、[[Toshiba]] 等全球三大硬碟廠，應用於 [[資料中心]]與監控儲存。",
+    "entities": [
+      "Min Aik Technology",
+      "Western Digital",
+      "Seagate",
+      "Toshiba",
+      "資料中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (精密加工材料)",
+        "text": "**上游 (精密加工材料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "金屬沖壓材料",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "醫療級與工業級塑膠粒",
+        "entities": []
+      },
+      {
+        "category": "磁鐵",
+        "text": "音圈馬達用永久磁鐵",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (精密零組件製造)",
+        "text": "**中游 (精密零組件製造):**",
+        "entities": []
+      },
+      {
+        "category": "HDD 零組件",
+        "text": "**銘異** (音圈馬達 VCM、硬碟上蓋)",
+        "entities": []
+      },
+      {
+        "category": "醫療器材",
+        "text": "**銘異** (智慧藥品調配系統塑膠射出件)",
+        "entities": []
+      },
+      {
+        "category": "光學模組",
+        "text": "**銘異** (投影機振鏡模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (儲存/醫療/光學終端)",
+        "text": "**下游 (儲存/醫療/光學終端):**",
+        "entities": []
+      },
+      {
+        "category": "HDD 大廠",
+        "text": "[[Western Digital]]、[[Seagate]]、[[Toshiba]] — 硬碟零組件",
+        "entities": [
+          "Western Digital",
+          "Seagate",
+          "Toshiba"
+        ]
+      },
+      {
+        "category": "醫療",
+        "text": "醫院與醫療設備商 — 智慧藥品系統",
+        "entities": []
+      },
+      {
+        "category": "光學",
+        "text": "投影機品牌 — 振鏡模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "HDD 大廠",
+        "text": "[[Western Digital]]、[[Seagate]]、[[Toshiba]] — 硬碟零組件",
+        "entities": [
+          "Western Digital",
+          "Seagate",
+          "Toshiba"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "醫療設備商 — 智慧藥品調配系統",
+        "entities": []
+      },
+      {
+        "role": "光學",
+        "text": "投影機品牌 — 振鏡模組",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬材料",
+        "text": "金屬沖壓材料供應商",
+        "entities": []
+      },
+      {
+        "role": "磁鐵",
+        "text": "音圈馬達用永久磁鐵供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠粒",
+        "text": "醫療級塑膠粒供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Western Digital",
+          "Seagate",
+          "Toshiba"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Min Aik Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Min Aik Technology"
+    },
+    {
+      "name": "Western Digital",
+      "type": "international_company_or_term",
+      "wikilink": "Western Digital"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "Toshiba",
+      "type": "international_company_or_term",
+      "wikilink": "Toshiba"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "銘異科技 ([[Min Aik Technology]]) 為全球主要硬碟零組件供應商。核心產品包含音圈馬達 (VCM) 與硬碟上蓋 (Top Cover)，在硬碟市場具極高市佔率。\n\n隨硬碟市場受 SSD 排擠，近年積極轉型多元化發展：(1) 醫療 — 醫療器材塑膠射出 (智慧藥品調配系統)；(2) 光學 — 投影機振鏡模組、鏡頭模組；(3) 自動化設備與治具。儲存應用仍為營收主力，產品供應 [[Western Digital]]、[[Seagate]]、[[Toshiba]] 等全球三大硬碟廠，應用於 [[資料中心]]與監控儲存。",
+    "supply_chain_md": "**上游 (精密加工材料):**\n- **金屬材料:** 金屬沖壓材料\n- **塑膠粒:** 醫療級與工業級塑膠粒\n- **磁鐵:** 音圈馬達用永久磁鐵\n\n**中游 (精密零組件製造):**\n- **HDD 零組件:** **銘異** (音圈馬達 VCM、硬碟上蓋)\n- **醫療器材:** **銘異** (智慧藥品調配系統塑膠射出件)\n- **光學模組:** **銘異** (投影機振鏡模組)\n\n**下游 (儲存/醫療/光學終端):**\n- **HDD 大廠:** [[Western Digital]]、[[Seagate]]、[[Toshiba]] — 硬碟零組件\n- **醫療:** 醫院與醫療設備商 — 智慧藥品系統\n- **光學:** 投影機品牌 — 振鏡模組",
+    "customers_suppliers_md": "### 主要客戶\n- **HDD 大廠:** [[Western Digital]]、[[Seagate]]、[[Toshiba]] — 硬碟零組件\n- **醫療:** 醫療設備商 — 智慧藥品調配系統\n- **光學:** 投影機品牌 — 振鏡模組\n\n### 主要供應商\n- **金屬材料:** 金屬沖壓材料供應商\n- **磁鐵:** 音圈馬達用永久磁鐵供應商\n- **塑膠粒:** 醫療級塑膠粒供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

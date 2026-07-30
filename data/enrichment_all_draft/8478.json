@@ -1,0 +1,200 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8478",
+  "company_name": "東哥遊艇",
+  "title": "8478 - 東哥遊艇",
+  "source_md": "Pilot_Reports/Recreational Vehicles/8478_東哥遊艇.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Recreational Vehicles",
+    "market_cap": "14,190 百萬台幣",
+    "enterprise_value": "15,875 百萬台幣"
+  },
+  "business": {
+    "summary": "東哥企業 (8478) 為亞洲最大、全球第三大豪華遊艇製造商，品牌「[[Ocean Alexander]]」。專注70-120呎+大型動力遊艇，100%外銷美國。透過全美最大遊艇經銷商[[MarineMax]] (佔營收50%+) 於美國東岸銷售。船用引擎來自[[Caterpillar]]、[[MAN]]、[[Volvo Penta]]。航電含[[Garmin]]、[[Raymarine]]。船體以[[玻璃纖維]] (FRP) 為主。客製化手工打造。",
+    "entities": [
+      "Ocean Alexander",
+      "MarineMax",
+      "Caterpillar",
+      "MAN",
+      "Volvo Penta",
+      "Garmin",
+      "Raymarine",
+      "玻璃纖維"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[玻璃纖維]]/FRP/樹脂; [[Caterpillar]]、[[MAN]]、[[Volvo Penta]] — 引擎; [[Garmin]]、[[Raymarine]] — 航電",
+        "entities": [
+          "玻璃纖維",
+          "Caterpillar",
+          "MAN",
+          "Volvo Penta",
+          "Garmin",
+          "Raymarine"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**東哥** ([[Ocean Alexander]]豪華遊艇設計製造)",
+        "entities": [
+          "Ocean Alexander"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[MarineMax]] (佔50%+) — 美國東岸",
+        "entities": [
+          "MarineMax"
+        ]
+      },
+      {
+        "category": "",
+        "text": "美國西岸自營 — 高淨值買家",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[MarineMax]] — 美國最大遊艇經銷 (50%+)",
+        "entities": [
+          "MarineMax"
+        ]
+      },
+      {
+        "role": "",
+        "text": "北美高淨值買家",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Caterpillar]]、[[MAN]]、[[Volvo Penta]] — 引擎",
+        "entities": [
+          "Caterpillar",
+          "MAN",
+          "Volvo Penta"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Garmin]]、[[Raymarine]] — 航電",
+        "entities": [
+          "Garmin",
+          "Raymarine"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[玻璃纖維]]/FRP",
+        "entities": [
+          "玻璃纖維"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Recreational Vehicles):** [[利奇]]、[[合騏]]",
+        "entities": [
+          "利奇",
+          "合騏"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "MarineMax"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Ocean Alexander",
+      "type": "international_company_or_term",
+      "wikilink": "Ocean Alexander"
+    },
+    {
+      "name": "MarineMax",
+      "type": "international_company_or_term",
+      "wikilink": "MarineMax"
+    },
+    {
+      "name": "Caterpillar",
+      "type": "international_company_or_term",
+      "wikilink": "Caterpillar"
+    },
+    {
+      "name": "MAN",
+      "type": "international_company_or_term",
+      "wikilink": "MAN"
+    },
+    {
+      "name": "Volvo Penta",
+      "type": "international_company_or_term",
+      "wikilink": "Volvo Penta"
+    },
+    {
+      "name": "Garmin",
+      "type": "international_company_or_term",
+      "wikilink": "Garmin"
+    },
+    {
+      "name": "Raymarine",
+      "type": "international_company_or_term",
+      "wikilink": "Raymarine"
+    },
+    {
+      "name": "玻璃纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻璃纖維"
+    },
+    {
+      "name": "利奇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "利奇"
+    },
+    {
+      "name": "合騏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合騏"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東哥企業 (8478) 為亞洲最大、全球第三大豪華遊艇製造商，品牌「[[Ocean Alexander]]」。專注70-120呎+大型動力遊艇，100%外銷美國。透過全美最大遊艇經銷商[[MarineMax]] (佔營收50%+) 於美國東岸銷售。船用引擎來自[[Caterpillar]]、[[MAN]]、[[Volvo Penta]]。航電含[[Garmin]]、[[Raymarine]]。船體以[[玻璃纖維]] (FRP) 為主。客製化手工打造。",
+    "supply_chain_md": "**上游:** [[玻璃纖維]]/FRP/樹脂; [[Caterpillar]]、[[MAN]]、[[Volvo Penta]] — 引擎; [[Garmin]]、[[Raymarine]] — 航電\n**中游:** **東哥** ([[Ocean Alexander]]豪華遊艇設計製造)\n**下游:**\n- [[MarineMax]] (佔50%+) — 美國東岸\n- 美國西岸自營 — 高淨值買家",
+    "customers_suppliers_md": "### 主要客戶\n- [[MarineMax]] — 美國最大遊艇經銷 (50%+)\n- 北美高淨值買家\n\n### 主要供應商\n- [[Caterpillar]]、[[MAN]]、[[Volvo Penta]] — 引擎\n- [[Garmin]]、[[Raymarine]] — 航電\n- [[玻璃纖維]]/FRP"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

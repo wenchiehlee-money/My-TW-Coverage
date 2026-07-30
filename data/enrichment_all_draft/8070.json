@@ -1,0 +1,403 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8070",
+  "company_name": "長華",
+  "title": "8070 - 長華*",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/8070_長華.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "29,617 百萬台幣",
+    "enterprise_value": "29,397 百萬台幣"
+  },
+  "business": {
+    "summary": "長華電材 (8070，[[Chang Wah Electromaterials]]) 成立於 1989 年，是台灣半導體封裝材料與設備領域最具規模的專業代理與製造商。公司以代理日本[[住友培科]] (Sumitomo Bakelite) 之封膠樹脂起家，合作超過 35 年，建立起深厚的通路護城河。\n\n業務結構與動能：(1) [[導線架]] (約佔營收 51%) — 透過子公司[[長華科技]] (長科，6548) 自主製造金屬導線架，為台灣主要供應商之一，國內市佔率約 33%；(2) 封膠樹脂 (約佔營收 28%) — 代理[[住友培科]]之環氧樹脂封裝材料 ([[EMC]])，國內市佔率高達 67%，適用於次世代 [[2.5D 封裝]]、[[3D 封裝]] 應用；(3) [[COF]] 基板 (約佔營收 6%) — 子公司[[易華電子]] (易華電，6552) 製造捲帶式覆晶薄膜基板；(4) 封裝設備 — 代理日本 [[Apic Yamada]] 高階模壓設備與[[京瓷]] (Kyocera) 半導體零組件。集團另轉投資[[台虹科技]] (軟板材料)、[[新應材]] (半導體特用化學品)、[[天正國際]] (半導體設備) 及銀聯 (電接觸元件)。大股東為[[華立]]。",
+    "entities": [
+      "Chang Wah Electromaterials",
+      "住友培科",
+      "導線架",
+      "長華科技",
+      "EMC",
+      "2.5D 封裝",
+      "3D 封裝",
+      "COF",
+      "易華電子",
+      "Apic Yamada",
+      "京瓷",
+      "台虹科技",
+      "新應材",
+      "天正國際",
+      "華立"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (封裝材料與設備原廠)",
+        "text": "**上游 (封裝材料與設備原廠):**",
+        "entities": []
+      },
+      {
+        "category": "封膠樹脂",
+        "text": "[[住友培科]] (Sumitomo Bakelite) — [[EMC]] 環氧樹脂封裝材料",
+        "entities": [
+          "住友培科",
+          "EMC"
+        ]
+      },
+      {
+        "category": "模壓設備",
+        "text": "[[Apic Yamada]] — 高階模壓成型設備",
+        "entities": [
+          "Apic Yamada"
+        ]
+      },
+      {
+        "category": "半導體零件",
+        "text": "[[京瓷]] (Kyocera) — 陶瓷封裝零組件",
+        "entities": [
+          "京瓷"
+        ]
+      },
+      {
+        "category": "金屬材料",
+        "text": "銅合金帶材供應商 — [[導線架]]原料",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (材料代理與製造)",
+        "text": "**中游 (材料代理與製造):**",
+        "entities": []
+      },
+      {
+        "category": "封膠代理",
+        "text": "**長華電材** ([[住友培科]]封膠樹脂代理，國內市佔 67%)",
+        "entities": [
+          "住友培科"
+        ]
+      },
+      {
+        "category": "[[導線架]]製造",
+        "text": "[[長華科技]] (長科，6548) — 金屬導線架",
+        "entities": [
+          "導線架",
+          "長華科技"
+        ]
+      },
+      {
+        "category": "[[COF]] 基板",
+        "text": "[[易華電子]] (易華電，6552) — 捲帶式覆晶薄膜基板",
+        "entities": [
+          "COF",
+          "易華電子"
+        ]
+      },
+      {
+        "category": "特用化學品",
+        "text": "[[新應材]] — 半導體特用化學品",
+        "entities": [
+          "新應材"
+        ]
+      },
+      {
+        "category": "設備代理",
+        "text": "[[天正國際]] — 半導體製程設備",
+        "entities": [
+          "天正國際"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (封裝與測試廠)",
+        "text": "**下游 (封裝與測試廠):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] — [[CoWoS]] 等先進封裝用模壓設備與材料",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "封測大廠",
+        "text": "[[日月光投控]]、[[矽品]]、[[力成]] — 封膠樹脂與[[導線架]]",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "力成",
+          "導線架"
+        ]
+      },
+      {
+        "category": "IDM 廠",
+        "text": "國際整合元件製造商 — 封裝材料與設備",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] — [[CoWoS]] 先進封裝用 [[Apic Yamada]] 模壓設備與[[住友培科]]封膠材料",
+        "entities": [
+          "台積電",
+          "CoWoS",
+          "Apic Yamada",
+          "住友培科"
+        ]
+      },
+      {
+        "role": "封測大廠",
+        "text": "[[日月光投控]]、[[矽品]]、[[力成]] — [[EMC]] 封膠樹脂與[[導線架]]",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "力成",
+          "EMC",
+          "導線架"
+        ]
+      },
+      {
+        "role": "IC 封裝",
+        "text": "[[矽格]]、[[超豐]] — 封裝材料與設備",
+        "entities": [
+          "矽格",
+          "超豐"
+        ]
+      },
+      {
+        "role": "面板/顯示",
+        "text": "顯示器模組廠 — [[COF]] 基板",
+        "entities": [
+          "COF"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "封膠樹脂",
+        "text": "[[住友培科]] (Sumitomo Bakelite) — 合作逾 35 年，[[EMC]] 封裝材料",
+        "entities": [
+          "住友培科",
+          "EMC"
+        ]
+      },
+      {
+        "role": "模壓設備",
+        "text": "[[Apic Yamada]] — 高階模壓成型設備",
+        "entities": [
+          "Apic Yamada"
+        ]
+      },
+      {
+        "role": "陶瓷封裝",
+        "text": "[[京瓷]] (Kyocera) — 半導體陶瓷零組件",
+        "entities": [
+          "京瓷"
+        ]
+      },
+      {
+        "role": "大股東",
+        "text": "[[華立]] — 集團策略資源",
+        "entities": [
+          "華立"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "CoWoS",
+          "Apic Yamada",
+          "住友培科",
+          "日月光投控",
+          "矽品",
+          "力成",
+          "EMC",
+          "導線架",
+          "矽格",
+          "超豐",
+          "COF"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Chang Wah Electromaterials",
+      "type": "international_company_or_term",
+      "wikilink": "Chang Wah Electromaterials"
+    },
+    {
+      "name": "住友培科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友培科"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "長華科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長華科技"
+    },
+    {
+      "name": "EMC",
+      "type": "international_company_or_term",
+      "wikilink": "EMC"
+    },
+    {
+      "name": "2.5D 封裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "2.5D 封裝"
+    },
+    {
+      "name": "3D 封裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D 封裝"
+    },
+    {
+      "name": "COF",
+      "type": "international_company_or_term",
+      "wikilink": "COF"
+    },
+    {
+      "name": "易華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "易華電子"
+    },
+    {
+      "name": "Apic Yamada",
+      "type": "international_company_or_term",
+      "wikilink": "Apic Yamada"
+    },
+    {
+      "name": "京瓷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京瓷"
+    },
+    {
+      "name": "台虹科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台虹科技"
+    },
+    {
+      "name": "新應材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新應材"
+    },
+    {
+      "name": "天正國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天正國際"
+    },
+    {
+      "name": "華立",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華立"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    },
+    {
+      "name": "矽格",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽格"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "長華電材 (8070，[[Chang Wah Electromaterials]]) 成立於 1989 年，是台灣半導體封裝材料與設備領域最具規模的專業代理與製造商。公司以代理日本[[住友培科]] (Sumitomo Bakelite) 之封膠樹脂起家，合作超過 35 年，建立起深厚的通路護城河。\n\n業務結構與動能：(1) [[導線架]] (約佔營收 51%) — 透過子公司[[長華科技]] (長科，6548) 自主製造金屬導線架，為台灣主要供應商之一，國內市佔率約 33%；(2) 封膠樹脂 (約佔營收 28%) — 代理[[住友培科]]之環氧樹脂封裝材料 ([[EMC]])，國內市佔率高達 67%，適用於次世代 [[2.5D 封裝]]、[[3D 封裝]] 應用；(3) [[COF]] 基板 (約佔營收 6%) — 子公司[[易華電子]] (易華電，6552) 製造捲帶式覆晶薄膜基板；(4) 封裝設備 — 代理日本 [[Apic Yamada]] 高階模壓設備與[[京瓷]] (Kyocera) 半導體零組件。集團另轉投資[[台虹科技]] (軟板材料)、[[新應材]] (半導體特用化學品)、[[天正國際]] (半導體設備) 及銀聯 (電接觸元件)。大股東為[[華立]]。",
+    "supply_chain_md": "**上游 (封裝材料與設備原廠):**\n- **封膠樹脂:** [[住友培科]] (Sumitomo Bakelite) — [[EMC]] 環氧樹脂封裝材料\n- **模壓設備:** [[Apic Yamada]] — 高階模壓成型設備\n- **半導體零件:** [[京瓷]] (Kyocera) — 陶瓷封裝零組件\n- **金屬材料:** 銅合金帶材供應商 — [[導線架]]原料\n\n**中游 (材料代理與製造):**\n- **封膠代理:** **長華電材** ([[住友培科]]封膠樹脂代理，國內市佔 67%)\n- **[[導線架]]製造:** [[長華科技]] (長科，6548) — 金屬導線架\n- **[[COF]] 基板:** [[易華電子]] (易華電，6552) — 捲帶式覆晶薄膜基板\n- **特用化學品:** [[新應材]] — 半導體特用化學品\n- **設備代理:** [[天正國際]] — 半導體製程設備\n\n**下游 (封裝與測試廠):**\n- **晶圓代工:** [[台積電]] — [[CoWoS]] 等先進封裝用模壓設備與材料\n- **封測大廠:** [[日月光投控]]、[[矽品]]、[[力成]] — 封膠樹脂與[[導線架]]\n- **IDM 廠:** 國際整合元件製造商 — 封裝材料與設備",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] — [[CoWoS]] 先進封裝用 [[Apic Yamada]] 模壓設備與[[住友培科]]封膠材料\n- **封測大廠:** [[日月光投控]]、[[矽品]]、[[力成]] — [[EMC]] 封膠樹脂與[[導線架]]\n- **IC 封裝:** [[矽格]]、[[超豐]] — 封裝材料與設備\n- **面板/顯示:** 顯示器模組廠 — [[COF]] 基板\n\n### 主要供應商\n- **封膠樹脂:** [[住友培科]] (Sumitomo Bakelite) — 合作逾 35 年，[[EMC]] 封裝材料\n- **模壓設備:** [[Apic Yamada]] — 高階模壓成型設備\n- **陶瓷封裝:** [[京瓷]] (Kyocera) — 半導體陶瓷零組件\n- **大股東:** [[華立]] — 集團策略資源"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 22,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

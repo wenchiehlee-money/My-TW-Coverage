@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4702",
+  "company_name": "中美實",
+  "title": "4702 - 中美實",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4702_中美實.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "663 百萬台幣",
+    "enterprise_value": "232 百萬台幣"
+  },
+  "business": {
+    "summary": "中美實業 (4702，Allied Industrial) 成立於 1964 年，曾為台灣最大[[分散性染料]]製造商 (品牌 ALLILON)，產品涵蓋[[分散性染料]]、[[酸性染料]]及[[反應性染料]]，供應台灣紡織染整業如[[遠東新世紀]]、[[力麗]]等纖維廠之下游染整廠。近年營收大幅萎縮 (2024 年僅 1.8 億元)，傳統染料業務受中國廠商價格競爭影響已非主力。業務轉向汽車貿易及醫療器材代理 (代理[[Mercedes-Benz]]等品牌中古車)，投資收益為主要獲利來源。上游染料中間體採購自中國化工供應商及國內[[台化]]等石化廠。",
+    "entities": [
+      "分散性染料",
+      "酸性染料",
+      "反應性染料",
+      "遠東新世紀",
+      "力麗",
+      "Mercedes-Benz",
+      "台化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "染料中間體",
+        "text": "中國化工供應商",
+        "entities": []
+      },
+      {
+        "category": "石化原料",
+        "text": "[[台化]] — 苯環衍生物等基礎原料",
+        "entities": [
+          "台化"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與貿易)",
+        "text": "**中游 (製造與貿易):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中美實** ([[分散性染料]]/[[酸性染料]]/[[反應性染料]] ALLILON 品牌；汽車貿易；醫療器材代理)",
+        "entities": [
+          "分散性染料",
+          "酸性染料",
+          "反應性染料"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "紡織染整",
+        "text": "[[遠東新世紀]]、[[力麗]]等纖維廠之下游染整廠",
+        "entities": [
+          "遠東新世紀",
+          "力麗"
+        ]
+      },
+      {
+        "category": "汽車貿易",
+        "text": "[[Mercedes-Benz]]等品牌中古車經銷",
+        "entities": [
+          "Mercedes-Benz"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "紡織染整",
+        "text": "[[遠東新世紀]]、[[力麗]]下游染整廠 — [[分散性染料]] ALLILON",
+        "entities": [
+          "遠東新世紀",
+          "力麗",
+          "分散性染料"
+        ]
+      },
+      {
+        "role": "汽車貿易",
+        "text": "[[Mercedes-Benz]]等品牌中古車客戶",
+        "entities": [
+          "Mercedes-Benz"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "染料中間體",
+        "text": "中國化工供應商",
+        "entities": []
+      },
+      {
+        "role": "石化",
+        "text": "[[台化]] — 基礎化工原料",
+        "entities": [
+          "台化"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "遠東新世紀",
+          "力麗",
+          "分散性染料",
+          "Mercedes-Benz"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "分散性染料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "分散性染料"
+    },
+    {
+      "name": "酸性染料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "酸性染料"
+    },
+    {
+      "name": "反應性染料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "反應性染料"
+    },
+    {
+      "name": "遠東新世紀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新世紀"
+    },
+    {
+      "name": "力麗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力麗"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中美實業 (4702，Allied Industrial) 成立於 1964 年，曾為台灣最大[[分散性染料]]製造商 (品牌 ALLILON)，產品涵蓋[[分散性染料]]、[[酸性染料]]及[[反應性染料]]，供應台灣紡織染整業如[[遠東新世紀]]、[[力麗]]等纖維廠之下游染整廠。近年營收大幅萎縮 (2024 年僅 1.8 億元)，傳統染料業務受中國廠商價格競爭影響已非主力。業務轉向汽車貿易及醫療器材代理 (代理[[Mercedes-Benz]]等品牌中古車)，投資收益為主要獲利來源。上游染料中間體採購自中國化工供應商及國內[[台化]]等石化廠。",
+    "supply_chain_md": "**上游 (原料):**\n- **染料中間體:** 中國化工供應商\n- **石化原料:** [[台化]] — 苯環衍生物等基礎原料\n\n**中游 (製造與貿易):**\n- **中美實** ([[分散性染料]]/[[酸性染料]]/[[反應性染料]] ALLILON 品牌；汽車貿易；醫療器材代理)\n\n**下游 (終端):**\n- **紡織染整:** [[遠東新世紀]]、[[力麗]]等纖維廠之下游染整廠\n- **汽車貿易:** [[Mercedes-Benz]]等品牌中古車經銷",
+    "customers_suppliers_md": "### 主要客戶\n- **紡織染整:** [[遠東新世紀]]、[[力麗]]下游染整廠 — [[分散性染料]] ALLILON\n- **汽車貿易:** [[Mercedes-Benz]]等品牌中古車客戶\n\n### 主要供應商\n- **染料中間體:** 中國化工供應商\n- **石化:** [[台化]] — 基礎化工原料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

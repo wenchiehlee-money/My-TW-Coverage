@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9906",
+  "company_name": "欣巴巴",
+  "title": "9906 - 欣巴巴",
+  "source_md": "Pilot_Reports/Engineering & Construction/9906_欣巴巴.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "3,475 百萬台幣",
+    "enterprise_value": "9,495 百萬台幣"
+  },
+  "business": {
+    "summary": "欣巴巴事業股份有限公司成立於1967年，總部位於高雄市前鎮區，為南台灣知名不動產開發商。核心業務為住宅大樓之規劃、興建與銷售，專注於高雄地區之集合住宅建案。旗下透過子公司[[江城建設]]參與多項大型開發案，包括高雄捷運橘線O9站（C基地）土地開發案，獲選為最優申請人。近年推出之建案包括「欣巴巴幸福豐收區」、「欣巴巴學府塔」、「欣巴巴壹品塔」及高雄鼓山區龍段等案。此外，公司亦從事金屬印刷及紙容器製造加工業務，惟營收佔比甚低。",
+    "entities": [
+      "江城建設"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (建材與土地)",
+        "text": "**上游 (建材與土地):**",
+        "entities": []
+      },
+      {
+        "category": "鋼筋",
+        "text": "[[中鋼]]（鋼筋供應）",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "水泥",
+        "text": "[[台泥]]、[[亞泥]]（水泥供應）",
+        "entities": [
+          "台泥",
+          "亞泥"
+        ]
+      },
+      {
+        "category": "土地",
+        "text": "高雄地區土地取得（含捷運聯開案）",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與營造)",
+        "text": "**中游 (開發與營造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**欣巴巴事業** — 住宅大樓規劃設計與銷售",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[江城建設]]** — 子公司，參與捷運聯開案等大型開發",
+        "entities": [
+          "江城建設"
+        ]
+      },
+      {
+        "category": "營造施工",
+        "text": "合作營造廠商",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "住宅購屋者",
+        "text": "高雄地區一般購屋族群",
+        "entities": []
+      },
+      {
+        "category": "投資客",
+        "text": "不動產投資者",
+        "entities": []
+      },
+      {
+        "category": "捷運聯開",
+        "text": "[[高雄捷運]]聯合開發案承購者",
+        "entities": [
+          "高雄捷運"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "住宅銷售",
+        "text": "高雄地區一般購屋者（集合住宅建案）",
+        "entities": []
+      },
+      {
+        "role": "捷運聯開",
+        "text": "[[高雄捷運]]橘線O9站土地開發案之商業與住宅承購者",
+        "entities": [
+          "高雄捷運"
+        ]
+      },
+      {
+        "role": "紙容器",
+        "text": "食品業者（金屬印刷及紙容器加工，佔比低）",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼筋",
+        "text": "[[中鋼]]（鋼筋主要供應商）",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "水泥",
+        "text": "[[台泥]]、[[亞泥]]",
+        "entities": [
+          "台泥",
+          "亞泥"
+        ]
+      },
+      {
+        "role": "營造",
+        "text": "合作營造廠商（代為施工）",
+        "entities": []
+      },
+      {
+        "role": "建築設計",
+        "text": "建築師事務所",
+        "entities": []
+      },
+      {
+        "role": "銷售代理",
+        "text": "不動產代銷公司",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Engineering & Construction):** [[三洋實業]]、[[日高]]、[[世紀風電]]、[[漢唐]]、[[龍邦]]",
+        "entities": [
+          "三洋實業",
+          "日高",
+          "世紀風電",
+          "漢唐",
+          "龍邦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "高雄捷運"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "江城建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "江城建設"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "高雄捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄捷運"
+    },
+    {
+      "name": "三洋實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋實業"
+    },
+    {
+      "name": "日高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日高"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "漢唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢唐"
+    },
+    {
+      "name": "龍邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "龍邦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "欣巴巴事業股份有限公司成立於1967年，總部位於高雄市前鎮區，為南台灣知名不動產開發商。核心業務為住宅大樓之規劃、興建與銷售，專注於高雄地區之集合住宅建案。旗下透過子公司[[江城建設]]參與多項大型開發案，包括高雄捷運橘線O9站（C基地）土地開發案，獲選為最優申請人。近年推出之建案包括「欣巴巴幸福豐收區」、「欣巴巴學府塔」、「欣巴巴壹品塔」及高雄鼓山區龍段等案。此外，公司亦從事金屬印刷及紙容器製造加工業務，惟營收佔比甚低。",
+    "supply_chain_md": "**上游 (建材與土地):**\n- **鋼筋:** [[中鋼]]（鋼筋供應）\n- **水泥:** [[台泥]]、[[亞泥]]（水泥供應）\n- **土地:** 高雄地區土地取得（含捷運聯開案）\n\n**中游 (開發與營造):**\n- **欣巴巴事業** — 住宅大樓規劃設計與銷售\n- **[[江城建設]]** — 子公司，參與捷運聯開案等大型開發\n- **營造施工:** 合作營造廠商\n\n**下游 (終端客戶):**\n- **住宅購屋者:** 高雄地區一般購屋族群\n- **投資客:** 不動產投資者\n- **捷運聯開:** [[高雄捷運]]聯合開發案承購者",
+    "customers_suppliers_md": "### 主要客戶\n- **住宅銷售:** 高雄地區一般購屋者（集合住宅建案）\n- **捷運聯開:** [[高雄捷運]]橘線O9站土地開發案之商業與住宅承購者\n- **紙容器:** 食品業者（金屬印刷及紙容器加工，佔比低）\n\n### 主要供應商\n- **鋼筋:** [[中鋼]]（鋼筋主要供應商）\n- **水泥:** [[台泥]]、[[亞泥]]\n- **營造:** 合作營造廠商（代為施工）\n- **建築設計:** 建築師事務所\n- **銷售代理:** 不動產代銷公司"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

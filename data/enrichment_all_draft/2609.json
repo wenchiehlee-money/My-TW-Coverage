@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2609",
+  "company_name": "陽明",
+  "title": "2609 - 陽明",
+  "source_md": "Pilot_Reports/Marine Shipping/2609_陽明.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "174,954 百萬台幣",
+    "enterprise_value": "66,602 百萬台幣"
+  },
+  "business": {
+    "summary": "陽明海運股份有限公司 (2609，Yang Ming Marine Transport) 成立於 1972 年，前身為「招商局」，具有深厚官股背景 ([[交通部]]及國發基金為主要股東)。為台灣第二大、全球第九大貨櫃航運公司，隸屬於 THE Alliance (與[[Hapag-Lloyd]]、[[ONE]]、[[HMM]]合作)。營運重心為遠東-北美及遠東-歐洲航線。旗下擁有子公司高明貨櫃碼頭，並於[[台灣國際造船]]訂購新型貨櫃輪。",
+    "entities": [
+      "交通部",
+      "Hapag-Lloyd",
+      "ONE",
+      "HMM",
+      "台灣國際造船"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶與設備)",
+        "text": "**上游 (船舶與設備):**",
+        "entities": []
+      },
+      {
+        "category": "造船",
+        "text": "[[台灣國際造船]] (台船)、[[現代重工]] — 新造貨櫃輪",
+        "entities": [
+          "台灣國際造船",
+          "現代重工"
+        ]
+      },
+      {
+        "category": "租船",
+        "text": "國際租船公司",
+        "entities": []
+      },
+      {
+        "category": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (貨櫃航運服務)",
+        "text": "**中游 (貨櫃航運服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[陽明海運]]** — 全球貨櫃海運服務",
+        "entities": [
+          "陽明海運"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**THE Alliance** — 與[[Hapag-Lloyd]]、[[ONE]]、[[HMM]]聯盟艙位互換",
+        "entities": [
+          "Hapag-Lloyd",
+          "ONE",
+          "HMM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端貨主)",
+        "text": "**下游 (終端貨主):**",
+        "entities": []
+      },
+      {
+        "category": "大型貿易商",
+        "text": "全球進出口貿易商",
+        "entities": []
+      },
+      {
+        "category": "貨代",
+        "text": "國際貨運承攬業者",
+        "entities": []
+      },
+      {
+        "category": "碼頭",
+        "text": "高明貨櫃碼頭 (子公司)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "聯盟夥伴",
+        "text": "THE Alliance — [[Hapag-Lloyd]]、[[ONE]]、[[HMM]]艙位互換",
+        "entities": [
+          "Hapag-Lloyd",
+          "ONE",
+          "HMM"
+        ]
+      },
+      {
+        "role": "終端貨主",
+        "text": "全球進出口貿易商",
+        "entities": []
+      },
+      {
+        "role": "貨代",
+        "text": "國際貨運承攬業者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "造船",
+        "text": "[[台灣國際造船]]、[[現代重工]] — 新造貨櫃輪",
+        "entities": [
+          "台灣國際造船",
+          "現代重工"
+        ]
+      },
+      {
+        "role": "碼頭",
+        "text": "高明貨櫃碼頭 (子公司)",
+        "entities": []
+      },
+      {
+        "role": "股東",
+        "text": "[[交通部]]、國發基金 — 官股背景",
+        "entities": [
+          "交通部"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Marine Shipping):** [[長榮]]、[[新興]]、[[裕民]]、[[志信]]、[[中櫃]]",
+        "entities": [
+          "長榮",
+          "新興",
+          "裕民",
+          "志信",
+          "中櫃"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Hapag-Lloyd",
+          "ONE",
+          "HMM"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "交通部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "交通部"
+    },
+    {
+      "name": "Hapag-Lloyd",
+      "type": "international_company_or_term",
+      "wikilink": "Hapag-Lloyd"
+    },
+    {
+      "name": "ONE",
+      "type": "international_company_or_term",
+      "wikilink": "ONE"
+    },
+    {
+      "name": "HMM",
+      "type": "international_company_or_term",
+      "wikilink": "HMM"
+    },
+    {
+      "name": "台灣國際造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣國際造船"
+    },
+    {
+      "name": "現代重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "現代重工"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "長榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮"
+    },
+    {
+      "name": "新興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新興"
+    },
+    {
+      "name": "裕民",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕民"
+    },
+    {
+      "name": "志信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志信"
+    },
+    {
+      "name": "中櫃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中櫃"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "陽明海運股份有限公司 (2609，Yang Ming Marine Transport) 成立於 1972 年，前身為「招商局」，具有深厚官股背景 ([[交通部]]及國發基金為主要股東)。為台灣第二大、全球第九大貨櫃航運公司，隸屬於 THE Alliance (與[[Hapag-Lloyd]]、[[ONE]]、[[HMM]]合作)。營運重心為遠東-北美及遠東-歐洲航線。旗下擁有子公司高明貨櫃碼頭，並於[[台灣國際造船]]訂購新型貨櫃輪。",
+    "supply_chain_md": "**上游 (船舶與設備):**\n- **造船:** [[台灣國際造船]] (台船)、[[現代重工]] — 新造貨櫃輪\n- **租船:** 國際租船公司\n- **燃油:** 全球各港口燃油供應商\n\n**中游 (貨櫃航運服務):**\n- **[[陽明海運]]** — 全球貨櫃海運服務\n- **THE Alliance** — 與[[Hapag-Lloyd]]、[[ONE]]、[[HMM]]聯盟艙位互換\n\n**下游 (終端貨主):**\n- **大型貿易商:** 全球進出口貿易商\n- **貨代:** 國際貨運承攬業者\n- **碼頭:** 高明貨櫃碼頭 (子公司)",
+    "customers_suppliers_md": "### 主要客戶\n- **聯盟夥伴:** THE Alliance — [[Hapag-Lloyd]]、[[ONE]]、[[HMM]]艙位互換\n- **終端貨主:** 全球進出口貿易商\n- **貨代:** 國際貨運承攬業者\n\n### 主要供應商\n- **造船:** [[台灣國際造船]]、[[現代重工]] — 新造貨櫃輪\n- **碼頭:** 高明貨櫃碼頭 (子公司)\n- **股東:** [[交通部]]、國發基金 — 官股背景"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

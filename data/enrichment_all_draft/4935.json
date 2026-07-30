@@ -1,0 +1,200 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4935",
+  "company_name": "茂林-KY",
+  "title": "4935 - 茂林-KY",
+  "source_md": "Pilot_Reports/Electronic Components/4935_茂林-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,510 百萬台幣",
+    "enterprise_value": "619 百萬台幣"
+  },
+  "business": {
+    "summary": "茂林光電 (Global Lighting Technologies, GLT) 為全球 **導光板 (Light Guide Plate, LGP)** 技術領導者。\n專注於 **微結構 optical microstructure** 導光板之設計與製造，廣泛應用於：\n1.  **IT 產品**: 發光鍵盤 (主要成長動能，獨家供應美系大廠)、筆電。\n2.  **顯示器**: 監視器、電視導光板。\n3.  **穿戴/車用**: 智慧手錶、車用顯示導光板。\n生產基地位於台灣 (銅鑼、中科)、中國 (上海、中山、蘇州) 與越南。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 光學級 PMMA/PC 塑料 ([[奇美實業]]), LED 顆粒.",
+        "entities": [
+          "奇美實業"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **茂林-KY (4935)** - 導光板及背光模組元件製造.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**背光模組廠**: [[瑞儀]], [[中光電]].",
+        "entities": [
+          "瑞儀",
+          "中光電"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**終端品牌**: **[[Apple]]** (MacBook 發光鍵盤), [[HP]], [[Dell]], 電視品牌 ([[Sony]], [[Samsung]]).",
+        "entities": [
+          "Apple",
+          "HP",
+          "Dell",
+          "Sony",
+          "Samsung"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**[[Apple]]** (MacBook 發光鍵盤導光板最大供應商).",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**[[瑞儀]]** (背光模組合作).",
+        "entities": [
+          "瑞儀"
+        ]
+      },
+      {
+        "role": "",
+        "text": "Garmin (穿戴裝置).",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**塑料**: [[奇美實業]], 三菱化學.",
+        "entities": [
+          "奇美實業"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "瑞儀"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "奇美實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇美實業"
+    },
+    {
+      "name": "瑞儀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞儀"
+    },
+    {
+      "name": "中光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中光電"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "茂林光電 (Global Lighting Technologies, GLT) 為全球 **導光板 (Light Guide Plate, LGP)** 技術領導者。\n專注於 **微結構 optical microstructure** 導光板之設計與製造，廣泛應用於：\n1.  **IT 產品**: 發光鍵盤 (主要成長動能，獨家供應美系大廠)、筆電。\n2.  **顯示器**: 監視器、電視導光板。\n3.  **穿戴/車用**: 智慧手錶、車用顯示導光板。\n生產基地位於台灣 (銅鑼、中科)、中國 (上海、中山、蘇州) 與越南。",
+    "supply_chain_md": "*   **中游 (本體)**: **茂林-KY (4935)** - 導光板及背光模組元件製造.\n*   **上游**: 光學級 PMMA/PC 塑料 ([[奇美實業]]), LED 顆粒.\n*   **下游**:\n    *   **背光模組廠**: [[瑞儀]], [[中光電]].\n    *   **終端品牌**: **[[Apple]]** (MacBook 發光鍵盤), [[HP]], [[Dell]], 電視品牌 ([[Sony]], [[Samsung]]).",
+    "customers_suppliers_md": "### 主要客戶\n*   **[[Apple]]** (MacBook 發光鍵盤導光板最大供應商).\n*   **[[瑞儀]]** (背光模組合作).\n*   Garmin (穿戴裝置).\n\n### 主要供應商\n*   **塑料**: [[奇美實業]], 三菱化學."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5489",
+  "company_name": "彩富",
+  "title": "5489 - 彩富",
+  "source_md": "Pilot_Reports/Consumer Electronics/5489_彩富.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "4,047 百萬台幣",
+    "enterprise_value": "3,226 百萬台幣"
+  },
+  "business": {
+    "summary": "彩富電子股份有限公司 (5489) 成立於 1991 年，總部位於台灣台北內湖。公司專注於影像安防監控產品之研發與製造，主要產品涵蓋網路攝影機 ([[IP Camera]])、快速球型攝影機 (Speed Dome)、網路錄影機 ([[NVR]]) 及機器視覺產品。近年積極整合 [[AI]] 影像分析技術，應用於智慧零售、[[智慧城市]]、交通監控及工廠[[自動化]]。營運模式以 [[ODM]]/[[OEM]] 為主，服務全球安控品牌及系統整合商。",
+    "entities": [
+      "IP Camera",
+      "NVR",
+      "AI",
+      "智慧城市",
+      "自動化",
+      "ODM",
+      "OEM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (影像元件)",
+        "text": "**上游 (影像元件):**",
+        "entities": []
+      },
+      {
+        "category": "影像感測器",
+        "text": "[[Sony]]、[[OmniVision]] — CMOS 感測晶片",
+        "entities": [
+          "Sony",
+          "OmniVision"
+        ]
+      },
+      {
+        "category": "影像處理 SoC",
+        "text": "安防專用 SoC 處理器",
+        "entities": []
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "安防用光學鏡頭模組",
+        "entities": []
+      },
+      {
+        "category": "電路板",
+        "text": "[[PCB]] 基板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (安防設備設計製造)",
+        "text": "**中游 (安防設備設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "網路攝影機",
+        "text": "**彩富** ([[IP Camera]] 設計製造)",
+        "entities": [
+          "IP Camera"
+        ]
+      },
+      {
+        "category": "錄影系統",
+        "text": "**彩富** ([[NVR]] 網路錄影機)",
+        "entities": [
+          "NVR"
+        ]
+      },
+      {
+        "category": "AI 影像",
+        "text": "**彩富** ([[AI]] 影像分析軟體整合)",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "category": "機器視覺",
+        "text": "**彩富** (工業機器視覺系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (安防終端應用)",
+        "text": "**下游 (安防終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "安控品牌",
+        "text": "全球安控品牌商 — [[ODM]] 代工",
+        "entities": [
+          "ODM"
+        ]
+      },
+      {
+        "category": "系統整合",
+        "text": "政府/交通/零售業安防專案",
+        "entities": []
+      },
+      {
+        "category": "智慧城市",
+        "text": "[[智慧城市]]監控與交通管理",
+        "entities": [
+          "智慧城市"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "安控品牌",
+        "text": "全球安控品牌商 — [[IP Camera]]/[[NVR]] ODM 代工",
+        "entities": [
+          "IP Camera",
+          "NVR"
+        ]
+      },
+      {
+        "role": "政府專案",
+        "text": "政府、機場、交通 — 安防監控專案",
+        "entities": []
+      },
+      {
+        "role": "零售業",
+        "text": "零售連鎖 — 智慧零售影像分析",
+        "entities": []
+      },
+      {
+        "role": "工業客戶",
+        "text": "製造業 — 機器視覺檢測",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "感測器",
+        "text": "[[Sony]]、[[OmniVision]] — CMOS 影像感測晶片",
+        "entities": [
+          "Sony",
+          "OmniVision"
+        ]
+      },
+      {
+        "role": "SoC",
+        "text": "安防專用影像處理 SoC 供應商",
+        "entities": []
+      },
+      {
+        "role": "鏡頭",
+        "text": "安防用光學鏡頭模組廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "IP Camera",
+          "NVR"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IP Camera",
+      "type": "international_company_or_term",
+      "wikilink": "IP Camera"
+    },
+    {
+      "name": "NVR",
+      "type": "international_company_or_term",
+      "wikilink": "NVR"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "智慧城市",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智慧城市"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "OmniVision",
+      "type": "international_company_or_term",
+      "wikilink": "OmniVision"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "彩富電子股份有限公司 (5489) 成立於 1991 年，總部位於台灣台北內湖。公司專注於影像安防監控產品之研發與製造，主要產品涵蓋網路攝影機 ([[IP Camera]])、快速球型攝影機 (Speed Dome)、網路錄影機 ([[NVR]]) 及機器視覺產品。近年積極整合 [[AI]] 影像分析技術，應用於智慧零售、[[智慧城市]]、交通監控及工廠[[自動化]]。營運模式以 [[ODM]]/[[OEM]] 為主，服務全球安控品牌及系統整合商。",
+    "supply_chain_md": "**上游 (影像元件):**\n- **影像感測器:** [[Sony]]、[[OmniVision]] — CMOS 感測晶片\n- **影像處理 SoC:** 安防專用 SoC 處理器\n- **光學鏡頭:** 安防用光學鏡頭模組\n- **電路板:** [[PCB]] 基板\n\n**中游 (安防設備設計製造):**\n- **網路攝影機:** **彩富** ([[IP Camera]] 設計製造)\n- **錄影系統:** **彩富** ([[NVR]] 網路錄影機)\n- **AI 影像:** **彩富** ([[AI]] 影像分析軟體整合)\n- **機器視覺:** **彩富** (工業機器視覺系統)\n\n**下游 (安防終端應用):**\n- **安控品牌:** 全球安控品牌商 — [[ODM]] 代工\n- **系統整合:** 政府/交通/零售業安防專案\n- **智慧城市:** [[智慧城市]]監控與交通管理",
+    "customers_suppliers_md": "### 主要客戶\n- **安控品牌:** 全球安控品牌商 — [[IP Camera]]/[[NVR]] ODM 代工\n- **政府專案:** 政府、機場、交通 — 安防監控專案\n- **零售業:** 零售連鎖 — 智慧零售影像分析\n- **工業客戶:** 製造業 — 機器視覺檢測\n\n### 主要供應商\n- **感測器:** [[Sony]]、[[OmniVision]] — CMOS 影像感測晶片\n- **SoC:** 安防專用影像處理 SoC 供應商\n- **鏡頭:** 安防用光學鏡頭模組廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

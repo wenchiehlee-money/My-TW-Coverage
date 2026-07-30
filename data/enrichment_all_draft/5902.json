@@ -1,0 +1,275 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5902",
+  "company_name": "德記",
+  "title": "5902_德記",
+  "source_md": "Pilot_Reports/Food Distribution/5902_德記.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Food Distribution",
+    "market_cap": "3,199 百萬台幣",
+    "enterprise_value": "2,807 百萬台幣"
+  },
+  "business": {
+    "summary": "德記洋行 (5902) 為隸屬[[統一集團]] (母公司[[統一]])之行銷代理及物流企業，創立於 1867 年台南安平。核心業務涵蓋國際知名食品飲料與酒類品牌之代理進口銷售，代理品牌包括 [[Starbucks]] 瓶裝咖啡、[[OATLY]] 燕麥奶、[[森永製菓]] 冰品與糖餅、[[Jeju 三多水]]等。自有品牌擁有「[[開喜烏龍茶]]」等產品線。酒類代理包括 [[Singha]] 啤酒、[[Beck's]] 啤酒及[[馬祖東引高粱]]等。",
+    "entities": [
+      "統一集團",
+      "統一",
+      "Starbucks",
+      "OATLY",
+      "森永製菓",
+      "Jeju 三多水",
+      "開喜烏龍茶",
+      "Singha",
+      "Beck's",
+      "馬祖東引高粱"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際品牌原廠)",
+        "text": "**上游 (國際品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "咖啡飲料",
+        "text": "[[Starbucks]] (美國)",
+        "entities": [
+          "Starbucks"
+        ]
+      },
+      {
+        "category": "植物奶",
+        "text": "[[OATLY]] (瑞典)",
+        "entities": [
+          "OATLY"
+        ]
+      },
+      {
+        "category": "冰品糖餅",
+        "text": "[[森永製菓]] (日本)",
+        "entities": [
+          "森永製菓"
+        ]
+      },
+      {
+        "category": "啤酒",
+        "text": "[[Singha]] (泰國)、[[Beck's]] (德國)",
+        "entities": [
+          "Singha",
+          "Beck's"
+        ]
+      },
+      {
+        "category": "烈酒",
+        "text": "[[馬祖東引高粱]]",
+        "entities": [
+          "馬祖東引高粱"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**德記洋行** (國際品牌代理行銷、自有品牌經營、大宗物資進口)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "集團通路",
+        "text": "[[統一超商]] (7-ELEVEN)、[[家樂福]]",
+        "entities": [
+          "統一超商",
+          "家樂福"
+        ]
+      },
+      {
+        "category": "其他零售",
+        "text": "[[全家便利商店]]、[[全聯]]",
+        "entities": [
+          "全家便利商店",
+          "全聯"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "集團通路",
+        "text": "[[統一超商]] (7-ELEVEN)、[[家樂福]]",
+        "entities": [
+          "統一超商",
+          "家樂福"
+        ]
+      },
+      {
+        "role": "外部通路",
+        "text": "[[全家便利商店]]、[[全聯]]等零售通路",
+        "entities": [
+          "全家便利商店",
+          "全聯"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "飲料",
+        "text": "[[Starbucks]]、[[OATLY]]",
+        "entities": [
+          "Starbucks",
+          "OATLY"
+        ]
+      },
+      {
+        "role": "冰品",
+        "text": "[[森永製菓]]",
+        "entities": [
+          "森永製菓"
+        ]
+      },
+      {
+        "role": "啤酒",
+        "text": "[[Singha]]、[[Beck's]]",
+        "entities": [
+          "Singha",
+          "Beck's"
+        ]
+      },
+      {
+        "role": "烈酒",
+        "text": "[[馬祖東引高粱]]",
+        "entities": [
+          "馬祖東引高粱"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Food Distribution):** [[同業待補]]",
+        "entities": [
+          "同業待補"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "統一超商",
+          "家樂福",
+          "全家便利商店",
+          "全聯"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "統一集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一集團"
+    },
+    {
+      "name": "統一",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一"
+    },
+    {
+      "name": "Starbucks",
+      "type": "international_company_or_term",
+      "wikilink": "Starbucks"
+    },
+    {
+      "name": "OATLY",
+      "type": "international_company_or_term",
+      "wikilink": "OATLY"
+    },
+    {
+      "name": "森永製菓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "森永製菓"
+    },
+    {
+      "name": "Jeju 三多水",
+      "type": "taiwan_company_or_term",
+      "wikilink": "Jeju 三多水"
+    },
+    {
+      "name": "開喜烏龍茶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "開喜烏龍茶"
+    },
+    {
+      "name": "Singha",
+      "type": "international_company_or_term",
+      "wikilink": "Singha"
+    },
+    {
+      "name": "Beck's",
+      "type": "international_company_or_term",
+      "wikilink": "Beck's"
+    },
+    {
+      "name": "馬祖東引高粱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "馬祖東引高粱"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "全家便利商店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家便利商店"
+    },
+    {
+      "name": "全聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全聯"
+    },
+    {
+      "name": "同業待補",
+      "type": "taiwan_company_or_term",
+      "wikilink": "同業待補"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "德記洋行 (5902) 為隸屬[[統一集團]] (母公司[[統一]])之行銷代理及物流企業，創立於 1867 年台南安平。核心業務涵蓋國際知名食品飲料與酒類品牌之代理進口銷售，代理品牌包括 [[Starbucks]] 瓶裝咖啡、[[OATLY]] 燕麥奶、[[森永製菓]] 冰品與糖餅、[[Jeju 三多水]]等。自有品牌擁有「[[開喜烏龍茶]]」等產品線。酒類代理包括 [[Singha]] 啤酒、[[Beck's]] 啤酒及[[馬祖東引高粱]]等。",
+    "supply_chain_md": "**上游 (國際品牌原廠):**\n- **咖啡飲料:** [[Starbucks]] (美國)\n- **植物奶:** [[OATLY]] (瑞典)\n- **冰品糖餅:** [[森永製菓]] (日本)\n- **啤酒:** [[Singha]] (泰國)、[[Beck's]] (德國)\n- **烈酒:** [[馬祖東引高粱]]\n\n**中游:**\n- **德記洋行** (國際品牌代理行銷、自有品牌經營、大宗物資進口)\n\n**下游 (銷售通路):**\n- **集團通路:** [[統一超商]] (7-ELEVEN)、[[家樂福]]\n- **其他零售:** [[全家便利商店]]、[[全聯]]",
+    "customers_suppliers_md": "### 主要客戶\n- **集團通路:** [[統一超商]] (7-ELEVEN)、[[家樂福]]\n- **外部通路:** [[全家便利商店]]、[[全聯]]等零售通路\n\n### 主要供應商\n- **飲料:** [[Starbucks]]、[[OATLY]]\n- **冰品:** [[森永製菓]]\n- **啤酒:** [[Singha]]、[[Beck's]]\n- **烈酒:** [[馬祖東引高粱]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3531",
+  "company_name": "先益",
+  "title": "3531 - 先益",
+  "source_md": "Pilot_Reports/Semiconductors/3531_先益.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "1,327 百萬台幣",
+    "enterprise_value": "-13 百萬台幣"
+  },
+  "business": {
+    "summary": "先益電子 (3531) 是[[背光模組]]製造商，主要從事液晶顯示器背光模組之製造與銷售。產品應用於中小尺寸 [[LCD]] 面板。主要客戶為 [[友達光電]]及[[群創光電]]等面板廠。",
+    "entities": [
+      "背光模組",
+      "LCD",
+      "友達光電",
+      "群創光電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "LED 光源",
+        "text": "LED 背光用光源",
+        "entities": []
+      },
+      {
+        "category": "光學膜材",
+        "text": "導光板、擴散膜、增亮膜",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (背光模組)",
+        "text": "**中游 (背光模組):**",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "**先益** (LCD 背光模組製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板廠)",
+        "text": "**下游 (面板廠):**",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "[[友達光電]]、[[群創光電]]",
+        "entities": [
+          "友達光電",
+          "群創光電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板廠",
+        "text": "[[友達光電]]、[[群創光電]]",
+        "entities": [
+          "友達光電",
+          "群創光電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 光源",
+        "text": "LED 光源供應",
+        "entities": []
+      },
+      {
+        "role": "光學膜材",
+        "text": "導光板及膜材供應",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "友達光電",
+          "群創光電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "背光模組",
+      "type": "taiwan_company_or_term",
+      "wikilink": "背光模組"
+    },
+    {
+      "name": "LCD",
+      "type": "international_company_or_term",
+      "wikilink": "LCD"
+    },
+    {
+      "name": "友達光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達光電"
+    },
+    {
+      "name": "群創光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創光電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "先益電子 (3531) 是[[背光模組]]製造商，主要從事液晶顯示器背光模組之製造與銷售。產品應用於中小尺寸 [[LCD]] 面板。主要客戶為 [[友達光電]]及[[群創光電]]等面板廠。",
+    "supply_chain_md": "**上游 (材料):**\n- **LED 光源:** LED 背光用光源\n- **光學膜材:** 導光板、擴散膜、增亮膜\n\n**中游 (背光模組):**\n- **背光模組:** **先益** (LCD 背光模組製造)\n\n**下游 (面板廠):**\n- **面板:** [[友達光電]]、[[群創光電]]",
+    "customers_suppliers_md": "### 主要客戶\n- **面板廠:** [[友達光電]]、[[群創光電]]\n\n### 主要供應商\n- **LED 光源:** LED 光源供應\n- **光學膜材:** 導光板及膜材供應"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

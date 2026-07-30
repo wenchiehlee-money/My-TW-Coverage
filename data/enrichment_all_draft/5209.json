@@ -1,0 +1,255 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5209",
+  "company_name": "新鼎",
+  "title": "5209 - 新鼎",
+  "source_md": "Pilot_Reports/Information Technology Services/5209_新鼎.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "4,324 百萬台幣",
+    "enterprise_value": "2,179 百萬台幣"
+  },
+  "business": {
+    "summary": "新鼎系統 (CTCI ASI / CTCI Advanced Systems) 隸屬於 **中鼎集團 (CTCI Group)**，為台灣領先的 **系統整合 (SI)** 廠商。\n專注於工廠[[自動化]]、智慧製造與交通控制系統。\n核心業務：\n1.  **智慧製造 (Smart Manufacturing)**: 製程控制 (DCS/PLC)、能源管理 ([[EMS]])、高科技廠務監控 (FMCS)。\n2.  **智慧交通 (Intelligent Transportation)**: 捷運/高鐵機電與號誌系統整合、行李處理系統 (BHS)。\n3.  **綠色技術**: 節能減碳解決方案。\n近年積極導入 [[AI]] 解決方案 (Mr. [[AI]] 平台) 於工安監控與設備預防保養。",
+    "entities": [
+      "自動化",
+      "EMS",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 設備原廠 ([[Siemens]], [[Honeywell]], Rockwell), 感測器廠商.",
+        "entities": [
+          "Siemens",
+          "Honeywell"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **新鼎 (5209)** - 系統整合設計, 軟硬體整合, 工程實施.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**石化/能源**: [[台灣中油]], [[台塑]], [[台電]]. (中鼎集團承攬案之[[自動化]]分包).",
+        "entities": [
+          "台灣中油",
+          "台塑",
+          "台電",
+          "自動化"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**高科技**: [[台積電]], 美商[[記憶體]]廠 (FMCS 系統).",
+        "entities": [
+          "台積電",
+          "記憶體"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**交通**: [[台灣高鐵]], [[台北捷運]], [[桃園機場]].",
+        "entities": [
+          "台灣高鐵",
+          "台北捷運",
+          "桃園機場"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**集團關聯**: [[中鼎工程]] (主要營收來源之一).",
+        "entities": [
+          "中鼎工程"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**公共工程**: 捷運局, 機場公司.",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**高科技廠**: [[半導體]]與面板大廠.",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**工控設備**: [[Siemens]], [[Honeywell]], [[Schneider Electric]].",
+        "entities": [
+          "Siemens",
+          "Honeywell",
+          "Schneider Electric"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Information Technology Services):** [[廣豐]]、[[凌群]]、[[華經]]、[[資通]]、[[大綜]]",
+        "entities": [
+          "廣豐",
+          "凌群",
+          "華經",
+          "資通",
+          "大綜"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中鼎工程",
+          "半導體"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Siemens",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens"
+    },
+    {
+      "name": "Honeywell",
+      "type": "international_company_or_term",
+      "wikilink": "Honeywell"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "台灣高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣高鐵"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    },
+    {
+      "name": "桃園機場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園機場"
+    },
+    {
+      "name": "中鼎工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鼎工程"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "Schneider Electric",
+      "type": "international_company_or_term",
+      "wikilink": "Schneider Electric"
+    },
+    {
+      "name": "廣豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣豐"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "華經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華經"
+    },
+    {
+      "name": "資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資通"
+    },
+    {
+      "name": "大綜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大綜"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新鼎系統 (CTCI ASI / CTCI Advanced Systems) 隸屬於 **中鼎集團 (CTCI Group)**，為台灣領先的 **系統整合 (SI)** 廠商。\n專注於工廠[[自動化]]、智慧製造與交通控制系統。\n核心業務：\n1.  **智慧製造 (Smart Manufacturing)**: 製程控制 (DCS/PLC)、能源管理 ([[EMS]])、高科技廠務監控 (FMCS)。\n2.  **智慧交通 (Intelligent Transportation)**: 捷運/高鐵機電與號誌系統整合、行李處理系統 (BHS)。\n3.  **綠色技術**: 節能減碳解決方案。\n近年積極導入 [[AI]] 解決方案 (Mr. [[AI]] 平台) 於工安監控與設備預防保養。",
+    "supply_chain_md": "*   **中游 (本體)**: **新鼎 (5209)** - 系統整合設計, 軟硬體整合, 工程實施.\n*   **上游**: 設備原廠 ([[Siemens]], [[Honeywell]], Rockwell), 感測器廠商.\n*   **下游**:\n    *   **石化/能源**: [[台灣中油]], [[台塑]], [[台電]]. (中鼎集團承攬案之[[自動化]]分包).\n    *   **高科技**: [[台積電]], 美商[[記憶體]]廠 (FMCS 系統).\n    *   **交通**: [[台灣高鐵]], [[台北捷運]], [[桃園機場]].",
+    "customers_suppliers_md": "### 主要客戶\n*   **集團關聯**: [[中鼎工程]] (主要營收來源之一).\n*   **公共工程**: 捷運局, 機場公司.\n*   **高科技廠**: [[半導體]]與面板大廠.\n\n### 主要供應商\n*   **工控設備**: [[Siemens]], [[Honeywell]], [[Schneider Electric]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

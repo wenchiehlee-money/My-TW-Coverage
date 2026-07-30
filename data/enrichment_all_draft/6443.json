@@ -1,0 +1,260 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6443",
+  "company_name": "元晶",
+  "title": "6443 - [[元晶]]",
+  "source_md": "Pilot_Reports/Solar/6443_元晶.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Solar",
+    "market_cap": "12,076 百萬台幣",
+    "enterprise_value": "13,814 百萬台幣"
+  },
+  "business": {
+    "summary": "元晶太陽能科技股份有限公司 (6443) 為台灣產能規模最大、技術領先的太陽能電池與模組製造商。主要業務包括：\n\n1. **太陽能電池：** 生產高轉換效率之大尺寸太陽能電池，成功打入[[Tesla]]太陽能屋瓦 (Solar Roof) 供應鏈。\n2. **太陽能模組：** 針對台灣高溫、高濕、多颱風之嚴苛環境，開發抗鹽害及抗強風模組（適用漁電共生、農電共生）。\n3. **電廠建置：** 提供太陽能電站建置服務。\n\n近期馬斯克團隊密訪台灣太陽能台廠，元晶為受訪企業之一，有望切入太空[[AI]]供應鏈。公司之[[鈣鈦礦]]太陽能電池技術亦受國際矚目。",
+    "entities": [
+      "Tesla",
+      "AI",
+      "鈣鈦礦"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "矽晶圓",
+        "text": "[[中美晶]]等矽晶圓製造商",
+        "entities": [
+          "中美晶"
+        ]
+      },
+      {
+        "category": "導電漿",
+        "text": "銀漿、鋁漿供應商",
+        "entities": []
+      },
+      {
+        "category": "封裝材料",
+        "text": "[[EVA]]膠膜、強化玻璃、鋁框",
+        "entities": [
+          "EVA"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "元晶 (6443)",
+        "text": "高效太陽能電池片製造、大尺寸模組組裝、電廠建置",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "[[Tesla]]",
+        "text": "太陽能屋瓦 (Solar Roof) 電池片供應",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "category": "系統整合商 ([[EPC]])",
+        "text": "國內太陽能電廠投資商",
+        "entities": [
+          "EPC"
+        ]
+      },
+      {
+        "category": "企業用戶",
+        "text": "響應[[RE100]]之大型企業",
+        "entities": [
+          "RE100"
+        ]
+      },
+      {
+        "category": "[[SpaceX]]",
+        "text": "太陽能產品進行低軌衛星終端應用驗證中",
+        "entities": [
+          "SpaceX"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "特定客戶",
+        "text": "[[Tesla]]（太陽能屋瓦電池片）",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "role": "國內電廠",
+        "text": "各大太陽能電廠投資商",
+        "entities": []
+      },
+      {
+        "role": "企業綠電",
+        "text": "響應[[RE100]]之大型企業",
+        "entities": [
+          "RE100"
+        ]
+      },
+      {
+        "role": "潛在客戶",
+        "text": "[[SpaceX]]（低軌衛星太陽能應用驗證中）",
+        "entities": [
+          "SpaceX"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "矽晶圓",
+        "text": "[[中美晶]]等矽晶圓製造商",
+        "entities": [
+          "中美晶"
+        ]
+      },
+      {
+        "role": "導電漿",
+        "text": "銀漿與鋁漿供應商",
+        "entities": []
+      },
+      {
+        "role": "封裝材料",
+        "text": "[[EVA]]膠膜、強化玻璃供應商",
+        "entities": [
+          "EVA"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Solar):** [[國碩]]、[[聯合再生]]、[[達能]]、[[碩禾]]、[[新晶投控]]",
+        "entities": [
+          "國碩",
+          "聯合再生",
+          "達能",
+          "碩禾",
+          "新晶投控"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Tesla",
+          "RE100",
+          "SpaceX"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "元晶太陽能科技股份有限公司 (6443) 為台灣產能規模最大、技術領先的太陽能電池與模組製造商。主要業務包括：",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "鈣鈦礦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈣鈦礦"
+    },
+    {
+      "name": "中美晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中美晶"
+    },
+    {
+      "name": "EVA",
+      "type": "international_company_or_term",
+      "wikilink": "EVA"
+    },
+    {
+      "name": "EPC",
+      "type": "international_company_or_term",
+      "wikilink": "EPC"
+    },
+    {
+      "name": "RE100",
+      "type": "international_company_or_term",
+      "wikilink": "RE100"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "國碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國碩"
+    },
+    {
+      "name": "聯合再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯合再生"
+    },
+    {
+      "name": "達能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達能"
+    },
+    {
+      "name": "碩禾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碩禾"
+    },
+    {
+      "name": "新晶投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新晶投控"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "元晶太陽能科技股份有限公司 (6443) 為台灣產能規模最大、技術領先的太陽能電池與模組製造商。主要業務包括：\n\n1. **太陽能電池：** 生產高轉換效率之大尺寸太陽能電池，成功打入[[Tesla]]太陽能屋瓦 (Solar Roof) 供應鏈。\n2. **太陽能模組：** 針對台灣高溫、高濕、多颱風之嚴苛環境，開發抗鹽害及抗強風模組（適用漁電共生、農電共生）。\n3. **電廠建置：** 提供太陽能電站建置服務。\n\n近期馬斯克團隊密訪台灣太陽能台廠，元晶為受訪企業之一，有望切入太空[[AI]]供應鏈。公司之[[鈣鈦礦]]太陽能電池技術亦受國際矚目。",
+    "supply_chain_md": "**上游 (原材料):**\n- **矽晶圓：** [[中美晶]]等矽晶圓製造商\n- **導電漿：** 銀漿、鋁漿供應商\n- **封裝材料：** [[EVA]]膠膜、強化玻璃、鋁框\n\n**中游 (製造):**\n- **元晶 (6443)：** 高效太陽能電池片製造、大尺寸模組組裝、電廠建置\n\n**下游 (終端應用):**\n- **[[Tesla]]：** 太陽能屋瓦 (Solar Roof) 電池片供應\n- **系統整合商 ([[EPC]])：** 國內太陽能電廠投資商\n- **企業用戶：** 響應[[RE100]]之大型企業\n- **[[SpaceX]]：** 太陽能產品進行低軌衛星終端應用驗證中",
+    "customers_suppliers_md": "### 主要客戶\n- **特定客戶：** [[Tesla]]（太陽能屋瓦電池片）\n- **國內電廠：** 各大太陽能電廠投資商\n- **企業綠電：** 響應[[RE100]]之大型企業\n- **潛在客戶：** [[SpaceX]]（低軌衛星太陽能應用驗證中）\n\n### 主要供應商\n- **矽晶圓：** [[中美晶]]等矽晶圓製造商\n- **導電漿：** 銀漿與鋁漿供應商\n- **封裝材料：** [[EVA]]膠膜、強化玻璃供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4912",
+  "company_name": "聯德控股-KY",
+  "title": "4912 - 聯德控股-KY",
+  "source_md": "Pilot_Reports/Metal Fabrication/4912_聯德控股-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "5,252 百萬台幣",
+    "enterprise_value": "5,449 百萬台幣"
+  },
+  "business": {
+    "summary": "聯德控股-KY (Lemtech Holdings) 為精密 **金屬沖壓機構件** 大廠。\n主要產品與應用：\n1.  **車用零組件 (Auto)**: 安全氣囊殼體、安全帶扣件、天窗滑軌、[[電動車]]電池包機構件。供應給 Tier 1 廠。\n2.  **電子/網通 (3C/Cloud)**: [[伺服器]]滑軌 (Slide Rails)、[[散熱]]模組 (Heat Sinks)、機櫃。\n3.  **運動器材**: 健身器材沖壓件 (如 Peloton)。\n近年積極佈局 **AI 伺服器** [[散熱]]與機構件，以及[[電動車]] (BEV) 相關零組件。",
+    "entities": [
+      "電動車",
+      "伺服器",
+      "散熱"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 金屬捲材 (鋼材, 鋁材).",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **聯德控股-KY (4912)** - 精密金屬沖壓與模具製造.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**汽車 Tier 1**: Autoliv, Brose.",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**伺服器/網通品牌**: [[CSP]] ([[Meta]], [[Microsoft]]), [[伺服器]]組裝廠.",
+        "entities": [
+          "CSP",
+          "Meta",
+          "Microsoft",
+          "伺服器"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**健身器材品牌**: Peloton.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**汽車**: Autoliv (全球最大安全氣囊供應商).",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**科技**: 美系 [[CSP]] 大廠.",
+        "entities": [
+          "CSP"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**健身**: Peloton.",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "CSP"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯德控股-KY (Lemtech Holdings) 為精密 **金屬沖壓機構件** 大廠。\n主要產品與應用：\n1.  **車用零組件 (Auto)**: 安全氣囊殼體、安全帶扣件、天窗滑軌、[[電動車]]電池包機構件。供應給 Tier 1 廠。\n2.  **電子/網通 (3C/Cloud)**: [[伺服器]]滑軌 (Slide Rails)、[[散熱]]模組 (Heat Sinks)、機櫃。\n3.  **運動器材**: 健身器材沖壓件 (如 Peloton)。\n近年積極佈局 **AI 伺服器** [[散熱]]與機構件，以及[[電動車]] (BEV) 相關零組件。",
+    "supply_chain_md": "*   **中游 (本體)**: **聯德控股-KY (4912)** - 精密金屬沖壓與模具製造.\n*   **上游**: 金屬捲材 (鋼材, 鋁材).\n*   **下游**:\n    *   **汽車 Tier 1**: Autoliv, Brose.\n    *   **伺服器/網通品牌**: [[CSP]] ([[Meta]], [[Microsoft]]), [[伺服器]]組裝廠.\n    *   **健身器材品牌**: Peloton.",
+    "customers_suppliers_md": "### 主要客戶\n*   **汽車**: Autoliv (全球最大安全氣囊供應商).\n*   **科技**: 美系 [[CSP]] 大廠.\n*   **健身**: Peloton."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

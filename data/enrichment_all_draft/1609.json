@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1609",
+  "company_name": "大亞",
+  "title": "1609 - 大亞",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/1609_大亞.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "25,837 百萬台幣",
+    "enterprise_value": "59,043 百萬台幣"
+  },
+  "business": {
+    "summary": "大亞電線電纜 (1609，Ta Ya Electric Wire & Cable) 為台灣老牌電線電纜大廠，近年轉型「能源串接」領導品牌。核心業務：(1) 電力電纜 (佔約 71%) — 含 161kV/345kV 高壓；(2) [[漆包線]] (佔約 11%) — 成功開發[[電動車]]用平角漆包線 (供應[[富田電機]]即[[Tesla]]馬達供應鏈)、無人機用超導熱銅包鋁線 (TD-CCAW) 及[[低軌衛星]]馬達用漆包線；(3) 綠能 — 旗下大亞綠能擁有 73 座[[太陽能]]電廠 (250MW)，跨足[[儲能]]系統。企業綠電客戶含[[台達電]]、[[群創]]。受惠[[台電]]強韌電網。",
+    "entities": [
+      "漆包線",
+      "電動車",
+      "富田電機",
+      "Tesla",
+      "低軌衛星",
+      "太陽能",
+      "儲能",
+      "台達電",
+      "群創",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材",
+        "text": "國際銅礦商/貿易商",
+        "entities": []
+      },
+      {
+        "category": "絕緣材料",
+        "text": "[[XLPE]]/絕緣漆",
+        "entities": [
+          "XLPE"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與營運)",
+        "text": "**中游 (製造與營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**大亞** (161kV/345kV 電力電纜；[[漆包線]]含 EV 平角線；太陽能電廠/[[儲能]])",
+        "entities": [
+          "漆包線",
+          "儲能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電力",
+        "text": "[[台電]] — 強韌電網 345kV/161kV",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "EV 漆包線",
+        "text": "[[富田電機]] ([[Tesla]]馬達)；洽談[[東元]]、[[大同]]",
+        "entities": [
+          "富田電機",
+          "Tesla",
+          "東元",
+          "大同"
+        ]
+      },
+      {
+        "category": "企業綠電",
+        "text": "[[台達電]]、[[群創]] — 綠電轉供",
+        "entities": [
+          "台達電",
+          "群創"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力",
+        "text": "[[台電]] — 345kV/161kV 強韌電網",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "EV 漆包線",
+        "text": "[[富田電機]] ([[Tesla]]馬達)",
+        "entities": [
+          "富田電機",
+          "Tesla"
+        ]
+      },
+      {
+        "role": "企業綠電",
+        "text": "[[台達電]]、[[群創]]",
+        "entities": [
+          "台達電",
+          "群創"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅",
+        "text": "國際銅礦商/貿易商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "富田電機",
+          "Tesla",
+          "台達電",
+          "群創"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "漆包線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漆包線"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "富田電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富田電機"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "XLPE",
+      "type": "international_company_or_term",
+      "wikilink": "XLPE"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大亞電線電纜 (1609，Ta Ya Electric Wire & Cable) 為台灣老牌電線電纜大廠，近年轉型「能源串接」領導品牌。核心業務：(1) 電力電纜 (佔約 71%) — 含 161kV/345kV 高壓；(2) [[漆包線]] (佔約 11%) — 成功開發[[電動車]]用平角漆包線 (供應[[富田電機]]即[[Tesla]]馬達供應鏈)、無人機用超導熱銅包鋁線 (TD-CCAW) 及[[低軌衛星]]馬達用漆包線；(3) 綠能 — 旗下大亞綠能擁有 73 座[[太陽能]]電廠 (250MW)，跨足[[儲能]]系統。企業綠電客戶含[[台達電]]、[[群創]]。受惠[[台電]]強韌電網。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅材:** 國際銅礦商/貿易商\n- **絕緣材料:** [[XLPE]]/絕緣漆\n\n**中游 (製造與營運):**\n- **大亞** (161kV/345kV 電力電纜；[[漆包線]]含 EV 平角線；太陽能電廠/[[儲能]])\n\n**下游 (終端):**\n- **電力:** [[台電]] — 強韌電網 345kV/161kV\n- **EV 漆包線:** [[富田電機]] ([[Tesla]]馬達)；洽談[[東元]]、[[大同]]\n- **企業綠電:** [[台達電]]、[[群創]] — 綠電轉供",
+    "customers_suppliers_md": "### 主要客戶\n- **電力:** [[台電]] — 345kV/161kV 強韌電網\n- **EV 漆包線:** [[富田電機]] ([[Tesla]]馬達)\n- **企業綠電:** [[台達電]]、[[群創]]\n\n### 主要供應商\n- **銅:** 國際銅礦商/貿易商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

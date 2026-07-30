@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1591",
+  "company_name": "駿吉-KY",
+  "title": "1591 - 駿吉-KY",
+  "source_md": "Pilot_Reports/Tools & Accessories/1591_駿吉-KY.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "1,522 百萬台幣",
+    "enterprise_value": "1,505 百萬台幣"
+  },
+  "business": {
+    "summary": "駿吉控股 (1591，Inmax Holding) 創立於 1989 年 (前身為 1990 年設立之馬來西亞工廠)，註冊於開曼群島，為東南亞最大規模之氣動式工業用槍釘 (特殊鋼釘) 製造商。主要產品包括捲釘 (Coil Nails)、塑排釘、紙排釘、傢俬釘、屋頂釘等，應用於北美木屋建築、屋頂、地板、框架、棧板製造及傢俱業。生產基地位於馬來西亞，外銷比重高達八成，美國市場佔營收逾 70%。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼線",
+        "text": "盤元 (Wire Rod)，採購自[[中鋼]]及馬來西亞當地鋼廠",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "耗材",
+        "text": "塗料、塑膠排/紙帶",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**駿吉控股** — 伸線、製釘、熱處理、電鍍、排列/捲繞 (Collating)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與通路)",
+        "text": "**下游 (品牌與通路):**",
+        "entities": []
+      },
+      {
+        "category": "氣動工具品牌",
+        "text": "Kyocera SENCO、[[Makita]]、[[Stanley Black & Decker]]",
+        "entities": [
+          "Makita",
+          "Stanley Black & Decker"
+        ]
+      },
+      {
+        "category": "建材通路",
+        "text": "[[Home Depot]]、[[Lowe's]] (透過品牌商或經銷商)",
+        "entities": [
+          "Home Depot",
+          "Lowe's"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "品牌商",
+        "text": "Kyocera SENCO、[[Makita]]、[[Stanley Black & Decker]]",
+        "entities": [
+          "Makita",
+          "Stanley Black & Decker"
+        ]
+      },
+      {
+        "role": "通路",
+        "text": "[[Home Depot]]、[[Lowe's]] (透過品牌商間接供應)",
+        "entities": [
+          "Home Depot",
+          "Lowe's"
+        ]
+      },
+      {
+        "role": "終端應用",
+        "text": "北美營建業 (木屋/屋頂/框架)、棧板製造業、傢俱業",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "盤元鋼線",
+        "text": "[[中鋼]]及馬來西亞當地鋼廠",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Tools & Accessories):** [[鑽全]]、[[正峰]]、[[錩泰]]、[[中砂]]、[[力肯]]",
+        "entities": [
+          "鑽全",
+          "正峰",
+          "錩泰",
+          "中砂",
+          "力肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Makita",
+          "Stanley Black & Decker",
+          "Home Depot",
+          "Lowe's"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "Makita",
+      "type": "international_company_or_term",
+      "wikilink": "Makita"
+    },
+    {
+      "name": "Stanley Black & Decker",
+      "type": "international_company_or_term",
+      "wikilink": "Stanley Black & Decker"
+    },
+    {
+      "name": "Home Depot",
+      "type": "international_company_or_term",
+      "wikilink": "Home Depot"
+    },
+    {
+      "name": "Lowe's",
+      "type": "international_company_or_term",
+      "wikilink": "Lowe's"
+    },
+    {
+      "name": "鑽全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑽全"
+    },
+    {
+      "name": "正峰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正峰"
+    },
+    {
+      "name": "錩泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "錩泰"
+    },
+    {
+      "name": "中砂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中砂"
+    },
+    {
+      "name": "力肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "駿吉控股 (1591，Inmax Holding) 創立於 1989 年 (前身為 1990 年設立之馬來西亞工廠)，註冊於開曼群島，為東南亞最大規模之氣動式工業用槍釘 (特殊鋼釘) 製造商。主要產品包括捲釘 (Coil Nails)、塑排釘、紙排釘、傢俬釘、屋頂釘等，應用於北美木屋建築、屋頂、地板、框架、棧板製造及傢俱業。生產基地位於馬來西亞，外銷比重高達八成，美國市場佔營收逾 70%。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼線:** 盤元 (Wire Rod)，採購自[[中鋼]]及馬來西亞當地鋼廠\n- **耗材:** 塗料、塑膠排/紙帶\n\n**中游 (製造加工):**\n- **駿吉控股** — 伸線、製釘、熱處理、電鍍、排列/捲繞 (Collating)\n\n**下游 (品牌與通路):**\n- **氣動工具品牌:** Kyocera SENCO、[[Makita]]、[[Stanley Black & Decker]]\n- **建材通路:** [[Home Depot]]、[[Lowe's]] (透過品牌商或經銷商)",
+    "customers_suppliers_md": "### 主要客戶\n- **品牌商:** Kyocera SENCO、[[Makita]]、[[Stanley Black & Decker]]\n- **通路:** [[Home Depot]]、[[Lowe's]] (透過品牌商間接供應)\n- **終端應用:** 北美營建業 (木屋/屋頂/框架)、棧板製造業、傢俱業\n\n### 主要供應商\n- **盤元鋼線:** [[中鋼]]及馬來西亞當地鋼廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

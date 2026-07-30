@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6738",
+  "company_name": "鼎��",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/Software - Application/6738_鼎��.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": "2,723 百萬台幣",
+    "enterprise_value": "2,334 百萬台幣"
+  },
+  "business": {
+    "summary": "鼎恒數位科技 (6738，MAYO) 為台灣指標性人力資源雲端軟體公司。核心產品「Apollo 雲端人資系統」採用 SaaS 模式，提供出勤、薪資結算、排班及招募等全方位 HRM 功能，支援台灣、中國及越南法規。此外推出「STAYFUN」員工福利整合平台及「Lasso」AI 招募測評工具。公司為台灣 [[Microsoft]] 在 HR 領域唯一創新合作夥伴，成功服務超過 1,300 家企業，客戶續約率高達 95% 以上，客群涵蓋[[緯創]]集團、[[遠雄]]集團及多家歐美日跨國企業。",
+    "entities": [
+      "Microsoft",
+      "緯創",
+      "遠雄"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (雲端與技術平台)",
+        "text": "**上游 (雲端與技術平台):**",
+        "entities": []
+      },
+      {
+        "category": "雲端基礎設施",
+        "text": "[[Microsoft]] Azure (公有雲平台)",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "category": "ERP 整合",
+        "text": "[[Oracle]] NetSuite",
+        "entities": [
+          "Oracle"
+        ]
+      },
+      {
+        "category": "金流支付",
+        "text": "全球付 +PAY 支付閘道",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (SaaS 人資平台)",
+        "text": "**中游 (SaaS 人資平台):**",
+        "entities": []
+      },
+      {
+        "category": "雲端人資",
+        "text": "**鼎恒數位 (MAYO)** (Apollo 人資系統、STAYFUN 福利平台、Lasso AI 招募)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業客戶)",
+        "text": "**下游 (企業客戶):**",
+        "entities": []
+      },
+      {
+        "category": "科技製造",
+        "text": "[[緯創]]集團等大型科技企業",
+        "entities": [
+          "緯創"
+        ]
+      },
+      {
+        "category": "地產建設",
+        "text": "[[遠雄]]集團",
+        "entities": [
+          "遠雄"
+        ]
+      },
+      {
+        "category": "連鎖零售",
+        "text": "連鎖餐飲與零售業",
+        "entities": []
+      },
+      {
+        "category": "跨國企業",
+        "text": "歐美日財富 500 強企業在台據點",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技製造",
+        "text": "[[緯創]]集團等大型科技企業",
+        "entities": [
+          "緯創"
+        ]
+      },
+      {
+        "role": "地產建設",
+        "text": "[[遠雄]]集團",
+        "entities": [
+          "遠雄"
+        ]
+      },
+      {
+        "role": "連鎖零售/餐飲",
+        "text": "連鎖餐飲與零售業 (排班/考勤系統)",
+        "entities": []
+      },
+      {
+        "role": "跨國企業",
+        "text": "歐美日財富 500 強企業在台據點",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[Microsoft]] Azure (台灣微軟唯一 HR 創新合作夥伴)",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "role": "ERP 整合",
+        "text": "[[Oracle]] NetSuite",
+        "entities": [
+          "Oracle"
+        ]
+      },
+      {
+        "role": "福利生態圈",
+        "text": "跨領域特約商店與福利合作夥伴",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Application):** [[大塚]]、[[研勤]]、[[凱衛]]、[[力新]]、[[訊連]]",
+        "entities": [
+          "大塚",
+          "研勤",
+          "凱衛",
+          "力新",
+          "訊連"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "緯創",
+          "遠雄"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "遠雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄"
+    },
+    {
+      "name": "Oracle",
+      "type": "international_company_or_term",
+      "wikilink": "Oracle"
+    },
+    {
+      "name": "大塚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大塚"
+    },
+    {
+      "name": "研勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研勤"
+    },
+    {
+      "name": "凱衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱衛"
+    },
+    {
+      "name": "力新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力新"
+    },
+    {
+      "name": "訊連",
+      "type": "taiwan_company_or_term",
+      "wikilink": "訊連"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鼎恒數位科技 (6738，MAYO) 為台灣指標性人力資源雲端軟體公司。核心產品「Apollo 雲端人資系統」採用 SaaS 模式，提供出勤、薪資結算、排班及招募等全方位 HRM 功能，支援台灣、中國及越南法規。此外推出「STAYFUN」員工福利整合平台及「Lasso」AI 招募測評工具。公司為台灣 [[Microsoft]] 在 HR 領域唯一創新合作夥伴，成功服務超過 1,300 家企業，客戶續約率高達 95% 以上，客群涵蓋[[緯創]]集團、[[遠雄]]集團及多家歐美日跨國企業。",
+    "supply_chain_md": "**上游 (雲端與技術平台):**\n- **雲端基礎設施:** [[Microsoft]] Azure (公有雲平台)\n- **ERP 整合:** [[Oracle]] NetSuite\n- **金流支付:** 全球付 +PAY 支付閘道\n\n**中游 (SaaS 人資平台):**\n- **雲端人資:** **鼎恒數位 (MAYO)** (Apollo 人資系統、STAYFUN 福利平台、Lasso AI 招募)\n\n**下游 (企業客戶):**\n- **科技製造:** [[緯創]]集團等大型科技企業\n- **地產建設:** [[遠雄]]集團\n- **連鎖零售:** 連鎖餐飲與零售業\n- **跨國企業:** 歐美日財富 500 強企業在台據點",
+    "customers_suppliers_md": "### 主要客戶\n- **科技製造:** [[緯創]]集團等大型科技企業\n- **地產建設:** [[遠雄]]集團\n- **連鎖零售/餐飲:** 連鎖餐飲與零售業 (排班/考勤系統)\n- **跨國企業:** 歐美日財富 500 強企業在台據點\n\n### 主要供應商\n- **雲端平台:** [[Microsoft]] Azure (台灣微軟唯一 HR 創新合作夥伴)\n- **ERP 整合:** [[Oracle]] NetSuite\n- **福利生態圈:** 跨領域特約商店與福利合作夥伴"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

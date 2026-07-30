@@ -1,0 +1,309 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2892",
+  "company_name": "第一金",
+  "title": "2892 - [[第一金]]",
+  "source_md": "Pilot_Reports/Banks - Regional/2892_第一金.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "market_cap": "500,406 百萬台幣",
+    "enterprise_value": "N/A"
+  },
+  "business": {
+    "summary": "[[第一金融控股]] (2892) 成立於 2003 年，為台灣歷史最悠久的泛公股金控之一。核心子公司[[第一商業銀行]]創立於 1899 年，全台 182 家分行及 31 家海外分支機構。數位帳戶 [[iLEO]] 成功拓展年輕客群。其他子公司包括[[第一金證券]]、[[第一金投信]]、[[第一金人壽]]及[[明台產物保險]]。[[財政部]]透過[[台灣銀行]]間接為最大股東。",
+    "entities": [
+      "第一金融控股",
+      "第一商業銀行",
+      "iLEO",
+      "第一金證券",
+      "第一金投信",
+      "第一金人壽",
+      "明台產物保險",
+      "財政部",
+      "台灣銀行"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "薪轉戶、[[iLEO]] 數位帳戶用戶、一般存戶、公庫存款",
+        "entities": [
+          "iLEO"
+        ]
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      },
+      {
+        "category": "公股股東",
+        "text": "[[財政部]]、[[台灣銀行]]",
+        "entities": [
+          "財政部",
+          "台灣銀行"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[第一商業銀行]]** (中小企業放款、房貸、財富管理、進出口貿易融資)",
+        "entities": [
+          "第一商業銀行"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[第一金證券]]** (證券經紀)",
+        "entities": [
+          "第一金證券"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[第一金投信]]** (基金管理)",
+        "entities": [
+          "第一金投信"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[第一金人壽]]** (壽險)",
+        "entities": [
+          "第一金人壽"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[明台產物保險]]** (財產保險)",
+        "entities": [
+          "明台產物保險"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "企業金融",
+        "text": "台灣中小企業、外銷製造商",
+        "entities": []
+      },
+      {
+        "category": "個人金融",
+        "text": "薪轉戶、[[iLEO]] 數位帳戶用戶、房貸客戶",
+        "entities": [
+          "iLEO"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業金融",
+        "text": "台灣中小企業、外銷製造商",
+        "entities": []
+      },
+      {
+        "role": "個人金融",
+        "text": "公教人員薪轉戶、[[iLEO]] 數位帳戶用戶、房貸客戶",
+        "entities": [
+          "iLEO"
+        ]
+      },
+      {
+        "role": "海外台商",
+        "text": "佈局全球供應鏈之台商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "公股股東",
+        "text": "[[財政部]]、[[台灣銀行]]",
+        "entities": [
+          "財政部",
+          "台灣銀行"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]、[[信保基金]]",
+        "entities": [
+          "財金資訊",
+          "信保基金"
+        ]
+      },
+      {
+        "role": "國際支付",
+        "text": "[[Visa]]、[[Mastercard]]",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Banks - Regional):** [[彰銀]]、[[高雄銀]]、[[聯邦銀]]、[[遠東銀]]、[[安泰銀]]",
+        "entities": [
+          "彰銀",
+          "高雄銀",
+          "聯邦銀",
+          "遠東銀",
+          "安泰銀"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "iLEO"
+        ]
+      }
+    ],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "第一金融控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第一金融控股"
+    },
+    {
+      "name": "第一商業銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第一商業銀行"
+    },
+    {
+      "name": "iLEO",
+      "type": "international_company_or_term",
+      "wikilink": "iLEO"
+    },
+    {
+      "name": "第一金證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第一金證券"
+    },
+    {
+      "name": "第一金投信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第一金投信"
+    },
+    {
+      "name": "第一金人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第一金人壽"
+    },
+    {
+      "name": "明台產物保險",
+      "type": "taiwan_company_or_term",
+      "wikilink": "明台產物保險"
+    },
+    {
+      "name": "財政部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財政部"
+    },
+    {
+      "name": "台灣銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣銀行"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "信保基金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信保基金"
+    },
+    {
+      "name": "Visa",
+      "type": "international_company_or_term",
+      "wikilink": "Visa"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "彰銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彰銀"
+    },
+    {
+      "name": "高雄銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄銀"
+    },
+    {
+      "name": "聯邦銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯邦銀"
+    },
+    {
+      "name": "遠東銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東銀"
+    },
+    {
+      "name": "安泰銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安泰銀"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[第一金融控股]] (2892) 成立於 2003 年，為台灣歷史最悠久的泛公股金控之一。核心子公司[[第一商業銀行]]創立於 1899 年，全台 182 家分行及 31 家海外分支機構。數位帳戶 [[iLEO]] 成功拓展年輕客群。其他子公司包括[[第一金證券]]、[[第一金投信]]、[[第一金人壽]]及[[明台產物保險]]。[[財政部]]透過[[台灣銀行]]間接為最大股東。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** 薪轉戶、[[iLEO]] 數位帳戶用戶、一般存戶、公庫存款\n- **同業資金:** [[中央銀行]]、金融同業\n- **公股股東:** [[財政部]]、[[台灣銀行]]\n\n**中游:**\n- **[[第一商業銀行]]** (中小企業放款、房貸、財富管理、進出口貿易融資)\n- **[[第一金證券]]** (證券經紀)\n- **[[第一金投信]]** (基金管理)\n- **[[第一金人壽]]** (壽險)\n- **[[明台產物保險]]** (財產保險)\n\n**下游 (授信客戶):**\n- **企業金融:** 台灣中小企業、外銷製造商\n- **個人金融:** 薪轉戶、[[iLEO]] 數位帳戶用戶、房貸客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **企業金融:** 台灣中小企業、外銷製造商\n- **個人金融:** 公教人員薪轉戶、[[iLEO]] 數位帳戶用戶、房貸客戶\n- **海外台商:** 佈局全球供應鏈之台商\n\n### 主要供應商\n- **公股股東:** [[財政部]]、[[台灣銀行]]\n- **金流基礎設施:** [[財金資訊]]、[[信保基金]]\n- **國際支付:** [[Visa]]、[[Mastercard]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

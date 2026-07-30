@@ -1,0 +1,253 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3149",
+  "company_name": "正達",
+  "title": "3149 - 正達",
+  "source_md": "Pilot_Reports/Electronic Components/3149_正達.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "15,586 百萬台幣",
+    "enterprise_value": "15,904 百萬台幣"
+  },
+  "business": {
+    "summary": "正達國際光電 ([[G-Tech Optoelectronics]]) 為 [[鴻海]] 集團旗下玻璃加工領先廠商，專精於 3D 玻璃成型與薄膜技術。公司已成功轉型，由過往消費性電子玻璃供應商跨足高品質車用與建築領域。\n\n技術優勢與市場拓展：(1) 車載玻璃 — 開發中控台大型曲面玻璃、智慧後視鏡及防眩光 (AG) 鍍膜，打入歐美一線車廠供應鏈；(2) MIH [[電動車]]平台 — 作為 [[鴻海]] MIH 聯盟成員，負責提供輕量化、智慧化車用玻璃解決方案；(3) 建築玻璃 — 生產 Low-E 節能玻璃、抗菌玻璃等高附加價值建築材料。上游玻璃原片主要來自 [[Corning]] 與 [[AGC]] (旭硝子)。",
+    "entities": [
+      "G-Tech Optoelectronics",
+      "鴻海",
+      "電動車",
+      "Corning",
+      "AGC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (玻璃原片與鍍膜材料)",
+        "text": "**上游 (玻璃原片與鍍膜材料):**",
+        "entities": []
+      },
+      {
+        "category": "玻璃原片",
+        "text": "[[Corning]]、[[AGC]] (旭硝子) — 高品質玻璃原片",
+        "entities": [
+          "Corning",
+          "AGC"
+        ]
+      },
+      {
+        "category": "鍍膜靶材",
+        "text": "鍍膜用靶材供應商",
+        "entities": []
+      },
+      {
+        "category": "化學強化藥劑",
+        "text": "玻璃化學強化處理藥劑",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (玻璃加工與鍍膜)",
+        "text": "**中游 (玻璃加工與鍍膜):**",
+        "entities": []
+      },
+      {
+        "category": "3D 成型",
+        "text": "**正達** (車用曲面玻璃 3D 熱彎成型)",
+        "entities": []
+      },
+      {
+        "category": "化學強化",
+        "text": "**正達** (玻璃化學強化處理)",
+        "entities": []
+      },
+      {
+        "category": "多功能鍍膜",
+        "text": "**正達** (AG 防眩光/AR 抗反射/Low-E 節能鍍膜)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車用/建築/消費)",
+        "text": "**下游 (車用/建築/消費):**",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "歐美一線車廠 — 中控台曲面玻璃/智慧後視鏡",
+        "entities": []
+      },
+      {
+        "category": "[[電動車]]平台",
+        "text": "[[鴻海]] MIH 聯盟 — 電動車用玻璃",
+        "entities": [
+          "電動車",
+          "鴻海"
+        ]
+      },
+      {
+        "category": "建築",
+        "text": "智慧建築 — Low-E 節能玻璃/抗菌玻璃",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Apple]] — 過往主要消費電子客戶",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用",
+        "text": "歐美一線車廠 — 中控台曲面玻璃與智慧後視鏡",
+        "entities": []
+      },
+      {
+        "role": "[[電動車]]",
+        "text": "[[鴻海]] MIH 聯盟 — 電動車用玻璃方案",
+        "entities": [
+          "電動車",
+          "鴻海"
+        ]
+      },
+      {
+        "role": "建築",
+        "text": "智慧建築專案 — Low-E 節能玻璃",
+        "entities": []
+      },
+      {
+        "role": "消費電子",
+        "text": "[[Apple]] — 過往主要客戶",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "玻璃原片",
+        "text": "[[Corning]]、[[AGC]] — 高品質玻璃原片",
+        "entities": [
+          "Corning",
+          "AGC"
+        ]
+      },
+      {
+        "role": "鍍膜靶材",
+        "text": "鍍膜用靶材供應商",
+        "entities": []
+      },
+      {
+        "role": "集團資源",
+        "text": "[[鴻海]] — 集團母公司資源支持",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "電動車",
+          "鴻海",
+          "Apple"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "G-Tech Optoelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "G-Tech Optoelectronics"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "Corning",
+      "type": "international_company_or_term",
+      "wikilink": "Corning"
+    },
+    {
+      "name": "AGC",
+      "type": "international_company_or_term",
+      "wikilink": "AGC"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "正達國際光電 ([[G-Tech Optoelectronics]]) 為 [[鴻海]] 集團旗下玻璃加工領先廠商，專精於 3D 玻璃成型與薄膜技術。公司已成功轉型，由過往消費性電子玻璃供應商跨足高品質車用與建築領域。\n\n技術優勢與市場拓展：(1) 車載玻璃 — 開發中控台大型曲面玻璃、智慧後視鏡及防眩光 (AG) 鍍膜，打入歐美一線車廠供應鏈；(2) MIH [[電動車]]平台 — 作為 [[鴻海]] MIH 聯盟成員，負責提供輕量化、智慧化車用玻璃解決方案；(3) 建築玻璃 — 生產 Low-E 節能玻璃、抗菌玻璃等高附加價值建築材料。上游玻璃原片主要來自 [[Corning]] 與 [[AGC]] (旭硝子)。",
+    "supply_chain_md": "**上游 (玻璃原片與鍍膜材料):**\n- **玻璃原片:** [[Corning]]、[[AGC]] (旭硝子) — 高品質玻璃原片\n- **鍍膜靶材:** 鍍膜用靶材供應商\n- **化學強化藥劑:** 玻璃化學強化處理藥劑\n\n**中游 (玻璃加工與鍍膜):**\n- **3D 成型:** **正達** (車用曲面玻璃 3D 熱彎成型)\n- **化學強化:** **正達** (玻璃化學強化處理)\n- **多功能鍍膜:** **正達** (AG 防眩光/AR 抗反射/Low-E 節能鍍膜)\n\n**下游 (車用/建築/消費):**\n- **車用:** 歐美一線車廠 — 中控台曲面玻璃/智慧後視鏡\n- **[[電動車]]平台:** [[鴻海]] MIH 聯盟 — 電動車用玻璃\n- **建築:** 智慧建築 — Low-E 節能玻璃/抗菌玻璃\n- **消費電子:** [[Apple]] — 過往主要消費電子客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **車用:** 歐美一線車廠 — 中控台曲面玻璃與智慧後視鏡\n- **[[電動車]]:** [[鴻海]] MIH 聯盟 — 電動車用玻璃方案\n- **建築:** 智慧建築專案 — Low-E 節能玻璃\n- **消費電子:** [[Apple]] — 過往主要客戶\n\n### 主要供應商\n- **玻璃原片:** [[Corning]]、[[AGC]] — 高品質玻璃原片\n- **鍍膜靶材:** 鍍膜用靶材供應商\n- **集團資源:** [[鴻海]] — 集團母公司資源支持"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

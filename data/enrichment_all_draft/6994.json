@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6994",
+  "company_name": "富威電力",
+  "title": "6994_富威電力",
+  "source_md": "Pilot_Reports/Utilities - Renewable/6994_富威電力.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Utilities",
+    "industry": "Utilities - Renewable",
+    "market_cap": "2,804 百萬台幣",
+    "enterprise_value": "5,543 百萬台幣"
+  },
+  "business": {
+    "summary": "富威電力 (6994，FWP) 為[[森崴能源]] (6806) 旗下子公司，隸屬[[正崴精密]]集團。公司定位為全方位綠能售電與永續服務平台。三大業務支柱：(1) 綠電轉供 — 整合再生能源裝置容量 164MW，超過 300 個綠電轉供據點，為 [[Nvidia]] 台灣高雄南軟 AI 機房之唯一綠電供應商；(2) 儲能系統 — 已上線運轉 57MW 自持案場，新開發 200MW/750MWh 儲能案場；(3) 節能服務。2025 年 1 月正式於[[台灣證券交易所]]掛牌。2024 年營收 18.7 億元，年增 112%。",
+    "entities": [
+      "森崴能源",
+      "正崴精密",
+      "Nvidia",
+      "台灣證券交易所"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電力來源與設備)",
+        "text": "**上游 (電力來源與設備):**",
+        "entities": []
+      },
+      {
+        "category": "再生能源電廠",
+        "text": "[[森崴能源]]及中小型太陽能/風電場 — 綠電收購來源",
+        "entities": [
+          "森崴能源"
+        ]
+      },
+      {
+        "category": "儲能設備",
+        "text": "大型鋰電池儲能櫃 ([[BESS]])、智慧電網監控系統",
+        "entities": [
+          "BESS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (綠電交易與儲能)",
+        "text": "**中游 (綠電交易與儲能):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**富威電力** — 綠電轉供承購與憑證移轉、大型儲能系統投資營運、節能診斷顧問",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "科技業",
+        "text": "需取得綠電憑證以符合 [[RE100]] 之半導體與電子業",
+        "entities": [
+          "RE100"
+        ]
+      },
+      {
+        "category": "電力調度",
+        "text": "[[台電]] — 儲能系統參與調頻備轉",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 機房綠電",
+        "text": "[[Nvidia]] — 高雄南軟 AI 機房唯一綠電供應商",
+        "entities": [
+          "Nvidia"
+        ]
+      },
+      {
+        "role": "科技龍頭",
+        "text": "[[鴻海]]、[[日月光投控]]、[[台達電]] — 綠電轉供",
+        "entities": [
+          "鴻海",
+          "日月光投控",
+          "台達電"
+        ]
+      },
+      {
+        "role": "電信業",
+        "text": "[[中華電信]] — 綠電採購",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "儲能調度",
+        "text": "[[台電]] — dReg/E-dReg 調頻備轉",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母集團",
+        "text": "[[森崴能源]] — 再生能源電力來源",
+        "entities": [
+          "森崴能源"
+        ]
+      },
+      {
+        "role": "儲能設備",
+        "text": "鋰電池芯與儲能櫃 ([[BESS]])",
+        "entities": [
+          "BESS"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Utilities - Renewable):** [[森崴能源]]、[[雲豹能源]]、[[綠岩能源]]、[[麗升能源]]",
+        "entities": [
+          "森崴能源",
+          "雲豹能源",
+          "綠岩能源",
+          "麗升能源"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Nvidia",
+          "鴻海",
+          "日月光投控",
+          "台達電",
+          "中華電信",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "森崴能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "森崴能源"
+    },
+    {
+      "name": "正崴精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正崴精密"
+    },
+    {
+      "name": "Nvidia",
+      "type": "international_company_or_term",
+      "wikilink": "Nvidia"
+    },
+    {
+      "name": "台灣證券交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣證券交易所"
+    },
+    {
+      "name": "BESS",
+      "type": "international_company_or_term",
+      "wikilink": "BESS"
+    },
+    {
+      "name": "RE100",
+      "type": "international_company_or_term",
+      "wikilink": "RE100"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "雲豹能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲豹能源"
+    },
+    {
+      "name": "綠岩能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "綠岩能源"
+    },
+    {
+      "name": "麗升能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗升能源"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富威電力 (6994，FWP) 為[[森崴能源]] (6806) 旗下子公司，隸屬[[正崴精密]]集團。公司定位為全方位綠能售電與永續服務平台。三大業務支柱：(1) 綠電轉供 — 整合再生能源裝置容量 164MW，超過 300 個綠電轉供據點，為 [[Nvidia]] 台灣高雄南軟 AI 機房之唯一綠電供應商；(2) 儲能系統 — 已上線運轉 57MW 自持案場，新開發 200MW/750MWh 儲能案場；(3) 節能服務。2025 年 1 月正式於[[台灣證券交易所]]掛牌。2024 年營收 18.7 億元，年增 112%。",
+    "supply_chain_md": "**上游 (電力來源與設備):**\n- **再生能源電廠:** [[森崴能源]]及中小型太陽能/風電場 — 綠電收購來源\n- **儲能設備:** 大型鋰電池儲能櫃 ([[BESS]])、智慧電網監控系統\n\n**中游 (綠電交易與儲能):**\n- **富威電力** — 綠電轉供承購與憑證移轉、大型儲能系統投資營運、節能診斷顧問\n\n**下游 (終端用戶):**\n- **科技業:** 需取得綠電憑證以符合 [[RE100]] 之半導體與電子業\n- **電力調度:** [[台電]] — 儲能系統參與調頻備轉",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 機房綠電:** [[Nvidia]] — 高雄南軟 AI 機房唯一綠電供應商\n- **科技龍頭:** [[鴻海]]、[[日月光投控]]、[[台達電]] — 綠電轉供\n- **電信業:** [[中華電信]] — 綠電採購\n- **儲能調度:** [[台電]] — dReg/E-dReg 調頻備轉\n\n### 主要供應商\n- **母集團:** [[森崴能源]] — 再生能源電力來源\n- **儲能設備:** 鋰電池芯與儲能櫃 ([[BESS]])"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

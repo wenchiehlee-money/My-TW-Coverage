@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5267",
+  "company_name": "龍翩",
+  "title": "5267 - 龍翩",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/5267_龍翩.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,050 百萬台幣",
+    "enterprise_value": "987 百萬台幣"
+  },
+  "business": {
+    "summary": "龍翩真空科技 (5267，Lung Pien Vacuum) 為台灣光學鍍膜設備領導廠商 (1991 年起)，核心技術為[[PVD]] (物理氣相沉積)。自製真空鍍膜設備並代理日本[[Olympus]]光學量測儀器及歐美日真空零組件 ([[Edwards]]、[[Leybold]]等)。下游應用涵蓋手機鏡頭鍍膜 ([[玉晶光]])、車燈裝飾鍍膜 ([[帝寶工業]]、[[堤維西]])、眼鏡鏡片 AR/IR 鍍膜及飾品/化妝品容器金屬質感鍍膜。",
+    "entities": [
+      "PVD",
+      "Olympus",
+      "Edwards",
+      "Leybold",
+      "玉晶光",
+      "帝寶工業",
+      "堤維西"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與代理)",
+        "text": "**上游 (零組件與代理):**",
+        "entities": []
+      },
+      {
+        "category": "真空幫浦",
+        "text": "[[Edwards]]、[[Leybold]] — 代理/採購",
+        "entities": [
+          "Edwards",
+          "Leybold"
+        ]
+      },
+      {
+        "category": "量測儀器",
+        "text": "[[Olympus]] — 光學量測代理",
+        "entities": [
+          "Olympus"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**龍翩** ([[PVD]]真空鍍膜設備設計製造/整廠輸出)",
+        "entities": [
+          "PVD"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "光學鍍膜",
+        "text": "[[玉晶光]] — 手機鏡頭鍍膜",
+        "entities": [
+          "玉晶光"
+        ]
+      },
+      {
+        "category": "車燈鍍膜",
+        "text": "[[帝寶工業]]、[[堤維西]] — 車燈裝飾",
+        "entities": [
+          "帝寶工業",
+          "堤維西"
+        ]
+      },
+      {
+        "category": "鏡片",
+        "text": "眼鏡鏡片 AR/IR 鍍膜",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "光學",
+        "text": "[[玉晶光]] — 手機鏡頭鍍膜",
+        "entities": [
+          "玉晶光"
+        ]
+      },
+      {
+        "role": "車燈",
+        "text": "[[帝寶工業]]、[[堤維西]] — 車燈裝飾鍍膜",
+        "entities": [
+          "帝寶工業",
+          "堤維西"
+        ]
+      },
+      {
+        "role": "鏡片",
+        "text": "眼鏡鏡片 AR/IR 鍍膜",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "真空幫浦",
+        "text": "[[Edwards]]、[[Leybold]]",
+        "entities": [
+          "Edwards",
+          "Leybold"
+        ]
+      },
+      {
+        "role": "代理",
+        "text": "[[Olympus]] — 光學量測",
+        "entities": [
+          "Olympus"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "玉晶光",
+          "帝寶工業",
+          "堤維西"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PVD",
+      "type": "international_company_or_term",
+      "wikilink": "PVD"
+    },
+    {
+      "name": "Olympus",
+      "type": "international_company_or_term",
+      "wikilink": "Olympus"
+    },
+    {
+      "name": "Edwards",
+      "type": "international_company_or_term",
+      "wikilink": "Edwards"
+    },
+    {
+      "name": "Leybold",
+      "type": "international_company_or_term",
+      "wikilink": "Leybold"
+    },
+    {
+      "name": "玉晶光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玉晶光"
+    },
+    {
+      "name": "帝寶工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "帝寶工業"
+    },
+    {
+      "name": "堤維西",
+      "type": "taiwan_company_or_term",
+      "wikilink": "堤維西"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "龍翩真空科技 (5267，Lung Pien Vacuum) 為台灣光學鍍膜設備領導廠商 (1991 年起)，核心技術為[[PVD]] (物理氣相沉積)。自製真空鍍膜設備並代理日本[[Olympus]]光學量測儀器及歐美日真空零組件 ([[Edwards]]、[[Leybold]]等)。下游應用涵蓋手機鏡頭鍍膜 ([[玉晶光]])、車燈裝飾鍍膜 ([[帝寶工業]]、[[堤維西]])、眼鏡鏡片 AR/IR 鍍膜及飾品/化妝品容器金屬質感鍍膜。",
+    "supply_chain_md": "**上游 (零組件與代理):**\n- **真空幫浦:** [[Edwards]]、[[Leybold]] — 代理/採購\n- **量測儀器:** [[Olympus]] — 光學量測代理\n\n**中游 (製造):**\n- **龍翩** ([[PVD]]真空鍍膜設備設計製造/整廠輸出)\n\n**下游 (終端):**\n- **光學鍍膜:** [[玉晶光]] — 手機鏡頭鍍膜\n- **車燈鍍膜:** [[帝寶工業]]、[[堤維西]] — 車燈裝飾\n- **鏡片:** 眼鏡鏡片 AR/IR 鍍膜",
+    "customers_suppliers_md": "### 主要客戶\n- **光學:** [[玉晶光]] — 手機鏡頭鍍膜\n- **車燈:** [[帝寶工業]]、[[堤維西]] — 車燈裝飾鍍膜\n- **鏡片:** 眼鏡鏡片 AR/IR 鍍膜\n\n### 主要供應商\n- **真空幫浦:** [[Edwards]]、[[Leybold]]\n- **代理:** [[Olympus]] — 光學量測"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

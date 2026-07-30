@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3511",
+  "company_name": "矽瑪",
+  "title": "3511 - 矽瑪",
+  "source_md": "Pilot_Reports/Electronic Components/3511_矽瑪.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,476 百萬台幣",
+    "enterprise_value": "1,804 百萬台幣"
+  },
+  "business": {
+    "summary": "矽瑪科技 (Simula Technology) 隸屬於 **佳世達 (Qisda)** 集團，為專業 **連接器** 製造商。\n主要產品應用於 **穿戴式裝置** (曾為 Fitbit 主要供應商)、**車用電子** ([[車聯網]]/OBD) 與 **醫療器材**。\n加入佳世達集團後，積極整合集團資源，拓展 AIoT 與醫療領域業務。\n併購 **同星科技** (Docking Station)，跨足電腦周邊轉接插座市場。",
+    "entities": [
+      "車聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[金屬端子]], [[塑膠粒]].",
+        "entities": [
+          "金屬端子",
+          "塑膠粒"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **矽瑪 (3511)** - [[連接器]]設計與製造.",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**穿戴裝置**: [[Fitbit]], [[Garmin]].",
+        "entities": [
+          "Fitbit",
+          "Garmin"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**車用**: [[車廠 Tier 1]].",
+        "entities": [
+          "車廠 Tier 1"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**系統整合**: [[佳世達]].",
+        "entities": [
+          "佳世達"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[佳世達]] (Qisda) - 母公司/策略夥伴.",
+        "entities": [
+          "佳世達"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Fitbit]] ([[Google]]) - 穿戴裝置.",
+        "entities": [
+          "Fitbit",
+          "Google"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Amazon]].",
+        "entities": [
+          "Amazon"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "佳世達",
+          "Fitbit",
+          "Google",
+          "Amazon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "車聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車聯網"
+    },
+    {
+      "name": "金屬端子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金屬端子"
+    },
+    {
+      "name": "塑膠粒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "塑膠粒"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "Fitbit",
+      "type": "international_company_or_term",
+      "wikilink": "Fitbit"
+    },
+    {
+      "name": "Garmin",
+      "type": "international_company_or_term",
+      "wikilink": "Garmin"
+    },
+    {
+      "name": "車廠 Tier 1",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車廠 Tier 1"
+    },
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "矽瑪科技 (Simula Technology) 隸屬於 **佳世達 (Qisda)** 集團，為專業 **連接器** 製造商。\n主要產品應用於 **穿戴式裝置** (曾為 Fitbit 主要供應商)、**車用電子** ([[車聯網]]/OBD) 與 **醫療器材**。\n加入佳世達集團後，積極整合集團資源，拓展 AIoT 與醫療領域業務。\n併購 **同星科技** (Docking Station)，跨足電腦周邊轉接插座市場。",
+    "supply_chain_md": "*   **上游**: [[金屬端子]], [[塑膠粒]].\n*   **中游**: **矽瑪 (3511)** - [[連接器]]設計與製造.\n*   **下游**:\n    *   **穿戴裝置**: [[Fitbit]], [[Garmin]].\n    *   **車用**: [[車廠 Tier 1]].\n    *   **系統整合**: [[佳世達]].",
+    "customers_suppliers_md": "### 主要客戶\n*   [[佳世達]] (Qisda) - 母公司/策略夥伴.\n*   [[Fitbit]] ([[Google]]) - 穿戴裝置.\n*   [[Amazon]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

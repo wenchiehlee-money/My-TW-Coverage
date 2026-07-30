@@ -1,0 +1,195 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2014",
+  "company_name": "中鴻",
+  "title": "2014 - [[中鴻]]",
+  "source_md": "Pilot_Reports/Steel/2014_中鴻.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "24,117 百萬台幣",
+    "enterprise_value": "34,637 百萬台幣"
+  },
+  "business": {
+    "summary": "中鴻鋼鐵股份有限公司 (Chung Hung Steel Corporation) 成立於 1983 年，前身為燁隆企業，現為[[中鋼集團]]旗下主要成員。公司總部位於台灣[[高雄]]，主要從事熱軋鋼捲、冷軋鋼捲、鍍鋅鋼捲及鋼管 (API 石油管、結構管) 之生產與銷售。中鴻定位為[[中鋼]]集團之下游加工與單軋廠，產品廣泛應用於五金、建材、汽車、家電及能源產業，為台灣重要之單軋廠及鋼管製造商。",
+    "entities": [
+      "中鋼集團",
+      "高雄",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "扁鋼胚 (Slab)",
+        "text": "主要向母公司[[中鋼]] (CSC) 及[[日本製鐵]] (Nippon Steel) 採購，部分來自[[中龍鋼鐵]]。",
+        "entities": [
+          "中鋼",
+          "日本製鐵",
+          "中龍鋼鐵"
+        ]
+      },
+      {
+        "category": "熱軋鋼捲",
+        "text": "部分作為冷軋及製管原料。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "鋼管/五金",
+        "text": "石油天然氣輸送管 (API 管)、結構用管、傢俱五金。",
+        "entities": []
+      },
+      {
+        "category": "建材",
+        "text": "鍍鋅鋼捲用於屋頂、烤漆板底材。",
+        "entities": []
+      },
+      {
+        "category": "汽車/家電",
+        "text": "冷軋鋼板用於車體鈑金、家電外殼。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鋼管業",
+        "text": "國內外製管廠。",
+        "entities": []
+      },
+      {
+        "role": "加工業",
+        "text": "裁剪中心、鍍鋅廠 ([[燁輝]]、[[盛餘]])。",
+        "entities": [
+          "燁輝",
+          "盛餘"
+        ]
+      },
+      {
+        "role": "能源業",
+        "text": "北美油氣開採商 (API 鋼管)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[中鋼]] (2002) (主要扁鋼胚來源)。",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "燁輝",
+          "盛餘"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中鋼集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼集團"
+    },
+    {
+      "name": "高雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "日本製鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日本製鐵"
+    },
+    {
+      "name": "中龍鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中龍鋼鐵"
+    },
+    {
+      "name": "燁輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁輝"
+    },
+    {
+      "name": "盛餘",
+      "type": "taiwan_company_or_term",
+      "wikilink": "盛餘"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中鴻鋼鐵股份有限公司 (Chung Hung Steel Corporation) 成立於 1983 年，前身為燁隆企業，現為[[中鋼集團]]旗下主要成員。公司總部位於台灣[[高雄]]，主要從事熱軋鋼捲、冷軋鋼捲、鍍鋅鋼捲及鋼管 (API 石油管、結構管) 之生產與銷售。中鴻定位為[[中鋼]]集團之下游加工與單軋廠，產品廣泛應用於五金、建材、汽車、家電及能源產業，為台灣重要之單軋廠及鋼管製造商。",
+    "supply_chain_md": "**上游 (原料):**\n- **扁鋼胚 (Slab):** 主要向母公司[[中鋼]] (CSC) 及[[日本製鐵]] (Nippon Steel) 採購，部分來自[[中龍鋼鐵]]。\n- **熱軋鋼捲:** 部分作為冷軋及製管原料。\n\n**下游應用:**\n- **鋼管/五金:** 石油天然氣輸送管 (API 管)、結構用管、傢俱五金。\n- **建材:** 鍍鋅鋼捲用於屋頂、烤漆板底材。\n- **汽車/家電:** 冷軋鋼板用於車體鈑金、家電外殼。",
+    "customers_suppliers_md": "### 主要客戶\n- **鋼管業:** 國內外製管廠。\n- **加工業:** 裁剪中心、鍍鋅廠 ([[燁輝]]、[[盛餘]])。\n- **能源業:** 北美油氣開採商 (API 鋼管)。\n\n### 主要供應商\n- **原料:** [[中鋼]] (2002) (主要扁鋼胚來源)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

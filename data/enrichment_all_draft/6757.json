@@ -1,0 +1,285 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6757",
+  "company_name": "台灣虎航",
+  "title": "6757 - 台灣虎航",
+  "source_md": "Pilot_Reports/Airlines/6757_台灣虎航.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Airlines",
+    "market_cap": "25,366 百萬台幣",
+    "enterprise_value": "23,223 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣虎航 (6757，Tigerair Taiwan) 為[[中華航空]] (2610) 持股 67% 之子公司，2014 年成立，為台灣首家本土低成本航空 (LCC)，2024 年掛牌上市。機隊以[[Airbus]] A320-200 及 A320neo 為主力，搭載[[CFM International]] [[CFM56]]-5B 或[[Pratt & Whitney]] PW1100G 引擎。航線高度集中於東北亞 (日本為最大市場) 及東南亞二三線城市，精準鎖定年輕自由行旅客，營運效率突出。地勤、維修及空廚等後勤服務共享華航集團資源，包括[[台灣飛機維修]] (TAMECO)、[[華膳空廚]]及[[桃園航勤]]。",
+    "entities": [
+      "中華航空",
+      "Airbus",
+      "CFM International",
+      "CFM56",
+      "Pratt & Whitney",
+      "台灣飛機維修",
+      "華膳空廚",
+      "桃園航勤"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (飛機與燃油)",
+        "text": "**上游 (飛機與燃油):**",
+        "entities": []
+      },
+      {
+        "category": "飛機製造",
+        "text": "[[Airbus]] — A320-200/A320neo",
+        "entities": [
+          "Airbus"
+        ]
+      },
+      {
+        "category": "引擎",
+        "text": "[[CFM International]] — [[CFM56]]-5B；[[Pratt & Whitney]] — PW1100G",
+        "entities": [
+          "CFM International",
+          "CFM56",
+          "Pratt & Whitney"
+        ]
+      },
+      {
+        "category": "航空燃油",
+        "text": "[[台灣中油]] — 航油供應",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "母公司支援",
+        "text": "[[中華航空]] (2610) — 集團資源共享",
+        "entities": [
+          "中華航空"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (航空營運)",
+        "text": "**中游 (航空營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台灣虎航** (低成本航空客運服務)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (客戶)",
+        "text": "**下游 (客戶):**",
+        "entities": []
+      },
+      {
+        "category": "旅客",
+        "text": "年輕自由行觀光客 — 東北亞及東南亞短程航線",
+        "entities": []
+      },
+      {
+        "category": "旅遊通路",
+        "text": "[[雄獅旅遊]]、[[燦星旅遊]]、[[台灣樂天集團]] — 機票銷售合作",
+        "entities": [
+          "雄獅旅遊",
+          "燦星旅遊",
+          "台灣樂天集團"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "旅遊通路",
+        "text": "[[雄獅旅遊]]、[[燦星旅遊]]、[[台灣樂天集團]] — 機票銷售合作夥伴",
+        "entities": [
+          "雄獅旅遊",
+          "燦星旅遊",
+          "台灣樂天集團"
+        ]
+      },
+      {
+        "role": "旅客",
+        "text": "年輕自由行觀光客 — 日本為最大航線市場",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "飛機",
+        "text": "[[Airbus]] — A320-200/A320neo",
+        "entities": [
+          "Airbus"
+        ]
+      },
+      {
+        "role": "引擎",
+        "text": "[[CFM International]] — [[CFM56]]；[[Pratt & Whitney]] — PW1100G",
+        "entities": [
+          "CFM International",
+          "CFM56",
+          "Pratt & Whitney"
+        ]
+      },
+      {
+        "role": "航油",
+        "text": "[[台灣中油]] — 航空燃油",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[中華航空]] (2610) — 集團資源共享",
+        "entities": [
+          "中華航空"
+        ]
+      },
+      {
+        "role": "維修",
+        "text": "[[台灣飛機維修]] (TAMECO) — 機體維修",
+        "entities": [
+          "台灣飛機維修"
+        ]
+      },
+      {
+        "role": "空廚",
+        "text": "[[華膳空廚]] — 機上餐飲",
+        "entities": [
+          "華膳空廚"
+        ]
+      },
+      {
+        "role": "地勤",
+        "text": "[[桃園航勤]] — 地面作業",
+        "entities": [
+          "桃園航勤"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Airlines):** [[華航]]、[[長榮航]]、[[星宇航空]]",
+        "entities": [
+          "華航",
+          "長榮航",
+          "星宇航空"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "雄獅旅遊",
+          "燦星旅遊",
+          "台灣樂天集團"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華航空"
+    },
+    {
+      "name": "Airbus",
+      "type": "international_company_or_term",
+      "wikilink": "Airbus"
+    },
+    {
+      "name": "CFM International",
+      "type": "international_company_or_term",
+      "wikilink": "CFM International"
+    },
+    {
+      "name": "CFM56",
+      "type": "international_company_or_term",
+      "wikilink": "CFM56"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "type": "international_company_or_term",
+      "wikilink": "Pratt & Whitney"
+    },
+    {
+      "name": "台灣飛機維修",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣飛機維修"
+    },
+    {
+      "name": "華膳空廚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華膳空廚"
+    },
+    {
+      "name": "桃園航勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園航勤"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "雄獅旅遊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雄獅旅遊"
+    },
+    {
+      "name": "燦星旅遊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燦星旅遊"
+    },
+    {
+      "name": "台灣樂天集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣樂天集團"
+    },
+    {
+      "name": "華航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華航"
+    },
+    {
+      "name": "長榮航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航"
+    },
+    {
+      "name": "星宇航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "星宇航空"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣虎航 (6757，Tigerair Taiwan) 為[[中華航空]] (2610) 持股 67% 之子公司，2014 年成立，為台灣首家本土低成本航空 (LCC)，2024 年掛牌上市。機隊以[[Airbus]] A320-200 及 A320neo 為主力，搭載[[CFM International]] [[CFM56]]-5B 或[[Pratt & Whitney]] PW1100G 引擎。航線高度集中於東北亞 (日本為最大市場) 及東南亞二三線城市，精準鎖定年輕自由行旅客，營運效率突出。地勤、維修及空廚等後勤服務共享華航集團資源，包括[[台灣飛機維修]] (TAMECO)、[[華膳空廚]]及[[桃園航勤]]。",
+    "supply_chain_md": "**上游 (飛機與燃油):**\n- **飛機製造:** [[Airbus]] — A320-200/A320neo\n- **引擎:** [[CFM International]] — [[CFM56]]-5B；[[Pratt & Whitney]] — PW1100G\n- **航空燃油:** [[台灣中油]] — 航油供應\n- **母公司支援:** [[中華航空]] (2610) — 集團資源共享\n\n**中游 (航空營運):**\n- **台灣虎航** (低成本航空客運服務)\n\n**下游 (客戶):**\n- **旅客:** 年輕自由行觀光客 — 東北亞及東南亞短程航線\n- **旅遊通路:** [[雄獅旅遊]]、[[燦星旅遊]]、[[台灣樂天集團]] — 機票銷售合作",
+    "customers_suppliers_md": "### 主要客戶\n- **旅遊通路:** [[雄獅旅遊]]、[[燦星旅遊]]、[[台灣樂天集團]] — 機票銷售合作夥伴\n- **旅客:** 年輕自由行觀光客 — 日本為最大航線市場\n\n### 主要供應商\n- **飛機:** [[Airbus]] — A320-200/A320neo\n- **引擎:** [[CFM International]] — [[CFM56]]；[[Pratt & Whitney]] — PW1100G\n- **航油:** [[台灣中油]] — 航空燃油\n- **母公司:** [[中華航空]] (2610) — 集團資源共享\n- **維修:** [[台灣飛機維修]] (TAMECO) — 機體維修\n- **空廚:** [[華膳空廚]] — 機上餐飲\n- **地勤:** [[桃園航勤]] — 地面作業"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

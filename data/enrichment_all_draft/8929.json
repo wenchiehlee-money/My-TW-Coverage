@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8929",
+  "company_name": "富堡",
+  "title": "8929 - 富堡",
+  "source_md": "Pilot_Reports/Household & Personal Products/8929_富堡.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products",
+    "market_cap": "673 百萬台幣",
+    "enterprise_value": "374 百萬台幣"
+  },
+  "business": {
+    "summary": "富堡工業股份有限公司 (8929) 成立於 1977 年，總部位於台灣台北，為台灣及東南亞成人失禁照護用品之領導廠商。公司主要產品涵蓋成人紙尿褲、復健褲、看護墊等成人照護用品，以自有品牌「[[安安]] (Ancare)」在台灣市場佔有一至二成市佔率。此外亦生產嬰兒紙尿褲 (Tino 品牌)、女性衛生用品 ([[ANAN]] 品牌) 及面膜等個人護理產品。富堡近年積極佈局海外市場，已於印度、印尼、柬埔寨及孟加拉成立子公司，搶攻新興市場之高齡照護與個人消費商機。",
+    "entities": [
+      "安安",
+      "ANAN"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (不織布與化工原料)",
+        "text": "**上游 (不織布與化工原料):**",
+        "entities": []
+      },
+      {
+        "category": "吸收材料",
+        "text": "高吸水性樹脂 ([[SAP]])、木漿棉 (Fluff Pulp)",
+        "entities": [
+          "SAP"
+        ]
+      },
+      {
+        "category": "不織布",
+        "text": "[[紡黏不織布]]、熱風不織布等衛材用不織布",
+        "entities": [
+          "紡黏不織布"
+        ]
+      },
+      {
+        "category": "防漏材料",
+        "text": "[[PE]] 透氣膜、彈性腰圍材料",
+        "entities": [
+          "PE"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (衛材製造)",
+        "text": "**中游 (衛材製造):**",
+        "entities": []
+      },
+      {
+        "category": "品牌製造",
+        "text": "**富堡工業 (8929)** — 成人紙尿褲、嬰兒紙尿褲、女性衛生用品之研發製造與品牌營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "內銷通路",
+        "text": "藥局、醫療器材行、量販超市",
+        "entities": []
+      },
+      {
+        "category": "外銷市場",
+        "text": "東南亞 (馬來西亞為主)、東北亞、美國及澳洲",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "自有品牌",
+        "text": "「[[安安]]」成人紙尿褲 (台灣內銷主力)",
+        "entities": [
+          "安安"
+        ]
+      },
+      {
+        "role": "美國通路",
+        "text": "美國零售通路 (婦女衛生產品代工，佔外銷約二成)",
+        "entities": []
+      },
+      {
+        "role": "東南亞經銷",
+        "text": "馬來西亞、印度、印尼等新興市場經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "吸收材料",
+        "text": "國際 [[SAP]] (高吸水性樹脂) 供應商如 [[BASF]]、[[Evonik]]",
+        "entities": [
+          "SAP",
+          "BASF",
+          "Evonik"
+        ]
+      },
+      {
+        "role": "不織布原料",
+        "text": "國內外衛材用不織布供應商 (如 [[南六]] 6504 等)",
+        "entities": [
+          "南六"
+        ]
+      },
+      {
+        "role": "木漿棉",
+        "text": "國際漿紙大廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Household & Personal Products):** [[花仙子]]、[[毛寶]]、[[凱撒衛]]、[[嘉威]]、[[南六]]",
+        "entities": [
+          "花仙子",
+          "毛寶",
+          "凱撒衛",
+          "嘉威",
+          "南六"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "安安"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "安安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安安"
+    },
+    {
+      "name": "ANAN",
+      "type": "international_company_or_term",
+      "wikilink": "ANAN"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "紡黏不織布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紡黏不織布"
+    },
+    {
+      "name": "PE",
+      "type": "international_company_or_term",
+      "wikilink": "PE"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Evonik",
+      "type": "international_company_or_term",
+      "wikilink": "Evonik"
+    },
+    {
+      "name": "南六",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南六"
+    },
+    {
+      "name": "花仙子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "花仙子"
+    },
+    {
+      "name": "毛寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "毛寶"
+    },
+    {
+      "name": "凱撒衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱撒衛"
+    },
+    {
+      "name": "嘉威",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉威"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富堡工業股份有限公司 (8929) 成立於 1977 年，總部位於台灣台北，為台灣及東南亞成人失禁照護用品之領導廠商。公司主要產品涵蓋成人紙尿褲、復健褲、看護墊等成人照護用品，以自有品牌「[[安安]] (Ancare)」在台灣市場佔有一至二成市佔率。此外亦生產嬰兒紙尿褲 (Tino 品牌)、女性衛生用品 ([[ANAN]] 品牌) 及面膜等個人護理產品。富堡近年積極佈局海外市場，已於印度、印尼、柬埔寨及孟加拉成立子公司，搶攻新興市場之高齡照護與個人消費商機。",
+    "supply_chain_md": "**上游 (不織布與化工原料):**\n- **吸收材料:** 高吸水性樹脂 ([[SAP]])、木漿棉 (Fluff Pulp)\n- **不織布:** [[紡黏不織布]]、熱風不織布等衛材用不織布\n- **防漏材料:** [[PE]] 透氣膜、彈性腰圍材料\n\n**中游 (衛材製造):**\n- **品牌製造:** **富堡工業 (8929)** — 成人紙尿褲、嬰兒紙尿褲、女性衛生用品之研發製造與品牌營運\n\n**下游 (銷售通路):**\n- **內銷通路:** 藥局、醫療器材行、量販超市\n- **外銷市場:** 東南亞 (馬來西亞為主)、東北亞、美國及澳洲",
+    "customers_suppliers_md": "### 主要客戶\n- **自有品牌:** 「[[安安]]」成人紙尿褲 (台灣內銷主力)\n- **美國通路:** 美國零售通路 (婦女衛生產品代工，佔外銷約二成)\n- **東南亞經銷:** 馬來西亞、印度、印尼等新興市場經銷商\n\n### 主要供應商\n- **吸收材料:** 國際 [[SAP]] (高吸水性樹脂) 供應商如 [[BASF]]、[[Evonik]]\n- **不織布原料:** 國內外衛材用不織布供應商 (如 [[南六]] 6504 等)\n- **木漿棉:** 國際漿紙大廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

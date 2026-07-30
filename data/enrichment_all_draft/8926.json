@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8926",
+  "company_name": "台汽電",
+  "title": "8926 - 台汽電",
+  "source_md": "Pilot_Reports/Engineering & Construction/8926_台汽電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "50,481 百萬台幣",
+    "enterprise_value": "80,604 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣汽電共生股份有限公司成立於1992年，為台灣最大民營電力集團之一。公司以[[汽電共生]]技術為核心，透過獨資、合資或 BOT 等模式投資興建發電廠，將蒸汽與電力售予合作工廠或鄰近用戶。旗下擁有官田汽電共生廠等五座汽電共生廠（3座BOT、1座合資、1座獨資），並透過18家電力相關轉投資公司（含[[星能電力]]、[[森霸電力]]、[[星元電力]]、[[國光電力]]等），投資多座天然氣民營電廠（IPP），合併裝置容量達2,491MW，約佔全國總裝置容量4.5%、民營電廠（IPP）總容量30%。電力主要透過長期購售電合約（PPA）供應[[台電]]。近年積極佈局[[地熱]]、綠電及再生能源投資。",
+    "entities": [
+      "汽電共生",
+      "星能電力",
+      "森霸電力",
+      "星元電力",
+      "國光電力",
+      "台電",
+      "地熱"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (燃料與設備)",
+        "text": "**上游 (燃料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "天然氣",
+        "text": "[[中油]]（天然氣燃料供應）",
+        "entities": [
+          "中油"
+        ]
+      },
+      {
+        "category": "發電設備",
+        "text": "燃氣渦輪機、蒸汽渦輪機、鍋爐等發電機組",
+        "entities": []
+      },
+      {
+        "category": "環保設備",
+        "text": "排放控制與環境保護設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (發電與營運)",
+        "text": "**中游 (發電與營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台汽電集團** — 汽電共生廠營運（官田廠等）、民營電廠投資（[[星能電力]]、[[森霸電力]]、[[星元電力]]、[[國光電力]]）",
+        "entities": [
+          "星能電力",
+          "森霸電力",
+          "星元電力",
+          "國光電力"
+        ]
+      },
+      {
+        "category": "工程服務",
+        "text": "電廠工程規劃、設計、採購、施工及維運顧問",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (售電對象)",
+        "text": "**下游 (售電對象):**",
+        "entities": []
+      },
+      {
+        "category": "電力公司",
+        "text": "[[台電]]（主要售電對象，長期 PPA 購售電合約）",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "工業用戶",
+        "text": "汽電共生蒸汽供應予合作工廠",
+        "entities": []
+      },
+      {
+        "category": "再生能源",
+        "text": "[[地熱]]及綠電發電投資",
+        "entities": [
+          "地熱"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力購買",
+        "text": "[[台電]]（最大客戶，透過長期購售電合約 PPA 購買電力）",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "蒸汽供應",
+        "text": "官田工業區等合作工廠（汽電共生蒸汽供應）",
+        "entities": []
+      },
+      {
+        "role": "工程顧問",
+        "text": "民營電廠與汽電共生廠之工程規劃業主",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "天然氣燃料",
+        "text": "[[中油]]（台灣中油，天然氣供應）",
+        "entities": [
+          "中油"
+        ]
+      },
+      {
+        "role": "發電設備",
+        "text": "國際燃氣渦輪機與蒸汽渦輪機製造商（如[[三菱重工]]、[[GE]]）",
+        "entities": [
+          "三菱重工",
+          "GE"
+        ]
+      },
+      {
+        "role": "環保設備",
+        "text": "排放控制與空污防制設備供應商",
+        "entities": []
+      },
+      {
+        "role": "工程承攬",
+        "text": "電廠建設之土木與機電工程承攬商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Engineering & Construction):** [[三洋實業]]、[[日高]]、[[世紀風電]]、[[漢唐]]、[[龍邦]]",
+        "entities": [
+          "三洋實業",
+          "日高",
+          "世紀風電",
+          "漢唐",
+          "龍邦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "汽電共生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "汽電共生"
+    },
+    {
+      "name": "星能電力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "星能電力"
+    },
+    {
+      "name": "森霸電力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "森霸電力"
+    },
+    {
+      "name": "星元電力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "星元電力"
+    },
+    {
+      "name": "國光電力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國光電力"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "地熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "地熱"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "三菱重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱重工"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "三洋實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋實業"
+    },
+    {
+      "name": "日高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日高"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "漢唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢唐"
+    },
+    {
+      "name": "龍邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "龍邦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣汽電共生股份有限公司成立於1992年，為台灣最大民營電力集團之一。公司以[[汽電共生]]技術為核心，透過獨資、合資或 BOT 等模式投資興建發電廠，將蒸汽與電力售予合作工廠或鄰近用戶。旗下擁有官田汽電共生廠等五座汽電共生廠（3座BOT、1座合資、1座獨資），並透過18家電力相關轉投資公司（含[[星能電力]]、[[森霸電力]]、[[星元電力]]、[[國光電力]]等），投資多座天然氣民營電廠（IPP），合併裝置容量達2,491MW，約佔全國總裝置容量4.5%、民營電廠（IPP）總容量30%。電力主要透過長期購售電合約（PPA）供應[[台電]]。近年積極佈局[[地熱]]、綠電及再生能源投資。",
+    "supply_chain_md": "**上游 (燃料與設備):**\n- **天然氣:** [[中油]]（天然氣燃料供應）\n- **發電設備:** 燃氣渦輪機、蒸汽渦輪機、鍋爐等發電機組\n- **環保設備:** 排放控制與環境保護設備\n\n**中游 (發電與營運):**\n- **台汽電集團** — 汽電共生廠營運（官田廠等）、民營電廠投資（[[星能電力]]、[[森霸電力]]、[[星元電力]]、[[國光電力]]）\n- **工程服務:** 電廠工程規劃、設計、採購、施工及維運顧問\n\n**下游 (售電對象):**\n- **電力公司:** [[台電]]（主要售電對象，長期 PPA 購售電合約）\n- **工業用戶:** 汽電共生蒸汽供應予合作工廠\n- **再生能源:** [[地熱]]及綠電發電投資",
+    "customers_suppliers_md": "### 主要客戶\n- **電力購買:** [[台電]]（最大客戶，透過長期購售電合約 PPA 購買電力）\n- **蒸汽供應:** 官田工業區等合作工廠（汽電共生蒸汽供應）\n- **工程顧問:** 民營電廠與汽電共生廠之工程規劃業主\n\n### 主要供應商\n- **天然氣燃料:** [[中油]]（台灣中油，天然氣供應）\n- **發電設備:** 國際燃氣渦輪機與蒸汽渦輪機製造商（如[[三菱重工]]、[[GE]]）\n- **環保設備:** 排放控制與空污防制設備供應商\n- **工程承攬:** 電廠建設之土木與機電工程承攬商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

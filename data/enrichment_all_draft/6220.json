@@ -1,0 +1,289 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6220",
+  "company_name": "岳豐",
+  "title": "6220_岳豐",
+  "source_md": "Pilot_Reports/Communication Equipment/6220_岳豐.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "3,662 百萬台幣",
+    "enterprise_value": "7,924 百萬台幣"
+  },
+  "business": {
+    "summary": "岳豐科技 (6220，General Cable) 為成功從 [[OEM]] 線材代工廠轉型為擁有跨國「自有品牌及電商通路」之網通與電源線材大廠。公司最大競爭優勢在於深度「垂直整合」，透過併購美國 Prime Wire & Cable (實體通路電源線品牌) 及 [[Monoprice]] (知名 3C 電商平台)，將製造端與北美終端消費市場直接串聯。\n\n營收高達約八成來自美國。旗下 Monoprice 年銷超過 6,500 種 3C 產品，Prime 品牌成功插旗全美大型量販通路。生產基地涵蓋台灣、中國東莞/無錫及菲律賓，近年為規避關稅將產能大舉移轉至菲律賓廠區。公司積極開發 [[AI 伺服器]][[資料中心]]及車用 [[ADAS]] 所需之高頻高速特殊線纜。",
+    "entities": [
+      "OEM",
+      "Monoprice",
+      "AI 伺服器",
+      "資料中心",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (銅材與絕緣原料)",
+        "text": "**上游 (銅材與絕緣原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材",
+        "text": "國際銅線盤元冶金加工廠 — 裸銅線/特殊銅材",
+        "entities": []
+      },
+      {
+        "category": "絕緣材料",
+        "text": "PVC、PE 等塑膠粒及防火級被覆材料",
+        "entities": []
+      },
+      {
+        "category": "光纖",
+        "text": "光纖預製棒及抽絲廠料件",
+        "entities": []
+      },
+      {
+        "category": "連接器",
+        "text": "高品質金屬連接器端子",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (垂直整合線材帝國)",
+        "text": "**中游 (垂直整合線材帝國):**",
+        "entities": []
+      },
+      {
+        "category": "製造",
+        "text": "**岳豐** (台灣/東莞/無錫/菲律賓四大廠區)",
+        "entities": []
+      },
+      {
+        "category": "品牌通路",
+        "text": "**Prime Wire & Cable** (北美實體量販電源線品牌)",
+        "entities": []
+      },
+      {
+        "category": "電商平台",
+        "text": "[[Monoprice]] (北美知名 3C 發燒電商平台)",
+        "entities": [
+          "Monoprice"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (北美零售通路與終端消費者)",
+        "text": "**下游 (北美零售通路與終端消費者):**",
+        "entities": []
+      },
+      {
+        "category": "實體量販",
+        "text": "[[Walmart]]、[[Costco]]、[[Lowe's]]、HD Supply — Prime 品牌陳列",
+        "entities": [
+          "Walmart",
+          "Costco",
+          "Lowe's"
+        ]
+      },
+      {
+        "category": "電商直銷",
+        "text": "[[Monoprice]] 平台 B2B/B2C 直銷",
+        "entities": [
+          "Monoprice"
+        ]
+      },
+      {
+        "category": "品牌代工",
+        "text": "[[Belkin]]、[[Sony]] — 高毛利 OEM 代工",
+        "entities": [
+          "Belkin",
+          "Sony"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美量販",
+        "text": "[[Walmart]]、[[Costco]]、[[Lowe's]] — Prime 品牌電源線/延長線",
+        "entities": [
+          "Walmart",
+          "Costco",
+          "Lowe's"
+        ]
+      },
+      {
+        "role": "電商直銷",
+        "text": "[[Monoprice]] 平台終端 B2B/B2C 客戶",
+        "entities": [
+          "Monoprice"
+        ]
+      },
+      {
+        "role": "品牌代工",
+        "text": "[[Belkin]]、[[Sony]] — 高毛利網通線材 OEM",
+        "entities": [
+          "Belkin",
+          "Sony"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材",
+        "text": "國際銅礦冶金加工及銅線盤元供應商",
+        "entities": []
+      },
+      {
+        "role": "塑化原料",
+        "text": "跨國塑化化學大廠 — PVC/PE 絕緣粒",
+        "entities": []
+      },
+      {
+        "role": "台系協力廠",
+        "text": "東南亞台系線材代工協力網",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Walmart",
+          "Costco",
+          "Lowe's",
+          "Monoprice",
+          "Belkin",
+          "Sony"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "岳豐科技 (6220，General Cable) 為成功從 [[OEM]] 線材代工廠轉型為擁有跨國「自有品牌及電商通路」之網通與電源線材大廠。公司最大競爭優勢在於深度「垂直整合」，透過併購美國 Prime Wire & Cable (實體通路電源線品牌) 及 [[Monoprice]] (知名 3C 電商平台)，將製造端與北美終端消費市場直接串聯。",
+        "entities": [
+          "OEM",
+          "Monoprice"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "岳豐科技 (6220，General Cable) 為成功從 [[OEM]] 線材代工廠轉型為擁有跨國「自有品牌及電商通路」之網通與電源線材大廠。公司最大競爭優勢在於深度「垂直整合」，透過併購美國 Prime Wire & Cable (實體通路電源線品牌) 及 [[Monoprice]] (知名 3C 電商平台)，將製造端與北美終端消費市場直接串聯。",
+        "entities": [
+          "OEM",
+          "Monoprice"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "Monoprice",
+      "type": "international_company_or_term",
+      "wikilink": "Monoprice"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Costco",
+      "type": "international_company_or_term",
+      "wikilink": "Costco"
+    },
+    {
+      "name": "Lowe's",
+      "type": "international_company_or_term",
+      "wikilink": "Lowe's"
+    },
+    {
+      "name": "Belkin",
+      "type": "international_company_or_term",
+      "wikilink": "Belkin"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "岳豐科技 (6220，General Cable) 為成功從 [[OEM]] 線材代工廠轉型為擁有跨國「自有品牌及電商通路」之網通與電源線材大廠。公司最大競爭優勢在於深度「垂直整合」，透過併購美國 Prime Wire & Cable (實體通路電源線品牌) 及 [[Monoprice]] (知名 3C 電商平台)，將製造端與北美終端消費市場直接串聯。\n\n營收高達約八成來自美國。旗下 Monoprice 年銷超過 6,500 種 3C 產品，Prime 品牌成功插旗全美大型量販通路。生產基地涵蓋台灣、中國東莞/無錫及菲律賓，近年為規避關稅將產能大舉移轉至菲律賓廠區。公司積極開發 [[AI 伺服器]][[資料中心]]及車用 [[ADAS]] 所需之高頻高速特殊線纜。",
+    "supply_chain_md": "**上游 (銅材與絕緣原料):**\n- **銅材:** 國際銅線盤元冶金加工廠 — 裸銅線/特殊銅材\n- **絕緣材料:** PVC、PE 等塑膠粒及防火級被覆材料\n- **光纖:** 光纖預製棒及抽絲廠料件\n- **連接器:** 高品質金屬連接器端子\n\n**中游 (垂直整合線材帝國):**\n- **製造:** **岳豐** (台灣/東莞/無錫/菲律賓四大廠區)\n- **品牌通路:** **Prime Wire & Cable** (北美實體量販電源線品牌)\n- **電商平台:** [[Monoprice]] (北美知名 3C 發燒電商平台)\n\n**下游 (北美零售通路與終端消費者):**\n- **實體量販:** [[Walmart]]、[[Costco]]、[[Lowe's]]、HD Supply — Prime 品牌陳列\n- **電商直銷:** [[Monoprice]] 平台 B2B/B2C 直銷\n- **品牌代工:** [[Belkin]]、[[Sony]] — 高毛利 OEM 代工",
+    "customers_suppliers_md": "### 主要客戶\n- **北美量販:** [[Walmart]]、[[Costco]]、[[Lowe's]] — Prime 品牌電源線/延長線\n- **電商直銷:** [[Monoprice]] 平台終端 B2B/B2C 客戶\n- **品牌代工:** [[Belkin]]、[[Sony]] — 高毛利網通線材 OEM\n\n### 主要供應商\n- **銅材:** 國際銅礦冶金加工及銅線盤元供應商\n- **塑化原料:** 跨國塑化化學大廠 — PVC/PE 絕緣粒\n- **台系協力廠:** 東南亞台系線材代工協力網"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

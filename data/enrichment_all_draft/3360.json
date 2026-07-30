@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3360",
+  "company_name": "尚立",
+  "title": "3360 - 尚立",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/3360_尚立.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics Distribution",
+    "market_cap": "1,146 百萬台幣",
+    "enterprise_value": "2,387 百萬台幣"
+  },
+  "business": {
+    "summary": "尚立 (3360，Sunnic Technology) 是台灣專業電子零組件通路商，核心經營重點在於影像處理與感測技術。公司為 [[Sony]] 影像感測器 ([[CIS]]) 於亞洲區極為關鍵的經銷夥伴，在行動攝影與工業視覺領域具備深厚技術整合能力。核心業務：(1) [[Sony]] [[CIS]] 經銷 — 代理各類高階 CMOS 影像感測器，應用於旗艦智慧型手機鏡頭、高階安防設備與醫療攝像裝置；(2) 車用電子 — 將高動態範圍 [[CIS]] 導入 [[ADAS]] 車載攝影系統；(3) AIoT — 提供結合影像分析之整合方案；(4) 亦代理 [[Sharp]] 面板、驅動組件及光通訊模組。",
+    "entities": [
+      "Sony",
+      "CIS",
+      "ADAS",
+      "Sharp"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心原廠)",
+        "text": "**上游 (核心原廠):**",
+        "entities": []
+      },
+      {
+        "category": "影像感測",
+        "text": "[[Sony]] — [[CIS]] (CMOS 影像感測器，核心代理線)",
+        "entities": [
+          "Sony",
+          "CIS"
+        ]
+      },
+      {
+        "category": "面板/光電",
+        "text": "[[Sharp]] — 面板與驅動組件",
+        "entities": [
+          "Sharp"
+        ]
+      },
+      {
+        "category": "光通訊",
+        "text": "Union — 光通訊模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (技術通路)",
+        "text": "**中游 (技術通路):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**尚立** (零組件代理、Turnkey 方案開發、技術支援)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "手機",
+        "text": "中高端智慧手機品牌 — [[CIS]] 鏡頭模組",
+        "entities": [
+          "CIS"
+        ]
+      },
+      {
+        "category": "安控",
+        "text": "品牌監控廠商 — 安防 [[CIS]]",
+        "entities": [
+          "CIS"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "車用攝像模組廠 — [[ADAS]] 車載攝影",
+        "entities": [
+          "ADAS"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "手機模組廠",
+        "text": "國內外通訊產品製造商 — [[CIS]] 鏡頭模組",
+        "entities": [
+          "CIS"
+        ]
+      },
+      {
+        "role": "安防設備",
+        "text": "安控品牌廠商 — 監控攝像設備",
+        "entities": []
+      },
+      {
+        "role": "車用電子",
+        "text": "車用攝像模組封裝廠 — [[ADAS]] 系統",
+        "entities": [
+          "ADAS"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "影像感測",
+        "text": "[[Sony]] — [[CIS]] (最大供應商/核心代理線)",
+        "entities": [
+          "Sony",
+          "CIS"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[Sharp]] — 面板與驅動組件",
+        "entities": [
+          "Sharp"
+        ]
+      },
+      {
+        "role": "光通訊",
+        "text": "Union — 光通訊模組",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "CIS",
+          "ADAS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Sharp",
+      "type": "international_company_or_term",
+      "wikilink": "Sharp"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "尚立 (3360，Sunnic Technology) 是台灣專業電子零組件通路商，核心經營重點在於影像處理與感測技術。公司為 [[Sony]] 影像感測器 ([[CIS]]) 於亞洲區極為關鍵的經銷夥伴，在行動攝影與工業視覺領域具備深厚技術整合能力。核心業務：(1) [[Sony]] [[CIS]] 經銷 — 代理各類高階 CMOS 影像感測器，應用於旗艦智慧型手機鏡頭、高階安防設備與醫療攝像裝置；(2) 車用電子 — 將高動態範圍 [[CIS]] 導入 [[ADAS]] 車載攝影系統；(3) AIoT — 提供結合影像分析之整合方案；(4) 亦代理 [[Sharp]] 面板、驅動組件及光通訊模組。",
+    "supply_chain_md": "**上游 (核心原廠):**\n- **影像感測:** [[Sony]] — [[CIS]] (CMOS 影像感測器，核心代理線)\n- **面板/光電:** [[Sharp]] — 面板與驅動組件\n- **光通訊:** Union — 光通訊模組\n\n**中游 (技術通路):**\n- **尚立** (零組件代理、Turnkey 方案開發、技術支援)\n\n**下游 (終端應用):**\n- **手機:** 中高端智慧手機品牌 — [[CIS]] 鏡頭模組\n- **安控:** 品牌監控廠商 — 安防 [[CIS]]\n- **車用:** 車用攝像模組廠 — [[ADAS]] 車載攝影",
+    "customers_suppliers_md": "### 主要客戶\n- **手機模組廠:** 國內外通訊產品製造商 — [[CIS]] 鏡頭模組\n- **安防設備:** 安控品牌廠商 — 監控攝像設備\n- **車用電子:** 車用攝像模組封裝廠 — [[ADAS]] 系統\n\n### 主要供應商\n- **影像感測:** [[Sony]] — [[CIS]] (最大供應商/核心代理線)\n- **面板:** [[Sharp]] — 面板與驅動組件\n- **光通訊:** Union — 光通訊模組"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

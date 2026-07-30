@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6625",
+  "company_name": "必應",
+  "title": "6625_必應",
+  "source_md": "Pilot_Reports/Entertainment/6625_必應.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Entertainment",
+    "market_cap": "4,284 百萬台幣",
+    "enterprise_value": "3,886 百萬台幣"
+  },
+  "business": {
+    "summary": "必應創造 (6625，B'IN LIVE) 為台灣規模最大的演唱會與大型展演活動製作團隊，2014 年自唱片集團[[相信音樂]]獨立設立。公司透過垂直整合策略，合併技術服務、舞台設計 ([[FREE'S]])、燈光視訊音響設備租賃等專業團隊，提供從創意發想到硬體統籌執行的一站式展演服務。核心客群涵蓋華語天王天后級巡演 (如[[五月天]]、[[林俊傑]]、[[告五人]]等) 及國際巨星來台演出 (如 [[Coldplay]]、[[BLACKPINK]]、[[Bruno Mars]] 等)。2024 年營收達 31.5 億元創歷史新高。近年積極拓展東南亞及日本市場。",
+    "entities": [
+      "相信音樂",
+      "FREE'S",
+      "五月天",
+      "林俊傑",
+      "告五人",
+      "Coldplay",
+      "BLACKPINK",
+      "Bruno Mars"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (專業設備)",
+        "text": "**上游 (專業設備):**",
+        "entities": []
+      },
+      {
+        "category": "燈光音響",
+        "text": "國際專業舞台燈光與音響系統",
+        "entities": []
+      },
+      {
+        "category": "視訊設備",
+        "text": "[[LED]] 巨型螢幕、投影機",
+        "entities": [
+          "LED"
+        ]
+      },
+      {
+        "category": "舞台結構",
+        "text": "大型桁架、升降平台等硬體",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (展演製作)",
+        "text": "**中游 (展演製作):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**必應創造** — 演唱會創意企劃、導演統籌、舞台工程、設備租賃",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "旗下子公司：[[FREE'S]] (舞台設計)、聯立/神翼/神樺 (設備租賃)",
+        "entities": [
+          "FREE'S"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "唱片經紀",
+        "text": "[[相信音樂]]及其他演藝經紀",
+        "entities": [
+          "相信音樂"
+        ]
+      },
+      {
+        "category": "國際演出",
+        "text": "[[Live Nation]]、國際巡演主辦方",
+        "entities": [
+          "Live Nation"
+        ]
+      },
+      {
+        "category": "典禮賽事",
+        "text": "[[金曲獎]]等大型頒獎典禮",
+        "entities": [
+          "金曲獎"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "華語藝人",
+        "text": "[[相信音樂]]旗下[[五月天]]；其他天王天后如[[林俊傑]]、[[告五人]]",
+        "entities": [
+          "相信音樂",
+          "五月天",
+          "林俊傑",
+          "告五人"
+        ]
+      },
+      {
+        "role": "國際巨星",
+        "text": "[[Coldplay]]、[[BLACKPINK]]、[[Bruno Mars]]",
+        "entities": [
+          "Coldplay",
+          "BLACKPINK",
+          "Bruno Mars"
+        ]
+      },
+      {
+        "role": "典禮賽事",
+        "text": "[[金曲獎]]等大型頒獎典禮",
+        "entities": [
+          "金曲獎"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "設備原廠",
+        "text": "國際專業舞台燈光、音響及 [[LED]] 視訊螢幕",
+        "entities": [
+          "LED"
+        ]
+      },
+      {
+        "role": "舞台工程",
+        "text": "大型桁架結構與機械升降系統供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Entertainment):** [[智崴]]、[[大豐電]]、[[台數科]]、[[愛爾達-創]]",
+        "entities": [
+          "智崴",
+          "大豐電",
+          "台數科",
+          "愛爾達-創"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "相信音樂",
+          "五月天",
+          "林俊傑",
+          "告五人",
+          "Coldplay",
+          "BLACKPINK",
+          "Bruno Mars",
+          "金曲獎"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "相信音樂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "相信音樂"
+    },
+    {
+      "name": "FREE'S",
+      "type": "international_company_or_term",
+      "wikilink": "FREE'S"
+    },
+    {
+      "name": "五月天",
+      "type": "taiwan_company_or_term",
+      "wikilink": "五月天"
+    },
+    {
+      "name": "林俊傑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "林俊傑"
+    },
+    {
+      "name": "告五人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "告五人"
+    },
+    {
+      "name": "Coldplay",
+      "type": "international_company_or_term",
+      "wikilink": "Coldplay"
+    },
+    {
+      "name": "BLACKPINK",
+      "type": "international_company_or_term",
+      "wikilink": "BLACKPINK"
+    },
+    {
+      "name": "Bruno Mars",
+      "type": "international_company_or_term",
+      "wikilink": "Bruno Mars"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "Live Nation",
+      "type": "international_company_or_term",
+      "wikilink": "Live Nation"
+    },
+    {
+      "name": "金曲獎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金曲獎"
+    },
+    {
+      "name": "智崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智崴"
+    },
+    {
+      "name": "大豐電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大豐電"
+    },
+    {
+      "name": "台數科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台數科"
+    },
+    {
+      "name": "愛爾達-創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "愛爾達-創"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "必應創造 (6625，B'IN LIVE) 為台灣規模最大的演唱會與大型展演活動製作團隊，2014 年自唱片集團[[相信音樂]]獨立設立。公司透過垂直整合策略，合併技術服務、舞台設計 ([[FREE'S]])、燈光視訊音響設備租賃等專業團隊，提供從創意發想到硬體統籌執行的一站式展演服務。核心客群涵蓋華語天王天后級巡演 (如[[五月天]]、[[林俊傑]]、[[告五人]]等) 及國際巨星來台演出 (如 [[Coldplay]]、[[BLACKPINK]]、[[Bruno Mars]] 等)。2024 年營收達 31.5 億元創歷史新高。近年積極拓展東南亞及日本市場。",
+    "supply_chain_md": "**上游 (專業設備):**\n- **燈光音響:** 國際專業舞台燈光與音響系統\n- **視訊設備:** [[LED]] 巨型螢幕、投影機\n- **舞台結構:** 大型桁架、升降平台等硬體\n\n**中游 (展演製作):**\n- **必應創造** — 演唱會創意企劃、導演統籌、舞台工程、設備租賃\n- 旗下子公司：[[FREE'S]] (舞台設計)、聯立/神翼/神樺 (設備租賃)\n\n**下游 (終端客戶):**\n- **唱片經紀:** [[相信音樂]]及其他演藝經紀\n- **國際演出:** [[Live Nation]]、國際巡演主辦方\n- **典禮賽事:** [[金曲獎]]等大型頒獎典禮",
+    "customers_suppliers_md": "### 主要客戶\n- **華語藝人:** [[相信音樂]]旗下[[五月天]]；其他天王天后如[[林俊傑]]、[[告五人]]\n- **國際巨星:** [[Coldplay]]、[[BLACKPINK]]、[[Bruno Mars]]\n- **典禮賽事:** [[金曲獎]]等大型頒獎典禮\n\n### 主要供應商\n- **設備原廠:** 國際專業舞台燈光、音響及 [[LED]] 視訊螢幕\n- **舞台工程:** 大型桁架結構與機械升降系統供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

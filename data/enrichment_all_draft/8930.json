@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8930",
+  "company_name": "青鋼",
+  "title": "8930 - 青鋼",
+  "source_md": "Pilot_Reports/Building Products & Equipment/8930_青鋼.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment",
+    "market_cap": "2,405 百萬台幣",
+    "enterprise_value": "2,282 百萬台幣"
+  },
+  "business": {
+    "summary": "青鋼應用材料股份有限公司 (8930) 創立於 1982 年，總部位於台灣台南，為台灣首家導入全自動化生產且唯一掛牌上市的金屬建材製造商。公司主要生產各類輕鋼架 (包含 T 型懸吊及隔間骨架系統)、高階金屬天花板系列 (如沖孔、網板、蜂巢板與障板等) 以及專利微孔吸音板。產品具備環保綠建材特性並通過國家地震中心 AC156 耐震測試，廣泛應用於大型公共工程 (如捷運站、機場)、醫院、商用辦公大樓、高科技廠房及住宅空間。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (鋼鐵原物料)",
+        "text": "**上游 (鋼鐵原物料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬板材",
+        "text": "大宗採購鍍鋅鋼板與烤漆鋼板，利潤高度連動於全球鋼價波動",
+        "entities": []
+      },
+      {
+        "category": "鋼鐵供應",
+        "text": "[[中鋼]]、[[燁輝]] 等國內大型鋼鐵冶煉與塗佈加工廠",
+        "entities": [
+          "中鋼",
+          "燁輝"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (金屬建材製造)",
+        "text": "**中游 (金屬建材製造):**",
+        "entities": []
+      },
+      {
+        "category": "自動化加工",
+        "text": "**青鋼 (8930)** — 台灣首家金屬建材自動化生產廠，進行輕鋼架裁切成型、金屬天花板沖孔與微孔吸音減噪板製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端工程應用)",
+        "text": "**下游 (終端工程應用):**",
+        "entities": []
+      },
+      {
+        "category": "公共工程",
+        "text": "大型營造及建築工程公司，終端涵蓋公共建設、高階廠辦與商業空間裝修工程",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "公共工程與基建",
+        "text": "[[台北捷運]]、[[桃園國際機場]]、[[新加坡地鐵]] (MRT) 等車站天花板工程",
+        "entities": [
+          "台北捷運",
+          "桃園國際機場",
+          "新加坡地鐵"
+        ]
+      },
+      {
+        "role": "高科技廠房",
+        "text": "[[台積電]]等大型半導體廠辦業者 (承接吸音減噪工程)",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "建商與盤商",
+        "text": "國內中大型建設公司 (青鋼主力產品市佔率長年達 20%~40%)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼鐵大廠",
+        "text": "[[中鋼]]、[[燁輝]] 及國內外高規鍍鋅鋼捲與烤漆鋼板供應商\\n- **塗料化工:** [[永記造漆]] 等工業烤漆與表面處理化工原料廠",
+        "entities": [
+          "中鋼",
+          "燁輝",
+          "永記造漆"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Products & Equipment):** [[冠軍]]、[[中釉]]、[[橋椿]]、[[桓鼎-KY]]、[[美吉吉-KY]]",
+        "entities": [
+          "冠軍",
+          "中釉",
+          "橋椿",
+          "桓鼎-KY",
+          "美吉吉-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台北捷運",
+          "桃園國際機場",
+          "新加坡地鐵",
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "燁輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁輝"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    },
+    {
+      "name": "桃園國際機場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園國際機場"
+    },
+    {
+      "name": "新加坡地鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新加坡地鐵"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "永記造漆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永記造漆"
+    },
+    {
+      "name": "冠軍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "冠軍"
+    },
+    {
+      "name": "中釉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中釉"
+    },
+    {
+      "name": "橋椿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "橋椿"
+    },
+    {
+      "name": "桓鼎-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桓鼎-KY"
+    },
+    {
+      "name": "美吉吉-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美吉吉-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "青鋼應用材料股份有限公司 (8930) 創立於 1982 年，總部位於台灣台南，為台灣首家導入全自動化生產且唯一掛牌上市的金屬建材製造商。公司主要生產各類輕鋼架 (包含 T 型懸吊及隔間骨架系統)、高階金屬天花板系列 (如沖孔、網板、蜂巢板與障板等) 以及專利微孔吸音板。產品具備環保綠建材特性並通過國家地震中心 AC156 耐震測試，廣泛應用於大型公共工程 (如捷運站、機場)、醫院、商用辦公大樓、高科技廠房及住宅空間。",
+    "supply_chain_md": "**上游 (鋼鐵原物料):**\n- **金屬板材:** 大宗採購鍍鋅鋼板與烤漆鋼板，利潤高度連動於全球鋼價波動\n- **鋼鐵供應:** [[中鋼]]、[[燁輝]] 等國內大型鋼鐵冶煉與塗佈加工廠\n\n**中游 (金屬建材製造):**\n- **自動化加工:** **青鋼 (8930)** — 台灣首家金屬建材自動化生產廠，進行輕鋼架裁切成型、金屬天花板沖孔與微孔吸音減噪板製造\n\n**下游 (終端工程應用):**\n- **公共工程:** 大型營造及建築工程公司，終端涵蓋公共建設、高階廠辦與商業空間裝修工程",
+    "customers_suppliers_md": "### 主要客戶\n- **公共工程與基建:** [[台北捷運]]、[[桃園國際機場]]、[[新加坡地鐵]] (MRT) 等車站天花板工程\n- **高科技廠房:** [[台積電]]等大型半導體廠辦業者 (承接吸音減噪工程)\n- **建商與盤商:** 國內中大型建設公司 (青鋼主力產品市佔率長年達 20%~40%)\n\n### 主要供應商\n- **鋼鐵大廠:** [[中鋼]]、[[燁輝]] 及國內外高規鍍鋅鋼捲與烤漆鋼板供應商\\n- **塗料化工:** [[永記造漆]] 等工業烤漆與表面處理化工原料廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

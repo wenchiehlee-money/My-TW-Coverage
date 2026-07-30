@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4584",
+  "company_name": "君帆",
+  "title": "4584 - 君帆",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4584_君帆.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,191 百萬台幣",
+    "enterprise_value": "1,240 百萬台幣"
+  },
+  "business": {
+    "summary": "君帆工業 (4584，Jufan Industrial) 為專業液壓缸與氣壓元件製造商 (逾 40 年經驗)，產品涵蓋薄型油壓缸、圓形油壓缸、伺服油壓系統、氣壓缸及真空元件。中國輪胎硫化機油壓缸市場領導品牌。下游應用涵蓋輪胎機械 ([[正新橡膠]]/[[Maxxis]]供應鏈)、醫療設備 (手術台/CT 掃描升降，日本/中國客戶)、射出成型機鎖模油壓缸及工具機。",
+    "entities": [
+      "正新橡膠",
+      "Maxxis"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼管/鋼棒/鑄件",
+        "text": "金屬材料供應商",
+        "entities": []
+      },
+      {
+        "category": "油封/密封件",
+        "text": "油封及密封件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**君帆** (液壓缸/氣壓缸/真空元件，精密加工/電鍍/組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "輪胎機械",
+        "text": "[[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸",
+        "entities": [
+          "正新橡膠",
+          "Maxxis"
+        ]
+      },
+      {
+        "category": "醫療",
+        "text": "日本醫療設備廠如 [[Shimadzu]] — 手術台/CT 掃描升降系統",
+        "entities": [
+          "Shimadzu"
+        ]
+      },
+      {
+        "category": "射出機/工具機",
+        "text": "[[東芝機械]] 等 — 鎖模油壓缸/驅動系統",
+        "entities": [
+          "東芝機械"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "輪胎設備",
+        "text": "[[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸",
+        "entities": [
+          "正新橡膠",
+          "Maxxis"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "手術台/CT 掃描升降",
+        "entities": []
+      },
+      {
+        "role": "機械",
+        "text": "射出成型機/工具機廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬",
+        "text": "鋼管/鋼棒/鑄件",
+        "entities": []
+      },
+      {
+        "role": "密封件",
+        "text": "油封/密封件",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "正新橡膠",
+          "Maxxis"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "正新橡膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正新橡膠"
+    },
+    {
+      "name": "Maxxis",
+      "type": "international_company_or_term",
+      "wikilink": "Maxxis"
+    },
+    {
+      "name": "Shimadzu",
+      "type": "international_company_or_term",
+      "wikilink": "Shimadzu"
+    },
+    {
+      "name": "東芝機械",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東芝機械"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "君帆工業 (4584，Jufan Industrial) 為專業液壓缸與氣壓元件製造商 (逾 40 年經驗)，產品涵蓋薄型油壓缸、圓形油壓缸、伺服油壓系統、氣壓缸及真空元件。中國輪胎硫化機油壓缸市場領導品牌。下游應用涵蓋輪胎機械 ([[正新橡膠]]/[[Maxxis]]供應鏈)、醫療設備 (手術台/CT 掃描升降，日本/中國客戶)、射出成型機鎖模油壓缸及工具機。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼管/鋼棒/鑄件:** 金屬材料供應商\n- **油封/密封件:** 油封及密封件\n\n**中游 (製造):**\n- **君帆** (液壓缸/氣壓缸/真空元件，精密加工/電鍍/組裝)\n\n**下游 (終端):**\n- **輪胎機械:** [[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸\n- **醫療:** 日本醫療設備廠如 [[Shimadzu]] — 手術台/CT 掃描升降系統\n- **射出機/工具機:** [[東芝機械]] 等 — 鎖模油壓缸/驅動系統",
+    "customers_suppliers_md": "### 主要客戶\n- **輪胎設備:** [[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸\n- **醫療:** 手術台/CT 掃描升降\n- **機械:** 射出成型機/工具機廠\n\n### 主要供應商\n- **金屬:** 鋼管/鋼棒/鑄件\n- **密封件:** 油封/密封件"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

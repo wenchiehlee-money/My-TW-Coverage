@@ -97,7 +97,28 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **touch controller/input IC customer overlap:** [[Synaptics]]、[[Goodix]]、[[FocalTech]]、[[原相]]",
+        "entities": [
+          "Synaptics",
+          "Goodix",
+          "FocalTech",
+          "原相"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "HP",
+          "Dell",
+          "Lenovo",
+          "華碩",
+          "宏碁",
+          "Microsoft",
+          "Samsung",
+          "Xiaomi"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -182,6 +203,26 @@
       "name": "Xiaomi",
       "type": "international_company_or_term",
       "wikilink": "Xiaomi"
+    },
+    {
+      "name": "Synaptics",
+      "type": "international_company_or_term",
+      "wikilink": "Synaptics"
+    },
+    {
+      "name": "Goodix",
+      "type": "international_company_or_term",
+      "wikilink": "Goodix"
+    },
+    {
+      "name": "FocalTech",
+      "type": "international_company_or_term",
+      "wikilink": "FocalTech"
+    },
+    {
+      "name": "原相",
+      "type": "taiwan_company_or_term",
+      "wikilink": "原相"
     }
   ],
   "source_text": {
@@ -193,6 +234,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 15,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6887",
+  "company_name": "寶綠特-KY",
+  "title": "6887 - [[寶綠特-KY]]",
+  "source_md": "Pilot_Reports/Waste Management/6887_寶綠特-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Waste Management",
+    "market_cap": "2,768 百萬台幣",
+    "enterprise_value": "1,141 百萬台幣"
+  },
+  "business": {
+    "summary": "寶綠特資源再生工程股份有限公司 (6887，Bo Re Tech) 為全球廢塑膠回收清洗設備與再生聚酯原料之領導企業。具備「垂直整合」優勢：\n\n1. **設備工程事業：** 全球頂尖[[PET]]廢塑膠清洗設備製造商，從設備設計到整廠輸出 (Turnkey)，已在超過40個國家部署265條以上[[PET]]回收清洗及應用端生產線。\n2. **生產事業：** 投入寶特瓶清洗與融條抽絲，生產食品級再生聚酯粒 ([[rPET]]) 與再生纖維。\n3. **浙江平湖新廠：** 投資設立清洗再生廠，年產能2萬噸，預計投產中。\n4. **印度子公司：** 2025年8月完成印度子公司設立，瞄準印度再生塑膠市場。",
+    "entities": [
+      "PET",
+      "rPET"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與零組件)",
+        "text": "**上游 (原料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "廢棄PET",
+        "text": "全球各地[[PET]]寶特瓶回收資源",
+        "entities": [
+          "PET"
+        ]
+      },
+      {
+        "category": "機械零組件",
+        "text": "精密塑膠破碎分解與清洗機械所需之金屬與馬達零組件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備製造與再生)",
+        "text": "**中游 (設備製造與再生):**",
+        "entities": []
+      },
+      {
+        "category": "寶綠特 (6887)",
+        "text": "廢塑膠清洗與造粒設備生產線Turnkey輸出、食品級[[rPET]]再生聚酯粒與再生纖維製造",
+        "entities": [
+          "rPET"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "食品包裝",
+        "text": "全球食品/飲料瓶身包裝廠（[[可口可樂]]、[[雀巢]]等品牌之再生包裝需求）",
+        "entities": [
+          "可口可樂",
+          "雀巢"
+        ]
+      },
+      {
+        "category": "紡織業",
+        "text": "國際運動休閒服飾品牌之再生纖維",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "車用內外裝再生塑料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "食品飲料",
+        "text": "[[可口可樂]]、[[雀巢]]等全球品牌之[[rPET]]再生包裝需求",
+        "entities": [
+          "可口可樂",
+          "雀巢",
+          "rPET"
+        ]
+      },
+      {
+        "role": "設備Turnkey",
+        "text": "全球40多個國家之塑膠回收業者",
+        "entities": []
+      },
+      {
+        "role": "紡織品牌",
+        "text": "國際運動休閒服飾品牌之再生纖維需求",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PET回收源",
+        "text": "全球各地PET寶特瓶回收體系",
+        "entities": []
+      },
+      {
+        "role": "機械零組件",
+        "text": "破碎清洗機械之金屬件與馬達零組件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Waste Management):** [[鋼聯]]、[[萬年清]]、[[平和環保-創]]、[[崑鼎]]、[[中台]]",
+        "entities": [
+          "鋼聯",
+          "萬年清",
+          "平和環保-創",
+          "崑鼎",
+          "中台"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "可口可樂",
+          "雀巢",
+          "rPET"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PET",
+      "type": "international_company_or_term",
+      "wikilink": "PET"
+    },
+    {
+      "name": "rPET",
+      "type": "international_company_or_term",
+      "wikilink": "rPET"
+    },
+    {
+      "name": "可口可樂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "可口可樂"
+    },
+    {
+      "name": "雀巢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雀巢"
+    },
+    {
+      "name": "鋼聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼聯"
+    },
+    {
+      "name": "萬年清",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬年清"
+    },
+    {
+      "name": "平和環保-創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "平和環保-創"
+    },
+    {
+      "name": "崑鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "崑鼎"
+    },
+    {
+      "name": "中台",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中台"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶綠特資源再生工程股份有限公司 (6887，Bo Re Tech) 為全球廢塑膠回收清洗設備與再生聚酯原料之領導企業。具備「垂直整合」優勢：\n\n1. **設備工程事業：** 全球頂尖[[PET]]廢塑膠清洗設備製造商，從設備設計到整廠輸出 (Turnkey)，已在超過40個國家部署265條以上[[PET]]回收清洗及應用端生產線。\n2. **生產事業：** 投入寶特瓶清洗與融條抽絲，生產食品級再生聚酯粒 ([[rPET]]) 與再生纖維。\n3. **浙江平湖新廠：** 投資設立清洗再生廠，年產能2萬噸，預計投產中。\n4. **印度子公司：** 2025年8月完成印度子公司設立，瞄準印度再生塑膠市場。",
+    "supply_chain_md": "**上游 (原料與零組件):**\n- **廢棄PET：** 全球各地[[PET]]寶特瓶回收資源\n- **機械零組件：** 精密塑膠破碎分解與清洗機械所需之金屬與馬達零組件\n\n**中游 (設備製造與再生):**\n- **寶綠特 (6887)：** 廢塑膠清洗與造粒設備生產線Turnkey輸出、食品級[[rPET]]再生聚酯粒與再生纖維製造\n\n**下游 (終端應用):**\n- **食品包裝：** 全球食品/飲料瓶身包裝廠（[[可口可樂]]、[[雀巢]]等品牌之再生包裝需求）\n- **紡織業：** 國際運動休閒服飾品牌之再生纖維\n- **車用：** 車用內外裝再生塑料",
+    "customers_suppliers_md": "### 主要客戶\n- **食品飲料：** [[可口可樂]]、[[雀巢]]等全球品牌之[[rPET]]再生包裝需求\n- **設備Turnkey：** 全球40多個國家之塑膠回收業者\n- **紡織品牌：** 國際運動休閒服飾品牌之再生纖維需求\n\n### 主要供應商\n- **PET回收源：** 全球各地PET寶特瓶回收體系\n- **機械零組件：** 破碎清洗機械之金屬件與馬達零組件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

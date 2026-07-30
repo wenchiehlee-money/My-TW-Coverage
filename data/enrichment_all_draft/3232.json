@@ -1,0 +1,246 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3232",
+  "company_name": "昱捷",
+  "title": "3232 - 昱捷",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/3232_昱捷.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "885 百萬台幣",
+    "enterprise_value": "797 百萬台幣"
+  },
+  "business": {
+    "summary": "昱捷 (3232，Sentronic International) 是專業之半導體零件通路商，主要代理日系品牌之主動與被動元件。核心代理線包括 [[Renesas]]、[[OMRON]]、[[Kyocera]] 等日本大廠。產品涵蓋 [[MCU]] (微控制器)、[[MOSFET]]、感測器與二極體。應用領域涵蓋車用電子 ([[ADAS]]/[[電動車]])、工業自動化、[[物聯網]] 與消費電子。近年公司除通路業務外，亦涉足植牙/牙材系統以多元化經營。",
+    "entities": [
+      "Renesas",
+      "OMRON",
+      "Kyocera",
+      "MCU",
+      "MOSFET",
+      "ADAS",
+      "電動車",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (半導體原廠)",
+        "text": "**上游 (半導體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "MCU/車用",
+        "text": "[[Renesas]] — [[MCU]]、車用晶片",
+        "entities": [
+          "Renesas",
+          "MCU"
+        ]
+      },
+      {
+        "category": "感測/自動化",
+        "text": "[[OMRON]] — 感測器、繼電器",
+        "entities": [
+          "OMRON"
+        ]
+      },
+      {
+        "category": "陶瓷/被動",
+        "text": "[[Kyocera]] — 陶瓷電容、晶體",
+        "entities": [
+          "Kyocera"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**昱捷** (IC/分離式元件代理銷售、技術支援)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "汽車電子模組廠 — [[ADAS]]/[[電動車]]系統",
+        "entities": [
+          "ADAS",
+          "電動車"
+        ]
+      },
+      {
+        "category": "工控",
+        "text": "自動化設備廠",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "手機/家電代工廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用電子",
+        "text": "汽車電子模組廠 — [[ADAS]]/[[電動車]]系統",
+        "entities": [
+          "ADAS",
+          "電動車"
+        ]
+      },
+      {
+        "role": "工控設備",
+        "text": "自動化設備製造商",
+        "entities": []
+      },
+      {
+        "role": "消費電子",
+        "text": "手機與家電代工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "MCU",
+        "text": "[[Renesas]] — 微控制器與車用 IC (主力代理線)",
+        "entities": [
+          "Renesas"
+        ]
+      },
+      {
+        "role": "感測器",
+        "text": "[[OMRON]] — 感測器與繼電器",
+        "entities": [
+          "OMRON"
+        ]
+      },
+      {
+        "role": "陶瓷元件",
+        "text": "[[Kyocera]] — 陶瓷電容與晶體",
+        "entities": [
+          "Kyocera"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ADAS",
+          "電動車"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "OMRON",
+      "type": "international_company_or_term",
+      "wikilink": "OMRON"
+    },
+    {
+      "name": "Kyocera",
+      "type": "international_company_or_term",
+      "wikilink": "Kyocera"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昱捷 (3232，Sentronic International) 是專業之半導體零件通路商，主要代理日系品牌之主動與被動元件。核心代理線包括 [[Renesas]]、[[OMRON]]、[[Kyocera]] 等日本大廠。產品涵蓋 [[MCU]] (微控制器)、[[MOSFET]]、感測器與二極體。應用領域涵蓋車用電子 ([[ADAS]]/[[電動車]])、工業自動化、[[物聯網]] 與消費電子。近年公司除通路業務外，亦涉足植牙/牙材系統以多元化經營。",
+    "supply_chain_md": "**上游 (半導體原廠):**\n- **MCU/車用:** [[Renesas]] — [[MCU]]、車用晶片\n- **感測/自動化:** [[OMRON]] — 感測器、繼電器\n- **陶瓷/被動:** [[Kyocera]] — 陶瓷電容、晶體\n\n**中游 (通路代理):**\n- **昱捷** (IC/分離式元件代理銷售、技術支援)\n\n**下游 (終端應用):**\n- **車用:** 汽車電子模組廠 — [[ADAS]]/[[電動車]]系統\n- **工控:** 自動化設備廠\n- **消費電子:** 手機/家電代工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **車用電子:** 汽車電子模組廠 — [[ADAS]]/[[電動車]]系統\n- **工控設備:** 自動化設備製造商\n- **消費電子:** 手機與家電代工廠\n\n### 主要供應商\n- **MCU:** [[Renesas]] — 微控制器與車用 IC (主力代理線)\n- **感測器:** [[OMRON]] — 感測器與繼電器\n- **陶瓷元件:** [[Kyocera]] — 陶瓷電容與晶體"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

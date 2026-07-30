@@ -1,0 +1,287 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8932",
+  "company_name": "智通",
+  "title": "8932 - 智通*",
+  "source_md": "Pilot_Reports/Apparel Manufacturing/8932_智通.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "31,695 百萬台幣",
+    "enterprise_value": "30,418 百萬台幣"
+  },
+  "business": {
+    "summary": "智通科創 (8932，Wiselink，原名宏大拉鏈) 成立於 1978 年，2023 年 9 月更名並積極轉型為三大事業體：(1) MAX 品牌拉鏈 — 生產[[尼龍]]拉鏈、塑鋼拉鏈、隱形拉鏈及拉片配件，供應[[Walmart]]、[[Target]]、[[Macy's]]、[[JCPenney]]、[[Kohl's]]等零售通路及[[Toyota]]等 60 餘家汽車品牌，與日本[[YKK]] (全球市佔約 35%) 及中國[[SBS]]競爭；(2) GLN 企業軟體 — 2023 年收購馬來西亞 GLN 集團，提供 ERP/SCM/POS/CRM 企業軟體，客戶涵蓋[[TP-Link]]、[[Lenovo]]、[[OPPO]]、[[realme]]及丹麥[[Kamstrup]]，營運遍及亞太 13 國；(3) Fin[[Shell]] Pay 金融科技 — 印度數位支付平台，累計下載逾 1.2 億次、月活用戶 2,500 萬。",
+    "entities": [
+      "尼龍",
+      "Walmart",
+      "Target",
+      "Macy's",
+      "JCPenney",
+      "Kohl's",
+      "Toyota",
+      "YKK",
+      "SBS",
+      "TP-Link",
+      "Lenovo",
+      "OPPO",
+      "realme",
+      "Kamstrup",
+      "Shell"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與技術)",
+        "text": "**上游 (原料與技術):**",
+        "entities": []
+      },
+      {
+        "category": "拉鏈原料",
+        "text": "[[尼龍]]粒及[[聚酯纖維]]原料",
+        "entities": [
+          "尼龍",
+          "聚酯纖維"
+        ]
+      },
+      {
+        "category": "雲端平台",
+        "text": "GLN/Fin[[Shell]] 之雲端基礎設施",
+        "entities": [
+          "Shell"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與服務)",
+        "text": "**中游 (製造與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**智通科創** (MAX 品牌拉鏈製造；GLN 企業軟體；Fin[[Shell]] Pay 數位支付)",
+        "entities": [
+          "Shell"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "GLN 軟體",
+        "text": "[[TP-Link]]、[[Lenovo]]、[[OPPO]]、[[realme]]、[[Kamstrup]] (丹麥) — ERP/SCM 企業軟體",
+        "entities": [
+          "TP-Link",
+          "Lenovo",
+          "OPPO",
+          "realme",
+          "Kamstrup"
+        ]
+      },
+      {
+        "category": "MAX 拉鏈 (零售)",
+        "text": "[[Walmart]]、[[Target]]、[[Macy's]]、[[JCPenney]]、[[Kohl's]] — 服飾箱包拉鏈",
+        "entities": [
+          "Walmart",
+          "Target",
+          "Macy's",
+          "JCPenney",
+          "Kohl's"
+        ]
+      },
+      {
+        "category": "MAX 拉鏈 (汽車)",
+        "text": "[[Toyota]] — 汽車內裝拉鏈 (60+ 品牌)",
+        "entities": [
+          "Toyota"
+        ]
+      },
+      {
+        "category": "Fin[[Shell]] Pay",
+        "text": "印度消費者 — 數位支付平台",
+        "entities": [
+          "Shell"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "GLN 企業軟體",
+        "text": "[[TP-Link]]、[[Lenovo]]、[[OPPO]]、[[realme]]、[[Kamstrup]] (丹麥) — ERP/SCM/POS",
+        "entities": [
+          "TP-Link",
+          "Lenovo",
+          "OPPO",
+          "realme",
+          "Kamstrup"
+        ]
+      },
+      {
+        "role": "MAX 拉鏈 (零售)",
+        "text": "[[Walmart]]、[[Target]]、[[Macy's]]、[[JCPenney]]、[[Kohl's]] — 服飾箱包",
+        "entities": [
+          "Walmart",
+          "Target",
+          "Macy's",
+          "JCPenney",
+          "Kohl's"
+        ]
+      },
+      {
+        "role": "MAX 拉鏈 (汽車)",
+        "text": "[[Toyota]] 等 60+ 汽車品牌 — 內裝拉鏈",
+        "entities": [
+          "Toyota"
+        ]
+      },
+      {
+        "role": "Fin[[Shell]] Pay",
+        "text": "印度消費者 — 1.2 億下載、2,500 萬月活",
+        "entities": [
+          "Shell"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "拉鏈原料",
+        "text": "[[尼龍]]粒及[[聚酯纖維]]原料",
+        "entities": [
+          "尼龍",
+          "聚酯纖維"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "",
+        "text": "[[YKK]] — 全球拉鏈龍頭 (日本，市佔約 35%)",
+        "entities": [
+          "YKK"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[SBS]] — 中國拉鏈大廠 (深交所上市)",
+        "entities": [
+          "SBS"
+        ]
+      },
+      {
+        "text": "### 主要競爭對手 (拉鏈事業)",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "尼龍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尼龍"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Target",
+      "type": "international_company_or_term",
+      "wikilink": "Target"
+    },
+    {
+      "name": "Macy's",
+      "type": "international_company_or_term",
+      "wikilink": "Macy's"
+    },
+    {
+      "name": "JCPenney",
+      "type": "international_company_or_term",
+      "wikilink": "JCPenney"
+    },
+    {
+      "name": "Kohl's",
+      "type": "international_company_or_term",
+      "wikilink": "Kohl's"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "YKK",
+      "type": "international_company_or_term",
+      "wikilink": "YKK"
+    },
+    {
+      "name": "SBS",
+      "type": "international_company_or_term",
+      "wikilink": "SBS"
+    },
+    {
+      "name": "TP-Link",
+      "type": "international_company_or_term",
+      "wikilink": "TP-Link"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "realme",
+      "type": "international_company_or_term",
+      "wikilink": "realme"
+    },
+    {
+      "name": "Kamstrup",
+      "type": "international_company_or_term",
+      "wikilink": "Kamstrup"
+    },
+    {
+      "name": "Shell",
+      "type": "international_company_or_term",
+      "wikilink": "Shell"
+    },
+    {
+      "name": "聚酯纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚酯纖維"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "智通科創 (8932，Wiselink，原名宏大拉鏈) 成立於 1978 年，2023 年 9 月更名並積極轉型為三大事業體：(1) MAX 品牌拉鏈 — 生產[[尼龍]]拉鏈、塑鋼拉鏈、隱形拉鏈及拉片配件，供應[[Walmart]]、[[Target]]、[[Macy's]]、[[JCPenney]]、[[Kohl's]]等零售通路及[[Toyota]]等 60 餘家汽車品牌，與日本[[YKK]] (全球市佔約 35%) 及中國[[SBS]]競爭；(2) GLN 企業軟體 — 2023 年收購馬來西亞 GLN 集團，提供 ERP/SCM/POS/CRM 企業軟體，客戶涵蓋[[TP-Link]]、[[Lenovo]]、[[OPPO]]、[[realme]]及丹麥[[Kamstrup]]，營運遍及亞太 13 國；(3) Fin[[Shell]] Pay 金融科技 — 印度數位支付平台，累計下載逾 1.2 億次、月活用戶 2,500 萬。",
+    "supply_chain_md": "**上游 (原料與技術):**\n- **拉鏈原料:** [[尼龍]]粒及[[聚酯纖維]]原料\n- **雲端平台:** GLN/Fin[[Shell]] 之雲端基礎設施\n\n**中游 (製造與服務):**\n- **智通科創** (MAX 品牌拉鏈製造；GLN 企業軟體；Fin[[Shell]] Pay 數位支付)\n\n**下游 (終端客戶):**\n- **GLN 軟體:** [[TP-Link]]、[[Lenovo]]、[[OPPO]]、[[realme]]、[[Kamstrup]] (丹麥) — ERP/SCM 企業軟體\n- **MAX 拉鏈 (零售):** [[Walmart]]、[[Target]]、[[Macy's]]、[[JCPenney]]、[[Kohl's]] — 服飾箱包拉鏈\n- **MAX 拉鏈 (汽車):** [[Toyota]] — 汽車內裝拉鏈 (60+ 品牌)\n- **Fin[[Shell]] Pay:** 印度消費者 — 數位支付平台",
+    "customers_suppliers_md": "### 主要客戶\n- **GLN 企業軟體:** [[TP-Link]]、[[Lenovo]]、[[OPPO]]、[[realme]]、[[Kamstrup]] (丹麥) — ERP/SCM/POS\n- **MAX 拉鏈 (零售):** [[Walmart]]、[[Target]]、[[Macy's]]、[[JCPenney]]、[[Kohl's]] — 服飾箱包\n- **MAX 拉鏈 (汽車):** [[Toyota]] 等 60+ 汽車品牌 — 內裝拉鏈\n- **Fin[[Shell]] Pay:** 印度消費者 — 1.2 億下載、2,500 萬月活\n\n### 主要供應商\n- **拉鏈原料:** [[尼龍]]粒及[[聚酯纖維]]原料\n\n### 主要競爭對手 (拉鏈事業)\n- [[YKK]] — 全球拉鏈龍頭 (日本，市佔約 35%)\n- [[SBS]] — 中國拉鏈大廠 (深交所上市)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": []
+  }
+}

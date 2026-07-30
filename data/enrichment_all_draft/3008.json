@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3008",
+  "company_name": "大立光",
+  "title": "3008 - [[大立光]]",
+  "source_md": "Pilot_Reports/Electronic Components/3008_大立光.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "503,573 百萬台幣",
+    "enterprise_value": "375,835 百萬台幣"
+  },
+  "business": {
+    "summary": "[[大立光]]電 ([[Largan Precision]]) 為全球手機鏡頭龍頭廠，技術與產能遙遙領先同業。公司專注於高階塑膠非球面鏡片之設計與模具製造，擁有極高良率與專利護城河。\n\n主要產品線涵蓋：(1) 高階手機鏡頭 — 7P/8P/9P 規格鏡組，為 [[Apple]] iPhone 系列核心供應商；(2) 潛望式鏡頭 (Periscope Lens) — 受惠高倍光學變焦趨勢，打入 [[Apple]] 及 [[Samsung]] 旗艦機種；(3) 車用鏡頭 — 切入 [[ADAS]] 車載光學，規格持續升級。",
+    "entities": [
+      "大立光",
+      "Largan Precision",
+      "Apple",
+      "Samsung",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料與模具)",
+        "text": "**上游 (光學材料與模具):**",
+        "entities": []
+      },
+      {
+        "category": "光學塑膠粒",
+        "text": "日系特殊光學樹脂供應商 — 鏡片核心材料",
+        "entities": []
+      },
+      {
+        "category": "模具鋼材",
+        "text": "高精密模具鋼",
+        "entities": []
+      },
+      {
+        "category": "設備",
+        "text": "自製精密模具與自動化設備 — 核心競爭力",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (鏡頭設計與製造)",
+        "text": "**中游 (鏡頭設計與製造):**",
+        "entities": []
+      },
+      {
+        "category": "手機鏡頭",
+        "text": "**[[大立光]]** (7P/8P/9P 高階手機鏡組)",
+        "entities": [
+          "大立光"
+        ]
+      },
+      {
+        "category": "潛望式鏡頭",
+        "text": "**[[大立光]]** (Periscope 長焦鏡頭)",
+        "entities": [
+          "大立光"
+        ]
+      },
+      {
+        "category": "車用鏡頭",
+        "text": "**[[大立光]]** ([[ADAS]] 車載光學鏡頭)",
+        "entities": [
+          "大立光",
+          "ADAS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (鏡頭模組廠與終端品牌)",
+        "text": "**下游 (鏡頭模組廠與終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "鏡頭模組",
+        "text": "[[LG Innotek]]、[[鴻海]]、[[立訊]] — 模組組裝",
+        "entities": [
+          "LG Innotek",
+          "鴻海",
+          "立訊"
+        ]
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Apple]]、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "[[Tesla]]、歐系車廠 — 透過模組廠間接供貨",
+        "entities": [
+          "Tesla"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "手機品牌",
+        "text": "[[Apple]] (最大客戶)、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "role": "鏡頭模組廠",
+        "text": "[[LG Innotek]]、[[鴻海]]、[[立訊]]",
+        "entities": [
+          "LG Innotek",
+          "鴻海",
+          "立訊"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "[[Tesla]] — 透過模組廠供貨車載鏡頭",
+        "entities": [
+          "Tesla"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學材料",
+        "text": "日系光學塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "自製精密模具與自動化設備為核心競爭力",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo",
+          "LG Innotek",
+          "鴻海",
+          "立訊",
+          "Tesla"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "[[大立光]]電 ([[Largan Precision]]) 為全球手機鏡頭龍頭廠，技術與產能遙遙領先同業。公司專注於高階塑膠非球面鏡片之設計與模具製造，擁有極高良率與專利護城河。",
+        "entities": [
+          "大立光",
+          "Largan Precision"
+        ]
+      },
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備 — 核心競爭力",
+        "entities": []
+      },
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備為核心競爭力",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備 — 核心競爭力",
+        "entities": []
+      },
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備為核心競爭力",
+        "entities": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "大立光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大立光"
+    },
+    {
+      "name": "Largan Precision",
+      "type": "international_company_or_term",
+      "wikilink": "Largan Precision"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "LG Innotek",
+      "type": "international_company_or_term",
+      "wikilink": "LG Innotek"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "立訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立訊"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "vivo",
+      "type": "international_company_or_term",
+      "wikilink": "vivo"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[大立光]]電 ([[Largan Precision]]) 為全球手機鏡頭龍頭廠，技術與產能遙遙領先同業。公司專注於高階塑膠非球面鏡片之設計與模具製造，擁有極高良率與專利護城河。\n\n主要產品線涵蓋：(1) 高階手機鏡頭 — 7P/8P/9P 規格鏡組，為 [[Apple]] iPhone 系列核心供應商；(2) 潛望式鏡頭 (Periscope Lens) — 受惠高倍光學變焦趨勢，打入 [[Apple]] 及 [[Samsung]] 旗艦機種；(3) 車用鏡頭 — 切入 [[ADAS]] 車載光學，規格持續升級。",
+    "supply_chain_md": "**上游 (光學材料與模具):**\n- **光學塑膠粒:** 日系特殊光學樹脂供應商 — 鏡片核心材料\n- **模具鋼材:** 高精密模具鋼\n- **設備:** 自製精密模具與自動化設備 — 核心競爭力\n\n**中游 (鏡頭設計與製造):**\n- **手機鏡頭:** **[[大立光]]** (7P/8P/9P 高階手機鏡組)\n- **潛望式鏡頭:** **[[大立光]]** (Periscope 長焦鏡頭)\n- **車用鏡頭:** **[[大立光]]** ([[ADAS]] 車載光學鏡頭)\n\n**下游 (鏡頭模組廠與終端品牌):**\n- **鏡頭模組:** [[LG Innotek]]、[[鴻海]]、[[立訊]] — 模組組裝\n- **手機品牌:** [[Apple]]、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **車用:** [[Tesla]]、歐系車廠 — 透過模組廠間接供貨",
+    "customers_suppliers_md": "### 主要客戶\n- **手機品牌:** [[Apple]] (最大客戶)、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **鏡頭模組廠:** [[LG Innotek]]、[[鴻海]]、[[立訊]]\n- **車用:** [[Tesla]] — 透過模組廠供貨車載鏡頭\n\n### 主要供應商\n- **光學材料:** 日系光學塑膠粒供應商\n- **設備:** 自製精密模具與自動化設備為核心競爭力"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6035",
+  "company_name": "悠遊卡",
+  "title": "6035_悠遊卡",
+  "source_md": "Pilot_Reports/Software - Infrastructure/6035_悠遊卡.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "3,640 百萬台幣",
+    "enterprise_value": "2,729 百萬台幣"
+  },
+  "business": {
+    "summary": "悠遊卡股份有限公司 (6035) 為台灣電子票證與電子支付領域市佔率超過九成的龍頭企業。公司專注於交通及小額消費場域，提供「[[悠遊卡]]」電子票證與「悠遊付」電子支付雙核心服務。悠遊卡累積超過 1,800 個品牌通路合作，合計約 35 萬個支付點，廣泛應用於[[台北捷運]]、公車、[[台鐵]]、便利商店及零售通路。公司為公股與民股共同經營之企業，主要股東包含[[台北市政府]]、[[台北捷運]]及多家金融機構。營收以手續費、聯名卡發卡回饋金及加值服務為主，受惠於台灣無現金支付滲透率持續提升。",
+    "entities": [
+      "悠遊卡",
+      "台北捷運",
+      "台鐵",
+      "台北市政府"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (卡片製造與系統)",
+        "text": "**上游 (卡片製造與系統):**",
+        "entities": []
+      },
+      {
+        "category": "卡片製造",
+        "text": "[[NXP]] — [[NFC]] 晶片供應",
+        "entities": [
+          "NXP",
+          "NFC"
+        ]
+      },
+      {
+        "category": "系統整合",
+        "text": "票證閘門與讀卡機硬體供應商",
+        "entities": []
+      },
+      {
+        "category": "金流通道",
+        "text": "[[財金資訊]] — 跨行支付清算",
+        "entities": [
+          "財金資訊"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (票證與支付營運)",
+        "text": "**中游 (票證與支付營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**悠遊卡公司** ([[悠遊卡]]電子票證發行、悠遊付電子支付平台營運、品牌聯名卡合作)",
+        "entities": [
+          "悠遊卡"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用場域)",
+        "text": "**下游 (終端應用場域):**",
+        "entities": []
+      },
+      {
+        "category": "大眾運輸",
+        "text": "[[台北捷運]]、公車、[[台鐵]]、[[高雄捷運]]",
+        "entities": [
+          "台北捷運",
+          "台鐵",
+          "高雄捷運"
+        ]
+      },
+      {
+        "category": "零售通路",
+        "text": "[[統一超商]]、[[全家便利商店]]、[[萊爾富]]",
+        "entities": [
+          "統一超商",
+          "全家便利商店",
+          "萊爾富"
+        ]
+      },
+      {
+        "category": "消費支付",
+        "text": "百貨、餐飲、停車場等小額消費場域",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "大眾運輸",
+        "text": "[[台北捷運]]、[[台鐵]]、各縣市公車業者",
+        "entities": [
+          "台北捷運",
+          "台鐵"
+        ]
+      },
+      {
+        "role": "零售通路",
+        "text": "[[統一超商]]、[[全家便利商店]]、[[萊爾富]] — 小額消費扣款",
+        "entities": [
+          "統一超商",
+          "全家便利商店",
+          "萊爾富"
+        ]
+      },
+      {
+        "role": "聯名卡合作",
+        "text": "[[國泰世華銀行]]、[[台新銀行]]、[[玉山銀行]]、[[台北富邦銀行]]、[[中國信託]] — 悠遊聯名卡發行",
+        "entities": [
+          "國泰世華銀行",
+          "台新銀行",
+          "玉山銀行",
+          "台北富邦銀行",
+          "中國信託"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶片供應",
+        "text": "[[NXP]] — [[NFC]] 感應晶片",
+        "entities": [
+          "NXP",
+          "NFC"
+        ]
+      },
+      {
+        "role": "清算系統",
+        "text": "[[財金資訊]] — 跨行金流清算",
+        "entities": [
+          "財金資訊"
+        ]
+      },
+      {
+        "role": "系統建置",
+        "text": "票證系統整合與讀卡機硬體商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Infrastructure):** [[博士旺]]、[[凌網]]、[[神盾]]、[[物聯]]、[[伊雲谷]]",
+        "entities": [
+          "博士旺",
+          "凌網",
+          "神盾",
+          "物聯",
+          "伊雲谷"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台北捷運",
+          "台鐵",
+          "統一超商",
+          "全家便利商店",
+          "萊爾富",
+          "國泰世華銀行",
+          "台新銀行",
+          "玉山銀行",
+          "台北富邦銀行",
+          "中國信託"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "悠遊卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "悠遊卡"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    },
+    {
+      "name": "台鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鐵"
+    },
+    {
+      "name": "台北市政府",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北市政府"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "NFC",
+      "type": "international_company_or_term",
+      "wikilink": "NFC"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "高雄捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄捷運"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "全家便利商店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家便利商店"
+    },
+    {
+      "name": "萊爾富",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萊爾富"
+    },
+    {
+      "name": "國泰世華銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰世華銀行"
+    },
+    {
+      "name": "台新銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台新銀行"
+    },
+    {
+      "name": "玉山銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玉山銀行"
+    },
+    {
+      "name": "台北富邦銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北富邦銀行"
+    },
+    {
+      "name": "中國信託",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託"
+    },
+    {
+      "name": "博士旺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "博士旺"
+    },
+    {
+      "name": "凌網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌網"
+    },
+    {
+      "name": "神盾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神盾"
+    },
+    {
+      "name": "物聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯"
+    },
+    {
+      "name": "伊雲谷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伊雲谷"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "悠遊卡股份有限公司 (6035) 為台灣電子票證與電子支付領域市佔率超過九成的龍頭企業。公司專注於交通及小額消費場域，提供「[[悠遊卡]]」電子票證與「悠遊付」電子支付雙核心服務。悠遊卡累積超過 1,800 個品牌通路合作，合計約 35 萬個支付點，廣泛應用於[[台北捷運]]、公車、[[台鐵]]、便利商店及零售通路。公司為公股與民股共同經營之企業，主要股東包含[[台北市政府]]、[[台北捷運]]及多家金融機構。營收以手續費、聯名卡發卡回饋金及加值服務為主，受惠於台灣無現金支付滲透率持續提升。",
+    "supply_chain_md": "**上游 (卡片製造與系統):**\n- **卡片製造:** [[NXP]] — [[NFC]] 晶片供應\n- **系統整合:** 票證閘門與讀卡機硬體供應商\n- **金流通道:** [[財金資訊]] — 跨行支付清算\n\n**中游 (票證與支付營運):**\n- **悠遊卡公司** ([[悠遊卡]]電子票證發行、悠遊付電子支付平台營運、品牌聯名卡合作)\n\n**下游 (終端應用場域):**\n- **大眾運輸:** [[台北捷運]]、公車、[[台鐵]]、[[高雄捷運]]\n- **零售通路:** [[統一超商]]、[[全家便利商店]]、[[萊爾富]]\n- **消費支付:** 百貨、餐飲、停車場等小額消費場域",
+    "customers_suppliers_md": "### 主要客戶\n- **大眾運輸:** [[台北捷運]]、[[台鐵]]、各縣市公車業者\n- **零售通路:** [[統一超商]]、[[全家便利商店]]、[[萊爾富]] — 小額消費扣款\n- **聯名卡合作:** [[國泰世華銀行]]、[[台新銀行]]、[[玉山銀行]]、[[台北富邦銀行]]、[[中國信託]] — 悠遊聯名卡發行\n\n### 主要供應商\n- **晶片供應:** [[NXP]] — [[NFC]] 感應晶片\n- **清算系統:** [[財金資訊]] — 跨行金流清算\n- **系統建置:** 票證系統整合與讀卡機硬體商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

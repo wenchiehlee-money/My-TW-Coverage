@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3540",
+  "company_name": "曜越",
+  "title": "3540 - 曜越",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/3540_曜越.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "1,634 百萬台幣",
+    "enterprise_value": "3,577 百萬台幣"
+  },
+  "business": {
+    "summary": "曜越科技 (3540，Thermaltake Technology) 為全球知名電腦周邊與電競品牌，主要產品包含機殼、電源供應器、散熱器與電競周邊。擁有強大 DIY 玩家社群基礎，積極推出 ATX 3.0 電源供應器以支援 [[NVIDIA]] 40 系列顯卡。近年跨足高階單車代理業務 (代理 [[TIME]] 等品牌)，並切入 [[AI 伺服器]]散熱與電源供應鏈。產品透過全球電商平台 ([[Amazon]]、[[Newegg]]) 及實體通路銷售。",
+    "entities": [
+      "NVIDIA",
+      "TIME",
+      "AI 伺服器",
+      "Amazon",
+      "Newegg"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (元件供應)",
+        "text": "**上游 (元件供應):**",
+        "entities": []
+      },
+      {
+        "category": "風扇/散熱",
+        "text": "風扇模組、散熱鰭片供應商",
+        "entities": []
+      },
+      {
+        "category": "鋼板/金屬",
+        "text": "鋼板、鋁材機構件",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "電源 IC、電容等",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌設計)",
+        "text": "**中游 (品牌設計):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**曜越** (品牌設計、產品開發，委外製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "電商",
+        "text": "[[Amazon]]、Newegg — 線上零售",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "category": "實體通路",
+        "text": "全球 3C 實體零售通路",
+        "entities": []
+      },
+      {
+        "category": "終端用戶",
+        "text": "電競玩家、DIY 組裝用戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電商平台",
+        "text": "[[Amazon]]、Newegg — 線上零售",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "role": "3C 通路",
+        "text": "全球 3C 實體零售商",
+        "entities": []
+      },
+      {
+        "role": "終端用戶",
+        "text": "電競玩家、DIY 組裝愛好者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "風扇模組",
+        "text": "散熱風扇與鰭片供應商",
+        "entities": []
+      },
+      {
+        "role": "金屬材料",
+        "text": "鋼板與鋁材供應商",
+        "entities": []
+      },
+      {
+        "role": "合作夥伴",
+        "text": "[[NVIDIA]] — 顯卡電源規格合作 (ATX 3.0)",
+        "entities": [
+          "NVIDIA"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "TIME",
+      "type": "international_company_or_term",
+      "wikilink": "TIME"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Newegg",
+      "type": "international_company_or_term",
+      "wikilink": "Newegg"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "曜越科技 (3540，Thermaltake Technology) 為全球知名電腦周邊與電競品牌，主要產品包含機殼、電源供應器、散熱器與電競周邊。擁有強大 DIY 玩家社群基礎，積極推出 ATX 3.0 電源供應器以支援 [[NVIDIA]] 40 系列顯卡。近年跨足高階單車代理業務 (代理 [[TIME]] 等品牌)，並切入 [[AI 伺服器]]散熱與電源供應鏈。產品透過全球電商平台 ([[Amazon]]、[[Newegg]]) 及實體通路銷售。",
+    "supply_chain_md": "**上游 (元件供應):**\n- **風扇/散熱:** 風扇模組、散熱鰭片供應商\n- **鋼板/金屬:** 鋼板、鋁材機構件\n- **電子元件:** 電源 IC、電容等\n\n**中游 (品牌設計):**\n- **曜越** (品牌設計、產品開發，委外製造)\n\n**下游 (銷售通路):**\n- **電商:** [[Amazon]]、Newegg — 線上零售\n- **實體通路:** 全球 3C 實體零售通路\n- **終端用戶:** 電競玩家、DIY 組裝用戶",
+    "customers_suppliers_md": "### 主要客戶\n- **電商平台:** [[Amazon]]、Newegg — 線上零售\n- **3C 通路:** 全球 3C 實體零售商\n- **終端用戶:** 電競玩家、DIY 組裝愛好者\n\n### 主要供應商\n- **風扇模組:** 散熱風扇與鰭片供應商\n- **金屬材料:** 鋼板與鋁材供應商\n- **合作夥伴:** [[NVIDIA]] — 顯卡電源規格合作 (ATX 3.0)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3437",
+  "company_name": "榮創",
+  "title": "3437 - 榮創",
+  "source_md": "Pilot_Reports/Semiconductors/3437_榮創.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "2,298 百萬台幣",
+    "enterprise_value": "1,418 百萬台幣"
+  },
+  "business": {
+    "summary": "榮創能源 (3437) 是 [[LED]] 封裝廠，主要產品為 SMD LED、背光模組、感測元件及車用照明，背光產品占營收近九成。日本[[日亞化學]] (Nichia) 持股 11.45% 為策略股東。產品拓展至 [[Mini LED]] 模組、[[VCSEL]] 及紅外線感測 LED。",
+    "entities": [
+      "LED",
+      "日亞化學",
+      "Mini LED",
+      "VCSEL"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (LED 晶粒)",
+        "text": "**上游 (LED 晶粒):**",
+        "entities": []
+      },
+      {
+        "category": "LED 晶粒",
+        "text": "[[日亞化學]] (Nichia，策略股東 11.45%)、[[晶元光電]]、[[Cree]] (Wolfspeed)",
+        "entities": [
+          "日亞化學",
+          "晶元光電",
+          "Cree"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (LED 封裝)",
+        "text": "**中游 (LED 封裝):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "**榮創** (SMD LED/背光/[[Mini LED]]/[[VCSEL]]/車用)",
+        "entities": [
+          "Mini LED",
+          "VCSEL"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板與車用)",
+        "text": "**下游 (面板與車用):**",
+        "entities": []
+      },
+      {
+        "category": "面板背光",
+        "text": "TV/NB/平板面板品牌",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "車用 Tier 1 照明廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板背光",
+        "text": "TV/NB/平板品牌廠",
+        "entities": []
+      },
+      {
+        "role": "車用照明",
+        "text": "車用 Tier 1 照明廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 晶粒",
+        "text": "[[日亞化學]] (策略股東)、[[晶元光電]]、[[Cree]]",
+        "entities": [
+          "日亞化學",
+          "晶元光電",
+          "Cree"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[億光]]、[[光寶科技]]",
+        "entities": [
+          "億光",
+          "光寶科技"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[億光]]、[[光寶科技]]",
+        "entities": [
+          "億光",
+          "光寶科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "日亞化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日亞化學"
+    },
+    {
+      "name": "Mini LED",
+      "type": "international_company_or_term",
+      "wikilink": "Mini LED"
+    },
+    {
+      "name": "VCSEL",
+      "type": "international_company_or_term",
+      "wikilink": "VCSEL"
+    },
+    {
+      "name": "晶元光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶元光電"
+    },
+    {
+      "name": "Cree",
+      "type": "international_company_or_term",
+      "wikilink": "Cree"
+    },
+    {
+      "name": "億光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光"
+    },
+    {
+      "name": "光寶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科技"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "榮創能源 (3437) 是 [[LED]] 封裝廠，主要產品為 SMD LED、背光模組、感測元件及車用照明，背光產品占營收近九成。日本[[日亞化學]] (Nichia) 持股 11.45% 為策略股東。產品拓展至 [[Mini LED]] 模組、[[VCSEL]] 及紅外線感測 LED。",
+    "supply_chain_md": "**上游 (LED 晶粒):**\n- **LED 晶粒:** [[日亞化學]] (Nichia，策略股東 11.45%)、[[晶元光電]]、[[Cree]] (Wolfspeed)\n\n**中游 (LED 封裝):**\n- **LED 封裝:** **榮創** (SMD LED/背光/[[Mini LED]]/[[VCSEL]]/車用)\n\n**下游 (面板與車用):**\n- **面板背光:** TV/NB/平板面板品牌\n- **車用:** 車用 Tier 1 照明廠",
+    "customers_suppliers_md": "### 主要客戶\n- **面板背光:** TV/NB/平板品牌廠\n- **車用照明:** 車用 Tier 1 照明廠\n\n### 主要供應商\n- **LED 晶粒:** [[日亞化學]] (策略股東)、[[晶元光電]]、[[Cree]]\n- **競爭同業:** [[億光]]、[[光寶科技]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

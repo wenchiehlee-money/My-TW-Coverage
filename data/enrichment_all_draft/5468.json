@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5468",
+  "company_name": "凱鈺",
+  "title": "5468 - 凱鈺",
+  "source_md": "Pilot_Reports/Semiconductors/5468_凱鈺.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "1,343 百萬台幣",
+    "enterprise_value": "1,374 百萬台幣"
+  },
+  "business": {
+    "summary": "凱鈺科技 (5468，[[京元電子]]) 為專業半導體 IC 測試服務公司，提供晶圓測試 (CP)、成品測試 (FT) 及系統級測試 (SLT)。公司為台灣主要的獨立 IC 測試廠之一，測試技術涵蓋邏輯 IC、混合訊號 IC 及 [[RF IC]]。服務全球 IC 設計公司及 IDM 客戶。",
+    "entities": [
+      "京元電子",
+      "RF IC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (測試設備)",
+        "text": "**上游 (測試設備):**",
+        "entities": []
+      },
+      {
+        "category": "測試機台",
+        "text": "[[Advantest]]、[[Teradyne]]",
+        "entities": [
+          "Advantest",
+          "Teradyne"
+        ]
+      },
+      {
+        "category": "探針卡",
+        "text": "探針卡供應",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (測試代工)",
+        "text": "**中游 (測試代工):**",
+        "entities": []
+      },
+      {
+        "category": "IC 測試",
+        "text": "**凱鈺** (CP/FT/SLT，台灣主要獨立測試廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計)",
+        "text": "**下游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "IC 設計",
+        "text": "全球 IC 設計公司及 IDM",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "IC 設計",
+        "text": "全球 IC 設計公司",
+        "entities": []
+      },
+      {
+        "role": "IDM",
+        "text": "國際 IDM 客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "測試設備",
+        "text": "[[Advantest]]、[[Teradyne]]",
+        "entities": [
+          "Advantest",
+          "Teradyne"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[京元電子]]、[[欣銓]]、[[矽格]]",
+        "entities": [
+          "京元電子",
+          "欣銓",
+          "矽格"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[京元電子]]、[[欣銓]]、[[矽格]]",
+        "entities": [
+          "京元電子",
+          "欣銓",
+          "矽格"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "京元電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京元電子"
+    },
+    {
+      "name": "RF IC",
+      "type": "international_company_or_term",
+      "wikilink": "RF IC"
+    },
+    {
+      "name": "Advantest",
+      "type": "international_company_or_term",
+      "wikilink": "Advantest"
+    },
+    {
+      "name": "Teradyne",
+      "type": "international_company_or_term",
+      "wikilink": "Teradyne"
+    },
+    {
+      "name": "欣銓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣銓"
+    },
+    {
+      "name": "矽格",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽格"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "凱鈺科技 (5468，[[京元電子]]) 為專業半導體 IC 測試服務公司，提供晶圓測試 (CP)、成品測試 (FT) 及系統級測試 (SLT)。公司為台灣主要的獨立 IC 測試廠之一，測試技術涵蓋邏輯 IC、混合訊號 IC 及 [[RF IC]]。服務全球 IC 設計公司及 IDM 客戶。",
+    "supply_chain_md": "**上游 (測試設備):**\n- **測試機台:** [[Advantest]]、[[Teradyne]]\n- **探針卡:** 探針卡供應\n\n**中游 (測試代工):**\n- **IC 測試:** **凱鈺** (CP/FT/SLT，台灣主要獨立測試廠)\n\n**下游 (IC 設計):**\n- **IC 設計:** 全球 IC 設計公司及 IDM",
+    "customers_suppliers_md": "### 主要客戶\n- **IC 設計:** 全球 IC 設計公司\n- **IDM:** 國際 IDM 客戶\n\n### 主要供應商\n- **測試設備:** [[Advantest]]、[[Teradyne]]\n- **競爭同業:** [[京元電子]]、[[欣銓]]、[[矽格]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

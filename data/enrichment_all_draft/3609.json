@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3609",
+  "company_name": "三一東林",
+  "title": "3609 - 三一東林",
+  "source_md": "Pilot_Reports/Electronic Components/3609_三一東林.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "836 百萬台幣",
+    "enterprise_value": "955 百萬台幣"
+  },
+  "business": {
+    "summary": "三一東林 (3609) 是一家經歷重大轉型的多角化企業，從早期 [[LED]] 零組件製造商成功跨足高端汽車代理與改裝。\n\n目前核心業務雙軌並行：\n1. **高端汽車事業**: 為德國 [[BRABUS]]、[[Novitec]]、[[Techart]] 等頂級汽車改裝品牌的台灣總代理，並代理英國 [[Morgan Motor]] 手工跑車，鎖定金字塔頂端客群與收藏家。\n2. **智能照明事業**: 旗下「Cubee Lighting」致力於 AIoT 智慧照明平台，參展德國 [[Light+Building]] 法蘭克福照明展，提供商用與居家空間照明解決方案。\n3. **創新服務**: 開發洗車園區，引進德國 [[WashTec]] 專業洗車系統。",
+    "entities": [
+      "LED",
+      "BRABUS",
+      "Novitec",
+      "Techart",
+      "Morgan Motor",
+      "Light+Building",
+      "WashTec"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌授權與零組件)",
+        "text": "**上游 (品牌授權與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "汽車品牌",
+        "text": "[[Mercedes-Benz]] — 底盤車輛 (供 [[BRABUS]] 改裝)",
+        "entities": [
+          "Mercedes-Benz",
+          "BRABUS"
+        ]
+      },
+      {
+        "category": "改裝品牌",
+        "text": "[[BRABUS]]、[[Novitec]]、[[Techart]] — 改裝套件與技術授權",
+        "entities": [
+          "BRABUS",
+          "Novitec",
+          "Techart"
+        ]
+      },
+      {
+        "category": "照明元件",
+        "text": "[[LED]] 驅動 IC、智能照明控制模組",
+        "entities": [
+          "LED"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌代理與系統整合)",
+        "text": "**中游 (品牌代理與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "汽車事業",
+        "text": "**三一東林** (頂級改裝車代理與客製化改裝)",
+        "entities": []
+      },
+      {
+        "category": "照明事業",
+        "text": "**三一東林** (Cubee Lighting 智慧照明系統整合)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客群)",
+        "text": "**下游 (終端客群):**",
+        "entities": []
+      },
+      {
+        "category": "高淨值客群",
+        "text": "頂級豪車收藏家、企業主",
+        "entities": []
+      },
+      {
+        "category": "建設與商業空間",
+        "text": "智能照明系統客戶",
+        "entities": []
+      },
+      {
+        "category": "洗車服務",
+        "text": "一般消費者 ([[WashTec]] 洗車園區)",
+        "entities": [
+          "WashTec"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "高端收藏家",
+        "text": "金字塔頂端私人收藏家 — [[BRABUS]]、[[Novitec]]、[[Morgan Motor]] 車款",
+        "entities": [
+          "BRABUS",
+          "Novitec",
+          "Morgan Motor"
+        ]
+      },
+      {
+        "role": "租賃業者",
+        "text": "[[中租迪和]] — 高端商用車租賃合作",
+        "entities": [
+          "中租迪和"
+        ]
+      },
+      {
+        "role": "營建業",
+        "text": "國內營建業者 — Cubee Lighting 智慧照明系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "改裝品牌",
+        "text": "[[BRABUS]]、[[Novitec]]、[[Techart]] — 德國頂級改裝套件",
+        "entities": [
+          "BRABUS",
+          "Novitec",
+          "Techart"
+        ]
+      },
+      {
+        "role": "汽車底盤",
+        "text": "[[Mercedes-Benz]] — 改裝用底盤車輛",
+        "entities": [
+          "Mercedes-Benz"
+        ]
+      },
+      {
+        "role": "洗車設備",
+        "text": "[[WashTec]] — 德國專業洗車系統",
+        "entities": [
+          "WashTec"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "BRABUS",
+          "Novitec",
+          "Morgan Motor",
+          "中租迪和"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "BRABUS",
+      "type": "international_company_or_term",
+      "wikilink": "BRABUS"
+    },
+    {
+      "name": "Novitec",
+      "type": "international_company_or_term",
+      "wikilink": "Novitec"
+    },
+    {
+      "name": "Techart",
+      "type": "international_company_or_term",
+      "wikilink": "Techart"
+    },
+    {
+      "name": "Morgan Motor",
+      "type": "international_company_or_term",
+      "wikilink": "Morgan Motor"
+    },
+    {
+      "name": "Light+Building",
+      "type": "international_company_or_term",
+      "wikilink": "Light+Building"
+    },
+    {
+      "name": "WashTec",
+      "type": "international_company_or_term",
+      "wikilink": "WashTec"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "中租迪和",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中租迪和"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三一東林 (3609) 是一家經歷重大轉型的多角化企業，從早期 [[LED]] 零組件製造商成功跨足高端汽車代理與改裝。\n\n目前核心業務雙軌並行：\n1. **高端汽車事業**: 為德國 [[BRABUS]]、[[Novitec]]、[[Techart]] 等頂級汽車改裝品牌的台灣總代理，並代理英國 [[Morgan Motor]] 手工跑車，鎖定金字塔頂端客群與收藏家。\n2. **智能照明事業**: 旗下「Cubee Lighting」致力於 AIoT 智慧照明平台，參展德國 [[Light+Building]] 法蘭克福照明展，提供商用與居家空間照明解決方案。\n3. **創新服務**: 開發洗車園區，引進德國 [[WashTec]] 專業洗車系統。",
+    "supply_chain_md": "**上游 (品牌授權與零組件):**\n- **汽車品牌:** [[Mercedes-Benz]] — 底盤車輛 (供 [[BRABUS]] 改裝)\n- **改裝品牌:** [[BRABUS]]、[[Novitec]]、[[Techart]] — 改裝套件與技術授權\n- **照明元件:** [[LED]] 驅動 IC、智能照明控制模組\n\n**中游 (品牌代理與系統整合):**\n- **汽車事業:** **三一東林** (頂級改裝車代理與客製化改裝)\n- **照明事業:** **三一東林** (Cubee Lighting 智慧照明系統整合)\n\n**下游 (終端客群):**\n- **高淨值客群:** 頂級豪車收藏家、企業主\n- **建設與商業空間:** 智能照明系統客戶\n- **洗車服務:** 一般消費者 ([[WashTec]] 洗車園區)",
+    "customers_suppliers_md": "### 主要客戶\n- **高端收藏家:** 金字塔頂端私人收藏家 — [[BRABUS]]、[[Novitec]]、[[Morgan Motor]] 車款\n- **租賃業者:** [[中租迪和]] — 高端商用車租賃合作\n- **營建業:** 國內營建業者 — Cubee Lighting 智慧照明系統\n\n### 主要供應商\n- **改裝品牌:** [[BRABUS]]、[[Novitec]]、[[Techart]] — 德國頂級改裝套件\n- **汽車底盤:** [[Mercedes-Benz]] — 改裝用底盤車輛\n- **洗車設備:** [[WashTec]] — 德國專業洗車系統"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

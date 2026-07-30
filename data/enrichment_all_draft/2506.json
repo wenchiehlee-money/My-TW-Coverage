@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2506",
+  "company_name": "太設",
+  "title": "2506 - 太設",
+  "source_md": "Pilot_Reports/Real Estate - Development/2506_太設.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development",
+    "market_cap": "3,127 百萬台幣",
+    "enterprise_value": "3,938 百萬台幣"
+  },
+  "business": {
+    "summary": "[[太平洋建設]] (2506，太設) 成立於 1967 年，總部位於台北。公司早期涵蓋百貨零售 ([[太平洋 SOGO]]、[[太平洋百貨]]) 及營建事業，經歷集團重整後，目前專注於營建本業及綠色事業。業務包括住宅開發 (如太平洋之森系列) 及公共工程承攬，擁有自有甲級營造廠資格。近年積極推動資產活化、[[都市更新]]案及轉型綠色經濟 (含植物工廠)。公司在台北市及新北市擁有可觀之土地資產。",
+    "entities": [
+      "太平洋建設",
+      "太平洋 SOGO",
+      "太平洋百貨",
+      "都市更新"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與建材)",
+        "text": "**上游 (土地與建材):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "自有土地資產活化、[[都市更新]]案",
+        "entities": [
+          "都市更新"
+        ]
+      },
+      {
+        "category": "營造",
+        "text": "自有甲級營造廠",
+        "entities": []
+      },
+      {
+        "category": "建材",
+        "text": "[[台灣水泥]]、鋼筋、[[國產建材實業]]預拌混凝土",
+        "entities": [
+          "台灣水泥",
+          "國產建材實業"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與工程)",
+        "text": "**中游 (開發與工程):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**太平洋建設** — 住宅開發、公共工程承攬",
+        "entities": []
+      },
+      {
+        "category": "綠色事業",
+        "text": "植物工廠營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "住宅買方",
+        "text": "購屋族群",
+        "entities": []
+      },
+      {
+        "category": "工程業主",
+        "text": "政府公共工程發包單位",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "住宅買方",
+        "text": "台北市及新北市購屋族群",
+        "entities": []
+      },
+      {
+        "role": "公共工程",
+        "text": "政府機關公共工程標案",
+        "entities": []
+      },
+      {
+        "role": "歷史關聯",
+        "text": "[[太平洋 SOGO]]、[[太平洋百貨]] (已分離)",
+        "entities": [
+          "太平洋 SOGO",
+          "太平洋百貨"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造",
+        "text": "自有甲級營造廠",
+        "entities": []
+      },
+      {
+        "role": "建材",
+        "text": "國內鋼筋、水泥、預拌混凝土供應商",
+        "entities": []
+      },
+      {
+        "role": "設計",
+        "text": "建築師事務所及景觀設計顧問",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate - Development):** [[華友聯]]、[[名軒]]、[[寶徠]]、[[潤隆]]、[[新美齊]]",
+        "entities": [
+          "華友聯",
+          "名軒",
+          "寶徠",
+          "潤隆",
+          "新美齊"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "太平洋 SOGO",
+          "太平洋百貨"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "太平洋建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太平洋建設"
+    },
+    {
+      "name": "太平洋 SOGO",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太平洋 SOGO"
+    },
+    {
+      "name": "太平洋百貨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太平洋百貨"
+    },
+    {
+      "name": "都市更新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "都市更新"
+    },
+    {
+      "name": "台灣水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣水泥"
+    },
+    {
+      "name": "國產建材實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國產建材實業"
+    },
+    {
+      "name": "華友聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華友聯"
+    },
+    {
+      "name": "名軒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "名軒"
+    },
+    {
+      "name": "寶徠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶徠"
+    },
+    {
+      "name": "潤隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "潤隆"
+    },
+    {
+      "name": "新美齊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新美齊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[太平洋建設]] (2506，太設) 成立於 1967 年，總部位於台北。公司早期涵蓋百貨零售 ([[太平洋 SOGO]]、[[太平洋百貨]]) 及營建事業，經歷集團重整後，目前專注於營建本業及綠色事業。業務包括住宅開發 (如太平洋之森系列) 及公共工程承攬，擁有自有甲級營造廠資格。近年積極推動資產活化、[[都市更新]]案及轉型綠色經濟 (含植物工廠)。公司在台北市及新北市擁有可觀之土地資產。",
+    "supply_chain_md": "**上游 (土地與建材):**\n- **土地取得:** 自有土地資產活化、[[都市更新]]案\n- **營造:** 自有甲級營造廠\n- **建材:** [[台灣水泥]]、鋼筋、[[國產建材實業]]預拌混凝土\n\n**中游 (開發與工程):**\n- **太平洋建設** — 住宅開發、公共工程承攬\n- **綠色事業:** 植物工廠營運\n\n**下游 (終端客戶):**\n- **住宅買方:** 購屋族群\n- **工程業主:** 政府公共工程發包單位",
+    "customers_suppliers_md": "### 主要客戶\n- **住宅買方:** 台北市及新北市購屋族群\n- **公共工程:** 政府機關公共工程標案\n- **歷史關聯:** [[太平洋 SOGO]]、[[太平洋百貨]] (已分離)\n\n### 主要供應商\n- **營造:** 自有甲級營造廠\n- **建材:** 國內鋼筋、水泥、預拌混凝土供應商\n- **設計:** 建築師事務所及景觀設計顧問"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

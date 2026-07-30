@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8411",
+  "company_name": "福貞-KY",
+  "title": "8411 - 福貞-KY",
+  "source_md": "Pilot_Reports/Packaging & Containers/8411_福貞-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers",
+    "market_cap": "2,828 百萬台幣",
+    "enterprise_value": "5,119 百萬台幣"
+  },
+  "business": {
+    "summary": "福貞控股股份有限公司為金屬包裝容器製造商，成立於 1993 年，註冊於開曼群島，營運總部位於台灣新竹。公司為中國大陸第三大[[馬口鐵]]包裝容器廠，其中馬口鐵三片罐市佔率約 15%。福貞集團於中國設有福建、山東、湖北、廣東及河南五個生產基地，可生產 54 種以上罐型，年產能達 25 億支三片式馬口鐵罐及 25 億支二片式鋁罐。台灣新竹廠則服務本地飲料大廠，並具備外銷能力，以東南亞市場為主，外銷佔比約 15%。公司同時提供飲料充填代工（OEM）服務。",
+    "entities": [
+      "馬口鐵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬原料)",
+        "text": "**上游 (金屬原料):**",
+        "entities": []
+      },
+      {
+        "category": "馬口鐵板",
+        "text": "向國內外鍍錫鋼板廠（如 [[中鋼]]）採購[[馬口鐵]]原板",
+        "entities": [
+          "中鋼",
+          "馬口鐵"
+        ]
+      },
+      {
+        "category": "鋁材",
+        "text": "鋁捲、鋁板等二片罐用原料（如 [[中國鋁業]]）",
+        "entities": [
+          "中國鋁業"
+        ]
+      },
+      {
+        "category": "塗料與油墨",
+        "text": "食品級內塗料、外印油墨",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (金屬包裝製造)",
+        "text": "**中游 (金屬包裝製造):**",
+        "entities": []
+      },
+      {
+        "category": "福貞-KY (8411)",
+        "text": "馬口鐵三片罐成型、二片鋁罐製造、印刷、充填代工",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "飲料產業",
+        "text": "啤酒罐、果汁罐、能量飲料罐、茶飲罐",
+        "entities": []
+      },
+      {
+        "category": "食品產業",
+        "text": "食品罐頭、奶粉罐",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台灣飲料廠",
+        "text": "[[台灣菸酒]]（台灣啤酒）、[[可口可樂]]、[[金車]]、[[黑松]]、維大力",
+        "entities": [
+          "台灣菸酒",
+          "可口可樂",
+          "金車",
+          "黑松"
+        ]
+      },
+      {
+        "role": "中國飲料/食品",
+        "text": "中國大陸各省飲料及食品品牌",
+        "entities": []
+      },
+      {
+        "role": "外銷市場",
+        "text": "東南亞飲料品牌客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "馬口鐵板",
+        "text": "[[中鋼]]（2002）等鍍錫鋼板廠",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "鋁材",
+        "text": "鋁捲及鋁板原料",
+        "entities": []
+      },
+      {
+        "role": "塗料/油墨",
+        "text": "食品級塗料及印刷油墨",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Packaging & Containers):** [[永裕]]、[[光群雷]]、[[炎洲流通]]、[[谷崧]]、[[勝昱]]",
+        "entities": [
+          "永裕",
+          "光群雷",
+          "炎洲流通",
+          "谷崧",
+          "勝昱"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台灣菸酒",
+          "可口可樂",
+          "金車",
+          "黑松"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "馬口鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "馬口鐵"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "中國鋁業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國鋁業"
+    },
+    {
+      "name": "台灣菸酒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣菸酒"
+    },
+    {
+      "name": "可口可樂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "可口可樂"
+    },
+    {
+      "name": "金車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金車"
+    },
+    {
+      "name": "黑松",
+      "type": "taiwan_company_or_term",
+      "wikilink": "黑松"
+    },
+    {
+      "name": "永裕",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永裕"
+    },
+    {
+      "name": "光群雷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光群雷"
+    },
+    {
+      "name": "炎洲流通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "炎洲流通"
+    },
+    {
+      "name": "谷崧",
+      "type": "taiwan_company_or_term",
+      "wikilink": "谷崧"
+    },
+    {
+      "name": "勝昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勝昱"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "福貞控股股份有限公司為金屬包裝容器製造商，成立於 1993 年，註冊於開曼群島，營運總部位於台灣新竹。公司為中國大陸第三大[[馬口鐵]]包裝容器廠，其中馬口鐵三片罐市佔率約 15%。福貞集團於中國設有福建、山東、湖北、廣東及河南五個生產基地，可生產 54 種以上罐型，年產能達 25 億支三片式馬口鐵罐及 25 億支二片式鋁罐。台灣新竹廠則服務本地飲料大廠，並具備外銷能力，以東南亞市場為主，外銷佔比約 15%。公司同時提供飲料充填代工（OEM）服務。",
+    "supply_chain_md": "**上游 (金屬原料):**\n- **馬口鐵板:** 向國內外鍍錫鋼板廠（如 [[中鋼]]）採購[[馬口鐵]]原板\n- **鋁材:** 鋁捲、鋁板等二片罐用原料（如 [[中國鋁業]]）\n- **塗料與油墨:** 食品級內塗料、外印油墨\n\n**中游 (金屬包裝製造):**\n- **福貞-KY (8411):** 馬口鐵三片罐成型、二片鋁罐製造、印刷、充填代工\n\n**下游 (終端應用):**\n- **飲料產業:** 啤酒罐、果汁罐、能量飲料罐、茶飲罐\n- **食品產業:** 食品罐頭、奶粉罐",
+    "customers_suppliers_md": "### 主要客戶\n- **台灣飲料廠:** [[台灣菸酒]]（台灣啤酒）、[[可口可樂]]、[[金車]]、[[黑松]]、維大力\n- **中國飲料/食品:** 中國大陸各省飲料及食品品牌\n- **外銷市場:** 東南亞飲料品牌客戶\n\n### 主要供應商\n- **馬口鐵板:** [[中鋼]]（2002）等鍍錫鋼板廠\n- **鋁材:** 鋁捲及鋁板原料\n- **塗料/油墨:** 食品級塗料及印刷油墨"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

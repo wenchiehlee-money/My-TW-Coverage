@@ -1,0 +1,346 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3481",
+  "company_name": "群創",
+  "title": "3481 - [[群創]]",
+  "source_md": "Pilot_Reports/Electronic Components/3481_群創.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "333,608 百萬台幣",
+    "enterprise_value": "309,384 百萬台幣"
+  },
+  "business": {
+    "summary": "[[群創]]光電 (3481，[[群創]]) 為全球前三大 [[TFT-LCD]] 面板製造商之一，[[鴻海]]集團成員。產品線涵蓋大尺寸 (TV, Monitor, NB) 與中小尺寸 (Mobile, Tablet) 面板。\n\n近年積極推動「雙軌轉型」(More than Panel)，拓展非顯示器領域：(1) 車用 — 子公司 CarUX 合併日本 [[Pioneer]]，升級為 Tier 1 車用顯示方案供應商，供應 [[BMW]]、[[GM]]、[[Tesla]] 等車廠；(2) 醫療 — 子公司睿生光電專攻 X-ray 感測器；(3) 半導體 — 投入 [[FOPLP]] (扇出型面板級封裝)，以業界最大 G3.5 基板開發中高階封裝，已量產出貨，傳獲 [[SpaceX]] [[低軌衛星]]晶片封裝訂單，Chip-first 良率達 90% 以上。",
+    "entities": [
+      "群創",
+      "TFT-LCD",
+      "鴻海",
+      "Pioneer",
+      "BMW",
+      "GM",
+      "Tesla",
+      "FOPLP",
+      "SpaceX",
+      "低軌衛星"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板材料與元件)",
+        "text": "**上游 (面板材料與元件):**",
+        "entities": []
+      },
+      {
+        "category": "玻璃基板",
+        "text": "[[康寧]] — [[TFT-LCD]] 玻璃基板",
+        "entities": [
+          "康寧",
+          "TFT-LCD"
+        ]
+      },
+      {
+        "category": "偏光板",
+        "text": "偏光板供應商",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[聯詠]]、[[瑞鼎]] — 面板驅動 IC",
+        "entities": [
+          "聯詠",
+          "瑞鼎"
+        ]
+      },
+      {
+        "category": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (面板製造與封裝)",
+        "text": "**中游 (面板製造與封裝):**",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "**[[群創]]** ([[TFT-LCD]] 面板與模組製造)",
+        "entities": [
+          "群創",
+          "TFT-LCD"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "CarUX / [[Pioneer]] (Tier 1 車用顯示方案)",
+        "entities": [
+          "Pioneer"
+        ]
+      },
+      {
+        "category": "醫療",
+        "text": "睿生光電 (X-ray 感測器)",
+        "entities": []
+      },
+      {
+        "category": "封裝",
+        "text": "**[[群創]]** ([[FOPLP]] 扇出型面板級封裝)",
+        "entities": [
+          "群創",
+          "FOPLP"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (消費電子、車廠與半導體)",
+        "text": "**下游 (消費電子、車廠與半導體):**",
+        "entities": []
+      },
+      {
+        "category": "TV/PC 品牌",
+        "text": "全球電視與 PC 品牌 — 大尺寸面板",
+        "entities": []
+      },
+      {
+        "category": "車廠",
+        "text": "[[BMW]]、[[GM]]、[[Tesla]] — 車用顯示 (CarUX)",
+        "entities": [
+          "BMW",
+          "GM",
+          "Tesla"
+        ]
+      },
+      {
+        "category": "衛星",
+        "text": "[[SpaceX]] — [[低軌衛星]]晶片 [[FOPLP]] 封裝",
+        "entities": [
+          "SpaceX",
+          "低軌衛星",
+          "FOPLP"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[鴻海]] — 集團垂直整合",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "TV/PC",
+        "text": "全球電視與 PC 品牌 — [[TFT-LCD]] 大尺寸面板",
+        "entities": [
+          "TFT-LCD"
+        ]
+      },
+      {
+        "role": "車廠",
+        "text": "[[BMW]]、[[GM]]、[[Tesla]] — 車用顯示 (CarUX/[[Pioneer]])",
+        "entities": [
+          "BMW",
+          "GM",
+          "Tesla",
+          "Pioneer"
+        ]
+      },
+      {
+        "role": "衛星",
+        "text": "[[SpaceX]] — [[低軌衛星]]晶片 [[FOPLP]] 封裝",
+        "entities": [
+          "SpaceX",
+          "低軌衛星",
+          "FOPLP"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "國際醫療設備品牌 — X-ray 感測器 (睿生光電)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "玻璃基板",
+        "text": "[[康寧]] — [[TFT-LCD]] 玻璃基板",
+        "entities": [
+          "康寧",
+          "TFT-LCD"
+        ]
+      },
+      {
+        "role": "驅動 IC",
+        "text": "[[聯詠]]、[[瑞鼎]] — 面板驅動 IC",
+        "entities": [
+          "聯詠",
+          "瑞鼎"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[鴻海]] — 集團資源整合",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "TFT-LCD",
+          "BMW",
+          "GM",
+          "Tesla",
+          "Pioneer",
+          "SpaceX",
+          "低軌衛星",
+          "FOPLP"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "近年積極推動「雙軌轉型」(More than Panel)，拓展非顯示器領域：(1) 車用 — 子公司 CarUX 合併日本 [[Pioneer]]，升級為 Tier 1 車用顯示方案供應商，供應 [[BMW]]、[[GM]]、[[Tesla]] 等車廠；(2) 醫療 — 子公司睿生光電專攻 X-ray 感測器；(3) 半導體 — 投入 [[FOPLP]] (扇出型面板級封裝)，以業界最大 G3.5 基板開發中高階封裝，已量產出貨，傳獲 [[SpaceX]] [[低軌衛星]]晶片封裝訂單，Chip-first 良率達 90% 以上。",
+        "entities": [
+          "Pioneer",
+          "BMW",
+          "GM",
+          "Tesla",
+          "FOPLP",
+          "SpaceX",
+          "低軌衛星"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "TFT-LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT-LCD"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "Pioneer",
+      "type": "international_company_or_term",
+      "wikilink": "Pioneer"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "FOPLP",
+      "type": "technology",
+      "wikilink": "FOPLP"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "康寧",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康寧"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "瑞鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞鼎"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[群創]]光電 (3481，[[群創]]) 為全球前三大 [[TFT-LCD]] 面板製造商之一，[[鴻海]]集團成員。產品線涵蓋大尺寸 (TV, Monitor, NB) 與中小尺寸 (Mobile, Tablet) 面板。\n\n近年積極推動「雙軌轉型」(More than Panel)，拓展非顯示器領域：(1) 車用 — 子公司 CarUX 合併日本 [[Pioneer]]，升級為 Tier 1 車用顯示方案供應商，供應 [[BMW]]、[[GM]]、[[Tesla]] 等車廠；(2) 醫療 — 子公司睿生光電專攻 X-ray 感測器；(3) 半導體 — 投入 [[FOPLP]] (扇出型面板級封裝)，以業界最大 G3.5 基板開發中高階封裝，已量產出貨，傳獲 [[SpaceX]] [[低軌衛星]]晶片封裝訂單，Chip-first 良率達 90% 以上。",
+    "supply_chain_md": "**上游 (面板材料與元件):**\n- **玻璃基板:** [[康寧]] — [[TFT-LCD]] 玻璃基板\n- **偏光板:** 偏光板供應商\n- **驅動 IC:** [[聯詠]]、[[瑞鼎]] — 面板驅動 IC\n- **背光模組:** LED 背光模組供應商\n\n**中游 (面板製造與封裝):**\n- **面板:** **[[群創]]** ([[TFT-LCD]] 面板與模組製造)\n- **車用:** CarUX / [[Pioneer]] (Tier 1 車用顯示方案)\n- **醫療:** 睿生光電 (X-ray 感測器)\n- **封裝:** **[[群創]]** ([[FOPLP]] 扇出型面板級封裝)\n\n**下游 (消費電子、車廠與半導體):**\n- **TV/PC 品牌:** 全球電視與 PC 品牌 — 大尺寸面板\n- **車廠:** [[BMW]]、[[GM]]、[[Tesla]] — 車用顯示 (CarUX)\n- **衛星:** [[SpaceX]] — [[低軌衛星]]晶片 [[FOPLP]] 封裝\n- **母公司:** [[鴻海]] — 集團垂直整合",
+    "customers_suppliers_md": "### 主要客戶\n- **TV/PC:** 全球電視與 PC 品牌 — [[TFT-LCD]] 大尺寸面板\n- **車廠:** [[BMW]]、[[GM]]、[[Tesla]] — 車用顯示 (CarUX/[[Pioneer]])\n- **衛星:** [[SpaceX]] — [[低軌衛星]]晶片 [[FOPLP]] 封裝\n- **醫療:** 國際醫療設備品牌 — X-ray 感測器 (睿生光電)\n\n### 主要供應商\n- **玻璃基板:** [[康寧]] — [[TFT-LCD]] 玻璃基板\n- **驅動 IC:** [[聯詠]]、[[瑞鼎]] — 面板驅動 IC\n- **母公司:** [[鴻海]] — 集團資源整合"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

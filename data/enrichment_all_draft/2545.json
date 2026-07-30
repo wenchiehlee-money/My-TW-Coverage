@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2545",
+  "company_name": "皇翔",
+  "title": "2545 - 皇翔",
+  "source_md": "Pilot_Reports/Real Estate - Diversified/2545_皇翔.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Diversified",
+    "market_cap": "12,531 百萬台幣",
+    "enterprise_value": "52,909 百萬台幣"
+  },
+  "business": {
+    "summary": "[[皇翔建設]] (2545，Huang Hsiang Construction) 成立於 1991 年，總部位於台北。公司早期以豪宅開發聞名 (如曾名列亞洲十大豪宅之[[皇翔御琚]])。近年積極轉型多元化經營，大力佈局商用不動產及飯店業務：(1) 頂級商辦 — [[皇翔臺北廣場]] (位於北車特區，採只租不售模式，獲 LEED 銀級及 WELL 銀級認證)；(2) 飯店事業 — 引進日本[[藤田觀光集團]]旗下[[Hotel Gracery]]格拉斯麗飯店，以及與[[萬豪國際]]合作之[[士林萬麗酒店]]。住宅開發聚焦雙北及板橋精華區。",
+    "entities": [
+      "皇翔建設",
+      "皇翔御琚",
+      "皇翔臺北廣場",
+      "藤田觀光集團",
+      "Hotel Gracery",
+      "萬豪國際",
+      "士林萬麗酒店"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與營造)",
+        "text": "**上游 (土地與營造):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "台北市精華區 (信義、大同、士林、板橋)",
+        "entities": []
+      },
+      {
+        "category": "營造施工",
+        "text": "國內甲級營造廠",
+        "entities": []
+      },
+      {
+        "category": "建材",
+        "text": "高階進口建材及國內基礎建材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與資產營運)",
+        "text": "**中游 (開發與資產營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**皇翔建設** — 豪宅及商辦開發、資產營運",
+        "entities": []
+      },
+      {
+        "category": "商辦租賃",
+        "text": "[[皇翔臺北廣場]] — 北車特區頂級商辦",
+        "entities": [
+          "皇翔臺北廣場"
+        ]
+      },
+      {
+        "category": "飯店事業",
+        "text": "[[Hotel Gracery]]、[[士林萬麗酒店]]",
+        "entities": [
+          "Hotel Gracery",
+          "士林萬麗酒店"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "豪宅買方",
+        "text": "高資產客群",
+        "entities": []
+      },
+      {
+        "category": "商辦租戶",
+        "text": "外商及大型企業",
+        "entities": []
+      },
+      {
+        "category": "飯店旅客",
+        "text": "商務及觀光旅客",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "豪宅買方",
+        "text": "高資產客群 — [[皇翔御琚]]等指標豪宅",
+        "entities": [
+          "皇翔御琚"
+        ]
+      },
+      {
+        "role": "商辦租戶",
+        "text": "外商及大型企業 — [[皇翔臺北廣場]]",
+        "entities": [
+          "皇翔臺北廣場"
+        ]
+      },
+      {
+        "role": "飯店旅客",
+        "text": "[[Hotel Gracery]]及[[士林萬麗酒店]]住客",
+        "entities": [
+          "Hotel Gracery",
+          "士林萬麗酒店"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "飯店管理",
+        "text": "[[藤田觀光集團]] (Hotel Gracery)、[[萬豪國際]] (士林萬麗酒店)",
+        "entities": [
+          "藤田觀光集團",
+          "萬豪國際"
+        ]
+      },
+      {
+        "role": "營造廠",
+        "text": "國內甲級營造廠",
+        "entities": []
+      },
+      {
+        "role": "建材",
+        "text": "高階進口建材及國內基礎建材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate - Diversified):** [[三地開發]]、[[冠德]]、[[力麒]]、[[富旺]]、[[三發地產]]",
+        "entities": [
+          "三地開發",
+          "冠德",
+          "力麒",
+          "富旺",
+          "三發地產"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "皇翔御琚",
+          "皇翔臺北廣場",
+          "Hotel Gracery",
+          "士林萬麗酒店"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "皇翔建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "皇翔建設"
+    },
+    {
+      "name": "皇翔御琚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "皇翔御琚"
+    },
+    {
+      "name": "皇翔臺北廣場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "皇翔臺北廣場"
+    },
+    {
+      "name": "藤田觀光集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "藤田觀光集團"
+    },
+    {
+      "name": "Hotel Gracery",
+      "type": "international_company_or_term",
+      "wikilink": "Hotel Gracery"
+    },
+    {
+      "name": "萬豪國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬豪國際"
+    },
+    {
+      "name": "士林萬麗酒店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士林萬麗酒店"
+    },
+    {
+      "name": "三地開發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三地開發"
+    },
+    {
+      "name": "冠德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "冠德"
+    },
+    {
+      "name": "力麒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力麒"
+    },
+    {
+      "name": "富旺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富旺"
+    },
+    {
+      "name": "三發地產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三發地產"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[皇翔建設]] (2545，Huang Hsiang Construction) 成立於 1991 年，總部位於台北。公司早期以豪宅開發聞名 (如曾名列亞洲十大豪宅之[[皇翔御琚]])。近年積極轉型多元化經營，大力佈局商用不動產及飯店業務：(1) 頂級商辦 — [[皇翔臺北廣場]] (位於北車特區，採只租不售模式，獲 LEED 銀級及 WELL 銀級認證)；(2) 飯店事業 — 引進日本[[藤田觀光集團]]旗下[[Hotel Gracery]]格拉斯麗飯店，以及與[[萬豪國際]]合作之[[士林萬麗酒店]]。住宅開發聚焦雙北及板橋精華區。",
+    "supply_chain_md": "**上游 (土地與營造):**\n- **土地取得:** 台北市精華區 (信義、大同、士林、板橋)\n- **營造施工:** 國內甲級營造廠\n- **建材:** 高階進口建材及國內基礎建材\n\n**中游 (開發與資產營運):**\n- **皇翔建設** — 豪宅及商辦開發、資產營運\n- **商辦租賃:** [[皇翔臺北廣場]] — 北車特區頂級商辦\n- **飯店事業:** [[Hotel Gracery]]、[[士林萬麗酒店]]\n\n**下游 (終端客戶):**\n- **豪宅買方:** 高資產客群\n- **商辦租戶:** 外商及大型企業\n- **飯店旅客:** 商務及觀光旅客",
+    "customers_suppliers_md": "### 主要客戶\n- **豪宅買方:** 高資產客群 — [[皇翔御琚]]等指標豪宅\n- **商辦租戶:** 外商及大型企業 — [[皇翔臺北廣場]]\n- **飯店旅客:** [[Hotel Gracery]]及[[士林萬麗酒店]]住客\n\n### 主要供應商\n- **飯店管理:** [[藤田觀光集團]] (Hotel Gracery)、[[萬豪國際]] (士林萬麗酒店)\n- **營造廠:** 國內甲級營造廠\n- **建材:** 高階進口建材及國內基礎建材供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

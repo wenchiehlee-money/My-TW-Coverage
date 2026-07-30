@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6182",
+  "company_name": "合晶",
+  "title": "6182_合晶",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/6182_合晶.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "55,858 百萬台幣",
+    "enterprise_value": "71,157 百萬台幣"
+  },
+  "business": {
+    "summary": "合晶科技股份有限公司 (6182) 是全球前十大、重摻低電阻領域前三大的「[[半導體]][[矽晶圓]]」專業製造商。主要產品涵蓋8吋與12吋拋光[[矽晶圓]](Polished Wafer)及[[磊晶]][[矽晶圓]](Epi Wafer)，近年更積極跨足SOI(絕緣體上覆矽)與[[第三代[[半導體]]]][[氮化鎵]][[磊晶]]圓的研發。合晶的產品是製造功率[[半導體]](Power Device)、類比IC與CMOS影像感測器的關鍵基底材料。在[[電動車]]及工業[[自動化]]趨勢帶動下，全球車用與功率元件對重摻[[矽晶圓]]的需求成為合晶獲利的重要支撐。",
+    "entities": [
+      "半導體",
+      "矽晶圓",
+      "磊晶",
+      "第三代[[半導體",
+      "氮化鎵",
+      "電動車",
+      "自動化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 高純度多晶矽(Polysilicon)原料供應商、長晶爐及晶圓切磨拋設備製造廠。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **合晶科技** ([[半導體]]矽晶材料之拉晶、切片、研磨、拋光及[[磊晶]]製造)。",
+        "entities": [
+          "半導體",
+          "磊晶"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 全球整合元件製造大廠(IDM)及專業晶圓代工廠(Foundry)。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台積電]]、德州儀器(TI)、英飛凌([[Infineon]])及恩智浦([[NXP]])等國際知名[[半導體]]大廠。",
+        "entities": [
+          "台積電",
+          "Infineon",
+          "NXP",
+          "半導體"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國際大型多晶矽原料生產商及應用材料(AMAT)、[[Shin-Etsu]](Shin-Etsu)等關鍵[[半導體]]設備廠。",
+        "entities": [
+          "Shin-Etsu",
+          "半導體"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "Infineon",
+          "NXP",
+          "半導體"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "第三代[[半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第三代[[半導體"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "Shin-Etsu",
+      "type": "international_company_or_term",
+      "wikilink": "Shin-Etsu"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "合晶科技股份有限公司 (6182) 是全球前十大、重摻低電阻領域前三大的「[[半導體]][[矽晶圓]]」專業製造商。主要產品涵蓋8吋與12吋拋光[[矽晶圓]](Polished Wafer)及[[磊晶]][[矽晶圓]](Epi Wafer)，近年更積極跨足SOI(絕緣體上覆矽)與[[第三代[[半導體]]]][[氮化鎵]][[磊晶]]圓的研發。合晶的產品是製造功率[[半導體]](Power Device)、類比IC與CMOS影像感測器的關鍵基底材料。在[[電動車]]及工業[[自動化]]趨勢帶動下，全球車用與功率元件對重摻[[矽晶圓]]的需求成為合晶獲利的重要支撐。",
+    "supply_chain_md": "*   **上游**: 高純度多晶矽(Polysilicon)原料供應商、長晶爐及晶圓切磨拋設備製造廠。\n*   **中游**: **合晶科技** ([[半導體]]矽晶材料之拉晶、切片、研磨、拋光及[[磊晶]]製造)。\n*   **下游**: 全球整合元件製造大廠(IDM)及專業晶圓代工廠(Foundry)。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[台積電]]、德州儀器(TI)、英飛凌([[Infineon]])及恩智浦([[NXP]])等國際知名[[半導體]]大廠。\n\n### 主要供應商\n*   國際大型多晶矽原料生產商及應用材料(AMAT)、[[Shin-Etsu]](Shin-Etsu)等關鍵[[半導體]]設備廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

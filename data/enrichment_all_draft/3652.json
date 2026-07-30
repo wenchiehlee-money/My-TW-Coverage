@@ -1,0 +1,254 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3652",
+  "company_name": "精聯",
+  "title": "3652 - 精聯",
+  "source_md": "Pilot_Reports/Computer Hardware/3652_精聯.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "2,163 百萬台幣",
+    "enterprise_value": "1,263 百萬台幣"
+  },
+  "business": {
+    "summary": "精[[聯電]]子 (3652，[[unitech]]) 為全球領先之自動辨識及資料收集 (AIDC) 解決方案供應商，原屬精技電腦 (2414) 自動資料收集事業部，2008 年獨立。以自有品牌 unitech 行銷全球，擁有逾四十五年產業經驗。\n\n核心產品涵蓋：(1) 強固型行動電腦 — 高防護等級 (IP65/IP67) 掌上型終端機 (PDA) 與工業用平板；(2) 條碼掃描與 [[RFID]] — 全系列條碼掃描器及 RFID 辨識方案；(3) MoboLink 平台 — 自主開發行動設備管理 (MDM) 軟體。產品廣泛應用於零售、醫療、物流配送與製造產業，主要市場為歐美。",
+    "entities": [
+      "聯電",
+      "unitech",
+      "RFID"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (AIDC 核心元件)",
+        "text": "**上游 (AIDC 核心元件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Qualcomm]] — 行動終端 SoC",
+        "entities": [
+          "Qualcomm"
+        ]
+      },
+      {
+        "category": "掃描引擎",
+        "text": "條碼掃描模組供應商",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "工業級觸控面板",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "強固型防水防摔外殼",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (AIDC 產品設計製造)",
+        "text": "**中游 (AIDC 產品設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "行動電腦",
+        "text": "**精聯** (unitech 品牌強固型 PDA/平板)",
+        "entities": []
+      },
+      {
+        "category": "條碼掃描器",
+        "text": "**精聯** (手持/穿戴/口袋型掃描器)",
+        "entities": []
+      },
+      {
+        "category": "RFID 方案",
+        "text": "**精聯** ([[RFID]] 辨識解決方案)",
+        "entities": [
+          "RFID"
+        ]
+      },
+      {
+        "category": "MDM 軟體",
+        "text": "**精聯** (MoboLink 設備管理平台)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (零售物流與醫療)",
+        "text": "**下游 (零售物流與醫療):**",
+        "entities": []
+      },
+      {
+        "category": "零售",
+        "text": "[[Walmart]]、[[IKEA]] — 倉儲與賣場行動終端",
+        "entities": [
+          "Walmart",
+          "IKEA"
+        ]
+      },
+      {
+        "category": "物流",
+        "text": "跨國物流業者與各國郵政系統",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "大型醫療體系 — 藥品管理與病患辨識",
+        "entities": []
+      },
+      {
+        "category": "製造",
+        "text": "半導體大廠與製造業 — 產線追蹤管理",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "零售",
+        "text": "[[Walmart]]、[[IKEA]] — 全球零售龍頭倉儲行動終端",
+        "entities": [
+          "Walmart",
+          "IKEA"
+        ]
+      },
+      {
+        "role": "物流",
+        "text": "國際大型快遞物流公司與各國郵政系統",
+        "entities": []
+      },
+      {
+        "role": "醫療",
+        "text": "大型醫療體系 — 藥品與病患辨識管理",
+        "entities": []
+      },
+      {
+        "role": "半導體",
+        "text": "國內知名半導體大廠 — 產線追蹤",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Qualcomm]] — 行動終端 SoC",
+        "entities": [
+          "Qualcomm"
+        ]
+      },
+      {
+        "role": "掃描模組",
+        "text": "條碼掃描引擎供應商",
+        "entities": []
+      },
+      {
+        "role": "前身",
+        "text": "精技電腦 (2414) — 原分割母公司",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Walmart",
+          "IKEA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "unitech",
+      "type": "international_company_or_term",
+      "wikilink": "unitech"
+    },
+    {
+      "name": "RFID",
+      "type": "international_company_or_term",
+      "wikilink": "RFID"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "IKEA",
+      "type": "international_company_or_term",
+      "wikilink": "IKEA"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "精[[聯電]]子 (3652，[[unitech]]) 為全球領先之自動辨識及資料收集 (AIDC) 解決方案供應商，原屬精技電腦 (2414) 自動資料收集事業部，2008 年獨立。以自有品牌 unitech 行銷全球，擁有逾四十五年產業經驗。\n\n核心產品涵蓋：(1) 強固型行動電腦 — 高防護等級 (IP65/IP67) 掌上型終端機 (PDA) 與工業用平板；(2) 條碼掃描與 [[RFID]] — 全系列條碼掃描器及 RFID 辨識方案；(3) MoboLink 平台 — 自主開發行動設備管理 (MDM) 軟體。產品廣泛應用於零售、醫療、物流配送與製造產業，主要市場為歐美。",
+    "supply_chain_md": "**上游 (AIDC 核心元件):**\n- **處理器:** [[Qualcomm]] — 行動終端 SoC\n- **掃描引擎:** 條碼掃描模組供應商\n- **面板:** 工業級觸控面板\n- **機構件:** 強固型防水防摔外殼\n\n**中游 (AIDC 產品設計製造):**\n- **行動電腦:** **精聯** (unitech 品牌強固型 PDA/平板)\n- **條碼掃描器:** **精聯** (手持/穿戴/口袋型掃描器)\n- **RFID 方案:** **精聯** ([[RFID]] 辨識解決方案)\n- **MDM 軟體:** **精聯** (MoboLink 設備管理平台)\n\n**下游 (零售物流與醫療):**\n- **零售:** [[Walmart]]、[[IKEA]] — 倉儲與賣場行動終端\n- **物流:** 跨國物流業者與各國郵政系統\n- **醫療:** 大型醫療體系 — 藥品管理與病患辨識\n- **製造:** 半導體大廠與製造業 — 產線追蹤管理",
+    "customers_suppliers_md": "### 主要客戶\n- **零售:** [[Walmart]]、[[IKEA]] — 全球零售龍頭倉儲行動終端\n- **物流:** 國際大型快遞物流公司與各國郵政系統\n- **醫療:** 大型醫療體系 — 藥品與病患辨識管理\n- **半導體:** 國內知名半導體大廠 — 產線追蹤\n\n### 主要供應商\n- **處理器:** [[Qualcomm]] — 行動終端 SoC\n- **掃描模組:** 條碼掃描引擎供應商\n- **前身:** 精技電腦 (2414) — 原分割母公司"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

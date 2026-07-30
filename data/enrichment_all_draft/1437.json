@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1437",
+  "company_name": "勤益控",
+  "title": "1437 - 勤益控",
+  "source_md": "Pilot_Reports/Real Estate Services/1437_勤益控.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "market_cap": "6,263 百萬台幣",
+    "enterprise_value": "8,466 百萬台幣"
+  },
+  "business": {
+    "summary": "勤益投資控股股份有限公司 (1437，GTM Holdings) 已轉型為控股公司，旗下三大核心事業群：(1) 電子事業 — 子公司勤益電子 (GTM Electronics) 從事半導體封測通路及電子零組件代理，代理[[Renesas]]、[[Microchip]]等國際半導體品牌；(2) 不動產 — 資產開發與租賃 (如勤益天地商辦大樓、桃園物流中心)，租戶包括[[IKEA]]物流倉儲；(3) 紡織 — 逐步轉型，保留部分貿易業務。",
+    "entities": [
+      "Renesas",
+      "Microchip",
+      "IKEA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子零組件原廠)",
+        "text": "**上游 (電子零組件原廠):**",
+        "entities": []
+      },
+      {
+        "category": "半導體品牌",
+        "text": "[[Renesas]]、[[Microchip]] — 電子零組件代理",
+        "entities": [
+          "Renesas",
+          "Microchip"
+        ]
+      },
+      {
+        "category": "被動元件",
+        "text": "國際被動元件原廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理與資產營運)",
+        "text": "**中游 (通路代理與資產營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**勤益電子** — 半導體封測通路與電子零組件代理",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "勤益天地商辦、桃園物流中心租賃營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電子代工廠",
+        "text": "國內電子製造商 — 半導體零組件採購",
+        "entities": []
+      },
+      {
+        "category": "不動產租戶",
+        "text": "[[IKEA]] — 物流倉儲租賃",
+        "entities": [
+          "IKEA"
+        ]
+      },
+      {
+        "category": "紡織貿易",
+        "text": "國內外紡織品貿易客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子代工",
+        "text": "國內電子製造商 — [[Renesas]]、[[Microchip]]等品牌零組件採購",
+        "entities": [
+          "Renesas",
+          "Microchip"
+        ]
+      },
+      {
+        "role": "不動產租戶",
+        "text": "[[IKEA]] — 桃園物流倉儲租賃",
+        "entities": [
+          "IKEA"
+        ]
+      },
+      {
+        "role": "商辦租戶",
+        "text": "勤益天地商辦大樓租戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "半導體品牌",
+        "text": "[[Renesas]]、[[Microchip]] — 電子零組件原廠",
+        "entities": [
+          "Renesas",
+          "Microchip"
+        ]
+      },
+      {
+        "role": "被動元件",
+        "text": "國際被動元件品牌",
+        "entities": []
+      },
+      {
+        "role": "營建",
+        "text": "建材與營造工程供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate Services):** [[上曜]]、[[怡華]]、[[海悅]]、[[全坤建]]、[[宏璟]]",
+        "entities": [
+          "上曜",
+          "怡華",
+          "海悅",
+          "全坤建",
+          "宏璟"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Renesas",
+          "Microchip",
+          "IKEA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Microchip",
+      "type": "international_company_or_term",
+      "wikilink": "Microchip"
+    },
+    {
+      "name": "IKEA",
+      "type": "international_company_or_term",
+      "wikilink": "IKEA"
+    },
+    {
+      "name": "上曜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上曜"
+    },
+    {
+      "name": "怡華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "怡華"
+    },
+    {
+      "name": "海悅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海悅"
+    },
+    {
+      "name": "全坤建",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全坤建"
+    },
+    {
+      "name": "宏璟",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏璟"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "勤益投資控股股份有限公司 (1437，GTM Holdings) 已轉型為控股公司，旗下三大核心事業群：(1) 電子事業 — 子公司勤益電子 (GTM Electronics) 從事半導體封測通路及電子零組件代理，代理[[Renesas]]、[[Microchip]]等國際半導體品牌；(2) 不動產 — 資產開發與租賃 (如勤益天地商辦大樓、桃園物流中心)，租戶包括[[IKEA]]物流倉儲；(3) 紡織 — 逐步轉型，保留部分貿易業務。",
+    "supply_chain_md": "**上游 (電子零組件原廠):**\n- **半導體品牌:** [[Renesas]]、[[Microchip]] — 電子零組件代理\n- **被動元件:** 國際被動元件原廠\n\n**中游 (通路代理與資產營運):**\n- **勤益電子** — 半導體封測通路與電子零組件代理\n- **不動產:** 勤益天地商辦、桃園物流中心租賃營運\n\n**下游 (終端客戶):**\n- **電子代工廠:** 國內電子製造商 — 半導體零組件採購\n- **不動產租戶:** [[IKEA]] — 物流倉儲租賃\n- **紡織貿易:** 國內外紡織品貿易客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **電子代工:** 國內電子製造商 — [[Renesas]]、[[Microchip]]等品牌零組件採購\n- **不動產租戶:** [[IKEA]] — 桃園物流倉儲租賃\n- **商辦租戶:** 勤益天地商辦大樓租戶\n\n### 主要供應商\n- **半導體品牌:** [[Renesas]]、[[Microchip]] — 電子零組件原廠\n- **被動元件:** 國際被動元件品牌\n- **營建:** 建材與營造工程供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4535",
+  "company_name": "至興",
+  "title": "4535 - 至興",
+  "source_md": "Pilot_Reports/Auto Parts/4535_至興.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,073 百萬台幣",
+    "enterprise_value": "884 百萬台幣"
+  },
+  "business": {
+    "summary": "至興精機 (4535) 隸屬[[全興集團]] (東陽集團)，為台灣最大精密沖壓零組件製造商。產品涵蓋座椅傾斜器、安全帶零件、手煞車零件、氣囊框架及機車碟煞。供應全球汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] (均勝) 之安全帶及氣囊零組件。另以 Tier 1 身分直供座椅傾斜器。上游鋼材採購自[[中鋼]]。營收地理分布：亞洲 48% (含越南/馬來西亞/泰國/韓國/澳洲)、歐洲及美洲。",
+    "entities": [
+      "全興集團",
+      "Autoliv",
+      "ZF",
+      "Joyson Safety Systems",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 鋼捲及鋼板",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**至興** (精密沖壓：座椅傾斜器/安全帶件/氣囊框架/碟煞)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (Tier 1 客戶)",
+        "text": "**下游 (Tier 1 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "安全系統",
+        "text": "[[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊零組件",
+        "entities": [
+          "Autoliv",
+          "ZF",
+          "Joyson Safety Systems"
+        ]
+      },
+      {
+        "category": "座椅",
+        "text": "直供車廠 — 座椅傾斜器 Tier 1",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "安全 Tier 1",
+        "text": "[[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊沖壓件",
+        "entities": [
+          "Autoliv",
+          "ZF",
+          "Joyson Safety Systems"
+        ]
+      },
+      {
+        "role": "座椅",
+        "text": "車廠直供 — 座椅傾斜器",
+        "entities": []
+      },
+      {
+        "role": "母集團",
+        "text": "[[全興集團]] — 集團協同",
+        "entities": [
+          "全興集團"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 鋼捲/鋼板",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Autoliv",
+          "ZF",
+          "Joyson Safety Systems",
+          "全興集團"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "全興集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全興集團"
+    },
+    {
+      "name": "Autoliv",
+      "type": "international_company_or_term",
+      "wikilink": "Autoliv"
+    },
+    {
+      "name": "ZF",
+      "type": "international_company_or_term",
+      "wikilink": "ZF"
+    },
+    {
+      "name": "Joyson Safety Systems",
+      "type": "international_company_or_term",
+      "wikilink": "Joyson Safety Systems"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "至興精機 (4535) 隸屬[[全興集團]] (東陽集團)，為台灣最大精密沖壓零組件製造商。產品涵蓋座椅傾斜器、安全帶零件、手煞車零件、氣囊框架及機車碟煞。供應全球汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] (均勝) 之安全帶及氣囊零組件。另以 Tier 1 身分直供座椅傾斜器。上游鋼材採購自[[中鋼]]。營收地理分布：亞洲 48% (含越南/馬來西亞/泰國/韓國/澳洲)、歐洲及美洲。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼材:** [[中鋼]] — 鋼捲及鋼板\n\n**中游 (製造):**\n- **至興** (精密沖壓：座椅傾斜器/安全帶件/氣囊框架/碟煞)\n\n**下游 (Tier 1 客戶):**\n- **安全系統:** [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊零組件\n- **座椅:** 直供車廠 — 座椅傾斜器 Tier 1",
+    "customers_suppliers_md": "### 主要客戶\n- **安全 Tier 1:** [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊沖壓件\n- **座椅:** 車廠直供 — 座椅傾斜器\n- **母集團:** [[全興集團]] — 集團協同\n\n### 主要供應商\n- **鋼材:** [[中鋼]] — 鋼捲/鋼板"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

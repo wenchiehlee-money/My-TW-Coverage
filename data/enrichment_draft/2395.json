@@ -159,7 +159,21 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **industrial PC/edge computing customer overlap:** [[Axiomtek]]、[[DFI]]、[[ADLINK]]、[[Kontron]]",
+        "entities": [
+          "Axiomtek",
+          "DFI",
+          "ADLINK",
+          "Kontron"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "IPC"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -214,6 +228,26 @@
       "name": "MLCC",
       "type": "technology",
       "wikilink": "MLCC"
+    },
+    {
+      "name": "Axiomtek",
+      "type": "international_company_or_term",
+      "wikilink": "Axiomtek"
+    },
+    {
+      "name": "DFI",
+      "type": "international_company_or_term",
+      "wikilink": "DFI"
+    },
+    {
+      "name": "ADLINK",
+      "type": "international_company_or_term",
+      "wikilink": "ADLINK"
+    },
+    {
+      "name": "Kontron",
+      "type": "international_company_or_term",
+      "wikilink": "Kontron"
     }
   ],
   "source_text": {
@@ -225,6 +259,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 9,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

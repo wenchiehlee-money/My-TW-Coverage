@@ -1,0 +1,277 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3708",
+  "company_name": "上緯投控",
+  "title": "3708 - 上緯投控",
+  "source_md": "Pilot_Reports/Specialty Chemicals/3708_上緯投控.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "7,892 百萬台幣",
+    "enterprise_value": "3,793 百萬台幣"
+  },
+  "business": {
+    "summary": "上緯投控 (3708，SWANCOR Holding) 為亞洲領先之特用樹脂製造商，核心產品為[[乙烯基酯樹脂]]及[[環氧樹脂]]，廣泛應用於防蝕工程及風力發電葉片。風電葉片用樹脂供應國際風機大廠之葉片製造商，包括[[Vestas]]、[[Siemens Gamesa]]、[[金風科技]]、[[GE]]。另跨足[[碳纖維]]複合材料 (拉擠碳板、預浸布)，碳纖維原絲來源含[[東麗]] (Toray)、[[帝人]] (Teijin)。公司曾為台灣離岸風電先驅，參與開發[[Formosa 1]]海洋風場 (128MW，台灣首座離岸風場，與[[Ørsted]]及[[麥格理]]合作)，惟已出售上緯新能源 95% 股權予[[Stonepeak]]。",
+    "entities": [
+      "乙烯基酯樹脂",
+      "環氧樹脂",
+      "Vestas",
+      "Siemens Gamesa",
+      "金風科技",
+      "GE",
+      "碳纖維",
+      "東麗",
+      "帝人",
+      "Formosa 1",
+      "Ørsted",
+      "麥格理",
+      "Stonepeak"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "石化",
+        "text": "環氧樹脂基礎原料、苯乙烯",
+        "entities": []
+      },
+      {
+        "category": "碳纖維",
+        "text": "[[東麗]] (Toray)、[[帝人]] (Teijin) — 碳纖維原絲",
+        "entities": [
+          "東麗",
+          "帝人"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**上緯** ([[乙烯基酯樹脂]]/[[環氧樹脂]]/[[碳纖維]]複合材料)",
+        "entities": [
+          "乙烯基酯樹脂",
+          "環氧樹脂",
+          "碳纖維"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "風電葉片",
+        "text": "[[Vestas]]、[[Siemens Gamesa]]、[[金風科技]]、[[GE]] — 葉片用樹脂",
+        "entities": [
+          "Vestas",
+          "Siemens Gamesa",
+          "金風科技",
+          "GE"
+        ]
+      },
+      {
+        "category": "防蝕工程",
+        "text": "電廠脫硫/化工廠/煉油廠 — 防蝕樹脂",
+        "entities": []
+      },
+      {
+        "category": "離岸風電",
+        "text": "[[Formosa 1]] (台灣首座離岸風場)",
+        "entities": [
+          "Formosa 1"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "風電",
+        "text": "[[Vestas]]、[[Siemens Gamesa]]、[[金風科技]]、[[GE]] — 風電葉片用樹脂",
+        "entities": [
+          "Vestas",
+          "Siemens Gamesa",
+          "金風科技",
+          "GE"
+        ]
+      },
+      {
+        "role": "防蝕",
+        "text": "電廠/化工廠/煉油廠 — 防蝕工程樹脂",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "碳纖維",
+        "text": "[[東麗]]、[[帝人]] — 碳纖維原絲",
+        "entities": [
+          "東麗",
+          "帝人"
+        ]
+      },
+      {
+        "role": "石化",
+        "text": "環氧樹脂/苯乙烯原料",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Vestas",
+          "Siemens Gamesa",
+          "金風科技",
+          "GE"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": [
+      {
+        "role": "",
+        "text": "[[Formosa 1]] — 台灣首座離岸風場 (與[[Ørsted]]、[[麥格理]]合作；已出售予[[Stonepeak]])",
+        "entities": [
+          "Formosa 1",
+          "Ørsted",
+          "麥格理",
+          "Stonepeak"
+        ]
+      }
+    ]
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "乙烯基酯樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "乙烯基酯樹脂"
+    },
+    {
+      "name": "環氧樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環氧樹脂"
+    },
+    {
+      "name": "Vestas",
+      "type": "international_company_or_term",
+      "wikilink": "Vestas"
+    },
+    {
+      "name": "Siemens Gamesa",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens Gamesa"
+    },
+    {
+      "name": "金風科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金風科技"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "東麗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東麗"
+    },
+    {
+      "name": "帝人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "帝人"
+    },
+    {
+      "name": "Formosa 1",
+      "type": "international_company_or_term",
+      "wikilink": "Formosa 1"
+    },
+    {
+      "name": "Ørsted",
+      "type": "international_company_or_term",
+      "wikilink": "Ørsted"
+    },
+    {
+      "name": "麥格理",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麥格理"
+    },
+    {
+      "name": "Stonepeak",
+      "type": "international_company_or_term",
+      "wikilink": "Stonepeak"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "上緯投控 (3708，SWANCOR Holding) 為亞洲領先之特用樹脂製造商，核心產品為[[乙烯基酯樹脂]]及[[環氧樹脂]]，廣泛應用於防蝕工程及風力發電葉片。風電葉片用樹脂供應國際風機大廠之葉片製造商，包括[[Vestas]]、[[Siemens Gamesa]]、[[金風科技]]、[[GE]]。另跨足[[碳纖維]]複合材料 (拉擠碳板、預浸布)，碳纖維原絲來源含[[東麗]] (Toray)、[[帝人]] (Teijin)。公司曾為台灣離岸風電先驅，參與開發[[Formosa 1]]海洋風場 (128MW，台灣首座離岸風場，與[[Ørsted]]及[[麥格理]]合作)，惟已出售上緯新能源 95% 股權予[[Stonepeak]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **石化:** 環氧樹脂基礎原料、苯乙烯\n- **碳纖維:** [[東麗]] (Toray)、[[帝人]] (Teijin) — 碳纖維原絲\n\n**中游 (製造):**\n- **上緯** ([[乙烯基酯樹脂]]/[[環氧樹脂]]/[[碳纖維]]複合材料)\n\n**下游 (終端):**\n- **風電葉片:** [[Vestas]]、[[Siemens Gamesa]]、[[金風科技]]、[[GE]] — 葉片用樹脂\n- **防蝕工程:** 電廠脫硫/化工廠/煉油廠 — 防蝕樹脂\n- **離岸風電:** [[Formosa 1]] (台灣首座離岸風場)",
+    "customers_suppliers_md": "### 主要客戶\n- **風電:** [[Vestas]]、[[Siemens Gamesa]]、[[金風科技]]、[[GE]] — 風電葉片用樹脂\n- **防蝕:** 電廠/化工廠/煉油廠 — 防蝕工程樹脂\n\n### 主要供應商\n- **碳纖維:** [[東麗]]、[[帝人]] — 碳纖維原絲\n- **石化:** 環氧樹脂/苯乙烯原料\n\n### 歷史里程碑\n- [[Formosa 1]] — 台灣首座離岸風場 (與[[Ørsted]]、[[麥格理]]合作；已出售予[[Stonepeak]])"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

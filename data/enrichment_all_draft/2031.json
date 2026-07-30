@@ -1,0 +1,181 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2031",
+  "company_name": "新光鋼",
+  "title": "2031 - 新光鋼",
+  "source_md": "Pilot_Reports/Steel/2031_新光鋼.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "12,685 百萬台幣",
+    "enterprise_value": "22,841 百萬台幣"
+  },
+  "business": {
+    "summary": "新光鋼鐵 (2031) 為台灣主要鋼材配銷商及裁剪加工中心。約33%鋼材採購自[[中鋼]]。另佈局[[離岸風電]]鋼構及鋼材貿易。下游供應營建/機械/造船等產業。",
+    "entities": [
+      "中鋼",
+      "離岸風電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼捲/鋼板",
+        "text": "向[[中鋼]] (CSC) (約佔 33%) 及國外鋼廠 (如俄羅斯、巴西、日本、烏克蘭等，約佔 66%) 採購熱軋、鍍鋅及不鏽鋼捲。",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "公共工程",
+        "text": "橋樑、捷運、大型場館 (淡江大橋)。",
+        "entities": []
+      },
+      {
+        "category": "綠能",
+        "text": "離岸風電水下基礎 (與[[世紀鋼]]合作)、太陽能光電支架。",
+        "entities": [
+          "世紀鋼"
+        ]
+      },
+      {
+        "category": "建築/工業",
+        "text": "鋼結構建築、機械設備、汽機車零件。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "營造廠",
+        "text": "國內各大[[營造]]及鋼構廠。",
+        "entities": [
+          "營造"
+        ]
+      },
+      {
+        "role": "綠能開發商",
+        "text": "[[世紀鋼]] (Century Iron)、太陽能電廠開發商。",
+        "entities": [
+          "世紀鋼"
+        ]
+      },
+      {
+        "role": "製造業",
+        "text": "機械、汽機車零組件廠。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[中鋼]] (2002)、[[中龍鋼鐵]]、進口鋼廠。",
+        "entities": [
+          "中鋼",
+          "中龍鋼鐵"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "營造",
+          "世紀鋼"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "離岸風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "離岸風電"
+    },
+    {
+      "name": "世紀鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀鋼"
+    },
+    {
+      "name": "營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "營造"
+    },
+    {
+      "name": "中龍鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中龍鋼鐵"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新光鋼鐵 (2031) 為台灣主要鋼材配銷商及裁剪加工中心。約33%鋼材採購自[[中鋼]]。另佈局[[離岸風電]]鋼構及鋼材貿易。下游供應營建/機械/造船等產業。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼捲/鋼板:** 向[[中鋼]] (CSC) (約佔 33%) 及國外鋼廠 (如俄羅斯、巴西、日本、烏克蘭等，約佔 66%) 採購熱軋、鍍鋅及不鏽鋼捲。\n\n**下游應用:**\n- **公共工程:** 橋樑、捷運、大型場館 (淡江大橋)。\n- **綠能:** 離岸風電水下基礎 (與[[世紀鋼]]合作)、太陽能光電支架。\n- **建築/工業:** 鋼結構建築、機械設備、汽機車零件。",
+    "customers_suppliers_md": "### 主要客戶\n- **營造廠:** 國內各大[[營造]]及鋼構廠。\n- **綠能開發商:** [[世紀鋼]] (Century Iron)、太陽能電廠開發商。\n- **製造業:** 機械、汽機車零組件廠。\n\n### 主要供應商\n- **原料:** [[中鋼]] (2002)、[[中龍鋼鐵]]、進口鋼廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

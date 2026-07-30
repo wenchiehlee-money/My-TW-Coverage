@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2231",
+  "company_name": "為升",
+  "title": "2231 - 為升",
+  "source_md": "Pilot_Reports/Auto Parts/2231_為升.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "12,071 百萬台幣",
+    "enterprise_value": "16,980 百萬台幣"
+  },
+  "business": {
+    "summary": "為升電裝 (2231，CUB Elecparts) 為台灣汽車電子龍頭，核心產品為 TPMS 胎壓偵測系統 (AM 市佔約 90%) 及 77GHz 毫米波雷達。TPMS AM 最大客戶為[[Standard Motor Products]] (SMP，北美最大 AM 經銷商)。毫米波雷達已開發 CPD 座艙偵測、BSD 盲點偵測及前方碰撞雷達，與[[NXP]] (恩智浦) 於 CES 2022 聯合展示 4D 成像雷達。加入[[鴻海]] [[MIH]] 電動車聯盟，供應毫米波雷達予 MIH 平台電動車及電動巴士。上游感測器 IC 採購自[[NXP]]及[[Texas Instruments]]。另跨足智慧交通 ([[台鐵]]平交道偵測) 及國防 (雷盾無人機反制系統)。",
+    "entities": [
+      "Standard Motor Products",
+      "NXP",
+      "鴻海",
+      "MIH",
+      "Texas Instruments",
+      "台鐵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (IC 與零組件)",
+        "text": "**上游 (IC 與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "雷達 IC",
+        "text": "[[NXP]] (恩智浦)、[[Texas Instruments]] — 毫米波雷達/感測器晶片",
+        "entities": [
+          "NXP",
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (研發製造)",
+        "text": "**中游 (研發製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**為升** (TPMS 胎壓偵測、77GHz 毫米波雷達、智慧交通/國防雷達)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "AM 經銷",
+        "text": "[[Standard Motor Products]] (SMP)、Wells — 北美 TPMS AM",
+        "entities": [
+          "Standard Motor Products"
+        ]
+      },
+      {
+        "category": "OEM 雷達",
+        "text": "北美電動車廠 — CPD 座艙偵測雷達",
+        "entities": []
+      },
+      {
+        "category": "EV 平台",
+        "text": "[[鴻海]] [[MIH]] — 毫米波雷達供應",
+        "entities": [
+          "鴻海",
+          "MIH"
+        ]
+      },
+      {
+        "category": "智慧交通",
+        "text": "[[台鐵]] — 平交道偵測系統",
+        "entities": [
+          "台鐵"
+        ]
+      },
+      {
+        "category": "國防",
+        "text": "雷盾無人機反制系統",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AM 經銷",
+        "text": "[[Standard Motor Products]] (SMP)、Wells — 北美 TPMS (AM 市佔 90%)",
+        "entities": [
+          "Standard Motor Products"
+        ]
+      },
+      {
+        "role": "OEM 雷達",
+        "text": "北美電動車廠 — CPD 座艙偵測",
+        "entities": []
+      },
+      {
+        "role": "EV 平台",
+        "text": "[[鴻海]] [[MIH]] — 毫米波雷達",
+        "entities": [
+          "鴻海",
+          "MIH"
+        ]
+      },
+      {
+        "role": "智慧交通",
+        "text": "[[台鐵]] — 平交道偵測",
+        "entities": [
+          "台鐵"
+        ]
+      },
+      {
+        "role": "國防",
+        "text": "雷盾無人機反制系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雷達 IC",
+        "text": "[[NXP]]、[[Texas Instruments]] — 感測器晶片",
+        "entities": [
+          "NXP",
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Standard Motor Products",
+          "鴻海",
+          "MIH",
+          "台鐵"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Standard Motor Products",
+      "type": "international_company_or_term",
+      "wikilink": "Standard Motor Products"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "MIH",
+      "type": "international_company_or_term",
+      "wikilink": "MIH"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "台鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鐵"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "為升電裝 (2231，CUB Elecparts) 為台灣汽車電子龍頭，核心產品為 TPMS 胎壓偵測系統 (AM 市佔約 90%) 及 77GHz 毫米波雷達。TPMS AM 最大客戶為[[Standard Motor Products]] (SMP，北美最大 AM 經銷商)。毫米波雷達已開發 CPD 座艙偵測、BSD 盲點偵測及前方碰撞雷達，與[[NXP]] (恩智浦) 於 CES 2022 聯合展示 4D 成像雷達。加入[[鴻海]] [[MIH]] 電動車聯盟，供應毫米波雷達予 MIH 平台電動車及電動巴士。上游感測器 IC 採購自[[NXP]]及[[Texas Instruments]]。另跨足智慧交通 ([[台鐵]]平交道偵測) 及國防 (雷盾無人機反制系統)。",
+    "supply_chain_md": "**上游 (IC 與零組件):**\n- **雷達 IC:** [[NXP]] (恩智浦)、[[Texas Instruments]] — 毫米波雷達/感測器晶片\n\n**中游 (研發製造):**\n- **為升** (TPMS 胎壓偵測、77GHz 毫米波雷達、智慧交通/國防雷達)\n\n**下游 (終端):**\n- **AM 經銷:** [[Standard Motor Products]] (SMP)、Wells — 北美 TPMS AM\n- **OEM 雷達:** 北美電動車廠 — CPD 座艙偵測雷達\n- **EV 平台:** [[鴻海]] [[MIH]] — 毫米波雷達供應\n- **智慧交通:** [[台鐵]] — 平交道偵測系統\n- **國防:** 雷盾無人機反制系統",
+    "customers_suppliers_md": "### 主要客戶\n- **AM 經銷:** [[Standard Motor Products]] (SMP)、Wells — 北美 TPMS (AM 市佔 90%)\n- **OEM 雷達:** 北美電動車廠 — CPD 座艙偵測\n- **EV 平台:** [[鴻海]] [[MIH]] — 毫米波雷達\n- **智慧交通:** [[台鐵]] — 平交道偵測\n- **國防:** 雷盾無人機反制系統\n\n### 主要供應商\n- **雷達 IC:** [[NXP]]、[[Texas Instruments]] — 感測器晶片"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

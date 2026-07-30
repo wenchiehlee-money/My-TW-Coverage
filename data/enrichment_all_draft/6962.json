@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6962",
+  "company_name": "奕力-KY",
+  "title": "6962 - 奕力-KY",
+  "source_md": "Pilot_Reports/Electronic Components/6962_奕力-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "14,846 百萬台幣",
+    "enterprise_value": "11,114 百萬台幣"
+  },
+  "business": {
+    "summary": "奕力-KY (6962，[[ITH Corporation]]) 由原奕力科技與 [[聯詠]] 子公司觸控 IC 部門整合而成，為面板驅動 IC 與觸控 IC 設計公司，全球 TDDI (觸控與顯示驅動整合) 市佔率排名第二。\n\n業務結構與動能：(1) 顯示驅動 IC — 面板驅動 IC，應用於智慧型手機、平板與工控顯示器；(2) 觸控 IC — 觸控控制晶片，整合觸控與顯示驅動技術 (TDDI)；(3) 時序控制器 (TCON) — 面板時序控制 IC。公司掌握柔性螢幕顯示/整合驅動 IC 與車用 TDDI (通過 ISO 26262 ASIL B 認證) 等前瞻技術，已打入 [[Wacom]] Level 1 主動筆認證。總部位於新竹。",
+    "entities": [
+      "ITH Corporation",
+      "聯詠",
+      "Wacom"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "大型 OSAT 封測廠 — COF/COG 封裝",
+        "entities": []
+      },
+      {
+        "category": "IP/EDA",
+        "text": "矽智財與 EDA 工具",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "顯示驅動 IC",
+        "text": "**奕力** (面板驅動 IC 設計)",
+        "entities": []
+      },
+      {
+        "category": "觸控 IC",
+        "text": "**奕力** (觸控控制與 TDDI 晶片)",
+        "entities": []
+      },
+      {
+        "category": "TCON",
+        "text": "**奕力** (時序控制器 IC)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板廠與品牌)",
+        "text": "**下游 (面板廠與品牌):**",
+        "entities": []
+      },
+      {
+        "category": "面板廠",
+        "text": "全球面板廠 — 顯示驅動與觸控 IC",
+        "entities": []
+      },
+      {
+        "category": "手機品牌",
+        "text": "智慧型手機品牌 — TDDI 晶片",
+        "entities": []
+      },
+      {
+        "category": "平板",
+        "text": "平板電腦品牌 — [[Wacom]] 主動筆觸控 IC",
+        "entities": [
+          "Wacom"
+        ]
+      },
+      {
+        "category": "車用顯示",
+        "text": "車用面板廠 — 車規 TDDI IC",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板廠",
+        "text": "全球面板廠 — 顯示驅動與觸控 TDDI IC",
+        "entities": []
+      },
+      {
+        "role": "手機品牌",
+        "text": "智慧型手機品牌 — 柔性螢幕驅動 IC",
+        "entities": []
+      },
+      {
+        "role": "平板",
+        "text": "平板電腦品牌 — [[Wacom]] Level 1 主動筆觸控 IC",
+        "entities": [
+          "Wacom"
+        ]
+      },
+      {
+        "role": "車用顯示",
+        "text": "車用面板廠 — ISO 26262 ASIL B 車規 TDDI",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "大型 OSAT 封測廠 — COF/COG 封裝",
+        "entities": []
+      },
+      {
+        "role": "關聯企業",
+        "text": "[[聯詠]] — 技術淵源與合作",
+        "entities": [
+          "聯詠"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Wacom"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ITH Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "ITH Corporation"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "Wacom",
+      "type": "international_company_or_term",
+      "wikilink": "Wacom"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "奕力-KY (6962，[[ITH Corporation]]) 由原奕力科技與 [[聯詠]] 子公司觸控 IC 部門整合而成，為面板驅動 IC 與觸控 IC 設計公司，全球 TDDI (觸控與顯示驅動整合) 市佔率排名第二。\n\n業務結構與動能：(1) 顯示驅動 IC — 面板驅動 IC，應用於智慧型手機、平板與工控顯示器；(2) 觸控 IC — 觸控控制晶片，整合觸控與顯示驅動技術 (TDDI)；(3) 時序控制器 (TCON) — 面板時序控制 IC。公司掌握柔性螢幕顯示/整合驅動 IC 與車用 TDDI (通過 ISO 26262 ASIL B 認證) 等前瞻技術，已打入 [[Wacom]] Level 1 主動筆認證。總部位於新竹。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **晶圓代工:** [[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造\n- **封測:** 大型 OSAT 封測廠 — COF/COG 封裝\n- **IP/EDA:** 矽智財與 EDA 工具\n\n**中游 (IC 設計):**\n- **顯示驅動 IC:** **奕力** (面板驅動 IC 設計)\n- **觸控 IC:** **奕力** (觸控控制與 TDDI 晶片)\n- **TCON:** **奕力** (時序控制器 IC)\n\n**下游 (面板廠與品牌):**\n- **面板廠:** 全球面板廠 — 顯示驅動與觸控 IC\n- **手機品牌:** 智慧型手機品牌 — TDDI 晶片\n- **平板:** 平板電腦品牌 — [[Wacom]] 主動筆觸控 IC\n- **車用顯示:** 車用面板廠 — 車規 TDDI IC",
+    "customers_suppliers_md": "### 主要客戶\n- **面板廠:** 全球面板廠 — 顯示驅動與觸控 TDDI IC\n- **手機品牌:** 智慧型手機品牌 — 柔性螢幕驅動 IC\n- **平板:** 平板電腦品牌 — [[Wacom]] Level 1 主動筆觸控 IC\n- **車用顯示:** 車用面板廠 — ISO 26262 ASIL B 車規 TDDI\n\n### 主要供應商\n- **晶圓代工:** [[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造\n- **封測:** 大型 OSAT 封測廠 — COF/COG 封裝\n- **關聯企業:** [[聯詠]] — 技術淵源與合作"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

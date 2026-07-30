@@ -170,7 +170,23 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **hyperscale AI server customer overlap:** [[廣達]]、[[鴻海]]、[[英業達]]、[[緯創]]",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "英業達",
+          "緯創"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "Meta",
+          "Microsoft",
+          "Amazon"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -280,6 +296,21 @@
       "name": "Amazon",
       "type": "international_company_or_term",
       "wikilink": "Amazon"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
     }
   ],
   "source_text": {
@@ -291,6 +322,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 20,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

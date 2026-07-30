@@ -1,0 +1,239 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1616",
+  "company_name": "億泰",
+  "title": "1616 - 億泰",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/1616_億泰.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "3,449 百萬台幣",
+    "enterprise_value": "3,842 百萬台幣"
+  },
+  "business": {
+    "summary": "億泰電線電纜 (1616，Evertop Wire Cable) 主要生產 25kV 以下中低壓電力電纜、通信電纜、光纖光纜及特殊線纜 (耐熱耐燃/低煙無毒/[[5G]]線/[[電動車]]充電線/水下[[ROV]]電纜)。[[台電]]訂單貢獻約五成營收。2024 年營收突破 51 億元創歷史新高。受惠[[台電]]強韌電網 (4,000 億待執行)。軌道客戶含[[台鐵]]、[[高鐵]]。另開發[[太陽能]]及離岸風機線材。",
+    "entities": [
+      "5G",
+      "電動車",
+      "ROV",
+      "台電",
+      "台鐵",
+      "高鐵",
+      "太陽能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材/光纖",
+        "text": "國內外供應商",
+        "entities": []
+      },
+      {
+        "category": "塑膠",
+        "text": "[[PVC]]/PE/[[XLPE]]",
+        "entities": [
+          "PVC",
+          "XLPE"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**億泰** (中低壓電纜/通信光纜/[[5G]]線/[[電動車]]充電線/[[ROV]]水下電纜)",
+        "entities": [
+          "5G",
+          "電動車",
+          "ROV"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電力 (佔 50%)",
+        "text": "[[台電]] — 25kV 以下配電",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "軌道",
+        "text": "[[台鐵]]、[[高鐵]] — 號誌/通信電纜",
+        "entities": [
+          "台鐵",
+          "高鐵"
+        ]
+      },
+      {
+        "category": "綠能",
+        "text": "[[太陽能]]/離岸風電",
+        "entities": [
+          "太陽能"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力",
+        "text": "[[台電]] (佔 50%) — 中低壓",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "軌道",
+        "text": "[[台鐵]]、[[高鐵]]",
+        "entities": [
+          "台鐵",
+          "高鐵"
+        ]
+      },
+      {
+        "role": "綠能",
+        "text": "[[太陽能]]/離岸風電",
+        "entities": [
+          "太陽能"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材/光纖",
+        "text": "國內外供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "台鐵",
+          "高鐵",
+          "太陽能"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "ROV",
+      "type": "international_company_or_term",
+      "wikilink": "ROV"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鐵"
+    },
+    {
+      "name": "高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高鐵"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "PVC",
+      "type": "international_company_or_term",
+      "wikilink": "PVC"
+    },
+    {
+      "name": "XLPE",
+      "type": "international_company_or_term",
+      "wikilink": "XLPE"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "億泰電線電纜 (1616，Evertop Wire Cable) 主要生產 25kV 以下中低壓電力電纜、通信電纜、光纖光纜及特殊線纜 (耐熱耐燃/低煙無毒/[[5G]]線/[[電動車]]充電線/水下[[ROV]]電纜)。[[台電]]訂單貢獻約五成營收。2024 年營收突破 51 億元創歷史新高。受惠[[台電]]強韌電網 (4,000 億待執行)。軌道客戶含[[台鐵]]、[[高鐵]]。另開發[[太陽能]]及離岸風機線材。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅材/光纖:** 國內外供應商\n- **塑膠:** [[PVC]]/PE/[[XLPE]]\n\n**中游 (製造):**\n- **億泰** (中低壓電纜/通信光纜/[[5G]]線/[[電動車]]充電線/[[ROV]]水下電纜)\n\n**下游 (終端):**\n- **電力 (佔 50%):** [[台電]] — 25kV 以下配電\n- **軌道:** [[台鐵]]、[[高鐵]] — 號誌/通信電纜\n- **綠能:** [[太陽能]]/離岸風電",
+    "customers_suppliers_md": "### 主要客戶\n- **電力:** [[台電]] (佔 50%) — 中低壓\n- **軌道:** [[台鐵]]、[[高鐵]]\n- **綠能:** [[太陽能]]/離岸風電\n\n### 主要供應商\n- **銅材/光纖:** 國內外供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8298",
+  "company_name": "威睿",
+  "title": "8298 - 威睿",
+  "source_md": "Pilot_Reports/Software - Infrastructure/8298_威睿.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "1,134 百萬台幣",
+    "enterprise_value": "841 百萬台幣"
+  },
+  "business": {
+    "summary": "威睿科技股份有限公司 (8298，Genie Networks) 成立於 1990 年，為台灣網路流量分析與 [[DDoS]] 防護之專業軟體廠商，產品銷售遍及全球逾 40 國。核心產品 GenieATM 為企業級網路流量分析管理系統，結合大數據分析能力優化 IP 網路效能並即時偵測網路攻擊。產品線涵蓋 GenieATM (流量分析)、GenieATM FLB (負載平衡)、GenieAnalytics (深度流量追蹤) 及 [[AI]] 驅動之網路安全解決方案。主要客戶為全球知名電信營運商 ([[ISP]])、政府機構、學術機構及大型企業。公司以高毛利 (逾 90%) 之純軟體授權模式營運。",
+    "entities": [
+      "DDoS",
+      "AI",
+      "ISP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與平台)",
+        "text": "**上游 (技術與平台):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器硬體",
+        "text": "標準化伺服器供應商 — GenieATM 搭載平台",
+        "entities": []
+      },
+      {
+        "category": "雲端運算",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 雲端版本部署",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "category": "AI 技術",
+        "text": "[[AI]] 機器學習模型 — 網路異常偵測",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (網路流量分析軟體)",
+        "text": "**中游 (網路流量分析軟體):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**威睿科技** (GenieATM 網路流量分析、[[DDoS]] 防護、GenieAnalytics 深度追蹤)",
+        "entities": [
+          "DDoS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電信營運商",
+        "text": "全球各大 [[ISP]] — 網路流量管理與 DDoS 防護",
+        "entities": [
+          "ISP"
+        ]
+      },
+      {
+        "category": "政府機構",
+        "text": "各國政府 — 網路安全監控",
+        "entities": []
+      },
+      {
+        "category": "學術機構",
+        "text": "大學與研究機構 — 學術網路管理",
+        "entities": []
+      },
+      {
+        "category": "大型企業",
+        "text": "跨國企業 — 網路效能優化",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信營運商",
+        "text": "全球各大 [[ISP]] 與電信商 — 流量管理與 [[DDoS]] 防護",
+        "entities": [
+          "ISP",
+          "DDoS"
+        ]
+      },
+      {
+        "role": "政府機構",
+        "text": "各國政府單位 — 網路安全監控",
+        "entities": []
+      },
+      {
+        "role": "學術機構",
+        "text": "大學與研究網路 — 學術網路流量分析",
+        "entities": []
+      },
+      {
+        "role": "大型企業",
+        "text": "跨國企業集團 — 網路效能優化",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "伺服器",
+        "text": "標準化伺服器硬體供應商",
+        "entities": []
+      },
+      {
+        "role": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 雲端部署",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "[[AI]] 技術",
+        "text": "機器學習演算法與威脅情資",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Infrastructure):** [[博士旺]]、[[凌網]]、[[悠遊卡]]、[[神盾]]、[[物聯]]",
+        "entities": [
+          "博士旺",
+          "凌網",
+          "悠遊卡",
+          "神盾",
+          "物聯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ISP",
+          "DDoS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "DDoS",
+      "type": "international_company_or_term",
+      "wikilink": "DDoS"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "ISP",
+      "type": "international_company_or_term",
+      "wikilink": "ISP"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "博士旺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "博士旺"
+    },
+    {
+      "name": "凌網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌網"
+    },
+    {
+      "name": "悠遊卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "悠遊卡"
+    },
+    {
+      "name": "神盾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神盾"
+    },
+    {
+      "name": "物聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "威睿科技股份有限公司 (8298，Genie Networks) 成立於 1990 年，為台灣網路流量分析與 [[DDoS]] 防護之專業軟體廠商，產品銷售遍及全球逾 40 國。核心產品 GenieATM 為企業級網路流量分析管理系統，結合大數據分析能力優化 IP 網路效能並即時偵測網路攻擊。產品線涵蓋 GenieATM (流量分析)、GenieATM FLB (負載平衡)、GenieAnalytics (深度流量追蹤) 及 [[AI]] 驅動之網路安全解決方案。主要客戶為全球知名電信營運商 ([[ISP]])、政府機構、學術機構及大型企業。公司以高毛利 (逾 90%) 之純軟體授權模式營運。",
+    "supply_chain_md": "**上游 (技術與平台):**\n- **伺服器硬體:** 標準化伺服器供應商 — GenieATM 搭載平台\n- **雲端運算:** [[AWS]]、[[Microsoft Azure]] — 雲端版本部署\n- **AI 技術:** [[AI]] 機器學習模型 — 網路異常偵測\n\n**中游 (網路流量分析軟體):**\n- **威睿科技** (GenieATM 網路流量分析、[[DDoS]] 防護、GenieAnalytics 深度追蹤)\n\n**下游 (終端客戶):**\n- **電信營運商:** 全球各大 [[ISP]] — 網路流量管理與 DDoS 防護\n- **政府機構:** 各國政府 — 網路安全監控\n- **學術機構:** 大學與研究機構 — 學術網路管理\n- **大型企業:** 跨國企業 — 網路效能優化",
+    "customers_suppliers_md": "### 主要客戶\n- **電信營運商:** 全球各大 [[ISP]] 與電信商 — 流量管理與 [[DDoS]] 防護\n- **政府機構:** 各國政府單位 — 網路安全監控\n- **學術機構:** 大學與研究網路 — 學術網路流量分析\n- **大型企業:** 跨國企業集團 — 網路效能優化\n\n### 主要供應商\n- **伺服器:** 標準化伺服器硬體供應商\n- **雲端平台:** [[AWS]]、[[Microsoft Azure]] — 雲端部署\n- **[[AI]] 技術:** 機器學習演算法與威脅情資"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

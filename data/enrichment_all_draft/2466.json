@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2466",
+  "company_name": "冠西電",
+  "title": "2466 - 冠西電",
+  "source_md": "Pilot_Reports/Electronic Components/2466_冠西電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "15,577 百萬台幣",
+    "enterprise_value": "17,027 百萬台幣"
+  },
+  "business": {
+    "summary": "冠西電子企業股份有限公司 (Cosmo Electronics Corp.) 成立於 1981 年，總部位於台灣[[台北]]。公司為全球領先的光耦合器 (Photo Coupler) 及繼電器 (Relay) 製造商，產品包括光耦合器、光繼電器 ([[MOSFET]] Output)、磁簧繼電器 (Reed Relay) 及固態繼電器 (SSR)。冠西電在全球光耦合器市場佔有重要地位，產品應用於電源、家電、工控及車用市場。",
+    "entities": [
+      "台北",
+      "MOSFET"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "LED 晶片 (LED Chip), 光接收器 (Photo Detector), [[導線架]] (Lead Frame), 封裝膠 (Molding Compound).",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "冠西電位於電子零組件產業鏈中游封裝製造端。",
+        "entities": []
+      },
+      {
+        "category": "中游 (製造)",
+        "text": "IC 封裝、測試、組件組裝。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (應用)",
+        "text": "*   **下游 (應用):**",
+        "entities": []
+      },
+      {
+        "category": "電源供應器",
+        "text": "[[台達電]], [[光寶]] (光寶).",
+        "entities": [
+          "台達電",
+          "光寶"
+        ]
+      },
+      {
+        "category": "家電",
+        "text": "國際家電大廠 (白色家電控制板).",
+        "entities": []
+      },
+      {
+        "category": "工控/車用",
+        "text": "工業[[自動化]]設備、[[電動車]]充電樁 ([[電動車]]).",
+        "entities": [
+          "自動化",
+          "電動車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源廠",
+        "text": "[[台達電]], [[光寶]], [[Chicony]] (群光).",
+        "entities": [
+          "台達電",
+          "光寶",
+          "Chicony"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "電表廠 (Smart Meter), 安防設備廠。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶片",
+        "text": "國內外 LED 及 IC 晶片供應商。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台達電",
+          "光寶",
+          "Chicony"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "Chicony",
+      "type": "international_company_or_term",
+      "wikilink": "Chicony"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "冠西電子企業股份有限公司 (Cosmo Electronics Corp.) 成立於 1981 年，總部位於台灣[[台北]]。公司為全球領先的光耦合器 (Photo Coupler) 及繼電器 (Relay) 製造商，產品包括光耦合器、光繼電器 ([[MOSFET]] Output)、磁簧繼電器 (Reed Relay) 及固態繼電器 (SSR)。冠西電在全球光耦合器市場佔有重要地位，產品應用於電源、家電、工控及車用市場。",
+    "supply_chain_md": "冠西電位於電子零組件產業鏈中游封裝製造端。\n*   **上游 (材料):** LED 晶片 (LED Chip), 光接收器 (Photo Detector), [[導線架]] (Lead Frame), 封裝膠 (Molding Compound).\n*   **中游 (製造):** IC 封裝、測試、組件組裝。\n*   **下游 (應用):** \n    *   **電源供應器:** [[台達電]], [[光寶]] (光寶).\n    *   **家電:** 國際家電大廠 (白色家電控制板).\n    *   **工控/車用:** 工業[[自動化]]設備、[[電動車]]充電樁 ([[電動車]]).",
+    "customers_suppliers_md": "### 主要客戶\n*   **電源廠:** [[台達電]], [[光寶]], [[Chicony]] (群光).\n*   **其他:** 電表廠 (Smart Meter), 安防設備廠。\n\n### 主要供應商\n*   **晶片:** 國內外 LED 及 IC 晶片供應商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

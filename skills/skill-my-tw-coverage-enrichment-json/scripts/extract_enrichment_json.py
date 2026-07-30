@@ -42,6 +42,59 @@ class FocusRow:
     company_name: str
 
 
+def focus_rows_from_reports(files: dict[str, Path]) -> list[FocusRow]:
+    rows: list[FocusRow] = []
+    for ticker, path in sorted(files.items()):
+        name = path.stem.split("_", 1)[1] if "_" in path.stem else ""
+        rows.append(FocusRow(ticker=ticker, company_name=name))
+    return rows
+
+
+def build_industry_peer_map(files: dict[str, Path]) -> dict[str, list[tuple[str, str]]]:
+    by_industry: dict[str, list[tuple[str, str]]] = {}
+    for ticker, path in files.items():
+        industry = path.parent.name
+        name = path.stem.split("_", 1)[1] if "_" in path.stem else ticker
+        by_industry.setdefault(industry, []).append((ticker, name))
+    for industry in by_industry:
+        by_industry[industry] = sorted(by_industry[industry])
+    return by_industry
+
+
+def fill_missing_competitors(data: dict[str, Any], path: Path, peer_map: dict[str, list[tuple[str, str]]], max_peers: int = 5) -> None:
+    rel = data.setdefault("relationships", {})
+    if rel.get("competitors"):
+        return
+    industry = path.parent.name
+    peers = [(ticker, name) for ticker, name in peer_map.get(industry, []) if ticker != data.get("ticker")]
+    selected = peers[:max_peers]
+    if not selected:
+        selected = [("UNREVIEWED", "同業待補")]
+    entities = [name for _, name in selected]
+    rel["competitors"] = [{
+        "text": f"- **same-industry draft peers ({industry}):** " + "、".join(f"[[{name}]]" for name in entities),
+        "entities": entities,
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+            e
+            for item in rel.get("customers", [])
+            for e in (item.get("entities") or [])
+        ],
+    }]
+    existing = {item.get("name") for item in data.get("entities", [])}
+    for name in entities:
+        if name not in existing:
+            data.setdefault("entities", []).append({"name": name, "type": entity_type_for_name(name), "wikilink": name})
+            existing.add(name)
+    warnings = data.setdefault("quality", {}).setdefault("warnings", [])
+    if "draft_same_industry_competitors_need_review" not in warnings:
+        warnings.append("draft_same_industry_competitors_need_review")
+
+
+def entity_type_for_name(name: str) -> str:
+    return "taiwan_company_or_term" if any("\u4e00" <= ch <= "\u9fff" for ch in name) else "international_company_or_term"
+
+
 def now_cst() -> str:
     tz = timezone(timedelta(hours=8))
     return datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S CST")
@@ -285,6 +338,8 @@ def main() -> int:
     parser.add_argument("--manifest")
     parser.add_argument("--ticker", action="append", help="Limit to one ticker; can be repeated.")
     parser.add_argument("--limit", type=int, default=0)
+    parser.add_argument("--all-reports", action="store_true", help="Extract every Pilot_Reports Markdown file instead of the focus list.")
+    parser.add_argument("--fill-missing-competitors", action="store_true", help="Fill empty competitor arrays with same-industry draft peer atoms.")
     args = parser.parse_args()
 
     cwd = Path.cwd()
@@ -302,14 +357,14 @@ def main() -> int:
     manifest_path = Path(args.manifest).resolve() if args.manifest else default_manifest
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    focus_rows = read_focus(focus_path)
+    files = find_report_files(coverage_root)
+    focus_rows = focus_rows_from_reports(files) if args.all_reports else read_focus(focus_path)
     if args.ticker:
         wanted = set(args.ticker)
         focus_rows = [row for row in focus_rows if row.ticker in wanted]
     if args.limit:
         focus_rows = focus_rows[: args.limit]
-
-    files = find_report_files(coverage_root)
+    peer_map = build_industry_peer_map(files)
     manifest_rows: list[dict[str, str]] = []
     written = missing = 0
     for row in focus_rows:
@@ -329,6 +384,8 @@ def main() -> int:
             )
             continue
         data = build_json(row, source, coverage_root)
+        if args.fill_missing_competitors:
+            fill_missing_competitors(data, source, peer_map)
         out_path = out_dir / f"{row.ticker}.json"
         out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         written += 1

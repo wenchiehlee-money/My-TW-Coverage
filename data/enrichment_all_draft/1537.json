@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1537",
+  "company_name": "廣隆",
+  "title": "1537 - 廣隆",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/1537_廣隆.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "10,381 百萬台幣",
+    "enterprise_value": "8,060 百萬台幣"
+  },
+  "business": {
+    "summary": "廣隆光電科技 (1537，Kung Long Batteries) 為亞洲[[UPS]]蓄電池產能最大製造商，自有品牌「LONG」行銷逾 100 國。亞洲首家通過德國 VdS 認證之鉛酸電池廠。產品涵蓋密閉式鉛酸電池 ([[VRLA]])、機車啟動電池及電動輪椅電池。生產以越南為主 (濱瀝/德和廠)。UPS 電池佔營收約 70%，主要客戶為[[Schneider Electric]] (旗下[[APC]]品牌)、[[Eaton]]、[[Vertiv]]。越南機車電池供應[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]。鉛錠佔成本約 90%。",
+    "entities": [
+      "UPS",
+      "VRLA",
+      "Schneider Electric",
+      "APC",
+      "Eaton",
+      "Vertiv",
+      "Honda",
+      "Yamaha",
+      "Piaggio"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鉛錠",
+        "text": "國際鉛礦商 (澳洲/韓國，LME 連動)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**廣隆** (LONG 品牌鉛酸[[VRLA]]電池，越南濱瀝/德和廠)",
+        "entities": [
+          "VRLA"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "UPS (佔 70%)",
+        "text": "[[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]] — 全球 UPS 廠",
+        "entities": [
+          "Schneider Electric",
+          "APC",
+          "Eaton",
+          "Vertiv"
+        ]
+      },
+      {
+        "category": "機車",
+        "text": "[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]] — 啟動電池",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Piaggio"
+        ]
+      },
+      {
+        "category": "電信",
+        "text": "越南[[VNPT]]、[[Viettel]] — 基地台備援",
+        "entities": [
+          "VNPT",
+          "Viettel"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "UPS",
+        "text": "[[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]]",
+        "entities": [
+          "Schneider Electric",
+          "APC",
+          "Eaton",
+          "Vertiv"
+        ]
+      },
+      {
+        "role": "機車",
+        "text": "[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Piaggio"
+        ]
+      },
+      {
+        "role": "電信",
+        "text": "[[VNPT]]、[[Viettel]]",
+        "entities": [
+          "VNPT",
+          "Viettel"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鉛錠",
+        "text": "國際鉛礦商 (佔成本 90%)",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[直得]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "直得"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Schneider Electric",
+          "APC",
+          "Eaton",
+          "Vertiv",
+          "Honda",
+          "Yamaha",
+          "Piaggio",
+          "VNPT",
+          "Viettel"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "UPS",
+      "type": "international_company_or_term",
+      "wikilink": "UPS"
+    },
+    {
+      "name": "VRLA",
+      "type": "international_company_or_term",
+      "wikilink": "VRLA"
+    },
+    {
+      "name": "Schneider Electric",
+      "type": "international_company_or_term",
+      "wikilink": "Schneider Electric"
+    },
+    {
+      "name": "APC",
+      "type": "international_company_or_term",
+      "wikilink": "APC"
+    },
+    {
+      "name": "Eaton",
+      "type": "international_company_or_term",
+      "wikilink": "Eaton"
+    },
+    {
+      "name": "Vertiv",
+      "type": "international_company_or_term",
+      "wikilink": "Vertiv"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "Piaggio",
+      "type": "international_company_or_term",
+      "wikilink": "Piaggio"
+    },
+    {
+      "name": "VNPT",
+      "type": "international_company_or_term",
+      "wikilink": "VNPT"
+    },
+    {
+      "name": "Viettel",
+      "type": "international_company_or_term",
+      "wikilink": "Viettel"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "直得",
+      "type": "taiwan_company_or_term",
+      "wikilink": "直得"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣隆光電科技 (1537，Kung Long Batteries) 為亞洲[[UPS]]蓄電池產能最大製造商，自有品牌「LONG」行銷逾 100 國。亞洲首家通過德國 VdS 認證之鉛酸電池廠。產品涵蓋密閉式鉛酸電池 ([[VRLA]])、機車啟動電池及電動輪椅電池。生產以越南為主 (濱瀝/德和廠)。UPS 電池佔營收約 70%，主要客戶為[[Schneider Electric]] (旗下[[APC]]品牌)、[[Eaton]]、[[Vertiv]]。越南機車電池供應[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]。鉛錠佔成本約 90%。",
+    "supply_chain_md": "**上游 (原料):**\n- **鉛錠:** 國際鉛礦商 (澳洲/韓國，LME 連動)\n\n**中游 (製造):**\n- **廣隆** (LONG 品牌鉛酸[[VRLA]]電池，越南濱瀝/德和廠)\n\n**下游 (終端):**\n- **UPS (佔 70%):** [[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]] — 全球 UPS 廠\n- **機車:** [[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]] — 啟動電池\n- **電信:** 越南[[VNPT]]、[[Viettel]] — 基地台備援",
+    "customers_suppliers_md": "### 主要客戶\n- **UPS:** [[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]]\n- **機車:** [[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]\n- **電信:** [[VNPT]]、[[Viettel]]\n\n### 主要供應商\n- **鉛錠:** 國際鉛礦商 (佔成本 90%)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

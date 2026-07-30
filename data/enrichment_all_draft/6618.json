@@ -1,0 +1,226 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6618",
+  "company_name": "永虹先進",
+  "title": "6618_永虹先進",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/6618_永虹先進.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,960 百萬台幣",
+    "enterprise_value": "1,977 百萬台幣"
+  },
+  "business": {
+    "summary": "永虹先進材料 (6618) 為台灣唯一具航太級[[碳纖維]]複合材料生產技術廠商。與[[Syensqo]]及[[漢翔]]簽署三方MOU。產品應用於[[eVTOL]]飛行器、[[AI 伺服器]]機殼散熱及[[電動車]]輕量化。取得[[Syensqo]]首批千萬訂單。",
+    "entities": [
+      "碳纖維",
+      "Syensqo",
+      "漢翔",
+      "eVTOL",
+      "AI 伺服器",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[Syensqo]]、[[東麗]]、[[帝人]] — 碳纖維原絲/樹脂",
+        "entities": [
+          "Syensqo",
+          "東麗",
+          "帝人"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**永虹** (熱塑性[[碳纖維]]複合材料)",
+        "entities": [
+          "碳纖維"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[Syensqo]] — 首批訂單",
+        "entities": [
+          "Syensqo"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[漢翔]] — 航太MOU",
+        "entities": [
+          "漢翔"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[eVTOL]]新創如[[Joby Aviation]]",
+        "entities": [
+          "eVTOL",
+          "Joby Aviation"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Syensqo]] — 首批訂單",
+        "entities": [
+          "Syensqo"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[漢翔]] — 航太MOU",
+        "entities": [
+          "漢翔"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[eVTOL]]: [[Joby Aviation]]等",
+        "entities": [
+          "eVTOL",
+          "Joby Aviation"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Syensqo]]、[[東麗]]、[[帝人]]",
+        "entities": [
+          "Syensqo",
+          "東麗",
+          "帝人"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Syensqo",
+          "漢翔",
+          "eVTOL",
+          "Joby Aviation"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "Syensqo",
+      "type": "international_company_or_term",
+      "wikilink": "Syensqo"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    },
+    {
+      "name": "eVTOL",
+      "type": "international_company_or_term",
+      "wikilink": "eVTOL"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "東麗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東麗"
+    },
+    {
+      "name": "帝人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "帝人"
+    },
+    {
+      "name": "Joby Aviation",
+      "type": "international_company_or_term",
+      "wikilink": "Joby Aviation"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永虹先進材料 (6618) 為台灣唯一具航太級[[碳纖維]]複合材料生產技術廠商。與[[Syensqo]]及[[漢翔]]簽署三方MOU。產品應用於[[eVTOL]]飛行器、[[AI 伺服器]]機殼散熱及[[電動車]]輕量化。取得[[Syensqo]]首批千萬訂單。",
+    "supply_chain_md": "**上游:** [[Syensqo]]、[[東麗]]、[[帝人]] — 碳纖維原絲/樹脂\n**中游:** **永虹** (熱塑性[[碳纖維]]複合材料)\n**下游:**\n- [[Syensqo]] — 首批訂單\n- [[漢翔]] — 航太MOU\n- [[eVTOL]]新創如[[Joby Aviation]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Syensqo]] — 首批訂單\n- [[漢翔]] — 航太MOU\n- [[eVTOL]]: [[Joby Aviation]]等\n\n### 主要供應商\n- [[Syensqo]]、[[東麗]]、[[帝人]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

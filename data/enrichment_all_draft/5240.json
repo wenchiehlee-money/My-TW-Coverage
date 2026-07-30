@@ -1,0 +1,233 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5240",
+  "company_name": "建騰",
+  "title": "5240 - 建騰",
+  "source_md": "Pilot_Reports/Security & Protection Services/5240_建騰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Security & Protection Services",
+    "market_cap": "408 百萬台幣",
+    "enterprise_value": "284 百萬台幣"
+  },
+  "business": {
+    "summary": "建騰創達科技股份有限公司（ACTi）專注於IP網路監控系統研發，提供從攝影機到管理平台之端到端解決方案。核心業務涵蓋：（1）**網路攝影機：** 涵蓋槍型、半球型、快速球型等全系列IP Camera；（2）**影像管理系統：** VMS/NVR錄影伺服器軟硬體；（3）**[[AI]]影像分析：** 導入邊緣運算提供人流計數、車牌辨識、異常偵測等功能；（4）**雲端服務：** 與[[Microsoft]] Azure合作推出雲端監控方案。產品強調符合[[NDAA]]規範，主攻非中國制裁市場。",
+    "entities": [
+      "AI",
+      "Microsoft",
+      "NDAA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵元件)",
+        "text": "**上游 (關鍵元件):**",
+        "entities": []
+      },
+      {
+        "category": "SoC晶片",
+        "text": "符合[[NDAA]]規範之影像處理晶片",
+        "entities": [
+          "NDAA"
+        ]
+      },
+      {
+        "category": "鏡頭模組",
+        "text": "光學鏡頭供應商",
+        "entities": []
+      },
+      {
+        "category": "感測器",
+        "text": "[[CIS]]影像感測器",
+        "entities": [
+          "CIS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (研發與整合)",
+        "text": "**中游 (研發與整合):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**建騰創達（ACTi）** — IP Camera系統設計、VMS軟體開發、[[AI]]邊緣運算硬體整合",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "北美/歐洲",
+        "text": "[[NDAA]]合規安防市場（政府、商業、教育）",
+        "entities": [
+          "NDAA"
+        ]
+      },
+      {
+        "category": "雲端合作",
+        "text": "[[Microsoft]] Azure雲端監控方案",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "category": "全球經銷",
+        "text": "系統整合商與安防經銷商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美/歐洲安防",
+        "text": "[[NDAA]]合規市場之政府、商業、教育機構",
+        "entities": [
+          "NDAA"
+        ]
+      },
+      {
+        "role": "雲端合作",
+        "text": "[[Microsoft]]（Azure雲端監控方案合作）",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "role": "全球經銷",
+        "text": "安防系統整合商與經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "SoC晶片",
+        "text": "[[NDAA]]合規影像處理晶片供應商",
+        "entities": [
+          "NDAA"
+        ]
+      },
+      {
+        "role": "感光元件",
+        "text": "[[CIS]]影像感測器（如[[Sony]]）",
+        "entities": [
+          "CIS",
+          "Sony"
+        ]
+      },
+      {
+        "role": "鏡頭模組",
+        "text": "光學鏡頭供應商",
+        "entities": []
+      },
+      {
+        "role": "雲端",
+        "text": "[[Microsoft]] Azure雲端平台",
+        "entities": [
+          "Microsoft"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Security & Protection Services):** [[云辰]]、[[杭特]]、[[奇偶]]、[[晶睿]]、[[慧友]]",
+        "entities": [
+          "云辰",
+          "杭特",
+          "奇偶",
+          "晶睿",
+          "慧友"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NDAA",
+          "Microsoft"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "NDAA",
+      "type": "international_company_or_term",
+      "wikilink": "NDAA"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "云辰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "云辰"
+    },
+    {
+      "name": "杭特",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杭特"
+    },
+    {
+      "name": "奇偶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇偶"
+    },
+    {
+      "name": "晶睿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶睿"
+    },
+    {
+      "name": "慧友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "慧友"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "建騰創達科技股份有限公司（ACTi）專注於IP網路監控系統研發，提供從攝影機到管理平台之端到端解決方案。核心業務涵蓋：（1）**網路攝影機：** 涵蓋槍型、半球型、快速球型等全系列IP Camera；（2）**影像管理系統：** VMS/NVR錄影伺服器軟硬體；（3）**[[AI]]影像分析：** 導入邊緣運算提供人流計數、車牌辨識、異常偵測等功能；（4）**雲端服務：** 與[[Microsoft]] Azure合作推出雲端監控方案。產品強調符合[[NDAA]]規範，主攻非中國制裁市場。",
+    "supply_chain_md": "**上游 (關鍵元件):**\n- **SoC晶片:** 符合[[NDAA]]規範之影像處理晶片\n- **鏡頭模組:** 光學鏡頭供應商\n- **感測器:** [[CIS]]影像感測器\n\n**中游 (研發與整合):**\n- **建騰創達（ACTi）** — IP Camera系統設計、VMS軟體開發、[[AI]]邊緣運算硬體整合\n\n**下游 (終端市場):**\n- **北美/歐洲:** [[NDAA]]合規安防市場（政府、商業、教育）\n- **雲端合作:** [[Microsoft]] Azure雲端監控方案\n- **全球經銷:** 系統整合商與安防經銷商",
+    "customers_suppliers_md": "### 主要客戶\n- **北美/歐洲安防:** [[NDAA]]合規市場之政府、商業、教育機構\n- **雲端合作:** [[Microsoft]]（Azure雲端監控方案合作）\n- **全球經銷:** 安防系統整合商與經銷商\n\n### 主要供應商\n- **SoC晶片:** [[NDAA]]合規影像處理晶片供應商\n- **感光元件:** [[CIS]]影像感測器（如[[Sony]]）\n- **鏡頭模組:** 光學鏡頭供應商\n- **雲端:** [[Microsoft]] Azure雲端平台"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

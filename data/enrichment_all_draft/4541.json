@@ -1,0 +1,314 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4541",
+  "company_name": "晟田",
+  "title": "4541 - 晟田",
+  "source_md": "Pilot_Reports/Aerospace & Defense/4541_晟田.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "market_cap": "4,140 百萬台幣",
+    "enterprise_value": "5,371 百萬台幣"
+  },
+  "business": {
+    "summary": "晟田科技工業 (4541，Magnate Technology) 專注於高精密五軸 CNC 金屬加工，核心技術為超合金與難切削材料 ([[鈦合金]]、[[鎳基合金]]、Inconel) 之精密成型。業務結構：(1) 航太零組件 (佔營收約 75%) — 為[[漢翔]]、[[Safran Landing Systems]]、住友精密 ([[SPP]])、[[MOOG]]、[[三菱重工]]等供應起落架、發動機零件與機體結構件，終端客戶涵蓋[[GE Aerospace]]、[[Rolls-Royce]]、[[Boeing]]；(2) 半導體設備 (佔約 15%) — 為設備廠供應關鍵次系統零組件；(3) 食品包裝設備 (佔約 10%) — 供應[[三菱重工]]等食品飲料充填設備零組件。公司持有 AS9100、AS13100 及 Nadcap 等航太認證，為台灣 A-Team 4.0 核心成員。",
+    "entities": [
+      "鈦合金",
+      "鎳基合金",
+      "漢翔",
+      "Safran Landing Systems",
+      "SPP",
+      "MOOG",
+      "三菱重工",
+      "GE Aerospace",
+      "Rolls-Royce",
+      "Boeing"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊合金",
+        "text": "[[榮剛]] — [[鈦合金]]、[[鎳基合金]]、Inconel 等航太級超合金",
+        "entities": [
+          "榮剛",
+          "鈦合金",
+          "鎳基合金"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (精密加工)",
+        "text": "**中游 (精密加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**晟田** (五軸 CNC 高精密金屬加工、航太與半導體次系統組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "航太 — 起落架",
+        "text": "[[Safran Landing Systems]]、住友精密 ([[SPP]]) — 起落架零組件",
+        "entities": [
+          "Safran Landing Systems",
+          "SPP"
+        ]
+      },
+      {
+        "category": "航太 — 引擎",
+        "text": "[[漢翔]] — 間接供應[[GE Aerospace]]、[[Rolls-Royce]]、[[Boeing]]",
+        "entities": [
+          "漢翔",
+          "GE Aerospace",
+          "Rolls-Royce",
+          "Boeing"
+        ]
+      },
+      {
+        "category": "航太 — 飛控",
+        "text": "[[MOOG]] — 飛行致動系統零組件",
+        "entities": [
+          "MOOG"
+        ]
+      },
+      {
+        "category": "航太 — MRO",
+        "text": "[[長榮航太]]、亞洲航空 — 維修零件",
+        "entities": [
+          "長榮航太"
+        ]
+      },
+      {
+        "category": "半導體設備",
+        "text": "國際半導體設備廠 — 關鍵次系統零組件",
+        "entities": []
+      },
+      {
+        "category": "食品設備",
+        "text": "[[三菱重工]] — 食品飲料充填設備零件",
+        "entities": [
+          "三菱重工"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "航太 (佔 75%)",
+        "text": "",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "[[漢翔]] — 41% 營收，間接供應[[Boeing]]、[[Airbus]]引擎與機體零組件",
+        "entities": [
+          "漢翔",
+          "Boeing",
+          "Airbus"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Safran Landing Systems]] — 11%，起落架精密零組件",
+        "entities": [
+          "Safran Landing Systems"
+        ]
+      },
+      {
+        "role": "",
+        "text": "住友精密 ([[SPP]]) — 7%，起落架零組件",
+        "entities": [
+          "SPP"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[MOOG]] — 4%，飛行致動系統",
+        "entities": [
+          "MOOG"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[三菱重工]] — 3%，航太與食品設備",
+        "entities": [
+          "三菱重工"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[長榮航太]] — 3%，MRO 零件",
+        "entities": [
+          "長榮航太"
+        ]
+      },
+      {
+        "role": "半導體設備 (佔 15%)",
+        "text": "國際設備廠 — 真空系統等次系統零組件",
+        "entities": []
+      },
+      {
+        "role": "食品設備 (佔 10%)",
+        "text": "[[三菱重工]] — 食品飲料充填設備",
+        "entities": [
+          "三菱重工"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊合金",
+        "text": "[[榮剛]] — [[鈦合金]]與[[鎳基合金]]等航太級超合金",
+        "entities": [
+          "榮剛",
+          "鈦合金",
+          "鎳基合金"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Aerospace & Defense):** [[台船]]、[[亞航]]、[[漢翔]]、[[中信造船]]、[[長榮航太]]",
+        "entities": [
+          "台船",
+          "亞航",
+          "漢翔",
+          "中信造船",
+          "長榮航太"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "漢翔",
+          "Boeing",
+          "Airbus",
+          "Safran Landing Systems",
+          "SPP",
+          "MOOG",
+          "三菱重工",
+          "長榮航太",
+          "三菱重工"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鈦合金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈦合金"
+    },
+    {
+      "name": "鎳基合金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鎳基合金"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    },
+    {
+      "name": "Safran Landing Systems",
+      "type": "international_company_or_term",
+      "wikilink": "Safran Landing Systems"
+    },
+    {
+      "name": "SPP",
+      "type": "international_company_or_term",
+      "wikilink": "SPP"
+    },
+    {
+      "name": "MOOG",
+      "type": "international_company_or_term",
+      "wikilink": "MOOG"
+    },
+    {
+      "name": "三菱重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱重工"
+    },
+    {
+      "name": "GE Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aerospace"
+    },
+    {
+      "name": "Rolls-Royce",
+      "type": "international_company_or_term",
+      "wikilink": "Rolls-Royce"
+    },
+    {
+      "name": "Boeing",
+      "type": "international_company_or_term",
+      "wikilink": "Boeing"
+    },
+    {
+      "name": "榮剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮剛"
+    },
+    {
+      "name": "長榮航太",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航太"
+    },
+    {
+      "name": "Airbus",
+      "type": "international_company_or_term",
+      "wikilink": "Airbus"
+    },
+    {
+      "name": "台船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台船"
+    },
+    {
+      "name": "亞航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞航"
+    },
+    {
+      "name": "中信造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中信造船"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晟田科技工業 (4541，Magnate Technology) 專注於高精密五軸 CNC 金屬加工，核心技術為超合金與難切削材料 ([[鈦合金]]、[[鎳基合金]]、Inconel) 之精密成型。業務結構：(1) 航太零組件 (佔營收約 75%) — 為[[漢翔]]、[[Safran Landing Systems]]、住友精密 ([[SPP]])、[[MOOG]]、[[三菱重工]]等供應起落架、發動機零件與機體結構件，終端客戶涵蓋[[GE Aerospace]]、[[Rolls-Royce]]、[[Boeing]]；(2) 半導體設備 (佔約 15%) — 為設備廠供應關鍵次系統零組件；(3) 食品包裝設備 (佔約 10%) — 供應[[三菱重工]]等食品飲料充填設備零組件。公司持有 AS9100、AS13100 及 Nadcap 等航太認證，為台灣 A-Team 4.0 核心成員。",
+    "supply_chain_md": "**上游 (材料):**\n- **特殊合金:** [[榮剛]] — [[鈦合金]]、[[鎳基合金]]、Inconel 等航太級超合金\n\n**中游 (精密加工):**\n- **晟田** (五軸 CNC 高精密金屬加工、航太與半導體次系統組裝)\n\n**下游 (終端客戶):**\n- **航太 — 起落架:** [[Safran Landing Systems]]、住友精密 ([[SPP]]) — 起落架零組件\n- **航太 — 引擎:** [[漢翔]] — 間接供應[[GE Aerospace]]、[[Rolls-Royce]]、[[Boeing]]\n- **航太 — 飛控:** [[MOOG]] — 飛行致動系統零組件\n- **航太 — MRO:** [[長榮航太]]、亞洲航空 — 維修零件\n- **半導體設備:** 國際半導體設備廠 — 關鍵次系統零組件\n- **食品設備:** [[三菱重工]] — 食品飲料充填設備零件",
+    "customers_suppliers_md": "### 主要客戶\n- **航太 (佔 75%):**\n  - [[漢翔]] — 41% 營收，間接供應[[Boeing]]、[[Airbus]]引擎與機體零組件\n  - [[Safran Landing Systems]] — 11%，起落架精密零組件\n  - 住友精密 ([[SPP]]) — 7%，起落架零組件\n  - [[MOOG]] — 4%，飛行致動系統\n  - [[三菱重工]] — 3%，航太與食品設備\n  - [[長榮航太]] — 3%，MRO 零件\n- **半導體設備 (佔 15%):** 國際設備廠 — 真空系統等次系統零組件\n- **食品設備 (佔 10%):** [[三菱重工]] — 食品飲料充填設備\n\n### 主要供應商\n- **特殊合金:** [[榮剛]] — [[鈦合金]]與[[鎳基合金]]等航太級超合金"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

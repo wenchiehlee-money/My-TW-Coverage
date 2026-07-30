@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5201",
+  "company_name": "凱衛",
+  "title": "5201 - 凱衛",
+  "source_md": "Pilot_Reports/Software - Application/5201_凱衛.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": "1,013 百萬台幣",
+    "enterprise_value": "743 百萬台幣"
+  },
+  "business": {
+    "summary": "凱衛資訊 (Kway) 為台灣老牌 **金融軟體服務商**，深耕證券期貨領域。\n業務核心：\n1.  **金融中後台系統**: 證券/期貨核心帳務系統、結算系統。\n2.  **交易前端工具**: 獨家代理 **MultiCharts** (程式交易軟體) 於台灣之銷售，擁有廣大程式交易客群。\n3.  **系統整合**: 代理銷售國外主機與軟體 (如 UNIX [[伺服器]], Fix Engine)。\n4.  **FinTech**: 推出「籌碼大股東」、「高股息存股」等理財 App。\n市場地位：在外資券商在台據點之市佔率極高 (約七成)。",
+    "entities": [
+      "伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 軟硬體原廠 (Broadridge, MultiCharts 原廠, 主機廠), 交易所數據源 ([[台灣證券交易所]]).",
+        "entities": [
+          "台灣證券交易所"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **凱衛 (5201)** - 金融軟體開發 & 系統整合 (SI).",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**金融機構**: 證券商 (元大, 凱基, 富邦, 外資券商), 期貨商.",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**散戶/專業投資人**: MultiCharts 使用者, 理財 App 用戶.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**外資券商**: [[Goldman Sachs]], [[Morgan Stanley]], [[UBS]], [[JP Morgan]] (台灣分公司).",
+        "entities": [
+          "Goldman Sachs",
+          "Morgan Stanley",
+          "UBS",
+          "JP Morgan"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**本土券商**: [[元大金]], [[凱基證券]], [[富邦金]].",
+        "entities": [
+          "元大金",
+          "凱基證券",
+          "富邦金"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**軟體原廠**: Broadridge (Fix Engine), MultiCharts (Trading Platform).",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Application):** [[大塚]]、[[研勤]]、[[力新]]、[[訊連]]、[[中茂]]",
+        "entities": [
+          "大塚",
+          "研勤",
+          "力新",
+          "訊連",
+          "中茂"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Goldman Sachs",
+          "Morgan Stanley",
+          "UBS",
+          "JP Morgan",
+          "元大金",
+          "凱基證券",
+          "富邦金"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "台灣證券交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣證券交易所"
+    },
+    {
+      "name": "Goldman Sachs",
+      "type": "international_company_or_term",
+      "wikilink": "Goldman Sachs"
+    },
+    {
+      "name": "Morgan Stanley",
+      "type": "international_company_or_term",
+      "wikilink": "Morgan Stanley"
+    },
+    {
+      "name": "UBS",
+      "type": "international_company_or_term",
+      "wikilink": "UBS"
+    },
+    {
+      "name": "JP Morgan",
+      "type": "international_company_or_term",
+      "wikilink": "JP Morgan"
+    },
+    {
+      "name": "元大金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元大金"
+    },
+    {
+      "name": "凱基證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱基證券"
+    },
+    {
+      "name": "富邦金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦金"
+    },
+    {
+      "name": "大塚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大塚"
+    },
+    {
+      "name": "研勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研勤"
+    },
+    {
+      "name": "力新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力新"
+    },
+    {
+      "name": "訊連",
+      "type": "taiwan_company_or_term",
+      "wikilink": "訊連"
+    },
+    {
+      "name": "中茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中茂"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "凱衛資訊 (Kway) 為台灣老牌 **金融軟體服務商**，深耕證券期貨領域。\n業務核心：\n1.  **金融中後台系統**: 證券/期貨核心帳務系統、結算系統。\n2.  **交易前端工具**: 獨家代理 **MultiCharts** (程式交易軟體) 於台灣之銷售，擁有廣大程式交易客群。\n3.  **系統整合**: 代理銷售國外主機與軟體 (如 UNIX [[伺服器]], Fix Engine)。\n4.  **FinTech**: 推出「籌碼大股東」、「高股息存股」等理財 App。\n市場地位：在外資券商在台據點之市佔率極高 (約七成)。",
+    "supply_chain_md": "*   **中游 (本體)**: **凱衛 (5201)** - 金融軟體開發 & 系統整合 (SI).\n*   **上游**: 軟硬體原廠 (Broadridge, MultiCharts 原廠, 主機廠), 交易所數據源 ([[台灣證券交易所]]).\n*   **下游**:\n    *   **金融機構**: 證券商 (元大, 凱基, 富邦, 外資券商), 期貨商.\n    *   **散戶/專業投資人**: MultiCharts 使用者, 理財 App 用戶.",
+    "customers_suppliers_md": "### 主要客戶\n*   **外資券商**: [[Goldman Sachs]], [[Morgan Stanley]], [[UBS]], [[JP Morgan]] (台灣分公司).\n*   **本土券商**: [[元大金]], [[凱基證券]], [[富邦金]].\n\n### 主要供應商\n*   **軟體原廠**: Broadridge (Fix Engine), MultiCharts (Trading Platform)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

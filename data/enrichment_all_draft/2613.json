@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2613",
+  "company_name": "中櫃",
+  "title": "2613 - 中櫃",
+  "source_md": "Pilot_Reports/Marine Shipping/2613_中櫃.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "2,766 百萬台幣",
+    "enterprise_value": "7,743 百萬台幣"
+  },
+  "business": {
+    "summary": "中國貨櫃運輸股份有限公司 (2613，China Container Terminal) 成立於 1969 年，主要業務為貨櫃集散站經營。公司擁有並經營[[基隆港]]西 19-21 號碼頭貨櫃集散站、[[高雄港]] 66 號碼頭貨櫃集散站及五堵內陸貨櫃場。提供貨櫃裝卸、倉儲、各種物流加工及[[保稅倉庫]]服務。為靠泊基隆及高雄港之國際航商提供碼頭裝卸與倉儲服務。公司亦承接政府港口業務委外經營案。",
+    "entities": [
+      "基隆港",
+      "高雄港",
+      "保稅倉庫"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (港口設施與設備)",
+        "text": "**上游 (港口設施與設備):**",
+        "entities": []
+      },
+      {
+        "category": "港務",
+        "text": "[[臺灣港務]] — 碼頭租賃",
+        "entities": [
+          "臺灣港務"
+        ]
+      },
+      {
+        "category": "機具設備",
+        "text": "貨櫃起重機、堆高機等碼頭裝卸設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (碼頭裝卸與倉儲)",
+        "text": "**中游 (碼頭裝卸與倉儲):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中櫃** — 基隆港/高雄港貨櫃集散站營運，提供貨櫃裝卸、倉儲及物流加工服務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (航商與貿易商)",
+        "text": "**下游 (航商與貿易商):**",
+        "entities": []
+      },
+      {
+        "category": "貨櫃輪公司",
+        "text": "靠泊基隆/高雄港之國際航商 — [[長榮海運]]、[[陽明海運]]、[[萬海航運]]等",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      },
+      {
+        "category": "報關行",
+        "text": "進出口報關業者",
+        "entities": []
+      },
+      {
+        "category": "保稅倉儲",
+        "text": "保稅貨物儲存客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國際航商",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]] — 靠泊基隆/高雄港之貨櫃裝卸",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      },
+      {
+        "role": "報關行",
+        "text": "進出口報關業者 — 物流加工服務",
+        "entities": []
+      },
+      {
+        "role": "保稅客戶",
+        "text": "保稅倉庫儲存需求之進出口商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "港務",
+        "text": "[[臺灣港務]] — 碼頭租賃",
+        "entities": [
+          "臺灣港務"
+        ]
+      },
+      {
+        "role": "機具設備",
+        "text": "貨櫃起重機與堆高機供應商",
+        "entities": []
+      },
+      {
+        "role": "維修服務",
+        "text": "碼頭設備維護保養廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Marine Shipping):** [[長榮]]、[[新興]]、[[裕民]]、[[陽明]]、[[志信]]",
+        "entities": [
+          "長榮",
+          "新興",
+          "裕民",
+          "陽明",
+          "志信"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "基隆港",
+      "type": "taiwan_company_or_term",
+      "wikilink": "基隆港"
+    },
+    {
+      "name": "高雄港",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄港"
+    },
+    {
+      "name": "保稅倉庫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "保稅倉庫"
+    },
+    {
+      "name": "臺灣港務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臺灣港務"
+    },
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "萬海航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬海航運"
+    },
+    {
+      "name": "長榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮"
+    },
+    {
+      "name": "新興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新興"
+    },
+    {
+      "name": "裕民",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕民"
+    },
+    {
+      "name": "陽明",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明"
+    },
+    {
+      "name": "志信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志信"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國貨櫃運輸股份有限公司 (2613，China Container Terminal) 成立於 1969 年，主要業務為貨櫃集散站經營。公司擁有並經營[[基隆港]]西 19-21 號碼頭貨櫃集散站、[[高雄港]] 66 號碼頭貨櫃集散站及五堵內陸貨櫃場。提供貨櫃裝卸、倉儲、各種物流加工及[[保稅倉庫]]服務。為靠泊基隆及高雄港之國際航商提供碼頭裝卸與倉儲服務。公司亦承接政府港口業務委外經營案。",
+    "supply_chain_md": "**上游 (港口設施與設備):**\n- **港務:** [[臺灣港務]] — 碼頭租賃\n- **機具設備:** 貨櫃起重機、堆高機等碼頭裝卸設備\n\n**中游 (碼頭裝卸與倉儲):**\n- **中櫃** — 基隆港/高雄港貨櫃集散站營運，提供貨櫃裝卸、倉儲及物流加工服務\n\n**下游 (航商與貿易商):**\n- **貨櫃輪公司:** 靠泊基隆/高雄港之國際航商 — [[長榮海運]]、[[陽明海運]]、[[萬海航運]]等\n- **報關行:** 進出口報關業者\n- **保稅倉儲:** 保稅貨物儲存客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **國際航商:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]] — 靠泊基隆/高雄港之貨櫃裝卸\n- **報關行:** 進出口報關業者 — 物流加工服務\n- **保稅客戶:** 保稅倉庫儲存需求之進出口商\n\n### 主要供應商\n- **港務:** [[臺灣港務]] — 碼頭租賃\n- **機具設備:** 貨櫃起重機與堆高機供應商\n- **維修服務:** 碼頭設備維護保養廠商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

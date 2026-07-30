@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1711",
+  "company_name": "永光",
+  "title": "1711 - 永光",
+  "source_md": "Pilot_Reports/Specialty Chemicals/1711_永光.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "17,227 百萬台幣",
+    "enterprise_value": "19,213 百萬台幣"
+  },
+  "business": {
+    "summary": "永光化學工業股份有限公司 (Everlight Chemical Industrial Corporation) 是一家跨國化學企業，總部位於台灣台北市。公司成立於 1972 年，最初以生產染料起家，現已轉型為高科技化學品供應商。永光化學之營運分為五大事業群：色料化學、特用化學、醫藥化學、電子化學及碳粉。產品涵蓋紡織及皮革染料、數位紡織印花墨水、耐候及抗黃變添加劑 (HALS)、[[半導體]]及光電產業用之光阻劑、顯影液、拋光液 (CMP slurry)，以及原料藥 (前列腺素、心血管用藥、巴金森氏症用藥) 與碳粉等。公司在全球設有多個生產基地與行銷據點，致力於提供對人類有貢獻之高科技化學品。",
+    "entities": [
+      "半導體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "基礎化工原料",
+        "text": "苯、萘、酸、鹼及各類溶劑。",
+        "entities": []
+      },
+      {
+        "category": "中間體",
+        "text": "需向國內外化工廠採購用於合成染料、光阻劑及醫藥之關鍵中間體。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "電子/半導體",
+        "text": "[[光阻劑]]、[[拋光液]]供應給[[半導體]]晶圓代工 (如[[台積電]])、IC 封裝、LCD 及 LED 產業。",
+        "entities": [
+          "光阻劑",
+          "拋光液",
+          "半導體",
+          "台積電"
+        ]
+      },
+      {
+        "category": "紡織/皮革",
+        "text": "染料與機能性化學品用於成衣、鞋材及家飾。",
+        "entities": []
+      },
+      {
+        "category": "特用化學",
+        "text": "耐候劑 (HALS) 用於塑膠、塗料及汽車工業 (保險桿、內飾)。",
+        "entities": []
+      },
+      {
+        "category": "醫藥",
+        "text": "原料藥 (API) 供應全球製藥廠。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]] (I-Line 光阻劑、拋光液)、世界先進。",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "封測/載板",
+        "text": "[[日月光投控]]、[[景碩]]、[[欣興]]。",
+        "entities": [
+          "日月光投控",
+          "景碩",
+          "欣興"
+        ]
+      },
+      {
+        "role": "航太/低軌衛星",
+        "text": "封裝膠材切入[[SpaceX]]供應鏈。",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "紡織/製鞋",
+        "text": "[[Nike]]、[[Adidas]] 等品牌之供應鏈。",
+        "entities": [
+          "Nike",
+          "Adidas"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "國內外化工大廠。",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "採用先進反應槽及純化設備。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "日月光投控",
+          "景碩",
+          "欣興",
+          "SpaceX",
+          "Nike",
+          "Adidas"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "光阻劑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光阻劑"
+    },
+    {
+      "name": "拋光液",
+      "type": "taiwan_company_or_term",
+      "wikilink": "拋光液"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "景碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "景碩"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永光化學工業股份有限公司 (Everlight Chemical Industrial Corporation) 是一家跨國化學企業，總部位於台灣台北市。公司成立於 1972 年，最初以生產染料起家，現已轉型為高科技化學品供應商。永光化學之營運分為五大事業群：色料化學、特用化學、醫藥化學、電子化學及碳粉。產品涵蓋紡織及皮革染料、數位紡織印花墨水、耐候及抗黃變添加劑 (HALS)、[[半導體]]及光電產業用之光阻劑、顯影液、拋光液 (CMP slurry)，以及原料藥 (前列腺素、心血管用藥、巴金森氏症用藥) 與碳粉等。公司在全球設有多個生產基地與行銷據點，致力於提供對人類有貢獻之高科技化學品。",
+    "supply_chain_md": "**上游 (原料):**\n- **基礎化工原料:** 苯、萘、酸、鹼及各類溶劑。\n- **中間體:** 需向國內外化工廠採購用於合成染料、光阻劑及醫藥之關鍵中間體。\n\n**下游應用:**\n- **電子/半導體:** [[光阻劑]]、[[拋光液]]供應給[[半導體]]晶圓代工 (如[[台積電]])、IC 封裝、LCD 及 LED 產業。\n- **紡織/皮革:** 染料與機能性化學品用於成衣、鞋材及家飾。\n- **特用化學:** 耐候劑 (HALS) 用於塑膠、塗料及汽車工業 (保險桿、內飾)。\n- **醫藥:** 原料藥 (API) 供應全球製藥廠。",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]] (I-Line 光阻劑、拋光液)、世界先進。\n- **封測/載板:** [[日月光投控]]、[[景碩]]、[[欣興]]。\n- **航太/低軌衛星:** 封裝膠材切入[[SpaceX]]供應鏈。\n- **紡織/製鞋:** [[Nike]]、[[Adidas]] 等品牌之供應鏈。\n\n### 主要供應商\n- **原料:** 國內外化工大廠。\n- **設備:** 採用先進反應槽及純化設備。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

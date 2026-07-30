@@ -1,0 +1,257 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6818",
+  "company_name": "連騰",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/Electronic Components/6818_連騰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,116 百萬台幣",
+    "enterprise_value": "1,299 百萬台幣"
+  },
+  "business": {
+    "summary": "連騰科技 (6818，[[LinkTech]]) 隸屬於連展投控集團，專注於高頻無線射頻 (RF) 技術與精密天線模組設計。有別於傳統沖壓天線，連騰專攻 [[5G]]、Wi-Fi 6/7 等高頻段高規格天線。\n\n業務結構與動能：(1) 高頻天線 — [[5G]]/Wi-Fi 6/7 通訊天線模組，供應筆電、智慧型手機及寬頻網通設備；(2) [[低軌衛星]]天線 — 發展低軌衛星通訊用天線模組；(3) [[IMU]]/AHRS 慣性導航模組 — 台灣首家自主研發將無線天線結合 [[MEMS]] 慣性感測元件的廠商，應用於高階無人機、無人搬運車 (AGV) 及機器人自動控制系統。上游材料包含陶瓷粉體、FPC/LCP 基材、射頻 IC 及 [[MEMS]] 晶片。",
+    "entities": [
+      "LinkTech",
+      "5G",
+      "低軌衛星",
+      "IMU",
+      "MEMS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與元件)",
+        "text": "**上游 (材料與元件):**",
+        "entities": []
+      },
+      {
+        "category": "基材",
+        "text": "FPC/LCP 軟性基材供應商",
+        "entities": []
+      },
+      {
+        "category": "射頻 IC",
+        "text": "射頻晶片供應商",
+        "entities": []
+      },
+      {
+        "category": "[[MEMS]] 晶片",
+        "text": "慣性感測 [[MEMS]] 元件供應商",
+        "entities": [
+          "MEMS"
+        ]
+      },
+      {
+        "category": "陶瓷粉體",
+        "text": "高頻陶瓷粉體",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (天線與感測模組)",
+        "text": "**中游 (天線與感測模組):**",
+        "entities": []
+      },
+      {
+        "category": "高頻天線",
+        "text": "**連騰** ([[5G]]/Wi-Fi 6/7 通訊天線)",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "衛星天線",
+        "text": "**連騰** ([[低軌衛星]]通訊天線)",
+        "entities": [
+          "低軌衛星"
+        ]
+      },
+      {
+        "category": "[[IMU]] 模組",
+        "text": "**連騰** (無人機/AGV 慣性導航模組)",
+        "entities": [
+          "IMU"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "筆電品牌",
+        "text": "全球筆電大廠 — [[5G]]/Wi-Fi 天線模組",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "網通設備",
+        "text": "寬頻網通設備商 — Wi-Fi 7 天線",
+        "entities": []
+      },
+      {
+        "category": "無人機",
+        "text": "無人機與 AGV 製造商 — [[IMU]] 導航模組",
+        "entities": [
+          "IMU"
+        ]
+      },
+      {
+        "category": "[[低軌衛星]]",
+        "text": "衛星通訊設備商 — 衛星天線",
+        "entities": [
+          "低軌衛星"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "筆電品牌",
+        "text": "全球筆電大廠 — [[5G]]/Wi-Fi 天線模組",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "role": "網通設備",
+        "text": "寬頻網通設備製造商 — Wi-Fi 7 天線",
+        "entities": []
+      },
+      {
+        "role": "無人機/AGV",
+        "text": "AI 機器人與無人機廠 — [[IMU]] 慣性導航模組",
+        "entities": [
+          "IMU"
+        ]
+      },
+      {
+        "role": "[[低軌衛星]]",
+        "text": "衛星通訊設備商 — 衛星天線",
+        "entities": [
+          "低軌衛星"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "基材",
+        "text": "FPC/LCP 軟性基材供應商",
+        "entities": []
+      },
+      {
+        "role": "射頻 IC",
+        "text": "射頻晶片供應商",
+        "entities": []
+      },
+      {
+        "role": "[[MEMS]]",
+        "text": "慣性感測元件供應商",
+        "entities": [
+          "MEMS"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "5G",
+          "IMU",
+          "低軌衛星"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LinkTech",
+      "type": "international_company_or_term",
+      "wikilink": "LinkTech"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "IMU",
+      "type": "international_company_or_term",
+      "wikilink": "IMU"
+    },
+    {
+      "name": "MEMS",
+      "type": "international_company_or_term",
+      "wikilink": "MEMS"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "連騰科技 (6818，[[LinkTech]]) 隸屬於連展投控集團，專注於高頻無線射頻 (RF) 技術與精密天線模組設計。有別於傳統沖壓天線，連騰專攻 [[5G]]、Wi-Fi 6/7 等高頻段高規格天線。\n\n業務結構與動能：(1) 高頻天線 — [[5G]]/Wi-Fi 6/7 通訊天線模組，供應筆電、智慧型手機及寬頻網通設備；(2) [[低軌衛星]]天線 — 發展低軌衛星通訊用天線模組；(3) [[IMU]]/AHRS 慣性導航模組 — 台灣首家自主研發將無線天線結合 [[MEMS]] 慣性感測元件的廠商，應用於高階無人機、無人搬運車 (AGV) 及機器人自動控制系統。上游材料包含陶瓷粉體、FPC/LCP 基材、射頻 IC 及 [[MEMS]] 晶片。",
+    "supply_chain_md": "**上游 (材料與元件):**\n- **基材:** FPC/LCP 軟性基材供應商\n- **射頻 IC:** 射頻晶片供應商\n- **[[MEMS]] 晶片:** 慣性感測 [[MEMS]] 元件供應商\n- **陶瓷粉體:** 高頻陶瓷粉體\n\n**中游 (天線與感測模組):**\n- **高頻天線:** **連騰** ([[5G]]/Wi-Fi 6/7 通訊天線)\n- **衛星天線:** **連騰** ([[低軌衛星]]通訊天線)\n- **[[IMU]] 模組:** **連騰** (無人機/AGV 慣性導航模組)\n\n**下游 (終端應用):**\n- **筆電品牌:** 全球筆電大廠 — [[5G]]/Wi-Fi 天線模組\n- **網通設備:** 寬頻網通設備商 — Wi-Fi 7 天線\n- **無人機:** 無人機與 AGV 製造商 — [[IMU]] 導航模組\n- **[[低軌衛星]]:** 衛星通訊設備商 — 衛星天線",
+    "customers_suppliers_md": "### 主要客戶\n- **筆電品牌:** 全球筆電大廠 — [[5G]]/Wi-Fi 天線模組\n- **網通設備:** 寬頻網通設備製造商 — Wi-Fi 7 天線\n- **無人機/AGV:** AI 機器人與無人機廠 — [[IMU]] 慣性導航模組\n- **[[低軌衛星]]:** 衛星通訊設備商 — 衛星天線\n\n### 主要供應商\n- **基材:** FPC/LCP 軟性基材供應商\n- **射頻 IC:** 射頻晶片供應商\n- **[[MEMS]]:** 慣性感測元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

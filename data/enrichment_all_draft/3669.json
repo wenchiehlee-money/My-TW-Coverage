@@ -1,0 +1,273 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3669",
+  "company_name": "圓展",
+  "title": "3669 - 圓展",
+  "source_md": "Pilot_Reports/Consumer Electronics/3669_圓展.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "3,680 百萬台幣",
+    "enterprise_value": "3,007 百萬台幣"
+  },
+  "business": {
+    "summary": "圓展科技股份有限公司 (3669) 是一家專注於教育整合與視訊通訊解決方案的全球供應商，以自有品牌 [[AVer]] 行銷全球。核心產品與競爭力：(1) 智慧教育解決方案 — 為全球前三大實物攝影機 (Visualizer) 製造商，另提供充電車、互動式觸控螢幕及智慧教室視訊系統；(2) 專業視訊通訊 — 生產專業級自動追蹤攝影機 ([[PTZ]])、聲音追蹤攝影機及視訊會議終端，具備多項 [[Zoom]] 與 [[Microsoft Teams]] 產品認證；(3) 智慧醫療影像 — 研發醫療級攝影機，應用於手術直播、遠端照護；(4) [[AI]] 科技整合 — 導入 AI 人形追蹤、智慧框選與降噪技術。",
+    "entities": [
+      "AVer",
+      "PTZ",
+      "Zoom",
+      "Microsoft Teams",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (影像與電子元件)",
+        "text": "**上游 (影像與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "影像感測器",
+        "text": "[[CIS]] 晶片供應商",
+        "entities": [
+          "CIS"
+        ]
+      },
+      {
+        "category": "處理器",
+        "text": "影像處理器晶片",
+        "entities": []
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "光學鏡頭組供應商",
+        "entities": []
+      },
+      {
+        "category": "電路板",
+        "text": "[[PCB]] 基板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (視訊設備設計製造)",
+        "text": "**中游 (視訊設備設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "實物攝影機",
+        "text": "**圓展** ([[AVer]] 品牌 Visualizer)",
+        "entities": [
+          "AVer"
+        ]
+      },
+      {
+        "category": "PTZ 攝影機",
+        "text": "**圓展** ([[PTZ]] 自動追蹤攝影機)",
+        "entities": [
+          "PTZ"
+        ]
+      },
+      {
+        "category": "視訊會議",
+        "text": "**圓展** (視訊會議終端設備)",
+        "entities": []
+      },
+      {
+        "category": "充電車",
+        "text": "**圓展** (平板/筆電充電管理車)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (教育與企業市場)",
+        "text": "**下游 (教育與企業市場):**",
+        "entities": []
+      },
+      {
+        "category": "教育市場",
+        "text": "各國政府教育採購標案、K-12 學校與高等教育機構",
+        "entities": []
+      },
+      {
+        "category": "企業用戶",
+        "text": "中小型會議空間、大型活動直播",
+        "entities": []
+      },
+      {
+        "category": "醫療機構",
+        "text": "智慧病房建置案",
+        "entities": []
+      },
+      {
+        "category": "經銷體系",
+        "text": "全球教育與 IT 設備經銷商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "教育市場",
+        "text": "各國政府教育標案 — 實物攝影機/充電車",
+        "entities": []
+      },
+      {
+        "role": "企業用戶",
+        "text": "全球企業 — [[Zoom]]/[[Microsoft Teams]] 認證視訊設備",
+        "entities": [
+          "Zoom",
+          "Microsoft Teams"
+        ]
+      },
+      {
+        "role": "醫療機構",
+        "text": "醫療體系 — 手術直播/遠距照護攝影機",
+        "entities": []
+      },
+      {
+        "role": "經銷體系",
+        "text": "全球教育與 IT 設備經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "影像感測器",
+        "text": "[[CIS]] 晶片供應商",
+        "entities": [
+          "CIS"
+        ]
+      },
+      {
+        "role": "光學鏡頭",
+        "text": "精密光學鏡頭模組廠",
+        "entities": []
+      },
+      {
+        "role": "處理器",
+        "text": "影像處理器晶片原廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Zoom",
+          "Microsoft Teams"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": [
+      {
+        "text": "圓展科技股份有限公司 (3669) 是一家專注於教育整合與視訊通訊解決方案的全球供應商，以自有品牌 [[AVer]] 行銷全球。核心產品與競爭力：(1) 智慧教育解決方案 — 為全球前三大實物攝影機 (Visualizer) 製造商，另提供充電車、互動式觸控螢幕及智慧教室視訊系統；(2) 專業視訊通訊 — 生產專業級自動追蹤攝影機 ([[PTZ]])、聲音追蹤攝影機及視訊會議終端，具備多項 [[Zoom]] 與 [[Microsoft Teams]] 產品認證；(3) 智慧醫療影像 — 研發醫療級攝影機，應用於手術直播、遠端照護；(4) [[AI]] 科技整合 — 導入 AI 人形追蹤、智慧框選與降噪技術。",
+        "entities": [
+          "AVer",
+          "PTZ",
+          "Zoom",
+          "Microsoft Teams",
+          "AI"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "AVer",
+      "type": "international_company_or_term",
+      "wikilink": "AVer"
+    },
+    {
+      "name": "PTZ",
+      "type": "international_company_or_term",
+      "wikilink": "PTZ"
+    },
+    {
+      "name": "Zoom",
+      "type": "international_company_or_term",
+      "wikilink": "Zoom"
+    },
+    {
+      "name": "Microsoft Teams",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Teams"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "圓展科技股份有限公司 (3669) 是一家專注於教育整合與視訊通訊解決方案的全球供應商，以自有品牌 [[AVer]] 行銷全球。核心產品與競爭力：(1) 智慧教育解決方案 — 為全球前三大實物攝影機 (Visualizer) 製造商，另提供充電車、互動式觸控螢幕及智慧教室視訊系統；(2) 專業視訊通訊 — 生產專業級自動追蹤攝影機 ([[PTZ]])、聲音追蹤攝影機及視訊會議終端，具備多項 [[Zoom]] 與 [[Microsoft Teams]] 產品認證；(3) 智慧醫療影像 — 研發醫療級攝影機，應用於手術直播、遠端照護；(4) [[AI]] 科技整合 — 導入 AI 人形追蹤、智慧框選與降噪技術。",
+    "supply_chain_md": "**上游 (影像與電子元件):**\n- **影像感測器:** [[CIS]] 晶片供應商\n- **處理器:** 影像處理器晶片\n- **光學鏡頭:** 光學鏡頭組供應商\n- **電路板:** [[PCB]] 基板\n\n**中游 (視訊設備設計製造):**\n- **實物攝影機:** **圓展** ([[AVer]] 品牌 Visualizer)\n- **PTZ 攝影機:** **圓展** ([[PTZ]] 自動追蹤攝影機)\n- **視訊會議:** **圓展** (視訊會議終端設備)\n- **充電車:** **圓展** (平板/筆電充電管理車)\n\n**下游 (教育與企業市場):**\n- **教育市場:** 各國政府教育採購標案、K-12 學校與高等教育機構\n- **企業用戶:** 中小型會議空間、大型活動直播\n- **醫療機構:** 智慧病房建置案\n- **經銷體系:** 全球教育與 IT 設備經銷商",
+    "customers_suppliers_md": "### 主要客戶\n- **教育市場:** 各國政府教育標案 — 實物攝影機/充電車\n- **企業用戶:** 全球企業 — [[Zoom]]/[[Microsoft Teams]] 認證視訊設備\n- **醫療機構:** 醫療體系 — 手術直播/遠距照護攝影機\n- **經銷體系:** 全球教育與 IT 設備經銷商\n\n### 主要供應商\n- **影像感測器:** [[CIS]] 晶片供應商\n- **光學鏡頭:** 精密光學鏡頭模組廠\n- **處理器:** 影像處理器晶片原廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3680",
+  "company_name": "家登",
+  "title": "3680 - 家登",
+  "source_md": "Pilot_Reports/Semiconductors/3680_家登.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "36,976 百萬台幣",
+    "enterprise_value": "42,166 百萬台幣"
+  },
+  "business": {
+    "summary": "家登精密 (Gudeng) 為全球[[半導體]] **光罩與晶圓傳載解決方案** 的領先供應商。\n公司是全球極少數獲得 **[[ASML]]** 認證的 **極紫外光光罩盒 ([[EUV]] Pod)** 供應商，且在全球先進製程市佔率超過 80%。\n核心業務與亮點：\n1.  **[[EUV]] 光罩載具壟斷**: 為[[台積電]] 7nm、5nm、3nm 及未來 2nm 先進製程的獨家或主要供應商。隨著 [[EUV]] 使用層數增加，[[EUV]] Pod 消耗與需求持續攀升。\n2.  **晶圓載具 (FOUP) 擴張**: 積極佈局 12 吋前開式晶圓傳送盒 (FOUP)，已大量進入陸系及美系[[半導體]]廠，市佔率目標 50% 以上。\n3.  **先进封装佈局**: 開發 Panel FOUP 及晶圓框架盒 (Frame Cassette)，切入 **[[CoWoS]]** 等 [[AI]] 晶片所需的先進封裝傳載市場。\n4.  航太精密加工：利用高階精密模具技術，打入波音 (Boeing) 及 [[GE]] 航太供應鏈，生產液壓系統關鍵組件，優化產品組合。",
+    "entities": [
+      "半導體",
+      "ASML",
+      "EUV",
+      "台積電",
+      "CoWoS",
+      "AI",
+      "GE"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 特殊工程塑膠、精密金屬靶材、光學鏡片加工。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**晶圓代工巨頭**: [[台積電]] (最大客戶，營收佔比 >50%)、[[Intel]]、[[Samsung]]。",
+        "entities": [
+          "台積電",
+          "Intel",
+          "Samsung"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**先進設備廠**: [[ASML]] (策略合作夥伴)。",
+        "entities": [
+          "ASML"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**陸系半導體**: 中芯國際、華虹等。",
+        "entities": []
+      }
+    ],
+    "other": [
+      {
+        "category": "",
+        "text": "**角色**: 先進製程關鍵耗材與載具龍頭。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台積電]], [[Intel]], [[Samsung]], 美光 ([[Micron]]), [[SK Hynix]]。",
+        "entities": [
+          "台積電",
+          "Intel",
+          "Samsung",
+          "Micron",
+          "SK Hynix"
+        ]
+      },
+      {
+        "role": "",
+        "text": "陸系晶圓代工廠 (FOUP 主要成長動能)。",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "航太客戶：波音, [[GE]] Aerospace。",
+        "entities": [
+          "GE"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "Intel",
+          "Samsung",
+          "Micron",
+          "SK Hynix",
+          "GE"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "EUV",
+      "type": "technology",
+      "wikilink": "EUV"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "家登精密 (Gudeng) 為全球[[半導體]] **光罩與晶圓傳載解決方案** 的領先供應商。\n公司是全球極少數獲得 **[[ASML]]** 認證的 **極紫外光光罩盒 ([[EUV]] Pod)** 供應商，且在全球先進製程市佔率超過 80%。\n核心業務與亮點：\n1.  **[[EUV]] 光罩載具壟斷**: 為[[台積電]] 7nm、5nm、3nm 及未來 2nm 先進製程的獨家或主要供應商。隨著 [[EUV]] 使用層數增加，[[EUV]] Pod 消耗與需求持續攀升。\n2.  **晶圓載具 (FOUP) 擴張**: 積極佈局 12 吋前開式晶圓傳送盒 (FOUP)，已大量進入陸系及美系[[半導體]]廠，市佔率目標 50% 以上。\n3.  **先进封装佈局**: 開發 Panel FOUP 及晶圓框架盒 (Frame Cassette)，切入 **[[CoWoS]]** 等 [[AI]] 晶片所需的先進封裝傳載市場。\n4.  航太精密加工：利用高階精密模具技術，打入波音 (Boeing) 及 [[GE]] 航太供應鏈，生產液壓系統關鍵組件，優化產品組合。",
+    "supply_chain_md": "*   **角色**: 先進製程關鍵耗材與載具龍頭。\n*   **上游**: 特殊工程塑膠、精密金屬靶材、光學鏡片加工。\n*   **下游**:\n    *   **晶圓代工巨頭**: [[台積電]] (最大客戶，營收佔比 >50%)、[[Intel]]、[[Samsung]]。\n    *   **先進設備廠**: [[ASML]] (策略合作夥伴)。\n    *   **陸系半導體**: 中芯國際、華虹等。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[台積電]], [[Intel]], [[Samsung]], 美光 ([[Micron]]), [[SK Hynix]]。\n*   陸系晶圓代工廠 (FOUP 主要成長動能)。\n*   航太客戶：波音, [[GE]] Aerospace。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

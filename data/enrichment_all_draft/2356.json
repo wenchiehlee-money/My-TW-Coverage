@@ -1,0 +1,374 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2356",
+  "company_name": "英業達",
+  "title": "2356 - [[英業達]]",
+  "source_md": "Pilot_Reports/Computer Hardware/2356_英業達.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "216,325 百萬台幣",
+    "enterprise_value": "259,071 百萬台幣"
+  },
+  "business": {
+    "summary": "[[英業達]] (2356，[[Inventec Corporation]]) 成立於 1975 年，總部位於台北，為全球第四大筆記型電腦 ODM 代工廠，同時為台灣主要 [[AI 伺服器]]代工廠之一，與[[廣達]]、[[緯創]]、[[仁寶]]、[[和碩]]並稱「電子五哥」。\n\nAI 伺服器已佔伺服器營收約 45%，2026 年目標挑戰 50% 以上。主要出貨機型為 [[NVIDIA]] HGX 平台，積極布局下一代 B300/GB300 產品線。除筆電及伺服器兩大核心外，公司亦跨足邊緣 AI 裝置 (IP Cam、AGV 自動導引車)、[[5G]] 硬軟體、太陽能電池及醫療設備等新興領域。製造基地涵蓋台灣、中國上海/南京、捷克及墨西哥。",
+    "entities": [
+      "英業達",
+      "Inventec Corporation",
+      "AI 伺服器",
+      "廣達",
+      "緯創",
+      "仁寶",
+      "和碩",
+      "NVIDIA",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 筆電/伺服器 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]] — AI 伺服器 GPU (HGX 平台)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]]、[[群創]] — 筆電液晶面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (筆電與伺服器 ODM 代工)",
+        "text": "**中游 (筆電與伺服器 ODM 代工):**",
+        "entities": []
+      },
+      {
+        "category": "筆電代工",
+        "text": "**[[英業達]]** (全球第四大筆電 ODM 廠)",
+        "entities": [
+          "英業達"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**[[英業達]]** ([[NVIDIA]] HGX 平台 AI 訓練伺服器)",
+        "entities": [
+          "英業達",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "邊緣 AI",
+        "text": "**[[英業達]]** (IP Cam、AGV 等邊緣裝置)",
+        "entities": [
+          "英業達"
+        ]
+      },
+      {
+        "category": "海外產能",
+        "text": "中國上海/南京、捷克、墨西哥",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (PC 品牌與雲端服務商)",
+        "text": "**下游 (PC 品牌與雲端服務商):**",
+        "entities": []
+      },
+      {
+        "category": "PC 品牌",
+        "text": "[[HP]]、[[Toshiba]]、[[宏碁]] — 筆電 ODM 代工",
+        "entities": [
+          "HP",
+          "Toshiba",
+          "宏碁"
+        ]
+      },
+      {
+        "category": "CSP 雲端",
+        "text": "北美/亞洲雲端服務商 — AI 伺服器",
+        "entities": []
+      },
+      {
+        "category": "企業伺服器",
+        "text": "[[HP Enterprise]] (HPE) — 企業級伺服器",
+        "entities": [
+          "HP Enterprise"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PC 品牌",
+        "text": "[[HP]] — 最大筆電代工客戶",
+        "entities": [
+          "HP"
+        ]
+      },
+      {
+        "role": "PC 品牌",
+        "text": "[[Toshiba]]、[[宏碁]] — 筆電 ODM 代工",
+        "entities": [
+          "Toshiba",
+          "宏碁"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "北美 CSP 雲端服務商 — [[NVIDIA]] HGX 平台 AI 伺服器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "企業伺服器",
+        "text": "[[HP Enterprise]] (HPE) — 企業級伺服器代工",
+        "entities": [
+          "HP Enterprise"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — CPU 平台",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]] — AI 伺服器 GPU 加速卡",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]] — 筆電液晶面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "HP",
+          "Toshiba",
+          "宏碁",
+          "NVIDIA",
+          "HP Enterprise"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "Inventec Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "Inventec Corporation"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Toshiba",
+      "type": "international_company_or_term",
+      "wikilink": "Toshiba"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "HP Enterprise",
+      "type": "international_company_or_term",
+      "wikilink": "HP Enterprise"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[英業達]] (2356，[[Inventec Corporation]]) 成立於 1975 年，總部位於台北，為全球第四大筆記型電腦 ODM 代工廠，同時為台灣主要 [[AI 伺服器]]代工廠之一，與[[廣達]]、[[緯創]]、[[仁寶]]、[[和碩]]並稱「電子五哥」。\n\nAI 伺服器已佔伺服器營收約 45%，2026 年目標挑戰 50% 以上。主要出貨機型為 [[NVIDIA]] HGX 平台，積極布局下一代 B300/GB300 產品線。除筆電及伺服器兩大核心外，公司亦跨足邊緣 AI 裝置 (IP Cam、AGV 自動導引車)、[[5G]] 硬軟體、太陽能電池及醫療設備等新興領域。製造基地涵蓋台灣、中國上海/南京、捷克及墨西哥。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **處理器:** [[Intel]]、[[AMD]] — 筆電/伺服器 CPU\n- **GPU:** [[NVIDIA]] — AI 伺服器 GPU (HGX 平台)\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD\n- **面板:** [[友達]]、[[群創]] — 筆電液晶面板\n\n**中游 (筆電與伺服器 ODM 代工):**\n- **筆電代工:** **[[英業達]]** (全球第四大筆電 ODM 廠)\n- **AI 伺服器:** **[[英業達]]** ([[NVIDIA]] HGX 平台 AI 訓練伺服器)\n- **邊緣 AI:** **[[英業達]]** (IP Cam、AGV 等邊緣裝置)\n- **海外產能:** 中國上海/南京、捷克、墨西哥\n\n**下游 (PC 品牌與雲端服務商):**\n- **PC 品牌:** [[HP]]、[[Toshiba]]、[[宏碁]] — 筆電 ODM 代工\n- **CSP 雲端:** 北美/亞洲雲端服務商 — AI 伺服器\n- **企業伺服器:** [[HP Enterprise]] (HPE) — 企業級伺服器",
+    "customers_suppliers_md": "### 主要客戶\n- **PC 品牌:** [[HP]] — 最大筆電代工客戶\n- **PC 品牌:** [[Toshiba]]、[[宏碁]] — 筆電 ODM 代工\n- **AI 伺服器:** 北美 CSP 雲端服務商 — [[NVIDIA]] HGX 平台 AI 伺服器\n- **企業伺服器:** [[HP Enterprise]] (HPE) — 企業級伺服器代工\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — CPU 平台\n- **GPU:** [[NVIDIA]] — AI 伺服器 GPU 加速卡\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD\n- **面板:** [[友達]]、[[群創]] — 筆電液晶面板"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 21,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

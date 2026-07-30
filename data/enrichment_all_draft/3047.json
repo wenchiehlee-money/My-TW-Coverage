@@ -1,0 +1,261 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3047",
+  "company_name": "訊舟",
+  "title": "3047 - 訊舟",
+  "source_md": "Pilot_Reports/Communication Equipment/3047_訊舟.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "3,036 百萬台幣",
+    "enterprise_value": "3,823 百萬台幣"
+  },
+  "business": {
+    "summary": "訊舟科技 (3047，[[EDIMAX]]) 為台灣老牌網通設備廠商，以自有品牌 EDIMAX 及 COMTREND 雙品牌行銷全球，成立於 1986 年，擁有超過三十年網通產品研發製造經驗，服務全球逾 300 個合作夥伴。核心產品涵蓋家用及企業級 [[Wi-Fi]] 路由器、網管型交換器、無線基地台 (AP)、[[AIoT]] 空氣品質監測方案 (AirBox) 及工業交換器。\n\n公司持有子公司 [[康全電訊]] (8089，Comtrend，持股約 33%)，康全專注於電信營運商標案與寬頻設備，近年在印度市場表現亮眼，成功取得印度最大行動電信業者之 [[5G]] 標案，帶動營收大幅成長，成為集團重要獲利引擎。訊舟近年積極拓展 AIoT 應用及企業級網管方案，同時透過 OBM 與 ODM 雙軌策略拓展全球市場。",
+    "entities": [
+      "EDIMAX",
+      "Wi-Fi",
+      "AIoT",
+      "康全電訊",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與元件)",
+        "text": "**上游 (網通晶片與元件):**",
+        "entities": []
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "[[瑞昱]]、[[聯發科]] — Wi-Fi 路由解決方案",
+        "entities": [
+          "瑞昱",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "寬頻晶片",
+        "text": "[[Broadcom]] — 寬頻路由晶片",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "感測器",
+        "text": "AIoT 環境感測器零組件",
+        "entities": []
+      },
+      {
+        "category": "光通訊模組",
+        "text": "光收發模組元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (網通設備品牌與製造)",
+        "text": "**中游 (網通設備品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "消費品牌",
+        "text": "**訊舟** (EDIMAX 品牌 — 路由器/交換器/AP)",
+        "entities": []
+      },
+      {
+        "category": "電信設備",
+        "text": "[[康全電訊]] (Comtrend，8089 — 局端寬頻設備/5G CPE)",
+        "entities": [
+          "康全電訊"
+        ]
+      },
+      {
+        "category": "AIoT",
+        "text": "**訊舟** (AirBox 空氣品質監測系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信營運商與消費通路)",
+        "text": "**下游 (電信營運商與消費通路):**",
+        "entities": []
+      },
+      {
+        "category": "印度電信",
+        "text": "印度最大行動電信業者 5G 標案 ([[康全電訊]] 主導)",
+        "entities": [
+          "康全電訊"
+        ]
+      },
+      {
+        "category": "新興市場",
+        "text": "亞太及新興國家電信營運商寬頻設備",
+        "entities": []
+      },
+      {
+        "category": "消費通路",
+        "text": "全球中小企業及 SOHO 用戶 (歐美亞 IT 經銷商)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "印度電信",
+        "text": "印度最大行動電信業者 — [[康全電訊]] 5G 標案 (營收成長五成以上)",
+        "entities": [
+          "康全電訊"
+        ]
+      },
+      {
+        "role": "新興市場電信",
+        "text": "東南亞及新興國家電信營運商 — 局端寬頻設備",
+        "entities": []
+      },
+      {
+        "role": "歐美消費",
+        "text": "EDIMAX 品牌透過代理商 (如英國 Solwise) 銷售予 SMB 及消費者",
+        "entities": []
+      },
+      {
+        "role": "AIoT",
+        "text": "政府機關及學校空氣品質監測標案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "[[瑞昱]]、[[聯發科]]",
+        "entities": [
+          "瑞昱",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "寬頻晶片",
+        "text": "[[Broadcom]]",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "子公司",
+        "text": "[[康全電訊]] (8089，持股約 33%，電信標案主力)",
+        "entities": [
+          "康全電訊"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "康全電訊"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EDIMAX",
+      "type": "international_company_or_term",
+      "wikilink": "EDIMAX"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "康全電訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康全電訊"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "訊舟科技 (3047，[[EDIMAX]]) 為台灣老牌網通設備廠商，以自有品牌 EDIMAX 及 COMTREND 雙品牌行銷全球，成立於 1986 年，擁有超過三十年網通產品研發製造經驗，服務全球逾 300 個合作夥伴。核心產品涵蓋家用及企業級 [[Wi-Fi]] 路由器、網管型交換器、無線基地台 (AP)、[[AIoT]] 空氣品質監測方案 (AirBox) 及工業交換器。\n\n公司持有子公司 [[康全電訊]] (8089，Comtrend，持股約 33%)，康全專注於電信營運商標案與寬頻設備，近年在印度市場表現亮眼，成功取得印度最大行動電信業者之 [[5G]] 標案，帶動營收大幅成長，成為集團重要獲利引擎。訊舟近年積極拓展 AIoT 應用及企業級網管方案，同時透過 OBM 與 ODM 雙軌策略拓展全球市場。",
+    "supply_chain_md": "**上游 (網通晶片與元件):**\n- **Wi-Fi 晶片:** [[瑞昱]]、[[聯發科]] — Wi-Fi 路由解決方案\n- **寬頻晶片:** [[Broadcom]] — 寬頻路由晶片\n- **感測器:** AIoT 環境感測器零組件\n- **光通訊模組:** 光收發模組元件\n\n**中游 (網通設備品牌與製造):**\n- **消費品牌:** **訊舟** (EDIMAX 品牌 — 路由器/交換器/AP)\n- **電信設備:** [[康全電訊]] (Comtrend，8089 — 局端寬頻設備/5G CPE)\n- **AIoT:** **訊舟** (AirBox 空氣品質監測系統)\n\n**下游 (電信營運商與消費通路):**\n- **印度電信:** 印度最大行動電信業者 5G 標案 ([[康全電訊]] 主導)\n- **新興市場:** 亞太及新興國家電信營運商寬頻設備\n- **消費通路:** 全球中小企業及 SOHO 用戶 (歐美亞 IT 經銷商)",
+    "customers_suppliers_md": "### 主要客戶\n- **印度電信:** 印度最大行動電信業者 — [[康全電訊]] 5G 標案 (營收成長五成以上)\n- **新興市場電信:** 東南亞及新興國家電信營運商 — 局端寬頻設備\n- **歐美消費:** EDIMAX 品牌透過代理商 (如英國 Solwise) 銷售予 SMB 及消費者\n- **AIoT:** 政府機關及學校空氣品質監測標案\n\n### 主要供應商\n- **Wi-Fi 晶片:** [[瑞昱]]、[[聯發科]]\n- **寬頻晶片:** [[Broadcom]]\n- **子公司:** [[康全電訊]] (8089，持股約 33%，電信標案主力)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8424",
+  "company_name": "惠普",
+  "title": "8424 - 惠普",
+  "source_md": "Pilot_Reports/Building Materials/8424_惠普.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "2,466 百萬台幣",
+    "enterprise_value": "2,155 百萬台幣"
+  },
+  "business": {
+    "summary": "惠普股份有限公司 (8424，Wellpool) 成立於 1981 年，為[[國產建材實業]]集團關係企業。公司為台灣最大之[[矽酸鈣板]]製造商，主要從事無石棉矽酸鈣板及[[纖維水泥板]]等防火環保建材的生產、進口與銷售。產品廣泛應用於建築物室內天花板與隔間牆，具備優異的防火、防潮與隔音特性，深受國內裝潢與營建市場青睞。公司利用高溫高壓蒸汽養護技術製造高品質產品。",
+    "entities": [
+      "國產建材實業",
+      "矽酸鈣板",
+      "纖維水泥板"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料採購)",
+        "text": "**上游 (原料採購):**",
+        "entities": []
+      },
+      {
+        "category": "基礎材料",
+        "text": "[[波特蘭水泥]]、矽砂及紙漿纖維等主要原物料",
+        "entities": [
+          "波特蘭水泥"
+        ]
+      },
+      {
+        "category": "集團資源",
+        "text": "部分來自[[國產建材實業]]集團內部供應",
+        "entities": [
+          "國產建材實業"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (核心製造)",
+        "text": "**中游 (核心製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**惠普** — 高溫高壓蒸汽養護技術，製造無石棉[[矽酸鈣板]]及[[纖維水泥板]]",
+        "entities": [
+          "矽酸鈣板",
+          "纖維水泥板"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "室內裝修",
+        "text": "商辦、廠房及住宅之防火隔間與天花板工程",
+        "entities": []
+      },
+      {
+        "category": "營建業",
+        "text": "各級營造廠與室內裝修工程公司",
+        "entities": []
+      },
+      {
+        "category": "通路",
+        "text": "建材經銷商與五金賣場",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "營造業",
+        "text": "國內各級營造廠 — 防火隔間與天花板工程用板材",
+        "entities": []
+      },
+      {
+        "role": "室內裝修",
+        "text": "商辦、廠房及住宅裝修工程公司",
+        "entities": []
+      },
+      {
+        "role": "建材通路",
+        "text": "經銷商與五金賣場通路",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "集團關係",
+        "text": "[[國產建材實業]] — 水泥及相關原物料",
+        "entities": [
+          "國產建材實業"
+        ]
+      },
+      {
+        "role": "原物料",
+        "text": "矽砂、紙漿纖維供應商",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "高溫高壓蒸壓釜設備製造商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Materials):** [[台泥]]、[[亞泥]]、[[嘉泥]]、[[環泥]]、[[幸福]]",
+        "entities": [
+          "台泥",
+          "亞泥",
+          "嘉泥",
+          "環泥",
+          "幸福"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "國產建材實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國產建材實業"
+    },
+    {
+      "name": "矽酸鈣板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽酸鈣板"
+    },
+    {
+      "name": "纖維水泥板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "纖維水泥板"
+    },
+    {
+      "name": "波特蘭水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "波特蘭水泥"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "嘉泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉泥"
+    },
+    {
+      "name": "環泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環泥"
+    },
+    {
+      "name": "幸福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "幸福"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "惠普股份有限公司 (8424，Wellpool) 成立於 1981 年，為[[國產建材實業]]集團關係企業。公司為台灣最大之[[矽酸鈣板]]製造商，主要從事無石棉矽酸鈣板及[[纖維水泥板]]等防火環保建材的生產、進口與銷售。產品廣泛應用於建築物室內天花板與隔間牆，具備優異的防火、防潮與隔音特性，深受國內裝潢與營建市場青睞。公司利用高溫高壓蒸汽養護技術製造高品質產品。",
+    "supply_chain_md": "**上游 (原料採購):**\n- **基礎材料:** [[波特蘭水泥]]、矽砂及紙漿纖維等主要原物料\n- **集團資源:** 部分來自[[國產建材實業]]集團內部供應\n\n**中游 (核心製造):**\n- **惠普** — 高溫高壓蒸汽養護技術，製造無石棉[[矽酸鈣板]]及[[纖維水泥板]]\n\n**下游 (終端應用):**\n- **室內裝修:** 商辦、廠房及住宅之防火隔間與天花板工程\n- **營建業:** 各級營造廠與室內裝修工程公司\n- **通路:** 建材經銷商與五金賣場",
+    "customers_suppliers_md": "### 主要客戶\n- **營造業:** 國內各級營造廠 — 防火隔間與天花板工程用板材\n- **室內裝修:** 商辦、廠房及住宅裝修工程公司\n- **建材通路:** 經銷商與五金賣場通路\n\n### 主要供應商\n- **集團關係:** [[國產建材實業]] — 水泥及相關原物料\n- **原物料:** 矽砂、紙漿纖維供應商\n- **設備:** 高溫高壓蒸壓釜設備製造商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1338",
+  "company_name": "廣華-KY",
+  "title": "1338 - 廣華-KY",
+  "source_md": "Pilot_Reports/Auto Parts/1338_廣華-KY.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,244 百萬台幣",
+    "enterprise_value": "4,768 百萬台幣"
+  },
+  "business": {
+    "summary": "廣華-KY (1338，Hiroca Holdings) 為汽車內外飾件 Tier 1/Tier 2 供應商，專精水轉印、IMD (模內裝飾) 及光電整合技術，產品涵蓋儀表板、車門飾板、方向盤加飾件及氛圍燈/發光車標等高附加價值光電件。客戶結構已從日系為主轉型為多元分散：日系 46% — [[Nissan]] (最大客戶)、[[Honda]]；歐美 25% — [[Stellantis]] (第二大)、[[Volkswagen]]、[[Volvo]]、[[GM]]；中國自主品牌 28% — [[比亞迪]] (第三大，佔約 10%)、[[長城汽車]] (第四大，佔約 8%)、[[長安汽車]]、[[吉利汽車]]、[[廣汽集團]]、[[華為]]對應車款。",
+    "entities": [
+      "Nissan",
+      "Honda",
+      "Stellantis",
+      "Volkswagen",
+      "Volvo",
+      "GM",
+      "比亞迪",
+      "長城汽車",
+      "長安汽車",
+      "吉利汽車",
+      "廣汽集團",
+      "華為"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "化學塗料",
+        "text": "塗料供應商",
+        "entities": []
+      },
+      {
+        "category": "工程塑膠",
+        "text": "塑膠原料",
+        "entities": []
+      },
+      {
+        "category": "LED 元件",
+        "text": "LED 光電元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**廣華** (塑膠射出/水轉印/IMD 加飾/光電模組整合)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OEM 客戶)",
+        "text": "**下游 (OEM 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "日系",
+        "text": "[[Nissan]] (最大客戶)、[[Honda]]",
+        "entities": [
+          "Nissan",
+          "Honda"
+        ]
+      },
+      {
+        "category": "歐美",
+        "text": "[[Stellantis]] (第二大)、[[Volkswagen]]、[[Volvo]]、[[GM]]",
+        "entities": [
+          "Stellantis",
+          "Volkswagen",
+          "Volvo",
+          "GM"
+        ]
+      },
+      {
+        "category": "中國自主",
+        "text": "[[比亞迪]] (第三大)、[[長城汽車]]、[[長安汽車]]、[[吉利汽車]]、[[廣汽集團]]",
+        "entities": [
+          "比亞迪",
+          "長城汽車",
+          "長安汽車",
+          "吉利汽車",
+          "廣汽集團"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日系 (46%)",
+        "text": "[[Nissan]] (最大客戶)、[[Honda]]",
+        "entities": [
+          "Nissan",
+          "Honda"
+        ]
+      },
+      {
+        "role": "歐美 (25%)",
+        "text": "[[Stellantis]] (第二大)、[[Volkswagen]]、[[Volvo]]、[[GM]]",
+        "entities": [
+          "Stellantis",
+          "Volkswagen",
+          "Volvo",
+          "GM"
+        ]
+      },
+      {
+        "role": "中國自主 (28%)",
+        "text": "[[比亞迪]] (~10%)、[[長城汽車]] (~8%)、[[長安汽車]]、[[吉利汽車]]、[[廣汽集團]]",
+        "entities": [
+          "比亞迪",
+          "長城汽車",
+          "長安汽車",
+          "吉利汽車",
+          "廣汽集團"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塗料/塑膠/LED",
+        "text": "化學塗料、工程塑膠、LED 元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[昭輝]]、[[正道]]、[[瑞利]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "昭輝",
+          "正道",
+          "瑞利"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Nissan",
+          "Honda",
+          "Stellantis",
+          "Volkswagen",
+          "Volvo",
+          "GM",
+          "比亞迪",
+          "長城汽車",
+          "長安汽車",
+          "吉利汽車",
+          "廣汽集團"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Stellantis",
+      "type": "international_company_or_term",
+      "wikilink": "Stellantis"
+    },
+    {
+      "name": "Volkswagen",
+      "type": "international_company_or_term",
+      "wikilink": "Volkswagen"
+    },
+    {
+      "name": "Volvo",
+      "type": "international_company_or_term",
+      "wikilink": "Volvo"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "比亞迪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "比亞迪"
+    },
+    {
+      "name": "長城汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長城汽車"
+    },
+    {
+      "name": "長安汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長安汽車"
+    },
+    {
+      "name": "吉利汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "吉利汽車"
+    },
+    {
+      "name": "廣汽集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣汽集團"
+    },
+    {
+      "name": "華為",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華為"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    },
+    {
+      "name": "瑞利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞利"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣華-KY (1338，Hiroca Holdings) 為汽車內外飾件 Tier 1/Tier 2 供應商，專精水轉印、IMD (模內裝飾) 及光電整合技術，產品涵蓋儀表板、車門飾板、方向盤加飾件及氛圍燈/發光車標等高附加價值光電件。客戶結構已從日系為主轉型為多元分散：日系 46% — [[Nissan]] (最大客戶)、[[Honda]]；歐美 25% — [[Stellantis]] (第二大)、[[Volkswagen]]、[[Volvo]]、[[GM]]；中國自主品牌 28% — [[比亞迪]] (第三大，佔約 10%)、[[長城汽車]] (第四大，佔約 8%)、[[長安汽車]]、[[吉利汽車]]、[[廣汽集團]]、[[華為]]對應車款。",
+    "supply_chain_md": "**上游 (原料):**\n- **化學塗料:** 塗料供應商\n- **工程塑膠:** 塑膠原料\n- **LED 元件:** LED 光電元件\n\n**中游 (製造):**\n- **廣華** (塑膠射出/水轉印/IMD 加飾/光電模組整合)\n\n**下游 (OEM 客戶):**\n- **日系:** [[Nissan]] (最大客戶)、[[Honda]]\n- **歐美:** [[Stellantis]] (第二大)、[[Volkswagen]]、[[Volvo]]、[[GM]]\n- **中國自主:** [[比亞迪]] (第三大)、[[長城汽車]]、[[長安汽車]]、[[吉利汽車]]、[[廣汽集團]]",
+    "customers_suppliers_md": "### 主要客戶\n- **日系 (46%):** [[Nissan]] (最大客戶)、[[Honda]]\n- **歐美 (25%):** [[Stellantis]] (第二大)、[[Volkswagen]]、[[Volvo]]、[[GM]]\n- **中國自主 (28%):** [[比亞迪]] (~10%)、[[長城汽車]] (~8%)、[[長安汽車]]、[[吉利汽車]]、[[廣汽集團]]\n\n### 主要供應商\n- **塗料/塑膠/LED:** 化學塗料、工程塑膠、LED 元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

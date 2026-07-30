@@ -1,0 +1,290 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2252",
+  "company_name": "為昇科",
+  "title": "2252 - 為昇科",
+  "source_md": "Pilot_Reports/Auto Parts/2252_為昇科.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,631 百萬台幣",
+    "enterprise_value": "1,369 百萬台幣"
+  },
+  "business": {
+    "summary": "為昇科技 (2252) 為[[為升電裝]] (2231) 子公司，專注於 24/60/77/79 GHz [[毫米波雷達]]開發，應用於[[ADAS]]先進駕駛輔助系統。核心產品涵蓋[[AEB]] (自動緊急煞車)、[[BSD]] (盲點偵測)、[[RCTA]] (後方交叉警示) 及[[4D成像雷達]]。自主設計 77GHz [[CMOS]] 雷達晶片，從天線設計到[[SMT]]製造垂直整合。在中國商用車市場為前五大 OEM 中兩家之獨家供應商。正拓展北美校車及歐日 Tier 1 ([[Bosch]]、[[Continental]]、[[Denso]]) 合作。",
+    "entities": [
+      "為升電裝",
+      "毫米波雷達",
+      "ADAS",
+      "AEB",
+      "BSD",
+      "RCTA",
+      "4D成像雷達",
+      "CMOS",
+      "SMT",
+      "Bosch",
+      "Continental",
+      "Denso"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與零組件)",
+        "text": "**上游 (晶片與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "雷達晶片",
+        "text": "自主設計 77GHz [[CMOS]] 晶片",
+        "entities": [
+          "CMOS"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[為升電裝]] (2231) — 技術與市場協同",
+        "entities": [
+          "為升電裝"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (研發製造)",
+        "text": "**中游 (研發製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**為昇科** ([[毫米波雷達]]研發製造，天線設計至[[SMT]]垂直整合)",
+        "entities": [
+          "毫米波雷達",
+          "SMT"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OEM 客戶)",
+        "text": "**下游 (OEM 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "中國商用車",
+        "text": "前五大 OEM 中兩家獨家供應 — [[AEB]]/[[BSD]]/[[RCTA]]",
+        "entities": [
+          "AEB",
+          "BSD",
+          "RCTA"
+        ]
+      },
+      {
+        "category": "北美校車",
+        "text": "校車 OEM — ADAS 雷達",
+        "entities": []
+      },
+      {
+        "category": "台灣",
+        "text": "[[電動巴士]] — 雷達系統",
+        "entities": [
+          "電動巴士"
+        ]
+      },
+      {
+        "category": "拓展中",
+        "text": "[[Bosch]]、[[Continental]]、[[Denso]] — 歐日 Tier 1 合作",
+        "entities": [
+          "Bosch",
+          "Continental",
+          "Denso"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "中國商用車",
+        "text": "前五大 OEM 中兩家獨家供應 — [[AEB]]/[[BSD]] 雷達",
+        "entities": [
+          "AEB",
+          "BSD"
+        ]
+      },
+      {
+        "role": "北美校車",
+        "text": "校車 OEM — ADAS 雷達",
+        "entities": []
+      },
+      {
+        "role": "台灣",
+        "text": "[[電動巴士]] — 雷達系統",
+        "entities": [
+          "電動巴士"
+        ]
+      },
+      {
+        "role": "拓展中",
+        "text": "[[Bosch]]、[[Continental]]、[[Denso]] — Tier 1 合作",
+        "entities": [
+          "Bosch",
+          "Continental",
+          "Denso"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雷達晶片",
+        "text": "自主設計 77GHz [[CMOS]]",
+        "entities": [
+          "CMOS"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[為升電裝]] (2231)",
+        "entities": [
+          "為升電裝"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AEB",
+          "BSD",
+          "電動巴士",
+          "Bosch",
+          "Continental",
+          "Denso"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "為升電裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "為升電裝"
+    },
+    {
+      "name": "毫米波雷達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "毫米波雷達"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "AEB",
+      "type": "international_company_or_term",
+      "wikilink": "AEB"
+    },
+    {
+      "name": "BSD",
+      "type": "international_company_or_term",
+      "wikilink": "BSD"
+    },
+    {
+      "name": "RCTA",
+      "type": "international_company_or_term",
+      "wikilink": "RCTA"
+    },
+    {
+      "name": "4D成像雷達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "4D成像雷達"
+    },
+    {
+      "name": "CMOS",
+      "type": "international_company_or_term",
+      "wikilink": "CMOS"
+    },
+    {
+      "name": "SMT",
+      "type": "international_company_or_term",
+      "wikilink": "SMT"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "Denso",
+      "type": "international_company_or_term",
+      "wikilink": "Denso"
+    },
+    {
+      "name": "電動巴士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動巴士"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "為昇科技 (2252) 為[[為升電裝]] (2231) 子公司，專注於 24/60/77/79 GHz [[毫米波雷達]]開發，應用於[[ADAS]]先進駕駛輔助系統。核心產品涵蓋[[AEB]] (自動緊急煞車)、[[BSD]] (盲點偵測)、[[RCTA]] (後方交叉警示) 及[[4D成像雷達]]。自主設計 77GHz [[CMOS]] 雷達晶片，從天線設計到[[SMT]]製造垂直整合。在中國商用車市場為前五大 OEM 中兩家之獨家供應商。正拓展北美校車及歐日 Tier 1 ([[Bosch]]、[[Continental]]、[[Denso]]) 合作。",
+    "supply_chain_md": "**上游 (晶片與零組件):**\n- **雷達晶片:** 自主設計 77GHz [[CMOS]] 晶片\n- **母公司:** [[為升電裝]] (2231) — 技術與市場協同\n\n**中游 (研發製造):**\n- **為昇科** ([[毫米波雷達]]研發製造，天線設計至[[SMT]]垂直整合)\n\n**下游 (OEM 客戶):**\n- **中國商用車:** 前五大 OEM 中兩家獨家供應 — [[AEB]]/[[BSD]]/[[RCTA]]\n- **北美校車:** 校車 OEM — ADAS 雷達\n- **台灣:** [[電動巴士]] — 雷達系統\n- **拓展中:** [[Bosch]]、[[Continental]]、[[Denso]] — 歐日 Tier 1 合作",
+    "customers_suppliers_md": "### 主要客戶\n- **中國商用車:** 前五大 OEM 中兩家獨家供應 — [[AEB]]/[[BSD]] 雷達\n- **北美校車:** 校車 OEM — ADAS 雷達\n- **台灣:** [[電動巴士]] — 雷達系統\n- **拓展中:** [[Bosch]]、[[Continental]]、[[Denso]] — Tier 1 合作\n\n### 主要供應商\n- **雷達晶片:** 自主設計 77GHz [[CMOS]]\n- **母公司:** [[為升電裝]] (2231)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

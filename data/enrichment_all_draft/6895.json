@@ -1,0 +1,169 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6895",
+  "company_name": "宏碩系統",
+  "title": "6895_宏碩系統",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/6895_宏碩系統.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "3,870 百萬台幣",
+    "enterprise_value": "3,555 百萬台幣"
+  },
+  "business": {
+    "summary": "宏碩系統 (6895) 為高真空微波元件隱形冠軍 (技術源自國防)。供應[[ASML]] [[EUV]]微波加熱模組及[[台積電]]。為[[旭暉應材]]子公司。2025年營收年增121%。",
+    "entities": [
+      "ASML",
+      "EUV",
+      "台積電",
+      "旭暉應材"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "高純度無氧銅/陶瓷",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**宏碩** (微波管/半導體微波加熱)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[ASML]]、[[台積電]]、國防軍方",
+        "entities": [
+          "ASML",
+          "台積電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[ASML]] — [[EUV]]微波加熱",
+        "entities": [
+          "ASML",
+          "EUV"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[台積電]]",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "",
+        "text": "國防軍方",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "陶瓷/銅; [[旭暉應材]] (母)",
+        "entities": [
+          "旭暉應材"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ASML",
+          "EUV",
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "EUV",
+      "type": "technology",
+      "wikilink": "EUV"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旭暉應材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭暉應材"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宏碩系統 (6895) 為高真空微波元件隱形冠軍 (技術源自國防)。供應[[ASML]] [[EUV]]微波加熱模組及[[台積電]]。為[[旭暉應材]]子公司。2025年營收年增121%。",
+    "supply_chain_md": "**上游:** 高純度無氧銅/陶瓷\n**中游:** **宏碩** (微波管/半導體微波加熱)\n**下游:** [[ASML]]、[[台積電]]、國防軍方",
+    "customers_suppliers_md": "### 主要客戶\n- [[ASML]] — [[EUV]]微波加熱\n- [[台積電]]\n- 國防軍方\n\n### 主要供應商\n- 陶瓷/銅; [[旭暉應材]] (母)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

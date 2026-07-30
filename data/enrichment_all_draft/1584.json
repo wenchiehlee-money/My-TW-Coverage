@@ -1,0 +1,202 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1584",
+  "company_name": "精剛",
+  "title": "1584 - 精剛",
+  "source_md": "Pilot_Reports/Metal Fabrication/1584_精剛.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "3,869 百萬台幣",
+    "enterprise_value": "5,787 百萬台幣"
+  },
+  "business": {
+    "summary": "精剛精密科技 (1584，S-Tech) 為台灣唯一專業生產超合金及[[鈦合金]]原材料之工廠。具備VIM/VAR/ESR熔煉、鍛造到後段加工完整製程。航太客戶間接供應[[Safran]]、[[GE Aerospace]]、[[Rolls-Royce]]引擎供應鏈。另供應油氣耐腐蝕設備及生醫人工關節。隸屬[[台灣鋼鐵集團]]。",
+    "entities": [
+      "鈦合金",
+      "Safran",
+      "GE Aerospace",
+      "Rolls-Royce",
+      "台灣鋼鐵集團"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "國際礦業/金屬貿易; [[日本鈦業]]",
+        "entities": [
+          "日本鈦業"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**精剛** ([[鈦合金]]/[[鎳基合金]]/超合金原材料)",
+        "entities": [
+          "鈦合金",
+          "鎳基合金"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "航太: [[Safran]]、[[GE Aerospace]]、[[Rolls-Royce]]供應鏈",
+        "entities": [
+          "Safran",
+          "GE Aerospace",
+          "Rolls-Royce"
+        ]
+      },
+      {
+        "category": "",
+        "text": "油氣/生醫: 耐腐蝕設備/人工關節",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Safran]]、[[GE Aerospace]]、[[Rolls-Royce]]供應鏈 — 航太",
+        "entities": [
+          "Safran",
+          "GE Aerospace",
+          "Rolls-Royce"
+        ]
+      },
+      {
+        "role": "",
+        "text": "油氣/生醫",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[日本鈦業]]; 國際礦業",
+        "entities": [
+          "日本鈦業"
+        ]
+      },
+      {
+        "role": "",
+        "text": "母: [[台灣鋼鐵集團]]",
+        "entities": [
+          "台灣鋼鐵集團"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[和勤]]、[[永冠-KY]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "和勤",
+          "永冠-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Safran",
+          "GE Aerospace",
+          "Rolls-Royce"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鈦合金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈦合金"
+    },
+    {
+      "name": "Safran",
+      "type": "international_company_or_term",
+      "wikilink": "Safran"
+    },
+    {
+      "name": "GE Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aerospace"
+    },
+    {
+      "name": "Rolls-Royce",
+      "type": "international_company_or_term",
+      "wikilink": "Rolls-Royce"
+    },
+    {
+      "name": "台灣鋼鐵集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣鋼鐵集團"
+    },
+    {
+      "name": "日本鈦業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日本鈦業"
+    },
+    {
+      "name": "鎳基合金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鎳基合金"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    },
+    {
+      "name": "永冠-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永冠-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "精剛精密科技 (1584，S-Tech) 為台灣唯一專業生產超合金及[[鈦合金]]原材料之工廠。具備VIM/VAR/ESR熔煉、鍛造到後段加工完整製程。航太客戶間接供應[[Safran]]、[[GE Aerospace]]、[[Rolls-Royce]]引擎供應鏈。另供應油氣耐腐蝕設備及生醫人工關節。隸屬[[台灣鋼鐵集團]]。",
+    "supply_chain_md": "**上游:** 國際礦業/金屬貿易; [[日本鈦業]]\n**中游:** **精剛** ([[鈦合金]]/[[鎳基合金]]/超合金原材料)\n**下游:**\n- 航太: [[Safran]]、[[GE Aerospace]]、[[Rolls-Royce]]供應鏈\n- 油氣/生醫: 耐腐蝕設備/人工關節",
+    "customers_suppliers_md": "### 主要客戶\n- [[Safran]]、[[GE Aerospace]]、[[Rolls-Royce]]供應鏈 — 航太\n- 油氣/生醫\n\n### 主要供應商\n- [[日本鈦業]]; 國際礦業\n- 母: [[台灣鋼鐵集團]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

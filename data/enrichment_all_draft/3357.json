@@ -1,0 +1,194 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3357",
+  "company_name": "臺慶科",
+  "title": "3357 - 臺慶科",
+  "source_md": "Pilot_Reports/Electronic Components/3357_臺慶科.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "18,876 百萬台幣",
+    "enterprise_value": "21,113 百萬台幣"
+  },
+  "business": {
+    "summary": "臺慶科 (TAI-TECH) 為專業 **電感 (Inductor)** 與 **磁性元件** 製造商。\n主要產品包括 **積層晶片電感**、**繞線電感**、**一體成型功率電感** (Molding Power Choke) 及 **網路變壓器**。\n產品廣泛應用於 **車用電子** ([[ADAS]], BMS, Infotainment)、**網通設備** (Router, Switch, Lan Transformer) 及 **[[AI 伺服器]]** (Power Choke, TLVR)。\n特別是 **TLVR** (Trans-Inductor Voltage Regulator) 電感已切入 [[AI]] [[伺服器]]電源供應鏈。",
+    "entities": [
+      "ADAS",
+      "AI 伺服器",
+      "AI",
+      "伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 金屬粉末 (鐵粉), 銅線, 磁芯 (Core).",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **臺慶科 (3357)** - 電感與磁性元件製造.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**車用**: [[Tesla]], [[BYD]] (透過 Tier 1).",
+        "entities": [
+          "Tesla",
+          "BYD"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**網通**: 交換器, 路由器 大廠.",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**運算**: [[AI]] [[伺服器]], 筆記型電腦 (DDR5 電感).",
+        "entities": [
+          "AI",
+          "伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "Tier 1 車用零組件廠.",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "[[網通]]設備製造商.",
+        "entities": [
+          "網通"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[AI]] [[伺服器]]代工廠.",
+        "entities": [
+          "AI",
+          "伺服器"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "網通",
+          "AI",
+          "伺服器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "臺慶科 (TAI-TECH) 為專業 **電感 (Inductor)** 與 **磁性元件** 製造商。\n主要產品包括 **積層晶片電感**、**繞線電感**、**一體成型功率電感** (Molding Power Choke) 及 **網路變壓器**。\n產品廣泛應用於 **車用電子** ([[ADAS]], BMS, Infotainment)、**網通設備** (Router, Switch, Lan Transformer) 及 **[[AI 伺服器]]** (Power Choke, TLVR)。\n特別是 **TLVR** (Trans-Inductor Voltage Regulator) 電感已切入 [[AI]] [[伺服器]]電源供應鏈。",
+    "supply_chain_md": "*   **中游 (本體)**: **臺慶科 (3357)** - 電感與磁性元件製造.\n*   **上游**: 金屬粉末 (鐵粉), 銅線, 磁芯 (Core).\n*   **下游**:\n    *   **車用**: [[Tesla]], [[BYD]] (透過 Tier 1).\n    *   **網通**: 交換器, 路由器 大廠.\n    *   **運算**: [[AI]] [[伺服器]], 筆記型電腦 (DDR5 電感).",
+    "customers_suppliers_md": "### 主要客戶\n*   Tier 1 車用零組件廠.\n*   [[網通]]設備製造商.\n*   [[AI]] [[伺服器]]代工廠."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

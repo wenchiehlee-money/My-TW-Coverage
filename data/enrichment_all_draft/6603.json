@@ -1,0 +1,267 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6603",
+  "company_name": "富強鑫",
+  "title": "6603_富強鑫",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/6603_富強鑫.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "4,350 百萬台幣",
+    "enterprise_value": "6,628 百萬台幣"
+  },
+  "business": {
+    "summary": "富強鑫集團 (6603，FCS Group) 為台灣最大且唯一上市之塑膠射出成型機製造商 (1974 年創立)。技術壁壘在多組分 (雙色/多色) 射出成型機，全球領先市占。近年大力發展[[MuCell]]物理發泡技術 (滿足運動鞋品牌輕量化/減碳) 及[[AI]]智慧製造。五大生產基地：台灣、中國 (東莞/寧波/杭州灣)、印度。下游客戶涵蓋[[Tesla]]、[[比亞迪]]、[[長城汽車]]等車廠之車燈射出件 (含[[帝寶工業]])、[[鴻海]]、[[友達]]，以及[[Adidas]]、[[Nike]]供應鏈鞋材代工廠 ([[MuCell]]發泡鞋底)。",
+    "entities": [
+      "MuCell",
+      "AI",
+      "Tesla",
+      "比亞迪",
+      "長城汽車",
+      "帝寶工業",
+      "鴻海",
+      "友達",
+      "Adidas",
+      "Nike"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材/鑄件",
+        "text": "金屬結構件",
+        "entities": []
+      },
+      {
+        "category": "油壓/伺服",
+        "text": "油壓零組件、[[伺服馬達]]、控制器",
+        "entities": [
+          "伺服馬達"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**富強鑫** (液壓/全電/多色射出成型機；[[MuCell]]發泡系統；[[AI]]智慧製造)",
+        "entities": [
+          "MuCell",
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "汽車車燈",
+        "text": "[[Tesla]]、[[比亞迪]]、[[長城汽車]]、[[帝寶工業]] — 車燈射出件",
+        "entities": [
+          "Tesla",
+          "比亞迪",
+          "長城汽車",
+          "帝寶工業"
+        ]
+      },
+      {
+        "category": "電子/面板",
+        "text": "[[鴻海]]、[[友達]]",
+        "entities": [
+          "鴻海",
+          "友達"
+        ]
+      },
+      {
+        "category": "鞋材",
+        "text": "[[Adidas]]、[[Nike]]供應鏈 — [[MuCell]]發泡鞋底",
+        "entities": [
+          "Adidas",
+          "Nike",
+          "MuCell"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "汽車",
+        "text": "[[Tesla]]、[[比亞迪]]、[[長城汽車]]、[[帝寶工業]] — 車燈射出",
+        "entities": [
+          "Tesla",
+          "比亞迪",
+          "長城汽車",
+          "帝寶工業"
+        ]
+      },
+      {
+        "role": "電子",
+        "text": "[[鴻海]]、[[友達]] — 電子/面板射出",
+        "entities": [
+          "鴻海",
+          "友達"
+        ]
+      },
+      {
+        "role": "鞋材",
+        "text": "[[Adidas]]、[[Nike]]供應鏈 — [[MuCell]]發泡鞋底",
+        "entities": [
+          "Adidas",
+          "Nike",
+          "MuCell"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "零組件",
+        "text": "鋼材/鑄件/油壓/[[伺服馬達]]",
+        "entities": [
+          "伺服馬達"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Tesla",
+          "比亞迪",
+          "長城汽車",
+          "帝寶工業",
+          "鴻海",
+          "友達",
+          "Adidas",
+          "Nike",
+          "MuCell"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "MuCell",
+      "type": "international_company_or_term",
+      "wikilink": "MuCell"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "比亞迪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "比亞迪"
+    },
+    {
+      "name": "長城汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長城汽車"
+    },
+    {
+      "name": "帝寶工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "帝寶工業"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "伺服馬達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服馬達"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富強鑫集團 (6603，FCS Group) 為台灣最大且唯一上市之塑膠射出成型機製造商 (1974 年創立)。技術壁壘在多組分 (雙色/多色) 射出成型機，全球領先市占。近年大力發展[[MuCell]]物理發泡技術 (滿足運動鞋品牌輕量化/減碳) 及[[AI]]智慧製造。五大生產基地：台灣、中國 (東莞/寧波/杭州灣)、印度。下游客戶涵蓋[[Tesla]]、[[比亞迪]]、[[長城汽車]]等車廠之車燈射出件 (含[[帝寶工業]])、[[鴻海]]、[[友達]]，以及[[Adidas]]、[[Nike]]供應鏈鞋材代工廠 ([[MuCell]]發泡鞋底)。",
+    "supply_chain_md": "**上游 (零組件):**\n- **鋼材/鑄件:** 金屬結構件\n- **油壓/伺服:** 油壓零組件、[[伺服馬達]]、控制器\n\n**中游 (製造):**\n- **富強鑫** (液壓/全電/多色射出成型機；[[MuCell]]發泡系統；[[AI]]智慧製造)\n\n**下游 (終端):**\n- **汽車車燈:** [[Tesla]]、[[比亞迪]]、[[長城汽車]]、[[帝寶工業]] — 車燈射出件\n- **電子/面板:** [[鴻海]]、[[友達]]\n- **鞋材:** [[Adidas]]、[[Nike]]供應鏈 — [[MuCell]]發泡鞋底",
+    "customers_suppliers_md": "### 主要客戶\n- **汽車:** [[Tesla]]、[[比亞迪]]、[[長城汽車]]、[[帝寶工業]] — 車燈射出\n- **電子:** [[鴻海]]、[[友達]] — 電子/面板射出\n- **鞋材:** [[Adidas]]、[[Nike]]供應鏈 — [[MuCell]]發泡鞋底\n\n### 主要供應商\n- **零組件:** 鋼材/鑄件/油壓/[[伺服馬達]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

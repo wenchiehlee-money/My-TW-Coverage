@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8114",
+  "company_name": "振樺電",
+  "title": "8114 - 振樺電",
+  "source_md": "Pilot_Reports/Business Equipment & Supplies/8114_振樺電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "15,984 百萬台幣",
+    "enterprise_value": "16,920 百萬台幣"
+  },
+  "business": {
+    "summary": "振樺電子 (Posiflex Technology) 成立於 1984 年，總部位於台灣[[新北]]。公司從傳統的 POS 硬體製造商，成功轉型為 **商用智能物聯網 (Commercial AIoT)** 的整合解決方案領導廠商。核心發展涵蓋兩大主軸：一是「線上線下 (O2O) 解決方案」 (包括 POS 機、Kiosk 自助服務機與相關周邊)，二是「嵌入式研製服務 (Embedded Foundry)」(專注於 AI 測試設備與醫療、車用之高階工業電腦)。透過併購與集團結盟，振樺電在全球 AI 硬體與智慧零售供應鏈中扮演關鍵的智能設備推手。",
+    "entities": [
+      "新北"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心晶片與機構件)",
+        "text": "**上游 (核心晶片與機構件):**",
+        "entities": []
+      },
+      {
+        "category": "基礎料件",
+        "text": "採購 CPU 等核心運算處理器、觸控面板顯示模組、高階記憶體及各式精密機構散熱機殼料件。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (AIoT 與嵌入式設備製造核心)",
+        "text": "**中游 (AIoT 與嵌入式設備製造核心):**",
+        "entities": []
+      },
+      {
+        "category": "系統整合研發",
+        "text": "**振樺電 (8114)** (全球前五大 POS 品牌廠，並透過旗下瑞傳科技與中美萬泰整併技術優勢，提供 AI 晶片測試設備、SDA 場景定義智能設備，及醫療車用高階電腦系統之 Embedded Foundry 研製服務)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (軟體應用方案與終端場景)",
+        "text": "**下游 (軟體應用方案與終端場景):**",
+        "entities": []
+      },
+      {
+        "category": "服務與部署終端",
+        "text": "全球頂尖伺服器群中心、AI 算力部署中心、國際連鎖零售集團、獨立軟體服務商 (ISV) 與大型休閒博弈娛樂場所。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "雲端 AI 與半導體巨頭",
+        "text": "高端 AI 測試設備專案主力供應美系半導體巨頭；伺服器終端更涵蓋 OCP 雲端巨頭 (如 [[Meta]]、[[Google]]、[[Amazon]]、[[Microsoft]]) 及傳統 IT 品牌廠 (如 [[Dell]]、[[HP]])。",
+        "entities": [
+          "Meta",
+          "Google",
+          "Amazon",
+          "Microsoft",
+          "Dell",
+          "HP"
+        ]
+      },
+      {
+        "role": "零售體驗、車用與新興通路",
+        "text": "自助 Kiosk 打入歐洲大型通路商，與全球電商龍頭合作推廣 BORIS 退貨系統專案。在車用智聯網端，成功打入 [[比亞迪]]、吉利汽車等供應鏈，以及電池巨頭 [[寧德時代]]。",
+        "entities": [
+          "比亞迪",
+          "寧德時代"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "製造體系與戰略結盟",
+        "text": "透過併購中美萬泰強化內製化能力；並引進 [[宏碁]] (2353) 投資持有特別股以深度結盟借力其全球銷售通路；同為北美 [[Nvidia]] (輝達) 工業級電腦最高權限 Elite Partner 及 [[聯發科]] 之合作夥伴。",
+        "entities": [
+          "宏碁",
+          "Nvidia",
+          "聯發科"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Business Equipment & Supplies):** [[地球]]、[[三商電]]、[[互盛電]]、[[連宇]]、[[金雨]]",
+        "entities": [
+          "地球",
+          "三商電",
+          "互盛電",
+          "連宇",
+          "金雨"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Meta",
+          "Google",
+          "Amazon",
+          "Microsoft",
+          "Dell",
+          "HP",
+          "比亞迪",
+          "寧德時代"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新北"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "比亞迪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "比亞迪"
+    },
+    {
+      "name": "寧德時代",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寧德時代"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Nvidia",
+      "type": "international_company_or_term",
+      "wikilink": "Nvidia"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "地球",
+      "type": "taiwan_company_or_term",
+      "wikilink": "地球"
+    },
+    {
+      "name": "三商電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三商電"
+    },
+    {
+      "name": "互盛電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "互盛電"
+    },
+    {
+      "name": "連宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連宇"
+    },
+    {
+      "name": "金雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金雨"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "振樺電子 (Posiflex Technology) 成立於 1984 年，總部位於台灣[[新北]]。公司從傳統的 POS 硬體製造商，成功轉型為 **商用智能物聯網 (Commercial AIoT)** 的整合解決方案領導廠商。核心發展涵蓋兩大主軸：一是「線上線下 (O2O) 解決方案」 (包括 POS 機、Kiosk 自助服務機與相關周邊)，二是「嵌入式研製服務 (Embedded Foundry)」(專注於 AI 測試設備與醫療、車用之高階工業電腦)。透過併購與集團結盟，振樺電在全球 AI 硬體與智慧零售供應鏈中扮演關鍵的智能設備推手。",
+    "supply_chain_md": "**上游 (核心晶片與機構件):**\n- **基礎料件:** 採購 CPU 等核心運算處理器、觸控面板顯示模組、高階記憶體及各式精密機構散熱機殼料件。\n\n**中游 (AIoT 與嵌入式設備製造核心):**\n- **系統整合研發:** **振樺電 (8114)** (全球前五大 POS 品牌廠，並透過旗下瑞傳科技與中美萬泰整併技術優勢，提供 AI 晶片測試設備、SDA 場景定義智能設備，及醫療車用高階電腦系統之 Embedded Foundry 研製服務)。\n\n**下游 (軟體應用方案與終端場景):**\n- **服務與部署終端:** 全球頂尖伺服器群中心、AI 算力部署中心、國際連鎖零售集團、獨立軟體服務商 (ISV) 與大型休閒博弈娛樂場所。",
+    "customers_suppliers_md": "### 主要客戶\n- **雲端 AI 與半導體巨頭:** 高端 AI 測試設備專案主力供應美系半導體巨頭；伺服器終端更涵蓋 OCP 雲端巨頭 (如 [[Meta]]、[[Google]]、[[Amazon]]、[[Microsoft]]) 及傳統 IT 品牌廠 (如 [[Dell]]、[[HP]])。\n- **零售體驗、車用與新興通路:** 自助 Kiosk 打入歐洲大型通路商，與全球電商龍頭合作推廣 BORIS 退貨系統專案。在車用智聯網端，成功打入 [[比亞迪]]、吉利汽車等供應鏈，以及電池巨頭 [[寧德時代]]。\n\n### 主要供應商\n- **製造體系與戰略結盟:** 透過併購中美萬泰強化內製化能力；並引進 [[宏碁]] (2353) 投資持有特別股以深度結盟借力其全球銷售通路；同為北美 [[Nvidia]] (輝達) 工業級電腦最高權限 Elite Partner 及 [[聯發科]] 之合作夥伴。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

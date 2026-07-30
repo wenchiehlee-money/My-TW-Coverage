@@ -1,0 +1,365 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5388",
+  "company_name": "中磊",
+  "title": "5388 - 中磊",
+  "source_md": "Pilot_Reports/Communication Equipment/5388_中磊.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "24,547 百萬台幣",
+    "enterprise_value": "27,652 百萬台幣"
+  },
+  "business": {
+    "summary": "中磊電子 (5388，[[Sercomm]]) 為全球領導級寬頻通訊設備製造商，成立於 1991 年，總部位於台北。公司以「直供模式」(Direct Sales) 直接服務全球電信營運商，跳過品牌中間商以提升毛利率，目前幾乎全數產品均採直供模式出貨。\n\n主力產品涵蓋光纖接取設備 ([[PON]])、有線電視寬頻設備 ([[DOCSIS]] 3.1/4.0)、[[5G]] FWA 固定無線接入 CPE、小型基地台 (Small Cell) 及 [[物聯網]] 智慧家庭方案。產能布局高達七成已移轉至菲律賓廠區，並於印度及墨西哥新設工廠，以因應去中化地緣政治需求。2025 年寬頻 CPE 佔營收約 59%、企業級產品約 23%、基礎設施與 IoT 約 17%。",
+    "entities": [
+      "Sercomm",
+      "PON",
+      "DOCSIS",
+      "5G",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與光學元件)",
+        "text": "**上游 (網通晶片與光學元件):**",
+        "entities": []
+      },
+      {
+        "category": "寬頻晶片",
+        "text": "[[Broadcom]] — DOCSIS 3.1/4.0 基帶 SoC",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "無線晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — 5G FWA 基帶/Wi-Fi 7 射頻",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "光通訊元件",
+        "text": "[[光收發模組]] 及高頻 HDI PCB",
+        "entities": [
+          "光收發模組"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (全球寬頻設備直供製造)",
+        "text": "**中游 (全球寬頻設備直供製造):**",
+        "entities": []
+      },
+      {
+        "category": "寬頻 CPE",
+        "text": "**中磊** (PON/DOCSIS/Wi-Fi 路由器，直供電信商)",
+        "entities": []
+      },
+      {
+        "category": "5G 基站",
+        "text": "**中磊** (Small Cell 小型基地台量產)",
+        "entities": []
+      },
+      {
+        "category": "海外產能",
+        "text": "菲律賓主力廠、印度廠、墨西哥廠",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球電信營運商)",
+        "text": "**下游 (全球電信營運商):**",
+        "entities": []
+      },
+      {
+        "category": "北美電信",
+        "text": "[[AT&T]]、[[Verizon]]、[[T-Mobile]]、[[Comcast]]、[[Charter]]",
+        "entities": [
+          "AT&T",
+          "Verizon",
+          "T-Mobile",
+          "Comcast",
+          "Charter"
+        ]
+      },
+      {
+        "category": "歐洲電信",
+        "text": "[[Deutsche Telekom]]、[[Vodafone]]、[[Liberty Global]]",
+        "entities": [
+          "Deutsche Telekom",
+          "Vodafone",
+          "Liberty Global"
+        ]
+      },
+      {
+        "category": "日本",
+        "text": "[[Rakuten Mobile]] — 逾 15 萬座 5G 小型基地台部署",
+        "entities": [
+          "Rakuten Mobile"
+        ]
+      },
+      {
+        "category": "印度",
+        "text": "印度 5G FWA 市場",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美電信",
+        "text": "[[AT&T]]、[[Verizon]]、[[T-Mobile]] — 5G FWA 及寬頻 CPE",
+        "entities": [
+          "AT&T",
+          "Verizon",
+          "T-Mobile"
+        ]
+      },
+      {
+        "role": "北美有線電視",
+        "text": "[[Comcast]]、[[Charter]] — DOCSIS 3.1/4.0 閘道器",
+        "entities": [
+          "Comcast",
+          "Charter"
+        ]
+      },
+      {
+        "role": "歐洲電信",
+        "text": "[[Deutsche Telekom]]、[[Vodafone]]、[[Liberty Global]] — 寬頻設備",
+        "entities": [
+          "Deutsche Telekom",
+          "Vodafone",
+          "Liberty Global"
+        ]
+      },
+      {
+        "role": "日本 O-RAN",
+        "text": "[[Rakuten Mobile]] — 5G 小型基地台逾 15 萬座",
+        "entities": [
+          "Rakuten Mobile"
+        ]
+      },
+      {
+        "role": "雲端合作",
+        "text": "[[AWS]]、[[Microsoft Azure]] — IoT 雲端平台整合",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "寬頻晶片",
+        "text": "[[Broadcom]] — DOCSIS SoC 晶片",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "無線晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — 5G/Wi-Fi 7 晶片",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "策略聯盟",
+        "text": "[[Harmonic]] — 技術標準合作",
+        "entities": [
+          "Harmonic"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AT&T",
+          "Verizon",
+          "T-Mobile",
+          "Comcast",
+          "Charter",
+          "Deutsche Telekom",
+          "Vodafone",
+          "Liberty Global",
+          "Rakuten Mobile",
+          "AWS",
+          "Microsoft Azure"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Sercomm",
+      "type": "international_company_or_term",
+      "wikilink": "Sercomm"
+    },
+    {
+      "name": "PON",
+      "type": "international_company_or_term",
+      "wikilink": "PON"
+    },
+    {
+      "name": "DOCSIS",
+      "type": "international_company_or_term",
+      "wikilink": "DOCSIS"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "光收發模組",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光收發模組"
+    },
+    {
+      "name": "AT&T",
+      "type": "international_company_or_term",
+      "wikilink": "AT&T"
+    },
+    {
+      "name": "Verizon",
+      "type": "international_company_or_term",
+      "wikilink": "Verizon"
+    },
+    {
+      "name": "T-Mobile",
+      "type": "international_company_or_term",
+      "wikilink": "T-Mobile"
+    },
+    {
+      "name": "Comcast",
+      "type": "international_company_or_term",
+      "wikilink": "Comcast"
+    },
+    {
+      "name": "Charter",
+      "type": "international_company_or_term",
+      "wikilink": "Charter"
+    },
+    {
+      "name": "Deutsche Telekom",
+      "type": "international_company_or_term",
+      "wikilink": "Deutsche Telekom"
+    },
+    {
+      "name": "Vodafone",
+      "type": "international_company_or_term",
+      "wikilink": "Vodafone"
+    },
+    {
+      "name": "Liberty Global",
+      "type": "international_company_or_term",
+      "wikilink": "Liberty Global"
+    },
+    {
+      "name": "Rakuten Mobile",
+      "type": "international_company_or_term",
+      "wikilink": "Rakuten Mobile"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "Harmonic",
+      "type": "international_company_or_term",
+      "wikilink": "Harmonic"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中磊電子 (5388，[[Sercomm]]) 為全球領導級寬頻通訊設備製造商，成立於 1991 年，總部位於台北。公司以「直供模式」(Direct Sales) 直接服務全球電信營運商，跳過品牌中間商以提升毛利率，目前幾乎全數產品均採直供模式出貨。\n\n主力產品涵蓋光纖接取設備 ([[PON]])、有線電視寬頻設備 ([[DOCSIS]] 3.1/4.0)、[[5G]] FWA 固定無線接入 CPE、小型基地台 (Small Cell) 及 [[物聯網]] 智慧家庭方案。產能布局高達七成已移轉至菲律賓廠區，並於印度及墨西哥新設工廠，以因應去中化地緣政治需求。2025 年寬頻 CPE 佔營收約 59%、企業級產品約 23%、基礎設施與 IoT 約 17%。",
+    "supply_chain_md": "**上游 (網通晶片與光學元件):**\n- **寬頻晶片:** [[Broadcom]] — DOCSIS 3.1/4.0 基帶 SoC\n- **無線晶片:** [[Qualcomm]]、[[聯發科]] — 5G FWA 基帶/Wi-Fi 7 射頻\n- **光通訊元件:** [[光收發模組]] 及高頻 HDI PCB\n\n**中游 (全球寬頻設備直供製造):**\n- **寬頻 CPE:** **中磊** (PON/DOCSIS/Wi-Fi 路由器，直供電信商)\n- **5G 基站:** **中磊** (Small Cell 小型基地台量產)\n- **海外產能:** 菲律賓主力廠、印度廠、墨西哥廠\n\n**下游 (全球電信營運商):**\n- **北美電信:** [[AT&T]]、[[Verizon]]、[[T-Mobile]]、[[Comcast]]、[[Charter]]\n- **歐洲電信:** [[Deutsche Telekom]]、[[Vodafone]]、[[Liberty Global]]\n- **日本:** [[Rakuten Mobile]] — 逾 15 萬座 5G 小型基地台部署\n- **印度:** 印度 5G FWA 市場",
+    "customers_suppliers_md": "### 主要客戶\n- **北美電信:** [[AT&T]]、[[Verizon]]、[[T-Mobile]] — 5G FWA 及寬頻 CPE\n- **北美有線電視:** [[Comcast]]、[[Charter]] — DOCSIS 3.1/4.0 閘道器\n- **歐洲電信:** [[Deutsche Telekom]]、[[Vodafone]]、[[Liberty Global]] — 寬頻設備\n- **日本 O-RAN:** [[Rakuten Mobile]] — 5G 小型基地台逾 15 萬座\n- **雲端合作:** [[AWS]]、[[Microsoft Azure]] — IoT 雲端平台整合\n\n### 主要供應商\n- **寬頻晶片:** [[Broadcom]] — DOCSIS SoC 晶片\n- **無線晶片:** [[Qualcomm]]、[[聯發科]] — 5G/Wi-Fi 7 晶片\n- **策略聯盟:** [[Harmonic]] — 技術標準合作"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 21,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

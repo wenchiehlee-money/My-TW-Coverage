@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8463",
+  "company_name": "潤泰材",
+  "title": "8463 - 潤泰材",
+  "source_md": "Pilot_Reports/Building Materials/8463_潤泰材.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "3,180 百萬台幣",
+    "enterprise_value": "8,321 百萬台幣"
+  },
+  "business": {
+    "summary": "潤泰精密材料股份有限公司 (8463，Ruentex Materials) 成立於 1992 年，隸屬於[[潤泰集團]]。公司已由傳統水泥廠成功轉型為特殊建材與系統解決方案供應商。核心產品包括「泰固美特耐」預拌砂漿、波特蘭水泥，以及近期蓬勃發展的[[離岸風電]]基座水下灌漿材與低碳環保建材。透過子公司[[潤德設計]]跨足高階室內裝修，並取得日本[[NIHON FLUSH]]木門之獨家代理。營運版圖橫跨高科技廠房材料、綠能基建與高端空間設計。公司與比利時海工大廠[[GeoSea]]及[[台灣國際造船]]合組離岸風電國家隊。",
+    "entities": [
+      "潤泰集團",
+      "離岸風電",
+      "潤德設計",
+      "NIHON FLUSH",
+      "GeoSea",
+      "台灣國際造船"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與技術引入)",
+        "text": "**上游 (原料與技術引入):**",
+        "entities": []
+      },
+      {
+        "category": "基礎原料",
+        "text": "水泥、化學摻料、廢玻璃矽資源",
+        "entities": []
+      },
+      {
+        "category": "國際代理",
+        "text": "[[NIHON FLUSH]] — 日本高階木門品牌獨家代理",
+        "entities": [
+          "NIHON FLUSH"
+        ]
+      },
+      {
+        "category": "風電聯盟",
+        "text": "[[GeoSea]] (比利時海工大廠) 及[[台灣國際造船]] — 離岸風電國家隊",
+        "entities": [
+          "GeoSea",
+          "台灣國際造船"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (核心製造與設計)",
+        "text": "**中游 (核心製造與設計):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**潤泰材** — 泰固美特耐預拌砂漿、高爐石粉、[[離岸風電]]水下灌漿材",
+        "entities": [
+          "離岸風電"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[潤德設計]]** — 商辦及高端品牌室內設計裝修",
+        "entities": [
+          "潤德設計"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "綠能基建",
+        "text": "離岸風電場水下基礎灌漿",
+        "entities": []
+      },
+      {
+        "category": "高科技廠房",
+        "text": "半導體廠房特殊建材",
+        "entities": []
+      },
+      {
+        "category": "高端室內裝修",
+        "text": "百貨專櫃、飯店及商辦空間",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "離岸風電",
+        "text": "風電開發商 — 水下基礎灌漿材供應",
+        "entities": []
+      },
+      {
+        "role": "高科技廠房",
+        "text": "半導體廠房建設 — 特殊建材",
+        "entities": []
+      },
+      {
+        "role": "營造業",
+        "text": "一般營造廠 — 預拌砂漿、水泥",
+        "entities": []
+      },
+      {
+        "role": "室內裝修",
+        "text": "百貨專櫃、飯店 — [[潤德設計]]高端設計施工",
+        "entities": [
+          "潤德設計"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "集團資源",
+        "text": "[[潤泰集團]] — 集團綜效支援",
+        "entities": [
+          "潤泰集團"
+        ]
+      },
+      {
+        "role": "日本代理",
+        "text": "[[NIHON FLUSH]] — 高階木門",
+        "entities": [
+          "NIHON FLUSH"
+        ]
+      },
+      {
+        "role": "風電合作",
+        "text": "[[GeoSea]] — 海工技術；[[台灣國際造船]] — 船舶支援",
+        "entities": [
+          "GeoSea",
+          "台灣國際造船"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Materials):** [[台泥]]、[[亞泥]]、[[嘉泥]]、[[環泥]]、[[幸福]]",
+        "entities": [
+          "台泥",
+          "亞泥",
+          "嘉泥",
+          "環泥",
+          "幸福"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "潤德設計"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "潤泰集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "潤泰集團"
+    },
+    {
+      "name": "離岸風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "離岸風電"
+    },
+    {
+      "name": "潤德設計",
+      "type": "taiwan_company_or_term",
+      "wikilink": "潤德設計"
+    },
+    {
+      "name": "NIHON FLUSH",
+      "type": "international_company_or_term",
+      "wikilink": "NIHON FLUSH"
+    },
+    {
+      "name": "GeoSea",
+      "type": "international_company_or_term",
+      "wikilink": "GeoSea"
+    },
+    {
+      "name": "台灣國際造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣國際造船"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "嘉泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉泥"
+    },
+    {
+      "name": "環泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環泥"
+    },
+    {
+      "name": "幸福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "幸福"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "潤泰精密材料股份有限公司 (8463，Ruentex Materials) 成立於 1992 年，隸屬於[[潤泰集團]]。公司已由傳統水泥廠成功轉型為特殊建材與系統解決方案供應商。核心產品包括「泰固美特耐」預拌砂漿、波特蘭水泥，以及近期蓬勃發展的[[離岸風電]]基座水下灌漿材與低碳環保建材。透過子公司[[潤德設計]]跨足高階室內裝修，並取得日本[[NIHON FLUSH]]木門之獨家代理。營運版圖橫跨高科技廠房材料、綠能基建與高端空間設計。公司與比利時海工大廠[[GeoSea]]及[[台灣國際造船]]合組離岸風電國家隊。",
+    "supply_chain_md": "**上游 (原料與技術引入):**\n- **基礎原料:** 水泥、化學摻料、廢玻璃矽資源\n- **國際代理:** [[NIHON FLUSH]] — 日本高階木門品牌獨家代理\n- **風電聯盟:** [[GeoSea]] (比利時海工大廠) 及[[台灣國際造船]] — 離岸風電國家隊\n\n**中游 (核心製造與設計):**\n- **潤泰材** — 泰固美特耐預拌砂漿、高爐石粉、[[離岸風電]]水下灌漿材\n- **[[潤德設計]]** — 商辦及高端品牌室內設計裝修\n\n**下游 (終端應用):**\n- **綠能基建:** 離岸風電場水下基礎灌漿\n- **高科技廠房:** 半導體廠房特殊建材\n- **高端室內裝修:** 百貨專櫃、飯店及商辦空間",
+    "customers_suppliers_md": "### 主要客戶\n- **離岸風電:** 風電開發商 — 水下基礎灌漿材供應\n- **高科技廠房:** 半導體廠房建設 — 特殊建材\n- **營造業:** 一般營造廠 — 預拌砂漿、水泥\n- **室內裝修:** 百貨專櫃、飯店 — [[潤德設計]]高端設計施工\n\n### 主要供應商\n- **集團資源:** [[潤泰集團]] — 集團綜效支援\n- **日本代理:** [[NIHON FLUSH]] — 高階木門\n- **風電合作:** [[GeoSea]] — 海工技術；[[台灣國際造船]] — 船舶支援"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

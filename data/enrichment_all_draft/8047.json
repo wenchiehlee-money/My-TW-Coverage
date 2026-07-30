@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8047",
+  "company_name": "星雲",
+  "title": "8047 - 星雲",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/8047_星雲.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,842 百萬台幣",
+    "enterprise_value": "1,692 百萬台幣"
+  },
+  "business": {
+    "summary": "星通資訊 (8047，星雲) 專精關鍵任務網路 (MCC) 通訊系統整合與設備，產品含SDH/SONET傳輸平台、光纖/DSL延伸及通訊資安。2024年通過[[IEC 62443]]-4-1資安認證。專攻「絕對不能斷線」的基礎建設級通訊。客戶含[[中華電信]]、各國電力/國防/鐵路。持續虧損。",
+    "entities": [
+      "IEC 62443",
+      "中華電信"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "網路處理器IC/[[光收發模組]]/PCB",
+        "entities": [
+          "光收發模組"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**星通** (關鍵任務光纖/接取通訊設備)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[中華電信]]、[[台電]]、國防單位、[[台灣高鐵]]、捷運",
+        "entities": [
+          "中華電信",
+          "台電",
+          "台灣高鐵"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[中華電信]] — 電信骨幹",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[台電]]、國防、[[台灣高鐵]] — 關鍵任務通訊",
+        "entities": [
+          "台電",
+          "台灣高鐵"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "網路處理IC/[[光收發模組]]",
+        "entities": [
+          "光收發模組"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "台電",
+          "台灣高鐵"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IEC 62443",
+      "type": "international_company_or_term",
+      "wikilink": "IEC 62443"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "光收發模組",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光收發模組"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台灣高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣高鐵"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "星通資訊 (8047，星雲) 專精關鍵任務網路 (MCC) 通訊系統整合與設備，產品含SDH/SONET傳輸平台、光纖/DSL延伸及通訊資安。2024年通過[[IEC 62443]]-4-1資安認證。專攻「絕對不能斷線」的基礎建設級通訊。客戶含[[中華電信]]、各國電力/國防/鐵路。持續虧損。",
+    "supply_chain_md": "**上游:** 網路處理器IC/[[光收發模組]]/PCB\n**中游:** **星通** (關鍵任務光纖/接取通訊設備)\n**下游:**\n- [[中華電信]]、[[台電]]、國防單位、[[台灣高鐵]]、捷運",
+    "customers_suppliers_md": "### 主要客戶\n- [[中華電信]] — 電信骨幹\n- [[台電]]、國防、[[台灣高鐵]] — 關鍵任務通訊\n\n### 主要供應商\n- 網路處理IC/[[光收發模組]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3617",
+  "company_name": "碩天",
+  "title": "3617 - 碩天",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/3617_碩天.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "19,380 百萬台幣",
+    "enterprise_value": "16,668 百萬台幣"
+  },
+  "business": {
+    "summary": "碩天科技 (3617，CyberPower) 全球領先[[UPS]]品牌，北美20kVA以下市佔約15% (第二，僅次[[APC]]/[[Schneider Electric]])。零售含[[Best Buy]]、[[Walmart]]、[[Costco]]、[[Home Depot]]。經銷含[[Ingram Micro]]、[[TD Synnex]]。電信含[[AT&T]]、[[Verizon]]。",
+    "entities": [
+      "UPS",
+      "APC",
+      "Schneider Electric",
+      "Best Buy",
+      "Walmart",
+      "Costco",
+      "Home Depot",
+      "Ingram Micro",
+      "TD Synnex",
+      "AT&T",
+      "Verizon"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "電池/[[PCB]]/機殼",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**碩天** (CyberPower [[UPS]]/PDU)",
+        "entities": [
+          "UPS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[Best Buy]]、[[Walmart]]、[[Costco]]、[[AT&T]]、[[Verizon]]",
+        "entities": [
+          "Best Buy",
+          "Walmart",
+          "Costco",
+          "AT&T",
+          "Verizon"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Best Buy]]、[[Walmart]]、[[Costco]]、[[Home Depot]]",
+        "entities": [
+          "Best Buy",
+          "Walmart",
+          "Costco",
+          "Home Depot"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Ingram Micro]]、[[TD Synnex]]",
+        "entities": [
+          "Ingram Micro",
+          "TD Synnex"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[AT&T]]、[[Verizon]]",
+        "entities": [
+          "AT&T",
+          "Verizon"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "電池/[[PCB]]/機殼",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Best Buy",
+          "Walmart",
+          "Costco",
+          "Home Depot",
+          "Ingram Micro",
+          "TD Synnex",
+          "AT&T",
+          "Verizon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "UPS",
+      "type": "international_company_or_term",
+      "wikilink": "UPS"
+    },
+    {
+      "name": "APC",
+      "type": "international_company_or_term",
+      "wikilink": "APC"
+    },
+    {
+      "name": "Schneider Electric",
+      "type": "international_company_or_term",
+      "wikilink": "Schneider Electric"
+    },
+    {
+      "name": "Best Buy",
+      "type": "international_company_or_term",
+      "wikilink": "Best Buy"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Costco",
+      "type": "international_company_or_term",
+      "wikilink": "Costco"
+    },
+    {
+      "name": "Home Depot",
+      "type": "international_company_or_term",
+      "wikilink": "Home Depot"
+    },
+    {
+      "name": "Ingram Micro",
+      "type": "international_company_or_term",
+      "wikilink": "Ingram Micro"
+    },
+    {
+      "name": "TD Synnex",
+      "type": "international_company_or_term",
+      "wikilink": "TD Synnex"
+    },
+    {
+      "name": "AT&T",
+      "type": "international_company_or_term",
+      "wikilink": "AT&T"
+    },
+    {
+      "name": "Verizon",
+      "type": "international_company_or_term",
+      "wikilink": "Verizon"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "碩天科技 (3617，CyberPower) 全球領先[[UPS]]品牌，北美20kVA以下市佔約15% (第二，僅次[[APC]]/[[Schneider Electric]])。零售含[[Best Buy]]、[[Walmart]]、[[Costco]]、[[Home Depot]]。經銷含[[Ingram Micro]]、[[TD Synnex]]。電信含[[AT&T]]、[[Verizon]]。",
+    "supply_chain_md": "**上游:** 電池/[[PCB]]/機殼\n**中游:** **碩天** (CyberPower [[UPS]]/PDU)\n**下游:** [[Best Buy]]、[[Walmart]]、[[Costco]]、[[AT&T]]、[[Verizon]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Best Buy]]、[[Walmart]]、[[Costco]]、[[Home Depot]]\n- [[Ingram Micro]]、[[TD Synnex]]\n- [[AT&T]]、[[Verizon]]\n\n### 主要供應商\n- 電池/[[PCB]]/機殼"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

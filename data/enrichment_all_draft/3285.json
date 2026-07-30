@@ -1,0 +1,299 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3285",
+  "company_name": "微端",
+  "title": "3285 - 微端",
+  "source_md": "Pilot_Reports/Electronic Components/3285_微端.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,562 百萬台幣",
+    "enterprise_value": "1,006 百萬台幣"
+  },
+  "business": {
+    "summary": "微端科技 (3285，[[Microtips Technology]]) 創立於 1990 年，為專業顯示器模組 (LCM) 與指紋辨識模組製造商。主要產品為中小尺寸 [[LCD]] 模組 (字元型、圖形型、[[TFT LCD]] 模組)，專注於工業控制、醫療器材、電信設備與新興應用等少量多樣之利基型市場。\n\n不同於大尺寸面板廠，微端以客製化設計能力見長，提供從概念、設計到量產之一站式服務。指紋辨識模組應用於筆電與智慧門鎖。另代理銷售無線充電產品與提供電子製造服務 ([[EMS]])。主要市場為北美與歐洲。",
+    "entities": [
+      "Microtips Technology",
+      "LCD",
+      "TFT LCD",
+      "EMS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (顯示元件與IC)",
+        "text": "**上游 (顯示元件與IC):**",
+        "entities": []
+      },
+      {
+        "category": "LCD 面板",
+        "text": "[[友達]]、[[群創]] — 中小尺寸 LCD Open Cell",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[聯詠]]、[[瑞鼎]] — LCD 驅動 IC",
+        "entities": [
+          "聯詠",
+          "瑞鼎"
+        ]
+      },
+      {
+        "category": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      },
+      {
+        "category": "指紋感測器",
+        "text": "[[神盾]] — 指紋辨識 Sensor IC",
+        "entities": [
+          "神盾"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (模組製造)",
+        "text": "**中游 (模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "LCM 組裝",
+        "text": "**微端** (字元型/圖形型/[[TFT LCD]] 模組)",
+        "entities": [
+          "TFT LCD"
+        ]
+      },
+      {
+        "category": "指紋模組",
+        "text": "**微端** (筆電/門鎖指紋辨識模組)",
+        "entities": []
+      },
+      {
+        "category": "EMS 服務",
+        "text": "**微端** (電子製造代工)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (工控、醫療與消費終端)",
+        "text": "**下游 (工控、醫療與消費終端):**",
+        "entities": []
+      },
+      {
+        "category": "工業控制",
+        "text": "歐美工控設備廠 — HMI 人機介面顯示",
+        "entities": []
+      },
+      {
+        "category": "醫療器材",
+        "text": "歐美醫療設備廠 — 攜帶式醫療顯示",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "筆電代工廠 — 指紋辨識模組",
+        "entities": []
+      },
+      {
+        "category": "電信設備",
+        "text": "電信與網通設備廠 — 中小尺寸顯示",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工控設備",
+        "text": "歐美工業控制設備廠 — HMI 顯示模組",
+        "entities": []
+      },
+      {
+        "role": "醫療器材",
+        "text": "歐美醫療設備品牌 — 攜帶式醫療 [[LCD]] 顯示",
+        "entities": [
+          "LCD"
+        ]
+      },
+      {
+        "role": "筆電代工",
+        "text": "[[仁寶]]、[[廣達]] — 指紋辨識模組",
+        "entities": [
+          "仁寶",
+          "廣達"
+        ]
+      },
+      {
+        "role": "電信設備",
+        "text": "電信與網通設備廠 — 中小尺寸 [[TFT LCD]] 模組",
+        "entities": [
+          "TFT LCD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]] — 中小尺寸 LCD Open Cell",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "驅動 IC",
+        "text": "[[聯詠]]、[[瑞鼎]] — LCD 驅動 IC",
+        "entities": [
+          "聯詠",
+          "瑞鼎"
+        ]
+      },
+      {
+        "role": "指紋感測",
+        "text": "[[神盾]] — 指紋辨識 Sensor IC",
+        "entities": [
+          "神盾"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "LCD",
+          "仁寶",
+          "廣達",
+          "TFT LCD"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "微端科技 (3285，[[Microtips Technology]]) 創立於 1990 年，為專業顯示器模組 (LCM) 與指紋辨識模組製造商。主要產品為中小尺寸 [[LCD]] 模組 (字元型、圖形型、[[TFT LCD]] 模組)，專注於工業控制、醫療器材、電信設備與新興應用等少量多樣之利基型市場。",
+        "entities": [
+          "Microtips Technology",
+          "LCD",
+          "TFT LCD"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Microtips Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Microtips Technology"
+    },
+    {
+      "name": "LCD",
+      "type": "international_company_or_term",
+      "wikilink": "LCD"
+    },
+    {
+      "name": "TFT LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT LCD"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "瑞鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞鼎"
+    },
+    {
+      "name": "神盾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神盾"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "微端科技 (3285，[[Microtips Technology]]) 創立於 1990 年，為專業顯示器模組 (LCM) 與指紋辨識模組製造商。主要產品為中小尺寸 [[LCD]] 模組 (字元型、圖形型、[[TFT LCD]] 模組)，專注於工業控制、醫療器材、電信設備與新興應用等少量多樣之利基型市場。\n\n不同於大尺寸面板廠，微端以客製化設計能力見長，提供從概念、設計到量產之一站式服務。指紋辨識模組應用於筆電與智慧門鎖。另代理銷售無線充電產品與提供電子製造服務 ([[EMS]])。主要市場為北美與歐洲。",
+    "supply_chain_md": "**上游 (顯示元件與IC):**\n- **LCD 面板:** [[友達]]、[[群創]] — 中小尺寸 LCD Open Cell\n- **驅動 IC:** [[聯詠]]、[[瑞鼎]] — LCD 驅動 IC\n- **背光模組:** LED 背光模組供應商\n- **指紋感測器:** [[神盾]] — 指紋辨識 Sensor IC\n\n**中游 (模組製造):**\n- **LCM 組裝:** **微端** (字元型/圖形型/[[TFT LCD]] 模組)\n- **指紋模組:** **微端** (筆電/門鎖指紋辨識模組)\n- **EMS 服務:** **微端** (電子製造代工)\n\n**下游 (工控、醫療與消費終端):**\n- **工業控制:** 歐美工控設備廠 — HMI 人機介面顯示\n- **醫療器材:** 歐美醫療設備廠 — 攜帶式醫療顯示\n- **消費電子:** 筆電代工廠 — 指紋辨識模組\n- **電信設備:** 電信與網通設備廠 — 中小尺寸顯示",
+    "customers_suppliers_md": "### 主要客戶\n- **工控設備:** 歐美工業控制設備廠 — HMI 顯示模組\n- **醫療器材:** 歐美醫療設備品牌 — 攜帶式醫療 [[LCD]] 顯示\n- **筆電代工:** [[仁寶]]、[[廣達]] — 指紋辨識模組\n- **電信設備:** 電信與網通設備廠 — 中小尺寸 [[TFT LCD]] 模組\n\n### 主要供應商\n- **面板:** [[友達]]、[[群創]] — 中小尺寸 LCD Open Cell\n- **驅動 IC:** [[聯詠]]、[[瑞鼎]] — LCD 驅動 IC\n- **指紋感測:** [[神盾]] — 指紋辨識 Sensor IC"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

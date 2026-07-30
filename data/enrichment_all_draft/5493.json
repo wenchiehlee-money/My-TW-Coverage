@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5493",
+  "company_name": "三聯",
+  "title": "5493 - 三聯",
+  "source_md": "Pilot_Reports/Electronic Components/5493_三聯.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,211 百萬台幣",
+    "enterprise_value": "4,513 百萬台幣"
+  },
+  "business": {
+    "summary": "三聯科技 (5493) 成立於 1967 年，業務涵蓋自動化監測及電子材料兩大領域。\n\n主要業務：(1) 電子材料 — 與日本大廠合資成立多聯科技，供應[[半導體]]及光電產業所需特用化學品，包括 [[CMP]] [[研磨液]] (涵蓋 2 奈米與 3 奈米先進製程)、顯影液，以及先進 [[CoWoS]] 封裝用特用化學品材料，為國內半導體材料重要供應商；(2) 自動化監測 — 提供地震預警、水庫/橋樑土木工程安全監測服務，為國內環境監測與微振動感測技術第一品牌；(3) 工業設備代理 — 代理銷售日系精密設備。",
+    "entities": [
+      "半導體",
+      "CMP",
+      "研磨液",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (化學原料與設備)",
+        "text": "**上游 (化學原料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "化學原料",
+        "text": "日系化學原料供應商 — [[CMP]] 研磨液原料",
+        "entities": [
+          "CMP"
+        ]
+      },
+      {
+        "category": "感測儀器",
+        "text": "日系精密儀器原廠 — 監測設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (材料供應與系統整合)",
+        "text": "**中游 (材料供應與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "半導體材料",
+        "text": "多聯科技/**三聯** ([[CMP]] [[研磨液]]、顯影液)",
+        "entities": [
+          "CMP",
+          "研磨液"
+        ]
+      },
+      {
+        "category": "監測系統",
+        "text": "**三聯** (地震預警、結構安全監測)",
+        "entities": []
+      },
+      {
+        "category": "設備代理",
+        "text": "**三聯** (日系精密設備代理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]] — [[CMP]] [[研磨液]]與特用化學品",
+        "entities": [
+          "台積電",
+          "聯電",
+          "CMP",
+          "研磨液"
+        ]
+      },
+      {
+        "category": "先進封裝",
+        "text": "[[台積電]] — [[CoWoS]] 封裝用化學品",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "公共工程",
+        "text": "台鐵、高鐵、水利署、氣象局 — 監測系統",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯電]] — [[CMP]] [[研磨液]]、顯影液與 [[CoWoS]] 封裝化學品",
+        "entities": [
+          "台積電",
+          "聯電",
+          "CMP",
+          "研磨液",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "監測工程",
+        "text": "台鐵、高鐵、水利署、氣象局 — 地震預警與結構監測",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "國內各產業 — 日系精密設備代理",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "化學原料",
+        "text": "日系化學品大廠 — [[CMP]] 研磨液原料",
+        "entities": [
+          "CMP"
+        ]
+      },
+      {
+        "role": "感測儀器",
+        "text": "日系精密儀器原廠 — 監測設備",
+        "entities": []
+      },
+      {
+        "role": "合資夥伴",
+        "text": "多聯科技 — 半導體特用化學品生產",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "聯電",
+          "CMP",
+          "研磨液",
+          "CoWoS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "CMP",
+      "type": "international_company_or_term",
+      "wikilink": "CMP"
+    },
+    {
+      "name": "研磨液",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研磨液"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三聯科技 (5493) 成立於 1967 年，業務涵蓋自動化監測及電子材料兩大領域。\n\n主要業務：(1) 電子材料 — 與日本大廠合資成立多聯科技，供應[[半導體]]及光電產業所需特用化學品，包括 [[CMP]] [[研磨液]] (涵蓋 2 奈米與 3 奈米先進製程)、顯影液，以及先進 [[CoWoS]] 封裝用特用化學品材料，為國內半導體材料重要供應商；(2) 自動化監測 — 提供地震預警、水庫/橋樑土木工程安全監測服務，為國內環境監測與微振動感測技術第一品牌；(3) 工業設備代理 — 代理銷售日系精密設備。",
+    "supply_chain_md": "**上游 (化學原料與設備):**\n- **化學原料:** 日系化學原料供應商 — [[CMP]] 研磨液原料\n- **感測儀器:** 日系精密儀器原廠 — 監測設備\n\n**中游 (材料供應與系統整合):**\n- **半導體材料:** 多聯科技/**三聯** ([[CMP]] [[研磨液]]、顯影液)\n- **監測系統:** **三聯** (地震預警、結構安全監測)\n- **設備代理:** **三聯** (日系精密設備代理)\n\n**下游 (終端客戶):**\n- **晶圓代工:** [[台積電]]、[[聯電]] — [[CMP]] [[研磨液]]與特用化學品\n- **先進封裝:** [[台積電]] — [[CoWoS]] 封裝用化學品\n- **公共工程:** 台鐵、高鐵、水利署、氣象局 — 監測系統",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]、[[聯電]] — [[CMP]] [[研磨液]]、顯影液與 [[CoWoS]] 封裝化學品\n- **監測工程:** 台鐵、高鐵、水利署、氣象局 — 地震預警與結構監測\n- **設備:** 國內各產業 — 日系精密設備代理\n\n### 主要供應商\n- **化學原料:** 日系化學品大廠 — [[CMP]] 研磨液原料\n- **感測儀器:** 日系精密儀器原廠 — 監測設備\n- **合資夥伴:** 多聯科技 — 半導體特用化學品生產"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6614",
+  "company_name": "資拓宏宇",
+  "title": "6614_資拓宏宇",
+  "source_md": "Pilot_Reports/Information Technology Services/6614_資拓宏宇.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "3,033 百萬台幣",
+    "enterprise_value": "3,165 百萬台幣"
+  },
+  "business": {
+    "summary": "資拓宏宇 (6614，IISI) 成立於 2008 年，由[[中華電信]]與[[研華]]兩大科技巨頭策略投資，擁有逾 30 年軟體開發與專業資訊系統建置經驗。公司於 2025 年 11 月正式掛牌上市，專注於推動企業與政府機關的數位轉型及永續發展解決方案。核心業務涵蓋應用系統開發建置、[[雲端服務]] (SaaS)、[[資安]]代理及人力委外服務。資拓宏宇在智慧政府 (戶政/勞保等大型公共系統) 與智慧金融 (服務逾 90% 台灣本土銀行) 領域擁有極高市佔率，智慧政府在手訂單逾 30 億元。此外亦延伸至智慧醫療及智慧城市交通控制領域。",
+    "entities": [
+      "中華電信",
+      "研華",
+      "雲端服務",
+      "資安"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (軟硬體與雲端原廠)",
+        "text": "**上游 (軟硬體與雲端原廠):**",
+        "entities": []
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft]] (Azure)、[[Google]] (GCP)",
+        "entities": [
+          "AWS",
+          "Microsoft",
+          "Google"
+        ]
+      },
+      {
+        "category": "伺服器/儲存",
+        "text": "[[Samsung]]、[[WD]]、[[創見]] — 儲存品牌",
+        "entities": [
+          "Samsung",
+          "WD",
+          "創見"
+        ]
+      },
+      {
+        "category": "策略夥伴",
+        "text": "[[中華電信]] (電信與雲端資源)、[[研華]] (AIoT 平台)",
+        "entities": [
+          "中華電信",
+          "研華"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合與軟體開發)",
+        "text": "**中游 (系統整合與軟體開發):**",
+        "entities": []
+      },
+      {
+        "category": "SI/SaaS",
+        "text": "**資拓宏宇** (大型應用系統開發建置、雲端 SaaS、[[資安]]代理、IT 人力外包)",
+        "entities": [
+          "資安"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "政府",
+        "text": "各級政府公部門與國營事業",
+        "entities": []
+      },
+      {
+        "category": "金融",
+        "text": "全台逾 90% 本土銀行及外商金融機構",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "大型醫療院所",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "政府",
+        "text": "勞保局、戶政司、氣象署等中央與地方機關 — 智慧政府系統",
+        "entities": []
+      },
+      {
+        "role": "金融",
+        "text": "全台逾 90% 本土銀行及外商金融機構 — 智慧金融平台",
+        "entities": []
+      },
+      {
+        "role": "醫療",
+        "text": "大型醫療院所 — 智慧醫療資訊系統",
+        "entities": []
+      },
+      {
+        "role": "國營事業",
+        "text": "各大國營事業機構",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "策略股東",
+        "text": "[[中華電信]] — 電信與雲端基礎資源、[[研華]] — [[AIoT]] 平台技術",
+        "entities": [
+          "中華電信",
+          "研華",
+          "AIoT"
+        ]
+      },
+      {
+        "role": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft]] (Azure)、[[Google]] (GCP)",
+        "entities": [
+          "AWS",
+          "Microsoft",
+          "Google"
+        ]
+      },
+      {
+        "role": "儲存品牌",
+        "text": "[[Samsung]]、[[WD]]、[[創見]] — 儲存設備",
+        "entities": [
+          "Samsung",
+          "WD",
+          "創見"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Information Technology Services):** [[廣豐]]、[[凌群]]、[[華經]]、[[資通]]、[[大綜]]",
+        "entities": [
+          "廣豐",
+          "凌群",
+          "華經",
+          "資通",
+          "大綜"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "資安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資安"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "WD",
+      "type": "international_company_or_term",
+      "wikilink": "WD"
+    },
+    {
+      "name": "創見",
+      "type": "taiwan_company_or_term",
+      "wikilink": "創見"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "廣豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣豐"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "華經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華經"
+    },
+    {
+      "name": "資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資通"
+    },
+    {
+      "name": "大綜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大綜"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "資拓宏宇 (6614，IISI) 成立於 2008 年，由[[中華電信]]與[[研華]]兩大科技巨頭策略投資，擁有逾 30 年軟體開發與專業資訊系統建置經驗。公司於 2025 年 11 月正式掛牌上市，專注於推動企業與政府機關的數位轉型及永續發展解決方案。核心業務涵蓋應用系統開發建置、[[雲端服務]] (SaaS)、[[資安]]代理及人力委外服務。資拓宏宇在智慧政府 (戶政/勞保等大型公共系統) 與智慧金融 (服務逾 90% 台灣本土銀行) 領域擁有極高市佔率，智慧政府在手訂單逾 30 億元。此外亦延伸至智慧醫療及智慧城市交通控制領域。",
+    "supply_chain_md": "**上游 (軟硬體與雲端原廠):**\n- **雲端平台:** [[AWS]]、[[Microsoft]] (Azure)、[[Google]] (GCP)\n- **伺服器/儲存:** [[Samsung]]、[[WD]]、[[創見]] — 儲存品牌\n- **策略夥伴:** [[中華電信]] (電信與雲端資源)、[[研華]] (AIoT 平台)\n\n**中游 (系統整合與軟體開發):**\n- **SI/SaaS:** **資拓宏宇** (大型應用系統開發建置、雲端 SaaS、[[資安]]代理、IT 人力外包)\n\n**下游 (終端客戶):**\n- **政府:** 各級政府公部門與國營事業\n- **金融:** 全台逾 90% 本土銀行及外商金融機構\n- **醫療:** 大型醫療院所",
+    "customers_suppliers_md": "### 主要客戶\n- **政府:** 勞保局、戶政司、氣象署等中央與地方機關 — 智慧政府系統\n- **金融:** 全台逾 90% 本土銀行及外商金融機構 — 智慧金融平台\n- **醫療:** 大型醫療院所 — 智慧醫療資訊系統\n- **國營事業:** 各大國營事業機構\n\n### 主要供應商\n- **策略股東:** [[中華電信]] — 電信與雲端基礎資源、[[研華]] — [[AIoT]] 平台技術\n- **雲端平台:** [[AWS]]、[[Microsoft]] (Azure)、[[Google]] (GCP)\n- **儲存品牌:** [[Samsung]]、[[WD]]、[[創見]] — 儲存設備"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

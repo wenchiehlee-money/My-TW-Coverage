@@ -1,0 +1,250 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3055",
+  "company_name": "蔚華科",
+  "title": "3055 - 蔚華科",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/3055_蔚華科.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "11,668 百萬台幣",
+    "enterprise_value": "10,835 百萬台幣"
+  },
+  "business": {
+    "summary": "蔚華科技 (3055) 是台灣專業的半導體設備通路商與技術服務商，代理全球領先設備品牌，提供測試、封裝、檢測及失效分析等整合解決方案。代理品牌包括 [[NI]]、[[Hamamatsu]]、[[Toray Engineering]]、[[TESCAN]]、[[SEMICS]]、[[ShibaSoku]] 等。公司成立於 1987 年，海外營收占 67% (以中國為主)，並建立亞太首座功率半導體動態可靠度驗證實驗室。",
+    "entities": [
+      "NI",
+      "Hamamatsu",
+      "Toray Engineering",
+      "TESCAN",
+      "SEMICS",
+      "ShibaSoku"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備原廠)",
+        "text": "**上游 (設備原廠):**",
+        "entities": []
+      },
+      {
+        "category": "測試設備",
+        "text": "[[NI]]、[[ShibaSoku]] ([[IGBT]] 測試)",
+        "entities": [
+          "NI",
+          "ShibaSoku",
+          "IGBT"
+        ]
+      },
+      {
+        "category": "檢測設備",
+        "text": "[[Hamamatsu]] (失效分析)、[[TESCAN]] (電子顯微鏡)",
+        "entities": [
+          "Hamamatsu",
+          "TESCAN"
+        ]
+      },
+      {
+        "category": "封裝設備",
+        "text": "[[Toray Engineering]] (AOI 光學檢測)、[[SEMICS]] ([[探針卡]])",
+        "entities": [
+          "Toray Engineering",
+          "SEMICS",
+          "探針卡"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備通路與服務)",
+        "text": "**中游 (設備通路與服務):**",
+        "entities": []
+      },
+      {
+        "category": "設備代理",
+        "text": "**蔚華** (半導體設備代理、技術服務及驗證實驗室)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體製造)",
+        "text": "**下游 (半導體製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工/IDM",
+        "text": "台灣及中國半導體製造廠",
+        "entities": []
+      },
+      {
+        "category": "封裝測試",
+        "text": "封測廠客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體製造",
+        "text": "台灣及中國晶圓代工、IDM 及封測廠",
+        "entities": []
+      },
+      {
+        "role": "功率半導體",
+        "text": "功率元件製造商 (可靠度驗證)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "測試",
+        "text": "[[NI]]、[[ShibaSoku]]",
+        "entities": [
+          "NI",
+          "ShibaSoku"
+        ]
+      },
+      {
+        "role": "檢測",
+        "text": "[[Hamamatsu]]、[[TESCAN]]、[[Toray Engineering]]",
+        "entities": [
+          "Hamamatsu",
+          "TESCAN",
+          "Toray Engineering"
+        ]
+      },
+      {
+        "role": "封裝",
+        "text": "[[SEMICS]]、[[AFORE]]、[[ERS]]、[[Osai]]",
+        "entities": [
+          "SEMICS",
+          "AFORE",
+          "ERS",
+          "Osai"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NI",
+      "type": "international_company_or_term",
+      "wikilink": "NI"
+    },
+    {
+      "name": "Hamamatsu",
+      "type": "international_company_or_term",
+      "wikilink": "Hamamatsu"
+    },
+    {
+      "name": "Toray Engineering",
+      "type": "international_company_or_term",
+      "wikilink": "Toray Engineering"
+    },
+    {
+      "name": "TESCAN",
+      "type": "international_company_or_term",
+      "wikilink": "TESCAN"
+    },
+    {
+      "name": "SEMICS",
+      "type": "international_company_or_term",
+      "wikilink": "SEMICS"
+    },
+    {
+      "name": "ShibaSoku",
+      "type": "international_company_or_term",
+      "wikilink": "ShibaSoku"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "探針卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "探針卡"
+    },
+    {
+      "name": "AFORE",
+      "type": "international_company_or_term",
+      "wikilink": "AFORE"
+    },
+    {
+      "name": "ERS",
+      "type": "international_company_or_term",
+      "wikilink": "ERS"
+    },
+    {
+      "name": "Osai",
+      "type": "international_company_or_term",
+      "wikilink": "Osai"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "蔚華科技 (3055) 是台灣專業的半導體設備通路商與技術服務商，代理全球領先設備品牌，提供測試、封裝、檢測及失效分析等整合解決方案。代理品牌包括 [[NI]]、[[Hamamatsu]]、[[Toray Engineering]]、[[TESCAN]]、[[SEMICS]]、[[ShibaSoku]] 等。公司成立於 1987 年，海外營收占 67% (以中國為主)，並建立亞太首座功率半導體動態可靠度驗證實驗室。",
+    "supply_chain_md": "**上游 (設備原廠):**\n- **測試設備:** [[NI]]、[[ShibaSoku]] ([[IGBT]] 測試)\n- **檢測設備:** [[Hamamatsu]] (失效分析)、[[TESCAN]] (電子顯微鏡)\n- **封裝設備:** [[Toray Engineering]] (AOI 光學檢測)、[[SEMICS]] ([[探針卡]])\n\n**中游 (設備通路與服務):**\n- **設備代理:** **蔚華** (半導體設備代理、技術服務及驗證實驗室)\n\n**下游 (半導體製造):**\n- **晶圓代工/IDM:** 台灣及中國半導體製造廠\n- **封裝測試:** 封測廠客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體製造:** 台灣及中國晶圓代工、IDM 及封測廠\n- **功率半導體:** 功率元件製造商 (可靠度驗證)\n\n### 主要供應商 (代理品牌)\n- **測試:** [[NI]]、[[ShibaSoku]]\n- **檢測:** [[Hamamatsu]]、[[TESCAN]]、[[Toray Engineering]]\n- **封裝:** [[SEMICS]]、[[AFORE]]、[[ERS]]、[[Osai]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

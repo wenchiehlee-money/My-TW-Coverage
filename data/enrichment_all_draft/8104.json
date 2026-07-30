@@ -1,0 +1,261 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8104",
+  "company_name": "錸寶",
+  "title": "8104 - 錸寶",
+  "source_md": "Pilot_Reports/Electronic Components/8104_錸寶.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,033 百萬台幣",
+    "enterprise_value": "6,364 百萬台幣"
+  },
+  "business": {
+    "summary": "錸寶科技 (8104，RiTdisplay) 為台灣 [[OLED]] 顯示器專業製造商，隸屬錸德科技集團，成立於 1997 年，總部位於新竹。\n\n核心業務雙軌並行：(1) 顯示器事業 — 為全球領先之 [[PMOLED]] 製造商，並已跨足 [[AMOLED]] 與 [[Micro LED]] 技術開發，產品應用於穿戴裝置、工控面板及車用儀表；與日本 [[Futaba]] (雙葉電子) 建立策略合作，接手其全部 [[PMOLED]] 生產線並合作開發汽車用 [[OLED]] 顯示器；(2) 綠能儲能事業 — 提供電池模組、電池管理系統 (BMS)、儲能櫃、能源管理系統及不斷電系統 (UPS) 電池模組，搭配雲端監控服務。2025 年營收顯著成長，5 月單月營收年增 124.5%。",
+    "entities": [
+      "OLED",
+      "PMOLED",
+      "AMOLED",
+      "Micro LED",
+      "Futaba"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與設備)",
+        "text": "**上游 (材料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "[[OLED]] 有機材料",
+        "text": "[[OLED]] 發光材料供應商",
+        "entities": [
+          "OLED"
+        ]
+      },
+      {
+        "category": "基板玻璃",
+        "text": "玻璃基板廠",
+        "entities": []
+      },
+      {
+        "category": "電池芯",
+        "text": "鋰電池芯供應商",
+        "entities": []
+      },
+      {
+        "category": "蒸鍍設備",
+        "text": "[[OLED]] 蒸鍍製程設備商",
+        "entities": [
+          "OLED"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (顯示器與儲能製造)",
+        "text": "**中游 (顯示器與儲能製造):**",
+        "entities": []
+      },
+      {
+        "category": "[[OLED]] 顯示器",
+        "text": "**錸寶** ([[PMOLED]]、[[AMOLED]] 顯示器製造)",
+        "entities": [
+          "OLED",
+          "PMOLED",
+          "AMOLED"
+        ]
+      },
+      {
+        "category": "儲能系統",
+        "text": "**錸寶** (電池模組、BMS、儲能櫃、UPS 電池模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "穿戴裝置",
+        "text": "智慧手錶、手環品牌商",
+        "entities": []
+      },
+      {
+        "category": "車用顯示",
+        "text": "汽車 [[OLED]] 儀表板 — 與 [[Futaba]] 合作",
+        "entities": [
+          "OLED",
+          "Futaba"
+        ]
+      },
+      {
+        "category": "工控面板",
+        "text": "工業設備 [[OLED]] 顯示應用",
+        "entities": [
+          "OLED"
+        ]
+      },
+      {
+        "category": "儲能終端",
+        "text": "工商業儲能與 UPS 系統客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "穿戴裝置",
+        "text": "全球智慧手錶與手環品牌商 — [[PMOLED]] 顯示面板",
+        "entities": [
+          "PMOLED"
+        ]
+      },
+      {
+        "role": "車用顯示",
+        "text": "汽車零組件廠 — 與 [[Futaba]] 合作開發車用 [[OLED]]",
+        "entities": [
+          "Futaba",
+          "OLED"
+        ]
+      },
+      {
+        "role": "工控面板",
+        "text": "工業設備製造商 — [[OLED]] 人機介面",
+        "entities": [
+          "OLED"
+        ]
+      },
+      {
+        "role": "儲能客戶",
+        "text": "工商業儲能系統整合商 — 電池模組與儲能櫃",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[OLED]] 材料",
+        "text": "[[OLED]] 有機發光材料供應商",
+        "entities": [
+          "OLED"
+        ]
+      },
+      {
+        "role": "玻璃基板",
+        "text": "玻璃基板製造商",
+        "entities": []
+      },
+      {
+        "role": "電池芯",
+        "text": "鋰電池芯供應商",
+        "entities": []
+      },
+      {
+        "role": "技術合作",
+        "text": "[[Futaba]] (雙葉電子) — PM[[OLED]] 技術與產線合作",
+        "entities": [
+          "Futaba",
+          "OLED"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "PMOLED",
+          "Futaba",
+          "OLED",
+          "OLED"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "PMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "PMOLED"
+    },
+    {
+      "name": "AMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "AMOLED"
+    },
+    {
+      "name": "Micro LED",
+      "type": "international_company_or_term",
+      "wikilink": "Micro LED"
+    },
+    {
+      "name": "Futaba",
+      "type": "international_company_or_term",
+      "wikilink": "Futaba"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "錸寶科技 (8104，RiTdisplay) 為台灣 [[OLED]] 顯示器專業製造商，隸屬錸德科技集團，成立於 1997 年，總部位於新竹。\n\n核心業務雙軌並行：(1) 顯示器事業 — 為全球領先之 [[PMOLED]] 製造商，並已跨足 [[AMOLED]] 與 [[Micro LED]] 技術開發，產品應用於穿戴裝置、工控面板及車用儀表；與日本 [[Futaba]] (雙葉電子) 建立策略合作，接手其全部 [[PMOLED]] 生產線並合作開發汽車用 [[OLED]] 顯示器；(2) 綠能儲能事業 — 提供電池模組、電池管理系統 (BMS)、儲能櫃、能源管理系統及不斷電系統 (UPS) 電池模組，搭配雲端監控服務。2025 年營收顯著成長，5 月單月營收年增 124.5%。",
+    "supply_chain_md": "**上游 (材料與設備):**\n- **[[OLED]] 有機材料:** [[OLED]] 發光材料供應商\n- **基板玻璃:** 玻璃基板廠\n- **電池芯:** 鋰電池芯供應商\n- **蒸鍍設備:** [[OLED]] 蒸鍍製程設備商\n\n**中游 (顯示器與儲能製造):**\n- **[[OLED]] 顯示器:** **錸寶** ([[PMOLED]]、[[AMOLED]] 顯示器製造)\n- **儲能系統:** **錸寶** (電池模組、BMS、儲能櫃、UPS 電池模組)\n\n**下游 (終端應用):**\n- **穿戴裝置:** 智慧手錶、手環品牌商\n- **車用顯示:** 汽車 [[OLED]] 儀表板 — 與 [[Futaba]] 合作\n- **工控面板:** 工業設備 [[OLED]] 顯示應用\n- **儲能終端:** 工商業儲能與 UPS 系統客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **穿戴裝置:** 全球智慧手錶與手環品牌商 — [[PMOLED]] 顯示面板\n- **車用顯示:** 汽車零組件廠 — 與 [[Futaba]] 合作開發車用 [[OLED]]\n- **工控面板:** 工業設備製造商 — [[OLED]] 人機介面\n- **儲能客戶:** 工商業儲能系統整合商 — 電池模組與儲能櫃\n\n### 主要供應商\n- **[[OLED]] 材料:** [[OLED]] 有機發光材料供應商\n- **玻璃基板:** 玻璃基板製造商\n- **電池芯:** 鋰電池芯供應商\n- **技術合作:** [[Futaba]] (雙葉電子) — PM[[OLED]] 技術與產線合作"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

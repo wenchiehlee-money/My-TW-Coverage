@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4583",
+  "company_name": "台灣精銳",
+  "title": "4583 - 台灣精銳",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4583_台灣精銳.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "39,043 百萬台幣",
+    "enterprise_value": "34,697 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣精銳 (4583，Apex Dynamics) 為全球最大規模專業伺服用行星式[[減速機]]製造廠 (1987 年創立)，產品涵蓋高精度行星減速機 (佔營收 74%)、齒排及聯軸器，全球 36 家經銷商佈局。下游應用涵蓋半導體設備 (晶圓搬運/檢測驅動)、工業機器人 ([[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈)、工具機及雷射切割進給系統。近年積極開發微型減速機搶攻人形機器人關節模組商機。另經營台中[[日月千禧酒店]]。",
+    "entities": [
+      "減速機",
+      "FANUC",
+      "ABB",
+      "Yaskawa",
+      "日月千禧酒店"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊鋼材/鋁合金",
+        "text": "精密齒輪用鋼材",
+        "entities": []
+      },
+      {
+        "category": "軸承/油封",
+        "text": "精密軸承供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台灣精銳** (行星[[減速機]]/齒排/聯軸器，精密齒輪加工/熱處理/研磨)",
+        "entities": [
+          "減速機"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體設備",
+        "text": "晶圓搬運/檢測驅動模組",
+        "entities": []
+      },
+      {
+        "category": "工業機器人",
+        "text": "[[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — 關節驅動",
+        "entities": [
+          "FANUC",
+          "ABB",
+          "Yaskawa"
+        ]
+      },
+      {
+        "category": "工具機",
+        "text": "五軸加工機/雷射切割進給系統",
+        "entities": []
+      },
+      {
+        "category": "人形機器人",
+        "text": "微型減速機 — 關節驅動",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "機器人",
+        "text": "[[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — [[減速機]]",
+        "entities": [
+          "FANUC",
+          "ABB",
+          "Yaskawa",
+          "減速機"
+        ]
+      },
+      {
+        "role": "半導體設備",
+        "text": "晶圓搬運/檢測設備",
+        "entities": []
+      },
+      {
+        "role": "工具機",
+        "text": "五軸加工/雷射切割",
+        "entities": []
+      },
+      {
+        "role": "人形機器人",
+        "text": "微型減速機 (新興)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材/軸承",
+        "text": "特殊鋼材及精密軸承",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "FANUC",
+          "ABB",
+          "Yaskawa",
+          "減速機"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "減速機"
+    },
+    {
+      "name": "FANUC",
+      "type": "international_company_or_term",
+      "wikilink": "FANUC"
+    },
+    {
+      "name": "ABB",
+      "type": "international_company_or_term",
+      "wikilink": "ABB"
+    },
+    {
+      "name": "Yaskawa",
+      "type": "international_company_or_term",
+      "wikilink": "Yaskawa"
+    },
+    {
+      "name": "日月千禧酒店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月千禧酒店"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣精銳 (4583，Apex Dynamics) 為全球最大規模專業伺服用行星式[[減速機]]製造廠 (1987 年創立)，產品涵蓋高精度行星減速機 (佔營收 74%)、齒排及聯軸器，全球 36 家經銷商佈局。下游應用涵蓋半導體設備 (晶圓搬運/檢測驅動)、工業機器人 ([[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈)、工具機及雷射切割進給系統。近年積極開發微型減速機搶攻人形機器人關節模組商機。另經營台中[[日月千禧酒店]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **特殊鋼材/鋁合金:** 精密齒輪用鋼材\n- **軸承/油封:** 精密軸承供應商\n\n**中游 (製造):**\n- **台灣精銳** (行星[[減速機]]/齒排/聯軸器，精密齒輪加工/熱處理/研磨)\n\n**下游 (終端):**\n- **半導體設備:** 晶圓搬運/檢測驅動模組\n- **工業機器人:** [[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — 關節驅動\n- **工具機:** 五軸加工機/雷射切割進給系統\n- **人形機器人:** 微型減速機 — 關節驅動",
+    "customers_suppliers_md": "### 主要客戶\n- **機器人:** [[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — [[減速機]]\n- **半導體設備:** 晶圓搬運/檢測設備\n- **工具機:** 五軸加工/雷射切割\n- **人形機器人:** 微型減速機 (新興)\n\n### 主要供應商\n- **鋼材/軸承:** 特殊鋼材及精密軸承"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

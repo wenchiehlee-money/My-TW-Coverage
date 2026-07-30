@@ -1,0 +1,218 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3141",
+  "company_name": "晶宏",
+  "title": "3141 - 晶宏",
+  "source_md": "Pilot_Reports/Semiconductors/3141_晶宏.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "4,463 百萬台幣",
+    "enterprise_value": "4,407 百萬台幣"
+  },
+  "business": {
+    "summary": "晶宏半導體 (3141) 是全球[[電子貨架標籤]] (ESL) 驅動晶片龍頭，市占率達 55%，為[[元太科技]]轉投資公司。公司核心產品包括 [[STN 驅動 IC]]、[[電子紙驅動 IC]] (EPD)、[[觸控 IC]] (車用五線電阻式) 及[[馬達驅動 IC]]。產品主要應用於電子書閱讀器、電子貨架標籤、車用儀表、工業控制及醫療設備，外銷占比達 87%。",
+    "entities": [
+      "電子貨架標籤",
+      "元太科技",
+      "STN 驅動 IC",
+      "電子紙驅動 IC",
+      "觸控 IC",
+      "馬達驅動 IC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "**晶宏** (電子紙驅動 IC、STN 驅動 IC、觸控及馬達驅動 IC)",
+        "entities": []
+      },
+      {
+        "category": "合資",
+        "text": "[[超炫科技]] (與[[創王光電]]合資開發 [[AMOLED]] 驅動 IC)",
+        "entities": [
+          "超炫科技",
+          "創王光電",
+          "AMOLED"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子紙與終端應用)",
+        "text": "**下游 (電子紙與終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電子紙模組",
+        "text": "[[元太科技]] (E Ink，最大客戶)",
+        "entities": [
+          "元太科技"
+        ]
+      },
+      {
+        "category": "電子貨架標籤",
+        "text": "歐美零售連鎖通路",
+        "entities": []
+      },
+      {
+        "category": "車用顯示",
+        "text": "車用儀表及中控面板",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子紙",
+        "text": "[[元太科技]] (E Ink，母公司及最大客戶)",
+        "entities": [
+          "元太科技"
+        ]
+      },
+      {
+        "role": "電子貨架標籤",
+        "text": "歐美零售連鎖通路",
+        "entities": []
+      },
+      {
+        "role": "車用顯示",
+        "text": "車用儀表及觸控面板廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      },
+      {
+        "role": "封裝測試",
+        "text": "半導體封測服務",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[旭曜]]、[[矽創]] (STN)、[[Epson]] (EPD)",
+        "entities": [
+          "旭曜",
+          "矽創",
+          "Epson"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[旭曜]]、[[矽創]] (STN)、[[Epson]] (EPD)",
+        "entities": [
+          "旭曜",
+          "矽創",
+          "Epson"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電子貨架標籤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電子貨架標籤"
+    },
+    {
+      "name": "元太科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元太科技"
+    },
+    {
+      "name": "STN 驅動 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "STN 驅動 IC"
+    },
+    {
+      "name": "電子紙驅動 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電子紙驅動 IC"
+    },
+    {
+      "name": "觸控 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "觸控 IC"
+    },
+    {
+      "name": "馬達驅動 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "馬達驅動 IC"
+    },
+    {
+      "name": "超炫科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超炫科技"
+    },
+    {
+      "name": "創王光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "創王光電"
+    },
+    {
+      "name": "AMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "AMOLED"
+    },
+    {
+      "name": "旭曜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭曜"
+    },
+    {
+      "name": "矽創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽創"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晶宏半導體 (3141) 是全球[[電子貨架標籤]] (ESL) 驅動晶片龍頭，市占率達 55%，為[[元太科技]]轉投資公司。公司核心產品包括 [[STN 驅動 IC]]、[[電子紙驅動 IC]] (EPD)、[[觸控 IC]] (車用五線電阻式) 及[[馬達驅動 IC]]。產品主要應用於電子書閱讀器、電子貨架標籤、車用儀表、工業控制及醫療設備，外銷占比達 87%。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** 台灣晶圓代工廠\n\n**中游 (IC 設計):**\n- **驅動 IC:** **晶宏** (電子紙驅動 IC、STN 驅動 IC、觸控及馬達驅動 IC)\n- **合資:** [[超炫科技]] (與[[創王光電]]合資開發 [[AMOLED]] 驅動 IC)\n\n**下游 (電子紙與終端應用):**\n- **電子紙模組:** [[元太科技]] (E Ink，最大客戶)\n- **電子貨架標籤:** 歐美零售連鎖通路\n- **車用顯示:** 車用儀表及中控面板",
+    "customers_suppliers_md": "### 主要客戶\n- **電子紙:** [[元太科技]] (E Ink，母公司及最大客戶)\n- **電子貨架標籤:** 歐美零售連鎖通路\n- **車用顯示:** 車用儀表及觸控面板廠\n\n### 主要供應商\n- **晶圓代工:** 台灣晶圓代工廠\n- **封裝測試:** 半導體封測服務\n- **競爭同業:** [[旭曜]]、[[矽創]] (STN)、[[Epson]] (EPD)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

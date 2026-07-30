@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4934",
+  "company_name": "太極",
+  "title": "4934 - [[太極]]",
+  "source_md": "Pilot_Reports/Solar/4934_太極.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Solar",
+    "market_cap": "3,060 百萬台幣",
+    "enterprise_value": "3,182 百萬台幣"
+  },
+  "business": {
+    "summary": "太極能源科技股份有限公司 (4934) 為[[廣運]] (6125) 集團旗下之太陽能電池製造商，同時透過轉投資積極布局[[碳化矽]] 第三代半導體。主要業務包括：\n\n1. **太陽能電池 (Solar Cell)：** 專注於單晶矽太陽能電池之研發與製造，主力產品為PERC電池。\n2. **太陽能模組：** 台灣與越南設有產線，越南產能最大，具備規避反傾銷稅優勢，出口美國市場。\n3. **[[碳化矽]] 基板：** 轉投資[[盛新材料]] (Taisic)，持股64%，開發4-8吋[[碳化矽]]基板，搭配AI監控長晶系統。預計2025年中完成客戶認證，並擴產設備至65台。\n4. **電站運營：** 開發與經營太陽能發電系統。",
+    "entities": [
+      "廣運",
+      "碳化矽",
+      "盛新材料"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "矽晶圓",
+        "text": "[[中美晶]]等矽晶圓供應商",
+        "entities": [
+          "中美晶"
+        ]
+      },
+      {
+        "category": "導電漿",
+        "text": "[[碩禾]]等銀漿與鋁漿供應商",
+        "entities": [
+          "碩禾"
+        ]
+      },
+      {
+        "category": "封裝材料",
+        "text": "玻璃、[[EVA]]膠膜",
+        "entities": [
+          "EVA"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "太極 (4934)",
+        "text": "太陽能電池與模組製造（台灣及越南產線）",
+        "entities": []
+      },
+      {
+        "category": "[[盛新材料]]",
+        "text": "[[碳化矽]] 基板長晶與切片",
+        "entities": [
+          "盛新材料",
+          "碳化矽"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "模組廠/系統商",
+        "text": "國內外太陽能電廠開發商 ([[EPC]])",
+        "entities": [
+          "EPC"
+        ]
+      },
+      {
+        "category": "美國市場",
+        "text": "透過越南產能出口之主要獲利來源",
+        "entities": []
+      },
+      {
+        "category": "[[碳化矽]]應用",
+        "text": "[[電動車]]充電樁、[[5G]]通訊設備",
+        "entities": [
+          "碳化矽",
+          "電動車",
+          "5G"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "太陽能模組",
+        "text": "國內外太陽能模組品牌與系統整合商",
+        "entities": []
+      },
+      {
+        "role": "美國市場",
+        "text": "透過越南產能出口至美國之系統整合商",
+        "entities": []
+      },
+      {
+        "role": "[[碳化矽]]基板（[[盛新材料]]）",
+        "text": "國際[[碳化矽]]元件廠，進行客戶認證中",
+        "entities": [
+          "碳化矽",
+          "盛新材料"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "矽晶圓",
+        "text": "[[中美晶]]",
+        "entities": [
+          "中美晶"
+        ]
+      },
+      {
+        "role": "導電漿",
+        "text": "[[碩禾]]",
+        "entities": [
+          "碩禾"
+        ]
+      },
+      {
+        "role": "設備支援",
+        "text": "[[廣運]] (6125)（母公司，提供自動化設備）",
+        "entities": [
+          "廣運"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Solar):** [[國碩]]、[[聯合再生]]、[[達能]]、[[碩禾]]、[[新晶投控]]",
+        "entities": [
+          "國碩",
+          "聯合再生",
+          "達能",
+          "碩禾",
+          "新晶投控"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "碳化矽",
+          "盛新材料"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "廣運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣運"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    },
+    {
+      "name": "盛新材料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "盛新材料"
+    },
+    {
+      "name": "中美晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中美晶"
+    },
+    {
+      "name": "碩禾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碩禾"
+    },
+    {
+      "name": "EVA",
+      "type": "international_company_or_term",
+      "wikilink": "EVA"
+    },
+    {
+      "name": "EPC",
+      "type": "international_company_or_term",
+      "wikilink": "EPC"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "國碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國碩"
+    },
+    {
+      "name": "聯合再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯合再生"
+    },
+    {
+      "name": "達能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達能"
+    },
+    {
+      "name": "新晶投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新晶投控"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "太極能源科技股份有限公司 (4934) 為[[廣運]] (6125) 集團旗下之太陽能電池製造商，同時透過轉投資積極布局[[碳化矽]] 第三代半導體。主要業務包括：\n\n1. **太陽能電池 (Solar Cell)：** 專注於單晶矽太陽能電池之研發與製造，主力產品為PERC電池。\n2. **太陽能模組：** 台灣與越南設有產線，越南產能最大，具備規避反傾銷稅優勢，出口美國市場。\n3. **[[碳化矽]] 基板：** 轉投資[[盛新材料]] (Taisic)，持股64%，開發4-8吋[[碳化矽]]基板，搭配AI監控長晶系統。預計2025年中完成客戶認證，並擴產設備至65台。\n4. **電站運營：** 開發與經營太陽能發電系統。",
+    "supply_chain_md": "**上游 (原材料):**\n- **矽晶圓：** [[中美晶]]等矽晶圓供應商\n- **導電漿：** [[碩禾]]等銀漿與鋁漿供應商\n- **封裝材料：** 玻璃、[[EVA]]膠膜\n\n**中游 (製造):**\n- **太極 (4934)：** 太陽能電池與模組製造（台灣及越南產線）\n- **[[盛新材料]]：** [[碳化矽]] 基板長晶與切片\n\n**下游 (終端應用):**\n- **模組廠/系統商：** 國內外太陽能電廠開發商 ([[EPC]])\n- **美國市場：** 透過越南產能出口之主要獲利來源\n- **[[碳化矽]]應用：** [[電動車]]充電樁、[[5G]]通訊設備",
+    "customers_suppliers_md": "### 主要客戶\n- **太陽能模組：** 國內外太陽能模組品牌與系統整合商\n- **美國市場：** 透過越南產能出口至美國之系統整合商\n- **[[碳化矽]]基板（[[盛新材料]]）：** 國際[[碳化矽]]元件廠，進行客戶認證中\n\n### 主要供應商\n- **矽晶圓：** [[中美晶]]\n- **導電漿：** [[碩禾]]\n- **設備支援：** [[廣運]] (6125)（母公司，提供自動化設備）"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

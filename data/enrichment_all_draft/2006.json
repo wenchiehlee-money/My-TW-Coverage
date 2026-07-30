@@ -1,0 +1,195 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2006",
+  "company_name": "東和鋼鐵",
+  "title": "2006 - 東和鋼鐵",
+  "source_md": "Pilot_Reports/Steel/2006_東和鋼鐵.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "52,867 百萬台幣",
+    "enterprise_value": "57,624 百萬台幣"
+  },
+  "business": {
+    "summary": "東和鋼鐵 (2006，Tung Ho) 為台灣最大[[電爐]]鋼廠之一。產品含[[鋼筋]]及[[H型鋼]] (台灣市占九成)。鋼筋訂單逾百萬噸。上游約50%國內+50%進口廢鋼。下游含[[中鋼構]]、[[長榮鋼]]及[[台積電]]廠房。",
+    "entities": [
+      "電爐",
+      "鋼筋",
+      "H型鋼",
+      "中鋼構",
+      "長榮鋼",
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "國內外廢鋼",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**[[東鋼]]** ([[電爐]]→[[鋼筋]]/[[H型鋼]]; 鋼構)",
+        "entities": [
+          "東鋼",
+          "電爐",
+          "鋼筋",
+          "H型鋼"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "營建業、[[中鋼構]]、[[長榮鋼]]、[[台積電]]廠房",
+        "entities": [
+          "中鋼構",
+          "長榮鋼",
+          "台積電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "營建業 — [[鋼筋]]/[[H型鋼]]",
+        "entities": [
+          "鋼筋",
+          "H型鋼"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[中鋼構]]、[[長榮鋼]]",
+        "entities": [
+          "中鋼構",
+          "長榮鋼"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[台積電]]廠房",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外廢鋼",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[燁興]]、[[高興昌]]、[[春源]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "燁興",
+          "高興昌",
+          "春源"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "鋼筋",
+          "H型鋼",
+          "中鋼構",
+          "長榮鋼",
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電爐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電爐"
+    },
+    {
+      "name": "鋼筋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼筋"
+    },
+    {
+      "name": "H型鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "H型鋼"
+    },
+    {
+      "name": "中鋼構",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼構"
+    },
+    {
+      "name": "長榮鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮鋼"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "東鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東鋼"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    },
+    {
+      "name": "春源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春源"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東和鋼鐵 (2006，Tung Ho) 為台灣最大[[電爐]]鋼廠之一。產品含[[鋼筋]]及[[H型鋼]] (台灣市占九成)。鋼筋訂單逾百萬噸。上游約50%國內+50%進口廢鋼。下游含[[中鋼構]]、[[長榮鋼]]及[[台積電]]廠房。",
+    "supply_chain_md": "**上游:** 國內外廢鋼\n**中游:** **[[東鋼]]** ([[電爐]]→[[鋼筋]]/[[H型鋼]]; 鋼構)\n**下游:** 營建業、[[中鋼構]]、[[長榮鋼]]、[[台積電]]廠房",
+    "customers_suppliers_md": "### 主要客戶\n- 營建業 — [[鋼筋]]/[[H型鋼]]\n- [[中鋼構]]、[[長榮鋼]]\n- [[台積電]]廠房\n\n### 主要供應商\n- 國內外廢鋼"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

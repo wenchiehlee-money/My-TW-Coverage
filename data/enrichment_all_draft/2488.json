@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2488",
+  "company_name": "漢平",
+  "title": "2488 - 漢平",
+  "source_md": "Pilot_Reports/Consumer Electronics/2488_漢平.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "3,880 百萬台幣",
+    "enterprise_value": "1,956 百萬台幣"
+  },
+  "business": {
+    "summary": "漢平電子工業股份有限公司 (2488) 成立於 1969 年，總部位於台灣台南。公司為全球專業音訊設備主要 [[ODM]]/[[OEM]] 製造商，以 DJ 唱盤 (Turntable)、DJ 控制器及家用黑膠唱盤為核心產品。近年受惠於全球黑膠復興潮及專業 DJ 市場穩定需求，營運表現良好。生產基地位於深圳廠及台南廠。",
+    "entities": [
+      "ODM",
+      "OEM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (音訊組件)",
+        "text": "**上游 (音訊組件):**",
+        "entities": []
+      },
+      {
+        "category": "馬達",
+        "text": "直驅/皮帶驅動馬達",
+        "entities": []
+      },
+      {
+        "category": "唱頭",
+        "text": "唱頭 (Cartridge) 與唱針",
+        "entities": []
+      },
+      {
+        "category": "唱臂",
+        "text": "唱臂 (Tonearm) 機構件",
+        "entities": []
+      },
+      {
+        "category": "電路板",
+        "text": "[[PCB]] 控制板、IC",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "外殼",
+        "text": "木箱/塑膠/鋁合金外殼",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (唱盤設計製造)",
+        "text": "**中游 (唱盤設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "產品設計",
+        "text": "**漢平** ([[ODM]] 專業唱盤設計)",
+        "entities": [
+          "ODM"
+        ]
+      },
+      {
+        "category": "組裝測試",
+        "text": "深圳廠/台南廠組裝產線",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "DJ 設備",
+        "text": "[[Pioneer DJ]] (AlphaTheta) — 專業 DJ 唱盤",
+        "entities": [
+          "Pioneer DJ"
+        ]
+      },
+      {
+        "category": "音響品牌",
+        "text": "[[Audio-Technica]] (鐵三角) — 黑膠唱盤",
+        "entities": [
+          "Audio-Technica"
+        ]
+      },
+      {
+        "category": "影音品牌",
+        "text": "[[Denon]]、[[Sony]] — 家用/專業唱盤",
+        "entities": [
+          "Denon",
+          "Sony"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "DJ 設備",
+        "text": "[[Pioneer DJ]] (AlphaTheta) — 專業 DJ 唱盤 ODM",
+        "entities": [
+          "Pioneer DJ"
+        ]
+      },
+      {
+        "role": "音響品牌",
+        "text": "[[Audio-Technica]] (鐵三角) — 黑膠唱盤 ODM",
+        "entities": [
+          "Audio-Technica"
+        ]
+      },
+      {
+        "role": "影音品牌",
+        "text": "[[Denon]]、[[Sony]] — 家用/專業唱盤代工",
+        "entities": [
+          "Denon",
+          "Sony"
+        ]
+      },
+      {
+        "role": "消費通路",
+        "text": "全球黑膠音響零售通路",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "馬達",
+        "text": "直驅/皮帶驅動馬達專業供應商",
+        "entities": []
+      },
+      {
+        "role": "唱頭",
+        "text": "唱頭與唱針零組件供應商",
+        "entities": []
+      },
+      {
+        "role": "機構件",
+        "text": "鋁合金與木質外殼加工廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[宏達電]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "宏達電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Pioneer DJ",
+          "Audio-Technica",
+          "Denon",
+          "Sony"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Pioneer DJ",
+      "type": "international_company_or_term",
+      "wikilink": "Pioneer DJ"
+    },
+    {
+      "name": "Audio-Technica",
+      "type": "international_company_or_term",
+      "wikilink": "Audio-Technica"
+    },
+    {
+      "name": "Denon",
+      "type": "international_company_or_term",
+      "wikilink": "Denon"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "宏達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏達電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "漢平電子工業股份有限公司 (2488) 成立於 1969 年，總部位於台灣台南。公司為全球專業音訊設備主要 [[ODM]]/[[OEM]] 製造商，以 DJ 唱盤 (Turntable)、DJ 控制器及家用黑膠唱盤為核心產品。近年受惠於全球黑膠復興潮及專業 DJ 市場穩定需求，營運表現良好。生產基地位於深圳廠及台南廠。",
+    "supply_chain_md": "**上游 (音訊組件):**\n- **馬達:** 直驅/皮帶驅動馬達\n- **唱頭:** 唱頭 (Cartridge) 與唱針\n- **唱臂:** 唱臂 (Tonearm) 機構件\n- **電路板:** [[PCB]] 控制板、IC\n- **外殼:** 木箱/塑膠/鋁合金外殼\n\n**中游 (唱盤設計製造):**\n- **產品設計:** **漢平** ([[ODM]] 專業唱盤設計)\n- **組裝測試:** 深圳廠/台南廠組裝產線\n\n**下游 (品牌客戶):**\n- **DJ 設備:** [[Pioneer DJ]] (AlphaTheta) — 專業 DJ 唱盤\n- **音響品牌:** [[Audio-Technica]] (鐵三角) — 黑膠唱盤\n- **影音品牌:** [[Denon]]、[[Sony]] — 家用/專業唱盤",
+    "customers_suppliers_md": "### 主要客戶\n- **DJ 設備:** [[Pioneer DJ]] (AlphaTheta) — 專業 DJ 唱盤 ODM\n- **音響品牌:** [[Audio-Technica]] (鐵三角) — 黑膠唱盤 ODM\n- **影音品牌:** [[Denon]]、[[Sony]] — 家用/專業唱盤代工\n- **消費通路:** 全球黑膠音響零售通路\n\n### 主要供應商\n- **馬達:** 直驅/皮帶驅動馬達專業供應商\n- **唱頭:** 唱頭與唱針零組件供應商\n- **機構件:** 鋁合金與木質外殼加工廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

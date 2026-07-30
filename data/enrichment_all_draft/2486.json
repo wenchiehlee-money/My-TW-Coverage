@@ -1,0 +1,230 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2486",
+  "company_name": "一詮",
+  "title": "2486 - 一詮",
+  "source_md": "Pilot_Reports/Electronic Components/2486_一詮.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "42,929 百萬台幣",
+    "enterprise_value": "48,343 百萬台幣"
+  },
+  "business": {
+    "summary": "一詮精密 (2486) 是全球最大的 [[LED 導線架]]製造商，產品涵蓋 LED [[導線架]]、IC [[導線架]]、[[陶瓷基板]]及[[散熱]]元件 (均熱片)。LED [[導線架]]客戶包括韓國 [[Samsung]] 及國內 [[億光電子]]。IC [[導線架]]鎖定中國前三大封裝廠認證，均熱片前五大客戶均為全球半導體封裝大廠如 [[日月光投控]]、[[矽品]]、[[Amkor]]。",
+    "entities": [
+      "LED 導線架",
+      "導線架",
+      "陶瓷基板",
+      "散熱",
+      "Samsung",
+      "億光電子",
+      "日月光投控",
+      "矽品",
+      "Amkor"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅合金帶材",
+        "text": "[[導線架]]用銅合金",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "category": "陶瓷粉體",
+        "text": "陶瓷基板材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[導線架]]製造)",
+        "text": "**中游 ([[導線架]]製造):**",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "category": "LED/IC [[導線架]]",
+        "text": "**一詮** (全球最大 LED [[導線架]]，含陶瓷基板/均熱片)",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (封裝廠)",
+        "text": "**下游 (封裝廠):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "[[Samsung]]、[[億光電子]] (LED [[導線架]])",
+        "entities": [
+          "Samsung",
+          "億光電子",
+          "導線架"
+        ]
+      },
+      {
+        "category": "半導體封裝",
+        "text": "[[日月光投控]]、[[矽品]]、[[Amkor]] (均熱片)",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "Amkor"
+        ]
+      },
+      {
+        "category": "IC 封裝",
+        "text": "中國前三大封裝廠 (IC [[導線架]])",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "LED 封裝",
+        "text": "[[Samsung]]、[[億光電子]]",
+        "entities": [
+          "Samsung",
+          "億光電子"
+        ]
+      },
+      {
+        "role": "半導體封裝 (均熱片)",
+        "text": "[[日月光投控]]、[[矽品]]、[[Amkor]]",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "Amkor"
+        ]
+      },
+      {
+        "role": "IC 封裝",
+        "text": "中國前三大封裝廠 (IC [[導線架]])",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅合金",
+        "text": "[[導線架]]用銅合金帶材",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[順德]] (功率[[導線架]]龍頭)、[[界霖]]",
+        "entities": [
+          "順德",
+          "導線架",
+          "界霖"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[順德]] (功率[[導線架]]龍頭)、[[界霖]]",
+        "entities": [
+          "順德",
+          "導線架",
+          "界霖"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED 導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "LED 導線架"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "陶瓷基板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陶瓷基板"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "億光電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光電子"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "Amkor",
+      "type": "international_company_or_term",
+      "wikilink": "Amkor"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "界霖",
+      "type": "taiwan_company_or_term",
+      "wikilink": "界霖"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "一詮精密 (2486) 是全球最大的 [[LED 導線架]]製造商，產品涵蓋 LED [[導線架]]、IC [[導線架]]、[[陶瓷基板]]及[[散熱]]元件 (均熱片)。LED [[導線架]]客戶包括韓國 [[Samsung]] 及國內 [[億光電子]]。IC [[導線架]]鎖定中國前三大封裝廠認證，均熱片前五大客戶均為全球半導體封裝大廠如 [[日月光投控]]、[[矽品]]、[[Amkor]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅合金帶材:** [[導線架]]用銅合金\n- **陶瓷粉體:** 陶瓷基板材料\n\n**中游 ([[導線架]]製造):**\n- **LED/IC [[導線架]]:** **一詮** (全球最大 LED [[導線架]]，含陶瓷基板/均熱片)\n\n**下游 (封裝廠):**\n- **LED 封裝:** [[Samsung]]、[[億光電子]] (LED [[導線架]])\n- **半導體封裝:** [[日月光投控]]、[[矽品]]、[[Amkor]] (均熱片)\n- **IC 封裝:** 中國前三大封裝廠 (IC [[導線架]])",
+    "customers_suppliers_md": "### 主要客戶\n- **LED 封裝:** [[Samsung]]、[[億光電子]]\n- **半導體封裝 (均熱片):** [[日月光投控]]、[[矽品]]、[[Amkor]]\n- **IC 封裝:** 中國前三大封裝廠 (IC [[導線架]])\n\n### 主要供應商\n- **銅合金:** [[導線架]]用銅合金帶材\n- **競爭同業:** [[順德]] (功率[[導線架]]龍頭)、[[界霖]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

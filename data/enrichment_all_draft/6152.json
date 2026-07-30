@@ -1,0 +1,280 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6152",
+  "company_name": "百一",
+  "title": "6152_百一",
+  "source_md": "Pilot_Reports/Communication Equipment/6152_百一.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "1,895 百萬台幣",
+    "enterprise_value": "1,851 百萬台幣"
+  },
+  "business": {
+    "summary": "百一電子 (6152，Prime Electronics) 為通訊網路與微波器材 ODM 製造商，主力營收來源為數位機上盒 (STB)，並延伸至寬頻網通產品 ([[GPON]]/[[Wi-Fi]]) 及多軌道衛星降頻器 (LNB)。\n\n公司近年積極推動產品高階化轉型：成為台灣首家取得 [[Netflix]] Self-Serve 資格廠商，並獲 [[Google TV]] 授權。戰略聚焦邊緣 AI 終端領域，與晶錡微電子策略結盟，將 AI 模組 (AISOM) 整合至 STB 平台，發展智慧安防與健康應用。同時大舉跨入[[低軌衛星]]通訊供應鏈，拓展 [[Wi-Fi 7]] 高階寬頻設備，已取得義大利大型電信商之 Wi-Fi 7 標案訂單。",
+    "entities": [
+      "GPON",
+      "Wi-Fi",
+      "Netflix",
+      "Google TV",
+      "低軌衛星",
+      "Wi-Fi 7"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (影音解碼與通訊晶片)",
+        "text": "**上游 (影音解碼與通訊晶片):**",
+        "entities": []
+      },
+      {
+        "category": "STB SoC",
+        "text": "[[聯發科]] — 數位機上盒影音解碼系統單晶片",
+        "entities": [
+          "聯發科"
+        ]
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "Wi-Fi 6/7 射頻通訊模組",
+        "entities": []
+      },
+      {
+        "category": "AI 模組",
+        "text": "晶錡微電子 — AISOM 邊緣 AI 模組",
+        "entities": []
+      },
+      {
+        "category": "微波元件",
+        "text": "衛星 LNB 高頻微波元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (機上盒與寬頻設備 ODM)",
+        "text": "**中游 (機上盒與寬頻設備 ODM):**",
+        "entities": []
+      },
+      {
+        "category": "STB",
+        "text": "**百一** ([[Google]] TV/Netflix 認證機上盒)",
+        "entities": [
+          "Google"
+        ]
+      },
+      {
+        "category": "寬頻設備",
+        "text": "**百一** (GPON + Wi-Fi 7 整合終端)",
+        "entities": []
+      },
+      {
+        "category": "衛星 LNB",
+        "text": "**百一** (多軌道衛星降頻器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信營運商與衛星廣播商)",
+        "text": "**下游 (電信營運商與衛星廣播商):**",
+        "entities": []
+      },
+      {
+        "category": "台灣電信",
+        "text": "[[中華電信]] — GPON + Wi-Fi 影音整合機種",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "category": "歐洲電信",
+        "text": "義大利大型電信商 — Wi-Fi 7 高階標案",
+        "entities": []
+      },
+      {
+        "category": "衛星廣播",
+        "text": "全球衛星電視營運商 — STB 及 LNB",
+        "entities": []
+      },
+      {
+        "category": "串流平台",
+        "text": "[[Netflix]]、[[Google TV]] 認證生態系",
+        "entities": [
+          "Netflix",
+          "Google TV"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台灣電信",
+        "text": "[[中華電信]] — GPON + Wi-Fi 影音整合高單價訂單",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "歐洲電信",
+        "text": "義大利大型電信商 — Wi-Fi 7 高階標案",
+        "entities": []
+      },
+      {
+        "role": "衛星廣播",
+        "text": "[[DirecTV]] 等全球衛星電視營運商 — STB/LNB",
+        "entities": [
+          "DirecTV"
+        ]
+      },
+      {
+        "role": "串流生態",
+        "text": "[[Netflix]]、[[Google TV]] 認證合作",
+        "entities": [
+          "Netflix",
+          "Google TV"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "STB 晶片",
+        "text": "[[聯發科]] — 影音解碼 SoC",
+        "entities": [
+          "聯發科"
+        ]
+      },
+      {
+        "role": "AI 模組",
+        "text": "晶錡微電子 — AISOM 邊緣 AI 晶片",
+        "entities": []
+      },
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "Wi-Fi 7 射頻通訊模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "DirecTV",
+          "Netflix",
+          "Google TV"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "GPON",
+      "type": "international_company_or_term",
+      "wikilink": "GPON"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "Netflix",
+      "type": "international_company_or_term",
+      "wikilink": "Netflix"
+    },
+    {
+      "name": "Google TV",
+      "type": "international_company_or_term",
+      "wikilink": "Google TV"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "DirecTV",
+      "type": "international_company_or_term",
+      "wikilink": "DirecTV"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "百一電子 (6152，Prime Electronics) 為通訊網路與微波器材 ODM 製造商，主力營收來源為數位機上盒 (STB)，並延伸至寬頻網通產品 ([[GPON]]/[[Wi-Fi]]) 及多軌道衛星降頻器 (LNB)。\n\n公司近年積極推動產品高階化轉型：成為台灣首家取得 [[Netflix]] Self-Serve 資格廠商，並獲 [[Google TV]] 授權。戰略聚焦邊緣 AI 終端領域，與晶錡微電子策略結盟，將 AI 模組 (AISOM) 整合至 STB 平台，發展智慧安防與健康應用。同時大舉跨入[[低軌衛星]]通訊供應鏈，拓展 [[Wi-Fi 7]] 高階寬頻設備，已取得義大利大型電信商之 Wi-Fi 7 標案訂單。",
+    "supply_chain_md": "**上游 (影音解碼與通訊晶片):**\n- **STB SoC:** [[聯發科]] — 數位機上盒影音解碼系統單晶片\n- **Wi-Fi 晶片:** Wi-Fi 6/7 射頻通訊模組\n- **AI 模組:** 晶錡微電子 — AISOM 邊緣 AI 模組\n- **微波元件:** 衛星 LNB 高頻微波元件\n\n**中游 (機上盒與寬頻設備 ODM):**\n- **STB:** **百一** ([[Google]] TV/Netflix 認證機上盒)\n- **寬頻設備:** **百一** (GPON + Wi-Fi 7 整合終端)\n- **衛星 LNB:** **百一** (多軌道衛星降頻器)\n\n**下游 (電信營運商與衛星廣播商):**\n- **台灣電信:** [[中華電信]] — GPON + Wi-Fi 影音整合機種\n- **歐洲電信:** 義大利大型電信商 — Wi-Fi 7 高階標案\n- **衛星廣播:** 全球衛星電視營運商 — STB 及 LNB\n- **串流平台:** [[Netflix]]、[[Google TV]] 認證生態系",
+    "customers_suppliers_md": "### 主要客戶\n- **台灣電信:** [[中華電信]] — GPON + Wi-Fi 影音整合高單價訂單\n- **歐洲電信:** 義大利大型電信商 — Wi-Fi 7 高階標案\n- **衛星廣播:** [[DirecTV]] 等全球衛星電視營運商 — STB/LNB\n- **串流生態:** [[Netflix]]、[[Google TV]] 認證合作\n\n### 主要供應商\n- **STB 晶片:** [[聯發科]] — 影音解碼 SoC\n- **AI 模組:** 晶錡微電子 — AISOM 邊緣 AI 晶片\n- **Wi-Fi 晶片:** Wi-Fi 7 射頻通訊模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

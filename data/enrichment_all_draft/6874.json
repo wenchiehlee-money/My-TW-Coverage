@@ -1,0 +1,297 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6874",
+  "company_name": "倍力",
+  "title": "6874_倍力",
+  "source_md": "Pilot_Reports/Software - Application/6874_倍力.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": "1,617 百萬台幣",
+    "enterprise_value": "2,056 百萬台幣"
+  },
+  "business": {
+    "summary": "倍力資訊 (6874，M-Power) 專注於企業級軟體代理與自主研發 ESG 數位轉型解決方案。公司代理 [[Oracle]]、[[SAP]]、[[Cisco]]、[[IBM]] 等國際頂級商用軟體品牌，掌握極佳之企業客戶覆蓋率。近年成功轉型，自主研發「集團合併報表系統 (GCRS)」及「財務附註揭露系統 (FNDS)」協助上市櫃公司快速產出 [[IFRS]] 合併報表，以及「碳管家 (CarbonKeeper)」企業碳盤查與減碳模擬系統。倍力精準切入台灣數千家上市櫃公司必須強制接軌國際永續準則與財報合規的剛性需求，累計服務超過 400 家上市櫃企業。",
+    "entities": [
+      "Oracle",
+      "SAP",
+      "Cisco",
+      "IBM",
+      "IFRS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際軟體原廠)",
+        "text": "**上游 (國際軟體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "資料庫",
+        "text": "[[Oracle]] (甲骨文)",
+        "entities": [
+          "Oracle"
+        ]
+      },
+      {
+        "category": "ERP",
+        "text": "[[SAP]]",
+        "entities": [
+          "SAP"
+        ]
+      },
+      {
+        "category": "網通/資安",
+        "text": "[[Cisco]]、[[IBM]]",
+        "entities": [
+          "Cisco",
+          "IBM"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (軟體代理與自研)",
+        "text": "**中游 (軟體代理與自研):**",
+        "entities": []
+      },
+      {
+        "category": "軟體代理/ESG",
+        "text": "**倍力資訊** (國際商用軟體代理、IFRS 合併報表系統、CarbonKeeper 碳管家)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端企業)",
+        "text": "**下游 (終端企業):**",
+        "entities": []
+      },
+      {
+        "category": "電信業",
+        "text": "[[中華電信]]、[[遠傳電信]]",
+        "entities": [
+          "中華電信",
+          "遠傳電信"
+        ]
+      },
+      {
+        "category": "科技/製造",
+        "text": "[[旺宏電子]]等半導體與製造業",
+        "entities": [
+          "旺宏電子"
+        ]
+      },
+      {
+        "category": "金融業",
+        "text": "[[元大金控]]、[[元富證券]]等金融機構",
+        "entities": [
+          "元大金控",
+          "元富證券"
+        ]
+      },
+      {
+        "category": "航空/交通",
+        "text": "[[中華航空]]",
+        "entities": [
+          "中華航空"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信業",
+        "text": "[[中華電信]]、[[遠傳電信]]",
+        "entities": [
+          "中華電信",
+          "遠傳電信"
+        ]
+      },
+      {
+        "role": "科技/製造",
+        "text": "[[旺宏電子]]、力麗科技等",
+        "entities": [
+          "旺宏電子"
+        ]
+      },
+      {
+        "role": "金融業",
+        "text": "[[元大金控]]、[[元富證券]]",
+        "entities": [
+          "元大金控",
+          "元富證券"
+        ]
+      },
+      {
+        "role": "航空",
+        "text": "[[中華航空]]",
+        "entities": [
+          "中華航空"
+        ]
+      },
+      {
+        "role": "政府",
+        "text": "立法院、交通部",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "資料庫",
+        "text": "[[Oracle]] (甲骨文)",
+        "entities": [
+          "Oracle"
+        ]
+      },
+      {
+        "role": "ERP",
+        "text": "[[SAP]]",
+        "entities": [
+          "SAP"
+        ]
+      },
+      {
+        "role": "網通/IT",
+        "text": "[[Cisco]]、[[IBM]]",
+        "entities": [
+          "Cisco",
+          "IBM"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Application):** [[大塚]]、[[研勤]]、[[凱衛]]、[[力新]]、[[訊連]]",
+        "entities": [
+          "大塚",
+          "研勤",
+          "凱衛",
+          "力新",
+          "訊連"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "遠傳電信",
+          "旺宏電子",
+          "元大金控",
+          "元富證券",
+          "中華航空"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "**中游 (軟體代理與自研):**",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Oracle",
+      "type": "international_company_or_term",
+      "wikilink": "Oracle"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "IBM",
+      "type": "international_company_or_term",
+      "wikilink": "IBM"
+    },
+    {
+      "name": "IFRS",
+      "type": "international_company_or_term",
+      "wikilink": "IFRS"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "旺宏電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏電子"
+    },
+    {
+      "name": "元大金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元大金控"
+    },
+    {
+      "name": "元富證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元富證券"
+    },
+    {
+      "name": "中華航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華航空"
+    },
+    {
+      "name": "大塚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大塚"
+    },
+    {
+      "name": "研勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研勤"
+    },
+    {
+      "name": "凱衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱衛"
+    },
+    {
+      "name": "力新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力新"
+    },
+    {
+      "name": "訊連",
+      "type": "taiwan_company_or_term",
+      "wikilink": "訊連"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "倍力資訊 (6874，M-Power) 專注於企業級軟體代理與自主研發 ESG 數位轉型解決方案。公司代理 [[Oracle]]、[[SAP]]、[[Cisco]]、[[IBM]] 等國際頂級商用軟體品牌，掌握極佳之企業客戶覆蓋率。近年成功轉型，自主研發「集團合併報表系統 (GCRS)」及「財務附註揭露系統 (FNDS)」協助上市櫃公司快速產出 [[IFRS]] 合併報表，以及「碳管家 (CarbonKeeper)」企業碳盤查與減碳模擬系統。倍力精準切入台灣數千家上市櫃公司必須強制接軌國際永續準則與財報合規的剛性需求，累計服務超過 400 家上市櫃企業。",
+    "supply_chain_md": "**上游 (國際軟體原廠):**\n- **資料庫:** [[Oracle]] (甲骨文)\n- **ERP:** [[SAP]]\n- **網通/資安:** [[Cisco]]、[[IBM]]\n\n**中游 (軟體代理與自研):**\n- **軟體代理/ESG:** **倍力資訊** (國際商用軟體代理、IFRS 合併報表系統、CarbonKeeper 碳管家)\n\n**下游 (終端企業):**\n- **電信業:** [[中華電信]]、[[遠傳電信]]\n- **科技/製造:** [[旺宏電子]]等半導體與製造業\n- **金融業:** [[元大金控]]、[[元富證券]]等金融機構\n- **航空/交通:** [[中華航空]]",
+    "customers_suppliers_md": "### 主要客戶\n- **電信業:** [[中華電信]]、[[遠傳電信]]\n- **科技/製造:** [[旺宏電子]]、力麗科技等\n- **金融業:** [[元大金控]]、[[元富證券]]\n- **航空:** [[中華航空]]\n- **政府:** 立法院、交通部\n\n### 主要供應商\n- **資料庫:** [[Oracle]] (甲骨文)\n- **ERP:** [[SAP]]\n- **網通/IT:** [[Cisco]]、[[IBM]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

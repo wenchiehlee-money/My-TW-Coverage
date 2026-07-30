@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3024",
+  "company_name": "憶聲",
+  "title": "3024 - 憶聲",
+  "source_md": "Pilot_Reports/Consumer Electronics/3024_憶聲.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "3,423 百萬台幣",
+    "enterprise_value": "3,693 百萬台幣"
+  },
+  "business": {
+    "summary": "憶聲電子股份有限公司 (3024) 早期為車用影音代工大廠，近年積極轉型三大主軸：(1) 品牌經營 — 經營老牌家電品牌[[歌林]] (Kolin)，主打高性價比與年輕化家電；(2) 車用電子 — 專注於 RV 露營車、遊艇、重型機械之影音與監控系統，與一般乘用車市場區隔；(3) 資產活化 — 中壢憶聲智匯科技園區開發案，轉型為廠辦租賃與銷售。生產基地位於馬來西亞檳城廠與中國深圳廠。",
+    "entities": [
+      "歌林"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "顯示面板供應商",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "IC、[[PCB]]、被動元件",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "塑膠/金屬外殼",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌經營與製造)",
+        "text": "**中游 (品牌經營與製造):**",
+        "entities": []
+      },
+      {
+        "category": "家電品牌",
+        "text": "**憶聲** ([[歌林]] Kolin 品牌家電)",
+        "entities": [
+          "歌林"
+        ]
+      },
+      {
+        "category": "車用影音",
+        "text": "**憶聲** (RV/遊艇車載影音系統製造)",
+        "entities": []
+      },
+      {
+        "category": "資產活化",
+        "text": "**憶聲** (中壢科技園區廠辦租賃)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與客戶)",
+        "text": "**下游 (通路與客戶):**",
+        "entities": []
+      },
+      {
+        "category": "家電通路",
+        "text": "[[大潤發]]、[[家樂福]]、電商平台 — 歌林品牌家電",
+        "entities": [
+          "大潤發",
+          "家樂福"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "北美與歐洲 RV 車廠、遊艇製造商",
+        "entities": []
+      },
+      {
+        "category": "租賃",
+        "text": "中壢園區廠辦租戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "家電通路",
+        "text": "[[大潤發]]、[[家樂福]] — 歌林品牌家電零售",
+        "entities": [
+          "大潤發",
+          "家樂福"
+        ]
+      },
+      {
+        "role": "電商",
+        "text": "台灣主要電商平台 — 歌林家電線上銷售",
+        "entities": []
+      },
+      {
+        "role": "車用",
+        "text": "北美與歐洲 RV 露營車/遊艇客戶 — 車載影音系統",
+        "entities": []
+      },
+      {
+        "role": "租賃",
+        "text": "中壢智匯科技園區廠辦租戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "代工",
+        "text": "[[OEM]] 代工廠 — 歌林品牌家電委外製造",
+        "entities": [
+          "OEM"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "顯示面板供應商 — 車載影音用",
+        "entities": []
+      },
+      {
+        "role": "電子元件",
+        "text": "IC 與被動元件通路商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "大潤發",
+          "家樂福"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "歌林",
+      "type": "taiwan_company_or_term",
+      "wikilink": "歌林"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "大潤發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大潤發"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "憶聲電子股份有限公司 (3024) 早期為車用影音代工大廠，近年積極轉型三大主軸：(1) 品牌經營 — 經營老牌家電品牌[[歌林]] (Kolin)，主打高性價比與年輕化家電；(2) 車用電子 — 專注於 RV 露營車、遊艇、重型機械之影音與監控系統，與一般乘用車市場區隔；(3) 資產活化 — 中壢憶聲智匯科技園區開發案，轉型為廠辦租賃與銷售。生產基地位於馬來西亞檳城廠與中國深圳廠。",
+    "supply_chain_md": "**上游 (零組件):**\n- **面板:** 顯示面板供應商\n- **電子元件:** IC、[[PCB]]、被動元件\n- **機構件:** 塑膠/金屬外殼\n\n**中游 (品牌經營與製造):**\n- **家電品牌:** **憶聲** ([[歌林]] Kolin 品牌家電)\n- **車用影音:** **憶聲** (RV/遊艇車載影音系統製造)\n- **資產活化:** **憶聲** (中壢科技園區廠辦租賃)\n\n**下游 (通路與客戶):**\n- **家電通路:** [[大潤發]]、[[家樂福]]、電商平台 — 歌林品牌家電\n- **車用:** 北美與歐洲 RV 車廠、遊艇製造商\n- **租賃:** 中壢園區廠辦租戶",
+    "customers_suppliers_md": "### 主要客戶\n- **家電通路:** [[大潤發]]、[[家樂福]] — 歌林品牌家電零售\n- **電商:** 台灣主要電商平台 — 歌林家電線上銷售\n- **車用:** 北美與歐洲 RV 露營車/遊艇客戶 — 車載影音系統\n- **租賃:** 中壢智匯科技園區廠辦租戶\n\n### 主要供應商\n- **代工:** [[OEM]] 代工廠 — 歌林品牌家電委外製造\n- **面板:** 顯示面板供應商 — 車載影音用\n- **電子元件:** IC 與被動元件通路商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

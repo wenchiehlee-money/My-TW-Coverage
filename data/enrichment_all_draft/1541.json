@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1541",
+  "company_name": "錩泰",
+  "title": "1541 - 錩泰",
+  "source_md": "Pilot_Reports/Tools & Accessories/1541_錩泰.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "1,651 百萬台幣",
+    "enterprise_value": "1,508 百萬台幣"
+  },
+  "business": {
+    "summary": "錩泰工業 (1541，Chang Type) 成立於 1989 年，總部位於台灣台中。錩泰為全球知名電動工具 [[ODM]] 代工廠，專精於各類切割類電動工具，主要產品包括圓鋸機 (Miter Saw)、線鋸機 (Scroll Saw)、帶鋸機 (Band Saw) 及切磚機等。公司具備馬達自製能力，並擁有鋁壓鑄、精密加工、組裝測試等一貫製程。市場集中於北美地區，最大客戶為 [[Stanley Black & Decker]]。",
+    "entities": [
+      "ODM",
+      "Stanley Black & Decker"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與零件)",
+        "text": "**上游 (原料與零件):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "鋁錠、鋼材、銅線",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "控制IC、開關等",
+        "entities": []
+      },
+      {
+        "category": "塑膠",
+        "text": "工程塑膠粒",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**錩泰工業** — 鋁壓鑄、馬達製造 (自製)、精密加工、組裝測試",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與通路)",
+        "text": "**下游 (品牌與通路):**",
+        "entities": []
+      },
+      {
+        "category": "電動工具品牌",
+        "text": "[[Stanley Black & Decker]] (SBD，含 DEWALT/CRAFTSMAN)、[[TTI]] (含 Ryobi)、[[Harbor Freight Tools]]",
+        "entities": [
+          "Stanley Black & Decker",
+          "TTI",
+          "Harbor Freight Tools"
+        ]
+      },
+      {
+        "category": "北美通路",
+        "text": "[[Lowe's]] (自有品牌 Kobalt)",
+        "entities": [
+          "Lowe's"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[Stanley Black & Decker]]",
+        "text": "最大客戶，代工 DEWALT 及 CRAFTSMAN 品牌圓鋸機",
+        "entities": [
+          "Stanley Black & Decker"
+        ]
+      },
+      {
+        "role": "[[Lowe's]]",
+        "text": "代工通路自有品牌 Kobalt",
+        "entities": [
+          "Lowe's"
+        ]
+      },
+      {
+        "role": "[[Harbor Freight Tools]]",
+        "text": "美國工具通路，代工自有品牌 Hercules/Bauer",
+        "entities": [
+          "Harbor Freight Tools"
+        ]
+      },
+      {
+        "role": "[[TTI]]",
+        "text": "代工 Ryobi 品牌 (部分)",
+        "entities": [
+          "TTI"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋁壓鑄",
+        "text": "國內配合廠商",
+        "entities": []
+      },
+      {
+        "role": "馬達",
+        "text": "自製為主",
+        "entities": []
+      },
+      {
+        "role": "鋼材/鋁錠",
+        "text": "國內金屬材料商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Tools & Accessories):** [[鑽全]]、[[正峰]]、[[中砂]]、[[力肯]]、[[駿吉-KY]]",
+        "entities": [
+          "鑽全",
+          "正峰",
+          "中砂",
+          "力肯",
+          "駿吉-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Stanley Black & Decker",
+          "Lowe's",
+          "Harbor Freight Tools",
+          "TTI"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "Stanley Black & Decker",
+      "type": "international_company_or_term",
+      "wikilink": "Stanley Black & Decker"
+    },
+    {
+      "name": "TTI",
+      "type": "international_company_or_term",
+      "wikilink": "TTI"
+    },
+    {
+      "name": "Harbor Freight Tools",
+      "type": "international_company_or_term",
+      "wikilink": "Harbor Freight Tools"
+    },
+    {
+      "name": "Lowe's",
+      "type": "international_company_or_term",
+      "wikilink": "Lowe's"
+    },
+    {
+      "name": "鑽全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑽全"
+    },
+    {
+      "name": "正峰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正峰"
+    },
+    {
+      "name": "中砂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中砂"
+    },
+    {
+      "name": "力肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力肯"
+    },
+    {
+      "name": "駿吉-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "駿吉-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "錩泰工業 (1541，Chang Type) 成立於 1989 年，總部位於台灣台中。錩泰為全球知名電動工具 [[ODM]] 代工廠，專精於各類切割類電動工具，主要產品包括圓鋸機 (Miter Saw)、線鋸機 (Scroll Saw)、帶鋸機 (Band Saw) 及切磚機等。公司具備馬達自製能力，並擁有鋁壓鑄、精密加工、組裝測試等一貫製程。市場集中於北美地區，最大客戶為 [[Stanley Black & Decker]]。",
+    "supply_chain_md": "**上游 (原料與零件):**\n- **金屬材料:** 鋁錠、鋼材、銅線\n- **電子元件:** 控制IC、開關等\n- **塑膠:** 工程塑膠粒\n\n**中游 (製造加工):**\n- **錩泰工業** — 鋁壓鑄、馬達製造 (自製)、精密加工、組裝測試\n\n**下游 (品牌與通路):**\n- **電動工具品牌:** [[Stanley Black & Decker]] (SBD，含 DEWALT/CRAFTSMAN)、[[TTI]] (含 Ryobi)、[[Harbor Freight Tools]]\n- **北美通路:** [[Lowe's]] (自有品牌 Kobalt)",
+    "customers_suppliers_md": "### 主要客戶\n- **[[Stanley Black & Decker]]:** 最大客戶，代工 DEWALT 及 CRAFTSMAN 品牌圓鋸機\n- **[[Lowe's]]:** 代工通路自有品牌 Kobalt\n- **[[Harbor Freight Tools]]:** 美國工具通路，代工自有品牌 Hercules/Bauer\n- **[[TTI]]:** 代工 Ryobi 品牌 (部分)\n\n### 主要供應商\n- **鋁壓鑄:** 國內配合廠商\n- **馬達:** 自製為主\n- **鋼材/鋁錠:** 國內金屬材料商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

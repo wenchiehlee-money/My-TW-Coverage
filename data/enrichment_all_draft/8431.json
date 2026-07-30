@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8431",
+  "company_name": "匯鑽科",
+  "title": "8431 - 匯鑽科",
+  "source_md": "Pilot_Reports/Specialty Chemicals/8431_匯鑽科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "2,171 百萬台幣",
+    "enterprise_value": "2,761 百萬台幣"
+  },
+  "business": {
+    "summary": "匯鑽科技 (8431，Superior Plating Technology) 為專業表面處理 (電鍍) 代工廠，生產基地位於中國深圳/東莞及泰國大城。主要服務為[[半導體]][[導線架]] (Lead Frame)、端子、料帶及[[LED]]支架之精密電鍍代工 (鍍銀/鍍錫/鍍鎳/鍍金)。服務產業涵蓋硬碟 (HDD)、電子、車用、熱管及連接器。上游電鍍化學品來自[[Atotech]]、[[MacDermid Alpha]]。下游客戶涵蓋[[導線架]]廠如[[一詮]]、[[長華科技]]，封測廠如[[日月光投控]]，HDD 廠如[[Western Digital]]、[[Seagate]]。",
+    "entities": [
+      "半導體",
+      "導線架",
+      "LED",
+      "Atotech",
+      "MacDermid Alpha",
+      "一詮",
+      "長華科技",
+      "日月光投控",
+      "Western Digital",
+      "Seagate"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "電鍍化學品",
+        "text": "[[Atotech]]、[[MacDermid Alpha]] — 電鍍藥水",
+        "entities": [
+          "Atotech",
+          "MacDermid Alpha"
+        ]
+      },
+      {
+        "category": "貴金屬",
+        "text": "金/銀/鈀原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**匯鑽科** ([[導線架]]/端子/[[LED]]支架精密電鍍，深圳/東莞/泰國)",
+        "entities": [
+          "導線架",
+          "LED"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "導線架",
+        "text": "[[一詮]]、[[長華科技]] — 半導體[[導線架]]電鍍",
+        "entities": [
+          "一詮",
+          "長華科技",
+          "導線架"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "[[日月光投控]] — IC 封裝",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "category": "HDD",
+        "text": "[[Western Digital]]、[[Seagate]] — 硬碟零組件",
+        "entities": [
+          "Western Digital",
+          "Seagate"
+        ]
+      },
+      {
+        "category": "連接器",
+        "text": "連接器/車用零組件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "導線架",
+        "text": "[[一詮]]、[[長華科技]] — [[導線架]]電鍍",
+        "entities": [
+          "一詮",
+          "長華科技",
+          "導線架"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "[[日月光投控]] — IC 封裝",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "role": "HDD",
+        "text": "[[Western Digital]]、[[Seagate]] — 硬碟零組件",
+        "entities": [
+          "Western Digital",
+          "Seagate"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電鍍藥水",
+        "text": "[[Atotech]]、[[MacDermid Alpha]]",
+        "entities": [
+          "Atotech",
+          "MacDermid Alpha"
+        ]
+      },
+      {
+        "role": "貴金屬",
+        "text": "金/銀/鈀原料",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "一詮",
+          "長華科技",
+          "導線架",
+          "日月光投控",
+          "Western Digital",
+          "Seagate"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "Atotech",
+      "type": "international_company_or_term",
+      "wikilink": "Atotech"
+    },
+    {
+      "name": "MacDermid Alpha",
+      "type": "international_company_or_term",
+      "wikilink": "MacDermid Alpha"
+    },
+    {
+      "name": "一詮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "一詮"
+    },
+    {
+      "name": "長華科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長華科技"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "Western Digital",
+      "type": "international_company_or_term",
+      "wikilink": "Western Digital"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "匯鑽科技 (8431，Superior Plating Technology) 為專業表面處理 (電鍍) 代工廠，生產基地位於中國深圳/東莞及泰國大城。主要服務為[[半導體]][[導線架]] (Lead Frame)、端子、料帶及[[LED]]支架之精密電鍍代工 (鍍銀/鍍錫/鍍鎳/鍍金)。服務產業涵蓋硬碟 (HDD)、電子、車用、熱管及連接器。上游電鍍化學品來自[[Atotech]]、[[MacDermid Alpha]]。下游客戶涵蓋[[導線架]]廠如[[一詮]]、[[長華科技]]，封測廠如[[日月光投控]]，HDD 廠如[[Western Digital]]、[[Seagate]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **電鍍化學品:** [[Atotech]]、[[MacDermid Alpha]] — 電鍍藥水\n- **貴金屬:** 金/銀/鈀原料\n\n**中游 (製造):**\n- **匯鑽科** ([[導線架]]/端子/[[LED]]支架精密電鍍，深圳/東莞/泰國)\n\n**下游 (終端):**\n- **導線架:** [[一詮]]、[[長華科技]] — 半導體[[導線架]]電鍍\n- **封測:** [[日月光投控]] — IC 封裝\n- **HDD:** [[Western Digital]]、[[Seagate]] — 硬碟零組件\n- **連接器:** 連接器/車用零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **導線架:** [[一詮]]、[[長華科技]] — [[導線架]]電鍍\n- **封測:** [[日月光投控]] — IC 封裝\n- **HDD:** [[Western Digital]]、[[Seagate]] — 硬碟零組件\n\n### 主要供應商\n- **電鍍藥水:** [[Atotech]]、[[MacDermid Alpha]]\n- **貴金屬:** 金/銀/鈀原料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

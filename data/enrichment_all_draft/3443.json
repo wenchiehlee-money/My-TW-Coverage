@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3443",
+  "company_name": "創意",
+  "title": "3443 - 創意",
+  "source_md": "Pilot_Reports/Semiconductors/3443_創意.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "441,566 百萬台幣",
+    "enterprise_value": "432,101 百萬台幣"
+  },
+  "business": {
+    "summary": "創意電子 (Global Unichip Corp., GUC) 為全球領先的 **ASIC 設計服務** 與 **IP 供應商**，**台積電** ([[台積電]]) 為最大股東。\n專注於先進製程 (7nm/5nm/3nm) 與先進封裝 ([[CoWoS]]/[[InFO]]) 之客製化晶片設計。\n核心業務包括 **NRE (委託設計)** 與 **Turnkey (量產)** 服務。\n主要應用領域涵蓋 **AI/HPC** (雲端 [[AI]] 晶片)、**Networking** ([[網通]]晶片) 與 **SSD Controller**。\n為[[台積電]] **OIP** (Open Innovation Platform) 加值鏈的重要夥伴，協助系統大廠 ([[CSP]]) 開發自研晶片。",
+    "entities": [
+      "台積電",
+      "CoWoS",
+      "InFO",
+      "AI",
+      "網通",
+      "CSP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 晶圓代工 ([[台積電]]), 封測 ([[日月光投控]], [[台積電]]).",
+        "entities": [
+          "台積電",
+          "日月光投控"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **創意 (3443)** - ASIC 設計與量產服務.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**CSP (雲端服務商)**: [[Microsoft]], [[Google]], [[Amazon]] (自研 [[AI]] 晶片).",
+        "entities": [
+          "Microsoft",
+          "Google",
+          "Amazon",
+          "AI"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**記憶體廠**: [[SK Hynix]] (SSD Controller).",
+        "entities": [
+          "SK Hynix"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**網通/系統廠**.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "美系 [[CSP]] 大廠 ([[AI]] ASIC).",
+        "entities": [
+          "CSP",
+          "AI"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**[[SK Hynix]]**.",
+        "entities": [
+          "SK Hynix"
+        ]
+      },
+      {
+        "role": "",
+        "text": "無晶圓廠 IC 設計公司.",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "CSP",
+          "AI",
+          "SK Hynix"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "為[[台積電]] **OIP** (Open Innovation Platform) 加值鏈的重要夥伴，協助系統大廠 ([[CSP]]) 開發自研晶片。",
+        "entities": [
+          "台積電",
+          "CSP"
+        ]
+      },
+      {
+        "text": "*   **CSP (雲端服務商)**: [[Microsoft]], [[Google]], [[Amazon]] (自研 [[AI]] 晶片).",
+        "entities": [
+          "Microsoft",
+          "Google",
+          "Amazon",
+          "AI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "InFO",
+      "type": "international_company_or_term",
+      "wikilink": "InFO"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "創意電子 (Global Unichip Corp., GUC) 為全球領先的 **ASIC 設計服務** 與 **IP 供應商**，**台積電** ([[台積電]]) 為最大股東。\n專注於先進製程 (7nm/5nm/3nm) 與先進封裝 ([[CoWoS]]/[[InFO]]) 之客製化晶片設計。\n核心業務包括 **NRE (委託設計)** 與 **Turnkey (量產)** 服務。\n主要應用領域涵蓋 **AI/HPC** (雲端 [[AI]] 晶片)、**Networking** ([[網通]]晶片) 與 **SSD Controller**。\n為[[台積電]] **OIP** (Open Innovation Platform) 加值鏈的重要夥伴，協助系統大廠 ([[CSP]]) 開發自研晶片。",
+    "supply_chain_md": "*   **中游 (本體)**: **創意 (3443)** - ASIC 設計與量產服務.\n*   **上游**: 晶圓代工 ([[台積電]]), 封測 ([[日月光投控]], [[台積電]]).\n*   **下游**:\n    *   **CSP (雲端服務商)**: [[Microsoft]], [[Google]], [[Amazon]] (自研 [[AI]] 晶片).\n    *   **記憶體廠**: [[SK Hynix]] (SSD Controller).\n    *   **網通/系統廠**.",
+    "customers_suppliers_md": "### 主要客戶\n*   美系 [[CSP]] 大廠 ([[AI]] ASIC).\n*   **[[SK Hynix]]**.\n*   無晶圓廠 IC 設計公司."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

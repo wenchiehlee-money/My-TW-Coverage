@@ -1,0 +1,257 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4569",
+  "company_name": "六方科-KY",
+  "title": "4569 - 六方科-KY",
+  "source_md": "Pilot_Reports/Metal Fabrication/4569_六方科-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "4,559 百萬台幣",
+    "enterprise_value": "3,957 百萬台幣"
+  },
+  "business": {
+    "summary": "六方科技-KY (4569，Sixxon) 為精密[[CNC]]金屬零件廠，營運主體泰國 (5座工廠)。應用含汽車 (供[[Continental]]、[[Bosch]])、光通訊 ([[Fabrinet]]、[[Coherent]])、硬碟 ([[Seagate]]、[[Western Digital]])。近期開發[[AI 伺服器]][[水冷]]快速接頭 (UQD) 零件，切入[[Applied Materials]]、[[Lam Research]]半導體設備零件。",
+    "entities": [
+      "CNC",
+      "Continental",
+      "Bosch",
+      "Fabrinet",
+      "Coherent",
+      "Seagate",
+      "Western Digital",
+      "AI 伺服器",
+      "水冷",
+      "Applied Materials",
+      "Lam Research"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "不鏽鋼/鋁/銅/鈦合金棒材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**六方科** (精密[[CNC]]多軸加工, 泰國)",
+        "entities": [
+          "CNC"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "汽車: [[Continental]]、[[Bosch]]",
+        "entities": [
+          "Continental",
+          "Bosch"
+        ]
+      },
+      {
+        "category": "",
+        "text": "光通訊: [[Fabrinet]]、[[Coherent]]",
+        "entities": [
+          "Fabrinet",
+          "Coherent"
+        ]
+      },
+      {
+        "category": "",
+        "text": "硬碟: [[Seagate]]、[[Western Digital]]",
+        "entities": [
+          "Seagate",
+          "Western Digital"
+        ]
+      },
+      {
+        "category": "",
+        "text": "半導體: [[Applied Materials]]、[[Lam Research]]",
+        "entities": [
+          "Applied Materials",
+          "Lam Research"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Continental]]、[[Bosch]] — 汽車",
+        "entities": [
+          "Continental",
+          "Bosch"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Fabrinet]]、[[Coherent]] — 光通訊",
+        "entities": [
+          "Fabrinet",
+          "Coherent"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Seagate]]、[[Western Digital]] — 硬碟",
+        "entities": [
+          "Seagate",
+          "Western Digital"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Applied Materials]]、[[Lam Research]] — 半導體",
+        "entities": [
+          "Applied Materials",
+          "Lam Research"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "不鏽鋼/鋁/銅/鈦合金",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Continental",
+          "Bosch",
+          "Fabrinet",
+          "Coherent",
+          "Seagate",
+          "Western Digital",
+          "Applied Materials",
+          "Lam Research"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "CNC",
+      "type": "international_company_or_term",
+      "wikilink": "CNC"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Fabrinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fabrinet"
+    },
+    {
+      "name": "Coherent",
+      "type": "international_company_or_term",
+      "wikilink": "Coherent"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "Western Digital",
+      "type": "international_company_or_term",
+      "wikilink": "Western Digital"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "水冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水冷"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "Lam Research",
+      "type": "international_company_or_term",
+      "wikilink": "Lam Research"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "六方科技-KY (4569，Sixxon) 為精密[[CNC]]金屬零件廠，營運主體泰國 (5座工廠)。應用含汽車 (供[[Continental]]、[[Bosch]])、光通訊 ([[Fabrinet]]、[[Coherent]])、硬碟 ([[Seagate]]、[[Western Digital]])。近期開發[[AI 伺服器]][[水冷]]快速接頭 (UQD) 零件，切入[[Applied Materials]]、[[Lam Research]]半導體設備零件。",
+    "supply_chain_md": "**上游:** 不鏽鋼/鋁/銅/鈦合金棒材\n**中游:** **六方科** (精密[[CNC]]多軸加工, 泰國)\n**下游:**\n- 汽車: [[Continental]]、[[Bosch]]\n- 光通訊: [[Fabrinet]]、[[Coherent]]\n- 硬碟: [[Seagate]]、[[Western Digital]]\n- 半導體: [[Applied Materials]]、[[Lam Research]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Continental]]、[[Bosch]] — 汽車\n- [[Fabrinet]]、[[Coherent]] — 光通訊\n- [[Seagate]]、[[Western Digital]] — 硬碟\n- [[Applied Materials]]、[[Lam Research]] — 半導體\n\n### 主要供應商\n- 不鏽鋼/鋁/銅/鈦合金"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3045",
+  "company_name": "台灣大",
+  "title": "3045 - 台灣大",
+  "source_md": "Pilot_Reports/Specialty Retail/3045_台灣大.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Specialty Retail",
+    "market_cap": "343,999 百萬台幣",
+    "enterprise_value": "436,518 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣大哥大股份有限公司為台灣第二大電信營運商，與 [[中華電信]]、[[遠傳電信]] 並稱「電信三雄」。主要業務涵蓋：(1) 電信本業：[[5G]] 行動通訊及寬頻上網，2023 年併購台灣之星後頻譜效益提升；(2) 電子商務：持有 [[富邦媒]]（momo 購物，8454）約 45% 股權，貢獻集團過半營收；(3) 家用娛樂：整合 [[Disney+]]、凱擘大寬頻；(4) 綠能投資：透過富邦能源佈局再生能源。2025 年資本支出約 85.8 億元，營收預期維持 8-10% 成長。",
+    "entities": [
+      "中華電信",
+      "遠傳電信",
+      "5G",
+      "富邦媒",
+      "Disney+"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與內容)",
+        "text": "**上游 (設備與內容):**",
+        "entities": []
+      },
+      {
+        "category": "網路設備",
+        "text": "[[Nokia]]（基地台設備）、[[Ericsson]] 等電信設備商",
+        "entities": [
+          "Nokia",
+          "Ericsson"
+        ]
+      },
+      {
+        "category": "內容平台",
+        "text": "[[Disney+]]（串流內容）、[[NVIDIA]]（[[GeForce Now]] 雲端遊戲）",
+        "entities": [
+          "Disney+",
+          "NVIDIA",
+          "GeForce Now"
+        ]
+      },
+      {
+        "category": "手機終端",
+        "text": "[[Apple]]、[[Samsung]] 為門市銷售主力手機品牌",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電信服務)",
+        "text": "**中游 (電信服務):**",
+        "entities": []
+      },
+      {
+        "category": "台灣大 (3045)",
+        "text": "行動通訊、寬頻上網、[[5G]] 專網、momo 電商、凱擘有線電視",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "個人用戶",
+        "text": "月租費、串流訂閱、momo 購物",
+        "entities": []
+      },
+      {
+        "category": "企業用戶",
+        "text": "[[5G]] 專網、雲端服務",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "一般消費者 (B2C)",
+        "text": "行動通訊用戶、momo 購物消費者，佔營收大宗",
+        "entities": []
+      },
+      {
+        "role": "企業用戶 (B2B)",
+        "text": "[[5G]] 專網及雲端服務客戶",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網路設備",
+        "text": "[[Nokia]]、[[Ericsson]]",
+        "entities": [
+          "Nokia",
+          "Ericsson"
+        ]
+      },
+      {
+        "role": "手機",
+        "text": "[[Apple]]、[[Samsung]]",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      },
+      {
+        "role": "內容",
+        "text": "[[Disney+]]",
+        "entities": [
+          "Disney+"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Retail):** [[燦坤]]、[[山隆]]、[[集雅社]]、[[振宇五金]]、[[詩肯]]",
+        "entities": [
+          "燦坤",
+          "山隆",
+          "集雅社",
+          "振宇五金",
+          "詩肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "5G"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "富邦媒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦媒"
+    },
+    {
+      "name": "Disney+",
+      "type": "international_company_or_term",
+      "wikilink": "Disney+"
+    },
+    {
+      "name": "Nokia",
+      "type": "international_company_or_term",
+      "wikilink": "Nokia"
+    },
+    {
+      "name": "Ericsson",
+      "type": "international_company_or_term",
+      "wikilink": "Ericsson"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "GeForce Now",
+      "type": "international_company_or_term",
+      "wikilink": "GeForce Now"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "燦坤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燦坤"
+    },
+    {
+      "name": "山隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "山隆"
+    },
+    {
+      "name": "集雅社",
+      "type": "taiwan_company_or_term",
+      "wikilink": "集雅社"
+    },
+    {
+      "name": "振宇五金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "振宇五金"
+    },
+    {
+      "name": "詩肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "詩肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣大哥大股份有限公司為台灣第二大電信營運商，與 [[中華電信]]、[[遠傳電信]] 並稱「電信三雄」。主要業務涵蓋：(1) 電信本業：[[5G]] 行動通訊及寬頻上網，2023 年併購台灣之星後頻譜效益提升；(2) 電子商務：持有 [[富邦媒]]（momo 購物，8454）約 45% 股權，貢獻集團過半營收；(3) 家用娛樂：整合 [[Disney+]]、凱擘大寬頻；(4) 綠能投資：透過富邦能源佈局再生能源。2025 年資本支出約 85.8 億元，營收預期維持 8-10% 成長。",
+    "supply_chain_md": "**上游 (設備與內容):**\n- **網路設備:** [[Nokia]]（基地台設備）、[[Ericsson]] 等電信設備商\n- **內容平台:** [[Disney+]]（串流內容）、[[NVIDIA]]（[[GeForce Now]] 雲端遊戲）\n- **手機終端:** [[Apple]]、[[Samsung]] 為門市銷售主力手機品牌\n\n**中游 (電信服務):**\n- **台灣大 (3045):** 行動通訊、寬頻上網、[[5G]] 專網、momo 電商、凱擘有線電視\n\n**下游 (終端用戶):**\n- **個人用戶:** 月租費、串流訂閱、momo 購物\n- **企業用戶:** [[5G]] 專網、雲端服務",
+    "customers_suppliers_md": "### 主要客戶\n- **一般消費者 (B2C):** 行動通訊用戶、momo 購物消費者，佔營收大宗\n- **企業用戶 (B2B):** [[5G]] 專網及雲端服務客戶\n\n### 主要供應商\n- **網路設備:** [[Nokia]]、[[Ericsson]]\n- **手機:** [[Apple]]、[[Samsung]]\n- **內容:** [[Disney+]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

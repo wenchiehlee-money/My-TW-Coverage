@@ -1,0 +1,391 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2630",
+  "company_name": "亞航",
+  "title": "2630 - 亞航",
+  "source_md": "Pilot_Reports/Aerospace & Defense/2630_亞航.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "market_cap": "10,074 百萬台幣",
+    "enterprise_value": "11,248 百萬台幣"
+  },
+  "business": {
+    "summary": "亞洲航空 (2630，Air Asia Co.) 為台灣歷史最悠久的航空器維修 ([[MRO]]) 專業廠，1955 年由飛虎隊將軍陳納德創辦，現隸屬台翔航太集團。主要業務涵蓋：(1) 軍用飛機維修 (佔營收約九成) — 以政府委外維修 (GOCO) 模式承接[[中華民國空軍]]各型軍機 ([[F-16]]、[[IDF 經國號]]、[[幻象 2000]])、陸軍[[UH-60M]]黑鷹直升機及[[空勤總隊]]機隊之機體與發動機翻修；(2) 商用飛機維修 — 服務 21 家國際航空公司，具備[[Boeing]] 737-800、[[Airbus]] A320 等機型維修能力；(3) [[無人機]]製造 — 獲[[中山科學研究院]]獨家授權製造中型無人機複材機體，與[[碳基科技]]合作之「銳鳶二型」偵打一體無人機已通過作戰評測並進入量產。在手合約約 230 億元，能見度至 2031 年。",
+    "entities": [
+      "MRO",
+      "中華民國空軍",
+      "F-16",
+      "IDF 經國號",
+      "幻象 2000",
+      "UH-60M",
+      "空勤總隊",
+      "Boeing",
+      "Airbus",
+      "無人機",
+      "中山科學研究院",
+      "碳基科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與技術)",
+        "text": "**上游 (零組件與技術):**",
+        "entities": []
+      },
+      {
+        "category": "直升機 OEM",
+        "text": "[[Sikorsky]] — [[UH-60M]] 技術支援與專用維修設備",
+        "entities": [
+          "Sikorsky",
+          "UH-60M"
+        ]
+      },
+      {
+        "category": "直升機 OEM",
+        "text": "[[Bell]] — 直升機原廠零件",
+        "entities": [
+          "Bell"
+        ]
+      },
+      {
+        "category": "發動機零件",
+        "text": "[[Honeywell]]、[[Pratt & Whitney Canada]]、[[Rolls-Royce]] — 軍用發動機原廠件",
+        "entities": [
+          "Honeywell",
+          "Pratt & Whitney Canada",
+          "Rolls-Royce"
+        ]
+      },
+      {
+        "category": "機體 OEM",
+        "text": "[[Boeing]] — 原廠零件與技術資料",
+        "entities": [
+          "Boeing"
+        ]
+      },
+      {
+        "category": "國防系統",
+        "text": "[[中山科學研究院]] — 無人機技術授權與軍機系統",
+        "entities": [
+          "中山科學研究院"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (維修與製造)",
+        "text": "**中游 (維修與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**亞航** (軍用/商用機體與發動機維修、[[無人機]]複材機體製造)",
+        "entities": [
+          "無人機"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "空軍",
+        "text": "[[中華民國空軍]] — [[F-16]]、[[IDF 經國號]]、[[幻象 2000]] 維修",
+        "entities": [
+          "中華民國空軍",
+          "F-16",
+          "IDF 經國號",
+          "幻象 2000"
+        ]
+      },
+      {
+        "category": "陸軍",
+        "text": "陸軍航空特戰指揮部 — [[UH-60M]]、[[CH-47SD]] 維修",
+        "entities": [
+          "UH-60M",
+          "CH-47SD"
+        ]
+      },
+      {
+        "category": "空勤",
+        "text": "[[空勤總隊]] — [[UH-60M]] 維修合約 (4.2 億元)",
+        "entities": [
+          "空勤總隊",
+          "UH-60M"
+        ]
+      },
+      {
+        "category": "無人機",
+        "text": "[[中山科學研究院]] — 銳鳶二型偵打無人機量產 (與[[碳基科技]]合作)",
+        "entities": [
+          "中山科學研究院",
+          "碳基科技"
+        ]
+      },
+      {
+        "category": "國際航空",
+        "text": "日韓東南亞等 21 家國際航空公司 — 商用機體維修",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "空軍 (佔營收約 90%)",
+        "text": "[[中華民國空軍]] — [[F-16]]、[[IDF 經國號]]、[[幻象 2000]] 等軍機維修",
+        "entities": [
+          "中華民國空軍",
+          "F-16",
+          "IDF 經國號",
+          "幻象 2000"
+        ]
+      },
+      {
+        "role": "陸軍",
+        "text": "陸軍航空特戰指揮部 — [[UH-60M]]黑鷹、[[OH-58D]]、[[CH-47SD]] 直升機維修",
+        "entities": [
+          "UH-60M",
+          "OH-58D",
+          "CH-47SD"
+        ]
+      },
+      {
+        "role": "空勤",
+        "text": "[[空勤總隊]] — [[UH-60M]] 維修合約 (4.2 億元/2 年)",
+        "entities": [
+          "空勤總隊",
+          "UH-60M"
+        ]
+      },
+      {
+        "role": "無人機",
+        "text": "[[中山科學研究院]] — 銳鳶二型無人機量產 (與[[碳基科技]]合作)",
+        "entities": [
+          "中山科學研究院",
+          "碳基科技"
+        ]
+      },
+      {
+        "role": "國際航空",
+        "text": "日韓東南亞等 21 家航空公司 — [[Boeing]] 737-800、[[Airbus]] A320 等機型維修",
+        "entities": [
+          "Boeing",
+          "Airbus"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "直升機 OEM",
+        "text": "[[Sikorsky]] — [[UH-60M]] 技術支援；[[Bell]] — 直升機原廠件",
+        "entities": [
+          "Sikorsky",
+          "UH-60M",
+          "Bell"
+        ]
+      },
+      {
+        "role": "發動機",
+        "text": "[[Honeywell]]、[[Pratt & Whitney Canada]]、[[Rolls-Royce]] — 發動機原廠零件",
+        "entities": [
+          "Honeywell",
+          "Pratt & Whitney Canada",
+          "Rolls-Royce"
+        ]
+      },
+      {
+        "role": "機體 OEM",
+        "text": "[[Boeing]] — 原廠零件與技術資料",
+        "entities": [
+          "Boeing"
+        ]
+      },
+      {
+        "role": "國防系統",
+        "text": "[[中山科學研究院]] — 無人機技術授權",
+        "entities": [
+          "中山科學研究院"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Aerospace & Defense):** [[台船]]、[[漢翔]]、[[中信造船]]、[[長榮航太]]、[[晟田]]",
+        "entities": [
+          "台船",
+          "漢翔",
+          "中信造船",
+          "長榮航太",
+          "晟田"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華民國空軍",
+          "F-16",
+          "IDF 經國號",
+          "幻象 2000",
+          "UH-60M",
+          "OH-58D",
+          "CH-47SD",
+          "空勤總隊",
+          "UH-60M",
+          "中山科學研究院",
+          "碳基科技",
+          "Boeing",
+          "Airbus"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "MRO",
+      "type": "international_company_or_term",
+      "wikilink": "MRO"
+    },
+    {
+      "name": "中華民國空軍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華民國空軍"
+    },
+    {
+      "name": "F-16",
+      "type": "international_company_or_term",
+      "wikilink": "F-16"
+    },
+    {
+      "name": "IDF 經國號",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IDF 經國號"
+    },
+    {
+      "name": "幻象 2000",
+      "type": "taiwan_company_or_term",
+      "wikilink": "幻象 2000"
+    },
+    {
+      "name": "UH-60M",
+      "type": "international_company_or_term",
+      "wikilink": "UH-60M"
+    },
+    {
+      "name": "空勤總隊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "空勤總隊"
+    },
+    {
+      "name": "Boeing",
+      "type": "international_company_or_term",
+      "wikilink": "Boeing"
+    },
+    {
+      "name": "Airbus",
+      "type": "international_company_or_term",
+      "wikilink": "Airbus"
+    },
+    {
+      "name": "無人機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "無人機"
+    },
+    {
+      "name": "中山科學研究院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中山科學研究院"
+    },
+    {
+      "name": "碳基科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳基科技"
+    },
+    {
+      "name": "Sikorsky",
+      "type": "international_company_or_term",
+      "wikilink": "Sikorsky"
+    },
+    {
+      "name": "Bell",
+      "type": "international_company_or_term",
+      "wikilink": "Bell"
+    },
+    {
+      "name": "Honeywell",
+      "type": "international_company_or_term",
+      "wikilink": "Honeywell"
+    },
+    {
+      "name": "Pratt & Whitney Canada",
+      "type": "international_company_or_term",
+      "wikilink": "Pratt & Whitney Canada"
+    },
+    {
+      "name": "Rolls-Royce",
+      "type": "international_company_or_term",
+      "wikilink": "Rolls-Royce"
+    },
+    {
+      "name": "CH-47SD",
+      "type": "international_company_or_term",
+      "wikilink": "CH-47SD"
+    },
+    {
+      "name": "OH-58D",
+      "type": "international_company_or_term",
+      "wikilink": "OH-58D"
+    },
+    {
+      "name": "台船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台船"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    },
+    {
+      "name": "中信造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中信造船"
+    },
+    {
+      "name": "長榮航太",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航太"
+    },
+    {
+      "name": "晟田",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晟田"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "亞洲航空 (2630，Air Asia Co.) 為台灣歷史最悠久的航空器維修 ([[MRO]]) 專業廠，1955 年由飛虎隊將軍陳納德創辦，現隸屬台翔航太集團。主要業務涵蓋：(1) 軍用飛機維修 (佔營收約九成) — 以政府委外維修 (GOCO) 模式承接[[中華民國空軍]]各型軍機 ([[F-16]]、[[IDF 經國號]]、[[幻象 2000]])、陸軍[[UH-60M]]黑鷹直升機及[[空勤總隊]]機隊之機體與發動機翻修；(2) 商用飛機維修 — 服務 21 家國際航空公司，具備[[Boeing]] 737-800、[[Airbus]] A320 等機型維修能力；(3) [[無人機]]製造 — 獲[[中山科學研究院]]獨家授權製造中型無人機複材機體，與[[碳基科技]]合作之「銳鳶二型」偵打一體無人機已通過作戰評測並進入量產。在手合約約 230 億元，能見度至 2031 年。",
+    "supply_chain_md": "**上游 (零組件與技術):**\n- **直升機 OEM:** [[Sikorsky]] — [[UH-60M]] 技術支援與專用維修設備\n- **直升機 OEM:** [[Bell]] — 直升機原廠零件\n- **發動機零件:** [[Honeywell]]、[[Pratt & Whitney Canada]]、[[Rolls-Royce]] — 軍用發動機原廠件\n- **機體 OEM:** [[Boeing]] — 原廠零件與技術資料\n- **國防系統:** [[中山科學研究院]] — 無人機技術授權與軍機系統\n\n**中游 (維修與製造):**\n- **亞航** (軍用/商用機體與發動機維修、[[無人機]]複材機體製造)\n\n**下游 (終端客戶):**\n- **空軍:** [[中華民國空軍]] — [[F-16]]、[[IDF 經國號]]、[[幻象 2000]] 維修\n- **陸軍:** 陸軍航空特戰指揮部 — [[UH-60M]]、[[CH-47SD]] 維修\n- **空勤:** [[空勤總隊]] — [[UH-60M]] 維修合約 (4.2 億元)\n- **無人機:** [[中山科學研究院]] — 銳鳶二型偵打無人機量產 (與[[碳基科技]]合作)\n- **國際航空:** 日韓東南亞等 21 家國際航空公司 — 商用機體維修",
+    "customers_suppliers_md": "### 主要客戶\n- **空軍 (佔營收約 90%):** [[中華民國空軍]] — [[F-16]]、[[IDF 經國號]]、[[幻象 2000]] 等軍機維修\n- **陸軍:** 陸軍航空特戰指揮部 — [[UH-60M]]黑鷹、[[OH-58D]]、[[CH-47SD]] 直升機維修\n- **空勤:** [[空勤總隊]] — [[UH-60M]] 維修合約 (4.2 億元/2 年)\n- **無人機:** [[中山科學研究院]] — 銳鳶二型無人機量產 (與[[碳基科技]]合作)\n- **國際航空:** 日韓東南亞等 21 家航空公司 — [[Boeing]] 737-800、[[Airbus]] A320 等機型維修\n\n### 主要供應商\n- **直升機 OEM:** [[Sikorsky]] — [[UH-60M]] 技術支援；[[Bell]] — 直升機原廠件\n- **發動機:** [[Honeywell]]、[[Pratt & Whitney Canada]]、[[Rolls-Royce]] — 發動機原廠零件\n- **機體 OEM:** [[Boeing]] — 原廠零件與技術資料\n- **國防系統:** [[中山科學研究院]] — 無人機技術授權"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

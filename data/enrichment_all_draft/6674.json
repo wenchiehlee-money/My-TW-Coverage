@@ -1,0 +1,246 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6674",
+  "company_name": "鋐寶科技",
+  "title": "6674_鋐寶科技",
+  "source_md": "Pilot_Reports/Communication Equipment/6674_鋐寶科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "1,087 百萬台幣",
+    "enterprise_value": "820 百萬台幣"
+  },
+  "business": {
+    "summary": "鋐寶科技 (6674，[[Compal Broadband Networks]]，CBN) 隸屬[[仁寶電腦]]集團，專注於寬頻網路通訊設備之研發與製造。公司產品涵蓋智慧閘道器 (Smart Gateways)、數位機上盒 (STB) 及無線寬頻分享器，提供整合聯網之智慧家庭解決方案。\n\n產品嚴格遵循 [[DOCSIS]] 規範，技術已升級至 [[Wi-Fi 7]] 及 [[5G]] 標準。公司高度聚焦歐洲市場，以客製化軟硬體服務打入歐洲多家跨國有線電視營運商 (MSO)。近年積極布局 5G FWA CPE 產品，搶攻印度 [[Jio]] 等新興市場龐大 5G 固網用戶需求，同時於美國德州設立子公司爭取 BEAD 寬頻國家補貼計畫標案。",
+    "entities": [
+      "Compal Broadband Networks",
+      "仁寶電腦",
+      "DOCSIS",
+      "Wi-Fi 7",
+      "5G",
+      "Jio"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (寬頻通訊 SoC 與射頻晶片)",
+        "text": "**上游 (寬頻通訊 SoC 與射頻晶片):**",
+        "entities": []
+      },
+      {
+        "category": "DOCSIS SoC",
+        "text": "[[Broadcom]] — DOCSIS 3.1/4.0 寬頻基帶晶片",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "Wi-Fi 6E/7 射頻晶片",
+        "entities": []
+      },
+      {
+        "category": "集團採購",
+        "text": "[[仁寶電腦]] — 集團規模採購優惠體系",
+        "entities": [
+          "仁寶電腦"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (歐洲寬頻設備客製化製造)",
+        "text": "**中游 (歐洲寬頻設備客製化製造):**",
+        "entities": []
+      },
+      {
+        "category": "智慧閘道器",
+        "text": "**鋐寶** (DOCSIS 3.1 + Wi-Fi 6E/7 整合閘道器)",
+        "entities": []
+      },
+      {
+        "category": "STB",
+        "text": "**鋐寶** (VOD 整合型數位機上盒)",
+        "entities": []
+      },
+      {
+        "category": "5G FWA",
+        "text": "**鋐寶** (5G 固網替代 CPE)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (歐洲有線電視商與新興市場電信商)",
+        "text": "**下游 (歐洲有線電視商與新興市場電信商):**",
+        "entities": []
+      },
+      {
+        "category": "歐洲 MSO",
+        "text": "歐洲大型有線電視暨固線寬頻營運商",
+        "entities": []
+      },
+      {
+        "category": "印度 5G",
+        "text": "[[Jio]] — 5G FWA 寬頻市場標案",
+        "entities": [
+          "Jio"
+        ]
+      },
+      {
+        "category": "美國 BEAD",
+        "text": "美國德州子公司 — BEAD 補貼計畫電信商 CPE",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐洲 MSO",
+        "text": "歐洲大型跨國有線電視及固線寬頻營運商 — 客製化 CPE 設備",
+        "entities": []
+      },
+      {
+        "role": "印度 5G",
+        "text": "[[Jio]] — 5G FWA 寬頻市場",
+        "entities": [
+          "Jio"
+        ]
+      },
+      {
+        "role": "美國 BEAD",
+        "text": "美國電信商 — BEAD 寬頻國家補貼計畫",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "DOCSIS 晶片",
+        "text": "[[Broadcom]] — DOCSIS 3.1/4.0 基帶 SoC",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "集團母公司",
+        "text": "[[仁寶電腦]] — 集團採購資源及供應鏈整合",
+        "entities": [
+          "仁寶電腦"
+        ]
+      },
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "Wi-Fi 6E/7 射頻晶片供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Jio"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "- **5G FWA:** **鋐寶** (5G 固網替代 CPE)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Compal Broadband Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Compal Broadband Networks"
+    },
+    {
+      "name": "仁寶電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶電腦"
+    },
+    {
+      "name": "DOCSIS",
+      "type": "international_company_or_term",
+      "wikilink": "DOCSIS"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Jio",
+      "type": "international_company_or_term",
+      "wikilink": "Jio"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鋐寶科技 (6674，[[Compal Broadband Networks]]，CBN) 隸屬[[仁寶電腦]]集團，專注於寬頻網路通訊設備之研發與製造。公司產品涵蓋智慧閘道器 (Smart Gateways)、數位機上盒 (STB) 及無線寬頻分享器，提供整合聯網之智慧家庭解決方案。\n\n產品嚴格遵循 [[DOCSIS]] 規範，技術已升級至 [[Wi-Fi 7]] 及 [[5G]] 標準。公司高度聚焦歐洲市場，以客製化軟硬體服務打入歐洲多家跨國有線電視營運商 (MSO)。近年積極布局 5G FWA CPE 產品，搶攻印度 [[Jio]] 等新興市場龐大 5G 固網用戶需求，同時於美國德州設立子公司爭取 BEAD 寬頻國家補貼計畫標案。",
+    "supply_chain_md": "**上游 (寬頻通訊 SoC 與射頻晶片):**\n- **DOCSIS SoC:** [[Broadcom]] — DOCSIS 3.1/4.0 寬頻基帶晶片\n- **Wi-Fi 晶片:** Wi-Fi 6E/7 射頻晶片\n- **集團採購:** [[仁寶電腦]] — 集團規模採購優惠體系\n\n**中游 (歐洲寬頻設備客製化製造):**\n- **智慧閘道器:** **鋐寶** (DOCSIS 3.1 + Wi-Fi 6E/7 整合閘道器)\n- **STB:** **鋐寶** (VOD 整合型數位機上盒)\n- **5G FWA:** **鋐寶** (5G 固網替代 CPE)\n\n**下游 (歐洲有線電視商與新興市場電信商):**\n- **歐洲 MSO:** 歐洲大型有線電視暨固線寬頻營運商\n- **印度 5G:** [[Jio]] — 5G FWA 寬頻市場標案\n- **美國 BEAD:** 美國德州子公司 — BEAD 補貼計畫電信商 CPE",
+    "customers_suppliers_md": "### 主要客戶\n- **歐洲 MSO:** 歐洲大型跨國有線電視及固線寬頻營運商 — 客製化 CPE 設備\n- **印度 5G:** [[Jio]] — 5G FWA 寬頻市場\n- **美國 BEAD:** 美國電信商 — BEAD 寬頻國家補貼計畫\n\n### 主要供應商\n- **DOCSIS 晶片:** [[Broadcom]] — DOCSIS 3.1/4.0 基帶 SoC\n- **集團母公司:** [[仁寶電腦]] — 集團採購資源及供應鏈整合\n- **Wi-Fi 晶片:** Wi-Fi 6E/7 射頻晶片供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

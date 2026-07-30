@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2616",
+  "company_name": "山隆",
+  "title": "2616 - 山隆",
+  "source_md": "Pilot_Reports/Specialty Retail/2616_山隆.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail",
+    "market_cap": "1,842 百萬台幣",
+    "enterprise_value": "4,674 百萬台幣"
+  },
+  "business": {
+    "summary": "山隆通運股份有限公司成立於 1976 年，隸屬 [[正隆]]（1904）紙業集團。公司為國內少數同時跨足加油站與汽車貨運之業者。加油站業務方面，山隆全台擁有約 70 座以上加油站，為國內最大民營柴油發油商，主力客群為柴油車隊（貨卡車）。運輸物流方面，擁有龐大車隊，除承運 [[正隆]] 集團之紙類產品外，亦承接超商通路及電商之物流配送業務。2024 年產品營收佔比為加油站約 80%、汽車運輸約 20%。",
+    "entities": [
+      "正隆"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (油品供應)",
+        "text": "**上游 (油品供應):**",
+        "entities": []
+      },
+      {
+        "category": "油品",
+        "text": "[[中油]]（CPC）及 [[台塑化]]（6505）為國內兩大油品供應來源",
+        "entities": [
+          "中油",
+          "台塑化"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (零售與物流)",
+        "text": "**中游 (零售與物流):**",
+        "entities": []
+      },
+      {
+        "category": "山隆 (2616)",
+        "text": "加油站油品零售（全台約 70 座以上）、貨運車隊、倉儲物流配送",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "加油站",
+        "text": "運輸車隊、一般駕駛人",
+        "entities": []
+      },
+      {
+        "category": "物流",
+        "text": "[[正隆]]（1904）紙業集團、超商通路如 [[統一超商]]（7-Eleven）、[[全家]]、電商平台",
+        "entities": [
+          "正隆",
+          "統一超商",
+          "全家"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "關係人",
+        "text": "[[正隆]]（1904）為主要貨運客戶",
+        "entities": [
+          "正隆"
+        ]
+      },
+      {
+        "role": "超商物流",
+        "text": "[[統一超商]]（7-Eleven）、[[全家]] 等超商通路之配送",
+        "entities": [
+          "統一超商",
+          "全家"
+        ]
+      },
+      {
+        "role": "加油站",
+        "text": "簽約柴油車隊用戶及一般駕駛人",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "油品",
+        "text": "[[中油]]、[[台塑化]]（6505）為唯二國內汽柴油供應商",
+        "entities": [
+          "中油",
+          "台塑化"
+        ]
+      },
+      {
+        "role": "車輛",
+        "text": "商用車輛及維修零件",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Retail):** [[燦坤]]、[[集雅社]]、[[振宇五金]]、[[台灣大]]、[[詩肯]]",
+        "entities": [
+          "燦坤",
+          "集雅社",
+          "振宇五金",
+          "台灣大",
+          "詩肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "正隆",
+          "統一超商",
+          "全家"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "正隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正隆"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "台塑化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑化"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "全家",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家"
+    },
+    {
+      "name": "燦坤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燦坤"
+    },
+    {
+      "name": "集雅社",
+      "type": "taiwan_company_or_term",
+      "wikilink": "集雅社"
+    },
+    {
+      "name": "振宇五金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "振宇五金"
+    },
+    {
+      "name": "台灣大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大"
+    },
+    {
+      "name": "詩肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "詩肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "山隆通運股份有限公司成立於 1976 年，隸屬 [[正隆]]（1904）紙業集團。公司為國內少數同時跨足加油站與汽車貨運之業者。加油站業務方面，山隆全台擁有約 70 座以上加油站，為國內最大民營柴油發油商，主力客群為柴油車隊（貨卡車）。運輸物流方面，擁有龐大車隊，除承運 [[正隆]] 集團之紙類產品外，亦承接超商通路及電商之物流配送業務。2024 年產品營收佔比為加油站約 80%、汽車運輸約 20%。",
+    "supply_chain_md": "**上游 (油品供應):**\n- **油品:** [[中油]]（CPC）及 [[台塑化]]（6505）為國內兩大油品供應來源\n\n**中游 (零售與物流):**\n- **山隆 (2616):** 加油站油品零售（全台約 70 座以上）、貨運車隊、倉儲物流配送\n\n**下游 (終端客戶):**\n- **加油站:** 運輸車隊、一般駕駛人\n- **物流:** [[正隆]]（1904）紙業集團、超商通路如 [[統一超商]]（7-Eleven）、[[全家]]、電商平台",
+    "customers_suppliers_md": "### 主要客戶\n- **關係人:** [[正隆]]（1904）為主要貨運客戶\n- **超商物流:** [[統一超商]]（7-Eleven）、[[全家]] 等超商通路之配送\n- **加油站:** 簽約柴油車隊用戶及一般駕駛人\n\n### 主要供應商\n- **油品:** [[中油]]、[[台塑化]]（6505）為唯二國內汽柴油供應商\n- **車輛:** 商用車輛及維修零件"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

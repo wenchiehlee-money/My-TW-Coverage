@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6839",
+  "company_name": "開陽能源",
+  "title": "6839 - [[開陽能源]]",
+  "source_md": "Pilot_Reports/Solar/6839_開陽能源.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Solar",
+    "market_cap": "947 百萬台幣",
+    "enterprise_value": "3,852 百萬台幣"
+  },
+  "business": {
+    "summary": "開陽能源股份有限公司 (6839) 為台灣知名在地綠能集團，全方位太陽光電系統投資與建置商。主要業務涵蓋五大板塊：\n\n1. **太陽能電廠[[EPC]]：** 提供從案場開發、申請、施工到併網之統包工程服務，能因應台灣土地特性推動農電共生與漁電共生案場。未來2-3年[[EPC]]工程建設容量預計超過300MW。\n2. **電廠維運 (O&M)：** 已完工電廠之長期維運管理。\n3. **電廠投資 ([[IPP]])：** 自持電廠進行長期售電。\n4. **[[儲能]]系統：** 儲能輔助服務投資與併網。\n5. **綠電交易：** 綠電憑證銷售與轉供。\n\n受惠於台灣能源轉型政策與企業綠電需求，[[EPC]]工程收入與[[儲能]]輔助服務為主要成長動能。",
+    "entities": [
+      "EPC",
+      "IPP",
+      "儲能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與材料)",
+        "text": "**上游 (設備與材料):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能模組",
+        "text": "[[聯合再生]]、[[元晶]]等國內模組大廠",
+        "entities": [
+          "聯合再生",
+          "元晶"
+        ]
+      },
+      {
+        "category": "逆變器",
+        "text": "國內外直/交流轉換變流器供應商",
+        "entities": []
+      },
+      {
+        "category": "[[儲能]]電池",
+        "text": "鋰電池儲能櫃供應商",
+        "entities": [
+          "儲能"
+        ]
+      },
+      {
+        "category": "重電設備",
+        "text": "高低壓配電盤及鋼構建材供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (工程服務)",
+        "text": "**中游 (工程服務):**",
+        "entities": []
+      },
+      {
+        "category": "開陽能源 (6839)",
+        "text": "大型太陽能電廠[[EPC]]統包工程、漁電共生案場開發、電廠長期維運、[[儲能]]系統併網投資",
+        "entities": [
+          "EPC",
+          "儲能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "[[台電]]",
+        "text": "躉購費率收購電力",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "企業用戶",
+        "text": "竹科[[半導體]]與電子廠購買綠電憑證",
+        "entities": [
+          "半導體"
+        ]
+      },
+      {
+        "category": "電廠投資方",
+        "text": "民間電廠投資者、地方政府機關",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力躉購",
+        "text": "[[台電]]",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "綠電憑證",
+        "text": "竹科大型[[半導體]]與電子廠（有[[RE100]]需求）",
+        "entities": [
+          "半導體",
+          "RE100"
+        ]
+      },
+      {
+        "role": "電廠投資方",
+        "text": "民間電廠投資者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "太陽能模組",
+        "text": "[[聯合再生]]、[[元晶]]等國內模組大廠",
+        "entities": [
+          "聯合再生",
+          "元晶"
+        ]
+      },
+      {
+        "role": "逆變器與重電",
+        "text": "國內大型機電、變流器及重電設備製造商",
+        "entities": []
+      },
+      {
+        "role": "[[儲能]]電池",
+        "text": "鋰電池儲能櫃供應商",
+        "entities": [
+          "儲能"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Solar):** [[國碩]]、[[聯合再生]]、[[達能]]、[[碩禾]]、[[新晶投控]]",
+        "entities": [
+          "國碩",
+          "聯合再生",
+          "達能",
+          "碩禾",
+          "新晶投控"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "半導體",
+          "RE100"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EPC",
+      "type": "international_company_or_term",
+      "wikilink": "EPC"
+    },
+    {
+      "name": "IPP",
+      "type": "international_company_or_term",
+      "wikilink": "IPP"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "聯合再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯合再生"
+    },
+    {
+      "name": "元晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元晶"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "RE100",
+      "type": "international_company_or_term",
+      "wikilink": "RE100"
+    },
+    {
+      "name": "國碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國碩"
+    },
+    {
+      "name": "達能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達能"
+    },
+    {
+      "name": "碩禾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碩禾"
+    },
+    {
+      "name": "新晶投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新晶投控"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "開陽能源股份有限公司 (6839) 為台灣知名在地綠能集團，全方位太陽光電系統投資與建置商。主要業務涵蓋五大板塊：\n\n1. **太陽能電廠[[EPC]]：** 提供從案場開發、申請、施工到併網之統包工程服務，能因應台灣土地特性推動農電共生與漁電共生案場。未來2-3年[[EPC]]工程建設容量預計超過300MW。\n2. **電廠維運 (O&M)：** 已完工電廠之長期維運管理。\n3. **電廠投資 ([[IPP]])：** 自持電廠進行長期售電。\n4. **[[儲能]]系統：** 儲能輔助服務投資與併網。\n5. **綠電交易：** 綠電憑證銷售與轉供。\n\n受惠於台灣能源轉型政策與企業綠電需求，[[EPC]]工程收入與[[儲能]]輔助服務為主要成長動能。",
+    "supply_chain_md": "**上游 (設備與材料):**\n- **太陽能模組：** [[聯合再生]]、[[元晶]]等國內模組大廠\n- **逆變器：** 國內外直/交流轉換變流器供應商\n- **[[儲能]]電池：** 鋰電池儲能櫃供應商\n- **重電設備：** 高低壓配電盤及鋼構建材供應商\n\n**中游 (工程服務):**\n- **開陽能源 (6839)：** 大型太陽能電廠[[EPC]]統包工程、漁電共生案場開發、電廠長期維運、[[儲能]]系統併網投資\n\n**下游 (終端應用):**\n- **[[台電]]：** 躉購費率收購電力\n- **企業用戶：** 竹科[[半導體]]與電子廠購買綠電憑證\n- **電廠投資方：** 民間電廠投資者、地方政府機關",
+    "customers_suppliers_md": "### 主要客戶\n- **電力躉購：** [[台電]]\n- **綠電憑證：** 竹科大型[[半導體]]與電子廠（有[[RE100]]需求）\n- **電廠投資方：** 民間電廠投資者\n\n### 主要供應商\n- **太陽能模組：** [[聯合再生]]、[[元晶]]等國內模組大廠\n- **逆變器與重電：** 國內大型機電、變流器及重電設備製造商\n- **[[儲能]]電池：** 鋰電池儲能櫃供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

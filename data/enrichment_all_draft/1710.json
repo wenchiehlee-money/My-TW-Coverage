@@ -1,0 +1,202 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1710",
+  "company_name": "東聯",
+  "title": "1710 - 東聯",
+  "source_md": "Pilot_Reports/Chemicals/1710_東聯.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals",
+    "market_cap": "11,533 百萬台幣",
+    "enterprise_value": "29,266 百萬台幣"
+  },
+  "business": {
+    "summary": "東聯化學股份有限公司 (Oriental Union Chemical Corporation) 是[[遠東集團]]旗下之重要石化公司，主要從事[[乙二醇]] (EG) 及[[環氧乙烷]] (EO) 衍生物之生產與銷售。公司成立於 1975 年，總部位於台灣台北市，並在高雄林園及中國揚州設有生產基地。東聯從早期供應化纖原料，轉型為開發高附加價值之特用化學品，產品涵蓋乙二醇系列、氣體產品及各類特用化學品，廣泛應用於聚酯纖維、防凍劑、電子材料及個人清潔用品等領域。近年來，公司更積極跨足高純度[[二氧化碳]] (CO2) 捕捉再利用及半導體級化學品領域。",
+    "entities": [
+      "遠東集團",
+      "乙二醇",
+      "環氧乙烷",
+      "二氧化碳"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (輕裂原料與氣體分餾)",
+        "text": "**上游 (輕裂原料與氣體分餾):**",
+        "entities": []
+      },
+      {
+        "category": "純化與進料",
+        "text": "廠區之液體核心原料乙烯 (Ethylene) 極度仰賴中油等輕油裂解廠之短距管線供料；同時從自然空氣或石化製程廢氣中，透過高端設備提取分離並液化氧氣、氮氣與高純度二氧化碳。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EG衍生物與級氣體特化廠)",
+        "text": "**中游 (EG衍生物與級氣體特化廠):**",
+        "entities": []
+      },
+      {
+        "category": "轉型高值化",
+        "text": "**東聯 (1710)** (為遠東集團麾下之石化技術大將，已從傳統供給大宗的乙二醇 (EG) 紡織塑化原料，成功高毛利轉型並跨出研發環氧乙烷 (EO)、乙醇胺 (EA) 等特用化學品與半導體電子等級極高純度特殊氣體)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (生醫、電子與聚酯纖維端)",
+        "text": "**下游 (生醫、電子與聚酯纖維端):**",
+        "entities": []
+      },
+      {
+        "category": "百工之母與先進科技",
+        "text": "豐沛之企業終端應用涵蓋從傳統龐大之聚酯寶特瓶、機能服飾原料，快速向外延伸至個人護理(界面洗劑添加物)、龐大營造建築專用減水劑，以至於最精密尖端之半導體先進製程清洗蝕刻晶圓領域。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "全球半導體先進製程霸主",
+        "text": "其重點投入重金開發之最高純度二氧化碳 (CO2) 氣體，已成功打入並長期供應給護國神山 [[台積電]] 於 5nm/3nm 以下極先進製程之精密清洗與極紫外光 ([[EUV]]) 護膜應用。",
+        "entities": [
+          "台積電",
+          "EUV"
+        ]
+      },
+      {
+        "role": "集團內部化工與化纖廠",
+        "text": "直接受惠龐大之遠東集團生產綜效，將龐大產出之基礎乙二醇 (MEG) 穩定且源源不絕供應給同血脈之 [[遠東新世紀]] 做為規模化生產聚酯纖維之絕對主力進料。",
+        "entities": [
+          "遠東新世紀"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "大型烯烴裂解廠與氣體技術商",
+        "text": "乙烯 (大宗基礎油料) 之命脈進料高度鎖定 [[台灣中油]] 等本土裂解大廠 (林園廠地利之便)；而高純工業氣體之分離萃取與純化技術設備，則深耕與百年海外氣體巨頭 [[Linde]] 合作以確保世界級的製程純度與產量穩定。",
+        "entities": [
+          "台灣中油",
+          "Linde"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Chemicals):** [[台苯]]、[[國喬]]、[[聯成]]、[[台化]]、[[東鹼]]",
+        "entities": [
+          "台苯",
+          "國喬",
+          "聯成",
+          "台化",
+          "東鹼"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "EUV",
+          "遠東新世紀"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "遠東集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東集團"
+    },
+    {
+      "name": "乙二醇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "乙二醇"
+    },
+    {
+      "name": "環氧乙烷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環氧乙烷"
+    },
+    {
+      "name": "二氧化碳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "二氧化碳"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "EUV",
+      "type": "technology",
+      "wikilink": "EUV"
+    },
+    {
+      "name": "遠東新世紀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新世紀"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "Linde",
+      "type": "international_company_or_term",
+      "wikilink": "Linde"
+    },
+    {
+      "name": "台苯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台苯"
+    },
+    {
+      "name": "國喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國喬"
+    },
+    {
+      "name": "聯成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯成"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "東鹼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東鹼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東聯化學股份有限公司 (Oriental Union Chemical Corporation) 是[[遠東集團]]旗下之重要石化公司，主要從事[[乙二醇]] (EG) 及[[環氧乙烷]] (EO) 衍生物之生產與銷售。公司成立於 1975 年，總部位於台灣台北市，並在高雄林園及中國揚州設有生產基地。東聯從早期供應化纖原料，轉型為開發高附加價值之特用化學品，產品涵蓋乙二醇系列、氣體產品及各類特用化學品，廣泛應用於聚酯纖維、防凍劑、電子材料及個人清潔用品等領域。近年來，公司更積極跨足高純度[[二氧化碳]] (CO2) 捕捉再利用及半導體級化學品領域。",
+    "supply_chain_md": "**上游 (輕裂原料與氣體分餾):**\n- **純化與進料:** 廠區之液體核心原料乙烯 (Ethylene) 極度仰賴中油等輕油裂解廠之短距管線供料；同時從自然空氣或石化製程廢氣中，透過高端設備提取分離並液化氧氣、氮氣與高純度二氧化碳。\n\n**中游 (EG衍生物與級氣體特化廠):**\n- **轉型高值化:** **東聯 (1710)** (為遠東集團麾下之石化技術大將，已從傳統供給大宗的乙二醇 (EG) 紡織塑化原料，成功高毛利轉型並跨出研發環氧乙烷 (EO)、乙醇胺 (EA) 等特用化學品與半導體電子等級極高純度特殊氣體)。\n\n**下游 (生醫、電子與聚酯纖維端):**\n- **百工之母與先進科技:** 豐沛之企業終端應用涵蓋從傳統龐大之聚酯寶特瓶、機能服飾原料，快速向外延伸至個人護理(界面洗劑添加物)、龐大營造建築專用減水劑，以至於最精密尖端之半導體先進製程清洗蝕刻晶圓領域。",
+    "customers_suppliers_md": "### 主要客戶\n- **全球半導體先進製程霸主:** 其重點投入重金開發之最高純度二氧化碳 (CO2) 氣體，已成功打入並長期供應給護國神山 [[台積電]] 於 5nm/3nm 以下極先進製程之精密清洗與極紫外光 ([[EUV]]) 護膜應用。\n- **集團內部化工與化纖廠:** 直接受惠龐大之遠東集團生產綜效，將龐大產出之基礎乙二醇 (MEG) 穩定且源源不絕供應給同血脈之 [[遠東新世紀]] 做為規模化生產聚酯纖維之絕對主力進料。\n\n### 主要供應商\n- **大型烯烴裂解廠與氣體技術商:** 乙烯 (大宗基礎油料) 之命脈進料高度鎖定 [[台灣中油]] 等本土裂解大廠 (林園廠地利之便)；而高純工業氣體之分離萃取與純化技術設備，則深耕與百年海外氣體巨頭 [[Linde]] 合作以確保世界級的製程純度與產量穩定。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

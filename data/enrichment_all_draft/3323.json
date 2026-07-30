@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3323",
+  "company_name": "加百裕",
+  "title": "3323 - 加百裕",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/3323_加百裕.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,609 百萬台幣",
+    "enterprise_value": "2,279 百萬台幣"
+  },
+  "business": {
+    "summary": "加百裕 (3323，Celxpert) 為鋰電池模組三雄之一 (與[[新普]]、[[順達]]並列)。核心成長為[[AI 伺服器]][[BBU]]，獲系統電策略入股。IT 客戶含[[Dell]]、[[HP]]、[[Lenovo]]。電芯來自[[Samsung SDI]]、[[LG Energy Solution]]。另供[[電動自行車]]及[[儲能]]。",
+    "entities": [
+      "新普",
+      "順達",
+      "AI 伺服器",
+      "BBU",
+      "Dell",
+      "HP",
+      "Lenovo",
+      "Samsung SDI",
+      "LG Energy Solution",
+      "電動自行車",
+      "儲能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[Samsung SDI]]、[[LG Energy Solution]]",
+        "entities": [
+          "Samsung SDI",
+          "LG Energy Solution"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**加百裕** ([[BMS]]/[[BBU]]/電池模組)",
+        "entities": [
+          "BMS",
+          "BBU"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[Dell]]、[[HP]]、[[Lenovo]]；AI [[BBU]]",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "BBU"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Dell]]、[[HP]]、[[Lenovo]] — NB",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo"
+        ]
+      },
+      {
+        "role": "",
+        "text": "AI [[BBU]] — CSP",
+        "entities": [
+          "BBU"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Samsung SDI]]、[[LG Energy Solution]]",
+        "entities": [
+          "Samsung SDI",
+          "LG Energy Solution"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "BBU"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新普",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新普"
+    },
+    {
+      "name": "順達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順達"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "BBU",
+      "type": "international_company_or_term",
+      "wikilink": "BBU"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Samsung SDI",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung SDI"
+    },
+    {
+      "name": "LG Energy Solution",
+      "type": "international_company_or_term",
+      "wikilink": "LG Energy Solution"
+    },
+    {
+      "name": "電動自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動自行車"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "BMS",
+      "type": "international_company_or_term",
+      "wikilink": "BMS"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "加百裕 (3323，Celxpert) 為鋰電池模組三雄之一 (與[[新普]]、[[順達]]並列)。核心成長為[[AI 伺服器]][[BBU]]，獲系統電策略入股。IT 客戶含[[Dell]]、[[HP]]、[[Lenovo]]。電芯來自[[Samsung SDI]]、[[LG Energy Solution]]。另供[[電動自行車]]及[[儲能]]。",
+    "supply_chain_md": "**上游:** [[Samsung SDI]]、[[LG Energy Solution]]\n**中游:** **加百裕** ([[BMS]]/[[BBU]]/電池模組)\n**下游:** [[Dell]]、[[HP]]、[[Lenovo]]；AI [[BBU]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Dell]]、[[HP]]、[[Lenovo]] — NB\n- AI [[BBU]] — CSP\n\n### 主要供應商\n- [[Samsung SDI]]、[[LG Energy Solution]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

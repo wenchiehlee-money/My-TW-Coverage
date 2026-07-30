@@ -129,7 +129,18 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **ASIC/IP design service customer overlap:** [[創意]]、[[世芯-KY]]、[[晶心科]]",
+        "entities": [
+          "創意",
+          "世芯-KY",
+          "晶心科"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": []
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -194,6 +205,21 @@
       "name": "台積電",
       "type": "taiwan_company_or_term",
       "wikilink": "台積電"
+    },
+    {
+      "name": "創意",
+      "type": "taiwan_company_or_term",
+      "wikilink": "創意"
+    },
+    {
+      "name": "世芯-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世芯-KY"
+    },
+    {
+      "name": "晶心科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶心科"
     }
   ],
   "source_text": {
@@ -205,6 +231,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 11,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

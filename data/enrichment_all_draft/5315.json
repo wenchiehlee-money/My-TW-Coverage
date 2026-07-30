@@ -1,0 +1,291 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5315",
+  "company_name": "光聯",
+  "title": "5315 - 光聯",
+  "source_md": "Pilot_Reports/Electronic Components/5315_光聯.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,973 百萬台幣",
+    "enterprise_value": "769 百萬台幣"
+  },
+  "business": {
+    "summary": "光聯科技 (5315，[[United Radiant Technology]]) 成立於 1990 年，總部位於台中梧棲科技工業園區。公司專精於 **中小尺寸液晶顯示器 (LCD/LCM)** 及 **觸控面板 (TP)** 之研發與製造，技術涵蓋單色 LCD、[[TFT-LCD]] 模組及電容式/電阻式觸控整合方案。\n\n近年積極轉型至利基型高毛利市場：(1) **車載顯示** — 為 [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) 等國際車廠供應車用儀表/中控顯示模組；(2) **家電** — 歐洲白色家電品牌如 [[Miele]]、[[Bosch]] 之食物調理機/洗衣機顯示面板；(3) **工控** — 歐美工業儀表與自動化設備顯示器；(4) **海事/醫療** — 船用儀表與醫療設備顯示。歐洲為最大營收市場 (約 60%)，產品具備高亮度、寬溫操作、防水防塵等特殊規格。",
+    "entities": [
+      "United Radiant Technology",
+      "TFT-LCD",
+      "Porsche",
+      "Hyundai",
+      "Ford",
+      "Suzuki",
+      "Miele",
+      "Bosch"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板與驅動元件)",
+        "text": "**上游 (面板與驅動元件):**",
+        "entities": []
+      },
+      {
+        "category": "LCD 面板",
+        "text": "TFT/STN 玻璃基板供應商",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "顯示器驅動 IC 設計廠",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      },
+      {
+        "category": "觸控材料",
+        "text": "觸控感測 [[ITO]] 薄膜",
+        "entities": [
+          "ITO"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (顯示模組製造)",
+        "text": "**中游 (顯示模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "車用顯示",
+        "text": "**光聯** (車用儀表/中控 LCM 模組)",
+        "entities": []
+      },
+      {
+        "category": "家電顯示",
+        "text": "**光聯** (白色家電顯示面板)",
+        "entities": []
+      },
+      {
+        "category": "工控/海事",
+        "text": "**光聯** (工業儀表/船用顯示模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌客戶)",
+        "text": "**下游 (終端品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "[[Porsche]]、[[Hyundai]]、[[Ford]]、[[Suzuki]] — 車用顯示模組",
+        "entities": [
+          "Porsche",
+          "Hyundai",
+          "Ford",
+          "Suzuki"
+        ]
+      },
+      {
+        "category": "家電",
+        "text": "[[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示",
+        "entities": [
+          "Miele",
+          "Bosch"
+        ]
+      },
+      {
+        "category": "工控",
+        "text": "歐美工業儀表品牌 — 自動化設備顯示器",
+        "entities": []
+      },
+      {
+        "category": "醫療/海事",
+        "text": "醫療設備與船用儀表顯示",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用",
+        "text": "[[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) — 車用儀表/中控顯示",
+        "entities": [
+          "Porsche",
+          "Hyundai",
+          "Ford",
+          "Suzuki"
+        ]
+      },
+      {
+        "role": "家電",
+        "text": "[[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示面板",
+        "entities": [
+          "Miele",
+          "Bosch"
+        ]
+      },
+      {
+        "role": "工控",
+        "text": "歐美工業儀表廠商 — 自動化設備顯示器",
+        "entities": []
+      },
+      {
+        "role": "醫療/海事",
+        "text": "醫療設備與船用儀表品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LCD 面板",
+        "text": "TFT/STN 玻璃基板供應商",
+        "entities": []
+      },
+      {
+        "role": "驅動 IC",
+        "text": "顯示器驅動 IC 設計廠",
+        "entities": []
+      },
+      {
+        "role": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Porsche",
+          "Hyundai",
+          "Ford",
+          "Suzuki",
+          "Miele",
+          "Bosch"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "近年積極轉型至利基型高毛利市場：(1) **車載顯示** — 為 [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) 等國際車廠供應車用儀表/中控顯示模組；(2) **家電** — 歐洲白色家電品牌如 [[Miele]]、[[Bosch]] 之食物調理機/洗衣機顯示面板；(3) **工控** — 歐美工業儀表與自動化設備顯示器；(4) **海事/醫療** — 船用儀表與醫療設備顯示。歐洲為最大營收市場 (約 60%)，產品具備高亮度、寬溫操作、防水防塵等特殊規格。",
+        "entities": [
+          "Porsche",
+          "Hyundai",
+          "Ford",
+          "Suzuki",
+          "Miele",
+          "Bosch"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "United Radiant Technology",
+      "type": "international_company_or_term",
+      "wikilink": "United Radiant Technology"
+    },
+    {
+      "name": "TFT-LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT-LCD"
+    },
+    {
+      "name": "Porsche",
+      "type": "international_company_or_term",
+      "wikilink": "Porsche"
+    },
+    {
+      "name": "Hyundai",
+      "type": "international_company_or_term",
+      "wikilink": "Hyundai"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "Suzuki",
+      "type": "international_company_or_term",
+      "wikilink": "Suzuki"
+    },
+    {
+      "name": "Miele",
+      "type": "international_company_or_term",
+      "wikilink": "Miele"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "ITO",
+      "type": "international_company_or_term",
+      "wikilink": "ITO"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "光聯科技 (5315，[[United Radiant Technology]]) 成立於 1990 年，總部位於台中梧棲科技工業園區。公司專精於 **中小尺寸液晶顯示器 (LCD/LCM)** 及 **觸控面板 (TP)** 之研發與製造，技術涵蓋單色 LCD、[[TFT-LCD]] 模組及電容式/電阻式觸控整合方案。\n\n近年積極轉型至利基型高毛利市場：(1) **車載顯示** — 為 [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) 等國際車廠供應車用儀表/中控顯示模組；(2) **家電** — 歐洲白色家電品牌如 [[Miele]]、[[Bosch]] 之食物調理機/洗衣機顯示面板；(3) **工控** — 歐美工業儀表與自動化設備顯示器；(4) **海事/醫療** — 船用儀表與醫療設備顯示。歐洲為最大營收市場 (約 60%)，產品具備高亮度、寬溫操作、防水防塵等特殊規格。",
+    "supply_chain_md": "**上游 (面板與驅動元件):**\n- **LCD 面板:** TFT/STN 玻璃基板供應商\n- **驅動 IC:** 顯示器驅動 IC 設計廠\n- **背光模組:** LED 背光模組供應商\n- **觸控材料:** 觸控感測 [[ITO]] 薄膜\n\n**中游 (顯示模組製造):**\n- **車用顯示:** **光聯** (車用儀表/中控 LCM 模組)\n- **家電顯示:** **光聯** (白色家電顯示面板)\n- **工控/海事:** **光聯** (工業儀表/船用顯示模組)\n\n**下游 (終端品牌客戶):**\n- **車用:** [[Porsche]]、[[Hyundai]]、[[Ford]]、[[Suzuki]] — 車用顯示模組\n- **家電:** [[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示\n- **工控:** 歐美工業儀表品牌 — 自動化設備顯示器\n- **醫療/海事:** 醫療設備與船用儀表顯示",
+    "customers_suppliers_md": "### 主要客戶\n- **車用:** [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) — 車用儀表/中控顯示\n- **家電:** [[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示面板\n- **工控:** 歐美工業儀表廠商 — 自動化設備顯示器\n- **醫療/海事:** 醫療設備與船用儀表品牌\n\n### 主要供應商\n- **LCD 面板:** TFT/STN 玻璃基板供應商\n- **驅動 IC:** 顯示器驅動 IC 設計廠\n- **背光模組:** LED 背光模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

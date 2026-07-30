@@ -171,7 +171,21 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **PC gaming/server brand overlap:** [[華碩]]、[[微星]]、[[ASRock]]、[[Supermicro]]",
+        "entities": [
+          "華碩",
+          "微星",
+          "ASRock",
+          "Supermicro"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "NVIDIA"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -241,6 +255,26 @@
       "name": "HBM",
       "type": "technology",
       "wikilink": "HBM"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "ASRock",
+      "type": "international_company_or_term",
+      "wikilink": "ASRock"
+    },
+    {
+      "name": "Supermicro",
+      "type": "international_company_or_term",
+      "wikilink": "Supermicro"
     }
   ],
   "source_text": {
@@ -252,6 +286,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 12,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2450",
+  "company_name": "神腦",
+  "title": "2450 - 神腦",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/2450_神腦.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "7,438 百萬台幣",
+    "enterprise_value": "6,170 百萬台幣"
+  },
+  "business": {
+    "summary": "神腦國際企業 (2450，Senao International) 成立於 1979 年，總部位於新北市，為台灣最大通訊通路代理商，隸屬於[[中華電信]]集團。公司代理銷售各大品牌手機、平板、資訊家電及保健食品，並建構「神腦生活」O2O 零售平台，擁有全台最廣泛之通訊門市及維修服務網絡。主要銷售品牌包含 [[Apple]] iPhone/iPad、[[Samsung]]、[[華碩]] 等，與[[中華電信]]為獨家合作夥伴。",
+    "entities": [
+      "中華電信",
+      "Apple",
+      "Samsung",
+      "華碩"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌/代理)",
+        "text": "**上游 (品牌/代理):**",
+        "entities": []
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Apple]]、[[Samsung]]、[[OPPO]]、[[Sony]] — 智慧型手機",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "OPPO",
+          "Sony"
+        ]
+      },
+      {
+        "category": "家電品牌",
+        "text": "[[Panasonic]]、[[Dyson]] — 生活家電",
+        "entities": [
+          "Panasonic",
+          "Dyson"
+        ]
+      },
+      {
+        "category": "保健品牌",
+        "text": "sakuyo — 保健食品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路營運)",
+        "text": "**中游 (通路營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**神腦國際** (物流倉儲管理、全台門市據點、維修中心、O2O 平台)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "B2C",
+        "text": "[[中華電信]]行動通訊用戶 (續約/購機)、一般消費者",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "category": "B2B",
+        "text": "政府機關、學校、企業福委會",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信用戶",
+        "text": "[[中華電信]]行動通訊用戶 (續約/購機)",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "一般消費者",
+        "text": "全台門市與線上平台消費者",
+        "entities": []
+      },
+      {
+        "role": "企業客戶",
+        "text": "政府機關、學校、企業福委會",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電信服務",
+        "text": "[[中華電信]] (母公司/獨家合作夥伴)",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "手機品牌",
+        "text": "[[Apple]] (iPhone/iPad)、[[Samsung]]、[[華碩]]",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "華碩"
+        ]
+      },
+      {
+        "role": "家電品牌",
+        "text": "[[Panasonic]]、[[Dyson]]",
+        "entities": [
+          "Panasonic",
+          "Dyson"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[華立]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "華立"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "Dyson",
+      "type": "international_company_or_term",
+      "wikilink": "Dyson"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "華立",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華立"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "神腦國際企業 (2450，Senao International) 成立於 1979 年，總部位於新北市，為台灣最大通訊通路代理商，隸屬於[[中華電信]]集團。公司代理銷售各大品牌手機、平板、資訊家電及保健食品，並建構「神腦生活」O2O 零售平台，擁有全台最廣泛之通訊門市及維修服務網絡。主要銷售品牌包含 [[Apple]] iPhone/iPad、[[Samsung]]、[[華碩]] 等，與[[中華電信]]為獨家合作夥伴。",
+    "supply_chain_md": "**上游 (品牌/代理):**\n- **手機品牌:** [[Apple]]、[[Samsung]]、[[OPPO]]、[[Sony]] — 智慧型手機\n- **家電品牌:** [[Panasonic]]、[[Dyson]] — 生活家電\n- **保健品牌:** sakuyo — 保健食品\n\n**中游 (通路營運):**\n- **神腦國際** (物流倉儲管理、全台門市據點、維修中心、O2O 平台)\n\n**下游 (終端客戶):**\n- **B2C:** [[中華電信]]行動通訊用戶 (續約/購機)、一般消費者\n- **B2B:** 政府機關、學校、企業福委會",
+    "customers_suppliers_md": "### 主要客戶\n- **電信用戶:** [[中華電信]]行動通訊用戶 (續約/購機)\n- **一般消費者:** 全台門市與線上平台消費者\n- **企業客戶:** 政府機關、學校、企業福委會\n\n### 主要供應商\n- **電信服務:** [[中華電信]] (母公司/獨家合作夥伴)\n- **手機品牌:** [[Apple]] (iPhone/iPad)、[[Samsung]]、[[華碩]]\n- **家電品牌:** [[Panasonic]]、[[Dyson]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

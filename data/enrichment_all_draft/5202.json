@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5202",
+  "company_name": "力新",
+  "title": "5202 - 力新",
+  "source_md": "Pilot_Reports/Software - Application/5202_力新.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": "1,016 百萬台幣",
+    "enterprise_value": "573 百萬台幣"
+  },
+  "business": {
+    "summary": "力新國際 (5202，NewSoft) 隸屬於[[台灣鋼鐵集團]]，為台灣知名軟體公司，早年以 OCR (光學字元辨識) 軟體「丹青」與「非常好色」聞名。目前轉型為企業數位轉型服務商：(1) **AI OCR/IDR** — 企業文件辨識與智慧單據輸入系統，支援發票、收據等自動化辨識；(2) **企業解決方案** — BPM 流程管理、雲端辦公室 (Pro OA)、碳盤查系統；(3) **系統整合** — 配合母集團[[台灣鋼鐵集團]]進行資訊系統整合；(4) **AIoT** — 智慧聯網服務。公司以 [[Microsoft]] Azure 及 [[AWS]] 為雲端基礎設施，服務金融、製造及政府客戶。",
+    "entities": [
+      "台灣鋼鐵集團",
+      "Microsoft",
+      "AWS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (雲端與硬體)",
+        "text": "**上游 (雲端與硬體):**",
+        "entities": []
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[Microsoft]] Azure、[[AWS]]",
+        "entities": [
+          "Microsoft",
+          "AWS"
+        ]
+      },
+      {
+        "category": "硬體合作",
+        "text": "掃描器/事務機廠 (搭售 OCR 軟體)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (軟體開發)",
+        "text": "**中游 (軟體開發):**",
+        "entities": []
+      },
+      {
+        "category": "企業軟體",
+        "text": "**力新** (AI OCR/IDR、BPM 流程管理、碳盤查系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "金融業",
+        "text": "[[第一金]]、[[富邦金]] 等金融機構",
+        "entities": [
+          "第一金",
+          "富邦金"
+        ]
+      },
+      {
+        "category": "科技/製造",
+        "text": "[[Gogoro]]、[[台灣鋼鐵集團]]成員企業",
+        "entities": [
+          "Gogoro",
+          "台灣鋼鐵集團"
+        ]
+      },
+      {
+        "category": "政府/教育",
+        "text": "各級政府機關、學校",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融業",
+        "text": "[[第一金]]、[[富邦金]] 等金融機構",
+        "entities": [
+          "第一金",
+          "富邦金"
+        ]
+      },
+      {
+        "role": "科技/製造",
+        "text": "[[Gogoro]]、[[台灣鋼鐵集團]]成員企業",
+        "entities": [
+          "Gogoro",
+          "台灣鋼鐵集團"
+        ]
+      },
+      {
+        "role": "政府機關",
+        "text": "各級政府機關與學校",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[Microsoft]] Azure、[[AWS]]",
+        "entities": [
+          "Microsoft",
+          "AWS"
+        ]
+      },
+      {
+        "role": "硬體搭售",
+        "text": "掃描器與事務機廠商 (OEM 搭售軟體)",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Application):** [[大塚]]、[[研勤]]、[[凱衛]]、[[訊連]]、[[中茂]]",
+        "entities": [
+          "大塚",
+          "研勤",
+          "凱衛",
+          "訊連",
+          "中茂"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "第一金",
+          "富邦金",
+          "Gogoro",
+          "台灣鋼鐵集團"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台灣鋼鐵集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣鋼鐵集團"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "第一金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第一金"
+    },
+    {
+      "name": "富邦金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦金"
+    },
+    {
+      "name": "Gogoro",
+      "type": "international_company_or_term",
+      "wikilink": "Gogoro"
+    },
+    {
+      "name": "大塚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大塚"
+    },
+    {
+      "name": "研勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研勤"
+    },
+    {
+      "name": "凱衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱衛"
+    },
+    {
+      "name": "訊連",
+      "type": "taiwan_company_or_term",
+      "wikilink": "訊連"
+    },
+    {
+      "name": "中茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中茂"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "力新國際 (5202，NewSoft) 隸屬於[[台灣鋼鐵集團]]，為台灣知名軟體公司，早年以 OCR (光學字元辨識) 軟體「丹青」與「非常好色」聞名。目前轉型為企業數位轉型服務商：(1) **AI OCR/IDR** — 企業文件辨識與智慧單據輸入系統，支援發票、收據等自動化辨識；(2) **企業解決方案** — BPM 流程管理、雲端辦公室 (Pro OA)、碳盤查系統；(3) **系統整合** — 配合母集團[[台灣鋼鐵集團]]進行資訊系統整合；(4) **AIoT** — 智慧聯網服務。公司以 [[Microsoft]] Azure 及 [[AWS]] 為雲端基礎設施，服務金融、製造及政府客戶。",
+    "supply_chain_md": "**上游 (雲端與硬體):**\n- **雲端平台:** [[Microsoft]] Azure、[[AWS]]\n- **硬體合作:** 掃描器/事務機廠 (搭售 OCR 軟體)\n\n**中游 (軟體開發):**\n- **企業軟體:** **力新** (AI OCR/IDR、BPM 流程管理、碳盤查系統)\n\n**下游 (終端客戶):**\n- **金融業:** [[第一金]]、[[富邦金]] 等金融機構\n- **科技/製造:** [[Gogoro]]、[[台灣鋼鐵集團]]成員企業\n- **政府/教育:** 各級政府機關、學校",
+    "customers_suppliers_md": "### 主要客戶\n- **金融業:** [[第一金]]、[[富邦金]] 等金融機構\n- **科技/製造:** [[Gogoro]]、[[台灣鋼鐵集團]]成員企業\n- **政府機關:** 各級政府機關與學校\n\n### 主要供應商\n- **雲端平台:** [[Microsoft]] Azure、[[AWS]]\n- **硬體搭售:** 掃描器與事務機廠商 (OEM 搭售軟體)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

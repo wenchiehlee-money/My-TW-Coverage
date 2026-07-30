@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5248",
+  "company_name": "景傳",
+  "title": "5248 - 景傳",
+  "source_md": "Pilot_Reports/Electronic Components/5248_景傳.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "906 百萬台幣",
+    "enterprise_value": "1,166 百萬台幣"
+  },
+  "business": {
+    "summary": "景傳光電 (5248，[[Pixon]]) 為光電元件製造商，專注於 **影像感測器模組 ([[CIS]])** 相關之光源與鏡片，為事務機器 (OA) 產業關鍵光學元件供應商。\n\n核心產品：(1) **線狀光源模組 (Linear Light Source)** — 應用於掃描器、多功能事務機 (MFP) 之 CIS 掃描光源；(2) **柱狀透鏡陣列 (Linear Micro Lens Array)** — 聚焦光線之關鍵光學元件；(3) **隱形眼鏡模具** — 轉投資事業，跨足隱形眼鏡製造與精密模具開發。主要市場為事務機器產業，下游客戶為全球 OA 大廠。近年因無紙化趨勢，OA 需求較為成熟穩定，公司積極拓展隱形眼鏡模具等新事業。",
+    "entities": [
+      "Pixon",
+      "CIS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學與電子材料)",
+        "text": "**上游 (光學與電子材料):**",
+        "entities": []
+      },
+      {
+        "category": "LED 晶粒",
+        "text": "LED 晶粒供應商 — 線狀光源核心",
+        "entities": []
+      },
+      {
+        "category": "光學塑膠",
+        "text": "光學級塑膠粒子 — 透鏡射出成型",
+        "entities": []
+      },
+      {
+        "category": "PCB",
+        "text": "[[PCB]] 基板 — 光源模組電路板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光學元件製造)",
+        "text": "**中游 (光學元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "線狀光源",
+        "text": "**景傳** (CIS 掃描用線狀光源模組)",
+        "entities": []
+      },
+      {
+        "category": "透鏡陣列",
+        "text": "**景傳** (柱狀微透鏡陣列)",
+        "entities": []
+      },
+      {
+        "category": "精密模具",
+        "text": "**景傳** (隱形眼鏡模具開發)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OA 事務機品牌)",
+        "text": "**下游 (OA 事務機品牌):**",
+        "entities": []
+      },
+      {
+        "category": "日系 OA",
+        "text": "[[Canon]]、[[Epson]]、[[Brother]] — 事務機/掃描器",
+        "entities": [
+          "Canon",
+          "Epson",
+          "Brother"
+        ]
+      },
+      {
+        "category": "美系 OA",
+        "text": "[[HP]]、[[Lexmark]] — 多功能事務機",
+        "entities": [
+          "HP",
+          "Lexmark"
+        ]
+      },
+      {
+        "category": "CIS 模組廠",
+        "text": "CIS 影像感測器模組廠 — 光源/透鏡整合",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日系 OA",
+        "text": "[[Canon]]、[[Epson]]、[[Brother]] — 事務機/掃描器 CIS 光源模組",
+        "entities": [
+          "Canon",
+          "Epson",
+          "Brother"
+        ]
+      },
+      {
+        "role": "美系 OA",
+        "text": "[[HP]]、[[Lexmark]] — 多功能事務機光學元件",
+        "entities": [
+          "HP",
+          "Lexmark"
+        ]
+      },
+      {
+        "role": "CIS 模組廠",
+        "text": "CIS 影像感測器模組製造商 — 光源與透鏡整合",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 晶粒",
+        "text": "國內外 LED 晶粒供應商 — 線狀光源核心",
+        "entities": []
+      },
+      {
+        "role": "光學材料",
+        "text": "光學級塑膠粒供應商 — 透鏡成型原料",
+        "entities": []
+      },
+      {
+        "role": "PCB",
+        "text": "[[PCB]] 基板供應商 — 模組電路板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Canon",
+          "Epson",
+          "Brother",
+          "HP",
+          "Lexmark"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Pixon",
+      "type": "international_company_or_term",
+      "wikilink": "Pixon"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Canon",
+      "type": "international_company_or_term",
+      "wikilink": "Canon"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    },
+    {
+      "name": "Brother",
+      "type": "international_company_or_term",
+      "wikilink": "Brother"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lexmark",
+      "type": "international_company_or_term",
+      "wikilink": "Lexmark"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "景傳光電 (5248，[[Pixon]]) 為光電元件製造商，專注於 **影像感測器模組 ([[CIS]])** 相關之光源與鏡片，為事務機器 (OA) 產業關鍵光學元件供應商。\n\n核心產品：(1) **線狀光源模組 (Linear Light Source)** — 應用於掃描器、多功能事務機 (MFP) 之 CIS 掃描光源；(2) **柱狀透鏡陣列 (Linear Micro Lens Array)** — 聚焦光線之關鍵光學元件；(3) **隱形眼鏡模具** — 轉投資事業，跨足隱形眼鏡製造與精密模具開發。主要市場為事務機器產業，下游客戶為全球 OA 大廠。近年因無紙化趨勢，OA 需求較為成熟穩定，公司積極拓展隱形眼鏡模具等新事業。",
+    "supply_chain_md": "**上游 (光學與電子材料):**\n- **LED 晶粒:** LED 晶粒供應商 — 線狀光源核心\n- **光學塑膠:** 光學級塑膠粒子 — 透鏡射出成型\n- **PCB:** [[PCB]] 基板 — 光源模組電路板\n\n**中游 (光學元件製造):**\n- **線狀光源:** **景傳** (CIS 掃描用線狀光源模組)\n- **透鏡陣列:** **景傳** (柱狀微透鏡陣列)\n- **精密模具:** **景傳** (隱形眼鏡模具開發)\n\n**下游 (OA 事務機品牌):**\n- **日系 OA:** [[Canon]]、[[Epson]]、[[Brother]] — 事務機/掃描器\n- **美系 OA:** [[HP]]、[[Lexmark]] — 多功能事務機\n- **CIS 模組廠:** CIS 影像感測器模組廠 — 光源/透鏡整合",
+    "customers_suppliers_md": "### 主要客戶\n- **日系 OA:** [[Canon]]、[[Epson]]、[[Brother]] — 事務機/掃描器 CIS 光源模組\n- **美系 OA:** [[HP]]、[[Lexmark]] — 多功能事務機光學元件\n- **CIS 模組廠:** CIS 影像感測器模組製造商 — 光源與透鏡整合\n\n### 主要供應商\n- **LED 晶粒:** 國內外 LED 晶粒供應商 — 線狀光源核心\n- **光學材料:** 光學級塑膠粒供應商 — 透鏡成型原料\n- **PCB:** [[PCB]] 基板供應商 — 模組電路板"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

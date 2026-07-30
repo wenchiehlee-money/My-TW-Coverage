@@ -1,0 +1,193 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6291",
+  "company_name": "沛亨",
+  "title": "6291_沛亨",
+  "source_md": "Pilot_Reports/Semiconductors/6291_沛亨.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "16,380 百萬台幣",
+    "enterprise_value": "12,897 百萬台幣"
+  },
+  "business": {
+    "summary": "沛亨[[半導體]]股份有限公司 (6291) 是台灣早期成立的類比IC設計公司。沛亨主要專注於電源管理IC及混成式類比積體電路的研發與銷售。近年來，沛亨的營運表現受惠於[[AI 伺服器]]及[[資料中心]]對高速傳輸的龐大需求，帶動其光纖相關的通訊IC產品出貨激增。除了[[AI]]高速傳輸領域，公司的類比IC也廣泛應用於電腦周邊、電聲元件及一般工業/[[消費性電子]]產品中。透過精準的產品定位，沛亨在競爭激烈的電源管理市場中找到利基增長點。",
+    "entities": [
+      "半導體",
+      "AI 伺服器",
+      "資料中心",
+      "AI",
+      "消費性電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[矽晶圓]](Silicon Wafer)供應商、[[半導體]]晶圓代工廠及光罩服務廠。",
+        "entities": [
+          "矽晶圓",
+          "半導體"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **沛亨半導體** (電源管理類比IC及光纖通訊相關IC之設計與開發)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: IC封裝測試廠(OSAT)、電子系統代工廠([[EMS]])及[[光通訊]]模組製造商。",
+        "entities": [
+          "EMS",
+          "光通訊"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "國內外[[光通訊]]設備大廠及[[AI]][[資料中心]]相關的零組件組裝廠。",
+        "entities": [
+          "光通訊",
+          "AI",
+          "資料中心"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外各大晶圓代工廠(如[[聯電]]、八吋晶圓廠等)。",
+        "entities": [
+          "聯電"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "光通訊",
+          "AI",
+          "資料中心"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "沛亨[[半導體]]股份有限公司 (6291) 是台灣早期成立的類比IC設計公司。沛亨主要專注於電源管理IC及混成式類比積體電路的研發與銷售。近年來，沛亨的營運表現受惠於[[AI 伺服器]]及[[資料中心]]對高速傳輸的龐大需求，帶動其光纖相關的通訊IC產品出貨激增。除了[[AI]]高速傳輸領域，公司的類比IC也廣泛應用於電腦周邊、電聲元件及一般工業/[[消費性電子]]產品中。透過精準的產品定位，沛亨在競爭激烈的電源管理市場中找到利基增長點。",
+        "entities": [
+          "半導體",
+          "AI 伺服器",
+          "資料中心",
+          "AI",
+          "消費性電子"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "光通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光通訊"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "沛亨[[半導體]]股份有限公司 (6291) 是台灣早期成立的類比IC設計公司。沛亨主要專注於電源管理IC及混成式類比積體電路的研發與銷售。近年來，沛亨的營運表現受惠於[[AI 伺服器]]及[[資料中心]]對高速傳輸的龐大需求，帶動其光纖相關的通訊IC產品出貨激增。除了[[AI]]高速傳輸領域，公司的類比IC也廣泛應用於電腦周邊、電聲元件及一般工業/[[消費性電子]]產品中。透過精準的產品定位，沛亨在競爭激烈的電源管理市場中找到利基增長點。",
+    "supply_chain_md": "*   **上游**: [[矽晶圓]](Silicon Wafer)供應商、[[半導體]]晶圓代工廠及光罩服務廠。\n*   **中游**: **沛亨半導體** (電源管理類比IC及光纖通訊相關IC之設計與開發)。\n*   **下游**: IC封裝測試廠(OSAT)、電子系統代工廠([[EMS]])及[[光通訊]]模組製造商。",
+    "customers_suppliers_md": "### 主要客戶\n*   國內外[[光通訊]]設備大廠及[[AI]][[資料中心]]相關的零組件組裝廠。\n\n### 主要供應商\n*   國內外各大晶圓代工廠(如[[聯電]]、八吋晶圓廠等)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

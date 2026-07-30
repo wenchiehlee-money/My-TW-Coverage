@@ -1,0 +1,270 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3701",
+  "company_name": "大眾控",
+  "title": "3701 - 大眾控",
+  "source_md": "Pilot_Reports/Computer Hardware/3701_大眾控.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "8,306 百萬台幣",
+    "enterprise_value": "10,126 百萬台幣"
+  },
+  "business": {
+    "summary": "大眾全球投資控股 (3701，FICG) 為大眾電腦集團之投資控股公司，旗下三大事業體涵蓋 EMS 代工、衛星通訊及智慧顯示。集團營收主力為子公司 **三希科技** (約佔 85%)，專注於伺服器、光通訊模組、工控及車用電子之 [[EMS]] 代工製造，主要客戶為國際光模組大廠。\n\n三希科技近年積極切入 800G/1.6T [[光收發模組]]代工及 [[CPO]] (共封裝光學) 3.2T 先進封裝領域，光通訊產品已佔集團營收近五成。子公司 **攸泰科技** (約佔 13%) 專精於強固型移動裝置、船用電子及[[低軌衛星]]地面設備。另有 **大眾電腦** 負責車用電子及 [[AIoT]] 產品研發。集團亦布局無人機及智慧顯示 (擬 IPO) 等新興領域。",
+    "entities": [
+      "EMS",
+      "光收發模組",
+      "CPO",
+      "低軌衛星",
+      "AIoT"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光電元件與電子零組件)",
+        "text": "**上游 (光電元件與電子零組件):**",
+        "entities": []
+      },
+      {
+        "category": "光電元件",
+        "text": "雷射二極體、檢光二極體及光學透鏡等光通訊核心元件",
+        "entities": []
+      },
+      {
+        "category": "電子零組件",
+        "text": "[[Intel]]、[[AMD]] 處理器及伺服器相關半導體元件",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "PCB、連接器及金屬機構件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EMS 代工製造)",
+        "text": "**中游 (EMS 代工製造):**",
+        "entities": []
+      },
+      {
+        "category": "光通訊模組",
+        "text": "**三希科技** (800G/1.6T [[光收發模組]] EMS 代工，[[CPO]] 3.2T 先進封裝)",
+        "entities": [
+          "光收發模組",
+          "CPO"
+        ]
+      },
+      {
+        "category": "伺服器/工控",
+        "text": "**三希科技** (伺服器、通訊設備、工控產品組裝)",
+        "entities": []
+      },
+      {
+        "category": "衛星/船用",
+        "text": "**攸泰科技** (強固型裝置、船用電子、[[低軌衛星]]地面設備)",
+        "entities": [
+          "低軌衛星"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "**大眾電腦** ([[AIoT]] 車載及自動化產品研發)",
+        "entities": [
+          "AIoT"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (光模組品牌與終端應用)",
+        "text": "**下游 (光模組品牌與終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "光模組品牌",
+        "text": "[[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組代工",
+        "entities": [
+          "Coherent",
+          "華工正源"
+        ]
+      },
+      {
+        "category": "海事/國防",
+        "text": "全球海事電子及國防單位 — 強固型裝置與衛星通訊",
+        "entities": []
+      },
+      {
+        "category": "AI 資料中心",
+        "text": "全球雲端服務商 — 透過光模組客戶間接供應",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "光模組品牌 (三希科技)",
+        "text": "[[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組 EMS 代工",
+        "entities": [
+          "Coherent",
+          "華工正源"
+        ]
+      },
+      {
+        "role": "海事/國防 (攸泰科技)",
+        "text": "全球海事電子及國防、執法單位 — 強固型移動裝置、船用電子",
+        "entities": []
+      },
+      {
+        "role": "車用電子 (大眾電腦)",
+        "text": "車載資通訊系統客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光電元件",
+        "text": "光通訊雷射及檢光二極體元件供應商",
+        "entities": []
+      },
+      {
+        "role": "半導體",
+        "text": "[[Intel]]、[[AMD]] — 伺服器處理器",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "關係企業",
+        "text": "[[國眾電腦]] (5410) — 系統整合服務",
+        "entities": [
+          "國眾電腦"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Coherent",
+          "華工正源"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "光收發模組",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光收發模組"
+    },
+    {
+      "name": "CPO",
+      "type": "technology",
+      "wikilink": "CPO"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Coherent",
+      "type": "international_company_or_term",
+      "wikilink": "Coherent"
+    },
+    {
+      "name": "華工正源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華工正源"
+    },
+    {
+      "name": "國眾電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國眾電腦"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大眾全球投資控股 (3701，FICG) 為大眾電腦集團之投資控股公司，旗下三大事業體涵蓋 EMS 代工、衛星通訊及智慧顯示。集團營收主力為子公司 **三希科技** (約佔 85%)，專注於伺服器、光通訊模組、工控及車用電子之 [[EMS]] 代工製造，主要客戶為國際光模組大廠。\n\n三希科技近年積極切入 800G/1.6T [[光收發模組]]代工及 [[CPO]] (共封裝光學) 3.2T 先進封裝領域，光通訊產品已佔集團營收近五成。子公司 **攸泰科技** (約佔 13%) 專精於強固型移動裝置、船用電子及[[低軌衛星]]地面設備。另有 **大眾電腦** 負責車用電子及 [[AIoT]] 產品研發。集團亦布局無人機及智慧顯示 (擬 IPO) 等新興領域。",
+    "supply_chain_md": "**上游 (光電元件與電子零組件):**\n- **光電元件:** 雷射二極體、檢光二極體及光學透鏡等光通訊核心元件\n- **電子零組件:** [[Intel]]、[[AMD]] 處理器及伺服器相關半導體元件\n- **機構件:** PCB、連接器及金屬機構件供應商\n\n**中游 (EMS 代工製造):**\n- **光通訊模組:** **三希科技** (800G/1.6T [[光收發模組]] EMS 代工，[[CPO]] 3.2T 先進封裝)\n- **伺服器/工控:** **三希科技** (伺服器、通訊設備、工控產品組裝)\n- **衛星/船用:** **攸泰科技** (強固型裝置、船用電子、[[低軌衛星]]地面設備)\n- **車用電子:** **大眾電腦** ([[AIoT]] 車載及自動化產品研發)\n\n**下游 (光模組品牌與終端應用):**\n- **光模組品牌:** [[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組代工\n- **海事/國防:** 全球海事電子及國防單位 — 強固型裝置與衛星通訊\n- **AI 資料中心:** 全球雲端服務商 — 透過光模組客戶間接供應",
+    "customers_suppliers_md": "### 主要客戶\n- **光模組品牌 (三希科技):** [[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組 EMS 代工\n- **海事/國防 (攸泰科技):** 全球海事電子及國防、執法單位 — 強固型移動裝置、船用電子\n- **車用電子 (大眾電腦):** 車載資通訊系統客戶\n\n### 主要供應商\n- **光電元件:** 光通訊雷射及檢光二極體元件供應商\n- **半導體:** [[Intel]]、[[AMD]] — 伺服器處理器\n- **關係企業:** [[國眾電腦]] (5410) — 系統整合服務"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

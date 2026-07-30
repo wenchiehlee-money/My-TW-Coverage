@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6191",
+  "company_name": "精成科",
+  "title": "6191_精成科",
+  "source_md": "Pilot_Reports/Electronic Components/6191_精成科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "39,745 百萬台幣",
+    "enterprise_value": "47,877 百萬台幣"
+  },
+  "business": {
+    "summary": "精成科技股份有限公司 (6191) 隸屬於華新麗華集團，是一家提供印刷電路板([[PCB]])製造與電子製造服務([[EMS]])的專業大廠。近年來，精成科積極轉型，透過併購日本高階[[PCB]]廠Lincstech，大幅提升高層板與[[半導體]][[探針卡]]技術，並成功切入[[Google]] TPU([[AI]]加速器)供應鏈，提供通用基板(UBB)等關鍵零組件。隨著[[AI[[伺服器]]]]與高速運算需求爆發，精成科正積極在馬來西亞與日本擴產，將營運重心自傳統PC全面轉向高階[[AI]]及車用市場。",
+    "entities": [
+      "PCB",
+      "EMS",
+      "半導體",
+      "探針卡",
+      "Google",
+      "AI",
+      "AI[[伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[銅箔]]基板(CCL)、[[銅箔]]、玻璃纖維布、各式電鍍/[[蝕刻]]化學藥水及SMT電子零組件供應商。",
+        "entities": [
+          "銅箔",
+          "蝕刻"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **精成科** (高階多層印刷電路板製造及專業電子代工組裝[[EMS]]服務)。",
+        "entities": [
+          "EMS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: [[雲端服務]]供應商([[CSP]])、[[伺服器]]品牌/代工廠、[[半導體]]測試設備商及全球汽車零組件廠。",
+        "entities": [
+          "雲端服務",
+          "CSP",
+          "伺服器",
+          "半導體"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Google]](高階[[AI]]晶片TPU基板)、傳統PC大廠(如[[技嘉]]/[[微星]])及[[半導體]][[探針卡]]業者。",
+        "entities": [
+          "Google",
+          "AI",
+          "技嘉",
+          "微星",
+          "半導體",
+          "探針卡"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外大型[[銅箔]]基板廠、[[玻纖布]]織布廠及特殊[[PCB]]製程化學材料大廠。",
+        "entities": [
+          "銅箔",
+          "玻纖布",
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Google",
+          "AI",
+          "技嘉",
+          "微星",
+          "半導體",
+          "探針卡"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "探針卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "探針卡"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "玻纖布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻纖布"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "精成科技股份有限公司 (6191) 隸屬於華新麗華集團，是一家提供印刷電路板([[PCB]])製造與電子製造服務([[EMS]])的專業大廠。近年來，精成科積極轉型，透過併購日本高階[[PCB]]廠Lincstech，大幅提升高層板與[[半導體]][[探針卡]]技術，並成功切入[[Google]] TPU([[AI]]加速器)供應鏈，提供通用基板(UBB)等關鍵零組件。隨著[[AI[[伺服器]]]]與高速運算需求爆發，精成科正積極在馬來西亞與日本擴產，將營運重心自傳統PC全面轉向高階[[AI]]及車用市場。",
+    "supply_chain_md": "*   **上游**: [[銅箔]]基板(CCL)、[[銅箔]]、玻璃纖維布、各式電鍍/[[蝕刻]]化學藥水及SMT電子零組件供應商。\n*   **中游**: **精成科** (高階多層印刷電路板製造及專業電子代工組裝[[EMS]]服務)。\n*   **下游**: [[雲端服務]]供應商([[CSP]])、[[伺服器]]品牌/代工廠、[[半導體]]測試設備商及全球汽車零組件廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Google]](高階[[AI]]晶片TPU基板)、傳統PC大廠(如[[技嘉]]/[[微星]])及[[半導體]][[探針卡]]業者。\n\n### 主要供應商\n*   國內外大型[[銅箔]]基板廠、[[玻纖布]]織布廠及特殊[[PCB]]製程化學材料大廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

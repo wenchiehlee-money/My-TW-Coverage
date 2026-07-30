@@ -1,0 +1,305 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3036",
+  "company_name": "文曄",
+  "title": "3036 - 文曄",
+  "source_md": "Pilot_Reports/Electronic Components/3036_文曄.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "234,844 百萬台幣",
+    "enterprise_value": "291,616 百萬台幣"
+  },
+  "business": {
+    "summary": "文曄科技 ([[WT Microelectronics]]) 為全球前四大半導體零組件通路商，與 [[大聯大]] 並列台灣通路雙雄。2024 年以 38 億美元完成對加拿大通路商 [[Future Electronics]] 之併購案，成功打入歐美工控與車用市場。\n\n代理產品線極廣，涵蓋類比、混合訊號、功率元件、微控制器等，主要代理 [[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Marvell]]、[[Broadcom]]、[[Skyworks]]、[[ON Semiconductor]] 等國際大廠。服務超過 25,000 家全球客戶。",
+    "entities": [
+      "WT Microelectronics",
+      "大聯大",
+      "Future Electronics",
+      "TI",
+      "STMicroelectronics",
+      "Renesas",
+      "Marvell",
+      "Broadcom",
+      "Skyworks",
+      "ON Semiconductor"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (半導體原廠)",
+        "text": "**上游 (半導體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "類比/功率",
+        "text": "[[TI]]、[[STMicroelectronics]]、[[ON Semiconductor]] — 類比 IC、[[MOSFET]]",
+        "entities": [
+          "TI",
+          "STMicroelectronics",
+          "ON Semiconductor",
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "微控制器",
+        "text": "[[Renesas]]、[[STMicroelectronics]] — MCU",
+        "entities": [
+          "Renesas",
+          "STMicroelectronics"
+        ]
+      },
+      {
+        "category": "射頻/網通",
+        "text": "[[Broadcom]]、[[Marvell]]、[[Skyworks]] — 射頻與網通晶片",
+        "entities": [
+          "Broadcom",
+          "Marvell",
+          "Skyworks"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理與技術服務)",
+        "text": "**中游 (通路代理與技術服務):**",
+        "entities": []
+      },
+      {
+        "category": "亞太通路",
+        "text": "**文曄** (亞太區半導體代理)",
+        "entities": []
+      },
+      {
+        "category": "歐美通路",
+        "text": "[[Future Electronics]] (歐美工控/車用代理)",
+        "entities": [
+          "Future Electronics"
+        ]
+      },
+      {
+        "category": "技術支援",
+        "text": "**文曄** (設計導入與供應鏈管理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (EMS/ODM 與終端品牌)",
+        "text": "**下游 (EMS/ODM 與終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "EMS/ODM",
+        "text": "[[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 代工廠採購",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Apple]]、中國手機品牌",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "category": "車用/工控",
+        "text": "歐美工控與車用大廠 — 透過 [[Future Electronics]] 服務",
+        "entities": [
+          "Future Electronics"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EMS/ODM",
+        "text": "[[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 半導體零組件採購",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "role": "手機品牌",
+        "text": "[[Apple]]、中國手機品牌",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "車用/工控",
+        "text": "歐美工控與車用大廠 — 透過 [[Future Electronics]]",
+        "entities": [
+          "Future Electronics"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "核心代理原廠",
+        "text": "[[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Broadcom]]、[[Marvell]]、[[Skyworks]]、[[ON Semiconductor]]",
+        "entities": [
+          "TI",
+          "STMicroelectronics",
+          "Renesas",
+          "Broadcom",
+          "Marvell",
+          "Skyworks",
+          "ON Semiconductor"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "鴻海",
+          "廣達",
+          "緯創",
+          "Apple",
+          "Future Electronics"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "WT Microelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "WT Microelectronics"
+    },
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "Future Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Future Electronics"
+    },
+    {
+      "name": "TI",
+      "type": "international_company_or_term",
+      "wikilink": "TI"
+    },
+    {
+      "name": "STMicroelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "STMicroelectronics"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Marvell",
+      "type": "international_company_or_term",
+      "wikilink": "Marvell"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Skyworks",
+      "type": "international_company_or_term",
+      "wikilink": "Skyworks"
+    },
+    {
+      "name": "ON Semiconductor",
+      "type": "international_company_or_term",
+      "wikilink": "ON Semiconductor"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "文曄科技 ([[WT Microelectronics]]) 為全球前四大半導體零組件通路商，與 [[大聯大]] 並列台灣通路雙雄。2024 年以 38 億美元完成對加拿大通路商 [[Future Electronics]] 之併購案，成功打入歐美工控與車用市場。\n\n代理產品線極廣，涵蓋類比、混合訊號、功率元件、微控制器等，主要代理 [[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Marvell]]、[[Broadcom]]、[[Skyworks]]、[[ON Semiconductor]] 等國際大廠。服務超過 25,000 家全球客戶。",
+    "supply_chain_md": "**上游 (半導體原廠):**\n- **類比/功率:** [[TI]]、[[STMicroelectronics]]、[[ON Semiconductor]] — 類比 IC、[[MOSFET]]\n- **微控制器:** [[Renesas]]、[[STMicroelectronics]] — MCU\n- **射頻/網通:** [[Broadcom]]、[[Marvell]]、[[Skyworks]] — 射頻與網通晶片\n\n**中游 (通路代理與技術服務):**\n- **亞太通路:** **文曄** (亞太區半導體代理)\n- **歐美通路:** [[Future Electronics]] (歐美工控/車用代理)\n- **技術支援:** **文曄** (設計導入與供應鏈管理)\n\n**下游 (EMS/ODM 與終端品牌):**\n- **EMS/ODM:** [[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 代工廠採購\n- **手機品牌:** [[Apple]]、中國手機品牌\n- **車用/工控:** 歐美工控與車用大廠 — 透過 [[Future Electronics]] 服務",
+    "customers_suppliers_md": "### 主要客戶\n- **EMS/ODM:** [[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 半導體零組件採購\n- **手機品牌:** [[Apple]]、中國手機品牌\n- **車用/工控:** 歐美工控與車用大廠 — 透過 [[Future Electronics]]\n\n### 主要供應商\n- **核心代理原廠:** [[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Broadcom]]、[[Marvell]]、[[Skyworks]]、[[ON Semiconductor]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

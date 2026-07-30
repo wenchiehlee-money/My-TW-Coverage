@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8466",
+  "company_name": "美吉吉-KY",
+  "title": "8466 - 美吉吉-KY",
+  "source_md": "Pilot_Reports/Building Products & Equipment/8466_美吉吉-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment",
+    "market_cap": "1,327 百萬台幣",
+    "enterprise_value": "2,072 百萬台幣"
+  },
+  "business": {
+    "summary": "美吉吉國際股份有限公司 (8466) 成立於 1982 年，總部位於台灣新北，為知名塑膠地板製造商。公司專注於開發、生產及銷售各類 [[LVT]] (豪華塑膠地磚) 及 [[SPC]] (石塑地磚)，產品外銷至歐洲、北美、台灣及中國等全球市場。美吉吉以高達 90% 之 ODM/OEM 專業代工為營運主力，產品涵蓋商用與住宅市場之各類木紋、石紋免膠塑膠地磚與裝飾建材。為分散產能並貼近客戶，公司近年於台南設立新廠，專注於 [[SPC]] 地磚之智能製造，以提高交付彈性並規避貿易壁壘。",
+    "entities": [
+      "LVT",
+      "SPC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (化工建材原料)",
+        "text": "**上游 (化工建材原料):**",
+        "entities": []
+      },
+      {
+        "category": "塑化原料",
+        "text": "採購 [[PVC]] 樹脂、塑膠面料以及 [[SPC]] 石塑地磚生成所需之碳酸鈣粉末與基材",
+        "entities": [
+          "PVC",
+          "SPC"
+        ]
+      },
+      {
+        "category": "石化供應",
+        "text": "國內外 [[PVC]] 樹脂粉及塑化劑大廠",
+        "entities": [
+          "PVC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (核心地磚製造)",
+        "text": "**中游 (核心地磚製造):**",
+        "entities": []
+      },
+      {
+        "category": "[[LVT]]/[[SPC]] 生產",
+        "text": "**美吉吉-KY (8466)** — 透過中國廠與台灣台南新廠進行石塑及塑膠地磚之高良率自動化生產與代工",
+        "entities": [
+          "LVT",
+          "SPC"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "內外銷市場",
+        "text": "透過大型經銷商與量販通路，銷售至北美、歐洲、台灣及東南亞之室內裝修市場",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美通路",
+        "text": "北美大型地板經銷商及居家修繕量販通路商",
+        "entities": []
+      },
+      {
+        "role": "歐洲品牌",
+        "text": "歐洲地板主導品牌及建材零售通路",
+        "entities": []
+      },
+      {
+        "role": "國內企業",
+        "text": "[[麥當勞]] (台灣，2019 年成功打入其供應鏈，供應店面地板建材)",
+        "entities": [
+          "麥當勞"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化原料",
+        "text": "[[台塑]] 集團及國內外 [[PVC]] 樹脂粉、塑化劑大型石化廠商",
+        "entities": [
+          "台塑",
+          "PVC"
+        ]
+      },
+      {
+        "role": "碳酸鈣基材",
+        "text": "國內外碳酸鈣粉末及添加劑供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Products & Equipment):** [[冠軍]]、[[中釉]]、[[橋椿]]、[[桓鼎-KY]]、[[青鋼]]",
+        "entities": [
+          "冠軍",
+          "中釉",
+          "橋椿",
+          "桓鼎-KY",
+          "青鋼"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "麥當勞"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "- **[[LVT]]/[[SPC]] 生產:** **美吉吉-KY (8466)** — 透過中國廠與台灣台南新廠進行石塑及塑膠地磚之高良率自動化生產與代工",
+        "entities": [
+          "LVT",
+          "SPC"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LVT",
+      "type": "international_company_or_term",
+      "wikilink": "LVT"
+    },
+    {
+      "name": "SPC",
+      "type": "international_company_or_term",
+      "wikilink": "SPC"
+    },
+    {
+      "name": "PVC",
+      "type": "international_company_or_term",
+      "wikilink": "PVC"
+    },
+    {
+      "name": "麥當勞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麥當勞"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "冠軍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "冠軍"
+    },
+    {
+      "name": "中釉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中釉"
+    },
+    {
+      "name": "橋椿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "橋椿"
+    },
+    {
+      "name": "桓鼎-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桓鼎-KY"
+    },
+    {
+      "name": "青鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "青鋼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "美吉吉國際股份有限公司 (8466) 成立於 1982 年，總部位於台灣新北，為知名塑膠地板製造商。公司專注於開發、生產及銷售各類 [[LVT]] (豪華塑膠地磚) 及 [[SPC]] (石塑地磚)，產品外銷至歐洲、北美、台灣及中國等全球市場。美吉吉以高達 90% 之 ODM/OEM 專業代工為營運主力，產品涵蓋商用與住宅市場之各類木紋、石紋免膠塑膠地磚與裝飾建材。為分散產能並貼近客戶，公司近年於台南設立新廠，專注於 [[SPC]] 地磚之智能製造，以提高交付彈性並規避貿易壁壘。",
+    "supply_chain_md": "**上游 (化工建材原料):**\n- **塑化原料:** 採購 [[PVC]] 樹脂、塑膠面料以及 [[SPC]] 石塑地磚生成所需之碳酸鈣粉末與基材\n- **石化供應:** 國內外 [[PVC]] 樹脂粉及塑化劑大廠\n\n**中游 (核心地磚製造):**\n- **[[LVT]]/[[SPC]] 生產:** **美吉吉-KY (8466)** — 透過中國廠與台灣台南新廠進行石塑及塑膠地磚之高良率自動化生產與代工\n\n**下游 (終端市場):**\n- **內外銷市場:** 透過大型經銷商與量販通路，銷售至北美、歐洲、台灣及東南亞之室內裝修市場",
+    "customers_suppliers_md": "### 主要客戶\n- **北美通路:** 北美大型地板經銷商及居家修繕量販通路商\n- **歐洲品牌:** 歐洲地板主導品牌及建材零售通路\n- **國內企業:** [[麥當勞]] (台灣，2019 年成功打入其供應鏈，供應店面地板建材)\n\n### 主要供應商\n- **石化原料:** [[台塑]] 集團及國內外 [[PVC]] 樹脂粉、塑化劑大型石化廠商\n- **碳酸鈣基材:** 國內外碳酸鈣粉末及添加劑供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

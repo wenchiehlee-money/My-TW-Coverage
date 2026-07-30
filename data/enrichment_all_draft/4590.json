@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4590",
+  "company_name": "富田-創",
+  "title": "4590 - 富田-創",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4590_富田-創.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "4,250 百萬台幣",
+    "enterprise_value": "3,696 百萬台幣"
+  },
+  "business": {
+    "summary": "富田電機 (4590，Fukuta Electric & Machinery) 為知名馬達製造商，被譽為「電動車心臟」專家。[[Tesla]]創立初期獨家馬達供應商 (合作逾 15 年，[[Tesla]] 最資深供應商)，曾將 180KW 馬達從 400+ 公斤降至 60 公斤。產品涵蓋工業馬達 (感應/伺服/變頻) 與[[電動車]]動力系統。近年拓展無人機馬達、[[低軌衛星]]球型馬達及[[AI]]機器人關節模組。上游矽鋼片與[[中鋼]]合作開發。",
+    "entities": [
+      "Tesla",
+      "電動車",
+      "低軌衛星",
+      "AI",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "矽鋼片",
+        "text": "[[中鋼]] — 合作開發電磁鋼片",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "銅線/磁鐵",
+        "text": "銅線及稀土永磁磁鐵供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**富田** (EV 馬達/工業馬達/無人機馬達/衛星馬達)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "[[Tesla]] (最大客戶/最資深供應商)、[[Mazda]] — EV 驅動馬達",
+        "entities": [
+          "Tesla",
+          "Mazda"
+        ]
+      },
+      {
+        "category": "工業",
+        "text": "工具機主軸/風機/空壓機",
+        "entities": []
+      },
+      {
+        "category": "新興",
+        "text": "無人機馬達、[[低軌衛星]]姿態控制、[[AI]]機器人關節",
+        "entities": [
+          "低軌衛星",
+          "AI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電動車",
+        "text": "[[Tesla]] — 最大客戶/最資深供應商；[[Mazda]] — EV 馬達",
+        "entities": [
+          "Tesla",
+          "Mazda"
+        ]
+      },
+      {
+        "role": "工業",
+        "text": "工具機/風機/空壓機",
+        "entities": []
+      },
+      {
+        "role": "新興",
+        "text": "無人機、[[低軌衛星]]、[[AI]]機器人",
+        "entities": [
+          "低軌衛星",
+          "AI"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "矽鋼片",
+        "text": "[[中鋼]] — 合作開發",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "磁鐵",
+        "text": "稀土永磁供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Tesla",
+          "Mazda",
+          "低軌衛星",
+          "AI"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "Mazda",
+      "type": "international_company_or_term",
+      "wikilink": "Mazda"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富田電機 (4590，Fukuta Electric & Machinery) 為知名馬達製造商，被譽為「電動車心臟」專家。[[Tesla]]創立初期獨家馬達供應商 (合作逾 15 年，[[Tesla]] 最資深供應商)，曾將 180KW 馬達從 400+ 公斤降至 60 公斤。產品涵蓋工業馬達 (感應/伺服/變頻) 與[[電動車]]動力系統。近年拓展無人機馬達、[[低軌衛星]]球型馬達及[[AI]]機器人關節模組。上游矽鋼片與[[中鋼]]合作開發。",
+    "supply_chain_md": "**上游 (原料):**\n- **矽鋼片:** [[中鋼]] — 合作開發電磁鋼片\n- **銅線/磁鐵:** 銅線及稀土永磁磁鐵供應商\n\n**中游 (製造):**\n- **富田** (EV 馬達/工業馬達/無人機馬達/衛星馬達)\n\n**下游 (終端):**\n- **電動車:** [[Tesla]] (最大客戶/最資深供應商)、[[Mazda]] — EV 驅動馬達\n- **工業:** 工具機主軸/風機/空壓機\n- **新興:** 無人機馬達、[[低軌衛星]]姿態控制、[[AI]]機器人關節",
+    "customers_suppliers_md": "### 主要客戶\n- **電動車:** [[Tesla]] — 最大客戶/最資深供應商；[[Mazda]] — EV 馬達\n- **工業:** 工具機/風機/空壓機\n- **新興:** 無人機、[[低軌衛星]]、[[AI]]機器人\n\n### 主要供應商\n- **矽鋼片:** [[中鋼]] — 合作開發\n- **磁鐵:** 稀土永磁供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

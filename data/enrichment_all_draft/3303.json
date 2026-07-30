@@ -1,0 +1,172 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3303",
+  "company_name": "岱稜",
+  "title": "3303 - 岱稜",
+  "source_md": "Pilot_Reports/Metal Fabrication/3303_岱稜.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Other Electronics",
+    "market_cap": "4,724 百萬台幣",
+    "enterprise_value": "4,829 百萬台幣"
+  },
+  "business": {
+    "summary": "岱稜科技 (3303，UNIVACCO) 為全球前三大燙金箔品牌，亞洲首家自主研發冷燙箔廠商。品牌UNIVACCO銷售近70國。核心技術含化學配方、真空蒸鍍及精密塗佈。產品供應印刷包裝、化妝品如[[L'Oreal]]、[[Estee Lauder]]、烈酒/菸草品牌及電子裝飾/防偽。上游含[[PET]]聚酯薄膜。設美國/荷蘭/德國子公司。",
+    "entities": [
+      "L'Oreal",
+      "Estee Lauder",
+      "PET"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[PET]]聚酯薄膜/染料/樹脂/鋁蒸鍍原料",
+        "entities": [
+          "PET"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**岱稜** (UNIVACCO燙金箔: 塗佈/真空蒸鍍)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "化妝品: [[L'Oreal]]、[[Estee Lauder]]",
+        "entities": [
+          "L'Oreal",
+          "Estee Lauder"
+        ]
+      },
+      {
+        "category": "",
+        "text": "印刷包裝/烈酒/菸草/電子裝飾/防偽",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "化妝品: [[L'Oreal]]、[[Estee Lauder]] — 指定燙金箔",
+        "entities": [
+          "L'Oreal",
+          "Estee Lauder"
+        ]
+      },
+      {
+        "role": "",
+        "text": "全球印刷包裝/烈酒/菸草品牌",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "電子裝飾/信用卡防偽",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[PET]]薄膜/染料/樹脂/鋁材",
+        "entities": [
+          "PET"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "L'Oreal",
+          "Estee Lauder"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "L'Oreal",
+      "type": "international_company_or_term",
+      "wikilink": "L'Oreal"
+    },
+    {
+      "name": "Estee Lauder",
+      "type": "international_company_or_term",
+      "wikilink": "Estee Lauder"
+    },
+    {
+      "name": "PET",
+      "type": "international_company_or_term",
+      "wikilink": "PET"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "岱稜科技 (3303，UNIVACCO) 為全球前三大燙金箔品牌，亞洲首家自主研發冷燙箔廠商。品牌UNIVACCO銷售近70國。核心技術含化學配方、真空蒸鍍及精密塗佈。產品供應印刷包裝、化妝品如[[L'Oreal]]、[[Estee Lauder]]、烈酒/菸草品牌及電子裝飾/防偽。上游含[[PET]]聚酯薄膜。設美國/荷蘭/德國子公司。",
+    "supply_chain_md": "**上游:** [[PET]]聚酯薄膜/染料/樹脂/鋁蒸鍍原料\n**中游:** **岱稜** (UNIVACCO燙金箔: 塗佈/真空蒸鍍)\n**下游:**\n- 化妝品: [[L'Oreal]]、[[Estee Lauder]]\n- 印刷包裝/烈酒/菸草/電子裝飾/防偽",
+    "customers_suppliers_md": "### 主要客戶\n- 化妝品: [[L'Oreal]]、[[Estee Lauder]] — 指定燙金箔\n- 全球印刷包裝/烈酒/菸草品牌\n- 電子裝飾/信用卡防偽\n\n### 主要供應商\n- [[PET]]薄膜/染料/樹脂/鋁材"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

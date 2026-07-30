@@ -1,0 +1,260 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3059",
+  "company_name": "華晶科",
+  "title": "3059 - 華晶科",
+  "source_md": "Pilot_Reports/Scientific & Technical Instruments/3059_華晶科.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "11,535 百萬台幣",
+    "enterprise_value": "8,354 百萬台幣"
+  },
+  "business": {
+    "summary": "華晶科技股份有限公司 (3059，Altek) 從昔日數位相機代工大廠，成功轉型為 Edge AI 影像解決方案供應商。核心技術在於影像處理晶片 (ISP) 與 AI 演算法。業務聚焦四大領域：(1) 車用電子 — [[ADAS]]鏡頭模組、車用視覺 AI 晶片；(2) 醫療電子 — 3D 感測內視鏡、一次性內視鏡；(3) 精準醫療 — 血糖機代工 (長期穩定現金流)，客戶包括[[Roche]]、[[Sanofi]]；(4) AIoT — 無人機、安控攝影機，客戶含[[Amazon]]、[[Cisco]]。",
+    "entities": [
+      "ADAS",
+      "Roche",
+      "Sanofi",
+      "Amazon",
+      "Cisco"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (感測器與晶圓)",
+        "text": "**上游 (感測器與晶圓):**",
+        "entities": []
+      },
+      {
+        "category": "CMOS Sensor",
+        "text": "[[Sony]]、[[OmniVision]] — 影像感測器",
+        "entities": [
+          "Sony",
+          "OmniVision"
+        ]
+      },
+      {
+        "category": "晶圓代工",
+        "text": "晶圓代工廠 — ISP 晶片製造",
+        "entities": []
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "鏡頭模組供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (AI 影像解決方案)",
+        "text": "**中游 (AI 影像解決方案):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**華晶科** — ISP 晶片設計、AI 演算法開發、模組製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "歐美 Tier 1 供應商 — [[ADAS]]鏡頭模組",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "category": "科技巨頭",
+        "text": "[[Qualcomm]]、[[Microsoft]]、[[Amazon]]、[[Cisco]]",
+        "entities": [
+          "Qualcomm",
+          "Microsoft",
+          "Amazon",
+          "Cisco"
+        ]
+      },
+      {
+        "category": "醫療",
+        "text": "[[Roche]]、[[Sanofi]] — 血糖機代工",
+        "entities": [
+          "Roche",
+          "Sanofi"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技巨頭",
+        "text": "[[Qualcomm]]、[[Microsoft]]、[[Amazon]]、[[Cisco]] — AI 影像模組",
+        "entities": [
+          "Qualcomm",
+          "Microsoft",
+          "Amazon",
+          "Cisco"
+        ]
+      },
+      {
+        "role": "車用 Tier 1",
+        "text": "歐美汽車零組件供應商 — [[ADAS]]鏡頭",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "[[Roche]]、[[Sanofi]] — 血糖機代工",
+        "entities": [
+          "Roche",
+          "Sanofi"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "感測器",
+        "text": "[[Sony]]、[[OmniVision]] — CMOS 影像感測器",
+        "entities": [
+          "Sony",
+          "OmniVision"
+        ]
+      },
+      {
+        "role": "晶圓代工",
+        "text": "ISP 晶片製造合作方",
+        "entities": []
+      },
+      {
+        "role": "鏡頭",
+        "text": "光學鏡頭模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Scientific & Technical Instruments):** [[致茂]]、[[固緯]]、[[德律]]、[[鼎天]]、[[環天科]]",
+        "entities": [
+          "致茂",
+          "固緯",
+          "德律",
+          "鼎天",
+          "環天科"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Qualcomm",
+          "Microsoft",
+          "Amazon",
+          "Cisco",
+          "ADAS",
+          "Roche",
+          "Sanofi"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Roche",
+      "type": "international_company_or_term",
+      "wikilink": "Roche"
+    },
+    {
+      "name": "Sanofi",
+      "type": "international_company_or_term",
+      "wikilink": "Sanofi"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "OmniVision",
+      "type": "international_company_or_term",
+      "wikilink": "OmniVision"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "致茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致茂"
+    },
+    {
+      "name": "固緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固緯"
+    },
+    {
+      "name": "德律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "德律"
+    },
+    {
+      "name": "鼎天",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鼎天"
+    },
+    {
+      "name": "環天科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環天科"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華晶科技股份有限公司 (3059，Altek) 從昔日數位相機代工大廠，成功轉型為 Edge AI 影像解決方案供應商。核心技術在於影像處理晶片 (ISP) 與 AI 演算法。業務聚焦四大領域：(1) 車用電子 — [[ADAS]]鏡頭模組、車用視覺 AI 晶片；(2) 醫療電子 — 3D 感測內視鏡、一次性內視鏡；(3) 精準醫療 — 血糖機代工 (長期穩定現金流)，客戶包括[[Roche]]、[[Sanofi]]；(4) AIoT — 無人機、安控攝影機，客戶含[[Amazon]]、[[Cisco]]。",
+    "supply_chain_md": "**上游 (感測器與晶圓):**\n- **CMOS Sensor:** [[Sony]]、[[OmniVision]] — 影像感測器\n- **晶圓代工:** 晶圓代工廠 — ISP 晶片製造\n- **光學鏡頭:** 鏡頭模組供應商\n\n**中游 (AI 影像解決方案):**\n- **華晶科** — ISP 晶片設計、AI 演算法開發、模組製造\n\n**下游 (終端客戶):**\n- **車用:** 歐美 Tier 1 供應商 — [[ADAS]]鏡頭模組\n- **科技巨頭:** [[Qualcomm]]、[[Microsoft]]、[[Amazon]]、[[Cisco]]\n- **醫療:** [[Roche]]、[[Sanofi]] — 血糖機代工",
+    "customers_suppliers_md": "### 主要客戶\n- **科技巨頭:** [[Qualcomm]]、[[Microsoft]]、[[Amazon]]、[[Cisco]] — AI 影像模組\n- **車用 Tier 1:** 歐美汽車零組件供應商 — [[ADAS]]鏡頭\n- **醫療:** [[Roche]]、[[Sanofi]] — 血糖機代工\n\n### 主要供應商\n- **感測器:** [[Sony]]、[[OmniVision]] — CMOS 影像感測器\n- **晶圓代工:** ISP 晶片製造合作方\n- **鏡頭:** 光學鏡頭模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

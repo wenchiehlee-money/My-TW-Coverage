@@ -151,7 +151,22 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **cybersecurity enterprise/government customer overlap:** [[安碁資訊]]、[[杜浦數位安全]]、[[CyCraft]]、[[TXOne]]",
+        "entities": [
+          "安碁資訊",
+          "杜浦數位安全",
+          "CyCraft",
+          "TXOne"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "資安",
+          "中華電信"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -191,6 +206,26 @@
       "name": "5G",
       "type": "international_company_or_term",
       "wikilink": "5G"
+    },
+    {
+      "name": "安碁資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安碁資訊"
+    },
+    {
+      "name": "杜浦數位安全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杜浦數位安全"
+    },
+    {
+      "name": "CyCraft",
+      "type": "international_company_or_term",
+      "wikilink": "CyCraft"
+    },
+    {
+      "name": "TXOne",
+      "type": "international_company_or_term",
+      "wikilink": "TXOne"
     }
   ],
   "source_text": {
@@ -202,6 +237,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 6,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1339",
+  "company_name": "昭輝",
+  "title": "1339 - 昭輝",
+  "source_md": "Pilot_Reports/Auto Parts/1339_昭輝.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "3,224 百萬台幣",
+    "enterprise_value": "2,512 百萬台幣"
+  },
+  "business": {
+    "summary": "昭輝實業 (1339，Y.C.C. Parts) 專注於汽車 AM 塑膠碰撞替換件製造，核心產品為保險桿、水箱護罩及下飾板等大型塑膠件。約 90% 營收來自美國市場，毛利率維持約 30%。公司已通過 CAPA 國際品質認證，最大客戶為[[LKQ]] (N Group 旗下北美最大 AM 經銷商)，前兩大客戶合計佔營收逾 50%。受惠於[[State Farm]]等北美保險公司擴大採用 AM 認證件趨勢。中國子公司另跨足 OEM 供應鏈 (供應[[GM]]、[[Ford]]) 及電動車充電樁塑膠外殼。",
+    "entities": [
+      "LKQ",
+      "State Farm",
+      "GM",
+      "Ford"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "[[PP]]、[[ABS]] 可回收塑膠原料供應商",
+        "entities": [
+          "PP",
+          "ABS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**昭輝** (大型塑膠件射出成型，CAPA 認證)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "AM 通路",
+        "text": "[[LKQ]]/[[Keystone Automotive]] — 前兩大客戶合計佔營收逾 50%",
+        "entities": [
+          "LKQ",
+          "Keystone Automotive"
+        ]
+      },
+      {
+        "category": "保險驅動",
+        "text": "[[State Farm]] — 間接帶動 AM 理賠",
+        "entities": [
+          "State Farm"
+        ]
+      },
+      {
+        "category": "中國 OEM",
+        "text": "[[GM]]、[[Ford]] — 子公司供應",
+        "entities": [
+          "GM",
+          "Ford"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AM",
+        "text": "[[LKQ]]/[[Keystone Automotive]] — 北美最大 AM 通路 (合計佔營收 50%+)",
+        "entities": [
+          "LKQ",
+          "Keystone Automotive"
+        ]
+      },
+      {
+        "role": "保險",
+        "text": "[[State Farm]] — 間接帶動 AM 採用",
+        "entities": [
+          "State Farm"
+        ]
+      },
+      {
+        "role": "中國 OEM",
+        "text": "[[GM]]、[[Ford]] — 子公司 OEM 供應",
+        "entities": [
+          "GM",
+          "Ford"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠",
+        "text": "[[PP]]/[[ABS]] 塑膠粒供應商",
+        "entities": [
+          "PP",
+          "ABS"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[正道]]、[[瑞利]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "正道",
+          "瑞利"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "LKQ",
+          "Keystone Automotive",
+          "State Farm",
+          "GM",
+          "Ford"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LKQ",
+      "type": "international_company_or_term",
+      "wikilink": "LKQ"
+    },
+    {
+      "name": "State Farm",
+      "type": "international_company_or_term",
+      "wikilink": "State Farm"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "PP",
+      "type": "international_company_or_term",
+      "wikilink": "PP"
+    },
+    {
+      "name": "ABS",
+      "type": "international_company_or_term",
+      "wikilink": "ABS"
+    },
+    {
+      "name": "Keystone Automotive",
+      "type": "international_company_or_term",
+      "wikilink": "Keystone Automotive"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    },
+    {
+      "name": "瑞利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞利"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昭輝實業 (1339，Y.C.C. Parts) 專注於汽車 AM 塑膠碰撞替換件製造，核心產品為保險桿、水箱護罩及下飾板等大型塑膠件。約 90% 營收來自美國市場，毛利率維持約 30%。公司已通過 CAPA 國際品質認證，最大客戶為[[LKQ]] (N Group 旗下北美最大 AM 經銷商)，前兩大客戶合計佔營收逾 50%。受惠於[[State Farm]]等北美保險公司擴大採用 AM 認證件趨勢。中國子公司另跨足 OEM 供應鏈 (供應[[GM]]、[[Ford]]) 及電動車充電樁塑膠外殼。",
+    "supply_chain_md": "**上游 (原料):**\n- **塑膠粒:** [[PP]]、[[ABS]] 可回收塑膠原料供應商\n\n**中游 (製造):**\n- **昭輝** (大型塑膠件射出成型，CAPA 認證)\n\n**下游 (終端):**\n- **AM 通路:** [[LKQ]]/[[Keystone Automotive]] — 前兩大客戶合計佔營收逾 50%\n- **保險驅動:** [[State Farm]] — 間接帶動 AM 理賠\n- **中國 OEM:** [[GM]]、[[Ford]] — 子公司供應",
+    "customers_suppliers_md": "### 主要客戶\n- **AM:** [[LKQ]]/[[Keystone Automotive]] — 北美最大 AM 通路 (合計佔營收 50%+)\n- **保險:** [[State Farm]] — 間接帶動 AM 採用\n- **中國 OEM:** [[GM]]、[[Ford]] — 子公司 OEM 供應\n\n### 主要供應商\n- **塑膠:** [[PP]]/[[ABS]] 塑膠粒供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

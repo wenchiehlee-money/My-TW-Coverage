@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2033",
+  "company_name": "佳大",
+  "title": "2033 - 佳大",
+  "source_md": "Pilot_Reports/Steel/2033_佳大.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "1,210 百萬台幣",
+    "enterprise_value": "1,240 百萬台幣"
+  },
+  "business": {
+    "summary": "佳大世界 (2033) 為[[鋼線]]及[[PC鋼絞線]]製造商，另生產[[鍍鋅鐵線]]及各式金屬線材。PC鋼絞線用於預力混凝土橋樑及建築。上游線材來自[[中鋼]]。下游供應營建/橋樑工程。",
+    "entities": [
+      "鋼線",
+      "PC鋼絞線",
+      "鍍鋅鐵線",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[中鋼]] — 線材/盤元",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**佳大** (鋼線/[[PC鋼絞線]]製造)",
+        "entities": [
+          "PC鋼絞線"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "預力混凝土橋樑/建築工程",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "營建業 — [[PC鋼絞線]]",
+        "entities": [
+          "PC鋼絞線"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "營建/橋樑工程 — [[PC鋼絞線]]",
+        "entities": [
+          "PC鋼絞線"
+        ]
+      },
+      {
+        "role": "",
+        "text": "建築預力結構",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[中鋼]] — 線材/盤元",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "PC鋼絞線"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鋼線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼線"
+    },
+    {
+      "name": "PC鋼絞線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "PC鋼絞線"
+    },
+    {
+      "name": "鍍鋅鐵線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鍍鋅鐵線"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "佳大世界 (2033) 為[[鋼線]]及[[PC鋼絞線]]製造商，另生產[[鍍鋅鐵線]]及各式金屬線材。PC鋼絞線用於預力混凝土橋樑及建築。上游線材來自[[中鋼]]。下游供應營建/橋樑工程。",
+    "supply_chain_md": "**上游:** [[中鋼]] — 線材/盤元\n**中游:** **佳大** (鋼線/[[PC鋼絞線]]製造)\n**下游:**\n- 預力混凝土橋樑/建築工程\n- 營建業 — [[PC鋼絞線]]",
+    "customers_suppliers_md": "### 主要客戶\n- 營建/橋樑工程 — [[PC鋼絞線]]\n- 建築預力結構\n\n### 主要供應商\n- [[中鋼]] — 線材/盤元"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

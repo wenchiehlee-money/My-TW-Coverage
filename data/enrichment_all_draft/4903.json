@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4903",
+  "company_name": "聯光通",
+  "title": "4903 - 聯光通",
+  "source_md": "Pilot_Reports/Communication Equipment/4903_聯光通.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "3,719 百萬台幣",
+    "enterprise_value": "3,682 百萬台幣"
+  },
+  "business": {
+    "summary": "聯光通科技 (4903，United Fiber Optic Communication) 為台灣專業光纖光纜製造與系統工程廠商。核心業務涵蓋：光纖光纜製造 (屋外充膠光纜、屋內光纜、微簇型光纜，獲日本 [[Fujikura]] 藤倉技術授權，具備 600 芯以上高密度光纜生產能力)、光通訊工程 (承攬電信基建及軌道通訊系統) 及軌道系統整合 (捷運/台鐵通訊系統、月台門系統、行車監控)。\n\n近年大舉跨足綠能領域，透過子公司台鋼工程進軍大型高壓級[[儲能]]系統專案建置，已承攬台鋼集團旗下多座鋼鐵廠區儲能案場及澎湖尖山發電廠儲能標案，儲能與工程業務佔營收比重快速攀升。",
+    "entities": [
+      "Fujikura",
+      "儲能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光纖絲與原材料)",
+        "text": "**上游 (光纖絲與原材料):**",
+        "entities": []
+      },
+      {
+        "category": "光纖絲",
+        "text": "日本及歐美光纖絲供應商",
+        "entities": []
+      },
+      {
+        "category": "護套塑料",
+        "text": "[[Dow Chemical]] 陶氏化學 (耐候 PE 塑料)",
+        "entities": [
+          "Dow Chemical"
+        ]
+      },
+      {
+        "category": "鋼絞線",
+        "text": "高抗拉強度鋼絞線",
+        "entities": []
+      },
+      {
+        "category": "技術授權",
+        "text": "[[Fujikura]] 藤倉 (光纜製造技術)",
+        "entities": [
+          "Fujikura"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光纜製造與系統工程)",
+        "text": "**中游 (光纜製造與系統工程):**",
+        "entities": []
+      },
+      {
+        "category": "光纜與工程",
+        "text": "**聯光通** (光纖光纜製造/軌道系統整合/儲能工程)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信與公共建設)",
+        "text": "**下游 (電信與公共建設):**",
+        "entities": []
+      },
+      {
+        "category": "電信",
+        "text": "[[中華電信]] (5G 光纖基建)",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "category": "軌道",
+        "text": "台北捷運/台鐵 (通訊系統/月台門)",
+        "entities": []
+      },
+      {
+        "category": "儲能",
+        "text": "台鋼集團旗下鋼鐵廠儲能案場",
+        "entities": []
+      },
+      {
+        "category": "公用事業",
+        "text": "[[台電]] (電力光纜)",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信",
+        "text": "[[中華電信]] (光纖網路基建)",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "軌道交通",
+        "text": "台北捷運局、鐵道局 (通訊/月台門/監控系統)",
+        "entities": []
+      },
+      {
+        "role": "儲能",
+        "text": "台鋼集團旗下廠區 (大型儲能系統建置)",
+        "entities": []
+      },
+      {
+        "role": "公用事業",
+        "text": "[[台電]] (電力系統光纜)",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光纖技術",
+        "text": "[[Fujikura]] 藤倉 (技術授權及光纖絲)",
+        "entities": [
+          "Fujikura"
+        ]
+      },
+      {
+        "role": "化學材料",
+        "text": "[[Dow Chemical]] (護套塑料)",
+        "entities": [
+          "Dow Chemical"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[華新麗華]] (光纜)、[[大亞電纜]]",
+        "entities": [
+          "華新麗華",
+          "大亞電纜"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[華新麗華]] (光纜)、[[大亞電纜]]",
+        "entities": [
+          "華新麗華",
+          "大亞電纜"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Fujikura",
+      "type": "international_company_or_term",
+      "wikilink": "Fujikura"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "Dow Chemical",
+      "type": "international_company_or_term",
+      "wikilink": "Dow Chemical"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "大亞電纜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大亞電纜"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯光通科技 (4903，United Fiber Optic Communication) 為台灣專業光纖光纜製造與系統工程廠商。核心業務涵蓋：光纖光纜製造 (屋外充膠光纜、屋內光纜、微簇型光纜，獲日本 [[Fujikura]] 藤倉技術授權，具備 600 芯以上高密度光纜生產能力)、光通訊工程 (承攬電信基建及軌道通訊系統) 及軌道系統整合 (捷運/台鐵通訊系統、月台門系統、行車監控)。\n\n近年大舉跨足綠能領域，透過子公司台鋼工程進軍大型高壓級[[儲能]]系統專案建置，已承攬台鋼集團旗下多座鋼鐵廠區儲能案場及澎湖尖山發電廠儲能標案，儲能與工程業務佔營收比重快速攀升。",
+    "supply_chain_md": "**上游 (光纖絲與原材料):**\n- **光纖絲:** 日本及歐美光纖絲供應商\n- **護套塑料:** [[Dow Chemical]] 陶氏化學 (耐候 PE 塑料)\n- **鋼絞線:** 高抗拉強度鋼絞線\n- **技術授權:** [[Fujikura]] 藤倉 (光纜製造技術)\n\n**中游 (光纜製造與系統工程):**\n- **光纜與工程:** **聯光通** (光纖光纜製造/軌道系統整合/儲能工程)\n\n**下游 (電信與公共建設):**\n- **電信:** [[中華電信]] (5G 光纖基建)\n- **軌道:** 台北捷運/台鐵 (通訊系統/月台門)\n- **儲能:** 台鋼集團旗下鋼鐵廠儲能案場\n- **公用事業:** [[台電]] (電力光纜)",
+    "customers_suppliers_md": "### 主要客戶\n- **電信:** [[中華電信]] (光纖網路基建)\n- **軌道交通:** 台北捷運局、鐵道局 (通訊/月台門/監控系統)\n- **儲能:** 台鋼集團旗下廠區 (大型儲能系統建置)\n- **公用事業:** [[台電]] (電力系統光纜)\n\n### 主要供應商\n- **光纖技術:** [[Fujikura]] 藤倉 (技術授權及光纖絲)\n- **化學材料:** [[Dow Chemical]] (護套塑料)\n- **競爭同業:** [[華新麗華]] (光纜)、[[大亞電纜]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6982",
+  "company_name": "大井泵浦",
+  "title": "6982_大井泵浦",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/6982_大井泵浦.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,919 百萬台幣",
+    "enterprise_value": "3,236 百萬台幣"
+  },
+  "business": {
+    "summary": "大井泵浦 (6982，Walrus Pump) 為台灣住宅加壓馬達龍頭 (市佔六成+)。透過與[[台達電]]策略合作，切入[[AI 伺服器]] CDU 冷卻泵浦供應鏈。2025年交付逾1,000台多級離心泵予[[台達電]]。高雄新廠2025 Q4量產 (產能從45萬台倍增至105萬台)。另供應CNC[[工具機]]冷卻泵 (美德日系客戶)。",
+    "entities": [
+      "台達電",
+      "AI 伺服器",
+      "工具機"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "生鐵/球墨鑄鐵/銅線/矽鋼片/[[變頻器]]",
+        "entities": [
+          "變頻器"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**大井** (Walrus住宅泵浦/工業泵浦/[[AI 伺服器]]CDU泵浦)",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[台達電]] — AI CDU冷卻泵 (1,000+台)",
+        "entities": [
+          "台達電"
+        ]
+      },
+      {
+        "category": "",
+        "text": "全台五金行 — 住宅加壓",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "美德日[[工具機]]廠 — CNC冷卻泵",
+        "entities": [
+          "工具機"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台達電]] — [[AI 伺服器]]CDU泵",
+        "entities": [
+          "台達電",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "",
+        "text": "全台五金行 — 住宅加壓 (市佔60%+)",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "美德日[[工具機]]廠 — CNC冷卻",
+        "entities": [
+          "工具機"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "鑄鐵/銅線/矽鋼片/[[變頻器]]",
+        "entities": [
+          "變頻器"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台達電",
+          "AI 伺服器",
+          "工具機"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "工具機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工具機"
+    },
+    {
+      "name": "變頻器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "變頻器"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大井泵浦 (6982，Walrus Pump) 為台灣住宅加壓馬達龍頭 (市佔六成+)。透過與[[台達電]]策略合作，切入[[AI 伺服器]] CDU 冷卻泵浦供應鏈。2025年交付逾1,000台多級離心泵予[[台達電]]。高雄新廠2025 Q4量產 (產能從45萬台倍增至105萬台)。另供應CNC[[工具機]]冷卻泵 (美德日系客戶)。",
+    "supply_chain_md": "**上游:** 生鐵/球墨鑄鐵/銅線/矽鋼片/[[變頻器]]\n**中游:** **大井** (Walrus住宅泵浦/工業泵浦/[[AI 伺服器]]CDU泵浦)\n**下游:**\n- [[台達電]] — AI CDU冷卻泵 (1,000+台)\n- 全台五金行 — 住宅加壓\n- 美德日[[工具機]]廠 — CNC冷卻泵",
+    "customers_suppliers_md": "### 主要客戶\n- [[台達電]] — [[AI 伺服器]]CDU泵\n- 全台五金行 — 住宅加壓 (市佔60%+)\n- 美德日[[工具機]]廠 — CNC冷卻\n\n### 主要供應商\n- 鑄鐵/銅線/矽鋼片/[[變頻器]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

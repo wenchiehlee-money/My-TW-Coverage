@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1336",
+  "company_name": "台翰",
+  "title": "1336 - 台翰",
+  "source_md": "Pilot_Reports/Auto Parts/1336_台翰.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,172 百萬台幣",
+    "enterprise_value": "1,335 百萬台幣"
+  },
+  "business": {
+    "summary": "台翰精密 (1336，Taiwan Precision) 成立於 1987 年，專精精密模具設計製造與塑膠零組件射出成型、塗裝及部品組裝。深耕日系多功能事務機 (MFP) 精密塑膠件市場逾 30 年，事務機零組件佔營收約 89%、電子零組件約 11%。主要客戶為[[Brother]]、[[Canon]]、[[Kyocera]]、[[Epson]]等日系事務機品牌。生產基地以越南 (營收佔 49%)、菲律賓 (43%) 及東莞 (8%) 為主。最大股東為[[宣德科技]]，最終母公司為中國[[立訊精密]]。近年透過越南永瀚新廠擴產，切入網通、工控及消費性電子新領域。",
+    "entities": [
+      "Brother",
+      "Canon",
+      "Kyocera",
+      "Epson",
+      "宣德科技",
+      "立訊精密"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "工程塑膠",
+        "text": "工程塑膠原料供應商",
+        "entities": []
+      },
+      {
+        "category": "母公司",
+        "text": "[[宣德科技]] (最大股東)、[[立訊精密]] (最終母公司)",
+        "entities": [
+          "宣德科技",
+          "立訊精密"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台翰** (精密模具/塑膠射出/塗裝/次組裝，越南/菲律賓/東莞工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "事務機 (佔 89%)",
+        "text": "[[Brother]]、[[Canon]]、[[Kyocera]]、[[Epson]] — 精密塑膠件",
+        "entities": [
+          "Brother",
+          "Canon",
+          "Kyocera",
+          "Epson"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "事務機 (佔 89%)",
+        "text": "[[Brother]]、[[Canon]]、[[Kyocera]]、[[Epson]] — 精密塑膠件",
+        "entities": [
+          "Brother",
+          "Canon",
+          "Kyocera",
+          "Epson"
+        ]
+      },
+      {
+        "role": "電子 (佔 11%)",
+        "text": "網通/工控/消費電子客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[宣德科技]] (最大股東)、[[立訊精密]] (最終母公司)",
+        "entities": [
+          "宣德科技",
+          "立訊精密"
+        ]
+      },
+      {
+        "role": "原料",
+        "text": "工程塑膠原料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[廣華-KY]]、[[昭輝]]、[[正道]]、[[瑞利]]",
+        "entities": [
+          "東陽",
+          "廣華-KY",
+          "昭輝",
+          "正道",
+          "瑞利"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Brother",
+          "Canon",
+          "Kyocera",
+          "Epson"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Brother",
+      "type": "international_company_or_term",
+      "wikilink": "Brother"
+    },
+    {
+      "name": "Canon",
+      "type": "international_company_or_term",
+      "wikilink": "Canon"
+    },
+    {
+      "name": "Kyocera",
+      "type": "international_company_or_term",
+      "wikilink": "Kyocera"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    },
+    {
+      "name": "宣德科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宣德科技"
+    },
+    {
+      "name": "立訊精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立訊精密"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    },
+    {
+      "name": "瑞利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞利"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台翰精密 (1336，Taiwan Precision) 成立於 1987 年，專精精密模具設計製造與塑膠零組件射出成型、塗裝及部品組裝。深耕日系多功能事務機 (MFP) 精密塑膠件市場逾 30 年，事務機零組件佔營收約 89%、電子零組件約 11%。主要客戶為[[Brother]]、[[Canon]]、[[Kyocera]]、[[Epson]]等日系事務機品牌。生產基地以越南 (營收佔 49%)、菲律賓 (43%) 及東莞 (8%) 為主。最大股東為[[宣德科技]]，最終母公司為中國[[立訊精密]]。近年透過越南永瀚新廠擴產，切入網通、工控及消費性電子新領域。",
+    "supply_chain_md": "**上游 (原料):**\n- **工程塑膠:** 工程塑膠原料供應商\n- **母公司:** [[宣德科技]] (最大股東)、[[立訊精密]] (最終母公司)\n\n**中游 (製造):**\n- **台翰** (精密模具/塑膠射出/塗裝/次組裝，越南/菲律賓/東莞工廠)\n\n**下游 (品牌客戶):**\n- **事務機 (佔 89%):** [[Brother]]、[[Canon]]、[[Kyocera]]、[[Epson]] — 精密塑膠件",
+    "customers_suppliers_md": "### 主要客戶\n- **事務機 (佔 89%):** [[Brother]]、[[Canon]]、[[Kyocera]]、[[Epson]] — 精密塑膠件\n- **電子 (佔 11%):** 網通/工控/消費電子客戶\n\n### 主要供應商\n- **母公司:** [[宣德科技]] (最大股東)、[[立訊精密]] (最終母公司)\n- **原料:** 工程塑膠原料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

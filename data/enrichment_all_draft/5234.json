@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5234",
+  "company_name": "達興材料",
+  "title": "5234 - 達興材料",
+  "source_md": "Pilot_Reports/Specialty Chemicals/5234_達興材料.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "30,661 百萬台幣",
+    "enterprise_value": "29,238 百萬台幣"
+  },
+  "business": {
+    "summary": "達興材料 (Daxin) 為 **[[友達]]集團** 旗下專業特用化學材料廠，並已成功跨足 **半導體材料**。\n業務涵蓋三大領域：\n1.  **顯示器材料**: LCD 光阻劑、配向膜 (PI)、顯影液、剝離液 (主要營收來源, 穩定現金流)。\n2.  **半導體材料**: 先進封裝 ([[CoWoS]]) 用光阻剝離液、雷射離型層 (Laser Release)、有機介電層 (PID)。\n3.  **關鍵原材料**: 自行合成上游單體/高分子，提升毛利。\n達興是少數打入晶圓代工先進製程供應鏈的本土材料商。",
+    "entities": [
+      "友達",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**化學品**: 溶劑, 單體, 起始劑. (積極提升自製率).",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **達興 (5234)** - 配方研發, 合成, 純化, 量產.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**面板廠**: [[友達]], [[群創]].",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**晶圓代工/封測**: [[台積電]] (主要先進封裝客戶), 國內外封測大廠.",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**面板**: [[友達]] (母公司), [[群創]].",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**半導體**: [[台積電]] ([[CoWoS]] 材料供應商), 成熟製程晶圓廠.",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**原料**: 國內外化工廠 (如 [[Sumitomo]], [[Nissan Chemical]], [[Everlight]] 永光).",
+        "entities": [
+          "Sumitomo",
+          "Nissan Chemical",
+          "Everlight"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "友達",
+          "群創",
+          "台積電",
+          "CoWoS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Sumitomo",
+      "type": "international_company_or_term",
+      "wikilink": "Sumitomo"
+    },
+    {
+      "name": "Nissan Chemical",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan Chemical"
+    },
+    {
+      "name": "Everlight",
+      "type": "international_company_or_term",
+      "wikilink": "Everlight"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達興材料 (Daxin) 為 **[[友達]]集團** 旗下專業特用化學材料廠，並已成功跨足 **半導體材料**。\n業務涵蓋三大領域：\n1.  **顯示器材料**: LCD 光阻劑、配向膜 (PI)、顯影液、剝離液 (主要營收來源, 穩定現金流)。\n2.  **半導體材料**: 先進封裝 ([[CoWoS]]) 用光阻剝離液、雷射離型層 (Laser Release)、有機介電層 (PID)。\n3.  **關鍵原材料**: 自行合成上游單體/高分子，提升毛利。\n達興是少數打入晶圓代工先進製程供應鏈的本土材料商。",
+    "supply_chain_md": "*   **中游 (本體)**: **達興 (5234)** - 配方研發, 合成, 純化, 量產.\n*   **上游**:\n    *   **化學品**: 溶劑, 單體, 起始劑. (積極提升自製率).\n*   **下游**:\n    *   **面板廠**: [[友達]], [[群創]].\n    *   **晶圓代工/封測**: [[台積電]] (主要先進封裝客戶), 國內外封測大廠.",
+    "customers_suppliers_md": "### 主要客戶\n*   **面板**: [[友達]] (母公司), [[群創]].\n*   **半導體**: [[台積電]] ([[CoWoS]] 材料供應商), 成熟製程晶圓廠.\n\n### 主要供應商\n*   **原料**: 國內外化工廠 (如 [[Sumitomo]], [[Nissan Chemical]], [[Everlight]] 永光)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

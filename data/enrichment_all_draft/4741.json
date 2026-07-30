@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4741",
+  "company_name": "泓瀚",
+  "title": "4741 - 泓瀚",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4741_泓瀚.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "1,358 百萬台幣",
+    "enterprise_value": "1,100 百萬台幣"
+  },
+  "business": {
+    "summary": "泓瀚科技 (4741，Jetbest Corporation) 為專業噴墨墨水研發製造商，品牌「Jetbest」行銷全球 80 餘國。產品涵蓋寬幅噴墨墨水 ([[UV墨水]]、環保溶劑型 Eco-Solvent、水性顏料/染料墨水)、紡織墨水 ([[熱昇華]]墨水、[[DTF]]直噴膜印花墨水) 及乳膠墨水 (Latex)。產品相容於[[Roland]]、[[Mimaki]]、[[Epson]]、[[Mutoh]]等主流大幅面數位印刷設備。上游色料/顏料來自[[DIC]]、[[BASF]]、[[Clariant]]。",
+    "entities": [
+      "UV墨水",
+      "熱昇華",
+      "DTF",
+      "Roland",
+      "Mimaki",
+      "Epson",
+      "Mutoh",
+      "DIC",
+      "BASF",
+      "Clariant"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "色料/顏料",
+        "text": "[[DIC]]、[[BASF]]、[[Clariant]] — 專業色料",
+        "entities": [
+          "DIC",
+          "BASF",
+          "Clariant"
+        ]
+      },
+      {
+        "category": "溶劑/樹脂",
+        "text": "化學原料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**泓瀚** (Jetbest 品牌噴墨墨水：[[UV墨水]]/[[熱昇華]]/[[DTF]]/乳膠墨水)",
+        "entities": [
+          "UV墨水",
+          "熱昇華",
+          "DTF"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "廣告輸出",
+        "text": "全球廣告/招牌印刷業 — 相容[[Roland]]、[[Mimaki]]、[[Epson]]、[[Mutoh]]設備",
+        "entities": [
+          "Roland",
+          "Mimaki",
+          "Epson",
+          "Mutoh"
+        ]
+      },
+      {
+        "category": "紡織印花",
+        "text": "數位紡織印花廠 — 熱昇華/DTF 墨水",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "廣告印刷",
+        "text": "全球 80+ 國，相容[[Roland]]、[[Mimaki]]、[[Epson]]、[[Mutoh]]設備",
+        "entities": [
+          "Roland",
+          "Mimaki",
+          "Epson",
+          "Mutoh"
+        ]
+      },
+      {
+        "role": "紡織印花",
+        "text": "數位紡織印花廠 — [[熱昇華]]/[[DTF]]",
+        "entities": [
+          "熱昇華",
+          "DTF"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "色料",
+        "text": "[[DIC]]、[[BASF]]、[[Clariant]] — 專業色料/顏料",
+        "entities": [
+          "DIC",
+          "BASF",
+          "Clariant"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Roland",
+          "Mimaki",
+          "Epson",
+          "Mutoh",
+          "熱昇華",
+          "DTF"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "UV墨水",
+      "type": "taiwan_company_or_term",
+      "wikilink": "UV墨水"
+    },
+    {
+      "name": "熱昇華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "熱昇華"
+    },
+    {
+      "name": "DTF",
+      "type": "international_company_or_term",
+      "wikilink": "DTF"
+    },
+    {
+      "name": "Roland",
+      "type": "international_company_or_term",
+      "wikilink": "Roland"
+    },
+    {
+      "name": "Mimaki",
+      "type": "international_company_or_term",
+      "wikilink": "Mimaki"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    },
+    {
+      "name": "Mutoh",
+      "type": "international_company_or_term",
+      "wikilink": "Mutoh"
+    },
+    {
+      "name": "DIC",
+      "type": "international_company_or_term",
+      "wikilink": "DIC"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Clariant",
+      "type": "international_company_or_term",
+      "wikilink": "Clariant"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "泓瀚科技 (4741，Jetbest Corporation) 為專業噴墨墨水研發製造商，品牌「Jetbest」行銷全球 80 餘國。產品涵蓋寬幅噴墨墨水 ([[UV墨水]]、環保溶劑型 Eco-Solvent、水性顏料/染料墨水)、紡織墨水 ([[熱昇華]]墨水、[[DTF]]直噴膜印花墨水) 及乳膠墨水 (Latex)。產品相容於[[Roland]]、[[Mimaki]]、[[Epson]]、[[Mutoh]]等主流大幅面數位印刷設備。上游色料/顏料來自[[DIC]]、[[BASF]]、[[Clariant]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **色料/顏料:** [[DIC]]、[[BASF]]、[[Clariant]] — 專業色料\n- **溶劑/樹脂:** 化學原料供應商\n\n**中游 (製造):**\n- **泓瀚** (Jetbest 品牌噴墨墨水：[[UV墨水]]/[[熱昇華]]/[[DTF]]/乳膠墨水)\n\n**下游 (終端):**\n- **廣告輸出:** 全球廣告/招牌印刷業 — 相容[[Roland]]、[[Mimaki]]、[[Epson]]、[[Mutoh]]設備\n- **紡織印花:** 數位紡織印花廠 — 熱昇華/DTF 墨水",
+    "customers_suppliers_md": "### 主要客戶\n- **廣告印刷:** 全球 80+ 國，相容[[Roland]]、[[Mimaki]]、[[Epson]]、[[Mutoh]]設備\n- **紡織印花:** 數位紡織印花廠 — [[熱昇華]]/[[DTF]]\n\n### 主要供應商\n- **色料:** [[DIC]]、[[BASF]]、[[Clariant]] — 專業色料/顏料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

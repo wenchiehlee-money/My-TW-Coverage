@@ -1,0 +1,294 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8072",
+  "company_name": "陞泰",
+  "title": "8072 - 陞泰",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/8072_陞泰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "2,068 百萬台幣",
+    "enterprise_value": "1,054 百萬台幣"
+  },
+  "business": {
+    "summary": "陞泰科技 (8072，[[AVTECH]]) 成立於 1996 年，為台灣安全監控系統製造商，事業版圖以外銷為主。公司結合半導體元件經銷經驗與監控技術優勢，提供完整的影像監控解決方案。\n\n業務結構與動能：(1) IC 半導體元件代理 (約佔營收 77%) — 透過子公司僑武國際經銷類比/數位轉換 IC、電源管理 IC、馬達驅動 IC、溫度感測器及觸控 IC 等，代理品牌包含 [[SII]]/[[ABLIC]]、[[SmartSens]]、[[NISSHA]] 等原廠；(2) 影像監控系統 (約佔營收 23%) — 自主研發製造網路錄影主機 ([[NVR]])、數位錄影主機 ([[DVR]])、[[IP camera]] 網路攝影機、智慧型 AI 攝影機及車牌辨識紅外線攝影機等，並開發行動監控軟體 EagleEyes，支援 H.265 編碼技術；內銷台灣約佔 51%，中國大陸約 36%，亞洲其他地區約 10%。工廠設於三重。",
+    "entities": [
+      "AVTECH",
+      "SII",
+      "ABLIC",
+      "SmartSens",
+      "NISSHA",
+      "NVR",
+      "DVR",
+      "IP camera"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (IC 與電子元件)",
+        "text": "**上游 (IC 與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "IC 原廠",
+        "text": "[[SII]]/[[ABLIC]]、[[SmartSens]]、[[NISSHA]] — 類比 IC、影像感測器、觸控 IC",
+        "entities": [
+          "SII",
+          "ABLIC",
+          "SmartSens",
+          "NISSHA"
+        ]
+      },
+      {
+        "category": "監控 IC",
+        "text": "監控專用 SoC 晶片供應商 — 影像處理與編碼晶片",
+        "entities": []
+      },
+      {
+        "category": "PCB",
+        "text": "印刷電路板供應商",
+        "entities": []
+      },
+      {
+        "category": "被動元件",
+        "text": "電容、電阻等被動元件",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "攝影機外殼與機構零組件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 代理與監控製造)",
+        "text": "**中游 (IC 代理與監控製造):**",
+        "entities": []
+      },
+      {
+        "category": "IC 代理",
+        "text": "僑武國際 (陞泰子公司，代理 [[SII]]/[[ABLIC]]、[[SmartSens]] 等 IC)",
+        "entities": [
+          "SII",
+          "ABLIC",
+          "SmartSens"
+        ]
+      },
+      {
+        "category": "監控製造",
+        "text": "**陞泰科技** ([[NVR]]、[[DVR]]、[[IP camera]]、AI 攝影機)",
+        "entities": [
+          "NVR",
+          "DVR",
+          "IP camera"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "安防工程",
+        "text": "安防系統整合商與工程商 — 監控設備",
+        "entities": []
+      },
+      {
+        "category": "商業應用",
+        "text": "連鎖商店、飯店、銀行、購物中心 — 安全監控",
+        "entities": []
+      },
+      {
+        "category": "公共建設",
+        "text": "機場、車站、捷運 — 公共安全監控",
+        "entities": []
+      },
+      {
+        "category": "電子製造",
+        "text": "台灣電子製造商 — IC 元件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "安防通路",
+        "text": "全球安防系統經銷商與工程商 — [[NVR]]/[[DVR]]/[[IP camera]] 監控設備",
+        "entities": [
+          "NVR",
+          "DVR",
+          "IP camera"
+        ]
+      },
+      {
+        "role": "商業場所",
+        "text": "連鎖商店、飯店、銀行、醫療機構 — 安全監控系統",
+        "entities": []
+      },
+      {
+        "role": "公共建設",
+        "text": "機場、車站、學校 — 公共安全監控",
+        "entities": []
+      },
+      {
+        "role": "電子製造",
+        "text": "台灣電子製造商 — [[SII]]/[[ABLIC]] 類比 IC 與 [[SmartSens]] 影像感測器",
+        "entities": [
+          "SII",
+          "ABLIC",
+          "SmartSens"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "類比 IC",
+        "text": "[[SII]]/[[ABLIC]] — 電源管理 IC、溫度感測器",
+        "entities": [
+          "SII",
+          "ABLIC"
+        ]
+      },
+      {
+        "role": "影像感測",
+        "text": "[[SmartSens]] — CMOS 影像感測器",
+        "entities": [
+          "SmartSens"
+        ]
+      },
+      {
+        "role": "觸控 IC",
+        "text": "[[NISSHA]] — 觸控感測 IC",
+        "entities": [
+          "NISSHA"
+        ]
+      },
+      {
+        "role": "監控 SoC",
+        "text": "監控專用影像處理晶片供應商",
+        "entities": []
+      },
+      {
+        "role": "PCB/被動元件",
+        "text": "印刷電路板與被動元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NVR",
+          "DVR",
+          "IP camera",
+          "SII",
+          "ABLIC",
+          "SmartSens"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AVTECH",
+      "type": "international_company_or_term",
+      "wikilink": "AVTECH"
+    },
+    {
+      "name": "SII",
+      "type": "international_company_or_term",
+      "wikilink": "SII"
+    },
+    {
+      "name": "ABLIC",
+      "type": "international_company_or_term",
+      "wikilink": "ABLIC"
+    },
+    {
+      "name": "SmartSens",
+      "type": "international_company_or_term",
+      "wikilink": "SmartSens"
+    },
+    {
+      "name": "NISSHA",
+      "type": "international_company_or_term",
+      "wikilink": "NISSHA"
+    },
+    {
+      "name": "NVR",
+      "type": "international_company_or_term",
+      "wikilink": "NVR"
+    },
+    {
+      "name": "DVR",
+      "type": "international_company_or_term",
+      "wikilink": "DVR"
+    },
+    {
+      "name": "IP camera",
+      "type": "international_company_or_term",
+      "wikilink": "IP camera"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "陞泰科技 (8072，[[AVTECH]]) 成立於 1996 年，為台灣安全監控系統製造商，事業版圖以外銷為主。公司結合半導體元件經銷經驗與監控技術優勢，提供完整的影像監控解決方案。\n\n業務結構與動能：(1) IC 半導體元件代理 (約佔營收 77%) — 透過子公司僑武國際經銷類比/數位轉換 IC、電源管理 IC、馬達驅動 IC、溫度感測器及觸控 IC 等，代理品牌包含 [[SII]]/[[ABLIC]]、[[SmartSens]]、[[NISSHA]] 等原廠；(2) 影像監控系統 (約佔營收 23%) — 自主研發製造網路錄影主機 ([[NVR]])、數位錄影主機 ([[DVR]])、[[IP camera]] 網路攝影機、智慧型 AI 攝影機及車牌辨識紅外線攝影機等，並開發行動監控軟體 EagleEyes，支援 H.265 編碼技術；內銷台灣約佔 51%，中國大陸約 36%，亞洲其他地區約 10%。工廠設於三重。",
+    "supply_chain_md": "**上游 (IC 與電子元件):**\n- **IC 原廠:** [[SII]]/[[ABLIC]]、[[SmartSens]]、[[NISSHA]] — 類比 IC、影像感測器、觸控 IC\n- **監控 IC:** 監控專用 SoC 晶片供應商 — 影像處理與編碼晶片\n- **PCB:** 印刷電路板供應商\n- **被動元件:** 電容、電阻等被動元件\n- **機構件:** 攝影機外殼與機構零組件\n\n**中游 (IC 代理與監控製造):**\n- **IC 代理:** 僑武國際 (陞泰子公司，代理 [[SII]]/[[ABLIC]]、[[SmartSens]] 等 IC)\n- **監控製造:** **陞泰科技** ([[NVR]]、[[DVR]]、[[IP camera]]、AI 攝影機)\n\n**下游 (終端應用):**\n- **安防工程:** 安防系統整合商與工程商 — 監控設備\n- **商業應用:** 連鎖商店、飯店、銀行、購物中心 — 安全監控\n- **公共建設:** 機場、車站、捷運 — 公共安全監控\n- **電子製造:** 台灣電子製造商 — IC 元件",
+    "customers_suppliers_md": "### 主要客戶\n- **安防通路:** 全球安防系統經銷商與工程商 — [[NVR]]/[[DVR]]/[[IP camera]] 監控設備\n- **商業場所:** 連鎖商店、飯店、銀行、醫療機構 — 安全監控系統\n- **公共建設:** 機場、車站、學校 — 公共安全監控\n- **電子製造:** 台灣電子製造商 — [[SII]]/[[ABLIC]] 類比 IC 與 [[SmartSens]] 影像感測器\n\n### 主要供應商\n- **類比 IC:** [[SII]]/[[ABLIC]] — 電源管理 IC、溫度感測器\n- **影像感測:** [[SmartSens]] — CMOS 影像感測器\n- **觸控 IC:** [[NISSHA]] — 觸控感測 IC\n- **監控 SoC:** 監控專用影像處理晶片供應商\n- **PCB/被動元件:** 印刷電路板與被動元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

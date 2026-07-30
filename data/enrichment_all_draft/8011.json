@@ -1,0 +1,250 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8011",
+  "company_name": "台通",
+  "title": "8011 - 台通",
+  "source_md": "Pilot_Reports/Communication Equipment/8011_台通.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,588 百萬台幣",
+    "enterprise_value": "5,412 百萬台幣"
+  },
+  "business": {
+    "summary": "台通光電 (8011，Tai Tung Communication) 為台灣專業光纖通信電纜及相關設備製造商，總部位於新北市新莊區，深耕光通訊網路基礎建設超過三十年。主要產品涵蓋各式光纜 (鬆管型、直埋型、架空型、單模及多模光纜)、被動式光學元件 (光分路器、連接器)、光纖配線設備，以及銅線產品 (電信電纜、同軸電纜及電力電纜)。\n\n台通光電為台灣三大電信業者提供骨幹與區域網路佈建之關鍵線材，並積極參與離岸風電、前瞻基礎建設及 [[FTTH]] (光纖到府) 專案之網路與電纜佈建工程。公司同時提供光纖網路工程之設計、施工與維護一條龍服務，為國內少數具備光纜製造與工程施作雙重能力之廠商。",
+    "entities": [
+      "FTTH"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光纖原料與線材)",
+        "text": "**上游 (光纖原料與線材):**",
+        "entities": []
+      },
+      {
+        "category": "光纖預形體",
+        "text": "國際光纖預形體 (Preform) 及裸絲供應商如 [[Corning]]、[[古河電工]]",
+        "entities": [
+          "Corning",
+          "古河電工"
+        ]
+      },
+      {
+        "category": "金屬線材",
+        "text": "銅、鋁基礎線材供應商",
+        "entities": []
+      },
+      {
+        "category": "塑膠原料",
+        "text": "光纜護套用塑膠抽絲原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光纖與通信電纜製造)",
+        "text": "**中游 (光纖與通信電纜製造):**",
+        "entities": []
+      },
+      {
+        "category": "光纜製造",
+        "text": "**台通光電** (各式光纖電纜、銅線電纜製造銷售)",
+        "entities": []
+      },
+      {
+        "category": "光纖配件",
+        "text": "**台通光電** (光分路器、連接器、配線設備)",
+        "entities": []
+      },
+      {
+        "category": "工程服務",
+        "text": "**台通光電** (光纖網路工程設計、施工與維護)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信營運商與公共建設)",
+        "text": "**下游 (電信營運商與公共建設):**",
+        "entities": []
+      },
+      {
+        "category": "電信營運商",
+        "text": "[[中華電信]]、[[台灣大哥大]]、[[遠傳電信]] — 骨幹及區域光纜佈建",
+        "entities": [
+          "中華電信",
+          "台灣大哥大",
+          "遠傳電信"
+        ]
+      },
+      {
+        "category": "公共建設",
+        "text": "[[台電]]、交通部 (台鐵、捷運)",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "離岸風電",
+        "text": "海底電纜及陸上輸配電纜佈建",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信業者",
+        "text": "[[中華電信]]、[[台灣大哥大]]、[[遠傳電信]] — 骨幹與區域光纜佈建",
+        "entities": [
+          "中華電信",
+          "台灣大哥大",
+          "遠傳電信"
+        ]
+      },
+      {
+        "role": "公用事業",
+        "text": "[[台電]] — 電力傳輸電纜",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "交通建設",
+        "text": "台鐵、捷運系統 — 通訊光纜工程",
+        "entities": []
+      },
+      {
+        "role": "政府標案",
+        "text": "交通部前瞻基礎建設計畫",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光纖裸絲",
+        "text": "[[Corning]] (康寧)、[[古河電工]] — 高純度光纖預形體與裸絲",
+        "entities": [
+          "Corning",
+          "古河電工"
+        ]
+      },
+      {
+        "role": "銅鋁線材",
+        "text": "國內基礎金屬線材供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠原料",
+        "text": "光纜護套用工程塑膠原料廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "台灣大哥大",
+          "遠傳電信",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "FTTH",
+      "type": "international_company_or_term",
+      "wikilink": "FTTH"
+    },
+    {
+      "name": "Corning",
+      "type": "international_company_or_term",
+      "wikilink": "Corning"
+    },
+    {
+      "name": "古河電工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "古河電工"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "台灣大哥大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大哥大"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台通光電 (8011，Tai Tung Communication) 為台灣專業光纖通信電纜及相關設備製造商，總部位於新北市新莊區，深耕光通訊網路基礎建設超過三十年。主要產品涵蓋各式光纜 (鬆管型、直埋型、架空型、單模及多模光纜)、被動式光學元件 (光分路器、連接器)、光纖配線設備，以及銅線產品 (電信電纜、同軸電纜及電力電纜)。\n\n台通光電為台灣三大電信業者提供骨幹與區域網路佈建之關鍵線材，並積極參與離岸風電、前瞻基礎建設及 [[FTTH]] (光纖到府) 專案之網路與電纜佈建工程。公司同時提供光纖網路工程之設計、施工與維護一條龍服務，為國內少數具備光纜製造與工程施作雙重能力之廠商。",
+    "supply_chain_md": "**上游 (光纖原料與線材):**\n- **光纖預形體:** 國際光纖預形體 (Preform) 及裸絲供應商如 [[Corning]]、[[古河電工]]\n- **金屬線材:** 銅、鋁基礎線材供應商\n- **塑膠原料:** 光纜護套用塑膠抽絲原料\n\n**中游 (光纖與通信電纜製造):**\n- **光纜製造:** **台通光電** (各式光纖電纜、銅線電纜製造銷售)\n- **光纖配件:** **台通光電** (光分路器、連接器、配線設備)\n- **工程服務:** **台通光電** (光纖網路工程設計、施工與維護)\n\n**下游 (電信營運商與公共建設):**\n- **電信營運商:** [[中華電信]]、[[台灣大哥大]]、[[遠傳電信]] — 骨幹及區域光纜佈建\n- **公共建設:** [[台電]]、交通部 (台鐵、捷運)\n- **離岸風電:** 海底電纜及陸上輸配電纜佈建",
+    "customers_suppliers_md": "### 主要客戶\n- **電信業者:** [[中華電信]]、[[台灣大哥大]]、[[遠傳電信]] — 骨幹與區域光纜佈建\n- **公用事業:** [[台電]] — 電力傳輸電纜\n- **交通建設:** 台鐵、捷運系統 — 通訊光纜工程\n- **政府標案:** 交通部前瞻基礎建設計畫\n\n### 主要供應商\n- **光纖裸絲:** [[Corning]] (康寧)、[[古河電工]] — 高純度光纖預形體與裸絲\n- **銅鋁線材:** 國內基礎金屬線材供應商\n- **塑膠原料:** 光纜護套用工程塑膠原料廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

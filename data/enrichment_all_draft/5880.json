@@ -1,0 +1,298 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5880",
+  "company_name": "合庫金",
+  "title": "5880_[[合庫金]]",
+  "source_md": "Pilot_Reports/Banks - Regional/5880_合庫金.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "market_cap": "409,272 百萬台幣",
+    "enterprise_value": "461,816 百萬台幣"
+  },
+  "business": {
+    "summary": "[[合作金庫金融控股]] (5880) 成立於 2011 年，為台灣資產規模與分行據點數極具優勢的泛公股金控。核心子公司[[合作金庫商業銀行]]全台分行數逾 270 家、居全體銀行之冠，在中小企業授信及放款餘額長期位居龍頭。其他子公司包括[[合庫證券]]、[[合庫人壽]] (與法國 [[法國巴黎人壽]] 合資)、[[合庫票券]]、[[合庫投信]]及[[合庫資產管理]]。[[財政部]]透過[[台灣銀行]]間接為最大股東。近年積極推動高齡信託及 ESG 永續轉型。",
+    "entities": [
+      "合作金庫金融控股",
+      "合作金庫商業銀行",
+      "合庫證券",
+      "合庫人壽",
+      "法國巴黎人壽",
+      "合庫票券",
+      "合庫投信",
+      "合庫資產管理",
+      "財政部",
+      "台灣銀行"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "全台各地一般存戶、公庫存款",
+        "entities": []
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      },
+      {
+        "category": "公股股東",
+        "text": "[[財政部]]、[[台灣銀行]]",
+        "entities": [
+          "財政部",
+          "台灣銀行"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[合作金庫商業銀行]]** (中小企業放款、大型聯貸主辦、高齡信託及財富管理)",
+        "entities": [
+          "合作金庫商業銀行"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[合庫證券]]** (證券經紀)",
+        "entities": [
+          "合庫證券"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[合庫人壽]]** (壽險，與[[法國巴黎人壽]]合資)",
+        "entities": [
+          "合庫人壽",
+          "法國巴黎人壽"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[合庫票券]]** (票券金融)",
+        "entities": [
+          "合庫票券"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[合庫投信]]** (基金管理)",
+        "entities": [
+          "合庫投信"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "企業金融",
+        "text": "全台中小企業、大型聯貸案",
+        "entities": []
+      },
+      {
+        "category": "個人金融",
+        "text": "房貸客戶、高齡信託客群、青安房貸首購族",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業金融",
+        "text": "全台中小企業 — 放款餘額市佔居冠",
+        "entities": []
+      },
+      {
+        "role": "大型聯貸",
+        "text": "國內重大專案聯貸之主辦銀行",
+        "entities": []
+      },
+      {
+        "role": "個人金融",
+        "text": "青安房貸首購族、高齡信託客群",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "公股股東",
+        "text": "[[財政部]]、[[台灣銀行]]",
+        "entities": [
+          "財政部",
+          "台灣銀行"
+        ]
+      },
+      {
+        "role": "壽險合資",
+        "text": "[[法國巴黎人壽]] — [[合庫人壽]]之外資股東",
+        "entities": [
+          "法國巴黎人壽",
+          "合庫人壽"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]、[[信保基金]]",
+        "entities": [
+          "財金資訊",
+          "信保基金"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Banks - Regional):** [[彰銀]]、[[高雄銀]]、[[聯邦銀]]、[[遠東銀]]、[[安泰銀]]",
+        "entities": [
+          "彰銀",
+          "高雄銀",
+          "聯邦銀",
+          "遠東銀",
+          "安泰銀"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "合作金庫金融控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合作金庫金融控股"
+    },
+    {
+      "name": "合作金庫商業銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合作金庫商業銀行"
+    },
+    {
+      "name": "合庫證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合庫證券"
+    },
+    {
+      "name": "合庫人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合庫人壽"
+    },
+    {
+      "name": "法國巴黎人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "法國巴黎人壽"
+    },
+    {
+      "name": "合庫票券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合庫票券"
+    },
+    {
+      "name": "合庫投信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合庫投信"
+    },
+    {
+      "name": "合庫資產管理",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合庫資產管理"
+    },
+    {
+      "name": "財政部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財政部"
+    },
+    {
+      "name": "台灣銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣銀行"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "信保基金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信保基金"
+    },
+    {
+      "name": "彰銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彰銀"
+    },
+    {
+      "name": "高雄銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄銀"
+    },
+    {
+      "name": "聯邦銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯邦銀"
+    },
+    {
+      "name": "遠東銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東銀"
+    },
+    {
+      "name": "安泰銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安泰銀"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[合作金庫金融控股]] (5880) 成立於 2011 年，為台灣資產規模與分行據點數極具優勢的泛公股金控。核心子公司[[合作金庫商業銀行]]全台分行數逾 270 家、居全體銀行之冠，在中小企業授信及放款餘額長期位居龍頭。其他子公司包括[[合庫證券]]、[[合庫人壽]] (與法國 [[法國巴黎人壽]] 合資)、[[合庫票券]]、[[合庫投信]]及[[合庫資產管理]]。[[財政部]]透過[[台灣銀行]]間接為最大股東。近年積極推動高齡信託及 ESG 永續轉型。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** 全台各地一般存戶、公庫存款\n- **同業資金:** [[中央銀行]]、金融同業\n- **公股股東:** [[財政部]]、[[台灣銀行]]\n\n**中游:**\n- **[[合作金庫商業銀行]]** (中小企業放款、大型聯貸主辦、高齡信託及財富管理)\n- **[[合庫證券]]** (證券經紀)\n- **[[合庫人壽]]** (壽險，與[[法國巴黎人壽]]合資)\n- **[[合庫票券]]** (票券金融)\n- **[[合庫投信]]** (基金管理)\n\n**下游 (授信客戶):**\n- **企業金融:** 全台中小企業、大型聯貸案\n- **個人金融:** 房貸客戶、高齡信託客群、青安房貸首購族",
+    "customers_suppliers_md": "### 主要客戶\n- **企業金融:** 全台中小企業 — 放款餘額市佔居冠\n- **大型聯貸:** 國內重大專案聯貸之主辦銀行\n- **個人金融:** 青安房貸首購族、高齡信託客群\n\n### 主要供應商\n- **公股股東:** [[財政部]]、[[台灣銀行]]\n- **壽險合資:** [[法國巴黎人壽]] — [[合庫人壽]]之外資股東\n- **金流基礎設施:** [[財金資訊]]、[[信保基金]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

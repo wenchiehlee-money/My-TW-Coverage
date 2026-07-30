@@ -1,0 +1,165 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4971",
+  "company_name": "IET-KY",
+  "title": "4971 - IET-KY",
+  "source_md": "Pilot_Reports/Semiconductors/4971_IET-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "14,035 百萬台幣",
+    "enterprise_value": "13,972 百萬台幣"
+  },
+  "business": {
+    "summary": "英特磊 (IET-KY, [[Intel]]liEPI) 成立於 1999 年，總部位於美國德州 (註冊於開曼群島)。公司專注於 **分子束[[磊晶]] (MBE)** 技術，生產 **III-V 族化合物半導體[[磊晶]]片** (Epi Wafer)。與常見的 MO[[CVD]] 不同，MBE 技術具備原子級精確度，特別適合高頻、高效能元件。產品應用涵蓋 **[[磷化銦]] (InP)** ([[光通訊]]、HBT 射頻)、**砷化鎵 (GaAs)** (RF、pHEMT) 及 **銻化鎵 (GaSb)** (紅外線偵測、國防)。近期受惠於 **AI [[資料中心]]** 對 800G 光收發模組需求，InP 相關[[磊晶]]片成長強勁。",
+    "entities": [
+      "Intel",
+      "磊晶",
+      "CVD",
+      "磷化銦",
+      "光通訊",
+      "資料中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "基板供應商 (Sumitomo, AXT 等)。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "射頻元件廠 ([[Skyworks]], [[Qorvo]])、[[光通訊]]元件廠、國防承包商。",
+        "entities": [
+          "Skyworks",
+          "Qorvo",
+          "光通訊"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "化合物[[半導體]][[磊晶]]廠 (Epi House)。",
+        "entities": [
+          "半導體",
+          "磊晶"
+        ]
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "RF",
+        "text": "[[Skyworks]] (主要客戶)。",
+        "entities": [
+          "Skyworks"
+        ]
+      },
+      {
+        "role": "光通訊",
+        "text": "國際[[光通訊]]大廠 (InP HBT/PD)。",
+        "entities": [
+          "光通訊"
+        ]
+      },
+      {
+        "role": "國防",
+        "text": "美國國防部合約商 (GaSb 紅外線偵測、軍用 RF)。",
+        "entities": []
+      },
+      {
+        "role": "其他",
+        "text": "歐洲汽車雷達客戶 (UMS)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "[[磊晶]]廠",
+        "text": "IQE (英)、全新 (VPEC)、聯亞 (LandMark, MO[[CVD]] 為主)。",
+        "entities": [
+          "磊晶",
+          "CVD"
+        ]
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "磷化銦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷化銦"
+    },
+    {
+      "name": "光通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光通訊"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "Skyworks",
+      "type": "international_company_or_term",
+      "wikilink": "Skyworks"
+    },
+    {
+      "name": "Qorvo",
+      "type": "international_company_or_term",
+      "wikilink": "Qorvo"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "英特磊 (IET-KY, [[Intel]]liEPI) 成立於 1999 年，總部位於美國德州 (註冊於開曼群島)。公司專注於 **分子束[[磊晶]] (MBE)** 技術，生產 **III-V 族化合物半導體[[磊晶]]片** (Epi Wafer)。與常見的 MO[[CVD]] 不同，MBE 技術具備原子級精確度，特別適合高頻、高效能元件。產品應用涵蓋 **[[磷化銦]] (InP)** ([[光通訊]]、HBT 射頻)、**砷化鎵 (GaAs)** (RF、pHEMT) 及 **銻化鎵 (GaSb)** (紅外線偵測、國防)。近期受惠於 **AI [[資料中心]]** 對 800G 光收發模組需求，InP 相關[[磊晶]]片成長強勁。",
+    "supply_chain_md": "**角色:** 化合物[[半導體]][[磊晶]]廠 (Epi House)。\n**上游:** 基板供應商 (Sumitomo, AXT 等)。\n**下游:** 射頻元件廠 ([[Skyworks]], [[Qorvo]])、[[光通訊]]元件廠、國防承包商。",
+    "customers_suppliers_md": "### 主要客戶\n- **RF:** [[Skyworks]] (主要客戶)。\n- **光通訊:** 國際[[光通訊]]大廠 (InP HBT/PD)。\n- **國防:** 美國國防部合約商 (GaSb 紅外線偵測、軍用 RF)。\n- **其他:** 歐洲汽車雷達客戶 (UMS)。\n\n### 競爭對手\n- **[[磊晶]]廠:** IQE (英)、全新 (VPEC)、聯亞 (LandMark, MO[[CVD]] 為主)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

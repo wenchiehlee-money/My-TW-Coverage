@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6968",
+  "company_name": "萬達寵物",
+  "title": "6968 - 萬達寵物",
+  "source_md": "Pilot_Reports/Packaged Foods/6968_萬達寵物.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods",
+    "market_cap": "2,121 百萬台幣",
+    "enterprise_value": "3,228 百萬台幣"
+  },
+  "business": {
+    "summary": "萬達寵物事業 (6968，Wonder Pets) 成立於 1999 年，2024 年於櫃買中心掛牌，為台灣寵物產業第一家上市櫃公司。旗下品牌包括「寵物公園」、「凱朵寵物」、「貓狗隊長」及全台最大寵物垂直電商「[[毛孩市集]]」。全台擁有超過 126 家直營門市，營收以食品銷售為主 (約 71%)。與國內食品大廠如[[福壽實業]]、[[大成長城]]、[[統一]]在產品開發方面合作。2021 年率先導入 [[SAP]] 企業資源規劃系統。國際寵物食品品牌合作包括 [[Royal Canin]]、[[Hill's]]、[[Mars Petcare]] 等。",
+    "entities": [
+      "毛孩市集",
+      "福壽實業",
+      "大成長城",
+      "統一",
+      "SAP",
+      "Royal Canin",
+      "Hill's",
+      "Mars Petcare"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌與製造)",
+        "text": "**上游 (品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "國際品牌",
+        "text": "[[Royal Canin]]、[[Hill's]]、[[Mars Petcare]] — 國際寵物飼料",
+        "entities": [
+          "Royal Canin",
+          "Hill's",
+          "Mars Petcare"
+        ]
+      },
+      {
+        "category": "台灣食品廠",
+        "text": "[[福壽實業]]、[[大成長城]]、[[統一]] — 寵物食品共同開發",
+        "entities": [
+          "福壽實業",
+          "大成長城",
+          "統一"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (零售通路與服務)",
+        "text": "**中游 (零售通路與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**萬達寵物** — 全台 126+ 家直營寵物連鎖門市、「[[毛孩市集]]」電商平台、寵物美容住宿安親",
+        "entities": [
+          "毛孩市集"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端消費者)",
+        "text": "**下游 (終端消費者):**",
+        "entities": []
+      },
+      {
+        "category": "寵物飼主",
+        "text": "全台犬貓飼主 — 門市消費及線上購物",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "終端消費者",
+        "text": "全台犬貓飼主 — 126+ 家直營門市及「[[毛孩市集]]」電商",
+        "entities": [
+          "毛孩市集"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "國際品牌",
+        "text": "[[Royal Canin]]、[[Hill's]]、[[Mars Petcare]]",
+        "entities": [
+          "Royal Canin",
+          "Hill's",
+          "Mars Petcare"
+        ]
+      },
+      {
+        "role": "台灣食品廠",
+        "text": "[[福壽實業]]、[[大成長城]]、[[統一]]",
+        "entities": [
+          "福壽實業",
+          "大成長城",
+          "統一"
+        ]
+      },
+      {
+        "role": "資訊系統",
+        "text": "[[SAP]] — ERP 系統",
+        "entities": [
+          "SAP"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Packaged Foods):** [[達邦蛋白]]、[[裕國]]",
+        "entities": [
+          "達邦蛋白",
+          "裕國"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "毛孩市集"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "毛孩市集",
+      "type": "taiwan_company_or_term",
+      "wikilink": "毛孩市集"
+    },
+    {
+      "name": "福壽實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福壽實業"
+    },
+    {
+      "name": "大成長城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大成長城"
+    },
+    {
+      "name": "統一",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "Royal Canin",
+      "type": "international_company_or_term",
+      "wikilink": "Royal Canin"
+    },
+    {
+      "name": "Hill's",
+      "type": "international_company_or_term",
+      "wikilink": "Hill's"
+    },
+    {
+      "name": "Mars Petcare",
+      "type": "international_company_or_term",
+      "wikilink": "Mars Petcare"
+    },
+    {
+      "name": "達邦蛋白",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達邦蛋白"
+    },
+    {
+      "name": "裕國",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕國"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "萬達寵物事業 (6968，Wonder Pets) 成立於 1999 年，2024 年於櫃買中心掛牌，為台灣寵物產業第一家上市櫃公司。旗下品牌包括「寵物公園」、「凱朵寵物」、「貓狗隊長」及全台最大寵物垂直電商「[[毛孩市集]]」。全台擁有超過 126 家直營門市，營收以食品銷售為主 (約 71%)。與國內食品大廠如[[福壽實業]]、[[大成長城]]、[[統一]]在產品開發方面合作。2021 年率先導入 [[SAP]] 企業資源規劃系統。國際寵物食品品牌合作包括 [[Royal Canin]]、[[Hill's]]、[[Mars Petcare]] 等。",
+    "supply_chain_md": "**上游 (品牌與製造):**\n- **國際品牌:** [[Royal Canin]]、[[Hill's]]、[[Mars Petcare]] — 國際寵物飼料\n- **台灣食品廠:** [[福壽實業]]、[[大成長城]]、[[統一]] — 寵物食品共同開發\n\n**中游 (零售通路與服務):**\n- **萬達寵物** — 全台 126+ 家直營寵物連鎖門市、「[[毛孩市集]]」電商平台、寵物美容住宿安親\n\n**下游 (終端消費者):**\n- **寵物飼主:** 全台犬貓飼主 — 門市消費及線上購物",
+    "customers_suppliers_md": "### 主要客戶\n- **終端消費者:** 全台犬貓飼主 — 126+ 家直營門市及「[[毛孩市集]]」電商\n\n### 主要供應商\n- **國際品牌:** [[Royal Canin]]、[[Hill's]]、[[Mars Petcare]]\n- **台灣食品廠:** [[福壽實業]]、[[大成長城]]、[[統一]]\n- **資訊系統:** [[SAP]] — ERP 系統"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

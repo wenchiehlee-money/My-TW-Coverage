@@ -1,0 +1,226 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5243",
+  "company_name": "乙盛-KY",
+  "title": "5243 - 乙盛-KY",
+  "source_md": "Pilot_Reports/Electronic Components/5243_乙盛-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "12,606 百萬台幣",
+    "enterprise_value": "9,223 百萬台幣"
+  },
+  "business": {
+    "summary": "乙盛-KY (Eson) 為 **[[鴻海]]集團** 旗下之精密機構件大廠，扮演集團內「機構件軍火庫」角色。\n主要業務板塊：\n1.  **車用機構件 (Automotive)**: **[[Tesla]] (特斯拉)** 一級供應商，生產車身結構、電池機構件、內飾件 (營收過半)。\n2.  **網通/伺服器**: [[低軌衛星]]地面設備 ([[SpaceX]] 合作夥伴)、[[AI]] [[伺服器]]機殼/側邊櫃。\n3.  **消費性電子**: 電視機構件 ([[Sony]]/[[鴻海]])、遊戲機。\n全球佈局完整，**墨西哥廠** 為最大生產基地，就近服務北美車廠與[[伺服器]]客戶。",
+    "entities": [
+      "鴻海",
+      "Tesla",
+      "低軌衛星",
+      "SpaceX",
+      "AI",
+      "伺服器",
+      "Sony"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 金屬板材 (鋼/鋁), 塑膠粒子.",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **乙盛 (5243)** - 模具設計, 沖壓, 塑膠射出, 表面處理.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[電動車]]**: [[Tesla]] (最大客戶).",
+        "entities": [
+          "電動車",
+          "Tesla"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[低軌衛星]]**: [[SpaceX]].",
+        "entities": [
+          "低軌衛星",
+          "SpaceX"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**消費電子/組裝**: [[鴻海]], [[Sony]].",
+        "entities": [
+          "鴻海",
+          "Sony"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**[[電動車]]**: [[Tesla]] (Model 3/Y/Cybertruck 相關組件).",
+        "entities": [
+          "電動車",
+          "Tesla"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**[[低軌衛星]]**: [[SpaceX]] (Starlink 地面接收站機構件).",
+        "entities": [
+          "低軌衛星",
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**集團**: [[鴻海]] ([[鴻海]]集團各事業群).",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**消費電**: [[Sony]] (TV/遊戲機).",
+        "entities": [
+          "Sony"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**生態系**: [[鴻海]]集團供應鏈體系.",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "電動車",
+          "Tesla",
+          "低軌衛星",
+          "SpaceX",
+          "鴻海",
+          "Sony"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "乙盛-KY (Eson) 為 **[[鴻海]]集團** 旗下之精密機構件大廠，扮演集團內「機構件軍火庫」角色。\n主要業務板塊：\n1.  **車用機構件 (Automotive)**: **[[Tesla]] (特斯拉)** 一級供應商，生產車身結構、電池機構件、內飾件 (營收過半)。\n2.  **網通/伺服器**: [[低軌衛星]]地面設備 ([[SpaceX]] 合作夥伴)、[[AI]] [[伺服器]]機殼/側邊櫃。\n3.  **消費性電子**: 電視機構件 ([[Sony]]/[[鴻海]])、遊戲機。\n全球佈局完整，**墨西哥廠** 為最大生產基地，就近服務北美車廠與[[伺服器]]客戶。",
+    "supply_chain_md": "*   **中游 (本體)**: **乙盛 (5243)** - 模具設計, 沖壓, 塑膠射出, 表面處理.\n*   **上游**: 金屬板材 (鋼/鋁), 塑膠粒子.\n*   **下游**:\n    *   **[[電動車]]**: [[Tesla]] (最大客戶).\n    *   **[[低軌衛星]]**: [[SpaceX]].\n    *   **消費電子/組裝**: [[鴻海]], [[Sony]].",
+    "customers_suppliers_md": "### 主要客戶\n*   **[[電動車]]**: [[Tesla]] (Model 3/Y/Cybertruck 相關組件).\n*   **[[低軌衛星]]**: [[SpaceX]] (Starlink 地面接收站機構件).\n*   **集團**: [[鴻海]] ([[鴻海]]集團各事業群).\n*   **消費電**: [[Sony]] (TV/遊戲機).\n\n### 主要供應商\n*   **生態系**: [[鴻海]]集團供應鏈體系."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

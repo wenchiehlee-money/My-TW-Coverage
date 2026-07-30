@@ -1,0 +1,176 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2948",
+  "company_name": "寶陞",
+  "title": "2948 - 寶陞",
+  "source_md": "Pilot_Reports/Home Improvement Retail/2948_寶陞.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Home Improvement Retail",
+    "market_cap": "1,145 百萬台幣",
+    "enterprise_value": "1,981 百萬台幣"
+  },
+  "business": {
+    "summary": "寶陞國際 (2948，Baosheng International) 為專注美國市場的地板與建材通路商，旗下擁有自有品牌 [[Artisan Hardwood]] 及 [[BAUSEN]]。公司總部設於美國德州休士頓，主攻美國華人社區、當地建商及承包商市場。產品涵蓋：(1) 海島型實木複合地板；(2) [[SPC]] 石塑防水超耐磨地板；(3) 超耐磨木地板；(4) 廚房櫥櫃與石英石檯面。在美國設有 5 座倉儲，自有物流車隊逾 20 輛，向全美約 4,500 個客戶供應產品。",
+    "entities": [
+      "Artisan Hardwood",
+      "BAUSEN",
+      "SPC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (地板製造)",
+        "text": "**上游 (地板製造):**",
+        "entities": []
+      },
+      {
+        "category": "地板 OEM",
+        "text": "中國、越南、東南亞地板代工廠 — 實木複合地板、[[SPC]] 石塑地板",
+        "entities": [
+          "SPC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌通路)",
+        "text": "**中游 (品牌通路):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**寶陞** ([[Artisan Hardwood]]/[[BAUSEN]] 品牌經營、美國倉儲物流、直銷通路)",
+        "entities": [
+          "Artisan Hardwood",
+          "BAUSEN"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "裝修承包商",
+        "text": "美國各州裝修工班 — B2B 直銷",
+        "entities": []
+      },
+      {
+        "category": "建商",
+        "text": "美國地區型建商 — 新建案地板",
+        "entities": []
+      },
+      {
+        "category": "指標客戶",
+        "text": "[[巴克萊銀行]]休士頓分行、[[福朋喜來登]]酒店",
+        "entities": [
+          "巴克萊銀行",
+          "福朋喜來登"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "裝修承包商",
+        "text": "美國各州裝修工班 — 全美約 4,500 個客戶",
+        "entities": []
+      },
+      {
+        "role": "建商",
+        "text": "美國地區型中小建商",
+        "entities": []
+      },
+      {
+        "role": "指標客戶",
+        "text": "[[巴克萊銀行]]休士頓分行、加州[[福朋喜來登]]酒店",
+        "entities": [
+          "巴克萊銀行",
+          "福朋喜來登"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "地板代工",
+        "text": "中國、越南、東南亞 OEM 工廠 — 實木複合地板與 [[SPC]] 地板",
+        "entities": [
+          "SPC"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Home Improvement Retail):** [[同業待補]]",
+        "entities": [
+          "同業待補"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "巴克萊銀行",
+          "福朋喜來登"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Artisan Hardwood",
+      "type": "international_company_or_term",
+      "wikilink": "Artisan Hardwood"
+    },
+    {
+      "name": "BAUSEN",
+      "type": "international_company_or_term",
+      "wikilink": "BAUSEN"
+    },
+    {
+      "name": "SPC",
+      "type": "international_company_or_term",
+      "wikilink": "SPC"
+    },
+    {
+      "name": "巴克萊銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巴克萊銀行"
+    },
+    {
+      "name": "福朋喜來登",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福朋喜來登"
+    },
+    {
+      "name": "同業待補",
+      "type": "taiwan_company_or_term",
+      "wikilink": "同業待補"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶陞國際 (2948，Baosheng International) 為專注美國市場的地板與建材通路商，旗下擁有自有品牌 [[Artisan Hardwood]] 及 [[BAUSEN]]。公司總部設於美國德州休士頓，主攻美國華人社區、當地建商及承包商市場。產品涵蓋：(1) 海島型實木複合地板；(2) [[SPC]] 石塑防水超耐磨地板；(3) 超耐磨木地板；(4) 廚房櫥櫃與石英石檯面。在美國設有 5 座倉儲，自有物流車隊逾 20 輛，向全美約 4,500 個客戶供應產品。",
+    "supply_chain_md": "**上游 (地板製造):**\n- **地板 OEM:** 中國、越南、東南亞地板代工廠 — 實木複合地板、[[SPC]] 石塑地板\n\n**中游 (品牌通路):**\n- **寶陞** ([[Artisan Hardwood]]/[[BAUSEN]] 品牌經營、美國倉儲物流、直銷通路)\n\n**下游 (終端客戶):**\n- **裝修承包商:** 美國各州裝修工班 — B2B 直銷\n- **建商:** 美國地區型建商 — 新建案地板\n- **指標客戶:** [[巴克萊銀行]]休士頓分行、[[福朋喜來登]]酒店",
+    "customers_suppliers_md": "### 主要客戶\n- **裝修承包商:** 美國各州裝修工班 — 全美約 4,500 個客戶\n- **建商:** 美國地區型中小建商\n- **指標客戶:** [[巴克萊銀行]]休士頓分行、加州[[福朋喜來登]]酒店\n\n### 主要供應商\n- **地板代工:** 中國、越南、東南亞 OEM 工廠 — 實木複合地板與 [[SPC]] 地板"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

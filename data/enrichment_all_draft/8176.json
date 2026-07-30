@@ -1,0 +1,285 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8176",
+  "company_name": "智捷",
+  "title": "8176 - 智捷",
+  "source_md": "Pilot_Reports/Communication Equipment/8176_智捷.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "672 百萬台幣",
+    "enterprise_value": "379 百萬台幣"
+  },
+  "business": {
+    "summary": "智捷科技 (8176，[[Z-Com]]) 為台灣專精無線通訊系統之研發製造廠商，成立於 1995 年，總部位於新竹科學園區，於台灣及中國皆設有生產基地。公司憑藉射頻 ([[RF]]) 研發與無線寬頻網路整合軟體開發兩大核心技術，多次與國際級電信商合作，累計成功建置數百萬個營運商等級 [[Wi-Fi]] 基地台，業務遍布歐亞。\n\n核心產品涵蓋室內外無線基地台 (AP)、[[Wi-Fi 6]] 模組、工業級蜂巢式閘道器 (Cellular Gateway)、串列裝置伺服器 (Serial Device Server) 及邊緣運算平台 (zMEC)。公司整合 [[5G]] 與 Wi-Fi/[[AIoT]] 技術，提供高客製化應用型專網方案，服務涵蓋新能源場域通訊管理、智慧校園、車載 Wi-Fi、電信商級 Wi-Fi 及偏鄉無線覆蓋。近年與 [[中華電信]] 合作，透過中華碩銓代理上架 IMO 平台，拓展中小企業無線網路市場。",
+    "entities": [
+      "Z-Com",
+      "RF",
+      "Wi-Fi",
+      "Wi-Fi 6",
+      "5G",
+      "AIoT",
+      "中華電信"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (無線通訊晶片與模組)",
+        "text": "**上游 (無線通訊晶片與模組):**",
+        "entities": []
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — Wi-Fi 6/6E AP 晶片",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "蜂巢式模組",
+        "text": "4G/[[5G]] 通訊模組",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "射頻元件",
+        "text": "[[RF]] 射頻前端元件",
+        "entities": [
+          "RF"
+        ]
+      },
+      {
+        "category": "PCB 與被動元件",
+        "text": "印刷電路板及電子被動元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (無線通訊設備製造)",
+        "text": "**中游 (無線通訊設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "無線 AP",
+        "text": "**智捷** (室內外營運商等級 [[Wi-Fi]] 基地台)",
+        "entities": [
+          "Wi-Fi"
+        ]
+      },
+      {
+        "category": "IoT 閘道器",
+        "text": "**智捷** (工業蜂巢式閘道器、Serial Device Server)",
+        "entities": []
+      },
+      {
+        "category": "邊緣運算",
+        "text": "**智捷** (zMEC 邊緣運算平台、ZOAM 維運系統)",
+        "entities": []
+      },
+      {
+        "category": "Wi-Fi 模組",
+        "text": "**智捷** ([[Wi-Fi 6]] OEM 模組)",
+        "entities": [
+          "Wi-Fi 6"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信商與企業客戶)",
+        "text": "**下游 (電信商與企業客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電信商",
+        "text": "[[中華電信]] (透過中華碩銓代理 IMO 平台)",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "category": "國際電信",
+        "text": "歐亞國際級電信營運商 — 營運商等級 Wi-Fi AP",
+        "entities": []
+      },
+      {
+        "category": "新能源",
+        "text": "新能源場域通訊管理客戶",
+        "entities": []
+      },
+      {
+        "category": "企業專網",
+        "text": "智慧校園、飯店、車載 Wi-Fi 系統整合商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信營運商",
+        "text": "[[中華電信]] (IMO 平台合作)、歐亞國際級電信商 — 營運商等級 Wi-Fi AP",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "新能源",
+        "text": "新能源場域 — [[5G]]/Wi-Fi 通訊管理方案",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "role": "企業客戶",
+        "text": "智慧校園、飯店、偏鄉 Wi-Fi 覆蓋專案",
+        "entities": []
+      },
+      {
+        "role": "車載市場",
+        "text": "車載 Wi-Fi 系統整合商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — AP 晶片方案",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "通訊模組",
+        "text": "4G/[[5G]] 蜂巢式通訊模組供應商",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "role": "射頻元件",
+        "text": "[[RF]] 射頻前端元件供應商",
+        "entities": [
+          "RF"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "5G"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Z-Com",
+      "type": "international_company_or_term",
+      "wikilink": "Z-Com"
+    },
+    {
+      "name": "RF",
+      "type": "international_company_or_term",
+      "wikilink": "RF"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "Wi-Fi 6",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 6"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "智捷科技 (8176，[[Z-Com]]) 為台灣專精無線通訊系統之研發製造廠商，成立於 1995 年，總部位於新竹科學園區，於台灣及中國皆設有生產基地。公司憑藉射頻 ([[RF]]) 研發與無線寬頻網路整合軟體開發兩大核心技術，多次與國際級電信商合作，累計成功建置數百萬個營運商等級 [[Wi-Fi]] 基地台，業務遍布歐亞。\n\n核心產品涵蓋室內外無線基地台 (AP)、[[Wi-Fi 6]] 模組、工業級蜂巢式閘道器 (Cellular Gateway)、串列裝置伺服器 (Serial Device Server) 及邊緣運算平台 (zMEC)。公司整合 [[5G]] 與 Wi-Fi/[[AIoT]] 技術，提供高客製化應用型專網方案，服務涵蓋新能源場域通訊管理、智慧校園、車載 Wi-Fi、電信商級 Wi-Fi 及偏鄉無線覆蓋。近年與 [[中華電信]] 合作，透過中華碩銓代理上架 IMO 平台，拓展中小企業無線網路市場。",
+    "supply_chain_md": "**上游 (無線通訊晶片與模組):**\n- **Wi-Fi 晶片:** [[Qualcomm]]、[[聯發科]] — Wi-Fi 6/6E AP 晶片\n- **蜂巢式模組:** 4G/[[5G]] 通訊模組\n- **射頻元件:** [[RF]] 射頻前端元件\n- **PCB 與被動元件:** 印刷電路板及電子被動元件\n\n**中游 (無線通訊設備製造):**\n- **無線 AP:** **智捷** (室內外營運商等級 [[Wi-Fi]] 基地台)\n- **IoT 閘道器:** **智捷** (工業蜂巢式閘道器、Serial Device Server)\n- **邊緣運算:** **智捷** (zMEC 邊緣運算平台、ZOAM 維運系統)\n- **Wi-Fi 模組:** **智捷** ([[Wi-Fi 6]] OEM 模組)\n\n**下游 (電信商與企業客戶):**\n- **電信商:** [[中華電信]] (透過中華碩銓代理 IMO 平台)\n- **國際電信:** 歐亞國際級電信營運商 — 營運商等級 Wi-Fi AP\n- **新能源:** 新能源場域通訊管理客戶\n- **企業專網:** 智慧校園、飯店、車載 Wi-Fi 系統整合商",
+    "customers_suppliers_md": "### 主要客戶\n- **電信營運商:** [[中華電信]] (IMO 平台合作)、歐亞國際級電信商 — 營運商等級 Wi-Fi AP\n- **新能源:** 新能源場域 — [[5G]]/Wi-Fi 通訊管理方案\n- **企業客戶:** 智慧校園、飯店、偏鄉 Wi-Fi 覆蓋專案\n- **車載市場:** 車載 Wi-Fi 系統整合商\n\n### 主要供應商\n- **Wi-Fi 晶片:** [[Qualcomm]]、[[聯發科]] — AP 晶片方案\n- **通訊模組:** 4G/[[5G]] 蜂巢式通訊模組供應商\n- **射頻元件:** [[RF]] 射頻前端元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

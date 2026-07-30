@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3499",
+  "company_name": "環天科",
+  "title": "3499 - 環天科",
+  "source_md": "Pilot_Reports/Scientific & Technical Instruments/3499_環天科.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "684 百萬台幣",
+    "enterprise_value": "593 百萬台幣"
+  },
+  "business": {
+    "summary": "環天科技股份有限公司 (3499，GlobalSat) 專注於 GPS 應用與物聯網 (IoT) 裝置。主要產品包括 GPS 追蹤器 (Tracker)、穿戴式裝置 (智慧潛水錶/高爾夫錶) 與 GNSS 模組。近年積極轉型低軌衛星 (LEO) 應用，開發衛星追蹤器與 NB-IoT/LoRaWAN 裝置。智慧潛水錶業務採[[ODM]]模式，代工全球主要潛水設備品牌如[[Suunto]]、[[Garmin]]。產品通過全球各國安規認證。",
+    "entities": [
+      "ODM",
+      "Suunto",
+      "Garmin"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子零組件)",
+        "text": "**上游 (電子零組件):**",
+        "entities": []
+      },
+      {
+        "category": "GPS 晶片",
+        "text": "[[聯發科]]、[[Sony]] — GNSS 定位晶片",
+        "entities": [
+          "聯發科",
+          "Sony"
+        ]
+      },
+      {
+        "category": "通訊模組",
+        "text": "LoRa/NB-IoT 通訊模組",
+        "entities": []
+      },
+      {
+        "category": "電池與機殼",
+        "text": "防水電池與矽膠/塑膠機構件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[ODM]]設計與製造)",
+        "text": "**中游 ([[ODM]]設計與製造):**",
+        "entities": [
+          "ODM"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**環天科** — GPS 追蹤器、智慧潛水錶、GNSS 模組之設計與組裝",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與通路)",
+        "text": "**下游 (品牌與通路):**",
+        "entities": []
+      },
+      {
+        "category": "潛水設備品牌",
+        "text": "[[Suunto]]、[[Garmin]] — 智慧潛水錶[[ODM]]",
+        "entities": [
+          "Suunto",
+          "Garmin",
+          "ODM"
+        ]
+      },
+      {
+        "category": "資產追蹤",
+        "text": "車隊管理與物流追蹤客戶",
+        "entities": []
+      },
+      {
+        "category": "戶外運動",
+        "text": "高爾夫電子設備品牌",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "潛水設備品牌",
+        "text": "[[Suunto]]、[[Garmin]] — 智慧潛水錶[[ODM]]代工",
+        "entities": [
+          "Suunto",
+          "Garmin",
+          "ODM"
+        ]
+      },
+      {
+        "role": "高爾夫品牌",
+        "text": "高爾夫電子設備品牌",
+        "entities": []
+      },
+      {
+        "role": "資產追蹤",
+        "text": "車隊管理與物流追蹤系統客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "GPS 晶片",
+        "text": "[[聯發科]]、[[Sony]] — GNSS 定位通訊晶片",
+        "entities": [
+          "聯發科",
+          "Sony"
+        ]
+      },
+      {
+        "role": "通訊模組",
+        "text": "LoRa/NB-IoT 模組供應商",
+        "entities": []
+      },
+      {
+        "role": "組裝代工",
+        "text": "電子零組件貼片組裝廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Scientific & Technical Instruments):** [[致茂]]、[[固緯]]、[[德律]]、[[華晶科]]、[[鼎天]]",
+        "entities": [
+          "致茂",
+          "固緯",
+          "德律",
+          "華晶科",
+          "鼎天"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Suunto",
+          "Garmin",
+          "ODM"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "Suunto",
+      "type": "international_company_or_term",
+      "wikilink": "Suunto"
+    },
+    {
+      "name": "Garmin",
+      "type": "international_company_or_term",
+      "wikilink": "Garmin"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "致茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致茂"
+    },
+    {
+      "name": "固緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固緯"
+    },
+    {
+      "name": "德律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "德律"
+    },
+    {
+      "name": "華晶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華晶科"
+    },
+    {
+      "name": "鼎天",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鼎天"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "環天科技股份有限公司 (3499，GlobalSat) 專注於 GPS 應用與物聯網 (IoT) 裝置。主要產品包括 GPS 追蹤器 (Tracker)、穿戴式裝置 (智慧潛水錶/高爾夫錶) 與 GNSS 模組。近年積極轉型低軌衛星 (LEO) 應用，開發衛星追蹤器與 NB-IoT/LoRaWAN 裝置。智慧潛水錶業務採[[ODM]]模式，代工全球主要潛水設備品牌如[[Suunto]]、[[Garmin]]。產品通過全球各國安規認證。",
+    "supply_chain_md": "**上游 (電子零組件):**\n- **GPS 晶片:** [[聯發科]]、[[Sony]] — GNSS 定位晶片\n- **通訊模組:** LoRa/NB-IoT 通訊模組\n- **電池與機殼:** 防水電池與矽膠/塑膠機構件\n\n**中游 ([[ODM]]設計與製造):**\n- **環天科** — GPS 追蹤器、智慧潛水錶、GNSS 模組之設計與組裝\n\n**下游 (品牌與通路):**\n- **潛水設備品牌:** [[Suunto]]、[[Garmin]] — 智慧潛水錶[[ODM]]\n- **資產追蹤:** 車隊管理與物流追蹤客戶\n- **戶外運動:** 高爾夫電子設備品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **潛水設備品牌:** [[Suunto]]、[[Garmin]] — 智慧潛水錶[[ODM]]代工\n- **高爾夫品牌:** 高爾夫電子設備品牌\n- **資產追蹤:** 車隊管理與物流追蹤系統客戶\n\n### 主要供應商\n- **GPS 晶片:** [[聯發科]]、[[Sony]] — GNSS 定位通訊晶片\n- **通訊模組:** LoRa/NB-IoT 模組供應商\n- **組裝代工:** 電子零組件貼片組裝廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3588",
+  "company_name": "通嘉",
+  "title": "3588 - 通嘉",
+  "source_md": "Pilot_Reports/Semiconductors/3588_通嘉.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "2,898 百萬台幣",
+    "enterprise_value": "2,281 百萬台幣"
+  },
+  "business": {
+    "summary": "通嘉科技 (Leadtrend) 為 **AC/DC 電源管理 IC** 設計商。\n專注於 **高功率密度** 與 **快充** 解決方案。\n主要產品：\n1.  **PWM 控制器**: AC/DC 電源核心晶片。\n2.  **USB-PD 協議晶片**: 支援 [[Type-C]] 快充規格 (PD 3.1)。\n3.  **同步整流 (SR) IC**: 提升電源轉換效率。\n客戶包含各大電源供應器廠，最終應用於手機快充頭、NB 變壓器、[[網通]]設備與智慧家電。",
+    "entities": [
+      "Type-C",
+      "網通"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 晶圓代工 ([[聯電]], [[世界]]), 封測廠.",
+        "entities": [
+          "聯電",
+          "世界"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **通嘉 (3588)** - IC 設計.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**電源供應器廠**: [[光寶]], [[群光]], [[台達電]].",
+        "entities": [
+          "光寶",
+          "群光",
+          "台達電"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**終端品牌**: 小米, 聯想, 戴爾.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[光寶]] (Lite-On).",
+        "entities": [
+          "光寶"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[群光]] (Chicony).",
+        "entities": [
+          "群光"
+        ]
+      },
+      {
+        "role": "",
+        "text": "陸系手機品牌 (快充標配).",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "光寶",
+          "群光"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Type-C",
+      "type": "international_company_or_term",
+      "wikilink": "Type-C"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "世界",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界"
+    },
+    {
+      "name": "光寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶"
+    },
+    {
+      "name": "群光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群光"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "通嘉科技 (Leadtrend) 為 **AC/DC 電源管理 IC** 設計商。\n專注於 **高功率密度** 與 **快充** 解決方案。\n主要產品：\n1.  **PWM 控制器**: AC/DC 電源核心晶片。\n2.  **USB-PD 協議晶片**: 支援 [[Type-C]] 快充規格 (PD 3.1)。\n3.  **同步整流 (SR) IC**: 提升電源轉換效率。\n客戶包含各大電源供應器廠，最終應用於手機快充頭、NB 變壓器、[[網通]]設備與智慧家電。",
+    "supply_chain_md": "*   **上游**: 晶圓代工 ([[聯電]], [[世界]]), 封測廠.\n*   **中游**: **通嘉 (3588)** - IC 設計.\n*   **下游**:\n    *   **電源供應器廠**: [[光寶]], [[群光]], [[台達電]].\n    *   **終端品牌**: 小米, 聯想, 戴爾.",
+    "customers_suppliers_md": "### 主要客戶\n*   [[光寶]] (Lite-On).\n*   [[群光]] (Chicony).\n*   陸系手機品牌 (快充標配)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

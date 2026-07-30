@@ -1,0 +1,259 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2364",
+  "company_name": "倫飛",
+  "title": "2364 - 倫飛",
+  "source_md": "Pilot_Reports/Computer Hardware/2364_倫飛.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "3,557 百萬台幣",
+    "enterprise_value": "3,328 百萬台幣"
+  },
+  "business": {
+    "summary": "倫飛電腦 (2364，[[Twinhead International]]) 成立於 1984 年，總部位於台北內湖，以自有品牌「DURABOOK」專精於軍規級強固型筆記型電腦及平板電腦之設計、開發與製造。公司於 2000 年製造出第一台軍規強固型筆電，隨後建立 DURABOOK 品牌。\n\n產品通過美軍 MIL-STD-810H 及 IP65/IP66 防塵防水認證，針對極端或特殊環境量身打造。應用領域涵蓋國防軍事、公共安全執法、製造業、石油天然氣、物流運輸、醫療、公用事業及汽車產業。公司提供從工業級規格產品驗證、特殊功能驗證、彈性生產系統到客製化之一站式服務，在全球國防及特種行業市場擁有穩固客戶基礎。產品搭載 [[Intel]] 處理器並支援 [[Windows]] 作業系統，通過 [[MIL-STD-810H]] 軍規認證。",
+    "entities": [
+      "Twinhead International",
+      "Intel",
+      "Windows",
+      "MIL-STD-810H"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (工業級零組件)",
+        "text": "**上游 (工業級零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]] — 工業級行動處理器",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "顯示面板",
+        "text": "陽光下可視之高亮度工業級面板",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "軍規級鎂鋁合金機殼、防水防塵膠條及橡膠防護件",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "工業級寬溫 DRAM/SSD、抗震硬碟",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (軍規強固型電腦設計製造)",
+        "text": "**中游 (軍規強固型電腦設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "強固筆電",
+        "text": "**倫飛** (DURABOOK 品牌軍規強固型筆電)",
+        "entities": []
+      },
+      {
+        "category": "強固平板",
+        "text": "**倫飛** (DURABOOK 強固型平板電腦)",
+        "entities": []
+      },
+      {
+        "category": "客製化服務",
+        "text": "**倫飛** (全工業規格驗證及客製化設計)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國防軍事與特種行業)",
+        "text": "**下游 (國防軍事與特種行業):**",
+        "entities": []
+      },
+      {
+        "category": "國防軍事",
+        "text": "美國各軍種 — 軍規強固型運算設備",
+        "entities": []
+      },
+      {
+        "category": "公共安全",
+        "text": "全球警政及執法機關 — 車載強固型電腦",
+        "entities": []
+      },
+      {
+        "category": "工業現場",
+        "text": "石油天然氣、公用事業、製造業 — 現場行動運算",
+        "entities": []
+      },
+      {
+        "category": "物流運輸",
+        "text": "物流及運輸業 — 車載強固型平板",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國防軍事",
+        "text": "美國各軍種及全球國防單位 — 軍規 MIL-STD-810H 強固型筆電/平板",
+        "entities": []
+      },
+      {
+        "role": "公共安全",
+        "text": "全球警政及執法機關 — 車載強固型電腦",
+        "entities": []
+      },
+      {
+        "role": "工業應用",
+        "text": "石油天然氣/公用事業/製造業 — 現場行動運算",
+        "entities": []
+      },
+      {
+        "role": "物流運輸",
+        "text": "國際物流及運輸業 — 車載強固型平板",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — 工業級行動處理器平台",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "工業級高亮度陽光下可視面板供應商",
+        "entities": []
+      },
+      {
+        "role": "機構件",
+        "text": "鎂鋁合金軍規機殼供應商",
+        "entities": []
+      },
+      {
+        "role": "儲存",
+        "text": "工業級寬溫 [[SSD]] 固態硬碟供應商",
+        "entities": [
+          "SSD"
+        ]
+      },
+      {
+        "role": "通訊",
+        "text": "[[Wi-Fi]]/[[Bluetooth]] 無線通訊模組",
+        "entities": [
+          "Wi-Fi",
+          "Bluetooth"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Twinhead International",
+      "type": "international_company_or_term",
+      "wikilink": "Twinhead International"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Windows",
+      "type": "international_company_or_term",
+      "wikilink": "Windows"
+    },
+    {
+      "name": "MIL-STD-810H",
+      "type": "international_company_or_term",
+      "wikilink": "MIL-STD-810H"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "Bluetooth",
+      "type": "international_company_or_term",
+      "wikilink": "Bluetooth"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "倫飛電腦 (2364，[[Twinhead International]]) 成立於 1984 年，總部位於台北內湖，以自有品牌「DURABOOK」專精於軍規級強固型筆記型電腦及平板電腦之設計、開發與製造。公司於 2000 年製造出第一台軍規強固型筆電，隨後建立 DURABOOK 品牌。\n\n產品通過美軍 MIL-STD-810H 及 IP65/IP66 防塵防水認證，針對極端或特殊環境量身打造。應用領域涵蓋國防軍事、公共安全執法、製造業、石油天然氣、物流運輸、醫療、公用事業及汽車產業。公司提供從工業級規格產品驗證、特殊功能驗證、彈性生產系統到客製化之一站式服務，在全球國防及特種行業市場擁有穩固客戶基礎。產品搭載 [[Intel]] 處理器並支援 [[Windows]] 作業系統，通過 [[MIL-STD-810H]] 軍規認證。",
+    "supply_chain_md": "**上游 (工業級零組件):**\n- **處理器:** [[Intel]] — 工業級行動處理器\n- **顯示面板:** 陽光下可視之高亮度工業級面板\n- **機構件:** 軍規級鎂鋁合金機殼、防水防塵膠條及橡膠防護件\n- **電子元件:** 工業級寬溫 DRAM/SSD、抗震硬碟\n\n**中游 (軍規強固型電腦設計製造):**\n- **強固筆電:** **倫飛** (DURABOOK 品牌軍規強固型筆電)\n- **強固平板:** **倫飛** (DURABOOK 強固型平板電腦)\n- **客製化服務:** **倫飛** (全工業規格驗證及客製化設計)\n\n**下游 (國防軍事與特種行業):**\n- **國防軍事:** 美國各軍種 — 軍規強固型運算設備\n- **公共安全:** 全球警政及執法機關 — 車載強固型電腦\n- **工業現場:** 石油天然氣、公用事業、製造業 — 現場行動運算\n- **物流運輸:** 物流及運輸業 — 車載強固型平板",
+    "customers_suppliers_md": "### 主要客戶\n- **國防軍事:** 美國各軍種及全球國防單位 — 軍規 MIL-STD-810H 強固型筆電/平板\n- **公共安全:** 全球警政及執法機關 — 車載強固型電腦\n- **工業應用:** 石油天然氣/公用事業/製造業 — 現場行動運算\n- **物流運輸:** 國際物流及運輸業 — 車載強固型平板\n\n### 主要供應商\n- **處理器:** [[Intel]] — 工業級行動處理器平台\n- **面板:** 工業級高亮度陽光下可視面板供應商\n- **機構件:** 鎂鋁合金軍規機殼供應商\n- **儲存:** 工業級寬溫 [[SSD]] 固態硬碟供應商\n- **通訊:** [[Wi-Fi]]/[[Bluetooth]] 無線通訊模組"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

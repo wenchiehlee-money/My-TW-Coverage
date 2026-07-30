@@ -1,0 +1,274 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5464",
+  "company_name": "霖宏",
+  "title": "5464 - 霖宏",
+  "source_md": "Pilot_Reports/Electronic Components/5464_霖宏.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,605 百萬台幣",
+    "enterprise_value": "6,669 百萬台幣"
+  },
+  "business": {
+    "summary": "霖宏科技 (5464) 成立於 1995 年，總部位於嘉義，專注於多層[[PCB]] 製造，產品以 2-16 層板為主。\n\n應用領域涵蓋：(1) [[工業電腦]] — 供應工控設備用 [[PCB]]，為穩定營收來源；(2) [[網通]]設備 — 路由器、交換器等網通產品用板；(3) 車用電子 — 車載影音/導航系統 [[PCB]]；(4) 消費性電子 — 家電、遊戲機用板。公司以多樣化產品組合分散風險，並積極提升高階產品比重。上游材料主要採購自銅箔基板 (CCL) 廠如[[聯茂]]、[[台光電]]等。",
+    "entities": [
+      "PCB",
+      "工業電腦",
+      "網通",
+      "聯茂",
+      "台光電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "[[銅箔]]基板 (CCL)",
+        "text": "[[聯茂]]、[[台光電]] — PCB 核心材料",
+        "entities": [
+          "銅箔",
+          "聯茂",
+          "台光電"
+        ]
+      },
+      {
+        "category": "化學藥水",
+        "text": "PCB 製程用蝕刻液、顯影液",
+        "entities": []
+      },
+      {
+        "category": "油墨",
+        "text": "防焊油墨供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (PCB 製造)",
+        "text": "**中游 (PCB 製造):**",
+        "entities": []
+      },
+      {
+        "category": "多層板",
+        "text": "**霖宏** (2-16 層 [[PCB]] 製造)",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "[[工業電腦]]",
+        "text": "[[研華]]、[[凌華]] 等工控設備廠",
+        "entities": [
+          "工業電腦",
+          "研華",
+          "凌華"
+        ]
+      },
+      {
+        "category": "[[網通]]設備",
+        "text": "路由器/交換器製造廠",
+        "entities": [
+          "網通"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "車載影音/導航系統模組廠",
+        "entities": []
+      },
+      {
+        "category": "消費性電子",
+        "text": "家電與遊戲機製造廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[工業電腦]]",
+        "text": "[[研華]]、[[凌華]] 等工控設備廠 — 工控用 [[PCB]]",
+        "entities": [
+          "工業電腦",
+          "研華",
+          "凌華",
+          "PCB"
+        ]
+      },
+      {
+        "role": "[[網通]]設備",
+        "text": "網通設備製造廠 — 路由器/交換器用板",
+        "entities": [
+          "網通"
+        ]
+      },
+      {
+        "role": "車用電子",
+        "text": "車載影音/導航模組廠 — 車用 [[PCB]]",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "消費性電子",
+        "text": "家電與遊戲機製造廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[銅箔]]基板",
+        "text": "[[聯茂]]、[[台光電]] — CCL 銅箔基板",
+        "entities": [
+          "銅箔",
+          "聯茂",
+          "台光電"
+        ]
+      },
+      {
+        "role": "化學藥水",
+        "text": "PCB 製程用蝕刻液與顯影液",
+        "entities": []
+      },
+      {
+        "role": "油墨",
+        "text": "防焊油墨供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "工業電腦",
+          "研華",
+          "凌華",
+          "PCB",
+          "網通",
+          "PCB"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "應用領域涵蓋：(1) [[工業電腦]] — 供應工控設備用 [[PCB]]，為穩定營收來源；(2) [[網通]]設備 — 路由器、交換器等網通產品用板；(3) 車用電子 — 車載影音/導航系統 [[PCB]]；(4) 消費性電子 — 家電、遊戲機用板。公司以多樣化產品組合分散風險，並積極提升高階產品比重。上游材料主要採購自銅箔基板 (CCL) 廠如[[聯茂]]、[[台光電]]等。",
+        "entities": [
+          "工業電腦",
+          "PCB",
+          "網通",
+          "聯茂",
+          "台光電"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "凌華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌華"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "霖宏科技 (5464) 成立於 1995 年，總部位於嘉義，專注於多層[[PCB]] 製造，產品以 2-16 層板為主。\n\n應用領域涵蓋：(1) [[工業電腦]] — 供應工控設備用 [[PCB]]，為穩定營收來源；(2) [[網通]]設備 — 路由器、交換器等網通產品用板；(3) 車用電子 — 車載影音/導航系統 [[PCB]]；(4) 消費性電子 — 家電、遊戲機用板。公司以多樣化產品組合分散風險，並積極提升高階產品比重。上游材料主要採購自銅箔基板 (CCL) 廠如[[聯茂]]、[[台光電]]等。",
+    "supply_chain_md": "**上游 (原材料):**\n- **[[銅箔]]基板 (CCL):** [[聯茂]]、[[台光電]] — PCB 核心材料\n- **化學藥水:** PCB 製程用蝕刻液、顯影液\n- **油墨:** 防焊油墨供應商\n\n**中游 (PCB 製造):**\n- **多層板:** **霖宏** (2-16 層 [[PCB]] 製造)\n\n**下游 (終端應用):**\n- **[[工業電腦]]:** [[研華]]、[[凌華]] 等工控設備廠\n- **[[網通]]設備:** 路由器/交換器製造廠\n- **車用電子:** 車載影音/導航系統模組廠\n- **消費性電子:** 家電與遊戲機製造廠",
+    "customers_suppliers_md": "### 主要客戶\n- **[[工業電腦]]:** [[研華]]、[[凌華]] 等工控設備廠 — 工控用 [[PCB]]\n- **[[網通]]設備:** 網通設備製造廠 — 路由器/交換器用板\n- **車用電子:** 車載影音/導航模組廠 — 車用 [[PCB]]\n- **消費性電子:** 家電與遊戲機製造廠\n\n### 主要供應商\n- **[[銅箔]]基板:** [[聯茂]]、[[台光電]] — CCL 銅箔基板\n- **化學藥水:** PCB 製程用蝕刻液與顯影液\n- **油墨:** 防焊油墨供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

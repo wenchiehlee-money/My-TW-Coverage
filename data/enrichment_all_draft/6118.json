@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6118",
+  "company_name": "建達",
+  "title": "6118_建達",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/6118_建達.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "1,427 百萬台幣",
+    "enterprise_value": "2,126 百萬台幣"
+  },
+  "business": {
+    "summary": "建達國際 (6118) 隸屬於 [[HTC]] (宏達電) 集團，是專業 3C 及資訊電子零組件通路代理商。主要業務包含電腦系統設備、週邊產品、儲存裝置 ([[SSD]]/硬碟)、網通設備及軟體之經銷代理。建達在台灣及亞太地區擁有龐大銷售網路，代理品牌包括 [[WD]] (威騰電子)、[[Microsoft]]、[[HTC]] VIVE 等。近年涉及 [[HTC]] VIVE VR 頭戴裝置及 [[AI]] 相關周邊產品之代理發售。",
+    "entities": [
+      "HTC",
+      "SSD",
+      "WD",
+      "Microsoft",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌原廠)",
+        "text": "**上游 (品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "儲存設備",
+        "text": "[[WD]] (威騰電子) — 硬碟/[[SSD]]",
+        "entities": [
+          "WD",
+          "SSD"
+        ]
+      },
+      {
+        "category": "軟體",
+        "text": "[[Microsoft]] — 作業系統與軟體",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "category": "VR/AI",
+        "text": "[[HTC]] — VIVE VR 頭戴裝置",
+        "entities": [
+          "HTC"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "數十家國際資訊科技品牌",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**建達國際** (資訊電子產品與零組件通路代理經銷)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "經銷門市",
+        "text": "全台數千家經銷門市",
+        "entities": []
+      },
+      {
+        "category": "電商平台",
+        "text": "[[PChome]]、[[Momo]] — 線上零售",
+        "entities": [
+          "PChome",
+          "Momo"
+        ]
+      },
+      {
+        "category": "企業客戶",
+        "text": "政府標案及各企業行號",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經銷門市",
+        "text": "全台數千家 3C 經銷門市",
+        "entities": []
+      },
+      {
+        "role": "電商平台",
+        "text": "[[PChome]]、[[Momo]] — 線上零售",
+        "entities": [
+          "PChome",
+          "Momo"
+        ]
+      },
+      {
+        "role": "企業客戶",
+        "text": "政府標案及各企業行號",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "儲存設備",
+        "text": "[[WD]] (威騰電子) — 硬碟/[[SSD]]",
+        "entities": [
+          "WD",
+          "SSD"
+        ]
+      },
+      {
+        "role": "軟體",
+        "text": "[[Microsoft]] — 作業系統",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "role": "VR/母集團",
+        "text": "[[HTC]] — VIVE VR 頭戴裝置",
+        "entities": [
+          "HTC"
+        ]
+      },
+      {
+        "role": "其他品牌",
+        "text": "數十家國際資訊科技大廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "PChome",
+          "Momo"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "HTC",
+      "type": "international_company_or_term",
+      "wikilink": "HTC"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "WD",
+      "type": "international_company_or_term",
+      "wikilink": "WD"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "PChome",
+      "type": "international_company_or_term",
+      "wikilink": "PChome"
+    },
+    {
+      "name": "Momo",
+      "type": "international_company_or_term",
+      "wikilink": "Momo"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "建達國際 (6118) 隸屬於 [[HTC]] (宏達電) 集團，是專業 3C 及資訊電子零組件通路代理商。主要業務包含電腦系統設備、週邊產品、儲存裝置 ([[SSD]]/硬碟)、網通設備及軟體之經銷代理。建達在台灣及亞太地區擁有龐大銷售網路，代理品牌包括 [[WD]] (威騰電子)、[[Microsoft]]、[[HTC]] VIVE 等。近年涉及 [[HTC]] VIVE VR 頭戴裝置及 [[AI]] 相關周邊產品之代理發售。",
+    "supply_chain_md": "**上游 (品牌原廠):**\n- **儲存設備:** [[WD]] (威騰電子) — 硬碟/[[SSD]]\n- **軟體:** [[Microsoft]] — 作業系統與軟體\n- **VR/AI:** [[HTC]] — VIVE VR 頭戴裝置\n- **其他:** 數十家國際資訊科技品牌\n\n**中游 (通路代理):**\n- **建達國際** (資訊電子產品與零組件通路代理經銷)\n\n**下游 (銷售通路):**\n- **經銷門市:** 全台數千家經銷門市\n- **電商平台:** [[PChome]]、[[Momo]] — 線上零售\n- **企業客戶:** 政府標案及各企業行號",
+    "customers_suppliers_md": "### 主要客戶\n- **經銷門市:** 全台數千家 3C 經銷門市\n- **電商平台:** [[PChome]]、[[Momo]] — 線上零售\n- **企業客戶:** 政府標案及各企業行號\n\n### 主要供應商\n- **儲存設備:** [[WD]] (威騰電子) — 硬碟/[[SSD]]\n- **軟體:** [[Microsoft]] — 作業系統\n- **VR/母集團:** [[HTC]] — VIVE VR 頭戴裝置\n- **其他品牌:** 數十家國際資訊科技大廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

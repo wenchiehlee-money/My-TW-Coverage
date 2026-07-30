@@ -1,0 +1,166 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3257",
+  "company_name": "虹冠電",
+  "title": "3257 - 虹冠電",
+  "source_md": "Pilot_Reports/Semiconductors/3257_虹冠電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "3,899 百萬台幣",
+    "enterprise_value": "2,925 百萬台幣"
+  },
+  "business": {
+    "summary": "虹冠電子 (3257) 是專業的 AC-DC [[電源管理 IC]] 設計公司，產品涵蓋電源控制 IC、[[PWM]] 控制器、[[MOSFET]] 及線性穩壓器。產品應用於主機板、筆電、電源適配器、LCD 電視及網通設備。總部位於新竹科學園區。",
+    "entities": [
+      "電源管理 IC",
+      "PWM",
+      "MOSFET"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "[[台積電]]或[[世界先進]] (類比製程)",
+        "entities": [
+          "台積電",
+          "世界先進"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "電源 IC",
+        "text": "**虹冠電** (AC-DC 電源控制 IC、PWM 控制器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電源應用)",
+        "text": "**下游 (電源應用):**",
+        "entities": []
+      },
+      {
+        "category": "主機板/筆電",
+        "text": "主機板及筆電電源",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "電源適配器及 LCD 電視",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "主機板",
+        "text": "主機板廠電源 IC 需求",
+        "entities": []
+      },
+      {
+        "role": "消費電子",
+        "text": "電源適配器及 LCD 電視廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]或[[世界先進]]",
+        "entities": [
+          "台積電",
+          "世界先進"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[Power Integrations]]、[[立錡]]",
+        "entities": [
+          "Power Integrations",
+          "立錡"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[Power Integrations]]、[[立錡]]",
+        "entities": [
+          "Power Integrations",
+          "立錡"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電源管理 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電源管理 IC"
+    },
+    {
+      "name": "PWM",
+      "type": "international_company_or_term",
+      "wikilink": "PWM"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "Power Integrations",
+      "type": "international_company_or_term",
+      "wikilink": "Power Integrations"
+    },
+    {
+      "name": "立錡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立錡"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "虹冠電子 (3257) 是專業的 AC-DC [[電源管理 IC]] 設計公司，產品涵蓋電源控制 IC、[[PWM]] 控制器、[[MOSFET]] 及線性穩壓器。產品應用於主機板、筆電、電源適配器、LCD 電視及網通設備。總部位於新竹科學園區。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** [[台積電]]或[[世界先進]] (類比製程)\n\n**中游 (IC 設計):**\n- **電源 IC:** **虹冠電** (AC-DC 電源控制 IC、PWM 控制器)\n\n**下游 (電源應用):**\n- **主機板/筆電:** 主機板及筆電電源\n- **消費電子:** 電源適配器及 LCD 電視",
+    "customers_suppliers_md": "### 主要客戶\n- **主機板:** 主機板廠電源 IC 需求\n- **消費電子:** 電源適配器及 LCD 電視廠\n\n### 主要供應商\n- **晶圓代工:** [[台積電]]或[[世界先進]]\n- **競爭同業:** [[Power Integrations]]、[[立錡]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

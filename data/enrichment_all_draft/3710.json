@@ -1,0 +1,260 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3710",
+  "company_name": "連展投控",
+  "title": "3710 - 連展投控",
+  "source_md": "Pilot_Reports/Electronic Components/3710_連展投控.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,433 百萬台幣",
+    "enterprise_value": "5,095 百萬台幣"
+  },
+  "business": {
+    "summary": "連展投控 (3710，[[ACON Holding]]) 為投資控股公司，旗下整合連展科技 (連接器/線束)、[[連訊通信]] (光纖通訊連接器) 與連騰科技 (無線元件/天線) 三大子公司，提供電子連接器、光纖通訊及無線通訊產品。\n\n主要業務與成長動能：\n1. **電子連接器**: 設計製造電腦、通訊與車用連接器，為集團營收基本盤。\n2. **光纖通訊**: 透過 [[連訊通信]] 提供 [[FTTH]] (光纖到府)、[[5G]] 基地台 FTTA 及 [[資料中心]] 光纖連接解決方案。\n3. **低軌衛星**: 整合連展線纜、[[連訊通信]] 光通訊連接器與連騰無線元件技術，打入 [[SpaceX]] 低軌衛星供應鏈，提供衛星傳輸解決方案。\n4. **天線模組**: 連騰科技生產天線模組，應用於無線通訊與物聯網。",
+    "entities": [
+      "ACON Holding",
+      "連訊通信",
+      "FTTH",
+      "5G",
+      "資料中心",
+      "SpaceX"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與零組件)",
+        "text": "**上游 (材料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "金屬端子",
+        "text": "銅合金沖壓件供應商",
+        "entities": []
+      },
+      {
+        "category": "光纖",
+        "text": "光纖纜線與光學元件",
+        "entities": []
+      },
+      {
+        "category": "塑膠",
+        "text": "連接器本體工程塑膠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (連接器/通訊模組製造)",
+        "text": "**中游 (連接器/通訊模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "電子連接器",
+        "text": "連展科技 (電腦/車用連接器與線束)",
+        "entities": []
+      },
+      {
+        "category": "光纖連接器",
+        "text": "[[連訊通信]] ([[FTTH]]/[[5G]] FTTA 光纖連接方案)",
+        "entities": [
+          "連訊通信",
+          "FTTH",
+          "5G"
+        ]
+      },
+      {
+        "category": "無線天線",
+        "text": "連騰科技 (天線模組與無線元件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星",
+        "text": "[[SpaceX]] — 衛星傳輸用連接解決方案",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "category": "電信營運商",
+        "text": "[[中華電信]]、國際電信商 — [[FTTH]] 光纖到府",
+        "entities": [
+          "中華電信",
+          "FTTH"
+        ]
+      },
+      {
+        "category": "資料中心",
+        "text": "雲端 [[資料中心]] — 光纖連接",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "車用連接器與線束",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "低軌衛星",
+        "text": "[[SpaceX]] — 衛星傳輸連接解決方案",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "電信業",
+        "text": "[[中華電信]] — [[FTTH]] 光纖到府連接器",
+        "entities": [
+          "中華電信",
+          "FTTH"
+        ]
+      },
+      {
+        "role": "資料中心",
+        "text": "雲端 [[資料中心]] 營運商 — 光纖連接",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "role": "PC/通訊",
+        "text": "電腦與通訊設備廠商 — 連接器/線束",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光纖",
+        "text": "光纖纜線與光學元件供應商",
+        "entities": []
+      },
+      {
+        "role": "金屬材料",
+        "text": "銅合金端子沖壓件",
+        "entities": []
+      },
+      {
+        "role": "塑膠材料",
+        "text": "連接器本體工程塑膠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "SpaceX",
+          "中華電信",
+          "FTTH",
+          "資料中心"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ACON Holding",
+      "type": "international_company_or_term",
+      "wikilink": "ACON Holding"
+    },
+    {
+      "name": "連訊通信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連訊通信"
+    },
+    {
+      "name": "FTTH",
+      "type": "international_company_or_term",
+      "wikilink": "FTTH"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "連展投控 (3710，[[ACON Holding]]) 為投資控股公司，旗下整合連展科技 (連接器/線束)、[[連訊通信]] (光纖通訊連接器) 與連騰科技 (無線元件/天線) 三大子公司，提供電子連接器、光纖通訊及無線通訊產品。\n\n主要業務與成長動能：\n1. **電子連接器**: 設計製造電腦、通訊與車用連接器，為集團營收基本盤。\n2. **光纖通訊**: 透過 [[連訊通信]] 提供 [[FTTH]] (光纖到府)、[[5G]] 基地台 FTTA 及 [[資料中心]] 光纖連接解決方案。\n3. **低軌衛星**: 整合連展線纜、[[連訊通信]] 光通訊連接器與連騰無線元件技術，打入 [[SpaceX]] 低軌衛星供應鏈，提供衛星傳輸解決方案。\n4. **天線模組**: 連騰科技生產天線模組，應用於無線通訊與物聯網。",
+    "supply_chain_md": "**上游 (材料與零組件):**\n- **金屬端子:** 銅合金沖壓件供應商\n- **光纖:** 光纖纜線與光學元件\n- **塑膠:** 連接器本體工程塑膠\n\n**中游 (連接器/通訊模組製造):**\n- **電子連接器:** 連展科技 (電腦/車用連接器與線束)\n- **光纖連接器:** [[連訊通信]] ([[FTTH]]/[[5G]] FTTA 光纖連接方案)\n- **無線天線:** 連騰科技 (天線模組與無線元件)\n\n**下游 (終端應用):**\n- **低軌衛星:** [[SpaceX]] — 衛星傳輸用連接解決方案\n- **電信營運商:** [[中華電信]]、國際電信商 — [[FTTH]] 光纖到府\n- **資料中心:** 雲端 [[資料中心]] — 光纖連接\n- **車用電子:** 車用連接器與線束",
+    "customers_suppliers_md": "### 主要客戶\n- **低軌衛星:** [[SpaceX]] — 衛星傳輸連接解決方案\n- **電信業:** [[中華電信]] — [[FTTH]] 光纖到府連接器\n- **資料中心:** 雲端 [[資料中心]] 營運商 — 光纖連接\n- **PC/通訊:** 電腦與通訊設備廠商 — 連接器/線束\n\n### 主要供應商\n- **光纖:** 光纖纜線與光學元件供應商\n- **金屬材料:** 銅合金端子沖壓件\n- **塑膠材料:** 連接器本體工程塑膠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

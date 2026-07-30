@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4711",
+  "company_name": "永純",
+  "title": "4711 - 永純",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4711_永純.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "943 百萬台幣",
+    "enterprise_value": "517 百萬台幣"
+  },
+  "business": {
+    "summary": "永純化學工業 (4711，Yong Shun Chemical) 專注[[不飽和聚酯樹脂]] (UP Resin)、聚酯多元醇及[[FRP]] (玻璃纖維強化塑膠) 製品，FRP 生產逾 50 年歷史。與日本[[富士樹脂]]及[[富洋樹脂工業]]技術合作。FRP 化學儲槽為核心產品，供應半導體建廠 (如[[台積電]]、[[聯電]]等晶圓廠之廢液/化學品儲槽)、化工廠及污水處理廠之耐腐蝕設備需求。下游樹脂客戶涵蓋塗料、膠帶、鞋材及建材廠。上游石化原料 (苯酐/順酐/乙二醇) 來自[[南亞塑膠]]及[[台灣中油]]。",
+    "entities": [
+      "不飽和聚酯樹脂",
+      "FRP",
+      "富士樹脂",
+      "富洋樹脂工業",
+      "台積電",
+      "聯電",
+      "南亞塑膠",
+      "台灣中油"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與技術)",
+        "text": "**上游 (原料與技術):**",
+        "entities": []
+      },
+      {
+        "category": "石化原料",
+        "text": "[[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐/乙二醇",
+        "entities": [
+          "南亞塑膠",
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "技術合作",
+        "text": "[[富士樹脂]]、[[富洋樹脂工業]] (日本)",
+        "entities": [
+          "富士樹脂",
+          "富洋樹脂工業"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**永純** ([[不飽和聚酯樹脂]]/聚酯多元醇/[[FRP]]化學儲槽)",
+        "entities": [
+          "不飽和聚酯樹脂",
+          "FRP"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體建廠",
+        "text": "[[台積電]]、[[聯電]] — FRP 廢液/化學品儲槽",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "化工/環保",
+        "text": "化工廠/污水處理廠 — 耐腐蝕 FRP 設備",
+        "entities": []
+      },
+      {
+        "category": "樹脂加工",
+        "text": "塗料/膠帶/鞋材/建材廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯電]] — FRP 化學儲槽 (建廠需求)",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "化工/環保",
+        "text": "化工廠/污水處理廠 — 耐腐蝕 FRP",
+        "entities": []
+      },
+      {
+        "role": "樹脂加工",
+        "text": "塗料/膠帶/鞋材/建材廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化",
+        "text": "[[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐",
+        "entities": [
+          "南亞塑膠",
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "技術",
+        "text": "[[富士樹脂]]、[[富洋樹脂工業]] (日本)",
+        "entities": [
+          "富士樹脂",
+          "富洋樹脂工業"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "聯電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "不飽和聚酯樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不飽和聚酯樹脂"
+    },
+    {
+      "name": "FRP",
+      "type": "international_company_or_term",
+      "wikilink": "FRP"
+    },
+    {
+      "name": "富士樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富士樹脂"
+    },
+    {
+      "name": "富洋樹脂工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富洋樹脂工業"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永純化學工業 (4711，Yong Shun Chemical) 專注[[不飽和聚酯樹脂]] (UP Resin)、聚酯多元醇及[[FRP]] (玻璃纖維強化塑膠) 製品，FRP 生產逾 50 年歷史。與日本[[富士樹脂]]及[[富洋樹脂工業]]技術合作。FRP 化學儲槽為核心產品，供應半導體建廠 (如[[台積電]]、[[聯電]]等晶圓廠之廢液/化學品儲槽)、化工廠及污水處理廠之耐腐蝕設備需求。下游樹脂客戶涵蓋塗料、膠帶、鞋材及建材廠。上游石化原料 (苯酐/順酐/乙二醇) 來自[[南亞塑膠]]及[[台灣中油]]。",
+    "supply_chain_md": "**上游 (原料與技術):**\n- **石化原料:** [[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐/乙二醇\n- **技術合作:** [[富士樹脂]]、[[富洋樹脂工業]] (日本)\n\n**中游 (製造):**\n- **永純** ([[不飽和聚酯樹脂]]/聚酯多元醇/[[FRP]]化學儲槽)\n\n**下游 (終端):**\n- **半導體建廠:** [[台積電]]、[[聯電]] — FRP 廢液/化學品儲槽\n- **化工/環保:** 化工廠/污水處理廠 — 耐腐蝕 FRP 設備\n- **樹脂加工:** 塗料/膠帶/鞋材/建材廠",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]、[[聯電]] — FRP 化學儲槽 (建廠需求)\n- **化工/環保:** 化工廠/污水處理廠 — 耐腐蝕 FRP\n- **樹脂加工:** 塗料/膠帶/鞋材/建材廠\n\n### 主要供應商\n- **石化:** [[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐\n- **技術:** [[富士樹脂]]、[[富洋樹脂工業]] (日本)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4528",
+  "company_name": "江興鍛",
+  "title": "4528 - 江興鍛",
+  "source_md": "Pilot_Reports/Auto Parts/4528_江興鍛.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,262 百萬台幣",
+    "enterprise_value": "1,532 百萬台幣"
+  },
+  "business": {
+    "summary": "江興鍛壓工業 (4528) 為台灣冷/溫/熱鍛汽車傳動及底盤零組件專業廠，汽車佔營收逾 80%，定位為 Tier 2 供應商。主要客戶為全球傳動系統 Tier 1 — [[NTN]] (最大客戶，透過廣州 NTN)、[[Dana]]、[[AAM]] (American Axle)，台灣客戶包含[[和大工業]]及[[中華台亞]]。上游鋼材採購自[[中鋼]]。公司為台灣航太 A-Team 4.0 成員，鍛造能力可延伸至航太零組件。受電動車轉型影響，傳動鍛件需求面臨結構性調整。",
+    "entities": [
+      "NTN",
+      "Dana",
+      "AAM",
+      "和大工業",
+      "中華台亞",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 碳鋼/合金鋼/特殊鋼",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**江興鍛** (冷/溫/熱鍛汽車傳動及底盤零組件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (Tier 1 客戶)",
+        "text": "**下游 (Tier 1 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "國際 Tier 1",
+        "text": "[[NTN]] (最大客戶)、[[Dana]]、[[AAM]] — 傳動系統鍛件",
+        "entities": [
+          "NTN",
+          "Dana",
+          "AAM"
+        ]
+      },
+      {
+        "category": "台灣",
+        "text": "[[和大工業]]、[[中華台亞]] — 汽車零組件",
+        "entities": [
+          "和大工業",
+          "中華台亞"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "傳動 Tier 1",
+        "text": "[[NTN]] (最大客戶)、[[Dana]]、[[AAM]] (American Axle) — 鍛造傳動件",
+        "entities": [
+          "NTN",
+          "Dana",
+          "AAM"
+        ]
+      },
+      {
+        "role": "台灣",
+        "text": "[[和大工業]]、[[中華台亞]] — 汽車零組件",
+        "entities": [
+          "和大工業",
+          "中華台亞"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 碳鋼/合金鋼/特殊鋼",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NTN",
+          "Dana",
+          "AAM",
+          "和大工業",
+          "中華台亞"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NTN",
+      "type": "international_company_or_term",
+      "wikilink": "NTN"
+    },
+    {
+      "name": "Dana",
+      "type": "international_company_or_term",
+      "wikilink": "Dana"
+    },
+    {
+      "name": "AAM",
+      "type": "international_company_or_term",
+      "wikilink": "AAM"
+    },
+    {
+      "name": "和大工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和大工業"
+    },
+    {
+      "name": "中華台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華台亞"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "江興鍛壓工業 (4528) 為台灣冷/溫/熱鍛汽車傳動及底盤零組件專業廠，汽車佔營收逾 80%，定位為 Tier 2 供應商。主要客戶為全球傳動系統 Tier 1 — [[NTN]] (最大客戶，透過廣州 NTN)、[[Dana]]、[[AAM]] (American Axle)，台灣客戶包含[[和大工業]]及[[中華台亞]]。上游鋼材採購自[[中鋼]]。公司為台灣航太 A-Team 4.0 成員，鍛造能力可延伸至航太零組件。受電動車轉型影響，傳動鍛件需求面臨結構性調整。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼材:** [[中鋼]] — 碳鋼/合金鋼/特殊鋼\n\n**中游 (製造):**\n- **江興鍛** (冷/溫/熱鍛汽車傳動及底盤零組件)\n\n**下游 (Tier 1 客戶):**\n- **國際 Tier 1:** [[NTN]] (最大客戶)、[[Dana]]、[[AAM]] — 傳動系統鍛件\n- **台灣:** [[和大工業]]、[[中華台亞]] — 汽車零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **傳動 Tier 1:** [[NTN]] (最大客戶)、[[Dana]]、[[AAM]] (American Axle) — 鍛造傳動件\n- **台灣:** [[和大工業]]、[[中華台亞]] — 汽車零組件\n\n### 主要供應商\n- **鋼材:** [[中鋼]] — 碳鋼/合金鋼/特殊鋼"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

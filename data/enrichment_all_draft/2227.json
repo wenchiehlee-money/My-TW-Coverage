@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2227",
+  "company_name": "裕日車",
+  "title": "2227 - 裕日車",
+  "source_md": "Pilot_Reports/Auto Manufacturers/2227_裕日車.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": "15,240 百萬台幣",
+    "enterprise_value": "9,532 百萬台幣"
+  },
+  "business": {
+    "summary": "裕隆日產汽車 (2227，Yulon [[Nissan]] Motor) 為[[裕隆汽車]]與[[日產汽車]] ([[Nissan]]，持股約 40%) 之合資企業，獨家負責 [[Nissan]] 及[[Infiniti]]品牌在台灣之行銷與經銷。整車製造委由母公司[[裕隆汽車]]苗栗三義廠組裝。業外收益中，中國[[東風日產]]持股權益為重要獲利來源。主力車款涵蓋 [[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 純電跑旅及新導入之 [[Nissan SAKURA]] 純電輕自動車。",
+    "entities": [
+      "Nissan",
+      "裕隆汽車",
+      "日產汽車",
+      "Infiniti",
+      "東風日產",
+      "KICKS",
+      "X-TRAIL",
+      "ARIYA",
+      "Nissan SAKURA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌與製造)",
+        "text": "**上游 (品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "品牌授權",
+        "text": "[[日產汽車]] — [[Nissan]]/[[Infiniti]] 技術授權與進口車供應",
+        "entities": [
+          "日產汽車",
+          "Nissan",
+          "Infiniti"
+        ]
+      },
+      {
+        "category": "在台製造",
+        "text": "[[裕隆汽車]] — 整車組裝代工",
+        "entities": [
+          "裕隆汽車"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (行銷代理)",
+        "text": "**中游 (行銷代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**裕日車** ([[Nissan]]/[[Infiniti]] 品牌行銷、車型導入、經銷通路管理、零配件外銷)",
+        "entities": [
+          "Nissan",
+          "Infiniti"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "台灣消費者",
+        "text": "[[KICKS]]、[[X-TRAIL]]、[[ARIYA]]、[[Nissan SAKURA]] 車主",
+        "entities": [
+          "KICKS",
+          "X-TRAIL",
+          "ARIYA",
+          "Nissan SAKURA"
+        ]
+      },
+      {
+        "category": "中國市場",
+        "text": "[[東風日產]] — 業外權益法收益",
+        "entities": [
+          "東風日產"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台灣消費者",
+        "text": "[[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 車主",
+        "entities": [
+          "KICKS",
+          "X-TRAIL",
+          "ARIYA"
+        ]
+      },
+      {
+        "role": "企業車隊",
+        "text": "[[Nissan]] 商用與乘用車隊",
+        "entities": [
+          "Nissan"
+        ]
+      },
+      {
+        "role": "中國市場",
+        "text": "[[東風日產]] — 業外權益法收益",
+        "entities": [
+          "東風日產"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "品牌授權",
+        "text": "[[日產汽車]] — 技術授權、進口車與零件",
+        "entities": [
+          "日產汽車"
+        ]
+      },
+      {
+        "role": "在台製造",
+        "text": "[[裕隆汽車]] — 整車組裝代工",
+        "entities": [
+          "裕隆汽車"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Manufacturers):** [[宏佳騰]]、[[裕隆]]、[[中華]]、[[三陽工業]]、[[華德動能]]",
+        "entities": [
+          "宏佳騰",
+          "裕隆",
+          "中華",
+          "三陽工業",
+          "華德動能"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "KICKS",
+          "X-TRAIL",
+          "ARIYA",
+          "Nissan",
+          "東風日產"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "裕隆汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆汽車"
+    },
+    {
+      "name": "日產汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日產汽車"
+    },
+    {
+      "name": "Infiniti",
+      "type": "international_company_or_term",
+      "wikilink": "Infiniti"
+    },
+    {
+      "name": "東風日產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東風日產"
+    },
+    {
+      "name": "KICKS",
+      "type": "international_company_or_term",
+      "wikilink": "KICKS"
+    },
+    {
+      "name": "X-TRAIL",
+      "type": "international_company_or_term",
+      "wikilink": "X-TRAIL"
+    },
+    {
+      "name": "ARIYA",
+      "type": "international_company_or_term",
+      "wikilink": "ARIYA"
+    },
+    {
+      "name": "Nissan SAKURA",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan SAKURA"
+    },
+    {
+      "name": "宏佳騰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏佳騰"
+    },
+    {
+      "name": "裕隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆"
+    },
+    {
+      "name": "中華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華"
+    },
+    {
+      "name": "三陽工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三陽工業"
+    },
+    {
+      "name": "華德動能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華德動能"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "裕隆日產汽車 (2227，Yulon [[Nissan]] Motor) 為[[裕隆汽車]]與[[日產汽車]] ([[Nissan]]，持股約 40%) 之合資企業，獨家負責 [[Nissan]] 及[[Infiniti]]品牌在台灣之行銷與經銷。整車製造委由母公司[[裕隆汽車]]苗栗三義廠組裝。業外收益中，中國[[東風日產]]持股權益為重要獲利來源。主力車款涵蓋 [[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 純電跑旅及新導入之 [[Nissan SAKURA]] 純電輕自動車。",
+    "supply_chain_md": "**上游 (品牌與製造):**\n- **品牌授權:** [[日產汽車]] — [[Nissan]]/[[Infiniti]] 技術授權與進口車供應\n- **在台製造:** [[裕隆汽車]] — 整車組裝代工\n\n**中游 (行銷代理):**\n- **裕日車** ([[Nissan]]/[[Infiniti]] 品牌行銷、車型導入、經銷通路管理、零配件外銷)\n\n**下游 (終端客戶):**\n- **台灣消費者:** [[KICKS]]、[[X-TRAIL]]、[[ARIYA]]、[[Nissan SAKURA]] 車主\n- **中國市場:** [[東風日產]] — 業外權益法收益",
+    "customers_suppliers_md": "### 主要客戶\n- **台灣消費者:** [[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 車主\n- **企業車隊:** [[Nissan]] 商用與乘用車隊\n- **中國市場:** [[東風日產]] — 業外權益法收益\n\n### 主要供應商\n- **品牌授權:** [[日產汽車]] — 技術授權、進口車與零件\n- **在台製造:** [[裕隆汽車]] — 整車組裝代工"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

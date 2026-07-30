@@ -1,0 +1,156 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6835",
+  "company_name": "圓裕",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/6835_圓裕.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "2,011 百萬台幣",
+    "enterprise_value": "1,675 百萬台幣"
+  },
+  "business": {
+    "summary": "圓裕企業 (6835) 為[[FPC]]與線組整合方案商。已切入美系電動車Tier 1 (電池感測[[FPC]])。上游[[FCCL]]來自[[台虹]]。",
+    "entities": [
+      "FPC",
+      "FCCL",
+      "台虹"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[台虹]] — [[FCCL]]",
+        "entities": [
+          "台虹",
+          "FCCL"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**圓裕** ([[FPC]]/線組)",
+        "entities": [
+          "FPC"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "美系EV品牌、工控/筆電代工",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "美系EV — 電池[[FPC]]",
+        "entities": [
+          "FPC"
+        ]
+      },
+      {
+        "role": "",
+        "text": "工控/NB代工",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[台虹]] — [[FCCL]]",
+        "entities": [
+          "台虹",
+          "FCCL"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "FPC"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "FPC",
+      "type": "international_company_or_term",
+      "wikilink": "FPC"
+    },
+    {
+      "name": "FCCL",
+      "type": "international_company_or_term",
+      "wikilink": "FCCL"
+    },
+    {
+      "name": "台虹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台虹"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "圓裕企業 (6835) 為[[FPC]]與線組整合方案商。已切入美系電動車Tier 1 (電池感測[[FPC]])。上游[[FCCL]]來自[[台虹]]。",
+    "supply_chain_md": "**上游:** [[台虹]] — [[FCCL]]\n**中游:** **圓裕** ([[FPC]]/線組)\n**下游:** 美系EV品牌、工控/筆電代工",
+    "customers_suppliers_md": "### 主要客戶\n- 美系EV — 電池[[FPC]]\n- 工控/NB代工\n\n### 主要供應商\n- [[台虹]] — [[FCCL]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

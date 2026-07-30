@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5013",
+  "company_name": "強新",
+  "title": "5013 - 強新",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/5013_強新.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "3,295 百萬台幣",
+    "enterprise_value": "6,130 百萬台幣"
+  },
+  "business": {
+    "summary": "強新工業 (New Best Wire) 為台灣領先的 **特殊鋼線材** 製造商。\n主要業務分為兩大類：\n1.  **線材 (Wire)**: 碳鋼線、合金鋼線、不鏽鋼線。是下游螺絲螺帽廠 (如 [[Samsung]], [[華祺]]) 的關鍵原料供應商。\n2.  **電解拋光 (EP) 管件**: 超潔淨 (Ultra High Purity) 不鏽鋼管，應用於 **半導體** 氣體管路、光電產業製程設備。\n產品廣泛應用於汽車扣件、電子螺絲、建築扣件及[[半導體]]廠務系統。",
+    "entities": [
+      "Samsung",
+      "華祺",
+      "半導體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 盤元 (Wire Rod, [[中鋼]], [[華新麗華]], 日本進口).",
+        "entities": [
+          "中鋼",
+          "華新麗華"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **強新 (5013)** - 線材抽製 (Wire Drawing) & EP 管件加工.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**線材**: 螺絲螺帽廠 ([[Samsung]], [[華祺]], [[春雨]]), 汽機車零組件廠.",
+        "entities": [
+          "Samsung",
+          "華祺",
+          "春雨"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**EP 管**: [[半導體]]廠建廠工程 ([[台積電]] 供應鏈), 氣體供應系統商.",
+        "entities": [
+          "半導體",
+          "台積電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**扣件業**: 國內外各大螺絲螺帽廠.",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**半導體**: 建廠工程承包商.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**盤元**: [[中鋼]], [[華新]], [[Nippon Steel]].",
+        "entities": [
+          "中鋼",
+          "華新",
+          "Nippon Steel"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "華祺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華祺"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "春雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春雨"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "Nippon Steel",
+      "type": "international_company_or_term",
+      "wikilink": "Nippon Steel"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "強新工業 (New Best Wire) 為台灣領先的 **特殊鋼線材** 製造商。\n主要業務分為兩大類：\n1.  **線材 (Wire)**: 碳鋼線、合金鋼線、不鏽鋼線。是下游螺絲螺帽廠 (如 [[Samsung]], [[華祺]]) 的關鍵原料供應商。\n2.  **電解拋光 (EP) 管件**: 超潔淨 (Ultra High Purity) 不鏽鋼管，應用於 **半導體** 氣體管路、光電產業製程設備。\n產品廣泛應用於汽車扣件、電子螺絲、建築扣件及[[半導體]]廠務系統。",
+    "supply_chain_md": "*   **中游 (本體)**: **強新 (5013)** - 線材抽製 (Wire Drawing) & EP 管件加工.\n*   **上游**: 盤元 (Wire Rod, [[中鋼]], [[華新麗華]], 日本進口).\n*   **下游**:\n    *   **線材**: 螺絲螺帽廠 ([[Samsung]], [[華祺]], [[春雨]]), 汽機車零組件廠.\n    *   **EP 管**: [[半導體]]廠建廠工程 ([[台積電]] 供應鏈), 氣體供應系統商.",
+    "customers_suppliers_md": "### 主要客戶\n*   **扣件業**: 國內外各大螺絲螺帽廠.\n*   **半導體**: 建廠工程承包商.\n\n### 主要供應商\n*   **盤元**: [[中鋼]], [[華新]], [[Nippon Steel]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

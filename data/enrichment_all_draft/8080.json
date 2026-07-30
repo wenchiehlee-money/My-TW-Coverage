@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8080",
+  "company_name": "泰霖",
+  "title": "8080 - 泰霖",
+  "source_md": "Pilot_Reports/Electronic Components/8080_泰霖.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,834 百萬台幣",
+    "enterprise_value": "2,032 百萬台幣"
+  },
+  "business": {
+    "summary": "泰霖企業 (8080，TerraLink，前身為台灣歐斯乘) 為台灣營建剩餘土石方資源處理業者，成立於 1993 年。公司於 2026 年 1 月更名為泰霖企業。\n\n核心業務為營建工程剩餘土石方之收受、處理與再利用，以及相關營建工程業務。同業包括 [[可寧衛]]、[[裕山]] 等環保廢棄物處理業者。2026 年 1 月起台灣實施土石方運輸新制，要求車輛裝設 [[GPS]] 定位系統且進出場須以電子表單申報，大幅提高合規成本，使正規業者如泰霖受惠於市場秩序改善。公司服務對象涵蓋公共工程與民間建案，與各大營造廠如 [[大陸工程]]、[[中鼎工程]] 等有業務往來。近年營收波動較大。",
+    "entities": [
+      "可寧衛",
+      "裕山",
+      "GPS",
+      "大陸工程",
+      "中鼎工程"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (工程來源)",
+        "text": "**上游 (工程來源):**",
+        "entities": []
+      },
+      {
+        "category": "營建工程",
+        "text": "公共工程與民間建案之營建業者 — 產生剩餘土石方",
+        "entities": []
+      },
+      {
+        "category": "拆除工程",
+        "text": "建築拆除業者",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (土石方處理)",
+        "text": "**中游 (土石方處理):**",
+        "entities": []
+      },
+      {
+        "category": "收受處理",
+        "text": "**泰霖** (營建剩餘土石方之收受、分類與處理)",
+        "entities": []
+      },
+      {
+        "category": "資源再利用",
+        "text": "土石方再利用與級配料生產",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (再利用去化)",
+        "text": "**下游 (再利用去化):**",
+        "entities": []
+      },
+      {
+        "category": "營建回填",
+        "text": "營建工地 — 回填土與級配料",
+        "entities": []
+      },
+      {
+        "category": "公共工程",
+        "text": "政府公共建設 — 土方再利用",
+        "entities": []
+      },
+      {
+        "category": "掩埋場",
+        "text": "合法收容場所",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "營建業者",
+        "text": "公共工程承包商如 [[大陸工程]]、[[中鼎工程]] 等營造廠 — 委託處理剩餘土石方",
+        "entities": [
+          "大陸工程",
+          "中鼎工程"
+        ]
+      },
+      {
+        "role": "拆除業者",
+        "text": "建築拆除工程公司",
+        "entities": []
+      },
+      {
+        "role": "公共工程",
+        "text": "政府機關工程案 — 土方收受與處理",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "運輸車隊",
+        "text": "砂石車與運輸業者 — 土石方搬運",
+        "entities": []
+      },
+      {
+        "role": "機械設備",
+        "text": "營建機械與處理設備供應商，如 [[小松製作所]] (Komatsu)、[[日立建機]] 等",
+        "entities": [
+          "小松製作所",
+          "日立建機"
+        ]
+      },
+      {
+        "role": "[[GPS]] 系統",
+        "text": "車輛 [[GPS]] 定位追蹤系統供應商",
+        "entities": [
+          "GPS"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "大陸工程",
+          "中鼎工程"
+        ]
+      }
+    ],
+    "peers": [
+      {
+        "text": "核心業務為營建工程剩餘土石方之收受、處理與再利用，以及相關營建工程業務。同業包括 [[可寧衛]]、[[裕山]] 等環保廢棄物處理業者。2026 年 1 月起台灣實施土石方運輸新制，要求車輛裝設 [[GPS]] 定位系統且進出場須以電子表單申報，大幅提高合規成本，使正規業者如泰霖受惠於市場秩序改善。公司服務對象涵蓋公共工程與民間建案，與各大營造廠如 [[大陸工程]]、[[中鼎工程]] 等有業務往來。近年營收波動較大。",
+        "entities": [
+          "可寧衛",
+          "裕山",
+          "GPS",
+          "大陸工程",
+          "中鼎工程"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "可寧衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "可寧衛"
+    },
+    {
+      "name": "裕山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕山"
+    },
+    {
+      "name": "GPS",
+      "type": "international_company_or_term",
+      "wikilink": "GPS"
+    },
+    {
+      "name": "大陸工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大陸工程"
+    },
+    {
+      "name": "中鼎工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鼎工程"
+    },
+    {
+      "name": "小松製作所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小松製作所"
+    },
+    {
+      "name": "日立建機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日立建機"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "泰霖企業 (8080，TerraLink，前身為台灣歐斯乘) 為台灣營建剩餘土石方資源處理業者，成立於 1993 年。公司於 2026 年 1 月更名為泰霖企業。\n\n核心業務為營建工程剩餘土石方之收受、處理與再利用，以及相關營建工程業務。同業包括 [[可寧衛]]、[[裕山]] 等環保廢棄物處理業者。2026 年 1 月起台灣實施土石方運輸新制，要求車輛裝設 [[GPS]] 定位系統且進出場須以電子表單申報，大幅提高合規成本，使正規業者如泰霖受惠於市場秩序改善。公司服務對象涵蓋公共工程與民間建案，與各大營造廠如 [[大陸工程]]、[[中鼎工程]] 等有業務往來。近年營收波動較大。",
+    "supply_chain_md": "**上游 (工程來源):**\n- **營建工程:** 公共工程與民間建案之營建業者 — 產生剩餘土石方\n- **拆除工程:** 建築拆除業者\n\n**中游 (土石方處理):**\n- **收受處理:** **泰霖** (營建剩餘土石方之收受、分類與處理)\n- **資源再利用:** 土石方再利用與級配料生產\n\n**下游 (再利用去化):**\n- **營建回填:** 營建工地 — 回填土與級配料\n- **公共工程:** 政府公共建設 — 土方再利用\n- **掩埋場:** 合法收容場所",
+    "customers_suppliers_md": "### 主要客戶\n- **營建業者:** 公共工程承包商如 [[大陸工程]]、[[中鼎工程]] 等營造廠 — 委託處理剩餘土石方\n- **拆除業者:** 建築拆除工程公司\n- **公共工程:** 政府機關工程案 — 土方收受與處理\n\n### 主要供應商\n- **運輸車隊:** 砂石車與運輸業者 — 土石方搬運\n- **機械設備:** 營建機械與處理設備供應商，如 [[小松製作所]] (Komatsu)、[[日立建機]] 等\n- **[[GPS]] 系統:** 車輛 [[GPS]] 定位追蹤系統供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

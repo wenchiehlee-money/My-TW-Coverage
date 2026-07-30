@@ -1,0 +1,230 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2022",
+  "company_name": "聚亨",
+  "title": "2022 - 聚亨",
+  "source_md": "Pilot_Reports/Tools & Accessories/2022_聚亨.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "2,552 百萬台幣",
+    "enterprise_value": "7,791 百萬台幣"
+  },
+  "business": {
+    "summary": "聚亨企業 (2022，Tycoons Group) 成立於 1980 年，總部位於台灣高雄岡山，為台灣扣件產業上下游垂直整合之大型集團，從煉鋼、軋鋼到螺絲成品一貫化生產。主要產品包括球化線材、鋼坯、盤元、各類螺絲 (建築螺絲、乾牆螺絲、自攻螺絲等)、剪力釘及機械零件。1996 年轉投資泰國聚亨 (Tycoons Worldwide Group Thailand)，2014 年啟用電弧爐煉鋼廠 (子公司太宇)，達成從廢鋼到成品螺絲之完整垂直整合。高雄岡山為台灣扣件產業重鎮，同業包括[[三星科技]] (5007)、[[世豐螺絲]] (2065)、[[世鎧精密]] (2063) 等。",
+    "entities": [
+      "三星科技",
+      "世豐螺絲",
+      "世鎧精密"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "廢鋼/鋼坯",
+        "text": "電弧爐煉鋼自產鋼坯 (子公司太宇)，原料採購自國內外廢鋼貿易商及[[中鋼]]",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "盤元線材",
+        "text": "自產球化退火線材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**聚亨企業** — 煉鋼、軋鋼、抽線、球化退火、打頭、搓牙、熱處理、表面處理",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**泰國聚亨** — 海外生產據點",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "建築業",
+        "text": "歐美建材通路如 [[Home Depot]]、[[Lowe's]] 等 (建築螺絲/乾牆螺絲)\\n- **工業市場:** 機械零件、剪力釘",
+        "entities": [
+          "Home Depot",
+          "Lowe's"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐美市場",
+        "text": "歐美建材通路商及工業扣件經銷商",
+        "entities": []
+      },
+      {
+        "role": "亞洲市場",
+        "text": "泰國及東南亞建築/工業市場",
+        "entities": []
+      },
+      {
+        "role": "地區佔比",
+        "text": "美洲約 35%、亞洲約 40%、歐洲約 25%",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "廢鋼",
+        "text": "國內外廢鋼貿易商、[[中鋼]]",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "自有上游",
+        "text": "子公司太宇 (電弧爐煉鋼) 及泰國聚亨 (軋鋼/盤元)",
+        "entities": []
+      },
+      {
+        "role": "同業比較",
+        "text": "高雄扣件聚落同業 [[三星科技]] (5007)、[[春雨]] (2012)",
+        "entities": [
+          "三星科技",
+          "春雨"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Tools & Accessories):** [[鑽全]]、[[正峰]]、[[錩泰]]、[[中砂]]、[[力肯]]",
+        "entities": [
+          "鑽全",
+          "正峰",
+          "錩泰",
+          "中砂",
+          "力肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [
+      {
+        "text": "聚亨企業 (2022，Tycoons Group) 成立於 1980 年，總部位於台灣高雄岡山，為台灣扣件產業上下游垂直整合之大型集團，從煉鋼、軋鋼到螺絲成品一貫化生產。主要產品包括球化線材、鋼坯、盤元、各類螺絲 (建築螺絲、乾牆螺絲、自攻螺絲等)、剪力釘及機械零件。1996 年轉投資泰國聚亨 (Tycoons Worldwide Group Thailand)，2014 年啟用電弧爐煉鋼廠 (子公司太宇)，達成從廢鋼到成品螺絲之完整垂直整合。高雄岡山為台灣扣件產業重鎮，同業包括[[三星科技]] (5007)、[[世豐螺絲]] (2065)、[[世鎧精密]] (2063) 等。",
+        "entities": [
+          "三星科技",
+          "世豐螺絲",
+          "世鎧精密"
+        ]
+      },
+      {
+        "text": "- **同業比較:** 高雄扣件聚落同業 [[三星科技]] (5007)、[[春雨]] (2012)",
+        "entities": [
+          "三星科技",
+          "春雨"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "三星科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三星科技"
+    },
+    {
+      "name": "世豐螺絲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世豐螺絲"
+    },
+    {
+      "name": "世鎧精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世鎧精密"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "Home Depot",
+      "type": "international_company_or_term",
+      "wikilink": "Home Depot"
+    },
+    {
+      "name": "Lowe's",
+      "type": "international_company_or_term",
+      "wikilink": "Lowe's"
+    },
+    {
+      "name": "春雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春雨"
+    },
+    {
+      "name": "鑽全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑽全"
+    },
+    {
+      "name": "正峰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正峰"
+    },
+    {
+      "name": "錩泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "錩泰"
+    },
+    {
+      "name": "中砂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中砂"
+    },
+    {
+      "name": "力肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聚亨企業 (2022，Tycoons Group) 成立於 1980 年，總部位於台灣高雄岡山，為台灣扣件產業上下游垂直整合之大型集團，從煉鋼、軋鋼到螺絲成品一貫化生產。主要產品包括球化線材、鋼坯、盤元、各類螺絲 (建築螺絲、乾牆螺絲、自攻螺絲等)、剪力釘及機械零件。1996 年轉投資泰國聚亨 (Tycoons Worldwide Group Thailand)，2014 年啟用電弧爐煉鋼廠 (子公司太宇)，達成從廢鋼到成品螺絲之完整垂直整合。高雄岡山為台灣扣件產業重鎮，同業包括[[三星科技]] (5007)、[[世豐螺絲]] (2065)、[[世鎧精密]] (2063) 等。",
+    "supply_chain_md": "**上游 (原料):**\n- **廢鋼/鋼坯:** 電弧爐煉鋼自產鋼坯 (子公司太宇)，原料採購自國內外廢鋼貿易商及[[中鋼]]\n- **盤元線材:** 自產球化退火線材\n\n**中游 (製造加工):**\n- **聚亨企業** — 煉鋼、軋鋼、抽線、球化退火、打頭、搓牙、熱處理、表面處理\n- **泰國聚亨** — 海外生產據點\n\n**下游 (終端市場):**\n- **建築業:** 歐美建材通路如 [[Home Depot]]、[[Lowe's]] 等 (建築螺絲/乾牆螺絲)\\n- **工業市場:** 機械零件、剪力釘",
+    "customers_suppliers_md": "### 主要客戶\n- **歐美市場:** 歐美建材通路商及工業扣件經銷商\n- **亞洲市場:** 泰國及東南亞建築/工業市場\n- **地區佔比:** 美洲約 35%、亞洲約 40%、歐洲約 25%\n\n### 主要供應商\n- **廢鋼:** 國內外廢鋼貿易商、[[中鋼]]\n- **自有上游:** 子公司太宇 (電弧爐煉鋼) 及泰國聚亨 (軋鋼/盤元)\n- **同業比較:** 高雄扣件聚落同業 [[三星科技]] (5007)、[[春雨]] (2012)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

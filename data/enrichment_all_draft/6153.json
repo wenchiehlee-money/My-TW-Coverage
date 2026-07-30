@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6153",
+  "company_name": "嘉聯益",
+  "title": "6153_嘉聯益",
+  "source_md": "Pilot_Reports/Electronic Components/6153_嘉聯益.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "9,034 百萬台幣",
+    "enterprise_value": "11,175 百萬台幣"
+  },
+  "business": {
+    "summary": "嘉聯益企業股份有限公司 (6153) 是全球前十大軟性印刷電路板(FPC)製造商之一。產品廣泛應用於智慧型手機、平板、筆記型電腦及穿戴式裝置。嘉聯益專精於高頻高速傳輸必備的LCP(液晶高分子)軟板技術，憑藉此技術優勢，公司長期穩居蘋果([[Apple]])供應鏈的重要成員(供應iPhone及iPad等LCP天線軟板)。為因應[[AI]]裝置、折疊手機及[[矽光子]]([[CPO]])等新興應用，嘉聯益持續擴展高密度與輕量化的軟板解決方案，並積極規劃東南亞產能佈局。",
+    "entities": [
+      "Apple",
+      "AI",
+      "矽光子",
+      "CPO"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 軟性[[銅箔]]基板(FCCL)、[[銅箔]]、聚醯亞胺薄膜(PI)及LCP高分子材料供應商。",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **嘉聯益** (各類軟性印刷電路板FPC設計、測試與組裝製造)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 智慧型手機/穿戴裝置品牌廠、[[消費性電子]]代工廠([[EMS]])、觸控面板與相機模組廠。",
+        "entities": [
+          "消費性電子",
+          "EMS"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Apple]](蘋果，最大且最重要的客戶)、各類非蘋智慧型手機與電腦品牌(如雙A、[[廣達]]、[[仁寶]]等)。",
+        "entities": [
+          "Apple",
+          "廣達",
+          "仁寶"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外大型軟板基材、保護膜及化學藥水製造廠。瀚宇博德為其大股東兼策略聯盟夥伴。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "廣達",
+          "仁寶"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "CPO",
+      "type": "technology",
+      "wikilink": "CPO"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "嘉聯益企業股份有限公司 (6153) 是全球前十大軟性印刷電路板(FPC)製造商之一。產品廣泛應用於智慧型手機、平板、筆記型電腦及穿戴式裝置。嘉聯益專精於高頻高速傳輸必備的LCP(液晶高分子)軟板技術，憑藉此技術優勢，公司長期穩居蘋果([[Apple]])供應鏈的重要成員(供應iPhone及iPad等LCP天線軟板)。為因應[[AI]]裝置、折疊手機及[[矽光子]]([[CPO]])等新興應用，嘉聯益持續擴展高密度與輕量化的軟板解決方案，並積極規劃東南亞產能佈局。",
+    "supply_chain_md": "*   **上游**: 軟性[[銅箔]]基板(FCCL)、[[銅箔]]、聚醯亞胺薄膜(PI)及LCP高分子材料供應商。\n*   **中游**: **嘉聯益** (各類軟性印刷電路板FPC設計、測試與組裝製造)。\n*   **下游**: 智慧型手機/穿戴裝置品牌廠、[[消費性電子]]代工廠([[EMS]])、觸控面板與相機模組廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Apple]](蘋果，最大且最重要的客戶)、各類非蘋智慧型手機與電腦品牌(如雙A、[[廣達]]、[[仁寶]]等)。\n\n### 主要供應商\n*   國內外大型軟板基材、保護膜及化學藥水製造廠。瀚宇博德為其大股東兼策略聯盟夥伴。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

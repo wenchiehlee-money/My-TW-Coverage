@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5371",
+  "company_name": "中光電",
+  "title": "5371 - 中光電",
+  "source_md": "Pilot_Reports/Consumer Electronics/5371_中光電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "27,955 百萬台幣",
+    "enterprise_value": "31,356 百萬台幣"
+  },
+  "business": {
+    "summary": "中光電 (Coretronic) 成立於 1992 年，總部位於台灣[[新竹]]。公司為全球 **背光模組 (Backlight Module)** 及 **投影機 (Projector)** 製造大廠。業務分為：(1) **影像產品**: DLP 投影機 (代工及自有品牌 Optoma)、車載投影、[[AR]]/[[VR]] 光機; (2) **節能產品**: LCD 背光模組 (TV/Monitor/NB/PID); (3) **新興事業**: 無人機 (中光電智能[[機器人]])、醫療影像、[[AI]] 感測。其中，無人機業務已打入軍用「非紅供應鏈」及美國商用市場。",
+    "entities": [
+      "新竹",
+      "AR",
+      "VR",
+      "機器人",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "面板 ([[友達]]/[[群創]])、LED 晶片、光學元件、IC。",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "角色",
+        "text": "光電模組及系統製造商 (中下游)。",
+        "entities": []
+      },
+      {
+        "category": "下游",
+        "text": "電視/電腦品牌廠、國防部 (無人機)、工業/商業客戶。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "背光模組",
+        "text": "[[Dell]], [[HP]], [[Samsung]], [[LG]] 等全球顯示器/筆電品牌。",
+        "entities": [
+          "Dell",
+          "HP",
+          "Samsung",
+          "LG"
+        ]
+      },
+      {
+        "role": "投影機",
+        "text": "Optoma (奧圖碼, 自有品牌), 其他日系/美系投影機品牌代工。",
+        "entities": []
+      },
+      {
+        "role": "無人機",
+        "text": "台灣國防部 (軍用微型/監偵型), 美國警消單位。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Dell",
+          "HP",
+          "Samsung",
+          "LG"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "AR",
+      "type": "international_company_or_term",
+      "wikilink": "AR"
+    },
+    {
+      "name": "VR",
+      "type": "international_company_or_term",
+      "wikilink": "VR"
+    },
+    {
+      "name": "機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "機器人"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中光電 (Coretronic) 成立於 1992 年，總部位於台灣[[新竹]]。公司為全球 **背光模組 (Backlight Module)** 及 **投影機 (Projector)** 製造大廠。業務分為：(1) **影像產品**: DLP 投影機 (代工及自有品牌 Optoma)、車載投影、[[AR]]/[[VR]] 光機; (2) **節能產品**: LCD 背光模組 (TV/Monitor/NB/PID); (3) **新興事業**: 無人機 (中光電智能[[機器人]])、醫療影像、[[AI]] 感測。其中，無人機業務已打入軍用「非紅供應鏈」及美國商用市場。",
+    "supply_chain_md": "**角色:** 光電模組及系統製造商 (中下游)。\n**上游:** 面板 ([[友達]]/[[群創]])、LED 晶片、光學元件、IC。\n**下游:** 電視/電腦品牌廠、國防部 (無人機)、工業/商業客戶。",
+    "customers_suppliers_md": "### 主要客戶\n- **背光模組:** [[Dell]], [[HP]], [[Samsung]], [[LG]] 等全球顯示器/筆電品牌。\n- **投影機:** Optoma (奧圖碼, 自有品牌), 其他日系/美系投影機品牌代工。\n- **無人機:** 台灣國防部 (軍用微型/監偵型), 美國警消單位。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

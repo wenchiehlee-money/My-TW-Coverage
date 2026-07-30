@@ -1,0 +1,272 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5859",
+  "company_name": "遠壽",
+  "title": "5859_遠壽",
+  "source_md": "Pilot_Reports/Insurance - Life/5859_遠壽.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Insurance - Life",
+    "market_cap": "19,796 百萬台幣",
+    "enterprise_value": "-36,082 百萬台幣"
+  },
+  "business": {
+    "summary": "[[遠雄人壽]] (5859，遠壽) 為[[遠雄集團]]旗下壽險事業，前身為 1993 年由集團創辦人趙藤雄收購之中興人壽，2001 年更名為遠雄人壽，2004 年併購[[蘇黎世人壽]]台灣分公司業務，2015 年於興櫃市場掛牌。集團關係企業包括[[遠雄建設]]、[[遠雄海洋公園]]等。公司主要經營人身保險業務，商品涵蓋傳統型壽險、傷害保險、健康保險、投資型保單及美元計價保單等。銷售通路採多元策略，以自有業務員為核心，輔以銀行保險通路及保險經紀人代理人通路 (設有專屬經代通路 App)。近年積極推出符合市場需求之創新商品，如分期繳費及外幣計價產品，因應 [[IFRS 17]] 接軌準備。資金運用投入國內外股票、債券及不動產市場。受[[金管會]]監理。",
+    "entities": [
+      "遠雄人壽",
+      "遠雄集團",
+      "蘇黎世人壽",
+      "遠雄建設",
+      "遠雄海洋公園",
+      "IFRS 17",
+      "金管會"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (風險分散與投資)",
+        "text": "**上游 (風險分散與投資):**",
+        "entities": []
+      },
+      {
+        "category": "再保險",
+        "text": "國際再保險公司如 [[Swiss Re]]、[[Munich Re]]、[[中央再保險]] — 風險分散",
+        "entities": [
+          "Swiss Re",
+          "Munich Re",
+          "中央再保險"
+        ]
+      },
+      {
+        "category": "投資標的",
+        "text": "國內外股票、債券及不動產市場",
+        "entities": []
+      },
+      {
+        "category": "IT 系統",
+        "text": "保單管理與核心系統服務商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (保險本體)",
+        "text": "**中游 (保險本體):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[遠雄人壽]]** — 保單設計、核保理賠、資金運用管理",
+        "entities": [
+          "遠雄人壽"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路與保戶)",
+        "text": "**下游 (銷售通路與保戶):**",
+        "entities": []
+      },
+      {
+        "category": "自有通路",
+        "text": "業務員部隊 — 全台服務據點",
+        "entities": []
+      },
+      {
+        "category": "銀行保險",
+        "text": "合作銀行之銀保通路",
+        "entities": []
+      },
+      {
+        "category": "保經代通路",
+        "text": "保險經紀人及代理人",
+        "entities": []
+      },
+      {
+        "category": "終端保戶",
+        "text": "個人壽險、健康險、投資型保單及企業團險客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "個人保戶",
+        "text": "傳統壽險、健康險、傷害險及投資型保單客戶",
+        "entities": []
+      },
+      {
+        "role": "外幣保單客戶",
+        "text": "美元計價壽險保戶",
+        "entities": []
+      },
+      {
+        "role": "企業客戶",
+        "text": "團體保險投保企業",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "再保險",
+        "text": "[[Swiss Re]]、[[Munich Re]]、[[中央再保險]] — 壽險風險分散",
+        "entities": [
+          "Swiss Re",
+          "Munich Re",
+          "中央再保險"
+        ]
+      },
+      {
+        "role": "母集團",
+        "text": "[[遠雄集團]] — 集團資源與品牌支持",
+        "entities": [
+          "遠雄集團"
+        ]
+      },
+      {
+        "role": "銷售通路",
+        "text": "自有業務員、銀行保險通路、保險經紀人代理人",
+        "entities": []
+      },
+      {
+        "role": "監理機關",
+        "text": "[[金管會]]保險局 — 監理法規與資本適足要求",
+        "entities": [
+          "金管會"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Insurance - Life):** [[三商壽]]、[[富邦金]]、[[國泰金]]、[[凱基金]]",
+        "entities": [
+          "三商壽",
+          "富邦金",
+          "國泰金",
+          "凱基金"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "**上游 (風險分散與投資):**",
+        "entities": []
+      },
+      {
+        "text": "- **再保險:** 國際再保險公司如 [[Swiss Re]]、[[Munich Re]]、[[中央再保險]] — 風險分散",
+        "entities": [
+          "Swiss Re",
+          "Munich Re",
+          "中央再保險"
+        ]
+      },
+      {
+        "text": "- **再保險:** [[Swiss Re]]、[[Munich Re]]、[[中央再保險]] — 壽險風險分散",
+        "entities": [
+          "Swiss Re",
+          "Munich Re",
+          "中央再保險"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "遠雄人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄人壽"
+    },
+    {
+      "name": "遠雄集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄集團"
+    },
+    {
+      "name": "蘇黎世人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蘇黎世人壽"
+    },
+    {
+      "name": "遠雄建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄建設"
+    },
+    {
+      "name": "遠雄海洋公園",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄海洋公園"
+    },
+    {
+      "name": "IFRS 17",
+      "type": "international_company_or_term",
+      "wikilink": "IFRS 17"
+    },
+    {
+      "name": "金管會",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金管會"
+    },
+    {
+      "name": "Swiss Re",
+      "type": "international_company_or_term",
+      "wikilink": "Swiss Re"
+    },
+    {
+      "name": "Munich Re",
+      "type": "international_company_or_term",
+      "wikilink": "Munich Re"
+    },
+    {
+      "name": "中央再保險",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央再保險"
+    },
+    {
+      "name": "三商壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三商壽"
+    },
+    {
+      "name": "富邦金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦金"
+    },
+    {
+      "name": "國泰金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰金"
+    },
+    {
+      "name": "凱基金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱基金"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[遠雄人壽]] (5859，遠壽) 為[[遠雄集團]]旗下壽險事業，前身為 1993 年由集團創辦人趙藤雄收購之中興人壽，2001 年更名為遠雄人壽，2004 年併購[[蘇黎世人壽]]台灣分公司業務，2015 年於興櫃市場掛牌。集團關係企業包括[[遠雄建設]]、[[遠雄海洋公園]]等。公司主要經營人身保險業務，商品涵蓋傳統型壽險、傷害保險、健康保險、投資型保單及美元計價保單等。銷售通路採多元策略，以自有業務員為核心，輔以銀行保險通路及保險經紀人代理人通路 (設有專屬經代通路 App)。近年積極推出符合市場需求之創新商品，如分期繳費及外幣計價產品，因應 [[IFRS 17]] 接軌準備。資金運用投入國內外股票、債券及不動產市場。受[[金管會]]監理。",
+    "supply_chain_md": "**上游 (風險分散與投資):**\n- **再保險:** 國際再保險公司如 [[Swiss Re]]、[[Munich Re]]、[[中央再保險]] — 風險分散\n- **投資標的:** 國內外股票、債券及不動產市場\n- **IT 系統:** 保單管理與核心系統服務商\n\n**中游 (保險本體):**\n- **[[遠雄人壽]]** — 保單設計、核保理賠、資金運用管理\n\n**下游 (銷售通路與保戶):**\n- **自有通路:** 業務員部隊 — 全台服務據點\n- **銀行保險:** 合作銀行之銀保通路\n- **保經代通路:** 保險經紀人及代理人\n- **終端保戶:** 個人壽險、健康險、投資型保單及企業團險客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **個人保戶:** 傳統壽險、健康險、傷害險及投資型保單客戶\n- **外幣保單客戶:** 美元計價壽險保戶\n- **企業客戶:** 團體保險投保企業\n\n### 主要供應商\n- **再保險:** [[Swiss Re]]、[[Munich Re]]、[[中央再保險]] — 壽險風險分散\n- **母集團:** [[遠雄集團]] — 集團資源與品牌支持\n- **銷售通路:** 自有業務員、銀行保險通路、保險經紀人代理人\n- **監理機關:** [[金管會]]保險局 — 監理法規與資本適足要求"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

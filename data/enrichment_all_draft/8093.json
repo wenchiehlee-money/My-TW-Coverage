@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8093",
+  "company_name": "保銳",
+  "title": "8093 - 保銳",
+  "source_md": "Pilot_Reports/Computer Hardware/8093_保銳.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "677 百萬台幣",
+    "enterprise_value": "674 百萬台幣"
+  },
+  "business": {
+    "summary": "保銳科技股份有限公司 (8093，[[Enermax]]) 成立於 1990 年，總部位於桃園市，以自有品牌「ENERMAX」設計、製造及銷售電腦電源供應器、機殼、CPU 散熱器及周邊產品。ENERMAX 品牌在全球電競及 DIY 電腦市場享有高知名度，屢獲 [[Computex]] 大獎、德國 [[iF 設計獎]]、[[紅點設計獎]] 等國際榮譽。\n\n產品線涵蓋全模組化電源供應器 (80 PLUS 金牌/鉑金/鈦金認證)、電競機殼 (全塔/中塔/迷你塔)、一體式水冷散熱器、空冷 CPU 散熱器及機殼風扇等。主要銷售市場為歐洲、亞洲及美國之 DIY 電腦玩家及電競愛好者。",
+    "entities": [
+      "Enermax",
+      "Computex",
+      "iF 設計獎",
+      "紅點設計獎"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子元件與金屬材料)",
+        "text": "**上游 (電子元件與金屬材料):**",
+        "entities": []
+      },
+      {
+        "category": "電源元件",
+        "text": "變壓器、電容器、[[MOSFET]] 等功率元件",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "風扇馬達",
+        "text": "散熱風扇馬達及軸承",
+        "entities": []
+      },
+      {
+        "category": "金屬/塑膠",
+        "text": "機殼用鋼板、鋁板及塑膠射出件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (自有品牌電源與散熱製造)",
+        "text": "**中游 (自有品牌電源與散熱製造):**",
+        "entities": []
+      },
+      {
+        "category": "電源供應器",
+        "text": "**保銳** (ENERMAX 品牌 80 PLUS 認證電源)",
+        "entities": []
+      },
+      {
+        "category": "散熱器",
+        "text": "**保銳** (一體式水冷/空冷 CPU 散熱器)",
+        "entities": []
+      },
+      {
+        "category": "機殼/風扇",
+        "text": "**保銳** (電競機殼及機殼風扇)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (DIY 電腦通路與消費者)",
+        "text": "**下游 (DIY 電腦通路與消費者):**",
+        "entities": []
+      },
+      {
+        "category": "電商通路",
+        "text": "全球 3C 電商平台 — ENERMAX 品牌銷售",
+        "entities": []
+      },
+      {
+        "category": "實體通路",
+        "text": "歐美亞 DIY 電腦零組件零售通路",
+        "entities": []
+      },
+      {
+        "category": "電競市場",
+        "text": "全球電競 PC 玩家及系統組裝商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電商通路",
+        "text": "[[Amazon]]、[[PChome]] 等全球 3C 電商平台",
+        "entities": [
+          "Amazon",
+          "PChome"
+        ]
+      },
+      {
+        "role": "實體通路",
+        "text": "歐美亞 DIY 電腦零組件零售通路商",
+        "entities": []
+      },
+      {
+        "role": "電競玩家",
+        "text": "全球電競 PC 玩家及系統組裝商",
+        "entities": []
+      },
+      {
+        "role": "OEM 客戶",
+        "text": "電腦系統品牌商 — 電源供應器 OEM",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電源元件",
+        "text": "變壓器、電容器及 [[MOSFET]] 功率元件供應商",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "role": "散熱元件",
+        "text": "散熱風扇馬達及銅製散熱管供應商",
+        "entities": []
+      },
+      {
+        "role": "金屬材料",
+        "text": "鋼板/鋁板沖壓及塑膠射出件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon",
+          "PChome"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Enermax",
+      "type": "international_company_or_term",
+      "wikilink": "Enermax"
+    },
+    {
+      "name": "Computex",
+      "type": "international_company_or_term",
+      "wikilink": "Computex"
+    },
+    {
+      "name": "iF 設計獎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "iF 設計獎"
+    },
+    {
+      "name": "紅點設計獎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紅點設計獎"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "PChome",
+      "type": "international_company_or_term",
+      "wikilink": "PChome"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "保銳科技股份有限公司 (8093，[[Enermax]]) 成立於 1990 年，總部位於桃園市，以自有品牌「ENERMAX」設計、製造及銷售電腦電源供應器、機殼、CPU 散熱器及周邊產品。ENERMAX 品牌在全球電競及 DIY 電腦市場享有高知名度，屢獲 [[Computex]] 大獎、德國 [[iF 設計獎]]、[[紅點設計獎]] 等國際榮譽。\n\n產品線涵蓋全模組化電源供應器 (80 PLUS 金牌/鉑金/鈦金認證)、電競機殼 (全塔/中塔/迷你塔)、一體式水冷散熱器、空冷 CPU 散熱器及機殼風扇等。主要銷售市場為歐洲、亞洲及美國之 DIY 電腦玩家及電競愛好者。",
+    "supply_chain_md": "**上游 (電子元件與金屬材料):**\n- **電源元件:** 變壓器、電容器、[[MOSFET]] 等功率元件\n- **風扇馬達:** 散熱風扇馬達及軸承\n- **金屬/塑膠:** 機殼用鋼板、鋁板及塑膠射出件\n\n**中游 (自有品牌電源與散熱製造):**\n- **電源供應器:** **保銳** (ENERMAX 品牌 80 PLUS 認證電源)\n- **散熱器:** **保銳** (一體式水冷/空冷 CPU 散熱器)\n- **機殼/風扇:** **保銳** (電競機殼及機殼風扇)\n\n**下游 (DIY 電腦通路與消費者):**\n- **電商通路:** 全球 3C 電商平台 — ENERMAX 品牌銷售\n- **實體通路:** 歐美亞 DIY 電腦零組件零售通路\n- **電競市場:** 全球電競 PC 玩家及系統組裝商",
+    "customers_suppliers_md": "### 主要客戶\n- **電商通路:** [[Amazon]]、[[PChome]] 等全球 3C 電商平台\n- **實體通路:** 歐美亞 DIY 電腦零組件零售通路商\n- **電競玩家:** 全球電競 PC 玩家及系統組裝商\n- **OEM 客戶:** 電腦系統品牌商 — 電源供應器 OEM\n\n### 主要供應商\n- **電源元件:** 變壓器、電容器及 [[MOSFET]] 功率元件供應商\n- **散熱元件:** 散熱風扇馬達及銅製散熱管供應商\n- **金屬材料:** 鋼板/鋁板沖壓及塑膠射出件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

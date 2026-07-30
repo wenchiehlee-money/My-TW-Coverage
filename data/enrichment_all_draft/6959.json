@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6959",
+  "company_name": "兆捷科技",
+  "title": "6959_兆捷科技",
+  "source_md": "Pilot_Reports/Specialty Chemicals/6959_兆捷科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "3,956 百萬台幣",
+    "enterprise_value": "5,182 百萬台幣"
+  },
+  "business": {
+    "summary": "兆捷科技 (6959，ION Electronic Materials) 位於新竹科學園區銅鑼園區，董事長為前台灣 DRAM 教父[[高啟全]]。為台灣目前唯一能提供四大類半導體特殊氣體之業者：(1) 離子植入氣體 — 砷化氫 (AsH3)、磷化氫 (PH3)、三氟化硼 (BF3)；(2) 清洗/蝕刻氣體 — [[NF3]]、[[SF6]]；(3) [[CVD]]薄膜沉積氣體 — [[矽甲烷]] (SiH4)、二矽甲烷；(4) 雷射光刻氣體。核心技術為特殊氣體純化、偵測、品管與充填。下游客戶涵蓋[[台積電]]、[[聯電]]、[[力積電]]、[[世界先進]]等台灣各大晶圓代工廠。",
+    "entities": [
+      "高啟全",
+      "NF3",
+      "SF6",
+      "CVD",
+      "矽甲烷",
+      "台積電",
+      "聯電",
+      "力積電",
+      "世界先進"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "粗氣原料",
+        "text": "全球特殊氣體原廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**兆捷** (半導體特殊氣體純化/充填/品管，新竹銅鑼園區)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (晶圓廠)",
+        "text": "**下游 (晶圓廠):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]]、[[力積電]]、[[世界先進]] — [[蝕刻]]/[[CVD]]/[[離子植入]]用氣體",
+        "entities": [
+          "台積電",
+          "聯電",
+          "力積電",
+          "世界先進",
+          "蝕刻",
+          "CVD",
+          "離子植入"
+        ]
+      },
+      {
+        "category": "面板/光電",
+        "text": "面板及光電產業",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]]、[[力積電]]、[[世界先進]] — 四大類半導體特殊氣體",
+        "entities": [
+          "台積電",
+          "聯電",
+          "力積電",
+          "世界先進"
+        ]
+      },
+      {
+        "role": "面板/光電",
+        "text": "面板及光電產業",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "粗氣",
+        "text": "全球特殊氣體原廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "聯電",
+          "力積電",
+          "世界先進"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": [
+      {
+        "role": "",
+        "text": "[[高啟全]] — 前台灣 DRAM 教父",
+        "entities": [
+          "高啟全"
+        ]
+      }
+    ]
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "高啟全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高啟全"
+    },
+    {
+      "name": "NF3",
+      "type": "international_company_or_term",
+      "wikilink": "NF3"
+    },
+    {
+      "name": "SF6",
+      "type": "international_company_or_term",
+      "wikilink": "SF6"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "矽甲烷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽甲烷"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "力積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力積電"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    },
+    {
+      "name": "離子植入",
+      "type": "taiwan_company_or_term",
+      "wikilink": "離子植入"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "兆捷科技 (6959，ION Electronic Materials) 位於新竹科學園區銅鑼園區，董事長為前台灣 DRAM 教父[[高啟全]]。為台灣目前唯一能提供四大類半導體特殊氣體之業者：(1) 離子植入氣體 — 砷化氫 (AsH3)、磷化氫 (PH3)、三氟化硼 (BF3)；(2) 清洗/蝕刻氣體 — [[NF3]]、[[SF6]]；(3) [[CVD]]薄膜沉積氣體 — [[矽甲烷]] (SiH4)、二矽甲烷；(4) 雷射光刻氣體。核心技術為特殊氣體純化、偵測、品管與充填。下游客戶涵蓋[[台積電]]、[[聯電]]、[[力積電]]、[[世界先進]]等台灣各大晶圓代工廠。",
+    "supply_chain_md": "**上游 (原料):**\n- **粗氣原料:** 全球特殊氣體原廠\n\n**中游 (製造):**\n- **兆捷** (半導體特殊氣體純化/充填/品管，新竹銅鑼園區)\n\n**下游 (晶圓廠):**\n- **晶圓代工:** [[台積電]]、[[聯電]]、[[力積電]]、[[世界先進]] — [[蝕刻]]/[[CVD]]/[[離子植入]]用氣體\n- **面板/光電:** 面板及光電產業",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]]、[[聯電]]、[[力積電]]、[[世界先進]] — 四大類半導體特殊氣體\n- **面板/光電:** 面板及光電產業\n\n### 主要供應商\n- **粗氣:** 全球特殊氣體原廠\n\n### 董事長\n- [[高啟全]] — 前台灣 DRAM 教父"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

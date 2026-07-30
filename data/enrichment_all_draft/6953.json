@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6953",
+  "company_name": "家碩",
+  "title": "6953_家碩",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/6953_家碩.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "5,808 百萬台幣",
+    "enterprise_value": "4,666 百萬台幣"
+  },
+  "business": {
+    "summary": "家碩科技 (6953，原名家登自動化) 是一家專業的半導體精密儀器銷售、維修及維護服務商。公司提供半導體製程所需之精密量測及檢測設備銷售與售後服務，服務台灣晶圓代工及封測客戶，專注於[[奈米級]]量測及[[缺陷檢測]]設備。公司於 2023 年更名為家碩科技，2024 年掛牌上櫃。代理品牌涵蓋 [[KLA]]、[[Onto Innovation]]、[[Bruker]] 等國際量測設備廠。",
+    "entities": [
+      "奈米級",
+      "缺陷檢測",
+      "KLA",
+      "Onto Innovation",
+      "Bruker"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備原廠)",
+        "text": "**上游 (設備原廠):**",
+        "entities": []
+      },
+      {
+        "category": "量測設備",
+        "text": "國際精密量測儀器原廠",
+        "entities": []
+      },
+      {
+        "category": "檢測設備",
+        "text": "半導體檢測設備供應",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (銷售與服務)",
+        "text": "**中游 (銷售與服務):**",
+        "entities": []
+      },
+      {
+        "category": "儀器銷售/維護",
+        "text": "**家碩** (精密儀器銷售、維修及維護)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體製造)",
+        "text": "**下游 (半導體製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]、[[聯華電子]] 等",
+        "entities": [
+          "台積電",
+          "聯華電子"
+        ]
+      },
+      {
+        "category": "封裝測試",
+        "text": "封測廠量測設備需求",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]、[[聯華電子]] 等",
+        "entities": [
+          "台積電",
+          "聯華電子"
+        ]
+      },
+      {
+        "role": "封裝測試",
+        "text": "封測廠客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "量測設備",
+        "text": "國際精密儀器原廠",
+        "entities": []
+      },
+      {
+        "role": "檢測設備",
+        "text": "半導體檢測設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "聯華電子"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "奈米級",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奈米級"
+    },
+    {
+      "name": "缺陷檢測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "缺陷檢測"
+    },
+    {
+      "name": "KLA",
+      "type": "international_company_or_term",
+      "wikilink": "KLA"
+    },
+    {
+      "name": "Onto Innovation",
+      "type": "international_company_or_term",
+      "wikilink": "Onto Innovation"
+    },
+    {
+      "name": "Bruker",
+      "type": "international_company_or_term",
+      "wikilink": "Bruker"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "家碩科技 (6953，原名家登自動化) 是一家專業的半導體精密儀器銷售、維修及維護服務商。公司提供半導體製程所需之精密量測及檢測設備銷售與售後服務，服務台灣晶圓代工及封測客戶，專注於[[奈米級]]量測及[[缺陷檢測]]設備。公司於 2023 年更名為家碩科技，2024 年掛牌上櫃。代理品牌涵蓋 [[KLA]]、[[Onto Innovation]]、[[Bruker]] 等國際量測設備廠。",
+    "supply_chain_md": "**上游 (設備原廠):**\n- **量測設備:** 國際精密量測儀器原廠\n- **檢測設備:** 半導體檢測設備供應\n\n**中游 (銷售與服務):**\n- **儀器銷售/維護:** **家碩** (精密儀器銷售、維修及維護)\n\n**下游 (半導體製造):**\n- **晶圓代工:** [[台積電]]、[[聯華電子]] 等\n- **封裝測試:** 封測廠量測設備需求",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]]、[[聯華電子]] 等\n- **封裝測試:** 封測廠客戶\n\n### 主要供應商\n- **量測設備:** 國際精密儀器原廠\n- **檢測設備:** 半導體檢測設備供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

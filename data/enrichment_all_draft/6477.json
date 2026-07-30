@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6477",
+  "company_name": "安集",
+  "title": "6477 - [[安集]]",
+  "source_md": "Pilot_Reports/Solar/6477_安集.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Solar",
+    "market_cap": "4,240 百萬台幣",
+    "enterprise_value": "8,348 百萬台幣"
+  },
+  "business": {
+    "summary": "安集科技股份有限公司 (6477) 為台灣太陽能模組製造與電廠營運之中堅企業，近年更跨界發展金屬[[3D列印]]技術。主要業務包括：\n\n1. **太陽能電廠營運：** 投資自營綠能電廠，售電收入佔營收約七成，包含浮水型與雙面發電模組。\n2. **太陽能模組製造：** 提供客製化模組，聚焦利基型產品如離岸與建築整合模組。\n3. **金屬[[3D列印]]：** 與大股東欽揚科技結盟，開發金屬[[3D列印]]機與金屬粉末技術，已取得航太 ([[AS9100]]) 及醫療認證，打入美國軍規無人機零組件供應鏈。佔營收約12%。\n\n金屬[[3D列印]]事業為公司重要成長動能，已完成小型無人機試飛並符合軍事規格。",
+    "entities": [
+      "3D列印",
+      "AS9100"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能",
+        "text": "矽晶圓、模組強化玻璃、[[EVA]]膠膜、銀漿",
+        "entities": [
+          "EVA"
+        ]
+      },
+      {
+        "category": "3D列印",
+        "text": "金屬粉末、[[3D列印]]設備零組件（欽揚科技供應）",
+        "entities": [
+          "3D列印"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "安集 (6477)",
+        "text": "太陽能模組製造、電廠投資營運、金屬[[3D列印]]零組件代工",
+        "entities": [
+          "3D列印"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能",
+        "text": "[[台電]]（躉購）、企業綠電買家",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "無人機",
+        "text": "美國軍規/民用無人機製造商",
+        "entities": []
+      },
+      {
+        "category": "國防",
+        "text": "[[中科院]]（國防研發合作）",
+        "entities": [
+          "中科院"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力躉購",
+        "text": "[[台電]]",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "無人機零組件",
+        "text": "美國前十大軍規/民用無人機廠商",
+        "entities": []
+      },
+      {
+        "role": "國防合作",
+        "text": "[[中科院]]",
+        "entities": [
+          "中科院"
+        ]
+      },
+      {
+        "role": "太陽能模組",
+        "text": "國內外[[EPC]]系統廠商",
+        "entities": [
+          "EPC"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "3D列印設備與粉末",
+        "text": "欽揚科技",
+        "entities": []
+      },
+      {
+        "role": "太陽能材料",
+        "text": "中/台一線矽晶圓、玻璃供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Solar):** [[國碩]]、[[聯合再生]]、[[達能]]、[[碩禾]]、[[新晶投控]]",
+        "entities": [
+          "國碩",
+          "聯合再生",
+          "達能",
+          "碩禾",
+          "新晶投控"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "中科院",
+          "EPC"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "2. **太陽能模組製造：** 提供客製化模組，聚焦利基型產品如離岸與建築整合模組。",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "3D列印",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D列印"
+    },
+    {
+      "name": "AS9100",
+      "type": "international_company_or_term",
+      "wikilink": "AS9100"
+    },
+    {
+      "name": "EVA",
+      "type": "international_company_or_term",
+      "wikilink": "EVA"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "中科院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中科院"
+    },
+    {
+      "name": "EPC",
+      "type": "international_company_or_term",
+      "wikilink": "EPC"
+    },
+    {
+      "name": "國碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國碩"
+    },
+    {
+      "name": "聯合再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯合再生"
+    },
+    {
+      "name": "達能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達能"
+    },
+    {
+      "name": "碩禾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碩禾"
+    },
+    {
+      "name": "新晶投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新晶投控"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "安集科技股份有限公司 (6477) 為台灣太陽能模組製造與電廠營運之中堅企業，近年更跨界發展金屬[[3D列印]]技術。主要業務包括：\n\n1. **太陽能電廠營運：** 投資自營綠能電廠，售電收入佔營收約七成，包含浮水型與雙面發電模組。\n2. **太陽能模組製造：** 提供客製化模組，聚焦利基型產品如離岸與建築整合模組。\n3. **金屬[[3D列印]]：** 與大股東欽揚科技結盟，開發金屬[[3D列印]]機與金屬粉末技術，已取得航太 ([[AS9100]]) 及醫療認證，打入美國軍規無人機零組件供應鏈。佔營收約12%。\n\n金屬[[3D列印]]事業為公司重要成長動能，已完成小型無人機試飛並符合軍事規格。",
+    "supply_chain_md": "**上游 (原材料):**\n- **太陽能：** 矽晶圓、模組強化玻璃、[[EVA]]膠膜、銀漿\n- **3D列印：** 金屬粉末、[[3D列印]]設備零組件（欽揚科技供應）\n\n**中游 (製造):**\n- **安集 (6477)：** 太陽能模組製造、電廠投資營運、金屬[[3D列印]]零組件代工\n\n**下游 (終端應用):**\n- **太陽能：** [[台電]]（躉購）、企業綠電買家\n- **無人機：** 美國軍規/民用無人機製造商\n- **國防：** [[中科院]]（國防研發合作）",
+    "customers_suppliers_md": "### 主要客戶\n- **電力躉購：** [[台電]]\n- **無人機零組件：** 美國前十大軍規/民用無人機廠商\n- **國防合作：** [[中科院]]\n- **太陽能模組：** 國內外[[EPC]]系統廠商\n\n### 主要供應商\n- **3D列印設備與粉末：** 欽揚科技\n- **太陽能材料：** 中/台一線矽晶圓、玻璃供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

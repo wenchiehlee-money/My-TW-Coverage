@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4402",
+  "company_name": "郡都開發",
+  "title": "4402 - 郡都開發",
+  "source_md": "Pilot_Reports/Textile Manufacturing/4402_郡都開發.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "",
+    "industry": "",
+    "market_cap": "",
+    "enterprise_value": ""
+  },
+  "business": {
+    "summary": "**郡都開發** (4402) (原名 **福大材料科技**) 早期從事 [[紡織]] 胚布與尼龍材料製造，近年經營權易主後，積極轉型為 [[不動產開發]] 與 [[再生能源]] 雙核心業務。在紡織本業上，已轉型為貿易商模式；在綠能領域，則從事 [[太陽能電廠]] 之投資、興建與維運 ([[EPC]]/[[IPP]])，綠電收入佔比顯著。未來營運重心將聚焦於高雄地區之 [[住宅大樓]] 開發案，轉型為專業地產開發商。",
+    "entities": [
+      "紡織",
+      "不動產開發",
+      "再生能源",
+      "太陽能電廠",
+      "EPC",
+      "IPP",
+      "住宅大樓"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**紡織事業**：已轉型為買賣貿易，向中上游紡織廠採購後銷售。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**建設事業**：位於不動產產業之**中游建設端**，從事土地開發與建案規劃銷售。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**能源事業**：位於太陽能產業之**下游系統端**，投資並持有 [[太陽能案場]]，銷售電力予 [[台電]] 或企業用戶。",
+        "entities": [
+          "太陽能案場",
+          "台電"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "",
+        "text": "郡都開發目前跨足紡織貿易、建設與綠能產業：",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "綠能",
+        "text": "[[台電]] (太陽能電力購電)",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "營建",
+        "text": "住宅買家",
+        "entities": []
+      },
+      {
+        "role": "紡織",
+        "text": "國內外布料貿易商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "太陽能",
+        "text": "[[元晶]]、[[茂迪]]等太陽能模組廠",
+        "entities": [
+          "元晶",
+          "茂迪"
+        ]
+      },
+      {
+        "role": "營建",
+        "text": "營造廠、建材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "紡織",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紡織"
+    },
+    {
+      "name": "不動產開發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不動產開發"
+    },
+    {
+      "name": "再生能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "再生能源"
+    },
+    {
+      "name": "太陽能電廠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能電廠"
+    },
+    {
+      "name": "EPC",
+      "type": "international_company_or_term",
+      "wikilink": "EPC"
+    },
+    {
+      "name": "IPP",
+      "type": "international_company_or_term",
+      "wikilink": "IPP"
+    },
+    {
+      "name": "住宅大樓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住宅大樓"
+    },
+    {
+      "name": "太陽能案場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能案場"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "元晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元晶"
+    },
+    {
+      "name": "茂迪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "茂迪"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "**郡都開發** (4402) (原名 **福大材料科技**) 早期從事 [[紡織]] 胚布與尼龍材料製造，近年經營權易主後，積極轉型為 [[不動產開發]] 與 [[再生能源]] 雙核心業務。在紡織本業上，已轉型為貿易商模式；在綠能領域，則從事 [[太陽能電廠]] 之投資、興建與維運 ([[EPC]]/[[IPP]])，綠電收入佔比顯著。未來營運重心將聚焦於高雄地區之 [[住宅大樓]] 開發案，轉型為專業地產開發商。",
+    "supply_chain_md": "郡都開發目前跨足紡織貿易、建設與綠能產業：\n*   **能源事業**：位於太陽能產業之**下游系統端**，投資並持有 [[太陽能案場]]，銷售電力予 [[台電]] 或企業用戶。\n*   **建設事業**：位於不動產產業之**中游建設端**，從事土地開發與建案規劃銷售。\n*   **紡織事業**：已轉型為買賣貿易，向中上游紡織廠採購後銷售。",
+    "customers_suppliers_md": "### 主要客戶\n- **綠能:** [[台電]] (太陽能電力購電)\n- **營建:** 住宅買家\n- **紡織:** 國內外布料貿易商\n\n### 主要供應商\n- **太陽能:** [[元晶]]、[[茂迪]]等太陽能模組廠\n- **營建:** 營造廠、建材供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

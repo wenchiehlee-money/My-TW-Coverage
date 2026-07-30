@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3163",
+  "company_name": "波若威",
+  "title": "3163 - 波若威",
+  "source_md": "Pilot_Reports/Communication Equipment/3163_波若威.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "49,684 百萬台幣",
+    "enterprise_value": "47,468 百萬台幣"
+  },
+  "business": {
+    "summary": "波若威科技 (3163，[[Browave]]) 為台灣最大光纖被動元件與模組製造商，專精於 [[WDM]] (波分複用器)、[[PLC]] 分光器及光纖連接器等高精度光學元件之 OEM/ODM 代工。核心技術涵蓋熔錐雙錐 (FBT)、微光學 (Micro Optics) 及平面光波迴路 (PLC) 三大光纖被動元件平台。\n\n近年積極佈局 [[CPO]] (共同封裝光學) 技術，已獲 [[NVIDIA]] 選定為 [[矽光子]] 生態系合作夥伴，開發光纖套件 (Fiber Harness) 及光纖配線盒產品。CPO 產品預計 2025 年下半年完成驗證，2026 年進入量產，配合 [[800G]]/[[1.6T]] 高階光纖連接需求，將成為公司主要成長動能。此外受惠美國 BEAD 寬頻法案帶動北美光纖基建需求，公司亦積極擴充菲律賓廠產能。",
+    "entities": [
+      "Browave",
+      "WDM",
+      "PLC",
+      "CPO",
+      "NVIDIA",
+      "矽光子",
+      "800G",
+      "1.6T"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料與元件)",
+        "text": "**上游 (光學材料與元件):**",
+        "entities": []
+      },
+      {
+        "category": "光纖絲",
+        "text": "高純度石英玻璃光纖絲供應",
+        "entities": []
+      },
+      {
+        "category": "濾光片",
+        "text": "[[統新]] (光通訊濾光片)",
+        "entities": [
+          "統新"
+        ]
+      },
+      {
+        "category": "陶瓷插芯",
+        "text": "精密陶瓷接頭插芯供應",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光纖被動元件製造)",
+        "text": "**中游 (光纖被動元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "光纖被動元件",
+        "text": "**波若威** (台灣最大光纖被動元件 OEM/ODM，WDM/PLC 分光器/CPO 光纖套件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (光收發模組與資料中心)",
+        "text": "**下游 (光收發模組與資料中心):**",
+        "entities": []
+      },
+      {
+        "category": "AI 資料中心",
+        "text": "[[NVIDIA]] CPO 矽光子生態系",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "光收發模組廠",
+        "text": "國際光收發模組廠 (400G/800G/1.6T)",
+        "entities": []
+      },
+      {
+        "category": "電信基建",
+        "text": "北美 BEAD 法案寬頻基建",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 與雲端",
+        "text": "[[NVIDIA]] (CPO 矽光子光纖套件)、[[Google]] 及北美雲端服務商",
+        "entities": [
+          "NVIDIA",
+          "Google"
+        ]
+      },
+      {
+        "role": "光模組廠",
+        "text": "國際光收發模組整合廠 (400G/800G)",
+        "entities": []
+      },
+      {
+        "role": "電信基建",
+        "text": "北美及歐洲電信營運商 (FTTx 光纖到戶)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學濾片",
+        "text": "[[統新]]",
+        "entities": [
+          "統新"
+        ]
+      },
+      {
+        "role": "光纖絲",
+        "text": "國際石英玻璃光纖供應商",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[上詮]]、[[華星光]]",
+        "entities": [
+          "上詮",
+          "華星光"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[上詮]]、[[華星光]]",
+        "entities": [
+          "上詮",
+          "華星光"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Browave",
+      "type": "international_company_or_term",
+      "wikilink": "Browave"
+    },
+    {
+      "name": "WDM",
+      "type": "international_company_or_term",
+      "wikilink": "WDM"
+    },
+    {
+      "name": "PLC",
+      "type": "international_company_or_term",
+      "wikilink": "PLC"
+    },
+    {
+      "name": "CPO",
+      "type": "technology",
+      "wikilink": "CPO"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "800G",
+      "type": "international_company_or_term",
+      "wikilink": "800G"
+    },
+    {
+      "name": "1.6T",
+      "type": "international_company_or_term",
+      "wikilink": "1.6T"
+    },
+    {
+      "name": "統新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統新"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "上詮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上詮"
+    },
+    {
+      "name": "華星光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華星光"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "波若威科技 (3163，[[Browave]]) 為台灣最大光纖被動元件與模組製造商，專精於 [[WDM]] (波分複用器)、[[PLC]] 分光器及光纖連接器等高精度光學元件之 OEM/ODM 代工。核心技術涵蓋熔錐雙錐 (FBT)、微光學 (Micro Optics) 及平面光波迴路 (PLC) 三大光纖被動元件平台。\n\n近年積極佈局 [[CPO]] (共同封裝光學) 技術，已獲 [[NVIDIA]] 選定為 [[矽光子]] 生態系合作夥伴，開發光纖套件 (Fiber Harness) 及光纖配線盒產品。CPO 產品預計 2025 年下半年完成驗證，2026 年進入量產，配合 [[800G]]/[[1.6T]] 高階光纖連接需求，將成為公司主要成長動能。此外受惠美國 BEAD 寬頻法案帶動北美光纖基建需求，公司亦積極擴充菲律賓廠產能。",
+    "supply_chain_md": "**上游 (光學材料與元件):**\n- **光纖絲:** 高純度石英玻璃光纖絲供應\n- **濾光片:** [[統新]] (光通訊濾光片)\n- **陶瓷插芯:** 精密陶瓷接頭插芯供應\n\n**中游 (光纖被動元件製造):**\n- **光纖被動元件:** **波若威** (台灣最大光纖被動元件 OEM/ODM，WDM/PLC 分光器/CPO 光纖套件)\n\n**下游 (光收發模組與資料中心):**\n- **AI 資料中心:** [[NVIDIA]] CPO 矽光子生態系\n- **光收發模組廠:** 國際光收發模組廠 (400G/800G/1.6T)\n- **電信基建:** 北美 BEAD 法案寬頻基建",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 與雲端:** [[NVIDIA]] (CPO 矽光子光纖套件)、[[Google]] 及北美雲端服務商\n- **光模組廠:** 國際光收發模組整合廠 (400G/800G)\n- **電信基建:** 北美及歐洲電信營運商 (FTTx 光纖到戶)\n\n### 主要供應商\n- **光學濾片:** [[統新]]\n- **光纖絲:** 國際石英玻璃光纖供應商\n- **競爭同業:** [[上詮]]、[[華星光]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

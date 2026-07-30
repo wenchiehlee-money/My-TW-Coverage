@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1304",
+  "company_name": "台聚",
+  "title": "1304 - 台聚",
+  "source_md": "Pilot_Reports/Specialty Chemicals/1304_台聚.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "12,117 百萬台幣",
+    "enterprise_value": "40,966 百萬台幣"
+  },
+  "business": {
+    "summary": "台聚 (USI Corporation) (台灣聚合化學品股份有限公司) 成立於 1965 年，總部位於台灣[[高雄]]，為[[台聚集團]] (USI Group) 之核心企業。台聚不僅是台灣第一家生產[[聚乙烯]] (PE) 的石化廠，更已發展成為跨足石化、電子材料、投資等領域之綜合集團。主要產品涵蓋 HDPE、LDPE、LLDPE、[[EVA]] (乙烯醋酸乙烯酯共聚物) 及 CBC (環狀嵌段共聚物)。近年受惠於太陽能產業發展，EVA 封裝膜原料成為公司獲利重要引擎。",
+    "entities": [
+      "高雄",
+      "台聚集團",
+      "聚乙烯",
+      "EVA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "原料",
+        "text": "[[乙烯]] (Ethylene)、醋酸乙烯 (VAM)。",
+        "entities": [
+          "乙烯"
+        ]
+      },
+      {
+        "category": "供應商",
+        "text": "主要來自[[中油]] (CPC) 及透過集團聯合採購進口，確保原料來源分散與穩定。",
+        "entities": [
+          "中油"
+        ]
+      },
+      {
+        "category": "子公司",
+        "text": "透過[[華夏]] (1305)、[[亞聚]] (1308)、[[台達化]] (1309) 進行垂直與水平整合。",
+        "entities": [
+          "華夏",
+          "亞聚",
+          "台達化"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "主要產品",
+        "text": "- **主要產品:**",
+        "entities": []
+      },
+      {
+        "category": "EVA",
+        "text": "[[太陽能]]封裝膜 (高毛利)、發泡鞋材、熱熔膠。",
+        "entities": [
+          "太陽能"
+        ]
+      },
+      {
+        "category": "PE (LDPE/HDPE/LLDPE)",
+        "text": "農業用膜、包裝膜、射出成型日用品 (塑膠桶、瓶蓋)。",
+        "entities": []
+      },
+      {
+        "category": "CBC",
+        "text": "高階光學鏡頭、[[醫療器材]] (高附加價值新產品)。",
+        "entities": [
+          "醫療器材"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "太陽能",
+        "text": "國內外太陽能模組廠 (EVA 封裝膜)。",
+        "entities": []
+      },
+      {
+        "role": "加工業",
+        "text": "鞋材廠 (如寶成供應鏈)、包裝材廠、電線電纜廠。",
+        "entities": []
+      },
+      {
+        "role": "出口",
+        "text": "中國、東南亞、印度、中東等地。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[台灣中油]]、國際石化大廠。",
+        "entities": [
+          "台灣中油"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[華夏]]、[[亞聚]]、[[台達化]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "華夏",
+          "亞聚",
+          "台達化"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "高雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄"
+    },
+    {
+      "name": "台聚集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚集團"
+    },
+    {
+      "name": "聚乙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚乙烯"
+    },
+    {
+      "name": "EVA",
+      "type": "international_company_or_term",
+      "wikilink": "EVA"
+    },
+    {
+      "name": "乙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "乙烯"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    },
+    {
+      "name": "台達化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達化"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "醫療器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療器材"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台聚 (USI Corporation) (台灣聚合化學品股份有限公司) 成立於 1965 年，總部位於台灣[[高雄]]，為[[台聚集團]] (USI Group) 之核心企業。台聚不僅是台灣第一家生產[[聚乙烯]] (PE) 的石化廠，更已發展成為跨足石化、電子材料、投資等領域之綜合集團。主要產品涵蓋 HDPE、LDPE、LLDPE、[[EVA]] (乙烯醋酸乙烯酯共聚物) 及 CBC (環狀嵌段共聚物)。近年受惠於太陽能產業發展，EVA 封裝膜原料成為公司獲利重要引擎。",
+    "supply_chain_md": "**上游 (石化原料):**\n- **原料:** [[乙烯]] (Ethylene)、醋酸乙烯 (VAM)。\n- **供應商:** 主要來自[[中油]] (CPC) 及透過集團聯合採購進口，確保原料來源分散與穩定。\n- **子公司:** 透過[[華夏]] (1305)、[[亞聚]] (1308)、[[台達化]] (1309) 進行垂直與水平整合。\n\n**下游應用:**\n- **主要產品:**\n    - **EVA:** [[太陽能]]封裝膜 (高毛利)、發泡鞋材、熱熔膠。\n    - **PE (LDPE/HDPE/LLDPE):** 農業用膜、包裝膜、射出成型日用品 (塑膠桶、瓶蓋)。\n    - **CBC:** 高階光學鏡頭、[[醫療器材]] (高附加價值新產品)。",
+    "customers_suppliers_md": "### 主要客戶\n- **太陽能:** 國內外太陽能模組廠 (EVA 封裝膜)。\n- **加工業:** 鞋材廠 (如寶成供應鏈)、包裝材廠、電線電纜廠。\n- **出口:** 中國、東南亞、印度、中東等地。\n\n### 主要供應商\n- **原料:** [[台灣中油]]、國際石化大廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

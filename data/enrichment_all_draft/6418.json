@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6418",
+  "company_name": "詠昇",
+  "title": "6418_詠昇",
+  "source_md": "Pilot_Reports/Electronic Components/6418_詠昇.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,018 百萬台幣",
+    "enterprise_value": "979 百萬台幣"
+  },
+  "business": {
+    "summary": "詠昇電子股份有限公司 (6418) 是一家立足台灣的專業訊號傳輸線材及[[連接器]]製造商。詠昇提供從模具設計、金屬沖壓、塑膠射出到線材橋接組裝的一條龍服務。產品線廣泛應用於[[5G]]通訊、[[電動車]]、工控設備、[[AI 伺服器]]及[[醫療器材]]等領域。詠昇憑藉高性價比及穩定的交期，不僅打入全球第二大醫療設備製造商供應鏈，也成為德國車廠之Tier 2供應商。近年來，詠昇亦積極配合客戶切入無人機供應鏈，佈局利基型傳輸線材市場。",
+    "entities": [
+      "連接器",
+      "5G",
+      "電動車",
+      "AI 伺服器",
+      "醫療器材"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 無氧銅線、PVC/TPE等塑膠絕緣粒、金屬沖壓件及電子端子。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **詠昇電子** (各類訊號傳輸線、[[連接器]]、PCBA及訊號放大器之製造組裝)。",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: [[消費性電子]]組裝廠、醫療設備製造商、汽車電子模組廠及[[伺服器]]代工廠。",
+        "entities": [
+          "消費性電子",
+          "伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "全球第二大醫療設備商、德國車用電子一階廠(Tier1)、以及全球知名[[Type-C]]手機品牌。",
+        "entities": [
+          "Type-C"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外大型銅線冶煉廠及高分子塑膠原料商。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Type-C"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "詠昇電子股份有限公司 (6418) 是一家立足台灣的專業訊號傳輸線材及[[連接器]]製造商。詠昇提供從模具設計、金屬沖壓、塑膠射出到線材橋接組裝的一條龍服務。產品線廣泛應用於[[5G]]通訊、[[電動車]]、工控設備、[[AI 伺服器]]及[[醫療器材]]等領域。詠昇憑藉高性價比及穩定的交期，不僅打入全球第二大醫療設備製造商供應鏈，也成為德國車廠之Tier 2供應商。近年來，詠昇亦積極配合客戶切入無人機供應鏈，佈局利基型傳輸線材市場。",
+        "entities": [
+          "連接器",
+          "5G",
+          "電動車",
+          "AI 伺服器",
+          "醫療器材"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "醫療器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療器材"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "Type-C",
+      "type": "international_company_or_term",
+      "wikilink": "Type-C"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "詠昇電子股份有限公司 (6418) 是一家立足台灣的專業訊號傳輸線材及[[連接器]]製造商。詠昇提供從模具設計、金屬沖壓、塑膠射出到線材橋接組裝的一條龍服務。產品線廣泛應用於[[5G]]通訊、[[電動車]]、工控設備、[[AI 伺服器]]及[[醫療器材]]等領域。詠昇憑藉高性價比及穩定的交期，不僅打入全球第二大醫療設備製造商供應鏈，也成為德國車廠之Tier 2供應商。近年來，詠昇亦積極配合客戶切入無人機供應鏈，佈局利基型傳輸線材市場。",
+    "supply_chain_md": "*   **上游**: 無氧銅線、PVC/TPE等塑膠絕緣粒、金屬沖壓件及電子端子。\n*   **中游**: **詠昇電子** (各類訊號傳輸線、[[連接器]]、PCBA及訊號放大器之製造組裝)。\n*   **下游**: [[消費性電子]]組裝廠、醫療設備製造商、汽車電子模組廠及[[伺服器]]代工廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   全球第二大醫療設備商、德國車用電子一階廠(Tier1)、以及全球知名[[Type-C]]手機品牌。\n\n### 主要供應商\n*   國內外大型銅線冶煉廠及高分子塑膠原料商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

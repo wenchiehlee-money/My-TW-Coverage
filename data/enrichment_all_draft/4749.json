@@ -1,0 +1,288 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4749",
+  "company_name": "新應材",
+  "title": "4749 - 新應材",
+  "source_md": "Pilot_Reports/Consumer Electronics/4749_新應材.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "61,779 百萬台幣",
+    "enterprise_value": "58,033 百萬台幣"
+  },
+  "business": {
+    "summary": "新應材科技股份有限公司 (4749) 成立於 2003 年，為台灣本土關鍵半導體特用化學品供應商。專注於[[微影]]製程材料，包括：(1) [[光阻]] (Photoresist) — I-Line、KrF、ArF 光阻（研發/認證中）；(2) 配套化學品 — 清洗劑 (Rinse)、[[去光阻液]] (Stripper)、洗邊劑 (EBR)、底部抗反射層 ([[BARC]])。已成功打入 [[台積電]] 先進製程（7nm/5nm/3nm/2nm）供應鏈，為少數能取代日系進口材料的台灣廠商。另有 [[Micro LED]] 用量子點材料與 [[CIS]] 材料。台積電為最大單一客戶，營收佔比已達約 79%。",
+    "entities": [
+      "微影",
+      "光阻",
+      "去光阻液",
+      "BARC",
+      "台積電",
+      "Micro LED",
+      "CIS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (特用化學原料)",
+        "text": "**上游 (特用化學原料):**",
+        "entities": []
+      },
+      {
+        "category": "樹脂",
+        "text": "感光性樹脂原料",
+        "entities": []
+      },
+      {
+        "category": "感光劑",
+        "text": "光敏劑與增感劑",
+        "entities": []
+      },
+      {
+        "category": "溶劑",
+        "text": "高純度電子級溶劑",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電子級化學品配方製造)",
+        "text": "**中游 (電子級化學品配方製造):**",
+        "entities": []
+      },
+      {
+        "category": "光阻配套",
+        "text": "**新應材** ([[光阻]]清洗劑 Rinse、[[BARC]]、EBR)",
+        "entities": [
+          "光阻",
+          "BARC"
+        ]
+      },
+      {
+        "category": "去光阻",
+        "text": "**新應材** ([[去光阻液]] Stripper)",
+        "entities": [
+          "去光阻液"
+        ]
+      },
+      {
+        "category": "先進製程",
+        "text": "**新應材** (N3/N2 製程配套材料)",
+        "entities": []
+      },
+      {
+        "category": "生產基地",
+        "text": "桃園廠、台南廠、高雄廠",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體與光電製造)",
+        "text": "**下游 (半導體與光電製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] — 先進製程關鍵材料（營收佔比約 79%）",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "面板/光電",
+        "text": "[[友達]]、[[群創]] — [[Micro LED]]/面板材料",
+        "entities": [
+          "友達",
+          "群創",
+          "Micro LED"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "[[日月光投控]] — 封裝製程材料",
+        "entities": [
+          "日月光投控"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] — 先進製程（N7/N5/N3/N2）配套化學品（最大客戶）",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "面板廠",
+        "text": "[[友達]]、[[群創]] — [[Micro LED]]/面板材料",
+        "entities": [
+          "友達",
+          "群創",
+          "Micro LED"
+        ]
+      },
+      {
+        "role": "封測廠",
+        "text": "[[日月光投控]] — 封裝製程材料",
+        "entities": [
+          "日月光投控"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "樹脂",
+        "text": "感光性樹脂原料供應商",
+        "entities": []
+      },
+      {
+        "role": "溶劑",
+        "text": "高純度電子級溶劑供應商",
+        "entities": []
+      },
+      {
+        "role": "感光劑",
+        "text": "光敏劑原料廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "友達",
+          "群創",
+          "Micro LED",
+          "日月光投控"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "新應材科技股份有限公司 (4749) 成立於 2003 年，為台灣本土關鍵半導體特用化學品供應商。專注於[[微影]]製程材料，包括：(1) [[光阻]] (Photoresist) — I-Line、KrF、ArF 光阻（研發/認證中）；(2) 配套化學品 — 清洗劑 (Rinse)、[[去光阻液]] (Stripper)、洗邊劑 (EBR)、底部抗反射層 ([[BARC]])。已成功打入 [[台積電]] 先進製程（7nm/5nm/3nm/2nm）供應鏈，為少數能取代日系進口材料的台灣廠商。另有 [[Micro LED]] 用量子點材料與 [[CIS]] 材料。台積電為最大單一客戶，營收佔比已達約 79%。",
+        "entities": [
+          "微影",
+          "光阻",
+          "去光阻液",
+          "BARC",
+          "台積電",
+          "Micro LED",
+          "CIS"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "微影",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微影"
+    },
+    {
+      "name": "光阻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光阻"
+    },
+    {
+      "name": "去光阻液",
+      "type": "taiwan_company_or_term",
+      "wikilink": "去光阻液"
+    },
+    {
+      "name": "BARC",
+      "type": "international_company_or_term",
+      "wikilink": "BARC"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Micro LED",
+      "type": "international_company_or_term",
+      "wikilink": "Micro LED"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新應材科技股份有限公司 (4749) 成立於 2003 年，為台灣本土關鍵半導體特用化學品供應商。專注於[[微影]]製程材料，包括：(1) [[光阻]] (Photoresist) — I-Line、KrF、ArF 光阻（研發/認證中）；(2) 配套化學品 — 清洗劑 (Rinse)、[[去光阻液]] (Stripper)、洗邊劑 (EBR)、底部抗反射層 ([[BARC]])。已成功打入 [[台積電]] 先進製程（7nm/5nm/3nm/2nm）供應鏈，為少數能取代日系進口材料的台灣廠商。另有 [[Micro LED]] 用量子點材料與 [[CIS]] 材料。台積電為最大單一客戶，營收佔比已達約 79%。",
+    "supply_chain_md": "**上游 (特用化學原料):**\n- **樹脂:** 感光性樹脂原料\n- **感光劑:** 光敏劑與增感劑\n- **溶劑:** 高純度電子級溶劑\n\n**中游 (電子級化學品配方製造):**\n- **光阻配套:** **新應材** ([[光阻]]清洗劑 Rinse、[[BARC]]、EBR)\n- **去光阻:** **新應材** ([[去光阻液]] Stripper)\n- **先進製程:** **新應材** (N3/N2 製程配套材料)\n- **生產基地:** 桃園廠、台南廠、高雄廠\n\n**下游 (半導體與光電製造):**\n- **晶圓代工:** [[台積電]] — 先進製程關鍵材料（營收佔比約 79%）\n- **面板/光電:** [[友達]]、[[群創]] — [[Micro LED]]/面板材料\n- **封測:** [[日月光投控]] — 封裝製程材料",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] — 先進製程（N7/N5/N3/N2）配套化學品（最大客戶）\n- **面板廠:** [[友達]]、[[群創]] — [[Micro LED]]/面板材料\n- **封測廠:** [[日月光投控]] — 封裝製程材料\n\n### 主要供應商\n- **樹脂:** 感光性樹脂原料供應商\n- **溶劑:** 高純度電子級溶劑供應商\n- **感光劑:** 光敏劑原料廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

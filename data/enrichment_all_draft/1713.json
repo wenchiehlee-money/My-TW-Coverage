@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1713",
+  "company_name": "國化",
+  "title": "1713 - 國化",
+  "source_md": "Pilot_Reports/Specialty Chemicals/1713_國化.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "7,004 百萬台幣",
+    "enterprise_value": "6,663 百萬台幣"
+  },
+  "business": {
+    "summary": "國化實業 (1713，Cathay Chemical Works) 為台灣特用化學品製造商，產品涵蓋清洗劑、半導體濕製程化學品及工業化學品。近年成功切入半導體供應鏈，子公司[[和淞科技]]專注半導體特化品，供應[[台積電]]、[[Micron]]等晶圓廠。",
+    "entities": [
+      "和淞科技",
+      "台積電",
+      "Micron"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "化工原料",
+        "text": "基礎酸鹼/溶劑供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**國化** (清洗劑/半導體特化品/工業化學品)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[和淞科技]]** (子公司，半導體濕製程化學品)",
+        "entities": [
+          "和淞科技"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[Micron]] — 濕製程化學品",
+        "entities": [
+          "台積電",
+          "Micron"
+        ]
+      },
+      {
+        "category": "工業",
+        "text": "工業清洗/表面處理客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[Micron]] — 濕製程化學品 (透過[[和淞科技]])",
+        "entities": [
+          "台積電",
+          "Micron",
+          "和淞科技"
+        ]
+      },
+      {
+        "role": "工業",
+        "text": "工業清洗/表面處理",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "化工原料",
+        "text": "基礎酸鹼/溶劑",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "Micron",
+          "和淞科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "和淞科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和淞科技"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "國化實業 (1713，Cathay Chemical Works) 為台灣特用化學品製造商，產品涵蓋清洗劑、半導體濕製程化學品及工業化學品。近年成功切入半導體供應鏈，子公司[[和淞科技]]專注半導體特化品，供應[[台積電]]、[[Micron]]等晶圓廠。",
+    "supply_chain_md": "**上游 (原料):**\n- **化工原料:** 基礎酸鹼/溶劑供應商\n\n**中游 (製造):**\n- **國化** (清洗劑/半導體特化品/工業化學品)\n- **[[和淞科技]]** (子公司，半導體濕製程化學品)\n\n**下游 (終端):**\n- **半導體:** [[台積電]]、[[Micron]] — 濕製程化學品\n- **工業:** 工業清洗/表面處理客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]、[[Micron]] — 濕製程化學品 (透過[[和淞科技]])\n- **工業:** 工業清洗/表面處理\n\n### 主要供應商\n- **化工原料:** 基礎酸鹼/溶劑"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

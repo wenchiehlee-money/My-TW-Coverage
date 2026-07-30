@@ -1,0 +1,305 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2886",
+  "company_name": "兆豐金",
+  "title": "2886 - [[兆豐金]]",
+  "source_md": "Pilot_Reports/Banks - Regional/2886_兆豐金.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "market_cap": "740,186 百萬台幣",
+    "enterprise_value": "N/A"
+  },
+  "business": {
+    "summary": "[[兆豐金融控股]] (2886) 成立於 2002 年，為台灣市值最高的公股金控。核心子公司[[兆豐國際商業銀行]]為台灣唯一的「美元清算銀行」，在外匯交易與大型企業跨國聯貸領域領先。其他子公司包括[[兆豐證券]]、[[兆豐票券]]、[[兆豐產物保險]]、[[兆豐國際投信]]及[[兆豐資產管理]]。兆豐金因獲利與配息長期穩定，深受存股族喜愛。[[財政部]]透過[[台灣銀行]]間接為最大股東。",
+    "entities": [
+      "兆豐金融控股",
+      "兆豐國際商業銀行",
+      "兆豐證券",
+      "兆豐票券",
+      "兆豐產物保險",
+      "兆豐國際投信",
+      "兆豐資產管理",
+      "財政部",
+      "台灣銀行"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "企業存款、外幣存款、一般存戶",
+        "entities": []
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、國際通匯銀行",
+        "entities": [
+          "中央銀行"
+        ]
+      },
+      {
+        "category": "公股股東",
+        "text": "[[財政部]]、[[台灣銀行]]",
+        "entities": [
+          "財政部",
+          "台灣銀行"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[兆豐國際商業銀行]]** (美元清算中心、外匯交易、大型聯貸、國際貿易融資)",
+        "entities": [
+          "兆豐國際商業銀行"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[兆豐證券]]** (證券經紀與承銷)",
+        "entities": [
+          "兆豐證券"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[兆豐票券]]** (票券金融)",
+        "entities": [
+          "兆豐票券"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[兆豐產物保險]]** (財產保險)",
+        "entities": [
+          "兆豐產物保險"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[兆豐國際投信]]** (基金管理)",
+        "entities": [
+          "兆豐國際投信"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "跨國聯貸",
+        "text": "以[[台積電]]為首之大型科技業進出口融資",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "貿易金融",
+        "text": "國際進出口貿易商之信用狀與匯兌",
+        "entities": []
+      },
+      {
+        "category": "個人金融",
+        "text": "外幣理財客戶、一般房貸消費客群",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "大型科技業",
+        "text": "以[[台積電]]為首之台灣跨國科技業 — 外匯結算與聯貸",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "貿易金融",
+        "text": "進出口貿易商之信用狀、保證及匯兌服務",
+        "entities": []
+      },
+      {
+        "role": "外幣理財",
+        "text": "高資產外幣理財客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "公股股東",
+        "text": "[[財政部]]、[[台灣銀行]]",
+        "entities": [
+          "財政部",
+          "台灣銀行"
+        ]
+      },
+      {
+        "role": "國際清算",
+        "text": "[[SWIFT]] 全球金融通訊網路",
+        "entities": [
+          "SWIFT"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]",
+        "entities": [
+          "財金資訊"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Banks - Regional):** [[彰銀]]、[[高雄銀]]、[[聯邦銀]]、[[遠東銀]]、[[安泰銀]]",
+        "entities": [
+          "彰銀",
+          "高雄銀",
+          "聯邦銀",
+          "遠東銀",
+          "安泰銀"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、國際通匯銀行",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "兆豐金融控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐金融控股"
+    },
+    {
+      "name": "兆豐國際商業銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐國際商業銀行"
+    },
+    {
+      "name": "兆豐證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐證券"
+    },
+    {
+      "name": "兆豐票券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐票券"
+    },
+    {
+      "name": "兆豐產物保險",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐產物保險"
+    },
+    {
+      "name": "兆豐國際投信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐國際投信"
+    },
+    {
+      "name": "兆豐資產管理",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐資產管理"
+    },
+    {
+      "name": "財政部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財政部"
+    },
+    {
+      "name": "台灣銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣銀行"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "SWIFT",
+      "type": "international_company_or_term",
+      "wikilink": "SWIFT"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "彰銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彰銀"
+    },
+    {
+      "name": "高雄銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄銀"
+    },
+    {
+      "name": "聯邦銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯邦銀"
+    },
+    {
+      "name": "遠東銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東銀"
+    },
+    {
+      "name": "安泰銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安泰銀"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[兆豐金融控股]] (2886) 成立於 2002 年，為台灣市值最高的公股金控。核心子公司[[兆豐國際商業銀行]]為台灣唯一的「美元清算銀行」，在外匯交易與大型企業跨國聯貸領域領先。其他子公司包括[[兆豐證券]]、[[兆豐票券]]、[[兆豐產物保險]]、[[兆豐國際投信]]及[[兆豐資產管理]]。兆豐金因獲利與配息長期穩定，深受存股族喜愛。[[財政部]]透過[[台灣銀行]]間接為最大股東。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** 企業存款、外幣存款、一般存戶\n- **同業資金:** [[中央銀行]]、國際通匯銀行\n- **公股股東:** [[財政部]]、[[台灣銀行]]\n\n**中游:**\n- **[[兆豐國際商業銀行]]** (美元清算中心、外匯交易、大型聯貸、國際貿易融資)\n- **[[兆豐證券]]** (證券經紀與承銷)\n- **[[兆豐票券]]** (票券金融)\n- **[[兆豐產物保險]]** (財產保險)\n- **[[兆豐國際投信]]** (基金管理)\n\n**下游 (授信客戶):**\n- **跨國聯貸:** 以[[台積電]]為首之大型科技業進出口融資\n- **貿易金融:** 國際進出口貿易商之信用狀與匯兌\n- **個人金融:** 外幣理財客戶、一般房貸消費客群",
+    "customers_suppliers_md": "### 主要客戶\n- **大型科技業:** 以[[台積電]]為首之台灣跨國科技業 — 外匯結算與聯貸\n- **貿易金融:** 進出口貿易商之信用狀、保證及匯兌服務\n- **外幣理財:** 高資產外幣理財客戶\n\n### 主要供應商\n- **公股股東:** [[財政部]]、[[台灣銀行]]\n- **國際清算:** [[SWIFT]] 全球金融通訊網路\n- **金流基礎設施:** [[財金資訊]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

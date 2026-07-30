@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5272",
+  "company_name": "笙科",
+  "title": "5272 - 笙科",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/5272_笙科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "920 百萬台幣",
+    "enterprise_value": "926 百萬台幣"
+  },
+  "business": {
+    "summary": "笙科電子 (5272) 是亞洲唯一同時專長於 [[SRD]] (短距離無線通訊) 及 [[LNB]] (低雜訊降頻器) 之 [[RF IC]] 設計公司，前身為聯笙無線事業部門。公司專注以 [[CMOS]] 製程開發射頻半導體晶片，產品應用於[[無線滑鼠]]、[[無線鍵盤]]、遙控器、[[衛星電視]]接收及 [[物聯網]] 無線通訊模組。",
+    "entities": [
+      "SRD",
+      "LNB",
+      "RF IC",
+      "CMOS",
+      "無線滑鼠",
+      "無線鍵盤",
+      "衛星電視",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "台灣晶圓代工廠 (CMOS 製程)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (RF IC 設計)",
+        "text": "**中游 (RF IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "射頻 IC",
+        "text": "**笙科** (SRD 無線通訊 IC、LNB 降頻器 IC)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "PC 周邊",
+        "text": "無線滑鼠、鍵盤品牌",
+        "entities": []
+      },
+      {
+        "category": "衛星電視",
+        "text": "衛星接收設備",
+        "entities": []
+      },
+      {
+        "category": "IoT",
+        "text": "物聯網無線模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PC 周邊",
+        "text": "無線滑鼠及鍵盤品牌廠",
+        "entities": []
+      },
+      {
+        "role": "衛星電視",
+        "text": "衛星接收設備製造商",
+        "entities": []
+      },
+      {
+        "role": "IoT",
+        "text": "物聯網無線通訊模組廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      },
+      {
+        "role": "封裝測試",
+        "text": "半導體封測服務",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "SRD",
+      "type": "international_company_or_term",
+      "wikilink": "SRD"
+    },
+    {
+      "name": "LNB",
+      "type": "international_company_or_term",
+      "wikilink": "LNB"
+    },
+    {
+      "name": "RF IC",
+      "type": "international_company_or_term",
+      "wikilink": "RF IC"
+    },
+    {
+      "name": "CMOS",
+      "type": "international_company_or_term",
+      "wikilink": "CMOS"
+    },
+    {
+      "name": "無線滑鼠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "無線滑鼠"
+    },
+    {
+      "name": "無線鍵盤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "無線鍵盤"
+    },
+    {
+      "name": "衛星電視",
+      "type": "taiwan_company_or_term",
+      "wikilink": "衛星電視"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "笙科電子 (5272) 是亞洲唯一同時專長於 [[SRD]] (短距離無線通訊) 及 [[LNB]] (低雜訊降頻器) 之 [[RF IC]] 設計公司，前身為聯笙無線事業部門。公司專注以 [[CMOS]] 製程開發射頻半導體晶片，產品應用於[[無線滑鼠]]、[[無線鍵盤]]、遙控器、[[衛星電視]]接收及 [[物聯網]] 無線通訊模組。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** 台灣晶圓代工廠 (CMOS 製程)\n\n**中游 (RF IC 設計):**\n- **射頻 IC:** **笙科** (SRD 無線通訊 IC、LNB 降頻器 IC)\n\n**下游 (終端應用):**\n- **PC 周邊:** 無線滑鼠、鍵盤品牌\n- **衛星電視:** 衛星接收設備\n- **IoT:** 物聯網無線模組",
+    "customers_suppliers_md": "### 主要客戶\n- **PC 周邊:** 無線滑鼠及鍵盤品牌廠\n- **衛星電視:** 衛星接收設備製造商\n- **IoT:** 物聯網無線通訊模組廠\n\n### 主要供應商\n- **晶圓代工:** 台灣晶圓代工廠\n- **封裝測試:** 半導體封測服務"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

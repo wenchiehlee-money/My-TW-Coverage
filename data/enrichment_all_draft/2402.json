@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2402",
+  "company_name": "毅嘉",
+  "title": "2402 - 毅嘉",
+  "source_md": "Pilot_Reports/Electronic Components/2402_毅嘉.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "15,315 百萬台幣",
+    "enterprise_value": "17,404 百萬台幣"
+  },
+  "business": {
+    "summary": "毅嘉科技 (2402) 是台灣專業的[[軟性印刷電路板]] ([[FPC]]) 製造商，提供單面、雙面及多層 FPC。產品應用從手機鏡頭模組、折疊手機延伸至筆電、[[穿戴裝置]]、[[車用電子]]及[[機器人]]。近年客戶包括 [[Google]] 穿戴裝置、[[任天堂]] Switch 2 面板軟板。全球 FPC 市占約 1-2%。",
+    "entities": [
+      "軟性印刷電路板",
+      "FPC",
+      "穿戴裝置",
+      "車用電子",
+      "機器人",
+      "Google",
+      "任天堂"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "FCCL",
+        "text": "軟性[[銅箔]]基板",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "覆蓋膜",
+        "text": "PI 覆蓋膜及膠材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (FPC 製造)",
+        "text": "**中游 (FPC 製造):**",
+        "entities": []
+      },
+      {
+        "category": "軟板",
+        "text": "**毅嘉** (單/雙/多層 FPC，手機/穿戴/車用)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (系統組裝)",
+        "text": "**下游 (系統組裝):**",
+        "entities": []
+      },
+      {
+        "category": "穿戴",
+        "text": "[[Google]] 穿戴裝置",
+        "entities": [
+          "Google"
+        ]
+      },
+      {
+        "category": "遊戲",
+        "text": "[[任天堂]] Switch 2",
+        "entities": [
+          "任天堂"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "車用 FPC 及光纖通訊",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "穿戴裝置",
+        "text": "[[Google]] 穿戴裝置",
+        "entities": [
+          "Google"
+        ]
+      },
+      {
+        "role": "遊戲",
+        "text": "[[任天堂]] Switch 2",
+        "entities": [
+          "任天堂"
+        ]
+      },
+      {
+        "role": "機器人",
+        "text": "美系機器人客戶 (2025 Q3 量產)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "FCCL",
+        "text": "軟性[[銅箔]]基板供應",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[臻鼎-KY]]、[[嘉聯益]]、[[台郡]]",
+        "entities": [
+          "臻鼎-KY",
+          "嘉聯益",
+          "台郡"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[臻鼎-KY]]、[[嘉聯益]]、[[台郡]]",
+        "entities": [
+          "臻鼎-KY",
+          "嘉聯益",
+          "台郡"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "軟性印刷電路板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "軟性印刷電路板"
+    },
+    {
+      "name": "FPC",
+      "type": "international_company_or_term",
+      "wikilink": "FPC"
+    },
+    {
+      "name": "穿戴裝置",
+      "type": "taiwan_company_or_term",
+      "wikilink": "穿戴裝置"
+    },
+    {
+      "name": "車用電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車用電子"
+    },
+    {
+      "name": "機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "機器人"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "任天堂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "任天堂"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "臻鼎-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臻鼎-KY"
+    },
+    {
+      "name": "嘉聯益",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉聯益"
+    },
+    {
+      "name": "台郡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台郡"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "毅嘉科技 (2402) 是台灣專業的[[軟性印刷電路板]] ([[FPC]]) 製造商，提供單面、雙面及多層 FPC。產品應用從手機鏡頭模組、折疊手機延伸至筆電、[[穿戴裝置]]、[[車用電子]]及[[機器人]]。近年客戶包括 [[Google]] 穿戴裝置、[[任天堂]] Switch 2 面板軟板。全球 FPC 市占約 1-2%。",
+    "supply_chain_md": "**上游 (材料):**\n- **FCCL:** 軟性[[銅箔]]基板\n- **覆蓋膜:** PI 覆蓋膜及膠材\n\n**中游 (FPC 製造):**\n- **軟板:** **毅嘉** (單/雙/多層 FPC，手機/穿戴/車用)\n\n**下游 (系統組裝):**\n- **穿戴:** [[Google]] 穿戴裝置\n- **遊戲:** [[任天堂]] Switch 2\n- **車用:** 車用 FPC 及光纖通訊",
+    "customers_suppliers_md": "### 主要客戶\n- **穿戴裝置:** [[Google]] 穿戴裝置\n- **遊戲:** [[任天堂]] Switch 2\n- **機器人:** 美系機器人客戶 (2025 Q3 量產)\n\n### 主要供應商\n- **FCCL:** 軟性[[銅箔]]基板供應\n- **競爭同業:** [[臻鼎-KY]]、[[嘉聯益]]、[[台郡]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

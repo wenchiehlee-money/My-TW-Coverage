@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3178",
+  "company_name": "公準",
+  "title": "3178 - 公準",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/3178_公準.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "2,523 百萬台幣",
+    "enterprise_value": "3,495 百萬台幣"
+  },
+  "business": {
+    "summary": "公準精密 (Gongin Precision) 是台灣領先的高階 **精密金屬加工** 與航太級零件供應商。\n公司專長於高難度材料加工與潔淨室組裝，成功打入全球[[半導體]]設備與[[低軌衛星]]供應鏈。\n核心業務領域：\n1.  **半導體設備**: 為全球微影設備龍頭 **[[ASML]]** 與設備大廠 **[[Applied Materials]]** 提供真空腔體、精密零組件與模組組裝服務。\n2.  **航太與低軌衛星**: 為 **SpaceX** (Starlink) 提供關鍵零件，並供應波音 (Boeing) 與空中巴士 (Airbus) 飛機起落架致動器零組件。\n3.  **先進製程助力**: 隨 [[EUV]] 曝光機世代更迭，公準提供的精密零件規格持續升級，具備高度技術壁壘。",
+    "entities": [
+      "半導體",
+      "低軌衛星",
+      "ASML",
+      "Applied Materials",
+      "EUV"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 特殊金屬 (鈦合金、鋁合金、不鏽鋼) 供應商。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游應用**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**半導體裝置**: [[ASML]], [[Applied Materials]] (AMAT).",
+        "entities": [
+          "ASML",
+          "Applied Materials"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**航太領域**: [[SpaceX]], [[UTC Aerospace]].",
+        "entities": [
+          "SpaceX",
+          "UTC Aerospace"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "",
+        "text": "**精密加工 (本體)**: **公準 (3178)** - 特殊材料加工、表面處理、精密組裝。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**半導體設備商**: [[ASML]] — 主要供應 [[EUV]] 相關真空腔體與精密組件",
+        "entities": [
+          "ASML",
+          "EUV"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**半導體設備商**: [[Applied Materials]] — 精密零組件與模組組裝",
+        "entities": [
+          "Applied Materials"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**航太/衛星**: [[SpaceX]] (Starlink) — 低軌衛星關鍵零件",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**航太**: Boeing、Airbus — 飛機起落架致動器零組件",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**特殊金屬**: 鈦合金、鋁合金、不鏽鋼等特殊金屬供應商",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**加工設備**: 五軸 CNC 精密加工機台",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ASML",
+          "EUV",
+          "Applied Materials",
+          "SpaceX"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "EUV",
+      "type": "technology",
+      "wikilink": "EUV"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "UTC Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "UTC Aerospace"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "公準精密 (Gongin Precision) 是台灣領先的高階 **精密金屬加工** 與航太級零件供應商。\n公司專長於高難度材料加工與潔淨室組裝，成功打入全球[[半導體]]設備與[[低軌衛星]]供應鏈。\n核心業務領域：\n1.  **半導體設備**: 為全球微影設備龍頭 **[[ASML]]** 與設備大廠 **[[Applied Materials]]** 提供真空腔體、精密零組件與模組組裝服務。\n2.  **航太與低軌衛星**: 為 **SpaceX** (Starlink) 提供關鍵零件，並供應波音 (Boeing) 與空中巴士 (Airbus) 飛機起落架致動器零組件。\n3.  **先進製程助力**: 隨 [[EUV]] 曝光機世代更迭，公準提供的精密零件規格持續升級，具備高度技術壁壘。",
+    "supply_chain_md": "*   **精密加工 (本體)**: **公準 (3178)** - 特殊材料加工、表面處理、精密組裝。\n*   **上游**: 特殊金屬 (鈦合金、鋁合金、不鏽鋼) 供應商。\n*   **下游應用**:\n    *   **半導體裝置**: [[ASML]], [[Applied Materials]] (AMAT).\n    *   **航太領域**: [[SpaceX]], [[UTC Aerospace]].",
+    "customers_suppliers_md": "### 主要客戶\n*   **半導體設備商**: [[ASML]] — 主要供應 [[EUV]] 相關真空腔體與精密組件\n*   **半導體設備商**: [[Applied Materials]] — 精密零組件與模組組裝\n*   **航太/衛星**: [[SpaceX]] (Starlink) — 低軌衛星關鍵零件\n*   **航太**: Boeing、Airbus — 飛機起落架致動器零組件\n\n### 主要供應商\n*   **特殊金屬**: 鈦合金、鋁合金、不鏽鋼等特殊金屬供應商\n*   **加工設備**: 五軸 CNC 精密加工機台"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

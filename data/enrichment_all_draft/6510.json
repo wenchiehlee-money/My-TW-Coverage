@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6510",
+  "company_name": "精測",
+  "title": "6510_精測",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/6510_精測.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "77,710 百萬台幣",
+    "enterprise_value": "72,521 百萬台幣"
+  },
+  "business": {
+    "summary": "中華精測科技股份有限公司 (6510，CHPT) 隸屬於中華電信集團，是全球前三大(非[[記憶體]]類)[[半導體]]MEMS[[探針卡]]及測試介面板領導品牌。精測以「All In House」的垂直整合模式，從探針材料配方、金屬加工到[[探針卡]]組裝全數自主掌握。其產品專精於高頻、高速、高腳數(High Pin Count)的先進測試需求。隨著[[AI]]、HPC(高效能運算)及[[5G]]應用處理器(AP)的複雜度暴增，精測已穩固打入美系手機龍頭及全球頂尖GPU/CPU運算晶片設計大廠的核心測試供應鏈。",
+    "entities": [
+      "記憶體",
+      "半導體",
+      "探針卡",
+      "AI",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 特殊金屬材料(鈀/鈹銅合金)、高階[[PCB]]基板(Substrate材料)、化學藥水及精密探針原物料。",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **中華精測** ([[半導體]]MEMS[[探針卡]]、測試載板及測試治具設計、加工與組裝)。",
+        "entities": [
+          "半導體",
+          "探針卡"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 晶圓代工廠(Foundry)、IC封裝測試廠(OSAT)及無晶圓廠IC設計公司(Fabless)。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[聯發科]]、[[Qualcomm]]、[[NVIDIA]]、[[AMD]]及[[Apple]](透過[[台積電]]驗證採用)等全球頂尖[[半導體]]巨頭。",
+        "entities": [
+          "聯發科",
+          "Qualcomm",
+          "NVIDIA",
+          "AMD",
+          "Apple",
+          "台積電",
+          "半導體"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外頂級高頻微波基板原廠、特殊貴金屬/合金材料貿易商及精密化學品供應商。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "聯發科",
+          "Qualcomm",
+          "NVIDIA",
+          "AMD",
+          "Apple",
+          "台積電",
+          "半導體"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "探針卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "探針卡"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中華精測科技股份有限公司 (6510，CHPT) 隸屬於中華電信集團，是全球前三大(非[[記憶體]]類)[[半導體]]MEMS[[探針卡]]及測試介面板領導品牌。精測以「All In House」的垂直整合模式，從探針材料配方、金屬加工到[[探針卡]]組裝全數自主掌握。其產品專精於高頻、高速、高腳數(High Pin Count)的先進測試需求。隨著[[AI]]、HPC(高效能運算)及[[5G]]應用處理器(AP)的複雜度暴增，精測已穩固打入美系手機龍頭及全球頂尖GPU/CPU運算晶片設計大廠的核心測試供應鏈。",
+    "supply_chain_md": "*   **上游**: 特殊金屬材料(鈀/鈹銅合金)、高階[[PCB]]基板(Substrate材料)、化學藥水及精密探針原物料。\n*   **中游**: **中華精測** ([[半導體]]MEMS[[探針卡]]、測試載板及測試治具設計、加工與組裝)。\n*   **下游**: 晶圓代工廠(Foundry)、IC封裝測試廠(OSAT)及無晶圓廠IC設計公司(Fabless)。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[聯發科]]、[[Qualcomm]]、[[NVIDIA]]、[[AMD]]及[[Apple]](透過[[台積電]]驗證採用)等全球頂尖[[半導體]]巨頭。\n\n### 主要供應商\n*   國內外頂級高頻微波基板原廠、特殊貴金屬/合金材料貿易商及精密化學品供應商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

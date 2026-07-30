@@ -61,6 +61,21 @@ python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_js
 python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py --limit 10
 ```
 
+All-report migration preview:
+
+```bash
+python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py \
+  --all-reports \
+  --fill-missing-competitors \
+  --out data/enrichment_all_draft \
+  --manifest data/enrichment_all_manifest.csv
+
+python skills/skill-my-tw-coverage-enrichment-json/scripts/render_enrichment_markdown.py \
+  --json-dir data/enrichment_all_draft \
+  --out output/enrichment_all_rendered \
+  --compare output/enrichment_all_render_compare.csv
+```
+
 ## JSON Layering
 
 Draft JSON should keep both structured atoms and original Markdown snippets:

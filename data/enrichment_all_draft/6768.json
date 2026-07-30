@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6768",
+  "company_name": "志強-KY",
+  "title": "6768 - [[志強-KY]]",
+  "source_md": "Pilot_Reports/Footwear & Accessories/6768_志強-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories",
+    "market_cap": "13,907 百萬台幣",
+    "enterprise_value": "11,945 百萬台幣"
+  },
+  "business": {
+    "summary": "志強國際企業股份有限公司 (6768) 是一家享譽國際的專業運動鞋代工 (OEM/ODM) 大廠，被業界譽為「足球鞋代工天王」，在全球足球鞋代工市場拿下約兩成市佔率。除深耕各大頂級賽事足球鞋外，公司積極將卓越製鞋工藝延伸至高成長的專業跑鞋、籃球鞋及戶外休閒鞋領域。主要生產基地位於越南 (佔產能約三分之二) 及柬埔寨 (約三分之一)，並規劃擴展印尼產能。受惠於 2026 年 [[FIFA]] 世界盃備貨週期，訂單動能強勁。四大國際運動品牌客戶貢獻近乎全數營收。",
+    "entities": [
+      "FIFA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (鞋材與原料)",
+        "text": "**上游 (鞋材與原料):**",
+        "entities": []
+      },
+      {
+        "category": "皮革與布料",
+        "text": "各式皮革、人造皮材料及機能紡織布料",
+        "entities": []
+      },
+      {
+        "category": "鞋底材料",
+        "text": "[[EVA]] 發泡鞋底、[[TPU]] 橡膠大底材料",
+        "entities": [
+          "EVA",
+          "TPU"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "特種接著劑及自動化製鞋機具",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (運動鞋代工)",
+        "text": "**中游 (運動鞋代工):**",
+        "entities": []
+      },
+      {
+        "category": "OEM/ODM",
+        "text": "**志強-KY (6768)** — 專業運動足球鞋、高階慢跑鞋、休閒鞋之打樣研發與大量代工製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌)",
+        "text": "**下游 (國際品牌):**",
+        "entities": []
+      },
+      {
+        "category": "運動品牌",
+        "text": "全球頂尖跨國知名運動品牌與戶外休閒鞋品牌商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "最大客戶",
+        "text": "[[Adidas]] (愛迪達，佔營收 50%~60%，主力代工足球鞋)",
+        "entities": [
+          "Adidas"
+        ]
+      },
+      {
+        "role": "第二大客戶",
+        "text": "[[Nike]] (耐吉，佔營收約 34%)",
+        "entities": [
+          "Nike"
+        ]
+      },
+      {
+        "role": "其他品牌",
+        "text": "[[Brooks]] (跑鞋)、[[ASICS]] (亞瑟士)",
+        "entities": [
+          "Brooks",
+          "ASICS"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鞋材供應",
+        "text": "亞洲 (台灣、中國、越南) 高階機能運動鞋材供應鏈",
+        "entities": []
+      },
+      {
+        "role": "合成皮",
+        "text": "[[百和興業]] (8404，魔鬼氈/織帶) 等台灣鞋用輔料大廠",
+        "entities": [
+          "百和興業"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Footwear & Accessories):** [[勝悅-KY]]、[[信立]]、[[來億-KY]]、[[中傑-KY]]、[[百和興業-KY]]",
+        "entities": [
+          "勝悅-KY",
+          "信立",
+          "來億-KY",
+          "中傑-KY",
+          "百和興業-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Adidas",
+          "Nike",
+          "Brooks",
+          "ASICS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "FIFA",
+      "type": "international_company_or_term",
+      "wikilink": "FIFA"
+    },
+    {
+      "name": "EVA",
+      "type": "international_company_or_term",
+      "wikilink": "EVA"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Brooks",
+      "type": "international_company_or_term",
+      "wikilink": "Brooks"
+    },
+    {
+      "name": "ASICS",
+      "type": "international_company_or_term",
+      "wikilink": "ASICS"
+    },
+    {
+      "name": "百和興業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "百和興業"
+    },
+    {
+      "name": "勝悅-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勝悅-KY"
+    },
+    {
+      "name": "信立",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信立"
+    },
+    {
+      "name": "來億-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "來億-KY"
+    },
+    {
+      "name": "中傑-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中傑-KY"
+    },
+    {
+      "name": "百和興業-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "百和興業-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "志強國際企業股份有限公司 (6768) 是一家享譽國際的專業運動鞋代工 (OEM/ODM) 大廠，被業界譽為「足球鞋代工天王」，在全球足球鞋代工市場拿下約兩成市佔率。除深耕各大頂級賽事足球鞋外，公司積極將卓越製鞋工藝延伸至高成長的專業跑鞋、籃球鞋及戶外休閒鞋領域。主要生產基地位於越南 (佔產能約三分之二) 及柬埔寨 (約三分之一)，並規劃擴展印尼產能。受惠於 2026 年 [[FIFA]] 世界盃備貨週期，訂單動能強勁。四大國際運動品牌客戶貢獻近乎全數營收。",
+    "supply_chain_md": "**上游 (鞋材與原料):**\n- **皮革與布料:** 各式皮革、人造皮材料及機能紡織布料\n- **鞋底材料:** [[EVA]] 發泡鞋底、[[TPU]] 橡膠大底材料\n- **化學品:** 特種接著劑及自動化製鞋機具\n\n**中游 (運動鞋代工):**\n- **OEM/ODM:** **志強-KY (6768)** — 專業運動足球鞋、高階慢跑鞋、休閒鞋之打樣研發與大量代工製造\n\n**下游 (國際品牌):**\n- **運動品牌:** 全球頂尖跨國知名運動品牌與戶外休閒鞋品牌商",
+    "customers_suppliers_md": "### 主要客戶\n- **最大客戶:** [[Adidas]] (愛迪達，佔營收 50%~60%，主力代工足球鞋)\n- **第二大客戶:** [[Nike]] (耐吉，佔營收約 34%)\n- **其他品牌:** [[Brooks]] (跑鞋)、[[ASICS]] (亞瑟士)\n\n### 主要供應商\n- **鞋材供應:** 亞洲 (台灣、中國、越南) 高階機能運動鞋材供應鏈\n- **合成皮:** [[百和興業]] (8404，魔鬼氈/織帶) 等台灣鞋用輔料大廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

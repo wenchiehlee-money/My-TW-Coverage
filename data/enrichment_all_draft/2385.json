@@ -1,0 +1,259 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2385",
+  "company_name": "群光",
+  "title": "2385 - 群光",
+  "source_md": "Pilot_Reports/Computer Hardware/2385_群光.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "74,436 百萬台幣",
+    "enterprise_value": "62,479 百萬台幣"
+  },
+  "business": {
+    "summary": "群光電子 (2385，[[Chicony Electronics]]) 成立於 1983 年，總部位於新北市，為全球筆電鍵盤、攝影機模組及電源供應器領導廠商，三大產品線連續多年全球市佔第一。公司累積逾 30 年製造品質聲譽，與國際下游品牌客戶維持高度穩定之長期合作關係。\n\n三大事業群：(1) 輸入裝置：筆電鍵盤 (全球市佔第一)、桌機鍵盤、滑鼠；(2) 影像模組：攝影機模組 (全球市佔第一)、行車紀錄器、戶外 IP Cam、穿戴式攝影機、車用影像系統及 LED 車燈；(3) 電源事業：透過子公司[[群光電能]] (Chicony Power) 製造伺服器電源、交換式電源供應器及 LED 照明。製造基地涵蓋台灣、中國重慶/東莞及越南。",
+    "entities": [
+      "Chicony Electronics",
+      "群光電能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子元件與光學模組)",
+        "text": "**上游 (電子元件與光學模組):**",
+        "entities": []
+      },
+      {
+        "category": "鍵盤零件",
+        "text": "薄膜開關、剪刀腳結構件、背光 LED 模組",
+        "entities": []
+      },
+      {
+        "category": "影像感測",
+        "text": "CMOS 影像感測晶片及鏡頭模組",
+        "entities": []
+      },
+      {
+        "category": "電源元件",
+        "text": "[[MOSFET]]、變壓器、電容等功率元件",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "塑膠射出件及金屬沖壓件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (鍵盤/攝影機/電源製造)",
+        "text": "**中游 (鍵盤/攝影機/電源製造):**",
+        "entities": []
+      },
+      {
+        "category": "輸入裝置",
+        "text": "**群光** (筆電鍵盤全球第一、桌機鍵盤/滑鼠)",
+        "entities": []
+      },
+      {
+        "category": "影像模組",
+        "text": "**群光** (攝影機模組、行車紀錄器、車用影像/LED 車燈)",
+        "entities": []
+      },
+      {
+        "category": "電源事業",
+        "text": "[[群光電能]] (Chicony Power，伺服器電源/交換式電源/LED 照明)",
+        "entities": [
+          "群光電能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際 PC 品牌與車廠)",
+        "text": "**下游 (國際 PC 品牌與車廠):**",
+        "entities": []
+      },
+      {
+        "category": "PC 品牌",
+        "text": "[[Dell]]、[[HP]]、[[Lenovo]]、[[Apple]] — 筆電鍵盤/攝影機模組",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "Apple"
+        ]
+      },
+      {
+        "category": "伺服器品牌",
+        "text": "國際伺服器品牌 — 伺服器電源供應器",
+        "entities": []
+      },
+      {
+        "category": "汽車品牌",
+        "text": "國際車廠 — 車用影像系統及 LED 車燈",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PC 品牌",
+        "text": "[[Dell]]、[[HP]]、[[Lenovo]]、[[Apple]] — 筆電鍵盤及攝影機模組",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "Apple"
+        ]
+      },
+      {
+        "role": "伺服器 OEM",
+        "text": "國際伺服器品牌 — 伺服器電源供應器",
+        "entities": []
+      },
+      {
+        "role": "汽車品牌",
+        "text": "國際車廠 — 車用影像系統及 LED 車燈",
+        "entities": []
+      },
+      {
+        "role": "安防/穿戴",
+        "text": "安防及穿戴設備品牌 — IP Cam 及穿戴攝影機",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "影像感測",
+        "text": "CMOS 影像感測晶片供應商",
+        "entities": []
+      },
+      {
+        "role": "功率元件",
+        "text": "[[MOSFET]] 及電源管理 IC 供應商",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "role": "LED 元件",
+        "text": "LED 晶片及背光模組供應商",
+        "entities": []
+      },
+      {
+        "role": "機構件",
+        "text": "塑膠射出及金屬沖壓件廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "Apple"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Chicony Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Chicony Electronics"
+    },
+    {
+      "name": "群光電能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群光電能"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "群光電子 (2385，[[Chicony Electronics]]) 成立於 1983 年，總部位於新北市，為全球筆電鍵盤、攝影機模組及電源供應器領導廠商，三大產品線連續多年全球市佔第一。公司累積逾 30 年製造品質聲譽，與國際下游品牌客戶維持高度穩定之長期合作關係。\n\n三大事業群：(1) 輸入裝置：筆電鍵盤 (全球市佔第一)、桌機鍵盤、滑鼠；(2) 影像模組：攝影機模組 (全球市佔第一)、行車紀錄器、戶外 IP Cam、穿戴式攝影機、車用影像系統及 LED 車燈；(3) 電源事業：透過子公司[[群光電能]] (Chicony Power) 製造伺服器電源、交換式電源供應器及 LED 照明。製造基地涵蓋台灣、中國重慶/東莞及越南。",
+    "supply_chain_md": "**上游 (電子元件與光學模組):**\n- **鍵盤零件:** 薄膜開關、剪刀腳結構件、背光 LED 模組\n- **影像感測:** CMOS 影像感測晶片及鏡頭模組\n- **電源元件:** [[MOSFET]]、變壓器、電容等功率元件\n- **機構件:** 塑膠射出件及金屬沖壓件\n\n**中游 (鍵盤/攝影機/電源製造):**\n- **輸入裝置:** **群光** (筆電鍵盤全球第一、桌機鍵盤/滑鼠)\n- **影像模組:** **群光** (攝影機模組、行車紀錄器、車用影像/LED 車燈)\n- **電源事業:** [[群光電能]] (Chicony Power，伺服器電源/交換式電源/LED 照明)\n\n**下游 (國際 PC 品牌與車廠):**\n- **PC 品牌:** [[Dell]]、[[HP]]、[[Lenovo]]、[[Apple]] — 筆電鍵盤/攝影機模組\n- **伺服器品牌:** 國際伺服器品牌 — 伺服器電源供應器\n- **汽車品牌:** 國際車廠 — 車用影像系統及 LED 車燈",
+    "customers_suppliers_md": "### 主要客戶\n- **PC 品牌:** [[Dell]]、[[HP]]、[[Lenovo]]、[[Apple]] — 筆電鍵盤及攝影機模組\n- **伺服器 OEM:** 國際伺服器品牌 — 伺服器電源供應器\n- **汽車品牌:** 國際車廠 — 車用影像系統及 LED 車燈\n- **安防/穿戴:** 安防及穿戴設備品牌 — IP Cam 及穿戴攝影機\n\n### 主要供應商\n- **影像感測:** CMOS 影像感測晶片供應商\n- **功率元件:** [[MOSFET]] 及電源管理 IC 供應商\n- **LED 元件:** LED 晶片及背光模組供應商\n- **機構件:** 塑膠射出及金屬沖壓件廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

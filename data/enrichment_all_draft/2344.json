@@ -1,0 +1,254 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2344",
+  "company_name": "華邦電",
+  "title": "2344 - 華邦電",
+  "source_md": "Pilot_Reports/Semiconductors/2344_華邦電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "585,000 百萬台幣",
+    "enterprise_value": "629,637 百萬台幣"
+  },
+  "business": {
+    "summary": "華邦電子 (Winbond Electronics Corporation) 成立於 1987 年，隸屬於**華新麗華集團**，總部位於台灣[[台中]]。公司是全球少數同時擁有 **DRAM** (利基型) 與 **Flash** (NOR/[[NAND]]) 產品線的 IDM [[記憶體]]大廠。華邦電以自有品牌行銷，專注於中低容量的利基型[[記憶體]]市場，避開與 [[Samsung]], Hynix, [[Micron]] 在標準型 PC/Server [[DRAM]] 的直接競爭。公司也是全球**序列式 NOR Flash (Serial NOR Flash)** 的領導供應商。",
+    "entities": [
+      "台中",
+      "NAND",
+      "記憶體",
+      "Samsung",
+      "Micron",
+      "DRAM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "[[矽晶圓]]",
+        "text": "採購自[[環球晶]] (集團關係企業) 等。",
+        "entities": [
+          "矽晶圓",
+          "環球晶"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "[[物聯網]]裝置、穿戴裝置、各種需要儲存程式碼 (Code Storage) 的電子產品。",
+        "entities": [
+          "物聯網"
+        ]
+      },
+      {
+        "category": "車用/工控",
+        "text": "[[ADAS]]、儀表板、[[工業電腦]]等高可靠度需求應用。",
+        "entities": [
+          "ADAS",
+          "工業電腦"
+        ]
+      },
+      {
+        "category": "網通",
+        "text": "Wi-Fi 路由器、數據機。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "應用廣泛",
+        "text": "遍佈全球各大[[消費性電子]]、車用及[[網通]]品牌，客戶群極為分散且廣泛。",
+        "entities": [
+          "消費性電子",
+          "網通"
+        ]
+      },
+      {
+        "role": "PC",
+        "text": "為 [[Dell]], [[HP]] 等供應 BIOS 相關 Flash。",
+        "entities": [
+          "Dell",
+          "HP"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "材料",
+        "text": "[[環球晶]] (GlobalWafers).",
+        "entities": [
+          "環球晶"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "消費性電子",
+          "網通",
+          "Dell",
+          "HP"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "華邦電子 (Winbond Electronics Corporation) 成立於 1987 年，隸屬於**華新麗華集團**，總部位於台灣[[台中]]。公司是全球少數同時擁有 **DRAM** (利基型) 與 **Flash** (NOR/[[NAND]]) 產品線的 IDM [[記憶體]]大廠。華邦電以自有品牌行銷，專注於中低容量的利基型[[記憶體]]市場，避開與 [[Samsung]], Hynix, [[Micron]] 在標準型 PC/Server [[DRAM]] 的直接競爭。公司也是全球**序列式 NOR Flash (Serial NOR Flash)** 的領導供應商。",
+        "entities": [
+          "台中",
+          "NAND",
+          "記憶體",
+          "Samsung",
+          "Micron",
+          "DRAM"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台中",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台中"
+    },
+    {
+      "name": "NAND",
+      "type": "technology",
+      "wikilink": "NAND"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "環球晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環球晶"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華邦電子 (Winbond Electronics Corporation) 成立於 1987 年，隸屬於**華新麗華集團**，總部位於台灣[[台中]]。公司是全球少數同時擁有 **DRAM** (利基型) 與 **Flash** (NOR/[[NAND]]) 產品線的 IDM [[記憶體]]大廠。華邦電以自有品牌行銷，專注於中低容量的利基型[[記憶體]]市場，避開與 [[Samsung]], Hynix, [[Micron]] 在標準型 PC/Server [[DRAM]] 的直接競爭。公司也是全球**序列式 NOR Flash (Serial NOR Flash)** 的領導供應商。",
+    "supply_chain_md": "**上游 (原料):**\n- **[[矽晶圓]]:** 採購自[[環球晶]] (集團關係企業) 等。\n\n**下游應用:**\n- **消費電子:** [[物聯網]]裝置、穿戴裝置、各種需要儲存程式碼 (Code Storage) 的電子產品。\n- **車用/工控:** [[ADAS]]、儀表板、[[工業電腦]]等高可靠度需求應用。\n- **網通:** Wi-Fi 路由器、數據機。",
+    "customers_suppliers_md": "### 主要客戶\n- **應用廣泛:** 遍佈全球各大[[消費性電子]]、車用及[[網通]]品牌，客戶群極為分散且廣泛。\n- **PC:** 為 [[Dell]], [[HP]] 等供應 BIOS 相關 Flash。\n\n### 主要供應商\n- **材料:** [[環球晶]] (GlobalWafers)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

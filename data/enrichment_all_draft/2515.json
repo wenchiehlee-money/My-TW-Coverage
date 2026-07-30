@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2515",
+  "company_name": "中工",
+  "title": "2515 - 中工",
+  "source_md": "Pilot_Reports/Engineering & Construction/2515_中工.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "19,671 百萬台幣",
+    "enterprise_value": "41,282 百萬台幣"
+  },
+  "business": {
+    "summary": "[[中華工程]]（中工）為[[威京總部集團]]旗下民營上市公司，前身為經濟部所屬國營事業，1950 年成立，歷史悠久。主要業務涵蓋營造工程、開發建設、都市更新及工業區開發。營造實績包括高速公路、橋樑、隧道、捷運系統、[[台灣高鐵]] 土建工程及軍事設施等大型公共建設。近年積極參與都市更新與 BOT/OT 案，並投入產業園區開發。",
+    "entities": [
+      "中華工程",
+      "威京總部集團",
+      "台灣高鐵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (建材與設備)",
+        "text": "**上游 (建材與設備):**",
+        "entities": []
+      },
+      {
+        "category": "鋼筋水泥",
+        "text": "[[台灣水泥]]、[[東和鋼鐵]] 等",
+        "entities": [
+          "台灣水泥",
+          "東和鋼鐵"
+        ]
+      },
+      {
+        "category": "預拌混凝土",
+        "text": "區域預拌廠",
+        "entities": []
+      },
+      {
+        "category": "重機械",
+        "text": "營建機械設備租賃與採購",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (營造與開發)",
+        "text": "**中游 (營造與開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中華工程** — 大型公共工程營造、都市更新、產業園區開發",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (業主端)",
+        "text": "**下游 (業主端):**",
+        "entities": []
+      },
+      {
+        "category": "公部門",
+        "text": "交通部（高速公路、[[台灣高鐵]]）、台北市捷運局、國防部",
+        "entities": [
+          "台灣高鐵"
+        ]
+      },
+      {
+        "category": "民間",
+        "text": "[[威京總部集團]] 關係企業（商辦開發）、民間企業",
+        "entities": [
+          "威京總部集團"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "交通建設",
+        "text": "交通部高速公路局、[[台灣高鐵]]、台北市捷運局",
+        "entities": [
+          "台灣高鐵"
+        ]
+      },
+      {
+        "role": "公共工程",
+        "text": "國防部、地方政府",
+        "entities": []
+      },
+      {
+        "role": "集團關聯",
+        "text": "[[威京總部集團]] 旗下商辦開發",
+        "entities": [
+          "威京總部集團"
+        ]
+      },
+      {
+        "role": "都更案",
+        "text": "BOT/OT 公私合夥案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼筋",
+        "text": "[[東和鋼鐵]]、[[豐興鋼鐵]]",
+        "entities": [
+          "東和鋼鐵",
+          "豐興鋼鐵"
+        ]
+      },
+      {
+        "role": "水泥",
+        "text": "[[台灣水泥]]、[[亞洲水泥]]",
+        "entities": [
+          "台灣水泥",
+          "亞洲水泥"
+        ]
+      },
+      {
+        "role": "重機械",
+        "text": "營建機械租賃商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Engineering & Construction):** [[三洋實業]]、[[日高]]、[[世紀風電]]、[[漢唐]]、[[龍邦]]",
+        "entities": [
+          "三洋實業",
+          "日高",
+          "世紀風電",
+          "漢唐",
+          "龍邦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台灣高鐵",
+          "威京總部集團"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華工程"
+    },
+    {
+      "name": "威京總部集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威京總部集團"
+    },
+    {
+      "name": "台灣高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣高鐵"
+    },
+    {
+      "name": "台灣水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣水泥"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "豐興鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐興鋼鐵"
+    },
+    {
+      "name": "亞洲水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞洲水泥"
+    },
+    {
+      "name": "三洋實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋實業"
+    },
+    {
+      "name": "日高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日高"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "漢唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢唐"
+    },
+    {
+      "name": "龍邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "龍邦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[中華工程]]（中工）為[[威京總部集團]]旗下民營上市公司，前身為經濟部所屬國營事業，1950 年成立，歷史悠久。主要業務涵蓋營造工程、開發建設、都市更新及工業區開發。營造實績包括高速公路、橋樑、隧道、捷運系統、[[台灣高鐵]] 土建工程及軍事設施等大型公共建設。近年積極參與都市更新與 BOT/OT 案，並投入產業園區開發。",
+    "supply_chain_md": "**上游 (建材與設備):**\n- **鋼筋水泥:** [[台灣水泥]]、[[東和鋼鐵]] 等\n- **預拌混凝土:** 區域預拌廠\n- **重機械:** 營建機械設備租賃與採購\n\n**中游 (營造與開發):**\n- **中華工程** — 大型公共工程營造、都市更新、產業園區開發\n\n**下游 (業主端):**\n- **公部門:** 交通部（高速公路、[[台灣高鐵]]）、台北市捷運局、國防部\n- **民間:** [[威京總部集團]] 關係企業（商辦開發）、民間企業",
+    "customers_suppliers_md": "### 主要客戶\n- **交通建設:** 交通部高速公路局、[[台灣高鐵]]、台北市捷運局\n- **公共工程:** 國防部、地方政府\n- **集團關聯:** [[威京總部集團]] 旗下商辦開發\n- **都更案:** BOT/OT 公私合夥案\n\n### 主要供應商\n- **鋼筋:** [[東和鋼鐵]]、[[豐興鋼鐵]]\n- **水泥:** [[台灣水泥]]、[[亞洲水泥]]\n- **重機械:** 營建機械租賃商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

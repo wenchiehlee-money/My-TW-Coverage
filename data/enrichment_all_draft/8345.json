@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8345",
+  "company_name": "超秦",
+  "title": "8345 - 超秦",
+  "source_md": "Pilot_Reports/Farm Products/8345_超秦.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products",
+    "market_cap": "3,030 百萬台幣",
+    "enterprise_value": "3,245 百萬台幣"
+  },
+  "business": {
+    "summary": "超秦 (8345，Super Qin) 創立於 1985 年，為北台灣最大家禽電宰場，2025 年 6 月登錄興櫃。公司打造國產生鮮雞肉供應鏈整合平台，串聯上游種雞場、飼料廠與契作農場，中游專業電宰與肉品加工，直達下游各大零售及餐飲通路。主力產品為白肉雞生鮮雞肉及加工製品，旗下品牌「秦肉 Qin Meat」。2024 年白肉雞年屠宰量達 1,865 萬羽。為連鎖餐飲品牌如[[麥當勞]]提供風味開發及客製化肉品加工服務。供應[[全聯]]、[[大潤發]]、[[統一超商]]、[[全家便利商店]]等主要通路。",
+    "entities": [
+      "麥當勞",
+      "全聯",
+      "大潤發",
+      "統一超商",
+      "全家便利商店"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (種雞、飼料與契作)",
+        "text": "**上游 (種雞、飼料與契作):**",
+        "entities": []
+      },
+      {
+        "category": "飼料廠",
+        "text": "[[大成長城]]、[[卜蜂]] — 禽類飼料供應",
+        "entities": [
+          "大成長城",
+          "卜蜂"
+        ]
+      },
+      {
+        "category": "契作農場",
+        "text": "合作契養農場 — 白肉雞飼養",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電宰與加工)",
+        "text": "**中游 (電宰與加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**超秦** — 北台灣最大家禽電宰場，涵蓋屠宰、分切、包裝及調理肉品加工",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與終端)",
+        "text": "**下游 (通路與終端):**",
+        "entities": []
+      },
+      {
+        "category": "連鎖餐飲",
+        "text": "[[麥當勞]]等連鎖速食",
+        "entities": [
+          "麥當勞"
+        ]
+      },
+      {
+        "category": "量販超市",
+        "text": "[[全聯]]、[[大潤發]]",
+        "entities": [
+          "全聯",
+          "大潤發"
+        ]
+      },
+      {
+        "category": "超商",
+        "text": "[[統一超商]]、[[全家便利商店]]",
+        "entities": [
+          "統一超商",
+          "全家便利商店"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "連鎖餐飲",
+        "text": "[[麥當勞]] — 客製化雞肉產品",
+        "entities": [
+          "麥當勞"
+        ]
+      },
+      {
+        "role": "量販超市",
+        "text": "[[全聯]]、[[大潤發]] — 精緻包裝生鮮雞肉",
+        "entities": [
+          "全聯",
+          "大潤發"
+        ]
+      },
+      {
+        "role": "超商",
+        "text": "[[統一超商]]、[[全家便利商店]] — 鮮食用雞肉原料",
+        "entities": [
+          "統一超商",
+          "全家便利商店"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "飼料廠",
+        "text": "[[大成長城]]、[[卜蜂]] — 禽類飼料",
+        "entities": [
+          "大成長城",
+          "卜蜂"
+        ]
+      },
+      {
+        "role": "契作農場",
+        "text": "全台契約飼養農場",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Farm Products):** [[茂生農經]]、[[大武山]]",
+        "entities": [
+          "茂生農經",
+          "大武山"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "麥當勞",
+          "全聯",
+          "大潤發",
+          "統一超商",
+          "全家便利商店"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "麥當勞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麥當勞"
+    },
+    {
+      "name": "全聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全聯"
+    },
+    {
+      "name": "大潤發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大潤發"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "全家便利商店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家便利商店"
+    },
+    {
+      "name": "大成長城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大成長城"
+    },
+    {
+      "name": "卜蜂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "卜蜂"
+    },
+    {
+      "name": "茂生農經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "茂生農經"
+    },
+    {
+      "name": "大武山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大武山"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "超秦 (8345，Super Qin) 創立於 1985 年，為北台灣最大家禽電宰場，2025 年 6 月登錄興櫃。公司打造國產生鮮雞肉供應鏈整合平台，串聯上游種雞場、飼料廠與契作農場，中游專業電宰與肉品加工，直達下游各大零售及餐飲通路。主力產品為白肉雞生鮮雞肉及加工製品，旗下品牌「秦肉 Qin Meat」。2024 年白肉雞年屠宰量達 1,865 萬羽。為連鎖餐飲品牌如[[麥當勞]]提供風味開發及客製化肉品加工服務。供應[[全聯]]、[[大潤發]]、[[統一超商]]、[[全家便利商店]]等主要通路。",
+    "supply_chain_md": "**上游 (種雞、飼料與契作):**\n- **飼料廠:** [[大成長城]]、[[卜蜂]] — 禽類飼料供應\n- **契作農場:** 合作契養農場 — 白肉雞飼養\n\n**中游 (電宰與加工):**\n- **超秦** — 北台灣最大家禽電宰場，涵蓋屠宰、分切、包裝及調理肉品加工\n\n**下游 (通路與終端):**\n- **連鎖餐飲:** [[麥當勞]]等連鎖速食\n- **量販超市:** [[全聯]]、[[大潤發]]\n- **超商:** [[統一超商]]、[[全家便利商店]]",
+    "customers_suppliers_md": "### 主要客戶\n- **連鎖餐飲:** [[麥當勞]] — 客製化雞肉產品\n- **量販超市:** [[全聯]]、[[大潤發]] — 精緻包裝生鮮雞肉\n- **超商:** [[統一超商]]、[[全家便利商店]] — 鮮食用雞肉原料\n\n### 主要供應商\n- **飼料廠:** [[大成長城]]、[[卜蜂]] — 禽類飼料\n- **契作農場:** 全台契約飼養農場"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

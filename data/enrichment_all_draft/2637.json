@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2637",
+  "company_name": "慧洋-KY",
+  "title": "2637 - 慧洋-KY",
+  "source_md": "Pilot_Reports/Marine Shipping/2637_慧洋-KY.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "60,011 百萬台幣",
+    "enterprise_value": "60,824 百萬台幣"
+  },
+  "business": {
+    "summary": "慧洋海運集團 (2637，Wisdom Marine Group，KY) 是台灣規模最大的散裝航運船東，專注於中小型散裝船 (Handy/Supramax) 市場。營運模式以長約出租 (Time Charter) 為主，收益相對穩定。船隊超過 130 艘，維持業界較低的平均船齡。慧洋長期與日本造船廠合作，持續訂購高規格環保節能船，以符合國際海事組織 (IMO) 的 EEXI/CII 環保法規。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶建造)",
+        "text": "**上游 (船舶建造):**",
+        "entities": []
+      },
+      {
+        "category": "日本造船廠",
+        "text": "[[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造環保節能散裝船",
+        "entities": [
+          "今治造船",
+          "常石造船",
+          "大島造船",
+          "名村造船"
+        ]
+      },
+      {
+        "category": "船舶融資",
+        "text": "國際銀行與租賃公司",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (船東與船舶管理)",
+        "text": "**中游 (船東與船舶管理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**慧洋** — 船舶持有者與管理人，提供 Time Charter 出租服務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (租家)",
+        "text": "**下游 (租家):**",
+        "entities": []
+      },
+      {
+        "category": "日本航商",
+        "text": "[[NYK]]、[[MOL]] — 日本大型航運集團",
+        "entities": [
+          "NYK",
+          "MOL"
+        ]
+      },
+      {
+        "category": "歐洲航商",
+        "text": "[[Norden]] — 丹麥航運",
+        "entities": [
+          "Norden"
+        ]
+      },
+      {
+        "category": "大宗商品貿易商",
+        "text": "[[Cargill]]、[[Viterra]] — 穀物、煤炭、鐵礦砂運輸",
+        "entities": [
+          "Cargill",
+          "Viterra"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日本航商",
+        "text": "[[NYK]]、[[MOL]] — 長期租賃合作",
+        "entities": [
+          "NYK",
+          "MOL"
+        ]
+      },
+      {
+        "role": "歐洲航商",
+        "text": "[[Norden]] — 丹麥航運",
+        "entities": [
+          "Norden"
+        ]
+      },
+      {
+        "role": "大宗商品貿易商",
+        "text": "[[Cargill]]、[[Viterra]] ([[Glencore]]旗下) — 穀物與礦產運輸",
+        "entities": [
+          "Cargill",
+          "Viterra",
+          "Glencore"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "日本造船廠",
+        "text": "[[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造船舶",
+        "entities": [
+          "今治造船",
+          "常石造船",
+          "大島造船",
+          "名村造船"
+        ]
+      },
+      {
+        "role": "船舶融資",
+        "text": "國際銀行與租賃公司",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Marine Shipping):** [[長榮]]、[[新興]]、[[裕民]]、[[陽明]]、[[志信]]",
+        "entities": [
+          "長榮",
+          "新興",
+          "裕民",
+          "陽明",
+          "志信"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NYK",
+          "MOL",
+          "Norden",
+          "Cargill",
+          "Viterra",
+          "Glencore"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "今治造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "今治造船"
+    },
+    {
+      "name": "常石造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "常石造船"
+    },
+    {
+      "name": "大島造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大島造船"
+    },
+    {
+      "name": "名村造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "名村造船"
+    },
+    {
+      "name": "NYK",
+      "type": "international_company_or_term",
+      "wikilink": "NYK"
+    },
+    {
+      "name": "MOL",
+      "type": "international_company_or_term",
+      "wikilink": "MOL"
+    },
+    {
+      "name": "Norden",
+      "type": "international_company_or_term",
+      "wikilink": "Norden"
+    },
+    {
+      "name": "Cargill",
+      "type": "international_company_or_term",
+      "wikilink": "Cargill"
+    },
+    {
+      "name": "Viterra",
+      "type": "international_company_or_term",
+      "wikilink": "Viterra"
+    },
+    {
+      "name": "Glencore",
+      "type": "international_company_or_term",
+      "wikilink": "Glencore"
+    },
+    {
+      "name": "長榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮"
+    },
+    {
+      "name": "新興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新興"
+    },
+    {
+      "name": "裕民",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕民"
+    },
+    {
+      "name": "陽明",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明"
+    },
+    {
+      "name": "志信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志信"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "慧洋海運集團 (2637，Wisdom Marine Group，KY) 是台灣規模最大的散裝航運船東，專注於中小型散裝船 (Handy/Supramax) 市場。營運模式以長約出租 (Time Charter) 為主，收益相對穩定。船隊超過 130 艘，維持業界較低的平均船齡。慧洋長期與日本造船廠合作，持續訂購高規格環保節能船，以符合國際海事組織 (IMO) 的 EEXI/CII 環保法規。",
+    "supply_chain_md": "**上游 (船舶建造):**\n- **日本造船廠:** [[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造環保節能散裝船\n- **船舶融資:** 國際銀行與租賃公司\n\n**中游 (船東與船舶管理):**\n- **慧洋** — 船舶持有者與管理人，提供 Time Charter 出租服務\n\n**下游 (租家):**\n- **日本航商:** [[NYK]]、[[MOL]] — 日本大型航運集團\n- **歐洲航商:** [[Norden]] — 丹麥航運\n- **大宗商品貿易商:** [[Cargill]]、[[Viterra]] — 穀物、煤炭、鐵礦砂運輸",
+    "customers_suppliers_md": "### 主要客戶 (租家)\n- **日本航商:** [[NYK]]、[[MOL]] — 長期租賃合作\n- **歐洲航商:** [[Norden]] — 丹麥航運\n- **大宗商品貿易商:** [[Cargill]]、[[Viterra]] ([[Glencore]]旗下) — 穀物與礦產運輸\n\n### 主要供應商\n- **日本造船廠:** [[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造船舶\n- **船舶融資:** 國際銀行與租賃公司"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

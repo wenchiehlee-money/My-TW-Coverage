@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4571",
+  "company_name": "鈞興-KY",
+  "title": "4571 - 鈞興-KY",
+  "source_md": "Pilot_Reports/Tools & Accessories/4571_鈞興-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "7,502 百萬台幣",
+    "enterprise_value": "6,061 百萬台幣"
+  },
+  "business": {
+    "summary": "鈞興-KY (4571，KHGears) 註冊於開曼群島，生產基地主要位於中國珠海，為精密齒輪 (Gears) 與齒輪箱 (Gearboxes) 專業製造商。核心產品包括全鋼傘齒輪、粉末冶金齒輪、精密減速器及[[諧波減速機]]。產品廣泛應用於電動工具 (Power Tools)、園林工具 (Garden Tools)、工業縫紉機、遊艇舷外機、E-Bike 中置電機及[[工業機器人]] (含協作機器人)。主要客戶為全球電動工具龍頭 [[TTI]] (創科實業) 及 [[Stanley Black & Decker]]。",
+    "entities": [
+      "諧波減速機",
+      "工業機器人",
+      "TTI",
+      "Stanley Black & Decker"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "鋼材、金屬粉末 (粉末冶金用)、銅材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**鈞興-KY** — 齒輪滾齒/磨齒加工、熱處理、粉末冶金成型、齒輪箱組裝",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電動/園林工具",
+        "text": "[[TTI]] (創科實業)、[[Stanley Black & Decker]]、[[Makita]]、[[Bosch]]",
+        "entities": [
+          "TTI",
+          "Stanley Black & Decker",
+          "Makita",
+          "Bosch"
+        ]
+      },
+      {
+        "category": "機器人",
+        "text": "[[工業機器人]]手臂廠、協作機器人廠",
+        "entities": [
+          "工業機器人"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "縫紉機廠、E-Bike 中置電機、遊艇",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[TTI]]",
+        "text": "創科實業 (含 Milwaukee/Ryobi)，最大客戶",
+        "entities": [
+          "TTI"
+        ]
+      },
+      {
+        "role": "[[Stanley Black & Decker]]",
+        "text": "SBD (含 DEWALT/CRAFTSMAN)",
+        "entities": [
+          "Stanley Black & Decker"
+        ]
+      },
+      {
+        "role": "[[Makita]]",
+        "text": "日本電動工具大廠",
+        "entities": [
+          "Makita"
+        ]
+      },
+      {
+        "role": "[[Bosch]]",
+        "text": "德國電動工具大廠",
+        "entities": [
+          "Bosch"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "中國鋼材及金屬粉末供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Tools & Accessories):** [[鑽全]]、[[正峰]]、[[錩泰]]、[[中砂]]、[[力肯]]",
+        "entities": [
+          "鑽全",
+          "正峰",
+          "錩泰",
+          "中砂",
+          "力肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "TTI",
+          "Stanley Black & Decker",
+          "Makita",
+          "Bosch"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "諧波減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "諧波減速機"
+    },
+    {
+      "name": "工業機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業機器人"
+    },
+    {
+      "name": "TTI",
+      "type": "international_company_or_term",
+      "wikilink": "TTI"
+    },
+    {
+      "name": "Stanley Black & Decker",
+      "type": "international_company_or_term",
+      "wikilink": "Stanley Black & Decker"
+    },
+    {
+      "name": "Makita",
+      "type": "international_company_or_term",
+      "wikilink": "Makita"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "鑽全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑽全"
+    },
+    {
+      "name": "正峰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正峰"
+    },
+    {
+      "name": "錩泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "錩泰"
+    },
+    {
+      "name": "中砂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中砂"
+    },
+    {
+      "name": "力肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鈞興-KY (4571，KHGears) 註冊於開曼群島，生產基地主要位於中國珠海，為精密齒輪 (Gears) 與齒輪箱 (Gearboxes) 專業製造商。核心產品包括全鋼傘齒輪、粉末冶金齒輪、精密減速器及[[諧波減速機]]。產品廣泛應用於電動工具 (Power Tools)、園林工具 (Garden Tools)、工業縫紉機、遊艇舷外機、E-Bike 中置電機及[[工業機器人]] (含協作機器人)。主要客戶為全球電動工具龍頭 [[TTI]] (創科實業) 及 [[Stanley Black & Decker]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **金屬材料:** 鋼材、金屬粉末 (粉末冶金用)、銅材\n\n**中游 (製造加工):**\n- **鈞興-KY** — 齒輪滾齒/磨齒加工、熱處理、粉末冶金成型、齒輪箱組裝\n\n**下游 (終端應用):**\n- **電動/園林工具:** [[TTI]] (創科實業)、[[Stanley Black & Decker]]、[[Makita]]、[[Bosch]]\n- **機器人:** [[工業機器人]]手臂廠、協作機器人廠\n- **其他:** 縫紉機廠、E-Bike 中置電機、遊艇",
+    "customers_suppliers_md": "### 主要客戶\n- **[[TTI]]:** 創科實業 (含 Milwaukee/Ryobi)，最大客戶\n- **[[Stanley Black & Decker]]:** SBD (含 DEWALT/CRAFTSMAN)\n- **[[Makita]]:** 日本電動工具大廠\n- **[[Bosch]]:** 德國電動工具大廠\n\n### 主要供應商\n- **鋼材:** 中國鋼材及金屬粉末供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

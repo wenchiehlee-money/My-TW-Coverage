@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5386",
+  "company_name": "青雲",
+  "title": "5386 - 青雲",
+  "source_md": "Pilot_Reports/Computer Hardware/5386_青雲.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "11,582 百萬台幣",
+    "enterprise_value": "14,265 百萬台幣"
+  },
+  "business": {
+    "summary": "青雲 (Albatron) 為專業 **資訊通路代理商**，從早期的板卡製造轉型為代理通路。\n主要代理產品：\n1.  **記憶體**: **[[Micron]] (美光)** 全系列產品 ([[DRAM]]/SSD)，主要應用於[[伺服器]]。\n2.  **板卡/伺服器**: **技嘉 (Gigabyte)** 顯示卡、主機板、[[伺服器]] (Giga Computing)。\n3.  **其他**: PNY 顯卡、Apacer 產品。\n受惠於 [[AI]] [[伺服器]]需求，[[HBM]] 與高階 Server [[DRAM]] 需求強勁。",
+    "entities": [
+      "Micron",
+      "DRAM",
+      "伺服器",
+      "AI",
+      "HBM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游 (原廠)**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**記憶體**: **[[Micron]]**.",
+        "entities": [
+          "Micron"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**板卡/系統**: **技嘉 (Gigabyte)**, **Supermicro**.",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (通路/代理)**: **青雲 (5386)** - 產品代理, 通路銷售.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**企業**: 系統整合商 (SI), [[資料中心]]建置.",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**消費**: 電腦零組件通路.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**B2B**: [[伺服器]] SI, 企業客戶.",
+        "entities": [
+          "伺服器"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**B2C**: 3C 通路.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**原廠**: **[[Micron]]**, **Gigabyte**.",
+        "entities": [
+          "Micron"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "伺服器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "青雲 (Albatron) 為專業 **資訊通路代理商**，從早期的板卡製造轉型為代理通路。\n主要代理產品：\n1.  **記憶體**: **[[Micron]] (美光)** 全系列產品 ([[DRAM]]/SSD)，主要應用於[[伺服器]]。\n2.  **板卡/伺服器**: **技嘉 (Gigabyte)** 顯示卡、主機板、[[伺服器]] (Giga Computing)。\n3.  **其他**: PNY 顯卡、Apacer 產品。\n受惠於 [[AI]] [[伺服器]]需求，[[HBM]] 與高階 Server [[DRAM]] 需求強勁。",
+    "supply_chain_md": "*   **中游 (通路/代理)**: **青雲 (5386)** - 產品代理, 通路銷售.\n*   **上游 (原廠)**:\n    *   **記憶體**: **[[Micron]]**.\n    *   **板卡/系統**: **技嘉 (Gigabyte)**, **Supermicro**.\n*   **下游**:\n    *   **企業**: 系統整合商 (SI), [[資料中心]]建置.\n    *   **消費**: 電腦零組件通路.",
+    "customers_suppliers_md": "### 主要客戶\n*   **B2B**: [[伺服器]] SI, 企業客戶.\n*   **B2C**: 3C 通路.\n\n### 主要供應商\n*   **原廠**: **[[Micron]]**, **Gigabyte**."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

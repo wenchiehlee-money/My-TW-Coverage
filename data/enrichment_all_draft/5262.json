@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5262",
+  "company_name": "立達",
+  "title": "5262 - 立達",
+  "source_md": "Pilot_Reports/Semiconductors/5262_立達.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "2,010 百萬台幣",
+    "enterprise_value": "3,045 百萬台幣"
+  },
+  "business": {
+    "summary": "立達國際 (Gigastone) 為 **NAND Flash 控制晶片與模組** 品牌商，自有品牌「Gigastone」行銷全球。\n業務雙軌並進：\n1.  **B2C 品牌通路 (64%)**: 記憶卡 (SD/microSD)、隨身碟、行動周邊 (充電器、行動電源)。主攻 [[Amazon]]、[[Costco]]、[[Walmart]] 等大型零售通路。\n2.  **B2B 工業解決方案 (36%)**: 客製化記憶體模組、系統整合 (IoT)。\n近年積極拓展 **綠能與儲能** 產品線，並啟用宜蘭新廠強化全球運籌。",
+    "entities": [
+      "Amazon",
+      "Costco",
+      "Walmart"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**NAND Flash**: 向原廠採購晶圓/顆粒 (如 [[Kioxia]], [[Micron]], [[Samsung]]).",
+        "entities": [
+          "Kioxia",
+          "Micron",
+          "Samsung"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **立達 (5262)** - 模組設計, 封裝測試管理, 品牌行銷.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**零售通路**: [[Amazon]], [[Walmart]], [[Target]], [[Costco]], 日本 [[KDDI]].",
+        "entities": [
+          "Amazon",
+          "Walmart",
+          "Target",
+          "Costco",
+          "KDDI"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**企業客戶**: 工控 IPC 客戶.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**通路**: [[Amazon]] (全球最大客戶), [[Costco]], 美國實體零售商.",
+        "entities": [
+          "Amazon",
+          "Costco"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**電信**: 日本 [[KDDI]] (au).",
+        "entities": [
+          "KDDI"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**晶圓/顆粒**: 國際記憶體大廠 [[Micron]], [[Kioxia]].",
+        "entities": [
+          "Micron",
+          "Kioxia"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon",
+          "Costco",
+          "KDDI"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Costco",
+      "type": "international_company_or_term",
+      "wikilink": "Costco"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Kioxia",
+      "type": "international_company_or_term",
+      "wikilink": "Kioxia"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Target",
+      "type": "international_company_or_term",
+      "wikilink": "Target"
+    },
+    {
+      "name": "KDDI",
+      "type": "international_company_or_term",
+      "wikilink": "KDDI"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "立達國際 (Gigastone) 為 **NAND Flash 控制晶片與模組** 品牌商，自有品牌「Gigastone」行銷全球。\n業務雙軌並進：\n1.  **B2C 品牌通路 (64%)**: 記憶卡 (SD/microSD)、隨身碟、行動周邊 (充電器、行動電源)。主攻 [[Amazon]]、[[Costco]]、[[Walmart]] 等大型零售通路。\n2.  **B2B 工業解決方案 (36%)**: 客製化記憶體模組、系統整合 (IoT)。\n近年積極拓展 **綠能與儲能** 產品線，並啟用宜蘭新廠強化全球運籌。",
+    "supply_chain_md": "*   **中游 (本體)**: **立達 (5262)** - 模組設計, 封裝測試管理, 品牌行銷.\n*   **上游**:\n    *   **NAND Flash**: 向原廠採購晶圓/顆粒 (如 [[Kioxia]], [[Micron]], [[Samsung]]).\n*   **下游**:\n    *   **零售通路**: [[Amazon]], [[Walmart]], [[Target]], [[Costco]], 日本 [[KDDI]].\n    *   **企業客戶**: 工控 IPC 客戶.",
+    "customers_suppliers_md": "### 主要客戶\n*   **通路**: [[Amazon]] (全球最大客戶), [[Costco]], 美國實體零售商.\n*   **電信**: 日本 [[KDDI]] (au).\n\n### 主要供應商\n*   **晶圓/顆粒**: 國際記憶體大廠 [[Micron]], [[Kioxia]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

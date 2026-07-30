@@ -1,0 +1,185 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3346",
+  "company_name": "麗清",
+  "title": "3346 - 麗清",
+  "source_md": "Pilot_Reports/Auto Parts/3346_麗清.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,241 百萬台幣",
+    "enterprise_value": "3,425 百萬台幣"
+  },
+  "business": {
+    "summary": "麗清科技 (3346) 是專業車用 [[LED]] 照明模組製造商，1999 年成立以來深耕 LED 汽車照明，產品成功打入全球汽車 OEM 原廠供應鏈 (Tier 1/Tier 2)。產品涵蓋 LED 尾燈、煞車燈、霧燈、方向燈及 [[DRL]] (日行燈) 模組。已獲北美前三大車廠之一十年千萬顆長約。設有上海廠服務中國車廠。",
+    "entities": [
+      "LED",
+      "DRL"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (LED 晶片)",
+        "text": "**上游 (LED 晶片):**",
+        "entities": []
+      },
+      {
+        "category": "LED 晶片",
+        "text": "[[Lumileds]] (Philips 關係企業，授權總代理)、[[Osram]]、[[Nichia]]",
+        "entities": [
+          "Lumileds",
+          "Osram",
+          "Nichia"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (車燈模組)",
+        "text": "**中游 (車燈模組):**",
+        "entities": []
+      },
+      {
+        "category": "車用 LED 模組",
+        "text": "**麗清** (車用 LED 照明模組 Tier 1/Tier 2)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車廠)",
+        "text": "**下游 (車廠):**",
+        "entities": []
+      },
+      {
+        "category": "北美車廠",
+        "text": "北美前三大車廠之一 (十年千萬顆長約，推測為 [[Ford]] 或 [[GM]])",
+        "entities": [
+          "Ford",
+          "GM"
+        ]
+      },
+      {
+        "category": "中國車廠",
+        "text": "中國大陸車廠 (上海廠服務)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美車廠",
+        "text": "北美前三大車廠之一 (十年長約)",
+        "entities": []
+      },
+      {
+        "role": "中國車廠",
+        "text": "中國大陸車廠",
+        "entities": []
+      },
+      {
+        "role": "全球 OEM",
+        "text": "全球汽車 OEM Tier 1 客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 晶片",
+        "text": "[[Lumileds]]、[[Osram]]、[[Nichia]]",
+        "entities": [
+          "Lumileds",
+          "Osram",
+          "Nichia"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[聯嘉]]、[[堤維西]]",
+        "entities": [
+          "聯嘉",
+          "堤維西"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[聯嘉]]、[[堤維西]]",
+        "entities": [
+          "聯嘉",
+          "堤維西"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "DRL",
+      "type": "international_company_or_term",
+      "wikilink": "DRL"
+    },
+    {
+      "name": "Lumileds",
+      "type": "international_company_or_term",
+      "wikilink": "Lumileds"
+    },
+    {
+      "name": "Osram",
+      "type": "international_company_or_term",
+      "wikilink": "Osram"
+    },
+    {
+      "name": "Nichia",
+      "type": "international_company_or_term",
+      "wikilink": "Nichia"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "聯嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯嘉"
+    },
+    {
+      "name": "堤維西",
+      "type": "taiwan_company_or_term",
+      "wikilink": "堤維西"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "麗清科技 (3346) 是專業車用 [[LED]] 照明模組製造商，1999 年成立以來深耕 LED 汽車照明，產品成功打入全球汽車 OEM 原廠供應鏈 (Tier 1/Tier 2)。產品涵蓋 LED 尾燈、煞車燈、霧燈、方向燈及 [[DRL]] (日行燈) 模組。已獲北美前三大車廠之一十年千萬顆長約。設有上海廠服務中國車廠。",
+    "supply_chain_md": "**上游 (LED 晶片):**\n- **LED 晶片:** [[Lumileds]] (Philips 關係企業，授權總代理)、[[Osram]]、[[Nichia]]\n\n**中游 (車燈模組):**\n- **車用 LED 模組:** **麗清** (車用 LED 照明模組 Tier 1/Tier 2)\n\n**下游 (車廠):**\n- **北美車廠:** 北美前三大車廠之一 (十年千萬顆長約，推測為 [[Ford]] 或 [[GM]])\n- **中國車廠:** 中國大陸車廠 (上海廠服務)",
+    "customers_suppliers_md": "### 主要客戶\n- **北美車廠:** 北美前三大車廠之一 (十年長約)\n- **中國車廠:** 中國大陸車廠\n- **全球 OEM:** 全球汽車 OEM Tier 1 客戶\n\n### 主要供應商\n- **LED 晶片:** [[Lumileds]]、[[Osram]]、[[Nichia]]\n- **競爭同業:** [[聯嘉]]、[[堤維西]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

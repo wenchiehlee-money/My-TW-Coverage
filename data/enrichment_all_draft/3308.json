@@ -1,0 +1,157 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3308",
+  "company_name": "聯德",
+  "title": "3308 - 聯德",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/3308_聯德.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,143 百萬台幣",
+    "enterprise_value": "1,164 百萬台幣"
+  },
+  "business": {
+    "summary": "聯德電子 (3308，Bestec) 為交換式電源廠，長期替[[HP]]、[[Dell]]代工桌機/筆電電源。轉型[[物聯網]]伺服器電源及電競電源。",
+    "entities": [
+      "HP",
+      "Dell",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "被動元件、[[MOSFET]]",
+        "entities": [
+          "MOSFET"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**聯德** (電源設計組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[HP]]、[[Dell]]",
+        "entities": [
+          "HP",
+          "Dell"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[HP]]、[[Dell]]",
+        "entities": [
+          "HP",
+          "Dell"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "被動元件/[[MOSFET]]",
+        "entities": [
+          "MOSFET"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "HP",
+          "Dell"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯德電子 (3308，Bestec) 為交換式電源廠，長期替[[HP]]、[[Dell]]代工桌機/筆電電源。轉型[[物聯網]]伺服器電源及電競電源。",
+    "supply_chain_md": "**上游:** 被動元件、[[MOSFET]]\n**中游:** **聯德** (電源設計組裝)\n**下游:** [[HP]]、[[Dell]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[HP]]、[[Dell]]\n\n### 主要供應商\n- 被動元件/[[MOSFET]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

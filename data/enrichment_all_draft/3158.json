@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3158",
+  "company_name": "嘉實",
+  "title": "3158 - 嘉實",
+  "source_md": "Pilot_Reports/Information Technology Services/3158_嘉實.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "2,483 百萬台幣",
+    "enterprise_value": "1,724 百萬台幣"
+  },
+  "business": {
+    "summary": "嘉實資訊 (3158，SysJust) 成立於 1988 年，為台灣最具規模的金融資訊服務商。旗艦產品「XQ 全球贏家」為市場領導者，整合台灣、中國、香港、美國、日本、韓國六大金融市場之即時報價、財報分析與量化交易功能，為台灣首個本土開發之量化交易平台。核心業務涵蓋三大區塊：(1) B2B 券商系統 — 為全台超過 90% 大型券商 (含成交金額前 31 大) 開發行動下單軟體、API 開放接口與中後端管理系統，客戶涵蓋[[元大證券]]、[[凱基證券]]等；(2) B2C 訂閱服務 — XQ 個人版按月訂閱，含進階籌碼分析、美股即時數據與自動化交易模組；(3) AI 賦能 — 積極研發 AI 投資助手，利用大語言模型 (LLM) 協助語義化選股與策略回測。",
+    "entities": [
+      "元大證券",
+      "凱基證券"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原始數據與雲端基建)",
+        "text": "**上游 (原始數據與雲端基建):**",
+        "entities": []
+      },
+      {
+        "category": "交易所數據",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]]、[[NYSE]] — 第一手市場報價",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣期貨交易所",
+          "NASDAQ",
+          "NYSE"
+        ]
+      },
+      {
+        "category": "國際資料",
+        "text": "[[Reuters]]、[[Bloomberg]] — 全球財經數據",
+        "entities": [
+          "Reuters",
+          "Bloomberg"
+        ]
+      },
+      {
+        "category": "雲端基建",
+        "text": "[[AWS]]、[[GCP]] — 低延遲報價串流與 AI 運算",
+        "entities": [
+          "AWS",
+          "GCP"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (金融資訊整合)",
+        "text": "**中游 (金融資訊整合):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**嘉實資訊 (3158)** — B2B 券商下單系統開發、B2C「XQ 全球贏家」看盤選股平台、LLM 語意選股應用",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (金融中介與終端用戶)",
+        "text": "**下游 (金融中介與終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "券商客戶",
+        "text": "[[元大證券]]、[[凱基證券]]等全台主要券商 — 客製化下單系統",
+        "entities": [
+          "元大證券",
+          "凱基證券"
+        ]
+      },
+      {
+        "category": "零售訂閱戶",
+        "text": "專業散戶、量化交易開發者 — XQ 個人版訂閱",
+        "entities": []
+      },
+      {
+        "category": "法人機構",
+        "text": "中小型投信操盤室及保險公司",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "B2B 券商系統",
+        "text": "[[元大證券]]、[[凱基證券]]等全台市場超過 90% (含前 31 大) 券商 — 客製化行動下單軟體與 API 系統",
+        "entities": [
+          "元大證券",
+          "凱基證券"
+        ]
+      },
+      {
+        "role": "B2C 訂閱",
+        "text": "專業高頻散戶、量化交易獨立開發者 — XQ 全球贏家個人版月費訂閱",
+        "entities": []
+      },
+      {
+        "role": "法人機構",
+        "text": "中小型投信操盤室及壽險公司 — 機構級決策支援系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "交易所數據",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]] — 原始市場報價",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣期貨交易所",
+          "NASDAQ"
+        ]
+      },
+      {
+        "role": "國際資料",
+        "text": "[[Reuters]]、[[Bloomberg]] — 全球財經數據庫",
+        "entities": [
+          "Reuters",
+          "Bloomberg"
+        ]
+      },
+      {
+        "role": "雲端基建",
+        "text": "[[AWS]]、[[GCP]] — 即時報價串流與 AI 高速運算",
+        "entities": [
+          "AWS",
+          "GCP"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Information Technology Services):** [[廣豐]]、[[凌群]]、[[華經]]、[[資通]]、[[大綜]]",
+        "entities": [
+          "廣豐",
+          "凌群",
+          "華經",
+          "資通",
+          "大綜"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "元大證券",
+          "凱基證券"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "元大證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元大證券"
+    },
+    {
+      "name": "凱基證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱基證券"
+    },
+    {
+      "name": "台灣證券交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣證券交易所"
+    },
+    {
+      "name": "證券櫃檯買賣中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "證券櫃檯買賣中心"
+    },
+    {
+      "name": "台灣期貨交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣期貨交易所"
+    },
+    {
+      "name": "NASDAQ",
+      "type": "international_company_or_term",
+      "wikilink": "NASDAQ"
+    },
+    {
+      "name": "NYSE",
+      "type": "international_company_or_term",
+      "wikilink": "NYSE"
+    },
+    {
+      "name": "Reuters",
+      "type": "international_company_or_term",
+      "wikilink": "Reuters"
+    },
+    {
+      "name": "Bloomberg",
+      "type": "international_company_or_term",
+      "wikilink": "Bloomberg"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "GCP",
+      "type": "international_company_or_term",
+      "wikilink": "GCP"
+    },
+    {
+      "name": "廣豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣豐"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "華經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華經"
+    },
+    {
+      "name": "資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資通"
+    },
+    {
+      "name": "大綜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大綜"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "嘉實資訊 (3158，SysJust) 成立於 1988 年，為台灣最具規模的金融資訊服務商。旗艦產品「XQ 全球贏家」為市場領導者，整合台灣、中國、香港、美國、日本、韓國六大金融市場之即時報價、財報分析與量化交易功能，為台灣首個本土開發之量化交易平台。核心業務涵蓋三大區塊：(1) B2B 券商系統 — 為全台超過 90% 大型券商 (含成交金額前 31 大) 開發行動下單軟體、API 開放接口與中後端管理系統，客戶涵蓋[[元大證券]]、[[凱基證券]]等；(2) B2C 訂閱服務 — XQ 個人版按月訂閱，含進階籌碼分析、美股即時數據與自動化交易模組；(3) AI 賦能 — 積極研發 AI 投資助手，利用大語言模型 (LLM) 協助語義化選股與策略回測。",
+    "supply_chain_md": "**上游 (原始數據與雲端基建):**\n- **交易所數據:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]]、[[NYSE]] — 第一手市場報價\n- **國際資料:** [[Reuters]]、[[Bloomberg]] — 全球財經數據\n- **雲端基建:** [[AWS]]、[[GCP]] — 低延遲報價串流與 AI 運算\n\n**中游 (金融資訊整合):**\n- **嘉實資訊 (3158)** — B2B 券商下單系統開發、B2C「XQ 全球贏家」看盤選股平台、LLM 語意選股應用\n\n**下游 (金融中介與終端用戶):**\n- **券商客戶:** [[元大證券]]、[[凱基證券]]等全台主要券商 — 客製化下單系統\n- **零售訂閱戶:** 專業散戶、量化交易開發者 — XQ 個人版訂閱\n- **法人機構:** 中小型投信操盤室及保險公司",
+    "customers_suppliers_md": "### 主要客戶\n- **B2B 券商系統:** [[元大證券]]、[[凱基證券]]等全台市場超過 90% (含前 31 大) 券商 — 客製化行動下單軟體與 API 系統\n- **B2C 訂閱:** 專業高頻散戶、量化交易獨立開發者 — XQ 全球贏家個人版月費訂閱\n- **法人機構:** 中小型投信操盤室及壽險公司 — 機構級決策支援系統\n\n### 主要供應商\n- **交易所數據:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]] — 原始市場報價\n- **國際資料:** [[Reuters]]、[[Bloomberg]] — 全球財經數據庫\n- **雲端基建:** [[AWS]]、[[GCP]] — 即時報價串流與 AI 高速運算"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

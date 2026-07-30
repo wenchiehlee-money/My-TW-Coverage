@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1409",
+  "company_name": "新纖",
+  "title": "1409 - 新纖",
+  "source_md": "Pilot_Reports/Textile Manufacturing/1409_新纖.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "32,638 百萬台幣",
+    "enterprise_value": "93,348 百萬台幣"
+  },
+  "business": {
+    "summary": "[[新光合纖]] (Shinkong Synthetic Fibers) 為[[新光集團]]成員，主要產品涵蓋化纖 (聚酯粒、長短纖、加工絲)、塑膠 (瓶用酯粒、[[工程塑膠]])及光電材料 ([[TAC膜]]、增亮膜)。公司積極布局高附加價值產品，如[[電動車]]用[[工程塑膠]]、環保回收聚酯及半導體級化學品。生產基地橫跨台灣桃園、中國杭州及泰國。營收比重聚酯事業約74%、光電事業約18%、金融證券約8%。",
+    "entities": [
+      "新光合纖",
+      "新光集團",
+      "工程塑膠",
+      "TAC膜",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "原料",
+        "text": "[[PTA]] (純對苯二甲酸)、[[EG]] (乙二醇)",
+        "entities": [
+          "PTA",
+          "EG"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "化纖事業",
+        "text": "聚合、紡絲、加工，生產聚酯粒、POY、DTY",
+        "entities": []
+      },
+      {
+        "category": "光電事業",
+        "text": "[[TAC膜]]、增亮膜等光學薄膜製造",
+        "entities": [
+          "TAC膜"
+        ]
+      },
+      {
+        "category": "塑膠事業",
+        "text": "瓶用酯粒、[[工程塑膠]]",
+        "entities": [
+          "工程塑膠"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "紡織",
+        "text": "下游織布及成衣廠",
+        "entities": []
+      },
+      {
+        "category": "包裝",
+        "text": "飲料大廠 (寶特瓶原料)",
+        "entities": []
+      },
+      {
+        "category": "電子/車用",
+        "text": "面板廠、[[電動車]]零組件廠",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "紡織",
+        "text": "下游織布及成衣廠",
+        "entities": []
+      },
+      {
+        "role": "包裝",
+        "text": "飲料大廠 (寶特瓶原料)",
+        "entities": []
+      },
+      {
+        "role": "電子/車用",
+        "text": "面板廠 ([[TAC膜]])、[[電動車]]零組件廠 ([[工程塑膠]])",
+        "entities": [
+          "TAC膜",
+          "電動車",
+          "工程塑膠"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[台塑]]集團 ([[PTA]])、國內外[[MEG]]供應商",
+        "entities": [
+          "台塑",
+          "PTA",
+          "MEG"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "TAC膜",
+          "電動車",
+          "工程塑膠"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新光合纖",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光合纖"
+    },
+    {
+      "name": "新光集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光集團"
+    },
+    {
+      "name": "工程塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工程塑膠"
+    },
+    {
+      "name": "TAC膜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "TAC膜"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "PTA",
+      "type": "international_company_or_term",
+      "wikilink": "PTA"
+    },
+    {
+      "name": "EG",
+      "type": "international_company_or_term",
+      "wikilink": "EG"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "MEG",
+      "type": "international_company_or_term",
+      "wikilink": "MEG"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[新光合纖]] (Shinkong Synthetic Fibers) 為[[新光集團]]成員，主要產品涵蓋化纖 (聚酯粒、長短纖、加工絲)、塑膠 (瓶用酯粒、[[工程塑膠]])及光電材料 ([[TAC膜]]、增亮膜)。公司積極布局高附加價值產品，如[[電動車]]用[[工程塑膠]]、環保回收聚酯及半導體級化學品。生產基地橫跨台灣桃園、中國杭州及泰國。營收比重聚酯事業約74%、光電事業約18%、金融證券約8%。",
+    "supply_chain_md": "**上游 (石化原料):**\n- **原料:** [[PTA]] (純對苯二甲酸)、[[EG]] (乙二醇)\n\n**中游 (製造):**\n- **化纖事業:** 聚合、紡絲、加工，生產聚酯粒、POY、DTY\n- **光電事業:** [[TAC膜]]、增亮膜等光學薄膜製造\n- **塑膠事業:** 瓶用酯粒、[[工程塑膠]]\n\n**下游 (終端應用):**\n- **紡織:** 下游織布及成衣廠\n- **包裝:** 飲料大廠 (寶特瓶原料)\n- **電子/車用:** 面板廠、[[電動車]]零組件廠",
+    "customers_suppliers_md": "### 主要客戶\n- **紡織:** 下游織布及成衣廠\n- **包裝:** 飲料大廠 (寶特瓶原料)\n- **電子/車用:** 面板廠 ([[TAC膜]])、[[電動車]]零組件廠 ([[工程塑膠]])\n\n### 主要供應商\n- **原料:** [[台塑]]集團 ([[PTA]])、國內外[[MEG]]供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

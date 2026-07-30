@@ -1,0 +1,282 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8069",
+  "company_name": "元太",
+  "title": "8069 - 元太",
+  "source_md": "Pilot_Reports/Electronic Components/8069_元太.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "206,274 百萬台幣",
+    "enterprise_value": "205,953 百萬台幣"
+  },
+  "business": {
+    "summary": "元太科技工業 (8069，E Ink Holdings) 為全球電子紙 (ePaper) 產業之絕對龍頭，市占率超過九成，掌握電子墨水技術最核心專利與材料配方。公司隸屬 [[永豐餘]] 集團。\n\n核心產品為電子墨水薄膜 (FPL) 及電子紙顯示器模組，具備超低功耗、護眼及極佳戶外可視性。應用領域涵蓋：(1) 電子書閱讀器 — 供應 [[Amazon]] Kindle、[[Kobo]] 等全球電子書品牌，近期 [[Amazon]] 已導入彩色電子紙；(2) 電子貨架標籤 (ESL) — 全球零售業加速導入，主要 ESL 系統商 [[Hanshow]] (漢朔)、[[VusionGroup]] (原 SES-imagotag) 均採用元太電子紙，[[沃爾瑪]] ([[Walmart]]) 已導入四色 ESL；(3) 數位看板與智慧城市 — 大型戶外彩色電子紙看板。2024 年營收 321.6 億元，毛利率 49.6%，淨利率 27.6%。",
+    "entities": [
+      "永豐餘",
+      "Amazon",
+      "Kobo",
+      "Hanshow",
+      "VusionGroup",
+      "沃爾瑪",
+      "Walmart"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與零組件)",
+        "text": "**上游 (材料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "TFT 背板",
+        "text": "[[群創]]、[[京東方]] — TFT 背板供應",
+        "entities": [
+          "群創",
+          "京東方"
+        ]
+      },
+      {
+        "category": "驅動IC",
+        "text": "[[天鈺]] — 電子紙驅動 IC",
+        "entities": [
+          "天鈺"
+        ]
+      },
+      {
+        "category": "化學材料",
+        "text": "電子墨水微膠囊化學原料、特種高分子薄膜",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電子紙製造)",
+        "text": "**中游 (電子紙製造):**",
+        "entities": []
+      },
+      {
+        "category": "電子墨水薄膜",
+        "text": "**元太科技** (電子墨水材料配方研發、FPL 薄膜製造)",
+        "entities": []
+      },
+      {
+        "category": "電子紙模組",
+        "text": "**元太科技** (電子紙顯示器模組組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電子書閱讀器",
+        "text": "[[Amazon]] Kindle、[[Kobo]] — 全球電子書品牌",
+        "entities": [
+          "Amazon",
+          "Kobo"
+        ]
+      },
+      {
+        "category": "電子貨架標籤",
+        "text": "[[Hanshow]]、[[VusionGroup]] — ESL 系統整合商",
+        "entities": [
+          "Hanshow",
+          "VusionGroup"
+        ]
+      },
+      {
+        "category": "零售終端",
+        "text": "[[沃爾瑪]] — 導入四色 ESL",
+        "entities": [
+          "沃爾瑪"
+        ]
+      },
+      {
+        "category": "數位看板",
+        "text": "智慧城市與戶外電子看板製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子書",
+        "text": "[[Amazon]] (Kindle)、[[Kobo]] — 全球最大電子書閱讀器品牌",
+        "entities": [
+          "Amazon",
+          "Kobo"
+        ]
+      },
+      {
+        "role": "ESL 系統",
+        "text": "[[Hanshow]] (漢朔)、[[VusionGroup]] — 全球前二大電子貨架標籤系統商",
+        "entities": [
+          "Hanshow",
+          "VusionGroup"
+        ]
+      },
+      {
+        "role": "零售終端",
+        "text": "[[沃爾瑪]] ([[Walmart]]) — 導入四色 ESL",
+        "entities": [
+          "沃爾瑪",
+          "Walmart"
+        ]
+      },
+      {
+        "role": "數位看板",
+        "text": "全球數位看板與智慧城市設備商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "TFT 背板",
+        "text": "[[群創]]、[[京東方]] — TFT 基板供應",
+        "entities": [
+          "群創",
+          "京東方"
+        ]
+      },
+      {
+        "role": "驅動IC",
+        "text": "[[天鈺]] — 電子紙驅動 IC",
+        "entities": [
+          "天鈺"
+        ]
+      },
+      {
+        "role": "光電元件",
+        "text": "同揚光電 — 產業鏈緊密合作夥伴",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon",
+          "Kobo",
+          "Hanshow",
+          "VusionGroup",
+          "沃爾瑪",
+          "Walmart"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "永豐餘",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐餘"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Kobo",
+      "type": "international_company_or_term",
+      "wikilink": "Kobo"
+    },
+    {
+      "name": "Hanshow",
+      "type": "international_company_or_term",
+      "wikilink": "Hanshow"
+    },
+    {
+      "name": "VusionGroup",
+      "type": "international_company_or_term",
+      "wikilink": "VusionGroup"
+    },
+    {
+      "name": "沃爾瑪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沃爾瑪"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "天鈺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天鈺"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "元太科技工業 (8069，E Ink Holdings) 為全球電子紙 (ePaper) 產業之絕對龍頭，市占率超過九成，掌握電子墨水技術最核心專利與材料配方。公司隸屬 [[永豐餘]] 集團。\n\n核心產品為電子墨水薄膜 (FPL) 及電子紙顯示器模組，具備超低功耗、護眼及極佳戶外可視性。應用領域涵蓋：(1) 電子書閱讀器 — 供應 [[Amazon]] Kindle、[[Kobo]] 等全球電子書品牌，近期 [[Amazon]] 已導入彩色電子紙；(2) 電子貨架標籤 (ESL) — 全球零售業加速導入，主要 ESL 系統商 [[Hanshow]] (漢朔)、[[VusionGroup]] (原 SES-imagotag) 均採用元太電子紙，[[沃爾瑪]] ([[Walmart]]) 已導入四色 ESL；(3) 數位看板與智慧城市 — 大型戶外彩色電子紙看板。2024 年營收 321.6 億元，毛利率 49.6%，淨利率 27.6%。",
+    "supply_chain_md": "**上游 (材料與零組件):**\n- **TFT 背板:** [[群創]]、[[京東方]] — TFT 背板供應\n- **驅動IC:** [[天鈺]] — 電子紙驅動 IC\n- **化學材料:** 電子墨水微膠囊化學原料、特種高分子薄膜\n\n**中游 (電子紙製造):**\n- **電子墨水薄膜:** **元太科技** (電子墨水材料配方研發、FPL 薄膜製造)\n- **電子紙模組:** **元太科技** (電子紙顯示器模組組裝)\n\n**下游 (終端應用):**\n- **電子書閱讀器:** [[Amazon]] Kindle、[[Kobo]] — 全球電子書品牌\n- **電子貨架標籤:** [[Hanshow]]、[[VusionGroup]] — ESL 系統整合商\n- **零售終端:** [[沃爾瑪]] — 導入四色 ESL\n- **數位看板:** 智慧城市與戶外電子看板製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **電子書:** [[Amazon]] (Kindle)、[[Kobo]] — 全球最大電子書閱讀器品牌\n- **ESL 系統:** [[Hanshow]] (漢朔)、[[VusionGroup]] — 全球前二大電子貨架標籤系統商\n- **零售終端:** [[沃爾瑪]] ([[Walmart]]) — 導入四色 ESL\n- **數位看板:** 全球數位看板與智慧城市設備商\n\n### 主要供應商\n- **TFT 背板:** [[群創]]、[[京東方]] — TFT 基板供應\n- **驅動IC:** [[天鈺]] — 電子紙驅動 IC\n- **光電元件:** 同揚光電 — 產業鏈緊密合作夥伴"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

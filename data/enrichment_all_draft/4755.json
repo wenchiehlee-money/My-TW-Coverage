@@ -1,0 +1,288 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4755",
+  "company_name": "三福化",
+  "title": "4755 - 三福化",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4755_三福化.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "10,675 百萬台幣",
+    "enterprise_value": "11,544 百萬台幣"
+  },
+  "business": {
+    "summary": "三福化工 (4755，San Fu Chemical) 為半導體濕製程關鍵化學品供應商，核心產品涵蓋[[TMAH]]顯影液、蝕刻液、剝離液及清洗劑。為[[CoWoS]]先進封裝重大受惠者 — [[CoWoS]] 用剝離液 2024 年前三季營收成長 251%。半導體營收佔比目標從 20% 提升至 25-30%。主要客戶涵蓋[[台積電]] (主要客戶，[[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]、[[力成]]。面板客戶涵蓋[[友達]]、[[群創]]、[[彩晶]]。LED/太陽能客戶含[[晶元光電]]。另為[[TMAH]]廢液回收再利用先驅，實踐循環經濟。",
+    "entities": [
+      "TMAH",
+      "CoWoS",
+      "台積電",
+      "InFO",
+      "聯電",
+      "世界先進",
+      "力成",
+      "友達",
+      "群創",
+      "彩晶",
+      "晶元光電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "化工原料",
+        "text": "基礎酸鹼/溶劑",
+        "entities": []
+      },
+      {
+        "category": "TMAH 回收",
+        "text": "[[TMAH]]廢液回收再利用",
+        "entities": [
+          "TMAH"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**三福化** ([[TMAH]]顯影液/[[蝕刻]]液/剝離液/清洗劑)",
+        "entities": [
+          "TMAH",
+          "蝕刻"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] ([[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]",
+        "entities": [
+          "台積電",
+          "CoWoS",
+          "InFO",
+          "聯電",
+          "世界先進"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "[[力成]] — 先進封裝化學品",
+        "entities": [
+          "力成"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]]、[[群創]]、[[彩晶]]",
+        "entities": [
+          "友達",
+          "群創",
+          "彩晶"
+        ]
+      },
+      {
+        "category": "LED",
+        "text": "[[晶元光電]]",
+        "entities": [
+          "晶元光電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] ([[CoWoS]]/[[InFO]])、[[聯電]]、[[世界先進]]",
+        "entities": [
+          "台積電",
+          "CoWoS",
+          "InFO",
+          "聯電",
+          "世界先進"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "[[力成]] — 先進封裝",
+        "entities": [
+          "力成"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]]、[[彩晶]]",
+        "entities": [
+          "友達",
+          "群創",
+          "彩晶"
+        ]
+      },
+      {
+        "role": "LED",
+        "text": "[[晶元光電]]",
+        "entities": [
+          "晶元光電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "化工",
+        "text": "基礎酸鹼/溶劑；[[TMAH]]廢液回收",
+        "entities": [
+          "TMAH"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "CoWoS",
+          "InFO",
+          "聯電",
+          "世界先進",
+          "力成",
+          "友達",
+          "群創",
+          "彩晶",
+          "晶元光電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TMAH",
+      "type": "international_company_or_term",
+      "wikilink": "TMAH"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "InFO",
+      "type": "international_company_or_term",
+      "wikilink": "InFO"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "彩晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彩晶"
+    },
+    {
+      "name": "晶元光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶元光電"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三福化工 (4755，San Fu Chemical) 為半導體濕製程關鍵化學品供應商，核心產品涵蓋[[TMAH]]顯影液、蝕刻液、剝離液及清洗劑。為[[CoWoS]]先進封裝重大受惠者 — [[CoWoS]] 用剝離液 2024 年前三季營收成長 251%。半導體營收佔比目標從 20% 提升至 25-30%。主要客戶涵蓋[[台積電]] (主要客戶，[[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]、[[力成]]。面板客戶涵蓋[[友達]]、[[群創]]、[[彩晶]]。LED/太陽能客戶含[[晶元光電]]。另為[[TMAH]]廢液回收再利用先驅，實踐循環經濟。",
+    "supply_chain_md": "**上游 (原料):**\n- **化工原料:** 基礎酸鹼/溶劑\n- **TMAH 回收:** [[TMAH]]廢液回收再利用\n\n**中游 (製造):**\n- **三福化** ([[TMAH]]顯影液/[[蝕刻]]液/剝離液/清洗劑)\n\n**下游 (終端):**\n- **晶圓代工:** [[台積電]] ([[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]\n- **封測:** [[力成]] — 先進封裝化學品\n- **面板:** [[友達]]、[[群創]]、[[彩晶]]\n- **LED:** [[晶元光電]]",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] ([[CoWoS]]/[[InFO]])、[[聯電]]、[[世界先進]]\n- **封測:** [[力成]] — 先進封裝\n- **面板:** [[友達]]、[[群創]]、[[彩晶]]\n- **LED:** [[晶元光電]]\n\n### 主要供應商\n- **化工:** 基礎酸鹼/溶劑；[[TMAH]]廢液回收"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1736",
+  "company_name": "喬山",
+  "title": "1736 - 喬山",
+  "source_md": "Pilot_Reports/Leisure/1736_喬山.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure",
+    "market_cap": "40,807 百萬台幣",
+    "enterprise_value": "57,241 百萬台幣"
+  },
+  "business": {
+    "summary": "喬山健康科技股份有限公司 (1736，Johnson Health Tech) 成立於 1975 年，為全球第三大健身器材品牌集團，2023 年合併營收超過 12 億美元。旗下擁有三大自有品牌：[[Matrix]] (商用健身俱樂部市場)、[[Horizon]] (家用中高階)、[[Vision]] (入門家用)，另經營按摩椅品牌[[富士按摩椅]] (FUJIIRYOKI) 及食品事業。全球四十餘國設有行銷子公司，生產基地橫跨台灣台中、越南、中國及美國。喬山為台灣唯一具備全球品牌行銷能力之健身器材廠商。",
+    "entities": [
+      "Matrix",
+      "Horizon",
+      "Vision",
+      "富士按摩椅"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與原物料)",
+        "text": "**上游 (零組件與原物料):**",
+        "entities": []
+      },
+      {
+        "category": "核心零件",
+        "text": "馬達、控制器、面板模組",
+        "entities": []
+      },
+      {
+        "category": "關鍵供應",
+        "text": "[[祺驊]] — 磁控阻力器；鋼材、鋁材",
+        "entities": [
+          "祺驊"
+        ]
+      },
+      {
+        "category": "電子元件",
+        "text": "[[PCB]]、IC 晶片、感測器",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌設計與製造)",
+        "text": "**中游 (品牌設計與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**喬山** — 健身器材全球品牌設計、製造與行銷 (台灣/越南/中國/美國生產基地)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "商用健身房",
+        "text": "[[Matrix]]品牌 — 全球健身俱樂部",
+        "entities": [
+          "Matrix"
+        ]
+      },
+      {
+        "category": "家用通路",
+        "text": "[[Horizon]]、[[Vision]]品牌 — 運動用品通路與電商",
+        "entities": [
+          "Horizon",
+          "Vision"
+        ]
+      },
+      {
+        "category": "按摩椅",
+        "text": "[[富士按摩椅]] — 亞洲市場",
+        "entities": [
+          "富士按摩椅"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "商用健身房",
+        "text": "全球健身俱樂部 — [[Matrix]]品牌器材採購",
+        "entities": [
+          "Matrix"
+        ]
+      },
+      {
+        "role": "運動用品通路",
+        "text": "北美與歐洲運動用品賣場 — [[Horizon]]、[[Vision]]品牌",
+        "entities": [
+          "Horizon",
+          "Vision"
+        ]
+      },
+      {
+        "role": "電商",
+        "text": "[[Amazon]]等線上平台 — 家用健身器材",
+        "entities": [
+          "Amazon"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "核心零件",
+        "text": "[[祺驊]] — 磁控阻力器與煞車器",
+        "entities": [
+          "祺驊"
+        ]
+      },
+      {
+        "role": "馬達",
+        "text": "國內外馬達供應商",
+        "entities": []
+      },
+      {
+        "role": "鋼材",
+        "text": "金屬結構件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Leisure):** [[大魯閣]]、[[力山]]、[[日馳]]、[[祺驊]]、[[岱宇]]",
+        "entities": [
+          "大魯閣",
+          "力山",
+          "日馳",
+          "祺驊",
+          "岱宇"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Matrix",
+          "Horizon",
+          "Vision",
+          "Amazon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Matrix",
+      "type": "international_company_or_term",
+      "wikilink": "Matrix"
+    },
+    {
+      "name": "Horizon",
+      "type": "international_company_or_term",
+      "wikilink": "Horizon"
+    },
+    {
+      "name": "Vision",
+      "type": "international_company_or_term",
+      "wikilink": "Vision"
+    },
+    {
+      "name": "富士按摩椅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富士按摩椅"
+    },
+    {
+      "name": "祺驊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "祺驊"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "大魯閣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大魯閣"
+    },
+    {
+      "name": "力山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力山"
+    },
+    {
+      "name": "日馳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日馳"
+    },
+    {
+      "name": "岱宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "岱宇"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "喬山健康科技股份有限公司 (1736，Johnson Health Tech) 成立於 1975 年，為全球第三大健身器材品牌集團，2023 年合併營收超過 12 億美元。旗下擁有三大自有品牌：[[Matrix]] (商用健身俱樂部市場)、[[Horizon]] (家用中高階)、[[Vision]] (入門家用)，另經營按摩椅品牌[[富士按摩椅]] (FUJIIRYOKI) 及食品事業。全球四十餘國設有行銷子公司，生產基地橫跨台灣台中、越南、中國及美國。喬山為台灣唯一具備全球品牌行銷能力之健身器材廠商。",
+    "supply_chain_md": "**上游 (零組件與原物料):**\n- **核心零件:** 馬達、控制器、面板模組\n- **關鍵供應:** [[祺驊]] — 磁控阻力器；鋼材、鋁材\n- **電子元件:** [[PCB]]、IC 晶片、感測器\n\n**中游 (品牌設計與製造):**\n- **喬山** — 健身器材全球品牌設計、製造與行銷 (台灣/越南/中國/美國生產基地)\n\n**下游 (終端市場):**\n- **商用健身房:** [[Matrix]]品牌 — 全球健身俱樂部\n- **家用通路:** [[Horizon]]、[[Vision]]品牌 — 運動用品通路與電商\n- **按摩椅:** [[富士按摩椅]] — 亞洲市場",
+    "customers_suppliers_md": "### 主要客戶\n- **商用健身房:** 全球健身俱樂部 — [[Matrix]]品牌器材採購\n- **運動用品通路:** 北美與歐洲運動用品賣場 — [[Horizon]]、[[Vision]]品牌\n- **電商:** [[Amazon]]等線上平台 — 家用健身器材\n\n### 主要供應商\n- **核心零件:** [[祺驊]] — 磁控阻力器與煞車器\n- **馬達:** 國內外馬達供應商\n- **鋼材:** 金屬結構件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

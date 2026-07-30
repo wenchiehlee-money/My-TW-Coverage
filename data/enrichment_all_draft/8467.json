@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8467",
+  "company_name": "波力-KY",
+  "title": "8467 - 波力-KY",
+  "source_md": "Pilot_Reports/Leisure/8467_波力-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure",
+    "market_cap": "4,886 百萬台幣",
+    "enterprise_value": "4,555 百萬台幣"
+  },
+  "business": {
+    "summary": "波力環球企業 (8467，Bonny Worldwide，KY) 專注於[[碳纖維]]複合材料運動用品之研發與製造，擁有超過 40 年經驗。主力業務為[[OEM]]/[[ODM]]代工全球冰上曲棍球領導品牌[[Bauer Hockey]]之冰球桿及頭盔，此合作關係自 2003 年開始，為公司最主要營收來源。[[Bauer Hockey]]在高階冰球桿市場市佔率已超過 50%。此外，波力亦經營自有品牌「BONNY」，銷售羽球拍、網球拍、壁球拍、運動鞋及配件。為應對美國高關稅，已在柬埔寨設廠，預計 2026 年初試產。",
+    "entities": [
+      "碳纖維",
+      "OEM",
+      "ODM",
+      "Bauer Hockey"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (碳纖維原料)",
+        "text": "**上游 (碳纖維原料):**",
+        "entities": []
+      },
+      {
+        "category": "碳纖維紗",
+        "text": "[[Toray]] (東麗) — 高強度碳纖維原料",
+        "entities": [
+          "Toray"
+        ]
+      },
+      {
+        "category": "預浸布",
+        "text": "Prepreg 預浸材料供應商",
+        "entities": []
+      },
+      {
+        "category": "樹脂",
+        "text": "環氧樹脂等複合材料基質",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[碳纖維]]複合材料製造)",
+        "text": "**中游 ([[碳纖維]]複合材料製造):**",
+        "entities": [
+          "碳纖維"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**波力** — 冰球桿、羽球拍、網球拍等碳纖維運動用品研發製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "冰球",
+        "text": "[[Bauer Hockey]] — 冰球桿與頭盔[[OEM]]代工 (最大客戶，市佔逾 50%)",
+        "entities": [
+          "Bauer Hockey",
+          "OEM"
+        ]
+      },
+      {
+        "category": "自有品牌",
+        "text": "BONNY — 羽球拍、網球拍等運動用品",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "冰球裝備",
+        "text": "[[Bauer Hockey]] — 最大客戶，冰球桿與頭盔代工 (高階市佔逾 50%)",
+        "entities": [
+          "Bauer Hockey"
+        ]
+      },
+      {
+        "role": "自有品牌",
+        "text": "BONNY — 全球羽球拍與網球拍銷售",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "碳纖維紗",
+        "text": "[[Toray]] (東麗) — 日本碳纖維大廠",
+        "entities": [
+          "Toray"
+        ]
+      },
+      {
+        "role": "預浸布",
+        "text": "Prepreg 預浸材料供應商",
+        "entities": []
+      },
+      {
+        "role": "樹脂",
+        "text": "環氧樹脂供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Leisure):** [[大魯閣]]、[[力山]]、[[日馳]]、[[祺驊]]、[[岱宇]]",
+        "entities": [
+          "大魯閣",
+          "力山",
+          "日馳",
+          "祺驊",
+          "岱宇"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Bauer Hockey"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "Bauer Hockey",
+      "type": "international_company_or_term",
+      "wikilink": "Bauer Hockey"
+    },
+    {
+      "name": "Toray",
+      "type": "international_company_or_term",
+      "wikilink": "Toray"
+    },
+    {
+      "name": "大魯閣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大魯閣"
+    },
+    {
+      "name": "力山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力山"
+    },
+    {
+      "name": "日馳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日馳"
+    },
+    {
+      "name": "祺驊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "祺驊"
+    },
+    {
+      "name": "岱宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "岱宇"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "波力環球企業 (8467，Bonny Worldwide，KY) 專注於[[碳纖維]]複合材料運動用品之研發與製造，擁有超過 40 年經驗。主力業務為[[OEM]]/[[ODM]]代工全球冰上曲棍球領導品牌[[Bauer Hockey]]之冰球桿及頭盔，此合作關係自 2003 年開始，為公司最主要營收來源。[[Bauer Hockey]]在高階冰球桿市場市佔率已超過 50%。此外，波力亦經營自有品牌「BONNY」，銷售羽球拍、網球拍、壁球拍、運動鞋及配件。為應對美國高關稅，已在柬埔寨設廠，預計 2026 年初試產。",
+    "supply_chain_md": "**上游 (碳纖維原料):**\n- **碳纖維紗:** [[Toray]] (東麗) — 高強度碳纖維原料\n- **預浸布:** Prepreg 預浸材料供應商\n- **樹脂:** 環氧樹脂等複合材料基質\n\n**中游 ([[碳纖維]]複合材料製造):**\n- **波力** — 冰球桿、羽球拍、網球拍等碳纖維運動用品研發製造\n\n**下游 (品牌客戶):**\n- **冰球:** [[Bauer Hockey]] — 冰球桿與頭盔[[OEM]]代工 (最大客戶，市佔逾 50%)\n- **自有品牌:** BONNY — 羽球拍、網球拍等運動用品",
+    "customers_suppliers_md": "### 主要客戶\n- **冰球裝備:** [[Bauer Hockey]] — 最大客戶，冰球桿與頭盔代工 (高階市佔逾 50%)\n- **自有品牌:** BONNY — 全球羽球拍與網球拍銷售\n\n### 主要供應商\n- **碳纖維紗:** [[Toray]] (東麗) — 日本碳纖維大廠\n- **預浸布:** Prepreg 預浸材料供應商\n- **樹脂:** 環氧樹脂供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

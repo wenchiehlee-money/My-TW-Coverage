@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8039",
+  "company_name": "台虹",
+  "title": "8039 - 台虹",
+  "source_md": "Pilot_Reports/Electronic Components/8039_台虹.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "46,274 百萬台幣",
+    "enterprise_value": "43,930 百萬台幣"
+  },
+  "business": {
+    "summary": "台虹科技股份有限公司 (8039) 是全球前三大、大中華區第一大的軟性印刷電路板(FPC)關鍵材料「軟性[[銅箔]]基板(FCCL)」領導供應商。公司擁有精密塗佈與高分子基礎配方兩大硬核技術，主要生產無膠型/有膠型FCCL、保護膠片(Coverlay)及複合板。近年台虹積極跨出傳統軟板，重兵部署半導體先進封裝材料及AI伺服器高頻高速傳輸材料(如取代石英布的PTFE填料型CCL)，是推動台灣電子產品輕薄短小及AI高速運算的幕後材料特種兵。",
+    "entities": [
+      "銅箔"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 高純度特種壓延/電解[[銅箔]]、高分子薄膜(聚醯亞胺PI、PET等)、特用化學樹脂",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **台虹科技** (軟性[[銅箔]]基板FCCL、覆蓋膜、半導體及先進封裝特用材料之研發製造)",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 全球頂級軟性印刷電路板廠(FPC)、硬板廠(PCB)及半導體先進封裝/晶圓廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[臻鼎-KY]]、[[台郡]]、[[欣興]]、[[健鼎]]等PCB大廠，間接打入蘋果([[Apple]])、[[Nvidia]]、[[Tesla]]等終端巨頭",
+        "entities": [
+          "臻鼎-KY",
+          "台郡",
+          "欣興",
+          "健鼎",
+          "Apple",
+          "Nvidia",
+          "Tesla"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "美商杜邦([[DuPont]])、日商達邁(Taimide)等全球頂級PI薄膜原廠，及日本/台灣高階[[銅箔]]廠",
+        "entities": [
+          "DuPont",
+          "銅箔"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "臻鼎-KY",
+          "台郡",
+          "欣興",
+          "健鼎",
+          "Apple",
+          "Nvidia",
+          "Tesla"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "台虹科技股份有限公司 (8039) 是全球前三大、大中華區第一大的軟性印刷電路板(FPC)關鍵材料「軟性[[銅箔]]基板(FCCL)」領導供應商。公司擁有精密塗佈與高分子基礎配方兩大硬核技術，主要生產無膠型/有膠型FCCL、保護膠片(Coverlay)及複合板。近年台虹積極跨出傳統軟板，重兵部署半導體先進封裝材料及AI伺服器高頻高速傳輸材料(如取代石英布的PTFE填料型CCL)，是推動台灣電子產品輕薄短小及AI高速運算的幕後材料特種兵。",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "臻鼎-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臻鼎-KY"
+    },
+    {
+      "name": "台郡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台郡"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "健鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "健鼎"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Nvidia",
+      "type": "international_company_or_term",
+      "wikilink": "Nvidia"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "DuPont",
+      "type": "international_company_or_term",
+      "wikilink": "DuPont"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台虹科技股份有限公司 (8039) 是全球前三大、大中華區第一大的軟性印刷電路板(FPC)關鍵材料「軟性[[銅箔]]基板(FCCL)」領導供應商。公司擁有精密塗佈與高分子基礎配方兩大硬核技術，主要生產無膠型/有膠型FCCL、保護膠片(Coverlay)及複合板。近年台虹積極跨出傳統軟板，重兵部署半導體先進封裝材料及AI伺服器高頻高速傳輸材料(如取代石英布的PTFE填料型CCL)，是推動台灣電子產品輕薄短小及AI高速運算的幕後材料特種兵。",
+    "supply_chain_md": "*   **上游**: 高純度特種壓延/電解[[銅箔]]、高分子薄膜(聚醯亞胺PI、PET等)、特用化學樹脂\n*   **中游**: **台虹科技** (軟性[[銅箔]]基板FCCL、覆蓋膜、半導體及先進封裝特用材料之研發製造)\n*   **下游**: 全球頂級軟性印刷電路板廠(FPC)、硬板廠(PCB)及半導體先進封裝/晶圓廠",
+    "customers_suppliers_md": "### 主要客戶\n*   [[臻鼎-KY]]、[[台郡]]、[[欣興]]、[[健鼎]]等PCB大廠，間接打入蘋果([[Apple]])、[[Nvidia]]、[[Tesla]]等終端巨頭\n\n### 主要供應商\n*   美商杜邦([[DuPont]])、日商達邁(Taimide)等全球頂級PI薄膜原廠，及日本/台灣高階[[銅箔]]廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

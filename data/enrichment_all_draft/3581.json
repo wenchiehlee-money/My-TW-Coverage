@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3581",
+  "company_name": "博磊",
+  "title": "3581 - 博磊",
+  "source_md": "Pilot_Reports/Semiconductors/3581_博磊.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "4,754 百萬台幣",
+    "enterprise_value": "4,512 百萬台幣"
+  },
+  "business": {
+    "summary": "博磊科技 (Zen Voce) 為 **半導體封裝設備** 與 **測試治具 (Test Socket)** 供應商。\n主要產品：\n1.  **設備**: 植球機 (Ball Mounter)、晶圓切割機 (Dicing Saw)、清洗機。\n2.  **治具**: 測試座 (Socket)、Change Kit、[[探針卡]] [[PCB]]。\n客戶涵蓋封測廠 (OSAT) 與[[記憶體]]廠。\n近年受惠於 **高頻寬記憶體 ([[HBM]])** 與 **AI 晶片** 封裝測試需求，帶動切割與植球設備成長。",
+    "entities": [
+      "探針卡",
+      "PCB",
+      "記憶體",
+      "HBM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 精密機械加工, 光學元件, 控制器.",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **博磊 (3581)** - 設備組裝, 治具設計製造.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**封測廠**: [[日月光投控]], [[矽品]], [[力成]].",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "力成"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**記憶體廠**: [[華邦電]], [[旺宏]].",
+        "entities": [
+          "華邦電",
+          "旺宏"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**IDM**: SanDisk 等.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[日月光投控]] (ASE).",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[力成]] (Powertech).",
+        "entities": [
+          "力成"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[京元電]] (KYEC).",
+        "entities": [
+          "京元電"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "日月光投控",
+          "力成",
+          "京元電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "探針卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "探針卡"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    },
+    {
+      "name": "華邦電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華邦電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "京元電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京元電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "博磊科技 (Zen Voce) 為 **半導體封裝設備** 與 **測試治具 (Test Socket)** 供應商。\n主要產品：\n1.  **設備**: 植球機 (Ball Mounter)、晶圓切割機 (Dicing Saw)、清洗機。\n2.  **治具**: 測試座 (Socket)、Change Kit、[[探針卡]] [[PCB]]。\n客戶涵蓋封測廠 (OSAT) 與[[記憶體]]廠。\n近年受惠於 **高頻寬記憶體 ([[HBM]])** 與 **AI 晶片** 封裝測試需求，帶動切割與植球設備成長。",
+    "supply_chain_md": "*   **上游**: 精密機械加工, 光學元件, 控制器.\n*   **中游**: **博磊 (3581)** - 設備組裝, 治具設計製造.\n*   **下游**:\n    *   **封測廠**: [[日月光投控]], [[矽品]], [[力成]].\n    *   **記憶體廠**: [[華邦電]], [[旺宏]].\n    *   **IDM**: SanDisk 等.",
+    "customers_suppliers_md": "### 主要客戶\n*   [[日月光投控]] (ASE).\n*   [[力成]] (Powertech).\n*   [[京元電]] (KYEC)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

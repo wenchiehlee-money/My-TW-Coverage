@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2371",
+  "company_name": "大同",
+  "title": "2371 - 大同",
+  "source_md": "Pilot_Reports/Conglomerates/2371_大同.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Conglomerates",
+    "market_cap": "49,310 百萬台幣",
+    "enterprise_value": "66,089 百萬台幣"
+  },
+  "business": {
+    "summary": "大同股份有限公司創立於1918年，為台灣歷史最悠久的工業集團之一，總部位於台北市。公司以電力設備為核心，橫跨重電、馬達、電纜、太陽能、系統整合、智慧電錶、先端電子及家電等八大事業體。重電事業群為主要獲利引擎，產品涵蓋電力[[變壓器]]、配電[[變壓器]]、[[電抗器]]、[[配電盤]]及[[氣體絕緣開關]]（GIS），是台灣唯一同時具備變壓器與開關設備之一體化電力設備製造商。公司已取得美國 [[UL]] 認證，成功打入北美市場，並為台灣第二家出口500kV超高壓變壓器至美國之廠商。旗下關係企業包括[[大同世界科技]]（資通訊）、[[福華電子]]（電子零組件）等。近年因全球電力基礎建設需求激增，重電訂單能見度已延伸至2027年。",
+    "entities": [
+      "變壓器",
+      "電抗器",
+      "配電盤",
+      "氣體絕緣開關",
+      "UL",
+      "大同世界科技",
+      "福華電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與零組件)",
+        "text": "**上游 (原料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "矽鋼片",
+        "text": "鋼鐵廠如[[中鋼]]、[[日本製鐵]]供應變壓器鐵芯材料",
+        "entities": [
+          "中鋼",
+          "日本製鐵"
+        ]
+      },
+      {
+        "category": "銅材",
+        "text": "電解銅線圈材料供應商",
+        "entities": []
+      },
+      {
+        "category": "絕緣材料",
+        "text": "變壓器油、絕緣紙等特殊材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備製造)",
+        "text": "**中游 (設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**大同公司** — 製造電力[[變壓器]]、[[配電盤]]、[[馬達]]、[[發電機]]、[[氣體絕緣開關]]（GIS）、電纜及智慧電錶",
+        "entities": [
+          "變壓器",
+          "配電盤",
+          "馬達",
+          "發電機",
+          "氣體絕緣開關"
+        ]
+      },
+      {
+        "category": "系統整合",
+        "text": "智慧電網、太陽能電站 EPC",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電力公司",
+        "text": "[[台電]]（國內最大客戶）、中東及東南亞電力公司",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "基礎建設",
+        "text": "資料中心、半導體廠房電力系統",
+        "entities": []
+      },
+      {
+        "category": "北美市場",
+        "text": "美國電力公司（已取得 [[UL]] 認證）",
+        "entities": [
+          "UL"
+        ]
+      },
+      {
+        "category": "家電通路",
+        "text": "國內家電零售通路",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力事業",
+        "text": "[[台電]]（變電站設備標案，如大安超高壓變電所19.3億元標案）、北美電力公司",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "工業用戶",
+        "text": "半導體廠、[[台積電]]廠房配電系統、資料中心",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "國際市場",
+        "text": "中東、日本、東南亞電力公司",
+        "entities": []
+      },
+      {
+        "role": "家電消費者",
+        "text": "國內家電通路",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼鐵原料",
+        "text": "[[中鋼]]（矽鋼片）、[[日本製鐵]]",
+        "entities": [
+          "中鋼",
+          "日本製鐵"
+        ]
+      },
+      {
+        "role": "銅材",
+        "text": "國內外電解銅供應商",
+        "entities": []
+      },
+      {
+        "role": "電子零組件",
+        "text": "[[福華電子]]（關係企業）",
+        "entities": [
+          "福華電子"
+        ]
+      },
+      {
+        "role": "絕緣材料",
+        "text": "特殊絕緣油與絕緣紙供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Conglomerates):** [[中福]]、[[日勝生]]、[[東森]]、[[盛達]]、[[豐祥-KY]]",
+        "entities": [
+          "中福",
+          "日勝生",
+          "東森",
+          "盛達",
+          "豐祥-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "變壓器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "變壓器"
+    },
+    {
+      "name": "電抗器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電抗器"
+    },
+    {
+      "name": "配電盤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "配電盤"
+    },
+    {
+      "name": "氣體絕緣開關",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氣體絕緣開關"
+    },
+    {
+      "name": "UL",
+      "type": "international_company_or_term",
+      "wikilink": "UL"
+    },
+    {
+      "name": "大同世界科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同世界科技"
+    },
+    {
+      "name": "福華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福華電子"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "日本製鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日本製鐵"
+    },
+    {
+      "name": "馬達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "馬達"
+    },
+    {
+      "name": "發電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "發電機"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "中福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中福"
+    },
+    {
+      "name": "日勝生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日勝生"
+    },
+    {
+      "name": "東森",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東森"
+    },
+    {
+      "name": "盛達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "盛達"
+    },
+    {
+      "name": "豐祥-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐祥-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大同股份有限公司創立於1918年，為台灣歷史最悠久的工業集團之一，總部位於台北市。公司以電力設備為核心，橫跨重電、馬達、電纜、太陽能、系統整合、智慧電錶、先端電子及家電等八大事業體。重電事業群為主要獲利引擎，產品涵蓋電力[[變壓器]]、配電[[變壓器]]、[[電抗器]]、[[配電盤]]及[[氣體絕緣開關]]（GIS），是台灣唯一同時具備變壓器與開關設備之一體化電力設備製造商。公司已取得美國 [[UL]] 認證，成功打入北美市場，並為台灣第二家出口500kV超高壓變壓器至美國之廠商。旗下關係企業包括[[大同世界科技]]（資通訊）、[[福華電子]]（電子零組件）等。近年因全球電力基礎建設需求激增，重電訂單能見度已延伸至2027年。",
+    "supply_chain_md": "**上游 (原料與零組件):**\n- **矽鋼片:** 鋼鐵廠如[[中鋼]]、[[日本製鐵]]供應變壓器鐵芯材料\n- **銅材:** 電解銅線圈材料供應商\n- **絕緣材料:** 變壓器油、絕緣紙等特殊材料\n\n**中游 (設備製造):**\n- **大同公司** — 製造電力[[變壓器]]、[[配電盤]]、[[馬達]]、[[發電機]]、[[氣體絕緣開關]]（GIS）、電纜及智慧電錶\n- **系統整合:** 智慧電網、太陽能電站 EPC\n\n**下游 (終端客戶):**\n- **電力公司:** [[台電]]（國內最大客戶）、中東及東南亞電力公司\n- **基礎建設:** 資料中心、半導體廠房電力系統\n- **北美市場:** 美國電力公司（已取得 [[UL]] 認證）\n- **家電通路:** 國內家電零售通路",
+    "customers_suppliers_md": "### 主要客戶\n- **電力事業:** [[台電]]（變電站設備標案，如大安超高壓變電所19.3億元標案）、北美電力公司\n- **工業用戶:** 半導體廠、[[台積電]]廠房配電系統、資料中心\n- **國際市場:** 中東、日本、東南亞電力公司\n- **家電消費者:** 國內家電通路\n\n### 主要供應商\n- **鋼鐵原料:** [[中鋼]]（矽鋼片）、[[日本製鐵]]\n- **銅材:** 國內外電解銅供應商\n- **電子零組件:** [[福華電子]]（關係企業）\n- **絕緣材料:** 特殊絕緣油與絕緣紙供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

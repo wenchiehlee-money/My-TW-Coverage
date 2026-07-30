@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6951",
+  "company_name": "青新-創",
+  "title": "6951 - [[青新-創]]",
+  "source_md": "Pilot_Reports/Waste Management/6951_青新-創.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Waste Management",
+    "market_cap": "3,261 百萬台幣",
+    "enterprise_value": "3,194 百萬台幣"
+  },
+  "business": {
+    "summary": "青新環境工程股份有限公司 (6951) 為台灣最大醫療廢棄物清除服務商，[[日友]] (8341) 集團旗下子公司。全台累計近11,000家客戶，醫療廢棄物收集市佔率超過30%，工業廢棄物收集市佔率約10%。主要業務包括：\n\n1. **醫療廢棄物清運：** 布建「星型運輸網絡」與「廢棄物集中中繼轉運站」模式，提供全台最大規模之醫療感染廢棄物清運服務。\n2. **工業廢棄物清運：** 包含石綿瓦清運等特殊廢棄物處理，石綿瓦清運量持續增加帶動營收成長。\n3. **環保塑木建材：** 開發「青新木」環保塑木建材生產線，將醫療廢塑膠回收製成可全循環之綠建材。\n4. **南部轉運站：** 2025年Q1取得台南土地建物（向母公司[[日友]] (8341) 購入），規劃建立南部醫療廢棄物集中轉運站。服務對象涵蓋[[台大醫院]]、[[長庚醫院]]、[[榮總]]等全台各級醫療機構。",
+    "entities": [
+      "日友",
+      "台大醫院",
+      "長庚醫院",
+      "榮總"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (耗材與設備)",
+        "text": "**上游 (耗材與設備):**",
+        "entities": []
+      },
+      {
+        "category": "醫廢容器",
+        "text": "抗穿刺/防滲漏醫療管制感染塑膠袋容器供應商",
+        "entities": []
+      },
+      {
+        "category": "運輸車輛",
+        "text": "具GPS追蹤冷藏之有害事業廢棄物清除運輸車",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (清運服務)",
+        "text": "**中游 (清運服務):**",
+        "entities": []
+      },
+      {
+        "category": "青新 (6951)",
+        "text": "全國最大醫療及有害事業廢棄物清運轉運、醫療廢塑膠資源化回收、「青新木」塑木綠建材製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "醫療院所",
+        "text": "全台各層級醫院與診所、安養長照機構",
+        "entities": []
+      },
+      {
+        "category": "生技實驗室",
+        "text": "生技醫藥研發實驗室",
+        "entities": []
+      },
+      {
+        "category": "母公司",
+        "text": "[[日友]] (8341)（焚化處理端）",
+        "entities": [
+          "日友"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "醫療院所",
+        "text": "[[台大醫院]]、[[長庚醫院]]等全台各層級醫院與診所（近11,000家客戶）",
+        "entities": [
+          "台大醫院",
+          "長庚醫院"
+        ]
+      },
+      {
+        "role": "長照機構",
+        "text": "安養長照機構",
+        "entities": []
+      },
+      {
+        "role": "生技實驗室",
+        "text": "生技醫藥研發實驗室",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[日友]] (8341)（廢棄物最終焚化處理）",
+        "entities": [
+          "日友"
+        ]
+      },
+      {
+        "role": "醫廢容器",
+        "text": "醫療管制塑膠容器供應商",
+        "entities": []
+      },
+      {
+        "role": "運輸車輛",
+        "text": "特種冷藏清運車輛供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Waste Management):** [[鋼聯]]、[[萬年清]]、[[平和環保-創]]、[[崑鼎]]、[[寶綠特-KY]]",
+        "entities": [
+          "鋼聯",
+          "萬年清",
+          "平和環保-創",
+          "崑鼎",
+          "寶綠特-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台大醫院",
+          "長庚醫院"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "日友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日友"
+    },
+    {
+      "name": "台大醫院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台大醫院"
+    },
+    {
+      "name": "長庚醫院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長庚醫院"
+    },
+    {
+      "name": "榮總",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮總"
+    },
+    {
+      "name": "鋼聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼聯"
+    },
+    {
+      "name": "萬年清",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬年清"
+    },
+    {
+      "name": "平和環保-創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "平和環保-創"
+    },
+    {
+      "name": "崑鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "崑鼎"
+    },
+    {
+      "name": "寶綠特-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶綠特-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "青新環境工程股份有限公司 (6951) 為台灣最大醫療廢棄物清除服務商，[[日友]] (8341) 集團旗下子公司。全台累計近11,000家客戶，醫療廢棄物收集市佔率超過30%，工業廢棄物收集市佔率約10%。主要業務包括：\n\n1. **醫療廢棄物清運：** 布建「星型運輸網絡」與「廢棄物集中中繼轉運站」模式，提供全台最大規模之醫療感染廢棄物清運服務。\n2. **工業廢棄物清運：** 包含石綿瓦清運等特殊廢棄物處理，石綿瓦清運量持續增加帶動營收成長。\n3. **環保塑木建材：** 開發「青新木」環保塑木建材生產線，將醫療廢塑膠回收製成可全循環之綠建材。\n4. **南部轉運站：** 2025年Q1取得台南土地建物（向母公司[[日友]] (8341) 購入），規劃建立南部醫療廢棄物集中轉運站。服務對象涵蓋[[台大醫院]]、[[長庚醫院]]、[[榮總]]等全台各級醫療機構。",
+    "supply_chain_md": "**上游 (耗材與設備):**\n- **醫廢容器：** 抗穿刺/防滲漏醫療管制感染塑膠袋容器供應商\n- **運輸車輛：** 具GPS追蹤冷藏之有害事業廢棄物清除運輸車\n\n**中游 (清運服務):**\n- **青新 (6951)：** 全國最大醫療及有害事業廢棄物清運轉運、醫療廢塑膠資源化回收、「青新木」塑木綠建材製造\n\n**下游 (終端客戶):**\n- **醫療院所：** 全台各層級醫院與診所、安養長照機構\n- **生技實驗室：** 生技醫藥研發實驗室\n- **母公司：** [[日友]] (8341)（焚化處理端）",
+    "customers_suppliers_md": "### 主要客戶\n- **醫療院所：** [[台大醫院]]、[[長庚醫院]]等全台各層級醫院與診所（近11,000家客戶）\n- **長照機構：** 安養長照機構\n- **生技實驗室：** 生技醫藥研發實驗室\n\n### 主要供應商\n- **母公司：** [[日友]] (8341)（廢棄物最終焚化處理）\n- **醫廢容器：** 醫療管制塑膠容器供應商\n- **運輸車輛：** 特種冷藏清運車輛供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

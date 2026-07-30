@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8341",
+  "company_name": "日友",
+  "title": "8341 - [[日友]]",
+  "source_md": "Pilot_Reports/Waste Management/8341_日友.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Waste Management",
+    "market_cap": "9,906 百萬台幣",
+    "enterprise_value": "11,955 百萬台幣"
+  },
+  "business": {
+    "summary": "日友環保科技股份有限公司 (8341) 成立於1994年，為台灣第一家專業生物醫療廢棄物焚化處理廠。主要業務包括：\n\n1. **醫療廢棄物焚化：** 處理具生物感染風險之醫療廢棄物，包含感染性醫療廢棄物與一般事業廢棄物。\n2. **固化與掩埋：** 有害事業廢棄物之固化處理及掩埋場營運。\n3. **大陸事業群：** 設有北京潤泰、山東日照、山西運城、江蘇宿遷等多座廢棄物處理廠。\n4. **子公司[[青新]] (6951)：** 全台最大醫療廢棄物清運商，石綿瓦清運量增加帶動營收。\n5. **掩埋場擴建：** 計畫擴建彰濱第五區掩埋場，預計2026年完工。\n\n2025年前9月營收29.49億元年增9%，Q3營收10.69億元創單季新高。毛利率42.53%。服務對象涵蓋[[台大醫院]]、[[長庚醫院]]、[[榮總]]等全台各級醫療院所，並透過子公司[[青新]] (6951) 建立全國最大醫療廢棄物清運網絡。",
+    "entities": [
+      "青新",
+      "台大醫院",
+      "長庚醫院",
+      "榮總"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (醫廢來源)",
+        "text": "**上游 (醫廢來源):**",
+        "entities": []
+      },
+      {
+        "category": "醫療院所",
+        "text": "全台醫院、診所產生之感染性醫療廢棄物",
+        "entities": []
+      },
+      {
+        "category": "子公司[[青新]] (6951)",
+        "text": "醫療廢棄物清運端",
+        "entities": [
+          "青新"
+        ]
+      },
+      {
+        "category": "工業廢棄物",
+        "text": "各類事業廢棄物來源",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (處理與掩埋)",
+        "text": "**中游 (處理與掩埋):**",
+        "entities": []
+      },
+      {
+        "category": "日友 (8341)",
+        "text": "醫療廢棄物焚化處理、有害廢棄物固化處理、掩埋場營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (最終處置)",
+        "text": "**下游 (最終處置):**",
+        "entities": []
+      },
+      {
+        "category": "掩埋場",
+        "text": "固化後廢棄物之最終掩埋處置",
+        "entities": []
+      },
+      {
+        "category": "售電",
+        "text": "[[台電]]（焚化發電）",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "醫療院所",
+        "text": "全台各級醫院與診所之醫療廢棄物焚化",
+        "entities": []
+      },
+      {
+        "role": "子公司",
+        "text": "[[青新]] (6951)（清運端送至焚化處理）",
+        "entities": [
+          "青新"
+        ]
+      },
+      {
+        "role": "工業客戶",
+        "text": "各類事業廢棄物產出業者",
+        "entities": []
+      },
+      {
+        "role": "售電",
+        "text": "[[台電]]",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "焚化爐耗材",
+        "text": "高溫爐管、耐火材料供應商",
+        "entities": []
+      },
+      {
+        "role": "化學藥劑",
+        "text": "廢氣處理藥劑供應商",
+        "entities": []
+      },
+      {
+        "role": "營建",
+        "text": "掩埋場擴建之營造廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Waste Management):** [[鋼聯]]、[[萬年清]]、[[平和環保-創]]、[[崑鼎]]、[[寶綠特-KY]]",
+        "entities": [
+          "鋼聯",
+          "萬年清",
+          "平和環保-創",
+          "崑鼎",
+          "寶綠特-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "青新",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "1. **醫療廢棄物焚化：** 處理具生物感染風險之醫療廢棄物，包含感染性醫療廢棄物與一般事業廢棄物。",
+        "entities": []
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "青新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "青新"
+    },
+    {
+      "name": "台大醫院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台大醫院"
+    },
+    {
+      "name": "長庚醫院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長庚醫院"
+    },
+    {
+      "name": "榮總",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮總"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "鋼聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼聯"
+    },
+    {
+      "name": "萬年清",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬年清"
+    },
+    {
+      "name": "平和環保-創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "平和環保-創"
+    },
+    {
+      "name": "崑鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "崑鼎"
+    },
+    {
+      "name": "寶綠特-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶綠特-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "日友環保科技股份有限公司 (8341) 成立於1994年，為台灣第一家專業生物醫療廢棄物焚化處理廠。主要業務包括：\n\n1. **醫療廢棄物焚化：** 處理具生物感染風險之醫療廢棄物，包含感染性醫療廢棄物與一般事業廢棄物。\n2. **固化與掩埋：** 有害事業廢棄物之固化處理及掩埋場營運。\n3. **大陸事業群：** 設有北京潤泰、山東日照、山西運城、江蘇宿遷等多座廢棄物處理廠。\n4. **子公司[[青新]] (6951)：** 全台最大醫療廢棄物清運商，石綿瓦清運量增加帶動營收。\n5. **掩埋場擴建：** 計畫擴建彰濱第五區掩埋場，預計2026年完工。\n\n2025年前9月營收29.49億元年增9%，Q3營收10.69億元創單季新高。毛利率42.53%。服務對象涵蓋[[台大醫院]]、[[長庚醫院]]、[[榮總]]等全台各級醫療院所，並透過子公司[[青新]] (6951) 建立全國最大醫療廢棄物清運網絡。",
+    "supply_chain_md": "**上游 (醫廢來源):**\n- **醫療院所：** 全台醫院、診所產生之感染性醫療廢棄物\n- **子公司[[青新]] (6951)：** 醫療廢棄物清運端\n- **工業廢棄物：** 各類事業廢棄物來源\n\n**中游 (處理與掩埋):**\n- **日友 (8341)：** 醫療廢棄物焚化處理、有害廢棄物固化處理、掩埋場營運\n\n**下游 (最終處置):**\n- **掩埋場：** 固化後廢棄物之最終掩埋處置\n- **售電：** [[台電]]（焚化發電）",
+    "customers_suppliers_md": "### 主要客戶\n- **醫療院所：** 全台各級醫院與診所之醫療廢棄物焚化\n- **子公司：** [[青新]] (6951)（清運端送至焚化處理）\n- **工業客戶：** 各類事業廢棄物產出業者\n- **售電：** [[台電]]\n\n### 主要供應商\n- **焚化爐耗材：** 高溫爐管、耐火材料供應商\n- **化學藥劑：** 廢氣處理藥劑供應商\n- **營建：** 掩埋場擴建之營造廠商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

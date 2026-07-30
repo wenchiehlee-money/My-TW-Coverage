@@ -121,7 +121,16 @@ def render_relationship_section(data: dict[str, Any]) -> str:
     for key, title in groups:
         raw_items = rel.get(key, []) or []
         if key == "suppliers":
-            raw_items = [item for item in raw_items if not is_competitive_item(item)]
+            competitor_entities = {
+                entity
+                for item in (rel.get("competitors", []) or [])
+                for entity in (item.get("entities") or [])
+            }
+            raw_items = [
+                item
+                for item in raw_items
+                if (not is_competitive_item(item)) or bool(set(item.get("entities") or []) - competitor_entities)
+            ]
         items = unique_items(raw_items)
         if not items:
             continue

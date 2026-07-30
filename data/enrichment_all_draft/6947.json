@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6947",
+  "company_name": "台鎔科技",
+  "title": "6947 - [[台鎔科技]]",
+  "source_md": "Pilot_Reports/Waste Management/6947_台鎔科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Waste Management",
+    "market_cap": "6,537 百萬台幣",
+    "enterprise_value": "10,820 百萬台幣"
+  },
+  "business": {
+    "summary": "台鎔科技材料股份有限公司 (6947) 為台灣處理高難度有毒事業廢棄物之環保企業，實踐循環經濟與轉廢為能。主要業務包括：\n\n1. **有害廢棄物焚化：** 擁有高規格專業焚化爐，處理科技廠與石化業之劇毒廢化學溶劑與污泥。\n2. **再生溶劑生產：** 蒸餾物理處理設備將廢溶劑（如[[光阻]]稀釋劑、[[IPA]]等）提純為再生溶劑，售回工業市場。\n3. **垃圾焚化發電 (BOO)：** 轉投資城市垃圾焚化爐，將燃燒熱能轉作發電售予[[台電]]。\n4. **廢棄物清除：** 提供完整之有害事業廢棄物清除運輸服務。\n\n台鎔形成廢棄物處理、材料回收與綠電之三角獲利模式。",
+    "entities": [
+      "光阻",
+      "IPA",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (廢棄物來源)",
+        "text": "**上游 (廢棄物來源):**",
+        "entities": []
+      },
+      {
+        "category": "科技產業",
+        "text": "[[半導體]]廠、面板光電廠之廢化學溶劑與污泥",
+        "entities": [
+          "半導體"
+        ]
+      },
+      {
+        "category": "石化產業",
+        "text": "石化工廠之有害廢液",
+        "entities": []
+      },
+      {
+        "category": "清運業者",
+        "text": "甲級/乙級廢棄物清除車隊",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (處理與再生)",
+        "text": "**中游 (處理與再生):**",
+        "entities": []
+      },
+      {
+        "category": "台鎔科技 (6947)",
+        "text": "有毒事業廢棄物高溫焚化、廢液物理蒸餾處理、[[IPA]]等再生溶劑生產、焚化發電",
+        "entities": [
+          "IPA"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (產品與服務)",
+        "text": "**下游 (產品與服務):**",
+        "entities": []
+      },
+      {
+        "category": "再生溶劑市場",
+        "text": "塗料、樹脂與電子零組件製造商",
+        "entities": []
+      },
+      {
+        "category": "[[台電]]",
+        "text": "廢轉能售電",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技產業",
+        "text": "[[台積電]]、[[友達]]等大型科技與面板廠之廢棄物處理",
+        "entities": [
+          "台積電",
+          "友達"
+        ]
+      },
+      {
+        "role": "石化產業",
+        "text": "[[台塑]]等石化集團之有害廢液處理",
+        "entities": [
+          "台塑"
+        ]
+      },
+      {
+        "role": "再生溶劑",
+        "text": "塗料、樹脂等化學工業之低碳再生溶劑採購",
+        "entities": []
+      },
+      {
+        "role": "售電",
+        "text": "[[台電]]（焚化發電）",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "清運業者",
+        "text": "甲級/乙級廢棄物清除車隊",
+        "entities": []
+      },
+      {
+        "role": "焚化爐耗材",
+        "text": "耐火磚、抗酸腐蝕濾袋配件供應商",
+        "entities": []
+      },
+      {
+        "role": "化學藥劑",
+        "text": "中和藥劑供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Waste Management):** [[鋼聯]]、[[萬年清]]、[[平和環保-創]]、[[崑鼎]]、[[寶綠特-KY]]",
+        "entities": [
+          "鋼聯",
+          "萬年清",
+          "平和環保-創",
+          "崑鼎",
+          "寶綠特-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "友達",
+          "台塑",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "光阻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光阻"
+    },
+    {
+      "name": "IPA",
+      "type": "international_company_or_term",
+      "wikilink": "IPA"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "鋼聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼聯"
+    },
+    {
+      "name": "萬年清",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬年清"
+    },
+    {
+      "name": "平和環保-創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "平和環保-創"
+    },
+    {
+      "name": "崑鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "崑鼎"
+    },
+    {
+      "name": "寶綠特-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶綠特-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台鎔科技材料股份有限公司 (6947) 為台灣處理高難度有毒事業廢棄物之環保企業，實踐循環經濟與轉廢為能。主要業務包括：\n\n1. **有害廢棄物焚化：** 擁有高規格專業焚化爐，處理科技廠與石化業之劇毒廢化學溶劑與污泥。\n2. **再生溶劑生產：** 蒸餾物理處理設備將廢溶劑（如[[光阻]]稀釋劑、[[IPA]]等）提純為再生溶劑，售回工業市場。\n3. **垃圾焚化發電 (BOO)：** 轉投資城市垃圾焚化爐，將燃燒熱能轉作發電售予[[台電]]。\n4. **廢棄物清除：** 提供完整之有害事業廢棄物清除運輸服務。\n\n台鎔形成廢棄物處理、材料回收與綠電之三角獲利模式。",
+    "supply_chain_md": "**上游 (廢棄物來源):**\n- **科技產業：** [[半導體]]廠、面板光電廠之廢化學溶劑與污泥\n- **石化產業：** 石化工廠之有害廢液\n- **清運業者：** 甲級/乙級廢棄物清除車隊\n\n**中游 (處理與再生):**\n- **台鎔科技 (6947)：** 有毒事業廢棄物高溫焚化、廢液物理蒸餾處理、[[IPA]]等再生溶劑生產、焚化發電\n\n**下游 (產品與服務):**\n- **再生溶劑市場：** 塗料、樹脂與電子零組件製造商\n- **[[台電]]：** 廢轉能售電",
+    "customers_suppliers_md": "### 主要客戶\n- **科技產業：** [[台積電]]、[[友達]]等大型科技與面板廠之廢棄物處理\n- **石化產業：** [[台塑]]等石化集團之有害廢液處理\n- **再生溶劑：** 塗料、樹脂等化學工業之低碳再生溶劑採購\n- **售電：** [[台電]]（焚化發電）\n\n### 主要供應商\n- **清運業者：** 甲級/乙級廢棄物清除車隊\n- **焚化爐耗材：** 耐火磚、抗酸腐蝕濾袋配件供應商\n- **化學藥劑：** 中和藥劑供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

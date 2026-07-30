@@ -35,6 +35,9 @@
 - **信用卡組織:** [[VISA]]、[[Mastercard]]、[[JCB]] — 國際清算
 - **跨平台:** [[一卡通]] (iPASS) — 電子支付互通
 
+### 競爭同業
+- **mobile payment merchant/user overlap:** [[街口支付]]、[[全支付]]、[[悠遊付]]、[[Taiwan Pay]]
+
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 ### 估值指標 (股價 $272.50 as of 2026-07-29 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)
 | P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |

@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6274",
+  "company_name": "台燿",
+  "title": "6274_台燿",
+  "source_md": "Pilot_Reports/Electronic Components/6274_台燿.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "294,474 百萬台幣",
+    "enterprise_value": "294,341 百萬台幣"
+  },
+  "business": {
+    "summary": "台燿科技股份有限公司 (6274) 是台灣頂尖的[[銅箔]]基板(CCL)製造商。台燿專攻高階無鹵素、低損耗(Low Loss)至極低損耗(Extreme Low Loss)的高頻高速電路板基材，在高速傳輸CCL市場佔有重要地位。隨著[[AI[[伺服器]]]](如[[NVIDIA]] [[AI]]加速器)、800G高階交換器及[[低軌衛星]]的蓬勃發展，對於能維持「訊號傳輸完整性」的高頻高速板材(如M7、M8等級)需求激增。台燿已成功切入多家美系雲端巨擘([[CSP]])及[[AI]]晶片大廠的供應鏈，並於泰國積極擴廠以分散地緣政治風險。",
+    "entities": [
+      "銅箔",
+      "AI[[伺服器",
+      "NVIDIA",
+      "AI",
+      "低軌衛星",
+      "CSP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 高階電子級玻璃纖維布廠、環氧樹脂/特殊樹脂(Resin)等化學原料廠及[[銅箔]](Copper Foil)廠。",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **台燿科技** (高頻高速無鹵素[[銅箔]]基板CCL、預浸膠片Prepreg之研發與生產，及多層板壓合代工)。",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 印刷電路板([[PCB]])製造商、[[雲端服務]]供應商([[CSP]])、[[伺服器]]系統代工廠及高階[[網通]]設備廠。",
+        "entities": [
+          "PCB",
+          "雲端服務",
+          "CSP",
+          "伺服器",
+          "網通"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "華通、健鼎、博智等國內外大型[[PCB]]板廠，並終端應用於[[Meta]]、AWS、[[Google]]等美系[[CSP]]之[[AI[[伺服器]]]]。",
+        "entities": [
+          "PCB",
+          "Meta",
+          "Google",
+          "CSP",
+          "AI[[伺服器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "日商Nittobo(日東紡，為其關鍵高階[[玻纖布]]主力供應商)、長春石化等樹脂廠及大型[[銅箔]]製造商。",
+        "entities": [
+          "玻纖布",
+          "銅箔"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "PCB",
+          "Meta",
+          "Google",
+          "CSP",
+          "AI[[伺服器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "台燿科技股份有限公司 (6274) 是台灣頂尖的[[銅箔]]基板(CCL)製造商。台燿專攻高階無鹵素、低損耗(Low Loss)至極低損耗(Extreme Low Loss)的高頻高速電路板基材，在高速傳輸CCL市場佔有重要地位。隨著[[AI[[伺服器]]]](如[[NVIDIA]] [[AI]]加速器)、800G高階交換器及[[低軌衛星]]的蓬勃發展，對於能維持「訊號傳輸完整性」的高頻高速板材(如M7、M8等級)需求激增。台燿已成功切入多家美系雲端巨擘([[CSP]])及[[AI]]晶片大廠的供應鏈，並於泰國積極擴廠以分散地緣政治風險。",
+        "entities": [
+          "銅箔",
+          "AI[[伺服器",
+          "NVIDIA",
+          "AI",
+          "低軌衛星",
+          "CSP"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "玻纖布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻纖布"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台燿科技股份有限公司 (6274) 是台灣頂尖的[[銅箔]]基板(CCL)製造商。台燿專攻高階無鹵素、低損耗(Low Loss)至極低損耗(Extreme Low Loss)的高頻高速電路板基材，在高速傳輸CCL市場佔有重要地位。隨著[[AI[[伺服器]]]](如[[NVIDIA]] [[AI]]加速器)、800G高階交換器及[[低軌衛星]]的蓬勃發展，對於能維持「訊號傳輸完整性」的高頻高速板材(如M7、M8等級)需求激增。台燿已成功切入多家美系雲端巨擘([[CSP]])及[[AI]]晶片大廠的供應鏈，並於泰國積極擴廠以分散地緣政治風險。",
+    "supply_chain_md": "*   **上游**: 高階電子級玻璃纖維布廠、環氧樹脂/特殊樹脂(Resin)等化學原料廠及[[銅箔]](Copper Foil)廠。\n*   **中游**: **台燿科技** (高頻高速無鹵素[[銅箔]]基板CCL、預浸膠片Prepreg之研發與生產，及多層板壓合代工)。\n*   **下游**: 印刷電路板([[PCB]])製造商、[[雲端服務]]供應商([[CSP]])、[[伺服器]]系統代工廠及高階[[網通]]設備廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   華通、健鼎、博智等國內外大型[[PCB]]板廠，並終端應用於[[Meta]]、AWS、[[Google]]等美系[[CSP]]之[[AI[[伺服器]]]]。\n\n### 主要供應商\n*   日商Nittobo(日東紡，為其關鍵高階[[玻纖布]]主力供應商)、長春石化等樹脂廠及大型[[銅箔]]製造商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

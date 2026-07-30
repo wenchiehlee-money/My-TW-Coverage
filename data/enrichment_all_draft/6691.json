@@ -1,0 +1,309 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6691",
+  "company_name": "洋基工程",
+  "title": "6691_洋基工程",
+  "source_md": "Pilot_Reports/Engineering & Construction/6691_洋基工程.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "75,856 百萬台幣",
+    "enterprise_value": "68,031 百萬台幣"
+  },
+  "business": {
+    "summary": "洋基工程股份有限公司為台灣高科技廠房[[無塵室]]與機電空調統包工程（EPC）龍頭。公司專精於對微塵、溫濕度有極嚴苛要求之半導體晶圓廠及[[PCB]]載板廠廠房建設，提供從工程設計、材料採購到施工管理之一條龍 Turnkey 服務。營收主力來自[[無塵室]]（Clean Room）建置及機電空調配置（MEP），同時涵蓋消防工程。[[台積電]]為最大單一客戶，約佔四成營收。受惠於全球半導體產能擴張（先進製程、[[CoWoS]]先進封裝）及[[PCB]]大廠擴產潮，訂單能見度高。同業包括[[漢唐]]、[[聖暉]]、[[亞翔]]、[[巨漢]]等。近年隨台廠海外設廠趨勢，亦積極佈局泰國等海外市場。",
+    "entities": [
+      "無塵室",
+      "PCB",
+      "台積電",
+      "CoWoS",
+      "漢唐",
+      "聖暉",
+      "亞翔",
+      "巨漢"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與材料)",
+        "text": "**上游 (設備與材料):**",
+        "entities": []
+      },
+      {
+        "category": "空調設備",
+        "text": "冰水主機、[[無塵室]]過濾系統（FFU）",
+        "entities": [
+          "無塵室"
+        ]
+      },
+      {
+        "category": "機電設備",
+        "text": "高低壓機電盤體箱、電線電纜，供應商如[[士林電機]]、[[中興電工]]",
+        "entities": [
+          "士林電機",
+          "中興電工"
+        ]
+      },
+      {
+        "category": "潔淨建材",
+        "text": "無塵室庫板、金屬管件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (統包工程)",
+        "text": "**中游 (統包工程):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**洋基工程** — 高科技廠房[[無塵室]]建置設計、廠務機電空調管線配置與消防系統之 EPC 統包",
+        "entities": [
+          "無塵室"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]（先進製程與[[CoWoS]]封裝廠房，約佔營收四成）、[[ASML]]（林口廠）",
+        "entities": [
+          "台積電",
+          "CoWoS",
+          "ASML"
+        ]
+      },
+      {
+        "category": "載板/PCB",
+        "text": "[[欣興]]、[[南電]]等[[ABF 載板]]大廠",
+        "entities": [
+          "欣興",
+          "南電",
+          "ABF 載板"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "商辦大樓、資料中心",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體晶圓廠",
+        "text": "[[台積電]]（最大客戶，約佔營收40%）、[[ASML]]（林口廠區機電工程）",
+        "entities": [
+          "台積電",
+          "ASML"
+        ]
+      },
+      {
+        "role": "載板/PCB廠",
+        "text": "[[欣興]]、[[南電]]等大面積[[ABF 載板]]廠",
+        "entities": [
+          "欣興",
+          "南電",
+          "ABF 載板"
+        ]
+      },
+      {
+        "role": "金融/商辦",
+        "text": "[[富邦金控]]等商辦機電工程",
+        "entities": [
+          "富邦金控"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "重電設備",
+        "text": "[[士林電機]]、[[中興電工]]（高低壓機電盤）",
+        "entities": [
+          "士林電機",
+          "中興電工"
+        ]
+      },
+      {
+        "role": "空調設備",
+        "text": "冰水主機與[[無塵室]] FFU 過濾系統供應商",
+        "entities": [
+          "無塵室"
+        ]
+      },
+      {
+        "role": "潔淨建材",
+        "text": "無塵室庫板、管件材料供應商",
+        "entities": []
+      },
+      {
+        "role": "勞務",
+        "text": "大型機電施工協力廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Engineering & Construction):** [[三洋實業]]、[[日高]]、[[世紀風電]]、[[漢唐]]、[[龍邦]]",
+        "entities": [
+          "三洋實業",
+          "日高",
+          "世紀風電",
+          "漢唐",
+          "龍邦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "ASML",
+          "欣興",
+          "南電",
+          "ABF 載板",
+          "富邦金控"
+        ]
+      }
+    ],
+    "peers": [
+      {
+        "text": "洋基工程股份有限公司為台灣高科技廠房[[無塵室]]與機電空調統包工程（EPC）龍頭。公司專精於對微塵、溫濕度有極嚴苛要求之半導體晶圓廠及[[PCB]]載板廠廠房建設，提供從工程設計、材料採購到施工管理之一條龍 Turnkey 服務。營收主力來自[[無塵室]]（Clean Room）建置及機電空調配置（MEP），同時涵蓋消防工程。[[台積電]]為最大單一客戶，約佔四成營收。受惠於全球半導體產能擴張（先進製程、[[CoWoS]]先進封裝）及[[PCB]]大廠擴產潮，訂單能見度高。同業包括[[漢唐]]、[[聖暉]]、[[亞翔]]、[[巨漢]]等。近年隨台廠海外設廠趨勢，亦積極佈局泰國等海外市場。",
+        "entities": [
+          "無塵室",
+          "PCB",
+          "台積電",
+          "CoWoS",
+          "漢唐",
+          "聖暉",
+          "亞翔",
+          "巨漢"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "無塵室",
+      "type": "taiwan_company_or_term",
+      "wikilink": "無塵室"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "漢唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢唐"
+    },
+    {
+      "name": "聖暉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聖暉"
+    },
+    {
+      "name": "亞翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞翔"
+    },
+    {
+      "name": "巨漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨漢"
+    },
+    {
+      "name": "士林電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士林電機"
+    },
+    {
+      "name": "中興電工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電工"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "南電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南電"
+    },
+    {
+      "name": "ABF 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ABF 載板"
+    },
+    {
+      "name": "富邦金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦金控"
+    },
+    {
+      "name": "三洋實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋實業"
+    },
+    {
+      "name": "日高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日高"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "龍邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "龍邦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "洋基工程股份有限公司為台灣高科技廠房[[無塵室]]與機電空調統包工程（EPC）龍頭。公司專精於對微塵、溫濕度有極嚴苛要求之半導體晶圓廠及[[PCB]]載板廠廠房建設，提供從工程設計、材料採購到施工管理之一條龍 Turnkey 服務。營收主力來自[[無塵室]]（Clean Room）建置及機電空調配置（MEP），同時涵蓋消防工程。[[台積電]]為最大單一客戶，約佔四成營收。受惠於全球半導體產能擴張（先進製程、[[CoWoS]]先進封裝）及[[PCB]]大廠擴產潮，訂單能見度高。同業包括[[漢唐]]、[[聖暉]]、[[亞翔]]、[[巨漢]]等。近年隨台廠海外設廠趨勢，亦積極佈局泰國等海外市場。",
+    "supply_chain_md": "**上游 (設備與材料):**\n- **空調設備:** 冰水主機、[[無塵室]]過濾系統（FFU）\n- **機電設備:** 高低壓機電盤體箱、電線電纜，供應商如[[士林電機]]、[[中興電工]]\n- **潔淨建材:** 無塵室庫板、金屬管件\n\n**中游 (統包工程):**\n- **洋基工程** — 高科技廠房[[無塵室]]建置設計、廠務機電空調管線配置與消防系統之 EPC 統包\n\n**下游 (終端客戶):**\n- **半導體:** [[台積電]]（先進製程與[[CoWoS]]封裝廠房，約佔營收四成）、[[ASML]]（林口廠）\n- **載板/PCB:** [[欣興]]、[[南電]]等[[ABF 載板]]大廠\n- **其他:** 商辦大樓、資料中心",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體晶圓廠:** [[台積電]]（最大客戶，約佔營收40%）、[[ASML]]（林口廠區機電工程）\n- **載板/PCB廠:** [[欣興]]、[[南電]]等大面積[[ABF 載板]]廠\n- **金融/商辦:** [[富邦金控]]等商辦機電工程\n\n### 主要供應商\n- **重電設備:** [[士林電機]]、[[中興電工]]（高低壓機電盤）\n- **空調設備:** 冰水主機與[[無塵室]] FFU 過濾系統供應商\n- **潔淨建材:** 無塵室庫板、管件材料供應商\n- **勞務:** 大型機電施工協力廠商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

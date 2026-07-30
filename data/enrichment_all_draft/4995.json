@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4995",
+  "company_name": "晶達",
+  "title": "4995 - 晶達",
+  "source_md": "Pilot_Reports/Electronic Components/4995_晶達.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,947 百萬台幣",
+    "enterprise_value": "2,130 百萬台幣"
+  },
+  "business": {
+    "summary": "晶達光電 (Litemax) 專注於 **高亮度 (High Brightness)** 與 **特殊尺寸 (Resizing)** 工業用顯示器。\n核心技術為面板切割與背光模組強化，使螢幕能在戶外強光下清晰可見 (Sunlight Readable)。\n主要垂直應用市場：\n1.  **交通運輸**: 捷運/火車到站顯示、公車站牌、駕駛儀表。\n2.  **數位看板 (Digital Signage)**: 戶外廣告機、零售展示。\n3.  **博弈機台**: 吃角子老虎機螢幕。\n4.  **航海/軍工**: 船舶導航螢幕 (需耐鹽霧、防水)。\n併購 **崴瑪科技** 後，強化了[[工業電腦]] ([[IPC]]) 板卡能力，提供完整 AIoT 顯示解決方案。",
+    "entities": [
+      "工業電腦",
+      "IPC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: LCD 面板 ([[友達]], [[群創]]), 背光模組, 工控主機板, 觸控面板.",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **晶達 (4995)** - 工業顯示模組改裝與系統整合.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**系統整合商 (SI)**: 交通建設 SI, 數位看板 SI, 博弈機台廠.",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**終端**: 捷運局, 賭場, 船舶製造商.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**博弈**: [[IGT]], [[Aristocrat]] (間接供應).",
+        "entities": [
+          "IGT",
+          "Aristocrat"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**交通**: 全球各地捷運工程/交通局專案.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**面板**: [[友達]], [[群創]], [[京東方]].",
+        "entities": [
+          "友達",
+          "群創",
+          "京東方"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "IGT",
+          "Aristocrat"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "IGT",
+      "type": "international_company_or_term",
+      "wikilink": "IGT"
+    },
+    {
+      "name": "Aristocrat",
+      "type": "international_company_or_term",
+      "wikilink": "Aristocrat"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晶達光電 (Litemax) 專注於 **高亮度 (High Brightness)** 與 **特殊尺寸 (Resizing)** 工業用顯示器。\n核心技術為面板切割與背光模組強化，使螢幕能在戶外強光下清晰可見 (Sunlight Readable)。\n主要垂直應用市場：\n1.  **交通運輸**: 捷運/火車到站顯示、公車站牌、駕駛儀表。\n2.  **數位看板 (Digital Signage)**: 戶外廣告機、零售展示。\n3.  **博弈機台**: 吃角子老虎機螢幕。\n4.  **航海/軍工**: 船舶導航螢幕 (需耐鹽霧、防水)。\n併購 **崴瑪科技** 後，強化了[[工業電腦]] ([[IPC]]) 板卡能力，提供完整 AIoT 顯示解決方案。",
+    "supply_chain_md": "*   **中游 (本體)**: **晶達 (4995)** - 工業顯示模組改裝與系統整合.\n*   **上游**: LCD 面板 ([[友達]], [[群創]]), 背光模組, 工控主機板, 觸控面板.\n*   **下游**:\n    *   **系統整合商 (SI)**: 交通建設 SI, 數位看板 SI, 博弈機台廠.\n    *   **終端**: 捷運局, 賭場, 船舶製造商.",
+    "customers_suppliers_md": "### 主要客戶\n*   **博弈**: [[IGT]], [[Aristocrat]] (間接供應).\n*   **交通**: 全球各地捷運工程/交通局專案.\n\n### 主要供應商\n*   **面板**: [[友達]], [[群創]], [[京東方]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

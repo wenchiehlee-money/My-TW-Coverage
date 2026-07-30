@@ -1,0 +1,390 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3044",
+  "company_name": "健鼎",
+  "title": "3044 - 健鼎",
+  "source_md": "Pilot_Reports/Electronic Components/3044_健鼎.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "178,443 百萬台幣",
+    "enterprise_value": "154,925 百萬台幣"
+  },
+  "business": {
+    "summary": "健鼎科技 ([[Tripod Technology]]) 為全球前十大 [[PCB]] 製造商，亦為第三大 HDI 供應商。以記憶體模組板、LCD 光電板起家，近年成功轉型至伺服器、汽車板與 HDI 領域。\n\n營收結構：伺服器與網路板 (32%)、DRAM/SSD 記憶體板 (25%)、汽車板 (18%)、手機與行動裝置 (9%)、筆電板 (6%)。生產基地主要位於台灣平鎮、中國無錫與湖北仙桃，近期擴展至越南。受惠 [[AI 伺服器]]與歐美客戶 AI ASIC 專案，營運持續成長。",
+    "entities": [
+      "Tripod Technology",
+      "PCB",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (PCB 材料)",
+        "text": "**上游 (PCB 材料):**",
+        "entities": []
+      },
+      {
+        "category": "銅箔基板",
+        "text": "[[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]] 銅箔基板",
+        "entities": [
+          "台光電",
+          "聯茂",
+          "台燿",
+          "CCL"
+        ]
+      },
+      {
+        "category": "[[銅箔]]",
+        "text": "銅箔供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "[[玻纖布]]",
+        "text": "玻纖布供應商",
+        "entities": [
+          "玻纖布"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "[[蝕刻]]與電鍍化學品",
+        "entities": [
+          "蝕刻"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (PCB 製造)",
+        "text": "**中游 (PCB 製造):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器板",
+        "text": "**健鼎** (AI 伺服器與網路交換器 [[PCB]])",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "記憶體模組板",
+        "text": "**健鼎** (DRAM/SSD 模組板)",
+        "entities": []
+      },
+      {
+        "category": "汽車板",
+        "text": "**健鼎** ([[ADAS]]/車載娛樂 [[PCB]])",
+        "entities": [
+          "ADAS",
+          "PCB"
+        ]
+      },
+      {
+        "category": "HDI",
+        "text": "**健鼎** (手機與行動裝置 HDI)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器",
+        "text": "[[Amazon]]、[[Microsoft]]、[[Google]] — 伺服器板",
+        "entities": [
+          "Amazon",
+          "Microsoft",
+          "Google"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK Hynix]]、[[Micron]] — 記憶體模組板",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Micron"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "[[Bosch]]、[[Continental]]、[[Tesla]] — 汽車電子板",
+        "entities": [
+          "Bosch",
+          "Continental",
+          "Tesla"
+        ]
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Apple]]、[[Dell]]、[[小米]] — HDI/手機板",
+        "entities": [
+          "Apple",
+          "Dell",
+          "小米"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "美系大廠",
+        "text": "[[Apple]]、[[Dell]]、[[Amazon]] — PCB",
+        "entities": [
+          "Apple",
+          "Dell",
+          "Amazon"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK Hynix]]、[[Micron]] — 記憶體模組板",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Micron"
+        ]
+      },
+      {
+        "role": "車用 Tier 1",
+        "text": "[[Bosch]]、[[Continental]] — 汽車電子板",
+        "entities": [
+          "Bosch",
+          "Continental"
+        ]
+      },
+      {
+        "role": "伺服器",
+        "text": "[[Microsoft]]、[[Google]] — AI 伺服器板",
+        "entities": [
+          "Microsoft",
+          "Google"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅箔基板",
+        "text": "[[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]]",
+        "entities": [
+          "台光電",
+          "聯茂",
+          "台燿",
+          "CCL"
+        ]
+      },
+      {
+        "role": "[[銅箔]]",
+        "text": "銅箔供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "role": "[[玻纖布]]",
+        "text": "玻纖布供應商",
+        "entities": [
+          "玻纖布"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "Dell",
+          "Amazon",
+          "Samsung",
+          "SK Hynix",
+          "Micron",
+          "Bosch",
+          "Continental",
+          "Microsoft",
+          "Google"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tripod Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Tripod Technology"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "台燿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台燿"
+    },
+    {
+      "name": "CCL",
+      "type": "international_company_or_term",
+      "wikilink": "CCL"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "玻纖布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻纖布"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "健鼎科技 ([[Tripod Technology]]) 為全球前十大 [[PCB]] 製造商，亦為第三大 HDI 供應商。以記憶體模組板、LCD 光電板起家，近年成功轉型至伺服器、汽車板與 HDI 領域。\n\n營收結構：伺服器與網路板 (32%)、DRAM/SSD 記憶體板 (25%)、汽車板 (18%)、手機與行動裝置 (9%)、筆電板 (6%)。生產基地主要位於台灣平鎮、中國無錫與湖北仙桃，近期擴展至越南。受惠 [[AI 伺服器]]與歐美客戶 AI ASIC 專案，營運持續成長。",
+    "supply_chain_md": "**上游 (PCB 材料):**\n- **銅箔基板:** [[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]] 銅箔基板\n- **[[銅箔]]:** 銅箔供應商\n- **[[玻纖布]]:** 玻纖布供應商\n- **化學品:** [[蝕刻]]與電鍍化學品\n\n**中游 (PCB 製造):**\n- **伺服器板:** **健鼎** (AI 伺服器與網路交換器 [[PCB]])\n- **記憶體模組板:** **健鼎** (DRAM/SSD 模組板)\n- **汽車板:** **健鼎** ([[ADAS]]/車載娛樂 [[PCB]])\n- **HDI:** **健鼎** (手機與行動裝置 HDI)\n\n**下游 (終端應用):**\n- **伺服器:** [[Amazon]]、[[Microsoft]]、[[Google]] — 伺服器板\n- **記憶體:** [[Samsung]]、[[SK Hynix]]、[[Micron]] — 記憶體模組板\n- **車用:** [[Bosch]]、[[Continental]]、[[Tesla]] — 汽車電子板\n- **消費電子:** [[Apple]]、[[Dell]]、[[小米]] — HDI/手機板",
+    "customers_suppliers_md": "### 主要客戶\n- **美系大廠:** [[Apple]]、[[Dell]]、[[Amazon]] — PCB\n- **記憶體:** [[Samsung]]、[[SK Hynix]]、[[Micron]] — 記憶體模組板\n- **車用 Tier 1:** [[Bosch]]、[[Continental]] — 汽車電子板\n- **伺服器:** [[Microsoft]]、[[Google]] — AI 伺服器板\n\n### 主要供應商\n- **銅箔基板:** [[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]]\n- **[[銅箔]]:** 銅箔供應商\n- **[[玻纖布]]:** 玻纖布供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 23,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

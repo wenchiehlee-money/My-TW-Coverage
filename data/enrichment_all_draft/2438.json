@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2438",
+  "company_name": "翔耀",
+  "title": "2438 - 翔耀",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/2438_翔耀.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "1,132 百萬台幣",
+    "enterprise_value": "2,122 百萬台幣"
+  },
+  "business": {
+    "summary": "翔耀實業股份有限公司 (Aerowin Industrial Co., Ltd.) 成立於 1982 年 (原名英誌企業)，總部位於台灣[[新北]]。公司早期業務較為多元 (如照明、五金)，近年積極轉型進軍 **AI 算力服務** (AICC) 及**光電事業**。2024 年與[[美超微]] (Supermicro) 及[[是方電訊]]合作，建置 [[AI]] 運算中心，提供算力租賃服務。旗下子公司**嵩達光電**則專注於觸控面板及工控顯示器，並切入電子紙產業鏈。此外，公司亦經營**國軍服裝**供應業務。",
+    "entities": [
+      "新北",
+      "美超微",
+      "是方電訊",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備/技術)",
+        "text": "*   **上游 (設備/技術):**",
+        "entities": []
+      },
+      {
+        "category": "AI 算力",
+        "text": "採購 [[NVIDIA]] H100/H200 [[伺服器]] (供應商: [[Supermicro]])，[[資料中心]]託管 (供應商: [[是方電訊]])。",
+        "entities": [
+          "NVIDIA",
+          "伺服器",
+          "Supermicro",
+          "資料中心",
+          "是方電訊"
+        ]
+      },
+      {
+        "category": "光電",
+        "text": "採購玻璃基板、驅動 IC、電子紙膜片。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (服務/製造)",
+        "text": "*   **中游 (服務/製造):**",
+        "entities": []
+      },
+      {
+        "category": "AI",
+        "text": "建置 AICC ([[AI]] Cloud Computing) 算力調度平台 (由翔耀主導)。",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "category": "光電",
+        "text": "觸控模組貼合、組裝 (子公司嵩達光電)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "翔耀位於 [[AI]] 算力服務及光電顯示產業鏈中下游。",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "category": "下游 (應用市場)",
+        "text": "*   **下游 (應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "AI",
+        "text": "銷售算力給大學院校、政府機關、影視產業、金融機構。",
+        "entities": []
+      },
+      {
+        "category": "光電",
+        "text": "工控電腦、醫療設備、博弈機台。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 算力",
+        "text": "國內多所大學 (產學合作)、影視特效公司、數位行銷公司。",
+        "entities": []
+      },
+      {
+        "role": "光電",
+        "text": "[[工業電腦]] ([[IPC]]) 廠商、醫療儀器廠。",
+        "entities": [
+          "工業電腦",
+          "IPC"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "國防部 (國軍服裝供售標案)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "伺服器",
+        "text": "[[Supermicro]] (美超微)。",
+        "entities": [
+          "Supermicro"
+        ]
+      },
+      {
+        "role": "IDC 機房",
+        "text": "[[是方電訊]] (中華電信子公司)。",
+        "entities": [
+          "是方電訊"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "工業電腦",
+          "IPC"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新北"
+    },
+    {
+      "name": "美超微",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美超微"
+    },
+    {
+      "name": "是方電訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "是方電訊"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "Supermicro",
+      "type": "international_company_or_term",
+      "wikilink": "Supermicro"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "翔耀實業股份有限公司 (Aerowin Industrial Co., Ltd.) 成立於 1982 年 (原名英誌企業)，總部位於台灣[[新北]]。公司早期業務較為多元 (如照明、五金)，近年積極轉型進軍 **AI 算力服務** (AICC) 及**光電事業**。2024 年與[[美超微]] (Supermicro) 及[[是方電訊]]合作，建置 [[AI]] 運算中心，提供算力租賃服務。旗下子公司**嵩達光電**則專注於觸控面板及工控顯示器，並切入電子紙產業鏈。此外，公司亦經營**國軍服裝**供應業務。",
+    "supply_chain_md": "翔耀位於 [[AI]] 算力服務及光電顯示產業鏈中下游。\n*   **上游 (設備/技術):**\n    *   **AI 算力:** 採購 [[NVIDIA]] H100/H200 [[伺服器]] (供應商: [[Supermicro]])，[[資料中心]]託管 (供應商: [[是方電訊]])。\n    *   **光電:** 採購玻璃基板、驅動 IC、電子紙膜片。\n*   **中游 (服務/製造):**\n    *   **AI:** 建置 AICC ([[AI]] Cloud Computing) 算力調度平台 (由翔耀主導)。\n    *   **光電:** 觸控模組貼合、組裝 (子公司嵩達光電)。\n*   **下游 (應用市場):**\n    *   **AI:** 銷售算力給大學院校、政府機關、影視產業、金融機構。\n    *   **光電:** 工控電腦、醫療設備、博弈機台。",
+    "customers_suppliers_md": "### 主要客戶\n*   **AI 算力:** 國內多所大學 (產學合作)、影視特效公司、數位行銷公司。\n*   **光電:** [[工業電腦]] ([[IPC]]) 廠商、醫療儀器廠。\n*   **其他:** 國防部 (國軍服裝供售標案)。\n\n### 主要供應商\n*   **伺服器:** [[Supermicro]] (美超微)。\n*   **IDC 機房:** [[是方電訊]] (中華電信子公司)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

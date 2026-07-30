@@ -1,0 +1,327 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1319",
+  "company_name": "東陽",
+  "title": "1319 - 東陽",
+  "source_md": "Pilot_Reports/Auto Parts/1319_東陽.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "41,699 百萬台幣",
+    "enterprise_value": "40,872 百萬台幣"
+  },
+  "business": {
+    "summary": "東陽實業 (1319，Tong Yang Group) 成立於 1967 年，為全球最大汽車 AM 塑膠件製造商，全球塑膠件市佔約 70%、鈑金件市佔約 35%，產品行銷逾 200 國、服務 2,300+ 客戶。北美 AM 通路以[[LKQ]]及[[Keystone Automotive]]為最大經銷夥伴，間接受惠[[State Farm]]等保險公司擴大採用 AM 認證件。OEM 事業同步發展，台灣供應[[國瑞汽車]] ([[Toyota]]) 及[[裕隆汽車]]，中國供應[[Tesla]]上海廠、[[奇瑞汽車]]、[[東風汽車]]、[[廣汽豐田]]、[[一汽大眾]]、[[長安福特]]等前六大汽車集團。上游塑膠原料採購自[[住友化學]]、[[台化]]，鋼材來自[[中鋼]]。全球 25 座生產基地 (台灣/中國/美國/義大利)。近年開發智慧光電飾件，切入電動車前格柵及氛圍燈。",
+    "entities": [
+      "LKQ",
+      "Keystone Automotive",
+      "State Farm",
+      "國瑞汽車",
+      "Toyota",
+      "裕隆汽車",
+      "Tesla",
+      "奇瑞汽車",
+      "東風汽車",
+      "廣汽豐田",
+      "一汽大眾",
+      "長安福特",
+      "住友化學",
+      "台化",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "[[住友化學]]、[[台化]]、[[台達化]] — PP/ABS 塑膠原料",
+        "entities": [
+          "住友化學",
+          "台化",
+          "台達化"
+        ]
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 鋼捲/鋁材",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**東陽** (塑膠射出/鈑金沖壓，全球 25 座工廠，AM/OEM 雙軌)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "AM 通路",
+        "text": "[[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 經銷",
+        "entities": [
+          "LKQ",
+          "Keystone Automotive"
+        ]
+      },
+      {
+        "category": "保險驅動",
+        "text": "[[State Farm]] — AM 認證件理賠",
+        "entities": [
+          "State Farm"
+        ]
+      },
+      {
+        "category": "台灣 OEM",
+        "text": "[[國瑞汽車]]、[[裕隆汽車]]",
+        "entities": [
+          "國瑞汽車",
+          "裕隆汽車"
+        ]
+      },
+      {
+        "category": "中國 OEM",
+        "text": "[[Tesla]]、[[奇瑞汽車]]、[[東風汽車]]、[[廣汽豐田]]、[[一汽大眾]]、[[長安福特]]",
+        "entities": [
+          "Tesla",
+          "奇瑞汽車",
+          "東風汽車",
+          "廣汽豐田",
+          "一汽大眾",
+          "長安福特"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AM 經銷",
+        "text": "[[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 通路",
+        "entities": [
+          "LKQ",
+          "Keystone Automotive"
+        ]
+      },
+      {
+        "role": "保險",
+        "text": "[[State Farm]] — 間接帶動 AM 理賠市場",
+        "entities": [
+          "State Farm"
+        ]
+      },
+      {
+        "role": "台灣 OEM",
+        "text": "[[國瑞汽車]] ([[Toyota]])、[[裕隆汽車]]",
+        "entities": [
+          "國瑞汽車",
+          "Toyota",
+          "裕隆汽車"
+        ]
+      },
+      {
+        "role": "中國 OEM",
+        "text": "[[Tesla]]上海廠、[[奇瑞汽車]]、[[東風汽車]]、[[廣汽豐田]]、[[一汽大眾]]、[[長安福特]]",
+        "entities": [
+          "Tesla",
+          "奇瑞汽車",
+          "東風汽車",
+          "廣汽豐田",
+          "一汽大眾",
+          "長安福特"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠",
+        "text": "[[住友化學]]、[[台化]]、[[台達化]] — PP/ABS",
+        "entities": [
+          "住友化學",
+          "台化",
+          "台達化"
+        ]
+      },
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 鋼捲/鋁材",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]、[[瑞利]]",
+        "entities": [
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道",
+          "瑞利"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "LKQ",
+          "Keystone Automotive",
+          "State Farm",
+          "國瑞汽車",
+          "Toyota",
+          "裕隆汽車",
+          "Tesla",
+          "奇瑞汽車",
+          "東風汽車",
+          "廣汽豐田",
+          "一汽大眾",
+          "長安福特"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LKQ",
+      "type": "international_company_or_term",
+      "wikilink": "LKQ"
+    },
+    {
+      "name": "Keystone Automotive",
+      "type": "international_company_or_term",
+      "wikilink": "Keystone Automotive"
+    },
+    {
+      "name": "State Farm",
+      "type": "international_company_or_term",
+      "wikilink": "State Farm"
+    },
+    {
+      "name": "國瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國瑞汽車"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "裕隆汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆汽車"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "奇瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇瑞汽車"
+    },
+    {
+      "name": "東風汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東風汽車"
+    },
+    {
+      "name": "廣汽豐田",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣汽豐田"
+    },
+    {
+      "name": "一汽大眾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "一汽大眾"
+    },
+    {
+      "name": "長安福特",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長安福特"
+    },
+    {
+      "name": "住友化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友化學"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "台達化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達化"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    },
+    {
+      "name": "瑞利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞利"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東陽實業 (1319，Tong Yang Group) 成立於 1967 年，為全球最大汽車 AM 塑膠件製造商，全球塑膠件市佔約 70%、鈑金件市佔約 35%，產品行銷逾 200 國、服務 2,300+ 客戶。北美 AM 通路以[[LKQ]]及[[Keystone Automotive]]為最大經銷夥伴，間接受惠[[State Farm]]等保險公司擴大採用 AM 認證件。OEM 事業同步發展，台灣供應[[國瑞汽車]] ([[Toyota]]) 及[[裕隆汽車]]，中國供應[[Tesla]]上海廠、[[奇瑞汽車]]、[[東風汽車]]、[[廣汽豐田]]、[[一汽大眾]]、[[長安福特]]等前六大汽車集團。上游塑膠原料採購自[[住友化學]]、[[台化]]，鋼材來自[[中鋼]]。全球 25 座生產基地 (台灣/中國/美國/義大利)。近年開發智慧光電飾件，切入電動車前格柵及氛圍燈。",
+    "supply_chain_md": "**上游 (原料):**\n- **塑膠粒:** [[住友化學]]、[[台化]]、[[台達化]] — PP/ABS 塑膠原料\n- **鋼材:** [[中鋼]] — 鋼捲/鋁材\n\n**中游 (製造):**\n- **東陽** (塑膠射出/鈑金沖壓，全球 25 座工廠，AM/OEM 雙軌)\n\n**下游 (終端):**\n- **AM 通路:** [[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 經銷\n- **保險驅動:** [[State Farm]] — AM 認證件理賠\n- **台灣 OEM:** [[國瑞汽車]]、[[裕隆汽車]]\n- **中國 OEM:** [[Tesla]]、[[奇瑞汽車]]、[[東風汽車]]、[[廣汽豐田]]、[[一汽大眾]]、[[長安福特]]",
+    "customers_suppliers_md": "### 主要客戶\n- **AM 經銷:** [[LKQ]]、[[Keystone Automotive]] — 北美最大 AM 通路\n- **保險:** [[State Farm]] — 間接帶動 AM 理賠市場\n- **台灣 OEM:** [[國瑞汽車]] ([[Toyota]])、[[裕隆汽車]]\n- **中國 OEM:** [[Tesla]]上海廠、[[奇瑞汽車]]、[[東風汽車]]、[[廣汽豐田]]、[[一汽大眾]]、[[長安福特]]\n\n### 主要供應商\n- **塑膠:** [[住友化學]]、[[台化]]、[[台達化]] — PP/ABS\n- **鋼材:** [[中鋼]] — 鋼捲/鋁材"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1315",
+  "company_name": "達新",
+  "title": "1315 - 達新",
+  "source_md": "Pilot_Reports/Apparel Manufacturing/1315_達新.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "6,018 百萬台幣",
+    "enterprise_value": "-190 百萬台幣"
+  },
+  "business": {
+    "summary": "達新工業 (1315，Tah Hsin Industrial) 成立於 1966 年，為台灣老牌 PVC 塑膠製品與成衣製造商，兼營 PP 瓦楞板、家具文具、皮件及醫療器材。核心業務：(1) PVC 雨衣及防水製品 — 以自有「達新」品牌為台灣雨衣市場領導者，採用[[Gore-Tex]]等機能性防水透濕布料；(2) 機車騎士用品 — 供應[[YAMAHA]]、[[HONDA]]等機車品牌之 OEM 防水騎士裝備；(3) 成衣與工作服 — OEM/ODM 代工；(4) PP 瓦楞板 — 供應包裝及建材用途。原料以[[台塑]]、[[南亞塑膠]]之 PVC 樹脂及塑膠粒為主。",
+    "entities": [
+      "Gore-Tex",
+      "YAMAHA",
+      "HONDA",
+      "台塑",
+      "南亞塑膠"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "PVC 樹脂",
+        "text": "[[台塑]]、[[南亞塑膠]] — PVC 及塑膠粒主要供應商",
+        "entities": [
+          "台塑",
+          "南亞塑膠"
+        ]
+      },
+      {
+        "category": "機能布料",
+        "text": "[[Gore-Tex]] — 防水透濕機能布料",
+        "entities": [
+          "Gore-Tex"
+        ]
+      },
+      {
+        "category": "紡織布料",
+        "text": "國內外布料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**達新** (PVC 雨衣/塑膠製品/成衣/工作服/PP 瓦楞板製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "機車品牌",
+        "text": "[[YAMAHA]]、[[HONDA]] — OEM 防水騎士裝備",
+        "entities": [
+          "YAMAHA",
+          "HONDA"
+        ]
+      },
+      {
+        "category": "自有品牌",
+        "text": "「達新」雨衣及休閒服飾 — 國內零售",
+        "entities": []
+      },
+      {
+        "category": "OEM 外銷",
+        "text": "國際成衣代工客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "機車品牌",
+        "text": "[[YAMAHA]]、[[HONDA]] — OEM 防水騎士裝備",
+        "entities": [
+          "YAMAHA",
+          "HONDA"
+        ]
+      },
+      {
+        "role": "國內零售",
+        "text": "「達新」品牌雨衣與休閒服飾消費者",
+        "entities": []
+      },
+      {
+        "role": "OEM 外銷",
+        "text": "國際成衣代工客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PVC 樹脂",
+        "text": "[[台塑]]、[[南亞塑膠]] — PVC 及塑膠粒",
+        "entities": [
+          "台塑",
+          "南亞塑膠"
+        ]
+      },
+      {
+        "role": "機能布料",
+        "text": "[[Gore-Tex]] — 防水透濕布料",
+        "entities": [
+          "Gore-Tex"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Apparel Manufacturing):** [[南緯]]、[[台南]]、[[儒鴻]]、[[聚陽]]、[[滿心]]",
+        "entities": [
+          "南緯",
+          "台南",
+          "儒鴻",
+          "聚陽",
+          "滿心"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "YAMAHA",
+          "HONDA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Gore-Tex",
+      "type": "international_company_or_term",
+      "wikilink": "Gore-Tex"
+    },
+    {
+      "name": "YAMAHA",
+      "type": "international_company_or_term",
+      "wikilink": "YAMAHA"
+    },
+    {
+      "name": "HONDA",
+      "type": "international_company_or_term",
+      "wikilink": "HONDA"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "南緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南緯"
+    },
+    {
+      "name": "台南",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台南"
+    },
+    {
+      "name": "儒鴻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儒鴻"
+    },
+    {
+      "name": "聚陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚陽"
+    },
+    {
+      "name": "滿心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "滿心"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達新工業 (1315，Tah Hsin Industrial) 成立於 1966 年，為台灣老牌 PVC 塑膠製品與成衣製造商，兼營 PP 瓦楞板、家具文具、皮件及醫療器材。核心業務：(1) PVC 雨衣及防水製品 — 以自有「達新」品牌為台灣雨衣市場領導者，採用[[Gore-Tex]]等機能性防水透濕布料；(2) 機車騎士用品 — 供應[[YAMAHA]]、[[HONDA]]等機車品牌之 OEM 防水騎士裝備；(3) 成衣與工作服 — OEM/ODM 代工；(4) PP 瓦楞板 — 供應包裝及建材用途。原料以[[台塑]]、[[南亞塑膠]]之 PVC 樹脂及塑膠粒為主。",
+    "supply_chain_md": "**上游 (原料):**\n- **PVC 樹脂:** [[台塑]]、[[南亞塑膠]] — PVC 及塑膠粒主要供應商\n- **機能布料:** [[Gore-Tex]] — 防水透濕機能布料\n- **紡織布料:** 國內外布料供應商\n\n**中游 (製造):**\n- **達新** (PVC 雨衣/塑膠製品/成衣/工作服/PP 瓦楞板製造)\n\n**下游 (終端):**\n- **機車品牌:** [[YAMAHA]]、[[HONDA]] — OEM 防水騎士裝備\n- **自有品牌:** 「達新」雨衣及休閒服飾 — 國內零售\n- **OEM 外銷:** 國際成衣代工客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **機車品牌:** [[YAMAHA]]、[[HONDA]] — OEM 防水騎士裝備\n- **國內零售:** 「達新」品牌雨衣與休閒服飾消費者\n- **OEM 外銷:** 國際成衣代工客戶\n\n### 主要供應商\n- **PVC 樹脂:** [[台塑]]、[[南亞塑膠]] — PVC 及塑膠粒\n- **機能布料:** [[Gore-Tex]] — 防水透濕布料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6148",
+  "company_name": "驊宏資",
+  "title": "6148_驊宏資",
+  "source_md": "Pilot_Reports/Communication Equipment/6148_驊宏資.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "1,200 百萬台幣",
+    "enterprise_value": "1,091 百萬台幣"
+  },
+  "business": {
+    "summary": "驊宏資通 (6148，AZION) 為台灣跨足資訊、網路及電信之資通訊 (ICT) 系統整合集團。公司從傳統電腦軟硬體銷售成功轉型為專注於企業應用系統開發、雲端大數據平台建置的專業技術顧問。\n\n公司主導成立「雲端聯合戰艦」聯盟搶食大型標案，並積極投資 [[AI]] 研發 (成立前進未來人工智慧實驗室)。透過代理國際大廠設備搭配自行開發之加值軟體，為金融業及政府機關提供高度客製化之數位轉型與維運服務。公司為 [[Dell Technologies]] 白金級代理商、[[Cisco]] 金級整合商及 [[Oracle]] 白金級經銷商。",
+    "entities": [
+      "AI",
+      "Dell Technologies",
+      "Cisco",
+      "Oracle"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際 IT 軟硬體原廠)",
+        "text": "**上游 (國際 IT 軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器/儲存",
+        "text": "[[Dell Technologies]] (白金級代理) — 伺服器叢集及儲存設備",
+        "entities": [
+          "Dell Technologies"
+        ]
+      },
+      {
+        "category": "網路設備",
+        "text": "[[Cisco]] (金級整合商) — 企業級網通骨幹設備",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "category": "資料庫",
+        "text": "[[Oracle]] (白金級) — 企業資料庫授權",
+        "entities": [
+          "Oracle"
+        ]
+      },
+      {
+        "category": "虛擬化",
+        "text": "[[VMware]] — 虛擬化平台軟體",
+        "entities": [
+          "VMware"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (資通訊系統整合)",
+        "text": "**中游 (資通訊系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "SI 服務",
+        "text": "**驊宏資通** (雲端大數據平台建置、數位轉型顧問)",
+        "entities": []
+      },
+      {
+        "category": "AI 研發",
+        "text": "**驊宏資通** (前進未來 AI 實驗室，影像辨識分析)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (金融機構與政府單位)",
+        "text": "**下游 (金融機構與政府單位):**",
+        "entities": []
+      },
+      {
+        "category": "金融業",
+        "text": "台灣各大金控集團 — IT 基礎建設與維運",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "中央與地方政府單位 — 資通訊系統標案",
+        "entities": []
+      },
+      {
+        "category": "國營事業",
+        "text": "關鍵國營企業 — IT 系統服務",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融業",
+        "text": "[[台灣銀行]]、[[華南金控]]、[[國泰金控]]、[[中信金控]]、[[兆豐金控]] — IT 基礎建設維運",
+        "entities": [
+          "台灣銀行",
+          "華南金控",
+          "國泰金控",
+          "中信金控",
+          "兆豐金控"
+        ]
+      },
+      {
+        "role": "國營事業",
+        "text": "[[中油]]、[[台電]]、中央健保局 — 資通訊系統",
+        "entities": [
+          "中油",
+          "台電"
+        ]
+      },
+      {
+        "role": "政府機關",
+        "text": "各級警政機關及中央地方政府 — IT 標案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "伺服器",
+        "text": "[[Dell Technologies]] — 白金級代理",
+        "entities": [
+          "Dell Technologies"
+        ]
+      },
+      {
+        "role": "網路設備",
+        "text": "[[Cisco]] — 金級整合商",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "role": "資料庫",
+        "text": "[[Oracle]] — 白金級經銷",
+        "entities": [
+          "Oracle"
+        ]
+      },
+      {
+        "role": "虛擬化",
+        "text": "[[VMware]] — 虛擬化平台",
+        "entities": [
+          "VMware"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台灣銀行",
+          "華南金控",
+          "國泰金控",
+          "中信金控",
+          "兆豐金控",
+          "中油",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Dell Technologies",
+      "type": "international_company_or_term",
+      "wikilink": "Dell Technologies"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Oracle",
+      "type": "international_company_or_term",
+      "wikilink": "Oracle"
+    },
+    {
+      "name": "VMware",
+      "type": "international_company_or_term",
+      "wikilink": "VMware"
+    },
+    {
+      "name": "台灣銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣銀行"
+    },
+    {
+      "name": "華南金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華南金控"
+    },
+    {
+      "name": "國泰金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰金控"
+    },
+    {
+      "name": "中信金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中信金控"
+    },
+    {
+      "name": "兆豐金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐金控"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "驊宏資通 (6148，AZION) 為台灣跨足資訊、網路及電信之資通訊 (ICT) 系統整合集團。公司從傳統電腦軟硬體銷售成功轉型為專注於企業應用系統開發、雲端大數據平台建置的專業技術顧問。\n\n公司主導成立「雲端聯合戰艦」聯盟搶食大型標案，並積極投資 [[AI]] 研發 (成立前進未來人工智慧實驗室)。透過代理國際大廠設備搭配自行開發之加值軟體，為金融業及政府機關提供高度客製化之數位轉型與維運服務。公司為 [[Dell Technologies]] 白金級代理商、[[Cisco]] 金級整合商及 [[Oracle]] 白金級經銷商。",
+    "supply_chain_md": "**上游 (國際 IT 軟硬體原廠):**\n- **伺服器/儲存:** [[Dell Technologies]] (白金級代理) — 伺服器叢集及儲存設備\n- **網路設備:** [[Cisco]] (金級整合商) — 企業級網通骨幹設備\n- **資料庫:** [[Oracle]] (白金級) — 企業資料庫授權\n- **虛擬化:** [[VMware]] — 虛擬化平台軟體\n\n**中游 (資通訊系統整合):**\n- **SI 服務:** **驊宏資通** (雲端大數據平台建置、數位轉型顧問)\n- **AI 研發:** **驊宏資通** (前進未來 AI 實驗室，影像辨識分析)\n\n**下游 (金融機構與政府單位):**\n- **金融業:** 台灣各大金控集團 — IT 基礎建設與維運\n- **政府機關:** 中央與地方政府單位 — 資通訊系統標案\n- **國營事業:** 關鍵國營企業 — IT 系統服務",
+    "customers_suppliers_md": "### 主要客戶\n- **金融業:** [[台灣銀行]]、[[華南金控]]、[[國泰金控]]、[[中信金控]]、[[兆豐金控]] — IT 基礎建設維運\n- **國營事業:** [[中油]]、[[台電]]、中央健保局 — 資通訊系統\n- **政府機關:** 各級警政機關及中央地方政府 — IT 標案\n\n### 主要供應商\n- **伺服器:** [[Dell Technologies]] — 白金級代理\n- **網路設備:** [[Cisco]] — 金級整合商\n- **資料庫:** [[Oracle]] — 白金級經銷\n- **虛擬化:** [[VMware]] — 虛擬化平台"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

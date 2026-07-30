@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5223",
+  "company_name": "安力-KY",
+  "title": "5223 - 安力-KY",
+  "source_md": "Pilot_Reports/Metal Fabrication/5223_安力-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "976 百萬台幣",
+    "enterprise_value": "1,037 百萬台幣"
+  },
+  "business": {
+    "summary": "安力-KY (Anli) 為專業 **金屬機構件** 製造商，以 **散熱模組機構件** 為主力。\n核心工藝包含沖壓、壓鑄、CNC 加工。\n主要產品應用：\n1.  **散熱零組件 (Thermal)**: 風扇框架、[[散熱]]鰭片 (主要營收來源，應用於筆電/[[伺服器]])。\n2.  **機構件**: 筆電外殼、支架。\n3.  **車用**: [[電動車]]零部件、LED 車燈[[散熱]]。\n4.  **新應用**: [[伺服器]][[水冷]]板接頭、遊戲機[[散熱]]。",
+    "entities": [
+      "散熱",
+      "伺服器",
+      "電動車",
+      "水冷"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 金屬材料 (鋁錠, 銅材, 鋼材).",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **安力 (5223)** - 金屬沖壓/壓鑄/CNC.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**散熱模組廠**: [[雙鴻]], [[超眾]], [[建準]], [[台達電]]. (安力出貨風扇框/鰭片給[[散熱]]廠).",
+        "entities": [
+          "雙鴻",
+          "超眾",
+          "建準",
+          "台達電",
+          "散熱"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**終端品牌**: [[Apple]] (主要終端客戶), 美系/陸系筆電品牌.",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**散熱廠**: [[台達電]], [[雙鴻]], [[建準]].",
+        "entities": [
+          "台達電",
+          "雙鴻",
+          "建準"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**終端**: 美系大廠 (MacBook 系列重要供應商), 陸系[[伺服器]]品牌.",
+        "entities": [
+          "伺服器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**材料**: 金屬原物料供應商.",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台達電",
+          "雙鴻",
+          "建準",
+          "伺服器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "水冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水冷"
+    },
+    {
+      "name": "雙鴻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雙鴻"
+    },
+    {
+      "name": "超眾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超眾"
+    },
+    {
+      "name": "建準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建準"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "安力-KY (Anli) 為專業 **金屬機構件** 製造商，以 **散熱模組機構件** 為主力。\n核心工藝包含沖壓、壓鑄、CNC 加工。\n主要產品應用：\n1.  **散熱零組件 (Thermal)**: 風扇框架、[[散熱]]鰭片 (主要營收來源，應用於筆電/[[伺服器]])。\n2.  **機構件**: 筆電外殼、支架。\n3.  **車用**: [[電動車]]零部件、LED 車燈[[散熱]]。\n4.  **新應用**: [[伺服器]][[水冷]]板接頭、遊戲機[[散熱]]。",
+    "supply_chain_md": "*   **中游 (本體)**: **安力 (5223)** - 金屬沖壓/壓鑄/CNC.\n*   **上游**: 金屬材料 (鋁錠, 銅材, 鋼材).\n*   **下游**:\n    *   **散熱模組廠**: [[雙鴻]], [[超眾]], [[建準]], [[台達電]]. (安力出貨風扇框/鰭片給[[散熱]]廠).\n    *   **終端品牌**: [[Apple]] (主要終端客戶), 美系/陸系筆電品牌.",
+    "customers_suppliers_md": "### 主要客戶\n*   **散熱廠**: [[台達電]], [[雙鴻]], [[建準]].\n*   **終端**: 美系大廠 (MacBook 系列重要供應商), 陸系[[伺服器]]品牌.\n\n### 主要供應商\n*   **材料**: 金屬原物料供應商."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

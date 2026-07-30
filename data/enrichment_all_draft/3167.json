@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3167",
+  "company_name": "大量",
+  "title": "3167 - 大量",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/3167_大量.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "43,190 百萬台幣",
+    "enterprise_value": "43,440 百萬台幣"
+  },
+  "business": {
+    "summary": "大量科技 (3167) 為精密清洗及表面處理設備廠，成功打入[[台積電]] [[CoWoS]]供應鏈。2025年前11月營收翻倍超過45億元。在手訂單逾30億元，能見度至2026年。另供應[[日月光投控]]、[[欣興]]、[[景碩]]。間接服務[[NVIDIA]] GPU先進封裝。",
+    "entities": [
+      "台積電",
+      "CoWoS",
+      "日月光投控",
+      "欣興",
+      "景碩",
+      "NVIDIA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "精密機構件、化學藥液供給系統",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**大量** (精密清洗/表面處理設備)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "先進封裝",
+        "text": "[[台積電]] [[CoWoS]]",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "[[日月光投控]]",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "category": "載板",
+        "text": "[[欣興]]、[[景碩]]",
+        "entities": [
+          "欣興",
+          "景碩"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台積電]] — [[CoWoS]]清洗設備",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[日月光投控]] — 封裝清洗",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[欣興]]、[[景碩]] — 載板清洗",
+        "entities": [
+          "欣興",
+          "景碩"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "精密機構/化學藥液系統",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "CoWoS",
+          "日月光投控",
+          "欣興",
+          "景碩"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "景碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "景碩"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大量科技 (3167) 為精密清洗及表面處理設備廠，成功打入[[台積電]] [[CoWoS]]供應鏈。2025年前11月營收翻倍超過45億元。在手訂單逾30億元，能見度至2026年。另供應[[日月光投控]]、[[欣興]]、[[景碩]]。間接服務[[NVIDIA]] GPU先進封裝。",
+    "supply_chain_md": "**上游:** 精密機構件、化學藥液供給系統\n**中游:** **大量** (精密清洗/表面處理設備)\n**下游:**\n- **先進封裝:** [[台積電]] [[CoWoS]]\n- **封測:** [[日月光投控]]\n- **載板:** [[欣興]]、[[景碩]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[台積電]] — [[CoWoS]]清洗設備\n- [[日月光投控]] — 封裝清洗\n- [[欣興]]、[[景碩]] — 載板清洗\n\n### 主要供應商\n- 精密機構/化學藥液系統"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

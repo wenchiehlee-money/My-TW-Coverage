@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2233",
+  "company_name": "宇隆",
+  "title": "2233 - 宇隆",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/2233_宇隆.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "11,183 百萬台幣",
+    "enterprise_value": "10,848 百萬台幣"
+  },
+  "business": {
+    "summary": "宇隆科技 (2233，TURVO) 為精密金屬零件廠，具[[IATF 16949]]/[[ISO 13485]]認證。最大客戶[[Robert Bosch]] (佔約 72%)。近年開發[[人形機器人]]用[[減速機]]/[[諧波減速機]]，品牌「TUF ONE」目標 2028 佔營收 30-40%。",
+    "entities": [
+      "IATF 16949",
+      "ISO 13485",
+      "Robert Bosch",
+      "人形機器人",
+      "減速機",
+      "諧波減速機"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "特殊鋼棒材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**宇隆** (CNC 加工/齒輪/[[減速機]]/[[諧波減速機]])",
+        "entities": [
+          "減速機",
+          "諧波減速機"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "汽車",
+        "text": "[[Robert Bosch]] (最大)",
+        "entities": [
+          "Robert Bosch"
+        ]
+      },
+      {
+        "category": "機器人",
+        "text": "[[人形機器人]][[減速機]] (TUF ONE)",
+        "entities": [
+          "人形機器人",
+          "減速機"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "汽車",
+        "text": "[[Robert Bosch]] (佔 72%)",
+        "entities": [
+          "Robert Bosch"
+        ]
+      },
+      {
+        "role": "機器人",
+        "text": "[[人形機器人]] (TUF ONE)",
+        "entities": [
+          "人形機器人"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "特殊鋼/合金鋼",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Robert Bosch",
+          "人形機器人"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IATF 16949",
+      "type": "international_company_or_term",
+      "wikilink": "IATF 16949"
+    },
+    {
+      "name": "ISO 13485",
+      "type": "international_company_or_term",
+      "wikilink": "ISO 13485"
+    },
+    {
+      "name": "Robert Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Robert Bosch"
+    },
+    {
+      "name": "人形機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "人形機器人"
+    },
+    {
+      "name": "減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "減速機"
+    },
+    {
+      "name": "諧波減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "諧波減速機"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宇隆科技 (2233，TURVO) 為精密金屬零件廠，具[[IATF 16949]]/[[ISO 13485]]認證。最大客戶[[Robert Bosch]] (佔約 72%)。近年開發[[人形機器人]]用[[減速機]]/[[諧波減速機]]，品牌「TUF ONE」目標 2028 佔營收 30-40%。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼材:** 特殊鋼棒材\n\n**中游 (製造):**\n- **宇隆** (CNC 加工/齒輪/[[減速機]]/[[諧波減速機]])\n\n**下游 (終端):**\n- **汽車:** [[Robert Bosch]] (最大)\n- **機器人:** [[人形機器人]][[減速機]] (TUF ONE)",
+    "customers_suppliers_md": "### 主要客戶\n- **汽車:** [[Robert Bosch]] (佔 72%)\n- **機器人:** [[人形機器人]] (TUF ONE)\n\n### 主要供應商\n- **鋼材:** 特殊鋼/合金鋼"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

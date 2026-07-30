@@ -1,0 +1,176 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4544",
+  "company_name": "春日",
+  "title": "4544 - 春日",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4544_春日.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "832 百萬台幣",
+    "enterprise_value": "572 百萬台幣"
+  },
+  "business": {
+    "summary": "春日機械 (4544) 隸屬[[春雨]]集團，以自有品牌「LION」行銷全球，為國際知名扣件冷鍛成型機製造商。全球出貨超過 10,000 台，銷往 50 多國。產品涵蓋螺絲/螺帽冷鍛成型機及打頭機。客戶涵蓋台灣扣件大廠[[春雨]] (母集團)、[[恒耀]]、[[晉禾]]及全球扣件加工廠。上游伺服系統含[[Fanuc]]。",
+    "entities": [
+      "春雨",
+      "恒耀",
+      "晉禾",
+      "Fanuc"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "鑄件/特殊鋼/[[Fanuc]]伺服",
+        "entities": [
+          "Fanuc"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**春日** (LION品牌扣件冷鍛成型機)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "台灣扣件",
+        "text": "[[春雨]]、[[恒耀]]、[[晉禾]]",
+        "entities": [
+          "春雨",
+          "恒耀",
+          "晉禾"
+        ]
+      },
+      {
+        "category": "全球",
+        "text": "50國扣件廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[春雨]] (母集團)、[[恒耀]]、[[晉禾]] — 成型機",
+        "entities": [
+          "春雨",
+          "恒耀",
+          "晉禾"
+        ]
+      },
+      {
+        "role": "",
+        "text": "全球50國扣件廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "鑄件/特殊鋼; [[Fanuc]]伺服",
+        "entities": [
+          "Fanuc"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "春雨",
+          "恒耀",
+          "晉禾"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "春雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春雨"
+    },
+    {
+      "name": "恒耀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恒耀"
+    },
+    {
+      "name": "晉禾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晉禾"
+    },
+    {
+      "name": "Fanuc",
+      "type": "international_company_or_term",
+      "wikilink": "Fanuc"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "春日機械 (4544) 隸屬[[春雨]]集團，以自有品牌「LION」行銷全球，為國際知名扣件冷鍛成型機製造商。全球出貨超過 10,000 台，銷往 50 多國。產品涵蓋螺絲/螺帽冷鍛成型機及打頭機。客戶涵蓋台灣扣件大廠[[春雨]] (母集團)、[[恒耀]]、[[晉禾]]及全球扣件加工廠。上游伺服系統含[[Fanuc]]。",
+    "supply_chain_md": "**上游:** 鑄件/特殊鋼/[[Fanuc]]伺服\n**中游:** **春日** (LION品牌扣件冷鍛成型機)\n**下游:**\n- **台灣扣件:** [[春雨]]、[[恒耀]]、[[晉禾]]\n- **全球:** 50國扣件廠",
+    "customers_suppliers_md": "### 主要客戶\n- [[春雨]] (母集團)、[[恒耀]]、[[晉禾]] — 成型機\n- 全球50國扣件廠\n\n### 主要供應商\n- 鑄件/特殊鋼; [[Fanuc]]伺服"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

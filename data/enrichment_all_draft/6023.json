@@ -1,0 +1,257 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6023",
+  "company_name": "元大期",
+  "title": "6023_元大期",
+  "source_md": "Pilot_Reports/Capital Markets/6023_元大期.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "market_cap": "31,793 百萬台幣",
+    "enterprise_value": "17,374 百萬台幣"
+  },
+  "business": {
+    "summary": "元大期貨 (6023，Yuanta Futures) 成立於 1997 年，隸屬[[元大金控]]集團，為台灣期貨市場龍頭，2007 年成為台灣首家上櫃期貨公司。國內外期貨選擇權市占率、資本額、淨值、客戶保證金及獲利均長年位居第一。主要提供國內外期貨及選擇權經紀、期貨自營、外匯類槓桿保證金交易及期貨顧問全權代操服務。全球交易版圖串接 16 個主要交易所商品，包含[[CME]]、[[SGX]]、[[Eurex]]等。集團內透過母公司[[元大證券]]全台近 150 家分點作為期貨交易輔助人 (IB) 體系，穩定導流客源。近年發展高度客製化法人機構下單系統與境外期貨轉介服務。",
+    "entities": [
+      "元大金控",
+      "CME",
+      "SGX",
+      "Eurex",
+      "元大證券"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (全球交易所與清算)",
+        "text": "**上游 (全球交易所與清算):**",
+        "entities": []
+      },
+      {
+        "category": "國內交易所",
+        "text": "[[台灣期貨交易所]] (TAIFEX) — 國內期選交易撮合",
+        "entities": [
+          "台灣期貨交易所"
+        ]
+      },
+      {
+        "category": "國際交易所",
+        "text": "[[CME]]、[[SGX]]、[[Eurex]]等全球 16 個期貨交易所",
+        "entities": [
+          "CME",
+          "SGX",
+          "Eurex"
+        ]
+      },
+      {
+        "category": "結算機構",
+        "text": "[[台灣集中保管結算所]]及國際清算所",
+        "entities": [
+          "台灣集中保管結算所"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (期貨經紀龍頭)",
+        "text": "**中游 (期貨經紀龍頭):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**元大期貨 (6023)** — 國內外期選經紀、自營、槓桿保證金、期顧全權代操",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "避險法人",
+        "text": "跨國企業 — 原物料/匯率避險",
+        "entities": []
+      },
+      {
+        "category": "量化交易",
+        "text": "境內外機構自營商 — 高頻與造市交易",
+        "entities": []
+      },
+      {
+        "category": "散戶投資人",
+        "text": "透過[[元大證券]] IB 體系導流之期權交易人",
+        "entities": [
+          "元大證券"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "避險法人",
+        "text": "跨國企業 — 原物料、能源、外匯與指數期貨避險",
+        "entities": []
+      },
+      {
+        "role": "機構自營商",
+        "text": "國內外外資法人 — 高頻量化交易與造市",
+        "entities": []
+      },
+      {
+        "role": "零售散戶",
+        "text": "透過[[元大證券]]全台近 150 家 IB 體系導流之期權交易人",
+        "entities": [
+          "元大證券"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[元大金控]] — 集團資源與品牌支援",
+        "entities": [
+          "元大金控"
+        ]
+      },
+      {
+        "role": "國際交易所",
+        "text": "[[CME]]、[[SGX]]、[[Eurex]]等 — 全球期貨商品串接",
+        "entities": [
+          "CME",
+          "SGX",
+          "Eurex"
+        ]
+      },
+      {
+        "role": "國內交易所",
+        "text": "[[台灣期貨交易所]]、[[台灣集中保管結算所]]",
+        "entities": [
+          "台灣期貨交易所",
+          "台灣集中保管結算所"
+        ]
+      },
+      {
+        "role": "市場數據",
+        "text": "[[Bloomberg]]、[[Reuters]] — 國際即時報價",
+        "entities": [
+          "Bloomberg",
+          "Reuters"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Capital Markets):** [[華票]]、[[統一證]]、[[國票金]]、[[致和證]]、[[群益證]]",
+        "entities": [
+          "華票",
+          "統一證",
+          "國票金",
+          "致和證",
+          "群益證"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "元大證券"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "元大金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元大金控"
+    },
+    {
+      "name": "CME",
+      "type": "international_company_or_term",
+      "wikilink": "CME"
+    },
+    {
+      "name": "SGX",
+      "type": "international_company_or_term",
+      "wikilink": "SGX"
+    },
+    {
+      "name": "Eurex",
+      "type": "international_company_or_term",
+      "wikilink": "Eurex"
+    },
+    {
+      "name": "元大證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元大證券"
+    },
+    {
+      "name": "台灣期貨交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣期貨交易所"
+    },
+    {
+      "name": "台灣集中保管結算所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣集中保管結算所"
+    },
+    {
+      "name": "Bloomberg",
+      "type": "international_company_or_term",
+      "wikilink": "Bloomberg"
+    },
+    {
+      "name": "Reuters",
+      "type": "international_company_or_term",
+      "wikilink": "Reuters"
+    },
+    {
+      "name": "華票",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華票"
+    },
+    {
+      "name": "統一證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一證"
+    },
+    {
+      "name": "國票金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國票金"
+    },
+    {
+      "name": "致和證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致和證"
+    },
+    {
+      "name": "群益證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群益證"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "元大期貨 (6023，Yuanta Futures) 成立於 1997 年，隸屬[[元大金控]]集團，為台灣期貨市場龍頭，2007 年成為台灣首家上櫃期貨公司。國內外期貨選擇權市占率、資本額、淨值、客戶保證金及獲利均長年位居第一。主要提供國內外期貨及選擇權經紀、期貨自營、外匯類槓桿保證金交易及期貨顧問全權代操服務。全球交易版圖串接 16 個主要交易所商品，包含[[CME]]、[[SGX]]、[[Eurex]]等。集團內透過母公司[[元大證券]]全台近 150 家分點作為期貨交易輔助人 (IB) 體系，穩定導流客源。近年發展高度客製化法人機構下單系統與境外期貨轉介服務。",
+    "supply_chain_md": "**上游 (全球交易所與清算):**\n- **國內交易所:** [[台灣期貨交易所]] (TAIFEX) — 國內期選交易撮合\n- **國際交易所:** [[CME]]、[[SGX]]、[[Eurex]]等全球 16 個期貨交易所\n- **結算機構:** [[台灣集中保管結算所]]及國際清算所\n\n**中游 (期貨經紀龍頭):**\n- **元大期貨 (6023)** — 國內外期選經紀、自營、槓桿保證金、期顧全權代操\n\n**下游 (終端客戶):**\n- **避險法人:** 跨國企業 — 原物料/匯率避險\n- **量化交易:** 境內外機構自營商 — 高頻與造市交易\n- **散戶投資人:** 透過[[元大證券]] IB 體系導流之期權交易人",
+    "customers_suppliers_md": "### 主要客戶\n- **避險法人:** 跨國企業 — 原物料、能源、外匯與指數期貨避險\n- **機構自營商:** 國內外外資法人 — 高頻量化交易與造市\n- **零售散戶:** 透過[[元大證券]]全台近 150 家 IB 體系導流之期權交易人\n\n### 主要供應商\n- **母公司:** [[元大金控]] — 集團資源與品牌支援\n- **國際交易所:** [[CME]]、[[SGX]]、[[Eurex]]等 — 全球期貨商品串接\n- **國內交易所:** [[台灣期貨交易所]]、[[台灣集中保管結算所]]\n- **市場數據:** [[Bloomberg]]、[[Reuters]] — 國際即時報價"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

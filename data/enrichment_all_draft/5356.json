@@ -1,0 +1,273 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5356",
+  "company_name": "協益",
+  "title": "5356 - 協益",
+  "source_md": "Pilot_Reports/Electronic Components/5356_協益.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,483 百萬台幣",
+    "enterprise_value": "1,714 百萬台幣"
+  },
+  "business": {
+    "summary": "協益電子 (5356，[[Sirtec]]) 主要從事 **電子產品組裝 (EMS)** 與 **塑膠射出成型**，為老牌電子代工廠。\n\n業務範疇：(1) **雷射印表機碳粉匣** — 為 [[Lexmark]] 代工製造碳粉匣與機構件，為傳統核心業務；(2) **網通/電子產品** — 為 [[Motorola]] 代工路由器等網通設備組裝；(3) **車用電子** — 車用音響面板、抬頭顯示器 ([[HUD]]) 相關零組件；(4) **消費電子** — [[Sony]] 等品牌電子產品代工；(5) **塑膠製品** — 3C 產品外殼、精密塑膠射出件；(6) **面板驅動板** — [[TFT-LCD]] Drive Card 組裝。主要工廠位於中國東莞及蘇州，以 EMS/ODM 模式服務國際品牌客戶。",
+    "entities": [
+      "Sirtec",
+      "Lexmark",
+      "Motorola",
+      "HUD",
+      "Sony",
+      "TFT-LCD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子材料與塑膠原料)",
+        "text": "**上游 (電子材料與塑膠原料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "工程塑膠粒供應商 — 射出成型原料",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "IC、[[PCB]]、被動元件",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "鋼材",
+        "text": "精密模具用鋼材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EMS 組裝與塑膠射出)",
+        "text": "**中游 (EMS 組裝與塑膠射出):**",
+        "entities": []
+      },
+      {
+        "category": "碳粉匣",
+        "text": "**協益** ([[Lexmark]] 雷射印表機碳粉匣代工)",
+        "entities": [
+          "Lexmark"
+        ]
+      },
+      {
+        "category": "網通組裝",
+        "text": "**協益** ([[Motorola]] 路由器/網通設備代工)",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "category": "車用零件",
+        "text": "**協益** (車用音響面板/[[HUD]] 零組件)",
+        "entities": [
+          "HUD"
+        ]
+      },
+      {
+        "category": "塑膠射出",
+        "text": "**協益** (3C 外殼/精密塑膠件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌客戶)",
+        "text": "**下游 (國際品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "印表機",
+        "text": "[[Lexmark]] — 雷射印表機碳粉匣/機構件",
+        "entities": [
+          "Lexmark"
+        ]
+      },
+      {
+        "category": "網通",
+        "text": "[[Motorola]] — 路由器/網通設備組裝",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Sony]] — 電子產品代工",
+        "entities": [
+          "Sony"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "車用音響與 [[HUD]] 系統品牌商",
+        "entities": [
+          "HUD"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "印表機",
+        "text": "[[Lexmark]] — 雷射印表機碳粉匣與機構件代工",
+        "entities": [
+          "Lexmark"
+        ]
+      },
+      {
+        "role": "網通",
+        "text": "[[Motorola]] — 路由器/網通設備 EMS 代工",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "[[Sony]] — 電子產品代工",
+        "entities": [
+          "Sony"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "車用音響面板與 [[HUD]] 系統品牌商",
+        "entities": [
+          "HUD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠粒",
+        "text": "工程塑膠粒供應商 — 射出成型原料",
+        "entities": []
+      },
+      {
+        "role": "電子元件",
+        "text": "IC/[[PCB]]/被動元件供應商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "鋼材",
+        "text": "精密模具用鋼材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Lexmark",
+          "Motorola",
+          "Sony",
+          "HUD"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Sirtec",
+      "type": "international_company_or_term",
+      "wikilink": "Sirtec"
+    },
+    {
+      "name": "Lexmark",
+      "type": "international_company_or_term",
+      "wikilink": "Lexmark"
+    },
+    {
+      "name": "Motorola",
+      "type": "international_company_or_term",
+      "wikilink": "Motorola"
+    },
+    {
+      "name": "HUD",
+      "type": "international_company_or_term",
+      "wikilink": "HUD"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "TFT-LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT-LCD"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "協益電子 (5356，[[Sirtec]]) 主要從事 **電子產品組裝 (EMS)** 與 **塑膠射出成型**，為老牌電子代工廠。\n\n業務範疇：(1) **雷射印表機碳粉匣** — 為 [[Lexmark]] 代工製造碳粉匣與機構件，為傳統核心業務；(2) **網通/電子產品** — 為 [[Motorola]] 代工路由器等網通設備組裝；(3) **車用電子** — 車用音響面板、抬頭顯示器 ([[HUD]]) 相關零組件；(4) **消費電子** — [[Sony]] 等品牌電子產品代工；(5) **塑膠製品** — 3C 產品外殼、精密塑膠射出件；(6) **面板驅動板** — [[TFT-LCD]] Drive Card 組裝。主要工廠位於中國東莞及蘇州，以 EMS/ODM 模式服務國際品牌客戶。",
+    "supply_chain_md": "**上游 (電子材料與塑膠原料):**\n- **塑膠粒:** 工程塑膠粒供應商 — 射出成型原料\n- **電子元件:** IC、[[PCB]]、被動元件\n- **鋼材:** 精密模具用鋼材\n\n**中游 (EMS 組裝與塑膠射出):**\n- **碳粉匣:** **協益** ([[Lexmark]] 雷射印表機碳粉匣代工)\n- **網通組裝:** **協益** ([[Motorola]] 路由器/網通設備代工)\n- **車用零件:** **協益** (車用音響面板/[[HUD]] 零組件)\n- **塑膠射出:** **協益** (3C 外殼/精密塑膠件)\n\n**下游 (國際品牌客戶):**\n- **印表機:** [[Lexmark]] — 雷射印表機碳粉匣/機構件\n- **網通:** [[Motorola]] — 路由器/網通設備組裝\n- **消費電子:** [[Sony]] — 電子產品代工\n- **車用:** 車用音響與 [[HUD]] 系統品牌商",
+    "customers_suppliers_md": "### 主要客戶\n- **印表機:** [[Lexmark]] — 雷射印表機碳粉匣與機構件代工\n- **網通:** [[Motorola]] — 路由器/網通設備 EMS 代工\n- **消費電子:** [[Sony]] — 電子產品代工\n- **車用:** 車用音響面板與 [[HUD]] 系統品牌商\n\n### 主要供應商\n- **塑膠粒:** 工程塑膠粒供應商 — 射出成型原料\n- **電子元件:** IC/[[PCB]]/被動元件供應商\n- **鋼材:** 精密模具用鋼材供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

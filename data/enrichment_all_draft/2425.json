@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2425",
+  "company_name": "承啟",
+  "title": "2425 - 承啟",
+  "source_md": "Pilot_Reports/Computer Hardware/2425_承啟.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "4,260 百萬台幣",
+    "enterprise_value": "3,723 百萬台幣"
+  },
+  "business": {
+    "summary": "承啟科技股份有限公司 (Chaintech Technology Corporation) 成立於 1986 年，總部位於台灣[[新北]]。公司原名承啟大眾科技 (Walton Chaintech)，2013 年更名為承啟科技。主要從事電腦板卡及周邊產品之設計、製造與銷售，市場以中國大陸及台灣為主。核心產品包括[[顯示卡]] (自有品牌 AX-Gaming)、[[主機板]] ([[Intel]]/[[AMD]] 平台)、電競整機及 [[AI 伺服器]]。近年積極切入 [[AI]] [[伺服器]]領域，受惠於全球 [[AI]] 算力需求成長。",
+    "entities": [
+      "新北",
+      "顯示卡",
+      "主機板",
+      "Intel",
+      "AMD",
+      "AI 伺服器",
+      "AI",
+      "伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "採購 GPU 晶片 ([[NVIDIA]]/[[AMD]])、主機板晶片組 ([[Intel]]/[[AMD]])、[[DRAM]]、[[PCB]]。",
+        "entities": [
+          "NVIDIA",
+          "AMD",
+          "Intel",
+          "DRAM",
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "設計及組裝顯示卡、主機板、電競整機、[[AI]] [[伺服器]]。",
+        "entities": [
+          "AI",
+          "伺服器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "承啟位於電腦硬體/板卡產業鏈中下游。",
+        "entities": []
+      },
+      {
+        "category": "下游",
+        "text": "銷售至中國及台灣通路商、電商平台、系統整合商。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": [
+      {
+        "role": "主要客戶",
+        "text": "",
+        "entities": []
+      },
+      {
+        "role": "通路",
+        "text": "中國 3C 經銷商及電商平台 (京東/天貓)。",
+        "entities": []
+      },
+      {
+        "role": "電競",
+        "text": "電競玩家社群 (自有品牌 AX-Gaming)。",
+        "entities": []
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "企業客戶。",
+        "entities": []
+      },
+      {
+        "role": "主要供應商",
+        "text": "",
+        "entities": []
+      },
+      {
+        "role": "晶片",
+        "text": "[[NVIDIA]] (GPU), [[Intel]]/[[AMD]] (CPU/晶片組)。",
+        "entities": [
+          "NVIDIA",
+          "Intel",
+          "AMD"
+        ]
+      }
+    ]
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新北"
+    },
+    {
+      "name": "顯示卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "顯示卡"
+    },
+    {
+      "name": "主機板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "主機板"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "承啟科技股份有限公司 (Chaintech Technology Corporation) 成立於 1986 年，總部位於台灣[[新北]]。公司原名承啟大眾科技 (Walton Chaintech)，2013 年更名為承啟科技。主要從事電腦板卡及周邊產品之設計、製造與銷售，市場以中國大陸及台灣為主。核心產品包括[[顯示卡]] (自有品牌 AX-Gaming)、[[主機板]] ([[Intel]]/[[AMD]] 平台)、電競整機及 [[AI 伺服器]]。近年積極切入 [[AI]] [[伺服器]]領域，受惠於全球 [[AI]] 算力需求成長。",
+    "supply_chain_md": "承啟位於電腦硬體/板卡產業鏈中下游。\n*   **上游:** 採購 GPU 晶片 ([[NVIDIA]]/[[AMD]])、主機板晶片組 ([[Intel]]/[[AMD]])、[[DRAM]]、[[PCB]]。\n*   **中游:** 設計及組裝顯示卡、主機板、電競整機、[[AI]] [[伺服器]]。\n*   **下游:** 銷售至中國及台灣通路商、電商平台、系統整合商。",
+    "customers_suppliers_md": "*   **主要客戶:**\n    *   **通路:** 中國 3C 經銷商及電商平台 (京東/天貓)。\n    *   **電競:** 電競玩家社群 (自有品牌 AX-Gaming)。\n    *   **AI 伺服器:** 企業客戶。\n*   **主要供應商:**\n    *   **晶片:** [[NVIDIA]] (GPU), [[Intel]]/[[AMD]] (CPU/晶片組)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

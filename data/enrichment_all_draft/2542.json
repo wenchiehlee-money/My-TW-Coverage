@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2542",
+  "company_name": "興富發",
+  "title": "2542 - 興富發",
+  "source_md": "Pilot_Reports/Real Estate - Development/2542_興富發.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development",
+    "market_cap": "91,341 百萬台幣",
+    "enterprise_value": "251,409 百萬台幣"
+  },
+  "business": {
+    "summary": "[[興富發建設]] (2542，Highwealth Construction) 成立於 1980 年，總部位於台北，為台灣最大民營建商之一，由[[曹淵博]]領軍經營。集團推案量居全台前列，一年交屋超過 4,000 戶，產品涵蓋首購、換屋、別墅、豪宅及辦公室等全品項。旗下擁有[[齊裕營造]] (全國地下室挖掘最多的營造公司，員工超過 700 人，設有百人規模 BIM 建築資訊中心)。集團事業體包含[[潤隆建設]] (1808)、飯店 ([[Grand Hi-Lai]] 漢來大飯店合作) 等。推案遍布全台北中南主要都會區。",
+    "entities": [
+      "興富發建設",
+      "曹淵博",
+      "齊裕營造",
+      "潤隆建設",
+      "Grand Hi-Lai"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與營造)",
+        "text": "**上游 (土地與營造):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "全台主要都會區購地、合建、[[都市更新]]",
+        "entities": [
+          "都市更新"
+        ]
+      },
+      {
+        "category": "營造施工",
+        "text": "[[齊裕營造]] (集團子公司，700+ 員工，BIM 中心)",
+        "entities": [
+          "齊裕營造"
+        ]
+      },
+      {
+        "category": "建材",
+        "text": "大量採購水泥、鋼筋、預拌混凝土、機電設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與銷售)",
+        "text": "**中游 (開發與銷售):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**興富發建設** — 全台最大民營建商之一，全品項住宅及商辦開發",
+        "entities": []
+      },
+      {
+        "category": "集團成員",
+        "text": "[[潤隆建設]] (1808) — 子集團成員",
+        "entities": [
+          "潤隆建設"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "購屋族群",
+        "text": "全台首購、換屋、豪宅及商辦客群",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "住宅買方",
+        "text": "全台首購至豪宅之全品項購屋族群，年交屋超過 4,000 戶",
+        "entities": []
+      },
+      {
+        "role": "商辦買方",
+        "text": "企業辦公空間需求者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造廠",
+        "text": "[[齊裕營造]] (集團子公司) — 全國地下室挖掘量最大",
+        "entities": [
+          "齊裕營造"
+        ]
+      },
+      {
+        "role": "集團成員",
+        "text": "[[潤隆建設]] (1808)",
+        "entities": [
+          "潤隆建設"
+        ]
+      },
+      {
+        "role": "建材",
+        "text": "國內大宗水泥、鋼筋及預拌混凝土供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate - Development):** [[華友聯]]、[[名軒]]、[[寶徠]]、[[潤隆]]、[[新美齊]]",
+        "entities": [
+          "華友聯",
+          "名軒",
+          "寶徠",
+          "潤隆",
+          "新美齊"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "興富發建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "興富發建設"
+    },
+    {
+      "name": "曹淵博",
+      "type": "taiwan_company_or_term",
+      "wikilink": "曹淵博"
+    },
+    {
+      "name": "齊裕營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "齊裕營造"
+    },
+    {
+      "name": "潤隆建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "潤隆建設"
+    },
+    {
+      "name": "Grand Hi-Lai",
+      "type": "international_company_or_term",
+      "wikilink": "Grand Hi-Lai"
+    },
+    {
+      "name": "都市更新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "都市更新"
+    },
+    {
+      "name": "華友聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華友聯"
+    },
+    {
+      "name": "名軒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "名軒"
+    },
+    {
+      "name": "寶徠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶徠"
+    },
+    {
+      "name": "潤隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "潤隆"
+    },
+    {
+      "name": "新美齊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新美齊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[興富發建設]] (2542，Highwealth Construction) 成立於 1980 年，總部位於台北，為台灣最大民營建商之一，由[[曹淵博]]領軍經營。集團推案量居全台前列，一年交屋超過 4,000 戶，產品涵蓋首購、換屋、別墅、豪宅及辦公室等全品項。旗下擁有[[齊裕營造]] (全國地下室挖掘最多的營造公司，員工超過 700 人，設有百人規模 BIM 建築資訊中心)。集團事業體包含[[潤隆建設]] (1808)、飯店 ([[Grand Hi-Lai]] 漢來大飯店合作) 等。推案遍布全台北中南主要都會區。",
+    "supply_chain_md": "**上游 (土地與營造):**\n- **土地取得:** 全台主要都會區購地、合建、[[都市更新]]\n- **營造施工:** [[齊裕營造]] (集團子公司，700+ 員工，BIM 中心)\n- **建材:** 大量採購水泥、鋼筋、預拌混凝土、機電設備\n\n**中游 (開發與銷售):**\n- **興富發建設** — 全台最大民營建商之一，全品項住宅及商辦開發\n- **集團成員:** [[潤隆建設]] (1808) — 子集團成員\n\n**下游 (終端客戶):**\n- **購屋族群:** 全台首購、換屋、豪宅及商辦客群",
+    "customers_suppliers_md": "### 主要客戶\n- **住宅買方:** 全台首購至豪宅之全品項購屋族群，年交屋超過 4,000 戶\n- **商辦買方:** 企業辦公空間需求者\n\n### 主要供應商\n- **營造廠:** [[齊裕營造]] (集團子公司) — 全國地下室挖掘量最大\n- **集團成員:** [[潤隆建設]] (1808)\n- **建材:** 國內大宗水泥、鋼筋及預拌混凝土供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

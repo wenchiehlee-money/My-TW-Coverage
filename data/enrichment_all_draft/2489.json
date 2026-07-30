@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2489",
+  "company_name": "瑞軒",
+  "title": "2489 - 瑞軒",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/2489_瑞軒.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "15,921 百萬台幣",
+    "enterprise_value": "10,242 百萬台幣"
+  },
+  "business": {
+    "summary": "瑞軒科技 (2489，Amtran Technology) 為知名顯示器及電視[[ODM]]/[[OEM]]組裝廠，生產基地主要位於越南海防。電視客戶涵蓋[[Vizio]] (現轉為[[Walmart]]自有品牌)、[[小米]]、[[Sharp]]。電競螢幕成為主要成長動能，OEM 客戶涵蓋[[Samsung]]、[[華碩]]、[[MSI]]、[[Gigabyte]]。上游面板來自[[LG Display]]、[[友達]]、[[群創]]、[[華星光電]]。",
+    "entities": [
+      "ODM",
+      "OEM",
+      "Vizio",
+      "Walmart",
+      "小米",
+      "Sharp",
+      "Samsung",
+      "華碩",
+      "MSI",
+      "Gigabyte",
+      "LG Display",
+      "友達",
+      "群創",
+      "華星光電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板)",
+        "text": "**上游 (面板):**",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "[[LG Display]]、[[友達]]、[[群創]]、[[華星光電]] — LCD/[[OLED]] 面板",
+        "entities": [
+          "LG Display",
+          "友達",
+          "群創",
+          "華星光電",
+          "OLED"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**瑞軒** (電視/電競螢幕[[ODM]][[OEM]]組裝，越南海防工廠)",
+        "entities": [
+          "ODM",
+          "OEM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌)",
+        "text": "**下游 (品牌):**",
+        "entities": []
+      },
+      {
+        "category": "電視",
+        "text": "[[Vizio]] ([[Walmart]]品牌)、[[小米]]、[[Sharp]]",
+        "entities": [
+          "Vizio",
+          "Walmart",
+          "小米",
+          "Sharp"
+        ]
+      },
+      {
+        "category": "電競螢幕",
+        "text": "[[Samsung]]、[[華碩]]、[[MSI]]、[[Gigabyte]]",
+        "entities": [
+          "Samsung",
+          "華碩",
+          "MSI",
+          "Gigabyte"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電視",
+        "text": "[[Vizio]] ([[Walmart]])、[[小米]]、[[Sharp]]",
+        "entities": [
+          "Vizio",
+          "Walmart",
+          "小米",
+          "Sharp"
+        ]
+      },
+      {
+        "role": "電競螢幕",
+        "text": "[[Samsung]]、[[華碩]]、[[MSI]]、[[Gigabyte]]",
+        "entities": [
+          "Samsung",
+          "華碩",
+          "MSI",
+          "Gigabyte"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "面板",
+        "text": "[[LG Display]]、[[友達]]、[[群創]]、[[華星光電]]",
+        "entities": [
+          "LG Display",
+          "友達",
+          "群創",
+          "華星光電"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Vizio",
+          "Walmart",
+          "小米",
+          "Sharp",
+          "Samsung",
+          "華碩",
+          "MSI",
+          "Gigabyte"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "Vizio",
+      "type": "international_company_or_term",
+      "wikilink": "Vizio"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "Sharp",
+      "type": "international_company_or_term",
+      "wikilink": "Sharp"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "MSI",
+      "type": "international_company_or_term",
+      "wikilink": "MSI"
+    },
+    {
+      "name": "Gigabyte",
+      "type": "international_company_or_term",
+      "wikilink": "Gigabyte"
+    },
+    {
+      "name": "LG Display",
+      "type": "international_company_or_term",
+      "wikilink": "LG Display"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "華星光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華星光電"
+    },
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "瑞軒科技 (2489，Amtran Technology) 為知名顯示器及電視[[ODM]]/[[OEM]]組裝廠，生產基地主要位於越南海防。電視客戶涵蓋[[Vizio]] (現轉為[[Walmart]]自有品牌)、[[小米]]、[[Sharp]]。電競螢幕成為主要成長動能，OEM 客戶涵蓋[[Samsung]]、[[華碩]]、[[MSI]]、[[Gigabyte]]。上游面板來自[[LG Display]]、[[友達]]、[[群創]]、[[華星光電]]。",
+    "supply_chain_md": "**上游 (面板):**\n- **面板:** [[LG Display]]、[[友達]]、[[群創]]、[[華星光電]] — LCD/[[OLED]] 面板\n\n**中游 (製造):**\n- **瑞軒** (電視/電競螢幕[[ODM]][[OEM]]組裝，越南海防工廠)\n\n**下游 (品牌):**\n- **電視:** [[Vizio]] ([[Walmart]]品牌)、[[小米]]、[[Sharp]]\n- **電競螢幕:** [[Samsung]]、[[華碩]]、[[MSI]]、[[Gigabyte]]",
+    "customers_suppliers_md": "### 主要客戶\n- **電視:** [[Vizio]] ([[Walmart]])、[[小米]]、[[Sharp]]\n- **電競螢幕:** [[Samsung]]、[[華碩]]、[[MSI]]、[[Gigabyte]]\n\n### 主要供應商\n- **面板:** [[LG Display]]、[[友達]]、[[群創]]、[[華星光電]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

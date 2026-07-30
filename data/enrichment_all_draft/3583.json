@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3583",
+  "company_name": "辛耘",
+  "title": "3583 - 辛耘",
+  "source_md": "Pilot_Reports/Semiconductors/3583_辛耘.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "50,145 百萬台幣",
+    "enterprise_value": "44,595 百萬台幣"
+  },
+  "business": {
+    "summary": "辛耘企業 (3583) 是台灣半導體製程設備廠，三大業務：(1) 自製[[濕式製程]]設備 (Wet Bench/Single Wafer)，(2) 12 吋[[矽晶圓再生]]服務 (國內最大，月產能 16 萬片，製程至 16nm)，(3) 設備代理。自製設備涵蓋 [[CoWoS]]/UBM 用濕式製程工具，受惠於先進封裝擴產。",
+    "entities": [
+      "濕式製程",
+      "矽晶圓再生",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "精密機構",
+        "text": "濕式設備機構件",
+        "entities": []
+      },
+      {
+        "category": "化學品",
+        "text": "製程用高純度化學品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備與再生服務)",
+        "text": "**中游 (設備與再生服務):**",
+        "entities": []
+      },
+      {
+        "category": "濕式設備/晶圓再生",
+        "text": "**辛耘** (Wet Bench/Single Wafer 設備 + 12 吋晶圓再生月產能 16 萬片)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (晶圓廠)",
+        "text": "**下游 (晶圓廠):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] (最大客戶，占營收 19.37%，設備+再生晶圓)",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "封裝",
+        "text": "[[日月光投控]] (先進封裝設備)",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "category": "LED/太陽能",
+        "text": "LED 及太陽能廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] (占營收 19.37%)",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "封裝",
+        "text": "[[日月光投控]] ([[CoWoS]] 設備)",
+        "entities": [
+          "日月光投控",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "晶圓代工",
+        "text": "[[聯華電子]]",
+        "entities": [
+          "聯華電子"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "材料",
+        "text": "[[3M]] (材料合作)",
+        "entities": [
+          "3M"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[弘塑]]、[[DNS]] (Screen Holdings)、[[Tokyo Electron]]",
+        "entities": [
+          "弘塑",
+          "DNS",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[弘塑]]、[[DNS]] (Screen Holdings)、[[Tokyo Electron]]",
+        "entities": [
+          "弘塑",
+          "DNS",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "濕式製程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濕式製程"
+    },
+    {
+      "name": "矽晶圓再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓再生"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "3M",
+      "type": "international_company_or_term",
+      "wikilink": "3M"
+    },
+    {
+      "name": "弘塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "弘塑"
+    },
+    {
+      "name": "DNS",
+      "type": "international_company_or_term",
+      "wikilink": "DNS"
+    },
+    {
+      "name": "Tokyo Electron",
+      "type": "international_company_or_term",
+      "wikilink": "Tokyo Electron"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "辛耘企業 (3583) 是台灣半導體製程設備廠，三大業務：(1) 自製[[濕式製程]]設備 (Wet Bench/Single Wafer)，(2) 12 吋[[矽晶圓再生]]服務 (國內最大，月產能 16 萬片，製程至 16nm)，(3) 設備代理。自製設備涵蓋 [[CoWoS]]/UBM 用濕式製程工具，受惠於先進封裝擴產。",
+    "supply_chain_md": "**上游 (零組件):**\n- **精密機構:** 濕式設備機構件\n- **化學品:** 製程用高純度化學品\n\n**中游 (設備與再生服務):**\n- **濕式設備/晶圓再生:** **辛耘** (Wet Bench/Single Wafer 設備 + 12 吋晶圓再生月產能 16 萬片)\n\n**下游 (晶圓廠):**\n- **晶圓代工:** [[台積電]] (最大客戶，占營收 19.37%，設備+再生晶圓)\n- **封裝:** [[日月光投控]] (先進封裝設備)\n- **LED/太陽能:** LED 及太陽能廠",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] (占營收 19.37%)\n- **封裝:** [[日月光投控]] ([[CoWoS]] 設備)\n- **晶圓代工:** [[聯華電子]]\n\n### 主要供應商\n- **材料:** [[3M]] (材料合作)\n- **競爭同業:** [[弘塑]]、[[DNS]] (Screen Holdings)、[[Tokyo Electron]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

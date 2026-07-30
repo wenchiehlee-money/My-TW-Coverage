@@ -1,0 +1,212 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6593",
+  "company_name": "台灣銘板",
+  "title": "6593_台灣銘板",
+  "source_md": "Pilot_Reports/Business Equipment & Supplies/6593_台灣銘板.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "1,035 百萬台幣",
+    "enterprise_value": "833 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣銘板股份有限公司 (6593) 從傳統銘板製造成功跨足金融支付與 Web3 科技服務。早期主要生產用於汽車內外裝飾 (如[[Audi]]、[[Volkswagen]]品牌) 及家電的各式金屬/塑膠薄膜銘板。後掌握 IC 晶片作業系統及 RFID 印刷天線技術 (獲美國專利)，成功轉型為台灣前四大發卡銀行的核心晶片信用卡/金融卡製造商，市佔率高達 35%。產品通過[[Visa]]及[[Mastercard]]認證。近年積極瞄準數位資產商機，研發企業級資安冷錢包「FortVax」，跨足 Web 3.0 區塊鏈金融科技領域。",
+    "entities": [
+      "Audi",
+      "Volkswagen",
+      "Visa",
+      "Mastercard"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (基礎材料與晶片)",
+        "text": "**上游 (基礎材料與晶片):**",
+        "entities": []
+      },
+      {
+        "category": "材料",
+        "text": "金屬板材、環保特種塑膠基材 (PC、再生 PVC、PETG)、印刷油墨、RFID 天線",
+        "entities": []
+      },
+      {
+        "category": "安全晶片",
+        "text": "Secure IC 安全控制晶片",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製卡與金融科技)",
+        "text": "**中游 (製卡與金融科技):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台灣銘板** — [[Visa]]/[[Mastercard]]認證晶片卡製造、汽車/家電銘板、Web3 冷錢包「FortVax」研發",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (發卡機構與應用商)",
+        "text": "**下游 (發卡機構與應用商):**",
+        "entities": []
+      },
+      {
+        "category": "金融機構",
+        "text": "台灣前四大發卡銀行 — 晶片信用卡/金融卡 (市佔 35%)",
+        "entities": []
+      },
+      {
+        "category": "汽車品牌",
+        "text": "[[Audi]]、[[Volkswagen]] — 汽車裝飾銘板",
+        "entities": [
+          "Audi",
+          "Volkswagen"
+        ]
+      },
+      {
+        "category": "區塊鏈",
+        "text": "全球加密貨幣交易所 — 企業級冷錢包",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融機構",
+        "text": "台灣前四大發卡銀行 — [[Visa]]/[[Mastercard]]認證晶片卡 (市佔 35%)",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      },
+      {
+        "role": "汽車品牌",
+        "text": "[[Audi]]、[[Volkswagen]] — 汽車內外裝飾銘板",
+        "entities": [
+          "Audi",
+          "Volkswagen"
+        ]
+      },
+      {
+        "role": "區塊鏈",
+        "text": "全球加密貨幣交易所 — 企業級冷錢包「FortVax」",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "安全晶片",
+        "text": "國際 Secure IC 供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠基材",
+        "text": "PC、再生 PVC、PETG 等特種塑膠供應商",
+        "entities": []
+      },
+      {
+        "role": "RFID 天線",
+        "text": "印刷天線技術供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Business Equipment & Supplies):** [[地球]]、[[三商電]]、[[互盛電]]、[[連宇]]、[[金雨]]",
+        "entities": [
+          "地球",
+          "三商電",
+          "互盛電",
+          "連宇",
+          "金雨"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Visa",
+          "Mastercard",
+          "Audi",
+          "Volkswagen"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Audi",
+      "type": "international_company_or_term",
+      "wikilink": "Audi"
+    },
+    {
+      "name": "Volkswagen",
+      "type": "international_company_or_term",
+      "wikilink": "Volkswagen"
+    },
+    {
+      "name": "Visa",
+      "type": "international_company_or_term",
+      "wikilink": "Visa"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "地球",
+      "type": "taiwan_company_or_term",
+      "wikilink": "地球"
+    },
+    {
+      "name": "三商電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三商電"
+    },
+    {
+      "name": "互盛電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "互盛電"
+    },
+    {
+      "name": "連宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連宇"
+    },
+    {
+      "name": "金雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金雨"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣銘板股份有限公司 (6593) 從傳統銘板製造成功跨足金融支付與 Web3 科技服務。早期主要生產用於汽車內外裝飾 (如[[Audi]]、[[Volkswagen]]品牌) 及家電的各式金屬/塑膠薄膜銘板。後掌握 IC 晶片作業系統及 RFID 印刷天線技術 (獲美國專利)，成功轉型為台灣前四大發卡銀行的核心晶片信用卡/金融卡製造商，市佔率高達 35%。產品通過[[Visa]]及[[Mastercard]]認證。近年積極瞄準數位資產商機，研發企業級資安冷錢包「FortVax」，跨足 Web 3.0 區塊鏈金融科技領域。",
+    "supply_chain_md": "**上游 (基礎材料與晶片):**\n- **材料:** 金屬板材、環保特種塑膠基材 (PC、再生 PVC、PETG)、印刷油墨、RFID 天線\n- **安全晶片:** Secure IC 安全控制晶片\n\n**中游 (製卡與金融科技):**\n- **台灣銘板** — [[Visa]]/[[Mastercard]]認證晶片卡製造、汽車/家電銘板、Web3 冷錢包「FortVax」研發\n\n**下游 (發卡機構與應用商):**\n- **金融機構:** 台灣前四大發卡銀行 — 晶片信用卡/金融卡 (市佔 35%)\n- **汽車品牌:** [[Audi]]、[[Volkswagen]] — 汽車裝飾銘板\n- **區塊鏈:** 全球加密貨幣交易所 — 企業級冷錢包",
+    "customers_suppliers_md": "### 主要客戶\n- **金融機構:** 台灣前四大發卡銀行 — [[Visa]]/[[Mastercard]]認證晶片卡 (市佔 35%)\n- **汽車品牌:** [[Audi]]、[[Volkswagen]] — 汽車內外裝飾銘板\n- **區塊鏈:** 全球加密貨幣交易所 — 企業級冷錢包「FortVax」\n\n### 主要供應商\n- **安全晶片:** 國際 Secure IC 供應商\n- **塑膠基材:** PC、再生 PVC、PETG 等特種塑膠供應商\n- **RFID 天線:** 印刷天線技術供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -160,7 +160,22 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **IT services/system integration customer overlap:** [[敦陽科]]、[[凌群]]、[[零壹]]",
+        "entities": [
+          "敦陽科",
+          "凌群",
+          "零壹"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "台積電",
+          "全聯",
+          "中華電信"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -245,6 +260,21 @@
       "name": "中華電信",
       "type": "taiwan_company_or_term",
       "wikilink": "中華電信"
+    },
+    {
+      "name": "敦陽科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "敦陽科"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "零壹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "零壹"
     }
   ],
   "source_text": {
@@ -256,6 +286,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 15,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

@@ -1,0 +1,163 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6739",
+  "company_name": "竹陞科技",
+  "title": "6739_竹陞科技",
+  "source_md": "Pilot_Reports/Semiconductors/6739_竹陞科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "19,717 百萬台幣",
+    "enterprise_value": "18,953 百萬台幣"
+  },
+  "business": {
+    "summary": "竹陞科技 (6739) 定位為 [[AIoT]] 智慧製造解決方案領導者，提供高科技產業製程設備之智能自動操作系統、遠程操控系統、製程數據採集系統及邊緣運算智能伺服器等軟硬體整合方案。半導體客戶營收占比逾九成，其中晶圓廠與記憶體廠各佔約一半。",
+    "entities": [
+      "AIoT"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (硬體與軟體)",
+        "text": "**上游 (硬體與軟體):**",
+        "entities": []
+      },
+      {
+        "category": "工業電腦",
+        "text": "[[研華]] (Advantech) 等 IPC",
+        "entities": [
+          "研華"
+        ]
+      },
+      {
+        "category": "軟體平台",
+        "text": "自主開發 AIoT 智慧製造平台",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (解決方案)",
+        "text": "**中游 (解決方案):**",
+        "entities": []
+      },
+      {
+        "category": "AIoT 智造",
+        "text": "**竹陞** (半導體廠智能自動化/遠程操控/數據採集)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (晶圓廠)",
+        "text": "**下游 (晶圓廠):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Micron]]",
+        "entities": [
+          "Micron"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Micron]]",
+        "entities": [
+          "Micron"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "工業電腦",
+        "text": "[[研華]]",
+        "entities": [
+          "研華"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[Siemens]]",
+        "entities": [
+          "Siemens"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[Siemens]]",
+        "entities": [
+          "Siemens"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "Siemens",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "竹陞科技 (6739) 定位為 [[AIoT]] 智慧製造解決方案領導者，提供高科技產業製程設備之智能自動操作系統、遠程操控系統、製程數據採集系統及邊緣運算智能伺服器等軟硬體整合方案。半導體客戶營收占比逾九成，其中晶圓廠與記憶體廠各佔約一半。",
+    "supply_chain_md": "**上游 (硬體與軟體):**\n- **工業電腦:** [[研華]] (Advantech) 等 IPC\n- **軟體平台:** 自主開發 AIoT 智慧製造平台\n\n**中游 (解決方案):**\n- **AIoT 智造:** **竹陞** (半導體廠智能自動化/遠程操控/數據採集)\n\n**下游 (晶圓廠):**\n- **晶圓代工:** [[台積電]]\n- **記憶體:** [[Micron]]",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]]\n- **記憶體:** [[Micron]]\n\n### 主要供應商\n- **工業電腦:** [[研華]]\n- **競爭同業:** [[Siemens]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

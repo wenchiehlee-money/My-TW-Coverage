@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4707",
+  "company_name": "磐亞",
+  "title": "4707 - 磐亞",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4707_磐亞.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "10,416 百萬台幣",
+    "enterprise_value": "12,068 百萬台幣"
+  },
+  "business": {
+    "summary": "磐亞股份有限公司 (4707，Pan Asia Chemical / PACC) 為台灣最大非離子[[界面活性劑]]製造商，隸屬[[中石化]] (1314) 集團。核心原料[[環氧乙烷]] (EO) 由母公司[[中石化]]優先供應，具成本與供應穩定優勢。產品應用涵蓋紡織精練/染色助劑、電子/半導體清洗劑、造紙化學品、農藥乳化劑及個人清潔用品原料。工廠位於高雄大社工業區。",
+    "entities": [
+      "界面活性劑",
+      "中石化",
+      "環氧乙烷"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "環氧乙烷",
+        "text": "[[中石化]] (母公司) — [[環氧乙烷]] (EO) 優先供應",
+        "entities": [
+          "中石化",
+          "環氧乙烷"
+        ]
+      },
+      {
+        "category": "脂肪醇",
+        "text": "脂肪醇供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**磐亞** (非離子[[界面活性劑]]，高雄大社工業區)",
+        "entities": [
+          "界面活性劑"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "紡織",
+        "text": "精練劑/染色助劑 — 紡織染整業",
+        "entities": []
+      },
+      {
+        "category": "電子",
+        "text": "半導體清洗劑 — 半導體/面板廠",
+        "entities": []
+      },
+      {
+        "category": "農藥",
+        "text": "農藥乳化劑 — 農藥配方廠",
+        "entities": []
+      },
+      {
+        "category": "民生",
+        "text": "清潔用品原料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "紡織",
+        "text": "紡織染整業 — 精練/染色助劑",
+        "entities": []
+      },
+      {
+        "role": "電子",
+        "text": "半導體/面板廠 — 清洗劑",
+        "entities": []
+      },
+      {
+        "role": "農藥",
+        "text": "農藥配方廠 — 乳化劑",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "環氧乙烷",
+        "text": "[[中石化]] (母公司) — 核心原料優先供應",
+        "entities": [
+          "中石化"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "界面活性劑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "界面活性劑"
+    },
+    {
+      "name": "中石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中石化"
+    },
+    {
+      "name": "環氧乙烷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環氧乙烷"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "磐亞股份有限公司 (4707，Pan Asia Chemical / PACC) 為台灣最大非離子[[界面活性劑]]製造商，隸屬[[中石化]] (1314) 集團。核心原料[[環氧乙烷]] (EO) 由母公司[[中石化]]優先供應，具成本與供應穩定優勢。產品應用涵蓋紡織精練/染色助劑、電子/半導體清洗劑、造紙化學品、農藥乳化劑及個人清潔用品原料。工廠位於高雄大社工業區。",
+    "supply_chain_md": "**上游 (原料):**\n- **環氧乙烷:** [[中石化]] (母公司) — [[環氧乙烷]] (EO) 優先供應\n- **脂肪醇:** 脂肪醇供應商\n\n**中游 (製造):**\n- **磐亞** (非離子[[界面活性劑]]，高雄大社工業區)\n\n**下游 (終端):**\n- **紡織:** 精練劑/染色助劑 — 紡織染整業\n- **電子:** 半導體清洗劑 — 半導體/面板廠\n- **農藥:** 農藥乳化劑 — 農藥配方廠\n- **民生:** 清潔用品原料",
+    "customers_suppliers_md": "### 主要客戶\n- **紡織:** 紡織染整業 — 精練/染色助劑\n- **電子:** 半導體/面板廠 — 清洗劑\n- **農藥:** 農藥配方廠 — 乳化劑\n\n### 主要供應商\n- **環氧乙烷:** [[中石化]] (母公司) — 核心原料優先供應"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

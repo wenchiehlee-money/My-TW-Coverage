@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1503",
+  "company_name": "士電",
+  "title": "1503 - 士電",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/1503_士電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "98,203 百萬台幣",
+    "enterprise_value": "96,922 百萬台幣"
+  },
+  "business": {
+    "summary": "士林電機廠股份有限公司 (Shihlin Electric & Engineering Corp.) 成立於 1955 年，總部位於台灣[[台北]]，為[[仰德集團]]核心企業。士電為台灣[[重電]]設備龍頭之一，與三菱電機 ([[Mitsubishi]] Electric) 長期技術合作。業務範疇涵蓋電力配電、車輛零件、[[自動化]]設備及數位家電。近年受惠於[[台電強韌電網計畫]]、[[綠能]]建置及[[電動車]]充電樁需求，營運成長動能強勁。",
+    "entities": [
+      "台北",
+      "仰德集團",
+      "重電",
+      "Mitsubishi",
+      "自動化",
+      "台電強韌電網計畫",
+      "綠能",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "採購銅、鋁、矽鋼片、絕緣油、電子元件。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "製造變壓器、配電盤、馬達、電裝品。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "士電位於重電及機電產業鏈中下游，為關鍵設備供應商與系統整合商。",
+        "entities": []
+      },
+      {
+        "category": "下游",
+        "text": "供應給電力公司 ([[台電]])、工廠 ([[半導體]]/傳產)、車廠、建築業。",
+        "entities": [
+          "台電",
+          "半導體"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]、[[直得]]",
+        "entities": [
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆",
+          "直得"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": [
+      {
+        "role": "主要客戶",
+        "text": "",
+        "entities": []
+      },
+      {
+        "role": "重電",
+        "text": "[[台電]] (強韌電網計畫)、[[台積電]]、[[聯電]]、美光 (高科技廠房)。",
+        "entities": [
+          "台電",
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "[[三陽]]、[[光陽]]、中華車。",
+        "entities": [
+          "三陽",
+          "光陽"
+        ]
+      },
+      {
+        "role": "外銷",
+        "text": "北美電力公司、[[Mitsubishi]]。",
+        "entities": [
+          "Mitsubishi"
+        ]
+      },
+      {
+        "role": "主要供應商",
+        "text": "",
+        "entities": []
+      },
+      {
+        "role": "技術",
+        "text": "[[Mitsubishi]] Electric (長期合作夥伴)。",
+        "entities": [
+          "Mitsubishi"
+        ]
+      },
+      {
+        "role": "原料",
+        "text": "國際原物料大廠。",
+        "entities": []
+      }
+    ]
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "仰德集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仰德集團"
+    },
+    {
+      "name": "重電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "重電"
+    },
+    {
+      "name": "Mitsubishi",
+      "type": "international_company_or_term",
+      "wikilink": "Mitsubishi"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "台電強韌電網計畫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電強韌電網計畫"
+    },
+    {
+      "name": "綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "綠能"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "三陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三陽"
+    },
+    {
+      "name": "光陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光陽"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    },
+    {
+      "name": "直得",
+      "type": "taiwan_company_or_term",
+      "wikilink": "直得"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "士林電機廠股份有限公司 (Shihlin Electric & Engineering Corp.) 成立於 1955 年，總部位於台灣[[台北]]，為[[仰德集團]]核心企業。士電為台灣[[重電]]設備龍頭之一，與三菱電機 ([[Mitsubishi]] Electric) 長期技術合作。業務範疇涵蓋電力配電、車輛零件、[[自動化]]設備及數位家電。近年受惠於[[台電強韌電網計畫]]、[[綠能]]建置及[[電動車]]充電樁需求，營運成長動能強勁。",
+    "supply_chain_md": "士電位於重電及機電產業鏈中下游，為關鍵設備供應商與系統整合商。\n*   **上游:** 採購銅、鋁、矽鋼片、絕緣油、電子元件。\n*   **中游:** 製造變壓器、配電盤、馬達、電裝品。\n*   **下游:** 供應給電力公司 ([[台電]])、工廠 ([[半導體]]/傳產)、車廠、建築業。",
+    "customers_suppliers_md": "*   **主要客戶:**\n    *   **重電:** [[台電]] (強韌電網計畫)、[[台積電]]、[[聯電]]、美光 (高科技廠房)。\n    *   **車用:** [[三陽]]、[[光陽]]、中華車。\n    *   **外銷:** 北美電力公司、[[Mitsubishi]]。\n*   **主要供應商:**\n    *   **技術:** [[Mitsubishi]] Electric (長期合作夥伴)。\n    *   **原料:** 國際原物料大廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

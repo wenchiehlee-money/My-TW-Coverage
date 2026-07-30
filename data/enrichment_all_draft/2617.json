@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2617",
+  "company_name": "台航",
+  "title": "2617 - 台航",
+  "source_md": "Pilot_Reports/Marine Shipping/2617_台航.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "11,872 百萬台幣",
+    "enterprise_value": "15,324 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣航業股份有限公司 (2617，Taiwan Navigation) 成立於 1946 年，主要股東為[[交通部]] (逾 26%) 及[[陽明海運]]。主要業務包括：(1) 散裝航運 — 擁有輕便型、極限型及卡姆薩型散裝船隊，服務全球；(2) 港勤業務 — 經營台中港及桃園觀塘港 ([[台灣[[中油]]]] [[LNG]]接收站) 之拖船業務；(3) 客運 — 經營高雄-馬公航線 (臺華輪/澎湖輪)；(4) 代營 — 代營[[台灣中油]]及[[台電]]船舶。",
+    "entities": [
+      "交通部",
+      "陽明海運",
+      "台灣[[中油",
+      "LNG",
+      "台灣中油",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶建造與維護)",
+        "text": "**上游 (船舶建造與維護):**",
+        "entities": []
+      },
+      {
+        "category": "造船",
+        "text": "國內外造船廠 — 散裝輪與拖船",
+        "entities": []
+      },
+      {
+        "category": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (海運與港勤服務)",
+        "text": "**中游 (海運與港勤服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台航** — 散裝航運服務、港勤拖船業務、客運營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "散裝客戶",
+        "text": "國際糧商與礦商 — 穀物、煤炭運輸",
+        "entities": []
+      },
+      {
+        "category": "港勤",
+        "text": "[[台灣中油]] — LNG 接收站拖船服務",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "代營",
+        "text": "[[台灣中油]]、[[台電]] — 船舶代營",
+        "entities": [
+          "台灣中油",
+          "台電"
+        ]
+      },
+      {
+        "category": "客運",
+        "text": "高雄-馬公航線旅客",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "散裝航運",
+        "text": "國際糧商與礦商 — 穀物、煤炭運輸",
+        "entities": []
+      },
+      {
+        "role": "港勤",
+        "text": "[[台灣中油]] — 觀塘 LNG 接收站拖船",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "代營",
+        "text": "[[台灣中油]]、[[台電]] — 船舶代營",
+        "entities": [
+          "台灣中油",
+          "台電"
+        ]
+      },
+      {
+        "role": "客運",
+        "text": "高雄-馬公航線旅客 — 臺華輪/澎湖輪",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "造船",
+        "text": "國內外造船廠",
+        "entities": []
+      },
+      {
+        "role": "燃油",
+        "text": "全球燃油供應商",
+        "entities": []
+      },
+      {
+        "role": "股東",
+        "text": "[[交通部]]、[[陽明海運]] — 官股背景",
+        "entities": [
+          "交通部",
+          "陽明海運"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Marine Shipping):** [[長榮]]、[[新興]]、[[裕民]]、[[陽明]]、[[志信]]",
+        "entities": [
+          "長榮",
+          "新興",
+          "裕民",
+          "陽明",
+          "志信"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台灣中油",
+          "台灣中油",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "交通部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "交通部"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "台灣[[中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣[[中油"
+    },
+    {
+      "name": "LNG",
+      "type": "international_company_or_term",
+      "wikilink": "LNG"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "長榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮"
+    },
+    {
+      "name": "新興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新興"
+    },
+    {
+      "name": "裕民",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕民"
+    },
+    {
+      "name": "陽明",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明"
+    },
+    {
+      "name": "志信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志信"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣航業股份有限公司 (2617，Taiwan Navigation) 成立於 1946 年，主要股東為[[交通部]] (逾 26%) 及[[陽明海運]]。主要業務包括：(1) 散裝航運 — 擁有輕便型、極限型及卡姆薩型散裝船隊，服務全球；(2) 港勤業務 — 經營台中港及桃園觀塘港 ([[台灣[[中油]]]] [[LNG]]接收站) 之拖船業務；(3) 客運 — 經營高雄-馬公航線 (臺華輪/澎湖輪)；(4) 代營 — 代營[[台灣中油]]及[[台電]]船舶。",
+    "supply_chain_md": "**上游 (船舶建造與維護):**\n- **造船:** 國內外造船廠 — 散裝輪與拖船\n- **燃油:** 全球各港口燃油供應商\n\n**中游 (海運與港勤服務):**\n- **台航** — 散裝航運服務、港勤拖船業務、客運營運\n\n**下游 (終端客戶):**\n- **散裝客戶:** 國際糧商與礦商 — 穀物、煤炭運輸\n- **港勤:** [[台灣中油]] — LNG 接收站拖船服務\n- **代營:** [[台灣中油]]、[[台電]] — 船舶代營\n- **客運:** 高雄-馬公航線旅客",
+    "customers_suppliers_md": "### 主要客戶\n- **散裝航運:** 國際糧商與礦商 — 穀物、煤炭運輸\n- **港勤:** [[台灣中油]] — 觀塘 LNG 接收站拖船\n- **代營:** [[台灣中油]]、[[台電]] — 船舶代營\n- **客運:** 高雄-馬公航線旅客 — 臺華輪/澎湖輪\n\n### 主要供應商\n- **造船:** 國內外造船廠\n- **燃油:** 全球燃油供應商\n- **股東:** [[交通部]]、[[陽明海運]] — 官股背景"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3297",
+  "company_name": "杭特",
+  "title": "3297 - 杭特",
+  "source_md": "Pilot_Reports/Security & Protection Services/3297_杭特.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Security & Protection Services",
+    "market_cap": "928 百萬台幣",
+    "enterprise_value": "867 百萬台幣"
+  },
+  "business": {
+    "summary": "杭特電子股份有限公司（Hunt Electronic）為台灣老牌CCTV監控設備製造商，主要產品為IP Camera（網路攝影機）、NVR（錄影主機）與相關監控軟體。公司聚焦[[NDAA]]（美國國防授權法案）合規市場，享有「去中化」轉單效益。產品堅持台灣製造（MIT），生產基地位於基隆。此外亦開發防爆攝影機、[[AI]]智慧辨識等利基型產品，應用於工廠、交通與特殊場域。主要與海外安控品牌進行[[ODM]]合作。",
+    "entities": [
+      "NDAA",
+      "AI",
+      "ODM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵元件)",
+        "text": "**上游 (關鍵元件):**",
+        "entities": []
+      },
+      {
+        "category": "影像處理晶片",
+        "text": "ISP晶片（如[[聯詠]]、[[安霸]]）",
+        "entities": [
+          "聯詠",
+          "安霸"
+        ]
+      },
+      {
+        "category": "感光元件",
+        "text": "[[CIS]]影像感測器（如[[Sony]]）",
+        "entities": [
+          "CIS",
+          "Sony"
+        ]
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "鏡頭模組供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**杭特電子** — IP Camera、NVR之設計製造（台灣基隆廠），[[NDAA]]合規",
+        "entities": [
+          "NDAA"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "歐美品牌",
+        "text": "歐美安控品牌（[[ODM]]貼牌銷售）",
+        "entities": [
+          "ODM"
+        ]
+      },
+      {
+        "category": "國內SI",
+        "text": "國內安防系統整合商（標案、大樓監控）",
+        "entities": []
+      },
+      {
+        "category": "特殊場域",
+        "text": "工廠、交通、防爆場域安防",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐美安控品牌",
+        "text": "歐美安防品牌商（[[ODM]]貼牌出口，[[NDAA]]合規）",
+        "entities": [
+          "ODM",
+          "NDAA"
+        ]
+      },
+      {
+        "role": "國內系統整合商",
+        "text": "台灣安防SI（政府標案、大樓監控工程）",
+        "entities": []
+      },
+      {
+        "role": "特殊場域",
+        "text": "工廠防爆、交通監控等利基市場",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "影像晶片",
+        "text": "[[聯詠]]、[[安霸]]（ISP/SoC晶片）",
+        "entities": [
+          "聯詠",
+          "安霸"
+        ]
+      },
+      {
+        "role": "感光元件",
+        "text": "[[Sony]]（[[CIS]]影像感測器）",
+        "entities": [
+          "Sony",
+          "CIS"
+        ]
+      },
+      {
+        "role": "光學鏡頭",
+        "text": "鏡頭模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Security & Protection Services):** [[云辰]]、[[奇偶]]、[[晶睿]]、[[建騰]]、[[慧友]]",
+        "entities": [
+          "云辰",
+          "奇偶",
+          "晶睿",
+          "建騰",
+          "慧友"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ODM",
+          "NDAA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "杭特電子股份有限公司（Hunt Electronic）為台灣老牌CCTV監控設備製造商，主要產品為IP Camera（網路攝影機）、NVR（錄影主機）與相關監控軟體。公司聚焦[[NDAA]]（美國國防授權法案）合規市場，享有「去中化」轉單效益。產品堅持台灣製造（MIT），生產基地位於基隆。此外亦開發防爆攝影機、[[AI]]智慧辨識等利基型產品，應用於工廠、交通與特殊場域。主要與海外安控品牌進行[[ODM]]合作。",
+        "entities": [
+          "NDAA",
+          "AI",
+          "ODM"
+        ]
+      },
+      {
+        "text": "- **特殊場域:** 工廠防爆、交通監控等利基市場",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NDAA",
+      "type": "international_company_or_term",
+      "wikilink": "NDAA"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "安霸",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安霸"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "云辰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "云辰"
+    },
+    {
+      "name": "奇偶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇偶"
+    },
+    {
+      "name": "晶睿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶睿"
+    },
+    {
+      "name": "建騰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建騰"
+    },
+    {
+      "name": "慧友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "慧友"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "杭特電子股份有限公司（Hunt Electronic）為台灣老牌CCTV監控設備製造商，主要產品為IP Camera（網路攝影機）、NVR（錄影主機）與相關監控軟體。公司聚焦[[NDAA]]（美國國防授權法案）合規市場，享有「去中化」轉單效益。產品堅持台灣製造（MIT），生產基地位於基隆。此外亦開發防爆攝影機、[[AI]]智慧辨識等利基型產品，應用於工廠、交通與特殊場域。主要與海外安控品牌進行[[ODM]]合作。",
+    "supply_chain_md": "**上游 (關鍵元件):**\n- **影像處理晶片:** ISP晶片（如[[聯詠]]、[[安霸]]）\n- **感光元件:** [[CIS]]影像感測器（如[[Sony]]）\n- **光學鏡頭:** 鏡頭模組供應商\n\n**中游 (製造):**\n- **杭特電子** — IP Camera、NVR之設計製造（台灣基隆廠），[[NDAA]]合規\n\n**下游 (終端市場):**\n- **歐美品牌:** 歐美安控品牌（[[ODM]]貼牌銷售）\n- **國內SI:** 國內安防系統整合商（標案、大樓監控）\n- **特殊場域:** 工廠、交通、防爆場域安防",
+    "customers_suppliers_md": "### 主要客戶\n- **歐美安控品牌:** 歐美安防品牌商（[[ODM]]貼牌出口，[[NDAA]]合規）\n- **國內系統整合商:** 台灣安防SI（政府標案、大樓監控工程）\n- **特殊場域:** 工廠防爆、交通監控等利基市場\n\n### 主要供應商\n- **影像晶片:** [[聯詠]]、[[安霸]]（ISP/SoC晶片）\n- **感光元件:** [[Sony]]（[[CIS]]影像感測器）\n- **光學鏡頭:** 鏡頭模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

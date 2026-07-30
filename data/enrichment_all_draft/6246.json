@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6246",
+  "company_name": "臺龍",
+  "title": "6246_臺龍",
+  "source_md": "Pilot_Reports/Electronic Components/6246_臺龍.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "452 百萬台幣",
+    "enterprise_value": "339 百萬台幣"
+  },
+  "business": {
+    "summary": "臺龍電子 (6246，[[TTFIC]]) 成立於 1982 年，為台灣老牌平面顯示器背光模組及零組件製造商。核心業務涵蓋 [[LED]] 背光模組、導光板、塑膠框及 LED 燈條的生產與銷售。\n\n業務結構與發展：(1) 背光模組 — 為面板廠供應 LCD 背光模組，主要客戶包括 [[友達]]、[[群創]] 等台灣面板大廠，產品應用於液晶電視、監視器及工控顯示器；(2) 全貼合技術 — 提供觸控面板全貼合 (Full Lamination) 加工服務；(3) [[LED]] 燈條 — 供應背光用 LED 光條模組。近年因應顯示技術升級，公司亦跨入 AI 應用系統及 ASA 強化塑膠浪板等新事業。上游原料仰賴 [[LED]] 封裝廠、導光板壓克力及光學膜供應商。",
+    "entities": [
+      "TTFIC",
+      "LED",
+      "友達",
+      "群創"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光電材料)",
+        "text": "**上游 (光電材料):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "[[LED]] 晶粒與封裝廠如 [[億光]]、[[東貝]]",
+        "entities": [
+          "LED",
+          "億光",
+          "東貝"
+        ]
+      },
+      {
+        "category": "導光板",
+        "text": "壓克力 (PMMA) 導光板材料供應商",
+        "entities": []
+      },
+      {
+        "category": "光學膜",
+        "text": "增亮膜、擴散膜與反射膜供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (背光模組製造)",
+        "text": "**中游 (背光模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "**臺龍** (LCD 背光模組組裝)",
+        "entities": []
+      },
+      {
+        "category": "LED 燈條",
+        "text": "**臺龍** (背光用 LED 光條)",
+        "entities": []
+      },
+      {
+        "category": "全貼合",
+        "text": "**臺龍** (觸控面板全貼合加工)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板廠與系統廠)",
+        "text": "**下游 (面板廠與系統廠):**",
+        "entities": []
+      },
+      {
+        "category": "面板廠",
+        "text": "[[友達]]、[[群創]] — LCD 背光模組",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "工控顯示",
+        "text": "工業控制顯示器廠 — 特殊規格背光模組",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "液晶電視與監視器品牌 — 背光零組件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板廠",
+        "text": "[[友達]]、[[群創]] — LCD 背光模組與 LED 燈條",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "工控顯示",
+        "text": "工業控制顯示器廠 — 特殊規格背光模組",
+        "entities": []
+      },
+      {
+        "role": "系統組裝",
+        "text": "電子代工廠 — 背光零組件",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 封裝",
+        "text": "[[億光]]、[[東貝]] — [[LED]] 晶粒與封裝元件",
+        "entities": [
+          "億光",
+          "東貝",
+          "LED"
+        ]
+      },
+      {
+        "role": "導光板",
+        "text": "壓克力 (PMMA) 導光板材料供應商",
+        "entities": []
+      },
+      {
+        "role": "光學膜",
+        "text": "增亮膜、擴散膜供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TTFIC",
+      "type": "international_company_or_term",
+      "wikilink": "TTFIC"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "億光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光"
+    },
+    {
+      "name": "東貝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東貝"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "臺龍電子 (6246，[[TTFIC]]) 成立於 1982 年，為台灣老牌平面顯示器背光模組及零組件製造商。核心業務涵蓋 [[LED]] 背光模組、導光板、塑膠框及 LED 燈條的生產與銷售。\n\n業務結構與發展：(1) 背光模組 — 為面板廠供應 LCD 背光模組，主要客戶包括 [[友達]]、[[群創]] 等台灣面板大廠，產品應用於液晶電視、監視器及工控顯示器；(2) 全貼合技術 — 提供觸控面板全貼合 (Full Lamination) 加工服務；(3) [[LED]] 燈條 — 供應背光用 LED 光條模組。近年因應顯示技術升級，公司亦跨入 AI 應用系統及 ASA 強化塑膠浪板等新事業。上游原料仰賴 [[LED]] 封裝廠、導光板壓克力及光學膜供應商。",
+    "supply_chain_md": "**上游 (光電材料):**\n- **LED 封裝:** [[LED]] 晶粒與封裝廠如 [[億光]]、[[東貝]]\n- **導光板:** 壓克力 (PMMA) 導光板材料供應商\n- **光學膜:** 增亮膜、擴散膜與反射膜供應商\n\n**中游 (背光模組製造):**\n- **背光模組:** **臺龍** (LCD 背光模組組裝)\n- **LED 燈條:** **臺龍** (背光用 LED 光條)\n- **全貼合:** **臺龍** (觸控面板全貼合加工)\n\n**下游 (面板廠與系統廠):**\n- **面板廠:** [[友達]]、[[群創]] — LCD 背光模組\n- **工控顯示:** 工業控制顯示器廠 — 特殊規格背光模組\n- **消費電子:** 液晶電視與監視器品牌 — 背光零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **面板廠:** [[友達]]、[[群創]] — LCD 背光模組與 LED 燈條\n- **工控顯示:** 工業控制顯示器廠 — 特殊規格背光模組\n- **系統組裝:** 電子代工廠 — 背光零組件\n\n### 主要供應商\n- **LED 封裝:** [[億光]]、[[東貝]] — [[LED]] 晶粒與封裝元件\n- **導光板:** 壓克力 (PMMA) 導光板材料供應商\n- **光學膜:** 增亮膜、擴散膜供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

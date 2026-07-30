@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2027",
+  "company_name": "大成鋼",
+  "title": "2027 - 大成鋼",
+  "source_md": "Pilot_Reports/Steel/2027_大成鋼.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "101,734 百萬台幣",
+    "enterprise_value": "161,104 百萬台幣"
+  },
+  "business": {
+    "summary": "大成不鏽鋼工業股份有限公司 (Ta Chen Stainless Pipe Co., Ltd.) 成立於 1986 年，總部位於台灣[[台南]]。公司已轉型為**全球最大之不鏽鋼及鋁捲板通路商**，深耕美國市場多年。大成鋼透過獨特之 B2B 電子商務平台及綿密之發貨倉庫網絡，提供「鋼鐵業 7-11」之即時服務。主要產品包括不鏽鋼管/板/閥門、鋁捲板及扣件 (透過子公司[[大國鋼]])。公司在美國擁有鋁板及不鏽鋼管生產基地，實現「美國製造」以應對關稅壁壘。",
+    "entities": [
+      "台南",
+      "大國鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料/產品)",
+        "text": "**上游 (原料/產品):**",
+        "entities": []
+      },
+      {
+        "category": "不鏽鋼",
+        "text": "向全球鋼廠 (如 Walsin, Outokumpu, 華新麗華) 採購或自製 (美國廠)。",
+        "entities": []
+      },
+      {
+        "category": "鋁捲板",
+        "text": "早期主要進口，現透過美國德州廠自製 (收購 Alumax 資產)，並持續擴產以提升自給率。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "工業應用",
+        "text": "石化、食品、建築、機械製造之管線與結構。",
+        "entities": []
+      },
+      {
+        "category": "交通運輸",
+        "text": "鋁板用於拖車、卡車車體及遊艇。",
+        "entities": []
+      },
+      {
+        "category": "扣件",
+        "text": "建築及工業用標準扣件。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "通路商",
+        "text": "美國各地之鋼鐵盤商 (Distributors) 及金屬服務中心 (Service Centers)，如 [[Reliance Steel & Aluminum]]、[[Ryerson]]、[[Alro Steel]]。客戶數超過 5,000 家。",
+        "entities": [
+          "Reliance Steel & Aluminum",
+          "Ryerson",
+          "Alro Steel"
+        ]
+      },
+      {
+        "role": "策略夥伴",
+        "text": "[[豐田通商]] ([[Toyota]] Tsusho) 近期入股，鞏固[[電動車]]電池鋁材供應。",
+        "entities": [
+          "豐田通商",
+          "Toyota",
+          "電動車"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[華新麗華]]、[[ThyssenKrupp]]、[[ATI]]、[[AK Steel]]。",
+        "entities": [
+          "華新麗華",
+          "ThyssenKrupp",
+          "ATI",
+          "AK Steel"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Reliance Steel & Aluminum",
+          "Ryerson",
+          "Alro Steel",
+          "豐田通商",
+          "Toyota",
+          "電動車"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台南",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台南"
+    },
+    {
+      "name": "大國鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大國鋼"
+    },
+    {
+      "name": "Reliance Steel & Aluminum",
+      "type": "international_company_or_term",
+      "wikilink": "Reliance Steel & Aluminum"
+    },
+    {
+      "name": "Ryerson",
+      "type": "international_company_or_term",
+      "wikilink": "Ryerson"
+    },
+    {
+      "name": "Alro Steel",
+      "type": "international_company_or_term",
+      "wikilink": "Alro Steel"
+    },
+    {
+      "name": "豐田通商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐田通商"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "ThyssenKrupp",
+      "type": "international_company_or_term",
+      "wikilink": "ThyssenKrupp"
+    },
+    {
+      "name": "ATI",
+      "type": "international_company_or_term",
+      "wikilink": "ATI"
+    },
+    {
+      "name": "AK Steel",
+      "type": "international_company_or_term",
+      "wikilink": "AK Steel"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大成不鏽鋼工業股份有限公司 (Ta Chen Stainless Pipe Co., Ltd.) 成立於 1986 年，總部位於台灣[[台南]]。公司已轉型為**全球最大之不鏽鋼及鋁捲板通路商**，深耕美國市場多年。大成鋼透過獨特之 B2B 電子商務平台及綿密之發貨倉庫網絡，提供「鋼鐵業 7-11」之即時服務。主要產品包括不鏽鋼管/板/閥門、鋁捲板及扣件 (透過子公司[[大國鋼]])。公司在美國擁有鋁板及不鏽鋼管生產基地，實現「美國製造」以應對關稅壁壘。",
+    "supply_chain_md": "**上游 (原料/產品):**\n- **不鏽鋼:** 向全球鋼廠 (如 Walsin, Outokumpu, 華新麗華) 採購或自製 (美國廠)。\n- **鋁捲板:** 早期主要進口，現透過美國德州廠自製 (收購 Alumax 資產)，並持續擴產以提升自給率。\n\n**下游應用:**\n- **工業應用:** 石化、食品、建築、機械製造之管線與結構。\n- **交通運輸:** 鋁板用於拖車、卡車車體及遊艇。\n- **扣件:** 建築及工業用標準扣件。",
+    "customers_suppliers_md": "### 主要客戶\n- **通路商:** 美國各地之鋼鐵盤商 (Distributors) 及金屬服務中心 (Service Centers)，如 [[Reliance Steel & Aluminum]]、[[Ryerson]]、[[Alro Steel]]。客戶數超過 5,000 家。\n- **策略夥伴:** [[豐田通商]] ([[Toyota]] Tsusho) 近期入股，鞏固[[電動車]]電池鋁材供應。\n\n### 主要供應商\n- **原料:** [[華新麗華]]、[[ThyssenKrupp]]、[[ATI]]、[[AK Steel]]。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

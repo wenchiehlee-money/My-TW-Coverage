@@ -1,0 +1,226 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4942",
+  "company_name": "嘉彰",
+  "title": "4942 - 嘉彰",
+  "source_md": "Pilot_Reports/Electronic Components/4942_嘉彰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,883 百萬台幣",
+    "enterprise_value": "1,601 百萬台幣"
+  },
+  "business": {
+    "summary": "嘉彰 (Chia Chang) 為專業 **金屬沖壓機構件** 製造商。\n核心技術為精密金屬沖壓、成型與外觀處理 (CNC, 陽極, 鑽切)。\n主要產品應用：\n1.  **光電/顯示器**: 面板框架 (Bezel/Back cover)、背光模組鐵件 (Monitor, TV, NB)。\n2.  **資訊/網通**: 筆電金屬機殼、[[伺服器]]機殼、[[工業電腦]]機構件。\n3.  **車載**: 車用顯示器機構件、電池機構件。\n4.  **醫療**: [[醫療器材]]機構件。\n生產基地遍及台灣 (桃園)、中國 (蘇州, 寧波, 南京) 與 **越南** (新廠佈局中).",
+    "entities": [
+      "伺服器",
+      "工業電腦",
+      "醫療器材"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 金屬板材 (鋼板, 鋁板, 鍍鋅鋼板), 模具鋼材.",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **嘉彰 (4942)** - 金屬沖壓/機構件製造.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**面板/背光廠**: [[友達]], [[群創]], 京東方 (BOE), [[瑞儀]].",
+        "entities": [
+          "友達",
+          "群創",
+          "瑞儀"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**系統廠/品牌**: [[Dell]], [[HP]], [[Lenovo]], [[網通]]設備廠.",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "網通"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**面板廠**: **[[友達]]**, **[[群創]]**, 京東方.",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**背光模組**: **[[瑞儀]]**, **[[中光電]]**.",
+        "entities": [
+          "瑞儀",
+          "中光電"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**終端品牌**: 美系/中系平板與筆電品牌.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**鋼材**: [[中鋼]], 浦項鋼鐵 (POSCO).",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "友達",
+          "群創",
+          "瑞儀",
+          "中光電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "醫療器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療器材"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "瑞儀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞儀"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "中光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中光電"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "嘉彰 (Chia Chang) 為專業 **金屬沖壓機構件** 製造商。\n核心技術為精密金屬沖壓、成型與外觀處理 (CNC, 陽極, 鑽切)。\n主要產品應用：\n1.  **光電/顯示器**: 面板框架 (Bezel/Back cover)、背光模組鐵件 (Monitor, TV, NB)。\n2.  **資訊/網通**: 筆電金屬機殼、[[伺服器]]機殼、[[工業電腦]]機構件。\n3.  **車載**: 車用顯示器機構件、電池機構件。\n4.  **醫療**: [[醫療器材]]機構件。\n生產基地遍及台灣 (桃園)、中國 (蘇州, 寧波, 南京) 與 **越南** (新廠佈局中).",
+    "supply_chain_md": "*   **中游 (本體)**: **嘉彰 (4942)** - 金屬沖壓/機構件製造.\n*   **上游**: 金屬板材 (鋼板, 鋁板, 鍍鋅鋼板), 模具鋼材.\n*   **下游**:\n    *   **面板/背光廠**: [[友達]], [[群創]], 京東方 (BOE), [[瑞儀]].\n    *   **系統廠/品牌**: [[Dell]], [[HP]], [[Lenovo]], [[網通]]設備廠.",
+    "customers_suppliers_md": "### 主要客戶\n*   **面板廠**: **[[友達]]**, **[[群創]]**, 京東方.\n*   **背光模組**: **[[瑞儀]]**, **[[中光電]]**.\n*   **終端品牌**: 美系/中系平板與筆電品牌.\n\n### 主要供應商\n*   **鋼材**: [[中鋼]], 浦項鋼鐵 (POSCO)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

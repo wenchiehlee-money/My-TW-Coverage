@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1310",
+  "company_name": "台苯",
+  "title": "1310 - 台苯",
+  "source_md": "Pilot_Reports/Chemicals/1310_台苯.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals",
+    "market_cap": "3,938 百萬台幣",
+    "enterprise_value": "4,722 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣苯乙烯工業股份有限公司 (Taiwan Styrene Monomer Corporation, [[台積電]]) 簡稱台苯，成立於 1979 年，總部位於台灣[[台北]]，工廠設於高雄[[林園工業區]]。台苯為台灣主要之[[苯乙烯]] (SM) 專業生產商，與國喬、台化並列為台灣 SM 三雄。苯乙烯為重要之石化中間原料，廣泛應用於塑膠、橡膠及合成纖維產業。近年來，公司亦致力於提升製程效率與工安環保，鞏固其在國內市場之地位。",
+    "entities": [
+      "台積電",
+      "台北",
+      "林園工業區",
+      "苯乙烯"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化基礎原料)",
+        "text": "**上游 (石化基礎原料):**",
+        "entities": []
+      },
+      {
+        "category": "原料樞紐",
+        "text": "主要依賴 [[台灣中油]] 等廠及部分國外進口提供之關鍵原料如乙烯 (Ethylene) 與苯 (Benzene)，具備緊鄰林園與六輕石化園區之地利優勢與管線運輸利益。",
+        "entities": [
+          "台灣中油"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (SM專業生產商)",
+        "text": "**中游 (SM專業生產商):**",
+        "entities": []
+      },
+      {
+        "category": "核心煉製與轉型",
+        "text": "**台苯 (1310)** (為台灣著名的「SM三雄」之一，極度專注於苯乙烯單體 (SM) 與對二乙苯之專業煉製與量產，近年來積極尋求綠能轉型、探索資源回收與能源再生之新事業體)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (泛用塑膠與橡膠聚合物)",
+        "text": "**下游 (泛用塑膠與橡膠聚合物):**",
+        "entities": []
+      },
+      {
+        "category": "基礎民生工業終端",
+        "text": "廣泛涵蓋聚苯乙烯 (PS)、ABS 樹脂、發泡聚苯乙烯 (EPS) 及合成橡膠 (SBR) 製造端，其產品最終大量應用於3C外殼、建材與車輛輪胎等民生與工業領域。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "通用塑膠與樹脂大廠",
+        "text": "常年穩定交替供應給國內外各大 PS、ABS 與 EPS 聚合生產廠商 (如重量級之 [[奇美實業]]、[[台達化]]) 作為核心上游生產原料。",
+        "entities": [
+          "奇美實業",
+          "台達化"
+        ]
+      },
+      {
+        "role": "橡膠與特用化學品廠",
+        "text": "穩定供應其高品質 SM 單體予下游的大型合成橡膠製造鉅子 (如 [[台橡]])，以進一步投入高階車用綠色輪胎與特用橡膠製造。",
+        "entities": [
+          "台橡"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "國營與大型石化基石",
+        "text": "由於上游原料佔其總製造成本極高，因此高度仰賴且簽署長約要求 [[台灣中油]] 原油煉油裂解廠及少數國際大型貿易商，穩定調度調配其乙烯與純苯之進料供給。",
+        "entities": [
+          "台灣中油"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Chemicals):** [[國喬]]、[[聯成]]、[[台化]]、[[東鹼]]、[[和益]]",
+        "entities": [
+          "國喬",
+          "聯成",
+          "台化",
+          "東鹼",
+          "和益"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "奇美實業",
+          "台達化",
+          "台橡"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "林園工業區",
+      "type": "taiwan_company_or_term",
+      "wikilink": "林園工業區"
+    },
+    {
+      "name": "苯乙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "苯乙烯"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "奇美實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇美實業"
+    },
+    {
+      "name": "台達化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達化"
+    },
+    {
+      "name": "台橡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台橡"
+    },
+    {
+      "name": "國喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國喬"
+    },
+    {
+      "name": "聯成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯成"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "東鹼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東鹼"
+    },
+    {
+      "name": "和益",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和益"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣苯乙烯工業股份有限公司 (Taiwan Styrene Monomer Corporation, [[台積電]]) 簡稱台苯，成立於 1979 年，總部位於台灣[[台北]]，工廠設於高雄[[林園工業區]]。台苯為台灣主要之[[苯乙烯]] (SM) 專業生產商，與國喬、台化並列為台灣 SM 三雄。苯乙烯為重要之石化中間原料，廣泛應用於塑膠、橡膠及合成纖維產業。近年來，公司亦致力於提升製程效率與工安環保，鞏固其在國內市場之地位。",
+    "supply_chain_md": "**上游 (石化基礎原料):**\n- **原料樞紐:** 主要依賴 [[台灣中油]] 等廠及部分國外進口提供之關鍵原料如乙烯 (Ethylene) 與苯 (Benzene)，具備緊鄰林園與六輕石化園區之地利優勢與管線運輸利益。\n\n**中游 (SM專業生產商):**\n- **核心煉製與轉型:** **台苯 (1310)** (為台灣著名的「SM三雄」之一，極度專注於苯乙烯單體 (SM) 與對二乙苯之專業煉製與量產，近年來積極尋求綠能轉型、探索資源回收與能源再生之新事業體)。\n\n**下游 (泛用塑膠與橡膠聚合物):**\n- **基礎民生工業終端:** 廣泛涵蓋聚苯乙烯 (PS)、ABS 樹脂、發泡聚苯乙烯 (EPS) 及合成橡膠 (SBR) 製造端，其產品最終大量應用於3C外殼、建材與車輛輪胎等民生與工業領域。",
+    "customers_suppliers_md": "### 主要客戶\n- **通用塑膠與樹脂大廠:** 常年穩定交替供應給國內外各大 PS、ABS 與 EPS 聚合生產廠商 (如重量級之 [[奇美實業]]、[[台達化]]) 作為核心上游生產原料。\n- **橡膠與特用化學品廠:** 穩定供應其高品質 SM 單體予下游的大型合成橡膠製造鉅子 (如 [[台橡]])，以進一步投入高階車用綠色輪胎與特用橡膠製造。\n\n### 主要供應商\n- **國營與大型石化基石:** 由於上游原料佔其總製造成本極高，因此高度仰賴且簽署長約要求 [[台灣中油]] 原油煉油裂解廠及少數國際大型貿易商，穩定調度調配其乙烯與純苯之進料供給。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

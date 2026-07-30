@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1506",
+  "company_name": "正道",
+  "title": "1506 - 正道",
+  "source_md": "Pilot_Reports/Auto Parts/1506_正道.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "3,094 百萬台幣",
+    "enterprise_value": "3,173 百萬台幣"
+  },
+  "business": {
+    "summary": "正道工業 (1506，Right Way Industrial) 為精密金屬鍛造、鑄造及 CNC 加工專業廠，擁有逾 50 年供應美日車廠經驗。公司取得美國 NASA 授權耐高溫鋁合金技術，為全球唯一具量產實績之 NASA 鍛造鋁合金活塞專業廠，年產逾 20 萬顆。產品線涵蓋汽車/ATV/雪車/遊艇/卡車之活塞、連桿、轉向與懸吊零件。主要客戶涵蓋[[Trane Technologies]]/[[Thermo King]] (冷凍壓縮機)、[[BRP]]及[[Polaris]] (休閒載具)、[[Yamaha]]。近年跨足電動車底盤鋁鍛件。",
+    "entities": [
+      "Trane Technologies",
+      "Thermo King",
+      "BRP",
+      "Polaris",
+      "Yamaha"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊鋁合金",
+        "text": "NASA 授權耐高溫鋁合金",
+        "entities": []
+      },
+      {
+        "category": "鑄鐵/鋼材",
+        "text": "特殊金屬原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**正道** (NASA 鋁合金活塞/底盤鍛件/精密 CNC 加工)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "冷凍壓縮機",
+        "text": "[[Trane Technologies]]/[[Thermo King]] — 活塞",
+        "entities": [
+          "Trane Technologies",
+          "Thermo King"
+        ]
+      },
+      {
+        "category": "休閒載具",
+        "text": "[[BRP]]、[[Polaris]]、[[Yamaha]] — ATV/雪車零件",
+        "entities": [
+          "BRP",
+          "Polaris",
+          "Yamaha"
+        ]
+      },
+      {
+        "category": "汽車 OEM",
+        "text": "歐美日系車廠 — 轉向/懸吊零件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "冷凍壓縮",
+        "text": "[[Trane Technologies]]/[[Thermo King]] — 活塞",
+        "entities": [
+          "Trane Technologies",
+          "Thermo King"
+        ]
+      },
+      {
+        "role": "休閒載具",
+        "text": "[[BRP]]、[[Polaris]]、[[Yamaha]] — ATV/雪車",
+        "entities": [
+          "BRP",
+          "Polaris",
+          "Yamaha"
+        ]
+      },
+      {
+        "role": "汽車 OEM",
+        "text": "歐美日系車廠 — 轉向/懸吊",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋁合金",
+        "text": "NASA 授權耐高溫鋁合金",
+        "entities": []
+      },
+      {
+        "role": "金屬",
+        "text": "特殊鑄鐵/鋼材",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[瑞利]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "瑞利"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Trane Technologies",
+          "Thermo King",
+          "BRP",
+          "Polaris",
+          "Yamaha"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Trane Technologies",
+      "type": "international_company_or_term",
+      "wikilink": "Trane Technologies"
+    },
+    {
+      "name": "Thermo King",
+      "type": "international_company_or_term",
+      "wikilink": "Thermo King"
+    },
+    {
+      "name": "BRP",
+      "type": "international_company_or_term",
+      "wikilink": "BRP"
+    },
+    {
+      "name": "Polaris",
+      "type": "international_company_or_term",
+      "wikilink": "Polaris"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "瑞利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞利"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "正道工業 (1506，Right Way Industrial) 為精密金屬鍛造、鑄造及 CNC 加工專業廠，擁有逾 50 年供應美日車廠經驗。公司取得美國 NASA 授權耐高溫鋁合金技術，為全球唯一具量產實績之 NASA 鍛造鋁合金活塞專業廠，年產逾 20 萬顆。產品線涵蓋汽車/ATV/雪車/遊艇/卡車之活塞、連桿、轉向與懸吊零件。主要客戶涵蓋[[Trane Technologies]]/[[Thermo King]] (冷凍壓縮機)、[[BRP]]及[[Polaris]] (休閒載具)、[[Yamaha]]。近年跨足電動車底盤鋁鍛件。",
+    "supply_chain_md": "**上游 (原料):**\n- **特殊鋁合金:** NASA 授權耐高溫鋁合金\n- **鑄鐵/鋼材:** 特殊金屬原料\n\n**中游 (製造):**\n- **正道** (NASA 鋁合金活塞/底盤鍛件/精密 CNC 加工)\n\n**下游 (終端):**\n- **冷凍壓縮機:** [[Trane Technologies]]/[[Thermo King]] — 活塞\n- **休閒載具:** [[BRP]]、[[Polaris]]、[[Yamaha]] — ATV/雪車零件\n- **汽車 OEM:** 歐美日系車廠 — 轉向/懸吊零件",
+    "customers_suppliers_md": "### 主要客戶\n- **冷凍壓縮:** [[Trane Technologies]]/[[Thermo King]] — 活塞\n- **休閒載具:** [[BRP]]、[[Polaris]]、[[Yamaha]] — ATV/雪車\n- **汽車 OEM:** 歐美日系車廠 — 轉向/懸吊\n\n### 主要供應商\n- **鋁合金:** NASA 授權耐高溫鋁合金\n- **金屬:** 特殊鑄鐵/鋼材"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

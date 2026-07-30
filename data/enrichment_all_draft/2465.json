@@ -1,0 +1,269 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2465",
+  "company_name": "麗臺",
+  "title": "2465 - 麗臺",
+  "source_md": "Pilot_Reports/Computer Hardware/2465_麗臺.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "6,820 百萬台幣",
+    "enterprise_value": "6,654 百萬台幣"
+  },
+  "business": {
+    "summary": "麗臺科技 (2465，[[Leadtek]]) 成立於 1986 年，總部位於新北市。公司為 [[NVIDIA]] 長期策略合作夥伴，專精於專業繪圖卡、[[AI]] 工作站及 [[GPU]] 運算伺服器之設計製造與銷售。\n\n核心產品涵蓋：(1) [[NVIDIA]] RTX 專業繪圖卡 (Quadro/RTX 系列) — 為亞太區重要合作夥伴及總代理；(2) WinFast 品牌 [[AI]] 工作站與 [[GPU]] 伺服器 — 搭載 [[NVIDIA]] A100/H100/L40S 等高階 GPU，服務 AI 訓練與推論需求；(3) 智慧醫療產品 — 開發隨身型心電圖儀 (ECG)、血氧偵測裝置，取得多國醫療器材認證。近年積極推展 GPU 算力租賃 (GPUaaS) 服務，瞄準企業 AI 訓練及學術研究市場。",
+    "entities": [
+      "Leadtek",
+      "NVIDIA",
+      "AI",
+      "GPU"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵晶片與電子元件)",
+        "text": "**上游 (關鍵晶片與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "GPU 晶片",
+        "text": "[[NVIDIA]] — RTX/Quadro/A100/H100 等專業與資料中心 GPU",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[Micron]]、[[SK Hynix]] — GDDR6/GDDR7 顯示記憶體及 [[DDR5]] 伺服器記憶體",
+        "entities": [
+          "Samsung",
+          "Micron",
+          "SK Hynix",
+          "DDR5"
+        ]
+      },
+      {
+        "category": "基板",
+        "text": "[[PCB]] 及高階顯卡基板供應商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (繪圖卡與 AI 系統設計製造)",
+        "text": "**中游 (繪圖卡與 AI 系統設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "專業繪圖卡",
+        "text": "**麗臺** ([[NVIDIA]] RTX 專業繪圖卡設計製造)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "AI 工作站",
+        "text": "**麗臺** (WinFast GPU 工作站/伺服器)",
+        "entities": []
+      },
+      {
+        "category": "智慧醫療",
+        "text": "**麗臺** (隨身心電圖儀、血氧偵測裝置)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用市場)",
+        "text": "**下游 (終端應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "專業設計",
+        "text": "CAD/CAE/M&E 設計師與工程師",
+        "entities": []
+      },
+      {
+        "category": "AI 運算",
+        "text": "企業 [[AI]] 訓練、研究機構、[[資料中心]]",
+        "entities": [
+          "AI",
+          "資料中心"
+        ]
+      },
+      {
+        "category": "醫療照護",
+        "text": "醫療院所及遠距照護機構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業 AI",
+        "text": "台灣大型企業及金融機構 — GPU 算力租賃 (GPUaaS)",
+        "entities": []
+      },
+      {
+        "role": "學術研究",
+        "text": "國內公私立大學及研究機構 — AI 工作站與 HPC 叢集",
+        "entities": []
+      },
+      {
+        "role": "專業設計",
+        "text": "CAD/CAE 設計公司 — [[NVIDIA]] RTX 專業繪圖卡",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "國內外醫療院所 — 隨身心電圖儀與遠距照護裝置",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "GPU 晶片",
+        "text": "[[NVIDIA]] — 專業繪圖與 AI 運算 GPU 獨家合作",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[Micron]]、[[SK Hynix]] — 顯示記憶體模組",
+        "entities": [
+          "Samsung",
+          "Micron",
+          "SK Hynix"
+        ]
+      },
+      {
+        "role": "散熱/電源",
+        "text": "散熱模組及電源供應器廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NVIDIA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Leadtek",
+      "type": "international_company_or_term",
+      "wikilink": "Leadtek"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "GPU",
+      "type": "international_company_or_term",
+      "wikilink": "GPU"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "DDR5",
+      "type": "international_company_or_term",
+      "wikilink": "DDR5"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "麗臺科技 (2465，[[Leadtek]]) 成立於 1986 年，總部位於新北市。公司為 [[NVIDIA]] 長期策略合作夥伴，專精於專業繪圖卡、[[AI]] 工作站及 [[GPU]] 運算伺服器之設計製造與銷售。\n\n核心產品涵蓋：(1) [[NVIDIA]] RTX 專業繪圖卡 (Quadro/RTX 系列) — 為亞太區重要合作夥伴及總代理；(2) WinFast 品牌 [[AI]] 工作站與 [[GPU]] 伺服器 — 搭載 [[NVIDIA]] A100/H100/L40S 等高階 GPU，服務 AI 訓練與推論需求；(3) 智慧醫療產品 — 開發隨身型心電圖儀 (ECG)、血氧偵測裝置，取得多國醫療器材認證。近年積極推展 GPU 算力租賃 (GPUaaS) 服務，瞄準企業 AI 訓練及學術研究市場。",
+    "supply_chain_md": "**上游 (關鍵晶片與電子元件):**\n- **GPU 晶片:** [[NVIDIA]] — RTX/Quadro/A100/H100 等專業與資料中心 GPU\n- **記憶體:** [[Samsung]]、[[Micron]]、[[SK Hynix]] — GDDR6/GDDR7 顯示記憶體及 [[DDR5]] 伺服器記憶體\n- **基板:** [[PCB]] 及高階顯卡基板供應商\n\n**中游 (繪圖卡與 AI 系統設計製造):**\n- **專業繪圖卡:** **麗臺** ([[NVIDIA]] RTX 專業繪圖卡設計製造)\n- **AI 工作站:** **麗臺** (WinFast GPU 工作站/伺服器)\n- **智慧醫療:** **麗臺** (隨身心電圖儀、血氧偵測裝置)\n\n**下游 (終端應用市場):**\n- **專業設計:** CAD/CAE/M&E 設計師與工程師\n- **AI 運算:** 企業 [[AI]] 訓練、研究機構、[[資料中心]]\n- **醫療照護:** 醫療院所及遠距照護機構",
+    "customers_suppliers_md": "### 主要客戶\n- **企業 AI:** 台灣大型企業及金融機構 — GPU 算力租賃 (GPUaaS)\n- **學術研究:** 國內公私立大學及研究機構 — AI 工作站與 HPC 叢集\n- **專業設計:** CAD/CAE 設計公司 — [[NVIDIA]] RTX 專業繪圖卡\n- **醫療:** 國內外醫療院所 — 隨身心電圖儀與遠距照護裝置\n\n### 主要供應商\n- **GPU 晶片:** [[NVIDIA]] — 專業繪圖與 AI 運算 GPU 獨家合作\n- **記憶體:** [[Samsung]]、[[Micron]]、[[SK Hynix]] — 顯示記憶體模組\n- **散熱/電源:** 散熱模組及電源供應器廠商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

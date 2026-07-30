@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8404",
+  "company_name": "百和興業-KY",
+  "title": "8404 - 百和興業-KY",
+  "source_md": "Pilot_Reports/Footwear & Accessories/8404_百和興業-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories",
+    "market_cap": "6,971 百萬台幣",
+    "enterprise_value": "15,914 百萬台幣"
+  },
+  "business": {
+    "summary": "百和興業控股股份有限公司 (8404) 為 [[百和工業]] (9938) 旗下子公司，主要經營成衣、鞋類及運動用品之輔料黏扣帶 (魔鬼氈)、織帶 (鞋帶)、鬆緊帶、針織緹花網布及 3C 週邊配件之產製及銷售。百和興業為全球運動鞋產業鏈中不可或缺的輔料供應龍頭，產品廣泛應用於各大國際運動品牌之鞋類與服飾。旗下主要營運實體位於中國無錫及東莞，並積極拓展越南產能。近年歐美品牌客戶佔比已提升至七成，客戶結構持續優化。",
+    "entities": [
+      "百和工業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (紡織與化纖原料)",
+        "text": "**上游 (紡織與化纖原料):**",
+        "entities": []
+      },
+      {
+        "category": "化纖原料",
+        "text": "[[尼龍]] 紗、[[聚酯纖維]] 紗、彈性纖維等織帶與網布用原料",
+        "entities": [
+          "尼龍",
+          "聚酯纖維"
+        ]
+      },
+      {
+        "category": "黏扣帶原料",
+        "text": "尼龍鉤面/毛面材料、背膠等",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (輔料製造)",
+        "text": "**中游 (輔料製造):**",
+        "entities": []
+      },
+      {
+        "category": "織帶與黏扣帶",
+        "text": "**百和興業-KY (8404)** — 魔鬼氈、鞋帶、鬆緊帶、針織緹花網布之研發製造",
+        "entities": []
+      },
+      {
+        "category": "生產基地",
+        "text": "中國無錫、東莞及越南",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (運動品牌與代工廠)",
+        "text": "**下游 (運動品牌與代工廠):**",
+        "entities": []
+      },
+      {
+        "category": "終端應用",
+        "text": "全球各大運動品牌之鞋類、服飾及運動用品",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國際運動品牌",
+        "text": "[[Adidas]]、[[Under Armour]]、[[On Running]]、[[ASICS]]、[[HOKA]]",
+        "entities": [
+          "Adidas",
+          "Under Armour",
+          "On Running",
+          "ASICS",
+          "HOKA"
+        ]
+      },
+      {
+        "role": "製鞋代工廠",
+        "text": "各大台資製鞋代工體系 (透過品牌指定供應)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "化纖原料",
+        "text": "國內外[[尼龍]]紗與[[聚酯纖維]]紗供應廠",
+        "entities": [
+          "尼龍",
+          "聚酯纖維"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[百和工業]] (9938，台灣上市之魔鬼氈與織帶大廠)",
+        "entities": [
+          "百和工業"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Footwear & Accessories):** [[勝悅-KY]]、[[信立]]、[[志強-KY]]、[[來億-KY]]、[[中傑-KY]]",
+        "entities": [
+          "勝悅-KY",
+          "信立",
+          "志強-KY",
+          "來億-KY",
+          "中傑-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Adidas",
+          "Under Armour",
+          "On Running",
+          "ASICS",
+          "HOKA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "百和工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "百和工業"
+    },
+    {
+      "name": "尼龍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尼龍"
+    },
+    {
+      "name": "聚酯纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚酯纖維"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "Under Armour",
+      "type": "international_company_or_term",
+      "wikilink": "Under Armour"
+    },
+    {
+      "name": "On Running",
+      "type": "international_company_or_term",
+      "wikilink": "On Running"
+    },
+    {
+      "name": "ASICS",
+      "type": "international_company_or_term",
+      "wikilink": "ASICS"
+    },
+    {
+      "name": "HOKA",
+      "type": "international_company_or_term",
+      "wikilink": "HOKA"
+    },
+    {
+      "name": "勝悅-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勝悅-KY"
+    },
+    {
+      "name": "信立",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信立"
+    },
+    {
+      "name": "志強-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志強-KY"
+    },
+    {
+      "name": "來億-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "來億-KY"
+    },
+    {
+      "name": "中傑-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中傑-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "百和興業控股股份有限公司 (8404) 為 [[百和工業]] (9938) 旗下子公司，主要經營成衣、鞋類及運動用品之輔料黏扣帶 (魔鬼氈)、織帶 (鞋帶)、鬆緊帶、針織緹花網布及 3C 週邊配件之產製及銷售。百和興業為全球運動鞋產業鏈中不可或缺的輔料供應龍頭，產品廣泛應用於各大國際運動品牌之鞋類與服飾。旗下主要營運實體位於中國無錫及東莞，並積極拓展越南產能。近年歐美品牌客戶佔比已提升至七成，客戶結構持續優化。",
+    "supply_chain_md": "**上游 (紡織與化纖原料):**\n- **化纖原料:** [[尼龍]] 紗、[[聚酯纖維]] 紗、彈性纖維等織帶與網布用原料\n- **黏扣帶原料:** 尼龍鉤面/毛面材料、背膠等\n\n**中游 (輔料製造):**\n- **織帶與黏扣帶:** **百和興業-KY (8404)** — 魔鬼氈、鞋帶、鬆緊帶、針織緹花網布之研發製造\n- **生產基地:** 中國無錫、東莞及越南\n\n**下游 (運動品牌與代工廠):**\n- **終端應用:** 全球各大運動品牌之鞋類、服飾及運動用品",
+    "customers_suppliers_md": "### 主要客戶\n- **國際運動品牌:** [[Adidas]]、[[Under Armour]]、[[On Running]]、[[ASICS]]、[[HOKA]]\n- **製鞋代工廠:** 各大台資製鞋代工體系 (透過品牌指定供應)\n\n### 主要供應商\n- **化纖原料:** 國內外[[尼龍]]紗與[[聚酯纖維]]紗供應廠\n- **母公司:** [[百和工業]] (9938，台灣上市之魔鬼氈與織帶大廠)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

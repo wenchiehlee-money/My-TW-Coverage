@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4545",
+  "company_name": "銘鈺",
+  "title": "4545 - 銘鈺",
+  "source_md": "Pilot_Reports/Metal Fabrication/4545_銘鈺.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "2,410 百萬台幣",
+    "enterprise_value": "2,488 百萬台幣"
+  },
+  "business": {
+    "summary": "銘鈺精密 (4545，Min Aik) 為[[銘異]]集團子公司，專注精密[[沖壓]]與電鍍。核心為[[硬碟]] (HDD) 零組件 (VCM板/碟片夾具/頂蓋)，客戶含[[Western Digital]]、[[Seagate]]。近年切入[[醫療器材]]及[[散熱]] (伺服器均熱片)。據點含台灣/馬來西亞/新加坡/中國/美國/泰國。",
+    "entities": [
+      "銘異",
+      "沖壓",
+      "硬碟",
+      "Western Digital",
+      "Seagate",
+      "醫療器材",
+      "散熱"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "不鏽鋼/鋁/銅卷材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**銘鈺** (精密[[沖壓]]/電鍍/射出/組裝)",
+        "entities": [
+          "沖壓"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[硬碟]]: [[Western Digital]]、[[Seagate]]",
+        "entities": [
+          "硬碟",
+          "Western Digital",
+          "Seagate"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[醫療器材]]; [[散熱]]均熱片",
+        "entities": [
+          "醫療器材",
+          "散熱"
+        ]
+      },
+      {
+        "category": "",
+        "text": "母: [[銘異]]",
+        "entities": [
+          "銘異"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Western Digital]]、[[Seagate]] — [[硬碟]]零組件",
+        "entities": [
+          "Western Digital",
+          "Seagate",
+          "硬碟"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[醫療器材]]/[[散熱]]均熱片",
+        "entities": [
+          "醫療器材",
+          "散熱"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "不鏽鋼/鋁/銅卷材; 母: [[銘異]]",
+        "entities": [
+          "銘異"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Western Digital",
+          "Seagate",
+          "硬碟",
+          "醫療器材",
+          "散熱"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "銘異",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銘異"
+    },
+    {
+      "name": "沖壓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沖壓"
+    },
+    {
+      "name": "硬碟",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硬碟"
+    },
+    {
+      "name": "Western Digital",
+      "type": "international_company_or_term",
+      "wikilink": "Western Digital"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "醫療器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療器材"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "銘鈺精密 (4545，Min Aik) 為[[銘異]]集團子公司，專注精密[[沖壓]]與電鍍。核心為[[硬碟]] (HDD) 零組件 (VCM板/碟片夾具/頂蓋)，客戶含[[Western Digital]]、[[Seagate]]。近年切入[[醫療器材]]及[[散熱]] (伺服器均熱片)。據點含台灣/馬來西亞/新加坡/中國/美國/泰國。",
+    "supply_chain_md": "**上游:** 不鏽鋼/鋁/銅卷材\n**中游:** **銘鈺** (精密[[沖壓]]/電鍍/射出/組裝)\n**下游:**\n- [[硬碟]]: [[Western Digital]]、[[Seagate]]\n- [[醫療器材]]; [[散熱]]均熱片\n- 母: [[銘異]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Western Digital]]、[[Seagate]] — [[硬碟]]零組件\n- [[醫療器材]]/[[散熱]]均熱片\n\n### 主要供應商\n- 不鏽鋼/鋁/銅卷材; 母: [[銘異]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

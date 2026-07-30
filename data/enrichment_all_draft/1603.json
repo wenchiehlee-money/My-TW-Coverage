@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1603",
+  "company_name": "華電",
+  "title": "1603 - 華電",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/1603_華電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "4,448 百萬台幣",
+    "enterprise_value": "4,246 百萬台幣"
+  },
+  "business": {
+    "summary": "華電股份有限公司 (1603) 成立於 1961 年，總部位於台灣新北市。公司主要業務分為兩大類：[[電線電纜]]及鋁窗帷幕牆。電纜產品涵蓋低壓至高壓等級，供應[[台電]]及公共工程使用；鋁窗產品以「華電鋁窗」品牌銷售，供應建築營造業。近年公司亦涉足房地產開發及[[太陽能]]電廠投資。華電為台灣歷史悠久之電纜製造商，受惠於[[台電]]強韌電網計畫之 193 億電纜標案釋單，電纜營收動能轉強。",
+    "entities": [
+      "電線電纜",
+      "台電",
+      "太陽能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "[[第一銅]]、[[華新麗華]] — 銅元、鋁錠供應",
+        "entities": [
+          "第一銅",
+          "華新麗華"
+        ]
+      },
+      {
+        "category": "化工原料",
+        "text": "PVC/PE 塑膠粒、玻璃",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "電纜",
+        "text": "**華電** (伸線、絞線、被覆及聯合檢驗)",
+        "entities": []
+      },
+      {
+        "category": "鋁窗",
+        "text": "**華電** (擠型、陽極處理/塗裝、加工組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "公用事業",
+        "text": "[[台電]] — 輸配電工程",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "電信工程",
+        "text": "[[中華電信]] — 通信線纜",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "category": "建築營造",
+        "text": "國內建設公司",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電纜",
+        "text": "[[台電]] (輸配電工程)、[[中華電信]]、國內統包工程商",
+        "entities": [
+          "台電",
+          "中華電信"
+        ]
+      },
+      {
+        "role": "鋁窗",
+        "text": "建設公司如 [[遠雄建設]]、[[興富發]] 等營造廠",
+        "entities": [
+          "遠雄建設",
+          "興富發"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材",
+        "text": "[[第一銅]]、[[華新麗華]] — 銅元/鋁錠",
+        "entities": [
+          "第一銅",
+          "華新麗華"
+        ]
+      },
+      {
+        "role": "化工原料",
+        "text": "PVC/PE 塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "同業",
+        "text": "[[華榮]] (1608)、[[大亞]] (1609)、[[合機]] (1618)",
+        "entities": [
+          "華榮",
+          "大亞",
+          "合機"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]、[[華立]]",
+        "entities": [
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦",
+          "華立"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "中華電信",
+          "遠雄建設",
+          "興富發"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電線電纜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電線電纜"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "第一銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第一銅"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "遠雄建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄建設"
+    },
+    {
+      "name": "興富發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "興富發"
+    },
+    {
+      "name": "華榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華榮"
+    },
+    {
+      "name": "大亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大亞"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    },
+    {
+      "name": "華立",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華立"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華電股份有限公司 (1603) 成立於 1961 年，總部位於台灣新北市。公司主要業務分為兩大類：[[電線電纜]]及鋁窗帷幕牆。電纜產品涵蓋低壓至高壓等級，供應[[台電]]及公共工程使用；鋁窗產品以「華電鋁窗」品牌銷售，供應建築營造業。近年公司亦涉足房地產開發及[[太陽能]]電廠投資。華電為台灣歷史悠久之電纜製造商，受惠於[[台電]]強韌電網計畫之 193 億電纜標案釋單，電纜營收動能轉強。",
+    "supply_chain_md": "**上游 (原材料):**\n- **金屬材料:** [[第一銅]]、[[華新麗華]] — 銅元、鋁錠供應\n- **化工原料:** PVC/PE 塑膠粒、玻璃\n\n**中游 (製造加工):**\n- **電纜:** **華電** (伸線、絞線、被覆及聯合檢驗)\n- **鋁窗:** **華電** (擠型、陽極處理/塗裝、加工組裝)\n\n**下游 (終端應用):**\n- **公用事業:** [[台電]] — 輸配電工程\n- **電信工程:** [[中華電信]] — 通信線纜\n- **建築營造:** 國內建設公司",
+    "customers_suppliers_md": "### 主要客戶\n- **電纜:** [[台電]] (輸配電工程)、[[中華電信]]、國內統包工程商\n- **鋁窗:** 建設公司如 [[遠雄建設]]、[[興富發]] 等營造廠\n\n### 主要供應商\n- **銅材:** [[第一銅]]、[[華新麗華]] — 銅元/鋁錠\n- **化工原料:** PVC/PE 塑膠粒供應商\n- **同業:** [[華榮]] (1608)、[[大亞]] (1609)、[[合機]] (1618)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

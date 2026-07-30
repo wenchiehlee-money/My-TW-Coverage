@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3234",
+  "company_name": "光環",
+  "title": "3234 - 光環",
+  "source_md": "Pilot_Reports/Semiconductors/3234_光環.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "10,033 百萬台幣",
+    "enterprise_value": "10,068 百萬台幣"
+  },
+  "business": {
+    "summary": "光環科技 (3234) 是光學半導體元件製造商，專注於 [[VCSEL]] (垂直共振腔面射型雷射)、FP/DFB 雷射及 PIN/PINTIA [[光偵測器]]之研發與製造。產品應用於[[光纖通訊]]、[[5G]] 基地台、雲端[[資料中心]]及 [[3D 感測]]。近年開發 100G [[VCSEL]] array 瞄準高速光互連需求。",
+    "entities": [
+      "VCSEL",
+      "光偵測器",
+      "光纖通訊",
+      "5G",
+      "資料中心",
+      "3D 感測"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與設備)",
+        "text": "**上游 (材料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "磊晶基板",
+        "text": "[[砷化鎵]]/[[磷化銦]] 磊晶片",
+        "entities": [
+          "砷化鎵",
+          "磷化銦"
+        ]
+      },
+      {
+        "category": "[[MOCVD]] 設備",
+        "text": "[[磊晶]]設備",
+        "entities": [
+          "MOCVD",
+          "磊晶"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光半導體製造)",
+        "text": "**中游 (光半導體製造):**",
+        "entities": []
+      },
+      {
+        "category": "光元件",
+        "text": "**光環** ([[VCSEL]]/雷射/光偵測器製造)",
+        "entities": [
+          "VCSEL"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (光模組)",
+        "text": "**下游 (光模組):**",
+        "entities": []
+      },
+      {
+        "category": "3D 感測",
+        "text": "[[ams-OSRAM]] (3D 感測 [[VCSEL]] 供應鏈)",
+        "entities": [
+          "ams-OSRAM",
+          "VCSEL"
+        ]
+      },
+      {
+        "category": "光通訊",
+        "text": "資料中心光收發模組客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "3D 感測",
+        "text": "[[ams-OSRAM]]",
+        "entities": [
+          "ams-OSRAM"
+        ]
+      },
+      {
+        "role": "光通訊",
+        "text": "資料中心光收發模組廠",
+        "entities": []
+      },
+      {
+        "role": "車用",
+        "text": "車用 LiDAR 客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "磊晶",
+        "text": "GaAs/InP 磊晶片供應",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[II-VI]] (Coherent)、[[Lumentum]]、[[TRUMPF]]",
+        "entities": [
+          "II-VI",
+          "Lumentum",
+          "TRUMPF"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[II-VI]] (Coherent)、[[Lumentum]]、[[TRUMPF]]",
+        "entities": [
+          "II-VI",
+          "Lumentum",
+          "TRUMPF"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "VCSEL",
+      "type": "international_company_or_term",
+      "wikilink": "VCSEL"
+    },
+    {
+      "name": "光偵測器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光偵測器"
+    },
+    {
+      "name": "光纖通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光纖通訊"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "3D 感測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D 感測"
+    },
+    {
+      "name": "砷化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "砷化鎵"
+    },
+    {
+      "name": "磷化銦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷化銦"
+    },
+    {
+      "name": "MOCVD",
+      "type": "international_company_or_term",
+      "wikilink": "MOCVD"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "ams-OSRAM",
+      "type": "international_company_or_term",
+      "wikilink": "ams-OSRAM"
+    },
+    {
+      "name": "II-VI",
+      "type": "international_company_or_term",
+      "wikilink": "II-VI"
+    },
+    {
+      "name": "Lumentum",
+      "type": "international_company_or_term",
+      "wikilink": "Lumentum"
+    },
+    {
+      "name": "TRUMPF",
+      "type": "international_company_or_term",
+      "wikilink": "TRUMPF"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "光環科技 (3234) 是光學半導體元件製造商，專注於 [[VCSEL]] (垂直共振腔面射型雷射)、FP/DFB 雷射及 PIN/PINTIA [[光偵測器]]之研發與製造。產品應用於[[光纖通訊]]、[[5G]] 基地台、雲端[[資料中心]]及 [[3D 感測]]。近年開發 100G [[VCSEL]] array 瞄準高速光互連需求。",
+    "supply_chain_md": "**上游 (材料與設備):**\n- **磊晶基板:** [[砷化鎵]]/[[磷化銦]] 磊晶片\n- **[[MOCVD]] 設備:** [[磊晶]]設備\n\n**中游 (光半導體製造):**\n- **光元件:** **光環** ([[VCSEL]]/雷射/光偵測器製造)\n\n**下游 (光模組):**\n- **3D 感測:** [[ams-OSRAM]] (3D 感測 [[VCSEL]] 供應鏈)\n- **光通訊:** 資料中心光收發模組客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **3D 感測:** [[ams-OSRAM]]\n- **光通訊:** 資料中心光收發模組廠\n- **車用:** 車用 LiDAR 客戶\n\n### 主要供應商\n- **磊晶:** GaAs/InP 磊晶片供應\n- **競爭同業:** [[II-VI]] (Coherent)、[[Lumentum]]、[[TRUMPF]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

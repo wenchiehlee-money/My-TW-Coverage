@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4587",
+  "company_name": "寶元數控",
+  "title": "4587 - 寶元數控",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4587_寶元數控.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,348 百萬台幣",
+    "enterprise_value": "N/A 百萬台幣"
+  },
+  "business": {
+    "summary": "寶元數控 (4587，LNC Technology) 為[[研華]] (2395) 集團旗下子公司 (2013 年併購)，以「Advantech-LNC」雙品牌行銷，為台灣/華語圈最大[[CNC]]控制器品牌，全球累計逾 500 家設備廠客戶。產品涵蓋車銑床/沖床/塑膠射出機/磨床/雷射加工/木工機/機器人控制器、[[AI]]視覺系統及工業 4.0 智慧產線系統。全支援[[EtherCAT]]通訊協定。與[[富強鑫]]等射出機廠合作密切。",
+    "entities": [
+      "研華",
+      "CNC",
+      "AI",
+      "EtherCAT",
+      "富強鑫"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "IC/電子",
+        "text": "IC 晶片、PCB、被動元件",
+        "entities": []
+      },
+      {
+        "category": "伺服系統",
+        "text": "[[伺服馬達]]、編碼器、顯示面板",
+        "entities": [
+          "伺服馬達"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[研華]] (2395) — 集團資源",
+        "entities": [
+          "研華"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**寶元** ([[CNC]]控制器/[[EtherCAT]]伺服驅動/[[AI]]視覺系統)",
+        "entities": [
+          "CNC",
+          "EtherCAT",
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "工具機",
+        "text": "車銑/磨床/五軸加工機 — CNC 控制",
+        "entities": []
+      },
+      {
+        "category": "射出機",
+        "text": "[[富強鑫]]等塑膠射出成型機 — 控制器",
+        "entities": [
+          "富強鑫"
+        ]
+      },
+      {
+        "category": "機器人",
+        "text": "關節型/龍門型機器人 — 控制器",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工具機",
+        "text": "全球 500+ 家工具機廠 — [[CNC]]控制器",
+        "entities": [
+          "CNC"
+        ]
+      },
+      {
+        "role": "射出機",
+        "text": "[[富強鑫]]等 — 射出成型機控制",
+        "entities": [
+          "富強鑫"
+        ]
+      },
+      {
+        "role": "機器人",
+        "text": "機器人製造商 — 控制器",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[研華]] (2395) — 集團資源",
+        "entities": [
+          "研華"
+        ]
+      },
+      {
+        "role": "零組件",
+        "text": "IC/PCB/[[伺服馬達]]",
+        "entities": [
+          "伺服馬達"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "CNC",
+          "富強鑫"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "CNC",
+      "type": "international_company_or_term",
+      "wikilink": "CNC"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "EtherCAT",
+      "type": "international_company_or_term",
+      "wikilink": "EtherCAT"
+    },
+    {
+      "name": "富強鑫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富強鑫"
+    },
+    {
+      "name": "伺服馬達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服馬達"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶元數控 (4587，LNC Technology) 為[[研華]] (2395) 集團旗下子公司 (2013 年併購)，以「Advantech-LNC」雙品牌行銷，為台灣/華語圈最大[[CNC]]控制器品牌，全球累計逾 500 家設備廠客戶。產品涵蓋車銑床/沖床/塑膠射出機/磨床/雷射加工/木工機/機器人控制器、[[AI]]視覺系統及工業 4.0 智慧產線系統。全支援[[EtherCAT]]通訊協定。與[[富強鑫]]等射出機廠合作密切。",
+    "supply_chain_md": "**上游 (零組件):**\n- **IC/電子:** IC 晶片、PCB、被動元件\n- **伺服系統:** [[伺服馬達]]、編碼器、顯示面板\n- **母公司:** [[研華]] (2395) — 集團資源\n\n**中游 (製造):**\n- **寶元** ([[CNC]]控制器/[[EtherCAT]]伺服驅動/[[AI]]視覺系統)\n\n**下游 (終端):**\n- **工具機:** 車銑/磨床/五軸加工機 — CNC 控制\n- **射出機:** [[富強鑫]]等塑膠射出成型機 — 控制器\n- **機器人:** 關節型/龍門型機器人 — 控制器",
+    "customers_suppliers_md": "### 主要客戶\n- **工具機:** 全球 500+ 家工具機廠 — [[CNC]]控制器\n- **射出機:** [[富強鑫]]等 — 射出成型機控制\n- **機器人:** 機器人製造商 — 控制器\n\n### 主要供應商\n- **母公司:** [[研華]] (2395) — 集團資源\n- **零組件:** IC/PCB/[[伺服馬達]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8438",
+  "company_name": "昶昕",
+  "title": "8438 - 昶昕",
+  "source_md": "Pilot_Reports/Chemicals/8438_昶昕.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals",
+    "market_cap": "3,707 百萬台幣",
+    "enterprise_value": "3,650 百萬台幣"
+  },
+  "business": {
+    "summary": "昶昕股份有限公司 (8438，Amia Co.) 為台灣 PCB 特用化學品龍頭 (國內市佔約 80%)，兼為東亞最大[[硫酸銅]]出口商 (年產逾 3 萬噸)。獨特循環經濟模式：銷售蝕刻/剝膜化學品予 PCB 廠，同時回收含銅廢液，提煉為[[硫酸銅]]、[[氧化銅]]、[[碳酸銅]]再銷售。2024 年營收約 34 億元。PCB 客戶涵蓋全球第一大 PCB 廠[[臻鼎-KY]]、[[欣興]]、[[健鼎]]、[[華通]]、[[敬鵬]]等台灣主要 PCB 廠。[[硫酸銅]]外銷至澳洲鋅礦及中國銅冶煉廠。[[Apple]]為認可循環經濟模式之終端品牌。受惠[[AI 伺服器]] PCB 需求激增。越南新廠預計 2026 Q1 試產。",
+    "entities": [
+      "硫酸銅",
+      "氧化銅",
+      "碳酸銅",
+      "臻鼎-KY",
+      "欣興",
+      "健鼎",
+      "華通",
+      "敬鵬",
+      "Apple",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料 — 循環模式)",
+        "text": "**上游 (原料 — 循環模式):**",
+        "entities": []
+      },
+      {
+        "category": "化學原料",
+        "text": "基礎酸鹼、[[液氨]]、[[碳酸鈉]]等",
+        "entities": [
+          "液氨",
+          "碳酸鈉"
+        ]
+      },
+      {
+        "category": "含銅廢液回收",
+        "text": "自 PCB 客戶回收 (獨特供應商=客戶閉環)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**昶昕** (PCB 蝕刻/剝膜化學品；含銅廢液提煉[[硫酸銅]]/[[氧化銅]]/[[碳酸銅]])",
+        "entities": [
+          "硫酸銅",
+          "氧化銅",
+          "碳酸銅"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "PCB 廠",
+        "text": "[[臻鼎-KY]] (全球第一)、[[欣興]]、[[健鼎]]、[[華通]]、[[敬鵬]] — 蝕刻化學品",
+        "entities": [
+          "臻鼎-KY",
+          "欣興",
+          "健鼎",
+          "華通",
+          "敬鵬"
+        ]
+      },
+      {
+        "category": "先進封裝",
+        "text": "半導體封裝基板廠 — [[AI 伺服器]]需求",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "銅冶煉",
+        "text": "澳洲鋅礦/中國銅冶煉 — [[硫酸銅]]外銷",
+        "entities": [
+          "硫酸銅"
+        ]
+      },
+      {
+        "category": "品牌認可",
+        "text": "[[Apple]] — ESG 循環經濟",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PCB 廠",
+        "text": "[[臻鼎-KY]] (全球第一)、[[欣興]]、[[健鼎]]、[[華通]]、[[敬鵬]] — 蝕刻/剝膜化學品",
+        "entities": [
+          "臻鼎-KY",
+          "欣興",
+          "健鼎",
+          "華通",
+          "敬鵬"
+        ]
+      },
+      {
+        "role": "先進封裝",
+        "text": "半導體封裝基板廠 — [[AI 伺服器]]需求",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "銅冶煉",
+        "text": "澳洲鋅礦/中國銅冶煉廠 — [[硫酸銅]]外銷",
+        "entities": [
+          "硫酸銅"
+        ]
+      },
+      {
+        "role": "品牌",
+        "text": "[[Apple]] — ESG 循環經濟認可",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "化學原料",
+        "text": "基礎酸鹼、[[液氨]]、[[碳酸鈉]]",
+        "entities": [
+          "液氨",
+          "碳酸鈉"
+        ]
+      },
+      {
+        "role": "含銅廢液",
+        "text": "PCB 客戶回收 (循環閉環)",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Chemicals):** [[台苯]]、[[國喬]]、[[聯成]]、[[台化]]、[[東鹼]]",
+        "entities": [
+          "台苯",
+          "國喬",
+          "聯成",
+          "台化",
+          "東鹼"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "臻鼎-KY",
+          "欣興",
+          "健鼎",
+          "華通",
+          "敬鵬",
+          "AI 伺服器",
+          "硫酸銅",
+          "Apple"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "硫酸銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硫酸銅"
+    },
+    {
+      "name": "氧化銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氧化銅"
+    },
+    {
+      "name": "碳酸銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳酸銅"
+    },
+    {
+      "name": "臻鼎-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臻鼎-KY"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "健鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "健鼎"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "敬鵬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "敬鵬"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "液氨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "液氨"
+    },
+    {
+      "name": "碳酸鈉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳酸鈉"
+    },
+    {
+      "name": "台苯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台苯"
+    },
+    {
+      "name": "國喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國喬"
+    },
+    {
+      "name": "聯成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯成"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "東鹼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東鹼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昶昕股份有限公司 (8438，Amia Co.) 為台灣 PCB 特用化學品龍頭 (國內市佔約 80%)，兼為東亞最大[[硫酸銅]]出口商 (年產逾 3 萬噸)。獨特循環經濟模式：銷售蝕刻/剝膜化學品予 PCB 廠，同時回收含銅廢液，提煉為[[硫酸銅]]、[[氧化銅]]、[[碳酸銅]]再銷售。2024 年營收約 34 億元。PCB 客戶涵蓋全球第一大 PCB 廠[[臻鼎-KY]]、[[欣興]]、[[健鼎]]、[[華通]]、[[敬鵬]]等台灣主要 PCB 廠。[[硫酸銅]]外銷至澳洲鋅礦及中國銅冶煉廠。[[Apple]]為認可循環經濟模式之終端品牌。受惠[[AI 伺服器]] PCB 需求激增。越南新廠預計 2026 Q1 試產。",
+    "supply_chain_md": "**上游 (原料 — 循環模式):**\n- **化學原料:** 基礎酸鹼、[[液氨]]、[[碳酸鈉]]等\n- **含銅廢液回收:** 自 PCB 客戶回收 (獨特供應商=客戶閉環)\n\n**中游 (製造):**\n- **昶昕** (PCB 蝕刻/剝膜化學品；含銅廢液提煉[[硫酸銅]]/[[氧化銅]]/[[碳酸銅]])\n\n**下游 (終端):**\n- **PCB 廠:** [[臻鼎-KY]] (全球第一)、[[欣興]]、[[健鼎]]、[[華通]]、[[敬鵬]] — 蝕刻化學品\n- **先進封裝:** 半導體封裝基板廠 — [[AI 伺服器]]需求\n- **銅冶煉:** 澳洲鋅礦/中國銅冶煉 — [[硫酸銅]]外銷\n- **品牌認可:** [[Apple]] — ESG 循環經濟",
+    "customers_suppliers_md": "### 主要客戶\n- **PCB 廠:** [[臻鼎-KY]] (全球第一)、[[欣興]]、[[健鼎]]、[[華通]]、[[敬鵬]] — 蝕刻/剝膜化學品\n- **先進封裝:** 半導體封裝基板廠 — [[AI 伺服器]]需求\n- **銅冶煉:** 澳洲鋅礦/中國銅冶煉廠 — [[硫酸銅]]外銷\n- **品牌:** [[Apple]] — ESG 循環經濟認可\n\n### 主要供應商\n- **化學原料:** 基礎酸鹼、[[液氨]]、[[碳酸鈉]]\n- **含銅廢液:** PCB 客戶回收 (循環閉環)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

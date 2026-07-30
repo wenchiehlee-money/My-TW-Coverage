@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4773",
+  "company_name": "高福",
+  "title": "4773 - 高福",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4773_高福.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "2,836 百萬台幣",
+    "enterprise_value": "2,377 百萬台幣"
+  },
+  "business": {
+    "summary": "高福化學 (4773，Kaofu Chemical) 成立於 1968 年，位於高雄，為特殊聚苯乙烯 (PS) 樹脂製造商。產品涵蓋 [[GPPS]] (通用級 PS，食品包裝/CD 盒/[[擴散板]])、[[HIPS]] (耐衝擊 PS，家電外殼/電腦周邊/玩具) 及 HIPMMA (耐衝擊壓克力)。上游苯乙烯單體 (SM) 採購自[[台化]]、[[國喬石化]]、[[台苯]]。下游家電客戶涵蓋[[東元]]、[[大同]]等。[[擴散板]]供應面板背光模組用 GPPS。主要競爭對手為[[台化]]、[[國喬石化]]、[[奇美實業]] (均自產 PS)。",
+    "entities": [
+      "GPPS",
+      "擴散板",
+      "HIPS",
+      "台化",
+      "國喬石化",
+      "台苯",
+      "東元",
+      "大同",
+      "奇美實業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "苯乙烯 (SM)",
+        "text": "[[台化]]、[[國喬石化]]、[[台苯]] — SM 供應",
+        "entities": [
+          "台化",
+          "國喬石化",
+          "台苯"
+        ]
+      },
+      {
+        "category": "橡膠",
+        "text": "聚丁二烯橡膠 (BR) — HIPS 用",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**高福** ([[GPPS]]/[[HIPS]]/HIPMMA 特殊 PS 樹脂)",
+        "entities": [
+          "GPPS",
+          "HIPS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "家電",
+        "text": "[[東元]]、[[大同]] — 空調/冰箱外殼用 HIPS",
+        "entities": [
+          "東元",
+          "大同"
+        ]
+      },
+      {
+        "category": "光電",
+        "text": "[[擴散板]] — 面板背光模組用 GPPS",
+        "entities": [
+          "擴散板"
+        ]
+      },
+      {
+        "category": "包裝",
+        "text": "食品容器/CD 盒",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "電腦周邊/玩具",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "家電",
+        "text": "[[東元]]、[[大同]] — HIPS 外殼",
+        "entities": [
+          "東元",
+          "大同"
+        ]
+      },
+      {
+        "role": "光電",
+        "text": "[[擴散板]]廠 — GPPS 背光模組",
+        "entities": [
+          "擴散板"
+        ]
+      },
+      {
+        "role": "包裝/消費",
+        "text": "食品容器/電腦周邊/玩具",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "苯乙烯",
+        "text": "[[台化]]、[[國喬石化]]、[[台苯]]",
+        "entities": [
+          "台化",
+          "國喬石化",
+          "台苯"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "",
+        "text": "[[台化]]、[[國喬石化]]、[[奇美實業]]",
+        "entities": [
+          "台化",
+          "國喬石化",
+          "奇美實業"
+        ]
+      },
+      {
+        "text": "高福化學 (4773，Kaofu Chemical) 成立於 1968 年，位於高雄，為特殊聚苯乙烯 (PS) 樹脂製造商。產品涵蓋 [[GPPS]] (通用級 PS，食品包裝/CD 盒/[[擴散板]])、[[HIPS]] (耐衝擊 PS，家電外殼/電腦周邊/玩具) 及 HIPMMA (耐衝擊壓克力)。上游苯乙烯單體 (SM) 採購自[[台化]]、[[國喬石化]]、[[台苯]]。下游家電客戶涵蓋[[東元]]、[[大同]]等。[[擴散板]]供應面板背光模組用 GPPS。主要競爭對手為[[台化]]、[[國喬石化]]、[[奇美實業]] (均自產 PS)。",
+        "entities": [
+          "GPPS",
+          "擴散板",
+          "HIPS",
+          "台化",
+          "國喬石化",
+          "台苯",
+          "東元",
+          "大同",
+          "奇美實業"
+        ]
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "GPPS",
+      "type": "international_company_or_term",
+      "wikilink": "GPPS"
+    },
+    {
+      "name": "擴散板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "擴散板"
+    },
+    {
+      "name": "HIPS",
+      "type": "international_company_or_term",
+      "wikilink": "HIPS"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "國喬石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國喬石化"
+    },
+    {
+      "name": "台苯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台苯"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "奇美實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇美實業"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "高福化學 (4773，Kaofu Chemical) 成立於 1968 年，位於高雄，為特殊聚苯乙烯 (PS) 樹脂製造商。產品涵蓋 [[GPPS]] (通用級 PS，食品包裝/CD 盒/[[擴散板]])、[[HIPS]] (耐衝擊 PS，家電外殼/電腦周邊/玩具) 及 HIPMMA (耐衝擊壓克力)。上游苯乙烯單體 (SM) 採購自[[台化]]、[[國喬石化]]、[[台苯]]。下游家電客戶涵蓋[[東元]]、[[大同]]等。[[擴散板]]供應面板背光模組用 GPPS。主要競爭對手為[[台化]]、[[國喬石化]]、[[奇美實業]] (均自產 PS)。",
+    "supply_chain_md": "**上游 (原料):**\n- **苯乙烯 (SM):** [[台化]]、[[國喬石化]]、[[台苯]] — SM 供應\n- **橡膠:** 聚丁二烯橡膠 (BR) — HIPS 用\n\n**中游 (製造):**\n- **高福** ([[GPPS]]/[[HIPS]]/HIPMMA 特殊 PS 樹脂)\n\n**下游 (終端):**\n- **家電:** [[東元]]、[[大同]] — 空調/冰箱外殼用 HIPS\n- **光電:** [[擴散板]] — 面板背光模組用 GPPS\n- **包裝:** 食品容器/CD 盒\n- **消費電子:** 電腦周邊/玩具",
+    "customers_suppliers_md": "### 主要客戶\n- **家電:** [[東元]]、[[大同]] — HIPS 外殼\n- **光電:** [[擴散板]]廠 — GPPS 背光模組\n- **包裝/消費:** 食品容器/電腦周邊/玩具\n\n### 主要供應商\n- **苯乙烯:** [[台化]]、[[國喬石化]]、[[台苯]]\n\n### 競爭對手\n- [[台化]]、[[國喬石化]]、[[奇美實業]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

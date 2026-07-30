@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6508",
+  "company_name": "惠光",
+  "title": "6508 - 惠光",
+  "source_md": "Pilot_Reports/Agricultural Inputs/6508_惠光.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs",
+    "market_cap": "2,150 百萬台幣",
+    "enterprise_value": "1,359 百萬台幣"
+  },
+  "business": {
+    "summary": "惠光股份有限公司 (6508，Hui Kuang / HKC) 為台灣第二大農藥製造商，經營兩大事業群：(1) 農業科學事業群 — 生產殺蟲劑、殺菌劑、除草劑等植物保護劑，具備農藥原體合成能力，同時代理國際大廠如[[Syngenta]]、[[BASF]]、[[Bayer CropScience]]之產品，以「惠光」及「HKC」品牌銷售；(2) 環境科技事業群 — 以「HUITEX」品牌生產[[地工膜]]、[[地工格穴]]等地工合成材料，4 條產線年產能 31,000 噸，為台灣地工膜領導廠商。內銷台灣約佔三成，中國大陸約佔四成，東南亞及澳洲為主要外銷市場，近期新增美國市場帶動成長。海外設有上海、浙江、泰國及馬來西亞子公司。",
+    "entities": [
+      "Syngenta",
+      "BASF",
+      "Bayer CropScience",
+      "地工膜",
+      "地工格穴"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "農藥原體",
+        "text": "[[Syngenta]]、[[BASF]]、[[Bayer CropScience]] — 國際農藥原體採購與技術授權",
+        "entities": [
+          "Syngenta",
+          "BASF",
+          "Bayer CropScience"
+        ]
+      },
+      {
+        "category": "塑膠原料",
+        "text": "[[台塑]]、[[南亞塑膠]] — [[HDPE]] 樹脂供應 (地工膜生產)",
+        "entities": [
+          "台塑",
+          "南亞塑膠",
+          "HDPE"
+        ]
+      },
+      {
+        "category": "化工中間體",
+        "text": "精密化學原料 — 農藥合成所需",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**惠光** (農藥原體合成與製劑加工、[[地工膜]]/[[地工格穴]]生產)",
+        "entities": [
+          "地工膜",
+          "地工格穴"
+        ]
+      },
+      {
+        "category": "海外生產",
+        "text": "上海廠、浙江廠 (農藥)、泰國廠、馬來西亞廠",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "國內農藥",
+        "text": "農會系統、農資經銷商 — 服務台灣農民",
+        "entities": []
+      },
+      {
+        "category": "國際農藥",
+        "text": "美國、中國、東南亞經銷商",
+        "entities": []
+      },
+      {
+        "category": "地工材料",
+        "text": "中國工程業者 (掩埋場、水利)、澳洲基礎設施商、越南及東南亞工程商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國內農藥",
+        "text": "各級農會、農資經銷商 — 植物保護劑",
+        "entities": []
+      },
+      {
+        "role": "國際農藥",
+        "text": "美國 (新增)、中國、東南亞經銷商與農業企業",
+        "entities": []
+      },
+      {
+        "role": "地工材料",
+        "text": "中國 (佔外銷約 20%)、澳洲 (約 20%)、越南 (約 10%) — 掩埋場、水利及基礎建設工程",
+        "entities": []
+      },
+      {
+        "role": "環境衛生",
+        "text": "環境消毒業者與公共衛生機構",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "農藥原體",
+        "text": "[[Syngenta]]、[[BASF]]、[[Bayer CropScience]] — 國際農化大廠原體與技術授權",
+        "entities": [
+          "Syngenta",
+          "BASF",
+          "Bayer CropScience"
+        ]
+      },
+      {
+        "role": "塑膠原料",
+        "text": "[[台塑]]、[[南亞塑膠]] — [[HDPE]] 樹脂 (地工膜原料)",
+        "entities": [
+          "台塑",
+          "南亞塑膠",
+          "HDPE"
+        ]
+      },
+      {
+        "role": "化工原料",
+        "text": "國內外中間體與溶劑供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Agricultural Inputs):** [[興農]]、[[台肥]]",
+        "entities": [
+          "興農",
+          "台肥"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Syngenta",
+      "type": "international_company_or_term",
+      "wikilink": "Syngenta"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Bayer CropScience",
+      "type": "international_company_or_term",
+      "wikilink": "Bayer CropScience"
+    },
+    {
+      "name": "地工膜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "地工膜"
+    },
+    {
+      "name": "地工格穴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "地工格穴"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "HDPE",
+      "type": "international_company_or_term",
+      "wikilink": "HDPE"
+    },
+    {
+      "name": "興農",
+      "type": "taiwan_company_or_term",
+      "wikilink": "興農"
+    },
+    {
+      "name": "台肥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台肥"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "惠光股份有限公司 (6508，Hui Kuang / HKC) 為台灣第二大農藥製造商，經營兩大事業群：(1) 農業科學事業群 — 生產殺蟲劑、殺菌劑、除草劑等植物保護劑，具備農藥原體合成能力，同時代理國際大廠如[[Syngenta]]、[[BASF]]、[[Bayer CropScience]]之產品，以「惠光」及「HKC」品牌銷售；(2) 環境科技事業群 — 以「HUITEX」品牌生產[[地工膜]]、[[地工格穴]]等地工合成材料，4 條產線年產能 31,000 噸，為台灣地工膜領導廠商。內銷台灣約佔三成，中國大陸約佔四成，東南亞及澳洲為主要外銷市場，近期新增美國市場帶動成長。海外設有上海、浙江、泰國及馬來西亞子公司。",
+    "supply_chain_md": "**上游 (原料):**\n- **農藥原體:** [[Syngenta]]、[[BASF]]、[[Bayer CropScience]] — 國際農藥原體採購與技術授權\n- **塑膠原料:** [[台塑]]、[[南亞塑膠]] — [[HDPE]] 樹脂供應 (地工膜生產)\n- **化工中間體:** 精密化學原料 — 農藥合成所需\n\n**中游 (製造):**\n- **惠光** (農藥原體合成與製劑加工、[[地工膜]]/[[地工格穴]]生產)\n- **海外生產:** 上海廠、浙江廠 (農藥)、泰國廠、馬來西亞廠\n\n**下游 (終端應用):**\n- **國內農藥:** 農會系統、農資經銷商 — 服務台灣農民\n- **國際農藥:** 美國、中國、東南亞經銷商\n- **地工材料:** 中國工程業者 (掩埋場、水利)、澳洲基礎設施商、越南及東南亞工程商",
+    "customers_suppliers_md": "### 主要客戶\n- **國內農藥:** 各級農會、農資經銷商 — 植物保護劑\n- **國際農藥:** 美國 (新增)、中國、東南亞經銷商與農業企業\n- **地工材料:** 中國 (佔外銷約 20%)、澳洲 (約 20%)、越南 (約 10%) — 掩埋場、水利及基礎建設工程\n- **環境衛生:** 環境消毒業者與公共衛生機構\n\n### 主要供應商\n- **農藥原體:** [[Syngenta]]、[[BASF]]、[[Bayer CropScience]] — 國際農化大廠原體與技術授權\n- **塑膠原料:** [[台塑]]、[[南亞塑膠]] — [[HDPE]] 樹脂 (地工膜原料)\n- **化工原料:** 國內外中間體與溶劑供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

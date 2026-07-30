@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5438",
+  "company_name": "東友",
+  "title": "5438 - 東友",
+  "source_md": "Pilot_Reports/Business Equipment & Supplies/5438_東友.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "1,817 百萬台幣",
+    "enterprise_value": "1,228 百萬台幣"
+  },
+  "business": {
+    "summary": "東友科技 (Teco Image Systems) 成立於 1997 年，總部位於台灣[[桃園]]，為 **東元集團 (TECO)** 成員。公司為全球知名 **多功能事務機 (MFP)** 之 [[ODM]] 製造商。主要產品涵蓋雷射印表機、掃描器、標籤列印機及 3D 列印機。近年積極轉型，透過 3D 列印技術切入 **無人機** 領域，提供機身輕量化解決方案，並成為台灣無人機國家隊成員。此外，亦代理 JVC 品牌產品。",
+    "entities": [
+      "桃園",
+      "ODM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備零組件採購)",
+        "text": "**上游 (設備零組件採購):**",
+        "entities": []
+      },
+      {
+        "category": "基礎料件",
+        "text": "採購塑膠粒、各式 IC 控制晶片、精密無刷馬達及光學感測器等電機零組件。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (事務機與新興載具代工)",
+        "text": "**中游 (事務機與新興載具代工):**",
+        "entities": []
+      },
+      {
+        "category": "研發製造",
+        "text": "**東友 (5438)** (東元集團旗下 MFP 多功能事務機 ODM/OEM 專業代工大廠，產製雷射印表機與掃描機，近期並運用 3D 列印技術投入無人機輕量化機身與系統平台開發)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌廠與應用單位)",
+        "text": "**下游 (品牌廠與應用單位):**",
+        "entities": []
+      },
+      {
+        "category": "終端市場",
+        "text": "全球大宗辦公室自動化品牌商、歐洲工業級設備廠以及無人機應用服務業者或國防政府單位。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國際事務大廠 (主力代工)",
+        "text": "全球知名辦公室自動化 (OA) 品牌廠，如 [[Canon]] (佳能)、[[Ricoh]] (理光)、[[HP]] (惠普)、[[Epson]] (愛普生) 及 [[Konica Minolta]] 等企業級巨頭。",
+        "entities": [
+          "Canon",
+          "Ricoh",
+          "HP",
+          "Epson",
+          "Konica Minolta"
+        ]
+      },
+      {
+        "role": "新興技術客戶",
+        "text": "德國彩色工業標籤機大廠、日本切割繪圖機客戶，以及導入東友系統進行產品驗證之國內外無人機大廠與政府相關單位。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "零組件廠與集團資源",
+        "text": "供應光學感測晶片與步進馬達之國內外電子零組件廠商，並得協同母集團 [[東元]] (1504) 之機電資源。",
+        "entities": [
+          "東元"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Business Equipment & Supplies):** [[地球]]、[[三商電]]、[[互盛電]]、[[連宇]]、[[金雨]]",
+        "entities": [
+          "地球",
+          "三商電",
+          "互盛電",
+          "連宇",
+          "金雨"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Canon",
+          "Ricoh",
+          "HP",
+          "Epson",
+          "Konica Minolta"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "桃園",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "Canon",
+      "type": "international_company_or_term",
+      "wikilink": "Canon"
+    },
+    {
+      "name": "Ricoh",
+      "type": "international_company_or_term",
+      "wikilink": "Ricoh"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    },
+    {
+      "name": "Konica Minolta",
+      "type": "international_company_or_term",
+      "wikilink": "Konica Minolta"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "地球",
+      "type": "taiwan_company_or_term",
+      "wikilink": "地球"
+    },
+    {
+      "name": "三商電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三商電"
+    },
+    {
+      "name": "互盛電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "互盛電"
+    },
+    {
+      "name": "連宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連宇"
+    },
+    {
+      "name": "金雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金雨"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東友科技 (Teco Image Systems) 成立於 1997 年，總部位於台灣[[桃園]]，為 **東元集團 (TECO)** 成員。公司為全球知名 **多功能事務機 (MFP)** 之 [[ODM]] 製造商。主要產品涵蓋雷射印表機、掃描器、標籤列印機及 3D 列印機。近年積極轉型，透過 3D 列印技術切入 **無人機** 領域，提供機身輕量化解決方案，並成為台灣無人機國家隊成員。此外，亦代理 JVC 品牌產品。",
+    "supply_chain_md": "**上游 (設備零組件採購):**\n- **基礎料件:** 採購塑膠粒、各式 IC 控制晶片、精密無刷馬達及光學感測器等電機零組件。\n\n**中游 (事務機與新興載具代工):**\n- **研發製造:** **東友 (5438)** (東元集團旗下 MFP 多功能事務機 ODM/OEM 專業代工大廠，產製雷射印表機與掃描機，近期並運用 3D 列印技術投入無人機輕量化機身與系統平台開發)。\n\n**下游 (品牌廠與應用單位):**\n- **終端市場:** 全球大宗辦公室自動化品牌商、歐洲工業級設備廠以及無人機應用服務業者或國防政府單位。",
+    "customers_suppliers_md": "### 主要客戶\n- **國際事務大廠 (主力代工):** 全球知名辦公室自動化 (OA) 品牌廠，如 [[Canon]] (佳能)、[[Ricoh]] (理光)、[[HP]] (惠普)、[[Epson]] (愛普生) 及 [[Konica Minolta]] 等企業級巨頭。\n- **新興技術客戶:** 德國彩色工業標籤機大廠、日本切割繪圖機客戶，以及導入東友系統進行產品驗證之國內外無人機大廠與政府相關單位。\n\n### 主要供應商\n- **零組件廠與集團資源:** 供應光學感測晶片與步進馬達之國內外電子零組件廠商，並得協同母集團 [[東元]] (1504) 之機電資源。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5398",
+  "company_name": "慕康生醫",
+  "title": "5398 - 慕康生醫",
+  "source_md": "Pilot_Reports/Drug Manufacturers - Specialty & Generic/5398_慕康生醫.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "market_cap": "715 百萬台幣",
+    "enterprise_value": "579 百萬台幣"
+  },
+  "business": {
+    "summary": "慕康生醫 (5398，Mediera/Inalways) 創立於 1978 年，原從事電子元件與電源零組件製造，後轉型為生技醫療集團。2016 年將[[育新]]、[[傑民]]、[[基鼎醫藥]]、[[杰菩科技]]、[[艾麗雅國際]]等五家生技子公司納入集團。主要業務涵蓋：(1) 醫藥通路 — 透過子公司代理銷售處方藥品、保健食品；(2) 醫療器材 — 自有品牌 INALWAYS 電子醫療器材；(3) 健檢服務 — 承攬企業及個人健康檢查業務；(4) 電子事業 — 保留部分電源零組件研發銷售。",
+    "entities": [
+      "育新",
+      "傑民",
+      "基鼎醫藥",
+      "杰菩科技",
+      "艾麗雅國際"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (藥品與原料)",
+        "text": "**上游 (藥品與原料):**",
+        "entities": []
+      },
+      {
+        "category": "藥廠",
+        "text": "國內外製藥原廠 — 處方藥品供應",
+        "entities": []
+      },
+      {
+        "category": "醫材元件",
+        "text": "電子微控制器與感測元件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路與服務)",
+        "text": "**中游 (通路與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**慕康生醫** (藥品與醫材經銷代理、健檢服務、電子醫療器材研發)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[育新]]** — 處方藥品代理",
+        "entities": [
+          "育新"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[基鼎醫藥]]** — 藥品通路",
+        "entities": [
+          "基鼎醫藥"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[傑民]]** — 醫藥產品經銷",
+        "entities": [
+          "傑民"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[杰菩科技]]** — 科技應用",
+        "entities": [
+          "杰菩科技"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[艾麗雅國際]]** — 國際市場經銷",
+        "entities": [
+          "艾麗雅國際"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "醫療機構",
+        "text": "區域醫院、診所、藥局",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "企業健檢專案客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業健檢",
+        "text": "企業健康檢查專案客戶",
+        "entities": []
+      },
+      {
+        "role": "醫療機構",
+        "text": "區域醫院、診所 — 處方藥品經銷",
+        "entities": []
+      },
+      {
+        "role": "藥局通路",
+        "text": "連鎖藥局與獨立藥局",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "藥品原廠",
+        "text": "國內外製藥廠 — 處方藥品",
+        "entities": []
+      },
+      {
+        "role": "子公司網絡",
+        "text": "[[育新]]、[[基鼎醫藥]]、[[傑民]]、[[杰菩科技]]、[[艾麗雅國際]]",
+        "entities": [
+          "育新",
+          "基鼎醫藥",
+          "傑民",
+          "杰菩科技",
+          "艾麗雅國際"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Drug Manufacturers - Specialty & Generic):** [[同業待補]]",
+        "entities": [
+          "同業待補"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "育新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "育新"
+    },
+    {
+      "name": "傑民",
+      "type": "taiwan_company_or_term",
+      "wikilink": "傑民"
+    },
+    {
+      "name": "基鼎醫藥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "基鼎醫藥"
+    },
+    {
+      "name": "杰菩科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杰菩科技"
+    },
+    {
+      "name": "艾麗雅國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "艾麗雅國際"
+    },
+    {
+      "name": "同業待補",
+      "type": "taiwan_company_or_term",
+      "wikilink": "同業待補"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "慕康生醫 (5398，Mediera/Inalways) 創立於 1978 年，原從事電子元件與電源零組件製造，後轉型為生技醫療集團。2016 年將[[育新]]、[[傑民]]、[[基鼎醫藥]]、[[杰菩科技]]、[[艾麗雅國際]]等五家生技子公司納入集團。主要業務涵蓋：(1) 醫藥通路 — 透過子公司代理銷售處方藥品、保健食品；(2) 醫療器材 — 自有品牌 INALWAYS 電子醫療器材；(3) 健檢服務 — 承攬企業及個人健康檢查業務；(4) 電子事業 — 保留部分電源零組件研發銷售。",
+    "supply_chain_md": "**上游 (藥品與原料):**\n- **藥廠:** 國內外製藥原廠 — 處方藥品供應\n- **醫材元件:** 電子微控制器與感測元件供應商\n\n**中游 (通路與服務):**\n- **慕康生醫** (藥品與醫材經銷代理、健檢服務、電子醫療器材研發)\n- **[[育新]]** — 處方藥品代理\n- **[[基鼎醫藥]]** — 藥品通路\n- **[[傑民]]** — 醫藥產品經銷\n- **[[杰菩科技]]** — 科技應用\n- **[[艾麗雅國際]]** — 國際市場經銷\n\n**下游 (終端客戶):**\n- **醫療機構:** 區域醫院、診所、藥局\n- **企業客戶:** 企業健檢專案客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **企業健檢:** 企業健康檢查專案客戶\n- **醫療機構:** 區域醫院、診所 — 處方藥品經銷\n- **藥局通路:** 連鎖藥局與獨立藥局\n\n### 主要供應商\n- **藥品原廠:** 國內外製藥廠 — 處方藥品\n- **子公司網絡:** [[育新]]、[[基鼎醫藥]]、[[傑民]]、[[杰菩科技]]、[[艾麗雅國際]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

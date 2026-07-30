@@ -1,0 +1,286 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2312",
+  "company_name": "金寶",
+  "title": "2312 - 金寶",
+  "source_md": "Pilot_Reports/Computer Hardware/2312_金寶.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "43,810 百萬台幣",
+    "enterprise_value": "81,284 百萬台幣"
+  },
+  "business": {
+    "summary": "金寶電子 (2312，[[Kinpo Electronics]]) 成立於 1973 年，總部位於台北，為台灣老牌消費性電子代工 ([[EMS]]) 大廠，隸屬新金寶集團。集團旗下包含[[泰金寶]] (Cal-Comp Electronics，泰國)、[[康舒科技]] (AcBel Polytech，電源供應器) 等重要子公司。\n\n主力代工產品涵蓋：(1) 列印事業：雷射及噴墨印表機，為全球印表機品牌大廠提供 ODM 服務；(2) 網通事業：數位機上盒、無線路由器、寬頻數據機；(3) 消費電子：計算機、程式學習機器人；(4) 儲存產品：[[SSD]]、USB 隨身碟、記憶卡。泰國泰金寶為集團最大製造基地，生產基地亦涵蓋中國、巴西及菲律賓。",
+    "entities": [
+      "Kinpo Electronics",
+      "EMS",
+      "泰金寶",
+      "康舒科技",
+      "SSD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子元件與機構件)",
+        "text": "**上游 (電子元件與機構件):**",
+        "entities": []
+      },
+      {
+        "category": "晶片",
+        "text": "印表機控制 SoC、網通晶片、記憶體 IC",
+        "entities": []
+      },
+      {
+        "category": "被動元件",
+        "text": "[[MLCC]]、電阻、電感等被動元件",
+        "entities": [
+          "MLCC"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "塑膠射出件、金屬沖壓件及模具",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EMS/ODM 代工製造)",
+        "text": "**中游 (EMS/ODM 代工製造):**",
+        "entities": []
+      },
+      {
+        "category": "列印事業",
+        "text": "**金寶**/[[泰金寶]] (雷射/噴墨印表機 ODM 代工)",
+        "entities": [
+          "泰金寶"
+        ]
+      },
+      {
+        "category": "網通事業",
+        "text": "**金寶** (機上盒/路由器/寬頻數據機)",
+        "entities": []
+      },
+      {
+        "category": "電源事業",
+        "text": "[[康舒科技]] (AcBel，伺服器及 PC 電源供應器)",
+        "entities": [
+          "康舒科技"
+        ]
+      },
+      {
+        "category": "海外製造",
+        "text": "泰國 (主力)、中國、巴西、菲律賓",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌客戶)",
+        "text": "**下游 (國際品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "列印品牌",
+        "text": "[[HP]]、[[Brother]]、[[Epson]] — 印表機 ODM 代工",
+        "entities": [
+          "HP",
+          "Brother",
+          "Epson"
+        ]
+      },
+      {
+        "category": "網通品牌",
+        "text": "全球寬頻設備品牌 — 機上盒/路由器",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Texas Instruments]] (TI) — 計算機代工",
+        "entities": [
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "列印品牌",
+        "text": "[[HP]]、[[Brother]]、[[Epson]] — 雷射/噴墨印表機 ODM 代工",
+        "entities": [
+          "HP",
+          "Brother",
+          "Epson"
+        ]
+      },
+      {
+        "role": "教育科技",
+        "text": "[[Texas Instruments]] (TI) — 圖形計算機代工",
+        "entities": [
+          "Texas Instruments"
+        ]
+      },
+      {
+        "role": "網通品牌",
+        "text": "全球寬頻設備品牌 — 數位機上盒及路由器",
+        "entities": []
+      },
+      {
+        "role": "儲存品牌",
+        "text": "[[SSD]]、USB 及記憶卡之國際品牌客戶",
+        "entities": [
+          "SSD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "列印耗材",
+        "text": "碳粉匣及墨水匣關鍵零組件供應商",
+        "entities": []
+      },
+      {
+        "role": "晶片供應",
+        "text": "印表機控制 SoC 及記憶體 IC 廠",
+        "entities": []
+      },
+      {
+        "role": "子公司",
+        "text": "[[康舒科技]] (AcBel) — 伺服器及 PC 電源供應器",
+        "entities": [
+          "康舒科技"
+        ]
+      },
+      {
+        "role": "海外基地",
+        "text": "[[泰金寶]] (Cal-Comp) — 泰國主力製造基地",
+        "entities": [
+          "泰金寶"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[中環]]、[[仁寶]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "中環",
+          "仁寶"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "HP",
+          "Brother",
+          "Epson",
+          "Texas Instruments",
+          "SSD"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Kinpo Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Kinpo Electronics"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "泰金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "泰金寶"
+    },
+    {
+      "name": "康舒科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康舒科技"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Brother",
+      "type": "international_company_or_term",
+      "wikilink": "Brother"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "金寶電子 (2312，[[Kinpo Electronics]]) 成立於 1973 年，總部位於台北，為台灣老牌消費性電子代工 ([[EMS]]) 大廠，隸屬新金寶集團。集團旗下包含[[泰金寶]] (Cal-Comp Electronics，泰國)、[[康舒科技]] (AcBel Polytech，電源供應器) 等重要子公司。\n\n主力代工產品涵蓋：(1) 列印事業：雷射及噴墨印表機，為全球印表機品牌大廠提供 ODM 服務；(2) 網通事業：數位機上盒、無線路由器、寬頻數據機；(3) 消費電子：計算機、程式學習機器人；(4) 儲存產品：[[SSD]]、USB 隨身碟、記憶卡。泰國泰金寶為集團最大製造基地，生產基地亦涵蓋中國、巴西及菲律賓。",
+    "supply_chain_md": "**上游 (電子元件與機構件):**\n- **晶片:** 印表機控制 SoC、網通晶片、記憶體 IC\n- **被動元件:** [[MLCC]]、電阻、電感等被動元件\n- **機構件:** 塑膠射出件、金屬沖壓件及模具\n\n**中游 (EMS/ODM 代工製造):**\n- **列印事業:** **金寶**/[[泰金寶]] (雷射/噴墨印表機 ODM 代工)\n- **網通事業:** **金寶** (機上盒/路由器/寬頻數據機)\n- **電源事業:** [[康舒科技]] (AcBel，伺服器及 PC 電源供應器)\n- **海外製造:** 泰國 (主力)、中國、巴西、菲律賓\n\n**下游 (國際品牌客戶):**\n- **列印品牌:** [[HP]]、[[Brother]]、[[Epson]] — 印表機 ODM 代工\n- **網通品牌:** 全球寬頻設備品牌 — 機上盒/路由器\n- **消費電子:** [[Texas Instruments]] (TI) — 計算機代工",
+    "customers_suppliers_md": "### 主要客戶\n- **列印品牌:** [[HP]]、[[Brother]]、[[Epson]] — 雷射/噴墨印表機 ODM 代工\n- **教育科技:** [[Texas Instruments]] (TI) — 圖形計算機代工\n- **網通品牌:** 全球寬頻設備品牌 — 數位機上盒及路由器\n- **儲存品牌:** [[SSD]]、USB 及記憶卡之國際品牌客戶\n\n### 主要供應商\n- **列印耗材:** 碳粉匣及墨水匣關鍵零組件供應商\n- **晶片供應:** 印表機控制 SoC 及記憶體 IC 廠\n- **子公司:** [[康舒科技]] (AcBel) — 伺服器及 PC 電源供應器\n- **海外基地:** [[泰金寶]] (Cal-Comp) — 泰國主力製造基地"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

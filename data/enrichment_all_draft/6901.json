@@ -1,0 +1,317 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6901",
+  "company_name": "鑽石投資",
+  "title": "6901_鑽石投資",
+  "source_md": "Pilot_Reports/Asset Management/6901_鑽石投資.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "market_cap": "14,285 百萬台幣",
+    "enterprise_value": "10,636 百萬台幣"
+  },
+  "business": {
+    "summary": "鑽石投資 (6901，Diamond Biofund) 為台灣首家公開上市之常青型生技創業投資基金，由[[中天生技]]創辦人路孔明發起，[[富邦金控]]、[[台新金控]]及[[潤泰集團]]共同出資。公司定位為專業生技醫藥創投，已投資逾 20 家生技公司，包含 2 家獨角獸等級企業。核心投資組合：[[合一生技]] (已實現處分利益 20.8 億元)、[[醣基生醫]]、[[欣耀生醫]]、[[中天生技]]。另投資[[永笙KY]] (細胞治療藥物，加碼 2 億元)、[[中央研究院]]衍生新創[[Syncell]] (空間蛋白質體學，與[[Thermo Fisher]]合作)、[[新析生技]] (中研院衍生，投資 1.28 億元)、[[優億]]、海外[[Rejuvenate Bio]]及[[Bilayer Therapeutics]]等。",
+    "entities": [
+      "中天生技",
+      "富邦金控",
+      "台新金控",
+      "潤泰集團",
+      "合一生技",
+      "醣基生醫",
+      "欣耀生醫",
+      "永笙KY",
+      "中央研究院",
+      "Syncell",
+      "Thermo Fisher",
+      "新析生技",
+      "優億",
+      "Rejuvenate Bio",
+      "Bilayer Therapeutics"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "法人股東",
+        "text": "[[富邦金控]]、[[台新金控]]、[[潤泰集團]] — 主要出資方",
+        "entities": [
+          "富邦金控",
+          "台新金控",
+          "潤泰集團"
+        ]
+      },
+      {
+        "category": "發起集團",
+        "text": "[[中天生技]] — 路孔明發起",
+        "entities": [
+          "中天生技"
+        ]
+      },
+      {
+        "category": "技術評估",
+        "text": "[[中央研究院]] — 專利技術授權評估合作",
+        "entities": [
+          "中央研究院"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (基金管理)",
+        "text": "**中游 (基金管理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**鑽石投資** (生技醫藥創業投資基金管理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (被投資標的)",
+        "text": "**下游 (被投資標的):**",
+        "entities": []
+      },
+      {
+        "category": "新藥研發",
+        "text": "[[合一生技]]、[[醣基生醫]]、[[欣耀生醫]]、[[中天生技]]",
+        "entities": [
+          "合一生技",
+          "醣基生醫",
+          "欣耀生醫",
+          "中天生技"
+        ]
+      },
+      {
+        "category": "細胞治療",
+        "text": "[[永笙KY]] — 細胞治療藥物",
+        "entities": [
+          "永笙KY"
+        ]
+      },
+      {
+        "category": "空間蛋白質體",
+        "text": "[[Syncell]] ([[中央研究院]]衍生，與[[Thermo Fisher]]合作)",
+        "entities": [
+          "Syncell",
+          "中央研究院",
+          "Thermo Fisher"
+        ]
+      },
+      {
+        "category": "中研院新創",
+        "text": "[[新析生技]] — 生技新創",
+        "entities": [
+          "新析生技"
+        ]
+      },
+      {
+        "category": "海外投資",
+        "text": "[[Rejuvenate Bio]]、[[Bilayer Therapeutics]]、[[優億]]",
+        "entities": [
+          "Rejuvenate Bio",
+          "Bilayer Therapeutics",
+          "優億"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Asset Management):** [[同業待補]]",
+        "entities": [
+          "同業待補"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": [
+      {
+        "role": "新藥研發",
+        "text": "[[合一生技]] (已實現 20.8 億元處分利益)、[[醣基生醫]]、[[欣耀生醫]]、[[中天生技]]",
+        "entities": [
+          "合一生技",
+          "醣基生醫",
+          "欣耀生醫",
+          "中天生技"
+        ]
+      },
+      {
+        "role": "細胞治療",
+        "text": "[[永笙KY]] — 細胞治療藥物 (加碼 2 億元)",
+        "entities": [
+          "永笙KY"
+        ]
+      },
+      {
+        "role": "空間蛋白質體",
+        "text": "[[Syncell]] — [[中央研究院]]衍生，與[[Thermo Fisher]]合作",
+        "entities": [
+          "Syncell",
+          "中央研究院",
+          "Thermo Fisher"
+        ]
+      },
+      {
+        "role": "中研院新創",
+        "text": "[[新析生技]] (投資 1.28 億元)",
+        "entities": [
+          "新析生技"
+        ]
+      },
+      {
+        "role": "海外",
+        "text": "[[Rejuvenate Bio]]、[[Bilayer Therapeutics]]、[[優億]]",
+        "entities": [
+          "Rejuvenate Bio",
+          "Bilayer Therapeutics",
+          "優億"
+        ]
+      },
+      {
+        "role": "金融法人",
+        "text": "[[富邦金控]]、[[台新金控]] — 主要出資股東",
+        "entities": [
+          "富邦金控",
+          "台新金控"
+        ]
+      },
+      {
+        "role": "產業集團",
+        "text": "[[潤泰集團]] — 策略投資人",
+        "entities": [
+          "潤泰集團"
+        ]
+      },
+      {
+        "role": "發起集團",
+        "text": "[[中天生技]] — 路孔明發起",
+        "entities": [
+          "中天生技"
+        ]
+      },
+      {
+        "role": "學術合作",
+        "text": "[[中央研究院]] — 技術授權評估",
+        "entities": [
+          "中央研究院"
+        ]
+      }
+    ]
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中天生技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中天生技"
+    },
+    {
+      "name": "富邦金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦金控"
+    },
+    {
+      "name": "台新金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台新金控"
+    },
+    {
+      "name": "潤泰集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "潤泰集團"
+    },
+    {
+      "name": "合一生技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合一生技"
+    },
+    {
+      "name": "醣基生醫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醣基生醫"
+    },
+    {
+      "name": "欣耀生醫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣耀生醫"
+    },
+    {
+      "name": "永笙KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永笙KY"
+    },
+    {
+      "name": "中央研究院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央研究院"
+    },
+    {
+      "name": "Syncell",
+      "type": "international_company_or_term",
+      "wikilink": "Syncell"
+    },
+    {
+      "name": "Thermo Fisher",
+      "type": "international_company_or_term",
+      "wikilink": "Thermo Fisher"
+    },
+    {
+      "name": "新析生技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新析生技"
+    },
+    {
+      "name": "優億",
+      "type": "taiwan_company_or_term",
+      "wikilink": "優億"
+    },
+    {
+      "name": "Rejuvenate Bio",
+      "type": "international_company_or_term",
+      "wikilink": "Rejuvenate Bio"
+    },
+    {
+      "name": "Bilayer Therapeutics",
+      "type": "international_company_or_term",
+      "wikilink": "Bilayer Therapeutics"
+    },
+    {
+      "name": "同業待補",
+      "type": "taiwan_company_or_term",
+      "wikilink": "同業待補"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鑽石投資 (6901，Diamond Biofund) 為台灣首家公開上市之常青型生技創業投資基金，由[[中天生技]]創辦人路孔明發起，[[富邦金控]]、[[台新金控]]及[[潤泰集團]]共同出資。公司定位為專業生技醫藥創投，已投資逾 20 家生技公司，包含 2 家獨角獸等級企業。核心投資組合：[[合一生技]] (已實現處分利益 20.8 億元)、[[醣基生醫]]、[[欣耀生醫]]、[[中天生技]]。另投資[[永笙KY]] (細胞治療藥物，加碼 2 億元)、[[中央研究院]]衍生新創[[Syncell]] (空間蛋白質體學，與[[Thermo Fisher]]合作)、[[新析生技]] (中研院衍生，投資 1.28 億元)、[[優億]]、海外[[Rejuvenate Bio]]及[[Bilayer Therapeutics]]等。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **法人股東:** [[富邦金控]]、[[台新金控]]、[[潤泰集團]] — 主要出資方\n- **發起集團:** [[中天生技]] — 路孔明發起\n- **技術評估:** [[中央研究院]] — 專利技術授權評估合作\n\n**中游 (基金管理):**\n- **鑽石投資** (生技醫藥創業投資基金管理)\n\n**下游 (被投資標的):**\n- **新藥研發:** [[合一生技]]、[[醣基生醫]]、[[欣耀生醫]]、[[中天生技]]\n- **細胞治療:** [[永笙KY]] — 細胞治療藥物\n- **空間蛋白質體:** [[Syncell]] ([[中央研究院]]衍生，與[[Thermo Fisher]]合作)\n- **中研院新創:** [[新析生技]] — 生技新創\n- **海外投資:** [[Rejuvenate Bio]]、[[Bilayer Therapeutics]]、[[優億]]",
+    "customers_suppliers_md": "### 主要被投資公司\n- **新藥研發:** [[合一生技]] (已實現 20.8 億元處分利益)、[[醣基生醫]]、[[欣耀生醫]]、[[中天生技]]\n- **細胞治療:** [[永笙KY]] — 細胞治療藥物 (加碼 2 億元)\n- **空間蛋白質體:** [[Syncell]] — [[中央研究院]]衍生，與[[Thermo Fisher]]合作\n- **中研院新創:** [[新析生技]] (投資 1.28 億元)\n- **海外:** [[Rejuvenate Bio]]、[[Bilayer Therapeutics]]、[[優億]]\n\n### 主要股東\n- **金融法人:** [[富邦金控]]、[[台新金控]] — 主要出資股東\n- **產業集團:** [[潤泰集團]] — 策略投資人\n- **發起集團:** [[中天生技]] — 路孔明發起\n- **學術合作:** [[中央研究院]] — 技術授權評估"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1104",
+  "company_name": "環泥",
+  "title": "1104 - 環泥",
+  "source_md": "Pilot_Reports/Building Materials/1104_環泥.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "18,437 百萬台幣",
+    "enterprise_value": "17,513 百萬台幣"
+  },
+  "business": {
+    "summary": "環球水泥股份有限公司 (Universal Cement Corporation) 成立於 1959 年，總部位於台灣[[台北]]，為「台南幫」企業之一。公司深耕南台灣，主要產品為[[水泥]]、[[預拌混凝土]]及[[石膏板]] (市佔率全台第一，約 90%)。近年環泥積極跨足電子科技領域，透過子公司[[利永環球]]發展軟性觸覺感測器 (Micro-pressure Sensor)，應用於3C產品及智慧醫療。此外，環泥亦是南科科技廠房建設之主要混凝土供應商。",
+    "entities": [
+      "台北",
+      "水泥",
+      "預拌混凝土",
+      "石膏板",
+      "利永環球"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與生產)",
+        "text": "**上游 (原料與生產):**",
+        "entities": []
+      },
+      {
+        "category": "水泥熟料",
+        "text": "熟料多為外購或進口 (向國內東部大廠採購)，於高雄阿蓮、台南麻豆等地設有研磨廠與預拌廠。",
+        "entities": []
+      },
+      {
+        "category": "石膏板原物料",
+        "text": "採用火力發電廠之副產品 ([[脫硫石膏]]) 進行循環再利用，於桃園海湖設有工廠。",
+        "entities": [
+          "脫硫石膏"
+        ]
+      },
+      {
+        "category": "建材合作",
+        "text": "強化與日本建材大廠 [[NICHIHA]] 合作，增加外牆與屋頂系統建材多樣性。",
+        "entities": [
+          "NICHIHA"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用 (終端市場)",
+        "text": "**下游應用 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "建材業務 (混凝土)",
+        "text": "供應高磅數水泥予 [[台積電]] 南部廠房 (為其兩大供應商之一)、高雄台南捷運及南科擴建案等重大工程。",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "電子業務 (利永環球)",
+        "text": "- **電子業務 (利永環球):**",
+        "entities": []
+      },
+      {
+        "category": "感測器應用",
+        "text": "觸控筆、智慧鍵盤、醫療床 (導入 [[北醫行愛長照中心]] 之褥瘡偵測)、智慧倉儲。",
+        "entities": [
+          "北醫行愛長照中心"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技廠辦營造",
+        "text": "[[台積電]] 及其南科進駐廠商之廠房建設專案。",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "AI醫療與電子",
+        "text": "採購壓力感測器之北美與歐洲產業領導品牌，以及 [[北醫行愛長照中心]]。",
+        "entities": [
+          "北醫行愛長照中心"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "水泥熟料來源",
+        "text": "國內東部之大型水泥與熟料製造商、[[台電]] (脫硫石膏來源)。",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "特殊建材授權",
+        "text": "日本外牆建材大廠 [[NICHIHA]]。",
+        "entities": [
+          "NICHIHA"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Materials):** [[台泥]]、[[亞泥]]、[[嘉泥]]、[[幸福]]、[[信大]]",
+        "entities": [
+          "台泥",
+          "亞泥",
+          "嘉泥",
+          "幸福",
+          "信大"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "北醫行愛長照中心"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水泥"
+    },
+    {
+      "name": "預拌混凝土",
+      "type": "taiwan_company_or_term",
+      "wikilink": "預拌混凝土"
+    },
+    {
+      "name": "石膏板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石膏板"
+    },
+    {
+      "name": "利永環球",
+      "type": "taiwan_company_or_term",
+      "wikilink": "利永環球"
+    },
+    {
+      "name": "脫硫石膏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "脫硫石膏"
+    },
+    {
+      "name": "NICHIHA",
+      "type": "international_company_or_term",
+      "wikilink": "NICHIHA"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "北醫行愛長照中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "北醫行愛長照中心"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "嘉泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉泥"
+    },
+    {
+      "name": "幸福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "幸福"
+    },
+    {
+      "name": "信大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信大"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "環球水泥股份有限公司 (Universal Cement Corporation) 成立於 1959 年，總部位於台灣[[台北]]，為「台南幫」企業之一。公司深耕南台灣，主要產品為[[水泥]]、[[預拌混凝土]]及[[石膏板]] (市佔率全台第一，約 90%)。近年環泥積極跨足電子科技領域，透過子公司[[利永環球]]發展軟性觸覺感測器 (Micro-pressure Sensor)，應用於3C產品及智慧醫療。此外，環泥亦是南科科技廠房建設之主要混凝土供應商。",
+    "supply_chain_md": "**上游 (原料與生產):**\n- **水泥熟料:** 熟料多為外購或進口 (向國內東部大廠採購)，於高雄阿蓮、台南麻豆等地設有研磨廠與預拌廠。\n- **石膏板原物料:** 採用火力發電廠之副產品 ([[脫硫石膏]]) 進行循環再利用，於桃園海湖設有工廠。\n- **建材合作:** 強化與日本建材大廠 [[NICHIHA]] 合作，增加外牆與屋頂系統建材多樣性。\n\n**下游應用 (終端市場):**\n- **建材業務 (混凝土):** 供應高磅數水泥予 [[台積電]] 南部廠房 (為其兩大供應商之一)、高雄台南捷運及南科擴建案等重大工程。\n- **電子業務 (利永環球):**\n    - **感測器應用:** 觸控筆、智慧鍵盤、醫療床 (導入 [[北醫行愛長照中心]] 之褥瘡偵測)、智慧倉儲。",
+    "customers_suppliers_md": "### 主要客戶\n- **科技廠辦營造:** [[台積電]] 及其南科進駐廠商之廠房建設專案。\n- **AI醫療與電子:** 採購壓力感測器之北美與歐洲產業領導品牌，以及 [[北醫行愛長照中心]]。\n\n### 主要供應商\n- **水泥熟料來源:** 國內東部之大型水泥與熟料製造商、[[台電]] (脫硫石膏來源)。\n- **特殊建材授權:** 日本外牆建材大廠 [[NICHIHA]]。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

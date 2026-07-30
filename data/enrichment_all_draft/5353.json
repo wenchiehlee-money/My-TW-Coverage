@@ -1,0 +1,306 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5353",
+  "company_name": "台林",
+  "title": "5353 - 台林",
+  "source_md": "Pilot_Reports/Communication Equipment/5353_台林.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,042 百萬台幣",
+    "enterprise_value": "1,370 百萬台幣"
+  },
+  "business": {
+    "summary": "台林電通 (5353，[[Tailyn Technologies]]) 成立於 1980 年，總部位於桃園蘆竹，專注於工業級網通設備及專用電子系統之 [[EMS]]/[[ODM]] 服務。公司採「少量多樣、高可靠度」利基市場策略，避開消費電子紅海。\n\n三大業務核心：(1) 工業網通：工業級交換器、路由器、[[5G]] NR 前傳設備、[[Wi-Fi]] 無線基地台及 AI TSN 時間敏感網路方案；(2) 半導體設備：為美系半導體設備大廠提供控制電路板及配電模組之精密製造與維修服務；(3) 電動車：[[Gogoro]] 電動機車電控模組 (Dashboard、ECU) 獨家代工。近年桃園蘆竹總部大舉擴廠 30%，以因應半導體設備及工業網通訂單強勁增長。",
+    "entities": [
+      "Tailyn Technologies",
+      "EMS",
+      "ODM",
+      "5G",
+      "Wi-Fi",
+      "Gogoro"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (工控級特殊元件)",
+        "text": "**上游 (工控級特殊元件):**",
+        "entities": []
+      },
+      {
+        "category": "網通晶片",
+        "text": "[[Broadcom]]、[[瑞昱]] — 工業級網通主控通訊 IC",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      },
+      {
+        "category": "微控制器",
+        "text": "車規級 MCU 及工業級控制器",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "工業級連接器、金屬防爆機櫃及特規 PCB",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (利基型 EMS/ODM 代工)",
+        "text": "**中游 (利基型 EMS/ODM 代工):**",
+        "entities": []
+      },
+      {
+        "category": "工業網通",
+        "text": "**台林** (5G NR 前傳、工業交換器/路由器、AI TSN 方案)",
+        "entities": []
+      },
+      {
+        "category": "半導體設備",
+        "text": "**台林** (美系設備廠控制電路板製造/維修/升級)",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "**台林** ([[Gogoro]] 電控 ECU 獨家代工)",
+        "entities": [
+          "Gogoro"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (工業網通品牌與設備廠)",
+        "text": "**下游 (工業網通品牌與設備廠):**",
+        "entities": []
+      },
+      {
+        "category": "半導體設備",
+        "text": "[[Applied Materials]]、[[Lam Research]] — 機台控制模組",
+        "entities": [
+          "Applied Materials",
+          "Lam Research"
+        ]
+      },
+      {
+        "category": "電動機車",
+        "text": "[[Gogoro]] — 電控模組獨家供應",
+        "entities": [
+          "Gogoro"
+        ]
+      },
+      {
+        "category": "工業網通",
+        "text": "歐美工業級網通品牌商 (工廠自動化/交通/電力)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體設備",
+        "text": "[[Applied Materials]]、[[Lam Research]] — 控制電路板及配電模組製造與維修",
+        "entities": [
+          "Applied Materials",
+          "Lam Research"
+        ]
+      },
+      {
+        "role": "電動機車",
+        "text": "[[Gogoro]] — 電動機車電控 ECU 及儀表板獨家代工",
+        "entities": [
+          "Gogoro"
+        ]
+      },
+      {
+        "role": "工業網通",
+        "text": "歐美工業級網通品牌商 — 強固型交換器/路由器/5G 前傳設備",
+        "entities": []
+      },
+      {
+        "role": "5G 專網",
+        "text": "[[台灣大哥大]] — 5G 智慧工廠專網合作",
+        "entities": [
+          "台灣大哥大"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網通晶片",
+        "text": "[[Broadcom]]、[[瑞昱]]",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "車規元件",
+        "text": "[[朋程]] 等車用發電機核心元件廠",
+        "entities": [
+          "朋程"
+        ]
+      },
+      {
+        "role": "MCU",
+        "text": "車規級微控制器原廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Applied Materials",
+          "Lam Research",
+          "Gogoro",
+          "台灣大哥大"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "台林電通 (5353，[[Tailyn Technologies]]) 成立於 1980 年，總部位於桃園蘆竹，專注於工業級網通設備及專用電子系統之 [[EMS]]/[[ODM]] 服務。公司採「少量多樣、高可靠度」利基市場策略，避開消費電子紅海。",
+        "entities": [
+          "Tailyn Technologies",
+          "EMS",
+          "ODM"
+        ]
+      },
+      {
+        "text": "**中游 (利基型 EMS/ODM 代工):**",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "台林電通 (5353，[[Tailyn Technologies]]) 成立於 1980 年，總部位於桃園蘆竹，專注於工業級網通設備及專用電子系統之 [[EMS]]/[[ODM]] 服務。公司採「少量多樣、高可靠度」利基市場策略，避開消費電子紅海。",
+        "entities": [
+          "Tailyn Technologies",
+          "EMS",
+          "ODM"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "Tailyn Technologies",
+      "type": "international_company_or_term",
+      "wikilink": "Tailyn Technologies"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "Gogoro",
+      "type": "international_company_or_term",
+      "wikilink": "Gogoro"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "Lam Research",
+      "type": "international_company_or_term",
+      "wikilink": "Lam Research"
+    },
+    {
+      "name": "台灣大哥大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大哥大"
+    },
+    {
+      "name": "朋程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "朋程"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台林電通 (5353，[[Tailyn Technologies]]) 成立於 1980 年，總部位於桃園蘆竹，專注於工業級網通設備及專用電子系統之 [[EMS]]/[[ODM]] 服務。公司採「少量多樣、高可靠度」利基市場策略，避開消費電子紅海。\n\n三大業務核心：(1) 工業網通：工業級交換器、路由器、[[5G]] NR 前傳設備、[[Wi-Fi]] 無線基地台及 AI TSN 時間敏感網路方案；(2) 半導體設備：為美系半導體設備大廠提供控制電路板及配電模組之精密製造與維修服務；(3) 電動車：[[Gogoro]] 電動機車電控模組 (Dashboard、ECU) 獨家代工。近年桃園蘆竹總部大舉擴廠 30%，以因應半導體設備及工業網通訂單強勁增長。",
+    "supply_chain_md": "**上游 (工控級特殊元件):**\n- **網通晶片:** [[Broadcom]]、[[瑞昱]] — 工業級網通主控通訊 IC\n- **微控制器:** 車規級 MCU 及工業級控制器\n- **機構件:** 工業級連接器、金屬防爆機櫃及特規 PCB\n\n**中游 (利基型 EMS/ODM 代工):**\n- **工業網通:** **台林** (5G NR 前傳、工業交換器/路由器、AI TSN 方案)\n- **半導體設備:** **台林** (美系設備廠控制電路板製造/維修/升級)\n- **電動車:** **台林** ([[Gogoro]] 電控 ECU 獨家代工)\n\n**下游 (工業網通品牌與設備廠):**\n- **半導體設備:** [[Applied Materials]]、[[Lam Research]] — 機台控制模組\n- **電動機車:** [[Gogoro]] — 電控模組獨家供應\n- **工業網通:** 歐美工業級網通品牌商 (工廠自動化/交通/電力)",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體設備:** [[Applied Materials]]、[[Lam Research]] — 控制電路板及配電模組製造與維修\n- **電動機車:** [[Gogoro]] — 電動機車電控 ECU 及儀表板獨家代工\n- **工業網通:** 歐美工業級網通品牌商 — 強固型交換器/路由器/5G 前傳設備\n- **5G 專網:** [[台灣大哥大]] — 5G 智慧工廠專網合作\n\n### 主要供應商\n- **網通晶片:** [[Broadcom]]、[[瑞昱]]\n- **車規元件:** [[朋程]] 等車用發電機核心元件廠\n- **MCU:** 車規級微控制器原廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

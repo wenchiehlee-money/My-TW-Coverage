@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2603",
+  "company_name": "長榮",
+  "title": "2603 - 長榮",
+  "source_md": "Pilot_Reports/Marine Shipping/2603_長榮.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "436,256 百萬台幣",
+    "enterprise_value": "457,151 百萬台幣"
+  },
+  "business": {
+    "summary": "長榮海運股份有限公司 (2603，Evergreen Marine) 成立於 1968 年，為台灣最大、全球前十大貨櫃航運公司。公司提供全球貨櫃海運服務，航線遍及遠東-北美、遠東-歐洲、亞洲區間等主要航線，並參與[[Ocean Alliance]]國際航運聯盟 (與[[CMA CGM]]、[[COSCO]]、[[OOCL]]合作)。旗下擁有子公司[[長榮國際儲運]]經營碼頭與物流，[[榮運倉儲]]提供倉儲服務。集團亦透過關係企業[[長榮鋼鐵]]從事鋼製貨櫃製造。",
+    "entities": [
+      "Ocean Alliance",
+      "CMA CGM",
+      "COSCO",
+      "OOCL",
+      "長榮國際儲運",
+      "榮運倉儲",
+      "長榮鋼鐵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶與設備)",
+        "text": "**上游 (船舶與設備):**",
+        "entities": []
+      },
+      {
+        "category": "造船",
+        "text": "[[台灣國際造船]] (台船)、韓國[[三星重工]]、日本造船廠 — 新造貨櫃輪",
+        "entities": [
+          "台灣國際造船",
+          "三星重工"
+        ]
+      },
+      {
+        "category": "租船與貨櫃",
+        "text": "國際租船與貨櫃租賃公司",
+        "entities": []
+      },
+      {
+        "category": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (貨櫃航運服務)",
+        "text": "**中游 (貨櫃航運服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[長榮海運]]** — 全球貨櫃海運服務、碼頭營運",
+        "entities": [
+          "長榮海運"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[Ocean Alliance]]** — 與[[CMA CGM]]、[[COSCO]]、[[OOCL]]聯盟艙位互換",
+        "entities": [
+          "Ocean Alliance",
+          "CMA CGM",
+          "COSCO",
+          "OOCL"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端貨主)",
+        "text": "**下游 (終端貨主):**",
+        "entities": []
+      },
+      {
+        "category": "大型零售商",
+        "text": "全球消費品牌之貨運需求",
+        "entities": []
+      },
+      {
+        "category": "貨代",
+        "text": "國際貨運承攬業者 (Forwarders)",
+        "entities": []
+      },
+      {
+        "category": "製造業",
+        "text": "全球進出口製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "聯盟夥伴",
+        "text": "[[Ocean Alliance]] — [[CMA CGM]]、[[COSCO]]、[[OOCL]]艙位互換",
+        "entities": [
+          "Ocean Alliance",
+          "CMA CGM",
+          "COSCO",
+          "OOCL"
+        ]
+      },
+      {
+        "role": "終端貨主",
+        "text": "全球大型零售商與消費品牌",
+        "entities": []
+      },
+      {
+        "role": "貨代",
+        "text": "國際貨運承攬業者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "造船",
+        "text": "[[台灣國際造船]]、[[三星重工]] — 新造貨櫃輪",
+        "entities": [
+          "台灣國際造船",
+          "三星重工"
+        ]
+      },
+      {
+        "role": "碼頭營運",
+        "text": "[[長榮國際儲運]] — 碼頭與物流服務",
+        "entities": [
+          "長榮國際儲運"
+        ]
+      },
+      {
+        "role": "貨櫃製造",
+        "text": "[[長榮鋼鐵]] — 鋼製貨櫃",
+        "entities": [
+          "長榮鋼鐵"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Marine Shipping):** [[新興]]、[[裕民]]、[[陽明]]、[[志信]]、[[中櫃]]",
+        "entities": [
+          "新興",
+          "裕民",
+          "陽明",
+          "志信",
+          "中櫃"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Ocean Alliance",
+          "CMA CGM",
+          "COSCO",
+          "OOCL"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Ocean Alliance",
+      "type": "international_company_or_term",
+      "wikilink": "Ocean Alliance"
+    },
+    {
+      "name": "CMA CGM",
+      "type": "international_company_or_term",
+      "wikilink": "CMA CGM"
+    },
+    {
+      "name": "COSCO",
+      "type": "international_company_or_term",
+      "wikilink": "COSCO"
+    },
+    {
+      "name": "OOCL",
+      "type": "international_company_or_term",
+      "wikilink": "OOCL"
+    },
+    {
+      "name": "長榮國際儲運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮國際儲運"
+    },
+    {
+      "name": "榮運倉儲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮運倉儲"
+    },
+    {
+      "name": "長榮鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮鋼鐵"
+    },
+    {
+      "name": "台灣國際造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣國際造船"
+    },
+    {
+      "name": "三星重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三星重工"
+    },
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "新興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新興"
+    },
+    {
+      "name": "裕民",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕民"
+    },
+    {
+      "name": "陽明",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明"
+    },
+    {
+      "name": "志信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志信"
+    },
+    {
+      "name": "中櫃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中櫃"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "長榮海運股份有限公司 (2603，Evergreen Marine) 成立於 1968 年，為台灣最大、全球前十大貨櫃航運公司。公司提供全球貨櫃海運服務，航線遍及遠東-北美、遠東-歐洲、亞洲區間等主要航線，並參與[[Ocean Alliance]]國際航運聯盟 (與[[CMA CGM]]、[[COSCO]]、[[OOCL]]合作)。旗下擁有子公司[[長榮國際儲運]]經營碼頭與物流，[[榮運倉儲]]提供倉儲服務。集團亦透過關係企業[[長榮鋼鐵]]從事鋼製貨櫃製造。",
+    "supply_chain_md": "**上游 (船舶與設備):**\n- **造船:** [[台灣國際造船]] (台船)、韓國[[三星重工]]、日本造船廠 — 新造貨櫃輪\n- **租船與貨櫃:** 國際租船與貨櫃租賃公司\n- **燃油:** 全球各港口燃油供應商\n\n**中游 (貨櫃航運服務):**\n- **[[長榮海運]]** — 全球貨櫃海運服務、碼頭營運\n- **[[Ocean Alliance]]** — 與[[CMA CGM]]、[[COSCO]]、[[OOCL]]聯盟艙位互換\n\n**下游 (終端貨主):**\n- **大型零售商:** 全球消費品牌之貨運需求\n- **貨代:** 國際貨運承攬業者 (Forwarders)\n- **製造業:** 全球進出口製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **聯盟夥伴:** [[Ocean Alliance]] — [[CMA CGM]]、[[COSCO]]、[[OOCL]]艙位互換\n- **終端貨主:** 全球大型零售商與消費品牌\n- **貨代:** 國際貨運承攬業者\n\n### 主要供應商\n- **造船:** [[台灣國際造船]]、[[三星重工]] — 新造貨櫃輪\n- **碼頭營運:** [[長榮國際儲運]] — 碼頭與物流服務\n- **貨櫃製造:** [[長榮鋼鐵]] — 鋼製貨櫃"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

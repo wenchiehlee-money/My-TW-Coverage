@@ -1,0 +1,235 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2030",
+  "company_name": "彰源",
+  "title": "2030 - 彰源",
+  "source_md": "Pilot_Reports/Steel/2030_彰源.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "4,705 百萬台幣",
+    "enterprise_value": "9,151 百萬台幣"
+  },
+  "business": {
+    "summary": "彰源企業股份有限公司 (Froch Enterprise Co., Ltd.) 成立於 1970 年，總部位於台灣[[雲林]]斗六。公司為台灣第一大**不鏽鋼管**及**不鏽鋼板**製造廠。主要產品包括[[不鏽鋼配管]]、[[構造管]]、[[鍋爐管]]及[[不鏽鋼板捲]]。彰源產品規格齊全，廣泛應用於石化、造紙、食品、能源及[[半導體]]電子廠房建設。內外銷比重約為 3:7，外銷市場遍及全球 100 多國。",
+    "entities": [
+      "雲林",
+      "不鏽鋼配管",
+      "構造管",
+      "鍋爐管",
+      "不鏽鋼板捲",
+      "半導體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "不鏽鋼捲/板",
+        "text": "主要向[[燁聯]] (9957)、[[唐榮]] (2035)、[[華新麗華]] (1605) 及國外鋼廠採購 304/316 系列不鏽鋼捲。",
+        "entities": [
+          "燁聯",
+          "唐榮",
+          "華新麗華"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "石化/能源",
+        "text": "煉油廠、化工廠、發電廠之輸送管線 (大口徑管)。",
+        "entities": []
+      },
+      {
+        "category": "營建/工程",
+        "text": "建築結構、欄杆、扶手、以及高科技廠房 (晶圓廠) 之基礎管線。",
+        "entities": []
+      },
+      {
+        "category": "機械/汽車",
+        "text": "排氣管、機械結構件。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工程公司",
+        "text": "國內外石化工程承包商 (如[[中鼎]])。",
+        "entities": [
+          "中鼎"
+        ]
+      },
+      {
+        "role": "終端用戶",
+        "text": "[[台塑集團]]、[[中油]]、[[台積電]]供應鏈 (廠務工程)。",
+        "entities": [
+          "台塑集團",
+          "中油",
+          "台積電"
+        ]
+      },
+      {
+        "role": "經銷商",
+        "text": "歐美及新興市場之不鏽鋼管經銷商。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[燁聯]]、[[唐榮]]、[[華新麗華]]。",
+        "entities": [
+          "燁聯",
+          "唐榮",
+          "華新麗華"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中鼎",
+          "台塑集團",
+          "中油",
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "雲林",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲林"
+    },
+    {
+      "name": "不鏽鋼配管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不鏽鋼配管"
+    },
+    {
+      "name": "構造管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "構造管"
+    },
+    {
+      "name": "鍋爐管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鍋爐管"
+    },
+    {
+      "name": "不鏽鋼板捲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不鏽鋼板捲"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "燁聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁聯"
+    },
+    {
+      "name": "唐榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "唐榮"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "中鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鼎"
+    },
+    {
+      "name": "台塑集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑集團"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "彰源企業股份有限公司 (Froch Enterprise Co., Ltd.) 成立於 1970 年，總部位於台灣[[雲林]]斗六。公司為台灣第一大**不鏽鋼管**及**不鏽鋼板**製造廠。主要產品包括[[不鏽鋼配管]]、[[構造管]]、[[鍋爐管]]及[[不鏽鋼板捲]]。彰源產品規格齊全，廣泛應用於石化、造紙、食品、能源及[[半導體]]電子廠房建設。內外銷比重約為 3:7，外銷市場遍及全球 100 多國。",
+    "supply_chain_md": "**上游 (原料):**\n- **不鏽鋼捲/板:** 主要向[[燁聯]] (9957)、[[唐榮]] (2035)、[[華新麗華]] (1605) 及國外鋼廠採購 304/316 系列不鏽鋼捲。\n\n**下游應用:**\n- **石化/能源:** 煉油廠、化工廠、發電廠之輸送管線 (大口徑管)。\n- **營建/工程:** 建築結構、欄杆、扶手、以及高科技廠房 (晶圓廠) 之基礎管線。\n- **機械/汽車:** 排氣管、機械結構件。",
+    "customers_suppliers_md": "### 主要客戶\n- **工程公司:** 國內外石化工程承包商 (如[[中鼎]])。\n- **終端用戶:** [[台塑集團]]、[[中油]]、[[台積電]]供應鏈 (廠務工程)。\n- **經銷商:** 歐美及新興市場之不鏽鋼管經銷商。\n\n### 主要供應商\n- **原料:** [[燁聯]]、[[唐榮]]、[[華新麗華]]。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

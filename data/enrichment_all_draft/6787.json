@@ -1,0 +1,226 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6787",
+  "company_name": "晶瑞光",
+  "title": "6787_晶瑞光",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/6787_晶瑞光.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "2,560 百萬台幣",
+    "enterprise_value": "2,954 百萬台幣"
+  },
+  "business": {
+    "summary": "晶瑞光 (6787) 是一家專業的光學[[濾光片]]及光學元件製造商，產品涵蓋[[窄帶通過濾光片]] (NBPF)、[[藍色玻璃]]濾光片 (NBG)、UVIR/IR Cut 濾光片、高反射濾光片、抗反射濾光片、分光鏡及二向色濾光片。產品應用於[[3D 感測]]、[[ToF]]、[[ADAS]]、[[DMS]] 及黃光製程。近年開發雙光模組及黃光製程產品，瞄準商用[[無人機]]、智慧監控及[[協作機器人]]等新興應用。",
+    "entities": [
+      "濾光片",
+      "窄帶通過濾光片",
+      "藍色玻璃",
+      "3D 感測",
+      "ToF",
+      "ADAS",
+      "DMS",
+      "無人機",
+      "協作機器人"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料)",
+        "text": "**上游 (光學材料):**",
+        "entities": []
+      },
+      {
+        "category": "光學玻璃",
+        "text": "光學級玻璃基板",
+        "entities": []
+      },
+      {
+        "category": "鍍膜材料",
+        "text": "薄膜鍍膜用靶材及化學品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光學元件製造)",
+        "text": "**中游 (光學元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "濾光片",
+        "text": "**晶瑞光** (NBPF/NBG/IR Cut 濾光片及光學鍍膜)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (模組與系統)",
+        "text": "**下游 (模組與系統):**",
+        "entities": []
+      },
+      {
+        "category": "3D 感測",
+        "text": "手機及車用 3D 感測模組廠",
+        "entities": []
+      },
+      {
+        "category": "ADAS/DMS",
+        "text": "車用先進駕駛輔助系統",
+        "entities": []
+      },
+      {
+        "category": "無人機",
+        "text": "商用無人機雙光模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "3D 感測",
+        "text": "手機及車用 3D 感測模組製造商",
+        "entities": []
+      },
+      {
+        "role": "車用",
+        "text": "[[ADAS]]/[[DMS]] 車用光學客戶",
+        "entities": [
+          "ADAS",
+          "DMS"
+        ]
+      },
+      {
+        "role": "無人機",
+        "text": "國內商用無人機廠商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學玻璃",
+        "text": "光學級玻璃基板供應",
+        "entities": []
+      },
+      {
+        "role": "鍍膜材料",
+        "text": "薄膜靶材及化學品",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "ADAS",
+          "DMS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "濾光片",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濾光片"
+    },
+    {
+      "name": "窄帶通過濾光片",
+      "type": "taiwan_company_or_term",
+      "wikilink": "窄帶通過濾光片"
+    },
+    {
+      "name": "藍色玻璃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "藍色玻璃"
+    },
+    {
+      "name": "3D 感測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D 感測"
+    },
+    {
+      "name": "ToF",
+      "type": "international_company_or_term",
+      "wikilink": "ToF"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "DMS",
+      "type": "international_company_or_term",
+      "wikilink": "DMS"
+    },
+    {
+      "name": "無人機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "無人機"
+    },
+    {
+      "name": "協作機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "協作機器人"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晶瑞光 (6787) 是一家專業的光學[[濾光片]]及光學元件製造商，產品涵蓋[[窄帶通過濾光片]] (NBPF)、[[藍色玻璃]]濾光片 (NBG)、UVIR/IR Cut 濾光片、高反射濾光片、抗反射濾光片、分光鏡及二向色濾光片。產品應用於[[3D 感測]]、[[ToF]]、[[ADAS]]、[[DMS]] 及黃光製程。近年開發雙光模組及黃光製程產品，瞄準商用[[無人機]]、智慧監控及[[協作機器人]]等新興應用。",
+    "supply_chain_md": "**上游 (光學材料):**\n- **光學玻璃:** 光學級玻璃基板\n- **鍍膜材料:** 薄膜鍍膜用靶材及化學品\n\n**中游 (光學元件製造):**\n- **濾光片:** **晶瑞光** (NBPF/NBG/IR Cut 濾光片及光學鍍膜)\n\n**下游 (模組與系統):**\n- **3D 感測:** 手機及車用 3D 感測模組廠\n- **ADAS/DMS:** 車用先進駕駛輔助系統\n- **無人機:** 商用無人機雙光模組",
+    "customers_suppliers_md": "### 主要客戶\n- **3D 感測:** 手機及車用 3D 感測模組製造商\n- **車用:** [[ADAS]]/[[DMS]] 車用光學客戶\n- **無人機:** 國內商用無人機廠商\n\n### 主要供應商\n- **光學玻璃:** 光學級玻璃基板供應\n- **鍍膜材料:** 薄膜靶材及化學品"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

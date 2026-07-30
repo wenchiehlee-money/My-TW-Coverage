@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1466",
+  "company_name": "聚隆",
+  "title": "1466 - 聚隆",
+  "source_md": "Pilot_Reports/Textile Manufacturing/1466_聚隆.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "1,767 百萬台幣",
+    "enterprise_value": "2,957 百萬台幣"
+  },
+  "business": {
+    "summary": "[[聚隆]]纖維 (Acelon Chemicals & Fiber) 為台灣知名尼龍原絲生產商，亦為台灣第二大尼龍加工絲廠。主要產品包括尼龍原絲 (Nylon Filament)、尼龍加工絲 (Nylon [[DTY]])、聚酯加工絲。積極開發環保素材 (如原液染色纖維[[Dope Dyed]]、生質尼龍) 及抗菌、涼感等機能性紗線，擁有自有品牌「Ace」系列。",
+    "entities": [
+      "聚隆",
+      "DTY",
+      "Dope Dyed"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "採購[[CPL]] (己內醯胺) 聚合生產[[尼龍粒]]，或採購[[尼龍粒]]紡絲",
+        "entities": [
+          "CPL",
+          "尼龍粒"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "生產尼龍原絲及加工絲",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (織布)",
+        "text": "**下游 (織布):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "供應給織布廠、針織廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "織布廠",
+        "text": "國內外織布與針織廠商，間接供應給運動品牌如[[Nike]]、[[Adidas]]及內衣品牌",
+        "entities": [
+          "Nike",
+          "Adidas"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[中石化]] ([[CPL]]供應商)",
+        "entities": [
+          "中石化",
+          "CPL"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Nike",
+          "Adidas"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聚隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚隆"
+    },
+    {
+      "name": "DTY",
+      "type": "international_company_or_term",
+      "wikilink": "DTY"
+    },
+    {
+      "name": "Dope Dyed",
+      "type": "international_company_or_term",
+      "wikilink": "Dope Dyed"
+    },
+    {
+      "name": "CPL",
+      "type": "international_company_or_term",
+      "wikilink": "CPL"
+    },
+    {
+      "name": "尼龍粒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尼龍粒"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "中石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中石化"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[聚隆]]纖維 (Acelon Chemicals & Fiber) 為台灣知名尼龍原絲生產商，亦為台灣第二大尼龍加工絲廠。主要產品包括尼龍原絲 (Nylon Filament)、尼龍加工絲 (Nylon [[DTY]])、聚酯加工絲。積極開發環保素材 (如原液染色纖維[[Dope Dyed]]、生質尼龍) 及抗菌、涼感等機能性紗線，擁有自有品牌「Ace」系列。",
+    "supply_chain_md": "**上游 (原料):**\n- 採購[[CPL]] (己內醯胺) 聚合生產[[尼龍粒]]，或採購[[尼龍粒]]紡絲\n\n**中游 (製造):**\n- 生產尼龍原絲及加工絲\n\n**下游 (織布):**\n- 供應給織布廠、針織廠",
+    "customers_suppliers_md": "### 主要客戶\n- **織布廠:** 國內外織布與針織廠商，間接供應給運動品牌如[[Nike]]、[[Adidas]]及內衣品牌\n\n### 主要供應商\n- **原料:** [[中石化]] ([[CPL]]供應商)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

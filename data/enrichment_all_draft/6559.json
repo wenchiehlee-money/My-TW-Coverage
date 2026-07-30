@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6559",
+  "company_name": "研晶",
+  "title": "6559 - 研晶",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/6559_研晶.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "335 百萬台幣",
+    "enterprise_value": "158 百萬台幣"
+  },
+  "business": {
+    "summary": "研晶光電 (6559) 為高功率特殊波段LED封裝廠 ([[UVA]]/[[UVC]]/IR/[[SWIR]])。與[[光鋐]]合資百鴻生醫佈局[[UVC LED]]殺菌。",
+    "entities": [
+      "UVA",
+      "UVC",
+      "SWIR",
+      "光鋐",
+      "UVC LED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[LED]]磊晶 (含[[光鋐]])",
+        "entities": [
+          "LED",
+          "光鋐"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**研晶** (UV/IR LED封裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "UV固化設備、[[PCB]]曝光、[[UVC LED]]殺菌",
+        "entities": [
+          "PCB",
+          "UVC LED"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "UV固化/[[PCB]]曝光設備廠",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[LED]]磊晶 (含[[光鋐]])",
+        "entities": [
+          "LED",
+          "光鋐"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "PCB"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "UVA",
+      "type": "international_company_or_term",
+      "wikilink": "UVA"
+    },
+    {
+      "name": "UVC",
+      "type": "international_company_or_term",
+      "wikilink": "UVC"
+    },
+    {
+      "name": "SWIR",
+      "type": "international_company_or_term",
+      "wikilink": "SWIR"
+    },
+    {
+      "name": "光鋐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光鋐"
+    },
+    {
+      "name": "UVC LED",
+      "type": "international_company_or_term",
+      "wikilink": "UVC LED"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "研晶光電 (6559) 為高功率特殊波段LED封裝廠 ([[UVA]]/[[UVC]]/IR/[[SWIR]])。與[[光鋐]]合資百鴻生醫佈局[[UVC LED]]殺菌。",
+    "supply_chain_md": "**上游:** [[LED]]磊晶 (含[[光鋐]])\n**中游:** **研晶** (UV/IR LED封裝)\n**下游:** UV固化設備、[[PCB]]曝光、[[UVC LED]]殺菌",
+    "customers_suppliers_md": "### 主要客戶\n- UV固化/[[PCB]]曝光設備廠\n\n### 主要供應商\n- [[LED]]磊晶 (含[[光鋐]])"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

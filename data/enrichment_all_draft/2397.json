@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2397",
+  "company_name": "友通",
+  "title": "2397 - 友通",
+  "source_md": "Pilot_Reports/Computer Hardware/2397_友通.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "6,182 百萬台幣",
+    "enterprise_value": "9,811 百萬台幣"
+  },
+  "business": {
+    "summary": "友通資訊 (2397，[[DFI]]) 成立於 1981 年，總部位於新北市，為專業嵌入式主機板及[[工業電腦]]系統設計製造商，隸屬[[佳世達]] ([[BenQ]]) 集團。公司與佳世達集團協同提供嵌入式應用之完整解決方案。\n\n核心產品涵蓋工業主機板、電腦模組 (COM)、嵌入式無風扇電腦、[[Edge AI]] 推論/訓練系統、強固型嵌入式系統、工業觸控面板電腦及邊緣伺服器。應用領域橫跨工廠自動化、醫療、博弈娛樂、交通運輸、能源、[[5G]] 網通及智慧零售等利基市場。",
+    "entities": [
+      "DFI",
+      "工業電腦",
+      "佳世達",
+      "BenQ",
+      "Edge AI",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (嵌入式晶片與元件)",
+        "text": "**上游 (嵌入式晶片與元件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 嵌入式/工業級 CPU 及晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]] — Edge AI 推論加速卡",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "電子元件",
+        "text": "工業級記憶體、連接器及被動元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (嵌入式主機板與 IPC 系統)",
+        "text": "**中游 (嵌入式主機板與 IPC 系統):**",
+        "entities": []
+      },
+      {
+        "category": "嵌入式主機板",
+        "text": "**友通** (工業級嵌入式主機板/COM 模組)",
+        "entities": []
+      },
+      {
+        "category": "IPC 系統",
+        "text": "**友通** (無風扇嵌入式電腦/強固型系統)",
+        "entities": []
+      },
+      {
+        "category": "Edge AI",
+        "text": "**友通** ([[Edge AI]] 推論及訓練平台)",
+        "entities": [
+          "Edge AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (各產業利基客戶)",
+        "text": "**下游 (各產業利基客戶):**",
+        "entities": []
+      },
+      {
+        "category": "工廠自動化",
+        "text": "製造業 — 產線自動化嵌入式運算",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "醫療設備廠 — 醫療級嵌入式電腦",
+        "entities": []
+      },
+      {
+        "category": "博弈娛樂",
+        "text": "博弈設備廠 — 娛樂機台核心運算平台",
+        "entities": []
+      },
+      {
+        "category": "交通/能源",
+        "text": "交通及能源產業 — 邊緣運算方案",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工廠自動化",
+        "text": "全球製造業 — 產線自動化嵌入式運算平台",
+        "entities": []
+      },
+      {
+        "role": "醫療設備",
+        "text": "醫療設備廠 — 醫療級嵌入式電腦",
+        "entities": []
+      },
+      {
+        "role": "博弈娛樂",
+        "text": "博弈設備廠 — 娛樂機台核心運算",
+        "entities": []
+      },
+      {
+        "role": "交通/能源",
+        "text": "交通及能源產業 — 強固型邊緣運算",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 嵌入式 CPU 平台",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]] — Edge AI 推論加速卡",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "集團母公司",
+        "text": "[[佳世達]] (Qisda) — 集團資源及方案協同",
+        "entities": [
+          "佳世達"
+        ]
+      },
+      {
+        "role": "電子元件",
+        "text": "工業級記憶體及被動元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "核心產品涵蓋工業主機板、電腦模組 (COM)、嵌入式無風扇電腦、[[Edge AI]] 推論/訓練系統、強固型嵌入式系統、工業觸控面板電腦及邊緣伺服器。應用領域橫跨工廠自動化、醫療、博弈娛樂、交通運輸、能源、[[5G]] 網通及智慧零售等利基市場。",
+        "entities": [
+          "Edge AI",
+          "5G"
+        ]
+      },
+      {
+        "text": "**下游 (各產業利基客戶):**",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "DFI",
+      "type": "international_company_or_term",
+      "wikilink": "DFI"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "BenQ",
+      "type": "international_company_or_term",
+      "wikilink": "BenQ"
+    },
+    {
+      "name": "Edge AI",
+      "type": "international_company_or_term",
+      "wikilink": "Edge AI"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "友通資訊 (2397，[[DFI]]) 成立於 1981 年，總部位於新北市，為專業嵌入式主機板及[[工業電腦]]系統設計製造商，隸屬[[佳世達]] ([[BenQ]]) 集團。公司與佳世達集團協同提供嵌入式應用之完整解決方案。\n\n核心產品涵蓋工業主機板、電腦模組 (COM)、嵌入式無風扇電腦、[[Edge AI]] 推論/訓練系統、強固型嵌入式系統、工業觸控面板電腦及邊緣伺服器。應用領域橫跨工廠自動化、醫療、博弈娛樂、交通運輸、能源、[[5G]] 網通及智慧零售等利基市場。",
+    "supply_chain_md": "**上游 (嵌入式晶片與元件):**\n- **處理器:** [[Intel]]、[[AMD]] — 嵌入式/工業級 CPU 及晶片組\n- **GPU:** [[NVIDIA]] — Edge AI 推論加速卡\n- **電子元件:** 工業級記憶體、連接器及被動元件\n\n**中游 (嵌入式主機板與 IPC 系統):**\n- **嵌入式主機板:** **友通** (工業級嵌入式主機板/COM 模組)\n- **IPC 系統:** **友通** (無風扇嵌入式電腦/強固型系統)\n- **Edge AI:** **友通** ([[Edge AI]] 推論及訓練平台)\n\n**下游 (各產業利基客戶):**\n- **工廠自動化:** 製造業 — 產線自動化嵌入式運算\n- **醫療:** 醫療設備廠 — 醫療級嵌入式電腦\n- **博弈娛樂:** 博弈設備廠 — 娛樂機台核心運算平台\n- **交通/能源:** 交通及能源產業 — 邊緣運算方案",
+    "customers_suppliers_md": "### 主要客戶\n- **工廠自動化:** 全球製造業 — 產線自動化嵌入式運算平台\n- **醫療設備:** 醫療設備廠 — 醫療級嵌入式電腦\n- **博弈娛樂:** 博弈設備廠 — 娛樂機台核心運算\n- **交通/能源:** 交通及能源產業 — 強固型邊緣運算\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — 嵌入式 CPU 平台\n- **GPU:** [[NVIDIA]] — Edge AI 推論加速卡\n- **集團母公司:** [[佳世達]] (Qisda) — 集團資源及方案協同\n- **電子元件:** 工業級記憶體及被動元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

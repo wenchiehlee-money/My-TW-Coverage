@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6165",
+  "company_name": "浪凡",
+  "title": "6165_浪凡",
+  "source_md": "Pilot_Reports/Electronic Components/6165_浪凡.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,517 百萬台幣",
+    "enterprise_value": "3,501 百萬台幣"
+  },
+  "business": {
+    "summary": "浪凡網路科技 (6165，原名捷泰精密工業) 為成功數位轉型企業。早期主營[[連接器]]與線材製造，2021 年透過收購旭瑞文化全面轉型為互聯網平台營運商。\n\n主要業務：(1) 浪 LIVE 直播平台 — 台灣知名才藝直播平台，營收占比逾九成，擁有超過 6,000 名直播主，內容涵蓋歌唱、樂器、魔術、電競、美食等多元才藝表演；(2) 延伸服務 — PlayOne (遊戲陪玩)、MurMur (語音廣播)、iM 短影 (短影音)、拉普星球 (沉浸式故事遊戲)；(3) 社交電商 — 新興直播帶貨平台。為台灣第一家上市直播公司，透過 [[AI]] 技術提升互動體驗。",
+    "entities": [
+      "連接器",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (基礎設施)",
+        "text": "**上游 (基礎設施):**",
+        "entities": []
+      },
+      {
+        "category": "雲端服務",
+        "text": "[[AWS]]、[[GCP]] — 雲端伺服器與 CDN",
+        "entities": [
+          "AWS",
+          "GCP"
+        ]
+      },
+      {
+        "category": "金流服務",
+        "text": "[[綠界科技]]、[[藍新科技]] — 第三方支付",
+        "entities": [
+          "綠界科技",
+          "藍新科技"
+        ]
+      },
+      {
+        "category": "App 平台",
+        "text": "[[Apple]] App Store、[[Google]] Play — 應用分發",
+        "entities": [
+          "Apple",
+          "Google"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台營運)",
+        "text": "**中游 (平台營運):**",
+        "entities": []
+      },
+      {
+        "category": "直播平台",
+        "text": "**浪凡**/浪 LIVE (才藝直播平台營運)",
+        "entities": []
+      },
+      {
+        "category": "內容創作",
+        "text": "直播主與經紀公司 — 內容提供者",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "觀眾",
+        "text": "數位娛樂消費者 — 打賞/儲值付費會員",
+        "entities": []
+      },
+      {
+        "category": "廣告主",
+        "text": "品牌廣告主 — 直播廣告投放",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "觀眾",
+        "text": "喜愛才藝表演、電競直播的數位娛樂消費者 — 打賞與儲值",
+        "entities": []
+      },
+      {
+        "role": "廣告主",
+        "text": "品牌廣告主 — 直播廣告投放",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端",
+        "text": "[[AWS]]、[[GCP]] — 雲端基礎設施",
+        "entities": [
+          "AWS",
+          "GCP"
+        ]
+      },
+      {
+        "role": "金流",
+        "text": "[[綠界科技]]、[[藍新科技]] — 第三方支付服務",
+        "entities": [
+          "綠界科技",
+          "藍新科技"
+        ]
+      },
+      {
+        "role": "App 平台",
+        "text": "[[Apple]] App Store、[[Google]] Play — 應用分發與內購",
+        "entities": [
+          "Apple",
+          "Google"
+        ]
+      },
+      {
+        "role": "內容",
+        "text": "直播主與經紀公司 — 內容提供者",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "GCP",
+      "type": "international_company_or_term",
+      "wikilink": "GCP"
+    },
+    {
+      "name": "綠界科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "綠界科技"
+    },
+    {
+      "name": "藍新科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "藍新科技"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "浪凡網路科技 (6165，原名捷泰精密工業) 為成功數位轉型企業。早期主營[[連接器]]與線材製造，2021 年透過收購旭瑞文化全面轉型為互聯網平台營運商。\n\n主要業務：(1) 浪 LIVE 直播平台 — 台灣知名才藝直播平台，營收占比逾九成，擁有超過 6,000 名直播主，內容涵蓋歌唱、樂器、魔術、電競、美食等多元才藝表演；(2) 延伸服務 — PlayOne (遊戲陪玩)、MurMur (語音廣播)、iM 短影 (短影音)、拉普星球 (沉浸式故事遊戲)；(3) 社交電商 — 新興直播帶貨平台。為台灣第一家上市直播公司，透過 [[AI]] 技術提升互動體驗。",
+    "supply_chain_md": "**上游 (基礎設施):**\n- **雲端服務:** [[AWS]]、[[GCP]] — 雲端伺服器與 CDN\n- **金流服務:** [[綠界科技]]、[[藍新科技]] — 第三方支付\n- **App 平台:** [[Apple]] App Store、[[Google]] Play — 應用分發\n\n**中游 (平台營運):**\n- **直播平台:** **浪凡**/浪 LIVE (才藝直播平台營運)\n- **內容創作:** 直播主與經紀公司 — 內容提供者\n\n**下游 (終端用戶):**\n- **觀眾:** 數位娛樂消費者 — 打賞/儲值付費會員\n- **廣告主:** 品牌廣告主 — 直播廣告投放",
+    "customers_suppliers_md": "### 主要客戶\n- **觀眾:** 喜愛才藝表演、電競直播的數位娛樂消費者 — 打賞與儲值\n- **廣告主:** 品牌廣告主 — 直播廣告投放\n\n### 主要供應商\n- **雲端:** [[AWS]]、[[GCP]] — 雲端基礎設施\n- **金流:** [[綠界科技]]、[[藍新科技]] — 第三方支付服務\n- **App 平台:** [[Apple]] App Store、[[Google]] Play — 應用分發與內購\n- **內容:** 直播主與經紀公司 — 內容提供者"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

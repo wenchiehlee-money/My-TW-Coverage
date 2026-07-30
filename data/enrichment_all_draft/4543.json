@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4543",
+  "company_name": "萬在",
+  "title": "4543 - 萬在",
+  "source_md": "Pilot_Reports/Auto Parts/4543_萬在.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,736 百萬台幣",
+    "enterprise_value": "1,650 百萬台幣"
+  },
+  "business": {
+    "summary": "萬在工業 (4543) 專營熱交換器與散熱模組，以汽車 AM/OES 為主，正跨足[[AI 伺服器]]散熱、[[電動車]]熱管理及[[資料中心]][[液冷]]系統。產品涵蓋汽車散熱器、冷凝器及蒸發器等。技術延伸至[[浸沒式冷卻]]散熱方案。",
+    "entities": [
+      "AI 伺服器",
+      "電動車",
+      "資料中心",
+      "液冷",
+      "浸沒式冷卻"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋁錠",
+        "text": "鋁材供應商",
+        "entities": []
+      },
+      {
+        "category": "風扇馬達",
+        "text": "散熱風扇馬達零組件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**萬在** (熱交換器/散熱模組製造，拓展至[[液冷]]/[[浸沒式冷卻]])",
+        "entities": [
+          "液冷",
+          "浸沒式冷卻"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "汽車 AM/OES",
+        "text": "全球經銷商 — 澳洲/歐洲/北美/日本",
+        "entities": []
+      },
+      {
+        "category": "新事業",
+        "text": "[[AI 伺服器]]散熱、[[電動車]]熱管理、[[資料中心]][[液冷]]",
+        "entities": [
+          "AI 伺服器",
+          "電動車",
+          "資料中心",
+          "液冷"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "汽車 AM",
+        "text": "全球經銷商 — 散熱器/冷凝器/蒸發器",
+        "entities": []
+      },
+      {
+        "role": "新事業",
+        "text": "[[AI 伺服器]]散熱、[[電動車]]熱管理、[[資料中心]][[液冷]]",
+        "entities": [
+          "AI 伺服器",
+          "電動車",
+          "資料中心",
+          "液冷"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋁材",
+        "text": "鋁錠供應商",
+        "entities": []
+      },
+      {
+        "role": "零組件",
+        "text": "風扇馬達及散熱零組件",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AI 伺服器",
+          "電動車",
+          "資料中心",
+          "液冷"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "液冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "液冷"
+    },
+    {
+      "name": "浸沒式冷卻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "浸沒式冷卻"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "萬在工業 (4543) 專營熱交換器與散熱模組，以汽車 AM/OES 為主，正跨足[[AI 伺服器]]散熱、[[電動車]]熱管理及[[資料中心]][[液冷]]系統。產品涵蓋汽車散熱器、冷凝器及蒸發器等。技術延伸至[[浸沒式冷卻]]散熱方案。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋁錠:** 鋁材供應商\n- **風扇馬達:** 散熱風扇馬達零組件\n\n**中游 (製造):**\n- **萬在** (熱交換器/散熱模組製造，拓展至[[液冷]]/[[浸沒式冷卻]])\n\n**下游 (終端):**\n- **汽車 AM/OES:** 全球經銷商 — 澳洲/歐洲/北美/日本\n- **新事業:** [[AI 伺服器]]散熱、[[電動車]]熱管理、[[資料中心]][[液冷]]",
+    "customers_suppliers_md": "### 主要客戶\n- **汽車 AM:** 全球經銷商 — 散熱器/冷凝器/蒸發器\n- **新事業:** [[AI 伺服器]]散熱、[[電動車]]熱管理、[[資料中心]][[液冷]]\n\n### 主要供應商\n- **鋁材:** 鋁錠供應商\n- **零組件:** 風扇馬達及散熱零組件"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

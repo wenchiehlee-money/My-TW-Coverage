@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6533",
+  "company_name": "晶心科",
+  "title": "6533_晶心科",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/6533_晶心科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "10,029 百萬台幣",
+    "enterprise_value": "10,233 百萬台幣"
+  },
+  "business": {
+    "summary": "晶心科技股份有限公司 (6533，Andes Technology) 是一家總部位於台灣的全球第五大處理器微架構矽智財(CPU IP)供應商，同時也是RISC-V國際協會的創始首席會員。有別於Arm架構的高昂授權費，晶心科專注於開發開源、極具彈性及高效率的RISC-V 32/64位元處理器核心IP。隨著[[AI]]、[[物聯網]]、車用電子及[[5G]]通訊對客製化晶片(SoC)需求爆發，RISC-V開源架構正迅速崛起。晶心科研發的[[AI]]運算延伸指令集與向量處理器(Vector Processor)，已成功獲得如[[Meta]](臉書)等全球頂級科技巨頭的[[AI]]自研晶片(ASIC)所採用。",
+    "entities": [
+      "AI",
+      "物聯網",
+      "5G",
+      "Meta"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 全球開源RISC-V指令集社群、EDA(電子設計[[自動化]])工具軟體及全球晶圓代工廠(製程平台參數)。",
+        "entities": [
+          "自動化"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **晶心科技** (RISC-V架構32/64位元CPU核心矽智財IP、開發環境平台與軟體工具之授權與設計服務)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 無晶圓廠IC設計公司(Fabless)、雲端運算服務提供商([[CSP]])、車廠([[OEM]])及特殊應用晶片(ASIC)設計商。",
+        "entities": [
+          "CSP",
+          "OEM"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Meta]](臉書第一代/第二代[[AI]]晶片MTIA主力IP供應商)、[[聯發科]]、[[聯詠]]、瑞薩([[Renesas]])及Axelera [[AI]]。",
+        "entities": [
+          "Meta",
+          "AI",
+          "聯發科",
+          "聯詠",
+          "Renesas"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "各類協同驗證的EDA軟體供應商(如[[Synopsys]]、[[Cadence]])及[[台積電]]等晶圓代工廠(協助建立IP驗證平台)。",
+        "entities": [
+          "Synopsys",
+          "Cadence",
+          "台積電"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Meta",
+          "AI",
+          "聯發科",
+          "聯詠",
+          "Renesas"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "晶心科技股份有限公司 (6533，Andes Technology) 是一家總部位於台灣的全球第五大處理器微架構矽智財(CPU IP)供應商，同時也是RISC-V國際協會的創始首席會員。有別於Arm架構的高昂授權費，晶心科專注於開發開源、極具彈性及高效率的RISC-V 32/64位元處理器核心IP。隨著[[AI]]、[[物聯網]]、車用電子及[[5G]]通訊對客製化晶片(SoC)需求爆發，RISC-V開源架構正迅速崛起。晶心科研發的[[AI]]運算延伸指令集與向量處理器(Vector Processor)，已成功獲得如[[Meta]](臉書)等全球頂級科技巨頭的[[AI]]自研晶片(ASIC)所採用。",
+        "entities": [
+          "AI",
+          "物聯網",
+          "5G",
+          "Meta"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Synopsys",
+      "type": "international_company_or_term",
+      "wikilink": "Synopsys"
+    },
+    {
+      "name": "Cadence",
+      "type": "international_company_or_term",
+      "wikilink": "Cadence"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晶心科技股份有限公司 (6533，Andes Technology) 是一家總部位於台灣的全球第五大處理器微架構矽智財(CPU IP)供應商，同時也是RISC-V國際協會的創始首席會員。有別於Arm架構的高昂授權費，晶心科專注於開發開源、極具彈性及高效率的RISC-V 32/64位元處理器核心IP。隨著[[AI]]、[[物聯網]]、車用電子及[[5G]]通訊對客製化晶片(SoC)需求爆發，RISC-V開源架構正迅速崛起。晶心科研發的[[AI]]運算延伸指令集與向量處理器(Vector Processor)，已成功獲得如[[Meta]](臉書)等全球頂級科技巨頭的[[AI]]自研晶片(ASIC)所採用。",
+    "supply_chain_md": "*   **上游**: 全球開源RISC-V指令集社群、EDA(電子設計[[自動化]])工具軟體及全球晶圓代工廠(製程平台參數)。\n*   **中游**: **晶心科技** (RISC-V架構32/64位元CPU核心矽智財IP、開發環境平台與軟體工具之授權與設計服務)。\n*   **下游**: 無晶圓廠IC設計公司(Fabless)、雲端運算服務提供商([[CSP]])、車廠([[OEM]])及特殊應用晶片(ASIC)設計商。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Meta]](臉書第一代/第二代[[AI]]晶片MTIA主力IP供應商)、[[聯發科]]、[[聯詠]]、瑞薩([[Renesas]])及Axelera [[AI]]。\n\n### 主要供應商\n*   各類協同驗證的EDA軟體供應商(如[[Synopsys]]、[[Cadence]])及[[台積電]]等晶圓代工廠(協助建立IP驗證平台)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

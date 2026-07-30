@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4306",
+  "company_name": "炎洲",
+  "title": "4306 - 炎洲",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4306_炎洲.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "9,244 百萬台幣",
+    "enterprise_value": "26,513 百萬台幣"
+  },
+  "business": {
+    "summary": "炎洲集團 (4306，Yem Chio) 成立於 1978 年，為全球前三大膠帶製造商，亦為全球第一大[[BOPP]] (雙軸延伸聚丙烯) 薄膜生產商。2009 年併購[[亞洲化學]]後成為全球上下游垂直整合最完整之包裝材料大廠。主要產品涵蓋 OPP 膠帶、PVC 膠帶、[[BOPP]]薄膜、[[偏光膜]]及光電材料。膠帶事業以 OEM 代工為主，[[3M]]為主要代工客戶 (大陸及美國銷售)。PVC 膠帶應用於汽車線束。另跨足面板/晶圓廠用特化清洗劑。集團兼營不動產、太陽能及旅館業。",
+    "entities": [
+      "BOPP",
+      "亞洲化學",
+      "偏光膜",
+      "3M"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠",
+        "text": "[[聚丙烯]] (PP)、[[PVC]]樹脂、丙烯酸酯壓克力膠",
+        "entities": [
+          "聚丙烯",
+          "PVC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**炎洲** (OPP/PVC 膠帶、[[BOPP]]薄膜、[[偏光膜]]/光電材料)",
+        "entities": [
+          "BOPP",
+          "偏光膜"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[亞洲化學]]** (子公司，膠帶垂直整合)",
+        "entities": [
+          "亞洲化學"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "膠帶代工",
+        "text": "[[3M]] — 主要 OEM 代工客戶",
+        "entities": [
+          "3M"
+        ]
+      },
+      {
+        "category": "包裝",
+        "text": "全球包裝材料經銷商 — OPP 膠帶/BOPP 薄膜",
+        "entities": []
+      },
+      {
+        "category": "汽車",
+        "text": "PVC 膠帶用於汽車線束",
+        "entities": []
+      },
+      {
+        "category": "面板/半導體",
+        "text": "[[偏光膜]]及特化清洗劑",
+        "entities": [
+          "偏光膜"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "膠帶代工",
+        "text": "[[3M]] — 主要 OEM 代工",
+        "entities": [
+          "3M"
+        ]
+      },
+      {
+        "role": "包裝",
+        "text": "全球包裝材料經銷商",
+        "entities": []
+      },
+      {
+        "role": "汽車",
+        "text": "汽車線束用 PVC 膠帶",
+        "entities": []
+      },
+      {
+        "role": "面板",
+        "text": "[[偏光膜]]及光電材料客戶",
+        "entities": [
+          "偏光膜"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠",
+        "text": "[[聚丙烯]] (PP)、[[PVC]]樹脂供應商",
+        "entities": [
+          "聚丙烯",
+          "PVC"
+        ]
+      },
+      {
+        "role": "子公司",
+        "text": "[[亞洲化學]] — 垂直整合",
+        "entities": [
+          "亞洲化學"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "3M",
+          "偏光膜"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "BOPP",
+      "type": "international_company_or_term",
+      "wikilink": "BOPP"
+    },
+    {
+      "name": "亞洲化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞洲化學"
+    },
+    {
+      "name": "偏光膜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "偏光膜"
+    },
+    {
+      "name": "3M",
+      "type": "international_company_or_term",
+      "wikilink": "3M"
+    },
+    {
+      "name": "聚丙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚丙烯"
+    },
+    {
+      "name": "PVC",
+      "type": "international_company_or_term",
+      "wikilink": "PVC"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "炎洲集團 (4306，Yem Chio) 成立於 1978 年，為全球前三大膠帶製造商，亦為全球第一大[[BOPP]] (雙軸延伸聚丙烯) 薄膜生產商。2009 年併購[[亞洲化學]]後成為全球上下游垂直整合最完整之包裝材料大廠。主要產品涵蓋 OPP 膠帶、PVC 膠帶、[[BOPP]]薄膜、[[偏光膜]]及光電材料。膠帶事業以 OEM 代工為主，[[3M]]為主要代工客戶 (大陸及美國銷售)。PVC 膠帶應用於汽車線束。另跨足面板/晶圓廠用特化清洗劑。集團兼營不動產、太陽能及旅館業。",
+    "supply_chain_md": "**上游 (原料):**\n- **塑膠:** [[聚丙烯]] (PP)、[[PVC]]樹脂、丙烯酸酯壓克力膠\n\n**中游 (製造):**\n- **炎洲** (OPP/PVC 膠帶、[[BOPP]]薄膜、[[偏光膜]]/光電材料)\n- **[[亞洲化學]]** (子公司，膠帶垂直整合)\n\n**下游 (終端):**\n- **膠帶代工:** [[3M]] — 主要 OEM 代工客戶\n- **包裝:** 全球包裝材料經銷商 — OPP 膠帶/BOPP 薄膜\n- **汽車:** PVC 膠帶用於汽車線束\n- **面板/半導體:** [[偏光膜]]及特化清洗劑",
+    "customers_suppliers_md": "### 主要客戶\n- **膠帶代工:** [[3M]] — 主要 OEM 代工\n- **包裝:** 全球包裝材料經銷商\n- **汽車:** 汽車線束用 PVC 膠帶\n- **面板:** [[偏光膜]]及光電材料客戶\n\n### 主要供應商\n- **塑膠:** [[聚丙烯]] (PP)、[[PVC]]樹脂供應商\n- **子公司:** [[亞洲化學]] — 垂直整合"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

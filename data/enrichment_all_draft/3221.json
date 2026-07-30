@@ -1,0 +1,233 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3221",
+  "company_name": "台嘉碩",
+  "title": "3221 - 台嘉碩",
+  "source_md": "Pilot_Reports/Communication Equipment/3221_台嘉碩.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "4,470 百萬台幣",
+    "enterprise_value": "4,287 百萬台幣"
+  },
+  "business": {
+    "summary": "台嘉碩科技 (3221，[[Tai-Saw]]) 為台灣唯一具備表面聲波 ([[SAW]]) 元件全製程能力之頻率元件製造商，核心技術團隊源自 [[Motorola]] 電子通訊零件事業部。主要產品涵蓋射頻 SAW 濾波器、中頻 SAW 濾波器、SAW 共振器、SAW 雙工器及體聲波 ([[BAW]]) 石英元件 (石英振盪器、TCXO 溫補振盪器等)。\n\n公司為全球非手機用 SAW 濾波器市佔率領先廠商，產品廣泛應用於 [[Wi-Fi]] 網通設備、車用電子 (TPMS 胎壓偵測、Keyless 無鑰匙系統、[[GNSS]] 衛星定位)、[[低軌衛星]]地面接收站及 [[AI 伺服器]]光通訊模組。車用電子營收佔比已達三成以上。子公司嘉碩生醫跨足生醫檢測晶片，轉投資韓國 Sawnics 強化高階 BAW 濾波器技術。",
+    "entities": [
+      "Tai-Saw",
+      "SAW",
+      "Motorola",
+      "BAW",
+      "Wi-Fi",
+      "GNSS",
+      "低軌衛星",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (壓電材料與晶棒)",
+        "text": "**上游 (壓電材料與晶棒):**",
+        "entities": []
+      },
+      {
+        "category": "壓電基板",
+        "text": "鉭酸鋰 (LiTaO3) 壓電基板",
+        "entities": []
+      },
+      {
+        "category": "石英晶棒",
+        "text": "高純度石英晶棒",
+        "entities": []
+      },
+      {
+        "category": "貴金屬導線",
+        "text": "精密封裝材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (頻率元件製造)",
+        "text": "**中游 (頻率元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "SAW/BAW 元件",
+        "text": "**台嘉碩** (全球領先非手機用 SAW 濾波器/石英振盪器製造商)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通訊與車用)",
+        "text": "**下游 (通訊與車用):**",
+        "entities": []
+      },
+      {
+        "category": "網通設備",
+        "text": "Wi-Fi 路由器及 [[5G]] 基站",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "TPMS、Keyless、GNSS 車載系統",
+        "entities": []
+      },
+      {
+        "category": "衛星通訊",
+        "text": "[[低軌衛星]]地面接收站",
+        "entities": [
+          "低軌衛星"
+        ]
+      },
+      {
+        "category": "AI 光通訊",
+        "text": "AI 伺服器光模組用低相位雜訊振盪器",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "光通訊模組",
+        "text": "AI 伺服器 800G 光模組廠 (低相位雜訊振盪器)",
+        "entities": []
+      },
+      {
+        "role": "車用 Tier 1",
+        "text": "歐美車用零組件廠 (GNSS/TPMS/Keyless)",
+        "entities": []
+      },
+      {
+        "role": "衛星",
+        "text": "國際衛星營運商地面接收站",
+        "entities": []
+      },
+      {
+        "role": "網通",
+        "text": "國際網通設備品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "壓電材料",
+        "text": "日系壓電基板及石英材料供應商",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[Murata]]、[[TDK]]、[[晶技]]、[[希華]]",
+        "entities": [
+          "Murata",
+          "TDK",
+          "晶技",
+          "希華"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[Murata]]、[[TDK]]、[[晶技]]、[[希華]]",
+        "entities": [
+          "Murata",
+          "TDK",
+          "晶技",
+          "希華"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tai-Saw",
+      "type": "international_company_or_term",
+      "wikilink": "Tai-Saw"
+    },
+    {
+      "name": "SAW",
+      "type": "international_company_or_term",
+      "wikilink": "SAW"
+    },
+    {
+      "name": "Motorola",
+      "type": "international_company_or_term",
+      "wikilink": "Motorola"
+    },
+    {
+      "name": "BAW",
+      "type": "international_company_or_term",
+      "wikilink": "BAW"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "GNSS",
+      "type": "international_company_or_term",
+      "wikilink": "GNSS"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Murata",
+      "type": "international_company_or_term",
+      "wikilink": "Murata"
+    },
+    {
+      "name": "TDK",
+      "type": "international_company_or_term",
+      "wikilink": "TDK"
+    },
+    {
+      "name": "晶技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶技"
+    },
+    {
+      "name": "希華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "希華"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台嘉碩科技 (3221，[[Tai-Saw]]) 為台灣唯一具備表面聲波 ([[SAW]]) 元件全製程能力之頻率元件製造商，核心技術團隊源自 [[Motorola]] 電子通訊零件事業部。主要產品涵蓋射頻 SAW 濾波器、中頻 SAW 濾波器、SAW 共振器、SAW 雙工器及體聲波 ([[BAW]]) 石英元件 (石英振盪器、TCXO 溫補振盪器等)。\n\n公司為全球非手機用 SAW 濾波器市佔率領先廠商，產品廣泛應用於 [[Wi-Fi]] 網通設備、車用電子 (TPMS 胎壓偵測、Keyless 無鑰匙系統、[[GNSS]] 衛星定位)、[[低軌衛星]]地面接收站及 [[AI 伺服器]]光通訊模組。車用電子營收佔比已達三成以上。子公司嘉碩生醫跨足生醫檢測晶片，轉投資韓國 Sawnics 強化高階 BAW 濾波器技術。",
+    "supply_chain_md": "**上游 (壓電材料與晶棒):**\n- **壓電基板:** 鉭酸鋰 (LiTaO3) 壓電基板\n- **石英晶棒:** 高純度石英晶棒\n- **貴金屬導線:** 精密封裝材料\n\n**中游 (頻率元件製造):**\n- **SAW/BAW 元件:** **台嘉碩** (全球領先非手機用 SAW 濾波器/石英振盪器製造商)\n\n**下游 (通訊與車用):**\n- **網通設備:** Wi-Fi 路由器及 [[5G]] 基站\n- **車用電子:** TPMS、Keyless、GNSS 車載系統\n- **衛星通訊:** [[低軌衛星]]地面接收站\n- **AI 光通訊:** AI 伺服器光模組用低相位雜訊振盪器",
+    "customers_suppliers_md": "### 主要客戶\n- **光通訊模組:** AI 伺服器 800G 光模組廠 (低相位雜訊振盪器)\n- **車用 Tier 1:** 歐美車用零組件廠 (GNSS/TPMS/Keyless)\n- **衛星:** 國際衛星營運商地面接收站\n- **網通:** 國際網通設備品牌\n\n### 主要供應商\n- **壓電材料:** 日系壓電基板及石英材料供應商\n- **競爭同業:** [[Murata]]、[[TDK]]、[[晶技]]、[[希華]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

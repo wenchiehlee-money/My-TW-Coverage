@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2430",
+  "company_name": "燦坤",
+  "title": "2430 - 燦坤",
+  "source_md": "Pilot_Reports/Specialty Retail/2430_燦坤.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail",
+    "market_cap": "2,003 百萬台幣",
+    "enterprise_value": "5,394 百萬台幣"
+  },
+  "business": {
+    "summary": "燦坤實業股份有限公司成立於 1978 年，總部位於台灣台北。公司為台灣主要 3C 家電零售連鎖通路，經營「燦坤 3C」門市品牌，全台門市約 200 家，並營運電商平台「燦坤快3」。主要銷售產品涵蓋手機、電腦、家電、影音及周邊配件等 3C 商品，同時提供維修售後服務。燦坤曾為台灣最大 3C 零售通路，近年面臨電商競爭及門市轉型挑戰。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌供應)",
+        "text": "**上游 (品牌供應):**",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Apple]]、[[Samsung]]、[[Sony]]、[[LG]]、[[Panasonic]]、[[Dyson]] 等國際品牌及其台灣代理商",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "Sony",
+          "LG",
+          "Panasonic",
+          "Dyson"
+        ]
+      },
+      {
+        "category": "電腦資訊",
+        "text": "[[華碩]]、[[宏碁]]、[[Lenovo]]、[[HP]] 等電腦品牌",
+        "entities": [
+          "華碩",
+          "宏碁",
+          "Lenovo",
+          "HP"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (零售通路)",
+        "text": "**中游 (零售通路):**",
+        "entities": []
+      },
+      {
+        "category": "燦坤 (2430)",
+        "text": "實體門市約 200 家、電商平台「燦坤快3」、維修售後服務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端消費)",
+        "text": "**下游 (終端消費):**",
+        "entities": []
+      },
+      {
+        "category": "個人消費者",
+        "text": "台灣一般消費者（3C、家電、手機）",
+        "entities": []
+      },
+      {
+        "category": "中小企業",
+        "text": "IT 設備採購",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "個人消費者",
+        "text": "台灣一般消費者，為 B2C 零售模式",
+        "entities": []
+      },
+      {
+        "role": "中小型商用",
+        "text": "IT 設備及辦公家電採購",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "國際品牌",
+        "text": "[[Apple]]、[[Samsung]]、[[Sony]]、[[Dyson]]、[[LG]]、[[Panasonic]]",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "Sony",
+          "Dyson",
+          "LG",
+          "Panasonic"
+        ]
+      },
+      {
+        "role": "電腦品牌",
+        "text": "[[華碩]]、[[宏碁]]",
+        "entities": [
+          "華碩",
+          "宏碁"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**各品牌台灣代理商**",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Retail):** [[山隆]]、[[集雅社]]、[[振宇五金]]、[[台灣大]]、[[詩肯]]",
+        "entities": [
+          "山隆",
+          "集雅社",
+          "振宇五金",
+          "台灣大",
+          "詩肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "Dyson",
+      "type": "international_company_or_term",
+      "wikilink": "Dyson"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "山隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "山隆"
+    },
+    {
+      "name": "集雅社",
+      "type": "taiwan_company_or_term",
+      "wikilink": "集雅社"
+    },
+    {
+      "name": "振宇五金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "振宇五金"
+    },
+    {
+      "name": "台灣大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大"
+    },
+    {
+      "name": "詩肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "詩肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "燦坤實業股份有限公司成立於 1978 年，總部位於台灣台北。公司為台灣主要 3C 家電零售連鎖通路，經營「燦坤 3C」門市品牌，全台門市約 200 家，並營運電商平台「燦坤快3」。主要銷售產品涵蓋手機、電腦、家電、影音及周邊配件等 3C 商品，同時提供維修售後服務。燦坤曾為台灣最大 3C 零售通路，近年面臨電商競爭及門市轉型挑戰。",
+    "supply_chain_md": "**上游 (品牌供應):**\n- **消費電子:** [[Apple]]、[[Samsung]]、[[Sony]]、[[LG]]、[[Panasonic]]、[[Dyson]] 等國際品牌及其台灣代理商\n- **電腦資訊:** [[華碩]]、[[宏碁]]、[[Lenovo]]、[[HP]] 等電腦品牌\n\n**中游 (零售通路):**\n- **燦坤 (2430):** 實體門市約 200 家、電商平台「燦坤快3」、維修售後服務\n\n**下游 (終端消費):**\n- **個人消費者:** 台灣一般消費者（3C、家電、手機）\n- **中小企業:** IT 設備採購",
+    "customers_suppliers_md": "### 主要客戶\n- **個人消費者:** 台灣一般消費者，為 B2C 零售模式\n- **中小型商用:** IT 設備及辦公家電採購\n\n### 主要供應商\n- **國際品牌:** [[Apple]]、[[Samsung]]、[[Sony]]、[[Dyson]]、[[LG]]、[[Panasonic]]\n- **電腦品牌:** [[華碩]]、[[宏碁]]\n- **各品牌台灣代理商**"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

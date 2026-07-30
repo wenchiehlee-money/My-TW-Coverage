@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4966",
+  "company_name": "譜瑞-KY",
+  "title": "4966 - 譜瑞-KY",
+  "source_md": "Pilot_Reports/Semiconductors/4966_譜瑞-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "42,841 百萬台幣",
+    "enterprise_value": "32,538 百萬台幣"
+  },
+  "business": {
+    "summary": "譜瑞-KY (Parade Technologies) 成立於 2005 年，總部位於美國加州 (註冊於開曼群島)。公司為全球領先的 **高速傳輸介面 IC** (High-speed Interface) 及 **顯示驅動 IC** (Display & Touch) 供應商。譜瑞是 **DisplayPort (DP)** 標準的重要制定者與領導者，專注於 **eDP T-CON (嵌入式時序控制器)**、**High-speed Redriver/Retimer** (USB4, [[PCIe]] Gen4/5, HDMI)。譜瑞在 [[Apple]] 供應鏈中地位穩固，為 iPad/MacBook T-CON 獨家/主要供應商。",
+    "entities": [
+      "PCIe",
+      "Apple"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "晶圓代工 ([[台積電]]、[[聯電]])、封測廠 (南茂等)。",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "品牌大廠 ([[Apple]], [[Dell]], [[HP]], [[Lenovo]], [[Samsung]])。",
+        "entities": [
+          "Apple",
+          "Dell",
+          "HP",
+          "Lenovo",
+          "Samsung"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "高速傳輸與顯示介面 IC 設計領導廠。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[Apple]]",
+        "text": "最大客戶 (貢獻營收約 40-50%)，供應 eDP T-CON, High-speed Interface IC, Touch IC。",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "非蘋陣營",
+        "text": "[[Dell]], [[HP]], [[Lenovo]] (商用筆電高速傳輸晶片)、[[Samsung]] (平板/筆電)。",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "Samsung"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "高速傳輸",
+        "text": "祥碩 (ASMedia)、TI (德儀)、Retimer 領域對手 (Astera Labs, Montage)。",
+        "entities": []
+      },
+      {
+        "role": "T-CON/Driver",
+        "text": "[[聯詠]] (Novatek)、奇景 (Himax)。",
+        "entities": [
+          "聯詠"
+        ]
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PCIe",
+      "type": "international_company_or_term",
+      "wikilink": "PCIe"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "譜瑞-KY (Parade Technologies) 成立於 2005 年，總部位於美國加州 (註冊於開曼群島)。公司為全球領先的 **高速傳輸介面 IC** (High-speed Interface) 及 **顯示驅動 IC** (Display & Touch) 供應商。譜瑞是 **DisplayPort (DP)** 標準的重要制定者與領導者，專注於 **eDP T-CON (嵌入式時序控制器)**、**High-speed Redriver/Retimer** (USB4, [[PCIe]] Gen4/5, HDMI)。譜瑞在 [[Apple]] 供應鏈中地位穩固，為 iPad/MacBook T-CON 獨家/主要供應商。",
+    "supply_chain_md": "**角色:** 高速傳輸與顯示介面 IC 設計領導廠。\n**上游:** 晶圓代工 ([[台積電]]、[[聯電]])、封測廠 (南茂等)。\n**下游:** 品牌大廠 ([[Apple]], [[Dell]], [[HP]], [[Lenovo]], [[Samsung]])。",
+    "customers_suppliers_md": "### 主要客戶\n- **[[Apple]]:** 最大客戶 (貢獻營收約 40-50%)，供應 eDP T-CON, High-speed Interface IC, Touch IC。\n- **非蘋陣營:** [[Dell]], [[HP]], [[Lenovo]] (商用筆電高速傳輸晶片)、[[Samsung]] (平板/筆電)。\n\n### 競爭對手\n- **高速傳輸:** 祥碩 (ASMedia)、TI (德儀)、Retimer 領域對手 (Astera Labs, Montage)。\n- **T-CON/Driver:** [[聯詠]] (Novatek)、奇景 (Himax)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

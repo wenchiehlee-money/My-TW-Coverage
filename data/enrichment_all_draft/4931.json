@@ -1,0 +1,255 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4931",
+  "company_name": "新盛力",
+  "title": "4931 - 新盛力",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/4931_新盛力.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "11,408 百萬台幣",
+    "enterprise_value": "10,817 百萬台幣"
+  },
+  "business": {
+    "summary": "新盛力科技 (STL Technology) 前身為 **[[Sony]]** 台灣鋰電池模組廠，後由 **[[金山電]]** (GP Batteries) 按股投資成立。\n主要從事 **鋰離子電池模組** (Li-ion Battery Pack) 之研發與製造，專注於高功率與儲能應用。\n主要產品應用領域：\n1.  **電動手工具 (Power Tools)**: 鑽孔機、鋸子等無線電動工具電池。\n2.  **儲能/備援系統 (BBU)**: [[伺服器]]備援電池系統 (**[[BBU]]**)，應用於[[資料中心]] (Data Center) 與 **[[AI 伺服器]]** (如 GB200 供應鏈)。\n3.  **輕型電動載具 (LEV)**: 電動自行車 ([[E-Bike]])、電動機車電池。\n擁有優異的電池管理系統 (BMS) 技術，為非 IT (Non-IT) 鋰電池模組之重要供應商。",
+    "entities": [
+      "Sony",
+      "金山電",
+      "伺服器",
+      "BBU",
+      "資料中心",
+      "AI 伺服器",
+      "E-Bike"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 電池芯 ([[Cell]]) - ([[Sony]]/Murata, [[Samsung]] SDI, LGES), 電池管理IC ([[BMS]]), 相關電子零組件.",
+        "entities": [
+          "Cell",
+          "Sony",
+          "Samsung",
+          "BMS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **新盛力 (4931)** - 電池模組設計與組裝.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**資料中心 (CSP)**: [[AWS]], [[Meta]] (透過電源廠出貨).",
+        "entities": [
+          "AWS",
+          "Meta"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**電動手工具品牌**: 歐美大廠 (e.g., TTI, [[Bosch]]).",
+        "entities": [
+          "Bosch"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**輕型載具**: E-Bike 品牌.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**[[AWS]]** ([[Amazon]] Web Services).",
+        "entities": [
+          "AWS",
+          "Amazon"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**[[Meta]]**.",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "role": "",
+        "text": "歐美電動手工具大廠.",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AWS",
+          "Amazon",
+          "Meta"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": [
+      {
+        "role": "",
+        "text": "**[[台達電]]**, **[[光寶科]]** (作為電源供應器廠之電池合作夥伴).",
+        "entities": [
+          "台達電",
+          "光寶科"
+        ]
+      }
+    ]
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "金山電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金山電"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "BBU",
+      "type": "international_company_or_term",
+      "wikilink": "BBU"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "E-Bike",
+      "type": "international_company_or_term",
+      "wikilink": "E-Bike"
+    },
+    {
+      "name": "Cell",
+      "type": "international_company_or_term",
+      "wikilink": "Cell"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "BMS",
+      "type": "international_company_or_term",
+      "wikilink": "BMS"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新盛力科技 (STL Technology) 前身為 **[[Sony]]** 台灣鋰電池模組廠，後由 **[[金山電]]** (GP Batteries) 按股投資成立。\n主要從事 **鋰離子電池模組** (Li-ion Battery Pack) 之研發與製造，專注於高功率與儲能應用。\n主要產品應用領域：\n1.  **電動手工具 (Power Tools)**: 鑽孔機、鋸子等無線電動工具電池。\n2.  **儲能/備援系統 (BBU)**: [[伺服器]]備援電池系統 (**[[BBU]]**)，應用於[[資料中心]] (Data Center) 與 **[[AI 伺服器]]** (如 GB200 供應鏈)。\n3.  **輕型電動載具 (LEV)**: 電動自行車 ([[E-Bike]])、電動機車電池。\n擁有優異的電池管理系統 (BMS) 技術，為非 IT (Non-IT) 鋰電池模組之重要供應商。",
+    "supply_chain_md": "*   **中游 (本體)**: **新盛力 (4931)** - 電池模組設計與組裝.\n*   **上游**: 電池芯 ([[Cell]]) - ([[Sony]]/Murata, [[Samsung]] SDI, LGES), 電池管理IC ([[BMS]]), 相關電子零組件.\n*   **下游**:\n    *   **資料中心 (CSP)**: [[AWS]], [[Meta]] (透過電源廠出貨).\n    *   **電動手工具品牌**: 歐美大廠 (e.g., TTI, [[Bosch]]).\n    *   **輕型載具**: E-Bike 品牌.",
+    "customers_suppliers_md": "### 主要客戶\n*   **[[AWS]]** ([[Amazon]] Web Services).\n*   **[[Meta]]**.\n*   歐美電動手工具大廠.\n\n### 策略合作夥伴 (BBU)\n*   **[[台達電]]**, **[[光寶科]]** (作為電源供應器廠之電池合作夥伴)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

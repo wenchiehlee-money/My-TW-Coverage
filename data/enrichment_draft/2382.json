@@ -213,7 +213,31 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **PC/AI server ODM customer overlap:** [[仁寶]]、[[緯創]]、[[英業達]]、[[和碩]]、[[鴻海]]、[[緯穎]]",
+        "entities": [
+          "仁寶",
+          "緯創",
+          "英業達",
+          "和碩",
+          "鴻海",
+          "緯穎"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "Apple",
+          "HP",
+          "Dell",
+          "Lenovo",
+          "宏碁",
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Meta"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -368,6 +392,36 @@
       "name": "Amazon",
       "type": "international_company_or_term",
       "wikilink": "Amazon"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "緯穎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯穎"
     }
   ],
   "source_text": {
@@ -379,6 +433,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 29,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

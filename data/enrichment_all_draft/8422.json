@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8422",
+  "company_name": "可寧衛",
+  "title": "8422 - [[可寧衛]]",
+  "source_md": "Pilot_Reports/Waste Management/8422_可寧衛.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Waste Management",
+    "market_cap": "28,193 百萬台幣",
+    "enterprise_value": "36,221 百萬台幣"
+  },
+  "business": {
+    "summary": "可寧衛股份有限公司 (8422，CleanWay) 設立於1999年，為國內有害事業廢棄物清除處理業務龍頭，可處理700多種廢棄物代號中的400多種。主要業務包括：\n\n1. **有害廢棄物固化與掩埋：** 國內最大有害事業廢棄物固化及掩埋處理廠。\n2. **環境整治：** 受污染場址清理與修復，合約金額30.7億元之[[中油]]高雄煉油廠北二區標案預期2025年完工。\n3. **B2B整合平台：** 建立「中衛大平台」整合40多家合作夥伴，可處理600多種廢棄物代碼。\n4. **循環經濟：** 製造銷售牛皮紙、電子載板用紙、紙管用紙。\n5. **再生能源：** 太陽能發電與售電。\n6. **預拌混凝土：** 製造銷售預拌混凝土。",
+    "entities": [
+      "中油"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (廢棄物來源)",
+        "text": "**上游 (廢棄物來源):**",
+        "entities": []
+      },
+      {
+        "category": "石化產業",
+        "text": "[[中油]]等石化廠之有害廢棄物",
+        "entities": [
+          "中油"
+        ]
+      },
+      {
+        "category": "科技產業",
+        "text": "[[半導體]]與電子廠之有害廢液",
+        "entities": [
+          "半導體"
+        ]
+      },
+      {
+        "category": "營建業",
+        "text": "建築廢棄物",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (處理與掩埋)",
+        "text": "**中游 (處理與掩埋):**",
+        "entities": []
+      },
+      {
+        "category": "可寧衛 (8422)",
+        "text": "有害事業廢棄物固化掩埋處理、環境整治、紙品製造、預拌混凝土生產",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (服務與產品)",
+        "text": "**下游 (服務與產品):**",
+        "entities": []
+      },
+      {
+        "category": "掩埋",
+        "text": "固化後廢棄物之最終掩埋處置",
+        "entities": []
+      },
+      {
+        "category": "環境整治",
+        "text": "[[中油]]等國營事業之污染場址修復",
+        "entities": [
+          "中油"
+        ]
+      },
+      {
+        "category": "紙品",
+        "text": "牛皮紙、電子載板用紙銷售",
+        "entities": []
+      },
+      {
+        "category": "售電",
+        "text": "[[台電]]（太陽能發電）",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "環境整治",
+        "text": "[[中油]]（高雄煉油廠北二區標案，合約30.7億元）",
+        "entities": [
+          "中油"
+        ]
+      },
+      {
+        "role": "有害廢棄物",
+        "text": "[[台積電]]、[[聯電]]等半導體廠之有害廢棄物處理",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "B2B平台",
+        "text": "透過「中衛大平台」服務之600多種廢棄物代碼客戶",
+        "entities": []
+      },
+      {
+        "role": "售電",
+        "text": "[[台電]]",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "固化材料",
+        "text": "水泥、化學固化藥劑供應商",
+        "entities": []
+      },
+      {
+        "role": "合作夥伴",
+        "text": "中衛大平台40多家廢棄物處理合作業者",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Waste Management):** [[鋼聯]]、[[萬年清]]、[[平和環保-創]]、[[崑鼎]]、[[寶綠特-KY]]",
+        "entities": [
+          "鋼聯",
+          "萬年清",
+          "平和環保-創",
+          "崑鼎",
+          "寶綠特-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中油",
+          "台積電",
+          "聯電",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "鋼聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼聯"
+    },
+    {
+      "name": "萬年清",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬年清"
+    },
+    {
+      "name": "平和環保-創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "平和環保-創"
+    },
+    {
+      "name": "崑鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "崑鼎"
+    },
+    {
+      "name": "寶綠特-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶綠特-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "可寧衛股份有限公司 (8422，CleanWay) 設立於1999年，為國內有害事業廢棄物清除處理業務龍頭，可處理700多種廢棄物代號中的400多種。主要業務包括：\n\n1. **有害廢棄物固化與掩埋：** 國內最大有害事業廢棄物固化及掩埋處理廠。\n2. **環境整治：** 受污染場址清理與修復，合約金額30.7億元之[[中油]]高雄煉油廠北二區標案預期2025年完工。\n3. **B2B整合平台：** 建立「中衛大平台」整合40多家合作夥伴，可處理600多種廢棄物代碼。\n4. **循環經濟：** 製造銷售牛皮紙、電子載板用紙、紙管用紙。\n5. **再生能源：** 太陽能發電與售電。\n6. **預拌混凝土：** 製造銷售預拌混凝土。",
+    "supply_chain_md": "**上游 (廢棄物來源):**\n- **石化產業：** [[中油]]等石化廠之有害廢棄物\n- **科技產業：** [[半導體]]與電子廠之有害廢液\n- **營建業：** 建築廢棄物\n\n**中游 (處理與掩埋):**\n- **可寧衛 (8422)：** 有害事業廢棄物固化掩埋處理、環境整治、紙品製造、預拌混凝土生產\n\n**下游 (服務與產品):**\n- **掩埋：** 固化後廢棄物之最終掩埋處置\n- **環境整治：** [[中油]]等國營事業之污染場址修復\n- **紙品：** 牛皮紙、電子載板用紙銷售\n- **售電：** [[台電]]（太陽能發電）",
+    "customers_suppliers_md": "### 主要客戶\n- **環境整治：** [[中油]]（高雄煉油廠北二區標案，合約30.7億元）\n- **有害廢棄物：** [[台積電]]、[[聯電]]等半導體廠之有害廢棄物處理\n- **B2B平台：** 透過「中衛大平台」服務之600多種廢棄物代碼客戶\n- **售電：** [[台電]]\n\n### 主要供應商\n- **固化材料：** 水泥、化學固化藥劑供應商\n- **合作夥伴：** 中衛大平台40多家廢棄物處理合作業者"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

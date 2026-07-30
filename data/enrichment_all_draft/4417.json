@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4417",
+  "company_name": "金洲",
+  "title": "4417 - 金洲",
+  "source_md": "Pilot_Reports/Textile Manufacturing/4417_金洲.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "",
+    "industry": "",
+    "market_cap": "",
+    "enterprise_value": ""
+  },
+  "business": {
+    "summary": "**金洲海洋科技** (4417) 為全球前三大、台灣第一大 [[漁網]] 製造商，以自有品牌 **King Net** 行銷全球。主要產品涵蓋遠洋漁業之 [[圍網]]、[[拖網]]、[[箱網]] 及各類 [[陸上用網]] (如高爾夫球網、建築安全網)。金洲擁有從 [[抽絲]]、[[撚線]]、[[織網]] 到 [[熱處理]] 之一貫化生產優勢，能提供客製化且高品質之網具。近年受惠於挪威等國 [[養殖漁業]] 發展，箱網訂單需求強勁，成為公司重要成長動能。",
+    "entities": [
+      "漁網",
+      "圍網",
+      "拖網",
+      "箱網",
+      "陸上用網",
+      "抽絲",
+      "撚線",
+      "織網",
+      "熱處理",
+      "養殖漁業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**：採購 [[尼龍粒]] (Nylon Chips)、[[HDPE]] (聚乙烯) 等石化原料，主要供應商為 [[台化]]、[[力鵬]]。",
+        "entities": [
+          "尼龍粒",
+          "HDPE",
+          "台化",
+          "力鵬"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**：進行抽絲、撚線、編織成網及染整熱處理加工。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "金洲位於紡織與漁業用品產業鏈的**中下游製造端**：",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**下游**：供應給遠洋 漁業公司 (如魷魚釣、鮪魚圍網)、[[水產養殖]] 業者 (如挪威鮭魚養殖場) 及 [[運動器材]] 品牌。",
+        "entities": [
+          "水產養殖",
+          "運動器材"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "遠洋漁業",
+        "text": "魷魚釣、鮪魚圍網漁船隊",
+        "entities": []
+      },
+      {
+        "role": "養殖漁業",
+        "text": "挪威[[Mowi]]等鮭魚養殖業者",
+        "entities": [
+          "Mowi"
+        ]
+      },
+      {
+        "role": "運動器材",
+        "text": "高爾夫球網等品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[台化]]、[[力鵬]] ([[尼龍粒]]、[[HDPE]])",
+        "entities": [
+          "台化",
+          "力鵬",
+          "尼龍粒",
+          "HDPE"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Mowi"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "漁網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漁網"
+    },
+    {
+      "name": "圍網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "圍網"
+    },
+    {
+      "name": "拖網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "拖網"
+    },
+    {
+      "name": "箱網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "箱網"
+    },
+    {
+      "name": "陸上用網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陸上用網"
+    },
+    {
+      "name": "抽絲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "抽絲"
+    },
+    {
+      "name": "撚線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "撚線"
+    },
+    {
+      "name": "織網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "織網"
+    },
+    {
+      "name": "熱處理",
+      "type": "taiwan_company_or_term",
+      "wikilink": "熱處理"
+    },
+    {
+      "name": "養殖漁業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "養殖漁業"
+    },
+    {
+      "name": "尼龍粒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尼龍粒"
+    },
+    {
+      "name": "HDPE",
+      "type": "international_company_or_term",
+      "wikilink": "HDPE"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "力鵬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力鵬"
+    },
+    {
+      "name": "水產養殖",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水產養殖"
+    },
+    {
+      "name": "運動器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "運動器材"
+    },
+    {
+      "name": "Mowi",
+      "type": "international_company_or_term",
+      "wikilink": "Mowi"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "**金洲海洋科技** (4417) 為全球前三大、台灣第一大 [[漁網]] 製造商，以自有品牌 **King Net** 行銷全球。主要產品涵蓋遠洋漁業之 [[圍網]]、[[拖網]]、[[箱網]] 及各類 [[陸上用網]] (如高爾夫球網、建築安全網)。金洲擁有從 [[抽絲]]、[[撚線]]、[[織網]] 到 [[熱處理]] 之一貫化生產優勢，能提供客製化且高品質之網具。近年受惠於挪威等國 [[養殖漁業]] 發展，箱網訂單需求強勁，成為公司重要成長動能。",
+    "supply_chain_md": "金洲位於紡織與漁業用品產業鏈的**中下游製造端**：\n*   **上游**：採購 [[尼龍粒]] (Nylon Chips)、[[HDPE]] (聚乙烯) 等石化原料，主要供應商為 [[台化]]、[[力鵬]]。\n*   **中游**：進行抽絲、撚線、編織成網及染整熱處理加工。\n*   **下游**：供應給遠洋 漁業公司 (如魷魚釣、鮪魚圍網)、[[水產養殖]] 業者 (如挪威鮭魚養殖場) 及 [[運動器材]] 品牌。",
+    "customers_suppliers_md": "### 主要客戶\n- **遠洋漁業:** 魷魚釣、鮪魚圍網漁船隊\n- **養殖漁業:** 挪威[[Mowi]]等鮭魚養殖業者\n- **運動器材:** 高爾夫球網等品牌\n\n### 主要供應商\n- **原料:** [[台化]]、[[力鵬]] ([[尼龍粒]]、[[HDPE]])"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

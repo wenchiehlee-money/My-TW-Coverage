@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6425",
+  "company_name": "易發",
+  "title": "6425_易發",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/6425_易發.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "2,602 百萬台幣",
+    "enterprise_value": "3,091 百萬台幣"
+  },
+  "business": {
+    "summary": "易發精機股份有限公司 (6425，EFCT) 是一家專業的高精密[[自動化]]生產設備開發商。易發精機以其優異的機器視覺與系統整合能力，提供從光電面板貼合、鋰電池模組[[自動化]]組裝到[[半導體]]晶圓級檢測設備(AOI)的全方位解決方案。近年來，易發成功切入全球先進封裝(如[[CoWoS]])測試設備供應鏈，並攜手[[群電]]與美超微(Supermicro)開發[[AI 伺服器]][[散熱]]與超級算力櫃基礎設施，成為其營運轉型升級的重要轉捩點。",
+    "entities": [
+      "自動化",
+      "半導體",
+      "CoWoS",
+      "群電",
+      "AI 伺服器",
+      "散熱"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 各類機構零組件、伺服馬達、PLC控制器、[[工業電腦]]([[IPC]])及攝影機/感測器供應商。",
+        "entities": [
+          "工業電腦",
+          "IPC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **易發精機** ([[半導體]]AOI檢測機、光電貼合機、電池組裝線及[[自動化]]產線設備設計製造)。",
+        "entities": [
+          "半導體",
+          "自動化"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 晶圓代工廠、[[半導體]]封測廠(OSAT)、光電面板廠、車用電池廠及[[伺服器]][[資料中心]]業者。",
+        "entities": [
+          "半導體",
+          "伺服器",
+          "資料中心"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台積電]]、[[南亞科]]、各大面板廠及[[伺服器]]/機電合作夥伴(如Supermicro、[[群電]])。",
+        "entities": [
+          "台積電",
+          "南亞科",
+          "伺服器",
+          "群電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外精密傳動元件廠(如滑軌、馬達)、光學鏡頭及工業控制電子材料商。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "南亞科",
+          "伺服器",
+          "群電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "群電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群電"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "南亞科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞科"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "易發精機股份有限公司 (6425，EFCT) 是一家專業的高精密[[自動化]]生產設備開發商。易發精機以其優異的機器視覺與系統整合能力，提供從光電面板貼合、鋰電池模組[[自動化]]組裝到[[半導體]]晶圓級檢測設備(AOI)的全方位解決方案。近年來，易發成功切入全球先進封裝(如[[CoWoS]])測試設備供應鏈，並攜手[[群電]]與美超微(Supermicro)開發[[AI 伺服器]][[散熱]]與超級算力櫃基礎設施，成為其營運轉型升級的重要轉捩點。",
+    "supply_chain_md": "*   **上游**: 各類機構零組件、伺服馬達、PLC控制器、[[工業電腦]]([[IPC]])及攝影機/感測器供應商。\n*   **中游**: **易發精機** ([[半導體]]AOI檢測機、光電貼合機、電池組裝線及[[自動化]]產線設備設計製造)。\n*   **下游**: 晶圓代工廠、[[半導體]]封測廠(OSAT)、光電面板廠、車用電池廠及[[伺服器]][[資料中心]]業者。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[台積電]]、[[南亞科]]、各大面板廠及[[伺服器]]/機電合作夥伴(如Supermicro、[[群電]])。\n\n### 主要供應商\n*   國內外精密傳動元件廠(如滑軌、馬達)、光學鏡頭及工業控制電子材料商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

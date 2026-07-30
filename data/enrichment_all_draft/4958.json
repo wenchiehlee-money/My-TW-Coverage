@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4958",
+  "company_name": "臻鼎-KY",
+  "title": "4958 - 臻鼎-KY",
+  "source_md": "Pilot_Reports/Electronic Components/4958_臻鼎-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "436,626 百萬台幣",
+    "enterprise_value": "464,935 百萬台幣"
+  },
+  "business": {
+    "summary": "臻鼎-KY (Zhen Ding Tech) 為全球最大 **印刷電路板 (PCB)** 製造商。\n隸屬於 **[[鴻海]]** 集團 ([[鴻海]])，提供「One ZDT」一站式購足服務。\n產品線極其完整：\n1.  **軟板 ([[FPC]])**: 全球市佔第一，主要應用於手機 (iPhone)、平板。\n2.  **類載板 ([[SLP]]) / HDI**: 高階手機主板。\n3.  **IC 載板**: [[BT 載板]] (秦皇島廠) 與 **[[ABF 載板]]** (深圳/高雄廠)，積極切入 [[AI 伺服器]]與車載領域。\n4.  **硬板 (RPCB)**: 伺服器、車用板。\n近年重心轉向 **[[AI 伺服器]]** 與 **IC 載板** 之高階產能擴充。",
+    "entities": [
+      "鴻海",
+      "FPC",
+      "SLP",
+      "BT 載板",
+      "ABF 載板",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[銅箔]]基板 ([[CCL]]) - [[台光電]], [[聯茂]], [[台燿]]; [[銅箔]], 鑽針 ([[尖點]]).",
+        "entities": [
+          "銅箔",
+          "CCL",
+          "台光電",
+          "聯茂",
+          "台燿",
+          "尖點"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **臻鼎-KY (4958)** - 各式 PCB/載板製造.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**終端品牌**: **[[Apple]]** (最大客戶), [[Google]], [[Microsoft]].",
+        "entities": [
+          "Apple",
+          "Google",
+          "Microsoft"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**EMS 廠**: **[[鴻海]]**, [[和碩]].",
+        "entities": [
+          "鴻海",
+          "和碩"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**AI/HPC**: [[Nvidia]], [[AMD]] (載板與伺服器板).",
+        "entities": [
+          "Nvidia",
+          "AMD"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**[[Apple]]**: iPhone/iPad/Watch 全系列 PCB 主力供應商.",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**AI/Server**: Nvidia, [[Amazon]], [[Microsoft]].",
+        "entities": [
+          "Amazon",
+          "Microsoft"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**CCL**: [[台光電]] (高階手機/AI板), [[聯茂]].",
+        "entities": [
+          "台光電",
+          "聯茂"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**鑽針**: [[尖點]] (策略合作).",
+        "entities": [
+          "尖點"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "Amazon",
+          "Microsoft"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "FPC",
+      "type": "international_company_or_term",
+      "wikilink": "FPC"
+    },
+    {
+      "name": "SLP",
+      "type": "international_company_or_term",
+      "wikilink": "SLP"
+    },
+    {
+      "name": "BT 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "BT 載板"
+    },
+    {
+      "name": "ABF 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ABF 載板"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "CCL",
+      "type": "international_company_or_term",
+      "wikilink": "CCL"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "台燿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台燿"
+    },
+    {
+      "name": "尖點",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尖點"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "Nvidia",
+      "type": "international_company_or_term",
+      "wikilink": "Nvidia"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "臻鼎-KY (Zhen Ding Tech) 為全球最大 **印刷電路板 (PCB)** 製造商。\n隸屬於 **[[鴻海]]** 集團 ([[鴻海]])，提供「One ZDT」一站式購足服務。\n產品線極其完整：\n1.  **軟板 ([[FPC]])**: 全球市佔第一，主要應用於手機 (iPhone)、平板。\n2.  **類載板 ([[SLP]]) / HDI**: 高階手機主板。\n3.  **IC 載板**: [[BT 載板]] (秦皇島廠) 與 **[[ABF 載板]]** (深圳/高雄廠)，積極切入 [[AI 伺服器]]與車載領域。\n4.  **硬板 (RPCB)**: 伺服器、車用板。\n近年重心轉向 **[[AI 伺服器]]** 與 **IC 載板** 之高階產能擴充。",
+    "supply_chain_md": "*   **中游 (本體)**: **臻鼎-KY (4958)** - 各式 PCB/載板製造.\n*   **上游**: [[銅箔]]基板 ([[CCL]]) - [[台光電]], [[聯茂]], [[台燿]]; [[銅箔]], 鑽針 ([[尖點]]).\n*   **下游**:\n    *   **終端品牌**: **[[Apple]]** (最大客戶), [[Google]], [[Microsoft]].\n    *   **EMS 廠**: **[[鴻海]]**, [[和碩]].\n    *   **AI/HPC**: [[Nvidia]], [[AMD]] (載板與伺服器板).",
+    "customers_suppliers_md": "### 主要客戶\n*   **[[Apple]]**: iPhone/iPad/Watch 全系列 PCB 主力供應商.\n*   **AI/Server**: Nvidia, [[Amazon]], [[Microsoft]].\n\n### 主要供應商\n*   **CCL**: [[台光電]] (高階手機/AI板), [[聯茂]].\n*   **鑽針**: [[尖點]] (策略合作)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6136",
+  "company_name": "富爾特",
+  "title": "6136_富爾特",
+  "source_md": "Pilot_Reports/Advertising Agencies/6136_富爾特.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Advertising Agencies",
+    "market_cap": "2,779 百萬台幣",
+    "enterprise_value": "2,452 百萬台幣"
+  },
+  "business": {
+    "summary": "富爾特科技 (6136) 是一家以電信加值服務與數位娛樂為核心的平台營運商。公司為[[中華電信]]代理商，經營[[預付卡]]申辦、儲值及入境觀光卡服務，並以 S2B2C 模式拓展[[國際漫遊]]業務，覆蓋全球 95% 國人出遊目的地。集團旗下[[格帝控股]] (GRANDI) 負責影視娛樂與[[整合行銷]]，[[IMAGEMORE]] 品牌經營東方風格原創[[數位圖庫]]。公司另持有[[大聯大控股]] (WPG)、[[萬里雲]] (CloudMile) 及[[曙客]] (funNow) 等策略性投資。",
+    "entities": [
+      "中華電信",
+      "預付卡",
+      "國際漫遊",
+      "格帝控股",
+      "整合行銷",
+      "IMAGEMORE",
+      "數位圖庫",
+      "大聯大控股",
+      "萬里雲",
+      "曙客"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (內容與技術供應)",
+        "text": "**上游 (內容與技術供應):**",
+        "entities": []
+      },
+      {
+        "category": "電信基礎建設",
+        "text": "[[中華電信]] (電信網路與漫遊服務授權)",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "category": "IoT 晶片",
+        "text": "[[瑞昱]] ([[瑞昱]]，IoT 產品代理)",
+        "entities": [
+          "瑞昱"
+        ]
+      },
+      {
+        "category": "資安與軟體",
+        "text": "國際資安及商用軟體供應",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台營運與服務整合)",
+        "text": "**中游 (平台營運與服務整合):**",
+        "entities": []
+      },
+      {
+        "category": "電信加值",
+        "text": "**富爾特** (預付卡代理、國際漫遊 S2B2C 平台)",
+        "entities": []
+      },
+      {
+        "category": "影視娛樂與行銷",
+        "text": "[[格帝控股]] (旗下[[思索柏]]數位廣告、[[凱思]]數位公關、[[紅杉娛樂]]影視開發、[[意起娛樂]]動漫製作)",
+        "entities": [
+          "格帝控股",
+          "思索柏",
+          "凱思",
+          "紅杉娛樂",
+          "意起娛樂"
+        ]
+      },
+      {
+        "category": "數位影像",
+        "text": "[[IMAGEMORE]] (原創圖庫與文創設計)",
+        "entities": [
+          "IMAGEMORE"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與終端客戶)",
+        "text": "**下游 (通路與終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "超商通路",
+        "text": "[[7-ELEVEN]]、[[全家便利商店]]、[[萊爾富]]",
+        "entities": [
+          "7-ELEVEN",
+          "全家便利商店",
+          "萊爾富"
+        ]
+      },
+      {
+        "category": "線上旅遊平台",
+        "text": "[[KKday]]、[[Klook]]、[[Trip.com]]",
+        "entities": [
+          "KKday",
+          "Klook",
+          "Trip.com"
+        ]
+      },
+      {
+        "category": "旅行社",
+        "text": "[[雄獅旅遊]]、[[可樂旅遊]]",
+        "entities": [
+          "雄獅旅遊",
+          "可樂旅遊"
+        ]
+      },
+      {
+        "category": "金融支付",
+        "text": "[[Mastercard]]、[[街口支付]]",
+        "entities": [
+          "Mastercard",
+          "街口支付"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信漫遊通路",
+        "text": "[[7-ELEVEN]]、[[全家便利商店]]、[[萊爾富]] (預付卡銷售)",
+        "entities": [
+          "7-ELEVEN",
+          "全家便利商店",
+          "萊爾富"
+        ]
+      },
+      {
+        "role": "線上旅遊",
+        "text": "[[KKday]]、[[Klook]]、[[Trip.com]] (漫遊服務合作)",
+        "entities": [
+          "KKday",
+          "Klook",
+          "Trip.com"
+        ]
+      },
+      {
+        "role": "旅行社",
+        "text": "[[雄獅旅遊]]、[[可樂旅遊]]",
+        "entities": [
+          "雄獅旅遊",
+          "可樂旅遊"
+        ]
+      },
+      {
+        "role": "金融支付",
+        "text": "[[Mastercard]]、[[街口支付]]",
+        "entities": [
+          "Mastercard",
+          "街口支付"
+        ]
+      },
+      {
+        "role": "影音代理",
+        "text": "[[中華電信]] ([[Hami Video]] 影音服務代理)",
+        "entities": [
+          "中華電信",
+          "Hami Video"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電信網路",
+        "text": "[[中華電信]] (核心電信服務與漫遊授權)",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "IoT 晶片",
+        "text": "[[瑞昱]]",
+        "entities": [
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "雲端與 AI",
+        "text": "[[萬里雲]] (CloudMile，雲端及 AI 服務)",
+        "entities": [
+          "萬里雲"
+        ]
+      },
+      {
+        "role": "數位媒體",
+        "text": "[[利達數位影音]] (Lihda，數位後製)",
+        "entities": [
+          "利達數位影音"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Advertising Agencies):** [[同業待補]]",
+        "entities": [
+          "同業待補"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "7-ELEVEN",
+          "全家便利商店",
+          "萊爾富",
+          "KKday",
+          "Klook",
+          "Trip.com",
+          "雄獅旅遊",
+          "可樂旅遊",
+          "Mastercard",
+          "街口支付",
+          "中華電信",
+          "Hami Video"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "預付卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "預付卡"
+    },
+    {
+      "name": "國際漫遊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國際漫遊"
+    },
+    {
+      "name": "格帝控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "格帝控股"
+    },
+    {
+      "name": "整合行銷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "整合行銷"
+    },
+    {
+      "name": "IMAGEMORE",
+      "type": "international_company_or_term",
+      "wikilink": "IMAGEMORE"
+    },
+    {
+      "name": "數位圖庫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "數位圖庫"
+    },
+    {
+      "name": "大聯大控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大控股"
+    },
+    {
+      "name": "萬里雲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬里雲"
+    },
+    {
+      "name": "曙客",
+      "type": "taiwan_company_or_term",
+      "wikilink": "曙客"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "思索柏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "思索柏"
+    },
+    {
+      "name": "凱思",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱思"
+    },
+    {
+      "name": "紅杉娛樂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紅杉娛樂"
+    },
+    {
+      "name": "意起娛樂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "意起娛樂"
+    },
+    {
+      "name": "7-ELEVEN",
+      "type": "international_company_or_term",
+      "wikilink": "7-ELEVEN"
+    },
+    {
+      "name": "全家便利商店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家便利商店"
+    },
+    {
+      "name": "萊爾富",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萊爾富"
+    },
+    {
+      "name": "KKday",
+      "type": "international_company_or_term",
+      "wikilink": "KKday"
+    },
+    {
+      "name": "Klook",
+      "type": "international_company_or_term",
+      "wikilink": "Klook"
+    },
+    {
+      "name": "Trip.com",
+      "type": "international_company_or_term",
+      "wikilink": "Trip.com"
+    },
+    {
+      "name": "雄獅旅遊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雄獅旅遊"
+    },
+    {
+      "name": "可樂旅遊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "可樂旅遊"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "街口支付",
+      "type": "taiwan_company_or_term",
+      "wikilink": "街口支付"
+    },
+    {
+      "name": "Hami Video",
+      "type": "international_company_or_term",
+      "wikilink": "Hami Video"
+    },
+    {
+      "name": "利達數位影音",
+      "type": "taiwan_company_or_term",
+      "wikilink": "利達數位影音"
+    },
+    {
+      "name": "同業待補",
+      "type": "taiwan_company_or_term",
+      "wikilink": "同業待補"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富爾特科技 (6136) 是一家以電信加值服務與數位娛樂為核心的平台營運商。公司為[[中華電信]]代理商，經營[[預付卡]]申辦、儲值及入境觀光卡服務，並以 S2B2C 模式拓展[[國際漫遊]]業務，覆蓋全球 95% 國人出遊目的地。集團旗下[[格帝控股]] (GRANDI) 負責影視娛樂與[[整合行銷]]，[[IMAGEMORE]] 品牌經營東方風格原創[[數位圖庫]]。公司另持有[[大聯大控股]] (WPG)、[[萬里雲]] (CloudMile) 及[[曙客]] (funNow) 等策略性投資。",
+    "supply_chain_md": "**上游 (內容與技術供應):**\n- **電信基礎建設:** [[中華電信]] (電信網路與漫遊服務授權)\n- **IoT 晶片:** [[瑞昱]] ([[瑞昱]]，IoT 產品代理)\n- **資安與軟體:** 國際資安及商用軟體供應\n\n**中游 (平台營運與服務整合):**\n- **電信加值:** **富爾特** (預付卡代理、國際漫遊 S2B2C 平台)\n- **影視娛樂與行銷:** [[格帝控股]] (旗下[[思索柏]]數位廣告、[[凱思]]數位公關、[[紅杉娛樂]]影視開發、[[意起娛樂]]動漫製作)\n- **數位影像:** [[IMAGEMORE]] (原創圖庫與文創設計)\n\n**下游 (通路與終端客戶):**\n- **超商通路:** [[7-ELEVEN]]、[[全家便利商店]]、[[萊爾富]]\n- **線上旅遊平台:** [[KKday]]、[[Klook]]、[[Trip.com]]\n- **旅行社:** [[雄獅旅遊]]、[[可樂旅遊]]\n- **金融支付:** [[Mastercard]]、[[街口支付]]",
+    "customers_suppliers_md": "### 主要客戶\n- **電信漫遊通路:** [[7-ELEVEN]]、[[全家便利商店]]、[[萊爾富]] (預付卡銷售)\n- **線上旅遊:** [[KKday]]、[[Klook]]、[[Trip.com]] (漫遊服務合作)\n- **旅行社:** [[雄獅旅遊]]、[[可樂旅遊]]\n- **金融支付:** [[Mastercard]]、[[街口支付]]\n- **影音代理:** [[中華電信]] ([[Hami Video]] 影音服務代理)\n\n### 主要供應商\n- **電信網路:** [[中華電信]] (核心電信服務與漫遊授權)\n- **IoT 晶片:** [[瑞昱]]\n- **雲端與 AI:** [[萬里雲]] (CloudMile，雲端及 AI 服務)\n- **數位媒體:** [[利達數位影音]] (Lihda，數位後製)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 27,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

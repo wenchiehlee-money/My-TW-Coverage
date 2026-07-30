@@ -1,0 +1,305 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4554",
+  "company_name": "橙的",
+  "title": "4554 - 橙的",
+  "source_md": "Pilot_Reports/Electronic Components/4554_橙的.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "779 百萬台幣",
+    "enterprise_value": "530 百萬台幣"
+  },
+  "business": {
+    "summary": "橙的電子 (4554，[[Orange Electronic]]) 專注於無線胎壓偵測器 ([[TPMS]]) 之研發與製造，為全球少數擁有 RF 無線射頻技術與高低溫汽車電子設計能力之廠商。\n\n產品涵蓋原廠 OEM (泛用型) 與售後 AM (通用型可燒錄) 市場。累計全球銷售數百萬顆感測器，取得 [[FMVSS138]]、SAE J2657 及 CE 等國際車用認證。橙的亦積極開發與 [[Garmin]] 整合之 GPS/TPMS 雙系統，及支援手機藍牙監測之智慧產品。",
+    "entities": [
+      "Orange Electronic",
+      "TPMS",
+      "FMVSS138",
+      "Garmin"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (車用電子元件)",
+        "text": "**上游 (車用電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "感測 IC",
+        "text": "壓力感測 IC 供應商",
+        "entities": []
+      },
+      {
+        "category": "RF 晶片",
+        "text": "無線射頻發射晶片",
+        "entities": []
+      },
+      {
+        "category": "電池",
+        "text": "車用級長壽命電池",
+        "entities": []
+      },
+      {
+        "category": "氣門嘴",
+        "text": "金屬氣門嘴閥件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (TPMS 模組製造)",
+        "text": "**中游 (TPMS 模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "OEM 感測器",
+        "text": "**橙的** (原廠規格 [[TPMS]] 模組)",
+        "entities": [
+          "TPMS"
+        ]
+      },
+      {
+        "category": "AM 通用型",
+        "text": "**橙的** (可燒錄通用型胎壓偵測器)",
+        "entities": []
+      },
+      {
+        "category": "智慧產品",
+        "text": "**橙的** ([[Garmin]] 整合型 GPS/TPMS)",
+        "entities": [
+          "Garmin"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車廠與售後市場)",
+        "text": "**下游 (車廠與售後市場):**",
+        "entities": []
+      },
+      {
+        "category": "OEM 車廠",
+        "text": "[[Toyota]]、[[Nissan]]、[[Mitsubishi]]、[[Isuzu]] — 原廠胎壓偵測",
+        "entities": [
+          "Toyota",
+          "Nissan",
+          "Mitsubishi",
+          "Isuzu"
+        ]
+      },
+      {
+        "category": "輪胎品牌",
+        "text": "[[Bridgestone]]、[[Michelin]] — AM 通路銷售",
+        "entities": [
+          "Bridgestone",
+          "Michelin"
+        ]
+      },
+      {
+        "category": "汽車百貨",
+        "text": "車麗屋、金弘笙 — 台灣售後市場",
+        "entities": []
+      },
+      {
+        "category": "機車品牌",
+        "text": "[[Kymco]]、[[Yamaha]] — 機車用 TPMS",
+        "entities": [
+          "Kymco",
+          "Yamaha"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "OEM 車廠",
+        "text": "[[Toyota]]、[[Nissan]]、[[Mitsubishi]]、[[Isuzu]] — 原廠 [[TPMS]]",
+        "entities": [
+          "Toyota",
+          "Nissan",
+          "Mitsubishi",
+          "Isuzu",
+          "TPMS"
+        ]
+      },
+      {
+        "role": "輪胎通路",
+        "text": "[[Bridgestone]]、[[Michelin]] — 全球售後 AM 市場",
+        "entities": [
+          "Bridgestone",
+          "Michelin"
+        ]
+      },
+      {
+        "role": "機車品牌",
+        "text": "[[Kymco]]、[[Yamaha]] — 機車用胎壓偵測",
+        "entities": [
+          "Kymco",
+          "Yamaha"
+        ]
+      },
+      {
+        "role": "導航整合",
+        "text": "[[Garmin]] — GPS/TPMS 雙系統",
+        "entities": [
+          "Garmin"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "感測 IC",
+        "text": "壓力感測 IC 設計廠",
+        "entities": []
+      },
+      {
+        "role": "RF 晶片",
+        "text": "無線射頻發射晶片供應商",
+        "entities": []
+      },
+      {
+        "role": "電池",
+        "text": "車用級長壽命電池供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Toyota",
+          "Nissan",
+          "Mitsubishi",
+          "Isuzu",
+          "TPMS",
+          "Bridgestone",
+          "Michelin",
+          "Kymco",
+          "Yamaha",
+          "Garmin"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Orange Electronic",
+      "type": "international_company_or_term",
+      "wikilink": "Orange Electronic"
+    },
+    {
+      "name": "TPMS",
+      "type": "international_company_or_term",
+      "wikilink": "TPMS"
+    },
+    {
+      "name": "FMVSS138",
+      "type": "international_company_or_term",
+      "wikilink": "FMVSS138"
+    },
+    {
+      "name": "Garmin",
+      "type": "international_company_or_term",
+      "wikilink": "Garmin"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "Mitsubishi",
+      "type": "international_company_or_term",
+      "wikilink": "Mitsubishi"
+    },
+    {
+      "name": "Isuzu",
+      "type": "international_company_or_term",
+      "wikilink": "Isuzu"
+    },
+    {
+      "name": "Bridgestone",
+      "type": "international_company_or_term",
+      "wikilink": "Bridgestone"
+    },
+    {
+      "name": "Michelin",
+      "type": "international_company_or_term",
+      "wikilink": "Michelin"
+    },
+    {
+      "name": "Kymco",
+      "type": "international_company_or_term",
+      "wikilink": "Kymco"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "橙的電子 (4554，[[Orange Electronic]]) 專注於無線胎壓偵測器 ([[TPMS]]) 之研發與製造，為全球少數擁有 RF 無線射頻技術與高低溫汽車電子設計能力之廠商。\n\n產品涵蓋原廠 OEM (泛用型) 與售後 AM (通用型可燒錄) 市場。累計全球銷售數百萬顆感測器，取得 [[FMVSS138]]、SAE J2657 及 CE 等國際車用認證。橙的亦積極開發與 [[Garmin]] 整合之 GPS/TPMS 雙系統，及支援手機藍牙監測之智慧產品。",
+    "supply_chain_md": "**上游 (車用電子元件):**\n- **感測 IC:** 壓力感測 IC 供應商\n- **RF 晶片:** 無線射頻發射晶片\n- **電池:** 車用級長壽命電池\n- **氣門嘴:** 金屬氣門嘴閥件供應商\n\n**中游 (TPMS 模組製造):**\n- **OEM 感測器:** **橙的** (原廠規格 [[TPMS]] 模組)\n- **AM 通用型:** **橙的** (可燒錄通用型胎壓偵測器)\n- **智慧產品:** **橙的** ([[Garmin]] 整合型 GPS/TPMS)\n\n**下游 (車廠與售後市場):**\n- **OEM 車廠:** [[Toyota]]、[[Nissan]]、[[Mitsubishi]]、[[Isuzu]] — 原廠胎壓偵測\n- **輪胎品牌:** [[Bridgestone]]、[[Michelin]] — AM 通路銷售\n- **汽車百貨:** 車麗屋、金弘笙 — 台灣售後市場\n- **機車品牌:** [[Kymco]]、[[Yamaha]] — 機車用 TPMS",
+    "customers_suppliers_md": "### 主要客戶\n- **OEM 車廠:** [[Toyota]]、[[Nissan]]、[[Mitsubishi]]、[[Isuzu]] — 原廠 [[TPMS]]\n- **輪胎通路:** [[Bridgestone]]、[[Michelin]] — 全球售後 AM 市場\n- **機車品牌:** [[Kymco]]、[[Yamaha]] — 機車用胎壓偵測\n- **導航整合:** [[Garmin]] — GPS/TPMS 雙系統\n\n### 主要供應商\n- **感測 IC:** 壓力感測 IC 設計廠\n- **RF 晶片:** 無線射頻發射晶片供應商\n- **電池:** 車用級長壽命電池供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

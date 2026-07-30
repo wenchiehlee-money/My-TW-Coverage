@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1809",
+  "company_name": "中釉",
+  "title": "1809 - 中釉",
+  "source_md": "Pilot_Reports/Building Products & Equipment/1809_中釉.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Building Products & Equipment",
+    "market_cap": "5,320 百萬台幣",
+    "enterprise_value": "5,864 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣中國釉料股份有限公司 (1809) 成立於 1974 年，總部位於台灣新竹，為亞洲知名的色釉料及精密陶瓷材料製造商。核心產品涵蓋熔塊、色釉料及結晶化玻璃 (品牌名「玉晶石」)。近年公司積極推動轉型，跨足高技術門檻之「新材料事業」，成功開發出應用於高階車用照明之螢光玻璃片 ([[PiG]])、[[固態電池]]電解質隔離膜材料，以及鎖定[[半導體]]封裝應用之低介電玻璃與電子級玻璃材料，成功從傳統建材跨足[[電動車]]與半導體供應鏈。",
+    "entities": [
+      "PiG",
+      "固態電池",
+      "半導體",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (礦物與化工原料)",
+        "text": "**上游 (礦物與化工原料):**",
+        "entities": []
+      },
+      {
+        "category": "化工與礦砂",
+        "text": "大宗採購矽砂、氧化鋅以及鋯砂 (其中鋯砂佔總原料成本逾兩成)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (核心製造與新材料研發)",
+        "text": "**中游 (核心製造與新材料研發):**",
+        "entities": []
+      },
+      {
+        "category": "傳統本業",
+        "text": "**中釉 (1809)** — 產銷建築陶瓷用色釉料、玉晶石建材",
+        "entities": []
+      },
+      {
+        "category": "新材料事業",
+        "text": "開發[[電動車]]用[[PiG]]螢光玻璃片、[[半導體]]低介電玻璃及[[固態電池]]隔離膜材料",
+        "entities": [
+          "電動車",
+          "PiG",
+          "半導體",
+          "固態電池"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "建築材料",
+        "text": "供應國內外磁磚廠釉料；玉晶石應用於機場、高階廠辦與展示中心",
+        "entities": []
+      },
+      {
+        "category": "高科技應用",
+        "text": "車用照明 (導入中韓車廠)、[[半導體]]先進封裝、新能源儲能 ([[固態電池]])",
+        "entities": [
+          "半導體",
+          "固態電池"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "建材磁磚廠",
+        "text": "[[冠軍建材]] (1806) 等國內大型磁磚製造商",
+        "entities": [
+          "冠軍建材"
+        ]
+      },
+      {
+        "role": "指標建案",
+        "text": "[[桃園國際機場]]第三航廈、[[ASML]] 林口新廠、[[BMW]] 台中展示中心",
+        "entities": [
+          "桃園國際機場",
+          "ASML",
+          "BMW"
+        ]
+      },
+      {
+        "role": "車用照明",
+        "text": "中國高階[[電動車]]品牌及韓國車廠 (供應車燈[[PiG]]材料)",
+        "entities": [
+          "電動車",
+          "PiG"
+        ]
+      },
+      {
+        "role": "海外經銷",
+        "text": "中東與東南亞 (如孟加拉) 經銷客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原礦與化工",
+        "text": "國際採礦與化工原物料供應商 (供應矽砂、鋯砂及氧化鋅)",
+        "entities": []
+      },
+      {
+        "role": "技術合作",
+        "text": "[[輝能科技]] (ProLogium，[[固態電池]]技術合作夥伴)",
+        "entities": [
+          "輝能科技",
+          "固態電池"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Products & Equipment):** [[冠軍]]、[[橋椿]]、[[桓鼎-KY]]、[[美吉吉-KY]]、[[青鋼]]",
+        "entities": [
+          "冠軍",
+          "橋椿",
+          "桓鼎-KY",
+          "美吉吉-KY",
+          "青鋼"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "冠軍建材",
+          "桃園國際機場",
+          "ASML",
+          "BMW",
+          "電動車",
+          "PiG"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PiG",
+      "type": "international_company_or_term",
+      "wikilink": "PiG"
+    },
+    {
+      "name": "固態電池",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固態電池"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "冠軍建材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "冠軍建材"
+    },
+    {
+      "name": "桃園國際機場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園國際機場"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "輝能科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "輝能科技"
+    },
+    {
+      "name": "冠軍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "冠軍"
+    },
+    {
+      "name": "橋椿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "橋椿"
+    },
+    {
+      "name": "桓鼎-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桓鼎-KY"
+    },
+    {
+      "name": "美吉吉-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美吉吉-KY"
+    },
+    {
+      "name": "青鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "青鋼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣中國釉料股份有限公司 (1809) 成立於 1974 年，總部位於台灣新竹，為亞洲知名的色釉料及精密陶瓷材料製造商。核心產品涵蓋熔塊、色釉料及結晶化玻璃 (品牌名「玉晶石」)。近年公司積極推動轉型，跨足高技術門檻之「新材料事業」，成功開發出應用於高階車用照明之螢光玻璃片 ([[PiG]])、[[固態電池]]電解質隔離膜材料，以及鎖定[[半導體]]封裝應用之低介電玻璃與電子級玻璃材料，成功從傳統建材跨足[[電動車]]與半導體供應鏈。",
+    "supply_chain_md": "**上游 (礦物與化工原料):**\n- **化工與礦砂:** 大宗採購矽砂、氧化鋅以及鋯砂 (其中鋯砂佔總原料成本逾兩成)\n\n**中游 (核心製造與新材料研發):**\n- **傳統本業:** **中釉 (1809)** — 產銷建築陶瓷用色釉料、玉晶石建材\n- **新材料事業:** 開發[[電動車]]用[[PiG]]螢光玻璃片、[[半導體]]低介電玻璃及[[固態電池]]隔離膜材料\n\n**下游 (終端市場):**\n- **建築材料:** 供應國內外磁磚廠釉料；玉晶石應用於機場、高階廠辦與展示中心\n- **高科技應用:** 車用照明 (導入中韓車廠)、[[半導體]]先進封裝、新能源儲能 ([[固態電池]])",
+    "customers_suppliers_md": "### 主要客戶\n- **建材磁磚廠:** [[冠軍建材]] (1806) 等國內大型磁磚製造商\n- **指標建案:** [[桃園國際機場]]第三航廈、[[ASML]] 林口新廠、[[BMW]] 台中展示中心\n- **車用照明:** 中國高階[[電動車]]品牌及韓國車廠 (供應車燈[[PiG]]材料)\n- **海外經銷:** 中東與東南亞 (如孟加拉) 經銷客戶\n\n### 主要供應商\n- **原礦與化工:** 國際採礦與化工原物料供應商 (供應矽砂、鋯砂及氧化鋅)\n- **技術合作:** [[輝能科技]] (ProLogium，[[固態電池]]技術合作夥伴)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

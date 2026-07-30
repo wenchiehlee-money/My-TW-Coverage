@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2547",
+  "company_name": "日勝生",
+  "title": "2547 - 日勝生",
+  "source_md": "Pilot_Reports/Conglomerates/2547_日勝生.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Conglomerates",
+    "market_cap": "10,610 百萬台幣",
+    "enterprise_value": "48,671 百萬台幣"
+  },
+  "business": {
+    "summary": "日勝生活科技股份有限公司成立於1980年，總部位於台北市，以「軌道經濟」及「循環經濟」為雙核心策略。房地產開發主攻捷運聯合開發案（TOD模式），代表作包含位於台北車站之[[京站時尚廣場]]（Q Square，五鐵共構聯開案）、新北市新店之[[美河市]]（捷運小碧潭站共構住宅），以及近期之[[鑄慕]]（RADIUM ONE）都更重建案。循環經濟方面，透過全資子公司[[日鼎水務]]運營桃園地區大型污水下水道 BOT 案（桃園北區污水下水道系統），提供再生水處理服務，穩定貢獻環保營收。營造事業則由關係企業[[泰誠發展營造]]負責執行。",
+    "entities": [
+      "京站時尚廣場",
+      "美河市",
+      "鑄慕",
+      "日鼎水務",
+      "泰誠發展營造"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與資金)",
+        "text": "**上游 (土地與資金):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "捷運聯合開發案（與[[台北捷運]]合作）",
+        "entities": [
+          "台北捷運"
+        ]
+      },
+      {
+        "category": "營建材料",
+        "text": "鋼筋（[[中鋼]]）、水泥（[[台泥]]、[[亞泥]]）等營建原料",
+        "entities": [
+          "中鋼",
+          "台泥",
+          "亞泥"
+        ]
+      },
+      {
+        "category": "水處理設備",
+        "text": "再生水處理系統設備供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與營運)",
+        "text": "**中游 (開發與營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**日勝生** — 不動產開發、商場營運（[[京站時尚廣場]]）、污水處理BOT營運（[[日鼎水務]]）",
+        "entities": [
+          "京站時尚廣場",
+          "日鼎水務"
+        ]
+      },
+      {
+        "category": "營造施工",
+        "text": "[[泰誠發展營造]]（關係企業）",
+        "entities": [
+          "泰誠發展營造"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端使用者)",
+        "text": "**下游 (終端使用者):**",
+        "entities": []
+      },
+      {
+        "category": "住宅",
+        "text": "購屋者與租戶",
+        "entities": []
+      },
+      {
+        "category": "商場",
+        "text": "[[京站時尚廣場]]消費者與品牌租戶",
+        "entities": [
+          "京站時尚廣場"
+        ]
+      },
+      {
+        "category": "水務",
+        "text": "[[桃園市政府]]（BOT委託方）、工業用水戶",
+        "entities": [
+          "桃園市政府"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "住宅地產",
+        "text": "一般購屋者（[[美河市]]、[[鑄慕]]等建案）",
+        "entities": [
+          "美河市",
+          "鑄慕"
+        ]
+      },
+      {
+        "role": "商場租戶",
+        "text": "[[京站時尚廣場]]進駐品牌與消費者",
+        "entities": [
+          "京站時尚廣場"
+        ]
+      },
+      {
+        "role": "水務事業",
+        "text": "[[桃園市政府]]（桃園北區污水下水道BOT案委託方）",
+        "entities": [
+          "桃園市政府"
+        ]
+      },
+      {
+        "role": "政府機關",
+        "text": "捷運聯合開發案之主管機關",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造",
+        "text": "[[泰誠發展營造]]（關係企業，負責工程施工）",
+        "entities": [
+          "泰誠發展營造"
+        ]
+      },
+      {
+        "role": "建材",
+        "text": "[[中鋼]]（鋼筋）、[[台泥]]（水泥）",
+        "entities": [
+          "中鋼",
+          "台泥"
+        ]
+      },
+      {
+        "role": "水處理設備",
+        "text": "再生水處理系統與污泥脫水設備供應商",
+        "entities": []
+      },
+      {
+        "role": "不動產顧問",
+        "text": "建築設計與銷售代理公司",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Conglomerates):** [[中福]]、[[大同]]、[[東森]]、[[盛達]]、[[豐祥-KY]]",
+        "entities": [
+          "中福",
+          "大同",
+          "東森",
+          "盛達",
+          "豐祥-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "美河市",
+          "鑄慕",
+          "京站時尚廣場",
+          "桃園市政府"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "京站時尚廣場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京站時尚廣場"
+    },
+    {
+      "name": "美河市",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美河市"
+    },
+    {
+      "name": "鑄慕",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑄慕"
+    },
+    {
+      "name": "日鼎水務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日鼎水務"
+    },
+    {
+      "name": "泰誠發展營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "泰誠發展營造"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "桃園市政府",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園市政府"
+    },
+    {
+      "name": "中福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中福"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "東森",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東森"
+    },
+    {
+      "name": "盛達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "盛達"
+    },
+    {
+      "name": "豐祥-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐祥-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "日勝生活科技股份有限公司成立於1980年，總部位於台北市，以「軌道經濟」及「循環經濟」為雙核心策略。房地產開發主攻捷運聯合開發案（TOD模式），代表作包含位於台北車站之[[京站時尚廣場]]（Q Square，五鐵共構聯開案）、新北市新店之[[美河市]]（捷運小碧潭站共構住宅），以及近期之[[鑄慕]]（RADIUM ONE）都更重建案。循環經濟方面，透過全資子公司[[日鼎水務]]運營桃園地區大型污水下水道 BOT 案（桃園北區污水下水道系統），提供再生水處理服務，穩定貢獻環保營收。營造事業則由關係企業[[泰誠發展營造]]負責執行。",
+    "supply_chain_md": "**上游 (土地與資金):**\n- **土地取得:** 捷運聯合開發案（與[[台北捷運]]合作）\n- **營建材料:** 鋼筋（[[中鋼]]）、水泥（[[台泥]]、[[亞泥]]）等營建原料\n- **水處理設備:** 再生水處理系統設備供應商\n\n**中游 (開發與營運):**\n- **日勝生** — 不動產開發、商場營運（[[京站時尚廣場]]）、污水處理BOT營運（[[日鼎水務]]）\n- **營造施工:** [[泰誠發展營造]]（關係企業）\n\n**下游 (終端使用者):**\n- **住宅:** 購屋者與租戶\n- **商場:** [[京站時尚廣場]]消費者與品牌租戶\n- **水務:** [[桃園市政府]]（BOT委託方）、工業用水戶",
+    "customers_suppliers_md": "### 主要客戶\n- **住宅地產:** 一般購屋者（[[美河市]]、[[鑄慕]]等建案）\n- **商場租戶:** [[京站時尚廣場]]進駐品牌與消費者\n- **水務事業:** [[桃園市政府]]（桃園北區污水下水道BOT案委託方）\n- **政府機關:** 捷運聯合開發案之主管機關\n\n### 主要供應商\n- **營造:** [[泰誠發展營造]]（關係企業，負責工程施工）\n- **建材:** [[中鋼]]（鋼筋）、[[台泥]]（水泥）\n- **水處理設備:** 再生水處理系統與污泥脫水設備供應商\n- **不動產顧問:** 建築設計與銷售代理公司"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

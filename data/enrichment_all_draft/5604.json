@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5604",
+  "company_name": "中連",
+  "title": "5604_中連",
+  "source_md": "Pilot_Reports/Trucking/5604_中連.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Trucking",
+    "market_cap": "3,253 百萬台幣",
+    "enterprise_value": "3,213 百萬台幣"
+  },
+  "business": {
+    "summary": "中連誠 (5604，原名中連汽車貨運) 成立於 1954 年，過去長期經營台灣內陸零擔貨運業務。因應勞動法規趨嚴及人力聘雇困難等壓力，公司於 2019 年全面退出貨運市場，將既有客戶及員工協助轉移至[[新竹物流]]。2021 年更名為中連誠，轉型為以工業用不動產租賃與出售為核心業務之資產活化型收租企業。公司利用過去全台各地持有的貨運場站及土地資產進行活化，總持有面積約 40,384 坪，截至 2024 年底出租面積達 31,587 坪，出租率約 78%。營收 100% 來自工業用不動產租賃，毛利率高達八成以上，營業利益率近七成。最大承租戶為[[新竹物流]]，承租約半數場站土地作為營運據點。",
+    "entities": [
+      "新竹物流"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資產管理服務)",
+        "text": "**上游 (資產管理服務):**",
+        "entities": []
+      },
+      {
+        "category": "物業管理",
+        "text": "建築維護承包商",
+        "entities": []
+      },
+      {
+        "category": "不動產顧問",
+        "text": "地政士事務所、不動產估價機構",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中連誠** (全台約 40,384 坪工業用土地與場站之租賃管理與資產活化)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (承租戶與買家)",
+        "text": "**下游 (承租戶與買家):**",
+        "entities": []
+      },
+      {
+        "category": "物流業",
+        "text": "[[新竹物流]] — 最大承租戶，承租約半數場站土地",
+        "entities": [
+          "新竹物流"
+        ]
+      },
+      {
+        "category": "工業用戶",
+        "text": "倉儲業者如 [[大榮貨運]]、製造業者等需要工業用地之企業",
+        "entities": [
+          "大榮貨運"
+        ]
+      },
+      {
+        "category": "不動產買家",
+        "text": "建商與土地開發商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "物流業",
+        "text": "[[新竹物流]] — 最大承租戶，承租約半數土地場站",
+        "entities": [
+          "新竹物流"
+        ]
+      },
+      {
+        "role": "工業租賃",
+        "text": "全台各地工業用地承租戶",
+        "entities": []
+      },
+      {
+        "role": "土地買家",
+        "text": "建商如 [[國泰建設]]、[[遠雄建設]] 等不動產開發商",
+        "entities": [
+          "國泰建設",
+          "遠雄建設"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "物業管理",
+        "text": "建築維護承包商",
+        "entities": []
+      },
+      {
+        "role": "不動產顧問",
+        "text": "[[信義房屋]] 等不動產估價機構",
+        "entities": [
+          "信義房屋"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Trucking):** [[嘉里大榮]]",
+        "entities": [
+          "嘉里大榮"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "新竹物流",
+          "國泰建設",
+          "遠雄建設"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹物流",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹物流"
+    },
+    {
+      "name": "大榮貨運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大榮貨運"
+    },
+    {
+      "name": "國泰建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰建設"
+    },
+    {
+      "name": "遠雄建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄建設"
+    },
+    {
+      "name": "信義房屋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信義房屋"
+    },
+    {
+      "name": "嘉里大榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉里大榮"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中連誠 (5604，原名中連汽車貨運) 成立於 1954 年，過去長期經營台灣內陸零擔貨運業務。因應勞動法規趨嚴及人力聘雇困難等壓力，公司於 2019 年全面退出貨運市場，將既有客戶及員工協助轉移至[[新竹物流]]。2021 年更名為中連誠，轉型為以工業用不動產租賃與出售為核心業務之資產活化型收租企業。公司利用過去全台各地持有的貨運場站及土地資產進行活化，總持有面積約 40,384 坪，截至 2024 年底出租面積達 31,587 坪，出租率約 78%。營收 100% 來自工業用不動產租賃，毛利率高達八成以上，營業利益率近七成。最大承租戶為[[新竹物流]]，承租約半數場站土地作為營運據點。",
+    "supply_chain_md": "**上游 (資產管理服務):**\n- **物業管理:** 建築維護承包商\n- **不動產顧問:** 地政士事務所、不動產估價機構\n\n**中游:**\n- **中連誠** (全台約 40,384 坪工業用土地與場站之租賃管理與資產活化)\n\n**下游 (承租戶與買家):**\n- **物流業:** [[新竹物流]] — 最大承租戶，承租約半數場站土地\n- **工業用戶:** 倉儲業者如 [[大榮貨運]]、製造業者等需要工業用地之企業\n- **不動產買家:** 建商與土地開發商",
+    "customers_suppliers_md": "### 主要客戶\n- **物流業:** [[新竹物流]] — 最大承租戶，承租約半數土地場站\n- **工業租賃:** 全台各地工業用地承租戶\n- **土地買家:** 建商如 [[國泰建設]]、[[遠雄建設]] 等不動產開發商\n\n### 主要供應商\n- **物業管理:** 建築維護承包商\n- **不動產顧問:** [[信義房屋]] 等不動產估價機構"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

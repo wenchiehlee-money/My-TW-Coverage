@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6859",
+  "company_name": "伯特光",
+  "title": "6859_伯特光",
+  "source_md": "Pilot_Reports/Metal Fabrication/6859_伯特光.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "4,117 百萬台幣",
+    "enterprise_value": "3,242 百萬台幣"
+  },
+  "business": {
+    "summary": "伯特光電 (6859) 專精高階光學鏡頭模具及精密金屬零組件。核心為超精密奈米微細加工與非球面鏡片成型模具。客戶含[[大立光]]、[[玉晶光]]，間接進入[[Apple]]供應鏈。模具精度決定手機/車載/[[VR]]/[[AR]]鏡片良率。上游設備含[[Nikon]]、[[Carl Zeiss]]量測儀器。2025年營收9.23億 (年增35%)。",
+    "entities": [
+      "大立光",
+      "玉晶光",
+      "Apple",
+      "VR",
+      "AR",
+      "Nikon",
+      "Carl Zeiss"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "光學級模具鋼; [[Nikon]]、[[Carl Zeiss]] — 量測設備",
+        "entities": [
+          "Nikon",
+          "Carl Zeiss"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**伯特光** (非球面鏡片成型模具/精密光學金屬件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[大立光]]、[[玉晶光]] — 手機鏡頭模具 ([[Apple]]鏈)",
+        "entities": [
+          "大立光",
+          "玉晶光",
+          "Apple"
+        ]
+      },
+      {
+        "category": "",
+        "text": "車載鏡頭/[[VR]]/[[AR]]光學",
+        "entities": [
+          "VR",
+          "AR"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[大立光]]、[[玉晶光]] — 手機鏡頭 ([[Apple]])",
+        "entities": [
+          "大立光",
+          "玉晶光",
+          "Apple"
+        ]
+      },
+      {
+        "role": "",
+        "text": "車載/[[VR]]/[[AR]]光學",
+        "entities": [
+          "VR",
+          "AR"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Nikon]]、[[Carl Zeiss]] — 量測",
+        "entities": [
+          "Nikon",
+          "Carl Zeiss"
+        ]
+      },
+      {
+        "role": "",
+        "text": "光學級模具鋼",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "大立光",
+          "玉晶光",
+          "Apple",
+          "VR",
+          "AR"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "伯特光電 (6859) 專精高階光學鏡頭模具及精密金屬零組件。核心為超精密奈米微細加工與非球面鏡片成型模具。客戶含[[大立光]]、[[玉晶光]]，間接進入[[Apple]]供應鏈。模具精度決定手機/車載/[[VR]]/[[AR]]鏡片良率。上游設備含[[Nikon]]、[[Carl Zeiss]]量測儀器。2025年營收9.23億 (年增35%)。",
+        "entities": [
+          "大立光",
+          "玉晶光",
+          "Apple",
+          "VR",
+          "AR",
+          "Nikon",
+          "Carl Zeiss"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "大立光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大立光"
+    },
+    {
+      "name": "玉晶光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玉晶光"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "VR",
+      "type": "international_company_or_term",
+      "wikilink": "VR"
+    },
+    {
+      "name": "AR",
+      "type": "international_company_or_term",
+      "wikilink": "AR"
+    },
+    {
+      "name": "Nikon",
+      "type": "international_company_or_term",
+      "wikilink": "Nikon"
+    },
+    {
+      "name": "Carl Zeiss",
+      "type": "international_company_or_term",
+      "wikilink": "Carl Zeiss"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "伯特光電 (6859) 專精高階光學鏡頭模具及精密金屬零組件。核心為超精密奈米微細加工與非球面鏡片成型模具。客戶含[[大立光]]、[[玉晶光]]，間接進入[[Apple]]供應鏈。模具精度決定手機/車載/[[VR]]/[[AR]]鏡片良率。上游設備含[[Nikon]]、[[Carl Zeiss]]量測儀器。2025年營收9.23億 (年增35%)。",
+    "supply_chain_md": "**上游:** 光學級模具鋼; [[Nikon]]、[[Carl Zeiss]] — 量測設備\n**中游:** **伯特光** (非球面鏡片成型模具/精密光學金屬件)\n**下游:**\n- [[大立光]]、[[玉晶光]] — 手機鏡頭模具 ([[Apple]]鏈)\n- 車載鏡頭/[[VR]]/[[AR]]光學",
+    "customers_suppliers_md": "### 主要客戶\n- [[大立光]]、[[玉晶光]] — 手機鏡頭 ([[Apple]])\n- 車載/[[VR]]/[[AR]]光學\n\n### 主要供應商\n- [[Nikon]]、[[Carl Zeiss]] — 量測\n- 光學級模具鋼"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

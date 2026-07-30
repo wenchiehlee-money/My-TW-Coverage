@@ -1,0 +1,254 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9933",
+  "company_name": "中鼎",
+  "title": "9933 - [[中鼎]]",
+  "source_md": "Pilot_Reports/Engineering & Construction/9933_中鼎.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "34,233 百萬台幣",
+    "enterprise_value": "17,417 百萬台幣"
+  },
+  "business": {
+    "summary": "中鼎工程股份有限公司成立於1979年，由財團法人中技社籌設，為台灣最大統包工程公司（以總資產及年營收計）。公司提供工程、採購、施工（EPC）全方位服務，業務涵蓋煉油[[石化]]、[[LNG]]接收站、電力、環境、交通、科技廠房及一般工業市場。近年積極拓展海外業務，於美國亞利桑那州承攬台灣領先半導體廠（[[台積電]]）及其供應鏈之 EPC 專案，亦承攬大型[[DRAM]]廠及資料中心 EPC 專案。此外，子公司提供石化廠用化學添加劑（防結垢劑、緩蝕劑等）及智慧能源管理系統軟體。集團年營收逾千億元，業務遍及全球。",
+    "entities": [
+      "石化",
+      "LNG",
+      "台積電",
+      "DRAM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與材料)",
+        "text": "**上游 (設備與材料):**",
+        "entities": []
+      },
+      {
+        "category": "壓力容器",
+        "text": "鋼製壓力容器、管線預製件、熱交換器",
+        "entities": []
+      },
+      {
+        "category": "機電設備",
+        "text": "各類工業用機電與控制系統",
+        "entities": []
+      },
+      {
+        "category": "化學品",
+        "text": "石化廠用防結垢劑、緩蝕劑、消泡劑等化學添加劑",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EPC 統包)",
+        "text": "**中游 (EPC 統包):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中鼎集團** — 煉油[[石化]]、[[LNG]]接收站、電力、環境、交通、科技廠房之工程設計/採購/施工（EPC）統包，含智慧能源管理系統",
+        "entities": [
+          "石化",
+          "LNG"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端業主)",
+        "text": "**下游 (終端業主):**",
+        "entities": []
+      },
+      {
+        "category": "石化/煉油",
+        "text": "[[台塑集團]]、[[中油]]等石化煉油業者",
+        "entities": [
+          "台塑集團",
+          "中油"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]（美國亞利桑那廠及台灣廠房 EPC）",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "電力/LNG",
+        "text": "電廠興建業主、[[LNG]]接收站營運商",
+        "entities": [
+          "LNG"
+        ]
+      },
+      {
+        "category": "環境",
+        "text": "焚化爐、污水處理廠等環保設施業主",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "石化/煉油",
+        "text": "[[台塑集團]]、[[中油]]（煉油廠與石化廠 EPC 專案）",
+        "entities": [
+          "台塑集團",
+          "中油"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[台積電]]（美國亞利桑那州廠房及供應鏈 EPC）、大型[[DRAM]]廠",
+        "entities": [
+          "台積電",
+          "DRAM"
+        ]
+      },
+      {
+        "role": "電力/LNG",
+        "text": "電廠興建業主、[[LNG]]接收站業主",
+        "entities": [
+          "LNG"
+        ]
+      },
+      {
+        "role": "環境工程",
+        "text": "焚化爐、污水處理廠之公共工程業主",
+        "entities": []
+      },
+      {
+        "role": "資料中心",
+        "text": "大型資料中心 EPC 專案業主",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "重工設備",
+        "text": "壓力容器、熱交換器、管線預製件供應商",
+        "entities": []
+      },
+      {
+        "role": "機電控制",
+        "text": "自動化控制與儀表設備供應商",
+        "entities": []
+      },
+      {
+        "role": "化學品",
+        "text": "石化添加劑原料供應商",
+        "entities": []
+      },
+      {
+        "role": "工程分包",
+        "text": "國內外專業施工分包商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Engineering & Construction):** [[三洋實業]]、[[日高]]、[[世紀風電]]、[[漢唐]]、[[龍邦]]",
+        "entities": [
+          "三洋實業",
+          "日高",
+          "世紀風電",
+          "漢唐",
+          "龍邦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台塑集團",
+          "中油",
+          "台積電",
+          "DRAM",
+          "LNG"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石化"
+    },
+    {
+      "name": "LNG",
+      "type": "international_company_or_term",
+      "wikilink": "LNG"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "台塑集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑集團"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "三洋實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋實業"
+    },
+    {
+      "name": "日高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日高"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "漢唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢唐"
+    },
+    {
+      "name": "龍邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "龍邦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中鼎工程股份有限公司成立於1979年，由財團法人中技社籌設，為台灣最大統包工程公司（以總資產及年營收計）。公司提供工程、採購、施工（EPC）全方位服務，業務涵蓋煉油[[石化]]、[[LNG]]接收站、電力、環境、交通、科技廠房及一般工業市場。近年積極拓展海外業務，於美國亞利桑那州承攬台灣領先半導體廠（[[台積電]]）及其供應鏈之 EPC 專案，亦承攬大型[[DRAM]]廠及資料中心 EPC 專案。此外，子公司提供石化廠用化學添加劑（防結垢劑、緩蝕劑等）及智慧能源管理系統軟體。集團年營收逾千億元，業務遍及全球。",
+    "supply_chain_md": "**上游 (設備與材料):**\n- **壓力容器:** 鋼製壓力容器、管線預製件、熱交換器\n- **機電設備:** 各類工業用機電與控制系統\n- **化學品:** 石化廠用防結垢劑、緩蝕劑、消泡劑等化學添加劑\n\n**中游 (EPC 統包):**\n- **中鼎集團** — 煉油[[石化]]、[[LNG]]接收站、電力、環境、交通、科技廠房之工程設計/採購/施工（EPC）統包，含智慧能源管理系統\n\n**下游 (終端業主):**\n- **石化/煉油:** [[台塑集團]]、[[中油]]等石化煉油業者\n- **半導體:** [[台積電]]（美國亞利桑那廠及台灣廠房 EPC）\n- **電力/LNG:** 電廠興建業主、[[LNG]]接收站營運商\n- **環境:** 焚化爐、污水處理廠等環保設施業主",
+    "customers_suppliers_md": "### 主要客戶\n- **石化/煉油:** [[台塑集團]]、[[中油]]（煉油廠與石化廠 EPC 專案）\n- **半導體:** [[台積電]]（美國亞利桑那州廠房及供應鏈 EPC）、大型[[DRAM]]廠\n- **電力/LNG:** 電廠興建業主、[[LNG]]接收站業主\n- **環境工程:** 焚化爐、污水處理廠之公共工程業主\n- **資料中心:** 大型資料中心 EPC 專案業主\n\n### 主要供應商\n- **重工設備:** 壓力容器、熱交換器、管線預製件供應商\n- **機電控制:** 自動化控制與儀表設備供應商\n- **化學品:** 石化添加劑原料供應商\n- **工程分包:** 國內外專業施工分包商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

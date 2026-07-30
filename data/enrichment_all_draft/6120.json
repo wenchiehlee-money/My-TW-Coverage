@@ -1,0 +1,276 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6120",
+  "company_name": "達運",
+  "title": "6120_達運",
+  "source_md": "Pilot_Reports/Electronic Components/6120_達運.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "6,948 百萬台幣",
+    "enterprise_value": "2,241 百萬台幣"
+  },
+  "business": {
+    "summary": "達運精密 (6120，[[Darwin Precisions]]) 為[[友達]]光電旗下重要子公司，專精於顯示器整合解決方案及精密光電零組件。\n\n主要業務：(1) 背光模組 — 為[[友達]]集團主要背光模組供應商，涵蓋 NB、Monitor 及電視用背光模組；(2) 精密金屬遮罩 ([[FMM]]) — 為 [[OLED]] 蒸鍍製程關鍵耗材，供應中國 [[OLED]] 面板廠，為未來關鍵成長動能；(3) 智慧顯示系統 — 透過併購 [[Avocor]]，跨足商用及教育場域互動式顯示屏，並積極布局智慧零售、智慧醫療與車載顯示應用整合。",
+    "entities": [
+      "Darwin Precisions",
+      "友達",
+      "FMM",
+      "OLED",
+      "Avocor"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光電材料)",
+        "text": "**上游 (光電材料):**",
+        "entities": []
+      },
+      {
+        "category": "光學膜",
+        "text": "光學膜片供應商 — 增輝膜、擴散膜",
+        "entities": []
+      },
+      {
+        "category": "LED",
+        "text": "LED 晶粒/封裝供應商",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[瑞鼎]] — 驅動及電源管理 IC",
+        "entities": [
+          "瑞鼎"
+        ]
+      },
+      {
+        "category": "導光板",
+        "text": "導光板材料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (模組與零組件製造)",
+        "text": "**中游 (模組與零組件製造):**",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "**達運** (LCD 背光模組組裝)",
+        "entities": []
+      },
+      {
+        "category": "[[FMM]]",
+        "text": "**達運** ([[OLED]] 精密金屬遮罩)",
+        "entities": [
+          "FMM",
+          "OLED"
+        ]
+      },
+      {
+        "category": "顯示系統",
+        "text": "**達運**/[[Avocor]] (互動式顯示屏)",
+        "entities": [
+          "Avocor"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板廠與終端)",
+        "text": "**下游 (面板廠與終端):**",
+        "entities": []
+      },
+      {
+        "category": "面板廠",
+        "text": "[[友達]] — 最大客戶，背光模組",
+        "entities": [
+          "友達"
+        ]
+      },
+      {
+        "category": "[[OLED]] 面板",
+        "text": "[[京東方]]、[[維信諾]] 等中國 [[AMOLED]] 廠 — [[FMM]]",
+        "entities": [
+          "OLED",
+          "京東方",
+          "維信諾",
+          "AMOLED",
+          "FMM"
+        ]
+      },
+      {
+        "category": "商用/教育",
+        "text": "商用顯示與教育市場 — 互動式顯示屏",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板",
+        "text": "[[友達]] — 最大客戶，背光模組供應",
+        "entities": [
+          "友達"
+        ]
+      },
+      {
+        "role": "[[OLED]]",
+        "text": "[[京東方]]、[[維信諾]] 等中國 [[AMOLED]] 面板廠 — [[FMM]] 精密金屬遮罩",
+        "entities": [
+          "OLED",
+          "京東方",
+          "維信諾",
+          "AMOLED",
+          "FMM"
+        ]
+      },
+      {
+        "role": "商用顯示",
+        "text": "商用及教育場域客戶 — [[Avocor]] 互動式顯示屏",
+        "entities": [
+          "Avocor"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "驅動 IC",
+        "text": "[[瑞鼎]] — 驅動及電源管理 IC",
+        "entities": [
+          "瑞鼎"
+        ]
+      },
+      {
+        "role": "LED",
+        "text": "LED 晶粒與封裝供應商",
+        "entities": []
+      },
+      {
+        "role": "光學膜",
+        "text": "光學膜片 (增輝膜/擴散膜) 供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "友達",
+          "OLED",
+          "京東方",
+          "維信諾",
+          "AMOLED",
+          "FMM",
+          "Avocor"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Darwin Precisions",
+      "type": "international_company_or_term",
+      "wikilink": "Darwin Precisions"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "FMM",
+      "type": "international_company_or_term",
+      "wikilink": "FMM"
+    },
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "Avocor",
+      "type": "international_company_or_term",
+      "wikilink": "Avocor"
+    },
+    {
+      "name": "瑞鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞鼎"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "維信諾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "維信諾"
+    },
+    {
+      "name": "AMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "AMOLED"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達運精密 (6120，[[Darwin Precisions]]) 為[[友達]]光電旗下重要子公司，專精於顯示器整合解決方案及精密光電零組件。\n\n主要業務：(1) 背光模組 — 為[[友達]]集團主要背光模組供應商，涵蓋 NB、Monitor 及電視用背光模組；(2) 精密金屬遮罩 ([[FMM]]) — 為 [[OLED]] 蒸鍍製程關鍵耗材，供應中國 [[OLED]] 面板廠，為未來關鍵成長動能；(3) 智慧顯示系統 — 透過併購 [[Avocor]]，跨足商用及教育場域互動式顯示屏，並積極布局智慧零售、智慧醫療與車載顯示應用整合。",
+    "supply_chain_md": "**上游 (光電材料):**\n- **光學膜:** 光學膜片供應商 — 增輝膜、擴散膜\n- **LED:** LED 晶粒/封裝供應商\n- **驅動 IC:** [[瑞鼎]] — 驅動及電源管理 IC\n- **導光板:** 導光板材料供應商\n\n**中游 (模組與零組件製造):**\n- **背光模組:** **達運** (LCD 背光模組組裝)\n- **[[FMM]]:** **達運** ([[OLED]] 精密金屬遮罩)\n- **顯示系統:** **達運**/[[Avocor]] (互動式顯示屏)\n\n**下游 (面板廠與終端):**\n- **面板廠:** [[友達]] — 最大客戶，背光模組\n- **[[OLED]] 面板:** [[京東方]]、[[維信諾]] 等中國 [[AMOLED]] 廠 — [[FMM]]\n- **商用/教育:** 商用顯示與教育市場 — 互動式顯示屏",
+    "customers_suppliers_md": "### 主要客戶\n- **面板:** [[友達]] — 最大客戶，背光模組供應\n- **[[OLED]]:** [[京東方]]、[[維信諾]] 等中國 [[AMOLED]] 面板廠 — [[FMM]] 精密金屬遮罩\n- **商用顯示:** 商用及教育場域客戶 — [[Avocor]] 互動式顯示屏\n\n### 主要供應商\n- **驅動 IC:** [[瑞鼎]] — 驅動及電源管理 IC\n- **LED:** LED 晶粒與封裝供應商\n- **光學膜:** 光學膜片 (增輝膜/擴散膜) 供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4973",
+  "company_name": "廣穎",
+  "title": "4973 - 廣穎",
+  "source_md": "Pilot_Reports/Computer Hardware/4973_廣穎.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "7,998 百萬台幣",
+    "enterprise_value": "8,950 百萬台幣"
+  },
+  "business": {
+    "summary": "廣穎電通 (Silicon Power, SP) 為全球知名的 **記憶體模組與儲存裝置** 品牌商。\n主要產品涵蓋：\n1.  **快閃記憶體 (NAND Flash)**: SSD 固態硬碟、隨身碟 (USB Drive)、記憶卡 (Memory Card)。\n2.  **DRAM 模組**: 電競[[記憶體]]、工業用[[記憶體]]。\n3.  **外接式硬碟 (HDD)**: 軍規防震外接硬碟為其特色產品。\n近年積極布局 **工控 (Industrial)**、**醫療** 與 **AI Edge** 儲存解決方案，以提升毛利率，降低消費性市場波動影響。\n銷售通路遍及全球 100 多國，透過代理商、電商 ([[Amazon]]) 與零售通路銷售。",
+    "entities": [
+      "記憶體",
+      "Amazon"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**NAND Flash**: [[Samsung]], [[Kioxia]], [[Micron]], [[SK Hynix]].",
+        "entities": [
+          "Samsung",
+          "Kioxia",
+          "Micron",
+          "SK Hynix"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**DRAM 顆粒**: [[Samsung]], [[Micron]], [[SK Hynix]], [[南亞科]].",
+        "entities": [
+          "Samsung",
+          "Micron",
+          "SK Hynix",
+          "南亞科"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**控制 IC**: [[群聯]], [[慧榮]].",
+        "entities": [
+          "群聯",
+          "慧榮"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游 (本體)**: **廣穎 (4973)** - [[記憶體]]模組品牌 (Module House).",
+        "entities": [
+          "記憶體"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**消費通路**: [[Amazon]], [[PChome]], 3C 賣場.",
+        "entities": [
+          "Amazon",
+          "PChome"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**B2B**: [[工業電腦]] ([[IPC]]), 醫療設備, 車載系統.",
+        "entities": [
+          "工業電腦",
+          "IPC"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**通路**: 全球各大電商與 3C 通路 ([[Amazon]] 為重要通路).",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**工控**: 嵌入式系統客戶.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**NAND/DRAM**: 國際[[記憶體]]原廠 ([[Samsung]], [[Micron]] 等).",
+        "entities": [
+          "記憶體",
+          "Samsung",
+          "Micron"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**Controller**: [[群聯]] (Phison), [[慧榮]] (SMI).",
+        "entities": [
+          "群聯",
+          "慧榮"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Kioxia",
+      "type": "international_company_or_term",
+      "wikilink": "Kioxia"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "南亞科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞科"
+    },
+    {
+      "name": "群聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群聯"
+    },
+    {
+      "name": "慧榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "慧榮"
+    },
+    {
+      "name": "PChome",
+      "type": "international_company_or_term",
+      "wikilink": "PChome"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣穎電通 (Silicon Power, SP) 為全球知名的 **記憶體模組與儲存裝置** 品牌商。\n主要產品涵蓋：\n1.  **快閃記憶體 (NAND Flash)**: SSD 固態硬碟、隨身碟 (USB Drive)、記憶卡 (Memory Card)。\n2.  **DRAM 模組**: 電競[[記憶體]]、工業用[[記憶體]]。\n3.  **外接式硬碟 (HDD)**: 軍規防震外接硬碟為其特色產品。\n近年積極布局 **工控 (Industrial)**、**醫療** 與 **AI Edge** 儲存解決方案，以提升毛利率，降低消費性市場波動影響。\n銷售通路遍及全球 100 多國，透過代理商、電商 ([[Amazon]]) 與零售通路銷售。",
+    "supply_chain_md": "*   **下游 (本體)**: **廣穎 (4973)** - [[記憶體]]模組品牌 (Module House).\n*   **上游**:\n    *   **NAND Flash**: [[Samsung]], [[Kioxia]], [[Micron]], [[SK Hynix]].\n    *   **DRAM 顆粒**: [[Samsung]], [[Micron]], [[SK Hynix]], [[南亞科]].\n    *   **控制 IC**: [[群聯]], [[慧榮]].\n*   **下游**:\n    *   **消費通路**: [[Amazon]], [[PChome]], 3C 賣場.\n    *   **B2B**: [[工業電腦]] ([[IPC]]), 醫療設備, 車載系統.",
+    "customers_suppliers_md": "### 主要客戶\n*   **通路**: 全球各大電商與 3C 通路 ([[Amazon]] 為重要通路).\n*   **工控**: 嵌入式系統客戶.\n\n### 主要供應商\n*   **NAND/DRAM**: 國際[[記憶體]]原廠 ([[Samsung]], [[Micron]] 等).\n*   **Controller**: [[群聯]] (Phison), [[慧榮]] (SMI)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

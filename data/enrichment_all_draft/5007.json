@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5007",
+  "company_name": "三星",
+  "title": "5007 - 三星",
+  "source_md": "Pilot_Reports/Tools & Accessories/5007_三星.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "16,782 百萬台幣",
+    "enterprise_value": "14,547 百萬台幣"
+  },
+  "business": {
+    "summary": "三星科技 (5007，San Shing Fastech) 成立於 1965 年，總部位於台灣高雄，為全球最大螺帽 (Nuts) 製造商及台灣最大螺帽出口商。年產螺帽近 7.5 萬噸 (約 66 億顆)，佔全球螺帽市場約十分之一、台灣螺帽出口量約三分之一。公司專注於車用扣件 (Automotive Fasteners)，擁有從盤元處理、成型、攻牙到熱處理與表面處理之完整一貫化製程，並具備模具自製能力。產品規格齊全，品質獲全球各大車廠認證。外銷比重逾 95%，以歐美市場為主。近年導入 AI AOI 智能檢測系統，並透過子公司布局伺服器散熱風扇市場。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "盤元線材",
+        "text": "[[中鋼]] (長期合作夥伴，確保原料穩定供應)",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**三星科技** — 盤元處理、冷鍛成型、攻牙、熱處理、表面處理、AI AOI 檢測",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "汽車 Tier 1/Tier 2",
+        "text": "全球車廠供應鏈",
+        "entities": []
+      },
+      {
+        "category": "歐美經銷商",
+        "text": "歐美工業扣件大盤商",
+        "entities": []
+      },
+      {
+        "category": "終端車廠",
+        "text": "[[GM]]、[[Ford]]、[[Volkswagen]]、[[BMW]]、[[Mercedes-Benz]]",
+        "entities": [
+          "GM",
+          "Ford",
+          "Volkswagen",
+          "BMW",
+          "Mercedes-Benz"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車廠供應鏈",
+        "text": "全球各大汽車品牌 [[OEM]] 之 Tier 1/Tier 2 扣件供應商",
+        "entities": [
+          "OEM"
+        ]
+      },
+      {
+        "role": "終端車廠 (間接)",
+        "text": "[[GM]]、[[Ford]]、[[Volkswagen]]、[[BMW]]、[[Mercedes-Benz]]",
+        "entities": [
+          "GM",
+          "Ford",
+          "Volkswagen",
+          "BMW",
+          "Mercedes-Benz"
+        ]
+      },
+      {
+        "role": "工業通路",
+        "text": "歐美大型扣件經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "盤元線材",
+        "text": "[[中鋼]] (最主要原料供應商)",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Tools & Accessories):** [[鑽全]]、[[正峰]]、[[錩泰]]、[[中砂]]、[[力肯]]",
+        "entities": [
+          "鑽全",
+          "正峰",
+          "錩泰",
+          "中砂",
+          "力肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "OEM",
+          "GM",
+          "Ford",
+          "Volkswagen",
+          "BMW",
+          "Mercedes-Benz"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "Volkswagen",
+      "type": "international_company_or_term",
+      "wikilink": "Volkswagen"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "鑽全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑽全"
+    },
+    {
+      "name": "正峰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正峰"
+    },
+    {
+      "name": "錩泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "錩泰"
+    },
+    {
+      "name": "中砂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中砂"
+    },
+    {
+      "name": "力肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三星科技 (5007，San Shing Fastech) 成立於 1965 年，總部位於台灣高雄，為全球最大螺帽 (Nuts) 製造商及台灣最大螺帽出口商。年產螺帽近 7.5 萬噸 (約 66 億顆)，佔全球螺帽市場約十分之一、台灣螺帽出口量約三分之一。公司專注於車用扣件 (Automotive Fasteners)，擁有從盤元處理、成型、攻牙到熱處理與表面處理之完整一貫化製程，並具備模具自製能力。產品規格齊全，品質獲全球各大車廠認證。外銷比重逾 95%，以歐美市場為主。近年導入 AI AOI 智能檢測系統，並透過子公司布局伺服器散熱風扇市場。",
+    "supply_chain_md": "**上游 (原料):**\n- **盤元線材:** [[中鋼]] (長期合作夥伴，確保原料穩定供應)\n\n**中游 (製造加工):**\n- **三星科技** — 盤元處理、冷鍛成型、攻牙、熱處理、表面處理、AI AOI 檢測\n\n**下游 (終端應用):**\n- **汽車 Tier 1/Tier 2:** 全球車廠供應鏈\n- **歐美經銷商:** 歐美工業扣件大盤商\n- **終端車廠:** [[GM]]、[[Ford]]、[[Volkswagen]]、[[BMW]]、[[Mercedes-Benz]]",
+    "customers_suppliers_md": "### 主要客戶\n- **車廠供應鏈:** 全球各大汽車品牌 [[OEM]] 之 Tier 1/Tier 2 扣件供應商\n- **終端車廠 (間接):** [[GM]]、[[Ford]]、[[Volkswagen]]、[[BMW]]、[[Mercedes-Benz]]\n- **工業通路:** 歐美大型扣件經銷商\n\n### 主要供應商\n- **盤元線材:** [[中鋼]] (最主要原料供應商)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

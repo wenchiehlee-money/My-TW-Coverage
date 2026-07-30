@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5351",
+  "company_name": "鈺創",
+  "title": "5351 - 鈺創",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/5351_鈺創.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "22,833 百萬台幣",
+    "enterprise_value": "23,623 百萬台幣"
+  },
+  "business": {
+    "summary": "鈺創科技 (Etron) 成立於 1991 年，總部位於台灣[[新竹]]。公司為全球知名 **利基型記憶體 (Specialty DRAM)** 設計公司 (Fabless)，產品包含 **Buffer DRAM** (KGDM, 消費性/[[網通]]應用)、**RPC DRAM** (微型封裝，針對 AIoT/Edge [[AI]])。鈺創亦積極佈局邏輯 IC，包括 **USB Type-C/PD 控制晶片** (E-Marker) 及 **3D 深度影像感測晶片** (3D Sensing)。近年推動「異質整合」平台，搶攻 [[AI]] [[記憶體]]商機。",
+    "entities": [
+      "新竹",
+      "網通",
+      "AI",
+      "記憶體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "晶圓代工 (力積電、南亞科等)、封測廠。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[網通]]設備 ([[Wi-Fi 7]]/6E 路由器)、[[VR]]/[[AR]] 裝置 ([[Meta]], [[Google]])、PC 週邊、[[消費性電子]]。",
+        "entities": [
+          "網通",
+          "Wi-Fi 7",
+          "VR",
+          "AR",
+          "Meta",
+          "Google",
+          "消費性電子"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "利基型 [[DRAM]] 及邏輯 IC 設計 (Fabless)。",
+        "entities": [
+          "DRAM"
+        ]
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "VR/AR",
+        "text": "[[Meta]] (Facebook), [[Google]], Valve (供應 3D 感測或相關晶片)。",
+        "entities": [
+          "Meta",
+          "Google"
+        ]
+      },
+      {
+        "role": "網通/消費",
+        "text": "歐美及亞洲[[網通]]品牌 (Wi-Fi 相關[[記憶體]])。",
+        "entities": [
+          "網通",
+          "記憶體"
+        ]
+      },
+      {
+        "role": "PC",
+        "text": "USB [[Type-C]] 相關客戶 ([[Intel]]/[[Apple]] 認證通過)。",
+        "entities": [
+          "Type-C",
+          "Intel",
+          "Apple"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "利基型 DRAM",
+        "text": "晶豪科 (ESMT)、華邦電 (Winbond)。",
+        "entities": []
+      },
+      {
+        "role": "USB 控制",
+        "text": "威鋒 (Via Labs)、祥碩 (ASMedia)。",
+        "entities": []
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "鈺創科技 (Etron) 成立於 1991 年，總部位於台灣[[新竹]]。公司為全球知名 **利基型記憶體 (Specialty DRAM)** 設計公司 (Fabless)，產品包含 **Buffer DRAM** (KGDM, 消費性/[[網通]]應用)、**RPC DRAM** (微型封裝，針對 AIoT/Edge [[AI]])。鈺創亦積極佈局邏輯 IC，包括 **USB Type-C/PD 控制晶片** (E-Marker) 及 **3D 深度影像感測晶片** (3D Sensing)。近年推動「異質整合」平台，搶攻 [[AI]] [[記憶體]]商機。",
+        "entities": [
+          "新竹",
+          "網通",
+          "AI",
+          "記憶體"
+        ]
+      },
+      {
+        "text": "**角色:** 利基型 [[DRAM]] 及邏輯 IC 設計 (Fabless)。",
+        "entities": [
+          "DRAM"
+        ]
+      },
+      {
+        "text": "- **利基型 DRAM:** 晶豪科 (ESMT)、華邦電 (Winbond)。",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "VR",
+      "type": "international_company_or_term",
+      "wikilink": "VR"
+    },
+    {
+      "name": "AR",
+      "type": "international_company_or_term",
+      "wikilink": "AR"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "Type-C",
+      "type": "international_company_or_term",
+      "wikilink": "Type-C"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鈺創科技 (Etron) 成立於 1991 年，總部位於台灣[[新竹]]。公司為全球知名 **利基型記憶體 (Specialty DRAM)** 設計公司 (Fabless)，產品包含 **Buffer DRAM** (KGDM, 消費性/[[網通]]應用)、**RPC DRAM** (微型封裝，針對 AIoT/Edge [[AI]])。鈺創亦積極佈局邏輯 IC，包括 **USB Type-C/PD 控制晶片** (E-Marker) 及 **3D 深度影像感測晶片** (3D Sensing)。近年推動「異質整合」平台，搶攻 [[AI]] [[記憶體]]商機。",
+    "supply_chain_md": "**角色:** 利基型 [[DRAM]] 及邏輯 IC 設計 (Fabless)。\n**上游:** 晶圓代工 (力積電、南亞科等)、封測廠。\n**下游:** [[網通]]設備 ([[Wi-Fi 7]]/6E 路由器)、[[VR]]/[[AR]] 裝置 ([[Meta]], [[Google]])、PC 週邊、[[消費性電子]]。",
+    "customers_suppliers_md": "### 主要客戶\n- **VR/AR:** [[Meta]] (Facebook), [[Google]], Valve (供應 3D 感測或相關晶片)。\n- **網通/消費:** 歐美及亞洲[[網通]]品牌 (Wi-Fi 相關[[記憶體]])。\n- **PC:** USB [[Type-C]] 相關客戶 ([[Intel]]/[[Apple]] 認證通過)。\n\n### 競爭對手\n- **利基型 DRAM:** 晶豪科 (ESMT)、華邦電 (Winbond)。\n- **USB 控制:** 威鋒 (Via Labs)、祥碩 (ASMedia)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

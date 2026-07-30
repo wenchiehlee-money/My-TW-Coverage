@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9902",
+  "company_name": "台火",
+  "title": "9902 - 台火",
+  "source_md": "Pilot_Reports/Real Estate Services/9902_台火.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "market_cap": "1,338 百萬台幣",
+    "enterprise_value": "813 百萬台幣"
+  },
+  "business": {
+    "summary": "[[台火]]開發股份有限公司 (9902，Tidehold Development) 前身為[[台灣火柴]]公司 (1938 年成立)，已從火柴製造完全轉型為[[不動產]]開發與投資控股公司。主要業務涵蓋[[住宅]]及商業大樓之開發、租賃與銷售，以及[[設備租賃]] (含小客車出租及[[電動垃圾車]]銷售)。公司持有[[台北]]精華地段不動產資產，以穩定租金收入為主要獲利來源。近年亦投入[[環保]]事業，銷售電動壓縮式油電混合垃圾車。",
+    "entities": [
+      "台火",
+      "台灣火柴",
+      "不動產",
+      "住宅",
+      "設備租賃",
+      "電動垃圾車",
+      "台北",
+      "環保"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與建材)",
+        "text": "**上游 (土地與建材):**",
+        "entities": []
+      },
+      {
+        "category": "土地資產",
+        "text": "台北精華地段自有土地與不動產",
+        "entities": []
+      },
+      {
+        "category": "建材",
+        "text": "營建用建築材料",
+        "entities": []
+      },
+      {
+        "category": "環保設備",
+        "text": "電動垃圾車製造設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與營運)",
+        "text": "**中游 (開發與營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台火** — 不動產開發、租賃管理、設備租賃",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "[[商辦]]與住宅租戶及買家",
+        "entities": [
+          "商辦"
+        ]
+      },
+      {
+        "category": "設備租賃",
+        "text": "小客車租賃客戶",
+        "entities": []
+      },
+      {
+        "category": "環保事業",
+        "text": "地方政府 — 電動垃圾車採購",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "不動產租戶",
+        "text": "台北精華地段商辦與住宅租戶",
+        "entities": []
+      },
+      {
+        "role": "設備租賃",
+        "text": "小客車租賃客戶",
+        "entities": []
+      },
+      {
+        "role": "環保事業",
+        "text": "地方政府環保局 — 電動垃圾車",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營建",
+        "text": "營造廠與建材供應商",
+        "entities": []
+      },
+      {
+        "role": "環保設備",
+        "text": "電動垃圾車製造零組件供應商",
+        "entities": []
+      },
+      {
+        "role": "車輛",
+        "text": "小客車供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate Services):** [[上曜]]、[[勤益控]]、[[怡華]]、[[海悅]]、[[全坤建]]",
+        "entities": [
+          "上曜",
+          "勤益控",
+          "怡華",
+          "海悅",
+          "全坤建"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台火",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台火"
+    },
+    {
+      "name": "台灣火柴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣火柴"
+    },
+    {
+      "name": "不動產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不動產"
+    },
+    {
+      "name": "住宅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住宅"
+    },
+    {
+      "name": "設備租賃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "設備租賃"
+    },
+    {
+      "name": "電動垃圾車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動垃圾車"
+    },
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環保"
+    },
+    {
+      "name": "商辦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "商辦"
+    },
+    {
+      "name": "上曜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上曜"
+    },
+    {
+      "name": "勤益控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤益控"
+    },
+    {
+      "name": "怡華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "怡華"
+    },
+    {
+      "name": "海悅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海悅"
+    },
+    {
+      "name": "全坤建",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全坤建"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[台火]]開發股份有限公司 (9902，Tidehold Development) 前身為[[台灣火柴]]公司 (1938 年成立)，已從火柴製造完全轉型為[[不動產]]開發與投資控股公司。主要業務涵蓋[[住宅]]及商業大樓之開發、租賃與銷售，以及[[設備租賃]] (含小客車出租及[[電動垃圾車]]銷售)。公司持有[[台北]]精華地段不動產資產，以穩定租金收入為主要獲利來源。近年亦投入[[環保]]事業，銷售電動壓縮式油電混合垃圾車。",
+    "supply_chain_md": "**上游 (土地與建材):**\n- **土地資產:** 台北精華地段自有土地與不動產\n- **建材:** 營建用建築材料\n- **環保設備:** 電動垃圾車製造設備\n\n**中游 (開發與營運):**\n- **台火** — 不動產開發、租賃管理、設備租賃\n\n**下游 (終端客戶):**\n- **不動產:** [[商辦]]與住宅租戶及買家\n- **設備租賃:** 小客車租賃客戶\n- **環保事業:** 地方政府 — 電動垃圾車採購",
+    "customers_suppliers_md": "### 主要客戶\n- **不動產租戶:** 台北精華地段商辦與住宅租戶\n- **設備租賃:** 小客車租賃客戶\n- **環保事業:** 地方政府環保局 — 電動垃圾車\n\n### 主要供應商\n- **營建:** 營造廠與建材供應商\n- **環保設備:** 電動垃圾車製造零組件供應商\n- **車輛:** 小客車供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

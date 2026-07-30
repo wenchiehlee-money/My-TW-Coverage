@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9928",
+  "company_name": "中視",
+  "title": "9928 - 中視",
+  "source_md": "Pilot_Reports/Broadcasting/9928_中視.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Broadcasting",
+    "market_cap": "1,270 百萬台幣",
+    "enterprise_value": "3,390 百萬台幣"
+  },
+  "business": {
+    "summary": "中國電視公司 (9928，簡稱中視，CTV) 是台灣歷史悠久的無線電視廣播機構，成立於 1968 年。2008 年隨[[中國時報]]集團易主，中視成為[[旺旺中時媒體集團]]旗下核心媒體事業，與[[中天電視]]、[[中國時報]]並列為集團「三中」媒體。中視目前經營四大高畫質頻道。中視新聞台於[[中華電信]] [[MOD]] 平台發送高清訊號。公司積極發展數位內容，於 [[YouTube]] 經營 CTV 官方頻道，並透過 [[Facebook]] 等社群平台進行內容分潤。",
+    "entities": [
+      "中國時報",
+      "旺旺中時媒體集團",
+      "中天電視",
+      "中華電信",
+      "MOD",
+      "YouTube",
+      "Facebook"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (內容與設備)",
+        "text": "**上游 (內容與設備):**",
+        "entities": []
+      },
+      {
+        "category": "國際影視版權",
+        "text": "[[The Walt Disney Company]] 等國際內容供應商",
+        "entities": [
+          "The Walt Disney Company"
+        ]
+      },
+      {
+        "category": "集團內容資源",
+        "text": "[[中國時報]]、[[中天電視]]",
+        "entities": [
+          "中國時報",
+          "中天電視"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中國電視公司** (電視頻道播映、廣告行銷、數位內容製作)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (訊號傳輸與觀眾)",
+        "text": "**下游 (訊號傳輸與觀眾):**",
+        "entities": []
+      },
+      {
+        "category": "有線電視系統",
+        "text": "各地有線電視系統業者",
+        "entities": []
+      },
+      {
+        "category": "MOD 平台",
+        "text": "[[中華電信]] [[MOD]]",
+        "entities": [
+          "中華電信",
+          "MOD"
+        ]
+      },
+      {
+        "category": "數位平台",
+        "text": "[[YouTube]]、[[Facebook]]",
+        "entities": [
+          "YouTube",
+          "Facebook"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "廣告收入",
+        "text": "各大品牌商及廣告代理公司",
+        "entities": []
+      },
+      {
+        "role": "頻道授權",
+        "text": "有線電視系統業者、[[中華電信]] [[MOD]]",
+        "entities": [
+          "中華電信",
+          "MOD"
+        ]
+      },
+      {
+        "role": "數位分潤",
+        "text": "[[YouTube]] CTV 官方頻道",
+        "entities": [
+          "YouTube"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "國際版權",
+        "text": "[[The Walt Disney Company]] — 迪士尼影視版權",
+        "entities": [
+          "The Walt Disney Company"
+        ]
+      },
+      {
+        "role": "集團資源",
+        "text": "[[旺旺中時媒體集團]]旗下[[中國時報]]、[[中天電視]]",
+        "entities": [
+          "旺旺中時媒體集團",
+          "中國時報",
+          "中天電視"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Broadcasting):** [[同業待補]]",
+        "entities": [
+          "同業待補"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "MOD",
+          "YouTube"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中國時報",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國時報"
+    },
+    {
+      "name": "旺旺中時媒體集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺旺中時媒體集團"
+    },
+    {
+      "name": "中天電視",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中天電視"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "MOD",
+      "type": "international_company_or_term",
+      "wikilink": "MOD"
+    },
+    {
+      "name": "YouTube",
+      "type": "international_company_or_term",
+      "wikilink": "YouTube"
+    },
+    {
+      "name": "Facebook",
+      "type": "international_company_or_term",
+      "wikilink": "Facebook"
+    },
+    {
+      "name": "The Walt Disney Company",
+      "type": "international_company_or_term",
+      "wikilink": "The Walt Disney Company"
+    },
+    {
+      "name": "同業待補",
+      "type": "taiwan_company_or_term",
+      "wikilink": "同業待補"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國電視公司 (9928，簡稱中視，CTV) 是台灣歷史悠久的無線電視廣播機構，成立於 1968 年。2008 年隨[[中國時報]]集團易主，中視成為[[旺旺中時媒體集團]]旗下核心媒體事業，與[[中天電視]]、[[中國時報]]並列為集團「三中」媒體。中視目前經營四大高畫質頻道。中視新聞台於[[中華電信]] [[MOD]] 平台發送高清訊號。公司積極發展數位內容，於 [[YouTube]] 經營 CTV 官方頻道，並透過 [[Facebook]] 等社群平台進行內容分潤。",
+    "supply_chain_md": "**上游 (內容與設備):**\n- **國際影視版權:** [[The Walt Disney Company]] 等國際內容供應商\n- **集團內容資源:** [[中國時報]]、[[中天電視]]\n\n**中游:**\n- **中國電視公司** (電視頻道播映、廣告行銷、數位內容製作)\n\n**下游 (訊號傳輸與觀眾):**\n- **有線電視系統:** 各地有線電視系統業者\n- **MOD 平台:** [[中華電信]] [[MOD]]\n- **數位平台:** [[YouTube]]、[[Facebook]]",
+    "customers_suppliers_md": "### 主要客戶\n- **廣告收入:** 各大品牌商及廣告代理公司\n- **頻道授權:** 有線電視系統業者、[[中華電信]] [[MOD]]\n- **數位分潤:** [[YouTube]] CTV 官方頻道\n\n### 主要供應商\n- **國際版權:** [[The Walt Disney Company]] — 迪士尼影視版權\n- **集團資源:** [[旺旺中時媒體集團]]旗下[[中國時報]]、[[中天電視]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

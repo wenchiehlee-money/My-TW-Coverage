@@ -1,0 +1,170 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8112",
+  "company_name": "至上",
+  "title": "8112 - 至上",
+  "source_md": "Pilot_Reports/Semiconductors/8112_至上.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "40,060 百萬台幣",
+    "enterprise_value": "94,716 百萬台幣"
+  },
+  "business": {
+    "summary": "至上電子 (8112，Supreme Electronics) 為台灣第三大半導體通路商，核心業務為 [[Samsung]] 三星記憶體產品之台灣主力代理，記憶體相關產品銷售長期占總營收八成以上。代理產品涵蓋行動式 [[DRAM]] ([[LPDDR]])、[[伺服器]]及 PC 用 DRAM 模組、[[NAND Flash]] 晶片 ([[SSD]]/[[eMMC]]) 等。",
+    "entities": [
+      "Samsung",
+      "DRAM",
+      "LPDDR",
+      "伺服器",
+      "NAND Flash",
+      "SSD",
+      "eMMC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (記憶體原廠)",
+        "text": "**上游 (記憶體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]] (主要供應商，台灣主力代理)",
+        "entities": [
+          "Samsung"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "記憶體通路",
+        "text": "**至上** (台灣第三大半導體通路，[[Samsung]] 記憶體主力代理)",
+        "entities": [
+          "Samsung"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子製造)",
+        "text": "**下游 (電子製造):**",
+        "entities": []
+      },
+      {
+        "category": "系統廠",
+        "text": "台灣及中國電子製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "系統廠",
+        "text": "台灣及中國電子製造商 (系統組裝)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]] (主要供應商)",
+        "entities": [
+          "Samsung"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[大聯大]]、[[文曄]]",
+        "entities": [
+          "大聯大",
+          "文曄"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[大聯大]]、[[文曄]]",
+        "entities": [
+          "大聯大",
+          "文曄"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "LPDDR",
+      "type": "international_company_or_term",
+      "wikilink": "LPDDR"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "NAND Flash",
+      "type": "international_company_or_term",
+      "wikilink": "NAND Flash"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "eMMC",
+      "type": "international_company_or_term",
+      "wikilink": "eMMC"
+    },
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "文曄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "文曄"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "至上電子 (8112，Supreme Electronics) 為台灣第三大半導體通路商，核心業務為 [[Samsung]] 三星記憶體產品之台灣主力代理，記憶體相關產品銷售長期占總營收八成以上。代理產品涵蓋行動式 [[DRAM]] ([[LPDDR]])、[[伺服器]]及 PC 用 DRAM 模組、[[NAND Flash]] 晶片 ([[SSD]]/[[eMMC]]) 等。",
+    "supply_chain_md": "**上游 (記憶體原廠):**\n- **記憶體:** [[Samsung]] (主要供應商，台灣主力代理)\n\n**中游 (通路代理):**\n- **記憶體通路:** **至上** (台灣第三大半導體通路，[[Samsung]] 記憶體主力代理)\n\n**下游 (電子製造):**\n- **系統廠:** 台灣及中國電子製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **系統廠:** 台灣及中國電子製造商 (系統組裝)\n\n### 主要供應商\n- **記憶體:** [[Samsung]] (主要供應商)\n- **競爭同業:** [[大聯大]]、[[文曄]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5225",
+  "company_name": "東科-KY",
+  "title": "5225 - 東科-KY",
+  "source_md": "Pilot_Reports/Consumer Electronics/5225_東科-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "5,563 百萬台幣",
+    "enterprise_value": "3,869 百萬台幣"
+  },
+  "business": {
+    "summary": "東科-KY (Eastech) 為全球最大 **影音揚聲器 (Audio/Speaker)** [[OEM]]/[[ODM]] 代工廠。\n專注於聲學產品之設計與製造，生產基地主要位於越南 (海防) 與中國 (惠州)。\n主要產品：\n1.  **Sound Bar (聲霸)**: 全球市佔率極高，為主要營收成長動能。\n2.  **家用音響**: 家庭劇院系統、藍牙喇叭。\n3.  **耳機**: 積極拓展輔聽器及高階耳機代工。\n4.  **會議系統**: 視訊會議音訊設備。\n客戶涵蓋韓系、日系與歐美一線家電與音響品牌。",
+    "entities": [
+      "OEM",
+      "ODM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**零件**: 喇叭單體 (自製/外購), 塑膠機殼, 木箱, 電子零組件 (IC, [[PCB]]).",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **東科 (5225)** - 音響系統組裝代工 ([[OEM]]/[[ODM]]).",
+        "entities": [
+          "OEM",
+          "ODM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**品牌**: [[Samsung]], [[LG]], [[Sony]].",
+        "entities": [
+          "Samsung",
+          "LG",
+          "Sony"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**韓系**: [[Samsung]] (最大客戶), [[LG]].",
+        "entities": [
+          "Samsung",
+          "LG"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**日系**: [[Sony]], [[Panasonic]].",
+        "entities": [
+          "Sony",
+          "Panasonic"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**歐美**: [[Philips]], 以及各類新創音響品牌.",
+        "entities": [
+          "Philips"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**零件**: 被動元件, 機構件供應商. (關鍵喇叭單體具備自製能力).",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Samsung",
+          "LG",
+          "Sony",
+          "Panasonic",
+          "Philips"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "Philips",
+      "type": "international_company_or_term",
+      "wikilink": "Philips"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東科-KY (Eastech) 為全球最大 **影音揚聲器 (Audio/Speaker)** [[OEM]]/[[ODM]] 代工廠。\n專注於聲學產品之設計與製造，生產基地主要位於越南 (海防) 與中國 (惠州)。\n主要產品：\n1.  **Sound Bar (聲霸)**: 全球市佔率極高，為主要營收成長動能。\n2.  **家用音響**: 家庭劇院系統、藍牙喇叭。\n3.  **耳機**: 積極拓展輔聽器及高階耳機代工。\n4.  **會議系統**: 視訊會議音訊設備。\n客戶涵蓋韓系、日系與歐美一線家電與音響品牌。",
+    "supply_chain_md": "*   **中游 (本體)**: **東科 (5225)** - 音響系統組裝代工 ([[OEM]]/[[ODM]]).\n*   **上游**:\n    *   **零件**: 喇叭單體 (自製/外購), 塑膠機殼, 木箱, 電子零組件 (IC, [[PCB]]).\n*   **下游**:\n    *   **品牌**: [[Samsung]], [[LG]], [[Sony]].",
+    "customers_suppliers_md": "### 主要客戶\n*   **韓系**: [[Samsung]] (最大客戶), [[LG]].\n*   **日系**: [[Sony]], [[Panasonic]].\n*   **歐美**: [[Philips]], 以及各類新創音響品牌.\n\n### 主要供應商\n*   **零件**: 被動元件, 機構件供應商. (關鍵喇叭單體具備自製能力)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4440",
+  "company_name": "宜新實業",
+  "title": "4440 - 宜新實業",
+  "source_md": "Pilot_Reports/Textile Manufacturing/4440_宜新實業.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "",
+    "industry": "",
+    "market_cap": "",
+    "enterprise_value": ""
+  },
+  "business": {
+    "summary": "**宜新實業** (4440) 為台灣專業之 [[彈性包覆紗]] 與 [[加工絲]] 製造商。公司以「**魔術絲**」系列聞名，專注於高附加價值之 [[複合紗]] (Composite Yarn) 與機能性彈性紗之研發。產品結合不同纖維特性 (如吸濕排汗、保暖、抗UV)，廣泛應用於 [[運動服飾]]、[[休閒褲]]、[[鞋材]] 及 [[汽車內飾]]。宜新實業採少量多樣策略，能快速反應客戶需求，為UNIQLO、Adidas等品牌之間接供應商。",
+    "entities": [
+      "彈性包覆紗",
+      "加工絲",
+      "複合紗",
+      "運動服飾",
+      "休閒褲",
+      "鞋材",
+      "汽車內飾"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**：採購 [[POY]] (聚酯原絲)、[[尼龍]] 及 [[彈性纖維]] (Spandex)。",
+        "entities": [
+          "POY",
+          "尼龍",
+          "彈性纖維"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "宜新實業位於紡織產業鏈的**中游加工絲製造端**：",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中游**：進行 [[假撚]] (Texturing)、[[空氣包覆]] (Air Covering) 及複合加工。",
+        "entities": [
+          "假撚",
+          "空氣包覆"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**：供應給 [[平織廠]] 與 [[針織廠]]，最終應用於成衣、內衣及家飾品。",
+        "entities": [
+          "平織廠",
+          "針織廠"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "織布廠",
+        "text": "國內外織布廠 (下游再交貨給品牌如[[Uniqlo]]、[[Adidas]]供應鏈)",
+        "entities": [
+          "Uniqlo",
+          "Adidas"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[遠東新]]、[[南亞]]、[[集盛]]等化纖大廠",
+        "entities": [
+          "遠東新",
+          "南亞",
+          "集盛"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Uniqlo",
+          "Adidas"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "彈性包覆紗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彈性包覆紗"
+    },
+    {
+      "name": "加工絲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "加工絲"
+    },
+    {
+      "name": "複合紗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "複合紗"
+    },
+    {
+      "name": "運動服飾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "運動服飾"
+    },
+    {
+      "name": "休閒褲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "休閒褲"
+    },
+    {
+      "name": "鞋材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鞋材"
+    },
+    {
+      "name": "汽車內飾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "汽車內飾"
+    },
+    {
+      "name": "POY",
+      "type": "international_company_or_term",
+      "wikilink": "POY"
+    },
+    {
+      "name": "尼龍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尼龍"
+    },
+    {
+      "name": "彈性纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彈性纖維"
+    },
+    {
+      "name": "假撚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "假撚"
+    },
+    {
+      "name": "空氣包覆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "空氣包覆"
+    },
+    {
+      "name": "平織廠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "平織廠"
+    },
+    {
+      "name": "針織廠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "針織廠"
+    },
+    {
+      "name": "Uniqlo",
+      "type": "international_company_or_term",
+      "wikilink": "Uniqlo"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "集盛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "集盛"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "**宜新實業** (4440) 為台灣專業之 [[彈性包覆紗]] 與 [[加工絲]] 製造商。公司以「**魔術絲**」系列聞名，專注於高附加價值之 [[複合紗]] (Composite Yarn) 與機能性彈性紗之研發。產品結合不同纖維特性 (如吸濕排汗、保暖、抗UV)，廣泛應用於 [[運動服飾]]、[[休閒褲]]、[[鞋材]] 及 [[汽車內飾]]。宜新實業採少量多樣策略，能快速反應客戶需求，為UNIQLO、Adidas等品牌之間接供應商。",
+    "supply_chain_md": "宜新實業位於紡織產業鏈的**中游加工絲製造端**：\n*   **上游**：採購 [[POY]] (聚酯原絲)、[[尼龍]] 及 [[彈性纖維]] (Spandex)。\n*   **中游**：進行 [[假撚]] (Texturing)、[[空氣包覆]] (Air Covering) 及複合加工。\n*   **下游**：供應給 [[平織廠]] 與 [[針織廠]]，最終應用於成衣、內衣及家飾品。",
+    "customers_suppliers_md": "### 主要客戶\n- **織布廠:** 國內外織布廠 (下游再交貨給品牌如[[Uniqlo]]、[[Adidas]]供應鏈)\n\n### 主要供應商\n- **原料:** [[遠東新]]、[[南亞]]、[[集盛]]等化纖大廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

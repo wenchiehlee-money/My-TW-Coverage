@@ -1,0 +1,279 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8097",
+  "company_name": "常珵",
+  "title": "8097 - 常珵",
+  "source_md": "Pilot_Reports/Communication Equipment/8097_常珵.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,999 百萬台幣",
+    "enterprise_value": "2,900 百萬台幣"
+  },
+  "business": {
+    "summary": "常珵科技 (8097，[[ATW Technology]]) 為台灣專業網通設備代工廠，前身為利奇精密科技，成立於 1986 年，總部位於新北市樹林區，另於墨西哥、中國成都、菲律賓馬尼拉及巴西設有據點。公司核心能力為 [[SMT]] 表面黏著技術電子代工，以此為基礎延伸至商用網通設備、物聯網 ([[物聯網]]) 及無線通訊產品之設計製造。\n\n主要產品涵蓋 [[VDSL]]/[[GPON]] 路由器、[[Wi-Fi 6]] 無線路由器/Mesh 路由器、[[5G]]/4G 無線通訊產品 (室內外 AP 及中繼器)、VoIP 企業閘道器、[[物聯網]] 智慧物聯設備、機上盒 (STB) 及網管型交換器。公司近年成立固態氫能研究中心，與 [[台灣科技大學]] 合作推動氫能技術創新應用，開拓新能源第二成長曲線。",
+    "entities": [
+      "ATW Technology",
+      "SMT",
+      "物聯網",
+      "VDSL",
+      "GPON",
+      "Wi-Fi 6",
+      "5G",
+      "台灣科技大學"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與電子元件)",
+        "text": "**上游 (網通晶片與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "[[瑞昱]]、[[聯發科]] — Wi-Fi 6 及寬頻路由晶片",
+        "entities": [
+          "瑞昱",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "5G 模組",
+        "text": "4G/5G 無線通訊模組",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "PCB、被動元件、記憶體及 SMT 製程材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (網通設備代工製造)",
+        "text": "**中游 (網通設備代工製造):**",
+        "entities": []
+      },
+      {
+        "category": "家用網通",
+        "text": "**常珵** ([[VDSL]]/[[GPON]] 路由器、[[Wi-Fi 6]] Mesh 路由器)",
+        "entities": [
+          "VDSL",
+          "GPON",
+          "Wi-Fi 6"
+        ]
+      },
+      {
+        "category": "無線通訊",
+        "text": "**常珵** (4G/5G 室內外 AP、中繼器、USB 無線網卡)",
+        "entities": []
+      },
+      {
+        "category": "IoT 與企業",
+        "text": "**常珵** ([[物聯網]] 智慧物聯、VoIP 閘道器、網管交換器)",
+        "entities": [
+          "物聯網"
+        ]
+      },
+      {
+        "category": "新能源",
+        "text": "**常珵** (固態氫能技術研發)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信營運商與品牌客戶)",
+        "text": "**下游 (電信營運商與品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "國際電信",
+        "text": "全球電信營運商 — 寬頻 CPE 設備代工",
+        "entities": []
+      },
+      {
+        "category": "品牌客戶",
+        "text": "國際網通品牌 — [[Wi-Fi 6]] 路由器/Mesh OEM/ODM",
+        "entities": [
+          "Wi-Fi 6"
+        ]
+      },
+      {
+        "category": "新興市場",
+        "text": "中南美洲、東南亞電信營運商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國際電信",
+        "text": "全球電信營運商 — [[GPON]] 路由器、[[VDSL]] 寬頻 CPE 代工",
+        "entities": [
+          "GPON",
+          "VDSL"
+        ]
+      },
+      {
+        "role": "品牌代工",
+        "text": "國際網通品牌 — [[Wi-Fi 6]] Mesh 路由器 OEM/ODM",
+        "entities": [
+          "Wi-Fi 6"
+        ]
+      },
+      {
+        "role": "企業客戶",
+        "text": "VoIP 企業閘道器及網管交換器客戶",
+        "entities": []
+      },
+      {
+        "role": "新興市場",
+        "text": "中南美洲及東南亞電信業者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "[[瑞昱]]、[[聯發科]] — 路由器/AP 晶片方案",
+        "entities": [
+          "瑞昱",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "無線模組",
+        "text": "4G/5G 無線通訊模組供應商",
+        "entities": []
+      },
+      {
+        "role": "學術合作",
+        "text": "[[台灣科技大學]] — 固態氫能技術研發夥伴",
+        "entities": [
+          "台灣科技大學"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "GPON",
+          "VDSL",
+          "Wi-Fi 6"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ATW Technology",
+      "type": "international_company_or_term",
+      "wikilink": "ATW Technology"
+    },
+    {
+      "name": "SMT",
+      "type": "international_company_or_term",
+      "wikilink": "SMT"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "VDSL",
+      "type": "international_company_or_term",
+      "wikilink": "VDSL"
+    },
+    {
+      "name": "GPON",
+      "type": "international_company_or_term",
+      "wikilink": "GPON"
+    },
+    {
+      "name": "Wi-Fi 6",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 6"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "台灣科技大學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣科技大學"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "常珵科技 (8097，[[ATW Technology]]) 為台灣專業網通設備代工廠，前身為利奇精密科技，成立於 1986 年，總部位於新北市樹林區，另於墨西哥、中國成都、菲律賓馬尼拉及巴西設有據點。公司核心能力為 [[SMT]] 表面黏著技術電子代工，以此為基礎延伸至商用網通設備、物聯網 ([[物聯網]]) 及無線通訊產品之設計製造。\n\n主要產品涵蓋 [[VDSL]]/[[GPON]] 路由器、[[Wi-Fi 6]] 無線路由器/Mesh 路由器、[[5G]]/4G 無線通訊產品 (室內外 AP 及中繼器)、VoIP 企業閘道器、[[物聯網]] 智慧物聯設備、機上盒 (STB) 及網管型交換器。公司近年成立固態氫能研究中心，與 [[台灣科技大學]] 合作推動氫能技術創新應用，開拓新能源第二成長曲線。",
+    "supply_chain_md": "**上游 (網通晶片與電子元件):**\n- **Wi-Fi 晶片:** [[瑞昱]]、[[聯發科]] — Wi-Fi 6 及寬頻路由晶片\n- **5G 模組:** 4G/5G 無線通訊模組\n- **電子元件:** PCB、被動元件、記憶體及 SMT 製程材料\n\n**中游 (網通設備代工製造):**\n- **家用網通:** **常珵** ([[VDSL]]/[[GPON]] 路由器、[[Wi-Fi 6]] Mesh 路由器)\n- **無線通訊:** **常珵** (4G/5G 室內外 AP、中繼器、USB 無線網卡)\n- **IoT 與企業:** **常珵** ([[物聯網]] 智慧物聯、VoIP 閘道器、網管交換器)\n- **新能源:** **常珵** (固態氫能技術研發)\n\n**下游 (電信營運商與品牌客戶):**\n- **國際電信:** 全球電信營運商 — 寬頻 CPE 設備代工\n- **品牌客戶:** 國際網通品牌 — [[Wi-Fi 6]] 路由器/Mesh OEM/ODM\n- **新興市場:** 中南美洲、東南亞電信營運商",
+    "customers_suppliers_md": "### 主要客戶\n- **國際電信:** 全球電信營運商 — [[GPON]] 路由器、[[VDSL]] 寬頻 CPE 代工\n- **品牌代工:** 國際網通品牌 — [[Wi-Fi 6]] Mesh 路由器 OEM/ODM\n- **企業客戶:** VoIP 企業閘道器及網管交換器客戶\n- **新興市場:** 中南美洲及東南亞電信業者\n\n### 主要供應商\n- **Wi-Fi 晶片:** [[瑞昱]]、[[聯發科]] — 路由器/AP 晶片方案\n- **無線模組:** 4G/5G 無線通訊模組供應商\n- **學術合作:** [[台灣科技大學]] — 固態氫能技術研發夥伴"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

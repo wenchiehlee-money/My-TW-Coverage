@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3213",
+  "company_name": "茂訊",
+  "title": "3213 - 茂訊",
+  "source_md": "Pilot_Reports/Computer Hardware/3213_茂訊.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "7,130 百萬台幣",
+    "enterprise_value": "4,752 百萬台幣"
+  },
+  "business": {
+    "summary": "茂訊電腦 (3213，[[MilDef Crete]]) 採「品牌軍工」與「筆電通路」雙引擎發展模式。公司以自有品牌 MilDef 專攻軍規強固型電腦與工業應用產品，另在台灣經營中高階筆電零售連鎖門市。\n\n強固型電腦事業為核心成長引擎，產品能在極端溫度、震動及惡劣環境下穩定運作，主要服務歐洲及北美軍方與國防承包商。受惠全球地緣政治緊張與各國防禦預算擴編，軍工訂單持續成長。筆電零售通路事業則貢獻穩定現金流，為 [[華碩]]、[[MSI]] 等品牌之台灣重要銷售管道。",
+    "entities": [
+      "MilDef Crete",
+      "華碩",
+      "MSI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (軍規零組件)",
+        "text": "**上游 (軍規零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]] — 軍規強固型電腦 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "高亮度陽光可視特種面板",
+        "entities": []
+      },
+      {
+        "category": "機殼",
+        "text": "軍規級防水防震鎂鋁合金機殼",
+        "entities": []
+      },
+      {
+        "category": "記憶體",
+        "text": "工業級寬溫記憶體模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌設計製造與通路)",
+        "text": "**中游 (品牌設計製造與通路):**",
+        "entities": []
+      },
+      {
+        "category": "強固型電腦",
+        "text": "**茂訊** (MilDef 品牌軍規筆電/平板)",
+        "entities": []
+      },
+      {
+        "category": "筆電零售",
+        "text": "**茂訊** (台灣中高階筆電連鎖門市)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (軍工與消費市場)",
+        "text": "**下游 (軍工與消費市場):**",
+        "entities": []
+      },
+      {
+        "category": "國防",
+        "text": "歐美國防系統承包商與政府軍事單位",
+        "entities": []
+      },
+      {
+        "category": "工業",
+        "text": "礦產開採、油氣能源現場設備",
+        "entities": []
+      },
+      {
+        "category": "消費零售",
+        "text": "台灣筆電消費市場 — [[華碩]]、[[MSI]] 品牌零售",
+        "entities": [
+          "華碩",
+          "MSI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國防",
+        "text": "歐美國防系統承包商與各國政府軍事單位",
+        "entities": []
+      },
+      {
+        "role": "工業",
+        "text": "礦產開採與油氣能源公司 — 現場強固型設備",
+        "entities": []
+      },
+      {
+        "role": "消費零售",
+        "text": "台灣消費者 — [[華碩]]、[[MSI]] 等品牌筆電零售",
+        "entities": [
+          "華碩",
+          "MSI"
+        ]
+      },
+      {
+        "role": "特殊應用",
+        "text": "交通運輸與公用事業 — 車載強固型終端",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — 軍規/工業級 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "特種高亮度面板供應商",
+        "entities": []
+      },
+      {
+        "role": "筆電品牌",
+        "text": "[[華碩]]、[[MSI]]、[[Lenovo]] — 零售通路代理",
+        "entities": [
+          "華碩",
+          "MSI",
+          "Lenovo"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "華碩",
+          "MSI"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "MilDef Crete",
+      "type": "international_company_or_term",
+      "wikilink": "MilDef Crete"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "MSI",
+      "type": "international_company_or_term",
+      "wikilink": "MSI"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "茂訊電腦 (3213，[[MilDef Crete]]) 採「品牌軍工」與「筆電通路」雙引擎發展模式。公司以自有品牌 MilDef 專攻軍規強固型電腦與工業應用產品，另在台灣經營中高階筆電零售連鎖門市。\n\n強固型電腦事業為核心成長引擎，產品能在極端溫度、震動及惡劣環境下穩定運作，主要服務歐洲及北美軍方與國防承包商。受惠全球地緣政治緊張與各國防禦預算擴編，軍工訂單持續成長。筆電零售通路事業則貢獻穩定現金流，為 [[華碩]]、[[MSI]] 等品牌之台灣重要銷售管道。",
+    "supply_chain_md": "**上游 (軍規零組件):**\n- **處理器:** [[Intel]] — 軍規強固型電腦 CPU\n- **面板:** 高亮度陽光可視特種面板\n- **機殼:** 軍規級防水防震鎂鋁合金機殼\n- **記憶體:** 工業級寬溫記憶體模組\n\n**中游 (品牌設計製造與通路):**\n- **強固型電腦:** **茂訊** (MilDef 品牌軍規筆電/平板)\n- **筆電零售:** **茂訊** (台灣中高階筆電連鎖門市)\n\n**下游 (軍工與消費市場):**\n- **國防:** 歐美國防系統承包商與政府軍事單位\n- **工業:** 礦產開採、油氣能源現場設備\n- **消費零售:** 台灣筆電消費市場 — [[華碩]]、[[MSI]] 品牌零售",
+    "customers_suppliers_md": "### 主要客戶\n- **國防:** 歐美國防系統承包商與各國政府軍事單位\n- **工業:** 礦產開採與油氣能源公司 — 現場強固型設備\n- **消費零售:** 台灣消費者 — [[華碩]]、[[MSI]] 等品牌筆電零售\n- **特殊應用:** 交通運輸與公用事業 — 車載強固型終端\n\n### 主要供應商\n- **處理器:** [[Intel]] — 軍規/工業級 CPU\n- **面板:** 特種高亮度面板供應商\n- **筆電品牌:** [[華碩]]、[[MSI]]、[[Lenovo]] — 零售通路代理"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

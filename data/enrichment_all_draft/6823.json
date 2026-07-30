@@ -1,0 +1,246 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6823",
+  "company_name": "濾能",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/Pollution & Treatment Controls/6823_濾能.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Pollution & Treatment Controls",
+    "market_cap": "1,919 百萬台幣",
+    "enterprise_value": "2,323 百萬台幣"
+  },
+  "business": {
+    "summary": "濾能股份有限公司為專注於半導體先進製程[[AMC]]（氣態分子污染物，Airborne Molecular Contaminants）微污染控制解決方案之環保科技公司。半導體製程越先進（如3nm、2nm及[[EUV]]曝光），對[[無塵室]]空氣純淨度要求越嚴苛。濾能提供客製化「化學濾網」，能精準吸附並中和干擾製程之化學氣體。主推「模組化組合式濾網」，透過更換濾材達到減廢效果，深獲追求ESG之晶圓代工龍頭[[台積電]]青睞。核心客戶涵蓋[[台積電]]、[[聯電]]、[[群創]]等。新加坡大股東道益企業為跨國特殊化學品代理商。",
+    "entities": [
+      "AMC",
+      "EUV",
+      "無塵室",
+      "台積電",
+      "聯電",
+      "群創"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (吸附材料與濾材)",
+        "text": "**上游 (吸附材料與濾材):**",
+        "entities": []
+      },
+      {
+        "category": "活性碳",
+        "text": "高階活性碳/化學改質活性碳供應商",
+        "entities": []
+      },
+      {
+        "category": "不織布",
+        "text": "超細纖維不織布",
+        "entities": []
+      },
+      {
+        "category": "外框材料",
+        "text": "ABS膠條、塑膠/金屬濾網外框",
+        "entities": []
+      },
+      {
+        "category": "代理商",
+        "text": "道益企業（新加坡大股東，特殊化學品代理）",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (濾網製造)",
+        "text": "**中游 (濾網製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**濾能科技** — 半導體廠房[[AMC]]微污染控制模組化化學濾網之設計、製造與安裝量測",
+        "entities": [
+          "AMC"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]（[[EUV]]先進製程[[無塵室]]核心客戶）、[[聯電]]",
+        "entities": [
+          "台積電",
+          "EUV",
+          "無塵室",
+          "聯電"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[群創]]等高階面板製造商",
+        "entities": [
+          "群創"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "記憶體廠之先進製程[[無塵室]]",
+        "entities": [
+          "無塵室"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]（核心客戶，[[EUV]]先進製程[[無塵室]][[AMC]]控制）、[[聯電]]",
+        "entities": [
+          "台積電",
+          "EUV",
+          "無塵室",
+          "AMC",
+          "聯電"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[群創]]等高階面板製造商",
+        "entities": [
+          "群創"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "記憶體廠之先進製程[[無塵室]]",
+        "entities": [
+          "無塵室"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊化學品",
+        "text": "道益企業（新加坡大股東，跨國特殊化學品與耗材代理）",
+        "entities": []
+      },
+      {
+        "role": "活性碳",
+        "text": "高階活性碳及化學改質活性碳精細化工供應商",
+        "entities": []
+      },
+      {
+        "role": "不織布/框材",
+        "text": "超細纖維不織布及ABS外框材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Pollution & Treatment Controls):** [[中宇]]、[[旭然]]、[[華懋]]、[[基士德-KY]]、[[傑智環境]]",
+        "entities": [
+          "中宇",
+          "旭然",
+          "華懋",
+          "基士德-KY",
+          "傑智環境"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "EUV",
+          "無塵室",
+          "AMC",
+          "聯電",
+          "群創",
+          "無塵室"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AMC",
+      "type": "international_company_or_term",
+      "wikilink": "AMC"
+    },
+    {
+      "name": "EUV",
+      "type": "technology",
+      "wikilink": "EUV"
+    },
+    {
+      "name": "無塵室",
+      "type": "taiwan_company_or_term",
+      "wikilink": "無塵室"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "中宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中宇"
+    },
+    {
+      "name": "旭然",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭然"
+    },
+    {
+      "name": "華懋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華懋"
+    },
+    {
+      "name": "基士德-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "基士德-KY"
+    },
+    {
+      "name": "傑智環境",
+      "type": "taiwan_company_or_term",
+      "wikilink": "傑智環境"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "濾能股份有限公司為專注於半導體先進製程[[AMC]]（氣態分子污染物，Airborne Molecular Contaminants）微污染控制解決方案之環保科技公司。半導體製程越先進（如3nm、2nm及[[EUV]]曝光），對[[無塵室]]空氣純淨度要求越嚴苛。濾能提供客製化「化學濾網」，能精準吸附並中和干擾製程之化學氣體。主推「模組化組合式濾網」，透過更換濾材達到減廢效果，深獲追求ESG之晶圓代工龍頭[[台積電]]青睞。核心客戶涵蓋[[台積電]]、[[聯電]]、[[群創]]等。新加坡大股東道益企業為跨國特殊化學品代理商。",
+    "supply_chain_md": "**上游 (吸附材料與濾材):**\n- **活性碳:** 高階活性碳/化學改質活性碳供應商\n- **不織布:** 超細纖維不織布\n- **外框材料:** ABS膠條、塑膠/金屬濾網外框\n- **代理商:** 道益企業（新加坡大股東，特殊化學品代理）\n\n**中游 (濾網製造):**\n- **濾能科技** — 半導體廠房[[AMC]]微污染控制模組化化學濾網之設計、製造與安裝量測\n\n**下游 (終端客戶):**\n- **晶圓代工:** [[台積電]]（[[EUV]]先進製程[[無塵室]]核心客戶）、[[聯電]]\n- **面板:** [[群創]]等高階面板製造商\n- **記憶體:** 記憶體廠之先進製程[[無塵室]]",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]]（核心客戶，[[EUV]]先進製程[[無塵室]][[AMC]]控制）、[[聯電]]\n- **面板:** [[群創]]等高階面板製造商\n- **記憶體:** 記憶體廠之先進製程[[無塵室]]\n\n### 主要供應商\n- **特殊化學品:** 道益企業（新加坡大股東，跨國特殊化學品與耗材代理）\n- **活性碳:** 高階活性碳及化學改質活性碳精細化工供應商\n- **不織布/框材:** 超細纖維不織布及ABS外框材料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

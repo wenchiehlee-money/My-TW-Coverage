@@ -1,0 +1,262 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9912",
+  "company_name": "偉聯",
+  "title": "9912 - 偉聯",
+  "source_md": "Pilot_Reports/Electronic Components/9912_偉聯.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "680 百萬台幣",
+    "enterprise_value": "926 百萬台幣"
+  },
+  "business": {
+    "summary": "偉聯科技 (9912，AG Neovo/AIC) 為台灣專業顯示器品牌商與製造商，前身為 1978 年成立之偉聯工業 (鋼鐵貨櫃製造)，1999 年轉型進入電子業並創立自有品牌 [[AG Neovo]]。\n\n核心業務以 [[AG Neovo]] 品牌行銷全球，產品線涵蓋：(1) 安防監控 — 專業安防監視器、4K 影像監控、SDI 監控顯示器，為公司營收主力；(2) 醫療顯示 — 牙科專用顯示器、臨床檢視顯示器、醫療觸控螢幕；(3) 商用顯示 — 數位電子看板、拼接電視牆、智慧白板、觸控顯示器；(4) 交通資訊 — 已進入 [[台鐵]]、[[捷運]]、[[高鐵]] 系統，提供旅客資訊顯示方案。產品特色為長時間不停機運作與高度抗外力撞擊，在歐美安防與醫療市場具有知名度。公司亦涉及醫療器材銷售與不動產租賃。",
+    "entities": [
+      "AG Neovo",
+      "台鐵",
+      "捷運",
+      "高鐵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板與零組件)",
+        "text": "**上游 (面板與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "LCD 面板",
+        "text": "面板廠如 [[友達]]、[[群創]] — LCD 面板供應",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "驅動電路板",
+        "text": "[[PCB]] 與驅動板供應商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "金屬機殼與支架供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (顯示器製造)",
+        "text": "**中游 (顯示器製造):**",
+        "entities": []
+      },
+      {
+        "category": "安防監控顯示器",
+        "text": "**偉聯** ([[AG Neovo]] 品牌安防監視器製造)",
+        "entities": [
+          "AG Neovo"
+        ]
+      },
+      {
+        "category": "醫療顯示器",
+        "text": "**偉聯** (牙科與臨床用醫療顯示器)",
+        "entities": []
+      },
+      {
+        "category": "商用顯示",
+        "text": "**偉聯** (電子看板、拼接牆、觸控顯示器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "安防系統",
+        "text": "安防系統整合商 — 監控中心顯示器",
+        "entities": []
+      },
+      {
+        "category": "醫療機構",
+        "text": "醫院與牙科診所 — 醫療顯示器",
+        "entities": []
+      },
+      {
+        "category": "交通系統",
+        "text": "[[台鐵]]、[[捷運]]、[[高鐵]] — 旅客資訊顯示",
+        "entities": [
+          "台鐵",
+          "捷運",
+          "高鐵"
+        ]
+      },
+      {
+        "category": "商業場所",
+        "text": "零售與企業 — 數位看板與智慧白板",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "安防系統",
+        "text": "全球安防系統整合商 — [[AG Neovo]] 專業監控顯示器",
+        "entities": [
+          "AG Neovo"
+        ]
+      },
+      {
+        "role": "醫療機構",
+        "text": "歐美醫院與牙科診所 — 醫療級顯示器",
+        "entities": []
+      },
+      {
+        "role": "交通系統",
+        "text": "[[台鐵]]、[[捷運]]、[[高鐵]] — 旅客資訊顯示方案",
+        "entities": [
+          "台鐵",
+          "捷運",
+          "高鐵"
+        ]
+      },
+      {
+        "role": "商業場所",
+        "text": "零售業與企業客戶 — 數位看板與觸控顯示",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LCD 面板",
+        "text": "[[友達]]、[[群創]] — LCD 面板供應",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "驅動板",
+        "text": "[[PCB]] 與驅動電路板供應商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "機構件",
+        "text": "金屬機殼加工廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AG Neovo",
+          "台鐵",
+          "捷運",
+          "高鐵"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AG Neovo",
+      "type": "international_company_or_term",
+      "wikilink": "AG Neovo"
+    },
+    {
+      "name": "台鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鐵"
+    },
+    {
+      "name": "捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "捷運"
+    },
+    {
+      "name": "高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高鐵"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "偉聯科技 (9912，AG Neovo/AIC) 為台灣專業顯示器品牌商與製造商，前身為 1978 年成立之偉聯工業 (鋼鐵貨櫃製造)，1999 年轉型進入電子業並創立自有品牌 [[AG Neovo]]。\n\n核心業務以 [[AG Neovo]] 品牌行銷全球，產品線涵蓋：(1) 安防監控 — 專業安防監視器、4K 影像監控、SDI 監控顯示器，為公司營收主力；(2) 醫療顯示 — 牙科專用顯示器、臨床檢視顯示器、醫療觸控螢幕；(3) 商用顯示 — 數位電子看板、拼接電視牆、智慧白板、觸控顯示器；(4) 交通資訊 — 已進入 [[台鐵]]、[[捷運]]、[[高鐵]] 系統，提供旅客資訊顯示方案。產品特色為長時間不停機運作與高度抗外力撞擊，在歐美安防與醫療市場具有知名度。公司亦涉及醫療器材銷售與不動產租賃。",
+    "supply_chain_md": "**上游 (面板與零組件):**\n- **LCD 面板:** 面板廠如 [[友達]]、[[群創]] — LCD 面板供應\n- **驅動電路板:** [[PCB]] 與驅動板供應商\n- **機構件:** 金屬機殼與支架供應商\n\n**中游 (顯示器製造):**\n- **安防監控顯示器:** **偉聯** ([[AG Neovo]] 品牌安防監視器製造)\n- **醫療顯示器:** **偉聯** (牙科與臨床用醫療顯示器)\n- **商用顯示:** **偉聯** (電子看板、拼接牆、觸控顯示器)\n\n**下游 (終端應用):**\n- **安防系統:** 安防系統整合商 — 監控中心顯示器\n- **醫療機構:** 醫院與牙科診所 — 醫療顯示器\n- **交通系統:** [[台鐵]]、[[捷運]]、[[高鐵]] — 旅客資訊顯示\n- **商業場所:** 零售與企業 — 數位看板與智慧白板",
+    "customers_suppliers_md": "### 主要客戶\n- **安防系統:** 全球安防系統整合商 — [[AG Neovo]] 專業監控顯示器\n- **醫療機構:** 歐美醫院與牙科診所 — 醫療級顯示器\n- **交通系統:** [[台鐵]]、[[捷運]]、[[高鐵]] — 旅客資訊顯示方案\n- **商業場所:** 零售業與企業客戶 — 數位看板與觸控顯示\n\n### 主要供應商\n- **LCD 面板:** [[友達]]、[[群創]] — LCD 面板供應\n- **驅動板:** [[PCB]] 與驅動電路板供應商\n- **機構件:** 金屬機殼加工廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

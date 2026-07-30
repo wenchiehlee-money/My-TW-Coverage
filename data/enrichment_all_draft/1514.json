@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1514",
+  "company_name": "亞力",
+  "title": "1514 - 亞力",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/1514_亞力.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "26,735 百萬台幣",
+    "enterprise_value": "27,107 百萬台幣"
+  },
+  "business": {
+    "summary": "亞力電機 (1514，Allis Electric) 為台灣重電設備領導廠商，產品涵蓋變壓器 (含模塑型)、高低壓配電盤、氣封型開關及真空斷路器。電力電子事業含[[UPS]]、[[太陽能]]逆變器、[[電動巴士]]充電樁及微電網。亦為軌道工業 ([[高鐵]]、[[台鐵]]、[[台北捷運]]) 提供電力/號誌/監控系統機電統包。受惠[[台電]]強韌電網計畫、[[半導體]]廠擴廠及[[AI 伺服器]][[資料中心]]電源設備。客戶涵蓋[[台電]]、[[台積電]]、[[聯電]]。上游矽鋼片來自[[日本製鐵]]、[[POSCO]]，銅材來自[[華新麗華]]。",
+    "entities": [
+      "UPS",
+      "太陽能",
+      "電動巴士",
+      "高鐵",
+      "台鐵",
+      "台北捷運",
+      "台電",
+      "半導體",
+      "AI 伺服器",
+      "資料中心",
+      "台積電",
+      "聯電",
+      "日本製鐵",
+      "POSCO",
+      "華新麗華"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "矽鋼片",
+        "text": "[[日本製鐵]]、[[POSCO]]",
+        "entities": [
+          "日本製鐵",
+          "POSCO"
+        ]
+      },
+      {
+        "category": "銅材",
+        "text": "[[華新麗華]]",
+        "entities": [
+          "華新麗華"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與工程)",
+        "text": "**中游 (製造與工程):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**亞力** (變壓器/配電盤/[[UPS]]/充電樁/軌道機電統包)",
+        "entities": [
+          "UPS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電力",
+        "text": "[[台電]] — 強韌電網計畫",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[聯電]] — 擴廠用電",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "軌道",
+        "text": "[[高鐵]]、[[台鐵]]、[[台北捷運]] — 機電系統",
+        "entities": [
+          "高鐵",
+          "台鐵",
+          "台北捷運"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力",
+        "text": "[[台電]] — 強韌電網",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯電]] — 擴廠用電設備",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "軌道",
+        "text": "[[高鐵]]、[[台鐵]]、[[台北捷運]]",
+        "entities": [
+          "高鐵",
+          "台鐵",
+          "台北捷運"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "矽鋼片",
+        "text": "[[日本製鐵]]、[[POSCO]]",
+        "entities": [
+          "日本製鐵",
+          "POSCO"
+        ]
+      },
+      {
+        "role": "銅材",
+        "text": "[[華新麗華]]",
+        "entities": [
+          "華新麗華"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[華城]]、[[樂事綠能]]、[[廣隆]]、[[直得]]",
+        "entities": [
+          "士電",
+          "華城",
+          "樂事綠能",
+          "廣隆",
+          "直得"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "台積電",
+          "聯電",
+          "高鐵",
+          "台鐵",
+          "台北捷運"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "UPS",
+      "type": "international_company_or_term",
+      "wikilink": "UPS"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "電動巴士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動巴士"
+    },
+    {
+      "name": "高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高鐵"
+    },
+    {
+      "name": "台鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鐵"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "日本製鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日本製鐵"
+    },
+    {
+      "name": "POSCO",
+      "type": "international_company_or_term",
+      "wikilink": "POSCO"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    },
+    {
+      "name": "直得",
+      "type": "taiwan_company_or_term",
+      "wikilink": "直得"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "亞力電機 (1514，Allis Electric) 為台灣重電設備領導廠商，產品涵蓋變壓器 (含模塑型)、高低壓配電盤、氣封型開關及真空斷路器。電力電子事業含[[UPS]]、[[太陽能]]逆變器、[[電動巴士]]充電樁及微電網。亦為軌道工業 ([[高鐵]]、[[台鐵]]、[[台北捷運]]) 提供電力/號誌/監控系統機電統包。受惠[[台電]]強韌電網計畫、[[半導體]]廠擴廠及[[AI 伺服器]][[資料中心]]電源設備。客戶涵蓋[[台電]]、[[台積電]]、[[聯電]]。上游矽鋼片來自[[日本製鐵]]、[[POSCO]]，銅材來自[[華新麗華]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **矽鋼片:** [[日本製鐵]]、[[POSCO]]\n- **銅材:** [[華新麗華]]\n\n**中游 (製造與工程):**\n- **亞力** (變壓器/配電盤/[[UPS]]/充電樁/軌道機電統包)\n\n**下游 (終端):**\n- **電力:** [[台電]] — 強韌電網計畫\n- **半導體:** [[台積電]]、[[聯電]] — 擴廠用電\n- **軌道:** [[高鐵]]、[[台鐵]]、[[台北捷運]] — 機電系統",
+    "customers_suppliers_md": "### 主要客戶\n- **電力:** [[台電]] — 強韌電網\n- **半導體:** [[台積電]]、[[聯電]] — 擴廠用電設備\n- **軌道:** [[高鐵]]、[[台鐵]]、[[台北捷運]]\n\n### 主要供應商\n- **矽鋼片:** [[日本製鐵]]、[[POSCO]]\n- **銅材:** [[華新麗華]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -181,7 +181,30 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **AI/server power and electronics overlap:** [[台達電]]、[[群光]]、[[康舒]]",
+        "entities": [
+          "台達電",
+          "群光",
+          "康舒"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Meta",
+          "Nintendo",
+          "Sony",
+          "SpaceX",
+          "Starlink",
+          "Dell",
+          "HP",
+          "Supermicro"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -306,6 +329,21 @@
       "name": "ON Semiconductor",
       "type": "international_company_or_term",
       "wikilink": "ON Semiconductor"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "群光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群光"
+    },
+    {
+      "name": "康舒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康舒"
     }
   ],
   "source_text": {
@@ -317,6 +355,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 23,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

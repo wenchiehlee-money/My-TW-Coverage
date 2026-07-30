@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3512",
+  "company_name": "皇龍",
+  "title": "3512 - 皇龍",
+  "source_md": "Pilot_Reports/Real Estate Services/3512_皇龍.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "market_cap": "2,199 百萬台幣",
+    "enterprise_value": "3,987 百萬台幣"
+  },
+  "business": {
+    "summary": "[[皇龍]]開發股份有限公司 (3512，Royal Dragon Development) 為台灣不動產開發與營建公司。主要業務涵蓋住宅大樓、[[商辦]]及[[廠辦]]之投資興建與銷售，以及不動產租賃。推案區域以大[[台北]]地區及[[桃園]]為主。公司亦涉足營造工程，具備自有營造能力。近年聚焦於工業地產及廠辦開發，受惠於台灣[[製造業]]回流帶動之廠辦需求。代表建案包括桃園地區多項廠辦開發案。",
+    "entities": [
+      "皇龍",
+      "商辦",
+      "廠辦",
+      "台北",
+      "桃園",
+      "製造業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與建材)",
+        "text": "**上游 (土地與建材):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "大台北與桃園工業用地及住宅用地",
+        "entities": []
+      },
+      {
+        "category": "建材",
+        "text": "[[鋼筋]]、[[水泥]]、混凝土等建築材料",
+        "entities": [
+          "鋼筋",
+          "水泥"
+        ]
+      },
+      {
+        "category": "營造",
+        "text": "自有營造能力及外包營造廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與營建)",
+        "text": "**中游 (開發與營建):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**皇龍** — 住宅、商辦及廠辦投資興建與銷售",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "購屋者",
+        "text": "大台北與桃園地區購屋客群",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "製造業回流廠商 — 廠辦需求",
+        "entities": []
+      },
+      {
+        "category": "租賃客戶",
+        "text": "商辦與廠辦租戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "購屋者",
+        "text": "大台北與桃園地區購屋客群",
+        "entities": []
+      },
+      {
+        "role": "企業客戶",
+        "text": "台灣製造業回流廠商 — 廠辦採購",
+        "entities": []
+      },
+      {
+        "role": "租賃客戶",
+        "text": "商辦與廠辦租戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造工程",
+        "text": "自有營造團隊及外包營造廠",
+        "entities": []
+      },
+      {
+        "role": "建材",
+        "text": "鋼筋、水泥供應商",
+        "entities": []
+      },
+      {
+        "role": "建築設計",
+        "text": "建築師與室內設計事務所",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate Services):** [[上曜]]、[[勤益控]]、[[怡華]]、[[海悅]]、[[全坤建]]",
+        "entities": [
+          "上曜",
+          "勤益控",
+          "怡華",
+          "海悅",
+          "全坤建"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "皇龍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "皇龍"
+    },
+    {
+      "name": "商辦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "商辦"
+    },
+    {
+      "name": "廠辦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廠辦"
+    },
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "桃園",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園"
+    },
+    {
+      "name": "製造業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "製造業"
+    },
+    {
+      "name": "鋼筋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼筋"
+    },
+    {
+      "name": "水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水泥"
+    },
+    {
+      "name": "上曜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上曜"
+    },
+    {
+      "name": "勤益控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤益控"
+    },
+    {
+      "name": "怡華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "怡華"
+    },
+    {
+      "name": "海悅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海悅"
+    },
+    {
+      "name": "全坤建",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全坤建"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[皇龍]]開發股份有限公司 (3512，Royal Dragon Development) 為台灣不動產開發與營建公司。主要業務涵蓋住宅大樓、[[商辦]]及[[廠辦]]之投資興建與銷售，以及不動產租賃。推案區域以大[[台北]]地區及[[桃園]]為主。公司亦涉足營造工程，具備自有營造能力。近年聚焦於工業地產及廠辦開發，受惠於台灣[[製造業]]回流帶動之廠辦需求。代表建案包括桃園地區多項廠辦開發案。",
+    "supply_chain_md": "**上游 (土地與建材):**\n- **土地取得:** 大台北與桃園工業用地及住宅用地\n- **建材:** [[鋼筋]]、[[水泥]]、混凝土等建築材料\n- **營造:** 自有營造能力及外包營造廠\n\n**中游 (開發與營建):**\n- **皇龍** — 住宅、商辦及廠辦投資興建與銷售\n\n**下游 (終端客戶):**\n- **購屋者:** 大台北與桃園地區購屋客群\n- **企業客戶:** 製造業回流廠商 — 廠辦需求\n- **租賃客戶:** 商辦與廠辦租戶",
+    "customers_suppliers_md": "### 主要客戶\n- **購屋者:** 大台北與桃園地區購屋客群\n- **企業客戶:** 台灣製造業回流廠商 — 廠辦採購\n- **租賃客戶:** 商辦與廠辦租戶\n\n### 主要供應商\n- **營造工程:** 自有營造團隊及外包營造廠\n- **建材:** 鋼筋、水泥供應商\n- **建築設計:** 建築師與室內設計事務所"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2258",
+  "company_name": "鴻華先進-創",
+  "title": "2258 - 鴻華先進-創",
+  "source_md": "Pilot_Reports/Auto Manufacturers/2258_鴻華先進-創.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": "56,233 百萬台幣",
+    "enterprise_value": "57,276 百萬台幣"
+  },
+  "business": {
+    "summary": "鴻華先進科技 (2258，Foxtron Vehicle Technologies) 為[[鴻海集團]] (持股 45.62%) 與[[裕隆集團]] (持股 43.83%) 合資之電動車設計製造公司，以 CDMS (委託設計製造服務) 模式營運，基於開放式[[MIH]]平台開發電動車。已收購[[納智捷]] 100% 股權，推出自有品牌[[Foxtron]] Bria (Model B 量產版，89.9 萬元起)。產品線涵蓋 Model C (n7 休旅)、Model B (Bria 跨界)、Model E (旗艦轎車)、Model T (電動大巴)、Model U (微型巴士)。生產委託[[裕隆汽車]]苗栗三義廠 (乘用車) 及高雄橋頭新廠 (電動巴士，年產能 500 輛)。已與[[三菱扶桑]] (FUSO) 簽約，Model T/Model U 將以自有品牌於日本銷售 (預計 2027 年上市)。",
+    "entities": [
+      "鴻海集團",
+      "裕隆集團",
+      "MIH",
+      "納智捷",
+      "Foxtron",
+      "裕隆汽車",
+      "三菱扶桑"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (三電與零組件)",
+        "text": "**上游 (三電與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "動力系統",
+        "text": "[[日本電產]] (Nidec) — 三合一動力系統",
+        "entities": [
+          "日本電產"
+        ]
+      },
+      {
+        "category": "電池/電機",
+        "text": "[[鴻海集團]] — 電池模組與電機系統",
+        "entities": [
+          "鴻海集團"
+        ]
+      },
+      {
+        "category": "零組件",
+        "text": "[[MIH]]聯盟成員 — 台灣供應商佔比逾 50%",
+        "entities": [
+          "MIH"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設計製造)",
+        "text": "**中游 (設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**鴻華先進** ([[MIH]]平台電動車設計、CDMS 服務)",
+        "entities": [
+          "MIH"
+        ]
+      },
+      {
+        "category": "生產基地",
+        "text": "[[裕隆汽車]]三義廠 (乘用車)；高雄橋頭廠 (電動巴士)；高雄楠梓智慧製造中心 (2025 Q3 投產)",
+        "entities": [
+          "裕隆汽車"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與客戶)",
+        "text": "**下游 (品牌與客戶):**",
+        "entities": []
+      },
+      {
+        "category": "自有品牌",
+        "text": "[[Foxtron]] Bria — Model B 量產版",
+        "entities": [
+          "Foxtron"
+        ]
+      },
+      {
+        "category": "子公司",
+        "text": "[[納智捷]] — n7 (Model C) 品牌",
+        "entities": [
+          "納智捷"
+        ]
+      },
+      {
+        "category": "電動巴士",
+        "text": "[[高雄客運]] — Model T 首批客戶",
+        "entities": [
+          "高雄客運"
+        ]
+      },
+      {
+        "category": "日本市場",
+        "text": "[[三菱扶桑]] (FUSO) — Model T/Model U 日本品牌銷售 (預計 2027)",
+        "entities": [
+          "三菱扶桑"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "子公司品牌",
+        "text": "[[納智捷]] — n7 (Model C) 電動休旅",
+        "entities": [
+          "納智捷"
+        ]
+      },
+      {
+        "role": "自有品牌",
+        "text": "[[Foxtron]] Bria — Model B 跨界電動車",
+        "entities": [
+          "Foxtron"
+        ]
+      },
+      {
+        "role": "電動巴士",
+        "text": "[[高雄客運]] — Model T 首批客戶",
+        "entities": [
+          "高雄客運"
+        ]
+      },
+      {
+        "role": "日本市場",
+        "text": "[[三菱扶桑]] (FUSO) — Model T/U 日本銷售 (2027)",
+        "entities": [
+          "三菱扶桑"
+        ]
+      },
+      {
+        "role": "政府",
+        "text": "[[基隆市政府]] — 電動巴士採購",
+        "entities": [
+          "基隆市政府"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "動力系統",
+        "text": "[[日本電產]] (Nidec) — 三合一動力系統",
+        "entities": [
+          "日本電產"
+        ]
+      },
+      {
+        "role": "集團資源",
+        "text": "[[鴻海集團]] — 電池模組、電機及供應鏈管理",
+        "entities": [
+          "鴻海集團"
+        ]
+      },
+      {
+        "role": "代工製造",
+        "text": "[[裕隆汽車]] — 三義廠整車組裝",
+        "entities": [
+          "裕隆汽車"
+        ]
+      },
+      {
+        "role": "平台",
+        "text": "[[MIH]]聯盟 — 開放式電動車平台",
+        "entities": [
+          "MIH"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Manufacturers):** [[宏佳騰]]、[[裕隆]]、[[中華]]、[[三陽工業]]、[[裕日車]]",
+        "entities": [
+          "宏佳騰",
+          "裕隆",
+          "中華",
+          "三陽工業",
+          "裕日車"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "納智捷",
+          "Foxtron",
+          "高雄客運",
+          "三菱扶桑",
+          "基隆市政府"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海集團"
+    },
+    {
+      "name": "裕隆集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆集團"
+    },
+    {
+      "name": "MIH",
+      "type": "international_company_or_term",
+      "wikilink": "MIH"
+    },
+    {
+      "name": "納智捷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "納智捷"
+    },
+    {
+      "name": "Foxtron",
+      "type": "international_company_or_term",
+      "wikilink": "Foxtron"
+    },
+    {
+      "name": "裕隆汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆汽車"
+    },
+    {
+      "name": "三菱扶桑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱扶桑"
+    },
+    {
+      "name": "日本電產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日本電產"
+    },
+    {
+      "name": "高雄客運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄客運"
+    },
+    {
+      "name": "基隆市政府",
+      "type": "taiwan_company_or_term",
+      "wikilink": "基隆市政府"
+    },
+    {
+      "name": "宏佳騰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏佳騰"
+    },
+    {
+      "name": "裕隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆"
+    },
+    {
+      "name": "中華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華"
+    },
+    {
+      "name": "三陽工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三陽工業"
+    },
+    {
+      "name": "裕日車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕日車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鴻華先進科技 (2258，Foxtron Vehicle Technologies) 為[[鴻海集團]] (持股 45.62%) 與[[裕隆集團]] (持股 43.83%) 合資之電動車設計製造公司，以 CDMS (委託設計製造服務) 模式營運，基於開放式[[MIH]]平台開發電動車。已收購[[納智捷]] 100% 股權，推出自有品牌[[Foxtron]] Bria (Model B 量產版，89.9 萬元起)。產品線涵蓋 Model C (n7 休旅)、Model B (Bria 跨界)、Model E (旗艦轎車)、Model T (電動大巴)、Model U (微型巴士)。生產委託[[裕隆汽車]]苗栗三義廠 (乘用車) 及高雄橋頭新廠 (電動巴士，年產能 500 輛)。已與[[三菱扶桑]] (FUSO) 簽約，Model T/Model U 將以自有品牌於日本銷售 (預計 2027 年上市)。",
+    "supply_chain_md": "**上游 (三電與零組件):**\n- **動力系統:** [[日本電產]] (Nidec) — 三合一動力系統\n- **電池/電機:** [[鴻海集團]] — 電池模組與電機系統\n- **零組件:** [[MIH]]聯盟成員 — 台灣供應商佔比逾 50%\n\n**中游 (設計製造):**\n- **鴻華先進** ([[MIH]]平台電動車設計、CDMS 服務)\n- **生產基地:** [[裕隆汽車]]三義廠 (乘用車)；高雄橋頭廠 (電動巴士)；高雄楠梓智慧製造中心 (2025 Q3 投產)\n\n**下游 (品牌與客戶):**\n- **自有品牌:** [[Foxtron]] Bria — Model B 量產版\n- **子公司:** [[納智捷]] — n7 (Model C) 品牌\n- **電動巴士:** [[高雄客運]] — Model T 首批客戶\n- **日本市場:** [[三菱扶桑]] (FUSO) — Model T/Model U 日本品牌銷售 (預計 2027)",
+    "customers_suppliers_md": "### 主要客戶\n- **子公司品牌:** [[納智捷]] — n7 (Model C) 電動休旅\n- **自有品牌:** [[Foxtron]] Bria — Model B 跨界電動車\n- **電動巴士:** [[高雄客運]] — Model T 首批客戶\n- **日本市場:** [[三菱扶桑]] (FUSO) — Model T/U 日本銷售 (2027)\n- **政府:** [[基隆市政府]] — 電動巴士採購\n\n### 主要供應商\n- **動力系統:** [[日本電產]] (Nidec) — 三合一動力系統\n- **集團資源:** [[鴻海集團]] — 電池模組、電機及供應鏈管理\n- **代工製造:** [[裕隆汽車]] — 三義廠整車組裝\n- **平台:** [[MIH]]聯盟 — 開放式電動車平台"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

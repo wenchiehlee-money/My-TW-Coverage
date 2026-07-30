@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6599",
+  "company_name": "普達系統",
+  "title": "6599_普達系統",
+  "source_md": "Pilot_Reports/Computer Hardware/6599_普達系統.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "798 百萬台幣",
+    "enterprise_value": "515 百萬台幣"
+  },
+  "business": {
+    "summary": "捷迅股份有限公司 (6599，[[Jetwell Logistics]]) 是一家提供全球整合型跨境物流服務的國際承攬業者。捷迅以進出口報關業務起家，後續擴展至航空及海運貨物承攬，目前空運承攬佔其營收近八成。有別於傳統貨代，捷迅擁有自行開發的全球物流系統 (GLS)，能提供客戶海空運、陸運、保稅倉儲及 VMI (供應商管理庫存) 的「一站式」服務。捷迅在全球 (美、港、中、星、馬) 設有多個據點，並積極佈局高經濟價值的跨境電商物流與高科技電子零組件物流。面對全球地緣政治與「兩段式供應鏈」的崛起，捷迅的高效物流調度能[[力成]]為其贏得國際大廠訂單的核心優勢。",
+    "entities": [
+      "Jetwell Logistics",
+      "力成"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (運力提供者)",
+        "text": "**上游 (運力提供者):**",
+        "entities": []
+      },
+      {
+        "category": "航空運力",
+        "text": "[[中華航空]]、[[長榮航空]]、[[國泰航空]] 等國際航空公司提供機腹及全貨機艙位",
+        "entities": [
+          "中華航空",
+          "長榮航空",
+          "國泰航空"
+        ]
+      },
+      {
+        "category": "海運運力",
+        "text": "全球各大海運船公司 (航商) 提供貨櫃運力",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (國際物流承攬服務)",
+        "text": "**中游 (國際物流承攬服務):**",
+        "entities": []
+      },
+      {
+        "category": "貨物承攬",
+        "text": "**捷迅** (國際海/空運貨物承攬、進出口報關)",
+        "entities": []
+      },
+      {
+        "category": "加值服務",
+        "text": "**捷迅** (跨境電商物流、VMI 倉儲管理、陸運配送)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端託運客戶)",
+        "text": "**下游 (終端託運客戶):**",
+        "entities": []
+      },
+      {
+        "category": "高科技電子",
+        "text": "[[鴻海]]、[[華碩]]、[[台達電]]、[[佳世達]]、[[大聯大]]、[[宏碁]] 等台灣重量級電子大廠",
+        "entities": [
+          "鴻海",
+          "華碩",
+          "台達電",
+          "佳世達",
+          "大聯大",
+          "宏碁"
+        ]
+      },
+      {
+        "category": "跨境電商",
+        "text": "大型跨境電商平台及品牌廠商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "高科技電子",
+        "text": "[[鴻海]]、[[華碩]]、[[台達電]]、[[佳世達]]、[[大聯大]]、[[宏碁]] 等台灣電子大廠",
+        "entities": [
+          "鴻海",
+          "華碩",
+          "台達電",
+          "佳世達",
+          "大聯大",
+          "宏碁"
+        ]
+      },
+      {
+        "role": "跨境電商",
+        "text": "大型跨境電商平台及品牌廠商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "航空公司",
+        "text": "[[中華航空]]、[[長榮航空]]、[[國泰航空]] 等提供機腹與全貨機艙位",
+        "entities": [
+          "中華航空",
+          "長榮航空",
+          "國泰航空"
+        ]
+      },
+      {
+        "role": "海運船公司",
+        "text": "國際貨櫃船公司提供海運運力",
+        "entities": []
+      },
+      {
+        "role": "內陸運輸",
+        "text": "各國當地內陸運輸及報關行合作夥伴",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "鴻海",
+          "華碩",
+          "台達電",
+          "佳世達",
+          "大聯大",
+          "宏碁"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Jetwell Logistics",
+      "type": "international_company_or_term",
+      "wikilink": "Jetwell Logistics"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    },
+    {
+      "name": "中華航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華航空"
+    },
+    {
+      "name": "長榮航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航空"
+    },
+    {
+      "name": "國泰航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰航空"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "捷迅股份有限公司 (6599，[[Jetwell Logistics]]) 是一家提供全球整合型跨境物流服務的國際承攬業者。捷迅以進出口報關業務起家，後續擴展至航空及海運貨物承攬，目前空運承攬佔其營收近八成。有別於傳統貨代，捷迅擁有自行開發的全球物流系統 (GLS)，能提供客戶海空運、陸運、保稅倉儲及 VMI (供應商管理庫存) 的「一站式」服務。捷迅在全球 (美、港、中、星、馬) 設有多個據點，並積極佈局高經濟價值的跨境電商物流與高科技電子零組件物流。面對全球地緣政治與「兩段式供應鏈」的崛起，捷迅的高效物流調度能[[力成]]為其贏得國際大廠訂單的核心優勢。",
+    "supply_chain_md": "**上游 (運力提供者):**\n- **航空運力:** [[中華航空]]、[[長榮航空]]、[[國泰航空]] 等國際航空公司提供機腹及全貨機艙位\n- **海運運力:** 全球各大海運船公司 (航商) 提供貨櫃運力\n\n**中游 (國際物流承攬服務):**\n- **貨物承攬:** **捷迅** (國際海/空運貨物承攬、進出口報關)\n- **加值服務:** **捷迅** (跨境電商物流、VMI 倉儲管理、陸運配送)\n\n**下游 (終端託運客戶):**\n- **高科技電子:** [[鴻海]]、[[華碩]]、[[台達電]]、[[佳世達]]、[[大聯大]]、[[宏碁]] 等台灣重量級電子大廠\n- **跨境電商:** 大型跨境電商平台及品牌廠商",
+    "customers_suppliers_md": "### 主要客戶\n- **高科技電子:** [[鴻海]]、[[華碩]]、[[台達電]]、[[佳世達]]、[[大聯大]]、[[宏碁]] 等台灣電子大廠\n- **跨境電商:** 大型跨境電商平台及品牌廠商\n\n### 主要供應商\n- **航空公司:** [[中華航空]]、[[長榮航空]]、[[國泰航空]] 等提供機腹與全貨機艙位\n- **海運船公司:** 國際貨櫃船公司提供海運運力\n- **內陸運輸:** 各國當地內陸運輸及報關行合作夥伴"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

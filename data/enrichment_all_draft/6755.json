@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6755",
+  "company_name": "連鋐科技",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/Computer Hardware/6755_連鋐科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "540 百萬台幣",
+    "enterprise_value": "1,411 百萬台幣"
+  },
+  "business": {
+    "summary": "連鋐科技股份有限公司 (6755) 成立於 2005 年，總部位於桃園龜山，是一家專精於精密金屬樞紐 (Hinge) 零組件與金屬沖壓機構件的製造商。連鋐科技掌握了高門檻的多軸體同步轉動及精密切削技術，其開發的凹凸輪輕薄樞紐及 360 度翻轉樞紐，被廣泛應用於高階筆記型電腦、變形平板電腦及數位相機的翻轉螢幕。產品行銷台灣、中國大陸及國際市場。隨著終端電子產品朝向極致輕薄與多型態折疊發展，連鋐不斷升級其精密製造工藝。公司也積極將金屬結構設計實力延伸至車載電子 (汽車中控螢幕支架) 及其他 3C 及智慧家電領域的支撐零組件。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬材料與精密零件)",
+        "text": "**上游 (金屬材料與精密零件):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "不鏽鋼板材/碳鋼等特殊金屬捲料供應商",
+        "entities": []
+      },
+      {
+        "category": "精密元件",
+        "text": "精密彈簧、塑膠墊片及潤滑防鏽化學塗料",
+        "entities": []
+      },
+      {
+        "category": "粉末冶金",
+        "text": "粉末冶金成型材料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (精密樞紐製造)",
+        "text": "**中游 (精密樞紐製造):**",
+        "entities": []
+      },
+      {
+        "category": "NB 樞紐",
+        "text": "**連鋐科技** (高階筆電 360 度翻轉樞紐 Hinge)",
+        "entities": []
+      },
+      {
+        "category": "平板/相機",
+        "text": "**連鋐科技** (平板/相機多軸樞紐)",
+        "entities": []
+      },
+      {
+        "category": "車載應用",
+        "text": "**連鋐科技** (汽車中控螢幕支架機構件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (筆電 ODM 與品牌客戶)",
+        "text": "**下游 (筆電 ODM 與品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "筆電代工",
+        "text": "[[廣達]]、[[仁寶]]、[[英業達]] 等筆電 ODM 廠",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "英業達"
+        ]
+      },
+      {
+        "category": "品牌客戶",
+        "text": "[[Lenovo]]、[[Dell]]、[[HP]] 等筆電品牌間接供貨",
+        "entities": [
+          "Lenovo",
+          "Dell",
+          "HP"
+        ]
+      },
+      {
+        "category": "相機品牌",
+        "text": "日系相機大廠翻轉螢幕樞紐",
+        "entities": []
+      },
+      {
+        "category": "車載電子",
+        "text": "汽車內裝中控台 Tier-1 供應商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "筆電 ODM",
+        "text": "[[廣達]]、[[仁寶]]、[[英業達]] 等全球筆電代工廠",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "英業達"
+        ]
+      },
+      {
+        "role": "品牌間接",
+        "text": "[[Lenovo]]、[[Dell]]、[[HP]] 等筆電品牌透過代工廠間接供貨",
+        "entities": [
+          "Lenovo",
+          "Dell",
+          "HP"
+        ]
+      },
+      {
+        "role": "日系相機",
+        "text": "日本數位相機品牌大廠 — 翻轉螢幕樞紐",
+        "entities": []
+      },
+      {
+        "role": "車載電子",
+        "text": "汽車中控台電子零組件 Tier-1 廠商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊鋼材",
+        "text": "兩岸大型特殊合金鋼材冶煉貿易商",
+        "entities": []
+      },
+      {
+        "role": "表面處理",
+        "text": "專業金屬表面處理/電鍍廠",
+        "entities": []
+      },
+      {
+        "role": "自動化設備",
+        "text": "精密 CNC 加工自動化設備商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "廣達",
+          "仁寶",
+          "英業達",
+          "Lenovo",
+          "Dell",
+          "HP"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "連鋐科技股份有限公司 (6755) 成立於 2005 年，總部位於桃園龜山，是一家專精於精密金屬樞紐 (Hinge) 零組件與金屬沖壓機構件的製造商。連鋐科技掌握了高門檻的多軸體同步轉動及精密切削技術，其開發的凹凸輪輕薄樞紐及 360 度翻轉樞紐，被廣泛應用於高階筆記型電腦、變形平板電腦及數位相機的翻轉螢幕。產品行銷台灣、中國大陸及國際市場。隨著終端電子產品朝向極致輕薄與多型態折疊發展，連鋐不斷升級其精密製造工藝。公司也積極將金屬結構設計實力延伸至車載電子 (汽車中控螢幕支架) 及其他 3C 及智慧家電領域的支撐零組件。",
+    "supply_chain_md": "**上游 (金屬材料與精密零件):**\n- **鋼材:** 不鏽鋼板材/碳鋼等特殊金屬捲料供應商\n- **精密元件:** 精密彈簧、塑膠墊片及潤滑防鏽化學塗料\n- **粉末冶金:** 粉末冶金成型材料供應商\n\n**中游 (精密樞紐製造):**\n- **NB 樞紐:** **連鋐科技** (高階筆電 360 度翻轉樞紐 Hinge)\n- **平板/相機:** **連鋐科技** (平板/相機多軸樞紐)\n- **車載應用:** **連鋐科技** (汽車中控螢幕支架機構件)\n\n**下游 (筆電 ODM 與品牌客戶):**\n- **筆電代工:** [[廣達]]、[[仁寶]]、[[英業達]] 等筆電 ODM 廠\n- **品牌客戶:** [[Lenovo]]、[[Dell]]、[[HP]] 等筆電品牌間接供貨\n- **相機品牌:** 日系相機大廠翻轉螢幕樞紐\n- **車載電子:** 汽車內裝中控台 Tier-1 供應商",
+    "customers_suppliers_md": "### 主要客戶\n- **筆電 ODM:** [[廣達]]、[[仁寶]]、[[英業達]] 等全球筆電代工廠\n- **品牌間接:** [[Lenovo]]、[[Dell]]、[[HP]] 等筆電品牌透過代工廠間接供貨\n- **日系相機:** 日本數位相機品牌大廠 — 翻轉螢幕樞紐\n- **車載電子:** 汽車中控台電子零組件 Tier-1 廠商\n\n### 主要供應商\n- **特殊鋼材:** 兩岸大型特殊合金鋼材冶煉貿易商\n- **表面處理:** 專業金屬表面處理/電鍍廠\n- **自動化設備:** 精密 CNC 加工自動化設備商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4916",
+  "company_name": "事欣科",
+  "title": "4916 - 事欣科",
+  "source_md": "Pilot_Reports/Computer Hardware/4916_事欣科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "11,159 百萬台幣",
+    "enterprise_value": "10,882 百萬台幣"
+  },
+  "business": {
+    "summary": "事欣科 (4916，[[Parpro]]) 為專業 [[EMS]] 與工業電腦系統整合商，總部位於台灣，生產基地集中於北美 (加州、內華達州及墨西哥)，具備 100% 北美在地製造優勢，可有效規避跨太平洋關稅。\n\n核心業務涵蓋四大領域：(1) **博弈/遊戲機**：為全球前三大博弈設備廠代工吃角子老虎機、電子遊戲機台之整機組裝；(2) **航太與國防**：取得 [[NASA]] 及 [[Boeing]] (波音) 認證，生產航太線束及機構件，2025 年正式取得美系航空大廠訂單並開始出貨；(3) **[[低軌衛星]]通訊**：為 [[SpaceX]] (Starlink) 供應衛星地面接收站之 [[PCB]]/PCBA 及組裝服務；(4) **工業電腦**：Kiosk 自助服務機台、醫療設備。公司擁有 **ITAR (國際武器貿易條例)** 認證，在國防供應鏈中具備高度進入門檻。",
+    "entities": [
+      "Parpro",
+      "EMS",
+      "NASA",
+      "Boeing",
+      "低軌衛星",
+      "SpaceX",
+      "PCB"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子零組件與機構材料)",
+        "text": "**上游 (電子零組件與機構材料):**",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "CPU、FPGA、電源模組等工規電子零組件",
+        "entities": []
+      },
+      {
+        "category": "面板/顯示",
+        "text": "博弈機台用顯示面板",
+        "entities": []
+      },
+      {
+        "category": "機構材料",
+        "text": "金屬板材、航太級線束材料",
+        "entities": []
+      },
+      {
+        "category": "PCB",
+        "text": "[[PCB]] 及 PCBA 基板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EMS 系統整合組裝)",
+        "text": "**中游 (EMS 系統整合組裝):**",
+        "entities": []
+      },
+      {
+        "category": "博弈設備",
+        "text": "**事欣科** (吃角子老虎機整機組裝、[[EMS]] 代工)",
+        "entities": [
+          "EMS"
+        ]
+      },
+      {
+        "category": "航太國防",
+        "text": "**事欣科** (航太線束、機構件製造，ITAR 認證)",
+        "entities": []
+      },
+      {
+        "category": "衛星通訊",
+        "text": "**事欣科** ([[低軌衛星]]地面站 PCBA 及組裝)",
+        "entities": [
+          "低軌衛星"
+        ]
+      },
+      {
+        "category": "生產基地",
+        "text": "加州、內華達州、墨西哥",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌與政府機構)",
+        "text": "**下游 (終端品牌與政府機構):**",
+        "entities": []
+      },
+      {
+        "category": "博弈設備",
+        "text": "[[Aristocrat]]、[[Light & Wonder]] — 全球前三大博弈機台品牌",
+        "entities": [
+          "Aristocrat",
+          "Light & Wonder"
+        ]
+      },
+      {
+        "category": "航太",
+        "text": "[[Boeing]] — 航太線束及機構件",
+        "entities": [
+          "Boeing"
+        ]
+      },
+      {
+        "category": "衛星",
+        "text": "[[SpaceX]] (Starlink) — 地面接收站設備",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "category": "國防",
+        "text": "美國國防部供應鏈 — ITAR 認證供應商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "博弈設備",
+        "text": "[[Aristocrat]]、[[Light & Wonder]] — 全球前三大博弈機台品牌整機代工",
+        "entities": [
+          "Aristocrat",
+          "Light & Wonder"
+        ]
+      },
+      {
+        "role": "航太",
+        "text": "[[Boeing]] (波音) — 航太線束及機構件 (2025 年取得新訂單)",
+        "entities": [
+          "Boeing"
+        ]
+      },
+      {
+        "role": "衛星通訊",
+        "text": "[[SpaceX]] (Starlink) — [[低軌衛星]]地面接收站 PCBA 及組裝",
+        "entities": [
+          "SpaceX",
+          "低軌衛星"
+        ]
+      },
+      {
+        "role": "國防",
+        "text": "美國國防部相關供應鏈 — ITAR 認證供應商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電子元件",
+        "text": "工規 CPU、FPGA 及電源模組供應商",
+        "entities": []
+      },
+      {
+        "role": "機構材料",
+        "text": "金屬板材及航太級線束材料供應商",
+        "entities": []
+      },
+      {
+        "role": "PCB",
+        "text": "[[PCB]] 基板製造商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Aristocrat",
+          "Light & Wonder",
+          "Boeing",
+          "SpaceX",
+          "低軌衛星"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Parpro",
+      "type": "international_company_or_term",
+      "wikilink": "Parpro"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "NASA",
+      "type": "international_company_or_term",
+      "wikilink": "NASA"
+    },
+    {
+      "name": "Boeing",
+      "type": "international_company_or_term",
+      "wikilink": "Boeing"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Aristocrat",
+      "type": "international_company_or_term",
+      "wikilink": "Aristocrat"
+    },
+    {
+      "name": "Light & Wonder",
+      "type": "international_company_or_term",
+      "wikilink": "Light & Wonder"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "事欣科 (4916，[[Parpro]]) 為專業 [[EMS]] 與工業電腦系統整合商，總部位於台灣，生產基地集中於北美 (加州、內華達州及墨西哥)，具備 100% 北美在地製造優勢，可有效規避跨太平洋關稅。\n\n核心業務涵蓋四大領域：(1) **博弈/遊戲機**：為全球前三大博弈設備廠代工吃角子老虎機、電子遊戲機台之整機組裝；(2) **航太與國防**：取得 [[NASA]] 及 [[Boeing]] (波音) 認證，生產航太線束及機構件，2025 年正式取得美系航空大廠訂單並開始出貨；(3) **[[低軌衛星]]通訊**：為 [[SpaceX]] (Starlink) 供應衛星地面接收站之 [[PCB]]/PCBA 及組裝服務；(4) **工業電腦**：Kiosk 自助服務機台、醫療設備。公司擁有 **ITAR (國際武器貿易條例)** 認證，在國防供應鏈中具備高度進入門檻。",
+    "supply_chain_md": "**上游 (電子零組件與機構材料):**\n- **電子元件:** CPU、FPGA、電源模組等工規電子零組件\n- **面板/顯示:** 博弈機台用顯示面板\n- **機構材料:** 金屬板材、航太級線束材料\n- **PCB:** [[PCB]] 及 PCBA 基板\n\n**中游 (EMS 系統整合組裝):**\n- **博弈設備:** **事欣科** (吃角子老虎機整機組裝、[[EMS]] 代工)\n- **航太國防:** **事欣科** (航太線束、機構件製造，ITAR 認證)\n- **衛星通訊:** **事欣科** ([[低軌衛星]]地面站 PCBA 及組裝)\n- **生產基地:** 加州、內華達州、墨西哥\n\n**下游 (終端品牌與政府機構):**\n- **博弈設備:** [[Aristocrat]]、[[Light & Wonder]] — 全球前三大博弈機台品牌\n- **航太:** [[Boeing]] — 航太線束及機構件\n- **衛星:** [[SpaceX]] (Starlink) — 地面接收站設備\n- **國防:** 美國國防部供應鏈 — ITAR 認證供應商",
+    "customers_suppliers_md": "### 主要客戶\n- **博弈設備:** [[Aristocrat]]、[[Light & Wonder]] — 全球前三大博弈機台品牌整機代工\n- **航太:** [[Boeing]] (波音) — 航太線束及機構件 (2025 年取得新訂單)\n- **衛星通訊:** [[SpaceX]] (Starlink) — [[低軌衛星]]地面接收站 PCBA 及組裝\n- **國防:** 美國國防部相關供應鏈 — ITAR 認證供應商\n\n### 主要供應商\n- **電子元件:** 工規 CPU、FPGA 及電源模組供應商\n- **機構材料:** 金屬板材及航太級線束材料供應商\n- **PCB:** [[PCB]] 基板製造商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

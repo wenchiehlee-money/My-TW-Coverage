@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2236",
+  "company_name": "百達-KY",
+  "title": "2236 - 百達-KY",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/2236_百達-KY.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "8,044 百萬台幣",
+    "enterprise_value": "10,165 百萬台幣"
+  },
+  "business": {
+    "summary": "百達精密 (2236，百達-KY，Patec) 總部新加坡，專精精密沖壓機台與汽機車金屬沖壓零件 (佔營收逾80%)。2024年收購 BIGL (約23.9億台幣) 掌握[[Seagate]] HDD 致動臂訂單。汽車客戶含[[BYD]]、長安汽車等中國[[電動車]]廠。產品涵蓋排氣系統、門鎖座椅、煞車系統、動力系統及避震系統零組件。據點含新加坡、印尼、中國、泰國、越南、歐洲。另為[[Honda]]、[[Yamaha]]供應機車沖壓件。",
+    "entities": [
+      "Seagate",
+      "BYD",
+      "電動車",
+      "Honda",
+      "Yamaha"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼板/模具鋼",
+        "text": "金屬材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**百達** (精密沖壓機台/汽機車沖壓件/HDD致動臂)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "[[BYD]]、長安汽車",
+        "entities": [
+          "BYD"
+        ]
+      },
+      {
+        "category": "HDD",
+        "text": "[[Seagate]] (透過BIGL)",
+        "entities": [
+          "Seagate"
+        ]
+      },
+      {
+        "category": "機車",
+        "text": "[[Honda]]、[[Yamaha]] — 東南亞沖壓件",
+        "entities": [
+          "Honda",
+          "Yamaha"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EV",
+        "text": "[[BYD]]、長安汽車 — [[電動車]]沖壓件",
+        "entities": [
+          "BYD",
+          "電動車"
+        ]
+      },
+      {
+        "role": "HDD",
+        "text": "[[Seagate]] — 致動臂",
+        "entities": [
+          "Seagate"
+        ]
+      },
+      {
+        "role": "機車",
+        "text": "[[Honda]]、[[Yamaha]] — 沖壓件",
+        "entities": [
+          "Honda",
+          "Yamaha"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "鋼板/模具鋼",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "BYD",
+          "電動車",
+          "Seagate",
+          "Honda",
+          "Yamaha"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "百達精密 (2236，百達-KY，Patec) 總部新加坡，專精精密沖壓機台與汽機車金屬沖壓零件 (佔營收逾80%)。2024年收購 BIGL (約23.9億台幣) 掌握[[Seagate]] HDD 致動臂訂單。汽車客戶含[[BYD]]、長安汽車等中國[[電動車]]廠。產品涵蓋排氣系統、門鎖座椅、煞車系統、動力系統及避震系統零組件。據點含新加坡、印尼、中國、泰國、越南、歐洲。另為[[Honda]]、[[Yamaha]]供應機車沖壓件。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼板/模具鋼:** 金屬材料\n\n**中游 (製造):**\n- **百達** (精密沖壓機台/汽機車沖壓件/HDD致動臂)\n\n**下游 (終端):**\n- **電動車:** [[BYD]]、長安汽車\n- **HDD:** [[Seagate]] (透過BIGL)\n- **機車:** [[Honda]]、[[Yamaha]] — 東南亞沖壓件",
+    "customers_suppliers_md": "### 主要客戶\n- **EV:** [[BYD]]、長安汽車 — [[電動車]]沖壓件\n- **HDD:** [[Seagate]] — 致動臂\n- **機車:** [[Honda]]、[[Yamaha]] — 沖壓件\n\n### 主要供應商\n- 鋼板/模具鋼"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

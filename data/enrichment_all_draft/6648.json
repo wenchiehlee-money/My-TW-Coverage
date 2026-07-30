@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6648",
+  "company_name": "斯其大",
+  "title": "6648_斯其大",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/6648_斯其大.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "745 百萬台幣",
+    "enterprise_value": "729 百萬台幣"
+  },
+  "business": {
+    "summary": "豐祥-KY (6648，斯其大) 為越南精密金屬加工廠 (20年+)。機車客戶含[[Honda]]、[[Yamaha]]、[[Piaggio]]、[[三陽工業]]。休閒車含[[Polaris]]、[[Harley-Davidson]]。",
+    "entities": [
+      "Honda",
+      "Yamaha",
+      "Piaggio",
+      "三陽工業",
+      "Polaris",
+      "Harley-Davidson"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "鋼/鋁/鋅",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**豐祥** (沖壓/鍛造/壓鑄/CNC)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[Honda]]、[[Yamaha]]、[[Piaggio]]、[[Polaris]]、[[Harley-Davidson]]",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Piaggio",
+          "Polaris",
+          "Harley-Davidson"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Honda]]、[[Yamaha]]、[[Piaggio]]、[[三陽工業]]",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Piaggio",
+          "三陽工業"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Polaris]]、[[Harley-Davidson]]",
+        "entities": [
+          "Polaris",
+          "Harley-Davidson"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "越南/台日韓鋼鋁",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Honda",
+          "Yamaha",
+          "Piaggio",
+          "三陽工業",
+          "Polaris",
+          "Harley-Davidson"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "Piaggio",
+      "type": "international_company_or_term",
+      "wikilink": "Piaggio"
+    },
+    {
+      "name": "三陽工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三陽工業"
+    },
+    {
+      "name": "Polaris",
+      "type": "international_company_or_term",
+      "wikilink": "Polaris"
+    },
+    {
+      "name": "Harley-Davidson",
+      "type": "international_company_or_term",
+      "wikilink": "Harley-Davidson"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "豐祥-KY (6648，斯其大) 為越南精密金屬加工廠 (20年+)。機車客戶含[[Honda]]、[[Yamaha]]、[[Piaggio]]、[[三陽工業]]。休閒車含[[Polaris]]、[[Harley-Davidson]]。",
+    "supply_chain_md": "**上游:** 鋼/鋁/鋅\n**中游:** **豐祥** (沖壓/鍛造/壓鑄/CNC)\n**下游:** [[Honda]]、[[Yamaha]]、[[Piaggio]]、[[Polaris]]、[[Harley-Davidson]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Honda]]、[[Yamaha]]、[[Piaggio]]、[[三陽工業]]\n- [[Polaris]]、[[Harley-Davidson]]\n\n### 主要供應商\n- 越南/台日韓鋼鋁"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

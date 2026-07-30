@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2511",
+  "company_name": "太子",
+  "title": "2511 - 太子",
+  "source_md": "Pilot_Reports/Real Estate - Development/2511_太子.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development",
+    "market_cap": "13,679 百萬台幣",
+    "enterprise_value": "15,931 百萬台幣"
+  },
+  "business": {
+    "summary": "[[太子建設]] (2511，Prince Housing & Development) 成立於 1973 年，總部位於台南，由[[台南幫]]之[[台南紡織]]、[[統一]]、[[環球水泥]]等集資成立，1991 年公開上市。公司為台灣老牌建商，業務涵蓋住宅及商業大樓開發銷售、觀光飯店經營、停車場營運及物業管理。旗下飯店事業包含[[台南老爺行旅]]等。推案區域集中於台南、高雄及北部地區，產品涵蓋首購住宅、換屋豪宅及商辦。",
+    "entities": [
+      "太子建設",
+      "台南幫",
+      "台南紡織",
+      "統一",
+      "環球水泥",
+      "台南老爺行旅"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與營造)",
+        "text": "**上游 (土地與營造):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "全台主要都會區購地及合建",
+        "entities": []
+      },
+      {
+        "category": "營造施工",
+        "text": "國內甲級營造廠",
+        "entities": []
+      },
+      {
+        "category": "建材",
+        "text": "[[環球水泥]]等水泥廠、鋼筋供應商",
+        "entities": [
+          "環球水泥"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與經營)",
+        "text": "**中游 (開發與經營):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**太子建設** — 住宅及商辦開發銷售",
+        "entities": []
+      },
+      {
+        "category": "飯店事業",
+        "text": "[[台南老爺行旅]] ([[老爺酒店集團]]) 等觀光旅館經營",
+        "entities": [
+          "台南老爺行旅",
+          "老爺酒店集團"
+        ]
+      },
+      {
+        "category": "停車場",
+        "text": "機械停車場設備營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "購屋族群",
+        "text": "台南、高雄及北部地區之自住及換屋客群",
+        "entities": []
+      },
+      {
+        "category": "飯店旅客",
+        "text": "商務及觀光旅客",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "住宅買方",
+        "text": "台南、高雄及北部購屋族群",
+        "entities": []
+      },
+      {
+        "role": "飯店旅客",
+        "text": "[[台南老爺行旅]] ([[老爺酒店集團]]) 旗下飯店住客",
+        "entities": [
+          "台南老爺行旅",
+          "老爺酒店集團"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "創始股東",
+        "text": "[[台南紡織]]、[[統一]]、[[環球水泥]]",
+        "entities": [
+          "台南紡織",
+          "統一",
+          "環球水泥"
+        ]
+      },
+      {
+        "role": "營造廠",
+        "text": "國內甲級營造廠",
+        "entities": []
+      },
+      {
+        "role": "建材",
+        "text": "[[環球水泥]]、鋼筋及機電設備供應商",
+        "entities": [
+          "環球水泥"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate - Development):** [[華友聯]]、[[名軒]]、[[寶徠]]、[[潤隆]]、[[新美齊]]",
+        "entities": [
+          "華友聯",
+          "名軒",
+          "寶徠",
+          "潤隆",
+          "新美齊"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台南老爺行旅",
+          "老爺酒店集團"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "太子建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太子建設"
+    },
+    {
+      "name": "台南幫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台南幫"
+    },
+    {
+      "name": "台南紡織",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台南紡織"
+    },
+    {
+      "name": "統一",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一"
+    },
+    {
+      "name": "環球水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環球水泥"
+    },
+    {
+      "name": "台南老爺行旅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台南老爺行旅"
+    },
+    {
+      "name": "老爺酒店集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "老爺酒店集團"
+    },
+    {
+      "name": "華友聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華友聯"
+    },
+    {
+      "name": "名軒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "名軒"
+    },
+    {
+      "name": "寶徠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶徠"
+    },
+    {
+      "name": "潤隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "潤隆"
+    },
+    {
+      "name": "新美齊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新美齊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[太子建設]] (2511，Prince Housing & Development) 成立於 1973 年，總部位於台南，由[[台南幫]]之[[台南紡織]]、[[統一]]、[[環球水泥]]等集資成立，1991 年公開上市。公司為台灣老牌建商，業務涵蓋住宅及商業大樓開發銷售、觀光飯店經營、停車場營運及物業管理。旗下飯店事業包含[[台南老爺行旅]]等。推案區域集中於台南、高雄及北部地區，產品涵蓋首購住宅、換屋豪宅及商辦。",
+    "supply_chain_md": "**上游 (土地與營造):**\n- **土地取得:** 全台主要都會區購地及合建\n- **營造施工:** 國內甲級營造廠\n- **建材:** [[環球水泥]]等水泥廠、鋼筋供應商\n\n**中游 (開發與經營):**\n- **太子建設** — 住宅及商辦開發銷售\n- **飯店事業:** [[台南老爺行旅]] ([[老爺酒店集團]]) 等觀光旅館經營\n- **停車場:** 機械停車場設備營運\n\n**下游 (終端客戶):**\n- **購屋族群:** 台南、高雄及北部地區之自住及換屋客群\n- **飯店旅客:** 商務及觀光旅客",
+    "customers_suppliers_md": "### 主要客戶\n- **住宅買方:** 台南、高雄及北部購屋族群\n- **飯店旅客:** [[台南老爺行旅]] ([[老爺酒店集團]]) 旗下飯店住客\n\n### 主要供應商\n- **創始股東:** [[台南紡織]]、[[統一]]、[[環球水泥]]\n- **營造廠:** 國內甲級營造廠\n- **建材:** [[環球水泥]]、鋼筋及機電設備供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

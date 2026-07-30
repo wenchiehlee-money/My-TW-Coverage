@@ -1,0 +1,286 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3152",
+  "company_name": "璟德",
+  "title": "3152 - 璟德",
+  "source_md": "Pilot_Reports/Electronic Components/3152_璟德.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "14,666 百萬台幣",
+    "enterprise_value": "5,935 百萬台幣"
+  },
+  "business": {
+    "summary": "璟德電子 ([[ACX Corporation]]) 為台灣最大高頻整合元件 ([[LTCC]]) 製造商，亦為全球前三大 [[LTCC]] 領導廠。公司利用核心低溫共燒陶瓷 ([[LTCC]]) 技術，將多種被動元件整合於單一陶瓷封裝中，縮小終端裝置體積。\n\n關鍵產品與應用：(1) [[5G]]/6G 射頻前端 — 提供高頻濾波器 (Filter)、天線 (Antenna) 與分工器，為智慧手機通訊核心；(2) [[Wi-Fi 7]] 規格升級 — 隨頻段增加帶動高效率 [[LTCC]] 濾波器需求大幅成長；(3) [[低軌衛星]] — 產品通過主流基頻平台 ([[Broadcom]]、[[聯發科]]、[[Qualcomm]]) 認證，應用於 LEO 地面接收站。",
+    "entities": [
+      "ACX Corporation",
+      "LTCC",
+      "5G",
+      "Wi-Fi 7",
+      "低軌衛星",
+      "Broadcom",
+      "聯發科",
+      "Qualcomm"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (陶瓷材料與貴金屬)",
+        "text": "**上游 (陶瓷材料與貴金屬):**",
+        "entities": []
+      },
+      {
+        "category": "陶瓷粉末",
+        "text": "特殊配方陶瓷粉末",
+        "entities": []
+      },
+      {
+        "category": "導電漿料",
+        "text": "貴金屬 (銀/金) 導電漿料",
+        "entities": []
+      },
+      {
+        "category": "基板材料",
+        "text": "生坯帶基材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[LTCC]] 元件製造)",
+        "text": "**中游 ([[LTCC]] 元件製造):**",
+        "entities": [
+          "LTCC"
+        ]
+      },
+      {
+        "category": "濾波器",
+        "text": "**璟德** ([[LTCC]] 高頻濾波器)",
+        "entities": [
+          "LTCC"
+        ]
+      },
+      {
+        "category": "天線模組",
+        "text": "**璟德** ([[LTCC]] 整合天線)",
+        "entities": [
+          "LTCC"
+        ]
+      },
+      {
+        "category": "分工器",
+        "text": "**璟德** (射頻分工/耦合器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計平台與系統廠)",
+        "text": "**下游 (IC 設計平台與系統廠):**",
+        "entities": []
+      },
+      {
+        "category": "IC 參考設計",
+        "text": "[[Broadcom]]、[[聯發科]]、[[Qualcomm]] — 共同研發認證",
+        "entities": [
+          "Broadcom",
+          "聯發科",
+          "Qualcomm"
+        ]
+      },
+      {
+        "category": "網通設備",
+        "text": "[[智邦]]、[[中磊]]、[[鴻海]] — 網通/手機系統組裝",
+        "entities": [
+          "智邦",
+          "中磊",
+          "鴻海"
+        ]
+      },
+      {
+        "category": "[[低軌衛星]]",
+        "text": "衛星地面接收站設備廠",
+        "entities": [
+          "低軌衛星"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "IC 設計平台",
+        "text": "[[Broadcom]]、[[聯發科]]、[[Qualcomm]] — 射頻參考設計搭配",
+        "entities": [
+          "Broadcom",
+          "聯發科",
+          "Qualcomm"
+        ]
+      },
+      {
+        "role": "網通設備",
+        "text": "[[智邦]]、[[中磊]] — 網通設備用 [[LTCC]] 濾波器",
+        "entities": [
+          "智邦",
+          "中磊",
+          "LTCC"
+        ]
+      },
+      {
+        "role": "系統組裝",
+        "text": "[[鴻海]] — 手機與網通系統",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "role": "[[低軌衛星]]",
+        "text": "衛星地面接收站設備廠",
+        "entities": [
+          "低軌衛星"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "陶瓷粉末",
+        "text": "特殊配方陶瓷粉末供應商",
+        "entities": []
+      },
+      {
+        "role": "導電漿料",
+        "text": "貴金屬導電漿料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Broadcom",
+          "聯發科",
+          "Qualcomm",
+          "智邦",
+          "中磊",
+          "LTCC",
+          "鴻海",
+          "低軌衛星"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ACX Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "ACX Corporation"
+    },
+    {
+      "name": "LTCC",
+      "type": "international_company_or_term",
+      "wikilink": "LTCC"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "中磊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中磊"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "璟德電子 ([[ACX Corporation]]) 為台灣最大高頻整合元件 ([[LTCC]]) 製造商，亦為全球前三大 [[LTCC]] 領導廠。公司利用核心低溫共燒陶瓷 ([[LTCC]]) 技術，將多種被動元件整合於單一陶瓷封裝中，縮小終端裝置體積。\n\n關鍵產品與應用：(1) [[5G]]/6G 射頻前端 — 提供高頻濾波器 (Filter)、天線 (Antenna) 與分工器，為智慧手機通訊核心；(2) [[Wi-Fi 7]] 規格升級 — 隨頻段增加帶動高效率 [[LTCC]] 濾波器需求大幅成長；(3) [[低軌衛星]] — 產品通過主流基頻平台 ([[Broadcom]]、[[聯發科]]、[[Qualcomm]]) 認證，應用於 LEO 地面接收站。",
+    "supply_chain_md": "**上游 (陶瓷材料與貴金屬):**\n- **陶瓷粉末:** 特殊配方陶瓷粉末\n- **導電漿料:** 貴金屬 (銀/金) 導電漿料\n- **基板材料:** 生坯帶基材\n\n**中游 ([[LTCC]] 元件製造):**\n- **濾波器:** **璟德** ([[LTCC]] 高頻濾波器)\n- **天線模組:** **璟德** ([[LTCC]] 整合天線)\n- **分工器:** **璟德** (射頻分工/耦合器)\n\n**下游 (IC 設計平台與系統廠):**\n- **IC 參考設計:** [[Broadcom]]、[[聯發科]]、[[Qualcomm]] — 共同研發認證\n- **網通設備:** [[智邦]]、[[中磊]]、[[鴻海]] — 網通/手機系統組裝\n- **[[低軌衛星]]:** 衛星地面接收站設備廠",
+    "customers_suppliers_md": "### 主要客戶\n- **IC 設計平台:** [[Broadcom]]、[[聯發科]]、[[Qualcomm]] — 射頻參考設計搭配\n- **網通設備:** [[智邦]]、[[中磊]] — 網通設備用 [[LTCC]] 濾波器\n- **系統組裝:** [[鴻海]] — 手機與網通系統\n- **[[低軌衛星]]:** 衛星地面接收站設備廠\n\n### 主要供應商\n- **陶瓷粉末:** 特殊配方陶瓷粉末供應商\n- **導電漿料:** 貴金屬導電漿料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

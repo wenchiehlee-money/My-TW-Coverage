@@ -1,0 +1,169 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6799",
+  "company_name": "來頡",
+  "title": "6799_來頡",
+  "source_md": "Pilot_Reports/Semiconductors/6799_來頡.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "3,132 百萬台幣",
+    "enterprise_value": "1,780 百萬台幣"
+  },
+  "business": {
+    "summary": "來頡科技 (6799，M3 Technology) 為類比 [[IC 設計]]公司，主要產品為應用於 [[Wi-Fi]] 網通設備、[[SSD]] 固態硬碟及 [[USB Type-C]] 之高階[[電源管理 IC]]。產品已通過國際網通大廠驗證，與客戶維持長期穩定合作。",
+    "entities": [
+      "IC 設計",
+      "Wi-Fi",
+      "SSD",
+      "USB Type-C",
+      "電源管理 IC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "電源 IC",
+        "text": "**來頡** (Wi-Fi/SSD/USB Type-C 電源管理 IC)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (網通與儲存)",
+        "text": "**下游 (網通與儲存):**",
+        "entities": []
+      },
+      {
+        "category": "網通",
+        "text": "國際網通設備大廠",
+        "entities": []
+      },
+      {
+        "category": "SSD",
+        "text": "SSD 控制器廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網通",
+        "text": "國際網通設備大廠",
+        "entities": []
+      },
+      {
+        "role": "SSD",
+        "text": "SSD 儲存方案客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[MPS]]、[[Texas Instruments]]、[[立錡]]",
+        "entities": [
+          "MPS",
+          "Texas Instruments",
+          "立錡"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[MPS]]、[[Texas Instruments]]、[[立錡]]",
+        "entities": [
+          "MPS",
+          "Texas Instruments",
+          "立錡"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IC 設計",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC 設計"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "USB Type-C",
+      "type": "international_company_or_term",
+      "wikilink": "USB Type-C"
+    },
+    {
+      "name": "電源管理 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電源管理 IC"
+    },
+    {
+      "name": "MPS",
+      "type": "international_company_or_term",
+      "wikilink": "MPS"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "立錡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立錡"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "來頡科技 (6799，M3 Technology) 為類比 [[IC 設計]]公司，主要產品為應用於 [[Wi-Fi]] 網通設備、[[SSD]] 固態硬碟及 [[USB Type-C]] 之高階[[電源管理 IC]]。產品已通過國際網通大廠驗證，與客戶維持長期穩定合作。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** 台灣晶圓代工廠\n\n**中游 (IC 設計):**\n- **電源 IC:** **來頡** (Wi-Fi/SSD/USB Type-C 電源管理 IC)\n\n**下游 (網通與儲存):**\n- **網通:** 國際網通設備大廠\n- **SSD:** SSD 控制器廠",
+    "customers_suppliers_md": "### 主要客戶\n- **網通:** 國際網通設備大廠\n- **SSD:** SSD 儲存方案客戶\n\n### 主要供應商\n- **晶圓代工:** 台灣晶圓代工廠\n- **競爭同業:** [[MPS]]、[[Texas Instruments]]、[[立錡]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

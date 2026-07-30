@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2348",
+  "company_name": "海悅",
+  "title": "2348 - 海悅",
+  "source_md": "Pilot_Reports/Real Estate Services/2348_海悅.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "market_cap": "11,410 百萬台幣",
+    "enterprise_value": "43,042 百萬台幣"
+  },
+  "business": {
+    "summary": "海悅國際開發股份有限公司 (2348，Hi-Yes International) 前身為力捷電腦，2013 年由代銷業者海悅廣告接手後轉型為房地產代銷公司。海悅廣告創立於 1996 年，已連續六年蟬聯台灣代銷龍頭，2024 年接案量達 2,402 億元。公司提供土地規畫、建築設計、平面配置、公共空間及景觀美學之整合銷售服務。營收結構中代銷勞務收入佔 63%、房地產銷售佔 37%。近年積極南下搶灘中南部代銷市場，接案版圖遍及全台。主要合作建商包括[[宏盛建設]]、[[科達機構]]、[[聯上開發]]等。",
+    "entities": [
+      "宏盛建設",
+      "科達機構",
+      "聯上開發"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (建商與土地)",
+        "text": "**上游 (建商與土地):**",
+        "entities": []
+      },
+      {
+        "category": "合作建商",
+        "text": "[[宏盛建設]]、[[科達機構]]、[[聯上開發]]、[[國雄建設]] — 委託代銷之建設公司",
+        "entities": [
+          "宏盛建設",
+          "科達機構",
+          "聯上開發",
+          "國雄建設"
+        ]
+      },
+      {
+        "category": "土地開發",
+        "text": "協助建商進行土地規畫與建築設計",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (代銷服務)",
+        "text": "**中游 (代銷服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**海悅** — 房地產代銷服務 (銷售中心設計、廣告行銷、現場銷售管理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端買家)",
+        "text": "**下游 (終端買家):**",
+        "entities": []
+      },
+      {
+        "category": "購屋者",
+        "text": "全台預售屋與新成屋購屋客群",
+        "entities": []
+      },
+      {
+        "category": "投資客",
+        "text": "房地產投資買家",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "建商",
+        "text": "[[宏盛建設]]、[[科達機構]]、[[聯上開發]]、[[國雄建設]] — 委託代銷之建設公司",
+        "entities": [
+          "宏盛建設",
+          "科達機構",
+          "聯上開發",
+          "國雄建設"
+        ]
+      },
+      {
+        "role": "購屋者",
+        "text": "全台預售屋與新成屋購屋客群",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "廣告媒體",
+        "text": "房地產廣告與媒體通路",
+        "entities": []
+      },
+      {
+        "role": "室內設計",
+        "text": "銷售中心設計與裝修承攬商",
+        "entities": []
+      },
+      {
+        "role": "建築顧問",
+        "text": "建築設計與景觀美學顧問",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate Services):** [[上曜]]、[[勤益控]]、[[怡華]]、[[全坤建]]、[[宏璟]]",
+        "entities": [
+          "上曜",
+          "勤益控",
+          "怡華",
+          "全坤建",
+          "宏璟"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "宏盛建設",
+          "科達機構",
+          "聯上開發",
+          "國雄建設"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "宏盛建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏盛建設"
+    },
+    {
+      "name": "科達機構",
+      "type": "taiwan_company_or_term",
+      "wikilink": "科達機構"
+    },
+    {
+      "name": "聯上開發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯上開發"
+    },
+    {
+      "name": "國雄建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國雄建設"
+    },
+    {
+      "name": "上曜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上曜"
+    },
+    {
+      "name": "勤益控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤益控"
+    },
+    {
+      "name": "怡華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "怡華"
+    },
+    {
+      "name": "全坤建",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全坤建"
+    },
+    {
+      "name": "宏璟",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏璟"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "海悅國際開發股份有限公司 (2348，Hi-Yes International) 前身為力捷電腦，2013 年由代銷業者海悅廣告接手後轉型為房地產代銷公司。海悅廣告創立於 1996 年，已連續六年蟬聯台灣代銷龍頭，2024 年接案量達 2,402 億元。公司提供土地規畫、建築設計、平面配置、公共空間及景觀美學之整合銷售服務。營收結構中代銷勞務收入佔 63%、房地產銷售佔 37%。近年積極南下搶灘中南部代銷市場，接案版圖遍及全台。主要合作建商包括[[宏盛建設]]、[[科達機構]]、[[聯上開發]]等。",
+    "supply_chain_md": "**上游 (建商與土地):**\n- **合作建商:** [[宏盛建設]]、[[科達機構]]、[[聯上開發]]、[[國雄建設]] — 委託代銷之建設公司\n- **土地開發:** 協助建商進行土地規畫與建築設計\n\n**中游 (代銷服務):**\n- **海悅** — 房地產代銷服務 (銷售中心設計、廣告行銷、現場銷售管理)\n\n**下游 (終端買家):**\n- **購屋者:** 全台預售屋與新成屋購屋客群\n- **投資客:** 房地產投資買家",
+    "customers_suppliers_md": "### 主要客戶 (委託建商)\n- **建商:** [[宏盛建設]]、[[科達機構]]、[[聯上開發]]、[[國雄建設]] — 委託代銷之建設公司\n- **購屋者:** 全台預售屋與新成屋購屋客群\n\n### 主要供應商\n- **廣告媒體:** 房地產廣告與媒體通路\n- **室內設計:** 銷售中心設計與裝修承攬商\n- **建築顧問:** 建築設計與景觀美學顧問"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6763",
+  "company_name": "綠界科技",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/Software - Infrastructure/6763_綠界科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "7,444 百萬台幣",
+    "enterprise_value": "6,005 百萬台幣"
+  },
+  "business": {
+    "summary": "綠界科技股份有限公司 (6763，ECPay) 為台灣第三方支付市場規模最大的支付品牌。公司專為中小型電商與個人賣家提供全方位金流、物流代收付基礎建設，服務涵蓋線上信用卡刷卡、超商條碼繳費、網路 ATM、先買後付 ([[BNPL]]) 與電子發票開立等一站式方案。串接 21 家銀行信用卡分期方案與七大銀行信用卡閘道，物流端整合[[統一超商]]、[[全家便利商店]]、[[萊爾富]]超商取貨及[[黑貓宅急便]]宅配服務。擁有超過 30 萬家企業客戶，年交易金額 (GMV) 達 7,720 億元。子公司[[歐付寶]] (6878) 為台灣首家電子支付機構，並於 2024 年收購銳齊科技廣告代銷部門強化社群精準投放。",
+    "entities": [
+      "BNPL",
+      "統一超商",
+      "全家便利商店",
+      "萊爾富",
+      "黑貓宅急便",
+      "歐付寶"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金融與物流通道)",
+        "text": "**上游 (金融與物流通道):**",
+        "entities": []
+      },
+      {
+        "category": "收單銀行",
+        "text": "[[國泰世華銀行]]、[[玉山銀行]]等 21 家合作銀行",
+        "entities": [
+          "國泰世華銀行",
+          "玉山銀行"
+        ]
+      },
+      {
+        "category": "清算機構",
+        "text": "[[財金資訊]]、[[聯合信用卡中心]]",
+        "entities": [
+          "財金資訊",
+          "聯合信用卡中心"
+        ]
+      },
+      {
+        "category": "物流通路",
+        "text": "[[統一超商]]、[[全家便利商店]]、[[萊爾富]]、[[黑貓宅急便]]",
+        "entities": [
+          "統一超商",
+          "全家便利商店",
+          "萊爾富",
+          "黑貓宅急便"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (第三方支付)",
+        "text": "**中游 (第三方支付):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**綠界科技** (線上金流代收付、超商物流收寄整合、電子發票加值中心、[[BNPL]] 服務)",
+        "entities": [
+          "BNPL"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[歐付寶]]** (6878，子公司，電子支付平台)",
+        "entities": [
+          "歐付寶"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (商家與賣家)",
+        "text": "**下游 (商家與賣家):**",
+        "entities": []
+      },
+      {
+        "category": "中小電商",
+        "text": "超過 30 萬家線上商家與個人賣家",
+        "entities": []
+      },
+      {
+        "category": "O2O 零售",
+        "text": "實體轉線上之零售店鋪",
+        "entities": []
+      },
+      {
+        "category": "BNPL",
+        "text": "與[[裕融]]合作先買後付服務",
+        "entities": [
+          "裕融"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "中小電商",
+        "text": "超過 30 萬家台灣中小企業與個人電商賣家",
+        "entities": []
+      },
+      {
+        "role": "O2O 零售",
+        "text": "直播帶貨業者、微型網拍賣家",
+        "entities": []
+      },
+      {
+        "role": "平台串接",
+        "text": "[[SHOPLINE]]、[[91APP]] 等電商平台系統整合",
+        "entities": [
+          "SHOPLINE",
+          "91APP"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "收單銀行",
+        "text": "[[國泰世華銀行]]、[[玉山銀行]] 等 21 家金融機構",
+        "entities": [
+          "國泰世華銀行",
+          "玉山銀行"
+        ]
+      },
+      {
+        "role": "清算系統",
+        "text": "[[財金資訊]]、[[聯合信用卡中心]]",
+        "entities": [
+          "財金資訊",
+          "聯合信用卡中心"
+        ]
+      },
+      {
+        "role": "物流夥伴",
+        "text": "[[統一超商]]、[[全家便利商店]]、[[黑貓宅急便]]",
+        "entities": [
+          "統一超商",
+          "全家便利商店",
+          "黑貓宅急便"
+        ]
+      },
+      {
+        "role": "BNPL 合作",
+        "text": "[[裕融]] — 先買後付服務",
+        "entities": [
+          "裕融"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Infrastructure):** [[博士旺]]、[[凌網]]、[[悠遊卡]]、[[神盾]]、[[物聯]]",
+        "entities": [
+          "博士旺",
+          "凌網",
+          "悠遊卡",
+          "神盾",
+          "物聯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "SHOPLINE",
+          "91APP"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "BNPL",
+      "type": "international_company_or_term",
+      "wikilink": "BNPL"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "全家便利商店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家便利商店"
+    },
+    {
+      "name": "萊爾富",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萊爾富"
+    },
+    {
+      "name": "黑貓宅急便",
+      "type": "taiwan_company_or_term",
+      "wikilink": "黑貓宅急便"
+    },
+    {
+      "name": "歐付寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "歐付寶"
+    },
+    {
+      "name": "國泰世華銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰世華銀行"
+    },
+    {
+      "name": "玉山銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玉山銀行"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "聯合信用卡中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯合信用卡中心"
+    },
+    {
+      "name": "裕融",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕融"
+    },
+    {
+      "name": "SHOPLINE",
+      "type": "international_company_or_term",
+      "wikilink": "SHOPLINE"
+    },
+    {
+      "name": "91APP",
+      "type": "international_company_or_term",
+      "wikilink": "91APP"
+    },
+    {
+      "name": "博士旺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "博士旺"
+    },
+    {
+      "name": "凌網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌網"
+    },
+    {
+      "name": "悠遊卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "悠遊卡"
+    },
+    {
+      "name": "神盾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神盾"
+    },
+    {
+      "name": "物聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "綠界科技股份有限公司 (6763，ECPay) 為台灣第三方支付市場規模最大的支付品牌。公司專為中小型電商與個人賣家提供全方位金流、物流代收付基礎建設，服務涵蓋線上信用卡刷卡、超商條碼繳費、網路 ATM、先買後付 ([[BNPL]]) 與電子發票開立等一站式方案。串接 21 家銀行信用卡分期方案與七大銀行信用卡閘道，物流端整合[[統一超商]]、[[全家便利商店]]、[[萊爾富]]超商取貨及[[黑貓宅急便]]宅配服務。擁有超過 30 萬家企業客戶，年交易金額 (GMV) 達 7,720 億元。子公司[[歐付寶]] (6878) 為台灣首家電子支付機構，並於 2024 年收購銳齊科技廣告代銷部門強化社群精準投放。",
+    "supply_chain_md": "**上游 (金融與物流通道):**\n- **收單銀行:** [[國泰世華銀行]]、[[玉山銀行]]等 21 家合作銀行\n- **清算機構:** [[財金資訊]]、[[聯合信用卡中心]]\n- **物流通路:** [[統一超商]]、[[全家便利商店]]、[[萊爾富]]、[[黑貓宅急便]]\n\n**中游 (第三方支付):**\n- **綠界科技** (線上金流代收付、超商物流收寄整合、電子發票加值中心、[[BNPL]] 服務)\n- **[[歐付寶]]** (6878，子公司，電子支付平台)\n\n**下游 (商家與賣家):**\n- **中小電商:** 超過 30 萬家線上商家與個人賣家\n- **O2O 零售:** 實體轉線上之零售店鋪\n- **BNPL:** 與[[裕融]]合作先買後付服務",
+    "customers_suppliers_md": "### 主要客戶\n- **中小電商:** 超過 30 萬家台灣中小企業與個人電商賣家\n- **O2O 零售:** 直播帶貨業者、微型網拍賣家\n- **平台串接:** [[SHOPLINE]]、[[91APP]] 等電商平台系統整合\n\n### 主要供應商\n- **收單銀行:** [[國泰世華銀行]]、[[玉山銀行]] 等 21 家金融機構\n- **清算系統:** [[財金資訊]]、[[聯合信用卡中心]]\n- **物流夥伴:** [[統一超商]]、[[全家便利商店]]、[[黑貓宅急便]]\n- **BNPL 合作:** [[裕融]] — 先買後付服務"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

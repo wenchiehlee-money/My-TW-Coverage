@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6264",
+  "company_name": "富裔",
+  "title": "6264_富裔",
+  "source_md": "Pilot_Reports/Real Estate Services/6264_富裔.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "market_cap": "818 百萬台幣",
+    "enterprise_value": "3,737 百萬台幣"
+  },
+  "business": {
+    "summary": "富裔實業股份有限公司 (6264，Fuyi Development) 前身為鑫麗科技，後轉型為不動產開發公司。主要業務涵蓋住宅大樓之投資興建與銷售，以及不動產租賃。推案區域以大台北地區及[[新竹]]為主。公司近年聚焦於[[都市更新]]案及[[危老重建]]案，受惠於政府推動都更政策。產品定位涵蓋中高階住宅至豪宅。營造合作以知名營造廠如[[互助營造]]、[[達欣工程]]等為主。",
+    "entities": [
+      "新竹",
+      "都市更新",
+      "危老重建",
+      "互助營造",
+      "達欣工程"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與建材)",
+        "text": "**上游 (土地與建材):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "大台北與新竹都市更新及危老重建用地",
+        "entities": []
+      },
+      {
+        "category": "建材",
+        "text": "鋼筋、水泥供應商",
+        "entities": []
+      },
+      {
+        "category": "營造工程",
+        "text": "[[互助營造]]、[[達欣工程]] — 工程承攬",
+        "entities": [
+          "互助營造",
+          "達欣工程"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (建設開發)",
+        "text": "**中游 (建設開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**富裔** — 住宅大樓投資興建、都市更新與危老重建",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "購屋者",
+        "text": "大台北與新竹購屋客群 — 中高階住宅",
+        "entities": []
+      },
+      {
+        "category": "都更地主",
+        "text": "都市更新參與地主",
+        "entities": []
+      },
+      {
+        "category": "租賃客戶",
+        "text": "不動產租戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "購屋者",
+        "text": "大台北與新竹購屋客群 — 中高階住宅至豪宅",
+        "entities": []
+      },
+      {
+        "role": "都更地主",
+        "text": "都市更新與危老重建參與地主",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造工程",
+        "text": "[[互助營造]]、[[達欣工程]] — 工程承攬",
+        "entities": [
+          "互助營造",
+          "達欣工程"
+        ]
+      },
+      {
+        "role": "建材",
+        "text": "鋼筋、水泥供應商",
+        "entities": []
+      },
+      {
+        "role": "建築設計",
+        "text": "建築師事務所",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Real Estate Services):** [[上曜]]、[[勤益控]]、[[怡華]]、[[海悅]]、[[全坤建]]",
+        "entities": [
+          "上曜",
+          "勤益控",
+          "怡華",
+          "海悅",
+          "全坤建"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "都市更新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "都市更新"
+    },
+    {
+      "name": "危老重建",
+      "type": "taiwan_company_or_term",
+      "wikilink": "危老重建"
+    },
+    {
+      "name": "互助營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "互助營造"
+    },
+    {
+      "name": "達欣工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達欣工程"
+    },
+    {
+      "name": "上曜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上曜"
+    },
+    {
+      "name": "勤益控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤益控"
+    },
+    {
+      "name": "怡華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "怡華"
+    },
+    {
+      "name": "海悅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海悅"
+    },
+    {
+      "name": "全坤建",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全坤建"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富裔實業股份有限公司 (6264，Fuyi Development) 前身為鑫麗科技，後轉型為不動產開發公司。主要業務涵蓋住宅大樓之投資興建與銷售，以及不動產租賃。推案區域以大台北地區及[[新竹]]為主。公司近年聚焦於[[都市更新]]案及[[危老重建]]案，受惠於政府推動都更政策。產品定位涵蓋中高階住宅至豪宅。營造合作以知名營造廠如[[互助營造]]、[[達欣工程]]等為主。",
+    "supply_chain_md": "**上游 (土地與建材):**\n- **土地取得:** 大台北與新竹都市更新及危老重建用地\n- **建材:** 鋼筋、水泥供應商\n- **營造工程:** [[互助營造]]、[[達欣工程]] — 工程承攬\n\n**中游 (建設開發):**\n- **富裔** — 住宅大樓投資興建、都市更新與危老重建\n\n**下游 (終端客戶):**\n- **購屋者:** 大台北與新竹購屋客群 — 中高階住宅\n- **都更地主:** 都市更新參與地主\n- **租賃客戶:** 不動產租戶",
+    "customers_suppliers_md": "### 主要客戶\n- **購屋者:** 大台北與新竹購屋客群 — 中高階住宅至豪宅\n- **都更地主:** 都市更新與危老重建參與地主\n\n### 主要供應商\n- **營造工程:** [[互助營造]]、[[達欣工程]] — 工程承攬\n- **建材:** 鋼筋、水泥供應商\n- **建築設計:** 建築師事務所"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

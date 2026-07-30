@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2352",
+  "company_name": "佳世達",
+  "title": "2352 - 佳世達",
+  "source_md": "Pilot_Reports/Computer Hardware/2352_佳世達.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "42,595 百萬台幣",
+    "enterprise_value": "132,717 百萬台幣"
+  },
+  "business": {
+    "summary": "佳世達科技 (2352，[[Qisda Corporation]]) 成立於 1984 年，總部位於桃園，為[[明基]] ([[BenQ]]) 集團核心公司，以設計製造服務 (DMS) 起家，現已轉型為橫跨資訊、醫療、智能方案、網路通訊及材料科學之大艦隊集團。\n\n五大事業群：(1) DMS 代工：顯示器、投影機、網路攝影機；(2) 品牌行銷：[[BenQ]] 品牌顯示器、投影機、dvLED 顯示方案；(3) 醫療服務：經營兩家大型綜合醫院，醫療耗材及設備之 ODM/OEM，醫療事業近年成長 19%；(4) 智能方案：智慧企業、智慧製造、智慧教育、AI 邊緣運算 ([[Edge AI]])，成長達 20%；(5) 網通事業：LAN/WAN 網通設備及行動寬頻產品。旗下重要子公司包括[[明泰科技]] (Alpha Networks，網通)、[[友通資訊]] (DFI，嵌入式 IPC)、Partner Tech (POS 系統) 等。",
+    "entities": [
+      "Qisda Corporation",
+      "明基",
+      "BenQ",
+      "Edge AI",
+      "明泰科技",
+      "友通資訊"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板與電子元件)",
+        "text": "**上游 (面板與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]] (AUO)、[[群創]] — 液晶面板/dvLED 模組",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "光學引擎",
+        "text": "投影機光學引擎 (DLP/LCD 投影技術)",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "[[MLCC]]、IC 晶片、記憶體模組",
+        "entities": [
+          "MLCC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (DMS 設計製造與集團事業)",
+        "text": "**中游 (DMS 設計製造與集團事業):**",
+        "entities": []
+      },
+      {
+        "category": "DMS 代工",
+        "text": "**佳世達** (顯示器/投影機/攝影機代工)",
+        "entities": []
+      },
+      {
+        "category": "品牌事業",
+        "text": "[[BenQ]] (顯示器/投影機/dvLED 品牌)",
+        "entities": [
+          "BenQ"
+        ]
+      },
+      {
+        "category": "醫療事業",
+        "text": "**佳世達** (兩家綜合醫院、醫療耗材設備)",
+        "entities": []
+      },
+      {
+        "category": "智能方案",
+        "text": "**佳世達** (智慧製造/教育/[[Edge AI]])",
+        "entities": [
+          "Edge AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶與通路)",
+        "text": "**下游 (終端客戶與通路):**",
+        "entities": []
+      },
+      {
+        "category": "消費通路",
+        "text": "全球 IT 通路商 — BenQ 品牌產品",
+        "entities": []
+      },
+      {
+        "category": "醫療機構",
+        "text": "醫院及醫療器材經銷商",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "製造業及教育機構 — 智能方案",
+        "entities": []
+      },
+      {
+        "category": "網通品牌",
+        "text": "透過子公司[[明泰科技]]服務全球網通客戶",
+        "entities": [
+          "明泰科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "品牌通路",
+        "text": "全球 IT 通路商 — [[BenQ]] 品牌顯示器/投影機/dvLED",
+        "entities": [
+          "BenQ"
+        ]
+      },
+      {
+        "role": "醫療機構",
+        "text": "醫院及醫療器材經銷商 — 醫療耗材及設備",
+        "entities": []
+      },
+      {
+        "role": "企業客戶",
+        "text": "智慧製造及智慧教育解決方案終端客戶",
+        "entities": []
+      },
+      {
+        "role": "DMS 代工",
+        "text": "國際品牌客戶 — 顯示器及投影機 ODM 代工",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "面板",
+        "text": "[[友達]] (AUO)、[[群創]] (Innolux) — 液晶面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "光學引擎",
+        "text": "DLP/LCD 投影光學引擎供應商",
+        "entities": []
+      },
+      {
+        "role": "子公司",
+        "text": "[[明泰科技]] (Alpha Networks)、[[友通資訊]] (DFI) — 集團事業協同",
+        "entities": [
+          "明泰科技",
+          "友通資訊"
+        ]
+      },
+      {
+        "role": "醫療設備",
+        "text": "國際醫療設備零組件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "BenQ"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Qisda Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "Qisda Corporation"
+    },
+    {
+      "name": "明基",
+      "type": "taiwan_company_or_term",
+      "wikilink": "明基"
+    },
+    {
+      "name": "BenQ",
+      "type": "international_company_or_term",
+      "wikilink": "BenQ"
+    },
+    {
+      "name": "Edge AI",
+      "type": "international_company_or_term",
+      "wikilink": "Edge AI"
+    },
+    {
+      "name": "明泰科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "明泰科技"
+    },
+    {
+      "name": "友通資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友通資訊"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "佳世達科技 (2352，[[Qisda Corporation]]) 成立於 1984 年，總部位於桃園，為[[明基]] ([[BenQ]]) 集團核心公司，以設計製造服務 (DMS) 起家，現已轉型為橫跨資訊、醫療、智能方案、網路通訊及材料科學之大艦隊集團。\n\n五大事業群：(1) DMS 代工：顯示器、投影機、網路攝影機；(2) 品牌行銷：[[BenQ]] 品牌顯示器、投影機、dvLED 顯示方案；(3) 醫療服務：經營兩家大型綜合醫院，醫療耗材及設備之 ODM/OEM，醫療事業近年成長 19%；(4) 智能方案：智慧企業、智慧製造、智慧教育、AI 邊緣運算 ([[Edge AI]])，成長達 20%；(5) 網通事業：LAN/WAN 網通設備及行動寬頻產品。旗下重要子公司包括[[明泰科技]] (Alpha Networks，網通)、[[友通資訊]] (DFI，嵌入式 IPC)、Partner Tech (POS 系統) 等。",
+    "supply_chain_md": "**上游 (面板與電子元件):**\n- **面板:** [[友達]] (AUO)、[[群創]] — 液晶面板/dvLED 模組\n- **光學引擎:** 投影機光學引擎 (DLP/LCD 投影技術)\n- **電子元件:** [[MLCC]]、IC 晶片、記憶體模組\n\n**中游 (DMS 設計製造與集團事業):**\n- **DMS 代工:** **佳世達** (顯示器/投影機/攝影機代工)\n- **品牌事業:** [[BenQ]] (顯示器/投影機/dvLED 品牌)\n- **醫療事業:** **佳世達** (兩家綜合醫院、醫療耗材設備)\n- **智能方案:** **佳世達** (智慧製造/教育/[[Edge AI]])\n\n**下游 (終端客戶與通路):**\n- **消費通路:** 全球 IT 通路商 — BenQ 品牌產品\n- **醫療機構:** 醫院及醫療器材經銷商\n- **企業客戶:** 製造業及教育機構 — 智能方案\n- **網通品牌:** 透過子公司[[明泰科技]]服務全球網通客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **品牌通路:** 全球 IT 通路商 — [[BenQ]] 品牌顯示器/投影機/dvLED\n- **醫療機構:** 醫院及醫療器材經銷商 — 醫療耗材及設備\n- **企業客戶:** 智慧製造及智慧教育解決方案終端客戶\n- **DMS 代工:** 國際品牌客戶 — 顯示器及投影機 ODM 代工\n\n### 主要供應商\n- **面板:** [[友達]] (AUO)、[[群創]] (Innolux) — 液晶面板\n- **光學引擎:** DLP/LCD 投影光學引擎供應商\n- **子公司:** [[明泰科技]] (Alpha Networks)、[[友通資訊]] (DFI) — 集團事業協同\n- **醫療設備:** 國際醫療設備零組件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

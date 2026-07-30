@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3058",
+  "company_name": "立德",
+  "title": "3058 - 立德",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/3058_立德.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "1,631 百萬台幣",
+    "enterprise_value": "2,941 百萬台幣"
+  },
+  "business": {
+    "summary": "立德電子 (3058，Leader Electronics / LEI) 為交換式電源供應器及磁性元件製造商。營收結構：交換式電源 42%、磁性元件 28%、OEM/ODM 代工 20%、[[Type-C]]充電器 8%。積極轉型新能源：(1) [[電動車]]充電樁 — AC 7kW-22kW 及 DC 30kW/120kW；(2) [[儲能]]系統 — 3.5MW 商轉中，40MW/100MW 建置中；(3) 大功率電源供[[5G]]基地台 (1000W) 及[[AI 伺服器]]散熱 (1600W)。2025 年分割新能源事業成立「立德新能源」。上游 IC 來自[[Analog Devices]]、[[Infineon]]。下游儲能服務[[台電]]輔助。",
+    "entities": [
+      "Type-C",
+      "電動車",
+      "儲能",
+      "5G",
+      "AI 伺服器",
+      "Analog Devices",
+      "Infineon",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (元件)",
+        "text": "**上游 (元件):**",
+        "entities": []
+      },
+      {
+        "category": "IC",
+        "text": "[[Analog Devices]]、[[Infineon]] — 電源管理 IC",
+        "entities": [
+          "Analog Devices",
+          "Infineon"
+        ]
+      },
+      {
+        "category": "功率元件",
+        "text": "[[MOSFET]]/PWM IC",
+        "entities": [
+          "MOSFET"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**立德** (交換式電源/磁性元件/EV 充電樁/[[儲能]]系統)",
+        "entities": [
+          "儲能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "網通",
+        "text": "路由器/機上盒電源",
+        "entities": []
+      },
+      {
+        "category": "5G/AI",
+        "text": "[[5G]]基地台/[[AI 伺服器]]散熱電源",
+        "entities": [
+          "5G",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "新能源",
+        "text": "[[電動車]]充電站、[[儲能]] (服務[[台電]]輔助)",
+        "entities": [
+          "電動車",
+          "儲能",
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網通",
+        "text": "網通設備廠 — 交換式電源",
+        "entities": []
+      },
+      {
+        "role": "5G/AI",
+        "text": "[[5G]]基地台、[[AI 伺服器]] — 大功率電源",
+        "entities": [
+          "5G",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "儲能",
+        "text": "[[台電]] — 輔助服務",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "IC",
+        "text": "[[Analog Devices]]、[[Infineon]]",
+        "entities": [
+          "Analog Devices",
+          "Infineon"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "5G",
+          "AI 伺服器",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Type-C",
+      "type": "international_company_or_term",
+      "wikilink": "Type-C"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Analog Devices",
+      "type": "international_company_or_term",
+      "wikilink": "Analog Devices"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "立德電子 (3058，Leader Electronics / LEI) 為交換式電源供應器及磁性元件製造商。營收結構：交換式電源 42%、磁性元件 28%、OEM/ODM 代工 20%、[[Type-C]]充電器 8%。積極轉型新能源：(1) [[電動車]]充電樁 — AC 7kW-22kW 及 DC 30kW/120kW；(2) [[儲能]]系統 — 3.5MW 商轉中，40MW/100MW 建置中；(3) 大功率電源供[[5G]]基地台 (1000W) 及[[AI 伺服器]]散熱 (1600W)。2025 年分割新能源事業成立「立德新能源」。上游 IC 來自[[Analog Devices]]、[[Infineon]]。下游儲能服務[[台電]]輔助。",
+    "supply_chain_md": "**上游 (元件):**\n- **IC:** [[Analog Devices]]、[[Infineon]] — 電源管理 IC\n- **功率元件:** [[MOSFET]]/PWM IC\n\n**中游 (製造):**\n- **立德** (交換式電源/磁性元件/EV 充電樁/[[儲能]]系統)\n\n**下游 (終端):**\n- **網通:** 路由器/機上盒電源\n- **5G/AI:** [[5G]]基地台/[[AI 伺服器]]散熱電源\n- **新能源:** [[電動車]]充電站、[[儲能]] (服務[[台電]]輔助)",
+    "customers_suppliers_md": "### 主要客戶\n- **網通:** 網通設備廠 — 交換式電源\n- **5G/AI:** [[5G]]基地台、[[AI 伺服器]] — 大功率電源\n- **儲能:** [[台電]] — 輔助服務\n\n### 主要供應商\n- **IC:** [[Analog Devices]]、[[Infineon]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

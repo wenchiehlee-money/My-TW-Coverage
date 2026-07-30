@@ -74,7 +74,21 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **network/LEO communication equipment customer overlap:** [[中磊]]、[[智易]]、[[正文]]、[[明泰]]",
+        "entities": [
+          "中磊",
+          "智易",
+          "正文",
+          "明泰"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "SpaceX"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -129,6 +143,26 @@
       "name": "Broadcom",
       "type": "international_company_or_term",
       "wikilink": "Broadcom"
+    },
+    {
+      "name": "中磊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中磊"
+    },
+    {
+      "name": "智易",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智易"
+    },
+    {
+      "name": "正文",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正文"
+    },
+    {
+      "name": "明泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "明泰"
     }
   ],
   "source_text": {
@@ -140,6 +174,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 9,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

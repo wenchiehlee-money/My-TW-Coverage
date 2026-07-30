@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8935",
+  "company_name": "邦泰",
+  "title": "8935 - 邦泰",
+  "source_md": "Pilot_Reports/Specialty Chemicals/8935_邦泰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "1,980 百萬台幣",
+    "enterprise_value": "2,229 百萬台幣"
+  },
+  "business": {
+    "summary": "邦泰複合材料 (8935，Pontex Polyblend) 成立於 1979 年，台灣最多元複合材料企業。兩大事業：(1) 器材事業 — 運動鞋底射出零組件，長期為[[Nike]]棒球鞋底亞洲最大供應商，亦為[[Crocs]]休閒鞋代工廠，另供應[[安踏]]、[[特步]]；(2) 複合材料事業 — 高值化工程塑膠改質複合材料 (ABS/PC/Nylon/[[TPU]]/PBT)，應用於 3C 電子、汽機車、醫療及綠建材。近年跨足無人機/無人艇機體結構及 AI 機器人，搶攻國防市場。上游工程塑膠原料來自[[台塑]]、[[南亞塑膠]]。",
+    "entities": [
+      "Nike",
+      "Crocs",
+      "安踏",
+      "特步",
+      "TPU",
+      "台塑",
+      "南亞塑膠"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "工程塑膠",
+        "text": "[[台塑]]、[[南亞塑膠]] — ABS/PC/Nylon 等基礎粒",
+        "entities": [
+          "台塑",
+          "南亞塑膠"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**邦泰** (運動鞋底射出零組件；工程塑膠複合材料改質)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "運動鞋",
+        "text": "[[Nike]] — 棒球鞋底亞洲最大供應商；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]",
+        "entities": [
+          "Nike",
+          "Crocs",
+          "安踏",
+          "特步"
+        ]
+      },
+      {
+        "category": "3C/汽車",
+        "text": "電子機殼/汽機車零件用複合材料",
+        "entities": []
+      },
+      {
+        "category": "國防 (新事業)",
+        "text": "無人機/無人艇機體結構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "運動鞋",
+        "text": "[[Nike]] — 棒球鞋底亞洲最大；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]",
+        "entities": [
+          "Nike",
+          "Crocs",
+          "安踏",
+          "特步"
+        ]
+      },
+      {
+        "role": "3C/汽車",
+        "text": "電子機殼/汽車零件用複合材料",
+        "entities": []
+      },
+      {
+        "role": "國防",
+        "text": "無人機/無人艇機體",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "工程塑膠",
+        "text": "[[台塑]]、[[南亞塑膠]]",
+        "entities": [
+          "台塑",
+          "南亞塑膠"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Nike",
+          "Crocs",
+          "安踏",
+          "特步"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Crocs",
+      "type": "international_company_or_term",
+      "wikilink": "Crocs"
+    },
+    {
+      "name": "安踏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安踏"
+    },
+    {
+      "name": "特步",
+      "type": "taiwan_company_or_term",
+      "wikilink": "特步"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "邦泰複合材料 (8935，Pontex Polyblend) 成立於 1979 年，台灣最多元複合材料企業。兩大事業：(1) 器材事業 — 運動鞋底射出零組件，長期為[[Nike]]棒球鞋底亞洲最大供應商，亦為[[Crocs]]休閒鞋代工廠，另供應[[安踏]]、[[特步]]；(2) 複合材料事業 — 高值化工程塑膠改質複合材料 (ABS/PC/Nylon/[[TPU]]/PBT)，應用於 3C 電子、汽機車、醫療及綠建材。近年跨足無人機/無人艇機體結構及 AI 機器人，搶攻國防市場。上游工程塑膠原料來自[[台塑]]、[[南亞塑膠]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **工程塑膠:** [[台塑]]、[[南亞塑膠]] — ABS/PC/Nylon 等基礎粒\n\n**中游 (製造):**\n- **邦泰** (運動鞋底射出零組件；工程塑膠複合材料改質)\n\n**下游 (終端):**\n- **運動鞋:** [[Nike]] — 棒球鞋底亞洲最大供應商；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]\n- **3C/汽車:** 電子機殼/汽機車零件用複合材料\n- **國防 (新事業):** 無人機/無人艇機體結構",
+    "customers_suppliers_md": "### 主要客戶\n- **運動鞋:** [[Nike]] — 棒球鞋底亞洲最大；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]\n- **3C/汽車:** 電子機殼/汽車零件用複合材料\n- **國防:** 無人機/無人艇機體\n\n### 主要供應商\n- **工程塑膠:** [[台塑]]、[[南亞塑膠]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

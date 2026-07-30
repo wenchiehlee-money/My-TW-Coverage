@@ -1,0 +1,267 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3679",
+  "company_name": "新至陞",
+  "title": "3679 - 新至陞",
+  "source_md": "Pilot_Reports/Electronic Components/3679_新至陞.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "7,248 百萬台幣",
+    "enterprise_value": "5,040 百萬台幣"
+  },
+  "business": {
+    "summary": "新至陞科技 (3679，[[Nishoku]]) 為專業的精密塑膠模具與射出成型 (Injection Molding) 解決方案供應商，以高品質的雙料射出、塗裝與組裝技術聞名，產品跨足消費電子、汽車與通訊領域。\n\n核心優勢與發展策略：\n1. **美系大廠關鍵供應鏈**: 為 [[Apple]] (iPhone/iPad 配件如耳機、轉接頭) 與 [[Amazon]] (Kindle 電子書保護套) 的長期合作夥伴。\n2. **越南產能佈局**: 因應客戶「China+1」策略，越南廠已擺脫虧損並重啟第三期擴產，承接國際大廠轉移訂單。\n3. **車用內裝組件發展**: 開發抬頭顯示器 ([[HUD]]) 框架、內外裝飾件及汽車控制按鍵。\n4. **技術護城河**: 擅長異材質結合、薄壁成型與複雜表面處理，提供 ODM/OEM 服務。",
+    "entities": [
+      "Nishoku",
+      "Apple",
+      "Amazon",
+      "HUD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (塑膠與金屬材料)",
+        "text": "**上游 (塑膠與金屬材料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠樹脂",
+        "text": "工程塑膠 (PC、ABS、PA) 供應商",
+        "entities": []
+      },
+      {
+        "category": "精密鋼材",
+        "text": "模具用特殊鋼材",
+        "entities": []
+      },
+      {
+        "category": "電子組件",
+        "text": "表面處理用漆料與電鍍材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (射出成型與組裝)",
+        "text": "**中游 (射出成型與組裝):**",
+        "entities": []
+      },
+      {
+        "category": "精密射出",
+        "text": "**新至陞** (雙料射出/薄壁成型)",
+        "entities": []
+      },
+      {
+        "category": "表面塗裝",
+        "text": "**新至陞** (噴漆/電鍍/IMD 裝飾)",
+        "entities": []
+      },
+      {
+        "category": "組裝",
+        "text": "**新至陞** (機構件組裝與品檢)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌客戶)",
+        "text": "**下游 (國際品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Apple]]、[[Amazon]]、[[Nintendo]] — 配件與保護套",
+        "entities": [
+          "Apple",
+          "Amazon",
+          "Nintendo"
+        ]
+      },
+      {
+        "category": "PC 品牌",
+        "text": "[[Dell]]、[[HP]] — 筆電周邊機構件",
+        "entities": [
+          "Dell",
+          "HP"
+        ]
+      },
+      {
+        "category": "汽車 Tier-1",
+        "text": "車內 [[HUD]] 框架與控制按鍵",
+        "entities": [
+          "HUD"
+        ]
+      },
+      {
+        "category": "通訊設備",
+        "text": "運動穿戴裝置與通訊外殼",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費電子",
+        "text": "[[Apple]] — 充電與音訊配件射出成型",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "電子書",
+        "text": "[[Amazon]] — Kindle 系列保護套",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "role": "遊戲",
+        "text": "[[Nintendo]] — 遊戲配件機構件",
+        "entities": [
+          "Nintendo"
+        ]
+      },
+      {
+        "role": "PC 品牌",
+        "text": "[[Dell]]、[[HP]] — 筆電周邊",
+        "entities": [
+          "Dell",
+          "HP"
+        ]
+      },
+      {
+        "role": "汽車",
+        "text": "車用 Tier-1 供應商 — [[HUD]] 框架與內裝件",
+        "entities": [
+          "HUD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠樹脂",
+        "text": "工程塑膠供應商 (PC/ABS/PA)",
+        "entities": []
+      },
+      {
+        "role": "模具鋼材",
+        "text": "精密模具用特殊鋼材",
+        "entities": []
+      },
+      {
+        "role": "表面材料",
+        "text": "漆料與電鍍材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "Amazon",
+          "Nintendo",
+          "Dell",
+          "HP",
+          "HUD"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nishoku",
+      "type": "international_company_or_term",
+      "wikilink": "Nishoku"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "HUD",
+      "type": "international_company_or_term",
+      "wikilink": "HUD"
+    },
+    {
+      "name": "Nintendo",
+      "type": "international_company_or_term",
+      "wikilink": "Nintendo"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新至陞科技 (3679，[[Nishoku]]) 為專業的精密塑膠模具與射出成型 (Injection Molding) 解決方案供應商，以高品質的雙料射出、塗裝與組裝技術聞名，產品跨足消費電子、汽車與通訊領域。\n\n核心優勢與發展策略：\n1. **美系大廠關鍵供應鏈**: 為 [[Apple]] (iPhone/iPad 配件如耳機、轉接頭) 與 [[Amazon]] (Kindle 電子書保護套) 的長期合作夥伴。\n2. **越南產能佈局**: 因應客戶「China+1」策略，越南廠已擺脫虧損並重啟第三期擴產，承接國際大廠轉移訂單。\n3. **車用內裝組件發展**: 開發抬頭顯示器 ([[HUD]]) 框架、內外裝飾件及汽車控制按鍵。\n4. **技術護城河**: 擅長異材質結合、薄壁成型與複雜表面處理，提供 ODM/OEM 服務。",
+    "supply_chain_md": "**上游 (塑膠與金屬材料):**\n- **塑膠樹脂:** 工程塑膠 (PC、ABS、PA) 供應商\n- **精密鋼材:** 模具用特殊鋼材\n- **電子組件:** 表面處理用漆料與電鍍材料\n\n**中游 (射出成型與組裝):**\n- **精密射出:** **新至陞** (雙料射出/薄壁成型)\n- **表面塗裝:** **新至陞** (噴漆/電鍍/IMD 裝飾)\n- **組裝:** **新至陞** (機構件組裝與品檢)\n\n**下游 (國際品牌客戶):**\n- **消費電子:** [[Apple]]、[[Amazon]]、[[Nintendo]] — 配件與保護套\n- **PC 品牌:** [[Dell]]、[[HP]] — 筆電周邊機構件\n- **汽車 Tier-1:** 車內 [[HUD]] 框架與控制按鍵\n- **通訊設備:** 運動穿戴裝置與通訊外殼",
+    "customers_suppliers_md": "### 主要客戶\n- **消費電子:** [[Apple]] — 充電與音訊配件射出成型\n- **電子書:** [[Amazon]] — Kindle 系列保護套\n- **遊戲:** [[Nintendo]] — 遊戲配件機構件\n- **PC 品牌:** [[Dell]]、[[HP]] — 筆電周邊\n- **汽車:** 車用 Tier-1 供應商 — [[HUD]] 框架與內裝件\n\n### 主要供應商\n- **塑膠樹脂:** 工程塑膠供應商 (PC/ABS/PA)\n- **模具鋼材:** 精密模具用特殊鋼材\n- **表面材料:** 漆料與電鍍材料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

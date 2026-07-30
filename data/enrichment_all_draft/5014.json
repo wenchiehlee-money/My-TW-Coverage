@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5014",
+  "company_name": "建錩",
+  "title": "5014 - 建錩",
+  "source_md": "Pilot_Reports/Steel/5014_建錩.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "1,998 百萬台幣",
+    "enterprise_value": "6,242 百萬台幣"
+  },
+  "business": {
+    "summary": "建錩實業 (Chien Shing / Chain Chon) 為專業 **不鏽鋼捲板通路與加工中心** (Coil Center)。\n經營模式類似「鋼鐵服務業」，提供：\n1.  **裁剪加工**: 將上游鋼捲裁剪成客戶所需尺寸之板材、條類。\n2.  **表面處理**: 磨砂、拋光、鏡面處理。\n3.  **物流配送**: 「一廠下單，全球配送」。\n主要市場在 **中國** (華東/華南) 與台灣，亦佈局東南亞與美國。\n產品應用於：家電 (Dishwasher, Fridge)、廚具、建材、汽車飾條、化工桶槽。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 不鏽鋼煉鋼/熱軋廠 ([[太鋼]], [[浦項]], [[華新]], [[燁聯]], 日本鋼廠).",
+        "entities": [
+          "太鋼",
+          "浦項",
+          "華新",
+          "燁聯"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **建錩 (5014)** - 不鏽鋼裁剪加工與通路 (Distributor/Service Center).",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 家電廠, 廚具廠, [[營造]]廠, 汽車零組件廠.",
+        "entities": [
+          "營造"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**家電**: [[GE]], [[Electrolux]], [[Fisher & Paykel]].",
+        "entities": [
+          "GE",
+          "Electrolux",
+          "Fisher & Paykel"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**其他**: 建築裝潢工程, 汽車配件廠.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**鋼廠**: 中國與台灣各大不鏽鋼廠 ([[太鋼不銹]], [[華新麗華]]).",
+        "entities": [
+          "太鋼不銹",
+          "華新麗華"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "GE",
+          "Electrolux",
+          "Fisher & Paykel"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "太鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太鋼"
+    },
+    {
+      "name": "浦項",
+      "type": "taiwan_company_or_term",
+      "wikilink": "浦項"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "燁聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁聯"
+    },
+    {
+      "name": "營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "營造"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "Electrolux",
+      "type": "international_company_or_term",
+      "wikilink": "Electrolux"
+    },
+    {
+      "name": "Fisher & Paykel",
+      "type": "international_company_or_term",
+      "wikilink": "Fisher & Paykel"
+    },
+    {
+      "name": "太鋼不銹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太鋼不銹"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "建錩實業 (Chien Shing / Chain Chon) 為專業 **不鏽鋼捲板通路與加工中心** (Coil Center)。\n經營模式類似「鋼鐵服務業」，提供：\n1.  **裁剪加工**: 將上游鋼捲裁剪成客戶所需尺寸之板材、條類。\n2.  **表面處理**: 磨砂、拋光、鏡面處理。\n3.  **物流配送**: 「一廠下單，全球配送」。\n主要市場在 **中國** (華東/華南) 與台灣，亦佈局東南亞與美國。\n產品應用於：家電 (Dishwasher, Fridge)、廚具、建材、汽車飾條、化工桶槽。",
+    "supply_chain_md": "*   **中游 (本體)**: **建錩 (5014)** - 不鏽鋼裁剪加工與通路 (Distributor/Service Center).\n*   **上游**: 不鏽鋼煉鋼/熱軋廠 ([[太鋼]], [[浦項]], [[華新]], [[燁聯]], 日本鋼廠).\n*   **下游**: 家電廠, 廚具廠, [[營造]]廠, 汽車零組件廠.",
+    "customers_suppliers_md": "### 主要客戶\n*   **家電**: [[GE]], [[Electrolux]], [[Fisher & Paykel]].\n*   **其他**: 建築裝潢工程, 汽車配件廠.\n\n### 主要供應商\n*   **鋼廠**: 中國與台灣各大不鏽鋼廠 ([[太鋼不銹]], [[華新麗華]])."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

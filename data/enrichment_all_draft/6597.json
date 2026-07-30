@@ -1,0 +1,253 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6597",
+  "company_name": "立誠",
+  "title": "6597_立誠",
+  "source_md": "Pilot_Reports/Electronic Components/6597_立誠.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,738 百萬台幣",
+    "enterprise_value": "2,814 百萬台幣"
+  },
+  "business": {
+    "summary": "立誠光電 (6597，[[Ecocera Optronics]]) 專精於陶瓷散熱基板的設計、製程整合與製造，為台灣少數具備 DPC (Direct Plated Copper) 陶瓷電路板量產能力的廠商。\n\n核心產品與技術：(1) [[氮化鋁]] (AlN) 陶瓷基板 — 應用於高功率 LED 照明、車用 LED 及[[雷射二極體]]散熱；(2) 氧化鋁 (Al2O3) 陶瓷基板 — 應用於 UV LED、IR 感測器及 [[3D 感測]] 元件；(3) DPC 製程整合 — 結合薄膜濺鍍、微影與電鍍技術，可在陶瓷基板上製作精密電路圖案，應用於功率元件 (PMIC)、射頻 (RF) 與熱電模組。立誠的陶瓷基板產品已廣泛供應國內外 LED 封裝廠與車用照明模組廠，並積極拓展至半導體功率元件散熱應用。",
+    "entities": [
+      "Ecocera Optronics",
+      "氮化鋁",
+      "雷射二極體",
+      "3D 感測"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (陶瓷原料與設備)",
+        "text": "**上游 (陶瓷原料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "陶瓷基材",
+        "text": "[[氮化鋁]]、氧化鋁陶瓷粉體與基板供應商",
+        "entities": [
+          "氮化鋁"
+        ]
+      },
+      {
+        "category": "靶材",
+        "text": "銅、銀等金屬濺鍍靶材",
+        "entities": []
+      },
+      {
+        "category": "設備",
+        "text": "薄膜濺鍍機、微影曝光設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (陶瓷基板製造)",
+        "text": "**中游 (陶瓷基板製造):**",
+        "entities": []
+      },
+      {
+        "category": "DPC 基板",
+        "text": "**立誠** (DPC 陶瓷電路板設計與製造)",
+        "entities": []
+      },
+      {
+        "category": "散熱基板",
+        "text": "**立誠** ([[氮化鋁]]/氧化鋁散熱基板)",
+        "entities": [
+          "氮化鋁"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (LED 封裝與功率元件)",
+        "text": "**下游 (LED 封裝與功率元件):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "LED 封裝廠如 [[億光]]、[[光寶]] — 高功率 LED 散熱基板",
+        "entities": [
+          "億光",
+          "光寶"
+        ]
+      },
+      {
+        "category": "車用照明",
+        "text": "車用 LED 模組廠 — [[氮化鋁]]散熱基板",
+        "entities": [
+          "氮化鋁"
+        ]
+      },
+      {
+        "category": "雷射元件",
+        "text": "[[雷射二極體]]封裝廠 — 雷射散熱基座",
+        "entities": [
+          "雷射二極體"
+        ]
+      },
+      {
+        "category": "功率半導體",
+        "text": "功率元件廠 — PMIC 散熱基板",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "LED 封裝",
+        "text": "國內外 LED 封裝廠如 [[億光]]、[[光寶]] — 高功率 LED 陶瓷散熱基板",
+        "entities": [
+          "億光",
+          "光寶"
+        ]
+      },
+      {
+        "role": "車用照明",
+        "text": "車用 LED 模組廠 — [[氮化鋁]]散熱基板",
+        "entities": [
+          "氮化鋁"
+        ]
+      },
+      {
+        "role": "雷射元件",
+        "text": "[[雷射二極體]]封裝廠 — 雷射散熱基座",
+        "entities": [
+          "雷射二極體"
+        ]
+      },
+      {
+        "role": "3D 感測",
+        "text": "[[3D 感測]]元件廠 — IR/UV LED 基板",
+        "entities": [
+          "3D 感測"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "陶瓷基材",
+        "text": "[[氮化鋁]]與氧化鋁陶瓷基板原料供應商",
+        "entities": [
+          "氮化鋁"
+        ]
+      },
+      {
+        "role": "金屬靶材",
+        "text": "銅、銀濺鍍靶材供應商",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "薄膜濺鍍與微影製程設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "億光",
+          "光寶",
+          "氮化鋁",
+          "雷射二極體",
+          "3D 感測"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Ecocera Optronics",
+      "type": "international_company_or_term",
+      "wikilink": "Ecocera Optronics"
+    },
+    {
+      "name": "氮化鋁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鋁"
+    },
+    {
+      "name": "雷射二極體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雷射二極體"
+    },
+    {
+      "name": "3D 感測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D 感測"
+    },
+    {
+      "name": "億光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光"
+    },
+    {
+      "name": "光寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "立誠光電 (6597，[[Ecocera Optronics]]) 專精於陶瓷散熱基板的設計、製程整合與製造，為台灣少數具備 DPC (Direct Plated Copper) 陶瓷電路板量產能力的廠商。\n\n核心產品與技術：(1) [[氮化鋁]] (AlN) 陶瓷基板 — 應用於高功率 LED 照明、車用 LED 及[[雷射二極體]]散熱；(2) 氧化鋁 (Al2O3) 陶瓷基板 — 應用於 UV LED、IR 感測器及 [[3D 感測]] 元件；(3) DPC 製程整合 — 結合薄膜濺鍍、微影與電鍍技術，可在陶瓷基板上製作精密電路圖案，應用於功率元件 (PMIC)、射頻 (RF) 與熱電模組。立誠的陶瓷基板產品已廣泛供應國內外 LED 封裝廠與車用照明模組廠，並積極拓展至半導體功率元件散熱應用。",
+    "supply_chain_md": "**上游 (陶瓷原料與設備):**\n- **陶瓷基材:** [[氮化鋁]]、氧化鋁陶瓷粉體與基板供應商\n- **靶材:** 銅、銀等金屬濺鍍靶材\n- **設備:** 薄膜濺鍍機、微影曝光設備\n\n**中游 (陶瓷基板製造):**\n- **DPC 基板:** **立誠** (DPC 陶瓷電路板設計與製造)\n- **散熱基板:** **立誠** ([[氮化鋁]]/氧化鋁散熱基板)\n\n**下游 (LED 封裝與功率元件):**\n- **LED 封裝:** LED 封裝廠如 [[億光]]、[[光寶]] — 高功率 LED 散熱基板\n- **車用照明:** 車用 LED 模組廠 — [[氮化鋁]]散熱基板\n- **雷射元件:** [[雷射二極體]]封裝廠 — 雷射散熱基座\n- **功率半導體:** 功率元件廠 — PMIC 散熱基板",
+    "customers_suppliers_md": "### 主要客戶\n- **LED 封裝:** 國內外 LED 封裝廠如 [[億光]]、[[光寶]] — 高功率 LED 陶瓷散熱基板\n- **車用照明:** 車用 LED 模組廠 — [[氮化鋁]]散熱基板\n- **雷射元件:** [[雷射二極體]]封裝廠 — 雷射散熱基座\n- **3D 感測:** [[3D 感測]]元件廠 — IR/UV LED 基板\n\n### 主要供應商\n- **陶瓷基材:** [[氮化鋁]]與氧化鋁陶瓷基板原料供應商\n- **金屬靶材:** 銅、銀濺鍍靶材供應商\n- **設備:** 薄膜濺鍍與微影製程設備供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

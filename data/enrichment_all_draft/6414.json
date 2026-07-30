@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6414",
+  "company_name": "樺漢",
+  "title": "6414_樺漢",
+  "source_md": "Pilot_Reports/Computer Hardware/6414_樺漢.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "63,679 百萬台幣",
+    "enterprise_value": "110,505 百萬台幣"
+  },
+  "business": {
+    "summary": "樺漢科技股份有限公司 (6414，Ennoconn) 是[[鴻海]]集團旗下的[[工業電腦]]([[IPC]])與系統整合大廠。樺漢有別於傳統[[IPC]]硬體製造，近年成功轉型為提供「智慧解決方案即服務」(ESaaS)的雲地整合服務商。公司業務涵蓋工業[[物聯網]](IIoT)、智慧城市、智慧零售及智慧工廠之軟硬體整合與雲端運算服務。憑藉[[鴻海]]集團的龐大製造資源與國際併購策略(如德國Kontron)，並結盟大股東[[Google]]的雲端技術(GCP)，樺漢目前已是全球智慧零售與邊緣運算系統整合的領導者。",
+    "entities": [
+      "鴻海",
+      "工業電腦",
+      "IPC",
+      "物聯網",
+      "Google"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 處理器/晶片組(如[[Intel]]/[[AMD]]/[[NVIDIA]])、[[記憶體]]、面板、[[PCB]]及機構件製造商。",
+        "entities": [
+          "Intel",
+          "AMD",
+          "NVIDIA",
+          "記憶體",
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **樺漢科技** ([[工業電腦]]硬體設計製造、[[物聯網]]整合系統及ESaaS雲端管理服務)。",
+        "entities": [
+          "工業電腦",
+          "物聯網"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 各垂直領域之系統整合商([[SI]])、企業IT部門、智慧零售通路及博弈/金融設備業者。",
+        "entities": [
+          "SI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "NCR Voyix(全球零售/金融設備龍頭)、歐洲鐵路局、以及各領域的跨國企業客戶。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Google]]([[雲端服務]]與[[AI]]技術供應商)、[[鴻海]](提供全球DMS製造代工支援)及各大晶片廠。",
+        "entities": [
+          "Google",
+          "雲端服務",
+          "AI",
+          "鴻海"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "SI",
+      "type": "international_company_or_term",
+      "wikilink": "SI"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "樺漢科技股份有限公司 (6414，Ennoconn) 是[[鴻海]]集團旗下的[[工業電腦]]([[IPC]])與系統整合大廠。樺漢有別於傳統[[IPC]]硬體製造，近年成功轉型為提供「智慧解決方案即服務」(ESaaS)的雲地整合服務商。公司業務涵蓋工業[[物聯網]](IIoT)、智慧城市、智慧零售及智慧工廠之軟硬體整合與雲端運算服務。憑藉[[鴻海]]集團的龐大製造資源與國際併購策略(如德國Kontron)，並結盟大股東[[Google]]的雲端技術(GCP)，樺漢目前已是全球智慧零售與邊緣運算系統整合的領導者。",
+    "supply_chain_md": "*   **上游**: 處理器/晶片組(如[[Intel]]/[[AMD]]/[[NVIDIA]])、[[記憶體]]、面板、[[PCB]]及機構件製造商。\n*   **中游**: **樺漢科技** ([[工業電腦]]硬體設計製造、[[物聯網]]整合系統及ESaaS雲端管理服務)。\n*   **下游**: 各垂直領域之系統整合商([[SI]])、企業IT部門、智慧零售通路及博弈/金融設備業者。",
+    "customers_suppliers_md": "### 主要客戶\n*   NCR Voyix(全球零售/金融設備龍頭)、歐洲鐵路局、以及各領域的跨國企業客戶。\n\n### 主要供應商\n*   [[Google]]([[雲端服務]]與[[AI]]技術供應商)、[[鴻海]](提供全球DMS製造代工支援)及各大晶片廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

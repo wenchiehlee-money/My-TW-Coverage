@@ -1,0 +1,254 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3678",
+  "company_name": "聯享",
+  "title": "3678 - 聯享",
+  "source_md": "Pilot_Reports/Chemicals/3678_聯享.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals",
+    "market_cap": "1,295 百萬台幣",
+    "enterprise_value": "1,258 百萬台幣"
+  },
+  "business": {
+    "summary": "聯享光電 (3678，Ushine Photonics) 為台灣首家量產 [[ITO]] (氧化銦錫) 透明導電薄膜之廠商，核心技術為捲對捲 (roll-to-roll) 真空濺鍍。2024 年營收 3.52 億元 (年增 60%)。ITO 靶材採購自日本[[JX金屬]]、[[三井金屬]]，光學級[[PET]]基膜來自[[東麗]] (Toray)。下游客戶涵蓋觸控面板模組廠如[[TPK宸鴻]]、[[GIS業成]]等。另拓展[[LoRaWAN]] IoT 閘道器及智慧能源管理系統 (iSDMS)，並探索[[鈣鈦礦太陽能電池]]透明電極薄膜應用。",
+    "entities": [
+      "ITO",
+      "JX金屬",
+      "三井金屬",
+      "PET",
+      "東麗",
+      "TPK宸鴻",
+      "GIS業成",
+      "LoRaWAN",
+      "鈣鈦礦太陽能電池"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "ITO 靶材",
+        "text": "[[JX金屬]]、[[三井金屬]] — [[ITO]]濺鍍靶材",
+        "entities": [
+          "JX金屬",
+          "三井金屬",
+          "ITO"
+        ]
+      },
+      {
+        "category": "PET 基膜",
+        "text": "[[東麗]] (Toray) — 光學級[[PET]]基膜",
+        "entities": [
+          "東麗",
+          "PET"
+        ]
+      },
+      {
+        "category": "銦金屬",
+        "text": "全球銦金屬供應商 (中國為主產地)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**聯享** ([[ITO]]透明導電薄膜捲對捲濺鍍)",
+        "entities": [
+          "ITO"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "觸控面板",
+        "text": "[[TPK宸鴻]]、[[GIS業成]] — 觸控模組用 ITO 膜",
+        "entities": [
+          "TPK宸鴻",
+          "GIS業成"
+        ]
+      },
+      {
+        "category": "電子紙/顯示",
+        "text": "面板廠 — 透明導電層",
+        "entities": []
+      },
+      {
+        "category": "新興應用",
+        "text": "[[鈣鈦礦太陽能電池]]透明電極；[[LoRaWAN]] IoT 閘道器",
+        "entities": [
+          "鈣鈦礦太陽能電池",
+          "LoRaWAN"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "觸控面板",
+        "text": "[[TPK宸鴻]]、[[GIS業成]] — ITO 透明導電膜",
+        "entities": [
+          "TPK宸鴻",
+          "GIS業成"
+        ]
+      },
+      {
+        "role": "顯示/電子紙",
+        "text": "面板廠 — 導電層",
+        "entities": []
+      },
+      {
+        "role": "新興",
+        "text": "[[鈣鈦礦太陽能電池]]透明電極",
+        "entities": [
+          "鈣鈦礦太陽能電池"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "ITO 靶材",
+        "text": "[[JX金屬]]、[[三井金屬]]",
+        "entities": [
+          "JX金屬",
+          "三井金屬"
+        ]
+      },
+      {
+        "role": "PET 基膜",
+        "text": "[[東麗]] (Toray)",
+        "entities": [
+          "東麗"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Chemicals):** [[台苯]]、[[國喬]]、[[聯成]]、[[台化]]、[[東鹼]]",
+        "entities": [
+          "台苯",
+          "國喬",
+          "聯成",
+          "台化",
+          "東鹼"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "TPK宸鴻",
+          "GIS業成",
+          "鈣鈦礦太陽能電池"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ITO",
+      "type": "international_company_or_term",
+      "wikilink": "ITO"
+    },
+    {
+      "name": "JX金屬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "JX金屬"
+    },
+    {
+      "name": "三井金屬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三井金屬"
+    },
+    {
+      "name": "PET",
+      "type": "international_company_or_term",
+      "wikilink": "PET"
+    },
+    {
+      "name": "東麗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東麗"
+    },
+    {
+      "name": "TPK宸鴻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "TPK宸鴻"
+    },
+    {
+      "name": "GIS業成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "GIS業成"
+    },
+    {
+      "name": "LoRaWAN",
+      "type": "international_company_or_term",
+      "wikilink": "LoRaWAN"
+    },
+    {
+      "name": "鈣鈦礦太陽能電池",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈣鈦礦太陽能電池"
+    },
+    {
+      "name": "台苯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台苯"
+    },
+    {
+      "name": "國喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國喬"
+    },
+    {
+      "name": "聯成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯成"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "東鹼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東鹼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯享光電 (3678，Ushine Photonics) 為台灣首家量產 [[ITO]] (氧化銦錫) 透明導電薄膜之廠商，核心技術為捲對捲 (roll-to-roll) 真空濺鍍。2024 年營收 3.52 億元 (年增 60%)。ITO 靶材採購自日本[[JX金屬]]、[[三井金屬]]，光學級[[PET]]基膜來自[[東麗]] (Toray)。下游客戶涵蓋觸控面板模組廠如[[TPK宸鴻]]、[[GIS業成]]等。另拓展[[LoRaWAN]] IoT 閘道器及智慧能源管理系統 (iSDMS)，並探索[[鈣鈦礦太陽能電池]]透明電極薄膜應用。",
+    "supply_chain_md": "**上游 (原料):**\n- **ITO 靶材:** [[JX金屬]]、[[三井金屬]] — [[ITO]]濺鍍靶材\n- **PET 基膜:** [[東麗]] (Toray) — 光學級[[PET]]基膜\n- **銦金屬:** 全球銦金屬供應商 (中國為主產地)\n\n**中游 (製造):**\n- **聯享** ([[ITO]]透明導電薄膜捲對捲濺鍍)\n\n**下游 (終端):**\n- **觸控面板:** [[TPK宸鴻]]、[[GIS業成]] — 觸控模組用 ITO 膜\n- **電子紙/顯示:** 面板廠 — 透明導電層\n- **新興應用:** [[鈣鈦礦太陽能電池]]透明電極；[[LoRaWAN]] IoT 閘道器",
+    "customers_suppliers_md": "### 主要客戶\n- **觸控面板:** [[TPK宸鴻]]、[[GIS業成]] — ITO 透明導電膜\n- **顯示/電子紙:** 面板廠 — 導電層\n- **新興:** [[鈣鈦礦太陽能電池]]透明電極\n\n### 主要供應商\n- **ITO 靶材:** [[JX金屬]]、[[三井金屬]]\n- **PET 基膜:** [[東麗]] (Toray)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

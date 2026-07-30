@@ -1,0 +1,194 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4905",
+  "company_name": "台聯電",
+  "title": "4905 - [[台聯電]]",
+  "source_md": "Pilot_Reports/Communication Equipment/4905_台聯電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "1,908 百萬台幣",
+    "enterprise_value": "1,931 百萬台幣"
+  },
+  "business": {
+    "summary": "台[[聯電]]訊 (4905，[[TAINET]]) 原為老牌 xDSL 數位用戶迴路設備廠商，近年進行重大業務轉型，跨足特用化學與醫療包裝領域。目前營運雙軌並行：醫療與特化事業 (主要營收來源) 透過子公司欣德芮生產醫療滅菌包裝材料及電子級特用化學品；網通事業維持 xDSL 數據機、[[G.fast]] 設備及光纖 [[PON]] 接取設備之研發製造，服務海外電信營運商最後一哩接入需求。\n\n2024 年營收大幅成長逾 400%，醫療包材事業成為獲利主力。子公司欣德芮持續擴廠，並取得生技公司達亞 (6762) 最大股東地位。網通產品銷售遍及全球 130 國以上，主攻歐洲與新興市場特定區域電信商標案。",
+    "entities": [
+      "聯電",
+      "TAINET",
+      "G.fast",
+      "PON"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (醫材與網通原料)",
+        "text": "**上游 (醫材與網通原料):**",
+        "entities": []
+      },
+      {
+        "category": "醫材端",
+        "text": "高分子塑膠薄膜、無菌醫用級包材酯粒、電子級化學溶劑",
+        "entities": []
+      },
+      {
+        "category": "網通端",
+        "text": "[[Broadcom]]、[[瑞昱]] 等通訊主控晶片",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (醫材包裝與網通設備)",
+        "text": "**中游 (醫材包裝與網通設備):**",
+        "entities": []
+      },
+      {
+        "category": "雙軌營運",
+        "text": "**台[[聯電]]** (子公司欣德芮：醫療滅菌包裝/特用化學品；本業：xDSL/G.fast/PON 設備)",
+        "entities": [
+          "聯電"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (醫療與電信)",
+        "text": "**下游 (醫療與電信):**",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "跨國醫療器材廠及國內生技醫院體系",
+        "entities": []
+      },
+      {
+        "category": "電信",
+        "text": "歐洲及新興市場區域電信營運商",
+        "entities": []
+      },
+      {
+        "category": "轉投資",
+        "text": "達亞 (6762，生技公司最大股東)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "醫療包材",
+        "text": "跨國醫療器材設備商 (滅菌包裝)",
+        "entities": []
+      },
+      {
+        "role": "特用化學",
+        "text": "半導體及電子業 (電子級化學品)",
+        "entities": []
+      },
+      {
+        "role": "網通",
+        "text": "歐洲及新興國家區域電信商 (PON/G.fast 標案)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "醫材原料",
+        "text": "國際醫用級高分子塑料供應商",
+        "entities": []
+      },
+      {
+        "role": "網通晶片",
+        "text": "[[Broadcom]]、[[瑞昱]]",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "競爭同業 (網通)",
+        "text": "[[康聯訊]]、[[展達]]",
+        "entities": [
+          "康聯訊",
+          "展達"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業 (網通):** [[康聯訊]]、[[展達]]",
+        "entities": [
+          "康聯訊",
+          "展達"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "TAINET",
+      "type": "international_company_or_term",
+      "wikilink": "TAINET"
+    },
+    {
+      "name": "G.fast",
+      "type": "international_company_or_term",
+      "wikilink": "G.fast"
+    },
+    {
+      "name": "PON",
+      "type": "international_company_or_term",
+      "wikilink": "PON"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "康聯訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康聯訊"
+    },
+    {
+      "name": "展達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "展達"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台[[聯電]]訊 (4905，[[TAINET]]) 原為老牌 xDSL 數位用戶迴路設備廠商，近年進行重大業務轉型，跨足特用化學與醫療包裝領域。目前營運雙軌並行：醫療與特化事業 (主要營收來源) 透過子公司欣德芮生產醫療滅菌包裝材料及電子級特用化學品；網通事業維持 xDSL 數據機、[[G.fast]] 設備及光纖 [[PON]] 接取設備之研發製造，服務海外電信營運商最後一哩接入需求。\n\n2024 年營收大幅成長逾 400%，醫療包材事業成為獲利主力。子公司欣德芮持續擴廠，並取得生技公司達亞 (6762) 最大股東地位。網通產品銷售遍及全球 130 國以上，主攻歐洲與新興市場特定區域電信商標案。",
+    "supply_chain_md": "**上游 (醫材與網通原料):**\n- **醫材端:** 高分子塑膠薄膜、無菌醫用級包材酯粒、電子級化學溶劑\n- **網通端:** [[Broadcom]]、[[瑞昱]] 等通訊主控晶片\n\n**中游 (醫材包裝與網通設備):**\n- **雙軌營運:** **台[[聯電]]** (子公司欣德芮：醫療滅菌包裝/特用化學品；本業：xDSL/G.fast/PON 設備)\n\n**下游 (醫療與電信):**\n- **醫療:** 跨國醫療器材廠及國內生技醫院體系\n- **電信:** 歐洲及新興市場區域電信營運商\n- **轉投資:** 達亞 (6762，生技公司最大股東)",
+    "customers_suppliers_md": "### 主要客戶\n- **醫療包材:** 跨國醫療器材設備商 (滅菌包裝)\n- **特用化學:** 半導體及電子業 (電子級化學品)\n- **網通:** 歐洲及新興國家區域電信商 (PON/G.fast 標案)\n\n### 主要供應商\n- **醫材原料:** 國際醫用級高分子塑料供應商\n- **網通晶片:** [[Broadcom]]、[[瑞昱]]\n- **競爭同業 (網通):** [[康聯訊]]、[[展達]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

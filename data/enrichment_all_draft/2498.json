@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2498",
+  "company_name": "宏達電",
+  "title": "2498 - 宏達電",
+  "source_md": "Pilot_Reports/Consumer Electronics/2498_宏達電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "32,233 百萬台幣",
+    "enterprise_value": "17,409 百萬台幣"
+  },
+  "business": {
+    "summary": "宏達國際電子股份有限公司 (HTC Corporation) 成立於 1997 年，總部位於台灣[[新北]]。公司曾為全球智慧型手機領導品牌 (Android 手機先驅)。近年轉型專注於 **虛擬實境 (VR)** 與 **元宇宙 ([[Meta]]verse)** 領域，推出 [[VIVE]] 系列頭戴式顯示器 (Headsets) 及 [[VIVERSE]] 開放式元宇宙平台。公司仍保留部分智慧型手機業務 (U 系列)，並積極發展 [[AI]] 眼鏡及 [[5G]] 專網解決方案。",
+    "entities": [
+      "新北",
+      "Meta",
+      "VIVE",
+      "VIVERSE",
+      "AI",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (組件)",
+        "text": "*   **上游 (組件):**",
+        "entities": []
+      },
+      {
+        "category": "晶片",
+        "text": "[[Qualcomm]] (XR 晶片), [[VIA Labs]] (USB/Audio 晶片).",
+        "entities": [
+          "Qualcomm",
+          "VIA Labs"
+        ]
+      },
+      {
+        "category": "光學/感測",
+        "text": "[[ZEISS]] (鏡片), 義明 (感測晶片).",
+        "entities": [
+          "ZEISS"
+        ]
+      },
+      {
+        "category": "顯示",
+        "text": "面板供應商。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "自有產線與委外組裝。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (應用/客戶)",
+        "text": "*   **下游 (應用/客戶):**",
+        "entities": []
+      },
+      {
+        "category": "消費 (B2C)",
+        "text": "遊戲玩家、科技愛好者 (VIVE Flow, XR Elite).",
+        "entities": []
+      },
+      {
+        "category": "企業 (B2B)",
+        "text": "教育、醫療、建築設計、軍事模擬 (VIVE Pro, VIVE Focus).",
+        "entities": []
+      }
+    ],
+    "other": [
+      {
+        "category": "",
+        "text": "宏達電位於消費電子產業鏈品牌與設計端。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "B2B",
+        "text": "企業解決方案客戶 (教育機構、設計公司、軍方)。",
+        "entities": []
+      },
+      {
+        "role": "B2C",
+        "text": "全球消費者 (透過官網、電商、經銷商銷售)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶片",
+        "text": "[[Qualcomm]], [[VIA Labs]] (威鋒電子), [[Elan]] (義隆-義明).",
+        "entities": [
+          "Qualcomm",
+          "VIA Labs",
+          "Elan"
+        ]
+      },
+      {
+        "role": "軟體/平台",
+        "text": "[[Google]] (Android), [[Microsoft]].",
+        "entities": [
+          "Google",
+          "Microsoft"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新北"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "VIVE",
+      "type": "international_company_or_term",
+      "wikilink": "VIVE"
+    },
+    {
+      "name": "VIVERSE",
+      "type": "international_company_or_term",
+      "wikilink": "VIVERSE"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "VIA Labs",
+      "type": "international_company_or_term",
+      "wikilink": "VIA Labs"
+    },
+    {
+      "name": "ZEISS",
+      "type": "international_company_or_term",
+      "wikilink": "ZEISS"
+    },
+    {
+      "name": "Elan",
+      "type": "international_company_or_term",
+      "wikilink": "Elan"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宏達國際電子股份有限公司 (HTC Corporation) 成立於 1997 年，總部位於台灣[[新北]]。公司曾為全球智慧型手機領導品牌 (Android 手機先驅)。近年轉型專注於 **虛擬實境 (VR)** 與 **元宇宙 ([[Meta]]verse)** 領域，推出 [[VIVE]] 系列頭戴式顯示器 (Headsets) 及 [[VIVERSE]] 開放式元宇宙平台。公司仍保留部分智慧型手機業務 (U 系列)，並積極發展 [[AI]] 眼鏡及 [[5G]] 專網解決方案。",
+    "supply_chain_md": "宏達電位於消費電子產業鏈品牌與設計端。\n*   **上游 (組件):** \n    *   **晶片:** [[Qualcomm]] (XR 晶片), [[VIA Labs]] (USB/Audio 晶片).\n    *   **光學/感測:** [[ZEISS]] (鏡片), 義明 (感測晶片).\n    *   **顯示:** 面板供應商。\n*   **中游 (製造):** 自有產線與委外組裝。\n*   **下游 (應用/客戶):** \n    *   **消費 (B2C):** 遊戲玩家、科技愛好者 (VIVE Flow, XR Elite).\n    *   **企業 (B2B):** 教育、醫療、建築設計、軍事模擬 (VIVE Pro, VIVE Focus).",
+    "customers_suppliers_md": "### 主要客戶\n*   **B2B:** 企業解決方案客戶 (教育機構、設計公司、軍方)。\n*   **B2C:** 全球消費者 (透過官網、電商、經銷商銷售)。\n\n### 主要供應商\n*   **晶片:** [[Qualcomm]], [[VIA Labs]] (威鋒電子), [[Elan]] (義隆-義明).\n*   **軟體/平台:** [[Google]] (Android), [[Microsoft]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6435",
+  "company_name": "大中",
+  "title": "6435_大中",
+  "source_md": "Pilot_Reports/Semiconductors/6435_大中.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "8,241 百萬台幣",
+    "enterprise_value": "7,579 百萬台幣"
+  },
+  "business": {
+    "summary": "大中積體電路股份有限公司 (6435，Sinopower) 隸屬於[[茂達電子]]集團，是一家專業的功率[[半導體]](Power Discrete)設計公司。大中的核心產品為各式中低壓[[MOSFET]]、高壓IC(HV IC)及[[IGBT]]模組，這些功率元件是管理與轉換電力的核心樞紐，廣泛應用於PC、[[伺服器]]、工業控制及[[消費性電子]]中。近期，大中受惠於[[AI PC]]及[[AI 伺服器]]功耗倍增，帶動其高階Dr.MOS與風扇馬達驅動晶片的強勁需求，並同時擴大車用與BBS電池管理系統的高附加價值應用。",
+    "entities": [
+      "茂達電子",
+      "半導體",
+      "MOSFET",
+      "IGBT",
+      "伺服器",
+      "消費性電子",
+      "AI PC",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[矽晶圓]](Silicon Wafer)供應商、[[半導體]]晶圓代工廠及光罩服務廠。",
+        "entities": [
+          "矽晶圓",
+          "半導體"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **大中積體電路** (低中高壓[[MOSFET]]、[[IGBT]]模組及高壓積體電路之設計開發)。",
+        "entities": [
+          "MOSFET",
+          "IGBT"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: IC封裝測試廠(OSAT)、電源供應器製造商、主機板/筆電廠及各大系統組裝代工廠。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台達電]]、[[鴻海]]、[[廣達]]等大型系統組裝與電源供應器廠(應用於[[AI[[伺服器]]]][[散熱]]與BBU)。",
+        "entities": [
+          "台達電",
+          "鴻海",
+          "廣達",
+          "AI[[伺服器",
+          "散熱"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "兩岸八吋與十二吋晶圓代工廠(如世界先進等)及封測代工廠。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台達電",
+          "鴻海",
+          "廣達",
+          "AI[[伺服器",
+          "散熱"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "茂達電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "茂達電子"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "AI PC",
+      "type": "international_company_or_term",
+      "wikilink": "AI PC"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大中積體電路股份有限公司 (6435，Sinopower) 隸屬於[[茂達電子]]集團，是一家專業的功率[[半導體]](Power Discrete)設計公司。大中的核心產品為各式中低壓[[MOSFET]]、高壓IC(HV IC)及[[IGBT]]模組，這些功率元件是管理與轉換電力的核心樞紐，廣泛應用於PC、[[伺服器]]、工業控制及[[消費性電子]]中。近期，大中受惠於[[AI PC]]及[[AI 伺服器]]功耗倍增，帶動其高階Dr.MOS與風扇馬達驅動晶片的強勁需求，並同時擴大車用與BBS電池管理系統的高附加價值應用。",
+    "supply_chain_md": "*   **上游**: [[矽晶圓]](Silicon Wafer)供應商、[[半導體]]晶圓代工廠及光罩服務廠。\n*   **中游**: **大中積體電路** (低中高壓[[MOSFET]]、[[IGBT]]模組及高壓積體電路之設計開發)。\n*   **下游**: IC封裝測試廠(OSAT)、電源供應器製造商、主機板/筆電廠及各大系統組裝代工廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[台達電]]、[[鴻海]]、[[廣達]]等大型系統組裝與電源供應器廠(應用於[[AI[[伺服器]]]][[散熱]]與BBU)。\n\n### 主要供應商\n*   兩岸八吋與十二吋晶圓代工廠(如世界先進等)及封測代工廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

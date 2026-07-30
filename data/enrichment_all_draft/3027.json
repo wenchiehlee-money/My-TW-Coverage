@@ -1,0 +1,297 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3027",
+  "company_name": "盛達",
+  "title": "3027 - 盛達",
+  "source_md": "Pilot_Reports/Conglomerates/3027_盛達.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Conglomerates",
+    "market_cap": "2,271 百萬台幣",
+    "enterprise_value": "1,867 百萬台幣"
+  },
+  "business": {
+    "summary": "盛達電業股份有限公司（Billion Electric）創立於1973年，早期以電源供應器與通訊設備起家，近年全面轉型為[[綠能]]與[[儲能系統]]服務商。旗下子公司[[盛齊綠能]]（Billion Watts）為轉型核心，提供一站式太陽光電與儲能解決方案，業務涵蓋[[太陽能]]逆變器代理、儲能系統建置（EPC）、維運（O&M）及[[台電]][[AFC]]（自動頻率控制）輔助服務平台聚合營運。盛齊綠能為國內首間通過台電測試之 AFC 代理聚合商，累計儲能系統裝置容量已達210MW，營運管理之儲能資產總值達158億元。通訊部門則專注於利基型[[5G]] FWA（固定無線接取）與工業[[物聯網]]（IIoT）設備。近期並與 [[Shift Clean Energy]] 合作推展航運電動化業務。",
+    "entities": [
+      "綠能",
+      "儲能系統",
+      "盛齊綠能",
+      "太陽能",
+      "台電",
+      "AFC",
+      "5G",
+      "物聯網",
+      "Shift Clean Energy"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與零組件)",
+        "text": "**上游 (設備與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "儲能電池",
+        "text": "[[Samsung SDI]]（LFP電池芯）、國際鋰電池廠",
+        "entities": [
+          "Samsung SDI"
+        ]
+      },
+      {
+        "category": "逆變器",
+        "text": "[[SolarEdge]]（太陽能逆變器代理）、[[SolarEdge]] 旗下 [[KoKam]]（儲能合作）",
+        "entities": [
+          "SolarEdge",
+          "KoKam"
+        ]
+      },
+      {
+        "category": "通訊晶片",
+        "text": "IC 設計公司、被動元件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合與服務)",
+        "text": "**中游 (系統整合與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**盛達電業 / [[盛齊綠能]]** — 儲能系統 EPC 建置、[[AFC]] 聚合營運、太陽光電系統整合、[[5G]] FWA 設備製造",
+        "entities": [
+          "盛齊綠能",
+          "AFC",
+          "5G"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電力輔助服務",
+        "text": "[[台電]]（AFC 自動頻率控制標案）",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "太陽能電廠",
+        "text": "國內再生能源業者、太陽能電廠投資方",
+        "entities": []
+      },
+      {
+        "category": "通訊",
+        "text": "歐美電信營運商、企業專網用戶",
+        "entities": []
+      },
+      {
+        "category": "航運",
+        "text": "[[Shift Clean Energy]]（航運電動化合作）",
+        "entities": [
+          "Shift Clean Energy"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "儲能/綠能",
+        "text": "[[台電]]（AFC 自動頻率控制輔助服務標案）、國內再生能源業者、太陽能電廠業主",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "通訊設備",
+        "text": "北美及歐洲電信營運商、企業專網用戶",
+        "entities": []
+      },
+      {
+        "role": "航運電動化",
+        "text": "與 [[Shift Clean Energy]] 合作推展國內航運電動化",
+        "entities": [
+          "Shift Clean Energy"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "逆變器/儲能",
+        "text": "[[SolarEdge]]（主要太陽能逆變器代理）、[[KoKam]]（SolarEdge旗下儲能子公司）",
+        "entities": [
+          "SolarEdge",
+          "KoKam"
+        ]
+      },
+      {
+        "role": "電池芯",
+        "text": "[[Samsung SDI]]（LFP磷酸鐵鋰電池）",
+        "entities": [
+          "Samsung SDI"
+        ]
+      },
+      {
+        "role": "通訊零組件",
+        "text": "IC 設計公司、[[MLCC]] 及被動元件供應商",
+        "entities": [
+          "MLCC"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Conglomerates):** [[中福]]、[[大同]]、[[日勝生]]、[[東森]]、[[豐祥-KY]]",
+        "entities": [
+          "中福",
+          "大同",
+          "日勝生",
+          "東森",
+          "豐祥-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "Shift Clean Energy"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "盛達電業股份有限公司（Billion Electric）創立於1973年，早期以電源供應器與通訊設備起家，近年全面轉型為[[綠能]]與[[儲能系統]]服務商。旗下子公司[[盛齊綠能]]（Billion Watts）為轉型核心，提供一站式太陽光電與儲能解決方案，業務涵蓋[[太陽能]]逆變器代理、儲能系統建置（EPC）、維運（O&M）及[[台電]][[AFC]]（自動頻率控制）輔助服務平台聚合營運。盛齊綠能為國內首間通過台電測試之 AFC 代理聚合商，累計儲能系統裝置容量已達210MW，營運管理之儲能資產總值達158億元。通訊部門則專注於利基型[[5G]] FWA（固定無線接取）與工業[[物聯網]]（IIoT）設備。近期並與 [[Shift Clean Energy]] 合作推展航運電動化業務。",
+        "entities": [
+          "綠能",
+          "儲能系統",
+          "盛齊綠能",
+          "太陽能",
+          "台電",
+          "AFC",
+          "5G",
+          "物聯網",
+          "Shift Clean Energy"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "綠能"
+    },
+    {
+      "name": "儲能系統",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能系統"
+    },
+    {
+      "name": "盛齊綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "盛齊綠能"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "AFC",
+      "type": "international_company_or_term",
+      "wikilink": "AFC"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Shift Clean Energy",
+      "type": "international_company_or_term",
+      "wikilink": "Shift Clean Energy"
+    },
+    {
+      "name": "Samsung SDI",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung SDI"
+    },
+    {
+      "name": "SolarEdge",
+      "type": "international_company_or_term",
+      "wikilink": "SolarEdge"
+    },
+    {
+      "name": "KoKam",
+      "type": "international_company_or_term",
+      "wikilink": "KoKam"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "中福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中福"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "日勝生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日勝生"
+    },
+    {
+      "name": "東森",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東森"
+    },
+    {
+      "name": "豐祥-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐祥-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "盛達電業股份有限公司（Billion Electric）創立於1973年，早期以電源供應器與通訊設備起家，近年全面轉型為[[綠能]]與[[儲能系統]]服務商。旗下子公司[[盛齊綠能]]（Billion Watts）為轉型核心，提供一站式太陽光電與儲能解決方案，業務涵蓋[[太陽能]]逆變器代理、儲能系統建置（EPC）、維運（O&M）及[[台電]][[AFC]]（自動頻率控制）輔助服務平台聚合營運。盛齊綠能為國內首間通過台電測試之 AFC 代理聚合商，累計儲能系統裝置容量已達210MW，營運管理之儲能資產總值達158億元。通訊部門則專注於利基型[[5G]] FWA（固定無線接取）與工業[[物聯網]]（IIoT）設備。近期並與 [[Shift Clean Energy]] 合作推展航運電動化業務。",
+    "supply_chain_md": "**上游 (設備與零組件):**\n- **儲能電池:** [[Samsung SDI]]（LFP電池芯）、國際鋰電池廠\n- **逆變器:** [[SolarEdge]]（太陽能逆變器代理）、[[SolarEdge]] 旗下 [[KoKam]]（儲能合作）\n- **通訊晶片:** IC 設計公司、被動元件供應商\n\n**中游 (系統整合與服務):**\n- **盛達電業 / [[盛齊綠能]]** — 儲能系統 EPC 建置、[[AFC]] 聚合營運、太陽光電系統整合、[[5G]] FWA 設備製造\n\n**下游 (終端客戶):**\n- **電力輔助服務:** [[台電]]（AFC 自動頻率控制標案）\n- **太陽能電廠:** 國內再生能源業者、太陽能電廠投資方\n- **通訊:** 歐美電信營運商、企業專網用戶\n- **航運:** [[Shift Clean Energy]]（航運電動化合作）",
+    "customers_suppliers_md": "### 主要客戶\n- **儲能/綠能:** [[台電]]（AFC 自動頻率控制輔助服務標案）、國內再生能源業者、太陽能電廠業主\n- **通訊設備:** 北美及歐洲電信營運商、企業專網用戶\n- **航運電動化:** 與 [[Shift Clean Energy]] 合作推展國內航運電動化\n\n### 主要供應商\n- **逆變器/儲能:** [[SolarEdge]]（主要太陽能逆變器代理）、[[KoKam]]（SolarEdge旗下儲能子公司）\n- **電池芯:** [[Samsung SDI]]（LFP磷酸鐵鋰電池）\n- **通訊零組件:** IC 設計公司、[[MLCC]] 及被動元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

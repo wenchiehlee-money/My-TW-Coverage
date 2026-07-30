@@ -1,0 +1,258 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1712",
+  "company_name": "興農",
+  "title": "1712 - 興農",
+  "source_md": "Pilot_Reports/Agricultural Inputs/1712_興農.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs",
+    "market_cap": "16,462 百萬台幣",
+    "enterprise_value": "17,047 百萬台幣"
+  },
+  "business": {
+    "summary": "興農股份有限公司 (1712，Sinon Corporation) 為台灣最大農藥製造商，國內農藥零售市佔約 18%，產品外銷逾 60 國。核心業務涵蓋：(1) 植物保護劑 (殺蟲劑、殺菌劑、除草劑) 與肥料之研發、製造及銷售，除草劑佔農藥營收約七成，具備農藥原體合成及成品製劑雙能力；(2) 連鎖生鮮超市 — [[楓康超市]] (約 52 間直營門市，佔營收約 26%)，主攻中彰投及桃竹地區；(3) 團膳事業 — [[玉美生技]]提供企業團膳與生鮮食材；(4) 預拌混凝土及日用塑化品。國際布局設有八個海外子公司 (日本、美國、巴西、中國江蘇、澳洲、泰國、印尼、歐洲)。公司亦積極發展生物農藥，光桿菌製劑為全球首創兼具殺蟎與抗菌雙效之微生物製劑。",
+    "entities": [
+      "楓康超市",
+      "玉美生技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "農藥原體",
+        "text": "自主合成與國際農化大廠如 [[Syngenta]]、[[BASF]]、[[Bayer CropScience]]、[[Corteva]]、[[FMC]] 採購原體",
+        "entities": [
+          "Syngenta",
+          "BASF",
+          "Bayer CropScience",
+          "Corteva",
+          "FMC"
+        ]
+      },
+      {
+        "category": "肥料原料",
+        "text": "進口[[尿素]]、[[氯化鉀]]、[[磷礦石]]等",
+        "entities": [
+          "尿素",
+          "氯化鉀",
+          "磷礦石"
+        ]
+      },
+      {
+        "category": "化工中間體",
+        "text": "精密化學品原料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與通路)",
+        "text": "**中游 (製造與通路):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**興農** (農藥原體合成與製劑加工、複合肥料生產、國際 OEM/ODM 代工)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[楓康超市]]** (52 間直營生鮮超市)",
+        "entities": [
+          "楓康超市"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[玉美生技]]** (企業團膳與生鮮食材)",
+        "entities": [
+          "玉美生技"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "國內農資",
+        "text": "興農供應中心門市網絡直接服務台灣農民",
+        "entities": []
+      },
+      {
+        "category": "國際市場",
+        "text": "外銷逾 60 國之農藥原體與製劑",
+        "entities": []
+      },
+      {
+        "category": "超市消費者",
+        "text": "[[楓康超市]]服務中台灣家庭消費者",
+        "entities": [
+          "楓康超市"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國內農資",
+        "text": "全台興農供應中心門市 — 直接服務農民與農會系統",
+        "entities": []
+      },
+      {
+        "role": "國際農藥",
+        "text": "外銷至巴西、印尼、泰國、日本、澳洲、美國、歐洲等逾 60 國經銷商",
+        "entities": []
+      },
+      {
+        "role": "OEM/ODM",
+        "text": "國際農化大廠委託加工服務",
+        "entities": []
+      },
+      {
+        "role": "超市消費者",
+        "text": "[[楓康超市]] — 52 間直營門市",
+        "entities": [
+          "楓康超市"
+        ]
+      },
+      {
+        "role": "團膳客戶",
+        "text": "[[玉美生技]] — 企業團膳服務",
+        "entities": [
+          "玉美生技"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "農藥原體",
+        "text": "[[Syngenta]]、[[BASF]]、[[Bayer CropScience]]、[[Corteva]]、[[FMC]] — 國際農藥原體與技術合作",
+        "entities": [
+          "Syngenta",
+          "BASF",
+          "Bayer CropScience",
+          "Corteva",
+          "FMC"
+        ]
+      },
+      {
+        "role": "肥料原料",
+        "text": "國際[[尿素]]、[[氯化鉀]]、[[磷礦石]]供應商",
+        "entities": [
+          "尿素",
+          "氯化鉀",
+          "磷礦石"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Agricultural Inputs):** [[台肥]]、[[惠光]]",
+        "entities": [
+          "台肥",
+          "惠光"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "楓康超市",
+          "玉美生技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "楓康超市",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楓康超市"
+    },
+    {
+      "name": "玉美生技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玉美生技"
+    },
+    {
+      "name": "Syngenta",
+      "type": "international_company_or_term",
+      "wikilink": "Syngenta"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Bayer CropScience",
+      "type": "international_company_or_term",
+      "wikilink": "Bayer CropScience"
+    },
+    {
+      "name": "Corteva",
+      "type": "international_company_or_term",
+      "wikilink": "Corteva"
+    },
+    {
+      "name": "FMC",
+      "type": "international_company_or_term",
+      "wikilink": "FMC"
+    },
+    {
+      "name": "尿素",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尿素"
+    },
+    {
+      "name": "氯化鉀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氯化鉀"
+    },
+    {
+      "name": "磷礦石",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷礦石"
+    },
+    {
+      "name": "台肥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台肥"
+    },
+    {
+      "name": "惠光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "惠光"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "興農股份有限公司 (1712，Sinon Corporation) 為台灣最大農藥製造商，國內農藥零售市佔約 18%，產品外銷逾 60 國。核心業務涵蓋：(1) 植物保護劑 (殺蟲劑、殺菌劑、除草劑) 與肥料之研發、製造及銷售，除草劑佔農藥營收約七成，具備農藥原體合成及成品製劑雙能力；(2) 連鎖生鮮超市 — [[楓康超市]] (約 52 間直營門市，佔營收約 26%)，主攻中彰投及桃竹地區；(3) 團膳事業 — [[玉美生技]]提供企業團膳與生鮮食材；(4) 預拌混凝土及日用塑化品。國際布局設有八個海外子公司 (日本、美國、巴西、中國江蘇、澳洲、泰國、印尼、歐洲)。公司亦積極發展生物農藥，光桿菌製劑為全球首創兼具殺蟎與抗菌雙效之微生物製劑。",
+    "supply_chain_md": "**上游 (原料):**\n- **農藥原體:** 自主合成與國際農化大廠如 [[Syngenta]]、[[BASF]]、[[Bayer CropScience]]、[[Corteva]]、[[FMC]] 採購原體\n- **肥料原料:** 進口[[尿素]]、[[氯化鉀]]、[[磷礦石]]等\n- **化工中間體:** 精密化學品原料供應商\n\n**中游 (製造與通路):**\n- **興農** (農藥原體合成與製劑加工、複合肥料生產、國際 OEM/ODM 代工)\n- **[[楓康超市]]** (52 間直營生鮮超市)\n- **[[玉美生技]]** (企業團膳與生鮮食材)\n\n**下游 (終端應用):**\n- **國內農資:** 興農供應中心門市網絡直接服務台灣農民\n- **國際市場:** 外銷逾 60 國之農藥原體與製劑\n- **超市消費者:** [[楓康超市]]服務中台灣家庭消費者",
+    "customers_suppliers_md": "### 主要客戶\n- **國內農資:** 全台興農供應中心門市 — 直接服務農民與農會系統\n- **國際農藥:** 外銷至巴西、印尼、泰國、日本、澳洲、美國、歐洲等逾 60 國經銷商\n- **OEM/ODM:** 國際農化大廠委託加工服務\n- **超市消費者:** [[楓康超市]] — 52 間直營門市\n- **團膳客戶:** [[玉美生技]] — 企業團膳服務\n\n### 主要供應商\n- **農藥原體:** [[Syngenta]]、[[BASF]]、[[Bayer CropScience]]、[[Corteva]]、[[FMC]] — 國際農藥原體與技術合作\n- **肥料原料:** 國際[[尿素]]、[[氯化鉀]]、[[磷礦石]]供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

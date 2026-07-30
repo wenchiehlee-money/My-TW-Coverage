@@ -1,0 +1,284 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6221",
+  "company_name": "晉泰",
+  "title": "6221_晉泰",
+  "source_md": "Pilot_Reports/Information Technology Services/6221_晉泰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "3,473 百萬台幣",
+    "enterprise_value": "-116 百萬台幣"
+  },
+  "business": {
+    "summary": "晉泰科技 (6221，Genesis Technology) 成立於 1994 年，深耕資訊科技系統整合服務領域，全球設有 15 個營運據點，擁有逾 350 位 ICT 專業人員。公司核心業務包含企業網路整合 (約佔四成)、系統平台建置 (佔兩成多) 及儲存設備規劃 (佔兩成多)，並涵蓋[[資安]]管理、[[雲端服務]]及企業應用軟體。晉泰客戶群高度集中於高科技製造業，並與[[精誠資訊]] (6214) 進行深度策略聯盟 (精誠持股逾三成)，藉由雙方互補優勢積極拓展亞洲及美國市場。",
+    "entities": [
+      "資安",
+      "雲端服務",
+      "精誠資訊"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際軟硬體原廠)",
+        "text": "**上游 (國際軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "網路設備",
+        "text": "[[Cisco]] — 企業網路核心設備",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "category": "伺服器",
+        "text": "[[HPE]]、[[Dell]] — 伺服器與運算平台",
+        "entities": [
+          "HPE",
+          "Dell"
+        ]
+      },
+      {
+        "category": "儲存",
+        "text": "[[NetApp]] — 企業級儲存方案",
+        "entities": [
+          "NetApp"
+        ]
+      },
+      {
+        "category": "軟體/虛擬化",
+        "text": "[[Microsoft]]、[[VMware]]、[[Oracle]]",
+        "entities": [
+          "Microsoft",
+          "VMware",
+          "Oracle"
+        ]
+      },
+      {
+        "category": "資安",
+        "text": "[[Palo Alto Networks]] — 防火牆與入侵防禦",
+        "entities": [
+          "Palo Alto Networks"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合)",
+        "text": "**中游 (系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "SI",
+        "text": "**晉泰科技** (企業資訊架構設計、網路與儲存系統整合、[[資安]]建置及雲端維運)",
+        "entities": [
+          "資安"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "高科技製造",
+        "text": "半導體、IC 設計與電子製造業",
+        "entities": []
+      },
+      {
+        "category": "電信",
+        "text": "電信營運商",
+        "entities": []
+      },
+      {
+        "category": "醫療/零售",
+        "text": "大型醫療院所與零售業",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "高科技製造",
+        "text": "台灣半導體與 IC 設計大廠 — 企業 IT 架構與網路建置",
+        "entities": []
+      },
+      {
+        "role": "電信",
+        "text": "電信營運商 — 網路與資安整合",
+        "entities": []
+      },
+      {
+        "role": "醫療",
+        "text": "大型醫療院所 — 資訊系統建置",
+        "entities": []
+      },
+      {
+        "role": "策略夥伴",
+        "text": "[[精誠資訊]] (6214) — 持股逾三成之最大股東",
+        "entities": [
+          "精誠資訊"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網路設備",
+        "text": "[[Cisco]] — 核心網路通訊設備",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "role": "伺服器",
+        "text": "[[HPE]]、[[Dell]] — 伺服器與運算平台",
+        "entities": [
+          "HPE",
+          "Dell"
+        ]
+      },
+      {
+        "role": "儲存",
+        "text": "[[NetApp]] — 企業級儲存方案",
+        "entities": [
+          "NetApp"
+        ]
+      },
+      {
+        "role": "軟體",
+        "text": "[[Microsoft]]、[[VMware]]、[[Oracle]] — 商用軟體授權",
+        "entities": [
+          "Microsoft",
+          "VMware",
+          "Oracle"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Information Technology Services):** [[廣豐]]、[[凌群]]、[[華經]]、[[資通]]、[[大綜]]",
+        "entities": [
+          "廣豐",
+          "凌群",
+          "華經",
+          "資通",
+          "大綜"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "精誠資訊"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "資安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資安"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "精誠資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精誠資訊"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "HPE",
+      "type": "international_company_or_term",
+      "wikilink": "HPE"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "NetApp",
+      "type": "international_company_or_term",
+      "wikilink": "NetApp"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "VMware",
+      "type": "international_company_or_term",
+      "wikilink": "VMware"
+    },
+    {
+      "name": "Oracle",
+      "type": "international_company_or_term",
+      "wikilink": "Oracle"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "廣豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣豐"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "華經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華經"
+    },
+    {
+      "name": "資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資通"
+    },
+    {
+      "name": "大綜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大綜"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晉泰科技 (6221，Genesis Technology) 成立於 1994 年，深耕資訊科技系統整合服務領域，全球設有 15 個營運據點，擁有逾 350 位 ICT 專業人員。公司核心業務包含企業網路整合 (約佔四成)、系統平台建置 (佔兩成多) 及儲存設備規劃 (佔兩成多)，並涵蓋[[資安]]管理、[[雲端服務]]及企業應用軟體。晉泰客戶群高度集中於高科技製造業，並與[[精誠資訊]] (6214) 進行深度策略聯盟 (精誠持股逾三成)，藉由雙方互補優勢積極拓展亞洲及美國市場。",
+    "supply_chain_md": "**上游 (國際軟硬體原廠):**\n- **網路設備:** [[Cisco]] — 企業網路核心設備\n- **伺服器:** [[HPE]]、[[Dell]] — 伺服器與運算平台\n- **儲存:** [[NetApp]] — 企業級儲存方案\n- **軟體/虛擬化:** [[Microsoft]]、[[VMware]]、[[Oracle]]\n- **資安:** [[Palo Alto Networks]] — 防火牆與入侵防禦\n\n**中游 (系統整合):**\n- **SI:** **晉泰科技** (企業資訊架構設計、網路與儲存系統整合、[[資安]]建置及雲端維運)\n\n**下游 (終端客戶):**\n- **高科技製造:** 半導體、IC 設計與電子製造業\n- **電信:** 電信營運商\n- **醫療/零售:** 大型醫療院所與零售業",
+    "customers_suppliers_md": "### 主要客戶\n- **高科技製造:** 台灣半導體與 IC 設計大廠 — 企業 IT 架構與網路建置\n- **電信:** 電信營運商 — 網路與資安整合\n- **醫療:** 大型醫療院所 — 資訊系統建置\n- **策略夥伴:** [[精誠資訊]] (6214) — 持股逾三成之最大股東\n\n### 主要供應商\n- **網路設備:** [[Cisco]] — 核心網路通訊設備\n- **伺服器:** [[HPE]]、[[Dell]] — 伺服器與運算平台\n- **儲存:** [[NetApp]] — 企業級儲存方案\n- **軟體:** [[Microsoft]]、[[VMware]]、[[Oracle]] — 商用軟體授權"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

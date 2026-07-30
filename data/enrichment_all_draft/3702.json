@@ -1,0 +1,371 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3702",
+  "company_name": "大聯大",
+  "title": "3702 - 大聯大",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/3702_大聯大.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "177,987 百萬台幣",
+    "enterprise_value": "344,132 百萬台幣"
+  },
+  "business": {
+    "summary": "大聯大投資控股 (3702，WPG Holdings) 成立於 2005 年，總部位於台北，為全球最大半導體零組件通路商之一，2024 年合併營收達 8,806 億元。旗下擁有[[世平]]、[[品佳]]、[[詮鼎]]及[[友尚]]四大子公司，代理產品線超過 250 家原廠。代理之核心半導體原廠包括 [[TI]] ([[Texas Instruments]])、[[Infineon]]、[[NXP]]、[[Renesas]]、[[Intel]] 等。產品涵蓋類比 IC、[[MCU]]、功率半導體、[[DRAM]]、光學元件、被動元件及連接器。業務版圖以大中華區為主 (約 70%)，近年受地緣政治影響，東南亞與美國市場比重持續上升。",
+    "entities": [
+      "世平",
+      "品佳",
+      "詮鼎",
+      "友尚",
+      "TI",
+      "Texas Instruments",
+      "Infineon",
+      "NXP",
+      "Renesas",
+      "Intel",
+      "MCU",
+      "DRAM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (全球半導體原廠)",
+        "text": "**上游 (全球半導體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "類比/電源",
+        "text": "[[TI]] ([[Texas Instruments]])、[[ADI]] — 類比 IC/電源管理",
+        "entities": [
+          "TI",
+          "Texas Instruments",
+          "ADI"
+        ]
+      },
+      {
+        "category": "功率/車用",
+        "text": "[[Infineon]]、[[NXP]]、[[Renesas]] — 功率半導體/車用晶片",
+        "entities": [
+          "Infineon",
+          "NXP",
+          "Renesas"
+        ]
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]] — CPU/嵌入式處理器",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Alliance Memory]]、[[Macronix]]、[[群聯]] — [[DRAM]]/Flash",
+        "entities": [
+          "Alliance Memory",
+          "Macronix",
+          "群聯",
+          "DRAM"
+        ]
+      },
+      {
+        "category": "被動/連接器",
+        "text": "各類被動元件與連接器原廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[世平]]** — 半導體通路 (大聯大最大子公司)",
+        "entities": [
+          "世平"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[品佳]]** — 半導體通路",
+        "entities": [
+          "品佳"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[詮鼎]]** — 半導體通路",
+        "entities": [
+          "詮鼎"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[友尚]]** — 半導體通路",
+        "entities": [
+          "友尚"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子製造)",
+        "text": "**下游 (電子製造):**",
+        "entities": []
+      },
+      {
+        "category": "PC/伺服器",
+        "text": "ODM/EMS 大廠",
+        "entities": []
+      },
+      {
+        "category": "車用電子",
+        "text": "車用 Tier-1 供應商",
+        "entities": []
+      },
+      {
+        "category": "工控/通訊",
+        "text": "工業電腦與網通設備製造商",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "手機/家電代工廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EMS/ODM",
+        "text": "台灣與中國大型電子代工廠",
+        "entities": []
+      },
+      {
+        "role": "車用 Tier-1",
+        "text": "車用電子模組供應商",
+        "entities": []
+      },
+      {
+        "role": "工控/通訊",
+        "text": "[[工業電腦]]與網通設備製造商",
+        "entities": [
+          "工業電腦"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "手機、家電代工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "類比 IC",
+        "text": "[[TI]] ([[Texas Instruments]]) — 類比/電源管理",
+        "entities": [
+          "TI",
+          "Texas Instruments"
+        ]
+      },
+      {
+        "role": "功率半導體",
+        "text": "[[Infineon]] — [[MOSFET]]/[[IGBT]]",
+        "entities": [
+          "Infineon",
+          "MOSFET",
+          "IGBT"
+        ]
+      },
+      {
+        "role": "車用/MCU",
+        "text": "[[NXP]]、[[Renesas]] — 車用晶片/[[MCU]]",
+        "entities": [
+          "NXP",
+          "Renesas",
+          "MCU"
+        ]
+      },
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — CPU/嵌入式",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Macronix]]、[[群聯]] — Flash 記憶體",
+        "entities": [
+          "Macronix",
+          "群聯"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "工業電腦"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "世平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世平"
+    },
+    {
+      "name": "品佳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "品佳"
+    },
+    {
+      "name": "詮鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "詮鼎"
+    },
+    {
+      "name": "友尚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友尚"
+    },
+    {
+      "name": "TI",
+      "type": "international_company_or_term",
+      "wikilink": "TI"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "ADI",
+      "type": "international_company_or_term",
+      "wikilink": "ADI"
+    },
+    {
+      "name": "Alliance Memory",
+      "type": "international_company_or_term",
+      "wikilink": "Alliance Memory"
+    },
+    {
+      "name": "Macronix",
+      "type": "international_company_or_term",
+      "wikilink": "Macronix"
+    },
+    {
+      "name": "群聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群聯"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大聯大投資控股 (3702，WPG Holdings) 成立於 2005 年，總部位於台北，為全球最大半導體零組件通路商之一，2024 年合併營收達 8,806 億元。旗下擁有[[世平]]、[[品佳]]、[[詮鼎]]及[[友尚]]四大子公司，代理產品線超過 250 家原廠。代理之核心半導體原廠包括 [[TI]] ([[Texas Instruments]])、[[Infineon]]、[[NXP]]、[[Renesas]]、[[Intel]] 等。產品涵蓋類比 IC、[[MCU]]、功率半導體、[[DRAM]]、光學元件、被動元件及連接器。業務版圖以大中華區為主 (約 70%)，近年受地緣政治影響，東南亞與美國市場比重持續上升。",
+    "supply_chain_md": "**上游 (全球半導體原廠):**\n- **類比/電源:** [[TI]] ([[Texas Instruments]])、[[ADI]] — 類比 IC/電源管理\n- **功率/車用:** [[Infineon]]、[[NXP]]、[[Renesas]] — 功率半導體/車用晶片\n- **處理器:** [[Intel]] — CPU/嵌入式處理器\n- **記憶體:** [[Alliance Memory]]、[[Macronix]]、[[群聯]] — [[DRAM]]/Flash\n- **被動/連接器:** 各類被動元件與連接器原廠\n\n**中游 (通路代理):**\n- **[[世平]]** — 半導體通路 (大聯大最大子公司)\n- **[[品佳]]** — 半導體通路\n- **[[詮鼎]]** — 半導體通路\n- **[[友尚]]** — 半導體通路\n\n**下游 (電子製造):**\n- **PC/伺服器:** ODM/EMS 大廠\n- **車用電子:** 車用 Tier-1 供應商\n- **工控/通訊:** 工業電腦與網通設備製造商\n- **消費電子:** 手機/家電代工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **EMS/ODM:** 台灣與中國大型電子代工廠\n- **車用 Tier-1:** 車用電子模組供應商\n- **工控/通訊:** [[工業電腦]]與網通設備製造商\n- **消費電子:** 手機、家電代工廠\n\n### 主要供應商\n- **類比 IC:** [[TI]] ([[Texas Instruments]]) — 類比/電源管理\n- **功率半導體:** [[Infineon]] — [[MOSFET]]/[[IGBT]]\n- **車用/MCU:** [[NXP]]、[[Renesas]] — 車用晶片/[[MCU]]\n- **處理器:** [[Intel]] — CPU/嵌入式\n- **記憶體:** [[Macronix]]、[[群聯]] — Flash 記憶體"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

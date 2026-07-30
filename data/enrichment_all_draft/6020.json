@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6020",
+  "company_name": "大展證",
+  "title": "6020_大展證",
+  "source_md": "Pilot_Reports/Capital Markets/6020_大展證.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "market_cap": "5,098 百萬台幣",
+    "enterprise_value": "2,862 百萬台幣"
+  },
+  "business": {
+    "summary": "大展證券 (6020) 為上櫃專業證券商，主要於[[台灣證券交易所]]集中市場及[[證券櫃檯買賣中心]]櫃檯市場提供有價證券經紀、自營、融資融券及承銷業務。營收結構以證券出售損益、經紀手續費及利息收入為核心。集團旗下設有「大展投顧」(100% 子公司)，專門提供投資顧問、資產管理及全權委託服務，定期舉辦投資講座。期貨輔助業務透過[[台灣期貨交易所]]進行。交割結算仰賴[[台灣集中保管結算所]]。審計簽證由[[安永]]聯合會計師事務所負責，過往股票過戶機構委任[[兆豐證券]]。行動下單系統由[[三竹資訊]]提供技術支援。",
+    "entities": [
+      "台灣證券交易所",
+      "證券櫃檯買賣中心",
+      "台灣期貨交易所",
+      "台灣集中保管結算所",
+      "安永",
+      "兆豐證券",
+      "三竹資訊"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (市場基建與研究數據)",
+        "text": "**上游 (市場基建與研究數據):**",
+        "entities": []
+      },
+      {
+        "category": "市場基礎設施",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[台灣集中保管結算所]] — 交易撮合與交割結算",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣期貨交易所",
+          "台灣集中保管結算所"
+        ]
+      },
+      {
+        "category": "資訊系統",
+        "text": "[[三竹資訊]] — 行動下單技術支援",
+        "entities": [
+          "三竹資訊"
+        ]
+      },
+      {
+        "category": "研究數據",
+        "text": "國內外專業經濟與產業分析資料庫",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (券商與投顧)",
+        "text": "**中游 (券商與投顧):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**大展證券 (6020)** — 經紀、自營、融資融券、承銷",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**大展投顧** (100% 子公司) — 全權委託操作、投資顧問",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "散戶投資人",
+        "text": "經紀交易與信用交易",
+        "entities": []
+      },
+      {
+        "category": "投顧會員",
+        "text": "全權委託代操、付費投資講座",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經紀業務",
+        "text": "各實體據點散戶投資人 — 股票經紀與信用交易 (融資融券)",
+        "entities": []
+      },
+      {
+        "role": "投顧業務",
+        "text": "高淨值會員 — 全權委託代操、專屬投資講座與分析報告訂閱",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "市場基建",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[台灣集中保管結算所]]",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣期貨交易所",
+          "台灣集中保管結算所"
+        ]
+      },
+      {
+        "role": "資訊系統",
+        "text": "[[三竹資訊]] — 行動下單系統",
+        "entities": [
+          "三竹資訊"
+        ]
+      },
+      {
+        "role": "股務代理",
+        "text": "[[兆豐證券]] — 股票過戶機構",
+        "entities": [
+          "兆豐證券"
+        ]
+      },
+      {
+        "role": "審計",
+        "text": "[[安永]]聯合會計師事務所 — 外部財務簽證",
+        "entities": [
+          "安永"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Capital Markets):** [[華票]]、[[統一證]]、[[國票金]]、[[致和證]]、[[群益證]]",
+        "entities": [
+          "華票",
+          "統一證",
+          "國票金",
+          "致和證",
+          "群益證"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台灣證券交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣證券交易所"
+    },
+    {
+      "name": "證券櫃檯買賣中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "證券櫃檯買賣中心"
+    },
+    {
+      "name": "台灣期貨交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣期貨交易所"
+    },
+    {
+      "name": "台灣集中保管結算所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣集中保管結算所"
+    },
+    {
+      "name": "安永",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安永"
+    },
+    {
+      "name": "兆豐證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆豐證券"
+    },
+    {
+      "name": "三竹資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三竹資訊"
+    },
+    {
+      "name": "華票",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華票"
+    },
+    {
+      "name": "統一證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一證"
+    },
+    {
+      "name": "國票金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國票金"
+    },
+    {
+      "name": "致和證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致和證"
+    },
+    {
+      "name": "群益證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群益證"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大展證券 (6020) 為上櫃專業證券商，主要於[[台灣證券交易所]]集中市場及[[證券櫃檯買賣中心]]櫃檯市場提供有價證券經紀、自營、融資融券及承銷業務。營收結構以證券出售損益、經紀手續費及利息收入為核心。集團旗下設有「大展投顧」(100% 子公司)，專門提供投資顧問、資產管理及全權委託服務，定期舉辦投資講座。期貨輔助業務透過[[台灣期貨交易所]]進行。交割結算仰賴[[台灣集中保管結算所]]。審計簽證由[[安永]]聯合會計師事務所負責，過往股票過戶機構委任[[兆豐證券]]。行動下單系統由[[三竹資訊]]提供技術支援。",
+    "supply_chain_md": "**上游 (市場基建與研究數據):**\n- **市場基礎設施:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[台灣集中保管結算所]] — 交易撮合與交割結算\n- **資訊系統:** [[三竹資訊]] — 行動下單技術支援\n- **研究數據:** 國內外專業經濟與產業分析資料庫\n\n**中游 (券商與投顧):**\n- **大展證券 (6020)** — 經紀、自營、融資融券、承銷\n- **大展投顧** (100% 子公司) — 全權委託操作、投資顧問\n\n**下游 (終端客戶):**\n- **散戶投資人:** 經紀交易與信用交易\n- **投顧會員:** 全權委託代操、付費投資講座",
+    "customers_suppliers_md": "### 主要客戶\n- **經紀業務:** 各實體據點散戶投資人 — 股票經紀與信用交易 (融資融券)\n- **投顧業務:** 高淨值會員 — 全權委託代操、專屬投資講座與分析報告訂閱\n\n### 主要供應商\n- **市場基建:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[台灣集中保管結算所]]\n- **資訊系統:** [[三竹資訊]] — 行動下單系統\n- **股務代理:** [[兆豐證券]] — 股票過戶機構\n- **審計:** [[安永]]聯合會計師事務所 — 外部財務簽證"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

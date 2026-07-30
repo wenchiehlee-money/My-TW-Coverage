@@ -1,0 +1,195 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2009",
+  "company_name": "第一銅",
+  "title": "2009 - 第一銅",
+  "source_md": "Pilot_Reports/Copper/2009_第一銅.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Copper",
+    "market_cap": "12,605 百萬台幣",
+    "enterprise_value": "14,037 百萬台幣"
+  },
+  "business": {
+    "summary": "第一伸銅科技 (2009) 為台灣上游[[黃銅]]/[[磷青銅]]/[[白銅]]帶材專業廠。產品應用於半導體[[導線架]]、汽車[[連接器]]端子、散熱片及3C電子。以「銅價+加工費」計價，與日系及車用客戶維持長約。下游含[[導線架]]廠如[[長華電材]]、[[順德工業]]及車用端子廠。銅價連動[[LME]]。",
+    "entities": [
+      "黃銅",
+      "磷青銅",
+      "白銅",
+      "導線架",
+      "連接器",
+      "長華電材",
+      "順德工業",
+      "LME"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "國際電解銅/廢銅 ([[LME]]連動); 錫/磷/鎳/鋅合金",
+        "entities": [
+          "LME"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**第一銅** ([[黃銅]]/[[磷青銅]]/[[白銅]]帶材熔煉軋延)",
+        "entities": [
+          "黃銅",
+          "磷青銅",
+          "白銅"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[導線架]]: [[長華電材]]、[[順德工業]]",
+        "entities": [
+          "導線架",
+          "長華電材",
+          "順德工業"
+        ]
+      },
+      {
+        "category": "",
+        "text": "車用[[連接器]]端子",
+        "entities": [
+          "連接器"
+        ]
+      },
+      {
+        "category": "",
+        "text": "3C散熱片",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[長華電材]]、[[順德工業]] — [[導線架]]",
+        "entities": [
+          "長華電材",
+          "順德工業",
+          "導線架"
+        ]
+      },
+      {
+        "role": "",
+        "text": "車用[[連接器]]端子廠",
+        "entities": [
+          "連接器"
+        ]
+      },
+      {
+        "role": "",
+        "text": "3C散熱片/電子零件",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國際電解銅 ([[LME]])",
+        "entities": [
+          "LME"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Copper):** [[榮科]]",
+        "entities": [
+          "榮科"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "長華電材",
+          "順德工業",
+          "導線架",
+          "連接器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "黃銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "黃銅"
+    },
+    {
+      "name": "磷青銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷青銅"
+    },
+    {
+      "name": "白銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "白銅"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "長華電材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長華電材"
+    },
+    {
+      "name": "順德工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德工業"
+    },
+    {
+      "name": "LME",
+      "type": "international_company_or_term",
+      "wikilink": "LME"
+    },
+    {
+      "name": "榮科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮科"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "第一伸銅科技 (2009) 為台灣上游[[黃銅]]/[[磷青銅]]/[[白銅]]帶材專業廠。產品應用於半導體[[導線架]]、汽車[[連接器]]端子、散熱片及3C電子。以「銅價+加工費」計價，與日系及車用客戶維持長約。下游含[[導線架]]廠如[[長華電材]]、[[順德工業]]及車用端子廠。銅價連動[[LME]]。",
+    "supply_chain_md": "**上游:** 國際電解銅/廢銅 ([[LME]]連動); 錫/磷/鎳/鋅合金\n**中游:** **第一銅** ([[黃銅]]/[[磷青銅]]/[[白銅]]帶材熔煉軋延)\n**下游:**\n- [[導線架]]: [[長華電材]]、[[順德工業]]\n- 車用[[連接器]]端子\n- 3C散熱片",
+    "customers_suppliers_md": "### 主要客戶\n- [[長華電材]]、[[順德工業]] — [[導線架]]\n- 車用[[連接器]]端子廠\n- 3C散熱片/電子零件\n\n### 主要供應商\n- 國際電解銅 ([[LME]])"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

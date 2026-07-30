@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6592",
+  "company_name": "和潤企業",
+  "title": "6592_和潤企業",
+  "source_md": "Pilot_Reports/Credit Services/6592_和潤企業.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Credit Services",
+    "market_cap": "38,575 百萬台幣",
+    "enterprise_value": "317,440 百萬台幣"
+  },
+  "business": {
+    "summary": "[[和潤]] (6592) 為[[和泰車]]集團旗下核心融資子公司，成立於 1999 年，為台灣非銀行金融機構中車輛分期租賃市佔率第一之龍頭。核心業務以 [[Toyota]]、[[Lexus]] 新車及中古車分期付款與租賃為主力 (約佔營收六成)，並延伸至機車分期、企業設備租賃 (醫療、營建、IT 設備)、企業融資及微型金融。轉投資子公司「[[和潤電能]]」由和潤出資 80% 與[[和泰車]]、和裕投資共同設立，全方位佈局太陽能電廠投資 (保有案場容量逾 200MW)、儲能系統及電動車充電樁 (站點突破 30 站)。海外佈局方面，中國子公司「和運國際租賃」經營設備租賃，柬埔寨子公司「HFC MFI」已取得經營控制權 (持股 66%)，從事微型金融業務，並持續評估東協新據點。日本[[豐田金融服務]] ([[Toyota]] Financial Services) 提供財務風控經驗支援。受[[金管會]]監理。",
+    "entities": [
+      "和潤",
+      "和泰車",
+      "Toyota",
+      "Lexus",
+      "和潤電能",
+      "豐田金融服務",
+      "金管會"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (車源與資金)",
+        "text": "**上游 (車源與資金):**",
+        "entities": []
+      },
+      {
+        "category": "車輛來源",
+        "text": "[[和泰車]] — [[Toyota]]、[[Lexus]] 新車穩定供應",
+        "entities": [
+          "和泰車",
+          "Toyota",
+          "Lexus"
+        ]
+      },
+      {
+        "category": "資金來源",
+        "text": "國內聯貸銀行團、公司債市場",
+        "entities": []
+      },
+      {
+        "category": "技術支援",
+        "text": "[[豐田金融服務]] (TFS) — 風控管理經驗",
+        "entities": [
+          "豐田金融服務"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (融資租賃服務)",
+        "text": "**中游 (融資租賃服務):**",
+        "entities": []
+      },
+      {
+        "category": "車輛分期/租賃",
+        "text": "[[和潤]] — 新車、中古車、機車分期及企業長租",
+        "entities": [
+          "和潤"
+        ]
+      },
+      {
+        "category": "企業金融",
+        "text": "設備租賃、中小企業周轉金融資",
+        "entities": []
+      },
+      {
+        "category": "綠能事業",
+        "text": "[[和潤電能]] — 太陽能電廠 (逾 200MW)、儲能、充電樁",
+        "entities": [
+          "和潤電能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "個人消費者",
+        "text": "[[Toyota]]、[[Lexus]] 購車分期客戶",
+        "entities": [
+          "Toyota",
+          "Lexus"
+        ]
+      },
+      {
+        "category": "中小企業",
+        "text": "設備擴充與營運資金需求",
+        "entities": []
+      },
+      {
+        "category": "綠能市場",
+        "text": "[[台電]] — 太陽能售電",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "海外市場",
+        "text": "柬埔寨 HFC MFI 微型金融客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "購車消費者",
+        "text": "[[Toyota]]、[[Lexus]] 新車與中古車分期付款客戶 — 佔營收主力",
+        "entities": [
+          "Toyota",
+          "Lexus"
+        ]
+      },
+      {
+        "role": "機車分期",
+        "text": "機車購車分期用戶",
+        "entities": []
+      },
+      {
+        "role": "中小企業",
+        "text": "醫療、營建及 IT 設備租賃與融資客戶",
+        "entities": []
+      },
+      {
+        "role": "海外客戶",
+        "text": "柬埔寨 HFC MFI 微型金融借貸戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "車輛來源",
+        "text": "[[和泰車]] — 母集團提供 [[Toyota]]、[[Lexus]] 穩定車源",
+        "entities": [
+          "和泰車",
+          "Toyota",
+          "Lexus"
+        ]
+      },
+      {
+        "role": "風控技術",
+        "text": "[[豐田金融服務]] (TFS) — 日本豐田體系財務風控支援",
+        "entities": [
+          "豐田金融服務"
+        ]
+      },
+      {
+        "role": "資金供給",
+        "text": "國內聯貸銀行團與公司債市場",
+        "entities": []
+      },
+      {
+        "role": "綠能子公司",
+        "text": "[[和潤電能]] — 太陽能、儲能及充電樁營運",
+        "entities": [
+          "和潤電能"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Credit Services):** [[中租-KY]]、[[日盛台駿]]、[[裕融]]",
+        "entities": [
+          "中租-KY",
+          "日盛台駿",
+          "裕融"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Toyota",
+          "Lexus"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "和潤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和潤"
+    },
+    {
+      "name": "和泰車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和泰車"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "Lexus",
+      "type": "international_company_or_term",
+      "wikilink": "Lexus"
+    },
+    {
+      "name": "和潤電能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和潤電能"
+    },
+    {
+      "name": "豐田金融服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐田金融服務"
+    },
+    {
+      "name": "金管會",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金管會"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "中租-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中租-KY"
+    },
+    {
+      "name": "日盛台駿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日盛台駿"
+    },
+    {
+      "name": "裕融",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕融"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[和潤]] (6592) 為[[和泰車]]集團旗下核心融資子公司，成立於 1999 年，為台灣非銀行金融機構中車輛分期租賃市佔率第一之龍頭。核心業務以 [[Toyota]]、[[Lexus]] 新車及中古車分期付款與租賃為主力 (約佔營收六成)，並延伸至機車分期、企業設備租賃 (醫療、營建、IT 設備)、企業融資及微型金融。轉投資子公司「[[和潤電能]]」由和潤出資 80% 與[[和泰車]]、和裕投資共同設立，全方位佈局太陽能電廠投資 (保有案場容量逾 200MW)、儲能系統及電動車充電樁 (站點突破 30 站)。海外佈局方面，中國子公司「和運國際租賃」經營設備租賃，柬埔寨子公司「HFC MFI」已取得經營控制權 (持股 66%)，從事微型金融業務，並持續評估東協新據點。日本[[豐田金融服務]] ([[Toyota]] Financial Services) 提供財務風控經驗支援。受[[金管會]]監理。",
+    "supply_chain_md": "**上游 (車源與資金):**\n- **車輛來源:** [[和泰車]] — [[Toyota]]、[[Lexus]] 新車穩定供應\n- **資金來源:** 國內聯貸銀行團、公司債市場\n- **技術支援:** [[豐田金融服務]] (TFS) — 風控管理經驗\n\n**中游 (融資租賃服務):**\n- **車輛分期/租賃:** [[和潤]] — 新車、中古車、機車分期及企業長租\n- **企業金融:** 設備租賃、中小企業周轉金融資\n- **綠能事業:** [[和潤電能]] — 太陽能電廠 (逾 200MW)、儲能、充電樁\n\n**下游 (終端客戶):**\n- **個人消費者:** [[Toyota]]、[[Lexus]] 購車分期客戶\n- **中小企業:** 設備擴充與營運資金需求\n- **綠能市場:** [[台電]] — 太陽能售電\n- **海外市場:** 柬埔寨 HFC MFI 微型金融客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **購車消費者:** [[Toyota]]、[[Lexus]] 新車與中古車分期付款客戶 — 佔營收主力\n- **機車分期:** 機車購車分期用戶\n- **中小企業:** 醫療、營建及 IT 設備租賃與融資客戶\n- **海外客戶:** 柬埔寨 HFC MFI 微型金融借貸戶\n\n### 主要供應商\n- **車輛來源:** [[和泰車]] — 母集團提供 [[Toyota]]、[[Lexus]] 穩定車源\n- **風控技術:** [[豐田金融服務]] (TFS) — 日本豐田體系財務風控支援\n- **資金供給:** 國內聯貸銀行團與公司債市場\n- **綠能子公司:** [[和潤電能]] — 太陽能、儲能及充電樁營運"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

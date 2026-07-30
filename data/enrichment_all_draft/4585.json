@@ -1,0 +1,267 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4585",
+  "company_name": "達明",
+  "title": "4585 - 達明",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4585_達明.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "30,180 百萬台幣",
+    "enterprise_value": "27,545 百萬台幣"
+  },
+  "business": {
+    "summary": "達明機器人 (4585，Techman Robot) 為全球第二大[[協作機器人]] (cobot) 品牌 (僅次於[[Universal Robots]])，台灣唯一協作機器人製造商。2015 年自[[廣明光電]] (6188，[[廣達]]集團旗下) 內部創業獨立。核心特色為內建[[AI]]視覺系統，降低系統整合門檻。全球逾 100 家經銷商。[[Omron]]為策略合作夥伴 (2018 年簽署合作備忘錄，共同推廣至全球市場)。下游應用涵蓋半導體 ([[台積電]]晶圓搬運)、電子組裝 ([[廣達]])、汽車零組件 ([[Continental]])。",
+    "entities": [
+      "協作機器人",
+      "Universal Robots",
+      "廣明光電",
+      "廣達",
+      "AI",
+      "Omron",
+      "台積電",
+      "Continental"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "伺服馬達/減速機",
+        "text": "[[伺服馬達]]、[[減速機]]、編碼器",
+        "entities": [
+          "伺服馬達",
+          "減速機"
+        ]
+      },
+      {
+        "category": "視覺",
+        "text": "鏡頭模組/控制器",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**達明** ([[協作機器人]]設計/[[AI]]視覺軟體/系統整合)",
+        "entities": [
+          "協作機器人",
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "策略夥伴",
+        "text": "[[Omron]] — 全球經銷合作",
+        "entities": [
+          "Omron"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]] — 晶圓搬運",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "電子",
+        "text": "[[廣達]] — 電子組裝",
+        "entities": [
+          "廣達"
+        ]
+      },
+      {
+        "category": "汽車",
+        "text": "[[Continental]] — 零組件自動化",
+        "entities": [
+          "Continental"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經銷夥伴",
+        "text": "[[Omron]] — 全球策略合作",
+        "entities": [
+          "Omron"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[台積電]] — 晶圓搬運",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "電子",
+        "text": "[[廣達]] — 電子組裝",
+        "entities": [
+          "廣達"
+        ]
+      },
+      {
+        "role": "汽車",
+        "text": "[[Continental]] — 零組件",
+        "entities": [
+          "Continental"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "集團",
+        "text": "[[廣明光電]] (母公司) / [[廣達]]集團",
+        "entities": [
+          "廣明光電",
+          "廣達"
+        ]
+      },
+      {
+        "role": "零組件",
+        "text": "[[伺服馬達]]、[[減速機]]、光學模組",
+        "entities": [
+          "伺服馬達",
+          "減速機"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Omron",
+          "台積電",
+          "廣達",
+          "Continental"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "協作機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "協作機器人"
+    },
+    {
+      "name": "Universal Robots",
+      "type": "international_company_or_term",
+      "wikilink": "Universal Robots"
+    },
+    {
+      "name": "廣明光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣明光電"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Omron",
+      "type": "international_company_or_term",
+      "wikilink": "Omron"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "伺服馬達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服馬達"
+    },
+    {
+      "name": "減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "減速機"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達明機器人 (4585，Techman Robot) 為全球第二大[[協作機器人]] (cobot) 品牌 (僅次於[[Universal Robots]])，台灣唯一協作機器人製造商。2015 年自[[廣明光電]] (6188，[[廣達]]集團旗下) 內部創業獨立。核心特色為內建[[AI]]視覺系統，降低系統整合門檻。全球逾 100 家經銷商。[[Omron]]為策略合作夥伴 (2018 年簽署合作備忘錄，共同推廣至全球市場)。下游應用涵蓋半導體 ([[台積電]]晶圓搬運)、電子組裝 ([[廣達]])、汽車零組件 ([[Continental]])。",
+    "supply_chain_md": "**上游 (零組件):**\n- **伺服馬達/減速機:** [[伺服馬達]]、[[減速機]]、編碼器\n- **視覺:** 鏡頭模組/控制器\n\n**中游 (製造):**\n- **達明** ([[協作機器人]]設計/[[AI]]視覺軟體/系統整合)\n\n**下游 (終端):**\n- **策略夥伴:** [[Omron]] — 全球經銷合作\n- **半導體:** [[台積電]] — 晶圓搬運\n- **電子:** [[廣達]] — 電子組裝\n- **汽車:** [[Continental]] — 零組件自動化",
+    "customers_suppliers_md": "### 主要客戶\n- **經銷夥伴:** [[Omron]] — 全球策略合作\n- **半導體:** [[台積電]] — 晶圓搬運\n- **電子:** [[廣達]] — 電子組裝\n- **汽車:** [[Continental]] — 零組件\n\n### 主要供應商\n- **集團:** [[廣明光電]] (母公司) / [[廣達]]集團\n- **零組件:** [[伺服馬達]]、[[減速機]]、光學模組"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

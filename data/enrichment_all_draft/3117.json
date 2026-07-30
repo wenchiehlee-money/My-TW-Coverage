@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3117",
+  "company_name": "年程",
+  "title": "3117 - 年程",
+  "source_md": "Pilot_Reports/Electronic Components/3117_年程.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "604 百萬台幣",
+    "enterprise_value": "1,026 百萬台幣"
+  },
+  "business": {
+    "summary": "年程科技 ([[Tecstar Technology]]) 為專業磁性材料與積層電感製造商，致力於研發高性能鐵粉芯及各式電子零組件。產品廣泛應用於電源供應、音響設備及各類消費性電子之雜訊過濾與儲能。\n\n核心業務：(1) 鐵粉芯製造 — 生產多種規格鐵氧體磁芯 (Ni-Zn Soft Ferrite Core)；(2) 積層電感與磁珠 — 提供 EMI 解決方案，應用於主機板與電源供應器之雜訊過濾；(3) SMD 功率電感 — 表面貼裝功率電感與 EMI 磁珠；(4) 客製化零件 — 針對軍工、醫療或特殊規格產品提供小量多樣設計開發。",
+    "entities": [
+      "Tecstar Technology"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (磁性材料)",
+        "text": "**上游 (磁性材料):**",
+        "entities": []
+      },
+      {
+        "category": "鐵氧體粉末",
+        "text": "鐵氧體磁性粉末供應商",
+        "entities": []
+      },
+      {
+        "category": "銅線",
+        "text": "漆包銅線供應商",
+        "entities": []
+      },
+      {
+        "category": "銀漿",
+        "text": "積層印刷用銀漿",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (磁性元件製造)",
+        "text": "**中游 (磁性元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "鐵粉芯",
+        "text": "**年程** (Ni-Zn 鐵氧體磁芯)",
+        "entities": []
+      },
+      {
+        "category": "積層電感",
+        "text": "**年程** (多層積層晶片電感)",
+        "entities": []
+      },
+      {
+        "category": "磁珠",
+        "text": "**年程** (EMI 晶片磁珠)",
+        "entities": []
+      },
+      {
+        "category": "功率電感",
+        "text": "**年程** (SMD 功率電感)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電源/主機板/消費電子)",
+        "text": "**下游 (電源/主機板/消費電子):**",
+        "entities": []
+      },
+      {
+        "category": "電源供應器廠",
+        "text": "[[台達電]]、[[光寶科]] — 電源轉換器電感元件",
+        "entities": [
+          "台達電",
+          "光寶科"
+        ]
+      },
+      {
+        "category": "主機板廠",
+        "text": "[[華碩]]、[[技嘉]] — 主機板 EMI 濾波元件",
+        "entities": [
+          "華碩",
+          "技嘉"
+        ]
+      },
+      {
+        "category": "消費電子",
+        "text": "消費電子品牌 — 電路板儲能與濾波",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源供應器",
+        "text": "[[台達電]]、[[光寶科]] — 電源轉換器電感元件",
+        "entities": [
+          "台達電",
+          "光寶科"
+        ]
+      },
+      {
+        "role": "主機板",
+        "text": "[[華碩]]、[[技嘉]] — 主機板 EMI 濾波",
+        "entities": [
+          "華碩",
+          "技嘉"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "消費電子品牌 — 儲能與濾波元件",
+        "entities": []
+      },
+      {
+        "role": "軍工/醫療",
+        "text": "軍工與醫療特殊規格客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鐵氧體粉末",
+        "text": "鐵氧體磁性粉末供應商",
+        "entities": []
+      },
+      {
+        "role": "銅線",
+        "text": "漆包銅線供應商",
+        "entities": []
+      },
+      {
+        "role": "銀漿",
+        "text": "積層印刷用銀漿供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台達電",
+          "光寶科",
+          "華碩",
+          "技嘉"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tecstar Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Tecstar Technology"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "年程科技 ([[Tecstar Technology]]) 為專業磁性材料與積層電感製造商，致力於研發高性能鐵粉芯及各式電子零組件。產品廣泛應用於電源供應、音響設備及各類消費性電子之雜訊過濾與儲能。\n\n核心業務：(1) 鐵粉芯製造 — 生產多種規格鐵氧體磁芯 (Ni-Zn Soft Ferrite Core)；(2) 積層電感與磁珠 — 提供 EMI 解決方案，應用於主機板與電源供應器之雜訊過濾；(3) SMD 功率電感 — 表面貼裝功率電感與 EMI 磁珠；(4) 客製化零件 — 針對軍工、醫療或特殊規格產品提供小量多樣設計開發。",
+    "supply_chain_md": "**上游 (磁性材料):**\n- **鐵氧體粉末:** 鐵氧體磁性粉末供應商\n- **銅線:** 漆包銅線供應商\n- **銀漿:** 積層印刷用銀漿\n\n**中游 (磁性元件製造):**\n- **鐵粉芯:** **年程** (Ni-Zn 鐵氧體磁芯)\n- **積層電感:** **年程** (多層積層晶片電感)\n- **磁珠:** **年程** (EMI 晶片磁珠)\n- **功率電感:** **年程** (SMD 功率電感)\n\n**下游 (電源/主機板/消費電子):**\n- **電源供應器廠:** [[台達電]]、[[光寶科]] — 電源轉換器電感元件\n- **主機板廠:** [[華碩]]、[[技嘉]] — 主機板 EMI 濾波元件\n- **消費電子:** 消費電子品牌 — 電路板儲能與濾波",
+    "customers_suppliers_md": "### 主要客戶\n- **電源供應器:** [[台達電]]、[[光寶科]] — 電源轉換器電感元件\n- **主機板:** [[華碩]]、[[技嘉]] — 主機板 EMI 濾波\n- **消費電子:** 消費電子品牌 — 儲能與濾波元件\n- **軍工/醫療:** 軍工與醫療特殊規格客戶\n\n### 主要供應商\n- **鐵氧體粉末:** 鐵氧體磁性粉末供應商\n- **銅線:** 漆包銅線供應商\n- **銀漿:** 積層印刷用銀漿供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

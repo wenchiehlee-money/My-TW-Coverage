@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1709",
+  "company_name": "和益",
+  "title": "1709 - 和益",
+  "source_md": "Pilot_Reports/Chemicals/1709_和益.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals",
+    "market_cap": "11,448 百萬台幣",
+    "enterprise_value": "12,001 百萬台幣"
+  },
+  "business": {
+    "summary": "和益化學工業股份有限公司 (Formosan Union Chemical Corp.) 主要從事化學產品的製造、加工及買賣。公司產品包括[[烷基苯]] (清潔劑原料)、[[壬酚]] (界面活性劑及抗氧化劑原料)、[[十二烷基酚]] (潤滑油添加劑原料)，以及用於[[乙烯-醋酸乙烯共聚物]] (EVA) 及熱塑性橡膠 (TPR) 熱熔膠的[[氫化石油樹脂]]。公司亦涉足營建、電子材料、太陽能光電系統、土地開發、[[華為]]產品代理、雲端訂房平台及飯店營運等多元領域。此外，公司亦從事石油樹脂、聚酯樹脂、三聚氰胺樹脂等產品的製造與批發，以及農藥、糖、電池及電子零組件的買賣。和益成立於 1973 年，總部位於台灣台北市。",
+    "entities": [
+      "烷基苯",
+      "壬酚",
+      "十二烷基酚",
+      "乙烯-醋酸乙烯共聚物",
+      "氫化石油樹脂",
+      "華為"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (基礎石化與烯烴原料)",
+        "text": "**上游 (基礎石化與烯烴原料):**",
+        "entities": []
+      },
+      {
+        "category": "基礎原料補給",
+        "text": "採購來自中油等大型煉油廠之苯 (Benzene)、正烷烴、C9 石油樹脂與四聚丙烯等初級及次級化工原料。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (特用界面活性劑與樹脂製造)",
+        "text": "**中游 (特用界面活性劑與樹脂製造):**",
+        "entities": []
+      },
+      {
+        "category": "特化與多角化企業",
+        "text": "**和益 (1709)** (為台灣主要且產能名列前茅之烷基苯 (LAB) 與氫化石油樹脂製造商，產品橫跨民生清潔劑核心原料與高階熱熔膠樹脂，並多角化跨足營造、綠能與光電領域)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (民生清潔與特用黏合劑)",
+        "text": "**下游 (民生清潔與特用黏合劑):**",
+        "entities": []
+      },
+      {
+        "category": "泛民生與輕工業出海口",
+        "text": "下游出海口包含日常家用之洗衣粉、洗衣精、洗碗精等日化清潔用品製造廠，以及厚工業領域之車用/工業用潤滑油添加劑與熱熔接著劑塗佈加工廠。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "跨國與本土日化清潔巨頭",
+        "text": "高度集中並穩定供貨給全球日用化學品超級大廠 (如 [[聯合利華]]、[[寶潔 P&G]]、[[花王]]、[[獅王]])，作為其家用清潔產品強力去汙與起泡之絕對核心成分。",
+        "entities": [
+          "聯合利華",
+          "寶潔 P&G",
+          "花王",
+          "獅王"
+        ]
+      },
+      {
+        "role": "各大特用接著劑與潤滑油廠",
+        "text": "供應大量氫化石油樹脂與十二烷基酚原料予國內外大型專業熱熔膠廠與車用/工業用潤滑油添加劑製造外商。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "國內外重磅石化原料商",
+        "text": "國內高度仰賴 [[台灣中油]] 穩定輸供純苯，並向 [[中碳]] 採購特殊之雜酚油；海外則積極向國際一線大廠如南非 [[Sasol]] 及西班牙 [[Cepsa]] 採購高純度正烷烴以確保品質。",
+        "entities": [
+          "台灣中油",
+          "中碳",
+          "Sasol",
+          "Cepsa"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Chemicals):** [[台苯]]、[[國喬]]、[[聯成]]、[[台化]]、[[東鹼]]",
+        "entities": [
+          "台苯",
+          "國喬",
+          "聯成",
+          "台化",
+          "東鹼"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "聯合利華",
+          "寶潔 P&G",
+          "花王",
+          "獅王"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "烷基苯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "烷基苯"
+    },
+    {
+      "name": "壬酚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "壬酚"
+    },
+    {
+      "name": "十二烷基酚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "十二烷基酚"
+    },
+    {
+      "name": "乙烯-醋酸乙烯共聚物",
+      "type": "taiwan_company_or_term",
+      "wikilink": "乙烯-醋酸乙烯共聚物"
+    },
+    {
+      "name": "氫化石油樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氫化石油樹脂"
+    },
+    {
+      "name": "華為",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華為"
+    },
+    {
+      "name": "聯合利華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯合利華"
+    },
+    {
+      "name": "寶潔 P&G",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶潔 P&G"
+    },
+    {
+      "name": "花王",
+      "type": "taiwan_company_or_term",
+      "wikilink": "花王"
+    },
+    {
+      "name": "獅王",
+      "type": "taiwan_company_or_term",
+      "wikilink": "獅王"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "中碳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中碳"
+    },
+    {
+      "name": "Sasol",
+      "type": "international_company_or_term",
+      "wikilink": "Sasol"
+    },
+    {
+      "name": "Cepsa",
+      "type": "international_company_or_term",
+      "wikilink": "Cepsa"
+    },
+    {
+      "name": "台苯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台苯"
+    },
+    {
+      "name": "國喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國喬"
+    },
+    {
+      "name": "聯成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯成"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "東鹼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東鹼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "和益化學工業股份有限公司 (Formosan Union Chemical Corp.) 主要從事化學產品的製造、加工及買賣。公司產品包括[[烷基苯]] (清潔劑原料)、[[壬酚]] (界面活性劑及抗氧化劑原料)、[[十二烷基酚]] (潤滑油添加劑原料)，以及用於[[乙烯-醋酸乙烯共聚物]] (EVA) 及熱塑性橡膠 (TPR) 熱熔膠的[[氫化石油樹脂]]。公司亦涉足營建、電子材料、太陽能光電系統、土地開發、[[華為]]產品代理、雲端訂房平台及飯店營運等多元領域。此外，公司亦從事石油樹脂、聚酯樹脂、三聚氰胺樹脂等產品的製造與批發，以及農藥、糖、電池及電子零組件的買賣。和益成立於 1973 年，總部位於台灣台北市。",
+    "supply_chain_md": "**上游 (基礎石化與烯烴原料):**\n- **基礎原料補給:** 採購來自中油等大型煉油廠之苯 (Benzene)、正烷烴、C9 石油樹脂與四聚丙烯等初級及次級化工原料。\n\n**中游 (特用界面活性劑與樹脂製造):**\n- **特化與多角化企業:** **和益 (1709)** (為台灣主要且產能名列前茅之烷基苯 (LAB) 與氫化石油樹脂製造商，產品橫跨民生清潔劑核心原料與高階熱熔膠樹脂，並多角化跨足營造、綠能與光電領域)。\n\n**下游 (民生清潔與特用黏合劑):**\n- **泛民生與輕工業出海口:** 下游出海口包含日常家用之洗衣粉、洗衣精、洗碗精等日化清潔用品製造廠，以及厚工業領域之車用/工業用潤滑油添加劑與熱熔接著劑塗佈加工廠。",
+    "customers_suppliers_md": "### 主要客戶\n- **跨國與本土日化清潔巨頭:** 高度集中並穩定供貨給全球日用化學品超級大廠 (如 [[聯合利華]]、[[寶潔 P&G]]、[[花王]]、[[獅王]])，作為其家用清潔產品強力去汙與起泡之絕對核心成分。\n- **各大特用接著劑與潤滑油廠:** 供應大量氫化石油樹脂與十二烷基酚原料予國內外大型專業熱熔膠廠與車用/工業用潤滑油添加劑製造外商。\n\n### 主要供應商\n- **國內外重磅石化原料商:** 國內高度仰賴 [[台灣中油]] 穩定輸供純苯，並向 [[中碳]] 採購特殊之雜酚油；海外則積極向國際一線大廠如南非 [[Sasol]] 及西班牙 [[Cepsa]] 採購高純度正烷烴以確保品質。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

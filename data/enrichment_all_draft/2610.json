@@ -1,0 +1,428 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2610",
+  "company_name": "華航",
+  "title": "2610 - 華航",
+  "source_md": "Pilot_Reports/Airlines/2610_華航.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Airlines",
+    "market_cap": "131,976 百萬台幣",
+    "enterprise_value": "201,224 百萬台幣"
+  },
+  "business": {
+    "summary": "中華航空 (2610，China Airlines) 成立於 1959 年，為台灣歷史最悠久且規模最大的國籍航空公司，「[[天合聯盟]]」(SkyTeam) 成員。機隊逾百架涵蓋[[Boeing]] 777-300ER/777F/747-400F/737-800 及[[Airbus]] A350-900/A330-300/A321neo。2024 年宣布採購 10 架[[Boeing]] 777-9 (搭載[[GE9X]]引擎)、10 架[[Airbus]] A350-1000 (搭載[[Trent XWB]]引擎) 及 4 架 Boeing 777-8F，啟動機隊世代交替。貨運業務受惠於[[AI 伺服器]]與[[半導體設備]]出口需求，全貨機機隊 (747-400F + 777F) 帶動獲利大幅成長。集團旗下涵蓋[[華信航空]] (區域子公司)、[[台灣虎航]] (6757，低成本航空子公司)、[[台灣飛機維修]] (TAMECO)、[[華膳空廚]]及[[桃園航勤]]。",
+    "entities": [
+      "天合聯盟",
+      "Boeing",
+      "Airbus",
+      "GE9X",
+      "Trent XWB",
+      "AI 伺服器",
+      "半導體設備",
+      "華信航空",
+      "台灣虎航",
+      "台灣飛機維修",
+      "華膳空廚",
+      "桃園航勤"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (飛機與燃油)",
+        "text": "**上游 (飛機與燃油):**",
+        "entities": []
+      },
+      {
+        "category": "飛機製造",
+        "text": "[[Boeing]] — 777-300ER/777F/747-400F/737-800；[[Airbus]] — A350-900/A330-300/A321neo",
+        "entities": [
+          "Boeing",
+          "Airbus"
+        ]
+      },
+      {
+        "category": "引擎",
+        "text": "[[GE Aerospace]] — [[GE90]]/[[CF6]]/[[GE9X]]；[[Rolls-Royce]] — [[Trent XWB]]/Trent 700；[[Pratt & Whitney]] — PW1133G；[[CFM International]] — [[CFM56]]",
+        "entities": [
+          "GE Aerospace",
+          "GE90",
+          "CF6",
+          "GE9X",
+          "Rolls-Royce",
+          "Trent XWB",
+          "Pratt & Whitney",
+          "CFM International",
+          "CFM56"
+        ]
+      },
+      {
+        "category": "航空燃油",
+        "text": "[[台灣中油]] — 國內機場唯一航油供應商",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "MRO",
+        "text": "[[台灣飛機維修]] (TAMECO，全資子公司)",
+        "entities": [
+          "台灣飛機維修"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (航空營運)",
+        "text": "**中游 (航空營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中華航空** (國際客運、航空貨運、地勤服務)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[華信航空]]** (區域航線子公司)",
+        "entities": [
+          "華信航空"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[台灣虎航]]** (6757，低成本航空子公司)",
+        "entities": [
+          "台灣虎航"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (客戶)",
+        "text": "**下游 (客戶):**",
+        "entities": []
+      },
+      {
+        "category": "客運",
+        "text": "商務與觀光旅客、旅行社",
+        "entities": []
+      },
+      {
+        "category": "貨運",
+        "text": "[[中菲行]]、[[捷迅]]、[[台驊投控]] — 航空貨運承攬",
+        "entities": [
+          "中菲行",
+          "捷迅",
+          "台驊投控"
+        ]
+      },
+      {
+        "category": "聯盟夥伴",
+        "text": "[[天合聯盟]]成員 — [[達美航空]]、[[法國航空]]、[[荷蘭皇家航空]]、[[大韓航空]]、[[中國東方航空]]",
+        "entities": [
+          "天合聯盟",
+          "達美航空",
+          "法國航空",
+          "荷蘭皇家航空",
+          "大韓航空",
+          "中國東方航空"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "貨運承攬",
+        "text": "[[中菲行]]、[[捷迅]]、[[台驊投控]] — 航空貨運承攬業者",
+        "entities": [
+          "中菲行",
+          "捷迅",
+          "台驊投控"
+        ]
+      },
+      {
+        "role": "貨運貨主",
+        "text": "[[AI 伺服器]]、[[半導體設備]]出口商 — 高價值科技貨物",
+        "entities": [
+          "AI 伺服器",
+          "半導體設備"
+        ]
+      },
+      {
+        "role": "客運",
+        "text": "商務與觀光旅客、國內外旅行社",
+        "entities": []
+      },
+      {
+        "role": "聯盟夥伴",
+        "text": "[[達美航空]]、[[法國航空]]、[[荷蘭皇家航空]]、[[大韓航空]]、[[越南航空]] — [[天合聯盟]]聯營",
+        "entities": [
+          "達美航空",
+          "法國航空",
+          "荷蘭皇家航空",
+          "大韓航空",
+          "越南航空",
+          "天合聯盟"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "飛機",
+        "text": "[[Boeing]] — 777/747/737 系列；[[Airbus]] — A350/A330/A321neo",
+        "entities": [
+          "Boeing",
+          "Airbus"
+        ]
+      },
+      {
+        "role": "引擎",
+        "text": "[[GE Aerospace]] — [[GE90]]/[[GE9X]]/[[CF6]]；[[Rolls-Royce]] — [[Trent XWB]]；[[Pratt & Whitney]]；[[CFM International]]",
+        "entities": [
+          "GE Aerospace",
+          "GE90",
+          "GE9X",
+          "CF6",
+          "Rolls-Royce",
+          "Trent XWB",
+          "Pratt & Whitney",
+          "CFM International"
+        ]
+      },
+      {
+        "role": "航油",
+        "text": "[[台灣中油]] — 航空燃油獨家供應",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "空廚",
+        "text": "[[華膳空廚]] — 與[[太古集團]]合資",
+        "entities": [
+          "華膳空廚",
+          "太古集團"
+        ]
+      },
+      {
+        "role": "地勤",
+        "text": "[[桃園航勤]] — 地面作業",
+        "entities": [
+          "桃園航勤"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Airlines):** [[長榮航]]、[[星宇航空]]、[[台灣虎航]]",
+        "entities": [
+          "長榮航",
+          "星宇航空",
+          "台灣虎航"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中菲行",
+          "捷迅",
+          "台驊投控",
+          "AI 伺服器",
+          "半導體設備",
+          "達美航空",
+          "法國航空",
+          "荷蘭皇家航空",
+          "大韓航空",
+          "越南航空",
+          "天合聯盟"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "天合聯盟",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天合聯盟"
+    },
+    {
+      "name": "Boeing",
+      "type": "international_company_or_term",
+      "wikilink": "Boeing"
+    },
+    {
+      "name": "Airbus",
+      "type": "international_company_or_term",
+      "wikilink": "Airbus"
+    },
+    {
+      "name": "GE9X",
+      "type": "international_company_or_term",
+      "wikilink": "GE9X"
+    },
+    {
+      "name": "Trent XWB",
+      "type": "international_company_or_term",
+      "wikilink": "Trent XWB"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "半導體設備",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體設備"
+    },
+    {
+      "name": "華信航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華信航空"
+    },
+    {
+      "name": "台灣虎航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣虎航"
+    },
+    {
+      "name": "台灣飛機維修",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣飛機維修"
+    },
+    {
+      "name": "華膳空廚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華膳空廚"
+    },
+    {
+      "name": "桃園航勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園航勤"
+    },
+    {
+      "name": "GE Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aerospace"
+    },
+    {
+      "name": "GE90",
+      "type": "international_company_or_term",
+      "wikilink": "GE90"
+    },
+    {
+      "name": "CF6",
+      "type": "international_company_or_term",
+      "wikilink": "CF6"
+    },
+    {
+      "name": "Rolls-Royce",
+      "type": "international_company_or_term",
+      "wikilink": "Rolls-Royce"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "type": "international_company_or_term",
+      "wikilink": "Pratt & Whitney"
+    },
+    {
+      "name": "CFM International",
+      "type": "international_company_or_term",
+      "wikilink": "CFM International"
+    },
+    {
+      "name": "CFM56",
+      "type": "international_company_or_term",
+      "wikilink": "CFM56"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "中菲行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中菲行"
+    },
+    {
+      "name": "捷迅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "捷迅"
+    },
+    {
+      "name": "台驊投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台驊投控"
+    },
+    {
+      "name": "達美航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達美航空"
+    },
+    {
+      "name": "法國航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "法國航空"
+    },
+    {
+      "name": "荷蘭皇家航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "荷蘭皇家航空"
+    },
+    {
+      "name": "大韓航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大韓航空"
+    },
+    {
+      "name": "中國東方航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國東方航空"
+    },
+    {
+      "name": "越南航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "越南航空"
+    },
+    {
+      "name": "太古集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太古集團"
+    },
+    {
+      "name": "長榮航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航"
+    },
+    {
+      "name": "星宇航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "星宇航空"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中華航空 (2610，China Airlines) 成立於 1959 年，為台灣歷史最悠久且規模最大的國籍航空公司，「[[天合聯盟]]」(SkyTeam) 成員。機隊逾百架涵蓋[[Boeing]] 777-300ER/777F/747-400F/737-800 及[[Airbus]] A350-900/A330-300/A321neo。2024 年宣布採購 10 架[[Boeing]] 777-9 (搭載[[GE9X]]引擎)、10 架[[Airbus]] A350-1000 (搭載[[Trent XWB]]引擎) 及 4 架 Boeing 777-8F，啟動機隊世代交替。貨運業務受惠於[[AI 伺服器]]與[[半導體設備]]出口需求，全貨機機隊 (747-400F + 777F) 帶動獲利大幅成長。集團旗下涵蓋[[華信航空]] (區域子公司)、[[台灣虎航]] (6757，低成本航空子公司)、[[台灣飛機維修]] (TAMECO)、[[華膳空廚]]及[[桃園航勤]]。",
+    "supply_chain_md": "**上游 (飛機與燃油):**\n- **飛機製造:** [[Boeing]] — 777-300ER/777F/747-400F/737-800；[[Airbus]] — A350-900/A330-300/A321neo\n- **引擎:** [[GE Aerospace]] — [[GE90]]/[[CF6]]/[[GE9X]]；[[Rolls-Royce]] — [[Trent XWB]]/Trent 700；[[Pratt & Whitney]] — PW1133G；[[CFM International]] — [[CFM56]]\n- **航空燃油:** [[台灣中油]] — 國內機場唯一航油供應商\n- **MRO:** [[台灣飛機維修]] (TAMECO，全資子公司)\n\n**中游 (航空營運):**\n- **中華航空** (國際客運、航空貨運、地勤服務)\n- **[[華信航空]]** (區域航線子公司)\n- **[[台灣虎航]]** (6757，低成本航空子公司)\n\n**下游 (客戶):**\n- **客運:** 商務與觀光旅客、旅行社\n- **貨運:** [[中菲行]]、[[捷迅]]、[[台驊投控]] — 航空貨運承攬\n- **聯盟夥伴:** [[天合聯盟]]成員 — [[達美航空]]、[[法國航空]]、[[荷蘭皇家航空]]、[[大韓航空]]、[[中國東方航空]]",
+    "customers_suppliers_md": "### 主要客戶\n- **貨運承攬:** [[中菲行]]、[[捷迅]]、[[台驊投控]] — 航空貨運承攬業者\n- **貨運貨主:** [[AI 伺服器]]、[[半導體設備]]出口商 — 高價值科技貨物\n- **客運:** 商務與觀光旅客、國內外旅行社\n- **聯盟夥伴:** [[達美航空]]、[[法國航空]]、[[荷蘭皇家航空]]、[[大韓航空]]、[[越南航空]] — [[天合聯盟]]聯營\n\n### 主要供應商\n- **飛機:** [[Boeing]] — 777/747/737 系列；[[Airbus]] — A350/A330/A321neo\n- **引擎:** [[GE Aerospace]] — [[GE90]]/[[GE9X]]/[[CF6]]；[[Rolls-Royce]] — [[Trent XWB]]；[[Pratt & Whitney]]；[[CFM International]]\n- **航油:** [[台灣中油]] — 航空燃油獨家供應\n- **空廚:** [[華膳空廚]] — 與[[太古集團]]合資\n- **地勤:** [[桃園航勤]] — 地面作業"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 30,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

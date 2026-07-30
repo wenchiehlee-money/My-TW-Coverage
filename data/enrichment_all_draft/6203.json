@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6203",
+  "company_name": "海韻電",
+  "title": "6203_海韻電",
+  "source_md": "Pilot_Reports/Electronic Components/6203_海韻電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "5,315 百萬台幣",
+    "enterprise_value": "3,089 百萬台幣"
+  },
+  "business": {
+    "summary": "海韻電子工業股份有限公司 (6203, Seasonic) 是一家全球知名、專注於研發及製造高階「交換式電源供應器」(SPS)的專業品牌大廠。海韻電以自有品牌「Seasonic」行銷全球，其產品以超高能源轉換效率(如80 PLUS白金/鈦金認證)、高穩定性及長保固在DIY電競玩家與[[伺服器]]市場享有極高評價。面對[[AI]]與高效能運算(HPC)帶來的功耗激增，海韻電積極轉型，推出符合ATX 3.0規範的高千瓦數電源及液冷[[散熱]]電源方案，並成功切入[[AI[[伺服器]]]](如[[NVIDIA]])與[[工業電腦]]供應鏈。",
+    "entities": [
+      "伺服器",
+      "AI",
+      "散熱",
+      "AI[[伺服器",
+      "NVIDIA",
+      "工業電腦"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 各類[[半導體]]功率元件(如[[MOSFET]]/[[IGBT]])、電容/電阻/電感、變壓器、[[散熱]]風扇及金屬機殼。",
+        "entities": [
+          "半導體",
+          "MOSFET",
+          "IGBT",
+          "散熱"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **海韻電子** (高階交換式電源供應器、[[AI[[伺服器]]]]大瓦數電源及相關[[散熱]]解決方案之研發製造)。",
+        "entities": [
+          "AI[[伺服器",
+          "散熱"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 全球DIY電腦/電競周邊通路商、[[伺服器]]組裝廠、[[工業電腦]]廠及[[AI]]高效能運算設備商。",
+        "entities": [
+          "伺服器",
+          "工業電腦",
+          "AI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "全球高階電競/PC組裝玩家、各大[[伺服器]]/[[工業電腦]]品牌，並積極搶進[[NVIDIA]]的[[AI[[伺服器]]]]電源供應鏈。",
+        "entities": [
+          "伺服器",
+          "工業電腦",
+          "NVIDIA",
+          "AI[[伺服器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "英飛凌等國際大型功率[[半導體]]廠、日系高階電容廠(如Rubycon/Nippon Chemi-Con)及[[散熱]]風扇廠。",
+        "entities": [
+          "半導體",
+          "散熱"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "伺服器",
+          "工業電腦",
+          "NVIDIA",
+          "AI[[伺服器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "海韻電子工業股份有限公司 (6203, Seasonic) 是一家全球知名、專注於研發及製造高階「交換式電源供應器」(SPS)的專業品牌大廠。海韻電以自有品牌「Seasonic」行銷全球，其產品以超高能源轉換效率(如80 PLUS白金/鈦金認證)、高穩定性及長保固在DIY電競玩家與[[伺服器]]市場享有極高評價。面對[[AI]]與高效能運算(HPC)帶來的功耗激增，海韻電積極轉型，推出符合ATX 3.0規範的高千瓦數電源及液冷[[散熱]]電源方案，並成功切入[[AI[[伺服器]]]](如[[NVIDIA]])與[[工業電腦]]供應鏈。",
+    "supply_chain_md": "*   **上游**: 各類[[半導體]]功率元件(如[[MOSFET]]/[[IGBT]])、電容/電阻/電感、變壓器、[[散熱]]風扇及金屬機殼。\n*   **中游**: **海韻電子** (高階交換式電源供應器、[[AI[[伺服器]]]]大瓦數電源及相關[[散熱]]解決方案之研發製造)。\n*   **下游**: 全球DIY電腦/電競周邊通路商、[[伺服器]]組裝廠、[[工業電腦]]廠及[[AI]]高效能運算設備商。",
+    "customers_suppliers_md": "### 主要客戶\n*   全球高階電競/PC組裝玩家、各大[[伺服器]]/[[工業電腦]]品牌，並積極搶進[[NVIDIA]]的[[AI[[伺服器]]]]電源供應鏈。\n\n### 主要供應商\n*   英飛凌等國際大型功率[[半導體]]廠、日系高階電容廠(如Rubycon/Nippon Chemi-Con)及[[散熱]]風扇廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

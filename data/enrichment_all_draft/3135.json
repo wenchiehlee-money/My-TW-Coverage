@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3135",
+  "company_name": "凌航",
+  "title": "3135 - 凌航",
+  "source_md": "Pilot_Reports/Semiconductors/3135_凌航.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "13,279 百萬台幣",
+    "enterprise_value": "13,643 百萬台幣"
+  },
+  "business": {
+    "summary": "凌航科技 (Goldkey / Neo Forza) 為專業的 **記憶體模組 (Memory Module)** 領導廠商。\n公司採取雙品牌策略，深耕工業級與消費級市場：\n1.  **Goldkey**: 專注於 **工控 (Industrial)**、嵌入式及企業級[[伺服器]]市場，產品具備極高穩定性。\n2.  **Neo Forza**: 針對 **電競 (Gaming)**、DIY 超頻市場，提供高效能 DDR4/DDR5 模組與 SSD。\n核心佈局：\n*   **AI 邊緣運算**: 積極開發適用於邊緣運算 PC/NB 之高頻[[記憶體]]。\n*   **車用電子**: 提供耐極端溫度的[[記憶體]]解決方案。\n*   **垂直整合**: 具備 SMT 打件、生產測試到品質控管的全流程能力。",
+    "entities": [
+      "伺服器",
+      "記憶體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: **[[記憶體顆粒]]** ([[Samsung]], [[Micron]], [[SK Hynix]]).",
+        "entities": [
+          "記憶體顆粒",
+          "Samsung",
+          "Micron",
+          "SK Hynix"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游應用**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**消費電子**: 電競電腦、高階 PC。",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**工控設備**: [[工業電腦]] ([[IPC]])、POS 系統、醫療裝置。",
+        "entities": [
+          "工業電腦",
+          "IPC"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**網路通訊**: 基地台、[[資料中心]]。",
+        "entities": [
+          "資料中心"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "",
+        "text": "**模組製造 (本體)**: **凌航 (3135)** - 產品設計、封裝、測試與品牌行銷。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "全球性電腦與工控設備系統整合商。",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "亞馬遜 ([[Amazon]]) 與 Newegg 等電商通路。",
+        "entities": [
+          "Amazon"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "全球三大 [[DRAM]]/Flash 原廠。",
+        "entities": [
+          "DRAM"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "記憶體顆粒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體顆粒"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "凌航科技 (Goldkey / Neo Forza) 為專業的 **記憶體模組 (Memory Module)** 領導廠商。\n公司採取雙品牌策略，深耕工業級與消費級市場：\n1.  **Goldkey**: 專注於 **工控 (Industrial)**、嵌入式及企業級[[伺服器]]市場，產品具備極高穩定性。\n2.  **Neo Forza**: 針對 **電競 (Gaming)**、DIY 超頻市場，提供高效能 DDR4/DDR5 模組與 SSD。\n核心佈局：\n*   **AI 邊緣運算**: 積極開發適用於邊緣運算 PC/NB 之高頻[[記憶體]]。\n*   **車用電子**: 提供耐極端溫度的[[記憶體]]解決方案。\n*   **垂直整合**: 具備 SMT 打件、生產測試到品質控管的全流程能力。",
+    "supply_chain_md": "*   **模組製造 (本體)**: **凌航 (3135)** - 產品設計、封裝、測試與品牌行銷。\n*   **上游**: **[[記憶體顆粒]]** ([[Samsung]], [[Micron]], [[SK Hynix]]).\n*   **下游應用**:\n    *   **消費電子**: 電競電腦、高階 PC。\n    *   **工控設備**: [[工業電腦]] ([[IPC]])、POS 系統、醫療裝置。\n    *   **網路通訊**: 基地台、[[資料中心]]。",
+    "customers_suppliers_md": "### 主要客戶\n*   全球性電腦與工控設備系統整合商。\n*   亞馬遜 ([[Amazon]]) 與 Newegg 等電商通路。\n\n### 主要供應商\n*   全球三大 [[DRAM]]/Flash 原廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

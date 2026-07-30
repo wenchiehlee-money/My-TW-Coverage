@@ -1,0 +1,274 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9904",
+  "company_name": "寶成",
+  "title": "9904 - 寶成",
+  "source_md": "Pilot_Reports/Footwear & Accessories/9904_寶成.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories",
+    "market_cap": "71,018 百萬台幣",
+    "enterprise_value": "190,489 百萬台幣"
+  },
+  "business": {
+    "summary": "寶成工業股份有限公司 (9904) 成立於 1969 年，總部位於台灣台中，為全球最大的品牌運動鞋與休閒鞋製造商。公司透過子公司 [[裕元工業]] 為 [[Nike]]、[[Adidas]]、[[ASICS]]、[[New Balance]]、[[Timberland]] 及 [[Salomon]] 等主要國際品牌進行 OEM/ODM 代工製造。其中 [[Nike]] 與 [[Adidas]] 兩大品牌合計佔製鞋營收比重達七成。寶成近年已成功轉型為產業控股集團，旗下除「製鞋」核心業務外，更透過 [[寶勝國際]] 經營運動用品零售通路業務。生產基地遍布越南、印尼、中國、柬埔寨及孟加拉，全球員工人數逾數十萬。",
+    "entities": [
+      "裕元工業",
+      "Nike",
+      "Adidas",
+      "ASICS",
+      "New Balance",
+      "Timberland",
+      "Salomon",
+      "寶勝國際"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (鞋材與原料)",
+        "text": "**上游 (鞋材與原料):**",
+        "entities": []
+      },
+      {
+        "category": "皮革與布料",
+        "text": "各式合成皮、天然皮革、機能紡織布料",
+        "entities": []
+      },
+      {
+        "category": "鞋底材料",
+        "text": "[[EVA]] 發泡材料、橡膠大底、[[TPU]] 氣墊材料",
+        "entities": [
+          "EVA",
+          "TPU"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "接著劑、塗料及各類鞋用化學品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製鞋代工)",
+        "text": "**中游 (製鞋代工):**",
+        "entities": []
+      },
+      {
+        "category": "OEM/ODM",
+        "text": "**寶成 (9904)** — 透過 [[裕元工業]] 為全球頂級運動品牌進行大規模鞋類代工製造",
+        "entities": [
+          "裕元工業"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與零售)",
+        "text": "**下游 (品牌與零售):**",
+        "entities": []
+      },
+      {
+        "category": "國際品牌",
+        "text": "全球各大運動與休閒鞋品牌商",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "透過 [[寶勝國際]] 經營運動用品零售",
+        "entities": [
+          "寶勝國際"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "最大客戶",
+        "text": "[[Nike]] (耐吉，佔製鞋營收約 40%)",
+        "entities": [
+          "Nike"
+        ]
+      },
+      {
+        "role": "第二大客戶",
+        "text": "[[Adidas]] (愛迪達，佔製鞋營收約 30%)",
+        "entities": [
+          "Adidas"
+        ]
+      },
+      {
+        "role": "其他品牌",
+        "text": "[[ASICS]]、[[New Balance]]、[[Timberland]]、[[Salomon]]、[[Converse]]",
+        "entities": [
+          "ASICS",
+          "New Balance",
+          "Timberland",
+          "Salomon",
+          "Converse"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鞋材供應",
+        "text": "台灣及東南亞鞋材供應鏈 (如 [[信立化學]] 4303 合成皮、[[百和興業]] 8404 織帶)",
+        "entities": [
+          "信立化學",
+          "百和興業"
+        ]
+      },
+      {
+        "role": "石化原料",
+        "text": "[[台塑]] 等石化集團 (提供 EVA、TPU 等塑料原物料)",
+        "entities": [
+          "台塑"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Footwear & Accessories):** [[勝悅-KY]]、[[信立]]、[[志強-KY]]、[[來億-KY]]、[[中傑-KY]]",
+        "entities": [
+          "勝悅-KY",
+          "信立",
+          "志強-KY",
+          "來億-KY",
+          "中傑-KY"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Nike",
+          "Adidas",
+          "ASICS",
+          "New Balance",
+          "Timberland",
+          "Salomon",
+          "Converse"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "裕元工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕元工業"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "ASICS",
+      "type": "international_company_or_term",
+      "wikilink": "ASICS"
+    },
+    {
+      "name": "New Balance",
+      "type": "international_company_or_term",
+      "wikilink": "New Balance"
+    },
+    {
+      "name": "Timberland",
+      "type": "international_company_or_term",
+      "wikilink": "Timberland"
+    },
+    {
+      "name": "Salomon",
+      "type": "international_company_or_term",
+      "wikilink": "Salomon"
+    },
+    {
+      "name": "寶勝國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶勝國際"
+    },
+    {
+      "name": "EVA",
+      "type": "international_company_or_term",
+      "wikilink": "EVA"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "Converse",
+      "type": "international_company_or_term",
+      "wikilink": "Converse"
+    },
+    {
+      "name": "信立化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信立化學"
+    },
+    {
+      "name": "百和興業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "百和興業"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "勝悅-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勝悅-KY"
+    },
+    {
+      "name": "信立",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信立"
+    },
+    {
+      "name": "志強-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志強-KY"
+    },
+    {
+      "name": "來億-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "來億-KY"
+    },
+    {
+      "name": "中傑-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中傑-KY"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶成工業股份有限公司 (9904) 成立於 1969 年，總部位於台灣台中，為全球最大的品牌運動鞋與休閒鞋製造商。公司透過子公司 [[裕元工業]] 為 [[Nike]]、[[Adidas]]、[[ASICS]]、[[New Balance]]、[[Timberland]] 及 [[Salomon]] 等主要國際品牌進行 OEM/ODM 代工製造。其中 [[Nike]] 與 [[Adidas]] 兩大品牌合計佔製鞋營收比重達七成。寶成近年已成功轉型為產業控股集團，旗下除「製鞋」核心業務外，更透過 [[寶勝國際]] 經營運動用品零售通路業務。生產基地遍布越南、印尼、中國、柬埔寨及孟加拉，全球員工人數逾數十萬。",
+    "supply_chain_md": "**上游 (鞋材與原料):**\n- **皮革與布料:** 各式合成皮、天然皮革、機能紡織布料\n- **鞋底材料:** [[EVA]] 發泡材料、橡膠大底、[[TPU]] 氣墊材料\n- **化學品:** 接著劑、塗料及各類鞋用化學品\n\n**中游 (製鞋代工):**\n- **OEM/ODM:** **寶成 (9904)** — 透過 [[裕元工業]] 為全球頂級運動品牌進行大規模鞋類代工製造\n\n**下游 (品牌與零售):**\n- **國際品牌:** 全球各大運動與休閒鞋品牌商\n- **零售通路:** 透過 [[寶勝國際]] 經營運動用品零售",
+    "customers_suppliers_md": "### 主要客戶\n- **最大客戶:** [[Nike]] (耐吉，佔製鞋營收約 40%)\n- **第二大客戶:** [[Adidas]] (愛迪達，佔製鞋營收約 30%)\n- **其他品牌:** [[ASICS]]、[[New Balance]]、[[Timberland]]、[[Salomon]]、[[Converse]]\n\n### 主要供應商\n- **鞋材供應:** 台灣及東南亞鞋材供應鏈 (如 [[信立化學]] 4303 合成皮、[[百和興業]] 8404 織帶)\n- **石化原料:** [[台塑]] 等石化集團 (提供 EVA、TPU 等塑料原物料)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

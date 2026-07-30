@@ -1,0 +1,233 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8103",
+  "company_name": "瀚荃",
+  "title": "8103 - 瀚荃",
+  "source_md": "Pilot_Reports/Electronic Components/8103_瀚荃.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "5,420 百萬台幣",
+    "enterprise_value": "3,284 百萬台幣"
+  },
+  "business": {
+    "summary": "瀚荃 (8103，CviLux) 為台灣專業連接器與線材組件製造商，成立於 1990 年，為全球知名 EMS 廠之合格供應商。\n\n核心產品涵蓋：(1) 連接器 — [[FPC]]/[[FFC]] 連接器、板對板連接器、USB Type-C、HDMI、LVDS、Fakra 車用連接器等全系列產品；(2) 軟性排線與 [[FPC]] — [[FFC]] 排線、[[FPC]] 軟性電路板；(3) 線束組裝 — 筆電、伺服器、車用及工控線束；(4) 無線模組 — [[Bluetooth]]、Wi-Fi、NFC 模組；(5) 智慧生活 — HomeKit 智慧插座、空氣清淨機等。營收結構中伺服器與網通占比最高且持續成長 (2024 Q3 達 33%，年增 26%)，筆電次之，光電產品亦快速成長 (2024 Q3 年增 67%)。",
+    "entities": [
+      "FPC",
+      "FFC",
+      "Bluetooth"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬端子",
+        "text": "銅合金精密沖壓端子供應商",
+        "entities": []
+      },
+      {
+        "category": "塑膠件",
+        "text": "工程塑膠連接器殼體射出廠",
+        "entities": []
+      },
+      {
+        "category": "[[FPC]] 基材",
+        "text": "軟性銅箔基板 (FCCL) 供應商",
+        "entities": [
+          "FPC"
+        ]
+      },
+      {
+        "category": "線材",
+        "text": "電線電纜供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (連接器與線材製造)",
+        "text": "**中游 (連接器與線材製造):**",
+        "entities": []
+      },
+      {
+        "category": "連接器",
+        "text": "**瀚荃** ([[FPC]]/[[FFC]] 連接器、板對板連接器、USB Type-C 等)",
+        "entities": [
+          "FPC",
+          "FFC"
+        ]
+      },
+      {
+        "category": "線束組裝",
+        "text": "**瀚荃** (筆電、伺服器、車用線束)",
+        "entities": []
+      },
+      {
+        "category": "無線模組",
+        "text": "**瀚荃** ([[Bluetooth]]、Wi-Fi、NFC 模組)",
+        "entities": [
+          "Bluetooth"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器與網通",
+        "text": "伺服器 ODM 廠與網通設備商 — 營收占比最高",
+        "entities": []
+      },
+      {
+        "category": "筆記型電腦",
+        "text": "全球筆電 ODM 廠",
+        "entities": []
+      },
+      {
+        "category": "汽車電子",
+        "text": "車用線束與連接器應用",
+        "entities": []
+      },
+      {
+        "category": "光電產品",
+        "text": "光電設備製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "伺服器",
+        "text": "全球伺服器 ODM 與網通設備商 — 營收占比最高 (33%)",
+        "entities": []
+      },
+      {
+        "role": "筆電",
+        "text": "全球筆電 ODM 大廠 — 鍵盤排線與內部連接器",
+        "entities": []
+      },
+      {
+        "role": "車用電子",
+        "text": "汽車零組件 Tier 1 廠 — 車用線束與 Fakra 連接器",
+        "entities": []
+      },
+      {
+        "role": "光電設備",
+        "text": "光電產品製造商 — 2024 年成長最快領域",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬端子",
+        "text": "銅合金精密沖壓件供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠射出",
+        "text": "工程塑膠連接器殼體廠",
+        "entities": []
+      },
+      {
+        "role": "[[FPC]] 基材",
+        "text": "軟性銅箔基板供應商",
+        "entities": [
+          "FPC"
+        ]
+      },
+      {
+        "role": "線材",
+        "text": "電線電纜與被動元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "FPC",
+      "type": "international_company_or_term",
+      "wikilink": "FPC"
+    },
+    {
+      "name": "FFC",
+      "type": "international_company_or_term",
+      "wikilink": "FFC"
+    },
+    {
+      "name": "Bluetooth",
+      "type": "international_company_or_term",
+      "wikilink": "Bluetooth"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "瀚荃 (8103，CviLux) 為台灣專業連接器與線材組件製造商，成立於 1990 年，為全球知名 EMS 廠之合格供應商。\n\n核心產品涵蓋：(1) 連接器 — [[FPC]]/[[FFC]] 連接器、板對板連接器、USB Type-C、HDMI、LVDS、Fakra 車用連接器等全系列產品；(2) 軟性排線與 [[FPC]] — [[FFC]] 排線、[[FPC]] 軟性電路板；(3) 線束組裝 — 筆電、伺服器、車用及工控線束；(4) 無線模組 — [[Bluetooth]]、Wi-Fi、NFC 模組；(5) 智慧生活 — HomeKit 智慧插座、空氣清淨機等。營收結構中伺服器與網通占比最高且持續成長 (2024 Q3 達 33%，年增 26%)，筆電次之，光電產品亦快速成長 (2024 Q3 年增 67%)。",
+    "supply_chain_md": "**上游 (原材料):**\n- **金屬端子:** 銅合金精密沖壓端子供應商\n- **塑膠件:** 工程塑膠連接器殼體射出廠\n- **[[FPC]] 基材:** 軟性銅箔基板 (FCCL) 供應商\n- **線材:** 電線電纜供應商\n\n**中游 (連接器與線材製造):**\n- **連接器:** **瀚荃** ([[FPC]]/[[FFC]] 連接器、板對板連接器、USB Type-C 等)\n- **線束組裝:** **瀚荃** (筆電、伺服器、車用線束)\n- **無線模組:** **瀚荃** ([[Bluetooth]]、Wi-Fi、NFC 模組)\n\n**下游 (終端應用):**\n- **伺服器與網通:** 伺服器 ODM 廠與網通設備商 — 營收占比最高\n- **筆記型電腦:** 全球筆電 ODM 廠\n- **汽車電子:** 車用線束與連接器應用\n- **光電產品:** 光電設備製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **伺服器:** 全球伺服器 ODM 與網通設備商 — 營收占比最高 (33%)\n- **筆電:** 全球筆電 ODM 大廠 — 鍵盤排線與內部連接器\n- **車用電子:** 汽車零組件 Tier 1 廠 — 車用線束與 Fakra 連接器\n- **光電設備:** 光電產品製造商 — 2024 年成長最快領域\n\n### 主要供應商\n- **金屬端子:** 銅合金精密沖壓件供應商\n- **塑膠射出:** 工程塑膠連接器殼體廠\n- **[[FPC]] 基材:** 軟性銅箔基板供應商\n- **線材:** 電線電纜與被動元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

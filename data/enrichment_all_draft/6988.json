@@ -1,0 +1,239 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6988",
+  "company_name": "威力暘-創",
+  "title": "6988_威力暘-創",
+  "source_md": "Pilot_Reports/Electronic Components/6988_威力暘-創.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "581 百萬台幣",
+    "enterprise_value": "537 百萬台幣"
+  },
+  "business": {
+    "summary": "威力暘電子 (6988，[[Weleadstar]]) 專注於客製化車用電子控制核心模組的設計製造，為台灣車用電子隱形冠軍。\n\n業務結構與動能：(1) 車輛電控模組 (ECU/MCU) — 車燈驅動、免鑰匙解鎖、多功能方向盤及電子排檔器等車用電控單元，供應國際 Tier 1 車用零件商；(2) [[電動車]]電池熱管理 — 高階電池熱管理電控運算模組，應用於 [[電動車]] 與電動巴士；(3) 船舶電力控制 — 大型船舶用電池電力控制器。公司具備兩岸研發製造基地與通訊韌體開發實力，產品通過車規級耐高溫高震認證。",
+    "entities": [
+      "Weleadstar",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (車用電子零件)",
+        "text": "**上游 (車用電子零件):**",
+        "entities": []
+      },
+      {
+        "category": "MCU",
+        "text": "[[NXP]]、[[Renesas]] 等車規級微控制器晶片原廠",
+        "entities": [
+          "NXP",
+          "Renesas"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "車規級耐高溫印刷電路板",
+        "entities": []
+      },
+      {
+        "category": "感測元件",
+        "text": "光學感測器供應商",
+        "entities": []
+      },
+      {
+        "category": "被動元件",
+        "text": "車規級被動元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (車用電控模組)",
+        "text": "**中游 (車用電控模組):**",
+        "entities": []
+      },
+      {
+        "category": "ECU 模組",
+        "text": "**威力暘** (車燈/車鎖/方向盤電控模組)",
+        "entities": []
+      },
+      {
+        "category": "電池管理",
+        "text": "**威力暘** ([[電動車]]電池熱管理電控模組)",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "category": "船舶電控",
+        "text": "**威力暘** (船舶用電池電力控制器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車廠與 Tier 1)",
+        "text": "**下游 (車廠與 Tier 1):**",
+        "entities": []
+      },
+      {
+        "category": "車廠",
+        "text": "全球傳統與新能源汽車原廠 — 車用電控模組",
+        "entities": []
+      },
+      {
+        "category": "Tier 1",
+        "text": "跨國一級汽車零組件商如 [[Continental]] — 客製化 ECU",
+        "entities": [
+          "Continental"
+        ]
+      },
+      {
+        "category": "電動巴士",
+        "text": "電動巴士代工車廠 — 電池管理系統",
+        "entities": []
+      },
+      {
+        "category": "船舶",
+        "text": "海事船舶設備廠 — 電力控制器",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "Tier 1 車用",
+        "text": "跨國一級汽車零組件商 — 客製化車用電控模組",
+        "entities": []
+      },
+      {
+        "role": "車廠",
+        "text": "全球傳統與新能源汽車原廠 — ECU 模組",
+        "entities": []
+      },
+      {
+        "role": "電動巴士",
+        "text": "電動巴士代工車廠 — [[電動車]]電池熱管理系統",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "role": "船舶",
+        "text": "海事船舶設備廠 — 電池電力控制器",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "MCU",
+        "text": "車規級微控制器晶片原廠",
+        "entities": []
+      },
+      {
+        "role": "PCB",
+        "text": "車規級耐高溫 PCB 供應商",
+        "entities": []
+      },
+      {
+        "role": "感測元件",
+        "text": "光學感測器與被動元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "電動車"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Weleadstar",
+      "type": "international_company_or_term",
+      "wikilink": "Weleadstar"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "威力暘電子 (6988，[[Weleadstar]]) 專注於客製化車用電子控制核心模組的設計製造，為台灣車用電子隱形冠軍。\n\n業務結構與動能：(1) 車輛電控模組 (ECU/MCU) — 車燈驅動、免鑰匙解鎖、多功能方向盤及電子排檔器等車用電控單元，供應國際 Tier 1 車用零件商；(2) [[電動車]]電池熱管理 — 高階電池熱管理電控運算模組，應用於 [[電動車]] 與電動巴士；(3) 船舶電力控制 — 大型船舶用電池電力控制器。公司具備兩岸研發製造基地與通訊韌體開發實力，產品通過車規級耐高溫高震認證。",
+    "supply_chain_md": "**上游 (車用電子零件):**\n- **MCU:** [[NXP]]、[[Renesas]] 等車規級微控制器晶片原廠\n- **PCB:** 車規級耐高溫印刷電路板\n- **感測元件:** 光學感測器供應商\n- **被動元件:** 車規級被動元件\n\n**中游 (車用電控模組):**\n- **ECU 模組:** **威力暘** (車燈/車鎖/方向盤電控模組)\n- **電池管理:** **威力暘** ([[電動車]]電池熱管理電控模組)\n- **船舶電控:** **威力暘** (船舶用電池電力控制器)\n\n**下游 (車廠與 Tier 1):**\n- **車廠:** 全球傳統與新能源汽車原廠 — 車用電控模組\n- **Tier 1:** 跨國一級汽車零組件商如 [[Continental]] — 客製化 ECU\n- **電動巴士:** 電動巴士代工車廠 — 電池管理系統\n- **船舶:** 海事船舶設備廠 — 電力控制器",
+    "customers_suppliers_md": "### 主要客戶\n- **Tier 1 車用:** 跨國一級汽車零組件商 — 客製化車用電控模組\n- **車廠:** 全球傳統與新能源汽車原廠 — ECU 模組\n- **電動巴士:** 電動巴士代工車廠 — [[電動車]]電池熱管理系統\n- **船舶:** 海事船舶設備廠 — 電池電力控制器\n\n### 主要供應商\n- **MCU:** 車規級微控制器晶片原廠\n- **PCB:** 車規級耐高溫 PCB 供應商\n- **感測元件:** 光學感測器與被動元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

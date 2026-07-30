@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6927",
+  "company_name": "聯合聚晶",
+  "title": "6927_聯合聚晶",
+  "source_md": "Pilot_Reports/Electronic Components/6927_聯合聚晶.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,584 百萬台幣",
+    "enterprise_value": "2,296 百萬台幣"
+  },
+  "business": {
+    "summary": "聯合聚晶 (6927，[[URT]]) 為電子紙驅動 IC 設計公司，是電子紙大廠 [[元太科技]] 的戰略子公司。有別於手機/電視面板驅動 IC 紅海市場，聯合聚晶專攻電子貨架標籤 (ESL) 與特殊顯示器驅動 IC。\n\n業務結構與動能：(1) 電子紙驅動 IC — 電子貨架標籤 (ESL) 專用驅動晶片，受惠於全球零售業掀起電子紙標籤替換狂潮 (動態定價與節省人力)；(2) 四色電子紙驅動 IC — 最新一代四色電子紙驅動技術；(3) 其他顯示驅動 — STN、TFT 等平面顯示器驅動 IC。母公司 [[元太科技]] 提供產能與技術支援。",
+    "entities": [
+      "URT",
+      "元太科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (IP 與晶圓代工)",
+        "text": "**上游 (IP 與晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "IP 授權",
+        "text": "矽智財研發授權商",
+        "entities": []
+      },
+      {
+        "category": "EDA 工具",
+        "text": "電子設計自動化軟體",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[聯電]] 等晶圓代工廠 — 驅動 IC 製造",
+        "entities": [
+          "聯電"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "晶片封裝與測試廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (驅動 IC 設計)",
+        "text": "**中游 (驅動 IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "電子紙驅動",
+        "text": "**聯合聚晶** (ESL 電子紙驅動 IC)",
+        "entities": []
+      },
+      {
+        "category": "四色驅動",
+        "text": "**聯合聚晶** (四色電子紙驅動 IC)",
+        "entities": []
+      },
+      {
+        "category": "顯示驅動",
+        "text": "**聯合聚晶** (STN/TFT 面板驅動 IC)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子紙與顯示器)",
+        "text": "**下游 (電子紙與顯示器):**",
+        "entities": []
+      },
+      {
+        "category": "電子紙/ESL",
+        "text": "[[元太科技]] 及 ESL 系統整合商 — 電子貨架標籤驅動 IC",
+        "entities": [
+          "元太科技"
+        ]
+      },
+      {
+        "category": "工控儀表",
+        "text": "工業控制儀表面板廠 — 顯示驅動 IC",
+        "entities": []
+      },
+      {
+        "category": "車用顯示",
+        "text": "車用顯示器廠 — 驅動 IC",
+        "entities": []
+      },
+      {
+        "category": "智慧家電",
+        "text": "智慧家電品牌 — 顯示驅動 IC",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子紙/ESL",
+        "text": "[[元太科技]] 及 ESL 系統整合商 — 電子貨架標籤驅動 IC",
+        "entities": [
+          "元太科技"
+        ]
+      },
+      {
+        "role": "工控儀表",
+        "text": "工業控制儀表面板廠 — 顯示驅動 IC",
+        "entities": []
+      },
+      {
+        "role": "車用顯示",
+        "text": "車用顯示器廠 — 驅動 IC",
+        "entities": []
+      },
+      {
+        "role": "智慧家電",
+        "text": "智慧家電品牌 — 顯示驅動 IC",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[元太科技]] — 產能與技術支援",
+        "entities": [
+          "元太科技"
+        ]
+      },
+      {
+        "role": "晶圓代工",
+        "text": "[[聯電]] 等晶圓代工廠",
+        "entities": [
+          "聯電"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "晶片封裝測試廠",
+        "entities": []
+      },
+      {
+        "role": "EDA",
+        "text": "電子設計自動化軟體供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "元太科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": [
+      {
+        "text": "聯合聚晶 (6927，[[URT]]) 為電子紙驅動 IC 設計公司，是電子紙大廠 [[元太科技]] 的戰略子公司。有別於手機/電視面板驅動 IC 紅海市場，聯合聚晶專攻電子貨架標籤 (ESL) 與特殊顯示器驅動 IC。",
+        "entities": [
+          "URT",
+          "元太科技"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "URT",
+      "type": "international_company_or_term",
+      "wikilink": "URT"
+    },
+    {
+      "name": "元太科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元太科技"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯合聚晶 (6927，[[URT]]) 為電子紙驅動 IC 設計公司，是電子紙大廠 [[元太科技]] 的戰略子公司。有別於手機/電視面板驅動 IC 紅海市場，聯合聚晶專攻電子貨架標籤 (ESL) 與特殊顯示器驅動 IC。\n\n業務結構與動能：(1) 電子紙驅動 IC — 電子貨架標籤 (ESL) 專用驅動晶片，受惠於全球零售業掀起電子紙標籤替換狂潮 (動態定價與節省人力)；(2) 四色電子紙驅動 IC — 最新一代四色電子紙驅動技術；(3) 其他顯示驅動 — STN、TFT 等平面顯示器驅動 IC。母公司 [[元太科技]] 提供產能與技術支援。",
+    "supply_chain_md": "**上游 (IP 與晶圓代工):**\n- **IP 授權:** 矽智財研發授權商\n- **EDA 工具:** 電子設計自動化軟體\n- **晶圓代工:** [[聯電]] 等晶圓代工廠 — 驅動 IC 製造\n- **封測:** 晶片封裝與測試廠\n\n**中游 (驅動 IC 設計):**\n- **電子紙驅動:** **聯合聚晶** (ESL 電子紙驅動 IC)\n- **四色驅動:** **聯合聚晶** (四色電子紙驅動 IC)\n- **顯示驅動:** **聯合聚晶** (STN/TFT 面板驅動 IC)\n\n**下游 (電子紙與顯示器):**\n- **電子紙/ESL:** [[元太科技]] 及 ESL 系統整合商 — 電子貨架標籤驅動 IC\n- **工控儀表:** 工業控制儀表面板廠 — 顯示驅動 IC\n- **車用顯示:** 車用顯示器廠 — 驅動 IC\n- **智慧家電:** 智慧家電品牌 — 顯示驅動 IC",
+    "customers_suppliers_md": "### 主要客戶\n- **電子紙/ESL:** [[元太科技]] 及 ESL 系統整合商 — 電子貨架標籤驅動 IC\n- **工控儀表:** 工業控制儀表面板廠 — 顯示驅動 IC\n- **車用顯示:** 車用顯示器廠 — 驅動 IC\n- **智慧家電:** 智慧家電品牌 — 顯示驅動 IC\n\n### 主要供應商\n- **母公司:** [[元太科技]] — 產能與技術支援\n- **晶圓代工:** [[聯電]] 等晶圓代工廠\n- **封測:** 晶片封裝測試廠\n- **EDA:** 電子設計自動化軟體供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

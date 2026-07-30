@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3545",
+  "company_name": "敦泰",
+  "title": "3545 - 敦泰",
+  "source_md": "Pilot_Reports/Semiconductors/3545_敦泰.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "9,890 百萬台幣",
+    "enterprise_value": "5,167 百萬台幣"
+  },
+  "business": {
+    "summary": "敦泰電子 (3545) 是全球最大電容式觸控 IC 出貨商之一，產品涵蓋觸控 IC、顯示驅動 IC、[[TDDI]] (觸控顯示整合單晶片) 及指紋辨識 IC。TDDI/IDC 占營收約 70%，中國前四大手機品牌占營收七至八成。產品應用於手機、平板、[[AMOLED]] 面板及車用顯示。",
+    "entities": [
+      "TDDI",
+      "AMOLED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與通路)",
+        "text": "**上游 (晶圓代工與通路):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[聯華電子]]",
+        "entities": [
+          "聯華電子"
+        ]
+      },
+      {
+        "category": "通路",
+        "text": "[[益登科技]]、[[有萬科技]]",
+        "entities": [
+          "益登科技",
+          "有萬科技"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "觸控/驅動 IC",
+        "text": "**敦泰** (TDDI/觸控/驅動/指紋，全球最大觸控 IC 之一)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (手機與面板)",
+        "text": "**下游 (手機與面板):**",
+        "entities": []
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "[[京東方]]、[[天馬]]",
+        "entities": [
+          "京東方",
+          "天馬"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "手機",
+        "text": "[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[京東方]]、[[天馬]]",
+        "entities": [
+          "京東方",
+          "天馬"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[聯華電子]]",
+        "entities": [
+          "聯華電子"
+        ]
+      },
+      {
+        "role": "通路",
+        "text": "[[益登科技]]",
+        "entities": [
+          "益登科技"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[聯詠]]、[[奇景光電]]、[[Synaptics]]",
+        "entities": [
+          "聯詠",
+          "奇景光電",
+          "Synaptics"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[聯詠]]、[[奇景光電]]、[[Synaptics]]",
+        "entities": [
+          "聯詠",
+          "奇景光電",
+          "Synaptics"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TDDI",
+      "type": "international_company_or_term",
+      "wikilink": "TDDI"
+    },
+    {
+      "name": "AMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "AMOLED"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "益登科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "益登科技"
+    },
+    {
+      "name": "有萬科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "有萬科技"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "vivo",
+      "type": "international_company_or_term",
+      "wikilink": "vivo"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "天馬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天馬"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "奇景光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇景光電"
+    },
+    {
+      "name": "Synaptics",
+      "type": "international_company_or_term",
+      "wikilink": "Synaptics"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "敦泰電子 (3545) 是全球最大電容式觸控 IC 出貨商之一，產品涵蓋觸控 IC、顯示驅動 IC、[[TDDI]] (觸控顯示整合單晶片) 及指紋辨識 IC。TDDI/IDC 占營收約 70%，中國前四大手機品牌占營收七至八成。產品應用於手機、平板、[[AMOLED]] 面板及車用顯示。",
+    "supply_chain_md": "**上游 (晶圓代工與通路):**\n- **晶圓代工:** [[聯華電子]]\n- **通路:** [[益登科技]]、[[有萬科技]]\n\n**中游 (IC 設計):**\n- **觸控/驅動 IC:** **敦泰** (TDDI/觸控/驅動/指紋，全球最大觸控 IC 之一)\n\n**下游 (手機與面板):**\n- **手機品牌:** [[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **面板廠:** [[京東方]]、[[天馬]]",
+    "customers_suppliers_md": "### 主要客戶\n- **手機:** [[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **面板:** [[京東方]]、[[天馬]]\n\n### 主要供應商\n- **晶圓代工:** [[聯華電子]]\n- **通路:** [[益登科技]]\n- **競爭同業:** [[聯詠]]、[[奇景光電]]、[[Synaptics]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

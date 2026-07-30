@@ -1,0 +1,347 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4904",
+  "company_name": "遠傳",
+  "title": "4904 - [[遠傳]]",
+  "source_md": "Pilot_Reports/Telecom Services/4904_遠傳.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "market_cap": "384,221 百萬台幣",
+    "enterprise_value": "425,288 百萬台幣"
+  },
+  "business": {
+    "summary": "[[遠傳電信]] (4904，[[Far EasTone]]) 隸屬於[[遠東集團]]，為台灣三大電信營運商之一，與[[中華電信]]、[[台灣大哥大]]並列。2023 年底正式合併[[亞太電信]]，頻譜資源大幅提升，成為「頻譜三冠王」。\n\n業務結構與動能：(1) 行動通訊 — [[5G]]/4G 行動網路服務，合併[[亞太電信]]後用戶數與頻譜效益顯著提升；(2) 固定網路 — 透過子公司[[新世紀資通]]提供寬頻上網與企業專線；(3) 新經濟業務 (ICT) — 為台灣首家取得 [[AWS]] Advanced Partner 認證之電信業者，同時代理 [[Microsoft Azure]] 雲端服務，並提供資安、[[物聯網]] (智慧電表/智慧路燈)、大數據等企業解決方案；(4) 數位娛樂 — friDay 影音、friDay 購物等數位平台。子公司全虹企業負責門市通路與商品物流。",
+    "entities": [
+      "遠傳電信",
+      "Far EasTone",
+      "遠東集團",
+      "中華電信",
+      "台灣大哥大",
+      "亞太電信",
+      "5G",
+      "新世紀資通",
+      "AWS",
+      "Microsoft Azure",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網路設備)",
+        "text": "**上游 (網路設備):**",
+        "entities": []
+      },
+      {
+        "category": "行動基站",
+        "text": "[[Ericsson]] — [[5G]] 核心網與基地台主要供應商",
+        "entities": [
+          "Ericsson",
+          "5G"
+        ]
+      },
+      {
+        "category": "光纖設備",
+        "text": "[[聯光通]] — 光纖傳輸設備",
+        "entities": [
+          "聯光通"
+        ]
+      },
+      {
+        "category": "手機終端",
+        "text": "[[Apple]]、[[Samsung]] — 手機銷售",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電信服務營運)",
+        "text": "**中游 (電信服務營運):**",
+        "entities": []
+      },
+      {
+        "category": "行動通訊",
+        "text": "**[[遠傳]]** ([[5G]]/4G 行動網路營運)",
+        "entities": [
+          "遠傳",
+          "5G"
+        ]
+      },
+      {
+        "category": "固網寬頻",
+        "text": "**[[遠傳]]**/[[新世紀資通]] (寬頻上網與企業專線)",
+        "entities": [
+          "遠傳",
+          "新世紀資通"
+        ]
+      },
+      {
+        "category": "企業 ICT",
+        "text": "**[[遠傳]]** ([[AWS]]/[[Microsoft Azure]] 雲端代理、資安、[[物聯網]])",
+        "entities": [
+          "遠傳",
+          "AWS",
+          "Microsoft Azure",
+          "物聯網"
+        ]
+      },
+      {
+        "category": "數位平台",
+        "text": "**[[遠傳]]** (friDay 影音/購物)",
+        "entities": [
+          "遠傳"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "個人用戶",
+        "text": "行動月租/預付服務",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "金融業、製造業、政府機關 — ICT 整合方案",
+        "entities": []
+      },
+      {
+        "category": "IoT 客戶",
+        "text": "台電等公用事業 — [[物聯網]]智慧電表",
+        "entities": [
+          "物聯網"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "個人用戶",
+        "text": "數百萬行動與寬頻用戶 (含原[[亞太電信]]用戶)",
+        "entities": [
+          "亞太電信"
+        ]
+      },
+      {
+        "role": "企業客戶",
+        "text": "金融業、製造業、政府機關 — [[AWS]]/[[Microsoft Azure]] 雲端與專線",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "公用事業",
+        "text": "[[台灣電力]] — [[物聯網]]智慧電表佈建",
+        "entities": [
+          "台灣電力",
+          "物聯網"
+        ]
+      },
+      {
+        "role": "數位娛樂",
+        "text": "friDay 影音/購物平台消費者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "基站設備",
+        "text": "[[Ericsson]] — [[5G]] 基地台與核心網長期合作夥伴",
+        "entities": [
+          "Ericsson",
+          "5G"
+        ]
+      },
+      {
+        "role": "手機終端",
+        "text": "[[Apple]]、[[Samsung]] — 門市手機銷售",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      },
+      {
+        "role": "光纖設備",
+        "text": "[[聯光通]] — 光纖傳輸設備",
+        "entities": [
+          "聯光通"
+        ]
+      },
+      {
+        "role": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 企業雲端服務轉售",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "集團關聯",
+        "text": "[[遠東集團]]、[[新世紀資通]]、全虹企業",
+        "entities": [
+          "遠東集團",
+          "新世紀資通"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Telecom Services):** [[中華電]]、[[華電網]]、[[統振]]、[[是方]]",
+        "entities": [
+          "中華電",
+          "華電網",
+          "統振",
+          "是方"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "亞太電信",
+          "AWS",
+          "Microsoft Azure",
+          "台灣電力",
+          "物聯網"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "Far EasTone",
+      "type": "international_company_or_term",
+      "wikilink": "Far EasTone"
+    },
+    {
+      "name": "遠東集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東集團"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "台灣大哥大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大哥大"
+    },
+    {
+      "name": "亞太電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞太電信"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "新世紀資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新世紀資通"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Ericsson",
+      "type": "international_company_or_term",
+      "wikilink": "Ericsson"
+    },
+    {
+      "name": "聯光通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯光通"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "遠傳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳"
+    },
+    {
+      "name": "台灣電力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣電力"
+    },
+    {
+      "name": "中華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電"
+    },
+    {
+      "name": "華電網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電網"
+    },
+    {
+      "name": "統振",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統振"
+    },
+    {
+      "name": "是方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "是方"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[遠傳電信]] (4904，[[Far EasTone]]) 隸屬於[[遠東集團]]，為台灣三大電信營運商之一，與[[中華電信]]、[[台灣大哥大]]並列。2023 年底正式合併[[亞太電信]]，頻譜資源大幅提升，成為「頻譜三冠王」。\n\n業務結構與動能：(1) 行動通訊 — [[5G]]/4G 行動網路服務，合併[[亞太電信]]後用戶數與頻譜效益顯著提升；(2) 固定網路 — 透過子公司[[新世紀資通]]提供寬頻上網與企業專線；(3) 新經濟業務 (ICT) — 為台灣首家取得 [[AWS]] Advanced Partner 認證之電信業者，同時代理 [[Microsoft Azure]] 雲端服務，並提供資安、[[物聯網]] (智慧電表/智慧路燈)、大數據等企業解決方案；(4) 數位娛樂 — friDay 影音、friDay 購物等數位平台。子公司全虹企業負責門市通路與商品物流。",
+    "supply_chain_md": "**上游 (網路設備):**\n- **行動基站:** [[Ericsson]] — [[5G]] 核心網與基地台主要供應商\n- **光纖設備:** [[聯光通]] — 光纖傳輸設備\n- **手機終端:** [[Apple]]、[[Samsung]] — 手機銷售\n\n**中游 (電信服務營運):**\n- **行動通訊:** **[[遠傳]]** ([[5G]]/4G 行動網路營運)\n- **固網寬頻:** **[[遠傳]]**/[[新世紀資通]] (寬頻上網與企業專線)\n- **企業 ICT:** **[[遠傳]]** ([[AWS]]/[[Microsoft Azure]] 雲端代理、資安、[[物聯網]])\n- **數位平台:** **[[遠傳]]** (friDay 影音/購物)\n\n**下游 (終端客戶):**\n- **個人用戶:** 行動月租/預付服務\n- **企業客戶:** 金融業、製造業、政府機關 — ICT 整合方案\n- **IoT 客戶:** 台電等公用事業 — [[物聯網]]智慧電表",
+    "customers_suppliers_md": "### 主要客戶\n- **個人用戶:** 數百萬行動與寬頻用戶 (含原[[亞太電信]]用戶)\n- **企業客戶:** 金融業、製造業、政府機關 — [[AWS]]/[[Microsoft Azure]] 雲端與專線\n- **公用事業:** [[台灣電力]] — [[物聯網]]智慧電表佈建\n- **數位娛樂:** friDay 影音/購物平台消費者\n\n### 主要供應商\n- **基站設備:** [[Ericsson]] — [[5G]] 基地台與核心網長期合作夥伴\n- **手機終端:** [[Apple]]、[[Samsung]] — 門市手機銷售\n- **光纖設備:** [[聯光通]] — 光纖傳輸設備\n- **雲端平台:** [[AWS]]、[[Microsoft Azure]] — 企業雲端服務轉售\n- **集團關聯:** [[遠東集團]]、[[新世紀資通]]、全虹企業"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3712",
+  "company_name": "永崴投控",
+  "title": "3712 - 永崴投控",
+  "source_md": "Pilot_Reports/Semiconductors/3712_永崴投控.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "4,186 百萬台幣",
+    "enterprise_value": "44,115 百萬台幣"
+  },
+  "business": {
+    "summary": "永崴投控 (3712) 為[[正崴精密]]集團旗下投資控股公司 (正崴間接持股 38.19%)，業務涵蓋光學儀器零組件、3C 產品及潔淨能源。子公司[[森崴能源]]主攻[[太陽能]]電廠開發、[[風力發電]]維運及[[綠電]]服務，進軍[[離岸風電]]維運市場。另有影像掃描器及多功能事務機等 3C 業務。",
+    "entities": [
+      "正崴精密",
+      "森崴能源",
+      "太陽能",
+      "風力發電",
+      "綠電",
+      "離岸風電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與能源)",
+        "text": "**上游 (設備與能源):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能模組",
+        "text": "太陽能模組供應",
+        "entities": []
+      },
+      {
+        "category": "風電設備",
+        "text": "風力發電設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (投控與能源服務)",
+        "text": "**中游 (投控與能源服務):**",
+        "entities": []
+      },
+      {
+        "category": "投資控股",
+        "text": "**永崴** (正崴集團，光學/3C/潔淨能源)",
+        "entities": []
+      },
+      {
+        "category": "子公司",
+        "text": "[[森崴能源]] (太陽能/風電/綠電服務)",
+        "entities": [
+          "森崴能源"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電力與客戶)",
+        "text": "**下游 (電力與客戶):**",
+        "entities": []
+      },
+      {
+        "category": "售電",
+        "text": "[[台電]] 躉購及企業綠電",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[正崴精密]] (持股 38.19%)",
+        "entities": [
+          "正崴精密"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "售電",
+        "text": "[[台電]] 及企業綠電客戶",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "3C",
+        "text": "事務機及掃描器品牌客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[正崴精密]] (持股 38.19%)",
+        "entities": [
+          "正崴精密"
+        ]
+      },
+      {
+        "role": "子公司",
+        "text": "[[森崴能源]]",
+        "entities": [
+          "森崴能源"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "正崴精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正崴精密"
+    },
+    {
+      "name": "森崴能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "森崴能源"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "風力發電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "風力發電"
+    },
+    {
+      "name": "綠電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "綠電"
+    },
+    {
+      "name": "離岸風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "離岸風電"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永崴投控 (3712) 為[[正崴精密]]集團旗下投資控股公司 (正崴間接持股 38.19%)，業務涵蓋光學儀器零組件、3C 產品及潔淨能源。子公司[[森崴能源]]主攻[[太陽能]]電廠開發、[[風力發電]]維運及[[綠電]]服務，進軍[[離岸風電]]維運市場。另有影像掃描器及多功能事務機等 3C 業務。",
+    "supply_chain_md": "**上游 (設備與能源):**\n- **太陽能模組:** 太陽能模組供應\n- **風電設備:** 風力發電設備\n\n**中游 (投控與能源服務):**\n- **投資控股:** **永崴** (正崴集團，光學/3C/潔淨能源)\n- **子公司:** [[森崴能源]] (太陽能/風電/綠電服務)\n\n**下游 (電力與客戶):**\n- **售電:** [[台電]] 躉購及企業綠電\n- **母公司:** [[正崴精密]] (持股 38.19%)",
+    "customers_suppliers_md": "### 主要客戶\n- **售電:** [[台電]] 及企業綠電客戶\n- **3C:** 事務機及掃描器品牌客戶\n\n### 主要供應商\n- **母公司:** [[正崴精密]] (持股 38.19%)\n- **子公司:** [[森崴能源]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

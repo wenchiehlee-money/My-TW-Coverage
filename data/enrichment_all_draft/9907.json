@@ -1,0 +1,254 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9907",
+  "company_name": "統一實",
+  "title": "9907 - 統一實",
+  "source_md": "Pilot_Reports/Packaging & Containers/9907_統一實.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers",
+    "market_cap": "24,082 百萬台幣",
+    "enterprise_value": "26,343 百萬台幣"
+  },
+  "business": {
+    "summary": "統一實業股份有限公司成立於 1969 年，總部位於台灣台南，為 [[統一]]（1216）集團成員。統一實為國內最大且亞洲第一的馬口鐵廠，在中國大陸規模僅次於 [[寶鋼]]，具備從馬口鐵基板、中游馬口鐵鍍錫到下游製罐之垂直整合競爭優勢。主要產品包括馬口鐵基板及鍍錫板、馬口鐵印刷與製罐、[[PET]] 瓶包材、飲料充填代工（PET 瓶、[[利樂包]]、塑膠瓶蓋）及新型鋁瓶罐（NBC）。2024 年產品營收結構中鐵產品佔約 53%、飲料包裝產品佔約 47%。統一實近年積極擴產，於無錫、漳州及北京新增飲料無菌充填生產線，同時中國大陸市場新增 [[紅牛]]（Red Bull）能量飲料及東鵬大咖啡等重要客戶。",
+    "entities": [
+      "統一",
+      "寶鋼",
+      "PET",
+      "利樂包",
+      "紅牛"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (鋼材與原料)",
+        "text": "**上游 (鋼材與原料):**",
+        "entities": []
+      },
+      {
+        "category": "熱軋鋼捲",
+        "text": "國內外鋼廠供應基板原料",
+        "entities": []
+      },
+      {
+        "category": "PET 樹脂",
+        "text": "[[PET]] 瓶胚原料",
+        "entities": [
+          "PET"
+        ]
+      },
+      {
+        "category": "錫錠",
+        "text": "馬口鐵鍍錫用原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (包裝材料製造)",
+        "text": "**中游 (包裝材料製造):**",
+        "entities": []
+      },
+      {
+        "category": "統一實 (9907)",
+        "text": "馬口鐵基板製造、鍍錫加工、彩印製罐、PET 瓶胚及充填代工、[[利樂包]] 充填、NBC 鋁瓶罐生產",
+        "entities": [
+          "利樂包"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "飲料產業",
+        "text": "啤酒罐、茶飲、果汁、運動飲料、咖啡飲品之包材及充填代工",
+        "entities": []
+      },
+      {
+        "category": "食品產業",
+        "text": "食品罐頭用馬口鐵",
+        "entities": []
+      },
+      {
+        "category": "工業用途",
+        "text": "馬口鐵板銷售予其他製罐廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "集團內部",
+        "text": "[[統一]]（1216）為最主要關係人客戶",
+        "entities": [
+          "統一"
+        ]
+      },
+      {
+        "role": "中國大陸飲料客戶",
+        "text": "[[紅牛]]（Red Bull）能量飲料、東鵬大咖啡等",
+        "entities": [
+          "紅牛"
+        ]
+      },
+      {
+        "role": "台灣飲料食品",
+        "text": "[[台灣菸酒]]、國內各大飲料品牌",
+        "entities": [
+          "台灣菸酒"
+        ]
+      },
+      {
+        "role": "工業客戶",
+        "text": "其他製罐廠採購馬口鐵板",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "國內外熱軋鋼捲供應商",
+        "entities": []
+      },
+      {
+        "role": "錫錠",
+        "text": "國際錫金屬供應商",
+        "entities": []
+      },
+      {
+        "role": "PET 樹脂",
+        "text": "[[PET]] 原料供應商",
+        "entities": [
+          "PET"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Packaging & Containers):** [[永裕]]、[[光群雷]]、[[炎洲流通]]、[[谷崧]]、[[勝昱]]",
+        "entities": [
+          "永裕",
+          "光群雷",
+          "炎洲流通",
+          "谷崧",
+          "勝昱"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "統一",
+          "紅牛",
+          "台灣菸酒"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "統一實業股份有限公司成立於 1969 年，總部位於台灣台南，為 [[統一]]（1216）集團成員。統一實為國內最大且亞洲第一的馬口鐵廠，在中國大陸規模僅次於 [[寶鋼]]，具備從馬口鐵基板、中游馬口鐵鍍錫到下游製罐之垂直整合競爭優勢。主要產品包括馬口鐵基板及鍍錫板、馬口鐵印刷與製罐、[[PET]] 瓶包材、飲料充填代工（PET 瓶、[[利樂包]]、塑膠瓶蓋）及新型鋁瓶罐（NBC）。2024 年產品營收結構中鐵產品佔約 53%、飲料包裝產品佔約 47%。統一實近年積極擴產，於無錫、漳州及北京新增飲料無菌充填生產線，同時中國大陸市場新增 [[紅牛]]（Red Bull）能量飲料及東鵬大咖啡等重要客戶。",
+        "entities": [
+          "統一",
+          "寶鋼",
+          "PET",
+          "利樂包",
+          "紅牛"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "統一實業股份有限公司成立於 1969 年，總部位於台灣台南，為 [[統一]]（1216）集團成員。統一實為國內最大且亞洲第一的馬口鐵廠，在中國大陸規模僅次於 [[寶鋼]]，具備從馬口鐵基板、中游馬口鐵鍍錫到下游製罐之垂直整合競爭優勢。主要產品包括馬口鐵基板及鍍錫板、馬口鐵印刷與製罐、[[PET]] 瓶包材、飲料充填代工（PET 瓶、[[利樂包]]、塑膠瓶蓋）及新型鋁瓶罐（NBC）。2024 年產品營收結構中鐵產品佔約 53%、飲料包裝產品佔約 47%。統一實近年積極擴產，於無錫、漳州及北京新增飲料無菌充填生產線，同時中國大陸市場新增 [[紅牛]]（Red Bull）能量飲料及東鵬大咖啡等重要客戶。",
+        "entities": [
+          "統一",
+          "寶鋼",
+          "PET",
+          "利樂包",
+          "紅牛"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "統一",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一"
+    },
+    {
+      "name": "寶鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶鋼"
+    },
+    {
+      "name": "PET",
+      "type": "international_company_or_term",
+      "wikilink": "PET"
+    },
+    {
+      "name": "利樂包",
+      "type": "taiwan_company_or_term",
+      "wikilink": "利樂包"
+    },
+    {
+      "name": "紅牛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紅牛"
+    },
+    {
+      "name": "台灣菸酒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣菸酒"
+    },
+    {
+      "name": "永裕",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永裕"
+    },
+    {
+      "name": "光群雷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光群雷"
+    },
+    {
+      "name": "炎洲流通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "炎洲流通"
+    },
+    {
+      "name": "谷崧",
+      "type": "taiwan_company_or_term",
+      "wikilink": "谷崧"
+    },
+    {
+      "name": "勝昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勝昱"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "統一實業股份有限公司成立於 1969 年，總部位於台灣台南，為 [[統一]]（1216）集團成員。統一實為國內最大且亞洲第一的馬口鐵廠，在中國大陸規模僅次於 [[寶鋼]]，具備從馬口鐵基板、中游馬口鐵鍍錫到下游製罐之垂直整合競爭優勢。主要產品包括馬口鐵基板及鍍錫板、馬口鐵印刷與製罐、[[PET]] 瓶包材、飲料充填代工（PET 瓶、[[利樂包]]、塑膠瓶蓋）及新型鋁瓶罐（NBC）。2024 年產品營收結構中鐵產品佔約 53%、飲料包裝產品佔約 47%。統一實近年積極擴產，於無錫、漳州及北京新增飲料無菌充填生產線，同時中國大陸市場新增 [[紅牛]]（Red Bull）能量飲料及東鵬大咖啡等重要客戶。",
+    "supply_chain_md": "**上游 (鋼材與原料):**\n- **熱軋鋼捲:** 國內外鋼廠供應基板原料\n- **PET 樹脂:** [[PET]] 瓶胚原料\n- **錫錠:** 馬口鐵鍍錫用原料\n\n**中游 (包裝材料製造):**\n- **統一實 (9907):** 馬口鐵基板製造、鍍錫加工、彩印製罐、PET 瓶胚及充填代工、[[利樂包]] 充填、NBC 鋁瓶罐生產\n\n**下游 (終端應用):**\n- **飲料產業:** 啤酒罐、茶飲、果汁、運動飲料、咖啡飲品之包材及充填代工\n- **食品產業:** 食品罐頭用馬口鐵\n- **工業用途:** 馬口鐵板銷售予其他製罐廠",
+    "customers_suppliers_md": "### 主要客戶\n- **集團內部:** [[統一]]（1216）為最主要關係人客戶\n- **中國大陸飲料客戶:** [[紅牛]]（Red Bull）能量飲料、東鵬大咖啡等\n- **台灣飲料食品:** [[台灣菸酒]]、國內各大飲料品牌\n- **工業客戶:** 其他製罐廠採購馬口鐵板\n\n### 主要供應商\n- **鋼材:** 國內外熱軋鋼捲供應商\n- **錫錠:** 國際錫金屬供應商\n- **PET 樹脂:** [[PET]] 原料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5340",
+  "company_name": "建榮",
+  "title": "5340 - 建榮",
+  "source_md": "Pilot_Reports/Textile Manufacturing/5340_建榮.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "11,557 百萬台幣",
+    "enterprise_value": "11,176 百萬台幣"
+  },
+  "business": {
+    "summary": "[[建榮]]工業 (Baotek) 成立於1989年，總部位於台灣桃園。公司主要生產電子級[[玻纖布]]，為[[PCB]]印刷電路板的關鍵補強材料。建榮是日本[[日東紡]] (Nitto Boseki) 集團成員 ([[日東紡]]持股約47%)，受益於母公司技術支援，在高階Low-Dk (低介電) [[玻纖布]]領域具競爭優勢。產品廣泛應用於[[AI 伺服器]]、[[5G]]通訊及高效能運算 (HPC)。受惠AI伺服器高階[[玻纖布]]需求暴增，訂單持續滿載。",
+    "entities": [
+      "建榮",
+      "玻纖布",
+      "PCB",
+      "日東紡",
+      "AI 伺服器",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "玻纖紗",
+        "text": "主要由母公司[[日東紡]]供應",
+        "entities": [
+          "日東紡"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "電子級[[玻纖布]]織造",
+        "entities": [
+          "玻纖布"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (CCL/PCB)",
+        "text": "**下游 (CCL/PCB):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[CCL]] (銅箔基板) 製造商",
+        "entities": [
+          "CCL"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "CCL廠",
+        "text": "[[台光電]]、[[聯茂]]、[[台燿]]",
+        "entities": [
+          "台光電",
+          "聯茂",
+          "台燿"
+        ]
+      },
+      {
+        "role": "終端應用",
+        "text": "[[AI 伺服器]] ([[NVIDIA]]/[[AMD]]供應鏈)、[[5G]]基地台",
+        "entities": [
+          "AI 伺服器",
+          "NVIDIA",
+          "AMD",
+          "5G"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "玻纖紗",
+        "text": "[[日東紡]] (母公司)",
+        "entities": [
+          "日東紡"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台光電",
+          "聯茂",
+          "台燿",
+          "AI 伺服器",
+          "NVIDIA",
+          "AMD",
+          "5G"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "[[建榮]]工業 (Baotek) 成立於1989年，總部位於台灣桃園。公司主要生產電子級[[玻纖布]]，為[[PCB]]印刷電路板的關鍵補強材料。建榮是日本[[日東紡]] (Nitto Boseki) 集團成員 ([[日東紡]]持股約47%)，受益於母公司技術支援，在高階Low-Dk (低介電) [[玻纖布]]領域具競爭優勢。產品廣泛應用於[[AI 伺服器]]、[[5G]]通訊及高效能運算 (HPC)。受惠AI伺服器高階[[玻纖布]]需求暴增，訂單持續滿載。",
+        "entities": [
+          "建榮",
+          "玻纖布",
+          "PCB",
+          "日東紡",
+          "AI 伺服器",
+          "5G"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "[[建榮]]工業 (Baotek) 成立於1989年，總部位於台灣桃園。公司主要生產電子級[[玻纖布]]，為[[PCB]]印刷電路板的關鍵補強材料。建榮是日本[[日東紡]] (Nitto Boseki) 集團成員 ([[日東紡]]持股約47%)，受益於母公司技術支援，在高階Low-Dk (低介電) [[玻纖布]]領域具競爭優勢。產品廣泛應用於[[AI 伺服器]]、[[5G]]通訊及高效能運算 (HPC)。受惠AI伺服器高階[[玻纖布]]需求暴增，訂單持續滿載。",
+        "entities": [
+          "建榮",
+          "玻纖布",
+          "PCB",
+          "日東紡",
+          "AI 伺服器",
+          "5G"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "建榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建榮"
+    },
+    {
+      "name": "玻纖布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻纖布"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "日東紡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日東紡"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "CCL",
+      "type": "international_company_or_term",
+      "wikilink": "CCL"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "台燿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台燿"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[建榮]]工業 (Baotek) 成立於1989年，總部位於台灣桃園。公司主要生產電子級[[玻纖布]]，為[[PCB]]印刷電路板的關鍵補強材料。建榮是日本[[日東紡]] (Nitto Boseki) 集團成員 ([[日東紡]]持股約47%)，受益於母公司技術支援，在高階Low-Dk (低介電) [[玻纖布]]領域具競爭優勢。產品廣泛應用於[[AI 伺服器]]、[[5G]]通訊及高效能運算 (HPC)。受惠AI伺服器高階[[玻纖布]]需求暴增，訂單持續滿載。",
+    "supply_chain_md": "**上游 (原料):**\n- **玻纖紗:** 主要由母公司[[日東紡]]供應\n\n**中游 (製造):**\n- 電子級[[玻纖布]]織造\n\n**下游 (CCL/PCB):**\n- [[CCL]] (銅箔基板) 製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **CCL廠:** [[台光電]]、[[聯茂]]、[[台燿]]\n- **終端應用:** [[AI 伺服器]] ([[NVIDIA]]/[[AMD]]供應鏈)、[[5G]]基地台\n\n### 主要供應商\n- **玻纖紗:** [[日東紡]] (母公司)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

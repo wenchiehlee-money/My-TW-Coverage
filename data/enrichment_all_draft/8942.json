@@ -1,0 +1,247 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8942",
+  "company_name": "森鉅",
+  "title": "8942 - 森鉅",
+  "source_md": "Pilot_Reports/Aluminum/8942_森鉅.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum",
+    "market_cap": "7,158 百萬台幣",
+    "enterprise_value": "9,487 百萬台幣"
+  },
+  "business": {
+    "summary": "森鉅科技材料 (8942，Xxentria Technology Materials) 為全球金屬塑膠複合板商用車體材料龍頭，旗艦產品[[G-BOND]] (鍍鋅鋼複合板) 及[[A-BOND]] (高強度鋁塑複合板) 在北美半掛式貨櫃拖車市場市佔率約 60%。核心技術將回收 PE/PET 塑膠與金屬板材複合，兼具輕量化與環保優勢，毛利率逾 35%。北美五大拖車製造商 — [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]] — 為主要客戶群。2022 年收購泰國車軸廠[[Goldsuwan]] (持股 51%)，提供車體加車軸整合方案。正於美國田納西州 Mount Pleasant 建設新廠，投資 4,500 萬美元，預計 2026 年投產。",
+    "entities": [
+      "G-BOND",
+      "A-BOND",
+      "Wabash",
+      "Great Dane",
+      "Utility Trailer",
+      "Vanguard National Trailer",
+      "Stoughton Trailers",
+      "Goldsuwan"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬板材",
+        "text": "鍍鋅鋼板與鋁板供應商",
+        "entities": []
+      },
+      {
+        "category": "回收塑膠",
+        "text": "回收 PE 及回收 PET (寶特瓶) — 複合板核心夾層材料",
+        "entities": []
+      },
+      {
+        "category": "車軸",
+        "text": "[[Goldsuwan]] (泰國子公司，持股 51%) — 拖車車軸製造",
+        "entities": [
+          "Goldsuwan"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**森鉅** ([[G-BOND]]鍍鋅鋼複合板、[[A-BOND]]鋁塑複合板製造，台灣及美國田納西州工廠)",
+        "entities": [
+          "G-BOND",
+          "A-BOND"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (北美拖車 OEM)",
+        "text": "**下游 (北美拖車 OEM):**",
+        "entities": []
+      },
+      {
+        "category": "拖車製造商",
+        "text": "[[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]]、[[Hyundai Translead]] — 北美前五大拖車 OEM",
+        "entities": [
+          "Wabash",
+          "Great Dane",
+          "Utility Trailer",
+          "Vanguard National Trailer",
+          "Stoughton Trailers",
+          "Hyundai Translead"
+        ]
+      },
+      {
+        "category": "終端車隊",
+        "text": "[[UPS]]、[[FedEx]] — 大型物流車隊 (拖車終端使用者)",
+        "entities": [
+          "UPS",
+          "FedEx"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "拖車 OEM (北美)",
+        "text": "[[Wabash]] — 北美最大拖車製造商；[[Great Dane]]；[[Utility Trailer]]；[[Vanguard National Trailer]]；[[Stoughton Trailers]]；[[Hyundai Translead]]",
+        "entities": [
+          "Wabash",
+          "Great Dane",
+          "Utility Trailer",
+          "Vanguard National Trailer",
+          "Stoughton Trailers",
+          "Hyundai Translead"
+        ]
+      },
+      {
+        "role": "終端車隊",
+        "text": "[[UPS]]、[[FedEx]] — 大型物流車隊 (拖車最終使用者)",
+        "entities": [
+          "UPS",
+          "FedEx"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬板材",
+        "text": "鍍鋅鋼板及鋁板供應商",
+        "entities": []
+      },
+      {
+        "role": "回收塑膠",
+        "text": "回收 PE/PET 原料 — 複合板核心夾層",
+        "entities": []
+      },
+      {
+        "role": "車軸",
+        "text": "[[Goldsuwan]] (泰國子公司) — 拖車車軸",
+        "entities": [
+          "Goldsuwan"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Aluminum):** [[寶緯]]、[[立敦]]",
+        "entities": [
+          "寶緯",
+          "立敦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Wabash",
+          "Great Dane",
+          "Utility Trailer",
+          "Vanguard National Trailer",
+          "Stoughton Trailers",
+          "Hyundai Translead",
+          "UPS",
+          "FedEx"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "G-BOND",
+      "type": "international_company_or_term",
+      "wikilink": "G-BOND"
+    },
+    {
+      "name": "A-BOND",
+      "type": "international_company_or_term",
+      "wikilink": "A-BOND"
+    },
+    {
+      "name": "Wabash",
+      "type": "international_company_or_term",
+      "wikilink": "Wabash"
+    },
+    {
+      "name": "Great Dane",
+      "type": "international_company_or_term",
+      "wikilink": "Great Dane"
+    },
+    {
+      "name": "Utility Trailer",
+      "type": "international_company_or_term",
+      "wikilink": "Utility Trailer"
+    },
+    {
+      "name": "Vanguard National Trailer",
+      "type": "international_company_or_term",
+      "wikilink": "Vanguard National Trailer"
+    },
+    {
+      "name": "Stoughton Trailers",
+      "type": "international_company_or_term",
+      "wikilink": "Stoughton Trailers"
+    },
+    {
+      "name": "Goldsuwan",
+      "type": "international_company_or_term",
+      "wikilink": "Goldsuwan"
+    },
+    {
+      "name": "Hyundai Translead",
+      "type": "international_company_or_term",
+      "wikilink": "Hyundai Translead"
+    },
+    {
+      "name": "UPS",
+      "type": "international_company_or_term",
+      "wikilink": "UPS"
+    },
+    {
+      "name": "FedEx",
+      "type": "international_company_or_term",
+      "wikilink": "FedEx"
+    },
+    {
+      "name": "寶緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶緯"
+    },
+    {
+      "name": "立敦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立敦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "森鉅科技材料 (8942，Xxentria Technology Materials) 為全球金屬塑膠複合板商用車體材料龍頭，旗艦產品[[G-BOND]] (鍍鋅鋼複合板) 及[[A-BOND]] (高強度鋁塑複合板) 在北美半掛式貨櫃拖車市場市佔率約 60%。核心技術將回收 PE/PET 塑膠與金屬板材複合，兼具輕量化與環保優勢，毛利率逾 35%。北美五大拖車製造商 — [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]] — 為主要客戶群。2022 年收購泰國車軸廠[[Goldsuwan]] (持股 51%)，提供車體加車軸整合方案。正於美國田納西州 Mount Pleasant 建設新廠，投資 4,500 萬美元，預計 2026 年投產。",
+    "supply_chain_md": "**上游 (原料):**\n- **金屬板材:** 鍍鋅鋼板與鋁板供應商\n- **回收塑膠:** 回收 PE 及回收 PET (寶特瓶) — 複合板核心夾層材料\n- **車軸:** [[Goldsuwan]] (泰國子公司，持股 51%) — 拖車車軸製造\n\n**中游 (製造):**\n- **森鉅** ([[G-BOND]]鍍鋅鋼複合板、[[A-BOND]]鋁塑複合板製造，台灣及美國田納西州工廠)\n\n**下游 (北美拖車 OEM):**\n- **拖車製造商:** [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]]、[[Hyundai Translead]] — 北美前五大拖車 OEM\n- **終端車隊:** [[UPS]]、[[FedEx]] — 大型物流車隊 (拖車終端使用者)",
+    "customers_suppliers_md": "### 主要客戶\n- **拖車 OEM (北美):** [[Wabash]] — 北美最大拖車製造商；[[Great Dane]]；[[Utility Trailer]]；[[Vanguard National Trailer]]；[[Stoughton Trailers]]；[[Hyundai Translead]]\n- **終端車隊:** [[UPS]]、[[FedEx]] — 大型物流車隊 (拖車最終使用者)\n\n### 主要供應商\n- **金屬板材:** 鍍鋅鋼板及鋁板供應商\n- **回收塑膠:** 回收 PE/PET 原料 — 複合板核心夾層\n- **車軸:** [[Goldsuwan]] (泰國子公司) — 拖車車軸"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

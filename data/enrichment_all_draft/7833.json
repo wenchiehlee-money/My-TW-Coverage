@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7833",
+  "company_name": "綠岩能源",
+  "title": "7833 - 綠岩能源",
+  "source_md": "Pilot_Reports/Utilities - Renewable/7833_綠岩能源.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Utilities",
+    "industry": "Utilities - Renewable",
+    "market_cap": "918 百萬台幣",
+    "enterprise_value": "3,082 百萬台幣"
+  },
+  "business": {
+    "summary": "綠岩能源 (7833，GreenRock Energy) 成立於 2019 年，為台灣再生能源整合開發商。旗下「大猩猩電能交易平台」提供企業綠電轉供與客製化能源方案，簽約供電總量超過 10 億度電。專精大型地面型太陽能案場開發。策略合作夥伴包括國際能源巨擘 [[BP]] (英國石油) — 合資開發嘉義大型太陽能案場，以及[[中租控股]]委託之大型 EPC 工程案。同時與[[台達能源]]等國內能源夥伴合作。儲能業務建置大型鋰電池儲能系統，參與[[台電]]調頻備轉服務。",
+    "entities": [
+      "BP",
+      "中租控股",
+      "台達能源",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與金融)",
+        "text": "**上游 (設備與金融):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能模組",
+        "text": "高轉換率矽晶太陽能模組",
+        "entities": []
+      },
+      {
+        "category": "儲能設備",
+        "text": "儲能貨櫃與鋰電池芯",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發建置與電力交易)",
+        "text": "**中游 (開發建置與電力交易):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**綠岩能源** — 太陽能案場 EPC 統包建置/營運維護、大型儲能系統建置、「大猩猩電能交易平台」綠電轉供",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "綠電買家",
+        "text": "受 [[RE100]] 承諾驅動之台灣上市櫃大廠",
+        "entities": [
+          "RE100"
+        ]
+      },
+      {
+        "category": "電力調度",
+        "text": "[[台電]] — 儲能調頻備轉",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "EPC 委託方",
+        "text": "再生能源投資方",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "綠電轉供",
+        "text": "透過「大猩猩電能交易平台」與台灣龍頭簽訂 CPPA，累計簽約超過 10 億度",
+        "entities": []
+      },
+      {
+        "role": "EPC 工程",
+        "text": "[[中租控股]] — 大型太陽能案場統包",
+        "entities": [
+          "中租控股"
+        ]
+      },
+      {
+        "role": "儲能調度",
+        "text": "[[台電]] — 調頻備轉",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "策略合資",
+        "text": "[[BP]] (英國石油) — 合資開發嘉義太陽能案場",
+        "entities": [
+          "BP"
+        ]
+      },
+      {
+        "role": "能源合作",
+        "text": "[[台達能源]] — 再生能源領域夥伴",
+        "entities": [
+          "台達能源"
+        ]
+      },
+      {
+        "role": "太陽能模組",
+        "text": "國內外高效矽晶太陽能模組",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Utilities - Renewable):** [[森崴能源]]、[[雲豹能源]]、[[富威電力]]、[[麗升能源]]",
+        "entities": [
+          "森崴能源",
+          "雲豹能源",
+          "富威電力",
+          "麗升能源"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中租控股",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "BP",
+      "type": "international_company_or_term",
+      "wikilink": "BP"
+    },
+    {
+      "name": "中租控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中租控股"
+    },
+    {
+      "name": "台達能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達能源"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "RE100",
+      "type": "international_company_or_term",
+      "wikilink": "RE100"
+    },
+    {
+      "name": "森崴能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "森崴能源"
+    },
+    {
+      "name": "雲豹能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲豹能源"
+    },
+    {
+      "name": "富威電力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富威電力"
+    },
+    {
+      "name": "麗升能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗升能源"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "綠岩能源 (7833，GreenRock Energy) 成立於 2019 年，為台灣再生能源整合開發商。旗下「大猩猩電能交易平台」提供企業綠電轉供與客製化能源方案，簽約供電總量超過 10 億度電。專精大型地面型太陽能案場開發。策略合作夥伴包括國際能源巨擘 [[BP]] (英國石油) — 合資開發嘉義大型太陽能案場，以及[[中租控股]]委託之大型 EPC 工程案。同時與[[台達能源]]等國內能源夥伴合作。儲能業務建置大型鋰電池儲能系統，參與[[台電]]調頻備轉服務。",
+    "supply_chain_md": "**上游 (設備與金融):**\n- **太陽能模組:** 高轉換率矽晶太陽能模組\n- **儲能設備:** 儲能貨櫃與鋰電池芯\n\n**中游 (開發建置與電力交易):**\n- **綠岩能源** — 太陽能案場 EPC 統包建置/營運維護、大型儲能系統建置、「大猩猩電能交易平台」綠電轉供\n\n**下游 (終端用戶):**\n- **綠電買家:** 受 [[RE100]] 承諾驅動之台灣上市櫃大廠\n- **電力調度:** [[台電]] — 儲能調頻備轉\n- **EPC 委託方:** 再生能源投資方",
+    "customers_suppliers_md": "### 主要客戶\n- **綠電轉供:** 透過「大猩猩電能交易平台」與台灣龍頭簽訂 CPPA，累計簽約超過 10 億度\n- **EPC 工程:** [[中租控股]] — 大型太陽能案場統包\n- **儲能調度:** [[台電]] — 調頻備轉\n\n### 主要供應商\n- **策略合資:** [[BP]] (英國石油) — 合資開發嘉義太陽能案場\n- **能源合作:** [[台達能源]] — 再生能源領域夥伴\n- **太陽能模組:** 國內外高效矽晶太陽能模組"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

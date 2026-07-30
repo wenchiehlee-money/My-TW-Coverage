@@ -1,0 +1,302 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2314",
+  "company_name": "台揚",
+  "title": "2314 - 台揚",
+  "source_md": "Pilot_Reports/Communication Equipment/2314_台揚.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,118 百萬台幣",
+    "enterprise_value": "2,689 百萬台幣"
+  },
+  "business": {
+    "summary": "台揚科技 (2314，[[Microelectronics Technology]]) 為台灣深耕微波及衛星通訊技術之專業設備廠，隸屬 [[鴻海]] 集團。公司為全球首家成功量產 Ka 頻段衛星地面站收發機之領導廠商，核心產品涵蓋 C/Ku/Ka 頻段 VSAT 收發器、[[低軌衛星]] 平板天線模組、[[5G]] O-RAN 開放式無線電單元 (RU) 及 [[RFID]] 讀取器模組。\n\n台揚為美國 NOFO2 計畫七家得標廠商之一，5G O-RAN 產品線涵蓋從 4T4R 到 8T8R 高低功率完整方案，已累計出貨逾三萬套系統。衛星通訊方面，已與全球四大 [[低軌衛星]] 營運商展開合作，2025 年以家用衛星接收器 (UT) 為主力產品，2026 年將跨入衛星本體酬載 (payload) 製造。近年獲 [[鴻準]] 入股，挹注低功耗 ESG 技術與供應鏈支援。",
+    "entities": [
+      "Microelectronics Technology",
+      "鴻海",
+      "低軌衛星",
+      "5G",
+      "RFID",
+      "鴻準"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (射頻元件與晶片)",
+        "text": "**上游 (射頻元件與晶片):**",
+        "entities": []
+      },
+      {
+        "category": "射頻晶片",
+        "text": "高頻微波通訊 IC 及射頻前端元件",
+        "entities": []
+      },
+      {
+        "category": "高頻 PCB",
+        "text": "高頻低損耗印刷電路板",
+        "entities": []
+      },
+      {
+        "category": "集團資源",
+        "text": "[[鴻海]] 集團代工供應鏈及零組件採購",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (微波與衛星通訊設備)",
+        "text": "**中游 (微波與衛星通訊設備):**",
+        "entities": []
+      },
+      {
+        "category": "衛星地面設備",
+        "text": "**台揚** (Ka/Ku/C 頻段 VSAT 收發器、低軌衛星 UT)",
+        "entities": []
+      },
+      {
+        "category": "5G 基站設備",
+        "text": "**台揚** (O-RAN RU、蜂巢式回程設備)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信與衛星營運商)",
+        "text": "**下游 (電信與衛星營運商):**",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星營運商",
+        "text": "[[SpaceX]] (Starlink)、[[Eutelsat OneWeb]]、[[Telesat]]、[[Amazon]] (Kuiper)",
+        "entities": [
+          "SpaceX",
+          "Eutelsat OneWeb",
+          "Telesat",
+          "Amazon"
+        ]
+      },
+      {
+        "category": "5G 電信營運商",
+        "text": "[[EchoStar]]、[[中華電信]]、[[樂天電信]]、[[Mobicom]]",
+        "entities": [
+          "EchoStar",
+          "中華電信",
+          "樂天電信",
+          "Mobicom"
+        ]
+      },
+      {
+        "category": "高軌衛星",
+        "text": "[[ViaSat]]",
+        "entities": [
+          "ViaSat"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "低軌衛星",
+        "text": "[[SpaceX]] (Starlink)、[[Eutelsat OneWeb]]、[[Telesat]]、[[Amazon]] (Kuiper) — 地面接收設備與戶外收發器",
+        "entities": [
+          "SpaceX",
+          "Eutelsat OneWeb",
+          "Telesat",
+          "Amazon"
+        ]
+      },
+      {
+        "role": "5G O-RAN 電信商",
+        "text": "[[EchoStar]] (美國)、[[中華電信]]、[[樂天電信]] (日本)、[[Mobicom]] (蒙古) — 開放式基站無線電單元",
+        "entities": [
+          "EchoStar",
+          "中華電信",
+          "樂天電信",
+          "Mobicom"
+        ]
+      },
+      {
+        "role": "高軌衛星",
+        "text": "[[ViaSat]] — GEO 衛星地面接收設備",
+        "entities": [
+          "ViaSat"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "集團母公司",
+        "text": "[[鴻海]] (供應鏈資源與零組件採購)",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "role": "策略夥伴",
+        "text": "[[鴻準]] (低功耗散熱技術)",
+        "entities": [
+          "鴻準"
+        ]
+      },
+      {
+        "role": "射頻元件",
+        "text": "國際高頻微波通訊 IC 設計廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]、[[兆勁]]",
+        "entities": [
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦",
+          "兆勁"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "SpaceX",
+          "Eutelsat OneWeb",
+          "Telesat",
+          "Amazon",
+          "EchoStar",
+          "中華電信",
+          "樂天電信",
+          "Mobicom",
+          "ViaSat"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Microelectronics Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Microelectronics Technology"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "RFID",
+      "type": "international_company_or_term",
+      "wikilink": "RFID"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "Eutelsat OneWeb",
+      "type": "international_company_or_term",
+      "wikilink": "Eutelsat OneWeb"
+    },
+    {
+      "name": "Telesat",
+      "type": "international_company_or_term",
+      "wikilink": "Telesat"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "EchoStar",
+      "type": "international_company_or_term",
+      "wikilink": "EchoStar"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "樂天電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂天電信"
+    },
+    {
+      "name": "Mobicom",
+      "type": "international_company_or_term",
+      "wikilink": "Mobicom"
+    },
+    {
+      "name": "ViaSat",
+      "type": "international_company_or_term",
+      "wikilink": "ViaSat"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    },
+    {
+      "name": "兆勁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆勁"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台揚科技 (2314，[[Microelectronics Technology]]) 為台灣深耕微波及衛星通訊技術之專業設備廠，隸屬 [[鴻海]] 集團。公司為全球首家成功量產 Ka 頻段衛星地面站收發機之領導廠商，核心產品涵蓋 C/Ku/Ka 頻段 VSAT 收發器、[[低軌衛星]] 平板天線模組、[[5G]] O-RAN 開放式無線電單元 (RU) 及 [[RFID]] 讀取器模組。\n\n台揚為美國 NOFO2 計畫七家得標廠商之一，5G O-RAN 產品線涵蓋從 4T4R 到 8T8R 高低功率完整方案，已累計出貨逾三萬套系統。衛星通訊方面，已與全球四大 [[低軌衛星]] 營運商展開合作，2025 年以家用衛星接收器 (UT) 為主力產品，2026 年將跨入衛星本體酬載 (payload) 製造。近年獲 [[鴻準]] 入股，挹注低功耗 ESG 技術與供應鏈支援。",
+    "supply_chain_md": "**上游 (射頻元件與晶片):**\n- **射頻晶片:** 高頻微波通訊 IC 及射頻前端元件\n- **高頻 PCB:** 高頻低損耗印刷電路板\n- **集團資源:** [[鴻海]] 集團代工供應鏈及零組件採購\n\n**中游 (微波與衛星通訊設備):**\n- **衛星地面設備:** **台揚** (Ka/Ku/C 頻段 VSAT 收發器、低軌衛星 UT)\n- **5G 基站設備:** **台揚** (O-RAN RU、蜂巢式回程設備)\n\n**下游 (電信與衛星營運商):**\n- **低軌衛星營運商:** [[SpaceX]] (Starlink)、[[Eutelsat OneWeb]]、[[Telesat]]、[[Amazon]] (Kuiper)\n- **5G 電信營運商:** [[EchoStar]]、[[中華電信]]、[[樂天電信]]、[[Mobicom]]\n- **高軌衛星:** [[ViaSat]]",
+    "customers_suppliers_md": "### 主要客戶\n- **低軌衛星:** [[SpaceX]] (Starlink)、[[Eutelsat OneWeb]]、[[Telesat]]、[[Amazon]] (Kuiper) — 地面接收設備與戶外收發器\n- **5G O-RAN 電信商:** [[EchoStar]] (美國)、[[中華電信]]、[[樂天電信]] (日本)、[[Mobicom]] (蒙古) — 開放式基站無線電單元\n- **高軌衛星:** [[ViaSat]] — GEO 衛星地面接收設備\n\n### 主要供應商\n- **集團母公司:** [[鴻海]] (供應鏈資源與零組件採購)\n- **策略夥伴:** [[鴻準]] (低功耗散熱技術)\n- **射頻元件:** 國際高頻微波通訊 IC 設計廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9957",
+  "company_name": "燁聯",
+  "title": "9957 - 燁聯",
+  "source_md": "Pilot_Reports/Steel/9957_燁聯.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "18,936 百萬台幣",
+    "enterprise_value": "57,403 百萬台幣"
+  },
+  "business": {
+    "summary": "燁聯鋼鐵 (9957，YUSCO) 隸屬[[義聯集團]] (創辦人[[林義守]])，為台灣最大且唯一擁有煉鋼/熱軋/冷軋完整一貫作業之[[不鏽鋼]]廠。廠址高雄岡山 (56公頃，總投資480億)。產品涵蓋[[不鏽鋼]]熱軋鋼捲、冷軋鋼捲、鋼胚及鎳合金，應用於建築裝潢、家電、汽車、綠能及醫療。集團關係企業含[[燁輝]] (2023，鍍面鋼) 及[[燁興]]。上游鎳礦自國際採購，鉻鐵自南非/印度進口，另回收廢[[不鏽鋼]]。下游客戶含裁剪加工中心如[[新鋼]] (2032)、[[有益]] (9962)。",
+    "entities": [
+      "義聯集團",
+      "林義守",
+      "不鏽鋼",
+      "燁輝",
+      "燁興",
+      "新鋼",
+      "有益"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "國際鎳礦/南非印度鉻鐵/廢[[不鏽鋼]]回收",
+        "entities": [
+          "不鏽鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**燁聯** ([[不鏽鋼]]一貫作業: 電爐→AOD→連鑄→熱軋→冷軋)",
+        "entities": [
+          "不鏽鋼"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "加工中心: [[新鋼]]、[[有益]] — 裁剪加工",
+        "entities": [
+          "新鋼",
+          "有益"
+        ]
+      },
+      {
+        "category": "",
+        "text": "建材/家電/汽車/綠能/醫療",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "關係: [[燁輝]]、[[燁興]]",
+        "entities": [
+          "燁輝",
+          "燁興"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[新鋼]] (2032)、[[有益]] (9962) — 裁剪加工",
+        "entities": [
+          "新鋼",
+          "有益"
+        ]
+      },
+      {
+        "role": "",
+        "text": "建材商/家電廠/汽車零件/化工設備",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國際鎳礦/南非印度鉻鐵",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "廢[[不鏽鋼]]回收商",
+        "entities": [
+          "不鏽鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "新鋼",
+          "有益"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": [
+      {
+        "role": "",
+        "text": "[[燁輝]]、[[燁興]]; [[義聯集團]]",
+        "entities": [
+          "燁輝",
+          "燁興",
+          "義聯集團"
+        ]
+      }
+    ]
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "義聯集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "義聯集團"
+    },
+    {
+      "name": "林義守",
+      "type": "taiwan_company_or_term",
+      "wikilink": "林義守"
+    },
+    {
+      "name": "不鏽鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不鏽鋼"
+    },
+    {
+      "name": "燁輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁輝"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "新鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新鋼"
+    },
+    {
+      "name": "有益",
+      "type": "taiwan_company_or_term",
+      "wikilink": "有益"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "燁聯鋼鐵 (9957，YUSCO) 隸屬[[義聯集團]] (創辦人[[林義守]])，為台灣最大且唯一擁有煉鋼/熱軋/冷軋完整一貫作業之[[不鏽鋼]]廠。廠址高雄岡山 (56公頃，總投資480億)。產品涵蓋[[不鏽鋼]]熱軋鋼捲、冷軋鋼捲、鋼胚及鎳合金，應用於建築裝潢、家電、汽車、綠能及醫療。集團關係企業含[[燁輝]] (2023，鍍面鋼) 及[[燁興]]。上游鎳礦自國際採購，鉻鐵自南非/印度進口，另回收廢[[不鏽鋼]]。下游客戶含裁剪加工中心如[[新鋼]] (2032)、[[有益]] (9962)。",
+    "supply_chain_md": "**上游:** 國際鎳礦/南非印度鉻鐵/廢[[不鏽鋼]]回收\n**中游:** **燁聯** ([[不鏽鋼]]一貫作業: 電爐→AOD→連鑄→熱軋→冷軋)\n**下游:**\n- 加工中心: [[新鋼]]、[[有益]] — 裁剪加工\n- 建材/家電/汽車/綠能/醫療\n- 關係: [[燁輝]]、[[燁興]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[新鋼]] (2032)、[[有益]] (9962) — 裁剪加工\n- 建材商/家電廠/汽車零件/化工設備\n\n### 主要供應商\n- 國際鎳礦/南非印度鉻鐵\n- 廢[[不鏽鋼]]回收商\n\n### 關係企業\n- [[燁輝]]、[[燁興]]; [[義聯集團]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

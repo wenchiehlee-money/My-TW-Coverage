@@ -1,0 +1,258 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1580",
+  "company_name": "新麥",
+  "title": "1580 - 新麥",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/1580_新麥.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "5,501 百萬台幣",
+    "enterprise_value": "4,514 百萬台幣"
+  },
+  "business": {
+    "summary": "新麥企業 (1580，Sinmag) 為亞洲最大[[烘焙設備]]製造商，品牌「SINMAG」客戶逾 3,000 家。連鎖客戶含[[85度C]]、[[Paris Baguette]]。超市含[[Walmart]]、[[Publix]]、[[Carrefour]]、[[全聯]]。餐飲含[[Pizza Hut]]、[[Domino's]]。茶飲含[[奈雪的茶]]。中國佔營收 56%。",
+    "entities": [
+      "烘焙設備",
+      "85度C",
+      "Paris Baguette",
+      "Walmart",
+      "Publix",
+      "Carrefour",
+      "全聯",
+      "Pizza Hut",
+      "Domino's",
+      "奈雪的茶"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材/壓縮機/馬達",
+        "text": "關鍵零組件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**新麥** (SINMAG [[烘焙設備]]，全球 5 座工廠)",
+        "entities": [
+          "烘焙設備"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "烘焙",
+        "text": "[[85度C]]、[[Paris Baguette]]",
+        "entities": [
+          "85度C",
+          "Paris Baguette"
+        ]
+      },
+      {
+        "category": "超市",
+        "text": "[[Walmart]]、[[Publix]]、[[Carrefour]]、[[全聯]]",
+        "entities": [
+          "Walmart",
+          "Publix",
+          "Carrefour",
+          "全聯"
+        ]
+      },
+      {
+        "category": "餐飲",
+        "text": "[[Pizza Hut]]、[[Domino's]]",
+        "entities": [
+          "Pizza Hut",
+          "Domino's"
+        ]
+      },
+      {
+        "category": "茶飲",
+        "text": "[[奈雪的茶]]",
+        "entities": [
+          "奈雪的茶"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "烘焙",
+        "text": "[[85度C]]、[[Paris Baguette]]",
+        "entities": [
+          "85度C",
+          "Paris Baguette"
+        ]
+      },
+      {
+        "role": "超市",
+        "text": "[[Walmart]]、[[Publix]]、[[Carrefour]]、[[全聯]]",
+        "entities": [
+          "Walmart",
+          "Publix",
+          "Carrefour",
+          "全聯"
+        ]
+      },
+      {
+        "role": "餐飲",
+        "text": "[[Pizza Hut]]、[[Domino's]]、[[奈雪的茶]]",
+        "entities": [
+          "Pizza Hut",
+          "Domino's",
+          "奈雪的茶"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "零組件",
+        "text": "不鏽鋼/壓縮機/馬達",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "85度C",
+          "Paris Baguette",
+          "Walmart",
+          "Publix",
+          "Carrefour",
+          "全聯",
+          "Pizza Hut",
+          "Domino's",
+          "奈雪的茶"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "烘焙設備",
+      "type": "taiwan_company_or_term",
+      "wikilink": "烘焙設備"
+    },
+    {
+      "name": "85度C",
+      "type": "taiwan_company_or_term",
+      "wikilink": "85度C"
+    },
+    {
+      "name": "Paris Baguette",
+      "type": "international_company_or_term",
+      "wikilink": "Paris Baguette"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Publix",
+      "type": "international_company_or_term",
+      "wikilink": "Publix"
+    },
+    {
+      "name": "Carrefour",
+      "type": "international_company_or_term",
+      "wikilink": "Carrefour"
+    },
+    {
+      "name": "全聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全聯"
+    },
+    {
+      "name": "Pizza Hut",
+      "type": "international_company_or_term",
+      "wikilink": "Pizza Hut"
+    },
+    {
+      "name": "Domino's",
+      "type": "international_company_or_term",
+      "wikilink": "Domino's"
+    },
+    {
+      "name": "奈雪的茶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奈雪的茶"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新麥企業 (1580，Sinmag) 為亞洲最大[[烘焙設備]]製造商，品牌「SINMAG」客戶逾 3,000 家。連鎖客戶含[[85度C]]、[[Paris Baguette]]。超市含[[Walmart]]、[[Publix]]、[[Carrefour]]、[[全聯]]。餐飲含[[Pizza Hut]]、[[Domino's]]。茶飲含[[奈雪的茶]]。中國佔營收 56%。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼材/壓縮機/馬達:** 關鍵零組件\n\n**中游 (製造):**\n- **新麥** (SINMAG [[烘焙設備]]，全球 5 座工廠)\n\n**下游 (終端):**\n- **烘焙:** [[85度C]]、[[Paris Baguette]]\n- **超市:** [[Walmart]]、[[Publix]]、[[Carrefour]]、[[全聯]]\n- **餐飲:** [[Pizza Hut]]、[[Domino's]]\n- **茶飲:** [[奈雪的茶]]",
+    "customers_suppliers_md": "### 主要客戶\n- **烘焙:** [[85度C]]、[[Paris Baguette]]\n- **超市:** [[Walmart]]、[[Publix]]、[[Carrefour]]、[[全聯]]\n- **餐飲:** [[Pizza Hut]]、[[Domino's]]、[[奈雪的茶]]\n\n### 主要供應商\n- **零組件:** 不鏽鋼/壓縮機/馬達"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

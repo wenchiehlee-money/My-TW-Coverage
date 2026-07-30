@@ -1,0 +1,247 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1473",
+  "company_name": "台南",
+  "title": "1473 - 台南",
+  "source_md": "Pilot_Reports/Apparel Manufacturing/1473_台南.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "2,887 百萬台幣",
+    "enterprise_value": "3,155 百萬台幣"
+  },
+  "business": {
+    "summary": "台南企業 (1473，Tainan Enterprises) 成立於 1961 年，為台灣十大專業成衣廠之一。主要生產洋裝、褲類、外套及休閒服飾，8 座生產基地分布於台灣、中國、柬埔寨及印尼。外銷以美國市場為主，客戶涵蓋[[GAP]]、[[Ann Taylor]]、[[Macy's]]、[[Talbots]]、[[GU]] ([[Fast Retailing]]旗下) 及加拿大[[Reitmans]]等國際品牌。另於中國大陸經營自有品牌[[Tony Wear]]男裝，為大陸男裝前三大品牌，旗下設有 Tony Jeans、Tony Uomo 等子品牌及 Tony Town 零售店。",
+    "entities": [
+      "GAP",
+      "Ann Taylor",
+      "Macy's",
+      "Talbots",
+      "GU",
+      "Fast Retailing",
+      "Reitmans",
+      "Tony Wear"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "布料",
+        "text": "台灣及中國紡織布料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台南企業** (成衣設計製造，台灣/中國/柬埔寨/印尼 8 座工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "美國品牌",
+        "text": "[[GAP]]、[[Ann Taylor]]、[[Macy's]]、[[Talbots]] — OEM/ODM 代工",
+        "entities": [
+          "GAP",
+          "Ann Taylor",
+          "Macy's",
+          "Talbots"
+        ]
+      },
+      {
+        "category": "日系品牌",
+        "text": "[[GU]] ([[Fast Retailing]]旗下) — 代工",
+        "entities": [
+          "GU",
+          "Fast Retailing"
+        ]
+      },
+      {
+        "category": "加拿大品牌",
+        "text": "[[Reitmans]] — 代工",
+        "entities": [
+          "Reitmans"
+        ]
+      },
+      {
+        "category": "自有品牌",
+        "text": "[[Tony Wear]] — 中國男裝市場",
+        "entities": [
+          "Tony Wear"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "美國品牌",
+        "text": "[[GAP]]、[[Ann Taylor]]、[[Macy's]]、[[Talbots]] — 成衣 OEM/ODM",
+        "entities": [
+          "GAP",
+          "Ann Taylor",
+          "Macy's",
+          "Talbots"
+        ]
+      },
+      {
+        "role": "日系品牌",
+        "text": "[[GU]] ([[Fast Retailing]]) — 成衣代工",
+        "entities": [
+          "GU",
+          "Fast Retailing"
+        ]
+      },
+      {
+        "role": "加拿大",
+        "text": "[[Reitmans]] — 成衣代工",
+        "entities": [
+          "Reitmans"
+        ]
+      },
+      {
+        "role": "自有品牌",
+        "text": "[[Tony Wear]] — 中國男裝零售",
+        "entities": [
+          "Tony Wear"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "布料",
+        "text": "台灣及中國紡織布料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Apparel Manufacturing):** [[達新]]、[[南緯]]、[[儒鴻]]、[[聚陽]]、[[滿心]]",
+        "entities": [
+          "達新",
+          "南緯",
+          "儒鴻",
+          "聚陽",
+          "滿心"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "GAP",
+          "Ann Taylor",
+          "Macy's",
+          "Talbots",
+          "GU",
+          "Fast Retailing",
+          "Reitmans",
+          "Tony Wear"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "GAP",
+      "type": "international_company_or_term",
+      "wikilink": "GAP"
+    },
+    {
+      "name": "Ann Taylor",
+      "type": "international_company_or_term",
+      "wikilink": "Ann Taylor"
+    },
+    {
+      "name": "Macy's",
+      "type": "international_company_or_term",
+      "wikilink": "Macy's"
+    },
+    {
+      "name": "Talbots",
+      "type": "international_company_or_term",
+      "wikilink": "Talbots"
+    },
+    {
+      "name": "GU",
+      "type": "international_company_or_term",
+      "wikilink": "GU"
+    },
+    {
+      "name": "Fast Retailing",
+      "type": "international_company_or_term",
+      "wikilink": "Fast Retailing"
+    },
+    {
+      "name": "Reitmans",
+      "type": "international_company_or_term",
+      "wikilink": "Reitmans"
+    },
+    {
+      "name": "Tony Wear",
+      "type": "international_company_or_term",
+      "wikilink": "Tony Wear"
+    },
+    {
+      "name": "達新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達新"
+    },
+    {
+      "name": "南緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南緯"
+    },
+    {
+      "name": "儒鴻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儒鴻"
+    },
+    {
+      "name": "聚陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚陽"
+    },
+    {
+      "name": "滿心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "滿心"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台南企業 (1473，Tainan Enterprises) 成立於 1961 年，為台灣十大專業成衣廠之一。主要生產洋裝、褲類、外套及休閒服飾，8 座生產基地分布於台灣、中國、柬埔寨及印尼。外銷以美國市場為主，客戶涵蓋[[GAP]]、[[Ann Taylor]]、[[Macy's]]、[[Talbots]]、[[GU]] ([[Fast Retailing]]旗下) 及加拿大[[Reitmans]]等國際品牌。另於中國大陸經營自有品牌[[Tony Wear]]男裝，為大陸男裝前三大品牌，旗下設有 Tony Jeans、Tony Uomo 等子品牌及 Tony Town 零售店。",
+    "supply_chain_md": "**上游 (原料):**\n- **布料:** 台灣及中國紡織布料供應商\n\n**中游 (製造):**\n- **台南企業** (成衣設計製造，台灣/中國/柬埔寨/印尼 8 座工廠)\n\n**下游 (品牌客戶):**\n- **美國品牌:** [[GAP]]、[[Ann Taylor]]、[[Macy's]]、[[Talbots]] — OEM/ODM 代工\n- **日系品牌:** [[GU]] ([[Fast Retailing]]旗下) — 代工\n- **加拿大品牌:** [[Reitmans]] — 代工\n- **自有品牌:** [[Tony Wear]] — 中國男裝市場",
+    "customers_suppliers_md": "### 主要客戶\n- **美國品牌:** [[GAP]]、[[Ann Taylor]]、[[Macy's]]、[[Talbots]] — 成衣 OEM/ODM\n- **日系品牌:** [[GU]] ([[Fast Retailing]]) — 成衣代工\n- **加拿大:** [[Reitmans]] — 成衣代工\n- **自有品牌:** [[Tony Wear]] — 中國男裝零售\n\n### 主要供應商\n- **布料:** 台灣及中國紡織布料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

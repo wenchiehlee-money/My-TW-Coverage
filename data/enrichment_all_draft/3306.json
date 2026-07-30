@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3306",
+  "company_name": "鼎天",
+  "title": "3306 - 鼎天",
+  "source_md": "Pilot_Reports/Scientific & Technical Instruments/3306_鼎天.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,141 百萬台幣",
+    "enterprise_value": "1,578 百萬台幣"
+  },
+  "business": {
+    "summary": "鼎天國際股份有限公司 (3306，RoyalTek) 為[[廣達電腦]]集團旗下核心成員，專精於定位導航與車用電子技術。業務聚焦：(1) [[車載]]多媒體系統 (IVI) — 高整合度影音導航與資訊娛樂系統；(2) AI 視覺系統 — [[DMS]] 駕駛行為監控、行車記錄儀與車載 AI 攝影機；(3) 高精度定位 — 工業與車用級 GNSS 高精度定位模組，應用於無人機與精準農業。與母公司[[廣達電腦]]密切合作，共享研發資源並協同進攻全球[[電動車]]與自動駕駛供應鏈。",
+    "entities": [
+      "廣達電腦",
+      "車載",
+      "DMS",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與元件)",
+        "text": "**上游 (晶片與元件):**",
+        "entities": []
+      },
+      {
+        "category": "GPS/GNSS 晶片",
+        "text": "定位晶片組供應商",
+        "entities": []
+      },
+      {
+        "category": "螢幕面板",
+        "text": "車用顯示面板",
+        "entities": []
+      },
+      {
+        "category": "攝像感測器",
+        "text": "車用鏡頭模組與[[PCB]]",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (車用電子製造)",
+        "text": "**中游 (車用電子製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**鼎天** — GPS 模組、車載通訊系統、AI 攝影機研發製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "車廠供應鏈",
+        "text": "[[廣達電腦]] — 協同布局車電業務",
+        "entities": [
+          "廣達電腦"
+        ]
+      },
+      {
+        "category": "OE 市場",
+        "text": "全球 Tier 1 與車廠供應鏈",
+        "entities": []
+      },
+      {
+        "category": "商用車隊",
+        "text": "車務管理與遠端監控系統",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "母公司",
+        "text": "[[廣達電腦]] — 協同布局車電業務",
+        "entities": [
+          "廣達電腦"
+        ]
+      },
+      {
+        "role": "車廠供應鏈",
+        "text": "歐美與日系車廠 Tier 1 供應商",
+        "entities": []
+      },
+      {
+        "role": "商用車隊",
+        "text": "物流車隊 — 車務管理系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "GPS 晶片",
+        "text": "GNSS 定位晶片組供應商",
+        "entities": []
+      },
+      {
+        "role": "車用面板",
+        "text": "車用顯示面板供應商",
+        "entities": []
+      },
+      {
+        "role": "[[PCB]]",
+        "text": "印刷電路板製造商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Scientific & Technical Instruments):** [[致茂]]、[[固緯]]、[[德律]]、[[華晶科]]、[[環天科]]",
+        "entities": [
+          "致茂",
+          "固緯",
+          "德律",
+          "華晶科",
+          "環天科"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "廣達電腦"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "廣達電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達電腦"
+    },
+    {
+      "name": "車載",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車載"
+    },
+    {
+      "name": "DMS",
+      "type": "international_company_or_term",
+      "wikilink": "DMS"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "致茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致茂"
+    },
+    {
+      "name": "固緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固緯"
+    },
+    {
+      "name": "德律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "德律"
+    },
+    {
+      "name": "華晶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華晶科"
+    },
+    {
+      "name": "環天科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環天科"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鼎天國際股份有限公司 (3306，RoyalTek) 為[[廣達電腦]]集團旗下核心成員，專精於定位導航與車用電子技術。業務聚焦：(1) [[車載]]多媒體系統 (IVI) — 高整合度影音導航與資訊娛樂系統；(2) AI 視覺系統 — [[DMS]] 駕駛行為監控、行車記錄儀與車載 AI 攝影機；(3) 高精度定位 — 工業與車用級 GNSS 高精度定位模組，應用於無人機與精準農業。與母公司[[廣達電腦]]密切合作，共享研發資源並協同進攻全球[[電動車]]與自動駕駛供應鏈。",
+    "supply_chain_md": "**上游 (晶片與元件):**\n- **GPS/GNSS 晶片:** 定位晶片組供應商\n- **螢幕面板:** 車用顯示面板\n- **攝像感測器:** 車用鏡頭模組與[[PCB]]\n\n**中游 (車用電子製造):**\n- **鼎天** — GPS 模組、車載通訊系統、AI 攝影機研發製造\n\n**下游 (終端應用):**\n- **車廠供應鏈:** [[廣達電腦]] — 協同布局車電業務\n- **OE 市場:** 全球 Tier 1 與車廠供應鏈\n- **商用車隊:** 車務管理與遠端監控系統",
+    "customers_suppliers_md": "### 主要客戶\n- **母公司:** [[廣達電腦]] — 協同布局車電業務\n- **車廠供應鏈:** 歐美與日系車廠 Tier 1 供應商\n- **商用車隊:** 物流車隊 — 車務管理系統\n\n### 主要供應商\n- **GPS 晶片:** GNSS 定位晶片組供應商\n- **車用面板:** 車用顯示面板供應商\n- **[[PCB]]:** 印刷電路板製造商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

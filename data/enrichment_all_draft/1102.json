@@ -1,0 +1,282 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1102",
+  "company_name": "亞泥",
+  "title": "1102 - [[亞泥]]",
+  "source_md": "Pilot_Reports/Building Materials/1102_亞泥.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "116,327 百萬台幣",
+    "enterprise_value": "162,229 百萬台幣"
+  },
+  "business": {
+    "summary": "亞洲水泥股份有限公司 (1102，Asia Cement) 成立於 1957 年，為[[遠東集團]]旗下核心企業。公司以「高品質、高效率、高環保、低成本」為經營策略，主要產品包括[[水泥]]、[[熟料]]、[[爐石粉]]及[[預拌混凝土]]。亞泥深耕台灣與中國市場 (透過子公司[[亞泥中國]])，並建立「全產全銷」模式，擁有完整的產銷體系及自有運輸船隊 ([[裕民航運]])，為台灣第二大水泥製造商。近年積極發展[[碳捕捉]]技術並投入[[循環經濟]]，推動水泥產業綠色轉型。",
+    "entities": [
+      "遠東集團",
+      "水泥",
+      "熟料",
+      "爐石粉",
+      "預拌混凝土",
+      "亞泥中國",
+      "裕民航運",
+      "碳捕捉",
+      "循環經濟"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (採礦與原料)",
+        "text": "**上游 (採礦與原料):**",
+        "entities": []
+      },
+      {
+        "category": "原料開採",
+        "text": "擁有新竹及花蓮礦權，開採[[石灰石]]，設有預熱預鍛式旋窯水泥廠",
+        "entities": [
+          "石灰石"
+        ]
+      },
+      {
+        "category": "能源管理",
+        "text": "廢熱回收發電技術，提升能源效率",
+        "entities": []
+      },
+      {
+        "category": "電力供應",
+        "text": "[[台電]] — 供應旋窯電力需求",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (水泥生產與銷售)",
+        "text": "**中游 (水泥生產與銷售):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[亞泥]]** — 波特蘭一型水泥、[[爐石粉]]、[[預拌混凝土]]生產",
+        "entities": [
+          "亞泥",
+          "爐石粉",
+          "預拌混凝土"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[亞泥中國]]** — 中國大陸水泥營運",
+        "entities": [
+          "亞泥中國"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "營造業",
+        "text": "[[遠揚營造]] (集團關係企業) 及各級營造廠",
+        "entities": [
+          "遠揚營造"
+        ]
+      },
+      {
+        "category": "基礎建設",
+        "text": "住宅大樓、公共工程、工業廠房",
+        "entities": []
+      },
+      {
+        "category": "海運物流",
+        "text": "[[裕民航運]] — 煤炭進口、水泥海運",
+        "entities": [
+          "裕民航運"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "營造商",
+        "text": "[[遠揚營造]] (集團關係企業)，以及各級公共建設營造廠",
+        "entities": [
+          "遠揚營造"
+        ]
+      },
+      {
+        "role": "預拌與通路",
+        "text": "國內預拌混凝土廠及建材經銷商",
+        "entities": []
+      },
+      {
+        "role": "海外",
+        "text": "[[亞泥中國]] — 中國大陸市場",
+        "entities": [
+          "亞泥中國"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電力",
+        "text": "[[台電]] — 旋窯電力需求",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "聯合採購",
+        "text": "[[遠東集團]]統籌集團資源聯合議價",
+        "entities": [
+          "遠東集團"
+        ]
+      },
+      {
+        "role": "海運物流",
+        "text": "[[裕民航運]] — 煤炭進口與水泥原料海運",
+        "entities": [
+          "裕民航運"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Materials):** [[台泥]]、[[嘉泥]]、[[環泥]]、[[幸福]]、[[信大]]",
+        "entities": [
+          "台泥",
+          "嘉泥",
+          "環泥",
+          "幸福",
+          "信大"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "遠揚營造",
+          "亞泥中國"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "遠東集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東集團"
+    },
+    {
+      "name": "水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水泥"
+    },
+    {
+      "name": "熟料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "熟料"
+    },
+    {
+      "name": "爐石粉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "爐石粉"
+    },
+    {
+      "name": "預拌混凝土",
+      "type": "taiwan_company_or_term",
+      "wikilink": "預拌混凝土"
+    },
+    {
+      "name": "亞泥中國",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥中國"
+    },
+    {
+      "name": "裕民航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕民航運"
+    },
+    {
+      "name": "碳捕捉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳捕捉"
+    },
+    {
+      "name": "循環經濟",
+      "type": "taiwan_company_or_term",
+      "wikilink": "循環經濟"
+    },
+    {
+      "name": "石灰石",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石灰石"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "遠揚營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠揚營造"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "嘉泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉泥"
+    },
+    {
+      "name": "環泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環泥"
+    },
+    {
+      "name": "幸福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "幸福"
+    },
+    {
+      "name": "信大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信大"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "亞洲水泥股份有限公司 (1102，Asia Cement) 成立於 1957 年，為[[遠東集團]]旗下核心企業。公司以「高品質、高效率、高環保、低成本」為經營策略，主要產品包括[[水泥]]、[[熟料]]、[[爐石粉]]及[[預拌混凝土]]。亞泥深耕台灣與中國市場 (透過子公司[[亞泥中國]])，並建立「全產全銷」模式，擁有完整的產銷體系及自有運輸船隊 ([[裕民航運]])，為台灣第二大水泥製造商。近年積極發展[[碳捕捉]]技術並投入[[循環經濟]]，推動水泥產業綠色轉型。",
+    "supply_chain_md": "**上游 (採礦與原料):**\n- **原料開採:** 擁有新竹及花蓮礦權，開採[[石灰石]]，設有預熱預鍛式旋窯水泥廠\n- **能源管理:** 廢熱回收發電技術，提升能源效率\n- **電力供應:** [[台電]] — 供應旋窯電力需求\n\n**中游 (水泥生產與銷售):**\n- **[[亞泥]]** — 波特蘭一型水泥、[[爐石粉]]、[[預拌混凝土]]生產\n- **[[亞泥中國]]** — 中國大陸水泥營運\n\n**下游 (終端應用):**\n- **營造業:** [[遠揚營造]] (集團關係企業) 及各級營造廠\n- **基礎建設:** 住宅大樓、公共工程、工業廠房\n- **海運物流:** [[裕民航運]] — 煤炭進口、水泥海運",
+    "customers_suppliers_md": "### 主要客戶\n- **營造商:** [[遠揚營造]] (集團關係企業)，以及各級公共建設營造廠\n- **預拌與通路:** 國內預拌混凝土廠及建材經銷商\n- **海外:** [[亞泥中國]] — 中國大陸市場\n\n### 主要供應商\n- **電力:** [[台電]] — 旋窯電力需求\n- **聯合採購:** [[遠東集團]]統籌集團資源聯合議價\n- **海運物流:** [[裕民航運]] — 煤炭進口與水泥原料海運"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

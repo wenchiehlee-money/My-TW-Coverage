@@ -1,0 +1,346 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2369",
+  "company_name": "菱生",
+  "title": "2369 - 菱生",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/2369_菱生.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "10,335 百萬台幣",
+    "enterprise_value": "10,441 百萬台幣"
+  },
+  "business": {
+    "summary": "菱生精密 (2369) 是台灣專業的半導體[[封裝測試]]廠，專注於電源管理 IC、[[NOR Flash]]、[[MEMS]] 及光感測元件封測服務。公司為國內 MEMS 封裝領先者，封測服務占 2024 年營收 99%。技術涵蓋 QFP、QFN、SOP、TSOP、PLCC 等多種封裝型態，生產據點包括台中潭子、梧棲及中國寧波。亞洲市場占營收 86%。",
+    "entities": [
+      "封裝測試",
+      "NOR Flash",
+      "MEMS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (封裝材料)",
+        "text": "**上游 (封裝材料):**",
+        "entities": []
+      },
+      {
+        "category": "[[導線架]]/金線",
+        "text": "封裝關鍵原料",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "category": "銀膠/樹脂",
+        "text": "黏晶及灌膠材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (封裝測試)",
+        "text": "**中游 (封裝測試):**",
+        "entities": []
+      },
+      {
+        "category": "IC 封測",
+        "text": "**菱生** (電源 IC、Flash、MEMS、光感測封裝測試)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計客戶)",
+        "text": "**下游 (IC 設計客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電源 IC",
+        "text": "[[致新]]、[[茂達]]、[[立錡]]",
+        "entities": [
+          "致新",
+          "茂達",
+          "立錡"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[旺宏]]、[[華邦電]]、[[Atmel]]",
+        "entities": [
+          "旺宏",
+          "華邦電",
+          "Atmel"
+        ]
+      },
+      {
+        "category": "MEMS",
+        "text": "[[InvenSense]]、[[Bosch]]、[[AKM]]",
+        "entities": [
+          "InvenSense",
+          "Bosch",
+          "AKM"
+        ]
+      },
+      {
+        "category": "光感測",
+        "text": "[[矽創]]、[[義隆電]]、[[原相]]",
+        "entities": [
+          "矽創",
+          "義隆電",
+          "原相"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源管理 IC",
+        "text": "[[致新]]、[[茂達]]、[[立錡]]",
+        "entities": [
+          "致新",
+          "茂達",
+          "立錡"
+        ]
+      },
+      {
+        "role": "記憶體 (NOR Flash)",
+        "text": "[[旺宏]]、[[華邦電]]、[[Atmel]]",
+        "entities": [
+          "旺宏",
+          "華邦電",
+          "Atmel"
+        ]
+      },
+      {
+        "role": "MEMS 感測器",
+        "text": "[[InvenSense]]、[[Bosch]]、[[AKM]] (陀螺儀、麥克風、磁力計)",
+        "entities": [
+          "InvenSense",
+          "Bosch",
+          "AKM"
+        ]
+      },
+      {
+        "role": "光感測 IC",
+        "text": "[[矽創]]、[[義隆電]]、[[原相]]",
+        "entities": [
+          "矽創",
+          "義隆電",
+          "原相"
+        ]
+      },
+      {
+        "role": "RF IC",
+        "text": "[[立積]]",
+        "entities": [
+          "立積"
+        ]
+      },
+      {
+        "role": "邏輯 IC",
+        "text": "[[旺玖]]、[[創惟]]",
+        "entities": [
+          "旺玖",
+          "創惟"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[導線架]]",
+        "text": "[[導線架]]廠商",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "role": "金線",
+        "text": "鍵合金線供應",
+        "entities": []
+      },
+      {
+        "role": "銀膠/樹脂",
+        "text": "封裝化學材料",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[超豐]]、[[全新]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "超豐",
+          "全新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "致新",
+          "茂達",
+          "立錡",
+          "旺宏",
+          "華邦電",
+          "Atmel",
+          "InvenSense",
+          "Bosch",
+          "AKM",
+          "矽創",
+          "義隆電",
+          "原相",
+          "立積",
+          "旺玖",
+          "創惟"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "封裝測試",
+      "type": "taiwan_company_or_term",
+      "wikilink": "封裝測試"
+    },
+    {
+      "name": "NOR Flash",
+      "type": "international_company_or_term",
+      "wikilink": "NOR Flash"
+    },
+    {
+      "name": "MEMS",
+      "type": "international_company_or_term",
+      "wikilink": "MEMS"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "致新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致新"
+    },
+    {
+      "name": "茂達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "茂達"
+    },
+    {
+      "name": "立錡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立錡"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "華邦電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華邦電"
+    },
+    {
+      "name": "Atmel",
+      "type": "international_company_or_term",
+      "wikilink": "Atmel"
+    },
+    {
+      "name": "InvenSense",
+      "type": "international_company_or_term",
+      "wikilink": "InvenSense"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "AKM",
+      "type": "international_company_or_term",
+      "wikilink": "AKM"
+    },
+    {
+      "name": "矽創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽創"
+    },
+    {
+      "name": "義隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "義隆電"
+    },
+    {
+      "name": "原相",
+      "type": "taiwan_company_or_term",
+      "wikilink": "原相"
+    },
+    {
+      "name": "立積",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立積"
+    },
+    {
+      "name": "旺玖",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺玖"
+    },
+    {
+      "name": "創惟",
+      "type": "taiwan_company_or_term",
+      "wikilink": "創惟"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    },
+    {
+      "name": "全新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "菱生精密 (2369) 是台灣專業的半導體[[封裝測試]]廠，專注於電源管理 IC、[[NOR Flash]]、[[MEMS]] 及光感測元件封測服務。公司為國內 MEMS 封裝領先者，封測服務占 2024 年營收 99%。技術涵蓋 QFP、QFN、SOP、TSOP、PLCC 等多種封裝型態，生產據點包括台中潭子、梧棲及中國寧波。亞洲市場占營收 86%。",
+    "supply_chain_md": "**上游 (封裝材料):**\n- **[[導線架]]/金線:** 封裝關鍵原料\n- **銀膠/樹脂:** 黏晶及灌膠材料\n\n**中游 (封裝測試):**\n- **IC 封測:** **菱生** (電源 IC、Flash、MEMS、光感測封裝測試)\n\n**下游 (IC 設計客戶):**\n- **電源 IC:** [[致新]]、[[茂達]]、[[立錡]]\n- **記憶體:** [[旺宏]]、[[華邦電]]、[[Atmel]]\n- **MEMS:** [[InvenSense]]、[[Bosch]]、[[AKM]]\n- **光感測:** [[矽創]]、[[義隆電]]、[[原相]]",
+    "customers_suppliers_md": "### 主要客戶\n- **電源管理 IC:** [[致新]]、[[茂達]]、[[立錡]]\n- **記憶體 (NOR Flash):** [[旺宏]]、[[華邦電]]、[[Atmel]]\n- **MEMS 感測器:** [[InvenSense]]、[[Bosch]]、[[AKM]] (陀螺儀、麥克風、磁力計)\n- **光感測 IC:** [[矽創]]、[[義隆電]]、[[原相]]\n- **RF IC:** [[立積]]\n- **邏輯 IC:** [[旺玖]]、[[創惟]]\n\n### 主要供應商\n- **[[導線架]]:** [[導線架]]廠商\n- **金線:** 鍵合金線供應\n- **銀膠/樹脂:** 封裝化學材料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4923",
+  "company_name": "力士",
+  "title": "4923 - 力士",
+  "source_md": "Pilot_Reports/Semiconductors/4923_力士.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "1,249 百萬台幣",
+    "enterprise_value": "1,358 百萬台幣"
+  },
+  "business": {
+    "summary": "力士科技 (Force MOS) 專注於 **[[MOSFET]] (金氧半場效電晶體)** 之設計，為 Fabless IC 設計公司。\n主要產品：\n1.  **中低壓 [[MOSFET]]**: 應用於 PC/NB、電池模組、電源供應器。\n2.  **ETG/RTG 專利技術**: 獨家晶圓製程平台，提升元件效能與縮小尺寸。\n近年積極切入 **AI PC** 電源管理與快充應用，產品主要應用於筆記型電腦 (佔營收大宗) 與手機周邊。",
+    "entities": [
+      "MOSFET"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 晶圓代工 ([[世界先進]], 漢磊), 封測.",
+        "entities": [
+          "世界先進"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **力士 (4923)** - [[MOSFET]] 設計.",
+        "entities": [
+          "MOSFET"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**PC/NB 代工**: [[廣達]], [[緯創]], [[仁寶]].",
+        "entities": [
+          "廣達",
+          "緯創",
+          "仁寶"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**電源/電池**: 光寶, 新普, 順達.",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**終端品牌**: [[HP]], [[Dell]], ASUS.",
+        "entities": [
+          "HP",
+          "Dell"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[廣達]].",
+        "entities": [
+          "廣達"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[緯創]].",
+        "entities": [
+          "緯創"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[HP]], [[Dell]] (間接交貨).",
+        "entities": [
+          "HP",
+          "Dell"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "廣達",
+          "緯創",
+          "HP",
+          "Dell"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "力士科技 (Force MOS) 專注於 **[[MOSFET]] (金氧半場效電晶體)** 之設計，為 Fabless IC 設計公司。\n主要產品：\n1.  **中低壓 [[MOSFET]]**: 應用於 PC/NB、電池模組、電源供應器。\n2.  **ETG/RTG 專利技術**: 獨家晶圓製程平台，提升元件效能與縮小尺寸。\n近年積極切入 **AI PC** 電源管理與快充應用，產品主要應用於筆記型電腦 (佔營收大宗) 與手機周邊。",
+    "supply_chain_md": "*   **中游 (本體)**: **力士 (4923)** - [[MOSFET]] 設計.\n*   **上游**: 晶圓代工 ([[世界先進]], 漢磊), 封測.\n*   **下游**:\n    *   **PC/NB 代工**: [[廣達]], [[緯創]], [[仁寶]].\n    *   **電源/電池**: 光寶, 新普, 順達.\n    *   **終端品牌**: [[HP]], [[Dell]], ASUS.",
+    "customers_suppliers_md": "### 主要客戶\n*   [[廣達]].\n*   [[緯創]].\n*   [[HP]], [[Dell]] (間接交貨)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

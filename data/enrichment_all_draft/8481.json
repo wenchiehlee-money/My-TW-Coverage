@@ -1,0 +1,202 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8481",
+  "company_name": "政伸",
+  "title": "8481 - [[政伸]]",
+  "source_md": "Pilot_Reports/Specialty Business Services/8481_政伸.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services",
+    "market_cap": "2,694 百萬台幣",
+    "enterprise_value": "1,696 百萬台幣"
+  },
+  "business": {
+    "summary": "政伸企業股份有限公司 (8481) 成立於1976年，為全球領先的自行車與運動器材裝飾性標籤及貼花專業製造商，總部位於台中。主要業務包括：\n\n1. **水轉印貼花 (Water Transfer Decal)：** 應用於自行車車架、零組件及運動器材。\n2. **自黏貼紙 (Self-adhesive Sticker)：** 各式自黏標籤產品。\n3. **熱轉印貼花 (Heat Transfer Decal)：** 高附著力之熱轉印標籤。\n4. **金屬銘板 (Nameplate)：** 圖形覆層與金屬銘板產品。\n5. **其他特殊貼花：** 霜面反光貼花、雷射虹光貼花、鈦閃貼花等高附加價值產品。\n\n政伸產品出口至全球，為[[Giant]]（巨大機械）、[[Merida]]（美利達）、[[Shimano]]、[[Trek]]等國際知名自行車品牌之重要裝飾零組件供應商。",
+    "entities": [
+      "Giant",
+      "Merida",
+      "Shimano",
+      "Trek"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊膠膜",
+        "text": "PP、PET等特殊膠膜材料供應商",
+        "entities": []
+      },
+      {
+        "category": "油墨",
+        "text": "特殊效果印刷油墨（雷射、反光、金屬質感）供應商",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "鋁、不鏽鋼等銘板基材供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "政伸 (8481)",
+        "text": "水轉印/熱轉印/自黏貼花製造、金屬銘板加工",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "自行車品牌",
+        "text": "[[Giant]]（巨大機械）、[[Merida]]（美利達）等全球自行車大廠",
+        "entities": [
+          "Giant",
+          "Merida"
+        ]
+      },
+      {
+        "category": "運動器材",
+        "text": "國際運動器材品牌商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "自行車品牌",
+        "text": "[[Giant]]（巨大機械）、[[Merida]]（美利達）等國際自行車大廠",
+        "entities": [
+          "Giant",
+          "Merida"
+        ]
+      },
+      {
+        "role": "自行車零組件",
+        "text": "[[Shimano]]等零組件品牌商",
+        "entities": [
+          "Shimano"
+        ]
+      },
+      {
+        "role": "運動器材",
+        "text": "國際運動器材品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊膠膜",
+        "text": "國內外特殊印刷膠膜供應商",
+        "entities": []
+      },
+      {
+        "role": "油墨",
+        "text": "特殊效果印刷油墨供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Business Services):** [[遠雄港]]、[[耕興]]、[[關貿]]、[[信實]]、[[程曦資訊]]",
+        "entities": [
+          "遠雄港",
+          "耕興",
+          "關貿",
+          "信實",
+          "程曦資訊"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Giant",
+          "Merida",
+          "Shimano"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Giant",
+      "type": "international_company_or_term",
+      "wikilink": "Giant"
+    },
+    {
+      "name": "Merida",
+      "type": "international_company_or_term",
+      "wikilink": "Merida"
+    },
+    {
+      "name": "Shimano",
+      "type": "international_company_or_term",
+      "wikilink": "Shimano"
+    },
+    {
+      "name": "Trek",
+      "type": "international_company_or_term",
+      "wikilink": "Trek"
+    },
+    {
+      "name": "遠雄港",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄港"
+    },
+    {
+      "name": "耕興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "耕興"
+    },
+    {
+      "name": "關貿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "關貿"
+    },
+    {
+      "name": "信實",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信實"
+    },
+    {
+      "name": "程曦資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "程曦資訊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "政伸企業股份有限公司 (8481) 成立於1976年，為全球領先的自行車與運動器材裝飾性標籤及貼花專業製造商，總部位於台中。主要業務包括：\n\n1. **水轉印貼花 (Water Transfer Decal)：** 應用於自行車車架、零組件及運動器材。\n2. **自黏貼紙 (Self-adhesive Sticker)：** 各式自黏標籤產品。\n3. **熱轉印貼花 (Heat Transfer Decal)：** 高附著力之熱轉印標籤。\n4. **金屬銘板 (Nameplate)：** 圖形覆層與金屬銘板產品。\n5. **其他特殊貼花：** 霜面反光貼花、雷射虹光貼花、鈦閃貼花等高附加價值產品。\n\n政伸產品出口至全球，為[[Giant]]（巨大機械）、[[Merida]]（美利達）、[[Shimano]]、[[Trek]]等國際知名自行車品牌之重要裝飾零組件供應商。",
+    "supply_chain_md": "**上游 (原材料):**\n- **特殊膠膜：** PP、PET等特殊膠膜材料供應商\n- **油墨：** 特殊效果印刷油墨（雷射、反光、金屬質感）供應商\n- **金屬材料：** 鋁、不鏽鋼等銘板基材供應商\n\n**中游 (製造加工):**\n- **政伸 (8481)：** 水轉印/熱轉印/自黏貼花製造、金屬銘板加工\n\n**下游 (終端客戶):**\n- **自行車品牌：** [[Giant]]（巨大機械）、[[Merida]]（美利達）等全球自行車大廠\n- **運動器材：** 國際運動器材品牌商",
+    "customers_suppliers_md": "### 主要客戶\n- **自行車品牌：** [[Giant]]（巨大機械）、[[Merida]]（美利達）等國際自行車大廠\n- **自行車零組件：** [[Shimano]]等零組件品牌商\n- **運動器材：** 國際運動器材品牌\n\n### 主要供應商\n- **特殊膠膜：** 國內外特殊印刷膠膜供應商\n- **油墨：** 特殊效果印刷油墨供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

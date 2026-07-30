@@ -118,7 +118,26 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **晶圓代工 customer/segment overlap:** [[台積電]]、[[GlobalFoundries]]、[[SMIC]]、[[世界先進]]",
+        "entities": [
+          "台積電",
+          "GlobalFoundries",
+          "SMIC",
+          "世界先進"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "聯發科",
+          "瑞昱",
+          "Qualcomm",
+          "聯詠",
+          "聯電",
+          "Texas Instruments"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -223,6 +242,21 @@
       "name": "Texas Instruments",
       "type": "international_company_or_term",
       "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "GlobalFoundries",
+      "type": "international_company_or_term",
+      "wikilink": "GlobalFoundries"
+    },
+    {
+      "name": "SMIC",
+      "type": "international_company_or_term",
+      "wikilink": "SMIC"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
     }
   ],
   "source_text": {
@@ -234,6 +268,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 19,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

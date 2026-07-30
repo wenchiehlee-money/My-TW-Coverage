@@ -1,0 +1,291 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2351",
+  "company_name": "順德",
+  "title": "2351 - 順德",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/2351_順德.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "23,769 百萬台幣",
+    "enterprise_value": "26,170 百萬台幣"
+  },
+  "business": {
+    "summary": "順德工業 (2351) 是全球前五大[[導線架]]供應商，也是全球最大的功率及分離式[[導線架]]製造商。公司成立於 1967 年，[[導線架]]及電子沖壓件占 2024 年營收 84%，五金文具占 14%。主力產品涵蓋高功率[[導線架]]、[[LED 導線架]]、[[IC 導線架]]、[[IGBT]] [[導線架]] ([[電動車]]應用) 及 [[VCM]] 金屬彈片 (手機鏡頭)。2025 年與[[Infineon]] 簽署 [[AI 伺服器]]電源管理系統開發協議。",
+    "entities": [
+      "導線架",
+      "LED 導線架",
+      "IC 導線架",
+      "IGBT",
+      "電動車",
+      "VCM",
+      "Infineon",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "[[三菱伸銅]] (技術合作[[導線架]]銅合金材料)",
+        "entities": [
+          "三菱伸銅",
+          "導線架"
+        ]
+      },
+      {
+        "category": "特殊鋼材",
+        "text": "精密沖壓模具用鋼材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "[[導線架]]",
+        "text": "**順德** (全球最大功率[[導線架]]製造商，彰化/南投/江蘇廠)",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "category": "子公司",
+        "text": "[[德輝科技]] (精密金屬[[蝕刻]]，毛利率逾四成)",
+        "entities": [
+          "德輝科技",
+          "蝕刻"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (封裝與終端)",
+        "text": "**下游 (封裝與終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體封測",
+        "text": "[[日月光投控]]、[[矽品]]、[[力成]] 等封測廠",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "力成"
+        ]
+      },
+      {
+        "category": "功率元件",
+        "text": "[[Infineon]] ([[Infineon]]，[[AI 伺服器]]電源管理合作)",
+        "entities": [
+          "Infineon",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "LED",
+        "text": "LED 封裝廠",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "[[電動車]] [[IGBT]] 模組廠",
+        "entities": [
+          "電動車",
+          "IGBT"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體封測",
+        "text": "[[日月光投控]]、[[矽品]]、[[力成]] 等全球封測廠",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "力成"
+        ]
+      },
+      {
+        "role": "功率元件",
+        "text": "[[Infineon]] ([[Infineon]]，[[AI 伺服器]]電源合作)",
+        "entities": [
+          "Infineon",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "LED 封裝",
+        "text": "LED [[導線架]]客戶",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "role": "車用電子",
+        "text": "[[電動車]] [[IGBT]] 模組客戶",
+        "entities": [
+          "電動車",
+          "IGBT"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅合金材料",
+        "text": "[[三菱伸銅]] (日本，技術合作)",
+        "entities": [
+          "三菱伸銅"
+        ]
+      },
+      {
+        "role": "模具鋼材",
+        "text": "精密模具原料",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[一詮]]、[[界霖]]、[[Sumitomo [[Meta]]l Mining]]、[[Shinko Electric]]",
+        "entities": [
+          "一詮",
+          "界霖",
+          "Sumitomo [[Meta",
+          "Shinko Electric"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[一詮]]、[[界霖]]、[[Sumitomo [[Meta]]l Mining]]、[[Shinko Electric]]",
+        "entities": [
+          "一詮",
+          "界霖",
+          "Sumitomo [[Meta",
+          "Shinko Electric"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "LED 導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "LED 導線架"
+    },
+    {
+      "name": "IC 導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC 導線架"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "VCM",
+      "type": "international_company_or_term",
+      "wikilink": "VCM"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "三菱伸銅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱伸銅"
+    },
+    {
+      "name": "德輝科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "德輝科技"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    },
+    {
+      "name": "一詮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "一詮"
+    },
+    {
+      "name": "界霖",
+      "type": "taiwan_company_or_term",
+      "wikilink": "界霖"
+    },
+    {
+      "name": "Sumitomo [[Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Sumitomo [[Meta"
+    },
+    {
+      "name": "Shinko Electric",
+      "type": "international_company_or_term",
+      "wikilink": "Shinko Electric"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "順德工業 (2351) 是全球前五大[[導線架]]供應商，也是全球最大的功率及分離式[[導線架]]製造商。公司成立於 1967 年，[[導線架]]及電子沖壓件占 2024 年營收 84%，五金文具占 14%。主力產品涵蓋高功率[[導線架]]、[[LED 導線架]]、[[IC 導線架]]、[[IGBT]] [[導線架]] ([[電動車]]應用) 及 [[VCM]] 金屬彈片 (手機鏡頭)。2025 年與[[Infineon]] 簽署 [[AI 伺服器]]電源管理系統開發協議。",
+    "supply_chain_md": "**上游 (原料):**\n- **金屬材料:** [[三菱伸銅]] (技術合作[[導線架]]銅合金材料)\n- **特殊鋼材:** 精密沖壓模具用鋼材\n\n**中游 (製造):**\n- **[[導線架]]:** **順德** (全球最大功率[[導線架]]製造商，彰化/南投/江蘇廠)\n- **子公司:** [[德輝科技]] (精密金屬[[蝕刻]]，毛利率逾四成)\n\n**下游 (封裝與終端):**\n- **半導體封測:** [[日月光投控]]、[[矽品]]、[[力成]] 等封測廠\n- **功率元件:** [[Infineon]] ([[Infineon]]，[[AI 伺服器]]電源管理合作)\n- **LED:** LED 封裝廠\n- **車用:** [[電動車]] [[IGBT]] 模組廠",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體封測:** [[日月光投控]]、[[矽品]]、[[力成]] 等全球封測廠\n- **功率元件:** [[Infineon]] ([[Infineon]]，[[AI 伺服器]]電源合作)\n- **LED 封裝:** LED [[導線架]]客戶\n- **車用電子:** [[電動車]] [[IGBT]] 模組客戶\n\n### 主要供應商\n- **銅合金材料:** [[三菱伸銅]] (日本，技術合作)\n- **模具鋼材:** 精密模具原料\n- **競爭同業:** [[一詮]]、[[界霖]]、[[Sumitomo [[Meta]]l Mining]]、[[Shinko Electric]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 18,
+    "warnings": []
+  }
+}

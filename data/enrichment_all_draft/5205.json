@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5205",
+  "company_name": "中茂",
+  "title": "5205 - 中茂",
+  "source_md": "Pilot_Reports/Software - Application/5205_中茂.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": "298 百萬台幣",
+    "enterprise_value": "270 百萬台幣"
+  },
+  "business": {
+    "summary": "中茂能資 (5205，TGE) 前身為漢平電子轉投資企業，後轉型投入環保綠能領域。目前業務涵蓋：(1) **環境工程** — 水資源處理營運、廢棄物處理與再生利用服務、生質能發電規劃；(2) **通路經銷** — 電子零組件代理、民生消費品代理。公司資本額約 1.35 億元，營運規模較小，業務仍在調整轉型中，主要客戶以政府公部門環保標案為主。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與原料)",
+        "text": "**上游 (設備與原料):**",
+        "entities": []
+      },
+      {
+        "category": "環保設備",
+        "text": "水處理設備製造商如 [[東元電機]]、廢棄物處理設備商",
+        "entities": [
+          "東元電機"
+        ]
+      },
+      {
+        "category": "電子零組件",
+        "text": "上游零組件原廠如 [[Texas Instruments]]、[[STMicroelectronics]]",
+        "entities": [
+          "Texas Instruments",
+          "STMicroelectronics"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (工程與代理)",
+        "text": "**中游 (工程與代理):**",
+        "entities": []
+      },
+      {
+        "category": "環境工程/代理",
+        "text": "**中茂** (水資源營運、廢棄物處理、零組件與消費品代理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "政府標案",
+        "text": "各縣市[[環境部]]、水利局 (水處理/廢棄物標案)",
+        "entities": [
+          "環境部"
+        ]
+      },
+      {
+        "category": "一般市場",
+        "text": "零售通路 (民生消費品)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "政府公部門",
+        "text": "各縣市[[環境部]]、水利局 (環保工程標案)",
+        "entities": [
+          "環境部"
+        ]
+      },
+      {
+        "role": "生質能",
+        "text": "[[台電]] — 生質能發電躉售",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "一般市場",
+        "text": "零售通路 (民生消費品經銷)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "環保設備",
+        "text": "水處理與廢棄物處理設備製造商如 [[東元電機]]",
+        "entities": [
+          "東元電機"
+        ]
+      },
+      {
+        "role": "電子零組件",
+        "text": "上游零組件原廠如 [[Texas Instruments]] (代理經銷)",
+        "entities": [
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Application):** [[大塚]]、[[研勤]]、[[凱衛]]、[[力新]]、[[訊連]]",
+        "entities": [
+          "大塚",
+          "研勤",
+          "凱衛",
+          "力新",
+          "訊連"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "環境部",
+          "台電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "東元電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元電機"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "STMicroelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "STMicroelectronics"
+    },
+    {
+      "name": "環境部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環境部"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "大塚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大塚"
+    },
+    {
+      "name": "研勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研勤"
+    },
+    {
+      "name": "凱衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱衛"
+    },
+    {
+      "name": "力新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力新"
+    },
+    {
+      "name": "訊連",
+      "type": "taiwan_company_or_term",
+      "wikilink": "訊連"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中茂能資 (5205，TGE) 前身為漢平電子轉投資企業，後轉型投入環保綠能領域。目前業務涵蓋：(1) **環境工程** — 水資源處理營運、廢棄物處理與再生利用服務、生質能發電規劃；(2) **通路經銷** — 電子零組件代理、民生消費品代理。公司資本額約 1.35 億元，營運規模較小，業務仍在調整轉型中，主要客戶以政府公部門環保標案為主。",
+    "supply_chain_md": "**上游 (設備與原料):**\n- **環保設備:** 水處理設備製造商如 [[東元電機]]、廢棄物處理設備商\n- **電子零組件:** 上游零組件原廠如 [[Texas Instruments]]、[[STMicroelectronics]]\n\n**中游 (工程與代理):**\n- **環境工程/代理:** **中茂** (水資源營運、廢棄物處理、零組件與消費品代理)\n\n**下游 (終端客戶):**\n- **政府標案:** 各縣市[[環境部]]、水利局 (水處理/廢棄物標案)\n- **一般市場:** 零售通路 (民生消費品)",
+    "customers_suppliers_md": "### 主要客戶\n- **政府公部門:** 各縣市[[環境部]]、水利局 (環保工程標案)\n- **生質能:** [[台電]] — 生質能發電躉售\n- **一般市場:** 零售通路 (民生消費品經銷)\n\n### 主要供應商\n- **環保設備:** 水處理與廢棄物處理設備製造商如 [[東元電機]]\n- **電子零組件:** 上游零組件原廠如 [[Texas Instruments]] (代理經銷)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

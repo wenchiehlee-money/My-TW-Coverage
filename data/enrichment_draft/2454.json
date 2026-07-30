@@ -195,7 +195,34 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **mobile/network/TV SoC customer overlap:** [[Qualcomm]]、[[UNISOC]]、[[Broadcom]]、[[瑞昱]]",
+        "entities": [
+          "Qualcomm",
+          "UNISOC",
+          "Broadcom",
+          "瑞昱"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "Samsung",
+          "OPPO",
+          "vivo",
+          "小米",
+          "傳音",
+          "realme",
+          "Sony",
+          "LG",
+          "TP-Link",
+          "華碩",
+          "Deutsche Telekom",
+          "Lenovo",
+          "HP",
+          "宏碁"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -375,6 +402,26 @@
       "name": "Arm",
       "type": "international_company_or_term",
       "wikilink": "Arm"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "UNISOC",
+      "type": "international_company_or_term",
+      "wikilink": "UNISOC"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
     }
   ],
   "source_text": {
@@ -386,6 +433,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 34,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

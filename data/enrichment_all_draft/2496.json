@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2496",
+  "company_name": "卓越",
+  "title": "2496 - 卓越",
+  "source_md": "Pilot_Reports/Education & Training Services/2496_卓越.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Education & Training Services",
+    "market_cap": "1,108 百萬台幣",
+    "enterprise_value": "798 百萬台幣"
+  },
+  "business": {
+    "summary": "卓越成功 (2496，Success Prime) 為台灣首家上市櫃補教集團。集團核心品牌「[[陳立教育]]」為全國最大高中數理補習班體系，品牌歷史逾 40 年。旗下事業涵蓋：(1) [[陳立教育]] — 高中數理、國文、英文、化學、物理升學專班；(2) [[易禾教育]] — 聚焦高雄地區國中升學補教；(3) [[陳立小學堂]] — 國小教育業務；(4) [[禮仁教育]] — 偏鄉教育推廣。近年跨足成人教育市場，投資「[[KK School]]」線上職能培訓平台。",
+    "entities": [
+      "陳立教育",
+      "易禾教育",
+      "陳立小學堂",
+      "禮仁教育",
+      "KK School"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (教學資源)",
+        "text": "**上游 (教學資源):**",
+        "entities": []
+      },
+      {
+        "category": "師資",
+        "text": "各科名師團隊",
+        "entities": []
+      },
+      {
+        "category": "教材研發",
+        "text": "自主研發升學教材與講義",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (教育服務)",
+        "text": "**中游 (教育服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[陳立教育]]** — 高中升學補教 (旗艦品牌)",
+        "entities": [
+          "陳立教育"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[易禾教育]]** — 國中補教 (高雄)",
+        "entities": [
+          "易禾教育"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[陳立小學堂]]** — 國小補教",
+        "entities": [
+          "陳立小學堂"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[KK School]]** — 成人職能培訓",
+        "entities": [
+          "KK School"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端學生)",
+        "text": "**下游 (終端學生):**",
+        "entities": []
+      },
+      {
+        "category": "K-12 學生",
+        "text": "國小、國中、高中升學需求之學生",
+        "entities": []
+      },
+      {
+        "category": "成人學員",
+        "text": "職能培訓進修者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "高中部",
+        "text": "全國高中升學考試學生 — [[陳立教育]]品牌",
+        "entities": [
+          "陳立教育"
+        ]
+      },
+      {
+        "role": "國中部",
+        "text": "高雄地區國中學生 — [[易禾教育]]",
+        "entities": [
+          "易禾教育"
+        ]
+      },
+      {
+        "role": "國小部",
+        "text": "國小中高年級學生 — [[陳立小學堂]]",
+        "entities": [
+          "陳立小學堂"
+        ]
+      },
+      {
+        "role": "成人教育",
+        "text": "職場進修學員 — [[KK School]]",
+        "entities": [
+          "KK School"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "師資",
+        "text": "各科補教名師團隊",
+        "entities": []
+      },
+      {
+        "role": "教材印刷",
+        "text": "國內印刷廠",
+        "entities": []
+      },
+      {
+        "role": "數位技術",
+        "text": "APP 與線上課程平台維運服務商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Education & Training Services):** [[新華]]、[[大地-KY]]、[[三貝德]]",
+        "entities": [
+          "新華",
+          "大地-KY",
+          "三貝德"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "陳立教育",
+          "易禾教育",
+          "陳立小學堂",
+          "KK School"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "陳立教育",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陳立教育"
+    },
+    {
+      "name": "易禾教育",
+      "type": "taiwan_company_or_term",
+      "wikilink": "易禾教育"
+    },
+    {
+      "name": "陳立小學堂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陳立小學堂"
+    },
+    {
+      "name": "禮仁教育",
+      "type": "taiwan_company_or_term",
+      "wikilink": "禮仁教育"
+    },
+    {
+      "name": "KK School",
+      "type": "international_company_or_term",
+      "wikilink": "KK School"
+    },
+    {
+      "name": "新華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新華"
+    },
+    {
+      "name": "大地-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大地-KY"
+    },
+    {
+      "name": "三貝德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三貝德"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "卓越成功 (2496，Success Prime) 為台灣首家上市櫃補教集團。集團核心品牌「[[陳立教育]]」為全國最大高中數理補習班體系，品牌歷史逾 40 年。旗下事業涵蓋：(1) [[陳立教育]] — 高中數理、國文、英文、化學、物理升學專班；(2) [[易禾教育]] — 聚焦高雄地區國中升學補教；(3) [[陳立小學堂]] — 國小教育業務；(4) [[禮仁教育]] — 偏鄉教育推廣。近年跨足成人教育市場，投資「[[KK School]]」線上職能培訓平台。",
+    "supply_chain_md": "**上游 (教學資源):**\n- **師資:** 各科名師團隊\n- **教材研發:** 自主研發升學教材與講義\n\n**中游 (教育服務):**\n- **[[陳立教育]]** — 高中升學補教 (旗艦品牌)\n- **[[易禾教育]]** — 國中補教 (高雄)\n- **[[陳立小學堂]]** — 國小補教\n- **[[KK School]]** — 成人職能培訓\n\n**下游 (終端學生):**\n- **K-12 學生:** 國小、國中、高中升學需求之學生\n- **成人學員:** 職能培訓進修者",
+    "customers_suppliers_md": "### 主要客戶\n- **高中部:** 全國高中升學考試學生 — [[陳立教育]]品牌\n- **國中部:** 高雄地區國中學生 — [[易禾教育]]\n- **國小部:** 國小中高年級學生 — [[陳立小學堂]]\n- **成人教育:** 職場進修學員 — [[KK School]]\n\n### 主要供應商\n- **師資:** 各科補教名師團隊\n- **教材印刷:** 國內印刷廠\n- **數位技術:** APP 與線上課程平台維運服務商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

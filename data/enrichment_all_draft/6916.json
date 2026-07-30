@@ -1,0 +1,273 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6916",
+  "company_name": "華凌",
+  "title": "6916_華凌",
+  "source_md": "Pilot_Reports/Electronic Components/6916_華凌.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,168 百萬台幣",
+    "enterprise_value": "1,580 百萬台幣"
+  },
+  "business": {
+    "summary": "華凌光電 (6916，[[Winstar Display]]) 深耕近三十年，為專業利基型顯示器製造商。不同於 [[友達]]、[[群創]] 專注大尺寸消費型面板，華凌專攻「少量多樣」的工業控制與特殊應用市場。\n\n業務結構與動能：(1) 工控顯示器 — TFT、STN 液晶顯示器，應用於工業自動化機台、醫療儀器及軍事航太儀表，具備十年不斷鏈長期供貨能力；(2) [[PMOLED]] 自發光顯示器 — 新一代自發光顯示技術，應用於小尺寸工控面板；(3) [[電子紙]] — 電子紙顯示模組。公司提供 One-Stop Shopping 一站式顯示解決方案，從 STN、TFT 到 [[OLED]] 與電子紙皆可供應。主要客戶為全球工業自動化、醫療檢測與網通基礎設施廠商。",
+    "entities": [
+      "Winstar Display",
+      "友達",
+      "群創",
+      "PMOLED",
+      "電子紙",
+      "OLED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (顯示材料)",
+        "text": "**上游 (顯示材料):**",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[聯詠]] 等 LCD 驅動顯示晶片",
+        "entities": [
+          "聯詠"
+        ]
+      },
+      {
+        "category": "玻璃基板",
+        "text": "玻璃基板材料",
+        "entities": []
+      },
+      {
+        "category": "光學膜",
+        "text": "偏光板、LED 背光模組",
+        "entities": []
+      },
+      {
+        "category": "有機材料",
+        "text": "[[OLED]] 發光有機材料",
+        "entities": [
+          "OLED"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (顯示器製造)",
+        "text": "**中游 (顯示器製造):**",
+        "entities": []
+      },
+      {
+        "category": "TFT 顯示器",
+        "text": "**華凌** (工控級 TFT 液晶顯示器)",
+        "entities": []
+      },
+      {
+        "category": "STN 顯示器",
+        "text": "**華凌** (STN 液晶模組)",
+        "entities": []
+      },
+      {
+        "category": "PM[[OLED]]",
+        "text": "**華凌** (自發光 [[OLED]] 顯示器)",
+        "entities": [
+          "OLED"
+        ]
+      },
+      {
+        "category": "電子紙",
+        "text": "**華凌** (電子紙顯示模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (工控與醫療)",
+        "text": "**下游 (工控與醫療):**",
+        "entities": []
+      },
+      {
+        "category": "工業自動化",
+        "text": "全球工控機械與[[工業電腦]]廠 — 工業級顯示器",
+        "entities": [
+          "工業電腦"
+        ]
+      },
+      {
+        "category": "醫療儀器",
+        "text": "醫療檢測與手術儀器廠 — 醫療級顯示器",
+        "entities": []
+      },
+      {
+        "category": "網通設備",
+        "text": "網通基礎設施廠 — 顯示面板",
+        "entities": []
+      },
+      {
+        "category": "智慧家電",
+        "text": "白色家電廠 — 小尺寸顯示模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工業自動化",
+        "text": "全球工控機械與[[工業電腦]]製造商 — 工業級顯示器",
+        "entities": [
+          "工業電腦"
+        ]
+      },
+      {
+        "role": "醫療儀器",
+        "text": "醫療檢測與手術儀器開發商 — 醫療級顯示器",
+        "entities": []
+      },
+      {
+        "role": "網通設備",
+        "text": "網通基礎設施廠 — 顯示面板模組",
+        "entities": []
+      },
+      {
+        "role": "智慧家電",
+        "text": "白色家電製造商 — 小尺寸顯示模組",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "驅動 IC",
+        "text": "LCD 驅動顯示晶片供應商",
+        "entities": []
+      },
+      {
+        "role": "玻璃基板",
+        "text": "玻璃基板材料供應商",
+        "entities": []
+      },
+      {
+        "role": "光學膜",
+        "text": "偏光板與 LED 背光模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "工業電腦"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "華凌光電 (6916，[[Winstar Display]]) 深耕近三十年，為專業利基型顯示器製造商。不同於 [[友達]]、[[群創]] 專注大尺寸消費型面板，華凌專攻「少量多樣」的工業控制與特殊應用市場。",
+        "entities": [
+          "Winstar Display",
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Winstar Display",
+      "type": "international_company_or_term",
+      "wikilink": "Winstar Display"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "PMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "PMOLED"
+    },
+    {
+      "name": "電子紙",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電子紙"
+    },
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華凌光電 (6916，[[Winstar Display]]) 深耕近三十年，為專業利基型顯示器製造商。不同於 [[友達]]、[[群創]] 專注大尺寸消費型面板，華凌專攻「少量多樣」的工業控制與特殊應用市場。\n\n業務結構與動能：(1) 工控顯示器 — TFT、STN 液晶顯示器，應用於工業自動化機台、醫療儀器及軍事航太儀表，具備十年不斷鏈長期供貨能力；(2) [[PMOLED]] 自發光顯示器 — 新一代自發光顯示技術，應用於小尺寸工控面板；(3) [[電子紙]] — 電子紙顯示模組。公司提供 One-Stop Shopping 一站式顯示解決方案，從 STN、TFT 到 [[OLED]] 與電子紙皆可供應。主要客戶為全球工業自動化、醫療檢測與網通基礎設施廠商。",
+    "supply_chain_md": "**上游 (顯示材料):**\n- **驅動 IC:** [[聯詠]] 等 LCD 驅動顯示晶片\n- **玻璃基板:** 玻璃基板材料\n- **光學膜:** 偏光板、LED 背光模組\n- **有機材料:** [[OLED]] 發光有機材料\n\n**中游 (顯示器製造):**\n- **TFT 顯示器:** **華凌** (工控級 TFT 液晶顯示器)\n- **STN 顯示器:** **華凌** (STN 液晶模組)\n- **PM[[OLED]]:** **華凌** (自發光 [[OLED]] 顯示器)\n- **電子紙:** **華凌** (電子紙顯示模組)\n\n**下游 (工控與醫療):**\n- **工業自動化:** 全球工控機械與[[工業電腦]]廠 — 工業級顯示器\n- **醫療儀器:** 醫療檢測與手術儀器廠 — 醫療級顯示器\n- **網通設備:** 網通基礎設施廠 — 顯示面板\n- **智慧家電:** 白色家電廠 — 小尺寸顯示模組",
+    "customers_suppliers_md": "### 主要客戶\n- **工業自動化:** 全球工控機械與[[工業電腦]]製造商 — 工業級顯示器\n- **醫療儀器:** 醫療檢測與手術儀器開發商 — 醫療級顯示器\n- **網通設備:** 網通基礎設施廠 — 顯示面板模組\n- **智慧家電:** 白色家電製造商 — 小尺寸顯示模組\n\n### 主要供應商\n- **驅動 IC:** LCD 驅動顯示晶片供應商\n- **玻璃基板:** 玻璃基板材料供應商\n- **光學膜:** 偏光板與 LED 背光模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

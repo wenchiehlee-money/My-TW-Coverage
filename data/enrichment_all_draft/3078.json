@@ -1,0 +1,282 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3078",
+  "company_name": "僑威",
+  "title": "3078 - 僑威",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/3078_僑威.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "11,415 百萬台幣",
+    "enterprise_value": "6,522 百萬台幣"
+  },
+  "business": {
+    "summary": "僑威科技 (3078，Channelwell Technology / CWT) 為全球最大電競 PC 電源供應器代工廠，逾 30 年經驗。主要替全球電競品牌代工[[ATX 3.1]]中高階電源，客戶涵蓋[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]。垂直整合自製變壓器與線材。成長動能：(1) [[GPU]]功耗提升帶動大瓦數電源換機潮 (如[[NVIDIA]] [[RTX 5090]])；(2) 醫療電源；(3) 網通/伺服器 CRPS 電源。上游功率半導體來自[[Infineon]]、[[Onsemi]]，被動元件經銷自[[日電貿]]、[[國巨]]。另供應安控大廠[[海康威視]]。",
+    "entities": [
+      "ATX 3.1",
+      "Corsair",
+      "MSI",
+      "Cooler Master",
+      "華碩",
+      "Thermaltake",
+      "GPU",
+      "NVIDIA",
+      "RTX 5090",
+      "Infineon",
+      "Onsemi",
+      "日電貿",
+      "國巨",
+      "海康威視"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (元件)",
+        "text": "**上游 (元件):**",
+        "entities": []
+      },
+      {
+        "category": "功率半導體",
+        "text": "[[Infineon]]、[[Onsemi]] — [[MOSFET]]",
+        "entities": [
+          "Infineon",
+          "Onsemi",
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "被動元件",
+        "text": "[[日電貿]]、[[國巨]] — 電容等",
+        "entities": [
+          "日電貿",
+          "國巨"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**僑威** (電競/醫療/網通電源代工，高度垂直整合)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌)",
+        "text": "**下游 (品牌):**",
+        "entities": []
+      },
+      {
+        "category": "電競",
+        "text": "[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]] — [[ATX 3.1]]電源",
+        "entities": [
+          "Corsair",
+          "MSI",
+          "Cooler Master",
+          "華碩",
+          "Thermaltake",
+          "ATX 3.1"
+        ]
+      },
+      {
+        "category": "安控",
+        "text": "[[海康威視]] — 電源供應",
+        "entities": [
+          "海康威視"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電競品牌",
+        "text": "[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]",
+        "entities": [
+          "Corsair",
+          "MSI",
+          "Cooler Master",
+          "華碩",
+          "Thermaltake"
+        ]
+      },
+      {
+        "role": "安控",
+        "text": "[[海康威視]]",
+        "entities": [
+          "海康威視"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "功率IC",
+        "text": "[[Infineon]]、[[Onsemi]]",
+        "entities": [
+          "Infineon",
+          "Onsemi"
+        ]
+      },
+      {
+        "role": "被動元件",
+        "text": "[[日電貿]]、[[國巨]]",
+        "entities": [
+          "日電貿",
+          "國巨"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Corsair",
+          "MSI",
+          "Cooler Master",
+          "華碩",
+          "Thermaltake",
+          "海康威視"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ATX 3.1",
+      "type": "international_company_or_term",
+      "wikilink": "ATX 3.1"
+    },
+    {
+      "name": "Corsair",
+      "type": "international_company_or_term",
+      "wikilink": "Corsair"
+    },
+    {
+      "name": "MSI",
+      "type": "international_company_or_term",
+      "wikilink": "MSI"
+    },
+    {
+      "name": "Cooler Master",
+      "type": "international_company_or_term",
+      "wikilink": "Cooler Master"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "Thermaltake",
+      "type": "international_company_or_term",
+      "wikilink": "Thermaltake"
+    },
+    {
+      "name": "GPU",
+      "type": "international_company_or_term",
+      "wikilink": "GPU"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "RTX 5090",
+      "type": "international_company_or_term",
+      "wikilink": "RTX 5090"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "Onsemi",
+      "type": "international_company_or_term",
+      "wikilink": "Onsemi"
+    },
+    {
+      "name": "日電貿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日電貿"
+    },
+    {
+      "name": "國巨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國巨"
+    },
+    {
+      "name": "海康威視",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海康威視"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "僑威科技 (3078，Channelwell Technology / CWT) 為全球最大電競 PC 電源供應器代工廠，逾 30 年經驗。主要替全球電競品牌代工[[ATX 3.1]]中高階電源，客戶涵蓋[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]。垂直整合自製變壓器與線材。成長動能：(1) [[GPU]]功耗提升帶動大瓦數電源換機潮 (如[[NVIDIA]] [[RTX 5090]])；(2) 醫療電源；(3) 網通/伺服器 CRPS 電源。上游功率半導體來自[[Infineon]]、[[Onsemi]]，被動元件經銷自[[日電貿]]、[[國巨]]。另供應安控大廠[[海康威視]]。",
+    "supply_chain_md": "**上游 (元件):**\n- **功率半導體:** [[Infineon]]、[[Onsemi]] — [[MOSFET]]\n- **被動元件:** [[日電貿]]、[[國巨]] — 電容等\n\n**中游 (製造):**\n- **僑威** (電競/醫療/網通電源代工，高度垂直整合)\n\n**下游 (品牌):**\n- **電競:** [[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]] — [[ATX 3.1]]電源\n- **安控:** [[海康威視]] — 電源供應",
+    "customers_suppliers_md": "### 主要客戶\n- **電競品牌:** [[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]\n- **安控:** [[海康威視]]\n\n### 主要供應商\n- **功率IC:** [[Infineon]]、[[Onsemi]]\n- **被動元件:** [[日電貿]]、[[國巨]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4537",
+  "company_name": "旭東",
+  "title": "4537 - 旭東",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4537_旭東.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "7,482 百萬台幣",
+    "enterprise_value": "7,461 百萬台幣"
+  },
+  "business": {
+    "summary": "旭東機械 (4537) 自1979年起為全球自行車整廠設備龍頭，主要客戶含[[巨大機械]] (Giant)、[[美利達]] (Merida)。電子設備事業部 (2001年成立) 核心技術涵蓋精密模具、雷射修補切割、高精度壓合 (PCB Bonder)、[[AOI]]及AI影像。供應[[台積電]]半導體設備。",
+    "entities": [
+      "巨大機械",
+      "美利達",
+      "AOI",
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "精密機構/雷射源/光學模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**旭東** (自行車整廠設備; 半導體/面板精密設備)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "自行車",
+        "text": "[[巨大機械]]、[[美利達]] — 整廠設備",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]] — 精密設備",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "PCB Bonder/[[AOI]]",
+        "entities": [
+          "AOI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[巨大機械]]、[[美利達]] — 自行車設備",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[台積電]] — 半導體設備",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "精密機構/雷射源",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "巨大機械",
+          "美利達",
+          "台積電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "巨大機械",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大機械"
+    },
+    {
+      "name": "美利達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美利達"
+    },
+    {
+      "name": "AOI",
+      "type": "international_company_or_term",
+      "wikilink": "AOI"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "旭東機械 (4537) 自1979年起為全球自行車整廠設備龍頭，主要客戶含[[巨大機械]] (Giant)、[[美利達]] (Merida)。電子設備事業部 (2001年成立) 核心技術涵蓋精密模具、雷射修補切割、高精度壓合 (PCB Bonder)、[[AOI]]及AI影像。供應[[台積電]]半導體設備。",
+    "supply_chain_md": "**上游:** 精密機構/雷射源/光學模組\n**中游:** **旭東** (自行車整廠設備; 半導體/面板精密設備)\n**下游:**\n- **自行車:** [[巨大機械]]、[[美利達]] — 整廠設備\n- **半導體:** [[台積電]] — 精密設備\n- **PCB:** PCB Bonder/[[AOI]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[巨大機械]]、[[美利達]] — 自行車設備\n- [[台積電]] — 半導體設備\n\n### 主要供應商\n- 精密機構/雷射源"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

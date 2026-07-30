@@ -1,0 +1,262 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3003",
+  "company_name": "健和興",
+  "title": "3003 - 健和興",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/3003_健和興.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "8,452 百萬台幣",
+    "enterprise_value": "5,905 百萬台幣"
+  },
+  "business": {
+    "summary": "健和興端子 (3003，K.S. Terminals / KST) 為亞洲知名端子與[[連接器]]製造商，近年成功轉型至[[電動車]]與綠能市場。產品涵蓋 EV 高壓[[連接器]]、充電槍、充電樁連接器、太陽能/風電/[[儲能]]系統高壓連接器及車用電子端子。為[[Tesla]]充電槍及[[Tesla Powerwall]][[儲能]]系統之綠能連接器供應商。其他 EV 客戶涵蓋[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]。綠能/充電樁客戶涵蓋[[台達電]]、[[華為]]、[[陽光電源]]。",
+    "entities": [
+      "連接器",
+      "電動車",
+      "儲能",
+      "Tesla",
+      "Tesla Powerwall",
+      "BYD",
+      "蔚來汽車",
+      "吉利汽車",
+      "Honda",
+      "Nissan",
+      "台達電",
+      "華為",
+      "陽光電源"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材",
+        "text": "國際銅材供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**健和興** (EV 高壓[[連接器]]/充電槍/端子，精密沖壓/電鍍/組裝)",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "[[Tesla]] (充電槍/[[Tesla Powerwall]])、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]",
+        "entities": [
+          "Tesla",
+          "Tesla Powerwall",
+          "BYD",
+          "蔚來汽車",
+          "吉利汽車",
+          "Honda",
+          "Nissan"
+        ]
+      },
+      {
+        "category": "綠能/充電",
+        "text": "[[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]連接器",
+        "entities": [
+          "台達電",
+          "華為",
+          "陽光電源",
+          "儲能"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EV",
+        "text": "[[Tesla]] (充電槍/Powerwall)、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]",
+        "entities": [
+          "Tesla",
+          "BYD",
+          "蔚來汽車",
+          "吉利汽車",
+          "Honda",
+          "Nissan"
+        ]
+      },
+      {
+        "role": "綠能",
+        "text": "[[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]",
+        "entities": [
+          "台達電",
+          "華為",
+          "陽光電源",
+          "儲能"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材",
+        "text": "國際銅材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Tesla",
+          "BYD",
+          "蔚來汽車",
+          "吉利汽車",
+          "Honda",
+          "Nissan",
+          "台達電",
+          "華為",
+          "陽光電源",
+          "儲能"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "Tesla Powerwall",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla Powerwall"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "蔚來汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蔚來汽車"
+    },
+    {
+      "name": "吉利汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "吉利汽車"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華為",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華為"
+    },
+    {
+      "name": "陽光電源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽光電源"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "健和興端子 (3003，K.S. Terminals / KST) 為亞洲知名端子與[[連接器]]製造商，近年成功轉型至[[電動車]]與綠能市場。產品涵蓋 EV 高壓[[連接器]]、充電槍、充電樁連接器、太陽能/風電/[[儲能]]系統高壓連接器及車用電子端子。為[[Tesla]]充電槍及[[Tesla Powerwall]][[儲能]]系統之綠能連接器供應商。其他 EV 客戶涵蓋[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]。綠能/充電樁客戶涵蓋[[台達電]]、[[華為]]、[[陽光電源]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅材:** 國際銅材供應商\n\n**中游 (製造):**\n- **健和興** (EV 高壓[[連接器]]/充電槍/端子，精密沖壓/電鍍/組裝)\n\n**下游 (終端):**\n- **電動車:** [[Tesla]] (充電槍/[[Tesla Powerwall]])、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]\n- **綠能/充電:** [[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]連接器",
+    "customers_suppliers_md": "### 主要客戶\n- **EV:** [[Tesla]] (充電槍/Powerwall)、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]\n- **綠能:** [[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]\n\n### 主要供應商\n- **銅材:** 國際銅材供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

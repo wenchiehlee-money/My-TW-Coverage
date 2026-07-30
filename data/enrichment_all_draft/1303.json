@@ -1,0 +1,391 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1303",
+  "company_name": "南亞",
+  "title": "1303 - [[南亞]]",
+  "source_md": "Pilot_Reports/Specialty Chemicals/1303_南亞.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "1,122,211 百萬台幣",
+    "enterprise_value": "1,243,271 百萬台幣"
+  },
+  "business": {
+    "summary": "南亞塑膠 (1303，Nan Ya Plastics) 為[[台塑集團]]四大公司之一，台灣最大塑膠加工及電子材料製造商，營收約 2,600 億元。四大事業群：(1) 塑膠加工 — [[PVC]]管材/膠布、[[BOPP]]薄膜、工程塑膠；(2) 化工 — [[環氧樹脂]]、[[雙酚A]]、可塑劑、[[乙二醇]]；(3) 電子材料 — [[銅箔基板]] (CCL，全球前三大)、[[玻纖布]] (全球前三大)、[[銅箔]]，供應[[欣興]]、[[臻鼎]]、[[華通]]、[[聯茂]]、[[台光電]]等 PCB 大廠，受惠[[AI 伺服器]]需求；(4) 聚酯纖維 — [[PET]]膜/加工絲。重要轉投資涵蓋子公司[[南亞電路板]] (南電，8046，全球前三大[[ABF 載板]]供應商，服務[[Intel]]、[[AMD]]、[[NVIDIA]]) 及[[南亞科技]] (2408，DRAM)。上游石化原料來自集團內[[台塑]]、[[台化]]、[[台塑石化]]。",
+    "entities": [
+      "台塑集團",
+      "PVC",
+      "BOPP",
+      "環氧樹脂",
+      "雙酚A",
+      "乙二醇",
+      "銅箔基板",
+      "玻纖布",
+      "銅箔",
+      "欣興",
+      "臻鼎",
+      "華通",
+      "聯茂",
+      "台光電",
+      "AI 伺服器",
+      "PET",
+      "南亞電路板",
+      "ABF 載板",
+      "Intel",
+      "AMD",
+      "NVIDIA",
+      "南亞科技",
+      "台塑",
+      "台化",
+      "台塑石化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "集團內部",
+        "text": "[[台塑]] (乙烯)、[[台化]] (酚/丙酮)、[[台塑石化]] (丙烯/石腦油)",
+        "entities": [
+          "台塑",
+          "台化",
+          "台塑石化"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (南亞本體)",
+        "text": "**中游 (南亞本體):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠",
+        "text": "[[PVC]]管材/膠布、[[BOPP]]薄膜、工程塑膠",
+        "entities": [
+          "PVC",
+          "BOPP"
+        ]
+      },
+      {
+        "category": "化工",
+        "text": "[[環氧樹脂]]、[[雙酚A]]、可塑劑、[[乙二醇]]",
+        "entities": [
+          "環氧樹脂",
+          "雙酚A",
+          "乙二醇"
+        ]
+      },
+      {
+        "category": "電子材料",
+        "text": "[[銅箔基板]]/[[玻纖布]]/[[銅箔]] (全球前三大)",
+        "entities": [
+          "銅箔基板",
+          "玻纖布",
+          "銅箔"
+        ]
+      },
+      {
+        "category": "聚酯",
+        "text": "[[PET]]膜/加工絲",
+        "entities": [
+          "PET"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "PCB 大廠",
+        "text": "[[欣興]]、[[臻鼎]]、[[華通]]、[[聯茂]]、[[台光電]] — CCL/玻纖布/銅箔",
+        "entities": [
+          "欣興",
+          "臻鼎",
+          "華通",
+          "聯茂",
+          "台光電"
+        ]
+      },
+      {
+        "category": "載板",
+        "text": "[[南亞電路板]] (子公司) — [[ABF 載板]]供[[Intel]]、[[AMD]]、[[NVIDIA]]",
+        "entities": [
+          "南亞電路板",
+          "ABF 載板",
+          "Intel",
+          "AMD",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "DRAM",
+        "text": "[[南亞科技]] (轉投資) — 記憶體",
+        "entities": [
+          "南亞科技"
+        ]
+      },
+      {
+        "category": "建材",
+        "text": "國內營造業 — PVC 管材",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PCB",
+        "text": "[[欣興]]、[[臻鼎]]、[[華通]]、[[聯茂]]、[[台光電]] — [[銅箔基板]]/[[玻纖布]]",
+        "entities": [
+          "欣興",
+          "臻鼎",
+          "華通",
+          "聯茂",
+          "台光電",
+          "銅箔基板",
+          "玻纖布"
+        ]
+      },
+      {
+        "role": "載板",
+        "text": "[[南亞電路板]] (子公司) — [[ABF 載板]]供[[Intel]]、[[AMD]]、[[NVIDIA]]",
+        "entities": [
+          "南亞電路板",
+          "ABF 載板",
+          "Intel",
+          "AMD",
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "DRAM",
+        "text": "[[南亞科技]] (轉投資)",
+        "entities": [
+          "南亞科技"
+        ]
+      },
+      {
+        "role": "建材",
+        "text": "國內營造業 — PVC 管材",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化",
+        "text": "[[台塑]]、[[台化]]、[[台塑石化]] — 集團內石化原料",
+        "entities": [
+          "台塑",
+          "台化",
+          "台塑石化"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[台聚]]、[[華夏]]、[[亞聚]]、[[台達化]]",
+        "entities": [
+          "台塑",
+          "台聚",
+          "華夏",
+          "亞聚",
+          "台達化"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "欣興",
+          "臻鼎",
+          "華通",
+          "聯茂",
+          "台光電",
+          "銅箔基板",
+          "玻纖布",
+          "南亞電路板",
+          "ABF 載板",
+          "Intel",
+          "AMD",
+          "NVIDIA",
+          "南亞科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台塑集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑集團"
+    },
+    {
+      "name": "PVC",
+      "type": "international_company_or_term",
+      "wikilink": "PVC"
+    },
+    {
+      "name": "BOPP",
+      "type": "international_company_or_term",
+      "wikilink": "BOPP"
+    },
+    {
+      "name": "環氧樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環氧樹脂"
+    },
+    {
+      "name": "雙酚A",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雙酚A"
+    },
+    {
+      "name": "乙二醇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "乙二醇"
+    },
+    {
+      "name": "銅箔基板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔基板"
+    },
+    {
+      "name": "玻纖布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻纖布"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "臻鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臻鼎"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "PET",
+      "type": "international_company_or_term",
+      "wikilink": "PET"
+    },
+    {
+      "name": "南亞電路板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞電路板"
+    },
+    {
+      "name": "ABF 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ABF 載板"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "南亞科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞科技"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "台塑石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑石化"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    },
+    {
+      "name": "台達化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達化"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "南亞塑膠 (1303，Nan Ya Plastics) 為[[台塑集團]]四大公司之一，台灣最大塑膠加工及電子材料製造商，營收約 2,600 億元。四大事業群：(1) 塑膠加工 — [[PVC]]管材/膠布、[[BOPP]]薄膜、工程塑膠；(2) 化工 — [[環氧樹脂]]、[[雙酚A]]、可塑劑、[[乙二醇]]；(3) 電子材料 — [[銅箔基板]] (CCL，全球前三大)、[[玻纖布]] (全球前三大)、[[銅箔]]，供應[[欣興]]、[[臻鼎]]、[[華通]]、[[聯茂]]、[[台光電]]等 PCB 大廠，受惠[[AI 伺服器]]需求；(4) 聚酯纖維 — [[PET]]膜/加工絲。重要轉投資涵蓋子公司[[南亞電路板]] (南電，8046，全球前三大[[ABF 載板]]供應商，服務[[Intel]]、[[AMD]]、[[NVIDIA]]) 及[[南亞科技]] (2408，DRAM)。上游石化原料來自集團內[[台塑]]、[[台化]]、[[台塑石化]]。",
+    "supply_chain_md": "**上游 (石化原料):**\n- **集團內部:** [[台塑]] (乙烯)、[[台化]] (酚/丙酮)、[[台塑石化]] (丙烯/石腦油)\n\n**中游 (南亞本體):**\n- **塑膠:** [[PVC]]管材/膠布、[[BOPP]]薄膜、工程塑膠\n- **化工:** [[環氧樹脂]]、[[雙酚A]]、可塑劑、[[乙二醇]]\n- **電子材料:** [[銅箔基板]]/[[玻纖布]]/[[銅箔]] (全球前三大)\n- **聚酯:** [[PET]]膜/加工絲\n\n**下游 (終端):**\n- **PCB 大廠:** [[欣興]]、[[臻鼎]]、[[華通]]、[[聯茂]]、[[台光電]] — CCL/玻纖布/銅箔\n- **載板:** [[南亞電路板]] (子公司) — [[ABF 載板]]供[[Intel]]、[[AMD]]、[[NVIDIA]]\n- **DRAM:** [[南亞科技]] (轉投資) — 記憶體\n- **建材:** 國內營造業 — PVC 管材",
+    "customers_suppliers_md": "### 主要客戶\n- **PCB:** [[欣興]]、[[臻鼎]]、[[華通]]、[[聯茂]]、[[台光電]] — [[銅箔基板]]/[[玻纖布]]\n- **載板:** [[南亞電路板]] (子公司) — [[ABF 載板]]供[[Intel]]、[[AMD]]、[[NVIDIA]]\n- **DRAM:** [[南亞科技]] (轉投資)\n- **建材:** 國內營造業 — PVC 管材\n\n### 主要供應商\n- **石化:** [[台塑]]、[[台化]]、[[台塑石化]] — 集團內石化原料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 25,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

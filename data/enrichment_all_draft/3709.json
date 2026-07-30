@@ -1,0 +1,276 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3709",
+  "company_name": "鑫聯大投控",
+  "title": "3709 - 鑫聯大投控",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/3709_鑫聯大投控.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "8,672 百萬台幣",
+    "enterprise_value": "12,177 百萬台幣"
+  },
+  "business": {
+    "summary": "鑫聯大投資控股 (3709，Trigold Holdings) 成立於 2017 年，由捷元股份有限公司以股份轉換方式設立，總部位於台北。公司為[[大聯大]]控股之子公司 (持股約 59%)。旗下主要子公司包括捷元 (台灣 3C 通路) 與世偉 (中國 3C 通路)。業務涵蓋電腦及週邊設備、電子零組件之代理經銷。捷元以 [[Intel]]、[[AMD]] CPU/主機板為核心產品線，並發展自有品牌「捷元電腦」(100% MIT 客製化 PC) 及翰凱顯示卡品牌。另營運 HoHo 居家服務平台，拓展 B2C 及 O2O 新事業。",
+    "entities": [
+      "大聯大",
+      "Intel",
+      "AMD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌原廠)",
+        "text": "**上游 (品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — CPU/晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "顯示卡",
+        "text": "[[NVIDIA]]、[[AMD]] — GPU",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "category": "記憶體/儲存",
+        "text": "[[Kingston]]、[[WD]]、[[Seagate]] — 記憶體/硬碟",
+        "entities": [
+          "Kingston",
+          "WD",
+          "Seagate"
+        ]
+      },
+      {
+        "category": "主板/周邊",
+        "text": "[[華碩]]、[[MSI]]、[[Gigabyte]] — 主機板/周邊",
+        "entities": [
+          "華碩",
+          "MSI",
+          "Gigabyte"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**捷元** (台灣 3C 通路，自有品牌 PC)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**世偉** (中國 3C 通路)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "經銷商",
+        "text": "台灣與中國 3C 零售經銷商",
+        "entities": []
+      },
+      {
+        "category": "自有品牌",
+        "text": "捷元電腦 — 100% MIT 客製化 PC",
+        "entities": []
+      },
+      {
+        "category": "服務平台",
+        "text": "HoHo 居家服務 — O2O 平台",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "3C 經銷商",
+        "text": "台灣與中國 3C 零售經銷商網絡",
+        "entities": []
+      },
+      {
+        "role": "企業客戶",
+        "text": "政府標案與企業 IT 採購",
+        "entities": []
+      },
+      {
+        "role": "終端消費者",
+        "text": "捷元電腦自有品牌、HoHo 居家服務平台",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — CPU/晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡晶片",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Kingston]] — 記憶體模組",
+        "entities": [
+          "Kingston"
+        ]
+      },
+      {
+        "role": "儲存",
+        "text": "[[WD]]、[[Seagate]] — 硬碟/SSD",
+        "entities": [
+          "WD",
+          "Seagate"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[大聯大]] — 集團資源與策略支援",
+        "entities": [
+          "大聯大"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Kingston",
+      "type": "international_company_or_term",
+      "wikilink": "Kingston"
+    },
+    {
+      "name": "WD",
+      "type": "international_company_or_term",
+      "wikilink": "WD"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "MSI",
+      "type": "international_company_or_term",
+      "wikilink": "MSI"
+    },
+    {
+      "name": "Gigabyte",
+      "type": "international_company_or_term",
+      "wikilink": "Gigabyte"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鑫聯大投資控股 (3709，Trigold Holdings) 成立於 2017 年，由捷元股份有限公司以股份轉換方式設立，總部位於台北。公司為[[大聯大]]控股之子公司 (持股約 59%)。旗下主要子公司包括捷元 (台灣 3C 通路) 與世偉 (中國 3C 通路)。業務涵蓋電腦及週邊設備、電子零組件之代理經銷。捷元以 [[Intel]]、[[AMD]] CPU/主機板為核心產品線，並發展自有品牌「捷元電腦」(100% MIT 客製化 PC) 及翰凱顯示卡品牌。另營運 HoHo 居家服務平台，拓展 B2C 及 O2O 新事業。",
+    "supply_chain_md": "**上游 (品牌原廠):**\n- **處理器:** [[Intel]]、[[AMD]] — CPU/晶片組\n- **顯示卡:** [[NVIDIA]]、[[AMD]] — GPU\n- **記憶體/儲存:** [[Kingston]]、[[WD]]、[[Seagate]] — 記憶體/硬碟\n- **主板/周邊:** [[華碩]]、[[MSI]]、[[Gigabyte]] — 主機板/周邊\n\n**中游 (通路代理):**\n- **捷元** (台灣 3C 通路，自有品牌 PC)\n- **世偉** (中國 3C 通路)\n\n**下游 (銷售通路):**\n- **經銷商:** 台灣與中國 3C 零售經銷商\n- **自有品牌:** 捷元電腦 — 100% MIT 客製化 PC\n- **服務平台:** HoHo 居家服務 — O2O 平台",
+    "customers_suppliers_md": "### 主要客戶\n- **3C 經銷商:** 台灣與中國 3C 零售經銷商網絡\n- **企業客戶:** 政府標案與企業 IT 採購\n- **終端消費者:** 捷元電腦自有品牌、HoHo 居家服務平台\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — CPU/晶片組\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡晶片\n- **記憶體:** [[Kingston]] — 記憶體模組\n- **儲存:** [[WD]]、[[Seagate]] — 硬碟/SSD\n- **母公司:** [[大聯大]] — 集團資源與策略支援"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

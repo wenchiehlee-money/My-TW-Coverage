@@ -1,0 +1,271 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6752",
+  "company_name": "叡揚",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/Software - Infrastructure/6752_叡揚.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "3,462 百萬台幣",
+    "enterprise_value": "3,306 百萬台幣"
+  },
+  "business": {
+    "summary": "叡揚資訊股份有限公司 (6752) 為台灣歷史悠久之本土資訊軟體與雲端服務 ([[SaaS]]) 領導廠商，成立逾 35 年。核心業務涵蓋企業知識管理 (KM)、公文管理、人力資源、客戶關係管理 ([[CRM]]) 及資訊安全解決方案。公司以「Vital 雲端家族」[[SaaS]] 產品線為主力，並積極導入[[AI]]自然語言處理 ([[NLP]]) 及大語言模型 ([[LLM]])，推出智慧對話機器人 (Chatbot) 等應用。為響應 [[ESG]] 趨勢，叡揚推出零碳雲 (Vital NetZero) 碳盤查系統。客戶以高科技業 (佔近六成) 為主，廣泛服務金融機構、醫療院所與政府單位。",
+    "entities": [
+      "SaaS",
+      "CRM",
+      "AI",
+      "NLP",
+      "LLM",
+      "ESG"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (雲端與技術)",
+        "text": "**上游 (雲端與技術):**",
+        "entities": []
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[Microsoft Azure]]、[[AWS]] — IaaS 基礎設施",
+        "entities": [
+          "Microsoft Azure",
+          "AWS"
+        ]
+      },
+      {
+        "category": "AI 模型",
+        "text": "[[OpenAI]]、開源 [[LLM]] — 大語言模型授權",
+        "entities": [
+          "OpenAI",
+          "LLM"
+        ]
+      },
+      {
+        "category": "資料庫",
+        "text": "[[Oracle]]、[[Microsoft SQL Server]] — 底層資料庫",
+        "entities": [
+          "Oracle",
+          "Microsoft SQL Server"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (軟體服務)",
+        "text": "**中游 (軟體服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**叡揚資訊** (Vital 雲端 [[SaaS]]、[[AI]] [[NLP]] 應用、[[ESG]] 碳盤查系統、企業知識管理)",
+        "entities": [
+          "SaaS",
+          "AI",
+          "NLP",
+          "ESG"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業客戶)",
+        "text": "**下游 (企業客戶):**",
+        "entities": []
+      },
+      {
+        "category": "高科技業 (佔 60%)",
+        "text": "半導體與電子製造業",
+        "entities": []
+      },
+      {
+        "category": "金融機構",
+        "text": "各大金控銀行 — 公文與知識管理",
+        "entities": []
+      },
+      {
+        "category": "醫療院所",
+        "text": "大型公立醫院",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "各級政府部會",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "高科技業 (佔約 60%)",
+        "text": "半導體與電子製造業 — 知識管理與公文系統",
+        "entities": []
+      },
+      {
+        "role": "金融機構",
+        "text": "各大金控銀行 — 公文流程與 [[CRM]] 系統",
+        "entities": [
+          "CRM"
+        ]
+      },
+      {
+        "role": "醫療院所",
+        "text": "大型公立醫院 — 醫療知識管理",
+        "entities": []
+      },
+      {
+        "role": "政府單位",
+        "text": "各級政府部會 — 公文與檔案管理",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[Microsoft Azure]] — 核心雲端基礎設施夥伴",
+        "entities": [
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "AI 技術",
+        "text": "[[OpenAI]] — 大語言模型技術",
+        "entities": [
+          "OpenAI"
+        ]
+      },
+      {
+        "role": "資料庫",
+        "text": "[[Oracle]] — 企業資料庫授權",
+        "entities": [
+          "Oracle"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Infrastructure):** [[博士旺]]、[[凌網]]、[[悠遊卡]]、[[神盾]]、[[物聯]]",
+        "entities": [
+          "博士旺",
+          "凌網",
+          "悠遊卡",
+          "神盾",
+          "物聯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "CRM"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "SaaS",
+      "type": "international_company_or_term",
+      "wikilink": "SaaS"
+    },
+    {
+      "name": "CRM",
+      "type": "international_company_or_term",
+      "wikilink": "CRM"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "NLP",
+      "type": "international_company_or_term",
+      "wikilink": "NLP"
+    },
+    {
+      "name": "LLM",
+      "type": "international_company_or_term",
+      "wikilink": "LLM"
+    },
+    {
+      "name": "ESG",
+      "type": "international_company_or_term",
+      "wikilink": "ESG"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "OpenAI",
+      "type": "international_company_or_term",
+      "wikilink": "OpenAI"
+    },
+    {
+      "name": "Oracle",
+      "type": "international_company_or_term",
+      "wikilink": "Oracle"
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft SQL Server"
+    },
+    {
+      "name": "博士旺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "博士旺"
+    },
+    {
+      "name": "凌網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌網"
+    },
+    {
+      "name": "悠遊卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "悠遊卡"
+    },
+    {
+      "name": "神盾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神盾"
+    },
+    {
+      "name": "物聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "叡揚資訊股份有限公司 (6752) 為台灣歷史悠久之本土資訊軟體與雲端服務 ([[SaaS]]) 領導廠商，成立逾 35 年。核心業務涵蓋企業知識管理 (KM)、公文管理、人力資源、客戶關係管理 ([[CRM]]) 及資訊安全解決方案。公司以「Vital 雲端家族」[[SaaS]] 產品線為主力，並積極導入[[AI]]自然語言處理 ([[NLP]]) 及大語言模型 ([[LLM]])，推出智慧對話機器人 (Chatbot) 等應用。為響應 [[ESG]] 趨勢，叡揚推出零碳雲 (Vital NetZero) 碳盤查系統。客戶以高科技業 (佔近六成) 為主，廣泛服務金融機構、醫療院所與政府單位。",
+    "supply_chain_md": "**上游 (雲端與技術):**\n- **雲端平台:** [[Microsoft Azure]]、[[AWS]] — IaaS 基礎設施\n- **AI 模型:** [[OpenAI]]、開源 [[LLM]] — 大語言模型授權\n- **資料庫:** [[Oracle]]、[[Microsoft SQL Server]] — 底層資料庫\n\n**中游 (軟體服務):**\n- **叡揚資訊** (Vital 雲端 [[SaaS]]、[[AI]] [[NLP]] 應用、[[ESG]] 碳盤查系統、企業知識管理)\n\n**下游 (企業客戶):**\n- **高科技業 (佔 60%):** 半導體與電子製造業\n- **金融機構:** 各大金控銀行 — 公文與知識管理\n- **醫療院所:** 大型公立醫院\n- **政府機關:** 各級政府部會",
+    "customers_suppliers_md": "### 主要客戶\n- **高科技業 (佔約 60%):** 半導體與電子製造業 — 知識管理與公文系統\n- **金融機構:** 各大金控銀行 — 公文流程與 [[CRM]] 系統\n- **醫療院所:** 大型公立醫院 — 醫療知識管理\n- **政府單位:** 各級政府部會 — 公文與檔案管理\n\n### 主要供應商\n- **雲端平台:** [[Microsoft Azure]] — 核心雲端基礎設施夥伴\n- **AI 技術:** [[OpenAI]] — 大語言模型技術\n- **資料庫:** [[Oracle]] — 企業資料庫授權"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

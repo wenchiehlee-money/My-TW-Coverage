@@ -1,0 +1,298 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4714",
+  "company_name": "永捷",
+  "title": "4714 - 永捷",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4714_永捷.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "2,192 百萬台幣",
+    "enterprise_value": "7,924 百萬台幣"
+  },
+  "business": {
+    "summary": "永捷創新科技 (4714，U-Best Innovative Technology) 為 PU 合成樹脂與複合材料製造商，2025 年營收 15.29 億元創歷史新高 (年增 85%)。傳統業務為運動鞋用合成皮/接著劑 (佔約 40%)，供應[[Nike]]、[[Adidas]]代工體系 ([[寶成]]、[[豐泰]])。新興業務為可撓式 HC (Hard Coat) 材料，應用於[[Samsung]] [[Galaxy Z Fold]]等[[折疊手機]][[OLED]]保護膜，毛利率逾 40%。上游[[MDI]]/[[TDI]]異氰酸酯來自[[萬華化學]]、[[Covestro]]、[[BASF]]。子公司[[信立化學]]、孫公司[[普大應材]]串聯 PVC/PU 合成皮產業鏈。",
+    "entities": [
+      "Nike",
+      "Adidas",
+      "寶成",
+      "豐泰",
+      "Samsung",
+      "Galaxy Z Fold",
+      "折疊手機",
+      "OLED",
+      "MDI",
+      "TDI",
+      "萬華化學",
+      "Covestro",
+      "BASF",
+      "信立化學",
+      "普大應材"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "異氰酸酯",
+        "text": "[[萬華化學]]、[[Covestro]]、[[BASF]] — [[MDI]]/[[TDI]]",
+        "entities": [
+          "萬華化學",
+          "Covestro",
+          "BASF",
+          "MDI",
+          "TDI"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**永捷** ([[PU樹脂]]/[[TPU]]/合成皮/HC 材料)",
+        "entities": [
+          "PU樹脂",
+          "TPU"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[信立化學]]**、**[[普大應材]]** (子/孫公司)",
+        "entities": [
+          "信立化學",
+          "普大應材"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "鞋材",
+        "text": "[[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工體系",
+        "entities": [
+          "寶成",
+          "豐泰",
+          "Nike",
+          "Adidas"
+        ]
+      },
+      {
+        "category": "折疊手機",
+        "text": "[[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜用 HC 材料",
+        "entities": [
+          "Samsung",
+          "Galaxy Z Fold",
+          "OLED"
+        ]
+      },
+      {
+        "category": "合成皮",
+        "text": "亞太合成皮加工商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鞋材",
+        "text": "[[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工 (佔約 40%)",
+        "entities": [
+          "寶成",
+          "豐泰",
+          "Nike",
+          "Adidas"
+        ]
+      },
+      {
+        "role": "折疊手機",
+        "text": "[[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜 HC 材料",
+        "entities": [
+          "Samsung",
+          "Galaxy Z Fold",
+          "OLED"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "異氰酸酯",
+        "text": "[[萬華化學]]、[[Covestro]]、[[BASF]] — MDI/TDI",
+        "entities": [
+          "萬華化學",
+          "Covestro",
+          "BASF"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "寶成",
+          "豐泰",
+          "Nike",
+          "Adidas",
+          "Samsung",
+          "Galaxy Z Fold",
+          "OLED"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "寶成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶成"
+    },
+    {
+      "name": "豐泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐泰"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Galaxy Z Fold",
+      "type": "international_company_or_term",
+      "wikilink": "Galaxy Z Fold"
+    },
+    {
+      "name": "折疊手機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "折疊手機"
+    },
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "MDI",
+      "type": "international_company_or_term",
+      "wikilink": "MDI"
+    },
+    {
+      "name": "TDI",
+      "type": "international_company_or_term",
+      "wikilink": "TDI"
+    },
+    {
+      "name": "萬華化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬華化學"
+    },
+    {
+      "name": "Covestro",
+      "type": "international_company_or_term",
+      "wikilink": "Covestro"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "信立化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信立化學"
+    },
+    {
+      "name": "普大應材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "普大應材"
+    },
+    {
+      "name": "PU樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "PU樹脂"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永捷創新科技 (4714，U-Best Innovative Technology) 為 PU 合成樹脂與複合材料製造商，2025 年營收 15.29 億元創歷史新高 (年增 85%)。傳統業務為運動鞋用合成皮/接著劑 (佔約 40%)，供應[[Nike]]、[[Adidas]]代工體系 ([[寶成]]、[[豐泰]])。新興業務為可撓式 HC (Hard Coat) 材料，應用於[[Samsung]] [[Galaxy Z Fold]]等[[折疊手機]][[OLED]]保護膜，毛利率逾 40%。上游[[MDI]]/[[TDI]]異氰酸酯來自[[萬華化學]]、[[Covestro]]、[[BASF]]。子公司[[信立化學]]、孫公司[[普大應材]]串聯 PVC/PU 合成皮產業鏈。",
+    "supply_chain_md": "**上游 (原料):**\n- **異氰酸酯:** [[萬華化學]]、[[Covestro]]、[[BASF]] — [[MDI]]/[[TDI]]\n\n**中游 (製造):**\n- **永捷** ([[PU樹脂]]/[[TPU]]/合成皮/HC 材料)\n- **[[信立化學]]**、**[[普大應材]]** (子/孫公司)\n\n**下游 (終端):**\n- **鞋材:** [[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工體系\n- **折疊手機:** [[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜用 HC 材料\n- **合成皮:** 亞太合成皮加工商",
+    "customers_suppliers_md": "### 主要客戶\n- **鞋材:** [[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工 (佔約 40%)\n- **折疊手機:** [[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜 HC 材料\n\n### 主要供應商\n- **異氰酸酯:** [[萬華化學]]、[[Covestro]]、[[BASF]] — MDI/TDI"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

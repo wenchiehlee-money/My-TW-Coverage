@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3128",
+  "company_name": "昇銳",
+  "title": "3128 - 昇銳",
+  "source_md": "Pilot_Reports/Electronic Components/3128_昇銳.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "965 百萬台幣",
+    "enterprise_value": "1,658 百萬台幣"
+  },
+  "business": {
+    "summary": "昇銳智慧科技 (Hi Sharp) 是台灣資深的 **安全監控 (Surveillance)** 系統製造商。\n公司已成功從類比攝影機轉型為 **AI 智慧監控** 與 **網路攝影機 (IP Cam)** 解決方案供應商。\n核心競爭力與佈局：\n1.  **安控去中化商機**: 受益於美國 **[[NDAA]] (國防授權法)**，成為歐美客戶在 \"非紅供應鏈\" 中的首選合作夥伴。\n2.  **車載監控系統**: 開發 **倒車顯影** 與 **盲區偵測系統**，成功打入日本重工機械與北美物流車隊。\n3.  **AI 與邊緣運算**: 整合人臉識別、車牌辨識於 NVR 與智慧終端。",
+    "entities": [
+      "NDAA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**SoC 晶片**: [[3034_聯詠|聯詠]], 原相.",
+        "entities": [
+          "3034_聯詠|聯詠"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**感光元件**: [[Sony]], [[OmniVision]].",
+        "entities": [
+          "Sony",
+          "OmniVision"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游應用**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**公共工程**: 機場、智慧城市標案。",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**特種車輛**: 貨車、垃圾車、巴士之環景系統。",
+        "entities": []
+      }
+    ],
+    "other": [
+      {
+        "category": "",
+        "text": "**終端產品製造 (本體)**: **昇銳 (3128)** - 安控攝影機、車用監控模組。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "歐美與日本安控設備 ODM 客戶如 [[Honeywell]]、[[Axis Communications]]。",
+        "entities": [
+          "Honeywell",
+          "Axis Communications"
+        ]
+      },
+      {
+        "role": "",
+        "text": "北美大型商用車隊設備商如 [[Fleet Complete]]。",
+        "entities": [
+          "Fleet Complete"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**安控晶片**: [[3034_聯詠|聯詠]].",
+        "entities": [
+          "3034_聯詠|聯詠"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Honeywell",
+          "Axis Communications",
+          "Fleet Complete"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "核心競爭力與佈局：",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "核心競爭力與佈局：",
+        "entities": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "NDAA",
+      "type": "international_company_or_term",
+      "wikilink": "NDAA"
+    },
+    {
+      "name": "3034_聯詠|聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3034_聯詠|聯詠"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "OmniVision",
+      "type": "international_company_or_term",
+      "wikilink": "OmniVision"
+    },
+    {
+      "name": "Honeywell",
+      "type": "international_company_or_term",
+      "wikilink": "Honeywell"
+    },
+    {
+      "name": "Axis Communications",
+      "type": "international_company_or_term",
+      "wikilink": "Axis Communications"
+    },
+    {
+      "name": "Fleet Complete",
+      "type": "international_company_or_term",
+      "wikilink": "Fleet Complete"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昇銳智慧科技 (Hi Sharp) 是台灣資深的 **安全監控 (Surveillance)** 系統製造商。\n公司已成功從類比攝影機轉型為 **AI 智慧監控** 與 **網路攝影機 (IP Cam)** 解決方案供應商。\n核心競爭力與佈局：\n1.  **安控去中化商機**: 受益於美國 **[[NDAA]] (國防授權法)**，成為歐美客戶在 \"非紅供應鏈\" 中的首選合作夥伴。\n2.  **車載監控系統**: 開發 **倒車顯影** 與 **盲區偵測系統**，成功打入日本重工機械與北美物流車隊。\n3.  **AI 與邊緣運算**: 整合人臉識別、車牌辨識於 NVR 與智慧終端。",
+    "supply_chain_md": "*   **終端產品製造 (本體)**: **昇銳 (3128)** - 安控攝影機、車用監控模組。\n*   **上游**:\n    *   **SoC 晶片**: [[3034_聯詠|聯詠]], 原相.\n    *   **感光元件**: [[Sony]], [[OmniVision]].\n*   **下游應用**:\n    *   **公共工程**: 機場、智慧城市標案。\n    *   **特種車輛**: 貨車、垃圾車、巴士之環景系統。",
+    "customers_suppliers_md": "### 主要客戶\n*   歐美與日本安控設備 ODM 客戶如 [[Honeywell]]、[[Axis Communications]]。\n*   北美大型商用車隊設備商如 [[Fleet Complete]]。\n\n### 主要供應商\n*   **安控晶片**: [[3034_聯詠|聯詠]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

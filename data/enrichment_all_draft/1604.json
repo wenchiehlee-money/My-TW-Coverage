@@ -1,0 +1,241 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1604",
+  "company_name": "聲寶",
+  "title": "1604 - 聲寶",
+  "source_md": "Pilot_Reports/Furnishings, Fixtures & Appliances/1604_聲寶.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "market_cap": "8,765 百萬台幣",
+    "enterprise_value": "15,477 百萬台幣"
+  },
+  "business": {
+    "summary": "聲寶 (1604，Sampo Corporation) 成立於 1936 年，總部位於桃園，為台灣老牌家電大廠。以自有品牌「SAMPO」行銷，產品涵蓋空調、冰箱、洗衣機、電視及各式小家電。聲寶集團旗下子公司[[瑞智精密]] (4532) 為全球前十大壓縮機製造商，確保關鍵零件垂直整合供應。聲寶透過[[全國電子]]、[[燦坤]]、[[家樂福]]、[[momo購物網]]等通路銷售，並深耕建設公司新建案配套市場。近年積極發展餐飲品牌「莞固和食」及樂齡宅「橘青春」等多角化事業。",
+    "entities": [
+      "瑞智精密",
+      "全國電子",
+      "燦坤",
+      "家樂福",
+      "momo購物網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "壓縮機",
+        "text": "[[瑞智精密]] (4532，聲寶子公司) — 冷氣/冰箱壓縮機",
+        "entities": [
+          "瑞智精密"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]] (2409)、[[群創]] (3481) — 電視面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "馬達、IC、不鏽鋼板、塑膠粒",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌與製造)",
+        "text": "**中游 (品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**聲寶** — 家電設計、組裝、品牌行銷及全台售後服務網絡",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與終端)",
+        "text": "**下游 (通路與終端):**",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "[[全國電子]]、[[燦坤]]、[[家樂福]]、[[momo購物網]]",
+        "entities": [
+          "全國電子",
+          "燦坤",
+          "家樂福",
+          "momo購物網"
+        ]
+      },
+      {
+        "category": "建設公司",
+        "text": "新建案家電配套",
+        "entities": []
+      },
+      {
+        "category": "政府標案",
+        "text": "機關採購",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "零售通路",
+        "text": "[[全國電子]]、[[燦坤]]、[[家樂福]]、[[momo購物網]] — B2C 通路銷售",
+        "entities": [
+          "全國電子",
+          "燦坤",
+          "家樂福",
+          "momo購物網"
+        ]
+      },
+      {
+        "role": "建設公司",
+        "text": "國內建商 — 新建案配套家電",
+        "entities": []
+      },
+      {
+        "role": "政府機關",
+        "text": "公家單位採購",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "壓縮機",
+        "text": "[[瑞智精密]] (4532，子公司) — 冷氣/冰箱用壓縮機",
+        "entities": [
+          "瑞智精密"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]] — 電視面板供應",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "電子零件",
+        "text": "國內外 IC 及被動元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Furnishings, Fixtures & Appliances):** [[伸興]]、[[中電]]、[[三洋電]]、[[艾美特-KY]]、[[和成]]",
+        "entities": [
+          "伸興",
+          "中電",
+          "三洋電",
+          "艾美特-KY",
+          "和成"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "全國電子",
+          "燦坤",
+          "家樂福",
+          "momo購物網"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "瑞智精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞智精密"
+    },
+    {
+      "name": "全國電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全國電子"
+    },
+    {
+      "name": "燦坤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燦坤"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "momo購物網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "momo購物網"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "伸興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伸興"
+    },
+    {
+      "name": "中電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中電"
+    },
+    {
+      "name": "三洋電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋電"
+    },
+    {
+      "name": "艾美特-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "艾美特-KY"
+    },
+    {
+      "name": "和成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和成"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聲寶 (1604，Sampo Corporation) 成立於 1936 年，總部位於桃園，為台灣老牌家電大廠。以自有品牌「SAMPO」行銷，產品涵蓋空調、冰箱、洗衣機、電視及各式小家電。聲寶集團旗下子公司[[瑞智精密]] (4532) 為全球前十大壓縮機製造商，確保關鍵零件垂直整合供應。聲寶透過[[全國電子]]、[[燦坤]]、[[家樂福]]、[[momo購物網]]等通路銷售，並深耕建設公司新建案配套市場。近年積極發展餐飲品牌「莞固和食」及樂齡宅「橘青春」等多角化事業。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **壓縮機:** [[瑞智精密]] (4532，聲寶子公司) — 冷氣/冰箱壓縮機\n- **面板:** [[友達]] (2409)、[[群創]] (3481) — 電視面板\n- **其他:** 馬達、IC、不鏽鋼板、塑膠粒\n\n**中游 (品牌與製造):**\n- **聲寶** — 家電設計、組裝、品牌行銷及全台售後服務網絡\n\n**下游 (通路與終端):**\n- **零售通路:** [[全國電子]]、[[燦坤]]、[[家樂福]]、[[momo購物網]]\n- **建設公司:** 新建案家電配套\n- **政府標案:** 機關採購",
+    "customers_suppliers_md": "### 主要客戶\n- **零售通路:** [[全國電子]]、[[燦坤]]、[[家樂福]]、[[momo購物網]] — B2C 通路銷售\n- **建設公司:** 國內建商 — 新建案配套家電\n- **政府機關:** 公家單位採購\n\n### 主要供應商\n- **壓縮機:** [[瑞智精密]] (4532，子公司) — 冷氣/冰箱用壓縮機\n- **面板:** [[友達]]、[[群創]] — 電視面板供應\n- **電子零件:** 國內外 IC 及被動元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

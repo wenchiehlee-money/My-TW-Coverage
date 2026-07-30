@@ -1,0 +1,218 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4534",
+  "company_name": "慶騰",
+  "title": "4534 - 慶騰",
+  "source_md": "Pilot_Reports/Metal Fabrication/4534_慶騰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "2,586 百萬台幣",
+    "enterprise_value": "2,678 百萬台幣"
+  },
+  "business": {
+    "summary": "慶騰精密 (4534，Trinity Precision) 專注[[粉末冶金]] (PM) 與[[金屬射出成型]] (MIM)。最大應用為[[電動工具]]齒輪/傳動件，客戶含[[Bosch]]、[[Makita]]、[[Stanley Black & Decker]]、[[TTI]] (含[[Milwaukee]])。上游金屬粉末來自[[Höganäs]] (瑞典，全球最大鐵粉廠)。另供汽車引擎/變速箱零件。",
+    "entities": [
+      "粉末冶金",
+      "金屬射出成型",
+      "電動工具",
+      "Bosch",
+      "Makita",
+      "Stanley Black & Decker",
+      "TTI",
+      "Milwaukee",
+      "Höganäs"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[Höganäs]] — 金屬粉末",
+        "entities": [
+          "Höganäs"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**慶騰** ([[粉末冶金]]/[[金屬射出成型]]精密零件)",
+        "entities": [
+          "粉末冶金",
+          "金屬射出成型"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[電動工具]]: [[Bosch]]、[[Makita]]、[[Stanley Black & Decker]]、[[TTI]]/[[Milwaukee]]",
+        "entities": [
+          "電動工具",
+          "Bosch",
+          "Makita",
+          "Stanley Black & Decker",
+          "TTI",
+          "Milwaukee"
+        ]
+      },
+      {
+        "category": "",
+        "text": "汽車引擎/變速箱",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Bosch]]、[[Makita]]、[[Stanley Black & Decker]]、[[TTI]]/[[Milwaukee]] — [[電動工具]]",
+        "entities": [
+          "Bosch",
+          "Makita",
+          "Stanley Black & Decker",
+          "TTI",
+          "Milwaukee",
+          "電動工具"
+        ]
+      },
+      {
+        "role": "",
+        "text": "汽車引擎/變速箱",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Höganäs]] — 金屬粉末",
+        "entities": [
+          "Höganäs"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Bosch",
+          "Makita",
+          "Stanley Black & Decker",
+          "TTI",
+          "Milwaukee",
+          "電動工具"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "粉末冶金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "粉末冶金"
+    },
+    {
+      "name": "金屬射出成型",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金屬射出成型"
+    },
+    {
+      "name": "電動工具",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動工具"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Makita",
+      "type": "international_company_or_term",
+      "wikilink": "Makita"
+    },
+    {
+      "name": "Stanley Black & Decker",
+      "type": "international_company_or_term",
+      "wikilink": "Stanley Black & Decker"
+    },
+    {
+      "name": "TTI",
+      "type": "international_company_or_term",
+      "wikilink": "TTI"
+    },
+    {
+      "name": "Milwaukee",
+      "type": "international_company_or_term",
+      "wikilink": "Milwaukee"
+    },
+    {
+      "name": "Höganäs",
+      "type": "international_company_or_term",
+      "wikilink": "Höganäs"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "慶騰精密 (4534，Trinity Precision) 專注[[粉末冶金]] (PM) 與[[金屬射出成型]] (MIM)。最大應用為[[電動工具]]齒輪/傳動件，客戶含[[Bosch]]、[[Makita]]、[[Stanley Black & Decker]]、[[TTI]] (含[[Milwaukee]])。上游金屬粉末來自[[Höganäs]] (瑞典，全球最大鐵粉廠)。另供汽車引擎/變速箱零件。",
+    "supply_chain_md": "**上游:** [[Höganäs]] — 金屬粉末\n**中游:** **慶騰** ([[粉末冶金]]/[[金屬射出成型]]精密零件)\n**下游:**\n- [[電動工具]]: [[Bosch]]、[[Makita]]、[[Stanley Black & Decker]]、[[TTI]]/[[Milwaukee]]\n- 汽車引擎/變速箱",
+    "customers_suppliers_md": "### 主要客戶\n- [[Bosch]]、[[Makita]]、[[Stanley Black & Decker]]、[[TTI]]/[[Milwaukee]] — [[電動工具]]\n- 汽車引擎/變速箱\n\n### 主要供應商\n- [[Höganäs]] — 金屬粉末"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

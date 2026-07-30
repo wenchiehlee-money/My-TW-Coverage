@@ -1,0 +1,268 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3548",
+  "company_name": "兆利",
+  "title": "3548 - 兆利",
+  "source_md": "Pilot_Reports/Electronic Components/3548_兆利.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,593 百萬台幣",
+    "enterprise_value": "1,950 百萬台幣"
+  },
+  "business": {
+    "summary": "兆利 (3548，[[Jarllytec]]) 為全球前三大筆電樞紐 (Hinge) 製造商，近年成功切入摺疊手機鉸鏈市場成為核心成長引擎。\n\n業務結構與動能：(1) 摺疊手機 — 為 [[Huawei]] 摺疊機主力鉸鏈供應商，同時供應 [[OPPO]]、[[小米]] 等品牌，摺疊手機營收占比已過半，獲利能力顯著優於傳統 NB 鉸鏈；(2) NB/Monitor — 供應 [[Apple]]、[[Dell]] 等品牌筆電鉸鏈，透過 [[廣達]]、[[英業達]] 等 ODM 廠出貨；(3) 摺疊 PC — 市場預期未來有望切入 [[Apple]] 摺疊產品供應鏈。核心技術為精密多軸鉸鏈設計與 MIM (金屬粉末射出成型) 製程。",
+    "entities": [
+      "Jarllytec",
+      "Huawei",
+      "OPPO",
+      "小米",
+      "Apple",
+      "Dell",
+      "廣達",
+      "英業達"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬與精密零件)",
+        "text": "**上游 (金屬與精密零件):**",
+        "entities": []
+      },
+      {
+        "category": "MIM 零件",
+        "text": "金屬粉末射出成型零件供應商",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "不鏽鋼與特殊鋼材供應商",
+        "entities": []
+      },
+      {
+        "category": "精密軸承",
+        "text": "微型軸承與彈簧供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (鉸鏈設計製造)",
+        "text": "**中游 (鉸鏈設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "摺疊手機鉸鏈",
+        "text": "**兆利** (多軸摺疊鉸鏈)",
+        "entities": []
+      },
+      {
+        "category": "NB 鉸鏈",
+        "text": "**兆利** (筆電轉軸設計製造)",
+        "entities": []
+      },
+      {
+        "category": "Monitor 鉸鏈",
+        "text": "**兆利** (顯示器支架與轉軸)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (手機品牌與NB ODM)",
+        "text": "**下游 (手機品牌與NB ODM):**",
+        "entities": []
+      },
+      {
+        "category": "摺疊手機",
+        "text": "[[Huawei]]、[[OPPO]]、[[小米]] — 摺疊手機鉸鏈",
+        "entities": [
+          "Huawei",
+          "OPPO",
+          "小米"
+        ]
+      },
+      {
+        "category": "NB 品牌",
+        "text": "[[Apple]]、[[Dell]] — NB 鉸鏈",
+        "entities": [
+          "Apple",
+          "Dell"
+        ]
+      },
+      {
+        "category": "NB ODM",
+        "text": "[[廣達]]、[[英業達]] — NB 鉸鏈代工出貨",
+        "entities": [
+          "廣達",
+          "英業達"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "摺疊手機",
+        "text": "[[Huawei]] — 摺疊機主力鉸鏈供應商",
+        "entities": [
+          "Huawei"
+        ]
+      },
+      {
+        "role": "摺疊手機",
+        "text": "[[OPPO]]、[[小米]] — 摺疊手機鉸鏈",
+        "entities": [
+          "OPPO",
+          "小米"
+        ]
+      },
+      {
+        "role": "NB 品牌",
+        "text": "[[Apple]]、[[Dell]] — 筆電鉸鏈",
+        "entities": [
+          "Apple",
+          "Dell"
+        ]
+      },
+      {
+        "role": "NB ODM",
+        "text": "[[廣達]]、[[英業達]] — NB 鉸鏈代工出貨",
+        "entities": [
+          "廣達",
+          "英業達"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "MIM 零件",
+        "text": "金屬粉末射出成型零件供應商",
+        "entities": []
+      },
+      {
+        "role": "鋼材",
+        "text": "不鏽鋼與特殊鋼材供應商",
+        "entities": []
+      },
+      {
+        "role": "精密零件",
+        "text": "微型軸承與彈簧供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Huawei",
+          "OPPO",
+          "小米",
+          "Apple",
+          "Dell",
+          "廣達",
+          "英業達"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Jarllytec",
+      "type": "international_company_or_term",
+      "wikilink": "Jarllytec"
+    },
+    {
+      "name": "Huawei",
+      "type": "international_company_or_term",
+      "wikilink": "Huawei"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "兆利 (3548，[[Jarllytec]]) 為全球前三大筆電樞紐 (Hinge) 製造商，近年成功切入摺疊手機鉸鏈市場成為核心成長引擎。\n\n業務結構與動能：(1) 摺疊手機 — 為 [[Huawei]] 摺疊機主力鉸鏈供應商，同時供應 [[OPPO]]、[[小米]] 等品牌，摺疊手機營收占比已過半，獲利能力顯著優於傳統 NB 鉸鏈；(2) NB/Monitor — 供應 [[Apple]]、[[Dell]] 等品牌筆電鉸鏈，透過 [[廣達]]、[[英業達]] 等 ODM 廠出貨；(3) 摺疊 PC — 市場預期未來有望切入 [[Apple]] 摺疊產品供應鏈。核心技術為精密多軸鉸鏈設計與 MIM (金屬粉末射出成型) 製程。",
+    "supply_chain_md": "**上游 (金屬與精密零件):**\n- **MIM 零件:** 金屬粉末射出成型零件供應商\n- **鋼材:** 不鏽鋼與特殊鋼材供應商\n- **精密軸承:** 微型軸承與彈簧供應商\n\n**中游 (鉸鏈設計製造):**\n- **摺疊手機鉸鏈:** **兆利** (多軸摺疊鉸鏈)\n- **NB 鉸鏈:** **兆利** (筆電轉軸設計製造)\n- **Monitor 鉸鏈:** **兆利** (顯示器支架與轉軸)\n\n**下游 (手機品牌與NB ODM):**\n- **摺疊手機:** [[Huawei]]、[[OPPO]]、[[小米]] — 摺疊手機鉸鏈\n- **NB 品牌:** [[Apple]]、[[Dell]] — NB 鉸鏈\n- **NB ODM:** [[廣達]]、[[英業達]] — NB 鉸鏈代工出貨",
+    "customers_suppliers_md": "### 主要客戶\n- **摺疊手機:** [[Huawei]] — 摺疊機主力鉸鏈供應商\n- **摺疊手機:** [[OPPO]]、[[小米]] — 摺疊手機鉸鏈\n- **NB 品牌:** [[Apple]]、[[Dell]] — 筆電鉸鏈\n- **NB ODM:** [[廣達]]、[[英業達]] — NB 鉸鏈代工出貨\n\n### 主要供應商\n- **MIM 零件:** 金屬粉末射出成型零件供應商\n- **鋼材:** 不鏽鋼與特殊鋼材供應商\n- **精密零件:** 微型軸承與彈簧供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3711",
+  "company_name": "日月光投控",
+  "title": "3711 - [[日月光投控]]投控",
+  "source_md": "Pilot_Reports/Semiconductors/3711_日月光投控.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "2,189,558 百萬台幣",
+    "enterprise_value": "2,364,243 百萬台幣"
+  },
+  "business": {
+    "summary": "[[日月光投控]]投控 (ASE Technology Holding) 成立於 2018 年 ([[日月光投控]]與[[矽品]]合併)，總部位於台灣[[高雄]]。公司為全球 **封測 (OSAT)** 龍頭，市佔率世界第一。主要業務分為 **半導體封測 (ATM)** (含[[日月光投控]]、[[矽品]]) 及 **電子代工服務 (EMS)** (環旭電子 USI)。[[日月光投控]]在 **先進封裝** (SiP, Fan-out, 2.5D/3D IC, [[CoWoS]]-S/L/R) 及 **異質整合** 技術領先，為 [[AI]]、[[5G]]、HPC 晶片之關鍵後段合作夥伴。",
+    "entities": [
+      "日月光投控",
+      "矽品",
+      "高雄",
+      "CoWoS",
+      "AI",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "晶圓代工廠 ([[台積電]]、[[聯電]]等)、IC 設計公司、IDM 廠。",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "系統廠 ([[Apple]], [[Dell]] 等)。",
+        "entities": [
+          "Apple",
+          "Dell"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "全球最大封測廠 (OSAT)。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "ATM (封測)",
+        "text": "[[Apple]] (最大客戶), [[Qualcomm]], [[Broadcom]], MTK, [[AMD]], [[NVIDIA]]。",
+        "entities": [
+          "Apple",
+          "Qualcomm",
+          "Broadcom",
+          "AMD",
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "EMS (環旭)",
+        "text": "[[Apple]] (SiP 模組), 穿戴裝置、車用電子客戶。",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "封測",
+        "text": "Amkor (美), 長電科技 (陸), [[力成]], 京元電。",
+        "entities": [
+          "力成"
+        ]
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "[[日月光投控]]投控 (ASE Technology Holding) 成立於 2018 年 ([[日月光投控]]與[[矽品]]合併)，總部位於台灣[[高雄]]。公司為全球 **封測 (OSAT)** 龍頭，市佔率世界第一。主要業務分為 **半導體封測 (ATM)** (含[[日月光投控]]、[[矽品]]) 及 **電子代工服務 (EMS)** (環旭電子 USI)。[[日月光投控]]在 **先進封裝** (SiP, Fan-out, 2.5D/3D IC, [[CoWoS]]-S/L/R) 及 **異質整合** 技術領先，為 [[AI]]、[[5G]]、HPC 晶片之關鍵後段合作夥伴。",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "高雄",
+          "CoWoS",
+          "AI",
+          "5G"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "高雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[日月光投控]]投控 (ASE Technology Holding) 成立於 2018 年 ([[日月光投控]]與[[矽品]]合併)，總部位於台灣[[高雄]]。公司為全球 **封測 (OSAT)** 龍頭，市佔率世界第一。主要業務分為 **半導體封測 (ATM)** (含[[日月光投控]]、[[矽品]]) 及 **電子代工服務 (EMS)** (環旭電子 USI)。[[日月光投控]]在 **先進封裝** (SiP, Fan-out, 2.5D/3D IC, [[CoWoS]]-S/L/R) 及 **異質整合** 技術領先，為 [[AI]]、[[5G]]、HPC 晶片之關鍵後段合作夥伴。",
+    "supply_chain_md": "**角色:** 全球最大封測廠 (OSAT)。\n**上游:** 晶圓代工廠 ([[台積電]]、[[聯電]]等)、IC 設計公司、IDM 廠。\n**下游:** 系統廠 ([[Apple]], [[Dell]] 等)。",
+    "customers_suppliers_md": "### 主要客戶\n- **ATM (封測):** [[Apple]] (最大客戶), [[Qualcomm]], [[Broadcom]], MTK, [[AMD]], [[NVIDIA]]。\n- **EMS (環旭):** [[Apple]] (SiP 模組), 穿戴裝置、車用電子客戶。\n\n### 競爭對手\n- **封測:** Amkor (美), 長電科技 (陸), [[力成]], 京元電。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

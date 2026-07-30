@@ -1,0 +1,283 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4551",
+  "company_name": "智伸科",
+  "title": "4551 - 智伸科",
+  "source_md": "Pilot_Reports/Auto Parts/4551_智伸科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "18,493 百萬台幣",
+    "enterprise_value": "15,189 百萬台幣"
+  },
+  "business": {
+    "summary": "智伸科技 (4551) 為精密 CNC 金屬加工廠，產品應用於汽車煞車、燃油噴射、變速箱、轉向及溫控系統。主要客戶為全球汽車 Tier 1 — [[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[ZF]]、[[Delphi]]，終端 OEM 涵蓋[[BMW]]、[[Stellantis]]、[[Tesla]]。近年積極拓展半導體設備 (供應 [[EUV]] 光刻機零組件，隱含客戶為[[ASML]])、醫療器材 (營收年增 409%) 及[[AI 伺服器]]水冷零組件 (2025 Q2 開始出貨) 等非汽車事業。越南及墨西哥設有新廠因應關稅轉移。",
+    "entities": [
+      "Continental",
+      "Bosch",
+      "Cummins",
+      "BorgWarner",
+      "ZF",
+      "Delphi",
+      "BMW",
+      "Stellantis",
+      "Tesla",
+      "EUV",
+      "ASML",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "鑄鐵、鋁合金、不鏽鋼棒材及鍛件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**智伸科** (精密 CNC 加工，台灣/越南/墨西哥工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (Tier 1 客戶)",
+        "text": "**下游 (Tier 1 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "汽車 Tier 1",
+        "text": "[[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[ZF]]、[[Delphi]]",
+        "entities": [
+          "Continental",
+          "Bosch",
+          "Cummins",
+          "BorgWarner",
+          "ZF",
+          "Delphi"
+        ]
+      },
+      {
+        "category": "終端 OEM",
+        "text": "[[BMW]]、[[Stellantis]]、[[Tesla]]",
+        "entities": [
+          "BMW",
+          "Stellantis",
+          "Tesla"
+        ]
+      },
+      {
+        "category": "半導體設備",
+        "text": "[[EUV]] 光刻機零組件 (隱含[[ASML]])",
+        "entities": [
+          "EUV",
+          "ASML"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "水冷零組件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "汽車 Tier 1",
+        "text": "[[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[ZF]]、[[Delphi]]",
+        "entities": [
+          "Continental",
+          "Bosch",
+          "Cummins",
+          "BorgWarner",
+          "ZF",
+          "Delphi"
+        ]
+      },
+      {
+        "role": "終端 OEM",
+        "text": "[[BMW]]、[[Stellantis]]、[[Tesla]]",
+        "entities": [
+          "BMW",
+          "Stellantis",
+          "Tesla"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[EUV]] 光刻機零組件 (隱含[[ASML]])",
+        "entities": [
+          "EUV",
+          "ASML"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "歐美日醫療器材廠 (營收年增 409%)",
+        "entities": []
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "水冷零組件 (2025 Q2 出貨)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬",
+        "text": "鑄鐵、鋁合金、不鏽鋼棒材/鍛件",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Continental",
+          "Bosch",
+          "Cummins",
+          "BorgWarner",
+          "ZF",
+          "Delphi",
+          "BMW",
+          "Stellantis",
+          "Tesla",
+          "EUV",
+          "ASML"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Cummins",
+      "type": "international_company_or_term",
+      "wikilink": "Cummins"
+    },
+    {
+      "name": "BorgWarner",
+      "type": "international_company_or_term",
+      "wikilink": "BorgWarner"
+    },
+    {
+      "name": "ZF",
+      "type": "international_company_or_term",
+      "wikilink": "ZF"
+    },
+    {
+      "name": "Delphi",
+      "type": "international_company_or_term",
+      "wikilink": "Delphi"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "Stellantis",
+      "type": "international_company_or_term",
+      "wikilink": "Stellantis"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "EUV",
+      "type": "technology",
+      "wikilink": "EUV"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "智伸科技 (4551) 為精密 CNC 金屬加工廠，產品應用於汽車煞車、燃油噴射、變速箱、轉向及溫控系統。主要客戶為全球汽車 Tier 1 — [[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[ZF]]、[[Delphi]]，終端 OEM 涵蓋[[BMW]]、[[Stellantis]]、[[Tesla]]。近年積極拓展半導體設備 (供應 [[EUV]] 光刻機零組件，隱含客戶為[[ASML]])、醫療器材 (營收年增 409%) 及[[AI 伺服器]]水冷零組件 (2025 Q2 開始出貨) 等非汽車事業。越南及墨西哥設有新廠因應關稅轉移。",
+    "supply_chain_md": "**上游 (原料):**\n- **金屬材料:** 鑄鐵、鋁合金、不鏽鋼棒材及鍛件\n\n**中游 (製造):**\n- **智伸科** (精密 CNC 加工，台灣/越南/墨西哥工廠)\n\n**下游 (Tier 1 客戶):**\n- **汽車 Tier 1:** [[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[ZF]]、[[Delphi]]\n- **終端 OEM:** [[BMW]]、[[Stellantis]]、[[Tesla]]\n- **半導體設備:** [[EUV]] 光刻機零組件 (隱含[[ASML]])\n- **AI 伺服器:** 水冷零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **汽車 Tier 1:** [[Continental]]、[[Bosch]]、[[Cummins]]、[[BorgWarner]]、[[ZF]]、[[Delphi]]\n- **終端 OEM:** [[BMW]]、[[Stellantis]]、[[Tesla]]\n- **半導體:** [[EUV]] 光刻機零組件 (隱含[[ASML]])\n- **醫療:** 歐美日醫療器材廠 (營收年增 409%)\n- **AI 伺服器:** 水冷零組件 (2025 Q2 出貨)\n\n### 主要供應商\n- **金屬:** 鑄鐵、鋁合金、不鏽鋼棒材/鍛件"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

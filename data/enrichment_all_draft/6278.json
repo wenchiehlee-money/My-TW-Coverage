@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6278",
+  "company_name": "台表科",
+  "title": "6278_台表科",
+  "source_md": "Pilot_Reports/Semiconductors/6278_台表科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "39,447 百萬台幣",
+    "enterprise_value": "29,727 百萬台幣"
+  },
+  "business": {
+    "summary": "台表科股份有限公司 (6278，TSMT) 是全球最大的表面黏著技術(SMT)及電子代工製造([[EMS]])服務商之一。台表科的加工服務橫跨多個產業，主要產品應用包含面板的液晶顯示模組(LCM)及驅動IC(T-Con)打件、[[記憶體]]模組([[DRAM]]/SSD)、LED照明、[[車用電子]]及[[Mini LED]]背光模組。挾著龐大的產能優勢與高度[[自動化]]的SMT產線，台表科成功切入[[Apple]]等國際大廠的[[Mini LED]]產品供應鏈，並積極將SMT打件技術擴展至高附加價值的[[半導體]]封裝及車用市場。",
+    "entities": [
+      "EMS",
+      "記憶體",
+      "DRAM",
+      "車用電子",
+      "Mini LED",
+      "自動化",
+      "Apple",
+      "半導體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 各類IC(如驅動IC、[[記憶體]]控制器)、[[PCB]]/FPC空板、[[Mini LED]]晶粒、被動元件及面板半成品。",
+        "entities": [
+          "記憶體",
+          "PCB",
+          "Mini LED"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **台表科** (表面黏著技術SMT打件、[[PCB]]組裝及LCM光電模組加工組裝代工)。",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 全球大型面板製造商、[[記憶體]]品牌商、[[消費性電子]]品牌及車用電子模組廠。",
+        "entities": [
+          "記憶體",
+          "消費性電子"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Apple]](iPad/MacBook之[[Mini LED]]打件)、美光([[Micron]])、[[友達]]、[[群創]]及各大[[電動車]]廠。",
+        "entities": [
+          "Apple",
+          "Mini LED",
+          "Micron",
+          "友達",
+          "群創",
+          "電動車"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外各大[[PCB]]廠、LED晶粒廠、被動元件大廠及[[半導體]]晶片通路商。",
+        "entities": [
+          "PCB",
+          "半導體"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "Mini LED",
+          "Micron",
+          "友達",
+          "群創",
+          "電動車"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "車用電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車用電子"
+    },
+    {
+      "name": "Mini LED",
+      "type": "international_company_or_term",
+      "wikilink": "Mini LED"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台表科股份有限公司 (6278，TSMT) 是全球最大的表面黏著技術(SMT)及電子代工製造([[EMS]])服務商之一。台表科的加工服務橫跨多個產業，主要產品應用包含面板的液晶顯示模組(LCM)及驅動IC(T-Con)打件、[[記憶體]]模組([[DRAM]]/SSD)、LED照明、[[車用電子]]及[[Mini LED]]背光模組。挾著龐大的產能優勢與高度[[自動化]]的SMT產線，台表科成功切入[[Apple]]等國際大廠的[[Mini LED]]產品供應鏈，並積極將SMT打件技術擴展至高附加價值的[[半導體]]封裝及車用市場。",
+    "supply_chain_md": "*   **上游**: 各類IC(如驅動IC、[[記憶體]]控制器)、[[PCB]]/FPC空板、[[Mini LED]]晶粒、被動元件及面板半成品。\n*   **中游**: **台表科** (表面黏著技術SMT打件、[[PCB]]組裝及LCM光電模組加工組裝代工)。\n*   **下游**: 全球大型面板製造商、[[記憶體]]品牌商、[[消費性電子]]品牌及車用電子模組廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Apple]](iPad/MacBook之[[Mini LED]]打件)、美光([[Micron]])、[[友達]]、[[群創]]及各大[[電動車]]廠。\n\n### 主要供應商\n*   國內外各大[[PCB]]廠、LED晶粒廠、被動元件大廠及[[半導體]]晶片通路商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

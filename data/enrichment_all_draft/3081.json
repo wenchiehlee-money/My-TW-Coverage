@@ -1,0 +1,265 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3081",
+  "company_name": "聯亞",
+  "title": "3081 - 聯亞",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/3081_聯亞.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "156,724 百萬台幣",
+    "enterprise_value": "155,087 百萬台幣"
+  },
+  "business": {
+    "summary": "聯亞光電 (3081) 是全球領先的 [[III-V 族]][[化合物半導體]][[磊晶]]與雷射光源製造商，核心技術為在[[磷化銦]] (InP) 基板上進行原子級精密[[磊晶]]。公司產品包括 InP 及 [[砷化鎵]] [[磊晶]]片、[[雷射二極體]] (LD) 及 [[LED]]，主要應用於[[光通訊]]、[[資料中心]]、[[矽光子]] (SiPho)/[[CPO]] 及工業醫療感測。聯亞站在[[矽光子]]/[[CPO]] 供應鏈中價值密度最高的關鍵上游位置。",
+    "entities": [
+      "III-V 族",
+      "化合物半導體",
+      "磊晶",
+      "磷化銦",
+      "砷化鎵",
+      "雷射二極體",
+      "LED",
+      "光通訊",
+      "資料中心",
+      "矽光子",
+      "CPO"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "InP 基板",
+        "text": "中國及日本 InP 基板供應 (分散風險)",
+        "entities": []
+      },
+      {
+        "category": "GaAs 基板",
+        "text": "砷化鎵晶圓供應",
+        "entities": []
+      },
+      {
+        "category": "MO[[CVD]] 設備",
+        "text": "[[磊晶]]設備",
+        "entities": [
+          "CVD",
+          "磊晶"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[磊晶]]與雷射製造)",
+        "text": "**中游 ([[磊晶]]與雷射製造):**",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "III-V [[磊晶]]",
+        "text": "**聯亞** (InP/GaAs [[磊晶]]片、雷射二極體、LED)",
+        "entities": [
+          "磊晶"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (光模組與系統)",
+        "text": "**下游 (光模組與系統):**",
+        "entities": []
+      },
+      {
+        "category": "光收發模組",
+        "text": "光通訊模組廠 ([[EML]]/[[VCSEL]] [[磊晶]]客戶)",
+        "entities": [
+          "EML",
+          "VCSEL",
+          "磊晶"
+        ]
+      },
+      {
+        "category": "[[資料中心]]",
+        "text": "超大規模[[資料中心]] ([[矽光子]]/[[CPO]] 趨勢受惠)",
+        "entities": [
+          "資料中心",
+          "矽光子",
+          "CPO"
+        ]
+      },
+      {
+        "category": "工業/醫療",
+        "text": "感測及醫療光源應用",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "光收發模組",
+        "text": "全球光通訊模組製造商",
+        "entities": []
+      },
+      {
+        "role": "[[資料中心]]",
+        "text": "超大規模雲端業者 ([[矽光子]]/[[CPO]] 供應鏈)",
+        "entities": [
+          "資料中心",
+          "矽光子",
+          "CPO"
+        ]
+      },
+      {
+        "role": "工業/醫療",
+        "text": "感測及醫療光源客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "InP 基板",
+        "text": "中國及日本 InP 基板供應商",
+        "entities": []
+      },
+      {
+        "role": "MO[[CVD]] 設備",
+        "text": "[[磊晶]]設備供應",
+        "entities": [
+          "CVD",
+          "磊晶"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[II-VI]] (Coherent)、[[Lumentum]]",
+        "entities": [
+          "II-VI",
+          "Lumentum"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[II-VI]] (Coherent)、[[Lumentum]]",
+        "entities": [
+          "II-VI",
+          "Lumentum"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "- **InP 基板:** 中國及日本 InP 基板供應 (分散風險)",
+        "entities": []
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "III-V 族",
+      "type": "taiwan_company_or_term",
+      "wikilink": "III-V 族"
+    },
+    {
+      "name": "化合物半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "化合物半導體"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "磷化銦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷化銦"
+    },
+    {
+      "name": "砷化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "砷化鎵"
+    },
+    {
+      "name": "雷射二極體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雷射二極體"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "光通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光通訊"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "CPO",
+      "type": "technology",
+      "wikilink": "CPO"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "EML",
+      "type": "international_company_or_term",
+      "wikilink": "EML"
+    },
+    {
+      "name": "VCSEL",
+      "type": "international_company_or_term",
+      "wikilink": "VCSEL"
+    },
+    {
+      "name": "II-VI",
+      "type": "international_company_or_term",
+      "wikilink": "II-VI"
+    },
+    {
+      "name": "Lumentum",
+      "type": "international_company_or_term",
+      "wikilink": "Lumentum"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯亞光電 (3081) 是全球領先的 [[III-V 族]][[化合物半導體]][[磊晶]]與雷射光源製造商，核心技術為在[[磷化銦]] (InP) 基板上進行原子級精密[[磊晶]]。公司產品包括 InP 及 [[砷化鎵]] [[磊晶]]片、[[雷射二極體]] (LD) 及 [[LED]]，主要應用於[[光通訊]]、[[資料中心]]、[[矽光子]] (SiPho)/[[CPO]] 及工業醫療感測。聯亞站在[[矽光子]]/[[CPO]] 供應鏈中價值密度最高的關鍵上游位置。",
+    "supply_chain_md": "**上游 (原料):**\n- **InP 基板:** 中國及日本 InP 基板供應 (分散風險)\n- **GaAs 基板:** 砷化鎵晶圓供應\n- **MO[[CVD]] 設備:** [[磊晶]]設備\n\n**中游 ([[磊晶]]與雷射製造):**\n- **III-V [[磊晶]]:** **聯亞** (InP/GaAs [[磊晶]]片、雷射二極體、LED)\n\n**下游 (光模組與系統):**\n- **光收發模組:** 光通訊模組廠 ([[EML]]/[[VCSEL]] [[磊晶]]客戶)\n- **[[資料中心]]:** 超大規模[[資料中心]] ([[矽光子]]/[[CPO]] 趨勢受惠)\n- **工業/醫療:** 感測及醫療光源應用",
+    "customers_suppliers_md": "### 主要客戶\n- **光收發模組:** 全球光通訊模組製造商\n- **[[資料中心]]:** 超大規模雲端業者 ([[矽光子]]/[[CPO]] 供應鏈)\n- **工業/醫療:** 感測及醫療光源客戶\n\n### 主要供應商\n- **InP 基板:** 中國及日本 InP 基板供應商\n- **MO[[CVD]] 設備:** [[磊晶]]設備供應\n- **競爭同業:** [[II-VI]] (Coherent)、[[Lumentum]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": []
+  }
+}

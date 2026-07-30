@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2115",
+  "company_name": "六暉-KY",
+  "title": "2115 - 六暉-KY",
+  "source_md": "Pilot_Reports/Auto Parts/2115_六暉-KY.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,249 百萬台幣",
+    "enterprise_value": "2,326 百萬台幣"
+  },
+  "business": {
+    "summary": "六暉-KY (2115，Liou Hwei) 為全球氣嘴 (valve stem) 領導廠商，全球市佔率約 10%。公司從橡膠配方到精密金屬加工垂直整合，產品供應全球主要輪胎廠及 TPMS 廠商。主要客戶涵蓋輪胎三巨頭[[普利司通]] (Bridgestone)、[[米其林]] (Michelin)、[[固特異]] (Goodyear)，以及台灣[[正新]] (Maxxis)、[[建大]] (Kenda)。TPMS 氣嘴供應[[為升]] (CUB Elecparts)、[[車王電]]。生產基地位於台灣彰化、中國廈門/崑山及印尼 (印尼二輪內胎市佔 60%)。另跨足手工具事業。",
+    "entities": [
+      "普利司通",
+      "米其林",
+      "固特異",
+      "正新",
+      "建大",
+      "為升",
+      "車王電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材/橡膠/五金",
+        "text": "垂直整合自主加工",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**六暉** (氣嘴製造，台灣/中國/印尼工廠；手工具事業)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "輪胎 OEM",
+        "text": "[[普利司通]]、[[米其林]]、[[固特異]]、[[正新]]、[[建大]] — 氣嘴供應",
+        "entities": [
+          "普利司通",
+          "米其林",
+          "固特異",
+          "正新",
+          "建大"
+        ]
+      },
+      {
+        "category": "TPMS 廠",
+        "text": "[[為升]]、[[車王電]] — TPMS 氣嘴零組件",
+        "entities": [
+          "為升",
+          "車王電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "輪胎三巨頭",
+        "text": "[[普利司通]]、[[米其林]]、[[固特異]] — 氣嘴 OEM",
+        "entities": [
+          "普利司通",
+          "米其林",
+          "固特異"
+        ]
+      },
+      {
+        "role": "台灣輪胎",
+        "text": "[[正新]]、[[建大]] — 氣嘴供應",
+        "entities": [
+          "正新",
+          "建大"
+        ]
+      },
+      {
+        "role": "TPMS",
+        "text": "[[為升]]、[[車王電]] — TPMS 氣嘴零組件",
+        "entities": [
+          "為升",
+          "車王電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "銅材、橡膠、五金零組件 (垂直整合)",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Auto Parts):** [[東陽]]、[[台翰]]、[[廣華-KY]]、[[昭輝]]、[[正道]]",
+        "entities": [
+          "東陽",
+          "台翰",
+          "廣華-KY",
+          "昭輝",
+          "正道"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "普利司通",
+          "米其林",
+          "固特異",
+          "正新",
+          "建大",
+          "為升",
+          "車王電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "普利司通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "普利司通"
+    },
+    {
+      "name": "米其林",
+      "type": "taiwan_company_or_term",
+      "wikilink": "米其林"
+    },
+    {
+      "name": "固特異",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固特異"
+    },
+    {
+      "name": "正新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正新"
+    },
+    {
+      "name": "建大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建大"
+    },
+    {
+      "name": "為升",
+      "type": "taiwan_company_or_term",
+      "wikilink": "為升"
+    },
+    {
+      "name": "車王電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車王電"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "台翰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台翰"
+    },
+    {
+      "name": "廣華-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣華-KY"
+    },
+    {
+      "name": "昭輝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昭輝"
+    },
+    {
+      "name": "正道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正道"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "六暉-KY (2115，Liou Hwei) 為全球氣嘴 (valve stem) 領導廠商，全球市佔率約 10%。公司從橡膠配方到精密金屬加工垂直整合，產品供應全球主要輪胎廠及 TPMS 廠商。主要客戶涵蓋輪胎三巨頭[[普利司通]] (Bridgestone)、[[米其林]] (Michelin)、[[固特異]] (Goodyear)，以及台灣[[正新]] (Maxxis)、[[建大]] (Kenda)。TPMS 氣嘴供應[[為升]] (CUB Elecparts)、[[車王電]]。生產基地位於台灣彰化、中國廈門/崑山及印尼 (印尼二輪內胎市佔 60%)。另跨足手工具事業。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅材/橡膠/五金:** 垂直整合自主加工\n\n**中游 (製造):**\n- **六暉** (氣嘴製造，台灣/中國/印尼工廠；手工具事業)\n\n**下游 (終端):**\n- **輪胎 OEM:** [[普利司通]]、[[米其林]]、[[固特異]]、[[正新]]、[[建大]] — 氣嘴供應\n- **TPMS 廠:** [[為升]]、[[車王電]] — TPMS 氣嘴零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **輪胎三巨頭:** [[普利司通]]、[[米其林]]、[[固特異]] — 氣嘴 OEM\n- **台灣輪胎:** [[正新]]、[[建大]] — 氣嘴供應\n- **TPMS:** [[為升]]、[[車王電]] — TPMS 氣嘴零組件\n\n### 主要供應商\n- **原料:** 銅材、橡膠、五金零組件 (垂直整合)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

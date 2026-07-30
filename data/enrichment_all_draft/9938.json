@@ -1,0 +1,241 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9938",
+  "company_name": "百和",
+  "title": "9938 - 百和",
+  "source_md": "Pilot_Reports/Textile Manufacturing/9938_百和.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "13,885 百萬台幣",
+    "enterprise_value": "26,141 百萬台幣"
+  },
+  "business": {
+    "summary": "[[百和]]興業 (Taiwan Paiho) 成立於1979年，總部位於台灣彰化，為全球最大之[[黏扣帶]] (Hook & Loop) 與鞋用輔料製造商之一。主要產品包括[[黏扣帶]]、織帶/鞋帶、鬆緊帶、射出鈎、[[緹花]]數位織物及工程網布鞋面 (Jacquard Engineered Mesh) 等。營收比重鞋類約60%、成衣約25%、3C產品約3%、醫療約2%。生產基地遍佈台灣、中國 (無錫、東莞)、越南及印尼，行銷據點設於美國加州及波特蘭。",
+    "entities": [
+      "百和",
+      "黏扣帶",
+      "緹花"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "採購尼龍絲、聚酯絲等化纖原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[黏扣帶]]織造、射出成型",
+        "entities": [
+          "黏扣帶"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[緹花]]數位織物及工程網布鞋面生產",
+        "entities": [
+          "緹花"
+        ]
+      },
+      {
+        "category": "",
+        "text": "織帶、鬆緊帶製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "鞋材",
+        "text": "供應給國際品牌指定之製鞋大廠",
+        "entities": []
+      },
+      {
+        "category": "成衣",
+        "text": "運動服飾輔料",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "護具、紙尿褲輔料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "運動品牌 (間接透過製鞋廠)",
+        "text": "[[Adidas]] (最大品牌佔比約23%)、[[Nike]] (約19%)、[[On Running]]、[[Hoka]]",
+        "entities": [
+          "Adidas",
+          "Nike",
+          "On Running",
+          "Hoka"
+        ]
+      },
+      {
+        "role": "製鞋代工",
+        "text": "[[寶成]]、[[豐泰]]等",
+        "entities": [
+          "寶成",
+          "豐泰"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "化纖原料",
+        "text": "[[南亞]]、[[力鵬]]等尼龍及聚酯原絲廠",
+        "entities": [
+          "南亞",
+          "力鵬"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Adidas",
+          "Nike",
+          "On Running",
+          "Hoka",
+          "寶成",
+          "豐泰"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "百和",
+      "type": "taiwan_company_or_term",
+      "wikilink": "百和"
+    },
+    {
+      "name": "黏扣帶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "黏扣帶"
+    },
+    {
+      "name": "緹花",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緹花"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "On Running",
+      "type": "international_company_or_term",
+      "wikilink": "On Running"
+    },
+    {
+      "name": "Hoka",
+      "type": "international_company_or_term",
+      "wikilink": "Hoka"
+    },
+    {
+      "name": "寶成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶成"
+    },
+    {
+      "name": "豐泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐泰"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "力鵬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力鵬"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[百和]]興業 (Taiwan Paiho) 成立於1979年，總部位於台灣彰化，為全球最大之[[黏扣帶]] (Hook & Loop) 與鞋用輔料製造商之一。主要產品包括[[黏扣帶]]、織帶/鞋帶、鬆緊帶、射出鈎、[[緹花]]數位織物及工程網布鞋面 (Jacquard Engineered Mesh) 等。營收比重鞋類約60%、成衣約25%、3C產品約3%、醫療約2%。生產基地遍佈台灣、中國 (無錫、東莞)、越南及印尼，行銷據點設於美國加州及波特蘭。",
+    "supply_chain_md": "**上游 (原料):**\n- 採購尼龍絲、聚酯絲等化纖原料\n\n**中游 (製造):**\n- [[黏扣帶]]織造、射出成型\n- [[緹花]]數位織物及工程網布鞋面生產\n- 織帶、鬆緊帶製造\n\n**下游 (終端應用):**\n- **鞋材:** 供應給國際品牌指定之製鞋大廠\n- **成衣:** 運動服飾輔料\n- **醫療:** 護具、紙尿褲輔料",
+    "customers_suppliers_md": "### 主要客戶\n- **運動品牌 (間接透過製鞋廠):** [[Adidas]] (最大品牌佔比約23%)、[[Nike]] (約19%)、[[On Running]]、[[Hoka]]\n- **製鞋代工:** [[寶成]]、[[豐泰]]等\n\n### 主要供應商\n- **化纖原料:** [[南亞]]、[[力鵬]]等尼龍及聚酯原絲廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

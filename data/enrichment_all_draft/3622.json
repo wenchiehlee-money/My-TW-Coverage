@@ -1,0 +1,266 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3622",
+  "company_name": "洋華",
+  "title": "3622 - 洋華",
+  "source_md": "Pilot_Reports/Electronic Components/3622_洋華.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "7,824 百萬台幣",
+    "enterprise_value": "2,373 百萬台幣"
+  },
+  "business": {
+    "summary": "洋華光電 (3622，[[Young Fast]]) 目前業務雙軌並行：機電工程與觸控面板。\n\n1. **機電工程 (主要獲利來源)**: 受惠於 [[台電]]「強韌電網計畫」，電纜接頭與終端匣訂單滿載。與日本 [[古河電氣]] (Furukawa Electric) 技術合作，產品具高度技術門檻。\n2. **觸控面板**: 早期為消費性電子觸控大廠，近年轉型至工控、醫療與車用等利基市場，避開紅海競爭。越南廠產能佔比高，具地緣政治優勢。",
+    "entities": [
+      "Young Fast",
+      "台電",
+      "古河電氣"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "機電",
+        "text": "銅材、絕緣材料、[[古河電氣]] 技術授權",
+        "entities": [
+          "古河電氣"
+        ]
+      },
+      {
+        "category": "光電",
+        "text": "[[ITO]] 薄膜、玻璃、觸控控制 IC",
+        "entities": [
+          "ITO"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "機電事業",
+        "text": "**洋華** (電纜配件與終端匣製造)",
+        "entities": []
+      },
+      {
+        "category": "觸控事業",
+        "text": "**洋華** (觸控模組貼合/越南廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電力工程",
+        "text": "[[台電]] — 強韌電網計畫電纜配件",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "電纜廠",
+        "text": "[[大亞電纜]]、[[華新麗華]] — 電纜附件",
+        "entities": [
+          "大亞電纜",
+          "華新麗華"
+        ]
+      },
+      {
+        "category": "工控/醫療",
+        "text": "工控設備、POS 機、醫療儀器面板",
+        "entities": []
+      },
+      {
+        "category": "電子紙",
+        "text": "[[元太科技]] — 電子紙觸控模組",
+        "entities": [
+          "元太科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力",
+        "text": "[[台電]] — 強韌電網計畫電纜接頭與終端匣",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "電纜",
+        "text": "[[大亞電纜]]、[[華新麗華]] — 電纜配件",
+        "entities": [
+          "大亞電纜",
+          "華新麗華"
+        ]
+      },
+      {
+        "role": "工控/醫療",
+        "text": "工控設備廠、醫療儀器商 — 觸控面板",
+        "entities": []
+      },
+      {
+        "role": "電子紙",
+        "text": "[[元太科技]] — 電子紙觸控模組",
+        "entities": [
+          "元太科技"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "技術授權",
+        "text": "[[古河電氣]] (Furukawa Electric) — 機電技術合作",
+        "entities": [
+          "古河電氣"
+        ]
+      },
+      {
+        "role": "觸控材料",
+        "text": "[[ITO]] 薄膜與玻璃基板供應商",
+        "entities": [
+          "ITO"
+        ]
+      },
+      {
+        "role": "銅材",
+        "text": "電纜用銅材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "大亞電纜",
+          "華新麗華",
+          "元太科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "2. **觸控面板**: 早期為消費性電子觸控大廠，近年轉型至工控、醫療與車用等利基市場，避開紅海競爭。越南廠產能佔比高，具地緣政治優勢。",
+        "entities": []
+      }
+    ],
+    "risks": [
+      {
+        "text": "2. **觸控面板**: 早期為消費性電子觸控大廠，近年轉型至工控、醫療與車用等利基市場，避開紅海競爭。越南廠產能佔比高，具地緣政治優勢。",
+        "entities": []
+      }
+    ],
+    "notes": [
+      {
+        "text": "2. **觸控面板**: 早期為消費性電子觸控大廠，近年轉型至工控、醫療與車用等利基市場，避開紅海競爭。越南廠產能佔比高，具地緣政治優勢。",
+        "entities": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "Young Fast",
+      "type": "international_company_or_term",
+      "wikilink": "Young Fast"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "古河電氣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "古河電氣"
+    },
+    {
+      "name": "ITO",
+      "type": "international_company_or_term",
+      "wikilink": "ITO"
+    },
+    {
+      "name": "大亞電纜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大亞電纜"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "元太科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元太科技"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "洋華光電 (3622，[[Young Fast]]) 目前業務雙軌並行：機電工程與觸控面板。\n\n1. **機電工程 (主要獲利來源)**: 受惠於 [[台電]]「強韌電網計畫」，電纜接頭與終端匣訂單滿載。與日本 [[古河電氣]] (Furukawa Electric) 技術合作，產品具高度技術門檻。\n2. **觸控面板**: 早期為消費性電子觸控大廠，近年轉型至工控、醫療與車用等利基市場，避開紅海競爭。越南廠產能佔比高，具地緣政治優勢。",
+    "supply_chain_md": "**上游 (原材料):**\n- **機電:** 銅材、絕緣材料、[[古河電氣]] 技術授權\n- **光電:** [[ITO]] 薄膜、玻璃、觸控控制 IC\n\n**中游 (製造加工):**\n- **機電事業:** **洋華** (電纜配件與終端匣製造)\n- **觸控事業:** **洋華** (觸控模組貼合/越南廠)\n\n**下游 (終端應用):**\n- **電力工程:** [[台電]] — 強韌電網計畫電纜配件\n- **電纜廠:** [[大亞電纜]]、[[華新麗華]] — 電纜附件\n- **工控/醫療:** 工控設備、POS 機、醫療儀器面板\n- **電子紙:** [[元太科技]] — 電子紙觸控模組",
+    "customers_suppliers_md": "### 主要客戶\n- **電力:** [[台電]] — 強韌電網計畫電纜接頭與終端匣\n- **電纜:** [[大亞電纜]]、[[華新麗華]] — 電纜配件\n- **工控/醫療:** 工控設備廠、醫療儀器商 — 觸控面板\n- **電子紙:** [[元太科技]] — 電子紙觸控模組\n\n### 主要供應商\n- **技術授權:** [[古河電氣]] (Furukawa Electric) — 機電技術合作\n- **觸控材料:** [[ITO]] 薄膜與玻璃基板供應商\n- **銅材:** 電纜用銅材供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

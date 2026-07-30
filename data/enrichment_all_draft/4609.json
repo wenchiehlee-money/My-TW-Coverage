@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4609",
+  "company_name": "唐鋒",
+  "title": "4609 - 唐鋒",
+  "source_md": "Pilot_Reports/Consumer Electronics/4609_唐鋒.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "242 百萬台幣",
+    "enterprise_value": "252 百萬台幣"
+  },
+  "business": {
+    "summary": "唐鋒實業股份有限公司 (4609) 總部位於桃園中壢，為小型家電 [[OEM]]/[[ODM]] 製造商。主要產品包括廚房家電（[[食物調理機]]、果汁機、攪拌棒）與居家小家電（電熱毯、電暖器）。營運模式以代工為主，外銷歐美市場。公司具備塑膠射出成型與馬達製造能力，部分關鍵零組件自製以控制成本。品牌 [[Airlux]] 亦有少量自有品牌銷售。",
+    "entities": [
+      "OEM",
+      "ODM",
+      "食物調理機",
+      "Airlux"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "工程塑膠原料（外殼用）",
+        "entities": []
+      },
+      {
+        "category": "馬達",
+        "text": "電動馬達（部分自製）",
+        "entities": []
+      },
+      {
+        "category": "加熱元件",
+        "text": "電熱絲/加熱管",
+        "entities": []
+      },
+      {
+        "category": "電子控制板",
+        "text": "[[PCB]] 控制電路板",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "包材",
+        "text": "外銷包裝材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (小家電組裝製造)",
+        "text": "**中游 (小家電組裝製造):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠射出",
+        "text": "**唐鋒** (外殼射出成型，部分自製)",
+        "entities": []
+      },
+      {
+        "category": "馬達製造",
+        "text": "**唐鋒** (小型馬達部分自製)",
+        "entities": []
+      },
+      {
+        "category": "產品組裝",
+        "text": "**唐鋒** (小家電組裝與安規測試)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (歐美品牌與通路)",
+        "text": "**下游 (歐美品牌與通路):**",
+        "entities": []
+      },
+      {
+        "category": "品牌商",
+        "text": "歐美家電品牌 — [[OEM]]/[[ODM]] 代工",
+        "entities": [
+          "OEM",
+          "ODM"
+        ]
+      },
+      {
+        "category": "零售通路",
+        "text": "[[Walmart]]、[[Target]] — 貼牌家電產品",
+        "entities": [
+          "Walmart",
+          "Target"
+        ]
+      },
+      {
+        "category": "進口商",
+        "text": "歐洲家電進口與經銷商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐美品牌",
+        "text": "歐美地區家電品牌商 — 小家電 OEM/ODM",
+        "entities": []
+      },
+      {
+        "role": "零售通路",
+        "text": "[[Walmart]]、[[Target]] — 美國大型賣場貼牌",
+        "entities": [
+          "Walmart",
+          "Target"
+        ]
+      },
+      {
+        "role": "歐洲進口商",
+        "text": "歐洲家電進口與經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠原料",
+        "text": "工程塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "馬達零組件",
+        "text": "馬達零件供應商（部分自製）",
+        "entities": []
+      },
+      {
+        "role": "電子元件",
+        "text": "[[PCB]] 控制板與加熱元件供應商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Consumer Electronics):** [[隴華]]、[[美律]]、[[良得電]]、[[美隆電]]、[[漢平]]",
+        "entities": [
+          "隴華",
+          "美律",
+          "良得電",
+          "美隆電",
+          "漢平"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Walmart",
+          "Target"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "食物調理機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "食物調理機"
+    },
+    {
+      "name": "Airlux",
+      "type": "international_company_or_term",
+      "wikilink": "Airlux"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Target",
+      "type": "international_company_or_term",
+      "wikilink": "Target"
+    },
+    {
+      "name": "隴華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隴華"
+    },
+    {
+      "name": "美律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美律"
+    },
+    {
+      "name": "良得電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "良得電"
+    },
+    {
+      "name": "美隆電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美隆電"
+    },
+    {
+      "name": "漢平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢平"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "唐鋒實業股份有限公司 (4609) 總部位於桃園中壢，為小型家電 [[OEM]]/[[ODM]] 製造商。主要產品包括廚房家電（[[食物調理機]]、果汁機、攪拌棒）與居家小家電（電熱毯、電暖器）。營運模式以代工為主，外銷歐美市場。公司具備塑膠射出成型與馬達製造能力，部分關鍵零組件自製以控制成本。品牌 [[Airlux]] 亦有少量自有品牌銷售。",
+    "supply_chain_md": "**上游 (零組件):**\n- **塑膠粒:** 工程塑膠原料（外殼用）\n- **馬達:** 電動馬達（部分自製）\n- **加熱元件:** 電熱絲/加熱管\n- **電子控制板:** [[PCB]] 控制電路板\n- **包材:** 外銷包裝材料\n\n**中游 (小家電組裝製造):**\n- **塑膠射出:** **唐鋒** (外殼射出成型，部分自製)\n- **馬達製造:** **唐鋒** (小型馬達部分自製)\n- **產品組裝:** **唐鋒** (小家電組裝與安規測試)\n\n**下游 (歐美品牌與通路):**\n- **品牌商:** 歐美家電品牌 — [[OEM]]/[[ODM]] 代工\n- **零售通路:** [[Walmart]]、[[Target]] — 貼牌家電產品\n- **進口商:** 歐洲家電進口與經銷商",
+    "customers_suppliers_md": "### 主要客戶\n- **歐美品牌:** 歐美地區家電品牌商 — 小家電 OEM/ODM\n- **零售通路:** [[Walmart]]、[[Target]] — 美國大型賣場貼牌\n- **歐洲進口商:** 歐洲家電進口與經銷商\n\n### 主要供應商\n- **塑膠原料:** 工程塑膠粒供應商\n- **馬達零組件:** 馬達零件供應商（部分自製）\n- **電子元件:** [[PCB]] 控制板與加熱元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

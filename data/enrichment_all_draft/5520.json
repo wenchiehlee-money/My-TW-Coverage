@@ -1,0 +1,253 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5520",
+  "company_name": "力泰",
+  "title": "5520 - 力泰",
+  "source_md": "Pilot_Reports/Building Materials/5520_力泰.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "4,846 百萬台幣",
+    "enterprise_value": "3,073 百萬台幣"
+  },
+  "business": {
+    "summary": "力泰建設 (5520，Lih Tai) 專注於[[預拌混凝土]]生產與銷售，服務範圍集中於大台北與桃園地區。核心競爭力為高強度混凝土技術，曾供應[[台北101]]、[[南山廣場]]等摩天大樓所需之 10,000 psi 以上高強度混凝土。力泰品質穩定，為豪宅與指標建案首選供應商。公司具備垂直整合能力，透過轉投資擁有砂石船隊與砂石場，掌握料源穩定性。雖名為「建設」，實則為績優預拌混凝土專業廠商。",
+    "entities": [
+      "預拌混凝土",
+      "台北101",
+      "南山廣場"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原物料取得)",
+        "text": "**上游 (原物料取得):**",
+        "entities": []
+      },
+      {
+        "category": "水泥",
+        "text": "大宗採購熟料與水泥，來自[[台灣水泥]]、[[亞洲水泥]]",
+        "entities": [
+          "台灣水泥",
+          "亞洲水泥"
+        ]
+      },
+      {
+        "category": "工業副產品",
+        "text": "飛灰與爐石，來自[[台電]]、[[中鋼]]",
+        "entities": [
+          "台電",
+          "中鋼"
+        ]
+      },
+      {
+        "category": "自有礦源",
+        "text": "透過轉投資掌握砂石場與砂石船隊",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (預拌混凝土生產)",
+        "text": "**中游 (預拌混凝土生產):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**力泰** — 高強度預拌混凝土生產與配送",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "指標建案",
+        "text": "[[台北101]]、[[南山廣場]]等摩天大樓",
+        "entities": [
+          "台北101",
+          "南山廣場"
+        ]
+      },
+      {
+        "category": "豪宅建案",
+        "text": "大台北與桃園地區高階住宅",
+        "entities": []
+      },
+      {
+        "category": "公共工程",
+        "text": "捷運、橋樑等基礎建設",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "指標建案",
+        "text": "[[台北101]]、[[南山廣場]] — 高強度混凝土供應",
+        "entities": [
+          "台北101",
+          "南山廣場"
+        ]
+      },
+      {
+        "role": "營造業",
+        "text": "大台北與桃園地區各級營造廠",
+        "entities": []
+      },
+      {
+        "role": "公共工程",
+        "text": "捷運工程、橋樑建設",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "水泥",
+        "text": "[[台灣水泥]]、[[亞洲水泥]] — 熟料與水泥",
+        "entities": [
+          "台灣水泥",
+          "亞洲水泥"
+        ]
+      },
+      {
+        "role": "工業副產品",
+        "text": "[[台電]] — 飛灰；[[中鋼]] — 爐石",
+        "entities": [
+          "台電",
+          "中鋼"
+        ]
+      },
+      {
+        "role": "砂石",
+        "text": "自有轉投資砂石場與船隊",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Building Materials):** [[台泥]]、[[亞泥]]、[[嘉泥]]、[[環泥]]、[[幸福]]",
+        "entities": [
+          "台泥",
+          "亞泥",
+          "嘉泥",
+          "環泥",
+          "幸福"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台北101",
+          "南山廣場"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "力泰建設 (5520，Lih Tai) 專注於[[預拌混凝土]]生產與銷售，服務範圍集中於大台北與桃園地區。核心競爭力為高強度混凝土技術，曾供應[[台北101]]、[[南山廣場]]等摩天大樓所需之 10,000 psi 以上高強度混凝土。力泰品質穩定，為豪宅與指標建案首選供應商。公司具備垂直整合能力，透過轉投資擁有砂石船隊與砂石場，掌握料源穩定性。雖名為「建設」，實則為績優預拌混凝土專業廠商。",
+        "entities": [
+          "預拌混凝土",
+          "台北101",
+          "南山廣場"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "力泰建設 (5520，Lih Tai) 專注於[[預拌混凝土]]生產與銷售，服務範圍集中於大台北與桃園地區。核心競爭力為高強度混凝土技術，曾供應[[台北101]]、[[南山廣場]]等摩天大樓所需之 10,000 psi 以上高強度混凝土。力泰品質穩定，為豪宅與指標建案首選供應商。公司具備垂直整合能力，透過轉投資擁有砂石船隊與砂石場，掌握料源穩定性。雖名為「建設」，實則為績優預拌混凝土專業廠商。",
+        "entities": [
+          "預拌混凝土",
+          "台北101",
+          "南山廣場"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "預拌混凝土",
+      "type": "taiwan_company_or_term",
+      "wikilink": "預拌混凝土"
+    },
+    {
+      "name": "台北101",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北101"
+    },
+    {
+      "name": "南山廣場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南山廣場"
+    },
+    {
+      "name": "台灣水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣水泥"
+    },
+    {
+      "name": "亞洲水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞洲水泥"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "台泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥"
+    },
+    {
+      "name": "亞泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞泥"
+    },
+    {
+      "name": "嘉泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉泥"
+    },
+    {
+      "name": "環泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環泥"
+    },
+    {
+      "name": "幸福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "幸福"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "力泰建設 (5520，Lih Tai) 專注於[[預拌混凝土]]生產與銷售，服務範圍集中於大台北與桃園地區。核心競爭力為高強度混凝土技術，曾供應[[台北101]]、[[南山廣場]]等摩天大樓所需之 10,000 psi 以上高強度混凝土。力泰品質穩定，為豪宅與指標建案首選供應商。公司具備垂直整合能力，透過轉投資擁有砂石船隊與砂石場，掌握料源穩定性。雖名為「建設」，實則為績優預拌混凝土專業廠商。",
+    "supply_chain_md": "**上游 (原物料取得):**\n- **水泥:** 大宗採購熟料與水泥，來自[[台灣水泥]]、[[亞洲水泥]]\n- **工業副產品:** 飛灰與爐石，來自[[台電]]、[[中鋼]]\n- **自有礦源:** 透過轉投資掌握砂石場與砂石船隊\n\n**中游 (預拌混凝土生產):**\n- **力泰** — 高強度預拌混凝土生產與配送\n\n**下游 (終端應用):**\n- **指標建案:** [[台北101]]、[[南山廣場]]等摩天大樓\n- **豪宅建案:** 大台北與桃園地區高階住宅\n- **公共工程:** 捷運、橋樑等基礎建設",
+    "customers_suppliers_md": "### 主要客戶\n- **指標建案:** [[台北101]]、[[南山廣場]] — 高強度混凝土供應\n- **營造業:** 大台北與桃園地區各級營造廠\n- **公共工程:** 捷運工程、橋樑建設\n\n### 主要供應商\n- **水泥:** [[台灣水泥]]、[[亞洲水泥]] — 熟料與水泥\n- **工業副產品:** [[台電]] — 飛灰；[[中鋼]] — 爐石\n- **砂石:** 自有轉投資砂石場與船隊"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

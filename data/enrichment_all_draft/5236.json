@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5236",
+  "company_name": "凌陽創新",
+  "title": "5236 - 凌陽創新",
+  "source_md": "Pilot_Reports/Semiconductors/5236_凌陽創新.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "8,251 百萬台幣",
+    "enterprise_value": "5,652 百萬台幣"
+  },
+  "business": {
+    "summary": "凌陽創新 (Sunplus Innovation) 成立於 2006 年 (自凌陽科技分割)，總部位於台灣[[新竹]]。公司專注於 **人機介面 (HMI)** 及 **影像處理 (ISP)** 晶片設計。主力產品為 **Webcam Controller (網路攝影機控制晶片)** (全球市佔率領先) 及 **Mouse/Keyboard Controller (滑鼠/鍵盤控制晶片)**。產品廣泛應用於筆記型電腦 (NB)、外接式 Webcam 及電腦週邊。近期受惠於 **AI PC** 搭載高階鏡頭趨勢，高階 ISP 出貨佔比提升。",
+    "entities": [
+      "新竹"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "晶圓代工 ([[台積電]]、[[聯電]])、封測廠。",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "NB 代工廠 ([[廣達]]、[[仁寶]]等)、Webcam 品牌 (Logitech)、滑鼠鍵盤廠。",
+        "entities": [
+          "廣達",
+          "仁寶"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "PC 週邊 IC 設計 (ISP / HID)。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "NB 品牌",
+        "text": "[[Dell]], [[HP]], [[Lenovo]], ASUS, Acer (透過 [[ODM]] 出貨)。",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "ODM"
+        ]
+      },
+      {
+        "role": "Webcam",
+        "text": "羅技 (Logitech)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "ISP",
+        "text": "[[瑞昱]]、松翰 (Sonix)。",
+        "entities": [
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "HID",
+        "text": "義隆 (Elan)、原相 (Pixart)。",
+        "entities": []
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "凌陽創新 (Sunplus Innovation) 成立於 2006 年 (自凌陽科技分割)，總部位於台灣[[新竹]]。公司專注於 **人機介面 (HMI)** 及 **影像處理 (ISP)** 晶片設計。主力產品為 **Webcam Controller (網路攝影機控制晶片)** (全球市佔率領先) 及 **Mouse/Keyboard Controller (滑鼠/鍵盤控制晶片)**。產品廣泛應用於筆記型電腦 (NB)、外接式 Webcam 及電腦週邊。近期受惠於 **AI PC** 搭載高階鏡頭趨勢，高階 ISP 出貨佔比提升。",
+    "supply_chain_md": "**角色:** PC 週邊 IC 設計 (ISP / HID)。\n**上游:** 晶圓代工 ([[台積電]]、[[聯電]])、封測廠。\n**下游:** NB 代工廠 ([[廣達]]、[[仁寶]]等)、Webcam 品牌 (Logitech)、滑鼠鍵盤廠。",
+    "customers_suppliers_md": "### 主要客戶\n- **NB 品牌:** [[Dell]], [[HP]], [[Lenovo]], ASUS, Acer (透過 [[ODM]] 出貨)。\n- **Webcam:** 羅技 (Logitech)。\n\n### 競爭對手\n- **ISP:** [[瑞昱]]、松翰 (Sonix)。\n- **HID:** 義隆 (Elan)、原相 (Pixart)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

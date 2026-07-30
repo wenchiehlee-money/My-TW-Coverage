@@ -1,0 +1,195 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9962",
+  "company_name": "有益",
+  "title": "9962 - 有益",
+  "source_md": "Pilot_Reports/Steel/9962_有益.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "881 百萬台幣",
+    "enterprise_value": "1,067 百萬台幣"
+  },
+  "business": {
+    "summary": "有益鋼鐵 (9962，Yeou Yih Steel) 為台灣唯一且全球前三大[[不鏽鋼]]厚板專業廠。產品涵蓋[[不鏽鋼]]熱軋厚板、鋼片、鋼捲及扁鋼，外銷韓國/泰國/越南/馬來西亞/日本/新加坡/歐洲。應用於石化壓力容器、造船、食品製藥設備及能源設備。上游板坯來自[[燁聯]] (9957)、[[華新麗華]]、[[唐榮]]及國際鋼廠。",
+    "entities": [
+      "不鏽鋼",
+      "燁聯",
+      "華新麗華",
+      "唐榮"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[燁聯]]、[[華新麗華]]、[[唐榮]] — [[不鏽鋼]]板坯",
+        "entities": [
+          "燁聯",
+          "華新麗華",
+          "唐榮",
+          "不鏽鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**有益** ([[不鏽鋼]]厚板熱軋/裁切/表面處理)",
+        "entities": [
+          "不鏽鋼"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "石化設備 — 壓力容器/反應槽",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "造船 — 船用厚板",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "食品/製藥 — 衛生級板材",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "能源 — 電廠/風電設備",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "石化設備廠 — 壓力容器",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "造船廠 — [[不鏽鋼]]厚板",
+        "entities": [
+          "不鏽鋼"
+        ]
+      },
+      {
+        "role": "",
+        "text": "食品/製藥機械 — 衛生級",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "國際貿易商 (韓/日/東南亞/歐洲)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[燁聯]]、[[華新麗華]]、[[唐榮]] — 板坯",
+        "entities": [
+          "燁聯",
+          "華新麗華",
+          "唐榮"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "不鏽鋼"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "不鏽鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不鏽鋼"
+    },
+    {
+      "name": "燁聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁聯"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "唐榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "唐榮"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "有益鋼鐵 (9962，Yeou Yih Steel) 為台灣唯一且全球前三大[[不鏽鋼]]厚板專業廠。產品涵蓋[[不鏽鋼]]熱軋厚板、鋼片、鋼捲及扁鋼，外銷韓國/泰國/越南/馬來西亞/日本/新加坡/歐洲。應用於石化壓力容器、造船、食品製藥設備及能源設備。上游板坯來自[[燁聯]] (9957)、[[華新麗華]]、[[唐榮]]及國際鋼廠。",
+    "supply_chain_md": "**上游:** [[燁聯]]、[[華新麗華]]、[[唐榮]] — [[不鏽鋼]]板坯\n**中游:** **有益** ([[不鏽鋼]]厚板熱軋/裁切/表面處理)\n**下游:**\n- 石化設備 — 壓力容器/反應槽\n- 造船 — 船用厚板\n- 食品/製藥 — 衛生級板材\n- 能源 — 電廠/風電設備",
+    "customers_suppliers_md": "### 主要客戶\n- 石化設備廠 — 壓力容器\n- 造船廠 — [[不鏽鋼]]厚板\n- 食品/製藥機械 — 衛生級\n- 國際貿易商 (韓/日/東南亞/歐洲)\n\n### 主要供應商\n- [[燁聯]]、[[華新麗華]]、[[唐榮]] — 板坯"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

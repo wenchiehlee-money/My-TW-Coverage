@@ -1,0 +1,285 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6530",
+  "company_name": "創威",
+  "title": "6530 - 創威",
+  "source_md": "Pilot_Reports/Communication Equipment/6530_創威.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,184 百萬台幣",
+    "enterprise_value": "1,734 百萬台幣"
+  },
+  "business": {
+    "summary": "創威光電 (6530，[[Axcen Photonics]]) 為台灣精實的光收發模組及光學次模組 (OSA: TOSA/ROSA/BOSA) 研發製造商，母公司為[[鈺創科技]]。公司深耕光通訊領域，具備光學次模組自行封裝與整合能力，朝上游垂直整合發展。\n\n主力產品涵蓋 SFP/SFP+/SFP28 各代次[[光收發模組]]，應用於電信骨幹網絡、[[資料中心]]及工業控制場域。近年積極研發[[矽光子]]及 [[CPO]] 共封裝光學技術，布局 25G/100G 高速率產品，力爭接軌[[台積電]]半導體封裝生態系。工控應用佔營收比重持續提升，目標逾 50%。",
+    "entities": [
+      "Axcen Photonics",
+      "鈺創科技",
+      "光收發模組",
+      "資料中心",
+      "矽光子",
+      "CPO",
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學元件與磊晶片)",
+        "text": "**上游 (光學元件與磊晶片):**",
+        "entities": []
+      },
+      {
+        "category": "TO-CAN 元件",
+        "text": "[[華星光]] (4979) — TO-CAN 封裝金屬殼體及光學次模組料件",
+        "entities": [
+          "華星光"
+        ]
+      },
+      {
+        "category": "光學元件",
+        "text": "[[光環]] (3234) — 光學次模組料件",
+        "entities": [
+          "光環"
+        ]
+      },
+      {
+        "category": "磊晶片",
+        "text": "[[聯亞光電]] (3081) — InP/GaAs III-V 族磊晶片",
+        "entities": [
+          "聯亞光電"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光收發模組 ODM 製造)",
+        "text": "**中游 (光收發模組 ODM 製造):**",
+        "entities": []
+      },
+      {
+        "category": "光模組",
+        "text": "**創威** (SFP/SFP+/SFP28 光收發模組)",
+        "entities": []
+      },
+      {
+        "category": "光學次模組",
+        "text": "**創威** (TOSA/ROSA/BOSA 自行封裝)",
+        "entities": []
+      },
+      {
+        "category": "矽光子研發",
+        "text": "**創威** ([[CPO]] 共封裝光學前沿布局)",
+        "entities": [
+          "CPO"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信接取與工控自動化)",
+        "text": "**下游 (電信接取與工控自動化):**",
+        "entities": []
+      },
+      {
+        "category": "電信商",
+        "text": "[[中華電信]] — A 級光模組認證供應商",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "category": "工控自動化",
+        "text": "[[研華]] (2395) — 工業智慧製造光通訊模組",
+        "entities": [
+          "研華"
+        ]
+      },
+      {
+        "category": "資料中心",
+        "text": "AI 資料中心網路設備供應商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信商",
+        "text": "[[中華電信]] — A 級認證光模組供應商",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "工控自動化",
+        "text": "[[研華]] (2395) — 工業智慧製造光通訊模組",
+        "entities": [
+          "研華"
+        ]
+      },
+      {
+        "role": "資料中心",
+        "text": "AI 資料中心營運商及網路設備供應商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "TO-CAN 元件",
+        "text": "[[華星光]] (4979) — 精密光學封裝基座",
+        "entities": [
+          "華星光"
+        ]
+      },
+      {
+        "role": "光學元件",
+        "text": "[[光環]] (3234) — 光學次模組料件",
+        "entities": [
+          "光環"
+        ]
+      },
+      {
+        "role": "磊晶片",
+        "text": "[[聯亞光電]] (3081) — III-V 族半導體磊晶片",
+        "entities": [
+          "聯亞光電"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[鈺創科技]] — 研發資金及客戶支援",
+        "entities": [
+          "鈺創科技"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "研華"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Axcen Photonics",
+      "type": "international_company_or_term",
+      "wikilink": "Axcen Photonics"
+    },
+    {
+      "name": "鈺創科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈺創科技"
+    },
+    {
+      "name": "光收發模組",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光收發模組"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "CPO",
+      "type": "technology",
+      "wikilink": "CPO"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "華星光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華星光"
+    },
+    {
+      "name": "光環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光環"
+    },
+    {
+      "name": "聯亞光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯亞光電"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "創威光電 (6530，[[Axcen Photonics]]) 為台灣精實的光收發模組及光學次模組 (OSA: TOSA/ROSA/BOSA) 研發製造商，母公司為[[鈺創科技]]。公司深耕光通訊領域，具備光學次模組自行封裝與整合能力，朝上游垂直整合發展。\n\n主力產品涵蓋 SFP/SFP+/SFP28 各代次[[光收發模組]]，應用於電信骨幹網絡、[[資料中心]]及工業控制場域。近年積極研發[[矽光子]]及 [[CPO]] 共封裝光學技術，布局 25G/100G 高速率產品，力爭接軌[[台積電]]半導體封裝生態系。工控應用佔營收比重持續提升，目標逾 50%。",
+    "supply_chain_md": "**上游 (光學元件與磊晶片):**\n- **TO-CAN 元件:** [[華星光]] (4979) — TO-CAN 封裝金屬殼體及光學次模組料件\n- **光學元件:** [[光環]] (3234) — 光學次模組料件\n- **磊晶片:** [[聯亞光電]] (3081) — InP/GaAs III-V 族磊晶片\n\n**中游 (光收發模組 ODM 製造):**\n- **光模組:** **創威** (SFP/SFP+/SFP28 光收發模組)\n- **光學次模組:** **創威** (TOSA/ROSA/BOSA 自行封裝)\n- **矽光子研發:** **創威** ([[CPO]] 共封裝光學前沿布局)\n\n**下游 (電信接取與工控自動化):**\n- **電信商:** [[中華電信]] — A 級光模組認證供應商\n- **工控自動化:** [[研華]] (2395) — 工業智慧製造光通訊模組\n- **資料中心:** AI 資料中心網路設備供應商",
+    "customers_suppliers_md": "### 主要客戶\n- **電信商:** [[中華電信]] — A 級認證光模組供應商\n- **工控自動化:** [[研華]] (2395) — 工業智慧製造光通訊模組\n- **資料中心:** AI 資料中心營運商及網路設備供應商\n\n### 主要供應商\n- **TO-CAN 元件:** [[華星光]] (4979) — 精密光學封裝基座\n- **光學元件:** [[光環]] (3234) — 光學次模組料件\n- **磊晶片:** [[聯亞光電]] (3081) — III-V 族半導體磊晶片\n- **母公司:** [[鈺創科技]] — 研發資金及客戶支援"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

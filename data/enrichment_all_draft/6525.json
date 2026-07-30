@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6525",
+  "company_name": "捷敏-KY",
+  "title": "6525_捷敏-KY",
+  "source_md": "Pilot_Reports/Semiconductors/6525_捷敏-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "15,550 百萬台幣",
+    "enterprise_value": "12,579 百萬台幣"
+  },
+  "business": {
+    "summary": "捷敏股份有限公司 (6525，捷敏-KY / Gem Services) 隸屬於[[聯鈞]]集團，是全球前三大的專業功率[[半導體]]封裝測試代工廠(OSAT)。捷敏-KY專注於分離式元件的後段封測，尤其是高壓/低壓的金氧半場效電晶體(Power [[MOSFET]])、絕緣閘雙載子電晶體([[IGBT]])及電源管理IC。受惠於國際整合元件廠(IDM)持續擴大委外代工(Outsourcing)趨勢，以及[[AI[[伺服器]]]]、[[電動車]]、充電樁帶動的高功率電源轉換需求，捷敏-KY積極擴充產能並切入[[第三代[[半導體]]]]([[碳化矽]][[碳化矽]]、[[氮化鎵]][[氮化鎵]])的先進高壓封裝模組市場。",
+    "entities": [
+      "聯鈞",
+      "半導體",
+      "MOSFET",
+      "IGBT",
+      "AI[[伺服器",
+      "電動車",
+      "第三代[[半導體",
+      "碳化矽",
+      "氮化鎵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 銅/鐵[[導線架]]、晶片黏著膠(Epoxy)、焊線(金線/銅線/鋁線)及環氧樹脂封裝膠(EMC)。",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **捷敏-KY** (Power [[MOSFET]]、[[IGBT]]等高功率[[半導體]]分離式元件的專業封裝測試代工)。",
+        "entities": [
+          "MOSFET",
+          "IGBT",
+          "半導體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 整合元件廠(IDM)、分離式元件設計公司(Fabless)及消費性/工控/車用電源模組廠。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "全球各大電源管理IDM廠及無晶圓廠功率元件設計公司(台灣客戶佔逾四成)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "界霖(主要[[碳化矽]]/[[MOSFET]][[導線架]]供應商)及長華等[[半導體]]封裝材料/設備通路商。",
+        "entities": [
+          "碳化矽",
+          "MOSFET",
+          "導線架",
+          "半導體"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductors):** [[聯電]]、[[華泰]]、[[台積電]]、[[旺宏]]、[[台亞]]",
+        "entities": [
+          "聯電",
+          "華泰",
+          "台積電",
+          "旺宏",
+          "台亞"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯鈞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯鈞"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "第三代[[半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "第三代[[半導體"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "華泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華泰"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "捷敏股份有限公司 (6525，捷敏-KY / Gem Services) 隸屬於[[聯鈞]]集團，是全球前三大的專業功率[[半導體]]封裝測試代工廠(OSAT)。捷敏-KY專注於分離式元件的後段封測，尤其是高壓/低壓的金氧半場效電晶體(Power [[MOSFET]])、絕緣閘雙載子電晶體([[IGBT]])及電源管理IC。受惠於國際整合元件廠(IDM)持續擴大委外代工(Outsourcing)趨勢，以及[[AI[[伺服器]]]]、[[電動車]]、充電樁帶動的高功率電源轉換需求，捷敏-KY積極擴充產能並切入[[第三代[[半導體]]]]([[碳化矽]][[碳化矽]]、[[氮化鎵]][[氮化鎵]])的先進高壓封裝模組市場。",
+    "supply_chain_md": "*   **上游**: 銅/鐵[[導線架]]、晶片黏著膠(Epoxy)、焊線(金線/銅線/鋁線)及環氧樹脂封裝膠(EMC)。\n*   **中游**: **捷敏-KY** (Power [[MOSFET]]、[[IGBT]]等高功率[[半導體]]分離式元件的專業封裝測試代工)。\n*   **下游**: 整合元件廠(IDM)、分離式元件設計公司(Fabless)及消費性/工控/車用電源模組廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   全球各大電源管理IDM廠及無晶圓廠功率元件設計公司(台灣客戶佔逾四成)。\n\n### 主要供應商\n*   界霖(主要[[碳化矽]]/[[MOSFET]][[導線架]]供應商)及長華等[[半導體]]封裝材料/設備通路商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1614",
+  "company_name": "三洋電",
+  "title": "1614 - 三洋電",
+  "source_md": "Pilot_Reports/Furnishings, Fixtures & Appliances/1614_三洋電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "market_cap": "8,105 百萬台幣",
+    "enterprise_value": "7,078 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣三洋電機 (1614，SANLUX) 成立於 1963 年，總部位於台北，由日本[[三洋電機]]與台灣本地資本合資設立。後因日本三洋被 [[Panasonic]] 收購，台灣經營層買回股權獨立經營，以自有品牌「SANLUX」(台灣三洋) 行銷。主要產品涵蓋空調、冰箱、洗衣機、冷凍櫃等白色家電及視聽家電，以高性價比及完善售後服務體系深耕台灣市場。台灣三洋擁有數十年養成的衛星工廠供應體系，重要部件自製率維持高水準，泰山廠為主要生產基地。",
+    "entities": [
+      "三洋電機",
+      "Panasonic"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "壓縮機",
+        "text": "外購為主",
+        "entities": []
+      },
+      {
+        "category": "馬達",
+        "text": "國內馬達供應商",
+        "entities": []
+      },
+      {
+        "category": "面板/控制器",
+        "text": "電子零組件供應商",
+        "entities": []
+      },
+      {
+        "category": "鋼板/塑膠",
+        "text": "金屬及塑膠原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌與製造)",
+        "text": "**中游 (品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台灣三洋** — 洗衣機、冰箱、冷凍櫃製造 (泰山廠)；SANLUX 品牌行銷及全台售後服務網絡",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與終端)",
+        "text": "**下游 (通路與終端):**",
+        "entities": []
+      },
+      {
+        "category": "傳統經銷",
+        "text": "全台經銷商及服務站",
+        "entities": []
+      },
+      {
+        "category": "量販通路",
+        "text": "[[全國電子]]、[[燦坤]]、[[家樂福]]、[[大潤發]]",
+        "entities": [
+          "全國電子",
+          "燦坤",
+          "家樂福",
+          "大潤發"
+        ]
+      },
+      {
+        "category": "商用客戶",
+        "text": "餐飲業者 — 商用冷凍櫃",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經銷體系",
+        "text": "全台傳統電器行及經銷服務站",
+        "entities": []
+      },
+      {
+        "role": "量販通路",
+        "text": "[[全國電子]]、[[燦坤]]、[[家樂福]]、[[大潤發]]",
+        "entities": [
+          "全國電子",
+          "燦坤",
+          "家樂福",
+          "大潤發"
+        ]
+      },
+      {
+        "role": "商用客戶",
+        "text": "餐飲業者 — 商用冷凍櫃採購",
+        "entities": []
+      },
+      {
+        "role": "一般消費者",
+        "text": "台灣家庭",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "壓縮機",
+        "text": "國際壓縮機大廠",
+        "entities": []
+      },
+      {
+        "role": "衛星工廠",
+        "text": "數十年合作之零組件協力廠體系",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Furnishings, Fixtures & Appliances):** [[伸興]]、[[聲寶]]、[[中電]]、[[艾美特-KY]]、[[和成]]",
+        "entities": [
+          "伸興",
+          "聲寶",
+          "中電",
+          "艾美特-KY",
+          "和成"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "全國電子",
+          "燦坤",
+          "家樂福",
+          "大潤發"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "三洋電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋電機"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "全國電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全國電子"
+    },
+    {
+      "name": "燦坤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燦坤"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "大潤發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大潤發"
+    },
+    {
+      "name": "伸興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伸興"
+    },
+    {
+      "name": "聲寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聲寶"
+    },
+    {
+      "name": "中電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中電"
+    },
+    {
+      "name": "艾美特-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "艾美特-KY"
+    },
+    {
+      "name": "和成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和成"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣三洋電機 (1614，SANLUX) 成立於 1963 年，總部位於台北，由日本[[三洋電機]]與台灣本地資本合資設立。後因日本三洋被 [[Panasonic]] 收購，台灣經營層買回股權獨立經營，以自有品牌「SANLUX」(台灣三洋) 行銷。主要產品涵蓋空調、冰箱、洗衣機、冷凍櫃等白色家電及視聽家電，以高性價比及完善售後服務體系深耕台灣市場。台灣三洋擁有數十年養成的衛星工廠供應體系，重要部件自製率維持高水準，泰山廠為主要生產基地。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **壓縮機:** 外購為主\n- **馬達:** 國內馬達供應商\n- **面板/控制器:** 電子零組件供應商\n- **鋼板/塑膠:** 金屬及塑膠原料\n\n**中游 (品牌與製造):**\n- **台灣三洋** — 洗衣機、冰箱、冷凍櫃製造 (泰山廠)；SANLUX 品牌行銷及全台售後服務網絡\n\n**下游 (通路與終端):**\n- **傳統經銷:** 全台經銷商及服務站\n- **量販通路:** [[全國電子]]、[[燦坤]]、[[家樂福]]、[[大潤發]]\n- **商用客戶:** 餐飲業者 — 商用冷凍櫃",
+    "customers_suppliers_md": "### 主要客戶\n- **經銷體系:** 全台傳統電器行及經銷服務站\n- **量販通路:** [[全國電子]]、[[燦坤]]、[[家樂福]]、[[大潤發]]\n- **商用客戶:** 餐飲業者 — 商用冷凍櫃採購\n- **一般消費者:** 台灣家庭\n\n### 主要供應商\n- **壓縮機:** 國際壓縮機大廠\n- **衛星工廠:** 數十年合作之零組件協力廠體系"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -158,7 +158,23 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **PC controller and mixed-signal IC overlap:** [[新唐]]、[[ENE Technology]]、[[瑞昱]]、[[祥碩]]",
+        "entities": [
+          "新唐",
+          "ENE Technology",
+          "瑞昱",
+          "祥碩"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "廣達",
+          "仁寶",
+          "英業達"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -263,6 +279,26 @@
       "name": "英業達",
       "type": "taiwan_company_or_term",
       "wikilink": "英業達"
+    },
+    {
+      "name": "新唐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新唐"
+    },
+    {
+      "name": "ENE Technology",
+      "type": "international_company_or_term",
+      "wikilink": "ENE Technology"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "祥碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "祥碩"
     }
   ],
   "source_text": {
@@ -274,6 +310,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 19,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

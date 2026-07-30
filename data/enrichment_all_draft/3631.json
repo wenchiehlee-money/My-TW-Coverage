@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3631",
+  "company_name": "晟楠",
+  "title": "3631 - 晟楠",
+  "source_md": "Pilot_Reports/Metal Fabrication/3631_晟楠.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "2,610 百萬台幣",
+    "enterprise_value": "3,393 百萬台幣"
+  },
+  "business": {
+    "summary": "晟楠焊錫 (3631，Chernan [[Meta]]l) 為專業焊錫材料製造商，產品含錫棒、錫絲、錫球、錫膏及助焊劑，應用於[[PCB]]組裝 ([[SMT]]製程) 及波峰焊接。下游客戶含[[PCB]]廠及[[EMS]]代工廠如[[鴻海]]、[[和碩]]、[[廣達]]組裝線。同業含[[昇貿科技]]。",
+    "entities": [
+      "Meta",
+      "PCB",
+      "SMT",
+      "EMS",
+      "鴻海",
+      "和碩",
+      "廣達",
+      "昇貿科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "國際錫錠精煉商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**晟楠** (錫棒/錫絲/錫球/錫膏/助焊劑)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[PCB]]廠 — [[HAL]]製程",
+        "entities": [
+          "PCB",
+          "HAL"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[EMS]]: [[鴻海]]、[[和碩]]、[[廣達]] — [[SMT]]焊接",
+        "entities": [
+          "EMS",
+          "鴻海",
+          "和碩",
+          "廣達",
+          "SMT"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[PCB]]廠 — 焊錫材料",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[EMS]]: [[鴻海]]、[[和碩]]、[[廣達]]",
+        "entities": [
+          "EMS",
+          "鴻海",
+          "和碩",
+          "廣達"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國際錫錠精煉商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "PCB",
+          "EMS",
+          "鴻海",
+          "和碩",
+          "廣達"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "SMT",
+      "type": "international_company_or_term",
+      "wikilink": "SMT"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "昇貿科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昇貿科技"
+    },
+    {
+      "name": "HAL",
+      "type": "international_company_or_term",
+      "wikilink": "HAL"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晟楠焊錫 (3631，Chernan [[Meta]]l) 為專業焊錫材料製造商，產品含錫棒、錫絲、錫球、錫膏及助焊劑，應用於[[PCB]]組裝 ([[SMT]]製程) 及波峰焊接。下游客戶含[[PCB]]廠及[[EMS]]代工廠如[[鴻海]]、[[和碩]]、[[廣達]]組裝線。同業含[[昇貿科技]]。",
+    "supply_chain_md": "**上游:** 國際錫錠精煉商\n**中游:** **晟楠** (錫棒/錫絲/錫球/錫膏/助焊劑)\n**下游:**\n- [[PCB]]廠 — [[HAL]]製程\n- [[EMS]]: [[鴻海]]、[[和碩]]、[[廣達]] — [[SMT]]焊接",
+    "customers_suppliers_md": "### 主要客戶\n- [[PCB]]廠 — 焊錫材料\n- [[EMS]]: [[鴻海]]、[[和碩]]、[[廣達]]\n\n### 主要供應商\n- 國際錫錠精煉商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

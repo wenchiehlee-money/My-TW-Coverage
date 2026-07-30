@@ -1,0 +1,212 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7702",
+  "company_name": "前端風電",
+  "title": "7702 - 前端風電",
+  "source_md": "Pilot_Reports/Metal Fabrication/7702_前端風電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "1,346 百萬台幣",
+    "enterprise_value": "1,831 百萬台幣"
+  },
+  "business": {
+    "summary": "前端風電 (7702，APEX Wind) 為台灣[[離岸風電]]水下基礎鋼構加工廠。專精極厚鋼板捲圓、精密焊接與防蝕塗裝。主要生產Pin Pile基樁及Jacket套管管件。上游鋼板來自[[中鋼]]、[[新光鋼]]。下游承攬商含[[世紀鋼]]、[[興達海基]]，間接服務風場開發商[[沃旭能源]]、[[CIP]]、[[wpd]]。",
+    "entities": [
+      "離岸風電",
+      "中鋼",
+      "新光鋼",
+      "世紀鋼",
+      "興達海基",
+      "沃旭能源",
+      "CIP",
+      "wpd"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[中鋼]]、[[新光鋼]] — 特規厚鋼板",
+        "entities": [
+          "中鋼",
+          "新光鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**前端風電** ([[離岸風電]]Pin Pile/Jacket管件焊接加工)",
+        "entities": [
+          "離岸風電"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[世紀鋼]]、[[興達海基]] — 水下基礎總承攬",
+        "entities": [
+          "世紀鋼",
+          "興達海基"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[沃旭能源]]、[[CIP]]、[[wpd]] — 風場開發",
+        "entities": [
+          "沃旭能源",
+          "CIP",
+          "wpd"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[世紀鋼]]、[[興達海基]] — 水下基礎",
+        "entities": [
+          "世紀鋼",
+          "興達海基"
+        ]
+      },
+      {
+        "role": "",
+        "text": "間接: [[沃旭能源]]、[[CIP]]、[[wpd]]",
+        "entities": [
+          "沃旭能源",
+          "CIP",
+          "wpd"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[中鋼]]、[[新光鋼]] — 厚鋼板",
+        "entities": [
+          "中鋼",
+          "新光鋼"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Metal Fabrication):** [[旭東環保]]、[[勤美]]、[[濱川]]、[[精剛]]、[[和勤]]",
+        "entities": [
+          "旭東環保",
+          "勤美",
+          "濱川",
+          "精剛",
+          "和勤"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "世紀鋼",
+          "興達海基",
+          "沃旭能源",
+          "CIP",
+          "wpd"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "離岸風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "離岸風電"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "新光鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光鋼"
+    },
+    {
+      "name": "世紀鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀鋼"
+    },
+    {
+      "name": "興達海基",
+      "type": "taiwan_company_or_term",
+      "wikilink": "興達海基"
+    },
+    {
+      "name": "沃旭能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沃旭能源"
+    },
+    {
+      "name": "CIP",
+      "type": "international_company_or_term",
+      "wikilink": "CIP"
+    },
+    {
+      "name": "wpd",
+      "type": "international_company_or_term",
+      "wikilink": "wpd"
+    },
+    {
+      "name": "旭東環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旭東環保"
+    },
+    {
+      "name": "勤美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勤美"
+    },
+    {
+      "name": "濱川",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濱川"
+    },
+    {
+      "name": "精剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精剛"
+    },
+    {
+      "name": "和勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "前端風電 (7702，APEX Wind) 為台灣[[離岸風電]]水下基礎鋼構加工廠。專精極厚鋼板捲圓、精密焊接與防蝕塗裝。主要生產Pin Pile基樁及Jacket套管管件。上游鋼板來自[[中鋼]]、[[新光鋼]]。下游承攬商含[[世紀鋼]]、[[興達海基]]，間接服務風場開發商[[沃旭能源]]、[[CIP]]、[[wpd]]。",
+    "supply_chain_md": "**上游:** [[中鋼]]、[[新光鋼]] — 特規厚鋼板\n**中游:** **前端風電** ([[離岸風電]]Pin Pile/Jacket管件焊接加工)\n**下游:**\n- [[世紀鋼]]、[[興達海基]] — 水下基礎總承攬\n- [[沃旭能源]]、[[CIP]]、[[wpd]] — 風場開發",
+    "customers_suppliers_md": "### 主要客戶\n- [[世紀鋼]]、[[興達海基]] — 水下基礎\n- 間接: [[沃旭能源]]、[[CIP]]、[[wpd]]\n\n### 主要供應商\n- [[中鋼]]、[[新光鋼]] — 厚鋼板"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

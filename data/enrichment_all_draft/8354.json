@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8354",
+  "company_name": "冠好",
+  "title": "8354 - 冠好",
+  "source_md": "Pilot_Reports/Specialty Chemicals/8354_冠好.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "1,186 百萬台幣",
+    "enterprise_value": "2,184 百萬台幣"
+  },
+  "business": {
+    "summary": "冠好科技 (8354，Koan Hao Technology) 成立於 1981 年，專業製造離型紙、離型膜、感壓自黏標籤 (PSA)、[[聚醯亞胺]] (PI) 保護膜、PET 保護膜、工業雙面膠帶、電子膠帶及[[QFN]]封裝膠帶。產品應用橫跨[[半導體]]封裝 ([[QFN]]/IC 封裝膠帶)、電子光學、汽車、物流包裝及食品飲料包裝。上游基膜來自[[杜邦]] (Kapton PI 膜)、[[東麗]] (PET 膜)、[[SKC]]。下游半導體封裝客戶涵蓋封測廠及 IC 封裝業。",
+    "entities": [
+      "聚醯亞胺",
+      "QFN",
+      "半導體",
+      "杜邦",
+      "東麗",
+      "SKC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "PI 膜",
+        "text": "[[杜邦]] — Kapton [[聚醯亞胺]]膜",
+        "entities": [
+          "杜邦",
+          "聚醯亞胺"
+        ]
+      },
+      {
+        "category": "PET 膜",
+        "text": "[[東麗]] (Toray)、[[SKC]] — 光學/電子級 PET",
+        "entities": [
+          "東麗",
+          "SKC"
+        ]
+      },
+      {
+        "category": "膠黏劑",
+        "text": "膠黏劑化學原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**冠好** (離型紙/離型膜/PSA 標籤/[[QFN]]封裝膠帶/PI 保護膜/電子膠帶)",
+        "entities": [
+          "QFN"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體封裝",
+        "text": "[[QFN]]/IC 封裝膠帶 — 封測廠",
+        "entities": [
+          "QFN"
+        ]
+      },
+      {
+        "category": "電子光學",
+        "text": "電子代工廠",
+        "entities": []
+      },
+      {
+        "category": "物流/食品",
+        "text": "包裝標籤客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "封測廠 — [[QFN]]/IC 封裝膠帶",
+        "entities": [
+          "QFN"
+        ]
+      },
+      {
+        "role": "電子",
+        "text": "電子代工廠 — 電子膠帶/保護膜",
+        "entities": []
+      },
+      {
+        "role": "包裝",
+        "text": "物流/食品包裝 — PSA 標籤",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PI 膜",
+        "text": "[[杜邦]] — Kapton [[聚醯亞胺]]",
+        "entities": [
+          "杜邦",
+          "聚醯亞胺"
+        ]
+      },
+      {
+        "role": "PET 膜",
+        "text": "[[東麗]]、[[SKC]]",
+        "entities": [
+          "東麗",
+          "SKC"
+        ]
+      },
+      {
+        "role": "膠黏劑",
+        "text": "化學原料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "QFN"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聚醯亞胺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚醯亞胺"
+    },
+    {
+      "name": "QFN",
+      "type": "international_company_or_term",
+      "wikilink": "QFN"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "杜邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杜邦"
+    },
+    {
+      "name": "東麗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東麗"
+    },
+    {
+      "name": "SKC",
+      "type": "international_company_or_term",
+      "wikilink": "SKC"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "冠好科技 (8354，Koan Hao Technology) 成立於 1981 年，專業製造離型紙、離型膜、感壓自黏標籤 (PSA)、[[聚醯亞胺]] (PI) 保護膜、PET 保護膜、工業雙面膠帶、電子膠帶及[[QFN]]封裝膠帶。產品應用橫跨[[半導體]]封裝 ([[QFN]]/IC 封裝膠帶)、電子光學、汽車、物流包裝及食品飲料包裝。上游基膜來自[[杜邦]] (Kapton PI 膜)、[[東麗]] (PET 膜)、[[SKC]]。下游半導體封裝客戶涵蓋封測廠及 IC 封裝業。",
+    "supply_chain_md": "**上游 (原料):**\n- **PI 膜:** [[杜邦]] — Kapton [[聚醯亞胺]]膜\n- **PET 膜:** [[東麗]] (Toray)、[[SKC]] — 光學/電子級 PET\n- **膠黏劑:** 膠黏劑化學原料\n\n**中游 (製造):**\n- **冠好** (離型紙/離型膜/PSA 標籤/[[QFN]]封裝膠帶/PI 保護膜/電子膠帶)\n\n**下游 (終端):**\n- **半導體封裝:** [[QFN]]/IC 封裝膠帶 — 封測廠\n- **電子光學:** 電子代工廠\n- **物流/食品:** 包裝標籤客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** 封測廠 — [[QFN]]/IC 封裝膠帶\n- **電子:** 電子代工廠 — 電子膠帶/保護膜\n- **包裝:** 物流/食品包裝 — PSA 標籤\n\n### 主要供應商\n- **PI 膜:** [[杜邦]] — Kapton [[聚醯亞胺]]\n- **PET 膜:** [[東麗]]、[[SKC]]\n- **膠黏劑:** 化學原料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

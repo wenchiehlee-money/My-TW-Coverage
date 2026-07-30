@@ -1,0 +1,283 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3021",
+  "company_name": "鴻名",
+  "title": "3021 - 鴻名",
+  "source_md": "Pilot_Reports/Computer Hardware/3021_鴻名.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "1,907 百萬台幣",
+    "enterprise_value": "1,788 百萬台幣"
+  },
+  "business": {
+    "summary": "鴻名 (3021，[[Welltend]]) 為專業線材連接器 (Wire Harness) 製造商，同時擁有系統整合 (SI) 事業群。線材事業群佔營收大宗，深耕家電與事務機 (印表機) 領域，主要客戶均為日系大廠。\n\n近年積極拓展車用電子與[[電動車]]線束市場，如車載影音、電池管理系統 (BMS) 線束及[[ADAS]] 相關線材。系統整合事業群代理資訊設備與資安服務，提供穩定現金流。生產基地遍佈中國、菲律賓、泰國，具備東南亞製造優勢，有效分散地緣政治風險。",
+    "entities": [
+      "Welltend",
+      "電動車",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (線材原料與端子)",
+        "text": "**上游 (線材原料與端子):**",
+        "entities": []
+      },
+      {
+        "category": "銅線",
+        "text": "銅材供應商 — 線束核心導體",
+        "entities": []
+      },
+      {
+        "category": "PVC 膠料",
+        "text": "絕緣被覆材料",
+        "entities": []
+      },
+      {
+        "category": "端子/連接器",
+        "text": "[[Molex]]、[[JST]] 等連接器供應商",
+        "entities": [
+          "Molex",
+          "JST"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (線束組裝製造)",
+        "text": "**中游 (線束組裝製造):**",
+        "entities": []
+      },
+      {
+        "category": "線束代工",
+        "text": "**鴻名** (家電/事務機/車用線束組裝)",
+        "entities": []
+      },
+      {
+        "category": "海外產能",
+        "text": "中國、菲律賓、泰國工廠",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (日系品牌與車用)",
+        "text": "**下游 (日系品牌與車用):**",
+        "entities": []
+      },
+      {
+        "category": "日系家電",
+        "text": "[[Panasonic]]、[[Daikin]]、[[Hitachi]] — 空調/冰箱線束",
+        "entities": [
+          "Panasonic",
+          "Daikin",
+          "Hitachi"
+        ]
+      },
+      {
+        "category": "事務機",
+        "text": "[[Canon]]、[[Epson]] — 印表機內部線材",
+        "entities": [
+          "Canon",
+          "Epson"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "國際車載系統 Tier 1 廠 — BMS/[[ADAS]] 線束",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "category": "系統整合",
+        "text": "企業客戶 — 資訊設備與資安服務",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日系家電",
+        "text": "[[Panasonic]]、[[Daikin]]、[[Hitachi]] — 空調、冰箱內部線束",
+        "entities": [
+          "Panasonic",
+          "Daikin",
+          "Hitachi"
+        ]
+      },
+      {
+        "role": "事務機",
+        "text": "[[Canon]]、[[Epson]] — 印表機線材組件",
+        "entities": [
+          "Canon",
+          "Epson"
+        ]
+      },
+      {
+        "role": "車用電子",
+        "text": "國際車載系統 Tier 1 廠 — BMS 與[[ADAS]] 線束",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "role": "系統整合",
+        "text": "國內企業客戶 — 資訊設備代理與資安服務",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材",
+        "text": "銅線與銅帶供應商",
+        "entities": []
+      },
+      {
+        "role": "連接器",
+        "text": "[[Molex]]、[[JST]] — 端子與連接器",
+        "entities": [
+          "Molex",
+          "JST"
+        ]
+      },
+      {
+        "role": "被覆材料",
+        "text": "PVC 膠料及絕緣材料廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Panasonic",
+          "Daikin",
+          "Hitachi",
+          "Canon",
+          "Epson",
+          "ADAS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "近年積極拓展車用電子與[[電動車]]線束市場，如車載影音、電池管理系統 (BMS) 線束及[[ADAS]] 相關線材。系統整合事業群代理資訊設備與資安服務，提供穩定現金流。生產基地遍佈中國、菲律賓、泰國，具備東南亞製造優勢，有效分散地緣政治風險。",
+        "entities": [
+          "電動車",
+          "ADAS"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Welltend",
+      "type": "international_company_or_term",
+      "wikilink": "Welltend"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Molex",
+      "type": "international_company_or_term",
+      "wikilink": "Molex"
+    },
+    {
+      "name": "JST",
+      "type": "international_company_or_term",
+      "wikilink": "JST"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "Daikin",
+      "type": "international_company_or_term",
+      "wikilink": "Daikin"
+    },
+    {
+      "name": "Hitachi",
+      "type": "international_company_or_term",
+      "wikilink": "Hitachi"
+    },
+    {
+      "name": "Canon",
+      "type": "international_company_or_term",
+      "wikilink": "Canon"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鴻名 (3021，[[Welltend]]) 為專業線材連接器 (Wire Harness) 製造商，同時擁有系統整合 (SI) 事業群。線材事業群佔營收大宗，深耕家電與事務機 (印表機) 領域，主要客戶均為日系大廠。\n\n近年積極拓展車用電子與[[電動車]]線束市場，如車載影音、電池管理系統 (BMS) 線束及[[ADAS]] 相關線材。系統整合事業群代理資訊設備與資安服務，提供穩定現金流。生產基地遍佈中國、菲律賓、泰國，具備東南亞製造優勢，有效分散地緣政治風險。",
+    "supply_chain_md": "**上游 (線材原料與端子):**\n- **銅線:** 銅材供應商 — 線束核心導體\n- **PVC 膠料:** 絕緣被覆材料\n- **端子/連接器:** [[Molex]]、[[JST]] 等連接器供應商\n\n**中游 (線束組裝製造):**\n- **線束代工:** **鴻名** (家電/事務機/車用線束組裝)\n- **海外產能:** 中國、菲律賓、泰國工廠\n\n**下游 (日系品牌與車用):**\n- **日系家電:** [[Panasonic]]、[[Daikin]]、[[Hitachi]] — 空調/冰箱線束\n- **事務機:** [[Canon]]、[[Epson]] — 印表機內部線材\n- **車用電子:** 國際車載系統 Tier 1 廠 — BMS/[[ADAS]] 線束\n- **系統整合:** 企業客戶 — 資訊設備與資安服務",
+    "customers_suppliers_md": "### 主要客戶\n- **日系家電:** [[Panasonic]]、[[Daikin]]、[[Hitachi]] — 空調、冰箱內部線束\n- **事務機:** [[Canon]]、[[Epson]] — 印表機線材組件\n- **車用電子:** 國際車載系統 Tier 1 廠 — BMS 與[[ADAS]] 線束\n- **系統整合:** 國內企業客戶 — 資訊設備代理與資安服務\n\n### 主要供應商\n- **銅材:** 銅線與銅帶供應商\n- **連接器:** [[Molex]]、[[JST]] — 端子與連接器\n- **被覆材料:** PVC 膠料及絕緣材料廠商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

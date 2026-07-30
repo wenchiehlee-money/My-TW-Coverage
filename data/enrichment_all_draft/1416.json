@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1416",
+  "company_name": "廣豐",
+  "title": "1416 - 廣豐",
+  "source_md": "Pilot_Reports/Information Technology Services/1416_廣豐.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "1,992 百萬台幣",
+    "enterprise_value": "2,834 百萬台幣"
+  },
+  "business": {
+    "summary": "廣豐實業 (1416) 創立於 1968 年，早期以紡織品牌產銷起家，近年成功轉型為營建開發、資產管理及數位科技服務之多元企業集團。營建事業涵蓋住宅及商用不動產開發與銷售，曾於桃園八德斥資 30 億元興建「廣豐新天地」購物中心 (現為置地生活廣場)。數位科技事業透過轉投資子公司發展[[金融科技]]與智能投資理財平台。公司亦從事商業大樓出租及資產活化。",
+    "entities": [
+      "金融科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與服務)",
+        "text": "**上游 (原料與服務):**",
+        "entities": []
+      },
+      {
+        "category": "營建材料",
+        "text": "鋼筋、水泥、建材供應商",
+        "entities": []
+      },
+      {
+        "category": "營造服務",
+        "text": "營造工程承攬商",
+        "entities": []
+      },
+      {
+        "category": "軟體開發",
+        "text": "資訊系統與[[金融科技]]開發團隊",
+        "entities": [
+          "金融科技"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與平台營運)",
+        "text": "**中游 (開發與平台營運):**",
+        "entities": []
+      },
+      {
+        "category": "營建開發",
+        "text": "**廣豐實業** (住宅與商辦不動產開發、銷售與租賃)",
+        "entities": []
+      },
+      {
+        "category": "數位科技",
+        "text": "投資理財平台開發與營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "營建",
+        "text": "住宅買家、商辦租戶",
+        "entities": []
+      },
+      {
+        "category": "商場",
+        "text": "零售品牌進駐商 (如[[家樂福]]、[[迪卡儂]]等曾進駐廣豐新天地)",
+        "entities": [
+          "家樂福",
+          "迪卡儂"
+        ]
+      },
+      {
+        "category": "數位科技",
+        "text": "金融機構、投資理財用戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "營建",
+        "text": "桃園地區住宅買家與商辦租戶",
+        "entities": []
+      },
+      {
+        "role": "商場",
+        "text": "零售品牌進駐商，如[[家樂福]]、[[迪卡儂]]、[[威秀影城]]等",
+        "entities": [
+          "家樂福",
+          "迪卡儂",
+          "威秀影城"
+        ]
+      },
+      {
+        "role": "數位科技",
+        "text": "金融機構與投資理財用戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造",
+        "text": "營造工程承攬商",
+        "entities": []
+      },
+      {
+        "role": "建材",
+        "text": "鋼筋水泥等建材供應商",
+        "entities": []
+      },
+      {
+        "role": "資訊服務",
+        "text": "[[金融科技]]軟體開發與雲端服務供應商",
+        "entities": [
+          "金融科技"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Information Technology Services):** [[凌群]]、[[華經]]、[[資通]]、[[大綜]]、[[嘉實]]",
+        "entities": [
+          "凌群",
+          "華經",
+          "資通",
+          "大綜",
+          "嘉實"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "家樂福",
+          "迪卡儂",
+          "威秀影城"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "金融科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金融科技"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "迪卡儂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "迪卡儂"
+    },
+    {
+      "name": "威秀影城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威秀影城"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "華經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華經"
+    },
+    {
+      "name": "資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資通"
+    },
+    {
+      "name": "大綜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大綜"
+    },
+    {
+      "name": "嘉實",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉實"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣豐實業 (1416) 創立於 1968 年，早期以紡織品牌產銷起家，近年成功轉型為營建開發、資產管理及數位科技服務之多元企業集團。營建事業涵蓋住宅及商用不動產開發與銷售，曾於桃園八德斥資 30 億元興建「廣豐新天地」購物中心 (現為置地生活廣場)。數位科技事業透過轉投資子公司發展[[金融科技]]與智能投資理財平台。公司亦從事商業大樓出租及資產活化。",
+    "supply_chain_md": "**上游 (原料與服務):**\n- **營建材料:** 鋼筋、水泥、建材供應商\n- **營造服務:** 營造工程承攬商\n- **軟體開發:** 資訊系統與[[金融科技]]開發團隊\n\n**中游 (開發與平台營運):**\n- **營建開發:** **廣豐實業** (住宅與商辦不動產開發、銷售與租賃)\n- **數位科技:** 投資理財平台開發與營運\n\n**下游 (終端用戶):**\n- **營建:** 住宅買家、商辦租戶\n- **商場:** 零售品牌進駐商 (如[[家樂福]]、[[迪卡儂]]等曾進駐廣豐新天地)\n- **數位科技:** 金融機構、投資理財用戶",
+    "customers_suppliers_md": "### 主要客戶\n- **營建:** 桃園地區住宅買家與商辦租戶\n- **商場:** 零售品牌進駐商，如[[家樂福]]、[[迪卡儂]]、[[威秀影城]]等\n- **數位科技:** 金融機構與投資理財用戶\n\n### 主要供應商\n- **營造:** 營造工程承攬商\n- **建材:** 鋼筋水泥等建材供應商\n- **資訊服務:** [[金融科技]]軟體開發與雲端服務供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

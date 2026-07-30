@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4566",
+  "company_name": "時碩工業",
+  "title": "4566 - 時碩工業",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/4566_時碩工業.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "7,679 百萬台幣",
+    "enterprise_value": "9,396 百萬台幣"
+  },
+  "business": {
+    "summary": "時碩工業 (4566) 為精密金屬零組件廠，客戶涵蓋[[Autoliv]]、[[BorgWarner]]、[[Emerson]]、[[Safran]]。近年打入[[BYD]]安全氣囊供應鏈。完成無錫廠100%收購。泰國新廠預計2026 Q1試產。另供應[[Joyson Safety Systems]]、[[Eaton]]、[[Danfoss]]。",
+    "entities": [
+      "Autoliv",
+      "BorgWarner",
+      "Emerson",
+      "Safran",
+      "BYD",
+      "Joyson Safety Systems",
+      "Eaton",
+      "Danfoss"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "特殊鋼/鋁合金棒材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**時碩** (精密CNC/車銑/鍛造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "汽車安全",
+        "text": "[[Autoliv]]、[[BYD]]、[[Joyson Safety Systems]]",
+        "entities": [
+          "Autoliv",
+          "BYD",
+          "Joyson Safety Systems"
+        ]
+      },
+      {
+        "category": "動力傳動",
+        "text": "[[BorgWarner]]、[[Eaton]]",
+        "entities": [
+          "BorgWarner",
+          "Eaton"
+        ]
+      },
+      {
+        "category": "工業",
+        "text": "[[Emerson]]、[[Danfoss]]",
+        "entities": [
+          "Emerson",
+          "Danfoss"
+        ]
+      },
+      {
+        "category": "航太",
+        "text": "[[Safran]]",
+        "entities": [
+          "Safran"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Autoliv]]、[[BYD]]、[[Joyson Safety Systems]] — 安全",
+        "entities": [
+          "Autoliv",
+          "BYD",
+          "Joyson Safety Systems"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[BorgWarner]]、[[Eaton]] — 傳動",
+        "entities": [
+          "BorgWarner",
+          "Eaton"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Emerson]]、[[Danfoss]] — 工業",
+        "entities": [
+          "Emerson",
+          "Danfoss"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Safran]] — 航太",
+        "entities": [
+          "Safran"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "特殊鋼/鋁合金",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]",
+        "entities": [
+          "東元",
+          "中興電",
+          "恩德",
+          "亞崴",
+          "高林股"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Autoliv",
+          "BYD",
+          "Joyson Safety Systems",
+          "BorgWarner",
+          "Eaton",
+          "Emerson",
+          "Danfoss",
+          "Safran"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Autoliv",
+      "type": "international_company_or_term",
+      "wikilink": "Autoliv"
+    },
+    {
+      "name": "BorgWarner",
+      "type": "international_company_or_term",
+      "wikilink": "BorgWarner"
+    },
+    {
+      "name": "Emerson",
+      "type": "international_company_or_term",
+      "wikilink": "Emerson"
+    },
+    {
+      "name": "Safran",
+      "type": "international_company_or_term",
+      "wikilink": "Safran"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "Joyson Safety Systems",
+      "type": "international_company_or_term",
+      "wikilink": "Joyson Safety Systems"
+    },
+    {
+      "name": "Eaton",
+      "type": "international_company_or_term",
+      "wikilink": "Eaton"
+    },
+    {
+      "name": "Danfoss",
+      "type": "international_company_or_term",
+      "wikilink": "Danfoss"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "中興電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中興電"
+    },
+    {
+      "name": "恩德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恩德"
+    },
+    {
+      "name": "亞崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞崴"
+    },
+    {
+      "name": "高林股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高林股"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "時碩工業 (4566) 為精密金屬零組件廠，客戶涵蓋[[Autoliv]]、[[BorgWarner]]、[[Emerson]]、[[Safran]]。近年打入[[BYD]]安全氣囊供應鏈。完成無錫廠100%收購。泰國新廠預計2026 Q1試產。另供應[[Joyson Safety Systems]]、[[Eaton]]、[[Danfoss]]。",
+    "supply_chain_md": "**上游:** 特殊鋼/鋁合金棒材\n**中游:** **時碩** (精密CNC/車銑/鍛造)\n**下游:**\n- **汽車安全:** [[Autoliv]]、[[BYD]]、[[Joyson Safety Systems]]\n- **動力傳動:** [[BorgWarner]]、[[Eaton]]\n- **工業:** [[Emerson]]、[[Danfoss]]\n- **航太:** [[Safran]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Autoliv]]、[[BYD]]、[[Joyson Safety Systems]] — 安全\n- [[BorgWarner]]、[[Eaton]] — 傳動\n- [[Emerson]]、[[Danfoss]] — 工業\n- [[Safran]] — 航太\n\n### 主要供應商\n- 特殊鋼/鋁合金"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

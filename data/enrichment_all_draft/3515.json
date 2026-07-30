@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3515",
+  "company_name": "華擎",
+  "title": "3515 - 華擎",
+  "source_md": "Pilot_Reports/Computer Hardware/3515_華擎.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "23,535 百萬台幣",
+    "enterprise_value": "19,416 百萬台幣"
+  },
+  "business": {
+    "summary": "華擎科技 (ASRock) 原為[[華碩]]子公司，現隸屬於 **[[和碩]]** 集團。\n全球第四大 **主機板 (Motherboard)** 製造商，以高性價比電競主機板聞名。\n業務多元化成果顯著，涵蓋 **伺服器 (Server)** (子公司永擎 ASRock Rack)、**工業電腦 (IPC)** (子公司東擎 ASRock Ind.) 與 **顯示卡 (Graphics Card)** ([[AMD]] Radeon)。\n**AI 伺服器** 業務成長強勁，供應 Tier 2/3 [[CSP]] 客戶，與 [[AMD]]/[[NVIDIA]]合作緊密。",
+    "entities": [
+      "華碩",
+      "和碩",
+      "AMD",
+      "CSP",
+      "NVIDIA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: CPU/GPU ([[AMD]]/[[Intel]]/[[NVIDIA]]), [[PCB]], [[DRAM]], 被動元件.",
+        "entities": [
+          "AMD",
+          "Intel",
+          "NVIDIA",
+          "PCB",
+          "DRAM"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **華擎 (3515)** - 產品設計 & **[[和碩]] (4938)** - 代工製造.",
+        "entities": [
+          "和碩"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**主機板/顯卡**: DIY 通路, 電競玩家.",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**伺服器**: Tier 2/3 [[CSP]] (CoreWeave/Nebius).",
+        "entities": [
+          "CSP"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**IPC**: [[自動化]]/零售/博弈客戶.",
+        "entities": [
+          "自動化"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**CoreWeave**.",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**[[Amazon]]** (AWS) - [[伺服器]]/[[IPC]].",
+        "entities": [
+          "Amazon",
+          "伺服器",
+          "IPC"
+        ]
+      },
+      {
+        "role": "",
+        "text": "全球 DIY 通路經銷商.",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon",
+          "伺服器",
+          "IPC"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華擎科技 (ASRock) 原為[[華碩]]子公司，現隸屬於 **[[和碩]]** 集團。\n全球第四大 **主機板 (Motherboard)** 製造商，以高性價比電競主機板聞名。\n業務多元化成果顯著，涵蓋 **伺服器 (Server)** (子公司永擎 ASRock Rack)、**工業電腦 (IPC)** (子公司東擎 ASRock Ind.) 與 **顯示卡 (Graphics Card)** ([[AMD]] Radeon)。\n**AI 伺服器** 業務成長強勁，供應 Tier 2/3 [[CSP]] 客戶，與 [[AMD]]/[[NVIDIA]]合作緊密。",
+    "supply_chain_md": "*   **中游 (本體)**: **華擎 (3515)** - 產品設計 & **[[和碩]] (4938)** - 代工製造.\n*   **上游**: CPU/GPU ([[AMD]]/[[Intel]]/[[NVIDIA]]), [[PCB]], [[DRAM]], 被動元件.\n*   **下游**:\n    *   **主機板/顯卡**: DIY 通路, 電競玩家.\n    *   **伺服器**: Tier 2/3 [[CSP]] (CoreWeave/Nebius).\n    *   **IPC**: [[自動化]]/零售/博弈客戶.",
+    "customers_suppliers_md": "### 主要客戶\n*   **CoreWeave**.\n*   **[[Amazon]]** (AWS) - [[伺服器]]/[[IPC]].\n*   全球 DIY 通路經銷商."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

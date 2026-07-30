@@ -1,0 +1,282 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4766",
+  "company_name": "南寶",
+  "title": "4766 - 南寶",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4766_南寶.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "37,377 百萬台幣",
+    "enterprise_value": "36,785 百萬台幣"
+  },
+  "business": {
+    "summary": "南寶樹脂 (4766，Nan Pao Resins) 為台灣化學材料集團，全球鞋用接著劑市佔第一 (Tier-1 品牌市佔約 50%)，獲[[Nike]]頒發「整體卓越供應商」獎。三大成長引擎：(1) 鞋材接著劑 — 供應[[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]]品牌代工體系 ([[寶成]]、[[豐泰]]、[[鈺齊-KY]])；(2) 半導體製程膠帶 — UV 解黏膠帶供應[[台積電]]晶圓切割/研磨供應鏈；(3) [[碳纖維]]複合材料 — 2022 年收購中國裕博自行車碳纖維樹脂事業，供應[[巨大機械]]、[[美利達]]。綠色產品佔營收 63%。",
+    "entities": [
+      "Nike",
+      "Adidas",
+      "Under Armour",
+      "New Balance",
+      "Timberland",
+      "寶成",
+      "豐泰",
+      "鈺齊-KY",
+      "台積電",
+      "碳纖維",
+      "巨大機械",
+      "美利達"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "石化單體",
+        "text": "丙烯酸/溶劑",
+        "entities": []
+      },
+      {
+        "category": "碳纖維布",
+        "text": "[[碳纖維]]布供應商",
+        "entities": [
+          "碳纖維"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**南寶** (鞋用接著劑/半導體膠帶/[[碳纖維]]樹脂/UV 固化材料)",
+        "entities": [
+          "碳纖維"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "鞋材 (全球第一)",
+        "text": "[[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]",
+        "entities": [
+          "Nike",
+          "Adidas",
+          "Under Armour",
+          "New Balance",
+          "Timberland",
+          "寶成",
+          "豐泰",
+          "鈺齊-KY"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]] — UV 解黏膠帶",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "碳纖維",
+        "text": "[[巨大機械]]、[[美利達]] — 自行車碳纖維",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鞋材",
+        "text": "[[Nike]] (卓越供應商)、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]",
+        "entities": [
+          "Nike",
+          "Adidas",
+          "Under Armour",
+          "New Balance",
+          "Timberland",
+          "寶成",
+          "豐泰",
+          "鈺齊-KY"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[台積電]] — UV 解黏膠帶",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "碳纖維",
+        "text": "[[巨大機械]]、[[美利達]] — 自行車碳纖維樹脂",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化",
+        "text": "丙烯酸/溶劑供應商",
+        "entities": []
+      },
+      {
+        "role": "碳纖維",
+        "text": "碳纖維布供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Nike",
+          "Adidas",
+          "Under Armour",
+          "New Balance",
+          "Timberland",
+          "寶成",
+          "豐泰",
+          "鈺齊-KY",
+          "台積電",
+          "巨大機械",
+          "美利達"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "Under Armour",
+      "type": "international_company_or_term",
+      "wikilink": "Under Armour"
+    },
+    {
+      "name": "New Balance",
+      "type": "international_company_or_term",
+      "wikilink": "New Balance"
+    },
+    {
+      "name": "Timberland",
+      "type": "international_company_or_term",
+      "wikilink": "Timberland"
+    },
+    {
+      "name": "寶成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶成"
+    },
+    {
+      "name": "豐泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐泰"
+    },
+    {
+      "name": "鈺齊-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈺齊-KY"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "巨大機械",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大機械"
+    },
+    {
+      "name": "美利達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美利達"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "南寶樹脂 (4766，Nan Pao Resins) 為台灣化學材料集團，全球鞋用接著劑市佔第一 (Tier-1 品牌市佔約 50%)，獲[[Nike]]頒發「整體卓越供應商」獎。三大成長引擎：(1) 鞋材接著劑 — 供應[[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]]品牌代工體系 ([[寶成]]、[[豐泰]]、[[鈺齊-KY]])；(2) 半導體製程膠帶 — UV 解黏膠帶供應[[台積電]]晶圓切割/研磨供應鏈；(3) [[碳纖維]]複合材料 — 2022 年收購中國裕博自行車碳纖維樹脂事業，供應[[巨大機械]]、[[美利達]]。綠色產品佔營收 63%。",
+    "supply_chain_md": "**上游 (原料):**\n- **石化單體:** 丙烯酸/溶劑\n- **碳纖維布:** [[碳纖維]]布供應商\n\n**中游 (製造):**\n- **南寶** (鞋用接著劑/半導體膠帶/[[碳纖維]]樹脂/UV 固化材料)\n\n**下游 (終端):**\n- **鞋材 (全球第一):** [[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]\n- **半導體:** [[台積電]] — UV 解黏膠帶\n- **碳纖維:** [[巨大機械]]、[[美利達]] — 自行車碳纖維",
+    "customers_suppliers_md": "### 主要客戶\n- **鞋材:** [[Nike]] (卓越供應商)、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]\n- **半導體:** [[台積電]] — UV 解黏膠帶\n- **碳纖維:** [[巨大機械]]、[[美利達]] — 自行車碳纖維樹脂\n\n### 主要供應商\n- **石化:** 丙烯酸/溶劑供應商\n- **碳纖維:** 碳纖維布供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

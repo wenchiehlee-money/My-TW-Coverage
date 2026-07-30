@@ -1,0 +1,168 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8096",
+  "company_name": "擎亞",
+  "title": "8096 - 擎亞",
+  "source_md": "Pilot_Reports/Semiconductors/8096_擎亞.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "16,950 百萬台幣",
+    "enterprise_value": "25,617 百萬台幣"
+  },
+  "business": {
+    "summary": "擎亞電子 (8096，CoAsia Electronics) 為 [[Samsung]] 三星電子在台灣及中國市場之獨家 IC 設計服務夥伴，產品涵蓋 [[HBM]] 高頻寬記憶體、[[CMOS 影像感測器]] (CIS) 及 [[AMOLED]] 面板之代理銷售。公司兼具 IC 設計服務及零組件通路商角色，近期獲晶圓代工廠上百億元記憶體大單。",
+    "entities": [
+      "Samsung",
+      "HBM",
+      "CMOS 影像感測器",
+      "AMOLED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原廠)",
+        "text": "**上游 (原廠):**",
+        "entities": []
+      },
+      {
+        "category": "[[Samsung]]",
+        "text": "[[Samsung]] (獨家 IC 設計服務夥伴)",
+        "entities": [
+          "Samsung"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (代理與設計服務)",
+        "text": "**中游 (代理與設計服務):**",
+        "entities": []
+      },
+      {
+        "category": "IC 設計服務/代理",
+        "text": "**擎亞** ([[Samsung]] [[HBM]]/CIS/[[AMOLED]] 台灣獨家)",
+        "entities": [
+          "Samsung",
+          "HBM",
+          "AMOLED"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (系統廠)",
+        "text": "**下游 (系統廠):**",
+        "entities": []
+      },
+      {
+        "category": "系統廠",
+        "text": "台灣及中國電子系統廠",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "晶圓代工廠 ([[HBM]] 記憶體大單)",
+        "entities": [
+          "HBM"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "晶圓代工廠 ([[HBM]] 記憶體)",
+        "entities": [
+          "HBM"
+        ]
+      },
+      {
+        "role": "系統廠",
+        "text": "台灣及中國系統廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原廠",
+        "text": "[[Samsung]] (獨家合作)",
+        "entities": [
+          "Samsung"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[大聯大]]、[[文曄]]",
+        "entities": [
+          "大聯大",
+          "文曄"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[大聯大]]、[[文曄]]",
+        "entities": [
+          "大聯大",
+          "文曄"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "CMOS 影像感測器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "CMOS 影像感測器"
+    },
+    {
+      "name": "AMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "AMOLED"
+    },
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "文曄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "文曄"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "擎亞電子 (8096，CoAsia Electronics) 為 [[Samsung]] 三星電子在台灣及中國市場之獨家 IC 設計服務夥伴，產品涵蓋 [[HBM]] 高頻寬記憶體、[[CMOS 影像感測器]] (CIS) 及 [[AMOLED]] 面板之代理銷售。公司兼具 IC 設計服務及零組件通路商角色，近期獲晶圓代工廠上百億元記憶體大單。",
+    "supply_chain_md": "**上游 (原廠):**\n- **[[Samsung]]:** [[Samsung]] (獨家 IC 設計服務夥伴)\n\n**中游 (代理與設計服務):**\n- **IC 設計服務/代理:** **擎亞** ([[Samsung]] [[HBM]]/CIS/[[AMOLED]] 台灣獨家)\n\n**下游 (系統廠):**\n- **系統廠:** 台灣及中國電子系統廠\n- **晶圓代工:** 晶圓代工廠 ([[HBM]] 記憶體大單)",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** 晶圓代工廠 ([[HBM]] 記憶體)\n- **系統廠:** 台灣及中國系統廠\n\n### 主要供應商\n- **原廠:** [[Samsung]] (獨家合作)\n- **競爭同業:** [[大聯大]]、[[文曄]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

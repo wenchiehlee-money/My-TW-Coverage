@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1440",
+  "company_name": "南紡",
+  "title": "1440 - 南紡",
+  "source_md": "Pilot_Reports/Textile Manufacturing/1440_南紡.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "20,213 百萬台幣",
+    "enterprise_value": "23,986 百萬台幣"
+  },
+  "business": {
+    "summary": "[[南紡]] (Tainan Spinning) 是台灣紡織業龍頭之一，為[[統一集團]]關係企業，業務涵蓋紡織與流通事業。紡織部門為台灣最大聚酯棉/紡紗廠之一，產品包括棉紗、聚酯粒、聚酯棉、機能性布料，產能布局台灣及越南；流通部門開發經營「南紡購物中心 (T.S. Mall)」，為台南地標型商場。",
+    "entities": [
+      "南紡",
+      "統一集團"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "採購[[PTA]]、[[EG]]等石化原料",
+        "entities": [
+          "PTA",
+          "EG"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (化纖/紡紗)",
+        "text": "**中游 (化纖/紡紗):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "生產聚酯纖維、紡紗、織布",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (成衣/零售)",
+        "text": "**下游 (成衣/零售):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "供應給成衣布料廠",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "南紡購物中心直接面對消費者 (B2C)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "紡織",
+        "text": "國內外織布廠、成衣廠、品牌商",
+        "entities": []
+      },
+      {
+        "role": "流通",
+        "text": "南紡購物中心之租戶與消費者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化原料",
+        "text": "[[南亞]] ([[PTA]])、[[東聯]] ([[EG]])等化纖原料廠",
+        "entities": [
+          "南亞",
+          "PTA",
+          "東聯",
+          "EG"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "南紡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南紡"
+    },
+    {
+      "name": "統一集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一集團"
+    },
+    {
+      "name": "PTA",
+      "type": "international_company_or_term",
+      "wikilink": "PTA"
+    },
+    {
+      "name": "EG",
+      "type": "international_company_or_term",
+      "wikilink": "EG"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "東聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東聯"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[南紡]] (Tainan Spinning) 是台灣紡織業龍頭之一，為[[統一集團]]關係企業，業務涵蓋紡織與流通事業。紡織部門為台灣最大聚酯棉/紡紗廠之一，產品包括棉紗、聚酯粒、聚酯棉、機能性布料，產能布局台灣及越南；流通部門開發經營「南紡購物中心 (T.S. Mall)」，為台南地標型商場。",
+    "supply_chain_md": "**上游 (石化原料):**\n- 採購[[PTA]]、[[EG]]等石化原料\n\n**中游 (化纖/紡紗):**\n- 生產聚酯纖維、紡紗、織布\n\n**下游 (成衣/零售):**\n- 供應給成衣布料廠\n- 南紡購物中心直接面對消費者 (B2C)",
+    "customers_suppliers_md": "### 主要客戶\n- **紡織:** 國內外織布廠、成衣廠、品牌商\n- **流通:** 南紡購物中心之租戶與消費者\n\n### 主要供應商\n- **石化原料:** [[南亞]] ([[PTA]])、[[東聯]] ([[EG]])等化纖原料廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

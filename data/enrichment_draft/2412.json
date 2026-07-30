@@ -213,7 +213,22 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **telecom/enterprise cloud customer overlap:** [[台灣大]]、[[遠傳電信]]",
+        "entities": [
+          "台灣大",
+          "遠傳電信"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "雲端服務",
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -308,6 +323,16 @@
       "name": "Meta",
       "type": "international_company_or_term",
       "wikilink": "Meta"
+    },
+    {
+      "name": "台灣大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
     }
   ],
   "source_text": {
@@ -319,6 +344,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 17,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2607",
+  "company_name": "榮運",
+  "title": "2607 - 榮運",
+  "source_md": "Pilot_Reports/Integrated Freight & Logistics/2607_榮運.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics",
+    "market_cap": "25,291 百萬台幣",
+    "enterprise_value": "21,992 百萬台幣"
+  },
+  "business": {
+    "summary": "長榮國際儲運股份有限公司成立於1973年，隸屬[[長榮集團]]，為台灣內陸貨櫃運輸及貨櫃集散站之領導業者。主要業務包含：（1）**內陸運輸：** 擁有全台最大貨櫃車隊，負責進出口貨櫃之拖運；（2）**貨櫃場經營：** 營運汐止、桃園、台中港及高雄港等貨櫃集散站；（3）**物流倉儲：** 經營桃園大園之現代化物流園區，提供高端倉儲服務；（4）**客運：** 經營長榮巴士提供機場接駁及國道客運服務。此外，亦涉足船舶出租（租予[[長榮海運]]）及投資業務。",
+    "entities": [
+      "長榮集團",
+      "長榮海運"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (車輛與燃料)",
+        "text": "**上游 (車輛與燃料):**",
+        "entities": []
+      },
+      {
+        "category": "商用車輛",
+        "text": "貨櫃拖車車頭與板架製造商",
+        "entities": []
+      },
+      {
+        "category": "燃料",
+        "text": "[[台灣中油]]（柴油供應）",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "物流設備",
+        "text": "貨櫃場堆高機、門式起重機等設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (物流服務)",
+        "text": "**中游 (物流服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**榮運** — 內陸貨櫃拖運、貨櫃集散站營運、物流倉儲服務、客運（長榮巴士）",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "航運",
+        "text": "[[長榮海運]]（最大客戶，集團內拖運及船舶出租）、[[陽明海運]]、其他國際船公司",
+        "entities": [
+          "長榮海運",
+          "陽明海運"
+        ]
+      },
+      {
+        "category": "進出口商",
+        "text": "進出口貿易商之貨櫃拖運需求",
+        "entities": []
+      },
+      {
+        "category": "倉儲租戶",
+        "text": "物流園區承租企業",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "航運",
+        "text": "[[長榮海運]]（集團內最大客戶，貨櫃拖運及船舶租賃）、[[陽明海運]]及其他國際船公司",
+        "entities": [
+          "長榮海運",
+          "陽明海運"
+        ]
+      },
+      {
+        "role": "進出口商",
+        "text": "進出口貿易商之貨櫃內陸拖運",
+        "entities": []
+      },
+      {
+        "role": "倉儲",
+        "text": "桃園大園物流園區之承租企業",
+        "entities": []
+      },
+      {
+        "role": "客運",
+        "text": "機場旅客及國道客運乘客",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "燃料",
+        "text": "[[台灣中油]]（柴油）",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "車輛",
+        "text": "貨櫃拖車車頭與板架供應商",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "貨櫃場門式起重機、堆高機等物流設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Integrated Freight & Logistics):** [[立益物流]]、[[中航]]、[[台驊控股]]、[[宅配通]]、[[捷迅]]",
+        "entities": [
+          "立益物流",
+          "中航",
+          "台驊控股",
+          "宅配通",
+          "捷迅"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "長榮海運",
+          "陽明海運"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "長榮集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮集團"
+    },
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "立益物流",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立益物流"
+    },
+    {
+      "name": "中航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中航"
+    },
+    {
+      "name": "台驊控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台驊控股"
+    },
+    {
+      "name": "宅配通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宅配通"
+    },
+    {
+      "name": "捷迅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "捷迅"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "長榮國際儲運股份有限公司成立於1973年，隸屬[[長榮集團]]，為台灣內陸貨櫃運輸及貨櫃集散站之領導業者。主要業務包含：（1）**內陸運輸：** 擁有全台最大貨櫃車隊，負責進出口貨櫃之拖運；（2）**貨櫃場經營：** 營運汐止、桃園、台中港及高雄港等貨櫃集散站；（3）**物流倉儲：** 經營桃園大園之現代化物流園區，提供高端倉儲服務；（4）**客運：** 經營長榮巴士提供機場接駁及國道客運服務。此外，亦涉足船舶出租（租予[[長榮海運]]）及投資業務。",
+    "supply_chain_md": "**上游 (車輛與燃料):**\n- **商用車輛:** 貨櫃拖車車頭與板架製造商\n- **燃料:** [[台灣中油]]（柴油供應）\n- **物流設備:** 貨櫃場堆高機、門式起重機等設備\n\n**中游 (物流服務):**\n- **榮運** — 內陸貨櫃拖運、貨櫃集散站營運、物流倉儲服務、客運（長榮巴士）\n\n**下游 (終端客戶):**\n- **航運:** [[長榮海運]]（最大客戶，集團內拖運及船舶出租）、[[陽明海運]]、其他國際船公司\n- **進出口商:** 進出口貿易商之貨櫃拖運需求\n- **倉儲租戶:** 物流園區承租企業",
+    "customers_suppliers_md": "### 主要客戶\n- **航運:** [[長榮海運]]（集團內最大客戶，貨櫃拖運及船舶租賃）、[[陽明海運]]及其他國際船公司\n- **進出口商:** 進出口貿易商之貨櫃內陸拖運\n- **倉儲:** 桃園大園物流園區之承租企業\n- **客運:** 機場旅客及國道客運乘客\n\n### 主要供應商\n- **燃料:** [[台灣中油]]（柴油）\n- **車輛:** 貨櫃拖車車頭與板架供應商\n- **設備:** 貨櫃場門式起重機、堆高機等物流設備供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

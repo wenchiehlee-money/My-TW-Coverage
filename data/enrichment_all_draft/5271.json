@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5271",
+  "company_name": "紘通",
+  "title": "5271 - 紘通",
+  "source_md": "Pilot_Reports/Computer Hardware/5271_紘通.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "679 百萬台幣",
+    "enterprise_value": "963 百萬台幣"
+  },
+  "business": {
+    "summary": "紘通企業 (Horng Tong) 早期以 PC/NB [[連接器]]為主，近年積極轉型 **車用電子** 與 **高頻連接器**。\n主要業務：\n1.  **連接器 (Connector)**: 筆電、[[工業電腦]]用[[連接器]]。\n2.  **車用電子代理**: 獨家代理德國 **ROKA** 汽車[[連接器]] (Tier 2 角色)，切入高頻傳輸與 FAKRA 接頭。\n3.  **電子零組件買賣**: 塑膠機構件、電子材料進出口。\n車用產品已打入 [[ADAS]]、行車記錄器、HUD 等供應鏈。",
+    "entities": [
+      "連接器",
+      "工業電腦",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**原廠**: 德國 [[ROKA]] (車用[[連接器]]).",
+        "entities": [
+          "ROKA",
+          "連接器"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**材料**: 金屬沖壓件, 塑膠粒.",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **紘通 (5271)** - [[連接器]]製造 & 代理貿易.",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**NB/IPC**: [[廣達]], [[仁寶]]等代工廠.",
+        "entities": [
+          "廣達",
+          "仁寶"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**車用 Tier 1**: 中國及國際 Tier 1 車用電子廠 (如航盛電子).",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**車用**: 大陸車廠供應鏈 (北汽銀翔), 航盛電子.",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**電腦**: 國內系統組裝廠.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**代理原廠**: 德國 [[ROKA]] (關鍵高頻汽車[[連接器]]供應商).",
+        "entities": [
+          "ROKA",
+          "連接器"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "ROKA",
+      "type": "international_company_or_term",
+      "wikilink": "ROKA"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "紘通企業 (Horng Tong) 早期以 PC/NB [[連接器]]為主，近年積極轉型 **車用電子** 與 **高頻連接器**。\n主要業務：\n1.  **連接器 (Connector)**: 筆電、[[工業電腦]]用[[連接器]]。\n2.  **車用電子代理**: 獨家代理德國 **ROKA** 汽車[[連接器]] (Tier 2 角色)，切入高頻傳輸與 FAKRA 接頭。\n3.  **電子零組件買賣**: 塑膠機構件、電子材料進出口。\n車用產品已打入 [[ADAS]]、行車記錄器、HUD 等供應鏈。",
+    "supply_chain_md": "*   **中游 (本體)**: **紘通 (5271)** - [[連接器]]製造 & 代理貿易.\n*   **上游**:\n    *   **原廠**: 德國 [[ROKA]] (車用[[連接器]]).\n    *   **材料**: 金屬沖壓件, 塑膠粒.\n*   **下游**:\n    *   **NB/IPC**: [[廣達]], [[仁寶]]等代工廠.\n    *   **車用 Tier 1**: 中國及國際 Tier 1 車用電子廠 (如航盛電子).",
+    "customers_suppliers_md": "### 主要客戶\n*   **車用**: 大陸車廠供應鏈 (北汽銀翔), 航盛電子.\n*   **電腦**: 國內系統組裝廠.\n\n### 主要供應商\n*   **代理原廠**: 德國 [[ROKA]] (關鍵高頻汽車[[連接器]]供應商)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2483",
+  "company_name": "百容",
+  "title": "2483 - 百容",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/2483_百容.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "3,760 百萬台幣",
+    "enterprise_value": "4,328 百萬台幣"
+  },
+  "business": {
+    "summary": "百容電子 (2483，Excel Cell Electronic / ECE) 為多元化電子零組件製造商。2024 年營收結構：半導體[[導線架]] 47%、電子零組件 ([[連接器]]/端子台/程式開關) 27%、步進馬達 15%、[[繼電器]] 11%。近年擴大高密度導線架產能，已通過車用電源模組及車用高功率導線架認證，切入[[電動車]]與工業控制。導線架客戶涵蓋[[STMicroelectronics]]、[[Infineon]]、[[Onsemi]]及台灣[[強茂]]。繼電器客戶涵蓋[[Bosch]]、[[Dell]]、[[Philips]]。",
+    "entities": [
+      "導線架",
+      "連接器",
+      "繼電器",
+      "電動車",
+      "STMicroelectronics",
+      "Infineon",
+      "Onsemi",
+      "強茂",
+      "Bosch",
+      "Dell",
+      "Philips"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "銅合金",
+        "text": "國際銅合金金屬捲料",
+        "entities": []
+      },
+      {
+        "category": "電鍍化學品",
+        "text": "電鍍藥水供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**百容** ([[導線架]]/[[連接器]]/[[繼電器]]/步進馬達，精密沖壓/射出/電鍍/組裝)",
+        "entities": [
+          "導線架",
+          "連接器",
+          "繼電器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體 IDM",
+        "text": "[[STMicroelectronics]]、[[Infineon]]、[[Onsemi]]、[[強茂]] — [[導線架]]",
+        "entities": [
+          "STMicroelectronics",
+          "Infineon",
+          "Onsemi",
+          "強茂",
+          "導線架"
+        ]
+      },
+      {
+        "category": "工業/家電",
+        "text": "[[Bosch]]、[[Dell]]、[[Philips]] — [[繼電器]]",
+        "entities": [
+          "Bosch",
+          "Dell",
+          "Philips",
+          "繼電器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "導線架",
+        "text": "[[STMicroelectronics]]、[[Infineon]]、[[Onsemi]]、[[強茂]] — 功率元件",
+        "entities": [
+          "STMicroelectronics",
+          "Infineon",
+          "Onsemi",
+          "強茂"
+        ]
+      },
+      {
+        "role": "繼電器",
+        "text": "[[Bosch]]、[[Dell]]、[[Philips]]",
+        "entities": [
+          "Bosch",
+          "Dell",
+          "Philips"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅合金",
+        "text": "國際銅合金供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "STMicroelectronics",
+          "Infineon",
+          "Onsemi",
+          "強茂",
+          "Bosch",
+          "Dell",
+          "Philips"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "繼電器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "繼電器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "STMicroelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "STMicroelectronics"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "Onsemi",
+      "type": "international_company_or_term",
+      "wikilink": "Onsemi"
+    },
+    {
+      "name": "強茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "強茂"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Philips",
+      "type": "international_company_or_term",
+      "wikilink": "Philips"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "百容電子 (2483，Excel Cell Electronic / ECE) 為多元化電子零組件製造商。2024 年營收結構：半導體[[導線架]] 47%、電子零組件 ([[連接器]]/端子台/程式開關) 27%、步進馬達 15%、[[繼電器]] 11%。近年擴大高密度導線架產能，已通過車用電源模組及車用高功率導線架認證，切入[[電動車]]與工業控制。導線架客戶涵蓋[[STMicroelectronics]]、[[Infineon]]、[[Onsemi]]及台灣[[強茂]]。繼電器客戶涵蓋[[Bosch]]、[[Dell]]、[[Philips]]。",
+    "supply_chain_md": "**上游 (材料):**\n- **銅合金:** 國際銅合金金屬捲料\n- **電鍍化學品:** 電鍍藥水供應商\n\n**中游 (製造):**\n- **百容** ([[導線架]]/[[連接器]]/[[繼電器]]/步進馬達，精密沖壓/射出/電鍍/組裝)\n\n**下游 (終端):**\n- **半導體 IDM:** [[STMicroelectronics]]、[[Infineon]]、[[Onsemi]]、[[強茂]] — [[導線架]]\n- **工業/家電:** [[Bosch]]、[[Dell]]、[[Philips]] — [[繼電器]]",
+    "customers_suppliers_md": "### 主要客戶\n- **導線架:** [[STMicroelectronics]]、[[Infineon]]、[[Onsemi]]、[[強茂]] — 功率元件\n- **繼電器:** [[Bosch]]、[[Dell]]、[[Philips]]\n\n### 主要供應商\n- **銅合金:** 國際銅合金供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

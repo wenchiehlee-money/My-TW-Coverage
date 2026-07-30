@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3523",
+  "company_name": "迎輝",
+  "title": "3523 - 迎輝",
+  "source_md": "Pilot_Reports/Electronic Components/3523_迎輝.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "935 百萬台幣",
+    "enterprise_value": "2,238 百萬台幣"
+  },
+  "business": {
+    "summary": "迎輝科技 (3523，[[EFUN Technology]]) 專注於光學膜與光電材料開發製造。核心產品包括量子點膜 (Quantum Dot Film)、ITO 導電膜、3D 電影銀幕及各式顯示器膜材 (防窺/防霧/抗藍光)。\n\n技術優勢在於精密塗佈與 Roll-to-Roll 製程。曾為增亮膜大廠，現轉型高階顯示應用與工控觸控材料：(1) [[Mini LED]]/量子點 — 為面板廠供應量子點增亮膜，應用於高色域顯示器；(2) ITO 導電膜 — 供應工控觸控面板與智慧家居觸控模組；(3) 3D 銀幕 — 為國際 3D 電影院供應高增益投影銀幕。上游原料仰賴 PET 基膜、光學膠與量子點材料供應商。主要客戶為[[友達]]、[[群創]]等面板廠及觸控模組廠。",
+    "entities": [
+      "EFUN Technology",
+      "Mini LED",
+      "友達",
+      "群創"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料)",
+        "text": "**上游 (光學材料):**",
+        "entities": []
+      },
+      {
+        "category": "PET 基膜",
+        "text": "PET 光學級基膜供應商",
+        "entities": []
+      },
+      {
+        "category": "光學膠",
+        "text": "光學膠材料供應商",
+        "entities": []
+      },
+      {
+        "category": "量子點",
+        "text": "量子點材料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光學膜製造)",
+        "text": "**中游 (光學膜製造):**",
+        "entities": []
+      },
+      {
+        "category": "量子點膜",
+        "text": "**迎輝** ([[Mini LED]]/量子點增亮膜)",
+        "entities": [
+          "Mini LED"
+        ]
+      },
+      {
+        "category": "ITO 導電膜",
+        "text": "**迎輝** (工控觸控用 ITO 膜)",
+        "entities": []
+      },
+      {
+        "category": "光學膜材",
+        "text": "**迎輝** (防窺/防霧/抗藍光膜)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板廠與觸控模組)",
+        "text": "**下游 (面板廠與觸控模組):**",
+        "entities": []
+      },
+      {
+        "category": "面板廠",
+        "text": "[[友達]]、[[群創]] — 量子點增亮膜",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "觸控模組",
+        "text": "工控觸控面板廠 — ITO 導電膜",
+        "entities": []
+      },
+      {
+        "category": "3D 銀幕",
+        "text": "國際 3D 電影院 — 高增益投影銀幕",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "背光模組廠 — [[Mini LED]] 膜材",
+        "entities": [
+          "Mini LED"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板廠",
+        "text": "[[友達]]、[[群創]] — 量子點增亮膜與光學膜",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "觸控模組",
+        "text": "工控觸控面板廠 — ITO 導電膜",
+        "entities": []
+      },
+      {
+        "role": "3D 銀幕",
+        "text": "國際 3D 電影院 — 高增益投影銀幕",
+        "entities": []
+      },
+      {
+        "role": "背光模組",
+        "text": "[[Mini LED]] 背光模組廠 — 量子點膜材",
+        "entities": [
+          "Mini LED"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PET 基膜",
+        "text": "PET 光學級基膜供應商",
+        "entities": []
+      },
+      {
+        "role": "光學膠",
+        "text": "光學膠材料供應商",
+        "entities": []
+      },
+      {
+        "role": "量子點",
+        "text": "量子點材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "友達",
+          "群創",
+          "Mini LED"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EFUN Technology",
+      "type": "international_company_or_term",
+      "wikilink": "EFUN Technology"
+    },
+    {
+      "name": "Mini LED",
+      "type": "international_company_or_term",
+      "wikilink": "Mini LED"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "迎輝科技 (3523，[[EFUN Technology]]) 專注於光學膜與光電材料開發製造。核心產品包括量子點膜 (Quantum Dot Film)、ITO 導電膜、3D 電影銀幕及各式顯示器膜材 (防窺/防霧/抗藍光)。\n\n技術優勢在於精密塗佈與 Roll-to-Roll 製程。曾為增亮膜大廠，現轉型高階顯示應用與工控觸控材料：(1) [[Mini LED]]/量子點 — 為面板廠供應量子點增亮膜，應用於高色域顯示器；(2) ITO 導電膜 — 供應工控觸控面板與智慧家居觸控模組；(3) 3D 銀幕 — 為國際 3D 電影院供應高增益投影銀幕。上游原料仰賴 PET 基膜、光學膠與量子點材料供應商。主要客戶為[[友達]]、[[群創]]等面板廠及觸控模組廠。",
+    "supply_chain_md": "**上游 (光學材料):**\n- **PET 基膜:** PET 光學級基膜供應商\n- **光學膠:** 光學膠材料供應商\n- **量子點:** 量子點材料供應商\n\n**中游 (光學膜製造):**\n- **量子點膜:** **迎輝** ([[Mini LED]]/量子點增亮膜)\n- **ITO 導電膜:** **迎輝** (工控觸控用 ITO 膜)\n- **光學膜材:** **迎輝** (防窺/防霧/抗藍光膜)\n\n**下游 (面板廠與觸控模組):**\n- **面板廠:** [[友達]]、[[群創]] — 量子點增亮膜\n- **觸控模組:** 工控觸控面板廠 — ITO 導電膜\n- **3D 銀幕:** 國際 3D 電影院 — 高增益投影銀幕\n- **背光模組:** 背光模組廠 — [[Mini LED]] 膜材",
+    "customers_suppliers_md": "### 主要客戶\n- **面板廠:** [[友達]]、[[群創]] — 量子點增亮膜與光學膜\n- **觸控模組:** 工控觸控面板廠 — ITO 導電膜\n- **3D 銀幕:** 國際 3D 電影院 — 高增益投影銀幕\n- **背光模組:** [[Mini LED]] 背光模組廠 — 量子點膜材\n\n### 主要供應商\n- **PET 基膜:** PET 光學級基膜供應商\n- **光學膠:** 光學膠材料供應商\n- **量子點:** 量子點材料供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

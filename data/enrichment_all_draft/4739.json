@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4739",
+  "company_name": "康普",
+  "title": "4739 - 康普",
+  "source_md": "Pilot_Reports/Specialty Chemicals/4739_康普.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "8,912 百萬台幣",
+    "enterprise_value": "11,457 百萬台幣"
+  },
+  "business": {
+    "summary": "康普材料 (CoreMax) 為台灣重要的 **動力電池材料** 與 **PTA 氧化觸媒** 供應商。\n核心業務：\n1.  **動力電池材料**: 生產 **硫酸鈷**、**硫酸鎳** (正極材料前驅體)，為 **Panasonic** 重要供應商，間接切入 **[[Tesla]]** 供應鏈。\n2.  **氧化觸媒**: PTA (純對苯二甲酸) 製程用觸媒，市佔率高。\n3.  **先進材料**: 輪胎接著劑、化學肥料、電子級硫酸 ([[半導體]]用)。\n近年配合客戶需求，積極擴充電池材料產能與金屬回收業務。",
+    "entities": [
+      "Tesla",
+      "半導體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 鈷/鎳金屬 (礦源/回收), 酸鹼原料.",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **康普 (4739)** - 電池材料化工合成, 觸媒配方.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**電池**: [[Panasonic]] (電池芯), [[Tesla]] ([[電動車]]), 正極材料廠 ([[住友金屬礦山]]).",
+        "entities": [
+          "Panasonic",
+          "Tesla",
+          "電動車",
+          "住友金屬礦山"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**紡織**: PTA 製造商 (化纖原料).",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**半導體**: 晶圓代工廠 (電子級硫酸).",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**Panasonic** (電池材料).",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "PTA 大廠 (如 [[中美和]], [[亞東石化]]).",
+        "entities": [
+          "中美和",
+          "亞東石化"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[半導體]]廠.",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中美和",
+          "亞東石化",
+          "半導體"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "住友金屬礦山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友金屬礦山"
+    },
+    {
+      "name": "中美和",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中美和"
+    },
+    {
+      "name": "亞東石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞東石化"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "康普材料 (CoreMax) 為台灣重要的 **動力電池材料** 與 **PTA 氧化觸媒** 供應商。\n核心業務：\n1.  **動力電池材料**: 生產 **硫酸鈷**、**硫酸鎳** (正極材料前驅體)，為 **Panasonic** 重要供應商，間接切入 **[[Tesla]]** 供應鏈。\n2.  **氧化觸媒**: PTA (純對苯二甲酸) 製程用觸媒，市佔率高。\n3.  **先進材料**: 輪胎接著劑、化學肥料、電子級硫酸 ([[半導體]]用)。\n近年配合客戶需求，積極擴充電池材料產能與金屬回收業務。",
+    "supply_chain_md": "*   **中游 (本體)**: **康普 (4739)** - 電池材料化工合成, 觸媒配方.\n*   **上游**: 鈷/鎳金屬 (礦源/回收), 酸鹼原料.\n*   **下游**:\n    *   **電池**: [[Panasonic]] (電池芯), [[Tesla]] ([[電動車]]), 正極材料廠 ([[住友金屬礦山]]).\n    *   **紡織**: PTA 製造商 (化纖原料).\n    *   **半導體**: 晶圓代工廠 (電子級硫酸).",
+    "customers_suppliers_md": "### 主要客戶\n*   **Panasonic** (電池材料).\n*   PTA 大廠 (如 [[中美和]], [[亞東石化]]).\n*   [[半導體]]廠."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3356",
+  "company_name": "奇偶",
+  "title": "3356 - 奇偶",
+  "source_md": "Pilot_Reports/Security & Protection Services/3356_奇偶.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Security & Protection Services",
+    "market_cap": "3,736 百萬台幣",
+    "enterprise_value": "2,105 百萬台幣"
+  },
+  "business": {
+    "summary": "奇偶科技股份有限公司（GeoVision）為台灣指標性安全監控系統研發領導廠，以自有品牌「GeoVision」行銷全球超過100個國家。公司以軟體技術見長，為將PC基礎數位錄影技術（DVR）成功推向全球之先驅。核心發展方向：（1）**[[AI]]邊緣運算：** 整合[[AI]]演算法於攝影機端，實現人臉辨識、車牌辨識、智慧追蹤等功能；（2）**VSaaS雲端訂閱：** 推動監控即服務（Video Surveillance as a Service）之穩定訂閱收入；（3）**[[NDAA]]合規：** 產品完全符合美國[[NDAA]]要求，在去中化趨勢下於北美市場具替代競爭力。",
+    "entities": [
+      "AI",
+      "NDAA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵元件)",
+        "text": "**上游 (關鍵元件):**",
+        "entities": []
+      },
+      {
+        "category": "影像感測器",
+        "text": "[[CIS]]影像感測器",
+        "entities": [
+          "CIS"
+        ]
+      },
+      {
+        "category": "SoC晶片",
+        "text": "[[聯詠]]、[[安霸]]等系統單晶片",
+        "entities": [
+          "聯詠",
+          "安霸"
+        ]
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "鏡頭模組供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統研發)",
+        "text": "**中游 (系統研發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**奇偶科技** — 電子監控系統、[[AI]]影像軟體研發、品牌「GeoVision」銷售",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "北美市場",
+        "text": "政府、商業、高端住宅安防（[[NDAA]]合規）",
+        "entities": [
+          "NDAA"
+        ]
+      },
+      {
+        "category": "全球通路",
+        "text": "100+國家之經銷體系與系統整合商",
+        "entities": []
+      },
+      {
+        "category": "雲端服務",
+        "text": "VSaaS雲端監控訂閱客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美市場",
+        "text": "美國政府機關、商業與高端住宅安防（[[NDAA]]合規產品）",
+        "entities": [
+          "NDAA"
+        ]
+      },
+      {
+        "role": "全球經銷",
+        "text": "100+國家之安防經銷商與系統整合商",
+        "entities": []
+      },
+      {
+        "role": "雲端訂閱",
+        "text": "VSaaS雲端監控服務訂閱客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "SoC晶片",
+        "text": "[[聯詠]]、[[安霸]]（影像處理系統單晶片）",
+        "entities": [
+          "聯詠",
+          "安霸"
+        ]
+      },
+      {
+        "role": "感光元件",
+        "text": "[[CIS]]影像感測器供應商",
+        "entities": [
+          "CIS"
+        ]
+      },
+      {
+        "role": "光學鏡頭",
+        "text": "鏡頭模組供應商",
+        "entities": []
+      },
+      {
+        "role": "雲端服務",
+        "text": "雲端運算基礎設施供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Security & Protection Services):** [[云辰]]、[[杭特]]、[[晶睿]]、[[建騰]]、[[慧友]]",
+        "entities": [
+          "云辰",
+          "杭特",
+          "晶睿",
+          "建騰",
+          "慧友"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NDAA"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "奇偶科技股份有限公司（GeoVision）為台灣指標性安全監控系統研發領導廠，以自有品牌「GeoVision」行銷全球超過100個國家。公司以軟體技術見長，為將PC基礎數位錄影技術（DVR）成功推向全球之先驅。核心發展方向：（1）**[[AI]]邊緣運算：** 整合[[AI]]演算法於攝影機端，實現人臉辨識、車牌辨識、智慧追蹤等功能；（2）**VSaaS雲端訂閱：** 推動監控即服務（Video Surveillance as a Service）之穩定訂閱收入；（3）**[[NDAA]]合規：** 產品完全符合美國[[NDAA]]要求，在去中化趨勢下於北美市場具替代競爭力。",
+        "entities": [
+          "AI",
+          "NDAA"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": [
+      {
+        "text": "奇偶科技股份有限公司（GeoVision）為台灣指標性安全監控系統研發領導廠，以自有品牌「GeoVision」行銷全球超過100個國家。公司以軟體技術見長，為將PC基礎數位錄影技術（DVR）成功推向全球之先驅。核心發展方向：（1）**[[AI]]邊緣運算：** 整合[[AI]]演算法於攝影機端，實現人臉辨識、車牌辨識、智慧追蹤等功能；（2）**VSaaS雲端訂閱：** 推動監控即服務（Video Surveillance as a Service）之穩定訂閱收入；（3）**[[NDAA]]合規：** 產品完全符合美國[[NDAA]]要求，在去中化趨勢下於北美市場具替代競爭力。",
+        "entities": [
+          "AI",
+          "NDAA"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "NDAA",
+      "type": "international_company_or_term",
+      "wikilink": "NDAA"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "安霸",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安霸"
+    },
+    {
+      "name": "云辰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "云辰"
+    },
+    {
+      "name": "杭特",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杭特"
+    },
+    {
+      "name": "晶睿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶睿"
+    },
+    {
+      "name": "建騰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建騰"
+    },
+    {
+      "name": "慧友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "慧友"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "奇偶科技股份有限公司（GeoVision）為台灣指標性安全監控系統研發領導廠，以自有品牌「GeoVision」行銷全球超過100個國家。公司以軟體技術見長，為將PC基礎數位錄影技術（DVR）成功推向全球之先驅。核心發展方向：（1）**[[AI]]邊緣運算：** 整合[[AI]]演算法於攝影機端，實現人臉辨識、車牌辨識、智慧追蹤等功能；（2）**VSaaS雲端訂閱：** 推動監控即服務（Video Surveillance as a Service）之穩定訂閱收入；（3）**[[NDAA]]合規：** 產品完全符合美國[[NDAA]]要求，在去中化趨勢下於北美市場具替代競爭力。",
+    "supply_chain_md": "**上游 (關鍵元件):**\n- **影像感測器:** [[CIS]]影像感測器\n- **SoC晶片:** [[聯詠]]、[[安霸]]等系統單晶片\n- **光學鏡頭:** 鏡頭模組供應商\n\n**中游 (系統研發):**\n- **奇偶科技** — 電子監控系統、[[AI]]影像軟體研發、品牌「GeoVision」銷售\n\n**下游 (終端市場):**\n- **北美市場:** 政府、商業、高端住宅安防（[[NDAA]]合規）\n- **全球通路:** 100+國家之經銷體系與系統整合商\n- **雲端服務:** VSaaS雲端監控訂閱客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **北美市場:** 美國政府機關、商業與高端住宅安防（[[NDAA]]合規產品）\n- **全球經銷:** 100+國家之安防經銷商與系統整合商\n- **雲端訂閱:** VSaaS雲端監控服務訂閱客戶\n\n### 主要供應商\n- **SoC晶片:** [[聯詠]]、[[安霸]]（影像處理系統單晶片）\n- **感光元件:** [[CIS]]影像感測器供應商\n- **光學鏡頭:** 鏡頭模組供應商\n- **雲端服務:** 雲端運算基礎設施供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

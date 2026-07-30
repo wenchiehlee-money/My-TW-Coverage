@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9914",
+  "company_name": "美利達",
+  "title": "9914 - 美利達",
+  "source_md": "Pilot_Reports/Leisure/9914_美利達.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure",
+    "market_cap": "23,680 百萬台幣",
+    "enterprise_value": "26,743 百萬台幣"
+  },
+  "business": {
+    "summary": "美利達工業股份有限公司 (9914，Merida Industry) 成立於 1972 年，為全球第二大自行車品牌廠，僅次於同業[[巨大]] ([[Giant]])。公司以自有品牌「MERIDA」行銷全球，產品涵蓋公路車、登山車、城市車、碟煞公路車及[[電動輔助自行車]] (E-Bike)。2003 年美利達與[[巨大]]共同推動台灣自行車產業「A-Team」計畫，帶動產業升級。公司持有德國自行車品牌[[Centurion]]及[[Specialized]]股權，與[[Shimano]]維持長期零組件合作關係。生產基地位於台灣彰化及中國大陸。",
+    "entities": [
+      "巨大",
+      "Giant",
+      "電動輔助自行車",
+      "Centurion",
+      "Specialized",
+      "Shimano"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與材料)",
+        "text": "**上游 (零組件與材料):**",
+        "entities": []
+      },
+      {
+        "category": "車架材料",
+        "text": "鋁合金、[[碳纖維]]車架",
+        "entities": [
+          "碳纖維"
+        ]
+      },
+      {
+        "category": "傳動系統",
+        "text": "[[Shimano]] — 變速器與傳動零組件",
+        "entities": [
+          "Shimano"
+        ]
+      },
+      {
+        "category": "E-Bike 動力",
+        "text": "[[Shimano]] STEPS 電動輔助系統",
+        "entities": [
+          "Shimano"
+        ]
+      },
+      {
+        "category": "輪組與輪胎",
+        "text": "國際輪組與輪胎品牌",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌設計與製造)",
+        "text": "**中游 (品牌設計與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**美利達** — 自有品牌「MERIDA」自行車設計、製造與全球行銷",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球通路)",
+        "text": "**下游 (全球通路):**",
+        "entities": []
+      },
+      {
+        "category": "歐洲市場",
+        "text": "歐洲自行車專賣店與經銷網絡 (最大市場)",
+        "entities": []
+      },
+      {
+        "category": "亞洲市場",
+        "text": "日本、台灣自行車通路",
+        "entities": []
+      },
+      {
+        "category": "投資品牌",
+        "text": "[[Specialized]]、[[Centurion]] — 持股品牌",
+        "entities": [
+          "Specialized",
+          "Centurion"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐洲通路",
+        "text": "歐洲自行車專賣店與經銷網絡 — MERIDA 品牌最大市場",
+        "entities": []
+      },
+      {
+        "role": "亞洲通路",
+        "text": "日本、台灣自行車經銷商",
+        "entities": []
+      },
+      {
+        "role": "投資品牌",
+        "text": "持股[[Specialized]] — 全球高階自行車品牌",
+        "entities": [
+          "Specialized"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "傳動系統",
+        "text": "[[Shimano]] — 變速器與 STEPS 電動輔助系統",
+        "entities": [
+          "Shimano"
+        ]
+      },
+      {
+        "role": "碳纖維車架",
+        "text": "[[碳纖維]]車架供應商",
+        "entities": [
+          "碳纖維"
+        ]
+      },
+      {
+        "role": "A-Team 夥伴",
+        "text": "[[巨大]] ([[Giant]]) — 台灣自行車產業 A-Team 計畫共同推動者",
+        "entities": [
+          "巨大",
+          "Giant"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Leisure):** [[大魯閣]]、[[力山]]、[[日馳]]、[[祺驊]]、[[岱宇]]",
+        "entities": [
+          "大魯閣",
+          "力山",
+          "日馳",
+          "祺驊",
+          "岱宇"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Specialized"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "巨大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大"
+    },
+    {
+      "name": "Giant",
+      "type": "international_company_or_term",
+      "wikilink": "Giant"
+    },
+    {
+      "name": "電動輔助自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動輔助自行車"
+    },
+    {
+      "name": "Centurion",
+      "type": "international_company_or_term",
+      "wikilink": "Centurion"
+    },
+    {
+      "name": "Specialized",
+      "type": "international_company_or_term",
+      "wikilink": "Specialized"
+    },
+    {
+      "name": "Shimano",
+      "type": "international_company_or_term",
+      "wikilink": "Shimano"
+    },
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "大魯閣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大魯閣"
+    },
+    {
+      "name": "力山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力山"
+    },
+    {
+      "name": "日馳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日馳"
+    },
+    {
+      "name": "祺驊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "祺驊"
+    },
+    {
+      "name": "岱宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "岱宇"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "美利達工業股份有限公司 (9914，Merida Industry) 成立於 1972 年，為全球第二大自行車品牌廠，僅次於同業[[巨大]] ([[Giant]])。公司以自有品牌「MERIDA」行銷全球，產品涵蓋公路車、登山車、城市車、碟煞公路車及[[電動輔助自行車]] (E-Bike)。2003 年美利達與[[巨大]]共同推動台灣自行車產業「A-Team」計畫，帶動產業升級。公司持有德國自行車品牌[[Centurion]]及[[Specialized]]股權，與[[Shimano]]維持長期零組件合作關係。生產基地位於台灣彰化及中國大陸。",
+    "supply_chain_md": "**上游 (零組件與材料):**\n- **車架材料:** 鋁合金、[[碳纖維]]車架\n- **傳動系統:** [[Shimano]] — 變速器與傳動零組件\n- **E-Bike 動力:** [[Shimano]] STEPS 電動輔助系統\n- **輪組與輪胎:** 國際輪組與輪胎品牌\n\n**中游 (品牌設計與製造):**\n- **美利達** — 自有品牌「MERIDA」自行車設計、製造與全球行銷\n\n**下游 (全球通路):**\n- **歐洲市場:** 歐洲自行車專賣店與經銷網絡 (最大市場)\n- **亞洲市場:** 日本、台灣自行車通路\n- **投資品牌:** [[Specialized]]、[[Centurion]] — 持股品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **歐洲通路:** 歐洲自行車專賣店與經銷網絡 — MERIDA 品牌最大市場\n- **亞洲通路:** 日本、台灣自行車經銷商\n- **投資品牌:** 持股[[Specialized]] — 全球高階自行車品牌\n\n### 主要供應商\n- **傳動系統:** [[Shimano]] — 變速器與 STEPS 電動輔助系統\n- **碳纖維車架:** [[碳纖維]]車架供應商\n- **A-Team 夥伴:** [[巨大]] ([[Giant]]) — 台灣自行車產業 A-Team 計畫共同推動者"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

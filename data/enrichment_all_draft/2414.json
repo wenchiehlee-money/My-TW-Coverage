@@ -1,0 +1,279 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2414",
+  "company_name": "精技",
+  "title": "2414 - 精技",
+  "source_md": "Pilot_Reports/Computer Hardware/2414_精技.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "8,944 百萬台幣",
+    "enterprise_value": "11,695 百萬台幣"
+  },
+  "business": {
+    "summary": "精技電腦 (2414，[[Unitech Computer]]) 成立於 1979 年，總部位於台北內湖，為台灣最早投入資訊產品通路之企業，深耕台灣 IT 市場逾 45 年。公司經營兩大核心業務：資訊科技產品通路及自動辨識資料收集 ([[AIDC]])。\n\n通路事業以精技電腦為主體，代理經銷各大國際 IT 品牌之電腦、周邊、伺服器、網路設備、印表機、數位看板及企業解決方案。AIDC 事業則以子公司[[精[[聯電]]子]] (3652) 為核心，研發製造軍工規 PDA 式行動電腦、工規手持式行動電腦、條碼掃描器、[[RFID]] 讀取器及門禁差勤終端機。",
+    "entities": [
+      "Unitech Computer",
+      "AIDC",
+      "精[[聯電",
+      "RFID"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際 IT 品牌原廠)",
+        "text": "**上游 (國際 IT 品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "電腦品牌",
+        "text": "[[華碩]]、[[宏碁]]、[[Apple]] — 桌機/筆電/伺服器代理",
+        "entities": [
+          "華碩",
+          "宏碁",
+          "Apple"
+        ]
+      },
+      {
+        "category": "印表機",
+        "text": "[[HP]]、[[Epson]] — 印表機及耗材代理",
+        "entities": [
+          "HP",
+          "Epson"
+        ]
+      },
+      {
+        "category": "網路設備",
+        "text": "國際網通品牌 — 企業級網路設備",
+        "entities": []
+      },
+      {
+        "category": "AIDC 元件",
+        "text": "條碼掃描引擎、[[RFID]] 讀寫模組",
+        "entities": [
+          "RFID"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IT 通路與 AIDC 研發製造)",
+        "text": "**中游 (IT 通路與 AIDC 研發製造):**",
+        "entities": []
+      },
+      {
+        "category": "IT 通路",
+        "text": "**精技** (台灣 IT 產品通路經銷商)",
+        "entities": []
+      },
+      {
+        "category": "AIDC 製造",
+        "text": "[[精[[聯電]]子]] (3652，工規行動電腦/條碼掃描器/RFID 讀取器)",
+        "entities": [
+          "精[[聯電"
+        ]
+      },
+      {
+        "category": "企業方案",
+        "text": "**精技** (企業 IT 解決方案整合)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業客戶與政府機關)",
+        "text": "**下游 (企業客戶與政府機關):**",
+        "entities": []
+      },
+      {
+        "category": "企業用戶",
+        "text": "各產業企業 — IT 設備採購",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "政府及國營事業 — IT 標案",
+        "entities": []
+      },
+      {
+        "category": "物流倉儲",
+        "text": "物流/倉儲/製造業 — AIDC 自動辨識方案",
+        "entities": []
+      },
+      {
+        "category": "零售業",
+        "text": "零售通路 — POS 及條碼掃描設備",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業用戶",
+        "text": "各產業企業 — IT 設備及企業解決方案",
+        "entities": []
+      },
+      {
+        "role": "政府機關",
+        "text": "政府及國營事業 — IT 設備標案",
+        "entities": []
+      },
+      {
+        "role": "物流倉儲",
+        "text": "物流/倉儲/製造業 — [[AIDC]] 行動電腦及條碼掃描器",
+        "entities": [
+          "AIDC"
+        ]
+      },
+      {
+        "role": "零售業",
+        "text": "零售通路 — POS 及自動辨識設備",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電腦品牌",
+        "text": "[[華碩]]、[[宏碁]]、[[Apple]] — 桌機/筆電/伺服器代理",
+        "entities": [
+          "華碩",
+          "宏碁",
+          "Apple"
+        ]
+      },
+      {
+        "role": "印表機",
+        "text": "[[HP]]、[[Epson]] — 印表機及耗材代理",
+        "entities": [
+          "HP",
+          "Epson"
+        ]
+      },
+      {
+        "role": "子公司",
+        "text": "[[精[[聯電]]子]] (3652) — AIDC 行動電腦及條碼設備",
+        "entities": [
+          "精[[聯電"
+        ]
+      },
+      {
+        "role": "網通設備",
+        "text": "國際網通品牌 — 企業級網路設備代理",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AIDC"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Unitech Computer",
+      "type": "international_company_or_term",
+      "wikilink": "Unitech Computer"
+    },
+    {
+      "name": "AIDC",
+      "type": "international_company_or_term",
+      "wikilink": "AIDC"
+    },
+    {
+      "name": "精[[聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精[[聯電"
+    },
+    {
+      "name": "RFID",
+      "type": "international_company_or_term",
+      "wikilink": "RFID"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Epson",
+      "type": "international_company_or_term",
+      "wikilink": "Epson"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "精技電腦 (2414，[[Unitech Computer]]) 成立於 1979 年，總部位於台北內湖，為台灣最早投入資訊產品通路之企業，深耕台灣 IT 市場逾 45 年。公司經營兩大核心業務：資訊科技產品通路及自動辨識資料收集 ([[AIDC]])。\n\n通路事業以精技電腦為主體，代理經銷各大國際 IT 品牌之電腦、周邊、伺服器、網路設備、印表機、數位看板及企業解決方案。AIDC 事業則以子公司[[精[[聯電]]子]] (3652) 為核心，研發製造軍工規 PDA 式行動電腦、工規手持式行動電腦、條碼掃描器、[[RFID]] 讀取器及門禁差勤終端機。",
+    "supply_chain_md": "**上游 (國際 IT 品牌原廠):**\n- **電腦品牌:** [[華碩]]、[[宏碁]]、[[Apple]] — 桌機/筆電/伺服器代理\n- **印表機:** [[HP]]、[[Epson]] — 印表機及耗材代理\n- **網路設備:** 國際網通品牌 — 企業級網路設備\n- **AIDC 元件:** 條碼掃描引擎、[[RFID]] 讀寫模組\n\n**中游 (IT 通路與 AIDC 研發製造):**\n- **IT 通路:** **精技** (台灣 IT 產品通路經銷商)\n- **AIDC 製造:** [[精[[聯電]]子]] (3652，工規行動電腦/條碼掃描器/RFID 讀取器)\n- **企業方案:** **精技** (企業 IT 解決方案整合)\n\n**下游 (企業客戶與政府機關):**\n- **企業用戶:** 各產業企業 — IT 設備採購\n- **政府機關:** 政府及國營事業 — IT 標案\n- **物流倉儲:** 物流/倉儲/製造業 — AIDC 自動辨識方案\n- **零售業:** 零售通路 — POS 及條碼掃描設備",
+    "customers_suppliers_md": "### 主要客戶\n- **企業用戶:** 各產業企業 — IT 設備及企業解決方案\n- **政府機關:** 政府及國營事業 — IT 設備標案\n- **物流倉儲:** 物流/倉儲/製造業 — [[AIDC]] 行動電腦及條碼掃描器\n- **零售業:** 零售通路 — POS 及自動辨識設備\n\n### 主要供應商\n- **電腦品牌:** [[華碩]]、[[宏碁]]、[[Apple]] — 桌機/筆電/伺服器代理\n- **印表機:** [[HP]]、[[Epson]] — 印表機及耗材代理\n- **子公司:** [[精[[聯電]]子]] (3652) — AIDC 行動電腦及條碼設備\n- **網通設備:** 國際網通品牌 — 企業級網路設備代理"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

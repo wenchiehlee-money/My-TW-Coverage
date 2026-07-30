@@ -1,0 +1,284 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6486",
+  "company_name": "互動",
+  "title": "6486_互動",
+  "source_md": "Pilot_Reports/Software - Application/6486_互動.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": "3,832 百萬台幣",
+    "enterprise_value": "3,561 百萬台幣"
+  },
+  "business": {
+    "summary": "互動國際數位 (6486，IDT) 隸屬於[[佳世達]]集團，為台灣頂尖的電信、媒體及寬頻網路系統整合商。公司專注於代理歐美一線硬體與軟體品牌，為客戶提供 [[5G]] 骨幹網路、微波無線傳輸、數位電視多媒體播送、地理資訊系統 (GIS) 及雲端資安之完整系統建置與售後服務。主要代理品牌包括 [[Cisco]]、[[Ericsson]]、[[ESRI]] (全球 GIS 軟體龍頭) 及 [[AWS]] 等國際大廠。隨著 [[5G]] 企業專網、[[低軌衛星]]通訊及智慧城市蓬勃發展，互動國際已將業務延伸至高鐵軌道通訊、智慧城市防災等大型基礎設施智慧化建置。",
+    "entities": [
+      "佳世達",
+      "5G",
+      "Cisco",
+      "Ericsson",
+      "ESRI",
+      "AWS",
+      "低軌衛星"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際品牌原廠)",
+        "text": "**上游 (國際品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "網通設備",
+        "text": "[[Cisco]]、[[Ericsson]] (5G/微波通訊設備)",
+        "entities": [
+          "Cisco",
+          "Ericsson"
+        ]
+      },
+      {
+        "category": "GIS 軟體",
+        "text": "[[ESRI]] (全球 GIS 軟體龍頭)",
+        "entities": [
+          "ESRI"
+        ]
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[AWS]] (雲端基礎設施)",
+        "entities": [
+          "AWS"
+        ]
+      },
+      {
+        "category": "多媒體設備",
+        "text": "國際數位電視製播軟硬體原廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合)",
+        "text": "**中游 (系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "電信/媒體 SI",
+        "text": "**互動國際** (電信網路、數位媒體、GIS 系統整合建置)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電信營運商",
+        "text": "[[中華電信]]、[[台灣大哥大]]、[[遠傳電信]]",
+        "entities": [
+          "中華電信",
+          "台灣大哥大",
+          "遠傳電信"
+        ]
+      },
+      {
+        "category": "媒體",
+        "text": "各大有線/無線電視台、OTT 新媒體平台",
+        "entities": []
+      },
+      {
+        "category": "交通",
+        "text": "[[台灣高鐵]] (軌道通訊系統)",
+        "entities": [
+          "台灣高鐵"
+        ]
+      },
+      {
+        "category": "政府",
+        "text": "各縣市政府 (智慧城市/防災系統)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信業",
+        "text": "[[中華電信]]、[[台灣大哥大]]、[[遠傳電信]] (5G/網路建設)",
+        "entities": [
+          "中華電信",
+          "台灣大哥大",
+          "遠傳電信"
+        ]
+      },
+      {
+        "role": "媒體業",
+        "text": "各大有線/無線電視台、OTT 新媒體平台",
+        "entities": []
+      },
+      {
+        "role": "交通業",
+        "text": "[[台灣高鐵]] (軌道通訊系統)",
+        "entities": [
+          "台灣高鐵"
+        ]
+      },
+      {
+        "role": "政府機關",
+        "text": "各縣市政府、學術研究機構",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網通設備",
+        "text": "[[Cisco]]、[[Ericsson]] (5G/微波通訊)",
+        "entities": [
+          "Cisco",
+          "Ericsson"
+        ]
+      },
+      {
+        "role": "GIS 軟體",
+        "text": "[[ESRI]] (地理資訊系統)",
+        "entities": [
+          "ESRI"
+        ]
+      },
+      {
+        "role": "雲端服務",
+        "text": "[[AWS]]",
+        "entities": [
+          "AWS"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Application):** [[大塚]]、[[研勤]]、[[凱衛]]、[[力新]]、[[訊連]]",
+        "entities": [
+          "大塚",
+          "研勤",
+          "凱衛",
+          "力新",
+          "訊連"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "中華電信",
+          "台灣大哥大",
+          "遠傳電信",
+          "台灣高鐵"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Ericsson",
+      "type": "international_company_or_term",
+      "wikilink": "Ericsson"
+    },
+    {
+      "name": "ESRI",
+      "type": "international_company_or_term",
+      "wikilink": "ESRI"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "台灣大哥大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大哥大"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "台灣高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣高鐵"
+    },
+    {
+      "name": "大塚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大塚"
+    },
+    {
+      "name": "研勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研勤"
+    },
+    {
+      "name": "凱衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱衛"
+    },
+    {
+      "name": "力新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力新"
+    },
+    {
+      "name": "訊連",
+      "type": "taiwan_company_or_term",
+      "wikilink": "訊連"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "互動國際數位 (6486，IDT) 隸屬於[[佳世達]]集團，為台灣頂尖的電信、媒體及寬頻網路系統整合商。公司專注於代理歐美一線硬體與軟體品牌，為客戶提供 [[5G]] 骨幹網路、微波無線傳輸、數位電視多媒體播送、地理資訊系統 (GIS) 及雲端資安之完整系統建置與售後服務。主要代理品牌包括 [[Cisco]]、[[Ericsson]]、[[ESRI]] (全球 GIS 軟體龍頭) 及 [[AWS]] 等國際大廠。隨著 [[5G]] 企業專網、[[低軌衛星]]通訊及智慧城市蓬勃發展，互動國際已將業務延伸至高鐵軌道通訊、智慧城市防災等大型基礎設施智慧化建置。",
+    "supply_chain_md": "**上游 (國際品牌原廠):**\n- **網通設備:** [[Cisco]]、[[Ericsson]] (5G/微波通訊設備)\n- **GIS 軟體:** [[ESRI]] (全球 GIS 軟體龍頭)\n- **雲端平台:** [[AWS]] (雲端基礎設施)\n- **多媒體設備:** 國際數位電視製播軟硬體原廠\n\n**中游 (系統整合):**\n- **電信/媒體 SI:** **互動國際** (電信網路、數位媒體、GIS 系統整合建置)\n\n**下游 (終端客戶):**\n- **電信營運商:** [[中華電信]]、[[台灣大哥大]]、[[遠傳電信]]\n- **媒體:** 各大有線/無線電視台、OTT 新媒體平台\n- **交通:** [[台灣高鐵]] (軌道通訊系統)\n- **政府:** 各縣市政府 (智慧城市/防災系統)",
+    "customers_suppliers_md": "### 主要客戶\n- **電信業:** [[中華電信]]、[[台灣大哥大]]、[[遠傳電信]] (5G/網路建設)\n- **媒體業:** 各大有線/無線電視台、OTT 新媒體平台\n- **交通業:** [[台灣高鐵]] (軌道通訊系統)\n- **政府機關:** 各縣市政府、學術研究機構\n\n### 主要供應商\n- **網通設備:** [[Cisco]]、[[Ericsson]] (5G/微波通訊)\n- **GIS 軟體:** [[ESRI]] (地理資訊系統)\n- **雲端服務:** [[AWS]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

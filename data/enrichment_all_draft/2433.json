@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2433",
+  "company_name": "互盛電",
+  "title": "2433 - 互盛電",
+  "source_md": "Pilot_Reports/Business Equipment & Supplies/2433_互盛電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "6,062 百萬台幣",
+    "enterprise_value": "6,166 百萬台幣"
+  },
+  "business": {
+    "summary": "互盛股份有限公司 (Huxen Corporation) 成立於 1984 年，總部位於台灣[[台北]]，為[[震旦集團]]旗下子公司。互盛電主要從事辦公室[[自動化]] (OA) 設備之銷售、租賃及維修服務，並提供企業數位轉型解決方案。主要代理品牌為日本[[理光]] (RICOH) 之影印機及多功能事務機。除硬體外，亦提供辦公[[雲端服務]]、智能視訊系統、資安防護及文件數位化解決方案，服務對象涵蓋台灣各中小企業及大型機關。",
+    "entities": [
+      "台北",
+      "震旦集團",
+      "自動化",
+      "理光",
+      "雲端服務"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (事務設備原廠)",
+        "text": "**上游 (事務設備原廠):**",
+        "entities": []
+      },
+      {
+        "category": "代理進口",
+        "text": "代理引進影印機、多功能事務機、高產能輸出設備及通訊監控系統。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (辦公設備通路與租賃)",
+        "text": "**中游 (辦公設備通路與租賃):**",
+        "entities": []
+      },
+      {
+        "category": "通路與運營",
+        "text": "**互盛電 (2433)** (透過全台綿密營運據點，提供企業 OA 設備之直接銷售、長租賃服務 Leasing 及後續維修保養 Maintenance，近年積極跨足 ESG 減碳方案與雲端資安)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (各行各業 B2B 客戶)",
+        "text": "**下游 (各行各業 B2B 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "終端應用",
+        "text": "企業客戶群涵蓋台灣各產業之中小企業、大型集團本部、政府機關、各級學校及金融機構等。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業及機關用戶",
+        "text": "廣泛包含全台各產業之中小型與大型企業 (設備租賃與耗材銷售佔其營收超過 60%~70%，為最穩定現金流來源)。",
+        "entities": []
+      },
+      {
+        "role": "集團關係企業協作",
+        "text": "中國子公司 互盛(中國) 會向關係企業上海[[震旦]]辦公自動化銷售有限公司採購出租用影印機，以服務當地台商及陸商需求。",
+        "entities": [
+          "震旦"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "辦公設備原廠",
+        "text": "日系光學大廠 [[Ricoh]] (理光) 為其最大且長期之主力設備供應商 (獨家代理及視訊設備採購)。",
+        "entities": [
+          "Ricoh"
+        ]
+      },
+      {
+        "role": "通訊與監控原廠",
+        "text": "供應通訊監控系統與印表機之 [[Lexmark]]、[[NEC]] 等國際設備廠。",
+        "entities": [
+          "Lexmark",
+          "NEC"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Business Equipment & Supplies):** [[地球]]、[[三商電]]、[[連宇]]、[[金雨]]、[[虹堡]]",
+        "entities": [
+          "地球",
+          "三商電",
+          "連宇",
+          "金雨",
+          "虹堡"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "震旦"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "震旦集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "震旦集團"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "理光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "理光"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "震旦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "震旦"
+    },
+    {
+      "name": "Ricoh",
+      "type": "international_company_or_term",
+      "wikilink": "Ricoh"
+    },
+    {
+      "name": "Lexmark",
+      "type": "international_company_or_term",
+      "wikilink": "Lexmark"
+    },
+    {
+      "name": "NEC",
+      "type": "international_company_or_term",
+      "wikilink": "NEC"
+    },
+    {
+      "name": "地球",
+      "type": "taiwan_company_or_term",
+      "wikilink": "地球"
+    },
+    {
+      "name": "三商電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三商電"
+    },
+    {
+      "name": "連宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連宇"
+    },
+    {
+      "name": "金雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金雨"
+    },
+    {
+      "name": "虹堡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "虹堡"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "互盛股份有限公司 (Huxen Corporation) 成立於 1984 年，總部位於台灣[[台北]]，為[[震旦集團]]旗下子公司。互盛電主要從事辦公室[[自動化]] (OA) 設備之銷售、租賃及維修服務，並提供企業數位轉型解決方案。主要代理品牌為日本[[理光]] (RICOH) 之影印機及多功能事務機。除硬體外，亦提供辦公[[雲端服務]]、智能視訊系統、資安防護及文件數位化解決方案，服務對象涵蓋台灣各中小企業及大型機關。",
+    "supply_chain_md": "**上游 (事務設備原廠):**\n- **代理進口:** 代理引進影印機、多功能事務機、高產能輸出設備及通訊監控系統。\n\n**中游 (辦公設備通路與租賃):**\n- **通路與運營:** **互盛電 (2433)** (透過全台綿密營運據點，提供企業 OA 設備之直接銷售、長租賃服務 Leasing 及後續維修保養 Maintenance，近年積極跨足 ESG 減碳方案與雲端資安)。\n\n**下游 (各行各業 B2B 客戶):**\n- **終端應用:** 企業客戶群涵蓋台灣各產業之中小企業、大型集團本部、政府機關、各級學校及金融機構等。",
+    "customers_suppliers_md": "### 主要客戶\n- **企業及機關用戶:** 廣泛包含全台各產業之中小型與大型企業 (設備租賃與耗材銷售佔其營收超過 60%~70%，為最穩定現金流來源)。\n- **集團關係企業協作:** 中國子公司 互盛(中國) 會向關係企業上海[[震旦]]辦公自動化銷售有限公司採購出租用影印機，以服務當地台商及陸商需求。\n\n### 主要供應商\n- **辦公設備原廠:** 日系光學大廠 [[Ricoh]] (理光) 為其最大且長期之主力設備供應商 (獨家代理及視訊設備採購)。\n- **通訊與監控原廠:** 供應通訊監控系統與印表機之 [[Lexmark]]、[[NEC]] 等國際設備廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

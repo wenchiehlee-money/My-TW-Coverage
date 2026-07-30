@@ -1,0 +1,345 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8222",
+  "company_name": "寶一",
+  "title": "8222 - 寶一",
+  "source_md": "Pilot_Reports/Aerospace & Defense/8222_寶一.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "market_cap": "2,438 百萬台幣",
+    "enterprise_value": "3,322 百萬台幣"
+  },
+  "business": {
+    "summary": "寶一科技 (8222，Aerowin Technology) 成立逾 40 年，專注於航空發動機關鍵零件之精密製造。核心技術涵蓋超合金與[[鈦合金]]之成型、焊接、加工、熱處理及表面處理，主力產品為引擎冷卻件與環件，廣泛應用於全球主流民用與軍用航空發動機。客戶遍及美、法、德、日、義、比、波蘭等國，為[[Pratt & Whitney]]、[[Safran]]旗下多家子公司、[[川崎重工]]、[[MTU Aero Engines]]、[[GE Avio]] 等全球一線引擎大廠之重要 Tier 1/Tier 2 供應商。受惠於[[LEAP]]、[[PW1000G]] 等新世代引擎量產放大，營收持續成長。",
+    "entities": [
+      "鈦合金",
+      "Pratt & Whitney",
+      "Safran",
+      "川崎重工",
+      "MTU Aero Engines",
+      "GE Avio",
+      "LEAP",
+      "PW1000G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊合金",
+        "text": "[[榮剛]] — 超合金與[[鈦合金]]鍛造件",
+        "entities": [
+          "榮剛",
+          "鈦合金"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (精密製造)",
+        "text": "**中游 (精密製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**寶一** (航空發動機冷卻件與環件之精密成型、焊接與表面處理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (引擎 OEM)",
+        "text": "**下游 (引擎 OEM):**",
+        "entities": []
+      },
+      {
+        "category": "美系",
+        "text": "[[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎零組件",
+        "entities": [
+          "Pratt & Whitney",
+          "PW1000G",
+          "PW1500G"
+        ]
+      },
+      {
+        "category": "法系",
+        "text": "[[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 引擎零組件",
+        "entities": [
+          "Safran Aircraft Engines",
+          "Safran Aero Boosters",
+          "Safran Transmission Systems",
+          "LEAP",
+          "CFM56"
+        ]
+      },
+      {
+        "category": "德系",
+        "text": "[[MTU Aero Engines]] — 引擎零組件",
+        "entities": [
+          "MTU Aero Engines"
+        ]
+      },
+      {
+        "category": "義系",
+        "text": "[[GE Avio]] — [[GE Aerospace]]子公司，引擎零組件",
+        "entities": [
+          "GE Avio",
+          "GE Aerospace"
+        ]
+      },
+      {
+        "category": "日系",
+        "text": "[[川崎重工]]、[[三菱重工]] — [[PW1500G]] 等引擎零組件",
+        "entities": [
+          "川崎重工",
+          "三菱重工",
+          "PW1500G"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "[[Honeywell]] — 引擎零組件",
+        "entities": [
+          "Honeywell"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "美系引擎",
+        "text": "[[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎冷卻件與環件",
+        "entities": [
+          "Pratt & Whitney",
+          "PW1000G",
+          "PW1500G"
+        ]
+      },
+      {
+        "role": "法系引擎",
+        "text": "[[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 零組件",
+        "entities": [
+          "Safran Aircraft Engines",
+          "Safran Aero Boosters",
+          "Safran Transmission Systems",
+          "LEAP",
+          "CFM56"
+        ]
+      },
+      {
+        "role": "德系引擎",
+        "text": "[[MTU Aero Engines]] — 引擎零組件",
+        "entities": [
+          "MTU Aero Engines"
+        ]
+      },
+      {
+        "role": "義系引擎",
+        "text": "[[GE Avio]] ([[GE Aerospace]]子公司) — 引擎零組件",
+        "entities": [
+          "GE Avio",
+          "GE Aerospace"
+        ]
+      },
+      {
+        "role": "日系引擎",
+        "text": "[[川崎重工]] — [[PW1500G]] 燃燒室零組件 (近期大幅增長)；[[三菱重工]] — 引擎零組件",
+        "entities": [
+          "川崎重工",
+          "PW1500G",
+          "三菱重工"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "[[Honeywell]]、[[漢翔]] — 引擎零組件",
+        "entities": [
+          "Honeywell",
+          "漢翔"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊合金",
+        "text": "[[榮剛]] — 超合金與[[鈦合金]]鍛造件",
+        "entities": [
+          "榮剛",
+          "鈦合金"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Aerospace & Defense):** [[台船]]、[[亞航]]、[[漢翔]]、[[中信造船]]、[[長榮航太]]",
+        "entities": [
+          "台船",
+          "亞航",
+          "漢翔",
+          "中信造船",
+          "長榮航太"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Pratt & Whitney",
+          "PW1000G",
+          "PW1500G",
+          "Safran Aircraft Engines",
+          "Safran Aero Boosters",
+          "Safran Transmission Systems",
+          "LEAP",
+          "CFM56",
+          "MTU Aero Engines",
+          "GE Avio",
+          "GE Aerospace",
+          "川崎重工",
+          "PW1500G",
+          "三菱重工",
+          "Honeywell",
+          "漢翔"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鈦合金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈦合金"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "type": "international_company_or_term",
+      "wikilink": "Pratt & Whitney"
+    },
+    {
+      "name": "Safran",
+      "type": "international_company_or_term",
+      "wikilink": "Safran"
+    },
+    {
+      "name": "川崎重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "川崎重工"
+    },
+    {
+      "name": "MTU Aero Engines",
+      "type": "international_company_or_term",
+      "wikilink": "MTU Aero Engines"
+    },
+    {
+      "name": "GE Avio",
+      "type": "international_company_or_term",
+      "wikilink": "GE Avio"
+    },
+    {
+      "name": "LEAP",
+      "type": "international_company_or_term",
+      "wikilink": "LEAP"
+    },
+    {
+      "name": "PW1000G",
+      "type": "international_company_or_term",
+      "wikilink": "PW1000G"
+    },
+    {
+      "name": "榮剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮剛"
+    },
+    {
+      "name": "PW1500G",
+      "type": "international_company_or_term",
+      "wikilink": "PW1500G"
+    },
+    {
+      "name": "Safran Aircraft Engines",
+      "type": "international_company_or_term",
+      "wikilink": "Safran Aircraft Engines"
+    },
+    {
+      "name": "Safran Aero Boosters",
+      "type": "international_company_or_term",
+      "wikilink": "Safran Aero Boosters"
+    },
+    {
+      "name": "Safran Transmission Systems",
+      "type": "international_company_or_term",
+      "wikilink": "Safran Transmission Systems"
+    },
+    {
+      "name": "CFM56",
+      "type": "international_company_or_term",
+      "wikilink": "CFM56"
+    },
+    {
+      "name": "GE Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aerospace"
+    },
+    {
+      "name": "三菱重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱重工"
+    },
+    {
+      "name": "Honeywell",
+      "type": "international_company_or_term",
+      "wikilink": "Honeywell"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    },
+    {
+      "name": "台船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台船"
+    },
+    {
+      "name": "亞航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞航"
+    },
+    {
+      "name": "中信造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中信造船"
+    },
+    {
+      "name": "長榮航太",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航太"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶一科技 (8222，Aerowin Technology) 成立逾 40 年，專注於航空發動機關鍵零件之精密製造。核心技術涵蓋超合金與[[鈦合金]]之成型、焊接、加工、熱處理及表面處理，主力產品為引擎冷卻件與環件，廣泛應用於全球主流民用與軍用航空發動機。客戶遍及美、法、德、日、義、比、波蘭等國，為[[Pratt & Whitney]]、[[Safran]]旗下多家子公司、[[川崎重工]]、[[MTU Aero Engines]]、[[GE Avio]] 等全球一線引擎大廠之重要 Tier 1/Tier 2 供應商。受惠於[[LEAP]]、[[PW1000G]] 等新世代引擎量產放大，營收持續成長。",
+    "supply_chain_md": "**上游 (材料):**\n- **特殊合金:** [[榮剛]] — 超合金與[[鈦合金]]鍛造件\n\n**中游 (精密製造):**\n- **寶一** (航空發動機冷卻件與環件之精密成型、焊接與表面處理)\n\n**下游 (引擎 OEM):**\n- **美系:** [[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎零組件\n- **法系:** [[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 引擎零組件\n- **德系:** [[MTU Aero Engines]] — 引擎零組件\n- **義系:** [[GE Avio]] — [[GE Aerospace]]子公司，引擎零組件\n- **日系:** [[川崎重工]]、[[三菱重工]] — [[PW1500G]] 等引擎零組件\n- **其他:** [[Honeywell]] — 引擎零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **美系引擎:** [[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎冷卻件與環件\n- **法系引擎:** [[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 零組件\n- **德系引擎:** [[MTU Aero Engines]] — 引擎零組件\n- **義系引擎:** [[GE Avio]] ([[GE Aerospace]]子公司) — 引擎零組件\n- **日系引擎:** [[川崎重工]] — [[PW1500G]] 燃燒室零組件 (近期大幅增長)；[[三菱重工]] — 引擎零組件\n- **其他:** [[Honeywell]]、[[漢翔]] — 引擎零組件\n\n### 主要供應商\n- **特殊合金:** [[榮剛]] — 超合金與[[鈦合金]]鍛造件"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 18,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

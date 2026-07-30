@@ -1,0 +1,286 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2636",
+  "company_name": "台驊控股",
+  "title": "2636 - 台驊控股",
+  "source_md": "Pilot_Reports/Integrated Freight & Logistics/2636_台驊控股.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics",
+    "market_cap": "8,985 百萬台幣",
+    "enterprise_value": "6,824 百萬台幣"
+  },
+  "business": {
+    "summary": "台驊控股（T3EX Global Holdings）為台灣首家上市之國際物流控股公司，營運模式為「輕資產」之物流承攬業（Freight Forwarder）。公司提供全方位物流解決方案，包含海運、空運、鐵路（中歐班列）及內貿物流。台驊以併購與策略投資見長，旗下擁有多個物流品牌，近年積極佈局供應鏈金融與電商物流。海運通常為最大營收來源，營收結構隨市場運價波動動態調整。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (運力供應)",
+        "text": "**上游 (運力供應):**",
+        "entities": []
+      },
+      {
+        "category": "海運",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等全球主要船公司",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運",
+          "Maersk",
+          "MSC"
+        ]
+      },
+      {
+        "category": "空運",
+        "text": "[[中華航空]]、[[長榮航空]]、國泰航空等",
+        "entities": [
+          "中華航空",
+          "長榮航空"
+        ]
+      },
+      {
+        "category": "鐵路",
+        "text": "中歐班列營運商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (物流承攬)",
+        "text": "**中游 (物流承攬):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台驊控股** — 貨運承攬人與物流整合商，批發艙位再零售予貨主",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "科技電子",
+        "text": "[[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商",
+        "entities": [
+          "鴻海",
+          "友達",
+          "大聯大",
+          "正崴"
+        ]
+      },
+      {
+        "category": "品牌商",
+        "text": "[[Samsung]]、[[Apple]]供應鏈",
+        "entities": [
+          "Samsung",
+          "Apple"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "汽車零組件、運動休閒品牌、跨境電商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技電子",
+        "text": "[[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商",
+        "entities": [
+          "鴻海",
+          "友達",
+          "大聯大",
+          "正崴"
+        ]
+      },
+      {
+        "role": "品牌供應鏈",
+        "text": "[[Samsung]]、[[Apple]]等國際品牌之供應鏈物流",
+        "entities": [
+          "Samsung",
+          "Apple"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "高階半導體設備商（急單空運需求）",
+        "entities": []
+      },
+      {
+        "role": "其他",
+        "text": "汽車零組件、運動休閒品牌、跨境電商賣家",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "海運",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等船公司",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運",
+          "Maersk",
+          "MSC"
+        ]
+      },
+      {
+        "role": "空運",
+        "text": "[[中華航空]]、[[長榮航空]]等航空公司",
+        "entities": [
+          "中華航空",
+          "長榮航空"
+        ]
+      },
+      {
+        "role": "鐵路",
+        "text": "中歐班列營運商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Integrated Freight & Logistics):** [[立益物流]]、[[榮運]]、[[中航]]、[[宅配通]]、[[捷迅]]",
+        "entities": [
+          "立益物流",
+          "榮運",
+          "中航",
+          "宅配通",
+          "捷迅"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "鴻海",
+          "友達",
+          "大聯大",
+          "正崴",
+          "Samsung",
+          "Apple"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "萬海航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬海航運"
+    },
+    {
+      "name": "Maersk",
+      "type": "international_company_or_term",
+      "wikilink": "Maersk"
+    },
+    {
+      "name": "MSC",
+      "type": "international_company_or_term",
+      "wikilink": "MSC"
+    },
+    {
+      "name": "中華航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華航空"
+    },
+    {
+      "name": "長榮航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航空"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "正崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正崴"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "立益物流",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立益物流"
+    },
+    {
+      "name": "榮運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮運"
+    },
+    {
+      "name": "中航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中航"
+    },
+    {
+      "name": "宅配通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宅配通"
+    },
+    {
+      "name": "捷迅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "捷迅"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台驊控股（T3EX Global Holdings）為台灣首家上市之國際物流控股公司，營運模式為「輕資產」之物流承攬業（Freight Forwarder）。公司提供全方位物流解決方案，包含海運、空運、鐵路（中歐班列）及內貿物流。台驊以併購與策略投資見長，旗下擁有多個物流品牌，近年積極佈局供應鏈金融與電商物流。海運通常為最大營收來源，營收結構隨市場運價波動動態調整。",
+    "supply_chain_md": "**上游 (運力供應):**\n- **海運:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等全球主要船公司\n- **空運:** [[中華航空]]、[[長榮航空]]、國泰航空等\n- **鐵路:** 中歐班列營運商\n\n**中游 (物流承攬):**\n- **台驊控股** — 貨運承攬人與物流整合商，批發艙位再零售予貨主\n\n**下游 (終端客戶):**\n- **科技電子:** [[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商\n- **品牌商:** [[Samsung]]、[[Apple]]供應鏈\n- **其他:** 汽車零組件、運動休閒品牌、跨境電商",
+    "customers_suppliers_md": "### 主要客戶\n- **科技電子:** [[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商\n- **品牌供應鏈:** [[Samsung]]、[[Apple]]等國際品牌之供應鏈物流\n- **半導體:** 高階半導體設備商（急單空運需求）\n- **其他:** 汽車零組件、運動休閒品牌、跨境電商賣家\n\n### 主要供應商\n- **海運:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等船公司\n- **空運:** [[中華航空]]、[[長榮航空]]等航空公司\n- **鐵路:** 中歐班列營運商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8099",
+  "company_name": "大世科",
+  "title": "8099 - 大世科",
+  "source_md": "Pilot_Reports/Information Technology Services/8099_大世科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "5,584 百萬台幣",
+    "enterprise_value": "4,757 百萬台幣"
+  },
+  "business": {
+    "summary": "大世科 (8099，Tatung System Technologies) 成立於 2000 年，隸屬[[大同]]集團，為專業資通信系統整合商。公司定位為「ACE SI」(AI、Cloud、ESG) 服務供應商，核心產品「OneAI」全方位 [[AI]] 解決方案整合 MLOps、[[大型語言模型]] (LLM) 與 RAG 技術，已成功部署於製造、金融、醫療及零售產業。業務涵蓋智慧解決方案、雲端服務、資通系統整合建置、[[資安]]防護及 [[AI]] 醫療影像辨識。客戶群橫跨電信、金控、製造、媒體、零售、政府及學研機構。2024 年與[[大同]]合作切入印尼 [[AI]] [[資料中心]]建置。",
+    "entities": [
+      "大同",
+      "AI",
+      "大型語言模型",
+      "資安",
+      "資料中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際軟硬體原廠)",
+        "text": "**上游 (國際軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器",
+        "text": "[[HPE]]、[[Dell]] — 伺服器與儲存設備",
+        "entities": [
+          "HPE",
+          "Dell"
+        ]
+      },
+      {
+        "category": "網路/通訊",
+        "text": "[[Cisco]]、[[Avaya]] — 網路與通訊設備",
+        "entities": [
+          "Cisco",
+          "Avaya"
+        ]
+      },
+      {
+        "category": "軟體",
+        "text": "[[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體",
+        "entities": [
+          "Microsoft",
+          "VMware",
+          "Informatica"
+        ]
+      },
+      {
+        "category": "資安",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]] — 資安設備",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合)",
+        "text": "**中游 (系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "SI",
+        "text": "**大世科** (ICT 系統整合、[[AI]] OneAI 平台、雲端服務、[[資安]]防護及智慧醫療)",
+        "entities": [
+          "AI",
+          "資安"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電信",
+        "text": "電信營運商 — 通訊系統整合",
+        "entities": []
+      },
+      {
+        "category": "金融",
+        "text": "金控與銀行 — [[AI]] 智慧客服",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "category": "製造",
+        "text": "製造業 — 智慧品檢與供應鏈優化",
+        "entities": []
+      },
+      {
+        "category": "政府/國防",
+        "text": "政府、軍方及學研機構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信",
+        "text": "電信營運商 — 通訊系統整合與維運",
+        "entities": []
+      },
+      {
+        "role": "金融",
+        "text": "金控與銀行 — [[AI]] 智慧客服與 IT 基礎設施",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "role": "製造",
+        "text": "製造業 — 智慧品檢與供應鏈優化",
+        "entities": []
+      },
+      {
+        "role": "醫療",
+        "text": "醫療院所 — [[AI]] 醫療影像辨識系統 (乳房攝影)",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "role": "政府/國防",
+        "text": "政府、軍方及學研機構",
+        "entities": []
+      },
+      {
+        "role": "母集團",
+        "text": "[[大同]]集團 — 印尼 [[AI]] [[資料中心]]合作",
+        "entities": [
+          "大同",
+          "AI",
+          "資料中心"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "伺服器",
+        "text": "[[HPE]]、[[Dell]] — 伺服器與儲存設備",
+        "entities": [
+          "HPE",
+          "Dell"
+        ]
+      },
+      {
+        "role": "網路/通訊",
+        "text": "[[Cisco]]、[[Avaya]] — 網路與通訊設備",
+        "entities": [
+          "Cisco",
+          "Avaya"
+        ]
+      },
+      {
+        "role": "軟體",
+        "text": "[[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體授權",
+        "entities": [
+          "Microsoft",
+          "VMware",
+          "Informatica"
+        ]
+      },
+      {
+        "role": "資安",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]] — 資安防禦設備",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Information Technology Services):** [[廣豐]]、[[凌群]]、[[華經]]、[[資通]]、[[大綜]]",
+        "entities": [
+          "廣豐",
+          "凌群",
+          "華經",
+          "資通",
+          "大綜"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AI",
+          "AI",
+          "大同",
+          "AI",
+          "資料中心"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "大型語言模型",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大型語言模型"
+    },
+    {
+      "name": "資安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資安"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "HPE",
+      "type": "international_company_or_term",
+      "wikilink": "HPE"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Avaya",
+      "type": "international_company_or_term",
+      "wikilink": "Avaya"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "VMware",
+      "type": "international_company_or_term",
+      "wikilink": "VMware"
+    },
+    {
+      "name": "Informatica",
+      "type": "international_company_or_term",
+      "wikilink": "Informatica"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "Fortinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fortinet"
+    },
+    {
+      "name": "廣豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣豐"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "華經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華經"
+    },
+    {
+      "name": "資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資通"
+    },
+    {
+      "name": "大綜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大綜"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大世科 (8099，Tatung System Technologies) 成立於 2000 年，隸屬[[大同]]集團，為專業資通信系統整合商。公司定位為「ACE SI」(AI、Cloud、ESG) 服務供應商，核心產品「OneAI」全方位 [[AI]] 解決方案整合 MLOps、[[大型語言模型]] (LLM) 與 RAG 技術，已成功部署於製造、金融、醫療及零售產業。業務涵蓋智慧解決方案、雲端服務、資通系統整合建置、[[資安]]防護及 [[AI]] 醫療影像辨識。客戶群橫跨電信、金控、製造、媒體、零售、政府及學研機構。2024 年與[[大同]]合作切入印尼 [[AI]] [[資料中心]]建置。",
+    "supply_chain_md": "**上游 (國際軟硬體原廠):**\n- **伺服器:** [[HPE]]、[[Dell]] — 伺服器與儲存設備\n- **網路/通訊:** [[Cisco]]、[[Avaya]] — 網路與通訊設備\n- **軟體:** [[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體\n- **資安:** [[Palo Alto Networks]]、[[Fortinet]] — 資安設備\n\n**中游 (系統整合):**\n- **SI:** **大世科** (ICT 系統整合、[[AI]] OneAI 平台、雲端服務、[[資安]]防護及智慧醫療)\n\n**下游 (終端客戶):**\n- **電信:** 電信營運商 — 通訊系統整合\n- **金融:** 金控與銀行 — [[AI]] 智慧客服\n- **製造:** 製造業 — 智慧品檢與供應鏈優化\n- **政府/國防:** 政府、軍方及學研機構",
+    "customers_suppliers_md": "### 主要客戶\n- **電信:** 電信營運商 — 通訊系統整合與維運\n- **金融:** 金控與銀行 — [[AI]] 智慧客服與 IT 基礎設施\n- **製造:** 製造業 — 智慧品檢與供應鏈優化\n- **醫療:** 醫療院所 — [[AI]] 醫療影像辨識系統 (乳房攝影)\n- **政府/國防:** 政府、軍方及學研機構\n- **母集團:** [[大同]]集團 — 印尼 [[AI]] [[資料中心]]合作\n\n### 主要供應商\n- **伺服器:** [[HPE]]、[[Dell]] — 伺服器與儲存設備\n- **網路/通訊:** [[Cisco]]、[[Avaya]] — 網路與通訊設備\n- **軟體:** [[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體授權\n- **資安:** [[Palo Alto Networks]]、[[Fortinet]] — 資安防禦設備"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

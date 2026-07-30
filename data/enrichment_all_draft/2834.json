@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2834",
+  "company_name": "臺企銀",
+  "title": "2834 - 臺企銀",
+  "source_md": "Pilot_Reports/Banks/2834_臺企銀.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Financials",
+    "industry": "Banks",
+    "market_cap": "174,439 百萬台幣",
+    "enterprise_value": "148,582 百萬台幣"
+  },
+  "business": {
+    "summary": "[[臺企銀]] (2834，簡稱臺企銀) 成立於 1915 年，為台灣唯一以扶植中小企業為專業使命的銀行，亦為「八大行庫」之一。[[財政部]]為最大股東。全台設有 125 家國內分行及 9 家海外分行。核心業務以中小企業授信為主幹，輔以個人金融、外匯、財富管理及信託服務。旗下子公司[[台企銀國際租賃]]提供融資租賃。近年積極推動都更危老專案融資、綠色金融及數位轉型。",
+    "entities": [
+      "臺企銀",
+      "財政部",
+      "台企銀國際租賃"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "全台一般存戶、公庫存款",
+        "entities": []
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      },
+      {
+        "category": "政策資源",
+        "text": "[[財政部]]",
+        "entities": [
+          "財政部"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[臺企銀]]** (中小企業專業授信、外匯、財富管理及信託)",
+        "entities": [
+          "臺企銀"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[台企銀國際租賃]]** (融資租賃)",
+        "entities": [
+          "台企銀國際租賃"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "中小企業",
+        "text": "全台微型及中小企業融資",
+        "entities": []
+      },
+      {
+        "category": "都更專案",
+        "text": "都市更新及危老重建專案融資",
+        "entities": []
+      },
+      {
+        "category": "個人金融",
+        "text": "房貸、消費信貸及財富管理客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "中小企業",
+        "text": "全台中小企業及微型企業 — 臺企銀之專業使命",
+        "entities": []
+      },
+      {
+        "role": "都更專案",
+        "text": "都市更新及危老重建案",
+        "entities": []
+      },
+      {
+        "role": "個人金融",
+        "text": "青年創業貸款、房貸及財富管理客群",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "信保機制",
+        "text": "[[信保基金]]",
+        "entities": [
+          "信保基金"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]",
+        "entities": [
+          "財金資訊"
+        ]
+      },
+      {
+        "role": "公股股東",
+        "text": "[[財政部]]",
+        "entities": [
+          "財政部"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Banks):** [[台中銀]]",
+        "entities": [
+          "台中銀"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "臺企銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臺企銀"
+    },
+    {
+      "name": "財政部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財政部"
+    },
+    {
+      "name": "台企銀國際租賃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台企銀國際租賃"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "信保基金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信保基金"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "台中銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台中銀"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[臺企銀]] (2834，簡稱臺企銀) 成立於 1915 年，為台灣唯一以扶植中小企業為專業使命的銀行，亦為「八大行庫」之一。[[財政部]]為最大股東。全台設有 125 家國內分行及 9 家海外分行。核心業務以中小企業授信為主幹，輔以個人金融、外匯、財富管理及信託服務。旗下子公司[[台企銀國際租賃]]提供融資租賃。近年積極推動都更危老專案融資、綠色金融及數位轉型。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** 全台一般存戶、公庫存款\n- **同業資金:** [[中央銀行]]、金融同業\n- **政策資源:** [[財政部]]\n\n**中游:**\n- **[[臺企銀]]** (中小企業專業授信、外匯、財富管理及信託)\n- **[[台企銀國際租賃]]** (融資租賃)\n\n**下游 (授信客戶):**\n- **中小企業:** 全台微型及中小企業融資\n- **都更專案:** 都市更新及危老重建專案融資\n- **個人金融:** 房貸、消費信貸及財富管理客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **中小企業:** 全台中小企業及微型企業 — 臺企銀之專業使命\n- **都更專案:** 都市更新及危老重建案\n- **個人金融:** 青年創業貸款、房貸及財富管理客群\n\n### 主要供應商\n- **信保機制:** [[信保基金]]\n- **金流基礎設施:** [[財金資訊]]\n- **公股股東:** [[財政部]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

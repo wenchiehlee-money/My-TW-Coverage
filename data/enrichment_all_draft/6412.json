@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6412",
+  "company_name": "群電",
+  "title": "6412_群電",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/6412_群電.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "31,060 百萬台幣",
+    "enterprise_value": "29,445 百萬台幣"
+  },
+  "business": {
+    "summary": "群光電能科技股份有限公司 (6412，群電) 隸屬於[[群光]]集團，是全球前三大、台灣頂尖的交換式電源供應器製造商。群電的電源產品被廣泛應用於筆記型電腦、遊戲機及AIoT設備。近年來，公司積極朝高瓦數、高附加價值領域轉型，重兵佈署[[AI 伺服器]]電源、電信電源以及[[低軌衛星]](Starlink)的地面接收站電源模組。此外，群電亦跨足智慧建築與綠色算力中心管理系統，結合氮化鎵([[氮化鎵]])等新一代材料，提供高效節能的電源解決方案。",
+    "entities": [
+      "群光",
+      "AI 伺服器",
+      "低軌衛星",
+      "氮化鎵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 控制IC、功率[[半導體]]([[MOSFET]]/[[氮化鎵]])、變壓器、電容、[[PCB]]及各類被動元件廠。",
+        "entities": [
+          "半導體",
+          "MOSFET",
+          "氮化鎵",
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **群光電能** (交換式電源供應器、[[伺服器]]電源、LED照明及智慧建築系統之研發製造)。",
+        "entities": [
+          "伺服器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: PC/NB品牌廠、遊戲機大廠、[[伺服器]]組裝廠、[[低軌衛星]]營運商及智慧建築建商。",
+        "entities": [
+          "伺服器",
+          "低軌衛星"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Microsoft]](Xbox)、[[Dell]]、[[HP]]、[[SpaceX]](星鏈計畫Starlink)、Supermicro及各大PC品牌。",
+        "entities": [
+          "Microsoft",
+          "Dell",
+          "HP",
+          "SpaceX"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[NXP]](恩智浦)等全球[[半導體]]晶片原廠及被動元件供應商。",
+        "entities": [
+          "NXP",
+          "半導體"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Microsoft",
+          "Dell",
+          "HP",
+          "SpaceX"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "群光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群光"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "群光電能科技股份有限公司 (6412，群電) 隸屬於[[群光]]集團，是全球前三大、台灣頂尖的交換式電源供應器製造商。群電的電源產品被廣泛應用於筆記型電腦、遊戲機及AIoT設備。近年來，公司積極朝高瓦數、高附加價值領域轉型，重兵佈署[[AI 伺服器]]電源、電信電源以及[[低軌衛星]](Starlink)的地面接收站電源模組。此外，群電亦跨足智慧建築與綠色算力中心管理系統，結合氮化鎵([[氮化鎵]])等新一代材料，提供高效節能的電源解決方案。",
+    "supply_chain_md": "*   **上游**: 控制IC、功率[[半導體]]([[MOSFET]]/[[氮化鎵]])、變壓器、電容、[[PCB]]及各類被動元件廠。\n*   **中游**: **群光電能** (交換式電源供應器、[[伺服器]]電源、LED照明及智慧建築系統之研發製造)。\n*   **下游**: PC/NB品牌廠、遊戲機大廠、[[伺服器]]組裝廠、[[低軌衛星]]營運商及智慧建築建商。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Microsoft]](Xbox)、[[Dell]]、[[HP]]、[[SpaceX]](星鏈計畫Starlink)、Supermicro及各大PC品牌。\n\n### 主要供應商\n*   [[NXP]](恩智浦)等全球[[半導體]]晶片原廠及被動元件供應商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

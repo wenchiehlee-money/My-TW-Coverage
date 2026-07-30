@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8111",
+  "company_name": "立��",
+  "title": "8111 - 立��",
+  "source_md": "Pilot_Reports/Electronic Components/8111_立��.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "6,830 百萬台幣",
+    "enterprise_value": "6,554 百萬台幣"
+  },
+  "business": {
+    "summary": "立碁電子工業 (8111，Edison Opto) 為台灣專業 LED 發光元件封裝製造商，以 LED 封裝及紅外線 LED 起家，近年積極轉型聚焦高毛利利基市場。\n\n營收結構以電競周邊光源占 35%、[[電動機車]]/[[電動自行車]]占 15%、公共工程照明占 10%、不可見光/紫外/紅外線占 10%、LED 元件占 30%。轉型策略雙箭齊發：(1) 電競周邊 — 供應電競鍵盤、滑鼠等 RGB [[LED]] 光源；(2) 電動二輪車 — 跨入電動機車與電動自行車之馬達控制模組。此外，[[紅外線]] 與 [[紫外線]] [[LED]] 應用於安防監控、測距及殺菌消毒領域。公司在台灣、中國廣東南沙及昆山設有生產據點。",
+    "entities": [
+      "電動機車",
+      "電動自行車",
+      "LED",
+      "紅外線",
+      "紫外線"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (LED 晶粒與材料)",
+        "text": "**上游 (LED 晶粒與材料):**",
+        "entities": []
+      },
+      {
+        "category": "LED 晶粒",
+        "text": "LED 磊晶廠 — 如 [[晶電]]、[[億光]] 等供應 LED 晶粒",
+        "entities": [
+          "晶電",
+          "億光"
+        ]
+      },
+      {
+        "category": "封裝材料",
+        "text": "導線架、螢光粉、封裝膠等材料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (LED 封裝)",
+        "text": "**中游 (LED 封裝):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "**立碁電子** (可見光 LED、紅外線 LED、紫外線 LED 封裝製造)",
+        "entities": []
+      },
+      {
+        "category": "模組組裝",
+        "text": "**立碁電子** (電動二輪車馬達控制模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電競周邊",
+        "text": "電競鍵盤、滑鼠品牌商 — RGB LED 背光源",
+        "entities": []
+      },
+      {
+        "category": "電動二輪車",
+        "text": "[[電動機車]] 與 E-Bike 製造商 — 馬達控制模組",
+        "entities": [
+          "電動機車"
+        ]
+      },
+      {
+        "category": "安防監控",
+        "text": "監視器材製造商 — [[紅外線]] [[LED]]",
+        "entities": [
+          "紅外線",
+          "LED"
+        ]
+      },
+      {
+        "category": "公共照明",
+        "text": "路燈與工程照明 — LED 照明模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電競周邊",
+        "text": "電競鍵盤與滑鼠品牌商 — RGB LED 光源",
+        "entities": []
+      },
+      {
+        "role": "電動二輪車",
+        "text": "電動機車、E-Bike 製造商 — 馬達控制模組",
+        "entities": []
+      },
+      {
+        "role": "安防監控",
+        "text": "監視器材與測距設備商 — 紅外線 LED",
+        "entities": []
+      },
+      {
+        "role": "公共照明",
+        "text": "各地政府公共工程 — LED 路燈照明",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 晶粒",
+        "text": "[[晶電]]、[[億光]] 等 LED 磊晶廠 — LED 晶粒供應",
+        "entities": [
+          "晶電",
+          "億光"
+        ]
+      },
+      {
+        "role": "封裝材料",
+        "text": "導線架、螢光粉與封裝膠廠商",
+        "entities": []
+      },
+      {
+        "role": "電子零件",
+        "text": "被動元件與 IC 供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "立碁電子工業 (8111，Edison Opto) 為台灣專業 LED 發光元件封裝製造商，以 LED 封裝及紅外線 LED 起家，近年積極轉型聚焦高毛利利基市場。",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電動機車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動機車"
+    },
+    {
+      "name": "電動自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動自行車"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "紅外線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紅外線"
+    },
+    {
+      "name": "紫外線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紫外線"
+    },
+    {
+      "name": "晶電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶電"
+    },
+    {
+      "name": "億光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "立碁電子工業 (8111，Edison Opto) 為台灣專業 LED 發光元件封裝製造商，以 LED 封裝及紅外線 LED 起家，近年積極轉型聚焦高毛利利基市場。\n\n營收結構以電競周邊光源占 35%、[[電動機車]]/[[電動自行車]]占 15%、公共工程照明占 10%、不可見光/紫外/紅外線占 10%、LED 元件占 30%。轉型策略雙箭齊發：(1) 電競周邊 — 供應電競鍵盤、滑鼠等 RGB [[LED]] 光源；(2) 電動二輪車 — 跨入電動機車與電動自行車之馬達控制模組。此外，[[紅外線]] 與 [[紫外線]] [[LED]] 應用於安防監控、測距及殺菌消毒領域。公司在台灣、中國廣東南沙及昆山設有生產據點。",
+    "supply_chain_md": "**上游 (LED 晶粒與材料):**\n- **LED 晶粒:** LED 磊晶廠 — 如 [[晶電]]、[[億光]] 等供應 LED 晶粒\n- **封裝材料:** 導線架、螢光粉、封裝膠等材料供應商\n\n**中游 (LED 封裝):**\n- **LED 封裝:** **立碁電子** (可見光 LED、紅外線 LED、紫外線 LED 封裝製造)\n- **模組組裝:** **立碁電子** (電動二輪車馬達控制模組)\n\n**下游 (終端應用):**\n- **電競周邊:** 電競鍵盤、滑鼠品牌商 — RGB LED 背光源\n- **電動二輪車:** [[電動機車]] 與 E-Bike 製造商 — 馬達控制模組\n- **安防監控:** 監視器材製造商 — [[紅外線]] [[LED]]\n- **公共照明:** 路燈與工程照明 — LED 照明模組",
+    "customers_suppliers_md": "### 主要客戶\n- **電競周邊:** 電競鍵盤與滑鼠品牌商 — RGB LED 光源\n- **電動二輪車:** 電動機車、E-Bike 製造商 — 馬達控制模組\n- **安防監控:** 監視器材與測距設備商 — 紅外線 LED\n- **公共照明:** 各地政府公共工程 — LED 路燈照明\n\n### 主要供應商\n- **LED 晶粒:** [[晶電]]、[[億光]] 等 LED 磊晶廠 — LED 晶粒供應\n- **封裝材料:** 導線架、螢光粉與封裝膠廠商\n- **電子零件:** 被動元件與 IC 供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

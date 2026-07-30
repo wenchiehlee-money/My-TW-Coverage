@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1526",
+  "company_name": "日馳",
+  "title": "1526 - 日馳",
+  "source_md": "Pilot_Reports/Leisure/1526_日馳.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure",
+    "market_cap": "1,134 百萬台幣",
+    "enterprise_value": "1,498 百萬台幣"
+  },
+  "business": {
+    "summary": "日馳企業股份有限公司 (1526，Sun Race Sturmey-Archer) 成立於 1972 年，主要從事[[自行車]]變速器及零組件之研發、製造與銷售。公司擁有自有品牌「SunRace」及 2000 年併購之英國百年變速器品牌「[[Sturmey-Archer]]」，產品涵蓋內變速器、外變速器、大齒盤、飛輪等。日馳鎖定 AM (售後修補) 市場及中低階[[OEM]]組車廠，與[[Shimano]]、[[SRAM]]做出市場區隔。近年積極開發[[電動輔助自行車]] (E-Bike) 專用傳動系統。",
+    "entities": [
+      "自行車",
+      "Sturmey-Archer",
+      "OEM",
+      "Shimano",
+      "SRAM",
+      "電動輔助自行車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬材料)",
+        "text": "**上游 (金屬材料):**",
+        "entities": []
+      },
+      {
+        "category": "原物料",
+        "text": "鋼材、鋁合金、塑膠料",
+        "entities": []
+      },
+      {
+        "category": "加工技術",
+        "text": "沖壓、鍛造、CNC 加工、熱處理、表面處理",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (傳動零組件製造)",
+        "text": "**中游 (傳動零組件製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**日馳** — 自行車變速器與傳動零組件製造 (品牌「SunRace」及「[[Sturmey-Archer]]」)",
+        "entities": [
+          "Sturmey-Archer"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (自行車產業)",
+        "text": "**下游 (自行車產業):**",
+        "entities": []
+      },
+      {
+        "category": "[[OEM]]組車廠",
+        "text": "國內外中小型自行車廠",
+        "entities": [
+          "OEM"
+        ]
+      },
+      {
+        "category": "AM 售後市場",
+        "text": "全球售後維修零件經銷商",
+        "entities": []
+      },
+      {
+        "category": "應用領域",
+        "text": "登山車、[[電動輔助自行車]] (E-Bike)",
+        "entities": [
+          "電動輔助自行車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[OEM]]組車廠",
+        "text": "國內外中小型自行車廠 — 與[[Shimano]]、[[SRAM]]做市場區隔",
+        "entities": [
+          "OEM",
+          "Shimano",
+          "SRAM"
+        ]
+      },
+      {
+        "role": "AM 售後市場",
+        "text": "全球售後維修零件經銷商",
+        "entities": []
+      },
+      {
+        "role": "E-Bike",
+        "text": "[[電動輔助自行車]]品牌 — 傳動系統",
+        "entities": [
+          "電動輔助自行車"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬原料",
+        "text": "鋼材與鋁合金供應商",
+        "entities": []
+      },
+      {
+        "role": "加工設備",
+        "text": "CNC 加工機台與熱處理設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Leisure):** [[大魯閣]]、[[力山]]、[[祺驊]]、[[岱宇]]、[[喬山]]",
+        "entities": [
+          "大魯閣",
+          "力山",
+          "祺驊",
+          "岱宇",
+          "喬山"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "OEM",
+          "Shimano",
+          "SRAM",
+          "電動輔助自行車"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自行車"
+    },
+    {
+      "name": "Sturmey-Archer",
+      "type": "international_company_or_term",
+      "wikilink": "Sturmey-Archer"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "Shimano",
+      "type": "international_company_or_term",
+      "wikilink": "Shimano"
+    },
+    {
+      "name": "SRAM",
+      "type": "international_company_or_term",
+      "wikilink": "SRAM"
+    },
+    {
+      "name": "電動輔助自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動輔助自行車"
+    },
+    {
+      "name": "大魯閣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大魯閣"
+    },
+    {
+      "name": "力山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力山"
+    },
+    {
+      "name": "祺驊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "祺驊"
+    },
+    {
+      "name": "岱宇",
+      "type": "taiwan_company_or_term",
+      "wikilink": "岱宇"
+    },
+    {
+      "name": "喬山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "喬山"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "日馳企業股份有限公司 (1526，Sun Race Sturmey-Archer) 成立於 1972 年，主要從事[[自行車]]變速器及零組件之研發、製造與銷售。公司擁有自有品牌「SunRace」及 2000 年併購之英國百年變速器品牌「[[Sturmey-Archer]]」，產品涵蓋內變速器、外變速器、大齒盤、飛輪等。日馳鎖定 AM (售後修補) 市場及中低階[[OEM]]組車廠，與[[Shimano]]、[[SRAM]]做出市場區隔。近年積極開發[[電動輔助自行車]] (E-Bike) 專用傳動系統。",
+    "supply_chain_md": "**上游 (金屬材料):**\n- **原物料:** 鋼材、鋁合金、塑膠料\n- **加工技術:** 沖壓、鍛造、CNC 加工、熱處理、表面處理\n\n**中游 (傳動零組件製造):**\n- **日馳** — 自行車變速器與傳動零組件製造 (品牌「SunRace」及「[[Sturmey-Archer]]」)\n\n**下游 (自行車產業):**\n- **[[OEM]]組車廠:** 國內外中小型自行車廠\n- **AM 售後市場:** 全球售後維修零件經銷商\n- **應用領域:** 登山車、[[電動輔助自行車]] (E-Bike)",
+    "customers_suppliers_md": "### 主要客戶\n- **[[OEM]]組車廠:** 國內外中小型自行車廠 — 與[[Shimano]]、[[SRAM]]做市場區隔\n- **AM 售後市場:** 全球售後維修零件經銷商\n- **E-Bike:** [[電動輔助自行車]]品牌 — 傳動系統\n\n### 主要供應商\n- **金屬原料:** 鋼材與鋁合金供應商\n- **加工設備:** CNC 加工機台與熱處理設備供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

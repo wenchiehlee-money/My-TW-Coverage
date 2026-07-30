@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6124",
+  "company_name": "業強",
+  "title": "6124_業強",
+  "source_md": "Pilot_Reports/Electronic Components/6124_業強.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,635 百萬台幣",
+    "enterprise_value": "4,682 百萬台幣"
+  },
+  "business": {
+    "summary": "業強科技股份有限公司 (6124) 是全球領先的熱導元件與電子材料供應商，亦是台灣最大的熱導管製造廠。公司的核心產品包含應用於解決高階運算熱能的熱導管(Heat Pipe)、均熱板(VC)等[[散熱]]元件，以及[[半導體]]封裝與SMT製程所需的錫球、錫膏與助焊劑等高科技銲接材料。業強的[[散熱]]產品深受國內外[[散熱]]模組大廠依賴，廣泛應用於PC、[[伺服器]]、車用電子及通訊設備。近年來更積極開發車用與[[AI[[伺服器]]]]的高效能[[散熱]]需求。",
+    "entities": [
+      "散熱",
+      "半導體",
+      "伺服器",
+      "AI[[伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 高純度無氧銅管/銅粉、錫/銀/銅等金屬原物料及特用化學品供應商。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **業強科技** (熱導管、均熱板製造與[[半導體]]封裝錫球/錫膏材料)。",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: [[散熱]]模組組裝廠、[[半導體]]封裝測試廠(OSAT)、電子製造服務商([[EMS]])。",
+        "entities": [
+          "散熱",
+          "半導體",
+          "EMS"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "雙鴻、尼得科超眾、[[台達電]]等國內外大型[[散熱]]模組廠及系統代工廠。",
+        "entities": [
+          "台達電",
+          "散熱"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "全球大型銅材煉製廠、金屬原物料交易商及化工原料製造商。",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台達電",
+          "散熱"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "AI[[伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI[[伺服器"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "業強科技股份有限公司 (6124) 是全球領先的熱導元件與電子材料供應商，亦是台灣最大的熱導管製造廠。公司的核心產品包含應用於解決高階運算熱能的熱導管(Heat Pipe)、均熱板(VC)等[[散熱]]元件，以及[[半導體]]封裝與SMT製程所需的錫球、錫膏與助焊劑等高科技銲接材料。業強的[[散熱]]產品深受國內外[[散熱]]模組大廠依賴，廣泛應用於PC、[[伺服器]]、車用電子及通訊設備。近年來更積極開發車用與[[AI[[伺服器]]]]的高效能[[散熱]]需求。",
+    "supply_chain_md": "*   **上游**: 高純度無氧銅管/銅粉、錫/銀/銅等金屬原物料及特用化學品供應商。\n*   **中游**: **業強科技** (熱導管、均熱板製造與[[半導體]]封裝錫球/錫膏材料)。\n*   **下游**: [[散熱]]模組組裝廠、[[半導體]]封裝測試廠(OSAT)、電子製造服務商([[EMS]])。",
+    "customers_suppliers_md": "### 主要客戶\n*   雙鴻、尼得科超眾、[[台達電]]等國內外大型[[散熱]]模組廠及系統代工廠。\n\n### 主要供應商\n*   全球大型銅材煉製廠、金屬原物料交易商及化工原料製造商。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

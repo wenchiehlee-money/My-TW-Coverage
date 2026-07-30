@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6265",
+  "company_name": "方土昶",
+  "title": "6265_方土昶",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/6265_方土昶.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "4,851 百萬台幣",
+    "enterprise_value": "4,442 百萬台幣"
+  },
+  "business": {
+    "summary": "方土昶股份有限公司 (6265) 是一家專業的[[半導體]]電子零組件通路商。公司在[[半導體]]產業供應鏈中扮演關鍵樞紐，主要業務為代理南亞科(Nanya)等大廠的利基型[[記憶體]]([[DRAM]])及各類[[半導體]]零組件。方土昶將原廠的晶片與零組件推廣並銷售給下游的硬體設備製造廠，不僅提供穩定的料件庫存管理與物流配送，也為下游客戶提供初步的技術支援與應用建議。其營運表現常與整體[[記憶體]]市場景氣與[[消費性電子]]終端需求連動。",
+    "entities": [
+      "半導體",
+      "記憶體",
+      "DRAM",
+      "消費性電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 國內外各大[[半導體]]晶片原廠(如動態隨機存取[[記憶體]][[DRAM]]製造商)。",
+        "entities": [
+          "半導體",
+          "記憶體",
+          "DRAM"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **方土昶** (利基型[[記憶體]]及各類[[半導體]]電子零組件之代理銷售與專業通路服務)。",
+        "entities": [
+          "記憶體",
+          "半導體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 電腦週邊產品、[[消費性電子]](手機/平板)、網路通訊設備及[[物聯網]]裝置之代工組裝廠([[EMS]])。",
+        "entities": [
+          "消費性電子",
+          "物聯網",
+          "EMS"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "台灣及中國各大[[消費性電子]]與資訊設備專業製造廠。",
+        "entities": [
+          "消費性電子"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "南亞科(Nanya Technology)等國內外知名[[記憶體]]及[[半導體]]晶片製造廠。",
+        "entities": [
+          "記憶體",
+          "半導體"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "消費性電子"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "方土昶股份有限公司 (6265) 是一家專業的[[半導體]]電子零組件通路商。公司在[[半導體]]產業供應鏈中扮演關鍵樞紐，主要業務為代理南亞科(Nanya)等大廠的利基型[[記憶體]]([[DRAM]])及各類[[半導體]]零組件。方土昶將原廠的晶片與零組件推廣並銷售給下游的硬體設備製造廠，不僅提供穩定的料件庫存管理與物流配送，也為下游客戶提供初步的技術支援與應用建議。其營運表現常與整體[[記憶體]]市場景氣與[[消費性電子]]終端需求連動。",
+        "entities": [
+          "半導體",
+          "記憶體",
+          "DRAM",
+          "消費性電子"
+        ]
+      },
+      {
+        "text": "*   **中游**: **方土昶** (利基型[[記憶體]]及各類[[半導體]]電子零組件之代理銷售與專業通路服務)。",
+        "entities": [
+          "記憶體",
+          "半導體"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "方土昶股份有限公司 (6265) 是一家專業的[[半導體]]電子零組件通路商。公司在[[半導體]]產業供應鏈中扮演關鍵樞紐，主要業務為代理南亞科(Nanya)等大廠的利基型[[記憶體]]([[DRAM]])及各類[[半導體]]零組件。方土昶將原廠的晶片與零組件推廣並銷售給下游的硬體設備製造廠，不僅提供穩定的料件庫存管理與物流配送，也為下游客戶提供初步的技術支援與應用建議。其營運表現常與整體[[記憶體]]市場景氣與[[消費性電子]]終端需求連動。",
+    "supply_chain_md": "*   **上游**: 國內外各大[[半導體]]晶片原廠(如動態隨機存取[[記憶體]][[DRAM]]製造商)。\n*   **中游**: **方土昶** (利基型[[記憶體]]及各類[[半導體]]電子零組件之代理銷售與專業通路服務)。\n*   **下游**: 電腦週邊產品、[[消費性電子]](手機/平板)、網路通訊設備及[[物聯網]]裝置之代工組裝廠([[EMS]])。",
+    "customers_suppliers_md": "### 主要客戶\n*   台灣及中國各大[[消費性電子]]與資訊設備專業製造廠。\n\n### 主要供應商\n*   南亞科(Nanya Technology)等國內外知名[[記憶體]]及[[半導體]]晶片製造廠。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5452",
+  "company_name": "佶優",
+  "title": "5452 - 佶優",
+  "source_md": "Pilot_Reports/Specialty Chemicals/5452_佶優.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "3,509 百萬台幣",
+    "enterprise_value": "3,872 百萬台幣"
+  },
+  "business": {
+    "summary": "佶優科技 (5452，UNIC Technology) 為工程塑膠原料代理與改質加工平台，代理[[LOTTE]]、[[三菱工程塑膠]] ([[Mitsubishi]] Engineering Plastics)、[[SABIC]]等品牌之[[ABS]]、HIPS、PC/ABS 等塑膠粒，並提供染色造粒 (Compounding) 加工服務。下游客戶涵蓋 EMS/ODM 大廠如[[鴻海]]、[[仁寶]]、[[廣達]]、[[緯創]]，終端品牌為[[HP]]、[[Dell]]、[[Lenovo]]。近年拓展 PCR 環保回收料及[[PLA]]生分解材料。",
+    "entities": [
+      "LOTTE",
+      "三菱工程塑膠",
+      "Mitsubishi",
+      "SABIC",
+      "ABS",
+      "鴻海",
+      "仁寶",
+      "廣達",
+      "緯創",
+      "HP",
+      "Dell",
+      "Lenovo",
+      "PLA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌代理)",
+        "text": "**上游 (品牌代理):**",
+        "entities": []
+      },
+      {
+        "category": "工程塑膠",
+        "text": "[[LOTTE]]、[[三菱工程塑膠]]、[[SABIC]] — ABS/HIPS/PC/ABS 代理",
+        "entities": [
+          "LOTTE",
+          "三菱工程塑膠",
+          "SABIC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (加工)",
+        "text": "**中游 (加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**佶優** (工程塑膠代理/染色造粒 Compounding/[[PLA]]生分解材料)",
+        "entities": [
+          "PLA"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "EMS/ODM",
+        "text": "[[鴻海]]、[[仁寶]]、[[廣達]]、[[緯創]] — 電子機殼用塑膠粒",
+        "entities": [
+          "鴻海",
+          "仁寶",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "category": "終端品牌",
+        "text": "[[HP]]、[[Dell]]、[[Lenovo]]",
+        "entities": [
+          "HP",
+          "Dell",
+          "Lenovo"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EMS/ODM",
+        "text": "[[鴻海]]、[[仁寶]]、[[廣達]]、[[緯創]] — 電子機殼塑膠粒",
+        "entities": [
+          "鴻海",
+          "仁寶",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "role": "終端品牌",
+        "text": "[[HP]]、[[Dell]]、[[Lenovo]]",
+        "entities": [
+          "HP",
+          "Dell",
+          "Lenovo"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[LOTTE]]、[[三菱工程塑膠]]、[[SABIC]] — 工程塑膠原料",
+        "entities": [
+          "LOTTE",
+          "三菱工程塑膠",
+          "SABIC"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Specialty Chemicals):** [[台塑]]、[[南亞]]、[[台聚]]、[[華夏]]、[[亞聚]]",
+        "entities": [
+          "台塑",
+          "南亞",
+          "台聚",
+          "華夏",
+          "亞聚"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "鴻海",
+          "仁寶",
+          "廣達",
+          "緯創",
+          "HP",
+          "Dell",
+          "Lenovo"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LOTTE",
+      "type": "international_company_or_term",
+      "wikilink": "LOTTE"
+    },
+    {
+      "name": "三菱工程塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱工程塑膠"
+    },
+    {
+      "name": "Mitsubishi",
+      "type": "international_company_or_term",
+      "wikilink": "Mitsubishi"
+    },
+    {
+      "name": "SABIC",
+      "type": "international_company_or_term",
+      "wikilink": "SABIC"
+    },
+    {
+      "name": "ABS",
+      "type": "international_company_or_term",
+      "wikilink": "ABS"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "PLA",
+      "type": "international_company_or_term",
+      "wikilink": "PLA"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞"
+    },
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "佶優科技 (5452，UNIC Technology) 為工程塑膠原料代理與改質加工平台，代理[[LOTTE]]、[[三菱工程塑膠]] ([[Mitsubishi]] Engineering Plastics)、[[SABIC]]等品牌之[[ABS]]、HIPS、PC/ABS 等塑膠粒，並提供染色造粒 (Compounding) 加工服務。下游客戶涵蓋 EMS/ODM 大廠如[[鴻海]]、[[仁寶]]、[[廣達]]、[[緯創]]，終端品牌為[[HP]]、[[Dell]]、[[Lenovo]]。近年拓展 PCR 環保回收料及[[PLA]]生分解材料。",
+    "supply_chain_md": "**上游 (品牌代理):**\n- **工程塑膠:** [[LOTTE]]、[[三菱工程塑膠]]、[[SABIC]] — ABS/HIPS/PC/ABS 代理\n\n**中游 (加工):**\n- **佶優** (工程塑膠代理/染色造粒 Compounding/[[PLA]]生分解材料)\n\n**下游 (終端):**\n- **EMS/ODM:** [[鴻海]]、[[仁寶]]、[[廣達]]、[[緯創]] — 電子機殼用塑膠粒\n- **終端品牌:** [[HP]]、[[Dell]]、[[Lenovo]]",
+    "customers_suppliers_md": "### 主要客戶\n- **EMS/ODM:** [[鴻海]]、[[仁寶]]、[[廣達]]、[[緯創]] — 電子機殼塑膠粒\n- **終端品牌:** [[HP]]、[[Dell]]、[[Lenovo]]\n\n### 主要供應商 (代理品牌)\n- [[LOTTE]]、[[三菱工程塑膠]]、[[SABIC]] — 工程塑膠原料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

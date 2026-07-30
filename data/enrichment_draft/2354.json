@@ -162,7 +162,25 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **機構件/組裝 customer overlap:** [[可成]]、[[巨騰]]、[[和碩]]、[[鴻海]]",
+        "entities": [
+          "可成",
+          "巨騰",
+          "和碩",
+          "鴻海"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "任天堂",
+          "Apple",
+          "Sony",
+          "BMW",
+          "Tesla"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -240,6 +258,21 @@
       "name": "Tesla",
       "type": "international_company_or_term",
       "wikilink": "Tesla"
+    },
+    {
+      "name": "可成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "可成"
+    },
+    {
+      "name": "巨騰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨騰"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
     }
   ],
   "source_text": {
@@ -251,6 +284,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 11,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

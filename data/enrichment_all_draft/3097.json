@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3097",
+  "company_name": "拍檔",
+  "title": "3097 - 拍檔",
+  "source_md": "Pilot_Reports/Computer Hardware/3097_拍檔.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "1,716 百萬台幣",
+    "enterprise_value": "1,929 百萬台幣"
+  },
+  "business": {
+    "summary": "拍檔科技 (3097，[[Partner Tech]]) 隸屬 [[佳世達]] (Qisda) 集團，為智慧零售解決方案供應商。核心產品為 POS 系統 (Point of Sale)、Kiosk 自助多媒體機及相關周邊設備。\n\n作為佳世達「聯合艦隊」成員，拍檔負責零售通路與品牌出海口，與集團內硬體製造 ([[佳世達]])、軟體 ([[益欣資訊]]) 高度整合。近年策略轉向「軟硬金服」(SaaS + Hardware + Fintech) 訂閱制服務模式，推動零售業數位轉型。產品行銷歐美亞洲，覆蓋餐飲連鎖、超市零售、飯店博弈等場景。",
+    "entities": [
+      "Partner Tech",
+      "佳世達",
+      "益欣資訊"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (硬體製造)",
+        "text": "**上游 (硬體製造):**",
+        "entities": []
+      },
+      {
+        "category": "代工製造",
+        "text": "[[佳世達]] (Qisda) — POS 機台與 Kiosk 硬體製造",
+        "entities": [
+          "佳世達"
+        ]
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]] — POS 系統 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "觸控面板",
+        "text": "觸控顯示面板供應商",
+        "entities": []
+      },
+      {
+        "category": "周邊元件",
+        "text": "條碼掃描器、收據印表機模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌與系統整合)",
+        "text": "**中游 (品牌與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "品牌經營",
+        "text": "**拍檔** (Partner Tech 品牌 POS/Kiosk)",
+        "entities": []
+      },
+      {
+        "category": "軟體服務",
+        "text": "**拍檔** (SaaS 訂閱制數位轉型服務)",
+        "entities": []
+      },
+      {
+        "category": "系統整合",
+        "text": "**拍檔** (軟硬體整合方案)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (零售餐飲與服務業)",
+        "text": "**下游 (零售餐飲與服務業):**",
+        "entities": []
+      },
+      {
+        "category": "餐飲連鎖",
+        "text": "國際速食與手搖飲連鎖 — POS 系統",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "超市、百貨、便利商店 — 收銀與 Kiosk",
+        "entities": []
+      },
+      {
+        "category": "飯店博弈",
+        "text": "飯店與博弈場所 — 自助服務設備",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "餐飲連鎖",
+        "text": "國際速食品牌與亞太區餐飲集團 — POS 系統",
+        "entities": []
+      },
+      {
+        "role": "零售通路",
+        "text": "歐美亞洲連鎖超市與百貨 — 收銀/Kiosk 設備",
+        "entities": []
+      },
+      {
+        "role": "經銷體系",
+        "text": "全球 POS 經銷商網絡",
+        "entities": []
+      },
+      {
+        "role": "飯店博弈",
+        "text": "國際飯店集團 — 自助報到/點餐系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "代工製造",
+        "text": "[[佳世達]] (Qisda) — POS 機台硬體製造",
+        "entities": [
+          "佳世達"
+        ]
+      },
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — 系統 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "軟體",
+        "text": "益欣資訊 — 集團內軟體整合",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Partner Tech",
+      "type": "international_company_or_term",
+      "wikilink": "Partner Tech"
+    },
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "益欣資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "益欣資訊"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "拍檔科技 (3097，[[Partner Tech]]) 隸屬 [[佳世達]] (Qisda) 集團，為智慧零售解決方案供應商。核心產品為 POS 系統 (Point of Sale)、Kiosk 自助多媒體機及相關周邊設備。\n\n作為佳世達「聯合艦隊」成員，拍檔負責零售通路與品牌出海口，與集團內硬體製造 ([[佳世達]])、軟體 ([[益欣資訊]]) 高度整合。近年策略轉向「軟硬金服」(SaaS + Hardware + Fintech) 訂閱制服務模式，推動零售業數位轉型。產品行銷歐美亞洲，覆蓋餐飲連鎖、超市零售、飯店博弈等場景。",
+    "supply_chain_md": "**上游 (硬體製造):**\n- **代工製造:** [[佳世達]] (Qisda) — POS 機台與 Kiosk 硬體製造\n- **處理器:** [[Intel]] — POS 系統 CPU\n- **觸控面板:** 觸控顯示面板供應商\n- **周邊元件:** 條碼掃描器、收據印表機模組\n\n**中游 (品牌與系統整合):**\n- **品牌經營:** **拍檔** (Partner Tech 品牌 POS/Kiosk)\n- **軟體服務:** **拍檔** (SaaS 訂閱制數位轉型服務)\n- **系統整合:** **拍檔** (軟硬體整合方案)\n\n**下游 (零售餐飲與服務業):**\n- **餐飲連鎖:** 國際速食與手搖飲連鎖 — POS 系統\n- **零售通路:** 超市、百貨、便利商店 — 收銀與 Kiosk\n- **飯店博弈:** 飯店與博弈場所 — 自助服務設備",
+    "customers_suppliers_md": "### 主要客戶\n- **餐飲連鎖:** 國際速食品牌與亞太區餐飲集團 — POS 系統\n- **零售通路:** 歐美亞洲連鎖超市與百貨 — 收銀/Kiosk 設備\n- **經銷體系:** 全球 POS 經銷商網絡\n- **飯店博弈:** 國際飯店集團 — 自助報到/點餐系統\n\n### 主要供應商\n- **代工製造:** [[佳世達]] (Qisda) — POS 機台硬體製造\n- **處理器:** [[Intel]] — 系統 CPU\n- **軟體:** 益欣資訊 — 集團內軟體整合"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5425",
+  "company_name": "台半",
+  "title": "5425 - 台半",
+  "source_md": "Pilot_Reports/Semiconductors/5425_台半.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "17,141 百萬台幣",
+    "enterprise_value": "22,279 百萬台幣"
+  },
+  "business": {
+    "summary": "台半 (TSC, Taiwan Semiconductor) 成立於 1979 年，總部位於台灣[[新北]]。公司為全球 **功率半導體** (Discrete Power) 元件領導廠商，產品涵蓋 **整流器 (Rectifier)**、**[[MOSFET]]**、**TVS 保護元件** 及 **電源管理 IC**。台半另有子公司 **鼎翰 (3611)** 專注於條碼印表機業務，獲利貢獻穩定。台半近年積極深耕 **車用 (Automotive)** 與 **工控** 市場，車用營收佔比持續提升，已切入 Tier 1 供應鏈。",
+    "entities": [
+      "新北",
+      "MOSFET"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[矽晶圓]]、[[磊晶]]片。",
+        "entities": [
+          "矽晶圓",
+          "磊晶"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "車用 Tier 1 ([[Bosch]], [[Continental]], [[BYD]]), 工控電源, [[消費性電子]]。",
+        "entities": [
+          "Bosch",
+          "Continental",
+          "BYD",
+          "消費性電子"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "IDM (垂直整合製造，擁有晶圓廠與封測廠) 及部分 Fabless (高階 [[MOSFET]] 與[[聯電]]合作)。",
+        "entities": [
+          "MOSFET",
+          "聯電"
+        ]
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用",
+        "text": "[[Bosch]], [[Continental]], [[Valeo]], [[BYD]] (比亞迪), CATL (寧德時代)。",
+        "entities": [
+          "Bosch",
+          "Continental",
+          "Valeo",
+          "BYD"
+        ]
+      },
+      {
+        "role": "消費/工控",
+        "text": "[[Samsung]], [[Sony]], Delta ([[台達電]])。",
+        "entities": [
+          "Samsung",
+          "Sony",
+          "台達電"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "分離式元件",
+        "text": "強茂 (Panjit)、Diodes (達爾)、Vishay, [[ON Semi]]。",
+        "entities": [
+          "ON Semi"
+        ]
+      },
+      {
+        "role": "條碼機 (鼎翰)",
+        "text": "Zebra, Sato。",
+        "entities": []
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新北"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "Valeo",
+      "type": "international_company_or_term",
+      "wikilink": "Valeo"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "ON Semi",
+      "type": "international_company_or_term",
+      "wikilink": "ON Semi"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台半 (TSC, Taiwan Semiconductor) 成立於 1979 年，總部位於台灣[[新北]]。公司為全球 **功率半導體** (Discrete Power) 元件領導廠商，產品涵蓋 **整流器 (Rectifier)**、**[[MOSFET]]**、**TVS 保護元件** 及 **電源管理 IC**。台半另有子公司 **鼎翰 (3611)** 專注於條碼印表機業務，獲利貢獻穩定。台半近年積極深耕 **車用 (Automotive)** 與 **工控** 市場，車用營收佔比持續提升，已切入 Tier 1 供應鏈。",
+    "supply_chain_md": "**角色:** IDM (垂直整合製造，擁有晶圓廠與封測廠) 及部分 Fabless (高階 [[MOSFET]] 與[[聯電]]合作)。\n**上游:** [[矽晶圓]]、[[磊晶]]片。\n**下游:** 車用 Tier 1 ([[Bosch]], [[Continental]], [[BYD]]), 工控電源, [[消費性電子]]。",
+    "customers_suppliers_md": "### 主要客戶\n- **車用:** [[Bosch]], [[Continental]], [[Valeo]], [[BYD]] (比亞迪), CATL (寧德時代)。\n- **消費/工控:** [[Samsung]], [[Sony]], Delta ([[台達電]])。\n\n### 競爭對手\n- **分離式元件:** 強茂 (Panjit)、Diodes (達爾)、Vishay, [[ON Semi]]。\n- **條碼機 (鼎翰):** Zebra, Sato。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

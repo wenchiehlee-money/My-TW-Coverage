@@ -1,0 +1,230 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1611",
+  "company_name": "中電",
+  "title": "1611 - 中電",
+  "source_md": "Pilot_Reports/Furnishings, Fixtures & Appliances/1611_中電.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "market_cap": "3,695 百萬台幣",
+    "enterprise_value": "2,982 百萬台幣"
+  },
+  "business": {
+    "summary": "中國電器 (1611，China Electric Mfg.) 成立於 1955 年，總部位於台北，為台灣照明產業領導品牌「東亞照明」(TOA) 之經營者。主要產品涵蓋各式 LED 照明燈具、傳統光源、安定器及相關照明配件。銷售通路以全台綿密的水電材料行為核心優勢，同時供貨予量販通路如[[特力屋]]、[[家樂福]]。LED 光源主要向[[億光電子]] (2393)、[[隆達電子]] (3698) 等封裝廠採購。公司亦跨足不動產開發及資產活化業務，持有台北市精華地段土地資產。",
+    "entities": [
+      "特力屋",
+      "家樂福",
+      "億光電子",
+      "隆達電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (LED 元件與材料)",
+        "text": "**上游 (LED 元件與材料):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "[[億光電子]] (2393)、[[隆達電子]] (3698) — LED 晶粒與封裝元件",
+        "entities": [
+          "億光電子",
+          "隆達電子"
+        ]
+      },
+      {
+        "category": "電源驅動",
+        "text": "國內電源供應器廠",
+        "entities": []
+      },
+      {
+        "category": "金屬件",
+        "text": "散熱鋁件、塑膠射出件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌與製造)",
+        "text": "**中游 (品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中國電器** — 「東亞照明」品牌行銷、燈具設計組裝測試",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與終端)",
+        "text": "**下游 (通路與終端):**",
+        "entities": []
+      },
+      {
+        "category": "傳統通路",
+        "text": "全台水電材料行",
+        "entities": []
+      },
+      {
+        "category": "量販通路",
+        "text": "[[特力屋]]、[[家樂福]]",
+        "entities": [
+          "特力屋",
+          "家樂福"
+        ]
+      },
+      {
+        "category": "工程標案",
+        "text": "營造廠 (路燈、學校照明)、政府機關",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "傳統通路",
+        "text": "全台數千家水電材料行 — 照明燈具經銷",
+        "entities": []
+      },
+      {
+        "role": "量販通路",
+        "text": "[[特力屋]]、[[家樂福]]",
+        "entities": [
+          "特力屋",
+          "家樂福"
+        ]
+      },
+      {
+        "role": "工程客戶",
+        "text": "營造廠如[[中華工程]]、[[遠雄營造]] — 公共照明工程",
+        "entities": [
+          "中華工程",
+          "遠雄營造"
+        ]
+      },
+      {
+        "role": "政府標案",
+        "text": "路燈、校園照明",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 元件",
+        "text": "[[億光電子]]、[[隆達電子]] — LED 封裝元件",
+        "entities": [
+          "億光電子",
+          "隆達電子"
+        ]
+      },
+      {
+        "role": "電源",
+        "text": "國內電源供應器廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Furnishings, Fixtures & Appliances):** [[伸興]]、[[聲寶]]、[[三洋電]]、[[艾美特-KY]]、[[和成]]",
+        "entities": [
+          "伸興",
+          "聲寶",
+          "三洋電",
+          "艾美特-KY",
+          "和成"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "特力屋",
+          "家樂福",
+          "中華工程",
+          "遠雄營造"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "特力屋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "特力屋"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "億光電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光電子"
+    },
+    {
+      "name": "隆達電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隆達電子"
+    },
+    {
+      "name": "中華工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華工程"
+    },
+    {
+      "name": "遠雄營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄營造"
+    },
+    {
+      "name": "伸興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伸興"
+    },
+    {
+      "name": "聲寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聲寶"
+    },
+    {
+      "name": "三洋電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三洋電"
+    },
+    {
+      "name": "艾美特-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "艾美特-KY"
+    },
+    {
+      "name": "和成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和成"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國電器 (1611，China Electric Mfg.) 成立於 1955 年，總部位於台北，為台灣照明產業領導品牌「東亞照明」(TOA) 之經營者。主要產品涵蓋各式 LED 照明燈具、傳統光源、安定器及相關照明配件。銷售通路以全台綿密的水電材料行為核心優勢，同時供貨予量販通路如[[特力屋]]、[[家樂福]]。LED 光源主要向[[億光電子]] (2393)、[[隆達電子]] (3698) 等封裝廠採購。公司亦跨足不動產開發及資產活化業務，持有台北市精華地段土地資產。",
+    "supply_chain_md": "**上游 (LED 元件與材料):**\n- **LED 封裝:** [[億光電子]] (2393)、[[隆達電子]] (3698) — LED 晶粒與封裝元件\n- **電源驅動:** 國內電源供應器廠\n- **金屬件:** 散熱鋁件、塑膠射出件\n\n**中游 (品牌與製造):**\n- **中國電器** — 「東亞照明」品牌行銷、燈具設計組裝測試\n\n**下游 (通路與終端):**\n- **傳統通路:** 全台水電材料行\n- **量販通路:** [[特力屋]]、[[家樂福]]\n- **工程標案:** 營造廠 (路燈、學校照明)、政府機關",
+    "customers_suppliers_md": "### 主要客戶\n- **傳統通路:** 全台數千家水電材料行 — 照明燈具經銷\n- **量販通路:** [[特力屋]]、[[家樂福]]\n- **工程客戶:** 營造廠如[[中華工程]]、[[遠雄營造]] — 公共照明工程\n- **政府標案:** 路燈、校園照明\n\n### 主要供應商\n- **LED 元件:** [[億光電子]]、[[隆達電子]] — LED 封裝元件\n- **電源:** 國內電源供應器廠商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

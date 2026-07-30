@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5498",
+  "company_name": "凱崴",
+  "title": "5498 - 凱崴",
+  "source_md": "Pilot_Reports/Tools & Accessories/5498_凱崴.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "7,936 百萬台幣",
+    "enterprise_value": "8,805 百萬台幣"
+  },
+  "business": {
+    "summary": "凱崴電子 (5498，Key Ware Electronics) 成立於 1997 年，總部位於台灣桃園。公司專注於 [[PCB]] 切削工具及加工服務，三大業務為：(1) [[PCB]] 鑽針 (Micro Drill Bit) 製造銷售 — 碳化鎢鋼精密鑽針及銑刀；(2) [[PCB]] 鑽孔代工 — 提供機械鑽孔及雷射鑽孔服務；(3) [[銅箔基板]]代理銷售 (代理[[南亞塑膠]]產品)。工廠佈局桃園、昆山、武漢、深圳四大服務基地。近年受惠於 [[AI 伺服器]]及車用電子對高階多層板之鑽孔需求成長。",
+    "entities": [
+      "PCB",
+      "銅箔基板",
+      "南亞塑膠",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與設備)",
+        "text": "**上游 (原料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "碳化鎢鋼",
+        "text": "鑽針主要原料",
+        "entities": []
+      },
+      {
+        "category": "銅箔基板",
+        "text": "代理[[南亞塑膠]]產品",
+        "entities": [
+          "南亞塑膠"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與服務)",
+        "text": "**中游 (製造與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**凱崴電子** — [[PCB]] 鑽針/銑刀製造、機械鑽孔及雷射鑽孔代工",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (PCB 製造商)",
+        "text": "**下游 (PCB 製造商):**",
+        "entities": []
+      },
+      {
+        "category": "IC 載板/HDI 板廠",
+        "text": "[[欣興]]、[[華通]]、[[健鼎]]、[[金像電]]、[[景碩]]",
+        "entities": [
+          "欣興",
+          "華通",
+          "健鼎",
+          "金像電",
+          "景碩"
+        ]
+      },
+      {
+        "category": "伺服器板廠",
+        "text": "[[AI 伺服器]]高層數板材製造商",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "IC 載板",
+        "text": "[[欣興]]、[[景碩]]、[[南電]]",
+        "entities": [
+          "欣興",
+          "景碩",
+          "南電"
+        ]
+      },
+      {
+        "role": "HDI/多層板",
+        "text": "[[華通]]、[[健鼎]]、[[金像電]]",
+        "entities": [
+          "華通",
+          "健鼎",
+          "金像電"
+        ]
+      },
+      {
+        "role": "應用驅動",
+        "text": "[[AI 伺服器]]、車用電子之高階 [[PCB]] 鑽孔需求",
+        "entities": [
+          "AI 伺服器",
+          "PCB"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "碳化鎢鋼",
+        "text": "國內外鎢鋼材料供應商",
+        "entities": []
+      },
+      {
+        "role": "銅箔基板",
+        "text": "[[南亞塑膠]] (代理銷售)",
+        "entities": [
+          "南亞塑膠"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Tools & Accessories):** [[鑽全]]、[[正峰]]、[[錩泰]]、[[中砂]]、[[力肯]]",
+        "entities": [
+          "鑽全",
+          "正峰",
+          "錩泰",
+          "中砂",
+          "力肯"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "欣興",
+          "景碩",
+          "南電",
+          "華通",
+          "健鼎",
+          "金像電",
+          "AI 伺服器",
+          "PCB"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "銅箔基板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔基板"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "健鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "健鼎"
+    },
+    {
+      "name": "金像電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金像電"
+    },
+    {
+      "name": "景碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "景碩"
+    },
+    {
+      "name": "南電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南電"
+    },
+    {
+      "name": "鑽全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑽全"
+    },
+    {
+      "name": "正峰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正峰"
+    },
+    {
+      "name": "錩泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "錩泰"
+    },
+    {
+      "name": "中砂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中砂"
+    },
+    {
+      "name": "力肯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力肯"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "凱崴電子 (5498，Key Ware Electronics) 成立於 1997 年，總部位於台灣桃園。公司專注於 [[PCB]] 切削工具及加工服務，三大業務為：(1) [[PCB]] 鑽針 (Micro Drill Bit) 製造銷售 — 碳化鎢鋼精密鑽針及銑刀；(2) [[PCB]] 鑽孔代工 — 提供機械鑽孔及雷射鑽孔服務；(3) [[銅箔基板]]代理銷售 (代理[[南亞塑膠]]產品)。工廠佈局桃園、昆山、武漢、深圳四大服務基地。近年受惠於 [[AI 伺服器]]及車用電子對高階多層板之鑽孔需求成長。",
+    "supply_chain_md": "**上游 (原料與設備):**\n- **碳化鎢鋼:** 鑽針主要原料\n- **銅箔基板:** 代理[[南亞塑膠]]產品\n\n**中游 (製造與服務):**\n- **凱崴電子** — [[PCB]] 鑽針/銑刀製造、機械鑽孔及雷射鑽孔代工\n\n**下游 (PCB 製造商):**\n- **IC 載板/HDI 板廠:** [[欣興]]、[[華通]]、[[健鼎]]、[[金像電]]、[[景碩]]\n- **伺服器板廠:** [[AI 伺服器]]高層數板材製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **IC 載板:** [[欣興]]、[[景碩]]、[[南電]]\n- **HDI/多層板:** [[華通]]、[[健鼎]]、[[金像電]]\n- **應用驅動:** [[AI 伺服器]]、車用電子之高階 [[PCB]] 鑽孔需求\n\n### 主要供應商\n- **碳化鎢鋼:** 國內外鎢鋼材料供應商\n- **銅箔基板:** [[南亞塑膠]] (代理銷售)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

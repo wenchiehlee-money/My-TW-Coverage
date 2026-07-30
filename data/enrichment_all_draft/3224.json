@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3224",
+  "company_name": "三顧",
+  "title": "3224 - 三顧",
+  "source_md": "Pilot_Reports/Electronics & Computer Distribution/3224_三顧.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "2,614 百萬台幣",
+    "enterprise_value": "3,212 百萬台幣"
+  },
+  "business": {
+    "summary": "三顧 (3224，[[Meta]]Tech) 原為電子零組件通路商，近年積極轉型再生醫療與細胞治療。核心業務包括：(1) 再生醫療 — 引進日本 [[CellSeed]] 「細胞層片」技術，應用於食道、軟骨、皮膚修復，與 [[Hitachi]] 合資成立樂迦再生 (6891) 發展 CDMO；(2) 電子通路 — 代理[[連接器]]、IC 等電子元件，提供穩定營運現金流。公司為台灣特管辦法通過後，少數具備細胞治療實績的生技公司。",
+    "entities": [
+      "Meta",
+      "CellSeed",
+      "Hitachi",
+      "連接器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與材料)",
+        "text": "**上游 (技術與材料):**",
+        "entities": []
+      },
+      {
+        "category": "細胞層片",
+        "text": "[[CellSeed]] (日本) — 細胞層片核心技術授權",
+        "entities": [
+          "CellSeed"
+        ]
+      },
+      {
+        "category": "醫療設備",
+        "text": "[[Hitachi]] — 再生醫療合資合作",
+        "entities": [
+          "Hitachi"
+        ]
+      },
+      {
+        "category": "電子元件",
+        "text": "[[連接器]]、IC 供應商",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (技術服務)",
+        "text": "**中游 (技術服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**三顧** (細胞製備、技術授權、電子代理)",
+        "entities": []
+      },
+      {
+        "category": "子公司",
+        "text": "樂迦再生 (6891) — 細胞治療 CDMO",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "醫療機構",
+        "text": "義大醫院等各大醫學中心 (臨床合作)",
+        "entities": []
+      },
+      {
+        "category": "醫美診所",
+        "text": "細胞治療服務",
+        "entities": []
+      },
+      {
+        "category": "電子製造",
+        "text": "台灣電子組裝廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "生醫",
+        "text": "各大醫學中心如義大醫院 — 細胞治療臨床合作",
+        "entities": []
+      },
+      {
+        "role": "醫美",
+        "text": "醫美診所 — 皮膚/軟骨再生療程",
+        "entities": []
+      },
+      {
+        "role": "電子",
+        "text": "台灣電子製造廠 — [[連接器]]與 IC 代理",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "細胞技術",
+        "text": "[[CellSeed]] (日本) — 細胞層片核心技術",
+        "entities": [
+          "CellSeed"
+        ]
+      },
+      {
+        "role": "合資夥伴",
+        "text": "[[Hitachi]] — 再生醫療設備與技術",
+        "entities": [
+          "Hitachi"
+        ]
+      },
+      {
+        "role": "電子元件",
+        "text": "[[連接器]]及 IC 供應商",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronics & Computer Distribution):** [[華電]]、[[合機]]、[[聯強]]、[[鴻準]]、[[神腦]]",
+        "entities": [
+          "華電",
+          "合機",
+          "聯強",
+          "鴻準",
+          "神腦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "連接器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "CellSeed",
+      "type": "international_company_or_term",
+      "wikilink": "CellSeed"
+    },
+    {
+      "name": "Hitachi",
+      "type": "international_company_or_term",
+      "wikilink": "Hitachi"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    },
+    {
+      "name": "合機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合機"
+    },
+    {
+      "name": "聯強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯強"
+    },
+    {
+      "name": "鴻準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻準"
+    },
+    {
+      "name": "神腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三顧 (3224，[[Meta]]Tech) 原為電子零組件通路商，近年積極轉型再生醫療與細胞治療。核心業務包括：(1) 再生醫療 — 引進日本 [[CellSeed]] 「細胞層片」技術，應用於食道、軟骨、皮膚修復，與 [[Hitachi]] 合資成立樂迦再生 (6891) 發展 CDMO；(2) 電子通路 — 代理[[連接器]]、IC 等電子元件，提供穩定營運現金流。公司為台灣特管辦法通過後，少數具備細胞治療實績的生技公司。",
+    "supply_chain_md": "**上游 (技術與材料):**\n- **細胞層片:** [[CellSeed]] (日本) — 細胞層片核心技術授權\n- **醫療設備:** [[Hitachi]] — 再生醫療合資合作\n- **電子元件:** [[連接器]]、IC 供應商\n\n**中游 (技術服務):**\n- **三顧** (細胞製備、技術授權、電子代理)\n- **子公司:** 樂迦再生 (6891) — 細胞治療 CDMO\n\n**下游 (終端應用):**\n- **醫療機構:** 義大醫院等各大醫學中心 (臨床合作)\n- **醫美診所:** 細胞治療服務\n- **電子製造:** 台灣電子組裝廠",
+    "customers_suppliers_md": "### 主要客戶\n- **生醫:** 各大醫學中心如義大醫院 — 細胞治療臨床合作\n- **醫美:** 醫美診所 — 皮膚/軟骨再生療程\n- **電子:** 台灣電子製造廠 — [[連接器]]與 IC 代理\n\n### 主要供應商\n- **細胞技術:** [[CellSeed]] (日本) — 細胞層片核心技術\n- **合資夥伴:** [[Hitachi]] — 再生醫療設備與技術\n- **電子元件:** [[連接器]]及 IC 供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

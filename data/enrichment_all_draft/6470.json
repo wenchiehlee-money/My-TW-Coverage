@@ -1,0 +1,254 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6470",
+  "company_name": "宇智",
+  "title": "6470_宇智",
+  "source_md": "Pilot_Reports/Communication Equipment/6470_宇智.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "1,721 百萬台幣",
+    "enterprise_value": "875 百萬台幣"
+  },
+  "business": {
+    "summary": "宇智網通 (6470，[[U-MEDIA Communications]]) 為專注於設計及製造高階無線寬頻網路通訊設備之台灣網通廠，鎖定利基型高附加價值的企業級與車載網路設備市場。公司成立於 2004 年，總部位於新竹。\n\n核心產品涵蓋 4G/[[5G]] 企業級路由器、5G 戶外橋接器、[[Wi-Fi 7]] 企業 AP、車載通訊設備及商用串流音樂播放終端。憑藉台灣在地製造 (MIT) 及深厚射頻技術，成功打入北美及日本頂級電信營運商的 5G FWA 供應鏈。2020 年起因 [[Ericsson]] 於北美併購其客戶後，間接擴展至歐洲及東北亞電信市場。2026 年迎來重大轉折，[[光寶科技]] 宣布以每股 54 元公開收購宇智，鞏固其 AI 運算 5G+ 網路邊緣運算布局。",
+    "entities": [
+      "U-MEDIA Communications",
+      "5G",
+      "Wi-Fi 7",
+      "Ericsson",
+      "光寶科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (5G 射頻晶片與模組)",
+        "text": "**上游 (5G 射頻晶片與模組):**",
+        "entities": []
+      },
+      {
+        "category": "5G 基帶",
+        "text": "[[Qualcomm]]、[[聯發科]] — 5G FWA 基帶/射頻晶片",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "Wi-Fi 7 收發晶片",
+        "entities": []
+      },
+      {
+        "category": "記憶體/天線",
+        "text": "DRAM/Flash 及工業級天線陣列模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (企業級 5G/Wi-Fi 設備 MIT 製造)",
+        "text": "**中游 (企業級 5G/Wi-Fi 設備 MIT 製造):**",
+        "entities": []
+      },
+      {
+        "category": "5G FWA",
+        "text": "**宇智** (北美 Tier-1 電信認證 5G CPE)",
+        "entities": []
+      },
+      {
+        "category": "企業 AP",
+        "text": "**宇智** (Wi-Fi 7 企業級基地台)",
+        "entities": []
+      },
+      {
+        "category": "車載設備",
+        "text": "**宇智** (車載通訊及串流音樂終端)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信營運商與商業場域)",
+        "text": "**下游 (電信營運商與商業場域):**",
+        "entities": []
+      },
+      {
+        "category": "北美電信",
+        "text": "北美 Tier-1 電信商 — 5G FWA 固網末梢設備",
+        "entities": []
+      },
+      {
+        "category": "歐洲電信",
+        "text": "透過 [[Ericsson]] 合作拓展歐洲電信商",
+        "entities": [
+          "Ericsson"
+        ]
+      },
+      {
+        "category": "日本電信",
+        "text": "日本電信商 — 5G 網路備援 (Fail-Over) 設備",
+        "entities": []
+      },
+      {
+        "category": "收購方",
+        "text": "[[光寶科技]] — 2026 年公開收購",
+        "entities": [
+          "光寶科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美電信",
+        "text": "北美 Tier-1 電信商 — 5G FWA CPE 及企業路由器",
+        "entities": []
+      },
+      {
+        "role": "歐洲電信",
+        "text": "透過 [[Ericsson]] 合作觸達歐洲及東北亞電信商",
+        "entities": [
+          "Ericsson"
+        ]
+      },
+      {
+        "role": "日本電信",
+        "text": "日本電信商 — 5G 網路備援設備",
+        "entities": []
+      },
+      {
+        "role": "商業場域",
+        "text": "台灣便利商店連鎖、美系速食餐廳 — 商用串流音樂終端",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "5G 晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — 5G 基帶 SoC",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "收購方",
+        "text": "[[光寶科技]] (2026 年公開收購，每股 54 元)",
+        "entities": [
+          "光寶科技"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Ericsson"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "宇智網通 (6470，[[U-MEDIA Communications]]) 為專注於設計及製造高階無線寬頻網路通訊設備之台灣網通廠，鎖定利基型高附加價值的企業級與車載網路設備市場。公司成立於 2004 年，總部位於新竹。",
+        "entities": [
+          "U-MEDIA Communications"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "U-MEDIA Communications",
+      "type": "international_company_or_term",
+      "wikilink": "U-MEDIA Communications"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "Ericsson",
+      "type": "international_company_or_term",
+      "wikilink": "Ericsson"
+    },
+    {
+      "name": "光寶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科技"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宇智網通 (6470，[[U-MEDIA Communications]]) 為專注於設計及製造高階無線寬頻網路通訊設備之台灣網通廠，鎖定利基型高附加價值的企業級與車載網路設備市場。公司成立於 2004 年，總部位於新竹。\n\n核心產品涵蓋 4G/[[5G]] 企業級路由器、5G 戶外橋接器、[[Wi-Fi 7]] 企業 AP、車載通訊設備及商用串流音樂播放終端。憑藉台灣在地製造 (MIT) 及深厚射頻技術，成功打入北美及日本頂級電信營運商的 5G FWA 供應鏈。2020 年起因 [[Ericsson]] 於北美併購其客戶後，間接擴展至歐洲及東北亞電信市場。2026 年迎來重大轉折，[[光寶科技]] 宣布以每股 54 元公開收購宇智，鞏固其 AI 運算 5G+ 網路邊緣運算布局。",
+    "supply_chain_md": "**上游 (5G 射頻晶片與模組):**\n- **5G 基帶:** [[Qualcomm]]、[[聯發科]] — 5G FWA 基帶/射頻晶片\n- **Wi-Fi 晶片:** Wi-Fi 7 收發晶片\n- **記憶體/天線:** DRAM/Flash 及工業級天線陣列模組\n\n**中游 (企業級 5G/Wi-Fi 設備 MIT 製造):**\n- **5G FWA:** **宇智** (北美 Tier-1 電信認證 5G CPE)\n- **企業 AP:** **宇智** (Wi-Fi 7 企業級基地台)\n- **車載設備:** **宇智** (車載通訊及串流音樂終端)\n\n**下游 (電信營運商與商業場域):**\n- **北美電信:** 北美 Tier-1 電信商 — 5G FWA 固網末梢設備\n- **歐洲電信:** 透過 [[Ericsson]] 合作拓展歐洲電信商\n- **日本電信:** 日本電信商 — 5G 網路備援 (Fail-Over) 設備\n- **收購方:** [[光寶科技]] — 2026 年公開收購",
+    "customers_suppliers_md": "### 主要客戶\n- **北美電信:** 北美 Tier-1 電信商 — 5G FWA CPE 及企業路由器\n- **歐洲電信:** 透過 [[Ericsson]] 合作觸達歐洲及東北亞電信商\n- **日本電信:** 日本電信商 — 5G 網路備援設備\n- **商業場域:** 台灣便利商店連鎖、美系速食餐廳 — 商用串流音樂終端\n\n### 主要供應商\n- **5G 晶片:** [[Qualcomm]]、[[聯發科]] — 5G 基帶 SoC\n- **收購方:** [[光寶科技]] (2026 年公開收購，每股 54 元)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

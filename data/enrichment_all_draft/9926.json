@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9926",
+  "company_name": "新海",
+  "title": "9926 - 新海",
+  "source_md": "Pilot_Reports/Utilities - Regulated Gas/9926_新海.md",
+  "extracted_at": "2026-07-30 22:32:03 CST",
+  "profile": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Gas",
+    "market_cap": "8,939 百萬台幣",
+    "enterprise_value": "5,639 百萬台幣"
+  },
+  "business": {
+    "summary": "新海瓦斯股份有限公司成立於1966年，總部位於新北市，為新北市三重、蘆洲、新莊部分地區之天然氣公用事業。核心業務為供應及銷售天然氣與相關設備。業務涵蓋：（1）**天然氣銷售：** 向[[台灣中油]]採購天然氣並經管線供應轄區用戶；（2）**安全設備銷售：** 微電腦瓦斯表、瓦斯漏氣警報器、遮斷閥等安全設備之銷售安裝；（3）**瓦斯器具：** 天然氣專用瓦斯爐、瓦斯型衣物乾燥機等器具銷售。此外亦涉足電信服務。費率受[[經濟部]]核定管制，營運穩定。與[[欣天然]]（9918）、[[欣泰]]（8917）同屬新北市天然氣供應業者。",
+    "entities": [
+      "台灣中油",
+      "經濟部",
+      "欣天然",
+      "欣泰"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (天然氣供應)",
+        "text": "**上游 (天然氣供應):**",
+        "entities": []
+      },
+      {
+        "category": "天然氣",
+        "text": "[[台灣中油]]（CPC，天然氣獨家供應商）",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "管線設備",
+        "text": "[[PE管]]、鋼管、壓力調節器供應商",
+        "entities": [
+          "PE管"
+        ]
+      },
+      {
+        "category": "安全設備",
+        "text": "微電腦瓦斯表、漏氣警報器、遮斷閥供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (輸配與服務)",
+        "text": "**中游 (輸配與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**新海瓦斯** — 天然氣管線輸配、安全設備銷售安裝、瓦斯器具銷售",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "家庭用戶",
+        "text": "新北市三重、蘆洲、新莊等區域之家庭住宅天然氣用戶",
+        "entities": []
+      },
+      {
+        "category": "商業用戶",
+        "text": "餐飲業、商辦等商業天然氣用戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "家庭用戶",
+        "text": "新北市三重、蘆洲、新莊等區域之家庭住宅天然氣用戶",
+        "entities": []
+      },
+      {
+        "role": "商業用戶",
+        "text": "餐飲業、商辦大樓等商業天然氣用戶",
+        "entities": []
+      },
+      {
+        "role": "安全設備",
+        "text": "家庭及商業用戶（微電腦瓦斯表、漏氣警報器銷售）",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "天然氣",
+        "text": "[[台灣中油]]（CPC，天然氣獨家供應來源）",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "安全設備",
+        "text": "微電腦瓦斯表、漏氣警報器供應商",
+        "entities": []
+      },
+      {
+        "role": "瓦斯器具",
+        "text": "[[櫻花]]、[[林內]]等天然氣專用爐具品牌",
+        "entities": [
+          "櫻花",
+          "林內"
+        ]
+      },
+      {
+        "role": "管線",
+        "text": "[[PE管]]、鋼管供應商",
+        "entities": [
+          "PE管"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Utilities - Regulated Gas):** [[欣雄]]、[[欣泰]]、[[大台北]]、[[欣天然]]、[[欣高]]",
+        "entities": [
+          "欣雄",
+          "欣泰",
+          "大台北",
+          "欣天然",
+          "欣高"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "經濟部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "經濟部"
+    },
+    {
+      "name": "欣天然",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣天然"
+    },
+    {
+      "name": "欣泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣泰"
+    },
+    {
+      "name": "PE管",
+      "type": "taiwan_company_or_term",
+      "wikilink": "PE管"
+    },
+    {
+      "name": "櫻花",
+      "type": "taiwan_company_or_term",
+      "wikilink": "櫻花"
+    },
+    {
+      "name": "林內",
+      "type": "taiwan_company_or_term",
+      "wikilink": "林內"
+    },
+    {
+      "name": "欣雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣雄"
+    },
+    {
+      "name": "大台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大台北"
+    },
+    {
+      "name": "欣高",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣高"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新海瓦斯股份有限公司成立於1966年，總部位於新北市，為新北市三重、蘆洲、新莊部分地區之天然氣公用事業。核心業務為供應及銷售天然氣與相關設備。業務涵蓋：（1）**天然氣銷售：** 向[[台灣中油]]採購天然氣並經管線供應轄區用戶；（2）**安全設備銷售：** 微電腦瓦斯表、瓦斯漏氣警報器、遮斷閥等安全設備之銷售安裝；（3）**瓦斯器具：** 天然氣專用瓦斯爐、瓦斯型衣物乾燥機等器具銷售。此外亦涉足電信服務。費率受[[經濟部]]核定管制，營運穩定。與[[欣天然]]（9918）、[[欣泰]]（8917）同屬新北市天然氣供應業者。",
+    "supply_chain_md": "**上游 (天然氣供應):**\n- **天然氣:** [[台灣中油]]（CPC，天然氣獨家供應商）\n- **管線設備:** [[PE管]]、鋼管、壓力調節器供應商\n- **安全設備:** 微電腦瓦斯表、漏氣警報器、遮斷閥供應商\n\n**中游 (輸配與服務):**\n- **新海瓦斯** — 天然氣管線輸配、安全設備銷售安裝、瓦斯器具銷售\n\n**下游 (終端用戶):**\n- **家庭用戶:** 新北市三重、蘆洲、新莊等區域之家庭住宅天然氣用戶\n- **商業用戶:** 餐飲業、商辦等商業天然氣用戶",
+    "customers_suppliers_md": "### 主要客戶\n- **家庭用戶:** 新北市三重、蘆洲、新莊等區域之家庭住宅天然氣用戶\n- **商業用戶:** 餐飲業、商辦大樓等商業天然氣用戶\n- **安全設備:** 家庭及商業用戶（微電腦瓦斯表、漏氣警報器銷售）\n\n### 主要供應商\n- **天然氣:** [[台灣中油]]（CPC，天然氣獨家供應來源）\n- **安全設備:** 微電腦瓦斯表、漏氣警報器供應商\n- **瓦斯器具:** [[櫻花]]、[[林內]]等天然氣專用爐具品牌\n- **管線:** [[PE管]]、鋼管供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

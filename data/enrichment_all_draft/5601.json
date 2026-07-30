@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5601",
+  "company_name": "台聯櫃",
+  "title": "5601_台聯櫃",
+  "source_md": "Pilot_Reports/Integrated Freight & Logistics/5601_台聯櫃.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics",
+    "market_cap": "1,879 百萬台幣",
+    "enterprise_value": "1,769 百萬台幣"
+  },
+  "business": {
+    "summary": "臺聯貨櫃通運股份有限公司（TACT）早期主要經營貨櫃集散站業務及國民住宅興建。近年業務轉型，目前主要經營空櫃棧租及土地/設備之不動產租賃與出售業務，並提供倉儲、理貨包裝等服務。公司在台灣物流體系中扮演基礎設施提供者角色，主要服務對象為[[長榮海運]]、[[陽明海運]]、[[萬海航運]]等國際貨櫃航運公司及進出口貿易商。營收規模較小，主要來自棧租收入及不動產租賃，獲利穩定。",
+    "entities": [
+      "長榮海運",
+      "陽明海運",
+      "萬海航運"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設施維護)",
+        "text": "**上游 (設施維護):**",
+        "entities": []
+      },
+      {
+        "category": "設備",
+        "text": "貨櫃場設備維護與更新供應商",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "物業管理與設施維護服務",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (場站營運)",
+        "text": "**中游 (場站營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**臺聯貨櫃** — 空櫃棧租、貨櫃集散站營運、倉儲理貨、不動產租賃",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (客戶)",
+        "text": "**下游 (客戶):**",
+        "entities": []
+      },
+      {
+        "category": "航運",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]]等貨櫃航運公司（空櫃棧租）",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      },
+      {
+        "category": "物流承攬",
+        "text": "國際物流承攬業者",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "一般企業租戶（不動產租賃）",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "航運",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]]等貨櫃航運公司（空櫃棧租服務）",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      },
+      {
+        "role": "物流",
+        "text": "國際物流承攬業者（倉儲理貨服務）",
+        "entities": []
+      },
+      {
+        "role": "不動產",
+        "text": "企業租戶（土地與設施租賃）",
+        "entities": []
+      },
+      {
+        "role": "貿易商",
+        "text": "進出口貿易商（貨櫃集散服務）",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "設備",
+        "text": "貨櫃場設備維護商",
+        "entities": []
+      },
+      {
+        "role": "物業",
+        "text": "設施管理與維護服務廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Integrated Freight & Logistics):** [[立益物流]]、[[榮運]]、[[中航]]、[[台驊控股]]、[[宅配通]]",
+        "entities": [
+          "立益物流",
+          "榮運",
+          "中航",
+          "台驊控股",
+          "宅配通"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "萬海航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬海航運"
+    },
+    {
+      "name": "立益物流",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立益物流"
+    },
+    {
+      "name": "榮運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮運"
+    },
+    {
+      "name": "中航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中航"
+    },
+    {
+      "name": "台驊控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台驊控股"
+    },
+    {
+      "name": "宅配通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宅配通"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "臺聯貨櫃通運股份有限公司（TACT）早期主要經營貨櫃集散站業務及國民住宅興建。近年業務轉型，目前主要經營空櫃棧租及土地/設備之不動產租賃與出售業務，並提供倉儲、理貨包裝等服務。公司在台灣物流體系中扮演基礎設施提供者角色，主要服務對象為[[長榮海運]]、[[陽明海運]]、[[萬海航運]]等國際貨櫃航運公司及進出口貿易商。營收規模較小，主要來自棧租收入及不動產租賃，獲利穩定。",
+    "supply_chain_md": "**上游 (設施維護):**\n- **設備:** 貨櫃場設備維護與更新供應商\n- **不動產:** 物業管理與設施維護服務\n\n**中游 (場站營運):**\n- **臺聯貨櫃** — 空櫃棧租、貨櫃集散站營運、倉儲理貨、不動產租賃\n\n**下游 (客戶):**\n- **航運:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]]等貨櫃航運公司（空櫃棧租）\n- **物流承攬:** 國際物流承攬業者\n- **不動產:** 一般企業租戶（不動產租賃）",
+    "customers_suppliers_md": "### 主要客戶\n- **航運:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]]等貨櫃航運公司（空櫃棧租服務）\n- **物流:** 國際物流承攬業者（倉儲理貨服務）\n- **不動產:** 企業租戶（土地與設施租賃）\n- **貿易商:** 進出口貿易商（貨櫃集散服務）\n\n### 主要供應商\n- **設備:** 貨櫃場設備維護商\n- **物業:** 設施管理與維護服務廠商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

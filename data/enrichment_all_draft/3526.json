@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3526",
+  "company_name": "凡甲",
+  "title": "3526 - 凡甲",
+  "source_md": "Pilot_Reports/Electronic Components/3526_凡甲.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "18,571 百萬台幣",
+    "enterprise_value": "16,224 百萬台幣"
+  },
+  "business": {
+    "summary": "凡甲科技 (Alltop) 為高階 **連接器** 領導廠商，獲利能力優於同業。\n業務聚焦兩大高成長引擎：**伺服器 (Server)** 與 **車用 (Automotive)**。\n在[[伺服器]]領域，提供高功率/高速[[連接器]]，切入 **[[AI 伺服器]]** 供應鏈 ([[Meta]]/[[Google]]/[[Amazon]])。\n在車用領域，為 **BMS (電池管理系統)** [[連接器]]主要供應商，大客戶包含 **寧德時代 (CATL)** 與 **比亞迪 ([[BYD]])**。",
+    "entities": [
+      "伺服器",
+      "連接器",
+      "AI 伺服器",
+      "Meta",
+      "Google",
+      "Amazon",
+      "BYD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[金屬端子]], [[塑膠粒]].",
+        "entities": [
+          "金屬端子",
+          "塑膠粒"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **凡甲 (3526)** - [[連接器]]設計與製造.",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**伺服器**: [[Meta]], [[Google]], [[Amazon]], [[Dell]], [[Inspur]].",
+        "entities": [
+          "Meta",
+          "Google",
+          "Amazon",
+          "Dell",
+          "Inspur"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[電動車]] (BMS)**: [[CATL]], [[BYD]].",
+        "entities": [
+          "電動車",
+          "CATL",
+          "BYD"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[CATL]] (寧德時代) - [[電動車]] BMS.",
+        "entities": [
+          "CATL",
+          "電動車"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[BYD]] (比亞迪) - [[電動車]] BMS.",
+        "entities": [
+          "BYD",
+          "電動車"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Meta]] / [[Google]] - [[伺服器]].",
+        "entities": [
+          "Meta",
+          "Google",
+          "伺服器"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "CATL",
+          "電動車",
+          "BYD",
+          "電動車",
+          "Meta",
+          "Google",
+          "伺服器"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "金屬端子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金屬端子"
+    },
+    {
+      "name": "塑膠粒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "塑膠粒"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Inspur",
+      "type": "international_company_or_term",
+      "wikilink": "Inspur"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "CATL",
+      "type": "international_company_or_term",
+      "wikilink": "CATL"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "凡甲科技 (Alltop) 為高階 **連接器** 領導廠商，獲利能力優於同業。\n業務聚焦兩大高成長引擎：**伺服器 (Server)** 與 **車用 (Automotive)**。\n在[[伺服器]]領域，提供高功率/高速[[連接器]]，切入 **[[AI 伺服器]]** 供應鏈 ([[Meta]]/[[Google]]/[[Amazon]])。\n在車用領域，為 **BMS (電池管理系統)** [[連接器]]主要供應商，大客戶包含 **寧德時代 (CATL)** 與 **比亞迪 ([[BYD]])**。",
+    "supply_chain_md": "*   **上游**: [[金屬端子]], [[塑膠粒]].\n*   **中游**: **凡甲 (3526)** - [[連接器]]設計與製造.\n*   **下游**:\n    *   **伺服器**: [[Meta]], [[Google]], [[Amazon]], [[Dell]], [[Inspur]].\n    *   **[[電動車]] (BMS)**: [[CATL]], [[BYD]].",
+    "customers_suppliers_md": "### 主要客戶\n*   [[CATL]] (寧德時代) - [[電動車]] BMS.\n*   [[BYD]] (比亞迪) - [[電動車]] BMS.\n*   [[Meta]] / [[Google]] - [[伺服器]]."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

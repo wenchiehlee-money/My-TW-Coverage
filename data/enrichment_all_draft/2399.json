@@ -1,0 +1,269 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2399",
+  "company_name": "映泰",
+  "title": "2399 - 映泰",
+  "source_md": "Pilot_Reports/Computer Hardware/2399_映泰.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "5,779 百萬台幣",
+    "enterprise_value": "4,119 百萬台幣"
+  },
+  "business": {
+    "summary": "映泰 (2399，[[Biostar Microtech]]) 成立於 1979 年，總部位於新北市，為國際電腦主機板及顯示卡品牌廠，近年積極轉型發展[[工業電腦]]及綠能解決方案。\n\n產品線涵蓋：(1) PC 板卡：桌上型電腦主機板 ([[Intel]]/[[AMD]] 平台)、顯示卡、[[SSD]] 固態硬碟及記憶體模組；(2) 工業應用：邊緣運算嵌入式電腦、工業自動化控制、[[電動車]]充電樁控制板、數位看板、POS/KIOSK 系統、[[AI]] 工作站及人機介面系統。產品行銷全球，以自有品牌「BIOSTAR」在零組件 DIY 市場具有知名度。",
+    "entities": [
+      "Biostar Microtech",
+      "工業電腦",
+      "Intel",
+      "AMD",
+      "SSD",
+      "電動車",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與電子元件)",
+        "text": "**上游 (晶片與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "CPU/晶片組",
+        "text": "[[Intel]]、[[AMD]] — 桌機/嵌入式 CPU 及晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡 GPU 晶片",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "DRAM 及 Flash 記憶體晶片",
+        "entities": []
+      },
+      {
+        "category": "PCB",
+        "text": "多層 PCB 電路板",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (板卡品牌與工業方案)",
+        "text": "**中游 (板卡品牌與工業方案):**",
+        "entities": []
+      },
+      {
+        "category": "主機板/顯卡",
+        "text": "**映泰** (BIOSTAR 品牌 [[Intel]]/[[AMD]] 主機板及顯卡)",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "工業應用",
+        "text": "**映泰** (邊緣運算/EV 充電樁/POS/數位看板)",
+        "entities": []
+      },
+      {
+        "category": "AI 工作站",
+        "text": "**映泰** ([[AI]] 工作站及人機介面方案)",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (DIY 通路與工業客戶)",
+        "text": "**下游 (DIY 通路與工業客戶):**",
+        "entities": []
+      },
+      {
+        "category": "DIY 通路",
+        "text": "全球 IT 零組件經銷通路 — 主機板/顯卡",
+        "entities": []
+      },
+      {
+        "category": "工業客戶",
+        "text": "工廠自動化及智慧零售 — 嵌入式運算",
+        "entities": []
+      },
+      {
+        "category": "EV 充電",
+        "text": "電動車充電設備商 — 充電樁控制板",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "DIY 通路",
+        "text": "全球 IT 零組件經銷商 — BIOSTAR 品牌主機板及顯卡",
+        "entities": []
+      },
+      {
+        "role": "工業客戶",
+        "text": "工廠自動化及智慧零售 — 嵌入式運算方案",
+        "entities": []
+      },
+      {
+        "role": "EV 充電",
+        "text": "[[電動車]]充電設備商 — 充電樁控制板",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "role": "數位看板",
+        "text": "智慧零售業 — POS/KIOSK/數位看板",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CPU 平台",
+        "text": "[[Intel]]、[[AMD]] — 處理器及晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡 GPU 晶片",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "DRAM/Flash 記憶體模組供應商",
+        "entities": []
+      },
+      {
+        "role": "PCB",
+        "text": "多層 PCB 電路板製造商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "電動車"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Biostar Microtech",
+      "type": "international_company_or_term",
+      "wikilink": "Biostar Microtech"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "映泰 (2399，[[Biostar Microtech]]) 成立於 1979 年，總部位於新北市，為國際電腦主機板及顯示卡品牌廠，近年積極轉型發展[[工業電腦]]及綠能解決方案。\n\n產品線涵蓋：(1) PC 板卡：桌上型電腦主機板 ([[Intel]]/[[AMD]] 平台)、顯示卡、[[SSD]] 固態硬碟及記憶體模組；(2) 工業應用：邊緣運算嵌入式電腦、工業自動化控制、[[電動車]]充電樁控制板、數位看板、POS/KIOSK 系統、[[AI]] 工作站及人機介面系統。產品行銷全球，以自有品牌「BIOSTAR」在零組件 DIY 市場具有知名度。",
+    "supply_chain_md": "**上游 (晶片與電子元件):**\n- **CPU/晶片組:** [[Intel]]、[[AMD]] — 桌機/嵌入式 CPU 及晶片組\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡 GPU 晶片\n- **記憶體:** DRAM 及 Flash 記憶體晶片\n- **PCB:** 多層 PCB 電路板\n\n**中游 (板卡品牌與工業方案):**\n- **主機板/顯卡:** **映泰** (BIOSTAR 品牌 [[Intel]]/[[AMD]] 主機板及顯卡)\n- **工業應用:** **映泰** (邊緣運算/EV 充電樁/POS/數位看板)\n- **AI 工作站:** **映泰** ([[AI]] 工作站及人機介面方案)\n\n**下游 (DIY 通路與工業客戶):**\n- **DIY 通路:** 全球 IT 零組件經銷通路 — 主機板/顯卡\n- **工業客戶:** 工廠自動化及智慧零售 — 嵌入式運算\n- **EV 充電:** 電動車充電設備商 — 充電樁控制板",
+    "customers_suppliers_md": "### 主要客戶\n- **DIY 通路:** 全球 IT 零組件經銷商 — BIOSTAR 品牌主機板及顯卡\n- **工業客戶:** 工廠自動化及智慧零售 — 嵌入式運算方案\n- **EV 充電:** [[電動車]]充電設備商 — 充電樁控制板\n- **數位看板:** 智慧零售業 — POS/KIOSK/數位看板\n\n### 主要供應商\n- **CPU 平台:** [[Intel]]、[[AMD]] — 處理器及晶片組\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡 GPU 晶片\n- **記憶體:** DRAM/Flash 記憶體模組供應商\n- **PCB:** 多層 PCB 電路板製造商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

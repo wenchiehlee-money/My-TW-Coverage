@@ -1,0 +1,235 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6024",
+  "company_name": "群益期",
+  "title": "6024_群益期",
+  "source_md": "Pilot_Reports/Capital Markets/6024_群益期.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "market_cap": "15,771 百萬台幣",
+    "enterprise_value": "6,703 百萬台幣"
+  },
+  "business": {
+    "summary": "群益期貨 (6024，Capital Futures) 成立於 1997 年，為[[群益金鼎證券]] (6005) 之子公司，台灣前兩大期貨經紀商之一。業務涵蓋國內外期貨及選擇權經紀、自營、期貨顧問 (期顧)、期貨經理 (期經) 及槓桿交易商業務。以強大的 IT 研發能力著稱，自主建置專為高頻交易與法人客戶量身打造的 DMA (Direct Market Access) 全球直接下單系統。全球直連包含[[CME]]、[[Eurex]]等超過 12 家指標型期貨交易所。海外據點布局香港，拓展大中華區與國際機構法人業務。2009 年於[[證券櫃檯買賣中心]]掛牌。",
+    "entities": [
+      "群益金鼎證券",
+      "CME",
+      "Eurex",
+      "證券櫃檯買賣中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (全球交易所與清算)",
+        "text": "**上游 (全球交易所與清算):**",
+        "entities": []
+      },
+      {
+        "category": "國內交易所",
+        "text": "[[台灣期貨交易所]] — 國內期選撮合",
+        "entities": [
+          "台灣期貨交易所"
+        ]
+      },
+      {
+        "category": "國際交易所",
+        "text": "[[CME]]、[[Eurex]]等全球 12 家以上期貨交易所",
+        "entities": [
+          "CME",
+          "Eurex"
+        ]
+      },
+      {
+        "category": "結算機構",
+        "text": "[[台灣集中保管結算所]]及國際清算所",
+        "entities": [
+          "台灣集中保管結算所"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (期貨經紀與技術)",
+        "text": "**中游 (期貨經紀與技術):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**群益期貨 (6024)** — 國內外期選經紀、自營、DMA 下單系統、期顧全權代操",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**群益期貨 (香港)** — 大中華區海外期貨業務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "機構法人",
+        "text": "跨國外資與自營商 — DMA 低延遲下單",
+        "entities": []
+      },
+      {
+        "category": "量化交易者",
+        "text": "API 高頻交易開發者",
+        "entities": []
+      },
+      {
+        "category": "散戶投資人",
+        "text": "台指期、選擇權交易",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "海期外資法人",
+        "text": "跨國主力外資機構、造市商 — DMA 極低延遲下單系統",
+        "entities": []
+      },
+      {
+        "role": "量化交易者",
+        "text": "撰寫 API 下單之高端工程師與量化散戶",
+        "entities": []
+      },
+      {
+        "role": "期顧代操",
+        "text": "高資產信託投資人 — 全權委託代操",
+        "entities": []
+      },
+      {
+        "role": "零售散戶",
+        "text": "台指期、選擇權日盤/夜盤交易",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[群益金鼎證券]] (6005) — 集團資源與 IB 客源導流",
+        "entities": [
+          "群益金鼎證券"
+        ]
+      },
+      {
+        "role": "國際交易所",
+        "text": "[[CME]]、[[Eurex]]等 — 全球期貨商品串接",
+        "entities": [
+          "CME",
+          "Eurex"
+        ]
+      },
+      {
+        "role": "國內交易所",
+        "text": "[[台灣期貨交易所]]、[[台灣集中保管結算所]]",
+        "entities": [
+          "台灣期貨交易所",
+          "台灣集中保管結算所"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Capital Markets):** [[華票]]、[[統一證]]、[[國票金]]、[[致和證]]、[[群益證]]",
+        "entities": [
+          "華票",
+          "統一證",
+          "國票金",
+          "致和證",
+          "群益證"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "群益金鼎證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群益金鼎證券"
+    },
+    {
+      "name": "CME",
+      "type": "international_company_or_term",
+      "wikilink": "CME"
+    },
+    {
+      "name": "Eurex",
+      "type": "international_company_or_term",
+      "wikilink": "Eurex"
+    },
+    {
+      "name": "證券櫃檯買賣中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "證券櫃檯買賣中心"
+    },
+    {
+      "name": "台灣期貨交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣期貨交易所"
+    },
+    {
+      "name": "台灣集中保管結算所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣集中保管結算所"
+    },
+    {
+      "name": "華票",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華票"
+    },
+    {
+      "name": "統一證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一證"
+    },
+    {
+      "name": "國票金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國票金"
+    },
+    {
+      "name": "致和證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致和證"
+    },
+    {
+      "name": "群益證",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群益證"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "群益期貨 (6024，Capital Futures) 成立於 1997 年，為[[群益金鼎證券]] (6005) 之子公司，台灣前兩大期貨經紀商之一。業務涵蓋國內外期貨及選擇權經紀、自營、期貨顧問 (期顧)、期貨經理 (期經) 及槓桿交易商業務。以強大的 IT 研發能力著稱，自主建置專為高頻交易與法人客戶量身打造的 DMA (Direct Market Access) 全球直接下單系統。全球直連包含[[CME]]、[[Eurex]]等超過 12 家指標型期貨交易所。海外據點布局香港，拓展大中華區與國際機構法人業務。2009 年於[[證券櫃檯買賣中心]]掛牌。",
+    "supply_chain_md": "**上游 (全球交易所與清算):**\n- **國內交易所:** [[台灣期貨交易所]] — 國內期選撮合\n- **國際交易所:** [[CME]]、[[Eurex]]等全球 12 家以上期貨交易所\n- **結算機構:** [[台灣集中保管結算所]]及國際清算所\n\n**中游 (期貨經紀與技術):**\n- **群益期貨 (6024)** — 國內外期選經紀、自營、DMA 下單系統、期顧全權代操\n- **群益期貨 (香港)** — 大中華區海外期貨業務\n\n**下游 (終端客戶):**\n- **機構法人:** 跨國外資與自營商 — DMA 低延遲下單\n- **量化交易者:** API 高頻交易開發者\n- **散戶投資人:** 台指期、選擇權交易",
+    "customers_suppliers_md": "### 主要客戶\n- **海期外資法人:** 跨國主力外資機構、造市商 — DMA 極低延遲下單系統\n- **量化交易者:** 撰寫 API 下單之高端工程師與量化散戶\n- **期顧代操:** 高資產信託投資人 — 全權委託代操\n- **零售散戶:** 台指期、選擇權日盤/夜盤交易\n\n### 主要供應商\n- **母公司:** [[群益金鼎證券]] (6005) — 集團資源與 IB 客源導流\n- **國際交易所:** [[CME]]、[[Eurex]]等 — 全球期貨商品串接\n- **國內交易所:** [[台灣期貨交易所]]、[[台灣集中保管結算所]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

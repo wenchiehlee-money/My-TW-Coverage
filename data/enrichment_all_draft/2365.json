@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2365",
+  "company_name": "昆盈",
+  "title": "2365 - 昆盈",
+  "source_md": "Pilot_Reports/Computer Hardware/2365_昆盈.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "5,937 百萬台幣",
+    "enterprise_value": "4,743 百萬台幣"
+  },
+  "business": {
+    "summary": "昆盈企業 (2365，[[KYE Systems]]) 成立於 1983 年，總部位於新北市，以自有品牌「Genius」行銷全球逾 80 國之電腦周邊設備廠。公司為台灣滑鼠產業先驅，1985 年即推出第一支 Genius 品牌滑鼠。\n\n產品線涵蓋滑鼠、鍵盤、喇叭、耳機、網路攝影機、繪圖板、電競周邊 (方向盤/搖桿)、影像監控攝影機及 [[AI]] Copilot 周邊設備等。品牌曾獲 iF、Red Dot、CES 等國際設計大獎。近年積極發展 [[AI]] Copilot 智慧人機介面周邊，切入快充配件、Hub 擴充座等高成長品項。產品搭載 [[PixArt]] 光學感測 IC，支援 [[Bluetooth]] 及 [[USB]] 介面。",
+    "entities": [
+      "KYE Systems",
+      "AI",
+      "PixArt",
+      "Bluetooth",
+      "USB"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子元件與光學模組)",
+        "text": "**上游 (電子元件與光學模組):**",
+        "entities": []
+      },
+      {
+        "category": "光學感測",
+        "text": "滑鼠光學感測 IC (如 [[PixArt]] 原相)",
+        "entities": [
+          "PixArt"
+        ]
+      },
+      {
+        "category": "MCU",
+        "text": "微控制器及無線通訊晶片 ([[Bluetooth]]/2.4GHz)",
+        "entities": [
+          "Bluetooth"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "塑膠射出外殼、按鍵模組、橡膠滾輪",
+        "entities": []
+      },
+      {
+        "category": "喇叭單體",
+        "text": "音頻驅動單體及電路",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電腦周邊自有品牌設計製造)",
+        "text": "**中游 (電腦周邊自有品牌設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "輸入裝置",
+        "text": "**昆盈** (Genius 品牌滑鼠/鍵盤/繪圖板)",
+        "entities": []
+      },
+      {
+        "category": "影音周邊",
+        "text": "**昆盈** (Genius 品牌喇叭/耳機/攝影機)",
+        "entities": []
+      },
+      {
+        "category": "電競周邊",
+        "text": "**昆盈** (Genius 方向盤/搖桿/控制器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球通路與消費者)",
+        "text": "**下游 (全球通路與消費者):**",
+        "entities": []
+      },
+      {
+        "category": "全球通路",
+        "text": "逾 80 國 IT 通路經銷商",
+        "entities": []
+      },
+      {
+        "category": "電商平台",
+        "text": "各國電商平台 — Genius 品牌直銷",
+        "entities": []
+      },
+      {
+        "category": "OEM/ODM",
+        "text": "國際品牌客戶 — 周邊設備代工",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "全球通路",
+        "text": "逾 80 國 IT 通路經銷商 — Genius 品牌周邊設備",
+        "entities": []
+      },
+      {
+        "role": "電商平台",
+        "text": "各國電商 — Genius 品牌滑鼠/鍵盤/喇叭/攝影機",
+        "entities": []
+      },
+      {
+        "role": "OEM 代工",
+        "text": "國際品牌客戶 — 滑鼠/鍵盤/攝影機 ODM 代工",
+        "entities": []
+      },
+      {
+        "role": "電競玩家",
+        "text": "全球電競消費者 — 方向盤/搖桿/控制器",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學感測",
+        "text": "[[原相]] (PixArt) — 滑鼠光學感測 IC",
+        "entities": [
+          "原相"
+        ]
+      },
+      {
+        "role": "無線晶片",
+        "text": "[[Bluetooth]] 及 2.4GHz 無線通訊模組供應商",
+        "entities": [
+          "Bluetooth"
+        ]
+      },
+      {
+        "role": "MCU",
+        "text": "微控制器 IC 供應商 (如 [[Holtek]] 盛群)",
+        "entities": [
+          "Holtek"
+        ]
+      },
+      {
+        "role": "機構件",
+        "text": "塑膠射出件及按鍵模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "KYE Systems",
+      "type": "international_company_or_term",
+      "wikilink": "KYE Systems"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "PixArt",
+      "type": "international_company_or_term",
+      "wikilink": "PixArt"
+    },
+    {
+      "name": "Bluetooth",
+      "type": "international_company_or_term",
+      "wikilink": "Bluetooth"
+    },
+    {
+      "name": "USB",
+      "type": "international_company_or_term",
+      "wikilink": "USB"
+    },
+    {
+      "name": "原相",
+      "type": "taiwan_company_or_term",
+      "wikilink": "原相"
+    },
+    {
+      "name": "Holtek",
+      "type": "international_company_or_term",
+      "wikilink": "Holtek"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昆盈企業 (2365，[[KYE Systems]]) 成立於 1983 年，總部位於新北市，以自有品牌「Genius」行銷全球逾 80 國之電腦周邊設備廠。公司為台灣滑鼠產業先驅，1985 年即推出第一支 Genius 品牌滑鼠。\n\n產品線涵蓋滑鼠、鍵盤、喇叭、耳機、網路攝影機、繪圖板、電競周邊 (方向盤/搖桿)、影像監控攝影機及 [[AI]] Copilot 周邊設備等。品牌曾獲 iF、Red Dot、CES 等國際設計大獎。近年積極發展 [[AI]] Copilot 智慧人機介面周邊，切入快充配件、Hub 擴充座等高成長品項。產品搭載 [[PixArt]] 光學感測 IC，支援 [[Bluetooth]] 及 [[USB]] 介面。",
+    "supply_chain_md": "**上游 (電子元件與光學模組):**\n- **光學感測:** 滑鼠光學感測 IC (如 [[PixArt]] 原相)\n- **MCU:** 微控制器及無線通訊晶片 ([[Bluetooth]]/2.4GHz)\n- **機構件:** 塑膠射出外殼、按鍵模組、橡膠滾輪\n- **喇叭單體:** 音頻驅動單體及電路\n\n**中游 (電腦周邊自有品牌設計製造):**\n- **輸入裝置:** **昆盈** (Genius 品牌滑鼠/鍵盤/繪圖板)\n- **影音周邊:** **昆盈** (Genius 品牌喇叭/耳機/攝影機)\n- **電競周邊:** **昆盈** (Genius 方向盤/搖桿/控制器)\n\n**下游 (全球通路與消費者):**\n- **全球通路:** 逾 80 國 IT 通路經銷商\n- **電商平台:** 各國電商平台 — Genius 品牌直銷\n- **OEM/ODM:** 國際品牌客戶 — 周邊設備代工",
+    "customers_suppliers_md": "### 主要客戶\n- **全球通路:** 逾 80 國 IT 通路經銷商 — Genius 品牌周邊設備\n- **電商平台:** 各國電商 — Genius 品牌滑鼠/鍵盤/喇叭/攝影機\n- **OEM 代工:** 國際品牌客戶 — 滑鼠/鍵盤/攝影機 ODM 代工\n- **電競玩家:** 全球電競消費者 — 方向盤/搖桿/控制器\n\n### 主要供應商\n- **光學感測:** [[原相]] (PixArt) — 滑鼠光學感測 IC\n- **無線晶片:** [[Bluetooth]] 及 2.4GHz 無線通訊模組供應商\n- **MCU:** 微控制器 IC 供應商 (如 [[Holtek]] 盛群)\n- **機構件:** 塑膠射出件及按鍵模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8444",
+  "company_name": "綠河-KY",
+  "title": "8444 - 綠河-KY",
+  "source_md": "Pilot_Reports/Lumber & Wood Production/8444_綠河-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Lumber & Wood Production",
+    "market_cap": "515 百萬台幣",
+    "enterprise_value": "6,983 百萬台幣"
+  },
+  "business": {
+    "summary": "綠河控股 (8444，綠河-KY) 為亞洲最大[[粒片板]] (塑合板) 廠之一，總部泰國宋卡。三座工廠引進歐洲全自動線，年產能約150萬立方公尺。產品含[[粒片板]]、[[美耐板]]飾面塑合板 (MFC) 及實木板。以泰國南部[[橡膠木]]殘料及[[尤加利木]]為主要原料。外銷東南亞/澳洲/北美/中東家具製造及建築裝潢。上游化學含[[甲醛]]樹脂及[[三聚氰胺]]飾面紙。",
+    "entities": [
+      "粒片板",
+      "美耐板",
+      "橡膠木",
+      "尤加利木",
+      "甲醛",
+      "三聚氰胺"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[橡膠木]]殘料/[[尤加利木]]; [[甲醛]]樹脂/[[三聚氰胺]]飾面紙",
+        "entities": [
+          "橡膠木",
+          "尤加利木",
+          "甲醛",
+          "三聚氰胺"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**綠河** ([[粒片板]]/[[美耐板]] MFC, 泰國)",
+        "entities": [
+          "粒片板",
+          "美耐板"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "東南亞家具代工廠",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "澳洲/北美建材通路",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "東南亞家具製造商 (菲/越/馬)",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "澳洲/北美建材通路",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "泰國[[橡膠木]]殘料",
+        "entities": [
+          "橡膠木"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[甲醛]]樹脂/[[三聚氰胺]]飾面紙",
+        "entities": [
+          "甲醛",
+          "三聚氰胺"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Lumber & Wood Production):** [[科定]]",
+        "entities": [
+          "科定"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "粒片板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "粒片板"
+    },
+    {
+      "name": "美耐板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美耐板"
+    },
+    {
+      "name": "橡膠木",
+      "type": "taiwan_company_or_term",
+      "wikilink": "橡膠木"
+    },
+    {
+      "name": "尤加利木",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尤加利木"
+    },
+    {
+      "name": "甲醛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "甲醛"
+    },
+    {
+      "name": "三聚氰胺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三聚氰胺"
+    },
+    {
+      "name": "科定",
+      "type": "taiwan_company_or_term",
+      "wikilink": "科定"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "綠河控股 (8444，綠河-KY) 為亞洲最大[[粒片板]] (塑合板) 廠之一，總部泰國宋卡。三座工廠引進歐洲全自動線，年產能約150萬立方公尺。產品含[[粒片板]]、[[美耐板]]飾面塑合板 (MFC) 及實木板。以泰國南部[[橡膠木]]殘料及[[尤加利木]]為主要原料。外銷東南亞/澳洲/北美/中東家具製造及建築裝潢。上游化學含[[甲醛]]樹脂及[[三聚氰胺]]飾面紙。",
+    "supply_chain_md": "**上游:** [[橡膠木]]殘料/[[尤加利木]]; [[甲醛]]樹脂/[[三聚氰胺]]飾面紙\n**中游:** **綠河** ([[粒片板]]/[[美耐板]] MFC, 泰國)\n**下游:**\n- 東南亞家具代工廠\n- 澳洲/北美建材通路",
+    "customers_suppliers_md": "### 主要客戶\n- 東南亞家具製造商 (菲/越/馬)\n- 澳洲/北美建材通路\n\n### 主要供應商\n- 泰國[[橡膠木]]殘料\n- [[甲醛]]樹脂/[[三聚氰胺]]飾面紙"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

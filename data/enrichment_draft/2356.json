@@ -197,7 +197,26 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "text": "- **PC/server ODM customer overlap:** [[廣達]]、[[仁寶]]、[[緯創]]、[[和碩]]、[[鴻海]]",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "緯創",
+          "和碩",
+          "鴻海"
+        ],
+        "basis": "draft_customer_or_segment_overlap",
+        "related_customers": [
+          "HP",
+          "Toshiba",
+          "宏碁",
+          "NVIDIA",
+          "HP Enterprise"
+        ]
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -312,6 +331,11 @@
       "name": "HP Enterprise",
       "type": "international_company_or_term",
       "wikilink": "HP Enterprise"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
     }
   ],
   "source_text": {
@@ -323,6 +347,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 21,
-    "warnings": []
+    "warnings": [
+      "draft_competitors_need_review"
+    ]
   }
 }

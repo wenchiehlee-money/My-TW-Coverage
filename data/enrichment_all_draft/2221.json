@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2221",
+  "company_name": "大甲",
+  "title": "2221 - 大甲",
+  "source_md": "Pilot_Reports/Steel/2221_大甲.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "1,864 百萬台幣",
+    "enterprise_value": "1,797 百萬台幣"
+  },
+  "business": {
+    "summary": "大甲永和機械 (2221) 為台灣領先之[[不鏽鋼]]焊接管件製造商。雙事業：潔淨級 (U[[HP]]，佔約50%) 供應半導體/光電製程管路，為[[台積電]]合格供應商；化工級 (佔約50%) 主要外銷日本石化業。與日本[[MIE]]株式會社資本及業務合作。上游[[不鏽鋼]]管板來自[[華新麗華]]、[[燁聯]]及日本進口。另供[[聯電]]、[[力積電]]、[[友達]]、[[群創]]。",
+    "entities": [
+      "不鏽鋼",
+      "HP",
+      "台積電",
+      "MIE",
+      "華新麗華",
+      "燁聯",
+      "聯電",
+      "力積電",
+      "友達",
+      "群創"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[華新麗華]]、[[燁聯]] — [[不鏽鋼]]管/板; 日本進口; [[MIE]] (合作)",
+        "entities": [
+          "華新麗華",
+          "燁聯",
+          "不鏽鋼",
+          "MIE"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**大甲** ([[不鏽鋼]]焊接管件: U[[HP]]潔淨級+化工級)",
+        "entities": [
+          "不鏽鋼",
+          "HP"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[聯電]]、[[力積電]] — 潔淨管配件",
+        "entities": [
+          "台積電",
+          "聯電",
+          "力積電"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]]、[[群創]]",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "石化",
+        "text": "日本石化業 — 化工級管件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台積電]]、[[聯電]]、[[力積電]] — 潔淨管件",
+        "entities": [
+          "台積電",
+          "聯電",
+          "力積電"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[友達]]、[[群創]] — 面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "",
+        "text": "日本石化業 — 化工級",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[華新麗華]]、[[燁聯]] — [[不鏽鋼]]",
+        "entities": [
+          "華新麗華",
+          "燁聯",
+          "不鏽鋼"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[MIE]] (日本合作)",
+        "entities": [
+          "MIE"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Steel):** [[華新]]、[[中鋼]]、[[東和鋼鐵]]、[[燁興]]、[[高興昌]]",
+        "entities": [
+          "華新",
+          "中鋼",
+          "東和鋼鐵",
+          "燁興",
+          "高興昌"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台積電",
+          "聯電",
+          "力積電",
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "不鏽鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不鏽鋼"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "MIE",
+      "type": "international_company_or_term",
+      "wikilink": "MIE"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "燁聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁聯"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "力積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力積電"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "燁興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燁興"
+    },
+    {
+      "name": "高興昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高興昌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大甲永和機械 (2221) 為台灣領先之[[不鏽鋼]]焊接管件製造商。雙事業：潔淨級 (U[[HP]]，佔約50%) 供應半導體/光電製程管路，為[[台積電]]合格供應商；化工級 (佔約50%) 主要外銷日本石化業。與日本[[MIE]]株式會社資本及業務合作。上游[[不鏽鋼]]管板來自[[華新麗華]]、[[燁聯]]及日本進口。另供[[聯電]]、[[力積電]]、[[友達]]、[[群創]]。",
+    "supply_chain_md": "**上游:** [[華新麗華]]、[[燁聯]] — [[不鏽鋼]]管/板; 日本進口; [[MIE]] (合作)\n**中游:** **大甲** ([[不鏽鋼]]焊接管件: U[[HP]]潔淨級+化工級)\n**下游:**\n- **半導體:** [[台積電]]、[[聯電]]、[[力積電]] — 潔淨管配件\n- **面板:** [[友達]]、[[群創]]\n- **石化:** 日本石化業 — 化工級管件",
+    "customers_suppliers_md": "### 主要客戶\n- [[台積電]]、[[聯電]]、[[力積電]] — 潔淨管件\n- [[友達]]、[[群創]] — 面板\n- 日本石化業 — 化工級\n\n### 主要供應商\n- [[華新麗華]]、[[燁聯]] — [[不鏽鋼]]\n- [[MIE]] (日本合作)"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

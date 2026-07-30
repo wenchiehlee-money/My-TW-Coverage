@@ -1,0 +1,268 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3450",
+  "company_name": "聯鈞",
+  "title": "3450 - 聯鈞",
+  "source_md": "Pilot_Reports/Semiconductor Equipment & Materials/3450_聯鈞.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "53,101 百萬台幣",
+    "enterprise_value": "53,040 百萬台幣"
+  },
+  "business": {
+    "summary": "聯鈞光電 (3450) 是全球前三大[[雷射二極體]]封裝測試代工廠，近年從傳統封測轉型為「[[光通訊]]整合平台」。公司核心業務涵蓋 [[EML]]、[[VCSEL]] 及 [[AOC]] 雷射元件封測，並積極布局[[矽光子]] (SiPho) 及[[CPO]] 技術。受惠於 AI [[資料中心]]及高速光通訊需求，2025 年 Q1 營收創歷史新高。",
+    "entities": [
+      "雷射二極體",
+      "光通訊",
+      "EML",
+      "VCSEL",
+      "AOC",
+      "矽光子",
+      "CPO",
+      "資料中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 ([[磊晶]]與晶粒)",
+        "text": "**上游 ([[磊晶]]與晶粒):**",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "雷射[[磊晶]]",
+        "text": "[[聯亞光電]] 等 III-V [[磊晶]]供應",
+        "entities": [
+          "磊晶",
+          "聯亞光電"
+        ]
+      },
+      {
+        "category": "[[VCSEL]] 晶粒",
+        "text": "[[VCSEL]] 雷射晶粒供應",
+        "entities": [
+          "VCSEL"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (封測代工)",
+        "text": "**中游 (封測代工):**",
+        "entities": []
+      },
+      {
+        "category": "雷射封測",
+        "text": "**聯鈞** ([[EML]]/[[VCSEL]]/AOC 雷射二極體封裝測試)",
+        "entities": [
+          "EML",
+          "VCSEL"
+        ]
+      },
+      {
+        "category": "[[矽光子]]布局",
+        "text": "SiPho 及 [[CPO]] 技術開發",
+        "entities": [
+          "矽光子",
+          "CPO"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (光模組與系統)",
+        "text": "**下游 (光模組與系統):**",
+        "entities": []
+      },
+      {
+        "category": "光收發模組",
+        "text": "全球光通訊模組廠",
+        "entities": []
+      },
+      {
+        "category": "AI [[資料中心]]",
+        "text": "高速光互連需求",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "category": "[[5G]] 基礎建設",
+        "text": "[[5G]] 光通訊設備",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "光收發模組",
+        "text": "全球光通訊模組製造商",
+        "entities": []
+      },
+      {
+        "role": "AI [[資料中心]]",
+        "text": "高速[[資料中心]]光互連客戶",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "role": "[[5G]] 設備",
+        "text": "[[5G]] 光通訊設備廠商",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雷射[[磊晶]]",
+        "text": "[[聯亞光電]] (InP [[磊晶]]供應)",
+        "entities": [
+          "磊晶",
+          "聯亞光電"
+        ]
+      },
+      {
+        "role": "[[VCSEL]] 晶粒",
+        "text": "[[VCSEL]] 雷射元件供應",
+        "entities": [
+          "VCSEL"
+        ]
+      },
+      {
+        "role": "封裝材料",
+        "text": "光電封裝材料",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Semiconductor Equipment & Materials):** [[麗正]]、[[光罩]]、[[順德]]、[[菱生]]、[[超豐]]",
+        "entities": [
+          "麗正",
+          "光罩",
+          "順德",
+          "菱生",
+          "超豐"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "資料中心",
+          "5G"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "雷射二極體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雷射二極體"
+    },
+    {
+      "name": "光通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光通訊"
+    },
+    {
+      "name": "EML",
+      "type": "international_company_or_term",
+      "wikilink": "EML"
+    },
+    {
+      "name": "VCSEL",
+      "type": "international_company_or_term",
+      "wikilink": "VCSEL"
+    },
+    {
+      "name": "AOC",
+      "type": "international_company_or_term",
+      "wikilink": "AOC"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "CPO",
+      "type": "technology",
+      "wikilink": "CPO"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "聯亞光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯亞光電"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
+    },
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "菱生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "菱生"
+    },
+    {
+      "name": "超豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "超豐"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯鈞光電 (3450) 是全球前三大[[雷射二極體]]封裝測試代工廠，近年從傳統封測轉型為「[[光通訊]]整合平台」。公司核心業務涵蓋 [[EML]]、[[VCSEL]] 及 [[AOC]] 雷射元件封測，並積極布局[[矽光子]] (SiPho) 及[[CPO]] 技術。受惠於 AI [[資料中心]]及高速光通訊需求，2025 年 Q1 營收創歷史新高。",
+    "supply_chain_md": "**上游 ([[磊晶]]與晶粒):**\n- **雷射[[磊晶]]:** [[聯亞光電]] 等 III-V [[磊晶]]供應\n- **[[VCSEL]] 晶粒:** [[VCSEL]] 雷射晶粒供應\n\n**中游 (封測代工):**\n- **雷射封測:** **聯鈞** ([[EML]]/[[VCSEL]]/AOC 雷射二極體封裝測試)\n- **[[矽光子]]布局:** SiPho 及 [[CPO]] 技術開發\n\n**下游 (光模組與系統):**\n- **光收發模組:** 全球光通訊模組廠\n- **AI [[資料中心]]:** 高速光互連需求\n- **[[5G]] 基礎建設:** [[5G]] 光通訊設備",
+    "customers_suppliers_md": "### 主要客戶\n- **光收發模組:** 全球光通訊模組製造商\n- **AI [[資料中心]]:** 高速[[資料中心]]光互連客戶\n- **[[5G]] 設備:** [[5G]] 光通訊設備廠商\n\n### 主要供應商\n- **雷射[[磊晶]]:** [[聯亞光電]] (InP [[磊晶]]供應)\n- **[[VCSEL]] 晶粒:** [[VCSEL]] 雷射元件供應\n- **封裝材料:** 光電封裝材料"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

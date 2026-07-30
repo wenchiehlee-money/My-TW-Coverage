@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4442",
+  "company_name": "竣邦-KY",
+  "title": "4442 - 竣邦-KY",
+  "source_md": "Pilot_Reports/Textile Manufacturing/4442_竣邦-KY.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "",
+    "industry": "",
+    "market_cap": "",
+    "enterprise_value": ""
+  },
+  "business": {
+    "summary": "**竣邦-KY** (4442) 為 **輕資產** (Light Asset) 型之紡織研發與貿易商，專注於高階 [[機能性布料]] 之開發。公司不設大型工廠，而是整合上游供應鏈進行外包生產，自身聚焦於 **R&D** 與 **接單**。竣邦擅長開發 [[滑雪]]、[[衝浪]] 等極限運動用布料，以及潮流休閒機能布，為 [[Nike]]、[[Canada Goose]] 等品牌之合格供應商。",
+    "entities": [
+      "機能性布料",
+      "滑雪",
+      "衝浪",
+      "Nike",
+      "Canada Goose"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**：指定原料規格，委託紡紗廠、織布廠與染整廠進行生產 (外包)。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "竣邦位於紡織產業鏈的**中游整合服務端** (Converter)：",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中游**：負責 [[布料開發]]、[[品質管理]] 與供應鏈運籌。",
+        "entities": [
+          "布料開發",
+          "品質管理"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**：供應給全球知名 [[戶外品牌]] 與 [[運動品牌]] 之成衣代工廠。",
+        "entities": [
+          "戶外品牌",
+          "運動品牌"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "戶外/運動品牌",
+        "text": "[[Nike]]、[[Canada Goose]]、[[Lululemon]]、[[Boardriders]]、[[Burton]]",
+        "entities": [
+          "Nike",
+          "Canada Goose",
+          "Lululemon",
+          "Boardriders",
+          "Burton"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "外包生產",
+        "text": "合作之台灣與越南織染協力廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Textile Manufacturing):** [[三芳]]、[[恆大]]、[[富林-KY]]、[[八貫]]、[[遠東新]]",
+        "entities": [
+          "三芳",
+          "恆大",
+          "富林-KY",
+          "八貫",
+          "遠東新"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Nike",
+          "Canada Goose",
+          "Lululemon",
+          "Boardriders",
+          "Burton"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "機能性布料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "機能性布料"
+    },
+    {
+      "name": "滑雪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "滑雪"
+    },
+    {
+      "name": "衝浪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "衝浪"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Canada Goose",
+      "type": "international_company_or_term",
+      "wikilink": "Canada Goose"
+    },
+    {
+      "name": "布料開發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "布料開發"
+    },
+    {
+      "name": "品質管理",
+      "type": "taiwan_company_or_term",
+      "wikilink": "品質管理"
+    },
+    {
+      "name": "戶外品牌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "戶外品牌"
+    },
+    {
+      "name": "運動品牌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "運動品牌"
+    },
+    {
+      "name": "Lululemon",
+      "type": "international_company_or_term",
+      "wikilink": "Lululemon"
+    },
+    {
+      "name": "Boardriders",
+      "type": "international_company_or_term",
+      "wikilink": "Boardriders"
+    },
+    {
+      "name": "Burton",
+      "type": "international_company_or_term",
+      "wikilink": "Burton"
+    },
+    {
+      "name": "三芳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三芳"
+    },
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "富林-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富林-KY"
+    },
+    {
+      "name": "八貫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "八貫"
+    },
+    {
+      "name": "遠東新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "**竣邦-KY** (4442) 為 **輕資產** (Light Asset) 型之紡織研發與貿易商，專注於高階 [[機能性布料]] 之開發。公司不設大型工廠，而是整合上游供應鏈進行外包生產，自身聚焦於 **R&D** 與 **接單**。竣邦擅長開發 [[滑雪]]、[[衝浪]] 等極限運動用布料，以及潮流休閒機能布，為 [[Nike]]、[[Canada Goose]] 等品牌之合格供應商。",
+    "supply_chain_md": "竣邦位於紡織產業鏈的**中游整合服務端** (Converter)：\n*   **上游**：指定原料規格，委託紡紗廠、織布廠與染整廠進行生產 (外包)。\n*   **中游**：負責 [[布料開發]]、[[品質管理]] 與供應鏈運籌。\n*   **下游**：供應給全球知名 [[戶外品牌]] 與 [[運動品牌]] 之成衣代工廠。",
+    "customers_suppliers_md": "### 主要客戶\n- **戶外/運動品牌:** [[Nike]]、[[Canada Goose]]、[[Lululemon]]、[[Boardriders]]、[[Burton]]\n\n### 主要供應商\n- **外包生產:** 合作之台灣與越南織染協力廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7551",
+  "company_name": "知識科技",
+  "title": "7551 - 知識科技",
+  "source_md": "Pilot_Reports/Internet Content & Information/7551_知識科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "market_cap": "158 百萬台幣",
+    "enterprise_value": "94 百萬台幣"
+  },
+  "business": {
+    "summary": "知識科技 (7551，Flashaim) 為深耕近二十年之數位行銷與 OMO (線上融合線下) 解決方案商，協助台灣中小型實體店家進行數位轉型與網路行銷。公司具備 [[Google]] Partners 認證、[[LINE]] 官方合作夥伴資格，同時代理 [[Meta]]、[[Yahoo]] 等平台之數位廣告。\n\n核心產品與動能：(1) Mapsbooking — 具專利之 [[Google]] 我的商家 (GMB) 地圖預訂系統，自動將 [[Google]] 地圖流量轉化為實際訂位與訂單；(2) FANSbee — [[LINE]] 官方帳號聊天機器人與智能導購系統，整合 POS、會員卡與電商功能；(3) 數位廣告代操 — 代理操作 [[Google]] Ads、[[LINE]] LAP、[[Meta]] (Facebook/Instagram) 廣告投放；(4) 電商網站建置 — 為中小企業架設品牌官網與電商平台。總部設於台南，於台北、台中、高雄設有分公司。",
+    "entities": [
+      "Google",
+      "LINE",
+      "Meta",
+      "Yahoo"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網路平台與技術原廠)",
+        "text": "**上游 (網路平台與技術原廠):**",
+        "entities": []
+      },
+      {
+        "category": "搜尋/地圖",
+        "text": "[[Google]] — [[Google]] Ads、[[Google]] Maps API、GMB 商家後台",
+        "entities": [
+          "Google"
+        ]
+      },
+      {
+        "category": "即時通訊",
+        "text": "[[LINE]] — LINE 官方帳號 API、LAP 廣告平台",
+        "entities": [
+          "LINE"
+        ]
+      },
+      {
+        "category": "社群廣告",
+        "text": "[[Meta]] — Facebook/Instagram 廣告系統",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "category": "搜尋廣告",
+        "text": "[[Yahoo]] — Yahoo 原生廣告",
+        "entities": [
+          "Yahoo"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (數位行銷服務)",
+        "text": "**中游 (數位行銷服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**知識科技 (Flashaim)** (Mapsbooking 地圖訂位、FANSbee LINE 機器人、廣告代操、電商建置)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端店家客戶)",
+        "text": "**下游 (終端店家客戶):**",
+        "entities": []
+      },
+      {
+        "category": "連鎖餐飲",
+        "text": "中小型連鎖餐飲品牌 — 地圖預訂與 LINE 導購",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "實體零售店家 — 數位行銷與電商轉型",
+        "entities": []
+      },
+      {
+        "category": "醫療診所",
+        "text": "診所與醫療機構 — 線上預約與廣告",
+        "entities": []
+      },
+      {
+        "category": "公益團體",
+        "text": "大型公益組織 — 數位行銷服務",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "連鎖餐飲",
+        "text": "上萬家台灣中小企業，涵蓋連鎖餐飲品牌 — Mapsbooking 與 LINE 導購",
+        "entities": []
+      },
+      {
+        "role": "零售通路",
+        "text": "零售通路品牌 — 數位行銷與電商建置",
+        "entities": []
+      },
+      {
+        "role": "醫療診所",
+        "text": "醫療診所 — 線上預約與廣告代操",
+        "entities": []
+      },
+      {
+        "role": "企業連鎖",
+        "text": "知名連鎖品牌 — [[Google]] 商家優化與廣告投放",
+        "entities": [
+          "Google"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "搜尋/地圖",
+        "text": "[[Google]] — [[Google]] Maps API 與 [[Google]] Ads 廣告平台",
+        "entities": [
+          "Google"
+        ]
+      },
+      {
+        "role": "即時通訊",
+        "text": "[[LINE]] — LINE 官方帳號後台與 LAP 廣告",
+        "entities": [
+          "LINE"
+        ]
+      },
+      {
+        "role": "社群廣告",
+        "text": "[[Meta]] — Facebook/Instagram 廣告系統",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "role": "搜尋廣告",
+        "text": "[[Yahoo]] — Yahoo 廣告平台",
+        "entities": [
+          "Yahoo"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Internet Content & Information):** [[新零售]]、[[尚凡]]、[[數字]]",
+        "entities": [
+          "新零售",
+          "尚凡",
+          "數字"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Google"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "LINE",
+      "type": "international_company_or_term",
+      "wikilink": "LINE"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Yahoo",
+      "type": "international_company_or_term",
+      "wikilink": "Yahoo"
+    },
+    {
+      "name": "新零售",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新零售"
+    },
+    {
+      "name": "尚凡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尚凡"
+    },
+    {
+      "name": "數字",
+      "type": "taiwan_company_or_term",
+      "wikilink": "數字"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "知識科技 (7551，Flashaim) 為深耕近二十年之數位行銷與 OMO (線上融合線下) 解決方案商，協助台灣中小型實體店家進行數位轉型與網路行銷。公司具備 [[Google]] Partners 認證、[[LINE]] 官方合作夥伴資格，同時代理 [[Meta]]、[[Yahoo]] 等平台之數位廣告。\n\n核心產品與動能：(1) Mapsbooking — 具專利之 [[Google]] 我的商家 (GMB) 地圖預訂系統，自動將 [[Google]] 地圖流量轉化為實際訂位與訂單；(2) FANSbee — [[LINE]] 官方帳號聊天機器人與智能導購系統，整合 POS、會員卡與電商功能；(3) 數位廣告代操 — 代理操作 [[Google]] Ads、[[LINE]] LAP、[[Meta]] (Facebook/Instagram) 廣告投放；(4) 電商網站建置 — 為中小企業架設品牌官網與電商平台。總部設於台南，於台北、台中、高雄設有分公司。",
+    "supply_chain_md": "**上游 (網路平台與技術原廠):**\n- **搜尋/地圖:** [[Google]] — [[Google]] Ads、[[Google]] Maps API、GMB 商家後台\n- **即時通訊:** [[LINE]] — LINE 官方帳號 API、LAP 廣告平台\n- **社群廣告:** [[Meta]] — Facebook/Instagram 廣告系統\n- **搜尋廣告:** [[Yahoo]] — Yahoo 原生廣告\n\n**中游 (數位行銷服務):**\n- **知識科技 (Flashaim)** (Mapsbooking 地圖訂位、FANSbee LINE 機器人、廣告代操、電商建置)\n\n**下游 (終端店家客戶):**\n- **連鎖餐飲:** 中小型連鎖餐飲品牌 — 地圖預訂與 LINE 導購\n- **零售通路:** 實體零售店家 — 數位行銷與電商轉型\n- **醫療診所:** 診所與醫療機構 — 線上預約與廣告\n- **公益團體:** 大型公益組織 — 數位行銷服務",
+    "customers_suppliers_md": "### 主要客戶\n- **連鎖餐飲:** 上萬家台灣中小企業，涵蓋連鎖餐飲品牌 — Mapsbooking 與 LINE 導購\n- **零售通路:** 零售通路品牌 — 數位行銷與電商建置\n- **醫療診所:** 醫療診所 — 線上預約與廣告代操\n- **企業連鎖:** 知名連鎖品牌 — [[Google]] 商家優化與廣告投放\n\n### 主要供應商\n- **搜尋/地圖:** [[Google]] — [[Google]] Maps API 與 [[Google]] Ads 廣告平台\n- **即時通訊:** [[LINE]] — LINE 官方帳號後台與 LAP 廣告\n- **社群廣告:** [[Meta]] — Facebook/Instagram 廣告系統\n- **搜尋廣告:** [[Yahoo]] — Yahoo 廣告平台"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

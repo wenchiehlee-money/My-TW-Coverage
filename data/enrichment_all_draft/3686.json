@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3686",
+  "company_name": "達能",
+  "title": "3686 - [[達能]]",
+  "source_md": "Pilot_Reports/Solar/3686_達能.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Solar",
+    "market_cap": "1,102 百萬台幣",
+    "enterprise_value": "708 百萬台幣"
+  },
+  "business": {
+    "summary": "達能科技股份有限公司 (3686) 原為專業太陽能[[矽晶圓]]製造商，2019年因產業供需失衡進行重大轉型。目前公司業務聚焦於綠色低碳產業佈局：\n\n1. **綠能資產經營：** 結束[[矽晶圓]]生產後，轉向電廠投資與資產管理。子公司明育能源專注於再生能源設備發電與能源技術顧問服務。\n2. **太陽能電廠維運：** 持有自有電廠進行售電，穩定收取電力收入。透過[[FIT]]躉購費率機制向[[台電]]售電。\n3. **[[儲能]]系統佈局：** 發展[[儲能]]系統整合解決方案，切入能源調度市場。\n\n營運規模較小，以穩健的電廠資產收益為主要獲利來源。歷史上曾供應[[晶澳]] (JA Solar) 等國際太陽能電池大廠。",
+    "entities": [
+      "矽晶圓",
+      "FIT",
+      "台電",
+      "儲能",
+      "晶澳"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與材料)",
+        "text": "**上游 (設備與材料):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能組件",
+        "text": "太陽能模組供應商",
+        "entities": []
+      },
+      {
+        "category": "儲能設備",
+        "text": "鋰電池與儲能系統設備廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (服務)",
+        "text": "**中游 (服務):**",
+        "entities": []
+      },
+      {
+        "category": "達能 (3686)",
+        "text": "太陽能電廠投資維運、能源技術顧問服務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "[[台電]]",
+        "text": "躉購電力",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "企業用戶",
+        "text": "需要綠電憑證之企業客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力躉購",
+        "text": "[[台電]]（FIT躉購費率機制）",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "綠電需求",
+        "text": "有ESG與[[RE100]]需求之企業客戶",
+        "entities": [
+          "RE100"
+        ]
+      },
+      {
+        "role": "歷史客戶",
+        "text": "過去為[[晶澳]] (JA Solar) 等國際太陽能電池大廠供應矽晶片",
+        "entities": [
+          "晶澳"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "太陽能模組",
+        "text": "國內太陽能模組製造商",
+        "entities": []
+      },
+      {
+        "role": "維運設備",
+        "text": "太陽能電廠監控與維運設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Solar):** [[國碩]]、[[聯合再生]]、[[碩禾]]、[[新晶投控]]、[[聚恆]]",
+        "entities": [
+          "國碩",
+          "聯合再生",
+          "碩禾",
+          "新晶投控",
+          "聚恆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "台電",
+          "RE100",
+          "晶澳"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "FIT",
+      "type": "international_company_or_term",
+      "wikilink": "FIT"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "晶澳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶澳"
+    },
+    {
+      "name": "RE100",
+      "type": "international_company_or_term",
+      "wikilink": "RE100"
+    },
+    {
+      "name": "國碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國碩"
+    },
+    {
+      "name": "聯合再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯合再生"
+    },
+    {
+      "name": "碩禾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碩禾"
+    },
+    {
+      "name": "新晶投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新晶投控"
+    },
+    {
+      "name": "聚恆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚恆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達能科技股份有限公司 (3686) 原為專業太陽能[[矽晶圓]]製造商，2019年因產業供需失衡進行重大轉型。目前公司業務聚焦於綠色低碳產業佈局：\n\n1. **綠能資產經營：** 結束[[矽晶圓]]生產後，轉向電廠投資與資產管理。子公司明育能源專注於再生能源設備發電與能源技術顧問服務。\n2. **太陽能電廠維運：** 持有自有電廠進行售電，穩定收取電力收入。透過[[FIT]]躉購費率機制向[[台電]]售電。\n3. **[[儲能]]系統佈局：** 發展[[儲能]]系統整合解決方案，切入能源調度市場。\n\n營運規模較小，以穩健的電廠資產收益為主要獲利來源。歷史上曾供應[[晶澳]] (JA Solar) 等國際太陽能電池大廠。",
+    "supply_chain_md": "**上游 (設備與材料):**\n- **太陽能組件：** 太陽能模組供應商\n- **儲能設備：** 鋰電池與儲能系統設備廠\n\n**中游 (服務):**\n- **達能 (3686)：** 太陽能電廠投資維運、能源技術顧問服務\n\n**下游 (終端應用):**\n- **[[台電]]：** 躉購電力\n- **企業用戶：** 需要綠電憑證之企業客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **電力躉購：** [[台電]]（FIT躉購費率機制）\n- **綠電需求：** 有ESG與[[RE100]]需求之企業客戶\n- **歷史客戶：** 過去為[[晶澳]] (JA Solar) 等國際太陽能電池大廠供應矽晶片\n\n### 主要供應商\n- **太陽能模組：** 國內太陽能模組製造商\n- **維運設備：** 太陽能電廠監控與維運設備供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

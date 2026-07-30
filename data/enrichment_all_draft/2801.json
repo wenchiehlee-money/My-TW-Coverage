@@ -1,0 +1,241 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2801",
+  "company_name": "彰銀",
+  "title": "2801 - 彰銀",
+  "source_md": "Pilot_Reports/Banks - Regional/2801_彰銀.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "market_cap": "287,680 百萬台幣",
+    "enterprise_value": "N/A"
+  },
+  "business": {
+    "summary": "[[彰化商業銀行]] (2801，簡稱彰銀) 成立於 1905 年，為台灣歷史最悠久的商業銀行之一，屬「八大行庫」成員。[[財政部]]為最大股東，全台設有逾 180 家國內分行，海外據點遍及紐約、東京、倫敦、香港、新加坡等地。核心業務涵蓋企業金融、個人消費金融、外匯及財富管理，在中小企業放款領域長期位居前段班。近年配合政府六大核心戰略產業融資政策。",
+    "entities": [
+      "彰化商業銀行",
+      "財政部"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "全台一般存戶、企業存款、公庫存款",
+        "entities": []
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      },
+      {
+        "category": "公股股東",
+        "text": "[[財政部]]、[[國家發展基金]]",
+        "entities": [
+          "財政部",
+          "國家發展基金"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[彰化商業銀行]]** (企業聯貸、中小企業授信、個人信貸、外匯及財富管理)",
+        "entities": [
+          "彰化商業銀行"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "企業金融",
+        "text": "國內中小企業、六大核心戰略產業",
+        "entities": []
+      },
+      {
+        "category": "跨境金融",
+        "text": "佈局東協及歐美之台商",
+        "entities": []
+      },
+      {
+        "category": "個人金融",
+        "text": "房貸戶、消費信貸及財管客群",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業金融",
+        "text": "國內中小企業、跨國台商",
+        "entities": []
+      },
+      {
+        "role": "政策融資",
+        "text": "六大核心戰略產業授信客戶",
+        "entities": []
+      },
+      {
+        "role": "個人金融",
+        "text": "房貸客戶、消費信貸及財管客群",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "公股股東",
+        "text": "[[財政部]]、[[國家發展基金]]",
+        "entities": [
+          "財政部",
+          "國家發展基金"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]、[[信保基金]]",
+        "entities": [
+          "財金資訊",
+          "信保基金"
+        ]
+      },
+      {
+        "role": "國際支付",
+        "text": "[[Visa]]、[[Mastercard]]",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Banks - Regional):** [[高雄銀]]、[[聯邦銀]]、[[遠東銀]]、[[安泰銀]]、[[華南金]]",
+        "entities": [
+          "高雄銀",
+          "聯邦銀",
+          "遠東銀",
+          "安泰銀",
+          "華南金"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": []
+      }
+    ],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "彰化商業銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彰化商業銀行"
+    },
+    {
+      "name": "財政部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財政部"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "國家發展基金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國家發展基金"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "信保基金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信保基金"
+    },
+    {
+      "name": "Visa",
+      "type": "international_company_or_term",
+      "wikilink": "Visa"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "高雄銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄銀"
+    },
+    {
+      "name": "聯邦銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯邦銀"
+    },
+    {
+      "name": "遠東銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東銀"
+    },
+    {
+      "name": "安泰銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安泰銀"
+    },
+    {
+      "name": "華南金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華南金"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[彰化商業銀行]] (2801，簡稱彰銀) 成立於 1905 年，為台灣歷史最悠久的商業銀行之一，屬「八大行庫」成員。[[財政部]]為最大股東，全台設有逾 180 家國內分行，海外據點遍及紐約、東京、倫敦、香港、新加坡等地。核心業務涵蓋企業金融、個人消費金融、外匯及財富管理，在中小企業放款領域長期位居前段班。近年配合政府六大核心戰略產業融資政策。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** 全台一般存戶、企業存款、公庫存款\n- **同業資金:** [[中央銀行]]、金融同業\n- **公股股東:** [[財政部]]、[[國家發展基金]]\n\n**中游:**\n- **[[彰化商業銀行]]** (企業聯貸、中小企業授信、個人信貸、外匯及財富管理)\n\n**下游 (授信客戶):**\n- **企業金融:** 國內中小企業、六大核心戰略產業\n- **跨境金融:** 佈局東協及歐美之台商\n- **個人金融:** 房貸戶、消費信貸及財管客群",
+    "customers_suppliers_md": "### 主要客戶\n- **企業金融:** 國內中小企業、跨國台商\n- **政策融資:** 六大核心戰略產業授信客戶\n- **個人金融:** 房貸客戶、消費信貸及財管客群\n\n### 主要供應商\n- **公股股東:** [[財政部]]、[[國家發展基金]]\n- **金流基礎設施:** [[財金資訊]]、[[信保基金]]\n- **國際支付:** [[Visa]]、[[Mastercard]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

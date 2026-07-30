@@ -1,0 +1,233 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4549",
+  "company_name": "桓達",
+  "title": "4549 - 桓達",
+  "source_md": "Pilot_Reports/Scientific & Technical Instruments/4549_桓達.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "4,879 百萬台幣",
+    "enterprise_value": "4,150 百萬台幣"
+  },
+  "business": {
+    "summary": "桓達科技股份有限公司 (4549，FineTek) 為製程自動化感測器領導廠商，主打自有品牌「FineTek」。核心產品包括液位計、流量計、壓力與溫度傳送器，廣泛應用於化工、水處理、飼料及食品業。近年成功轉型高科技應用，開發[[AI 伺服器]]液冷系統專用感測器 (整合流量/溫度/壓力)，並切入半導體廢液監測與智慧水表市場。客戶涵蓋[[NVIDIA]]供應鏈之冷卻系統商及[[台積電]]、[[聯電]]供應鏈之半導體設備廠。",
+    "entities": [
+      "AI 伺服器",
+      "NVIDIA",
+      "台積電",
+      "聯電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子與機構件)",
+        "text": "**上游 (電子與機構件):**",
+        "entities": []
+      },
+      {
+        "category": "電子零組件",
+        "text": "IC、[[PCB]]、感測器元件",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "金屬加工",
+        "text": "不鏽鋼殼體、精密機構件",
+        "entities": []
+      },
+      {
+        "category": "塑膠件",
+        "text": "防護外殼與接頭",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (感測器製造)",
+        "text": "**中游 (感測器製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**桓達** — 液位計、流量計、壓力/溫度傳送器之設計、軟韌體開發、組裝與校正",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[NVIDIA]]供應鏈 — 液冷系統專用感測器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[聯電]]供應鏈 — 廢液監測設備",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "傳統工業",
+        "text": "化工、食品、水處理工程",
+        "entities": []
+      },
+      {
+        "category": "智慧城市",
+        "text": "自來水公司 — 智慧水表",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 伺服器",
+        "text": "[[NVIDIA]]供應鏈 — 液冷系統感測器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯電]]供應鏈 — 廢液監測",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "傳統工業",
+        "text": "化工、食品、水處理工程商",
+        "entities": []
+      },
+      {
+        "role": "智慧城市",
+        "text": "自來水公司 — 智慧水表",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電子元件",
+        "text": "IC 與[[PCB]]供應商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "金屬加工",
+        "text": "不鏽鋼殼體與精密機構件加工廠",
+        "entities": []
+      },
+      {
+        "role": "感測元件",
+        "text": "壓力與溫度感測器元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Scientific & Technical Instruments):** [[致茂]]、[[固緯]]、[[德律]]、[[華晶科]]、[[鼎天]]",
+        "entities": [
+          "致茂",
+          "固緯",
+          "德律",
+          "華晶科",
+          "鼎天"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "NVIDIA",
+          "台積電",
+          "聯電"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "致茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致茂"
+    },
+    {
+      "name": "固緯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固緯"
+    },
+    {
+      "name": "德律",
+      "type": "taiwan_company_or_term",
+      "wikilink": "德律"
+    },
+    {
+      "name": "華晶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華晶科"
+    },
+    {
+      "name": "鼎天",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鼎天"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "桓達科技股份有限公司 (4549，FineTek) 為製程自動化感測器領導廠商，主打自有品牌「FineTek」。核心產品包括液位計、流量計、壓力與溫度傳送器，廣泛應用於化工、水處理、飼料及食品業。近年成功轉型高科技應用，開發[[AI 伺服器]]液冷系統專用感測器 (整合流量/溫度/壓力)，並切入半導體廢液監測與智慧水表市場。客戶涵蓋[[NVIDIA]]供應鏈之冷卻系統商及[[台積電]]、[[聯電]]供應鏈之半導體設備廠。",
+    "supply_chain_md": "**上游 (電子與機構件):**\n- **電子零組件:** IC、[[PCB]]、感測器元件\n- **金屬加工:** 不鏽鋼殼體、精密機構件\n- **塑膠件:** 防護外殼與接頭\n\n**中游 (感測器製造):**\n- **桓達** — 液位計、流量計、壓力/溫度傳送器之設計、軟韌體開發、組裝與校正\n\n**下游 (終端應用):**\n- **AI 伺服器:** [[NVIDIA]]供應鏈 — 液冷系統專用感測器\n- **半導體:** [[台積電]]、[[聯電]]供應鏈 — 廢液監測設備\n- **傳統工業:** 化工、食品、水處理工程\n- **智慧城市:** 自來水公司 — 智慧水表",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 伺服器:** [[NVIDIA]]供應鏈 — 液冷系統感測器\n- **半導體:** [[台積電]]、[[聯電]]供應鏈 — 廢液監測\n- **傳統工業:** 化工、食品、水處理工程商\n- **智慧城市:** 自來水公司 — 智慧水表\n\n### 主要供應商\n- **電子元件:** IC 與[[PCB]]供應商\n- **金屬加工:** 不鏽鋼殼體與精密機構件加工廠\n- **感測元件:** 壓力與溫度感測器元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

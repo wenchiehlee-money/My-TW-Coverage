@@ -1,0 +1,287 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6922",
+  "company_name": "宸曜",
+  "title": "6922_宸曜",
+  "source_md": "Pilot_Reports/Computer Hardware/6922_宸曜.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "4,562 百萬台幣",
+    "enterprise_value": "4,675 百萬台幣"
+  },
+  "business": {
+    "summary": "宸曜科技股份有限公司 (6922，[[Neousys Technology]]) 成立於 2010 年，總部位於新北市，是一家專注於研發及製造「強固型無風扇工業電腦」及「邊緣 AI 運算平台」的台灣科技廠。在戶外、嚴苛氣候或劇烈震動的工業環境中，宸曜的產品具備獨特的高階散熱 (尤其是針對發熱量極高的 [[GPU]]) 與抗震設計，能保證設備在極端環境下穩定執行 AI 運算。公司積極採用 [[NVIDIA]] [[Jetson]] 系列 (AGX Orin/Orin NX) 模組，提供 IP66 防水防塵等級的邊緣 AI 工業電腦，廣泛應用於自動駕駛、智慧城市交通、自主移動機器人 ([[AMR]])、無人載具及高階自主機器人的即時影像辨識與決策。全球行銷網絡遍及逾 100 個國家。",
+    "entities": [
+      "Neousys Technology",
+      "GPU",
+      "NVIDIA",
+      "Jetson",
+      "AMR"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (AI 晶片與工業級元件)",
+        "text": "**上游 (AI 晶片與工業級元件):**",
+        "entities": []
+      },
+      {
+        "category": "AI 晶片",
+        "text": "[[NVIDIA]] — [[Jetson]] AGX Orin/Orin NX 及高階 GPU",
+        "entities": [
+          "NVIDIA",
+          "Jetson"
+        ]
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]] — 工業級 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "工業元件",
+        "text": "工業級 [[PCB]]、被動元件及高強度金屬散熱機殼",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "車用相機",
+        "text": "[[Tier IV]] — GMSL2 C1/C2 車用感測器",
+        "entities": [
+          "Tier IV"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (強固型邊緣 AI 平台)",
+        "text": "**中游 (強固型邊緣 AI 平台):**",
+        "entities": []
+      },
+      {
+        "category": "無風扇 IPC",
+        "text": "**宸曜** (強固型無風扇工業電腦，IP66 等級)",
+        "entities": []
+      },
+      {
+        "category": "邊緣 AI",
+        "text": "**宸曜** ([[Jetson]] Orin 系列 AI 影像/視覺運算平台)",
+        "entities": [
+          "Jetson"
+        ]
+      },
+      {
+        "category": "車載/軌道",
+        "text": "**宸曜** (車載交通電腦與軌道交通系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (高階自動化與國防)",
+        "text": "**下游 (高階自動化與國防):**",
+        "entities": []
+      },
+      {
+        "category": "自主機器人",
+        "text": "全球頂級 [[AMR]]/AGV 製造廠",
+        "entities": [
+          "AMR"
+        ]
+      },
+      {
+        "category": "自動駕駛",
+        "text": "自駕車演算法開發者 — [[ADAS]] 測試平台",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "category": "國防軍工",
+        "text": "各國國防軍工單位 — 無人載具控制",
+        "entities": []
+      },
+      {
+        "category": "軌道交通",
+        "text": "各國高速軌道交通系統",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "自主機器人",
+        "text": "全球頂級 [[AMR]]/AGV 製造廠 — 邊緣 AI 視覺運算",
+        "entities": [
+          "AMR"
+        ]
+      },
+      {
+        "role": "自動駕駛",
+        "text": "自駕車演算法開發者 — [[ADAS]] 測試運算平台",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "role": "國防軍工",
+        "text": "歐美日國防與基建承包商 — 無人載具強固運算",
+        "entities": []
+      },
+      {
+        "role": "軌道交通",
+        "text": "各國高速軌道交通系統整合商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "AI 晶片",
+        "text": "[[NVIDIA]] — [[Jetson]] AGX Orin 及高階 GPU 系列",
+        "entities": [
+          "NVIDIA",
+          "Jetson"
+        ]
+      },
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — 工業級 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "車用感測",
+        "text": "[[Tier IV]] — GMSL2 車用相機整合",
+        "entities": [
+          "Tier IV"
+        ]
+      },
+      {
+        "role": "PCB/元件",
+        "text": "台灣頂級 [[PCB]] 與被動元件廠",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "AMR",
+          "ADAS"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Neousys Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Neousys Technology"
+    },
+    {
+      "name": "GPU",
+      "type": "international_company_or_term",
+      "wikilink": "GPU"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Jetson",
+      "type": "international_company_or_term",
+      "wikilink": "Jetson"
+    },
+    {
+      "name": "AMR",
+      "type": "international_company_or_term",
+      "wikilink": "AMR"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Tier IV",
+      "type": "international_company_or_term",
+      "wikilink": "Tier IV"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宸曜科技股份有限公司 (6922，[[Neousys Technology]]) 成立於 2010 年，總部位於新北市，是一家專注於研發及製造「強固型無風扇工業電腦」及「邊緣 AI 運算平台」的台灣科技廠。在戶外、嚴苛氣候或劇烈震動的工業環境中，宸曜的產品具備獨特的高階散熱 (尤其是針對發熱量極高的 [[GPU]]) 與抗震設計，能保證設備在極端環境下穩定執行 AI 運算。公司積極採用 [[NVIDIA]] [[Jetson]] 系列 (AGX Orin/Orin NX) 模組，提供 IP66 防水防塵等級的邊緣 AI 工業電腦，廣泛應用於自動駕駛、智慧城市交通、自主移動機器人 ([[AMR]])、無人載具及高階自主機器人的即時影像辨識與決策。全球行銷網絡遍及逾 100 個國家。",
+    "supply_chain_md": "**上游 (AI 晶片與工業級元件):**\n- **AI 晶片:** [[NVIDIA]] — [[Jetson]] AGX Orin/Orin NX 及高階 GPU\n- **處理器:** [[Intel]] — 工業級 CPU\n- **工業元件:** 工業級 [[PCB]]、被動元件及高強度金屬散熱機殼\n- **車用相機:** [[Tier IV]] — GMSL2 C1/C2 車用感測器\n\n**中游 (強固型邊緣 AI 平台):**\n- **無風扇 IPC:** **宸曜** (強固型無風扇工業電腦，IP66 等級)\n- **邊緣 AI:** **宸曜** ([[Jetson]] Orin 系列 AI 影像/視覺運算平台)\n- **車載/軌道:** **宸曜** (車載交通電腦與軌道交通系統)\n\n**下游 (高階自動化與國防):**\n- **自主機器人:** 全球頂級 [[AMR]]/AGV 製造廠\n- **自動駕駛:** 自駕車演算法開發者 — [[ADAS]] 測試平台\n- **國防軍工:** 各國國防軍工單位 — 無人載具控制\n- **軌道交通:** 各國高速軌道交通系統",
+    "customers_suppliers_md": "### 主要客戶\n- **自主機器人:** 全球頂級 [[AMR]]/AGV 製造廠 — 邊緣 AI 視覺運算\n- **自動駕駛:** 自駕車演算法開發者 — [[ADAS]] 測試運算平台\n- **國防軍工:** 歐美日國防與基建承包商 — 無人載具強固運算\n- **軌道交通:** 各國高速軌道交通系統整合商\n\n### 主要供應商\n- **AI 晶片:** [[NVIDIA]] — [[Jetson]] AGX Orin 及高階 GPU 系列\n- **處理器:** [[Intel]] — 工業級 CPU\n- **車用感測:** [[Tier IV]] — GMSL2 車用相機整合\n- **PCB/元件:** 台灣頂級 [[PCB]] 與被動元件廠"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

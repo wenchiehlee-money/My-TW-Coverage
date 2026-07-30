@@ -1,0 +1,298 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6906",
+  "company_name": "現觀科",
+  "title": "6906_現觀科",
+  "source_md": "Pilot_Reports/Information Technology Services/6906_現觀科.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "2,192 百萬台幣",
+    "enterprise_value": "1,598 百萬台幣"
+  },
+  "business": {
+    "summary": "現觀科技 (6906，Groundhog Technologies) 於 2024 年 1 月掛牌上市，為全球領先的行動網路大數據分析與 [[AI]] 定位軟體服務公司。核心產品「CovMo」優化平台不須借助手機 GPS，僅靠基地台電信信令數據與專利演算法，即可精準掌握行動用戶軌跡，協助電信營運商進行 [[5G]] 網路覆蓋優化與資源配置。CovMo 營收佔比高達 95%，此外亦提供 Mobility [[Intel]]ligence 行動智慧廣告平台。公司客戶遍佈全球多國大型電信集團，技術實力在封閉的全球電信供應鏈中成功突圍。",
+    "entities": [
+      "AI",
+      "5G",
+      "Intel"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (運算基礎設施)",
+        "text": "**上游 (運算基礎設施):**",
+        "entities": []
+      },
+      {
+        "category": "雲端算力",
+        "text": "[[AWS]]、[[Google]] Cloud — 雲端運算平台",
+        "entities": [
+          "AWS",
+          "Google"
+        ]
+      },
+      {
+        "category": "研發人才",
+        "text": "行動通訊與大數據演算法研發團隊",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (軟體平台)",
+        "text": "**中游 (軟體平台):**",
+        "entities": []
+      },
+      {
+        "category": "網路優化",
+        "text": "**現觀科技** (CovMo 全球電信 2G~[[5G]] 網路優化定位平台、Mobility [[Intel]]ligence 行動廣告)",
+        "entities": [
+          "5G",
+          "Intel"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信營運商)",
+        "text": "**下游 (電信營運商):**",
+        "entities": []
+      },
+      {
+        "category": "印度",
+        "text": "[[Bharti Airtel]] — 全球第三大電信，多年期 [[5G]] 合約",
+        "entities": [
+          "Bharti Airtel",
+          "5G"
+        ]
+      },
+      {
+        "category": "新加坡",
+        "text": "[[Singtel]] — 亞洲電信巨擘",
+        "entities": [
+          "Singtel"
+        ]
+      },
+      {
+        "category": "日本",
+        "text": "[[樂天]] (Rakuten Mobile) — 全球首家 O-RAN 電信",
+        "entities": [
+          "樂天"
+        ]
+      },
+      {
+        "category": "中東",
+        "text": "[[Saudi Telecom]] (STC) — 中東最大電信",
+        "entities": [
+          "Saudi Telecom"
+        ]
+      },
+      {
+        "category": "印尼",
+        "text": "[[Telkomsel]]、[[Indosat]]",
+        "entities": [
+          "Telkomsel",
+          "Indosat"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "印度",
+        "text": "[[Bharti Airtel]] — 全球第三大電信，CovMo [[5G]] 多年期合約",
+        "entities": [
+          "Bharti Airtel",
+          "5G"
+        ]
+      },
+      {
+        "role": "新加坡",
+        "text": "[[Singtel]] — 亞洲電信龍頭",
+        "entities": [
+          "Singtel"
+        ]
+      },
+      {
+        "role": "日本",
+        "text": "[[樂天]] (Rakuten Mobile) — O-RAN 技術先驅",
+        "entities": [
+          "樂天"
+        ]
+      },
+      {
+        "role": "中東",
+        "text": "[[Saudi Telecom]] (STC) — 中東最大電信營運商",
+        "entities": [
+          "Saudi Telecom"
+        ]
+      },
+      {
+        "role": "印尼",
+        "text": "[[Telkomsel]]、[[Indosat]] — 合計逾 4.2 億用戶",
+        "entities": [
+          "Telkomsel",
+          "Indosat"
+        ]
+      },
+      {
+        "role": "台灣",
+        "text": "[[遠傳電信]] — 本土電信營運商",
+        "entities": [
+          "遠傳電信"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端算力",
+        "text": "[[AWS]]、[[Google]] Cloud — 提供開發及運算環境",
+        "entities": [
+          "AWS",
+          "Google"
+        ]
+      },
+      {
+        "role": "核心研發",
+        "text": "自主研發 CovMo 演算法，為純軟體公司，無傳統物料供應需求",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Information Technology Services):** [[廣豐]]、[[凌群]]、[[華經]]、[[資通]]、[[大綜]]",
+        "entities": [
+          "廣豐",
+          "凌群",
+          "華經",
+          "資通",
+          "大綜"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Bharti Airtel",
+          "5G",
+          "Singtel",
+          "樂天",
+          "Saudi Telecom",
+          "Telkomsel",
+          "Indosat",
+          "遠傳電信"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Bharti Airtel",
+      "type": "international_company_or_term",
+      "wikilink": "Bharti Airtel"
+    },
+    {
+      "name": "Singtel",
+      "type": "international_company_or_term",
+      "wikilink": "Singtel"
+    },
+    {
+      "name": "樂天",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂天"
+    },
+    {
+      "name": "Saudi Telecom",
+      "type": "international_company_or_term",
+      "wikilink": "Saudi Telecom"
+    },
+    {
+      "name": "Telkomsel",
+      "type": "international_company_or_term",
+      "wikilink": "Telkomsel"
+    },
+    {
+      "name": "Indosat",
+      "type": "international_company_or_term",
+      "wikilink": "Indosat"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "廣豐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣豐"
+    },
+    {
+      "name": "凌群",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌群"
+    },
+    {
+      "name": "華經",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華經"
+    },
+    {
+      "name": "資通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資通"
+    },
+    {
+      "name": "大綜",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大綜"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "現觀科技 (6906，Groundhog Technologies) 於 2024 年 1 月掛牌上市，為全球領先的行動網路大數據分析與 [[AI]] 定位軟體服務公司。核心產品「CovMo」優化平台不須借助手機 GPS，僅靠基地台電信信令數據與專利演算法，即可精準掌握行動用戶軌跡，協助電信營運商進行 [[5G]] 網路覆蓋優化與資源配置。CovMo 營收佔比高達 95%，此外亦提供 Mobility [[Intel]]ligence 行動智慧廣告平台。公司客戶遍佈全球多國大型電信集團，技術實力在封閉的全球電信供應鏈中成功突圍。",
+    "supply_chain_md": "**上游 (運算基礎設施):**\n- **雲端算力:** [[AWS]]、[[Google]] Cloud — 雲端運算平台\n- **研發人才:** 行動通訊與大數據演算法研發團隊\n\n**中游 (軟體平台):**\n- **網路優化:** **現觀科技** (CovMo 全球電信 2G~[[5G]] 網路優化定位平台、Mobility [[Intel]]ligence 行動廣告)\n\n**下游 (電信營運商):**\n- **印度:** [[Bharti Airtel]] — 全球第三大電信，多年期 [[5G]] 合約\n- **新加坡:** [[Singtel]] — 亞洲電信巨擘\n- **日本:** [[樂天]] (Rakuten Mobile) — 全球首家 O-RAN 電信\n- **中東:** [[Saudi Telecom]] (STC) — 中東最大電信\n- **印尼:** [[Telkomsel]]、[[Indosat]]",
+    "customers_suppliers_md": "### 主要客戶\n- **印度:** [[Bharti Airtel]] — 全球第三大電信，CovMo [[5G]] 多年期合約\n- **新加坡:** [[Singtel]] — 亞洲電信龍頭\n- **日本:** [[樂天]] (Rakuten Mobile) — O-RAN 技術先驅\n- **中東:** [[Saudi Telecom]] (STC) — 中東最大電信營運商\n- **印尼:** [[Telkomsel]]、[[Indosat]] — 合計逾 4.2 億用戶\n- **台灣:** [[遠傳電信]] — 本土電信營運商\n\n### 主要供應商\n- **雲端算力:** [[AWS]]、[[Google]] Cloud — 提供開發及運算環境\n- **核心研發:** 自主研發 CovMo 演算法，為純軟體公司，無傳統物料供應需求"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

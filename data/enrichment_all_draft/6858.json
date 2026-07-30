@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6858",
+  "company_name": "愛比科技",
+  "title": "6858_愛比科技",
+  "source_md": "Pilot_Reports/Communication Equipment/6858_愛比科技.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "636 百萬台幣",
+    "enterprise_value": "607 百萬台幣"
+  },
+  "business": {
+    "summary": "愛比科技 (6858，[[IPEVO]]) 為台灣設計製造之視訊溝通設備品牌公司，以「IPEVO」自有品牌行銷全球。公司專注於開發實物攝影機 (Document Camera)、視訊協作攝影機 (如 V4K PRO、DO-CAM) 及相關 AI 視訊軟體。\n\n有別於傳統昂貴笨重的視訊設備，IPEVO 產品強調極簡設計、隨插即用與高度可攜性，屢獲 iF、Good Design 等國際設計大獎。產品在 [[Amazon]] 電商平台為同類最暢銷品牌，深受美國 K-12 教育市場信任，已滲透逾 60% 美國公立學校。在遠距教學與混合辦公趨勢下，歐美教育機構及企業為主要客戶群。",
+    "entities": [
+      "IPEVO",
+      "Amazon"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學與影像元件)",
+        "text": "**上游 (光學與影像元件):**",
+        "entities": []
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "光學鏡頭模組 (Lens) 供應商",
+        "entities": []
+      },
+      {
+        "category": "影像感測",
+        "text": "[[CMOS]] 影像感測晶片",
+        "entities": [
+          "CMOS"
+        ]
+      },
+      {
+        "category": "ISP 晶片",
+        "text": "影像訊號處理晶片",
+        "entities": []
+      },
+      {
+        "category": "麥克風",
+        "text": "收音元件及塑膠金屬外殼",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (自有品牌視訊設備設計行銷)",
+        "text": "**中游 (自有品牌視訊設備設計行銷):**",
+        "entities": []
+      },
+      {
+        "category": "品牌營運",
+        "text": "**愛比科技** (IPEVO 品牌視訊協作攝影機/實物投影機設計與全球行銷)",
+        "entities": []
+      },
+      {
+        "category": "軟體開發",
+        "text": "**愛比科技** (AI 視訊溝通軟體)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (教育市場與企業用戶)",
+        "text": "**下游 (教育市場與企業用戶):**",
+        "entities": []
+      },
+      {
+        "category": "北美教育",
+        "text": "美國 K-12 學校學區採購 (逾 60% 美國公立學校)",
+        "entities": []
+      },
+      {
+        "category": "電商通路",
+        "text": "[[Amazon]] — 同類產品最暢銷品牌",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "category": "企業用戶",
+        "text": "遠距/混合辦公之中大型企業",
+        "entities": []
+      },
+      {
+        "category": "軟體相容",
+        "text": "[[Google Meet]]、[[Zoom]]、[[Microsoft Teams]] 視訊平台",
+        "entities": [
+          "Google Meet",
+          "Zoom",
+          "Microsoft Teams"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美教育",
+        "text": "美國 K-12 公立學校學區採購 — 逾 60% 滲透率",
+        "entities": []
+      },
+      {
+        "role": "電商直銷",
+        "text": "[[Amazon]] — IPEVO 品牌全球電商通路",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "role": "企業用戶",
+        "text": "歐美遠距/混合辦公企業 — 視訊協作設備",
+        "entities": []
+      },
+      {
+        "role": "高等教育",
+        "text": "各國大學院校 — 教學視訊設備",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "代工製造",
+        "text": "台灣專業攝影機 EMS 代工廠",
+        "entities": []
+      },
+      {
+        "role": "影像晶片",
+        "text": "CMOS 影像感測器及 ISP 晶片原廠",
+        "entities": []
+      },
+      {
+        "role": "光學元件",
+        "text": "光學鏡頭模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Communication Equipment):** [[台揚]]、[[東訊]]、[[友訊]]、[[智邦]]、[[仲琦]]",
+        "entities": [
+          "台揚",
+          "東訊",
+          "友訊",
+          "智邦",
+          "仲琦"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Amazon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IPEVO",
+      "type": "international_company_or_term",
+      "wikilink": "IPEVO"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "CMOS",
+      "type": "international_company_or_term",
+      "wikilink": "CMOS"
+    },
+    {
+      "name": "Google Meet",
+      "type": "international_company_or_term",
+      "wikilink": "Google Meet"
+    },
+    {
+      "name": "Zoom",
+      "type": "international_company_or_term",
+      "wikilink": "Zoom"
+    },
+    {
+      "name": "Microsoft Teams",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Teams"
+    },
+    {
+      "name": "台揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台揚"
+    },
+    {
+      "name": "東訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東訊"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "仲琦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仲琦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "愛比科技 (6858，[[IPEVO]]) 為台灣設計製造之視訊溝通設備品牌公司，以「IPEVO」自有品牌行銷全球。公司專注於開發實物攝影機 (Document Camera)、視訊協作攝影機 (如 V4K PRO、DO-CAM) 及相關 AI 視訊軟體。\n\n有別於傳統昂貴笨重的視訊設備，IPEVO 產品強調極簡設計、隨插即用與高度可攜性，屢獲 iF、Good Design 等國際設計大獎。產品在 [[Amazon]] 電商平台為同類最暢銷品牌，深受美國 K-12 教育市場信任，已滲透逾 60% 美國公立學校。在遠距教學與混合辦公趨勢下，歐美教育機構及企業為主要客戶群。",
+    "supply_chain_md": "**上游 (光學與影像元件):**\n- **光學鏡頭:** 光學鏡頭模組 (Lens) 供應商\n- **影像感測:** [[CMOS]] 影像感測晶片\n- **ISP 晶片:** 影像訊號處理晶片\n- **麥克風:** 收音元件及塑膠金屬外殼\n\n**中游 (自有品牌視訊設備設計行銷):**\n- **品牌營運:** **愛比科技** (IPEVO 品牌視訊協作攝影機/實物投影機設計與全球行銷)\n- **軟體開發:** **愛比科技** (AI 視訊溝通軟體)\n\n**下游 (教育市場與企業用戶):**\n- **北美教育:** 美國 K-12 學校學區採購 (逾 60% 美國公立學校)\n- **電商通路:** [[Amazon]] — 同類產品最暢銷品牌\n- **企業用戶:** 遠距/混合辦公之中大型企業\n- **軟體相容:** [[Google Meet]]、[[Zoom]]、[[Microsoft Teams]] 視訊平台",
+    "customers_suppliers_md": "### 主要客戶\n- **北美教育:** 美國 K-12 公立學校學區採購 — 逾 60% 滲透率\n- **電商直銷:** [[Amazon]] — IPEVO 品牌全球電商通路\n- **企業用戶:** 歐美遠距/混合辦公企業 — 視訊協作設備\n- **高等教育:** 各國大學院校 — 教學視訊設備\n\n### 主要供應商\n- **代工製造:** 台灣專業攝影機 EMS 代工廠\n- **影像晶片:** CMOS 影像感測器及 ISP 晶片原廠\n- **光學元件:** 光學鏡頭模組供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

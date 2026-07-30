@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8499",
+  "company_name": "鼎炫-KY",
+  "title": "8499 - 鼎炫-KY",
+  "source_md": "Pilot_Reports/Electronic Components/8499_鼎炫-KY.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "9,962 百萬台幣",
+    "enterprise_value": "9,724 百萬台幣"
+  },
+  "business": {
+    "summary": "鼎炫投資控股 (8499，Top Bright，KY 股) 為台灣電子材料與智慧衡器雙事業體集團，前身為 1967 年創立之台灣衡器工廠，2013 年以投資控股架構上市。\n\n雙事業體架構：(1) 電子材料事業 (隆揚) — 占營收 64%，生產 EMI 電磁遮蔽材料，包括[[導電膠帶]]、導電泡棉、[[鐵氧體]]吸波材、導電薄膜、導電遮蔽網、絕緣膠帶、減震密封材料及熱介面材料，廣泛應用於手機、筆電、平板等消費電子之電磁干擾防護，亦延伸至高壓電纜、汽車與成衣產業；(2) 衡器事業 (台衡) — 占營收 36%，生產智慧電子秤、計價秤、計數秤、吊秤、叉車秤、醫療秤、智慧秤重系統與條碼秤等，應用於零售、工業、實驗室與醫療領域。",
+    "entities": [
+      "導電膠帶",
+      "鐵氧體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "導電材料",
+        "text": "銅箔、鋁箔、導電布等基材",
+        "entities": []
+      },
+      {
+        "category": "[[鐵氧體]]粉料",
+        "text": "吸波材用鐵氧體原料",
+        "entities": [
+          "鐵氧體"
+        ]
+      },
+      {
+        "category": "高分子材料",
+        "text": "泡棉、膠帶基材",
+        "entities": []
+      },
+      {
+        "category": "感測器",
+        "text": "荷重元與感測器元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (材料加工與設備製造)",
+        "text": "**中游 (材料加工與設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "EMI 材料",
+        "text": "隆揚 ([[導電膠帶]]、導電泡棉、[[鐵氧體]]吸波材製造)",
+        "entities": [
+          "導電膠帶",
+          "鐵氧體"
+        ]
+      },
+      {
+        "category": "衡器設備",
+        "text": "台衡 (智慧電子秤、計價秤、工業秤製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "手機、筆電、平板品牌商 — EMI 遮蔽材料",
+        "entities": []
+      },
+      {
+        "category": "高壓電纜",
+        "text": "電力電纜製造商 — 遮蔽材料",
+        "entities": []
+      },
+      {
+        "category": "零售商超",
+        "text": "零售與超市通路 — 智慧計價秤",
+        "entities": []
+      },
+      {
+        "category": "工業物流",
+        "text": "工廠與物流中心 — 工業秤重系統",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費電子",
+        "text": "全球手機與筆電品牌商 — EMI [[導電膠帶]]與遮蔽材料",
+        "entities": [
+          "導電膠帶"
+        ]
+      },
+      {
+        "role": "高壓電纜",
+        "text": "電力電纜製造商 — 導電遮蔽材料",
+        "entities": []
+      },
+      {
+        "role": "零售通路",
+        "text": "全球零售商超 — 智慧計價秤、條碼秤",
+        "entities": []
+      },
+      {
+        "role": "醫療機構",
+        "text": "醫療院所 — 醫療秤與精密天平",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "基材",
+        "text": "銅箔、鋁箔與導電布基材供應商",
+        "entities": []
+      },
+      {
+        "role": "[[鐵氧體]]",
+        "text": "吸波材用 [[鐵氧體]] 粉料供應商",
+        "entities": [
+          "鐵氧體"
+        ]
+      },
+      {
+        "role": "感測器",
+        "text": "荷重元感測器製造商",
+        "entities": []
+      },
+      {
+        "role": "電子零件",
+        "text": "IC 與被動元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]",
+        "entities": [
+          "信錦",
+          "富喬",
+          "台達電",
+          "華通",
+          "楠梓電"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "導電膠帶"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "導電膠帶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導電膠帶"
+    },
+    {
+      "name": "鐵氧體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鐵氧體"
+    },
+    {
+      "name": "信錦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信錦"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "楠梓電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "楠梓電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鼎炫投資控股 (8499，Top Bright，KY 股) 為台灣電子材料與智慧衡器雙事業體集團，前身為 1967 年創立之台灣衡器工廠，2013 年以投資控股架構上市。\n\n雙事業體架構：(1) 電子材料事業 (隆揚) — 占營收 64%，生產 EMI 電磁遮蔽材料，包括[[導電膠帶]]、導電泡棉、[[鐵氧體]]吸波材、導電薄膜、導電遮蔽網、絕緣膠帶、減震密封材料及熱介面材料，廣泛應用於手機、筆電、平板等消費電子之電磁干擾防護，亦延伸至高壓電纜、汽車與成衣產業；(2) 衡器事業 (台衡) — 占營收 36%，生產智慧電子秤、計價秤、計數秤、吊秤、叉車秤、醫療秤、智慧秤重系統與條碼秤等，應用於零售、工業、實驗室與醫療領域。",
+    "supply_chain_md": "**上游 (原材料):**\n- **導電材料:** 銅箔、鋁箔、導電布等基材\n- **[[鐵氧體]]粉料:** 吸波材用鐵氧體原料\n- **高分子材料:** 泡棉、膠帶基材\n- **感測器:** 荷重元與感測器元件\n\n**中游 (材料加工與設備製造):**\n- **EMI 材料:** 隆揚 ([[導電膠帶]]、導電泡棉、[[鐵氧體]]吸波材製造)\n- **衡器設備:** 台衡 (智慧電子秤、計價秤、工業秤製造)\n\n**下游 (終端應用):**\n- **消費電子:** 手機、筆電、平板品牌商 — EMI 遮蔽材料\n- **高壓電纜:** 電力電纜製造商 — 遮蔽材料\n- **零售商超:** 零售與超市通路 — 智慧計價秤\n- **工業物流:** 工廠與物流中心 — 工業秤重系統",
+    "customers_suppliers_md": "### 主要客戶\n- **消費電子:** 全球手機與筆電品牌商 — EMI [[導電膠帶]]與遮蔽材料\n- **高壓電纜:** 電力電纜製造商 — 導電遮蔽材料\n- **零售通路:** 全球零售商超 — 智慧計價秤、條碼秤\n- **醫療機構:** 醫療院所 — 醫療秤與精密天平\n\n### 主要供應商\n- **基材:** 銅箔、鋁箔與導電布基材供應商\n- **[[鐵氧體]]:** 吸波材用 [[鐵氧體]] 粉料供應商\n- **感測器:** 荷重元感測器製造商\n- **電子零件:** IC 與被動元件供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 2,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

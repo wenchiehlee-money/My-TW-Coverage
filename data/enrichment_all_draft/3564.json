@@ -1,0 +1,260 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3564",
+  "company_name": "其陽",
+  "title": "3564 - 其陽",
+  "source_md": "Pilot_Reports/Computer Hardware/3564_其陽.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "2,448 百萬台幣",
+    "enterprise_value": "2,788 百萬台幣"
+  },
+  "business": {
+    "summary": "其陽科技 (3564，[[AEWIN]]) 為專業網路安全 (Network Security) 與伺服器設備製造商，隸屬 [[佳世達]] (Qisda) 集團，母公司為工業電腦大廠 [[友通]] (DFI)。核心產品包括 UTM 統一威脅管理、NGFW 次世代防火牆與邊緣運算伺服器。\n\n近年積極投入液冷散熱 (Liquid Cooling) 技術，針對 [[AI 伺服器]]高熱問題提供解決方案。產品以白牌 (White-box) ODM 模式服務國際資安軟體商 (ISV)，搭配客戶軟體形成完整資安解決方案。為 [[Intel]] 網路與邊緣運算平台之重要合作夥伴。",
+    "entities": [
+      "AEWIN",
+      "佳世達",
+      "友通",
+      "AI 伺服器",
+      "Intel"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (處理器與網通零組件)",
+        "text": "**上游 (處理器與網通零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 伺服器/網安設備 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "網路晶片",
+        "text": "[[Intel]]、[[Broadcom]] — 網路介面控制器",
+        "entities": [
+          "Intel",
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "高速網通 [[PCB]] 基板",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "散熱",
+        "text": "液冷散熱模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (網安設備 ODM 製造)",
+        "text": "**中游 (網安設備 ODM 製造):**",
+        "entities": []
+      },
+      {
+        "category": "網安設備",
+        "text": "**其陽** (UTM/NGFW 防火牆硬體平台)",
+        "entities": []
+      },
+      {
+        "category": "邊緣伺服器",
+        "text": "**其陽** (Edge AI 邊緣運算伺服器)",
+        "entities": []
+      },
+      {
+        "category": "液冷方案",
+        "text": "**其陽** (AI 伺服器液冷散熱)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (資安軟體商與系統整合)",
+        "text": "**下游 (資安軟體商與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "資安 ISV",
+        "text": "國際資安軟體大廠 — 搭配軟體之白牌硬體 ODM",
+        "entities": []
+      },
+      {
+        "category": "集團協同",
+        "text": "[[友通]] (DFI) — 集團資源與通路整合",
+        "entities": [
+          "友通"
+        ]
+      },
+      {
+        "category": "企業客戶",
+        "text": "系統整合商 — 企業資安專案",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "資安 ISV",
+        "text": "國際資安軟體大廠 — 白牌 UTM/NGFW 硬體 ODM",
+        "entities": []
+      },
+      {
+        "role": "集團",
+        "text": "[[友通]] (DFI)、[[佳世達]] — 集團內部資源整合",
+        "entities": [
+          "友通",
+          "佳世達"
+        ]
+      },
+      {
+        "role": "系統整合商",
+        "text": "企業資安專案 — 防火牆與邊緣運算",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 伺服器/網安設備 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "網路晶片",
+        "text": "[[Intel]]、[[Broadcom]] — 網路介面控制器",
+        "entities": [
+          "Intel",
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "集團",
+        "text": "[[友通]] (DFI) — 集團採購綜效",
+        "entities": [
+          "友通"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Computer Hardware):** [[首利]]、[[光寶科]]、[[全友]]、[[金寶]]、[[中環]]",
+        "entities": [
+          "首利",
+          "光寶科",
+          "全友",
+          "金寶",
+          "中環"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "友通",
+          "佳世達"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AEWIN",
+      "type": "international_company_or_term",
+      "wikilink": "AEWIN"
+    },
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "友通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友通"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "首利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "首利"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "全友",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全友"
+    },
+    {
+      "name": "金寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金寶"
+    },
+    {
+      "name": "中環",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中環"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "其陽科技 (3564，[[AEWIN]]) 為專業網路安全 (Network Security) 與伺服器設備製造商，隸屬 [[佳世達]] (Qisda) 集團，母公司為工業電腦大廠 [[友通]] (DFI)。核心產品包括 UTM 統一威脅管理、NGFW 次世代防火牆與邊緣運算伺服器。\n\n近年積極投入液冷散熱 (Liquid Cooling) 技術，針對 [[AI 伺服器]]高熱問題提供解決方案。產品以白牌 (White-box) ODM 模式服務國際資安軟體商 (ISV)，搭配客戶軟體形成完整資安解決方案。為 [[Intel]] 網路與邊緣運算平台之重要合作夥伴。",
+    "supply_chain_md": "**上游 (處理器與網通零組件):**\n- **處理器:** [[Intel]]、[[AMD]] — 伺服器/網安設備 CPU\n- **網路晶片:** [[Intel]]、[[Broadcom]] — 網路介面控制器\n- **PCB:** 高速網通 [[PCB]] 基板\n- **散熱:** 液冷散熱模組\n\n**中游 (網安設備 ODM 製造):**\n- **網安設備:** **其陽** (UTM/NGFW 防火牆硬體平台)\n- **邊緣伺服器:** **其陽** (Edge AI 邊緣運算伺服器)\n- **液冷方案:** **其陽** (AI 伺服器液冷散熱)\n\n**下游 (資安軟體商與系統整合):**\n- **資安 ISV:** 國際資安軟體大廠 — 搭配軟體之白牌硬體 ODM\n- **集團協同:** [[友通]] (DFI) — 集團資源與通路整合\n- **企業客戶:** 系統整合商 — 企業資安專案",
+    "customers_suppliers_md": "### 主要客戶\n- **資安 ISV:** 國際資安軟體大廠 — 白牌 UTM/NGFW 硬體 ODM\n- **集團:** [[友通]] (DFI)、[[佳世達]] — 集團內部資源整合\n- **系統整合商:** 企業資安專案 — 防火牆與邊緣運算\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — 伺服器/網安設備 CPU\n- **網路晶片:** [[Intel]]、[[Broadcom]] — 網路介面控制器\n- **集團:** [[友通]] (DFI) — 集團採購綜效"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

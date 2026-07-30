@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2457",
+  "company_name": "飛宏",
+  "title": "2457 - 飛宏",
+  "source_md": "Pilot_Reports/Electrical Equipment & Parts/2457_飛宏.md",
+  "extracted_at": "2026-07-30 22:32:01 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "8,941 百萬台幣",
+    "enterprise_value": "6,636 百萬台幣"
+  },
+  "business": {
+    "summary": "飛宏科技 (2457，Phihong Technology) 為全球前十大電源供應器製造商，近年積極轉型至[[電動車]]充電樁領域。子公司[[馳諾瓦]] (Zerova Technologies) 提供 AC 及 DC 直流快充樁。EV 充電樁客戶涵蓋[[Shell]] (全球採購協議)、[[Audi]] (台灣超快充站)、[[Volvo]]、[[Jaguar]]。傳統電源客戶涵蓋[[Cisco]]、[[Nokia]]、[[Honeywell]]。加入[[鴻海]][[MIH]]電動車聯盟。上游功率半導體採用[[Infineon]]、[[Onsemi]]之[[氮化鎵]]/[[碳化矽]]元件。",
+    "entities": [
+      "電動車",
+      "馳諾瓦",
+      "Shell",
+      "Audi",
+      "Volvo",
+      "Jaguar",
+      "Cisco",
+      "Nokia",
+      "Honeywell",
+      "鴻海",
+      "MIH",
+      "Infineon",
+      "Onsemi",
+      "氮化鎵",
+      "碳化矽"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (元件)",
+        "text": "**上游 (元件):**",
+        "entities": []
+      },
+      {
+        "category": "功率半導體",
+        "text": "[[Infineon]]、[[Onsemi]] — [[MOSFET]]/[[氮化鎵]]/[[碳化矽]]",
+        "entities": [
+          "Infineon",
+          "Onsemi",
+          "MOSFET",
+          "氮化鎵",
+          "碳化矽"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**飛宏** (電源供應器/EV充電樁，台灣/中國/越南/日本)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[馳諾瓦]]** (子公司，EV 充電樁品牌)",
+        "entities": [
+          "馳諾瓦"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "EV 充電",
+        "text": "[[Shell]]、[[Audi]]、[[Volvo]]、[[Jaguar]] — 充電樁",
+        "entities": [
+          "Shell",
+          "Audi",
+          "Volvo",
+          "Jaguar"
+        ]
+      },
+      {
+        "category": "電源",
+        "text": "[[Cisco]]、[[Nokia]]、[[Honeywell]] — 網通/工業電源",
+        "entities": [
+          "Cisco",
+          "Nokia",
+          "Honeywell"
+        ]
+      },
+      {
+        "category": "EV 聯盟",
+        "text": "[[鴻海]][[MIH]] — 電動車平台",
+        "entities": [
+          "鴻海",
+          "MIH"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EV 充電",
+        "text": "[[Shell]] (全球協議)、[[Audi]]、[[Volvo]]、[[Jaguar]]",
+        "entities": [
+          "Shell",
+          "Audi",
+          "Volvo",
+          "Jaguar"
+        ]
+      },
+      {
+        "role": "電源",
+        "text": "[[Cisco]]、[[Nokia]]、[[Honeywell]]",
+        "entities": [
+          "Cisco",
+          "Nokia",
+          "Honeywell"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "功率半導體",
+        "text": "[[Infineon]]、[[Onsemi]] — [[氮化鎵]]/[[碳化矽]]",
+        "entities": [
+          "Infineon",
+          "Onsemi",
+          "氮化鎵",
+          "碳化矽"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]",
+        "entities": [
+          "士電",
+          "亞力",
+          "華城",
+          "樂事綠能",
+          "廣隆"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Shell",
+          "Audi",
+          "Volvo",
+          "Jaguar",
+          "Cisco",
+          "Nokia",
+          "Honeywell"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "馳諾瓦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "馳諾瓦"
+    },
+    {
+      "name": "Shell",
+      "type": "international_company_or_term",
+      "wikilink": "Shell"
+    },
+    {
+      "name": "Audi",
+      "type": "international_company_or_term",
+      "wikilink": "Audi"
+    },
+    {
+      "name": "Volvo",
+      "type": "international_company_or_term",
+      "wikilink": "Volvo"
+    },
+    {
+      "name": "Jaguar",
+      "type": "international_company_or_term",
+      "wikilink": "Jaguar"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Nokia",
+      "type": "international_company_or_term",
+      "wikilink": "Nokia"
+    },
+    {
+      "name": "Honeywell",
+      "type": "international_company_or_term",
+      "wikilink": "Honeywell"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "MIH",
+      "type": "international_company_or_term",
+      "wikilink": "MIH"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "Onsemi",
+      "type": "international_company_or_term",
+      "wikilink": "Onsemi"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "士電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士電"
+    },
+    {
+      "name": "亞力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞力"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    },
+    {
+      "name": "樂事綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樂事綠能"
+    },
+    {
+      "name": "廣隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "飛宏科技 (2457，Phihong Technology) 為全球前十大電源供應器製造商，近年積極轉型至[[電動車]]充電樁領域。子公司[[馳諾瓦]] (Zerova Technologies) 提供 AC 及 DC 直流快充樁。EV 充電樁客戶涵蓋[[Shell]] (全球採購協議)、[[Audi]] (台灣超快充站)、[[Volvo]]、[[Jaguar]]。傳統電源客戶涵蓋[[Cisco]]、[[Nokia]]、[[Honeywell]]。加入[[鴻海]][[MIH]]電動車聯盟。上游功率半導體採用[[Infineon]]、[[Onsemi]]之[[氮化鎵]]/[[碳化矽]]元件。",
+    "supply_chain_md": "**上游 (元件):**\n- **功率半導體:** [[Infineon]]、[[Onsemi]] — [[MOSFET]]/[[氮化鎵]]/[[碳化矽]]\n\n**中游 (製造):**\n- **飛宏** (電源供應器/EV充電樁，台灣/中國/越南/日本)\n- **[[馳諾瓦]]** (子公司，EV 充電樁品牌)\n\n**下游 (終端):**\n- **EV 充電:** [[Shell]]、[[Audi]]、[[Volvo]]、[[Jaguar]] — 充電樁\n- **電源:** [[Cisco]]、[[Nokia]]、[[Honeywell]] — 網通/工業電源\n- **EV 聯盟:** [[鴻海]][[MIH]] — 電動車平台",
+    "customers_suppliers_md": "### 主要客戶\n- **EV 充電:** [[Shell]] (全球協議)、[[Audi]]、[[Volvo]]、[[Jaguar]]\n- **電源:** [[Cisco]]、[[Nokia]]、[[Honeywell]]\n\n### 主要供應商\n- **功率半導體:** [[Infineon]]、[[Onsemi]] — [[氮化鎵]]/[[碳化矽]]"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}

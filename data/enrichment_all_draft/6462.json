@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6462",
+  "company_name": "神盾",
+  "title": "6462_神盾",
+  "source_md": "Pilot_Reports/Software - Infrastructure/6462_神盾.md",
+  "extracted_at": "2026-07-30 22:32:02 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "8,377 百萬台幣",
+    "enterprise_value": "13,211 百萬台幣"
+  },
+  "business": {
+    "summary": "神盾股份有限公司 (6462，Egis Technology) 是一家從生體指紋辨識IC起家的台灣無晶圓廠(Fabless)[[半導體]]公司。過去神盾主要依賴韓國智慧型手機之指紋辨識感測器訂單。為擺脫單一產品風險，神盾近年發動多起併購與策略結盟(如併購乾瞻科技、芯鼎、安國等)，大舉轉型為[[AI]]與高效能運算(HPC)之矽智財(IP)與ASIC設計服務平台。目前集團不僅切入先進製程(3k/5nm)的UCIe(小晶片互連)與高速[[記憶體]]介面IP，更攜手Arm架構開發[[伺服器]]等級的[[AI]]晶片。",
+    "entities": [
+      "半導體",
+      "AI",
+      "記憶體",
+      "伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 矽晶圓製造、[[半導體]]晶圓代工廠、光罩服務及EDA電子設計[[自動化]]軟體供應商。",
+        "entities": [
+          "半導體",
+          "自動化"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **神盾** (指紋/生體辨識IC、[[AI]]/HPC高速運算矽智財IP授權及ASIC客製化晶片設計服務)。",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 智慧型手機品牌商、[[雲端服務]]供應商([[CSP]])、[[半導體]]IC設計公司(Fabless)及車廠。",
+        "entities": [
+          "雲端服務",
+          "CSP",
+          "半導體"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "三星(傳統指紋IC最大客戶)、韓國起亞汽車，並已取得美國Tier1雲端大廠([[CSP]])之IP驗證。",
+        "entities": [
+          "CSP"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[台積電]](先進製程設計定案合作夥伴)、三星晶圓代工及Arm(架構技術授權夥伴)。",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **same-industry draft peers (Software - Infrastructure):** [[博士旺]]、[[凌網]]、[[悠遊卡]]、[[物聯]]、[[伊雲谷]]",
+        "entities": [
+          "博士旺",
+          "凌網",
+          "悠遊卡",
+          "物聯",
+          "伊雲谷"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "CSP"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "神盾股份有限公司 (6462，Egis Technology) 是一家從生體指紋辨識IC起家的台灣無晶圓廠(Fabless)[[半導體]]公司。過去神盾主要依賴韓國智慧型手機之指紋辨識感測器訂單。為擺脫單一產品風險，神盾近年發動多起併購與策略結盟(如併購乾瞻科技、芯鼎、安國等)，大舉轉型為[[AI]]與高效能運算(HPC)之矽智財(IP)與ASIC設計服務平台。目前集團不僅切入先進製程(3k/5nm)的UCIe(小晶片互連)與高速[[記憶體]]介面IP，更攜手Arm架構開發[[伺服器]]等級的[[AI]]晶片。",
+        "entities": [
+          "半導體",
+          "AI",
+          "記憶體",
+          "伺服器"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "博士旺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "博士旺"
+    },
+    {
+      "name": "凌網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌網"
+    },
+    {
+      "name": "悠遊卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "悠遊卡"
+    },
+    {
+      "name": "物聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯"
+    },
+    {
+      "name": "伊雲谷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伊雲谷"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "神盾股份有限公司 (6462，Egis Technology) 是一家從生體指紋辨識IC起家的台灣無晶圓廠(Fabless)[[半導體]]公司。過去神盾主要依賴韓國智慧型手機之指紋辨識感測器訂單。為擺脫單一產品風險，神盾近年發動多起併購與策略結盟(如併購乾瞻科技、芯鼎、安國等)，大舉轉型為[[AI]]與高效能運算(HPC)之矽智財(IP)與ASIC設計服務平台。目前集團不僅切入先進製程(3k/5nm)的UCIe(小晶片互連)與高速[[記憶體]]介面IP，更攜手Arm架構開發[[伺服器]]等級的[[AI]]晶片。",
+    "supply_chain_md": "*   **上游**: 矽晶圓製造、[[半導體]]晶圓代工廠、光罩服務及EDA電子設計[[自動化]]軟體供應商。\n*   **中游**: **神盾** (指紋/生體辨識IC、[[AI]]/HPC高速運算矽智財IP授權及ASIC客製化晶片設計服務)。\n*   **下游**: 智慧型手機品牌商、[[雲端服務]]供應商([[CSP]])、[[半導體]]IC設計公司(Fabless)及車廠。",
+    "customers_suppliers_md": "### 主要客戶\n*   三星(傳統指紋IC最大客戶)、韓國起亞汽車，並已取得美國Tier1雲端大廠([[CSP]])之IP驗證。\n\n### 主要供應商\n*   [[台積電]](先進製程設計定案合作夥伴)、三星晶圓代工及Arm(架構技術授權夥伴)。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
+  }
+}
