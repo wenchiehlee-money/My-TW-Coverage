@@ -1,0 +1,261 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6214",
+  "company_name": "精誠",
+  "title": "6214_精誠",
+  "source_md": "Pilot_Reports/Information Technology Services/6214_精誠.md",
+  "extracted_at": "2026-07-30 20:02:36 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "39,203 百萬台幣",
+    "enterprise_value": "35,226 百萬台幣"
+  },
+  "business": {
+    "summary": "精誠資訊 (6214，SYSTEX) 成立於 1997 年，為台灣最大資訊服務上市公司，員工約 5,000 人，全球據點逾 50 處，涵蓋台灣、中國、香港、日本、越南、新加坡等地。精誠定位為全方位 IT 服務供應商與加值代理商，業務涵蓋軟硬體代理、系統整合、[[雲端服務]]、[[資安]]防護、大數據分析與行動支付解決方案。累積服務超過 40,000 家企業客戶，深耕金融、政府、高科技製造、零售與醫療等產業，近年更積極佈局東南亞市場，於 2025 年成立 SYSTEX Asia 作為東南亞總部。",
+    "entities": [
+      "雲端服務",
+      "資安"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際軟硬體原廠)",
+        "text": "**上游 (國際軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[Microsoft]] (Azure)、[[AWS]]、[[Google]] (GCP)",
+        "entities": [
+          "Microsoft",
+          "AWS",
+          "Google"
+        ]
+      },
+      {
+        "category": "商用軟體",
+        "text": "[[Oracle]]、[[IBM]]、[[SAP]]",
+        "entities": [
+          "Oracle",
+          "IBM",
+          "SAP"
+        ]
+      },
+      {
+        "category": "網路/資安",
+        "text": "[[Cisco]]、[[Palo Alto Networks]]、[[Fortinet]]",
+        "entities": [
+          "Cisco",
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合與加值代理)",
+        "text": "**中游 (系統整合與加值代理):**",
+        "entities": []
+      },
+      {
+        "category": "SI/VAD",
+        "text": "**精誠資訊** (軟硬體系統整合、雲端與[[資安]]服務、IT 設備代理經銷、大數據 [[AI]] 顧問)",
+        "entities": [
+          "資安",
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "金融",
+        "text": "各大金控銀行",
+        "entities": []
+      },
+      {
+        "category": "高科技製造",
+        "text": "半導體與電子製造業",
+        "entities": []
+      },
+      {
+        "category": "政府",
+        "text": "各級政府機關",
+        "entities": []
+      },
+      {
+        "category": "零售",
+        "text": "大型零售通路",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融",
+        "text": "各大金控與銀行 — 金融科技與 IT 基礎設施",
+        "entities": []
+      },
+      {
+        "role": "高科技製造",
+        "text": "[[台積電]]等半導體大廠 — 企業 IT 服務",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "政府",
+        "text": "各級政府機關 — 智慧政府解決方案",
+        "entities": []
+      },
+      {
+        "role": "零售",
+        "text": "[[全聯]]等大型零售通路 — 智慧零售與行動支付",
+        "entities": [
+          "全聯"
+        ]
+      },
+      {
+        "role": "電信",
+        "text": "[[中華電信]]等電信營運商",
+        "entities": [
+          "中華電信"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[Microsoft]] (Azure)、[[AWS]]、[[Google]] (GCP) — 公有雲服務",
+        "entities": [
+          "Microsoft",
+          "AWS",
+          "Google"
+        ]
+      },
+      {
+        "role": "商用軟體",
+        "text": "[[Oracle]]、[[IBM]]、[[SAP]] — 企業軟體授權",
+        "entities": [
+          "Oracle",
+          "IBM",
+          "SAP"
+        ]
+      },
+      {
+        "role": "網路/資安",
+        "text": "[[Cisco]]、[[Palo Alto Networks]]、[[Fortinet]] — 網路與資安設備",
+        "entities": [
+          "Cisco",
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "資安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資安"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Oracle",
+      "type": "international_company_or_term",
+      "wikilink": "Oracle"
+    },
+    {
+      "name": "IBM",
+      "type": "international_company_or_term",
+      "wikilink": "IBM"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "Fortinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fortinet"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "全聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全聯"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "精誠資訊 (6214，SYSTEX) 成立於 1997 年，為台灣最大資訊服務上市公司，員工約 5,000 人，全球據點逾 50 處，涵蓋台灣、中國、香港、日本、越南、新加坡等地。精誠定位為全方位 IT 服務供應商與加值代理商，業務涵蓋軟硬體代理、系統整合、[[雲端服務]]、[[資安]]防護、大數據分析與行動支付解決方案。累積服務超過 40,000 家企業客戶，深耕金融、政府、高科技製造、零售與醫療等產業，近年更積極佈局東南亞市場，於 2025 年成立 SYSTEX Asia 作為東南亞總部。",
+    "supply_chain_md": "**上游 (國際軟硬體原廠):**\n- **雲端平台:** [[Microsoft]] (Azure)、[[AWS]]、[[Google]] (GCP)\n- **商用軟體:** [[Oracle]]、[[IBM]]、[[SAP]]\n- **網路/資安:** [[Cisco]]、[[Palo Alto Networks]]、[[Fortinet]]\n\n**中游 (系統整合與加值代理):**\n- **SI/VAD:** **精誠資訊** (軟硬體系統整合、雲端與[[資安]]服務、IT 設備代理經銷、大數據 [[AI]] 顧問)\n\n**下游 (終端客戶):**\n- **金融:** 各大金控銀行\n- **高科技製造:** 半導體與電子製造業\n- **政府:** 各級政府機關\n- **零售:** 大型零售通路",
+    "customers_suppliers_md": "### 主要客戶\n- **金融:** 各大金控與銀行 — 金融科技與 IT 基礎設施\n- **高科技製造:** [[台積電]]等半導體大廠 — 企業 IT 服務\n- **政府:** 各級政府機關 — 智慧政府解決方案\n- **零售:** [[全聯]]等大型零售通路 — 智慧零售與行動支付\n- **電信:** [[中華電信]]等電信營運商\n\n### 主要供應商\n- **雲端平台:** [[Microsoft]] (Azure)、[[AWS]]、[[Google]] (GCP) — 公有雲服務\n- **商用軟體:** [[Oracle]]、[[IBM]]、[[SAP]] — 企業軟體授權\n- **網路/資安:** [[Cisco]]、[[Palo Alto Networks]]、[[Fortinet]] — 網路與資安設備"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

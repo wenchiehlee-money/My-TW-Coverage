@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7765",
+  "company_name": "中華資安",
+  "title": "7765 - 中華資安",
+  "source_md": "Pilot_Reports/Information Technology Services/7765_中華資安.md",
+  "extracted_at": "2026-07-30 20:02:36 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "9,092 百萬台幣",
+    "enterprise_value": "7,264 百萬台幣"
+  },
+  "business": {
+    "summary": "中華資安國際 (7765) 為[[中華電信]] (2412) 轉投資之資安子公司，於 2025 年 9 月正式上市，成為國內首家上市[[資安]]公司。公司擁有得天獨厚之 ISP 網路閘口優勢，透過電信線路直接為近百萬家庭與四萬餘家中小企業進行源頭阻斷與 DDoS 防護 (守門員服務)。針對政府機關與關鍵基礎設施，提供紅隊演練、滲透測試與資安鑑識等最高規格檢測服務。自有產品包含 SecuTex NP (網路行車紀錄器)、CypherCom (加密通訊)、SecuTex ED (端點合規)、資安眼 HorusEyes ([[AI]] 曝險分析) 等。營收獲利連續八年雙創新高。",
+    "entities": [
+      "中華電信",
+      "資安",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資安軟硬體原廠)",
+        "text": "**上游 (資安軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "防火牆/資安",
+        "text": "[[Fortinet]]、[[Palo Alto Networks]] — 國際資安防禦設備",
+        "entities": [
+          "Fortinet",
+          "Palo Alto Networks"
+        ]
+      },
+      {
+        "category": "端點防護",
+        "text": "國際 EDR/XDR 資安軟體原廠",
+        "entities": []
+      },
+      {
+        "category": "威脅情資",
+        "text": "商用威脅情資資料庫供應商",
+        "entities": []
+      },
+      {
+        "category": "母集團",
+        "text": "[[中華電信]] — 全台第一大 ISP 寬頻與 [[5G]] 網路骨幹",
+        "entities": [
+          "中華電信",
+          "5G"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (資安服務)",
+        "text": "**中游 (資安服務):**",
+        "entities": []
+      },
+      {
+        "category": "MSSP",
+        "text": "**中華資安** (電信端閘道防護、企業[[資安]]檢測與滲透測試、資安鑑識應變、自有資安軟體研發及國際品牌代理)",
+        "entities": [
+          "資安"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "政府",
+        "text": "各級政府機關與關鍵基礎設施",
+        "entities": []
+      },
+      {
+        "category": "金融",
+        "text": "金控銀行 — 高階防駭需求",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "高科技半導體製造廠",
+        "entities": []
+      },
+      {
+        "category": "家庭/中小企業",
+        "text": "近百萬寬頻用戶與四萬餘家中小企業",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "政府",
+        "text": "各級政府機關與關鍵基礎設施 — 紅隊演練與資安鑑識",
+        "entities": []
+      },
+      {
+        "role": "金融",
+        "text": "金控銀行 — 高階[[資安]]監控與應變",
+        "entities": [
+          "資安"
+        ]
+      },
+      {
+        "role": "企業",
+        "text": "逾 300 家大型核心企業 — 資安防護服務",
+        "entities": []
+      },
+      {
+        "role": "半導體",
+        "text": "高科技半導體製造廠 — 防駭與端點防護",
+        "entities": []
+      },
+      {
+        "role": "家庭/中小企業",
+        "text": "近百萬[[中華電信]]寬頻用戶 — 守門員防護與 DDoS 阻擋",
+        "entities": [
+          "中華電信"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母集團",
+        "text": "[[中華電信]] — 全台最大 ISP 寬頻與 [[5G]] 網路骨幹，核心通路資源",
+        "entities": [
+          "中華電信",
+          "5G"
+        ]
+      },
+      {
+        "role": "國際資安",
+        "text": "[[Fortinet]]、[[Palo Alto Networks]] — 防火牆與資安防禦設備",
+        "entities": [
+          "Fortinet",
+          "Palo Alto Networks"
+        ]
+      },
+      {
+        "role": "威脅情資",
+        "text": "國際威脅情資與弱點資料庫",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "資安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資安"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Fortinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fortinet"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中華資安國際 (7765) 為[[中華電信]] (2412) 轉投資之資安子公司，於 2025 年 9 月正式上市，成為國內首家上市[[資安]]公司。公司擁有得天獨厚之 ISP 網路閘口優勢，透過電信線路直接為近百萬家庭與四萬餘家中小企業進行源頭阻斷與 DDoS 防護 (守門員服務)。針對政府機關與關鍵基礎設施，提供紅隊演練、滲透測試與資安鑑識等最高規格檢測服務。自有產品包含 SecuTex NP (網路行車紀錄器)、CypherCom (加密通訊)、SecuTex ED (端點合規)、資安眼 HorusEyes ([[AI]] 曝險分析) 等。營收獲利連續八年雙創新高。",
+    "supply_chain_md": "**上游 (資安軟硬體原廠):**\n- **防火牆/資安:** [[Fortinet]]、[[Palo Alto Networks]] — 國際資安防禦設備\n- **端點防護:** 國際 EDR/XDR 資安軟體原廠\n- **威脅情資:** 商用威脅情資資料庫供應商\n- **母集團:** [[中華電信]] — 全台第一大 ISP 寬頻與 [[5G]] 網路骨幹\n\n**中游 (資安服務):**\n- **MSSP:** **中華資安** (電信端閘道防護、企業[[資安]]檢測與滲透測試、資安鑑識應變、自有資安軟體研發及國際品牌代理)\n\n**下游 (終端客戶):**\n- **政府:** 各級政府機關與關鍵基礎設施\n- **金融:** 金控銀行 — 高階防駭需求\n- **半導體:** 高科技半導體製造廠\n- **家庭/中小企業:** 近百萬寬頻用戶與四萬餘家中小企業",
+    "customers_suppliers_md": "### 主要客戶\n- **政府:** 各級政府機關與關鍵基礎設施 — 紅隊演練與資安鑑識\n- **金融:** 金控銀行 — 高階[[資安]]監控與應變\n- **企業:** 逾 300 家大型核心企業 — 資安防護服務\n- **半導體:** 高科技半導體製造廠 — 防駭與端點防護\n- **家庭/中小企業:** 近百萬[[中華電信]]寬頻用戶 — 守門員防護與 DDoS 阻擋\n\n### 主要供應商\n- **母集團:** [[中華電信]] — 全台最大 ISP 寬頻與 [[5G]] 網路骨幹，核心通路資源\n- **國際資安:** [[Fortinet]]、[[Palo Alto Networks]] — 防火牆與資安防禦設備\n- **威脅情資:** 國際威脅情資與弱點資料庫"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2382",
+  "company_name": "廣達",
+  "title": "2382 - [[廣達]]",
+  "source_md": "Pilot_Reports/Computer Hardware/2382_廣達.md",
+  "extracted_at": "2026-07-30 20:02:36 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "1,192,973 百萬台幣",
+    "enterprise_value": "1,428,387 百萬台幣"
+  },
+  "business": {
+    "summary": "[[廣達]]電腦 (2382，[[Quanta Computer]]) 成立於 1988 年，總部位於桃園，為全球最大筆記型電腦 ODM 代工廠，同時是全球最重要之 [[AI 伺服器]]代工廠。伺服器營收已佔公司總營收逾 65%，其中 AI 伺服器佔伺服器營收約六成。旗下雲端品牌 QCT 在全球前 50 大資料中心市佔逾五成。\n\n三大核心事業：(1) 筆電 ODM：為全球各大 PC 品牌代工；(2) AI 伺服器/雲端：搭載 [[NVIDIA]] GPU 之 AI 訓練/推論伺服器，提供 [[液冷]]散熱方案、網路交換器及儲存設備；(3) 新事業：車用攝影機 (含 [[AI]] 行車紀錄器及 [[ADAS]])、智慧醫療、[[AR]]/[[VR]] 智慧眼鏡 (如 [[Meta]] Ray-Ban 智慧眼鏡代工)、[[物聯網]] 智慧家庭及 [[5G]] 通訊方案。製造基地涵蓋台灣、中國上海/重慶及泰國。",
+    "entities": [
+      "廣達",
+      "Quanta Computer",
+      "AI 伺服器",
+      "NVIDIA",
+      "液冷",
+      "AI",
+      "ADAS",
+      "AR",
+      "VR",
+      "Meta",
+      "物聯網",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 筆電/伺服器 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]] — AI 伺服器 GPU (H100/GB200/B300)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]]、[[群創]]、[[LG Display]] — 筆電面板",
+        "entities": [
+          "友達",
+          "群創",
+          "LG Display"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (筆電與 AI 伺服器 ODM 代工)",
+        "text": "**中游 (筆電與 AI 伺服器 ODM 代工):**",
+        "entities": []
+      },
+      {
+        "category": "筆電代工",
+        "text": "**[[廣達]]** (全球最大筆電 ODM 廠)",
+        "entities": [
+          "廣達"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**[[廣達]]** ([[NVIDIA]] GPU AI 訓練/推論伺服器)",
+        "entities": [
+          "廣達",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "雲端品牌",
+        "text": "QCT (全球前 50 大資料中心市佔逾五成)",
+        "entities": []
+      },
+      {
+        "category": "新事業",
+        "text": "**[[廣達]]** (AR/VR 智慧眼鏡、車用攝影機、智慧醫療)",
+        "entities": [
+          "廣達"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (PC 品牌與雲端服務商)",
+        "text": "**下游 (PC 品牌與雲端服務商):**",
+        "entities": []
+      },
+      {
+        "category": "PC 品牌",
+        "text": "[[Apple]]、[[HP]]、[[Dell]]、[[Lenovo]]、[[宏碁]] — 筆電 ODM",
+        "entities": [
+          "Apple",
+          "HP",
+          "Dell",
+          "Lenovo",
+          "宏碁"
+        ]
+      },
+      {
+        "category": "CSP 雲端",
+        "text": "[[Google]]、[[Microsoft]]、[[Amazon]]、[[Meta]] — AI 伺服器",
+        "entities": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Meta"
+        ]
+      },
+      {
+        "category": "AR/VR",
+        "text": "[[Meta]] — Ray-Ban 智慧眼鏡代工",
+        "entities": [
+          "Meta"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PC 品牌",
+        "text": "[[Apple]]、[[HP]]、[[Dell]]、[[Lenovo]]、[[宏碁]] — 筆電 ODM 代工",
+        "entities": [
+          "Apple",
+          "HP",
+          "Dell",
+          "Lenovo",
+          "宏碁"
+        ]
+      },
+      {
+        "role": "CSP 雲端",
+        "text": "[[Google]]、[[Microsoft]]、[[Amazon]]、[[Meta]] — AI 伺服器代工",
+        "entities": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Meta"
+        ]
+      },
+      {
+        "role": "AR/VR",
+        "text": "[[Meta]] — Ray-Ban 智慧眼鏡代工",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "role": "雲端品牌",
+        "text": "QCT 品牌 — 全球資料中心伺服器及網通",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — CPU 平台",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]] — AI 伺服器 GPU (H100/GB200/B300)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]]、[[LG Display]] — 筆電面板",
+        "entities": [
+          "友達",
+          "群創",
+          "LG Display"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "Quanta Computer",
+      "type": "international_company_or_term",
+      "wikilink": "Quanta Computer"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "液冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "液冷"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "AR",
+      "type": "international_company_or_term",
+      "wikilink": "AR"
+    },
+    {
+      "name": "VR",
+      "type": "international_company_or_term",
+      "wikilink": "VR"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "LG Display",
+      "type": "international_company_or_term",
+      "wikilink": "LG Display"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[廣達]]電腦 (2382，[[Quanta Computer]]) 成立於 1988 年，總部位於桃園，為全球最大筆記型電腦 ODM 代工廠，同時是全球最重要之 [[AI 伺服器]]代工廠。伺服器營收已佔公司總營收逾 65%，其中 AI 伺服器佔伺服器營收約六成。旗下雲端品牌 QCT 在全球前 50 大資料中心市佔逾五成。\n\n三大核心事業：(1) 筆電 ODM：為全球各大 PC 品牌代工；(2) AI 伺服器/雲端：搭載 [[NVIDIA]] GPU 之 AI 訓練/推論伺服器，提供 [[液冷]]散熱方案、網路交換器及儲存設備；(3) 新事業：車用攝影機 (含 [[AI]] 行車紀錄器及 [[ADAS]])、智慧醫療、[[AR]]/[[VR]] 智慧眼鏡 (如 [[Meta]] Ray-Ban 智慧眼鏡代工)、[[物聯網]] 智慧家庭及 [[5G]] 通訊方案。製造基地涵蓋台灣、中國上海/重慶及泰國。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **處理器:** [[Intel]]、[[AMD]] — 筆電/伺服器 CPU\n- **GPU:** [[NVIDIA]] — AI 伺服器 GPU (H100/GB200/B300)\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD\n- **面板:** [[友達]]、[[群創]]、[[LG Display]] — 筆電面板\n\n**中游 (筆電與 AI 伺服器 ODM 代工):**\n- **筆電代工:** **[[廣達]]** (全球最大筆電 ODM 廠)\n- **AI 伺服器:** **[[廣達]]** ([[NVIDIA]] GPU AI 訓練/推論伺服器)\n- **雲端品牌:** QCT (全球前 50 大資料中心市佔逾五成)\n- **新事業:** **[[廣達]]** (AR/VR 智慧眼鏡、車用攝影機、智慧醫療)\n\n**下游 (PC 品牌與雲端服務商):**\n- **PC 品牌:** [[Apple]]、[[HP]]、[[Dell]]、[[Lenovo]]、[[宏碁]] — 筆電 ODM\n- **CSP 雲端:** [[Google]]、[[Microsoft]]、[[Amazon]]、[[Meta]] — AI 伺服器\n- **AR/VR:** [[Meta]] — Ray-Ban 智慧眼鏡代工",
+    "customers_suppliers_md": "### 主要客戶\n- **PC 品牌:** [[Apple]]、[[HP]]、[[Dell]]、[[Lenovo]]、[[宏碁]] — 筆電 ODM 代工\n- **CSP 雲端:** [[Google]]、[[Microsoft]]、[[Amazon]]、[[Meta]] — AI 伺服器代工\n- **AR/VR:** [[Meta]] — Ray-Ban 智慧眼鏡代工\n- **雲端品牌:** QCT 品牌 — 全球資料中心伺服器及網通\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — CPU 平台\n- **GPU:** [[NVIDIA]] — AI 伺服器 GPU (H100/GB200/B300)\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD\n- **面板:** [[友達]]、[[群創]]、[[LG Display]] — 筆電面板"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 29,
+    "warnings": []
+  }
+}

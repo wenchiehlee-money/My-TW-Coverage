@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2377",
+  "company_name": "微星",
+  "title": "2377 - [[微星]]",
+  "source_md": "Pilot_Reports/Computer Hardware/2377_微星.md",
+  "extracted_at": "2026-07-30 20:02:36 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "116,168 百萬台幣",
+    "enterprise_value": "93,403 百萬台幣"
+  },
+  "business": {
+    "summary": "微星科技 (2377，[[Micro-Star International]]，MSI) 成立於 1986 年，總部位於新北市，為全球電競硬體領導品牌，產品涵蓋電競筆電、顯示卡、主機板、顯示器、桌上型電腦及電競周邊。\n\n三大事業方向：(1) 電競品牌：筆電 (Titan/Raider/Stealth/Cyborg 系列)、顯示卡 ([[NVIDIA]] RTX 50 系列)、主機板及電競周邊，為全球電競市場核心品牌之一；(2) [[AI 伺服器]]：搭載 [[NVIDIA]] Grace Blackwell DGX Station，提供 EIA/OCP ORv3/[[NVIDIA]] MGX 全方位機櫃方案，目前佔營收約 3-5%，目標未來每年成長 50-100%；(3) 商用/工業：AIoT 方案、自主行動機器人 (AMR) 及工業平板。公司亦布局車用充電及 e-Mobility 解決方案。",
+    "entities": [
+      "Micro-Star International",
+      "NVIDIA",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與關鍵零組件)",
+        "text": "**上游 (晶片與關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 筆電/桌機/伺服器處理器",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "筆電/顯示器液晶面板供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電競品牌與 AI 伺服器)",
+        "text": "**中游 (電競品牌與 AI 伺服器):**",
+        "entities": []
+      },
+      {
+        "category": "電競品牌",
+        "text": "**微星** (MSI 品牌筆電/顯卡/主機板/周邊)",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**微星** ([[NVIDIA]] DGX Station/機櫃方案)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "AIoT",
+        "text": "**微星** (自主行動機器人 AMR/工業平板)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球通路與雲端客戶)",
+        "text": "**下游 (全球通路與雲端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電競通路",
+        "text": "全球 IT 零售及電商通路 — MSI 品牌直銷",
+        "entities": []
+      },
+      {
+        "category": "CSP 雲端",
+        "text": "企業及雲端客戶 — AI 伺服器方案",
+        "entities": []
+      },
+      {
+        "category": "工業客戶",
+        "text": "智慧製造/物流 — AMR 及工業 AIoT",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電競零售",
+        "text": "全球 IT 零售及電商通路 — MSI 品牌筆電/顯卡/主機板",
+        "entities": []
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "企業及雲端客戶 — [[NVIDIA]] 認證 AI 伺服器方案",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "工業客戶",
+        "text": "智慧製造及物流業 — AMR 自主行動機器人",
+        "entities": []
+      },
+      {
+        "role": "車用充電",
+        "text": "充電設備營運商 — e-Mobility 車充方案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 處理器平台",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡及 AI GPU",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "筆電及顯示器面板供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Micro-Star International",
+      "type": "international_company_or_term",
+      "wikilink": "Micro-Star International"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "微星科技 (2377，[[Micro-Star International]]，MSI) 成立於 1986 年，總部位於新北市，為全球電競硬體領導品牌，產品涵蓋電競筆電、顯示卡、主機板、顯示器、桌上型電腦及電競周邊。\n\n三大事業方向：(1) 電競品牌：筆電 (Titan/Raider/Stealth/Cyborg 系列)、顯示卡 ([[NVIDIA]] RTX 50 系列)、主機板及電競周邊，為全球電競市場核心品牌之一；(2) [[AI 伺服器]]：搭載 [[NVIDIA]] Grace Blackwell DGX Station，提供 EIA/OCP ORv3/[[NVIDIA]] MGX 全方位機櫃方案，目前佔營收約 3-5%，目標未來每年成長 50-100%；(3) 商用/工業：AIoT 方案、自主行動機器人 (AMR) 及工業平板。公司亦布局車用充電及 e-Mobility 解決方案。",
+    "supply_chain_md": "**上游 (晶片與關鍵零組件):**\n- **CPU:** [[Intel]]、[[AMD]] — 筆電/桌機/伺服器處理器\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD\n- **面板:** 筆電/顯示器液晶面板供應商\n\n**中游 (電競品牌與 AI 伺服器):**\n- **電競品牌:** **微星** (MSI 品牌筆電/顯卡/主機板/周邊)\n- **AI 伺服器:** **微星** ([[NVIDIA]] DGX Station/機櫃方案)\n- **AIoT:** **微星** (自主行動機器人 AMR/工業平板)\n\n**下游 (全球通路與雲端客戶):**\n- **電競通路:** 全球 IT 零售及電商通路 — MSI 品牌直銷\n- **CSP 雲端:** 企業及雲端客戶 — AI 伺服器方案\n- **工業客戶:** 智慧製造/物流 — AMR 及工業 AIoT",
+    "customers_suppliers_md": "### 主要客戶\n- **電競零售:** 全球 IT 零售及電商通路 — MSI 品牌筆電/顯卡/主機板\n- **AI 伺服器:** 企業及雲端客戶 — [[NVIDIA]] 認證 AI 伺服器方案\n- **工業客戶:** 智慧製造及物流業 — AMR 自主行動機器人\n- **車用充電:** 充電設備營運商 — e-Mobility 車充方案\n\n### 主要供應商\n- **CPU:** [[Intel]]、[[AMD]] — 處理器平台\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡及 AI GPU\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD\n- **面板:** 筆電及顯示器面板供應商"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}
