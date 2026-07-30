@@ -36,7 +36,7 @@
 - **跨平台:** [[一卡通]] (iPASS) — 電子支付互通
 
 ### 競爭同業
-- **same-industry draft peers (Software - Infrastructure):** [[博士旺]]、[[凌網]]、[[悠遊卡]]、[[神盾]]、[[物聯]]
+- **same-industry draft peers (金融科技 - 支付):** [[智冠]]、[[普鴻]]、[[91APP-KY]]、[[綠界科技]]、[[騰雲]]
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 ### 估值指標 (股價 $272.50 as of 2026-07-29 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)

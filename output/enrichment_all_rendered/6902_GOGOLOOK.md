@@ -36,7 +36,7 @@
 - **電信 API:** 各國電信營運商
 
 ### 競爭同業
-- **same-industry draft peers (Software - Application):** [[大塚]]、[[研勤]]、[[凱衛]]、[[力新]]、[[訊連]]
+- **same-industry draft peers (Software - Application):** [[同業待補]]
 
 ## 競爭與營運風險
 - 走著瞧 (6902，Gogolook) 為國際知名之「信任科技 (TrustTech)」AI 軟體服務公司，從台灣國民 App「[[Whoscall]]」起家。透過用戶回報與 AI 大數據分析，累積全球龐大的電話識別與防詐騙惡意資料庫。公司業務延伸至企業端防詐 ([[ScamAdviser]] 全球假網址與商譽風險偵測)、個人端防詐 (美玉姨查核系統) 及金融科技媒合服務 (袋鼠金融 Roo.Cash)。公司深受 [[NAVER]] ([[LINE]] 母公司) 資金挹注與技術肯定，亦與台灣警政署、韓國金融監督院、泰國警方及馬來西亞州政府等多國安保單位合作。

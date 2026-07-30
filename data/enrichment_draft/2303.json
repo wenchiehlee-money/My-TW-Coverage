@@ -3,8 +3,8 @@
   "ticker": "2303",
   "company_name": "聯電",
   "title": "2303 - [[聯電]]",
-  "source_md": "Pilot_Reports/Semiconductors/2303_聯電.md",
-  "extracted_at": "2026-07-30 20:30:07 CST",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/2303_聯電.md",
+  "extracted_at": "2026-07-30 23:51:56 CST",
   "profile": {
     "sector": "Technology",
     "industry": "Semiconductors",
@@ -120,14 +120,15 @@
     ],
     "competitors": [
       {
-        "text": "- **晶圓代工 customer/segment overlap:** [[台積電]]、[[GlobalFoundries]]、[[SMIC]]、[[世界先進]]",
+        "text": "- **same-industry draft peers (半導體 - IC_晶圓製造):** [[麗正]]、[[台積電]]、[[台亞]]、[[茂矽]]、[[大同]]",
         "entities": [
+          "麗正",
           "台積電",
-          "GlobalFoundries",
-          "SMIC",
-          "世界先進"
+          "台亞",
+          "茂矽",
+          "大同"
         ],
-        "basis": "draft_customer_or_segment_overlap",
+        "basis": "draft_same_industry_peer_review",
         "related_customers": [
           "聯發科",
           "瑞昱",
@@ -244,19 +245,24 @@
       "wikilink": "Texas Instruments"
     },
     {
-      "name": "GlobalFoundries",
-      "type": "international_company_or_term",
-      "wikilink": "GlobalFoundries"
-    },
-    {
-      "name": "SMIC",
-      "type": "international_company_or_term",
-      "wikilink": "SMIC"
-    },
-    {
-      "name": "世界先進",
+      "name": "麗正",
       "type": "taiwan_company_or_term",
-      "wikilink": "世界先進"
+      "wikilink": "麗正"
+    },
+    {
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
+    },
+    {
+      "name": "茂矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "茂矽"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
     }
   ],
   "source_text": {
@@ -269,7 +275,7 @@
     "review_status": "needs_review",
     "wikilink_count": 19,
     "warnings": [
-      "draft_competitors_need_review"
+      "draft_same_industry_competitors_need_review"
     ]
   }
 }

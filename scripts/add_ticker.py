@@ -1,15 +1,16 @@
 """
 add_ticker.py — Generate a new ticker report with financials and base structure.
 
-Creates a new .md file under Pilot_Reports/{sector}/ with:
+Creates a new .md file under Pilot_Reports/{folder}/ with:
 - Title with wikilinked company name
 - Metadata (sector, industry, market cap, enterprise value)
 - Placeholder sections for enrichment (業務簡介, 供應鏈, 客戶供應商)
 - Financial tables from yfinance (annual 3yr + quarterly 4Q)
 
 Usage:
-  python scripts/add_ticker.py 2330 台積電                    # Auto-detect sector
-  python scripts/add_ticker.py 2330 台積電 --sector Semiconductors  # Specify sector
+  python scripts/add_ticker.py 2330 台積電
+  python scripts/add_ticker.py 2330 台積電 --folder 半導體 - IC_晶圓製造
+  python scripts/add_ticker.py 2330 台積電 --sector Semiconductors  # Legacy fallback
 
 After generating, use /update-enrichment to add business descriptions.
 """
@@ -73,9 +74,8 @@ def generate_report(ticker, name, sector=None, industry=None):
 
 
 def sanitize_folder_name(name):
-    """Clean up sector name for use as folder name."""
-    # Replace characters that are problematic in Windows paths
-    return re.sub(r'[<>:"/\\|?*]', "", name).strip()
+    """Clean up a mapped folder name for use under Pilot_Reports."""
+    return re.sub(r'[<>:"/\\|?*]', "_", name).strip()
 
 
 def main():
@@ -87,7 +87,8 @@ def main():
     if not args:
         print("Usage:")
         print("  python scripts/add_ticker.py <ticker> <name>")
-        print("  python scripts/add_ticker.py <ticker> <name> --sector <sector>")
+        print("  python scripts/add_ticker.py <ticker> <name> --folder <mapped folder>")
+        print("  python scripts/add_ticker.py <ticker> <name> --sector <legacy sector>")
         return
 
     # Parse arguments
@@ -95,9 +96,15 @@ def main():
     name = args[1] if len(args) > 1 else "Unknown"
 
     sector = None
+    folder = None
+    if "--folder" in args:
+        idx = args.index("--folder")
+        end = next((i for i in range(idx + 1, len(args)) if args[i].startswith("--")), len(args))
+        folder = " ".join(args[idx + 1 : end])
     if "--sector" in args:
         idx = args.index("--sector")
-        sector = " ".join(args[idx + 1 :])
+        end = next((i for i in range(idx + 1, len(args)) if args[i].startswith("--")), len(args))
+        sector = " ".join(args[idx + 1 : end])
 
     # Check if ticker already exists
     existing = find_ticker_files([ticker])
@@ -110,7 +117,7 @@ def main():
     content, detected_sector = generate_report(ticker, name, sector)
 
     # Determine output folder
-    folder_name = sanitize_folder_name(sector or detected_sector)
+    folder_name = sanitize_folder_name(folder or sector or detected_sector)
     output_dir = os.path.join(REPORTS_DIR, folder_name)
     os.makedirs(output_dir, exist_ok=True)
 

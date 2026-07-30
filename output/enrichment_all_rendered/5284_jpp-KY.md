@@ -19,7 +19,7 @@ jpp-KY位於金屬機構件供應鏈的中游製造端，具備從設計、雷�
 
 ## 主要客戶及供應商
 ### 競爭同業
-- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]
+- **same-industry draft peers (醫療器材 - 電子零組件、塑化材料、五金零件):** [[祺驊]]、[[鉅祥]]、[[精確]]、[[英濟]]、[[岱稜]]
 
 ### 其他關係
 - **航太:** Airbus (Tier 1供應商), Thales, Safran, Dassault (透過併購切入).

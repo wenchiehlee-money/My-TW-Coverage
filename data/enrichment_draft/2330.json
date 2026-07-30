@@ -3,8 +3,8 @@
   "ticker": "2330",
   "company_name": "台積電",
   "title": "2330 - [[台積電]]",
-  "source_md": "Pilot_Reports/Semiconductors/2330_台積電.md",
-  "extracted_at": "2026-07-30 20:30:05 CST",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/2330_台積電.md",
+  "extracted_at": "2026-07-30 23:51:56 CST",
   "profile": {
     "sector": "Technology",
     "industry": "Semiconductors",
@@ -130,18 +130,25 @@
     ],
     "competitors": [
       {
-        "text": "- **先進製程晶圓代工:** [[Samsung Foundry]]、[[Intel Foundry]]",
+        "text": "- **same-industry draft peers (半導體 - IC_晶圓製造):** [[麗正]]、[[聯電]]、[[台亞]]、[[茂矽]]、[[大同]]",
         "entities": [
-          "Samsung Foundry",
-          "Intel Foundry"
-        ]
-      },
-      {
-        "text": "- **成熟/特殊製程晶圓代工:** [[聯電]]、[[GlobalFoundries]]、[[SMIC]]",
-        "entities": [
+          "麗正",
           "聯電",
-          "GlobalFoundries",
-          "SMIC"
+          "台亞",
+          "茂矽",
+          "大同"
+        ],
+        "basis": "draft_same_industry_peer_review",
+        "related_customers": [
+          "Apple",
+          "NVIDIA",
+          "AI",
+          "AMD",
+          "Qualcomm",
+          "聯發科",
+          "Broadcom",
+          "Intel",
+          "Sony"
         ]
       }
     ],
@@ -296,14 +303,9 @@
       "wikilink": "Sony"
     },
     {
-      "name": "Samsung Foundry",
-      "type": "international_company_or_term",
-      "wikilink": "Samsung Foundry"
-    },
-    {
-      "name": "Intel Foundry",
-      "type": "international_company_or_term",
-      "wikilink": "Intel Foundry"
+      "name": "麗正",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗正"
     },
     {
       "name": "聯電",
@@ -311,14 +313,19 @@
       "wikilink": "聯電"
     },
     {
-      "name": "GlobalFoundries",
-      "type": "international_company_or_term",
-      "wikilink": "GlobalFoundries"
+      "name": "台亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台亞"
     },
     {
-      "name": "SMIC",
-      "type": "international_company_or_term",
-      "wikilink": "SMIC"
+      "name": "茂矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "茂矽"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
     }
   ],
   "source_text": {
@@ -330,6 +337,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 28,
-    "warnings": []
+    "warnings": [
+      "draft_same_industry_competitors_need_review"
+    ]
   }
 }

@@ -22,7 +22,7 @@ AES-KY (6781) 為[[新普科技]]子公司，台灣AI [[BBU]]龍頭。已打入[
 - [[Panasonic]]; [[新普科技]] (母)
 
 ### 競爭同業
-- **same-industry draft peers (Electrical Equipment & Parts):** [[士電]]、[[亞力]]、[[華城]]、[[樂事綠能]]、[[廣隆]]
+- **same-industry draft peers (Electrical Equipment & Parts):** [[同業待補]]
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 ### 估值指標 (股價 $870.00 as of 2026-07-29 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)

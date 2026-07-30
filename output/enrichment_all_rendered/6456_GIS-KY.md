@@ -21,7 +21,7 @@
 - 各大面板廠(如[[群創]]、夏普等)及康寧等保護玻璃原物料大廠。
 
 ### 競爭同業
-- **same-industry draft peers (Electronic Components):** [[信錦]]、[[富喬]]、[[台達電]]、[[華通]]、[[楠梓電]]
+- **same-industry draft peers (Electronic Components):** [[聯嘉投控]]、[[錼創科技-KY創]]、[[三集瑞-KY]]、[[永道-KY]]、[[榮惠-KY創]]
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 ### 估值指標 (股價 $53.30 as of 2026-07-29 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)

@@ -31,7 +31,7 @@ IKKA Holdings (2250，IKKA-KY) 為日系精密塑膠射出成型廠 (1963 年創
 - **工程塑膠:** PA/POM/PBT 原料廠
 
 ### 競爭同業
-- **same-industry draft peers (Specialty Industrial Machinery):** [[東元]]、[[中興電]]、[[恩德]]、[[亞崴]]、[[高林股]]
+- **same-industry draft peers (Specialty Industrial Machinery):** [[百達-KY]]、[[力達-KY]]
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 ### 估值指標 (股價 $56.30 as of 2026-07-29 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)
