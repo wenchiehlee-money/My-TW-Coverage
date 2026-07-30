@@ -30,7 +30,7 @@ COMPETITOR_PATTERNS = [
     "競爭:",
     "競爭：",
 ]
-PEER_PATTERNS = ["同業包括", "同業比較", "同業", "同業資金"]
+PEER_PATTERNS = ["同業包括", "同業比較", "同業資金"]
 SUBSTITUTE_PATTERNS = ["替代", "取代", "自研", "轉自製"]
 MOAT_PATTERNS = ["核心競爭力", "競爭優勢", "利基", "技術領先", "成本優勢", "良率", "客戶黏著"]
 RISK_PATTERNS = ["風險", "競爭加劇", "紅海競爭", "營收下滑", "毛利壓力"]
