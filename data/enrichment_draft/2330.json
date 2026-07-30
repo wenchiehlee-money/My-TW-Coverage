@@ -1,0 +1,294 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2330",
+  "company_name": "台積電",
+  "title": "2330 - [[台積電]]",
+  "source_md": "Pilot_Reports/Semiconductors/2330_台積電.md",
+  "extracted_at": "2026-07-30 19:42:39 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "57,051,212 百萬台幣",
+    "enterprise_value": "54,556,789 百萬台幣"
+  },
+  "business": {
+    "summary": "[[台積電]] 成立於 1987 年，總部位於台灣[[新竹]]。公司是**全球最大**且最先進的專用積體電路製造服務公司 (Pure-play Foundry)，市佔率超過 60%。[[台積電]]引領全球[[半導體]]製程技術，目前已量產 3 奈米 (N3) 製程，並積極研發 2 奈米 (N2) 及 A16 技術。公司客戶涵蓋全球主要無晶圓廠 IC 設計公司及 IDM 大廠。[[台積電]]是驅動 [[AI]]、高效能運算 (HPC)、智慧型手機及車用電子發展的核心引擎。",
+    "entities": [
+      "台積電",
+      "新竹",
+      "半導體",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備/原料)",
+        "text": "**上游 (設備/原料):**",
+        "entities": []
+      },
+      {
+        "category": "設備 ([[微影]]/[[蝕刻]]/沈積)",
+        "text": "[[ASML]] (獨家 [[EUV]] 供應商), [[Applied Materials]], [[Lam Research]], [[Tokyo Electron]].",
+        "entities": [
+          "微影",
+          "蝕刻",
+          "ASML",
+          "EUV",
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron"
+        ]
+      },
+      {
+        "category": "材料 ([[矽晶圓]]/光阻/氣體)",
+        "text": "[[環球晶]], [[Shin-Etsu]], [[SUMCO]], 默克, 關東鑫林.",
+        "entities": [
+          "矽晶圓",
+          "環球晶",
+          "Shin-Etsu",
+          "SUMCO"
+        ]
+      },
+      {
+        "category": "IP/EDA",
+        "text": "[[Arm]], [[Synopsys]], [[Cadence]].",
+        "entities": [
+          "Arm",
+          "Synopsys",
+          "Cadence"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "主要平台",
+        "text": "高效能運算 (HPC, ~44%), 智慧型手機 (Smartphone, ~33%), [[物聯網]], 車用電子 (Auto), [[消費性電子]] (DCE).",
+        "entities": [
+          "物聯網",
+          "消費性電子"
+        ]
+      },
+      {
+        "category": "終端產品",
+        "text": "iPhone (A 系列晶片), [[NVIDIA]] [[AI]] GPU (H100/Blackwell), [[AMD]] CPU, [[Qualcomm]] Snapdragon.",
+        "entities": [
+          "NVIDIA",
+          "AI",
+          "AMD",
+          "Qualcomm"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "超級大客戶",
+        "text": "[[Apple]] (蘋果) - 用於 iPhone, Mac, iPad 之處理器，營收佔比最高 (>20%)。",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "AI/HPC",
+        "text": "[[NVIDIA]] (輝達) - [[AI]] 晶片的主要生產夥伴。",
+        "entities": [
+          "NVIDIA",
+          "AI"
+        ]
+      },
+      {
+        "role": "其他主要客戶",
+        "text": "[[AMD]], [[Qualcomm]], [[聯發科]], [[Broadcom]], [[Intel]] (外包訂單), [[Sony]].",
+        "entities": [
+          "AMD",
+          "Qualcomm",
+          "聯發科",
+          "Broadcom",
+          "Intel",
+          "Sony"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[EUV]] 機台",
+        "text": "[[ASML]] (艾司摩爾).",
+        "entities": [
+          "EUV",
+          "ASML"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "微影",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微影"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "EUV",
+      "type": "technology",
+      "wikilink": "EUV"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "Lam Research",
+      "type": "international_company_or_term",
+      "wikilink": "Lam Research"
+    },
+    {
+      "name": "Tokyo Electron",
+      "type": "international_company_or_term",
+      "wikilink": "Tokyo Electron"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "環球晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環球晶"
+    },
+    {
+      "name": "Shin-Etsu",
+      "type": "international_company_or_term",
+      "wikilink": "Shin-Etsu"
+    },
+    {
+      "name": "SUMCO",
+      "type": "international_company_or_term",
+      "wikilink": "SUMCO"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "Synopsys",
+      "type": "international_company_or_term",
+      "wikilink": "Synopsys"
+    },
+    {
+      "name": "Cadence",
+      "type": "international_company_or_term",
+      "wikilink": "Cadence"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[台積電]] 成立於 1987 年，總部位於台灣[[新竹]]。公司是**全球最大**且最先進的專用積體電路製造服務公司 (Pure-play Foundry)，市佔率超過 60%。[[台積電]]引領全球[[半導體]]製程技術，目前已量產 3 奈米 (N3) 製程，並積極研發 2 奈米 (N2) 及 A16 技術。公司客戶涵蓋全球主要無晶圓廠 IC 設計公司及 IDM 大廠。[[台積電]]是驅動 [[AI]]、高效能運算 (HPC)、智慧型手機及車用電子發展的核心引擎。",
+    "supply_chain_md": "**上游 (設備/原料):**\n- **設備 ([[微影]]/[[蝕刻]]/沈積):** [[ASML]] (獨家 [[EUV]] 供應商), [[Applied Materials]], [[Lam Research]], [[Tokyo Electron]].\n- **材料 ([[矽晶圓]]/光阻/氣體):** [[環球晶]], [[Shin-Etsu]], [[SUMCO]], 默克, 關東鑫林.\n- **IP/EDA:** [[Arm]], [[Synopsys]], [[Cadence]].\n\n**下游應用:**\n- **主要平台:** 高效能運算 (HPC, ~44%), 智慧型手機 (Smartphone, ~33%), [[物聯網]], 車用電子 (Auto), [[消費性電子]] (DCE).\n- **終端產品:** iPhone (A 系列晶片), [[NVIDIA]] [[AI]] GPU (H100/Blackwell), [[AMD]] CPU, [[Qualcomm]] Snapdragon.",
+    "customers_suppliers_md": "### 主要客戶\n- **超級大客戶:** [[Apple]] (蘋果) - 用於 iPhone, Mac, iPad 之處理器，營收佔比最高 (>20%)。\n- **AI/HPC:** [[NVIDIA]] (輝達) - [[AI]] 晶片的主要生產夥伴。\n- **其他主要客戶:** [[AMD]], [[Qualcomm]], [[聯發科]], [[Broadcom]], [[Intel]] (外包訂單), [[Sony]].\n\n### 主要供應商\n- **[[EUV]] 機台:** [[ASML]] (艾司摩爾)."
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 28,
+    "warnings": []
+  }
+}
