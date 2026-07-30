@@ -10,22 +10,22 @@
 
 ## 上游 (2)
 
-- **3450 聯鈞** (Semiconductor Equipment & Materials)
 - **6451 訊芯-KY** (Semiconductors)
+- **3450 聯鈞** (半導體 - IC封裝測試)
 
 ## 中游 (3)
 
-- **2444 兆勁** (Communication Equipment)
-- **3234 光環** (Semiconductors)
-- **3437 榮創** (Semiconductors)
+- **3437 榮創** (LED照明產業 - 封裝_模組)
+- **3234 光環** (半導體 - IC_晶圓製造)
+- **2444 兆勁** (電腦及週邊設備 - 其他電腦及週邊設備之零組件)
 
 ## 下游 (1)
 
-- **3081 聯亞** (Semiconductor Equipment & Materials)
+- **3081 聯亞** (通信網路 - 主_被動元件)
 
 ## 相關公司 (4)
 
 - **6715 嘉基** (Communication Equipment)
-- **2340 台亞** (Semiconductors)
-- **3105 穩懋** (Semiconductors)
-- **8086 宏捷科** (Semiconductors)
+- **2340 台亞** (半導體 - IC_晶圓製造)
+- **3105 穩懋** (半導體 - IC_晶圓製造)
+- **8086 宏捷科** (半導體 - IC_晶圓製造)

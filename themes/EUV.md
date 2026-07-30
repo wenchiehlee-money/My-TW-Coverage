@@ -10,18 +10,18 @@
 
 ## 上游 (2)
 
-- **2330 台積電** (Semiconductors)
-- **6909 創控** (Specialty Industrial Machinery)
+- **2330 台積電** (半導體 - IC_晶圓製造)
+- **6909 創控** (半導體 - 生產製程及檢測設備)
 
 ## 下游 (2)
 
-- **6517 保勝光學** (Electronic Components)
-- **6823 濾能** (Pollution & Treatment Controls)
+- **6823 濾能** (半導體 - 生產製程及檢測設備)
+- **6517 保勝光學** (電腦及週邊設備 - 光學鏡片、鏡頭)
 
 ## 相關公司 (5)
 
-- **4551 智伸科** (Auto Parts)
-- **6895 宏碩系統** (Electrical Equipment & Parts)
-- **3178 公準** (Semiconductor Equipment & Materials)
-- **3680 家登** (Semiconductors)
-- **4768 晶呈科技** (Specialty Chemicals)
+- **4768 晶呈科技** (半導體 - 化學品)
+- **3178 公準** (半導體 - 生產製程及檢測設備)
+- **3680 家登** (半導體 - 生產製程及檢測設備)
+- **6895 宏碩系統** (半導體 - 生產製程及檢測設備)
+- **4551 智伸科** (汽車 - 其他)

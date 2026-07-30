@@ -10,22 +10,22 @@
 
 ## 上游 (1)
 
-- **6706 惠特** (Specialty Industrial Machinery)
+- **6706 惠特** (半導體 - 生產製程及檢測設備)
 
 ## 中游 (6)
 
-- **3163 波若威** (Communication Equipment)
-- **3363 上詮** (Communication Equipment)
-- **3701 大眾控** (Computer Hardware)
-- **4573 高明鐵** (Electronic Components)
-- **6205 詮欣** (Electronic Components)
-- **3450 聯鈞** (Semiconductor Equipment & Materials)
+- **3450 聯鈞** (半導體 - IC封裝測試)
+- **3163 波若威** (通信網路 - 光通訊設備(如光纖電纜、光傳輸設備))
+- **3363 上詮** (通信網路 - 光通訊設備(如光纖電纜、光傳輸設備))
+- **6205 詮欣** (通信網路 - 線材)
+- **4573 高明鐵** (電機機械 - 傳動元件)
+- **3701 大眾控** (電腦及週邊設備 - 工業電腦)
 
 ## 相關公司 (6)
 
-- **4908 前鼎** (Communication Equipment)
-- **6530 創威** (Communication Equipment)
-- **6153 嘉聯益** (Electronic Components)
-- **6269 台郡** (Electronic Components)
-- **3081 聯亞** (Semiconductor Equipment & Materials)
-- **6515 穎崴** (Semiconductors)
+- **6515 穎崴** (半導體 - 生產製程及檢測設備)
+- **6153 嘉聯益** (印刷電路板 - 硬板、軟板、IC載板製造)
+- **6269 台郡** (印刷電路板 - 硬板、軟板、IC載板製造)
+- **6530 創威** (資通訊安全 - 網路基礎設施)
+- **3081 聯亞** (通信網路 - 主_被動元件)
+- **4908 前鼎** (通信網路 - 主_被動元件)

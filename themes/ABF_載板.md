@@ -10,26 +10,26 @@
 
 ## 上游 (3)
 
-- **3114 好德** (Industrial Distribution)
-- **3485 敘豐** (Specialty Industrial Machinery)
-- **7795 長廣** (Specialty Industrial Machinery)
+- **3114 好德** (半導體 - 生產製程及檢測設備)
+- **3485 敘豐** (半導體 - 生產製程及檢測設備)
+- **7795 長廣** (半導體 - 生產製程及檢測設備)
 
 ## 中游 (3)
 
-- **3037 欣興** (Electronic Components)
-- **8046 南電** (Electronic Components)
-- **3189 景碩** (Semiconductor Equipment & Materials)
+- **3189 景碩** (半導體 - 基板)
+- **3037 欣興** (印刷電路板 - 硬板、軟板、IC載板製造)
+- **8046 南電** (印刷電路板 - 硬板、軟板、IC載板製造)
 
 ## 下游 (2)
 
-- **8074 鉅橡** (Electronic Components)
-- **4577 達航科技** (Specialty Industrial Machinery)
+- **4577 達航科技** (印刷電路板 - 生產製程及檢測設備)
+- **8074 鉅橡** (印刷電路板 - 硬板、軟板、IC載板製造)
 
 ## 相關公司 (6)
 
-- **3231 緯創** (Computer Hardware)
-- **3093 港建** (Electronic Components)
-- **4958 臻鼎-KY** (Electronic Components)
-- **6691 洋基工程** (Engineering & Construction)
-- **1303 南亞** (Specialty Chemicals)
-- **6664 群翊** (Specialty Industrial Machinery)
+- **6691 洋基工程** (其他 - 其他電子產品及電子服務產業)
+- **3093 港建** (半導體 - 生產製程及檢測設備)
+- **6664 群翊** (半導體 - 生產製程及檢測設備)
+- **1303 南亞** (印刷電路板 - 玻璃纖維_玻纖布)
+- **4958 臻鼎-KY** (印刷電路板 - 硬板、軟板、IC載板製造)
+- **3231 緯創** (電腦及週邊設備 - 桌上型電腦)
