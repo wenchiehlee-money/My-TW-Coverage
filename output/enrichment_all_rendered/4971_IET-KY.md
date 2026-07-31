@@ -25,6 +25,7 @@
 - ### 競爭對手
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
+
 ### 估值指標 (股價 $316.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)
 | P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |
 |-----------|-------------|-----------|------|-----------|
@@ -65,3 +66,20 @@
 | Investing Cash Flow     |       -74.38 |       -90.83 |       -21.76 |       -54.77 |
 | Financing Cash Flow     |        25.30 |        -0.39 |        -0.31 |        -0.32 |
 | CAPEX                   |      -100.22 |       -55.60 |       -49.98 |       -58.00 |
+
+### 競爭同業 Revenue/Profit/GM
+
+Unit: `百萬台幣`
+FX: `1 USD = 32.3 TWD`
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">4971</td><td style="text-align: left;">IET-KY</td><td style="text-align: left;">Taiwan</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">CVD</td><td style="text-align: left;">CVD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">磊晶</td><td style="text-align: left;">磊晶</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
