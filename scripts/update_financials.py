@@ -283,12 +283,9 @@ def build_financial_section(data, ticker=None):
     if v:
         section += build_valuation_table(v) + "\n\n"
 
-    # Segment weights table
     from pathlib import Path
     biztrends_dir = Path(os.path.dirname(os.path.abspath(__file__))) / "../../biztrends.TW/data"
     weights_table = build_segment_weights_table(ticker, biztrends_dir)
-    if weights_table:
-        section += weights_table
 
     section += "### 年度關鍵財務數據 (近 3 年)\n"
     if data["annual"] is not None and not data["annual"].empty:
@@ -297,10 +294,13 @@ def build_financial_section(data, ticker=None):
         section += "無可用數據。\n\n"
     section += "### 季度關鍵財務數據 (近 4 季)\n"
     if data["quarterly"] is not None and not data["quarterly"].empty:
-        section += df_to_clean_markdown(data["quarterly"]) + "\n"
+        section += df_to_clean_markdown(data["quarterly"]) + "\n\n"
     else:
-        section += "無可用數據。\n"
-    return section
+        section += "無可用數據。\n\n"
+
+    if weights_table:
+        section += weights_table
+    return section.rstrip() + "\n"
 
 
 def update_file(filepath, ticker, dry_run=False):
