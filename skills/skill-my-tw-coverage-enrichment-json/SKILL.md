@@ -69,7 +69,7 @@ python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_js
   --out data/enrichment_all \
   --manifest data/enrichment_all_manifest.csv
 
-python skills/skill-my-tw-coverage-enrichment-json/scripts/render_enrichment_markdown.py \
+python skills/skill-my-tw-coverage-render-markdown/scripts/render_enrichment_markdown.py \
   --json-dir data/enrichment_all \
   --out output/enrichment_all_rendered \
   --compare output/enrichment_all_render_compare.csv
@@ -115,6 +115,7 @@ For each focus ticker:
 
 ## Boundaries
 
+- This skill does not render Markdown; use `skill-my-tw-coverage-render-markdown` for JSON-to-Markdown output.
 - This skill does not update financial tables.
 - This skill does not produce evidence-linked model signals yet.
 - This skill does not directly update `biztrends.TW/data/company_segment_weights.csv`.
