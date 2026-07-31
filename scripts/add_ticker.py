@@ -38,7 +38,7 @@ def generate_report(ticker, name, sector=None, industry=None):
             industry = fin_data.get("industry", "Unknown")
         market_cap = fin_data.get("market_cap", "N/A")
         enterprise_value = fin_data.get("enterprise_value", "N/A")
-        fin_section = build_financial_section(fin_data)
+        fin_section = build_financial_section(fin_data, ticker)
     else:
         if not sector:
             sector = "Unknown"

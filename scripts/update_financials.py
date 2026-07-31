@@ -206,13 +206,89 @@ def df_to_clean_markdown(df):
     return md
 
 
-def build_financial_section(data):
+def build_segment_weights_table(ticker, biztrends_data_dir):
+    if not ticker:
+        return ""
+    csv_path = biztrends_data_dir / "company_segment_weights.csv"
+    if not csv_path.exists():
+        return ""
+    try:
+        df = pd.read_csv(csv_path)
+        # Filter by stock_code
+        df_ticker = df[df["stock_code"].astype(str).str.strip() == str(ticker).strip()]
+        if df_ticker.empty:
+            return ""
+        
+        # Pivot the segment weights
+        pivot_df = df_ticker.pivot_table(index="source_period", columns="segment_name", values="weight_pct", aggfunc="first")
+        pivot_df = pivot_df.sort_index(ascending=False)
+        
+        # Format values with %
+        for col in pivot_df.columns:
+            pivot_df[col] = pivot_df[col].apply(lambda x: f"{x:.1f}%" if pd.notna(x) else "-")
+            
+        pivot_df = pivot_df.reset_index().rename(columns={"source_period": "期間"})
+        
+        # Special handling for TSMC (2330) historical data if tsm_platform_revenue.csv exists
+        if str(ticker).strip() == "2330":
+            hist_path = biztrends_data_dir / "tsm_platform_revenue.csv"
+            if hist_path.exists():
+                df_hist = pd.read_csv(hist_path)
+                # Filter out rows that are empty or have TODO
+                df_hist = df_hist[df_hist["HPC"].notna() & (df_hist["HPC"].astype(str).str.strip() != "")]
+                df_hist = df_hist[~df_hist["HPC"].astype(str).str.contains("TODO", case=False)]
+                
+                # Format columns
+                cols_to_format = ["HPC", "Smartphone", "IoT", "Automotive", "DCE", "Others"]
+                for col in cols_to_format:
+                    if col in df_hist.columns:
+                        df_hist[col] = df_hist[col].apply(lambda x: f"{float(x):.1f}%" if pd.notna(x) and str(x).strip() != "" else "-")
+                
+                df_hist = df_hist.rename(columns={"period": "期間"})
+                # Select only relevant columns
+                cols_keep = ["期間"] + [c for c in cols_to_format if c in df_hist.columns]
+                df_hist_clean = df_hist[cols_keep]
+                
+                # Merge or concat with pivot_df
+                # To avoid duplicating "期間", let's drop rows from df_hist_clean that are already in pivot_df
+                df_hist_clean = df_hist_clean[~df_hist_clean["期間"].isin(pivot_df["期間"])]
+                
+                # Concat
+                combined = pd.concat([pivot_df, df_hist_clean], ignore_index=True)
+                # Make sure columns are ordered nicely (HPC and Smartphone first, then others)
+                all_cols = combined.columns.tolist()
+                pref_order = ["期間", "HPC", "Smartphone", "IoT", "Automotive", "DCE", "Others"]
+                col_order = [c for c in pref_order if c in all_cols] + [c for c in all_cols if c not in pref_order]
+                combined = combined[col_order]
+                # Sort by period descending
+                combined = combined.sort_values(by="期間", ascending=False)
+                # Fill any remaining NaN with "-"
+                combined = combined.fillna("-")
+                
+                table_md = combined.to_markdown(index=False)
+                return f"### 營收平台佔比 (Revenue by Platform %)\n{table_md}\n\n"
+        
+        table_md = pivot_df.to_markdown(index=False)
+        return f"### 營收平台佔比 (Revenue by Platform %)\n{table_md}\n\n"
+    except Exception as e:
+        print(f"Error building segment weights table for {ticker}: {e}")
+        return ""
+
+
+def build_financial_section(data, ticker=None):
     section = "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n"
 
     # Valuation snapshot
     v = data.get("valuation", {})
     if v:
         section += build_valuation_table(v) + "\n\n"
+
+    # Segment weights table
+    from pathlib import Path
+    biztrends_dir = Path(os.path.dirname(os.path.abspath(__file__))) / "../../biztrends.TW/data"
+    weights_table = build_segment_weights_table(ticker, biztrends_dir)
+    if weights_table:
+        section += weights_table
 
     section += "### 年度關鍵財務數據 (近 3 年)\n"
     if data["annual"] is not None and not data["annual"].empty:
@@ -236,7 +312,7 @@ def update_file(filepath, ticker, dry_run=False):
         print(f"  {ticker}: SKIP (no data from yfinance)")
         return False
 
-    new_fin = build_financial_section(data)
+    new_fin = build_financial_section(data, ticker)
 
     if re.search(r"## 財務概況", content):
         new_content = re.sub(r"## 財務概況.*", new_fin, content, flags=re.DOTALL)

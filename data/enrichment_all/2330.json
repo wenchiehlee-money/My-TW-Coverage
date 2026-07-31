@@ -3,13 +3,13 @@
   "ticker": "2330",
   "company_name": "台積電",
   "title": "2330 - [[台積電]]",
-  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/2330_台積電.md",
-  "extracted_at": "2026-07-30 23:51:47 CST",
+  "source_md": "Pilot_Reports\\半導體 - IC_晶圓製造\\2330_台積電.md",
+  "extracted_at": "2026-07-31 12:15:47 CST",
   "profile": {
     "sector": "Technology",
     "industry": "Semiconductors",
-    "market_cap": "57,051,212 百萬台幣",
-    "enterprise_value": "54,556,789 百萬台幣"
+    "market_cap": "62,108,025 百萬台幣",
+    "enterprise_value": "54,686,447 百萬台幣"
   },
   "business": {
     "summary": "[[台積電]] 成立於 1987 年，總部位於台灣[[新竹]]。公司是**全球最大**且最先進的專用積體電路製造服務公司 (Pure-play Foundry)，市佔率超過 60%。[[台積電]]引領全球[[半導體]]製程技術，目前已量產 3 奈米 (N3) 製程，並積極研發 2 奈米 (N2) 及 A16 技術。公司客戶涵蓋全球主要無晶圓廠 IC 設計公司及 IDM 大廠。[[台積電]]是驅動 [[AI]]、高效能運算 (HPC)、智慧型手機及車用電子發展的核心引擎。",
@@ -69,7 +69,7 @@
       },
       {
         "category": "主要平台",
-        "text": "高效能運算 (HPC, ~44%), 智慧型手機 (Smartphone, ~33%), [[物聯網]], 車用電子 (Auto), [[消費性電子]] (DCE).",
+        "text": "高效能運算 (HPC, ~66%), 智慧型手機 (Smartphone, ~22%), [[物聯網]] (~5%), 車用電子 (Auto, ~4%), [[消費性電子]] (DCE, ~1%), 其他 (~2%).",
         "entities": [
           "物聯網",
           "消費性電子"
@@ -128,23 +128,7 @@
         ]
       }
     ],
-    "competitors": [
-      {
-        "role": "晶圓代工競爭者",
-        "text": "[[聯電]]、[[GlobalFoundries]]、[[Intel Foundry]]、[[中芯國際]]、[[Samsung Foundry]]、[[世界]]、[[力積電]]",
-        "entities": [
-          "聯電",
-          "GlobalFoundries",
-          "Intel Foundry",
-          "中芯國際",
-          "Samsung Foundry",
-          "世界",
-          "力積電"
-        ],
-        "basis": "curated_foundry_competitor_rule",
-        "review_status": "needs_review"
-      }
-    ],
+    "competitors": [],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -294,80 +278,18 @@
       "name": "Sony",
       "type": "international_company_or_term",
       "wikilink": "Sony"
-    },
-    {
-      "name": "聯電",
-      "type": "taiwan_company_or_term",
-      "wikilink": "聯電"
-    },
-    {
-      "name": "GlobalFoundries",
-      "type": "international_company_or_term",
-      "wikilink": "GlobalFoundries"
-    },
-    {
-      "name": "Intel Foundry",
-      "type": "international_company_or_term",
-      "wikilink": "Intel Foundry"
-    },
-    {
-      "name": "中芯國際",
-      "type": "taiwan_company_or_term",
-      "wikilink": "中芯國際"
-    },
-    {
-      "name": "Samsung Foundry",
-      "type": "international_company_or_term",
-      "wikilink": "Samsung Foundry"
-    },
-    {
-      "name": "世界",
-      "type": "taiwan_company_or_term",
-      "wikilink": "世界"
-    },
-    {
-      "name": "力積電",
-      "type": "taiwan_company_or_term",
-      "wikilink": "力積電"
-    },
-    {
-      "name": "長興",
-      "type": "taiwan_company_or_term",
-      "wikilink": "長興"
-    },
-    {
-      "name": "中華化",
-      "type": "taiwan_company_or_term",
-      "wikilink": "中華化"
-    },
-    {
-      "name": "漢磊",
-      "type": "taiwan_company_or_term",
-      "wikilink": "漢磊"
-    },
-    {
-      "name": "巨漢",
-      "type": "taiwan_company_or_term",
-      "wikilink": "巨漢"
-    },
-    {
-      "name": "鉅邁",
-      "type": "taiwan_company_or_term",
-      "wikilink": "鉅邁"
     }
   ],
   "source_text": {
     "business_summary_md": "[[台積電]] 成立於 1987 年，總部位於台灣[[新竹]]。公司是**全球最大**且最先進的專用積體電路製造服務公司 (Pure-play Foundry)，市佔率超過 60%。[[台積電]]引領全球[[半導體]]製程技術，目前已量產 3 奈米 (N3) 製程，並積極研發 2 奈米 (N2) 及 A16 技術。公司客戶涵蓋全球主要無晶圓廠 IC 設計公司及 IDM 大廠。[[台積電]]是驅動 [[AI]]、高效能運算 (HPC)、智慧型手機及車用電子發展的核心引擎。",
-    "supply_chain_md": "**上游 (設備/原料):**\n- **設備 ([[微影]]/[[蝕刻]]/沈積):** [[ASML]] (獨家 [[EUV]] 供應商), [[Applied Materials]], [[Lam Research]], [[Tokyo Electron]].\n- **材料 ([[矽晶圓]]/光阻/氣體):** [[環球晶]], [[Shin-Etsu]], [[SUMCO]], 默克, 關東鑫林.\n- **IP/EDA:** [[Arm]], [[Synopsys]], [[Cadence]].\n\n**下游應用:**\n- **主要平台:** 高效能運算 (HPC, ~44%), 智慧型手機 (Smartphone, ~33%), [[物聯網]], 車用電子 (Auto), [[消費性電子]] (DCE).\n- **終端產品:** iPhone (A 系列晶片), [[NVIDIA]] [[AI]] GPU (H100/Blackwell), [[AMD]] CPU, [[Qualcomm]] Snapdragon.",
+    "supply_chain_md": "**上游 (設備/原料):**\n- **設備 ([[微影]]/[[蝕刻]]/沈積):** [[ASML]] (獨家 [[EUV]] 供應商), [[Applied Materials]], [[Lam Research]], [[Tokyo Electron]].\n- **材料 ([[矽晶圓]]/光阻/氣體):** [[環球晶]], [[Shin-Etsu]], [[SUMCO]], 默克, 關東鑫林.\n- **IP/EDA:** [[Arm]], [[Synopsys]], [[Cadence]].\n\n**下游應用:**\n- **主要平台:** 高效能運算 (HPC, ~66%), 智慧型手機 (Smartphone, ~22%), [[物聯網]] (~5%), 車用電子 (Auto, ~4%), [[消費性電子]] (DCE, ~1%), 其他 (~2%).\n- **終端產品:** iPhone (A 系列晶片), [[NVIDIA]] [[AI]] GPU (H100/Blackwell), [[AMD]] CPU, [[Qualcomm]] Snapdragon.",
     "customers_suppliers_md": "### 主要客戶\n- **超級大客戶:** [[Apple]] (蘋果) - 用於 iPhone, Mac, iPad 之處理器，營收佔比最高 (>20%)。\n- **AI/HPC:** [[NVIDIA]] (輝達) - [[AI]] 晶片的主要生產夥伴。\n- **其他主要客戶:** [[AMD]], [[Qualcomm]], [[聯發科]], [[Broadcom]], [[Intel]] (外包訂單), [[Sony]].\n\n### 主要供應商\n- **[[EUV]] 機台:** [[ASML]] (艾司摩爾).",
-    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $2,205.00 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     29.92 |       16.05 |     12.88 | 8.89 |     17.22 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |   3809054.30 |   2894307.70 |   2161735.80 |\n| Gross Profit            |   2281294.00 |   1624353.60 |   1175110.60 |\n| Gross Margin (%)        |        59.89 |        56.12 |        54.36 |\n| Selling & Marketing Exp |     16918.10 |     13143.60 |     10590.70 |\n| R&D Exp                 |    246427.20 |    204181.80 |    182370.20 |\n| General & Admin Exp     |     82304.30 |     83745.00 |     60872.80 |\n| Operating Income        |   1936095.60 |   1322003.10 |    921429.90 |\n| Operating Margin (%)    |        50.83 |        45.68 |        42.62 |\n| Net Income              |   1697604.00 |   1158380.20 |    851740.00 |\n| Net Margin (%)          |        44.57 |        40.02 |        39.40 |\n| Op Cash Flow            |   2274975.60 |   1826177.10 |   1241967.30 |\n| Investing Cash Flow     |  -1144393.40 |   -864842.80 |   -906120.60 |\n| Financing Cash Flow     |   -440344.60 |   -346301.00 |   -204894.20 |\n| CAPEX                   |  -1282597.20 |   -964981.60 |   -955398.40 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-06-30 |   2026-03-31 |   2025-12-31 |   2025-09-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |   1270381.00 |   1134103.44 |   1046090.45 |    989918.32 |\n| Gross Profit            |    860311.00 |    751295.42 |    651986.86 |    588542.83 |\n| Gross Margin (%)        |        67.72 |        66.25 |        62.33 |        59.45 |\n| Selling & Marketing Exp |       -    |      4415.32 |      4916.07 |      3973.97 |\n| R&D Exp                 |     73146.00 |     67756.68 |     64857.74 |     63742.25 |\n| General & Admin Exp     |       -    |     21833.65 |     18416.94 |     20048.23 |\n| Operating Income        |    766603.00 |    658948.86 |    564880.85 |    500685.08 |\n| Operating Margin (%)    |        60.34 |        58.10 |        54.00 |        50.58 |\n| Net Income              |    706562.00 |    572479.75 |    485465.36 |    452301.41 |\n| Net Margin (%)          |        55.62 |        50.48 |        46.41 |        45.69 |\n| Op Cash Flow            |    783365.00 |    698976.27 |    725508.76 |    426829.08 |\n| Investing Cash Flow     |   -492810.00 |   -356853.76 |   -365960.05 |   -259752.62 |\n| Financing Cash Flow     |   -184654.00 |   -119910.61 |   -107685.28 |   -128293.13 |\n| CAPEX                   |   -496002.00 |   -351706.03 |   -361467.70 |   -288443.34 |"
+    "financial_md": "### 估值指標 (股價 $2,395.00 as of 2026-07-31 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     32.52 |       17.43 |     13.99 | 9.66 |     17.22 |\n\n### 營收平台佔比 (Revenue by Platform %)\n| 期間    | HPC   | Smartphone   | IoT   | Automotive   | DCE   | Others   |\n|:--------|:------|:-------------|:------|:-------------|:------|:---------|\n| 2026-Q2 | 66.0% | 22.0%        | 5.0%  | 4.0%         | 1.0%  | 2.0%     |\n| 2025-Q1 | 59.0% | 28.0%        | 5.0%  | 4.0%         | 3.0%  | 1.0%     |\n| 2024-Q4 | 53.0% | 35.0%        | 5.0%  | 4.0%         | 2.0%  | 1.0%     |\n| 2024-Q3 | 51.0% | 34.0%        | 6.0%  | 5.0%         | 3.0%  | 1.0%     |\n| 2024-Q2 | 52.0% | 33.0%        | 6.0%  | 4.0%         | 4.0%  | 1.0%     |\n| 2024-Q1 | 46.0% | 38.0%        | 6.0%  | 5.0%         | 3.0%  | 2.0%     |\n| 2023-Q4 | 43.0% | 36.0%        | 7.0%  | 8.0%         | 4.0%  | 2.0%     |\n| 2023-Q3 | 42.0% | 33.0%        | 8.0%  | 8.0%         | 5.0%  | 4.0%     |\n| 2023-Q2 | 29.0% | 33.0%        | 9.0%  | 9.0%         | 11.0% | 9.0%     |\n| 2023-Q1 | 31.0% | 34.0%        | 9.0%  | 8.0%         | 10.0% | 8.0%     |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |   3809054.30 |   2894307.70 |   2161735.80 |\n| Gross Profit            |   2281294.00 |   1624353.60 |   1175110.60 |\n| Gross Margin (%)        |        59.89 |        56.12 |        54.36 |\n| Selling & Marketing Exp |     16918.10 |     13143.60 |     10590.70 |\n| R&D Exp                 |    246427.20 |    204181.80 |    182370.20 |\n| General & Admin Exp     |     82304.30 |     83745.00 |     60872.80 |\n| Operating Income        |   1936095.60 |   1322003.10 |    921429.90 |\n| Operating Margin (%)    |        50.83 |        45.68 |        42.62 |\n| Net Income              |   1697604.00 |   1158380.20 |    851740.00 |\n| Net Margin (%)          |        44.57 |        40.02 |        39.40 |\n| Op Cash Flow            |   2274975.60 |   1826177.10 |   1241967.30 |\n| Investing Cash Flow     |  -1144393.40 |   -864842.80 |   -906120.60 |\n| Financing Cash Flow     |   -440344.60 |   -346301.00 |   -204894.20 |\n| CAPEX                   |  -1282597.20 |   -964981.60 |   -955398.40 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-06-30 |   2026-03-31 |   2025-12-31 |   2025-09-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |   1270381.00 |   1134103.44 |   1046090.45 |    989918.32 |\n| Gross Profit            |    860311.00 |    751295.42 |    651986.86 |    588542.83 |\n| Gross Margin (%)        |        67.72 |        66.25 |        62.33 |        59.45 |\n| Selling & Marketing Exp |       -    |      4415.32 |      4916.07 |      3973.97 |\n| R&D Exp                 |     73146.00 |     67756.68 |     64857.74 |     63742.25 |\n| General & Admin Exp     |       -    |     21833.65 |     18416.94 |     20048.23 |\n| Operating Income        |    766603.00 |    658948.86 |    564880.85 |    500685.08 |\n| Operating Margin (%)    |        60.34 |        58.10 |        54.00 |        50.58 |\n| Net Income              |    706562.00 |    572479.75 |    485465.36 |    452301.41 |\n| Net Margin (%)          |        55.62 |        50.48 |        46.41 |        45.69 |\n| Op Cash Flow            |    783365.00 |    698976.27 |    725508.76 |    426829.08 |\n| Investing Cash Flow     |   -492810.00 |   -356853.76 |   -365960.05 |   -259752.62 |\n| Financing Cash Flow     |   -184654.00 |   -119910.61 |   -107685.28 |   -128293.13 |\n| CAPEX                   |   -496002.00 |   -351706.03 |   -361467.70 |   -288443.34 |"
   },
   "quality": {
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 28,
-    "warnings": [
-      "competitors_curated_override_needs_review"
-    ]
+    "warnings": []
   }
 }
