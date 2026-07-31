@@ -66,7 +66,6 @@ All-report migration preview:
 ```bash
 python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py \
   --all-reports \
-  --fill-missing-competitors \
   --out data/enrichment_all_draft \
   --manifest data/enrichment_all_manifest.csv
 
@@ -101,6 +100,8 @@ Normalize competitive language into structured keys:
 - `替代`, `取代`, `外包轉自製`, `自研` -> `relationships.substitutes`.
 
 When extraction is ambiguous, preserve text in `source_text` and add a `quality.warnings` entry instead of inventing a precise atom.
+
+Do not auto-fill `relationships.competitors` from same-folder or same-industry peers. If competitors are not explicit in source or reviewed JSON, leave the array empty and review it manually. Folder peers are classification context, not validated competitors.
 
 ## Review Rules
 

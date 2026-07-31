@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Render draft enrichment JSON back to preview Markdown and compare coverage.
 
-This never overwrites Pilot_Reports. It writes generated Markdown previews under
-output/enrichment_rendered/ by default and emits a comparison CSV.
+Rendering is JSON-only and never overwrites Pilot_Reports. When source Markdown is
+available, the compare CSV uses it as validation context only.
 """
 
 from __future__ import annotations
@@ -178,7 +178,6 @@ def render_markdown(data: dict[str, Any], original: str) -> str:
 
 
 def compare(original: str, rendered: str, data: dict[str, Any]) -> dict[str, Any]:
-    financial = split_financial_section(original)
     source_links = wikilinks(source_enrichment_text(data))
     rendered_links = wikilinks(rendered)
     missing_links = sorted(source_links - rendered_links)
@@ -197,7 +196,7 @@ def compare(original: str, rendered: str, data: dict[str, Any]) -> dict[str, Any
         "rendered_wikilinks": len(rendered_links),
         "missing_wikilinks": ";".join(missing_links),
         "missing_source_sections": ";".join(section_results),
-        "financial_preserved": str(bool(financial and financial in rendered)).lower(),
+        "financial_preserved": "not_rendered",
         "competitor_count": len(data.get("relationships", {}).get("competitors", []) or []),
     }
 
@@ -223,10 +222,8 @@ def main() -> int:
     for json_path in load_json_files(json_dir, args.ticker):
         data = json.loads(json_path.read_text(encoding="utf-8"))
         src = original_md_path(coverage_root, data)
-        if not src.exists():
-            continue
-        original = src.read_text(encoding="utf-8")
-        rendered = render_markdown(data, original)
+        original = src.read_text(encoding="utf-8") if src.exists() else ""
+        rendered = render_markdown(data, "")
         out_path = out_dir / f"{data['ticker']}_{data['company_name']}.md"
         out_path.write_text(rendered, encoding="utf-8")
         row = compare(original, rendered, data)
