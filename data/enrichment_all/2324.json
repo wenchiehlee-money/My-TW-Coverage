@@ -1,0 +1,345 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2324",
+  "company_name": "仁寶",
+  "title": "2324 - [[仁寶]]",
+  "source_md": "Pilot_Reports/運動科技 - 穿戴式裝置/2324_仁寶.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "148,361 百萬台幣",
+    "enterprise_value": "154,831 百萬台幣"
+  },
+  "business": {
+    "summary": "[[仁寶]]電腦 (2324，[[Compal Electronics]]) 成立於 1984 年，總部位於台北，為全球第二大筆記型電腦 ODM 代工廠，與[[廣達]]、[[緯創]]、[[英業達]]、[[和碩]]並稱「電子五哥」。\n\n筆電代工仍為營收主力，同時積極拓展非 PC 事業，非 PC 營收占比已提升至約 29%。新事業涵蓋：(1) [[AI 伺服器]]：已開發搭載 [[NVIDIA]] GPU 之 8-GPU AI 訓練伺服器及雙相浸沒式[[液冷]]散熱方案，預計 2026 年伺服器營收占比突破 10%；(2) 汽車電子：波蘭新廠已完成一期建設，切入歐洲車用電子市場；(3) 智慧醫療：跨足 [[物聯網]] 醫療照護事業。全球製造基地涵蓋中國昆山/重慶、越南、波蘭及美國。",
+    "entities": [
+      "仁寶",
+      "Compal Electronics",
+      "廣達",
+      "緯創",
+      "英業達",
+      "和碩",
+      "AI 伺服器",
+      "NVIDIA",
+      "液冷",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 筆電/伺服器 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]] — AI 伺服器 GPU 加速卡",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]] (AUO)、[[群創]] (Innolux) — 筆電液晶面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (筆電與伺服器 ODM 代工)",
+        "text": "**中游 (筆電與伺服器 ODM 代工):**",
+        "entities": []
+      },
+      {
+        "category": "筆電代工",
+        "text": "**[[仁寶]]** (全球第二大筆電 ODM 廠)",
+        "entities": [
+          "仁寶"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**[[仁寶]]** (8-GPU AI 訓練伺服器、[[液冷]]方案)",
+        "entities": [
+          "仁寶",
+          "液冷"
+        ]
+      },
+      {
+        "category": "汽車電子",
+        "text": "**[[仁寶]]** (波蘭廠，車用電子模組)",
+        "entities": [
+          "仁寶"
+        ]
+      },
+      {
+        "category": "海外產能",
+        "text": "中國昆山/重慶、越南、波蘭、美國",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際 PC 品牌與雲端服務商)",
+        "text": "**下游 (國際 PC 品牌與雲端服務商):**",
+        "entities": []
+      },
+      {
+        "category": "PC 品牌",
+        "text": "[[Dell]]、[[宏碁]]、[[Lenovo]]、[[Toshiba]] — 筆電 ODM 代工",
+        "entities": [
+          "Dell",
+          "宏碁",
+          "Lenovo",
+          "Toshiba"
+        ]
+      },
+      {
+        "category": "CSP 雲端",
+        "text": "北美雲端服務商 — AI 伺服器",
+        "entities": []
+      },
+      {
+        "category": "車用客戶",
+        "text": "歐洲車廠 — 車用電子模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PC 品牌",
+        "text": "[[Dell]] — 最大筆電代工客戶",
+        "entities": [
+          "Dell"
+        ]
+      },
+      {
+        "role": "PC 品牌",
+        "text": "[[宏碁]]、[[Lenovo]]、[[Toshiba]] — 筆電 ODM 代工",
+        "entities": [
+          "宏碁",
+          "Lenovo",
+          "Toshiba"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "北美 CSP 雲端服務商 — AI 伺服器代工 (搭載 [[NVIDIA]] GPU)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "車用電子",
+        "text": "歐洲車廠 — 波蘭廠車用電子模組",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — CPU 平台",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]] — 筆電液晶面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM 及 SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron"
+        ]
+      },
+      {
+        "role": "電池",
+        "text": "筆電電池芯供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "role": "NB_ODM同業",
+        "text": "[[廣達]]、[[鴻海]]、[[英業達]]、[[緯創]]、[[和碩]]",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "英業達",
+          "緯創",
+          "和碩"
+        ],
+        "basis": "curated_odm_peer_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "Compal Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Compal Electronics"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "液冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "液冷"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Toshiba",
+      "type": "international_company_or_term",
+      "wikilink": "Toshiba"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[仁寶]]電腦 (2324，[[Compal Electronics]]) 成立於 1984 年，總部位於台北，為全球第二大筆記型電腦 ODM 代工廠，與[[廣達]]、[[緯創]]、[[英業達]]、[[和碩]]並稱「電子五哥」。\n\n筆電代工仍為營收主力，同時積極拓展非 PC 事業，非 PC 營收占比已提升至約 29%。新事業涵蓋：(1) [[AI 伺服器]]：已開發搭載 [[NVIDIA]] GPU 之 8-GPU AI 訓練伺服器及雙相浸沒式[[液冷]]散熱方案，預計 2026 年伺服器營收占比突破 10%；(2) 汽車電子：波蘭新廠已完成一期建設，切入歐洲車用電子市場；(3) 智慧醫療：跨足 [[物聯網]] 醫療照護事業。全球製造基地涵蓋中國昆山/重慶、越南、波蘭及美國。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **處理器:** [[Intel]]、[[AMD]] — 筆電/伺服器 CPU\n- **GPU:** [[NVIDIA]] — AI 伺服器 GPU 加速卡\n- **面板:** [[友達]] (AUO)、[[群創]] (Innolux) — 筆電液晶面板\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD\n\n**中游 (筆電與伺服器 ODM 代工):**\n- **筆電代工:** **[[仁寶]]** (全球第二大筆電 ODM 廠)\n- **AI 伺服器:** **[[仁寶]]** (8-GPU AI 訓練伺服器、[[液冷]]方案)\n- **汽車電子:** **[[仁寶]]** (波蘭廠，車用電子模組)\n- **海外產能:** 中國昆山/重慶、越南、波蘭、美國\n\n**下游 (國際 PC 品牌與雲端服務商):**\n- **PC 品牌:** [[Dell]]、[[宏碁]]、[[Lenovo]]、[[Toshiba]] — 筆電 ODM 代工\n- **CSP 雲端:** 北美雲端服務商 — AI 伺服器\n- **車用客戶:** 歐洲車廠 — 車用電子模組",
+    "customers_suppliers_md": "### 主要客戶\n- **PC 品牌:** [[Dell]] — 最大筆電代工客戶\n- **PC 品牌:** [[宏碁]]、[[Lenovo]]、[[Toshiba]] — 筆電 ODM 代工\n- **AI 伺服器:** 北美 CSP 雲端服務商 — AI 伺服器代工 (搭載 [[NVIDIA]] GPU)\n- **車用電子:** 歐洲車廠 — 波蘭廠車用電子模組\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — CPU 平台\n- **面板:** [[友達]]、[[群創]] — 筆電液晶面板\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM 及 SSD\n- **電池:** 筆電電池芯供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $33.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     25.57 |       13.50 |      0.19 | 1.12 |      8.86 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    757513.03 |    910253.02 |    946714.80 |\n| Gross Profit            |     42746.67 |     45371.25 |     42396.89 |\n| Gross Margin (%)        |         5.64 |         4.98 |         4.48 |\n| Selling & Marketing Exp |      6419.07 |      6196.25 |      6372.10 |\n| R&D Exp                 |     20171.65 |     18900.06 |     19080.13 |\n| General & Admin Exp     |      5519.50 |      5432.90 |      4896.95 |\n| Operating Income        |     10636.45 |     14842.04 |     12047.71 |\n| Operating Margin (%)    |         1.40 |         1.63 |         1.27 |\n| Net Income              |      6029.89 |     10042.41 |      7667.63 |\n| Net Margin (%)          |         0.80 |         1.10 |         0.81 |\n| Op Cash Flow            |     29772.75 |     25243.98 |     29677.20 |\n| Investing Cash Flow     |    -13402.03 |    -13007.59 |     -9520.46 |\n| Financing Cash Flow     |     -9521.30 |     -9533.61 |    -27149.28 |\n| CAPEX                   |     -8537.19 |     -7931.26 |     -7543.09 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    201303.54 |    190852.23 |    187119.66 |    180443.18 |\n| Gross Profit            |     10597.50 |     11107.71 |     10610.35 |     10585.12 |\n| Gross Margin (%)        |         5.26 |         5.82 |         5.67 |         5.87 |\n| Selling & Marketing Exp |      1556.49 |      1699.20 |      1618.55 |      1600.96 |\n| R&D Exp                 |      4910.67 |      5303.84 |      4920.86 |      5018.97 |\n| General & Admin Exp     |      1486.25 |      1470.17 |      1398.76 |      1341.62 |\n| Operating Income        |      2644.08 |      2634.50 |      2672.18 |      2623.57 |\n| Operating Margin (%)    |         1.31 |         1.38 |         1.43 |         1.45 |\n| Net Income              |      1967.19 |      1408.86 |      1947.34 |       482.46 |\n| Net Margin (%)          |         0.98 |         0.74 |         1.04 |         0.27 |\n| Op Cash Flow            |     14011.74 |     -8184.80 |      9709.44 |     13281.23 |\n| Investing Cash Flow     |     -2794.01 |     -4672.98 |     -5631.19 |     -1121.09 |\n| Financing Cash Flow     |    -11773.26 |     21066.06 |      1250.77 |    -21824.45 |\n| CAPEX                   |     -2670.32 |     -4086.83 |     -1118.15 |     -1704.11 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 21,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

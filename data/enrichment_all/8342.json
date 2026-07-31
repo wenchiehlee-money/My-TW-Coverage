@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8342",
+  "company_name": "益張",
+  "title": "8342 - 益張",
+  "source_md": "Pilot_Reports/其他 - 其他/8342_益張.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "2,968 百萬台幣",
+    "enterprise_value": "2,860 百萬台幣"
+  },
+  "business": {
+    "summary": "益張實業 (8342，I Jang Industrial) 成立於 1987 年，為全球專業商業展示設備及高階金屬儲存貨架製造商。近年成功將營運重心由傳統商店展示及居家置物架，高值化轉型至醫療照護與倉儲物流設備領域。透過自主開發的[[WMS]]倉儲管理軟體 及自有品牌「[[OGEE]]」推出電控式移動倉儲及 [[AGV]]棧板系統，精準切入[[台積電]]等[[半導體]]封測廠、自動化物流及高階醫療院所之設備供應鏈。公司具備高度客製化特殊金屬材質處理技術，產品出口[[北美]]、歐洲及日本。",
+    "entities": [
+      "WMS",
+      "OGEE",
+      "AGV",
+      "台積電",
+      "半導體",
+      "北美"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬原物料與自動化元件)",
+        "text": "**上游 (金屬原物料與自動化元件):**",
+        "entities": []
+      },
+      {
+        "category": "金屬原料",
+        "text": "高精密線材、鐵管、[[不鏽鋼]]金屬板塊",
+        "entities": [
+          "不鏽鋼"
+        ]
+      },
+      {
+        "category": "特殊處理",
+        "text": "抗靜電與特殊化學表面處理材料",
+        "entities": []
+      },
+      {
+        "category": "自動化元件",
+        "text": "電機馬達、[[AGV]]控制模組",
+        "entities": [
+          "AGV"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (專業貨架與智慧倉儲平台)",
+        "text": "**中游 (專業貨架與智慧倉儲平台):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**益張** — 高度客製化置物架與商業展示系統，整合自研 WMS 軟體與 AGV 移動系統",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全域通路與企業端)",
+        "text": "**下游 (全域通路與企業端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]] — 封測廠無塵室倉儲設備",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "北美通路",
+        "text": "北美最大商業耗材設備商",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "國內外高階[[醫療]]照護體系 — 無塵室/溫層管理設備",
+        "entities": [
+          "醫療"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]] — 封測廠無塵室倉儲設備",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "北美通路",
+        "text": "北美最大商業耗材設備商 — 商業展示系統",
+        "entities": []
+      },
+      {
+        "role": "醫療機構",
+        "text": "國內外高階醫療院所 — 溫層空間管理設備",
+        "entities": []
+      },
+      {
+        "role": "物流業",
+        "text": "自動化物流中心 — [[OGEE]]智慧倉儲系統",
+        "entities": [
+          "OGEE"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬原料",
+        "text": "不鏽鋼與鐵管供應商",
+        "entities": []
+      },
+      {
+        "role": "自動化元件",
+        "text": "AGV 控制模組與電機馬達供應商",
+        "entities": []
+      },
+      {
+        "role": "表面處理",
+        "text": "特殊化學表面處理材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "- **益張** — 高度客製化置物架與商業展示系統，整合自研 WMS 軟體與 AGV 移動系統",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "WMS",
+      "type": "international_company_or_term",
+      "wikilink": "WMS"
+    },
+    {
+      "name": "OGEE",
+      "type": "international_company_or_term",
+      "wikilink": "OGEE"
+    },
+    {
+      "name": "AGV",
+      "type": "international_company_or_term",
+      "wikilink": "AGV"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "北美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "北美"
+    },
+    {
+      "name": "不鏽鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不鏽鋼"
+    },
+    {
+      "name": "醫療",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "益張實業 (8342，I Jang Industrial) 成立於 1987 年，為全球專業商業展示設備及高階金屬儲存貨架製造商。近年成功將營運重心由傳統商店展示及居家置物架，高值化轉型至醫療照護與倉儲物流設備領域。透過自主開發的[[WMS]]倉儲管理軟體 及自有品牌「[[OGEE]]」推出電控式移動倉儲及 [[AGV]]棧板系統，精準切入[[台積電]]等[[半導體]]封測廠、自動化物流及高階醫療院所之設備供應鏈。公司具備高度客製化特殊金屬材質處理技術，產品出口[[北美]]、歐洲及日本。",
+    "supply_chain_md": "**上游 (金屬原物料與自動化元件):**\n- **金屬原料:** 高精密線材、鐵管、[[不鏽鋼]]金屬板塊\n- **特殊處理:** 抗靜電與特殊化學表面處理材料\n- **自動化元件:** 電機馬達、[[AGV]]控制模組\n\n**中游 (專業貨架與智慧倉儲平台):**\n- **益張** — 高度客製化置物架與商業展示系統，整合自研 WMS 軟體與 AGV 移動系統\n\n**下游 (全域通路與企業端):**\n- **半導體:** [[台積電]] — 封測廠無塵室倉儲設備\n- **北美通路:** 北美最大商業耗材設備商\n- **醫療:** 國內外高階[[醫療]]照護體系 — 無塵室/溫層管理設備",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]] — 封測廠無塵室倉儲設備\n- **北美通路:** 北美最大商業耗材設備商 — 商業展示系統\n- **醫療機構:** 國內外高階醫療院所 — 溫層空間管理設備\n- **物流業:** 自動化物流中心 — [[OGEE]]智慧倉儲系統\n\n### 主要供應商\n- **金屬原料:** 不鏽鋼與鐵管供應商\n- **自動化元件:** AGV 控制模組與電機馬達供應商\n- **表面處理:** 特殊化學表面處理材料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $88.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.23 |         N/A |      1.80 | 2.68 |     11.37 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1641.80 |      1744.62 |      1431.84 |\n| Gross Profit            |       414.84 |       443.53 |       334.68 |\n| Gross Margin (%)        |        25.27 |        25.42 |        23.37 |\n| Selling & Marketing Exp |        74.73 |        80.39 |        64.48 |\n| R&D Exp                 |        20.62 |        21.01 |        18.19 |\n| General & Admin Exp     |       105.27 |       107.60 |        88.57 |\n| Operating Income        |       214.23 |       234.54 |       163.44 |\n| Operating Margin (%)    |        13.05 |        13.44 |        11.41 |\n| Net Income              |       200.19 |       256.21 |       158.05 |\n| Net Margin (%)          |        12.19 |        14.69 |        11.04 |\n| Op Cash Flow            |       234.55 |       310.41 |       177.87 |\n| Investing Cash Flow     |       -22.56 |       -66.40 |       -84.53 |\n| Financing Cash Flow     |      -193.66 |      -270.85 |        -9.91 |\n| CAPEX                   |       -37.81 |       -31.90 |       -24.42 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       375.72 |       466.75 |       398.30 |       406.34 |\n| Gross Profit            |        97.57 |       111.42 |        92.74 |       109.73 |\n| Gross Margin (%)        |        25.97 |        23.87 |        23.28 |        27.01 |\n| Selling & Marketing Exp |        17.36 |        19.17 |        20.43 |        16.54 |\n| R&D Exp                 |         5.42 |         5.97 |         4.77 |         4.31 |\n| General & Admin Exp     |        27.11 |        28.44 |        27.42 |        23.92 |\n| Operating Income        |        47.68 |        57.85 |        40.13 |        64.96 |\n| Operating Margin (%)    |        12.69 |        12.39 |        10.08 |        15.99 |\n| Net Income              |        48.61 |        65.28 |        56.07 |        25.24 |\n| Net Margin (%)          |        12.94 |        13.99 |        14.08 |         6.21 |\n| Op Cash Flow            |        11.49 |       129.30 |       100.61 |         5.88 |\n| Investing Cash Flow     |       -20.72 |        -1.07 |       -21.70 |         3.31 |\n| Financing Cash Flow     |       -15.54 |       -57.69 |       -87.48 |      -207.98 |\n| CAPEX                   |       -14.55 |        -6.21 |       -15.14 |        -9.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

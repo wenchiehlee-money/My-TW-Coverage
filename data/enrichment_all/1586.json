@@ -1,0 +1,194 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1586",
+  "company_name": "和勤",
+  "title": "1586 - 和勤",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 金屬、塑膠模具/1586_和勤.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "2,273 百萬台幣",
+    "enterprise_value": "2,376 百萬台幣"
+  },
+  "business": {
+    "summary": "和勤精機 (1586，CFTC) 為精密沖壓及精密鍛造專業廠，產品應用於[[電動車]]及硬碟。EV客戶含[[Tesla]]、[[BYD]]。硬碟客戶含[[Seagate]]、[[Western Digital]]。汽車Tier 1含[[Magna]]、[[BorgWarner]]、[[Eaton]]、[[ZF]]。上游鋼材來自[[中鋼]]。",
+    "entities": [
+      "電動車",
+      "Tesla",
+      "BYD",
+      "Seagate",
+      "Western Digital",
+      "Magna",
+      "BorgWarner",
+      "Eaton",
+      "ZF",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[中鋼]] — 鋼材",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**和勤** (精密沖壓/鍛造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "EV: [[Tesla]]、[[BYD]]",
+        "entities": [
+          "Tesla",
+          "BYD"
+        ]
+      },
+      {
+        "category": "",
+        "text": "HDD: [[Seagate]]、[[Western Digital]]",
+        "entities": [
+          "Seagate",
+          "Western Digital"
+        ]
+      },
+      {
+        "category": "",
+        "text": "Tier 1: [[Magna]]、[[BorgWarner]]、[[Eaton]]、[[ZF]]",
+        "entities": [
+          "Magna",
+          "BorgWarner",
+          "Eaton",
+          "ZF"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Tesla]]、[[BYD]] — [[電動車]]",
+        "entities": [
+          "Tesla",
+          "BYD",
+          "電動車"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Seagate]]、[[Western Digital]] — HDD",
+        "entities": [
+          "Seagate",
+          "Western Digital"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Magna]]、[[BorgWarner]]、[[Eaton]]、[[ZF]] — Tier 1",
+        "entities": [
+          "Magna",
+          "BorgWarner",
+          "Eaton",
+          "ZF"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[中鋼]]",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "Western Digital",
+      "type": "international_company_or_term",
+      "wikilink": "Western Digital"
+    },
+    {
+      "name": "Magna",
+      "type": "international_company_or_term",
+      "wikilink": "Magna"
+    },
+    {
+      "name": "BorgWarner",
+      "type": "international_company_or_term",
+      "wikilink": "BorgWarner"
+    },
+    {
+      "name": "Eaton",
+      "type": "international_company_or_term",
+      "wikilink": "Eaton"
+    },
+    {
+      "name": "ZF",
+      "type": "international_company_or_term",
+      "wikilink": "ZF"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "和勤精機 (1586，CFTC) 為精密沖壓及精密鍛造專業廠，產品應用於[[電動車]]及硬碟。EV客戶含[[Tesla]]、[[BYD]]。硬碟客戶含[[Seagate]]、[[Western Digital]]。汽車Tier 1含[[Magna]]、[[BorgWarner]]、[[Eaton]]、[[ZF]]。上游鋼材來自[[中鋼]]。",
+    "supply_chain_md": "**上游:** [[中鋼]] — 鋼材\n**中游:** **和勤** (精密沖壓/鍛造)\n**下游:**\n- EV: [[Tesla]]、[[BYD]]\n- HDD: [[Seagate]]、[[Western Digital]]\n- Tier 1: [[Magna]]、[[BorgWarner]]、[[Eaton]]、[[ZF]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Tesla]]、[[BYD]] — [[電動車]]\n- [[Seagate]]、[[Western Digital]] — HDD\n- [[Magna]]、[[BorgWarner]]、[[Eaton]]、[[ZF]] — Tier 1\n\n### 主要供應商\n- [[中鋼]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    130.00 |        8.31 |      1.00 | 0.93 |     14.50 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2300.56 |      2572.58 |      2310.59 |\n| Gross Profit            |       282.29 |       401.78 |       256.01 |\n| Gross Margin (%)        |        12.27 |        15.62 |        11.08 |\n| Selling & Marketing Exp |        51.81 |        62.00 |        46.71 |\n| R&D Exp                 |       113.63 |       124.90 |       104.80 |\n| General & Admin Exp     |       182.54 |       183.12 |       173.44 |\n| Operating Income        |       -65.70 |        31.76 |       -68.93 |\n| Operating Margin (%)    |        -2.86 |         1.23 |        -2.98 |\n| Net Income              |       -34.13 |        35.28 |       -54.31 |\n| Net Margin (%)          |        -1.48 |         1.37 |        -2.35 |\n| Op Cash Flow            |       252.16 |       298.11 |       315.42 |\n| Investing Cash Flow     |       -53.72 |       -58.93 |       -46.47 |\n| Financing Cash Flow     |      -186.49 |      -221.21 |      -199.14 |\n| CAPEX                   |       -50.14 |       -32.07 |       -29.05 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       547.98 |       637.11 |       562.63 |       558.53 |\n| Gross Profit            |        97.23 |        90.01 |        67.63 |        64.66 |\n| Gross Margin (%)        |        17.74 |        14.13 |        12.02 |        11.58 |\n| Selling & Marketing Exp |        11.84 |        13.04 |        12.74 |        12.06 |\n| R&D Exp                 |        23.47 |        23.49 |        22.36 |        31.42 |\n| General & Admin Exp     |        37.67 |        52.34 |        41.94 |        41.23 |\n| Operating Income        |        24.25 |         1.14 |        -9.41 |       -20.05 |\n| Operating Margin (%)    |         4.43 |         0.18 |        -1.67 |        -3.59 |\n| Net Income              |        17.46 |        10.85 |        -4.21 |       -11.08 |\n| Net Margin (%)          |         3.19 |         1.70 |        -0.75 |        -1.98 |\n| Op Cash Flow            |        -3.67 |        74.00 |       103.25 |        23.68 |\n| Investing Cash Flow     |       -10.49 |       -22.37 |       -14.05 |         2.58 |\n| Financing Cash Flow     |       -53.26 |       -57.62 |      -161.93 |       -91.01 |\n| CAPEX                   |        -4.12 |       -31.93 |        -4.92 |        -1.23 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

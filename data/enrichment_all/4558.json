@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4558",
+  "company_name": "寶緯",
+  "title": "4558 - 寶緯",
+  "source_md": "Pilot_Reports/運動科技 - 裝置_器材零組件/4558_寶緯.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum",
+    "market_cap": "790 百萬台幣",
+    "enterprise_value": "2,199 百萬台幣"
+  },
+  "business": {
+    "summary": "寶緯工業 (4558，ALFORMER Industrial) 為台灣最大[[鋁擠型]]製造商之一，逾 30 年歷史。核心製程涵蓋鋁擠型、鋁鍛造、客製化鋁門窗、CNC 精密加工及[[陽極處理]]五大能力。產品應用跨越：(1) 半導體設備 — 供應晶圓廠無塵室天車軌道與結構件，精度要求極高 (刮痕累積粉塵影響良率)，終端客戶包含[[台積電]]；(2) 運動休閒 — 透過[[期美科技]]供應[[Peloton]]健身器材鋁合金車架零組件；(3) 自行車 — 供應[[巨大]] (Giant)、[[美利達]] (Merida) 等高階自行車零組件；(4) 建築 — 鋁門窗與[[鋁模板]]建築模組。鋁錠原料主要採購自[[中鋼鋁業]]。",
+    "entities": [
+      "鋁擠型",
+      "陽極處理",
+      "台積電",
+      "期美科技",
+      "Peloton",
+      "巨大",
+      "美利達",
+      "鋁模板",
+      "中鋼鋁業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋁錠",
+        "text": "[[中鋼鋁業]] (C.S. Aluminium) — 台灣主要鋁錠供應商",
+        "entities": [
+          "中鋼鋁業"
+        ]
+      },
+      {
+        "category": "表面處理",
+        "text": "[[陽極處理]]化學品供應商",
+        "entities": [
+          "陽極處理"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**寶緯** ([[鋁擠型]]、鋁鍛造、CNC 精密加工、[[陽極處理]])",
+        "entities": [
+          "鋁擠型",
+          "陽極處理"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "半導體設備",
+        "text": "無塵室天車軌道與結構件，終端客戶涵蓋[[台積電]]",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "運動休閒",
+        "text": "[[期美科技]] — [[Peloton]]健身器材鋁合金零組件",
+        "entities": [
+          "期美科技",
+          "Peloton"
+        ]
+      },
+      {
+        "category": "自行車",
+        "text": "[[巨大]] (Giant)、[[美利達]] (Merida) — 高階自行車零組件",
+        "entities": [
+          "巨大",
+          "美利達"
+        ]
+      },
+      {
+        "category": "建築工程",
+        "text": "[[鋁模板]]建築模組及鋁門窗",
+        "entities": [
+          "鋁模板"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體設備",
+        "text": "無塵室天車軌道，終端客戶含[[台積電]]",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "運動休閒",
+        "text": "[[期美科技]] — [[Peloton]]健身器材鋁合金零組件",
+        "entities": [
+          "期美科技",
+          "Peloton"
+        ]
+      },
+      {
+        "role": "自行車",
+        "text": "[[巨大]] (Giant)、[[美利達]] (Merida) — 高階零組件",
+        "entities": [
+          "巨大",
+          "美利達"
+        ]
+      },
+      {
+        "role": "建築",
+        "text": "[[鋁模板]]及鋁門窗工程客戶",
+        "entities": [
+          "鋁模板"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋁錠",
+        "text": "[[中鋼鋁業]] — 台灣主要鋁錠供應",
+        "entities": [
+          "中鋼鋁業"
+        ]
+      },
+      {
+        "role": "表面處理",
+        "text": "[[陽極處理]]化學品",
+        "entities": [
+          "陽極處理"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "寶緯工業 (4558，ALFORMER Industrial) 為台灣最大[[鋁擠型]]製造商之一，逾 30 年歷史。核心製程涵蓋鋁擠型、鋁鍛造、客製化鋁門窗、CNC 精密加工及[[陽極處理]]五大能力。產品應用跨越：(1) 半導體設備 — 供應晶圓廠無塵室天車軌道與結構件，精度要求極高 (刮痕累積粉塵影響良率)，終端客戶包含[[台積電]]；(2) 運動休閒 — 透過[[期美科技]]供應[[Peloton]]健身器材鋁合金車架零組件；(3) 自行車 — 供應[[巨大]] (Giant)、[[美利達]] (Merida) 等高階自行車零組件；(4) 建築 — 鋁門窗與[[鋁模板]]建築模組。鋁錠原料主要採購自[[中鋼鋁業]]。",
+        "entities": [
+          "鋁擠型",
+          "陽極處理",
+          "台積電",
+          "期美科技",
+          "Peloton",
+          "巨大",
+          "美利達",
+          "鋁模板",
+          "中鋼鋁業"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鋁擠型",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋁擠型"
+    },
+    {
+      "name": "陽極處理",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽極處理"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "期美科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "期美科技"
+    },
+    {
+      "name": "Peloton",
+      "type": "international_company_or_term",
+      "wikilink": "Peloton"
+    },
+    {
+      "name": "巨大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大"
+    },
+    {
+      "name": "美利達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美利達"
+    },
+    {
+      "name": "鋁模板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋁模板"
+    },
+    {
+      "name": "中鋼鋁業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼鋁業"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶緯工業 (4558，ALFORMER Industrial) 為台灣最大[[鋁擠型]]製造商之一，逾 30 年歷史。核心製程涵蓋鋁擠型、鋁鍛造、客製化鋁門窗、CNC 精密加工及[[陽極處理]]五大能力。產品應用跨越：(1) 半導體設備 — 供應晶圓廠無塵室天車軌道與結構件，精度要求極高 (刮痕累積粉塵影響良率)，終端客戶包含[[台積電]]；(2) 運動休閒 — 透過[[期美科技]]供應[[Peloton]]健身器材鋁合金車架零組件；(3) 自行車 — 供應[[巨大]] (Giant)、[[美利達]] (Merida) 等高階自行車零組件；(4) 建築 — 鋁門窗與[[鋁模板]]建築模組。鋁錠原料主要採購自[[中鋼鋁業]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋁錠:** [[中鋼鋁業]] (C.S. Aluminium) — 台灣主要鋁錠供應商\n- **表面處理:** [[陽極處理]]化學品供應商\n\n**中游 (製造):**\n- **寶緯** ([[鋁擠型]]、鋁鍛造、CNC 精密加工、[[陽極處理]])\n\n**下游 (終端客戶):**\n- **半導體設備:** 無塵室天車軌道與結構件，終端客戶涵蓋[[台積電]]\n- **運動休閒:** [[期美科技]] — [[Peloton]]健身器材鋁合金零組件\n- **自行車:** [[巨大]] (Giant)、[[美利達]] (Merida) — 高階自行車零組件\n- **建築工程:** [[鋁模板]]建築模組及鋁門窗",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體設備:** 無塵室天車軌道，終端客戶含[[台積電]]\n- **運動休閒:** [[期美科技]] — [[Peloton]]健身器材鋁合金零組件\n- **自行車:** [[巨大]] (Giant)、[[美利達]] (Merida) — 高階零組件\n- **建築:** [[鋁模板]]及鋁門窗工程客戶\n\n### 主要供應商\n- **鋁錠:** [[中鋼鋁業]] — 台灣主要鋁錠供應\n- **表面處理:** [[陽極處理]]化學品",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.80 as of 2026-07-29 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.55 | 0.90 |     25.51 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1536.36 |      1452.61 |      1585.72 |\n| Gross Profit            |        79.61 |       125.23 |        89.77 |\n| Gross Margin (%)        |         5.18 |         8.62 |         5.66 |\n| Selling & Marketing Exp |        21.14 |        20.84 |        19.48 |\n| R&D Exp                 |        11.89 |        15.56 |         9.24 |\n| General & Admin Exp     |        57.89 |        56.16 |        49.62 |\n| Operating Income        |       -11.31 |        32.67 |        11.44 |\n| Operating Margin (%)    |        -0.74 |         2.25 |         0.72 |\n| Net Income              |       -19.29 |        24.25 |         0.25 |\n| Net Margin (%)          |        -1.26 |         1.67 |         0.02 |\n| Op Cash Flow            |        -2.38 |        26.45 |       245.56 |\n| Investing Cash Flow     |      -244.16 |      -289.61 |       -84.12 |\n| Financing Cash Flow     |       398.91 |       258.15 |       -69.84 |\n| CAPEX                   |      -207.66 |      -268.90 |       -70.10 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       300.81 |       457.71 |       381.93 |       395.92 |\n| Gross Profit            |        27.17 |        53.90 |        -7.78 |         6.32 |\n| Gross Margin (%)        |         9.03 |        11.78 |        -2.04 |         1.60 |\n| Selling & Marketing Exp |         5.20 |         5.09 |         5.02 |         5.82 |\n| R&D Exp                 |         3.87 |         2.61 |         2.62 |         2.80 |\n| General & Admin Exp     |        16.25 |        14.18 |        12.81 |        14.66 |\n| Operating Income        |         1.86 |        32.02 |       -28.22 |       -16.97 |\n| Operating Margin (%)    |         0.62 |         7.00 |        -7.39 |        -4.29 |\n| Net Income              |        -1.20 |        20.91 |       -22.54 |       -16.46 |\n| Net Margin (%)          |        -0.40 |         4.57 |        -5.90 |        -4.16 |\n| Op Cash Flow            |       -63.07 |      -144.38 |       140.69 |        64.38 |\n| Investing Cash Flow     |       -53.44 |       -68.37 |       -27.47 |       -94.88 |\n| Financing Cash Flow     |        88.07 |       287.33 |       -32.05 |        55.56 |\n| CAPEX                   |       -51.45 |       -37.12 |       -25.61 |       -93.49 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

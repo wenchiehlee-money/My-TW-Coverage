@@ -1,0 +1,350 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3702",
+  "company_name": "大聯大",
+  "title": "3702 - 大聯大",
+  "source_md": "Pilot_Reports/半導體 - IC通路/3702_大聯大.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "177,987 百萬台幣",
+    "enterprise_value": "344,132 百萬台幣"
+  },
+  "business": {
+    "summary": "大聯大投資控股 (3702，WPG Holdings) 成立於 2005 年，總部位於台北，為全球最大半導體零組件通路商之一，2024 年合併營收達 8,806 億元。旗下擁有[[世平]]、[[品佳]]、[[詮鼎]]及[[友尚]]四大子公司，代理產品線超過 250 家原廠。代理之核心半導體原廠包括 [[TI]] ([[Texas Instruments]])、[[Infineon]]、[[NXP]]、[[Renesas]]、[[Intel]] 等。產品涵蓋類比 IC、[[MCU]]、功率半導體、[[DRAM]]、光學元件、被動元件及連接器。業務版圖以大中華區為主 (約 70%)，近年受地緣政治影響，東南亞與美國市場比重持續上升。",
+    "entities": [
+      "世平",
+      "品佳",
+      "詮鼎",
+      "友尚",
+      "TI",
+      "Texas Instruments",
+      "Infineon",
+      "NXP",
+      "Renesas",
+      "Intel",
+      "MCU",
+      "DRAM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (全球半導體原廠)",
+        "text": "**上游 (全球半導體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "類比/電源",
+        "text": "[[TI]] ([[Texas Instruments]])、[[ADI]] — 類比 IC/電源管理",
+        "entities": [
+          "TI",
+          "Texas Instruments",
+          "ADI"
+        ]
+      },
+      {
+        "category": "功率/車用",
+        "text": "[[Infineon]]、[[NXP]]、[[Renesas]] — 功率半導體/車用晶片",
+        "entities": [
+          "Infineon",
+          "NXP",
+          "Renesas"
+        ]
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]] — CPU/嵌入式處理器",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Alliance Memory]]、[[Macronix]]、[[群聯]] — [[DRAM]]/Flash",
+        "entities": [
+          "Alliance Memory",
+          "Macronix",
+          "群聯",
+          "DRAM"
+        ]
+      },
+      {
+        "category": "被動/連接器",
+        "text": "各類被動元件與連接器原廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[世平]]** — 半導體通路 (大聯大最大子公司)",
+        "entities": [
+          "世平"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[品佳]]** — 半導體通路",
+        "entities": [
+          "品佳"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[詮鼎]]** — 半導體通路",
+        "entities": [
+          "詮鼎"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[友尚]]** — 半導體通路",
+        "entities": [
+          "友尚"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子製造)",
+        "text": "**下游 (電子製造):**",
+        "entities": []
+      },
+      {
+        "category": "PC/伺服器",
+        "text": "ODM/EMS 大廠",
+        "entities": []
+      },
+      {
+        "category": "車用電子",
+        "text": "車用 Tier-1 供應商",
+        "entities": []
+      },
+      {
+        "category": "工控/通訊",
+        "text": "工業電腦與網通設備製造商",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "手機/家電代工廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EMS/ODM",
+        "text": "台灣與中國大型電子代工廠",
+        "entities": []
+      },
+      {
+        "role": "車用 Tier-1",
+        "text": "車用電子模組供應商",
+        "entities": []
+      },
+      {
+        "role": "工控/通訊",
+        "text": "[[工業電腦]]與網通設備製造商",
+        "entities": [
+          "工業電腦"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "手機、家電代工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "類比 IC",
+        "text": "[[TI]] ([[Texas Instruments]]) — 類比/電源管理",
+        "entities": [
+          "TI",
+          "Texas Instruments"
+        ]
+      },
+      {
+        "role": "功率半導體",
+        "text": "[[Infineon]] — [[MOSFET]]/[[IGBT]]",
+        "entities": [
+          "Infineon",
+          "MOSFET",
+          "IGBT"
+        ]
+      },
+      {
+        "role": "車用/MCU",
+        "text": "[[NXP]]、[[Renesas]] — 車用晶片/[[MCU]]",
+        "entities": [
+          "NXP",
+          "Renesas",
+          "MCU"
+        ]
+      },
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — CPU/嵌入式",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Macronix]]、[[群聯]] — Flash 記憶體",
+        "entities": [
+          "Macronix",
+          "群聯"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "世平",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世平"
+    },
+    {
+      "name": "品佳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "品佳"
+    },
+    {
+      "name": "詮鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "詮鼎"
+    },
+    {
+      "name": "友尚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友尚"
+    },
+    {
+      "name": "TI",
+      "type": "international_company_or_term",
+      "wikilink": "TI"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "ADI",
+      "type": "international_company_or_term",
+      "wikilink": "ADI"
+    },
+    {
+      "name": "Alliance Memory",
+      "type": "international_company_or_term",
+      "wikilink": "Alliance Memory"
+    },
+    {
+      "name": "Macronix",
+      "type": "international_company_or_term",
+      "wikilink": "Macronix"
+    },
+    {
+      "name": "群聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群聯"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "立衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立衛"
+    },
+    {
+      "name": "巨虹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨虹"
+    },
+    {
+      "name": "擎亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "擎亞"
+    },
+    {
+      "name": "至上",
+      "type": "taiwan_company_or_term",
+      "wikilink": "至上"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大聯大投資控股 (3702，WPG Holdings) 成立於 2005 年，總部位於台北，為全球最大半導體零組件通路商之一，2024 年合併營收達 8,806 億元。旗下擁有[[世平]]、[[品佳]]、[[詮鼎]]及[[友尚]]四大子公司，代理產品線超過 250 家原廠。代理之核心半導體原廠包括 [[TI]] ([[Texas Instruments]])、[[Infineon]]、[[NXP]]、[[Renesas]]、[[Intel]] 等。產品涵蓋類比 IC、[[MCU]]、功率半導體、[[DRAM]]、光學元件、被動元件及連接器。業務版圖以大中華區為主 (約 70%)，近年受地緣政治影響，東南亞與美國市場比重持續上升。",
+    "supply_chain_md": "**上游 (全球半導體原廠):**\n- **類比/電源:** [[TI]] ([[Texas Instruments]])、[[ADI]] — 類比 IC/電源管理\n- **功率/車用:** [[Infineon]]、[[NXP]]、[[Renesas]] — 功率半導體/車用晶片\n- **處理器:** [[Intel]] — CPU/嵌入式處理器\n- **記憶體:** [[Alliance Memory]]、[[Macronix]]、[[群聯]] — [[DRAM]]/Flash\n- **被動/連接器:** 各類被動元件與連接器原廠\n\n**中游 (通路代理):**\n- **[[世平]]** — 半導體通路 (大聯大最大子公司)\n- **[[品佳]]** — 半導體通路\n- **[[詮鼎]]** — 半導體通路\n- **[[友尚]]** — 半導體通路\n\n**下游 (電子製造):**\n- **PC/伺服器:** ODM/EMS 大廠\n- **車用電子:** 車用 Tier-1 供應商\n- **工控/通訊:** 工業電腦與網通設備製造商\n- **消費電子:** 手機/家電代工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **EMS/ODM:** 台灣與中國大型電子代工廠\n- **車用 Tier-1:** 車用電子模組供應商\n- **工控/通訊:** [[工業電腦]]與網通設備製造商\n- **消費電子:** 手機、家電代工廠\n\n### 主要供應商\n- **類比 IC:** [[TI]] ([[Texas Instruments]]) — 類比/電源管理\n- **功率半導體:** [[Infineon]] — [[MOSFET]]/[[IGBT]]\n- **車用/MCU:** [[NXP]]、[[Renesas]] — 車用晶片/[[MCU]]\n- **處理器:** [[Intel]] — CPU/嵌入式\n- **記憶體:** [[Macronix]]、[[群聯]] — Flash 記憶體",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $105.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.87 |        6.86 |      0.17 | 1.97 |     13.89 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    999109.58 |    880552.33 |    671888.13 |\n| Gross Profit            |     39539.85 |     31302.64 |     25385.68 |\n| Gross Margin (%)        |         3.96 |         3.55 |         3.78 |\n| Selling & Marketing Exp |     14247.57 |     12169.31 |     10025.32 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      5240.48 |      4777.44 |      4611.27 |\n| Operating Income        |     20051.79 |     14355.89 |     10749.09 |\n| Operating Margin (%)    |         2.01 |         1.63 |         1.60 |\n| Net Income              |     10105.24 |      7245.17 |      8109.41 |\n| Net Margin (%)          |         1.01 |         0.82 |         1.21 |\n| Op Cash Flow            |     22216.10 |    -25230.99 |     16203.55 |\n| Investing Cash Flow     |      -385.81 |     -3007.54 |      4026.76 |\n| Financing Cash Flow     |    -18400.70 |     23877.47 |    -15976.85 |\n| CAPEX                   |      -267.40 |      -361.94 |      -645.77 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    255356.39 |    244467.11 |    250452.02 |    248834.06 |\n| Gross Profit            |     10871.29 |      9855.38 |      9560.31 |      9252.86 |\n| Gross Margin (%)        |         4.26 |         4.03 |         3.82 |         3.72 |\n| Selling & Marketing Exp |      4245.20 |      3208.61 |      3333.53 |      3460.24 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |      1376.18 |      1322.65 |      1280.30 |      1261.35 |\n| Operating Income        |      5249.91 |      5324.13 |      4946.48 |      4531.27 |\n| Operating Margin (%)    |         2.06 |         2.18 |         1.98 |         1.82 |\n| Net Income              |      2843.17 |      3178.18 |      2185.67 |      1898.22 |\n| Net Margin (%)          |         1.11 |         1.30 |         0.87 |         0.76 |\n| Op Cash Flow            |     16320.32 |    -12501.78 |     23191.80 |     -4794.23 |\n| Investing Cash Flow     |       -40.71 |       397.05 |     -1753.41 |      1011.26 |\n| Financing Cash Flow     |    -17182.30 |      7543.78 |    -15895.05 |      7132.87 |\n| CAPEX                   |       -71.25 |       -52.52 |       -89.56 |       -54.07 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": []
+  }
+}

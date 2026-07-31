@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4581",
+  "company_name": "光隆精密-KY",
+  "title": "4581 - 光隆精密-KY",
+  "source_md": "Pilot_Reports/Auto Parts/4581_光隆精密-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,722 百萬台幣",
+    "enterprise_value": "1,562 百萬台幣"
+  },
+  "business": {
+    "summary": "光隆精密-KY (4581) 專精商用車引擎精密加工零組件，產品涵蓋排放減量件、渦輪增壓器彎管、飛輪殼、排氣歧管及氣壓碟煞卡鉗。最大客戶為[[Cummins]] (北美柴油引擎龍頭)，透過 Cummins 間接供應北美四大卡車 OEM — [[PACCAR]]、[[Daimler Truck]] (市佔 30%)、[[Volvo Trucks]] (市佔 20%)、[[Traton]] (市佔 10%)。日本客戶涵蓋[[Isuzu]]、[[UD Trucks]]。歐洲客戶為[[Continental]]及[[Haldex]] (煞車系統)。中國客戶為[[浙江銀輪]]。另跨足風力發電及工業機械零組件。",
+    "entities": [
+      "Cummins",
+      "PACCAR",
+      "Daimler Truck",
+      "Volvo Trucks",
+      "Traton",
+      "Isuzu",
+      "UD Trucks",
+      "Continental",
+      "Haldex",
+      "浙江銀輪"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鑄件",
+        "text": "鑄鐵/鋁錠/金屬胚料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**光隆** (商用車引擎精密加工、氣壓碟煞卡鉗；風力發電/工業機械零組件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "北美商用車",
+        "text": "[[Cummins]] (最大客戶) — 間接供應[[PACCAR]]、[[Daimler Truck]]、[[Volvo Trucks]]、[[Traton]]",
+        "entities": [
+          "Cummins",
+          "PACCAR",
+          "Daimler Truck",
+          "Volvo Trucks",
+          "Traton"
+        ]
+      },
+      {
+        "category": "日本",
+        "text": "[[Isuzu]]、[[UD Trucks]] — 商用車引擎件",
+        "entities": [
+          "Isuzu",
+          "UD Trucks"
+        ]
+      },
+      {
+        "category": "歐洲",
+        "text": "[[Continental]]、[[Haldex]] — 煞車系統",
+        "entities": [
+          "Continental",
+          "Haldex"
+        ]
+      },
+      {
+        "category": "中國",
+        "text": "[[浙江銀輪]] — 引擎零組件",
+        "entities": [
+          "浙江銀輪"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美",
+        "text": "[[Cummins]] (最大客戶) — 間接供應[[PACCAR]]、[[Daimler Truck]]、[[Volvo Trucks]]、[[Traton]]",
+        "entities": [
+          "Cummins",
+          "PACCAR",
+          "Daimler Truck",
+          "Volvo Trucks",
+          "Traton"
+        ]
+      },
+      {
+        "role": "日本",
+        "text": "[[Isuzu]]、[[UD Trucks]] — 商用車引擎件",
+        "entities": [
+          "Isuzu",
+          "UD Trucks"
+        ]
+      },
+      {
+        "role": "歐洲",
+        "text": "[[Continental]]、[[Haldex]] — 煞車系統",
+        "entities": [
+          "Continental",
+          "Haldex"
+        ]
+      },
+      {
+        "role": "中國",
+        "text": "[[浙江銀輪]] — 引擎零組件",
+        "entities": [
+          "浙江銀輪"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鑄件",
+        "text": "鑄鐵/鋁錠/金屬胚料",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Cummins",
+      "type": "international_company_or_term",
+      "wikilink": "Cummins"
+    },
+    {
+      "name": "PACCAR",
+      "type": "international_company_or_term",
+      "wikilink": "PACCAR"
+    },
+    {
+      "name": "Daimler Truck",
+      "type": "international_company_or_term",
+      "wikilink": "Daimler Truck"
+    },
+    {
+      "name": "Volvo Trucks",
+      "type": "international_company_or_term",
+      "wikilink": "Volvo Trucks"
+    },
+    {
+      "name": "Traton",
+      "type": "international_company_or_term",
+      "wikilink": "Traton"
+    },
+    {
+      "name": "Isuzu",
+      "type": "international_company_or_term",
+      "wikilink": "Isuzu"
+    },
+    {
+      "name": "UD Trucks",
+      "type": "international_company_or_term",
+      "wikilink": "UD Trucks"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "Haldex",
+      "type": "international_company_or_term",
+      "wikilink": "Haldex"
+    },
+    {
+      "name": "浙江銀輪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "浙江銀輪"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "光隆精密-KY (4581) 專精商用車引擎精密加工零組件，產品涵蓋排放減量件、渦輪增壓器彎管、飛輪殼、排氣歧管及氣壓碟煞卡鉗。最大客戶為[[Cummins]] (北美柴油引擎龍頭)，透過 Cummins 間接供應北美四大卡車 OEM — [[PACCAR]]、[[Daimler Truck]] (市佔 30%)、[[Volvo Trucks]] (市佔 20%)、[[Traton]] (市佔 10%)。日本客戶涵蓋[[Isuzu]]、[[UD Trucks]]。歐洲客戶為[[Continental]]及[[Haldex]] (煞車系統)。中國客戶為[[浙江銀輪]]。另跨足風力發電及工業機械零組件。",
+    "supply_chain_md": "**上游 (原料):**\n- **鑄件:** 鑄鐵/鋁錠/金屬胚料供應商\n\n**中游 (製造):**\n- **光隆** (商用車引擎精密加工、氣壓碟煞卡鉗；風力發電/工業機械零組件)\n\n**下游 (終端客戶):**\n- **北美商用車:** [[Cummins]] (最大客戶) — 間接供應[[PACCAR]]、[[Daimler Truck]]、[[Volvo Trucks]]、[[Traton]]\n- **日本:** [[Isuzu]]、[[UD Trucks]] — 商用車引擎件\n- **歐洲:** [[Continental]]、[[Haldex]] — 煞車系統\n- **中國:** [[浙江銀輪]] — 引擎零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **北美:** [[Cummins]] (最大客戶) — 間接供應[[PACCAR]]、[[Daimler Truck]]、[[Volvo Trucks]]、[[Traton]]\n- **日本:** [[Isuzu]]、[[UD Trucks]] — 商用車引擎件\n- **歐洲:** [[Continental]]、[[Haldex]] — 煞車系統\n- **中國:** [[浙江銀輪]] — 引擎零組件\n\n### 主要供應商\n- **鑄件:** 鑄鐵/鋁錠/金屬胚料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $50.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.97 |         N/A |      1.57 | 1.32 |      7.09 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1086.47 |      1082.88 |      1197.39 |\n| Gross Profit            |       360.32 |       352.17 |       389.57 |\n| Gross Margin (%)        |        33.16 |        32.52 |        32.53 |\n| Selling & Marketing Exp |        66.16 |        55.55 |        48.35 |\n| R&D Exp                 |        25.63 |        29.90 |        24.46 |\n| General & Admin Exp     |        83.25 |        88.09 |        96.17 |\n| Operating Income        |       185.28 |       178.63 |       220.59 |\n| Operating Margin (%)    |        17.05 |        16.50 |        18.42 |\n| Net Income              |       160.40 |       170.19 |       203.31 |\n| Net Margin (%)          |        14.76 |        15.72 |        16.98 |\n| Op Cash Flow            |       170.19 |       221.30 |       295.64 |\n| Investing Cash Flow     |      -197.42 |       -54.91 |        62.99 |\n| Financing Cash Flow     |       492.78 |      -148.53 |       -67.15 |\n| CAPEX                   |      -220.18 |       -55.09 |       -79.62 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       279.27 |       257.69 |       266.18 |       279.56 |\n| Gross Profit            |        92.82 |        76.02 |        86.00 |        99.33 |\n| Gross Margin (%)        |        33.23 |        29.50 |        32.31 |        35.53 |\n| Selling & Marketing Exp |        15.52 |        17.25 |        13.33 |        16.93 |\n| R&D Exp                 |         9.70 |         6.26 |         7.33 |         5.83 |\n| General & Admin Exp     |        20.95 |        20.31 |        18.53 |        22.65 |\n| Operating Income        |        46.65 |        32.20 |        46.81 |        53.92 |\n| Operating Margin (%)    |        16.70 |        12.50 |        17.58 |        19.29 |\n| Net Income              |        29.88 |        27.91 |        41.00 |        43.08 |\n| Net Margin (%)          |        10.70 |        10.83 |        15.40 |        15.41 |\n| Op Cash Flow            |        40.41 |        45.10 |        47.41 |        58.26 |\n| Investing Cash Flow     |      -219.26 |       -30.11 |       -95.60 |       -17.69 |\n| Financing Cash Flow     |       -20.65 |         2.21 |       418.95 |        14.57 |\n| CAPEX                   |      -218.75 |       -31.31 |       -96.52 |       -18.76 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

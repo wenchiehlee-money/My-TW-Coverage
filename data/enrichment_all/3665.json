@@ -1,0 +1,246 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3665",
+  "company_name": "貿聯-KY",
+  "title": "3665 - 貿聯-KY",
+  "source_md": "Pilot_Reports/休閒娛樂 - 休閒車業/3665_貿聯-KY.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "407,714 百萬台幣",
+    "enterprise_value": "406,311 百萬台幣"
+  },
+  "business": {
+    "summary": "貿聯-KY (BizLink) 是全球領先的客製化 **連接線束 (Harness)** 與 **連接器 (Connector)** 解決方案領導者。\n公司具備全球化的生產基地 (38 個據點) 與研發中心，產品線跨足工業、數據中心、車用與醫療四大領域。\n核心優勢與亮點：\n1.  **AI 伺服器 (HPC) 引領成長**: 已切入 [[NVIDIA]] GB200 供應鏈，供應 Power Whip (匯流排[[連接器]]) 等關鍵高電力傳輸組件。此外，亦與 Credo 合作供應主動式乙太網路纜線 (AEC)。\n2.  **電動車 (EV) 關鍵先驅**: 於 2006 年起即為 **[[Tesla]]** 電池管理系統 (BMS) 線束的主要供應商，並擴展至充電樁與高壓線束。\n3.  **工業與半導體設備**: 為全球[[半導體]]設備龍頭 ([[Lam Research]]) 與工業[[自動化]] ([[Bosch]], [[Dyson]]) 及醫療電子 ([[GE]], 西門子) 提供高階線束與系統整合 (Box Build) 服務。\n4.  **高技術護城河**: 擅長處理高電流與高速訊號傳輸的可靠度要求，提供從原型開發 (NPI) 到大規模量產的一站式服務。",
+    "entities": [
+      "NVIDIA",
+      "連接器",
+      "Tesla",
+      "半導體",
+      "Lam Research",
+      "自動化",
+      "Bosch",
+      "Dyson",
+      "GE"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 銅線、塑料、電子組件原料。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **貿聯-KY (3665)** - 關鍵連接方案設計、電纜與[[連接器]]組裝。",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**科技巨頭**: [[Amazon]] (AWS), [[Microsoft]], [[Google]] (透過合作夥伴)。",
+        "entities": [
+          "Amazon",
+          "Microsoft",
+          "Google"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**車用大廠**: [[Tesla]], [[電動車]]新創品牌。",
+        "entities": [
+          "Tesla",
+          "電動車"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**半導體設備商**: [[Lam Research]], [[KLA]], [[Applied Materials]]。",
+        "entities": [
+          "Lam Research",
+          "KLA",
+          "Applied Materials"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**消費與醫療**: [[Dyson]], [[HP]], [[Dell]], [[GE]] Healthcare。",
+        "entities": [
+          "Dyson",
+          "HP",
+          "Dell",
+          "GE"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[資料中心]]與 [[AI]]：[[NVIDIA]] (GB200), Credo, AWS, [[Microsoft]]。",
+        "entities": [
+          "資料中心",
+          "AI",
+          "NVIDIA",
+          "Microsoft"
+        ]
+      },
+      {
+        "role": "",
+        "text": "車用：[[Tesla]] ([[電動車]] 線束及充電樁)。",
+        "entities": [
+          "Tesla",
+          "電動車"
+        ]
+      },
+      {
+        "role": "",
+        "text": "工業與醫療：[[Dyson]], [[Bosch]], [[Lam Research]], [[GE]] Healthcare, 西門子。",
+        "entities": [
+          "Dyson",
+          "Bosch",
+          "Lam Research",
+          "GE"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "Lam Research",
+      "type": "international_company_or_term",
+      "wikilink": "Lam Research"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Dyson",
+      "type": "international_company_or_term",
+      "wikilink": "Dyson"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "KLA",
+      "type": "international_company_or_term",
+      "wikilink": "KLA"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "正崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正崴"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "貿聯-KY (BizLink) 是全球領先的客製化 **連接線束 (Harness)** 與 **連接器 (Connector)** 解決方案領導者。\n公司具備全球化的生產基地 (38 個據點) 與研發中心，產品線跨足工業、數據中心、車用與醫療四大領域。\n核心優勢與亮點：\n1.  **AI 伺服器 (HPC) 引領成長**: 已切入 [[NVIDIA]] GB200 供應鏈，供應 Power Whip (匯流排[[連接器]]) 等關鍵高電力傳輸組件。此外，亦與 Credo 合作供應主動式乙太網路纜線 (AEC)。\n2.  **電動車 (EV) 關鍵先驅**: 於 2006 年起即為 **[[Tesla]]** 電池管理系統 (BMS) 線束的主要供應商，並擴展至充電樁與高壓線束。\n3.  **工業與半導體設備**: 為全球[[半導體]]設備龍頭 ([[Lam Research]]) 與工業[[自動化]] ([[Bosch]], [[Dyson]]) 及醫療電子 ([[GE]], 西門子) 提供高階線束與系統整合 (Box Build) 服務。\n4.  **高技術護城河**: 擅長處理高電流與高速訊號傳輸的可靠度要求，提供從原型開發 (NPI) 到大規模量產的一站式服務。",
+    "supply_chain_md": "*   **上游**: 銅線、塑料、電子組件原料。\n*   **中游**: **貿聯-KY (3665)** - 關鍵連接方案設計、電纜與[[連接器]]組裝。\n*   **下游**:\n    *   **科技巨頭**: [[Amazon]] (AWS), [[Microsoft]], [[Google]] (透過合作夥伴)。\n    *   **車用大廠**: [[Tesla]], [[電動車]]新創品牌。\n    *   **半導體設備商**: [[Lam Research]], [[KLA]], [[Applied Materials]]。\n    *   **消費與醫療**: [[Dyson]], [[HP]], [[Dell]], [[GE]] Healthcare。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[資料中心]]與 [[AI]]：[[NVIDIA]] (GB200), Credo, AWS, [[Microsoft]]。\n*   車用：[[Tesla]] ([[電動車]] 線束及充電樁)。\n*   工業與醫療：[[Dyson]], [[Bosch]], [[Lam Research]], [[GE]] Healthcare, 西門子。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $1,910.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     38.56 |       17.16 |      4.90 | 8.00 |     24.46 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     71247.27 |     54080.48 |     51051.79 |\n| Gross Profit            |     22604.60 |     15252.84 |     12586.81 |\n| Gross Margin (%)        |        31.73 |        28.20 |        24.65 |\n| Selling & Marketing Exp |      2953.66 |      2761.31 |      2547.38 |\n| R&D Exp                 |      1818.22 |      1509.57 |      1534.48 |\n| General & Admin Exp     |      5349.63 |      4455.52 |      4221.05 |\n| Operating Income        |     12483.08 |      6526.43 |      4283.90 |\n| Operating Margin (%)    |        17.52 |        12.07 |         8.39 |\n| Net Income              |      9005.37 |      4396.14 |      2317.36 |\n| Net Margin (%)          |        12.64 |         8.13 |         4.54 |\n| Op Cash Flow            |      8595.40 |      6908.91 |      7446.28 |\n| Investing Cash Flow     |    -10837.86 |     -4376.84 |     -4575.10 |\n| Financing Cash Flow     |      5312.47 |     -2942.66 |      -942.14 |\n| CAPEX                   |     -3720.25 |     -3460.03 |     -3235.71 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     20863.65 |     19779.96 |     18413.19 |     16933.33 |\n| Gross Profit            |      6001.84 |      6315.68 |      6122.91 |      5268.88 |\n| Gross Margin (%)        |        28.77 |        31.93 |        33.25 |        31.12 |\n| Selling & Marketing Exp |       842.23 |       782.40 |       702.29 |       691.03 |\n| R&D Exp                 |       536.52 |       475.59 |       449.99 |       431.48 |\n| General & Admin Exp     |      1537.16 |      1413.20 |      1362.53 |      1268.84 |\n| Operating Income        |      3085.93 |      3644.49 |      3608.10 |      2877.54 |\n| Operating Margin (%)    |        14.79 |        18.43 |        19.60 |        16.99 |\n| Net Income              |      2273.83 |      2740.08 |      2628.70 |      2024.48 |\n| Net Margin (%)          |        10.90 |        13.85 |        14.28 |        11.96 |\n| Op Cash Flow            |       250.92 |      4536.99 |      2006.19 |      1144.66 |\n| Investing Cash Flow     |     -1175.37 |     -1981.48 |     -7151.47 |      -585.69 |\n| Financing Cash Flow     |      -677.86 |     -1006.88 |      6470.89 |       419.13 |\n| CAPEX                   |      -981.70 |     -1207.99 |      -810.44 |      -874.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": []
+  }
+}

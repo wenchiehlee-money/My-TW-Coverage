@@ -1,0 +1,212 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3003",
+  "company_name": "健和興",
+  "title": "3003 - 健和興",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/3003_健和興.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "8,452 百萬台幣",
+    "enterprise_value": "5,905 百萬台幣"
+  },
+  "business": {
+    "summary": "健和興端子 (3003，K.S. Terminals / KST) 為亞洲知名端子與[[連接器]]製造商，近年成功轉型至[[電動車]]與綠能市場。產品涵蓋 EV 高壓[[連接器]]、充電槍、充電樁連接器、太陽能/風電/[[儲能]]系統高壓連接器及車用電子端子。為[[Tesla]]充電槍及[[Tesla Powerwall]][[儲能]]系統之綠能連接器供應商。其他 EV 客戶涵蓋[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]。綠能/充電樁客戶涵蓋[[台達電]]、[[華為]]、[[陽光電源]]。",
+    "entities": [
+      "連接器",
+      "電動車",
+      "儲能",
+      "Tesla",
+      "Tesla Powerwall",
+      "BYD",
+      "蔚來汽車",
+      "吉利汽車",
+      "Honda",
+      "Nissan",
+      "台達電",
+      "華為",
+      "陽光電源"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材",
+        "text": "國際銅材供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**健和興** (EV 高壓[[連接器]]/充電槍/端子，精密沖壓/電鍍/組裝)",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "[[Tesla]] (充電槍/[[Tesla Powerwall]])、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]",
+        "entities": [
+          "Tesla",
+          "Tesla Powerwall",
+          "BYD",
+          "蔚來汽車",
+          "吉利汽車",
+          "Honda",
+          "Nissan"
+        ]
+      },
+      {
+        "category": "綠能/充電",
+        "text": "[[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]連接器",
+        "entities": [
+          "台達電",
+          "華為",
+          "陽光電源",
+          "儲能"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EV",
+        "text": "[[Tesla]] (充電槍/Powerwall)、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]",
+        "entities": [
+          "Tesla",
+          "BYD",
+          "蔚來汽車",
+          "吉利汽車",
+          "Honda",
+          "Nissan"
+        ]
+      },
+      {
+        "role": "綠能",
+        "text": "[[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]",
+        "entities": [
+          "台達電",
+          "華為",
+          "陽光電源",
+          "儲能"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材",
+        "text": "國際銅材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "Tesla Powerwall",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla Powerwall"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "蔚來汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蔚來汽車"
+    },
+    {
+      "name": "吉利汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "吉利汽車"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "華為",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華為"
+    },
+    {
+      "name": "陽光電源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽光電源"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "健和興端子 (3003，K.S. Terminals / KST) 為亞洲知名端子與[[連接器]]製造商，近年成功轉型至[[電動車]]與綠能市場。產品涵蓋 EV 高壓[[連接器]]、充電槍、充電樁連接器、太陽能/風電/[[儲能]]系統高壓連接器及車用電子端子。為[[Tesla]]充電槍及[[Tesla Powerwall]][[儲能]]系統之綠能連接器供應商。其他 EV 客戶涵蓋[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]。綠能/充電樁客戶涵蓋[[台達電]]、[[華為]]、[[陽光電源]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅材:** 國際銅材供應商\n\n**中游 (製造):**\n- **健和興** (EV 高壓[[連接器]]/充電槍/端子，精密沖壓/電鍍/組裝)\n\n**下游 (終端):**\n- **電動車:** [[Tesla]] (充電槍/[[Tesla Powerwall]])、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]\n- **綠能/充電:** [[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]連接器",
+    "customers_suppliers_md": "### 主要客戶\n- **EV:** [[Tesla]] (充電槍/Powerwall)、[[BYD]]、[[蔚來汽車]]、[[吉利汽車]]、[[Honda]]、[[Nissan]]\n- **綠能:** [[台達電]]、[[華為]]、[[陽光電源]] — 充電樁/[[儲能]]\n\n### 主要供應商\n- **銅材:** 國際銅材供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $53.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     54.04 |       13.34 |      1.79 | 1.30 |     13.21 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4396.10 |      4544.96 |      4169.67 |\n| Gross Profit            |       974.44 |      1306.46 |      1281.57 |\n| Gross Margin (%)        |        22.17 |        28.75 |        30.74 |\n| Selling & Marketing Exp |       303.73 |       304.58 |       275.84 |\n| R&D Exp                 |       141.12 |       136.68 |       129.40 |\n| General & Admin Exp     |       239.63 |       220.64 |       187.04 |\n| Operating Income        |       289.95 |       644.56 |       689.29 |\n| Operating Margin (%)    |         6.60 |        14.18 |        16.53 |\n| Net Income              |       153.77 |       604.62 |       543.44 |\n| Net Margin (%)          |         3.50 |        13.30 |        13.03 |\n| Op Cash Flow            |       291.50 |       128.87 |       668.64 |\n| Investing Cash Flow     |      -228.17 |        21.49 |        55.59 |\n| Financing Cash Flow     |      -526.64 |      -271.87 |      -253.05 |\n| CAPEX                   |      -100.02 |       -76.20 |      -188.29 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1170.11 |      1038.39 |      1181.29 |      1006.32 |\n| Gross Profit            |       249.03 |       206.34 |       270.32 |       248.75 |\n| Gross Margin (%)        |        21.28 |        19.87 |        22.88 |        24.72 |\n| Selling & Marketing Exp |        76.80 |        73.79 |        76.07 |        77.08 |\n| R&D Exp                 |        36.39 |        34.41 |        34.43 |        35.90 |\n| General & Admin Exp     |        65.90 |        56.65 |        55.87 |        61.21 |\n| Operating Income        |        69.95 |        41.49 |       103.95 |        74.56 |\n| Operating Margin (%)    |         5.98 |         4.00 |         8.80 |         7.41 |\n| Net Income              |        76.63 |        82.66 |       -76.20 |        70.68 |\n| Net Margin (%)          |         6.55 |         7.96 |        -6.45 |         7.02 |\n| Op Cash Flow            |        12.66 |       449.42 |       -86.58 |       -83.99 |\n| Investing Cash Flow     |       -21.04 |       -30.04 |      -177.36 |         0.27 |\n| Financing Cash Flow     |       -31.68 |       -37.37 |      -384.96 |       -72.63 |\n| CAPEX                   |       -24.71 |       -18.98 |       -23.09 |       -33.24 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

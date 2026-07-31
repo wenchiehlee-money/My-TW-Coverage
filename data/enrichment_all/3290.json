@@ -1,0 +1,135 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3290",
+  "company_name": "東浦",
+  "title": "3290 - 東浦",
+  "source_md": "Pilot_Reports/通信網路 - 塑膠_金屬機殼/3290_東浦.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,664 百萬台幣",
+    "enterprise_value": "5,703 百萬台幣"
+  },
+  "business": {
+    "summary": "東浦精密光電 (3290) 為精密塑膠模具與射出成型服務商，核心成長來自[[電動車]][[ADAS]]鏡頭殼件 (間接供應[[Tesla]]) 及[[Harman]]高階耳機機構件。",
+    "entities": [
+      "電動車",
+      "ADAS",
+      "Tesla",
+      "Harman"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[PC]]/[[ABS]] 工程塑膠粒",
+        "entities": [
+          "PC",
+          "ABS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**東浦** (射出/塗裝/模組組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[Tesla]] (間接)、[[Harman]]",
+        "entities": [
+          "Tesla",
+          "Harman"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Tesla]] (間接) — [[ADAS]]殼件",
+        "entities": [
+          "Tesla",
+          "ADAS"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Harman]] — 耳機",
+        "entities": [
+          "Harman"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[PC]]/[[ABS]] 工程塑膠",
+        "entities": [
+          "PC",
+          "ABS"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "Harman",
+      "type": "international_company_or_term",
+      "wikilink": "Harman"
+    },
+    {
+      "name": "PC",
+      "type": "international_company_or_term",
+      "wikilink": "PC"
+    },
+    {
+      "name": "ABS",
+      "type": "international_company_or_term",
+      "wikilink": "ABS"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東浦精密光電 (3290) 為精密塑膠模具與射出成型服務商，核心成長來自[[電動車]][[ADAS]]鏡頭殼件 (間接供應[[Tesla]]) 及[[Harman]]高階耳機機構件。",
+    "supply_chain_md": "**上游:** [[PC]]/[[ABS]] 工程塑膠粒\n**中游:** **東浦** (射出/塗裝/模組組裝)\n**下游:** [[Tesla]] (間接)、[[Harman]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Tesla]] (間接) — [[ADAS]]殼件\n- [[Harman]] — 耳機\n\n### 主要供應商\n- [[PC]]/[[ABS]] 工程塑膠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $50.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.73 |         N/A |      1.67 | 1.95 |     15.20 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2325.54 |      1966.91 |      1861.73 |\n| Gross Profit            |       703.87 |       649.32 |       509.41 |\n| Gross Margin (%)        |        30.27 |        33.01 |        27.36 |\n| Selling & Marketing Exp |        62.05 |        81.03 |        72.62 |\n| R&D Exp                 |        48.95 |        50.66 |        52.19 |\n| General & Admin Exp     |       250.35 |       249.59 |       175.46 |\n| Operating Income        |       342.52 |       268.04 |       209.13 |\n| Operating Margin (%)    |        14.73 |        13.63 |        11.23 |\n| Net Income              |       220.86 |       251.08 |       121.36 |\n| Net Margin (%)          |         9.50 |        12.77 |         6.52 |\n| Op Cash Flow            |       107.75 |       375.45 |       439.79 |\n| Investing Cash Flow     |      -407.70 |      -521.31 |       -44.15 |\n| Financing Cash Flow     |       235.26 |        18.49 |       215.87 |\n| CAPEX                   |      -405.24 |      -489.04 |       -70.86 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       902.20 |       688.72 |       627.82 |       517.85 |\n| Gross Profit            |       181.74 |       209.34 |       198.22 |       155.93 |\n| Gross Margin (%)        |        20.14 |        30.40 |        31.57 |        30.11 |\n| Selling & Marketing Exp |        28.64 |        11.40 |        16.58 |        16.35 |\n| R&D Exp                 |        26.18 |        13.24 |        11.20 |        10.90 |\n| General & Admin Exp     |       142.58 |        76.94 |        65.20 |        53.11 |\n| Operating Income        |       -15.65 |       107.76 |       105.25 |        75.57 |\n| Operating Margin (%)    |        -1.74 |        15.65 |        16.76 |        14.59 |\n| Net Income              |       239.41 |        79.71 |        91.64 |         8.62 |\n| Net Margin (%)          |        26.54 |        11.57 |        14.60 |         1.67 |\n| Op Cash Flow            |       219.54 |        71.72 |         1.40 |       -19.99 |\n| Investing Cash Flow     |      -396.58 |      -172.66 |       -40.69 |      -101.82 |\n| Financing Cash Flow     |       247.41 |       159.46 |      -250.98 |       143.80 |\n| CAPEX                   |       -46.79 |      -166.98 |       -39.58 |      -105.95 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3189",
+  "company_name": "景碩",
+  "title": "3189 - 景碩",
+  "source_md": "Pilot_Reports/半導體 - 基板/3189_景碩.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "303,503 百萬台幣",
+    "enterprise_value": "303,552 百萬台幣"
+  },
+  "business": {
+    "summary": "景碩科技 (3189) 是全球 [[Flip Chip]] ([[覆晶封裝]]) IC 載板前三大供應商，為[[和碩]]轉投資公司。公司主力產品為 [[BGA]] 基板、[[ABF 載板]]及 [[BT 載板]]，服務全球頂級 IC 設計及 IDM 客戶。子公司[[晶碩]] (6491) 專攻高階 [[ABF 載板]]。生產據點涵蓋台灣新屋、新豐及蘇州。",
+    "entities": [
+      "Flip Chip",
+      "覆晶封裝",
+      "和碩",
+      "BGA",
+      "ABF 載板",
+      "BT 載板",
+      "晶碩"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (基板材料)",
+        "text": "**上游 (基板材料):**",
+        "entities": []
+      },
+      {
+        "category": "ABF 材料",
+        "text": "[[Ajinomoto]] (Ajinomoto，ABF 膜供應)",
+        "entities": [
+          "Ajinomoto"
+        ]
+      },
+      {
+        "category": "BT 材料",
+        "text": "BT 樹脂基板材料",
+        "entities": []
+      },
+      {
+        "category": "[[銅箔]]/化學品",
+        "text": "PCB 製程原料",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (載板製造)",
+        "text": "**中游 (載板製造):**",
+        "entities": []
+      },
+      {
+        "category": "IC 載板",
+        "text": "**景碩** (Flip Chip BGA/ABF/[[BT 載板]])",
+        "entities": [
+          "BT 載板"
+        ]
+      },
+      {
+        "category": "子公司",
+        "text": "[[晶碩]] (高階 [[ABF 載板]])",
+        "entities": [
+          "晶碩",
+          "ABF 載板"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計與封裝)",
+        "text": "**下游 (IC 設計與封裝):**",
+        "entities": []
+      },
+      {
+        "category": "IC 設計",
+        "text": "[[Qualcomm]]、[[AMD]]、[[NVIDIA]]、[[Broadcom]]、[[TI]]、[[聯發科]]、[[Micron]]",
+        "entities": [
+          "Qualcomm",
+          "AMD",
+          "NVIDIA",
+          "Broadcom",
+          "TI",
+          "聯發科",
+          "Micron"
+        ]
+      },
+      {
+        "category": "終端品牌",
+        "text": "[[Apple]]、[[Samsung]]",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[和碩]] (最大股東)",
+        "entities": [
+          "和碩"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "IC 設計/IDM",
+        "text": "[[Qualcomm]]、[[AMD]]、[[NVIDIA]]、[[Broadcom]]、[[TI]]、[[聯發科]]、[[Micron]]",
+        "entities": [
+          "Qualcomm",
+          "AMD",
+          "NVIDIA",
+          "Broadcom",
+          "TI",
+          "聯發科",
+          "Micron"
+        ]
+      },
+      {
+        "role": "終端品牌",
+        "text": "[[Apple]]、[[Samsung]]",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "ABF 膜",
+        "text": "[[Ajinomoto]] (Ajinomoto)",
+        "entities": [
+          "Ajinomoto"
+        ]
+      },
+      {
+        "role": "BT 材料",
+        "text": "BT 樹脂基板供應",
+        "entities": []
+      },
+      {
+        "role": "母公司",
+        "text": "[[和碩]] (最大股東)",
+        "entities": [
+          "和碩"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[欣興]]、[[南亞電路板]]、[[Ibiden]]、[[Shinko Electric]]",
+        "entities": [
+          "欣興",
+          "南亞電路板",
+          "Ibiden",
+          "Shinko Electric"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[欣興]]、[[南亞電路板]]、[[Ibiden]]、[[Shinko Electric]]",
+        "entities": [
+          "欣興",
+          "南亞電路板",
+          "Ibiden",
+          "Shinko Electric"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Flip Chip",
+      "type": "international_company_or_term",
+      "wikilink": "Flip Chip"
+    },
+    {
+      "name": "覆晶封裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "覆晶封裝"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "BGA",
+      "type": "international_company_or_term",
+      "wikilink": "BGA"
+    },
+    {
+      "name": "ABF 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ABF 載板"
+    },
+    {
+      "name": "BT 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "BT 載板"
+    },
+    {
+      "name": "晶碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶碩"
+    },
+    {
+      "name": "Ajinomoto",
+      "type": "international_company_or_term",
+      "wikilink": "Ajinomoto"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "TI",
+      "type": "international_company_or_term",
+      "wikilink": "TI"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "南亞電路板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞電路板"
+    },
+    {
+      "name": "Ibiden",
+      "type": "international_company_or_term",
+      "wikilink": "Ibiden"
+    },
+    {
+      "name": "Shinko Electric",
+      "type": "international_company_or_term",
+      "wikilink": "Shinko Electric"
+    },
+    {
+      "name": "長興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長興"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "景碩科技 (3189) 是全球 [[Flip Chip]] ([[覆晶封裝]]) IC 載板前三大供應商，為[[和碩]]轉投資公司。公司主力產品為 [[BGA]] 基板、[[ABF 載板]]及 [[BT 載板]]，服務全球頂級 IC 設計及 IDM 客戶。子公司[[晶碩]] (6491) 專攻高階 [[ABF 載板]]。生產據點涵蓋台灣新屋、新豐及蘇州。",
+    "supply_chain_md": "**上游 (基板材料):**\n- **ABF 材料:** [[Ajinomoto]] (Ajinomoto，ABF 膜供應)\n- **BT 材料:** BT 樹脂基板材料\n- **[[銅箔]]/化學品:** PCB 製程原料\n\n**中游 (載板製造):**\n- **IC 載板:** **景碩** (Flip Chip BGA/ABF/[[BT 載板]])\n- **子公司:** [[晶碩]] (高階 [[ABF 載板]])\n\n**下游 (IC 設計與封裝):**\n- **IC 設計:** [[Qualcomm]]、[[AMD]]、[[NVIDIA]]、[[Broadcom]]、[[TI]]、[[聯發科]]、[[Micron]]\n- **終端品牌:** [[Apple]]、[[Samsung]]\n- **母公司:** [[和碩]] (最大股東)",
+    "customers_suppliers_md": "### 主要客戶\n- **IC 設計/IDM:** [[Qualcomm]]、[[AMD]]、[[NVIDIA]]、[[Broadcom]]、[[TI]]、[[聯發科]]、[[Micron]]\n- **終端品牌:** [[Apple]]、[[Samsung]]\n\n### 主要供應商\n- **ABF 膜:** [[Ajinomoto]] (Ajinomoto)\n- **BT 材料:** BT 樹脂基板供應\n- **母公司:** [[和碩]] (最大股東)\n- **競爭同業:** [[欣興]]、[[南亞電路板]]、[[Ibiden]]、[[Shinko Electric]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $578.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    147.45 |       22.58 |      7.28 | 7.06 |     29.21 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     39351.10 |     30534.98 |     26832.19 |\n| Gross Profit            |      8314.41 |      8667.73 |      6757.51 |\n| Gross Margin (%)        |        21.13 |        28.39 |        25.18 |\n| Selling & Marketing Exp |      1016.14 |       913.07 |       842.59 |\n| R&D Exp                 |      2609.82 |      2611.65 |      2396.87 |\n| General & Admin Exp     |      2026.49 |      4097.14 |      2458.26 |\n| Operating Income        |      2661.96 |      1045.86 |      1059.79 |\n| Operating Margin (%)    |         6.76 |         3.43 |         3.95 |\n| Net Income              |      1595.94 |        48.89 |        47.52 |\n| Net Margin (%)          |         4.06 |         0.16 |         0.18 |\n| Op Cash Flow            |      8092.98 |      7705.10 |      6256.07 |\n| Investing Cash Flow     |     -7868.51 |     -9107.20 |    -12486.48 |\n| Financing Cash Flow     |     -3270.32 |       996.00 |      5335.27 |\n| CAPEX                   |     -6382.27 |    -10604.74 |    -10360.79 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     11104.97 |     10811.44 |      9563.73 |      8619.74 |\n| Gross Profit            |      2349.50 |      2393.39 |      2015.77 |      1941.54 |\n| Gross Margin (%)        |        21.16 |        22.14 |        21.08 |        22.52 |\n| Selling & Marketing Exp |       283.83 |       292.14 |       251.38 |       224.08 |\n| R&D Exp                 |       573.16 |       645.65 |       665.45 |       685.98 |\n| General & Admin Exp     |       595.80 |       539.08 |       481.83 |       532.97 |\n| Operating Income        |       896.71 |       916.53 |       617.11 |       498.51 |\n| Operating Margin (%)    |         8.07 |         8.48 |         6.45 |         5.78 |\n| Net Income              |       549.23 |       642.33 |       338.19 |       276.07 |\n| Net Margin (%)          |         4.95 |         5.94 |         3.54 |         3.20 |\n| Op Cash Flow            |      1449.46 |      3658.73 |      1422.08 |      1916.31 |\n| Investing Cash Flow     |     -5263.49 |     -2314.01 |     -1665.29 |     -3269.81 |\n| Financing Cash Flow     |      3130.42 |     -1394.75 |        75.72 |      -451.00 |\n| CAPEX                   |     -1387.36 |     -1499.14 |     -1418.98 |     -2372.28 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 22,
+    "warnings": []
+  }
+}

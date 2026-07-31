@@ -1,0 +1,289 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2891",
+  "company_name": "中信金",
+  "title": "2891 - [[中信金]]",
+  "source_md": "Pilot_Reports/金融 - 金控業_銀行業_保險業/2891_中信金.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "market_cap": "1,219,968 百萬台幣",
+    "enterprise_value": "N/A"
+  },
+  "business": {
+    "summary": "[[中國信託金融控股]] (2891) 為台灣獲利能力最強之頂級民營金控。核心子公司[[中國信託商業銀行]]長期穩坐「銀行獲利王」與「信用卡發卡王」龍頭，全台逾 150 家分行及近七千台 ATM (與[[統一超商]]合作佈建)。旗下[[台灣人壽]]為集團第二大獲利引擎。其他子公司涵蓋[[中國信託綜合證券]]、[[中國信託投信]]、[[台灣彩券]]等。消費金融端與 [[LINE]] 深度戰略合作，[[LINE Pay]] 聯名卡發卡量領先市場。",
+    "entities": [
+      "中國信託金融控股",
+      "中國信託商業銀行",
+      "統一超商",
+      "台灣人壽",
+      "中國信託綜合證券",
+      "中國信託投信",
+      "台灣彩券",
+      "LINE",
+      "LINE Pay"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "全台最廣泛存戶、企業存款",
+        "entities": []
+      },
+      {
+        "category": "保費收入",
+        "text": "[[台灣人壽]]保戶之壽險資金",
+        "entities": [
+          "台灣人壽"
+        ]
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[中國信託商業銀行]]** (消費金融、跨國聯貸、財富管理、信用卡)",
+        "entities": [
+          "中國信託商業銀行"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[台灣人壽]]** (壽險及資產管理)",
+        "entities": [
+          "台灣人壽"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[中國信託綜合證券]]** (證券經紀)",
+        "entities": [
+          "中國信託綜合證券"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[中國信託投信]]** (基金管理)",
+        "entities": [
+          "中國信託投信"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[台灣彩券]]** (公益彩券發行)",
+        "entities": [
+          "台灣彩券"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "消費金融",
+        "text": "數百萬信用卡持卡人、[[LINE Pay]] 聯名卡用戶",
+        "entities": [
+          "LINE Pay"
+        ]
+      },
+      {
+        "category": "企業金融",
+        "text": "跨國台商、大型企業聯貸",
+        "entities": []
+      },
+      {
+        "category": "壽險保戶",
+        "text": "[[台灣人壽]]保戶",
+        "entities": [
+          "台灣人壽"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費金融",
+        "text": "[[LINE Pay]] 聯名卡持卡人 — 與 [[LINE]] 深度合作",
+        "entities": [
+          "LINE Pay",
+          "LINE"
+        ]
+      },
+      {
+        "role": "企業金融",
+        "text": "跨國台商及大型企業聯貸客戶",
+        "entities": []
+      },
+      {
+        "role": "壽險保戶",
+        "text": "[[台灣人壽]]之個人及團體保戶",
+        "entities": [
+          "台灣人壽"
+        ]
+      },
+      {
+        "role": "公益彩券",
+        "text": "[[台灣彩券]]通路經銷商",
+        "entities": [
+          "台灣彩券"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "支付生態系",
+        "text": "[[LINE]] ([[LINE Pay]] 聯名卡戰略夥伴)、[[統一超商]] (ATM 通路)",
+        "entities": [
+          "LINE",
+          "LINE Pay",
+          "統一超商"
+        ]
+      },
+      {
+        "role": "國際發卡組織",
+        "text": "[[Visa]]、[[JCB]]、[[Mastercard]]",
+        "entities": [
+          "Visa",
+          "JCB",
+          "Mastercard"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]、[[SWIFT]]",
+        "entities": [
+          "財金資訊",
+          "SWIFT"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中國信託金融控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託金融控股"
+    },
+    {
+      "name": "中國信託商業銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託商業銀行"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "台灣人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣人壽"
+    },
+    {
+      "name": "中國信託綜合證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託綜合證券"
+    },
+    {
+      "name": "中國信託投信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託投信"
+    },
+    {
+      "name": "台灣彩券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣彩券"
+    },
+    {
+      "name": "LINE",
+      "type": "international_company_or_term",
+      "wikilink": "LINE"
+    },
+    {
+      "name": "LINE Pay",
+      "type": "international_company_or_term",
+      "wikilink": "LINE Pay"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "Visa",
+      "type": "international_company_or_term",
+      "wikilink": "Visa"
+    },
+    {
+      "name": "JCB",
+      "type": "international_company_or_term",
+      "wikilink": "JCB"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    },
+    {
+      "name": "SWIFT",
+      "type": "international_company_or_term",
+      "wikilink": "SWIFT"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[中國信託金融控股]] (2891) 為台灣獲利能力最強之頂級民營金控。核心子公司[[中國信託商業銀行]]長期穩坐「銀行獲利王」與「信用卡發卡王」龍頭，全台逾 150 家分行及近七千台 ATM (與[[統一超商]]合作佈建)。旗下[[台灣人壽]]為集團第二大獲利引擎。其他子公司涵蓋[[中國信託綜合證券]]、[[中國信託投信]]、[[台灣彩券]]等。消費金融端與 [[LINE]] 深度戰略合作，[[LINE Pay]] 聯名卡發卡量領先市場。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** 全台最廣泛存戶、企業存款\n- **保費收入:** [[台灣人壽]]保戶之壽險資金\n- **同業資金:** [[中央銀行]]、金融同業\n\n**中游:**\n- **[[中國信託商業銀行]]** (消費金融、跨國聯貸、財富管理、信用卡)\n- **[[台灣人壽]]** (壽險及資產管理)\n- **[[中國信託綜合證券]]** (證券經紀)\n- **[[中國信託投信]]** (基金管理)\n- **[[台灣彩券]]** (公益彩券發行)\n\n**下游 (授信客戶):**\n- **消費金融:** 數百萬信用卡持卡人、[[LINE Pay]] 聯名卡用戶\n- **企業金融:** 跨國台商、大型企業聯貸\n- **壽險保戶:** [[台灣人壽]]保戶",
+    "customers_suppliers_md": "### 主要客戶\n- **消費金融:** [[LINE Pay]] 聯名卡持卡人 — 與 [[LINE]] 深度合作\n- **企業金融:** 跨國台商及大型企業聯貸客戶\n- **壽險保戶:** [[台灣人壽]]之個人及團體保戶\n- **公益彩券:** [[台灣彩券]]通路經銷商\n\n### 主要供應商\n- **支付生態系:** [[LINE]] ([[LINE Pay]] 聯名卡戰略夥伴)、[[統一超商]] (ATM 通路)\n- **國際發卡組織:** [[Visa]]、[[JCB]]、[[Mastercard]]\n- **金流基礎設施:** [[財金資訊]]、[[SWIFT]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $63.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.54 |       13.42 |      2.13 | 2.32 |      5.80 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    260675.65 |    194126.64 |    131269.80 |\n| Gross Profit            |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |     35931.10 |     32487.47 |     29535.38 |\n| Operating Income        |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |\n| Net Income              |     80619.23 |     72028.45 |     56081.48 |\n| Net Margin (%)          |        30.93 |        37.10 |        42.72 |\n| Op Cash Flow            |      6709.39 |    -65355.93 |    -16507.47 |\n| Investing Cash Flow     |    -16972.29 |    -13931.06 |    -11605.38 |\n| Financing Cash Flow     |    -10416.96 |    -10248.19 |     73003.96 |\n| CAPEX                   |     -6641.59 |     -4916.90 |     -4407.61 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     80819.50 |     77727.81 |     36360.72 |     65767.62 |\n| Gross Profit            |       -    |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |      9847.63 |      8917.66 |      8684.61 |      8481.20 |\n| Operating Income        |       -    |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |       -    |\n| Net Income              |     19859.90 |     24918.60 |     15932.44 |     19908.30 |\n| Net Margin (%)          |        24.57 |        32.06 |        43.82 |        30.27 |\n| Op Cash Flow            |    -73850.20 |    -16162.00 |    199396.87 |   -102675.28 |\n| Investing Cash Flow     |     -7506.19 |     -5663.55 |     -1801.10 |     -2001.45 |\n| Financing Cash Flow     |     23597.35 |     25483.40 |    -92234.83 |     32737.12 |\n| CAPEX                   |     -2107.79 |     -2738.57 |     -1000.25 |      -794.98 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

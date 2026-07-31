@@ -1,0 +1,239 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2239",
+  "company_name": "英利-KY",
+  "title": "2239 - 英利-KY",
+  "source_md": "Pilot_Reports/汽車 - 保險桿/2239_英利-KY.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,354 百萬台幣",
+    "enterprise_value": "12,930 百萬台幣"
+  },
+  "business": {
+    "summary": "英利汽車零部件 (2239，Yingli Auto，英利-KY) 為中國汽車車身結構件 Tier 1/Tier 2 供應商，產品涵蓋儀錶板骨架、前端框架、保險桿、沖壓/熱成型安全件。核心客戶為[[一汽大眾]] (FAW-VW，最大客戶)、[[北京奔馳]] (Beijing Benz)、[[上汽大眾]] (SAIC-VW)，另供應[[Audi]] (一汽奧迪全車系儀錶板骨架)。新拓展客戶涵蓋[[Volvo]]、[[Tesla]] (儀錶板支架)、安徽大眾 (VW Anhui，電動車項目)。另有[[吉利]]、[[長城]]、[[上汽]]、[[廣汽]]及[[GM]]中國。公司擁有亞洲唯一[[SymaLITE]]輕量化複合材料產線 (全球僅 5 條)，供應[[Audi]]底盤護板。",
+    "entities": [
+      "一汽大眾",
+      "北京奔馳",
+      "上汽大眾",
+      "Audi",
+      "Volvo",
+      "Tesla",
+      "吉利",
+      "長城",
+      "上汽",
+      "廣汽",
+      "GM",
+      "SymaLITE"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "高張力鋼板",
+        "text": "大型鋼廠",
+        "entities": []
+      },
+      {
+        "category": "輕量化複材",
+        "text": "[[SymaLITE]] 複合材料 (亞洲唯一產線)",
+        "entities": [
+          "SymaLITE"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**英利** (車身結構件沖壓/熱成型/複材，長春/成都/佛山等中國生產基地)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OEM 客戶)",
+        "text": "**下游 (OEM 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "德系",
+        "text": "[[一汽大眾]]、[[北京奔馳]]、[[上汽大眾]]、[[Audi]] — 儀錶板骨架/車身結構",
+        "entities": [
+          "一汽大眾",
+          "北京奔馳",
+          "上汽大眾",
+          "Audi"
+        ]
+      },
+      {
+        "category": "新能源",
+        "text": "[[Tesla]]、安徽大眾 — 電動車結構件",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "[[Volvo]]、[[吉利]]、[[長城]]、[[上汽]]、[[廣汽]]、[[GM]]中國",
+        "entities": [
+          "Volvo",
+          "吉利",
+          "長城",
+          "上汽",
+          "廣汽",
+          "GM"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "德系",
+        "text": "[[一汽大眾]] (最大客戶)、[[北京奔馳]]、[[上汽大眾]]、[[Audi]] — 車身結構件",
+        "entities": [
+          "一汽大眾",
+          "北京奔馳",
+          "上汽大眾",
+          "Audi"
+        ]
+      },
+      {
+        "role": "新能源",
+        "text": "[[Tesla]] — 儀錶板支架；安徽大眾 — EV 項目",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "[[Volvo]]、[[吉利]]、[[長城]]、[[上汽]]、[[廣汽]]、[[GM]]中國",
+        "entities": [
+          "Volvo",
+          "吉利",
+          "長城",
+          "上汽",
+          "廣汽",
+          "GM"
+        ]
+      },
+      {
+        "role": "特殊材料",
+        "text": "[[Audi]] — [[SymaLITE]] 底盤護板",
+        "entities": [
+          "Audi",
+          "SymaLITE"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼板",
+        "text": "中國大型鋼廠 — 高張力鋼板",
+        "entities": []
+      },
+      {
+        "role": "複材",
+        "text": "[[SymaLITE]] — 亞洲唯一輕量化複合材料產線",
+        "entities": [
+          "SymaLITE"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "一汽大眾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "一汽大眾"
+    },
+    {
+      "name": "北京奔馳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "北京奔馳"
+    },
+    {
+      "name": "上汽大眾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上汽大眾"
+    },
+    {
+      "name": "Audi",
+      "type": "international_company_or_term",
+      "wikilink": "Audi"
+    },
+    {
+      "name": "Volvo",
+      "type": "international_company_or_term",
+      "wikilink": "Volvo"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "吉利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "吉利"
+    },
+    {
+      "name": "長城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長城"
+    },
+    {
+      "name": "上汽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上汽"
+    },
+    {
+      "name": "廣汽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣汽"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "SymaLITE",
+      "type": "international_company_or_term",
+      "wikilink": "SymaLITE"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "英利汽車零部件 (2239，Yingli Auto，英利-KY) 為中國汽車車身結構件 Tier 1/Tier 2 供應商，產品涵蓋儀錶板骨架、前端框架、保險桿、沖壓/熱成型安全件。核心客戶為[[一汽大眾]] (FAW-VW，最大客戶)、[[北京奔馳]] (Beijing Benz)、[[上汽大眾]] (SAIC-VW)，另供應[[Audi]] (一汽奧迪全車系儀錶板骨架)。新拓展客戶涵蓋[[Volvo]]、[[Tesla]] (儀錶板支架)、安徽大眾 (VW Anhui，電動車項目)。另有[[吉利]]、[[長城]]、[[上汽]]、[[廣汽]]及[[GM]]中國。公司擁有亞洲唯一[[SymaLITE]]輕量化複合材料產線 (全球僅 5 條)，供應[[Audi]]底盤護板。",
+    "supply_chain_md": "**上游 (原料):**\n- **高張力鋼板:** 大型鋼廠\n- **輕量化複材:** [[SymaLITE]] 複合材料 (亞洲唯一產線)\n\n**中游 (製造):**\n- **英利** (車身結構件沖壓/熱成型/複材，長春/成都/佛山等中國生產基地)\n\n**下游 (OEM 客戶):**\n- **德系:** [[一汽大眾]]、[[北京奔馳]]、[[上汽大眾]]、[[Audi]] — 儀錶板骨架/車身結構\n- **新能源:** [[Tesla]]、安徽大眾 — 電動車結構件\n- **其他:** [[Volvo]]、[[吉利]]、[[長城]]、[[上汽]]、[[廣汽]]、[[GM]]中國",
+    "customers_suppliers_md": "### 主要客戶\n- **德系:** [[一汽大眾]] (最大客戶)、[[北京奔馳]]、[[上汽大眾]]、[[Audi]] — 車身結構件\n- **新能源:** [[Tesla]] — 儀錶板支架；安徽大眾 — EV 項目\n- **其他:** [[Volvo]]、[[吉利]]、[[長城]]、[[上汽]]、[[廣汽]]、[[GM]]中國\n- **特殊材料:** [[Audi]] — [[SymaLITE]] 底盤護板\n\n### 主要供應商\n- **鋼板:** 中國大型鋼廠 — 高張力鋼板\n- **複材:** [[SymaLITE]] — 亞洲唯一輕量化複合材料產線",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $19.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |        2.57 |      0.12 | 0.20 |     10.61 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     19086.13 |     21485.45 |     24269.58 |\n| Gross Profit            |      1911.88 |      2549.55 |      3136.80 |\n| Gross Margin (%)        |        10.02 |        11.87 |        12.92 |\n| Selling & Marketing Exp |       465.29 |       465.02 |       502.95 |\n| R&D Exp                 |       937.79 |       962.48 |       956.64 |\n| General & Admin Exp     |      1010.47 |       996.43 |      1090.38 |\n| Operating Income        |      -501.67 |       125.62 |       586.83 |\n| Operating Margin (%)    |        -2.63 |         0.58 |         2.42 |\n| Net Income              |      -946.61 |       -10.69 |       168.69 |\n| Net Margin (%)          |        -4.96 |        -0.05 |         0.70 |\n| Op Cash Flow            |      2544.52 |      1174.03 |      1608.02 |\n| Investing Cash Flow     |      -118.79 |     -1499.87 |     -1782.21 |\n| Financing Cash Flow     |     -1597.47 |      -612.24 |      2926.53 |\n| CAPEX                   |     -1579.66 |     -1642.12 |     -2078.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5130.34 |      4564.50 |      4840.23 |      4551.06 |\n| Gross Profit            |       565.59 |       416.31 |       569.71 |       360.27 |\n| Gross Margin (%)        |        11.02 |         9.12 |        11.77 |         7.92 |\n| Selling & Marketing Exp |       130.45 |       107.90 |       111.37 |       115.57 |\n| R&D Exp                 |       305.94 |       197.27 |       224.31 |       210.26 |\n| General & Admin Exp     |       247.73 |       242.41 |       254.31 |       266.03 |\n| Operating Income        |      -118.53 |      -131.27 |       -20.28 |      -231.59 |\n| Operating Margin (%)    |        -2.31 |        -2.88 |        -0.42 |        -5.09 |\n| Net Income              |      -376.36 |      -266.45 |       114.48 |      -418.29 |\n| Net Margin (%)          |        -7.34 |        -5.84 |         2.37 |        -9.19 |\n| Op Cash Flow            |       733.35 |       231.52 |      1416.12 |       163.53 |\n| Investing Cash Flow     |       125.55 |       -79.75 |      -410.41 |       245.82 |\n| Financing Cash Flow     |      -990.45 |      -594.50 |      -205.13 |       192.61 |\n| CAPEX                   |      -232.66 |      -449.17 |      -366.17 |      -531.66 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

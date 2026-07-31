@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3260",
+  "company_name": "威剛",
+  "title": "3260 - 威剛",
+  "source_md": "Pilot_Reports/半導體 - IC模組/3260_威剛.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "124,419 百萬台幣",
+    "enterprise_value": "160,913 百萬台幣"
+  },
+  "business": {
+    "summary": "威剛科技 (3260) 是全球第二大 [[DRAM]] 模組廠，旗下擁有 ADATA 消費品牌及 XPG 電競品牌。產品涵蓋 DDR4/[[DDR5]] DRAM 模組、[[SSD]] 固態硬碟、記憶卡及 USB 隨身碟，並拓展至工控及 [[AI 伺服器]]市場。",
+    "entities": [
+      "DRAM",
+      "DDR5",
+      "SSD",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (記憶體原廠)",
+        "text": "**上游 (記憶體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "DRAM 顆粒",
+        "text": "[[Samsung]]、[[SK Hynix]]、[[Micron]]",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Micron"
+        ]
+      },
+      {
+        "category": "NAND 顆粒",
+        "text": "[[Samsung]]、[[SK Hynix]]、[[Micron]]",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Micron"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (模組製造)",
+        "text": "**中游 (模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "記憶體模組",
+        "text": "**威剛** (ADATA/XPG 品牌，DRAM/SSD/記憶卡)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (系統整合)",
+        "text": "**下游 (系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "PC OEM",
+        "text": "[[廣達]]、[[仁寶]] 等 OEM/ODM",
+        "entities": [
+          "廣達",
+          "仁寶"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "伺服器組裝廠",
+        "entities": []
+      },
+      {
+        "category": "通路",
+        "text": "全球 3C 通路商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PC OEM",
+        "text": "[[廣達]]、[[仁寶]] 等 OEM/ODM",
+        "entities": [
+          "廣達",
+          "仁寶"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "伺服器組裝廠",
+        "entities": []
+      },
+      {
+        "role": "通路",
+        "text": "全球 3C 通路商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "DRAM/NAND",
+        "text": "[[Samsung]]、[[SK Hynix]]、[[Micron]]",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Micron"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[金士頓]]、[[宇瞻]]",
+        "entities": [
+          "金士頓",
+          "宇瞻"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[金士頓]]、[[宇瞻]]",
+        "entities": [
+          "金士頓",
+          "宇瞻"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "DDR5",
+      "type": "international_company_or_term",
+      "wikilink": "DDR5"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "金士頓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金士頓"
+    },
+    {
+      "name": "宇瞻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宇瞻"
+    },
+    {
+      "name": "兆勁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "兆勁"
+    },
+    {
+      "name": "商丞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "商丞"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "威剛科技 (3260) 是全球第二大 [[DRAM]] 模組廠，旗下擁有 ADATA 消費品牌及 XPG 電競品牌。產品涵蓋 DDR4/[[DDR5]] DRAM 模組、[[SSD]] 固態硬碟、記憶卡及 USB 隨身碟，並拓展至工控及 [[AI 伺服器]]市場。",
+    "supply_chain_md": "**上游 (記憶體原廠):**\n- **DRAM 顆粒:** [[Samsung]]、[[SK Hynix]]、[[Micron]]\n- **NAND 顆粒:** [[Samsung]]、[[SK Hynix]]、[[Micron]]\n\n**中游 (模組製造):**\n- **記憶體模組:** **威剛** (ADATA/XPG 品牌，DRAM/SSD/記憶卡)\n\n**下游 (系統整合):**\n- **PC OEM:** [[廣達]]、[[仁寶]] 等 OEM/ODM\n- **AI 伺服器:** 伺服器組裝廠\n- **通路:** 全球 3C 通路商",
+    "customers_suppliers_md": "### 主要客戶\n- **PC OEM:** [[廣達]]、[[仁寶]] 等 OEM/ODM\n- **AI 伺服器:** 伺服器組裝廠\n- **通路:** 全球 3C 通路商\n\n### 主要供應商\n- **DRAM/NAND:** [[Samsung]]、[[SK Hynix]]、[[Micron]]\n- **競爭同業:** [[金士頓]]、[[宇瞻]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $378.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      7.52 |        8.54 |      1.73 | 4.37 |      7.23 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     53087.43 |     40178.52 |     33684.78 |\n| Gross Profit            |     14766.21 |      8750.17 |      5657.94 |\n| Gross Margin (%)        |        27.81 |        21.78 |        16.80 |\n| Selling & Marketing Exp |      1756.44 |      1663.94 |      1522.44 |\n| R&D Exp                 |       889.61 |       776.03 |       599.94 |\n| General & Admin Exp     |      2977.83 |      2341.43 |      1768.56 |\n| Operating Income        |      9142.33 |      3968.77 |      1766.99 |\n| Operating Margin (%)    |        17.22 |         9.88 |         5.25 |\n| Net Income              |      7292.61 |      2707.49 |      1409.39 |\n| Net Margin (%)          |        13.74 |         6.74 |         4.18 |\n| Op Cash Flow            |      2130.44 |       796.94 |     -5211.46 |\n| Investing Cash Flow     |     -4405.88 |     -3473.22 |     -1116.34 |\n| Financing Cash Flow     |      3977.90 |      2878.89 |      4958.93 |\n| CAPEX                   |     -1878.10 |     -1444.48 |      -713.27 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     26099.52 |     15844.87 |     14510.64 |     12824.41 |\n| Gross Profit            |     14537.60 |      7663.67 |      3305.35 |      2434.12 |\n| Gross Margin (%)        |        55.70 |        48.37 |        22.78 |        18.98 |\n| Selling & Marketing Exp |       632.43 |       548.46 |       449.13 |       423.81 |\n| R&D Exp                 |       387.26 |       324.98 |       235.79 |       176.12 |\n| General & Admin Exp     |      1192.49 |      1176.28 |       717.85 |       598.61 |\n| Operating Income        |     12325.43 |      5613.96 |      1902.58 |      1235.59 |\n| Operating Margin (%)    |        47.22 |        35.43 |        13.11 |         9.63 |\n| Net Income              |      9533.98 |      4127.56 |      1760.05 |       878.60 |\n| Net Margin (%)          |        36.53 |        26.05 |        12.13 |         6.85 |\n| Op Cash Flow            |     -8276.79 |      -292.98 |      2072.05 |     -1383.95 |\n| Investing Cash Flow     |     -1374.61 |     -1238.15 |     -1413.02 |     -1554.95 |\n| Financing Cash Flow     |     10536.06 |      2246.44 |       -57.67 |      3250.62 |\n| CAPEX                   |      -323.00 |      -433.84 |      -860.82 |      -223.02 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

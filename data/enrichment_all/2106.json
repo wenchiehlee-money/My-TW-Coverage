@@ -1,0 +1,192 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2106",
+  "company_name": "建大",
+  "title": "2106 - 建大",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/2106_建大.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "17,427 百萬台幣",
+    "enterprise_value": "27,919 百萬台幣"
+  },
+  "business": {
+    "summary": "建大工業 (2106，Kenda Rubber Industrial) 為全球前 30 大輪胎廠，自有品牌[[Kenda]]行銷全球。產品線涵蓋自行車胎、機車胎、汽車胎、輕型卡車胎及工業用胎。自行車胎為[[巨大機械]] (Giant) 及[[美利達]] (Merida) 之 OEM 供應商。運動行銷贊助[[NBA]]克里夫蘭騎士隊及休士頓火箭隊。生產基地分布於台灣、中國、越南及印尼，另於北美設有輪圈製造廠，評估美國設廠中。上游原料採購自[[台橡]]及[[中橡]]。",
+    "entities": [
+      "Kenda",
+      "巨大機械",
+      "美利達",
+      "NBA",
+      "台橡",
+      "中橡"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "合成橡膠",
+        "text": "[[台橡]] — 合成橡膠",
+        "entities": [
+          "台橡"
+        ]
+      },
+      {
+        "category": "碳煙",
+        "text": "[[中橡]] — 碳黑",
+        "entities": [
+          "中橡"
+        ]
+      },
+      {
+        "category": "天然橡膠/簾布/鋼絲",
+        "text": "國際原料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**建大** ([[Kenda]] 品牌輪胎製造，台灣/中國/越南/印尼工廠)",
+        "entities": [
+          "Kenda"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "自行車 OEM",
+        "text": "[[巨大機械]] (Giant)、[[美利達]] (Merida)",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      },
+      {
+        "category": "全球 AM",
+        "text": "[[Kenda]] 品牌全球經銷",
+        "entities": [
+          "Kenda"
+        ]
+      },
+      {
+        "category": "運動贊助",
+        "text": "[[NBA]] 克里夫蘭騎士/休士頓火箭",
+        "entities": [
+          "NBA"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "自行車 OEM",
+        "text": "[[巨大機械]] (Giant)、[[美利達]] (Merida) — 自行車胎供應",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      },
+      {
+        "role": "全球 AM",
+        "text": "[[Kenda]] 品牌輪胎全球經銷",
+        "entities": [
+          "Kenda"
+        ]
+      },
+      {
+        "role": "運動贊助",
+        "text": "[[NBA]] — 克里夫蘭騎士/休士頓火箭",
+        "entities": [
+          "NBA"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "合成橡膠",
+        "text": "[[台橡]]",
+        "entities": [
+          "台橡"
+        ]
+      },
+      {
+        "role": "碳煙",
+        "text": "[[中橡]]",
+        "entities": [
+          "中橡"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Kenda",
+      "type": "international_company_or_term",
+      "wikilink": "Kenda"
+    },
+    {
+      "name": "巨大機械",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大機械"
+    },
+    {
+      "name": "美利達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美利達"
+    },
+    {
+      "name": "NBA",
+      "type": "international_company_or_term",
+      "wikilink": "NBA"
+    },
+    {
+      "name": "台橡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台橡"
+    },
+    {
+      "name": "中橡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中橡"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "建大工業 (2106，Kenda Rubber Industrial) 為全球前 30 大輪胎廠，自有品牌[[Kenda]]行銷全球。產品線涵蓋自行車胎、機車胎、汽車胎、輕型卡車胎及工業用胎。自行車胎為[[巨大機械]] (Giant) 及[[美利達]] (Merida) 之 OEM 供應商。運動行銷贊助[[NBA]]克里夫蘭騎士隊及休士頓火箭隊。生產基地分布於台灣、中國、越南及印尼，另於北美設有輪圈製造廠，評估美國設廠中。上游原料採購自[[台橡]]及[[中橡]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **合成橡膠:** [[台橡]] — 合成橡膠\n- **碳煙:** [[中橡]] — 碳黑\n- **天然橡膠/簾布/鋼絲:** 國際原料供應商\n\n**中游 (製造):**\n- **建大** ([[Kenda]] 品牌輪胎製造，台灣/中國/越南/印尼工廠)\n\n**下游 (終端):**\n- **自行車 OEM:** [[巨大機械]] (Giant)、[[美利達]] (Merida)\n- **全球 AM:** [[Kenda]] 品牌全球經銷\n- **運動贊助:** [[NBA]] 克里夫蘭騎士/休士頓火箭",
+    "customers_suppliers_md": "### 主要客戶\n- **自行車 OEM:** [[巨大機械]] (Giant)、[[美利達]] (Merida) — 自行車胎供應\n- **全球 AM:** [[Kenda]] 品牌輪胎全球經銷\n- **運動贊助:** [[NBA]] — 克里夫蘭騎士/休士頓火箭\n\n### 主要供應商\n- **合成橡膠:** [[台橡]]\n- **碳煙:** [[中橡]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    101.67 |       33.89 |      0.52 | 0.89 |     12.31 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     33963.12 |     34202.67 |     34443.68 |\n| Gross Profit            |      6508.21 |      7539.69 |      6672.66 |\n| Gross Margin (%)        |        19.16 |        22.04 |        19.37 |\n| Selling & Marketing Exp |      2684.36 |      2691.23 |      2407.16 |\n| R&D Exp                 |      1646.18 |      1654.62 |      1489.43 |\n| General & Admin Exp     |      1598.72 |      1623.08 |      1486.73 |\n| Operating Income        |       578.95 |      1486.83 |      1289.35 |\n| Operating Margin (%)    |         1.70 |         4.35 |         3.74 |\n| Net Income              |       125.41 |      1240.95 |       880.98 |\n| Net Margin (%)          |         0.37 |         3.63 |         2.56 |\n| Op Cash Flow            |      2230.70 |      2099.13 |      5619.87 |\n| Investing Cash Flow     |       -36.76 |     -1479.96 |     -1588.31 |\n| Financing Cash Flow     |      -716.92 |      -328.47 |     -3555.46 |\n| CAPEX                   |     -1131.19 |     -1665.94 |      -953.01 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      8698.62 |      8022.47 |      8177.65 |      8955.09 |\n| Gross Profit            |      1718.04 |      1628.67 |      1616.40 |      1615.91 |\n| Gross Margin (%)        |        19.75 |        20.30 |        19.77 |        18.04 |\n| Selling & Marketing Exp |       646.69 |       662.97 |       691.81 |       637.38 |\n| R&D Exp                 |       412.54 |       414.44 |       408.41 |       403.55 |\n| General & Admin Exp     |       396.05 |       426.62 |       358.40 |       405.35 |\n| Operating Income        |       262.76 |       124.64 |       157.78 |       169.64 |\n| Operating Margin (%)    |         3.02 |         1.55 |         1.93 |         1.89 |\n| Net Income              |       111.18 |        66.00 |        76.25 |       -86.70 |\n| Net Margin (%)          |         1.28 |         0.82 |         0.93 |        -0.97 |\n| Op Cash Flow            |         8.77 |       -86.04 |      1310.74 |       825.38 |\n| Investing Cash Flow     |      -560.34 |       275.21 |      -266.80 |      -134.85 |\n| Financing Cash Flow     |       557.72 |       190.83 |      -447.51 |      -494.80 |\n| CAPEX                   |      -264.24 |      -106.77 |      -536.46 |      -151.24 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

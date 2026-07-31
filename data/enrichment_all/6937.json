@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6937",
+  "company_name": "天虹",
+  "title": "6937_天虹",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/6937_天虹.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "16,093 百萬台幣",
+    "enterprise_value": "15,893 百萬台幣"
+  },
+  "business": {
+    "summary": "天虹科技 (6937，Skytech) 為台灣本土半導體設備製造商，核心產品為 Nexda 系列 [[PVD]] (物理氣相沉積) 濺鍍設備，另提供 [[ALD]] (原子層沉積) 設備、Bonder/De-bonder 接合設備、Descum/Plasma Polish 設備及客製化零組件。公司從半導體零組件加工轉型為設備製造，並已進入 [[Apple]] 供應鏈。",
+    "entities": [
+      "PVD",
+      "ALD",
+      "Apple"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "靶材",
+        "text": "PVD 濺鍍用靶材",
+        "entities": []
+      },
+      {
+        "category": "精密機構",
+        "text": "真空腔體及機構件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備製造)",
+        "text": "**中游 (設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "PVD/ALD 設備",
+        "text": "**天虹** (Nexda 系列 PVD 濺鍍、ALD 設備)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體製造)",
+        "text": "**下游 (半導體製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓廠",
+        "text": "半導體晶圓廠",
+        "entities": []
+      },
+      {
+        "category": "供應鏈",
+        "text": "[[Apple]] 供應鏈",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓廠",
+        "text": "半導體晶圓廠 (PVD/ALD 設備)",
+        "entities": []
+      },
+      {
+        "role": "供應鏈",
+        "text": "[[Apple]] 供應鏈",
+        "entities": [
+          "Apple"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "靶材",
+        "text": "PVD 濺鍍靶材供應",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[Applied Materials]]、[[Lam Research]]、[[Tokyo Electron]]",
+        "entities": [
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[Applied Materials]]、[[Lam Research]]、[[Tokyo Electron]]",
+        "entities": [
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PVD",
+      "type": "international_company_or_term",
+      "wikilink": "PVD"
+    },
+    {
+      "name": "ALD",
+      "type": "international_company_or_term",
+      "wikilink": "ALD"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "Lam Research",
+      "type": "international_company_or_term",
+      "wikilink": "Lam Research"
+    },
+    {
+      "name": "Tokyo Electron",
+      "type": "international_company_or_term",
+      "wikilink": "Tokyo Electron"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "天虹科技 (6937，Skytech) 為台灣本土半導體設備製造商，核心產品為 Nexda 系列 [[PVD]] (物理氣相沉積) 濺鍍設備，另提供 [[ALD]] (原子層沉積) 設備、Bonder/De-bonder 接合設備、Descum/Plasma Polish 設備及客製化零組件。公司從半導體零組件加工轉型為設備製造，並已進入 [[Apple]] 供應鏈。",
+    "supply_chain_md": "**上游 (零組件):**\n- **靶材:** PVD 濺鍍用靶材\n- **精密機構:** 真空腔體及機構件\n\n**中游 (設備製造):**\n- **PVD/ALD 設備:** **天虹** (Nexda 系列 PVD 濺鍍、ALD 設備)\n\n**下游 (半導體製造):**\n- **晶圓廠:** 半導體晶圓廠\n- **供應鏈:** [[Apple]] 供應鏈",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓廠:** 半導體晶圓廠 (PVD/ALD 設備)\n- **供應鏈:** [[Apple]] 供應鏈\n\n### 主要供應商\n- **靶材:** PVD 濺鍍靶材供應\n- **競爭同業:** [[Applied Materials]]、[[Lam Research]]、[[Tokyo Electron]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $235.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     72.53 |       43.28 |      6.70 | 4.62 |     51.78 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2244.65 |      2587.64 |      1992.64 |\n| Gross Profit            |       899.94 |      1137.58 |       877.14 |\n| Gross Margin (%)        |        40.09 |        43.96 |        44.02 |\n| Selling & Marketing Exp |       192.24 |       233.57 |       159.26 |\n| R&D Exp                 |       254.53 |       273.32 |       202.40 |\n| General & Admin Exp     |       255.17 |       221.54 |       193.61 |\n| Operating Income        |       198.01 |       409.14 |       321.88 |\n| Operating Margin (%)    |         8.82 |        15.81 |        16.15 |\n| Net Income              |       202.79 |       406.80 |       306.66 |\n| Net Margin (%)          |         9.03 |        15.72 |        15.39 |\n| Op Cash Flow            |        37.64 |       225.44 |        45.49 |\n| Investing Cash Flow     |       193.10 |      -341.83 |      -706.43 |\n| Financing Cash Flow     |       -53.54 |      -452.46 |      1113.32 |\n| CAPEX                   |      -109.33 |       -84.88 |      -500.02 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       582.45 |       721.66 |       512.31 |       461.19 |\n| Gross Profit            |       243.29 |       305.22 |       200.86 |       193.27 |\n| Gross Margin (%)        |        41.77 |        42.29 |        39.21 |        41.91 |\n| Selling & Marketing Exp |        53.40 |        50.93 |        45.73 |        48.76 |\n| R&D Exp                 |        55.60 |        78.76 |        60.25 |        53.49 |\n| General & Admin Exp     |        58.56 |        67.29 |        61.88 |        62.03 |\n| Operating Income        |        75.74 |       108.24 |        33.00 |        29.00 |\n| Operating Margin (%)    |        13.00 |        15.00 |         6.44 |         6.29 |\n| Net Income              |        64.82 |        73.11 |        19.08 |        49.03 |\n| Net Margin (%)          |        11.13 |        10.13 |         3.72 |        10.63 |\n| Op Cash Flow            |      -103.00 |        95.01 |        44.86 |        56.27 |\n| Investing Cash Flow     |         4.29 |       -52.98 |       190.98 |      -119.93 |\n| Financing Cash Flow     |       -44.66 |        93.53 |       -48.45 |        47.74 |\n| CAPEX                   |        -5.87 |       -24.66 |       -39.08 |       -38.17 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

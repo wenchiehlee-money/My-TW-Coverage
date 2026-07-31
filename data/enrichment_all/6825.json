@@ -1,0 +1,230 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6825",
+  "company_name": "和暢科技",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/6825_和暢科技.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "1,339 百萬台幣",
+    "enterprise_value": "1,022 百萬台幣"
+  },
+  "business": {
+    "summary": "和暢科技股份有限公司 (6825) 成立於 2014 年，專精於工商業用智慧面板電腦 (Panel PC)、嵌入式無風扇電腦及邊緣 AI 運算系統之設計與 ODM 製造。公司聚焦於嚴苛環境 (如物流倉儲、戶外巡檢、急診醫療與重工業製造) 中使用的特殊硬體，產品具備防水、防塵、耐摔、寬溫操作等強固特性，並能整合條碼掃描、[[RFID]] 讀取或特殊工業控制介面。核心產品涵蓋智慧面板電腦、嵌入式無風扇 [[Arm]]/x86 Box PC、邊緣 AI 電腦、單板電腦及自助服務終端機 (Kiosk)，廣泛應用於設施管理、嵌入式運算、零售餐飲及互動智慧科技等垂直應用領域。近年積極導入 [[NVIDIA]] [[Jetson]] 平台強化邊緣 AI 運算能力。",
+    "entities": [
+      "RFID",
+      "Arm",
+      "NVIDIA",
+      "Jetson"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心零組件)",
+        "text": "**上游 (核心零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[Arm]] 架構處理器 (CPU/SoC)",
+        "entities": [
+          "Intel",
+          "Arm"
+        ]
+      },
+      {
+        "category": "AI 模組",
+        "text": "[[NVIDIA]] [[Jetson]] — 邊緣 AI 運算模組",
+        "entities": [
+          "NVIDIA",
+          "Jetson"
+        ]
+      },
+      {
+        "category": "記憶體/儲存",
+        "text": "[[宜鼎]] 等工業級記憶體及 SSD",
+        "entities": [
+          "宜鼎"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "強固型高亮度觸控面板供應商",
+        "entities": []
+      },
+      {
+        "category": "特殊機殼",
+        "text": "橡塑膠/金屬強化機殼及特規電池模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (強固型嵌入式系統製造)",
+        "text": "**中游 (強固型嵌入式系統製造):**",
+        "entities": []
+      },
+      {
+        "category": "Panel PC",
+        "text": "**和暢科技** (智慧面板電腦設計與 ODM)",
+        "entities": []
+      },
+      {
+        "category": "Box PC",
+        "text": "**和暢科技** (嵌入式無風扇 [[Arm]]/x86 工業電腦)",
+        "entities": [
+          "Arm"
+        ]
+      },
+      {
+        "category": "邊緣 AI",
+        "text": "**和暢科技** (邊緣 AI 運算系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (垂直應用市場)",
+        "text": "**下游 (垂直應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "物流倉儲",
+        "text": "全球跨國物流車隊與大型連鎖零售盤點業者",
+        "entities": []
+      },
+      {
+        "category": "工業製造",
+        "text": "工業自動化廠區設施管理",
+        "entities": []
+      },
+      {
+        "category": "智慧零售",
+        "text": "零售餐飲互動智慧科技解決方案",
+        "entities": []
+      },
+      {
+        "category": "醫療院所",
+        "text": "醫療資訊系統整合商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "物流倉儲",
+        "text": "歐美跨國物流車隊及大型連鎖零售業者",
+        "entities": []
+      },
+      {
+        "role": "工業自動化",
+        "text": "全球工業自動化系統整合商 (SI)",
+        "entities": []
+      },
+      {
+        "role": "智慧零售",
+        "text": "零售餐飲 Kiosk 及 POS 終端品牌商",
+        "entities": []
+      },
+      {
+        "role": "醫療照護",
+        "text": "醫療資訊系統整合商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — 工業級 CPU/SoC",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "AI 模組",
+        "text": "[[NVIDIA]] — [[Jetson]] 邊緣 AI 模組",
+        "entities": [
+          "NVIDIA",
+          "Jetson"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[宜鼎]] — 工業級記憶體/SSD",
+        "entities": [
+          "宜鼎"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "工業級觸控面板模組供應商",
+        "entities": []
+      },
+      {
+        "role": "[[RFID]]",
+        "text": "[[RFID]] 讀取模組供應商",
+        "entities": [
+          "RFID"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "RFID",
+      "type": "international_company_or_term",
+      "wikilink": "RFID"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Jetson",
+      "type": "international_company_or_term",
+      "wikilink": "Jetson"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "宜鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宜鼎"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "和暢科技股份有限公司 (6825) 成立於 2014 年，專精於工商業用智慧面板電腦 (Panel PC)、嵌入式無風扇電腦及邊緣 AI 運算系統之設計與 ODM 製造。公司聚焦於嚴苛環境 (如物流倉儲、戶外巡檢、急診醫療與重工業製造) 中使用的特殊硬體，產品具備防水、防塵、耐摔、寬溫操作等強固特性，並能整合條碼掃描、[[RFID]] 讀取或特殊工業控制介面。核心產品涵蓋智慧面板電腦、嵌入式無風扇 [[Arm]]/x86 Box PC、邊緣 AI 電腦、單板電腦及自助服務終端機 (Kiosk)，廣泛應用於設施管理、嵌入式運算、零售餐飲及互動智慧科技等垂直應用領域。近年積極導入 [[NVIDIA]] [[Jetson]] 平台強化邊緣 AI 運算能力。",
+    "supply_chain_md": "**上游 (核心零組件):**\n- **處理器:** [[Intel]]、[[Arm]] 架構處理器 (CPU/SoC)\n- **AI 模組:** [[NVIDIA]] [[Jetson]] — 邊緣 AI 運算模組\n- **記憶體/儲存:** [[宜鼎]] 等工業級記憶體及 SSD\n- **面板:** 強固型高亮度觸控面板供應商\n- **特殊機殼:** 橡塑膠/金屬強化機殼及特規電池模組\n\n**中游 (強固型嵌入式系統製造):**\n- **Panel PC:** **和暢科技** (智慧面板電腦設計與 ODM)\n- **Box PC:** **和暢科技** (嵌入式無風扇 [[Arm]]/x86 工業電腦)\n- **邊緣 AI:** **和暢科技** (邊緣 AI 運算系統)\n\n**下游 (垂直應用市場):**\n- **物流倉儲:** 全球跨國物流車隊與大型連鎖零售盤點業者\n- **工業製造:** 工業自動化廠區設施管理\n- **智慧零售:** 零售餐飲互動智慧科技解決方案\n- **醫療院所:** 醫療資訊系統整合商",
+    "customers_suppliers_md": "### 主要客戶\n- **物流倉儲:** 歐美跨國物流車隊及大型連鎖零售業者\n- **工業自動化:** 全球工業自動化系統整合商 (SI)\n- **智慧零售:** 零售餐飲 Kiosk 及 POS 終端品牌商\n- **醫療照護:** 醫療資訊系統整合商\n\n### 主要供應商\n- **處理器:** [[Intel]] — 工業級 CPU/SoC\n- **AI 模組:** [[NVIDIA]] — [[Jetson]] 邊緣 AI 模組\n- **記憶體:** [[宜鼎]] — 工業級記憶體/SSD\n- **面板:** 工業級觸控面板模組供應商\n- **[[RFID]]:** [[RFID]] 讀取模組供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $39.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.61 |         N/A |      1.51 | 2.08 |      7.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       786.11 |       623.45 |       560.37 |\n| Gross Profit            |       246.57 |       189.61 |       173.19 |\n| Gross Margin (%)        |        31.37 |        30.41 |        30.91 |\n| Selling & Marketing Exp |        31.85 |        25.39 |        26.83 |\n| R&D Exp                 |        80.26 |        70.10 |        79.00 |\n| General & Admin Exp     |        46.67 |        42.78 |        43.28 |\n| Operating Income        |        87.79 |        51.34 |        24.07 |\n| Operating Margin (%)    |        11.17 |         8.24 |         4.30 |\n| Net Income              |        79.99 |        36.07 |        13.22 |\n| Net Margin (%)          |        10.18 |         5.79 |         2.36 |\n| Op Cash Flow            |        93.36 |        72.21 |       -32.42 |\n| Investing Cash Flow     |        -5.28 |        -7.73 |       -14.95 |\n| Financing Cash Flow     |        99.64 |       -28.75 |        66.87 |\n| CAPEX                   |        -5.22 |        -7.73 |       -17.49 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2495",
+  "company_name": "普安",
+  "title": "2495 - 普安",
+  "source_md": "Pilot_Reports/人工智慧 - 系統整合/2495_普安.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "8,890 百萬台幣",
+    "enterprise_value": "7,921 百萬台幣"
+  },
+  "business": {
+    "summary": "普安科技 (2495，[[Infortrend]]) 成立於 1993 年，總部位於新北市。公司為企業級儲存設備解決方案供應商，堅持自主研發儲存控制器與韌體，主力產品為 EonStor 系列 SAN/NAS/Unified Storage 系統。\n\n近年積極推出 AI 儲存解決方案 (EonStor GS/CS)，支援 GPU Direct Storage 功能，針對 [[AI]] 訓練、推論及大型語言模型之高速儲存需求優化。產品行銷全球八十餘國，終端應用涵蓋媒體娛樂後製 (M&E)、視訊監控、醫療影像歸檔 (PACS)、金融交易及政府機關。公司另轉投資房地產開發事業，為業外收益之重要來源。",
+    "entities": [
+      "Infortrend",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (伺服器級關鍵元件)",
+        "text": "**上游 (伺服器級關鍵元件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 伺服器級 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "儲存控制 IC",
+        "text": "[[Broadcom]] (LSI) — RAID 控制器晶片",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "硬碟/固態硬碟",
+        "text": "[[Seagate]]、[[WD]]、[[Toshiba]] — HDD/SSD",
+        "entities": [
+          "Seagate",
+          "WD",
+          "Toshiba"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[DDR5]]/[[DDR4]] 伺服器記憶體模組",
+        "entities": [
+          "DDR5",
+          "DDR4"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (儲存系統設計製造)",
+        "text": "**中游 (儲存系統設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "儲存控制器",
+        "text": "**普安** (自主研發儲存控制器韌體)",
+        "entities": []
+      },
+      {
+        "category": "儲存系統",
+        "text": "**普安** (EonStor SAN/NAS/Unified Storage)",
+        "entities": []
+      },
+      {
+        "category": "AI 儲存",
+        "text": "**普安** (GPU Direct Storage 優化方案)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用市場)",
+        "text": "**下游 (終端應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "媒體娛樂",
+        "text": "影視後製公司 — 4K/8K 非線性剪輯儲存",
+        "entities": []
+      },
+      {
+        "category": "視訊監控",
+        "text": "智慧城市與企業安防 — 長時間錄影儲存",
+        "entities": []
+      },
+      {
+        "category": "醫療影像",
+        "text": "醫療院所 PACS 影像歸檔系統",
+        "entities": []
+      },
+      {
+        "category": "雲端運算",
+        "text": "[[資料中心]]運營商 — AI 訓練儲存",
+        "entities": [
+          "資料中心"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "媒體娛樂",
+        "text": "全球影視後製公司 — 4K/8K 高速剪輯儲存",
+        "entities": []
+      },
+      {
+        "role": "視訊監控",
+        "text": "政府智慧城市專案及企業安防系統整合商",
+        "entities": []
+      },
+      {
+        "role": "醫療影像",
+        "text": "醫療院所 — PACS 影像歸檔系統",
+        "entities": []
+      },
+      {
+        "role": "雲端/AI",
+        "text": "[[資料中心]]運營商 — AI 訓練高速儲存",
+        "entities": [
+          "資料中心"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 伺服器級 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "控制晶片",
+        "text": "[[Broadcom]] (LSI) — RAID 控制器",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "硬碟",
+        "text": "[[Seagate]]、[[WD]]、[[Toshiba]] — 企業級 HDD/SSD",
+        "entities": [
+          "Seagate",
+          "WD",
+          "Toshiba"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Infortrend",
+      "type": "international_company_or_term",
+      "wikilink": "Infortrend"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "WD",
+      "type": "international_company_or_term",
+      "wikilink": "WD"
+    },
+    {
+      "name": "Toshiba",
+      "type": "international_company_or_term",
+      "wikilink": "Toshiba"
+    },
+    {
+      "name": "DDR5",
+      "type": "international_company_or_term",
+      "wikilink": "DDR5"
+    },
+    {
+      "name": "DDR4",
+      "type": "international_company_or_term",
+      "wikilink": "DDR4"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "普安科技 (2495，[[Infortrend]]) 成立於 1993 年，總部位於新北市。公司為企業級儲存設備解決方案供應商，堅持自主研發儲存控制器與韌體，主力產品為 EonStor 系列 SAN/NAS/Unified Storage 系統。\n\n近年積極推出 AI 儲存解決方案 (EonStor GS/CS)，支援 GPU Direct Storage 功能，針對 [[AI]] 訓練、推論及大型語言模型之高速儲存需求優化。產品行銷全球八十餘國，終端應用涵蓋媒體娛樂後製 (M&E)、視訊監控、醫療影像歸檔 (PACS)、金融交易及政府機關。公司另轉投資房地產開發事業，為業外收益之重要來源。",
+    "supply_chain_md": "**上游 (伺服器級關鍵元件):**\n- **處理器:** [[Intel]]、[[AMD]] — 伺服器級 CPU\n- **儲存控制 IC:** [[Broadcom]] (LSI) — RAID 控制器晶片\n- **硬碟/固態硬碟:** [[Seagate]]、[[WD]]、[[Toshiba]] — HDD/SSD\n- **記憶體:** [[DDR5]]/[[DDR4]] 伺服器記憶體模組\n\n**中游 (儲存系統設計製造):**\n- **儲存控制器:** **普安** (自主研發儲存控制器韌體)\n- **儲存系統:** **普安** (EonStor SAN/NAS/Unified Storage)\n- **AI 儲存:** **普安** (GPU Direct Storage 優化方案)\n\n**下游 (終端應用市場):**\n- **媒體娛樂:** 影視後製公司 — 4K/8K 非線性剪輯儲存\n- **視訊監控:** 智慧城市與企業安防 — 長時間錄影儲存\n- **醫療影像:** 醫療院所 PACS 影像歸檔系統\n- **雲端運算:** [[資料中心]]運營商 — AI 訓練儲存",
+    "customers_suppliers_md": "### 主要客戶\n- **媒體娛樂:** 全球影視後製公司 — 4K/8K 高速剪輯儲存\n- **視訊監控:** 政府智慧城市專案及企業安防系統整合商\n- **醫療影像:** 醫療院所 — PACS 影像歸檔系統\n- **雲端/AI:** [[資料中心]]運營商 — AI 訓練高速儲存\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — 伺服器級 CPU\n- **控制晶片:** [[Broadcom]] (LSI) — RAID 控制器\n- **硬碟:** [[Seagate]]、[[WD]]、[[Toshiba]] — 企業級 HDD/SSD",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $31.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     28.19 |         N/A |      6.85 | 1.86 |     69.88 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1176.12 |      1319.85 |      1390.97 |\n| Gross Profit            |       506.73 |       667.49 |       710.79 |\n| Gross Margin (%)        |        43.08 |        50.57 |        51.10 |\n| Selling & Marketing Exp |        41.34 |        45.56 |        49.35 |\n| R&D Exp                 |       282.96 |       325.37 |       296.06 |\n| General & Admin Exp     |       124.80 |       134.93 |       165.51 |\n| Operating Income        |        57.63 |       161.63 |       199.88 |\n| Operating Margin (%)    |         4.90 |        12.25 |        14.37 |\n| Net Income              |       307.86 |       606.13 |       241.45 |\n| Net Margin (%)          |        26.18 |        45.92 |        17.36 |\n| Op Cash Flow            |        53.78 |       221.78 |       248.72 |\n| Investing Cash Flow     |        89.20 |      -185.30 |      -533.38 |\n| Financing Cash Flow     |       -54.08 |      -129.78 |       113.82 |\n| CAPEX                   |       -13.78 |       -16.62 |       -12.19 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       370.13 |       342.96 |       290.08 |       269.05 |\n| Gross Profit            |       147.36 |       148.54 |       114.66 |       117.77 |\n| Gross Margin (%)        |        39.81 |        43.31 |        39.52 |        43.77 |\n| Selling & Marketing Exp |         9.10 |        11.23 |        11.32 |         9.89 |\n| R&D Exp                 |        59.42 |        72.67 |        70.36 |        73.92 |\n| General & Admin Exp     |        32.32 |        33.99 |        29.57 |        29.01 |\n| Operating Income        |        46.52 |        30.64 |         3.41 |         4.95 |\n| Operating Margin (%)    |        12.57 |         8.93 |         1.18 |         1.84 |\n| Net Income              |        90.31 |       185.90 |       203.10 |      -168.83 |\n| Net Margin (%)          |        24.40 |        54.20 |        70.01 |       -62.75 |\n| Op Cash Flow            |      -133.00 |        56.92 |       -53.48 |        30.10 |\n| Investing Cash Flow     |       107.64 |       -36.82 |       100.15 |      -253.35 |\n| Financing Cash Flow     |        -7.47 |       100.09 |       -63.05 |       243.45 |\n| CAPEX                   |        -0.78 |        -2.04 |        -8.19 |        -2.70 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

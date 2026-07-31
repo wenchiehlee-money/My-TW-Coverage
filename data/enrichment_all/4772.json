@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4772",
+  "company_name": "台特化",
+  "title": "4772 - 台特化",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/4772_台特化.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "32,121 百萬台幣",
+    "enterprise_value": "32,819 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣特用化學 (4772，Taiwan Specialty Chemicals / TSC) 為[[中美晶]] (5483，最大股東持股 30%) 旗下半導體特用材料公司，[[大立光]]亦有投資入股。全球乙矽烷 ([[矽乙烷]]，Si2H6) 供應龍頭 — 為先進邏輯 IC (14nm-3nm) [[CVD]]薄膜沉積之關鍵前驅體 (沉積速率為矽甲烷 10 倍)。另生產三矽烷 (Si3H8) 供次世代節點及[[AHF]] (無水氫氟酸) 供蝕刻/清洗。[[台積電]]佔營收約 60% (首年供貨即獲卓越供應商獎)，另供應[[世界先進]]、[[Texas Instruments]]。特殊氣體佔營收約 85%。營業利益率約 42%。市值約 454 億元。",
+    "entities": [
+      "中美晶",
+      "大立光",
+      "矽乙烷",
+      "CVD",
+      "AHF",
+      "台積電",
+      "世界先進",
+      "Texas Instruments"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與投資者)",
+        "text": "**上游 (原料與投資者):**",
+        "entities": []
+      },
+      {
+        "category": "矽粉/化工原料",
+        "text": "特殊矽粉及化工原料",
+        "entities": []
+      },
+      {
+        "category": "股東",
+        "text": "[[中美晶]] (30%，最大股東)、[[大立光]] (投資入股)、[[環球晶圓]] (中美晶集團)",
+        "entities": [
+          "中美晶",
+          "大立光",
+          "環球晶圓"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台特化** ([[矽乙烷]]/三矽烷/[[AHF]]製造，全球乙矽烷龍頭)",
+        "entities": [
+          "矽乙烷",
+          "AHF"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] (佔營收約 60%，2nm/3nm [[CVD]]製程)、[[世界先進]]",
+        "entities": [
+          "台積電",
+          "CVD",
+          "世界先進"
+        ]
+      },
+      {
+        "category": "IDM",
+        "text": "[[Texas Instruments]] — 類比 IC 製程",
+        "entities": [
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] — 佔營收約 60%，[[矽乙烷]]供 2nm/3nm [[CVD]] (首年獲卓越供應商)",
+        "entities": [
+          "台積電",
+          "矽乙烷",
+          "CVD"
+        ]
+      },
+      {
+        "role": "晶圓代工",
+        "text": "[[世界先進]] — 特殊氣體",
+        "entities": [
+          "世界先進"
+        ]
+      },
+      {
+        "role": "IDM",
+        "text": "[[Texas Instruments]] — 類比 IC",
+        "entities": [
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "最大股東",
+        "text": "[[中美晶]] (30%)，集團含[[環球晶圓]]",
+        "entities": [
+          "中美晶",
+          "環球晶圓"
+        ]
+      },
+      {
+        "role": "投資者",
+        "text": "[[大立光]]",
+        "entities": [
+          "大立光"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中美晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中美晶"
+    },
+    {
+      "name": "大立光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大立光"
+    },
+    {
+      "name": "矽乙烷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽乙烷"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "AHF",
+      "type": "international_company_or_term",
+      "wikilink": "AHF"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "環球晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環球晶圓"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣特用化學 (4772，Taiwan Specialty Chemicals / TSC) 為[[中美晶]] (5483，最大股東持股 30%) 旗下半導體特用材料公司，[[大立光]]亦有投資入股。全球乙矽烷 ([[矽乙烷]]，Si2H6) 供應龍頭 — 為先進邏輯 IC (14nm-3nm) [[CVD]]薄膜沉積之關鍵前驅體 (沉積速率為矽甲烷 10 倍)。另生產三矽烷 (Si3H8) 供次世代節點及[[AHF]] (無水氫氟酸) 供蝕刻/清洗。[[台積電]]佔營收約 60% (首年供貨即獲卓越供應商獎)，另供應[[世界先進]]、[[Texas Instruments]]。特殊氣體佔營收約 85%。營業利益率約 42%。市值約 454 億元。",
+    "supply_chain_md": "**上游 (原料與投資者):**\n- **矽粉/化工原料:** 特殊矽粉及化工原料\n- **股東:** [[中美晶]] (30%，最大股東)、[[大立光]] (投資入股)、[[環球晶圓]] (中美晶集團)\n\n**中游 (製造):**\n- **台特化** ([[矽乙烷]]/三矽烷/[[AHF]]製造，全球乙矽烷龍頭)\n\n**下游 (終端):**\n- **晶圓代工:** [[台積電]] (佔營收約 60%，2nm/3nm [[CVD]]製程)、[[世界先進]]\n- **IDM:** [[Texas Instruments]] — 類比 IC 製程",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] — 佔營收約 60%，[[矽乙烷]]供 2nm/3nm [[CVD]] (首年獲卓越供應商)\n- **晶圓代工:** [[世界先進]] — 特殊氣體\n- **IDM:** [[Texas Instruments]] — 類比 IC\n\n### 主要供應商/股東\n- **最大股東:** [[中美晶]] (30%)，集團含[[環球晶圓]]\n- **投資者:** [[大立光]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $207.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     43.22 |       21.24 |     18.12 | 8.79 |     37.05 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1991.50 |       873.96 |       553.52 |\n| Gross Profit            |      1052.83 |       462.75 |       210.23 |\n| Gross Margin (%)        |        52.87 |        52.95 |        37.98 |\n| Selling & Marketing Exp |        72.37 |        24.38 |        14.29 |\n| R&D Exp                 |        29.02 |        18.44 |        18.31 |\n| General & Admin Exp     |       105.86 |        55.27 |        39.83 |\n| Operating Income        |       845.59 |       364.67 |       137.80 |\n| Operating Margin (%)    |        42.46 |        41.73 |        24.89 |\n| Net Income              |       620.07 |       385.59 |       155.65 |\n| Net Margin (%)          |        31.14 |        44.12 |        28.12 |\n| Op Cash Flow            |       946.94 |       528.89 |       234.64 |\n| Investing Cash Flow     |     -1375.85 |     -1045.88 |      -100.22 |\n| Financing Cash Flow     |      1685.55 |      1087.81 |       -94.25 |\n| CAPEX                   |      -216.76 |       -45.70 |      -101.22 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       856.59 |       869.62 |       262.75 |       219.62 |\n| Gross Profit            |       436.51 |       425.42 |       153.24 |       127.81 |\n| Gross Margin (%)        |        50.96 |        48.92 |        58.32 |        58.20 |\n| Selling & Marketing Exp |        41.91 |        40.49 |         2.51 |         2.71 |\n| R&D Exp                 |        10.39 |         9.06 |         6.56 |         3.85 |\n| General & Admin Exp     |        39.56 |        42.36 |        13.70 |        12.39 |\n| Operating Income        |       344.66 |       333.51 |       130.47 |       108.86 |\n| Operating Margin (%)    |        40.24 |        38.35 |        49.66 |        49.57 |\n| Net Income              |       196.13 |       222.43 |       116.68 |       102.73 |\n| Net Margin (%)          |        22.90 |        25.58 |        44.41 |        46.78 |\n| Op Cash Flow            |       373.70 |       438.01 |       111.66 |        97.34 |\n| Investing Cash Flow     |      -133.08 |       874.12 |       -26.97 |       -16.18 |\n| Financing Cash Flow     |       -13.35 |      -379.82 |         0.00 |        -0.05 |\n| CAPEX                   |      -135.52 |      -125.47 |       -27.30 |       -16.29 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

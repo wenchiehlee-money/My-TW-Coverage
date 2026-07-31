@@ -38,7 +38,7 @@ def ensure_entity(data: dict[str, Any], name: str) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--json-dir", default="data/enrichment_all_draft")
+    parser.add_argument("--json-dir", default="data/enrichment_all")
     parser.add_argument("--basis-prefix", default="curated_", help="Only reciprocal-sync competitor items whose basis starts with this prefix. Use empty string for all.")
     args = parser.parse_args()
 

@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2243",
+  "company_name": "宏旭-KY",
+  "title": "2243 - 宏旭-KY",
+  "source_md": "Pilot_Reports/Auto Parts/2243_宏旭-KY.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "3,070 百萬台幣",
+    "enterprise_value": "3,441 百萬台幣"
+  },
+  "business": {
+    "summary": "宏旭-KY (2243，Hong Xu) 為汽車車身鈑金模具與治具製造商，約 90% 營收來自 OEM 車廠訂單，專精於「四門三蓋」大型車身面板模具。積極布局鋁合金模具以因應電動車輕量化趨勢。核心客戶涵蓋[[比亞迪]] ([[BYD]])、[[吉利]]、[[東風日產]]、[[長安福特]]，並為[[華為]] [[AITO]] 問界系列約 70% 車身鈑金模具之主要供應商。歐系豪車客戶包含[[Mercedes-Benz]]、[[BMW]]、[[Audi]]。另拓展印度市場，服務[[TATA]] (Tata Motors)。生產基地位於上海及浙江。",
+    "entities": [
+      "比亞迪",
+      "BYD",
+      "吉利",
+      "東風日產",
+      "長安福特",
+      "華為",
+      "AITO",
+      "Mercedes-Benz",
+      "BMW",
+      "Audi",
+      "TATA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "模具鋼/鋁合金",
+        "text": "大型鋼鐵及鋁合金供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**宏旭** (車身鈑金模具/治具，上海/浙江工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OEM 客戶)",
+        "text": "**下游 (OEM 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "中國自主",
+        "text": "[[比亞迪]]、[[吉利]]、[[華為]] [[AITO]] 問界 (約 70% 模具)",
+        "entities": [
+          "比亞迪",
+          "吉利",
+          "華為",
+          "AITO"
+        ]
+      },
+      {
+        "category": "合資品牌",
+        "text": "[[東風日產]]、[[長安福特]]",
+        "entities": [
+          "東風日產",
+          "長安福特"
+        ]
+      },
+      {
+        "category": "歐系豪車",
+        "text": "[[Mercedes-Benz]]、[[BMW]]、[[Audi]]",
+        "entities": [
+          "Mercedes-Benz",
+          "BMW",
+          "Audi"
+        ]
+      },
+      {
+        "category": "印度",
+        "text": "[[TATA]] (Tata Motors)",
+        "entities": [
+          "TATA"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "中國自主品牌",
+        "text": "[[比亞迪]]、[[吉利]] — 車身模具",
+        "entities": [
+          "比亞迪",
+          "吉利"
+        ]
+      },
+      {
+        "role": "華為生態",
+        "text": "[[華為]] [[AITO]] 問界 — 約 70% 車身鈑金模具",
+        "entities": [
+          "華為",
+          "AITO"
+        ]
+      },
+      {
+        "role": "合資品牌",
+        "text": "[[東風日產]]、[[長安福特]]",
+        "entities": [
+          "東風日產",
+          "長安福特"
+        ]
+      },
+      {
+        "role": "歐系豪車",
+        "text": "[[Mercedes-Benz]]、[[BMW]]、[[Audi]]",
+        "entities": [
+          "Mercedes-Benz",
+          "BMW",
+          "Audi"
+        ]
+      },
+      {
+        "role": "印度",
+        "text": "[[TATA]] (Tata Motors)",
+        "entities": [
+          "TATA"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "模具鋼",
+        "text": "大型鋼鐵供應商",
+        "entities": []
+      },
+      {
+        "role": "鋁合金",
+        "text": "鋁合金材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "比亞迪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "比亞迪"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "吉利",
+      "type": "taiwan_company_or_term",
+      "wikilink": "吉利"
+    },
+    {
+      "name": "東風日產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東風日產"
+    },
+    {
+      "name": "長安福特",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長安福特"
+    },
+    {
+      "name": "華為",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華為"
+    },
+    {
+      "name": "AITO",
+      "type": "international_company_or_term",
+      "wikilink": "AITO"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "Audi",
+      "type": "international_company_or_term",
+      "wikilink": "Audi"
+    },
+    {
+      "name": "TATA",
+      "type": "international_company_or_term",
+      "wikilink": "TATA"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宏旭-KY (2243，Hong Xu) 為汽車車身鈑金模具與治具製造商，約 90% 營收來自 OEM 車廠訂單，專精於「四門三蓋」大型車身面板模具。積極布局鋁合金模具以因應電動車輕量化趨勢。核心客戶涵蓋[[比亞迪]] ([[BYD]])、[[吉利]]、[[東風日產]]、[[長安福特]]，並為[[華為]] [[AITO]] 問界系列約 70% 車身鈑金模具之主要供應商。歐系豪車客戶包含[[Mercedes-Benz]]、[[BMW]]、[[Audi]]。另拓展印度市場，服務[[TATA]] (Tata Motors)。生產基地位於上海及浙江。",
+    "supply_chain_md": "**上游 (原料):**\n- **模具鋼/鋁合金:** 大型鋼鐵及鋁合金供應商\n\n**中游 (製造):**\n- **宏旭** (車身鈑金模具/治具，上海/浙江工廠)\n\n**下游 (OEM 客戶):**\n- **中國自主:** [[比亞迪]]、[[吉利]]、[[華為]] [[AITO]] 問界 (約 70% 模具)\n- **合資品牌:** [[東風日產]]、[[長安福特]]\n- **歐系豪車:** [[Mercedes-Benz]]、[[BMW]]、[[Audi]]\n- **印度:** [[TATA]] (Tata Motors)",
+    "customers_suppliers_md": "### 主要客戶\n- **中國自主品牌:** [[比亞迪]]、[[吉利]] — 車身模具\n- **華為生態:** [[華為]] [[AITO]] 問界 — 約 70% 車身鈑金模具\n- **合資品牌:** [[東風日產]]、[[長安福特]]\n- **歐系豪車:** [[Mercedes-Benz]]、[[BMW]]、[[Audi]]\n- **印度:** [[TATA]] (Tata Motors)\n\n### 主要供應商\n- **模具鋼:** 大型鋼鐵供應商\n- **鋁合金:** 鋁合金材料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $39.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.00 |         N/A |      1.32 | 3.11 |     11.95 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1739.11 |      1911.54 |      1674.74 |\n| Gross Profit            |       250.32 |       165.07 |        11.17 |\n| Gross Margin (%)        |        14.39 |         8.64 |         0.67 |\n| Selling & Marketing Exp |        16.93 |        19.13 |        19.74 |\n| R&D Exp                 |        35.16 |        27.66 |        17.80 |\n| General & Admin Exp     |        85.65 |        87.60 |        85.19 |\n| Operating Income        |       112.59 |        30.69 |      -111.56 |\n| Operating Margin (%)    |         6.47 |         1.61 |        -6.66 |\n| Net Income              |        84.59 |        16.73 |      -144.34 |\n| Net Margin (%)          |         4.86 |         0.88 |        -8.62 |\n| Op Cash Flow            |       112.86 |       329.77 |        40.91 |\n| Investing Cash Flow     |       -71.88 |       -33.38 |       -42.15 |\n| Financing Cash Flow     |       -24.82 |        59.45 |        19.75 |\n| CAPEX                   |       -70.43 |       -14.46 |       -45.16 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       558.17 |       633.14 |       367.90 |       538.29 |\n| Gross Profit            |        86.27 |       141.03 |        11.18 |       105.66 |\n| Gross Margin (%)        |        15.46 |        22.27 |         3.04 |        19.63 |\n| Selling & Marketing Exp |         6.10 |         6.07 |         4.84 |         3.18 |\n| R&D Exp                 |         9.11 |        12.31 |         6.51 |         7.86 |\n| General & Admin Exp     |        27.45 |        21.17 |        23.51 |        22.20 |\n| Operating Income        |        43.60 |       101.48 |       -23.67 |        72.42 |\n| Operating Margin (%)    |         7.81 |        16.03 |        -6.43 |        13.45 |\n| Net Income              |        46.03 |        92.23 |       -33.97 |        68.37 |\n| Net Margin (%)          |         8.25 |        14.57 |        -9.23 |        12.70 |\n| Op Cash Flow            |         8.32 |       230.19 |       -48.69 |      -103.44 |\n| Investing Cash Flow     |       -25.89 |       -20.64 |        17.47 |       -64.27 |\n| Financing Cash Flow     |       -36.32 |       -37.99 |       -24.64 |        41.25 |\n| CAPEX                   |       -13.87 |        -0.51 |        -7.45 |       -60.38 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

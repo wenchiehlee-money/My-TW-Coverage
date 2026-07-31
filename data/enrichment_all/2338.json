@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2338",
+  "company_name": "光罩",
+  "title": "2338 - 光罩",
+  "source_md": "Pilot_Reports/半導體 - 光罩/2338_光罩.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "11,495 百萬台幣",
+    "enterprise_value": "17,442 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣光罩 (2338) 是台灣領先的[[光罩]] (Photomask) 製造商，專注於半導體及平面顯示器用光罩之研發、製造與銷售。公司產品涵蓋 5X/4X/2.5X/2X 投影式光罩及大面積光罩，應用於 [[IC 製造]]、[[LCD]]、[[LED]] 及[[晶圓級封裝]] (WLCSP) 製程。2024 年光罩業務占營收 55%，轉投資事業占 45%。亞洲市場占營收 62%、台灣占 36%。",
+    "entities": [
+      "光罩",
+      "IC 製造",
+      "LCD",
+      "LED",
+      "晶圓級封裝"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與設備)",
+        "text": "**上游 (原料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "光罩基板",
+        "text": "石英玻璃、硼矽玻璃基板",
+        "entities": []
+      },
+      {
+        "category": "光罩製造設備",
+        "text": "電子束曝光機、雷射曝光設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光罩製造)",
+        "text": "**中游 (光罩製造):**",
+        "entities": []
+      },
+      {
+        "category": "光罩生產",
+        "text": "**台灣光罩** (半導體及顯示器用光罩製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (晶圓代工與面板)",
+        "text": "**下游 (晶圓代工與面板):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "IC 製造客戶 (光罩為[[微影]]製程關鍵耗材)",
+        "entities": [
+          "微影"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "LCD 及 LED 面板製造客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "IC 製造",
+        "text": "晶圓代工及 IDM 廠 (光罩為[[微影]]製程必需品)",
+        "entities": [
+          "微影"
+        ]
+      },
+      {
+        "role": "面板/LED",
+        "text": "LCD 及 LED 製造客戶",
+        "entities": []
+      },
+      {
+        "role": "封裝",
+        "text": "晶圓級封裝 (WLCSP) 客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光罩基板",
+        "text": "石英玻璃基板供應商",
+        "entities": []
+      },
+      {
+        "role": "化學品",
+        "text": "光阻及顯影化學品",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[翔準]]、[[DNP]]、[[HOYA]]、[[Photronics]]、[[Toppan]]",
+        "entities": [
+          "翔準",
+          "DNP",
+          "HOYA",
+          "Photronics",
+          "Toppan"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[翔準]]、[[DNP]]、[[HOYA]]、[[Photronics]]、[[Toppan]]",
+        "entities": [
+          "翔準",
+          "DNP",
+          "HOYA",
+          "Photronics",
+          "Toppan"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "光罩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光罩"
+    },
+    {
+      "name": "IC 製造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC 製造"
+    },
+    {
+      "name": "LCD",
+      "type": "international_company_or_term",
+      "wikilink": "LCD"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "晶圓級封裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶圓級封裝"
+    },
+    {
+      "name": "微影",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微影"
+    },
+    {
+      "name": "翔準",
+      "type": "taiwan_company_or_term",
+      "wikilink": "翔準"
+    },
+    {
+      "name": "DNP",
+      "type": "international_company_or_term",
+      "wikilink": "DNP"
+    },
+    {
+      "name": "HOYA",
+      "type": "international_company_or_term",
+      "wikilink": "HOYA"
+    },
+    {
+      "name": "Photronics",
+      "type": "international_company_or_term",
+      "wikilink": "Photronics"
+    },
+    {
+      "name": "Toppan",
+      "type": "international_company_or_term",
+      "wikilink": "Toppan"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣光罩 (2338) 是台灣領先的[[光罩]] (Photomask) 製造商，專注於半導體及平面顯示器用光罩之研發、製造與銷售。公司產品涵蓋 5X/4X/2.5X/2X 投影式光罩及大面積光罩，應用於 [[IC 製造]]、[[LCD]]、[[LED]] 及[[晶圓級封裝]] (WLCSP) 製程。2024 年光罩業務占營收 55%，轉投資事業占 45%。亞洲市場占營收 62%、台灣占 36%。",
+    "supply_chain_md": "**上游 (原料與設備):**\n- **光罩基板:** 石英玻璃、硼矽玻璃基板\n- **光罩製造設備:** 電子束曝光機、雷射曝光設備\n\n**中游 (光罩製造):**\n- **光罩生產:** **台灣光罩** (半導體及顯示器用光罩製造)\n\n**下游 (晶圓代工與面板):**\n- **晶圓代工:** IC 製造客戶 (光罩為[[微影]]製程關鍵耗材)\n- **面板廠:** LCD 及 LED 面板製造客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **IC 製造:** 晶圓代工及 IDM 廠 (光罩為[[微影]]製程必需品)\n- **面板/LED:** LCD 及 LED 製造客戶\n- **封裝:** 晶圓級封裝 (WLCSP) 客戶\n\n### 主要供應商\n- **光罩基板:** 石英玻璃基板供應商\n- **化學品:** 光阻及顯影化學品\n- **競爭同業:** [[翔準]]、[[DNP]]、[[HOYA]]、[[Photronics]]、[[Toppan]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $33.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |      111.67 |      1.84 | 1.81 |     16.27 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6038.07 |      7561.75 |      7199.94 |\n| Gross Profit            |       473.79 |      1421.69 |      1836.37 |\n| Gross Margin (%)        |         7.85 |        18.80 |        25.51 |\n| Selling & Marketing Exp |       297.01 |       311.59 |       271.12 |\n| R&D Exp                 |       327.64 |       389.24 |       348.14 |\n| General & Admin Exp     |       449.02 |       418.13 |       459.03 |\n| Operating Income        |      -599.88 |       302.73 |       758.09 |\n| Operating Margin (%)    |        -9.94 |         4.00 |        10.53 |\n| Net Income              |     -1173.72 |      -472.52 |       366.13 |\n| Net Margin (%)          |       -19.44 |        -6.25 |         5.09 |\n| Op Cash Flow            |      2376.51 |      1903.58 |       787.62 |\n| Investing Cash Flow     |     -1493.58 |     -2353.24 |     -3536.97 |\n| Financing Cash Flow     |     -1450.16 |       500.41 |      2350.52 |\n| CAPEX                   |     -1324.92 |     -2020.82 |     -3216.56 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1538.71 |      1369.82 |      1450.36 |      1589.93 |\n| Gross Profit            |       270.08 |        73.92 |       103.13 |       114.55 |\n| Gross Margin (%)        |        17.55 |         5.40 |         7.11 |         7.20 |\n| Selling & Marketing Exp |        64.26 |        61.14 |        71.16 |        68.53 |\n| R&D Exp                 |        49.57 |        76.75 |        81.39 |        81.79 |\n| General & Admin Exp     |       139.76 |       132.34 |       111.00 |        91.58 |\n| Operating Income        |        16.50 |      -196.32 |      -160.42 |      -127.36 |\n| Operating Margin (%)    |         1.07 |       -14.33 |       -11.06 |        -8.01 |\n| Net Income              |       149.51 |      -362.56 |      -158.44 |      -395.78 |\n| Net Margin (%)          |         9.72 |       -26.47 |       -10.92 |       -24.89 |\n| Op Cash Flow            |       487.08 |       153.09 |       541.21 |      1163.34 |\n| Investing Cash Flow     |      -377.70 |      -423.05 |      -297.55 |       -21.10 |\n| Financing Cash Flow     |       389.24 |        78.41 |      -160.50 |     -1397.67 |\n| CAPEX                   |      -215.66 |      -258.55 |      -107.54 |      -142.95 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

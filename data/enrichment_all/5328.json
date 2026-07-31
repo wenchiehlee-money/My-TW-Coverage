@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5328",
+  "company_name": "華容",
+  "title": "5328 - 華容",
+  "source_md": "Pilot_Reports/被動元件 - 電容器/5328_華容.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "11,140 百萬台幣",
+    "enterprise_value": "10,634 百萬台幣"
+  },
+  "business": {
+    "summary": "華容 (5328，[[Hua Jung]]) 為台灣 **塑膠薄膜電容器 (Film Capacitor)** 製造龍頭，產品具備耐高壓、低耗損及長壽命優點。\n\n主要產品為金屬化聚酯/聚丙烯膜電容器，傳統應用於電源供應器、照明、家電。近年積極布局六大高附加價值領域：(1) **[[AI 伺服器]]** — BBU (備援電池單元) 用薄膜電容；(2) **綠能** — 太陽能逆變器 (PV Inverter) 用電容，原有客戶訂單回溫；(3) **[[電動車]]** — 充電樁電容 (已打入中國車廠供應鏈)；(4) **儲能** — 儲能系統用大容量電容；(5) **智慧電表** — 高可靠性電容新品；(6) **電網升級** — 國家電網基礎設施電容。工廠位於高雄及中國東莞，電源模組相關應用佔營收約 60%，綠能約佔 10%，工控約佔 7%。",
+    "entities": [
+      "Hua Jung",
+      "AI 伺服器",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (薄膜與金屬材料)",
+        "text": "**上游 (薄膜與金屬材料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠薄膜",
+        "text": "PP (聚丙烯)/PET (聚酯) 金屬化薄膜 — 國際薄膜大廠",
+        "entities": []
+      },
+      {
+        "category": "金屬箔",
+        "text": "鋁箔/鋅箔 — 電極材料",
+        "entities": []
+      },
+      {
+        "category": "引線",
+        "text": "引線端子材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (薄膜電容製造)",
+        "text": "**中游 (薄膜電容製造):**",
+        "entities": []
+      },
+      {
+        "category": "安規電容",
+        "text": "**華容** (AC 安規薄膜電容)",
+        "entities": []
+      },
+      {
+        "category": "功率電容",
+        "text": "**華容** (DC-Link/緩衝/濾波電容)",
+        "entities": []
+      },
+      {
+        "category": "新應用電容",
+        "text": "**華容** ([[AI 伺服器]] BBU、充電樁、儲能系統)",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電源與綠能終端)",
+        "text": "**下游 (電源與綠能終端):**",
+        "entities": []
+      },
+      {
+        "category": "電源供應器",
+        "text": "[[台達電]]、[[光寶科]]、[[群光]] — PC/NB/伺服器電源",
+        "entities": [
+          "台達電",
+          "光寶科",
+          "群光"
+        ]
+      },
+      {
+        "category": "綠能/充電樁",
+        "text": "太陽能逆變器廠、[[電動車]]充電樁製造商",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[AI 伺服器]] BBU 備援電池模組",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "電網/電表",
+        "text": "智慧電表與電網升級設備商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源供應器",
+        "text": "[[台達電]]、[[光寶科]]、[[群光]] — PC/NB/伺服器電源用薄膜電容",
+        "entities": [
+          "台達電",
+          "光寶科",
+          "群光"
+        ]
+      },
+      {
+        "role": "綠能",
+        "text": "太陽能逆變器客戶 — PV Inverter 用電容 (訂單回溫中)",
+        "entities": []
+      },
+      {
+        "role": "充電樁",
+        "text": "中國車廠充電樁供應鏈 — [[電動車]]充電樁電容",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "role": "AI/資料中心",
+        "text": "[[AI 伺服器]] BBU 備援電池模組客戶",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "薄膜",
+        "text": "國際塑膠薄膜大廠 — PP/PET 金屬化薄膜",
+        "entities": []
+      },
+      {
+        "role": "金屬箔",
+        "text": "鋁箔/鋅箔電極材料供應商",
+        "entities": []
+      },
+      {
+        "role": "引線",
+        "text": "端子與引線材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Hua Jung",
+      "type": "international_company_or_term",
+      "wikilink": "Hua Jung"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "群光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群光"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華容 (5328，[[Hua Jung]]) 為台灣 **塑膠薄膜電容器 (Film Capacitor)** 製造龍頭，產品具備耐高壓、低耗損及長壽命優點。\n\n主要產品為金屬化聚酯/聚丙烯膜電容器，傳統應用於電源供應器、照明、家電。近年積極布局六大高附加價值領域：(1) **[[AI 伺服器]]** — BBU (備援電池單元) 用薄膜電容；(2) **綠能** — 太陽能逆變器 (PV Inverter) 用電容，原有客戶訂單回溫；(3) **[[電動車]]** — 充電樁電容 (已打入中國車廠供應鏈)；(4) **儲能** — 儲能系統用大容量電容；(5) **智慧電表** — 高可靠性電容新品；(6) **電網升級** — 國家電網基礎設施電容。工廠位於高雄及中國東莞，電源模組相關應用佔營收約 60%，綠能約佔 10%，工控約佔 7%。",
+    "supply_chain_md": "**上游 (薄膜與金屬材料):**\n- **塑膠薄膜:** PP (聚丙烯)/PET (聚酯) 金屬化薄膜 — 國際薄膜大廠\n- **金屬箔:** 鋁箔/鋅箔 — 電極材料\n- **引線:** 引線端子材料\n\n**中游 (薄膜電容製造):**\n- **安規電容:** **華容** (AC 安規薄膜電容)\n- **功率電容:** **華容** (DC-Link/緩衝/濾波電容)\n- **新應用電容:** **華容** ([[AI 伺服器]] BBU、充電樁、儲能系統)\n\n**下游 (電源與綠能終端):**\n- **電源供應器:** [[台達電]]、[[光寶科]]、[[群光]] — PC/NB/伺服器電源\n- **綠能/充電樁:** 太陽能逆變器廠、[[電動車]]充電樁製造商\n- **AI 伺服器:** [[AI 伺服器]] BBU 備援電池模組\n- **電網/電表:** 智慧電表與電網升級設備商",
+    "customers_suppliers_md": "### 主要客戶\n- **電源供應器:** [[台達電]]、[[光寶科]]、[[群光]] — PC/NB/伺服器電源用薄膜電容\n- **綠能:** 太陽能逆變器客戶 — PV Inverter 用電容 (訂單回溫中)\n- **充電樁:** 中國車廠充電樁供應鏈 — [[電動車]]充電樁電容\n- **AI/資料中心:** [[AI 伺服器]] BBU 備援電池模組客戶\n\n### 主要供應商\n- **薄膜:** 國際塑膠薄膜大廠 — PP/PET 金屬化薄膜\n- **金屬箔:** 鋁箔/鋅箔電極材料供應商\n- **引線:** 端子與引線材料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $58.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    129.56 |         N/A |     11.06 | 4.79 |    236.63 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       883.72 |       866.51 |      1017.79 |\n| Gross Profit            |       241.44 |       213.66 |       261.45 |\n| Gross Margin (%)        |        27.32 |        24.66 |        25.69 |\n| Selling & Marketing Exp |        55.59 |        55.79 |        54.95 |\n| R&D Exp                 |         8.24 |         7.95 |         7.58 |\n| General & Admin Exp     |       142.72 |       142.49 |       125.71 |\n| Operating Income        |        34.90 |         7.43 |        73.21 |\n| Operating Margin (%)    |         3.95 |         0.86 |         7.19 |\n| Net Income              |        67.07 |        67.72 |        78.93 |\n| Net Margin (%)          |         7.59 |         7.82 |         7.76 |\n| Op Cash Flow            |      -157.28 |         7.55 |       506.04 |\n| Investing Cash Flow     |        90.69 |      -297.51 |        39.14 |\n| Financing Cash Flow     |       187.10 |        -7.42 |      -328.94 |\n| CAPEX                   |        -4.44 |        -2.64 |       -10.89 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       234.44 |       227.22 |       227.87 |       220.91 |\n| Gross Profit            |        53.78 |        66.19 |        58.26 |        63.66 |\n| Gross Margin (%)        |        22.94 |        29.13 |        25.57 |        28.82 |\n| Selling & Marketing Exp |        13.84 |        13.98 |        14.05 |        13.56 |\n| R&D Exp                 |         2.35 |         2.13 |         1.95 |         2.03 |\n| General & Admin Exp     |        38.33 |        40.98 |        36.03 |        32.66 |\n| Operating Income        |        -0.75 |         9.09 |         6.23 |        15.40 |\n| Operating Margin (%)    |        -0.32 |         4.00 |         2.74 |         6.97 |\n| Net Income              |        19.42 |        30.55 |        22.42 |         5.32 |\n| Net Margin (%)          |         8.28 |        13.45 |         9.84 |         2.41 |\n| Op Cash Flow            |       451.02 |      -444.07 |       275.25 |      -352.49 |\n| Investing Cash Flow     |        59.79 |        91.72 |      -150.99 |       120.91 |\n| Financing Cash Flow     |      -403.15 |       420.19 |      -350.55 |       313.88 |\n| CAPEX                   |        -0.34 |        -0.14 |         0.00 |         0.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6791",
+  "company_name": "虎門科技",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/人工智慧 - 領域解決方案/6791_虎門科技.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "2,022 百萬台幣",
+    "enterprise_value": "1,768 百萬台幣"
+  },
+  "business": {
+    "summary": "虎門科技股份有限公司 (6791) 為台灣工業軟體與計算機輔助工程 ([[CAE]]) 平台領導廠商。核心業務為代理及開發 [[CAE]] 軟體，協助客戶於電腦上進行結構、流體、散熱、電磁與光學之模擬分析，大幅降低研發成本。公司為 [[Ansys]] 台灣核心代理商，並引進德國 [[Polytec]] 高階量測設備。業務亦涵蓋商管智能系統 (CPC) 及工業 4.0 智慧製造系統整合。近期積極導入 [[AI]] 與數位孿生技術 (Digital Twin)，深受半導體、軍工及電子製造業高度依賴。[[Ansys]] 與[[台積電]]於 2024 年合作開發[[矽光子]]多物理場模擬平台，帶動虎門相關業務。",
+    "entities": [
+      "CAE",
+      "Ansys",
+      "Polytec",
+      "AI",
+      "台積電",
+      "矽光子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (軟體原廠與設備)",
+        "text": "**上游 (軟體原廠與設備):**",
+        "entities": []
+      },
+      {
+        "category": "CAE 軟體",
+        "text": "[[Ansys]] — 結構/流體/電磁/光學模擬軟體原廠",
+        "entities": [
+          "Ansys"
+        ]
+      },
+      {
+        "category": "量測設備",
+        "text": "[[Polytec]] — 德國高階奈米白光干涉儀",
+        "entities": [
+          "Polytec"
+        ]
+      },
+      {
+        "category": "雲端運算",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 高效能運算平台",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (技術服務)",
+        "text": "**中游 (技術服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**虎門科技** ([[CAE]] 模擬分析軟體代理、商管智能 CPC 服務、工業 4.0 智造整合顧問)",
+        "entities": [
+          "CAE"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]] — 晶圓製程與[[矽光子]]模擬",
+        "entities": [
+          "台積電",
+          "矽光子"
+        ]
+      },
+      {
+        "category": "國防軍工",
+        "text": "[[中科院]] — 無人機與國防研發模擬",
+        "entities": [
+          "中科院"
+        ]
+      },
+      {
+        "category": "電子製造",
+        "text": "IC 設計與封測業者之研發驗證",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]] — 製程與[[矽光子]]模擬分析",
+        "entities": [
+          "台積電",
+          "矽光子"
+        ]
+      },
+      {
+        "role": "國防軍工",
+        "text": "[[中科院]] — 無人機與武器系統研發模擬",
+        "entities": [
+          "中科院"
+        ]
+      },
+      {
+        "role": "電子製造",
+        "text": "IC 設計與封測業者 — 產品驗證",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CAE 軟體",
+        "text": "[[Ansys]] — 全球工程模擬軟體龍頭",
+        "entities": [
+          "Ansys"
+        ]
+      },
+      {
+        "role": "量測設備",
+        "text": "[[Polytec]] — 德國奈米量測儀器",
+        "entities": [
+          "Polytec"
+        ]
+      },
+      {
+        "role": "雲端平台",
+        "text": "[[AWS]] — 高效能運算",
+        "entities": [
+          "AWS"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "CAE",
+      "type": "international_company_or_term",
+      "wikilink": "CAE"
+    },
+    {
+      "name": "Ansys",
+      "type": "international_company_or_term",
+      "wikilink": "Ansys"
+    },
+    {
+      "name": "Polytec",
+      "type": "international_company_or_term",
+      "wikilink": "Polytec"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "中科院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中科院"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "虎門科技股份有限公司 (6791) 為台灣工業軟體與計算機輔助工程 ([[CAE]]) 平台領導廠商。核心業務為代理及開發 [[CAE]] 軟體，協助客戶於電腦上進行結構、流體、散熱、電磁與光學之模擬分析，大幅降低研發成本。公司為 [[Ansys]] 台灣核心代理商，並引進德國 [[Polytec]] 高階量測設備。業務亦涵蓋商管智能系統 (CPC) 及工業 4.0 智慧製造系統整合。近期積極導入 [[AI]] 與數位孿生技術 (Digital Twin)，深受半導體、軍工及電子製造業高度依賴。[[Ansys]] 與[[台積電]]於 2024 年合作開發[[矽光子]]多物理場模擬平台，帶動虎門相關業務。",
+    "supply_chain_md": "**上游 (軟體原廠與設備):**\n- **CAE 軟體:** [[Ansys]] — 結構/流體/電磁/光學模擬軟體原廠\n- **量測設備:** [[Polytec]] — 德國高階奈米白光干涉儀\n- **雲端運算:** [[AWS]]、[[Microsoft Azure]] — 高效能運算平台\n\n**中游 (技術服務):**\n- **虎門科技** ([[CAE]] 模擬分析軟體代理、商管智能 CPC 服務、工業 4.0 智造整合顧問)\n\n**下游 (終端客戶):**\n- **半導體:** [[台積電]] — 晶圓製程與[[矽光子]]模擬\n- **國防軍工:** [[中科院]] — 無人機與國防研發模擬\n- **電子製造:** IC 設計與封測業者之研發驗證",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]] — 製程與[[矽光子]]模擬分析\n- **國防軍工:** [[中科院]] — 無人機與武器系統研發模擬\n- **電子製造:** IC 設計與封測業者 — 產品驗證\n\n### 主要供應商\n- **CAE 軟體:** [[Ansys]] — 全球工程模擬軟體龍頭\n- **量測設備:** [[Polytec]] — 德國奈米量測儀器\n- **雲端平台:** [[AWS]] — 高效能運算",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $97.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     19.94 |         N/A |      2.46 | 4.51 |     17.75 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       805.62 |       675.51 |       602.34 |\n| Gross Profit            |       330.48 |       259.43 |       246.15 |\n| Gross Margin (%)        |        41.02 |        38.40 |        40.87 |\n| Selling & Marketing Exp |       135.72 |        88.77 |        75.31 |\n| R&D Exp                 |        66.27 |        55.42 |        55.45 |\n| General & Admin Exp     |        44.90 |        31.57 |        29.09 |\n| Operating Income        |        83.58 |        83.68 |        86.29 |\n| Operating Margin (%)    |        10.38 |        12.39 |        14.33 |\n| Net Income              |        86.81 |        86.82 |        80.61 |\n| Net Margin (%)          |        10.78 |        12.85 |        13.38 |\n| Op Cash Flow            |        54.83 |        78.98 |        71.69 |\n| Investing Cash Flow     |        58.72 |       -32.93 |       -22.82 |\n| Financing Cash Flow     |       -86.40 |       -84.97 |      -116.81 |\n| CAPEX                   |       -13.60 |       -10.20 |        -5.81 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       201.63 |       225.01 |       215.29 |       184.13 |\n| Gross Profit            |        84.06 |        95.44 |        84.82 |        80.20 |\n| Gross Margin (%)        |        41.69 |        42.42 |        39.40 |        43.56 |\n| Selling & Marketing Exp |        31.30 |        44.28 |        31.80 |        30.56 |\n| R&D Exp                 |        10.78 |        29.62 |        12.05 |        12.70 |\n| General & Admin Exp     |        10.88 |        15.19 |        10.11 |        10.94 |\n| Operating Income        |        31.11 |         6.34 |        30.85 |        26.00 |\n| Operating Margin (%)    |        15.43 |         2.82 |        14.33 |        14.12 |\n| Net Income              |        34.16 |        16.65 |        26.83 |        24.21 |\n| Net Margin (%)          |        16.94 |         7.40 |        12.46 |        13.15 |\n| Op Cash Flow            |        18.73 |        42.97 |       -37.24 |        -2.78 |\n| Investing Cash Flow     |        -2.14 |        -1.23 |        -2.94 |        -7.66 |\n| Financing Cash Flow     |        -4.76 |        13.29 |       -16.31 |       -73.62 |\n| CAPEX                   |        -2.36 |        -0.38 |        -5.55 |        -4.78 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

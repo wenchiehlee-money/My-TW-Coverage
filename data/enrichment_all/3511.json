@@ -1,0 +1,171 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3511",
+  "company_name": "矽瑪",
+  "title": "3511 - 矽瑪",
+  "source_md": "Pilot_Reports/連接器 - 連接器設計、組裝及製造/3511_矽瑪.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,476 百萬台幣",
+    "enterprise_value": "1,804 百萬台幣"
+  },
+  "business": {
+    "summary": "矽瑪科技 (Simula Technology) 隸屬於 **佳世達 (Qisda)** 集團，為專業 **連接器** 製造商。\n主要產品應用於 **穿戴式裝置** (曾為 Fitbit 主要供應商)、**車用電子** ([[車聯網]]/OBD) 與 **醫療器材**。\n加入佳世達集團後，積極整合集團資源，拓展 AIoT 與醫療領域業務。\n併購 **同星科技** (Docking Station)，跨足電腦周邊轉接插座市場。",
+    "entities": [
+      "車聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: [[金屬端子]], [[塑膠粒]].",
+        "entities": [
+          "金屬端子",
+          "塑膠粒"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **矽瑪 (3511)** - [[連接器]]設計與製造.",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**穿戴裝置**: [[Fitbit]], [[Garmin]].",
+        "entities": [
+          "Fitbit",
+          "Garmin"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**車用**: [[車廠 Tier 1]].",
+        "entities": [
+          "車廠 Tier 1"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**系統整合**: [[佳世達]].",
+        "entities": [
+          "佳世達"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[佳世達]] (Qisda) - 母公司/策略夥伴.",
+        "entities": [
+          "佳世達"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Fitbit]] ([[Google]]) - 穿戴裝置.",
+        "entities": [
+          "Fitbit",
+          "Google"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Amazon]].",
+        "entities": [
+          "Amazon"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "車聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車聯網"
+    },
+    {
+      "name": "金屬端子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金屬端子"
+    },
+    {
+      "name": "塑膠粒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "塑膠粒"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "Fitbit",
+      "type": "international_company_or_term",
+      "wikilink": "Fitbit"
+    },
+    {
+      "name": "Garmin",
+      "type": "international_company_or_term",
+      "wikilink": "Garmin"
+    },
+    {
+      "name": "車廠 Tier 1",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車廠 Tier 1"
+    },
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "矽瑪科技 (Simula Technology) 隸屬於 **佳世達 (Qisda)** 集團，為專業 **連接器** 製造商。\n主要產品應用於 **穿戴式裝置** (曾為 Fitbit 主要供應商)、**車用電子** ([[車聯網]]/OBD) 與 **醫療器材**。\n加入佳世達集團後，積極整合集團資源，拓展 AIoT 與醫療領域業務。\n併購 **同星科技** (Docking Station)，跨足電腦周邊轉接插座市場。",
+    "supply_chain_md": "*   **上游**: [[金屬端子]], [[塑膠粒]].\n*   **中游**: **矽瑪 (3511)** - [[連接器]]設計與製造.\n*   **下游**:\n    *   **穿戴裝置**: [[Fitbit]], [[Garmin]].\n    *   **車用**: [[車廠 Tier 1]].\n    *   **系統整合**: [[佳世達]].",
+    "customers_suppliers_md": "### 主要客戶\n*   [[佳世達]] (Qisda) - 母公司/策略夥伴.\n*   [[Fitbit]] ([[Google]]) - 穿戴裝置.\n*   [[Amazon]].",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.10 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.80 | 1.12 |   -422.29 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1752.26 |      1768.71 |      2039.06 |\n| Gross Profit            |       219.20 |       207.09 |       284.38 |\n| Gross Margin (%)        |        12.51 |        11.71 |        13.95 |\n| Selling & Marketing Exp |        88.70 |        94.65 |        89.04 |\n| R&D Exp                 |        84.76 |        77.63 |        78.99 |\n| General & Admin Exp     |       190.95 |       190.40 |       202.49 |\n| Operating Income        |      -145.22 |      -155.59 |       -86.13 |\n| Operating Margin (%)    |        -8.29 |        -8.80 |        -4.22 |\n| Net Income              |       -94.22 |      -100.87 |       -83.45 |\n| Net Margin (%)          |        -5.38 |        -5.70 |        -4.09 |\n| Op Cash Flow            |      -119.71 |       112.32 |       433.60 |\n| Investing Cash Flow     |      -113.02 |       -74.92 |      -186.21 |\n| Financing Cash Flow     |        -7.68 |       -47.56 |      -470.42 |\n| CAPEX                   |       -72.54 |       -82.70 |       -62.24 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-06-30 |   2026-03-31 |   2025-12-31 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       463.94 |       466.93 |       460.82 |       417.12 |\n| Gross Profit            |        59.56 |        76.60 |        70.43 |        47.12 |\n| Gross Margin (%)        |        12.84 |        16.41 |        15.28 |        11.30 |\n| Selling & Marketing Exp |        23.15 |        22.79 |        21.21 |        23.41 |\n| R&D Exp                 |        19.70 |        17.93 |        19.81 |        24.33 |\n| General & Admin Exp     |        47.86 |        45.62 |        55.29 |        45.93 |\n| Operating Income        |       -31.15 |        -9.73 |       -25.89 |       -46.55 |\n| Operating Margin (%)    |        -6.71 |        -2.08 |        -5.62 |       -11.16 |\n| Net Income              |       -26.09 |        -7.04 |       -14.11 |       -32.47 |\n| Net Margin (%)          |        -5.62 |        -1.51 |        -3.06 |        -7.78 |\n| Op Cash Flow            |        22.82 |        14.95 |       -79.75 |         6.41 |\n| Investing Cash Flow     |        -9.37 |       -17.95 |       -61.20 |       -13.05 |\n| Financing Cash Flow     |         0.44 |        22.85 |        13.03 |       -16.95 |\n| CAPEX                   |        -9.35 |       -18.26 |       -19.17 |       -13.42 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

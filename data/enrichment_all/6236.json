@@ -1,0 +1,177 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6236",
+  "company_name": "中湛",
+  "title": "6236_中湛",
+  "source_md": "Pilot_Reports/資通訊安全 - 網路安全防護/6236_中湛.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "market_cap": "710 百萬台幣",
+    "enterprise_value": "576 百萬台幣"
+  },
+  "business": {
+    "summary": "中湛 (6236，原名[[康呈科技]]) 是一家歷經多次業務轉型的雙主軸企業。公司早年以[[微控制器]] ([[MCU]]) 晶片設計起家，產品應用於直流風扇馬達控制、充電器、消防煙霧偵測器等。生技部門透過子公司[[康呈基因]]提供成人及兒童[[基因檢測]]服務。此外，公司亦經營美容保健器材、機能性保養食品等業務。",
+    "entities": [
+      "康呈科技",
+      "微控制器",
+      "MCU",
+      "康呈基因",
+      "基因檢測"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原物料與代工)",
+        "text": "**上游 (原物料與代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "提供 [[MCU]] 晶片代工之晶圓廠",
+        "entities": [
+          "MCU"
+        ]
+      },
+      {
+        "category": "封裝測試",
+        "text": "IC 封裝測試廠商",
+        "entities": []
+      },
+      {
+        "category": "基因檢測設備",
+        "text": "基因定序分析設備與專用耗材供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中湛** ([[MCU]] 晶片設計、美容保健品銷售、[[基因檢測]]服務)",
+        "entities": [
+          "MCU",
+          "基因檢測"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "消費性電子",
+        "text": "採用 [[MCU]] 晶片之風扇、充電器、煙霧偵測器製造商",
+        "entities": [
+          "MCU"
+        ]
+      },
+      {
+        "category": "醫美通路",
+        "text": "醫美診所與大健康管理中心",
+        "entities": []
+      },
+      {
+        "category": "終端消費者",
+        "text": "[[基因檢測]]與保養品消費者",
+        "entities": [
+          "基因檢測"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體事業",
+        "text": "採用 [[MCU]] 晶片之直流風扇、充電器、消防煙霧偵測器製造商",
+        "entities": [
+          "MCU"
+        ]
+      },
+      {
+        "role": "基因檢測",
+        "text": "透過子公司[[康呈基因]]服務之終端消費者",
+        "entities": [
+          "康呈基因"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "負責 [[MCU]] 晶片代工之晶圓廠",
+        "entities": [
+          "MCU"
+        ]
+      },
+      {
+        "role": "IC 封測",
+        "text": "晶片封裝與測試服務商",
+        "entities": []
+      },
+      {
+        "role": "基因檢測設備",
+        "text": "基因定序診斷設備與耗材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "康呈科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康呈科技"
+    },
+    {
+      "name": "微控制器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微控制器"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "康呈基因",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康呈基因"
+    },
+    {
+      "name": "基因檢測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "基因檢測"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中湛 (6236，原名[[康呈科技]]) 是一家歷經多次業務轉型的雙主軸企業。公司早年以[[微控制器]] ([[MCU]]) 晶片設計起家，產品應用於直流風扇馬達控制、充電器、消防煙霧偵測器等。生技部門透過子公司[[康呈基因]]提供成人及兒童[[基因檢測]]服務。此外，公司亦經營美容保健器材、機能性保養食品等業務。",
+    "supply_chain_md": "**上游 (原物料與代工):**\n- **晶圓代工:** 提供 [[MCU]] 晶片代工之晶圓廠\n- **封裝測試:** IC 封裝測試廠商\n- **基因檢測設備:** 基因定序分析設備與專用耗材供應商\n\n**中游:**\n- **中湛** ([[MCU]] 晶片設計、美容保健品銷售、[[基因檢測]]服務)\n\n**下游 (終端應用):**\n- **消費性電子:** 採用 [[MCU]] 晶片之風扇、充電器、煙霧偵測器製造商\n- **醫美通路:** 醫美診所與大健康管理中心\n- **終端消費者:** [[基因檢測]]與保養品消費者",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體事業:** 採用 [[MCU]] 晶片之直流風扇、充電器、消防煙霧偵測器製造商\n- **基因檢測:** 透過子公司[[康呈基因]]服務之終端消費者\n\n### 主要供應商\n- **晶圓代工:** 負責 [[MCU]] 晶片代工之晶圓廠\n- **IC 封測:** 晶片封裝與測試服務商\n- **基因檢測設備:** 基因定序診斷設備與耗材供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $17.05 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    213.12 |         N/A |     22.17 | 4.56 |   -449.03 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |        36.15 |        45.57 |        39.90 |\n| Gross Profit            |        30.16 |        33.72 |        18.02 |\n| Gross Margin (%)        |        83.45 |        73.99 |        45.16 |\n| Selling & Marketing Exp |         4.43 |         6.00 |         8.72 |\n| R&D Exp                 |         9.48 |        26.46 |        30.95 |\n| General & Admin Exp     |        17.18 |        26.14 |        27.21 |\n| Operating Income        |        -0.92 |       -24.89 |       -48.85 |\n| Operating Margin (%)    |        -2.55 |       -54.61 |      -122.43 |\n| Net Income              |         3.16 |       -16.88 |       -40.03 |\n| Net Margin (%)          |         8.74 |       -37.05 |      -100.33 |\n| Op Cash Flow            |         9.29 |       -27.99 |       -17.64 |\n| Investing Cash Flow     |         1.75 |        10.06 |        -6.72 |\n| Financing Cash Flow     |        -2.92 |        -2.83 |        -3.57 |\n| CAPEX                   |         0.00 |         0.00 |         0.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |         8.27 |         7.51 |         8.26 |        12.11 |\n| Gross Profit            |         7.19 |         6.14 |         6.67 |        10.15 |\n| Gross Margin (%)        |        87.04 |        81.77 |        80.79 |        83.85 |\n| Selling & Marketing Exp |         0.74 |         0.95 |         0.89 |         1.85 |\n| R&D Exp                 |         2.26 |         2.26 |         2.52 |         2.44 |\n| General & Admin Exp     |         4.08 |         4.08 |         4.54 |         4.47 |\n| Operating Income        |         0.12 |        -1.15 |        -1.27 |         1.39 |\n| Operating Margin (%)    |         1.39 |       -15.34 |       -15.42 |        11.45 |\n| Net Income              |         1.16 |        -0.79 |         0.00 |         2.78 |\n| Net Margin (%)          |        14.07 |       -10.48 |         0.00 |        22.97 |\n| Op Cash Flow            |         2.94 |         2.47 |         0.71 |         3.17 |\n| Investing Cash Flow     |         0.02 |         0.00 |         0.88 |         0.85 |\n| Financing Cash Flow     |        -0.74 |        -0.73 |        -0.73 |        -0.71 |\n| CAPEX                   |         0.00 |         0.00 |         0.00 |         0.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

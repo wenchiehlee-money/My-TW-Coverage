@@ -1,0 +1,226 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6609",
+  "company_name": "瀧澤科",
+  "title": "6609_瀧澤科",
+  "source_md": "Pilot_Reports/電機機械 - 金屬加工用機械/6609_瀧澤科.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,565 百萬台幣",
+    "enterprise_value": "2,569 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣瀧澤科技 (6609，[[Taiwan Takisawa]]) 為日本百年工具機企業瀧澤鐵工所在台子公司，母公司已被 [[Nidec]] 集團併購。公司以「TAKISAWA」自有品牌行銷全球，專注於高階 CNC 車床與 PCB 高速鑽孔機的研發製造。\n\n業務結構與動能：(1) CNC 車床 — 廣泛應用於汽車模具、國防航太及精密機械等關鍵零組件加工，營收占比約六成，外銷以亞洲 (58%)、歐洲 (23%) 為主；(2) PCB 鑽孔機 — 供應 PCB 與 [[IC 載板]]製造商高速鑽孔設備；(3) 半導體應用機台 — 積極開發半導體加工用 CNC 機台。上游關鍵零件仰賴 [[FANUC]]、[[三菱電機]] (CNC 控制器)，以及 [[上銀]]、[[銀泰]] (線性滑軌/滾珠螺桿) 等供應商。受惠於 [[Nidec]] 集團內部採購效應，帶動工具機出貨成長。",
+    "entities": [
+      "Taiwan Takisawa",
+      "Nidec",
+      "IC 載板",
+      "FANUC",
+      "三菱電機",
+      "上銀",
+      "銀泰"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "CNC 控制器",
+        "text": "[[FANUC]]、[[三菱電機]] — 數值控制系統",
+        "entities": [
+          "FANUC",
+          "三菱電機"
+        ]
+      },
+      {
+        "category": "傳動元件",
+        "text": "[[上銀]]、[[銀泰]] — 線性滑軌、滾珠螺桿",
+        "entities": [
+          "上銀",
+          "銀泰"
+        ]
+      },
+      {
+        "category": "主軸/馬達",
+        "text": "伺服馬達與高速主軸供應商",
+        "entities": []
+      },
+      {
+        "category": "鑄件",
+        "text": "精密工具機鑄件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (工具機製造)",
+        "text": "**中游 (工具機製造):**",
+        "entities": []
+      },
+      {
+        "category": "CNC 車床",
+        "text": "**瀧澤科** (高階 CNC 車床研發製造)",
+        "entities": []
+      },
+      {
+        "category": "PCB 鑽孔機",
+        "text": "**瀧澤科** (PCB/[[IC 載板]]高速鑽孔機)",
+        "entities": [
+          "IC 載板"
+        ]
+      },
+      {
+        "category": "半導體機台",
+        "text": "**瀧澤科** (半導體加工用 CNC 機台)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "汽車零件",
+        "text": "汽車模具與零組件加工廠",
+        "entities": []
+      },
+      {
+        "category": "航太國防",
+        "text": "國防航太精密零件加工廠",
+        "entities": []
+      },
+      {
+        "category": "PCB 製造",
+        "text": "PCB 與 [[IC 載板]]製造商",
+        "entities": [
+          "IC 載板"
+        ]
+      },
+      {
+        "category": "集團內需",
+        "text": "[[Nidec]] 集團 — 馬達零組件加工",
+        "entities": [
+          "Nidec"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "集團內需",
+        "text": "[[Nidec]] 集團 — 電動車與電子馬達零組件加工",
+        "entities": [
+          "Nidec"
+        ]
+      },
+      {
+        "role": "汽車零件",
+        "text": "歐美日汽車 Tier 1 零組件加工廠",
+        "entities": []
+      },
+      {
+        "role": "航太國防",
+        "text": "航太精密零件加工廠",
+        "entities": []
+      },
+      {
+        "role": "PCB 製造",
+        "text": "台灣大型 PCB 與 [[IC 載板]]製造商",
+        "entities": [
+          "IC 載板"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CNC 控制器",
+        "text": "[[FANUC]]、[[三菱電機]] — 數值控制系統",
+        "entities": [
+          "FANUC",
+          "三菱電機"
+        ]
+      },
+      {
+        "role": "傳動元件",
+        "text": "[[上銀]]、[[銀泰]] — 線性滑軌與滾珠螺桿",
+        "entities": [
+          "上銀",
+          "銀泰"
+        ]
+      },
+      {
+        "role": "主軸",
+        "text": "高速主軸與伺服馬達供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Taiwan Takisawa",
+      "type": "international_company_or_term",
+      "wikilink": "Taiwan Takisawa"
+    },
+    {
+      "name": "Nidec",
+      "type": "international_company_or_term",
+      "wikilink": "Nidec"
+    },
+    {
+      "name": "IC 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC 載板"
+    },
+    {
+      "name": "FANUC",
+      "type": "international_company_or_term",
+      "wikilink": "FANUC"
+    },
+    {
+      "name": "三菱電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱電機"
+    },
+    {
+      "name": "上銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上銀"
+    },
+    {
+      "name": "銀泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銀泰"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣瀧澤科技 (6609，[[Taiwan Takisawa]]) 為日本百年工具機企業瀧澤鐵工所在台子公司，母公司已被 [[Nidec]] 集團併購。公司以「TAKISAWA」自有品牌行銷全球，專注於高階 CNC 車床與 PCB 高速鑽孔機的研發製造。\n\n業務結構與動能：(1) CNC 車床 — 廣泛應用於汽車模具、國防航太及精密機械等關鍵零組件加工，營收占比約六成，外銷以亞洲 (58%)、歐洲 (23%) 為主；(2) PCB 鑽孔機 — 供應 PCB 與 [[IC 載板]]製造商高速鑽孔設備；(3) 半導體應用機台 — 積極開發半導體加工用 CNC 機台。上游關鍵零件仰賴 [[FANUC]]、[[三菱電機]] (CNC 控制器)，以及 [[上銀]]、[[銀泰]] (線性滑軌/滾珠螺桿) 等供應商。受惠於 [[Nidec]] 集團內部採購效應，帶動工具機出貨成長。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **CNC 控制器:** [[FANUC]]、[[三菱電機]] — 數值控制系統\n- **傳動元件:** [[上銀]]、[[銀泰]] — 線性滑軌、滾珠螺桿\n- **主軸/馬達:** 伺服馬達與高速主軸供應商\n- **鑄件:** 精密工具機鑄件供應商\n\n**中游 (工具機製造):**\n- **CNC 車床:** **瀧澤科** (高階 CNC 車床研發製造)\n- **PCB 鑽孔機:** **瀧澤科** (PCB/[[IC 載板]]高速鑽孔機)\n- **半導體機台:** **瀧澤科** (半導體加工用 CNC 機台)\n\n**下游 (終端應用):**\n- **汽車零件:** 汽車模具與零組件加工廠\n- **航太國防:** 國防航太精密零件加工廠\n- **PCB 製造:** PCB 與 [[IC 載板]]製造商\n- **集團內需:** [[Nidec]] 集團 — 馬達零組件加工",
+    "customers_suppliers_md": "### 主要客戶\n- **集團內需:** [[Nidec]] 集團 — 電動車與電子馬達零組件加工\n- **汽車零件:** 歐美日汽車 Tier 1 零組件加工廠\n- **航太國防:** 航太精密零件加工廠\n- **PCB 製造:** 台灣大型 PCB 與 [[IC 載板]]製造商\n\n### 主要供應商\n- **CNC 控制器:** [[FANUC]]、[[三菱電機]] — 數值控制系統\n- **傳動元件:** [[上銀]]、[[銀泰]] — 線性滑軌與滾珠螺桿\n- **主軸:** 高速主軸與伺服馬達供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $35.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.31 | 1.08 |    -27.80 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2038.39 |      2691.78 |      2663.61 |\n| Gross Profit            |       241.88 |       570.77 |       590.97 |\n| Gross Margin (%)        |        11.87 |        21.20 |        22.19 |\n| Selling & Marketing Exp |       157.77 |       146.23 |       184.32 |\n| R&D Exp                 |        91.25 |       119.40 |       110.50 |\n| General & Admin Exp     |       115.07 |       146.94 |       144.83 |\n| Operating Income        |      -122.20 |       158.20 |       151.31 |\n| Operating Margin (%)    |        -5.99 |         5.88 |         5.68 |\n| Net Income              |      -110.75 |       187.22 |       130.42 |\n| Net Margin (%)          |        -5.43 |         6.96 |         4.90 |\n| Op Cash Flow            |        92.23 |        46.91 |       218.78 |\n| Investing Cash Flow     |       -14.05 |       -43.53 |       -38.68 |\n| Financing Cash Flow     |      -114.09 |      -712.25 |      -292.25 |\n| CAPEX                   |       -20.04 |       -52.51 |       -45.01 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       409.35 |       386.06 |       656.17 |       586.81 |\n| Gross Profit            |        -7.00 |        41.57 |       106.10 |       101.21 |\n| Gross Margin (%)        |        -1.71 |        10.77 |        16.17 |        17.25 |\n| Selling & Marketing Exp |        46.80 |        35.93 |        35.70 |        39.33 |\n| R&D Exp                 |        23.01 |        20.65 |        21.95 |        25.64 |\n| General & Admin Exp     |        37.87 |        24.80 |        19.15 |        33.24 |\n| Operating Income        |      -114.69 |       -39.81 |        29.30 |         3.00 |\n| Operating Margin (%)    |       -28.02 |       -10.31 |         4.47 |         0.51 |\n| Net Income              |       -61.58 |         4.16 |       -71.55 |        18.22 |\n| Net Margin (%)          |       -15.04 |         1.08 |       -10.90 |         3.10 |\n| Op Cash Flow            |       109.58 |        63.30 |       -11.86 |       -68.79 |\n| Investing Cash Flow     |         1.47 |        -1.53 |        -6.15 |        -7.84 |\n| Financing Cash Flow     |       -18.45 |       -58.58 |       -25.46 |       -11.60 |\n| CAPEX                   |         1.29 |        -4.28 |        -7.73 |        -9.32 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

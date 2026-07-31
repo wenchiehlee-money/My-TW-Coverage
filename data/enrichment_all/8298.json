@@ -1,0 +1,192 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8298",
+  "company_name": "威睿",
+  "title": "8298 - 威睿",
+  "source_md": "Pilot_Reports/人工智慧 - 領域解決方案/8298_威睿.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "1,134 百萬台幣",
+    "enterprise_value": "841 百萬台幣"
+  },
+  "business": {
+    "summary": "威睿科技股份有限公司 (8298，Genie Networks) 成立於 1990 年，為台灣網路流量分析與 [[DDoS]] 防護之專業軟體廠商，產品銷售遍及全球逾 40 國。核心產品 GenieATM 為企業級網路流量分析管理系統，結合大數據分析能力優化 IP 網路效能並即時偵測網路攻擊。產品線涵蓋 GenieATM (流量分析)、GenieATM FLB (負載平衡)、GenieAnalytics (深度流量追蹤) 及 [[AI]] 驅動之網路安全解決方案。主要客戶為全球知名電信營運商 ([[ISP]])、政府機構、學術機構及大型企業。公司以高毛利 (逾 90%) 之純軟體授權模式營運。",
+    "entities": [
+      "DDoS",
+      "AI",
+      "ISP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與平台)",
+        "text": "**上游 (技術與平台):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器硬體",
+        "text": "標準化伺服器供應商 — GenieATM 搭載平台",
+        "entities": []
+      },
+      {
+        "category": "雲端運算",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 雲端版本部署",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "category": "AI 技術",
+        "text": "[[AI]] 機器學習模型 — 網路異常偵測",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (網路流量分析軟體)",
+        "text": "**中游 (網路流量分析軟體):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**威睿科技** (GenieATM 網路流量分析、[[DDoS]] 防護、GenieAnalytics 深度追蹤)",
+        "entities": [
+          "DDoS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電信營運商",
+        "text": "全球各大 [[ISP]] — 網路流量管理與 DDoS 防護",
+        "entities": [
+          "ISP"
+        ]
+      },
+      {
+        "category": "政府機構",
+        "text": "各國政府 — 網路安全監控",
+        "entities": []
+      },
+      {
+        "category": "學術機構",
+        "text": "大學與研究機構 — 學術網路管理",
+        "entities": []
+      },
+      {
+        "category": "大型企業",
+        "text": "跨國企業 — 網路效能優化",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信營運商",
+        "text": "全球各大 [[ISP]] 與電信商 — 流量管理與 [[DDoS]] 防護",
+        "entities": [
+          "ISP",
+          "DDoS"
+        ]
+      },
+      {
+        "role": "政府機構",
+        "text": "各國政府單位 — 網路安全監控",
+        "entities": []
+      },
+      {
+        "role": "學術機構",
+        "text": "大學與研究網路 — 學術網路流量分析",
+        "entities": []
+      },
+      {
+        "role": "大型企業",
+        "text": "跨國企業集團 — 網路效能優化",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "伺服器",
+        "text": "標準化伺服器硬體供應商",
+        "entities": []
+      },
+      {
+        "role": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 雲端部署",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "[[AI]] 技術",
+        "text": "機器學習演算法與威脅情資",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "DDoS",
+      "type": "international_company_or_term",
+      "wikilink": "DDoS"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "ISP",
+      "type": "international_company_or_term",
+      "wikilink": "ISP"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "威睿科技股份有限公司 (8298，Genie Networks) 成立於 1990 年，為台灣網路流量分析與 [[DDoS]] 防護之專業軟體廠商，產品銷售遍及全球逾 40 國。核心產品 GenieATM 為企業級網路流量分析管理系統，結合大數據分析能力優化 IP 網路效能並即時偵測網路攻擊。產品線涵蓋 GenieATM (流量分析)、GenieATM FLB (負載平衡)、GenieAnalytics (深度流量追蹤) 及 [[AI]] 驅動之網路安全解決方案。主要客戶為全球知名電信營運商 ([[ISP]])、政府機構、學術機構及大型企業。公司以高毛利 (逾 90%) 之純軟體授權模式營運。",
+    "supply_chain_md": "**上游 (技術與平台):**\n- **伺服器硬體:** 標準化伺服器供應商 — GenieATM 搭載平台\n- **雲端運算:** [[AWS]]、[[Microsoft Azure]] — 雲端版本部署\n- **AI 技術:** [[AI]] 機器學習模型 — 網路異常偵測\n\n**中游 (網路流量分析軟體):**\n- **威睿科技** (GenieATM 網路流量分析、[[DDoS]] 防護、GenieAnalytics 深度追蹤)\n\n**下游 (終端客戶):**\n- **電信營運商:** 全球各大 [[ISP]] — 網路流量管理與 DDoS 防護\n- **政府機構:** 各國政府 — 網路安全監控\n- **學術機構:** 大學與研究機構 — 學術網路管理\n- **大型企業:** 跨國企業 — 網路效能優化",
+    "customers_suppliers_md": "### 主要客戶\n- **電信營運商:** 全球各大 [[ISP]] 與電信商 — 流量管理與 [[DDoS]] 防護\n- **政府機構:** 各國政府單位 — 網路安全監控\n- **學術機構:** 大學與研究網路 — 學術網路流量分析\n- **大型企業:** 跨國企業集團 — 網路效能優化\n\n### 主要供應商\n- **伺服器:** 標準化伺服器硬體供應商\n- **雲端平台:** [[AWS]]、[[Microsoft Azure]] — 雲端部署\n- **[[AI]] 技術:** 機器學習演算法與威脅情資",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $44.25 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.59 |         N/A |      4.24 | 3.35 |     11.73 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2024-12-31 |   2023-12-31 |   2022-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       176.83 |       187.09 |       171.24 |\n| Gross Profit            |       159.83 |       170.28 |       148.51 |\n| Gross Margin (%)        |        90.39 |        91.01 |        86.73 |\n| Selling & Marketing Exp |        80.75 |        76.86 |        72.72 |\n| R&D Exp                 |        53.89 |        53.81 |        52.74 |\n| General & Admin Exp     |        27.22 |        26.23 |        24.64 |\n| Operating Income        |        -2.03 |        13.38 |        -1.58 |\n| Operating Margin (%)    |        -1.15 |         7.15 |        -0.92 |\n| Net Income              |         2.95 |        13.97 |        12.98 |\n| Net Margin (%)          |         1.67 |         7.47 |         7.58 |\n| Op Cash Flow            |       -16.49 |        26.07 |        43.98 |\n| Investing Cash Flow     |       -15.97 |        18.40 |        -2.23 |\n| Financing Cash Flow     |       -14.57 |       -16.82 |       -43.57 |\n| CAPEX                   |        -1.20 |        -2.91 |        -1.36 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

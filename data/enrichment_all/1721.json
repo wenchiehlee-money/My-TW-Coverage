@@ -1,0 +1,244 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1721",
+  "company_name": "三晃",
+  "title": "1721 - 三晃",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 石化中間原料(例如乙烯、丙烯、丁二烯、苯、酚等)/1721_三晃.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals",
+    "market_cap": "3,494 百萬台幣",
+    "enterprise_value": "3,916 百萬台幣"
+  },
+  "business": {
+    "summary": "三晃股份有限公司 (1721，Sunko Ink) 為特用化學品製造商，營收結構：特用化學品 (74%)、[[TPU]] 粒 (13%)、植物保護劑 (9%)、樹脂 (4%)。產品涵蓋抗氧化劑、交聯劑、無鹵阻燃劑、造核劑、電子化學品及[[TPU]]粒。近年成功切入半導體先進封裝供應鏈，供應[[台積電]] [[CoWoS]]相關熱界面材料 (TIM) 及電子接著劑。另供應無鹵阻燃劑予[[聯茂]]、[[台光電]]等高頻高速[[CCL]]基板廠。上游異氰酸酯原料採購自[[Huntsman]]、[[BASF]]、[[Covestro]]、[[萬華化學]]。植物保護劑原體來自[[Syngenta]]、[[Bayer CropScience]]。",
+    "entities": [
+      "TPU",
+      "台積電",
+      "CoWoS",
+      "聯茂",
+      "台光電",
+      "CCL",
+      "Huntsman",
+      "BASF",
+      "Covestro",
+      "萬華化學",
+      "Syngenta",
+      "Bayer CropScience"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "異氰酸酯",
+        "text": "[[Huntsman]]、[[BASF]]、[[Covestro]]、[[萬華化學]] — [[MDI]]/[[TDI]]",
+        "entities": [
+          "Huntsman",
+          "BASF",
+          "Covestro",
+          "萬華化學",
+          "MDI",
+          "TDI"
+        ]
+      },
+      {
+        "category": "農藥原體",
+        "text": "[[Syngenta]]、[[Bayer CropScience]] — 植物保護劑",
+        "entities": [
+          "Syngenta",
+          "Bayer CropScience"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**三晃** (特用化學品/[[TPU]]粒/無鹵阻燃劑/植物保護劑)",
+        "entities": [
+          "TPU"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體封裝",
+        "text": "[[台積電]] [[CoWoS]] — 熱界面材料/電子接著劑",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "高頻基板",
+        "text": "[[聯茂]]、[[台光電]] — 無鹵阻燃劑供[[CCL]]基板",
+        "entities": [
+          "聯茂",
+          "台光電",
+          "CCL"
+        ]
+      },
+      {
+        "category": "鞋材/合成皮",
+        "text": "[[TPU]] 粒供應鞋材及合成皮加工",
+        "entities": [
+          "TPU"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]] [[CoWoS]] — 熱界面材料/電子接著劑",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "高頻基板",
+        "text": "[[聯茂]]、[[台光電]] — 無鹵阻燃劑",
+        "entities": [
+          "聯茂",
+          "台光電"
+        ]
+      },
+      {
+        "role": "鞋材",
+        "text": "TPU 粒供鞋材/合成皮加工",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "異氰酸酯",
+        "text": "[[Huntsman]]、[[BASF]]、[[Covestro]]、[[萬華化學]]",
+        "entities": [
+          "Huntsman",
+          "BASF",
+          "Covestro",
+          "萬華化學"
+        ]
+      },
+      {
+        "role": "農藥原體",
+        "text": "[[Syngenta]]、[[Bayer CropScience]]",
+        "entities": [
+          "Syngenta",
+          "Bayer CropScience"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "CCL",
+      "type": "international_company_or_term",
+      "wikilink": "CCL"
+    },
+    {
+      "name": "Huntsman",
+      "type": "international_company_or_term",
+      "wikilink": "Huntsman"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Covestro",
+      "type": "international_company_or_term",
+      "wikilink": "Covestro"
+    },
+    {
+      "name": "萬華化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬華化學"
+    },
+    {
+      "name": "Syngenta",
+      "type": "international_company_or_term",
+      "wikilink": "Syngenta"
+    },
+    {
+      "name": "Bayer CropScience",
+      "type": "international_company_or_term",
+      "wikilink": "Bayer CropScience"
+    },
+    {
+      "name": "MDI",
+      "type": "international_company_or_term",
+      "wikilink": "MDI"
+    },
+    {
+      "name": "TDI",
+      "type": "international_company_or_term",
+      "wikilink": "TDI"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三晃股份有限公司 (1721，Sunko Ink) 為特用化學品製造商，營收結構：特用化學品 (74%)、[[TPU]] 粒 (13%)、植物保護劑 (9%)、樹脂 (4%)。產品涵蓋抗氧化劑、交聯劑、無鹵阻燃劑、造核劑、電子化學品及[[TPU]]粒。近年成功切入半導體先進封裝供應鏈，供應[[台積電]] [[CoWoS]]相關熱界面材料 (TIM) 及電子接著劑。另供應無鹵阻燃劑予[[聯茂]]、[[台光電]]等高頻高速[[CCL]]基板廠。上游異氰酸酯原料採購自[[Huntsman]]、[[BASF]]、[[Covestro]]、[[萬華化學]]。植物保護劑原體來自[[Syngenta]]、[[Bayer CropScience]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **異氰酸酯:** [[Huntsman]]、[[BASF]]、[[Covestro]]、[[萬華化學]] — [[MDI]]/[[TDI]]\n- **農藥原體:** [[Syngenta]]、[[Bayer CropScience]] — 植物保護劑\n\n**中游 (製造):**\n- **三晃** (特用化學品/[[TPU]]粒/無鹵阻燃劑/植物保護劑)\n\n**下游 (終端):**\n- **半導體封裝:** [[台積電]] [[CoWoS]] — 熱界面材料/電子接著劑\n- **高頻基板:** [[聯茂]]、[[台光電]] — 無鹵阻燃劑供[[CCL]]基板\n- **鞋材/合成皮:** [[TPU]] 粒供應鞋材及合成皮加工",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]] [[CoWoS]] — 熱界面材料/電子接著劑\n- **高頻基板:** [[聯茂]]、[[台光電]] — 無鹵阻燃劑\n- **鞋材:** TPU 粒供鞋材/合成皮加工\n\n### 主要供應商\n- **異氰酸酯:** [[Huntsman]]、[[BASF]]、[[Covestro]]、[[萬華化學]]\n- **農藥原體:** [[Syngenta]]、[[Bayer CropScience]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |      -18.85 |      2.01 | 2.08 |    -24.42 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1774.76 |      2286.72 |      2185.67 |\n| Gross Profit            |      -129.61 |         6.39 |       -62.27 |\n| Gross Margin (%)        |        -7.30 |         0.28 |        -2.85 |\n| Selling & Marketing Exp |        50.43 |        55.22 |        59.33 |\n| R&D Exp                 |        42.32 |        45.87 |        47.47 |\n| General & Admin Exp     |       113.65 |        89.58 |        90.79 |\n| Operating Income        |      -336.01 |      -184.28 |      -259.86 |\n| Operating Margin (%)    |       -18.93 |        -8.06 |       -11.89 |\n| Net Income              |      -339.64 |      -182.58 |      -277.97 |\n| Net Margin (%)          |       -19.14 |        -7.98 |       -12.72 |\n| Op Cash Flow            |       247.70 |       181.35 |       119.73 |\n| Investing Cash Flow     |       -99.56 |       -88.76 |       -25.65 |\n| Financing Cash Flow     |       -94.26 |      -159.42 |       -30.31 |\n| CAPEX                   |       -92.43 |       -86.05 |      -134.31 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       393.22 |       400.75 |       483.96 |       385.13 |\n| Gross Profit            |       -22.16 |       -79.20 |        -2.77 |       -50.90 |\n| Gross Margin (%)        |        -5.63 |       -19.76 |        -0.57 |       -13.22 |\n| Selling & Marketing Exp |        10.04 |        12.65 |        10.94 |        12.57 |\n| R&D Exp                 |         9.51 |        10.12 |        10.59 |        10.59 |\n| General & Admin Exp     |        22.33 |        44.08 |        22.37 |        24.27 |\n| Operating Income        |       -64.03 |      -146.05 |       -46.68 |       -98.33 |\n| Operating Margin (%)    |       -16.28 |       -36.44 |        -9.64 |       -25.53 |\n| Net Income              |       -65.85 |      -131.75 |       -44.25 |      -119.88 |\n| Net Margin (%)          |       -16.75 |       -32.88 |        -9.14 |       -31.13 |\n| Op Cash Flow            |       -73.12 |       117.86 |        15.12 |        50.76 |\n| Investing Cash Flow     |        59.46 |       -60.42 |        25.96 |       -52.34 |\n| Financing Cash Flow     |      -138.32 |       -10.78 |        67.52 |       -45.47 |\n| CAPEX                   |       -20.48 |       -26.49 |       -18.97 |       -27.45 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

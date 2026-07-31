@@ -1,0 +1,161 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5225",
+  "company_name": "東科-KY",
+  "title": "5225 - 東科-KY",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/5225_東科-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "5,563 百萬台幣",
+    "enterprise_value": "3,869 百萬台幣"
+  },
+  "business": {
+    "summary": "東科-KY (Eastech) 為全球最大 **影音揚聲器 (Audio/Speaker)** [[OEM]]/[[ODM]] 代工廠。\n專注於聲學產品之設計與製造，生產基地主要位於越南 (海防) 與中國 (惠州)。\n主要產品：\n1.  **Sound Bar (聲霸)**: 全球市佔率極高，為主要營收成長動能。\n2.  **家用音響**: 家庭劇院系統、藍牙喇叭。\n3.  **耳機**: 積極拓展輔聽器及高階耳機代工。\n4.  **會議系統**: 視訊會議音訊設備。\n客戶涵蓋韓系、日系與歐美一線家電與音響品牌。",
+    "entities": [
+      "OEM",
+      "ODM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**零件**: 喇叭單體 (自製/外購), 塑膠機殼, 木箱, 電子零組件 (IC, [[PCB]]).",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **東科 (5225)** - 音響系統組裝代工 ([[OEM]]/[[ODM]]).",
+        "entities": [
+          "OEM",
+          "ODM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**品牌**: [[Samsung]], [[LG]], [[Sony]].",
+        "entities": [
+          "Samsung",
+          "LG",
+          "Sony"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**韓系**: [[Samsung]] (最大客戶), [[LG]].",
+        "entities": [
+          "Samsung",
+          "LG"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**日系**: [[Sony]], [[Panasonic]].",
+        "entities": [
+          "Sony",
+          "Panasonic"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**歐美**: [[Philips]], 以及各類新創音響品牌.",
+        "entities": [
+          "Philips"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**零件**: 被動元件, 機構件供應商. (關鍵喇叭單體具備自製能力).",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "Philips",
+      "type": "international_company_or_term",
+      "wikilink": "Philips"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東科-KY (Eastech) 為全球最大 **影音揚聲器 (Audio/Speaker)** [[OEM]]/[[ODM]] 代工廠。\n專注於聲學產品之設計與製造，生產基地主要位於越南 (海防) 與中國 (惠州)。\n主要產品：\n1.  **Sound Bar (聲霸)**: 全球市佔率極高，為主要營收成長動能。\n2.  **家用音響**: 家庭劇院系統、藍牙喇叭。\n3.  **耳機**: 積極拓展輔聽器及高階耳機代工。\n4.  **會議系統**: 視訊會議音訊設備。\n客戶涵蓋韓系、日系與歐美一線家電與音響品牌。",
+    "supply_chain_md": "*   **中游 (本體)**: **東科 (5225)** - 音響系統組裝代工 ([[OEM]]/[[ODM]]).\n*   **上游**:\n    *   **零件**: 喇叭單體 (自製/外購), 塑膠機殼, 木箱, 電子零組件 (IC, [[PCB]]).\n*   **下游**:\n    *   **品牌**: [[Samsung]], [[LG]], [[Sony]].",
+    "customers_suppliers_md": "### 主要客戶\n*   **韓系**: [[Samsung]] (最大客戶), [[LG]].\n*   **日系**: [[Sony]], [[Panasonic]].\n*   **歐美**: [[Philips]], 以及各類新創音響品牌.\n\n### 主要供應商\n*   **零件**: 被動元件, 機構件供應商. (關鍵喇叭單體具備自製能力).",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $70.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      6.95 |        9.66 |      0.52 | 1.78 |      4.52 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     11039.42 |     12405.47 |     10640.52 |\n| Gross Profit            |      1813.97 |      2136.04 |      1653.25 |\n| Gross Margin (%)        |        16.43 |        17.22 |        15.54 |\n| Selling & Marketing Exp |       190.99 |       227.39 |       191.12 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       878.89 |      1028.84 |       890.56 |\n| Operating Income        |       744.09 |       879.81 |       571.57 |\n| Operating Margin (%)    |         6.74 |         7.09 |         5.37 |\n| Net Income              |       799.81 |       952.62 |       533.31 |\n| Net Margin (%)          |         7.24 |         7.68 |         5.01 |\n| Op Cash Flow            |       382.24 |       974.88 |      1174.67 |\n| Investing Cash Flow     |      -252.16 |      -171.48 |       -38.16 |\n| Financing Cash Flow     |      -829.12 |      -533.85 |      -169.16 |\n| CAPEX                   |      -273.44 |      -188.92 |       -66.24 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2185.73 |      2544.72 |      2691.78 |      2767.18 |\n| Gross Profit            |       270.34 |       454.50 |       405.99 |       391.03 |\n| Gross Margin (%)        |        12.37 |        17.86 |        15.08 |        14.13 |\n| Selling & Marketing Exp |        65.53 |        14.95 |        44.93 |        64.95 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       201.71 |       204.04 |       191.04 |       232.48 |\n| Operating Income        |         3.10 |       235.51 |       170.02 |        93.60 |\n| Operating Margin (%)    |         0.14 |         9.25 |         6.32 |         3.38 |\n| Net Income              |        47.88 |       235.59 |       193.25 |       160.80 |\n| Net Margin (%)          |         2.19 |         9.26 |         7.18 |         5.81 |\n| Op Cash Flow            |      -180.22 |       237.77 |       183.83 |       170.96 |\n| Investing Cash Flow     |       -79.64 |       -46.44 |       -74.95 |       -24.03 |\n| Financing Cash Flow     |        13.93 |      -825.21 |         1.24 |       -14.58 |\n| CAPEX                   |       -93.98 |       -50.16 |       -76.90 |       -37.35 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

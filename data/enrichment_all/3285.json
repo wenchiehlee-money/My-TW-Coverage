@@ -1,0 +1,255 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3285",
+  "company_name": "微端",
+  "title": "3285 - 微端",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備/3285_微端.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,562 百萬台幣",
+    "enterprise_value": "1,006 百萬台幣"
+  },
+  "business": {
+    "summary": "微端科技 (3285，[[Microtips Technology]]) 創立於 1990 年，為專業顯示器模組 (LCM) 與指紋辨識模組製造商。主要產品為中小尺寸 [[LCD]] 模組 (字元型、圖形型、[[TFT LCD]] 模組)，專注於工業控制、醫療器材、電信設備與新興應用等少量多樣之利基型市場。\n\n不同於大尺寸面板廠，微端以客製化設計能力見長，提供從概念、設計到量產之一站式服務。指紋辨識模組應用於筆電與智慧門鎖。另代理銷售無線充電產品與提供電子製造服務 ([[EMS]])。主要市場為北美與歐洲。",
+    "entities": [
+      "Microtips Technology",
+      "LCD",
+      "TFT LCD",
+      "EMS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (顯示元件與IC)",
+        "text": "**上游 (顯示元件與IC):**",
+        "entities": []
+      },
+      {
+        "category": "LCD 面板",
+        "text": "[[友達]]、[[群創]] — 中小尺寸 LCD Open Cell",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[聯詠]]、[[瑞鼎]] — LCD 驅動 IC",
+        "entities": [
+          "聯詠",
+          "瑞鼎"
+        ]
+      },
+      {
+        "category": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      },
+      {
+        "category": "指紋感測器",
+        "text": "[[神盾]] — 指紋辨識 Sensor IC",
+        "entities": [
+          "神盾"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (模組製造)",
+        "text": "**中游 (模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "LCM 組裝",
+        "text": "**微端** (字元型/圖形型/[[TFT LCD]] 模組)",
+        "entities": [
+          "TFT LCD"
+        ]
+      },
+      {
+        "category": "指紋模組",
+        "text": "**微端** (筆電/門鎖指紋辨識模組)",
+        "entities": []
+      },
+      {
+        "category": "EMS 服務",
+        "text": "**微端** (電子製造代工)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (工控、醫療與消費終端)",
+        "text": "**下游 (工控、醫療與消費終端):**",
+        "entities": []
+      },
+      {
+        "category": "工業控制",
+        "text": "歐美工控設備廠 — HMI 人機介面顯示",
+        "entities": []
+      },
+      {
+        "category": "醫療器材",
+        "text": "歐美醫療設備廠 — 攜帶式醫療顯示",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "筆電代工廠 — 指紋辨識模組",
+        "entities": []
+      },
+      {
+        "category": "電信設備",
+        "text": "電信與網通設備廠 — 中小尺寸顯示",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工控設備",
+        "text": "歐美工業控制設備廠 — HMI 顯示模組",
+        "entities": []
+      },
+      {
+        "role": "醫療器材",
+        "text": "歐美醫療設備品牌 — 攜帶式醫療 [[LCD]] 顯示",
+        "entities": [
+          "LCD"
+        ]
+      },
+      {
+        "role": "筆電代工",
+        "text": "[[仁寶]]、[[廣達]] — 指紋辨識模組",
+        "entities": [
+          "仁寶",
+          "廣達"
+        ]
+      },
+      {
+        "role": "電信設備",
+        "text": "電信與網通設備廠 — 中小尺寸 [[TFT LCD]] 模組",
+        "entities": [
+          "TFT LCD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]] — 中小尺寸 LCD Open Cell",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "驅動 IC",
+        "text": "[[聯詠]]、[[瑞鼎]] — LCD 驅動 IC",
+        "entities": [
+          "聯詠",
+          "瑞鼎"
+        ]
+      },
+      {
+        "role": "指紋感測",
+        "text": "[[神盾]] — 指紋辨識 Sensor IC",
+        "entities": [
+          "神盾"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "微端科技 (3285，[[Microtips Technology]]) 創立於 1990 年，為專業顯示器模組 (LCM) 與指紋辨識模組製造商。主要產品為中小尺寸 [[LCD]] 模組 (字元型、圖形型、[[TFT LCD]] 模組)，專注於工業控制、醫療器材、電信設備與新興應用等少量多樣之利基型市場。",
+        "entities": [
+          "Microtips Technology",
+          "LCD",
+          "TFT LCD"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Microtips Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Microtips Technology"
+    },
+    {
+      "name": "LCD",
+      "type": "international_company_or_term",
+      "wikilink": "LCD"
+    },
+    {
+      "name": "TFT LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT LCD"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "瑞鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞鼎"
+    },
+    {
+      "name": "神盾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神盾"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "微端科技 (3285，[[Microtips Technology]]) 創立於 1990 年，為專業顯示器模組 (LCM) 與指紋辨識模組製造商。主要產品為中小尺寸 [[LCD]] 模組 (字元型、圖形型、[[TFT LCD]] 模組)，專注於工業控制、醫療器材、電信設備與新興應用等少量多樣之利基型市場。\n\n不同於大尺寸面板廠，微端以客製化設計能力見長，提供從概念、設計到量產之一站式服務。指紋辨識模組應用於筆電與智慧門鎖。另代理銷售無線充電產品與提供電子製造服務 ([[EMS]])。主要市場為北美與歐洲。",
+    "supply_chain_md": "**上游 (顯示元件與IC):**\n- **LCD 面板:** [[友達]]、[[群創]] — 中小尺寸 LCD Open Cell\n- **驅動 IC:** [[聯詠]]、[[瑞鼎]] — LCD 驅動 IC\n- **背光模組:** LED 背光模組供應商\n- **指紋感測器:** [[神盾]] — 指紋辨識 Sensor IC\n\n**中游 (模組製造):**\n- **LCM 組裝:** **微端** (字元型/圖形型/[[TFT LCD]] 模組)\n- **指紋模組:** **微端** (筆電/門鎖指紋辨識模組)\n- **EMS 服務:** **微端** (電子製造代工)\n\n**下游 (工控、醫療與消費終端):**\n- **工業控制:** 歐美工控設備廠 — HMI 人機介面顯示\n- **醫療器材:** 歐美醫療設備廠 — 攜帶式醫療顯示\n- **消費電子:** 筆電代工廠 — 指紋辨識模組\n- **電信設備:** 電信與網通設備廠 — 中小尺寸顯示",
+    "customers_suppliers_md": "### 主要客戶\n- **工控設備:** 歐美工業控制設備廠 — HMI 顯示模組\n- **醫療器材:** 歐美醫療設備品牌 — 攜帶式醫療 [[LCD]] 顯示\n- **筆電代工:** [[仁寶]]、[[廣達]] — 指紋辨識模組\n- **電信設備:** 電信與網通設備廠 — 中小尺寸 [[TFT LCD]] 模組\n\n### 主要供應商\n- **面板:** [[友達]]、[[群創]] — 中小尺寸 LCD Open Cell\n- **驅動 IC:** [[聯詠]]、[[瑞鼎]] — LCD 驅動 IC\n- **指紋感測:** [[神盾]] — 指紋辨識 Sensor IC",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $36.15 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     38.46 |         N/A |      2.03 | 2.59 |     20.68 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       678.58 |       844.66 |       745.37 |\n| Gross Profit            |       167.40 |       188.55 |       178.52 |\n| Gross Margin (%)        |        24.67 |        22.32 |        23.95 |\n| Selling & Marketing Exp |        65.26 |        70.10 |        71.96 |\n| R&D Exp                 |        11.68 |        13.53 |        15.43 |\n| General & Admin Exp     |        67.75 |        73.55 |        64.36 |\n| Operating Income        |        22.71 |        31.37 |        26.77 |\n| Operating Margin (%)    |         3.35 |         3.71 |         3.59 |\n| Net Income              |        29.99 |        50.25 |        28.03 |\n| Net Margin (%)          |         4.42 |         5.95 |         3.76 |\n| Op Cash Flow            |        43.98 |        51.48 |       118.05 |\n| Investing Cash Flow     |        36.36 |        42.92 |       -45.55 |\n| Financing Cash Flow     |       -53.59 |       -57.92 |       -99.64 |\n| CAPEX                   |        -1.47 |        -2.78 |        -1.15 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       221.88 |       199.15 |       173.21 |       167.56 |\n| Gross Profit            |        53.70 |        56.98 |        49.12 |        33.16 |\n| Gross Margin (%)        |        24.20 |        28.61 |        28.36 |        19.79 |\n| Selling & Marketing Exp |        17.70 |        16.83 |        17.20 |        17.29 |\n| R&D Exp                 |         2.51 |         3.10 |         3.00 |         2.77 |\n| General & Admin Exp     |        17.83 |        19.43 |        17.63 |        15.19 |\n| Operating Income        |        15.66 |        17.63 |        11.29 |        -2.09 |\n| Operating Margin (%)    |         7.06 |         8.85 |         6.52 |        -1.25 |\n| Net Income              |        10.99 |        16.12 |        23.57 |       -10.51 |\n| Net Margin (%)          |         4.95 |         8.10 |        13.61 |        -6.27 |\n| Op Cash Flow            |       112.83 |        35.80 |         1.81 |       -17.15 |\n| Investing Cash Flow     |       -32.22 |         3.00 |        -0.20 |        33.24 |\n| Financing Cash Flow     |        -4.09 |        -2.13 |       -47.25 |        -2.04 |\n| CAPEX                   |        -0.40 |        -1.47 |         0.65 |        -0.64 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

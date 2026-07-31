@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8121",
+  "company_name": "越峰",
+  "title": "8121 - 越峰",
+  "source_md": "Pilot_Reports/被動元件 - 電感器材料(如鐵氧體、導電漿墨)/8121_越峰.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "5,900 百萬台幣",
+    "enterprise_value": "8,405 百萬台幣"
+  },
+  "business": {
+    "summary": "越峰電子 (8121，Acme Electronics) 為台灣專業軟磁鐵氧體 (Soft Ferrite) 粉料與磁芯製造商，成立於 1991 年，為台灣聚合化學 (TPC) 轉投資公司。\n\n核心產品涵蓋：(1) 錳鋅軟磁鐵氧體粉料與磁芯 — 應用於電源供應器、變壓器、濾波器、無線充電器、[[LED]] 驅動器等；(2) 鎳鋅軟磁鐵氧體粉料與磁芯 — 應用於 [[5G]] 通訊、[[AI 伺服器]] 電源、車用電子等高頻領域；(3) 高純度 [[碳化矽]] (SiC) 粉料 — 為第三代半導體 [[碳化矽]] 晶圓長晶之關鍵原料，台灣唯一本土供應商。馬來西亞廠 SiC 設備已完成安裝，2025 年 Q2 開始量產交貨，目標供應台灣及海外晶圓廠。鎳鋅/錳鋅軟磁芯月產能分別約 130 噸與 60 噸。",
+    "entities": [
+      "LED",
+      "5G",
+      "AI 伺服器",
+      "碳化矽"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "氧化鐵等原料",
+        "text": "金屬氧化物粉料 (氧化鐵、氧化錳、氧化鋅、氧化鎳) 供應商",
+        "entities": []
+      },
+      {
+        "category": "SiC 原料",
+        "text": "碳源與矽源原料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (磁性材料與 SiC 粉料)",
+        "text": "**中游 (磁性材料與 SiC 粉料):**",
+        "entities": []
+      },
+      {
+        "category": "鐵氧體粉料",
+        "text": "**越峰** (錳鋅/鎳鋅軟磁鐵氧體粉料製造)",
+        "entities": []
+      },
+      {
+        "category": "鐵氧體磁芯",
+        "text": "**越峰** (錳鋅/鎳鋅軟磁鐵氧體磁芯成型與燒結)",
+        "entities": []
+      },
+      {
+        "category": "[[碳化矽]] 粉料",
+        "text": "**越峰** (高純度 SiC 粉料，供長晶用)",
+        "entities": [
+          "碳化矽"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電感/變壓器廠",
+        "text": "被動元件廠如 [[TDK]]、[[台達電]] 等 — 採用鐵氧體磁芯",
+        "entities": [
+          "TDK",
+          "台達電"
+        ]
+      },
+      {
+        "category": "無線充電",
+        "text": "無線充電模組廠 — 鎳鋅磁芯",
+        "entities": []
+      },
+      {
+        "category": "第三代半導體",
+        "text": "[[碳化矽]] 晶圓廠 — SiC 長晶粉料",
+        "entities": [
+          "碳化矽"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "[[電動車]] 電力電子變壓器磁芯",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "被動元件廠",
+        "text": "電感與變壓器製造商如 [[TDK]]、[[台達電]] — 採用鐵氧體磁芯",
+        "entities": [
+          "TDK",
+          "台達電"
+        ]
+      },
+      {
+        "role": "無線充電",
+        "text": "無線充電模組廠 — 鎳鋅軟磁磁芯",
+        "entities": []
+      },
+      {
+        "role": "SiC 晶圓廠",
+        "text": "台灣與海外 [[碳化矽]] 晶圓製造商 — 高純度 SiC 粉料",
+        "entities": [
+          "碳化矽"
+        ]
+      },
+      {
+        "role": "車用電子",
+        "text": "[[電動車]] 電力電子系統廠 — 車用變壓器磁芯",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬氧化物",
+        "text": "氧化鐵、氧化錳、氧化鋅等原料供應商",
+        "entities": []
+      },
+      {
+        "role": "母公司",
+        "text": "台灣聚合化學 (TPC) — 主要股東",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "粉末冶金與燒結設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    },
+    {
+      "name": "TDK",
+      "type": "international_company_or_term",
+      "wikilink": "TDK"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "越峰電子 (8121，Acme Electronics) 為台灣專業軟磁鐵氧體 (Soft Ferrite) 粉料與磁芯製造商，成立於 1991 年，為台灣聚合化學 (TPC) 轉投資公司。\n\n核心產品涵蓋：(1) 錳鋅軟磁鐵氧體粉料與磁芯 — 應用於電源供應器、變壓器、濾波器、無線充電器、[[LED]] 驅動器等；(2) 鎳鋅軟磁鐵氧體粉料與磁芯 — 應用於 [[5G]] 通訊、[[AI 伺服器]] 電源、車用電子等高頻領域；(3) 高純度 [[碳化矽]] (SiC) 粉料 — 為第三代半導體 [[碳化矽]] 晶圓長晶之關鍵原料，台灣唯一本土供應商。馬來西亞廠 SiC 設備已完成安裝，2025 年 Q2 開始量產交貨，目標供應台灣及海外晶圓廠。鎳鋅/錳鋅軟磁芯月產能分別約 130 噸與 60 噸。",
+    "supply_chain_md": "**上游 (原材料):**\n- **氧化鐵等原料:** 金屬氧化物粉料 (氧化鐵、氧化錳、氧化鋅、氧化鎳) 供應商\n- **SiC 原料:** 碳源與矽源原料供應商\n\n**中游 (磁性材料與 SiC 粉料):**\n- **鐵氧體粉料:** **越峰** (錳鋅/鎳鋅軟磁鐵氧體粉料製造)\n- **鐵氧體磁芯:** **越峰** (錳鋅/鎳鋅軟磁鐵氧體磁芯成型與燒結)\n- **[[碳化矽]] 粉料:** **越峰** (高純度 SiC 粉料，供長晶用)\n\n**下游 (終端應用):**\n- **電感/變壓器廠:** 被動元件廠如 [[TDK]]、[[台達電]] 等 — 採用鐵氧體磁芯\n- **無線充電:** 無線充電模組廠 — 鎳鋅磁芯\n- **第三代半導體:** [[碳化矽]] 晶圓廠 — SiC 長晶粉料\n- **車用電子:** [[電動車]] 電力電子變壓器磁芯",
+    "customers_suppliers_md": "### 主要客戶\n- **被動元件廠:** 電感與變壓器製造商如 [[TDK]]、[[台達電]] — 採用鐵氧體磁芯\n- **無線充電:** 無線充電模組廠 — 鎳鋅軟磁磁芯\n- **SiC 晶圓廠:** 台灣與海外 [[碳化矽]] 晶圓製造商 — 高純度 SiC 粉料\n- **車用電子:** [[電動車]] 電力電子系統廠 — 車用變壓器磁芯\n\n### 主要供應商\n- **金屬氧化物:** 氧化鐵、氧化錳、氧化鋅等原料供應商\n- **母公司:** 台灣聚合化學 (TPC) — 主要股東\n- **設備:** 粉末冶金與燒結設備供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $26.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.77 | 2.77 |     22.57 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3069.02 |      3095.38 |      2551.75 |\n| Gross Profit            |       509.24 |       637.79 |       237.50 |\n| Gross Margin (%)        |        16.59 |        20.60 |         9.31 |\n| Selling & Marketing Exp |       156.53 |       139.07 |       126.35 |\n| R&D Exp                 |       210.82 |       203.95 |       170.95 |\n| General & Admin Exp     |       201.78 |       199.37 |       187.47 |\n| Operating Income        |       -66.48 |        92.32 |      -247.26 |\n| Operating Margin (%)    |        -2.17 |         2.98 |        -9.69 |\n| Net Income              |       -66.38 |       155.30 |      -171.22 |\n| Net Margin (%)          |        -2.16 |         5.02 |        -6.71 |\n| Op Cash Flow            |       186.29 |       315.69 |       398.34 |\n| Investing Cash Flow     |      -388.72 |      -773.47 |      -495.29 |\n| Financing Cash Flow     |       134.34 |       645.34 |        91.44 |\n| CAPEX                   |      -320.72 |      -770.15 |      -495.87 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       852.86 |       846.92 |       774.47 |       728.35 |\n| Gross Profit            |       165.72 |       167.31 |       126.43 |       106.28 |\n| Gross Margin (%)        |        19.43 |        19.76 |        16.33 |        14.59 |\n| Selling & Marketing Exp |        39.85 |        41.69 |        38.43 |        40.93 |\n| R&D Exp                 |        50.70 |        50.62 |        52.19 |        49.62 |\n| General & Admin Exp     |        50.32 |        49.42 |        48.94 |        49.38 |\n| Operating Income        |        24.85 |        18.99 |       -13.12 |       -33.66 |\n| Operating Margin (%)    |         2.91 |         2.24 |        -1.69 |        -4.62 |\n| Net Income              |        22.24 |        19.17 |        -3.54 |       -60.19 |\n| Net Margin (%)          |         2.61 |         2.26 |        -0.46 |        -8.26 |\n| Op Cash Flow            |        11.68 |        41.14 |         9.58 |       140.33 |\n| Investing Cash Flow     |       -97.96 |      -154.32 |       -59.71 |       -98.23 |\n| Financing Cash Flow     |       -76.76 |        93.98 |        63.65 |       -28.00 |\n| CAPEX                   |       -99.67 |       -76.32 |       -40.17 |      -104.65 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

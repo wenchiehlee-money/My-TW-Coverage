@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6784",
+  "company_name": "天凱科技",
+  "title": "6784 - 天凱科技",
+  "source_md": "Pilot_Reports/通信網路 - 線材/6784_天凱科技.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "420 百萬台幣",
+    "enterprise_value": "321 百萬台幣"
+  },
+  "business": {
+    "summary": "天凱科技股份有限公司 (6784) 成立於 2006 年，總部位於新竹竹北。公司專注於 [[GPS]] 應用與 [[RF]] 天線產品之設計研發與代工製造，以 [[OEM]]/[[ODM]] 模式服務客戶。兩大產品線：(1) 穿戴裝置 — [[GPS]] 手錶、GPS 手環等運動穿戴裝置，應用於高爾夫、跑步、游泳、自行車等運動場景；(2) [[RF]] 天線 — Wi-Fi、3G/4G/[[5G]] 基地台天線、各式線材與 RF 連接器設計製造。天線設計能力獲國內知名網通上市公司肯定。",
+    "entities": [
+      "GPS",
+      "RF",
+      "OEM",
+      "ODM",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子與射頻元件)",
+        "text": "**上游 (電子與射頻元件):**",
+        "entities": []
+      },
+      {
+        "category": "GPS 晶片",
+        "text": "[[GPS]] 定位晶片供應商",
+        "entities": [
+          "GPS"
+        ]
+      },
+      {
+        "category": "RF 元件",
+        "text": "[[RF]] 射頻元件與連接器",
+        "entities": [
+          "RF"
+        ]
+      },
+      {
+        "category": "感測器",
+        "text": "運動感測器（加速度計、陀螺儀）",
+        "entities": []
+      },
+      {
+        "category": "電路板",
+        "text": "[[PCB]] 基板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (穿戴裝置與天線設計製造)",
+        "text": "**中游 (穿戴裝置與天線設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "GPS 穿戴",
+        "text": "**天凱** ([[GPS]] 運動手錶/手環 ODM)",
+        "entities": [
+          "GPS"
+        ]
+      },
+      {
+        "category": "RF 天線",
+        "text": "**天凱** ([[RF]] 天線設計與製造)",
+        "entities": [
+          "RF"
+        ]
+      },
+      {
+        "category": "線材/連接器",
+        "text": "**天凱** (RF 線材與連接器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (網通與消費市場)",
+        "text": "**下游 (網通與消費市場):**",
+        "entities": []
+      },
+      {
+        "category": "網通客戶",
+        "text": "[[正文科技]]、[[合勤]] — 基地台天線",
+        "entities": [
+          "正文科技",
+          "合勤"
+        ]
+      },
+      {
+        "category": "運動品牌",
+        "text": "運動穿戴裝置品牌商 — GPS 手錶 ODM",
+        "entities": []
+      },
+      {
+        "category": "通訊設備",
+        "text": "[[5G]] 基地台與通訊設備廠",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網通大廠",
+        "text": "[[正文科技]] — 基地台天線長期合作",
+        "entities": [
+          "正文科技"
+        ]
+      },
+      {
+        "role": "網通集團",
+        "text": "[[合勤]] — 網通設備天線",
+        "entities": [
+          "合勤"
+        ]
+      },
+      {
+        "role": "運動品牌",
+        "text": "運動穿戴裝置品牌商 — [[GPS]] 手錶/手環 ODM",
+        "entities": [
+          "GPS"
+        ]
+      },
+      {
+        "role": "通訊設備",
+        "text": "[[5G]] 基地台設備廠 — RF 天線",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "GPS 晶片",
+        "text": "GPS 定位晶片設計廠",
+        "entities": []
+      },
+      {
+        "role": "RF 元件",
+        "text": "射頻元件與連接器供應商",
+        "entities": []
+      },
+      {
+        "role": "感測器",
+        "text": "運動感測器供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "GPS",
+      "type": "international_company_or_term",
+      "wikilink": "GPS"
+    },
+    {
+      "name": "RF",
+      "type": "international_company_or_term",
+      "wikilink": "RF"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "正文科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正文科技"
+    },
+    {
+      "name": "合勤",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合勤"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "天凱科技股份有限公司 (6784) 成立於 2006 年，總部位於新竹竹北。公司專注於 [[GPS]] 應用與 [[RF]] 天線產品之設計研發與代工製造，以 [[OEM]]/[[ODM]] 模式服務客戶。兩大產品線：(1) 穿戴裝置 — [[GPS]] 手錶、GPS 手環等運動穿戴裝置，應用於高爾夫、跑步、游泳、自行車等運動場景；(2) [[RF]] 天線 — Wi-Fi、3G/4G/[[5G]] 基地台天線、各式線材與 RF 連接器設計製造。天線設計能力獲國內知名網通上市公司肯定。",
+    "supply_chain_md": "**上游 (電子與射頻元件):**\n- **GPS 晶片:** [[GPS]] 定位晶片供應商\n- **RF 元件:** [[RF]] 射頻元件與連接器\n- **感測器:** 運動感測器（加速度計、陀螺儀）\n- **電路板:** [[PCB]] 基板\n\n**中游 (穿戴裝置與天線設計製造):**\n- **GPS 穿戴:** **天凱** ([[GPS]] 運動手錶/手環 ODM)\n- **RF 天線:** **天凱** ([[RF]] 天線設計與製造)\n- **線材/連接器:** **天凱** (RF 線材與連接器)\n\n**下游 (網通與消費市場):**\n- **網通客戶:** [[正文科技]]、[[合勤]] — 基地台天線\n- **運動品牌:** 運動穿戴裝置品牌商 — GPS 手錶 ODM\n- **通訊設備:** [[5G]] 基地台與通訊設備廠",
+    "customers_suppliers_md": "### 主要客戶\n- **網通大廠:** [[正文科技]] — 基地台天線長期合作\n- **網通集團:** [[合勤]] — 網通設備天線\n- **運動品牌:** 運動穿戴裝置品牌商 — [[GPS]] 手錶/手環 ODM\n- **通訊設備:** [[5G]] 基地台設備廠 — RF 天線\n\n### 主要供應商\n- **GPS 晶片:** GPS 定位晶片設計廠\n- **RF 元件:** 射頻元件與連接器供應商\n- **感測器:** 運動感測器供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $21.55 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     44.90 |         N/A |      1.14 | 1.95 |     20.73 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       359.43 |       308.02 |       276.35 |\n| Gross Profit            |        65.94 |        64.52 |        55.14 |\n| Gross Margin (%)        |        18.35 |        20.95 |        19.95 |\n| Selling & Marketing Exp |        17.22 |        20.62 |        22.30 |\n| R&D Exp                 |        19.41 |        20.89 |        16.16 |\n| General & Admin Exp     |        18.58 |        22.19 |        22.82 |\n| Operating Income        |        10.73 |         0.81 |        -6.15 |\n| Operating Margin (%)    |         2.99 |         0.26 |        -2.23 |\n| Net Income              |         8.80 |         2.02 |       -23.62 |\n| Net Margin (%)          |         2.45 |         0.66 |        -8.55 |\n| Op Cash Flow            |       -39.58 |        29.67 |        23.35 |\n| Investing Cash Flow     |        50.54 |        -8.56 |       -13.37 |\n| Financing Cash Flow     |       -48.44 |        34.15 |       -14.99 |\n| CAPEX                   |        -1.47 |        -2.57 |        -1.18 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

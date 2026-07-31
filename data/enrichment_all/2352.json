@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2352",
+  "company_name": "佳世達",
+  "title": "2352 - 佳世達",
+  "source_md": "Pilot_Reports/醫療器材 - 醫療器材研發、設計、製造/2352_佳世達.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "42,595 百萬台幣",
+    "enterprise_value": "132,717 百萬台幣"
+  },
+  "business": {
+    "summary": "佳世達科技 (2352，[[Qisda Corporation]]) 成立於 1984 年，總部位於桃園，為[[明基]] ([[BenQ]]) 集團核心公司，以設計製造服務 (DMS) 起家，現已轉型為橫跨資訊、醫療、智能方案、網路通訊及材料科學之大艦隊集團。\n\n五大事業群：(1) DMS 代工：顯示器、投影機、網路攝影機；(2) 品牌行銷：[[BenQ]] 品牌顯示器、投影機、dvLED 顯示方案；(3) 醫療服務：經營兩家大型綜合醫院，醫療耗材及設備之 ODM/OEM，醫療事業近年成長 19%；(4) 智能方案：智慧企業、智慧製造、智慧教育、AI 邊緣運算 ([[Edge AI]])，成長達 20%；(5) 網通事業：LAN/WAN 網通設備及行動寬頻產品。旗下重要子公司包括[[明泰科技]] (Alpha Networks，網通)、[[友通資訊]] (DFI，嵌入式 IPC)、Partner Tech (POS 系統) 等。",
+    "entities": [
+      "Qisda Corporation",
+      "明基",
+      "BenQ",
+      "Edge AI",
+      "明泰科技",
+      "友通資訊"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板與電子元件)",
+        "text": "**上游 (面板與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]] (AUO)、[[群創]] — 液晶面板/dvLED 模組",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "光學引擎",
+        "text": "投影機光學引擎 (DLP/LCD 投影技術)",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "[[MLCC]]、IC 晶片、記憶體模組",
+        "entities": [
+          "MLCC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (DMS 設計製造與集團事業)",
+        "text": "**中游 (DMS 設計製造與集團事業):**",
+        "entities": []
+      },
+      {
+        "category": "DMS 代工",
+        "text": "**佳世達** (顯示器/投影機/攝影機代工)",
+        "entities": []
+      },
+      {
+        "category": "品牌事業",
+        "text": "[[BenQ]] (顯示器/投影機/dvLED 品牌)",
+        "entities": [
+          "BenQ"
+        ]
+      },
+      {
+        "category": "醫療事業",
+        "text": "**佳世達** (兩家綜合醫院、醫療耗材設備)",
+        "entities": []
+      },
+      {
+        "category": "智能方案",
+        "text": "**佳世達** (智慧製造/教育/[[Edge AI]])",
+        "entities": [
+          "Edge AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶與通路)",
+        "text": "**下游 (終端客戶與通路):**",
+        "entities": []
+      },
+      {
+        "category": "消費通路",
+        "text": "全球 IT 通路商 — BenQ 品牌產品",
+        "entities": []
+      },
+      {
+        "category": "醫療機構",
+        "text": "醫院及醫療器材經銷商",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "製造業及教育機構 — 智能方案",
+        "entities": []
+      },
+      {
+        "category": "網通品牌",
+        "text": "透過子公司[[明泰科技]]服務全球網通客戶",
+        "entities": [
+          "明泰科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "品牌通路",
+        "text": "全球 IT 通路商 — [[BenQ]] 品牌顯示器/投影機/dvLED",
+        "entities": [
+          "BenQ"
+        ]
+      },
+      {
+        "role": "醫療機構",
+        "text": "醫院及醫療器材經銷商 — 醫療耗材及設備",
+        "entities": []
+      },
+      {
+        "role": "企業客戶",
+        "text": "智慧製造及智慧教育解決方案終端客戶",
+        "entities": []
+      },
+      {
+        "role": "DMS 代工",
+        "text": "國際品牌客戶 — 顯示器及投影機 ODM 代工",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "面板",
+        "text": "[[友達]] (AUO)、[[群創]] (Innolux) — 液晶面板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "光學引擎",
+        "text": "DLP/LCD 投影光學引擎供應商",
+        "entities": []
+      },
+      {
+        "role": "子公司",
+        "text": "[[明泰科技]] (Alpha Networks)、[[友通資訊]] (DFI) — 集團事業協同",
+        "entities": [
+          "明泰科技",
+          "友通資訊"
+        ]
+      },
+      {
+        "role": "醫療設備",
+        "text": "國際醫療設備零組件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Qisda Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "Qisda Corporation"
+    },
+    {
+      "name": "明基",
+      "type": "taiwan_company_or_term",
+      "wikilink": "明基"
+    },
+    {
+      "name": "BenQ",
+      "type": "international_company_or_term",
+      "wikilink": "BenQ"
+    },
+    {
+      "name": "Edge AI",
+      "type": "international_company_or_term",
+      "wikilink": "Edge AI"
+    },
+    {
+      "name": "明泰科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "明泰科技"
+    },
+    {
+      "name": "友通資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友通資訊"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "佳世達科技 (2352，[[Qisda Corporation]]) 成立於 1984 年，總部位於桃園，為[[明基]] ([[BenQ]]) 集團核心公司，以設計製造服務 (DMS) 起家，現已轉型為橫跨資訊、醫療、智能方案、網路通訊及材料科學之大艦隊集團。\n\n五大事業群：(1) DMS 代工：顯示器、投影機、網路攝影機；(2) 品牌行銷：[[BenQ]] 品牌顯示器、投影機、dvLED 顯示方案；(3) 醫療服務：經營兩家大型綜合醫院，醫療耗材及設備之 ODM/OEM，醫療事業近年成長 19%；(4) 智能方案：智慧企業、智慧製造、智慧教育、AI 邊緣運算 ([[Edge AI]])，成長達 20%；(5) 網通事業：LAN/WAN 網通設備及行動寬頻產品。旗下重要子公司包括[[明泰科技]] (Alpha Networks，網通)、[[友通資訊]] (DFI，嵌入式 IPC)、Partner Tech (POS 系統) 等。",
+    "supply_chain_md": "**上游 (面板與電子元件):**\n- **面板:** [[友達]] (AUO)、[[群創]] — 液晶面板/dvLED 模組\n- **光學引擎:** 投影機光學引擎 (DLP/LCD 投影技術)\n- **電子元件:** [[MLCC]]、IC 晶片、記憶體模組\n\n**中游 (DMS 設計製造與集團事業):**\n- **DMS 代工:** **佳世達** (顯示器/投影機/攝影機代工)\n- **品牌事業:** [[BenQ]] (顯示器/投影機/dvLED 品牌)\n- **醫療事業:** **佳世達** (兩家綜合醫院、醫療耗材設備)\n- **智能方案:** **佳世達** (智慧製造/教育/[[Edge AI]])\n\n**下游 (終端客戶與通路):**\n- **消費通路:** 全球 IT 通路商 — BenQ 品牌產品\n- **醫療機構:** 醫院及醫療器材經銷商\n- **企業客戶:** 製造業及教育機構 — 智能方案\n- **網通品牌:** 透過子公司[[明泰科技]]服務全球網通客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **品牌通路:** 全球 IT 通路商 — [[BenQ]] 品牌顯示器/投影機/dvLED\n- **醫療機構:** 醫院及醫療器材經銷商 — 醫療耗材及設備\n- **企業客戶:** 智慧製造及智慧教育解決方案終端客戶\n- **DMS 代工:** 國際品牌客戶 — 顯示器及投影機 ODM 代工\n\n### 主要供應商\n- **面板:** [[友達]] (AUO)、[[群創]] (Innolux) — 液晶面板\n- **光學引擎:** DLP/LCD 投影光學引擎供應商\n- **子公司:** [[明泰科技]] (Alpha Networks)、[[友通資訊]] (DFI) — 集團事業協同\n- **醫療設備:** 國際醫療設備零組件供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $26.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     44.83 |       13.29 |      0.20 | 1.43 |     16.27 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    207904.50 |    201666.20 |    203594.78 |\n| Gross Profit            |     35020.81 |     33181.42 |     33075.90 |\n| Gross Margin (%)        |        16.84 |        16.45 |        16.25 |\n| Selling & Marketing Exp |     17979.67 |     15741.18 |     14955.09 |\n| R&D Exp                 |      6989.24 |      6650.66 |      6943.94 |\n| General & Admin Exp     |      6496.56 |      6304.92 |      6198.41 |\n| Operating Income        |      3555.34 |      4484.65 |      4978.46 |\n| Operating Margin (%)    |         1.71 |         2.22 |         2.45 |\n| Net Income              |      1142.60 |      2163.95 |      2975.73 |\n| Net Margin (%)          |         0.55 |         1.07 |         1.46 |\n| Op Cash Flow            |      9105.89 |      3301.38 |     13611.01 |\n| Investing Cash Flow     |     -7287.23 |     -8793.97 |     -8773.55 |\n| Financing Cash Flow     |      -975.85 |      4822.19 |    -10518.02 |\n| CAPEX                   |     -5792.43 |     -5781.54 |     -5335.35 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     51541.50 |     52161.24 |     52532.30 |     53463.95 |\n| Gross Profit            |      8592.87 |      8897.05 |      8874.87 |      8627.43 |\n| Gross Margin (%)        |        16.67 |        17.06 |        16.89 |        16.14 |\n| Selling & Marketing Exp |      4463.41 |      4578.21 |      4573.24 |      4503.27 |\n| R&D Exp                 |      1775.48 |      1787.18 |      1776.87 |      1755.38 |\n| General & Admin Exp     |      1637.63 |      1701.83 |      1601.42 |      1583.97 |\n| Operating Income        |       716.34 |       829.83 |       923.35 |       784.82 |\n| Operating Margin (%)    |         1.39 |         1.59 |         1.76 |         1.47 |\n| Net Income              |       317.51 |        52.16 |       251.25 |       356.24 |\n| Net Margin (%)          |         0.62 |         0.10 |         0.48 |         0.67 |\n| Op Cash Flow            |     -4523.29 |      2935.02 |      2869.30 |      2405.56 |\n| Investing Cash Flow     |     -5426.52 |     -3192.58 |     -1507.32 |      -193.29 |\n| Financing Cash Flow     |      5187.34 |      1634.32 |     -3078.10 |       609.70 |\n| CAPEX                   |      -986.82 |     -1360.27 |     -1594.15 |     -1324.93 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

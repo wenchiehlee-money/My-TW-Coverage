@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1504",
+  "company_name": "東元",
+  "title": "1504 - 東元",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/1504_東元.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "145,414 百萬台幣",
+    "enterprise_value": "146,677 百萬台幣"
+  },
+  "business": {
+    "summary": "東元電機 (1504，TECO Electric & Machinery) 為台灣「馬達王國」代表，全球前三大[[工業馬達]]製造商之一。集團涵蓋機電、能源、空調三大事業群，產品包括低/中/高壓馬達、變頻器、[[減速機]]、發電機及空調。近年發展[[電動車]]動力系統、[[儲能]]系統及智慧能源，並併購馬來西亞 NCL Energy 跨入超大型[[資料中心]]機電工程 (MEP) 市場，服務[[Google]]、[[Microsoft]]等雲端業者。上游矽鋼片來自[[中鋼]]。其他客戶涵蓋[[台電]]、[[台塑]]、[[中油]]。電動巴士馬達供應[[華德動能]]。營運據點遍布全球 40 餘國。",
+    "entities": [
+      "工業馬達",
+      "減速機",
+      "電動車",
+      "儲能",
+      "資料中心",
+      "Google",
+      "Microsoft",
+      "中鋼",
+      "台電",
+      "台塑",
+      "中油",
+      "華德動能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "矽鋼片",
+        "text": "[[中鋼]] — 馬達用電磁鋼片",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "銅線/鑄件",
+        "text": "國內供應商",
+        "entities": []
+      },
+      {
+        "category": "功率元件",
+        "text": "[[IGBT]]模組",
+        "entities": [
+          "IGBT"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**東元** ([[工業馬達]]/變頻器/[[減速機]]/發電機/空調/EV 動力系統)",
+        "entities": [
+          "工業馬達",
+          "減速機"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電力",
+        "text": "[[台電]] — 變電站/配電",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "石化",
+        "text": "[[台塑]]、[[中油]]",
+        "entities": [
+          "台塑",
+          "中油"
+        ]
+      },
+      {
+        "category": "資料中心",
+        "text": "[[Google]]、[[Microsoft]] — MEP 機電工程",
+        "entities": [
+          "Google",
+          "Microsoft"
+        ]
+      },
+      {
+        "category": "電動巴士",
+        "text": "[[華德動能]] — EV 馬達",
+        "entities": [
+          "華德動能"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電力",
+        "text": "[[台電]]",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "石化",
+        "text": "[[台塑]]、[[中油]]",
+        "entities": [
+          "台塑",
+          "中油"
+        ]
+      },
+      {
+        "role": "資料中心",
+        "text": "[[Google]]、[[Microsoft]] — MEP",
+        "entities": [
+          "Google",
+          "Microsoft"
+        ]
+      },
+      {
+        "role": "電動巴士",
+        "text": "[[華德動能]]",
+        "entities": [
+          "華德動能"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "矽鋼片",
+        "text": "[[中鋼]]",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "工業馬達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業馬達"
+    },
+    {
+      "name": "減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "減速機"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "華德動能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華德動能"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "高福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高福"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東元電機 (1504，TECO Electric & Machinery) 為台灣「馬達王國」代表，全球前三大[[工業馬達]]製造商之一。集團涵蓋機電、能源、空調三大事業群，產品包括低/中/高壓馬達、變頻器、[[減速機]]、發電機及空調。近年發展[[電動車]]動力系統、[[儲能]]系統及智慧能源，並併購馬來西亞 NCL Energy 跨入超大型[[資料中心]]機電工程 (MEP) 市場，服務[[Google]]、[[Microsoft]]等雲端業者。上游矽鋼片來自[[中鋼]]。其他客戶涵蓋[[台電]]、[[台塑]]、[[中油]]。電動巴士馬達供應[[華德動能]]。營運據點遍布全球 40 餘國。",
+    "supply_chain_md": "**上游 (原料):**\n- **矽鋼片:** [[中鋼]] — 馬達用電磁鋼片\n- **銅線/鑄件:** 國內供應商\n- **功率元件:** [[IGBT]]模組\n\n**中游 (製造):**\n- **東元** ([[工業馬達]]/變頻器/[[減速機]]/發電機/空調/EV 動力系統)\n\n**下游 (終端):**\n- **電力:** [[台電]] — 變電站/配電\n- **石化:** [[台塑]]、[[中油]]\n- **資料中心:** [[Google]]、[[Microsoft]] — MEP 機電工程\n- **電動巴士:** [[華德動能]] — EV 馬達",
+    "customers_suppliers_md": "### 主要客戶\n- **電力:** [[台電]]\n- **石化:** [[台塑]]、[[中油]]\n- **資料中心:** [[Google]]、[[Microsoft]] — MEP\n- **電動巴士:** [[華德動能]]\n\n### 主要供應商\n- **矽鋼片:** [[中鋼]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $60.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     25.31 |       12.57 |      2.38 | 1.69 |     20.94 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     59093.90 |     55234.75 |     59393.66 |\n| Gross Profit            |     14079.13 |     14140.04 |     14942.66 |\n| Gross Margin (%)        |        23.83 |        25.60 |        25.16 |\n| Selling & Marketing Exp |      4805.45 |      4230.56 |      4492.29 |\n| R&D Exp                 |      1170.18 |      1016.57 |      1133.49 |\n| General & Admin Exp     |      2779.13 |      2629.90 |      2620.77 |\n| Operating Income        |      5324.37 |      6263.01 |      6696.11 |\n| Operating Margin (%)    |         9.01 |        11.34 |        11.27 |\n| Net Income              |      5242.07 |      5767.64 |      5830.06 |\n| Net Margin (%)          |         8.87 |        10.44 |         9.82 |\n| Op Cash Flow            |      2831.68 |      4602.12 |      6232.91 |\n| Investing Cash Flow     |     -1503.01 |       997.37 |       709.85 |\n| Financing Cash Flow     |     -1389.49 |     -3951.82 |     -4739.82 |\n| CAPEX                   |     -1207.83 |     -1640.77 |     -2010.24 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     15334.62 |     14538.15 |     15603.97 |     13617.17 |\n| Gross Profit            |      3571.32 |      3552.74 |      3664.33 |      3290.73 |\n| Gross Margin (%)        |        23.29 |        24.44 |        23.48 |        24.17 |\n| Selling & Marketing Exp |      1297.54 |      1078.67 |      1254.41 |      1174.83 |\n| R&D Exp                 |       352.64 |       252.09 |       286.93 |       278.52 |\n| General & Admin Exp     |       881.38 |       607.60 |       631.43 |       658.72 |\n| Operating Income        |      1039.77 |      1614.38 |      1491.55 |      1178.66 |\n| Operating Margin (%)    |         6.78 |        11.10 |         9.56 |         8.66 |\n| Net Income              |      1053.28 |      1592.72 |      1448.76 |      1147.31 |\n| Net Margin (%)          |         6.87 |        10.96 |         9.28 |         8.43 |\n| Op Cash Flow            |      2457.86 |     -1251.23 |      1525.32 |        99.72 |\n| Investing Cash Flow     |      -886.01 |      -342.09 |      -239.43 |       -35.48 |\n| Financing Cash Flow     |     -1086.75 |       740.80 |     -1993.68 |       950.14 |\n| CAPEX                   |      -299.85 |      -466.45 |      -270.46 |      -171.08 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

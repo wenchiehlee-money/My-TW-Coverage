@@ -1,0 +1,249 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6143",
+  "company_name": "振曜",
+  "title": "6143_振曜",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/6143_振曜.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "7,306 百萬台幣",
+    "enterprise_value": "6,214 百萬台幣"
+  },
+  "business": {
+    "summary": "振曜科技 (6143，[[Netronix]]) 為全球最大電子書閱讀器 (e-Reader) 代工製造廠，具備強大軟硬體整合能力，專精於電子紙 ([[E Ink]]) 應用技術。公司為非 [[Amazon]] 陣營電子書出貨量逾 80% 的獨家組裝供應商。\n\n產品涵蓋各尺寸彩色/黑白電子書、電子貨架標籤 ([[ESL]])、電子行李標籤及全彩電子紙廣告看板。受惠彩色電子書換機潮，[[Kobo]] 彩色電子書 ASP 較黑白款高 25-30%，帶動營收與毛利提升。公司已將輸美及輸歐主力產線移回台灣，享有零關稅之 MIT 製造優勢。集團另透過子公司布局半導體 ([[沛亨]]) 及高階醫材 (台生材) 領域。",
+    "entities": [
+      "Netronix",
+      "E Ink",
+      "Amazon",
+      "ESL",
+      "Kobo",
+      "沛亨"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子紙與關鍵零組件)",
+        "text": "**上游 (電子紙與關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "電子紙模組",
+        "text": "[[元太科技]] (E Ink，8069) — 電子紙顯示模組 (EPD) 獨家供應",
+        "entities": [
+          "元太科技"
+        ]
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[天鈺]] 等電子紙驅動 IC 設計廠",
+        "entities": [
+          "天鈺"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[DRAM]]/Flash 記憶體模組",
+        "entities": [
+          "DRAM"
+        ]
+      },
+      {
+        "category": "處理器",
+        "text": "應用處理器核心",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電子紙終端系統整合代工)",
+        "text": "**中游 (電子紙終端系統整合代工):**",
+        "entities": []
+      },
+      {
+        "category": "電子書代工",
+        "text": "**振曜** (全球最大非 [[Amazon]] 電子書組裝廠)",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "category": "ESL 系統",
+        "text": "**振曜** (電子貨架標籤系統)",
+        "entities": []
+      },
+      {
+        "category": "廣告看板",
+        "text": "**振曜** (全彩電子紙數位看板)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (數位閱讀平台與零售業)",
+        "text": "**下游 (數位閱讀平台與零售業):**",
+        "entities": []
+      },
+      {
+        "category": "電子書品牌",
+        "text": "[[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一客戶",
+        "entities": [
+          "Kobo",
+          "Rakuten"
+        ]
+      },
+      {
+        "category": "本土平台",
+        "text": "[[博客來]]、[[Readmoo]] 讀墨",
+        "entities": [
+          "博客來",
+          "Readmoo"
+        ]
+      },
+      {
+        "category": "零售 ESL",
+        "text": "大型連鎖零售業無紙化電子標籤",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子書品牌",
+        "text": "[[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一代工客戶",
+        "entities": [
+          "Kobo",
+          "Rakuten"
+        ]
+      },
+      {
+        "role": "本土閱讀平台",
+        "text": "[[博客來]]、[[Readmoo]] 讀墨",
+        "entities": [
+          "博客來",
+          "Readmoo"
+        ]
+      },
+      {
+        "role": "零售 ESL",
+        "text": "大型連鎖零售業電子貨架標籤",
+        "entities": []
+      },
+      {
+        "role": "去中化轉單",
+        "text": "原中國製造之國際品牌客戶轉單台灣",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電子紙",
+        "text": "[[元太科技]] (8069) — 全球電子紙技術壟斷供應商",
+        "entities": [
+          "元太科技"
+        ]
+      },
+      {
+        "role": "驅動 IC",
+        "text": "[[天鈺]] — 電子紙驅動 IC",
+        "entities": [
+          "天鈺"
+        ]
+      },
+      {
+        "role": "子公司",
+        "text": "[[沛亨]] — 半導體事業投資",
+        "entities": [
+          "沛亨"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Netronix",
+      "type": "international_company_or_term",
+      "wikilink": "Netronix"
+    },
+    {
+      "name": "E Ink",
+      "type": "international_company_or_term",
+      "wikilink": "E Ink"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "ESL",
+      "type": "international_company_or_term",
+      "wikilink": "ESL"
+    },
+    {
+      "name": "Kobo",
+      "type": "international_company_or_term",
+      "wikilink": "Kobo"
+    },
+    {
+      "name": "沛亨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沛亨"
+    },
+    {
+      "name": "元太科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元太科技"
+    },
+    {
+      "name": "天鈺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天鈺"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "Rakuten",
+      "type": "international_company_or_term",
+      "wikilink": "Rakuten"
+    },
+    {
+      "name": "博客來",
+      "type": "taiwan_company_or_term",
+      "wikilink": "博客來"
+    },
+    {
+      "name": "Readmoo",
+      "type": "international_company_or_term",
+      "wikilink": "Readmoo"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "振曜科技 (6143，[[Netronix]]) 為全球最大電子書閱讀器 (e-Reader) 代工製造廠，具備強大軟硬體整合能力，專精於電子紙 ([[E Ink]]) 應用技術。公司為非 [[Amazon]] 陣營電子書出貨量逾 80% 的獨家組裝供應商。\n\n產品涵蓋各尺寸彩色/黑白電子書、電子貨架標籤 ([[ESL]])、電子行李標籤及全彩電子紙廣告看板。受惠彩色電子書換機潮，[[Kobo]] 彩色電子書 ASP 較黑白款高 25-30%，帶動營收與毛利提升。公司已將輸美及輸歐主力產線移回台灣，享有零關稅之 MIT 製造優勢。集團另透過子公司布局半導體 ([[沛亨]]) 及高階醫材 (台生材) 領域。",
+    "supply_chain_md": "**上游 (電子紙與關鍵零組件):**\n- **電子紙模組:** [[元太科技]] (E Ink，8069) — 電子紙顯示模組 (EPD) 獨家供應\n- **驅動 IC:** [[天鈺]] 等電子紙驅動 IC 設計廠\n- **記憶體:** [[DRAM]]/Flash 記憶體模組\n- **處理器:** 應用處理器核心\n\n**中游 (電子紙終端系統整合代工):**\n- **電子書代工:** **振曜** (全球最大非 [[Amazon]] 電子書組裝廠)\n- **ESL 系統:** **振曜** (電子貨架標籤系統)\n- **廣告看板:** **振曜** (全彩電子紙數位看板)\n\n**下游 (數位閱讀平台與零售業):**\n- **電子書品牌:** [[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一客戶\n- **本土平台:** [[博客來]]、[[Readmoo]] 讀墨\n- **零售 ESL:** 大型連鎖零售業無紙化電子標籤",
+    "customers_suppliers_md": "### 主要客戶\n- **電子書品牌:** [[Kobo]] ([[Rakuten]] 樂天集團) — 最大單一代工客戶\n- **本土閱讀平台:** [[博客來]]、[[Readmoo]] 讀墨\n- **零售 ESL:** 大型連鎖零售業電子貨架標籤\n- **去中化轉單:** 原中國製造之國際品牌客戶轉單台灣\n\n### 主要供應商\n- **電子紙:** [[元太科技]] (8069) — 全球電子紙技術壟斷供應商\n- **驅動 IC:** [[天鈺]] — 電子紙驅動 IC\n- **子公司:** [[沛亨]] — 半導體事業投資",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $83.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     12.91 |         N/A |      0.80 | 2.66 |      5.24 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8523.49 |      7410.03 |      6648.32 |\n| Gross Profit            |      1896.09 |      1555.04 |      1479.13 |\n| Gross Margin (%)        |        22.25 |        20.99 |        22.25 |\n| Selling & Marketing Exp |       281.14 |       281.21 |       284.04 |\n| R&D Exp                 |       238.22 |       175.42 |       191.03 |\n| General & Admin Exp     |       359.47 |       345.81 |       279.07 |\n| Operating Income        |      1017.25 |       752.61 |       724.99 |\n| Operating Margin (%)    |        11.93 |        10.16 |        10.90 |\n| Net Income              |       555.94 |       630.46 |       370.95 |\n| Net Margin (%)          |         6.52 |         8.51 |         5.58 |\n| Op Cash Flow            |      1375.42 |       741.17 |       892.41 |\n| Investing Cash Flow     |       442.00 |       137.08 |      -100.93 |\n| Financing Cash Flow     |      -784.32 |     -1220.48 |      -599.39 |\n| CAPEX                   |       -80.20 |       -79.29 |       -76.32 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2570.36 |      2295.55 |      2059.29 |      1598.29 |\n| Gross Profit            |       581.50 |       527.96 |       428.08 |       358.55 |\n| Gross Margin (%)        |        22.62 |        23.00 |        20.79 |        22.43 |\n| Selling & Marketing Exp |        71.18 |        77.55 |        65.55 |        66.87 |\n| R&D Exp                 |        70.01 |        58.65 |        66.88 |        42.69 |\n| General & Admin Exp     |       107.10 |        91.11 |        73.01 |        88.25 |\n| Operating Income        |       333.21 |       300.65 |       222.65 |       160.75 |\n| Operating Margin (%)    |        12.96 |        13.10 |        10.81 |        10.06 |\n| Net Income              |       235.88 |       180.94 |        38.70 |       100.42 |\n| Net Margin (%)          |         9.18 |         7.88 |         1.88 |         6.28 |\n| Op Cash Flow            |       411.03 |       167.62 |       432.50 |       364.28 |\n| Investing Cash Flow     |        -9.30 |       -16.99 |       679.60 |      -211.30 |\n| Financing Cash Flow     |       -39.39 |        25.78 |      -854.46 |        83.75 |\n| CAPEX                   |       -22.42 |       -30.92 |       -14.97 |       -11.89 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

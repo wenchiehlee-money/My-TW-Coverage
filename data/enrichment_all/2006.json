@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2006",
+  "company_name": "東和鋼鐵",
+  "title": "2006 - 東和鋼鐵",
+  "source_md": "Pilot_Reports/鋼鐵 - 鋼胚/2006_東和鋼鐵.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "52,867 百萬台幣",
+    "enterprise_value": "57,624 百萬台幣"
+  },
+  "business": {
+    "summary": "東和鋼鐵 (2006，Tung Ho) 為台灣最大[[電爐]]鋼廠之一。產品含[[鋼筋]]及[[H型鋼]] (台灣市占九成)。鋼筋訂單逾百萬噸。上游約50%國內+50%進口廢鋼。下游含[[中鋼構]]、[[長榮鋼]]及[[台積電]]廠房。",
+    "entities": [
+      "電爐",
+      "鋼筋",
+      "H型鋼",
+      "中鋼構",
+      "長榮鋼",
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "國內外廢鋼",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**[[東鋼]]** ([[電爐]]→[[鋼筋]]/[[H型鋼]]; 鋼構)",
+        "entities": [
+          "東鋼",
+          "電爐",
+          "鋼筋",
+          "H型鋼"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "營建業、[[中鋼構]]、[[長榮鋼]]、[[台積電]]廠房",
+        "entities": [
+          "中鋼構",
+          "長榮鋼",
+          "台積電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "營建業 — [[鋼筋]]/[[H型鋼]]",
+        "entities": [
+          "鋼筋",
+          "H型鋼"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[中鋼構]]、[[長榮鋼]]",
+        "entities": [
+          "中鋼構",
+          "長榮鋼"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[台積電]]廠房",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "國內外廢鋼",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電爐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電爐"
+    },
+    {
+      "name": "鋼筋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋼筋"
+    },
+    {
+      "name": "H型鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "H型鋼"
+    },
+    {
+      "name": "中鋼構",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼構"
+    },
+    {
+      "name": "長榮鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮鋼"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "東鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東鋼"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "豐興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐興"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東和鋼鐵 (2006，Tung Ho) 為台灣最大[[電爐]]鋼廠之一。產品含[[鋼筋]]及[[H型鋼]] (台灣市占九成)。鋼筋訂單逾百萬噸。上游約50%國內+50%進口廢鋼。下游含[[中鋼構]]、[[長榮鋼]]及[[台積電]]廠房。",
+    "supply_chain_md": "**上游:** 國內外廢鋼\n**中游:** **[[東鋼]]** ([[電爐]]→[[鋼筋]]/[[H型鋼]]; 鋼構)\n**下游:** 營建業、[[中鋼構]]、[[長榮鋼]]、[[台積電]]廠房",
+    "customers_suppliers_md": "### 主要客戶\n- 營建業 — [[鋼筋]]/[[H型鋼]]\n- [[中鋼構]]、[[長榮鋼]]\n- [[台積電]]廠房\n\n### 主要供應商\n- 國內外廢鋼",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $73.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.40 |       10.89 |      0.94 | 1.65 |      7.77 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     57855.43 |     60163.00 |     60961.91 |\n| Gross Profit            |      8576.99 |      8390.57 |      8646.19 |\n| Gross Margin (%)        |        14.82 |        13.95 |        14.18 |\n| Selling & Marketing Exp |      1141.80 |      1131.85 |      1126.41 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      1551.34 |      1545.06 |      1530.61 |\n| Operating Income        |      5883.85 |      5713.67 |      5989.18 |\n| Operating Margin (%)    |        10.17 |         9.50 |         9.82 |\n| Net Income              |      4720.93 |      4479.84 |      4729.35 |\n| Net Margin (%)          |         8.16 |         7.45 |         7.76 |\n| Op Cash Flow            |      8642.14 |      7379.75 |      4621.78 |\n| Investing Cash Flow     |     -1413.44 |      -946.91 |      -658.86 |\n| Financing Cash Flow     |     -7325.49 |     -6757.39 |     -4415.53 |\n| CAPEX                   |     -1199.38 |     -1052.81 |      -683.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     13831.88 |     15674.70 |     14500.03 |     15012.39 |\n| Gross Profit            |      2204.33 |      2467.30 |      1963.80 |      2133.53 |\n| Gross Margin (%)        |        15.94 |        15.74 |        13.54 |        14.21 |\n| Selling & Marketing Exp |       254.00 |       316.97 |       294.82 |       294.13 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       426.27 |       358.00 |       342.83 |       429.80 |\n| Operating Income        |      1524.06 |      1792.33 |      1326.14 |      1409.60 |\n| Operating Margin (%)    |        11.02 |        11.43 |         9.15 |         9.39 |\n| Net Income              |      1397.93 |      1104.42 |      1092.84 |      1143.98 |\n| Net Margin (%)          |        10.11 |         7.05 |         7.54 |         7.62 |\n| Op Cash Flow            |      2312.60 |       516.57 |      2443.99 |      1608.30 |\n| Investing Cash Flow     |      -483.41 |      -345.48 |      -207.44 |      -197.18 |\n| Financing Cash Flow     |     -1820.30 |      -594.85 |     -1641.06 |     -2142.10 |\n| CAPEX                   |      -422.87 |      -310.20 |      -188.73 |      -122.39 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

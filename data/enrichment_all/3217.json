@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3217",
+  "company_name": "優群",
+  "title": "3217 - 優群",
+  "source_md": "Pilot_Reports/連接器 - 連接器設計、組裝及製造/3217_優群.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "12,615 百萬台幣",
+    "enterprise_value": "10,413 百萬台幣"
+  },
+  "business": {
+    "summary": "優群科技 ([[Argosy Research]]) 為台灣 DDR 記憶體插槽 (Socket) 領導廠商。核心產品為 [[DDR5]] SO-DIMM (筆電用) 與 Long-DIMM (桌機/伺服器用) 連接器。在筆電 SO-DIMM 市場擁有超過 50% 市佔率。\n\n因應 [[AI 伺服器]]需求，積極切入伺服器 Long-DIMM 市場，並打入 [[Supermicro]] 與 [[Meta]] 供應鏈。此外亦提供 M.2、PCIe、Type-C 連接器與微型沖壓件。新產品 LPDDR5 CAMM2 連接器進入量產，拓展電競筆電、工業電腦與 AI 高效能運算市場。越南廠預計擴充產能。曾連續七年獲 [[HP]] 評選為最佳策略供應商 (HPSS No.1)。",
+    "entities": [
+      "Argosy Research",
+      "DDR5",
+      "AI 伺服器",
+      "Supermicro",
+      "Meta",
+      "HP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬與塑膠材料)",
+        "text": "**上游 (金屬與塑膠材料):**",
+        "entities": []
+      },
+      {
+        "category": "銅合金",
+        "text": "連接器端子用磷青銅/鈹銅合金",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "工程塑膠 (LCP/PBT)",
+        "entities": []
+      },
+      {
+        "category": "電鍍材料",
+        "text": "鍍金/鍍鎳材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (連接器設計製造)",
+        "text": "**中游 (連接器設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "[[DDR5]] Socket",
+        "text": "**優群** (SO-DIMM/Long-DIMM 記憶體插槽)",
+        "entities": [
+          "DDR5"
+        ]
+      },
+      {
+        "category": "CAMM2",
+        "text": "**優群** (LPDDR5 CAMM2 連接器)",
+        "entities": []
+      },
+      {
+        "category": "M.2/PCIe",
+        "text": "**優群** (M.2 Gen5/PCIe 連接器)",
+        "entities": []
+      },
+      {
+        "category": "沖壓件",
+        "text": "**優群** (精密微型沖壓件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (筆電/伺服器/品牌)",
+        "text": "**下游 (筆電/伺服器/品牌):**",
+        "entities": []
+      },
+      {
+        "category": "筆電代工",
+        "text": "[[廣達]]、[[仁寶]]、[[緯創]]、[[英業達]] — NB SO-DIMM",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "緯創",
+          "英業達"
+        ]
+      },
+      {
+        "category": "伺服器",
+        "text": "[[Supermicro]]、[[Meta]]、[[緯穎]] — 伺服器 Long-DIMM",
+        "entities": [
+          "Supermicro",
+          "Meta",
+          "緯穎"
+        ]
+      },
+      {
+        "category": "品牌",
+        "text": "[[HP]]、[[Dell]]、[[Apple]]、[[華碩]] — 品牌指定",
+        "entities": [
+          "HP",
+          "Dell",
+          "Apple",
+          "華碩"
+        ]
+      },
+      {
+        "category": "越南廠",
+        "text": "越南擴產分散產能",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "筆電代工",
+        "text": "[[廣達]]、[[仁寶]]、[[緯創]]、[[英業達]] — SO-DIMM 插槽",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "緯創",
+          "英業達"
+        ]
+      },
+      {
+        "role": "伺服器",
+        "text": "[[Supermicro]]、[[Meta]]、[[緯穎]] — Long-DIMM 插槽",
+        "entities": [
+          "Supermicro",
+          "Meta",
+          "緯穎"
+        ]
+      },
+      {
+        "role": "品牌",
+        "text": "[[HP]] (連續七年 HPSS No.1)、[[Dell]]、[[Apple]]、[[華碩]]",
+        "entities": [
+          "HP",
+          "Dell",
+          "Apple",
+          "華碩"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅合金",
+        "text": "磷青銅/鈹銅合金端子材料供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠粒",
+        "text": "LCP/PBT 工程塑膠供應商",
+        "entities": []
+      },
+      {
+        "role": "電鍍",
+        "text": "鍍金/鍍鎳材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Argosy Research",
+      "type": "international_company_or_term",
+      "wikilink": "Argosy Research"
+    },
+    {
+      "name": "DDR5",
+      "type": "international_company_or_term",
+      "wikilink": "DDR5"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Supermicro",
+      "type": "international_company_or_term",
+      "wikilink": "Supermicro"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "緯穎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯穎"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "優群科技 ([[Argosy Research]]) 為台灣 DDR 記憶體插槽 (Socket) 領導廠商。核心產品為 [[DDR5]] SO-DIMM (筆電用) 與 Long-DIMM (桌機/伺服器用) 連接器。在筆電 SO-DIMM 市場擁有超過 50% 市佔率。\n\n因應 [[AI 伺服器]]需求，積極切入伺服器 Long-DIMM 市場，並打入 [[Supermicro]] 與 [[Meta]] 供應鏈。此外亦提供 M.2、PCIe、Type-C 連接器與微型沖壓件。新產品 LPDDR5 CAMM2 連接器進入量產，拓展電競筆電、工業電腦與 AI 高效能運算市場。越南廠預計擴充產能。曾連續七年獲 [[HP]] 評選為最佳策略供應商 (HPSS No.1)。",
+    "supply_chain_md": "**上游 (金屬與塑膠材料):**\n- **銅合金:** 連接器端子用磷青銅/鈹銅合金\n- **塑膠粒:** 工程塑膠 (LCP/PBT)\n- **電鍍材料:** 鍍金/鍍鎳材料\n\n**中游 (連接器設計製造):**\n- **[[DDR5]] Socket:** **優群** (SO-DIMM/Long-DIMM 記憶體插槽)\n- **CAMM2:** **優群** (LPDDR5 CAMM2 連接器)\n- **M.2/PCIe:** **優群** (M.2 Gen5/PCIe 連接器)\n- **沖壓件:** **優群** (精密微型沖壓件)\n\n**下游 (筆電/伺服器/品牌):**\n- **筆電代工:** [[廣達]]、[[仁寶]]、[[緯創]]、[[英業達]] — NB SO-DIMM\n- **伺服器:** [[Supermicro]]、[[Meta]]、[[緯穎]] — 伺服器 Long-DIMM\n- **品牌:** [[HP]]、[[Dell]]、[[Apple]]、[[華碩]] — 品牌指定\n- **越南廠:** 越南擴產分散產能",
+    "customers_suppliers_md": "### 主要客戶\n- **筆電代工:** [[廣達]]、[[仁寶]]、[[緯創]]、[[英業達]] — SO-DIMM 插槽\n- **伺服器:** [[Supermicro]]、[[Meta]]、[[緯穎]] — Long-DIMM 插槽\n- **品牌:** [[HP]] (連續七年 HPSS No.1)、[[Dell]]、[[Apple]]、[[華碩]]\n\n### 主要供應商\n- **銅合金:** 磷青銅/鈹銅合金端子材料供應商\n- **塑膠粒:** LCP/PBT 工程塑膠供應商\n- **電鍍:** 鍍金/鍍鎳材料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $137.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.93 |        9.03 |      2.96 | 2.37 |      7.12 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4148.41 |      3473.34 |      3003.62 |\n| Gross Profit            |      2069.38 |      1737.80 |      1401.43 |\n| Gross Margin (%)        |        49.88 |        50.03 |        46.66 |\n| Selling & Marketing Exp |       120.80 |       114.92 |        94.05 |\n| R&D Exp                 |       250.04 |       226.41 |       194.75 |\n| General & Admin Exp     |       396.69 |       335.06 |       285.83 |\n| Operating Income        |      1301.86 |      1061.40 |       826.79 |\n| Operating Margin (%)    |        31.38 |        30.56 |        27.53 |\n| Net Income              |      1143.05 |      1013.34 |       728.68 |\n| Net Margin (%)          |        27.55 |        29.17 |        24.26 |\n| Op Cash Flow            |      1260.91 |      1011.73 |       764.74 |\n| Investing Cash Flow     |      -211.91 |      -132.47 |      -220.24 |\n| Financing Cash Flow     |      -800.00 |      -583.75 |      -457.36 |\n| CAPEX                   |      -217.61 |      -138.32 |      -220.53 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       948.09 |      1040.38 |      1130.58 |      1053.72 |\n| Gross Profit            |       463.86 |       519.63 |       578.20 |       507.41 |\n| Gross Margin (%)        |        48.93 |        49.95 |        51.14 |        48.15 |\n| Selling & Marketing Exp |        27.34 |        38.46 |        30.01 |        26.32 |\n| R&D Exp                 |        62.48 |        69.73 |        60.85 |        56.81 |\n| General & Admin Exp     |        79.32 |       112.97 |       107.09 |        89.24 |\n| Operating Income        |       294.72 |       298.47 |       380.25 |       335.04 |\n| Operating Margin (%)    |        31.09 |        28.69 |        33.63 |        31.80 |\n| Net Income              |       254.15 |       290.05 |       378.85 |       207.34 |\n| Net Margin (%)          |        26.81 |        27.88 |        33.51 |        19.68 |\n| Op Cash Flow            |       313.46 |       515.08 |       239.24 |        85.40 |\n| Investing Cash Flow     |       -70.47 |       -35.19 |       -52.25 |       -45.19 |\n| Financing Cash Flow     |        -1.66 |        -1.76 |      -775.22 |       -21.25 |\n| CAPEX                   |       -64.66 |       -66.48 |       -56.60 |       -45.96 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

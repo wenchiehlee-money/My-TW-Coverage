@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3491",
+  "company_name": "昇達科",
+  "title": "3491 - 昇達科",
+  "source_md": "Pilot_Reports/太空衛星科技 - 零組件_材料/3491_昇達科.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "70,525 百萬台幣",
+    "enterprise_value": "69,891 百萬台幣"
+  },
+  "business": {
+    "summary": "昇達科技 (3491，[[UMT]]) 為台灣唯一專注微波/毫米波通訊元件之領導廠商，成立於 1999 年。主要產品包括微波濾波器 (Filter)、雙工器 (Diplexer)、多工器及追星天線，技術涵蓋微波至毫米波全頻段。公司為全球[[低軌衛星]]產業鏈關鍵供應商，低軌衛星營收佔比已突破 80%。\n\n主要客戶涵蓋全球三大低軌衛星營運商：[[SpaceX]] 星鏈計畫 ([[Starlink]]) 為最大客戶，供應地面站與衛星本體微波元件；與 [[Amazon]] 柯伊伯計畫 ([[Kuiper]]) 簽訂四年合約，多數產品具獨家供應資格；亦供貨予 [[Eutelsat OneWeb]]。此外，產品應用於 [[5G]]/4G 微波回傳網路 (Backhaul)，供貨予 [[Ericsson]]、[[Nokia]] 及 [[Ceragon]] 等電信設備商。",
+    "entities": [
+      "UMT",
+      "低軌衛星",
+      "SpaceX",
+      "Starlink",
+      "Amazon",
+      "Kuiper",
+      "Eutelsat OneWeb",
+      "5G",
+      "Ericsson",
+      "Nokia",
+      "Ceragon"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (精密金屬與特種基板)",
+        "text": "**上游 (精密金屬與特種基板):**",
+        "entities": []
+      },
+      {
+        "category": "精密金屬件",
+        "text": "航太級 CNC 精密加工金屬腔體及諧振桿",
+        "entities": []
+      },
+      {
+        "category": "特種 PCB",
+        "text": "極低介電損耗高頻 PCB 板材",
+        "entities": []
+      },
+      {
+        "category": "表面處理",
+        "text": "特殊抗環境表面處理材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (微波/毫米波元件製造)",
+        "text": "**中游 (微波/毫米波元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "微波元件",
+        "text": "**昇達科** (台灣唯一微波/毫米波被動元件廠，濾波器/雙工器/天線)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (衛星與電信設備)",
+        "text": "**下游 (衛星與電信設備):**",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星",
+        "text": "[[SpaceX]] ([[Starlink]])、[[Amazon]] ([[Kuiper]])、[[Eutelsat OneWeb]]",
+        "entities": [
+          "SpaceX",
+          "Starlink",
+          "Amazon",
+          "Kuiper",
+          "Eutelsat OneWeb"
+        ]
+      },
+      {
+        "category": "電信設備",
+        "text": "[[Ericsson]]、[[Nokia]]、[[Ceragon]] (微波回傳網路)",
+        "entities": [
+          "Ericsson",
+          "Nokia",
+          "Ceragon"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "低軌衛星",
+        "text": "[[SpaceX]] (Starlink 地面站/衛星本體)、[[Amazon]] (Kuiper 四年獨家合約)、[[Eutelsat OneWeb]]",
+        "entities": [
+          "SpaceX",
+          "Amazon",
+          "Eutelsat OneWeb"
+        ]
+      },
+      {
+        "role": "電信設備",
+        "text": "[[Ericsson]]、[[Nokia]]、[[Ceragon]] (5G/4G 微波 Backhaul)",
+        "entities": [
+          "Ericsson",
+          "Nokia",
+          "Ceragon"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "精密金屬加工",
+        "text": "台灣航太級 CNC 精密金屬件供應商",
+        "entities": []
+      },
+      {
+        "role": "高頻基板",
+        "text": "特種高頻 PCB 板材供應商",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[Smiths Microwave]]、[[Filtronic]]",
+        "entities": [
+          "Smiths Microwave",
+          "Filtronic"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[Smiths Microwave]]、[[Filtronic]]",
+        "entities": [
+          "Smiths Microwave",
+          "Filtronic"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "UMT",
+      "type": "international_company_or_term",
+      "wikilink": "UMT"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "Starlink",
+      "type": "international_company_or_term",
+      "wikilink": "Starlink"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Kuiper",
+      "type": "international_company_or_term",
+      "wikilink": "Kuiper"
+    },
+    {
+      "name": "Eutelsat OneWeb",
+      "type": "international_company_or_term",
+      "wikilink": "Eutelsat OneWeb"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Ericsson",
+      "type": "international_company_or_term",
+      "wikilink": "Ericsson"
+    },
+    {
+      "name": "Nokia",
+      "type": "international_company_or_term",
+      "wikilink": "Nokia"
+    },
+    {
+      "name": "Ceragon",
+      "type": "international_company_or_term",
+      "wikilink": "Ceragon"
+    },
+    {
+      "name": "Smiths Microwave",
+      "type": "international_company_or_term",
+      "wikilink": "Smiths Microwave"
+    },
+    {
+      "name": "Filtronic",
+      "type": "international_company_or_term",
+      "wikilink": "Filtronic"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昇達科技 (3491，[[UMT]]) 為台灣唯一專注微波/毫米波通訊元件之領導廠商，成立於 1999 年。主要產品包括微波濾波器 (Filter)、雙工器 (Diplexer)、多工器及追星天線，技術涵蓋微波至毫米波全頻段。公司為全球[[低軌衛星]]產業鏈關鍵供應商，低軌衛星營收佔比已突破 80%。\n\n主要客戶涵蓋全球三大低軌衛星營運商：[[SpaceX]] 星鏈計畫 ([[Starlink]]) 為最大客戶，供應地面站與衛星本體微波元件；與 [[Amazon]] 柯伊伯計畫 ([[Kuiper]]) 簽訂四年合約，多數產品具獨家供應資格；亦供貨予 [[Eutelsat OneWeb]]。此外，產品應用於 [[5G]]/4G 微波回傳網路 (Backhaul)，供貨予 [[Ericsson]]、[[Nokia]] 及 [[Ceragon]] 等電信設備商。",
+    "supply_chain_md": "**上游 (精密金屬與特種基板):**\n- **精密金屬件:** 航太級 CNC 精密加工金屬腔體及諧振桿\n- **特種 PCB:** 極低介電損耗高頻 PCB 板材\n- **表面處理:** 特殊抗環境表面處理材料\n\n**中游 (微波/毫米波元件製造):**\n- **微波元件:** **昇達科** (台灣唯一微波/毫米波被動元件廠，濾波器/雙工器/天線)\n\n**下游 (衛星與電信設備):**\n- **低軌衛星:** [[SpaceX]] ([[Starlink]])、[[Amazon]] ([[Kuiper]])、[[Eutelsat OneWeb]]\n- **電信設備:** [[Ericsson]]、[[Nokia]]、[[Ceragon]] (微波回傳網路)",
+    "customers_suppliers_md": "### 主要客戶\n- **低軌衛星:** [[SpaceX]] (Starlink 地面站/衛星本體)、[[Amazon]] (Kuiper 四年獨家合約)、[[Eutelsat OneWeb]]\n- **電信設備:** [[Ericsson]]、[[Nokia]]、[[Ceragon]] (5G/4G 微波 Backhaul)\n\n### 主要供應商\n- **精密金屬加工:** 台灣航太級 CNC 精密金屬件供應商\n- **高頻基板:** 特種高頻 PCB 板材供應商\n- **競爭同業:** [[Smiths Microwave]]、[[Filtronic]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $923.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|    101.21 |       26.13 |     22.27 | 18.22 |     76.97 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2452.16 |      2334.96 |      1585.21 |\n| Gross Profit            |      1253.87 |      1198.11 |       641.13 |\n| Gross Margin (%)        |        51.13 |        51.31 |        40.44 |\n| Selling & Marketing Exp |       301.26 |       177.65 |       138.70 |\n| R&D Exp                 |       184.47 |       196.58 |       150.63 |\n| General & Admin Exp     |       193.70 |       200.18 |       149.49 |\n| Operating Income        |       574.44 |       623.70 |       202.30 |\n| Operating Margin (%)    |        23.43 |        26.71 |        12.76 |\n| Net Income              |       518.35 |       546.87 |       200.11 |\n| Net Margin (%)          |        21.14 |        23.42 |        12.62 |\n| Op Cash Flow            |       471.15 |       713.01 |       527.40 |\n| Investing Cash Flow     |      -816.74 |      -160.39 |      -375.69 |\n| Financing Cash Flow     |       400.11 |       -45.92 |      -380.33 |\n| CAPEX                   |      -815.78 |      -547.85 |      -111.04 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1020.15 |       834.47 |       483.91 |       513.68 |\n| Gross Profit            |       591.52 |       488.71 |       228.93 |       222.66 |\n| Gross Margin (%)        |        57.98 |        58.57 |        47.31 |        43.35 |\n| Selling & Marketing Exp |       139.95 |       134.86 |        64.01 |        50.37 |\n| R&D Exp                 |        69.92 |        62.23 |        39.14 |        39.59 |\n| General & Admin Exp     |        67.94 |        61.68 |        41.60 |        39.11 |\n| Operating Income        |       313.71 |       229.95 |        84.18 |        93.59 |\n| Operating Margin (%)    |        30.75 |        27.56 |        17.40 |        18.22 |\n| Net Income              |       253.13 |       216.09 |        88.28 |        71.06 |\n| Net Margin (%)          |        24.81 |        25.90 |        18.24 |        13.83 |\n| Op Cash Flow            |       182.17 |        72.14 |       -31.96 |       140.63 |\n| Investing Cash Flow     |      -240.33 |      -483.02 |       -61.20 |       -84.87 |\n| Financing Cash Flow     |        64.96 |       501.59 |      -111.71 |       -63.63 |\n| CAPEX                   |      -231.89 |      -445.13 |       -85.42 |       -98.76 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

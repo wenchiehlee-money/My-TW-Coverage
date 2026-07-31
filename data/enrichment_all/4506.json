@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4506",
+  "company_name": "崇友",
+  "title": "4506 - 崇友",
+  "source_md": "Pilot_Reports/電機機械 - 機電系統工程/4506_崇友.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "21,330 百萬台幣",
+    "enterprise_value": "16,596 百萬台幣"
+  },
+  "business": {
+    "summary": "崇友實業 (4506) 為台灣知名[[電梯]]/[[電扶梯]]製造商，與日本[[Toshiba]]長期技術合作。自有品牌 GFC 及 GENESIS。維保台數逾萬台。客戶含[[台北捷運]]、[[高雄捷運]]、[[台北101]]及國內主要建設公司如[[國泰建設]]、[[遠雄建設]]。",
+    "entities": [
+      "電梯",
+      "電扶梯",
+      "Toshiba",
+      "台北捷運",
+      "高雄捷運",
+      "台北101",
+      "國泰建設",
+      "遠雄建設"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[中鋼]]鋼材/[[東元]]馬達/控制器",
+        "entities": [
+          "中鋼",
+          "東元"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**崇友** ([[電梯]]/[[電扶梯]]製造/維保; GFC/GENESIS品牌)",
+        "entities": [
+          "電梯",
+          "電扶梯"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "營建",
+        "text": "[[國泰建設]]、[[遠雄建設]] — 住宅/商辦",
+        "entities": [
+          "國泰建設",
+          "遠雄建設"
+        ]
+      },
+      {
+        "category": "捷運",
+        "text": "[[台北捷運]]、[[高雄捷運]] — [[電扶梯]]",
+        "entities": [
+          "台北捷運",
+          "高雄捷運",
+          "電扶梯"
+        ]
+      },
+      {
+        "category": "商辦",
+        "text": "[[台北101]] — [[電梯]]維保",
+        "entities": [
+          "台北101",
+          "電梯"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台北捷運]]、[[高雄捷運]] — [[電扶梯]]",
+        "entities": [
+          "台北捷運",
+          "高雄捷運",
+          "電扶梯"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[台北101]] — [[電梯]]維保",
+        "entities": [
+          "台北101",
+          "電梯"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[國泰建設]]、[[遠雄建設]] — 住宅/商辦",
+        "entities": [
+          "國泰建設",
+          "遠雄建設"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Toshiba]] — 技術合作",
+        "entities": [
+          "Toshiba"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[中鋼]]鋼材; [[東元]]馬達",
+        "entities": [
+          "中鋼",
+          "東元"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電梯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電梯"
+    },
+    {
+      "name": "電扶梯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電扶梯"
+    },
+    {
+      "name": "Toshiba",
+      "type": "international_company_or_term",
+      "wikilink": "Toshiba"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    },
+    {
+      "name": "高雄捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄捷運"
+    },
+    {
+      "name": "台北101",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北101"
+    },
+    {
+      "name": "國泰建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰建設"
+    },
+    {
+      "name": "遠雄建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄建設"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "崇友實業 (4506) 為台灣知名[[電梯]]/[[電扶梯]]製造商，與日本[[Toshiba]]長期技術合作。自有品牌 GFC 及 GENESIS。維保台數逾萬台。客戶含[[台北捷運]]、[[高雄捷運]]、[[台北101]]及國內主要建設公司如[[國泰建設]]、[[遠雄建設]]。",
+    "supply_chain_md": "**上游:** [[中鋼]]鋼材/[[東元]]馬達/控制器\n**中游:** **崇友** ([[電梯]]/[[電扶梯]]製造/維保; GFC/GENESIS品牌)\n**下游:**\n- **營建:** [[國泰建設]]、[[遠雄建設]] — 住宅/商辦\n- **捷運:** [[台北捷運]]、[[高雄捷運]] — [[電扶梯]]\n- **商辦:** [[台北101]] — [[電梯]]維保",
+    "customers_suppliers_md": "### 主要客戶\n- [[台北捷運]]、[[高雄捷運]] — [[電扶梯]]\n- [[台北101]] — [[電梯]]維保\n- [[國泰建設]]、[[遠雄建設]] — 住宅/商辦\n\n### 主要供應商\n- [[Toshiba]] — 技術合作\n- [[中鋼]]鋼材; [[東元]]馬達",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $121.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.63 |       21.77 |      3.44 | 3.46 |     11.77 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6020.82 |      5486.42 |      5268.26 |\n| Gross Profit            |      1958.15 |      1724.15 |      1530.27 |\n| Gross Margin (%)        |        32.52 |        31.43 |        29.05 |\n| Selling & Marketing Exp |       155.31 |       154.35 |       145.15 |\n| R&D Exp                 |        44.77 |        43.42 |        40.48 |\n| General & Admin Exp     |       453.89 |       426.63 |       384.47 |\n| Operating Income        |      1304.19 |      1099.75 |       960.17 |\n| Operating Margin (%)    |        21.66 |        20.04 |        18.23 |\n| Net Income              |      1154.32 |       988.56 |       895.12 |\n| Net Margin (%)          |        19.17 |        18.02 |        16.99 |\n| Op Cash Flow            |      1539.80 |      1187.46 |      1171.54 |\n| Investing Cash Flow     |      -145.96 |      -133.93 |      -403.61 |\n| Financing Cash Flow     |      -806.22 |      -717.93 |      -612.62 |\n| CAPEX                   |       -37.39 |       -25.39 |       -37.88 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1270.28 |      1660.34 |      1497.10 |      1593.10 |\n| Gross Profit            |       425.31 |       519.95 |       480.88 |       532.02 |\n| Gross Margin (%)        |        33.48 |        31.32 |        32.12 |        33.39 |\n| Selling & Marketing Exp |        37.06 |        41.55 |        39.03 |        37.67 |\n| R&D Exp                 |        11.13 |        12.28 |        10.72 |        10.64 |\n| General & Admin Exp     |       113.94 |       107.03 |       113.18 |       119.74 |\n| Operating Income        |       263.18 |       359.10 |       317.94 |       363.96 |\n| Operating Margin (%)    |        20.72 |        21.63 |        21.24 |        22.85 |\n| Net Income              |       259.13 |       322.25 |       276.11 |       296.82 |\n| Net Margin (%)          |        20.40 |        19.41 |        18.44 |        18.63 |\n| Op Cash Flow            |       550.54 |       393.06 |       469.54 |       126.66 |\n| Investing Cash Flow     |       -39.33 |       -48.77 |       -42.09 |       -15.78 |\n| Financing Cash Flow     |        -2.36 |      -799.61 |        -2.44 |        -1.80 |\n| CAPEX                   |       -14.09 |       -12.48 |        -6.12 |        -4.69 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

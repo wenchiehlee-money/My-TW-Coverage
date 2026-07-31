@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3633",
+  "company_name": "云光",
+  "title": "3633 - 云光",
+  "source_md": "Pilot_Reports/平面顯示器 - 背光模組/3633_云光.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,930 百萬台幣",
+    "enterprise_value": "2,861 百萬台幣"
+  },
+  "business": {
+    "summary": "云光科技 (3633，[[Epoch]]) 為專業的 [[LED]] 背光模組及顯示技術解決方案供應商，專注於中大尺寸及特殊利基型顯示器的光學零件。主要生產基地位於蘇州與廈門。\n\n主要產品與優勢：\n1. **背光模組**: 營收佔比達 97%，應用於車載顯示器、工控儀表及醫療顯示系統。為全球前三大 LCD 面板廠供應商。\n2. **導光板 ([[LGP]])**: 具備自有光學設計與精密加工能力，打造高亮度、高均勻性光源。\n3. **LED 照明**: 研發節能型商業照明燈具 (如平面燈、崁燈)，以自有品牌「Epoch」銷售。\n4. **高獲利性**: 受惠於車用與工控利基市場比重提升，ROE 長年表現亮眼。",
+    "entities": [
+      "Epoch",
+      "LED",
+      "LGP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料與元件)",
+        "text": "**上游 (光學材料與元件):**",
+        "entities": []
+      },
+      {
+        "category": "LED 顆粒",
+        "text": "[[億光]]、[[東貝]] 等 LED 封裝廠",
+        "entities": [
+          "億光",
+          "東貝"
+        ]
+      },
+      {
+        "category": "光學膜片",
+        "text": "擴散膜、增亮膜供應商",
+        "entities": []
+      },
+      {
+        "category": "塑膠樹脂",
+        "text": "導光板用 PMMA/PC 原材料",
+        "entities": []
+      },
+      {
+        "category": "金屬框體",
+        "text": "鈑金件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (背光模組組裝)",
+        "text": "**中游 (背光模組組裝):**",
+        "entities": []
+      },
+      {
+        "category": "導光板",
+        "text": "**云光** ([[LGP]] 光學設計與精密加工)",
+        "entities": [
+          "LGP"
+        ]
+      },
+      {
+        "category": "背光模組",
+        "text": "**云光** (車用/工控/醫療用背光模組)",
+        "entities": []
+      },
+      {
+        "category": "LED 照明",
+        "text": "**云光** (Epoch 品牌商業照明燈具)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板廠與系統整合)",
+        "text": "**下游 (面板廠與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "面板廠",
+        "text": "[[友達]]、[[群創]]、[[天馬]] — 車用/工控面板背光",
+        "entities": [
+          "友達",
+          "群創",
+          "天馬"
+        ]
+      },
+      {
+        "category": "車用顯示",
+        "text": "車載資訊系統、儀表板廠商",
+        "entities": []
+      },
+      {
+        "category": "醫療顯示",
+        "text": "醫療設備廠 — 醫療級顯示背光",
+        "entities": []
+      },
+      {
+        "category": "工控儀表",
+        "text": "工業顯示器與儀表設備商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板廠",
+        "text": "[[友達]]、[[群創]]、[[天馬]] — 高階車用/工控面板背光模組",
+        "entities": [
+          "友達",
+          "群創",
+          "天馬"
+        ]
+      },
+      {
+        "role": "車用系統",
+        "text": "全球一線車廠車載顯示系統供應鏈",
+        "entities": []
+      },
+      {
+        "role": "醫療顯示",
+        "text": "醫療設備廠 — 醫療級背光模組",
+        "entities": []
+      },
+      {
+        "role": "照明市場",
+        "text": "Epoch 品牌商業照明燈具客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 封裝",
+        "text": "[[億光]] 等 LED 封裝顆粒供應商",
+        "entities": [
+          "億光"
+        ]
+      },
+      {
+        "role": "光學膜片",
+        "text": "擴散膜與增亮膜供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠原料",
+        "text": "PMMA/PC 導光板原材料",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "云光科技 (3633，[[Epoch]]) 為專業的 [[LED]] 背光模組及顯示技術解決方案供應商，專注於中大尺寸及特殊利基型顯示器的光學零件。主要生產基地位於蘇州與廈門。",
+        "entities": [
+          "Epoch",
+          "LED"
+        ]
+      },
+      {
+        "text": "4. **高獲利性**: 受惠於車用與工控利基市場比重提升，ROE 長年表現亮眼。",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Epoch",
+      "type": "international_company_or_term",
+      "wikilink": "Epoch"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "LGP",
+      "type": "international_company_or_term",
+      "wikilink": "LGP"
+    },
+    {
+      "name": "億光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光"
+    },
+    {
+      "name": "東貝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東貝"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "天馬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天馬"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "云光科技 (3633，[[Epoch]]) 為專業的 [[LED]] 背光模組及顯示技術解決方案供應商，專注於中大尺寸及特殊利基型顯示器的光學零件。主要生產基地位於蘇州與廈門。\n\n主要產品與優勢：\n1. **背光模組**: 營收佔比達 97%，應用於車載顯示器、工控儀表及醫療顯示系統。為全球前三大 LCD 面板廠供應商。\n2. **導光板 ([[LGP]])**: 具備自有光學設計與精密加工能力，打造高亮度、高均勻性光源。\n3. **LED 照明**: 研發節能型商業照明燈具 (如平面燈、崁燈)，以自有品牌「Epoch」銷售。\n4. **高獲利性**: 受惠於車用與工控利基市場比重提升，ROE 長年表現亮眼。",
+    "supply_chain_md": "**上游 (光學材料與元件):**\n- **LED 顆粒:** [[億光]]、[[東貝]] 等 LED 封裝廠\n- **光學膜片:** 擴散膜、增亮膜供應商\n- **塑膠樹脂:** 導光板用 PMMA/PC 原材料\n- **金屬框體:** 鈑金件供應商\n\n**中游 (背光模組組裝):**\n- **導光板:** **云光** ([[LGP]] 光學設計與精密加工)\n- **背光模組:** **云光** (車用/工控/醫療用背光模組)\n- **LED 照明:** **云光** (Epoch 品牌商業照明燈具)\n\n**下游 (面板廠與系統整合):**\n- **面板廠:** [[友達]]、[[群創]]、[[天馬]] — 車用/工控面板背光\n- **車用顯示:** 車載資訊系統、儀表板廠商\n- **醫療顯示:** 醫療設備廠 — 醫療級顯示背光\n- **工控儀表:** 工業顯示器與儀表設備商",
+    "customers_suppliers_md": "### 主要客戶\n- **面板廠:** [[友達]]、[[群創]]、[[天馬]] — 高階車用/工控面板背光模組\n- **車用系統:** 全球一線車廠車載顯示系統供應鏈\n- **醫療顯示:** 醫療設備廠 — 醫療級背光模組\n- **照明市場:** Epoch 品牌商業照明燈具客戶\n\n### 主要供應商\n- **LED 封裝:** [[億光]] 等 LED 封裝顆粒供應商\n- **光學膜片:** 擴散膜與增亮膜供應商\n- **塑膠原料:** PMMA/PC 導光板原材料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $113.50 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.12 |         N/A |      0.71 | 2.35 |      5.19 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5430.95 |      5966.08 |      6059.00 |\n| Gross Profit            |       745.19 |       629.49 |       534.56 |\n| Gross Margin (%)        |        13.72 |        10.55 |         8.82 |\n| Selling & Marketing Exp |        45.40 |        39.09 |        44.07 |\n| R&D Exp                 |        72.22 |        66.15 |        64.11 |\n| General & Admin Exp     |       157.90 |       140.06 |       117.85 |\n| Operating Income        |       469.67 |       384.19 |       308.54 |\n| Operating Margin (%)    |         8.65 |         6.44 |         5.09 |\n| Net Income              |       356.53 |       336.37 |       239.38 |\n| Net Margin (%)          |         6.56 |         5.64 |         3.95 |\n| Op Cash Flow            |       724.08 |       433.52 |       534.43 |\n| Investing Cash Flow     |      -103.18 |       -87.94 |      -101.23 |\n| Financing Cash Flow     |      -367.20 |      -245.04 |      -361.40 |\n| CAPEX                   |       -68.78 |       -25.87 |      -122.23 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

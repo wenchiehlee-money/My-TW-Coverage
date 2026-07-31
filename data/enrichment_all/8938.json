@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8938",
+  "company_name": "明安",
+  "title": "8938 - 明安",
+  "source_md": "Pilot_Reports/休閒娛樂 - 高爾夫球具業/8938_明安.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure",
+    "market_cap": "8,406 百萬台幣",
+    "enterprise_value": "8,181 百萬台幣"
+  },
+  "business": {
+    "summary": "明安國際企業股份有限公司 (8938，Advanced International Multitech) 成立於 1987 年，為全球領先的[[碳纖維]]複合材料產品[[ODM]]代工廠。業務涵蓋五大領域：(1) 高爾夫球具 — 金屬木桿、鐵桿、推桿、碳纖維桿身及組裝；(2) 碳纖維自行車零組件 — 車架、前叉及零件；(3) 工業及航太複合材料 — 飛機內裝零組件之鈦合金與不鏽鋼精密鑄造；(4) CFRP 輪圈；(5) 碳纖維預浸材料之進出口貿易。主要客戶為全球頂級高爾夫球品牌及自行車品牌，上游碳纖維紗向[[Toray]]採購。",
+    "entities": [
+      "碳纖維",
+      "ODM",
+      "Toray"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (碳纖維與金屬材料)",
+        "text": "**上游 (碳纖維與金屬材料):**",
+        "entities": []
+      },
+      {
+        "category": "碳纖維紗",
+        "text": "[[Toray]] (東麗) — 碳纖維原料",
+        "entities": [
+          "Toray"
+        ]
+      },
+      {
+        "category": "預浸布",
+        "text": "碳纖維預浸材料 (Prepreg)",
+        "entities": []
+      },
+      {
+        "category": "金屬",
+        "text": "鈦合金、不鏽鋼 — 精密鑄造用",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (複合材料製造)",
+        "text": "**中游 (複合材料製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**明安** — 高爾夫球具、碳纖維自行車零組件、航太精密鑄造、CFRP 輪圈製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌)",
+        "text": "**下游 (國際品牌):**",
+        "entities": []
+      },
+      {
+        "category": "高爾夫",
+        "text": "[[Callaway]]、[[TaylorMade]]、[[Titleist]] — 球具代工",
+        "entities": [
+          "Callaway",
+          "TaylorMade",
+          "Titleist"
+        ]
+      },
+      {
+        "category": "自行車",
+        "text": "[[Giant]] ([[巨大]])、國際自行車品牌 — 碳纖維車架",
+        "entities": [
+          "Giant",
+          "巨大"
+        ]
+      },
+      {
+        "category": "航太",
+        "text": "飛機內裝零組件客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "高爾夫品牌",
+        "text": "[[Callaway]]、[[TaylorMade]]、[[Titleist]] — 球具[[ODM]]代工",
+        "entities": [
+          "Callaway",
+          "TaylorMade",
+          "Titleist",
+          "ODM"
+        ]
+      },
+      {
+        "role": "自行車品牌",
+        "text": "[[Giant]] ([[巨大]]) — 碳纖維車架與零組件",
+        "entities": [
+          "Giant",
+          "巨大"
+        ]
+      },
+      {
+        "role": "航太",
+        "text": "國際飛機內裝零組件客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "碳纖維紗",
+        "text": "[[Toray]] (東麗) — 日本碳纖維大廠",
+        "entities": [
+          "Toray"
+        ]
+      },
+      {
+        "role": "預浸布",
+        "text": "碳纖維預浸材料供應商",
+        "entities": []
+      },
+      {
+        "role": "金屬原料",
+        "text": "鈦合金與不鏽鋼供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "Toray",
+      "type": "international_company_or_term",
+      "wikilink": "Toray"
+    },
+    {
+      "name": "Callaway",
+      "type": "international_company_or_term",
+      "wikilink": "Callaway"
+    },
+    {
+      "name": "TaylorMade",
+      "type": "international_company_or_term",
+      "wikilink": "TaylorMade"
+    },
+    {
+      "name": "Titleist",
+      "type": "international_company_or_term",
+      "wikilink": "Titleist"
+    },
+    {
+      "name": "Giant",
+      "type": "international_company_or_term",
+      "wikilink": "Giant"
+    },
+    {
+      "name": "巨大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "明安國際企業股份有限公司 (8938，Advanced International Multitech) 成立於 1987 年，為全球領先的[[碳纖維]]複合材料產品[[ODM]]代工廠。業務涵蓋五大領域：(1) 高爾夫球具 — 金屬木桿、鐵桿、推桿、碳纖維桿身及組裝；(2) 碳纖維自行車零組件 — 車架、前叉及零件；(3) 工業及航太複合材料 — 飛機內裝零組件之鈦合金與不鏽鋼精密鑄造；(4) CFRP 輪圈；(5) 碳纖維預浸材料之進出口貿易。主要客戶為全球頂級高爾夫球品牌及自行車品牌，上游碳纖維紗向[[Toray]]採購。",
+    "supply_chain_md": "**上游 (碳纖維與金屬材料):**\n- **碳纖維紗:** [[Toray]] (東麗) — 碳纖維原料\n- **預浸布:** 碳纖維預浸材料 (Prepreg)\n- **金屬:** 鈦合金、不鏽鋼 — 精密鑄造用\n\n**中游 (複合材料製造):**\n- **明安** — 高爾夫球具、碳纖維自行車零組件、航太精密鑄造、CFRP 輪圈製造\n\n**下游 (國際品牌):**\n- **高爾夫:** [[Callaway]]、[[TaylorMade]]、[[Titleist]] — 球具代工\n- **自行車:** [[Giant]] ([[巨大]])、國際自行車品牌 — 碳纖維車架\n- **航太:** 飛機內裝零組件客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **高爾夫品牌:** [[Callaway]]、[[TaylorMade]]、[[Titleist]] — 球具[[ODM]]代工\n- **自行車品牌:** [[Giant]] ([[巨大]]) — 碳纖維車架與零組件\n- **航太:** 國際飛機內裝零組件客戶\n\n### 主要供應商\n- **碳纖維紗:** [[Toray]] (東麗) — 日本碳纖維大廠\n- **預浸布:** 碳纖維預浸材料供應商\n- **金屬原料:** 鈦合金與不鏽鋼供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $54.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.31 |        4.59 |      0.55 | 1.10 |      5.08 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     15406.65 |     14192.78 |     14299.85 |\n| Gross Profit            |      2396.65 |      2226.08 |      2309.70 |\n| Gross Margin (%)        |        15.56 |        15.68 |        16.15 |\n| Selling & Marketing Exp |       221.84 |       204.26 |       190.99 |\n| R&D Exp                 |       712.97 |       789.02 |       586.12 |\n| General & Admin Exp     |       617.91 |       634.88 |       604.41 |\n| Operating Income        |       993.37 |       758.15 |      1124.89 |\n| Operating Margin (%)    |         6.45 |         5.34 |         7.87 |\n| Net Income              |       949.45 |      1042.67 |        68.97 |\n| Net Margin (%)          |         6.16 |         7.35 |         0.48 |\n| Op Cash Flow            |      1222.36 |      1453.47 |      3147.11 |\n| Investing Cash Flow     |      -971.77 |     -1950.28 |     -1343.86 |\n| Financing Cash Flow     |      -891.36 |      -291.70 |     -1313.52 |\n| CAPEX                   |     -1076.83 |     -1813.85 |     -1091.75 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4101.45 |      4721.57 |      2801.78 |      3331.71 |\n| Gross Profit            |       568.30 |       770.02 |       457.70 |       414.44 |\n| Gross Margin (%)        |        13.86 |        16.31 |        16.34 |        12.44 |\n| Selling & Marketing Exp |        52.30 |        58.27 |        43.08 |        51.80 |\n| R&D Exp                 |       177.00 |       170.72 |       178.58 |       175.55 |\n| General & Admin Exp     |       156.95 |       155.81 |       138.81 |       139.85 |\n| Operating Income        |       219.57 |       424.90 |       129.09 |        74.17 |\n| Operating Margin (%)    |         5.35 |         9.00 |         4.61 |         2.23 |\n| Net Income              |       204.61 |       404.36 |       212.00 |      -329.20 |\n| Net Margin (%)          |         4.99 |         8.56 |         7.57 |        -9.88 |\n| Op Cash Flow            |      1565.77 |      -832.29 |       431.13 |       487.49 |\n| Investing Cash Flow     |      -133.74 |      -119.06 |      -190.04 |      -276.35 |\n| Financing Cash Flow     |      -399.06 |       -86.45 |       105.39 |      -904.11 |\n| CAPEX                   |       -76.75 |      -149.84 |      -183.89 |      -334.85 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

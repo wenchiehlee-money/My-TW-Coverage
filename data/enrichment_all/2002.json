@@ -1,0 +1,252 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2002",
+  "company_name": "中鋼",
+  "title": "2002 - [[中鋼]]",
+  "source_md": "Pilot_Reports/鋼鐵 - 鋼胚/2002_中鋼.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "289,556 百萬台幣",
+    "enterprise_value": "548,683 百萬台幣"
+  },
+  "business": {
+    "summary": "中國鋼鐵 (2002，China Steel) 為台灣最大鋼鐵企業、唯一[[高爐]]煉鋼一貫廠 (年粗鋼1,050萬噸)。集團含[[中龍鋼鐵]]、[[中鋼構]]、[[中鋼鋁業]]、[[中鋼運通]]。上游鐵礦自[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]。下游含汽車 ([[國瑞汽車]]/[[福特六和]])、家電 ([[東元]]/[[大同]]用[[電磁鋼片]])、造船 ([[台灣國際造船]])、鋼構 ([[中鋼構]]/[[長榮鋼]])、扣件 ([[春雨]])。",
+    "entities": [
+      "高爐",
+      "中龍鋼鐵",
+      "中鋼構",
+      "中鋼鋁業",
+      "中鋼運通",
+      "Vale",
+      "BHP",
+      "Rio Tinto",
+      "FMG",
+      "國瑞汽車",
+      "福特六和",
+      "東元",
+      "大同",
+      "電磁鋼片",
+      "台灣國際造船",
+      "長榮鋼",
+      "春雨"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]] — 鐵礦; [[中鋼運通]] — 海運",
+        "entities": [
+          "Vale",
+          "BHP",
+          "Rio Tinto",
+          "FMG",
+          "中鋼運通"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**[[中鋼]]** ([[高爐]]一貫1,050萬噸); [[中龍鋼鐵]] (250萬噸)",
+        "entities": [
+          "中鋼",
+          "高爐",
+          "中龍鋼鐵"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[國瑞汽車]]、[[福特六和]]、[[東元]]、[[大同]]、[[台灣國際造船]]、[[中鋼構]]、[[長榮鋼]]、[[春雨]]",
+        "entities": [
+          "國瑞汽車",
+          "福特六和",
+          "東元",
+          "大同",
+          "台灣國際造船",
+          "中鋼構",
+          "長榮鋼",
+          "春雨"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "汽車",
+        "text": "[[國瑞汽車]]、[[福特六和]]",
+        "entities": [
+          "國瑞汽車",
+          "福特六和"
+        ]
+      },
+      {
+        "role": "家電",
+        "text": "[[東元]]、[[大同]] — [[電磁鋼片]]",
+        "entities": [
+          "東元",
+          "大同",
+          "電磁鋼片"
+        ]
+      },
+      {
+        "role": "造船",
+        "text": "[[台灣國際造船]]",
+        "entities": [
+          "台灣國際造船"
+        ]
+      },
+      {
+        "role": "鋼構",
+        "text": "[[中鋼構]]、[[長榮鋼]]",
+        "entities": [
+          "中鋼構",
+          "長榮鋼"
+        ]
+      },
+      {
+        "role": "扣件",
+        "text": "[[春雨]]",
+        "entities": [
+          "春雨"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]",
+        "entities": [
+          "Vale",
+          "BHP",
+          "Rio Tinto",
+          "FMG"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "高爐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高爐"
+    },
+    {
+      "name": "中龍鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中龍鋼鐵"
+    },
+    {
+      "name": "中鋼構",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼構"
+    },
+    {
+      "name": "中鋼鋁業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼鋁業"
+    },
+    {
+      "name": "中鋼運通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼運通"
+    },
+    {
+      "name": "Vale",
+      "type": "international_company_or_term",
+      "wikilink": "Vale"
+    },
+    {
+      "name": "BHP",
+      "type": "international_company_or_term",
+      "wikilink": "BHP"
+    },
+    {
+      "name": "Rio Tinto",
+      "type": "international_company_or_term",
+      "wikilink": "Rio Tinto"
+    },
+    {
+      "name": "FMG",
+      "type": "international_company_or_term",
+      "wikilink": "FMG"
+    },
+    {
+      "name": "國瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國瑞汽車"
+    },
+    {
+      "name": "福特六和",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福特六和"
+    },
+    {
+      "name": "東元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "電磁鋼片",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電磁鋼片"
+    },
+    {
+      "name": "台灣國際造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣國際造船"
+    },
+    {
+      "name": "長榮鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮鋼"
+    },
+    {
+      "name": "春雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春雨"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "鉅邁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鉅邁"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國鋼鐵 (2002，China Steel) 為台灣最大鋼鐵企業、唯一[[高爐]]煉鋼一貫廠 (年粗鋼1,050萬噸)。集團含[[中龍鋼鐵]]、[[中鋼構]]、[[中鋼鋁業]]、[[中鋼運通]]。上游鐵礦自[[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]。下游含汽車 ([[國瑞汽車]]/[[福特六和]])、家電 ([[東元]]/[[大同]]用[[電磁鋼片]])、造船 ([[台灣國際造船]])、鋼構 ([[中鋼構]]/[[長榮鋼]])、扣件 ([[春雨]])。",
+    "supply_chain_md": "**上游:** [[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]] — 鐵礦; [[中鋼運通]] — 海運\n**中游:** **[[中鋼]]** ([[高爐]]一貫1,050萬噸); [[中龍鋼鐵]] (250萬噸)\n**下游:** [[國瑞汽車]]、[[福特六和]]、[[東元]]、[[大同]]、[[台灣國際造船]]、[[中鋼構]]、[[長榮鋼]]、[[春雨]]",
+    "customers_suppliers_md": "### 主要客戶\n- **汽車:** [[國瑞汽車]]、[[福特六和]]\n- **家電:** [[東元]]、[[大同]] — [[電磁鋼片]]\n- **造船:** [[台灣國際造船]]\n- **鋼構:** [[中鋼構]]、[[長榮鋼]]\n- **扣件:** [[春雨]]\n\n### 主要供應商\n- [[Vale]]、[[BHP]]、[[Rio Tinto]]、[[FMG]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.95 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       47.35 |      0.92 | 0.99 |     21.71 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    317155.26 |    360535.71 |    363326.50 |\n| Gross Profit            |      9025.26 |     15061.16 |     16772.74 |\n| Gross Margin (%)        |         2.85 |         4.18 |         4.62 |\n| Selling & Marketing Exp |      3978.73 |      4094.33 |      4325.02 |\n| R&D Exp                 |      2172.58 |      2266.90 |      2132.19 |\n| General & Admin Exp     |      6751.12 |      6875.98 |      6731.38 |\n| Operating Income        |     -3877.18 |      1823.95 |      3584.16 |\n| Operating Margin (%)    |        -1.22 |         0.51 |         0.99 |\n| Net Income              |     -4349.19 |      1978.35 |      1681.68 |\n| Net Margin (%)          |        -1.37 |         0.55 |         0.46 |\n| Op Cash Flow            |     49299.22 |     42286.50 |     38689.79 |\n| Investing Cash Flow     |    -31962.68 |    -40623.76 |    -41268.80 |\n| Financing Cash Flow     |    -15881.58 |      1582.90 |    -12922.37 |\n| CAPEX                   |    -32233.71 |    -42832.39 |    -37648.61 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     79161.89 |     75372.69 |     73515.65 |     85096.71 |\n| Gross Profit            |      2637.10 |      3644.18 |       198.00 |       579.11 |\n| Gross Margin (%)        |         3.33 |         4.83 |         0.27 |         0.68 |\n| Selling & Marketing Exp |      1030.67 |      1028.37 |       977.84 |      1018.07 |\n| R&D Exp                 |       540.89 |       515.68 |       554.29 |       560.45 |\n| General & Admin Exp     |      1685.47 |      1712.70 |      1682.48 |      1615.47 |\n| Operating Income        |      -619.94 |       387.43 |     -3016.62 |     -2614.88 |\n| Operating Margin (%)    |        -0.78 |         0.51 |        -4.10 |        -3.07 |\n| Net Income              |     -2451.83 |      -210.19 |     -2480.49 |     -1901.72 |\n| Net Margin (%)          |        -3.10 |        -0.28 |        -3.37 |        -2.23 |\n| Op Cash Flow            |      6587.56 |      8098.43 |      9113.85 |     25250.14 |\n| Investing Cash Flow     |     -3873.76 |     -6106.22 |     -6017.27 |    -10761.00 |\n| Financing Cash Flow     |     -4496.23 |     -7781.50 |     -2907.96 |     -5024.75 |\n| CAPEX                   |     -4009.96 |     -5485.42 |     -6205.67 |    -10936.84 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 18,
+    "warnings": []
+  }
+}

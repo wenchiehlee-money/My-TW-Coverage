@@ -1,0 +1,246 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3045",
+  "company_name": "台灣大",
+  "title": "3045 - 台灣大",
+  "source_md": "Pilot_Reports/通信網路 - 電信服務業/3045_台灣大.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Specialty Retail",
+    "market_cap": "343,999 百萬台幣",
+    "enterprise_value": "436,518 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣大哥大股份有限公司為台灣第二大電信營運商，與 [[中華電信]]、[[遠傳電信]] 並稱「電信三雄」。主要業務涵蓋：(1) 電信本業：[[5G]] 行動通訊及寬頻上網，2023 年併購台灣之星後頻譜效益提升；(2) 電子商務：持有 [[富邦媒]]（momo 購物，8454）約 45% 股權，貢獻集團過半營收；(3) 家用娛樂：整合 [[Disney+]]、凱擘大寬頻；(4) 綠能投資：透過富邦能源佈局再生能源。2025 年資本支出約 85.8 億元，營收預期維持 8-10% 成長。",
+    "entities": [
+      "中華電信",
+      "遠傳電信",
+      "5G",
+      "富邦媒",
+      "Disney+"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與內容)",
+        "text": "**上游 (設備與內容):**",
+        "entities": []
+      },
+      {
+        "category": "網路設備",
+        "text": "[[Nokia]]（基地台設備）、[[Ericsson]] 等電信設備商",
+        "entities": [
+          "Nokia",
+          "Ericsson"
+        ]
+      },
+      {
+        "category": "內容平台",
+        "text": "[[Disney+]]（串流內容）、[[NVIDIA]]（[[GeForce Now]] 雲端遊戲）",
+        "entities": [
+          "Disney+",
+          "NVIDIA",
+          "GeForce Now"
+        ]
+      },
+      {
+        "category": "手機終端",
+        "text": "[[Apple]]、[[Samsung]] 為門市銷售主力手機品牌",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電信服務)",
+        "text": "**中游 (電信服務):**",
+        "entities": []
+      },
+      {
+        "category": "台灣大 (3045)",
+        "text": "行動通訊、寬頻上網、[[5G]] 專網、momo 電商、凱擘有線電視",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "個人用戶",
+        "text": "月租費、串流訂閱、momo 購物",
+        "entities": []
+      },
+      {
+        "category": "企業用戶",
+        "text": "[[5G]] 專網、雲端服務",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "一般消費者 (B2C)",
+        "text": "行動通訊用戶、momo 購物消費者，佔營收大宗",
+        "entities": []
+      },
+      {
+        "role": "企業用戶 (B2B)",
+        "text": "[[5G]] 專網及雲端服務客戶",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網路設備",
+        "text": "[[Nokia]]、[[Ericsson]]",
+        "entities": [
+          "Nokia",
+          "Ericsson"
+        ]
+      },
+      {
+        "role": "手機",
+        "text": "[[Apple]]、[[Samsung]]",
+        "entities": [
+          "Apple",
+          "Samsung"
+        ]
+      },
+      {
+        "role": "內容",
+        "text": "[[Disney+]]",
+        "entities": [
+          "Disney+"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "電信服務競爭者",
+        "text": "[[中華電]]、[[遠傳]]、[[亞太電信]]、[[台灣之星]]",
+        "entities": [
+          "中華電",
+          "遠傳",
+          "亞太電信",
+          "台灣之星"
+        ],
+        "basis": "curated_telco_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "富邦媒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦媒"
+    },
+    {
+      "name": "Disney+",
+      "type": "international_company_or_term",
+      "wikilink": "Disney+"
+    },
+    {
+      "name": "Nokia",
+      "type": "international_company_or_term",
+      "wikilink": "Nokia"
+    },
+    {
+      "name": "Ericsson",
+      "type": "international_company_or_term",
+      "wikilink": "Ericsson"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "GeForce Now",
+      "type": "international_company_or_term",
+      "wikilink": "GeForce Now"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "中華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電"
+    },
+    {
+      "name": "遠傳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳"
+    },
+    {
+      "name": "亞太電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞太電信"
+    },
+    {
+      "name": "台灣之星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣之星"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣大哥大股份有限公司為台灣第二大電信營運商，與 [[中華電信]]、[[遠傳電信]] 並稱「電信三雄」。主要業務涵蓋：(1) 電信本業：[[5G]] 行動通訊及寬頻上網，2023 年併購台灣之星後頻譜效益提升；(2) 電子商務：持有 [[富邦媒]]（momo 購物，8454）約 45% 股權，貢獻集團過半營收；(3) 家用娛樂：整合 [[Disney+]]、凱擘大寬頻；(4) 綠能投資：透過富邦能源佈局再生能源。2025 年資本支出約 85.8 億元，營收預期維持 8-10% 成長。",
+    "supply_chain_md": "**上游 (設備與內容):**\n- **網路設備:** [[Nokia]]（基地台設備）、[[Ericsson]] 等電信設備商\n- **內容平台:** [[Disney+]]（串流內容）、[[NVIDIA]]（[[GeForce Now]] 雲端遊戲）\n- **手機終端:** [[Apple]]、[[Samsung]] 為門市銷售主力手機品牌\n\n**中游 (電信服務):**\n- **台灣大 (3045):** 行動通訊、寬頻上網、[[5G]] 專網、momo 電商、凱擘有線電視\n\n**下游 (終端用戶):**\n- **個人用戶:** 月租費、串流訂閱、momo 購物\n- **企業用戶:** [[5G]] 專網、雲端服務",
+    "customers_suppliers_md": "### 主要客戶\n- **一般消費者 (B2C):** 行動通訊用戶、momo 購物消費者，佔營收大宗\n- **企業用戶 (B2B):** [[5G]] 專網及雲端服務客戶\n\n### 主要供應商\n- **網路設備:** [[Nokia]]、[[Ericsson]]\n- **手機:** [[Apple]]、[[Samsung]]\n- **內容:** [[Disney+]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $114.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     23.55 |       22.26 |      1.72 | 3.79 |     11.32 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    198764.58 |    199373.90 |    183347.83 |\n| Gross Profit            |     40955.77 |     39695.13 |     34762.25 |\n| Gross Margin (%)        |        20.61 |        19.91 |        18.96 |\n| Selling & Marketing Exp |     12908.85 |     12504.76 |     10922.32 |\n| R&D Exp                 |       830.40 |       682.13 |       511.57 |\n| General & Admin Exp     |      6795.30 |      7067.81 |      6382.55 |\n| Operating Income        |     21806.22 |     20642.79 |     17814.67 |\n| Operating Margin (%)    |        10.97 |        10.35 |         9.72 |\n| Net Income              |     14437.39 |     13816.72 |     12274.11 |\n| Net Margin (%)          |         7.26 |         6.93 |         6.69 |\n| Op Cash Flow            |     37501.27 |     36045.11 |     29057.51 |\n| Investing Cash Flow     |    -11152.76 |    -14897.98 |     -7072.94 |\n| Financing Cash Flow     |    -29732.08 |    -22445.83 |    -23673.46 |\n| CAPEX                   |    -11311.27 |    -12173.14 |     -9083.25 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     49778.30 |     56786.41 |     46339.81 |     47471.01 |\n| Gross Profit            |     10732.40 |     11191.10 |      9874.26 |     10005.30 |\n| Gross Margin (%)        |        21.56 |        19.71 |        21.31 |        21.08 |\n| Selling & Marketing Exp |      3174.10 |      3465.34 |      3068.26 |      3217.76 |\n| R&D Exp                 |       221.61 |       230.38 |       213.81 |       197.19 |\n| General & Admin Exp     |      1657.64 |      1837.53 |      1684.36 |      1639.57 |\n| Operating Income        |      5992.56 |      6083.69 |      5218.93 |      5264.67 |\n| Operating Margin (%)    |        12.04 |        10.71 |        11.26 |        11.09 |\n| Net Income              |      4146.32 |      3882.30 |      3610.70 |      3289.19 |\n| Net Margin (%)          |         8.33 |         6.84 |         7.79 |         6.93 |\n| Op Cash Flow            |     10736.18 |     10315.54 |      9348.03 |      8770.36 |\n| Investing Cash Flow     |     -5629.61 |     -2122.78 |     -3163.16 |     -2409.91 |\n| Financing Cash Flow     |     -3611.82 |     -7087.80 |    -10945.76 |     -5703.36 |\n| CAPEX                   |     -2650.13 |     -2369.40 |     -3037.49 |     -2373.84 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

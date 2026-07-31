@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2340",
+  "company_name": "台亞",
+  "title": "2340 - 台亞",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/2340_台亞.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "11,516 百萬台幣",
+    "enterprise_value": "15,802 百萬台幣"
+  },
+  "business": {
+    "summary": "台亞半導體 (2340) 是一家專注於[[化合物半導體]][[磊晶]]與[[LED]]晶粒製造的光電半導體廠商，為[[富采投控]]集團成員。公司核心技術涵蓋[[砷化鎵]] (GaAs) 及[[磷化銦鎵]] (InGaP) [[磊晶]]製程，產品包括紅外線發光元件、可見光 LED 晶粒、[[光感測元件]]及[[VCSEL]] 雷射元件，廣泛應用於光通訊、消費電子、車用照明及工業感測等領域。",
+    "entities": [
+      "化合物半導體",
+      "磊晶",
+      "LED",
+      "富采投控",
+      "砷化鎵",
+      "磷化銦鎵",
+      "光感測元件",
+      "VCSEL"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與設備)",
+        "text": "**上游 (原料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "[[磊晶]]基板",
+        "text": "砷化鎵晶圓供應商如 [[住友電工]]、[[Freiberger]]",
+        "entities": [
+          "磊晶",
+          "住友電工",
+          "Freiberger"
+        ]
+      },
+      {
+        "category": "MO[[CVD]] 設備",
+        "text": "[[磊晶]]設備商如 [[Aixtron]]、[[Veeco]]",
+        "entities": [
+          "CVD",
+          "磊晶",
+          "Aixtron",
+          "Veeco"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[磊晶]]與晶粒製造)",
+        "text": "**中游 ([[磊晶]]與晶粒製造):**",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "LED/光電晶粒",
+        "text": "**台亞半導體** (化合物半導體[[磊晶]]及晶粒製造)",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "集團協同",
+        "text": "母公司 [[富采投控]] 旗下 [[晶元光電]]、[[隆達電子]]",
+        "entities": [
+          "富采投控",
+          "晶元光電",
+          "隆達電子"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (封裝與終端應用)",
+        "text": "**下游 (封裝與終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "[[億光電子]]、[[光寶科技]]、[[東貝光電]]",
+        "entities": [
+          "億光電子",
+          "光寶科技",
+          "東貝光電"
+        ]
+      },
+      {
+        "category": "車用照明",
+        "text": "車用 LED 模組廠",
+        "entities": []
+      },
+      {
+        "category": "光通訊",
+        "text": "[[光環科技]]、光收發模組廠",
+        "entities": [
+          "光環科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "LED 封裝",
+        "text": "[[億光電子]]、[[光寶科技]]、[[東貝光電]]",
+        "entities": [
+          "億光電子",
+          "光寶科技",
+          "東貝光電"
+        ]
+      },
+      {
+        "role": "集團內部",
+        "text": "[[晶元光電]]、[[隆達電子]] (富采集團內部供應)",
+        "entities": [
+          "晶元光電",
+          "隆達電子"
+        ]
+      },
+      {
+        "role": "光通訊模組",
+        "text": "光收發模組廠商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[磊晶]]基板",
+        "text": "[[住友電工]]、[[Freiberger]]",
+        "entities": [
+          "磊晶",
+          "住友電工",
+          "Freiberger"
+        ]
+      },
+      {
+        "role": "設備",
+        "text": "[[Aixtron]]、[[Veeco]] (MO[[CVD]] 設備)",
+        "entities": [
+          "Aixtron",
+          "Veeco",
+          "CVD"
+        ]
+      },
+      {
+        "role": "特殊氣體",
+        "text": "高純度化學氣體供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "化合物半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "化合物半導體"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "富采投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富采投控"
+    },
+    {
+      "name": "砷化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "砷化鎵"
+    },
+    {
+      "name": "磷化銦鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷化銦鎵"
+    },
+    {
+      "name": "光感測元件",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光感測元件"
+    },
+    {
+      "name": "VCSEL",
+      "type": "international_company_or_term",
+      "wikilink": "VCSEL"
+    },
+    {
+      "name": "住友電工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友電工"
+    },
+    {
+      "name": "Freiberger",
+      "type": "international_company_or_term",
+      "wikilink": "Freiberger"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "Aixtron",
+      "type": "international_company_or_term",
+      "wikilink": "Aixtron"
+    },
+    {
+      "name": "Veeco",
+      "type": "international_company_or_term",
+      "wikilink": "Veeco"
+    },
+    {
+      "name": "晶元光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶元光電"
+    },
+    {
+      "name": "隆達電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隆達電子"
+    },
+    {
+      "name": "億光電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光電子"
+    },
+    {
+      "name": "光寶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科技"
+    },
+    {
+      "name": "東貝光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東貝光電"
+    },
+    {
+      "name": "光環科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光環科技"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台亞半導體 (2340) 是一家專注於[[化合物半導體]][[磊晶]]與[[LED]]晶粒製造的光電半導體廠商，為[[富采投控]]集團成員。公司核心技術涵蓋[[砷化鎵]] (GaAs) 及[[磷化銦鎵]] (InGaP) [[磊晶]]製程，產品包括紅外線發光元件、可見光 LED 晶粒、[[光感測元件]]及[[VCSEL]] 雷射元件，廣泛應用於光通訊、消費電子、車用照明及工業感測等領域。",
+    "supply_chain_md": "**上游 (原料與設備):**\n- **[[磊晶]]基板:** 砷化鎵晶圓供應商如 [[住友電工]]、[[Freiberger]]\n- **MO[[CVD]] 設備:** [[磊晶]]設備商如 [[Aixtron]]、[[Veeco]]\n\n**中游 ([[磊晶]]與晶粒製造):**\n- **LED/光電晶粒:** **台亞半導體** (化合物半導體[[磊晶]]及晶粒製造)\n- **集團協同:** 母公司 [[富采投控]] 旗下 [[晶元光電]]、[[隆達電子]]\n\n**下游 (封裝與終端應用):**\n- **LED 封裝:** [[億光電子]]、[[光寶科技]]、[[東貝光電]]\n- **車用照明:** 車用 LED 模組廠\n- **光通訊:** [[光環科技]]、光收發模組廠",
+    "customers_suppliers_md": "### 主要客戶\n- **LED 封裝:** [[億光電子]]、[[光寶科技]]、[[東貝光電]]\n- **集團內部:** [[晶元光電]]、[[隆達電子]] (富采集團內部供應)\n- **光通訊模組:** 光收發模組廠商\n\n### 主要供應商\n- **[[磊晶]]基板:** [[住友電工]]、[[Freiberger]]\n- **設備:** [[Aixtron]]、[[Veeco]] (MO[[CVD]] 設備)\n- **特殊氣體:** 高純度化學氣體供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.05 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       45.55 |      2.54 | 1.73 |   -158.81 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4326.28 |      4299.90 |      3972.28 |\n| Gross Profit            |      -137.63 |       505.25 |       930.43 |\n| Gross Margin (%)        |        -3.18 |        11.75 |        23.42 |\n| Selling & Marketing Exp |        80.72 |        97.40 |       120.17 |\n| R&D Exp                 |       572.82 |       483.80 |       231.23 |\n| General & Admin Exp     |       495.33 |       536.52 |       497.65 |\n| Operating Income        |     -1286.51 |      -612.46 |        81.38 |\n| Operating Margin (%)    |       -29.74 |       -14.24 |         2.05 |\n| Net Income              |     -1261.65 |      -510.09 |       307.21 |\n| Net Margin (%)          |       -29.16 |       -11.86 |         7.73 |\n| Op Cash Flow            |      -300.95 |      -105.11 |       317.29 |\n| Investing Cash Flow     |      -963.98 |     -2413.24 |     -2855.87 |\n| Financing Cash Flow     |      1515.48 |      2820.93 |      1518.56 |\n| CAPEX                   |     -1058.68 |     -2804.36 |     -3089.56 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       954.03 |      1063.19 |      1150.97 |       966.64 |\n| Gross Profit            |       -37.82 |      -101.32 |        36.23 |       -41.58 |\n| Gross Margin (%)        |        -3.96 |        -9.53 |         3.15 |        -4.30 |\n| Selling & Marketing Exp |        20.70 |        18.79 |        21.90 |        25.75 |\n| R&D Exp                 |        79.20 |       110.79 |       166.93 |       162.94 |\n| General & Admin Exp     |       112.57 |       120.18 |       107.83 |       134.92 |\n| Operating Income        |      -250.28 |      -351.09 |      -260.43 |      -365.18 |\n| Operating Margin (%)    |       -26.23 |       -33.02 |       -22.63 |       -37.78 |\n| Net Income              |      -215.09 |      -300.17 |      -376.68 |      -342.31 |\n| Net Margin (%)          |       -22.55 |       -28.23 |       -32.73 |       -35.41 |\n| Op Cash Flow            |       -96.65 |       310.31 |       -77.08 |      -448.63 |\n| Investing Cash Flow     |      -251.49 |      -150.60 |      -418.81 |      -171.68 |\n| Financing Cash Flow     |       181.50 |       330.25 |       440.36 |       656.45 |\n| CAPEX                   |      -331.32 |      -161.87 |      -270.13 |      -242.94 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": []
+  }
+}

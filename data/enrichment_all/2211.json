@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2211",
+  "company_name": "長榮鋼",
+  "title": "2211 - 長榮鋼",
+  "source_md": "Pilot_Reports/鋼鐵 - 金屬製品/2211_長榮鋼.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "36,704 百萬台幣",
+    "enterprise_value": "37,722 百萬台幣"
+  },
+  "business": {
+    "summary": "長榮鋼鐵 (2211，Evergreen Steel) 隸屬[[長榮集團]]，為台灣大型鋼構工程及貨櫃維修企業。鋼構業務涵蓋廠房、高層建築、橋樑設計製造安裝，年產能逾10萬噸。代表工程含[[台北101]]、[[台灣高鐵]]軌道、南港展覽館。貨櫃維修主要服務[[長榮海運]]。子公司[[榮鼎綠能]]經營廢棄物處理及生質能。上游鋼材來自[[中鋼]]、[[東和鋼鐵]]。在手訂單約24萬噸。",
+    "entities": [
+      "長榮集團",
+      "台北101",
+      "台灣高鐵",
+      "長榮海運",
+      "榮鼎綠能",
+      "中鋼",
+      "東和鋼鐵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[中鋼]]、[[東和鋼鐵]] — H型鋼/鋼板",
+        "entities": [
+          "中鋼",
+          "東和鋼鐵"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**長榮鋼** (鋼構設計製造安裝; 貨櫃維修; [[榮鼎綠能]]環保)",
+        "entities": [
+          "榮鼎綠能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "商辦/公共工程 — [[台北101]]、[[台灣高鐵]]",
+        "entities": [
+          "台北101",
+          "台灣高鐵"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[長榮海運]] — 貨櫃維修",
+        "entities": [
+          "長榮海運"
+        ]
+      },
+      {
+        "category": "",
+        "text": "半導體廠房 — 科技園區鋼構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "營建/公共工程 — [[台北101]]、[[台灣高鐵]]等代表作",
+        "entities": [
+          "台北101",
+          "台灣高鐵"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[長榮海運]] — 貨櫃維修",
+        "entities": [
+          "長榮海運"
+        ]
+      },
+      {
+        "role": "",
+        "text": "半導體科技園區 — 廠房鋼構",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[中鋼]]、[[東和鋼鐵]] — 結構用鋼",
+        "entities": [
+          "中鋼",
+          "東和鋼鐵"
+        ]
+      },
+      {
+        "role": "",
+        "text": "母集團: [[長榮集團]]",
+        "entities": [
+          "長榮集團"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "長榮集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮集團"
+    },
+    {
+      "name": "台北101",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北101"
+    },
+    {
+      "name": "台灣高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣高鐵"
+    },
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "榮鼎綠能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮鼎綠能"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "豐興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐興"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "長榮鋼鐵 (2211，Evergreen Steel) 隸屬[[長榮集團]]，為台灣大型鋼構工程及貨櫃維修企業。鋼構業務涵蓋廠房、高層建築、橋樑設計製造安裝，年產能逾10萬噸。代表工程含[[台北101]]、[[台灣高鐵]]軌道、南港展覽館。貨櫃維修主要服務[[長榮海運]]。子公司[[榮鼎綠能]]經營廢棄物處理及生質能。上游鋼材來自[[中鋼]]、[[東和鋼鐵]]。在手訂單約24萬噸。",
+    "supply_chain_md": "**上游:** [[中鋼]]、[[東和鋼鐵]] — H型鋼/鋼板\n**中游:** **長榮鋼** (鋼構設計製造安裝; 貨櫃維修; [[榮鼎綠能]]環保)\n**下游:**\n- 商辦/公共工程 — [[台北101]]、[[台灣高鐵]]\n- [[長榮海運]] — 貨櫃維修\n- 半導體廠房 — 科技園區鋼構",
+    "customers_suppliers_md": "### 主要客戶\n- 營建/公共工程 — [[台北101]]、[[台灣高鐵]]等代表作\n- [[長榮海運]] — 貨櫃維修\n- 半導體科技園區 — 廠房鋼構\n\n### 主要供應商\n- [[中鋼]]、[[東和鋼鐵]] — 結構用鋼\n- 母集團: [[長榮集團]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $88.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.81 |       17.97 |      2.50 | 1.35 |      9.42 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     15321.27 |     12917.34 |     11090.53 |\n| Gross Profit            |      4239.04 |      3473.07 |      3895.72 |\n| Gross Margin (%)        |        27.67 |        26.89 |        35.13 |\n| Selling & Marketing Exp |       347.78 |       331.65 |       298.71 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       316.37 |       297.80 |       283.75 |\n| Operating Income        |      3574.89 |      2843.62 |      3313.26 |\n| Operating Margin (%)    |        23.33 |        22.01 |        29.87 |\n| Net Income              |      3587.05 |      2553.06 |      3669.81 |\n| Net Margin (%)          |        23.41 |        19.76 |        33.09 |\n| Op Cash Flow            |      1860.76 |      2667.13 |      4017.60 |\n| Investing Cash Flow     |       628.43 |        39.53 |       261.92 |\n| Financing Cash Flow     |     -2546.78 |     -3736.10 |     -2814.89 |\n| CAPEX                   |      -756.80 |     -1403.49 |     -1240.17 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3331.38 |      3811.56 |      3998.11 |      3629.32 |\n| Gross Profit            |       771.33 |       962.32 |      1135.28 |      1127.26 |\n| Gross Margin (%)        |        23.15 |        25.25 |        28.40 |        31.06 |\n| Selling & Marketing Exp |        79.04 |       116.96 |        80.63 |        81.79 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        71.62 |        97.38 |        72.69 |        71.30 |\n| Operating Income        |       620.67 |       747.98 |       981.96 |       974.18 |\n| Operating Margin (%)    |        18.63 |        19.62 |        24.56 |        26.84 |\n| Net Income              |       448.21 |       517.07 |      1198.96 |      1248.57 |\n| Net Margin (%)          |        13.45 |        13.57 |        29.99 |        34.40 |\n| Op Cash Flow            |       973.49 |      1177.63 |       560.18 |       227.14 |\n| Investing Cash Flow     |      -296.65 |      -982.74 |      1105.38 |       756.80 |\n| Financing Cash Flow     |       -14.22 |      -123.38 |     -2152.61 |      -285.18 |\n| CAPEX                   |      -159.03 |       -72.00 |      -230.41 |       -78.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

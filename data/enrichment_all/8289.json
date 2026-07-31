@@ -1,0 +1,178 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8289",
+  "company_name": "泰藝",
+  "title": "8289 - 泰藝",
+  "source_md": "Pilot_Reports/被動元件 - 濾波器、振盪器/8289_泰藝.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "2,569 百萬台幣",
+    "enterprise_value": "2,373 百萬台幣"
+  },
+  "business": {
+    "summary": "泰藝電子股份有限公司 (8289，Taitien Electronics) 前身為泰電電業電子部門 (1976 年設立)，2000 年獨立設立。為台灣頻率控制元件專家，產品涵蓋石英晶體諧振器、一般石英振盪器、溫度補償振盪器 ([[TCXO]])、電壓控制振盪器 (VCXO) 及恆溫控制振盪器 ([[OCXO]])。泰藝為台灣唯一具備[[OCXO]]技術之製造商，OCXO 將石英晶體置於恆溫槽中，提供極高頻率穩定性，為[[5G]]基地台、衛星通訊及精密量測之關鍵元件。生產基地涵蓋台灣、美國及中國。",
+    "entities": [
+      "TCXO",
+      "OCXO",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原物料與設備)",
+        "text": "**上游 (原物料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "石英晶體",
+        "text": "高品質人造石英晶體",
+        "entities": []
+      },
+      {
+        "category": "恆溫槽元件",
+        "text": "[[OCXO]]用精密恆溫控制元件",
+        "entities": [
+          "OCXO"
+        ]
+      },
+      {
+        "category": "封裝材料",
+        "text": "陶瓷與金屬封裝",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (頻率控制元件製造)",
+        "text": "**中游 (頻率控制元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**泰藝** — 石英諧振器、[[TCXO]]、VCXO、[[OCXO]]設計與製造 (台灣唯一 OCXO 廠)",
+        "entities": [
+          "TCXO",
+          "OCXO"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "[[5G]]基礎建設",
+        "text": "基地台高精度時脈元件",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "衛星通訊",
+        "text": "衛星系統精密頻率控制",
+        "entities": []
+      },
+      {
+        "category": "精密量測",
+        "text": "量測儀器時脈基準",
+        "entities": []
+      },
+      {
+        "category": "車用電子",
+        "text": "車用高穩定度振盪器",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[5G]]基地台",
+        "text": "通訊設備廠 — [[OCXO]]與[[TCXO]]高精度時脈元件",
+        "entities": [
+          "5G",
+          "OCXO",
+          "TCXO"
+        ]
+      },
+      {
+        "role": "衛星通訊",
+        "text": "衛星系統廠 — 精密頻率控制",
+        "entities": []
+      },
+      {
+        "role": "精密量測",
+        "text": "量測儀器廠 — 時脈基準元件",
+        "entities": []
+      },
+      {
+        "role": "車用電子",
+        "text": "車用零組件廠 — 高穩定度振盪器",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石英原料",
+        "text": "高品質人造石英晶體供應商",
+        "entities": []
+      },
+      {
+        "role": "恆溫元件",
+        "text": "[[OCXO]]精密恆溫控制元件供應商",
+        "entities": [
+          "OCXO"
+        ]
+      },
+      {
+        "role": "封裝材料",
+        "text": "陶瓷與金屬封裝材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TCXO",
+      "type": "international_company_or_term",
+      "wikilink": "TCXO"
+    },
+    {
+      "name": "OCXO",
+      "type": "international_company_or_term",
+      "wikilink": "OCXO"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "泰藝電子股份有限公司 (8289，Taitien Electronics) 前身為泰電電業電子部門 (1976 年設立)，2000 年獨立設立。為台灣頻率控制元件專家，產品涵蓋石英晶體諧振器、一般石英振盪器、溫度補償振盪器 ([[TCXO]])、電壓控制振盪器 (VCXO) 及恆溫控制振盪器 ([[OCXO]])。泰藝為台灣唯一具備[[OCXO]]技術之製造商，OCXO 將石英晶體置於恆溫槽中，提供極高頻率穩定性，為[[5G]]基地台、衛星通訊及精密量測之關鍵元件。生產基地涵蓋台灣、美國及中國。",
+    "supply_chain_md": "**上游 (原物料與設備):**\n- **石英晶體:** 高品質人造石英晶體\n- **恆溫槽元件:** [[OCXO]]用精密恆溫控制元件\n- **封裝材料:** 陶瓷與金屬封裝\n\n**中游 (頻率控制元件製造):**\n- **泰藝** — 石英諧振器、[[TCXO]]、VCXO、[[OCXO]]設計與製造 (台灣唯一 OCXO 廠)\n\n**下游 (終端應用):**\n- **[[5G]]基礎建設:** 基地台高精度時脈元件\n- **衛星通訊:** 衛星系統精密頻率控制\n- **精密量測:** 量測儀器時脈基準\n- **車用電子:** 車用高穩定度振盪器",
+    "customers_suppliers_md": "### 主要客戶\n- **[[5G]]基地台:** 通訊設備廠 — [[OCXO]]與[[TCXO]]高精度時脈元件\n- **衛星通訊:** 衛星系統廠 — 精密頻率控制\n- **精密量測:** 量測儀器廠 — 時脈基準元件\n- **車用電子:** 車用零組件廠 — 高穩定度振盪器\n\n### 主要供應商\n- **石英原料:** 高品質人造石英晶體供應商\n- **恆溫元件:** [[OCXO]]精密恆溫控制元件供應商\n- **封裝材料:** 陶瓷與金屬封裝材料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $36.65 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    146.60 |         N/A |      1.43 | 1.56 |     20.45 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1744.28 |      1503.45 |      1580.17 |\n| Gross Profit            |       410.49 |       340.06 |       426.03 |\n| Gross Margin (%)        |        23.53 |        22.62 |        26.96 |\n| Selling & Marketing Exp |       113.25 |       112.26 |       110.02 |\n| R&D Exp                 |        62.04 |        55.53 |        59.56 |\n| General & Admin Exp     |       218.02 |       179.16 |       169.78 |\n| Operating Income        |        17.17 |        -6.89 |        86.67 |\n| Operating Margin (%)    |         0.98 |        -0.46 |         5.48 |\n| Net Income              |         2.78 |        27.37 |        88.18 |\n| Net Margin (%)          |         0.16 |         1.82 |         5.58 |\n| Op Cash Flow            |        62.00 |       144.76 |       354.57 |\n| Investing Cash Flow     |      -383.17 |        -9.35 |       -55.96 |\n| Financing Cash Flow     |       299.09 |       -83.31 |      -290.05 |\n| CAPEX                   |      -363.89 |       -92.08 |       -60.29 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       444.46 |       436.87 |       390.69 |       482.09 |\n| Gross Profit            |       105.85 |        97.97 |        89.57 |       125.55 |\n| Gross Margin (%)        |        23.82 |        22.42 |        22.93 |        26.04 |\n| Selling & Marketing Exp |        30.47 |        29.27 |        28.69 |        28.04 |\n| R&D Exp                 |        11.29 |        15.95 |        17.96 |        14.53 |\n| General & Admin Exp     |        45.27 |        46.91 |        43.85 |        79.59 |\n| Operating Income        |        18.82 |         5.84 |        -0.94 |         3.40 |\n| Operating Margin (%)    |         4.23 |         1.34 |        -0.24 |         0.70 |\n| Net Income              |        18.98 |        18.87 |        10.24 |       -31.33 |\n| Net Margin (%)          |         4.27 |         4.32 |         2.62 |        -6.50 |\n| Op Cash Flow            |        -2.53 |        12.30 |        79.58 |       -39.68 |\n| Investing Cash Flow     |       -17.03 |       -15.96 |       -16.90 |       -21.69 |\n| Financing Cash Flow     |        -1.40 |       -11.37 |       -11.71 |        12.38 |\n| CAPEX                   |       -17.24 |        -4.74 |       -18.54 |       -11.62 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

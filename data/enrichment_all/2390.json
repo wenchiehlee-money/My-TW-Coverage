@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2390",
+  "company_name": "云辰",
+  "title": "2390 - 云辰",
+  "source_md": "Pilot_Reports/LED照明產業 - 燈具_應用/2390_云辰.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Security & Protection Services",
+    "market_cap": "1,936 百萬台幣",
+    "enterprise_value": "1,123 百萬台幣"
+  },
+  "business": {
+    "summary": "云辰電子工業股份有限公司成立於1980年，總部位於新北市，為防盜警報及智慧安防設備製造商。核心業務涵蓋：（1）**防災安全設備：** 防盜警報系統、照明控制設備及配件之製造銷售；（2）**智慧安防設備：** 智慧型安全監控設備之研發製造與貿易；（3）**不動產：** 住宅大樓開發管理及不動產租賃。公司產品以外銷歐美市場為主，符合[[NDAA]]（美國國防授權法案）合規要求，受惠於去中化安防設備轉單趨勢。",
+    "entities": [
+      "NDAA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "[[MCU]]微控制器、感測器、通訊模組",
+        "entities": [
+          "MCU"
+        ]
+      },
+      {
+        "category": "塑膠/金屬",
+        "text": "外殼射出件、金屬結構件",
+        "entities": []
+      },
+      {
+        "category": "光源",
+        "text": "[[LED]]照明元件",
+        "entities": [
+          "LED"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**云辰電子** — 防盜警報系統、智慧安防設備、照明控制設備之製造與銷售",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端市場)",
+        "text": "**下游 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "歐美安防市場",
+        "text": "歐美安防系統整合商與品牌商",
+        "entities": []
+      },
+      {
+        "category": "國內安防",
+        "text": "保全業者、建築商",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "住宅大樓開發與租賃",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐美安防",
+        "text": "歐美安防品牌商與系統整合商（防盜警報設備[[ODM]]/[[OEM]]）",
+        "entities": [
+          "ODM",
+          "OEM"
+        ]
+      },
+      {
+        "role": "國內保全",
+        "text": "台灣保全業者（安防設備採購）",
+        "entities": []
+      },
+      {
+        "role": "不動產",
+        "text": "住宅租戶與買方",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電子元件",
+        "text": "[[MCU]]微控制器、感測器、通訊模組供應商",
+        "entities": [
+          "MCU"
+        ]
+      },
+      {
+        "role": "塑膠射出",
+        "text": "外殼結構件供應商",
+        "entities": []
+      },
+      {
+        "role": "[[LED]]元件",
+        "text": "照明控制設備用[[LED]]光源",
+        "entities": [
+          "LED"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NDAA",
+      "type": "international_company_or_term",
+      "wikilink": "NDAA"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "云辰電子工業股份有限公司成立於1980年，總部位於新北市，為防盜警報及智慧安防設備製造商。核心業務涵蓋：（1）**防災安全設備：** 防盜警報系統、照明控制設備及配件之製造銷售；（2）**智慧安防設備：** 智慧型安全監控設備之研發製造與貿易；（3）**不動產：** 住宅大樓開發管理及不動產租賃。公司產品以外銷歐美市場為主，符合[[NDAA]]（美國國防授權法案）合規要求，受惠於去中化安防設備轉單趨勢。",
+    "supply_chain_md": "**上游 (零組件):**\n- **電子元件:** [[MCU]]微控制器、感測器、通訊模組\n- **塑膠/金屬:** 外殼射出件、金屬結構件\n- **光源:** [[LED]]照明元件\n\n**中游 (製造):**\n- **云辰電子** — 防盜警報系統、智慧安防設備、照明控制設備之製造與銷售\n\n**下游 (終端市場):**\n- **歐美安防市場:** 歐美安防系統整合商與品牌商\n- **國內安防:** 保全業者、建築商\n- **不動產:** 住宅大樓開發與租賃",
+    "customers_suppliers_md": "### 主要客戶\n- **歐美安防:** 歐美安防品牌商與系統整合商（防盜警報設備[[ODM]]/[[OEM]]）\n- **國內保全:** 台灣保全業者（安防設備採購）\n- **不動產:** 住宅租戶與買方\n\n### 主要供應商\n- **電子元件:** [[MCU]]微控制器、感測器、通訊模組供應商\n- **塑膠射出:** 外殼結構件供應商\n- **[[LED]]元件:** 照明控制設備用[[LED]]光源",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $10.05 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      3.04 | 0.80 |    -73.36 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       679.14 |       701.51 |       648.32 |\n| Gross Profit            |       143.19 |       170.72 |       162.85 |\n| Gross Margin (%)        |        21.08 |        24.34 |        25.12 |\n| Selling & Marketing Exp |        74.30 |        68.26 |        55.66 |\n| R&D Exp                 |        39.88 |        46.48 |        53.67 |\n| General & Admin Exp     |        62.58 |        65.49 |        67.74 |\n| Operating Income        |       -33.56 |        -9.51 |       -14.22 |\n| Operating Margin (%)    |        -4.94 |        -1.36 |        -2.19 |\n| Net Income              |       -27.40 |      -241.38 |       -80.48 |\n| Net Margin (%)          |        -4.04 |       -34.41 |       -12.41 |\n| Op Cash Flow            |        20.45 |       -41.11 |       -11.95 |\n| Investing Cash Flow     |       -31.24 |      -192.28 |        41.68 |\n| Financing Cash Flow     |       -66.42 |        14.27 |       -73.52 |\n| CAPEX                   |       -18.47 |       -13.59 |       -16.71 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       169.51 |       157.51 |       161.05 |       191.08 |\n| Gross Profit            |        32.36 |        34.33 |        31.89 |        44.62 |\n| Gross Margin (%)        |        19.09 |        21.79 |        19.80 |        23.35 |\n| Selling & Marketing Exp |        20.76 |        18.12 |        17.81 |        17.61 |\n| R&D Exp                 |         9.15 |         8.79 |        11.08 |        10.87 |\n| General & Admin Exp     |        15.14 |        14.93 |        16.43 |        16.08 |\n| Operating Income        |       -12.69 |        -7.51 |       -13.42 |         0.06 |\n| Operating Margin (%)    |        -7.49 |        -4.77 |        -8.34 |         0.03 |\n| Net Income              |       -41.19 |       -24.27 |       -55.62 |        93.67 |\n| Net Margin (%)          |       -24.30 |       -15.41 |       -34.53 |        49.02 |\n| Op Cash Flow            |         4.57 |        22.61 |        23.30 |       -30.02 |\n| Investing Cash Flow     |        -4.09 |       -51.19 |       -29.29 |        53.33 |\n| Financing Cash Flow     |        48.21 |        18.55 |       -81.89 |       -51.29 |\n| CAPEX                   |        -4.06 |        -5.05 |        -7.34 |        -2.02 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

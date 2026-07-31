@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3317",
+  "company_name": "尼克森",
+  "title": "3317 - 尼克森",
+  "source_md": "Pilot_Reports/半導體 - IC設計/3317_尼克森.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "5,634 百萬台幣",
+    "enterprise_value": "3,772 百萬台幣"
+  },
+  "business": {
+    "summary": "尼克森微電子 (3317) 是專業電源管理功率元件及類比 IC 設計公司，產品涵蓋 Power [[MOSFET]]、[[碳化矽]] (SiC) [[MOSFET]]、[[氮化鎵]] (GaN) HEMT、SiC 功率模組及電源管理 IC。產品應用於主機板/VGA 卡、電源供應器、車用電子及充電樁。",
+    "entities": [
+      "MOSFET",
+      "碳化矽",
+      "氮化鎵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "[[世界先進]] ([[MOSFET]] 類比製程)",
+        "entities": [
+          "世界先進",
+          "MOSFET"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "功率元件",
+        "text": "**尼克森** ([[MOSFET]]/SiC/GaN 功率 IC 設計)",
+        "entities": [
+          "MOSFET"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電源應用)",
+        "text": "**下游 (電源應用):**",
+        "entities": []
+      },
+      {
+        "category": "主機板/VGA",
+        "text": "[[華碩]]、[[微星]] (主機板/顯卡電源)",
+        "entities": [
+          "華碩",
+          "微星"
+        ]
+      },
+      {
+        "category": "車用/充電樁",
+        "text": "車用電子及 EV 充電",
+        "entities": []
+      },
+      {
+        "category": "通路",
+        "text": "[[東瑞電子]] (經銷商)",
+        "entities": [
+          "東瑞電子"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "主機板/VGA",
+        "text": "[[華碩]]、[[微星]]",
+        "entities": [
+          "華碩",
+          "微星"
+        ]
+      },
+      {
+        "role": "車用/充電樁",
+        "text": "車用電源及 EV 充電客戶",
+        "entities": []
+      },
+      {
+        "role": "通路",
+        "text": "[[東瑞電子]]",
+        "entities": [
+          "東瑞電子"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[世界先進]]",
+        "entities": [
+          "世界先進"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[Vishay]]、[[Infineon]]",
+        "entities": [
+          "Vishay",
+          "Infineon"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[Vishay]]、[[Infineon]]",
+        "entities": [
+          "Vishay",
+          "Infineon"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "東瑞電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東瑞電子"
+    },
+    {
+      "name": "Vishay",
+      "type": "international_company_or_term",
+      "wikilink": "Vishay"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "尼克森微電子 (3317) 是專業電源管理功率元件及類比 IC 設計公司，產品涵蓋 Power [[MOSFET]]、[[碳化矽]] (SiC) [[MOSFET]]、[[氮化鎵]] (GaN) HEMT、SiC 功率模組及電源管理 IC。產品應用於主機板/VGA 卡、電源供應器、車用電子及充電樁。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** [[世界先進]] ([[MOSFET]] 類比製程)\n\n**中游 (IC 設計):**\n- **功率元件:** **尼克森** ([[MOSFET]]/SiC/GaN 功率 IC 設計)\n\n**下游 (電源應用):**\n- **主機板/VGA:** [[華碩]]、[[微星]] (主機板/顯卡電源)\n- **車用/充電樁:** 車用電子及 EV 充電\n- **通路:** [[東瑞電子]] (經銷商)",
+    "customers_suppliers_md": "### 主要客戶\n- **主機板/VGA:** [[華碩]]、[[微星]]\n- **車用/充電樁:** 車用電源及 EV 充電客戶\n- **通路:** [[東瑞電子]]\n\n### 主要供應商\n- **晶圓代工:** [[世界先進]]\n- **競爭同業:** [[Vishay]]、[[Infineon]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $59.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     32.76 |         N/A |      1.92 | 1.65 |      8.84 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2706.41 |      2468.26 |      2464.54 |\n| Gross Profit            |       747.38 |       671.99 |       643.30 |\n| Gross Margin (%)        |        27.62 |        27.23 |        26.10 |\n| Selling & Marketing Exp |        98.79 |       112.89 |        93.68 |\n| R&D Exp                 |       209.41 |       211.62 |       167.19 |\n| General & Admin Exp     |       114.90 |       119.44 |       117.12 |\n| Operating Income        |       324.27 |       228.04 |       265.32 |\n| Operating Margin (%)    |        11.98 |         9.24 |        10.77 |\n| Net Income              |       149.41 |       201.47 |       209.80 |\n| Net Margin (%)          |         5.52 |         8.16 |         8.51 |\n| Op Cash Flow            |       353.11 |        25.91 |       254.87 |\n| Investing Cash Flow     |       -21.61 |       174.08 |       -51.80 |\n| Financing Cash Flow     |       -55.44 |       -31.87 |       -26.82 |\n| CAPEX                   |       -37.51 |       -39.70 |       -34.63 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       708.19 |       690.64 |       687.81 |       698.34 |\n| Gross Profit            |       207.85 |       201.19 |       186.04 |       183.74 |\n| Gross Margin (%)        |        29.35 |        29.13 |        27.05 |        26.31 |\n| Selling & Marketing Exp |        26.29 |        25.48 |        24.57 |        25.78 |\n| R&D Exp                 |        53.94 |        48.69 |        53.18 |        55.01 |\n| General & Admin Exp     |        35.16 |        19.30 |        32.57 |        31.27 |\n| Operating Income        |        92.45 |       107.72 |        75.71 |        71.68 |\n| Operating Margin (%)    |        13.06 |        15.60 |        11.01 |        10.26 |\n| Net Income              |        75.93 |       -15.47 |        56.26 |        48.47 |\n| Net Margin (%)          |        10.72 |        -2.24 |         8.18 |         6.94 |\n| Op Cash Flow            |       127.81 |        28.71 |        60.84 |       156.03 |\n| Investing Cash Flow     |        -1.27 |        -1.43 |        -3.72 |       -14.54 |\n| Financing Cash Flow     |        -1.22 |        -7.32 |       -46.51 |        -0.68 |\n| CAPEX                   |        -4.81 |       -14.69 |        -6.33 |       -11.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

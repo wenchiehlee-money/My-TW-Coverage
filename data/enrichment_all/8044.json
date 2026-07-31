@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8044",
+  "company_name": "網家",
+  "title": "8044 - 網家",
+  "source_md": "Pilot_Reports/電子商務 - 物流倉儲服務/8044_網家.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "market_cap": "5,204 百萬台幣",
+    "enterprise_value": "20,887 百萬台幣"
+  },
+  "business": {
+    "summary": "網路家庭國際資訊 (8044，[[PChome]] Online) 為台灣歷史最悠久的綜合性電子商務集團，旗下擁有 B2C 平台 [[PChome]] 24h 購物 (主打 24 小時快速到貨)、C2C 平台露天拍賣 (Ruten) 及 [[PChome]] 商店街。\n\n業務結構與動能：(1) B2C 電商 — [[PChome]] 24h 購物為核心，以自建倉儲與物流體系支撐 24 小時到貨承諾，商品涵蓋 3C、家電、日用品等；(2) C2C/B2B2C — 露天拍賣提供個人與商家上架銷售，[[PChome]] 商店街提供中小企業開店服務；(3) 金融科技 — Pi 拍錢包行動支付、第三方支付「支付連」、P 幣點數生態圈，與[[玉山銀行]]合作 Pi 拍錢包信用卡；(4) 跨境電商 — 子公司比比昂 (Bibian) 提供日本代購代標服務，與日本[[伊藤忠商事]]策略合作。集團亦投資[[商店街]] (4965)。",
+    "entities": [
+      "PChome",
+      "玉山銀行",
+      "伊藤忠商事",
+      "商店街"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (商品供應與基礎設施)",
+        "text": "**上游 (商品供應與基礎設施):**",
+        "entities": []
+      },
+      {
+        "category": "3C/家電",
+        "text": "國內外消費性電子品牌原廠與代理商 — 商品供貨",
+        "entities": []
+      },
+      {
+        "category": "日用品",
+        "text": "FMCG 品牌與生活用品供應商",
+        "entities": []
+      },
+      {
+        "category": "跨境夥伴",
+        "text": "[[伊藤忠商事]] — 日本跨境電商策略合作",
+        "entities": [
+          "伊藤忠商事"
+        ]
+      },
+      {
+        "category": "雲端/IT",
+        "text": "雲端與 IT 基礎設施供應商 — 平台技術支撐",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電商平台營運)",
+        "text": "**中游 (電商平台營運):**",
+        "entities": []
+      },
+      {
+        "category": "B2C 電商",
+        "text": "**網家** ([[PChome]] 24h 購物，自建倉儲物流)",
+        "entities": [
+          "PChome"
+        ]
+      },
+      {
+        "category": "C2C 平台",
+        "text": "**網家** (露天拍賣、[[PChome]] 商店街)",
+        "entities": [
+          "PChome"
+        ]
+      },
+      {
+        "category": "行動支付",
+        "text": "**網家** (Pi 拍錢包、支付連)",
+        "entities": []
+      },
+      {
+        "category": "跨境代購",
+        "text": "比比昂 (Bibian，日本代購代標)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端消費者與商家)",
+        "text": "**下游 (終端消費者與商家):**",
+        "entities": []
+      },
+      {
+        "category": "網購消費者",
+        "text": "全台數百萬網購族群 — B2C 購物",
+        "entities": []
+      },
+      {
+        "category": "個人賣家",
+        "text": "露天拍賣賣家 — C2C 交易",
+        "entities": []
+      },
+      {
+        "category": "中小商家",
+        "text": "[[PChome]] 商店街進駐商家",
+        "entities": [
+          "PChome"
+        ]
+      },
+      {
+        "category": "跨境消費者",
+        "text": "日本代購消費者 — 比比昂",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網購消費者",
+        "text": "全台數百萬零售網購族群 — [[PChome]] 24h 購物",
+        "entities": [
+          "PChome"
+        ]
+      },
+      {
+        "role": "C2C 賣家",
+        "text": "露天拍賣個人與商業賣家",
+        "entities": []
+      },
+      {
+        "role": "中小企業",
+        "text": "[[PChome]] 商店街進駐商家",
+        "entities": [
+          "PChome"
+        ]
+      },
+      {
+        "role": "跨境消費者",
+        "text": "日本/美國代購消費者 — 比比昂 (Bibian)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "跨境合作",
+        "text": "[[伊藤忠商事]] — 日本跨境電商深度結盟",
+        "entities": [
+          "伊藤忠商事"
+        ]
+      },
+      {
+        "role": "3C 品牌",
+        "text": "國內外消費性電子品牌原廠與代理商",
+        "entities": []
+      },
+      {
+        "role": "金融合作",
+        "text": "[[玉山銀行]] — Pi 拍錢包聯名信用卡",
+        "entities": [
+          "玉山銀行"
+        ]
+      },
+      {
+        "role": "廣告平台",
+        "text": "[[Google]]、[[Meta]] — 數位廣告投放",
+        "entities": [
+          "Google",
+          "Meta"
+        ]
+      },
+      {
+        "role": "物流配送",
+        "text": "[[黑貓宅急便]]、[[嘉里大榮]] — 商品配送",
+        "entities": [
+          "黑貓宅急便",
+          "嘉里大榮"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PChome",
+      "type": "international_company_or_term",
+      "wikilink": "PChome"
+    },
+    {
+      "name": "玉山銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玉山銀行"
+    },
+    {
+      "name": "伊藤忠商事",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伊藤忠商事"
+    },
+    {
+      "name": "商店街",
+      "type": "taiwan_company_or_term",
+      "wikilink": "商店街"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "黑貓宅急便",
+      "type": "taiwan_company_or_term",
+      "wikilink": "黑貓宅急便"
+    },
+    {
+      "name": "嘉里大榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉里大榮"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "網路家庭國際資訊 (8044，[[PChome]] Online) 為台灣歷史最悠久的綜合性電子商務集團，旗下擁有 B2C 平台 [[PChome]] 24h 購物 (主打 24 小時快速到貨)、C2C 平台露天拍賣 (Ruten) 及 [[PChome]] 商店街。\n\n業務結構與動能：(1) B2C 電商 — [[PChome]] 24h 購物為核心，以自建倉儲與物流體系支撐 24 小時到貨承諾，商品涵蓋 3C、家電、日用品等；(2) C2C/B2B2C — 露天拍賣提供個人與商家上架銷售，[[PChome]] 商店街提供中小企業開店服務；(3) 金融科技 — Pi 拍錢包行動支付、第三方支付「支付連」、P 幣點數生態圈，與[[玉山銀行]]合作 Pi 拍錢包信用卡；(4) 跨境電商 — 子公司比比昂 (Bibian) 提供日本代購代標服務，與日本[[伊藤忠商事]]策略合作。集團亦投資[[商店街]] (4965)。",
+    "supply_chain_md": "**上游 (商品供應與基礎設施):**\n- **3C/家電:** 國內外消費性電子品牌原廠與代理商 — 商品供貨\n- **日用品:** FMCG 品牌與生活用品供應商\n- **跨境夥伴:** [[伊藤忠商事]] — 日本跨境電商策略合作\n- **雲端/IT:** 雲端與 IT 基礎設施供應商 — 平台技術支撐\n\n**中游 (電商平台營運):**\n- **B2C 電商:** **網家** ([[PChome]] 24h 購物，自建倉儲物流)\n- **C2C 平台:** **網家** (露天拍賣、[[PChome]] 商店街)\n- **行動支付:** **網家** (Pi 拍錢包、支付連)\n- **跨境代購:** 比比昂 (Bibian，日本代購代標)\n\n**下游 (終端消費者與商家):**\n- **網購消費者:** 全台數百萬網購族群 — B2C 購物\n- **個人賣家:** 露天拍賣賣家 — C2C 交易\n- **中小商家:** [[PChome]] 商店街進駐商家\n- **跨境消費者:** 日本代購消費者 — 比比昂",
+    "customers_suppliers_md": "### 主要客戶\n- **網購消費者:** 全台數百萬零售網購族群 — [[PChome]] 24h 購物\n- **C2C 賣家:** 露天拍賣個人與商業賣家\n- **中小企業:** [[PChome]] 商店街進駐商家\n- **跨境消費者:** 日本/美國代購消費者 — 比比昂 (Bibian)\n\n### 主要供應商\n- **跨境合作:** [[伊藤忠商事]] — 日本跨境電商深度結盟\n- **3C 品牌:** 國內外消費性電子品牌原廠與代理商\n- **金融合作:** [[玉山銀行]] — Pi 拍錢包聯名信用卡\n- **廣告平台:** [[Google]]、[[Meta]] — 數位廣告投放\n- **物流配送:** [[黑貓宅急便]]、[[嘉里大榮]] — 商品配送",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |      -14.43 |      0.14 | 0.77 |    258.50 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     36858.48 |     37563.05 |     41286.46 |\n| Gross Profit            |      4931.85 |      4887.50 |      4977.55 |\n| Gross Margin (%)        |        13.38 |        13.01 |        12.06 |\n| Selling & Marketing Exp |      3402.63 |      3426.30 |      3763.95 |\n| R&D Exp                 |       553.35 |       530.14 |       566.81 |\n| General & Admin Exp     |       995.28 |       740.17 |       716.35 |\n| Operating Income        |       -19.41 |       190.88 |       -69.56 |\n| Operating Margin (%)    |        -0.05 |         0.51 |        -0.17 |\n| Net Income              |      -920.61 |      -576.33 |      -659.90 |\n| Net Margin (%)          |        -2.50 |        -1.53 |        -1.60 |\n| Op Cash Flow            |     -1023.69 |       265.10 |      -943.77 |\n| Investing Cash Flow     |     -2257.50 |      -723.93 |     -1323.83 |\n| Financing Cash Flow     |      3707.82 |      -217.53 |      -312.61 |\n| CAPEX                   |       -47.89 |      -631.73 |      -846.34 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     10977.10 |      8531.65 |      8400.06 |      8949.66 |\n| Gross Profit            |      1411.18 |      1201.57 |      1134.00 |      1185.10 |\n| Gross Margin (%)        |        12.86 |        14.08 |        13.50 |        13.24 |\n| Selling & Marketing Exp |       957.29 |       763.89 |       815.98 |       865.47 |\n| R&D Exp                 |       132.23 |       164.78 |       128.18 |       128.17 |\n| General & Admin Exp     |       451.03 |       208.10 |       164.73 |       171.42 |\n| Operating Income        |      -129.36 |        64.80 |        25.12 |        20.04 |\n| Operating Margin (%)    |        -1.18 |         0.76 |         0.30 |         0.22 |\n| Net Income              |      -416.62 |      -134.08 |      -222.18 |      -147.73 |\n| Net Margin (%)          |        -3.80 |        -1.57 |        -2.64 |        -1.65 |\n| Op Cash Flow            |      -755.97 |      -583.97 |       390.70 |       -74.45 |\n| Investing Cash Flow     |     -1161.12 |     -1274.60 |      -104.69 |       282.91 |\n| Financing Cash Flow     |       531.81 |      3339.11 |        13.06 |      -176.16 |\n| CAPEX                   |       -13.75 |       -12.75 |        -8.15 |       -13.24 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

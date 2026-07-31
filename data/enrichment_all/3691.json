@@ -1,0 +1,212 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3691",
+  "company_name": "碩禾",
+  "title": "3691 - [[碩禾]]",
+  "source_md": "Pilot_Reports/太陽能產業 - 材料/3691_碩禾.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Solar",
+    "market_cap": "9,234 百萬台幣",
+    "enterprise_value": "13,882 百萬台幣"
+  },
+  "business": {
+    "summary": "碩禾電子材料股份有限公司 (3691) 為全球領先的太陽能[[導電漿]]製造商，核心產品涵蓋背面鋁漿、背面銀漿及正面銀漿。公司技術源自母公司[[國碩]] (2406)，目前積極從傳統漿料供應商轉型為多元化的綠能與[[AI 伺服器]]散熱材料服務商。主要業務與發展亮點：\n\n1. **高階[[導電漿]]：** 針對新世代高效N型太陽能電池（[[TOPCon]]、[[HJT]]）開發專用銀漿，並導入[[LECO]]（激光增強接觸優化）技術，提升電池轉換效率。\n2. **美國模組產線：** 與大股東[[國碩]]合作，於美國加州建立550MW模組生產基地，規避貿易壁壘。\n3. **[[AI 伺服器]]液冷散熱：** 子公司碩通取得[[Parker Hannifin]]水冷快接頭代理權，提供軟硬管、CDU等液冷散熱零組件，切入[[AI 伺服器]]供應鏈。\n4. **電池材料：** 佈局矽碳負極材料，目標進入動力及[[儲能]]電池市場。",
+    "entities": [
+      "導電漿",
+      "國碩",
+      "AI 伺服器",
+      "TOPCon",
+      "HJT",
+      "LECO",
+      "Parker Hannifin",
+      "儲能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "貴金屬",
+        "text": "銀粉、鋁粉等國際金屬原料供應商",
+        "entities": []
+      },
+      {
+        "category": "化學品",
+        "text": "化學添加劑、有機溶劑供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "碩禾 (3691)",
+        "text": "[[導電漿]]配方研發與精密混合加工、美國太陽能模組組裝",
+        "entities": [
+          "導電漿"
+        ]
+      },
+      {
+        "category": "子公司碩通",
+        "text": "[[AI 伺服器]]液冷散熱零組件經銷",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能電池廠",
+        "text": "[[LONGi]]（隆基綠能）、[[晶澳]] (JA Solar) 等國際一線電池大廠",
+        "entities": [
+          "LONGi",
+          "晶澳"
+        ]
+      },
+      {
+        "category": "[[AI 伺服器]]",
+        "text": "台灣主要ODM廠及散熱廠，需要液冷零組件",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "自營電廠",
+        "text": "菲律賓及台日太陽能電站",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "太陽能導電漿",
+        "text": "[[LONGi]]（隆基綠能，長期供貨協議）、兩岸與國際一線N型太陽能電池製造商",
+        "entities": [
+          "LONGi"
+        ]
+      },
+      {
+        "role": "液冷散熱（碩通）",
+        "text": "台灣主要[[AI 伺服器]]ODM廠與散熱解決方案廠商",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "美國模組",
+        "text": "美國本土太陽能系統商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "貴金屬原料",
+        "text": "國際銀粉、鋁粉供應商",
+        "entities": []
+      },
+      {
+        "role": "液冷零組件",
+        "text": "[[Parker Hannifin]]（水冷快接頭代理）",
+        "entities": [
+          "Parker Hannifin"
+        ]
+      },
+      {
+        "role": "設備",
+        "text": "[[國碩]] (2406)（母公司，提供設備支援）",
+        "entities": [
+          "國碩"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "導電漿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導電漿"
+    },
+    {
+      "name": "國碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國碩"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "TOPCon",
+      "type": "international_company_or_term",
+      "wikilink": "TOPCon"
+    },
+    {
+      "name": "HJT",
+      "type": "international_company_or_term",
+      "wikilink": "HJT"
+    },
+    {
+      "name": "LECO",
+      "type": "international_company_or_term",
+      "wikilink": "LECO"
+    },
+    {
+      "name": "Parker Hannifin",
+      "type": "international_company_or_term",
+      "wikilink": "Parker Hannifin"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "LONGi",
+      "type": "international_company_or_term",
+      "wikilink": "LONGi"
+    },
+    {
+      "name": "晶澳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶澳"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "碩禾電子材料股份有限公司 (3691) 為全球領先的太陽能[[導電漿]]製造商，核心產品涵蓋背面鋁漿、背面銀漿及正面銀漿。公司技術源自母公司[[國碩]] (2406)，目前積極從傳統漿料供應商轉型為多元化的綠能與[[AI 伺服器]]散熱材料服務商。主要業務與發展亮點：\n\n1. **高階[[導電漿]]：** 針對新世代高效N型太陽能電池（[[TOPCon]]、[[HJT]]）開發專用銀漿，並導入[[LECO]]（激光增強接觸優化）技術，提升電池轉換效率。\n2. **美國模組產線：** 與大股東[[國碩]]合作，於美國加州建立550MW模組生產基地，規避貿易壁壘。\n3. **[[AI 伺服器]]液冷散熱：** 子公司碩通取得[[Parker Hannifin]]水冷快接頭代理權，提供軟硬管、CDU等液冷散熱零組件，切入[[AI 伺服器]]供應鏈。\n4. **電池材料：** 佈局矽碳負極材料，目標進入動力及[[儲能]]電池市場。",
+    "supply_chain_md": "**上游 (原材料):**\n- **貴金屬：** 銀粉、鋁粉等國際金屬原料供應商\n- **化學品：** 化學添加劑、有機溶劑供應商\n\n**中游 (製造):**\n- **碩禾 (3691)：** [[導電漿]]配方研發與精密混合加工、美國太陽能模組組裝\n- **子公司碩通：** [[AI 伺服器]]液冷散熱零組件經銷\n\n**下游 (終端應用):**\n- **太陽能電池廠：** [[LONGi]]（隆基綠能）、[[晶澳]] (JA Solar) 等國際一線電池大廠\n- **[[AI 伺服器]]：** 台灣主要ODM廠及散熱廠，需要液冷零組件\n- **自營電廠：** 菲律賓及台日太陽能電站",
+    "customers_suppliers_md": "### 主要客戶\n- **太陽能導電漿：** [[LONGi]]（隆基綠能，長期供貨協議）、兩岸與國際一線N型太陽能電池製造商\n- **液冷散熱（碩通）：** 台灣主要[[AI 伺服器]]ODM廠與散熱解決方案廠商\n- **美國模組：** 美國本土太陽能系統商\n\n### 主要供應商\n- **貴金屬原料：** 國際銀粉、鋁粉供應商\n- **液冷零組件：** [[Parker Hannifin]]（水冷快接頭代理）\n- **設備：** [[國碩]] (2406)（母公司，提供設備支援）",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $97.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.20 | 1.48 |     45.42 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5812.09 |      6354.72 |      2958.41 |\n| Gross Profit            |       502.96 |       270.21 |      -160.16 |\n| Gross Margin (%)        |         8.65 |         4.25 |        -5.41 |\n| Selling & Marketing Exp |       243.18 |       272.48 |       226.70 |\n| R&D Exp                 |       336.51 |       322.21 |       314.16 |\n| General & Admin Exp     |       367.89 |       344.85 |       317.02 |\n| Operating Income        |      -444.63 |      -669.34 |     -1018.05 |\n| Operating Margin (%)    |        -7.65 |       -10.53 |       -34.41 |\n| Net Income              |      -699.88 |      -515.77 |      -810.58 |\n| Net Margin (%)          |       -12.04 |        -8.12 |       -27.40 |\n| Op Cash Flow            |       -53.63 |     -2382.31 |      -477.88 |\n| Investing Cash Flow     |      -844.09 |        60.84 |      -740.53 |\n| Financing Cash Flow     |       619.86 |      1893.89 |       504.02 |\n| CAPEX                   |      -783.48 |      -295.33 |      -507.99 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2168.55 |      1513.83 |      1238.27 |       891.45 |\n| Gross Profit            |       227.84 |       173.38 |        53.98 |        47.76 |\n| Gross Margin (%)        |        10.51 |        11.45 |         4.36 |         5.36 |\n| Selling & Marketing Exp |        54.74 |        73.28 |        60.13 |        55.04 |\n| R&D Exp                 |       104.81 |        71.92 |        93.46 |        66.32 |\n| General & Admin Exp     |       113.32 |        99.65 |        80.58 |        74.34 |\n| Operating Income        |       -45.03 |       -71.47 |      -180.19 |      -147.94 |\n| Operating Margin (%)    |        -2.08 |        -4.72 |       -14.55 |       -16.60 |\n| Net Income              |        49.02 |      -104.73 |      -552.40 |       -91.78 |\n| Net Margin (%)          |         2.26 |        -6.92 |       -44.61 |       -10.30 |\n| Op Cash Flow            |      -364.06 |      -246.20 |      -105.42 |       662.05 |\n| Investing Cash Flow     |      -209.26 |      -418.28 |      -193.66 |       -22.89 |\n| Financing Cash Flow     |       254.62 |       479.77 |       276.87 |      -391.40 |\n| CAPEX                   |      -467.60 |      -210.83 |       -70.18 |       -34.87 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

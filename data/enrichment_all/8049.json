@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8049",
+  "company_name": "晶采",
+  "title": "8049 - 晶采",
+  "source_md": "Pilot_Reports/平面顯示器 - 顯示器模組/8049_晶采.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,945 百萬台幣",
+    "enterprise_value": "2,029 百萬台幣"
+  },
+  "business": {
+    "summary": "晶采光電科技 (8049，AMPIRE) 為台灣專注於中小尺寸工控用液晶顯示模組 (LCM) 之利基型製造商，主打「客製化、少量多樣」生產模式。\n\n公司核心產品為 [[TFT-LCD]] 顯示模組搭配電容式觸控面板之整合方案，營收結構以 [[TFT-LCD]] 占 82.8%、TN/STN/FSTN 占 16.5% 為主。產品具備高穩定度、寬溫域與長壽命特性，大量應用於嚴苛環境之工廠自動化設備、[[POS]] 終端機台、加油站系統、車載顯示、航海儀器及醫療儀器。外銷比重高，歐洲市場占營收近六成，為全球工控設備領域重要的 [[HMI]] (人機介面) 顯示方案供應商。",
+    "entities": [
+      "TFT-LCD",
+      "POS",
+      "HMI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板與零組件)",
+        "text": "**上游 (面板與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "TFT 面板",
+        "text": "面板廠 — 提供 TFT 液晶面板玻璃基板 (Cell)",
+        "entities": []
+      },
+      {
+        "category": "觸控感測器",
+        "text": "觸控面板感測器與觸控 IC 廠",
+        "entities": []
+      },
+      {
+        "category": "驅動IC",
+        "text": "顯示驅動 IC 設計廠",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (模組組裝)",
+        "text": "**中游 (模組組裝):**",
+        "entities": []
+      },
+      {
+        "category": "LCM 製造",
+        "text": "**晶采光電** (高度客製化工控用 [[TFT-LCD]] 液晶顯示模組與觸控面板之設計、組裝與整合)",
+        "entities": [
+          "TFT-LCD"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "工廠自動化",
+        "text": "工控 HMI 人機介面設備商",
+        "entities": []
+      },
+      {
+        "category": "加油站系統",
+        "text": "加油機台製造商",
+        "entities": []
+      },
+      {
+        "category": "醫療儀器",
+        "text": "醫療設備顯示器",
+        "entities": []
+      },
+      {
+        "category": "車載與航海",
+        "text": "車載資通訊與航海儀器製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工控設備",
+        "text": "歐美工控設備與 [[HMI]] 人機介面製造商 — 歐洲營收占比近六成",
+        "entities": [
+          "HMI"
+        ]
+      },
+      {
+        "role": "[[POS]] 終端",
+        "text": "全球 [[POS]] 收銀與加油站機台品牌商",
+        "entities": [
+          "POS"
+        ]
+      },
+      {
+        "role": "醫療儀器",
+        "text": "醫療設備顯示器製造商",
+        "entities": []
+      },
+      {
+        "role": "車載與航海",
+        "text": "車載資通訊與航海 [[GPS]] 儀器製造商",
+        "entities": [
+          "GPS"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "TFT 面板",
+        "text": "國內外面板廠 — 提供 [[TFT-LCD]] Cell 基板",
+        "entities": [
+          "TFT-LCD"
+        ]
+      },
+      {
+        "role": "觸控晶片",
+        "text": "觸控 IC 設計廠",
+        "entities": []
+      },
+      {
+        "role": "被動元件",
+        "text": "各式線束、連接器等電子零件廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "晶采光電科技 (8049，AMPIRE) 為台灣專注於中小尺寸工控用液晶顯示模組 (LCM) 之利基型製造商，主打「客製化、少量多樣」生產模式。",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TFT-LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT-LCD"
+    },
+    {
+      "name": "POS",
+      "type": "international_company_or_term",
+      "wikilink": "POS"
+    },
+    {
+      "name": "HMI",
+      "type": "international_company_or_term",
+      "wikilink": "HMI"
+    },
+    {
+      "name": "GPS",
+      "type": "international_company_or_term",
+      "wikilink": "GPS"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晶采光電科技 (8049，AMPIRE) 為台灣專注於中小尺寸工控用液晶顯示模組 (LCM) 之利基型製造商，主打「客製化、少量多樣」生產模式。\n\n公司核心產品為 [[TFT-LCD]] 顯示模組搭配電容式觸控面板之整合方案，營收結構以 [[TFT-LCD]] 占 82.8%、TN/STN/FSTN 占 16.5% 為主。產品具備高穩定度、寬溫域與長壽命特性，大量應用於嚴苛環境之工廠自動化設備、[[POS]] 終端機台、加油站系統、車載顯示、航海儀器及醫療儀器。外銷比重高，歐洲市場占營收近六成，為全球工控設備領域重要的 [[HMI]] (人機介面) 顯示方案供應商。",
+    "supply_chain_md": "**上游 (面板與零組件):**\n- **TFT 面板:** 面板廠 — 提供 TFT 液晶面板玻璃基板 (Cell)\n- **觸控感測器:** 觸控面板感測器與觸控 IC 廠\n- **驅動IC:** 顯示驅動 IC 設計廠\n- **背光模組:** LED 背光模組供應商\n\n**中游 (模組組裝):**\n- **LCM 製造:** **晶采光電** (高度客製化工控用 [[TFT-LCD]] 液晶顯示模組與觸控面板之設計、組裝與整合)\n\n**下游 (終端應用):**\n- **工廠自動化:** 工控 HMI 人機介面設備商\n- **加油站系統:** 加油機台製造商\n- **醫療儀器:** 醫療設備顯示器\n- **車載與航海:** 車載資通訊與航海儀器製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **工控設備:** 歐美工控設備與 [[HMI]] 人機介面製造商 — 歐洲營收占比近六成\n- **[[POS]] 終端:** 全球 [[POS]] 收銀與加油站機台品牌商\n- **醫療儀器:** 醫療設備顯示器製造商\n- **車載與航海:** 車載資通訊與航海 [[GPS]] 儀器製造商\n\n### 主要供應商\n- **TFT 面板:** 國內外面板廠 — 提供 [[TFT-LCD]] Cell 基板\n- **觸控晶片:** 觸控 IC 設計廠\n- **被動元件:** 各式線束、連接器等電子零件廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.88 |         N/A |      2.35 | 1.30 |      9.44 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1310.43 |      1322.55 |      2088.40 |\n| Gross Profit            |       368.80 |       363.84 |       642.47 |\n| Gross Margin (%)        |        28.14 |        27.51 |        30.76 |\n| Selling & Marketing Exp |        47.86 |        50.53 |        55.92 |\n| R&D Exp                 |        32.42 |        34.09 |        38.99 |\n| General & Admin Exp     |        87.70 |        93.20 |       107.95 |\n| Operating Income        |       200.82 |       186.03 |       439.60 |\n| Operating Margin (%)    |        15.32 |        14.07 |        21.05 |\n| Net Income              |       203.01 |       295.71 |       401.17 |\n| Net Margin (%)          |        15.49 |        22.36 |        19.21 |\n| Op Cash Flow            |       282.43 |       259.57 |       728.43 |\n| Investing Cash Flow     |       -80.22 |        35.23 |      -387.99 |\n| Financing Cash Flow     |      -257.48 |      -341.30 |      -375.65 |\n| CAPEX                   |        -8.93 |       -40.64 |       -10.48 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       346.26 |       321.52 |       324.20 |       328.86 |\n| Gross Profit            |        97.06 |        85.43 |        97.49 |        92.68 |\n| Gross Margin (%)        |        28.03 |        26.57 |        30.07 |        28.18 |\n| Selling & Marketing Exp |        11.72 |        11.84 |        12.69 |         9.92 |\n| R&D Exp                 |         8.52 |         7.58 |         7.92 |         5.57 |\n| General & Admin Exp     |        23.11 |        20.12 |        21.94 |        24.98 |\n| Operating Income        |        53.71 |        45.90 |        54.94 |        52.21 |\n| Operating Margin (%)    |        15.51 |        14.28 |        16.95 |        15.88 |\n| Net Income              |        53.34 |        36.45 |        54.73 |        49.72 |\n| Net Margin (%)          |        15.40 |        11.34 |        16.88 |        15.12 |\n| Op Cash Flow            |       114.71 |       123.66 |        43.90 |       102.76 |\n| Investing Cash Flow     |      -120.45 |       125.88 |        78.80 |      -277.92 |\n| Financing Cash Flow     |        -4.79 |        -5.30 |        -5.52 |        -5.46 |\n| CAPEX                   |        -1.21 |        -1.70 |        -2.08 |        -3.44 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

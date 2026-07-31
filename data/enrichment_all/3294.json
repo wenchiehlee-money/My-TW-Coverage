@@ -1,0 +1,187 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3294",
+  "company_name": "英濟",
+  "title": "3294 - 英濟",
+  "source_md": "Pilot_Reports/醫療器材 - 電子零組件、塑化材料、五金零件/3294_英濟.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,604 百萬台幣",
+    "enterprise_value": "2,546 百萬台幣"
+  },
+  "business": {
+    "summary": "英濟 (3294，[[Megaforce]]) 專精於高精密塑膠射出成型與模具開發，業務橫跨三大領域：消費電子 (傳統業務)、生醫材 (高毛利) 與光電/AR (未來成長引擎)。\n\n核心成長動能：(1) AR 智慧眼鏡 — 轉投資英錡科技開發 [[LCoS]] 與 LBS 微型光機模組，光機引擎已縮小至 1.2 立方公分、重量僅 3 克，取得國際雷射安全 Class 1 認證，成功切入 AR 智慧眼鏡供應鏈；(2) 生醫事業 — 提供醫療器材開模與射出，並開發 AI 醫療輔助軟體 MegAi Assistant，已獲大型醫院採用；(3) 消費電子 — 為 [[Logitech]] 電競滑鼠主要代工夥伴。生產基地涵蓋台灣、中國與高雄智慧工廠。",
+    "entities": [
+      "Megaforce",
+      "LCoS",
+      "Logitech"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (塑膠與光學材料)",
+        "text": "**上游 (塑膠與光學材料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "工程塑膠與特殊樹脂供應商",
+        "entities": []
+      },
+      {
+        "category": "光學元件",
+        "text": "微型透鏡、[[LCoS]] 面板、雷射二極體",
+        "entities": [
+          "LCoS"
+        ]
+      },
+      {
+        "category": "模具鋼材",
+        "text": "精密模具用特殊鋼材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (精密射出與光機模組)",
+        "text": "**中游 (精密射出與光機模組):**",
+        "entities": []
+      },
+      {
+        "category": "精密射出",
+        "text": "**英濟** (高精密塑膠零組件射出成型)",
+        "entities": []
+      },
+      {
+        "category": "AR 光機",
+        "text": "英錡科技 ([[LCoS]]/LBS 微型光機引擎)",
+        "entities": [
+          "LCoS"
+        ]
+      },
+      {
+        "category": "生醫射出",
+        "text": "**英濟** (醫療器材開模與射出)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (消費電子、AR 與生醫)",
+        "text": "**下游 (消費電子、AR 與生醫):**",
+        "entities": []
+      },
+      {
+        "category": "電競周邊",
+        "text": "[[Logitech]] — 電競滑鼠代工",
+        "entities": [
+          "Logitech"
+        ]
+      },
+      {
+        "category": "AR 眼鏡",
+        "text": "國際 AR 智慧眼鏡品牌 — 微型光機模組",
+        "entities": []
+      },
+      {
+        "category": "醫療院所",
+        "text": "國內大型醫院 — AI 醫療輔助系統",
+        "entities": []
+      },
+      {
+        "category": "工業自動化",
+        "text": "VR 與工業自動化設備廠 — 光機模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電競周邊",
+        "text": "[[Logitech]] — 電競滑鼠精密射出代工",
+        "entities": [
+          "Logitech"
+        ]
+      },
+      {
+        "role": "AR 智慧眼鏡",
+        "text": "國際 AR 眼鏡品牌 — [[LCoS]]/LBS 微型光機引擎",
+        "entities": [
+          "LCoS"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "國內大型醫院 — AI 醫療輔助軟體 MegAi",
+        "entities": []
+      },
+      {
+        "role": "3C 品牌",
+        "text": "消費電子品牌 — 精密塑膠零組件射出",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學元件",
+        "text": "[[LCoS]] 面板、微型透鏡與雷射二極體供應商",
+        "entities": [
+          "LCoS"
+        ]
+      },
+      {
+        "role": "塑膠原料",
+        "text": "工程塑膠與特殊樹脂供應商",
+        "entities": []
+      },
+      {
+        "role": "模具鋼材",
+        "text": "精密射出模具用特殊鋼材廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Megaforce",
+      "type": "international_company_or_term",
+      "wikilink": "Megaforce"
+    },
+    {
+      "name": "LCoS",
+      "type": "international_company_or_term",
+      "wikilink": "LCoS"
+    },
+    {
+      "name": "Logitech",
+      "type": "international_company_or_term",
+      "wikilink": "Logitech"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "英濟 (3294，[[Megaforce]]) 專精於高精密塑膠射出成型與模具開發，業務橫跨三大領域：消費電子 (傳統業務)、生醫材 (高毛利) 與光電/AR (未來成長引擎)。\n\n核心成長動能：(1) AR 智慧眼鏡 — 轉投資英錡科技開發 [[LCoS]] 與 LBS 微型光機模組，光機引擎已縮小至 1.2 立方公分、重量僅 3 克，取得國際雷射安全 Class 1 認證，成功切入 AR 智慧眼鏡供應鏈；(2) 生醫事業 — 提供醫療器材開模與射出，並開發 AI 醫療輔助軟體 MegAi Assistant，已獲大型醫院採用；(3) 消費電子 — 為 [[Logitech]] 電競滑鼠主要代工夥伴。生產基地涵蓋台灣、中國與高雄智慧工廠。",
+    "supply_chain_md": "**上游 (塑膠與光學材料):**\n- **塑膠粒:** 工程塑膠與特殊樹脂供應商\n- **光學元件:** 微型透鏡、[[LCoS]] 面板、雷射二極體\n- **模具鋼材:** 精密模具用特殊鋼材\n\n**中游 (精密射出與光機模組):**\n- **精密射出:** **英濟** (高精密塑膠零組件射出成型)\n- **AR 光機:** 英錡科技 ([[LCoS]]/LBS 微型光機引擎)\n- **生醫射出:** **英濟** (醫療器材開模與射出)\n\n**下游 (消費電子、AR 與生醫):**\n- **電競周邊:** [[Logitech]] — 電競滑鼠代工\n- **AR 眼鏡:** 國際 AR 智慧眼鏡品牌 — 微型光機模組\n- **醫療院所:** 國內大型醫院 — AI 醫療輔助系統\n- **工業自動化:** VR 與工業自動化設備廠 — 光機模組",
+    "customers_suppliers_md": "### 主要客戶\n- **電競周邊:** [[Logitech]] — 電競滑鼠精密射出代工\n- **AR 智慧眼鏡:** 國際 AR 眼鏡品牌 — [[LCoS]]/LBS 微型光機引擎\n- **醫療:** 國內大型醫院 — AI 醫療輔助軟體 MegAi\n- **3C 品牌:** 消費電子品牌 — 精密塑膠零組件射出\n\n### 主要供應商\n- **光學元件:** [[LCoS]] 面板、微型透鏡與雷射二極體供應商\n- **塑膠原料:** 工程塑膠與特殊樹脂供應商\n- **模具鋼材:** 精密射出模具用特殊鋼材廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $26.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.99 | 1.56 |     42.50 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3568.96 |      4312.50 |      4138.16 |\n| Gross Profit            |       517.93 |       669.66 |       557.95 |\n| Gross Margin (%)        |        14.51 |        15.53 |        13.48 |\n| Selling & Marketing Exp |        99.30 |        97.25 |       102.65 |\n| R&D Exp                 |       153.36 |       137.82 |       180.97 |\n| General & Admin Exp     |       326.58 |       383.81 |       321.33 |\n| Operating Income        |       -61.32 |        50.78 |       -47.01 |\n| Operating Margin (%)    |        -1.72 |         1.18 |        -1.14 |\n| Net Income              |       -64.38 |        75.62 |      -129.39 |\n| Net Margin (%)          |        -1.80 |         1.75 |        -3.13 |\n| Op Cash Flow            |        74.93 |       204.87 |       380.29 |\n| Investing Cash Flow     |      -434.62 |      -410.46 |       332.79 |\n| Financing Cash Flow     |      -122.51 |      -504.54 |      -317.69 |\n| CAPEX                   |      -273.32 |       -51.83 |       -51.15 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       880.37 |      1092.43 |       917.20 |       678.96 |\n| Gross Profit            |       148.53 |       213.31 |       124.75 |        31.34 |\n| Gross Margin (%)        |        16.87 |        19.53 |        13.60 |         4.62 |\n| Selling & Marketing Exp |        24.00 |        24.39 |        27.18 |        23.74 |\n| R&D Exp                 |        42.55 |        37.12 |        37.01 |        36.67 |\n| General & Admin Exp     |        79.06 |        84.30 |        79.84 |        83.39 |\n| Operating Income        |         2.91 |        67.51 |       -19.27 |      -112.47 |\n| Operating Margin (%)    |         0.33 |         6.18 |        -2.10 |       -16.56 |\n| Net Income              |        12.15 |        60.02 |       -66.20 |       -70.35 |\n| Net Margin (%)          |         1.38 |         5.49 |        -7.22 |       -10.36 |\n| Op Cash Flow            |       150.80 |        -7.92 |      -179.08 |       111.12 |\n| Investing Cash Flow     |       -65.14 |      -355.48 |        49.88 |       -63.89 |\n| Financing Cash Flow     |        71.93 |       -92.96 |       -91.45 |       -10.03 |\n| CAPEX                   |       -69.71 |      -183.84 |       -10.03 |        -9.74 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8261",
+  "company_name": "富鼎",
+  "title": "8261 - 富鼎",
+  "source_md": "Pilot_Reports/半導體 - IC設計/8261_富鼎.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "20,863 百萬台幣",
+    "enterprise_value": "16,728 百萬台幣"
+  },
+  "business": {
+    "summary": "富鼎先進電子 (8261，APEC) 為台灣 Power [[MOSFET]] 設計公司，台灣第一家成功整合 6 吋 DMOS 製程之 IC 設計公司。產品涵蓋全系列高/低/中壓 Power [[MOSFET]] 及 [[IGBT]]，應用於交換式電源供應器、PC、散熱風扇及馬達驅動。近期完成 600V-1200V [[碳化矽]] (SiC) [[MOSFET]] 開發。主要股東包括國創半導體及與[[鴻海]]、[[國巨]]集團之資源合作。",
+    "entities": [
+      "MOSFET",
+      "IGBT",
+      "碳化矽",
+      "鴻海",
+      "國巨"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "台灣功率半導體晶圓代工",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "[[MOSFET]]/[[IGBT]]",
+        "text": "**富鼎** (Power [[MOSFET]]/[[IGBT]]/SiC [[MOSFET]] 設計)",
+        "entities": [
+          "MOSFET",
+          "IGBT"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電源應用)",
+        "text": "**下游 (電源應用):**",
+        "entities": []
+      },
+      {
+        "category": "電源供應器",
+        "text": "交換式電源供應器廠",
+        "entities": []
+      },
+      {
+        "category": "PC",
+        "text": "PC 及散熱風扇電源",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源供應器",
+        "text": "交換式電源供應器廠",
+        "entities": []
+      },
+      {
+        "role": "PC",
+        "text": "PC 及散熱風扇電源客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "股東",
+        "text": "[[鴻海]]、[[國巨]] (集團資源合作)",
+        "entities": [
+          "鴻海",
+          "國巨"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[杰力]]、[[大中科技]]",
+        "entities": [
+          "杰力",
+          "大中科技"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[杰力]]、[[大中科技]]",
+        "entities": [
+          "杰力",
+          "大中科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "國巨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國巨"
+    },
+    {
+      "name": "杰力",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杰力"
+    },
+    {
+      "name": "大中科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大中科技"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富鼎先進電子 (8261，APEC) 為台灣 Power [[MOSFET]] 設計公司，台灣第一家成功整合 6 吋 DMOS 製程之 IC 設計公司。產品涵蓋全系列高/低/中壓 Power [[MOSFET]] 及 [[IGBT]]，應用於交換式電源供應器、PC、散熱風扇及馬達驅動。近期完成 600V-1200V [[碳化矽]] (SiC) [[MOSFET]] 開發。主要股東包括國創半導體及與[[鴻海]]、[[國巨]]集團之資源合作。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** 台灣功率半導體晶圓代工\n\n**中游 (IC 設計):**\n- **[[MOSFET]]/[[IGBT]]:** **富鼎** (Power [[MOSFET]]/[[IGBT]]/SiC [[MOSFET]] 設計)\n\n**下游 (電源應用):**\n- **電源供應器:** 交換式電源供應器廠\n- **PC:** PC 及散熱風扇電源",
+    "customers_suppliers_md": "### 主要客戶\n- **電源供應器:** 交換式電源供應器廠\n- **PC:** PC 及散熱風扇電源客戶\n\n### 主要供應商\n- **股東:** [[鴻海]]、[[國巨]] (集團資源合作)\n- **競爭同業:** [[杰力]]、[[大中科技]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $158.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     27.19 |         N/A |      5.93 | 3.17 |     19.64 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3104.31 |      2918.41 |      2851.16 |\n| Gross Profit            |      1160.55 |       833.93 |       745.01 |\n| Gross Margin (%)        |        37.39 |        28.57 |        26.13 |\n| Selling & Marketing Exp |        84.74 |        87.78 |        95.41 |\n| R&D Exp                 |       137.51 |       134.03 |       155.29 |\n| General & Admin Exp     |       154.43 |       138.50 |       185.42 |\n| Operating Income        |       783.87 |       473.63 |       308.90 |\n| Operating Margin (%)    |        25.25 |        16.23 |        10.83 |\n| Net Income              |       678.96 |       565.22 |       330.43 |\n| Net Margin (%)          |        21.87 |        19.37 |        11.59 |\n| Op Cash Flow            |       576.96 |       843.75 |       387.84 |\n| Investing Cash Flow     |       452.74 |      -704.46 |       265.64 |\n| Financing Cash Flow     |      -368.23 |      -267.90 |      -569.01 |\n| CAPEX                   |       -26.94 |       -19.30 |       -34.95 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       781.53 |       740.11 |       818.18 |       715.91 |\n| Gross Profit            |       297.56 |       280.45 |       310.31 |       264.71 |\n| Gross Margin (%)        |        38.07 |        37.89 |        37.93 |        36.98 |\n| Selling & Marketing Exp |        19.33 |        21.36 |        22.05 |        21.06 |\n| R&D Exp                 |        34.63 |        37.53 |        34.02 |        30.35 |\n| General & Admin Exp     |        43.03 |        37.53 |        35.19 |        42.16 |\n| Operating Income        |       200.57 |       184.03 |       219.05 |       171.15 |\n| Operating Margin (%)    |        25.66 |        24.86 |        26.77 |        23.91 |\n| Net Income              |       186.30 |       199.64 |        79.39 |       171.55 |\n| Net Margin (%)          |        23.84 |        26.97 |         9.70 |        23.96 |\n| Op Cash Flow            |       213.94 |       152.82 |       175.88 |       312.83 |\n| Investing Cash Flow     |      -355.87 |      -142.62 |       -13.76 |      -326.83 |\n| Financing Cash Flow     |        -1.10 |        -2.65 |        -1.26 |        12.83 |\n| CAPEX                   |       -11.97 |        -4.41 |       -11.79 |        -5.08 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

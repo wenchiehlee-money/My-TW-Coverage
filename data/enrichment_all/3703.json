@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3703",
+  "company_name": "欣陸",
+  "title": "3703 - 欣陸",
+  "source_md": "Pilot_Reports/建材營造 - 營造業/3703_欣陸.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "16,835 百萬台幣",
+    "enterprise_value": "49,599 百萬台幣"
+  },
+  "business": {
+    "summary": "[[欣陸投控]]（[[Continental]] Holdings）為投資控股公司，2010 年由大陸工程以 1:1 股份轉換設立，旗下涵蓋三大事業群：營造工程（[[大陸工程]]）、不動產開發（[[大陸建設]]）及環境工程（欣達環工）。[[大陸工程]]自 1945 年成立，為台灣歷史最悠久之營造廠之一，實績涵蓋軍事設施、工廠、高速公路、隧道、橋樑、[[台北捷運]] 及 [[台灣高鐵]] 等重大公共建設。[[大陸建設]]負責住宅、商辦等投資興建與租售。欣達環工負責水資源回收再利用及污水下水道興建營運（BOT）。",
+    "entities": [
+      "欣陸投控",
+      "Continental",
+      "大陸工程",
+      "大陸建設",
+      "台北捷運",
+      "台灣高鐵"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (建材與設備)",
+        "text": "**上游 (建材與設備):**",
+        "entities": []
+      },
+      {
+        "category": "鋼筋",
+        "text": "[[東和鋼鐵]]、[[豐興鋼鐵]]",
+        "entities": [
+          "東和鋼鐵",
+          "豐興鋼鐵"
+        ]
+      },
+      {
+        "category": "水泥",
+        "text": "[[台灣水泥]]、[[亞洲水泥]]",
+        "entities": [
+          "台灣水泥",
+          "亞洲水泥"
+        ]
+      },
+      {
+        "category": "重機械",
+        "text": "營建重機械供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (營造與開發)",
+        "text": "**中游 (營造與開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[大陸工程]]** — 大型公共工程營造（高鐵、捷運、橋隧）",
+        "entities": [
+          "大陸工程"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[大陸建設]]** — 住宅與商辦不動產開發",
+        "entities": [
+          "大陸建設"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**欣達環工** — 水處理與環境工程 BOT",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (業主端)",
+        "text": "**下游 (業主端):**",
+        "entities": []
+      },
+      {
+        "category": "交通",
+        "text": "[[台灣高鐵]]、[[台北捷運]]",
+        "entities": [
+          "台灣高鐵",
+          "台北捷運"
+        ]
+      },
+      {
+        "category": "住宅",
+        "text": "高端住宅購屋者",
+        "entities": []
+      },
+      {
+        "category": "環保",
+        "text": "地方政府（污水處理 BOT）",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "交通建設",
+        "text": "[[台灣高鐵]]、[[台北捷運]]、交通部高速公路局",
+        "entities": [
+          "台灣高鐵",
+          "台北捷運"
+        ]
+      },
+      {
+        "role": "住宅",
+        "text": "高端住宅購屋者（[[大陸建設]] 建案）",
+        "entities": [
+          "大陸建設"
+        ]
+      },
+      {
+        "role": "環保工程",
+        "text": "地方政府（污水處理 BOT/OT 案）",
+        "entities": []
+      },
+      {
+        "role": "公共工程",
+        "text": "政府機關",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼筋",
+        "text": "[[東和鋼鐵]]、[[豐興鋼鐵]]",
+        "entities": [
+          "東和鋼鐵",
+          "豐興鋼鐵"
+        ]
+      },
+      {
+        "role": "水泥",
+        "text": "[[台灣水泥]]、[[亞洲水泥]]",
+        "entities": [
+          "台灣水泥",
+          "亞洲水泥"
+        ]
+      },
+      {
+        "role": "環保設備",
+        "text": "水處理設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "欣陸投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣陸投控"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "大陸工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大陸工程"
+    },
+    {
+      "name": "大陸建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大陸建設"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    },
+    {
+      "name": "台灣高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣高鐵"
+    },
+    {
+      "name": "東和鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東和鋼鐵"
+    },
+    {
+      "name": "豐興鋼鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐興鋼鐵"
+    },
+    {
+      "name": "台灣水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣水泥"
+    },
+    {
+      "name": "亞洲水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞洲水泥"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[欣陸投控]]（[[Continental]] Holdings）為投資控股公司，2010 年由大陸工程以 1:1 股份轉換設立，旗下涵蓋三大事業群：營造工程（[[大陸工程]]）、不動產開發（[[大陸建設]]）及環境工程（欣達環工）。[[大陸工程]]自 1945 年成立，為台灣歷史最悠久之營造廠之一，實績涵蓋軍事設施、工廠、高速公路、隧道、橋樑、[[台北捷運]] 及 [[台灣高鐵]] 等重大公共建設。[[大陸建設]]負責住宅、商辦等投資興建與租售。欣達環工負責水資源回收再利用及污水下水道興建營運（BOT）。",
+    "supply_chain_md": "**上游 (建材與設備):**\n- **鋼筋:** [[東和鋼鐵]]、[[豐興鋼鐵]]\n- **水泥:** [[台灣水泥]]、[[亞洲水泥]]\n- **重機械:** 營建重機械供應商\n\n**中游 (營造與開發):**\n- **[[大陸工程]]** — 大型公共工程營造（高鐵、捷運、橋隧）\n- **[[大陸建設]]** — 住宅與商辦不動產開發\n- **欣達環工** — 水處理與環境工程 BOT\n\n**下游 (業主端):**\n- **交通:** [[台灣高鐵]]、[[台北捷運]]\n- **住宅:** 高端住宅購屋者\n- **環保:** 地方政府（污水處理 BOT）",
+    "customers_suppliers_md": "### 主要客戶\n- **交通建設:** [[台灣高鐵]]、[[台北捷運]]、交通部高速公路局\n- **住宅:** 高端住宅購屋者（[[大陸建設]] 建案）\n- **環保工程:** 地方政府（污水處理 BOT/OT 案）\n- **公共工程:** 政府機關\n\n### 主要供應商\n- **鋼筋:** [[東和鋼鐵]]、[[豐興鋼鐵]]\n- **水泥:** [[台灣水泥]]、[[亞洲水泥]]\n- **環保設備:** 水處理設備供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $20.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      9.90 |        7.10 |      0.51 | 0.62 |     22.25 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     34378.31 |     30701.38 |     30606.84 |\n| Gross Profit            |      4126.40 |      3727.57 |      4275.87 |\n| Gross Margin (%)        |        12.00 |        12.14 |        13.97 |\n| Selling & Marketing Exp |       575.16 |       664.30 |       478.37 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      1898.55 |      1814.45 |      1624.91 |\n| Operating Income        |      1652.69 |      1248.82 |      2172.60 |\n| Operating Margin (%)    |         4.81 |         4.07 |         7.10 |\n| Net Income              |      1481.36 |      1174.63 |      1716.74 |\n| Net Margin (%)          |         4.31 |         3.83 |         5.61 |\n| Op Cash Flow            |      2830.58 |      -948.50 |       439.23 |\n| Investing Cash Flow     |     -2829.02 |     -2927.05 |       605.50 |\n| Financing Cash Flow     |      4489.32 |      4039.30 |        15.57 |\n| CAPEX                   |     -3219.20 |     -3818.18 |     -1264.95 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      6361.10 |     12259.11 |      6995.80 |      7720.52 |\n| Gross Profit            |       914.71 |      1696.11 |       879.77 |       798.88 |\n| Gross Margin (%)        |        14.38 |        13.84 |        12.58 |        10.35 |\n| Selling & Marketing Exp |       127.96 |       301.99 |       123.64 |        66.92 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       462.31 |       506.02 |       473.17 |       454.71 |\n| Operating Income        |       324.45 |       888.10 |       282.96 |       277.24 |\n| Operating Margin (%)    |         5.10 |         7.24 |         4.04 |         3.59 |\n| Net Income              |       271.12 |       727.54 |       423.45 |       290.53 |\n| Net Margin (%)          |         4.26 |         5.93 |         6.05 |         3.76 |\n| Op Cash Flow            |       733.31 |      4681.32 |       711.63 |      1387.38 |\n| Investing Cash Flow     |     -1321.95 |     -1056.30 |        88.83 |      -680.58 |\n| Financing Cash Flow     |      -472.23 |       464.84 |     -1126.21 |      1400.02 |\n| CAPEX                   |      -378.33 |      -708.01 |      -575.33 |      -627.35 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

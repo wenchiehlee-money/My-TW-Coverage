@@ -1,0 +1,163 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5439",
+  "company_name": "高技",
+  "title": "5439 - 高技",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/5439_高技.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "18,177 百萬台幣",
+    "enterprise_value": "19,134 百萬台幣"
+  },
+  "business": {
+    "summary": "高技企業 (First Hi-tec) 成立於 1988 年，總部位於台灣[[桃園]]。公司專注於 **厚銅、多層、高頻微波印刷電路板 (PCB)** 之製造。產品主要應用於 **網通設備** (交換器/路由器)、**電工** (电源供应器)、**車用電子** ([[電動車]]充電椿/BMS) 及 **半導體測試** (IC Tester)。高技以少量多樣、高客製化之利基型市場為主，避開[[消費性電子]]之價格競爭。",
+    "entities": [
+      "桃園",
+      "電動車",
+      "消費性電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[銅箔]]基板 (CCL)、[[銅箔]]、膠片供應商。",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "角色",
+        "text": "印刷電路板製造商 (中游)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[網通]]設備廠、電源供應器廠、車用零組件廠、[[工業電腦]]廠。",
+        "entities": [
+          "網通",
+          "工業電腦"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網通",
+        "text": "智邦 (Accton), 明泰 (Alpha Networks), 中磊 (Sercomm)。",
+        "entities": []
+      },
+      {
+        "role": "車用/電源",
+        "text": "[[台達電]] (Delta Electronics, 透過其打入 [[Tesla]]/[[GM]]/[[Ford]]), 華城 (Fortune)。",
+        "entities": [
+          "台達電",
+          "Tesla",
+          "GM",
+          "Ford"
+        ]
+      },
+      {
+        "role": "工控",
+        "text": "研華 (Advantech), 威強電 (Portwell)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "高技企業 (First Hi-tec) 成立於 1988 年，總部位於台灣[[桃園]]。公司專注於 **厚銅、多層、高頻微波印刷電路板 (PCB)** 之製造。產品主要應用於 **網通設備** (交換器/路由器)、**電工** (电源供应器)、**車用電子** ([[電動車]]充電椿/BMS) 及 **半導體測試** (IC Tester)。高技以少量多樣、高客製化之利基型市場為主，避開[[消費性電子]]之價格競爭。",
+        "entities": [
+          "桃園",
+          "電動車",
+          "消費性電子"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "桃園",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "華城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華城"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "高技企業 (First Hi-tec) 成立於 1988 年，總部位於台灣[[桃園]]。公司專注於 **厚銅、多層、高頻微波印刷電路板 (PCB)** 之製造。產品主要應用於 **網通設備** (交換器/路由器)、**電工** (电源供应器)、**車用電子** ([[電動車]]充電椿/BMS) 及 **半導體測試** (IC Tester)。高技以少量多樣、高客製化之利基型市場為主，避開[[消費性電子]]之價格競爭。",
+    "supply_chain_md": "**角色:** 印刷電路板製造商 (中游)。\n**上游:** [[銅箔]]基板 (CCL)、[[銅箔]]、膠片供應商。\n**下游:** [[網通]]設備廠、電源供應器廠、車用零組件廠、[[工業電腦]]廠。",
+    "customers_suppliers_md": "### 主要客戶\n- **網通:** 智邦 (Accton), 明泰 (Alpha Networks), 中磊 (Sercomm)。\n- **車用/電源:** [[台達電]] (Delta Electronics, 透過其打入 [[Tesla]]/[[GM]]/[[Ford]]), 華城 (Fortune)。\n- **工控:** 研華 (Advantech), 威強電 (Portwell)。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $185.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     12.33 |         N/A |      1.60 | 4.04 |      8.71 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9643.59 |      4177.70 |      4350.48 |\n| Gross Profit            |      2177.97 |       642.15 |       832.41 |\n| Gross Margin (%)        |        22.58 |        15.37 |        19.13 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       -    |       -    |       -    |\n| Operating Income        |      1623.61 |       405.22 |       594.34 |\n| Operating Margin (%)    |        16.84 |         9.70 |        13.66 |\n| Net Income              |      1277.39 |       326.77 |       471.25 |\n| Net Margin (%)          |        13.25 |         7.82 |        10.83 |\n| Op Cash Flow            |       515.43 |       289.38 |       431.37 |\n| Investing Cash Flow     |     -1481.75 |      -445.92 |      -198.35 |\n| Financing Cash Flow     |      2711.33 |        20.13 |      -156.35 |\n| CAPEX                   |     -1515.31 |      -445.59 |      -182.99 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2537.74 |      2770.47 |      3160.77 |      2288.11 |\n| Gross Profit            |       515.91 |       658.18 |       793.00 |       431.91 |\n| Gross Margin (%)        |        20.33 |        23.76 |        25.09 |        18.88 |\n| Selling & Marketing Exp |        62.81 |       -    |       -    |       -    |\n| R&D Exp                 |        12.80 |       -    |       -    |       -    |\n| General & Admin Exp     |        67.53 |       -    |       -    |       -    |\n| Operating Income        |       372.77 |       464.05 |       622.40 |       328.43 |\n| Operating Margin (%)    |        14.69 |        16.75 |        19.69 |        14.35 |\n| Net Income              |       326.55 |       392.38 |       531.18 |       173.83 |\n| Net Margin (%)          |        12.87 |        14.16 |        16.81 |         7.60 |\n| Op Cash Flow            |       759.35 |       611.62 |       231.15 |      -294.47 |\n| Investing Cash Flow     |      -456.77 |      -264.03 |      -254.64 |      -617.07 |\n| Financing Cash Flow     |      -121.46 |      -141.97 |      1400.77 |       948.97 |\n| CAPEX                   |      -456.42 |      -266.86 |      -263.87 |      -638.16 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

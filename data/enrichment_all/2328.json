@@ -1,0 +1,178 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2328",
+  "company_name": "廣宇",
+  "title": "2328 - 廣宇",
+  "source_md": "Pilot_Reports/印刷電路板 - 硬板、軟板、IC載板製造/2328_廣宇.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "20,915 百萬台幣",
+    "enterprise_value": "16,737 百萬台幣"
+  },
+  "business": {
+    "summary": "廣宇科技 (2328) 是[[鴻海]]集團旗下的 [[PCB]] 製造及[[電子組裝]] (EMS) 服務商，採 B2B 銷售模式。主要業務涵蓋 PCB 設計與製造及電子組裝代工 (EMS)，產品應用於[[通訊設備]]、[[車用電子]]及[[工業自動化]]。",
+    "entities": [
+      "鴻海",
+      "PCB",
+      "電子組裝",
+      "通訊設備",
+      "車用電子",
+      "工業自動化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "[[銅箔]]基板",
+        "text": "CCL 供應",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "電子零組件",
+        "text": "SMT 組裝用零組件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (PCB 與 EMS)",
+        "text": "**中游 (PCB 與 EMS):**",
+        "entities": []
+      },
+      {
+        "category": "PCB/EMS",
+        "text": "**廣宇** ([[鴻海]]集團，PCB 製造及電子組裝代工)",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (系統整合)",
+        "text": "**下游 (系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "通訊設備",
+        "text": "全球通訊設備製造商",
+        "entities": []
+      },
+      {
+        "category": "車用電子",
+        "text": "車用電子供應商",
+        "entities": []
+      },
+      {
+        "category": "工業自動化",
+        "text": "工控設備客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "通訊設備",
+        "text": "全球通訊設備品牌",
+        "entities": []
+      },
+      {
+        "role": "車用電子",
+        "text": "車用電子 Tier 1 供應商",
+        "entities": []
+      },
+      {
+        "role": "母公司",
+        "text": "[[鴻海]] (集團內協同)",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CCL",
+        "text": "[[銅箔]]基板供應",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[鴻海]] (集團資源)",
+        "entities": [
+          "鴻海"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "電子組裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電子組裝"
+    },
+    {
+      "name": "通訊設備",
+      "type": "taiwan_company_or_term",
+      "wikilink": "通訊設備"
+    },
+    {
+      "name": "車用電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車用電子"
+    },
+    {
+      "name": "工業自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業自動化"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣宇科技 (2328) 是[[鴻海]]集團旗下的 [[PCB]] 製造及[[電子組裝]] (EMS) 服務商，採 B2B 銷售模式。主要業務涵蓋 PCB 設計與製造及電子組裝代工 (EMS)，產品應用於[[通訊設備]]、[[車用電子]]及[[工業自動化]]。",
+    "supply_chain_md": "**上游 (材料):**\n- **[[銅箔]]基板:** CCL 供應\n- **電子零組件:** SMT 組裝用零組件\n\n**中游 (PCB 與 EMS):**\n- **PCB/EMS:** **廣宇** ([[鴻海]]集團，PCB 製造及電子組裝代工)\n\n**下游 (系統整合):**\n- **通訊設備:** 全球通訊設備製造商\n- **車用電子:** 車用電子供應商\n- **工業自動化:** 工控設備客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **通訊設備:** 全球通訊設備品牌\n- **車用電子:** 車用電子 Tier 1 供應商\n- **母公司:** [[鴻海]] (集團內協同)\n\n### 主要供應商\n- **CCL:** [[銅箔]]基板供應\n- **母公司:** [[鴻海]] (集團資源)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $38.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     39.59 |       18.74 |      0.99 | 1.34 |     11.52 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     21770.84 |     21820.83 |     25634.26 |\n| Gross Profit            |      2660.36 |      2946.58 |      3175.16 |\n| Gross Margin (%)        |        12.22 |        13.50 |        12.39 |\n| Selling & Marketing Exp |       281.13 |       297.19 |       290.76 |\n| R&D Exp                 |       424.10 |       453.13 |       477.37 |\n| General & Admin Exp     |       813.74 |       912.14 |       806.59 |\n| Operating Income        |      1141.39 |      1284.12 |      1600.45 |\n| Operating Margin (%)    |         5.24 |         5.88 |         6.24 |\n| Net Income              |       808.19 |      1036.67 |      1256.71 |\n| Net Margin (%)          |         3.71 |         4.75 |         4.90 |\n| Op Cash Flow            |      1065.56 |       973.26 |      4435.59 |\n| Investing Cash Flow     |      -512.97 |      -502.09 |     -2025.52 |\n| Financing Cash Flow     |      -922.09 |      -380.04 |     -2518.65 |\n| CAPEX                   |      -656.82 |      -972.08 |      -828.21 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4252.31 |      4952.36 |      5371.01 |      5732.72 |\n| Gross Profit            |       331.14 |       618.03 |       689.39 |       711.57 |\n| Gross Margin (%)        |         7.79 |        12.48 |        12.84 |        12.41 |\n| Selling & Marketing Exp |        67.70 |        78.67 |        70.69 |        69.20 |\n| R&D Exp                 |        97.95 |       108.18 |       122.56 |        94.49 |\n| General & Admin Exp     |       180.26 |       230.24 |       206.58 |       195.47 |\n| Operating Income        |       -14.77 |       200.94 |       289.56 |       352.40 |\n| Operating Margin (%)    |        -0.35 |         4.06 |         5.39 |         6.15 |\n| Net Income              |       -83.97 |       176.98 |       172.76 |       242.90 |\n| Net Margin (%)          |        -1.97 |         3.57 |         3.22 |         4.24 |\n| Op Cash Flow            |        70.65 |       209.19 |       714.41 |       598.88 |\n| Investing Cash Flow     |       367.47 |      -796.18 |       166.28 |      -435.21 |\n| Financing Cash Flow     |      -114.31 |        35.92 |      -835.10 |        52.92 |\n| CAPEX                   |      -184.64 |      -204.72 |      -220.53 |       -95.02 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

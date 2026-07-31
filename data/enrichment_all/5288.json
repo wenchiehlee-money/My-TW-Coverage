@@ -1,0 +1,290 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5288",
+  "company_name": "豐祥-KY",
+  "title": "5288 - 豐祥-KY",
+  "source_md": "Pilot_Reports/醫療器材 - 電子零組件、塑化材料、五金零件/5288_豐祥-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Conglomerates",
+    "market_cap": "12,755 百萬台幣",
+    "enterprise_value": "10,862 百萬台幣"
+  },
+  "business": {
+    "summary": "豐祥控股（Eurocharm Holdings，KY公司）成立於1974年，在開曼群島註冊，主要生產據點位於台灣及越南。公司為專業金屬零組件製造商，核心能力涵蓋[[沖壓]]、[[焊接]]、[[電鍍]]、塗裝等金屬加工之垂直整合製程，並取得 ISO 9001、[[IATF 16949]]（汽車產業品質管理）及 [[ISO 13485]]（醫療器材品質管理）等國際認證。四大業務領域：（1）**機車零組件**（最大營收來源），為越南主要機車機構件供應商之一；（2）**休閒車輛零組件**（重型機車、沙灘車、雪車）；（3）**醫療器材**（病床、輪椅結構件）；（4）**汽車零部件**。越南廠員工約3,500人，具備成本及在地化供應鏈優勢，近年積極切入[[電動車]]（如[[VinFast]]）及[[AI 伺服器]]機殼等新興應用領域。",
+    "entities": [
+      "沖壓",
+      "焊接",
+      "電鍍",
+      "IATF 16949",
+      "ISO 13485",
+      "電動車",
+      "VinFast",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬原料)",
+        "text": "**上游 (金屬原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼鐵",
+        "text": "越南及國際鋼鐵供應商",
+        "entities": []
+      },
+      {
+        "category": "鋁材",
+        "text": "鋁合金板材與型材供應商",
+        "entities": []
+      },
+      {
+        "category": "表面處理材料",
+        "text": "電鍍液、塗料等化學品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (金屬加工製造)",
+        "text": "**中游 (金屬加工製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**豐祥-KY** — [[沖壓]]、[[焊接]]、[[電鍍]]、塗裝之垂直整合金屬零組件製造",
+        "entities": [
+          "沖壓",
+          "焊接",
+          "電鍍"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌終端)",
+        "text": "**下游 (品牌終端):**",
+        "entities": []
+      },
+      {
+        "category": "機車",
+        "text": "[[Honda]]（本田，最大客戶）、[[Yamaha]]、[[Ducati]]",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Ducati"
+        ]
+      },
+      {
+        "category": "休閒車輛",
+        "text": "[[Polaris]]（北極星）、[[Harley-Davidson]]（哈雷）",
+        "entities": [
+          "Polaris",
+          "Harley-Davidson"
+        ]
+      },
+      {
+        "category": "醫療器材",
+        "text": "[[Stryker]]（史賽克）、[[Hill-Rom]]",
+        "entities": [
+          "Stryker",
+          "Hill-Rom"
+        ]
+      },
+      {
+        "category": "汽車",
+        "text": "[[Toyota]]、[[Ford]]",
+        "entities": [
+          "Toyota",
+          "Ford"
+        ]
+      },
+      {
+        "category": "電動車",
+        "text": "[[VinFast]]（越南電動車）",
+        "entities": [
+          "VinFast"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "機車/休閒車輛",
+        "text": "[[Honda]]（本田，最大客戶）、[[Yamaha]]、[[Ducati]]（杜卡迪）、[[Polaris]]（北極星）、[[Harley-Davidson]]（哈雷）",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Ducati",
+          "Polaris",
+          "Harley-Davidson"
+        ]
+      },
+      {
+        "role": "汽車",
+        "text": "[[Toyota]]、[[Ford]]",
+        "entities": [
+          "Toyota",
+          "Ford"
+        ]
+      },
+      {
+        "role": "醫療器材",
+        "text": "[[Stryker]]（史賽克）、[[Hill-Rom]]（病床/輪椅結構件）",
+        "entities": [
+          "Stryker",
+          "Hill-Rom"
+        ]
+      },
+      {
+        "role": "電動車",
+        "text": "[[VinFast]]（越南電動車品牌）",
+        "entities": [
+          "VinFast"
+        ]
+      },
+      {
+        "role": "新興領域",
+        "text": "[[AI 伺服器]]機殼客戶（近期拓展）",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼鐵原料",
+        "text": "越南及國際鋼鐵廠",
+        "entities": []
+      },
+      {
+        "role": "鋁材",
+        "text": "鋁合金板材供應商",
+        "entities": []
+      },
+      {
+        "role": "表面處理",
+        "text": "電鍍化學品與塗料供應商",
+        "entities": []
+      },
+      {
+        "role": "模具",
+        "text": "自製及外部精密模具廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "沖壓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沖壓"
+    },
+    {
+      "name": "焊接",
+      "type": "taiwan_company_or_term",
+      "wikilink": "焊接"
+    },
+    {
+      "name": "電鍍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電鍍"
+    },
+    {
+      "name": "IATF 16949",
+      "type": "international_company_or_term",
+      "wikilink": "IATF 16949"
+    },
+    {
+      "name": "ISO 13485",
+      "type": "international_company_or_term",
+      "wikilink": "ISO 13485"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "VinFast",
+      "type": "international_company_or_term",
+      "wikilink": "VinFast"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "Ducati",
+      "type": "international_company_or_term",
+      "wikilink": "Ducati"
+    },
+    {
+      "name": "Polaris",
+      "type": "international_company_or_term",
+      "wikilink": "Polaris"
+    },
+    {
+      "name": "Harley-Davidson",
+      "type": "international_company_or_term",
+      "wikilink": "Harley-Davidson"
+    },
+    {
+      "name": "Stryker",
+      "type": "international_company_or_term",
+      "wikilink": "Stryker"
+    },
+    {
+      "name": "Hill-Rom",
+      "type": "international_company_or_term",
+      "wikilink": "Hill-Rom"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "豐祥控股（Eurocharm Holdings，KY公司）成立於1974年，在開曼群島註冊，主要生產據點位於台灣及越南。公司為專業金屬零組件製造商，核心能力涵蓋[[沖壓]]、[[焊接]]、[[電鍍]]、塗裝等金屬加工之垂直整合製程，並取得 ISO 9001、[[IATF 16949]]（汽車產業品質管理）及 [[ISO 13485]]（醫療器材品質管理）等國際認證。四大業務領域：（1）**機車零組件**（最大營收來源），為越南主要機車機構件供應商之一；（2）**休閒車輛零組件**（重型機車、沙灘車、雪車）；（3）**醫療器材**（病床、輪椅結構件）；（4）**汽車零部件**。越南廠員工約3,500人，具備成本及在地化供應鏈優勢，近年積極切入[[電動車]]（如[[VinFast]]）及[[AI 伺服器]]機殼等新興應用領域。",
+    "supply_chain_md": "**上游 (金屬原料):**\n- **鋼鐵:** 越南及國際鋼鐵供應商\n- **鋁材:** 鋁合金板材與型材供應商\n- **表面處理材料:** 電鍍液、塗料等化學品\n\n**中游 (金屬加工製造):**\n- **豐祥-KY** — [[沖壓]]、[[焊接]]、[[電鍍]]、塗裝之垂直整合金屬零組件製造\n\n**下游 (品牌終端):**\n- **機車:** [[Honda]]（本田，最大客戶）、[[Yamaha]]、[[Ducati]]\n- **休閒車輛:** [[Polaris]]（北極星）、[[Harley-Davidson]]（哈雷）\n- **醫療器材:** [[Stryker]]（史賽克）、[[Hill-Rom]]\n- **汽車:** [[Toyota]]、[[Ford]]\n- **電動車:** [[VinFast]]（越南電動車）",
+    "customers_suppliers_md": "### 主要客戶\n- **機車/休閒車輛:** [[Honda]]（本田，最大客戶）、[[Yamaha]]、[[Ducati]]（杜卡迪）、[[Polaris]]（北極星）、[[Harley-Davidson]]（哈雷）\n- **汽車:** [[Toyota]]、[[Ford]]\n- **醫療器材:** [[Stryker]]（史賽克）、[[Hill-Rom]]（病床/輪椅結構件）\n- **電動車:** [[VinFast]]（越南電動車品牌）\n- **新興領域:** [[AI 伺服器]]機殼客戶（近期拓展）\n\n### 主要供應商\n- **鋼鐵原料:** 越南及國際鋼鐵廠\n- **鋁材:** 鋁合金板材供應商\n- **表面處理:** 電鍍化學品與塗料供應商\n- **模具:** 自製及外部精密模具廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $185.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.43 |        8.83 |      1.85 | 2.12 |      9.22 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6805.06 |      7283.28 |      7267.33 |\n| Gross Profit            |      1521.88 |      1618.20 |      1522.59 |\n| Gross Margin (%)        |        22.36 |        22.22 |        20.95 |\n| Selling & Marketing Exp |       172.30 |       125.40 |        98.95 |\n| R&D Exp                 |        96.85 |        86.31 |        85.79 |\n| General & Admin Exp     |       331.43 |       275.29 |       244.61 |\n| Operating Income        |       921.30 |      1131.19 |      1093.24 |\n| Operating Margin (%)    |        13.54 |        15.53 |        15.04 |\n| Net Income              |       848.29 |      1141.28 |      1032.85 |\n| Net Margin (%)          |        12.47 |        15.67 |        14.21 |\n| Op Cash Flow            |      1050.13 |      1611.54 |      2052.95 |\n| Investing Cash Flow     |       -83.23 |      -764.73 |      -690.97 |\n| Financing Cash Flow     |      -588.95 |      -861.82 |     -1756.36 |\n| CAPEX                   |      -387.19 |      -246.81 |      -559.51 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2061.14 |      1804.75 |      1574.78 |      1892.25 |\n| Gross Profit            |       479.00 |       403.64 |       336.60 |       434.54 |\n| Gross Margin (%)        |        23.24 |        22.37 |        21.37 |        22.96 |\n| Selling & Marketing Exp |        70.90 |        48.86 |        46.10 |        38.77 |\n| R&D Exp                 |        26.90 |        29.68 |        22.02 |        21.32 |\n| General & Admin Exp     |        83.04 |        86.91 |        79.23 |        79.59 |\n| Operating Income        |       298.16 |       238.19 |       189.26 |       294.85 |\n| Operating Margin (%)    |        14.47 |        13.20 |        12.02 |        15.58 |\n| Net Income              |       249.06 |       244.25 |       100.81 |       259.05 |\n| Net Margin (%)          |        12.08 |        13.53 |         6.40 |        13.69 |\n| Op Cash Flow            |       -42.67 |        55.07 |       509.24 |       157.29 |\n| Investing Cash Flow     |        65.53 |        82.52 |      -334.10 |      -224.22 |\n| Financing Cash Flow     |       170.59 |       -76.49 |        63.93 |        -1.28 |\n| CAPEX                   |       -43.11 |       -61.52 |      -248.50 |       -32.84 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": []
+  }
+}

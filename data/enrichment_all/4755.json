@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4755",
+  "company_name": "三福化",
+  "title": "4755 - 三福化",
+  "source_md": "Pilot_Reports/半導體 - 化學品/4755_三福化.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "10,675 百萬台幣",
+    "enterprise_value": "11,544 百萬台幣"
+  },
+  "business": {
+    "summary": "三福化工 (4755，San Fu Chemical) 為半導體濕製程關鍵化學品供應商，核心產品涵蓋[[TMAH]]顯影液、蝕刻液、剝離液及清洗劑。為[[CoWoS]]先進封裝重大受惠者 — [[CoWoS]] 用剝離液 2024 年前三季營收成長 251%。半導體營收佔比目標從 20% 提升至 25-30%。主要客戶涵蓋[[台積電]] (主要客戶，[[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]、[[力成]]。面板客戶涵蓋[[友達]]、[[群創]]、[[彩晶]]。LED/太陽能客戶含[[晶元光電]]。另為[[TMAH]]廢液回收再利用先驅，實踐循環經濟。",
+    "entities": [
+      "TMAH",
+      "CoWoS",
+      "台積電",
+      "InFO",
+      "聯電",
+      "世界先進",
+      "力成",
+      "友達",
+      "群創",
+      "彩晶",
+      "晶元光電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "化工原料",
+        "text": "基礎酸鹼/溶劑",
+        "entities": []
+      },
+      {
+        "category": "TMAH 回收",
+        "text": "[[TMAH]]廢液回收再利用",
+        "entities": [
+          "TMAH"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**三福化** ([[TMAH]]顯影液/[[蝕刻]]液/剝離液/清洗劑)",
+        "entities": [
+          "TMAH",
+          "蝕刻"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] ([[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]",
+        "entities": [
+          "台積電",
+          "CoWoS",
+          "InFO",
+          "聯電",
+          "世界先進"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "[[力成]] — 先進封裝化學品",
+        "entities": [
+          "力成"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]]、[[群創]]、[[彩晶]]",
+        "entities": [
+          "友達",
+          "群創",
+          "彩晶"
+        ]
+      },
+      {
+        "category": "LED",
+        "text": "[[晶元光電]]",
+        "entities": [
+          "晶元光電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] ([[CoWoS]]/[[InFO]])、[[聯電]]、[[世界先進]]",
+        "entities": [
+          "台積電",
+          "CoWoS",
+          "InFO",
+          "聯電",
+          "世界先進"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "[[力成]] — 先進封裝",
+        "entities": [
+          "力成"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]]、[[彩晶]]",
+        "entities": [
+          "友達",
+          "群創",
+          "彩晶"
+        ]
+      },
+      {
+        "role": "LED",
+        "text": "[[晶元光電]]",
+        "entities": [
+          "晶元光電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "化工",
+        "text": "基礎酸鹼/溶劑；[[TMAH]]廢液回收",
+        "entities": [
+          "TMAH"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TMAH",
+      "type": "international_company_or_term",
+      "wikilink": "TMAH"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "InFO",
+      "type": "international_company_or_term",
+      "wikilink": "InFO"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "力成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力成"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "彩晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彩晶"
+    },
+    {
+      "name": "晶元光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶元光電"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三福化工 (4755，San Fu Chemical) 為半導體濕製程關鍵化學品供應商，核心產品涵蓋[[TMAH]]顯影液、蝕刻液、剝離液及清洗劑。為[[CoWoS]]先進封裝重大受惠者 — [[CoWoS]] 用剝離液 2024 年前三季營收成長 251%。半導體營收佔比目標從 20% 提升至 25-30%。主要客戶涵蓋[[台積電]] (主要客戶，[[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]、[[力成]]。面板客戶涵蓋[[友達]]、[[群創]]、[[彩晶]]。LED/太陽能客戶含[[晶元光電]]。另為[[TMAH]]廢液回收再利用先驅，實踐循環經濟。",
+    "supply_chain_md": "**上游 (原料):**\n- **化工原料:** 基礎酸鹼/溶劑\n- **TMAH 回收:** [[TMAH]]廢液回收再利用\n\n**中游 (製造):**\n- **三福化** ([[TMAH]]顯影液/[[蝕刻]]液/剝離液/清洗劑)\n\n**下游 (終端):**\n- **晶圓代工:** [[台積電]] ([[CoWoS]]/[[InFO]]製程)、[[聯電]]、[[世界先進]]\n- **封測:** [[力成]] — 先進封裝化學品\n- **面板:** [[友達]]、[[群創]]、[[彩晶]]\n- **LED:** [[晶元光電]]",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] ([[CoWoS]]/[[InFO]])、[[聯電]]、[[世界先進]]\n- **封測:** [[力成]] — 先進封裝\n- **面板:** [[友達]]、[[群創]]、[[彩晶]]\n- **LED:** [[晶元光電]]\n\n### 主要供應商\n- **化工:** 基礎酸鹼/溶劑；[[TMAH]]廢液回收",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $103.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     28.75 |       11.49 |      2.17 | 1.87 |     12.57 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4836.22 |      5324.42 |      4990.96 |\n| Gross Profit            |      1050.75 |      1011.07 |      1022.38 |\n| Gross Margin (%)        |        21.73 |        18.99 |        20.48 |\n| Selling & Marketing Exp |       242.45 |       247.78 |       214.84 |\n| R&D Exp                 |       143.91 |        86.71 |        80.61 |\n| General & Admin Exp     |       164.80 |       167.94 |       169.01 |\n| Operating Income        |       499.59 |       508.64 |       557.92 |\n| Operating Margin (%)    |        10.33 |         9.55 |        11.18 |\n| Net Income              |       372.32 |       412.57 |       444.46 |\n| Net Margin (%)          |         7.70 |         7.75 |         8.91 |\n| Op Cash Flow            |       930.83 |       618.31 |      1041.02 |\n| Investing Cash Flow     |      -332.70 |      -577.50 |      -725.24 |\n| Financing Cash Flow     |      -182.97 |       -14.23 |      -424.15 |\n| CAPEX                   |      -332.14 |      -536.83 |      -756.49 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1140.68 |      1250.36 |      1177.69 |      1244.63 |\n| Gross Profit            |       251.62 |       278.13 |       241.57 |       270.89 |\n| Gross Margin (%)        |        22.06 |        22.24 |        20.51 |        21.76 |\n| Selling & Marketing Exp |        59.71 |        63.33 |        58.95 |        60.01 |\n| R&D Exp                 |        28.93 |        36.65 |        59.80 |        25.87 |\n| General & Admin Exp     |        54.47 |        43.70 |        43.00 |        39.64 |\n| Operating Income        |       108.51 |       134.44 |        79.82 |       145.37 |\n| Operating Margin (%)    |         9.51 |        10.75 |         6.78 |        11.68 |\n| Net Income              |       101.59 |       131.24 |        95.93 |        34.47 |\n| Net Margin (%)          |         8.91 |        10.50 |         8.15 |         2.77 |\n| Op Cash Flow            |       243.17 |       418.75 |       227.42 |       107.00 |\n| Investing Cash Flow     |       -57.77 |       -66.88 |       -92.13 |       -81.44 |\n| Financing Cash Flow     |      -188.87 |      -101.52 |      -173.58 |       -65.69 |\n| CAPEX                   |      -103.91 |       -64.56 |       -92.68 |      -103.19 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

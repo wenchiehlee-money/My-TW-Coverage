@@ -1,0 +1,153 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5371",
+  "company_name": "中光電",
+  "title": "5371 - 中光電",
+  "source_md": "Pilot_Reports/人工智慧 - 系統整合/5371_中光電.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "27,955 百萬台幣",
+    "enterprise_value": "31,356 百萬台幣"
+  },
+  "business": {
+    "summary": "中光電 (Coretronic) 成立於 1992 年，總部位於台灣[[新竹]]。公司為全球 **背光模組 (Backlight Module)** 及 **投影機 (Projector)** 製造大廠。業務分為：(1) **影像產品**: DLP 投影機 (代工及自有品牌 Optoma)、車載投影、[[AR]]/[[VR]] 光機; (2) **節能產品**: LCD 背光模組 (TV/Monitor/NB/PID); (3) **新興事業**: 無人機 (中光電智能[[機器人]])、醫療影像、[[AI]] 感測。其中，無人機業務已打入軍用「非紅供應鏈」及美國商用市場。",
+    "entities": [
+      "新竹",
+      "AR",
+      "VR",
+      "機器人",
+      "AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "面板 ([[友達]]/[[群創]])、LED 晶片、光學元件、IC。",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "角色",
+        "text": "光電模組及系統製造商 (中下游)。",
+        "entities": []
+      },
+      {
+        "category": "下游",
+        "text": "電視/電腦品牌廠、國防部 (無人機)、工業/商業客戶。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "背光模組",
+        "text": "[[Dell]], [[HP]], [[Samsung]], [[LG]] 等全球顯示器/筆電品牌。",
+        "entities": [
+          "Dell",
+          "HP",
+          "Samsung",
+          "LG"
+        ]
+      },
+      {
+        "role": "投影機",
+        "text": "Optoma (奧圖碼, 自有品牌), 其他日系/美系投影機品牌代工。",
+        "entities": []
+      },
+      {
+        "role": "無人機",
+        "text": "台灣國防部 (軍用微型/監偵型), 美國警消單位。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "AR",
+      "type": "international_company_or_term",
+      "wikilink": "AR"
+    },
+    {
+      "name": "VR",
+      "type": "international_company_or_term",
+      "wikilink": "VR"
+    },
+    {
+      "name": "機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "機器人"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中光電 (Coretronic) 成立於 1992 年，總部位於台灣[[新竹]]。公司為全球 **背光模組 (Backlight Module)** 及 **投影機 (Projector)** 製造大廠。業務分為：(1) **影像產品**: DLP 投影機 (代工及自有品牌 Optoma)、車載投影、[[AR]]/[[VR]] 光機; (2) **節能產品**: LCD 背光模組 (TV/Monitor/NB/PID); (3) **新興事業**: 無人機 (中光電智能[[機器人]])、醫療影像、[[AI]] 感測。其中，無人機業務已打入軍用「非紅供應鏈」及美國商用市場。",
+    "supply_chain_md": "**角色:** 光電模組及系統製造商 (中下游)。\n**上游:** 面板 ([[友達]]/[[群創]])、LED 晶片、光學元件、IC。\n**下游:** 電視/電腦品牌廠、國防部 (無人機)、工業/商業客戶。",
+    "customers_suppliers_md": "### 主要客戶\n- **背光模組:** [[Dell]], [[HP]], [[Samsung]], [[LG]] 等全球顯示器/筆電品牌。\n- **投影機:** Optoma (奧圖碼, 自有品牌), 其他日系/美系投影機品牌代工。\n- **無人機:** 台灣國防部 (軍用微型/監偵型), 美國警消單位。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $68.50 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     72.11 |       39.14 |      0.66 | 0.81 |     27.49 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     39576.67 |     39668.94 |     39491.71 |\n| Gross Profit            |      6829.67 |      7050.16 |      7871.70 |\n| Gross Margin (%)        |        17.26 |        17.77 |        19.93 |\n| Selling & Marketing Exp |      1854.62 |      1899.95 |      1807.68 |\n| R&D Exp                 |      2914.59 |      2856.04 |      2902.00 |\n| General & Admin Exp     |      2198.17 |      2120.49 |      2220.48 |\n| Operating Income        |      -137.71 |       173.69 |       941.54 |\n| Operating Margin (%)    |        -0.35 |         0.44 |         2.38 |\n| Net Income              |       371.91 |       820.33 |      1391.92 |\n| Net Margin (%)          |         0.94 |         2.07 |         3.52 |\n| Op Cash Flow            |     -1103.35 |       657.64 |      4449.02 |\n| Investing Cash Flow     |     -3449.14 |     -5945.24 |      1723.01 |\n| Financing Cash Flow     |       789.58 |       584.69 |     -1628.99 |\n| CAPEX                   |     -3195.64 |     -2627.24 |     -1699.68 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     11296.87 |      9857.61 |      8473.90 |      9887.07 |\n| Gross Profit            |      2045.69 |      1788.69 |      1485.54 |      1880.24 |\n| Gross Margin (%)        |        18.11 |        18.15 |        17.53 |        19.02 |\n| Selling & Marketing Exp |       482.93 |       452.55 |       477.33 |       520.74 |\n| R&D Exp                 |       759.15 |       721.84 |       710.35 |       739.13 |\n| General & Admin Exp     |       536.94 |       564.14 |       514.76 |       554.09 |\n| Operating Income        |       266.68 |        50.15 |      -216.91 |        66.28 |\n| Operating Margin (%)    |         2.36 |         0.51 |        -2.56 |         0.67 |\n| Net Income              |       200.03 |        57.44 |        19.21 |       192.61 |\n| Net Margin (%)          |         1.77 |         0.58 |         0.23 |         1.95 |\n| Op Cash Flow            |       431.82 |      1199.47 |       620.94 |      1568.32 |\n| Investing Cash Flow     |      -910.76 |      -870.82 |     -3037.11 |     -1596.94 |\n| Financing Cash Flow     |      -208.10 |     -2071.18 |       370.09 |     -2807.87 |\n| CAPEX                   |     -1182.11 |      -873.35 |      -538.18 |      -516.10 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

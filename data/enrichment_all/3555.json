@@ -1,0 +1,210 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3555",
+  "company_name": "博士旺",
+  "title": "3555 - 博士旺",
+  "source_md": "Pilot_Reports/半導體 - IC通路/3555_博士旺.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "5,360 百萬台幣",
+    "enterprise_value": "4,744 百萬台幣"
+  },
+  "business": {
+    "summary": "博士旺創新 (3555，BaaS Innovation) 為企業級[[區塊鏈]]基礎建設與數位資產合規服務商。公司前身為 IC 設計廠，現已轉型為控股式經營，核心業務涵蓋：(1) 區塊鏈供應鏈金融平台開發，與[[中國信託]]合作建置企業應收帳款融資系統；(2) [[VASP]] 合規與數位資產基礎建設顧問服務；(3) 去中心化數位身分認證 ([[DID]]) 技術開發；(4) 生技保健食品與美容產品銷售；(5) [[記憶體]]與電子材料買賣。公司透過旗下子公司推動區塊鏈技術商業化，定位為台灣少數具備 VASP 牌照與合規能力之區塊鏈軟體商。",
+    "entities": [
+      "區塊鏈",
+      "中國信託",
+      "VASP",
+      "DID",
+      "記憶體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與原料)",
+        "text": "**上游 (技術與原料):**",
+        "entities": []
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 區塊鏈節點運算基礎設施",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "category": "區塊鏈協議",
+        "text": "[[Ethereum]]、[[Hyperledger]] — 底層分散式帳本技術",
+        "entities": [
+          "Ethereum",
+          "Hyperledger"
+        ]
+      },
+      {
+        "category": "電子材料",
+        "text": "[[記憶體]]模組及電子零組件供應商",
+        "entities": [
+          "記憶體"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台開發)",
+        "text": "**中游 (平台開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**博士旺** (企業級[[區塊鏈]]平台開發、[[DID]]數位身分認證、VASP 合規服務)",
+        "entities": [
+          "區塊鏈",
+          "DID"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "金融機構",
+        "text": "[[中國信託]] — 供應鏈金融區塊鏈平台合作",
+        "entities": [
+          "中國信託"
+        ]
+      },
+      {
+        "category": "政府專案",
+        "text": "數位身分與資安驗證",
+        "entities": []
+      },
+      {
+        "category": "生技通路",
+        "text": "保健食品與美容產品經銷",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融機構",
+        "text": "[[中國信託]] — 供應鏈金融區塊鏈平台合作",
+        "entities": [
+          "中國信託"
+        ]
+      },
+      {
+        "role": "政府單位",
+        "text": "數位身分認證與資安專案",
+        "entities": []
+      },
+      {
+        "role": "生技/電子",
+        "text": "經銷商與終端消費者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端基礎設施",
+        "text": "[[AWS]]、[[Microsoft Azure]]",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "區塊鏈技術",
+        "text": "[[Ethereum]]、[[Hyperledger]] 開源社群",
+        "entities": [
+          "Ethereum",
+          "Hyperledger"
+        ]
+      },
+      {
+        "role": "電子零組件",
+        "text": "[[記憶體]]模組供應商",
+        "entities": [
+          "記憶體"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "區塊鏈",
+      "type": "taiwan_company_or_term",
+      "wikilink": "區塊鏈"
+    },
+    {
+      "name": "中國信託",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託"
+    },
+    {
+      "name": "VASP",
+      "type": "international_company_or_term",
+      "wikilink": "VASP"
+    },
+    {
+      "name": "DID",
+      "type": "international_company_or_term",
+      "wikilink": "DID"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "Ethereum",
+      "type": "international_company_or_term",
+      "wikilink": "Ethereum"
+    },
+    {
+      "name": "Hyperledger",
+      "type": "international_company_or_term",
+      "wikilink": "Hyperledger"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "博士旺創新 (3555，BaaS Innovation) 為企業級[[區塊鏈]]基礎建設與數位資產合規服務商。公司前身為 IC 設計廠，現已轉型為控股式經營，核心業務涵蓋：(1) 區塊鏈供應鏈金融平台開發，與[[中國信託]]合作建置企業應收帳款融資系統；(2) [[VASP]] 合規與數位資產基礎建設顧問服務；(3) 去中心化數位身分認證 ([[DID]]) 技術開發；(4) 生技保健食品與美容產品銷售；(5) [[記憶體]]與電子材料買賣。公司透過旗下子公司推動區塊鏈技術商業化，定位為台灣少數具備 VASP 牌照與合規能力之區塊鏈軟體商。",
+    "supply_chain_md": "**上游 (技術與原料):**\n- **雲端平台:** [[AWS]]、[[Microsoft Azure]] — 區塊鏈節點運算基礎設施\n- **區塊鏈協議:** [[Ethereum]]、[[Hyperledger]] — 底層分散式帳本技術\n- **電子材料:** [[記憶體]]模組及電子零組件供應商\n\n**中游 (平台開發):**\n- **博士旺** (企業級[[區塊鏈]]平台開發、[[DID]]數位身分認證、VASP 合規服務)\n\n**下游 (終端應用):**\n- **金融機構:** [[中國信託]] — 供應鏈金融區塊鏈平台合作\n- **政府專案:** 數位身分與資安驗證\n- **生技通路:** 保健食品與美容產品經銷",
+    "customers_suppliers_md": "### 主要客戶\n- **金融機構:** [[中國信託]] — 供應鏈金融區塊鏈平台合作\n- **政府單位:** 數位身分認證與資安專案\n- **生技/電子:** 經銷商與終端消費者\n\n### 主要供應商\n- **雲端基礎設施:** [[AWS]]、[[Microsoft Azure]]\n- **區塊鏈技術:** [[Ethereum]]、[[Hyperledger]] 開源社群\n- **電子零組件:** [[記憶體]]模組供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $135.00 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.13 |         N/A |      7.75 | 6.54 |     40.49 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       282.48 |        65.00 |        65.41 |\n| Gross Profit            |        29.89 |        17.87 |        15.28 |\n| Gross Margin (%)        |        10.58 |        27.49 |        23.36 |\n| Selling & Marketing Exp |        17.40 |         8.46 |        10.18 |\n| R&D Exp                 |         3.90 |         3.93 |         3.93 |\n| General & Admin Exp     |        31.57 |        31.44 |        22.36 |\n| Operating Income        |       -22.98 |       -25.96 |       -21.19 |\n| Operating Margin (%)    |        -8.13 |       -39.94 |       -32.39 |\n| Net Income              |        44.26 |        -5.22 |       -18.33 |\n| Net Margin (%)          |        15.67 |        -8.02 |       -28.02 |\n| Op Cash Flow            |      -104.34 |        -7.59 |        10.50 |\n| Investing Cash Flow     |       -25.71 |         0.51 |      -119.94 |\n| Financing Cash Flow     |       230.92 |         6.38 |       105.47 |\n| CAPEX                   |       -12.84 |         0.00 |         0.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-06-30 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       178.09 |       105.56 |        30.81 |         6.35 |\n| Gross Profit            |       102.98 |        19.47 |        -1.62 |         0.99 |\n| Gross Margin (%)        |        57.83 |        18.45 |        -5.27 |        15.63 |\n| Selling & Marketing Exp |         9.04 |         7.18 |         2.96 |         2.81 |\n| R&D Exp                 |         2.53 |        -0.21 |         2.11 |         0.00 |\n| General & Admin Exp     |        21.80 |         7.91 |         8.04 |         7.46 |\n| Operating Income        |        69.61 |         4.59 |       -14.73 |        -9.28 |\n| Operating Margin (%)    |        39.08 |         4.35 |       -47.80 |      -146.03 |\n| Net Income              |        56.56 |        63.11 |        -9.45 |       -15.35 |\n| Net Margin (%)          |        31.76 |        59.78 |       -30.68 |      -241.67 |\n| Op Cash Flow            |       -    |         7.51 |       -10.83 |       -17.28 |\n| Investing Cash Flow     |       -    |       -23.18 |        -2.16 |        -0.17 |\n| Financing Cash Flow     |       -    |        28.84 |        55.30 |        14.28 |\n| CAPEX                   |       -    |       -12.72 |         0.00 |        -0.11 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

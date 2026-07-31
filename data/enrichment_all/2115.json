@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2115",
+  "company_name": "六暉-KY",
+  "title": "2115 - 六暉-KY",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 橡膠製品/2115_六暉-KY.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,249 百萬台幣",
+    "enterprise_value": "2,326 百萬台幣"
+  },
+  "business": {
+    "summary": "六暉-KY (2115，Liou Hwei) 為全球氣嘴 (valve stem) 領導廠商，全球市佔率約 10%。公司從橡膠配方到精密金屬加工垂直整合，產品供應全球主要輪胎廠及 TPMS 廠商。主要客戶涵蓋輪胎三巨頭[[普利司通]] (Bridgestone)、[[米其林]] (Michelin)、[[固特異]] (Goodyear)，以及台灣[[正新]] (Maxxis)、[[建大]] (Kenda)。TPMS 氣嘴供應[[為升]] (CUB Elecparts)、[[車王電]]。生產基地位於台灣彰化、中國廈門/崑山及印尼 (印尼二輪內胎市佔 60%)。另跨足手工具事業。",
+    "entities": [
+      "普利司通",
+      "米其林",
+      "固特異",
+      "正新",
+      "建大",
+      "為升",
+      "車王電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅材/橡膠/五金",
+        "text": "垂直整合自主加工",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**六暉** (氣嘴製造，台灣/中國/印尼工廠；手工具事業)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "輪胎 OEM",
+        "text": "[[普利司通]]、[[米其林]]、[[固特異]]、[[正新]]、[[建大]] — 氣嘴供應",
+        "entities": [
+          "普利司通",
+          "米其林",
+          "固特異",
+          "正新",
+          "建大"
+        ]
+      },
+      {
+        "category": "TPMS 廠",
+        "text": "[[為升]]、[[車王電]] — TPMS 氣嘴零組件",
+        "entities": [
+          "為升",
+          "車王電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "輪胎三巨頭",
+        "text": "[[普利司通]]、[[米其林]]、[[固特異]] — 氣嘴 OEM",
+        "entities": [
+          "普利司通",
+          "米其林",
+          "固特異"
+        ]
+      },
+      {
+        "role": "台灣輪胎",
+        "text": "[[正新]]、[[建大]] — 氣嘴供應",
+        "entities": [
+          "正新",
+          "建大"
+        ]
+      },
+      {
+        "role": "TPMS",
+        "text": "[[為升]]、[[車王電]] — TPMS 氣嘴零組件",
+        "entities": [
+          "為升",
+          "車王電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "銅材、橡膠、五金零組件 (垂直整合)",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "普利司通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "普利司通"
+    },
+    {
+      "name": "米其林",
+      "type": "taiwan_company_or_term",
+      "wikilink": "米其林"
+    },
+    {
+      "name": "固特異",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固特異"
+    },
+    {
+      "name": "正新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正新"
+    },
+    {
+      "name": "建大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建大"
+    },
+    {
+      "name": "為升",
+      "type": "taiwan_company_or_term",
+      "wikilink": "為升"
+    },
+    {
+      "name": "車王電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車王電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "六暉-KY (2115，Liou Hwei) 為全球氣嘴 (valve stem) 領導廠商，全球市佔率約 10%。公司從橡膠配方到精密金屬加工垂直整合，產品供應全球主要輪胎廠及 TPMS 廠商。主要客戶涵蓋輪胎三巨頭[[普利司通]] (Bridgestone)、[[米其林]] (Michelin)、[[固特異]] (Goodyear)，以及台灣[[正新]] (Maxxis)、[[建大]] (Kenda)。TPMS 氣嘴供應[[為升]] (CUB Elecparts)、[[車王電]]。生產基地位於台灣彰化、中國廈門/崑山及印尼 (印尼二輪內胎市佔 60%)。另跨足手工具事業。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅材/橡膠/五金:** 垂直整合自主加工\n\n**中游 (製造):**\n- **六暉** (氣嘴製造，台灣/中國/印尼工廠；手工具事業)\n\n**下游 (終端):**\n- **輪胎 OEM:** [[普利司通]]、[[米其林]]、[[固特異]]、[[正新]]、[[建大]] — 氣嘴供應\n- **TPMS 廠:** [[為升]]、[[車王電]] — TPMS 氣嘴零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **輪胎三巨頭:** [[普利司通]]、[[米其林]]、[[固特異]] — 氣嘴 OEM\n- **台灣輪胎:** [[正新]]、[[建大]] — 氣嘴供應\n- **TPMS:** [[為升]]、[[車王電]] — TPMS 氣嘴零組件\n\n### 主要供應商\n- **原料:** 銅材、橡膠、五金零組件 (垂直整合)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $21.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.09 |        8.71 |      0.76 | 0.68 |      5.27 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2978.76 |      3126.34 |      2592.44 |\n| Gross Profit            |       615.28 |       692.70 |       532.61 |\n| Gross Margin (%)        |        20.66 |        22.16 |        20.54 |\n| Selling & Marketing Exp |        88.87 |        96.63 |        83.75 |\n| R&D Exp                 |        64.87 |        54.21 |        38.91 |\n| General & Admin Exp     |       207.50 |       219.75 |       220.65 |\n| Operating Income        |       254.03 |       322.11 |       189.30 |\n| Operating Margin (%)    |         8.53 |        10.30 |         7.30 |\n| Net Income              |       165.16 |       213.52 |       175.03 |\n| Net Margin (%)          |         5.54 |         6.83 |         6.75 |\n| Op Cash Flow            |       349.41 |       245.18 |       261.52 |\n| Investing Cash Flow     |      -160.91 |      -136.65 |      -227.44 |\n| Financing Cash Flow     |      -352.01 |       -95.11 |      -117.38 |\n| CAPEX                   |      -196.18 |      -145.22 |      -232.66 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       795.76 |       732.81 |       748.33 |       804.98 |\n| Gross Profit            |       146.42 |       133.48 |       161.54 |       186.46 |\n| Gross Margin (%)        |        18.40 |        18.21 |        21.59 |        23.16 |\n| Selling & Marketing Exp |        23.79 |        22.66 |        21.82 |        23.03 |\n| R&D Exp                 |        15.55 |        14.63 |        16.23 |        16.94 |\n| General & Admin Exp     |        51.46 |        50.80 |        52.78 |        53.73 |\n| Operating Income        |        55.62 |        45.39 |        70.71 |        92.76 |\n| Operating Margin (%)    |         6.99 |         6.19 |         9.45 |        11.52 |\n| Net Income              |        28.13 |        10.32 |        69.31 |        60.59 |\n| Net Margin (%)          |         3.53 |         1.41 |         9.26 |         7.53 |\n| Op Cash Flow            |        -6.44 |         7.90 |       164.02 |        65.42 |\n| Investing Cash Flow     |       -39.47 |        -8.24 |       -57.15 |       -51.28 |\n| Financing Cash Flow     |        81.13 |      -101.76 |       -81.59 |       -11.04 |\n| CAPEX                   |       -38.44 |       -32.30 |       -59.38 |       -52.50 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

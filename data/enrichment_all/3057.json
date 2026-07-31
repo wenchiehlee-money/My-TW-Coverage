@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3057",
+  "company_name": "喬鼎",
+  "title": "3057 - 喬鼎",
+  "source_md": "Pilot_Reports/雲端運算 - 電腦設備/3057_喬鼎.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "923 百萬台幣",
+    "enterprise_value": "710 百萬台幣"
+  },
+  "business": {
+    "summary": "喬鼎資訊 (3057，[[Promise Technology]]) 原為全球知名 RAID 控制卡廠商，近年成功轉型為儲存解決方案 (Storage Solutions) 供應商。主要產品線涵蓋影音多媒體 (Media)、安全監控 (Surveillance) 與 IT 資料中心儲存設備。\n\nPegasus 系列為針對 Mac 用戶與影音創作者之高速 Thunderbolt 儲存設備，曾獲 [[Apple]] Store 上架銷售。Vess 系列則瞄準安全監控應用。近年積極布局 AI 伺服器與邊緣運算儲存需求，並將硬體製造外包，轉向輕資產與軟體加值模式。產品行銷全球，以北美及歐洲為主要市場。",
+    "entities": [
+      "Promise Technology",
+      "Apple"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (儲存零組件)",
+        "text": "**上游 (儲存零組件):**",
+        "entities": []
+      },
+      {
+        "category": "硬碟",
+        "text": "[[Seagate]]、[[WD]]、[[Toshiba]] — 企業級 HDD/SSD",
+        "entities": [
+          "Seagate",
+          "WD",
+          "Toshiba"
+        ]
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]] — 儲存控制器 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[DDR4]]/[[DDR5]] 伺服器記憶體",
+        "entities": [
+          "DDR4",
+          "DDR5"
+        ]
+      },
+      {
+        "category": "代工製造",
+        "text": "委外 EMS 代工廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (儲存系統設計與銷售)",
+        "text": "**中游 (儲存系統設計與銷售):**",
+        "entities": []
+      },
+      {
+        "category": "影音儲存",
+        "text": "**喬鼎** (Pegasus 系列 Thunderbolt 高速儲存)",
+        "entities": []
+      },
+      {
+        "category": "監控儲存",
+        "text": "**喬鼎** (Vess 系列安防錄影儲存)",
+        "entities": []
+      },
+      {
+        "category": "資料中心",
+        "text": "**喬鼎** (VTrak 系列企業級磁碟陣列)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用市場)",
+        "text": "**下游 (終端應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "影音創作",
+        "text": "電影後製公司、廣播電視台 — Pegasus/VTrak",
+        "entities": []
+      },
+      {
+        "category": "安全監控",
+        "text": "機場、賭場、智慧城市 — Vess 監控錄影",
+        "entities": []
+      },
+      {
+        "category": "通路",
+        "text": "[[Apple]] Store — Pegasus 系列零售",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "category": "企業備份",
+        "text": "資料中心與雲端儲存",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "通路",
+        "text": "[[Apple]] — Pegasus 系列 Mac 專用高速儲存",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "影音後製",
+        "text": "全球電影後製公司與廣播電視台",
+        "entities": []
+      },
+      {
+        "role": "安防監控",
+        "text": "國際安防系統整合商 — 機場、賭場監控",
+        "entities": []
+      },
+      {
+        "role": "企業客戶",
+        "text": "資料中心與雲端儲存整合商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "硬碟",
+        "text": "[[Seagate]]、[[WD]]、[[Toshiba]] — 企業級 HDD/SSD",
+        "entities": [
+          "Seagate",
+          "WD",
+          "Toshiba"
+        ]
+      },
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — 儲存控制器 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "代工",
+        "text": "委外 EMS 代工廠 — 硬體製造",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Promise Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Promise Technology"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "WD",
+      "type": "international_company_or_term",
+      "wikilink": "WD"
+    },
+    {
+      "name": "Toshiba",
+      "type": "international_company_or_term",
+      "wikilink": "Toshiba"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "DDR4",
+      "type": "international_company_or_term",
+      "wikilink": "DDR4"
+    },
+    {
+      "name": "DDR5",
+      "type": "international_company_or_term",
+      "wikilink": "DDR5"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "喬鼎資訊 (3057，[[Promise Technology]]) 原為全球知名 RAID 控制卡廠商，近年成功轉型為儲存解決方案 (Storage Solutions) 供應商。主要產品線涵蓋影音多媒體 (Media)、安全監控 (Surveillance) 與 IT 資料中心儲存設備。\n\nPegasus 系列為針對 Mac 用戶與影音創作者之高速 Thunderbolt 儲存設備，曾獲 [[Apple]] Store 上架銷售。Vess 系列則瞄準安全監控應用。近年積極布局 AI 伺服器與邊緣運算儲存需求，並將硬體製造外包，轉向輕資產與軟體加值模式。產品行銷全球，以北美及歐洲為主要市場。",
+    "supply_chain_md": "**上游 (儲存零組件):**\n- **硬碟:** [[Seagate]]、[[WD]]、[[Toshiba]] — 企業級 HDD/SSD\n- **處理器:** [[Intel]] — 儲存控制器 CPU\n- **記憶體:** [[DDR4]]/[[DDR5]] 伺服器記憶體\n- **代工製造:** 委外 EMS 代工廠\n\n**中游 (儲存系統設計與銷售):**\n- **影音儲存:** **喬鼎** (Pegasus 系列 Thunderbolt 高速儲存)\n- **監控儲存:** **喬鼎** (Vess 系列安防錄影儲存)\n- **資料中心:** **喬鼎** (VTrak 系列企業級磁碟陣列)\n\n**下游 (終端應用市場):**\n- **影音創作:** 電影後製公司、廣播電視台 — Pegasus/VTrak\n- **安全監控:** 機場、賭場、智慧城市 — Vess 監控錄影\n- **通路:** [[Apple]] Store — Pegasus 系列零售\n- **企業備份:** 資料中心與雲端儲存",
+    "customers_suppliers_md": "### 主要客戶\n- **通路:** [[Apple]] — Pegasus 系列 Mac 專用高速儲存\n- **影音後製:** 全球電影後製公司與廣播電視台\n- **安防監控:** 國際安防系統整合商 — 機場、賭場監控\n- **企業客戶:** 資料中心與雲端儲存整合商\n\n### 主要供應商\n- **硬碟:** [[Seagate]]、[[WD]]、[[Toshiba]] — 企業級 HDD/SSD\n- **處理器:** [[Intel]] — 儲存控制器 CPU\n- **代工:** 委外 EMS 代工廠 — 硬體製造",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $13.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       33.75 |      1.49 | 1.40 |     -7.62 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       583.85 |       573.19 |       584.52 |\n| Gross Profit            |       193.11 |       198.34 |       202.28 |\n| Gross Margin (%)        |        33.07 |        34.60 |        34.61 |\n| Selling & Marketing Exp |       115.98 |       129.31 |       118.88 |\n| R&D Exp                 |       108.61 |       117.51 |       129.68 |\n| General & Admin Exp     |       102.87 |        70.87 |        76.25 |\n| Operating Income        |      -134.36 |      -119.35 |      -122.53 |\n| Operating Margin (%)    |       -23.01 |       -20.82 |       -20.96 |\n| Net Income              |       -53.37 |      -152.15 |      -143.20 |\n| Net Margin (%)          |        -9.14 |       -26.55 |       -24.50 |\n| Op Cash Flow            |      -115.69 |        -8.78 |       -55.87 |\n| Investing Cash Flow     |       188.31 |         8.39 |        -3.28 |\n| Financing Cash Flow     |      -106.82 |       -55.40 |        64.09 |\n| CAPEX                   |       -17.99 |        -4.53 |        -3.84 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       167.73 |       166.38 |       126.44 |       155.83 |\n| Gross Profit            |        75.61 |        48.94 |        52.34 |        46.89 |\n| Gross Margin (%)        |        45.08 |        29.42 |        41.40 |        30.09 |\n| Selling & Marketing Exp |        29.64 |        29.13 |        27.37 |        30.62 |\n| R&D Exp                 |        29.89 |        25.80 |        27.89 |        25.35 |\n| General & Admin Exp     |        17.12 |        29.04 |        27.11 |        26.09 |\n| Operating Income        |        -1.05 |       -35.02 |       -30.02 |       -35.17 |\n| Operating Margin (%)    |        -0.62 |       -21.05 |       -23.74 |       -22.57 |\n| Net Income              |         1.03 |       -39.10 |       -26.26 |       -67.36 |\n| Net Margin (%)          |         0.61 |       -23.50 |       -20.77 |       -43.22 |\n| Op Cash Flow            |       -56.82 |       -24.67 |       -38.69 |       -21.92 |\n| Investing Cash Flow     |         0.01 |        -1.98 |        -1.51 |        -4.33 |\n| Financing Cash Flow     |        27.85 |         2.43 |        17.53 |        25.44 |\n| CAPEX                   |        -0.30 |        -3.01 |        -2.27 |        -6.05 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

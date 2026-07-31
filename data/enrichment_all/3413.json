@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3413",
+  "company_name": "京鼎",
+  "title": "3413 - 京鼎",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/3413_京鼎.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment",
+    "market_cap": "31,955 百萬台幣",
+    "enterprise_value": "30,093 百萬台幣"
+  },
+  "business": {
+    "summary": "京鼎精密 (3413) 是[[鴻海]]集團旗下的半導體設備製造商，為 [[Applied Materials]] (AMAT) 的核心代工夥伴 (AMAT 亦為股東)。公司主力產品為半導體前段製程設備關鍵模組及零組件，涵蓋 [[CMP]]、[[PVD]]、[[CVD]]、[[蝕刻]]設備及[[雷射]]與[[檢測]]設備。近年積極發展自有品牌半導體及工業自動化高端設備。",
+    "entities": [
+      "鴻海",
+      "Applied Materials",
+      "CMP",
+      "PVD",
+      "CVD",
+      "蝕刻",
+      "雷射",
+      "檢測"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與材料)",
+        "text": "**上游 (零組件與材料):**",
+        "entities": []
+      },
+      {
+        "category": "精密機械",
+        "text": "精密加工零組件",
+        "entities": []
+      },
+      {
+        "category": "電控系統",
+        "text": "自動化控制模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備製造)",
+        "text": "**中游 (設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "半導體設備",
+        "text": "**京鼎** ([[CMP]]/[[PVD]]/[[CVD]]/[[蝕刻]]設備模組代工及自有品牌)",
+        "entities": [
+          "CMP",
+          "PVD",
+          "CVD",
+          "蝕刻"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[鴻海]] (集團資源)",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "category": "策略夥伴",
+        "text": "[[Applied Materials]] (AMAT，股東及主要委託方)",
+        "entities": [
+          "Applied Materials"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (晶圓代工)",
+        "text": "**下游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] 等先進製程客戶",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "DRAM/NAND 製造廠",
+        "entities": []
+      },
+      {
+        "category": "工業自動化",
+        "text": "工業設備客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "設備代工",
+        "text": "[[Applied Materials]] (AMAT，最大委託方及股東)",
+        "entities": [
+          "Applied Materials"
+        ]
+      },
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] 等前段製程設備需求",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "工業自動化",
+        "text": "工業高端設備客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "精密加工",
+        "text": "精密機械零組件廠",
+        "entities": []
+      },
+      {
+        "role": "母公司",
+        "text": "[[鴻海]] (集團支持)",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[漢民科技]]、[[帆宣]] (半導體設備)",
+        "entities": [
+          "漢民科技",
+          "帆宣"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[漢民科技]]、[[帆宣]] (半導體設備)",
+        "entities": [
+          "漢民科技",
+          "帆宣"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "CMP",
+      "type": "international_company_or_term",
+      "wikilink": "CMP"
+    },
+    {
+      "name": "PVD",
+      "type": "international_company_or_term",
+      "wikilink": "PVD"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "蝕刻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝕刻"
+    },
+    {
+      "name": "雷射",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雷射"
+    },
+    {
+      "name": "檢測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "檢測"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "漢民科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢民科技"
+    },
+    {
+      "name": "帆宣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "帆宣"
+    },
+    {
+      "name": "翔名",
+      "type": "taiwan_company_or_term",
+      "wikilink": "翔名"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "京鼎精密 (3413) 是[[鴻海]]集團旗下的半導體設備製造商，為 [[Applied Materials]] (AMAT) 的核心代工夥伴 (AMAT 亦為股東)。公司主力產品為半導體前段製程設備關鍵模組及零組件，涵蓋 [[CMP]]、[[PVD]]、[[CVD]]、[[蝕刻]]設備及[[雷射]]與[[檢測]]設備。近年積極發展自有品牌半導體及工業自動化高端設備。",
+    "supply_chain_md": "**上游 (零組件與材料):**\n- **精密機械:** 精密加工零組件\n- **電控系統:** 自動化控制模組\n\n**中游 (設備製造):**\n- **半導體設備:** **京鼎** ([[CMP]]/[[PVD]]/[[CVD]]/[[蝕刻]]設備模組代工及自有品牌)\n- **母公司:** [[鴻海]] (集團資源)\n- **策略夥伴:** [[Applied Materials]] (AMAT，股東及主要委託方)\n\n**下游 (晶圓代工):**\n- **晶圓代工:** [[台積電]] 等先進製程客戶\n- **記憶體:** DRAM/NAND 製造廠\n- **工業自動化:** 工業設備客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **設備代工:** [[Applied Materials]] (AMAT，最大委託方及股東)\n- **晶圓代工:** [[台積電]] 等前段製程設備需求\n- **工業自動化:** 工業高端設備客戶\n\n### 主要供應商\n- **精密加工:** 精密機械零組件廠\n- **母公司:** [[鴻海]] (集團支持)\n- **競爭同業:** [[漢民科技]]、[[帆宣]] (半導體設備)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $282.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.95 |       10.23 |      1.45 | 1.96 |      8.04 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     20841.66 |     16454.48 |     13051.36 |\n| Gross Profit            |      5240.89 |      4288.49 |      3414.57 |\n| Gross Margin (%)        |        25.15 |        26.06 |        26.16 |\n| Selling & Marketing Exp |       506.39 |       420.76 |       368.10 |\n| R&D Exp                 |       704.76 |       565.25 |       508.79 |\n| General & Admin Exp     |       919.66 |       639.64 |       510.64 |\n| Operating Income        |      3110.08 |      2662.83 |      2027.04 |\n| Operating Margin (%)    |        14.92 |        16.18 |        15.53 |\n| Net Income              |      2336.29 |      2612.64 |      1990.47 |\n| Net Margin (%)          |        11.21 |        15.88 |        15.25 |\n| Op Cash Flow            |      2250.43 |      2175.33 |      2641.30 |\n| Investing Cash Flow     |     -3589.70 |      -601.64 |     -2521.11 |\n| Financing Cash Flow     |       496.38 |     -1000.97 |     -1679.72 |\n| CAPEX                   |     -3373.77 |     -1943.40 |      -544.81 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5561.56 |      5227.27 |      5542.19 |      5202.82 |\n| Gross Profit            |      1325.90 |      1249.23 |      1304.10 |      1357.71 |\n| Gross Margin (%)        |        23.84 |        23.90 |        23.53 |        26.10 |\n| Selling & Marketing Exp |       135.69 |       140.54 |       128.84 |       126.64 |\n| R&D Exp                 |       212.80 |       202.06 |       186.40 |       161.75 |\n| General & Admin Exp     |       249.45 |       288.08 |       251.84 |       192.18 |\n| Operating Income        |       727.96 |       618.54 |       737.01 |       877.13 |\n| Operating Margin (%)    |        13.09 |        11.83 |        13.30 |        16.86 |\n| Net Income              |       473.09 |       576.74 |       667.01 |       368.56 |\n| Net Margin (%)          |         8.51 |        11.03 |        12.04 |         7.08 |\n| Op Cash Flow            |       110.65 |      1188.74 |       648.16 |       195.97 |\n| Investing Cash Flow     |      -680.44 |      -540.25 |       -13.85 |     -2167.16 |\n| Financing Cash Flow     |      1456.37 |       763.53 |     -1126.86 |       982.90 |\n| CAPEX                   |     -1079.47 |      -722.21 |      -513.89 |     -1463.56 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

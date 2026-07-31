@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2465",
+  "company_name": "麗臺",
+  "title": "2465 - 麗臺",
+  "source_md": "Pilot_Reports/醫療器材 - 醫療器材研發、設計、製造/2465_麗臺.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "6,820 百萬台幣",
+    "enterprise_value": "6,654 百萬台幣"
+  },
+  "business": {
+    "summary": "麗臺科技 (2465，[[Leadtek]]) 成立於 1986 年，總部位於新北市。公司為 [[NVIDIA]] 長期策略合作夥伴，專精於專業繪圖卡、[[AI]] 工作站及 [[GPU]] 運算伺服器之設計製造與銷售。\n\n核心產品涵蓋：(1) [[NVIDIA]] RTX 專業繪圖卡 (Quadro/RTX 系列) — 為亞太區重要合作夥伴及總代理；(2) WinFast 品牌 [[AI]] 工作站與 [[GPU]] 伺服器 — 搭載 [[NVIDIA]] A100/H100/L40S 等高階 GPU，服務 AI 訓練與推論需求；(3) 智慧醫療產品 — 開發隨身型心電圖儀 (ECG)、血氧偵測裝置，取得多國醫療器材認證。近年積極推展 GPU 算力租賃 (GPUaaS) 服務，瞄準企業 AI 訓練及學術研究市場。",
+    "entities": [
+      "Leadtek",
+      "NVIDIA",
+      "AI",
+      "GPU"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵晶片與電子元件)",
+        "text": "**上游 (關鍵晶片與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "GPU 晶片",
+        "text": "[[NVIDIA]] — RTX/Quadro/A100/H100 等專業與資料中心 GPU",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[Micron]]、[[SK Hynix]] — GDDR6/GDDR7 顯示記憶體及 [[DDR5]] 伺服器記憶體",
+        "entities": [
+          "Samsung",
+          "Micron",
+          "SK Hynix",
+          "DDR5"
+        ]
+      },
+      {
+        "category": "基板",
+        "text": "[[PCB]] 及高階顯卡基板供應商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (繪圖卡與 AI 系統設計製造)",
+        "text": "**中游 (繪圖卡與 AI 系統設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "專業繪圖卡",
+        "text": "**麗臺** ([[NVIDIA]] RTX 專業繪圖卡設計製造)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "AI 工作站",
+        "text": "**麗臺** (WinFast GPU 工作站/伺服器)",
+        "entities": []
+      },
+      {
+        "category": "智慧醫療",
+        "text": "**麗臺** (隨身心電圖儀、血氧偵測裝置)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用市場)",
+        "text": "**下游 (終端應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "專業設計",
+        "text": "CAD/CAE/M&E 設計師與工程師",
+        "entities": []
+      },
+      {
+        "category": "AI 運算",
+        "text": "企業 [[AI]] 訓練、研究機構、[[資料中心]]",
+        "entities": [
+          "AI",
+          "資料中心"
+        ]
+      },
+      {
+        "category": "醫療照護",
+        "text": "醫療院所及遠距照護機構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業 AI",
+        "text": "台灣大型企業及金融機構 — GPU 算力租賃 (GPUaaS)",
+        "entities": []
+      },
+      {
+        "role": "學術研究",
+        "text": "國內公私立大學及研究機構 — AI 工作站與 HPC 叢集",
+        "entities": []
+      },
+      {
+        "role": "專業設計",
+        "text": "CAD/CAE 設計公司 — [[NVIDIA]] RTX 專業繪圖卡",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "國內外醫療院所 — 隨身心電圖儀與遠距照護裝置",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "GPU 晶片",
+        "text": "[[NVIDIA]] — 專業繪圖與 AI 運算 GPU 獨家合作",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[Micron]]、[[SK Hynix]] — 顯示記憶體模組",
+        "entities": [
+          "Samsung",
+          "Micron",
+          "SK Hynix"
+        ]
+      },
+      {
+        "role": "散熱/電源",
+        "text": "散熱模組及電源供應器廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Leadtek",
+      "type": "international_company_or_term",
+      "wikilink": "Leadtek"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "GPU",
+      "type": "international_company_or_term",
+      "wikilink": "GPU"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "DDR5",
+      "type": "international_company_or_term",
+      "wikilink": "DDR5"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "麗臺科技 (2465，[[Leadtek]]) 成立於 1986 年，總部位於新北市。公司為 [[NVIDIA]] 長期策略合作夥伴，專精於專業繪圖卡、[[AI]] 工作站及 [[GPU]] 運算伺服器之設計製造與銷售。\n\n核心產品涵蓋：(1) [[NVIDIA]] RTX 專業繪圖卡 (Quadro/RTX 系列) — 為亞太區重要合作夥伴及總代理；(2) WinFast 品牌 [[AI]] 工作站與 [[GPU]] 伺服器 — 搭載 [[NVIDIA]] A100/H100/L40S 等高階 GPU，服務 AI 訓練與推論需求；(3) 智慧醫療產品 — 開發隨身型心電圖儀 (ECG)、血氧偵測裝置，取得多國醫療器材認證。近年積極推展 GPU 算力租賃 (GPUaaS) 服務，瞄準企業 AI 訓練及學術研究市場。",
+    "supply_chain_md": "**上游 (關鍵晶片與電子元件):**\n- **GPU 晶片:** [[NVIDIA]] — RTX/Quadro/A100/H100 等專業與資料中心 GPU\n- **記憶體:** [[Samsung]]、[[Micron]]、[[SK Hynix]] — GDDR6/GDDR7 顯示記憶體及 [[DDR5]] 伺服器記憶體\n- **基板:** [[PCB]] 及高階顯卡基板供應商\n\n**中游 (繪圖卡與 AI 系統設計製造):**\n- **專業繪圖卡:** **麗臺** ([[NVIDIA]] RTX 專業繪圖卡設計製造)\n- **AI 工作站:** **麗臺** (WinFast GPU 工作站/伺服器)\n- **智慧醫療:** **麗臺** (隨身心電圖儀、血氧偵測裝置)\n\n**下游 (終端應用市場):**\n- **專業設計:** CAD/CAE/M&E 設計師與工程師\n- **AI 運算:** 企業 [[AI]] 訓練、研究機構、[[資料中心]]\n- **醫療照護:** 醫療院所及遠距照護機構",
+    "customers_suppliers_md": "### 主要客戶\n- **企業 AI:** 台灣大型企業及金融機構 — GPU 算力租賃 (GPUaaS)\n- **學術研究:** 國內公私立大學及研究機構 — AI 工作站與 HPC 叢集\n- **專業設計:** CAD/CAE 設計公司 — [[NVIDIA]] RTX 專業繪圖卡\n- **醫療:** 國內外醫療院所 — 隨身心電圖儀與遠距照護裝置\n\n### 主要供應商\n- **GPU 晶片:** [[NVIDIA]] — 專業繪圖與 AI 運算 GPU 獨家合作\n- **記憶體:** [[Samsung]]、[[Micron]]、[[SK Hynix]] — 顯示記憶體模組\n- **散熱/電源:** 散熱模組及電源供應器廠商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $67.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     45.99 |         N/A |      1.22 | 5.27 |     35.80 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4435.96 |      4208.02 |      4276.12 |\n| Gross Profit            |       435.60 |       337.33 |       628.28 |\n| Gross Margin (%)        |         9.82 |         8.02 |        14.69 |\n| Selling & Marketing Exp |       142.46 |       347.21 |       378.79 |\n| R&D Exp                 |        62.09 |       132.31 |       203.81 |\n| General & Admin Exp     |       111.99 |       100.96 |       150.56 |\n| Operating Income        |       119.05 |      -243.15 |      -104.88 |\n| Operating Margin (%)    |         2.68 |        -5.78 |        -2.45 |\n| Net Income              |        36.45 |      -441.21 |      -159.73 |\n| Net Margin (%)          |         0.82 |       -10.49 |        -3.74 |\n| Op Cash Flow            |        53.46 |       -40.14 |       -52.29 |\n| Investing Cash Flow     |       -58.80 |        10.60 |       -36.75 |\n| Financing Cash Flow     |        33.40 |       135.96 |       170.95 |\n| CAPEX                   |       -33.83 |       -29.79 |       -33.64 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1569.19 |       927.97 |      1951.55 |       758.12 |\n| Gross Profit            |       167.12 |        96.89 |        93.04 |        87.08 |\n| Gross Margin (%)        |        10.65 |        10.44 |         4.77 |        11.49 |\n| Selling & Marketing Exp |        37.70 |        29.26 |        18.05 |        35.31 |\n| R&D Exp                 |         9.91 |        10.34 |        16.49 |        16.60 |\n| General & Admin Exp     |        26.19 |        32.50 |        25.25 |        26.50 |\n| Operating Income        |        93.32 |        24.80 |        33.24 |         8.66 |\n| Operating Margin (%)    |         5.95 |         2.67 |         1.70 |         1.14 |\n| Net Income              |       107.79 |        29.16 |       -36.23 |        22.98 |\n| Net Margin (%)          |         6.87 |         3.14 |        -1.86 |         3.03 |\n| Op Cash Flow            |      -255.93 |        95.76 |      -196.49 |        28.53 |\n| Investing Cash Flow     |         1.77 |        31.39 |        -8.02 |       -83.65 |\n| Financing Cash Flow     |       101.75 |       -79.31 |       102.17 |      -118.51 |\n| CAPEX                   |        -1.54 |        -4.24 |        -9.72 |       -13.68 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

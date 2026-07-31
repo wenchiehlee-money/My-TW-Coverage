@@ -1,0 +1,274 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3090",
+  "company_name": "日電貿",
+  "title": "3090 - 日電貿",
+  "source_md": "Pilot_Reports/被動元件 - 電容器/3090_日電貿.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "36,377 百萬台幣",
+    "enterprise_value": "38,345 百萬台幣"
+  },
+  "business": {
+    "summary": "日電貿 ([[Nichidenbo]]) 為台灣最大專業被動元件通路商。主要代理全球知名品牌電容器，產品線極為齊全。\n\n核心代理產品：(1) 鋁質電解電容 — 代理日本 [[Nippon Chemi-con]] (NCC，全球第一大)；(2) 固態電容與塑膠電容 — 代理 [[Panasonic]]；(3) [[MLCC]] — 代理韓國 [[Samsung Electro-Mechanics]] (SEMCO)；(4) 陶瓷電容 — 代理 [[Kyocera]]。客戶群涵蓋電源供應器、主機板、VGA 卡、網通設備與 [[AI 伺服器]]，為電子產業不可或缺的零組件通路平台。",
+    "entities": [
+      "Nichidenbo",
+      "Nippon Chemi-con",
+      "Panasonic",
+      "MLCC",
+      "Samsung Electro-Mechanics",
+      "Kyocera",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (被動元件原廠)",
+        "text": "**上游 (被動元件原廠):**",
+        "entities": []
+      },
+      {
+        "category": "鋁電解電容",
+        "text": "[[Nippon Chemi-con]] (NCC) — 全球第一大",
+        "entities": [
+          "Nippon Chemi-con"
+        ]
+      },
+      {
+        "category": "固態/塑膠電容",
+        "text": "[[Panasonic]] — 固態與薄膜電容",
+        "entities": [
+          "Panasonic"
+        ]
+      },
+      {
+        "category": "[[MLCC]]",
+        "text": "[[Samsung Electro-Mechanics]] (SEMCO) — 積層陶瓷電容",
+        "entities": [
+          "MLCC",
+          "Samsung Electro-Mechanics"
+        ]
+      },
+      {
+        "category": "陶瓷電容",
+        "text": "[[Kyocera]] — 陶瓷電容",
+        "entities": [
+          "Kyocera"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理與庫存管理)",
+        "text": "**中游 (通路代理與庫存管理):**",
+        "entities": []
+      },
+      {
+        "category": "技術支援",
+        "text": "**日電貿** (提供被動元件技術選型與設計導入)",
+        "entities": []
+      },
+      {
+        "category": "庫存管理",
+        "text": "**日電貿** (為客戶管理電容器安全庫存)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電源/主機板/伺服器)",
+        "text": "**下游 (電源/主機板/伺服器):**",
+        "entities": []
+      },
+      {
+        "category": "電源供應器",
+        "text": "[[台達電]]、[[光寶科]] — 電源用電容器",
+        "entities": [
+          "台達電",
+          "光寶科"
+        ]
+      },
+      {
+        "category": "主機板/VGA",
+        "text": "[[華碩]]、[[技嘉]]、[[微星]] — 主機板與顯示卡電容",
+        "entities": [
+          "華碩",
+          "技嘉",
+          "微星"
+        ]
+      },
+      {
+        "category": "[[AI 伺服器]]",
+        "text": "[[廣達]]、[[緯創]] — 伺服器高階電容需求",
+        "entities": [
+          "AI 伺服器",
+          "廣達",
+          "緯創"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源供應器",
+        "text": "[[台達電]]、[[光寶科]] — 電源用電容器",
+        "entities": [
+          "台達電",
+          "光寶科"
+        ]
+      },
+      {
+        "role": "主機板/VGA",
+        "text": "[[華碩]]、[[技嘉]]、[[微星]] — 主機板與顯示卡",
+        "entities": [
+          "華碩",
+          "技嘉",
+          "微星"
+        ]
+      },
+      {
+        "role": "[[AI 伺服器]]",
+        "text": "[[廣達]]、[[緯創]] — 伺服器高階電容",
+        "entities": [
+          "AI 伺服器",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "role": "EMS/ODM",
+        "text": "台灣各大電子代工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋁電解電容",
+        "text": "[[Nippon Chemi-con]] — 全球第一大鋁電解電容",
+        "entities": [
+          "Nippon Chemi-con"
+        ]
+      },
+      {
+        "role": "固態電容",
+        "text": "[[Panasonic]] — 固態與塑膠電容",
+        "entities": [
+          "Panasonic"
+        ]
+      },
+      {
+        "role": "[[MLCC]]",
+        "text": "[[Samsung Electro-Mechanics]] — 積層陶瓷電容",
+        "entities": [
+          "MLCC",
+          "Samsung Electro-Mechanics"
+        ]
+      },
+      {
+        "role": "陶瓷電容",
+        "text": "[[Kyocera]] — 陶瓷電容",
+        "entities": [
+          "Kyocera"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nichidenbo",
+      "type": "international_company_or_term",
+      "wikilink": "Nichidenbo"
+    },
+    {
+      "name": "Nippon Chemi-con",
+      "type": "international_company_or_term",
+      "wikilink": "Nippon Chemi-con"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "Samsung Electro-Mechanics",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung Electro-Mechanics"
+    },
+    {
+      "name": "Kyocera",
+      "type": "international_company_or_term",
+      "wikilink": "Kyocera"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "日電貿 ([[Nichidenbo]]) 為台灣最大專業被動元件通路商。主要代理全球知名品牌電容器，產品線極為齊全。\n\n核心代理產品：(1) 鋁質電解電容 — 代理日本 [[Nippon Chemi-con]] (NCC，全球第一大)；(2) 固態電容與塑膠電容 — 代理 [[Panasonic]]；(3) [[MLCC]] — 代理韓國 [[Samsung Electro-Mechanics]] (SEMCO)；(4) 陶瓷電容 — 代理 [[Kyocera]]。客戶群涵蓋電源供應器、主機板、VGA 卡、網通設備與 [[AI 伺服器]]，為電子產業不可或缺的零組件通路平台。",
+    "supply_chain_md": "**上游 (被動元件原廠):**\n- **鋁電解電容:** [[Nippon Chemi-con]] (NCC) — 全球第一大\n- **固態/塑膠電容:** [[Panasonic]] — 固態與薄膜電容\n- **[[MLCC]]:** [[Samsung Electro-Mechanics]] (SEMCO) — 積層陶瓷電容\n- **陶瓷電容:** [[Kyocera]] — 陶瓷電容\n\n**中游 (通路代理與庫存管理):**\n- **技術支援:** **日電貿** (提供被動元件技術選型與設計導入)\n- **庫存管理:** **日電貿** (為客戶管理電容器安全庫存)\n\n**下游 (電源/主機板/伺服器):**\n- **電源供應器:** [[台達電]]、[[光寶科]] — 電源用電容器\n- **主機板/VGA:** [[華碩]]、[[技嘉]]、[[微星]] — 主機板與顯示卡電容\n- **[[AI 伺服器]]:** [[廣達]]、[[緯創]] — 伺服器高階電容需求",
+    "customers_suppliers_md": "### 主要客戶\n- **電源供應器:** [[台達電]]、[[光寶科]] — 電源用電容器\n- **主機板/VGA:** [[華碩]]、[[技嘉]]、[[微星]] — 主機板與顯示卡\n- **[[AI 伺服器]]:** [[廣達]]、[[緯創]] — 伺服器高階電容\n- **EMS/ODM:** 台灣各大電子代工廠\n\n### 主要供應商\n- **鋁電解電容:** [[Nippon Chemi-con]] — 全球第一大鋁電解電容\n- **固態電容:** [[Panasonic]] — 固態與塑膠電容\n- **[[MLCC]]:** [[Samsung Electro-Mechanics]] — 積層陶瓷電容\n- **陶瓷電容:** [[Kyocera]] — 陶瓷電容",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $114.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     20.92 |       28.22 |      2.00 | 1.86 |     19.61 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     15727.84 |     12141.10 |     10655.71 |\n| Gross Profit            |      2585.57 |      1947.36 |      1642.21 |\n| Gross Margin (%)        |        16.44 |        16.04 |        15.41 |\n| Selling & Marketing Exp |       727.28 |       592.20 |       565.36 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       262.53 |       241.48 |       202.68 |\n| Operating Income        |      1595.76 |      1113.68 |       874.16 |\n| Operating Margin (%)    |        10.15 |         9.17 |         8.20 |\n| Net Income              |      1252.67 |       946.80 |       706.31 |\n| Net Margin (%)          |         7.96 |         7.80 |         6.63 |\n| Op Cash Flow            |        89.38 |      -156.02 |       958.46 |\n| Investing Cash Flow     |       157.67 |     -1057.09 |       506.80 |\n| Financing Cash Flow     |       432.12 |        13.18 |      -808.33 |\n| CAPEX                   |       -33.90 |        -4.45 |        -5.72 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4492.39 |      3815.41 |      4050.48 |      4066.29 |\n| Gross Profit            |       891.61 |       683.92 |       646.70 |       588.86 |\n| Gross Margin (%)        |        19.85 |        17.93 |        15.97 |        14.48 |\n| Selling & Marketing Exp |       195.58 |       209.25 |       196.83 |       156.44 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       100.01 |        67.38 |        77.13 |        46.49 |\n| Operating Income        |       596.02 |       407.30 |       372.75 |       385.93 |\n| Operating Margin (%)    |        13.27 |        10.68 |         9.20 |         9.49 |\n| Net Income              |       479.57 |       366.61 |       417.09 |       118.58 |\n| Net Margin (%)          |        10.68 |         9.61 |        10.30 |         2.92 |\n| Op Cash Flow            |       156.46 |       235.44 |      -440.25 |        71.32 |\n| Investing Cash Flow     |      -185.17 |       -10.15 |       144.28 |        50.93 |\n| Financing Cash Flow     |      -165.04 |       390.95 |       -35.78 |       224.86 |\n| CAPEX                   |        -4.05 |        -5.51 |       -15.61 |        -7.83 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

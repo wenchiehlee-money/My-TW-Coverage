@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3701",
+  "company_name": "大眾控",
+  "title": "3701 - 大眾控",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/3701_大眾控.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "8,306 百萬台幣",
+    "enterprise_value": "10,126 百萬台幣"
+  },
+  "business": {
+    "summary": "大眾全球投資控股 (3701，FICG) 為大眾電腦集團之投資控股公司，旗下三大事業體涵蓋 EMS 代工、衛星通訊及智慧顯示。集團營收主力為子公司 **三希科技** (約佔 85%)，專注於伺服器、光通訊模組、工控及車用電子之 [[EMS]] 代工製造，主要客戶為國際光模組大廠。\n\n三希科技近年積極切入 800G/1.6T [[光收發模組]]代工及 [[CPO]] (共封裝光學) 3.2T 先進封裝領域，光通訊產品已佔集團營收近五成。子公司 **攸泰科技** (約佔 13%) 專精於強固型移動裝置、船用電子及[[低軌衛星]]地面設備。另有 **大眾電腦** 負責車用電子及 [[AIoT]] 產品研發。集團亦布局無人機及智慧顯示 (擬 IPO) 等新興領域。",
+    "entities": [
+      "EMS",
+      "光收發模組",
+      "CPO",
+      "低軌衛星",
+      "AIoT"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光電元件與電子零組件)",
+        "text": "**上游 (光電元件與電子零組件):**",
+        "entities": []
+      },
+      {
+        "category": "光電元件",
+        "text": "雷射二極體、檢光二極體及光學透鏡等光通訊核心元件",
+        "entities": []
+      },
+      {
+        "category": "電子零組件",
+        "text": "[[Intel]]、[[AMD]] 處理器及伺服器相關半導體元件",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "PCB、連接器及金屬機構件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EMS 代工製造)",
+        "text": "**中游 (EMS 代工製造):**",
+        "entities": []
+      },
+      {
+        "category": "光通訊模組",
+        "text": "**三希科技** (800G/1.6T [[光收發模組]] EMS 代工，[[CPO]] 3.2T 先進封裝)",
+        "entities": [
+          "光收發模組",
+          "CPO"
+        ]
+      },
+      {
+        "category": "伺服器/工控",
+        "text": "**三希科技** (伺服器、通訊設備、工控產品組裝)",
+        "entities": []
+      },
+      {
+        "category": "衛星/船用",
+        "text": "**攸泰科技** (強固型裝置、船用電子、[[低軌衛星]]地面設備)",
+        "entities": [
+          "低軌衛星"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "**大眾電腦** ([[AIoT]] 車載及自動化產品研發)",
+        "entities": [
+          "AIoT"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (光模組品牌與終端應用)",
+        "text": "**下游 (光模組品牌與終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "光模組品牌",
+        "text": "[[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組代工",
+        "entities": [
+          "Coherent",
+          "華工正源"
+        ]
+      },
+      {
+        "category": "海事/國防",
+        "text": "全球海事電子及國防單位 — 強固型裝置與衛星通訊",
+        "entities": []
+      },
+      {
+        "category": "AI 資料中心",
+        "text": "全球雲端服務商 — 透過光模組客戶間接供應",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "光模組品牌 (三希科技)",
+        "text": "[[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組 EMS 代工",
+        "entities": [
+          "Coherent",
+          "華工正源"
+        ]
+      },
+      {
+        "role": "海事/國防 (攸泰科技)",
+        "text": "全球海事電子及國防、執法單位 — 強固型移動裝置、船用電子",
+        "entities": []
+      },
+      {
+        "role": "車用電子 (大眾電腦)",
+        "text": "車載資通訊系統客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光電元件",
+        "text": "光通訊雷射及檢光二極體元件供應商",
+        "entities": []
+      },
+      {
+        "role": "半導體",
+        "text": "[[Intel]]、[[AMD]] — 伺服器處理器",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "關係企業",
+        "text": "[[國眾電腦]] (5410) — 系統整合服務",
+        "entities": [
+          "國眾電腦"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "光收發模組",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光收發模組"
+    },
+    {
+      "name": "CPO",
+      "type": "technology",
+      "wikilink": "CPO"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Coherent",
+      "type": "international_company_or_term",
+      "wikilink": "Coherent"
+    },
+    {
+      "name": "華工正源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華工正源"
+    },
+    {
+      "name": "國眾電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國眾電腦"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大眾全球投資控股 (3701，FICG) 為大眾電腦集團之投資控股公司，旗下三大事業體涵蓋 EMS 代工、衛星通訊及智慧顯示。集團營收主力為子公司 **三希科技** (約佔 85%)，專注於伺服器、光通訊模組、工控及車用電子之 [[EMS]] 代工製造，主要客戶為國際光模組大廠。\n\n三希科技近年積極切入 800G/1.6T [[光收發模組]]代工及 [[CPO]] (共封裝光學) 3.2T 先進封裝領域，光通訊產品已佔集團營收近五成。子公司 **攸泰科技** (約佔 13%) 專精於強固型移動裝置、船用電子及[[低軌衛星]]地面設備。另有 **大眾電腦** 負責車用電子及 [[AIoT]] 產品研發。集團亦布局無人機及智慧顯示 (擬 IPO) 等新興領域。",
+    "supply_chain_md": "**上游 (光電元件與電子零組件):**\n- **光電元件:** 雷射二極體、檢光二極體及光學透鏡等光通訊核心元件\n- **電子零組件:** [[Intel]]、[[AMD]] 處理器及伺服器相關半導體元件\n- **機構件:** PCB、連接器及金屬機構件供應商\n\n**中游 (EMS 代工製造):**\n- **光通訊模組:** **三希科技** (800G/1.6T [[光收發模組]] EMS 代工，[[CPO]] 3.2T 先進封裝)\n- **伺服器/工控:** **三希科技** (伺服器、通訊設備、工控產品組裝)\n- **衛星/船用:** **攸泰科技** (強固型裝置、船用電子、[[低軌衛星]]地面設備)\n- **車用電子:** **大眾電腦** ([[AIoT]] 車載及自動化產品研發)\n\n**下游 (光模組品牌與終端應用):**\n- **光模組品牌:** [[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組代工\n- **海事/國防:** 全球海事電子及國防單位 — 強固型裝置與衛星通訊\n- **AI 資料中心:** 全球雲端服務商 — 透過光模組客戶間接供應",
+    "customers_suppliers_md": "### 主要客戶\n- **光模組品牌 (三希科技):** [[Coherent]]、[[華工正源]]、海信寬頻 — 800G/1.6T 光收發模組 EMS 代工\n- **海事/國防 (攸泰科技):** 全球海事電子及國防、執法單位 — 強固型移動裝置、船用電子\n- **車用電子 (大眾電腦):** 車載資通訊系統客戶\n\n### 主要供應商\n- **光電元件:** 光通訊雷射及檢光二極體元件供應商\n- **半導體:** [[Intel]]、[[AMD]] — 伺服器處理器\n- **關係企業:** [[國眾電腦]] (5410) — 系統整合服務",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $33.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.88 | 1.63 |     58.53 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9833.20 |     13101.75 |     13283.40 |\n| Gross Profit            |      1717.47 |      1796.04 |      2055.52 |\n| Gross Margin (%)        |        17.47 |        13.71 |        15.47 |\n| Selling & Marketing Exp |       519.14 |       504.73 |       516.92 |\n| R&D Exp                 |       571.07 |       535.60 |       344.95 |\n| General & Admin Exp     |       623.71 |       525.91 |       553.75 |\n| Operating Income        |         3.55 |       229.80 |       639.90 |\n| Operating Margin (%)    |         0.04 |         1.75 |         4.82 |\n| Net Income              |       -88.87 |        26.33 |       332.14 |\n| Net Margin (%)          |        -0.90 |         0.20 |         2.50 |\n| Op Cash Flow            |      1006.67 |       496.67 |      1509.18 |\n| Investing Cash Flow     |      -111.75 |     -1383.34 |      -516.67 |\n| Financing Cash Flow     |      -193.04 |       401.00 |       501.37 |\n| CAPEX                   |      -640.20 |      -502.14 |      -325.63 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2159.02 |      2293.70 |      2618.58 |      2761.90 |\n| Gross Profit            |       324.51 |       413.80 |       532.97 |       446.19 |\n| Gross Margin (%)        |        15.03 |        18.04 |        20.35 |        16.16 |\n| Selling & Marketing Exp |       131.92 |       124.61 |       120.09 |       142.51 |\n| R&D Exp                 |       179.62 |       129.10 |       132.05 |       130.31 |\n| General & Admin Exp     |       170.62 |       163.34 |       145.39 |       144.35 |\n| Operating Income        |      -157.65 |        -3.26 |       135.44 |        29.02 |\n| Operating Margin (%)    |        -7.30 |        -0.14 |         5.17 |         1.05 |\n| Net Income              |      -350.25 |        37.15 |        66.54 |       157.70 |\n| Net Margin (%)          |       -16.22 |         1.62 |         2.54 |         5.71 |\n| Op Cash Flow            |       574.69 |       451.59 |       329.63 |      -349.24 |\n| Investing Cash Flow     |      -362.21 |      -112.15 |       -65.74 |       428.36 |\n| Financing Cash Flow     |      -100.41 |         5.88 |      -148.48 |        49.98 |\n| CAPEX                   |      -114.97 |      -339.12 |       -79.32 |      -106.79 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

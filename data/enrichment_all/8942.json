@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8942",
+  "company_name": "森鉅",
+  "title": "8942 - 森鉅",
+  "source_md": "Pilot_Reports/建材營造 - 個人、民間企業、政府機構/8942_森鉅.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum",
+    "market_cap": "7,158 百萬台幣",
+    "enterprise_value": "9,487 百萬台幣"
+  },
+  "business": {
+    "summary": "森鉅科技材料 (8942，Xxentria Technology Materials) 為全球金屬塑膠複合板商用車體材料龍頭，旗艦產品[[G-BOND]] (鍍鋅鋼複合板) 及[[A-BOND]] (高強度鋁塑複合板) 在北美半掛式貨櫃拖車市場市佔率約 60%。核心技術將回收 PE/PET 塑膠與金屬板材複合，兼具輕量化與環保優勢，毛利率逾 35%。北美五大拖車製造商 — [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]] — 為主要客戶群。2022 年收購泰國車軸廠[[Goldsuwan]] (持股 51%)，提供車體加車軸整合方案。正於美國田納西州 Mount Pleasant 建設新廠，投資 4,500 萬美元，預計 2026 年投產。",
+    "entities": [
+      "G-BOND",
+      "A-BOND",
+      "Wabash",
+      "Great Dane",
+      "Utility Trailer",
+      "Vanguard National Trailer",
+      "Stoughton Trailers",
+      "Goldsuwan"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬板材",
+        "text": "鍍鋅鋼板與鋁板供應商",
+        "entities": []
+      },
+      {
+        "category": "回收塑膠",
+        "text": "回收 PE 及回收 PET (寶特瓶) — 複合板核心夾層材料",
+        "entities": []
+      },
+      {
+        "category": "車軸",
+        "text": "[[Goldsuwan]] (泰國子公司，持股 51%) — 拖車車軸製造",
+        "entities": [
+          "Goldsuwan"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**森鉅** ([[G-BOND]]鍍鋅鋼複合板、[[A-BOND]]鋁塑複合板製造，台灣及美國田納西州工廠)",
+        "entities": [
+          "G-BOND",
+          "A-BOND"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (北美拖車 OEM)",
+        "text": "**下游 (北美拖車 OEM):**",
+        "entities": []
+      },
+      {
+        "category": "拖車製造商",
+        "text": "[[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]]、[[Hyundai Translead]] — 北美前五大拖車 OEM",
+        "entities": [
+          "Wabash",
+          "Great Dane",
+          "Utility Trailer",
+          "Vanguard National Trailer",
+          "Stoughton Trailers",
+          "Hyundai Translead"
+        ]
+      },
+      {
+        "category": "終端車隊",
+        "text": "[[UPS]]、[[FedEx]] — 大型物流車隊 (拖車終端使用者)",
+        "entities": [
+          "UPS",
+          "FedEx"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "拖車 OEM (北美)",
+        "text": "[[Wabash]] — 北美最大拖車製造商；[[Great Dane]]；[[Utility Trailer]]；[[Vanguard National Trailer]]；[[Stoughton Trailers]]；[[Hyundai Translead]]",
+        "entities": [
+          "Wabash",
+          "Great Dane",
+          "Utility Trailer",
+          "Vanguard National Trailer",
+          "Stoughton Trailers",
+          "Hyundai Translead"
+        ]
+      },
+      {
+        "role": "終端車隊",
+        "text": "[[UPS]]、[[FedEx]] — 大型物流車隊 (拖車最終使用者)",
+        "entities": [
+          "UPS",
+          "FedEx"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬板材",
+        "text": "鍍鋅鋼板及鋁板供應商",
+        "entities": []
+      },
+      {
+        "role": "回收塑膠",
+        "text": "回收 PE/PET 原料 — 複合板核心夾層",
+        "entities": []
+      },
+      {
+        "role": "車軸",
+        "text": "[[Goldsuwan]] (泰國子公司) — 拖車車軸",
+        "entities": [
+          "Goldsuwan"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "G-BOND",
+      "type": "international_company_or_term",
+      "wikilink": "G-BOND"
+    },
+    {
+      "name": "A-BOND",
+      "type": "international_company_or_term",
+      "wikilink": "A-BOND"
+    },
+    {
+      "name": "Wabash",
+      "type": "international_company_or_term",
+      "wikilink": "Wabash"
+    },
+    {
+      "name": "Great Dane",
+      "type": "international_company_or_term",
+      "wikilink": "Great Dane"
+    },
+    {
+      "name": "Utility Trailer",
+      "type": "international_company_or_term",
+      "wikilink": "Utility Trailer"
+    },
+    {
+      "name": "Vanguard National Trailer",
+      "type": "international_company_or_term",
+      "wikilink": "Vanguard National Trailer"
+    },
+    {
+      "name": "Stoughton Trailers",
+      "type": "international_company_or_term",
+      "wikilink": "Stoughton Trailers"
+    },
+    {
+      "name": "Goldsuwan",
+      "type": "international_company_or_term",
+      "wikilink": "Goldsuwan"
+    },
+    {
+      "name": "Hyundai Translead",
+      "type": "international_company_or_term",
+      "wikilink": "Hyundai Translead"
+    },
+    {
+      "name": "UPS",
+      "type": "international_company_or_term",
+      "wikilink": "UPS"
+    },
+    {
+      "name": "FedEx",
+      "type": "international_company_or_term",
+      "wikilink": "FedEx"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "森鉅科技材料 (8942，Xxentria Technology Materials) 為全球金屬塑膠複合板商用車體材料龍頭，旗艦產品[[G-BOND]] (鍍鋅鋼複合板) 及[[A-BOND]] (高強度鋁塑複合板) 在北美半掛式貨櫃拖車市場市佔率約 60%。核心技術將回收 PE/PET 塑膠與金屬板材複合，兼具輕量化與環保優勢，毛利率逾 35%。北美五大拖車製造商 — [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]] — 為主要客戶群。2022 年收購泰國車軸廠[[Goldsuwan]] (持股 51%)，提供車體加車軸整合方案。正於美國田納西州 Mount Pleasant 建設新廠，投資 4,500 萬美元，預計 2026 年投產。",
+    "supply_chain_md": "**上游 (原料):**\n- **金屬板材:** 鍍鋅鋼板與鋁板供應商\n- **回收塑膠:** 回收 PE 及回收 PET (寶特瓶) — 複合板核心夾層材料\n- **車軸:** [[Goldsuwan]] (泰國子公司，持股 51%) — 拖車車軸製造\n\n**中游 (製造):**\n- **森鉅** ([[G-BOND]]鍍鋅鋼複合板、[[A-BOND]]鋁塑複合板製造，台灣及美國田納西州工廠)\n\n**下游 (北美拖車 OEM):**\n- **拖車製造商:** [[Wabash]]、[[Great Dane]]、[[Utility Trailer]]、[[Vanguard National Trailer]]、[[Stoughton Trailers]]、[[Hyundai Translead]] — 北美前五大拖車 OEM\n- **終端車隊:** [[UPS]]、[[FedEx]] — 大型物流車隊 (拖車終端使用者)",
+    "customers_suppliers_md": "### 主要客戶\n- **拖車 OEM (北美):** [[Wabash]] — 北美最大拖車製造商；[[Great Dane]]；[[Utility Trailer]]；[[Vanguard National Trailer]]；[[Stoughton Trailers]]；[[Hyundai Translead]]\n- **終端車隊:** [[UPS]]、[[FedEx]] — 大型物流車隊 (拖車最終使用者)\n\n### 主要供應商\n- **金屬板材:** 鍍鋅鋼板及鋁板供應商\n- **回收塑膠:** 回收 PE/PET 原料 — 複合板核心夾層\n- **車軸:** [[Goldsuwan]] (泰國子公司) — 拖車車軸",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $36.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     20.69 |         N/A |      2.72 | 0.74 |   -227.65 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3426.11 |      4309.43 |      5555.11 |\n| Gross Profit            |       789.75 |      1479.08 |      2267.84 |\n| Gross Margin (%)        |        23.05 |        34.32 |        40.82 |\n| Selling & Marketing Exp |       420.58 |       457.74 |       517.08 |\n| R&D Exp                 |        46.37 |        53.29 |         9.78 |\n| General & Admin Exp     |       292.87 |       318.88 |       186.66 |\n| Operating Income        |        29.93 |       649.17 |      1554.32 |\n| Operating Margin (%)    |         0.87 |        15.06 |        27.98 |\n| Net Income              |       364.05 |      1071.91 |      1599.84 |\n| Net Margin (%)          |        10.63 |        24.87 |        28.80 |\n| Op Cash Flow            |       498.03 |      1357.21 |       876.88 |\n| Investing Cash Flow     |      -793.06 |       889.15 |       467.29 |\n| Financing Cash Flow     |      -126.04 |     -2358.39 |     -2549.53 |\n| CAPEX                   |      -617.23 |      -401.57 |     -1033.38 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       607.87 |       351.62 |       563.42 |      1112.35 |\n| Gross Profit            |        80.50 |      -174.43 |       100.41 |       361.32 |\n| Gross Margin (%)        |        13.24 |       -49.61 |        17.82 |        32.48 |\n| Selling & Marketing Exp |        63.19 |        92.53 |        79.44 |       133.47 |\n| R&D Exp                 |        10.17 |        11.88 |        10.37 |        10.53 |\n| General & Admin Exp     |        73.28 |        55.49 |        81.03 |        71.31 |\n| Operating Income        |       -66.14 |      -334.33 |       -70.44 |       146.00 |\n| Operating Margin (%)    |       -10.88 |       -95.08 |       -12.50 |        13.13 |\n| Net Income              |       209.12 |        18.15 |       228.77 |      -110.01 |\n| Net Margin (%)          |        34.40 |         5.16 |        40.60 |        -9.89 |\n| Op Cash Flow            |       164.43 |        80.16 |       351.08 |       -40.56 |\n| Investing Cash Flow     |      -307.58 |      -256.51 |      -156.36 |       -43.06 |\n| Financing Cash Flow     |        12.42 |      -103.15 |      -234.26 |       160.95 |\n| CAPEX                   |      -272.99 |      -272.63 |      -251.67 |       -24.06 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

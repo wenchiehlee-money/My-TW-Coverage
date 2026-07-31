@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1467",
+  "company_name": "南緯",
+  "title": "1467 - 南緯",
+  "source_md": "Pilot_Reports/紡織 - 染整/1467_南緯.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "2,353 百萬台幣",
+    "enterprise_value": "5,556 百萬台幣"
+  },
+  "business": {
+    "summary": "南緯實業 (1467，Tex-Ray Industrial) 成立於 1978 年，為垂直整合型紡織集團，全球布建 18 座織造、染整、紡紗及成衣工廠，橫跨 9 國 3 大洲。核心產品涵蓋棉布、絲光棉紗、天絲/人纖、彈性布料 (採用[[The LYCRA Company]]之 LYCRA 氨綸纖維) 及金屬纖維等機能性紡織品。子品牌 AIQ 投入智慧衣物領域，並投資美國運動品牌[[Physiclo]]。品牌客戶涵蓋[[Walmart]]、[[Costco]]、[[Target]]、[[Nike]]、[[VF Corporation]]等國際大廠，海外設有洛杉磯及紐約客戶服務據點。",
+    "entities": [
+      "The LYCRA Company",
+      "Physiclo",
+      "Walmart",
+      "Costco",
+      "Target",
+      "Nike",
+      "VF Corporation"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "彈性纖維",
+        "text": "[[The LYCRA Company]] ([[Invista]]) — LYCRA 氨綸纖維",
+        "entities": [
+          "The LYCRA Company",
+          "Invista"
+        ]
+      },
+      {
+        "category": "棉花/天絲/人纖",
+        "text": "國際纖維原料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**南緯** (垂直整合：紡紗、織造、染整、成衣製造，全球 18 座工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "零售品牌",
+        "text": "[[Walmart]]、[[Costco]]、[[Target]] — 成衣代工",
+        "entities": [
+          "Walmart",
+          "Costco",
+          "Target"
+        ]
+      },
+      {
+        "category": "運動品牌",
+        "text": "[[Nike]]、[[VF Corporation]] — 機能性布料與成衣",
+        "entities": [
+          "Nike",
+          "VF Corporation"
+        ]
+      },
+      {
+        "category": "智慧衣物",
+        "text": "AIQ 品牌 — 金屬纖維智慧紡織品",
+        "entities": []
+      },
+      {
+        "category": "投資品牌",
+        "text": "[[Physiclo]] — 美國阻力運動服品牌",
+        "entities": [
+          "Physiclo"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "零售品牌",
+        "text": "[[Walmart]]、[[Costco]]、[[Target]] — 成衣代工",
+        "entities": [
+          "Walmart",
+          "Costco",
+          "Target"
+        ]
+      },
+      {
+        "role": "運動品牌",
+        "text": "[[Nike]]、[[VF Corporation]] — 機能性布料與成衣",
+        "entities": [
+          "Nike",
+          "VF Corporation"
+        ]
+      },
+      {
+        "role": "智慧衣物",
+        "text": "AIQ 品牌消費者",
+        "entities": []
+      },
+      {
+        "role": "投資品牌",
+        "text": "[[Physiclo]] — 美國阻力運動服",
+        "entities": [
+          "Physiclo"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "彈性纖維",
+        "text": "[[The LYCRA Company]] ([[Invista]]) — LYCRA 氨綸",
+        "entities": [
+          "The LYCRA Company",
+          "Invista"
+        ]
+      },
+      {
+        "role": "棉花/天絲",
+        "text": "國際纖維原料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "The LYCRA Company",
+      "type": "international_company_or_term",
+      "wikilink": "The LYCRA Company"
+    },
+    {
+      "name": "Physiclo",
+      "type": "international_company_or_term",
+      "wikilink": "Physiclo"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Costco",
+      "type": "international_company_or_term",
+      "wikilink": "Costco"
+    },
+    {
+      "name": "Target",
+      "type": "international_company_or_term",
+      "wikilink": "Target"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "VF Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "VF Corporation"
+    },
+    {
+      "name": "Invista",
+      "type": "international_company_or_term",
+      "wikilink": "Invista"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "南緯實業 (1467，Tex-Ray Industrial) 成立於 1978 年，為垂直整合型紡織集團，全球布建 18 座織造、染整、紡紗及成衣工廠，橫跨 9 國 3 大洲。核心產品涵蓋棉布、絲光棉紗、天絲/人纖、彈性布料 (採用[[The LYCRA Company]]之 LYCRA 氨綸纖維) 及金屬纖維等機能性紡織品。子品牌 AIQ 投入智慧衣物領域，並投資美國運動品牌[[Physiclo]]。品牌客戶涵蓋[[Walmart]]、[[Costco]]、[[Target]]、[[Nike]]、[[VF Corporation]]等國際大廠，海外設有洛杉磯及紐約客戶服務據點。",
+    "supply_chain_md": "**上游 (原料):**\n- **彈性纖維:** [[The LYCRA Company]] ([[Invista]]) — LYCRA 氨綸纖維\n- **棉花/天絲/人纖:** 國際纖維原料供應商\n\n**中游 (製造):**\n- **南緯** (垂直整合：紡紗、織造、染整、成衣製造，全球 18 座工廠)\n\n**下游 (終端):**\n- **零售品牌:** [[Walmart]]、[[Costco]]、[[Target]] — 成衣代工\n- **運動品牌:** [[Nike]]、[[VF Corporation]] — 機能性布料與成衣\n- **智慧衣物:** AIQ 品牌 — 金屬纖維智慧紡織品\n- **投資品牌:** [[Physiclo]] — 美國阻力運動服品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **零售品牌:** [[Walmart]]、[[Costco]]、[[Target]] — 成衣代工\n- **運動品牌:** [[Nike]]、[[VF Corporation]] — 機能性布料與成衣\n- **智慧衣物:** AIQ 品牌消費者\n- **投資品牌:** [[Physiclo]] — 美國阻力運動服\n\n### 主要供應商\n- **彈性纖維:** [[The LYCRA Company]] ([[Invista]]) — LYCRA 氨綸\n- **棉花/天絲:** 國際纖維原料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $9.43 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.43 | 0.76 |     32.56 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5149.51 |      5037.10 |      4555.35 |\n| Gross Profit            |       988.62 |      1061.41 |       769.70 |\n| Gross Margin (%)        |        19.20 |        21.07 |        16.90 |\n| Selling & Marketing Exp |       404.10 |       407.81 |       408.95 |\n| R&D Exp                 |       100.95 |       129.77 |        85.07 |\n| General & Admin Exp     |       495.33 |       466.17 |       481.78 |\n| Operating Income        |       -11.76 |        57.67 |      -206.10 |\n| Operating Margin (%)    |        -0.23 |         1.14 |        -4.52 |\n| Net Income              |      -105.30 |       108.34 |      -165.76 |\n| Net Margin (%)          |        -2.04 |         2.15 |        -3.64 |\n| Op Cash Flow            |       317.25 |       163.14 |       220.24 |\n| Investing Cash Flow     |      -935.04 |      -364.34 |      -272.52 |\n| Financing Cash Flow     |        30.37 |       281.31 |        73.08 |\n| CAPEX                   |       -55.90 |      -132.20 |      -121.31 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1182.47 |      1286.25 |      1477.33 |      1142.74 |\n| Gross Profit            |       233.65 |       300.91 |       264.81 |       196.78 |\n| Gross Margin (%)        |        19.76 |        23.39 |        17.93 |        17.22 |\n| Selling & Marketing Exp |        86.21 |       106.46 |        99.95 |       102.77 |\n| R&D Exp                 |        22.45 |        33.77 |        22.95 |        22.90 |\n| General & Admin Exp     |       112.29 |       136.02 |       140.38 |       107.42 |\n| Operating Income        |        12.71 |        24.66 |         1.54 |       -36.31 |\n| Operating Margin (%)    |         1.07 |         1.92 |         0.10 |        -3.18 |\n| Net Income              |        25.43 |        78.62 |         3.14 |      -191.80 |\n| Net Margin (%)          |         2.15 |         6.11 |         0.21 |       -16.78 |\n| Op Cash Flow            |       -34.21 |       430.93 |        87.97 |      -303.00 |\n| Investing Cash Flow     |       -13.70 |      -493.51 |       208.93 |      -583.86 |\n| Financing Cash Flow     |       118.62 |       -52.25 |       145.09 |      -103.40 |\n| CAPEX                   |       -22.43 |       -25.50 |       -10.37 |        -5.57 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

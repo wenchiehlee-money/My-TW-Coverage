@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1477",
+  "company_name": "聚陽",
+  "title": "1477 - 聚陽",
+  "source_md": "Pilot_Reports/紡織 - 成衣及其它家居紡織類品/1477_聚陽.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "53,409 百萬台幣",
+    "enterprise_value": "49,638 百萬台幣"
+  },
+  "business": {
+    "summary": "聚陽實業 (1477，Makalot Industrial) 為台灣最大成衣 OEM/ODM 廠之一，生產基地遍布印尼、越南、柬埔寨、中國及菲律賓。主力客戶結構：[[GAP]] (含[[Old Navy]]、[[Banana Republic]]，佔營收約 29%)、[[Target]] (約 23%，自有品牌代工)、[[Fast Retailing]]/[[UNIQLO]]/[[GU]] (約 17-23%，快速成長中)、[[Kohl's]] (約 8%)、[[Walmart]] (約 4-7%) 及[[Dick's Sporting Goods]]等。產品涵蓋休閒服、運動服、內衣等全品類成衣。",
+    "entities": [
+      "GAP",
+      "Old Navy",
+      "Banana Republic",
+      "Target",
+      "Fast Retailing",
+      "UNIQLO",
+      "GU",
+      "Kohl's",
+      "Walmart",
+      "Dick's Sporting Goods"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "布料",
+        "text": "[[遠東新世紀]]、[[宏遠興業]] — 機能性布料供應",
+        "entities": [
+          "遠東新世紀",
+          "宏遠興業"
+        ]
+      },
+      {
+        "category": "紗線",
+        "text": "台灣及亞洲紡紗廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**聚陽** (成衣 OEM/ODM，印尼/越南/柬埔寨/中國/菲律賓工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "美國品牌",
+        "text": "[[GAP]]/[[Old Navy]]/[[Banana Republic]] (約 29%)、[[Target]] (約 23%)、[[Kohl's]] (約 8%)、[[Walmart]] (約 5%)",
+        "entities": [
+          "GAP",
+          "Old Navy",
+          "Banana Republic",
+          "Target",
+          "Kohl's",
+          "Walmart"
+        ]
+      },
+      {
+        "category": "日系品牌",
+        "text": "[[Fast Retailing]]/[[UNIQLO]]/[[GU]] (約 20%，快速成長)",
+        "entities": [
+          "Fast Retailing",
+          "UNIQLO",
+          "GU"
+        ]
+      },
+      {
+        "category": "運動品牌",
+        "text": "[[Dick's Sporting Goods]]",
+        "entities": [
+          "Dick's Sporting Goods"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "美系 (佔約 65%)",
+        "text": "[[GAP]]/[[Old Navy]]/[[Banana Republic]] — 約 29%；[[Target]] — 約 23%；[[Kohl's]] — 約 8%；[[Walmart]] — 約 5%",
+        "entities": [
+          "GAP",
+          "Old Navy",
+          "Banana Republic",
+          "Target",
+          "Kohl's",
+          "Walmart"
+        ]
+      },
+      {
+        "role": "日系 (佔約 20%)",
+        "text": "[[UNIQLO]]/[[GU]] ([[Fast Retailing]]) — 快速成長",
+        "entities": [
+          "UNIQLO",
+          "GU",
+          "Fast Retailing"
+        ]
+      },
+      {
+        "role": "運動",
+        "text": "[[Dick's Sporting Goods]] — 運動類成衣",
+        "entities": [
+          "Dick's Sporting Goods"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "布料",
+        "text": "[[遠東新世紀]]、[[宏遠興業]] — 機能性布料",
+        "entities": [
+          "遠東新世紀",
+          "宏遠興業"
+        ]
+      },
+      {
+        "role": "紗線",
+        "text": "台灣及亞洲紡紗廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "GAP",
+      "type": "international_company_or_term",
+      "wikilink": "GAP"
+    },
+    {
+      "name": "Old Navy",
+      "type": "international_company_or_term",
+      "wikilink": "Old Navy"
+    },
+    {
+      "name": "Banana Republic",
+      "type": "international_company_or_term",
+      "wikilink": "Banana Republic"
+    },
+    {
+      "name": "Target",
+      "type": "international_company_or_term",
+      "wikilink": "Target"
+    },
+    {
+      "name": "Fast Retailing",
+      "type": "international_company_or_term",
+      "wikilink": "Fast Retailing"
+    },
+    {
+      "name": "UNIQLO",
+      "type": "international_company_or_term",
+      "wikilink": "UNIQLO"
+    },
+    {
+      "name": "GU",
+      "type": "international_company_or_term",
+      "wikilink": "GU"
+    },
+    {
+      "name": "Kohl's",
+      "type": "international_company_or_term",
+      "wikilink": "Kohl's"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Dick's Sporting Goods",
+      "type": "international_company_or_term",
+      "wikilink": "Dick's Sporting Goods"
+    },
+    {
+      "name": "遠東新世紀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新世紀"
+    },
+    {
+      "name": "宏遠興業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏遠興業"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聚陽實業 (1477，Makalot Industrial) 為台灣最大成衣 OEM/ODM 廠之一，生產基地遍布印尼、越南、柬埔寨、中國及菲律賓。主力客戶結構：[[GAP]] (含[[Old Navy]]、[[Banana Republic]]，佔營收約 29%)、[[Target]] (約 23%，自有品牌代工)、[[Fast Retailing]]/[[UNIQLO]]/[[GU]] (約 17-23%，快速成長中)、[[Kohl's]] (約 8%)、[[Walmart]] (約 4-7%) 及[[Dick's Sporting Goods]]等。產品涵蓋休閒服、運動服、內衣等全品類成衣。",
+    "supply_chain_md": "**上游 (原料):**\n- **布料:** [[遠東新世紀]]、[[宏遠興業]] — 機能性布料供應\n- **紗線:** 台灣及亞洲紡紗廠\n\n**中游 (製造):**\n- **聚陽** (成衣 OEM/ODM，印尼/越南/柬埔寨/中國/菲律賓工廠)\n\n**下游 (品牌客戶):**\n- **美國品牌:** [[GAP]]/[[Old Navy]]/[[Banana Republic]] (約 29%)、[[Target]] (約 23%)、[[Kohl's]] (約 8%)、[[Walmart]] (約 5%)\n- **日系品牌:** [[Fast Retailing]]/[[UNIQLO]]/[[GU]] (約 20%，快速成長)\n- **運動品牌:** [[Dick's Sporting Goods]]",
+    "customers_suppliers_md": "### 主要客戶\n- **美系 (佔約 65%):** [[GAP]]/[[Old Navy]]/[[Banana Republic]] — 約 29%；[[Target]] — 約 23%；[[Kohl's]] — 約 8%；[[Walmart]] — 約 5%\n- **日系 (佔約 20%):** [[UNIQLO]]/[[GU]] ([[Fast Retailing]]) — 快速成長\n- **運動:** [[Dick's Sporting Goods]] — 運動類成衣\n\n### 主要供應商\n- **布料:** [[遠東新世紀]]、[[宏遠興業]] — 機能性布料\n- **紗線:** 台灣及亞洲紡紗廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $221.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.03 |       12.43 |      1.63 | 4.19 |     10.25 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     34428.06 |     35523.58 |     32458.73 |\n| Gross Profit            |      8563.82 |      8991.09 |      8366.35 |\n| Gross Margin (%)        |        24.87 |        25.31 |        25.78 |\n| Selling & Marketing Exp |      2022.84 |      1945.50 |      1848.70 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      1859.35 |      1754.51 |      1671.70 |\n| Operating Income        |      4681.64 |      5291.08 |      4845.95 |\n| Operating Margin (%)    |        13.60 |        14.89 |        14.93 |\n| Net Income              |      3614.09 |      4114.92 |      3991.19 |\n| Net Margin (%)          |        10.50 |        11.58 |        12.30 |\n| Op Cash Flow            |      4056.56 |      4731.16 |      5785.05 |\n| Investing Cash Flow     |      -150.23 |      1177.32 |     -1477.61 |\n| Financing Cash Flow     |     -4084.43 |     -6168.98 |     -4037.08 |\n| CAPEX                   |      -716.65 |      -809.71 |      -483.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      8896.99 |      7926.10 |      7689.03 |      9923.92 |\n| Gross Profit            |      2326.04 |      2118.85 |      1694.19 |      2758.92 |\n| Gross Margin (%)        |        26.14 |        26.73 |        22.03 |        27.80 |\n| Selling & Marketing Exp |       495.69 |       533.93 |       378.59 |       628.44 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       454.80 |       510.47 |       372.90 |       550.67 |\n| Operating Income        |      1375.55 |      1074.45 |       942.70 |      1579.81 |\n| Operating Margin (%)    |        15.46 |        13.56 |        12.26 |        15.92 |\n| Net Income              |      1073.21 |       869.34 |       616.08 |      1270.66 |\n| Net Margin (%)          |        12.06 |        10.97 |         8.01 |        12.80 |\n| Op Cash Flow            |      1283.02 |       685.72 |       725.15 |      1574.73 |\n| Investing Cash Flow     |      -850.62 |       -67.95 |      1013.67 |      -906.92 |\n| Financing Cash Flow     |       -80.44 |       -75.03 |     -2774.40 |        47.78 |\n| CAPEX                   |      -101.33 |      -140.60 |      -188.32 |      -230.36 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8050",
+  "company_name": "廣積",
+  "title": "8050 - 廣積",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/8050_廣積.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "12,112 百萬台幣",
+    "enterprise_value": "14,461 百萬台幣"
+  },
+  "business": {
+    "summary": "廣積科技股份有限公司 (8050，[[IBASE Technology]]) 成立於 2000 年，是一家專精於強固型「工業電腦」(IPC) 產品研發與製造的國際級大廠。公司提供從工業主機板、嵌入式系統到工業觸控電腦的完整解決方案 (OEM/ODM/JDM)。近年來，廣積積極將傳統 IPC 與 [[AIoT]] 深度結合，產品強勢切入智慧交通 (戶外電池交換站/智慧停車)、智慧零售 (免下車點餐/POS)、智慧醫療與高階網路通訊 (網安伺服器) 等垂直應用領域，是台灣推動全球邊緣運算與工業自動化的重要廠商。",
+    "entities": [
+      "IBASE Technology",
+      "AIoT"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心處理器與晶片)",
+        "text": "**上游 (核心處理器與晶片):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]]、[[NVIDIA]] — CPU/GPU",
+        "entities": [
+          "Intel",
+          "AMD",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "嵌入式 SoC",
+        "text": "[[NXP]]、[[Qualcomm]] — [[Arm]] 架構 SoC",
+        "entities": [
+          "NXP",
+          "Qualcomm",
+          "Arm"
+        ]
+      },
+      {
+        "category": "電子元件",
+        "text": "核心晶片組、記憶體及高階電子零組件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (強固型 IPC 研發製造)",
+        "text": "**中游 (強固型 IPC 研發製造):**",
+        "entities": []
+      },
+      {
+        "category": "工業主機板",
+        "text": "**廣積** (x86/RISC 架構工業電腦主機板)",
+        "entities": []
+      },
+      {
+        "category": "嵌入式系統",
+        "text": "**廣積** (邊緣運算平台及網安設備)",
+        "entities": []
+      },
+      {
+        "category": "觸控電腦",
+        "text": "**廣積** (工業觸控電腦及數位看板)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (垂直應用系統整合商)",
+        "text": "**下游 (垂直應用系統整合商):**",
+        "entities": []
+      },
+      {
+        "category": "網安伺服器",
+        "text": "[[Cisco]] 等歐美日大型網通廠 — 網安硬體平台",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "category": "智慧醫療",
+        "text": "知名醫療影像設備廠 — 醫療級 IPC",
+        "entities": []
+      },
+      {
+        "category": "智慧交通",
+        "text": "全球智慧交通/零售終端系統商",
+        "entities": []
+      },
+      {
+        "category": "工業自動化",
+        "text": "[[AMR]] 自主移動機器人應用商",
+        "entities": [
+          "AMR"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網安伺服器",
+        "text": "[[Cisco]] 等歐美日大型網通廠 — 網安硬體平台主力",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "role": "智慧醫療",
+        "text": "知名醫療影像設備廠 — 醫療級 IPC",
+        "entities": []
+      },
+      {
+        "role": "智慧交通/零售",
+        "text": "全球智慧交通及零售終端系統商",
+        "entities": []
+      },
+      {
+        "role": "工業自動化",
+        "text": "[[AMR]] 自主移動機器人應用商",
+        "entities": [
+          "AMR"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]]、[[NVIDIA]]、[[NXP]]、[[Qualcomm]] — CPU/GPU/SoC",
+        "entities": [
+          "Intel",
+          "AMD",
+          "NVIDIA",
+          "NXP",
+          "Qualcomm"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "工業級 DRAM 及 SSD 供應商",
+        "entities": []
+      },
+      {
+        "role": "機殼/散熱",
+        "text": "工業級機殼及無風扇散熱模組廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IBASE Technology",
+      "type": "international_company_or_term",
+      "wikilink": "IBASE Technology"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "AMR",
+      "type": "international_company_or_term",
+      "wikilink": "AMR"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣積科技股份有限公司 (8050，[[IBASE Technology]]) 成立於 2000 年，是一家專精於強固型「工業電腦」(IPC) 產品研發與製造的國際級大廠。公司提供從工業主機板、嵌入式系統到工業觸控電腦的完整解決方案 (OEM/ODM/JDM)。近年來，廣積積極將傳統 IPC 與 [[AIoT]] 深度結合，產品強勢切入智慧交通 (戶外電池交換站/智慧停車)、智慧零售 (免下車點餐/POS)、智慧醫療與高階網路通訊 (網安伺服器) 等垂直應用領域，是台灣推動全球邊緣運算與工業自動化的重要廠商。",
+    "supply_chain_md": "**上游 (核心處理器與晶片):**\n- **處理器:** [[Intel]]、[[AMD]]、[[NVIDIA]] — CPU/GPU\n- **嵌入式 SoC:** [[NXP]]、[[Qualcomm]] — [[Arm]] 架構 SoC\n- **電子元件:** 核心晶片組、記憶體及高階電子零組件\n\n**中游 (強固型 IPC 研發製造):**\n- **工業主機板:** **廣積** (x86/RISC 架構工業電腦主機板)\n- **嵌入式系統:** **廣積** (邊緣運算平台及網安設備)\n- **觸控電腦:** **廣積** (工業觸控電腦及數位看板)\n\n**下游 (垂直應用系統整合商):**\n- **網安伺服器:** [[Cisco]] 等歐美日大型網通廠 — 網安硬體平台\n- **智慧醫療:** 知名醫療影像設備廠 — 醫療級 IPC\n- **智慧交通:** 全球智慧交通/零售終端系統商\n- **工業自動化:** [[AMR]] 自主移動機器人應用商",
+    "customers_suppliers_md": "### 主要客戶\n- **網安伺服器:** [[Cisco]] 等歐美日大型網通廠 — 網安硬體平台主力\n- **智慧醫療:** 知名醫療影像設備廠 — 醫療級 IPC\n- **智慧交通/零售:** 全球智慧交通及零售終端系統商\n- **工業自動化:** [[AMR]] 自主移動機器人應用商\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]]、[[NVIDIA]]、[[NXP]]、[[Qualcomm]] — CPU/GPU/SoC\n- **記憶體:** 工業級 DRAM 及 SSD 供應商\n- **機殼/散熱:** 工業級機殼及無風扇散熱模組廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $54.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     40.90 |        5.68 |      2.17 | 1.58 |     97.31 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5357.56 |      5180.15 |      5996.86 |\n| Gross Profit            |      1143.30 |      1234.30 |      1477.88 |\n| Gross Margin (%)        |        21.34 |        23.83 |        24.64 |\n| Selling & Marketing Exp |       414.58 |       368.37 |       339.43 |\n| R&D Exp                 |       344.75 |       350.79 |       341.64 |\n| General & Admin Exp     |       344.19 |       338.65 |       306.47 |\n| Operating Income        |        39.79 |       176.49 |       490.35 |\n| Operating Margin (%)    |         0.74 |         3.41 |         8.18 |\n| Net Income              |       210.81 |       588.28 |       715.89 |\n| Net Margin (%)          |         3.93 |        11.36 |        11.94 |\n| Op Cash Flow            |       352.89 |       140.04 |       986.88 |\n| Investing Cash Flow     |       462.79 |      -142.88 |       -99.84 |\n| Financing Cash Flow     |     -1189.49 |      -957.40 |       131.56 |\n| CAPEX                   |      -337.22 |      -331.03 |      -328.83 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1229.23 |      1064.89 |      1500.61 |      1548.00 |\n| Gross Profit            |       286.42 |       198.56 |       340.63 |       346.77 |\n| Gross Margin (%)        |        23.30 |        18.65 |        22.70 |        22.40 |\n| Selling & Marketing Exp |       109.74 |        97.00 |       104.70 |       114.17 |\n| R&D Exp                 |        84.17 |        91.89 |        76.16 |        94.51 |\n| General & Admin Exp     |        79.54 |       106.23 |        69.89 |        86.79 |\n| Operating Income        |        12.98 |       -96.56 |        89.88 |        51.30 |\n| Operating Margin (%)    |         1.06 |        -9.07 |         5.99 |         3.31 |\n| Net Income              |       155.94 |        17.11 |       -94.28 |       162.57 |\n| Net Margin (%)          |        12.69 |         1.61 |        -6.28 |        10.50 |\n| Op Cash Flow            |      -434.46 |         1.26 |         4.16 |        59.63 |\n| Investing Cash Flow     |        33.47 |       -12.41 |       354.78 |      -158.17 |\n| Financing Cash Flow     |       298.42 |       -80.50 |      -827.48 |       159.47 |\n| CAPEX                   |        -1.18 |       -20.62 |      -162.32 |       -57.92 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

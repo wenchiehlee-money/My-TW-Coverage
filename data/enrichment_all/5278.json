@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5278",
+  "company_name": "尚凡",
+  "title": "5278 - 尚凡*",
+  "source_md": "Pilot_Reports/電子商務 - 交易撮(媒)合/5278_尚凡.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Internet Content & Information",
+    "market_cap": "6,832 百萬台幣",
+    "enterprise_value": "3,349 百萬台幣"
+  },
+  "business": {
+    "summary": "尚凡國際 (5278，Sunfun) 為台灣交友軟體龍頭暨保健食品新銳，旗下經營知名交友平台 iPair (愛情公寓) 並投資子公司大研生醫 (Daiken)。\n\n業務結構與動能：(1) 保健食品 (營收占比已超越交友) — 子公司大研生醫主打德國 [[KD Pharma]] 專利高濃度魚油、葉黃素等保健品，以電商通路為主力，於 [[momo購物網]] 連年銷售冠軍，八成營收來自線上；(2) 交友平台 — iPair 結合直播打賞功能為主要營收來源，另有 SweetRing (婚戀) 與 weTouch (年輕族群)；(3) 房產平台 — 美房網房地產租賃平台。近年保健品業務高速成長，已成為集團新成長引擎。",
+    "entities": [
+      "KD Pharma",
+      "momo購物網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與平台基礎設施)",
+        "text": "**上游 (原料與平台基礎設施):**",
+        "entities": []
+      },
+      {
+        "category": "保健原料",
+        "text": "[[KD Pharma]] (德國) — 高濃度 Omega-3 魚油專利原料",
+        "entities": [
+          "KD Pharma"
+        ]
+      },
+      {
+        "category": "保健原料",
+        "text": "美國/日本專利原料供應商 — 葉黃素、益生菌等",
+        "entities": []
+      },
+      {
+        "category": "保健代工",
+        "text": "台灣保健食品 OEM/ODM 代工廠 — 委外生產製造",
+        "entities": []
+      },
+      {
+        "category": "雲端服務",
+        "text": "[[AWS]]、[[GCP]] — 平台伺服器與雲端主機",
+        "entities": [
+          "AWS",
+          "GCP"
+        ]
+      },
+      {
+        "category": "App 商店",
+        "text": "[[Apple]]、[[Google]] — App Store/Play Store 上架與分潤",
+        "entities": [
+          "Apple",
+          "Google"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台營運與品牌)",
+        "text": "**中游 (平台營運與品牌):**",
+        "entities": []
+      },
+      {
+        "category": "交友平台",
+        "text": "**尚凡** (iPair 愛情公寓、SweetRing、weTouch)",
+        "entities": []
+      },
+      {
+        "category": "保健品牌",
+        "text": "大研生醫 (Daiken，尚凡子公司)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端消費)",
+        "text": "**下游 (終端消費):**",
+        "entities": []
+      },
+      {
+        "category": "保健品消費",
+        "text": "[[momo購物網]]、[[蝦皮購物]]、[[PChome]] — 電商平台消費者",
+        "entities": [
+          "momo購物網",
+          "蝦皮購物",
+          "PChome"
+        ]
+      },
+      {
+        "category": "交友用戶",
+        "text": "台灣及海外 (港澳/東南亞) 付費會員 — 直播打賞與 VIP 訂閱",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "保健品消費者",
+        "text": "透過 [[momo購物網]]、[[蝦皮購物]]、[[PChome]] 及大研生醫官網購買之個人消費者",
+        "entities": [
+          "momo購物網",
+          "蝦皮購物",
+          "PChome"
+        ]
+      },
+      {
+        "role": "交友用戶",
+        "text": "台灣及海外 (港澳/東南亞/美國) 之一般大眾 — 直播打賞與 VIP 訂閱",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "保健原料",
+        "text": "[[KD Pharma]] (德國) — Omega-3 魚油專利原料",
+        "entities": [
+          "KD Pharma"
+        ]
+      },
+      {
+        "role": "App 平台",
+        "text": "[[Google]]、[[Apple]] — App Store/Play Store 抽成",
+        "entities": [
+          "Google",
+          "Apple"
+        ]
+      },
+      {
+        "role": "電商通路",
+        "text": "[[momo購物網]]、[[蝦皮購物]] — 保健品銷售平台",
+        "entities": [
+          "momo購物網",
+          "蝦皮購物"
+        ]
+      },
+      {
+        "role": "廣告投放",
+        "text": "[[Google]]、[[Meta]] — 數位廣告行銷",
+        "entities": [
+          "Google",
+          "Meta"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "KD Pharma",
+      "type": "international_company_or_term",
+      "wikilink": "KD Pharma"
+    },
+    {
+      "name": "momo購物網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "momo購物網"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "GCP",
+      "type": "international_company_or_term",
+      "wikilink": "GCP"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "蝦皮購物",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝦皮購物"
+    },
+    {
+      "name": "PChome",
+      "type": "international_company_or_term",
+      "wikilink": "PChome"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "尚凡國際 (5278，Sunfun) 為台灣交友軟體龍頭暨保健食品新銳，旗下經營知名交友平台 iPair (愛情公寓) 並投資子公司大研生醫 (Daiken)。\n\n業務結構與動能：(1) 保健食品 (營收占比已超越交友) — 子公司大研生醫主打德國 [[KD Pharma]] 專利高濃度魚油、葉黃素等保健品，以電商通路為主力，於 [[momo購物網]] 連年銷售冠軍，八成營收來自線上；(2) 交友平台 — iPair 結合直播打賞功能為主要營收來源，另有 SweetRing (婚戀) 與 weTouch (年輕族群)；(3) 房產平台 — 美房網房地產租賃平台。近年保健品業務高速成長，已成為集團新成長引擎。",
+    "supply_chain_md": "**上游 (原料與平台基礎設施):**\n- **保健原料:** [[KD Pharma]] (德國) — 高濃度 Omega-3 魚油專利原料\n- **保健原料:** 美國/日本專利原料供應商 — 葉黃素、益生菌等\n- **保健代工:** 台灣保健食品 OEM/ODM 代工廠 — 委外生產製造\n- **雲端服務:** [[AWS]]、[[GCP]] — 平台伺服器與雲端主機\n- **App 商店:** [[Apple]]、[[Google]] — App Store/Play Store 上架與分潤\n\n**中游 (平台營運與品牌):**\n- **交友平台:** **尚凡** (iPair 愛情公寓、SweetRing、weTouch)\n- **保健品牌:** 大研生醫 (Daiken，尚凡子公司)\n\n**下游 (終端消費):**\n- **保健品消費:** [[momo購物網]]、[[蝦皮購物]]、[[PChome]] — 電商平台消費者\n- **交友用戶:** 台灣及海外 (港澳/東南亞) 付費會員 — 直播打賞與 VIP 訂閱",
+    "customers_suppliers_md": "### 主要客戶\n- **保健品消費者:** 透過 [[momo購物網]]、[[蝦皮購物]]、[[PChome]] 及大研生醫官網購買之個人消費者\n- **交友用戶:** 台灣及海外 (港澳/東南亞/美國) 之一般大眾 — 直播打賞與 VIP 訂閱\n\n### 主要供應商\n- **保健原料:** [[KD Pharma]] (德國) — Omega-3 魚油專利原料\n- **App 平台:** [[Google]]、[[Apple]] — App Store/Play Store 抽成\n- **電商通路:** [[momo購物網]]、[[蝦皮購物]] — 保健品銷售平台\n- **廣告投放:** [[Google]]、[[Meta]] — 數位廣告行銷",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $23.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     24.12 |         N/A |      2.52 | 1.82 |      8.24 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2632.69 |      2225.79 |      2061.72 |\n| Gross Profit            |      1479.37 |      1200.46 |      1206.55 |\n| Gross Margin (%)        |        56.19 |        53.93 |        58.52 |\n| Selling & Marketing Exp |       861.36 |       757.07 |       665.52 |\n| R&D Exp                 |        39.70 |        34.72 |        37.02 |\n| General & Admin Exp     |       188.56 |       134.29 |       130.86 |\n| Operating Income        |       389.74 |       274.39 |       373.16 |\n| Operating Margin (%)    |        14.80 |        12.33 |        18.10 |\n| Net Income              |       313.97 |       201.05 |       297.74 |\n| Net Margin (%)          |        11.93 |         9.03 |        14.44 |\n| Op Cash Flow            |       346.26 |       190.97 |       211.98 |\n| Investing Cash Flow     |     -3270.81 |       183.25 |      -281.14 |\n| Financing Cash Flow     |      4820.66 |       547.07 |         0.13 |\n| CAPEX                   |        -5.95 |       -10.17 |        -2.14 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       628.88 |       824.54 |       622.62 |       647.91 |\n| Gross Profit            |       339.03 |       467.14 |       353.71 |       366.13 |\n| Gross Margin (%)        |        53.91 |        56.65 |        56.81 |        56.51 |\n| Selling & Marketing Exp |       211.03 |       256.16 |       193.38 |       234.62 |\n| R&D Exp                 |        10.39 |        11.20 |         9.17 |         7.66 |\n| General & Admin Exp     |        41.55 |        54.83 |        45.69 |        47.79 |\n| Operating Income        |        76.07 |       144.95 |       105.48 |        76.05 |\n| Operating Margin (%)    |        12.10 |        17.58 |        16.94 |        11.74 |\n| Net Income              |        86.73 |        97.17 |        56.82 |        47.79 |\n| Net Margin (%)          |        13.79 |        11.78 |         9.13 |         7.38 |\n| Op Cash Flow            |        90.33 |       163.12 |        44.95 |        75.31 |\n| Investing Cash Flow     |      3160.19 |     -1800.19 |     -1458.82 |        -4.76 |\n| Financing Cash Flow     |       -58.38 |       -57.17 |      4811.59 |        -7.29 |\n| CAPEX                   |        -5.07 |        -0.36 |        -0.39 |        -4.68 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

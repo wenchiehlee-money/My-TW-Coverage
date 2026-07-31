@@ -1,0 +1,241 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3019",
+  "company_name": "亞光",
+  "title": "3019 - 亞光",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 光學鏡片、鏡頭/3019_亞光.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "34,347 百萬台幣",
+    "enterprise_value": "24,376 百萬台幣"
+  },
+  "business": {
+    "summary": "亞光 ([[Asia Optical]]) 為台灣老牌光學大廠，以玻璃研磨與稜鏡技術著稱。公司從數位相機市場成功轉型，聚焦車載鏡頭、潛望式鏡頭與軍用瞄準器三大成長動能。\n\n核心產品：(1) 車載鏡頭 — 打入 [[Tesla]] 純視覺車載鏡頭供應鏈，亦供貨 [[Bosch]]、[[Continental]] 等 Tier 1；(2) 手機光學 — 與 [[LG Innotek]] 策略結盟，供應模造玻璃與稜鏡用於高階手機鏡頭模組，子公司科太光電獲 [[LG Innotek]] 入股；(3) [[LiDAR]] 光達鏡頭 — 為 [[LiDAR]] 關鍵鏡頭供應商；(4) 光通訊 — 布局 [[矽光子]]與光收發模組相關鏡頭。",
+    "entities": [
+      "Asia Optical",
+      "Tesla",
+      "Bosch",
+      "Continental",
+      "LG Innotek",
+      "LiDAR",
+      "矽光子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料)",
+        "text": "**上游 (光學材料):**",
+        "entities": []
+      },
+      {
+        "category": "光學玻璃",
+        "text": "[[Schott]]、[[HOYA]] — 光學玻璃硝材",
+        "entities": [
+          "Schott",
+          "HOYA"
+        ]
+      },
+      {
+        "category": "塑膠粒",
+        "text": "光學級塑膠粒",
+        "entities": []
+      },
+      {
+        "category": "鍍膜材料",
+        "text": "精密光學鍍膜靶材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光學元件與鏡頭製造)",
+        "text": "**中游 (光學元件與鏡頭製造):**",
+        "entities": []
+      },
+      {
+        "category": "玻璃鏡片",
+        "text": "**亞光** (非球面玻璃成型/研磨)",
+        "entities": []
+      },
+      {
+        "category": "稜鏡",
+        "text": "**亞光** (潛望式鏡頭用稜鏡)",
+        "entities": []
+      },
+      {
+        "category": "車載鏡頭",
+        "text": "**亞光** ([[ADAS]] 車用光學模組)",
+        "entities": [
+          "ADAS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (模組廠與終端應用)",
+        "text": "**下游 (模組廠與終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "手機鏡頭模組",
+        "text": "[[LG Innotek]] — 稜鏡與玻璃鏡片供應",
+        "entities": [
+          "LG Innotek"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "[[Tesla]]、[[Bosch]]、[[Continental]] — 車載鏡頭",
+        "entities": [
+          "Tesla",
+          "Bosch",
+          "Continental"
+        ]
+      },
+      {
+        "category": "光達",
+        "text": "[[LiDAR]] 系統廠 — 光達鏡頭",
+        "entities": [
+          "LiDAR"
+        ]
+      },
+      {
+        "category": "運動相機",
+        "text": "運動相機與無人機品牌",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車載",
+        "text": "[[Tesla]] (車載鏡頭主力供應商)、[[Bosch]]、[[Continental]]",
+        "entities": [
+          "Tesla",
+          "Bosch",
+          "Continental"
+        ]
+      },
+      {
+        "role": "光學模組",
+        "text": "[[LG Innotek]] — 手機用稜鏡與玻璃鏡片",
+        "entities": [
+          "LG Innotek"
+        ]
+      },
+      {
+        "role": "光達",
+        "text": "[[LiDAR]] 系統整合廠 — 光達鏡頭",
+        "entities": [
+          "LiDAR"
+        ]
+      },
+      {
+        "role": "終端品牌",
+        "text": "透過 [[LG Innotek]] 間接供貨 [[Apple]]",
+        "entities": [
+          "LG Innotek",
+          "Apple"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學玻璃",
+        "text": "[[Schott]]、[[HOYA]] — 光學硝材",
+        "entities": [
+          "Schott",
+          "HOYA"
+        ]
+      },
+      {
+        "role": "塑膠粒",
+        "text": "光學級塑膠粒供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Asia Optical",
+      "type": "international_company_or_term",
+      "wikilink": "Asia Optical"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "LG Innotek",
+      "type": "international_company_or_term",
+      "wikilink": "LG Innotek"
+    },
+    {
+      "name": "LiDAR",
+      "type": "international_company_or_term",
+      "wikilink": "LiDAR"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "Schott",
+      "type": "international_company_or_term",
+      "wikilink": "Schott"
+    },
+    {
+      "name": "HOYA",
+      "type": "international_company_or_term",
+      "wikilink": "HOYA"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "亞光 ([[Asia Optical]]) 為台灣老牌光學大廠，以玻璃研磨與稜鏡技術著稱。公司從數位相機市場成功轉型，聚焦車載鏡頭、潛望式鏡頭與軍用瞄準器三大成長動能。\n\n核心產品：(1) 車載鏡頭 — 打入 [[Tesla]] 純視覺車載鏡頭供應鏈，亦供貨 [[Bosch]]、[[Continental]] 等 Tier 1；(2) 手機光學 — 與 [[LG Innotek]] 策略結盟，供應模造玻璃與稜鏡用於高階手機鏡頭模組，子公司科太光電獲 [[LG Innotek]] 入股；(3) [[LiDAR]] 光達鏡頭 — 為 [[LiDAR]] 關鍵鏡頭供應商；(4) 光通訊 — 布局 [[矽光子]]與光收發模組相關鏡頭。",
+    "supply_chain_md": "**上游 (光學材料):**\n- **光學玻璃:** [[Schott]]、[[HOYA]] — 光學玻璃硝材\n- **塑膠粒:** 光學級塑膠粒\n- **鍍膜材料:** 精密光學鍍膜靶材\n\n**中游 (光學元件與鏡頭製造):**\n- **玻璃鏡片:** **亞光** (非球面玻璃成型/研磨)\n- **稜鏡:** **亞光** (潛望式鏡頭用稜鏡)\n- **車載鏡頭:** **亞光** ([[ADAS]] 車用光學模組)\n\n**下游 (模組廠與終端應用):**\n- **手機鏡頭模組:** [[LG Innotek]] — 稜鏡與玻璃鏡片供應\n- **車用:** [[Tesla]]、[[Bosch]]、[[Continental]] — 車載鏡頭\n- **光達:** [[LiDAR]] 系統廠 — 光達鏡頭\n- **運動相機:** 運動相機與無人機品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **車載:** [[Tesla]] (車載鏡頭主力供應商)、[[Bosch]]、[[Continental]]\n- **光學模組:** [[LG Innotek]] — 手機用稜鏡與玻璃鏡片\n- **光達:** [[LiDAR]] 系統整合廠 — 光達鏡頭\n- **終端品牌:** 透過 [[LG Innotek]] 間接供貨 [[Apple]]\n\n### 主要供應商\n- **光學玻璃:** [[Schott]]、[[HOYA]] — 光學硝材\n- **塑膠粒:** 光學級塑膠粒供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $119.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.58 |       12.39 |      1.22 | 2.33 |      7.37 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     26445.66 |     23047.47 |     17830.19 |\n| Gross Profit            |      4965.39 |      4279.85 |      3184.84 |\n| Gross Margin (%)        |        18.78 |        18.57 |        17.86 |\n| Selling & Marketing Exp |       279.99 |       243.85 |       206.60 |\n| R&D Exp                 |       939.45 |       899.24 |       819.86 |\n| General & Admin Exp     |      1476.06 |      1378.41 |      1238.60 |\n| Operating Income        |      2269.91 |      1758.34 |       919.78 |\n| Operating Margin (%)    |         8.58 |         7.63 |         5.16 |\n| Net Income              |      1843.20 |      1615.79 |       776.96 |\n| Net Margin (%)          |         6.97 |         7.01 |         4.36 |\n| Op Cash Flow            |      2103.74 |      3826.72 |      2239.85 |\n| Investing Cash Flow     |     -1098.93 |      -638.18 |      -727.92 |\n| Financing Cash Flow     |     -1544.55 |      -595.62 |      -867.38 |\n| CAPEX                   |     -1115.85 |      -913.86 |      -573.32 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      6209.31 |      6976.25 |      7152.52 |      6907.66 |\n| Gross Profit            |      1073.99 |      1083.21 |      1573.94 |      1381.84 |\n| Gross Margin (%)        |        17.30 |        15.53 |        22.01 |        20.00 |\n| Selling & Marketing Exp |        49.91 |        85.39 |        71.34 |        61.00 |\n| R&D Exp                 |       204.54 |       250.26 |       245.59 |       241.62 |\n| General & Admin Exp     |       335.35 |       338.76 |       381.12 |       398.02 |\n| Operating Income        |       484.19 |       408.80 |       875.90 |       681.20 |\n| Operating Margin (%)    |         7.80 |         5.86 |        12.25 |         9.86 |\n| Net Income              |       294.22 |       303.32 |       520.44 |       798.88 |\n| Net Margin (%)          |         4.74 |         4.35 |         7.28 |        11.57 |\n| Op Cash Flow            |       148.66 |      1139.78 |       248.43 |       586.53 |\n| Investing Cash Flow     |      -352.37 |      -313.06 |      -297.11 |      -296.70 |\n| Financing Cash Flow     |        -7.08 |      -326.75 |     -1122.25 |        -5.60 |\n| CAPEX                   |      -353.21 |      -326.65 |      -301.28 |      -296.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

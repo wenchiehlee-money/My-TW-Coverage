@@ -1,0 +1,161 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4966",
+  "company_name": "譜瑞-KY",
+  "title": "4966 - 譜瑞-KY",
+  "source_md": "Pilot_Reports/半導體 - IC設計/4966_譜瑞-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "42,841 百萬台幣",
+    "enterprise_value": "32,538 百萬台幣"
+  },
+  "business": {
+    "summary": "譜瑞-KY (Parade Technologies) 成立於 2005 年，總部位於美國加州 (註冊於開曼群島)。公司為全球領先的 **高速傳輸介面 IC** (High-speed Interface) 及 **顯示驅動 IC** (Display & Touch) 供應商。譜瑞是 **DisplayPort (DP)** 標準的重要制定者與領導者，專注於 **eDP T-CON (嵌入式時序控制器)**、**High-speed Redriver/Retimer** (USB4, [[PCIe]] Gen4/5, HDMI)。譜瑞在 [[Apple]] 供應鏈中地位穩固，為 iPad/MacBook T-CON 獨家/主要供應商。",
+    "entities": [
+      "PCIe",
+      "Apple"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "晶圓代工 ([[台積電]]、[[聯電]])、封測廠 (南茂等)。",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "品牌大廠 ([[Apple]], [[Dell]], [[HP]], [[Lenovo]], [[Samsung]])。",
+        "entities": [
+          "Apple",
+          "Dell",
+          "HP",
+          "Lenovo",
+          "Samsung"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "高速傳輸與顯示介面 IC 設計領導廠。",
+        "entities": []
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[Apple]]",
+        "text": "最大客戶 (貢獻營收約 40-50%)，供應 eDP T-CON, High-speed Interface IC, Touch IC。",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "非蘋陣營",
+        "text": "[[Dell]], [[HP]], [[Lenovo]] (商用筆電高速傳輸晶片)、[[Samsung]] (平板/筆電)。",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo",
+          "Samsung"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "高速傳輸",
+        "text": "祥碩 (ASMedia)、TI (德儀)、Retimer 領域對手 (Astera Labs, Montage)。",
+        "entities": []
+      },
+      {
+        "role": "T-CON/Driver",
+        "text": "[[聯詠]] (Novatek)、奇景 (Himax)。",
+        "entities": [
+          "聯詠"
+        ]
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PCIe",
+      "type": "international_company_or_term",
+      "wikilink": "PCIe"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "譜瑞-KY (Parade Technologies) 成立於 2005 年，總部位於美國加州 (註冊於開曼群島)。公司為全球領先的 **高速傳輸介面 IC** (High-speed Interface) 及 **顯示驅動 IC** (Display & Touch) 供應商。譜瑞是 **DisplayPort (DP)** 標準的重要制定者與領導者，專注於 **eDP T-CON (嵌入式時序控制器)**、**High-speed Redriver/Retimer** (USB4, [[PCIe]] Gen4/5, HDMI)。譜瑞在 [[Apple]] 供應鏈中地位穩固，為 iPad/MacBook T-CON 獨家/主要供應商。",
+    "supply_chain_md": "**角色:** 高速傳輸與顯示介面 IC 設計領導廠。\n**上游:** 晶圓代工 ([[台積電]]、[[聯電]])、封測廠 (南茂等)。\n**下游:** 品牌大廠 ([[Apple]], [[Dell]], [[HP]], [[Lenovo]], [[Samsung]])。",
+    "customers_suppliers_md": "### 主要客戶\n- **[[Apple]]:** 最大客戶 (貢獻營收約 40-50%)，供應 eDP T-CON, High-speed Interface IC, Touch IC。\n- **非蘋陣營:** [[Dell]], [[HP]], [[Lenovo]] (商用筆電高速傳輸晶片)、[[Samsung]] (平板/筆電)。\n\n### 競爭對手\n- **高速傳輸:** 祥碩 (ASMedia)、TI (德儀)、Retimer 領域對手 (Astera Labs, Montage)。\n- **T-CON/Driver:** [[聯詠]] (Novatek)、奇景 (Himax)。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $532.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.26 |       12.40 |      2.48 | 1.84 |      9.47 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     16531.05 |     16245.65 |     13769.07 |\n| Gross Profit            |      7034.74 |      6903.22 |      6019.41 |\n| Gross Margin (%)        |        42.55 |        42.49 |        43.72 |\n| Selling & Marketing Exp |       846.75 |       913.99 |       885.74 |\n| R&D Exp                 |      2909.87 |      2913.47 |      2586.87 |\n| General & Admin Exp     |       568.97 |       623.67 |       580.27 |\n| Operating Income        |      2709.15 |      2452.08 |      1966.53 |\n| Operating Margin (%)    |        16.39 |        15.09 |        14.28 |\n| Net Income              |      2726.71 |      2592.12 |      2033.13 |\n| Net Margin (%)          |        16.49 |        15.96 |        14.77 |\n| Op Cash Flow            |      3419.07 |      3317.86 |      3704.49 |\n| Investing Cash Flow     |      -613.51 |      -605.86 |      -362.66 |\n| Financing Cash Flow     |     -2163.12 |     -1261.03 |     -1781.49 |\n| CAPEX                   |      -143.65 |      -152.16 |      -143.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3989.73 |      3887.99 |      4114.43 |      4151.60 |\n| Gross Profit            |      1607.77 |      1634.04 |      1773.53 |      1766.92 |\n| Gross Margin (%)        |        40.30 |        42.03 |        43.11 |        42.56 |\n| Selling & Marketing Exp |       203.40 |       224.87 |       198.75 |       209.97 |\n| R&D Exp                 |       728.16 |       742.13 |       723.27 |       744.03 |\n| General & Admin Exp     |       136.32 |       136.08 |       142.88 |       155.65 |\n| Operating Income        |       539.88 |       530.96 |       708.63 |       657.27 |\n| Operating Margin (%)    |        13.53 |        13.66 |        17.22 |        15.83 |\n| Net Income              |       529.16 |       544.38 |       702.32 |       664.10 |\n| Net Margin (%)          |        13.26 |        14.00 |        17.07 |        16.00 |\n| Op Cash Flow            |       538.70 |       871.87 |       766.58 |       745.37 |\n| Investing Cash Flow     |       -45.91 |       -93.70 |      -412.52 |       -19.51 |\n| Financing Cash Flow     |      -540.87 |       -37.26 |       355.41 |     -1731.99 |\n| CAPEX                   |       -66.55 |       -36.23 |       -40.58 |       -34.92 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

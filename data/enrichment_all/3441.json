@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3441",
+  "company_name": "聯一光",
+  "title": "3441 - 聯一光",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 光學鏡片、鏡頭/3441_聯一光.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Optical Components",
+    "market_cap": "3,395 百萬台幣",
+    "enterprise_value": "2,958 百萬台幣"
+  },
+  "business": {
+    "summary": "聯一光電 (3441，[[Unique Opto]]) 為台灣唯一本土資本之光學玻璃毛胚 (Glass Blanks) 供應商，位居光學產業鏈最上游。主要業務為將光學玻璃原料加工為毛胚，供應中游鏡片研磨廠。\n\n產品應用從傳統相機、投影機，擴展至車載鏡頭、安控、醫療及軍工領域。車用鏡頭毛胚為近年主要成長動能，受惠於 [[ADAS]] 與自駕車趨勢，各車廠標配環景鏡頭與 DMS 駕駛監控系統帶動光學玻璃需求。上游原料仰賴國際光學玻璃大廠 [[Schott]]、[[Ohara]]、[[Hoya]] 供應。",
+    "entities": [
+      "Unique Opto",
+      "ADAS",
+      "Schott",
+      "Ohara",
+      "Hoya"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學玻璃原料)",
+        "text": "**上游 (光學玻璃原料):**",
+        "entities": []
+      },
+      {
+        "category": "光學玻璃",
+        "text": "[[Schott]]、[[Ohara]]、[[Hoya]] — 國際光學玻璃原料",
+        "entities": [
+          "Schott",
+          "Ohara",
+          "Hoya"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光學毛胚製造)",
+        "text": "**中游 (光學毛胚製造):**",
+        "entities": []
+      },
+      {
+        "category": "玻璃毛胚",
+        "text": "**聯一光** (光學玻璃毛胚壓模成型)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (鏡片研磨與鏡頭模組)",
+        "text": "**下游 (鏡片研磨與鏡頭模組):**",
+        "entities": []
+      },
+      {
+        "category": "鏡片研磨",
+        "text": "[[今國光]]、[[亞光]]、中揚光 — 光學鏡片研磨",
+        "entities": [
+          "今國光",
+          "亞光"
+        ]
+      },
+      {
+        "category": "鏡頭模組",
+        "text": "[[大立光]]、[[舜宇光學]] — 鏡頭模組組裝",
+        "entities": [
+          "大立光",
+          "舜宇光學"
+        ]
+      },
+      {
+        "category": "車用鏡頭",
+        "text": "車用鏡頭模組廠 — [[ADAS]]/環景鏡頭",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "category": "安控",
+        "text": "安控鏡頭品牌 — 監控用光學鏡片",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鏡片研磨",
+        "text": "[[今國光]]、[[亞光]]、中揚光 — 光學鏡片研磨廠",
+        "entities": [
+          "今國光",
+          "亞光"
+        ]
+      },
+      {
+        "role": "鏡頭模組",
+        "text": "[[大立光]]、[[舜宇光學]] — 高階鏡頭模組廠",
+        "entities": [
+          "大立光",
+          "舜宇光學"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "車用鏡頭模組廠 — [[ADAS]] 與環景鏡頭",
+        "entities": [
+          "ADAS"
+        ]
+      },
+      {
+        "role": "中國光學",
+        "text": "光明光電 — 大陸光學廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學玻璃",
+        "text": "[[Schott]]、[[Ohara]]、[[Hoya]] — 國際光學玻璃原料",
+        "entities": [
+          "Schott",
+          "Ohara",
+          "Hoya"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Unique Opto",
+      "type": "international_company_or_term",
+      "wikilink": "Unique Opto"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Schott",
+      "type": "international_company_or_term",
+      "wikilink": "Schott"
+    },
+    {
+      "name": "Ohara",
+      "type": "international_company_or_term",
+      "wikilink": "Ohara"
+    },
+    {
+      "name": "Hoya",
+      "type": "international_company_or_term",
+      "wikilink": "Hoya"
+    },
+    {
+      "name": "今國光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "今國光"
+    },
+    {
+      "name": "亞光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞光"
+    },
+    {
+      "name": "大立光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大立光"
+    },
+    {
+      "name": "舜宇光學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "舜宇光學"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯一光電 (3441，[[Unique Opto]]) 為台灣唯一本土資本之光學玻璃毛胚 (Glass Blanks) 供應商，位居光學產業鏈最上游。主要業務為將光學玻璃原料加工為毛胚，供應中游鏡片研磨廠。\n\n產品應用從傳統相機、投影機，擴展至車載鏡頭、安控、醫療及軍工領域。車用鏡頭毛胚為近年主要成長動能，受惠於 [[ADAS]] 與自駕車趨勢，各車廠標配環景鏡頭與 DMS 駕駛監控系統帶動光學玻璃需求。上游原料仰賴國際光學玻璃大廠 [[Schott]]、[[Ohara]]、[[Hoya]] 供應。",
+    "supply_chain_md": "**上游 (光學玻璃原料):**\n- **光學玻璃:** [[Schott]]、[[Ohara]]、[[Hoya]] — 國際光學玻璃原料\n\n**中游 (光學毛胚製造):**\n- **玻璃毛胚:** **聯一光** (光學玻璃毛胚壓模成型)\n\n**下游 (鏡片研磨與鏡頭模組):**\n- **鏡片研磨:** [[今國光]]、[[亞光]]、中揚光 — 光學鏡片研磨\n- **鏡頭模組:** [[大立光]]、[[舜宇光學]] — 鏡頭模組組裝\n- **車用鏡頭:** 車用鏡頭模組廠 — [[ADAS]]/環景鏡頭\n- **安控:** 安控鏡頭品牌 — 監控用光學鏡片",
+    "customers_suppliers_md": "### 主要客戶\n- **鏡片研磨:** [[今國光]]、[[亞光]]、中揚光 — 光學鏡片研磨廠\n- **鏡頭模組:** [[大立光]]、[[舜宇光學]] — 高階鏡頭模組廠\n- **車用:** 車用鏡頭模組廠 — [[ADAS]] 與環景鏡頭\n- **中國光學:** 光明光電 — 大陸光學廠\n\n### 主要供應商\n- **光學玻璃:** [[Schott]]、[[Ohara]]、[[Hoya]] — 國際光學玻璃原料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $76.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     67.02 |         N/A |      6.83 | 3.67 |     41.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       425.48 |       331.18 |       296.05 |\n| Gross Profit            |       137.40 |       110.83 |        78.77 |\n| Gross Margin (%)        |        32.29 |        33.47 |        26.61 |\n| Selling & Marketing Exp |        10.35 |        10.71 |         9.73 |\n| R&D Exp                 |         5.04 |         6.47 |         7.59 |\n| General & Admin Exp     |        62.41 |        62.61 |        59.50 |\n| Operating Income        |        59.60 |        31.04 |         1.96 |\n| Operating Margin (%)    |        14.01 |         9.37 |         0.66 |\n| Net Income              |        42.57 |        56.01 |        20.44 |\n| Net Margin (%)          |        10.00 |        16.91 |         6.90 |\n| Op Cash Flow            |        76.97 |        79.81 |        64.43 |\n| Investing Cash Flow     |       -65.08 |        68.83 |        57.13 |\n| Financing Cash Flow     |        -8.31 |       -99.88 |       -91.69 |\n| CAPEX                   |        -4.53 |        -1.91 |        -1.51 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       113.33 |       113.82 |       127.69 |        92.95 |\n| Gross Profit            |        33.77 |        29.13 |        46.62 |        27.79 |\n| Gross Margin (%)        |        29.79 |        25.59 |        36.51 |        29.89 |\n| Selling & Marketing Exp |         2.67 |         2.55 |         2.57 |         2.75 |\n| R&D Exp                 |         1.20 |         1.34 |         1.22 |         1.27 |\n| General & Admin Exp     |        17.39 |        17.26 |        16.43 |        12.12 |\n| Operating Income        |        12.51 |         7.97 |        26.39 |        11.64 |\n| Operating Margin (%)    |        11.04 |         7.01 |        20.67 |        12.52 |\n| Net Income              |        18.74 |        17.82 |        33.06 |       -24.09 |\n| Net Margin (%)          |        16.54 |        15.66 |        25.89 |       -25.91 |\n| Op Cash Flow            |         8.89 |        58.98 |        18.86 |        -6.18 |\n| Investing Cash Flow     |         4.21 |        -5.86 |       -47.16 |       -10.20 |\n| Financing Cash Flow     |        -3.96 |        -3.78 |         2.39 |         4.39 |\n| CAPEX                   |        -0.47 |        -2.09 |        -1.88 |        -0.52 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

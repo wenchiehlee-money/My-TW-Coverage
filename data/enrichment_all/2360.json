@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2360",
+  "company_name": "致茂",
+  "title": "2360 - 致茂",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/2360_致茂.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "777,290 百萬台幣",
+    "enterprise_value": "773,076 百萬台幣"
+  },
+  "business": {
+    "summary": "致茂電子股份有限公司 (2360，Chroma ATE) 成立於 1984 年，為亞洲最大之自動化測試與量測設備製造商。公司提供全方位測試解決方案，產品應用涵蓋：(1) 半導體/IC 測試 — 晶圓級與封裝級測試系統；(2) 電力電子測試 — 電源供應器、[[電動車]]充電樁、電池測試；(3) [[AI 伺服器]]測試 — 伺服器電源與備援電池測試；(4) 光電檢測 — LED、太陽能、面板檢測；(5) 自動光學檢測 (AOI)。客戶涵蓋[[台積電]]、[[NVIDIA]]、[[Tesla]]等全球科技領導廠商。致茂近年受惠於 AI 伺服器與[[電動車]]測試需求強勁成長。",
+    "entities": [
+      "電動車",
+      "AI 伺服器",
+      "台積電",
+      "NVIDIA",
+      "Tesla"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "高精度 ADC/DAC、FPGA、功率半導體",
+        "entities": []
+      },
+      {
+        "category": "光學元件",
+        "text": "工業相機、光學鏡頭",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "精密機械平台與夾治具",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (測試設備製造)",
+        "text": "**中游 (測試設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**致茂** — 自動化測試系統設計、組裝、校正與軟體開發",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[聯發科]] — IC 測試系統",
+        "entities": [
+          "台積電",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[NVIDIA]]供應鏈 — 電源與電池測試",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "電動車",
+        "text": "[[Tesla]]供應鏈 — 充電樁與電池測試",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "category": "光電",
+        "text": "LED、太陽能及面板廠 — 光電檢測",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯發科]] — 晶圓與封裝測試系統",
+        "entities": [
+          "台積電",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "[[NVIDIA]]供應鏈 — 伺服器電源與備援電池測試",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "電動車",
+        "text": "[[Tesla]]供應鏈 — 充電樁與電池測試系統",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "role": "光電",
+        "text": "LED、太陽能及面板廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電子元件",
+        "text": "FPGA、ADC/DAC 等高精度半導體元件供應商",
+        "entities": []
+      },
+      {
+        "role": "光學元件",
+        "text": "工業相機與鏡頭供應商",
+        "entities": []
+      },
+      {
+        "role": "機構件",
+        "text": "精密機械平台供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "致茂電子股份有限公司 (2360，Chroma ATE) 成立於 1984 年，為亞洲最大之自動化測試與量測設備製造商。公司提供全方位測試解決方案，產品應用涵蓋：(1) 半導體/IC 測試 — 晶圓級與封裝級測試系統；(2) 電力電子測試 — 電源供應器、[[電動車]]充電樁、電池測試；(3) [[AI 伺服器]]測試 — 伺服器電源與備援電池測試；(4) 光電檢測 — LED、太陽能、面板檢測；(5) 自動光學檢測 (AOI)。客戶涵蓋[[台積電]]、[[NVIDIA]]、[[Tesla]]等全球科技領導廠商。致茂近年受惠於 AI 伺服器與[[電動車]]測試需求強勁成長。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **電子元件:** 高精度 ADC/DAC、FPGA、功率半導體\n- **光學元件:** 工業相機、光學鏡頭\n- **機構件:** 精密機械平台與夾治具\n\n**中游 (測試設備製造):**\n- **致茂** — 自動化測試系統設計、組裝、校正與軟體開發\n\n**下游 (終端客戶):**\n- **半導體:** [[台積電]]、[[聯發科]] — IC 測試系統\n- **AI 伺服器:** [[NVIDIA]]供應鏈 — 電源與電池測試\n- **電動車:** [[Tesla]]供應鏈 — 充電樁與電池測試\n- **光電:** LED、太陽能及面板廠 — 光電檢測",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]、[[聯發科]] — 晶圓與封裝測試系統\n- **AI 伺服器:** [[NVIDIA]]供應鏈 — 伺服器電源與備援電池測試\n- **電動車:** [[Tesla]]供應鏈 — 充電樁與電池測試系統\n- **光電:** LED、太陽能及面板廠\n\n### 主要供應商\n- **電子元件:** FPGA、ADC/DAC 等高精度半導體元件供應商\n- **光學元件:** 工業相機與鏡頭供應商\n- **機構件:** 精密機械平台供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $1,910.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|     60.52 |       29.91 |     24.29 | 29.18 |     64.39 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     28310.94 |     21603.84 |     18676.04 |\n| Gross Profit            |     17424.83 |     12745.98 |     10757.22 |\n| Gross Margin (%)        |        61.55 |        59.00 |        57.60 |\n| Selling & Marketing Exp |      3778.92 |      3497.95 |      2944.80 |\n| R&D Exp                 |      2556.46 |      2198.62 |      1757.32 |\n| General & Admin Exp     |      1959.43 |      1520.62 |      1368.41 |\n| Operating Income        |      9130.03 |      5528.78 |      4686.68 |\n| Operating Margin (%)    |        32.25 |        25.59 |        25.09 |\n| Net Income              |     11692.05 |      5264.25 |      3979.25 |\n| Net Margin (%)          |        41.30 |        24.37 |        21.31 |\n| Op Cash Flow            |      5257.63 |      4783.93 |      3408.41 |\n| Investing Cash Flow     |      1428.44 |     -1890.88 |     -1394.08 |\n| Financing Cash Flow     |     -4548.23 |     -2997.15 |     -3832.47 |\n| CAPEX                   |     -2427.18 |     -2061.97 |     -1636.29 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     11859.67 |      8580.37 |      6410.12 |      6455.40 |\n| Gross Profit            |      7424.06 |      5217.05 |      3835.26 |      4224.22 |\n| Gross Margin (%)        |        62.60 |        60.80 |        59.83 |        65.44 |\n| Selling & Marketing Exp |      1106.54 |       987.81 |       933.74 |       917.15 |\n| R&D Exp                 |       807.14 |       668.11 |       650.88 |       631.62 |\n| General & Admin Exp     |       654.24 |       589.88 |       412.09 |       474.07 |\n| Operating Income        |      4856.14 |      2971.25 |      1838.54 |      2201.37 |\n| Operating Margin (%)    |        40.95 |        34.63 |        28.68 |        34.10 |\n| Net Income              |      3864.18 |      2549.94 |      5066.33 |      1953.30 |\n| Net Margin (%)          |        32.58 |        29.72 |        79.04 |        30.26 |\n| Op Cash Flow            |      1015.51 |      2393.26 |       122.77 |       785.63 |\n| Investing Cash Flow     |     -1840.64 |      -762.25 |      2747.66 |      -569.41 |\n| Financing Cash Flow     |       -23.26 |      -774.12 |     -2548.59 |       -26.08 |\n| CAPEX                   |      -409.27 |      -617.49 |      -639.06 |      -795.23 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

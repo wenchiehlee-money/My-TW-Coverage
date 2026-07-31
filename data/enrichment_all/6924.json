@@ -1,0 +1,218 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6924",
+  "company_name": "榮惠-KY創",
+  "title": "6924_榮惠-KY創",
+  "source_md": "Pilot_Reports/Electronic Components/6924_榮惠-KY創.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,058 百萬台幣",
+    "enterprise_value": "1,661 百萬台幣"
+  },
+  "business": {
+    "summary": "榮惠-KY (6924，[[EIKEI]]) 為輕資產模式的利基型 PCB 與電子零組件整合服務商。公司不自設 PCB 工廠，而是以設計、品管與供應鏈管理為核心能力，承接日系車廠及國際品牌客戶高度客製化的 PCB 訂單。\n\n業務結構與動能：(1) 車用 PCB — 成功打入日本車用電子供應鏈，透過模組拼板設計與日本車規級品管，委託合作板廠代工生產；(2) 電子零組件整合 — 提供跨國供應鏈調度、物流倉儲與零組件整合服務；(3) 東南亞擴張 — 隨日系客戶南進泰國、印尼，拓展東南亞市場。上游合作數十家 PCB 製造板廠，下游客戶以日本車用電子 Tier 1/Tier 2 為主。",
+    "entities": [
+      "EIKEI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (PCB 製造)",
+        "text": "**上游 (PCB 製造):**",
+        "entities": []
+      },
+      {
+        "category": "基板材料",
+        "text": "[[銅箔]]基板 (CCL) 供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "PCB 代工",
+        "text": "數十家台灣如 [[欣興]]、中國及東南亞合作 PCB 板廠",
+        "entities": [
+          "欣興"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (整合服務)",
+        "text": "**中游 (整合服務):**",
+        "entities": []
+      },
+      {
+        "category": "PCB 設計",
+        "text": "**榮惠** (利基型 PCB 模組拼板設計)",
+        "entities": []
+      },
+      {
+        "category": "品管",
+        "text": "**榮惠** (日本車規級品質管理)",
+        "entities": []
+      },
+      {
+        "category": "供應鏈",
+        "text": "**榮惠** (跨國供應鏈調度與物流倉儲)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車用電子)",
+        "text": "**下游 (車用電子):**",
+        "entities": []
+      },
+      {
+        "category": "車用 Tier 1",
+        "text": "日本車用電子系統廠如 [[Denso]]、[[Aisin]] — 車規 PCB",
+        "entities": [
+          "Denso",
+          "Aisin"
+        ]
+      },
+      {
+        "category": "消費電子",
+        "text": "消費電子品牌 — 利基型 PCB",
+        "entities": []
+      },
+      {
+        "category": "工控設備",
+        "text": "工業控制設備商 — 客製化 PCB",
+        "entities": []
+      },
+      {
+        "category": "AI 散熱",
+        "text": "[[AI 伺服器]]水冷散熱模組廠 — PCB",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用電子",
+        "text": "日系車用電子 Tier 1/Tier 2 如 [[Denso]] — 車規利基型 PCB",
+        "entities": [
+          "Denso"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "消費電子品牌 — 客製化 PCB 與零組件",
+        "entities": []
+      },
+      {
+        "role": "工控設備",
+        "text": "工業控制設備商 — 利基型 PCB",
+        "entities": []
+      },
+      {
+        "role": "AI 散熱",
+        "text": "[[AI 伺服器]]水冷散熱模組廠 — PCB",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PCB 代工",
+        "text": "數十家合作 PCB 板廠 (台灣、中國、東南亞)",
+        "entities": []
+      },
+      {
+        "role": "基板材料",
+        "text": "[[銅箔]]基板 (CCL) 供應商",
+        "entities": [
+          "銅箔"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "榮惠-KY (6924，[[EIKEI]]) 為輕資產模式的利基型 PCB 與電子零組件整合服務商。公司不自設 PCB 工廠，而是以設計、品管與供應鏈管理為核心能力，承接日系車廠及國際品牌客戶高度客製化的 PCB 訂單。",
+        "entities": [
+          "EIKEI"
+        ]
+      },
+      {
+        "text": "- **PCB 設計:** **榮惠** (利基型 PCB 模組拼板設計)",
+        "entities": []
+      },
+      {
+        "text": "- **消費電子:** 消費電子品牌 — 利基型 PCB",
+        "entities": []
+      },
+      {
+        "text": "- **車用電子:** 日系車用電子 Tier 1/Tier 2 如 [[Denso]] — 車規利基型 PCB",
+        "entities": [
+          "Denso"
+        ]
+      },
+      {
+        "text": "- **工控設備:** 工業控制設備商 — 利基型 PCB",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EIKEI",
+      "type": "international_company_or_term",
+      "wikilink": "EIKEI"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "Denso",
+      "type": "international_company_or_term",
+      "wikilink": "Denso"
+    },
+    {
+      "name": "Aisin",
+      "type": "international_company_or_term",
+      "wikilink": "Aisin"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "榮惠-KY (6924，[[EIKEI]]) 為輕資產模式的利基型 PCB 與電子零組件整合服務商。公司不自設 PCB 工廠，而是以設計、品管與供應鏈管理為核心能力，承接日系車廠及國際品牌客戶高度客製化的 PCB 訂單。\n\n業務結構與動能：(1) 車用 PCB — 成功打入日本車用電子供應鏈，透過模組拼板設計與日本車規級品管，委託合作板廠代工生產；(2) 電子零組件整合 — 提供跨國供應鏈調度、物流倉儲與零組件整合服務；(3) 東南亞擴張 — 隨日系客戶南進泰國、印尼，拓展東南亞市場。上游合作數十家 PCB 製造板廠，下游客戶以日本車用電子 Tier 1/Tier 2 為主。",
+    "supply_chain_md": "**上游 (PCB 製造):**\n- **基板材料:** [[銅箔]]基板 (CCL) 供應商\n- **PCB 代工:** 數十家台灣如 [[欣興]]、中國及東南亞合作 PCB 板廠\n\n**中游 (整合服務):**\n- **PCB 設計:** **榮惠** (利基型 PCB 模組拼板設計)\n- **品管:** **榮惠** (日本車規級品質管理)\n- **供應鏈:** **榮惠** (跨國供應鏈調度與物流倉儲)\n\n**下游 (車用電子):**\n- **車用 Tier 1:** 日本車用電子系統廠如 [[Denso]]、[[Aisin]] — 車規 PCB\n- **消費電子:** 消費電子品牌 — 利基型 PCB\n- **工控設備:** 工業控制設備商 — 客製化 PCB\n- **AI 散熱:** [[AI 伺服器]]水冷散熱模組廠 — PCB",
+    "customers_suppliers_md": "### 主要客戶\n- **車用電子:** 日系車用電子 Tier 1/Tier 2 如 [[Denso]] — 車規利基型 PCB\n- **消費電子:** 消費電子品牌 — 客製化 PCB 與零組件\n- **工控設備:** 工業控制設備商 — 利基型 PCB\n- **AI 散熱:** [[AI 伺服器]]水冷散熱模組廠 — PCB\n\n### 主要供應商\n- **PCB 代工:** 數十家合作 PCB 板廠 (台灣、中國、東南亞)\n- **基板材料:** [[銅箔]]基板 (CCL) 供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $97.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.70 |         N/A |      1.16 | 3.85 |      8.35 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1693.72 |      1762.82 |      1426.28 |\n| Gross Profit            |       380.06 |       405.22 |       320.10 |\n| Gross Margin (%)        |        22.44 |        22.99 |        22.44 |\n| Selling & Marketing Exp |        93.24 |        90.53 |        81.58 |\n| R&D Exp                 |         2.83 |         2.40 |         2.30 |\n| General & Admin Exp     |       129.64 |       145.95 |       106.83 |\n| Operating Income        |       154.36 |       166.34 |       129.39 |\n| Operating Margin (%)    |         9.11 |         9.44 |         9.07 |\n| Net Income              |       118.42 |       142.53 |       110.68 |\n| Net Margin (%)          |         6.99 |         8.09 |         7.76 |\n| Op Cash Flow            |       205.26 |       -69.36 |       195.03 |\n| Investing Cash Flow     |       -10.32 |        -4.66 |        -3.56 |\n| Financing Cash Flow     |      -135.50 |        75.87 |       -60.54 |\n| CAPEX                   |       -10.91 |        -4.42 |        -5.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       472.29 |       427.02 |       399.31 |       423.29 |\n| Gross Profit            |       125.02 |       112.00 |        88.83 |        92.21 |\n| Gross Margin (%)        |        26.47 |        26.23 |        22.25 |        21.78 |\n| Selling & Marketing Exp |        26.49 |        24.00 |        25.50 |        22.65 |\n| R&D Exp                 |         0.69 |         0.55 |         0.68 |         0.81 |\n| General & Admin Exp     |        38.77 |        27.61 |        33.50 |        32.53 |\n| Operating Income        |        59.07 |        59.84 |        29.15 |        36.22 |\n| Operating Margin (%)    |        12.51 |        14.01 |         7.30 |         8.56 |\n| Net Income              |        46.63 |        51.05 |        31.62 |         8.32 |\n| Net Margin (%)          |         9.87 |        11.95 |         7.92 |         1.97 |\n| Op Cash Flow            |        26.69 |        23.57 |        13.21 |        13.94 |\n| Investing Cash Flow     |        -4.32 |         0.74 |        -0.40 |        -5.81 |\n| Financing Cash Flow     |        27.01 |       -15.93 |      -120.46 |       -10.39 |\n| CAPEX                   |        -2.06 |        -0.19 |        -0.71 |        -5.23 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

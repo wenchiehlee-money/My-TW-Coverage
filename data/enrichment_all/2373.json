@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2373",
+  "company_name": "震旦行",
+  "title": "2373 - 震旦行",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/2373_震旦行.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Industrial Distribution",
+    "market_cap": "12,080 百萬台幣",
+    "enterprise_value": "12,538 百萬台幣"
+  },
+  "business": {
+    "summary": "震旦行股份有限公司成立於1965年，為台灣最大辦公設備通路集團之一。核心業務涵蓋：（1）**辦公設備：** 旗下[[金儀]]為[[Konica Minolta]]影印機/多功能事務機台灣獨家代理商，提供企業辦公設備租賃與售後服務；（2）**辦公家具：** 自有品牌震旦辦公家具，為台灣辦公家具市場領導品牌；（3）**數位印刷：** 子公司[[康鈦科技]]代理 [[Konica Minolta]] 及 [[DEVELOP]] 高階數位生產型印刷系統；（4）**雲端與通訊：** 震旦雲提供企業雲端 IT 服務，通訊事業提供企業通訊解決方案；（5）**3D列印：** 代理工業級[[3D列印]]設備。集團業務遍及台灣及中國大陸市場。",
+    "entities": [
+      "金儀",
+      "Konica Minolta",
+      "康鈦科技",
+      "DEVELOP",
+      "3D列印"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備原廠)",
+        "text": "**上游 (設備原廠):**",
+        "entities": []
+      },
+      {
+        "category": "事務機",
+        "text": "[[Konica Minolta]]（日本，影印機/多功能事務機原廠）",
+        "entities": [
+          "Konica Minolta"
+        ]
+      },
+      {
+        "category": "數位印刷",
+        "text": "[[Konica Minolta]]、[[DEVELOP]]（高階數位生產型印刷系統）",
+        "entities": [
+          "Konica Minolta",
+          "DEVELOP"
+        ]
+      },
+      {
+        "category": "3D列印",
+        "text": "工業級[[3D列印]]設備原廠",
+        "entities": [
+          "3D列印"
+        ]
+      },
+      {
+        "category": "辦公家具",
+        "text": "自有品牌設計製造",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路與服務)",
+        "text": "**中游 (通路與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**震旦行** — 辦公設備銷售/租賃、辦公家具、企業雲端 IT 服務",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[金儀]]** — [[Konica Minolta]] 事務機台灣獨家代理",
+        "entities": [
+          "金儀",
+          "Konica Minolta"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[康鈦科技]]** — 數位印刷系統代理",
+        "entities": [
+          "康鈦科技"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "企業用戶",
+        "text": "台灣及大陸各產業企業辦公設備採購",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "公務機關辦公設備標案",
+        "entities": []
+      },
+      {
+        "category": "印刷業",
+        "text": "數位印刷服務業者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業辦公",
+        "text": "台灣及大陸各產業企業（辦公設備租賃與採購）",
+        "entities": []
+      },
+      {
+        "role": "政府機關",
+        "text": "公務機關辦公設備標案",
+        "entities": []
+      },
+      {
+        "role": "印刷業",
+        "text": "數位印刷業者（高階數位生產型印刷系統）",
+        "entities": []
+      },
+      {
+        "role": "辦公空間",
+        "text": "商辦大樓（辦公家具整體規劃）",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "事務機",
+        "text": "[[Konica Minolta]]（日本，核心設備原廠）",
+        "entities": [
+          "Konica Minolta"
+        ]
+      },
+      {
+        "role": "數位印刷",
+        "text": "[[Konica Minolta]]、[[DEVELOP]]（高階印刷設備）",
+        "entities": [
+          "Konica Minolta",
+          "DEVELOP"
+        ]
+      },
+      {
+        "role": "3D列印",
+        "text": "工業級[[3D列印]]設備原廠",
+        "entities": [
+          "3D列印"
+        ]
+      },
+      {
+        "role": "IT服務",
+        "text": "雲端基礎設施與軟體供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "金儀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金儀"
+    },
+    {
+      "name": "Konica Minolta",
+      "type": "international_company_or_term",
+      "wikilink": "Konica Minolta"
+    },
+    {
+      "name": "康鈦科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康鈦科技"
+    },
+    {
+      "name": "DEVELOP",
+      "type": "international_company_or_term",
+      "wikilink": "DEVELOP"
+    },
+    {
+      "name": "3D列印",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D列印"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "震旦行股份有限公司成立於1965年，為台灣最大辦公設備通路集團之一。核心業務涵蓋：（1）**辦公設備：** 旗下[[金儀]]為[[Konica Minolta]]影印機/多功能事務機台灣獨家代理商，提供企業辦公設備租賃與售後服務；（2）**辦公家具：** 自有品牌震旦辦公家具，為台灣辦公家具市場領導品牌；（3）**數位印刷：** 子公司[[康鈦科技]]代理 [[Konica Minolta]] 及 [[DEVELOP]] 高階數位生產型印刷系統；（4）**雲端與通訊：** 震旦雲提供企業雲端 IT 服務，通訊事業提供企業通訊解決方案；（5）**3D列印：** 代理工業級[[3D列印]]設備。集團業務遍及台灣及中國大陸市場。",
+    "supply_chain_md": "**上游 (設備原廠):**\n- **事務機:** [[Konica Minolta]]（日本，影印機/多功能事務機原廠）\n- **數位印刷:** [[Konica Minolta]]、[[DEVELOP]]（高階數位生產型印刷系統）\n- **3D列印:** 工業級[[3D列印]]設備原廠\n- **辦公家具:** 自有品牌設計製造\n\n**中游 (通路與服務):**\n- **震旦行** — 辦公設備銷售/租賃、辦公家具、企業雲端 IT 服務\n- **[[金儀]]** — [[Konica Minolta]] 事務機台灣獨家代理\n- **[[康鈦科技]]** — 數位印刷系統代理\n\n**下游 (終端客戶):**\n- **企業用戶:** 台灣及大陸各產業企業辦公設備採購\n- **政府機關:** 公務機關辦公設備標案\n- **印刷業:** 數位印刷服務業者",
+    "customers_suppliers_md": "### 主要客戶\n- **企業辦公:** 台灣及大陸各產業企業（辦公設備租賃與採購）\n- **政府機關:** 公務機關辦公設備標案\n- **印刷業:** 數位印刷業者（高階數位生產型印刷系統）\n- **辦公空間:** 商辦大樓（辦公家具整體規劃）\n\n### 主要供應商\n- **事務機:** [[Konica Minolta]]（日本，核心設備原廠）\n- **數位印刷:** [[Konica Minolta]]、[[DEVELOP]]（高階印刷設備）\n- **3D列印:** 工業級[[3D列印]]設備原廠\n- **IT服務:** 雲端基礎設施與軟體供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $53.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     13.87 |        7.49 |      1.13 | 1.72 |      9.90 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     10729.92 |     11292.75 |     11533.33 |\n| Gross Profit            |      4871.90 |      5012.81 |      5320.11 |\n| Gross Margin (%)        |        45.40 |        44.39 |        46.13 |\n| Selling & Marketing Exp |      2543.65 |      2593.58 |      2606.25 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      1474.34 |      1554.69 |      1698.27 |\n| Operating Income        |       853.91 |       864.54 |      1015.59 |\n| Operating Margin (%)    |         7.96 |         7.66 |         8.81 |\n| Net Income              |       871.12 |       958.64 |      1091.51 |\n| Net Margin (%)          |         8.12 |         8.49 |         9.46 |\n| Op Cash Flow            |      1081.12 |      1285.45 |      1712.22 |\n| Investing Cash Flow     |        36.81 |       393.84 |       264.95 |\n| Financing Cash Flow     |     -1270.59 |     -1592.22 |     -1423.23 |\n| CAPEX                   |      -176.14 |      -593.68 |      -379.41 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2488.89 |      2724.79 |      2752.91 |      2643.84 |\n| Gross Profit            |      1123.13 |      1163.08 |      1270.05 |      1244.79 |\n| Gross Margin (%)        |        45.13 |        42.69 |        46.13 |        47.08 |\n| Selling & Marketing Exp |       528.98 |       973.69 |       412.25 |       582.10 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       469.22 |       -43.14 |       622.19 |       427.96 |\n| Operating Income        |       124.93 |       232.53 |       235.60 |       234.73 |\n| Operating Margin (%)    |         5.02 |         8.53 |         8.56 |         8.88 |\n| Net Income              |       161.06 |       244.74 |       225.45 |       240.62 |\n| Net Margin (%)          |         6.47 |         8.98 |         8.19 |         9.10 |\n| Op Cash Flow            |      -134.25 |       656.17 |       242.97 |       299.01 |\n| Investing Cash Flow     |       -30.21 |        -2.48 |       190.10 |       -10.30 |\n| Financing Cash Flow     |      -342.26 |       -83.25 |      -746.01 |      -304.09 |\n| CAPEX                   |       -42.67 |       -20.61 |       -34.48 |       -32.75 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6651",
+  "company_name": "全宇昕",
+  "title": "6651_全宇昕",
+  "source_md": "Pilot_Reports/半導體 - IC設計/6651_全宇昕.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,875 百萬台幣",
+    "enterprise_value": "3,371 百萬台幣"
+  },
+  "business": {
+    "summary": "全宇昕科技 (6651，[[Cystech Electronics]]) 為無晶圓 (Fabless) 分離式功率半導體元件設計公司，專注於 [[MOSFET]]、電晶體、二極體及功率 IC 的設計開發與銷售。\n\n核心產品與應用：(1) [[MOSFET]] — 低壓與中壓 [[MOSFET]] 產品線，廣泛應用於電腦、消費電子電源管理及工業控制；(2) 二極體 — 包含蕭特基二極體 (Schottky)、TVS 保護元件、齊納二極體及整流器，應用於電源供應器與通訊設備；(3) [[碳化矽]] (SiC) 蕭特基二極體 — 布局第三代半導體，應用於高效率電源轉換。公司採 Fabless 模式，晶圓製造委託專業代工廠，封測則委外於大型 OSAT 廠。產品行銷全球，涵蓋電腦、消費電子、通訊及工業市場。",
+    "entities": [
+      "Cystech Electronics",
+      "MOSFET",
+      "碳化矽"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "專業晶圓代工廠 — [[MOSFET]] 與二極體晶圓製造",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "大型封測廠 — 分離式元件封裝與測試",
+        "entities": []
+      },
+      {
+        "category": "矽智財",
+        "text": "功率半導體相關 IP 授權",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "功率元件",
+        "text": "**全宇昕** ([[MOSFET]]、電晶體、二極體設計)",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "功率 IC",
+        "text": "**全宇昕** (DC-DC 轉換 IC 設計)",
+        "entities": []
+      },
+      {
+        "category": "第三代半導體",
+        "text": "**全宇昕** ([[碳化矽]]蕭特基二極體設計)",
+        "entities": [
+          "碳化矽"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電源供應",
+        "text": "電源供應器廠 — [[MOSFET]] 與蕭特基二極體",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "消費電子",
+        "text": "消費電子品牌 — 電源管理元件",
+        "entities": []
+      },
+      {
+        "category": "通訊設備",
+        "text": "通訊設備廠 — TVS 保護元件",
+        "entities": []
+      },
+      {
+        "category": "工業控制",
+        "text": "工控設備廠 — 功率元件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源供應",
+        "text": "電源供應器與充電器製造商 — [[MOSFET]] 與整流器",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "消費電子品牌 — 電源管理與保護元件",
+        "entities": []
+      },
+      {
+        "role": "通訊設備",
+        "text": "通訊設備製造商 — TVS 保護元件",
+        "entities": []
+      },
+      {
+        "role": "工業控制",
+        "text": "工控與自動化設備廠 — 功率半導體元件",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "專業功率半導體晶圓代工廠 — [[MOSFET]] 與二極體製造",
+        "entities": [
+          "MOSFET"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "大型 OSAT 封測廠 — 分離式元件封裝測試",
+        "entities": []
+      },
+      {
+        "role": "[[碳化矽]]基板",
+        "text": "SiC 晶圓供應商 — 第三代半導體材料",
+        "entities": [
+          "碳化矽"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Cystech Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Cystech Electronics"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "全宇昕科技 (6651，[[Cystech Electronics]]) 為無晶圓 (Fabless) 分離式功率半導體元件設計公司，專注於 [[MOSFET]]、電晶體、二極體及功率 IC 的設計開發與銷售。\n\n核心產品與應用：(1) [[MOSFET]] — 低壓與中壓 [[MOSFET]] 產品線，廣泛應用於電腦、消費電子電源管理及工業控制；(2) 二極體 — 包含蕭特基二極體 (Schottky)、TVS 保護元件、齊納二極體及整流器，應用於電源供應器與通訊設備；(3) [[碳化矽]] (SiC) 蕭特基二極體 — 布局第三代半導體，應用於高效率電源轉換。公司採 Fabless 模式，晶圓製造委託專業代工廠，封測則委外於大型 OSAT 廠。產品行銷全球，涵蓋電腦、消費電子、通訊及工業市場。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **晶圓代工:** 專業晶圓代工廠 — [[MOSFET]] 與二極體晶圓製造\n- **封測:** 大型封測廠 — 分離式元件封裝與測試\n- **矽智財:** 功率半導體相關 IP 授權\n\n**中游 (IC 設計):**\n- **功率元件:** **全宇昕** ([[MOSFET]]、電晶體、二極體設計)\n- **功率 IC:** **全宇昕** (DC-DC 轉換 IC 設計)\n- **第三代半導體:** **全宇昕** ([[碳化矽]]蕭特基二極體設計)\n\n**下游 (終端應用):**\n- **電源供應:** 電源供應器廠 — [[MOSFET]] 與蕭特基二極體\n- **消費電子:** 消費電子品牌 — 電源管理元件\n- **通訊設備:** 通訊設備廠 — TVS 保護元件\n- **工業控制:** 工控設備廠 — 功率元件",
+    "customers_suppliers_md": "### 主要客戶\n- **電源供應:** 電源供應器與充電器製造商 — [[MOSFET]] 與整流器\n- **消費電子:** 消費電子品牌 — 電源管理與保護元件\n- **通訊設備:** 通訊設備製造商 — TVS 保護元件\n- **工業控制:** 工控與自動化設備廠 — 功率半導體元件\n\n### 主要供應商\n- **晶圓代工:** 專業功率半導體晶圓代工廠 — [[MOSFET]] 與二極體製造\n- **封測:** 大型 OSAT 封測廠 — 分離式元件封裝測試\n- **[[碳化矽]]基板:** SiC 晶圓供應商 — 第三代半導體材料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $109.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.12 |       12.26 |      2.50 | 3.09 |     10.39 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1502.16 |      1445.63 |      1344.88 |\n| Gross Profit            |       521.20 |       511.32 |       463.97 |\n| Gross Margin (%)        |        34.70 |        35.37 |        34.50 |\n| Selling & Marketing Exp |       113.23 |       108.68 |       106.61 |\n| R&D Exp                 |        50.26 |        48.88 |        42.62 |\n| General & Admin Exp     |        78.51 |        88.97 |        84.40 |\n| Operating Income        |       285.72 |       270.23 |       229.38 |\n| Operating Margin (%)    |        19.02 |        18.69 |        17.06 |\n| Net Income              |       218.45 |       283.38 |       188.37 |\n| Net Margin (%)          |        14.54 |        19.60 |        14.01 |\n| Op Cash Flow            |       305.50 |       444.19 |       335.77 |\n| Investing Cash Flow     |         9.97 |       213.80 |      -291.90 |\n| Financing Cash Flow     |      -272.69 |      -676.01 |        36.68 |\n| CAPEX                   |       -13.86 |       -24.05 |       -11.86 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       396.33 |       345.29 |       357.27 |       412.67 |\n| Gross Profit            |       149.92 |       118.62 |       118.96 |       145.23 |\n| Gross Margin (%)        |        37.83 |        34.35 |        33.30 |        35.19 |\n| Selling & Marketing Exp |        25.26 |        26.24 |        28.64 |        30.20 |\n| R&D Exp                 |        11.71 |        11.72 |        12.83 |        12.91 |\n| General & Admin Exp     |        20.11 |        18.14 |        20.31 |        19.04 |\n| Operating Income        |        93.41 |        63.83 |        59.29 |        85.90 |\n| Operating Margin (%)    |        23.57 |        18.49 |        16.60 |        20.82 |\n| Net Income              |        85.40 |        68.17 |        65.18 |        15.66 |\n| Net Margin (%)          |        21.55 |        19.74 |        18.24 |         3.79 |\n| Op Cash Flow            |       109.04 |       134.61 |        79.76 |        19.04 |\n| Investing Cash Flow     |       -78.29 |        -5.51 |        -3.18 |         5.88 |\n| Financing Cash Flow     |       -51.42 |       -76.66 |       -26.66 |      -159.86 |\n| CAPEX                   |       -86.46 |        -1.96 |        -9.19 |        -0.10 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

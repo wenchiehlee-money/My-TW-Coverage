@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6024",
+  "company_name": "群益期",
+  "title": "6024_群益期",
+  "source_md": "Pilot_Reports/金融 - 期貨業/6024_群益期.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "market_cap": "15,771 百萬台幣",
+    "enterprise_value": "6,703 百萬台幣"
+  },
+  "business": {
+    "summary": "群益期貨 (6024，Capital Futures) 成立於 1997 年，為[[群益金鼎證券]] (6005) 之子公司，台灣前兩大期貨經紀商之一。業務涵蓋國內外期貨及選擇權經紀、自營、期貨顧問 (期顧)、期貨經理 (期經) 及槓桿交易商業務。以強大的 IT 研發能力著稱，自主建置專為高頻交易與法人客戶量身打造的 DMA (Direct Market Access) 全球直接下單系統。全球直連包含[[CME]]、[[Eurex]]等超過 12 家指標型期貨交易所。海外據點布局香港，拓展大中華區與國際機構法人業務。2009 年於[[證券櫃檯買賣中心]]掛牌。",
+    "entities": [
+      "群益金鼎證券",
+      "CME",
+      "Eurex",
+      "證券櫃檯買賣中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (全球交易所與清算)",
+        "text": "**上游 (全球交易所與清算):**",
+        "entities": []
+      },
+      {
+        "category": "國內交易所",
+        "text": "[[台灣期貨交易所]] — 國內期選撮合",
+        "entities": [
+          "台灣期貨交易所"
+        ]
+      },
+      {
+        "category": "國際交易所",
+        "text": "[[CME]]、[[Eurex]]等全球 12 家以上期貨交易所",
+        "entities": [
+          "CME",
+          "Eurex"
+        ]
+      },
+      {
+        "category": "結算機構",
+        "text": "[[台灣集中保管結算所]]及國際清算所",
+        "entities": [
+          "台灣集中保管結算所"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (期貨經紀與技術)",
+        "text": "**中游 (期貨經紀與技術):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**群益期貨 (6024)** — 國內外期選經紀、自營、DMA 下單系統、期顧全權代操",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**群益期貨 (香港)** — 大中華區海外期貨業務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "機構法人",
+        "text": "跨國外資與自營商 — DMA 低延遲下單",
+        "entities": []
+      },
+      {
+        "category": "量化交易者",
+        "text": "API 高頻交易開發者",
+        "entities": []
+      },
+      {
+        "category": "散戶投資人",
+        "text": "台指期、選擇權交易",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "海期外資法人",
+        "text": "跨國主力外資機構、造市商 — DMA 極低延遲下單系統",
+        "entities": []
+      },
+      {
+        "role": "量化交易者",
+        "text": "撰寫 API 下單之高端工程師與量化散戶",
+        "entities": []
+      },
+      {
+        "role": "期顧代操",
+        "text": "高資產信託投資人 — 全權委託代操",
+        "entities": []
+      },
+      {
+        "role": "零售散戶",
+        "text": "台指期、選擇權日盤/夜盤交易",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[群益金鼎證券]] (6005) — 集團資源與 IB 客源導流",
+        "entities": [
+          "群益金鼎證券"
+        ]
+      },
+      {
+        "role": "國際交易所",
+        "text": "[[CME]]、[[Eurex]]等 — 全球期貨商品串接",
+        "entities": [
+          "CME",
+          "Eurex"
+        ]
+      },
+      {
+        "role": "國內交易所",
+        "text": "[[台灣期貨交易所]]、[[台灣集中保管結算所]]",
+        "entities": [
+          "台灣期貨交易所",
+          "台灣集中保管結算所"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "群益金鼎證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群益金鼎證券"
+    },
+    {
+      "name": "CME",
+      "type": "international_company_or_term",
+      "wikilink": "CME"
+    },
+    {
+      "name": "Eurex",
+      "type": "international_company_or_term",
+      "wikilink": "Eurex"
+    },
+    {
+      "name": "證券櫃檯買賣中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "證券櫃檯買賣中心"
+    },
+    {
+      "name": "台灣期貨交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣期貨交易所"
+    },
+    {
+      "name": "台灣集中保管結算所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣集中保管結算所"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "群益期貨 (6024，Capital Futures) 成立於 1997 年，為[[群益金鼎證券]] (6005) 之子公司，台灣前兩大期貨經紀商之一。業務涵蓋國內外期貨及選擇權經紀、自營、期貨顧問 (期顧)、期貨經理 (期經) 及槓桿交易商業務。以強大的 IT 研發能力著稱，自主建置專為高頻交易與法人客戶量身打造的 DMA (Direct Market Access) 全球直接下單系統。全球直連包含[[CME]]、[[Eurex]]等超過 12 家指標型期貨交易所。海外據點布局香港，拓展大中華區與國際機構法人業務。2009 年於[[證券櫃檯買賣中心]]掛牌。",
+    "supply_chain_md": "**上游 (全球交易所與清算):**\n- **國內交易所:** [[台灣期貨交易所]] — 國內期選撮合\n- **國際交易所:** [[CME]]、[[Eurex]]等全球 12 家以上期貨交易所\n- **結算機構:** [[台灣集中保管結算所]]及國際清算所\n\n**中游 (期貨經紀與技術):**\n- **群益期貨 (6024)** — 國內外期選經紀、自營、DMA 下單系統、期顧全權代操\n- **群益期貨 (香港)** — 大中華區海外期貨業務\n\n**下游 (終端客戶):**\n- **機構法人:** 跨國外資與自營商 — DMA 低延遲下單\n- **量化交易者:** API 高頻交易開發者\n- **散戶投資人:** 台指期、選擇權交易",
+    "customers_suppliers_md": "### 主要客戶\n- **海期外資法人:** 跨國主力外資機構、造市商 — DMA 極低延遲下單系統\n- **量化交易者:** 撰寫 API 下單之高端工程師與量化散戶\n- **期顧代操:** 高資產信託投資人 — 全權委託代操\n- **零售散戶:** 台指期、選擇權日盤/夜盤交易\n\n### 主要供應商\n- **母公司:** [[群益金鼎證券]] (6005) — 集團資源與 IB 客源導流\n- **國際交易所:** [[CME]]、[[Eurex]]等 — 全球期貨商品串接\n- **國內交易所:** [[台灣期貨交易所]]、[[台灣集中保管結算所]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $62.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.50 |         N/A |      5.67 | 1.44 |       N/A |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2602.74 |      2379.11 |      1965.10 |\n| Gross Profit            |      1235.70 |      1260.35 |      1033.00 |\n| Gross Margin (%)        |        47.48 |        52.98 |        52.57 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       -    |       -    |       -    |\n| Operating Income        |      -377.86 |      -179.40 |      -121.45 |\n| Operating Margin (%)    |       -14.52 |        -7.54 |        -6.18 |\n| Net Income              |      1330.91 |      1190.93 |      1010.20 |\n| Net Margin (%)          |        51.14 |        50.06 |        51.41 |\n| Op Cash Flow            |      2222.83 |     -1005.78 |      1576.05 |\n| Investing Cash Flow     |      -189.36 |       -63.26 |      -322.48 |\n| Financing Cash Flow     |      1340.57 |      -756.97 |      -666.29 |\n| CAPEX                   |       -75.64 |       -55.08 |       -94.60 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       711.36 |       620.49 |       656.65 |       614.24 |\n| Gross Profit            |       346.08 |       290.22 |       321.99 |       277.40 |\n| Gross Margin (%)        |        48.65 |        46.77 |        49.03 |        45.16 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       -    |       -    |       -    |       -    |\n| Operating Income        |       -49.10 |       -96.02 |      -113.43 |      -119.31 |\n| Operating Margin (%)    |        -6.90 |       -15.47 |       -17.27 |       -19.42 |\n| Net Income              |       368.00 |       356.77 |       326.31 |       279.83 |\n| Net Margin (%)          |        51.73 |        57.50 |        49.69 |        45.56 |\n| Op Cash Flow            |       399.41 |      1141.37 |      -138.78 |       820.84 |\n| Investing Cash Flow     |      -194.67 |       -31.71 |        64.72 |       -27.70 |\n| Financing Cash Flow     |        -8.27 |      -715.06 |        -8.41 |      2072.30 |\n| CAPEX                   |       -18.63 |       -17.50 |       -13.97 |       -25.54 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

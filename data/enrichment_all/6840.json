@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6840",
+  "company_name": "東研信超",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/6840_東研信超.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,778 百萬台幣",
+    "enterprise_value": "2,132 百萬台幣"
+  },
+  "business": {
+    "summary": "東研信超 (6840) 隸屬於國際知名 [[Bureau Veritas]] 集團，為台灣最具權威的專業電子產品法規驗證與檢測實驗室之一。\n\n業務結構與動能：(1) EMC 檢測 — 電磁相容性測試，確保電子產品符合各國電磁干擾法規；(2) 安規認證 — 產品安全規格測試與認證 (如 [[UL]]、CE、FCC 等)；(3) 無線射頻 (RF) 測試 — [[5G]]、Wi-Fi 7 等無線通訊設備認證；(4) [[AI 伺服器]]檢測 — 投資建置 10 米法電波暗室，針對高功耗 AI 伺服器機櫃與液冷系統提供整機 EMC 檢測。所有台灣資通訊產品打入國際市場前皆需通過法規合規檢驗，東研信超為必經關卡。",
+    "entities": [
+      "Bureau Veritas",
+      "UL",
+      "5G",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (檢測設備)",
+        "text": "**上游 (檢測設備):**",
+        "entities": []
+      },
+      {
+        "category": "儀器",
+        "text": "高頻頻譜分析儀、電磁波測試天線",
+        "entities": []
+      },
+      {
+        "category": "設備",
+        "text": "電波暗室建置工程商",
+        "entities": []
+      },
+      {
+        "category": "電力量測",
+        "text": "精密電力量測儀器",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (驗證服務)",
+        "text": "**中游 (驗證服務):**",
+        "entities": []
+      },
+      {
+        "category": "EMC 檢測",
+        "text": "**東研信超** (電磁相容性測試)",
+        "entities": []
+      },
+      {
+        "category": "安規認證",
+        "text": "**東研信超** ([[UL]]、CE、FCC 安規)",
+        "entities": [
+          "UL"
+        ]
+      },
+      {
+        "category": "RF 測試",
+        "text": "**東研信超** ([[5G]]/Wi-Fi 7 無線認證)",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**東研信超** ([[AI 伺服器]]液冷整機檢測)",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子產品廠商)",
+        "text": "**下游 (電子產品廠商):**",
+        "entities": []
+      },
+      {
+        "category": "PC/筆電",
+        "text": "全球 PC 與筆電系統大廠 — EMC/安規認證",
+        "entities": []
+      },
+      {
+        "category": "網通設備",
+        "text": "路由器與網通大廠 — RF/EMC 認證",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "AI 伺服器組裝廠 — 液冷整機 EMC 檢測",
+        "entities": []
+      },
+      {
+        "category": "家電",
+        "text": "智慧家電廠 — 各國法規認證",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PC/筆電",
+        "text": "全球 PC 與筆電系統大廠 — EMC 與安規認證服務",
+        "entities": []
+      },
+      {
+        "role": "網通設備",
+        "text": "路由器與網通大廠 — [[5G]]/Wi-Fi 7 RF 認證",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "[[AI 伺服器]]組裝廠 — 液冷整機 EMC 檢測",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "家電",
+        "text": "智慧家電廠 — 各國法規合規認證",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母集團",
+        "text": "[[Bureau Veritas]] — 全球認證資源與品牌",
+        "entities": [
+          "Bureau Veritas"
+        ]
+      },
+      {
+        "role": "儀器",
+        "text": "高頻頻譜分析儀與測試天線供應商",
+        "entities": []
+      },
+      {
+        "role": "暗室工程",
+        "text": "電波暗室建置工程商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Bureau Veritas",
+      "type": "international_company_or_term",
+      "wikilink": "Bureau Veritas"
+    },
+    {
+      "name": "UL",
+      "type": "international_company_or_term",
+      "wikilink": "UL"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東研信超 (6840) 隸屬於國際知名 [[Bureau Veritas]] 集團，為台灣最具權威的專業電子產品法規驗證與檢測實驗室之一。\n\n業務結構與動能：(1) EMC 檢測 — 電磁相容性測試，確保電子產品符合各國電磁干擾法規；(2) 安規認證 — 產品安全規格測試與認證 (如 [[UL]]、CE、FCC 等)；(3) 無線射頻 (RF) 測試 — [[5G]]、Wi-Fi 7 等無線通訊設備認證；(4) [[AI 伺服器]]檢測 — 投資建置 10 米法電波暗室，針對高功耗 AI 伺服器機櫃與液冷系統提供整機 EMC 檢測。所有台灣資通訊產品打入國際市場前皆需通過法規合規檢驗，東研信超為必經關卡。",
+    "supply_chain_md": "**上游 (檢測設備):**\n- **儀器:** 高頻頻譜分析儀、電磁波測試天線\n- **設備:** 電波暗室建置工程商\n- **電力量測:** 精密電力量測儀器\n\n**中游 (驗證服務):**\n- **EMC 檢測:** **東研信超** (電磁相容性測試)\n- **安規認證:** **東研信超** ([[UL]]、CE、FCC 安規)\n- **RF 測試:** **東研信超** ([[5G]]/Wi-Fi 7 無線認證)\n- **AI 伺服器:** **東研信超** ([[AI 伺服器]]液冷整機檢測)\n\n**下游 (電子產品廠商):**\n- **PC/筆電:** 全球 PC 與筆電系統大廠 — EMC/安規認證\n- **網通設備:** 路由器與網通大廠 — RF/EMC 認證\n- **AI 伺服器:** AI 伺服器組裝廠 — 液冷整機 EMC 檢測\n- **家電:** 智慧家電廠 — 各國法規認證",
+    "customers_suppliers_md": "### 主要客戶\n- **PC/筆電:** 全球 PC 與筆電系統大廠 — EMC 與安規認證服務\n- **網通設備:** 路由器與網通大廠 — [[5G]]/Wi-Fi 7 RF 認證\n- **AI 伺服器:** [[AI 伺服器]]組裝廠 — 液冷整機 EMC 檢測\n- **家電:** 智慧家電廠 — 各國法規合規認證\n\n### 主要供應商\n- **母集團:** [[Bureau Veritas]] — 全球認證資源與品牌\n- **儀器:** 高頻頻譜分析儀與測試天線供應商\n- **暗室工程:** 電波暗室建置工程商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $58.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     38.67 |         N/A |      1.93 | 1.66 |     12.93 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       909.14 |       838.24 |       702.81 |\n| Gross Profit            |       374.46 |       315.50 |       230.01 |\n| Gross Margin (%)        |        41.19 |        37.64 |        32.73 |\n| Selling & Marketing Exp |       109.76 |       110.31 |       111.54 |\n| R&D Exp                 |        38.97 |        53.55 |        36.83 |\n| General & Admin Exp     |       164.23 |       161.76 |       157.41 |\n| Operating Income        |        61.50 |       -10.12 |       -75.77 |\n| Operating Margin (%)    |         6.76 |        -1.21 |       -10.78 |\n| Net Income              |        47.96 |        15.50 |       -53.45 |\n| Net Margin (%)          |         5.27 |         1.85 |        -7.61 |\n| Op Cash Flow            |       170.53 |        94.49 |        33.19 |\n| Investing Cash Flow     |      -114.25 |      -118.19 |      -135.04 |\n| Financing Cash Flow     |       -86.04 |       138.05 |       127.91 |\n| CAPEX                   |      -196.75 |       -81.38 |      -161.02 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       213.19 |       239.88 |       232.76 |       239.79 |\n| Gross Profit            |        85.69 |        88.42 |        99.22 |       108.61 |\n| Gross Margin (%)        |        40.20 |        36.86 |        42.63 |        45.30 |\n| Selling & Marketing Exp |        28.40 |        30.32 |        26.09 |        27.45 |\n| R&D Exp                 |         9.49 |         7.98 |         8.99 |        12.75 |\n| General & Admin Exp     |        45.40 |        43.90 |        42.00 |        39.61 |\n| Operating Income        |         2.40 |         6.21 |        22.14 |        28.81 |\n| Operating Margin (%)    |         1.13 |         2.59 |         9.51 |        12.01 |\n| Net Income              |         3.66 |        12.29 |        21.57 |         8.61 |\n| Net Margin (%)          |         1.72 |         5.13 |         9.27 |         3.59 |\n| Op Cash Flow            |         7.02 |        68.34 |        64.47 |        35.65 |\n| Investing Cash Flow     |       -39.28 |       -15.68 |       -26.41 |       -62.83 |\n| Financing Cash Flow     |       -17.84 |       -18.49 |       -16.17 |         6.03 |\n| CAPEX                   |       -32.54 |       -52.54 |       -50.11 |       -52.09 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

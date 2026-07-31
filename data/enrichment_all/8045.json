@@ -1,0 +1,235 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8045",
+  "company_name": "達運光電",
+  "title": "8045 - 達運光電",
+  "source_md": "Pilot_Reports/通信網路 - 光通訊設備(如光纖電纜、光傳輸設備)/8045_達運光電.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "5,075 百萬台幣",
+    "enterprise_value": "4,822 百萬台幣"
+  },
+  "business": {
+    "summary": "達運光電 (8045，[[Twoway Communications]]) 為台灣第一大寬頻放大器及光工作站設備商，成立於 1992 年，總部位於新北市。公司為亞洲唯一通過北美主要有線電視多系統營運商 (MSO) 認證之混合光纖同軸 ([[HFC]]) 傳輸設備研發製造廠商，並以自有品牌 ACI 行銷全球。\n\n核心產品涵蓋 [[氮化鎵]] 高線性寬頻放大器、光工作站 (Optical Node)、頭端光傳輸平台 (ACION 系列)、[[GPON]] 光纖到府設備及智慧聯網 ([[AIoT]]) 管理平台。公司出口以美國為最大宗，佔營業額七成以上，已成功通過 [[Comcast]] 嚴格認證並打入北美大型營運商一級供應鏈。近年北美 MSO 推動 1.2GHz/1.8GHz 頻寬升級，達運率先佈局 1.8GHz 產品線以搶佔 [[DOCSIS 4.0]] 世代升級商機。",
+    "entities": [
+      "Twoway Communications",
+      "HFC",
+      "氮化鎵",
+      "GPON",
+      "AIoT",
+      "Comcast",
+      "DOCSIS 4.0"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (射頻元件與光通訊晶片)",
+        "text": "**上游 (射頻元件與光通訊晶片):**",
+        "entities": []
+      },
+      {
+        "category": "寬頻晶片",
+        "text": "[[Broadcom]]、[[MaxLinear]] — HFC 放大器及 GPON 晶片",
+        "entities": [
+          "Broadcom",
+          "MaxLinear"
+        ]
+      },
+      {
+        "category": "GaN 元件",
+        "text": "[[氮化鎵]] 高功率射頻放大器元件",
+        "entities": [
+          "氮化鎵"
+        ]
+      },
+      {
+        "category": "光通訊元件",
+        "text": "光收發模組及光纖被動元件",
+        "entities": []
+      },
+      {
+        "category": "PCB",
+        "text": "高頻印刷電路板",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (寬頻傳輸設備製造)",
+        "text": "**中游 (寬頻傳輸設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "放大器",
+        "text": "**達運光電** (GaN 寬頻放大器、DOCSIS 3.1/4.0 相容)",
+        "entities": []
+      },
+      {
+        "category": "光工作站",
+        "text": "**達運光電** (ACION 頭端光傳輸平台、Optical Node)",
+        "entities": []
+      },
+      {
+        "category": "FTTH 設備",
+        "text": "**達運光電** (GPON OLT/ONT 光纖到府設備)",
+        "entities": []
+      },
+      {
+        "category": "AIoT",
+        "text": "**達運光電** (智慧聯網監控管理平台)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (有線電視與電信營運商)",
+        "text": "**下游 (有線電視與電信營運商):**",
+        "entities": []
+      },
+      {
+        "category": "北美 MSO",
+        "text": "[[Comcast]] (已通過認證)、北美大型有線電視多系統營運商",
+        "entities": [
+          "Comcast"
+        ]
+      },
+      {
+        "category": "全球 MSO",
+        "text": "歐洲、亞太地區有線電視營運商",
+        "entities": []
+      },
+      {
+        "category": "軍工規設備",
+        "text": "軍工特規通訊設備客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美 MSO",
+        "text": "[[Comcast]] (已通過 GaN 放大器認證)、北美大型有線電視多系統營運商",
+        "entities": [
+          "Comcast"
+        ]
+      },
+      {
+        "role": "全球有線電視",
+        "text": "歐洲及亞太地區 MSO — 寬頻放大器與光工作站",
+        "entities": []
+      },
+      {
+        "role": "軍工規",
+        "text": "軍事規格通訊設備客戶",
+        "entities": []
+      },
+      {
+        "role": "光纖到府",
+        "text": "[[GPON]] 設備客戶 — 電信營運商",
+        "entities": [
+          "GPON"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "寬頻晶片",
+        "text": "[[Broadcom]]、[[MaxLinear]] — HFC 及 GPON 晶片方案",
+        "entities": [
+          "Broadcom",
+          "MaxLinear"
+        ]
+      },
+      {
+        "role": "GaN 元件",
+        "text": "[[氮化鎵]] 高功率射頻元件供應商",
+        "entities": [
+          "氮化鎵"
+        ]
+      },
+      {
+        "role": "光通訊",
+        "text": "光收發模組及被動元件供應商",
+        "entities": []
+      },
+      {
+        "role": "PCB",
+        "text": "高頻印刷電路板製造商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Twoway Communications",
+      "type": "international_company_or_term",
+      "wikilink": "Twoway Communications"
+    },
+    {
+      "name": "HFC",
+      "type": "international_company_or_term",
+      "wikilink": "HFC"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "GPON",
+      "type": "international_company_or_term",
+      "wikilink": "GPON"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "Comcast",
+      "type": "international_company_or_term",
+      "wikilink": "Comcast"
+    },
+    {
+      "name": "DOCSIS 4.0",
+      "type": "international_company_or_term",
+      "wikilink": "DOCSIS 4.0"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "MaxLinear",
+      "type": "international_company_or_term",
+      "wikilink": "MaxLinear"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達運光電 (8045，[[Twoway Communications]]) 為台灣第一大寬頻放大器及光工作站設備商，成立於 1992 年，總部位於新北市。公司為亞洲唯一通過北美主要有線電視多系統營運商 (MSO) 認證之混合光纖同軸 ([[HFC]]) 傳輸設備研發製造廠商，並以自有品牌 ACI 行銷全球。\n\n核心產品涵蓋 [[氮化鎵]] 高線性寬頻放大器、光工作站 (Optical Node)、頭端光傳輸平台 (ACION 系列)、[[GPON]] 光纖到府設備及智慧聯網 ([[AIoT]]) 管理平台。公司出口以美國為最大宗，佔營業額七成以上，已成功通過 [[Comcast]] 嚴格認證並打入北美大型營運商一級供應鏈。近年北美 MSO 推動 1.2GHz/1.8GHz 頻寬升級，達運率先佈局 1.8GHz 產品線以搶佔 [[DOCSIS 4.0]] 世代升級商機。",
+    "supply_chain_md": "**上游 (射頻元件與光通訊晶片):**\n- **寬頻晶片:** [[Broadcom]]、[[MaxLinear]] — HFC 放大器及 GPON 晶片\n- **GaN 元件:** [[氮化鎵]] 高功率射頻放大器元件\n- **光通訊元件:** 光收發模組及光纖被動元件\n- **PCB:** 高頻印刷電路板\n\n**中游 (寬頻傳輸設備製造):**\n- **放大器:** **達運光電** (GaN 寬頻放大器、DOCSIS 3.1/4.0 相容)\n- **光工作站:** **達運光電** (ACION 頭端光傳輸平台、Optical Node)\n- **FTTH 設備:** **達運光電** (GPON OLT/ONT 光纖到府設備)\n- **AIoT:** **達運光電** (智慧聯網監控管理平台)\n\n**下游 (有線電視與電信營運商):**\n- **北美 MSO:** [[Comcast]] (已通過認證)、北美大型有線電視多系統營運商\n- **全球 MSO:** 歐洲、亞太地區有線電視營運商\n- **軍工規設備:** 軍工特規通訊設備客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **北美 MSO:** [[Comcast]] (已通過 GaN 放大器認證)、北美大型有線電視多系統營運商\n- **全球有線電視:** 歐洲及亞太地區 MSO — 寬頻放大器與光工作站\n- **軍工規:** 軍事規格通訊設備客戶\n- **光纖到府:** [[GPON]] 設備客戶 — 電信營運商\n\n### 主要供應商\n- **寬頻晶片:** [[Broadcom]]、[[MaxLinear]] — HFC 及 GPON 晶片方案\n- **GaN 元件:** [[氮化鎵]] 高功率射頻元件供應商\n- **光通訊:** 光收發模組及被動元件供應商\n- **PCB:** 高頻印刷電路板製造商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $52.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     75.94 |         N/A |      3.75 | 2.58 |     36.73 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1195.85 |      1736.20 |      2325.35 |\n| Gross Profit            |       465.66 |       587.53 |      1022.78 |\n| Gross Margin (%)        |        38.94 |        33.84 |        43.98 |\n| Selling & Marketing Exp |       139.04 |       154.48 |       190.33 |\n| R&D Exp                 |       123.91 |       105.07 |       103.89 |\n| General & Admin Exp     |       128.19 |       142.93 |       161.68 |\n| Operating Income        |        74.51 |       185.05 |       566.88 |\n| Operating Margin (%)    |         6.23 |        10.66 |        24.38 |\n| Net Income              |        60.96 |       201.67 |       407.93 |\n| Net Margin (%)          |         5.10 |        11.62 |        17.54 |\n| Op Cash Flow            |      -207.68 |       -90.48 |       338.24 |\n| Investing Cash Flow     |       -21.24 |        17.37 |        17.34 |\n| Financing Cash Flow     |      -273.30 |       327.74 |      -163.63 |\n| CAPEX                   |       -23.66 |       -41.40 |       -32.41 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       443.41 |       196.76 |       353.15 |       335.17 |\n| Gross Profit            |       120.02 |       121.38 |       132.14 |       112.56 |\n| Gross Margin (%)        |        27.07 |        61.69 |        37.42 |        33.58 |\n| Selling & Marketing Exp |        31.13 |        40.43 |        30.67 |        34.82 |\n| R&D Exp                 |        29.04 |        41.86 |        24.50 |        28.65 |\n| General & Admin Exp     |        45.19 |        28.34 |        33.82 |        32.32 |\n| Operating Income        |        14.67 |        10.76 |        43.16 |        16.77 |\n| Operating Margin (%)    |         3.31 |         5.47 |        12.22 |         5.00 |\n| Net Income              |        10.73 |        20.13 |        37.63 |        -2.22 |\n| Net Margin (%)          |         2.42 |        10.23 |        10.66 |        -0.66 |\n| Op Cash Flow            |       153.47 |      -182.76 |      -119.79 |       -47.00 |\n| Investing Cash Flow     |       -25.44 |        12.09 |        88.42 |        -8.25 |\n| Financing Cash Flow     |       246.39 |       -25.34 |      -212.86 |       -14.89 |\n| CAPEX                   |       -27.74 |        15.53 |       -13.71 |        -5.46 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

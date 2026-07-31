@@ -1,0 +1,226 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1536",
+  "company_name": "和大",
+  "title": "1536 - 和大",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/1536_和大.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "12,776 百萬台幣",
+    "enterprise_value": "24,621 百萬台幣"
+  },
+  "business": {
+    "summary": "和大工業 (1536，Hota Industrial) 為台灣最大汽車齒輪與傳動零件製造商。第一大客戶[[BorgWarner]] (佔營收約 40%)，透過其出貨油泵齒輪及扭力轉換系統。第二大客戶[[Tesla]] (佔營收約 20%)，為其電動車減速齒輪箱獨家供應商，供應 Model S/X、Semi 電動卡車及中國以外 Model 3/Y。更獲[[Tesla]]邀請成為 Optimus 人形機器人「行星減速機」台灣獨家供應商 (每台需約 40 組)。關係企業[[盟英科技]] (與[[盟立自動化]]合資) 生產機器人關節減速零件。其他客戶涵蓋[[Rivian]]、[[Lucid]]、[[Ford]]、[[BMW]]、[[Eaton]]、[[AGCO]]。",
+    "entities": [
+      "BorgWarner",
+      "Tesla",
+      "盟英科技",
+      "盟立自動化",
+      "Rivian",
+      "Lucid",
+      "Ford",
+      "BMW",
+      "Eaton",
+      "AGCO"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "合金鋼",
+        "text": "高強度合金鋼/鍛件供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**和大** (精密齒輪加工/熱處理/EV 減速機/機器人行星減速機)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "Tier 1",
+        "text": "[[BorgWarner]] (第一大，40%) — 油泵齒輪/扭力轉換",
+        "entities": [
+          "BorgWarner"
+        ]
+      },
+      {
+        "category": "EV",
+        "text": "[[Tesla]] (第二大，20%) — 減速齒輪箱獨家供應",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "category": "機器人",
+        "text": "[[Tesla]] Optimus — 行星減速機台灣獨家",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "category": "其他 EV",
+        "text": "[[Rivian]]、[[Lucid]]、[[Ford]]、[[BMW]]",
+        "entities": [
+          "Rivian",
+          "Lucid",
+          "Ford",
+          "BMW"
+        ]
+      },
+      {
+        "category": "工業",
+        "text": "[[Eaton]]、[[AGCO]]",
+        "entities": [
+          "Eaton",
+          "AGCO"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "Tier 1",
+        "text": "[[BorgWarner]] — 40% 營收，油泵齒輪",
+        "entities": [
+          "BorgWarner"
+        ]
+      },
+      {
+        "role": "EV",
+        "text": "[[Tesla]] — 20% 營收，減速齒輪箱獨家 + Optimus 行星減速機",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "role": "其他 EV",
+        "text": "[[Rivian]]、[[Lucid]]、[[Ford]]、[[BMW]]",
+        "entities": [
+          "Rivian",
+          "Lucid",
+          "Ford",
+          "BMW"
+        ]
+      },
+      {
+        "role": "工業",
+        "text": "[[Eaton]]、[[AGCO]]",
+        "entities": [
+          "Eaton",
+          "AGCO"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "合金鋼",
+        "text": "高強度合金鋼/鍛件",
+        "entities": []
+      },
+      {
+        "role": "關係企業",
+        "text": "[[盟英科技]] (與[[盟立自動化]]合資) — 機器人減速零件",
+        "entities": [
+          "盟英科技",
+          "盟立自動化"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "BorgWarner",
+      "type": "international_company_or_term",
+      "wikilink": "BorgWarner"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "盟英科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "盟英科技"
+    },
+    {
+      "name": "盟立自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "盟立自動化"
+    },
+    {
+      "name": "Rivian",
+      "type": "international_company_or_term",
+      "wikilink": "Rivian"
+    },
+    {
+      "name": "Lucid",
+      "type": "international_company_or_term",
+      "wikilink": "Lucid"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "Eaton",
+      "type": "international_company_or_term",
+      "wikilink": "Eaton"
+    },
+    {
+      "name": "AGCO",
+      "type": "international_company_or_term",
+      "wikilink": "AGCO"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "和大工業 (1536，Hota Industrial) 為台灣最大汽車齒輪與傳動零件製造商。第一大客戶[[BorgWarner]] (佔營收約 40%)，透過其出貨油泵齒輪及扭力轉換系統。第二大客戶[[Tesla]] (佔營收約 20%)，為其電動車減速齒輪箱獨家供應商，供應 Model S/X、Semi 電動卡車及中國以外 Model 3/Y。更獲[[Tesla]]邀請成為 Optimus 人形機器人「行星減速機」台灣獨家供應商 (每台需約 40 組)。關係企業[[盟英科技]] (與[[盟立自動化]]合資) 生產機器人關節減速零件。其他客戶涵蓋[[Rivian]]、[[Lucid]]、[[Ford]]、[[BMW]]、[[Eaton]]、[[AGCO]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **合金鋼:** 高強度合金鋼/鍛件供應商\n\n**中游 (製造):**\n- **和大** (精密齒輪加工/熱處理/EV 減速機/機器人行星減速機)\n\n**下游 (終端):**\n- **Tier 1:** [[BorgWarner]] (第一大，40%) — 油泵齒輪/扭力轉換\n- **EV:** [[Tesla]] (第二大，20%) — 減速齒輪箱獨家供應\n- **機器人:** [[Tesla]] Optimus — 行星減速機台灣獨家\n- **其他 EV:** [[Rivian]]、[[Lucid]]、[[Ford]]、[[BMW]]\n- **工業:** [[Eaton]]、[[AGCO]]",
+    "customers_suppliers_md": "### 主要客戶\n- **Tier 1:** [[BorgWarner]] — 40% 營收，油泵齒輪\n- **EV:** [[Tesla]] — 20% 營收，減速齒輪箱獨家 + Optimus 行星減速機\n- **其他 EV:** [[Rivian]]、[[Lucid]]、[[Ford]]、[[BMW]]\n- **工業:** [[Eaton]]、[[AGCO]]\n\n### 主要供應商\n- **合金鋼:** 高強度合金鋼/鍛件\n- **關係企業:** [[盟英科技]] (與[[盟立自動化]]合資) — 機器人減速零件",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $45.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       83.33 |      2.66 | 1.67 |    173.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4762.75 |      5774.47 |      6599.23 |\n| Gross Profit            |       138.91 |       681.74 |      1141.10 |\n| Gross Margin (%)        |         2.92 |        11.81 |        17.29 |\n| Selling & Marketing Exp |       371.88 |       546.26 |       440.55 |\n| R&D Exp                 |        99.43 |        95.45 |       101.39 |\n| General & Admin Exp     |       165.25 |       153.98 |       155.27 |\n| Operating Income        |      -497.65 |      -113.95 |       443.89 |\n| Operating Margin (%)    |       -10.45 |        -1.97 |         6.73 |\n| Net Income              |      -756.49 |       195.06 |       327.21 |\n| Net Margin (%)          |       -15.88 |         3.38 |         4.96 |\n| Op Cash Flow            |       940.82 |       187.29 |       852.25 |\n| Investing Cash Flow     |      -894.56 |      -558.73 |      -941.69 |\n| Financing Cash Flow     |      -134.35 |       283.50 |      -194.83 |\n| CAPEX                   |      -658.40 |      -528.52 |     -1008.90 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1193.41 |      1203.58 |      1193.88 |      1131.09 |\n| Gross Profit            |        77.81 |       -41.00 |        48.17 |        46.26 |\n| Gross Margin (%)        |         6.52 |        -3.41 |         4.03 |         4.09 |\n| Selling & Marketing Exp |       134.49 |       105.33 |        64.76 |       106.72 |\n| R&D Exp                 |        23.96 |        30.78 |        25.84 |        22.48 |\n| General & Admin Exp     |        48.99 |        41.84 |        36.43 |        41.84 |\n| Operating Income        |      -129.63 |      -218.95 |       -78.86 |      -124.78 |\n| Operating Margin (%)    |       -10.86 |       -18.19 |        -6.61 |       -11.03 |\n| Net Income              |      -145.77 |      -183.44 |       -40.64 |      -429.76 |\n| Net Margin (%)          |       -12.21 |       -15.24 |        -3.40 |       -38.00 |\n| Op Cash Flow            |      -145.88 |       206.46 |       209.48 |       353.56 |\n| Investing Cash Flow     |       -55.87 |      -251.89 |       -72.27 |      -322.78 |\n| Financing Cash Flow     |        66.00 |        77.70 |      -110.07 |       -99.36 |\n| CAPEX                   |       -71.14 |      -310.03 |       -64.31 |      -177.02 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

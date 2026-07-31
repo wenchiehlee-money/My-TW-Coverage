@@ -1,0 +1,218 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6134",
+  "company_name": "萬旭",
+  "title": "6134_萬旭",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 連接線/6134_萬旭.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "1,941 百萬台幣",
+    "enterprise_value": "2,137 百萬台幣"
+  },
+  "business": {
+    "summary": "萬旭電業 (6134，Wanshih Electronic) 為[[萬泰科技]] (6190) 旗下子公司，專精於極細同軸線材、高頻天線與客製化連接器配線組裝。公司成功轉型脫離傳統 PC 線材紅海，將產品重心轉向四大高毛利領域：儲能工控、車用電子、醫療及視訊安控。\n\n近年積極切入 [[AI 伺服器]]高速傳輸線材及[[低軌衛星]]/航太市場 (含 [[NASA]] 供應鏈)，並於美國及泰國設立新廠，擴展非中國產能布局。公司與母公司[[萬泰科技]]協同開發 AI 伺服器高速銅纜，受惠 [[NVIDIA]] GB200/GB300 銅線直連生態系帶動之龐大需求。",
+    "entities": [
+      "萬泰科技",
+      "AI 伺服器",
+      "低軌衛星",
+      "NASA",
+      "NVIDIA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (特殊線材與連接器)",
+        "text": "**上游 (特殊線材與連接器):**",
+        "entities": []
+      },
+      {
+        "category": "母公司供料",
+        "text": "[[萬泰科技]] (6190) — 高階線材開發與基礎銅線供應",
+        "entities": [
+          "萬泰科技"
+        ]
+      },
+      {
+        "category": "連接器",
+        "text": "國際大型連接器原廠 (如 [[TE Connectivity]]、[[Molex]])",
+        "entities": [
+          "TE Connectivity",
+          "Molex"
+        ]
+      },
+      {
+        "category": "特規銅材",
+        "text": "高階特規銅材廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (極細線纜與天線組裝)",
+        "text": "**中游 (極細線纜與天線組裝):**",
+        "entities": []
+      },
+      {
+        "category": "線纜組裝",
+        "text": "**萬旭** (極細同軸線材加工、射頻天線、SMT 模組)",
+        "entities": []
+      },
+      {
+        "category": "海外產能",
+        "text": "美國廠、泰國廠、越南廠",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車用儲能與 AI/衛星終端)",
+        "text": "**下游 (車用儲能與 AI/衛星終端):**",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "歐系及中國電動車廠 — 熱管理系統訊號線",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "台灣伺服器系統代工廠 — 高速傳輸銅纜",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星",
+        "text": "[[SpaceX]] (Starlink) 供應鏈 — 地面設備線纜",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "category": "儲能",
+        "text": "歐洲及澳洲商用儲能設備商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電動車",
+        "text": "歐系及中國電動車大廠 — 熱管理系統關鍵訊號線",
+        "entities": []
+      },
+      {
+        "role": "儲能設備",
+        "text": "歐洲及澳洲指標性商用與戶用儲能設備商",
+        "entities": []
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "台灣重量級伺服器系統代工廠 — 高速傳輸線材",
+        "entities": []
+      },
+      {
+        "role": "低軌衛星/航太",
+        "text": "[[NASA]] 航太供應鏈、低軌衛星地面設備客戶",
+        "entities": [
+          "NASA"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[萬泰科技]] (6190) — 高階線材開發與銅線供料",
+        "entities": [
+          "萬泰科技"
+        ]
+      },
+      {
+        "role": "連接器",
+        "text": "國際連接器原廠 (如 [[TE Connectivity]]、[[Molex]])",
+        "entities": [
+          "TE Connectivity",
+          "Molex"
+        ]
+      },
+      {
+        "role": "特規銅材",
+        "text": "高階特規銅材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": [
+      {
+        "text": "萬旭電業 (6134，Wanshih Electronic) 為[[萬泰科技]] (6190) 旗下子公司，專精於極細同軸線材、高頻天線與客製化連接器配線組裝。公司成功轉型脫離傳統 PC 線材紅海，將產品重心轉向四大高毛利領域：儲能工控、車用電子、醫療及視訊安控。",
+        "entities": [
+          "萬泰科技"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "萬泰科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬泰科技"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "NASA",
+      "type": "international_company_or_term",
+      "wikilink": "NASA"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "TE Connectivity",
+      "type": "international_company_or_term",
+      "wikilink": "TE Connectivity"
+    },
+    {
+      "name": "Molex",
+      "type": "international_company_or_term",
+      "wikilink": "Molex"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "萬旭電業 (6134，Wanshih Electronic) 為[[萬泰科技]] (6190) 旗下子公司，專精於極細同軸線材、高頻天線與客製化連接器配線組裝。公司成功轉型脫離傳統 PC 線材紅海，將產品重心轉向四大高毛利領域：儲能工控、車用電子、醫療及視訊安控。\n\n近年積極切入 [[AI 伺服器]]高速傳輸線材及[[低軌衛星]]/航太市場 (含 [[NASA]] 供應鏈)，並於美國及泰國設立新廠，擴展非中國產能布局。公司與母公司[[萬泰科技]]協同開發 AI 伺服器高速銅纜，受惠 [[NVIDIA]] GB200/GB300 銅線直連生態系帶動之龐大需求。",
+    "supply_chain_md": "**上游 (特殊線材與連接器):**\n- **母公司供料:** [[萬泰科技]] (6190) — 高階線材開發與基礎銅線供應\n- **連接器:** 國際大型連接器原廠 (如 [[TE Connectivity]]、[[Molex]])\n- **特規銅材:** 高階特規銅材廠\n\n**中游 (極細線纜與天線組裝):**\n- **線纜組裝:** **萬旭** (極細同軸線材加工、射頻天線、SMT 模組)\n- **海外產能:** 美國廠、泰國廠、越南廠\n\n**下游 (車用儲能與 AI/衛星終端):**\n- **電動車:** 歐系及中國電動車廠 — 熱管理系統訊號線\n- **AI 伺服器:** 台灣伺服器系統代工廠 — 高速傳輸銅纜\n- **低軌衛星:** [[SpaceX]] (Starlink) 供應鏈 — 地面設備線纜\n- **儲能:** 歐洲及澳洲商用儲能設備商",
+    "customers_suppliers_md": "### 主要客戶\n- **電動車:** 歐系及中國電動車大廠 — 熱管理系統關鍵訊號線\n- **儲能設備:** 歐洲及澳洲指標性商用與戶用儲能設備商\n- **AI 伺服器:** 台灣重量級伺服器系統代工廠 — 高速傳輸線材\n- **低軌衛星/航太:** [[NASA]] 航太供應鏈、低軌衛星地面設備客戶\n\n### 主要供應商\n- **母公司:** [[萬泰科技]] (6190) — 高階線材開發與銅線供料\n- **連接器:** 國際連接器原廠 (如 [[TE Connectivity]]、[[Molex]])\n- **特規銅材:** 高階特規銅材供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $22.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    190.42 |         N/A |      0.89 | 1.74 |     19.74 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1909.66 |      1562.10 |      1123.05 |\n| Gross Profit            |       449.76 |       384.22 |       287.01 |\n| Gross Margin (%)        |        23.55 |        24.60 |        25.56 |\n| Selling & Marketing Exp |       172.15 |       149.49 |       126.33 |\n| R&D Exp                 |       109.18 |       100.08 |        89.75 |\n| General & Admin Exp     |       154.73 |       156.81 |       144.06 |\n| Operating Income        |        13.70 |       -22.16 |       -73.12 |\n| Operating Margin (%)    |         0.72 |        -1.42 |        -6.51 |\n| Net Income              |         9.47 |        17.55 |       -48.77 |\n| Net Margin (%)          |         0.50 |         1.12 |        -4.34 |\n| Op Cash Flow            |       -15.91 |       -90.22 |       146.81 |\n| Investing Cash Flow     |       -66.75 |       -28.71 |        43.37 |\n| Financing Cash Flow     |       -53.34 |       102.48 |      -152.44 |\n| CAPEX                   |       -82.69 |       -33.62 |       -34.08 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       532.54 |       563.65 |       437.56 |       375.91 |\n| Gross Profit            |       113.68 |       138.45 |       101.00 |        96.64 |\n| Gross Margin (%)        |        21.35 |        24.56 |        23.08 |        25.71 |\n| Selling & Marketing Exp |        39.02 |        45.31 |        40.46 |        47.36 |\n| R&D Exp                 |        31.05 |        34.34 |        25.65 |        18.14 |\n| General & Admin Exp     |        37.90 |        37.90 |        30.70 |        48.24 |\n| Operating Income        |         5.71 |        20.89 |         4.20 |       -17.10 |\n| Operating Margin (%)    |         1.07 |         3.71 |         0.96 |        -4.55 |\n| Net Income              |        -1.81 |        32.48 |       -12.72 |        -8.48 |\n| Net Margin (%)          |        -0.34 |         5.76 |        -2.91 |        -2.26 |\n| Op Cash Flow            |        -4.00 |       -56.01 |        78.35 |       -34.24 |\n| Investing Cash Flow     |       -46.58 |        46.94 |       -31.78 |       -35.34 |\n| Financing Cash Flow     |       -66.21 |        59.57 |       -42.42 |        -4.28 |\n| CAPEX                   |       -26.90 |       -31.33 |       -15.99 |        -8.47 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8067",
+  "company_name": "志旭",
+  "title": "8067 - 志旭",
+  "source_md": "Pilot_Reports/半導體 - IC通路/8067_志旭.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "264 百萬台幣",
+    "enterprise_value": "437 百萬台幣"
+  },
+  "business": {
+    "summary": "志旭國際 (8067，[[Gish International]]) 成立於 1989 年，初期以精密模具及光電資訊產品代理為主業，2008 年起跨足美妝保養品代理，現已轉型為以歐美精品香水與美妝保養品代理為核心事業的通路商。\n\n業務結構與動能：(1) 美妝保養品 (約佔營收 87%) — 代理歐美國際品牌香水、護膚保養品、彩妝及專業護髮產品，銷售通路涵蓋百貨專櫃 (GISH Beauty 專櫃)、美妝店、髮廊、藥妝連鎖及電商平台；代理品牌包含 [[Mercedes-Benz]] 香水、[[Porsche Design]] 香水、[[BMW]] 香水、[[Lamborghini]] 香水、[[MAUBOUSSIN]]、[[Korloff Paris]]、[[REUZEL]] 髮品、[[Macadamia Professional]] 護髮等；(2) 儲存周邊 (約佔營收 12%) — 光碟片、儲存媒體等資訊周邊產品代理。公司以內銷台灣市場為主 (約 96%)，另設有日本子公司拓展海外。",
+    "entities": [
+      "Gish International",
+      "Mercedes-Benz",
+      "Porsche Design",
+      "BMW",
+      "Lamborghini",
+      "MAUBOUSSIN",
+      "Korloff Paris",
+      "REUZEL",
+      "Macadamia Professional"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際品牌原廠)",
+        "text": "**上游 (國際品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "汽車精品香水",
+        "text": "[[Mercedes-Benz]]、[[Porsche Design]]、[[BMW]]、[[Lamborghini]]、[[Ford Mustang]]、[[Alfa Romeo]] — 授權香水",
+        "entities": [
+          "Mercedes-Benz",
+          "Porsche Design",
+          "BMW",
+          "Lamborghini",
+          "Ford Mustang",
+          "Alfa Romeo"
+        ]
+      },
+      {
+        "category": "時尚香水",
+        "text": "[[MAUBOUSSIN]]、[[Korloff Paris]]、[[Hackett London]]、[[Anne Klein]] — 精品香水",
+        "entities": [
+          "MAUBOUSSIN",
+          "Korloff Paris",
+          "Hackett London",
+          "Anne Klein"
+        ]
+      },
+      {
+        "category": "護髮品牌",
+        "text": "[[REUZEL]]、[[Macadamia Professional]]、[[eprouvage]] — 專業護髮",
+        "entities": [
+          "REUZEL",
+          "Macadamia Professional",
+          "eprouvage"
+        ]
+      },
+      {
+        "category": "保養品牌",
+        "text": "[[Institut Karité Paris]]、[[Corine de Farme]]、[[Pure Paw Paw]] — 護膚保養",
+        "entities": [
+          "Institut Karité Paris",
+          "Corine de Farme",
+          "Pure Paw Paw"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (代理通路)",
+        "text": "**中游 (代理通路):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**志旭國際** (歐美精品香水、美妝保養品及儲存周邊之代理行銷與通路經營)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (零售通路)",
+        "text": "**下游 (零售通路):**",
+        "entities": []
+      },
+      {
+        "category": "百貨專櫃",
+        "text": "百貨公司美妝專櫃 (GISH Beauty)",
+        "entities": []
+      },
+      {
+        "category": "美妝通路",
+        "text": "美妝店、藥妝連鎖店",
+        "entities": []
+      },
+      {
+        "category": "髮廊",
+        "text": "專業髮廊與美髮沙龍",
+        "entities": []
+      },
+      {
+        "category": "電商",
+        "text": "線上購物平台",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "百貨通路",
+        "text": "百貨公司美妝專櫃 — GISH Beauty 自營專櫃",
+        "entities": []
+      },
+      {
+        "role": "美妝零售",
+        "text": "美妝店、藥妝連鎖及生活百貨 — 香水與保養品",
+        "entities": []
+      },
+      {
+        "role": "髮廊通路",
+        "text": "專業髮廊與美髮沙龍 — [[REUZEL]]、[[Macadamia Professional]] 護髮品",
+        "entities": [
+          "REUZEL",
+          "Macadamia Professional"
+        ]
+      },
+      {
+        "role": "電商平台",
+        "text": "線上購物平台 — 香水與美妝品",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "汽車香水",
+        "text": "[[Mercedes-Benz]]、[[Porsche Design]]、[[BMW]]、[[Lamborghini]] — 授權香水系列",
+        "entities": [
+          "Mercedes-Benz",
+          "Porsche Design",
+          "BMW",
+          "Lamborghini"
+        ]
+      },
+      {
+        "role": "精品香水",
+        "text": "[[MAUBOUSSIN]]、[[Korloff Paris]]、[[Hackett London]] — 法系精品香水",
+        "entities": [
+          "MAUBOUSSIN",
+          "Korloff Paris",
+          "Hackett London"
+        ]
+      },
+      {
+        "role": "護髮",
+        "text": "[[REUZEL]]、[[Macadamia Professional]] — 專業護髮品牌",
+        "entities": [
+          "REUZEL",
+          "Macadamia Professional"
+        ]
+      },
+      {
+        "role": "保養",
+        "text": "[[Institut Karité Paris]]、[[Corine de Farme]]、[[Pure Paw Paw]] — 歐美保養品牌",
+        "entities": [
+          "Institut Karité Paris",
+          "Corine de Farme",
+          "Pure Paw Paw"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Gish International",
+      "type": "international_company_or_term",
+      "wikilink": "Gish International"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "Porsche Design",
+      "type": "international_company_or_term",
+      "wikilink": "Porsche Design"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "Lamborghini",
+      "type": "international_company_or_term",
+      "wikilink": "Lamborghini"
+    },
+    {
+      "name": "MAUBOUSSIN",
+      "type": "international_company_or_term",
+      "wikilink": "MAUBOUSSIN"
+    },
+    {
+      "name": "Korloff Paris",
+      "type": "international_company_or_term",
+      "wikilink": "Korloff Paris"
+    },
+    {
+      "name": "REUZEL",
+      "type": "international_company_or_term",
+      "wikilink": "REUZEL"
+    },
+    {
+      "name": "Macadamia Professional",
+      "type": "international_company_or_term",
+      "wikilink": "Macadamia Professional"
+    },
+    {
+      "name": "Ford Mustang",
+      "type": "international_company_or_term",
+      "wikilink": "Ford Mustang"
+    },
+    {
+      "name": "Alfa Romeo",
+      "type": "international_company_or_term",
+      "wikilink": "Alfa Romeo"
+    },
+    {
+      "name": "Hackett London",
+      "type": "international_company_or_term",
+      "wikilink": "Hackett London"
+    },
+    {
+      "name": "Anne Klein",
+      "type": "international_company_or_term",
+      "wikilink": "Anne Klein"
+    },
+    {
+      "name": "eprouvage",
+      "type": "international_company_or_term",
+      "wikilink": "eprouvage"
+    },
+    {
+      "name": "Institut Karité Paris",
+      "type": "international_company_or_term",
+      "wikilink": "Institut Karité Paris"
+    },
+    {
+      "name": "Corine de Farme",
+      "type": "international_company_or_term",
+      "wikilink": "Corine de Farme"
+    },
+    {
+      "name": "Pure Paw Paw",
+      "type": "international_company_or_term",
+      "wikilink": "Pure Paw Paw"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "志旭國際 (8067，[[Gish International]]) 成立於 1989 年，初期以精密模具及光電資訊產品代理為主業，2008 年起跨足美妝保養品代理，現已轉型為以歐美精品香水與美妝保養品代理為核心事業的通路商。\n\n業務結構與動能：(1) 美妝保養品 (約佔營收 87%) — 代理歐美國際品牌香水、護膚保養品、彩妝及專業護髮產品，銷售通路涵蓋百貨專櫃 (GISH Beauty 專櫃)、美妝店、髮廊、藥妝連鎖及電商平台；代理品牌包含 [[Mercedes-Benz]] 香水、[[Porsche Design]] 香水、[[BMW]] 香水、[[Lamborghini]] 香水、[[MAUBOUSSIN]]、[[Korloff Paris]]、[[REUZEL]] 髮品、[[Macadamia Professional]] 護髮等；(2) 儲存周邊 (約佔營收 12%) — 光碟片、儲存媒體等資訊周邊產品代理。公司以內銷台灣市場為主 (約 96%)，另設有日本子公司拓展海外。",
+    "supply_chain_md": "**上游 (國際品牌原廠):**\n- **汽車精品香水:** [[Mercedes-Benz]]、[[Porsche Design]]、[[BMW]]、[[Lamborghini]]、[[Ford Mustang]]、[[Alfa Romeo]] — 授權香水\n- **時尚香水:** [[MAUBOUSSIN]]、[[Korloff Paris]]、[[Hackett London]]、[[Anne Klein]] — 精品香水\n- **護髮品牌:** [[REUZEL]]、[[Macadamia Professional]]、[[eprouvage]] — 專業護髮\n- **保養品牌:** [[Institut Karité Paris]]、[[Corine de Farme]]、[[Pure Paw Paw]] — 護膚保養\n\n**中游 (代理通路):**\n- **志旭國際** (歐美精品香水、美妝保養品及儲存周邊之代理行銷與通路經營)\n\n**下游 (零售通路):**\n- **百貨專櫃:** 百貨公司美妝專櫃 (GISH Beauty)\n- **美妝通路:** 美妝店、藥妝連鎖店\n- **髮廊:** 專業髮廊與美髮沙龍\n- **電商:** 線上購物平台",
+    "customers_suppliers_md": "### 主要客戶\n- **百貨通路:** 百貨公司美妝專櫃 — GISH Beauty 自營專櫃\n- **美妝零售:** 美妝店、藥妝連鎖及生活百貨 — 香水與保養品\n- **髮廊通路:** 專業髮廊與美髮沙龍 — [[REUZEL]]、[[Macadamia Professional]] 護髮品\n- **電商平台:** 線上購物平台 — 香水與美妝品\n\n### 主要供應商\n- **汽車香水:** [[Mercedes-Benz]]、[[Porsche Design]]、[[BMW]]、[[Lamborghini]] — 授權香水系列\n- **精品香水:** [[MAUBOUSSIN]]、[[Korloff Paris]]、[[Hackett London]] — 法系精品香水\n- **護髮:** [[REUZEL]]、[[Macadamia Professional]] — 專業護髮品牌\n- **保養:** [[Institut Karité Paris]]、[[Corine de Farme]]、[[Pure Paw Paw]] — 歐美保養品牌",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $12.65 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      2.73 | 2.02 |    -15.02 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       107.04 |       109.42 |       104.03 |\n| Gross Profit            |        44.05 |        49.42 |        41.95 |\n| Gross Margin (%)        |        41.15 |        45.17 |        40.33 |\n| Selling & Marketing Exp |        48.43 |        46.39 |        46.79 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        24.89 |        26.42 |        27.89 |\n| Operating Income        |       -29.28 |       -23.39 |       -32.73 |\n| Operating Margin (%)    |       -27.35 |       -21.37 |       -31.46 |\n| Net Income              |       -12.13 |       -14.60 |       -15.00 |\n| Net Margin (%)          |       -11.33 |       -13.35 |       -14.42 |\n| Op Cash Flow            |        -5.03 |       -11.62 |       -26.12 |\n| Investing Cash Flow     |        15.64 |        -4.37 |       -13.30 |\n| Financing Cash Flow     |       -13.65 |        22.00 |        38.04 |\n| CAPEX                   |        -3.08 |         0.00 |         0.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        21.48 |        24.04 |        26.18 |        24.21 |\n| Gross Profit            |        10.84 |         9.96 |        11.66 |         8.82 |\n| Gross Margin (%)        |        50.44 |        41.42 |        44.53 |        36.42 |\n| Selling & Marketing Exp |        12.17 |        13.59 |         9.77 |        12.13 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |         5.75 |         5.25 |         6.48 |         6.70 |\n| Operating Income        |        -7.08 |        -8.88 |        -4.59 |       -10.02 |\n| Operating Margin (%)    |       -32.94 |       -36.92 |       -17.54 |       -41.38 |\n| Net Income              |       -12.74 |       -12.50 |        16.90 |       -10.07 |\n| Net Margin (%)          |       -59.31 |       -52.01 |        64.54 |       -41.58 |\n| Op Cash Flow            |        -7.18 |         1.27 |        15.46 |       -17.14 |\n| Investing Cash Flow     |         2.39 |         7.62 |        -0.78 |         9.58 |\n| Financing Cash Flow     |         1.16 |        -7.56 |       -13.92 |         8.13 |\n| CAPEX                   |         0.00 |         0.00 |        -0.13 |        -0.01 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": []
+  }
+}

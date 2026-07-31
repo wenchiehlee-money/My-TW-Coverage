@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2101",
+  "company_name": "南港",
+  "title": "2101 - 南港",
+  "source_md": "Pilot_Reports/汽車 - 輪胎/2101_南港.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "23,248 百萬台幣",
+    "enterprise_value": "41,479 百萬台幣"
+  },
+  "business": {
+    "summary": "南港輪胎 (2101，Nankang Rubber Tire) 創立於 1959 年，為台灣歷史最悠久之輪胎製造商。自有品牌 Nankang、SONAR (速耐) 及 Luccini (路馳凌) 行銷全球 189 國。近年積極布局電動車輪胎市場，推出 [[AS-3EV]] 電動車專用胎鎖定[[Tesla]] Model 3/Y 車主。2023 年成為大中華區首家[[紐柏林賽道]] (Nürburgring) 官方合作夥伴，強化賽道性能形象。另透過子公司南榮開發推動[[世界明珠]]大型不動產開發案。上游原料採購自[[台橡]] (合成橡膠) 及[[中橡]] (碳煙)。",
+    "entities": [
+      "AS-3EV",
+      "Tesla",
+      "紐柏林賽道",
+      "世界明珠",
+      "台橡",
+      "中橡"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "合成橡膠",
+        "text": "[[台橡]] (TSRC) — SBR 合成橡膠",
+        "entities": [
+          "台橡"
+        ]
+      },
+      {
+        "category": "碳煙",
+        "text": "[[中橡]] ([[Continental]] Carbon) — 碳黑填料",
+        "entities": [
+          "中橡",
+          "Continental"
+        ]
+      },
+      {
+        "category": "天然橡膠",
+        "text": "東南亞天然橡膠貿易商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**南港輪胎** (乘用車胎/SUV 胎/賽道胎/EV 專用胎製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "全球 AM",
+        "text": "189 國經銷通路 — Nankang/SONAR/Luccini 品牌",
+        "entities": []
+      },
+      {
+        "category": "EV 車主",
+        "text": "[[Tesla]] Model 3/Y — [[AS-3EV]] 電動車胎",
+        "entities": [
+          "Tesla",
+          "AS-3EV"
+        ]
+      },
+      {
+        "category": "賽道合作",
+        "text": "[[紐柏林賽道]] — 大中華區官方合作夥伴",
+        "entities": [
+          "紐柏林賽道"
+        ]
+      },
+      {
+        "category": "不動產",
+        "text": "[[世界明珠]] — 子公司南榮開發",
+        "entities": [
+          "世界明珠"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "全球 AM",
+        "text": "189 國輪胎經銷商 — Nankang/SONAR/Luccini 品牌",
+        "entities": []
+      },
+      {
+        "role": "EV 市場",
+        "text": "[[Tesla]] 車主 — [[AS-3EV]] 電動車專用胎",
+        "entities": [
+          "Tesla",
+          "AS-3EV"
+        ]
+      },
+      {
+        "role": "賽道",
+        "text": "[[紐柏林賽道]] — 官方合作夥伴",
+        "entities": [
+          "紐柏林賽道"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "合成橡膠",
+        "text": "[[台橡]] (TSRC) — SBR",
+        "entities": [
+          "台橡"
+        ]
+      },
+      {
+        "role": "碳煙",
+        "text": "[[中橡]] ([[Continental]] Carbon)",
+        "entities": [
+          "中橡",
+          "Continental"
+        ]
+      },
+      {
+        "role": "天然橡膠",
+        "text": "東南亞貿易商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AS-3EV",
+      "type": "international_company_or_term",
+      "wikilink": "AS-3EV"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "紐柏林賽道",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紐柏林賽道"
+    },
+    {
+      "name": "世界明珠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界明珠"
+    },
+    {
+      "name": "台橡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台橡"
+    },
+    {
+      "name": "中橡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中橡"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "南港輪胎 (2101，Nankang Rubber Tire) 創立於 1959 年，為台灣歷史最悠久之輪胎製造商。自有品牌 Nankang、SONAR (速耐) 及 Luccini (路馳凌) 行銷全球 189 國。近年積極布局電動車輪胎市場，推出 [[AS-3EV]] 電動車專用胎鎖定[[Tesla]] Model 3/Y 車主。2023 年成為大中華區首家[[紐柏林賽道]] (Nürburgring) 官方合作夥伴，強化賽道性能形象。另透過子公司南榮開發推動[[世界明珠]]大型不動產開發案。上游原料採購自[[台橡]] (合成橡膠) 及[[中橡]] (碳煙)。",
+    "supply_chain_md": "**上游 (原料):**\n- **合成橡膠:** [[台橡]] (TSRC) — SBR 合成橡膠\n- **碳煙:** [[中橡]] ([[Continental]] Carbon) — 碳黑填料\n- **天然橡膠:** 東南亞天然橡膠貿易商\n\n**中游 (製造):**\n- **南港輪胎** (乘用車胎/SUV 胎/賽道胎/EV 專用胎製造)\n\n**下游 (終端):**\n- **全球 AM:** 189 國經銷通路 — Nankang/SONAR/Luccini 品牌\n- **EV 車主:** [[Tesla]] Model 3/Y — [[AS-3EV]] 電動車胎\n- **賽道合作:** [[紐柏林賽道]] — 大中華區官方合作夥伴\n- **不動產:** [[世界明珠]] — 子公司南榮開發",
+    "customers_suppliers_md": "### 主要客戶\n- **全球 AM:** 189 國輪胎經銷商 — Nankang/SONAR/Luccini 品牌\n- **EV 市場:** [[Tesla]] 車主 — [[AS-3EV]] 電動車專用胎\n- **賽道:** [[紐柏林賽道]] — 官方合作夥伴\n\n### 主要供應商\n- **合成橡膠:** [[台橡]] (TSRC) — SBR\n- **碳煙:** [[中橡]] ([[Continental]] Carbon)\n- **天然橡膠:** 東南亞貿易商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $32.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.89 |       67.60 |      1.98 | 1.74 |     15.26 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8431.99 |     15223.52 |      7851.97 |\n| Gross Profit            |      1808.39 |      4889.45 |      1553.59 |\n| Gross Margin (%)        |        21.45 |        32.12 |        19.79 |\n| Selling & Marketing Exp |       745.51 |       904.44 |       646.34 |\n| R&D Exp                 |        88.39 |        87.16 |        77.71 |\n| General & Admin Exp     |       395.39 |       389.81 |       387.15 |\n| Operating Income        |       579.09 |      3508.05 |       442.40 |\n| Operating Margin (%)    |         6.87 |        23.04 |         5.63 |\n| Net Income              |       809.78 |      2947.88 |       134.01 |\n| Net Margin (%)          |         9.60 |        19.36 |         1.71 |\n| Op Cash Flow            |      1815.63 |      -746.53 |     -2781.97 |\n| Investing Cash Flow     |     -3239.57 |       508.05 |       551.63 |\n| Financing Cash Flow     |       588.08 |       307.31 |      2649.53 |\n| CAPEX                   |      -430.23 |      -329.17 |      -474.13 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5423.75 |      1736.65 |      2176.47 |      2450.14 |\n| Gross Profit            |      2237.63 |       364.01 |       433.81 |       588.33 |\n| Gross Margin (%)        |        41.26 |        20.96 |        19.93 |        24.01 |\n| Selling & Marketing Exp |       464.40 |       157.47 |       187.36 |       205.58 |\n| R&D Exp                 |        21.82 |        24.00 |        21.58 |        20.97 |\n| General & Admin Exp     |       102.40 |       106.72 |        96.65 |        97.80 |\n| Operating Income        |      1649.01 |        75.83 |       128.21 |       263.98 |\n| Operating Margin (%)    |        30.40 |         4.37 |         5.89 |        10.77 |\n| Net Income              |      1344.09 |      1115.11 |        77.64 |      -295.19 |\n| Net Margin (%)          |        24.78 |        64.21 |         3.57 |       -12.05 |\n| Op Cash Flow            |      2753.54 |      2137.88 |      1061.61 |      -743.64 |\n| Investing Cash Flow     |       844.12 |     -2174.58 |     -1195.32 |       -51.81 |\n| Financing Cash Flow     |     -2942.35 |        39.11 |      -301.35 |       401.49 |\n| CAPEX                   |      -165.64 |      -169.24 |      -110.17 |         8.83 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

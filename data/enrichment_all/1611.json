@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1611",
+  "company_name": "中電",
+  "title": "1611 - 中電",
+  "source_md": "Pilot_Reports/電動車輛產業 - 鋰電池材料/1611_中電.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "market_cap": "3,695 百萬台幣",
+    "enterprise_value": "2,982 百萬台幣"
+  },
+  "business": {
+    "summary": "中國電器 (1611，China Electric Mfg.) 成立於 1955 年，總部位於台北，為台灣照明產業領導品牌「東亞照明」(TOA) 之經營者。主要產品涵蓋各式 LED 照明燈具、傳統光源、安定器及相關照明配件。銷售通路以全台綿密的水電材料行為核心優勢，同時供貨予量販通路如[[特力屋]]、[[家樂福]]。LED 光源主要向[[億光電子]] (2393)、[[隆達電子]] (3698) 等封裝廠採購。公司亦跨足不動產開發及資產活化業務，持有台北市精華地段土地資產。",
+    "entities": [
+      "特力屋",
+      "家樂福",
+      "億光電子",
+      "隆達電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (LED 元件與材料)",
+        "text": "**上游 (LED 元件與材料):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "[[億光電子]] (2393)、[[隆達電子]] (3698) — LED 晶粒與封裝元件",
+        "entities": [
+          "億光電子",
+          "隆達電子"
+        ]
+      },
+      {
+        "category": "電源驅動",
+        "text": "國內電源供應器廠",
+        "entities": []
+      },
+      {
+        "category": "金屬件",
+        "text": "散熱鋁件、塑膠射出件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌與製造)",
+        "text": "**中游 (品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中國電器** — 「東亞照明」品牌行銷、燈具設計組裝測試",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (通路與終端)",
+        "text": "**下游 (通路與終端):**",
+        "entities": []
+      },
+      {
+        "category": "傳統通路",
+        "text": "全台水電材料行",
+        "entities": []
+      },
+      {
+        "category": "量販通路",
+        "text": "[[特力屋]]、[[家樂福]]",
+        "entities": [
+          "特力屋",
+          "家樂福"
+        ]
+      },
+      {
+        "category": "工程標案",
+        "text": "營造廠 (路燈、學校照明)、政府機關",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "傳統通路",
+        "text": "全台數千家水電材料行 — 照明燈具經銷",
+        "entities": []
+      },
+      {
+        "role": "量販通路",
+        "text": "[[特力屋]]、[[家樂福]]",
+        "entities": [
+          "特力屋",
+          "家樂福"
+        ]
+      },
+      {
+        "role": "工程客戶",
+        "text": "營造廠如[[中華工程]]、[[遠雄營造]] — 公共照明工程",
+        "entities": [
+          "中華工程",
+          "遠雄營造"
+        ]
+      },
+      {
+        "role": "政府標案",
+        "text": "路燈、校園照明",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LED 元件",
+        "text": "[[億光電子]]、[[隆達電子]] — LED 封裝元件",
+        "entities": [
+          "億光電子",
+          "隆達電子"
+        ]
+      },
+      {
+        "role": "電源",
+        "text": "國內電源供應器廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "特力屋",
+      "type": "taiwan_company_or_term",
+      "wikilink": "特力屋"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "億光電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光電子"
+    },
+    {
+      "name": "隆達電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "隆達電子"
+    },
+    {
+      "name": "中華工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華工程"
+    },
+    {
+      "name": "遠雄營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄營造"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國電器 (1611，China Electric Mfg.) 成立於 1955 年，總部位於台北，為台灣照明產業領導品牌「東亞照明」(TOA) 之經營者。主要產品涵蓋各式 LED 照明燈具、傳統光源、安定器及相關照明配件。銷售通路以全台綿密的水電材料行為核心優勢，同時供貨予量販通路如[[特力屋]]、[[家樂福]]。LED 光源主要向[[億光電子]] (2393)、[[隆達電子]] (3698) 等封裝廠採購。公司亦跨足不動產開發及資產活化業務，持有台北市精華地段土地資產。",
+    "supply_chain_md": "**上游 (LED 元件與材料):**\n- **LED 封裝:** [[億光電子]] (2393)、[[隆達電子]] (3698) — LED 晶粒與封裝元件\n- **電源驅動:** 國內電源供應器廠\n- **金屬件:** 散熱鋁件、塑膠射出件\n\n**中游 (品牌與製造):**\n- **中國電器** — 「東亞照明」品牌行銷、燈具設計組裝測試\n\n**下游 (通路與終端):**\n- **傳統通路:** 全台水電材料行\n- **量販通路:** [[特力屋]]、[[家樂福]]\n- **工程標案:** 營造廠 (路燈、學校照明)、政府機關",
+    "customers_suppliers_md": "### 主要客戶\n- **傳統通路:** 全台數千家水電材料行 — 照明燈具經銷\n- **量販通路:** [[特力屋]]、[[家樂福]]\n- **工程客戶:** 營造廠如[[中華工程]]、[[遠雄營造]] — 公共照明工程\n- **政府標案:** 路燈、校園照明\n\n### 主要供應商\n- **LED 元件:** [[億光電子]]、[[隆達電子]] — LED 封裝元件\n- **電源:** 國內電源供應器廠商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $11.35 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    378.33 |         N/A |      3.54 | 0.93 |  -3986.43 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1065.95 |      1160.83 |      1361.49 |\n| Gross Profit            |       339.74 |       354.30 |       372.80 |\n| Gross Margin (%)        |        31.87 |        30.52 |        27.38 |\n| Selling & Marketing Exp |       141.30 |       134.72 |       176.25 |\n| R&D Exp                 |         0.00 |         0.20 |         3.74 |\n| General & Admin Exp     |       125.27 |       132.79 |       132.00 |\n| Operating Income        |        73.17 |        86.59 |        60.82 |\n| Operating Margin (%)    |         6.86 |         7.46 |         4.47 |\n| Net Income              |         9.21 |       160.57 |       149.56 |\n| Net Margin (%)          |         0.86 |        13.83 |        10.98 |\n| Op Cash Flow            |       251.65 |       192.38 |       245.71 |\n| Investing Cash Flow     |       147.37 |      -214.74 |      -312.33 |\n| Financing Cash Flow     |      -294.04 |      -194.69 |      -106.73 |\n| CAPEX                   |       -21.99 |        -0.76 |        -1.52 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       247.97 |       254.79 |       279.85 |       283.35 |\n| Gross Profit            |        94.05 |        79.36 |        78.79 |        87.54 |\n| Gross Margin (%)        |        37.93 |        31.15 |        28.15 |        30.89 |\n| Selling & Marketing Exp |        34.21 |        35.51 |        40.68 |        30.90 |\n| R&D Exp                 |         0.00 |         0.00 |         0.00 |         0.00 |\n| General & Admin Exp     |        30.93 |        34.32 |        29.20 |        30.82 |\n| Operating Income        |        28.91 |         9.53 |         8.90 |        25.82 |\n| Operating Margin (%)    |        11.66 |         3.74 |         3.18 |         9.11 |\n| Net Income              |       -21.64 |        36.69 |       -44.70 |        38.86 |\n| Net Margin (%)          |        -8.73 |        14.40 |       -15.97 |        13.71 |\n| Op Cash Flow            |        31.74 |        51.00 |        72.00 |        96.92 |\n| Investing Cash Flow     |       -30.57 |       -57.15 |       237.35 |        -2.27 |\n| Financing Cash Flow     |        -8.63 |        -9.13 |      -267.42 |        -8.85 |\n| CAPEX                   |       -21.02 |        -0.97 |         0.00 |         0.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

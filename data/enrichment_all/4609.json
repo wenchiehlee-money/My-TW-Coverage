@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4609",
+  "company_name": "唐鋒",
+  "title": "4609 - 唐鋒",
+  "source_md": "Pilot_Reports/貿易百貨 - 零售通路/4609_唐鋒.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "242 百萬台幣",
+    "enterprise_value": "252 百萬台幣"
+  },
+  "business": {
+    "summary": "唐鋒實業股份有限公司 (4609) 總部位於桃園中壢，為小型家電 [[OEM]]/[[ODM]] 製造商。主要產品包括廚房家電（[[食物調理機]]、果汁機、攪拌棒）與居家小家電（電熱毯、電暖器）。營運模式以代工為主，外銷歐美市場。公司具備塑膠射出成型與馬達製造能力，部分關鍵零組件自製以控制成本。品牌 [[Airlux]] 亦有少量自有品牌銷售。",
+    "entities": [
+      "OEM",
+      "ODM",
+      "食物調理機",
+      "Airlux"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "工程塑膠原料（外殼用）",
+        "entities": []
+      },
+      {
+        "category": "馬達",
+        "text": "電動馬達（部分自製）",
+        "entities": []
+      },
+      {
+        "category": "加熱元件",
+        "text": "電熱絲/加熱管",
+        "entities": []
+      },
+      {
+        "category": "電子控制板",
+        "text": "[[PCB]] 控制電路板",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "包材",
+        "text": "外銷包裝材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (小家電組裝製造)",
+        "text": "**中游 (小家電組裝製造):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠射出",
+        "text": "**唐鋒** (外殼射出成型，部分自製)",
+        "entities": []
+      },
+      {
+        "category": "馬達製造",
+        "text": "**唐鋒** (小型馬達部分自製)",
+        "entities": []
+      },
+      {
+        "category": "產品組裝",
+        "text": "**唐鋒** (小家電組裝與安規測試)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (歐美品牌與通路)",
+        "text": "**下游 (歐美品牌與通路):**",
+        "entities": []
+      },
+      {
+        "category": "品牌商",
+        "text": "歐美家電品牌 — [[OEM]]/[[ODM]] 代工",
+        "entities": [
+          "OEM",
+          "ODM"
+        ]
+      },
+      {
+        "category": "零售通路",
+        "text": "[[Walmart]]、[[Target]] — 貼牌家電產品",
+        "entities": [
+          "Walmart",
+          "Target"
+        ]
+      },
+      {
+        "category": "進口商",
+        "text": "歐洲家電進口與經銷商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐美品牌",
+        "text": "歐美地區家電品牌商 — 小家電 OEM/ODM",
+        "entities": []
+      },
+      {
+        "role": "零售通路",
+        "text": "[[Walmart]]、[[Target]] — 美國大型賣場貼牌",
+        "entities": [
+          "Walmart",
+          "Target"
+        ]
+      },
+      {
+        "role": "歐洲進口商",
+        "text": "歐洲家電進口與經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠原料",
+        "text": "工程塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "馬達零組件",
+        "text": "馬達零件供應商（部分自製）",
+        "entities": []
+      },
+      {
+        "role": "電子元件",
+        "text": "[[PCB]] 控制板與加熱元件供應商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "食物調理機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "食物調理機"
+    },
+    {
+      "name": "Airlux",
+      "type": "international_company_or_term",
+      "wikilink": "Airlux"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Target",
+      "type": "international_company_or_term",
+      "wikilink": "Target"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "唐鋒實業股份有限公司 (4609) 總部位於桃園中壢，為小型家電 [[OEM]]/[[ODM]] 製造商。主要產品包括廚房家電（[[食物調理機]]、果汁機、攪拌棒）與居家小家電（電熱毯、電暖器）。營運模式以代工為主，外銷歐美市場。公司具備塑膠射出成型與馬達製造能力，部分關鍵零組件自製以控制成本。品牌 [[Airlux]] 亦有少量自有品牌銷售。",
+    "supply_chain_md": "**上游 (零組件):**\n- **塑膠粒:** 工程塑膠原料（外殼用）\n- **馬達:** 電動馬達（部分自製）\n- **加熱元件:** 電熱絲/加熱管\n- **電子控制板:** [[PCB]] 控制電路板\n- **包材:** 外銷包裝材料\n\n**中游 (小家電組裝製造):**\n- **塑膠射出:** **唐鋒** (外殼射出成型，部分自製)\n- **馬達製造:** **唐鋒** (小型馬達部分自製)\n- **產品組裝:** **唐鋒** (小家電組裝與安規測試)\n\n**下游 (歐美品牌與通路):**\n- **品牌商:** 歐美家電品牌 — [[OEM]]/[[ODM]] 代工\n- **零售通路:** [[Walmart]]、[[Target]] — 貼牌家電產品\n- **進口商:** 歐洲家電進口與經銷商",
+    "customers_suppliers_md": "### 主要客戶\n- **歐美品牌:** 歐美地區家電品牌商 — 小家電 OEM/ODM\n- **零售通路:** [[Walmart]]、[[Target]] — 美國大型賣場貼牌\n- **歐洲進口商:** 歐洲家電進口與經銷商\n\n### 主要供應商\n- **塑膠原料:** 工程塑膠粒供應商\n- **馬達零組件:** 馬達零件供應商（部分自製）\n- **電子元件:** [[PCB]] 控制板與加熱元件供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $5.05 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.54 | 1.76 |     -5.80 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       166.00 |       134.19 |        98.11 |\n| Gross Profit            |        42.67 |        23.35 |        14.76 |\n| Gross Margin (%)        |        25.71 |        17.40 |        15.04 |\n| Selling & Marketing Exp |        19.34 |        19.07 |        14.09 |\n| R&D Exp                 |        16.86 |        18.70 |        23.42 |\n| General & Admin Exp     |        60.41 |        60.28 |        62.61 |\n| Operating Income        |       -53.94 |       -74.70 |       -85.35 |\n| Operating Margin (%)    |       -32.49 |       -55.67 |       -87.00 |\n| Net Income              |        -5.00 |       -22.33 |       -37.49 |\n| Net Margin (%)          |        -3.02 |       -16.64 |       -38.22 |\n| Op Cash Flow            |       -34.56 |       -30.86 |       -17.87 |\n| Investing Cash Flow     |        -1.21 |        -2.94 |        -2.62 |\n| Financing Cash Flow     |        -1.29 |        -6.23 |       -11.75 |\n| CAPEX                   |        -3.18 |        -3.44 |        -5.05 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        18.32 |        32.59 |        66.34 |        39.92 |\n| Gross Profit            |         0.11 |         1.60 |        26.35 |        11.60 |\n| Gross Margin (%)        |         0.58 |         4.92 |        39.73 |        29.07 |\n| Selling & Marketing Exp |         4.00 |         5.59 |         3.85 |         5.00 |\n| R&D Exp                 |         3.73 |         3.90 |         4.21 |         4.57 |\n| General & Admin Exp     |        13.58 |        14.42 |        16.55 |        14.45 |\n| Operating Income        |       -21.20 |       -22.32 |         1.74 |       -12.42 |\n| Operating Margin (%)    |      -115.72 |       -68.47 |         2.62 |       -31.10 |\n| Net Income              |        -3.67 |        -1.89 |        18.85 |       -15.78 |\n| Net Margin (%)          |       -20.06 |        -5.81 |        28.42 |       -39.53 |\n| Op Cash Flow            |        25.97 |       -13.97 |        -3.90 |       -33.27 |\n| Investing Cash Flow     |        -0.64 |        -0.77 |        -0.46 |        -1.20 |\n| Financing Cash Flow     |        -0.29 |        -0.62 |        -0.14 |        -0.16 |\n| CAPEX                   |        -0.64 |        -0.77 |        -0.42 |        -1.14 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

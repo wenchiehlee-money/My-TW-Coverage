@@ -1,0 +1,278 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4906",
+  "company_name": "正文",
+  "title": "4906 - 正文",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/4906_正文.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "12,935 百萬台幣",
+    "enterprise_value": "10,047 百萬台幣"
+  },
+  "business": {
+    "summary": "正文科技 (4906，[[Gemtek]]) 為全球前列無線網通設備 ODM 代工廠。主要產品涵蓋 [[5G]] FWA (固定無線接入)、[[PON]] 光纖設備、xDSL、Cable Modem、[[Wi-Fi 7]] 路由器、IP Cam 及智慧家庭裝置。公司為 [[SpaceX]] 星鏈計畫 ([[Starlink]]) 路由器之主力代工合作夥伴。\n\n近年致力推動「直供模式」(Direct Account)，跳過品牌商直接服務電信營運商以提升毛利率。生產基地已有八成產能轉移至越南三大廠區，台灣新竹總廠專注高毛利研發，涵蓋 50G 規格設備、毫米波 FWA 及 [[800G]] 雲端光收發模組。2025 年於 ECOC 展推出 800Gbps DR 光收發模組。",
+    "entities": [
+      "Gemtek",
+      "5G",
+      "PON",
+      "Wi-Fi 7",
+      "SpaceX",
+      "Starlink",
+      "800G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與光學元件)",
+        "text": "**上游 (網通晶片與光學元件):**",
+        "entities": []
+      },
+      {
+        "category": "網通 SoC",
+        "text": "[[Broadcom]]、[[Qualcomm]]、[[聯發科]] (基頻/射頻晶片)",
+        "entities": [
+          "Broadcom",
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "光學元件",
+        "text": "[[矽光子]]光學精密元件 (800G 光模組用)",
+        "entities": [
+          "矽光子"
+        ]
+      },
+      {
+        "category": "高頻 PCB",
+        "text": "多層高頻 PCB",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (無線網通設備 ODM)",
+        "text": "**中游 (無線網通設備 ODM):**",
+        "entities": []
+      },
+      {
+        "category": "網通 ODM",
+        "text": "**正文** (全球前列網通 ODM，5G FWA/PON/Wi-Fi 7/Starlink 路由器/800G 光模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信商與衛星營運商)",
+        "text": "**下游 (電信商與衛星營運商):**",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星",
+        "text": "[[SpaceX]] ([[Starlink]] 路由器代工)",
+        "entities": [
+          "SpaceX",
+          "Starlink"
+        ]
+      },
+      {
+        "category": "電信商",
+        "text": "北美及歐洲一線電信營運商 (直供模式)",
+        "entities": []
+      },
+      {
+        "category": "品牌客戶",
+        "text": "國際網通設備品牌 (OEM/ODM)",
+        "entities": []
+      },
+      {
+        "category": "AI 雲端",
+        "text": "AI 資料中心 (800G 光模組)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "低軌衛星",
+        "text": "[[SpaceX]] (Starlink 路由器主力代工)",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "電信直供",
+        "text": "北美及歐洲一線電信商 (5G FWA 直供)",
+        "entities": []
+      },
+      {
+        "role": "品牌代工",
+        "text": "國際網通品牌 (ODM)",
+        "entities": []
+      },
+      {
+        "role": "AI 雲端",
+        "text": "資料中心 (800G 光模組)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網通晶片",
+        "text": "[[Broadcom]]、[[Qualcomm]]、[[聯發科]]",
+        "entities": [
+          "Broadcom",
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "矽光子元件",
+        "text": "矽光子光學元件供應鏈",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[智易]]、[[中磊]]、[[合勤控]]",
+        "entities": [
+          "智易",
+          "中磊",
+          "合勤控"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[智易]]、[[中磊]]、[[合勤控]]",
+        "entities": [
+          "智易",
+          "中磊",
+          "合勤控"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[啟碁]]",
+        "entities": [
+          "啟碁"
+        ],
+        "basis": "reciprocal_competitor_from:6285",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Gemtek",
+      "type": "international_company_or_term",
+      "wikilink": "Gemtek"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "PON",
+      "type": "international_company_or_term",
+      "wikilink": "PON"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "Starlink",
+      "type": "international_company_or_term",
+      "wikilink": "Starlink"
+    },
+    {
+      "name": "800G",
+      "type": "international_company_or_term",
+      "wikilink": "800G"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "矽光子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽光子"
+    },
+    {
+      "name": "智易",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智易"
+    },
+    {
+      "name": "中磊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中磊"
+    },
+    {
+      "name": "合勤控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合勤控"
+    },
+    {
+      "name": "展達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "展達"
+    },
+    {
+      "name": "康聯訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康聯訊"
+    },
+    {
+      "name": "啟碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "啟碁"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "正文科技 (4906，[[Gemtek]]) 為全球前列無線網通設備 ODM 代工廠。主要產品涵蓋 [[5G]] FWA (固定無線接入)、[[PON]] 光纖設備、xDSL、Cable Modem、[[Wi-Fi 7]] 路由器、IP Cam 及智慧家庭裝置。公司為 [[SpaceX]] 星鏈計畫 ([[Starlink]]) 路由器之主力代工合作夥伴。\n\n近年致力推動「直供模式」(Direct Account)，跳過品牌商直接服務電信營運商以提升毛利率。生產基地已有八成產能轉移至越南三大廠區，台灣新竹總廠專注高毛利研發，涵蓋 50G 規格設備、毫米波 FWA 及 [[800G]] 雲端光收發模組。2025 年於 ECOC 展推出 800Gbps DR 光收發模組。",
+    "supply_chain_md": "**上游 (網通晶片與光學元件):**\n- **網通 SoC:** [[Broadcom]]、[[Qualcomm]]、[[聯發科]] (基頻/射頻晶片)\n- **光學元件:** [[矽光子]]光學精密元件 (800G 光模組用)\n- **高頻 PCB:** 多層高頻 PCB\n\n**中游 (無線網通設備 ODM):**\n- **網通 ODM:** **正文** (全球前列網通 ODM，5G FWA/PON/Wi-Fi 7/Starlink 路由器/800G 光模組)\n\n**下游 (電信商與衛星營運商):**\n- **低軌衛星:** [[SpaceX]] ([[Starlink]] 路由器代工)\n- **電信商:** 北美及歐洲一線電信營運商 (直供模式)\n- **品牌客戶:** 國際網通設備品牌 (OEM/ODM)\n- **AI 雲端:** AI 資料中心 (800G 光模組)",
+    "customers_suppliers_md": "### 主要客戶\n- **低軌衛星:** [[SpaceX]] (Starlink 路由器主力代工)\n- **電信直供:** 北美及歐洲一線電信商 (5G FWA 直供)\n- **品牌代工:** 國際網通品牌 (ODM)\n- **AI 雲端:** 資料中心 (800G 光模組)\n\n### 主要供應商\n- **網通晶片:** [[Broadcom]]、[[Qualcomm]]、[[聯發科]]\n- **矽光子元件:** 矽光子光學元件供應鏈\n- **競爭同業:** [[智易]]、[[中磊]]、[[合勤控]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $28.95 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       16.08 |      0.86 | 1.12 |     21.02 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     16493.49 |     25633.89 |     26136.35 |\n| Gross Profit            |      2277.72 |      3039.25 |      2771.16 |\n| Gross Margin (%)        |        13.81 |        11.86 |        10.60 |\n| Selling & Marketing Exp |       537.43 |       597.22 |       524.31 |\n| R&D Exp                 |      1064.61 |      1172.26 |      1069.51 |\n| General & Admin Exp     |       619.55 |       713.90 |       663.39 |\n| Operating Income        |        56.13 |       555.86 |       513.95 |\n| Operating Margin (%)    |         0.34 |         2.17 |         1.97 |\n| Net Income              |      -108.33 |       647.27 |       609.15 |\n| Net Margin (%)          |        -0.66 |         2.53 |         2.33 |\n| Op Cash Flow            |      2760.45 |      2246.37 |      2609.20 |\n| Investing Cash Flow     |     -1085.59 |      -314.29 |       -83.39 |\n| Financing Cash Flow     |      -208.07 |      -332.97 |      -520.40 |\n| CAPEX                   |      -806.33 |      -733.98 |      -811.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3112.33 |      3585.32 |      3557.47 |      4195.98 |\n| Gross Profit            |       322.22 |       507.77 |       581.55 |       564.29 |\n| Gross Margin (%)        |        10.35 |        14.16 |        16.35 |        13.45 |\n| Selling & Marketing Exp |       118.56 |       127.98 |       135.29 |       137.29 |\n| R&D Exp                 |       263.89 |       267.00 |       262.56 |       266.57 |\n| General & Admin Exp     |       139.52 |       168.32 |       148.09 |       146.76 |\n| Operating Income        |      -199.75 |       -55.54 |        35.61 |        13.68 |\n| Operating Margin (%)    |        -6.42 |        -1.55 |         1.00 |         0.33 |\n| Net Income              |      -135.43 |        82.95 |       155.03 |      -408.10 |\n| Net Margin (%)          |        -4.35 |         2.31 |         4.36 |        -9.73 |\n| Op Cash Flow            |      -490.88 |       416.40 |      1114.56 |       475.94 |\n| Investing Cash Flow     |      -550.94 |       263.44 |      -623.83 |      -614.46 |\n| Financing Cash Flow     |       631.23 |      1747.72 |     -1130.97 |       -89.03 |\n| CAPEX                   |      -178.25 |      -346.77 |      -256.23 |      -129.19 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

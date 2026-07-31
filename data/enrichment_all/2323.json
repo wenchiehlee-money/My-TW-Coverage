@@ -1,0 +1,255 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2323",
+  "company_name": "中環",
+  "title": "2323 - 中環",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備/2323_中環.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "10,360 百萬台幣",
+    "enterprise_value": "5,398 百萬台幣"
+  },
+  "business": {
+    "summary": "中環 (2323，[[CMC Magnetics]]) 成立於 1978 年，總部位於台北，為全球最大光學儲存媒體製造商，隸屬[[台泥集團]]。公司為全球眾多國際品牌提供 CD-R、DVD-R、藍光光碟 ([[Blu-ray]]) 之 OEM 代工服務。\n\n除光碟本業外，中環集團積極多角化轉型：(1) [[HP]] 儲存品牌授權：生產及銷售 [[HP]] 品牌 USB 隨身碟、記憶卡、[[SSD]] 固態硬碟等數位儲存產品；(2) 鋰電池：轉投資[[能元科技]] (Molicel) 為國際高性能鋰電池芯製造商，應用於電動工具、無人機及[[電動車]]；(3) 影視娛樂：影片代理發行及數位光碟壓片。",
+    "entities": [
+      "CMC Magnetics",
+      "台泥集團",
+      "Blu-ray",
+      "HP",
+      "SSD",
+      "能元科技",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (化工原料與電子元件)",
+        "text": "**上游 (化工原料與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "光碟基板",
+        "text": "聚碳酸酯 (PC) 塑膠粒及染料",
+        "entities": []
+      },
+      {
+        "category": "儲存元件",
+        "text": "Flash 記憶體晶片、[[SSD]] 控制器 IC",
+        "entities": [
+          "SSD"
+        ]
+      },
+      {
+        "category": "電池材料",
+        "text": "鋰電池正負極材料、電解液、隔離膜",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (儲存媒體與電池製造)",
+        "text": "**中游 (儲存媒體與電池製造):**",
+        "entities": []
+      },
+      {
+        "category": "光碟製造",
+        "text": "**中環** (全球最大 CD/DVD/Blu-ray 光碟 OEM 廠)",
+        "entities": []
+      },
+      {
+        "category": "數位儲存",
+        "text": "**中環** ([[HP]] 品牌授權 USB/記憶卡/SSD)",
+        "entities": [
+          "HP"
+        ]
+      },
+      {
+        "category": "鋰電池",
+        "text": "[[能元科技]] (Molicel，高性能鋰電池芯)",
+        "entities": [
+          "能元科技"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌與終端應用)",
+        "text": "**下游 (國際品牌與終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "儲存品牌",
+        "text": "[[HP]] — 品牌授權數位儲存產品",
+        "entities": [
+          "HP"
+        ]
+      },
+      {
+        "category": "光碟品牌",
+        "text": "[[Verbatim]]、[[Philips]]、[[TDK]] — OEM 光碟代工",
+        "entities": [
+          "Verbatim",
+          "Philips",
+          "TDK"
+        ]
+      },
+      {
+        "category": "電動工具",
+        "text": "國際電動工具品牌 — 高功率鋰電池芯",
+        "entities": []
+      },
+      {
+        "category": "影視娛樂",
+        "text": "電影發行商 — 藍光/DVD 光碟壓片",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "儲存品牌",
+        "text": "[[HP]] — 品牌授權 USB/記憶卡/SSD 產品",
+        "entities": [
+          "HP"
+        ]
+      },
+      {
+        "role": "光碟品牌",
+        "text": "[[Verbatim]]、[[Philips]]、[[TDK]]、[[Maxell]] — 光碟 OEM 代工",
+        "entities": [
+          "Verbatim",
+          "Philips",
+          "TDK",
+          "Maxell"
+        ]
+      },
+      {
+        "role": "鋰電池",
+        "text": "國際電動工具及無人機品牌 — 透過子公司[[能元科技]] (Molicel) 供應",
+        "entities": [
+          "能元科技"
+        ]
+      },
+      {
+        "role": "通路品牌",
+        "text": "[[Staples]]、[[Office Depot]] — 自有品牌光碟/儲存",
+        "entities": [
+          "Staples",
+          "Office Depot"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠原料",
+        "text": "聚碳酸酯 (PC) 塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "記憶體",
+        "text": "Flash 記憶體晶片及 SSD 控制器 IC",
+        "entities": []
+      },
+      {
+        "role": "集團母公司",
+        "text": "[[台泥集團]] — 集團資源及策略支持",
+        "entities": [
+          "台泥集團"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "CMC Magnetics",
+      "type": "international_company_or_term",
+      "wikilink": "CMC Magnetics"
+    },
+    {
+      "name": "台泥集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台泥集團"
+    },
+    {
+      "name": "Blu-ray",
+      "type": "international_company_or_term",
+      "wikilink": "Blu-ray"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "SSD",
+      "type": "technology",
+      "wikilink": "SSD"
+    },
+    {
+      "name": "能元科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "能元科技"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "Verbatim",
+      "type": "international_company_or_term",
+      "wikilink": "Verbatim"
+    },
+    {
+      "name": "Philips",
+      "type": "international_company_or_term",
+      "wikilink": "Philips"
+    },
+    {
+      "name": "TDK",
+      "type": "international_company_or_term",
+      "wikilink": "TDK"
+    },
+    {
+      "name": "Maxell",
+      "type": "international_company_or_term",
+      "wikilink": "Maxell"
+    },
+    {
+      "name": "Staples",
+      "type": "international_company_or_term",
+      "wikilink": "Staples"
+    },
+    {
+      "name": "Office Depot",
+      "type": "international_company_or_term",
+      "wikilink": "Office Depot"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中環 (2323，[[CMC Magnetics]]) 成立於 1978 年，總部位於台北，為全球最大光學儲存媒體製造商，隸屬[[台泥集團]]。公司為全球眾多國際品牌提供 CD-R、DVD-R、藍光光碟 ([[Blu-ray]]) 之 OEM 代工服務。\n\n除光碟本業外，中環集團積極多角化轉型：(1) [[HP]] 儲存品牌授權：生產及銷售 [[HP]] 品牌 USB 隨身碟、記憶卡、[[SSD]] 固態硬碟等數位儲存產品；(2) 鋰電池：轉投資[[能元科技]] (Molicel) 為國際高性能鋰電池芯製造商，應用於電動工具、無人機及[[電動車]]；(3) 影視娛樂：影片代理發行及數位光碟壓片。",
+    "supply_chain_md": "**上游 (化工原料與電子元件):**\n- **光碟基板:** 聚碳酸酯 (PC) 塑膠粒及染料\n- **儲存元件:** Flash 記憶體晶片、[[SSD]] 控制器 IC\n- **電池材料:** 鋰電池正負極材料、電解液、隔離膜\n\n**中游 (儲存媒體與電池製造):**\n- **光碟製造:** **中環** (全球最大 CD/DVD/Blu-ray 光碟 OEM 廠)\n- **數位儲存:** **中環** ([[HP]] 品牌授權 USB/記憶卡/SSD)\n- **鋰電池:** [[能元科技]] (Molicel，高性能鋰電池芯)\n\n**下游 (國際品牌與終端應用):**\n- **儲存品牌:** [[HP]] — 品牌授權數位儲存產品\n- **光碟品牌:** [[Verbatim]]、[[Philips]]、[[TDK]] — OEM 光碟代工\n- **電動工具:** 國際電動工具品牌 — 高功率鋰電池芯\n- **影視娛樂:** 電影發行商 — 藍光/DVD 光碟壓片",
+    "customers_suppliers_md": "### 主要客戶\n- **儲存品牌:** [[HP]] — 品牌授權 USB/記憶卡/SSD 產品\n- **光碟品牌:** [[Verbatim]]、[[Philips]]、[[TDK]]、[[Maxell]] — 光碟 OEM 代工\n- **鋰電池:** 國際電動工具及無人機品牌 — 透過子公司[[能元科技]] (Molicel) 供應\n- **通路品牌:** [[Staples]]、[[Office Depot]] — 自有品牌光碟/儲存\n\n### 主要供應商\n- **塑膠原料:** 聚碳酸酯 (PC) 塑膠粒供應商\n- **記憶體:** Flash 記憶體晶片及 SSD 控制器 IC\n- **集團母公司:** [[台泥集團]] — 集團資源及策略支持",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $9.38 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      5.94 |         N/A |      1.37 | 0.54 |     15.48 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7182.99 |      7435.18 |      7384.45 |\n| Gross Profit            |      1722.95 |      1637.27 |      1660.22 |\n| Gross Margin (%)        |        23.99 |        22.02 |        22.48 |\n| Selling & Marketing Exp |       823.18 |       842.23 |       937.20 |\n| R&D Exp                 |        87.40 |       357.50 |       288.42 |\n| General & Admin Exp     |       819.31 |       787.31 |       740.94 |\n| Operating Income        |        -6.94 |      -349.77 |      -306.35 |\n| Operating Margin (%)    |        -0.10 |        -4.70 |        -4.15 |\n| Net Income              |      1726.20 |      -290.10 |      1750.24 |\n| Net Margin (%)          |        24.03 |        -3.90 |        23.70 |\n| Op Cash Flow            |     -1330.07 |      -868.04 |       691.36 |\n| Investing Cash Flow     |      1252.92 |      -325.65 |      -227.94 |\n| Financing Cash Flow     |       312.06 |       882.39 |      -241.38 |\n| CAPEX                   |      -135.36 |      -144.38 |       -72.49 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1916.56 |      1857.85 |      1618.58 |      1790.01 |\n| Gross Profit            |       448.86 |       432.69 |       428.21 |       413.19 |\n| Gross Margin (%)        |        23.42 |        23.29 |        26.46 |        23.08 |\n| Selling & Marketing Exp |       202.37 |       187.95 |       207.12 |       225.74 |\n| R&D Exp                 |        17.52 |        12.95 |        13.58 |        43.35 |\n| General & Admin Exp     |       248.18 |       190.23 |       190.57 |       190.33 |\n| Operating Income        |       -19.22 |        41.56 |        16.94 |       -46.23 |\n| Operating Margin (%)    |        -1.00 |         2.24 |         1.05 |        -2.58 |\n| Net Income              |      1318.63 |       905.67 |       597.07 |     -1095.17 |\n| Net Margin (%)          |        68.80 |        48.75 |        36.89 |       -61.18 |\n| Op Cash Flow            |       841.18 |      -589.19 |      -437.35 |     -1144.70 |\n| Investing Cash Flow     |      1528.78 |       -45.55 |       -81.72 |      -148.58 |\n| Financing Cash Flow     |     -1707.33 |       824.51 |       727.18 |       467.70 |\n| CAPEX                   |       -37.40 |       -32.27 |       -38.14 |       -27.55 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

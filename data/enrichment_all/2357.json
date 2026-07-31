@@ -1,0 +1,329 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2357",
+  "company_name": "華碩",
+  "title": "2357 - [[華碩]]",
+  "source_md": "Pilot_Reports/人工智慧 - 智慧設備/2357_華碩.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "565,241 百萬台幣",
+    "enterprise_value": "573,166 百萬台幣"
+  },
+  "business": {
+    "summary": "華碩電腦 (2357，[[ASUSTeK Computer]]) 成立於 1989 年，總部位於台北，為全球頂級 PC 品牌暨 [[AI 伺服器]]解決方案供應商。公司擁有逾 5,000 名研發人員及遍布全球 98 國超過 1,000 個服務中心，產品線橫跨消費及企業市場。\n\n消費事業涵蓋：筆記型電腦、桌上型電腦、主機板、顯示卡 (ROG/TUF Gaming/ASUS 品牌)、顯示器、路由器及周邊。電競品牌 ROG (Republic of Gamers) 為全球電競市場領導品牌。企業事業方面，華碩積極布局 [[AI 伺服器]]，推出搭載 [[NVIDIA]] GB300 NVL72 之 AI POD 平台，並拓展 [[AIoT]] 工業解決方案、車用電子及醫療機器人等新領域。旗下重要子公司包括[[和碩]] (4938，[[和碩]]，EMS 代工) 及亞旭電腦 (Askey，網通)。",
+    "entities": [
+      "ASUSTeK Computer",
+      "AI 伺服器",
+      "NVIDIA",
+      "AIoT",
+      "和碩"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與關鍵零組件)",
+        "text": "**上游 (晶片與關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 筆電/桌機/伺服器處理器",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]]、[[群創]]、[[LG Display]] — 筆電/顯示器面板",
+        "entities": [
+          "友達",
+          "群創",
+          "LG Display"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌設計與代工製造)",
+        "text": "**中游 (品牌設計與代工製造):**",
+        "entities": []
+      },
+      {
+        "category": "自有品牌",
+        "text": "**華碩** (ASUS/ROG/TUF/ProArt 品牌設計行銷)",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**華碩** ([[NVIDIA]] GB300 NVL72 AI POD 平台)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "代工夥伴",
+        "text": "[[和碩]] — 筆電/桌機 EMS 代工",
+        "entities": [
+          "和碩"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球通路與企業客戶)",
+        "text": "**下游 (全球通路與企業客戶):**",
+        "entities": []
+      },
+      {
+        "category": "全球通路",
+        "text": "逾 50 國 1,600 家以上通路夥伴",
+        "entities": []
+      },
+      {
+        "category": "電商平台",
+        "text": "[[Amazon]] 等全球電商",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "category": "企業客戶",
+        "text": "AI 資料中心建置商 — AI 伺服器方案",
+        "entities": []
+      },
+      {
+        "category": "合作夥伴",
+        "text": "[[NVIDIA]]、[[Intel]]、[[AMD]] — 策略技術合作",
+        "entities": [
+          "NVIDIA",
+          "Intel",
+          "AMD"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "全球通路",
+        "text": "逾 50 國 1,600 家以上 IT 通路經銷商",
+        "entities": []
+      },
+      {
+        "role": "電商平台",
+        "text": "[[Amazon]] 等全球電商 — ASUS/ROG 品牌直銷",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "role": "AI 資料中心",
+        "text": "企業及雲端服務商 — [[NVIDIA]] 認證 AI 伺服器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "電競社群",
+        "text": "全球電競玩家 — ROG 品牌完整電競生態系",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 處理器平台",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "role": "代工",
+        "text": "[[和碩]] — 筆電/桌機 EMS 代工",
+        "entities": [
+          "和碩"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]]、[[LG Display]] — 顯示面板",
+        "entities": [
+          "友達",
+          "群創",
+          "LG Display"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "PC品牌競爭者",
+        "text": "[[宏碁]]、[[微星]]、[[技嘉]]、[[Dell]]、[[HP]]、[[Lenovo]]",
+        "entities": [
+          "宏碁",
+          "微星",
+          "技嘉",
+          "Dell",
+          "HP",
+          "Lenovo"
+        ],
+        "basis": "curated_pc_brand_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ASUSTeK Computer",
+      "type": "international_company_or_term",
+      "wikilink": "ASUSTeK Computer"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "LG Display",
+      "type": "international_company_or_term",
+      "wikilink": "LG Display"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華碩電腦 (2357，[[ASUSTeK Computer]]) 成立於 1989 年，總部位於台北，為全球頂級 PC 品牌暨 [[AI 伺服器]]解決方案供應商。公司擁有逾 5,000 名研發人員及遍布全球 98 國超過 1,000 個服務中心，產品線橫跨消費及企業市場。\n\n消費事業涵蓋：筆記型電腦、桌上型電腦、主機板、顯示卡 (ROG/TUF Gaming/ASUS 品牌)、顯示器、路由器及周邊。電競品牌 ROG (Republic of Gamers) 為全球電競市場領導品牌。企業事業方面，華碩積極布局 [[AI 伺服器]]，推出搭載 [[NVIDIA]] GB300 NVL72 之 AI POD 平台，並拓展 [[AIoT]] 工業解決方案、車用電子及醫療機器人等新領域。旗下重要子公司包括[[和碩]] (4938，[[和碩]]，EMS 代工) 及亞旭電腦 (Askey，網通)。",
+    "supply_chain_md": "**上游 (晶片與關鍵零組件):**\n- **CPU:** [[Intel]]、[[AMD]] — 筆電/桌機/伺服器處理器\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD\n- **面板:** [[友達]]、[[群創]]、[[LG Display]] — 筆電/顯示器面板\n\n**中游 (品牌設計與代工製造):**\n- **自有品牌:** **華碩** (ASUS/ROG/TUF/ProArt 品牌設計行銷)\n- **AI 伺服器:** **華碩** ([[NVIDIA]] GB300 NVL72 AI POD 平台)\n- **代工夥伴:** [[和碩]] — 筆電/桌機 EMS 代工\n\n**下游 (全球通路與企業客戶):**\n- **全球通路:** 逾 50 國 1,600 家以上通路夥伴\n- **電商平台:** [[Amazon]] 等全球電商\n- **企業客戶:** AI 資料中心建置商 — AI 伺服器方案\n- **合作夥伴:** [[NVIDIA]]、[[Intel]]、[[AMD]] — 策略技術合作",
+    "customers_suppliers_md": "### 主要客戶\n- **全球通路:** 逾 50 國 1,600 家以上 IT 通路經銷商\n- **電商平台:** [[Amazon]] 等全球電商 — ASUS/ROG 品牌直銷\n- **AI 資料中心:** 企業及雲端服務商 — [[NVIDIA]] 認證 AI 伺服器\n- **電競社群:** 全球電競玩家 — ROG 品牌完整電競生態系\n\n### 主要供應商\n- **CPU:** [[Intel]]、[[AMD]] — 處理器平台\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU\n- **代工:** [[和碩]] — 筆電/桌機 EMS 代工\n- **面板:** [[友達]]、[[群創]]、[[LG Display]] — 顯示面板",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $737.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     13.28 |       12.58 |      0.68 | 1.91 |     13.50 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    738904.79 |    587087.10 |    482314.43 |\n| Gross Profit            |    111615.50 |    103470.50 |     72394.14 |\n| Gross Margin (%)        |        15.11 |        17.62 |        15.01 |\n| Selling & Marketing Exp |     40292.33 |     35417.82 |     29186.66 |\n| R&D Exp                 |     24846.80 |     22036.37 |     21638.94 |\n| General & Admin Exp     |     11388.14 |     11359.25 |      9813.25 |\n| Operating Income        |     35088.22 |     34657.06 |     11755.30 |\n| Operating Margin (%)    |         4.75 |         5.90 |         2.44 |\n| Net Income              |     44557.82 |     31393.86 |     15928.28 |\n| Net Margin (%)          |         6.03 |         5.35 |         3.30 |\n| Op Cash Flow            |     30330.33 |      8030.37 |     52087.11 |\n| Investing Cash Flow     |     -8182.89 |     -3190.38 |      2206.41 |\n| Financing Cash Flow     |    -23220.98 |      4805.72 |    -45240.40 |\n| CAPEX                   |     -2831.69 |     -2562.44 |     -2032.25 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    208369.73 |    202923.94 |    200281.37 |    188006.26 |\n| Gross Profit            |     30970.54 |     32337.31 |     28709.27 |     25965.79 |\n| Gross Margin (%)        |        14.86 |        15.94 |        14.33 |        13.81 |\n| Selling & Marketing Exp |      8988.32 |     12087.39 |      9731.41 |      9296.79 |\n| R&D Exp                 |      6763.75 |      7518.44 |      6076.51 |      5695.14 |\n| General & Admin Exp     |      2976.44 |      3174.71 |      2701.05 |      2681.99 |\n| Operating Income        |     12242.03 |      9556.78 |     10200.30 |      8291.87 |\n| Operating Margin (%)    |         5.88 |         4.71 |         5.09 |         4.41 |\n| Net Income              |      9797.02 |     11405.32 |     10556.22 |      9805.69 |\n| Net Margin (%)          |         4.70 |         5.62 |         5.27 |         5.22 |\n| Op Cash Flow            |    -46595.73 |     22926.79 |    -17040.75 |     11237.61 |\n| Investing Cash Flow     |      1351.20 |       102.28 |      2127.04 |     -9806.97 |\n| Financing Cash Flow     |     10835.99 |    -10749.86 |     -8871.25 |     -6453.99 |\n| CAPEX                   |      -552.01 |     -1046.46 |      -707.54 |      -436.24 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

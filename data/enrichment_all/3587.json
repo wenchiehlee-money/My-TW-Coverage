@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3587",
+  "company_name": "閎康",
+  "title": "3587 - 閎康",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/3587_閎康.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "15,013 百萬台幣",
+    "enterprise_value": "13,903 百萬台幣"
+  },
+  "business": {
+    "summary": "閎康科技股份有限公司 (3587，MA-tek) 為亞洲領先的第三方半導體檢測分析實驗室。主要提供三大類服務：(1) 材料分析 (MA) — 佔營收比重最高，受惠於先進製程 (3nm/2nm) 與化合物半導體研發；(2) 故障分析 (FA) — 協助 IC 設計與晶圓廠找出失效原因；(3) 可靠度分析 (RA) — 車用電子與封裝測試驗證。全球布局完整，於台灣、中國 (上海/廈門/深圳)、日本 (名古屋/熊本/北海道) 設有實驗室，就近服務[[台積電]]等半導體供應鏈。",
+    "entities": [
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (檢測設備)",
+        "text": "**上游 (檢測設備):**",
+        "entities": []
+      },
+      {
+        "category": "分析儀器",
+        "text": "[[Thermo Fisher]]、[[JEOL]] — 高階分析設備",
+        "entities": [
+          "Thermo Fisher",
+          "JEOL"
+        ]
+      },
+      {
+        "category": "樣品製備",
+        "text": "FIB (聚焦離子束) 設備供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (第三方檢測分析)",
+        "text": "**中游 (第三方檢測分析):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**閎康** — 材料分析 (MA)、故障分析 (FA)、可靠度分析 (RA) 服務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體產業鏈)",
+        "text": "**下游 (半導體產業鏈):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] — 最大客戶，日本熊本廠就近設立實驗室",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "IC 設計",
+        "text": "[[聯發科]]、[[NVIDIA]] — 晶片分析",
+        "entities": [
+          "聯發科",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "車用半導體",
+        "text": "車用 IC 設計與封測廠 — 可靠度驗證",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] — 最大客戶，熊本廠就近服務",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "IC 設計",
+        "text": "[[聯發科]]、[[NVIDIA]] — 故障分析與材料分析",
+        "entities": [
+          "聯發科",
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "車用半導體",
+        "text": "車用 IC 設計與封測廠 — 可靠度驗證",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "分析設備",
+        "text": "[[Thermo Fisher]]、[[JEOL]] — 高階分析儀器",
+        "entities": [
+          "Thermo Fisher",
+          "JEOL"
+        ]
+      },
+      {
+        "role": "FIB 設備",
+        "text": "聚焦離子束設備供應商",
+        "entities": []
+      },
+      {
+        "role": "實驗室耗材",
+        "text": "分析用化學試劑與耗材",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Thermo Fisher",
+      "type": "international_company_or_term",
+      "wikilink": "Thermo Fisher"
+    },
+    {
+      "name": "JEOL",
+      "type": "international_company_or_term",
+      "wikilink": "JEOL"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "閎康科技股份有限公司 (3587，MA-tek) 為亞洲領先的第三方半導體檢測分析實驗室。主要提供三大類服務：(1) 材料分析 (MA) — 佔營收比重最高，受惠於先進製程 (3nm/2nm) 與化合物半導體研發；(2) 故障分析 (FA) — 協助 IC 設計與晶圓廠找出失效原因；(3) 可靠度分析 (RA) — 車用電子與封裝測試驗證。全球布局完整，於台灣、中國 (上海/廈門/深圳)、日本 (名古屋/熊本/北海道) 設有實驗室，就近服務[[台積電]]等半導體供應鏈。",
+    "supply_chain_md": "**上游 (檢測設備):**\n- **分析儀器:** [[Thermo Fisher]]、[[JEOL]] — 高階分析設備\n- **樣品製備:** FIB (聚焦離子束) 設備供應商\n\n**中游 (第三方檢測分析):**\n- **閎康** — 材料分析 (MA)、故障分析 (FA)、可靠度分析 (RA) 服務\n\n**下游 (半導體產業鏈):**\n- **晶圓代工:** [[台積電]] — 最大客戶，日本熊本廠就近設立實驗室\n- **IC 設計:** [[聯發科]]、[[NVIDIA]] — 晶片分析\n- **車用半導體:** 車用 IC 設計與封測廠 — 可靠度驗證",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] — 最大客戶，熊本廠就近服務\n- **IC 設計:** [[聯發科]]、[[NVIDIA]] — 故障分析與材料分析\n- **車用半導體:** 車用 IC 設計與封測廠 — 可靠度驗證\n\n### 主要供應商\n- **分析設備:** [[Thermo Fisher]]、[[JEOL]] — 高階分析儀器\n- **FIB 設備:** 聚焦離子束設備供應商\n- **實驗室耗材:** 分析用化學試劑與耗材",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $208.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     28.44 |       13.74 |      2.54 | 2.75 |      6.76 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5545.35 |      5110.39 |      4809.00 |\n| Gross Profit            |      1581.13 |      1681.07 |      1697.04 |\n| Gross Margin (%)        |        28.51 |        32.90 |        35.29 |\n| Selling & Marketing Exp |       215.58 |       225.59 |       229.16 |\n| R&D Exp                 |       235.24 |       289.65 |       265.90 |\n| General & Admin Exp     |       492.83 |       455.43 |       389.90 |\n| Operating Income        |       637.48 |       710.40 |       812.07 |\n| Operating Margin (%)    |        11.50 |        13.90 |        16.89 |\n| Net Income              |       407.10 |       688.12 |       686.21 |\n| Net Margin (%)          |         7.34 |        13.47 |        14.27 |\n| Op Cash Flow            |      1835.79 |      1803.10 |      1842.37 |\n| Investing Cash Flow     |     -1086.98 |     -1682.80 |     -1337.35 |\n| Financing Cash Flow     |       -98.32 |      -303.49 |      -112.25 |\n| CAPEX                   |     -1089.84 |     -1813.76 |     -1239.86 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1424.42 |      1472.38 |      1461.15 |      1373.52 |\n| Gross Profit            |       439.99 |       441.98 |       458.01 |       380.51 |\n| Gross Margin (%)        |        30.89 |        30.02 |        31.35 |        27.70 |\n| Selling & Marketing Exp |        58.08 |        56.22 |        53.04 |        54.20 |\n| R&D Exp                 |        59.64 |        70.84 |        59.23 |        56.68 |\n| General & Admin Exp     |       132.75 |       129.61 |       130.56 |       123.45 |\n| Operating Income        |       189.52 |       185.30 |       215.17 |       146.18 |\n| Operating Margin (%)    |        13.31 |        12.59 |        14.73 |        10.64 |\n| Net Income              |       149.98 |       123.13 |       141.67 |        91.89 |\n| Net Margin (%)          |        10.53 |         8.36 |         9.70 |         6.69 |\n| Op Cash Flow            |       509.19 |       543.65 |       379.09 |       545.99 |\n| Investing Cash Flow     |      -269.86 |      -105.58 |      -183.54 |      -264.65 |\n| Financing Cash Flow     |       364.61 |       -84.96 |      -176.21 |        58.54 |\n| CAPEX                   |       -69.92 |      -108.83 |      -182.00 |      -266.41 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

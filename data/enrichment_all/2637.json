@@ -1,0 +1,203 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2637",
+  "company_name": "慧洋-KY",
+  "title": "2637 - 慧洋-KY",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 散裝航運/2637_慧洋-KY.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "60,011 百萬台幣",
+    "enterprise_value": "60,824 百萬台幣"
+  },
+  "business": {
+    "summary": "慧洋海運集團 (2637，Wisdom Marine Group，KY) 是台灣規模最大的散裝航運船東，專注於中小型散裝船 (Handy/Supramax) 市場。營運模式以長約出租 (Time Charter) 為主，收益相對穩定。船隊超過 130 艘，維持業界較低的平均船齡。慧洋長期與日本造船廠合作，持續訂購高規格環保節能船，以符合國際海事組織 (IMO) 的 EEXI/CII 環保法規。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶建造)",
+        "text": "**上游 (船舶建造):**",
+        "entities": []
+      },
+      {
+        "category": "日本造船廠",
+        "text": "[[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造環保節能散裝船",
+        "entities": [
+          "今治造船",
+          "常石造船",
+          "大島造船",
+          "名村造船"
+        ]
+      },
+      {
+        "category": "船舶融資",
+        "text": "國際銀行與租賃公司",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (船東與船舶管理)",
+        "text": "**中游 (船東與船舶管理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**慧洋** — 船舶持有者與管理人，提供 Time Charter 出租服務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (租家)",
+        "text": "**下游 (租家):**",
+        "entities": []
+      },
+      {
+        "category": "日本航商",
+        "text": "[[NYK]]、[[MOL]] — 日本大型航運集團",
+        "entities": [
+          "NYK",
+          "MOL"
+        ]
+      },
+      {
+        "category": "歐洲航商",
+        "text": "[[Norden]] — 丹麥航運",
+        "entities": [
+          "Norden"
+        ]
+      },
+      {
+        "category": "大宗商品貿易商",
+        "text": "[[Cargill]]、[[Viterra]] — 穀物、煤炭、鐵礦砂運輸",
+        "entities": [
+          "Cargill",
+          "Viterra"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日本航商",
+        "text": "[[NYK]]、[[MOL]] — 長期租賃合作",
+        "entities": [
+          "NYK",
+          "MOL"
+        ]
+      },
+      {
+        "role": "歐洲航商",
+        "text": "[[Norden]] — 丹麥航運",
+        "entities": [
+          "Norden"
+        ]
+      },
+      {
+        "role": "大宗商品貿易商",
+        "text": "[[Cargill]]、[[Viterra]] ([[Glencore]]旗下) — 穀物與礦產運輸",
+        "entities": [
+          "Cargill",
+          "Viterra",
+          "Glencore"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "日本造船廠",
+        "text": "[[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造船舶",
+        "entities": [
+          "今治造船",
+          "常石造船",
+          "大島造船",
+          "名村造船"
+        ]
+      },
+      {
+        "role": "船舶融資",
+        "text": "國際銀行與租賃公司",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "今治造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "今治造船"
+    },
+    {
+      "name": "常石造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "常石造船"
+    },
+    {
+      "name": "大島造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大島造船"
+    },
+    {
+      "name": "名村造船",
+      "type": "taiwan_company_or_term",
+      "wikilink": "名村造船"
+    },
+    {
+      "name": "NYK",
+      "type": "international_company_or_term",
+      "wikilink": "NYK"
+    },
+    {
+      "name": "MOL",
+      "type": "international_company_or_term",
+      "wikilink": "MOL"
+    },
+    {
+      "name": "Norden",
+      "type": "international_company_or_term",
+      "wikilink": "Norden"
+    },
+    {
+      "name": "Cargill",
+      "type": "international_company_or_term",
+      "wikilink": "Cargill"
+    },
+    {
+      "name": "Viterra",
+      "type": "international_company_or_term",
+      "wikilink": "Viterra"
+    },
+    {
+      "name": "Glencore",
+      "type": "international_company_or_term",
+      "wikilink": "Glencore"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "慧洋海運集團 (2637，Wisdom Marine Group，KY) 是台灣規模最大的散裝航運船東，專注於中小型散裝船 (Handy/Supramax) 市場。營運模式以長約出租 (Time Charter) 為主，收益相對穩定。船隊超過 130 艘，維持業界較低的平均船齡。慧洋長期與日本造船廠合作，持續訂購高規格環保節能船，以符合國際海事組織 (IMO) 的 EEXI/CII 環保法規。",
+    "supply_chain_md": "**上游 (船舶建造):**\n- **日本造船廠:** [[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造環保節能散裝船\n- **船舶融資:** 國際銀行與租賃公司\n\n**中游 (船東與船舶管理):**\n- **慧洋** — 船舶持有者與管理人，提供 Time Charter 出租服務\n\n**下游 (租家):**\n- **日本航商:** [[NYK]]、[[MOL]] — 日本大型航運集團\n- **歐洲航商:** [[Norden]] — 丹麥航運\n- **大宗商品貿易商:** [[Cargill]]、[[Viterra]] — 穀物、煤炭、鐵礦砂運輸",
+    "customers_suppliers_md": "### 主要客戶 (租家)\n- **日本航商:** [[NYK]]、[[MOL]] — 長期租賃合作\n- **歐洲航商:** [[Norden]] — 丹麥航運\n- **大宗商品貿易商:** [[Cargill]]、[[Viterra]] ([[Glencore]]旗下) — 穀物與礦產運輸\n\n### 主要供應商\n- **日本造船廠:** [[今治造船]]、[[常石造船]]、[[大島造船]]、[[名村造船]] — 新造船舶\n- **船舶融資:** 國際銀行與租賃公司",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $78.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.20 |       11.58 |    101.83 | 1.14 |    216.17 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       541.96 |       634.43 |       545.53 |\n| Gross Profit            |       135.53 |       216.75 |       116.91 |\n| Gross Margin (%)        |        25.01 |        34.16 |        21.43 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |         5.02 |         5.15 |         5.05 |\n| Operating Income        |       129.55 |       211.32 |       111.58 |\n| Operating Margin (%)    |        23.90 |        33.31 |        20.45 |\n| Net Income              |       126.25 |       187.84 |       104.97 |\n| Net Margin (%)          |        23.30 |        29.61 |        19.24 |\n| Op Cash Flow            |       234.57 |       286.36 |       206.29 |\n| Investing Cash Flow     |        66.82 |       -42.47 |       -13.80 |\n| Financing Cash Flow     |      -288.45 |      -209.69 |      -283.95 |\n| CAPEX                   |       -29.19 |       -24.68 |       -22.96 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       163.81 |       148.49 |       122.96 |       106.70 |\n| Gross Profit            |        61.78 |        44.74 |        21.80 |         7.21 |\n| Gross Margin (%)        |        37.71 |        30.13 |        17.73 |         6.76 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |         1.69 |         1.29 |         1.04 |         1.00 |\n| Operating Income        |        59.97 |        43.15 |        20.34 |         6.09 |\n| Operating Margin (%)    |        36.61 |        29.06 |        16.54 |         5.71 |\n| Net Income              |        67.86 |        49.44 |        14.40 |        -5.45 |\n| Net Margin (%)          |        41.43 |        33.29 |        11.71 |        -5.11 |\n| Op Cash Flow            |        85.20 |        71.65 |        48.97 |        28.74 |\n| Investing Cash Flow     |         4.22 |        35.69 |        30.49 |        -3.58 |\n| Financing Cash Flow     |       -33.46 |       -98.50 |       -67.98 |       -88.50 |\n| CAPEX                   |        -5.03 |        -8.49 |        -9.36 |        -6.31 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

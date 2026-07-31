@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6414",
+  "company_name": "樺漢",
+  "title": "6414_樺漢",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/6414_樺漢.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "63,679 百萬台幣",
+    "enterprise_value": "110,505 百萬台幣"
+  },
+  "business": {
+    "summary": "樺漢科技股份有限公司 (6414，Ennoconn) 是[[鴻海]]集團旗下的[[工業電腦]]([[IPC]])與系統整合大廠。樺漢有別於傳統[[IPC]]硬體製造，近年成功轉型為提供「智慧解決方案即服務」(ESaaS)的雲地整合服務商。公司業務涵蓋工業[[物聯網]](IIoT)、智慧城市、智慧零售及智慧工廠之軟硬體整合與雲端運算服務。憑藉[[鴻海]]集團的龐大製造資源與國際併購策略(如德國Kontron)，並結盟大股東[[Google]]的雲端技術(GCP)，樺漢目前已是全球智慧零售與邊緣運算系統整合的領導者。",
+    "entities": [
+      "鴻海",
+      "工業電腦",
+      "IPC",
+      "物聯網",
+      "Google"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 處理器/晶片組(如[[Intel]]/[[AMD]]/[[NVIDIA]])、[[記憶體]]、面板、[[PCB]]及機構件製造商。",
+        "entities": [
+          "Intel",
+          "AMD",
+          "NVIDIA",
+          "記憶體",
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **樺漢科技** ([[工業電腦]]硬體設計製造、[[物聯網]]整合系統及ESaaS雲端管理服務)。",
+        "entities": [
+          "工業電腦",
+          "物聯網"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 各垂直領域之系統整合商([[SI]])、企業IT部門、智慧零售通路及博弈/金融設備業者。",
+        "entities": [
+          "SI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "NCR Voyix(全球零售/金融設備龍頭)、歐洲鐵路局、以及各領域的跨國企業客戶。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Google]]([[雲端服務]]與[[AI]]技術供應商)、[[鴻海]](提供全球DMS製造代工支援)及各大晶片廠。",
+        "entities": [
+          "Google",
+          "雲端服務",
+          "AI",
+          "鴻海"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[研華]]",
+        "entities": [
+          "研華"
+        ],
+        "basis": "reciprocal_competitor_from:2395",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[威強電]]",
+        "entities": [
+          "威強電"
+        ],
+        "basis": "reciprocal_competitor_from:3022",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "SI",
+      "type": "international_company_or_term",
+      "wikilink": "SI"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "威強電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威強電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "樺漢科技股份有限公司 (6414，Ennoconn) 是[[鴻海]]集團旗下的[[工業電腦]]([[IPC]])與系統整合大廠。樺漢有別於傳統[[IPC]]硬體製造，近年成功轉型為提供「智慧解決方案即服務」(ESaaS)的雲地整合服務商。公司業務涵蓋工業[[物聯網]](IIoT)、智慧城市、智慧零售及智慧工廠之軟硬體整合與雲端運算服務。憑藉[[鴻海]]集團的龐大製造資源與國際併購策略(如德國Kontron)，並結盟大股東[[Google]]的雲端技術(GCP)，樺漢目前已是全球智慧零售與邊緣運算系統整合的領導者。",
+    "supply_chain_md": "*   **上游**: 處理器/晶片組(如[[Intel]]/[[AMD]]/[[NVIDIA]])、[[記憶體]]、面板、[[PCB]]及機構件製造商。\n*   **中游**: **樺漢科技** ([[工業電腦]]硬體設計製造、[[物聯網]]整合系統及ESaaS雲端管理服務)。\n*   **下游**: 各垂直領域之系統整合商([[SI]])、企業IT部門、智慧零售通路及博弈/金融設備業者。",
+    "customers_suppliers_md": "### 主要客戶\n*   NCR Voyix(全球零售/金融設備龍頭)、歐洲鐵路局、以及各領域的跨國企業客戶。\n\n### 主要供應商\n*   [[Google]]([[雲端服務]]與[[AI]]技術供應商)、[[鴻海]](提供全球DMS製造代工支援)及各大晶片廠。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $403.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     20.16 |       13.39 |      0.41 | 2.23 |     13.61 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    142289.67 |    146383.72 |    121640.98 |\n| Gross Profit            |     29178.49 |     28831.83 |     23598.92 |\n| Gross Margin (%)        |        20.51 |        19.70 |        19.40 |\n| Selling & Marketing Exp |      4331.52 |      4182.49 |      3408.77 |\n| R&D Exp                 |     10839.35 |     10199.35 |      9123.48 |\n| General & Admin Exp     |      7929.89 |      7441.47 |      5661.89 |\n| Operating Income        |      6077.73 |      7008.52 |      5404.79 |\n| Operating Margin (%)    |         4.27 |         4.79 |         4.44 |\n| Net Income              |      3213.31 |      2739.78 |      2260.96 |\n| Net Margin (%)          |         2.26 |         1.87 |         1.86 |\n| Op Cash Flow            |     11420.87 |     14101.76 |      7431.75 |\n| Investing Cash Flow     |     -3567.55 |     -7062.86 |     -4858.84 |\n| Financing Cash Flow     |     -6988.32 |     -3803.54 |     -4430.43 |\n| CAPEX                   |     -5119.58 |     -4784.12 |     -2591.70 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     39513.41 |     33617.46 |     34692.90 |     34465.91 |\n| Gross Profit            |      8152.93 |      7290.38 |      6319.40 |      7415.78 |\n| Gross Margin (%)        |        20.63 |        21.69 |        18.22 |        21.52 |\n| Selling & Marketing Exp |      1140.30 |       955.88 |      1190.12 |      1045.21 |\n| R&D Exp                 |      1696.06 |      3032.41 |      3238.87 |      2872.02 |\n| General & Admin Exp     |      2089.94 |      1879.03 |      1876.11 |      2084.81 |\n| Operating Income        |      3226.64 |      1423.06 |        14.30 |      1413.74 |\n| Operating Margin (%)    |         8.17 |         4.23 |         0.04 |         4.10 |\n| Net Income              |       870.27 |       950.71 |       564.99 |       827.34 |\n| Net Margin (%)          |         2.20 |         2.83 |         1.63 |         2.40 |\n| Op Cash Flow            |      7107.35 |      3602.76 |       181.11 |       529.64 |\n| Investing Cash Flow     |     -1124.89 |      -562.68 |     -1194.38 |      -685.59 |\n| Financing Cash Flow     |       -59.60 |     -2949.92 |       540.36 |     -4519.17 |\n| CAPEX                   |     -1462.63 |     -1616.58 |     -1043.15 |      -997.22 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

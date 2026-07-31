@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2227",
+  "company_name": "裕日車",
+  "title": "2227 - 裕日車",
+  "source_md": "Pilot_Reports/汽車 - 整車組裝、修理及技術服務/2227_裕日車.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": "15,240 百萬台幣",
+    "enterprise_value": "9,532 百萬台幣"
+  },
+  "business": {
+    "summary": "裕隆日產汽車 (2227，Yulon [[Nissan]] Motor) 為[[裕隆汽車]]與[[日產汽車]] ([[Nissan]]，持股約 40%) 之合資企業，獨家負責 [[Nissan]] 及[[Infiniti]]品牌在台灣之行銷與經銷。整車製造委由母公司[[裕隆汽車]]苗栗三義廠組裝。業外收益中，中國[[東風日產]]持股權益為重要獲利來源。主力車款涵蓋 [[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 純電跑旅及新導入之 [[Nissan SAKURA]] 純電輕自動車。",
+    "entities": [
+      "Nissan",
+      "裕隆汽車",
+      "日產汽車",
+      "Infiniti",
+      "東風日產",
+      "KICKS",
+      "X-TRAIL",
+      "ARIYA",
+      "Nissan SAKURA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌與製造)",
+        "text": "**上游 (品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "品牌授權",
+        "text": "[[日產汽車]] — [[Nissan]]/[[Infiniti]] 技術授權與進口車供應",
+        "entities": [
+          "日產汽車",
+          "Nissan",
+          "Infiniti"
+        ]
+      },
+      {
+        "category": "在台製造",
+        "text": "[[裕隆汽車]] — 整車組裝代工",
+        "entities": [
+          "裕隆汽車"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (行銷代理)",
+        "text": "**中游 (行銷代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**裕日車** ([[Nissan]]/[[Infiniti]] 品牌行銷、車型導入、經銷通路管理、零配件外銷)",
+        "entities": [
+          "Nissan",
+          "Infiniti"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "台灣消費者",
+        "text": "[[KICKS]]、[[X-TRAIL]]、[[ARIYA]]、[[Nissan SAKURA]] 車主",
+        "entities": [
+          "KICKS",
+          "X-TRAIL",
+          "ARIYA",
+          "Nissan SAKURA"
+        ]
+      },
+      {
+        "category": "中國市場",
+        "text": "[[東風日產]] — 業外權益法收益",
+        "entities": [
+          "東風日產"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台灣消費者",
+        "text": "[[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 車主",
+        "entities": [
+          "KICKS",
+          "X-TRAIL",
+          "ARIYA"
+        ]
+      },
+      {
+        "role": "企業車隊",
+        "text": "[[Nissan]] 商用與乘用車隊",
+        "entities": [
+          "Nissan"
+        ]
+      },
+      {
+        "role": "中國市場",
+        "text": "[[東風日產]] — 業外權益法收益",
+        "entities": [
+          "東風日產"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "品牌授權",
+        "text": "[[日產汽車]] — 技術授權、進口車與零件",
+        "entities": [
+          "日產汽車"
+        ]
+      },
+      {
+        "role": "在台製造",
+        "text": "[[裕隆汽車]] — 整車組裝代工",
+        "entities": [
+          "裕隆汽車"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "裕隆汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆汽車"
+    },
+    {
+      "name": "日產汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日產汽車"
+    },
+    {
+      "name": "Infiniti",
+      "type": "international_company_or_term",
+      "wikilink": "Infiniti"
+    },
+    {
+      "name": "東風日產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東風日產"
+    },
+    {
+      "name": "KICKS",
+      "type": "international_company_or_term",
+      "wikilink": "KICKS"
+    },
+    {
+      "name": "X-TRAIL",
+      "type": "international_company_or_term",
+      "wikilink": "X-TRAIL"
+    },
+    {
+      "name": "ARIYA",
+      "type": "international_company_or_term",
+      "wikilink": "ARIYA"
+    },
+    {
+      "name": "Nissan SAKURA",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan SAKURA"
+    },
+    {
+      "name": "裕隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "裕隆日產汽車 (2227，Yulon [[Nissan]] Motor) 為[[裕隆汽車]]與[[日產汽車]] ([[Nissan]]，持股約 40%) 之合資企業，獨家負責 [[Nissan]] 及[[Infiniti]]品牌在台灣之行銷與經銷。整車製造委由母公司[[裕隆汽車]]苗栗三義廠組裝。業外收益中，中國[[東風日產]]持股權益為重要獲利來源。主力車款涵蓋 [[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 純電跑旅及新導入之 [[Nissan SAKURA]] 純電輕自動車。",
+    "supply_chain_md": "**上游 (品牌與製造):**\n- **品牌授權:** [[日產汽車]] — [[Nissan]]/[[Infiniti]] 技術授權與進口車供應\n- **在台製造:** [[裕隆汽車]] — 整車組裝代工\n\n**中游 (行銷代理):**\n- **裕日車** ([[Nissan]]/[[Infiniti]] 品牌行銷、車型導入、經銷通路管理、零配件外銷)\n\n**下游 (終端客戶):**\n- **台灣消費者:** [[KICKS]]、[[X-TRAIL]]、[[ARIYA]]、[[Nissan SAKURA]] 車主\n- **中國市場:** [[東風日產]] — 業外權益法收益",
+    "customers_suppliers_md": "### 主要客戶\n- **台灣消費者:** [[KICKS]] e-POWER、[[X-TRAIL]] e-POWER、[[ARIYA]] 車主\n- **企業車隊:** [[Nissan]] 商用與乘用車隊\n- **中國市場:** [[東風日產]] — 業外權益法收益\n\n### 主要供應商\n- **品牌授權:** [[日產汽車]] — 技術授權、進口車與零件\n- **在台製造:** [[裕隆汽車]] — 整車組裝代工",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $50.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     53.98 |        2.52 |      1.10 | 0.82 |    -20.54 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     15132.07 |     23132.02 |     26136.20 |\n| Gross Profit            |      1432.97 |      2658.11 |      3055.16 |\n| Gross Margin (%)        |         9.47 |        11.49 |        11.69 |\n| Selling & Marketing Exp |      1353.72 |      1832.33 |      1856.70 |\n| R&D Exp                 |       286.25 |       351.55 |       555.67 |\n| General & Admin Exp     |       405.35 |       412.69 |       521.67 |\n| Operating Income        |      -612.32 |        61.27 |       118.41 |\n| Operating Margin (%)    |        -4.05 |         0.26 |         0.45 |\n| Net Income              |       389.93 |      1670.34 |      1161.03 |\n| Net Margin (%)          |         2.58 |         7.22 |         4.44 |\n| Op Cash Flow            |       169.08 |      -533.66 |      1157.13 |\n| Investing Cash Flow     |       420.22 |       118.30 |      6047.10 |\n| Financing Cash Flow     |     -1216.23 |     -1092.59 |     -2220.49 |\n| CAPEX                   |       -52.64 |       -38.12 |       -42.51 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3159.18 |      3398.65 |      3510.34 |      3670.77 |\n| Gross Profit            |       350.02 |       339.10 |       307.76 |       304.26 |\n| Gross Margin (%)        |        11.08 |         9.98 |         8.77 |         8.29 |\n| Selling & Marketing Exp |       321.00 |       325.75 |       288.16 |       356.83 |\n| R&D Exp                 |        61.08 |        75.41 |        87.82 |        61.32 |\n| General & Admin Exp     |       100.01 |        98.90 |       105.07 |        97.86 |\n| Operating Income        |      -132.06 |      -160.93 |      -173.29 |      -211.75 |\n| Operating Margin (%)    |        -4.18 |        -4.74 |        -4.94 |        -5.77 |\n| Net Income              |      -266.14 |       462.24 |       247.25 |      -163.51 |\n| Net Margin (%)          |        -8.42 |        13.60 |         7.04 |        -4.45 |\n| Op Cash Flow            |      -557.09 |      -428.40 |      1017.51 |       -24.00 |\n| Investing Cash Flow     |        12.94 |        38.09 |       206.64 |        40.18 |\n| Financing Cash Flow     |       -11.72 |       -11.69 |     -1181.18 |       -11.72 |\n| CAPEX                   |        -7.66 |       -15.05 |       -21.54 |        -5.81 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2380",
+  "company_name": "虹光",
+  "title": "2380 - 虹光",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 印表機、傳真機、掃瞄器、多功能事務機、投影機/2380_虹光.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "312 百萬台幣",
+    "enterprise_value": "1,748 百萬台幣"
+  },
+  "business": {
+    "summary": "虹光精密 (2380，[[Avision]]) 成立於 1991 年，總部位於新竹科學園區，為專業數位辦公設備設計製造商。公司設有德國、美國、中國及巴西等海外據點，產品行銷全球。總部位於[[新竹科學園區]]。\n\n核心產品涵蓋：(1) 文件掃描器：高速饋紙式 (ADF)、平台式、攜帶式及網路掃描器；(2) 多功能事務機/[[印表機]]；(3) 網路辦公設備；(4) 醫療級馬達模組：高精度影像及色彩讀取器之控制器與馬達模組，應用於[[醫療設備]]領域。另透過子公司從事 IC 晶片設計、開發及銷售。公司以 OEM/ODM 模式為國際辦公設備品牌提供掃描器及印表機代工服務。",
+    "entities": [
+      "Avision",
+      "新竹科學園區",
+      "印表機",
+      "醫療設備"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學元件與電子零件)",
+        "text": "**上游 (光學元件與電子零件):**",
+        "entities": []
+      },
+      {
+        "category": "影像感測",
+        "text": "CIS (接觸式影像感測器) 模組",
+        "entities": []
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "掃描用光學鏡頭及 LED 光源",
+        "entities": []
+      },
+      {
+        "category": "IC 晶片",
+        "text": "影像處理 IC 及馬達控制 IC",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "塑膠射出外殼、饋紙機構及滾輪",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (數位辦公設備設計製造)",
+        "text": "**中游 (數位辦公設備設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "文件掃描器",
+        "text": "**虹光** (ADF/平台/攜帶/網路掃描器)",
+        "entities": []
+      },
+      {
+        "category": "多功能機",
+        "text": "**虹光** (多功能事務機及印表機)",
+        "entities": []
+      },
+      {
+        "category": "醫療模組",
+        "text": "**虹光** (醫療級馬達及影像讀取模組)",
+        "entities": []
+      },
+      {
+        "category": "IC 設計",
+        "text": "子公司 (掃描器/印表機專用 IC 晶片)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (辦公設備品牌與通路)",
+        "text": "**下游 (辦公設備品牌與通路):**",
+        "entities": []
+      },
+      {
+        "category": "OEM/ODM",
+        "text": "國際辦公設備品牌 — 掃描器/印表機代工",
+        "entities": []
+      },
+      {
+        "category": "自有品牌",
+        "text": "Avision 品牌掃描器 — 全球通路銷售",
+        "entities": []
+      },
+      {
+        "category": "醫療客戶",
+        "text": "醫療設備廠 — 精密馬達模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "OEM 代工",
+        "text": "國際辦公設備品牌如 [[Xerox]]、[[Kodak Alaris]] — 掃描器 ODM 代工",
+        "entities": [
+          "Xerox",
+          "Kodak Alaris"
+        ]
+      },
+      {
+        "role": "自有品牌",
+        "text": "[[Avision]] 品牌掃描器 — 全球 IT 通路經銷商",
+        "entities": [
+          "Avision"
+        ]
+      },
+      {
+        "role": "醫療設備",
+        "text": "醫療設備廠 — 高精度馬達及影像讀取模組",
+        "entities": []
+      },
+      {
+        "role": "政府文件",
+        "text": "政府機關及企業 — 大量文件數位化設備",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "影像感測",
+        "text": "CIS 接觸式影像感測模組供應商",
+        "entities": []
+      },
+      {
+        "role": "IC 晶片",
+        "text": "影像處理 IC 及馬達控制 IC 廠如 [[瑞昱]]",
+        "entities": [
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "光學元件",
+        "text": "掃描用光學鏡頭及 [[LED]] 光源供應商",
+        "entities": [
+          "LED"
+        ]
+      },
+      {
+        "role": "機構件",
+        "text": "塑膠射出及饋紙機構零件廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Avision",
+      "type": "international_company_or_term",
+      "wikilink": "Avision"
+    },
+    {
+      "name": "新竹科學園區",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹科學園區"
+    },
+    {
+      "name": "印表機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "印表機"
+    },
+    {
+      "name": "醫療設備",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療設備"
+    },
+    {
+      "name": "Xerox",
+      "type": "international_company_or_term",
+      "wikilink": "Xerox"
+    },
+    {
+      "name": "Kodak Alaris",
+      "type": "international_company_or_term",
+      "wikilink": "Kodak Alaris"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "虹光精密 (2380，[[Avision]]) 成立於 1991 年，總部位於新竹科學園區，為專業數位辦公設備設計製造商。公司設有德國、美國、中國及巴西等海外據點，產品行銷全球。總部位於[[新竹科學園區]]。\n\n核心產品涵蓋：(1) 文件掃描器：高速饋紙式 (ADF)、平台式、攜帶式及網路掃描器；(2) 多功能事務機/[[印表機]]；(3) 網路辦公設備；(4) 醫療級馬達模組：高精度影像及色彩讀取器之控制器與馬達模組，應用於[[醫療設備]]領域。另透過子公司從事 IC 晶片設計、開發及銷售。公司以 OEM/ODM 模式為國際辦公設備品牌提供掃描器及印表機代工服務。",
+    "supply_chain_md": "**上游 (光學元件與電子零件):**\n- **影像感測:** CIS (接觸式影像感測器) 模組\n- **光學鏡頭:** 掃描用光學鏡頭及 LED 光源\n- **IC 晶片:** 影像處理 IC 及馬達控制 IC\n- **機構件:** 塑膠射出外殼、饋紙機構及滾輪\n\n**中游 (數位辦公設備設計製造):**\n- **文件掃描器:** **虹光** (ADF/平台/攜帶/網路掃描器)\n- **多功能機:** **虹光** (多功能事務機及印表機)\n- **醫療模組:** **虹光** (醫療級馬達及影像讀取模組)\n- **IC 設計:** 子公司 (掃描器/印表機專用 IC 晶片)\n\n**下游 (辦公設備品牌與通路):**\n- **OEM/ODM:** 國際辦公設備品牌 — 掃描器/印表機代工\n- **自有品牌:** Avision 品牌掃描器 — 全球通路銷售\n- **醫療客戶:** 醫療設備廠 — 精密馬達模組",
+    "customers_suppliers_md": "### 主要客戶\n- **OEM 代工:** 國際辦公設備品牌如 [[Xerox]]、[[Kodak Alaris]] — 掃描器 ODM 代工\n- **自有品牌:** [[Avision]] 品牌掃描器 — 全球 IT 通路經銷商\n- **醫療設備:** 醫療設備廠 — 高精度馬達及影像讀取模組\n- **政府文件:** 政府機關及企業 — 大量文件數位化設備\n\n### 主要供應商\n- **影像感測:** CIS 接觸式影像感測模組供應商\n- **IC 晶片:** 影像處理 IC 及馬達控制 IC 廠如 [[瑞昱]]\n- **光學元件:** 掃描用光學鏡頭及 [[LED]] 光源供應商\n- **機構件:** 塑膠射出及饋紙機構零件廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      7.23 |         N/A |      0.10 | 1.97 |      9.05 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2894.38 |      2547.63 |      1965.19 |\n| Gross Profit            |       883.86 |       322.16 |       388.93 |\n| Gross Margin (%)        |        30.54 |        12.65 |        19.79 |\n| Selling & Marketing Exp |       148.88 |       118.98 |       139.58 |\n| R&D Exp                 |       389.72 |       393.24 |       411.23 |\n| General & Admin Exp     |       279.73 |       215.85 |       207.47 |\n| Operating Income        |        65.53 |      -405.90 |      -369.35 |\n| Operating Margin (%)    |         2.26 |       -15.93 |       -18.79 |\n| Net Income              |        42.94 |      -420.18 |      -404.72 |\n| Net Margin (%)          |         1.48 |       -16.49 |       -20.59 |\n| Op Cash Flow            |       139.86 |        72.25 |       202.31 |\n| Investing Cash Flow     |       -58.23 |       -60.66 |       -73.70 |\n| Financing Cash Flow     |       111.16 |      -183.86 |       -66.56 |\n| CAPEX                   |       -54.80 |       -70.74 |       -69.93 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       794.36 |       763.59 |       725.10 |       611.32 |\n| Gross Profit            |       193.91 |       187.62 |       278.12 |       224.22 |\n| Gross Margin (%)        |        24.41 |        24.57 |        38.36 |        36.68 |\n| Selling & Marketing Exp |        31.56 |        37.03 |        48.87 |        31.42 |\n| R&D Exp                 |        98.94 |        87.60 |       109.11 |        94.08 |\n| General & Admin Exp     |        75.31 |        65.57 |        60.40 |        78.45 |\n| Operating Income        |       -11.91 |        -2.57 |        59.74 |        20.27 |\n| Operating Margin (%)    |        -1.50 |        -0.34 |         8.24 |         3.32 |\n| Net Income              |       -59.94 |       -54.85 |       153.64 |         4.09 |\n| Net Margin (%)          |        -7.55 |        -7.18 |        21.19 |         0.67 |\n| Op Cash Flow            |        78.89 |       -17.98 |        73.02 |         5.93 |\n| Investing Cash Flow     |       -12.43 |       -19.90 |       -12.80 |       -13.10 |\n| Financing Cash Flow     |        15.58 |       124.60 |       -12.04 |       -16.98 |\n| CAPEX                   |       -11.92 |       -16.35 |       -13.44 |       -13.10 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

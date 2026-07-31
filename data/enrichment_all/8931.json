@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8931",
+  "company_name": "大汽電",
+  "title": "8931 - 大汽電",
+  "source_md": "Pilot_Reports/Utilities - Regulated Electric/8931_大汽電.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Utilities",
+    "industry": "Utilities - Regulated Electric",
+    "market_cap": "5,159 百萬台幣",
+    "enterprise_value": "7,655 百萬台幣"
+  },
+  "business": {
+    "summary": "大園汽電共生 (8931) 位於桃園大園工業區，營運天然氣及燃煤[[汽電共生]]廠。供電予[[台電]]及蒸汽予工業區用戶。另營廢棄物焚化處理。營收結構：電力50%、蒸汽37%、廢棄物8%。推動燃煤退役轉天然氣複循環 (2026 Q1完成改造)。上游天然氣來自[[台灣中油]]。",
+    "entities": [
+      "汽電共生",
+      "台電",
+      "台灣中油"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[台灣中油]] — 天然氣; 煤炭進口",
+        "entities": [
+          "台灣中油"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**大汽電** ([[汽電共生]]電廠/蒸汽/廢棄物焚化)",
+        "entities": [
+          "汽電共生"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[台電]] — 購電合約",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "",
+        "text": "大園工業區製造業 — 蒸汽",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "工業區廢棄物 — 焚化處理",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[台電]] — 購電",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "",
+        "text": "大園工業區製造業 — 蒸汽",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "廢棄物處理委託",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[台灣中油]] — 天然氣",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "",
+        "text": "煤炭進口商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "汽電共生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "汽電共生"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大園汽電共生 (8931) 位於桃園大園工業區，營運天然氣及燃煤[[汽電共生]]廠。供電予[[台電]]及蒸汽予工業區用戶。另營廢棄物焚化處理。營收結構：電力50%、蒸汽37%、廢棄物8%。推動燃煤退役轉天然氣複循環 (2026 Q1完成改造)。上游天然氣來自[[台灣中油]]。",
+    "supply_chain_md": "**上游:** [[台灣中油]] — 天然氣; 煤炭進口\n**中游:** **大汽電** ([[汽電共生]]電廠/蒸汽/廢棄物焚化)\n**下游:**\n- [[台電]] — 購電合約\n- 大園工業區製造業 — 蒸汽\n- 工業區廢棄物 — 焚化處理",
+    "customers_suppliers_md": "### 主要客戶\n- [[台電]] — 購電\n- 大園工業區製造業 — 蒸汽\n- 廢棄物處理委託\n\n### 主要供應商\n- [[台灣中油]] — 天然氣\n- 煤炭進口商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $40.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     27.09 |         N/A |      2.02 | 2.38 |     14.49 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2474.73 |      2518.46 |      2717.01 |\n| Gross Profit            |       413.14 |       551.05 |       536.91 |\n| Gross Margin (%)        |        16.69 |        21.88 |        19.76 |\n| Selling & Marketing Exp |         4.14 |         5.10 |         5.81 |\n| R&D Exp                 |        22.41 |        25.26 |        22.05 |\n| General & Admin Exp     |       116.75 |       141.09 |       140.41 |\n| Operating Income        |       269.83 |       379.60 |       368.64 |\n| Operating Margin (%)    |        10.90 |        15.07 |        13.57 |\n| Net Income              |       228.70 |       283.83 |       283.34 |\n| Net Margin (%)          |         9.24 |        11.27 |        10.43 |\n| Op Cash Flow            |       678.97 |       479.23 |       713.87 |\n| Investing Cash Flow     |      -693.69 |      -626.65 |      -571.33 |\n| Financing Cash Flow     |        36.28 |       158.96 |      -177.87 |\n| CAPEX                   |      -706.08 |      -527.41 |      -510.92 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       620.78 |       567.57 |       595.49 |       619.34 |\n| Gross Profit            |       104.66 |        40.20 |       116.82 |       152.82 |\n| Gross Margin (%)        |        16.86 |         7.08 |        19.62 |        24.68 |\n| Selling & Marketing Exp |         1.13 |         1.01 |         1.01 |         1.06 |\n| R&D Exp                 |         5.57 |         4.88 |         6.35 |         5.83 |\n| General & Admin Exp     |        29.80 |        25.10 |        30.72 |        31.98 |\n| Operating Income        |        68.17 |         9.20 |        78.75 |       113.95 |\n| Operating Margin (%)    |        10.98 |         1.62 |        13.22 |        18.40 |\n| Net Income              |        46.88 |         3.88 |        85.55 |        90.27 |\n| Net Margin (%)          |         7.55 |         0.68 |        14.37 |        14.57 |\n| Op Cash Flow            |        37.55 |       107.18 |       229.02 |       173.39 |\n| Investing Cash Flow     |      -100.81 |      -119.67 |      -221.54 |      -118.10 |\n| Financing Cash Flow     |       -96.23 |        96.99 |        15.06 |       -83.50 |\n| CAPEX                   |       -90.84 |      -120.76 |      -226.01 |      -118.35 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

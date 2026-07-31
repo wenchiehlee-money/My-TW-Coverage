@@ -1,0 +1,151 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5271",
+  "company_name": "紘通",
+  "title": "5271 - 紘通",
+  "source_md": "Pilot_Reports/連接器 - 連接器設計、組裝及製造/5271_紘通.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "679 百萬台幣",
+    "enterprise_value": "963 百萬台幣"
+  },
+  "business": {
+    "summary": "紘通企業 (Horng Tong) 早期以 PC/NB [[連接器]]為主，近年積極轉型 **車用電子** 與 **高頻連接器**。\n主要業務：\n1.  **連接器 (Connector)**: 筆電、[[工業電腦]]用[[連接器]]。\n2.  **車用電子代理**: 獨家代理德國 **ROKA** 汽車[[連接器]] (Tier 2 角色)，切入高頻傳輸與 FAKRA 接頭。\n3.  **電子零組件買賣**: 塑膠機構件、電子材料進出口。\n車用產品已打入 [[ADAS]]、行車記錄器、HUD 等供應鏈。",
+    "entities": [
+      "連接器",
+      "工業電腦",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**原廠**: 德國 [[ROKA]] (車用[[連接器]]).",
+        "entities": [
+          "ROKA",
+          "連接器"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**材料**: 金屬沖壓件, 塑膠粒.",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **紘通 (5271)** - [[連接器]]製造 & 代理貿易.",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**NB/IPC**: [[廣達]], [[仁寶]]等代工廠.",
+        "entities": [
+          "廣達",
+          "仁寶"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**車用 Tier 1**: 中國及國際 Tier 1 車用電子廠 (如航盛電子).",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**車用**: 大陸車廠供應鏈 (北汽銀翔), 航盛電子.",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**電腦**: 國內系統組裝廠.",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**代理原廠**: 德國 [[ROKA]] (關鍵高頻汽車[[連接器]]供應商).",
+        "entities": [
+          "ROKA",
+          "連接器"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "ROKA",
+      "type": "international_company_or_term",
+      "wikilink": "ROKA"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "紘通企業 (Horng Tong) 早期以 PC/NB [[連接器]]為主，近年積極轉型 **車用電子** 與 **高頻連接器**。\n主要業務：\n1.  **連接器 (Connector)**: 筆電、[[工業電腦]]用[[連接器]]。\n2.  **車用電子代理**: 獨家代理德國 **ROKA** 汽車[[連接器]] (Tier 2 角色)，切入高頻傳輸與 FAKRA 接頭。\n3.  **電子零組件買賣**: 塑膠機構件、電子材料進出口。\n車用產品已打入 [[ADAS]]、行車記錄器、HUD 等供應鏈。",
+    "supply_chain_md": "*   **中游 (本體)**: **紘通 (5271)** - [[連接器]]製造 & 代理貿易.\n*   **上游**:\n    *   **原廠**: 德國 [[ROKA]] (車用[[連接器]]).\n    *   **材料**: 金屬沖壓件, 塑膠粒.\n*   **下游**:\n    *   **NB/IPC**: [[廣達]], [[仁寶]]等代工廠.\n    *   **車用 Tier 1**: 中國及國際 Tier 1 車用電子廠 (如航盛電子).",
+    "customers_suppliers_md": "### 主要客戶\n*   **車用**: 大陸車廠供應鏈 (北汽銀翔), 航盛電子.\n*   **電腦**: 國內系統組裝廠.\n\n### 主要供應商\n*   **代理原廠**: 德國 [[ROKA]] (關鍵高頻汽車[[連接器]]供應商).",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $10.05 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    335.00 |         N/A |      0.88 | 1.52 |     16.06 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       725.50 |       598.06 |       574.88 |\n| Gross Profit            |       219.20 |       134.61 |       138.41 |\n| Gross Margin (%)        |        30.21 |        22.51 |        24.08 |\n| Selling & Marketing Exp |        37.95 |        44.45 |        45.55 |\n| R&D Exp                 |        46.36 |        40.43 |        34.43 |\n| General & Admin Exp     |       102.17 |       120.18 |       108.42 |\n| Operating Income        |        32.72 |       -70.45 |       -49.99 |\n| Operating Margin (%)    |         4.51 |       -11.78 |        -8.70 |\n| Net Income              |         1.82 |       -76.02 |       -55.50 |\n| Net Margin (%)          |         0.25 |       -12.71 |        -9.65 |\n| Op Cash Flow            |        18.21 |        14.84 |       -44.69 |\n| Investing Cash Flow     |       -23.04 |       -40.60 |         3.36 |\n| Financing Cash Flow     |       -30.94 |        75.51 |        95.60 |\n| CAPEX                   |       -57.76 |       -24.52 |       -30.55 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

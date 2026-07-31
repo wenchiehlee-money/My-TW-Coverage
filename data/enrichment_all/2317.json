@@ -1,0 +1,333 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2317",
+  "company_name": "鴻海",
+  "title": "2317 - [[鴻海]]",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備/2317_鴻海.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,318,455 百萬台幣",
+    "enterprise_value": "3,279,797 百萬台幣"
+  },
+  "business": {
+    "summary": "[[鴻海]]精密 (2317) 是全球最大的電子代工服務 ([[EMS]]) 廠商，2023 年營收 6.16 兆新台幣。公司已從傳統 EMS 轉型為 [[CDMS]] (Contract Design Manufacturing Service)，結合自有設計能力。最大客戶為 [[Apple]] (iPhone/iPad/Mac 代工)，近年 [[AI 伺服器]]業務快速成長，雲端及網路營收占比首度突破 41%，超越消費電子。主要 AI 客戶包括 [[NVIDIA]] (GB200 伺服器)。",
+    "entities": [
+      "鴻海",
+      "EMS",
+      "CDMS",
+      "Apple",
+      "AI 伺服器",
+      "NVIDIA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "連接器",
+        "text": "[[鴻海]]集團連接器事業",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "[[臻鼎-KY]]、[[鵬鼎]] 等集團內/外 PCB 廠",
+        "entities": [
+          "臻鼎-KY",
+          "鵬鼎"
+        ]
+      },
+      {
+        "category": "被動元件",
+        "text": "[[國巨]]、各被動元件廠",
+        "entities": [
+          "國巨"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EMS/CDMS 代工)",
+        "text": "**中游 (EMS/CDMS 代工):**",
+        "entities": []
+      },
+      {
+        "category": "電子代工",
+        "text": "**[[鴻海]]** (全球最大 EMS/CDMS，消費電子/[[AI 伺服器]]/[[電動車]])",
+        "entities": [
+          "鴻海",
+          "AI 伺服器",
+          "電動車"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Apple]] (最大客戶)、[[HP]]、[[Dell]]、[[Sony]]",
+        "entities": [
+          "Apple",
+          "HP",
+          "Dell",
+          "Sony"
+        ]
+      },
+      {
+        "category": "AI/雲端",
+        "text": "[[NVIDIA]]、北美 CSP 雲端業者",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "[[電動車]]",
+        "text": "[[鴻華先進]] (集團 EV 事業)",
+        "entities": [
+          "電動車",
+          "鴻華先進"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費電子",
+        "text": "[[Apple]] (最大客戶)、[[HP]]、[[Dell]]、[[Sony]]",
+        "entities": [
+          "Apple",
+          "HP",
+          "Dell",
+          "Sony"
+        ]
+      },
+      {
+        "role": "AI/雲端",
+        "text": "[[NVIDIA]]、北美 CSP 雲端業者",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "通訊",
+        "text": "[[Cisco]] 等網通設備",
+        "entities": [
+          "Cisco"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PCB",
+        "text": "[[臻鼎-KY]]、[[鵬鼎]]",
+        "entities": [
+          "臻鼎-KY",
+          "鵬鼎"
+        ]
+      },
+      {
+        "role": "被動元件",
+        "text": "[[國巨]]",
+        "entities": [
+          "國巨"
+        ]
+      },
+      {
+        "role": "子公司",
+        "text": "[[工業富聯]]、[[鴻騰精密]]",
+        "entities": [
+          "工業富聯",
+          "鴻騰精密"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "EMS_ODM與伺服器同業",
+        "text": "[[廣達]]、[[仁寶]]、[[英業達]]、[[緯創]]、[[和碩]]、[[緯穎]]",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "英業達",
+          "緯創",
+          "和碩",
+          "緯穎"
+        ],
+        "basis": "curated_odm_server_peer_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "CDMS",
+      "type": "international_company_or_term",
+      "wikilink": "CDMS"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "臻鼎-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臻鼎-KY"
+    },
+    {
+      "name": "鵬鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鵬鼎"
+    },
+    {
+      "name": "國巨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國巨"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "鴻華先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻華先進"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "工業富聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業富聯"
+    },
+    {
+      "name": "鴻騰精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻騰精密"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    },
+    {
+      "name": "緯穎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯穎"
+    },
+    {
+      "name": "亞德客-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞德客-KY"
+    },
+    {
+      "name": "正崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正崴"
+    },
+    {
+      "name": "聯昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯昌"
+    },
+    {
+      "name": "瑞祺電通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞祺電通"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[鴻海]]精密 (2317) 是全球最大的電子代工服務 ([[EMS]]) 廠商，2023 年營收 6.16 兆新台幣。公司已從傳統 EMS 轉型為 [[CDMS]] (Contract Design Manufacturing Service)，結合自有設計能力。最大客戶為 [[Apple]] (iPhone/iPad/Mac 代工)，近年 [[AI 伺服器]]業務快速成長，雲端及網路營收占比首度突破 41%，超越消費電子。主要 AI 客戶包括 [[NVIDIA]] (GB200 伺服器)。",
+    "supply_chain_md": "**上游 (零組件):**\n- **連接器:** [[鴻海]]集團連接器事業\n- **PCB:** [[臻鼎-KY]]、[[鵬鼎]] 等集團內/外 PCB 廠\n- **被動元件:** [[國巨]]、各被動元件廠\n\n**中游 (EMS/CDMS 代工):**\n- **電子代工:** **[[鴻海]]** (全球最大 EMS/CDMS，消費電子/[[AI 伺服器]]/[[電動車]])\n\n**下游 (品牌客戶):**\n- **消費電子:** [[Apple]] (最大客戶)、[[HP]]、[[Dell]]、[[Sony]]\n- **AI/雲端:** [[NVIDIA]]、北美 CSP 雲端業者\n- **[[電動車]]:** [[鴻華先進]] (集團 EV 事業)",
+    "customers_suppliers_md": "### 主要客戶\n- **消費電子:** [[Apple]] (最大客戶)、[[HP]]、[[Dell]]、[[Sony]]\n- **AI/雲端:** [[NVIDIA]]、北美 CSP 雲端業者\n- **通訊:** [[Cisco]] 等網通設備\n\n### 主要供應商\n- **PCB:** [[臻鼎-KY]]、[[鵬鼎]]\n- **被動元件:** [[國巨]]\n- **子公司:** [[工業富聯]]、[[鴻騰精密]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $229.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.46 |       10.66 |      0.37 | 1.81 |      8.45 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |   8103104.76 |   6859615.49 |   6162221.36 |\n| Gross Profit            |    498161.04 |    428945.92 |    387947.47 |\n| Gross Margin (%)        |         6.15 |         6.25 |         6.30 |\n| Selling & Marketing Exp |     27366.83 |     25046.30 |     24988.41 |\n| R&D Exp                 |    121705.16 |    115771.72 |    110019.77 |\n| General & Admin Exp     |     89866.08 |     87520.67 |     86410.79 |\n| Operating Income        |    259222.96 |    200607.23 |    166528.49 |\n| Operating Margin (%)    |         3.20 |         2.92 |         2.70 |\n| Net Income              |    189353.85 |    152705.07 |    142098.21 |\n| Net Margin (%)          |         2.34 |         2.23 |         2.31 |\n| Op Cash Flow            |    226852.47 |    166028.84 |    445552.72 |\n| Investing Cash Flow     |   -304689.27 |   -300045.82 |   -137874.11 |\n| Financing Cash Flow     |    169946.81 |   -164071.91 |   -160638.32 |\n| CAPEX                   |   -175512.96 |   -144041.39 |   -118950.57 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |   2119533.39 |   2606372.03 |   2058949.13 |   1793468.05 |\n| Gross Profit            |    130980.56 |    153326.97 |    130756.64 |    113529.00 |\n| Gross Margin (%)        |         6.18 |         5.88 |         6.35 |         6.33 |\n| Selling & Marketing Exp |      6366.00 |      8940.07 |      6756.91 |      5605.52 |\n| R&D Exp                 |     26579.12 |     34654.24 |     30220.61 |     30196.62 |\n| General & Admin Exp     |     22386.75 |     24142.08 |     23242.93 |     21130.64 |\n| Operating Income        |     75648.69 |     85590.59 |     70536.20 |     56596.22 |\n| Operating Margin (%)    |         3.57 |         3.28 |         3.43 |         3.16 |\n| Net Income              |     49919.45 |     45212.46 |     57672.79 |     44360.56 |\n| Net Margin (%)          |         2.36 |         1.73 |         2.80 |         2.47 |\n| Op Cash Flow            |      3217.15 |    276388.20 |    -71411.31 |     72939.05 |\n| Investing Cash Flow     |    -29019.83 |   -176344.05 |    -88989.42 |     24197.16 |\n| Financing Cash Flow     |    -26010.31 |     15178.59 |    115291.00 |    -54074.91 |\n| CAPEX                   |    -36074.49 |    -61352.22 |    -36244.61 |    -33763.89 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

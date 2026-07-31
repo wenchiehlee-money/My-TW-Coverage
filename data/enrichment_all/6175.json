@@ -1,0 +1,276 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6175",
+  "company_name": "立敦",
+  "title": "6175_立敦",
+  "source_md": "Pilot_Reports/被動元件 - 電容器材料(如電蝕_化成鋁箔、介面瓷粉)/6175_立敦.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Aluminum",
+    "market_cap": "10,313 百萬台幣",
+    "enterprise_value": "11,108 百萬台幣"
+  },
+  "business": {
+    "summary": "立敦科技 (6175，Li Tun Technology) 為台灣[[電蝕鋁箔]]與[[化成鋁箔]]之領導製造商，產品為[[鋁質電解電容器]]最關鍵上游原料 (佔電容生產成本 30-70%)。母公司為[[立隆電子]] (2472，持股約 30%)，台灣車用電容市佔逾七成。透過與[[東陽光]]合資之[[立東電子]]，電蝕鋁箔自給率已達 70%，大幅降低對日本供應商之依賴。下游客戶涵蓋全球前三大鋁質電解電容器製造商 — [[Nippon Chemi-Con]]、[[Nichicon]]、[[Rubycon]]，以及台系電容廠[[凱美]] ([[國巨]]集團)、[[Panasonic]]等。受惠於[[AI 伺服器]]、[[5G]]、[[電動車]]及[[風力發電]]等高階應用驅動電容器需求持續成長。",
+    "entities": [
+      "電蝕鋁箔",
+      "化成鋁箔",
+      "鋁質電解電容器",
+      "立隆電子",
+      "東陽光",
+      "立東電子",
+      "Nippon Chemi-Con",
+      "Nichicon",
+      "Rubycon",
+      "凱美",
+      "國巨",
+      "Panasonic",
+      "AI 伺服器",
+      "5G",
+      "電動車",
+      "風力發電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "電蝕鋁箔",
+        "text": "[[立東電子]] (與[[東陽光]]合資) — 自供 70% 電蝕鋁箔需求",
+        "entities": [
+          "立東電子",
+          "東陽光"
+        ]
+      },
+      {
+        "category": "高純度鋁箔原箔",
+        "text": "日本及中國[[東陽光]]等鋁箔原箔供應商",
+        "entities": [
+          "東陽光"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**立敦** ([[電蝕鋁箔]]加工、[[化成鋁箔]]生產、電解液及導針供應)",
+        "entities": [
+          "電蝕鋁箔",
+          "化成鋁箔"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 ([[鋁質電解電容器]]製造商)",
+        "text": "**下游 ([[鋁質電解電容器]]製造商):**",
+        "entities": [
+          "鋁質電解電容器"
+        ]
+      },
+      {
+        "category": "日系三大廠",
+        "text": "[[Nippon Chemi-Con]] (全球市佔約 20%)、[[Nichicon]]、[[Rubycon]]",
+        "entities": [
+          "Nippon Chemi-Con",
+          "Nichicon",
+          "Rubycon"
+        ]
+      },
+      {
+        "category": "台系電容廠",
+        "text": "[[立隆電子]] (母公司，車用電容龍頭)、[[凱美]] ([[國巨]]集團)、金山電",
+        "entities": [
+          "立隆電子",
+          "凱美",
+          "國巨"
+        ]
+      },
+      {
+        "category": "國際大廠",
+        "text": "[[Panasonic]]",
+        "entities": [
+          "Panasonic"
+        ]
+      },
+      {
+        "category": "終端應用",
+        "text": "[[AI 伺服器]]、[[5G]]、[[電動車]]、[[風力發電]]",
+        "entities": [
+          "AI 伺服器",
+          "5G",
+          "電動車",
+          "風力發電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日系電容",
+        "text": "[[Nippon Chemi-Con]] — 全球最大鋁電解電容廠；[[Nichicon]]；[[Rubycon]]",
+        "entities": [
+          "Nippon Chemi-Con",
+          "Nichicon",
+          "Rubycon"
+        ]
+      },
+      {
+        "role": "台系電容",
+        "text": "[[立隆電子]] (母公司) — 台灣車用電容龍頭；[[凱美]] ([[國巨]]集團)",
+        "entities": [
+          "立隆電子",
+          "凱美",
+          "國巨"
+        ]
+      },
+      {
+        "role": "國際大廠",
+        "text": "[[Panasonic]] — 鋁質電解電容器",
+        "entities": [
+          "Panasonic"
+        ]
+      },
+      {
+        "role": "終端應用",
+        "text": "[[AI 伺服器]]、[[5G]]、[[電動車]]、[[風力發電]]設備",
+        "entities": [
+          "AI 伺服器",
+          "5G",
+          "電動車",
+          "風力發電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電蝕鋁箔",
+        "text": "[[立東電子]] (與[[東陽光]]合資) — 自供 70% 需求",
+        "entities": [
+          "立東電子",
+          "東陽光"
+        ]
+      },
+      {
+        "role": "鋁箔原箔",
+        "text": "日本及中國高純度電子級鋁箔供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電蝕鋁箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電蝕鋁箔"
+    },
+    {
+      "name": "化成鋁箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "化成鋁箔"
+    },
+    {
+      "name": "鋁質電解電容器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋁質電解電容器"
+    },
+    {
+      "name": "立隆電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立隆電子"
+    },
+    {
+      "name": "東陽光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽光"
+    },
+    {
+      "name": "立東電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立東電子"
+    },
+    {
+      "name": "Nippon Chemi-Con",
+      "type": "international_company_or_term",
+      "wikilink": "Nippon Chemi-Con"
+    },
+    {
+      "name": "Nichicon",
+      "type": "international_company_or_term",
+      "wikilink": "Nichicon"
+    },
+    {
+      "name": "Rubycon",
+      "type": "international_company_or_term",
+      "wikilink": "Rubycon"
+    },
+    {
+      "name": "凱美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱美"
+    },
+    {
+      "name": "國巨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國巨"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "風力發電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "風力發電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "立敦科技 (6175，Li Tun Technology) 為台灣[[電蝕鋁箔]]與[[化成鋁箔]]之領導製造商，產品為[[鋁質電解電容器]]最關鍵上游原料 (佔電容生產成本 30-70%)。母公司為[[立隆電子]] (2472，持股約 30%)，台灣車用電容市佔逾七成。透過與[[東陽光]]合資之[[立東電子]]，電蝕鋁箔自給率已達 70%，大幅降低對日本供應商之依賴。下游客戶涵蓋全球前三大鋁質電解電容器製造商 — [[Nippon Chemi-Con]]、[[Nichicon]]、[[Rubycon]]，以及台系電容廠[[凱美]] ([[國巨]]集團)、[[Panasonic]]等。受惠於[[AI 伺服器]]、[[5G]]、[[電動車]]及[[風力發電]]等高階應用驅動電容器需求持續成長。",
+    "supply_chain_md": "**上游 (原料):**\n- **電蝕鋁箔:** [[立東電子]] (與[[東陽光]]合資) — 自供 70% 電蝕鋁箔需求\n- **高純度鋁箔原箔:** 日本及中國[[東陽光]]等鋁箔原箔供應商\n\n**中游 (製造):**\n- **立敦** ([[電蝕鋁箔]]加工、[[化成鋁箔]]生產、電解液及導針供應)\n\n**下游 ([[鋁質電解電容器]]製造商):**\n- **日系三大廠:** [[Nippon Chemi-Con]] (全球市佔約 20%)、[[Nichicon]]、[[Rubycon]]\n- **台系電容廠:** [[立隆電子]] (母公司，車用電容龍頭)、[[凱美]] ([[國巨]]集團)、金山電\n- **國際大廠:** [[Panasonic]]\n- **終端應用:** [[AI 伺服器]]、[[5G]]、[[電動車]]、[[風力發電]]",
+    "customers_suppliers_md": "### 主要客戶\n- **日系電容:** [[Nippon Chemi-Con]] — 全球最大鋁電解電容廠；[[Nichicon]]；[[Rubycon]]\n- **台系電容:** [[立隆電子]] (母公司) — 台灣車用電容龍頭；[[凱美]] ([[國巨]]集團)\n- **國際大廠:** [[Panasonic]] — 鋁質電解電容器\n- **終端應用:** [[AI 伺服器]]、[[5G]]、[[電動車]]、[[風力發電]]設備\n\n### 主要供應商\n- **電蝕鋁箔:** [[立東電子]] (與[[東陽光]]合資) — 自供 70% 需求\n- **鋁箔原箔:** 日本及中國高純度電子級鋁箔供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $66.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     24.81 |         N/A |      2.37 | 2.34 |     12.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4167.20 |      4225.43 |      3676.09 |\n| Gross Profit            |       976.52 |      1014.95 |       748.79 |\n| Gross Margin (%)        |        23.43 |        24.02 |        20.37 |\n| Selling & Marketing Exp |        63.09 |        62.55 |        54.30 |\n| R&D Exp                 |       106.45 |       147.97 |       122.04 |\n| General & Admin Exp     |       168.63 |       169.84 |       147.86 |\n| Operating Income        |       638.35 |       634.60 |       424.60 |\n| Operating Margin (%)    |        15.32 |        15.02 |        11.55 |\n| Net Income              |       400.54 |       469.25 |       294.87 |\n| Net Margin (%)          |         9.61 |        11.11 |         8.02 |\n| Op Cash Flow            |       853.84 |       605.42 |       553.12 |\n| Investing Cash Flow     |      -259.91 |      -165.71 |      -130.26 |\n| Financing Cash Flow     |      -635.19 |      -253.44 |      -316.31 |\n| CAPEX                   |      -268.15 |      -206.58 |      -136.76 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1019.20 |       964.92 |      1110.81 |      1072.28 |\n| Gross Profit            |       236.79 |       226.56 |       261.00 |       252.17 |\n| Gross Margin (%)        |        23.23 |        23.48 |        23.50 |        23.52 |\n| Selling & Marketing Exp |        16.94 |        16.15 |        14.32 |        15.68 |\n| R&D Exp                 |        25.14 |        21.77 |        30.59 |        28.94 |\n| General & Admin Exp     |        46.72 |        40.90 |        37.31 |        43.71 |\n| Operating Income        |       147.99 |       147.74 |       178.78 |       163.84 |\n| Operating Margin (%)    |        14.52 |        15.31 |        16.09 |        15.28 |\n| Net Income              |       107.72 |       108.20 |        75.18 |       109.43 |\n| Net Margin (%)          |        10.57 |        11.21 |         6.77 |        10.21 |\n| Op Cash Flow            |       282.39 |       232.12 |       228.84 |       110.50 |\n| Investing Cash Flow     |      -117.67 |       -46.76 |       -64.69 |       -30.79 |\n| Financing Cash Flow     |       -33.07 |      -231.50 |      -177.60 |      -193.01 |\n| CAPEX                   |      -117.67 |       -55.00 |       -64.69 |       -30.79 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": []
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6869",
+  "company_name": "雲豹能源",
+  "title": "6869_雲豹能源",
+  "source_md": "Pilot_Reports/太陽能產業 - 太陽能發電設備_系統及系統工程/6869_雲豹能源.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Utilities",
+    "industry": "Utilities - Renewable",
+    "market_cap": "8,790 百萬台幣",
+    "enterprise_value": "15,125 百萬台幣"
+  },
+  "business": {
+    "summary": "雲豹能源科技 (6869，J&V Energy) 成立於 2016 年，為台灣本土再生能源整合投資集團。旗下子公司[[天能綠電]]經營台灣最大民間綠電售電平台，2024 年營收突破 10 億元 (年增 338%)，長約保障已達 160 億度電，合約總價值約 880 億元。儲能子公司[[台普威能源]]為台灣領先的電池儲能系統整合商 ([[BESS]])，累積開發規模達 459MW/1,201MWh。太陽能案場以大型漁電共生案場聞名。2024 年合併營收 37.9 億元。",
+    "entities": [
+      "天能綠電",
+      "台普威能源",
+      "BESS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與材料)",
+        "text": "**上游 (設備與材料):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能模組",
+        "text": "國內外一線太陽能模組與逆變器",
+        "entities": []
+      },
+      {
+        "category": "儲能設備",
+        "text": "鋰電池芯製造商、儲能櫃 ([[BESS]])",
+        "entities": [
+          "BESS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發建置與售電)",
+        "text": "**中游 (開發建置與售電):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**雲豹能源** — 太陽能/風力案場開發與 EPC 統包、漁電共生案場",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[天能綠電]]** — 台灣最大民間綠電售電平台",
+        "entities": [
+          "天能綠電"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[台普威能源]]** — 電網級儲能系統 ([[BESS]]) 整合建置",
+        "entities": [
+          "台普威能源",
+          "BESS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "綠電買家",
+        "text": "受 [[RE100]] 要求之台灣上市櫃龍頭",
+        "entities": [
+          "RE100"
+        ]
+      },
+      {
+        "category": "儲能服務",
+        "text": "[[台電]]電力調度 — 調頻備轉",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "綠電轉供",
+        "text": "[[中華電信]]、[[日月光投控]]、[[玉山金控]]及半導體、化工、[[PCB]] 產業龍頭 — 透過[[天能綠電]]簽訂 CPPA",
+        "entities": [
+          "中華電信",
+          "日月光投控",
+          "玉山金控",
+          "PCB",
+          "天能綠電"
+        ]
+      },
+      {
+        "role": "儲能服務",
+        "text": "[[台電]] — [[台普威能源]]提供調頻備轉",
+        "entities": [
+          "台電",
+          "台普威能源"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "太陽能模組",
+        "text": "國內外一線太陽能板與逆變器",
+        "entities": []
+      },
+      {
+        "role": "儲能電池",
+        "text": "鋰電池芯原廠 — 供應[[台普威能源]]建置 [[BESS]]",
+        "entities": [
+          "台普威能源",
+          "BESS"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "天能綠電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天能綠電"
+    },
+    {
+      "name": "台普威能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台普威能源"
+    },
+    {
+      "name": "BESS",
+      "type": "international_company_or_term",
+      "wikilink": "BESS"
+    },
+    {
+      "name": "RE100",
+      "type": "international_company_or_term",
+      "wikilink": "RE100"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "玉山金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玉山金控"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "雲豹能源科技 (6869，J&V Energy) 成立於 2016 年，為台灣本土再生能源整合投資集團。旗下子公司[[天能綠電]]經營台灣最大民間綠電售電平台，2024 年營收突破 10 億元 (年增 338%)，長約保障已達 160 億度電，合約總價值約 880 億元。儲能子公司[[台普威能源]]為台灣領先的電池儲能系統整合商 ([[BESS]])，累積開發規模達 459MW/1,201MWh。太陽能案場以大型漁電共生案場聞名。2024 年合併營收 37.9 億元。",
+    "supply_chain_md": "**上游 (設備與材料):**\n- **太陽能模組:** 國內外一線太陽能模組與逆變器\n- **儲能設備:** 鋰電池芯製造商、儲能櫃 ([[BESS]])\n\n**中游 (開發建置與售電):**\n- **雲豹能源** — 太陽能/風力案場開發與 EPC 統包、漁電共生案場\n- **[[天能綠電]]** — 台灣最大民間綠電售電平台\n- **[[台普威能源]]** — 電網級儲能系統 ([[BESS]]) 整合建置\n\n**下游 (終端用戶):**\n- **綠電買家:** 受 [[RE100]] 要求之台灣上市櫃龍頭\n- **儲能服務:** [[台電]]電力調度 — 調頻備轉",
+    "customers_suppliers_md": "### 主要客戶\n- **綠電轉供:** [[中華電信]]、[[日月光投控]]、[[玉山金控]]及半導體、化工、[[PCB]] 產業龍頭 — 透過[[天能綠電]]簽訂 CPPA\n- **儲能服務:** [[台電]] — [[台普威能源]]提供調頻備轉\n\n### 主要供應商\n- **太陽能模組:** 國內外一線太陽能板與逆變器\n- **儲能電池:** 鋰電池芯原廠 — 供應[[台普威能源]]建置 [[BESS]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $65.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |        6.36 |      1.07 | 1.97 |     24.45 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7469.02 |      3793.30 |      6783.56 |\n| Gross Profit            |       806.36 |       481.05 |      1319.16 |\n| Gross Margin (%)        |        10.80 |        12.68 |        19.45 |\n| Selling & Marketing Exp |       127.73 |       122.73 |        76.96 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       557.25 |       461.39 |       363.33 |\n| Operating Income        |       121.38 |      -103.06 |       878.88 |\n| Operating Margin (%)    |         1.63 |        -2.72 |        12.96 |\n| Net Income              |      -570.45 |      1132.98 |      1013.57 |\n| Net Margin (%)          |        -7.64 |        29.87 |        14.94 |\n| Op Cash Flow            |      -369.90 |      -806.03 |      1356.64 |\n| Investing Cash Flow     |      -209.61 |      -816.96 |     -1958.98 |\n| Financing Cash Flow     |       411.60 |      2847.85 |       223.63 |\n| CAPEX                   |      -174.40 |      -708.63 |     -2116.50 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1978.24 |      1905.52 |      2589.46 |       995.79 |\n| Gross Profit            |       283.71 |       194.52 |       216.97 |       111.15 |\n| Gross Margin (%)        |        14.34 |        10.21 |         8.38 |        11.16 |\n| Selling & Marketing Exp |        37.51 |        34.39 |        31.80 |        24.03 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       197.73 |       123.00 |       121.79 |       114.73 |\n| Operating Income        |        48.47 |        37.13 |        63.39 |       -27.61 |\n| Operating Margin (%)    |         2.45 |         1.95 |         2.45 |        -2.77 |\n| Net Income              |      -784.63 |       -66.42 |       521.96 |      -241.35 |\n| Net Margin (%)          |       -39.66 |        -3.49 |        20.16 |       -24.24 |\n| Op Cash Flow            |       134.36 |      -241.29 |      -351.03 |        88.06 |\n| Investing Cash Flow     |      -228.26 |      -174.91 |        27.28 |       166.28 |\n| Financing Cash Flow     |       -32.81 |       159.17 |       290.96 |        -5.73 |\n| CAPEX                   |       -76.53 |       -38.06 |       -24.11 |       -35.71 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

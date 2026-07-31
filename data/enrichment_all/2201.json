@@ -1,0 +1,276 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2201",
+  "company_name": "裕隆",
+  "title": "2201 - [[裕隆]]",
+  "source_md": "Pilot_Reports/汽車 - 整車組裝、修理及技術服務/2201_裕隆.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": "28,687 百萬台幣",
+    "enterprise_value": "278,467 百萬台幣"
+  },
+  "business": {
+    "summary": "裕隆汽車 (2201，Yulon Motor) 為台灣歷史最悠久之汽車集團，與[[日產汽車]] ([[Nissan]]) 長期合資合作。核心業務涵蓋：(1) 整車組裝 — 苗栗三義廠為台灣主要汽車組裝基地；(2) 電動車合資 — 與[[鴻海集團]]共同創立[[鴻華先進]] (2258，[[鴻海]]持股 45.62%、[[裕隆]] 43.83%)，開發 Model C/B/E/T 等[[MIH]]平台電動車；(3) 品牌轉讓 — 已將自有品牌[[納智捷]] (LUXGEN) 100% 股權以 7.876 億元轉讓予[[鴻華先進]]。集團版圖涵蓋[[裕隆日產]] (2227)、[[中華汽車]] (2204)、[[裕融]] (9941，[[格上租車]])，另開發[[裕隆城]]新店大型商場。",
+    "entities": [
+      "日產汽車",
+      "Nissan",
+      "鴻海集團",
+      "鴻華先進",
+      "鴻海",
+      "裕隆",
+      "MIH",
+      "納智捷",
+      "裕隆日產",
+      "中華汽車",
+      "裕融",
+      "格上租車",
+      "裕隆城"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與平台)",
+        "text": "**上游 (技術與平台):**",
+        "entities": []
+      },
+      {
+        "category": "日系技術",
+        "text": "[[日產汽車]] — [[Nissan]] 原廠技術授權與套件",
+        "entities": [
+          "日產汽車",
+          "Nissan"
+        ]
+      },
+      {
+        "category": "EV 平台",
+        "text": "[[鴻華先進]] (2258) — [[MIH]] 電動車平台與三電技術",
+        "entities": [
+          "鴻華先進",
+          "MIH"
+        ]
+      },
+      {
+        "category": "動力系統",
+        "text": "[[日本電產]] (Nidec) — 三合一動力系統",
+        "entities": [
+          "日本電產"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (組裝製造)",
+        "text": "**中游 (組裝製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**裕隆汽車** (苗栗三義廠整車組裝，為[[鴻華先進]] Model C 代工)",
+        "entities": [
+          "鴻華先進"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與服務)",
+        "text": "**下游 (品牌與服務):**",
+        "entities": []
+      },
+      {
+        "category": "品牌銷售",
+        "text": "[[裕隆日產]] (2227) — [[Nissan]]/Infiniti 台灣行銷",
+        "entities": [
+          "裕隆日產",
+          "Nissan"
+        ]
+      },
+      {
+        "category": "商用車",
+        "text": "[[中華汽車]] (2204) — [[Mitsubishi]] 製造",
+        "entities": [
+          "中華汽車",
+          "Mitsubishi"
+        ]
+      },
+      {
+        "category": "汽車金融",
+        "text": "[[裕融]] (9941) / [[格上租車]] — 車輛融資與租賃",
+        "entities": [
+          "裕融",
+          "格上租車"
+        ]
+      },
+      {
+        "category": "EV 品牌",
+        "text": "[[鴻華先進]] / [[納智捷]] — 電動車品牌",
+        "entities": [
+          "鴻華先進",
+          "納智捷"
+        ]
+      },
+      {
+        "category": "不動產",
+        "text": "[[裕隆城]] — 新店大型商場",
+        "entities": [
+          "裕隆城"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EV 代工",
+        "text": "[[鴻華先進]] — Model C (n7) 整車代工",
+        "entities": [
+          "鴻華先進"
+        ]
+      },
+      {
+        "role": "品牌銷售",
+        "text": "[[裕隆日產]] — [[Nissan]] 台灣行銷",
+        "entities": [
+          "裕隆日產",
+          "Nissan"
+        ]
+      },
+      {
+        "role": "一般消費者",
+        "text": "台灣新車買家",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "技術授權",
+        "text": "[[日產汽車]] — [[Nissan]] 原廠技術",
+        "entities": [
+          "日產汽車",
+          "Nissan"
+        ]
+      },
+      {
+        "role": "EV 平台",
+        "text": "[[鴻華先進]] — 電動車三電系統",
+        "entities": [
+          "鴻華先進"
+        ]
+      },
+      {
+        "role": "動力系統",
+        "text": "[[日本電產]] (Nidec) — 三合一動力",
+        "entities": [
+          "日本電產"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "日產汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日產汽車"
+    },
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "鴻海集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海集團"
+    },
+    {
+      "name": "鴻華先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻華先進"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "裕隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆"
+    },
+    {
+      "name": "MIH",
+      "type": "international_company_or_term",
+      "wikilink": "MIH"
+    },
+    {
+      "name": "納智捷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "納智捷"
+    },
+    {
+      "name": "裕隆日產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆日產"
+    },
+    {
+      "name": "中華汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華汽車"
+    },
+    {
+      "name": "裕融",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕融"
+    },
+    {
+      "name": "格上租車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "格上租車"
+    },
+    {
+      "name": "裕隆城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆城"
+    },
+    {
+      "name": "日本電產",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日本電產"
+    },
+    {
+      "name": "Mitsubishi",
+      "type": "international_company_or_term",
+      "wikilink": "Mitsubishi"
+    },
+    {
+      "name": "中華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "裕隆汽車 (2201，Yulon Motor) 為台灣歷史最悠久之汽車集團，與[[日產汽車]] ([[Nissan]]) 長期合資合作。核心業務涵蓋：(1) 整車組裝 — 苗栗三義廠為台灣主要汽車組裝基地；(2) 電動車合資 — 與[[鴻海集團]]共同創立[[鴻華先進]] (2258，[[鴻海]]持股 45.62%、[[裕隆]] 43.83%)，開發 Model C/B/E/T 等[[MIH]]平台電動車；(3) 品牌轉讓 — 已將自有品牌[[納智捷]] (LUXGEN) 100% 股權以 7.876 億元轉讓予[[鴻華先進]]。集團版圖涵蓋[[裕隆日產]] (2227)、[[中華汽車]] (2204)、[[裕融]] (9941，[[格上租車]])，另開發[[裕隆城]]新店大型商場。",
+    "supply_chain_md": "**上游 (技術與平台):**\n- **日系技術:** [[日產汽車]] — [[Nissan]] 原廠技術授權與套件\n- **EV 平台:** [[鴻華先進]] (2258) — [[MIH]] 電動車平台與三電技術\n- **動力系統:** [[日本電產]] (Nidec) — 三合一動力系統\n\n**中游 (組裝製造):**\n- **裕隆汽車** (苗栗三義廠整車組裝，為[[鴻華先進]] Model C 代工)\n\n**下游 (品牌與服務):**\n- **品牌銷售:** [[裕隆日產]] (2227) — [[Nissan]]/Infiniti 台灣行銷\n- **商用車:** [[中華汽車]] (2204) — [[Mitsubishi]] 製造\n- **汽車金融:** [[裕融]] (9941) / [[格上租車]] — 車輛融資與租賃\n- **EV 品牌:** [[鴻華先進]] / [[納智捷]] — 電動車品牌\n- **不動產:** [[裕隆城]] — 新店大型商場",
+    "customers_suppliers_md": "### 主要客戶\n- **EV 代工:** [[鴻華先進]] — Model C (n7) 整車代工\n- **品牌銷售:** [[裕隆日產]] — [[Nissan]] 台灣行銷\n- **一般消費者:** 台灣新車買家\n\n### 主要供應商\n- **技術授權:** [[日產汽車]] — [[Nissan]] 原廠技術\n- **EV 平台:** [[鴻華先進]] — 電動車三電系統\n- **動力系統:** [[日本電產]] (Nidec) — 三合一動力",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $27.15 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     29.19 |       16.45 |      0.40 | 0.45 |     27.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     72355.11 |     85776.05 |     82120.68 |\n| Gross Profit            |     23344.99 |     26881.21 |     28863.89 |\n| Gross Margin (%)        |        32.26 |        31.34 |        35.15 |\n| Selling & Marketing Exp |      7882.88 |      8447.80 |      9040.88 |\n| R&D Exp                 |       349.52 |       293.84 |       231.05 |\n| General & Admin Exp     |      6293.79 |      6626.52 |      6219.73 |\n| Operating Income        |      8818.80 |     11513.05 |     13372.22 |\n| Operating Margin (%)    |        12.19 |        13.42 |        16.28 |\n| Net Income              |       979.01 |      3954.68 |      4690.52 |\n| Net Margin (%)          |         1.35 |         4.61 |         5.71 |\n| Op Cash Flow            |     19030.97 |     19408.47 |    -12955.73 |\n| Investing Cash Flow     |     -6069.51 |     -2781.78 |     -5790.21 |\n| Financing Cash Flow     |    -14258.49 |    -19625.74 |     17960.56 |\n| CAPEX                   |     -2717.63 |     -2650.14 |     -1974.52 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     18519.34 |     18273.01 |     17974.81 |     17587.96 |\n| Gross Profit            |      5581.62 |      5814.26 |      5935.59 |      6013.52 |\n| Gross Margin (%)        |        30.14 |        31.82 |        33.02 |        34.19 |\n| Selling & Marketing Exp |      1876.48 |      1992.63 |      1992.12 |      2021.65 |\n| R&D Exp                 |        76.96 |       132.40 |        79.32 |        60.84 |\n| General & Admin Exp     |      1466.97 |      1570.87 |      1643.63 |      1612.32 |\n| Operating Income        |      2161.20 |      2118.37 |      2220.52 |      2318.71 |\n| Operating Margin (%)    |        11.67 |        11.59 |        12.35 |        13.18 |\n| Net Income              |       171.29 |       256.44 |       115.60 |       435.68 |\n| Net Margin (%)          |         0.92 |         1.40 |         0.64 |         2.48 |\n| Op Cash Flow            |      4860.80 |      5004.42 |      4970.67 |      4195.08 |\n| Investing Cash Flow     |     -2838.20 |     -1465.78 |      -858.14 |      -907.39 |\n| Financing Cash Flow     |     -2254.68 |     -4718.05 |     -2068.64 |     -5217.13 |\n| CAPEX                   |      -310.17 |      -296.26 |      -714.73 |     -1396.47 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

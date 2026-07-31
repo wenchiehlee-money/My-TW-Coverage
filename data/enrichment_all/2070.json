@@ -1,0 +1,131 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2070",
+  "company_name": "精湛",
+  "title": "2070 - 精湛",
+  "source_md": "Pilot_Reports/電機機械 - 專用機械(如紡織成衣生產用機械、食品飲料生產用機械、農林用機械等)/2070_精湛.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,930 百萬台幣",
+    "enterprise_value": "1,521 百萬台幣"
+  },
+  "business": {
+    "summary": "精湛光學 (2070，CCM) 為全球扣件[[AOI]]篩選機領導品牌，品牌「CCM」行銷 30+ 國。下游客戶含[[春雨]]、[[恒耀]]、[[晉禾]]及歐美航太/汽車扣件廠。",
+    "entities": [
+      "AOI",
+      "春雨",
+      "恒耀",
+      "晉禾"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "工業相機/光源/AI",
+        "text": "影像系統",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**精湛** (CCM [[AOI]]篩選機)",
+        "entities": [
+          "AOI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (扣件)",
+        "text": "**下游 (扣件):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[春雨]]、[[恒耀]]、[[晉禾]]及歐美扣件廠",
+        "entities": [
+          "春雨",
+          "恒耀",
+          "晉禾"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "扣件",
+        "text": "[[春雨]]、[[恒耀]]、[[晉禾]]",
+        "entities": [
+          "春雨",
+          "恒耀",
+          "晉禾"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "影像",
+        "text": "工業相機/光源",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AOI",
+      "type": "international_company_or_term",
+      "wikilink": "AOI"
+    },
+    {
+      "name": "春雨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "春雨"
+    },
+    {
+      "name": "恒耀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恒耀"
+    },
+    {
+      "name": "晉禾",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晉禾"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "精湛光學 (2070，CCM) 為全球扣件[[AOI]]篩選機領導品牌，品牌「CCM」行銷 30+ 國。下游客戶含[[春雨]]、[[恒耀]]、[[晉禾]]及歐美航太/汽車扣件廠。",
+    "supply_chain_md": "**上游 (零組件):**\n- **工業相機/光源/AI:** 影像系統\n\n**中游 (製造):**\n- **精湛** (CCM [[AOI]]篩選機)\n\n**下游 (扣件):**\n- [[春雨]]、[[恒耀]]、[[晉禾]]及歐美扣件廠",
+    "customers_suppliers_md": "### 主要客戶\n- **扣件:** [[春雨]]、[[恒耀]]、[[晉禾]]\n\n### 主要供應商\n- **影像:** 工業相機/光源",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $44.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     21.26 |         N/A |      2.60 | 1.61 |     10.72 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       694.16 |       715.43 |       622.33 |\n| Gross Profit            |       322.10 |       373.68 |       320.69 |\n| Gross Margin (%)        |        46.40 |        52.23 |        51.53 |\n| Selling & Marketing Exp |        94.02 |        94.61 |        77.05 |\n| R&D Exp                 |        30.75 |        33.38 |        41.04 |\n| General & Admin Exp     |       102.21 |       112.64 |       109.74 |\n| Operating Income        |        95.11 |       133.05 |        92.86 |\n| Operating Margin (%)    |        13.70 |        18.60 |        14.92 |\n| Net Income              |        82.15 |       106.26 |        80.66 |\n| Net Margin (%)          |        11.83 |        14.85 |        12.96 |\n| Op Cash Flow            |       126.00 |       128.94 |        70.42 |\n| Investing Cash Flow     |       -62.83 |      -121.79 |        -8.38 |\n| Financing Cash Flow     |        33.55 |      -444.14 |       264.97 |\n| CAPEX                   |       -56.33 |       -16.95 |       -14.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       212.78 |       151.48 |       145.53 |       174.85 |\n| Gross Profit            |        96.03 |        70.93 |        68.78 |        95.01 |\n| Gross Margin (%)        |        45.13 |        46.82 |        47.26 |        54.34 |\n| Selling & Marketing Exp |        23.96 |        23.04 |        22.74 |        24.80 |\n| R&D Exp                 |         5.84 |         8.20 |         8.41 |         7.78 |\n| General & Admin Exp     |        28.17 |        24.86 |        23.93 |        28.89 |\n| Operating Income        |        38.06 |        14.84 |        13.70 |        33.54 |\n| Operating Margin (%)    |        17.89 |         9.79 |         9.41 |        19.18 |\n| Net Income              |        37.59 |         2.55 |        15.58 |        25.00 |\n| Net Margin (%)          |        17.67 |         1.68 |        10.71 |        14.30 |\n| Op Cash Flow            |        52.09 |        15.38 |        34.69 |        72.67 |\n| Investing Cash Flow     |        -6.33 |       -16.20 |       -24.81 |       -11.83 |\n| Financing Cash Flow     |      -161.46 |        88.95 |       145.29 |       -74.19 |\n| CAPEX                   |        -9.33 |       -17.79 |       -13.51 |       -13.78 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

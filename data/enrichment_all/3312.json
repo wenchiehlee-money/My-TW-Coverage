@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3312",
+  "company_name": "弘憶股",
+  "title": "3312 - 弘憶股",
+  "source_md": "Pilot_Reports/半導體 - IC通路/3312_弘憶股.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics Distribution",
+    "market_cap": "7,661 百萬台幣",
+    "enterprise_value": "9,158 百萬台幣"
+  },
+  "business": {
+    "summary": "弘憶國際 (3312，GMI Technology) 是專業 IC 通路商，最主要代理線為 [[瑞昱]]，營收佔比極高。銷售產品涵蓋網通晶片 ([[Wi-Fi 6]]/7、Bluetooth)、音訊晶片、PC 周邊與顯示器控制 IC。受惠於網通規格升級 ([[Wi-Fi 6]]/[[Wi-Fi 7]]) 與寬頻基礎建設需求。近年亦代理中國兆易創新 (GigaDevice) 的 Flash Memory 與 [[MCU]]。另外積極佈局算力租賃 (Cloud Computing) 業務，增添新成長動能。",
+    "entities": [
+      "瑞昱",
+      "Wi-Fi 6",
+      "Wi-Fi 7",
+      "MCU"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (IC 原廠)",
+        "text": "**上游 (IC 原廠):**",
+        "entities": []
+      },
+      {
+        "category": "網通/音訊",
+        "text": "[[瑞昱]] — 網通晶片/音訊晶片 (最大代理線)",
+        "entities": [
+          "瑞昱"
+        ]
+      },
+      {
+        "category": "記憶體/MCU",
+        "text": "兆易創新 (GigaDevice) — Flash Memory/[[MCU]]",
+        "entities": [
+          "MCU"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**弘憶股** (IC 代理銷售、FAE 技術支援)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "網通設備",
+        "text": "路由器、機上盒 (STB) 製造商",
+        "entities": []
+      },
+      {
+        "category": "PC/NB",
+        "text": "音效卡、讀卡機製造商",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "藍牙耳機、智慧音箱製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "網通系統廠",
+        "text": "國內外網通與消費電子代工廠",
+        "entities": []
+      },
+      {
+        "role": "電信運營商標案",
+        "text": "透過系統廠交貨",
+        "entities": []
+      },
+      {
+        "role": "PC/消費電子",
+        "text": "音效/藍牙設備製造商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "核心代理",
+        "text": "[[瑞昱]] — 網通/音訊 IC (最大供應商，營收佔比逾 7 成)",
+        "entities": [
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "兆易創新 (GigaDevice) — Flash Memory/[[MCU]]",
+        "entities": [
+          "MCU"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "Wi-Fi 6",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 6"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "弘憶國際 (3312，GMI Technology) 是專業 IC 通路商，最主要代理線為 [[瑞昱]]，營收佔比極高。銷售產品涵蓋網通晶片 ([[Wi-Fi 6]]/7、Bluetooth)、音訊晶片、PC 周邊與顯示器控制 IC。受惠於網通規格升級 ([[Wi-Fi 6]]/[[Wi-Fi 7]]) 與寬頻基礎建設需求。近年亦代理中國兆易創新 (GigaDevice) 的 Flash Memory 與 [[MCU]]。另外積極佈局算力租賃 (Cloud Computing) 業務，增添新成長動能。",
+    "supply_chain_md": "**上游 (IC 原廠):**\n- **網通/音訊:** [[瑞昱]] — 網通晶片/音訊晶片 (最大代理線)\n- **記憶體/MCU:** 兆易創新 (GigaDevice) — Flash Memory/[[MCU]]\n\n**中游 (通路代理):**\n- **弘憶股** (IC 代理銷售、FAE 技術支援)\n\n**下游 (終端應用):**\n- **網通設備:** 路由器、機上盒 (STB) 製造商\n- **PC/NB:** 音效卡、讀卡機製造商\n- **消費電子:** 藍牙耳機、智慧音箱製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **網通系統廠:** 國內外網通與消費電子代工廠\n- **電信運營商標案:** 透過系統廠交貨\n- **PC/消費電子:** 音效/藍牙設備製造商\n\n### 主要供應商\n- **核心代理:** [[瑞昱]] — 網通/音訊 IC (最大供應商，營收佔比逾 7 成)\n- **記憶體:** 兆易創新 (GigaDevice) — Flash Memory/[[MCU]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $39.65 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     23.19 |         N/A |      0.35 | 1.76 |     18.89 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     21015.60 |     17709.44 |     15276.76 |\n| Gross Profit            |      1108.83 |       945.88 |       865.65 |\n| Gross Margin (%)        |         5.28 |         5.34 |         5.67 |\n| Selling & Marketing Exp |       356.08 |       376.13 |       305.37 |\n| R&D Exp                 |        66.46 |        52.53 |        35.44 |\n| General & Admin Exp     |       184.15 |       162.24 |       135.18 |\n| Operating Income        |       502.15 |       354.97 |       389.66 |\n| Operating Margin (%)    |         2.39 |         2.00 |         2.55 |\n| Net Income              |       288.60 |       386.38 |       322.38 |\n| Net Margin (%)          |         1.37 |         2.18 |         2.11 |\n| Op Cash Flow            |        45.95 |        46.77 |      1471.21 |\n| Investing Cash Flow     |      -939.53 |     -1094.31 |       -64.24 |\n| Financing Cash Flow     |      1275.06 |      1658.32 |     -1355.33 |\n| CAPEX                   |     -1033.85 |     -1086.66 |        -4.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4904.09 |      5205.41 |      5198.93 |      5707.16 |\n| Gross Profit            |       275.35 |       247.21 |       232.80 |       353.48 |\n| Gross Margin (%)        |         5.61 |         4.75 |         4.48 |         6.19 |\n| Selling & Marketing Exp |        77.54 |        78.85 |       113.36 |        86.32 |\n| R&D Exp                 |        20.50 |        17.96 |        17.92 |        10.08 |\n| General & Admin Exp     |        55.79 |        46.67 |        32.56 |        49.12 |\n| Operating Income        |       121.51 |       103.72 |        68.96 |       207.96 |\n| Operating Margin (%)    |         2.48 |         1.99 |         1.33 |         3.64 |\n| Net Income              |       196.43 |       168.80 |      -247.30 |       170.68 |\n| Net Margin (%)          |         4.01 |         3.24 |        -4.76 |         2.99 |\n| Op Cash Flow            |       643.82 |       -98.29 |      -170.58 |      -329.00 |\n| Investing Cash Flow     |       248.39 |      -202.09 |       -21.49 |      -964.34 |\n| Financing Cash Flow     |       -31.46 |       541.33 |       -34.83 |       800.01 |\n| CAPEX                   |        -0.64 |       -36.10 |        -0.05 |      -997.06 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

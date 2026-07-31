@@ -1,0 +1,226 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3653",
+  "company_name": "健策",
+  "title": "3653 - 健策",
+  "source_md": "Pilot_Reports/半導體 - 導線架/3653_健策.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "485,686 百萬台幣",
+    "enterprise_value": "475,574 百萬台幣"
+  },
+  "business": {
+    "summary": "健策精密 (Kenmec) 為台灣最大的 **均熱片 (Vapor Chamber)** 供應商，也是全球精密沖壓及[[散熱]]解決方案的領導者。\n公司產品廣泛應用於[[伺服器]]、[[AI]] 運算、車用電子及通訊領域。\n核心優勢與亮點：\n1.  **[[AI 伺服器]]供應鏈**: 為 [[AMD]]、[[Intel]] 及 [[NVIDIA]] 的關鍵供應商，供應其 GPU 與 CPU 所需的高階均熱片與[[散熱]]模組。\n2.  **散熱技術領先**: 具備冷鍛均熱片、真空腔[[散熱]]技術，並積極佈局 [[AI]] [[伺服器]]所需的 **液冷** [[散熱]]模組與微通道蓋板 (MCL)。\n3.  **伺服器扣件 (ILM)**: 具備[[伺服器]]處理器[[連接器]]緊固件 (ILM) 的設計與製造能力，在[[伺服器]]市場具備極高市佔。\n4.  **自動化能量**: 具備自有[[自動化]]設備開發團隊，支援生產線高度[[自動化]]，提升產品良率與交期競爭力。",
+    "entities": [
+      "散熱",
+      "伺服器",
+      "AI",
+      "AI 伺服器",
+      "AMD",
+      "Intel",
+      "NVIDIA",
+      "連接器",
+      "自動化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 銅材、導熱材料、電子組件原料。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **健策 (3653)** - 均熱片、ILM 扣件、[[散熱]]模組設計製造。",
+        "entities": [
+          "散熱"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**處理器大廠**: [[AMD]], [[Intel]], [[NVIDIA]].",
+        "entities": [
+          "AMD",
+          "Intel",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**伺服器代工廠**: [[鴻海]], [[廣達]], [[緯創]].",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**車用與通訊**: 汽車 Tier-1 供應商, 基站設備業者。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "知名[[半導體]]巨頭：[[AMD]], [[Intel]], [[NVIDIA]]。",
+        "entities": [
+          "半導體",
+          "AMD",
+          "Intel",
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[雲端服務]]供應商 ([[CSP]]) 的 [[AI]] 加速器專案。",
+        "entities": [
+          "雲端服務",
+          "CSP",
+          "AI"
+        ]
+      },
+      {
+        "role": "",
+        "text": "歐系與美系車用電子客戶。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "2.  **散熱技術領先**: 具備冷鍛均熱片、真空腔[[散熱]]技術，並積極佈局 [[AI]] [[伺服器]]所需的 **液冷** [[散熱]]模組與微通道蓋板 (MCL)。",
+        "entities": [
+          "散熱",
+          "AI",
+          "伺服器"
+        ]
+      },
+      {
+        "text": "4.  **自動化能量**: 具備自有[[自動化]]設備開發團隊，支援生產線高度[[自動化]]，提升產品良率與交期競爭力。",
+        "entities": [
+          "自動化"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "4.  **自動化能量**: 具備自有[[自動化]]設備開發團隊，支援生產線高度[[自動化]]，提升產品良率與交期競爭力。",
+        "entities": [
+          "自動化"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "健策精密 (Kenmec) 為台灣最大的 **均熱片 (Vapor Chamber)** 供應商，也是全球精密沖壓及[[散熱]]解決方案的領導者。\n公司產品廣泛應用於[[伺服器]]、[[AI]] 運算、車用電子及通訊領域。\n核心優勢與亮點：\n1.  **[[AI 伺服器]]供應鏈**: 為 [[AMD]]、[[Intel]] 及 [[NVIDIA]] 的關鍵供應商，供應其 GPU 與 CPU 所需的高階均熱片與[[散熱]]模組。\n2.  **散熱技術領先**: 具備冷鍛均熱片、真空腔[[散熱]]技術，並積極佈局 [[AI]] [[伺服器]]所需的 **液冷** [[散熱]]模組與微通道蓋板 (MCL)。\n3.  **伺服器扣件 (ILM)**: 具備[[伺服器]]處理器[[連接器]]緊固件 (ILM) 的設計與製造能力，在[[伺服器]]市場具備極高市佔。\n4.  **自動化能量**: 具備自有[[自動化]]設備開發團隊，支援生產線高度[[自動化]]，提升產品良率與交期競爭力。",
+    "supply_chain_md": "*   **上游**: 銅材、導熱材料、電子組件原料。\n*   **中游**: **健策 (3653)** - 均熱片、ILM 扣件、[[散熱]]模組設計製造。\n*   **下游**:\n    *   **處理器大廠**: [[AMD]], [[Intel]], [[NVIDIA]].\n    *   **伺服器代工廠**: [[鴻海]], [[廣達]], [[緯創]].\n    *   **車用與通訊**: 汽車 Tier-1 供應商, 基站設備業者。",
+    "customers_suppliers_md": "### 主要客戶\n*   知名[[半導體]]巨頭：[[AMD]], [[Intel]], [[NVIDIA]]。\n*   [[雲端服務]]供應商 ([[CSP]]) 的 [[AI]] 加速器專案。\n*   歐系與美系車用電子客戶。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $3,135.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|     86.89 |       25.41 |     22.09 | 21.72 |     62.97 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     20275.58 |     14278.19 |     12062.66 |\n| Gross Profit            |      8433.99 |      5365.47 |      4042.42 |\n| Gross Margin (%)        |        41.60 |        37.58 |        33.51 |\n| Selling & Marketing Exp |       241.21 |       182.24 |       195.65 |\n| R&D Exp                 |       739.82 |       597.52 |       527.28 |\n| General & Admin Exp     |       954.82 |       787.15 |       642.53 |\n| Operating Income        |      6498.13 |      3798.56 |      2676.96 |\n| Operating Margin (%)    |        32.05 |        26.60 |        22.19 |\n| Net Income              |      5277.16 |      3427.78 |      2298.19 |\n| Net Margin (%)          |        26.03 |        24.01 |        19.05 |\n| Op Cash Flow            |      4773.52 |      2890.68 |      3057.22 |\n| Investing Cash Flow     |     -1013.58 |     -2563.08 |      -286.81 |\n| Financing Cash Flow     |      3076.72 |     -2215.01 |     -1917.00 |\n| CAPEX                   |     -1193.53 |      -632.02 |      -467.93 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5305.22 |      5272.37 |      5069.50 |      5181.40 |\n| Gross Profit            |      2216.65 |      2174.73 |      1975.65 |      2149.12 |\n| Gross Margin (%)        |        41.78 |        41.25 |        38.97 |        41.48 |\n| Selling & Marketing Exp |        63.81 |        67.83 |        59.63 |        56.20 |\n| R&D Exp                 |       197.24 |       202.02 |       193.78 |       166.06 |\n| General & Admin Exp     |       259.03 |       256.58 |       237.82 |       227.43 |\n| Operating Income        |      1696.57 |      1648.30 |      1484.42 |      1699.44 |\n| Operating Margin (%)    |        31.98 |        31.26 |        29.28 |        32.80 |\n| Net Income              |      1398.20 |      1429.02 |      1355.93 |      1121.26 |\n| Net Margin (%)          |        26.36 |        27.10 |        26.75 |        21.64 |\n| Op Cash Flow            |      1543.19 |      1502.29 |       891.28 |       953.35 |\n| Investing Cash Flow     |      -381.19 |      -564.15 |       -11.30 |      -192.58 |\n| Financing Cash Flow     |       -36.97 |       -12.56 |     -2084.44 |      5185.68 |\n| CAPEX                   |      -396.17 |      -376.39 |      -340.38 |      -216.69 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

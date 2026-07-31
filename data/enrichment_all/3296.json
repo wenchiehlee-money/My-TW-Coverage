@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3296",
+  "company_name": "勝德",
+  "title": "3296 - 勝德",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備之零組件/3296_勝德.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "2,196 百萬台幣",
+    "enterprise_value": "1,985 百萬台幣"
+  },
+  "business": {
+    "summary": "勝德國際研發股份有限公司 (3296) 成立於 2000 年，為專業電源保護與管理產品製造商。核心產品涵蓋防雷擊排插 (Surge Protector)、資料中心電源分配器 ([[PDU]])、[[智慧插座]]及 [[物聯網]] 遠端控制電源設備。產品強調防雷擊、濾波與遠端控制功能。近年因應美中貿易戰，已在越南設立生產基地，主要服務美國市場客戶以規避關稅。",
+    "entities": [
+      "PDU",
+      "智慧插座",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電源元件)",
+        "text": "**上游 (電源元件):**",
+        "entities": []
+      },
+      {
+        "category": "銅材",
+        "text": "銅條與導電端子",
+        "entities": []
+      },
+      {
+        "category": "塑膠殼",
+        "text": "工程塑膠外殼射出件",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "壓敏電阻 (Varistor)、保險絲、[[PCB]]",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電源產品設計製造)",
+        "text": "**中游 (電源產品設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "排插/延長線",
+        "text": "**勝德** (防雷擊排插、延長線)",
+        "entities": []
+      },
+      {
+        "category": "PDU",
+        "text": "**勝德** ([[PDU]] 機櫃式電源分配器)",
+        "entities": [
+          "PDU"
+        ]
+      },
+      {
+        "category": "智慧插座",
+        "text": "**勝德** ([[物聯網]] 遠端控制智慧插座)",
+        "entities": [
+          "物聯網"
+        ]
+      },
+      {
+        "category": "越南廠",
+        "text": "越南生產基地 — 外銷美國",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (零售與資料中心)",
+        "text": "**下游 (零售與資料中心):**",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "[[Walmart]]、[[Home Depot]] — 貼牌延長線/排插",
+        "entities": [
+          "Walmart",
+          "Home Depot"
+        ]
+      },
+      {
+        "category": "品牌客戶",
+        "text": "[[Belkin]] — 消費電子周邊品牌代工",
+        "entities": [
+          "Belkin"
+        ]
+      },
+      {
+        "category": "資料中心",
+        "text": "機櫃式 [[PDU]] 系統客戶",
+        "entities": [
+          "PDU"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "零售通路",
+        "text": "[[Walmart]]、[[Home Depot]] — 美國大型賣場貼牌排插",
+        "entities": [
+          "Walmart",
+          "Home Depot"
+        ]
+      },
+      {
+        "role": "品牌商",
+        "text": "[[Belkin]] — 消費電子周邊品牌 OEM/ODM",
+        "entities": [
+          "Belkin"
+        ]
+      },
+      {
+        "role": "資料中心",
+        "text": "機櫃式 [[PDU]] 系統整合客戶",
+        "entities": [
+          "PDU"
+        ]
+      },
+      {
+        "role": "歐美進口商",
+        "text": "歐美電源產品進口與經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材",
+        "text": "銅條與導電端子供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠",
+        "text": "工程塑膠射出成型廠",
+        "entities": []
+      },
+      {
+        "role": "電子元件",
+        "text": "壓敏電阻、保險絲供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PDU",
+      "type": "international_company_or_term",
+      "wikilink": "PDU"
+    },
+    {
+      "name": "智慧插座",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智慧插座"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "Home Depot",
+      "type": "international_company_or_term",
+      "wikilink": "Home Depot"
+    },
+    {
+      "name": "Belkin",
+      "type": "international_company_or_term",
+      "wikilink": "Belkin"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "勝德國際研發股份有限公司 (3296) 成立於 2000 年，為專業電源保護與管理產品製造商。核心產品涵蓋防雷擊排插 (Surge Protector)、資料中心電源分配器 ([[PDU]])、[[智慧插座]]及 [[物聯網]] 遠端控制電源設備。產品強調防雷擊、濾波與遠端控制功能。近年因應美中貿易戰，已在越南設立生產基地，主要服務美國市場客戶以規避關稅。",
+    "supply_chain_md": "**上游 (電源元件):**\n- **銅材:** 銅條與導電端子\n- **塑膠殼:** 工程塑膠外殼射出件\n- **電子元件:** 壓敏電阻 (Varistor)、保險絲、[[PCB]]\n\n**中游 (電源產品設計製造):**\n- **排插/延長線:** **勝德** (防雷擊排插、延長線)\n- **PDU:** **勝德** ([[PDU]] 機櫃式電源分配器)\n- **智慧插座:** **勝德** ([[物聯網]] 遠端控制智慧插座)\n- **越南廠:** 越南生產基地 — 外銷美國\n\n**下游 (零售與資料中心):**\n- **零售通路:** [[Walmart]]、[[Home Depot]] — 貼牌延長線/排插\n- **品牌客戶:** [[Belkin]] — 消費電子周邊品牌代工\n- **資料中心:** 機櫃式 [[PDU]] 系統客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **零售通路:** [[Walmart]]、[[Home Depot]] — 美國大型賣場貼牌排插\n- **品牌商:** [[Belkin]] — 消費電子周邊品牌 OEM/ODM\n- **資料中心:** 機櫃式 [[PDU]] 系統整合客戶\n- **歐美進口商:** 歐美電源產品進口與經銷商\n\n### 主要供應商\n- **銅材:** 銅條與導電端子供應商\n- **塑膠:** 工程塑膠射出成型廠\n- **電子元件:** 壓敏電阻、保險絲供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $21.65 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     35.49 |         N/A |      1.35 | 1.66 |     26.60 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1597.21 |      1624.24 |      1490.17 |\n| Gross Profit            |       337.83 |       359.96 |       291.08 |\n| Gross Margin (%)        |        21.15 |        22.16 |        19.53 |\n| Selling & Marketing Exp |        42.07 |        57.10 |        55.16 |\n| R&D Exp                 |        78.43 |        75.11 |        84.14 |\n| General & Admin Exp     |       170.60 |       231.69 |       245.65 |\n| Operating Income        |        46.72 |        -3.94 |       -93.88 |\n| Operating Margin (%)    |         2.93 |        -0.24 |        -6.30 |\n| Net Income              |        59.44 |        48.40 |       -87.70 |\n| Net Margin (%)          |         3.72 |         2.98 |        -5.89 |\n| Op Cash Flow            |       256.28 |       162.36 |       224.93 |\n| Investing Cash Flow     |      -303.20 |      -148.57 |       -30.20 |\n| Financing Cash Flow     |        74.45 |        27.93 |      -137.83 |\n| CAPEX                   |      -275.42 |       -31.80 |       -45.55 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       400.70 |       377.72 |       439.57 |       379.23 |\n| Gross Profit            |        76.98 |        75.44 |        99.42 |        85.99 |\n| Gross Margin (%)        |        19.21 |        19.97 |        22.62 |        22.67 |\n| Selling & Marketing Exp |         5.26 |        11.28 |        12.50 |        13.04 |\n| R&D Exp                 |        20.20 |        19.62 |        19.11 |        19.50 |\n| General & Admin Exp     |        43.54 |        38.77 |        43.38 |        44.92 |\n| Operating Income        |         7.98 |         5.78 |        24.44 |         8.53 |\n| Operating Margin (%)    |         1.99 |         1.53 |         5.56 |         2.25 |\n| Net Income              |        -7.14 |         1.15 |        54.86 |        10.58 |\n| Net Margin (%)          |        -1.78 |         0.30 |        12.48 |         2.79 |\n| Op Cash Flow            |       -25.71 |       -19.67 |       260.63 |        41.02 |\n| Investing Cash Flow     |       -48.05 |       -64.65 |       -72.74 |      -117.76 |\n| Financing Cash Flow     |        93.75 |         8.12 |       -12.64 |       -14.77 |\n| CAPEX                   |       -51.03 |       -68.62 |       -79.50 |       -76.27 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

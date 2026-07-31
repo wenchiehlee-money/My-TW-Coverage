@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6151",
+  "company_name": "晉倫",
+  "title": "6151_晉倫",
+  "source_md": "Pilot_Reports/醫療器材 - 電子零組件、塑化材料、五金零件/6151_晉倫.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "1,818 百萬台幣",
+    "enterprise_value": "1,818 百萬台幣"
+  },
+  "business": {
+    "summary": "晉倫科技 (6151，Ginar Technology) 為工程塑膠複合材料配方研發製造商，專精尼龍 (PA)、PP、PC、ABS 等複合材料，添加玻纖/碳纖/導熱粉實現耐熱、耐磨、導熱、[[EMI]]遮蔽等特殊性能。產品應用涵蓋汽車零組件、電子機殼及[[半導體]]周邊 (如[[FOUP]]晶圓傳輸盒原料)。上游基礎塑膠粒來自[[台塑]]、[[南亞塑膠]]、[[奇美實業]]，國際特殊添加劑來自[[BASF]]、[[杜邦]]。下游客戶涵蓋[[鴻海]]、[[中華汽車]]、[[東陽]]、[[堤維西]]等。",
+    "entities": [
+      "EMI",
+      "半導體",
+      "FOUP",
+      "台塑",
+      "南亞塑膠",
+      "奇美實業",
+      "BASF",
+      "杜邦",
+      "鴻海",
+      "中華汽車",
+      "東陽",
+      "堤維西"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "基礎塑膠",
+        "text": "[[台塑]]、[[南亞塑膠]]、[[奇美實業]] — 塑膠粒",
+        "entities": [
+          "台塑",
+          "南亞塑膠",
+          "奇美實業"
+        ]
+      },
+      {
+        "category": "特殊添加劑",
+        "text": "[[BASF]]、[[杜邦]] — 功能性添加劑",
+        "entities": [
+          "BASF",
+          "杜邦"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**晉倫** (工程塑膠複合材料配方研發/[[EMI]]遮蔽/導熱/[[FOUP]]原料)",
+        "entities": [
+          "EMI",
+          "FOUP"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "汽車",
+        "text": "[[中華汽車]]、[[東陽]]、[[堤維西]] — 車用零組件",
+        "entities": [
+          "中華汽車",
+          "東陽",
+          "堤維西"
+        ]
+      },
+      {
+        "category": "電子",
+        "text": "[[鴻海]] — 電子機殼",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[FOUP]]晶圓傳輸盒原料",
+        "entities": [
+          "FOUP"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "汽車",
+        "text": "[[中華汽車]]、[[東陽]]、[[堤維西]] — 車用複合材料",
+        "entities": [
+          "中華汽車",
+          "東陽",
+          "堤維西"
+        ]
+      },
+      {
+        "role": "電子",
+        "text": "[[鴻海]] — 機殼用工程塑膠",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[FOUP]]晶圓傳輸盒原料",
+        "entities": [
+          "FOUP"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠",
+        "text": "[[台塑]]、[[南亞塑膠]]、[[奇美實業]]",
+        "entities": [
+          "台塑",
+          "南亞塑膠",
+          "奇美實業"
+        ]
+      },
+      {
+        "role": "添加劑",
+        "text": "[[BASF]]、[[杜邦]]",
+        "entities": [
+          "BASF",
+          "杜邦"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EMI",
+      "type": "international_company_or_term",
+      "wikilink": "EMI"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "FOUP",
+      "type": "international_company_or_term",
+      "wikilink": "FOUP"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "奇美實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇美實業"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "杜邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "杜邦"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "中華汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華汽車"
+    },
+    {
+      "name": "東陽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東陽"
+    },
+    {
+      "name": "堤維西",
+      "type": "taiwan_company_or_term",
+      "wikilink": "堤維西"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晉倫科技 (6151，Ginar Technology) 為工程塑膠複合材料配方研發製造商，專精尼龍 (PA)、PP、PC、ABS 等複合材料，添加玻纖/碳纖/導熱粉實現耐熱、耐磨、導熱、[[EMI]]遮蔽等特殊性能。產品應用涵蓋汽車零組件、電子機殼及[[半導體]]周邊 (如[[FOUP]]晶圓傳輸盒原料)。上游基礎塑膠粒來自[[台塑]]、[[南亞塑膠]]、[[奇美實業]]，國際特殊添加劑來自[[BASF]]、[[杜邦]]。下游客戶涵蓋[[鴻海]]、[[中華汽車]]、[[東陽]]、[[堤維西]]等。",
+    "supply_chain_md": "**上游 (原料):**\n- **基礎塑膠:** [[台塑]]、[[南亞塑膠]]、[[奇美實業]] — 塑膠粒\n- **特殊添加劑:** [[BASF]]、[[杜邦]] — 功能性添加劑\n\n**中游 (製造):**\n- **晉倫** (工程塑膠複合材料配方研發/[[EMI]]遮蔽/導熱/[[FOUP]]原料)\n\n**下游 (終端):**\n- **汽車:** [[中華汽車]]、[[東陽]]、[[堤維西]] — 車用零組件\n- **電子:** [[鴻海]] — 電子機殼\n- **半導體:** [[FOUP]]晶圓傳輸盒原料",
+    "customers_suppliers_md": "### 主要客戶\n- **汽車:** [[中華汽車]]、[[東陽]]、[[堤維西]] — 車用複合材料\n- **電子:** [[鴻海]] — 機殼用工程塑膠\n- **半導體:** [[FOUP]]晶圓傳輸盒原料\n\n### 主要供應商\n- **塑膠:** [[台塑]]、[[南亞塑膠]]、[[奇美實業]]\n- **添加劑:** [[BASF]]、[[杜邦]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $32.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     20.99 |         N/A |      1.05 | 1.89 |      8.40 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1721.04 |      1664.16 |      1558.37 |\n| Gross Profit            |       370.84 |       333.55 |       323.28 |\n| Gross Margin (%)        |        21.55 |        20.04 |        20.74 |\n| Selling & Marketing Exp |        82.58 |        85.03 |        72.89 |\n| R&D Exp                 |        70.45 |        74.19 |        82.68 |\n| General & Admin Exp     |        64.72 |        59.30 |        69.33 |\n| Operating Income        |       153.10 |       115.03 |        98.39 |\n| Operating Margin (%)    |         8.90 |         6.91 |         6.31 |\n| Net Income              |        64.09 |        82.05 |        85.38 |\n| Net Margin (%)          |         3.72 |         4.93 |         5.48 |\n| Op Cash Flow            |       218.50 |        71.93 |       175.76 |\n| Investing Cash Flow     |         1.00 |       -33.81 |       -39.35 |\n| Financing Cash Flow     |      -157.70 |      -125.16 |       -84.42 |\n| CAPEX                   |       -16.28 |       -45.84 |       -37.38 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       417.54 |       446.42 |       400.35 |       458.39 |\n| Gross Profit            |       103.47 |        99.76 |        85.57 |        96.35 |\n| Gross Margin (%)        |        24.78 |        22.35 |        21.37 |        21.02 |\n| Selling & Marketing Exp |        21.37 |        20.86 |        18.85 |        21.47 |\n| R&D Exp                 |        16.74 |        14.42 |        20.32 |        20.00 |\n| General & Admin Exp     |        18.08 |        14.37 |        17.71 |        16.16 |\n| Operating Income        |        47.28 |        50.09 |        28.69 |        38.72 |\n| Operating Margin (%)    |        11.32 |        11.22 |         7.17 |         8.45 |\n| Net Income              |        39.70 |         5.53 |        18.26 |        22.40 |\n| Net Margin (%)          |         9.51 |         1.24 |         4.56 |         4.89 |\n| Op Cash Flow            |        29.01 |        73.53 |         9.32 |       106.53 |\n| Investing Cash Flow     |       -12.30 |        17.82 |        -3.93 |        19.68 |\n| Financing Cash Flow     |       -58.15 |       -86.30 |       -60.84 |         6.60 |\n| CAPEX                   |        -2.60 |         1.59 |        -3.24 |        -7.64 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

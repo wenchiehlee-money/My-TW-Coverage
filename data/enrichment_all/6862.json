@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6862",
+  "company_name": "三集瑞-KY",
+  "title": "6862_三集瑞-KY",
+  "source_md": "Pilot_Reports/Electronic Components/6862_三集瑞-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "6,025 百萬台幣",
+    "enterprise_value": "5,949 百萬台幣"
+  },
+  "business": {
+    "summary": "三集瑞-KY (6862，[[Trio Technology]]) 為高階客製化電感元件大廠，在繞線式電感領域深具競爭力，專注於為 AI 伺服器與高階顯示卡提供關鍵被動元件。\n\n業務結構與動能：(1) TLVR 模壓電感 — 為 [[NVIDIA]] 與 [[AMD]] 平台之 [[AI 伺服器]]、高階顯示卡 (GPU) 主板供應高功率、大電流、微型化 TLVR (Trans-Inductor Voltage Regulator) 模壓電感，AI 產品營收占比已達 15% 並持續攀升；(2) 繞線式電感 — 各式客製化繞線電感，應用於 PC 主機板、筆電與網通設備；(3) 車用電感 — 布局車用電子功率電感。公司具備 30 年以上電感製造經驗與自動化繞線工藝，產品廣泛應用於主機板、筆電、顯示卡、AI 伺服器及車用電子。",
+    "entities": [
+      "Trio Technology",
+      "NVIDIA",
+      "AMD",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "漆包線",
+        "text": "銅材線圈漆包線供應商",
+        "entities": []
+      },
+      {
+        "category": "磁性粉末",
+        "text": "高導磁率金屬磁性粉末",
+        "entities": []
+      },
+      {
+        "category": "磁芯",
+        "text": "鐵氧體磁芯供應商",
+        "entities": []
+      },
+      {
+        "category": "引線/塗料",
+        "text": "金屬引線與絕緣保護塗料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電感製造)",
+        "text": "**中游 (電感製造):**",
+        "entities": []
+      },
+      {
+        "category": "TLVR 電感",
+        "text": "**三集瑞** ([[AI 伺服器]]用 TLVR 模壓電感)",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "繞線電感",
+        "text": "**三集瑞** (PC/NB 客製化繞線電感)",
+        "entities": []
+      },
+      {
+        "category": "車用電感",
+        "text": "**三集瑞** (車用功率電感)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (主機板與伺服器)",
+        "text": "**下游 (主機板與伺服器):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[NVIDIA]]、[[AMD]] 平台伺服器代工廠 — TLVR 電感",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "category": "主機板",
+        "text": "全球主機板大廠 — 繞線電感",
+        "entities": []
+      },
+      {
+        "category": "顯示卡",
+        "text": "顯示卡品牌商 — GPU 用電感",
+        "entities": []
+      },
+      {
+        "category": "筆電",
+        "text": "NB 系統品牌 — 功率電感",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 伺服器",
+        "text": "[[NVIDIA]]、[[AMD]] 平台伺服器代工廠 — TLVR 模壓電感",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "role": "主機板",
+        "text": "全球主機板大廠 — 客製化繞線電感",
+        "entities": []
+      },
+      {
+        "role": "顯示卡",
+        "text": "顯示卡品牌商 — GPU 用高功率電感",
+        "entities": []
+      },
+      {
+        "role": "筆電/PC",
+        "text": "NB 與 PC 系統品牌 — 功率電感",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "漆包線",
+        "text": "銅材漆包線供應商",
+        "entities": []
+      },
+      {
+        "role": "磁性材料",
+        "text": "高導磁率金屬粉末與鐵氧體磁芯",
+        "entities": []
+      },
+      {
+        "role": "絕緣材料",
+        "text": "絕緣保護塗料與引線供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": [
+      {
+        "text": "三集瑞-KY (6862，[[Trio Technology]]) 為高階客製化電感元件大廠，在繞線式電感領域深具競爭力，專注於為 AI 伺服器與高階顯示卡提供關鍵被動元件。",
+        "entities": [
+          "Trio Technology"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "Trio Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Trio Technology"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三集瑞-KY (6862，[[Trio Technology]]) 為高階客製化電感元件大廠，在繞線式電感領域深具競爭力，專注於為 AI 伺服器與高階顯示卡提供關鍵被動元件。\n\n業務結構與動能：(1) TLVR 模壓電感 — 為 [[NVIDIA]] 與 [[AMD]] 平台之 [[AI 伺服器]]、高階顯示卡 (GPU) 主板供應高功率、大電流、微型化 TLVR (Trans-Inductor Voltage Regulator) 模壓電感，AI 產品營收占比已達 15% 並持續攀升；(2) 繞線式電感 — 各式客製化繞線電感，應用於 PC 主機板、筆電與網通設備；(3) 車用電感 — 布局車用電子功率電感。公司具備 30 年以上電感製造經驗與自動化繞線工藝，產品廣泛應用於主機板、筆電、顯示卡、AI 伺服器及車用電子。",
+    "supply_chain_md": "**上游 (材料):**\n- **漆包線:** 銅材線圈漆包線供應商\n- **磁性粉末:** 高導磁率金屬磁性粉末\n- **磁芯:** 鐵氧體磁芯供應商\n- **引線/塗料:** 金屬引線與絕緣保護塗料\n\n**中游 (電感製造):**\n- **TLVR 電感:** **三集瑞** ([[AI 伺服器]]用 TLVR 模壓電感)\n- **繞線電感:** **三集瑞** (PC/NB 客製化繞線電感)\n- **車用電感:** **三集瑞** (車用功率電感)\n\n**下游 (主機板與伺服器):**\n- **AI 伺服器:** [[NVIDIA]]、[[AMD]] 平台伺服器代工廠 — TLVR 電感\n- **主機板:** 全球主機板大廠 — 繞線電感\n- **顯示卡:** 顯示卡品牌商 — GPU 用電感\n- **筆電:** NB 系統品牌 — 功率電感",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 伺服器:** [[NVIDIA]]、[[AMD]] 平台伺服器代工廠 — TLVR 模壓電感\n- **主機板:** 全球主機板大廠 — 客製化繞線電感\n- **顯示卡:** 顯示卡品牌商 — GPU 用高功率電感\n- **筆電/PC:** NB 與 PC 系統品牌 — 功率電感\n\n### 主要供應商\n- **漆包線:** 銅材漆包線供應商\n- **磁性材料:** 高導磁率金屬粉末與鐵氧體磁芯\n- **絕緣材料:** 絕緣保護塗料與引線供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $117.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     19.31 |        8.32 |      2.75 | 1.87 |      9.76 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2265.72 |      2200.24 |      1594.62 |\n| Gross Profit            |       911.37 |       915.07 |       737.32 |\n| Gross Margin (%)        |        40.22 |        41.59 |        46.24 |\n| Selling & Marketing Exp |        77.47 |        93.72 |        62.97 |\n| R&D Exp                 |        74.45 |        61.90 |        28.05 |\n| General & Admin Exp     |       201.84 |       214.73 |       160.22 |\n| Operating Income        |       557.60 |       544.72 |       486.08 |\n| Operating Margin (%)    |        24.61 |        24.76 |        30.48 |\n| Net Income              |       414.51 |       515.62 |       392.34 |\n| Net Margin (%)          |        18.29 |        23.43 |        24.60 |\n| Op Cash Flow            |       585.61 |       504.84 |       387.31 |\n| Investing Cash Flow     |     -1055.52 |      -477.61 |      -461.03 |\n| Financing Cash Flow     |       159.27 |       366.43 |       301.65 |\n| CAPEX                   |     -1096.94 |      -556.71 |      -241.54 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       471.24 |       503.30 |       503.01 |       649.03 |\n| Gross Profit            |       153.40 |       191.20 |       191.15 |       281.48 |\n| Gross Margin (%)        |        32.55 |        37.99 |        38.00 |        43.37 |\n| Selling & Marketing Exp |        22.33 |        24.23 |        10.44 |        18.50 |\n| R&D Exp                 |        23.19 |        17.81 |        21.38 |        17.57 |\n| General & Admin Exp     |        47.06 |        55.92 |        48.77 |        45.88 |\n| Operating Income        |        60.82 |        93.23 |       110.56 |       199.52 |\n| Operating Margin (%)    |        12.91 |        18.52 |        21.98 |        30.74 |\n| Net Income              |        50.14 |       113.69 |       141.06 |         0.02 |\n| Net Margin (%)          |        10.64 |        22.59 |        28.04 |         0.00 |\n| Op Cash Flow            |        75.11 |       298.86 |       184.32 |         3.06 |\n| Investing Cash Flow     |      -101.40 |      -652.16 |      -350.81 |       -37.68 |\n| Financing Cash Flow     |       988.94 |       194.15 |      -122.19 |       -41.01 |\n| CAPEX                   |       -57.35 |      -646.88 |      -316.90 |        -5.18 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

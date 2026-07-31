@@ -1,0 +1,321 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2881",
+  "company_name": "富邦金",
+  "title": "2881 - [[富邦金]]",
+  "source_md": "Pilot_Reports/金融 - 金控業_銀行業_保險業/2881_富邦金.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Insurance - Life",
+    "market_cap": "1,680,884 百萬台幣",
+    "enterprise_value": "1,254,726 百萬台幣"
+  },
+  "business": {
+    "summary": "[[富邦金控]] (2881) 為台灣獲利能力最強之金融控股公司，長期蟬聯金控獲利王。集團擁有雙引擎架構：(1) [[富邦人壽]] — 台灣前三大壽險公司，投資績效優異，貢獻集團主要獲利；(2) [[台北富邦銀行]] — 國內頂尖民營銀行，2023 年合併原[[日盛銀行]]後規模再度擴大，企金與消金業務並重。旗下[[富邦證券]]為大型綜合券商，[[富邦產險]]為台灣產險業龍頭，[[富邦投信]]為主要 ETF 發行商之一。集團透過 [[momo購物網]] (富邦媒，8454) 生態圈、[[Costco]] 聯名卡及 CUBE 數位銀行等佈建金融生態系。海外版圖涵蓋香港[[富邦銀行 (香港)]]、中國[[富邦華一銀行]]及韓國[[富邦現代人壽]]，並持續深耕越南市場。集團受[[金管會]]監理。",
+    "entities": [
+      "富邦金控",
+      "富邦人壽",
+      "台北富邦銀行",
+      "日盛銀行",
+      "富邦證券",
+      "富邦產險",
+      "富邦投信",
+      "momo購物網",
+      "Costco",
+      "富邦銀行 (香港)",
+      "富邦華一銀行",
+      "富邦現代人壽",
+      "金管會"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金供給與風險分散)",
+        "text": "**上游 (資金供給與風險分散):**",
+        "entities": []
+      },
+      {
+        "category": "壽險保費",
+        "text": "[[富邦人壽]]保戶長期資金",
+        "entities": [
+          "富邦人壽"
+        ]
+      },
+      {
+        "category": "銀行存款",
+        "text": "[[台北富邦銀行]]存款戶",
+        "entities": [
+          "台北富邦銀行"
+        ]
+      },
+      {
+        "category": "再保險",
+        "text": "國際再保險公司如 [[Swiss Re]]、[[Munich Re]] — 壽險及產險風險分散",
+        "entities": [
+          "Swiss Re",
+          "Munich Re"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (金融本體)",
+        "text": "**中游 (金融本體):**",
+        "entities": []
+      },
+      {
+        "category": "壽險",
+        "text": "[[富邦人壽]] — 保單設計、資產配置",
+        "entities": [
+          "富邦人壽"
+        ]
+      },
+      {
+        "category": "銀行",
+        "text": "[[台北富邦銀行]] — 企金聯貸、消費信貸、信用卡、財富管理",
+        "entities": [
+          "台北富邦銀行"
+        ]
+      },
+      {
+        "category": "產險",
+        "text": "[[富邦產險]] — 車險、火險、責任險",
+        "entities": [
+          "富邦產險"
+        ]
+      },
+      {
+        "category": "證券",
+        "text": "[[富邦證券]] — 經紀、承銷、自營",
+        "entities": [
+          "富邦證券"
+        ]
+      },
+      {
+        "category": "投信",
+        "text": "[[富邦投信]] — 基金與 ETF 管理",
+        "entities": [
+          "富邦投信"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (客戶與通路)",
+        "text": "**下游 (客戶與通路):**",
+        "entities": []
+      },
+      {
+        "category": "個人客戶",
+        "text": "壽險保戶、信用卡持卡人、證券投資人",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "龍頭企業至中小企業之聯貸與金融服務",
+        "entities": []
+      },
+      {
+        "category": "生態圈夥伴",
+        "text": "[[momo購物網]]、[[Costco]] — 聯名卡與跨售",
+        "entities": [
+          "momo購物網",
+          "Costco"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "壽險保戶",
+        "text": "[[富邦人壽]]全台龐大保戶群",
+        "entities": [
+          "富邦人壽"
+        ]
+      },
+      {
+        "role": "信用卡用戶",
+        "text": "[[台北富邦銀行]] — [[momo購物網]]聯名卡、[[Costco]]聯名卡持卡人",
+        "entities": [
+          "台北富邦銀行",
+          "momo購物網",
+          "Costco"
+        ]
+      },
+      {
+        "role": "企業金融",
+        "text": "國內外大型企業聯貸案與中小企業授信",
+        "entities": []
+      },
+      {
+        "role": "證券投資人",
+        "text": "[[富邦證券]]經紀客戶",
+        "entities": [
+          "富邦證券"
+        ]
+      },
+      {
+        "role": "ETF 投資人",
+        "text": "[[富邦投信]] ETF 受益人",
+        "entities": [
+          "富邦投信"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "再保險",
+        "text": "[[Swiss Re]]、[[Munich Re]] — 壽險與產險風險轉移",
+        "entities": [
+          "Swiss Re",
+          "Munich Re"
+        ]
+      },
+      {
+        "role": "生態圈夥伴",
+        "text": "[[momo購物網]] — 電商金融生態系；[[Costco]] — 聯名卡通路合作",
+        "entities": [
+          "momo購物網",
+          "Costco"
+        ]
+      },
+      {
+        "role": "海外據點",
+        "text": "[[富邦銀行 (香港)]]、[[富邦華一銀行]] (中國)、[[富邦現代人壽]] (韓國)",
+        "entities": [
+          "富邦銀行 (香港)",
+          "富邦華一銀行",
+          "富邦現代人壽"
+        ]
+      },
+      {
+        "role": "監理機關",
+        "text": "[[金管會]] — 金融監理",
+        "entities": [
+          "金管會"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "**上游 (資金供給與風險分散):**",
+        "entities": []
+      },
+      {
+        "text": "- **再保險:** 國際再保險公司如 [[Swiss Re]]、[[Munich Re]] — 壽險及產險風險分散",
+        "entities": [
+          "Swiss Re",
+          "Munich Re"
+        ]
+      },
+      {
+        "text": "- **再保險:** [[Swiss Re]]、[[Munich Re]] — 壽險與產險風險轉移",
+        "entities": [
+          "Swiss Re",
+          "Munich Re"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "富邦金控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦金控"
+    },
+    {
+      "name": "富邦人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦人壽"
+    },
+    {
+      "name": "台北富邦銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北富邦銀行"
+    },
+    {
+      "name": "日盛銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日盛銀行"
+    },
+    {
+      "name": "富邦證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦證券"
+    },
+    {
+      "name": "富邦產險",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦產險"
+    },
+    {
+      "name": "富邦投信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦投信"
+    },
+    {
+      "name": "momo購物網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "momo購物網"
+    },
+    {
+      "name": "Costco",
+      "type": "international_company_or_term",
+      "wikilink": "Costco"
+    },
+    {
+      "name": "富邦銀行 (香港)",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦銀行 (香港)"
+    },
+    {
+      "name": "富邦華一銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦華一銀行"
+    },
+    {
+      "name": "富邦現代人壽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富邦現代人壽"
+    },
+    {
+      "name": "金管會",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金管會"
+    },
+    {
+      "name": "Swiss Re",
+      "type": "international_company_or_term",
+      "wikilink": "Swiss Re"
+    },
+    {
+      "name": "Munich Re",
+      "type": "international_company_or_term",
+      "wikilink": "Munich Re"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[富邦金控]] (2881) 為台灣獲利能力最強之金融控股公司，長期蟬聯金控獲利王。集團擁有雙引擎架構：(1) [[富邦人壽]] — 台灣前三大壽險公司，投資績效優異，貢獻集團主要獲利；(2) [[台北富邦銀行]] — 國內頂尖民營銀行，2023 年合併原[[日盛銀行]]後規模再度擴大，企金與消金業務並重。旗下[[富邦證券]]為大型綜合券商，[[富邦產險]]為台灣產險業龍頭，[[富邦投信]]為主要 ETF 發行商之一。集團透過 [[momo購物網]] (富邦媒，8454) 生態圈、[[Costco]] 聯名卡及 CUBE 數位銀行等佈建金融生態系。海外版圖涵蓋香港[[富邦銀行 (香港)]]、中國[[富邦華一銀行]]及韓國[[富邦現代人壽]]，並持續深耕越南市場。集團受[[金管會]]監理。",
+    "supply_chain_md": "**上游 (資金供給與風險分散):**\n- **壽險保費:** [[富邦人壽]]保戶長期資金\n- **銀行存款:** [[台北富邦銀行]]存款戶\n- **再保險:** 國際再保險公司如 [[Swiss Re]]、[[Munich Re]] — 壽險及產險風險分散\n\n**中游 (金融本體):**\n- **壽險:** [[富邦人壽]] — 保單設計、資產配置\n- **銀行:** [[台北富邦銀行]] — 企金聯貸、消費信貸、信用卡、財富管理\n- **產險:** [[富邦產險]] — 車險、火險、責任險\n- **證券:** [[富邦證券]] — 經紀、承銷、自營\n- **投信:** [[富邦投信]] — 基金與 ETF 管理\n\n**下游 (客戶與通路):**\n- **個人客戶:** 壽險保戶、信用卡持卡人、證券投資人\n- **企業客戶:** 龍頭企業至中小企業之聯貸與金融服務\n- **生態圈夥伴:** [[momo購物網]]、[[Costco]] — 聯名卡與跨售",
+    "customers_suppliers_md": "### 主要客戶\n- **壽險保戶:** [[富邦人壽]]全台龐大保戶群\n- **信用卡用戶:** [[台北富邦銀行]] — [[momo購物網]]聯名卡、[[Costco]]聯名卡持卡人\n- **企業金融:** 國內外大型企業聯貸案與中小企業授信\n- **證券投資人:** [[富邦證券]]經紀客戶\n- **ETF 投資人:** [[富邦投信]] ETF 受益人\n\n### 主要供應商\n- **再保險:** [[Swiss Re]]、[[Munich Re]] — 壽險與產險風險轉移\n- **生態圈夥伴:** [[momo購物網]] — 電商金融生態系；[[Costco]] — 聯名卡通路合作\n- **海外據點:** [[富邦銀行 (香港)]]、[[富邦華一銀行]] (中國)、[[富邦現代人壽]] (韓國)\n- **監理機關:** [[金管會]] — 金融監理",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $124.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.83 |       11.69 |      1.62 | 1.73 |      3.08 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    379304.53 |    347087.05 |    171892.24 |\n| Gross Profit            |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |     36852.40 |     36787.46 |     31150.15 |\n| Operating Income        |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |\n| Net Income              |    120943.98 |    150820.14 |     66016.74 |\n| Net Margin (%)          |        31.89 |        43.45 |        38.41 |\n| Op Cash Flow            |     14407.55 |     77414.19 |    -84891.25 |\n| Investing Cash Flow     |    -23173.58 |    -11652.17 |    -10739.11 |\n| Financing Cash Flow     |     51843.43 |     29154.63 |     49067.28 |\n| CAPEX                   |     -8654.14 |     -6304.58 |     -5611.31 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    142600.87 |    124288.01 |      3760.81 |    108654.85 |\n| Gross Profit            |       -    |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |     10339.90 |      9417.30 |      8938.86 |      8156.36 |\n| Operating Income        |       -    |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |       -    |\n| Net Income              |     30038.81 |     39521.65 |     10325.73 |     41057.79 |\n| Net Margin (%)          |        21.06 |        31.80 |       274.56 |        37.79 |\n| Op Cash Flow            |      5359.19 |    -27739.54 |     25408.51 |     11379.39 |\n| Investing Cash Flow     |     -4878.51 |     -8418.85 |     -7124.89 |     -2751.32 |\n| Financing Cash Flow     |     45822.98 |     19343.73 |    -21512.31 |      8189.04 |\n| CAPEX                   |     -2480.16 |     -1991.13 |     -2703.68 |     -1479.18 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2634",
+  "company_name": "漢翔",
+  "title": "2634 - 漢翔",
+  "source_md": "Pilot_Reports/其他 - 其他/2634_漢翔.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "market_cap": "57,171 百萬台幣",
+    "enterprise_value": "77,266 百萬台幣"
+  },
+  "business": {
+    "summary": "漢翔航空工業 (2634，AIDC) 為台灣航太產業龍頭與樞紐，兼具軍機研製與民用航太零組件製造雙核心業務。(1) 軍機業務 — 自主研製[[勇鷹高教機]] (T-BE5A) 66 架、預算 686 億元；與[[Lockheed Martin]]合作建立亞太唯一 [[F-16]] 維修中心；(2) 民用航太 — 為[[GE Aerospace]]生產 [[LEAP]] 引擎核心零組件 (10 年長約 350 億元)、為[[Rolls-Royce]]生產 Pearl 700 引擎燃燒段零件、為[[Bombardier]]供應 Global 7500 機體結構件 (四度獲頒鑽石供應商獎)；(3) 能源事業 — 開發「電力島」微電網儲能系統。公司主導「台灣 A-Team 4.0」航太產業聯盟，結盟 72 家以上供應鏈廠商帶動產業升級。",
+    "entities": [
+      "勇鷹高教機",
+      "Lockheed Martin",
+      "F-16",
+      "GE Aerospace",
+      "LEAP",
+      "Rolls-Royce",
+      "Bombardier"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與設備)",
+        "text": "**上游 (材料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "特殊合金",
+        "text": "[[榮剛]] — 航太級鈦合金與鎳基超合金",
+        "entities": [
+          "榮剛"
+        ]
+      },
+      {
+        "category": "鋁合金",
+        "text": "燁鋒輕合金 — 亞洲唯一航太級鋁合金一貫製造商",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 航太級鋼材",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "精密加工",
+        "text": "[[千附實業]]、[[晟田科技]]、[[駐龍精密]]、[[寶一]]、[[長亨精密]]、豐達科 — A-Team 4.0 成員",
+        "entities": [
+          "千附實業",
+          "晟田科技",
+          "駐龍精密",
+          "寶一",
+          "長亨精密"
+        ]
+      },
+      {
+        "category": "複合材料",
+        "text": "[[拓凱實業]] — 航太級複合材料",
+        "entities": [
+          "拓凱實業"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (航太研製)",
+        "text": "**中游 (航太研製):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**漢翔** (軍機設計組裝、[[LEAP]]/Pearl 700 引擎零組件製造、[[F-16]]維修中心、電力島微電網)",
+        "entities": [
+          "LEAP",
+          "F-16"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "引擎 OEM",
+        "text": "[[GE Aerospace]] — [[LEAP]] 引擎零組件；[[Rolls-Royce]] — Pearl 700 引擎；[[Pratt & Whitney]]、[[Safran]]",
+        "entities": [
+          "GE Aerospace",
+          "LEAP",
+          "Rolls-Royce",
+          "Pratt & Whitney",
+          "Safran"
+        ]
+      },
+      {
+        "category": "機體 OEM",
+        "text": "[[Boeing]] — 737 系列結構件；[[Airbus]] — A320/A220 結構件；[[Bombardier]] — Global 7500",
+        "entities": [
+          "Boeing",
+          "Airbus",
+          "Bombardier"
+        ]
+      },
+      {
+        "category": "國防",
+        "text": "[[中華民國空軍]] — [[勇鷹高教機]]、[[F-16]] 維修",
+        "entities": [
+          "中華民國空軍",
+          "勇鷹高教機",
+          "F-16"
+        ]
+      },
+      {
+        "category": "軍工合作",
+        "text": "[[Lockheed Martin]] — F-16 亞太維修中心",
+        "entities": [
+          "Lockheed Martin"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "引擎 OEM",
+        "text": "[[GE Aerospace]] — [[LEAP]] 引擎核心零組件 10 年長約 350 億元",
+        "entities": [
+          "GE Aerospace",
+          "LEAP"
+        ]
+      },
+      {
+        "role": "引擎 OEM",
+        "text": "[[Rolls-Royce]] — Pearl 700/Advance 2 引擎燃燒段零件",
+        "entities": [
+          "Rolls-Royce"
+        ]
+      },
+      {
+        "role": "引擎 OEM",
+        "text": "[[Pratt & Whitney]]、[[Safran]]、[[ITP Aero]] — 各型引擎零組件",
+        "entities": [
+          "Pratt & Whitney",
+          "Safran",
+          "ITP Aero"
+        ]
+      },
+      {
+        "role": "機體 OEM",
+        "text": "[[Boeing]] — 737 系列結構件；[[Airbus]] — A320/A220 結構件",
+        "entities": [
+          "Boeing",
+          "Airbus"
+        ]
+      },
+      {
+        "role": "商務機",
+        "text": "[[Bombardier]] — Global 7500 機身結構 (鑽石級供應商)",
+        "entities": [
+          "Bombardier"
+        ]
+      },
+      {
+        "role": "國防",
+        "text": "[[中華民國空軍]] — [[勇鷹高教機]] 66 架、[[F-16]] 維修中心",
+        "entities": [
+          "中華民國空軍",
+          "勇鷹高教機",
+          "F-16"
+        ]
+      },
+      {
+        "role": "軍工合作",
+        "text": "[[Lockheed Martin]] — F-16 亞太維修中心夥伴",
+        "entities": [
+          "Lockheed Martin"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊合金",
+        "text": "[[榮剛]] — 鈦合金與鎳基超合金",
+        "entities": [
+          "榮剛"
+        ]
+      },
+      {
+        "role": "鋁合金",
+        "text": "燁鋒輕合金 — 航太級鋁合金",
+        "entities": []
+      },
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 航太級鋼材",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "精密加工",
+        "text": "[[千附實業]]、[[晟田科技]]、[[駐龍精密]]、[[寶一]]、[[長亨精密]] — 引擎與機體零組件",
+        "entities": [
+          "千附實業",
+          "晟田科技",
+          "駐龍精密",
+          "寶一",
+          "長亨精密"
+        ]
+      },
+      {
+        "role": "複合材料",
+        "text": "[[拓凱實業]] — 航太級碳纖維複材",
+        "entities": [
+          "拓凱實業"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "勇鷹高教機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "勇鷹高教機"
+    },
+    {
+      "name": "Lockheed Martin",
+      "type": "international_company_or_term",
+      "wikilink": "Lockheed Martin"
+    },
+    {
+      "name": "F-16",
+      "type": "international_company_or_term",
+      "wikilink": "F-16"
+    },
+    {
+      "name": "GE Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aerospace"
+    },
+    {
+      "name": "LEAP",
+      "type": "international_company_or_term",
+      "wikilink": "LEAP"
+    },
+    {
+      "name": "Rolls-Royce",
+      "type": "international_company_or_term",
+      "wikilink": "Rolls-Royce"
+    },
+    {
+      "name": "Bombardier",
+      "type": "international_company_or_term",
+      "wikilink": "Bombardier"
+    },
+    {
+      "name": "榮剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮剛"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "千附實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "千附實業"
+    },
+    {
+      "name": "晟田科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晟田科技"
+    },
+    {
+      "name": "駐龍精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "駐龍精密"
+    },
+    {
+      "name": "寶一",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶一"
+    },
+    {
+      "name": "長亨精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長亨精密"
+    },
+    {
+      "name": "拓凱實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "拓凱實業"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "type": "international_company_or_term",
+      "wikilink": "Pratt & Whitney"
+    },
+    {
+      "name": "Safran",
+      "type": "international_company_or_term",
+      "wikilink": "Safran"
+    },
+    {
+      "name": "Boeing",
+      "type": "international_company_or_term",
+      "wikilink": "Boeing"
+    },
+    {
+      "name": "Airbus",
+      "type": "international_company_or_term",
+      "wikilink": "Airbus"
+    },
+    {
+      "name": "中華民國空軍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華民國空軍"
+    },
+    {
+      "name": "ITP Aero",
+      "type": "international_company_or_term",
+      "wikilink": "ITP Aero"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "漢翔航空工業 (2634，AIDC) 為台灣航太產業龍頭與樞紐，兼具軍機研製與民用航太零組件製造雙核心業務。(1) 軍機業務 — 自主研製[[勇鷹高教機]] (T-BE5A) 66 架、預算 686 億元；與[[Lockheed Martin]]合作建立亞太唯一 [[F-16]] 維修中心；(2) 民用航太 — 為[[GE Aerospace]]生產 [[LEAP]] 引擎核心零組件 (10 年長約 350 億元)、為[[Rolls-Royce]]生產 Pearl 700 引擎燃燒段零件、為[[Bombardier]]供應 Global 7500 機體結構件 (四度獲頒鑽石供應商獎)；(3) 能源事業 — 開發「電力島」微電網儲能系統。公司主導「台灣 A-Team 4.0」航太產業聯盟，結盟 72 家以上供應鏈廠商帶動產業升級。",
+    "supply_chain_md": "**上游 (材料與設備):**\n- **特殊合金:** [[榮剛]] — 航太級鈦合金與鎳基超合金\n- **鋁合金:** 燁鋒輕合金 — 亞洲唯一航太級鋁合金一貫製造商\n- **鋼材:** [[中鋼]] — 航太級鋼材\n- **精密加工:** [[千附實業]]、[[晟田科技]]、[[駐龍精密]]、[[寶一]]、[[長亨精密]]、豐達科 — A-Team 4.0 成員\n- **複合材料:** [[拓凱實業]] — 航太級複合材料\n\n**中游 (航太研製):**\n- **漢翔** (軍機設計組裝、[[LEAP]]/Pearl 700 引擎零組件製造、[[F-16]]維修中心、電力島微電網)\n\n**下游 (終端客戶):**\n- **引擎 OEM:** [[GE Aerospace]] — [[LEAP]] 引擎零組件；[[Rolls-Royce]] — Pearl 700 引擎；[[Pratt & Whitney]]、[[Safran]]\n- **機體 OEM:** [[Boeing]] — 737 系列結構件；[[Airbus]] — A320/A220 結構件；[[Bombardier]] — Global 7500\n- **國防:** [[中華民國空軍]] — [[勇鷹高教機]]、[[F-16]] 維修\n- **軍工合作:** [[Lockheed Martin]] — F-16 亞太維修中心",
+    "customers_suppliers_md": "### 主要客戶\n- **引擎 OEM:** [[GE Aerospace]] — [[LEAP]] 引擎核心零組件 10 年長約 350 億元\n- **引擎 OEM:** [[Rolls-Royce]] — Pearl 700/Advance 2 引擎燃燒段零件\n- **引擎 OEM:** [[Pratt & Whitney]]、[[Safran]]、[[ITP Aero]] — 各型引擎零組件\n- **機體 OEM:** [[Boeing]] — 737 系列結構件；[[Airbus]] — A320/A220 結構件\n- **商務機:** [[Bombardier]] — Global 7500 機身結構 (鑽石級供應商)\n- **國防:** [[中華民國空軍]] — [[勇鷹高教機]] 66 架、[[F-16]] 維修中心\n- **軍工合作:** [[Lockheed Martin]] — F-16 亞太維修中心夥伴\n\n### 主要供應商\n- **特殊合金:** [[榮剛]] — 鈦合金與鎳基超合金\n- **鋁合金:** 燁鋒輕合金 — 航太級鋁合金\n- **鋼材:** [[中鋼]] — 航太級鋼材\n- **精密加工:** [[千附實業]]、[[晟田科技]]、[[駐龍精密]]、[[寶一]]、[[長亨精密]] — 引擎與機體零組件\n- **複合材料:** [[拓凱實業]] — 航太級碳纖維複材",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $58.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     75.13 |       18.87 |      1.55 | 3.04 |     28.93 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     35452.13 |     39338.32 |     39100.00 |\n| Gross Profit            |      2532.09 |      3724.45 |      4357.95 |\n| Gross Margin (%)        |         7.14 |         9.47 |        11.15 |\n| Selling & Marketing Exp |       152.37 |       159.70 |       153.92 |\n| R&D Exp                 |       537.63 |       624.16 |       655.68 |\n| General & Admin Exp     |       669.24 |       722.13 |       762.87 |\n| Operating Income        |      1172.85 |      2218.46 |      2785.47 |\n| Operating Margin (%)    |         3.31 |         5.64 |         7.12 |\n| Net Income              |       733.07 |      2168.07 |      2225.90 |\n| Net Margin (%)          |         2.07 |         5.51 |         5.69 |\n| Op Cash Flow            |     -3875.23 |     -3135.76 |      3872.45 |\n| Investing Cash Flow     |     -1039.12 |      -929.79 |      -973.21 |\n| Financing Cash Flow     |      4574.93 |      3454.31 |     -2834.91 |\n| CAPEX                   |     -1331.73 |     -1834.72 |     -1394.19 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     10959.11 |      8814.66 |      8139.54 |      7538.82 |\n| Gross Profit            |       956.37 |       462.93 |       628.50 |       484.30 |\n| Gross Margin (%)        |         8.73 |         5.25 |         7.72 |         6.42 |\n| Selling & Marketing Exp |        33.91 |        41.78 |        35.69 |        40.99 |\n| R&D Exp                 |       225.38 |       109.32 |       113.67 |        89.26 |\n| General & Admin Exp     |       202.62 |       141.82 |       169.11 |       155.69 |\n| Operating Income        |       494.46 |       170.00 |       310.03 |       198.36 |\n| Operating Margin (%)    |         4.51 |         1.93 |         3.81 |         2.63 |\n| Net Income              |       526.11 |       193.08 |      -224.54 |       238.42 |\n| Net Margin (%)          |         4.80 |         2.19 |        -2.76 |         3.16 |\n| Op Cash Flow            |     -1278.60 |       228.90 |       480.86 |     -3306.39 |\n| Investing Cash Flow     |      -144.62 |      -363.81 |      -169.48 |      -361.20 |\n| Financing Cash Flow     |      1086.48 |        48.18 |       263.35 |      3176.92 |\n| CAPEX                   |      -170.57 |      -371.02 |      -368.25 |      -421.90 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 21,
+    "warnings": []
+  }
+}

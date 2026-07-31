@@ -1,0 +1,180 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2241",
+  "company_name": "艾姆勒",
+  "title": "2241 - 艾姆勒",
+  "source_md": "Pilot_Reports/汽車 - 車燈/2241_艾姆勒.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "3,190 百萬台幣",
+    "enterprise_value": "3,710 百萬台幣"
+  },
+  "business": {
+    "summary": "艾姆勒熱能科技 (2241，Amulaire Thermal Technology) 專注於高功率晶片散熱解決方案，核心技術為[[粉末冶金]]及[[MIM]] (金屬射出成型)。產品涵蓋：(1) 電動車 [[IGBT]] 逆變器散熱器 — 供應[[Infineon]] (英飛凌) 及 Tier 1 [[Continental]]；(2) [[ADAS]] 中央電腦散熱模組；(3) AI/HPC 伺服器液冷及浸沒式冷卻子系統。採用高純度無氧銅及特殊散熱合金材料。已開發 18 家新客戶、23 個新專案。",
+    "entities": [
+      "粉末冶金",
+      "MIM",
+      "IGBT",
+      "Infineon",
+      "Continental",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "無氧銅",
+        "text": "高純度無氧銅供應商",
+        "entities": []
+      },
+      {
+        "category": "散熱合金",
+        "text": "特殊散熱合金材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**艾姆勒** ([[粉末冶金]]/[[MIM]] 散熱件，[[IGBT]] 逆變器散熱器/[[ADAS]] 散熱/AI 液冷)",
+        "entities": [
+          "粉末冶金",
+          "MIM",
+          "IGBT",
+          "ADAS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "EV 晶片",
+        "text": "[[Infineon]] (英飛凌) — [[IGBT]] 散熱",
+        "entities": [
+          "Infineon",
+          "IGBT"
+        ]
+      },
+      {
+        "category": "Tier 1",
+        "text": "[[Continental]] — [[ADAS]] 散熱模組",
+        "entities": [
+          "Continental",
+          "ADAS"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "國內外 ODM — 液冷/浸沒式冷卻",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EV 晶片",
+        "text": "[[Infineon]] (英飛凌) — [[IGBT]] 逆變器散熱",
+        "entities": [
+          "Infineon",
+          "IGBT"
+        ]
+      },
+      {
+        "role": "Tier 1",
+        "text": "[[Continental]] — [[ADAS]] 中央電腦散熱",
+        "entities": [
+          "Continental",
+          "ADAS"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "國內外 ODM — 液冷/浸沒式冷卻模組",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "無氧銅",
+        "text": "高純度無氧銅",
+        "entities": []
+      },
+      {
+        "role": "散熱合金",
+        "text": "特殊散熱合金材料",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "粉末冶金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "粉末冶金"
+    },
+    {
+      "name": "MIM",
+      "type": "international_company_or_term",
+      "wikilink": "MIM"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "艾姆勒熱能科技 (2241，Amulaire Thermal Technology) 專注於高功率晶片散熱解決方案，核心技術為[[粉末冶金]]及[[MIM]] (金屬射出成型)。產品涵蓋：(1) 電動車 [[IGBT]] 逆變器散熱器 — 供應[[Infineon]] (英飛凌) 及 Tier 1 [[Continental]]；(2) [[ADAS]] 中央電腦散熱模組；(3) AI/HPC 伺服器液冷及浸沒式冷卻子系統。採用高純度無氧銅及特殊散熱合金材料。已開發 18 家新客戶、23 個新專案。",
+    "supply_chain_md": "**上游 (原料):**\n- **無氧銅:** 高純度無氧銅供應商\n- **散熱合金:** 特殊散熱合金材料\n\n**中游 (製造):**\n- **艾姆勒** ([[粉末冶金]]/[[MIM]] 散熱件，[[IGBT]] 逆變器散熱器/[[ADAS]] 散熱/AI 液冷)\n\n**下游 (終端):**\n- **EV 晶片:** [[Infineon]] (英飛凌) — [[IGBT]] 散熱\n- **Tier 1:** [[Continental]] — [[ADAS]] 散熱模組\n- **AI 伺服器:** 國內外 ODM — 液冷/浸沒式冷卻",
+    "customers_suppliers_md": "### 主要客戶\n- **EV 晶片:** [[Infineon]] (英飛凌) — [[IGBT]] 逆變器散熱\n- **Tier 1:** [[Continental]] — [[ADAS]] 中央電腦散熱\n- **AI 伺服器:** 國內外 ODM — 液冷/浸沒式冷卻模組\n\n### 主要供應商\n- **無氧銅:** 高純度無氧銅\n- **散熱合金:** 特殊散熱合金材料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $30.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      3.85 | 2.39 |   -477.58 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       785.61 |       689.03 |       883.96 |\n| Gross Profit            |        27.52 |         2.69 |        -5.97 |\n| Gross Margin (%)        |         3.50 |         0.39 |        -0.68 |\n| Selling & Marketing Exp |        30.84 |        48.78 |        29.59 |\n| R&D Exp                 |        70.90 |       120.10 |       134.36 |\n| General & Admin Exp     |        56.56 |        45.67 |        73.50 |\n| Operating Income        |      -130.79 |      -211.86 |      -243.43 |\n| Operating Margin (%)    |       -16.65 |       -30.75 |       -27.54 |\n| Net Income              |       -73.60 |      -207.12 |      -223.57 |\n| Net Margin (%)          |        -9.37 |       -30.06 |       -25.29 |\n| Op Cash Flow            |       -46.47 |      -118.40 |        49.95 |\n| Investing Cash Flow     |       404.99 |       -64.50 |        44.81 |\n| Financing Cash Flow     |      -234.38 |        61.34 |      -104.73 |\n| CAPEX                   |       -55.53 |       -75.62 |       -86.31 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       218.15 |       274.65 |       189.23 |       145.62 |\n| Gross Profit            |        24.43 |        39.47 |         5.29 |       -26.56 |\n| Gross Margin (%)        |        11.20 |        14.37 |         2.80 |       -18.24 |\n| Selling & Marketing Exp |         4.69 |         8.56 |         6.70 |         8.37 |\n| R&D Exp                 |        13.02 |        16.58 |        15.92 |        18.59 |\n| General & Admin Exp     |        19.43 |        18.48 |        12.05 |        13.23 |\n| Operating Income        |       -12.70 |        -4.15 |       -29.37 |       -66.74 |\n| Operating Margin (%)    |        -5.82 |        -1.51 |       -15.52 |       -45.83 |\n| Net Income              |       -15.20 |       -10.46 |       -25.45 |       -13.54 |\n| Net Margin (%)          |        -6.97 |        -3.81 |       -13.45 |        -9.30 |\n| Op Cash Flow            |        -4.95 |       -39.53 |       -29.29 |       -28.08 |\n| Investing Cash Flow     |        -4.54 |        -9.10 |       138.47 |       277.18 |\n| Financing Cash Flow     |        90.08 |        51.97 |       -19.01 |      -252.01 |\n| CAPEX                   |        -3.11 |        -9.06 |       -19.78 |       -21.90 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

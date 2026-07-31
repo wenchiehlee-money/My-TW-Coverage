@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3289",
+  "company_name": "宜特",
+  "title": "3289 - 宜特",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/3289_宜特.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "11,544 百萬台幣",
+    "enterprise_value": "12,992 百萬台幣"
+  },
+  "business": {
+    "summary": "宜特科技 (3289) 是第三方半導體驗證與分析實驗室，提供故障分析 (FA)、可靠度測試 (RT)、材料分析 (MA)、訊號完整性測試及 sub-2nm [[ALD]] 材料驗證服務。公司服務涵蓋 [[CoWoS]]、[[HBM]] 等先進封裝製程驗證。",
+    "entities": [
+      "ALD",
+      "CoWoS",
+      "HBM"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (分析設備)",
+        "text": "**上游 (分析設備):**",
+        "entities": []
+      },
+      {
+        "category": "SEM/TEM",
+        "text": "[[Thermo Fisher Scientific]]、[[JEOL]]",
+        "entities": [
+          "Thermo Fisher Scientific",
+          "JEOL"
+        ]
+      },
+      {
+        "category": "訊號測試",
+        "text": "[[Keysight Technologies]]",
+        "entities": [
+          "Keysight Technologies"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (驗證服務)",
+        "text": "**中游 (驗證服務):**",
+        "entities": []
+      },
+      {
+        "category": "半導體驗證",
+        "text": "**宜特** (FA/RT/MA/訊號完整性，第三方實驗室)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計與晶圓廠)",
+        "text": "**下游 (IC 設計與晶圓廠):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "IC 設計",
+        "text": "[[聯發科]]、[[瑞昱]] 等",
+        "entities": [
+          "聯發科",
+          "瑞昱"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] ([[CoWoS]]/[[HBM]] 製程驗證)",
+        "entities": [
+          "台積電",
+          "CoWoS",
+          "HBM"
+        ]
+      },
+      {
+        "role": "IC 設計",
+        "text": "[[聯發科]]、[[瑞昱]]",
+        "entities": [
+          "聯發科",
+          "瑞昱"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "SEM/TEM",
+        "text": "[[Thermo Fisher Scientific]]、[[JEOL]]",
+        "entities": [
+          "Thermo Fisher Scientific",
+          "JEOL"
+        ]
+      },
+      {
+        "role": "訊號測試",
+        "text": "[[Keysight Technologies]]",
+        "entities": [
+          "Keysight Technologies"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[汎銓科技]]、[[閎康科技]]",
+        "entities": [
+          "汎銓科技",
+          "閎康科技"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[汎銓科技]]、[[閎康科技]]",
+        "entities": [
+          "汎銓科技",
+          "閎康科技"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ALD",
+      "type": "international_company_or_term",
+      "wikilink": "ALD"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "Thermo Fisher Scientific",
+      "type": "international_company_or_term",
+      "wikilink": "Thermo Fisher Scientific"
+    },
+    {
+      "name": "JEOL",
+      "type": "international_company_or_term",
+      "wikilink": "JEOL"
+    },
+    {
+      "name": "Keysight Technologies",
+      "type": "international_company_or_term",
+      "wikilink": "Keysight Technologies"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "汎銓科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "汎銓科技"
+    },
+    {
+      "name": "閎康科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "閎康科技"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宜特科技 (3289) 是第三方半導體驗證與分析實驗室，提供故障分析 (FA)、可靠度測試 (RT)、材料分析 (MA)、訊號完整性測試及 sub-2nm [[ALD]] 材料驗證服務。公司服務涵蓋 [[CoWoS]]、[[HBM]] 等先進封裝製程驗證。",
+    "supply_chain_md": "**上游 (分析設備):**\n- **SEM/TEM:** [[Thermo Fisher Scientific]]、[[JEOL]]\n- **訊號測試:** [[Keysight Technologies]]\n\n**中游 (驗證服務):**\n- **半導體驗證:** **宜特** (FA/RT/MA/訊號完整性，第三方實驗室)\n\n**下游 (IC 設計與晶圓廠):**\n- **晶圓代工:** [[台積電]]\n- **IC 設計:** [[聯發科]]、[[瑞昱]] 等",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] ([[CoWoS]]/[[HBM]] 製程驗證)\n- **IC 設計:** [[聯發科]]、[[瑞昱]]\n\n### 主要供應商\n- **SEM/TEM:** [[Thermo Fisher Scientific]]、[[JEOL]]\n- **訊號測試:** [[Keysight Technologies]]\n- **競爭同業:** [[汎銓科技]]、[[閎康科技]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $129.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     27.15 |       17.57 |      2.34 | 2.34 |     12.68 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4842.58 |      4345.53 |      3811.72 |\n| Gross Profit            |      1305.77 |      1216.19 |      1017.86 |\n| Gross Margin (%)        |        26.96 |        27.99 |        26.70 |\n| Selling & Marketing Exp |       169.59 |       152.28 |       124.99 |\n| R&D Exp                 |       208.12 |       175.29 |       138.31 |\n| General & Admin Exp     |       575.94 |       519.97 |       447.89 |\n| Operating Income        |       352.12 |       368.66 |       306.66 |\n| Operating Margin (%)    |         7.27 |         8.48 |         8.05 |\n| Net Income              |       367.08 |       481.74 |       385.55 |\n| Net Margin (%)          |         7.58 |        11.09 |        10.11 |\n| Op Cash Flow            |       632.58 |      1368.64 |       786.51 |\n| Investing Cash Flow     |     -1235.91 |      -881.44 |      -670.32 |\n| Financing Cash Flow     |       422.07 |      -502.55 |       -64.28 |\n| CAPEX                   |     -1325.32 |      -909.20 |      -665.58 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1231.35 |      1275.70 |      1204.04 |      1131.49 |\n| Gross Profit            |       315.27 |       311.85 |       325.82 |       352.82 |\n| Gross Margin (%)        |        25.60 |        24.45 |        27.06 |        31.18 |\n| Selling & Marketing Exp |        46.75 |        40.22 |        42.29 |        40.33 |\n| R&D Exp                 |        51.97 |        46.48 |        54.74 |        54.93 |\n| General & Admin Exp     |       159.50 |       139.54 |       140.82 |       136.08 |\n| Operating Income        |        57.06 |        85.62 |        87.96 |       121.48 |\n| Operating Margin (%)    |         4.63 |         6.71 |         7.31 |        10.74 |\n| Net Income              |        54.98 |        74.19 |       111.47 |       126.43 |\n| Net Margin (%)          |         4.47 |         5.82 |         9.26 |        11.17 |\n| Op Cash Flow            |       313.87 |       134.85 |       119.68 |        64.19 |\n| Investing Cash Flow     |      -263.53 |      -395.75 |      -200.04 |      -376.59 |\n| Financing Cash Flow     |      -158.43 |       315.83 |       196.93 |        67.74 |\n| CAPEX                   |      -268.32 |      -331.63 |      -345.89 |      -379.48 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

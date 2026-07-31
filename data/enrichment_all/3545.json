@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3545",
+  "company_name": "敦泰",
+  "title": "3545 - 敦泰",
+  "source_md": "Pilot_Reports/半導體 - IC設計/3545_敦泰.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "9,890 百萬台幣",
+    "enterprise_value": "5,167 百萬台幣"
+  },
+  "business": {
+    "summary": "敦泰電子 (3545) 是全球最大電容式觸控 IC 出貨商之一，產品涵蓋觸控 IC、顯示驅動 IC、[[TDDI]] (觸控顯示整合單晶片) 及指紋辨識 IC。TDDI/IDC 占營收約 70%，中國前四大手機品牌占營收七至八成。產品應用於手機、平板、[[AMOLED]] 面板及車用顯示。",
+    "entities": [
+      "TDDI",
+      "AMOLED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與通路)",
+        "text": "**上游 (晶圓代工與通路):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[聯華電子]]",
+        "entities": [
+          "聯華電子"
+        ]
+      },
+      {
+        "category": "通路",
+        "text": "[[益登科技]]、[[有萬科技]]",
+        "entities": [
+          "益登科技",
+          "有萬科技"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "觸控/驅動 IC",
+        "text": "**敦泰** (TDDI/觸控/驅動/指紋，全球最大觸控 IC 之一)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (手機與面板)",
+        "text": "**下游 (手機與面板):**",
+        "entities": []
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "[[京東方]]、[[天馬]]",
+        "entities": [
+          "京東方",
+          "天馬"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "手機",
+        "text": "[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[京東方]]、[[天馬]]",
+        "entities": [
+          "京東方",
+          "天馬"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[聯華電子]]",
+        "entities": [
+          "聯華電子"
+        ]
+      },
+      {
+        "role": "通路",
+        "text": "[[益登科技]]",
+        "entities": [
+          "益登科技"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[聯詠]]、[[奇景光電]]、[[Synaptics]]",
+        "entities": [
+          "聯詠",
+          "奇景光電",
+          "Synaptics"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[聯詠]]、[[奇景光電]]、[[Synaptics]]",
+        "entities": [
+          "聯詠",
+          "奇景光電",
+          "Synaptics"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[義隆]]",
+        "entities": [
+          "義隆"
+        ],
+        "basis": "reciprocal_competitor_from:2458",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TDDI",
+      "type": "international_company_or_term",
+      "wikilink": "TDDI"
+    },
+    {
+      "name": "AMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "AMOLED"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "益登科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "益登科技"
+    },
+    {
+      "name": "有萬科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "有萬科技"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "vivo",
+      "type": "international_company_or_term",
+      "wikilink": "vivo"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "天馬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天馬"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "奇景光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇景光電"
+    },
+    {
+      "name": "Synaptics",
+      "type": "international_company_or_term",
+      "wikilink": "Synaptics"
+    },
+    {
+      "name": "義隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "義隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "敦泰電子 (3545) 是全球最大電容式觸控 IC 出貨商之一，產品涵蓋觸控 IC、顯示驅動 IC、[[TDDI]] (觸控顯示整合單晶片) 及指紋辨識 IC。TDDI/IDC 占營收約 70%，中國前四大手機品牌占營收七至八成。產品應用於手機、平板、[[AMOLED]] 面板及車用顯示。",
+    "supply_chain_md": "**上游 (晶圓代工與通路):**\n- **晶圓代工:** [[聯華電子]]\n- **通路:** [[益登科技]]、[[有萬科技]]\n\n**中游 (IC 設計):**\n- **觸控/驅動 IC:** **敦泰** (TDDI/觸控/驅動/指紋，全球最大觸控 IC 之一)\n\n**下游 (手機與面板):**\n- **手機品牌:** [[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **面板廠:** [[京東方]]、[[天馬]]",
+    "customers_suppliers_md": "### 主要客戶\n- **手機:** [[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **面板:** [[京東方]]、[[天馬]]\n\n### 主要供應商\n- **晶圓代工:** [[聯華電子]]\n- **通路:** [[益登科技]]\n- **競爭同業:** [[聯詠]]、[[奇景光電]]、[[Synaptics]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $44.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |     -741.67 |      0.84 | 1.10 |    -90.58 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     11952.06 |     14538.99 |     13568.37 |\n| Gross Profit            |      2965.12 |      3259.03 |      2708.65 |\n| Gross Margin (%)        |        24.81 |        22.42 |        19.96 |\n| Selling & Marketing Exp |       495.19 |       504.63 |       365.71 |\n| R&D Exp                 |      2170.33 |      2133.13 |      1789.67 |\n| General & Admin Exp     |       432.28 |       454.50 |       430.62 |\n| Operating Income        |      -132.67 |       166.77 |       122.64 |\n| Operating Margin (%)    |        -1.11 |         1.15 |         0.90 |\n| Net Income              |      -990.60 |       574.06 |       361.92 |\n| Net Margin (%)          |        -8.29 |         3.95 |         2.67 |\n| Op Cash Flow            |       172.24 |      2352.95 |      3241.50 |\n| Investing Cash Flow     |     -1192.52 |      3600.20 |     -1485.84 |\n| Financing Cash Flow     |     -2865.29 |     -2293.39 |     -2962.09 |\n| CAPEX                   |      -527.95 |      -330.36 |      -205.15 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2473.85 |      2801.13 |      3106.83 |      3051.53 |\n| Gross Profit            |       569.50 |       582.04 |       812.89 |       765.47 |\n| Gross Margin (%)        |        23.02 |        20.78 |        26.16 |        25.08 |\n| Selling & Marketing Exp |       102.05 |       122.84 |       126.14 |       116.16 |\n| R&D Exp                 |       522.62 |       553.18 |       569.11 |       533.83 |\n| General & Admin Exp     |        90.37 |       106.83 |       106.10 |       109.21 |\n| Operating Income        |      -145.54 |      -200.81 |        11.54 |         6.28 |\n| Operating Margin (%)    |        -5.88 |        -7.17 |         0.37 |         0.21 |\n| Net Income              |         4.93 |     -1320.87 |        82.23 |        76.75 |\n| Net Margin (%)          |         0.20 |       -47.15 |         2.65 |         2.52 |\n| Op Cash Flow            |       -84.42 |       544.74 |       375.69 |       435.09 |\n| Investing Cash Flow     |        53.63 |      -280.96 |     -1367.35 |        95.22 |\n| Financing Cash Flow     |      -644.39 |        28.79 |      -809.48 |     -1020.96 |\n| CAPEX                   |       -53.51 |      -222.90 |      -114.42 |       -86.32 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

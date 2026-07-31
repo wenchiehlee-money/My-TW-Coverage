@@ -1,0 +1,152 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8066",
+  "company_name": "來思達",
+  "title": "8066 - 來思達",
+  "source_md": "Pilot_Reports/貿易百貨 - 貿易商、代理商、經銷商/8066_來思達.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "market_cap": "540 百萬台幣",
+    "enterprise_value": "687 百萬台幣"
+  },
+  "business": {
+    "summary": "來思達國際 (8066，Lifestyle Global) 成立於 1996 年，為台灣唯一擁有自有品牌並以 B2B 行銷全球之國際家具公司。銷售以歐美市場為主，全球共設有 21 家分公司。來思達採「全球採購、委外生產」之輕資產平台模式，以 FOB 美元計價、接單生產、貨櫃出貨。主要產品涵蓋客廳家具、餐廳家具及臥室家具，客戶包括北美通路如 [[Costco]]、[[Wayfair]]、[[Williams-Sonoma]] 及歐洲家具零售通路。生產委外給中國及[[越南]]、[[印尼]]等東南亞代工廠。創辦人謝貞德奉行「不庫存、不借錢、不欠款」三不原則。",
+    "entities": [
+      "Costco",
+      "Wayfair",
+      "Williams-Sonoma",
+      "越南",
+      "印尼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (委外製造)",
+        "text": "**上游 (委外製造):**",
+        "entities": []
+      },
+      {
+        "category": "家具製造",
+        "text": "中國、[[越南]]、[[印尼]]等地家具代工廠 — 委外生產",
+        "entities": [
+          "越南",
+          "印尼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台營運)",
+        "text": "**中游 (平台營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**來思達** — 全球家具採購平台、產品設計企劃、B2B 國際行銷 (21 國分公司)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際零售客戶)",
+        "text": "**下游 (國際零售客戶):**",
+        "entities": []
+      },
+      {
+        "category": "歐美零售",
+        "text": "歐美家具零售通路及經銷商 — B2B 批發",
+        "entities": []
+      },
+      {
+        "category": "品牌合作",
+        "text": "國際家具品牌 — 聯合開發",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美通路",
+        "text": "[[Costco]]、[[Wayfair]]、[[Williams-Sonoma]] — B2B 批發",
+        "entities": [
+          "Costco",
+          "Wayfair",
+          "Williams-Sonoma"
+        ]
+      },
+      {
+        "role": "歐洲通路",
+        "text": "歐洲家具零售通路 — B2B 批發出貨",
+        "entities": []
+      },
+      {
+        "role": "國際品牌",
+        "text": "全球家具品牌合作開發",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "委外製造",
+        "text": "中國、[[越南]]、[[印尼]]家具代工廠 — 接單後委外生產",
+        "entities": [
+          "越南",
+          "印尼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Costco",
+      "type": "international_company_or_term",
+      "wikilink": "Costco"
+    },
+    {
+      "name": "Wayfair",
+      "type": "international_company_or_term",
+      "wikilink": "Wayfair"
+    },
+    {
+      "name": "Williams-Sonoma",
+      "type": "international_company_or_term",
+      "wikilink": "Williams-Sonoma"
+    },
+    {
+      "name": "越南",
+      "type": "taiwan_company_or_term",
+      "wikilink": "越南"
+    },
+    {
+      "name": "印尼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "印尼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "來思達國際 (8066，Lifestyle Global) 成立於 1996 年，為台灣唯一擁有自有品牌並以 B2B 行銷全球之國際家具公司。銷售以歐美市場為主，全球共設有 21 家分公司。來思達採「全球採購、委外生產」之輕資產平台模式，以 FOB 美元計價、接單生產、貨櫃出貨。主要產品涵蓋客廳家具、餐廳家具及臥室家具，客戶包括北美通路如 [[Costco]]、[[Wayfair]]、[[Williams-Sonoma]] 及歐洲家具零售通路。生產委外給中國及[[越南]]、[[印尼]]等東南亞代工廠。創辦人謝貞德奉行「不庫存、不借錢、不欠款」三不原則。",
+    "supply_chain_md": "**上游 (委外製造):**\n- **家具製造:** 中國、[[越南]]、[[印尼]]等地家具代工廠 — 委外生產\n\n**中游 (平台營運):**\n- **來思達** — 全球家具採購平台、產品設計企劃、B2B 國際行銷 (21 國分公司)\n\n**下游 (國際零售客戶):**\n- **歐美零售:** 歐美家具零售通路及經銷商 — B2B 批發\n- **品牌合作:** 國際家具品牌 — 聯合開發",
+    "customers_suppliers_md": "### 主要客戶\n- **北美通路:** [[Costco]]、[[Wayfair]]、[[Williams-Sonoma]] — B2B 批發\n- **歐洲通路:** 歐洲家具零售通路 — B2B 批發出貨\n- **國際品牌:** 全球家具品牌合作開發\n\n### 主要供應商\n- **委外製造:** 中國、[[越南]]、[[印尼]]家具代工廠 — 接單後委外生產",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $14.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.13 | 0.98 |     -6.93 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4420.67 |      5038.13 |      4912.99 |\n| Gross Profit            |       459.40 |       622.00 |       616.04 |\n| Gross Margin (%)        |        10.39 |        12.35 |        12.54 |\n| Selling & Marketing Exp |       144.44 |       177.00 |       177.90 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       359.47 |       375.16 |       353.85 |\n| Operating Income        |       -44.51 |        69.84 |        84.28 |\n| Operating Margin (%)    |        -1.01 |         1.39 |         1.72 |\n| Net Income              |      -103.40 |        -7.16 |        22.05 |\n| Net Margin (%)          |        -2.34 |        -0.14 |         0.45 |\n| Op Cash Flow            |       136.89 |       100.37 |        56.96 |\n| Investing Cash Flow     |      -353.89 |       -11.30 |        -0.37 |\n| Financing Cash Flow     |       218.91 |      -206.93 |       -55.26 |\n| CAPEX                   |      -347.07 |        -9.15 |        -2.36 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       844.87 |      1078.41 |      1110.29 |      1160.96 |\n| Gross Profit            |        66.25 |       120.46 |       114.92 |        84.05 |\n| Gross Margin (%)        |         7.84 |        11.17 |        10.35 |         7.24 |\n| Selling & Marketing Exp |        30.21 |        32.73 |        34.24 |        37.29 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        74.15 |        80.48 |        93.46 |        92.90 |\n| Operating Income        |       -38.12 |         7.25 |       -12.78 |       -46.14 |\n| Operating Margin (%)    |        -4.51 |         0.67 |        -1.15 |        -3.97 |\n| Net Income              |       -28.88 |       -33.84 |       -34.82 |       -40.59 |\n| Net Margin (%)          |        -3.42 |        -3.14 |        -3.14 |        -3.50 |\n| Op Cash Flow            |        -6.07 |       -18.52 |        54.49 |        47.03 |\n| Investing Cash Flow     |        -0.80 |        -3.66 |      -349.02 |         0.48 |\n| Financing Cash Flow     |       -32.64 |        16.48 |       306.46 |       -97.80 |\n| CAPEX                   |        -0.01 |        -0.21 |      -345.41 |        -0.21 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

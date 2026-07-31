@@ -1,0 +1,187 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1104",
+  "company_name": "環泥",
+  "title": "1104 - 環泥",
+  "source_md": "Pilot_Reports/水泥 - 水泥成品/1104_環泥.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "18,437 百萬台幣",
+    "enterprise_value": "17,513 百萬台幣"
+  },
+  "business": {
+    "summary": "環球水泥股份有限公司 (Universal Cement Corporation) 成立於 1959 年，總部位於台灣[[台北]]，為「台南幫」企業之一。公司深耕南台灣，主要產品為[[水泥]]、[[預拌混凝土]]及[[石膏板]] (市佔率全台第一，約 90%)。近年環泥積極跨足電子科技領域，透過子公司[[利永環球]]發展軟性觸覺感測器 (Micro-pressure Sensor)，應用於3C產品及智慧醫療。此外，環泥亦是南科科技廠房建設之主要混凝土供應商。",
+    "entities": [
+      "台北",
+      "水泥",
+      "預拌混凝土",
+      "石膏板",
+      "利永環球"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與生產)",
+        "text": "**上游 (原料與生產):**",
+        "entities": []
+      },
+      {
+        "category": "水泥熟料",
+        "text": "熟料多為外購或進口 (向國內東部大廠採購)，於高雄阿蓮、台南麻豆等地設有研磨廠與預拌廠。",
+        "entities": []
+      },
+      {
+        "category": "石膏板原物料",
+        "text": "採用火力發電廠之副產品 ([[脫硫石膏]]) 進行循環再利用，於桃園海湖設有工廠。",
+        "entities": [
+          "脫硫石膏"
+        ]
+      },
+      {
+        "category": "建材合作",
+        "text": "強化與日本建材大廠 [[NICHIHA]] 合作，增加外牆與屋頂系統建材多樣性。",
+        "entities": [
+          "NICHIHA"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用 (終端市場)",
+        "text": "**下游應用 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "建材業務 (混凝土)",
+        "text": "供應高磅數水泥予 [[台積電]] 南部廠房 (為其兩大供應商之一)、高雄台南捷運及南科擴建案等重大工程。",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "電子業務 (利永環球)",
+        "text": "- **電子業務 (利永環球):**",
+        "entities": []
+      },
+      {
+        "category": "感測器應用",
+        "text": "觸控筆、智慧鍵盤、醫療床 (導入 [[北醫行愛長照中心]] 之褥瘡偵測)、智慧倉儲。",
+        "entities": [
+          "北醫行愛長照中心"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技廠辦營造",
+        "text": "[[台積電]] 及其南科進駐廠商之廠房建設專案。",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "AI醫療與電子",
+        "text": "採購壓力感測器之北美與歐洲產業領導品牌，以及 [[北醫行愛長照中心]]。",
+        "entities": [
+          "北醫行愛長照中心"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "水泥熟料來源",
+        "text": "國內東部之大型水泥與熟料製造商、[[台電]] (脫硫石膏來源)。",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "特殊建材授權",
+        "text": "日本外牆建材大廠 [[NICHIHA]]。",
+        "entities": [
+          "NICHIHA"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "水泥",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水泥"
+    },
+    {
+      "name": "預拌混凝土",
+      "type": "taiwan_company_or_term",
+      "wikilink": "預拌混凝土"
+    },
+    {
+      "name": "石膏板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石膏板"
+    },
+    {
+      "name": "利永環球",
+      "type": "taiwan_company_or_term",
+      "wikilink": "利永環球"
+    },
+    {
+      "name": "脫硫石膏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "脫硫石膏"
+    },
+    {
+      "name": "NICHIHA",
+      "type": "international_company_or_term",
+      "wikilink": "NICHIHA"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "北醫行愛長照中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "北醫行愛長照中心"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "環球水泥股份有限公司 (Universal Cement Corporation) 成立於 1959 年，總部位於台灣[[台北]]，為「台南幫」企業之一。公司深耕南台灣，主要產品為[[水泥]]、[[預拌混凝土]]及[[石膏板]] (市佔率全台第一，約 90%)。近年環泥積極跨足電子科技領域，透過子公司[[利永環球]]發展軟性觸覺感測器 (Micro-pressure Sensor)，應用於3C產品及智慧醫療。此外，環泥亦是南科科技廠房建設之主要混凝土供應商。",
+    "supply_chain_md": "**上游 (原料與生產):**\n- **水泥熟料:** 熟料多為外購或進口 (向國內東部大廠採購)，於高雄阿蓮、台南麻豆等地設有研磨廠與預拌廠。\n- **石膏板原物料:** 採用火力發電廠之副產品 ([[脫硫石膏]]) 進行循環再利用，於桃園海湖設有工廠。\n- **建材合作:** 強化與日本建材大廠 [[NICHIHA]] 合作，增加外牆與屋頂系統建材多樣性。\n\n**下游應用 (終端市場):**\n- **建材業務 (混凝土):** 供應高磅數水泥予 [[台積電]] 南部廠房 (為其兩大供應商之一)、高雄台南捷運及南科擴建案等重大工程。\n- **電子業務 (利永環球):**\n    - **感測器應用:** 觸控筆、智慧鍵盤、醫療床 (導入 [[北醫行愛長照中心]] 之褥瘡偵測)、智慧倉儲。",
+    "customers_suppliers_md": "### 主要客戶\n- **科技廠辦營造:** [[台積電]] 及其南科進駐廠商之廠房建設專案。\n- **AI醫療與電子:** 採購壓力感測器之北美與歐洲產業領導品牌，以及 [[北醫行愛長照中心]]。\n\n### 主要供應商\n- **水泥熟料來源:** 國內東部之大型水泥與熟料製造商、[[台電]] (脫硫石膏來源)。\n- **特殊建材授權:** 日本外牆建材大廠 [[NICHIHA]]。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $27.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.67 |        9.61 |      2.41 | 0.75 |     12.57 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7920.22 |      7953.73 |      7802.36 |\n| Gross Profit            |      1839.34 |      1598.06 |      1542.14 |\n| Gross Margin (%)        |        23.22 |        20.09 |        19.77 |\n| Selling & Marketing Exp |       110.27 |       124.30 |       148.39 |\n| R&D Exp                 |       122.22 |        71.82 |        72.62 |\n| General & Admin Exp     |       386.12 |       346.65 |       354.76 |\n| Operating Income        |      1220.73 |      1055.28 |       966.37 |\n| Operating Margin (%)    |        15.41 |        13.27 |        12.39 |\n| Net Income              |      1756.48 |      1482.29 |      2107.76 |\n| Net Margin (%)          |        22.18 |        18.64 |        27.01 |\n| Op Cash Flow            |      1295.15 |      1909.73 |      1548.90 |\n| Investing Cash Flow     |     -1058.18 |      -175.27 |      1022.87 |\n| Financing Cash Flow     |       -89.78 |     -1576.16 |     -1937.92 |\n| CAPEX                   |      -174.96 |      -181.40 |      -198.37 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1759.05 |      2137.20 |      1885.54 |      1968.82 |\n| Gross Profit            |       491.65 |       622.26 |       388.43 |       436.94 |\n| Gross Margin (%)        |        27.95 |        29.12 |        20.60 |        22.19 |\n| Selling & Marketing Exp |        59.15 |        42.36 |        21.86 |        26.18 |\n| R&D Exp                 |        36.50 |        56.01 |        22.80 |        22.92 |\n| General & Admin Exp     |       109.19 |       116.56 |        96.75 |        89.06 |\n| Operating Income        |       286.81 |       407.33 |       247.01 |       298.78 |\n| Operating Margin (%)    |        16.30 |        19.06 |        13.10 |        15.18 |\n| Net Income              |       284.21 |       519.64 |       561.55 |       390.17 |\n| Net Margin (%)          |        16.16 |        24.31 |        29.78 |        19.82 |\n| Op Cash Flow            |       342.19 |       227.15 |       712.63 |       171.88 |\n| Investing Cash Flow     |      -210.79 |      -551.27 |       -61.41 |      -426.17 |\n| Financing Cash Flow     |      -223.24 |       453.36 |      -386.46 |      -182.70 |\n| CAPEX                   |       -31.59 |       -62.46 |       -51.96 |       -38.39 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

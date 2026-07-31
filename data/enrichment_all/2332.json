@@ -1,0 +1,287 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2332",
+  "company_name": "友訊",
+  "title": "2332 - 友訊",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/2332_友訊.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "14,322 百萬台幣",
+    "enterprise_value": "13,908 百萬台幣"
+  },
+  "business": {
+    "summary": "友訊科技 (2332，[[D-Link]]) 為全球知名網通品牌廠商，目前為 [[台鋼集團]] 旗下核心網通品牌。公司採「純品牌」營運模式，將生產全面委託代工廠製造，自身專注於網通設備設計、軟硬體整合及 D-Link 品牌全球行銷，產品銷售遍布超過 100 個國家。\n\n核心產品涵蓋 [[Wi-Fi]] 路由器 (含 [[Wi-Fi 7]] 新世代)、網管型交換器、統一威脅管理 ([[UTM]]) 防火牆、[[VPN]] 路由器、雲端監控攝影機、智慧家庭系統及邊緣雲端方案。公司近年積極拓展企業級與電信營運商市場，成功取得中東 [[5G]] CPE 專案訂單、印度企業級無線基地台大單，並與美國客戶簽訂長期供應合約。D-View 8 網路管理軟體及 D-ViewCam 影像管理平台為其軟體差異化優勢。",
+    "entities": [
+      "D-Link",
+      "台鋼集團",
+      "Wi-Fi",
+      "Wi-Fi 7",
+      "UTM",
+      "VPN",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與元件)",
+        "text": "**上游 (網通晶片與元件):**",
+        "entities": []
+      },
+      {
+        "category": "網通主晶片",
+        "text": "[[瑞昱]]、[[Broadcom]]、[[聯發科]] — Wi-Fi/交換器晶片",
+        "entities": [
+          "瑞昱",
+          "Broadcom",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "DRAM 及 Flash 記憶體",
+        "entities": []
+      },
+      {
+        "category": "光通訊模組",
+        "text": "光收發模組元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌設計與代工)",
+        "text": "**中游 (品牌設計與代工):**",
+        "entities": []
+      },
+      {
+        "category": "品牌營運",
+        "text": "**友訊 (D-Link)** (純品牌研發行銷，OEM/ODM 委外製造)",
+        "entities": []
+      },
+      {
+        "category": "關係企業代工",
+        "text": "[[友勁]] (2485)、[[易通展]] — 台鋼集團旗下台灣製造",
+        "entities": [
+          "友勁",
+          "易通展"
+        ]
+      },
+      {
+        "category": "外部代工",
+        "text": "逾三十家代工供應商，前四大佔採購額半數以上",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端通路與營運商)",
+        "text": "**下游 (終端通路與營運商):**",
+        "entities": []
+      },
+      {
+        "category": "電信營運商",
+        "text": "中東 5G CPE 專案、印度企業級基地台",
+        "entities": []
+      },
+      {
+        "category": "消費通路",
+        "text": "全球 IT 經銷商、電商平台及零售通路",
+        "entities": []
+      },
+      {
+        "category": "企業用戶",
+        "text": "中小企業網路與監控方案",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信營運商",
+        "text": "中東地區 5G CPE 專案客戶、印度企業級無線基地台客戶",
+        "entities": []
+      },
+      {
+        "role": "北美市場",
+        "text": "美國長期供應合約客戶",
+        "entities": []
+      },
+      {
+        "role": "消費終端",
+        "text": "全球 SOHO 及家庭用戶 (透過 IT 經銷商與電商通路)",
+        "entities": []
+      },
+      {
+        "role": "垂直市場",
+        "text": "各國教育機構與政府機關",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網通晶片",
+        "text": "[[瑞昱]]、[[Broadcom]]、[[聯發科]]",
+        "entities": [
+          "瑞昱",
+          "Broadcom",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "集團代工",
+        "text": "[[友勁]] (2485)、[[易通展]] — 台鋼集團旗下製造",
+        "entities": [
+          "友勁",
+          "易通展"
+        ]
+      },
+      {
+        "role": "資安合作",
+        "text": "[[Juniper Networks]] (跨國資安整合)",
+        "entities": [
+          "Juniper Networks"
+        ]
+      },
+      {
+        "role": "工業網路",
+        "text": "[[Moxa]] (四零四科技，工業網路方案)",
+        "entities": [
+          "Moxa"
+        ]
+      },
+      {
+        "role": "智慧家庭生態",
+        "text": "對接 [[Google]] Home 及 [[Apple]] HomeKit 生態系",
+        "entities": [
+          "Google",
+          "Apple"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[啟碁]]",
+        "entities": [
+          "啟碁"
+        ],
+        "basis": "reciprocal_competitor_from:6285",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "D-Link",
+      "type": "international_company_or_term",
+      "wikilink": "D-Link"
+    },
+    {
+      "name": "台鋼集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鋼集團"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "UTM",
+      "type": "international_company_or_term",
+      "wikilink": "UTM"
+    },
+    {
+      "name": "VPN",
+      "type": "international_company_or_term",
+      "wikilink": "VPN"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "友勁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友勁"
+    },
+    {
+      "name": "易通展",
+      "type": "taiwan_company_or_term",
+      "wikilink": "易通展"
+    },
+    {
+      "name": "Juniper Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Juniper Networks"
+    },
+    {
+      "name": "Moxa",
+      "type": "international_company_or_term",
+      "wikilink": "Moxa"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "啟碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "啟碁"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "友訊科技 (2332，[[D-Link]]) 為全球知名網通品牌廠商，目前為 [[台鋼集團]] 旗下核心網通品牌。公司採「純品牌」營運模式，將生產全面委託代工廠製造，自身專注於網通設備設計、軟硬體整合及 D-Link 品牌全球行銷，產品銷售遍布超過 100 個國家。\n\n核心產品涵蓋 [[Wi-Fi]] 路由器 (含 [[Wi-Fi 7]] 新世代)、網管型交換器、統一威脅管理 ([[UTM]]) 防火牆、[[VPN]] 路由器、雲端監控攝影機、智慧家庭系統及邊緣雲端方案。公司近年積極拓展企業級與電信營運商市場，成功取得中東 [[5G]] CPE 專案訂單、印度企業級無線基地台大單，並與美國客戶簽訂長期供應合約。D-View 8 網路管理軟體及 D-ViewCam 影像管理平台為其軟體差異化優勢。",
+    "supply_chain_md": "**上游 (網通晶片與元件):**\n- **網通主晶片:** [[瑞昱]]、[[Broadcom]]、[[聯發科]] — Wi-Fi/交換器晶片\n- **記憶體:** DRAM 及 Flash 記憶體\n- **光通訊模組:** 光收發模組元件\n\n**中游 (品牌設計與代工):**\n- **品牌營運:** **友訊 (D-Link)** (純品牌研發行銷，OEM/ODM 委外製造)\n- **關係企業代工:** [[友勁]] (2485)、[[易通展]] — 台鋼集團旗下台灣製造\n- **外部代工:** 逾三十家代工供應商，前四大佔採購額半數以上\n\n**下游 (終端通路與營運商):**\n- **電信營運商:** 中東 5G CPE 專案、印度企業級基地台\n- **消費通路:** 全球 IT 經銷商、電商平台及零售通路\n- **企業用戶:** 中小企業網路與監控方案",
+    "customers_suppliers_md": "### 主要客戶\n- **電信營運商:** 中東地區 5G CPE 專案客戶、印度企業級無線基地台客戶\n- **北美市場:** 美國長期供應合約客戶\n- **消費終端:** 全球 SOHO 及家庭用戶 (透過 IT 經銷商與電商通路)\n- **垂直市場:** 各國教育機構與政府機關\n\n### 主要供應商\n- **網通晶片:** [[瑞昱]]、[[Broadcom]]、[[聯發科]]\n- **集團代工:** [[友勁]] (2485)、[[易通展]] — 台鋼集團旗下製造\n- **資安合作:** [[Juniper Networks]] (跨國資安整合)\n- **工業網路:** [[Moxa]] (四零四科技，工業網路方案)\n- **智慧家庭生態:** 對接 [[Google]] Home 及 [[Apple]] HomeKit 生態系",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $21.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       72.00 |      0.96 | 1.57 |   -208.89 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     13367.02 |     14395.04 |     15941.28 |\n| Gross Profit            |      3287.91 |      3704.29 |      3844.40 |\n| Gross Margin (%)        |        24.60 |        25.73 |        24.12 |\n| Selling & Marketing Exp |      2030.93 |      2213.74 |      2226.26 |\n| R&D Exp                 |       592.51 |       759.54 |       728.34 |\n| General & Admin Exp     |       985.48 |       919.05 |       760.62 |\n| Operating Income        |      -321.01 |      -188.04 |       129.18 |\n| Operating Margin (%)    |        -2.40 |        -1.31 |         0.81 |\n| Net Income              |      -539.53 |        35.32 |       567.58 |\n| Net Margin (%)          |        -4.04 |         0.25 |         3.56 |\n| Op Cash Flow            |      -211.61 |      1173.53 |      1086.86 |\n| Investing Cash Flow     |      -703.23 |      -353.23 |      1234.57 |\n| Financing Cash Flow     |      -162.19 |      -773.19 |      -682.04 |\n| CAPEX                   |      -194.66 |      -116.22 |      -119.37 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3440.89 |      3435.44 |      3444.25 |      3150.75 |\n| Gross Profit            |       869.52 |       807.41 |       890.09 |       785.56 |\n| Gross Margin (%)        |        25.27 |        23.50 |        25.84 |        24.93 |\n| Selling & Marketing Exp |       463.76 |       576.36 |       487.74 |       467.38 |\n| R&D Exp                 |       128.54 |       112.47 |       155.73 |       169.69 |\n| General & Admin Exp     |       246.68 |       330.36 |       242.66 |       216.47 |\n| Operating Income        |        30.54 |      -211.78 |         3.96 |       -68.00 |\n| Operating Margin (%)    |         0.89 |        -6.16 |         0.11 |        -2.16 |\n| Net Income              |       -29.10 |      -250.66 |        13.93 |      -137.63 |\n| Net Margin (%)          |        -0.85 |        -7.30 |         0.40 |        -4.37 |\n| Op Cash Flow            |      -129.92 |      -235.26 |      -199.15 |       228.96 |\n| Investing Cash Flow     |       270.64 |       -53.66 |      -295.30 |      -280.70 |\n| Financing Cash Flow     |      -149.41 |       250.90 |      -141.72 |      -170.67 |\n| CAPEX                   |       -29.07 |       -85.81 |       -23.01 |       -38.71 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

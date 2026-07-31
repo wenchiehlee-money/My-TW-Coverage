@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8016",
+  "company_name": "矽創",
+  "title": "8016 - 矽創",
+  "source_md": "Pilot_Reports/半導體 - IC設計/8016_矽創.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "31,122 百萬台幣",
+    "enterprise_value": "25,758 百萬台幣"
+  },
+  "business": {
+    "summary": "矽創電子 (8016，Sitronix) 為台灣無晶圓廠 [[IC 設計]]公司，主力產品為[[顯示驅動 IC]] (DDI)，涵蓋 TN、STN 及 TFT 面板技術，應用於工業顯示器、手機及 [[AIoT]] 裝置。子公司發展電源 IC、光學及 [[MEMS]] 感測器、觸控控制 IC 及 MCU 等非 DDI 產品線。",
+    "entities": [
+      "IC 設計",
+      "顯示驅動 IC",
+      "AIoT",
+      "MEMS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "**矽創** (顯示驅動 IC、觸控、感測器、MCU)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板與終端)",
+        "text": "**下游 (面板與終端):**",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "[[友達光電]]、[[群創光電]]",
+        "entities": [
+          "友達光電",
+          "群創光電"
+        ]
+      },
+      {
+        "category": "AIoT",
+        "text": "AIoT 裝置品牌",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板",
+        "text": "[[友達光電]]、[[群創光電]]",
+        "entities": [
+          "友達光電",
+          "群創光電"
+        ]
+      },
+      {
+        "role": "AIoT",
+        "text": "AIoT 裝置品牌客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[聯詠]]、[[奇景光電]]、[[瑞鼎]]",
+        "entities": [
+          "聯詠",
+          "奇景光電",
+          "瑞鼎"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[聯詠]]、[[奇景光電]]、[[瑞鼎]]",
+        "entities": [
+          "聯詠",
+          "奇景光電",
+          "瑞鼎"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[義隆]]",
+        "entities": [
+          "義隆"
+        ],
+        "basis": "reciprocal_competitor_from:2458",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IC 設計",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC 設計"
+    },
+    {
+      "name": "顯示驅動 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "顯示驅動 IC"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "MEMS",
+      "type": "international_company_or_term",
+      "wikilink": "MEMS"
+    },
+    {
+      "name": "友達光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達光電"
+    },
+    {
+      "name": "群創光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創光電"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "奇景光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇景光電"
+    },
+    {
+      "name": "瑞鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞鼎"
+    },
+    {
+      "name": "義隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "義隆"
+    },
+    {
+      "name": "晶宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶宏"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "矽創電子 (8016，Sitronix) 為台灣無晶圓廠 [[IC 設計]]公司，主力產品為[[顯示驅動 IC]] (DDI)，涵蓋 TN、STN 及 TFT 面板技術，應用於工業顯示器、手機及 [[AIoT]] 裝置。子公司發展電源 IC、光學及 [[MEMS]] 感測器、觸控控制 IC 及 MCU 等非 DDI 產品線。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** 台灣晶圓代工廠\n\n**中游 (IC 設計):**\n- **驅動 IC:** **矽創** (顯示驅動 IC、觸控、感測器、MCU)\n\n**下游 (面板與終端):**\n- **面板:** [[友達光電]]、[[群創光電]]\n- **AIoT:** AIoT 裝置品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **面板:** [[友達光電]]、[[群創光電]]\n- **AIoT:** AIoT 裝置品牌客戶\n\n### 主要供應商\n- **晶圓代工:** 台灣晶圓代工廠\n- **競爭同業:** [[聯詠]]、[[奇景光電]]、[[瑞鼎]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $254.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.25 |        5.93 |      1.50 | 2.61 |      9.18 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     19001.93 |     17826.51 |     16722.89 |\n| Gross Profit            |      5818.68 |      6078.29 |      5713.70 |\n| Gross Margin (%)        |        30.62 |        34.10 |        34.17 |\n| Selling & Marketing Exp |       315.96 |       323.05 |       297.41 |\n| R&D Exp                 |      2659.03 |      2523.21 |      2271.28 |\n| General & Admin Exp     |       733.59 |       760.17 |       642.37 |\n| Operating Income        |      2111.44 |      2491.69 |      2503.62 |\n| Operating Margin (%)    |        11.11 |        13.98 |        14.97 |\n| Net Income              |      1745.04 |      1848.21 |      1858.34 |\n| Net Margin (%)          |         9.18 |        10.37 |        11.11 |\n| Op Cash Flow            |      3105.41 |      2842.22 |      4298.22 |\n| Investing Cash Flow     |      1290.94 |     -3497.49 |     -1324.66 |\n| Financing Cash Flow     |     -2502.84 |     -1060.68 |     -3121.56 |\n| CAPEX                   |      -882.82 |      -683.24 |      -614.53 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5328.77 |      5307.40 |      4648.29 |      4332.35 |\n| Gross Profit            |      1669.42 |      1616.56 |      1424.91 |      1414.65 |\n| Gross Margin (%)        |        31.33 |        30.46 |        30.65 |        32.65 |\n| Selling & Marketing Exp |       106.51 |        65.75 |        76.87 |        89.14 |\n| R&D Exp                 |       763.86 |       719.12 |       648.03 |       639.52 |\n| General & Admin Exp     |       184.76 |       177.76 |       189.35 |       188.49 |\n| Operating Income        |       614.62 |       654.27 |       510.99 |       497.83 |\n| Operating Margin (%)    |        11.53 |        12.33 |        10.99 |        11.49 |\n| Net Income              |       541.69 |       517.73 |       423.70 |       413.77 |\n| Net Margin (%)          |        10.17 |         9.75 |         9.12 |         9.55 |\n| Op Cash Flow            |       896.36 |       871.46 |       762.40 |       323.65 |\n| Investing Cash Flow     |      -380.54 |     -1546.34 |       912.03 |      2292.74 |\n| Financing Cash Flow     |      -162.93 |      -170.95 |      -686.25 |       103.53 |\n| CAPEX                   |      -283.44 |      -189.91 |      -288.32 |      -196.95 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6465",
+  "company_name": "威潤",
+  "title": "6465_威潤",
+  "source_md": "Pilot_Reports/通信網路 - 無線通訊設備(如行動電話、衛星定位系統、衛星_微波通訊設備、數位機上盒)/6465_威潤.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,280 百萬台幣",
+    "enterprise_value": "1,978 百萬台幣"
+  },
+  "business": {
+    "summary": "威潤科技 (6465，[[ATrack Technology]]) 為台灣專注於研發及製造車載衛星定位監控系統 (GPS Tracker) 的領導品牌。公司以自有品牌「ATrack」行銷全球，為[[車聯網]]及車隊管理市場提供高度客製化資通訊硬體方案。\n\n產品支援 4G LTE、[[5G]] 及低功耗廣域網路 (LPWAN)，精準回傳車輛位置、駕駛行為及車況數據。近年針對物流車隊、租賃車及冷鏈運輸，積極擴充影像監控 (Video Telematics) 與 [[AI]] 邊緣運算功能。已成功取得日本 [[SoftBank]] 電信認證大單，並與日系汽車零件 Tier-1 大廠合作切入東南亞摩托車[[車聯網]]市場。",
+    "entities": [
+      "ATrack Technology",
+      "車聯網",
+      "5G",
+      "AI",
+      "SoftBank"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (定位晶片與通訊模組)",
+        "text": "**上游 (定位晶片與通訊模組):**",
+        "entities": []
+      },
+      {
+        "category": "通訊基帶",
+        "text": "[[Qualcomm]]、[[聯發科]] — 4G/5G 基帶晶片",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "GNSS 定位",
+        "text": "國際 GNSS 衛星定位接收 IC",
+        "entities": []
+      },
+      {
+        "category": "零件通路",
+        "text": "[[益登]] (3048) — 台灣電子零組件代理",
+        "entities": [
+          "益登"
+        ]
+      },
+      {
+        "category": "MCU/感測器",
+        "text": "低功耗 MCU 及車用 CAN Bus 介面晶片",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (車載衛星定位硬體自有品牌)",
+        "text": "**中游 (車載衛星定位硬體自有品牌):**",
+        "entities": []
+      },
+      {
+        "category": "GPS 追蹤器",
+        "text": "**威潤** (ATrack 品牌商用車隊追蹤主機)",
+        "entities": []
+      },
+      {
+        "category": "影像系統",
+        "text": "**威潤** (AI 視覺 DS/ADAS 行車影像管理)",
+        "entities": []
+      },
+      {
+        "category": "特用產品",
+        "text": "工程機械/摩托車/冷鏈專用追蹤器",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信商與車隊管理服務商)",
+        "text": "**下游 (電信商與車隊管理服務商):**",
+        "entities": []
+      },
+      {
+        "category": "日本電信",
+        "text": "[[SoftBank]] — 4G LTE 衛星監控設備認證供應",
+        "entities": [
+          "SoftBank"
+        ]
+      },
+      {
+        "category": "日系車廠 Tier-1",
+        "text": "日本大型汽車零件商 — 東南亞摩托車車聯網 ODM",
+        "entities": []
+      },
+      {
+        "category": "全球 TSP",
+        "text": "歐美車隊管理系統服務商 (TSP)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日本電信",
+        "text": "[[SoftBank]] (軟銀) — 4G LTE 衛星定位監控設備供應",
+        "entities": [
+          "SoftBank"
+        ]
+      },
+      {
+        "role": "日系 Tier-1",
+        "text": "日本大型汽車零件供應商 — 東南亞摩托車車聯網 ODM",
+        "entities": []
+      },
+      {
+        "role": "全球 TSP",
+        "text": "歐美車隊管理科技服務商 — GPS 追蹤主機",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "通訊晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — 4G/5G 基帶晶片及 GNSS 定位模組",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "零件代理",
+        "text": "[[益登]] (3048) — 台灣電子零組件通路",
+        "entities": [
+          "益登"
+        ]
+      },
+      {
+        "role": "感測元件",
+        "text": "車用級 MCU 及 CAN Bus 介面晶片",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ATrack Technology",
+      "type": "international_company_or_term",
+      "wikilink": "ATrack Technology"
+    },
+    {
+      "name": "車聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車聯網"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "SoftBank",
+      "type": "international_company_or_term",
+      "wikilink": "SoftBank"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "益登",
+      "type": "taiwan_company_or_term",
+      "wikilink": "益登"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "威潤科技 (6465，[[ATrack Technology]]) 為台灣專注於研發及製造車載衛星定位監控系統 (GPS Tracker) 的領導品牌。公司以自有品牌「ATrack」行銷全球，為[[車聯網]]及車隊管理市場提供高度客製化資通訊硬體方案。\n\n產品支援 4G LTE、[[5G]] 及低功耗廣域網路 (LPWAN)，精準回傳車輛位置、駕駛行為及車況數據。近年針對物流車隊、租賃車及冷鏈運輸，積極擴充影像監控 (Video Telematics) 與 [[AI]] 邊緣運算功能。已成功取得日本 [[SoftBank]] 電信認證大單，並與日系汽車零件 Tier-1 大廠合作切入東南亞摩托車[[車聯網]]市場。",
+    "supply_chain_md": "**上游 (定位晶片與通訊模組):**\n- **通訊基帶:** [[Qualcomm]]、[[聯發科]] — 4G/5G 基帶晶片\n- **GNSS 定位:** 國際 GNSS 衛星定位接收 IC\n- **零件通路:** [[益登]] (3048) — 台灣電子零組件代理\n- **MCU/感測器:** 低功耗 MCU 及車用 CAN Bus 介面晶片\n\n**中游 (車載衛星定位硬體自有品牌):**\n- **GPS 追蹤器:** **威潤** (ATrack 品牌商用車隊追蹤主機)\n- **影像系統:** **威潤** (AI 視覺 DS/ADAS 行車影像管理)\n- **特用產品:** 工程機械/摩托車/冷鏈專用追蹤器\n\n**下游 (電信商與車隊管理服務商):**\n- **日本電信:** [[SoftBank]] — 4G LTE 衛星監控設備認證供應\n- **日系車廠 Tier-1:** 日本大型汽車零件商 — 東南亞摩托車車聯網 ODM\n- **全球 TSP:** 歐美車隊管理系統服務商 (TSP)",
+    "customers_suppliers_md": "### 主要客戶\n- **日本電信:** [[SoftBank]] (軟銀) — 4G LTE 衛星定位監控設備供應\n- **日系 Tier-1:** 日本大型汽車零件供應商 — 東南亞摩托車車聯網 ODM\n- **全球 TSP:** 歐美車隊管理科技服務商 — GPS 追蹤主機\n\n### 主要供應商\n- **通訊晶片:** [[Qualcomm]]、[[聯發科]] — 4G/5G 基帶晶片及 GNSS 定位模組\n- **零件代理:** [[益登]] (3048) — 台灣電子零組件通路\n- **感測元件:** 車用級 MCU 及 CAN Bus 介面晶片",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $46.25 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.72 |         N/A |      7.73 | 4.01 |     21.15 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       263.25 |       160.91 |       241.60 |\n| Gross Profit            |       158.65 |        38.60 |        71.54 |\n| Gross Margin (%)        |        60.27 |        23.99 |        29.61 |\n| Selling & Marketing Exp |        28.15 |        26.05 |        31.07 |\n| R&D Exp                 |        49.69 |        47.09 |        48.36 |\n| General & Admin Exp     |        41.72 |        52.69 |        52.19 |\n| Operating Income        |        39.10 |       -87.23 |       -60.09 |\n| Operating Margin (%)    |        14.85 |       -54.21 |       -24.87 |\n| Net Income              |        40.43 |       -65.66 |       -52.89 |\n| Net Margin (%)          |        15.36 |       -40.81 |       -21.89 |\n| Op Cash Flow            |        49.08 |        -9.40 |        12.45 |\n| Investing Cash Flow     |       -74.08 |       -28.42 |         6.79 |\n| Financing Cash Flow     |        -1.88 |        64.58 |        -3.92 |\n| CAPEX                   |       -20.95 |        -7.36 |        -4.82 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       130.46 |        45.23 |        48.62 |        38.94 |\n| Gross Profit            |       107.62 |        25.91 |        18.69 |         6.43 |\n| Gross Margin (%)        |        82.50 |        57.28 |        38.44 |        16.52 |\n| Selling & Marketing Exp |         7.33 |         6.98 |         6.93 |         6.91 |\n| R&D Exp                 |        17.05 |        11.06 |        10.45 |        11.13 |\n| General & Admin Exp     |        14.51 |         8.54 |         7.55 |        11.12 |\n| Operating Income        |        68.74 |        -0.67 |        -6.24 |       -22.73 |\n| Operating Margin (%)    |        52.69 |        -1.48 |       -12.83 |       -58.38 |\n| Net Income              |        75.72 |         0.34 |       -15.63 |       -20.01 |\n| Net Margin (%)          |        58.04 |         0.75 |       -32.14 |       -51.39 |\n| Op Cash Flow            |        85.72 |        -9.90 |       -10.26 |       -16.48 |\n| Investing Cash Flow     |       -34.77 |        -1.45 |       -49.44 |        11.59 |\n| Financing Cash Flow     |        -0.80 |        -0.80 |        -0.27 |        -0.01 |\n| CAPEX                   |        -1.13 |        -2.68 |       -15.96 |        -1.18 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

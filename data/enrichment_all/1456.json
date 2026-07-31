@@ -1,0 +1,185 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1456",
+  "company_name": "怡華",
+  "title": "1456 - 怡華",
+  "source_md": "Pilot_Reports/紡織 - 人造纖維產品(例如尼龍纖維、聚酯纖維、嫘縈纖維等/1456_怡華.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "market_cap": "1,312 百萬台幣",
+    "enterprise_value": "11,701 百萬台幣"
+  },
+  "business": {
+    "summary": "怡華實業股份有限公司 (1456) 為台灣老牌多元化控股公司，業務涵蓋不動產開發與租賃、電子材料及工程顧問。不動產方面，公司持有並開發台北精華地段商辦與住宅資產，以租賃收入為穩定現金流來源。電子材料事業透過子公司經營[[PCB]][[銅箔基板]] (CCL) 及[[電子化學品]]之貿易代理。工程顧問事業提供大型公共工程之規劃設計與監造服務。主要客戶包括[[台電]]及各級政府機關。",
+    "entities": [
+      "PCB",
+      "銅箔基板",
+      "電子化學品",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原物料與工程資源)",
+        "text": "**上游 (原物料與工程資源):**",
+        "entities": []
+      },
+      {
+        "category": "電子材料",
+        "text": "[[PCB]]銅箔基板 (CCL)、電子化學品原料",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "建材",
+        "text": "營建用鋼筋、水泥",
+        "entities": []
+      },
+      {
+        "category": "工程設計",
+        "text": "建築師與結構技師",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (多元營運)",
+        "text": "**中游 (多元營運):**",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "怡華 — 商辦與住宅資產開發、租賃",
+        "entities": []
+      },
+      {
+        "category": "電子材料",
+        "text": "子公司 — [[PCB]]銅箔基板貿易代理",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "工程顧問",
+        "text": "大型公共工程規劃設計與監造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "商辦與住宅租戶及買家",
+        "entities": []
+      },
+      {
+        "category": "電子業",
+        "text": "[[PCB]]製造商 — 銅箔基板採購",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "公共工程",
+        "text": "[[台電]]、各級政府機關",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "不動產租戶",
+        "text": "台北精華地段商辦與住宅租戶",
+        "entities": []
+      },
+      {
+        "role": "電子業",
+        "text": "[[PCB]]製造商 — 銅箔基板 (CCL) 採購",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "公共工程",
+        "text": "[[台電]]、各級政府機關 — 工程顧問",
+        "entities": [
+          "台電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電子材料",
+        "text": "[[PCB]]銅箔基板 (CCL) 原廠",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "營建",
+        "text": "建材與營造工程供應商",
+        "entities": []
+      },
+      {
+        "role": "工程技術",
+        "text": "建築師與結構技師事務所",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "銅箔基板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔基板"
+    },
+    {
+      "name": "電子化學品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電子化學品"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "怡華實業股份有限公司 (1456) 為台灣老牌多元化控股公司，業務涵蓋不動產開發與租賃、電子材料及工程顧問。不動產方面，公司持有並開發台北精華地段商辦與住宅資產，以租賃收入為穩定現金流來源。電子材料事業透過子公司經營[[PCB]][[銅箔基板]] (CCL) 及[[電子化學品]]之貿易代理。工程顧問事業提供大型公共工程之規劃設計與監造服務。主要客戶包括[[台電]]及各級政府機關。",
+    "supply_chain_md": "**上游 (原物料與工程資源):**\n- **電子材料:** [[PCB]]銅箔基板 (CCL)、電子化學品原料\n- **建材:** 營建用鋼筋、水泥\n- **工程設計:** 建築師與結構技師\n\n**中游 (多元營運):**\n- **不動產:** 怡華 — 商辦與住宅資產開發、租賃\n- **電子材料:** 子公司 — [[PCB]]銅箔基板貿易代理\n- **工程顧問:** 大型公共工程規劃設計與監造\n\n**下游 (終端客戶):**\n- **不動產:** 商辦與住宅租戶及買家\n- **電子業:** [[PCB]]製造商 — 銅箔基板採購\n- **公共工程:** [[台電]]、各級政府機關",
+    "customers_suppliers_md": "### 主要客戶\n- **不動產租戶:** 台北精華地段商辦與住宅租戶\n- **電子業:** [[PCB]]製造商 — 銅箔基板 (CCL) 採購\n- **公共工程:** [[台電]]、各級政府機關 — 工程顧問\n\n### 主要供應商\n- **電子材料:** [[PCB]]銅箔基板 (CCL) 原廠\n- **營建:** 建材與營造工程供應商\n- **工程技術:** 建築師與結構技師事務所",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $13.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      4.01 |         N/A |      1.47 | 0.68 |     49.94 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       828.99 |      1042.28 |      1684.89 |\n| Gross Profit            |       322.87 |       353.38 |       562.68 |\n| Gross Margin (%)        |        38.95 |        33.90 |        33.40 |\n| Selling & Marketing Exp |        59.87 |        75.85 |       116.55 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        63.43 |        64.71 |        66.50 |\n| Operating Income        |       648.56 |       483.22 |       397.63 |\n| Operating Margin (%)    |        78.23 |        46.36 |        23.60 |\n| Net Income              |       319.37 |       103.59 |         5.08 |\n| Net Margin (%)          |        38.53 |         9.94 |         0.30 |\n| Op Cash Flow            |      -460.18 |      -422.99 |      -962.66 |\n| Investing Cash Flow     |       112.55 |       203.12 |      -160.72 |\n| Financing Cash Flow     |       263.71 |       222.92 |      1116.02 |\n| CAPEX                   |        -3.11 |        -0.13 |       -12.03 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       207.37 |       161.42 |       296.36 |       163.83 |\n| Gross Profit            |        96.91 |        64.18 |        97.22 |        64.56 |\n| Gross Margin (%)        |        46.73 |        39.76 |        32.80 |        39.41 |\n| Selling & Marketing Exp |        12.14 |        12.55 |        21.04 |        14.14 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        17.07 |        14.52 |        13.54 |        18.29 |\n| Operating Income        |       514.69 |        39.10 |        62.64 |        32.13 |\n| Operating Margin (%)    |       248.19 |        24.22 |        21.14 |        19.61 |\n| Net Income              |       403.83 |       -32.10 |        -7.50 |       -44.86 |\n| Net Margin (%)          |       194.73 |       -19.88 |        -2.53 |       -27.38 |\n| Op Cash Flow            |       -63.52 |      -142.73 |       -25.60 |      -228.34 |\n| Investing Cash Flow     |        -8.71 |        23.15 |        92.66 |         5.46 |\n| Financing Cash Flow     |        75.15 |         2.47 |      -183.08 |       369.17 |\n| CAPEX                   |         0.14 |        -0.00 |        -0.15 |        -3.10 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

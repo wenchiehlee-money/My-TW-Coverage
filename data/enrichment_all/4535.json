@@ -1,0 +1,156 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4535",
+  "company_name": "至興",
+  "title": "4535 - 至興",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/4535_至興.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,073 百萬台幣",
+    "enterprise_value": "884 百萬台幣"
+  },
+  "business": {
+    "summary": "至興精機 (4535) 隸屬[[全興集團]] (東陽集團)，為台灣最大精密沖壓零組件製造商。產品涵蓋座椅傾斜器、安全帶零件、手煞車零件、氣囊框架及機車碟煞。供應全球汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] (均勝) 之安全帶及氣囊零組件。另以 Tier 1 身分直供座椅傾斜器。上游鋼材採購自[[中鋼]]。營收地理分布：亞洲 48% (含越南/馬來西亞/泰國/韓國/澳洲)、歐洲及美洲。",
+    "entities": [
+      "全興集團",
+      "Autoliv",
+      "ZF",
+      "Joyson Safety Systems",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 鋼捲及鋼板",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**至興** (精密沖壓：座椅傾斜器/安全帶件/氣囊框架/碟煞)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (Tier 1 客戶)",
+        "text": "**下游 (Tier 1 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "安全系統",
+        "text": "[[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊零組件",
+        "entities": [
+          "Autoliv",
+          "ZF",
+          "Joyson Safety Systems"
+        ]
+      },
+      {
+        "category": "座椅",
+        "text": "直供車廠 — 座椅傾斜器 Tier 1",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "安全 Tier 1",
+        "text": "[[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊沖壓件",
+        "entities": [
+          "Autoliv",
+          "ZF",
+          "Joyson Safety Systems"
+        ]
+      },
+      {
+        "role": "座椅",
+        "text": "車廠直供 — 座椅傾斜器",
+        "entities": []
+      },
+      {
+        "role": "母集團",
+        "text": "[[全興集團]] — 集團協同",
+        "entities": [
+          "全興集團"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 鋼捲/鋼板",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "全興集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全興集團"
+    },
+    {
+      "name": "Autoliv",
+      "type": "international_company_or_term",
+      "wikilink": "Autoliv"
+    },
+    {
+      "name": "ZF",
+      "type": "international_company_or_term",
+      "wikilink": "ZF"
+    },
+    {
+      "name": "Joyson Safety Systems",
+      "type": "international_company_or_term",
+      "wikilink": "Joyson Safety Systems"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "至興精機 (4535) 隸屬[[全興集團]] (東陽集團)，為台灣最大精密沖壓零組件製造商。產品涵蓋座椅傾斜器、安全帶零件、手煞車零件、氣囊框架及機車碟煞。供應全球汽車安全 Tier 1 — [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] (均勝) 之安全帶及氣囊零組件。另以 Tier 1 身分直供座椅傾斜器。上游鋼材採購自[[中鋼]]。營收地理分布：亞洲 48% (含越南/馬來西亞/泰國/韓國/澳洲)、歐洲及美洲。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼材:** [[中鋼]] — 鋼捲及鋼板\n\n**中游 (製造):**\n- **至興** (精密沖壓：座椅傾斜器/安全帶件/氣囊框架/碟煞)\n\n**下游 (Tier 1 客戶):**\n- **安全系統:** [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊零組件\n- **座椅:** 直供車廠 — 座椅傾斜器 Tier 1",
+    "customers_suppliers_md": "### 主要客戶\n- **安全 Tier 1:** [[Autoliv]]、[[ZF]]、[[Joyson Safety Systems]] — 安全帶/氣囊沖壓件\n- **座椅:** 車廠直供 — 座椅傾斜器\n- **母集團:** [[全興集團]] — 集團協同\n\n### 主要供應商\n- **鋼材:** [[中鋼]] — 鋼捲/鋼板",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $27.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     27.52 |         N/A |      0.85 | 0.84 |      2.56 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2518.72 |      2909.51 |      2860.04 |\n| Gross Profit            |       499.76 |       567.14 |       566.58 |\n| Gross Margin (%)        |        19.84 |        19.49 |        19.81 |\n| Selling & Marketing Exp |        35.97 |        40.22 |        43.62 |\n| R&D Exp                 |        22.51 |        26.25 |        27.34 |\n| General & Admin Exp     |       160.19 |       167.09 |       162.35 |\n| Operating Income        |       281.08 |       333.58 |       333.27 |\n| Operating Margin (%)    |        11.16 |        11.47 |        11.65 |\n| Net Income              |        98.08 |       185.08 |       181.42 |\n| Net Margin (%)          |         3.89 |         6.36 |         6.34 |\n| Op Cash Flow            |       416.84 |       455.12 |       516.72 |\n| Investing Cash Flow     |      -101.11 |      -155.25 |      -147.86 |\n| Financing Cash Flow     |      -234.74 |      -202.52 |      -242.91 |\n| CAPEX                   |       -43.41 |       -40.85 |      -124.03 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       609.98 |       610.75 |       658.47 |       639.53 |\n| Gross Profit            |       119.66 |       118.42 |       128.04 |       133.65 |\n| Gross Margin (%)        |        19.62 |        19.39 |        19.45 |        20.90 |\n| Selling & Marketing Exp |         8.96 |         8.40 |         9.20 |         9.42 |\n| R&D Exp                 |         5.36 |         5.15 |         5.71 |         6.28 |\n| General & Admin Exp     |        43.87 |        38.32 |        38.55 |        39.45 |\n| Operating Income        |        61.46 |        66.55 |        74.57 |        78.50 |\n| Operating Margin (%)    |        10.08 |        10.90 |        11.33 |        12.27 |\n| Net Income              |        28.54 |        34.92 |        -9.28 |        43.90 |\n| Net Margin (%)          |         4.68 |         5.72 |        -1.41 |         6.86 |\n| Op Cash Flow            |       120.66 |        98.21 |       113.33 |        84.64 |\n| Investing Cash Flow     |       -85.61 |      -102.24 |       140.41 |       -53.68 |\n| Financing Cash Flow     |        10.57 |      -113.29 |      -134.42 |         2.40 |\n| CAPEX                   |       -20.60 |        -8.49 |        -3.41 |       -10.90 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

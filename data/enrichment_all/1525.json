@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1525",
+  "company_name": "江申",
+  "title": "1525 - 江申",
+  "source_md": "Pilot_Reports/汽車 - 其他/1525_江申.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "4,984 百萬台幣",
+    "enterprise_value": "2,802 百萬台幣"
+  },
+  "business": {
+    "summary": "江申工業 (1525，Kian Shen) 為台灣最大商用車車架製造商，3.5 噸以上大貨車/巴士國產車架市佔率 100%。隸屬裕隆集團 ([[中華汽車]]持股 44%、[[國瑞汽車]]持股 33%)。主要生產大貨車和巴士車架、小貨車後車身及底盤懸吊鈑金零件。近年轉型開發電動巴士車架，供應[[華德動能]]及[[鴻華先進]]。中國子公司成功打入新能源車供應鏈，供應[[寧德時代]] (電池盒)、[[小米汽車]]、[[蔚來汽車]]等，另與[[Toyota]]、[[Nissan]]、[[Honda]]、[[Mazda]]、[[Volvo]]、[[廈門金龍]]合作。",
+    "entities": [
+      "中華汽車",
+      "國瑞汽車",
+      "華德動能",
+      "鴻華先進",
+      "寧德時代",
+      "小米汽車",
+      "蔚來汽車",
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Mazda",
+      "Volvo",
+      "廈門金龍"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "高張力鋼板",
+        "text": "鋼板供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**江申** (商用車車架/底盤鈑金/電動巴士車架)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "台灣商用車",
+        "text": "[[中華汽車]]、[[國瑞汽車]] — 大貨車/巴士車架",
+        "entities": [
+          "中華汽車",
+          "國瑞汽車"
+        ]
+      },
+      {
+        "category": "電動巴士",
+        "text": "[[華德動能]]、[[鴻華先進]] — 電巴車架",
+        "entities": [
+          "華德動能",
+          "鴻華先進"
+        ]
+      },
+      {
+        "category": "中國新能源 (子公司)",
+        "text": "[[寧德時代]]、[[小米汽車]]、[[蔚來汽車]] — 電池盒/車架",
+        "entities": [
+          "寧德時代",
+          "小米汽車",
+          "蔚來汽車"
+        ]
+      },
+      {
+        "category": "中國合資",
+        "text": "[[Toyota]]、[[Nissan]]、[[Honda]]、[[Volvo]]、[[廈門金龍]]",
+        "entities": [
+          "Toyota",
+          "Nissan",
+          "Honda",
+          "Volvo",
+          "廈門金龍"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台灣商用車",
+        "text": "[[中華汽車]]、[[國瑞汽車]] — 車架 (市佔 100%)",
+        "entities": [
+          "中華汽車",
+          "國瑞汽車"
+        ]
+      },
+      {
+        "role": "電動巴士",
+        "text": "[[華德動能]]、[[鴻華先進]]",
+        "entities": [
+          "華德動能",
+          "鴻華先進"
+        ]
+      },
+      {
+        "role": "中國新能源",
+        "text": "[[寧德時代]] (電池盒)、[[小米汽車]]、[[蔚來汽車]]",
+        "entities": [
+          "寧德時代",
+          "小米汽車",
+          "蔚來汽車"
+        ]
+      },
+      {
+        "role": "中國合資",
+        "text": "[[Toyota]]、[[Nissan]]、[[Honda]]、[[Volvo]]",
+        "entities": [
+          "Toyota",
+          "Nissan",
+          "Honda",
+          "Volvo"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼板",
+        "text": "高張力鋼板供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華汽車"
+    },
+    {
+      "name": "國瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國瑞汽車"
+    },
+    {
+      "name": "華德動能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華德動能"
+    },
+    {
+      "name": "鴻華先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻華先進"
+    },
+    {
+      "name": "寧德時代",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寧德時代"
+    },
+    {
+      "name": "小米汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米汽車"
+    },
+    {
+      "name": "蔚來汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蔚來汽車"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Mazda",
+      "type": "international_company_or_term",
+      "wikilink": "Mazda"
+    },
+    {
+      "name": "Volvo",
+      "type": "international_company_or_term",
+      "wikilink": "Volvo"
+    },
+    {
+      "name": "廈門金龍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廈門金龍"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "江申工業 (1525，Kian Shen) 為台灣最大商用車車架製造商，3.5 噸以上大貨車/巴士國產車架市佔率 100%。隸屬裕隆集團 ([[中華汽車]]持股 44%、[[國瑞汽車]]持股 33%)。主要生產大貨車和巴士車架、小貨車後車身及底盤懸吊鈑金零件。近年轉型開發電動巴士車架，供應[[華德動能]]及[[鴻華先進]]。中國子公司成功打入新能源車供應鏈，供應[[寧德時代]] (電池盒)、[[小米汽車]]、[[蔚來汽車]]等，另與[[Toyota]]、[[Nissan]]、[[Honda]]、[[Mazda]]、[[Volvo]]、[[廈門金龍]]合作。",
+    "supply_chain_md": "**上游 (原料):**\n- **高張力鋼板:** 鋼板供應商\n\n**中游 (製造):**\n- **江申** (商用車車架/底盤鈑金/電動巴士車架)\n\n**下游 (終端):**\n- **台灣商用車:** [[中華汽車]]、[[國瑞汽車]] — 大貨車/巴士車架\n- **電動巴士:** [[華德動能]]、[[鴻華先進]] — 電巴車架\n- **中國新能源 (子公司):** [[寧德時代]]、[[小米汽車]]、[[蔚來汽車]] — 電池盒/車架\n- **中國合資:** [[Toyota]]、[[Nissan]]、[[Honda]]、[[Volvo]]、[[廈門金龍]]",
+    "customers_suppliers_md": "### 主要客戶\n- **台灣商用車:** [[中華汽車]]、[[國瑞汽車]] — 車架 (市佔 100%)\n- **電動巴士:** [[華德動能]]、[[鴻華先進]]\n- **中國新能源:** [[寧德時代]] (電池盒)、[[小米汽車]]、[[蔚來汽車]]\n- **中國合資:** [[Toyota]]、[[Nissan]]、[[Honda]]、[[Volvo]]\n\n### 主要供應商\n- **鋼板:** 高張力鋼板供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $68.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     42.77 |       11.64 |      3.99 | 0.98 |     20.55 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1245.66 |      1458.63 |      1598.50 |\n| Gross Profit            |       184.17 |       178.50 |       180.75 |\n| Gross Margin (%)        |        14.78 |        12.24 |        11.31 |\n| Selling & Marketing Exp |         4.05 |         3.22 |         3.19 |\n| R&D Exp                 |        42.07 |        25.86 |        23.55 |\n| General & Admin Exp     |        99.27 |        94.76 |        88.61 |\n| Operating Income        |        38.77 |        54.66 |        65.39 |\n| Operating Margin (%)    |         3.11 |         3.75 |         4.09 |\n| Net Income              |       235.77 |       302.16 |       403.82 |\n| Net Margin (%)          |        18.93 |        20.72 |        25.26 |\n| Op Cash Flow            |       -66.66 |        19.53 |       106.33 |\n| Investing Cash Flow     |        -3.83 |       293.47 |       535.77 |\n| Financing Cash Flow     |      -227.56 |      -353.75 |      -181.43 |\n| CAPEX                   |      -120.82 |       -93.86 |       -88.22 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       281.74 |       344.24 |       330.81 |       293.68 |\n| Gross Profit            |        40.66 |        69.67 |        50.71 |        37.64 |\n| Gross Margin (%)        |        14.43 |        20.24 |        15.33 |        12.82 |\n| Selling & Marketing Exp |         1.27 |         1.07 |         0.90 |         1.27 |\n| R&D Exp                 |         8.90 |        20.10 |        13.14 |         6.75 |\n| General & Admin Exp     |        27.00 |        27.09 |        24.05 |        24.95 |\n| Operating Income        |         3.48 |        21.41 |        12.62 |         4.68 |\n| Operating Margin (%)    |         1.23 |         6.22 |         3.81 |         1.59 |\n| Net Income              |       -59.86 |        53.50 |        63.90 |        59.60 |\n| Net Margin (%)          |       -21.25 |        15.54 |        19.32 |        20.30 |\n| Op Cash Flow            |       -80.42 |        13.36 |        35.36 |       -95.41 |\n| Investing Cash Flow     |       640.40 |        16.03 |       -29.43 |        52.54 |\n| Financing Cash Flow     |         0.02 |       -89.99 |      -137.55 |        -0.01 |\n| CAPEX                   |        -7.02 |       -31.75 |       -37.59 |       -27.21 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5607",
+  "company_name": "遠雄港",
+  "title": "5607 - [[遠雄港]]",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 貨櫃運輸集散及倉儲/5607_遠雄港.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services",
+    "market_cap": "18,194 百萬台幣",
+    "enterprise_value": "31,252 百萬台幣"
+  },
+  "business": {
+    "summary": "遠雄自貿港投資控股股份有限公司 (5607) 主要經營位於桃園國際機場內的[[自由貿易港區]] (FTZ)，提供航空貨運倉儲、物流加工、加值服務及廠辦租賃等一條龍服務。作為台灣唯一的航空自由貿易港區，憑藉「境內關外」的特殊地位以及通關與賦稅優惠，成為跨國電子與[[AI 伺服器]]等高科技產業在亞洲的關鍵物流樞紐。隸屬於[[遠雄集團]]，2025年前十月累計營收年增18.34%。",
+    "entities": [
+      "自由貿易港區",
+      "AI 伺服器",
+      "遠雄集團"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (基礎設施)",
+        "text": "**上游 (基礎設施):**",
+        "entities": []
+      },
+      {
+        "category": "機場營運",
+        "text": "[[桃園國際機場]]公司",
+        "entities": [
+          "桃園國際機場"
+        ]
+      },
+      {
+        "category": "倉儲設備",
+        "text": "自動化倉儲設備供應商",
+        "entities": []
+      },
+      {
+        "category": "營建",
+        "text": "園區廠房擴建之營造廠商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (物流服務)",
+        "text": "**中游 (物流服務):**",
+        "entities": []
+      },
+      {
+        "category": "遠雄港 (5607)",
+        "text": "航空貨運倉儲、保稅物流加工、廠辦租賃、通關作業",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "半導體設備",
+        "text": "[[ASML]]（海外發貨倉庫）",
+        "entities": [
+          "ASML"
+        ]
+      },
+      {
+        "category": "[[AI 伺服器]]供應鏈",
+        "text": "[[NVIDIA]]（全球物流操作中心）",
+        "entities": [
+          "AI 伺服器",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "航空業",
+        "text": "[[星宇航空]]（運籌中心）",
+        "entities": [
+          "星宇航空"
+        ]
+      },
+      {
+        "category": "科技代工",
+        "text": "[[廣達]]、[[緯創]]、[[鴻海]]等[[AI 伺服器]]代工廠",
+        "entities": [
+          "廣達",
+          "緯創",
+          "鴻海",
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體設備",
+        "text": "[[ASML]]（海外發貨倉庫設於園區）",
+        "entities": [
+          "ASML"
+        ]
+      },
+      {
+        "role": "AI晶片",
+        "text": "[[NVIDIA]]（輝達全球物流操作中心）",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "航空業",
+        "text": "[[星宇航空]]（運籌中心）",
+        "entities": [
+          "星宇航空"
+        ]
+      },
+      {
+        "role": "科技代工",
+        "text": "[[廣達]]、[[緯創]]、[[鴻海]]等[[AI 伺服器]]代工廠",
+        "entities": [
+          "廣達",
+          "緯創",
+          "鴻海",
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "機場營運",
+        "text": "[[桃園國際機場]]公司（場地租賃）",
+        "entities": [
+          "桃園國際機場"
+        ]
+      },
+      {
+        "role": "倉儲設備",
+        "text": "自動化倉儲設備廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "自由貿易港區",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自由貿易港區"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "遠雄集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠雄集團"
+    },
+    {
+      "name": "桃園國際機場",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園國際機場"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "星宇航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "星宇航空"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "遠雄自貿港投資控股股份有限公司 (5607) 主要經營位於桃園國際機場內的[[自由貿易港區]] (FTZ)，提供航空貨運倉儲、物流加工、加值服務及廠辦租賃等一條龍服務。作為台灣唯一的航空自由貿易港區，憑藉「境內關外」的特殊地位以及通關與賦稅優惠，成為跨國電子與[[AI 伺服器]]等高科技產業在亞洲的關鍵物流樞紐。隸屬於[[遠雄集團]]，2025年前十月累計營收年增18.34%。",
+    "supply_chain_md": "**上游 (基礎設施):**\n- **機場營運：** [[桃園國際機場]]公司\n- **倉儲設備：** 自動化倉儲設備供應商\n- **營建：** 園區廠房擴建之營造廠商\n\n**中游 (物流服務):**\n- **遠雄港 (5607)：** 航空貨運倉儲、保稅物流加工、廠辦租賃、通關作業\n\n**下游 (終端客戶):**\n- **半導體設備：** [[ASML]]（海外發貨倉庫）\n- **[[AI 伺服器]]供應鏈：** [[NVIDIA]]（全球物流操作中心）\n- **航空業：** [[星宇航空]]（運籌中心）\n- **科技代工：** [[廣達]]、[[緯創]]、[[鴻海]]等[[AI 伺服器]]代工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體設備：** [[ASML]]（海外發貨倉庫設於園區）\n- **AI晶片：** [[NVIDIA]]（輝達全球物流操作中心）\n- **航空業：** [[星宇航空]]（運籌中心）\n- **科技代工：** [[廣達]]、[[緯創]]、[[鴻海]]等[[AI 伺服器]]代工廠\n\n### 主要供應商\n- **機場營運：** [[桃園國際機場]]公司（場地租賃）\n- **倉儲設備：** 自動化倉儲設備廠商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $47.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.57 |       15.58 |      3.92 | 1.53 |     11.57 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4143.05 |      3464.77 |      2908.01 |\n| Gross Profit            |      2058.14 |      1635.22 |      1430.14 |\n| Gross Margin (%)        |        49.68 |        47.20 |        49.18 |\n| Selling & Marketing Exp |       115.43 |       101.38 |       105.56 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       414.67 |       391.16 |       375.22 |\n| Operating Income        |      1528.05 |      1142.68 |       949.36 |\n| Operating Margin (%)    |        36.88 |        32.98 |        32.65 |\n| Net Income              |      1027.81 |       716.91 |       892.20 |\n| Net Margin (%)          |        24.81 |        20.69 |        30.68 |\n| Op Cash Flow            |      2094.60 |      1421.22 |      1219.92 |\n| Investing Cash Flow     |      -931.18 |     -2062.03 |     -3850.23 |\n| Financing Cash Flow     |      -825.13 |       694.23 |      2715.59 |\n| CAPEX                   |      -434.78 |      -363.31 |      -703.37 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1214.03 |      1145.14 |       999.36 |       894.84 |\n| Gross Profit            |       623.21 |       539.04 |       500.08 |       432.84 |\n| Gross Margin (%)        |        51.33 |        47.07 |        50.04 |        48.37 |\n| Selling & Marketing Exp |        24.96 |        31.06 |        28.96 |        24.81 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        60.91 |       120.06 |        98.03 |        96.37 |\n| Operating Income        |       537.34 |       387.92 |       373.08 |       311.66 |\n| Operating Margin (%)    |        44.26 |        33.87 |        37.33 |        34.83 |\n| Net Income              |       363.36 |       240.28 |       295.99 |       187.42 |\n| Net Margin (%)          |        29.93 |        20.98 |        29.62 |        20.94 |\n| Op Cash Flow            |       534.87 |       703.87 |       427.02 |       334.92 |\n| Investing Cash Flow     |      -133.18 |       -57.90 |      -142.62 |      -607.98 |\n| Financing Cash Flow     |      -575.33 |      -502.80 |      -342.84 |       295.62 |\n| CAPEX                   |      -105.41 |      -108.38 |      -123.48 |       -87.06 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

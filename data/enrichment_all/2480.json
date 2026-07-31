@@ -1,0 +1,299 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2480",
+  "company_name": "敦陽科",
+  "title": "2480 - 敦陽科",
+  "source_md": "Pilot_Reports/金融科技 - 數位身分/2480_敦陽科.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "16,592 百萬台幣",
+    "enterprise_value": "15,319 百萬台幣"
+  },
+  "business": {
+    "summary": "敦陽科技 (2480，[[Stark Technology]]) 成立於 1993 年，總部位於台北。公司為台灣領導級資訊系統整合商 (SI)，專注於企業 IT 基礎建設之代理、整合與顧問服務，核心能力涵蓋伺服器、儲存設備、網路通訊、資訊安全及雲端服務。\n\n主要代理品牌超過數十家國際大廠，涵蓋 [[NVIDIA]] (AI 伺服器)、[[NetApp]] (儲存)、[[Cisco]] (網路)、[[Palo Alto Networks]] (資安)、[[Oracle]] (資料庫) 等。客戶群以高科技製造業、電信業及金融業為主，其中半導體大廠 [[台積電]] 為重要客戶。近年積極發展 AI 算力租賃 (GPUaaS) 及 MDR 資安託管服務，從傳統設備經銷轉型為高附加價值之技術顧問型通路商。",
+    "entities": [
+      "Stark Technology",
+      "NVIDIA",
+      "NetApp",
+      "Cisco",
+      "Palo Alto Networks",
+      "Oracle",
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際 IT 軟硬體原廠)",
+        "text": "**上游 (國際 IT 軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[NVIDIA]] — AI GPU 伺服器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "儲存設備",
+        "text": "[[NetApp]] — 企業級儲存解決方案",
+        "entities": [
+          "NetApp"
+        ]
+      },
+      {
+        "category": "網路設備",
+        "text": "[[Cisco]] — 企業網路通訊設備",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "category": "資訊安全",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]] — 次世代防火牆與資安解決方案",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      },
+      {
+        "category": "資料庫",
+        "text": "[[Oracle]] — 企業資料庫軟體",
+        "entities": [
+          "Oracle"
+        ]
+      },
+      {
+        "category": "雲端服務",
+        "text": "[[AWS]]、[[Microsoft Azure]]、[[Google Cloud]] — 公有雲平台",
+        "entities": [
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合與顧問服務)",
+        "text": "**中游 (系統整合與顧問服務):**",
+        "entities": []
+      },
+      {
+        "category": "SI 服務",
+        "text": "**敦陽科** (IT 架構規劃、軟硬體整合部署、維運服務)",
+        "entities": []
+      },
+      {
+        "category": "AI 租賃",
+        "text": "**敦陽科** (GPUaaS AI 算力租賃)",
+        "entities": []
+      },
+      {
+        "category": "資安託管",
+        "text": "**敦陽科** (MDR 資安監控託管服務)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業客戶端)",
+        "text": "**下游 (企業客戶端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[聯電]] — IT 基礎設施",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "電信",
+        "text": "[[中華電信]]、[[遠傳電信]] — 資通訊系統",
+        "entities": [
+          "中華電信",
+          "遠傳電信"
+        ]
+      },
+      {
+        "category": "金融",
+        "text": "各大金控及銀行 — 資訊安全與儲存設備",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯電]] — 企業 IT 基礎設施整合",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "電信",
+        "text": "[[中華電信]]、[[遠傳電信]] — 資通訊系統整合",
+        "entities": [
+          "中華電信",
+          "遠傳電信"
+        ]
+      },
+      {
+        "role": "金融",
+        "text": "國內各大金控及銀行 — 資安與儲存設備",
+        "entities": []
+      },
+      {
+        "role": "AI 運算",
+        "text": "大型企業、研究機構及學校 — GPU 算力租賃服務",
+        "entities": []
+      },
+      {
+        "role": "政府",
+        "text": "政府機關及教育機構 — IT 系統標案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "AI 伺服器",
+        "text": "[[NVIDIA]] — GPU 伺服器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "儲存",
+        "text": "[[NetApp]] — 企業儲存平台",
+        "entities": [
+          "NetApp"
+        ]
+      },
+      {
+        "role": "網路",
+        "text": "[[Cisco]] — 網路交換與路由設備",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "role": "資安",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]] — 資安解決方案",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      },
+      {
+        "role": "雲端",
+        "text": "[[AWS]]、[[Microsoft Azure]]、[[Google Cloud]]",
+        "entities": [
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Stark Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Stark Technology"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "NetApp",
+      "type": "international_company_or_term",
+      "wikilink": "NetApp"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "Oracle",
+      "type": "international_company_or_term",
+      "wikilink": "Oracle"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Fortinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fortinet"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "Google Cloud",
+      "type": "international_company_or_term",
+      "wikilink": "Google Cloud"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "敦陽科技 (2480，[[Stark Technology]]) 成立於 1993 年，總部位於台北。公司為台灣領導級資訊系統整合商 (SI)，專注於企業 IT 基礎建設之代理、整合與顧問服務，核心能力涵蓋伺服器、儲存設備、網路通訊、資訊安全及雲端服務。\n\n主要代理品牌超過數十家國際大廠，涵蓋 [[NVIDIA]] (AI 伺服器)、[[NetApp]] (儲存)、[[Cisco]] (網路)、[[Palo Alto Networks]] (資安)、[[Oracle]] (資料庫) 等。客戶群以高科技製造業、電信業及金融業為主，其中半導體大廠 [[台積電]] 為重要客戶。近年積極發展 AI 算力租賃 (GPUaaS) 及 MDR 資安託管服務，從傳統設備經銷轉型為高附加價值之技術顧問型通路商。",
+    "supply_chain_md": "**上游 (國際 IT 軟硬體原廠):**\n- **AI 伺服器:** [[NVIDIA]] — AI GPU 伺服器\n- **儲存設備:** [[NetApp]] — 企業級儲存解決方案\n- **網路設備:** [[Cisco]] — 企業網路通訊設備\n- **資訊安全:** [[Palo Alto Networks]]、[[Fortinet]] — 次世代防火牆與資安解決方案\n- **資料庫:** [[Oracle]] — 企業資料庫軟體\n- **雲端服務:** [[AWS]]、[[Microsoft Azure]]、[[Google Cloud]] — 公有雲平台\n\n**中游 (系統整合與顧問服務):**\n- **SI 服務:** **敦陽科** (IT 架構規劃、軟硬體整合部署、維運服務)\n- **AI 租賃:** **敦陽科** (GPUaaS AI 算力租賃)\n- **資安託管:** **敦陽科** (MDR 資安監控託管服務)\n\n**下游 (企業客戶端):**\n- **半導體:** [[台積電]]、[[聯電]] — IT 基礎設施\n- **電信:** [[中華電信]]、[[遠傳電信]] — 資通訊系統\n- **金融:** 各大金控及銀行 — 資訊安全與儲存設備",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]、[[聯電]] — 企業 IT 基礎設施整合\n- **電信:** [[中華電信]]、[[遠傳電信]] — 資通訊系統整合\n- **金融:** 國內各大金控及銀行 — 資安與儲存設備\n- **AI 運算:** 大型企業、研究機構及學校 — GPU 算力租賃服務\n- **政府:** 政府機關及教育機構 — IT 系統標案\n\n### 主要供應商\n- **AI 伺服器:** [[NVIDIA]] — GPU 伺服器\n- **儲存:** [[NetApp]] — 企業儲存平台\n- **網路:** [[Cisco]] — 網路交換與路由設備\n- **資安:** [[Palo Alto Networks]]、[[Fortinet]] — 資安解決方案\n- **雲端:** [[AWS]]、[[Microsoft Azure]]、[[Google Cloud]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $158.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     19.89 |       13.98 |      1.93 | 5.64 |     14.80 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8394.37 |      7536.75 |      7270.86 |\n| Gross Profit            |      2039.82 |      1885.27 |      1786.37 |\n| Gross Margin (%)        |        24.30 |        25.01 |        24.57 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |        98.99 |        91.22 |        90.31 |\n| General & Admin Exp     |       941.91 |       872.82 |       833.33 |\n| Operating Income        |       998.92 |       921.23 |       862.73 |\n| Operating Margin (%)    |        11.90 |        12.22 |        11.87 |\n| Net Income              |       851.29 |       798.06 |       783.24 |\n| Net Margin (%)          |        10.14 |        10.59 |        10.77 |\n| Op Cash Flow            |       549.73 |       101.57 |      1179.79 |\n| Investing Cash Flow     |      -212.74 |      -119.41 |       -39.15 |\n| Financing Cash Flow     |      -399.46 |      -653.92 |      -833.86 |\n| CAPEX                   |      -119.68 |      -177.34 |       -66.84 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2188.88 |      2179.44 |      2068.03 |      2233.86 |\n| Gross Profit            |       527.11 |       508.93 |       518.47 |       521.64 |\n| Gross Margin (%)        |        24.08 |        23.35 |        25.07 |        23.35 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |        24.16 |        23.55 |        23.71 |        23.43 |\n| General & Admin Exp     |       267.82 |       221.55 |       232.35 |       235.94 |\n| Operating Income        |       235.12 |       263.84 |       262.41 |       262.27 |\n| Operating Margin (%)    |        10.74 |        12.11 |        12.69 |        11.74 |\n| Net Income              |       219.55 |       203.61 |       238.41 |       209.68 |\n| Net Margin (%)          |        10.03 |         9.34 |        11.53 |         9.39 |\n| Op Cash Flow            |      -119.06 |       386.59 |        13.95 |        92.28 |\n| Investing Cash Flow     |       -69.15 |         7.71 |        -2.39 |        47.89 |\n| Financing Cash Flow     |       247.31 |        -3.79 |       -73.41 |         1.34 |\n| CAPEX                   |        -5.26 |        -6.78 |        -8.65 |        -3.22 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

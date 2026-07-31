@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8421",
+  "company_name": "旭源",
+  "title": "8421 - 旭源",
+  "source_md": "Pilot_Reports/電機機械 - 專用機械(如紡織成衣生產用機械、食品飲料生產用機械、農林用機械等)/8421_旭源.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "798 百萬台幣",
+    "enterprise_value": "1,612 百萬台幣"
+  },
+  "business": {
+    "summary": "旭源包裝科技 (8421，Xu Yuan Packaging) 為熱縮套標機及彩色收縮標籤業界先驅。核心產品涵蓋熱縮套標機、收縮隧道設備、熱縮標籤印刷 (PET/PVC/OPS 膜) 及柔性包裝複合膜袋印刷。另涉及 CNC 精密零件加工及整流器。產品應用於飲料、食品、化妝品、製藥及日用消費品包裝產業。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "樹脂",
+        "text": "[[PET]]/[[PVC]]/OPS 熱縮膜原料",
+        "entities": [
+          "PET",
+          "PVC"
+        ]
+      },
+      {
+        "category": "油墨",
+        "text": "印刷油墨供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**旭源** (熱縮套標機/收縮隧道/標籤印刷/柔性包裝膜袋)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "飲料/食品",
+        "text": "飲料品牌如 [[統一]]、[[味全]] 及食品品牌 — 套標包裝",
+        "entities": [
+          "統一",
+          "味全"
+        ]
+      },
+      {
+        "category": "化妝品/製藥",
+        "text": "日用品如 [[花王]]、[[P&G]] 及藥品 — 收縮標籤",
+        "entities": [
+          "花王",
+          "P&G"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "飲料/食品",
+        "text": "品牌商如 [[統一]]、[[味全]] — 套標包裝設備及標籤",
+        "entities": [
+          "統一",
+          "味全"
+        ]
+      },
+      {
+        "role": "化妝品/製藥",
+        "text": "日用品如 [[花王]]/藥品包裝",
+        "entities": [
+          "花王"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "膜材",
+        "text": "PET/PVC/OPS 樹脂",
+        "entities": []
+      },
+      {
+        "role": "油墨",
+        "text": "印刷油墨",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PET",
+      "type": "international_company_or_term",
+      "wikilink": "PET"
+    },
+    {
+      "name": "PVC",
+      "type": "international_company_or_term",
+      "wikilink": "PVC"
+    },
+    {
+      "name": "統一",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一"
+    },
+    {
+      "name": "味全",
+      "type": "taiwan_company_or_term",
+      "wikilink": "味全"
+    },
+    {
+      "name": "花王",
+      "type": "taiwan_company_or_term",
+      "wikilink": "花王"
+    },
+    {
+      "name": "P&G",
+      "type": "international_company_or_term",
+      "wikilink": "P&G"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "旭源包裝科技 (8421，Xu Yuan Packaging) 為熱縮套標機及彩色收縮標籤業界先驅。核心產品涵蓋熱縮套標機、收縮隧道設備、熱縮標籤印刷 (PET/PVC/OPS 膜) 及柔性包裝複合膜袋印刷。另涉及 CNC 精密零件加工及整流器。產品應用於飲料、食品、化妝品、製藥及日用消費品包裝產業。",
+    "supply_chain_md": "**上游 (原料):**\n- **樹脂:** [[PET]]/[[PVC]]/OPS 熱縮膜原料\n- **油墨:** 印刷油墨供應商\n\n**中游 (製造):**\n- **旭源** (熱縮套標機/收縮隧道/標籤印刷/柔性包裝膜袋)\n\n**下游 (終端):**\n- **飲料/食品:** 飲料品牌如 [[統一]]、[[味全]] 及食品品牌 — 套標包裝\n- **化妝品/製藥:** 日用品如 [[花王]]、[[P&G]] 及藥品 — 收縮標籤",
+    "customers_suppliers_md": "### 主要客戶\n- **飲料/食品:** 品牌商如 [[統一]]、[[味全]] — 套標包裝設備及標籤\n- **化妝品/製藥:** 日用品如 [[花王]]/藥品包裝\n\n### 主要供應商\n- **膜材:** PET/PVC/OPS 樹脂\n- **油墨:** 印刷油墨",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.70 | 1.12 |     17.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1175.31 |      1223.31 |      1179.39 |\n| Gross Profit            |       190.69 |       237.71 |       200.03 |\n| Gross Margin (%)        |        16.22 |        19.43 |        16.96 |\n| Selling & Marketing Exp |        96.79 |        73.17 |        70.48 |\n| R&D Exp                 |         8.84 |         7.51 |         8.42 |\n| General & Admin Exp     |       108.42 |       118.26 |       121.30 |\n| Operating Income        |       -22.76 |        38.78 |        -0.17 |\n| Operating Margin (%)    |        -1.94 |         3.17 |        -0.01 |\n| Net Income              |       -21.51 |         0.82 |       -24.62 |\n| Net Margin (%)          |        -1.83 |         0.07 |        -2.09 |\n| Op Cash Flow            |        64.67 |       133.22 |       106.58 |\n| Investing Cash Flow     |       -82.92 |       -42.82 |      -193.73 |\n| Financing Cash Flow     |        38.25 |       -96.35 |       -18.28 |\n| CAPEX                   |       -73.18 |      -137.95 |       -82.78 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       307.94 |       287.57 |       288.33 |       291.46 |\n| Gross Profit            |        48.38 |        38.06 |        51.54 |        52.71 |\n| Gross Margin (%)        |        15.71 |        13.24 |        17.87 |        18.09 |\n| Selling & Marketing Exp |        23.42 |        24.34 |        21.49 |        27.54 |\n| R&D Exp                 |         2.34 |         2.19 |         2.32 |         1.99 |\n| General & Admin Exp     |        29.91 |        23.92 |        25.38 |        29.21 |\n| Operating Income        |        -6.69 |       -12.39 |         2.34 |        -6.03 |\n| Operating Margin (%)    |        -2.17 |        -4.31 |         0.81 |        -2.07 |\n| Net Income              |         7.45 |         0.83 |       -32.33 |         2.54 |\n| Net Margin (%)          |         2.42 |         0.29 |       -11.21 |         0.87 |\n| Op Cash Flow            |        10.53 |        29.55 |        16.78 |         7.81 |\n| Investing Cash Flow     |        -8.53 |       -22.32 |        -5.96 |       -46.11 |\n| Financing Cash Flow     |        49.42 |       -27.80 |        -5.94 |        22.57 |\n| CAPEX                   |         1.96 |       -19.71 |       -14.66 |       -40.77 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2497",
+  "company_name": "怡利電",
+  "title": "2497 - 怡利電",
+  "source_md": "Pilot_Reports/汽車 - 其他/2497_怡利電.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "5,602 百萬台幣",
+    "enterprise_value": "6,399 百萬台幣"
+  },
+  "business": {
+    "summary": "怡利電子 (2497，E-Lead Electronic) 為車用抬頭顯示器 ([[HUD]]) 及[[AR-HUD]]之 Tier 1 供應商，中國 HUD 市場排名前三。核心產品涵蓋[[HUD]]、[[AR-HUD]]、[[3D HUD]]及車載資通訊系統。主要 OEM 客戶涵蓋[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]。印度市場拓展中，已取得[[Tata Motors]] C-HUD 訂單。正與歐系[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]]洽談 3D HUD 專案。2024 年出貨約 50 萬台 HUD (年增 67%)。泰國設有工廠服務非中國市場。",
+    "entities": [
+      "HUD",
+      "AR-HUD",
+      "3D HUD",
+      "吉利汽車",
+      "一汽紅旗",
+      "長城汽車",
+      "奇瑞汽車",
+      "Tata Motors",
+      "Volkswagen",
+      "Mercedes-Benz",
+      "BMW"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "光學投影",
+        "text": "光學投影模組供應商",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "顯示面板元件",
+        "entities": []
+      },
+      {
+        "category": "車用晶片",
+        "text": "車載運算晶片",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**怡利電** ([[HUD]]/[[AR-HUD]]/[[3D HUD]] 製造，中國/泰國工廠)",
+        "entities": [
+          "HUD",
+          "AR-HUD",
+          "3D HUD"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OEM 客戶)",
+        "text": "**下游 (OEM 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "中國",
+        "text": "[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]",
+        "entities": [
+          "吉利汽車",
+          "一汽紅旗",
+          "長城汽車",
+          "奇瑞汽車"
+        ]
+      },
+      {
+        "category": "印度",
+        "text": "[[Tata Motors]] — C-HUD",
+        "entities": [
+          "Tata Motors"
+        ]
+      },
+      {
+        "category": "歐系洽談",
+        "text": "[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — 3D HUD",
+        "entities": [
+          "Volkswagen",
+          "Mercedes-Benz",
+          "BMW"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "中國",
+        "text": "[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]] — [[HUD]]/[[AR-HUD]]",
+        "entities": [
+          "吉利汽車",
+          "一汽紅旗",
+          "長城汽車",
+          "奇瑞汽車",
+          "HUD",
+          "AR-HUD"
+        ]
+      },
+      {
+        "role": "印度",
+        "text": "[[Tata Motors]] — C-HUD 訂單",
+        "entities": [
+          "Tata Motors"
+        ]
+      },
+      {
+        "role": "歐系洽談",
+        "text": "[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — [[3D HUD]]",
+        "entities": [
+          "Volkswagen",
+          "Mercedes-Benz",
+          "BMW",
+          "3D HUD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學投影",
+        "text": "光學模組供應商",
+        "entities": []
+      },
+      {
+        "role": "面板/晶片",
+        "text": "顯示面板及車用運算晶片",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "HUD",
+      "type": "international_company_or_term",
+      "wikilink": "HUD"
+    },
+    {
+      "name": "AR-HUD",
+      "type": "international_company_or_term",
+      "wikilink": "AR-HUD"
+    },
+    {
+      "name": "3D HUD",
+      "type": "international_company_or_term",
+      "wikilink": "3D HUD"
+    },
+    {
+      "name": "吉利汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "吉利汽車"
+    },
+    {
+      "name": "一汽紅旗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "一汽紅旗"
+    },
+    {
+      "name": "長城汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長城汽車"
+    },
+    {
+      "name": "奇瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇瑞汽車"
+    },
+    {
+      "name": "Tata Motors",
+      "type": "international_company_or_term",
+      "wikilink": "Tata Motors"
+    },
+    {
+      "name": "Volkswagen",
+      "type": "international_company_or_term",
+      "wikilink": "Volkswagen"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "怡利電子 (2497，E-Lead Electronic) 為車用抬頭顯示器 ([[HUD]]) 及[[AR-HUD]]之 Tier 1 供應商，中國 HUD 市場排名前三。核心產品涵蓋[[HUD]]、[[AR-HUD]]、[[3D HUD]]及車載資通訊系統。主要 OEM 客戶涵蓋[[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]。印度市場拓展中，已取得[[Tata Motors]] C-HUD 訂單。正與歐系[[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]]洽談 3D HUD 專案。2024 年出貨約 50 萬台 HUD (年增 67%)。泰國設有工廠服務非中國市場。",
+    "supply_chain_md": "**上游 (零組件):**\n- **光學投影:** 光學投影模組供應商\n- **面板:** 顯示面板元件\n- **車用晶片:** 車載運算晶片\n\n**中游 (製造):**\n- **怡利電** ([[HUD]]/[[AR-HUD]]/[[3D HUD]] 製造，中國/泰國工廠)\n\n**下游 (OEM 客戶):**\n- **中國:** [[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]]\n- **印度:** [[Tata Motors]] — C-HUD\n- **歐系洽談:** [[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — 3D HUD",
+    "customers_suppliers_md": "### 主要客戶\n- **中國:** [[吉利汽車]]、[[一汽紅旗]]、[[長城汽車]]、[[奇瑞汽車]] — [[HUD]]/[[AR-HUD]]\n- **印度:** [[Tata Motors]] — C-HUD 訂單\n- **歐系洽談:** [[Volkswagen]]、[[Mercedes-Benz]]、[[BMW]] — [[3D HUD]]\n\n### 主要供應商\n- **光學投影:** 光學模組供應商\n- **面板/晶片:** 顯示面板及車用運算晶片",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $44.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.37 |       12.74 |      1.29 | 1.88 |     10.66 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4467.31 |      4623.40 |      3766.29 |\n| Gross Profit            |      1143.05 |      1197.43 |       899.05 |\n| Gross Margin (%)        |        25.59 |        25.90 |        23.87 |\n| Selling & Marketing Exp |       161.16 |       174.17 |       121.17 |\n| R&D Exp                 |       324.71 |       346.80 |       316.62 |\n| General & Admin Exp     |       222.32 |       217.55 |       197.15 |\n| Operating Income        |       434.86 |       458.91 |       264.12 |\n| Operating Margin (%)    |         9.73 |         9.93 |         7.01 |\n| Net Income              |       287.25 |       379.50 |       232.59 |\n| Net Margin (%)          |         6.43 |         8.21 |         6.18 |\n| Op Cash Flow            |       811.89 |       485.34 |       469.54 |\n| Investing Cash Flow     |       -54.83 |      -303.86 |      -166.59 |\n| Financing Cash Flow     |      -789.48 |      -340.15 |        89.62 |\n| CAPEX                   |      -117.91 |      -265.16 |      -178.94 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1128.88 |      1208.95 |      1053.49 |      1075.98 |\n| Gross Profit            |       290.85 |       296.59 |       293.47 |       262.14 |\n| Gross Margin (%)        |        25.76 |        24.53 |        27.86 |        24.36 |\n| Selling & Marketing Exp |        40.54 |        43.54 |        36.58 |        40.50 |\n| R&D Exp                 |        72.72 |        81.01 |        90.17 |        80.81 |\n| General & Admin Exp     |        58.45 |        56.28 |        51.79 |        55.80 |\n| Operating Income        |       119.15 |       115.76 |       114.92 |        85.03 |\n| Operating Margin (%)    |        10.55 |         9.58 |        10.91 |         7.90 |\n| Net Income              |       104.56 |       109.75 |       -19.05 |        91.99 |\n| Net Margin (%)          |         9.26 |         9.08 |        -1.81 |         8.55 |\n| Op Cash Flow            |       262.06 |       403.47 |       -69.79 |       216.15 |\n| Investing Cash Flow     |        32.79 |       -33.34 |       -26.71 |       -27.57 |\n| Financing Cash Flow     |      -287.94 |      -615.58 |        72.63 |        41.41 |\n| CAPEX                   |       -43.01 |       -35.22 |       -19.88 |       -19.80 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

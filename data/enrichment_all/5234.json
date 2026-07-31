@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5234",
+  "company_name": "達興材料",
+  "title": "5234 - 達興材料",
+  "source_md": "Pilot_Reports/半導體 - 化學品/5234_達興材料.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "30,661 百萬台幣",
+    "enterprise_value": "29,238 百萬台幣"
+  },
+  "business": {
+    "summary": "達興材料 (Daxin) 為 **[[友達]]集團** 旗下專業特用化學材料廠，並已成功跨足 **半導體材料**。\n業務涵蓋三大領域：\n1.  **顯示器材料**: LCD 光阻劑、配向膜 (PI)、顯影液、剝離液 (主要營收來源, 穩定現金流)。\n2.  **半導體材料**: 先進封裝 ([[CoWoS]]) 用光阻剝離液、雷射離型層 (Laser Release)、有機介電層 (PID)。\n3.  **關鍵原材料**: 自行合成上游單體/高分子，提升毛利。\n達興是少數打入晶圓代工先進製程供應鏈的本土材料商。",
+    "entities": [
+      "友達",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**化學品**: 溶劑, 單體, 起始劑. (積極提升自製率).",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **達興 (5234)** - 配方研發, 合成, 純化, 量產.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**面板廠**: [[友達]], [[群創]].",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**晶圓代工/封測**: [[台積電]] (主要先進封裝客戶), 國內外封測大廠.",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**面板**: [[友達]] (母公司), [[群創]].",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**半導體**: [[台積電]] ([[CoWoS]] 材料供應商), 成熟製程晶圓廠.",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**原料**: 國內外化工廠 (如 [[Sumitomo]], [[Nissan Chemical]], [[Everlight]] 永光).",
+        "entities": [
+          "Sumitomo",
+          "Nissan Chemical",
+          "Everlight"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Sumitomo",
+      "type": "international_company_or_term",
+      "wikilink": "Sumitomo"
+    },
+    {
+      "name": "Nissan Chemical",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan Chemical"
+    },
+    {
+      "name": "Everlight",
+      "type": "international_company_or_term",
+      "wikilink": "Everlight"
+    },
+    {
+      "name": "永光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永光"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "達興材料 (Daxin) 為 **[[友達]]集團** 旗下專業特用化學材料廠，並已成功跨足 **半導體材料**。\n業務涵蓋三大領域：\n1.  **顯示器材料**: LCD 光阻劑、配向膜 (PI)、顯影液、剝離液 (主要營收來源, 穩定現金流)。\n2.  **半導體材料**: 先進封裝 ([[CoWoS]]) 用光阻剝離液、雷射離型層 (Laser Release)、有機介電層 (PID)。\n3.  **關鍵原材料**: 自行合成上游單體/高分子，提升毛利。\n達興是少數打入晶圓代工先進製程供應鏈的本土材料商。",
+    "supply_chain_md": "*   **中游 (本體)**: **達興 (5234)** - 配方研發, 合成, 純化, 量產.\n*   **上游**:\n    *   **化學品**: 溶劑, 單體, 起始劑. (積極提升自製率).\n*   **下游**:\n    *   **面板廠**: [[友達]], [[群創]].\n    *   **晶圓代工/封測**: [[台積電]] (主要先進封裝客戶), 國內外封測大廠.",
+    "customers_suppliers_md": "### 主要客戶\n*   **面板**: [[友達]] (母公司), [[群創]].\n*   **半導體**: [[台積電]] ([[CoWoS]] 材料供應商), 成熟製程晶圓廠.\n\n### 主要供應商\n*   **原料**: 國內外化工廠 (如 [[Sumitomo]], [[Nissan Chemical]], [[Everlight]] 永光).",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $293.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     39.99 |       24.87 |      6.38 | 9.77 |     25.12 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4629.78 |      4117.85 |      4264.12 |\n| Gross Profit            |      1879.50 |      1517.85 |      1479.09 |\n| Gross Margin (%)        |        40.60 |        36.86 |        34.69 |\n| Selling & Marketing Exp |       217.81 |       196.21 |       185.79 |\n| R&D Exp                 |       559.55 |       497.97 |       480.77 |\n| General & Admin Exp     |       249.33 |       216.50 |       204.75 |\n| Operating Income        |       852.80 |       607.16 |       607.79 |\n| Operating Margin (%)    |        18.42 |        14.74 |        14.25 |\n| Net Income              |       756.96 |       570.61 |       523.35 |\n| Net Margin (%)          |        16.35 |        13.86 |        12.27 |\n| Op Cash Flow            |       980.82 |       865.41 |       725.21 |\n| Investing Cash Flow     |      -212.37 |      -518.40 |      -328.77 |\n| Financing Cash Flow     |      -715.96 |      -395.94 |      -364.86 |\n| CAPEX                   |      -273.59 |      -194.04 |      -220.15 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1186.39 |      1186.25 |      1151.08 |      1106.06 |\n| Gross Profit            |       489.59 |       470.65 |       466.55 |       452.71 |\n| Gross Margin (%)        |        41.27 |        39.68 |        40.53 |        40.93 |\n| Selling & Marketing Exp |        56.18 |        56.06 |        53.08 |        52.50 |\n| R&D Exp                 |       148.28 |       141.37 |       135.16 |       134.74 |\n| General & Admin Exp     |        68.85 |        63.86 |        57.57 |        59.05 |\n| Operating Income        |       216.28 |       209.36 |       220.74 |       206.42 |\n| Operating Margin (%)    |        18.23 |        17.65 |        19.18 |        18.66 |\n| Net Income              |       209.00 |       195.75 |       159.36 |       192.84 |\n| Net Margin (%)          |        17.62 |        16.50 |        13.84 |        17.43 |\n| Op Cash Flow            |       434.89 |       226.87 |       121.76 |       197.30 |\n| Investing Cash Flow     |      -243.30 |      -190.88 |       410.11 |      -188.31 |\n| Financing Cash Flow     |       -87.82 |      -158.19 |      -431.77 |       -38.18 |\n| CAPEX                   |      -103.81 |       -56.21 |       -70.08 |       -43.50 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

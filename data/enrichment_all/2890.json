@@ -1,0 +1,242 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2890",
+  "company_name": "永豐金",
+  "title": "2890 - [[永豐金]]",
+  "source_md": "Pilot_Reports/金融 - 金控業_銀行業_保險業/2890_永豐金.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "market_cap": "570,592 百萬台幣",
+    "enterprise_value": "N/A"
+  },
+  "business": {
+    "summary": "[[永豐金融控股]] (2890) 擁有雙獲利引擎：[[永豐銀行]]及[[永豐金證券]]。永豐銀行在太陽能光電融資領域市占率全台第一 (近三成)，為台灣綠色金融標竿銀行。[[永豐金證券]]為台灣第一家上櫃券商，45 個營業據點。數位帳戶「[[DAWHO]]」整合銀行理財與證券下單，吸引大量年輕客群。其他子公司包括[[永豐投信]]、[[永豐金租賃]]及[[永豐創投]]。2025 年初完成收購柬埔寨第一大微型銀行 [[Amret]] 第一階段交割。",
+    "entities": [
+      "永豐金融控股",
+      "永豐銀行",
+      "永豐金證券",
+      "DAWHO",
+      "永豐投信",
+      "永豐金租賃",
+      "永豐創投",
+      "Amret"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "[[DAWHO]] 數位帳戶用戶、一般存戶、企業存款",
+        "entities": [
+          "DAWHO"
+        ]
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[永豐銀行]]** (綠能專案融資、中小企業授信、數位帳戶營運及財富管理)",
+        "entities": [
+          "永豐銀行"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[永豐金證券]]** (證券經紀、複委託及存股服務)",
+        "entities": [
+          "永豐金證券"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[永豐投信]]** (基金管理)",
+        "entities": [
+          "永豐投信"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[Amret]]** (柬埔寨微型銀行)",
+        "entities": [
+          "Amret"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "綠能融資",
+        "text": "太陽能光電系統商與電廠開發商",
+        "entities": []
+      },
+      {
+        "category": "消費金融",
+        "text": "[[DAWHO]] 數位帳戶年輕用戶、存股族",
+        "entities": [
+          "DAWHO"
+        ]
+      },
+      {
+        "category": "海外市場",
+        "text": "[[Amret]] 柬埔寨微型企業",
+        "entities": [
+          "Amret"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "綠能融資",
+        "text": "太陽能光電系統商與電廠開發商 — 永豐銀為光電融資龍頭",
+        "entities": []
+      },
+      {
+        "role": "數位金融",
+        "text": "[[DAWHO]] 數位帳戶用戶、定期定額存股族",
+        "entities": [
+          "DAWHO"
+        ]
+      },
+      {
+        "role": "海外市場",
+        "text": "[[Amret]] 柬埔寨微型企業客戶",
+        "entities": [
+          "Amret"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "國際支付",
+        "text": "[[Visa]]、[[Mastercard]]",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]",
+        "entities": [
+          "財金資訊"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、金融同業",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "永豐金融控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐金融控股"
+    },
+    {
+      "name": "永豐銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐銀行"
+    },
+    {
+      "name": "永豐金證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐金證券"
+    },
+    {
+      "name": "DAWHO",
+      "type": "international_company_or_term",
+      "wikilink": "DAWHO"
+    },
+    {
+      "name": "永豐投信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐投信"
+    },
+    {
+      "name": "永豐金租賃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐金租賃"
+    },
+    {
+      "name": "永豐創投",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐創投"
+    },
+    {
+      "name": "Amret",
+      "type": "international_company_or_term",
+      "wikilink": "Amret"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "Visa",
+      "type": "international_company_or_term",
+      "wikilink": "Visa"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[永豐金融控股]] (2890) 擁有雙獲利引擎：[[永豐銀行]]及[[永豐金證券]]。永豐銀行在太陽能光電融資領域市占率全台第一 (近三成)，為台灣綠色金融標竿銀行。[[永豐金證券]]為台灣第一家上櫃券商，45 個營業據點。數位帳戶「[[DAWHO]]」整合銀行理財與證券下單，吸引大量年輕客群。其他子公司包括[[永豐投信]]、[[永豐金租賃]]及[[永豐創投]]。2025 年初完成收購柬埔寨第一大微型銀行 [[Amret]] 第一階段交割。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** [[DAWHO]] 數位帳戶用戶、一般存戶、企業存款\n- **同業資金:** [[中央銀行]]、金融同業\n\n**中游:**\n- **[[永豐銀行]]** (綠能專案融資、中小企業授信、數位帳戶營運及財富管理)\n- **[[永豐金證券]]** (證券經紀、複委託及存股服務)\n- **[[永豐投信]]** (基金管理)\n- **[[Amret]]** (柬埔寨微型銀行)\n\n**下游 (授信客戶):**\n- **綠能融資:** 太陽能光電系統商與電廠開發商\n- **消費金融:** [[DAWHO]] 數位帳戶年輕用戶、存股族\n- **海外市場:** [[Amret]] 柬埔寨微型企業",
+    "customers_suppliers_md": "### 主要客戶\n- **綠能融資:** 太陽能光電系統商與電廠開發商 — 永豐銀為光電融資龍頭\n- **數位金融:** [[DAWHO]] 數位帳戶用戶、定期定額存股族\n- **海外市場:** [[Amret]] 柬埔寨微型企業客戶\n\n### 主要供應商\n- **國際支付:** [[Visa]]、[[Mastercard]]\n- **金流基礎設施:** [[財金資訊]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $38.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     20.13 |       13.72 |      7.33 | 2.16 |       N/A |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     74335.00 |     63576.44 |     52821.31 |\n| Gross Profit            |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |     11618.35 |      9409.35 |      8126.28 |\n| Operating Income        |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |\n| Net Income              |     26569.30 |     22228.98 |     19764.39 |\n| Net Margin (%)          |        35.74 |        34.96 |        37.42 |\n| Op Cash Flow            |     51510.80 |     -3190.28 |   -150040.29 |\n| Investing Cash Flow     |    -11313.70 |     -1662.36 |     -1342.75 |\n| Financing Cash Flow     |     30050.31 |      8492.64 |     42976.80 |\n| CAPEX                   |     -1957.46 |     -1776.02 |     -1566.94 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     19468.44 |     19651.61 |     16778.03 |     18436.92 |\n| Gross Profit            |       -    |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |      3594.20 |      2754.41 |      2841.26 |      2428.48 |\n| Operating Income        |       -    |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |       -    |\n| Net Income              |      6027.90 |      7938.36 |      5401.31 |      7201.74 |\n| Net Margin (%)          |        30.96 |        40.40 |        32.19 |        39.06 |\n| Op Cash Flow            |    -33711.54 |      7375.87 |     60073.03 |     17773.43 |\n| Investing Cash Flow     |     24466.25 |    -30293.15 |      -371.92 |     -5114.88 |\n| Financing Cash Flow     |     35855.19 |     46668.46 |    -47640.40 |     -4832.94 |\n| CAPEX                   |      -718.97 |      -513.81 |      -380.30 |      -344.37 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

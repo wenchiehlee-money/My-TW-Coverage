@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5258",
+  "company_name": "虹堡",
+  "title": "5258 - 虹堡",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備/5258_虹堡.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "5,320 百萬台幣",
+    "enterprise_value": "5,124 百萬台幣"
+  },
+  "business": {
+    "summary": "虹堡科技 (5258，Castles Technology) 為全球前五大支付終端設備 (POS) 供應商，自有品牌「CASTLES」。受惠於全球無現金支付與 Android POS 換機潮，營運快速成長。主要產品包括：(1) EFTPOS 終端機 — Android 智慧刷卡機 (營收主力)；(2) 無人自助設備 (Unattended) — 應用於充電樁、販賣機、自助洗衣 (高成長、高毛利)；(3) 雲端管理軟體 — TMS 終端管理系統，增加客戶黏著度。虹堡通過[[Visa]]、[[Mastercard]]及各國收單機構認證，銷售遍及全球超過 80 國。",
+    "entities": [
+      "Visa",
+      "Mastercard"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子零組件)",
+        "text": "**上游 (電子零組件):**",
+        "entities": []
+      },
+      {
+        "category": "關鍵組件",
+        "text": "控制 IC 晶片、記憶體、[[PCB]]、連接器、觸控面板",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "安全模組",
+        "text": "PCI 認證安全晶片",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (支付終端設計與品牌)",
+        "text": "**中游 (支付終端設計與品牌):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**虹堡** — 自有品牌「CASTLES」POS 終端機設計、製造與全球行銷",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (金融收單體系)",
+        "text": "**下游 (金融收單體系):**",
+        "entities": []
+      },
+      {
+        "category": "收單機構",
+        "text": "各國銀行與支付處理商 — [[Visa]]、[[Mastercard]]認證終端",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      },
+      {
+        "category": "無人支付",
+        "text": "充電樁、販賣機、自助洗衣等無人場域",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "全球超過 80 國之零售商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "收單機構",
+        "text": "各國銀行與支付處理商 — [[Visa]]、[[Mastercard]]認證 POS 終端",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      },
+      {
+        "role": "無人支付",
+        "text": "[[電動車]]充電樁、販賣機營運商 — Unattended 支付設備",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "role": "系統整合商",
+        "text": "全球超過 80 國之 SI 與軟體商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "IC 晶片",
+        "text": "國際半導體廠 — 控制晶片與記憶體",
+        "entities": []
+      },
+      {
+        "role": "[[PCB]]",
+        "text": "印刷電路板製造商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "觸控面板",
+        "text": "面板供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "虹堡科技 (5258，Castles Technology) 為全球前五大支付終端設備 (POS) 供應商，自有品牌「CASTLES」。受惠於全球無現金支付與 Android POS 換機潮，營運快速成長。主要產品包括：(1) EFTPOS 終端機 — Android 智慧刷卡機 (營收主力)；(2) 無人自助設備 (Unattended) — 應用於充電樁、販賣機、自助洗衣 (高成長、高毛利)；(3) 雲端管理軟體 — TMS 終端管理系統，增加客戶黏著度。虹堡通過[[Visa]]、[[Mastercard]]及各國收單機構認證，銷售遍及全球超過 80 國。",
+        "entities": [
+          "Visa",
+          "Mastercard"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Visa",
+      "type": "international_company_or_term",
+      "wikilink": "Visa"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "虹堡科技 (5258，Castles Technology) 為全球前五大支付終端設備 (POS) 供應商，自有品牌「CASTLES」。受惠於全球無現金支付與 Android POS 換機潮，營運快速成長。主要產品包括：(1) EFTPOS 終端機 — Android 智慧刷卡機 (營收主力)；(2) 無人自助設備 (Unattended) — 應用於充電樁、販賣機、自助洗衣 (高成長、高毛利)；(3) 雲端管理軟體 — TMS 終端管理系統，增加客戶黏著度。虹堡通過[[Visa]]、[[Mastercard]]及各國收單機構認證，銷售遍及全球超過 80 國。",
+    "supply_chain_md": "**上游 (電子零組件):**\n- **關鍵組件:** 控制 IC 晶片、記憶體、[[PCB]]、連接器、觸控面板\n- **安全模組:** PCI 認證安全晶片\n\n**中游 (支付終端設計與品牌):**\n- **虹堡** — 自有品牌「CASTLES」POS 終端機設計、製造與全球行銷\n\n**下游 (金融收單體系):**\n- **收單機構:** 各國銀行與支付處理商 — [[Visa]]、[[Mastercard]]認證終端\n- **無人支付:** 充電樁、販賣機、自助洗衣等無人場域\n- **零售通路:** 全球超過 80 國之零售商",
+    "customers_suppliers_md": "### 主要客戶\n- **收單機構:** 各國銀行與支付處理商 — [[Visa]]、[[Mastercard]]認證 POS 終端\n- **無人支付:** [[電動車]]充電樁、販賣機營運商 — Unattended 支付設備\n- **系統整合商:** 全球超過 80 國之 SI 與軟體商\n\n### 主要供應商\n- **IC 晶片:** 國際半導體廠 — 控制晶片與記憶體\n- **[[PCB]]:** 印刷電路板製造商\n- **觸控面板:** 面板供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $49.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.67 |        9.68 |      0.68 | 1.23 |      7.35 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7861.64 |      7825.65 |      8045.04 |\n| Gross Profit            |      2744.71 |      2594.90 |      2681.86 |\n| Gross Margin (%)        |        34.91 |        33.16 |        33.34 |\n| Selling & Marketing Exp |       564.49 |       520.88 |       464.76 |\n| R&D Exp                 |       824.34 |       826.00 |       632.69 |\n| General & Admin Exp     |       606.66 |       518.30 |       396.51 |\n| Operating Income        |       749.23 |       729.72 |      1187.90 |\n| Operating Margin (%)    |         9.53 |         9.32 |        14.77 |\n| Net Income              |       464.82 |       695.18 |       899.20 |\n| Net Margin (%)          |         5.91 |         8.88 |        11.18 |\n| Op Cash Flow            |       780.21 |       -11.36 |      1145.50 |\n| Investing Cash Flow     |      -121.98 |      -431.08 |      -188.83 |\n| Financing Cash Flow     |      -134.78 |       195.00 |       -86.84 |\n| CAPEX                   |      -146.26 |       -52.74 |      -142.01 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2316.64 |      2055.20 |      1912.78 |      1577.02 |\n| Gross Profit            |       816.64 |       742.72 |       684.68 |       500.66 |\n| Gross Margin (%)        |        35.25 |        36.14 |        35.80 |        31.75 |\n| Selling & Marketing Exp |       134.70 |       147.48 |       152.03 |       130.28 |\n| R&D Exp                 |       234.77 |       213.45 |       183.99 |       192.14 |\n| General & Admin Exp     |       198.90 |       149.01 |       125.96 |       132.78 |\n| Operating Income        |       248.28 |       232.78 |       222.70 |        45.47 |\n| Operating Margin (%)    |        10.72 |        11.33 |        11.64 |         2.88 |\n| Net Income              |       293.08 |       138.78 |         1.87 |        31.08 |\n| Net Margin (%)          |        12.65 |         6.75 |         0.10 |         1.97 |\n| Op Cash Flow            |       446.47 |        44.42 |       -34.80 |       324.11 |\n| Investing Cash Flow     |      -109.74 |       -31.56 |        49.82 |       -30.50 |\n| Financing Cash Flow     |      -112.43 |       -57.12 |       -70.18 |       104.95 |\n| CAPEX                   |      -103.70 |       -18.81 |        -8.37 |       -15.38 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

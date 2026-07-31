@@ -1,0 +1,239 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5392",
+  "company_name": "能率",
+  "title": "5392 - 能率",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 機殼/5392_能率.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "6,363 百萬台幣",
+    "enterprise_value": "9,189 百萬台幣"
+  },
+  "business": {
+    "summary": "能率創新 (5392) 為能率集團核心企業，轉型為綜合性製造與投資平台。\n\n主要業務：(1) 精密機構件 — 金屬/塑膠機構件製造，應用於數位相機、電動工具及車用零組件；(2) 車用電子 — 透過轉投資 [[IKKA-KY]] (第一化成)，供應日系車廠 [[Toyota]]、[[Honda]] 電裝零部件，[[AISIN]] 為主要一階客戶，車用營收占比逾五成；(3) AI/機器人 — 集團投資 [[Mantis Robotics]] (協作機器人)，旗下毅金精密生產協作手臂，2026 年目標產量 5,000 支；(4) 光學 — 關係企業[[佳能]] (2374) (2374) 供應 [[Canon]] 相機機構件及近接感測器。",
+    "entities": [
+      "IKKA-KY",
+      "Toyota",
+      "Honda",
+      "AISIN",
+      "Mantis Robotics",
+      "佳能",
+      "Canon"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料與零件)",
+        "text": "**上游 (原材料與零件):**",
+        "entities": []
+      },
+      {
+        "category": "金屬材料",
+        "text": "鋁合金、金屬粉末供應商",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "工程塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "category": "設備",
+        "text": "壓鑄機、CNC 加工設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (零組件製造)",
+        "text": "**中游 (零組件製造):**",
+        "entities": []
+      },
+      {
+        "category": "車用零組件",
+        "text": "[[IKKA-KY]] — 日系車廠電裝零部件",
+        "entities": [
+          "IKKA-KY"
+        ]
+      },
+      {
+        "category": "機構件",
+        "text": "**能率** — 精密金屬/塑膠機構件",
+        "entities": []
+      },
+      {
+        "category": "機器人",
+        "text": "毅金精密 — 協作機器人手臂",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌)",
+        "text": "**下游 (終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "車廠",
+        "text": "[[Toyota]]、[[Honda]] — 透過 [[AISIN]] 供應電裝系統",
+        "entities": [
+          "Toyota",
+          "Honda",
+          "AISIN"
+        ]
+      },
+      {
+        "category": "光學",
+        "text": "[[Canon]]、[[Nikon]] — 相機機構件",
+        "entities": [
+          "Canon",
+          "Nikon"
+        ]
+      },
+      {
+        "category": "電動工具",
+        "text": "[[Makita]] — 電動工具零組件",
+        "entities": [
+          "Makita"
+        ]
+      },
+      {
+        "category": "機器人",
+        "text": "[[Mantis Robotics]] — 協作機器人",
+        "entities": [
+          "Mantis Robotics"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用 (透過 [[IKKA-KY]])",
+        "text": "[[AISIN]]、[[住友電工]] — 供應 [[Toyota]]、[[Honda]] 電裝零部件",
+        "entities": [
+          "IKKA-KY",
+          "AISIN",
+          "住友電工",
+          "Toyota",
+          "Honda"
+        ]
+      },
+      {
+        "role": "光學",
+        "text": "[[Canon]] — 相機機構件與近接感測器",
+        "entities": [
+          "Canon"
+        ]
+      },
+      {
+        "role": "電動工具",
+        "text": "[[Makita]] — 電動工具零組件",
+        "entities": [
+          "Makita"
+        ]
+      },
+      {
+        "role": "機器人",
+        "text": "[[Mantis Robotics]] — 協作機器人組裝",
+        "entities": [
+          "Mantis Robotics"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬材料",
+        "text": "鋁合金與金屬粉末供應商",
+        "entities": []
+      },
+      {
+        "role": "塑膠粒",
+        "text": "工程塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "壓鑄機與 CNC 設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "IKKA-KY",
+      "type": "international_company_or_term",
+      "wikilink": "IKKA-KY"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "AISIN",
+      "type": "international_company_or_term",
+      "wikilink": "AISIN"
+    },
+    {
+      "name": "Mantis Robotics",
+      "type": "international_company_or_term",
+      "wikilink": "Mantis Robotics"
+    },
+    {
+      "name": "佳能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳能"
+    },
+    {
+      "name": "Canon",
+      "type": "international_company_or_term",
+      "wikilink": "Canon"
+    },
+    {
+      "name": "Nikon",
+      "type": "international_company_or_term",
+      "wikilink": "Nikon"
+    },
+    {
+      "name": "Makita",
+      "type": "international_company_or_term",
+      "wikilink": "Makita"
+    },
+    {
+      "name": "住友電工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友電工"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "能率創新 (5392) 為能率集團核心企業，轉型為綜合性製造與投資平台。\n\n主要業務：(1) 精密機構件 — 金屬/塑膠機構件製造，應用於數位相機、電動工具及車用零組件；(2) 車用電子 — 透過轉投資 [[IKKA-KY]] (第一化成)，供應日系車廠 [[Toyota]]、[[Honda]] 電裝零部件，[[AISIN]] 為主要一階客戶，車用營收占比逾五成；(3) AI/機器人 — 集團投資 [[Mantis Robotics]] (協作機器人)，旗下毅金精密生產協作手臂，2026 年目標產量 5,000 支；(4) 光學 — 關係企業[[佳能]] (2374) (2374) 供應 [[Canon]] 相機機構件及近接感測器。",
+    "supply_chain_md": "**上游 (原材料與零件):**\n- **金屬材料:** 鋁合金、金屬粉末供應商\n- **塑膠粒:** 工程塑膠粒供應商\n- **設備:** 壓鑄機、CNC 加工設備\n\n**中游 (零組件製造):**\n- **車用零組件:** [[IKKA-KY]] — 日系車廠電裝零部件\n- **機構件:** **能率** — 精密金屬/塑膠機構件\n- **機器人:** 毅金精密 — 協作機器人手臂\n\n**下游 (終端品牌):**\n- **車廠:** [[Toyota]]、[[Honda]] — 透過 [[AISIN]] 供應電裝系統\n- **光學:** [[Canon]]、[[Nikon]] — 相機機構件\n- **電動工具:** [[Makita]] — 電動工具零組件\n- **機器人:** [[Mantis Robotics]] — 協作機器人",
+    "customers_suppliers_md": "### 主要客戶\n- **車用 (透過 [[IKKA-KY]]):** [[AISIN]]、[[住友電工]] — 供應 [[Toyota]]、[[Honda]] 電裝零部件\n- **光學:** [[Canon]] — 相機機構件與近接感測器\n- **電動工具:** [[Makita]] — 電動工具零組件\n- **機器人:** [[Mantis Robotics]] — 協作機器人組裝\n\n### 主要供應商\n- **金屬材料:** 鋁合金與金屬粉末供應商\n- **塑膠粒:** 工程塑膠粒供應商\n- **設備:** 壓鑄機與 CNC 設備供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $34.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.69 | 1.07 |     24.97 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8697.45 |      9433.38 |      9420.95 |\n| Gross Profit            |      1321.82 |      1511.68 |      1528.63 |\n| Gross Margin (%)        |        15.20 |        16.02 |        16.23 |\n| Selling & Marketing Exp |       424.64 |       491.02 |       554.70 |\n| R&D Exp                 |        91.02 |        81.01 |       104.13 |\n| General & Admin Exp     |       825.11 |       920.11 |       878.75 |\n| Operating Income        |       -18.96 |        19.54 |        -8.95 |\n| Operating Margin (%)    |        -0.22 |         0.21 |        -0.10 |\n| Net Income              |       -45.88 |        29.69 |        55.95 |\n| Net Margin (%)          |        -0.53 |         0.31 |         0.59 |\n| Op Cash Flow            |       493.15 |      1331.33 |       782.80 |\n| Investing Cash Flow     |      -726.63 |     -1089.84 |      -161.19 |\n| Financing Cash Flow     |      -612.47 |       135.22 |      -540.20 |\n| CAPEX                   |      -144.72 |      -464.12 |      -145.76 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2232.55 |      2184.24 |      2194.28 |      2086.38 |\n| Gross Profit            |       346.03 |       334.36 |       330.08 |       311.35 |\n| Gross Margin (%)        |        15.50 |        15.31 |        15.04 |        14.92 |\n| Selling & Marketing Exp |       104.37 |       108.38 |       106.03 |       105.86 |\n| R&D Exp                 |        31.89 |        20.58 |        18.94 |        19.61 |\n| General & Admin Exp     |       224.88 |       203.85 |       189.35 |       207.03 |\n| Operating Income        |       -15.11 |         1.55 |        15.76 |       -21.16 |\n| Operating Margin (%)    |        -0.68 |         0.07 |         0.72 |        -1.01 |\n| Net Income              |        22.42 |        27.44 |       -58.82 |       -36.92 |\n| Net Margin (%)          |         1.00 |         1.26 |        -2.68 |        -1.77 |\n| Op Cash Flow            |       303.54 |        63.08 |       192.10 |       -65.57 |\n| Investing Cash Flow     |        21.32 |      -432.56 |      -284.15 |       -31.24 |\n| Financing Cash Flow     |      -124.72 |       -68.58 |      -178.60 |      -240.58 |\n| CAPEX                   |       -30.50 |       -41.27 |       -56.97 |       -15.99 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

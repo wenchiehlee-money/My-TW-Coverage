@@ -1,0 +1,198 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6988",
+  "company_name": "威力暘-創",
+  "title": "6988_威力暘-創",
+  "source_md": "Pilot_Reports/Electronic Components/6988_威力暘-創.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "581 百萬台幣",
+    "enterprise_value": "537 百萬台幣"
+  },
+  "business": {
+    "summary": "威力暘電子 (6988，[[Weleadstar]]) 專注於客製化車用電子控制核心模組的設計製造，為台灣車用電子隱形冠軍。\n\n業務結構與動能：(1) 車輛電控模組 (ECU/MCU) — 車燈驅動、免鑰匙解鎖、多功能方向盤及電子排檔器等車用電控單元，供應國際 Tier 1 車用零件商；(2) [[電動車]]電池熱管理 — 高階電池熱管理電控運算模組，應用於 [[電動車]] 與電動巴士；(3) 船舶電力控制 — 大型船舶用電池電力控制器。公司具備兩岸研發製造基地與通訊韌體開發實力，產品通過車規級耐高溫高震認證。",
+    "entities": [
+      "Weleadstar",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (車用電子零件)",
+        "text": "**上游 (車用電子零件):**",
+        "entities": []
+      },
+      {
+        "category": "MCU",
+        "text": "[[NXP]]、[[Renesas]] 等車規級微控制器晶片原廠",
+        "entities": [
+          "NXP",
+          "Renesas"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "車規級耐高溫印刷電路板",
+        "entities": []
+      },
+      {
+        "category": "感測元件",
+        "text": "光學感測器供應商",
+        "entities": []
+      },
+      {
+        "category": "被動元件",
+        "text": "車規級被動元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (車用電控模組)",
+        "text": "**中游 (車用電控模組):**",
+        "entities": []
+      },
+      {
+        "category": "ECU 模組",
+        "text": "**威力暘** (車燈/車鎖/方向盤電控模組)",
+        "entities": []
+      },
+      {
+        "category": "電池管理",
+        "text": "**威力暘** ([[電動車]]電池熱管理電控模組)",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "category": "船舶電控",
+        "text": "**威力暘** (船舶用電池電力控制器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車廠與 Tier 1)",
+        "text": "**下游 (車廠與 Tier 1):**",
+        "entities": []
+      },
+      {
+        "category": "車廠",
+        "text": "全球傳統與新能源汽車原廠 — 車用電控模組",
+        "entities": []
+      },
+      {
+        "category": "Tier 1",
+        "text": "跨國一級汽車零組件商如 [[Continental]] — 客製化 ECU",
+        "entities": [
+          "Continental"
+        ]
+      },
+      {
+        "category": "電動巴士",
+        "text": "電動巴士代工車廠 — 電池管理系統",
+        "entities": []
+      },
+      {
+        "category": "船舶",
+        "text": "海事船舶設備廠 — 電力控制器",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "Tier 1 車用",
+        "text": "跨國一級汽車零組件商 — 客製化車用電控模組",
+        "entities": []
+      },
+      {
+        "role": "車廠",
+        "text": "全球傳統與新能源汽車原廠 — ECU 模組",
+        "entities": []
+      },
+      {
+        "role": "電動巴士",
+        "text": "電動巴士代工車廠 — [[電動車]]電池熱管理系統",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "role": "船舶",
+        "text": "海事船舶設備廠 — 電池電力控制器",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "MCU",
+        "text": "車規級微控制器晶片原廠",
+        "entities": []
+      },
+      {
+        "role": "PCB",
+        "text": "車規級耐高溫 PCB 供應商",
+        "entities": []
+      },
+      {
+        "role": "感測元件",
+        "text": "光學感測器與被動元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Weleadstar",
+      "type": "international_company_or_term",
+      "wikilink": "Weleadstar"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "威力暘電子 (6988，[[Weleadstar]]) 專注於客製化車用電子控制核心模組的設計製造，為台灣車用電子隱形冠軍。\n\n業務結構與動能：(1) 車輛電控模組 (ECU/MCU) — 車燈驅動、免鑰匙解鎖、多功能方向盤及電子排檔器等車用電控單元，供應國際 Tier 1 車用零件商；(2) [[電動車]]電池熱管理 — 高階電池熱管理電控運算模組，應用於 [[電動車]] 與電動巴士；(3) 船舶電力控制 — 大型船舶用電池電力控制器。公司具備兩岸研發製造基地與通訊韌體開發實力，產品通過車規級耐高溫高震認證。",
+    "supply_chain_md": "**上游 (車用電子零件):**\n- **MCU:** [[NXP]]、[[Renesas]] 等車規級微控制器晶片原廠\n- **PCB:** 車規級耐高溫印刷電路板\n- **感測元件:** 光學感測器供應商\n- **被動元件:** 車規級被動元件\n\n**中游 (車用電控模組):**\n- **ECU 模組:** **威力暘** (車燈/車鎖/方向盤電控模組)\n- **電池管理:** **威力暘** ([[電動車]]電池熱管理電控模組)\n- **船舶電控:** **威力暘** (船舶用電池電力控制器)\n\n**下游 (車廠與 Tier 1):**\n- **車廠:** 全球傳統與新能源汽車原廠 — 車用電控模組\n- **Tier 1:** 跨國一級汽車零組件商如 [[Continental]] — 客製化 ECU\n- **電動巴士:** 電動巴士代工車廠 — 電池管理系統\n- **船舶:** 海事船舶設備廠 — 電力控制器",
+    "customers_suppliers_md": "### 主要客戶\n- **Tier 1 車用:** 跨國一級汽車零組件商 — 客製化車用電控模組\n- **車廠:** 全球傳統與新能源汽車原廠 — ECU 模組\n- **電動巴士:** 電動巴士代工車廠 — [[電動車]]電池熱管理系統\n- **船舶:** 海事船舶設備廠 — 電池電力控制器\n\n### 主要供應商\n- **MCU:** 車規級微控制器晶片原廠\n- **PCB:** 車規級耐高溫 PCB 供應商\n- **感測元件:** 光學感測器與被動元件供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $11.95 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.74 | 0.80 |    -17.12 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       791.99 |       884.72 |       813.21 |\n| Gross Profit            |       209.53 |       262.38 |       226.72 |\n| Gross Margin (%)        |        26.46 |        29.66 |        27.88 |\n| Selling & Marketing Exp |        48.61 |        34.29 |        30.11 |\n| R&D Exp                 |       125.42 |       131.88 |       126.11 |\n| General & Admin Exp     |        82.72 |        70.05 |        65.79 |\n| Operating Income        |       -47.23 |        26.16 |         4.71 |\n| Operating Margin (%)    |        -5.96 |         2.96 |         0.58 |\n| Net Income              |       -54.08 |        23.65 |         0.37 |\n| Net Margin (%)          |        -6.83 |         2.67 |         0.05 |\n| Op Cash Flow            |       115.62 |       139.72 |        33.11 |\n| Investing Cash Flow     |       -23.94 |       -76.80 |      -274.05 |\n| Financing Cash Flow     |      -106.76 |        86.94 |       170.48 |\n| CAPEX                   |       -21.21 |       -71.53 |      -262.64 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       191.13 |       188.18 |       188.24 |       224.45 |\n| Gross Profit            |        32.65 |        57.16 |        53.07 |        66.65 |\n| Gross Margin (%)        |        17.08 |        30.37 |        28.19 |        29.69 |\n| Selling & Marketing Exp |        14.20 |        11.53 |        11.26 |        11.63 |\n| R&D Exp                 |        35.73 |        25.11 |        32.72 |        31.86 |\n| General & Admin Exp     |        21.58 |        21.06 |        19.97 |        20.11 |\n| Operating Income        |       -38.85 |        -0.55 |       -10.87 |         3.05 |\n| Operating Margin (%)    |       -20.33 |        -0.29 |        -5.77 |         1.36 |\n| Net Income              |       -44.16 |         0.52 |       -14.97 |         4.53 |\n| Net Margin (%)          |       -23.10 |         0.27 |        -7.95 |         2.02 |\n| Op Cash Flow            |        46.22 |        55.43 |        34.55 |       -20.59 |\n| Investing Cash Flow     |        -9.28 |         4.95 |        -3.78 |       -15.83 |\n| Financing Cash Flow     |       -28.98 |       -27.58 |        -6.51 |       -43.69 |\n| CAPEX                   |        -1.99 |        -2.35 |        -4.21 |       -12.66 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

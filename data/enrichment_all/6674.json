@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6674",
+  "company_name": "鋐寶科技",
+  "title": "6674_鋐寶科技",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/6674_鋐寶科技.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "1,087 百萬台幣",
+    "enterprise_value": "820 百萬台幣"
+  },
+  "business": {
+    "summary": "鋐寶科技 (6674，[[Compal Broadband Networks]]，CBN) 隸屬[[仁寶電腦]]集團，專注於寬頻網路通訊設備之研發與製造。公司產品涵蓋智慧閘道器 (Smart Gateways)、數位機上盒 (STB) 及無線寬頻分享器，提供整合聯網之智慧家庭解決方案。\n\n產品嚴格遵循 [[DOCSIS]] 規範，技術已升級至 [[Wi-Fi 7]] 及 [[5G]] 標準。公司高度聚焦歐洲市場，以客製化軟硬體服務打入歐洲多家跨國有線電視營運商 (MSO)。近年積極布局 5G FWA CPE 產品，搶攻印度 [[Jio]] 等新興市場龐大 5G 固網用戶需求，同時於美國德州設立子公司爭取 BEAD 寬頻國家補貼計畫標案。",
+    "entities": [
+      "Compal Broadband Networks",
+      "仁寶電腦",
+      "DOCSIS",
+      "Wi-Fi 7",
+      "5G",
+      "Jio"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (寬頻通訊 SoC 與射頻晶片)",
+        "text": "**上游 (寬頻通訊 SoC 與射頻晶片):**",
+        "entities": []
+      },
+      {
+        "category": "DOCSIS SoC",
+        "text": "[[Broadcom]] — DOCSIS 3.1/4.0 寬頻基帶晶片",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "Wi-Fi 6E/7 射頻晶片",
+        "entities": []
+      },
+      {
+        "category": "集團採購",
+        "text": "[[仁寶電腦]] — 集團規模採購優惠體系",
+        "entities": [
+          "仁寶電腦"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (歐洲寬頻設備客製化製造)",
+        "text": "**中游 (歐洲寬頻設備客製化製造):**",
+        "entities": []
+      },
+      {
+        "category": "智慧閘道器",
+        "text": "**鋐寶** (DOCSIS 3.1 + Wi-Fi 6E/7 整合閘道器)",
+        "entities": []
+      },
+      {
+        "category": "STB",
+        "text": "**鋐寶** (VOD 整合型數位機上盒)",
+        "entities": []
+      },
+      {
+        "category": "5G FWA",
+        "text": "**鋐寶** (5G 固網替代 CPE)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (歐洲有線電視商與新興市場電信商)",
+        "text": "**下游 (歐洲有線電視商與新興市場電信商):**",
+        "entities": []
+      },
+      {
+        "category": "歐洲 MSO",
+        "text": "歐洲大型有線電視暨固線寬頻營運商",
+        "entities": []
+      },
+      {
+        "category": "印度 5G",
+        "text": "[[Jio]] — 5G FWA 寬頻市場標案",
+        "entities": [
+          "Jio"
+        ]
+      },
+      {
+        "category": "美國 BEAD",
+        "text": "美國德州子公司 — BEAD 補貼計畫電信商 CPE",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐洲 MSO",
+        "text": "歐洲大型跨國有線電視及固線寬頻營運商 — 客製化 CPE 設備",
+        "entities": []
+      },
+      {
+        "role": "印度 5G",
+        "text": "[[Jio]] — 5G FWA 寬頻市場",
+        "entities": [
+          "Jio"
+        ]
+      },
+      {
+        "role": "美國 BEAD",
+        "text": "美國電信商 — BEAD 寬頻國家補貼計畫",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "DOCSIS 晶片",
+        "text": "[[Broadcom]] — DOCSIS 3.1/4.0 基帶 SoC",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "集團母公司",
+        "text": "[[仁寶電腦]] — 集團採購資源及供應鏈整合",
+        "entities": [
+          "仁寶電腦"
+        ]
+      },
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "Wi-Fi 6E/7 射頻晶片供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "- **5G FWA:** **鋐寶** (5G 固網替代 CPE)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Compal Broadband Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Compal Broadband Networks"
+    },
+    {
+      "name": "仁寶電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶電腦"
+    },
+    {
+      "name": "DOCSIS",
+      "type": "international_company_or_term",
+      "wikilink": "DOCSIS"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Jio",
+      "type": "international_company_or_term",
+      "wikilink": "Jio"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鋐寶科技 (6674，[[Compal Broadband Networks]]，CBN) 隸屬[[仁寶電腦]]集團，專注於寬頻網路通訊設備之研發與製造。公司產品涵蓋智慧閘道器 (Smart Gateways)、數位機上盒 (STB) 及無線寬頻分享器，提供整合聯網之智慧家庭解決方案。\n\n產品嚴格遵循 [[DOCSIS]] 規範，技術已升級至 [[Wi-Fi 7]] 及 [[5G]] 標準。公司高度聚焦歐洲市場，以客製化軟硬體服務打入歐洲多家跨國有線電視營運商 (MSO)。近年積極布局 5G FWA CPE 產品，搶攻印度 [[Jio]] 等新興市場龐大 5G 固網用戶需求，同時於美國德州設立子公司爭取 BEAD 寬頻國家補貼計畫標案。",
+    "supply_chain_md": "**上游 (寬頻通訊 SoC 與射頻晶片):**\n- **DOCSIS SoC:** [[Broadcom]] — DOCSIS 3.1/4.0 寬頻基帶晶片\n- **Wi-Fi 晶片:** Wi-Fi 6E/7 射頻晶片\n- **集團採購:** [[仁寶電腦]] — 集團規模採購優惠體系\n\n**中游 (歐洲寬頻設備客製化製造):**\n- **智慧閘道器:** **鋐寶** (DOCSIS 3.1 + Wi-Fi 6E/7 整合閘道器)\n- **STB:** **鋐寶** (VOD 整合型數位機上盒)\n- **5G FWA:** **鋐寶** (5G 固網替代 CPE)\n\n**下游 (歐洲有線電視商與新興市場電信商):**\n- **歐洲 MSO:** 歐洲大型有線電視暨固線寬頻營運商\n- **印度 5G:** [[Jio]] — 5G FWA 寬頻市場標案\n- **美國 BEAD:** 美國德州子公司 — BEAD 補貼計畫電信商 CPE",
+    "customers_suppliers_md": "### 主要客戶\n- **歐洲 MSO:** 歐洲大型跨國有線電視及固線寬頻營運商 — 客製化 CPE 設備\n- **印度 5G:** [[Jio]] — 5G FWA 寬頻市場\n- **美國 BEAD:** 美國電信商 — BEAD 寬頻國家補貼計畫\n\n### 主要供應商\n- **DOCSIS 晶片:** [[Broadcom]] — DOCSIS 3.1/4.0 基帶 SoC\n- **集團母公司:** [[仁寶電腦]] — 集團採購資源及供應鏈整合\n- **Wi-Fi 晶片:** Wi-Fi 6E/7 射頻晶片供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.94 | 1.24 |    -15.05 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       597.89 |       941.93 |      1164.05 |\n| Gross Profit            |       207.02 |       166.82 |        82.86 |\n| Gross Margin (%)        |        34.63 |        17.71 |         7.12 |\n| Selling & Marketing Exp |        24.10 |        77.20 |        68.03 |\n| R&D Exp                 |       200.22 |       170.21 |       235.03 |\n| General & Admin Exp     |        51.08 |        62.35 |        74.59 |\n| Operating Income        |       -68.38 |      -142.95 |      -294.80 |\n| Operating Margin (%)    |       -11.44 |       -15.18 |       -25.33 |\n| Net Income              |       -76.21 |      -165.94 |      -326.11 |\n| Net Margin (%)          |       -12.75 |       -17.62 |       -28.01 |\n| Op Cash Flow            |      -121.20 |       246.76 |      -249.52 |\n| Investing Cash Flow     |       -36.36 |       -29.34 |       -46.42 |\n| Financing Cash Flow     |        -7.60 |       -14.26 |       -48.57 |\n| CAPEX                   |       -38.31 |       -22.93 |       -46.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       112.13 |       123.99 |       159.54 |       144.61 |\n| Gross Profit            |        17.14 |        42.95 |        55.25 |        48.69 |\n| Gross Margin (%)        |        15.29 |        34.64 |        34.63 |        33.67 |\n| Selling & Marketing Exp |        21.58 |       -30.66 |         8.15 |        24.31 |\n| R&D Exp                 |        45.07 |        49.20 |        50.60 |        48.36 |\n| General & Admin Exp     |        13.36 |        11.46 |        13.21 |        13.98 |\n| Operating Income        |       -62.86 |        12.95 |       -16.71 |       -37.96 |\n| Operating Margin (%)    |       -56.06 |        10.45 |       -10.47 |       -26.25 |\n| Net Income              |       -70.04 |       -10.25 |       -13.07 |       -29.60 |\n| Net Margin (%)          |       -62.46 |        -8.27 |        -8.19 |       -20.47 |\n| Op Cash Flow            |       -74.96 |       -72.42 |       -36.26 |       -28.20 |\n| Investing Cash Flow     |         0.01 |       -13.47 |        -6.76 |        -9.31 |\n| Financing Cash Flow     |        -1.97 |        -1.96 |        -1.95 |        -1.89 |\n| CAPEX                   |         0.00 |       -13.46 |        -6.76 |        -9.51 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6826",
+  "company_name": "和淞",
+  "title": "6826 - 和淞",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/6826_和淞.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "37,552 百萬台幣",
+    "enterprise_value": "29,147 百萬台幣"
+  },
+  "business": {
+    "summary": "和淞科技 (6826) 是一家半導體廠務設備及[[特殊化學品輸送]]系統製造商，母公司為[[國泰化工]]。公司主力產品為半導體廠務供應系統，包括化學品混配/輸送設備、氣體過濾淨化器及相關廠務工程。近年業務重心從工程承包成功轉型為半導體設備 OEM/ODM，為國際設備大廠代工生產模組，並直接供應終端晶圓廠客製化混氣/混液設備。",
+    "entities": [
+      "特殊化學品輸送",
+      "國泰化工"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "化工專業",
+        "text": "[[國泰化工]] (母公司，化學品特性專業)",
+        "entities": [
+          "國泰化工"
+        ]
+      },
+      {
+        "category": "精密零組件",
+        "text": "管件、閥件及感測器",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備製造)",
+        "text": "**中游 (設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "廠務設備",
+        "text": "**和淞** (半導體廠務化學品/氣體輸送系統 OEM/ODM)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (設備原廠與晶圓廠)",
+        "text": "**下游 (設備原廠與晶圓廠):**",
+        "entities": []
+      },
+      {
+        "category": "設備 OEM",
+        "text": "[[Applied Materials]]、[[Lam Research]] (設備模組代工)",
+        "entities": [
+          "Applied Materials",
+          "Lam Research"
+        ]
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] (自主供應鏈設備)",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "設備 OEM",
+        "text": "[[Applied Materials]]、[[Lam Research]] (模組代工)",
+        "entities": [
+          "Applied Materials",
+          "Lam Research"
+        ]
+      },
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] (客製化廠務設備)",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母公司",
+        "text": "[[國泰化工]] (化工專業及原料)",
+        "entities": [
+          "國泰化工"
+        ]
+      },
+      {
+        "role": "精密零組件",
+        "text": "管件、閥件供應",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "特殊化學品輸送",
+      "type": "taiwan_company_or_term",
+      "wikilink": "特殊化學品輸送"
+    },
+    {
+      "name": "國泰化工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰化工"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "Lam Research",
+      "type": "international_company_or_term",
+      "wikilink": "Lam Research"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "和淞科技 (6826) 是一家半導體廠務設備及[[特殊化學品輸送]]系統製造商，母公司為[[國泰化工]]。公司主力產品為半導體廠務供應系統，包括化學品混配/輸送設備、氣體過濾淨化器及相關廠務工程。近年業務重心從工程承包成功轉型為半導體設備 OEM/ODM，為國際設備大廠代工生產模組，並直接供應終端晶圓廠客製化混氣/混液設備。",
+    "supply_chain_md": "**上游 (零組件):**\n- **化工專業:** [[國泰化工]] (母公司，化學品特性專業)\n- **精密零組件:** 管件、閥件及感測器\n\n**中游 (設備製造):**\n- **廠務設備:** **和淞** (半導體廠務化學品/氣體輸送系統 OEM/ODM)\n\n**下游 (設備原廠與晶圓廠):**\n- **設備 OEM:** [[Applied Materials]]、[[Lam Research]] (設備模組代工)\n- **晶圓代工:** [[台積電]] (自主供應鏈設備)",
+    "customers_suppliers_md": "### 主要客戶\n- **設備 OEM:** [[Applied Materials]]、[[Lam Research]] (模組代工)\n- **晶圓代工:** [[台積電]] (客製化廠務設備)\n\n### 主要供應商\n- **母公司:** [[國泰化工]] (化工專業及原料)\n- **精密零組件:** 管件、閥件供應",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $434.00 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.08 |         N/A |      2.25 | 4.95 |      9.36 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     16531.38 |     15895.92 |     16539.83 |\n| Gross Profit            |      4329.68 |      3310.97 |      2673.79 |\n| Gross Margin (%)        |        26.19 |        20.83 |        16.17 |\n| Selling & Marketing Exp |       247.13 |       199.94 |       179.69 |\n| R&D Exp                 |       126.46 |       108.21 |       100.68 |\n| General & Admin Exp     |       996.30 |       847.77 |       766.12 |\n| Operating Income        |      2959.80 |      2155.06 |      1627.31 |\n| Operating Margin (%)    |        17.90 |        13.56 |         9.84 |\n| Net Income              |      2338.05 |      1726.10 |      1279.84 |\n| Net Margin (%)          |        14.14 |        10.86 |         7.74 |\n| Op Cash Flow            |      4908.84 |      4087.67 |       858.23 |\n| Investing Cash Flow     |      -276.18 |      -170.39 |      -260.19 |\n| Financing Cash Flow     |     -2060.18 |      -654.32 |       194.74 |\n| CAPEX                   |      -251.75 |      -165.44 |      -247.78 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

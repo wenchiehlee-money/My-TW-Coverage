@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6805",
+  "company_name": "富世達",
+  "title": "6805 - 富世達",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 機構樞紐/6805_富世達.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "86,721 百萬台幣",
+    "enterprise_value": "79,266 百萬台幣"
+  },
+  "business": {
+    "summary": "富世達股份有限公司 (6805，[[Fositek]]) 為[[奇鋐]] (3017) 旗下子公司，成立於 2001 年，總部位於新北市新莊區，專精於精密轉軸 (Hinge) 零組件之研發、製造及銷售。公司以筆電轉軸起家，後憑藉「水滴型轉軸」技術成功切入折疊手機市場，成為全球折疊手機轉軸核心供應商。\n\n公司確立「折疊手機」與「[[AI 伺服器]]」並進的雙引擎成長策略。第一成長曲線為折疊手機轉軸，獨攻[[華為]] Mate XT 全球首款三折機之轉軸，並供應 [[Motorola]] 折疊機。第二成長曲線藉助母公司[[奇鋐]]在 AI 供應鏈的完善布局，跨足 AI 與通用伺服器滑軌市場。筆電轉軸客戶涵蓋 [[Lenovo]]、[[Dell]]、[[HP]] 等國際品牌。",
+    "entities": [
+      "Fositek",
+      "奇鋐",
+      "AI 伺服器",
+      "華為",
+      "Motorola",
+      "Lenovo",
+      "Dell",
+      "HP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (精密金屬材料)",
+        "text": "**上游 (精密金屬材料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊鋼材",
+        "text": "不鏽鋼板材、碳鋼及特殊合金捲料",
+        "entities": []
+      },
+      {
+        "category": "精密零件",
+        "text": "精密彈簧、軸承、潤滑劑及表面處理材料",
+        "entities": []
+      },
+      {
+        "category": "CNC 設備",
+        "text": "精密 CNC 加工設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (精密轉軸製造)",
+        "text": "**中游 (精密轉軸製造):**",
+        "entities": []
+      },
+      {
+        "category": "折疊手機轉軸",
+        "text": "**富世達** (水滴型轉軸技術，三折/雙折機轉軸)",
+        "entities": []
+      },
+      {
+        "category": "筆電轉軸",
+        "text": "**富世達** (超薄/電競筆電轉軸)",
+        "entities": []
+      },
+      {
+        "category": "伺服器滑軌",
+        "text": "**富世達** (AI/通用伺服器機架滑軌)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌客戶)",
+        "text": "**下游 (終端品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "折疊手機",
+        "text": "[[華為]] — 全球首款三折機 Mate XT 獨家轉軸供應",
+        "entities": [
+          "華為"
+        ]
+      },
+      {
+        "category": "折疊手機",
+        "text": "[[Motorola]] — 折疊機轉軸供應",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "category": "筆電品牌",
+        "text": "[[Lenovo]]、[[Dell]]、[[HP]] — 筆電轉軸",
+        "entities": [
+          "Lenovo",
+          "Dell",
+          "HP"
+        ]
+      },
+      {
+        "category": "母集團",
+        "text": "[[奇鋐]] (3017) — AI 伺服器散熱/滑軌協同",
+        "entities": [
+          "奇鋐"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "折疊手機",
+        "text": "[[華為]] — Mate XT 三折機獨家轉軸供應商",
+        "entities": [
+          "華為"
+        ]
+      },
+      {
+        "role": "折疊手機",
+        "text": "[[Motorola]] — 折疊機轉軸供應",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "role": "筆電品牌",
+        "text": "[[Lenovo]]、[[Dell]]、[[HP]] — 筆電轉軸 OEM",
+        "entities": [
+          "Lenovo",
+          "Dell",
+          "HP"
+        ]
+      },
+      {
+        "role": "伺服器",
+        "text": "AI/通用伺服器機架滑軌客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母集團",
+        "text": "[[奇鋐]] (3017) — AI 供應鏈策略協同",
+        "entities": [
+          "奇鋐"
+        ]
+      },
+      {
+        "role": "特殊鋼材",
+        "text": "精密合金鋼材冶煉供應商",
+        "entities": []
+      },
+      {
+        "role": "精密加工",
+        "text": "CNC 精密切削及表面處理廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Fositek",
+      "type": "international_company_or_term",
+      "wikilink": "Fositek"
+    },
+    {
+      "name": "奇鋐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇鋐"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "華為",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華為"
+    },
+    {
+      "name": "Motorola",
+      "type": "international_company_or_term",
+      "wikilink": "Motorola"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富世達股份有限公司 (6805，[[Fositek]]) 為[[奇鋐]] (3017) 旗下子公司，成立於 2001 年，總部位於新北市新莊區，專精於精密轉軸 (Hinge) 零組件之研發、製造及銷售。公司以筆電轉軸起家，後憑藉「水滴型轉軸」技術成功切入折疊手機市場，成為全球折疊手機轉軸核心供應商。\n\n公司確立「折疊手機」與「[[AI 伺服器]]」並進的雙引擎成長策略。第一成長曲線為折疊手機轉軸，獨攻[[華為]] Mate XT 全球首款三折機之轉軸，並供應 [[Motorola]] 折疊機。第二成長曲線藉助母公司[[奇鋐]]在 AI 供應鏈的完善布局，跨足 AI 與通用伺服器滑軌市場。筆電轉軸客戶涵蓋 [[Lenovo]]、[[Dell]]、[[HP]] 等國際品牌。",
+    "supply_chain_md": "**上游 (精密金屬材料):**\n- **特殊鋼材:** 不鏽鋼板材、碳鋼及特殊合金捲料\n- **精密零件:** 精密彈簧、軸承、潤滑劑及表面處理材料\n- **CNC 設備:** 精密 CNC 加工設備\n\n**中游 (精密轉軸製造):**\n- **折疊手機轉軸:** **富世達** (水滴型轉軸技術，三折/雙折機轉軸)\n- **筆電轉軸:** **富世達** (超薄/電競筆電轉軸)\n- **伺服器滑軌:** **富世達** (AI/通用伺服器機架滑軌)\n\n**下游 (終端品牌客戶):**\n- **折疊手機:** [[華為]] — 全球首款三折機 Mate XT 獨家轉軸供應\n- **折疊手機:** [[Motorola]] — 折疊機轉軸供應\n- **筆電品牌:** [[Lenovo]]、[[Dell]]、[[HP]] — 筆電轉軸\n- **母集團:** [[奇鋐]] (3017) — AI 伺服器散熱/滑軌協同",
+    "customers_suppliers_md": "### 主要客戶\n- **折疊手機:** [[華為]] — Mate XT 三折機獨家轉軸供應商\n- **折疊手機:** [[Motorola]] — 折疊機轉軸供應\n- **筆電品牌:** [[Lenovo]]、[[Dell]]、[[HP]] — 筆電轉軸 OEM\n- **伺服器:** AI/通用伺服器機架滑軌客戶\n\n### 主要供應商\n- **母集團:** [[奇鋐]] (3017) — AI 供應鏈策略協同\n- **特殊鋼材:** 精密合金鋼材冶煉供應商\n- **精密加工:** CNC 精密切削及表面處理廠商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $1,230.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|     31.37 |       12.11 |      5.88 | 11.36 |     21.70 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     12413.93 |      8187.69 |      5643.89 |\n| Gross Profit            |      3270.37 |      1826.94 |      1317.81 |\n| Gross Margin (%)        |        26.34 |        22.31 |        23.35 |\n| Selling & Marketing Exp |        23.80 |        32.03 |        39.83 |\n| R&D Exp                 |       571.51 |       444.76 |       275.96 |\n| General & Admin Exp     |       163.62 |       147.91 |       110.86 |\n| Operating Income        |      2511.43 |      1202.23 |       891.16 |\n| Operating Margin (%)    |        20.23 |        14.68 |        15.79 |\n| Net Income              |      2125.30 |      1227.36 |       627.96 |\n| Net Margin (%)          |        17.12 |        14.99 |        11.13 |\n| Op Cash Flow            |      1971.35 |      1408.98 |      1218.42 |\n| Investing Cash Flow     |      -362.24 |      -663.61 |      -182.44 |\n| Financing Cash Flow     |      -603.37 |      -421.61 |      1070.72 |\n| CAPEX                   |      -329.73 |      -551.93 |      -198.97 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4183.85 |      3976.15 |      2620.22 |      2251.71 |\n| Gross Profit            |      1351.84 |      1154.91 |       630.59 |       498.42 |\n| Gross Margin (%)        |        32.31 |        29.05 |        24.07 |        22.14 |\n| Selling & Marketing Exp |         6.47 |         7.38 |         4.97 |         6.63 |\n| R&D Exp                 |       170.91 |       224.24 |        98.04 |       104.44 |\n| General & Admin Exp     |        51.17 |        58.52 |        31.91 |        36.17 |\n| Operating Income        |      1123.29 |       864.77 |       495.68 |       351.18 |\n| Operating Margin (%)    |        26.85 |        21.75 |        18.92 |        15.60 |\n| Net Income              |       917.26 |       751.50 |       330.34 |       356.50 |\n| Net Margin (%)          |        21.92 |        18.90 |        12.61 |        15.83 |\n| Op Cash Flow            |       562.76 |      1395.22 |       472.15 |        91.08 |\n| Investing Cash Flow     |      -157.33 |       -78.96 |       -67.53 |      -142.49 |\n| Financing Cash Flow     |       -24.97 |       -13.12 |       -54.58 |        -6.71 |\n| CAPEX                   |      -129.66 |       -60.12 |       -84.84 |      -109.34 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

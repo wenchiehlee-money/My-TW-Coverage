@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9937",
+  "company_name": "全國",
+  "title": "9937 - 全國",
+  "source_md": "Pilot_Reports/油電燃氣 - 加油站/9937_全國.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Specialty Retail",
+    "market_cap": "17,399 百萬台幣",
+    "enterprise_value": "17,366 百萬台幣"
+  },
+  "business": {
+    "summary": "全國加油站股份有限公司成立於 1988 年，總部位於台灣台北。公司為國內民營加油站龍頭品牌，全台設有逾 100 座直營加油站，規模僅次於 [[中油]] 及台亞石油，位居全國第三。主要業務為汽、柴油零售，並提供洗車及潤滑油銷售等附加服務。全國加油站以優質服務及會員經營聞名，並積極導入 [[EV 充電]] 設施，朝複合式能源站轉型。油品採用 [[台塑化]]（6505）供應。",
+    "entities": [
+      "中油",
+      "EV 充電",
+      "台塑化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (油品供應)",
+        "text": "**上游 (油品供應):**",
+        "entities": []
+      },
+      {
+        "category": "油品",
+        "text": "[[台塑化]]（6505）為主要油品供應商",
+        "entities": [
+          "台塑化"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (加油站零售)",
+        "text": "**中游 (加油站零售):**",
+        "entities": []
+      },
+      {
+        "category": "全國 (9937)",
+        "text": "全台逾 100 座直營加油站、洗車服務、潤滑油銷售、[[EV 充電]]",
+        "entities": [
+          "EV 充電"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端消費)",
+        "text": "**下游 (終端消費):**",
+        "entities": []
+      },
+      {
+        "category": "一般駕駛人",
+        "text": "汽油及柴油加油",
+        "entities": []
+      },
+      {
+        "category": "商用車隊",
+        "text": "簽約柴油車隊",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "一般消費者",
+        "text": "汽機車駕駛人（B2C 零售模式）",
+        "entities": []
+      },
+      {
+        "role": "商用車隊",
+        "text": "企業簽約車隊加油",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "油品",
+        "text": "[[台塑化]]（6505）為唯一油品供應商",
+        "entities": [
+          "台塑化"
+        ]
+      },
+      {
+        "role": "潤滑油",
+        "text": "[[殼牌]]（[[Shell]]）、[[美孚]]（Mobil）等國際潤滑油品牌",
+        "entities": [
+          "殼牌",
+          "Shell",
+          "美孚"
+        ]
+      },
+      {
+        "role": "設備",
+        "text": "加油機、洗車設備、[[EV 充電]] 設施",
+        "entities": [
+          "EV 充電"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "EV 充電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "EV 充電"
+    },
+    {
+      "name": "台塑化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑化"
+    },
+    {
+      "name": "殼牌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "殼牌"
+    },
+    {
+      "name": "Shell",
+      "type": "international_company_or_term",
+      "wikilink": "Shell"
+    },
+    {
+      "name": "美孚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美孚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "全國加油站股份有限公司成立於 1988 年，總部位於台灣台北。公司為國內民營加油站龍頭品牌，全台設有逾 100 座直營加油站，規模僅次於 [[中油]] 及台亞石油，位居全國第三。主要業務為汽、柴油零售，並提供洗車及潤滑油銷售等附加服務。全國加油站以優質服務及會員經營聞名，並積極導入 [[EV 充電]] 設施，朝複合式能源站轉型。油品採用 [[台塑化]]（6505）供應。",
+    "supply_chain_md": "**上游 (油品供應):**\n- **油品:** [[台塑化]]（6505）為主要油品供應商\n\n**中游 (加油站零售):**\n- **全國 (9937):** 全台逾 100 座直營加油站、洗車服務、潤滑油銷售、[[EV 充電]]\n\n**下游 (終端消費):**\n- **一般駕駛人:** 汽油及柴油加油\n- **商用車隊:** 簽約柴油車隊",
+    "customers_suppliers_md": "### 主要客戶\n- **一般消費者:** 汽機車駕駛人（B2C 零售模式）\n- **商用車隊:** 企業簽約車隊加油\n\n### 主要供應商\n- **油品:** [[台塑化]]（6505）為唯一油品供應商\n- **潤滑油:** [[殼牌]]（[[Shell]]）、[[美孚]]（Mobil）等國際潤滑油品牌\n- **設備:** 加油機、洗車設備、[[EV 充電]] 設施",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $55.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     22.47 |       21.68 |      0.77 | 2.86 |     16.99 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     22542.90 |     24033.25 |     24535.22 |\n| Gross Profit            |      2761.49 |      2771.96 |      2727.98 |\n| Gross Margin (%)        |        12.25 |        11.53 |        11.12 |\n| Selling & Marketing Exp |      1810.82 |      1802.14 |      1717.83 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       184.94 |       189.93 |       193.71 |\n| Operating Income        |       765.74 |       779.89 |       816.44 |\n| Operating Margin (%)    |         3.40 |         3.25 |         3.33 |\n| Net Income              |       730.02 |       738.10 |       782.95 |\n| Net Margin (%)          |         3.24 |         3.07 |         3.19 |\n| Op Cash Flow            |       987.55 |      1166.87 |      1452.51 |\n| Investing Cash Flow     |       -79.67 |      -245.78 |      -449.91 |\n| Financing Cash Flow     |     -1065.48 |     -1075.13 |     -1064.74 |\n| CAPEX                   |      -126.34 |      -368.85 |      -337.92 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5403.50 |      5543.07 |      5610.74 |      5590.03 |\n| Gross Profit            |       720.80 |       709.20 |       690.12 |       669.69 |\n| Gross Margin (%)        |        13.34 |        12.79 |        12.30 |        11.98 |\n| Selling & Marketing Exp |       445.63 |       455.19 |       449.95 |       444.38 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        46.40 |        41.86 |        47.90 |        46.65 |\n| Operating Income        |       228.77 |       212.14 |       192.26 |       178.66 |\n| Operating Margin (%)    |         4.23 |         3.83 |         3.43 |         3.20 |\n| Net Income              |       202.67 |       190.78 |       203.55 |       172.52 |\n| Net Margin (%)          |         3.75 |         3.44 |         3.63 |         3.09 |\n| Op Cash Flow            |      1920.51 |       286.59 |       355.52 |     -1620.69 |\n| Investing Cash Flow     |       -25.73 |        36.37 |       -35.12 |       -21.64 |\n| Financing Cash Flow     |      -102.12 |      -177.84 |      -679.52 |      -107.29 |\n| CAPEX                   |        -6.95 |       -12.32 |       -30.97 |       -11.80 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

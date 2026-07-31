@@ -1,0 +1,202 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2615",
+  "company_name": "萬海",
+  "title": "2615 - 萬海",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 貨櫃航運/2615_萬海.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "238,522 百萬台幣",
+    "enterprise_value": "176,366 百萬台幣"
+  },
+  "business": {
+    "summary": "萬海航運股份有限公司 (2615，Wan Hai Lines) 成立於 1965 年，隸屬於[[士林紙業]]集團家族。為台灣第三大貨櫃航運公司，以經營亞洲區間航線 ([[Intra-Asia]]) 起家，擁有「亞洲航線之王」美譽。近年積極擴展遠洋航線 (遠東-美西、[[美東]]、南美)。營運策略靈活，擅長經營利基市場及直靠中小港口。主要服務亞洲區內製造商與貿易商之貨運需求，受惠於[[中國]]-[[東協]]供應鏈重組趨勢。",
+    "entities": [
+      "士林紙業",
+      "Intra-Asia",
+      "美東",
+      "中國",
+      "東協"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶建造)",
+        "text": "**上游 (船舶建造):**",
+        "entities": []
+      },
+      {
+        "category": "造船",
+        "text": "日本聯合造船 ([[JMU]])、韓國[[現代重工]] — 新造貨櫃輪",
+        "entities": [
+          "JMU",
+          "現代重工"
+        ]
+      },
+      {
+        "category": "租船與貨櫃",
+        "text": "國際租船與貨櫃租賃公司",
+        "entities": []
+      },
+      {
+        "category": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (貨櫃航運服務)",
+        "text": "**中游 (貨櫃航運服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**萬海** — 亞洲區間及遠洋[[貨櫃]]海運服務",
+        "entities": [
+          "貨櫃"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端貨主)",
+        "text": "**下游 (終端貨主):**",
+        "entities": []
+      },
+      {
+        "category": "亞洲區內貿易",
+        "text": "中國-東協供應鏈之進出口商 ([[消費電子]]、紡織、食品)",
+        "entities": [
+          "消費電子"
+        ]
+      },
+      {
+        "category": "貨代",
+        "text": "國際貨運承攬業者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "亞洲區內貿易",
+        "text": "中國-東協供應鏈進出口商 — 消費電子、紡織、食品",
+        "entities": []
+      },
+      {
+        "role": "遠洋貿易",
+        "text": "遠東-北美/南美航線貨主",
+        "entities": []
+      },
+      {
+        "role": "貨代",
+        "text": "國際貨運承攬業者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "造船",
+        "text": "日本聯合造船 (JMU)、韓國[[現代重工]] — 新造貨櫃輪",
+        "entities": [
+          "現代重工"
+        ]
+      },
+      {
+        "role": "租船",
+        "text": "國際租船公司",
+        "entities": []
+      },
+      {
+        "role": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "萬海航運股份有限公司 (2615，Wan Hai Lines) 成立於 1965 年，隸屬於[[士林紙業]]集團家族。為台灣第三大貨櫃航運公司，以經營亞洲區間航線 ([[Intra-Asia]]) 起家，擁有「亞洲航線之王」美譽。近年積極擴展遠洋航線 (遠東-美西、[[美東]]、南美)。營運策略靈活，擅長經營利基市場及直靠中小港口。主要服務亞洲區內製造商與貿易商之貨運需求，受惠於[[中國]]-[[東協]]供應鏈重組趨勢。",
+        "entities": [
+          "士林紙業",
+          "Intra-Asia",
+          "美東",
+          "中國",
+          "東協"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "士林紙業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士林紙業"
+    },
+    {
+      "name": "Intra-Asia",
+      "type": "international_company_or_term",
+      "wikilink": "Intra-Asia"
+    },
+    {
+      "name": "美東",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美東"
+    },
+    {
+      "name": "中國",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國"
+    },
+    {
+      "name": "東協",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東協"
+    },
+    {
+      "name": "JMU",
+      "type": "international_company_or_term",
+      "wikilink": "JMU"
+    },
+    {
+      "name": "現代重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "現代重工"
+    },
+    {
+      "name": "貨櫃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "貨櫃"
+    },
+    {
+      "name": "消費電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費電子"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "萬海航運股份有限公司 (2615，Wan Hai Lines) 成立於 1965 年，隸屬於[[士林紙業]]集團家族。為台灣第三大貨櫃航運公司，以經營亞洲區間航線 ([[Intra-Asia]]) 起家，擁有「亞洲航線之王」美譽。近年積極擴展遠洋航線 (遠東-美西、[[美東]]、南美)。營運策略靈活，擅長經營利基市場及直靠中小港口。主要服務亞洲區內製造商與貿易商之貨運需求，受惠於[[中國]]-[[東協]]供應鏈重組趨勢。",
+    "supply_chain_md": "**上游 (船舶建造):**\n- **造船:** 日本聯合造船 ([[JMU]])、韓國[[現代重工]] — 新造貨櫃輪\n- **租船與貨櫃:** 國際租船與貨櫃租賃公司\n- **燃油:** 全球各港口燃油供應商\n\n**中游 (貨櫃航運服務):**\n- **萬海** — 亞洲區間及遠洋[[貨櫃]]海運服務\n\n**下游 (終端貨主):**\n- **亞洲區內貿易:** 中國-東協供應鏈之進出口商 ([[消費電子]]、紡織、食品)\n- **貨代:** 國際貨運承攬業者",
+    "customers_suppliers_md": "### 主要客戶\n- **亞洲區內貿易:** 中國-東協供應鏈進出口商 — 消費電子、紡織、食品\n- **遠洋貿易:** 遠東-北美/南美航線貨主\n- **貨代:** 國際貨運承攬業者\n\n### 主要供應商\n- **造船:** 日本聯合造船 (JMU)、韓國[[現代重工]] — 新造貨櫃輪\n- **租船:** 國際租船公司\n- **燃油:** 全球各港口燃油供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $84.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      7.80 |        9.55 |      1.73 | 0.83 |      4.21 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    140353.46 |    161798.96 |    100220.04 |\n| Gross Profit            |     39516.54 |     56467.14 |     -1505.98 |\n| Gross Margin (%)        |        28.16 |        34.90 |        -1.50 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      6910.86 |      7338.98 |      6592.94 |\n| Operating Income        |     33214.41 |     50529.40 |     -6302.56 |\n| Operating Margin (%)    |        23.66 |        31.23 |        -6.29 |\n| Net Income              |     31464.65 |     47408.57 |     -5796.41 |\n| Net Margin (%)          |        22.42 |        29.30 |        -5.78 |\n| Op Cash Flow            |     39941.56 |     69293.05 |     -4442.86 |\n| Investing Cash Flow     |     29267.48 |   -114064.12 |    -34419.27 |\n| Financing Cash Flow     |    -29148.80 |     -6701.94 |    -12626.40 |\n| CAPEX                   |    -30999.81 |    -35818.56 |    -43976.66 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     33640.86 |     33381.89 |     35028.68 |     34852.71 |\n| Gross Profit            |      7656.63 |      7985.99 |     10733.99 |      9900.00 |\n| Gross Margin (%)        |        22.76 |        23.92 |        30.64 |        28.41 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |      1905.82 |      1757.89 |      1868.23 |      1476.99 |\n| Operating Income        |      5825.20 |      6322.11 |      8983.03 |      8664.79 |\n| Operating Margin (%)    |        17.32 |        18.94 |        25.64 |        24.86 |\n| Net Income              |      7671.52 |     10016.87 |     11638.96 |      1076.89 |\n| Net Margin (%)          |        22.80 |        30.01 |        33.23 |         3.09 |\n| Op Cash Flow            |      9694.78 |     11962.06 |     13922.07 |       735.59 |\n| Investing Cash Flow     |    -16289.69 |     -4182.32 |      5982.81 |     16936.90 |\n| Financing Cash Flow     |     -4875.76 |     -6671.15 |    -15320.56 |     -6899.61 |\n| CAPEX                   |    -11221.09 |     -6045.88 |     -9445.98 |     -4380.18 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2353",
+  "company_name": "宏碁",
+  "title": "2353 - 宏碁",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備/2353_宏碁.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "86,128 百萬台幣",
+    "enterprise_value": "115,845 百萬台幣"
+  },
+  "business": {
+    "summary": "宏碁 (2353，[[宏碁]]) 成立於 1976 年，總部位於新北市，為全球知名 PC 品牌廠，產品涵蓋筆記型電腦、桌上型電腦、顯示器、投影機、[[Chromebook]]、電競產品 (Predator/Nitro 品牌) 及伺服器。全球員工約 9,000 人。\n\n近年宏碁從傳統 PC 品牌全面轉型為科技生活品牌集團，多角化經營涵蓋：(1) [[AI]] PC：導入 AI 運算功能之新世代筆電；(2) 電競生態系：Predator 電競品牌全系列產品；(3) 智慧醫療：AI 輔助醫療診斷方案；(4) 電動出行 (e-Mobility)：[[電動自行車]]及電動滑板車；(5) 資安及資料中心服務。集團旗下重要子公司包括[[宏碁資訊]] (資安)、安碁資訊、宏碁智醫 (AI 醫療) 等。筆電代工主要委託[[仁寶]]、[[廣達]]、[[緯創]]等 ODM 廠。",
+    "entities": [
+      "宏碁",
+      "Chromebook",
+      "AI",
+      "電動自行車",
+      "宏碁資訊",
+      "仁寶",
+      "廣達",
+      "緯創"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件供應商)",
+        "text": "**上游 (關鍵零組件供應商):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]]、[[Qualcomm]] — 筆電/桌機 CPU 平台",
+        "entities": [
+          "Intel",
+          "AMD",
+          "Qualcomm"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 電競筆電及桌機繪圖晶片",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[友達]]、[[群創]]、[[LG Display]] — 筆電/顯示器面板",
+        "entities": [
+          "友達",
+          "群創",
+          "LG Display"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (ODM 代工夥伴)",
+        "text": "**中游 (ODM 代工夥伴):**",
+        "entities": []
+      },
+      {
+        "category": "筆電代工",
+        "text": "[[仁寶]]、[[廣達]]、[[緯創]] — 筆電 ODM 組裝",
+        "entities": [
+          "仁寶",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "category": "顯示器代工",
+        "text": "[[佳世達]] (Qisda) — 顯示器製造",
+        "entities": [
+          "佳世達"
+        ]
+      },
+      {
+        "category": "伺服器代工",
+        "text": "台灣伺服器代工廠 — Acer 伺服器產品",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球通路與終端消費者)",
+        "text": "**下游 (全球通路與終端消費者):**",
+        "entities": []
+      },
+      {
+        "category": "全球通路",
+        "text": "各國 IT 通路經銷商及電信營運商",
+        "entities": []
+      },
+      {
+        "category": "電商平台",
+        "text": "[[Amazon]]、各國電商 — 直銷通路",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "category": "企業採購",
+        "text": "政府及企業大量採購標案",
+        "entities": []
+      },
+      {
+        "category": "教育市場",
+        "text": "[[Google]] Chromebook 教育計畫",
+        "entities": [
+          "Google"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "全球通路",
+        "text": "各國 IT 通路經銷商 — 筆電/桌機/顯示器",
+        "entities": []
+      },
+      {
+        "role": "電信合作",
+        "text": "全球電信營運商 — 綁約筆電及行動裝置",
+        "entities": []
+      },
+      {
+        "role": "企業政府",
+        "text": "政府機關及企業採購標案 — 桌機及伺服器",
+        "entities": []
+      },
+      {
+        "role": "教育市場",
+        "text": "[[Google]] Chromebook 教育計畫全球推廣",
+        "entities": [
+          "Google"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]]、[[Qualcomm]] — CPU 及晶片組平台",
+        "entities": [
+          "Intel",
+          "AMD",
+          "Qualcomm"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 繪圖晶片",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[友達]]、[[群創]]、[[LG Display]] — 液晶面板",
+        "entities": [
+          "友達",
+          "群創",
+          "LG Display"
+        ]
+      },
+      {
+        "role": "代工夥伴",
+        "text": "[[仁寶]]、[[廣達]]、[[緯創]] — 筆電 ODM 代工",
+        "entities": [
+          "仁寶",
+          "廣達",
+          "緯創"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[華碩]]",
+        "entities": [
+          "華碩"
+        ],
+        "basis": "reciprocal_competitor_from:2357",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[技嘉]]",
+        "entities": [
+          "技嘉"
+        ],
+        "basis": "reciprocal_competitor_from:2376",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[微星]]",
+        "entities": [
+          "微星"
+        ],
+        "basis": "reciprocal_competitor_from:2377",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Chromebook",
+      "type": "international_company_or_term",
+      "wikilink": "Chromebook"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "電動自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動自行車"
+    },
+    {
+      "name": "宏碁資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁資訊"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "LG Display",
+      "type": "international_company_or_term",
+      "wikilink": "LG Display"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "佳世達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳世達"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宏碁 (2353，[[宏碁]]) 成立於 1976 年，總部位於新北市，為全球知名 PC 品牌廠，產品涵蓋筆記型電腦、桌上型電腦、顯示器、投影機、[[Chromebook]]、電競產品 (Predator/Nitro 品牌) 及伺服器。全球員工約 9,000 人。\n\n近年宏碁從傳統 PC 品牌全面轉型為科技生活品牌集團，多角化經營涵蓋：(1) [[AI]] PC：導入 AI 運算功能之新世代筆電；(2) 電競生態系：Predator 電競品牌全系列產品；(3) 智慧醫療：AI 輔助醫療診斷方案；(4) 電動出行 (e-Mobility)：[[電動自行車]]及電動滑板車；(5) 資安及資料中心服務。集團旗下重要子公司包括[[宏碁資訊]] (資安)、安碁資訊、宏碁智醫 (AI 醫療) 等。筆電代工主要委託[[仁寶]]、[[廣達]]、[[緯創]]等 ODM 廠。",
+    "supply_chain_md": "**上游 (關鍵零組件供應商):**\n- **處理器:** [[Intel]]、[[AMD]]、[[Qualcomm]] — 筆電/桌機 CPU 平台\n- **GPU:** [[NVIDIA]]、[[AMD]] — 電競筆電及桌機繪圖晶片\n- **面板:** [[友達]]、[[群創]]、[[LG Display]] — 筆電/顯示器面板\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/SSD\n\n**中游 (ODM 代工夥伴):**\n- **筆電代工:** [[仁寶]]、[[廣達]]、[[緯創]] — 筆電 ODM 組裝\n- **顯示器代工:** [[佳世達]] (Qisda) — 顯示器製造\n- **伺服器代工:** 台灣伺服器代工廠 — Acer 伺服器產品\n\n**下游 (全球通路與終端消費者):**\n- **全球通路:** 各國 IT 通路經銷商及電信營運商\n- **電商平台:** [[Amazon]]、各國電商 — 直銷通路\n- **企業採購:** 政府及企業大量採購標案\n- **教育市場:** [[Google]] Chromebook 教育計畫",
+    "customers_suppliers_md": "### 主要客戶\n- **全球通路:** 各國 IT 通路經銷商 — 筆電/桌機/顯示器\n- **電信合作:** 全球電信營運商 — 綁約筆電及行動裝置\n- **企業政府:** 政府機關及企業採購標案 — 桌機及伺服器\n- **教育市場:** [[Google]] Chromebook 教育計畫全球推廣\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]]、[[Qualcomm]] — CPU 及晶片組平台\n- **GPU:** [[NVIDIA]]、[[AMD]] — 繪圖晶片\n- **面板:** [[友達]]、[[群創]]、[[LG Display]] — 液晶面板\n- **代工夥伴:** [[仁寶]]、[[廣達]]、[[緯創]] — 筆電 ODM 代工",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $27.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     21.30 |       15.45 |      0.29 | 1.15 |     16.83 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    275628.17 |    264682.41 |    241308.14 |\n| Gross Profit            |     29990.35 |     28005.84 |     25823.22 |\n| Gross Margin (%)        |        10.88 |        10.58 |        10.70 |\n| Selling & Marketing Exp |     16017.44 |     14825.95 |     14204.31 |\n| R&D Exp                 |      2141.64 |      2266.20 |      2118.40 |\n| General & Admin Exp     |      6897.35 |      6145.46 |      5335.14 |\n| Operating Income        |      5143.77 |      4878.96 |      4225.41 |\n| Operating Margin (%)    |         1.87 |         1.84 |         1.75 |\n| Net Income              |      3780.49 |      5539.33 |      4931.94 |\n| Net Margin (%)          |         1.37 |         2.09 |         2.04 |\n| Op Cash Flow            |     -3189.72 |     -1522.82 |     12683.54 |\n| Investing Cash Flow     |     -1819.88 |    -14827.74 |     -7365.82 |\n| Financing Cash Flow     |     -1067.90 |      3870.55 |     -4440.21 |\n| CAPEX                   |     -2345.47 |     -4854.21 |      -999.74 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     72423.01 |     74359.45 |     66531.63 |     61337.99 |\n| Gross Profit            |      8085.89 |      8593.86 |      6729.21 |      6477.77 |\n| Gross Margin (%)        |        11.16 |        11.56 |        10.11 |        10.56 |\n| Selling & Marketing Exp |      4705.77 |      4298.53 |      3765.05 |      3729.27 |\n| R&D Exp                 |       708.61 |       599.02 |       574.88 |       370.09 |\n| General & Admin Exp     |      1884.88 |      1982.24 |      1688.09 |      1370.14 |\n| Operating Income        |       803.15 |      1865.93 |       733.92 |      1038.74 |\n| Operating Margin (%)    |         1.11 |         2.51 |         1.10 |         1.69 |\n| Net Income              |       702.04 |      1070.49 |      1084.76 |       515.16 |\n| Net Margin (%)          |         0.97 |         1.44 |         1.63 |         0.84 |\n| Op Cash Flow            |    -14991.81 |      -540.20 |      1314.22 |       955.40 |\n| Investing Cash Flow     |       196.12 |      1370.47 |     -3198.74 |     -4387.67 |\n| Financing Cash Flow     |      9767.23 |      -930.87 |      3027.55 |       251.27 |\n| CAPEX                   |      -712.57 |      -294.95 |      -516.73 |      -135.50 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 21,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2838",
+  "company_name": "聯邦銀",
+  "title": "2838 - 聯邦銀",
+  "source_md": "Pilot_Reports/金融 - 金控業_銀行業_保險業/2838_聯邦銀.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "market_cap": "94,230 百萬台幣",
+    "enterprise_value": "N/A"
+  },
+  "business": {
+    "summary": "[[聯邦商業銀行]] (2838) 成立於 1989 年，隸屬泛[[聯邦集團]]。全台設有約 50 家分行。該行在信用卡領域表現突出，與 [[LINE Bank]] 聯名發行之信用卡深受市場歡迎。數位帳戶「New New Bank」已突破 50 萬戶。集團關聯[[瓏山林實業]]從事不動產開發與飯店經營，為聯邦銀在建築融資領域提供穩定利基客源。",
+    "entities": [
+      "聯邦商業銀行",
+      "聯邦集團",
+      "LINE Bank",
+      "瓏山林實業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資金來源)",
+        "text": "**上游 (資金來源):**",
+        "entities": []
+      },
+      {
+        "category": "存款",
+        "text": "一般存戶、New New Bank 數位帳戶用戶",
+        "entities": []
+      },
+      {
+        "category": "同業資金",
+        "text": "[[中央銀行]]、金融同業拆款",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**中游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[聯邦商業銀行]]** (信用卡發卡、數位金融、企業放款與不動產融資)",
+        "entities": [
+          "聯邦商業銀行"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (授信客戶)",
+        "text": "**下游 (授信客戶):**",
+        "entities": []
+      },
+      {
+        "category": "消費金融",
+        "text": "[[LINE Bank]] 聯名卡持卡人、New New Bank 數位帳戶用戶",
+        "entities": [
+          "LINE Bank"
+        ]
+      },
+      {
+        "category": "不動產融資",
+        "text": "[[瓏山林實業]]等建設開發商",
+        "entities": [
+          "瓏山林實業"
+        ]
+      },
+      {
+        "category": "企業金融",
+        "text": "國內中小企業",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費金融",
+        "text": "[[LINE Bank]] 聯名信用卡持卡人、New New Bank 數位帳戶用戶",
+        "entities": [
+          "LINE Bank"
+        ]
+      },
+      {
+        "role": "不動產融資",
+        "text": "[[瓏山林實業]]及其他建設開發商",
+        "entities": [
+          "瓏山林實業"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "支付網路",
+        "text": "[[Visa]]、[[Mastercard]]、[[JCB]]",
+        "entities": [
+          "Visa",
+          "Mastercard",
+          "JCB"
+        ]
+      },
+      {
+        "role": "數位夥伴",
+        "text": "[[LINE Bank]] (聯名信用卡戰略合作)",
+        "entities": [
+          "LINE Bank"
+        ]
+      },
+      {
+        "role": "金流基礎設施",
+        "text": "[[財金資訊]]",
+        "entities": [
+          "財金資訊"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [
+      {
+        "text": "- **同業資金:** [[中央銀行]]、金融同業拆款",
+        "entities": [
+          "中央銀行"
+        ]
+      }
+    ],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "[[聯邦商業銀行]] (2838) 成立於 1989 年，隸屬泛[[聯邦集團]]。全台設有約 50 家分行。該行在信用卡領域表現突出，與 [[LINE Bank]] 聯名發行之信用卡深受市場歡迎。數位帳戶「New New Bank」已突破 50 萬戶。集團關聯[[瓏山林實業]]從事不動產開發與飯店經營，為聯邦銀在建築融資領域提供穩定利基客源。",
+        "entities": [
+          "聯邦商業銀行",
+          "聯邦集團",
+          "LINE Bank",
+          "瓏山林實業"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯邦商業銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯邦商業銀行"
+    },
+    {
+      "name": "聯邦集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯邦集團"
+    },
+    {
+      "name": "LINE Bank",
+      "type": "international_company_or_term",
+      "wikilink": "LINE Bank"
+    },
+    {
+      "name": "瓏山林實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瓏山林實業"
+    },
+    {
+      "name": "中央銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中央銀行"
+    },
+    {
+      "name": "Visa",
+      "type": "international_company_or_term",
+      "wikilink": "Visa"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "JCB",
+      "type": "international_company_or_term",
+      "wikilink": "JCB"
+    },
+    {
+      "name": "財金資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財金資訊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[聯邦商業銀行]] (2838) 成立於 1989 年，隸屬泛[[聯邦集團]]。全台設有約 50 家分行。該行在信用卡領域表現突出，與 [[LINE Bank]] 聯名發行之信用卡深受市場歡迎。數位帳戶「New New Bank」已突破 50 萬戶。集團關聯[[瓏山林實業]]從事不動產開發與飯店經營，為聯邦銀在建築融資領域提供穩定利基客源。",
+    "supply_chain_md": "**上游 (資金來源):**\n- **存款:** 一般存戶、New New Bank 數位帳戶用戶\n- **同業資金:** [[中央銀行]]、金融同業拆款\n\n**中游:**\n- **[[聯邦商業銀行]]** (信用卡發卡、數位金融、企業放款與不動產融資)\n\n**下游 (授信客戶):**\n- **消費金融:** [[LINE Bank]] 聯名卡持卡人、New New Bank 數位帳戶用戶\n- **不動產融資:** [[瓏山林實業]]等建設開發商\n- **企業金融:** 國內中小企業",
+    "customers_suppliers_md": "### 主要客戶\n- **消費金融:** [[LINE Bank]] 聯名信用卡持卡人、New New Bank 數位帳戶用戶\n- **不動產融資:** [[瓏山林實業]]及其他建設開發商\n\n### 主要供應商\n- **支付網路:** [[Visa]]、[[Mastercard]]、[[JCB]]\n- **數位夥伴:** [[LINE Bank]] (聯名信用卡戰略合作)\n- **金流基礎設施:** [[財金資訊]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $20.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.89 |         N/A |      4.69 | 1.15 |       N/A |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     20198.19 |     18832.52 |     17729.31 |\n| Gross Profit            |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      4580.84 |      4565.86 |      4722.14 |\n| Operating Income        |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |\n| Net Income              |      6101.73 |      5215.28 |      4317.29 |\n| Net Margin (%)          |        30.21 |        27.69 |        24.35 |\n| Op Cash Flow            |    -10791.11 |     -1763.84 |     21440.37 |\n| Investing Cash Flow     |      -803.95 |     -2633.98 |     -3838.68 |\n| Financing Cash Flow     |     -1039.99 |        51.13 |       404.18 |\n| CAPEX                   |     -1451.19 |     -1518.73 |     -3662.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5239.67 |      5467.51 |      4811.26 |      4679.76 |\n| Gross Profit            |       -    |       -    |       -    |       -    |\n| Gross Margin (%)        |       -    |       -    |       -    |       -    |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |      1293.29 |      1127.43 |      1101.00 |      1059.11 |\n| Operating Income        |       -    |       -    |       -    |       -    |\n| Operating Margin (%)    |       -    |       -    |       -    |       -    |\n| Net Income              |      1623.88 |      1821.82 |      1449.68 |      1206.35 |\n| Net Margin (%)          |        30.99 |        33.32 |        30.13 |        25.78 |\n| Op Cash Flow            |    -13522.99 |     -8371.89 |      7271.89 |      3831.89 |\n| Investing Cash Flow     |      1912.75 |      4008.75 |     -5862.44 |      -863.01 |\n| Financing Cash Flow     |      -178.39 |      -879.46 |      -267.75 |       285.61 |\n| CAPEX                   |      -111.74 |      -368.65 |      -629.25 |      -341.56 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

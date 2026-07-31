@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2636",
+  "company_name": "台驊控股",
+  "title": "2636 - 台驊控股",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 海陸空貨運承攬/2636_台驊控股.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Integrated Freight & Logistics",
+    "market_cap": "8,985 百萬台幣",
+    "enterprise_value": "6,824 百萬台幣"
+  },
+  "business": {
+    "summary": "台驊控股（T3EX Global Holdings）為台灣首家上市之國際物流控股公司，營運模式為「輕資產」之物流承攬業（Freight Forwarder）。公司提供全方位物流解決方案，包含海運、空運、鐵路（中歐班列）及內貿物流。台驊以併購與策略投資見長，旗下擁有多個物流品牌，近年積極佈局供應鏈金融與電商物流。海運通常為最大營收來源，營收結構隨市場運價波動動態調整。",
+    "entities": []
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (運力供應)",
+        "text": "**上游 (運力供應):**",
+        "entities": []
+      },
+      {
+        "category": "海運",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等全球主要船公司",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運",
+          "Maersk",
+          "MSC"
+        ]
+      },
+      {
+        "category": "空運",
+        "text": "[[中華航空]]、[[長榮航空]]、國泰航空等",
+        "entities": [
+          "中華航空",
+          "長榮航空"
+        ]
+      },
+      {
+        "category": "鐵路",
+        "text": "中歐班列營運商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (物流承攬)",
+        "text": "**中游 (物流承攬):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台驊控股** — 貨運承攬人與物流整合商，批發艙位再零售予貨主",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "科技電子",
+        "text": "[[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商",
+        "entities": [
+          "鴻海",
+          "友達",
+          "大聯大",
+          "正崴"
+        ]
+      },
+      {
+        "category": "品牌商",
+        "text": "[[Samsung]]、[[Apple]]供應鏈",
+        "entities": [
+          "Samsung",
+          "Apple"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "汽車零組件、運動休閒品牌、跨境電商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "科技電子",
+        "text": "[[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商",
+        "entities": [
+          "鴻海",
+          "友達",
+          "大聯大",
+          "正崴"
+        ]
+      },
+      {
+        "role": "品牌供應鏈",
+        "text": "[[Samsung]]、[[Apple]]等國際品牌之供應鏈物流",
+        "entities": [
+          "Samsung",
+          "Apple"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "高階半導體設備商（急單空運需求）",
+        "entities": []
+      },
+      {
+        "role": "其他",
+        "text": "汽車零組件、運動休閒品牌、跨境電商賣家",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "海運",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等船公司",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運",
+          "Maersk",
+          "MSC"
+        ]
+      },
+      {
+        "role": "空運",
+        "text": "[[中華航空]]、[[長榮航空]]等航空公司",
+        "entities": [
+          "中華航空",
+          "長榮航空"
+        ]
+      },
+      {
+        "role": "鐵路",
+        "text": "中歐班列營運商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "萬海航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬海航運"
+    },
+    {
+      "name": "Maersk",
+      "type": "international_company_or_term",
+      "wikilink": "Maersk"
+    },
+    {
+      "name": "MSC",
+      "type": "international_company_or_term",
+      "wikilink": "MSC"
+    },
+    {
+      "name": "中華航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華航空"
+    },
+    {
+      "name": "長榮航空",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮航空"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "正崴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正崴"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台驊控股（T3EX Global Holdings）為台灣首家上市之國際物流控股公司，營運模式為「輕資產」之物流承攬業（Freight Forwarder）。公司提供全方位物流解決方案，包含海運、空運、鐵路（中歐班列）及內貿物流。台驊以併購與策略投資見長，旗下擁有多個物流品牌，近年積極佈局供應鏈金融與電商物流。海運通常為最大營收來源，營收結構隨市場運價波動動態調整。",
+    "supply_chain_md": "**上游 (運力供應):**\n- **海運:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等全球主要船公司\n- **空運:** [[中華航空]]、[[長榮航空]]、國泰航空等\n- **鐵路:** 中歐班列營運商\n\n**中游 (物流承攬):**\n- **台驊控股** — 貨運承攬人與物流整合商，批發艙位再零售予貨主\n\n**下游 (終端客戶):**\n- **科技電子:** [[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商\n- **品牌商:** [[Samsung]]、[[Apple]]供應鏈\n- **其他:** 汽車零組件、運動休閒品牌、跨境電商",
+    "customers_suppliers_md": "### 主要客戶\n- **科技電子:** [[鴻海]]、[[友達]]、[[大聯大]]、[[正崴]]等供應鏈廠商\n- **品牌供應鏈:** [[Samsung]]、[[Apple]]等國際品牌之供應鏈物流\n- **半導體:** 高階半導體設備商（急單空運需求）\n- **其他:** 汽車零組件、運動休閒品牌、跨境電商賣家\n\n### 主要供應商\n- **海運:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]]、[[Maersk]]、[[MSC]]等船公司\n- **空運:** [[中華航空]]、[[長榮航空]]等航空公司\n- **鐵路:** 中歐班列營運商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $65.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      8.42 |        6.73 |      0.44 | 0.95 |     10.04 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     20793.60 |     25445.68 |     14621.25 |\n| Gross Profit            |      3330.68 |      3885.83 |      2917.48 |\n| Gross Margin (%)        |        16.02 |        15.27 |        19.95 |\n| Selling & Marketing Exp |      1841.61 |      1922.87 |      1429.94 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       741.59 |       721.84 |       596.43 |\n| Operating Income        |       747.48 |      1241.12 |       891.11 |\n| Operating Margin (%)    |         3.59 |         4.88 |         6.09 |\n| Net Income              |      1060.48 |      1286.01 |      1473.06 |\n| Net Margin (%)          |         5.10 |         5.05 |        10.07 |\n| Op Cash Flow            |      2005.73 |       500.07 |      -348.06 |\n| Investing Cash Flow     |      -413.74 |     -1542.00 |     -1786.53 |\n| Financing Cash Flow     |      1553.10 |       991.38 |     -1676.93 |\n| CAPEX                   |       -77.76 |       -90.66 |       -42.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4750.41 |      5672.47 |      5570.93 |      6328.37 |\n| Gross Profit            |       753.07 |       880.78 |       919.86 |       983.26 |\n| Gross Margin (%)        |        15.85 |        15.53 |        16.51 |        15.54 |\n| Selling & Marketing Exp |       405.95 |       503.69 |       479.68 |       542.28 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       224.12 |       180.68 |       179.60 |       203.07 |\n| Operating Income        |       123.00 |       196.41 |       260.58 |       237.90 |\n| Operating Margin (%)    |         2.59 |         3.46 |         4.68 |         3.76 |\n| Net Income              |       265.12 |       345.76 |       275.98 |       325.12 |\n| Net Margin (%)          |         5.58 |         6.10 |         4.95 |         5.14 |\n| Op Cash Flow            |       642.96 |       271.63 |       781.56 |       907.05 |\n| Investing Cash Flow     |      -491.45 |       524.91 |      -832.73 |      -630.52 |\n| Financing Cash Flow     |       302.09 |       957.54 |       730.45 |      -105.02 |\n| CAPEX                   |       -37.52 |       -11.46 |       -11.85 |       -39.82 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

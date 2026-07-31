@@ -1,0 +1,190 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4549",
+  "company_name": "桓達",
+  "title": "4549 - 桓達",
+  "source_md": "Pilot_Reports/電機機械 - 電控元件/4549_桓達.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "4,879 百萬台幣",
+    "enterprise_value": "4,150 百萬台幣"
+  },
+  "business": {
+    "summary": "桓達科技股份有限公司 (4549，FineTek) 為製程自動化感測器領導廠商，主打自有品牌「FineTek」。核心產品包括液位計、流量計、壓力與溫度傳送器，廣泛應用於化工、水處理、飼料及食品業。近年成功轉型高科技應用，開發[[AI 伺服器]]液冷系統專用感測器 (整合流量/溫度/壓力)，並切入半導體廢液監測與智慧水表市場。客戶涵蓋[[NVIDIA]]供應鏈之冷卻系統商及[[台積電]]、[[聯電]]供應鏈之半導體設備廠。",
+    "entities": [
+      "AI 伺服器",
+      "NVIDIA",
+      "台積電",
+      "聯電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子與機構件)",
+        "text": "**上游 (電子與機構件):**",
+        "entities": []
+      },
+      {
+        "category": "電子零組件",
+        "text": "IC、[[PCB]]、感測器元件",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "金屬加工",
+        "text": "不鏽鋼殼體、精密機構件",
+        "entities": []
+      },
+      {
+        "category": "塑膠件",
+        "text": "防護外殼與接頭",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (感測器製造)",
+        "text": "**中游 (感測器製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**桓達** — 液位計、流量計、壓力/溫度傳送器之設計、軟韌體開發、組裝與校正",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[NVIDIA]]供應鏈 — 液冷系統專用感測器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[聯電]]供應鏈 — 廢液監測設備",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "傳統工業",
+        "text": "化工、食品、水處理工程",
+        "entities": []
+      },
+      {
+        "category": "智慧城市",
+        "text": "自來水公司 — 智慧水表",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 伺服器",
+        "text": "[[NVIDIA]]供應鏈 — 液冷系統感測器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯電]]供應鏈 — 廢液監測",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "傳統工業",
+        "text": "化工、食品、水處理工程商",
+        "entities": []
+      },
+      {
+        "role": "智慧城市",
+        "text": "自來水公司 — 智慧水表",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電子元件",
+        "text": "IC 與[[PCB]]供應商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "金屬加工",
+        "text": "不鏽鋼殼體與精密機構件加工廠",
+        "entities": []
+      },
+      {
+        "role": "感測元件",
+        "text": "壓力與溫度感測器元件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "桓達科技股份有限公司 (4549，FineTek) 為製程自動化感測器領導廠商，主打自有品牌「FineTek」。核心產品包括液位計、流量計、壓力與溫度傳送器，廣泛應用於化工、水處理、飼料及食品業。近年成功轉型高科技應用，開發[[AI 伺服器]]液冷系統專用感測器 (整合流量/溫度/壓力)，並切入半導體廢液監測與智慧水表市場。客戶涵蓋[[NVIDIA]]供應鏈之冷卻系統商及[[台積電]]、[[聯電]]供應鏈之半導體設備廠。",
+    "supply_chain_md": "**上游 (電子與機構件):**\n- **電子零組件:** IC、[[PCB]]、感測器元件\n- **金屬加工:** 不鏽鋼殼體、精密機構件\n- **塑膠件:** 防護外殼與接頭\n\n**中游 (感測器製造):**\n- **桓達** — 液位計、流量計、壓力/溫度傳送器之設計、軟韌體開發、組裝與校正\n\n**下游 (終端應用):**\n- **AI 伺服器:** [[NVIDIA]]供應鏈 — 液冷系統專用感測器\n- **半導體:** [[台積電]]、[[聯電]]供應鏈 — 廢液監測設備\n- **傳統工業:** 化工、食品、水處理工程\n- **智慧城市:** 自來水公司 — 智慧水表",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 伺服器:** [[NVIDIA]]供應鏈 — 液冷系統感測器\n- **半導體:** [[台積電]]、[[聯電]]供應鏈 — 廢液監測\n- **傳統工業:** 化工、食品、水處理工程商\n- **智慧城市:** 自來水公司 — 智慧水表\n\n### 主要供應商\n- **電子元件:** IC 與[[PCB]]供應商\n- **金屬加工:** 不鏽鋼殼體與精密機構件加工廠\n- **感測元件:** 壓力與溫度感測器元件供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $86.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     28.39 |       12.42 |      4.07 | 2.49 |     18.31 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1235.73 |      1280.30 |      1367.40 |\n| Gross Profit            |       654.42 |       698.94 |       723.37 |\n| Gross Margin (%)        |        52.96 |        54.59 |        52.90 |\n| Selling & Marketing Exp |       281.15 |       244.22 |       242.40 |\n| R&D Exp                 |        78.63 |        78.84 |        68.54 |\n| General & Admin Exp     |       113.78 |       104.31 |        99.76 |\n| Operating Income        |       180.85 |       271.56 |       312.67 |\n| Operating Margin (%)    |        14.64 |        21.21 |        22.87 |\n| Net Income              |       189.12 |       263.75 |       267.84 |\n| Net Margin (%)          |        15.30 |        20.60 |        19.59 |\n| Op Cash Flow            |       146.88 |       287.73 |       255.78 |\n| Investing Cash Flow     |      -167.77 |        -0.73 |       -91.21 |\n| Financing Cash Flow     |      -203.89 |       181.50 |      -229.68 |\n| CAPEX                   |       -35.77 |       -25.11 |       -48.49 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       281.81 |       323.80 |       336.28 |       293.83 |\n| Gross Profit            |       154.61 |       162.70 |       169.26 |       167.85 |\n| Gross Margin (%)        |        54.86 |        50.25 |        50.33 |        57.12 |\n| Selling & Marketing Exp |        73.15 |        69.53 |        70.27 |        68.21 |\n| R&D Exp                 |        17.31 |        19.98 |        20.66 |        20.68 |\n| General & Admin Exp     |        25.46 |        31.21 |        29.18 |        27.93 |\n| Operating Income        |        38.69 |        41.98 |        49.16 |        51.03 |\n| Operating Margin (%)    |        13.73 |        12.96 |        14.62 |        17.37 |\n| Net Income              |        50.82 |        51.41 |        29.23 |        57.65 |\n| Net Margin (%)          |        18.03 |        15.88 |         8.69 |        19.62 |\n| Op Cash Flow            |         4.05 |        13.98 |        41.86 |        86.98 |\n| Investing Cash Flow     |        40.01 |        16.70 |       -96.84 |      -127.63 |\n| Financing Cash Flow     |        -0.23 |      -229.00 |        -2.36 |        27.69 |\n| CAPEX                   |        -8.21 |       -12.33 |        -7.95 |        -7.29 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

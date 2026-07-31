@@ -1,0 +1,241 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2492",
+  "company_name": "華新科",
+  "title": "2492 - [[華新科]]",
+  "source_md": "Pilot_Reports/被動元件 - 電容器材料(如電蝕_化成鋁箔、介面瓷粉)/2492_華新科.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "106,899 百萬台幣",
+    "enterprise_value": "132,565 百萬台幣"
+  },
+  "business": {
+    "summary": "[[華新科]]技股份有限公司 (Walsin Technology Corp.) 成立於 1992 年，總部位於台灣[[桃園]]，為華新麗華集團成員。公司為全球主要被動元件製造商，專注於積層陶瓷電容 ([[MLCC]])、晶片電阻 (Chip Resistors) 及射頻元件 (RF)。近年積極佈局[[車用電子]] ([[電動車]]) 及 [[AI Server]] 市場，並與 [[Caiden]] (2456) 等集團成員整合。",
+    "entities": [
+      "華新科",
+      "桃園",
+      "MLCC",
+      "車用電子",
+      "電動車",
+      "AI Server",
+      "Caiden"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "陶瓷粉末 ([[Sinoceramics]]), 內電極漿料, 基板。",
+        "entities": [
+          "Sinoceramics"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "*   **中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "[[MLCC]]",
+        "text": "配料、流延、印刷、堆疊、燒結、電鍍。",
+        "entities": [
+          "MLCC"
+        ]
+      },
+      {
+        "category": "電阻",
+        "text": "陶瓷基板、電阻膏印刷、燒結。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (應用)",
+        "text": "*   **下游 (應用):**",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "[[電動車]]動力系統、[[ADAS]]、車載資訊娛樂系統 ([[Tesla]], [[BYD]]).",
+        "entities": [
+          "電動車",
+          "ADAS",
+          "Tesla",
+          "BYD"
+        ]
+      },
+      {
+        "category": "[[AI 伺服器]]",
+        "text": "高壓/大電流 [[MLCC]], 電源供應器, 主機板 ([[台達電]], [[光寶]]).",
+        "entities": [
+          "AI 伺服器",
+          "MLCC",
+          "台達電",
+          "光寶"
+        ]
+      },
+      {
+        "category": "網通/消費",
+        "text": "[[5G]] 基地台、手機、NB。",
+        "entities": [
+          "5G"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "",
+        "text": "[[華新科]]位於被動元件產業鏈製造端。",
+        "entities": [
+          "華新科"
+        ]
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用",
+        "text": "全球 Tier 1 車廠, [[BYD]], [[Tesla]].",
+        "entities": [
+          "BYD",
+          "Tesla"
+        ]
+      },
+      {
+        "role": "電源/伺服器",
+        "text": "[[台達電]], [[光寶]] (光寶).",
+        "entities": [
+          "台達電",
+          "光寶"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "國內外手機及 PC 品牌。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "陶瓷粉末",
+        "text": "[[Sinoceramics]] (信昌電).",
+        "entities": [
+          "Sinoceramics"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "華新科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新科"
+    },
+    {
+      "name": "桃園",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "車用電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車用電子"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "AI Server",
+      "type": "international_company_or_term",
+      "wikilink": "AI Server"
+    },
+    {
+      "name": "Caiden",
+      "type": "international_company_or_term",
+      "wikilink": "Caiden"
+    },
+    {
+      "name": "Sinoceramics",
+      "type": "international_company_or_term",
+      "wikilink": "Sinoceramics"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "信昌電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信昌電"
+    },
+    {
+      "name": "大毅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大毅"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[華新科]]技股份有限公司 (Walsin Technology Corp.) 成立於 1992 年，總部位於台灣[[桃園]]，為華新麗華集團成員。公司為全球主要被動元件製造商，專注於積層陶瓷電容 ([[MLCC]])、晶片電阻 (Chip Resistors) 及射頻元件 (RF)。近年積極佈局[[車用電子]] ([[電動車]]) 及 [[AI Server]] 市場，並與 [[Caiden]] (2456) 等集團成員整合。",
+    "supply_chain_md": "[[華新科]]位於被動元件產業鏈製造端。\n*   **上游 (材料):** 陶瓷粉末 ([[Sinoceramics]]), 內電極漿料, 基板。\n*   **中游 (製造):** \n    *   **[[MLCC]]:** 配料、流延、印刷、堆疊、燒結、電鍍。\n    *   **電阻:** 陶瓷基板、電阻膏印刷、燒結。\n*   **下游 (應用):** \n    *   **車用:** [[電動車]]動力系統、[[ADAS]]、車載資訊娛樂系統 ([[Tesla]], [[BYD]]).\n    *   **[[AI 伺服器]]:** 高壓/大電流 [[MLCC]], 電源供應器, 主機板 ([[台達電]], [[光寶]]).\n    *   **網通/消費:** [[5G]] 基地台、手機、NB。",
+    "customers_suppliers_md": "### 主要客戶\n*   **車用:** 全球 Tier 1 車廠, [[BYD]], [[Tesla]].\n*   **電源/伺服器:** [[台達電]], [[光寶]] (光寶).\n*   **消費電子:** 國內外手機及 PC 品牌。\n\n### 主要供應商\n*   **陶瓷粉末:** [[Sinoceramics]] (信昌電).",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $198.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     38.17 |       11.42 |      2.58 | 1.80 |     20.06 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     36462.79 |     34755.04 |     32797.67 |\n| Gross Profit            |      6299.59 |      6480.62 |      5837.15 |\n| Gross Margin (%)        |        17.28 |        18.65 |        17.80 |\n| Selling & Marketing Exp |      1755.12 |      1693.19 |      1647.61 |\n| R&D Exp                 |       986.34 |      1027.84 |      1040.02 |\n| General & Admin Exp     |      1452.12 |      1577.39 |      1354.22 |\n| Operating Income        |      2106.01 |      2182.20 |      1795.31 |\n| Operating Margin (%)    |         5.78 |         6.28 |         5.47 |\n| Net Income              |      2298.17 |      2982.51 |      1984.60 |\n| Net Margin (%)          |         6.30 |         8.58 |         6.05 |\n| Op Cash Flow            |      6146.01 |      6141.06 |      8493.72 |\n| Investing Cash Flow     |     -5807.17 |     -6960.24 |    -18280.96 |\n| Financing Cash Flow     |     -1601.75 |      1522.32 |      -784.79 |\n| CAPEX                   |     -1086.96 |     -1280.77 |     -2376.14 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      9538.39 |      8754.90 |      9554.49 |      8740.01 |\n| Gross Profit            |      1745.96 |      1599.32 |      1622.92 |      1499.76 |\n| Gross Margin (%)        |        18.30 |        18.27 |        16.99 |        17.16 |\n| Selling & Marketing Exp |       445.60 |       430.50 |       436.21 |       422.62 |\n| R&D Exp                 |       235.56 |       275.17 |       237.93 |       233.19 |\n| General & Admin Exp     |       345.87 |       336.10 |       393.72 |       359.72 |\n| Operating Income        |       718.93 |       557.55 |       555.07 |       484.23 |\n| Operating Margin (%)    |         7.54 |         6.37 |         5.81 |         5.54 |\n| Net Income              |       819.61 |       870.00 |      -214.89 |       585.34 |\n| Net Margin (%)          |         8.59 |         9.94 |        -2.25 |         6.70 |\n| Op Cash Flow            |      1116.29 |       925.15 |       732.13 |      1768.47 |\n| Investing Cash Flow     |       909.01 |     -1495.65 |     -2556.94 |      -833.34 |\n| Financing Cash Flow     |     -1134.53 |     -1242.43 |       546.25 |       289.96 |\n| CAPEX                   |      -277.51 |      -337.75 |      -278.59 |      -234.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

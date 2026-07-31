@@ -1,0 +1,184 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8068",
+  "company_name": "全達",
+  "title": "8068 - 全達",
+  "source_md": "Pilot_Reports/半導體 - IC通路/8068_全達.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "1,329 百萬台幣",
+    "enterprise_value": "1,746 百萬台幣"
+  },
+  "business": {
+    "summary": "全達國際 (8068，[[Chander Electronics]]) 隸屬於[[威盛電子]] (VIA Technologies) 集團，成立於 1997 年，定位為半導體零組件與軟體之專業代理行銷通路商，同時提供大數據、人工智慧與物聯網之資訊整合服務。\n\n業務結構與動能：(1) IC 零組件代理 — 代理[[威盛電子]]旗下及關係企業之晶片產品，包含 AI 晶片、影像處理 IC 與嵌入式系統方案，行銷亞太區 PC/網通/消費性電子製造商；(2) 軟體代理 — [[聯發科]] 等 IC 設計大廠之軟體與開發工具；(3) 綠能新事業 — 跨足儲能設備與電動車充電樁業務，推出台灣首座移動式充電機器人「E-HERO」，整合軟硬體提供固定式與移動式充電方案，力圖從傳統 IC 通路轉型為智慧能源解決方案供應商。",
+    "entities": [
+      "Chander Electronics",
+      "威盛電子",
+      "聯發科"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (IC 設計與軟體原廠)",
+        "text": "**上游 (IC 設計與軟體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "AI/嵌入式晶片",
+        "text": "[[威盛電子]] — AI 晶片與嵌入式處理器",
+        "entities": [
+          "威盛電子"
+        ]
+      },
+      {
+        "category": "IC 設計",
+        "text": "[[聯發科]] — IC 產品與開發工具",
+        "entities": [
+          "聯發科"
+        ]
+      },
+      {
+        "category": "影像 IC",
+        "text": "星宸科技 (SigmaStar) — 影像處理晶片",
+        "entities": []
+      },
+      {
+        "category": "儲能設備",
+        "text": "電池與電力電子元件供應商 — 充電樁核心零件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (代理通路與系統整合)",
+        "text": "**中游 (代理通路與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**全達國際** (半導體 IC 與軟體代理行銷；儲能/充電樁系統整合)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電子製造",
+        "text": "亞太區 PC、網通設備及消費性電子製造商",
+        "entities": []
+      },
+      {
+        "category": "車用充電",
+        "text": "[[電動車]]充電站營運商與停車場業者",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "category": "智慧城市",
+        "text": "政府與企業智慧能源專案",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子製造",
+        "text": "亞太區網通設備與消費電子代工廠 — IC 零組件",
+        "entities": []
+      },
+      {
+        "role": "系統整合商",
+        "text": "企業級 AI 與物聯網方案客戶",
+        "entities": []
+      },
+      {
+        "role": "充電營運",
+        "text": "[[電動車]]充電站營運商 — E-HERO 充電方案",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "AI 晶片",
+        "text": "[[威盛電子]] — AI 晶片與嵌入式平台",
+        "entities": [
+          "威盛電子"
+        ]
+      },
+      {
+        "role": "IC 設計",
+        "text": "[[聯發科]] — IC 產品與軟體工具",
+        "entities": [
+          "聯發科"
+        ]
+      },
+      {
+        "role": "影像 IC",
+        "text": "星宸科技 (SigmaStar) — 影像處理晶片",
+        "entities": []
+      },
+      {
+        "role": "集團資源",
+        "text": "[[威盛電子]]集團 — 策略與技術支援",
+        "entities": [
+          "威盛電子"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Chander Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Chander Electronics"
+    },
+    {
+      "name": "威盛電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威盛電子"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "全達國際 (8068，[[Chander Electronics]]) 隸屬於[[威盛電子]] (VIA Technologies) 集團，成立於 1997 年，定位為半導體零組件與軟體之專業代理行銷通路商，同時提供大數據、人工智慧與物聯網之資訊整合服務。\n\n業務結構與動能：(1) IC 零組件代理 — 代理[[威盛電子]]旗下及關係企業之晶片產品，包含 AI 晶片、影像處理 IC 與嵌入式系統方案，行銷亞太區 PC/網通/消費性電子製造商；(2) 軟體代理 — [[聯發科]] 等 IC 設計大廠之軟體與開發工具；(3) 綠能新事業 — 跨足儲能設備與電動車充電樁業務，推出台灣首座移動式充電機器人「E-HERO」，整合軟硬體提供固定式與移動式充電方案，力圖從傳統 IC 通路轉型為智慧能源解決方案供應商。",
+    "supply_chain_md": "**上游 (IC 設計與軟體原廠):**\n- **AI/嵌入式晶片:** [[威盛電子]] — AI 晶片與嵌入式處理器\n- **IC 設計:** [[聯發科]] — IC 產品與開發工具\n- **影像 IC:** 星宸科技 (SigmaStar) — 影像處理晶片\n- **儲能設備:** 電池與電力電子元件供應商 — 充電樁核心零件\n\n**中游 (代理通路與系統整合):**\n- **全達國際** (半導體 IC 與軟體代理行銷；儲能/充電樁系統整合)\n\n**下游 (終端應用):**\n- **電子製造:** 亞太區 PC、網通設備及消費性電子製造商\n- **車用充電:** [[電動車]]充電站營運商與停車場業者\n- **智慧城市:** 政府與企業智慧能源專案",
+    "customers_suppliers_md": "### 主要客戶\n- **電子製造:** 亞太區網通設備與消費電子代工廠 — IC 零組件\n- **系統整合商:** 企業級 AI 與物聯網方案客戶\n- **充電營運:** [[電動車]]充電站營運商 — E-HERO 充電方案\n\n### 主要供應商\n- **AI 晶片:** [[威盛電子]] — AI 晶片與嵌入式平台\n- **IC 設計:** [[聯發科]] — IC 產品與軟體工具\n- **影像 IC:** 星宸科技 (SigmaStar) — 影像處理晶片\n- **集團資源:** [[威盛電子]]集團 — 策略與技術支援",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $16.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     13.57 |         N/A |      1.36 | 1.27 |    -22.41 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       837.43 |       750.19 |       707.97 |\n| Gross Profit            |        39.31 |        31.04 |        54.93 |\n| Gross Margin (%)        |         4.69 |         4.14 |         7.76 |\n| Selling & Marketing Exp |        23.56 |        29.78 |         9.89 |\n| R&D Exp                 |         3.42 |         3.33 |         6.42 |\n| General & Admin Exp     |       127.41 |       114.21 |        77.27 |\n| Operating Income        |      -115.08 |      -116.29 |       -38.65 |\n| Operating Margin (%)    |       -13.74 |       -15.50 |        -5.46 |\n| Net Income              |        98.95 |       185.97 |       -45.82 |\n| Net Margin (%)          |        11.82 |        24.79 |        -6.47 |\n| Op Cash Flow            |      -189.60 |       -59.15 |       -11.64 |\n| Investing Cash Flow     |       -98.00 |       158.67 |       -11.04 |\n| Financing Cash Flow     |       182.00 |        62.72 |       -89.53 |\n| CAPEX                   |       -74.47 |       -25.73 |       -11.65 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       263.48 |       173.96 |       219.39 |       180.61 |\n| Gross Profit            |         9.07 |        11.14 |         8.43 |        10.67 |\n| Gross Margin (%)        |         3.44 |         6.40 |         3.84 |         5.91 |\n| Selling & Marketing Exp |         7.88 |         4.84 |         6.31 |         4.53 |\n| R&D Exp                 |         1.19 |         0.76 |         0.78 |         0.69 |\n| General & Admin Exp     |        40.80 |        27.46 |        31.32 |        27.82 |\n| Operating Income        |       -40.80 |       -21.92 |       -29.98 |       -22.37 |\n| Operating Margin (%)    |       -15.49 |       -12.60 |       -13.67 |       -12.39 |\n| Net Income              |        -2.02 |        -1.49 |        98.95 |         3.52 |\n| Net Margin (%)          |        -0.77 |        -0.86 |        45.10 |         1.95 |\n| Op Cash Flow            |      -106.17 |        26.49 |       -79.15 |       -30.77 |\n| Investing Cash Flow     |       118.82 |      -142.77 |       -59.56 |       -14.49 |\n| Financing Cash Flow     |         3.27 |       157.54 |         5.97 |        15.23 |\n| CAPEX                   |       -25.49 |        -3.18 |       -39.55 |        -6.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

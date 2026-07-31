@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6192",
+  "company_name": "巨路",
+  "title": "6192_巨路",
+  "source_md": "Pilot_Reports/半導體 - IC通路/6192_巨路.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Industrial Distribution",
+    "market_cap": "10,385 百萬台幣",
+    "enterprise_value": "5,874 百萬台幣"
+  },
+  "business": {
+    "summary": "巨路國際股份有限公司為大中華區少數同時橫跨「工業程控」與「電子通信」兩大高門檻領域之專業代理通路商。工業程控方面，巨路為全球最大程控製造商[[Emerson]]（艾默生）在兩岸之重要獨家代理與系統整合夥伴，協助[[台積電]]等半導體大廠及石化業進行全球建廠之[[自動化]]控制專案。電子通信方面則代理多項關鍵電子元件，供應商涵蓋[[GE]]（奇異）、[[日東電工]]（Nitto Denko）及[[光寶科技]]等。[[台積電]]為程控營收最大客戶，約佔程控營收三成。客戶極度分散且多為各產業龍頭，近年受惠於半導體全球擴廠及傳產減碳/自動化升級之強勁需求。",
+    "entities": [
+      "Emerson",
+      "台積電",
+      "自動化",
+      "GE",
+      "日東電工",
+      "光寶科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備原廠)",
+        "text": "**上游 (設備原廠):**",
+        "entities": []
+      },
+      {
+        "category": "工業程控",
+        "text": "[[Emerson]]（艾默生，最大程控設備原廠，獨家代理）",
+        "entities": [
+          "Emerson"
+        ]
+      },
+      {
+        "category": "電子元件",
+        "text": "[[GE]]（奇異）、[[日東電工]]（Nitto Denko）、[[光寶科技]]",
+        "entities": [
+          "GE",
+          "日東電工",
+          "光寶科技"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (代理與系統整合)",
+        "text": "**中游 (代理與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**巨路國際** — 工業程控設備代理、智慧工廠自動化系統整合工程、電子元件經銷",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]（程控營收最大客戶，約佔三成）",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "石化/煉油",
+        "text": "[[中油]]、[[台塑集團]]等石化煉油業者",
+        "entities": [
+          "中油",
+          "台塑集團"
+        ]
+      },
+      {
+        "category": "鋼鐵",
+        "text": "鋼鐵廠自動化控制",
+        "entities": []
+      },
+      {
+        "category": "生技製藥",
+        "text": "製藥廠自動化製程",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]（最大程控客戶，約佔程控營收30%）",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "石化/煉油",
+        "text": "[[中油]]、[[台塑集團]]等石化煉油業者",
+        "entities": [
+          "中油",
+          "台塑集團"
+        ]
+      },
+      {
+        "role": "工業自動化",
+        "text": "鋼鐵、生技製藥等傳統產業自動化升級客戶",
+        "entities": []
+      },
+      {
+        "role": "大陸市場",
+        "text": "大陸知名國有石化及工業企業",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "工業程控",
+        "text": "[[Emerson]]（艾默生，全球最大程控製造商，獨家代理）",
+        "entities": [
+          "Emerson"
+        ]
+      },
+      {
+        "role": "電子元件",
+        "text": "[[GE]]（奇異）、[[日東電工]]（Nitto Denko）",
+        "entities": [
+          "GE",
+          "日東電工"
+        ]
+      },
+      {
+        "role": "光電元件",
+        "text": "[[光寶科技]]等全球電子元件大廠",
+        "entities": [
+          "光寶科技"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Emerson",
+      "type": "international_company_or_term",
+      "wikilink": "Emerson"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "日東電工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日東電工"
+    },
+    {
+      "name": "光寶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科技"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "台塑集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑集團"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "巨路國際股份有限公司為大中華區少數同時橫跨「工業程控」與「電子通信」兩大高門檻領域之專業代理通路商。工業程控方面，巨路為全球最大程控製造商[[Emerson]]（艾默生）在兩岸之重要獨家代理與系統整合夥伴，協助[[台積電]]等半導體大廠及石化業進行全球建廠之[[自動化]]控制專案。電子通信方面則代理多項關鍵電子元件，供應商涵蓋[[GE]]（奇異）、[[日東電工]]（Nitto Denko）及[[光寶科技]]等。[[台積電]]為程控營收最大客戶，約佔程控營收三成。客戶極度分散且多為各產業龍頭，近年受惠於半導體全球擴廠及傳產減碳/自動化升級之強勁需求。",
+    "supply_chain_md": "**上游 (設備原廠):**\n- **工業程控:** [[Emerson]]（艾默生，最大程控設備原廠，獨家代理）\n- **電子元件:** [[GE]]（奇異）、[[日東電工]]（Nitto Denko）、[[光寶科技]]\n\n**中游 (代理與系統整合):**\n- **巨路國際** — 工業程控設備代理、智慧工廠自動化系統整合工程、電子元件經銷\n\n**下游 (終端客戶):**\n- **半導體:** [[台積電]]（程控營收最大客戶，約佔三成）\n- **石化/煉油:** [[中油]]、[[台塑集團]]等石化煉油業者\n- **鋼鐵:** 鋼鐵廠自動化控制\n- **生技製藥:** 製藥廠自動化製程",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]（最大程控客戶，約佔程控營收30%）\n- **石化/煉油:** [[中油]]、[[台塑集團]]等石化煉油業者\n- **工業自動化:** 鋼鐵、生技製藥等傳統產業自動化升級客戶\n- **大陸市場:** 大陸知名國有石化及工業企業\n\n### 主要供應商\n- **工業程控:** [[Emerson]]（艾默生，全球最大程控製造商，獨家代理）\n- **電子元件:** [[GE]]（奇異）、[[日東電工]]（Nitto Denko）\n- **光電元件:** [[光寶科技]]等全球電子元件大廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $107.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.08 |       11.04 |      1.40 | 1.42 |      4.50 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7357.27 |      7827.57 |      6728.15 |\n| Gross Profit            |      2413.44 |      2329.93 |      2150.33 |\n| Gross Margin (%)        |        32.80 |        29.77 |        31.96 |\n| Selling & Marketing Exp |       797.11 |       752.38 |       758.81 |\n| R&D Exp                 |       145.52 |       135.63 |       116.11 |\n| General & Admin Exp     |       251.10 |       247.48 |       208.76 |\n| Operating Income        |      1219.71 |      1194.43 |      1066.64 |\n| Operating Margin (%)    |        16.58 |        15.26 |        15.85 |\n| Net Income              |       966.98 |      1007.67 |       786.04 |\n| Net Margin (%)          |        13.14 |        12.87 |        11.68 |\n| Op Cash Flow            |       934.18 |       900.89 |       827.82 |\n| Investing Cash Flow     |      -862.31 |       297.87 |      -344.97 |\n| Financing Cash Flow     |      -528.84 |      -540.45 |      -354.09 |\n| CAPEX                   |       -54.33 |      -238.05 |      -115.77 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2015.97 |      1700.64 |      1832.34 |      1808.32 |\n| Gross Profit            |       618.03 |       555.12 |       660.65 |       579.63 |\n| Gross Margin (%)        |        30.66 |        32.64 |        36.06 |        32.05 |\n| Selling & Marketing Exp |       218.35 |       197.73 |       199.43 |       181.60 |\n| R&D Exp                 |        39.80 |        35.95 |        35.97 |        33.80 |\n| General & Admin Exp     |        60.23 |        60.14 |        60.23 |        70.50 |\n| Operating Income        |       299.66 |       261.29 |       365.02 |       293.73 |\n| Operating Margin (%)    |        14.86 |        15.36 |        19.92 |        16.24 |\n| Net Income              |       230.08 |       253.84 |       202.56 |       280.50 |\n| Net Margin (%)          |        11.41 |        14.93 |        11.05 |        15.51 |\n| Op Cash Flow            |       611.05 |       296.72 |       156.21 |      -129.81 |\n| Investing Cash Flow     |      -596.84 |       -67.22 |       176.13 |      -374.37 |\n| Financing Cash Flow     |         7.21 |        -3.71 |      -532.35 |         0.01 |\n| CAPEX                   |       -38.60 |        -3.85 |        -4.56 |        -7.32 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

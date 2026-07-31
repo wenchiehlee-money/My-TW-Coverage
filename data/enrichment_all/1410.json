@@ -1,0 +1,164 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1410",
+  "company_name": "南染",
+  "title": "1410 - 南染",
+  "source_md": "Pilot_Reports/半導體 - IC封裝測試/1410_南染.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "1,538 百萬台幣",
+    "enterprise_value": "976 百萬台幣"
+  },
+  "business": {
+    "summary": "[[南染]] (Nan Yang Dyeing & Finishing) 早期從事紡織染整業務，近年已轉型為控股公司模式。核心業務涵蓋不動產租賃 (利用桃園及三重土地資產) 及轉投資半導體封測業務 (透過子公司[[南岩半導體]])。[[南岩半導體]]專注於[[半導體]]封裝測試及編帶業務，受惠於供應鏈[[去中化]]趨勢，積極開發美國車用電子客戶。",
+    "entities": [
+      "南染",
+      "南岩半導體",
+      "半導體",
+      "去中化"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[半導體]]封測設備及材料供應商",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "[[南岩半導體]] — [[半導體]]封裝測試及編帶",
+        "entities": [
+          "南岩半導體",
+          "半導體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "車用電子及[[分離式元件]]客戶",
+        "entities": [
+          "分離式元件"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "不動產事業",
+        "text": "**不動產事業:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "位於資產租賃端，出租桃園及三重廠辦獲取租金收益",
+        "entities": []
+      },
+      {
+        "category": "半導體事業 (子公司[[南岩半導體]])",
+        "text": "**半導體事業 (子公司[[南岩半導體]]):**",
+        "entities": [
+          "南岩半導體"
+        ]
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "不動產",
+        "text": "廠房及倉庫承租戶",
+        "entities": []
+      },
+      {
+        "role": "半導體 (子公司[[南岩半導體]])",
+        "text": "車用電子及[[分離式元件]]客戶，受惠[[去中化]]趨勢積極開發美國客戶",
+        "entities": [
+          "南岩半導體",
+          "分離式元件",
+          "去中化"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "半導體",
+        "text": "封測設備商如[[日月光投控]]系統供應鏈、[[導線架]]及[[IC載板]]材料供應商",
+        "entities": [
+          "日月光投控",
+          "導線架",
+          "IC載板"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "南染",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南染"
+    },
+    {
+      "name": "南岩半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南岩半導體"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "去中化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "去中化"
+    },
+    {
+      "name": "分離式元件",
+      "type": "taiwan_company_or_term",
+      "wikilink": "分離式元件"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "IC載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC載板"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[南染]] (Nan Yang Dyeing & Finishing) 早期從事紡織染整業務，近年已轉型為控股公司模式。核心業務涵蓋不動產租賃 (利用桃園及三重土地資產) 及轉投資半導體封測業務 (透過子公司[[南岩半導體]])。[[南岩半導體]]專注於[[半導體]]封裝測試及編帶業務，受惠於供應鏈[[去中化]]趨勢，積極開發美國車用電子客戶。",
+    "supply_chain_md": "**不動產事業:**\n- 位於資產租賃端，出租桃園及三重廠辦獲取租金收益\n\n**半導體事業 (子公司[[南岩半導體]]):**\n- **上游:** [[半導體]]封測設備及材料供應商\n- **中游:** [[南岩半導體]] — [[半導體]]封裝測試及編帶\n- **下游:** 車用電子及[[分離式元件]]客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **不動產:** 廠房及倉庫承租戶\n- **半導體 (子公司[[南岩半導體]]):** 車用電子及[[分離式元件]]客戶，受惠[[去中化]]趨勢積極開發美國客戶\n\n### 主要供應商\n- **半導體:** 封測設備商如[[日月光投控]]系統供應鏈、[[導線架]]及[[IC載板]]材料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     47.74 |         N/A |      8.33 | 1.50 |     58.47 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       189.01 |       236.72 |       222.21 |\n| Gross Profit            |        55.68 |        80.61 |        60.25 |\n| Gross Margin (%)        |        29.46 |        34.06 |        27.11 |\n| Selling & Marketing Exp |         3.85 |         5.28 |        17.69 |\n| R&D Exp                 |         3.16 |         3.76 |         3.33 |\n| General & Admin Exp     |        54.67 |        54.40 |        53.71 |\n| Operating Income        |        -6.00 |        17.18 |       -14.48 |\n| Operating Margin (%)    |        -3.17 |         7.26 |        -6.52 |\n| Net Income              |        36.38 |        35.84 |        14.97 |\n| Net Margin (%)          |        19.25 |        15.14 |         6.74 |\n| Op Cash Flow            |       105.03 |        28.91 |        32.43 |\n| Investing Cash Flow     |      -120.21 |        22.11 |       -54.31 |\n| Financing Cash Flow     |       -70.28 |       -20.16 |       -53.83 |\n| CAPEX                   |        -7.29 |        -4.51 |       -14.62 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        49.53 |        46.30 |        39.96 |        52.49 |\n| Gross Profit            |        15.66 |        14.77 |         6.26 |        16.78 |\n| Gross Margin (%)        |        31.62 |        31.89 |        15.66 |        31.96 |\n| Selling & Marketing Exp |         1.30 |         1.13 |         0.99 |         0.76 |\n| R&D Exp                 |         0.91 |         0.65 |         0.78 |         0.85 |\n| General & Admin Exp     |        14.50 |        10.92 |        13.77 |        11.72 |\n| Operating Income        |        -1.05 |         2.06 |        -9.28 |         3.46 |\n| Operating Margin (%)    |        -2.11 |         4.46 |       -23.22 |         6.59 |\n| Net Income              |         1.80 |        10.57 |        26.88 |        -5.87 |\n| Net Margin (%)          |         3.64 |        22.82 |        67.26 |       -11.19 |\n| Op Cash Flow            |         4.99 |        33.06 |        52.29 |        -5.74 |\n| Investing Cash Flow     |       -34.03 |      -125.78 |       -11.28 |        19.96 |\n| Financing Cash Flow     |        -0.24 |        -0.24 |       -48.15 |       -38.07 |\n| CAPEX                   |        -1.83 |        -1.83 |        -1.00 |        -2.63 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3710",
+  "company_name": "連展投控",
+  "title": "3710 - 連展投控",
+  "source_md": "Pilot_Reports/智慧電網 - 能源管理服務/3710_連展投控.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,433 百萬台幣",
+    "enterprise_value": "5,095 百萬台幣"
+  },
+  "business": {
+    "summary": "連展投控 (3710，[[ACON Holding]]) 為投資控股公司，旗下整合連展科技 (連接器/線束)、[[連訊通信]] (光纖通訊連接器) 與連騰科技 (無線元件/天線) 三大子公司，提供電子連接器、光纖通訊及無線通訊產品。\n\n主要業務與成長動能：\n1. **電子連接器**: 設計製造電腦、通訊與車用連接器，為集團營收基本盤。\n2. **光纖通訊**: 透過 [[連訊通信]] 提供 [[FTTH]] (光纖到府)、[[5G]] 基地台 FTTA 及 [[資料中心]] 光纖連接解決方案。\n3. **低軌衛星**: 整合連展線纜、[[連訊通信]] 光通訊連接器與連騰無線元件技術，打入 [[SpaceX]] 低軌衛星供應鏈，提供衛星傳輸解決方案。\n4. **天線模組**: 連騰科技生產天線模組，應用於無線通訊與物聯網。",
+    "entities": [
+      "ACON Holding",
+      "連訊通信",
+      "FTTH",
+      "5G",
+      "資料中心",
+      "SpaceX"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與零組件)",
+        "text": "**上游 (材料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "金屬端子",
+        "text": "銅合金沖壓件供應商",
+        "entities": []
+      },
+      {
+        "category": "光纖",
+        "text": "光纖纜線與光學元件",
+        "entities": []
+      },
+      {
+        "category": "塑膠",
+        "text": "連接器本體工程塑膠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (連接器/通訊模組製造)",
+        "text": "**中游 (連接器/通訊模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "電子連接器",
+        "text": "連展科技 (電腦/車用連接器與線束)",
+        "entities": []
+      },
+      {
+        "category": "光纖連接器",
+        "text": "[[連訊通信]] ([[FTTH]]/[[5G]] FTTA 光纖連接方案)",
+        "entities": [
+          "連訊通信",
+          "FTTH",
+          "5G"
+        ]
+      },
+      {
+        "category": "無線天線",
+        "text": "連騰科技 (天線模組與無線元件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星",
+        "text": "[[SpaceX]] — 衛星傳輸用連接解決方案",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "category": "電信營運商",
+        "text": "[[中華電信]]、國際電信商 — [[FTTH]] 光纖到府",
+        "entities": [
+          "中華電信",
+          "FTTH"
+        ]
+      },
+      {
+        "category": "資料中心",
+        "text": "雲端 [[資料中心]] — 光纖連接",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "車用連接器與線束",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "低軌衛星",
+        "text": "[[SpaceX]] — 衛星傳輸連接解決方案",
+        "entities": [
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "電信業",
+        "text": "[[中華電信]] — [[FTTH]] 光纖到府連接器",
+        "entities": [
+          "中華電信",
+          "FTTH"
+        ]
+      },
+      {
+        "role": "資料中心",
+        "text": "雲端 [[資料中心]] 營運商 — 光纖連接",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "role": "PC/通訊",
+        "text": "電腦與通訊設備廠商 — 連接器/線束",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光纖",
+        "text": "光纖纜線與光學元件供應商",
+        "entities": []
+      },
+      {
+        "role": "金屬材料",
+        "text": "銅合金端子沖壓件",
+        "entities": []
+      },
+      {
+        "role": "塑膠材料",
+        "text": "連接器本體工程塑膠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ACON Holding",
+      "type": "international_company_or_term",
+      "wikilink": "ACON Holding"
+    },
+    {
+      "name": "連訊通信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連訊通信"
+    },
+    {
+      "name": "FTTH",
+      "type": "international_company_or_term",
+      "wikilink": "FTTH"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "連展投控 (3710，[[ACON Holding]]) 為投資控股公司，旗下整合連展科技 (連接器/線束)、[[連訊通信]] (光纖通訊連接器) 與連騰科技 (無線元件/天線) 三大子公司，提供電子連接器、光纖通訊及無線通訊產品。\n\n主要業務與成長動能：\n1. **電子連接器**: 設計製造電腦、通訊與車用連接器，為集團營收基本盤。\n2. **光纖通訊**: 透過 [[連訊通信]] 提供 [[FTTH]] (光纖到府)、[[5G]] 基地台 FTTA 及 [[資料中心]] 光纖連接解決方案。\n3. **低軌衛星**: 整合連展線纜、[[連訊通信]] 光通訊連接器與連騰無線元件技術，打入 [[SpaceX]] 低軌衛星供應鏈，提供衛星傳輸解決方案。\n4. **天線模組**: 連騰科技生產天線模組，應用於無線通訊與物聯網。",
+    "supply_chain_md": "**上游 (材料與零組件):**\n- **金屬端子:** 銅合金沖壓件供應商\n- **光纖:** 光纖纜線與光學元件\n- **塑膠:** 連接器本體工程塑膠\n\n**中游 (連接器/通訊模組製造):**\n- **電子連接器:** 連展科技 (電腦/車用連接器與線束)\n- **光纖連接器:** [[連訊通信]] ([[FTTH]]/[[5G]] FTTA 光纖連接方案)\n- **無線天線:** 連騰科技 (天線模組與無線元件)\n\n**下游 (終端應用):**\n- **低軌衛星:** [[SpaceX]] — 衛星傳輸用連接解決方案\n- **電信營運商:** [[中華電信]]、國際電信商 — [[FTTH]] 光纖到府\n- **資料中心:** 雲端 [[資料中心]] — 光纖連接\n- **車用電子:** 車用連接器與線束",
+    "customers_suppliers_md": "### 主要客戶\n- **低軌衛星:** [[SpaceX]] — 衛星傳輸連接解決方案\n- **電信業:** [[中華電信]] — [[FTTH]] 光纖到府連接器\n- **資料中心:** 雲端 [[資料中心]] 營運商 — 光纖連接\n- **PC/通訊:** 電腦與通訊設備廠商 — 連接器/線束\n\n### 主要供應商\n- **光纖:** 光纖纜線與光學元件供應商\n- **金屬材料:** 銅合金端子沖壓件\n- **塑膠材料:** 連接器本體工程塑膠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $5.02 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.21 | 1.21 |     35.01 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6945.34 |      7329.88 |      6097.85 |\n| Gross Profit            |      1357.52 |      1562.06 |      1063.92 |\n| Gross Margin (%)        |        19.55 |        21.31 |        17.45 |\n| Selling & Marketing Exp |       464.56 |       419.82 |       373.57 |\n| R&D Exp                 |       457.18 |       419.08 |       385.15 |\n| General & Admin Exp     |       649.60 |       617.28 |       574.00 |\n| Operating Income        |      -213.82 |       105.88 |      -268.80 |\n| Operating Margin (%)    |        -3.08 |         1.44 |        -4.41 |\n| Net Income              |      -423.76 |      -138.76 |      -223.65 |\n| Net Margin (%)          |        -6.10 |        -1.89 |        -3.67 |\n| Op Cash Flow            |       175.98 |       528.99 |       587.62 |\n| Investing Cash Flow     |      -370.45 |      -398.59 |      -337.56 |\n| Financing Cash Flow     |       186.04 |      -358.33 |      -278.23 |\n| CAPEX                   |      -644.31 |      -271.29 |      -261.50 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1798.02 |      1737.66 |      1718.35 |      1762.95 |\n| Gross Profit            |       319.43 |       304.00 |       348.67 |       330.04 |\n| Gross Margin (%)        |        17.77 |        17.49 |        20.29 |        18.72 |\n| Selling & Marketing Exp |       120.70 |       124.53 |       136.64 |        98.78 |\n| R&D Exp                 |       117.32 |       123.34 |       119.59 |       118.28 |\n| General & Admin Exp     |       178.40 |       184.02 |       154.04 |       153.34 |\n| Operating Income        |       -96.99 |      -127.89 |       -61.60 |       -40.37 |\n| Operating Margin (%)    |        -5.39 |        -7.36 |        -3.58 |        -2.29 |\n| Net Income              |      -213.92 |      -223.73 |      -226.74 |       100.00 |\n| Net Margin (%)          |       -11.90 |       -12.88 |       -13.20 |         5.67 |\n| Op Cash Flow            |       -55.40 |       -91.65 |       -76.21 |       268.82 |\n| Investing Cash Flow     |      -132.10 |      -177.64 |      -164.47 |      -138.64 |\n| Financing Cash Flow     |       141.79 |         8.27 |       158.38 |      -149.28 |\n| CAPEX                   |      -111.77 |      -193.83 |      -148.61 |      -235.93 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

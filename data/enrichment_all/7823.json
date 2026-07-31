@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7823",
+  "company_name": "奧義賽博-KY創",
+  "title": "7823 - 奧義賽博-KY創",
+  "source_md": "Pilot_Reports/Software - Infrastructure/7823_奧義賽博-KY創.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "2,521 百萬台幣",
+    "enterprise_value": "1,691 百萬台幣"
+  },
+  "business": {
+    "summary": "奧義智慧科技股份有限公司 (7823，CyCraft) 為台灣純正 [[AI]] 資安軟體原廠，2026 年 2 月於台灣創新板掛牌上市。公司自主研發 AI 自動化端點偵測回應 ([[EDR]]) 系統，能在一分鐘內串聯百萬個端點軌跡，自動拼湊駭客攻擊意圖與入侵路徑。核心產品 XCockpit AI 平台整合外部攻擊面管理 ([[EASM]])、端點自動防禦及特權監控三大防線。累積逾 300 家客戶，涵蓋半導體晶圓廠、大型金控銀行、國防軍工及政府單位。公司通過 [[SEMI E187]] 半導體供應鏈資安標準，並獲 [[Gartner]] 連續肯定。2025 年全年營收達 3.69 億元，年增 22.8%。海外市場透過代理商積極插旗日本 (與 [[Hitachi]] 協作) 與東南亞。",
+    "entities": [
+      "AI",
+      "EDR",
+      "EASM",
+      "SEMI E187",
+      "Gartner",
+      "Hitachi"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (雲端與威脅情資)",
+        "text": "**上游 (雲端與威脅情資):**",
+        "entities": []
+      },
+      {
+        "category": "公有雲",
+        "text": "[[AWS]]、[[Google Cloud]] — AI 運算與機器學習算力",
+        "entities": [
+          "AWS",
+          "Google Cloud"
+        ]
+      },
+      {
+        "category": "威脅情資",
+        "text": "全球開源資安威脅情資資料庫",
+        "entities": []
+      },
+      {
+        "category": "AI 模型",
+        "text": "開源 AI/[[LLM]] 模型",
+        "entities": [
+          "LLM"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[AI]] 資安原廠)",
+        "text": "**中游 ([[AI]] 資安原廠):**",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**奧義智慧** ([[EDR]] 端點偵測回應、[[EASM]] 攻擊面管理、AI 威脅鑑識、[[LLM]] AI 防火牆)",
+        "entities": [
+          "EDR",
+          "EASM",
+          "LLM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (高價值目標)",
+        "text": "**下游 (高價值目標):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "指標性晶圓代工廠 — [[SEMI E187]] 供應鏈資安",
+        "entities": [
+          "SEMI E187"
+        ]
+      },
+      {
+        "category": "金融業",
+        "text": "大型金控銀行 — 合規資安防護",
+        "entities": []
+      },
+      {
+        "category": "國防軍工",
+        "text": "國防部隊與政府軍工單位",
+        "entities": []
+      },
+      {
+        "category": "海外市場",
+        "text": "日本 ([[Hitachi]] 協作)、東南亞 — 透過代理商佈署",
+        "entities": [
+          "Hitachi"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "指標性晶圓代工廠 — [[SEMI E187]] 資安防護",
+        "entities": [
+          "SEMI E187"
+        ]
+      },
+      {
+        "role": "金融業",
+        "text": "大型金控銀行 — AI 資安監控",
+        "entities": []
+      },
+      {
+        "role": "國防軍工",
+        "text": "國防部隊與軍工研究單位",
+        "entities": []
+      },
+      {
+        "role": "海外市場",
+        "text": "日本 ([[Hitachi]] 協作) 與東南亞",
+        "entities": [
+          "Hitachi"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[AWS]]、[[Google Cloud]] — AI 運算基礎設施",
+        "entities": [
+          "AWS",
+          "Google Cloud"
+        ]
+      },
+      {
+        "role": "資安代理",
+        "text": "鉅立資訊、宏羚等 IT 整合商 — 落地佈署",
+        "entities": []
+      },
+      {
+        "role": "國際認證",
+        "text": "[[Gartner]] — 曝險管理技術肯定",
+        "entities": [
+          "Gartner"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "EDR",
+      "type": "international_company_or_term",
+      "wikilink": "EDR"
+    },
+    {
+      "name": "EASM",
+      "type": "international_company_or_term",
+      "wikilink": "EASM"
+    },
+    {
+      "name": "SEMI E187",
+      "type": "international_company_or_term",
+      "wikilink": "SEMI E187"
+    },
+    {
+      "name": "Gartner",
+      "type": "international_company_or_term",
+      "wikilink": "Gartner"
+    },
+    {
+      "name": "Hitachi",
+      "type": "international_company_or_term",
+      "wikilink": "Hitachi"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Google Cloud",
+      "type": "international_company_or_term",
+      "wikilink": "Google Cloud"
+    },
+    {
+      "name": "LLM",
+      "type": "international_company_or_term",
+      "wikilink": "LLM"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "奧義智慧科技股份有限公司 (7823，CyCraft) 為台灣純正 [[AI]] 資安軟體原廠，2026 年 2 月於台灣創新板掛牌上市。公司自主研發 AI 自動化端點偵測回應 ([[EDR]]) 系統，能在一分鐘內串聯百萬個端點軌跡，自動拼湊駭客攻擊意圖與入侵路徑。核心產品 XCockpit AI 平台整合外部攻擊面管理 ([[EASM]])、端點自動防禦及特權監控三大防線。累積逾 300 家客戶，涵蓋半導體晶圓廠、大型金控銀行、國防軍工及政府單位。公司通過 [[SEMI E187]] 半導體供應鏈資安標準，並獲 [[Gartner]] 連續肯定。2025 年全年營收達 3.69 億元，年增 22.8%。海外市場透過代理商積極插旗日本 (與 [[Hitachi]] 協作) 與東南亞。",
+    "supply_chain_md": "**上游 (雲端與威脅情資):**\n- **公有雲:** [[AWS]]、[[Google Cloud]] — AI 運算與機器學習算力\n- **威脅情資:** 全球開源資安威脅情資資料庫\n- **AI 模型:** 開源 AI/[[LLM]] 模型\n\n**中游 ([[AI]] 資安原廠):**\n- **奧義智慧** ([[EDR]] 端點偵測回應、[[EASM]] 攻擊面管理、AI 威脅鑑識、[[LLM]] AI 防火牆)\n\n**下游 (高價值目標):**\n- **半導體:** 指標性晶圓代工廠 — [[SEMI E187]] 供應鏈資安\n- **金融業:** 大型金控銀行 — 合規資安防護\n- **國防軍工:** 國防部隊與政府軍工單位\n- **海外市場:** 日本 ([[Hitachi]] 協作)、東南亞 — 透過代理商佈署",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** 指標性晶圓代工廠 — [[SEMI E187]] 資安防護\n- **金融業:** 大型金控銀行 — AI 資安監控\n- **國防軍工:** 國防部隊與軍工研究單位\n- **海外市場:** 日本 ([[Hitachi]] 協作) 與東南亞\n\n### 主要供應商\n- **雲端平台:** [[AWS]]、[[Google Cloud]] — AI 運算基礎設施\n- **資安代理:** 鉅立資訊、宏羚等 IT 整合商 — 落地佈署\n- **國際認證:** [[Gartner]] — 曝險管理技術肯定",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $76.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      6.49 | 7.90 |   -332.50 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       368.83 |       300.55 |       304.79 |\n| Gross Profit            |       300.16 |       266.89 |       281.91 |\n| Gross Margin (%)        |        81.38 |        88.80 |        92.49 |\n| Selling & Marketing Exp |       145.71 |        98.38 |        54.84 |\n| R&D Exp                 |       120.80 |       119.74 |        99.28 |\n| General & Admin Exp     |        73.71 |        65.66 |        85.52 |\n| Operating Income        |       -40.07 |       -16.88 |        42.28 |\n| Operating Margin (%)    |       -10.86 |        -5.62 |        13.87 |\n| Net Income              |       -46.19 |        -3.32 |         1.93 |\n| Net Margin (%)          |       -12.52 |        -1.10 |         0.63 |\n| Op Cash Flow            |        32.68 |        18.42 |       116.92 |\n| Investing Cash Flow     |         1.14 |        52.50 |       -89.11 |\n| Financing Cash Flow     |       185.77 |       -20.26 |       -25.00 |\n| CAPEX                   |       -10.14 |       -18.34 |        -6.55 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        90.95 |       117.75 |        87.03 |        71.82 |\n| Gross Profit            |        78.54 |        92.95 |        68.14 |        63.71 |\n| Gross Margin (%)        |        86.35 |        78.93 |        78.30 |        88.71 |\n| Selling & Marketing Exp |        38.87 |        29.38 |        37.36 |        34.06 |\n| R&D Exp                 |        32.86 |        30.79 |        33.09 |        29.48 |\n| General & Admin Exp     |        19.69 |        16.84 |        17.76 |        23.43 |\n| Operating Income        |       -12.88 |        15.94 |       -20.07 |       -23.25 |\n| Operating Margin (%)    |       -14.16 |        13.53 |       -23.06 |       -32.38 |\n| Net Income              |        -4.89 |        15.66 |        -8.79 |       -17.44 |\n| Net Margin (%)          |        -5.38 |        13.30 |       -10.10 |       -24.28 |\n| Op Cash Flow            |        36.58 |       -16.98 |       -    |        41.79 |\n| Investing Cash Flow     |        -0.29 |       -10.03 |       -    |         1.55 |\n| Financing Cash Flow     |       241.57 |        -3.84 |       -    |        61.20 |\n| CAPEX                   |        -0.70 |        -8.84 |       -    |        -0.07 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

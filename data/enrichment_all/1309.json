@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1309",
+  "company_name": "台達化",
+  "title": "1309 - 台達化",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 塑膠製品/1309_台達化.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "5,010 百萬台幣",
+    "enterprise_value": "4,192 百萬台幣"
+  },
+  "business": {
+    "summary": "台達化工 (1309，Taita Chemical) 隸屬[[台聚]]集團，專精[[聚丙烯]] (PP)、[[聚乙烯]] (PE) 及[[ABS]]樹脂之生產，為台灣主要泛用塑膠粒供應商。上游乙烯/丙烯原料來自[[台塑石化]]及[[中油]]，集團關係企業涵蓋[[台聚]] (母公司)、[[亞聯化學]]及[[華夏海灣]]。下游客戶為廣泛之塑膠加工業者，產品應用於家電、3C、汽車及包裝等領域。",
+    "entities": [
+      "台聚",
+      "聚丙烯",
+      "聚乙烯",
+      "ABS",
+      "台塑石化",
+      "中油",
+      "亞聯化學",
+      "華夏海灣"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "乙烯/丙烯",
+        "text": "[[台塑石化]]、[[台灣中油]] — 基礎石化原料",
+        "entities": [
+          "台塑石化",
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "集團",
+        "text": "[[台聚]] (母公司)、[[亞聯化學]]、[[華夏海灣]]",
+        "entities": [
+          "台聚",
+          "亞聯化學",
+          "華夏海灣"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台達化** ([[聚丙烯]]/[[聚乙烯]]/[[ABS]]樹脂)",
+        "entities": [
+          "聚丙烯",
+          "聚乙烯",
+          "ABS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠加工",
+        "text": "家電/3C/汽車/包裝用塑膠粒",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "塑膠加工",
+        "text": "家電、3C、汽車及包裝領域塑膠加工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化",
+        "text": "[[台塑石化]]、[[台灣中油]] — 乙烯/丙烯",
+        "entities": [
+          "台塑石化",
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "集團",
+        "text": "[[台聚]] (母公司)",
+        "entities": [
+          "台聚"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚"
+    },
+    {
+      "name": "聚丙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚丙烯"
+    },
+    {
+      "name": "聚乙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚乙烯"
+    },
+    {
+      "name": "ABS",
+      "type": "international_company_or_term",
+      "wikilink": "ABS"
+    },
+    {
+      "name": "台塑石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑石化"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "亞聯化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聯化學"
+    },
+    {
+      "name": "華夏海灣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏海灣"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台達化工 (1309，Taita Chemical) 隸屬[[台聚]]集團，專精[[聚丙烯]] (PP)、[[聚乙烯]] (PE) 及[[ABS]]樹脂之生產，為台灣主要泛用塑膠粒供應商。上游乙烯/丙烯原料來自[[台塑石化]]及[[中油]]，集團關係企業涵蓋[[台聚]] (母公司)、[[亞聯化學]]及[[華夏海灣]]。下游客戶為廣泛之塑膠加工業者，產品應用於家電、3C、汽車及包裝等領域。",
+    "supply_chain_md": "**上游 (石化原料):**\n- **乙烯/丙烯:** [[台塑石化]]、[[台灣中油]] — 基礎石化原料\n- **集團:** [[台聚]] (母公司)、[[亞聯化學]]、[[華夏海灣]]\n\n**中游 (製造):**\n- **台達化** ([[聚丙烯]]/[[聚乙烯]]/[[ABS]]樹脂)\n\n**下游 (終端):**\n- **塑膠加工:** 家電/3C/汽車/包裝用塑膠粒",
+    "customers_suppliers_md": "### 主要客戶\n- **塑膠加工:** 家電、3C、汽車及包裝領域塑膠加工廠\n\n### 主要供應商\n- **石化:** [[台塑石化]]、[[台灣中油]] — 乙烯/丙烯\n- **集團:** [[台聚]] (母公司)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $12.15 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |     -110.45 |      0.36 | 0.84 |     -9.34 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     14485.68 |     18622.91 |     15205.46 |\n| Gross Profit            |       592.05 |       878.09 |       435.58 |\n| Gross Margin (%)        |         4.09 |         4.72 |         2.86 |\n| Selling & Marketing Exp |       825.34 |      1031.42 |       681.20 |\n| R&D Exp                 |        17.71 |        16.37 |        15.83 |\n| General & Admin Exp     |       171.27 |       178.31 |       204.79 |\n| Operating Income        |      -422.27 |      -348.02 |      -466.24 |\n| Operating Margin (%)    |        -2.92 |        -1.87 |        -3.07 |\n| Net Income              |      -427.37 |      -223.01 |      -273.54 |\n| Net Margin (%)          |        -2.95 |        -1.20 |        -1.80 |\n| Op Cash Flow            |       734.49 |      -661.46 |      -243.16 |\n| Investing Cash Flow     |      -572.64 |     -1613.35 |      -356.07 |\n| Financing Cash Flow     |      -383.60 |       892.06 |       173.12 |\n| CAPEX                   |      -166.93 |      -190.69 |      -382.36 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3010.87 |      3392.44 |      3849.60 |      4232.77 |\n| Gross Profit            |        98.70 |       126.34 |       157.66 |       209.36 |\n| Gross Margin (%)        |         3.28 |         3.72 |         4.10 |         4.95 |\n| Selling & Marketing Exp |       172.57 |       210.47 |       218.16 |       224.14 |\n| R&D Exp                 |         4.28 |         4.93 |         3.85 |         4.66 |\n| General & Admin Exp     |        43.25 |        44.15 |        40.04 |        43.83 |\n| Operating Income        |      -121.40 |      -133.21 |      -104.39 |       -63.27 |\n| Operating Margin (%)    |        -4.03 |        -3.93 |        -2.71 |        -1.49 |\n| Net Income              |       -56.53 |       -73.44 |      -243.32 |       -54.08 |\n| Net Margin (%)          |        -1.88 |        -2.16 |        -6.32 |        -1.28 |\n| Op Cash Flow            |       219.54 |       197.48 |        96.99 |       220.48 |\n| Investing Cash Flow     |      -175.80 |       -92.26 |      -196.94 |      -107.64 |\n| Financing Cash Flow     |      -121.94 |      -149.86 |        59.41 |      -171.21 |\n| CAPEX                   |       -36.63 |       -57.95 |       -35.37 |       -36.98 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

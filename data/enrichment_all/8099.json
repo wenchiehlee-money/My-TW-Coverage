@@ -1,0 +1,281 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8099",
+  "company_name": "大世科",
+  "title": "8099 - 大世科",
+  "source_md": "Pilot_Reports/智慧電網 - 系統整合服務/8099_大世科.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "5,584 百萬台幣",
+    "enterprise_value": "4,757 百萬台幣"
+  },
+  "business": {
+    "summary": "大世科 (8099，Tatung System Technologies) 成立於 2000 年，隸屬[[大同]]集團，為專業資通信系統整合商。公司定位為「ACE SI」(AI、Cloud、ESG) 服務供應商，核心產品「OneAI」全方位 [[AI]] 解決方案整合 MLOps、[[大型語言模型]] (LLM) 與 RAG 技術，已成功部署於製造、金融、醫療及零售產業。業務涵蓋智慧解決方案、雲端服務、資通系統整合建置、[[資安]]防護及 [[AI]] 醫療影像辨識。客戶群橫跨電信、金控、製造、媒體、零售、政府及學研機構。2024 年與[[大同]]合作切入印尼 [[AI]] [[資料中心]]建置。",
+    "entities": [
+      "大同",
+      "AI",
+      "大型語言模型",
+      "資安",
+      "資料中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際軟硬體原廠)",
+        "text": "**上游 (國際軟硬體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器",
+        "text": "[[HPE]]、[[Dell]] — 伺服器與儲存設備",
+        "entities": [
+          "HPE",
+          "Dell"
+        ]
+      },
+      {
+        "category": "網路/通訊",
+        "text": "[[Cisco]]、[[Avaya]] — 網路與通訊設備",
+        "entities": [
+          "Cisco",
+          "Avaya"
+        ]
+      },
+      {
+        "category": "軟體",
+        "text": "[[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體",
+        "entities": [
+          "Microsoft",
+          "VMware",
+          "Informatica"
+        ]
+      },
+      {
+        "category": "資安",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]] — 資安設備",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合)",
+        "text": "**中游 (系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "SI",
+        "text": "**大世科** (ICT 系統整合、[[AI]] OneAI 平台、雲端服務、[[資安]]防護及智慧醫療)",
+        "entities": [
+          "AI",
+          "資安"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電信",
+        "text": "電信營運商 — 通訊系統整合",
+        "entities": []
+      },
+      {
+        "category": "金融",
+        "text": "金控與銀行 — [[AI]] 智慧客服",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "category": "製造",
+        "text": "製造業 — 智慧品檢與供應鏈優化",
+        "entities": []
+      },
+      {
+        "category": "政府/國防",
+        "text": "政府、軍方及學研機構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信",
+        "text": "電信營運商 — 通訊系統整合與維運",
+        "entities": []
+      },
+      {
+        "role": "金融",
+        "text": "金控與銀行 — [[AI]] 智慧客服與 IT 基礎設施",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "role": "製造",
+        "text": "製造業 — 智慧品檢與供應鏈優化",
+        "entities": []
+      },
+      {
+        "role": "醫療",
+        "text": "醫療院所 — [[AI]] 醫療影像辨識系統 (乳房攝影)",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "role": "政府/國防",
+        "text": "政府、軍方及學研機構",
+        "entities": []
+      },
+      {
+        "role": "母集團",
+        "text": "[[大同]]集團 — 印尼 [[AI]] [[資料中心]]合作",
+        "entities": [
+          "大同",
+          "AI",
+          "資料中心"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "伺服器",
+        "text": "[[HPE]]、[[Dell]] — 伺服器與儲存設備",
+        "entities": [
+          "HPE",
+          "Dell"
+        ]
+      },
+      {
+        "role": "網路/通訊",
+        "text": "[[Cisco]]、[[Avaya]] — 網路與通訊設備",
+        "entities": [
+          "Cisco",
+          "Avaya"
+        ]
+      },
+      {
+        "role": "軟體",
+        "text": "[[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體授權",
+        "entities": [
+          "Microsoft",
+          "VMware",
+          "Informatica"
+        ]
+      },
+      {
+        "role": "資安",
+        "text": "[[Palo Alto Networks]]、[[Fortinet]] — 資安防禦設備",
+        "entities": [
+          "Palo Alto Networks",
+          "Fortinet"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "大型語言模型",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大型語言模型"
+    },
+    {
+      "name": "資安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資安"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "HPE",
+      "type": "international_company_or_term",
+      "wikilink": "HPE"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Avaya",
+      "type": "international_company_or_term",
+      "wikilink": "Avaya"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "VMware",
+      "type": "international_company_or_term",
+      "wikilink": "VMware"
+    },
+    {
+      "name": "Informatica",
+      "type": "international_company_or_term",
+      "wikilink": "Informatica"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "Fortinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fortinet"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大世科 (8099，Tatung System Technologies) 成立於 2000 年，隸屬[[大同]]集團，為專業資通信系統整合商。公司定位為「ACE SI」(AI、Cloud、ESG) 服務供應商，核心產品「OneAI」全方位 [[AI]] 解決方案整合 MLOps、[[大型語言模型]] (LLM) 與 RAG 技術，已成功部署於製造、金融、醫療及零售產業。業務涵蓋智慧解決方案、雲端服務、資通系統整合建置、[[資安]]防護及 [[AI]] 醫療影像辨識。客戶群橫跨電信、金控、製造、媒體、零售、政府及學研機構。2024 年與[[大同]]合作切入印尼 [[AI]] [[資料中心]]建置。",
+    "supply_chain_md": "**上游 (國際軟硬體原廠):**\n- **伺服器:** [[HPE]]、[[Dell]] — 伺服器與儲存設備\n- **網路/通訊:** [[Cisco]]、[[Avaya]] — 網路與通訊設備\n- **軟體:** [[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體\n- **資安:** [[Palo Alto Networks]]、[[Fortinet]] — 資安設備\n\n**中游 (系統整合):**\n- **SI:** **大世科** (ICT 系統整合、[[AI]] OneAI 平台、雲端服務、[[資安]]防護及智慧醫療)\n\n**下游 (終端客戶):**\n- **電信:** 電信營運商 — 通訊系統整合\n- **金融:** 金控與銀行 — [[AI]] 智慧客服\n- **製造:** 製造業 — 智慧品檢與供應鏈優化\n- **政府/國防:** 政府、軍方及學研機構",
+    "customers_suppliers_md": "### 主要客戶\n- **電信:** 電信營運商 — 通訊系統整合與維運\n- **金融:** 金控與銀行 — [[AI]] 智慧客服與 IT 基礎設施\n- **製造:** 製造業 — 智慧品檢與供應鏈優化\n- **醫療:** 醫療院所 — [[AI]] 醫療影像辨識系統 (乳房攝影)\n- **政府/國防:** 政府、軍方及學研機構\n- **母集團:** [[大同]]集團 — 印尼 [[AI]] [[資料中心]]合作\n\n### 主要供應商\n- **伺服器:** [[HPE]]、[[Dell]] — 伺服器與儲存設備\n- **網路/通訊:** [[Cisco]]、[[Avaya]] — 網路與通訊設備\n- **軟體:** [[Microsoft]]、[[VMware]]、[[Informatica]] — 商用軟體授權\n- **資安:** [[Palo Alto Networks]]、[[Fortinet]] — 資安防禦設備",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $56.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     22.34 |         N/A |      1.07 | 3.19 |     12.57 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5010.64 |      3930.23 |      4179.56 |\n| Gross Profit            |      1050.37 |       953.40 |       927.44 |\n| Gross Margin (%)        |        20.96 |        24.26 |        22.19 |\n| Selling & Marketing Exp |       524.65 |       512.38 |       492.30 |\n| R&D Exp                 |        46.77 |        54.80 |        71.33 |\n| General & Admin Exp     |       171.38 |       161.49 |       151.51 |\n| Operating Income        |       307.58 |       224.73 |       212.30 |\n| Operating Margin (%)    |         6.14 |         5.72 |         5.08 |\n| Net Income              |       252.80 |       204.37 |       188.14 |\n| Net Margin (%)          |         5.05 |         5.20 |         4.50 |\n| Op Cash Flow            |       257.96 |       344.74 |       634.91 |\n| Investing Cash Flow     |      -183.40 |        20.79 |       -45.63 |\n| Financing Cash Flow     |      -161.49 |      -314.35 |      -435.91 |\n| CAPEX                   |        -9.54 |       -10.49 |       -24.12 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1517.21 |      1587.03 |       998.38 |       908.02 |\n| Gross Profit            |       335.82 |       265.41 |       226.45 |       222.69 |\n| Gross Margin (%)        |        22.13 |        16.72 |        22.68 |        24.52 |\n| Selling & Marketing Exp |       153.63 |       129.49 |       121.29 |       120.24 |\n| R&D Exp                 |        11.31 |        11.58 |        11.82 |        12.06 |\n| General & Admin Exp     |        51.50 |        42.53 |        39.11 |        38.24 |\n| Operating Income        |       119.38 |        81.81 |        54.24 |        52.15 |\n| Operating Margin (%)    |         7.87 |         5.15 |         5.43 |         5.74 |\n| Net Income              |       100.45 |        70.52 |        42.17 |        39.66 |\n| Net Margin (%)          |         6.62 |         4.44 |         4.22 |         4.37 |\n| Op Cash Flow            |       169.87 |       -37.62 |        16.64 |       109.07 |\n| Investing Cash Flow     |         0.58 |      -199.83 |        12.51 |         3.34 |\n| Financing Cash Flow     |       -80.48 |        -9.62 |       -10.01 |       -61.38 |\n| CAPEX                   |        -1.79 |        -2.15 |        -1.55 |        -4.05 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

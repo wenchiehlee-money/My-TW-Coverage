@@ -1,0 +1,396 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3037",
+  "company_name": "欣興",
+  "title": "3037 - [[欣興]]",
+  "source_md": "Pilot_Reports/印刷電路板 - 硬板、軟板、IC載板製造/3037_欣興.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,083,012 百萬台幣",
+    "enterprise_value": "1,016,835 百萬台幣"
+  },
+  "business": {
+    "summary": "[[欣興]]電子 ([[Unimicron Technology]]) 為全球最大 [[PCB]] 與 IC 載板製造商之一，隸屬 [[聯電]] 集團。在 [[ABF 載板]]領域具統治地位，為 [[AI 伺服器]]與高效能運算晶片之關鍵供應商。\n\n核心競爭優勢：(1) [[ABF 載板]] — 全球市佔率約 18%，僅次於日本 [[Ibiden]]，為 [[NVIDIA]]、[[AMD]]、[[Intel]] 等高階晶片封裝之核心供應商；(2) HDI 高密度互連板 — 應用於智慧型手機與車用電子；(3) 軟硬結合板 — 應用於穿戴與手機。近年資本支出維持 200 億元以上水準，超過 65% 資金投入 [[ABF 載板]]產能擴充。受惠 [[CoWoS]] 先進封裝產能吃緊，高階載板需求強勁。",
+    "entities": [
+      "欣興",
+      "Unimicron Technology",
+      "PCB",
+      "聯電",
+      "ABF 載板",
+      "AI 伺服器",
+      "Ibiden",
+      "NVIDIA",
+      "AMD",
+      "Intel",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與設備)",
+        "text": "**上游 (材料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "ABF 膜",
+        "text": "[[Ajinomoto]] (Ajinomoto) — [[ABF]] 積層絕緣膜獨家供應",
+        "entities": [
+          "Ajinomoto",
+          "ABF"
+        ]
+      },
+      {
+        "category": "銅箔基板",
+        "text": "[[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]] 銅箔基板",
+        "entities": [
+          "台光電",
+          "聯茂",
+          "台燿",
+          "CCL"
+        ]
+      },
+      {
+        "category": "[[銅箔]]",
+        "text": "銅箔供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "[[玻纖布]]",
+        "text": "玻纖布供應商",
+        "entities": [
+          "玻纖布"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (PCB/載板製造)",
+        "text": "**中游 (PCB/載板製造):**",
+        "entities": []
+      },
+      {
+        "category": "[[ABF 載板]]",
+        "text": "**[[欣興]]** (AI/HPC 晶片 IC 載板)",
+        "entities": [
+          "ABF 載板",
+          "欣興"
+        ]
+      },
+      {
+        "category": "HDI",
+        "text": "**[[欣興]]** (手機與車用高密度互連板)",
+        "entities": [
+          "欣興"
+        ]
+      },
+      {
+        "category": "軟硬結合板",
+        "text": "**[[欣興]]** (穿戴裝置與手機應用)",
+        "entities": [
+          "欣興"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計/封測與終端)",
+        "text": "**下游 (IC 設計/封測與終端):**",
+        "entities": []
+      },
+      {
+        "category": "AI/HPC",
+        "text": "[[NVIDIA]]、[[AMD]]、[[Intel]] — 高階晶片 [[ABF 載板]]",
+        "entities": [
+          "NVIDIA",
+          "AMD",
+          "Intel",
+          "ABF 載板"
+        ]
+      },
+      {
+        "category": "手機",
+        "text": "[[Apple]] — iPhone 用 HDI/軟硬結合板",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "category": "封裝整合",
+        "text": "[[台積電]] — [[CoWoS]] 先進封裝配合",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "車用電子板",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI/HPC",
+        "text": "[[NVIDIA]]、[[AMD]]、[[Intel]] — 高階晶片 [[ABF 載板]]",
+        "entities": [
+          "NVIDIA",
+          "AMD",
+          "Intel",
+          "ABF 載板"
+        ]
+      },
+      {
+        "role": "手機",
+        "text": "[[Apple]] — HDI 與軟硬結合板",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "封裝",
+        "text": "[[台積電]] — [[CoWoS]] 先進封裝配合",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK Hynix]] — 記憶體模組板",
+        "entities": [
+          "Samsung",
+          "SK Hynix"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "ABF 膜",
+        "text": "[[Ajinomoto]] (Ajinomoto) — [[ABF]] 積層絕緣膜",
+        "entities": [
+          "Ajinomoto",
+          "ABF"
+        ]
+      },
+      {
+        "role": "銅箔基板",
+        "text": "[[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]]",
+        "entities": [
+          "台光電",
+          "聯茂",
+          "台燿",
+          "CCL"
+        ]
+      },
+      {
+        "role": "[[銅箔]]",
+        "text": "銅箔供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "role": "[[玻纖布]]",
+        "text": "玻纖布供應商",
+        "entities": [
+          "玻纖布"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "核心競爭優勢：(1) [[ABF 載板]] — 全球市佔率約 18%，僅次於日本 [[Ibiden]]，為 [[NVIDIA]]、[[AMD]]、[[Intel]] 等高階晶片封裝之核心供應商；(2) HDI 高密度互連板 — 應用於智慧型手機與車用電子；(3) 軟硬結合板 — 應用於穿戴與手機。近年資本支出維持 200 億元以上水準，超過 65% 資金投入 [[ABF 載板]]產能擴充。受惠 [[CoWoS]] 先進封裝產能吃緊，高階載板需求強勁。",
+        "entities": [
+          "ABF 載板",
+          "Ibiden",
+          "NVIDIA",
+          "AMD",
+          "Intel",
+          "CoWoS"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "核心競爭優勢：(1) [[ABF 載板]] — 全球市佔率約 18%，僅次於日本 [[Ibiden]]，為 [[NVIDIA]]、[[AMD]]、[[Intel]] 等高階晶片封裝之核心供應商；(2) HDI 高密度互連板 — 應用於智慧型手機與車用電子；(3) 軟硬結合板 — 應用於穿戴與手機。近年資本支出維持 200 億元以上水準，超過 65% 資金投入 [[ABF 載板]]產能擴充。受惠 [[CoWoS]] 先進封裝產能吃緊，高階載板需求強勁。",
+        "entities": [
+          "ABF 載板",
+          "Ibiden",
+          "NVIDIA",
+          "AMD",
+          "Intel",
+          "CoWoS"
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "Unimicron Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Unimicron Technology"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "ABF 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ABF 載板"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Ibiden",
+      "type": "international_company_or_term",
+      "wikilink": "Ibiden"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "Ajinomoto",
+      "type": "international_company_or_term",
+      "wikilink": "Ajinomoto"
+    },
+    {
+      "name": "ABF",
+      "type": "international_company_or_term",
+      "wikilink": "ABF"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "台燿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台燿"
+    },
+    {
+      "name": "CCL",
+      "type": "international_company_or_term",
+      "wikilink": "CCL"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "玻纖布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻纖布"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "長興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長興"
+    },
+    {
+      "name": "華通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通"
+    },
+    {
+      "name": "燿華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燿華"
+    },
+    {
+      "name": "金像電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金像電"
+    },
+    {
+      "name": "景碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "景碩"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[欣興]]電子 ([[Unimicron Technology]]) 為全球最大 [[PCB]] 與 IC 載板製造商之一，隸屬 [[聯電]] 集團。在 [[ABF 載板]]領域具統治地位，為 [[AI 伺服器]]與高效能運算晶片之關鍵供應商。\n\n核心競爭優勢：(1) [[ABF 載板]] — 全球市佔率約 18%，僅次於日本 [[Ibiden]]，為 [[NVIDIA]]、[[AMD]]、[[Intel]] 等高階晶片封裝之核心供應商；(2) HDI 高密度互連板 — 應用於智慧型手機與車用電子；(3) 軟硬結合板 — 應用於穿戴與手機。近年資本支出維持 200 億元以上水準，超過 65% 資金投入 [[ABF 載板]]產能擴充。受惠 [[CoWoS]] 先進封裝產能吃緊，高階載板需求強勁。",
+    "supply_chain_md": "**上游 (材料與設備):**\n- **ABF 膜:** [[Ajinomoto]] (Ajinomoto) — [[ABF]] 積層絕緣膜獨家供應\n- **銅箔基板:** [[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]] 銅箔基板\n- **[[銅箔]]:** 銅箔供應商\n- **[[玻纖布]]:** 玻纖布供應商\n\n**中游 (PCB/載板製造):**\n- **[[ABF 載板]]:** **[[欣興]]** (AI/HPC 晶片 IC 載板)\n- **HDI:** **[[欣興]]** (手機與車用高密度互連板)\n- **軟硬結合板:** **[[欣興]]** (穿戴裝置與手機應用)\n\n**下游 (IC 設計/封測與終端):**\n- **AI/HPC:** [[NVIDIA]]、[[AMD]]、[[Intel]] — 高階晶片 [[ABF 載板]]\n- **手機:** [[Apple]] — iPhone 用 HDI/軟硬結合板\n- **封裝整合:** [[台積電]] — [[CoWoS]] 先進封裝配合\n- **車用:** 車用電子板",
+    "customers_suppliers_md": "### 主要客戶\n- **AI/HPC:** [[NVIDIA]]、[[AMD]]、[[Intel]] — 高階晶片 [[ABF 載板]]\n- **手機:** [[Apple]] — HDI 與軟硬結合板\n- **封裝:** [[台積電]] — [[CoWoS]] 先進封裝配合\n- **記憶體:** [[Samsung]]、[[SK Hynix]] — 記憶體模組板\n\n### 主要供應商\n- **ABF 膜:** [[Ajinomoto]] (Ajinomoto) — [[ABF]] 積層絕緣膜\n- **銅箔基板:** [[台光電]]、[[聯茂]]、[[台燿]] — [[CCL]]\n- **[[銅箔]]:** 銅箔供應商\n- **[[玻纖布]]:** 玻纖布供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $716.00 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    101.99 |       19.01 |      7.56 | 8.97 |     33.19 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    131240.88 |    115373.28 |    104036.15 |\n| Gross Profit            |     18292.26 |     16315.16 |     20301.60 |\n| Gross Margin (%)        |        13.94 |        14.14 |        19.51 |\n| Selling & Marketing Exp |      1606.89 |      1637.39 |      1423.60 |\n| R&D Exp                 |      4998.73 |      5042.90 |      4923.25 |\n| General & Admin Exp     |      5176.19 |      4584.36 |      5130.51 |\n| Operating Income        |      6674.37 |      5116.68 |      8919.92 |\n| Operating Margin (%)    |         5.09 |         4.43 |         8.57 |\n| Net Income              |      6673.14 |      5082.06 |     11980.05 |\n| Net Margin (%)          |         5.08 |         4.40 |        11.52 |\n| Op Cash Flow            |     14967.09 |     10293.59 |     30900.03 |\n| Investing Cash Flow     |    -23017.61 |    -29229.83 |    -21099.17 |\n| Financing Cash Flow     |     19072.91 |      8336.11 |    -18059.68 |\n| CAPEX                   |    -26055.89 |    -26729.24 |    -23282.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     34690.89 |     32466.04 |     30089.53 |     29380.91 |\n| Gross Profit            |      5472.13 |      4245.52 |      4026.09 |      3398.12 |\n| Gross Margin (%)        |        15.77 |        13.08 |        13.38 |        11.57 |\n| Selling & Marketing Exp |       376.69 |       449.33 |       383.70 |       338.91 |\n| R&D Exp                 |      1286.54 |      1190.56 |      1236.74 |      1176.37 |\n| General & Admin Exp     |      1532.08 |      1103.12 |      1192.65 |      1226.62 |\n| Operating Income        |      2365.66 |      1509.36 |      1266.82 |       679.37 |\n| Operating Margin (%)    |         6.82 |         4.65 |         4.21 |         2.31 |\n| Net Income              |      3534.50 |        29.61 |       914.54 |        56.06 |\n| Net Margin (%)          |        10.19 |         0.09 |         3.04 |         0.19 |\n| Op Cash Flow            |      4006.75 |      5735.89 |      2991.48 |      3564.36 |\n| Investing Cash Flow     |     -3427.93 |     -4753.61 |     -6780.42 |     -4878.32 |\n| Financing Cash Flow     |      9646.68 |      3947.89 |      3975.02 |      4643.48 |\n| CAPEX                   |     -5821.12 |     -6667.31 |     -6878.59 |     -7341.75 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 23,
+    "warnings": []
+  }
+}

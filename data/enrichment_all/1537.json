@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1537",
+  "company_name": "廣隆",
+  "title": "1537 - 廣隆",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/1537_廣隆.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "10,381 百萬台幣",
+    "enterprise_value": "8,060 百萬台幣"
+  },
+  "business": {
+    "summary": "廣隆光電科技 (1537，Kung Long Batteries) 為亞洲[[UPS]]蓄電池產能最大製造商，自有品牌「LONG」行銷逾 100 國。亞洲首家通過德國 VdS 認證之鉛酸電池廠。產品涵蓋密閉式鉛酸電池 ([[VRLA]])、機車啟動電池及電動輪椅電池。生產以越南為主 (濱瀝/德和廠)。UPS 電池佔營收約 70%，主要客戶為[[Schneider Electric]] (旗下[[APC]]品牌)、[[Eaton]]、[[Vertiv]]。越南機車電池供應[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]。鉛錠佔成本約 90%。",
+    "entities": [
+      "UPS",
+      "VRLA",
+      "Schneider Electric",
+      "APC",
+      "Eaton",
+      "Vertiv",
+      "Honda",
+      "Yamaha",
+      "Piaggio"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鉛錠",
+        "text": "國際鉛礦商 (澳洲/韓國，LME 連動)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**廣隆** (LONG 品牌鉛酸[[VRLA]]電池，越南濱瀝/德和廠)",
+        "entities": [
+          "VRLA"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "UPS (佔 70%)",
+        "text": "[[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]] — 全球 UPS 廠",
+        "entities": [
+          "Schneider Electric",
+          "APC",
+          "Eaton",
+          "Vertiv"
+        ]
+      },
+      {
+        "category": "機車",
+        "text": "[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]] — 啟動電池",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Piaggio"
+        ]
+      },
+      {
+        "category": "電信",
+        "text": "越南[[VNPT]]、[[Viettel]] — 基地台備援",
+        "entities": [
+          "VNPT",
+          "Viettel"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "UPS",
+        "text": "[[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]]",
+        "entities": [
+          "Schneider Electric",
+          "APC",
+          "Eaton",
+          "Vertiv"
+        ]
+      },
+      {
+        "role": "機車",
+        "text": "[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]",
+        "entities": [
+          "Honda",
+          "Yamaha",
+          "Piaggio"
+        ]
+      },
+      {
+        "role": "電信",
+        "text": "[[VNPT]]、[[Viettel]]",
+        "entities": [
+          "VNPT",
+          "Viettel"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鉛錠",
+        "text": "國際鉛礦商 (佔成本 90%)",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "UPS",
+      "type": "international_company_or_term",
+      "wikilink": "UPS"
+    },
+    {
+      "name": "VRLA",
+      "type": "international_company_or_term",
+      "wikilink": "VRLA"
+    },
+    {
+      "name": "Schneider Electric",
+      "type": "international_company_or_term",
+      "wikilink": "Schneider Electric"
+    },
+    {
+      "name": "APC",
+      "type": "international_company_or_term",
+      "wikilink": "APC"
+    },
+    {
+      "name": "Eaton",
+      "type": "international_company_or_term",
+      "wikilink": "Eaton"
+    },
+    {
+      "name": "Vertiv",
+      "type": "international_company_or_term",
+      "wikilink": "Vertiv"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "Piaggio",
+      "type": "international_company_or_term",
+      "wikilink": "Piaggio"
+    },
+    {
+      "name": "VNPT",
+      "type": "international_company_or_term",
+      "wikilink": "VNPT"
+    },
+    {
+      "name": "Viettel",
+      "type": "international_company_or_term",
+      "wikilink": "Viettel"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣隆光電科技 (1537，Kung Long Batteries) 為亞洲[[UPS]]蓄電池產能最大製造商，自有品牌「LONG」行銷逾 100 國。亞洲首家通過德國 VdS 認證之鉛酸電池廠。產品涵蓋密閉式鉛酸電池 ([[VRLA]])、機車啟動電池及電動輪椅電池。生產以越南為主 (濱瀝/德和廠)。UPS 電池佔營收約 70%，主要客戶為[[Schneider Electric]] (旗下[[APC]]品牌)、[[Eaton]]、[[Vertiv]]。越南機車電池供應[[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]。鉛錠佔成本約 90%。",
+    "supply_chain_md": "**上游 (原料):**\n- **鉛錠:** 國際鉛礦商 (澳洲/韓國，LME 連動)\n\n**中游 (製造):**\n- **廣隆** (LONG 品牌鉛酸[[VRLA]]電池，越南濱瀝/德和廠)\n\n**下游 (終端):**\n- **UPS (佔 70%):** [[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]] — 全球 UPS 廠\n- **機車:** [[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]] — 啟動電池\n- **電信:** 越南[[VNPT]]、[[Viettel]] — 基地台備援",
+    "customers_suppliers_md": "### 主要客戶\n- **UPS:** [[Schneider Electric]] ([[APC]])、[[Eaton]]、[[Vertiv]]\n- **機車:** [[Honda]] Vietnam、[[Yamaha]] Vietnam、[[Piaggio]]\n- **電信:** [[VNPT]]、[[Viettel]]\n\n### 主要供應商\n- **鉛錠:** 國際鉛礦商 (佔成本 90%)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $126.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.62 |        9.31 |      1.57 | 2.24 |      9.20 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6632.17 |      8137.84 |      6416.81 |\n| Gross Profit            |      1350.10 |      1789.47 |      1241.18 |\n| Gross Margin (%)        |        20.36 |        21.99 |        19.34 |\n| Selling & Marketing Exp |       281.38 |       351.45 |       241.27 |\n| R&D Exp                 |        41.85 |        44.61 |        46.33 |\n| General & Admin Exp     |       226.29 |       252.10 |       210.06 |\n| Operating Income        |       800.58 |      1141.31 |       743.53 |\n| Operating Margin (%)    |        12.07 |        14.02 |        11.59 |\n| Net Income              |       652.80 |       963.33 |       609.10 |\n| Net Margin (%)          |         9.84 |        11.84 |         9.49 |\n| Op Cash Flow            |      1227.90 |       595.53 |       973.72 |\n| Investing Cash Flow     |       -89.06 |       -64.61 |      -152.93 |\n| Financing Cash Flow     |      -908.19 |      -540.75 |      -807.02 |\n| CAPEX                   |      -137.03 |      -125.13 |       -54.58 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1714.00 |      1614.38 |      1603.75 |      1663.91 |\n| Gross Profit            |       347.69 |       302.17 |       303.91 |       359.73 |\n| Gross Margin (%)        |        20.29 |        18.72 |        18.95 |        21.62 |\n| Selling & Marketing Exp |        80.22 |        73.07 |        66.11 |        64.11 |\n| R&D Exp                 |        11.73 |        10.50 |        10.95 |         9.68 |\n| General & Admin Exp     |        60.94 |        58.39 |        54.94 |        53.90 |\n| Operating Income        |       194.80 |       160.21 |       171.91 |       232.03 |\n| Operating Margin (%)    |        11.37 |         9.92 |        10.72 |        13.94 |\n| Net Income              |       172.83 |       180.05 |       169.34 |       101.73 |\n| Net Margin (%)          |        10.08 |        11.15 |        10.56 |         6.11 |\n| Op Cash Flow            |       171.33 |       176.79 |       438.69 |       350.42 |\n| Investing Cash Flow     |         3.17 |        -0.61 |        29.93 |       -73.16 |\n| Financing Cash Flow     |         0.15 |      -196.03 |      -692.61 |       -19.92 |\n| CAPEX                   |       -40.35 |       -57.77 |       -16.66 |       -30.98 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

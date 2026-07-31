@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3234",
+  "company_name": "光環",
+  "title": "3234 - 光環",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/3234_光環.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "10,033 百萬台幣",
+    "enterprise_value": "10,068 百萬台幣"
+  },
+  "business": {
+    "summary": "光環科技 (3234) 是光學半導體元件製造商，專注於 [[VCSEL]] (垂直共振腔面射型雷射)、FP/DFB 雷射及 PIN/PINTIA [[光偵測器]]之研發與製造。產品應用於[[光纖通訊]]、[[5G]] 基地台、雲端[[資料中心]]及 [[3D 感測]]。近年開發 100G [[VCSEL]] array 瞄準高速光互連需求。",
+    "entities": [
+      "VCSEL",
+      "光偵測器",
+      "光纖通訊",
+      "5G",
+      "資料中心",
+      "3D 感測"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與設備)",
+        "text": "**上游 (材料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "磊晶基板",
+        "text": "[[砷化鎵]]/[[磷化銦]] 磊晶片",
+        "entities": [
+          "砷化鎵",
+          "磷化銦"
+        ]
+      },
+      {
+        "category": "[[MOCVD]] 設備",
+        "text": "[[磊晶]]設備",
+        "entities": [
+          "MOCVD",
+          "磊晶"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (光半導體製造)",
+        "text": "**中游 (光半導體製造):**",
+        "entities": []
+      },
+      {
+        "category": "光元件",
+        "text": "**光環** ([[VCSEL]]/雷射/光偵測器製造)",
+        "entities": [
+          "VCSEL"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (光模組)",
+        "text": "**下游 (光模組):**",
+        "entities": []
+      },
+      {
+        "category": "3D 感測",
+        "text": "[[ams-OSRAM]] (3D 感測 [[VCSEL]] 供應鏈)",
+        "entities": [
+          "ams-OSRAM",
+          "VCSEL"
+        ]
+      },
+      {
+        "category": "光通訊",
+        "text": "資料中心光收發模組客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "3D 感測",
+        "text": "[[ams-OSRAM]]",
+        "entities": [
+          "ams-OSRAM"
+        ]
+      },
+      {
+        "role": "光通訊",
+        "text": "資料中心光收發模組廠",
+        "entities": []
+      },
+      {
+        "role": "車用",
+        "text": "車用 LiDAR 客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "磊晶",
+        "text": "GaAs/InP 磊晶片供應",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[II-VI]] (Coherent)、[[Lumentum]]、[[TRUMPF]]",
+        "entities": [
+          "II-VI",
+          "Lumentum",
+          "TRUMPF"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[II-VI]] (Coherent)、[[Lumentum]]、[[TRUMPF]]",
+        "entities": [
+          "II-VI",
+          "Lumentum",
+          "TRUMPF"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "VCSEL",
+      "type": "international_company_or_term",
+      "wikilink": "VCSEL"
+    },
+    {
+      "name": "光偵測器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光偵測器"
+    },
+    {
+      "name": "光纖通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光纖通訊"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "3D 感測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D 感測"
+    },
+    {
+      "name": "砷化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "砷化鎵"
+    },
+    {
+      "name": "磷化銦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷化銦"
+    },
+    {
+      "name": "MOCVD",
+      "type": "international_company_or_term",
+      "wikilink": "MOCVD"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "ams-OSRAM",
+      "type": "international_company_or_term",
+      "wikilink": "ams-OSRAM"
+    },
+    {
+      "name": "II-VI",
+      "type": "international_company_or_term",
+      "wikilink": "II-VI"
+    },
+    {
+      "name": "Lumentum",
+      "type": "international_company_or_term",
+      "wikilink": "Lumentum"
+    },
+    {
+      "name": "TRUMPF",
+      "type": "international_company_or_term",
+      "wikilink": "TRUMPF"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "光環科技 (3234) 是光學半導體元件製造商，專注於 [[VCSEL]] (垂直共振腔面射型雷射)、FP/DFB 雷射及 PIN/PINTIA [[光偵測器]]之研發與製造。產品應用於[[光纖通訊]]、[[5G]] 基地台、雲端[[資料中心]]及 [[3D 感測]]。近年開發 100G [[VCSEL]] array 瞄準高速光互連需求。",
+    "supply_chain_md": "**上游 (材料與設備):**\n- **磊晶基板:** [[砷化鎵]]/[[磷化銦]] 磊晶片\n- **[[MOCVD]] 設備:** [[磊晶]]設備\n\n**中游 (光半導體製造):**\n- **光元件:** **光環** ([[VCSEL]]/雷射/光偵測器製造)\n\n**下游 (光模組):**\n- **3D 感測:** [[ams-OSRAM]] (3D 感測 [[VCSEL]] 供應鏈)\n- **光通訊:** 資料中心光收發模組客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **3D 感測:** [[ams-OSRAM]]\n- **光通訊:** 資料中心光收發模組廠\n- **車用:** 車用 LiDAR 客戶\n\n### 主要供應商\n- **磊晶:** GaAs/InP 磊晶片供應\n- **競爭同業:** [[II-VI]] (Coherent)、[[Lumentum]]、[[TRUMPF]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $87.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|       N/A |      725.00 |     14.70 | 13.62 |    -75.23 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       683.28 |       573.75 |       630.27 |\n| Gross Profit            |        92.33 |        23.61 |        23.98 |\n| Gross Margin (%)        |        13.51 |         4.12 |         3.80 |\n| Selling & Marketing Exp |        14.05 |        15.86 |        17.81 |\n| R&D Exp                 |       143.74 |       157.87 |       210.86 |\n| General & Admin Exp     |        87.35 |       106.40 |       116.79 |\n| Operating Income        |      -152.81 |      -256.51 |      -321.48 |\n| Operating Margin (%)    |       -22.36 |       -44.71 |       -51.01 |\n| Net Income              |      -155.68 |      -239.25 |      -390.44 |\n| Net Margin (%)          |       -22.78 |       -41.70 |       -61.95 |\n| Op Cash Flow            |       -31.33 |       -56.37 |      -131.12 |\n| Investing Cash Flow     |       -19.75 |       -64.19 |        -6.28 |\n| Financing Cash Flow     |       -69.31 |       218.75 |       101.54 |\n| CAPEX                   |       -52.64 |       -67.30 |       -38.31 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       182.69 |       173.06 |       150.88 |       153.22 |\n| Gross Profit            |        17.89 |        14.51 |         3.68 |        13.33 |\n| Gross Margin (%)        |         9.79 |         8.38 |         2.44 |         8.70 |\n| Selling & Marketing Exp |         3.57 |         3.67 |         3.60 |         3.45 |\n| R&D Exp                 |        30.87 |        41.33 |        33.30 |        36.53 |\n| General & Admin Exp     |        23.34 |        25.54 |        19.69 |        21.45 |\n| Operating Income        |       -39.89 |       -56.04 |       -52.89 |       -48.11 |\n| Operating Margin (%)    |       -21.84 |       -32.38 |       -35.06 |       -31.40 |\n| Net Income              |       -35.72 |       -51.37 |       -51.53 |       -61.06 |\n| Net Margin (%)          |       -19.55 |       -29.68 |       -34.15 |       -39.85 |\n| Op Cash Flow            |       -29.31 |       -16.75 |       -26.22 |        47.94 |\n| Investing Cash Flow     |       -33.83 |        -6.65 |         1.25 |         3.90 |\n| Financing Cash Flow     |       249.11 |        -1.52 |       -91.69 |        37.93 |\n| CAPEX                   |       -21.86 |        -7.24 |       -15.72 |       -11.47 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6139",
+  "company_name": "亞翔",
+  "title": "6139_亞翔",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/6139_亞翔.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "market_cap": "158,071 百萬台幣",
+    "enterprise_value": "126,130 百萬台幣"
+  },
+  "business": {
+    "summary": "[[亞翔工程]]為台灣無塵室工程龍頭，專營半導體、光電、高科技電子、生技醫藥、航太及食品製造等產業之潔淨室設計建造。服務涵蓋無塵室隔間牆、天花板、灑水系統、加濕系統及室外空調機組等整廠建置。公司為 [[台積電]] 長期合作夥伴，隨 [[台積電]] 2 奈米先進製程及 [[CoWoS]] 先進封裝製程擴產，對潔淨室潔淨度、穩定性與複雜度之要求大幅提升，帶動亞翔工程服務價值與利潤率同步提升。近年取得 [[台積電]] 先進封裝廠 AP8 之無塵室工程合約。在手訂單規模逾 2,000 億元。",
+    "entities": [
+      "亞翔工程",
+      "台積電",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與材料)",
+        "text": "**上游 (設備與材料):**",
+        "entities": []
+      },
+      {
+        "category": "空調設備",
+        "text": "[[大金工業]] 等空調廠",
+        "entities": [
+          "大金工業"
+        ]
+      },
+      {
+        "category": "無塵室材料",
+        "text": "FFU、HEPA/ULPA 濾網、潔淨室隔間板",
+        "entities": []
+      },
+      {
+        "category": "消防系統",
+        "text": "灑水與消防設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (無塵室工程)",
+        "text": "**中游 (無塵室工程):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**亞翔工程** — 無塵室設計建造、空調機電統包",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (高科技製造)",
+        "text": "**下游 (高科技製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]（2 奈米廠、[[CoWoS]] AP8 先進封裝廠）",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[群創光電]]（[[台積電]] 竹南[[群創]]舊廠改建）",
+        "entities": [
+          "群創光電",
+          "台積電",
+          "群創"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Micron]]、[[南亞科技]]",
+        "entities": [
+          "Micron",
+          "南亞科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]（2 奈米廠房、[[CoWoS]] AP8 先進封裝廠）",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[群創光電]]",
+        "entities": [
+          "群創光電"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Micron]]、[[南亞科技]]",
+        "entities": [
+          "Micron",
+          "南亞科技"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "空調設備",
+        "text": "[[大金工業]] 等空調廠",
+        "entities": [
+          "大金工業"
+        ]
+      },
+      {
+        "role": "無塵室材料",
+        "text": "FFU、HEPA/ULPA 濾網供應商",
+        "entities": []
+      },
+      {
+        "role": "消防設備",
+        "text": "灑水與消防系統供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "亞翔工程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞翔工程"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "大金工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大金工業"
+    },
+    {
+      "name": "群創光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創光電"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "南亞科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞科技"
+    },
+    {
+      "name": "巨漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨漢"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[亞翔工程]]為台灣無塵室工程龍頭，專營半導體、光電、高科技電子、生技醫藥、航太及食品製造等產業之潔淨室設計建造。服務涵蓋無塵室隔間牆、天花板、灑水系統、加濕系統及室外空調機組等整廠建置。公司為 [[台積電]] 長期合作夥伴，隨 [[台積電]] 2 奈米先進製程及 [[CoWoS]] 先進封裝製程擴產，對潔淨室潔淨度、穩定性與複雜度之要求大幅提升，帶動亞翔工程服務價值與利潤率同步提升。近年取得 [[台積電]] 先進封裝廠 AP8 之無塵室工程合約。在手訂單規模逾 2,000 億元。",
+    "supply_chain_md": "**上游 (設備與材料):**\n- **空調設備:** [[大金工業]] 等空調廠\n- **無塵室材料:** FFU、HEPA/ULPA 濾網、潔淨室隔間板\n- **消防系統:** 灑水與消防設備\n\n**中游 (無塵室工程):**\n- **亞翔工程** — 無塵室設計建造、空調機電統包\n\n**下游 (高科技製造):**\n- **晶圓代工:** [[台積電]]（2 奈米廠、[[CoWoS]] AP8 先進封裝廠）\n- **面板:** [[群創光電]]（[[台積電]] 竹南[[群創]]舊廠改建）\n- **記憶體:** [[Micron]]、[[南亞科技]]",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]]（2 奈米廠房、[[CoWoS]] AP8 先進封裝廠）\n- **面板:** [[群創光電]]\n- **記憶體:** [[Micron]]、[[南亞科技]]\n\n### 主要供應商\n- **空調設備:** [[大金工業]] 等空調廠\n- **無塵室材料:** FFU、HEPA/ULPA 濾網供應商\n- **消防設備:** 灑水與消防系統供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $643.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.81 |        7.29 |      1.77 | 6.92 |      9.54 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     77484.65 |     65089.89 |     56904.66 |\n| Gross Profit            |     12373.86 |      8123.34 |      5156.23 |\n| Gross Margin (%)        |        15.97 |        12.48 |         9.06 |\n| Selling & Marketing Exp |        16.27 |        13.57 |        18.10 |\n| R&D Exp                 |       240.19 |       200.74 |       185.00 |\n| General & Admin Exp     |      1418.02 |      1180.57 |      1000.08 |\n| Operating Income        |     10699.38 |      6728.45 |      3953.05 |\n| Operating Margin (%)    |        13.81 |        10.34 |         6.95 |\n| Net Income              |      7144.97 |      4335.51 |      2888.82 |\n| Net Margin (%)          |         9.22 |         6.66 |         5.08 |\n| Op Cash Flow            |     23111.73 |     12538.81 |      5606.27 |\n| Investing Cash Flow     |        18.36 |      -678.79 |       962.99 |\n| Financing Cash Flow     |     -3257.25 |     -2228.09 |     -3099.06 |\n| CAPEX                   |      -239.21 |      -106.88 |       -46.02 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     20346.27 |     25861.16 |     24512.24 |     15036.29 |\n| Gross Profit            |      3810.89 |      5070.06 |      4415.76 |      1450.53 |\n| Gross Margin (%)        |        18.73 |        19.60 |        18.01 |         9.65 |\n| Selling & Marketing Exp |         6.07 |         6.63 |         3.52 |         3.00 |\n| R&D Exp                 |        58.69 |       116.34 |        40.88 |        46.13 |\n| General & Admin Exp     |       371.11 |       499.12 |       422.27 |       248.10 |\n| Operating Income        |      3375.01 |      4447.97 |      3949.09 |      1153.30 |\n| Operating Margin (%)    |        16.59 |        17.20 |        16.11 |         7.67 |\n| Net Income              |      2227.07 |      3092.29 |      2496.80 |       670.65 |\n| Net Margin (%)          |        10.95 |        11.96 |        10.19 |         4.46 |\n| Op Cash Flow            |     -2607.99 |      6624.87 |     12928.75 |       394.82 |\n| Investing Cash Flow     |        65.88 |      -692.60 |        61.48 |       252.89 |\n| Financing Cash Flow     |       507.25 |     -1645.48 |     -2054.87 |       782.84 |\n| CAPEX                   |       -10.82 |      -103.56 |       -32.50 |       -67.44 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6732",
+  "company_name": "昇佳電子",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/半導體 - IC設計/6732_昇佳電子.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "7,337 百萬台幣",
+    "enterprise_value": "5,669 百萬台幣"
+  },
+  "business": {
+    "summary": "昇佳電子 (6732，[[Sensortek]]) 為全球智慧型手機光學感測晶片的領導設計公司 (Fabless)，總部位於新竹。核心產品涵蓋光學感測器與 [[MEMS]] 微機電感測器。\n\n業務結構與動能：(1) 光學感測器 — 環境光感測 (ALS)、近接距離感測 (PS)、色溫偵測及環境光閃爍偵測等晶片，為智慧型手機螢幕亮度自動調節與窄邊框防誤觸的關鍵元件，在非蘋 (Android) 陣營市佔極高；(2) [[MEMS]] 感測器 — 加速度計、陀螺儀及六軸慣性測量單元 ([[IMU]])，應用於無人機飛控系統與消費電子；(3) 新應用領域 — 積極拓展掃地機器人、穿戴裝置 (TWS 耳機、智慧手錶) 及車用感測市場。主要客戶為 [[Samsung]]、[[小米]]、[[OPPO]]、[[Vivo]] 等全球前六大 Android 手機品牌，並已打入 [[Meta]] 供應鏈。",
+    "entities": [
+      "Sensortek",
+      "MEMS",
+      "IMU",
+      "Samsung",
+      "小米",
+      "OPPO",
+      "Vivo",
+      "Meta"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "台灣與中國一線晶圓代工廠 — 8 吋/12 吋製程",
+        "entities": []
+      },
+      {
+        "category": "封測",
+        "text": "大型 OSAT 封測廠 — 光學鍍膜封裝與測試",
+        "entities": []
+      },
+      {
+        "category": "IP",
+        "text": "半導體矽智財服務商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "光學感測 IC",
+        "text": "**昇佳** (ALS/PS/RGB 環境光感測晶片)",
+        "entities": []
+      },
+      {
+        "category": "[[MEMS]] 感測 IC",
+        "text": "**昇佳** (加速度計、陀螺儀、[[IMU]])",
+        "entities": [
+          "MEMS",
+          "IMU"
+        ]
+      },
+      {
+        "category": "飛控模組",
+        "text": "**昇佳** (無人機飛控 AHRS 晶片模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (手機品牌與消費電子)",
+        "text": "**下游 (手機品牌與消費電子):**",
+        "entities": []
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Samsung]]、[[小米]]、[[OPPO]]、[[Vivo]] — 光學感測晶片",
+        "entities": [
+          "Samsung",
+          "小米",
+          "OPPO",
+          "Vivo"
+        ]
+      },
+      {
+        "category": "AR/VR",
+        "text": "[[Meta]] — 感測元件",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "category": "穿戴裝置",
+        "text": "TWS 耳機與智慧手錶品牌",
+        "entities": []
+      },
+      {
+        "category": "家電/無人機",
+        "text": "掃地機器人與無人機製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "手機品牌",
+        "text": "[[Samsung]]、[[小米]]、[[OPPO]]、[[Vivo]] — 環境光/近接感測晶片",
+        "entities": [
+          "Samsung",
+          "小米",
+          "OPPO",
+          "Vivo"
+        ]
+      },
+      {
+        "role": "AR/VR",
+        "text": "[[Meta]] — 感測元件",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "role": "穿戴裝置",
+        "text": "TWS 耳機與智慧手錶品牌 — 光學感測晶片",
+        "entities": []
+      },
+      {
+        "role": "無人機",
+        "text": "無人機製造商 — [[IMU]] 飛控模組",
+        "entities": [
+          "IMU"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "台灣與中國一線晶圓代工廠 (8 吋/12 吋)",
+        "entities": []
+      },
+      {
+        "role": "封測",
+        "text": "大型 OSAT 封測廠 — 光學鍍膜封裝",
+        "entities": []
+      },
+      {
+        "role": "IP 授權",
+        "text": "半導體矽智財服務商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Sensortek",
+      "type": "international_company_or_term",
+      "wikilink": "Sensortek"
+    },
+    {
+      "name": "MEMS",
+      "type": "international_company_or_term",
+      "wikilink": "MEMS"
+    },
+    {
+      "name": "IMU",
+      "type": "international_company_or_term",
+      "wikilink": "IMU"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "Vivo",
+      "type": "international_company_or_term",
+      "wikilink": "Vivo"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昇佳電子 (6732，[[Sensortek]]) 為全球智慧型手機光學感測晶片的領導設計公司 (Fabless)，總部位於新竹。核心產品涵蓋光學感測器與 [[MEMS]] 微機電感測器。\n\n業務結構與動能：(1) 光學感測器 — 環境光感測 (ALS)、近接距離感測 (PS)、色溫偵測及環境光閃爍偵測等晶片，為智慧型手機螢幕亮度自動調節與窄邊框防誤觸的關鍵元件，在非蘋 (Android) 陣營市佔極高；(2) [[MEMS]] 感測器 — 加速度計、陀螺儀及六軸慣性測量單元 ([[IMU]])，應用於無人機飛控系統與消費電子；(3) 新應用領域 — 積極拓展掃地機器人、穿戴裝置 (TWS 耳機、智慧手錶) 及車用感測市場。主要客戶為 [[Samsung]]、[[小米]]、[[OPPO]]、[[Vivo]] 等全球前六大 Android 手機品牌，並已打入 [[Meta]] 供應鏈。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **晶圓代工:** 台灣與中國一線晶圓代工廠 — 8 吋/12 吋製程\n- **封測:** 大型 OSAT 封測廠 — 光學鍍膜封裝與測試\n- **IP:** 半導體矽智財服務商\n\n**中游 (IC 設計):**\n- **光學感測 IC:** **昇佳** (ALS/PS/RGB 環境光感測晶片)\n- **[[MEMS]] 感測 IC:** **昇佳** (加速度計、陀螺儀、[[IMU]])\n- **飛控模組:** **昇佳** (無人機飛控 AHRS 晶片模組)\n\n**下游 (手機品牌與消費電子):**\n- **手機品牌:** [[Samsung]]、[[小米]]、[[OPPO]]、[[Vivo]] — 光學感測晶片\n- **AR/VR:** [[Meta]] — 感測元件\n- **穿戴裝置:** TWS 耳機與智慧手錶品牌\n- **家電/無人機:** 掃地機器人與無人機製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **手機品牌:** [[Samsung]]、[[小米]]、[[OPPO]]、[[Vivo]] — 環境光/近接感測晶片\n- **AR/VR:** [[Meta]] — 感測元件\n- **穿戴裝置:** TWS 耳機與智慧手錶品牌 — 光學感測晶片\n- **無人機:** 無人機製造商 — [[IMU]] 飛控模組\n\n### 主要供應商\n- **晶圓代工:** 台灣與中國一線晶圓代工廠 (8 吋/12 吋)\n- **封測:** 大型 OSAT 封測廠 — 光學鍍膜封裝\n- **IP 授權:** 半導體矽智財服務商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $146.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     23.22 |        9.34 |      1.61 | 1.75 |     21.98 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4561.86 |      4940.68 |      4542.82 |\n| Gross Profit            |       817.96 |      1173.11 |      1314.37 |\n| Gross Margin (%)        |        17.93 |        23.74 |        28.93 |\n| Selling & Marketing Exp |       108.40 |       107.04 |       105.14 |\n| R&D Exp                 |       473.42 |       468.84 |       463.93 |\n| General & Admin Exp     |        75.36 |        89.90 |        87.37 |\n| Operating Income        |       160.82 |       507.38 |       657.95 |\n| Operating Margin (%)    |         3.53 |        10.27 |        14.48 |\n| Net Income              |       304.29 |       540.48 |       675.52 |\n| Net Margin (%)          |         6.67 |        10.94 |        14.87 |\n| Op Cash Flow            |       437.04 |       536.94 |       942.40 |\n| Investing Cash Flow     |       208.85 |      -475.02 |      -361.69 |\n| Financing Cash Flow     |      -448.40 |      -668.51 |      -750.43 |\n| CAPEX                   |       -91.73 |      -102.89 |       -69.44 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1044.41 |      1130.31 |      1210.73 |      1163.06 |\n| Gross Profit            |       230.01 |       219.26 |       210.46 |       241.03 |\n| Gross Margin (%)        |        22.02 |        19.40 |        17.38 |        20.72 |\n| Selling & Marketing Exp |        28.83 |        28.23 |        26.44 |        27.14 |\n| R&D Exp                 |       120.40 |       122.72 |       123.78 |       113.98 |\n| General & Admin Exp     |        19.49 |        17.00 |        19.14 |        21.82 |\n| Operating Income        |        61.30 |        51.33 |        41.12 |        78.11 |\n| Operating Margin (%)    |         5.87 |         4.54 |         3.40 |         6.72 |\n| Net Income              |       107.13 |        91.17 |        63.25 |       101.45 |\n| Net Margin (%)          |        10.26 |         8.07 |         5.22 |         8.72 |\n| Op Cash Flow            |        73.14 |        20.03 |       109.72 |        66.25 |\n| Investing Cash Flow     |      -152.23 |      -918.16 |       157.42 |       905.61 |\n| Financing Cash Flow     |       -38.47 |        16.07 |      -402.42 |        -0.75 |\n| CAPEX                   |       -36.16 |       -21.27 |       -29.99 |       -22.97 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

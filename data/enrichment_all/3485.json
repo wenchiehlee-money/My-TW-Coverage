@@ -1,0 +1,134 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3485",
+  "company_name": "敘豐",
+  "title": "3485 - 敘豐",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/3485_敘豐.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "7,409 百萬台幣",
+    "enterprise_value": "5,579 百萬台幣"
+  },
+  "business": {
+    "summary": "敘豐企業 (3485) 為IC載板/PCB濕製程設備廠，核心產品為化學銅/電鍍銅線。主要客戶涵蓋[[欣興]]、[[南亞電路板]]等[[ABF 載板]]大廠，受惠[[CoWoS]]先進封裝需求。另供應面板廠濕製程設備。",
+    "entities": [
+      "欣興",
+      "南亞電路板",
+      "ABF 載板",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "化學藥液供給/鈦籃/整流器",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**敘豐** (IC載板/PCB濕製程化學銅/電鍍線)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "載板",
+        "text": "[[欣興]]、[[南亞電路板]] — [[ABF 載板]]",
+        "entities": [
+          "欣興",
+          "南亞電路板",
+          "ABF 載板"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "台灣主要PCB廠",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "面板廠濕製程",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[欣興]]、[[南亞電路板]] — [[ABF 載板]]濕製程",
+        "entities": [
+          "欣興",
+          "南亞電路板",
+          "ABF 載板"
+        ]
+      },
+      {
+        "role": "",
+        "text": "PCB/面板廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "化學藥液/整流器",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "欣興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "欣興"
+    },
+    {
+      "name": "南亞電路板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞電路板"
+    },
+    {
+      "name": "ABF 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ABF 載板"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "敘豐企業 (3485) 為IC載板/PCB濕製程設備廠，核心產品為化學銅/電鍍銅線。主要客戶涵蓋[[欣興]]、[[南亞電路板]]等[[ABF 載板]]大廠，受惠[[CoWoS]]先進封裝需求。另供應面板廠濕製程設備。",
+    "supply_chain_md": "**上游:** 化學藥液供給/鈦籃/整流器\n**中游:** **敘豐** (IC載板/PCB濕製程化學銅/電鍍線)\n**下游:**\n- **載板:** [[欣興]]、[[南亞電路板]] — [[ABF 載板]]\n- **PCB:** 台灣主要PCB廠\n- **面板:** 面板廠濕製程",
+    "customers_suppliers_md": "### 主要客戶\n- [[欣興]]、[[南亞電路板]] — [[ABF 載板]]濕製程\n- PCB/面板廠\n\n### 主要供應商\n- 化學藥液/整流器",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $175.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     33.98 |       25.85 |     12.53 | 4.33 |     21.38 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       549.07 |       610.47 |       608.57 |\n| Gross Profit            |       306.28 |       291.53 |       317.61 |\n| Gross Margin (%)        |        55.78 |        47.76 |        52.19 |\n| Selling & Marketing Exp |         8.68 |         9.47 |         8.84 |\n| R&D Exp                 |        23.20 |        23.37 |        23.14 |\n| General & Admin Exp     |        49.69 |        49.21 |        46.95 |\n| Operating Income        |       224.72 |       209.49 |       238.68 |\n| Operating Margin (%)    |        40.93 |        34.32 |        39.22 |\n| Net Income              |       201.80 |       244.23 |       224.10 |\n| Net Margin (%)          |        36.75 |        40.01 |        36.82 |\n| Op Cash Flow            |        88.12 |       304.83 |       103.86 |\n| Investing Cash Flow     |       -14.14 |        -4.11 |        73.54 |\n| Financing Cash Flow     |      -189.32 |      -145.43 |      -136.65 |\n| CAPEX                   |       -14.56 |        -4.11 |        -3.96 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       138.16 |       125.35 |       155.91 |\n| Gross Profit            |        69.71 |        65.78 |        79.85 |\n| Gross Margin (%)        |        50.45 |        52.48 |        51.21 |\n| Selling & Marketing Exp |         2.23 |         2.22 |         3.10 |\n| R&D Exp                 |         6.13 |         6.08 |         6.90 |\n| General & Admin Exp     |        15.63 |        12.04 |        15.52 |\n| Operating Income        |        45.71 |        45.44 |        54.33 |\n| Operating Margin (%)    |        33.09 |        36.25 |        34.85 |\n| Net Income              |        59.36 |        64.72 |        97.70 |\n| Net Margin (%)          |        42.96 |        51.63 |        62.66 |\n| Op Cash Flow            |        20.74 |        13.89 |       178.09 |\n| Investing Cash Flow     |       -13.18 |         0.00 |       -15.54 |\n| Financing Cash Flow     |        -0.27 |      -188.18 |       -36.06 |\n| CAPEX                   |       -13.60 |         0.00 |       -15.54 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

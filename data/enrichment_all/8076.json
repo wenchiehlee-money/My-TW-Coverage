@@ -1,0 +1,224 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8076",
+  "company_name": "伍豐",
+  "title": "8076 - 伍豐",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/8076_伍豐.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "6,516 百萬台幣",
+    "enterprise_value": "7,149 百萬台幣"
+  },
+  "business": {
+    "summary": "伍豐科技股份有限公司 (8076，[[FEC Technologies]]) 成立於 1995 年，總部位於新北市，深耕 POS (銷售點終端) 系統及商用電腦產業逾二十年，以自有品牌「FEC」行銷全球。公司產品涵蓋觸控式 POS 終端機、公益彩券及運動彩券投注機、無風扇觸控銷售終端、自助服務終端機 (Kiosk)，以及 POS 系統週邊產品。\n\n產品廣泛適用於餐飲、零售、超市等多元場域。伍豐致力從傳統硬體製造商轉型為解決方案供應商，積極整合 [[NFC]] 行動支付及廣告看板等 [[物聯網]] 應用。產品採用 [[Intel]] 及 [[Arm]] 架構處理器，銷售遍及台灣、中國、亞洲、歐洲及美國。",
+    "entities": [
+      "FEC Technologies",
+      "NFC",
+      "物聯網",
+      "Intel",
+      "Arm"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心零組件)",
+        "text": "**上游 (核心零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[Arm]] 架構 — POS 系統級 CPU/SoC",
+        "entities": [
+          "Intel",
+          "Arm"
+        ]
+      },
+      {
+        "category": "觸控面板",
+        "text": "觸控面板模組供應商",
+        "entities": []
+      },
+      {
+        "category": "記憶體/儲存",
+        "text": "[[DRAM]] 及 SSD 模組",
+        "entities": [
+          "DRAM"
+        ]
+      },
+      {
+        "category": "機殼/電源",
+        "text": "商用級金屬機殼及電源供應器",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (POS 系統設計製造)",
+        "text": "**中游 (POS 系統設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "POS 終端",
+        "text": "**伍豐** (FEC 品牌觸控 POS 系統設計製造)",
+        "entities": []
+      },
+      {
+        "category": "彩券投注機",
+        "text": "**伍豐** (公益/運動彩券專用投注機)",
+        "entities": []
+      },
+      {
+        "category": "Kiosk",
+        "text": "**伍豐** (自助服務終端機及 [[物聯網]] 整合)",
+        "entities": [
+          "物聯網"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (零售餐飲及彩券營運)",
+        "text": "**下游 (零售餐飲及彩券營運):**",
+        "entities": []
+      },
+      {
+        "category": "零售業",
+        "text": "全球連鎖零售及超市 — POS 終端",
+        "entities": []
+      },
+      {
+        "category": "餐飲業",
+        "text": "連鎖餐飲 — 觸控點餐系統",
+        "entities": []
+      },
+      {
+        "category": "彩券營運",
+        "text": "[[台灣彩券]] — 彩券投注終端機",
+        "entities": [
+          "台灣彩券"
+        ]
+      },
+      {
+        "category": "系統整合商",
+        "text": "全球 POS 系統整合商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "零售業",
+        "text": "全球連鎖零售及超市 — FEC 品牌 POS 終端",
+        "entities": []
+      },
+      {
+        "role": "餐飲業",
+        "text": "連鎖餐飲 — 觸控點餐系統",
+        "entities": []
+      },
+      {
+        "role": "彩券營運",
+        "text": "[[台灣彩券]] — 公益/運動彩券投注終端機",
+        "entities": [
+          "台灣彩券"
+        ]
+      },
+      {
+        "role": "系統整合商",
+        "text": "全球 POS 系統整合商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]] — POS 系統級 CPU",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "觸控面板",
+        "text": "觸控面板模組供應商",
+        "entities": []
+      },
+      {
+        "role": "記憶體",
+        "text": "[[DRAM]] 及 SSD 模組供應商",
+        "entities": [
+          "DRAM"
+        ]
+      },
+      {
+        "role": "支付整合",
+        "text": "[[NFC]] 行動支付模組供應商",
+        "entities": [
+          "NFC"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "FEC Technologies",
+      "type": "international_company_or_term",
+      "wikilink": "FEC Technologies"
+    },
+    {
+      "name": "NFC",
+      "type": "international_company_or_term",
+      "wikilink": "NFC"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "台灣彩券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣彩券"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "伍豐科技股份有限公司 (8076，[[FEC Technologies]]) 成立於 1995 年，總部位於新北市，深耕 POS (銷售點終端) 系統及商用電腦產業逾二十年，以自有品牌「FEC」行銷全球。公司產品涵蓋觸控式 POS 終端機、公益彩券及運動彩券投注機、無風扇觸控銷售終端、自助服務終端機 (Kiosk)，以及 POS 系統週邊產品。\n\n產品廣泛適用於餐飲、零售、超市等多元場域。伍豐致力從傳統硬體製造商轉型為解決方案供應商，積極整合 [[NFC]] 行動支付及廣告看板等 [[物聯網]] 應用。產品採用 [[Intel]] 及 [[Arm]] 架構處理器，銷售遍及台灣、中國、亞洲、歐洲及美國。",
+    "supply_chain_md": "**上游 (核心零組件):**\n- **處理器:** [[Intel]]、[[Arm]] 架構 — POS 系統級 CPU/SoC\n- **觸控面板:** 觸控面板模組供應商\n- **記憶體/儲存:** [[DRAM]] 及 SSD 模組\n- **機殼/電源:** 商用級金屬機殼及電源供應器\n\n**中游 (POS 系統設計製造):**\n- **POS 終端:** **伍豐** (FEC 品牌觸控 POS 系統設計製造)\n- **彩券投注機:** **伍豐** (公益/運動彩券專用投注機)\n- **Kiosk:** **伍豐** (自助服務終端機及 [[物聯網]] 整合)\n\n**下游 (零售餐飲及彩券營運):**\n- **零售業:** 全球連鎖零售及超市 — POS 終端\n- **餐飲業:** 連鎖餐飲 — 觸控點餐系統\n- **彩券營運:** [[台灣彩券]] — 彩券投注終端機\n- **系統整合商:** 全球 POS 系統整合商",
+    "customers_suppliers_md": "### 主要客戶\n- **零售業:** 全球連鎖零售及超市 — FEC 品牌 POS 終端\n- **餐飲業:** 連鎖餐飲 — 觸控點餐系統\n- **彩券營運:** [[台灣彩券]] — 公益/運動彩券投注終端機\n- **系統整合商:** 全球 POS 系統整合商\n\n### 主要供應商\n- **處理器:** [[Intel]] — POS 系統級 CPU\n- **觸控面板:** 觸控面板模組供應商\n- **記憶體:** [[DRAM]] 及 SSD 模組供應商\n- **支付整合:** [[NFC]] 行動支付模組供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $22.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     84.62 |         N/A |      2.92 | 1.72 |     40.99 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1972.66 |      2230.10 |      2547.89 |\n| Gross Profit            |       664.33 |       696.99 |       752.24 |\n| Gross Margin (%)        |        33.68 |        31.25 |        29.52 |\n| Selling & Marketing Exp |       178.70 |       187.19 |       188.80 |\n| R&D Exp                 |        72.42 |        73.65 |        67.57 |\n| General & Admin Exp     |       335.54 |       341.36 |       308.83 |\n| Operating Income        |        77.67 |        94.78 |       187.04 |\n| Operating Margin (%)    |         3.94 |         4.25 |         7.34 |\n| Net Income              |        42.03 |       434.04 |        42.71 |\n| Net Margin (%)          |         2.13 |        19.46 |         1.68 |\n| Op Cash Flow            |       184.43 |       220.56 |       279.17 |\n| Investing Cash Flow     |       287.75 |       -30.19 |       284.22 |\n| Financing Cash Flow     |      -444.11 |      -267.62 |      -450.93 |\n| CAPEX                   |       -18.08 |       -65.86 |       -18.45 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       652.70 |       597.59 |       425.46 |       522.34 |\n| Gross Profit            |       228.55 |       194.39 |       132.79 |       184.09 |\n| Gross Margin (%)        |        35.02 |        32.53 |        31.21 |        35.24 |\n| Selling & Marketing Exp |        42.01 |        48.40 |        43.30 |        42.47 |\n| R&D Exp                 |        18.05 |        20.87 |        17.54 |        17.56 |\n| General & Admin Exp     |        80.35 |        95.14 |        74.18 |        89.24 |\n| Operating Income        |        88.14 |        29.98 |        -2.23 |        34.82 |\n| Operating Margin (%)    |        13.50 |         5.02 |        -0.53 |         6.67 |\n| Net Income              |        47.42 |        37.96 |       -94.07 |        86.85 |\n| Net Margin (%)          |         7.27 |         6.35 |       -22.11 |        16.63 |\n| Op Cash Flow            |      -207.44 |        95.33 |        61.60 |       -64.46 |\n| Investing Cash Flow     |        72.57 |       110.68 |       130.21 |       -30.81 |\n| Financing Cash Flow     |        43.87 |       -55.09 |      -226.80 |       144.03 |\n| CAPEX                   |        -5.04 |        -1.73 |        -4.24 |        -4.13 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

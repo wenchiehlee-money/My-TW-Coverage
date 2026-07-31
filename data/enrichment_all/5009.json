@@ -1,0 +1,161 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5009",
+  "company_name": "榮剛",
+  "title": "5009 - 榮剛",
+  "source_md": "Pilot_Reports/鋼鐵 - 鋼胚/5009_榮剛.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "17,535 百萬台幣",
+    "enterprise_value": "30,139 百萬台幣"
+  },
+  "business": {
+    "summary": "榮剛材料 (Gloria Material) 隸屬於 **台灣鋼鐵集團 (TSG)**，為台灣唯一具備全製程之 **特殊合金鋼 (Specialty Steel)** 廠。\n專注於高階應用材料，擁有 **VAR (真空電弧重熔)** 與 **ESR (電渣重熔)** 等高階煉鋼設備。\n三大高毛利產品線：\n1.  **航太 (Aerospace)**: 起落架、發動機材料，獲 [[Boeing]], [[Airbus]], [[Safran]] 認證。\n2.  **能源 (Energy)**: 發電機葉片、油氣鑽探材料。\n3.  **軍工 (Defense)**: 飛彈彈體、槍砲管材料。\n亦切入 **AI 伺服器** 液冷模組 (CDU/CDM) 之關鍵不鏽鋼材與工具鋼市場。",
+    "entities": [
+      "Boeing",
+      "Airbus",
+      "Safran"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游 (本體)**: **榮剛 (5009)** - 特殊鋼冶煉與加工 (棒材/板材/鍛件).",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**上游**: 廢鋼, 鐵合金 (鎳/鉻/鉬).",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**航太**: [[漢翔]], [[Boeing]], [[Airbus]], [[Safran]].",
+        "entities": [
+          "漢翔",
+          "Boeing",
+          "Airbus",
+          "Safran"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**能源**: 奇異 ([[GE]]), [[Siemens]].",
+        "entities": [
+          "GE",
+          "Siemens"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**機械/模具**: 工具機廠, 模具廠.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**航太**: [[Boeing]], [[Airbus]], [[Safran]], [[GE Aviation]].",
+        "entities": [
+          "Boeing",
+          "Airbus",
+          "Safran",
+          "GE Aviation"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**國內**: [[漢翔]] (軍工/航太合作).",
+        "entities": [
+          "漢翔"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**原料**: 國際合金原料貿易商, 台鋼集團內部廢鋼整合 ([[台鋼環保]]).",
+        "entities": [
+          "台鋼環保"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Boeing",
+      "type": "international_company_or_term",
+      "wikilink": "Boeing"
+    },
+    {
+      "name": "Airbus",
+      "type": "international_company_or_term",
+      "wikilink": "Airbus"
+    },
+    {
+      "name": "Safran",
+      "type": "international_company_or_term",
+      "wikilink": "Safran"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    },
+    {
+      "name": "GE",
+      "type": "international_company_or_term",
+      "wikilink": "GE"
+    },
+    {
+      "name": "Siemens",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens"
+    },
+    {
+      "name": "GE Aviation",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aviation"
+    },
+    {
+      "name": "台鋼環保",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鋼環保"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "榮剛材料 (Gloria Material) 隸屬於 **台灣鋼鐵集團 (TSG)**，為台灣唯一具備全製程之 **特殊合金鋼 (Specialty Steel)** 廠。\n專注於高階應用材料，擁有 **VAR (真空電弧重熔)** 與 **ESR (電渣重熔)** 等高階煉鋼設備。\n三大高毛利產品線：\n1.  **航太 (Aerospace)**: 起落架、發動機材料，獲 [[Boeing]], [[Airbus]], [[Safran]] 認證。\n2.  **能源 (Energy)**: 發電機葉片、油氣鑽探材料。\n3.  **軍工 (Defense)**: 飛彈彈體、槍砲管材料。\n亦切入 **AI 伺服器** 液冷模組 (CDU/CDM) 之關鍵不鏽鋼材與工具鋼市場。",
+    "supply_chain_md": "*   **上游 (本體)**: **榮剛 (5009)** - 特殊鋼冶煉與加工 (棒材/板材/鍛件).\n*   **上游**: 廢鋼, 鐵合金 (鎳/鉻/鉬).\n*   **下游**:\n    *   **航太**: [[漢翔]], [[Boeing]], [[Airbus]], [[Safran]].\n    *   **能源**: 奇異 ([[GE]]), [[Siemens]].\n    *   **機械/模具**: 工具機廠, 模具廠.",
+    "customers_suppliers_md": "### 主要客戶\n*   **航太**: [[Boeing]], [[Airbus]], [[Safran]], [[GE Aviation]].\n*   **國內**: [[漢翔]] (軍工/航太合作).\n\n### 主要供應商\n*   **原料**: 國際合金原料貿易商, 台鋼集團內部廢鋼整合 ([[台鋼環保]]).",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $31.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.41 |       10.43 |      1.51 | 1.03 |     21.39 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     11560.47 |     12864.44 |     13525.25 |\n| Gross Profit            |      2515.70 |      3370.43 |      3644.65 |\n| Gross Margin (%)        |        21.76 |        26.20 |        26.95 |\n| Selling & Marketing Exp |       990.91 |       774.21 |       709.76 |\n| R&D Exp                 |        48.72 |        70.56 |        26.30 |\n| General & Admin Exp     |       515.92 |       566.74 |       529.44 |\n| Operating Income        |       960.14 |      1958.92 |      2379.15 |\n| Operating Margin (%)    |         8.31 |        15.23 |        17.59 |\n| Net Income              |      1296.18 |      2592.39 |      2339.56 |\n| Net Margin (%)          |        11.21 |        20.15 |        17.30 |\n| Op Cash Flow            |      1025.29 |       876.13 |      2018.82 |\n| Investing Cash Flow     |     -2829.43 |      -656.72 |      -661.97 |\n| Financing Cash Flow     |     -2819.60 |      -274.14 |      2658.71 |\n| CAPEX                   |     -2643.96 |     -2348.50 |     -1403.13 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2877.28 |      2806.32 |      2658.49 |      3059.46 |\n| Gross Profit            |       701.44 |       650.77 |       507.38 |       627.06 |\n| Gross Margin (%)        |        24.38 |        23.19 |        19.09 |        20.50 |\n| Selling & Marketing Exp |       261.07 |       299.61 |       304.80 |       200.91 |\n| R&D Exp                 |         8.28 |        11.23 |         8.95 |        11.74 |\n| General & Admin Exp     |       112.79 |       127.67 |       123.88 |       123.30 |\n| Operating Income        |       319.30 |       212.26 |        69.75 |       291.12 |\n| Operating Margin (%)    |        11.10 |         7.56 |         2.62 |         9.52 |\n| Net Income              |       280.96 |       526.56 |       177.63 |       219.47 |\n| Net Margin (%)          |         9.76 |        18.76 |         6.68 |         7.17 |\n| Op Cash Flow            |       774.80 |       405.68 |       -26.40 |       746.16 |\n| Investing Cash Flow     |      -400.34 |      -715.99 |      -587.18 |      -923.42 |\n| Financing Cash Flow     |      -706.05 |      -628.58 |     -2078.69 |        16.12 |\n| CAPEX                   |      -418.89 |      -787.57 |      -654.24 |      -601.08 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8234",
+  "company_name": "新漢",
+  "title": "8234 - 新漢",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/8234_新漢.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "8,346 百萬台幣",
+    "enterprise_value": "9,419 百萬台幣"
+  },
+  "business": {
+    "summary": "新漢股份有限公司 (8234，[[NEXCOM International]]) 成立於 1992 年，總部位於新北市，是全球邊緣 AI 運算及機器人控制解決方案的領導廠商。集團旗下六大事業部涵蓋 [[物聯網]] 自動化、智慧影像監控、智慧城市平台、車載運算、醫療資訊及網路通訊解決方案。\n\n公司提供全方位 [[AIoT]] 解決方案，涵蓋工廠自動化、機器人控制、網路安全及數位醫療。產品採用 [[NVIDIA]] [[Jetson]] 模組，提供 20 至 275 TOPS 之 AI 效能。在台灣、瑞典、韓國、荷蘭、以色列、挪威、中國、英國、日本、德國、愛爾蘭及美國均設有子公司。新漢積極以開放標準確保產品相容性，透過全球通路夥伴網絡服務客戶。",
+    "entities": [
+      "NEXCOM International",
+      "物聯網",
+      "AIoT",
+      "NVIDIA",
+      "Jetson"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心處理器與模組)",
+        "text": "**上游 (核心處理器與模組):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 工業級 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "AI 模組",
+        "text": "[[NVIDIA]] — [[Jetson]] 系列 AI 加速模組",
+        "entities": [
+          "NVIDIA",
+          "Jetson"
+        ]
+      },
+      {
+        "category": "網通晶片",
+        "text": "網路安全及通訊相關晶片",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (AIoT 解決方案設計製造)",
+        "text": "**中游 (AIoT 解決方案設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "工業 IPC",
+        "text": "**新漢** (工業無風扇電腦/機架式電腦/船用電腦)",
+        "entities": []
+      },
+      {
+        "category": "車載運算",
+        "text": "**新漢** (邊緣 AI 車載資通訊及 IP 防護電腦)",
+        "entities": []
+      },
+      {
+        "category": "網路安全",
+        "text": "**新漢** (OT 安全及邊緣雲端解決方案)",
+        "entities": []
+      },
+      {
+        "category": "醫療資訊",
+        "text": "**新漢** (醫療嵌入式板卡及視訊會議系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球垂直應用市場)",
+        "text": "**下游 (全球垂直應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "智慧工廠",
+        "text": "全球工廠自動化及機器人控制客戶",
+        "entities": []
+      },
+      {
+        "category": "智慧交通",
+        "text": "車載資通訊及智慧城市交通系統",
+        "entities": []
+      },
+      {
+        "category": "網路安全",
+        "text": "全球企業及電信營運商 — OT 安全設備",
+        "entities": []
+      },
+      {
+        "category": "數位醫療",
+        "text": "醫療院所及健康照護機構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "智慧工廠",
+        "text": "全球工廠自動化及機器人控制系統整合商",
+        "entities": []
+      },
+      {
+        "role": "智慧交通",
+        "text": "車載資通訊及智慧城市交通系統客戶",
+        "entities": []
+      },
+      {
+        "role": "網路安全",
+        "text": "全球企業及電信營運商 — OT 安全設備",
+        "entities": []
+      },
+      {
+        "role": "數位醫療",
+        "text": "醫療院所及健康照護機構",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 工業級 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "AI 模組",
+        "text": "[[NVIDIA]] — [[Jetson]] 系列 AI 加速模組",
+        "entities": [
+          "NVIDIA",
+          "Jetson"
+        ]
+      },
+      {
+        "role": "網通晶片",
+        "text": "網路安全及通訊晶片原廠",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[研華]]",
+        "entities": [
+          "研華"
+        ],
+        "basis": "reciprocal_competitor_from:2395",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[威強電]]",
+        "entities": [
+          "威強電"
+        ],
+        "basis": "reciprocal_competitor_from:3022",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NEXCOM International",
+      "type": "international_company_or_term",
+      "wikilink": "NEXCOM International"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Jetson",
+      "type": "international_company_or_term",
+      "wikilink": "Jetson"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "威強電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威強電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新漢股份有限公司 (8234，[[NEXCOM International]]) 成立於 1992 年，總部位於新北市，是全球邊緣 AI 運算及機器人控制解決方案的領導廠商。集團旗下六大事業部涵蓋 [[物聯網]] 自動化、智慧影像監控、智慧城市平台、車載運算、醫療資訊及網路通訊解決方案。\n\n公司提供全方位 [[AIoT]] 解決方案，涵蓋工廠自動化、機器人控制、網路安全及數位醫療。產品採用 [[NVIDIA]] [[Jetson]] 模組，提供 20 至 275 TOPS 之 AI 效能。在台灣、瑞典、韓國、荷蘭、以色列、挪威、中國、英國、日本、德國、愛爾蘭及美國均設有子公司。新漢積極以開放標準確保產品相容性，透過全球通路夥伴網絡服務客戶。",
+    "supply_chain_md": "**上游 (核心處理器與模組):**\n- **處理器:** [[Intel]]、[[AMD]] — 工業級 CPU\n- **AI 模組:** [[NVIDIA]] — [[Jetson]] 系列 AI 加速模組\n- **網通晶片:** 網路安全及通訊相關晶片\n\n**中游 (AIoT 解決方案設計製造):**\n- **工業 IPC:** **新漢** (工業無風扇電腦/機架式電腦/船用電腦)\n- **車載運算:** **新漢** (邊緣 AI 車載資通訊及 IP 防護電腦)\n- **網路安全:** **新漢** (OT 安全及邊緣雲端解決方案)\n- **醫療資訊:** **新漢** (醫療嵌入式板卡及視訊會議系統)\n\n**下游 (全球垂直應用市場):**\n- **智慧工廠:** 全球工廠自動化及機器人控制客戶\n- **智慧交通:** 車載資通訊及智慧城市交通系統\n- **網路安全:** 全球企業及電信營運商 — OT 安全設備\n- **數位醫療:** 醫療院所及健康照護機構",
+    "customers_suppliers_md": "### 主要客戶\n- **智慧工廠:** 全球工廠自動化及機器人控制系統整合商\n- **智慧交通:** 車載資通訊及智慧城市交通系統客戶\n- **網路安全:** 全球企業及電信營運商 — OT 安全設備\n- **數位醫療:** 醫療院所及健康照護機構\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — 工業級 CPU\n- **AI 模組:** [[NVIDIA]] — [[Jetson]] 系列 AI 加速模組\n- **網通晶片:** 網路安全及通訊晶片原廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $55.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    143.08 |         N/A |      1.52 | 2.59 |   -193.35 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5702.15 |      5421.06 |      5765.51 |\n| Gross Profit            |      1453.30 |      1295.45 |      1610.68 |\n| Gross Margin (%)        |        25.49 |        23.90 |        27.94 |\n| Selling & Marketing Exp |       677.12 |       666.38 |       682.31 |\n| R&D Exp                 |       572.71 |       586.37 |       585.04 |\n| General & Admin Exp     |       171.27 |       156.55 |       134.58 |\n| Operating Income        |        32.20 |      -113.85 |       208.76 |\n| Operating Margin (%)    |         0.56 |        -2.10 |         3.62 |\n| Net Income              |        54.59 |        84.89 |       178.79 |\n| Net Margin (%)          |         0.96 |         1.57 |         3.10 |\n| Op Cash Flow            |       159.66 |       101.59 |      1301.97 |\n| Investing Cash Flow     |      -207.65 |       119.57 |       269.31 |\n| Financing Cash Flow     |      -572.44 |      -462.40 |     -1339.25 |\n| CAPEX                   |      -156.43 |      -128.47 |       -80.67 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1322.56 |      1246.09 |      1483.74 |      1649.76 |\n| Gross Profit            |       345.18 |       277.66 |       387.65 |       442.82 |\n| Gross Margin (%)        |        26.10 |        22.28 |        26.13 |        26.84 |\n| Selling & Marketing Exp |       177.29 |       159.75 |       169.45 |       170.64 |\n| R&D Exp                 |       149.76 |       141.89 |       141.64 |       139.43 |\n| General & Admin Exp     |        42.69 |        44.16 |        42.19 |        42.22 |\n| Operating Income        |       -24.56 |       -68.14 |        34.37 |        90.53 |\n| Operating Margin (%)    |        -1.86 |        -5.47 |         2.32 |         5.49 |\n| Net Income              |         8.71 |       -11.70 |       -22.48 |        80.06 |\n| Net Margin (%)          |         0.66 |        -0.94 |        -1.52 |         4.85 |\n| Op Cash Flow            |      -162.13 |        52.97 |        50.32 |       218.50 |\n| Investing Cash Flow     |      -142.14 |       -24.52 |       -15.46 |       -25.54 |\n| Financing Cash Flow     |       184.14 |      -193.06 |      -125.01 |      -438.52 |\n| CAPEX                   |      -114.34 |       -10.93 |       -16.23 |       -14.94 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

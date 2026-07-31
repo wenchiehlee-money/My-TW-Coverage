@@ -1,0 +1,223 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3158",
+  "company_name": "嘉實",
+  "title": "3158 - 嘉實",
+  "source_md": "Pilot_Reports/金融科技 - 理財投資/3158_嘉實.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "market_cap": "2,483 百萬台幣",
+    "enterprise_value": "1,724 百萬台幣"
+  },
+  "business": {
+    "summary": "嘉實資訊 (3158，SysJust) 成立於 1988 年，為台灣最具規模的金融資訊服務商。旗艦產品「XQ 全球贏家」為市場領導者，整合台灣、中國、香港、美國、日本、韓國六大金融市場之即時報價、財報分析與量化交易功能，為台灣首個本土開發之量化交易平台。核心業務涵蓋三大區塊：(1) B2B 券商系統 — 為全台超過 90% 大型券商 (含成交金額前 31 大) 開發行動下單軟體、API 開放接口與中後端管理系統，客戶涵蓋[[元大證券]]、[[凱基證券]]等；(2) B2C 訂閱服務 — XQ 個人版按月訂閱，含進階籌碼分析、美股即時數據與自動化交易模組；(3) AI 賦能 — 積極研發 AI 投資助手，利用大語言模型 (LLM) 協助語義化選股與策略回測。",
+    "entities": [
+      "元大證券",
+      "凱基證券"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原始數據與雲端基建)",
+        "text": "**上游 (原始數據與雲端基建):**",
+        "entities": []
+      },
+      {
+        "category": "交易所數據",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]]、[[NYSE]] — 第一手市場報價",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣期貨交易所",
+          "NASDAQ",
+          "NYSE"
+        ]
+      },
+      {
+        "category": "國際資料",
+        "text": "[[Reuters]]、[[Bloomberg]] — 全球財經數據",
+        "entities": [
+          "Reuters",
+          "Bloomberg"
+        ]
+      },
+      {
+        "category": "雲端基建",
+        "text": "[[AWS]]、[[GCP]] — 低延遲報價串流與 AI 運算",
+        "entities": [
+          "AWS",
+          "GCP"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (金融資訊整合)",
+        "text": "**中游 (金融資訊整合):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**嘉實資訊 (3158)** — B2B 券商下單系統開發、B2C「XQ 全球贏家」看盤選股平台、LLM 語意選股應用",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (金融中介與終端用戶)",
+        "text": "**下游 (金融中介與終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "券商客戶",
+        "text": "[[元大證券]]、[[凱基證券]]等全台主要券商 — 客製化下單系統",
+        "entities": [
+          "元大證券",
+          "凱基證券"
+        ]
+      },
+      {
+        "category": "零售訂閱戶",
+        "text": "專業散戶、量化交易開發者 — XQ 個人版訂閱",
+        "entities": []
+      },
+      {
+        "category": "法人機構",
+        "text": "中小型投信操盤室及保險公司",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "B2B 券商系統",
+        "text": "[[元大證券]]、[[凱基證券]]等全台市場超過 90% (含前 31 大) 券商 — 客製化行動下單軟體與 API 系統",
+        "entities": [
+          "元大證券",
+          "凱基證券"
+        ]
+      },
+      {
+        "role": "B2C 訂閱",
+        "text": "專業高頻散戶、量化交易獨立開發者 — XQ 全球贏家個人版月費訂閱",
+        "entities": []
+      },
+      {
+        "role": "法人機構",
+        "text": "中小型投信操盤室及壽險公司 — 機構級決策支援系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "交易所數據",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]] — 原始市場報價",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣期貨交易所",
+          "NASDAQ"
+        ]
+      },
+      {
+        "role": "國際資料",
+        "text": "[[Reuters]]、[[Bloomberg]] — 全球財經數據庫",
+        "entities": [
+          "Reuters",
+          "Bloomberg"
+        ]
+      },
+      {
+        "role": "雲端基建",
+        "text": "[[AWS]]、[[GCP]] — 即時報價串流與 AI 高速運算",
+        "entities": [
+          "AWS",
+          "GCP"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "元大證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "元大證券"
+    },
+    {
+      "name": "凱基證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱基證券"
+    },
+    {
+      "name": "台灣證券交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣證券交易所"
+    },
+    {
+      "name": "證券櫃檯買賣中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "證券櫃檯買賣中心"
+    },
+    {
+      "name": "台灣期貨交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣期貨交易所"
+    },
+    {
+      "name": "NASDAQ",
+      "type": "international_company_or_term",
+      "wikilink": "NASDAQ"
+    },
+    {
+      "name": "NYSE",
+      "type": "international_company_or_term",
+      "wikilink": "NYSE"
+    },
+    {
+      "name": "Reuters",
+      "type": "international_company_or_term",
+      "wikilink": "Reuters"
+    },
+    {
+      "name": "Bloomberg",
+      "type": "international_company_or_term",
+      "wikilink": "Bloomberg"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "GCP",
+      "type": "international_company_or_term",
+      "wikilink": "GCP"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "嘉實資訊 (3158，SysJust) 成立於 1988 年，為台灣最具規模的金融資訊服務商。旗艦產品「XQ 全球贏家」為市場領導者，整合台灣、中國、香港、美國、日本、韓國六大金融市場之即時報價、財報分析與量化交易功能，為台灣首個本土開發之量化交易平台。核心業務涵蓋三大區塊：(1) B2B 券商系統 — 為全台超過 90% 大型券商 (含成交金額前 31 大) 開發行動下單軟體、API 開放接口與中後端管理系統，客戶涵蓋[[元大證券]]、[[凱基證券]]等；(2) B2C 訂閱服務 — XQ 個人版按月訂閱，含進階籌碼分析、美股即時數據與自動化交易模組；(3) AI 賦能 — 積極研發 AI 投資助手，利用大語言模型 (LLM) 協助語義化選股與策略回測。",
+    "supply_chain_md": "**上游 (原始數據與雲端基建):**\n- **交易所數據:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]]、[[NYSE]] — 第一手市場報價\n- **國際資料:** [[Reuters]]、[[Bloomberg]] — 全球財經數據\n- **雲端基建:** [[AWS]]、[[GCP]] — 低延遲報價串流與 AI 運算\n\n**中游 (金融資訊整合):**\n- **嘉實資訊 (3158)** — B2B 券商下單系統開發、B2C「XQ 全球贏家」看盤選股平台、LLM 語意選股應用\n\n**下游 (金融中介與終端用戶):**\n- **券商客戶:** [[元大證券]]、[[凱基證券]]等全台主要券商 — 客製化下單系統\n- **零售訂閱戶:** 專業散戶、量化交易開發者 — XQ 個人版訂閱\n- **法人機構:** 中小型投信操盤室及保險公司",
+    "customers_suppliers_md": "### 主要客戶\n- **B2B 券商系統:** [[元大證券]]、[[凱基證券]]等全台市場超過 90% (含前 31 大) 券商 — 客製化行動下單軟體與 API 系統\n- **B2C 訂閱:** 專業高頻散戶、量化交易獨立開發者 — XQ 全球贏家個人版月費訂閱\n- **法人機構:** 中小型投信操盤室及壽險公司 — 機構級決策支援系統\n\n### 主要供應商\n- **交易所數據:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[NASDAQ]] — 原始市場報價\n- **國際資料:** [[Reuters]]、[[Bloomberg]] — 全球財經數據庫\n- **雲端基建:** [[AWS]]、[[GCP]] — 即時報價串流與 AI 高速運算",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $81.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.81 |         N/A |      2.37 | 2.29 |      6.70 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1012.37 |       945.51 |       823.37 |\n| Gross Profit            |       651.93 |       605.10 |       551.44 |\n| Gross Margin (%)        |        64.40 |        64.00 |        66.97 |\n| Selling & Marketing Exp |        84.70 |        74.91 |        63.19 |\n| R&D Exp                 |       257.69 |       248.72 |       245.65 |\n| General & Admin Exp     |        85.50 |        93.97 |        67.54 |\n| Operating Income        |       224.05 |       187.50 |       175.06 |\n| Operating Margin (%)    |        22.13 |        19.83 |        21.26 |\n| Net Income              |       197.54 |       192.80 |       155.48 |\n| Net Margin (%)          |        19.51 |        20.39 |        18.88 |\n| Op Cash Flow            |       276.08 |       227.27 |       213.03 |\n| Investing Cash Flow     |      -287.03 |       -61.11 |       -68.70 |\n| Financing Cash Flow     |       168.84 |      -124.88 |      -139.01 |\n| CAPEX                   |       -70.44 |       -73.86 |       -52.16 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       261.63 |       290.60 |       244.68 |       245.34 |\n| Gross Profit            |       167.25 |       183.76 |       157.51 |       162.41 |\n| Gross Margin (%)        |        63.93 |        63.24 |        64.37 |        66.20 |\n| Selling & Marketing Exp |        21.13 |        27.11 |        20.48 |        19.12 |\n| R&D Exp                 |        69.28 |        62.98 |        64.38 |        66.83 |\n| General & Admin Exp     |        22.21 |        21.82 |        21.35 |        22.16 |\n| Operating Income        |        54.63 |        71.86 |        51.30 |        54.32 |\n| Operating Margin (%)    |        20.88 |        24.73 |        20.97 |        22.14 |\n| Net Income              |        45.80 |        71.87 |        42.50 |        44.30 |\n| Net Margin (%)          |        17.50 |        24.73 |        17.37 |        18.06 |\n| Op Cash Flow            |        58.76 |       112.51 |        68.81 |        59.07 |\n| Investing Cash Flow     |       -54.11 |      -114.83 |      -101.57 |       -94.15 |\n| Financing Cash Flow     |        -0.53 |       329.10 |        -0.17 |      -160.11 |\n| CAPEX                   |       -10.14 |       -17.00 |       -38.50 |       -11.73 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

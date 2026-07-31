@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9914",
+  "company_name": "美利達",
+  "title": "9914 - 美利達",
+  "source_md": "Pilot_Reports/休閒娛樂 - 休閒車業/9914_美利達.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Leisure",
+    "market_cap": "23,680 百萬台幣",
+    "enterprise_value": "26,743 百萬台幣"
+  },
+  "business": {
+    "summary": "美利達工業股份有限公司 (9914，Merida Industry) 成立於 1972 年，為全球第二大自行車品牌廠，僅次於同業[[巨大]] ([[Giant]])。公司以自有品牌「MERIDA」行銷全球，產品涵蓋公路車、登山車、城市車、碟煞公路車及[[電動輔助自行車]] (E-Bike)。2003 年美利達與[[巨大]]共同推動台灣自行車產業「A-Team」計畫，帶動產業升級。公司持有德國自行車品牌[[Centurion]]及[[Specialized]]股權，與[[Shimano]]維持長期零組件合作關係。生產基地位於台灣彰化及中國大陸。",
+    "entities": [
+      "巨大",
+      "Giant",
+      "電動輔助自行車",
+      "Centurion",
+      "Specialized",
+      "Shimano"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與材料)",
+        "text": "**上游 (零組件與材料):**",
+        "entities": []
+      },
+      {
+        "category": "車架材料",
+        "text": "鋁合金、[[碳纖維]]車架",
+        "entities": [
+          "碳纖維"
+        ]
+      },
+      {
+        "category": "傳動系統",
+        "text": "[[Shimano]] — 變速器與傳動零組件",
+        "entities": [
+          "Shimano"
+        ]
+      },
+      {
+        "category": "E-Bike 動力",
+        "text": "[[Shimano]] STEPS 電動輔助系統",
+        "entities": [
+          "Shimano"
+        ]
+      },
+      {
+        "category": "輪組與輪胎",
+        "text": "國際輪組與輪胎品牌",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌設計與製造)",
+        "text": "**中游 (品牌設計與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**美利達** — 自有品牌「MERIDA」自行車設計、製造與全球行銷",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球通路)",
+        "text": "**下游 (全球通路):**",
+        "entities": []
+      },
+      {
+        "category": "歐洲市場",
+        "text": "歐洲自行車專賣店與經銷網絡 (最大市場)",
+        "entities": []
+      },
+      {
+        "category": "亞洲市場",
+        "text": "日本、台灣自行車通路",
+        "entities": []
+      },
+      {
+        "category": "投資品牌",
+        "text": "[[Specialized]]、[[Centurion]] — 持股品牌",
+        "entities": [
+          "Specialized",
+          "Centurion"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐洲通路",
+        "text": "歐洲自行車專賣店與經銷網絡 — MERIDA 品牌最大市場",
+        "entities": []
+      },
+      {
+        "role": "亞洲通路",
+        "text": "日本、台灣自行車經銷商",
+        "entities": []
+      },
+      {
+        "role": "投資品牌",
+        "text": "持股[[Specialized]] — 全球高階自行車品牌",
+        "entities": [
+          "Specialized"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "傳動系統",
+        "text": "[[Shimano]] — 變速器與 STEPS 電動輔助系統",
+        "entities": [
+          "Shimano"
+        ]
+      },
+      {
+        "role": "碳纖維車架",
+        "text": "[[碳纖維]]車架供應商",
+        "entities": [
+          "碳纖維"
+        ]
+      },
+      {
+        "role": "A-Team 夥伴",
+        "text": "[[巨大]] ([[Giant]]) — 台灣自行車產業 A-Team 計畫共同推動者",
+        "entities": [
+          "巨大",
+          "Giant"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "巨大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大"
+    },
+    {
+      "name": "Giant",
+      "type": "international_company_or_term",
+      "wikilink": "Giant"
+    },
+    {
+      "name": "電動輔助自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動輔助自行車"
+    },
+    {
+      "name": "Centurion",
+      "type": "international_company_or_term",
+      "wikilink": "Centurion"
+    },
+    {
+      "name": "Specialized",
+      "type": "international_company_or_term",
+      "wikilink": "Specialized"
+    },
+    {
+      "name": "Shimano",
+      "type": "international_company_or_term",
+      "wikilink": "Shimano"
+    },
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "美利達工業股份有限公司 (9914，Merida Industry) 成立於 1972 年，為全球第二大自行車品牌廠，僅次於同業[[巨大]] ([[Giant]])。公司以自有品牌「MERIDA」行銷全球，產品涵蓋公路車、登山車、城市車、碟煞公路車及[[電動輔助自行車]] (E-Bike)。2003 年美利達與[[巨大]]共同推動台灣自行車產業「A-Team」計畫，帶動產業升級。公司持有德國自行車品牌[[Centurion]]及[[Specialized]]股權，與[[Shimano]]維持長期零組件合作關係。生產基地位於台灣彰化及中國大陸。",
+    "supply_chain_md": "**上游 (零組件與材料):**\n- **車架材料:** 鋁合金、[[碳纖維]]車架\n- **傳動系統:** [[Shimano]] — 變速器與傳動零組件\n- **E-Bike 動力:** [[Shimano]] STEPS 電動輔助系統\n- **輪組與輪胎:** 國際輪組與輪胎品牌\n\n**中游 (品牌設計與製造):**\n- **美利達** — 自有品牌「MERIDA」自行車設計、製造與全球行銷\n\n**下游 (全球通路):**\n- **歐洲市場:** 歐洲自行車專賣店與經銷網絡 (最大市場)\n- **亞洲市場:** 日本、台灣自行車通路\n- **投資品牌:** [[Specialized]]、[[Centurion]] — 持股品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **歐洲通路:** 歐洲自行車專賣店與經銷網絡 — MERIDA 品牌最大市場\n- **亞洲通路:** 日本、台灣自行車經銷商\n- **投資品牌:** 持股[[Specialized]] — 全球高階自行車品牌\n\n### 主要供應商\n- **傳動系統:** [[Shimano]] — 變速器與 STEPS 電動輔助系統\n- **碳纖維車架:** [[碳纖維]]車架供應商\n- **A-Team 夥伴:** [[巨大]] ([[Giant]]) — 台灣自行車產業 A-Team 計畫共同推動者",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $78.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     21.30 |       11.90 |      0.96 | 1.17 |     17.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     26757.16 |     29633.13 |     27261.12 |\n| Gross Profit            |      3772.58 |      5380.23 |      5114.03 |\n| Gross Margin (%)        |        14.10 |        18.16 |        18.76 |\n| Selling & Marketing Exp |      1202.56 |      1185.80 |      1145.44 |\n| R&D Exp                 |       -    |       -    |         3.45 |\n| General & Admin Exp     |      1093.84 |      1129.88 |      1092.45 |\n| Operating Income        |      1476.19 |      3064.56 |      2876.14 |\n| Operating Margin (%)    |         5.52 |        10.34 |        10.55 |\n| Net Income              |      1200.21 |      -699.10 |      1691.82 |\n| Net Margin (%)          |         4.49 |        -2.36 |         6.21 |\n| Op Cash Flow            |      2441.47 |      2237.46 |      -262.19 |\n| Investing Cash Flow     |         2.40 |      -328.06 |      -603.38 |\n| Financing Cash Flow     |     -2515.35 |     -1782.16 |     -1083.92 |\n| CAPEX                   |      -100.03 |      -112.50 |      -128.40 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5323.06 |      4961.59 |      7223.39 |      7004.60 |\n| Gross Profit            |       883.50 |       497.23 |       982.61 |      1040.47 |\n| Gross Margin (%)        |        16.60 |        10.02 |        13.60 |        14.85 |\n| Selling & Marketing Exp |       278.17 |       355.14 |       283.60 |       262.13 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       261.92 |       181.56 |       281.03 |       352.47 |\n| Operating Income        |       343.41 |       -39.47 |       417.98 |       425.87 |\n| Operating Margin (%)    |         6.45 |        -0.80 |         5.79 |         6.08 |\n| Net Income              |       325.66 |      -237.19 |       624.86 |       394.01 |\n| Net Margin (%)          |         6.12 |        -4.78 |         8.65 |         5.63 |\n| Op Cash Flow            |       380.79 |      -179.13 |      1305.50 |      1459.04 |\n| Investing Cash Flow     |       120.06 |        31.94 |      -195.04 |         1.85 |\n| Financing Cash Flow     |      -193.64 |       -83.43 |      -862.25 |     -1888.16 |\n| CAPEX                   |       -14.60 |       -36.38 |       -36.47 |       -15.88 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4304",
+  "company_name": "勝昱",
+  "title": "4304 - 勝昱",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 塑膠製品/4304_勝昱.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Packaging & Containers",
+    "market_cap": "1,032 百萬台幣",
+    "enterprise_value": "1,004 百萬台幣"
+  },
+  "business": {
+    "summary": "勝昱科技股份有限公司（原名琨詰科技）成立於 1982 年，為專業之 [[EMI]] 電磁波遮蔽材料與複合積層包裝材料製造商。主要產品包括 EMI 遮蔽貼合材料（應用於線材及 3C 產品）、鋁箔麥拉帶、軟性複合積層包裝材料（食品及醫療包裝）及絕緣材料等。2024 年產品營收結構為 EMI 遮蔽材料約 30%、塑膠薄膜約 25%、真空袋約 7%、複合膜約 5%。近期勝昱積極進行策略轉型，成立「綠電 AI」與「重電工程」事業部，佈局 [[AI 伺服器]] 高速傳輸線材之 EMI 材料需求及 [[台電]] 電網升級工程。",
+    "entities": [
+      "EMI",
+      "AI 伺服器",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬箔材",
+        "text": "鋁箔、[[銅箔]] 等金屬箔基材",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "薄膜基材",
+        "text": "[[PET]] 聚酯薄膜",
+        "entities": [
+          "PET"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "[[導電膠]]、塑膠粒",
+        "entities": [
+          "導電膠"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (材料加工)",
+        "text": "**中游 (材料加工):**",
+        "entities": []
+      },
+      {
+        "category": "勝昱 (4304)",
+        "text": "精密塗佈、貼合、分條及印刷加工",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電線電纜",
+        "text": "電纜廠如 [[大亞]]（1609）、[[華新]]（1605）使用 EMI 遮蔽材料",
+        "entities": [
+          "大亞",
+          "華新"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[AI 伺服器]] 高速傳輸線材之 EMI 材料",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "重電工程",
+        "text": "[[台電]] 電網工程設備安裝",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "食品/醫療",
+        "text": "軟性複合積層包裝材料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電線電纜",
+        "text": "[[大亞]]（1609）、[[華新]]（1605）等國內外電纜廠",
+        "entities": [
+          "大亞",
+          "華新"
+        ]
+      },
+      {
+        "role": "新事業",
+        "text": "[[AI 伺服器]] 供應鏈客戶、[[台電]] 重電工程客戶",
+        "entities": [
+          "AI 伺服器",
+          "台電"
+        ]
+      },
+      {
+        "role": "包裝",
+        "text": "食品及醫療包裝加工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬箔材",
+        "text": "國內外鋁箔及 [[銅箔]] 供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "role": "薄膜",
+        "text": "[[PET]] 聚酯薄膜廠",
+        "entities": [
+          "PET"
+        ]
+      },
+      {
+        "role": "化學品",
+        "text": "導電膠及塗料化學品供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EMI",
+      "type": "international_company_or_term",
+      "wikilink": "EMI"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "PET",
+      "type": "international_company_or_term",
+      "wikilink": "PET"
+    },
+    {
+      "name": "導電膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導電膠"
+    },
+    {
+      "name": "大亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大亞"
+    },
+    {
+      "name": "華新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "勝昱科技股份有限公司（原名琨詰科技）成立於 1982 年，為專業之 [[EMI]] 電磁波遮蔽材料與複合積層包裝材料製造商。主要產品包括 EMI 遮蔽貼合材料（應用於線材及 3C 產品）、鋁箔麥拉帶、軟性複合積層包裝材料（食品及醫療包裝）及絕緣材料等。2024 年產品營收結構為 EMI 遮蔽材料約 30%、塑膠薄膜約 25%、真空袋約 7%、複合膜約 5%。近期勝昱積極進行策略轉型，成立「綠電 AI」與「重電工程」事業部，佈局 [[AI 伺服器]] 高速傳輸線材之 EMI 材料需求及 [[台電]] 電網升級工程。",
+    "supply_chain_md": "**上游 (原材料):**\n- **金屬箔材:** 鋁箔、[[銅箔]] 等金屬箔基材\n- **薄膜基材:** [[PET]] 聚酯薄膜\n- **化學品:** [[導電膠]]、塑膠粒\n\n**中游 (材料加工):**\n- **勝昱 (4304):** 精密塗佈、貼合、分條及印刷加工\n\n**下游 (終端應用):**\n- **電線電纜:** 電纜廠如 [[大亞]]（1609）、[[華新]]（1605）使用 EMI 遮蔽材料\n- **AI 伺服器:** [[AI 伺服器]] 高速傳輸線材之 EMI 材料\n- **重電工程:** [[台電]] 電網工程設備安裝\n- **食品/醫療:** 軟性複合積層包裝材料",
+    "customers_suppliers_md": "### 主要客戶\n- **電線電纜:** [[大亞]]（1609）、[[華新]]（1605）等國內外電纜廠\n- **新事業:** [[AI 伺服器]] 供應鏈客戶、[[台電]] 重電工程客戶\n- **包裝:** 食品及醫療包裝加工廠\n\n### 主要供應商\n- **金屬箔材:** 國內外鋁箔及 [[銅箔]] 供應商\n- **薄膜:** [[PET]] 聚酯薄膜廠\n- **化學品:** 導電膠及塗料化學品供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $17.15 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      3.07 | 3.42 |    -37.88 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       340.75 |       377.41 |       456.10 |\n| Gross Profit            |        23.29 |         9.70 |        18.56 |\n| Gross Margin (%)        |         6.83 |         2.57 |         4.07 |\n| Selling & Marketing Exp |        12.50 |        13.81 |        11.49 |\n| R&D Exp                 |         0.37 |         0.55 |         0.50 |\n| General & Admin Exp     |        54.14 |        51.43 |        57.60 |\n| Operating Income        |       -43.73 |       -56.10 |       -51.03 |\n| Operating Margin (%)    |       -12.83 |       -14.87 |       -11.19 |\n| Net Income              |       -43.73 |       -49.27 |      -120.56 |\n| Net Margin (%)          |       -12.83 |       -13.05 |       -26.43 |\n| Op Cash Flow            |        21.06 |       -50.02 |       -10.04 |\n| Investing Cash Flow     |        -1.21 |        -0.78 |         2.35 |\n| Financing Cash Flow     |        95.62 |       -11.01 |        32.81 |\n| CAPEX                   |        -2.50 |        -1.24 |        -3.69 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        85.03 |        87.42 |        73.84 |        94.45 |\n| Gross Profit            |         4.41 |        13.36 |         2.21 |         3.30 |\n| Gross Margin (%)        |         5.19 |        15.28 |         3.00 |         3.50 |\n| Selling & Marketing Exp |         2.63 |         2.92 |         3.57 |         3.39 |\n| R&D Exp                 |         0.09 |         0.04 |         0.17 |         0.07 |\n| General & Admin Exp     |        14.69 |        12.93 |        13.11 |        13.42 |\n| Operating Income        |       -13.00 |        -2.53 |       -14.63 |       -13.57 |\n| Operating Margin (%)    |       -15.29 |        -2.89 |       -19.82 |       -14.37 |\n| Net Income              |        -6.93 |        -5.01 |       -15.33 |       -16.46 |\n| Net Margin (%)          |        -8.15 |        -5.73 |       -20.76 |       -17.42 |\n| Op Cash Flow            |        10.46 |        41.41 |       -12.57 |       -18.24 |\n| Investing Cash Flow     |         0.83 |        -0.63 |        -1.31 |        -0.10 |\n| Financing Cash Flow     |        87.20 |       -22.57 |         5.10 |        25.89 |\n| CAPEX                   |         1.14 |        -1.35 |        -1.69 |        -0.60 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

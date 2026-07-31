@@ -1,0 +1,189 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6579",
+  "company_name": "研揚",
+  "title": "6579_研揚",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/6579_研揚.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "26,773 百萬台幣",
+    "enterprise_value": "26,048 百萬台幣"
+  },
+  "business": {
+    "summary": "研揚科技股份有限公司 (6579，AAEON) 隸屬於[[華碩]](ASUS)集團，是全球領先的工業[[物聯網]](IIoT)與邊緣[[AI]](Edge [[AI]])運算平台製造商。研揚的產品線涵蓋單板電腦、強固型平板及工業系統，廣泛應用於智慧城市、智慧零售、智慧製造及交通醫療等領域。近年來，研揚敏銳捕捉人工智慧落地邊緣端的龐大商機，與[[NVIDIA]]、[[Intel]]等晶片巨擘深度結盟，推出一系列專為機器視覺、無人化機台及生成式[[AI]]設計的高效能邊緣運算平台。研揚更透過策略結盟(如廣積、醫揚、融程電)組成「泛研揚集團」，極大化了在關鍵零組件採購與技術整合上的綜效規模。",
+    "entities": [
+      "華碩",
+      "物聯網",
+      "AI",
+      "NVIDIA",
+      "Intel"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 繪圖處理晶片(GPU)、核心運算處理器(CPU)、神經網路加速器(NPU)、[[記憶體]]及工業級機殼。",
+        "entities": [
+          "記憶體"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **研揚科技** (單板電腦、工業系統、醫療電腦及邊緣[[AI]](Edge [[AI]])運算硬體平台之研發製造)。",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 全球系統整合商(SI)、各行業的[[自動化]]設備商、智慧零售KIOSK廠及醫療推車/設備供應商。",
+        "entities": [
+          "自動化"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "台灣[[台積電]](提供晶圓搬運機械手臂控制器)、美國大型連鎖超市([[AI]]結帳系統)及日本自販機業者。",
+        "entities": [
+          "台積電",
+          "AI"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[NVIDIA]](輝達)、[[Intel]]、[[AMD]]及[[聯發科]]等全球頂級[[AI]]與運算晶片原廠，以及母公司[[華碩]]集團供應鏈。",
+        "entities": [
+          "NVIDIA",
+          "Intel",
+          "AMD",
+          "聯發科",
+          "AI",
+          "華碩"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[研華]]",
+        "entities": [
+          "研華"
+        ],
+        "basis": "reciprocal_competitor_from:2395",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[威強電]]",
+        "entities": [
+          "威強電"
+        ],
+        "basis": "reciprocal_competitor_from:3022",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "融程電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "融程電"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "威強電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威強電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "研揚科技股份有限公司 (6579，AAEON) 隸屬於[[華碩]](ASUS)集團，是全球領先的工業[[物聯網]](IIoT)與邊緣[[AI]](Edge [[AI]])運算平台製造商。研揚的產品線涵蓋單板電腦、強固型平板及工業系統，廣泛應用於智慧城市、智慧零售、智慧製造及交通醫療等領域。近年來，研揚敏銳捕捉人工智慧落地邊緣端的龐大商機，與[[NVIDIA]]、[[Intel]]等晶片巨擘深度結盟，推出一系列專為機器視覺、無人化機台及生成式[[AI]]設計的高效能邊緣運算平台。研揚更透過策略結盟(如廣積、醫揚、融程電)組成「泛研揚集團」，極大化了在關鍵零組件採購與技術整合上的綜效規模。",
+    "supply_chain_md": "*   **上游**: 繪圖處理晶片(GPU)、核心運算處理器(CPU)、神經網路加速器(NPU)、[[記憶體]]及工業級機殼。\n*   **中游**: **研揚科技** (單板電腦、工業系統、醫療電腦及邊緣[[AI]](Edge [[AI]])運算硬體平台之研發製造)。\n*   **下游**: 全球系統整合商(SI)、各行業的[[自動化]]設備商、智慧零售KIOSK廠及醫療推車/設備供應商。",
+    "customers_suppliers_md": "### 主要客戶\n*   台灣[[台積電]](提供晶圓搬運機械手臂控制器)、美國大型連鎖超市([[AI]]結帳系統)及日本自販機業者。\n\n### 主要供應商\n*   [[NVIDIA]](輝達)、[[Intel]]、[[AMD]]及[[聯發科]]等全球頂級[[AI]]與運算晶片原廠，以及母公司[[華碩]]集團供應鏈。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $149.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     20.41 |       21.29 |      2.78 | 2.42 |     28.07 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8625.38 |      7186.03 |      8073.20 |\n| Gross Profit            |      2883.38 |      2578.63 |      2834.37 |\n| Gross Margin (%)        |        33.43 |        35.88 |        35.11 |\n| Selling & Marketing Exp |       830.22 |       764.22 |       715.84 |\n| R&D Exp                 |       777.92 |       709.69 |       624.36 |\n| General & Admin Exp     |       598.54 |       553.13 |       489.75 |\n| Operating Income        |       676.69 |       551.59 |      1004.43 |\n| Operating Margin (%)    |         7.85 |         7.68 |        12.44 |\n| Net Income              |       705.76 |       966.88 |       969.35 |\n| Net Margin (%)          |         8.18 |        13.45 |        12.01 |\n| Op Cash Flow            |         2.88 |      1126.43 |      2066.83 |\n| Investing Cash Flow     |      -907.93 |        40.77 |       985.44 |\n| Financing Cash Flow     |      -912.79 |     -1301.91 |      -923.04 |\n| CAPEX                   |       -54.10 |      -103.52 |      -126.53 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2410.21 |      2259.63 |      2101.86 |      1958.38 |\n| Gross Profit            |       839.48 |       753.26 |       716.74 |       667.53 |\n| Gross Margin (%)        |        34.83 |        33.34 |        34.10 |        34.09 |\n| Selling & Marketing Exp |       230.43 |       219.27 |       198.88 |       210.10 |\n| R&D Exp                 |       217.70 |       200.87 |       188.30 |       185.49 |\n| General & Admin Exp     |       160.98 |       155.73 |       144.62 |       145.75 |\n| Operating Income        |       230.37 |       177.39 |       184.94 |       126.19 |\n| Operating Margin (%)    |         9.56 |         7.85 |         8.80 |         6.44 |\n| Net Income              |       478.35 |       273.77 |       -20.88 |       259.70 |\n| Net Margin (%)          |        19.85 |        12.12 |        -0.99 |        13.26 |\n| Op Cash Flow            |      -251.25 |       123.66 |      -116.04 |       153.44 |\n| Investing Cash Flow     |      -130.12 |      -248.78 |      -345.38 |       -36.93 |\n| Financing Cash Flow     |       296.26 |        88.66 |        73.12 |       -66.04 |\n| CAPEX                   |       -82.41 |       -11.43 |       -21.82 |        -9.30 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2949",
+  "company_name": "欣新網",
+  "title": "2949 - 欣新網",
+  "source_md": "Pilot_Reports/電子商務 - 物流倉儲服務/2949_欣新網.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Internet Retail",
+    "market_cap": "1,751 百萬台幣",
+    "enterprise_value": "2,106 百萬台幣"
+  },
+  "business": {
+    "summary": "欣新網 (2949，HH Galaxy) 為台灣領先的一站式電商代營運服務商 (TP, Trading Partner)，由欣臨企業 (快速消費品代理商) 與[[新竹物流]]合資成立，累計合作超過 200 個國際品牌。\n\n業務結構與動能：(1) 電商代營運 — 品牌客戶將商品交付欣新網後，即由其全權負責電商業務，涵蓋官網架設、各大平台 ([[momo購物網]]/[[PChome]]/[[蝦皮購物]]) 代操、數位行銷廣告投放、倉儲物流配送及客服等一站式服務；(2) 數據與 AI 行銷 — 開發 PowerAI 廣告投放系統，以大數據驅動精準行銷；(3) 跨品類經營 — 客戶涵蓋日用品、美妝保養、運動鞋服、母嬰等多元品類。公司善用母公司欣臨企業之龐大品牌資源快速拓展客戶。",
+    "entities": [
+      "新竹物流",
+      "momo購物網",
+      "PChome",
+      "蝦皮購物"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌原廠)",
+        "text": "**上游 (品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "日用品",
+        "text": "[[花王]] (Kao)、[[嬌生]] (Johnson & Johnson) — FMCG 品牌代營運",
+        "entities": [
+          "花王",
+          "嬌生"
+        ]
+      },
+      {
+        "category": "美妝保養",
+        "text": "[[萊雅]] (L'Oréal) — 美妝品牌電商代操",
+        "entities": [
+          "萊雅"
+        ]
+      },
+      {
+        "category": "運動鞋服",
+        "text": "[[New Balance]]、[[PANDORA]] — 運動/時尚品牌代營運",
+        "entities": [
+          "New Balance",
+          "PANDORA"
+        ]
+      },
+      {
+        "category": "其他品牌",
+        "text": "超過 200 個國際品牌 — 跨品類電商代營運",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電商代營運)",
+        "text": "**中游 (電商代營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**欣新網** (一站式電商代營運：平台代操、廣告投放、倉儲物流、客服)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路與消費者)",
+        "text": "**下游 (銷售通路與消費者):**",
+        "entities": []
+      },
+      {
+        "category": "電商平台",
+        "text": "[[momo購物網]]、[[PChome]]、[[蝦皮購物]] — 線上銷售通路",
+        "entities": [
+          "momo購物網",
+          "PChome",
+          "蝦皮購物"
+        ]
+      },
+      {
+        "category": "品牌官網",
+        "text": "各品牌自營官網 — 代營運",
+        "entities": []
+      },
+      {
+        "category": "終端消費者",
+        "text": "一般網購消費者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "日用品牌",
+        "text": "[[花王]]、[[嬌生]] — FMCG 品牌電商代營運",
+        "entities": [
+          "花王",
+          "嬌生"
+        ]
+      },
+      {
+        "role": "美妝品牌",
+        "text": "[[萊雅]] (L'Oréal) — 美妝保養品電商代操",
+        "entities": [
+          "萊雅"
+        ]
+      },
+      {
+        "role": "運動品牌",
+        "text": "[[New Balance]]、[[PANDORA]] — 運動/時尚品牌代營運",
+        "entities": [
+          "New Balance",
+          "PANDORA"
+        ]
+      },
+      {
+        "role": "其他品牌",
+        "text": "超過 200 個國際品牌 — 跨品類電商服務",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "物流夥伴",
+        "text": "[[新竹物流]] — 股東暨物流合作夥伴",
+        "entities": [
+          "新竹物流"
+        ]
+      },
+      {
+        "role": "廣告平台",
+        "text": "[[Google]]、[[Meta]] — 數位廣告投放",
+        "entities": [
+          "Google",
+          "Meta"
+        ]
+      },
+      {
+        "role": "電商平台",
+        "text": "[[momo購物網]]、[[PChome]]、[[蝦皮購物]] — 銷售通路",
+        "entities": [
+          "momo購物網",
+          "PChome",
+          "蝦皮購物"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "欣臨企業 — 品牌資源與 FMCG 代理",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹物流",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹物流"
+    },
+    {
+      "name": "momo購物網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "momo購物網"
+    },
+    {
+      "name": "PChome",
+      "type": "international_company_or_term",
+      "wikilink": "PChome"
+    },
+    {
+      "name": "蝦皮購物",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蝦皮購物"
+    },
+    {
+      "name": "花王",
+      "type": "taiwan_company_or_term",
+      "wikilink": "花王"
+    },
+    {
+      "name": "嬌生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嬌生"
+    },
+    {
+      "name": "萊雅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萊雅"
+    },
+    {
+      "name": "New Balance",
+      "type": "international_company_or_term",
+      "wikilink": "New Balance"
+    },
+    {
+      "name": "PANDORA",
+      "type": "international_company_or_term",
+      "wikilink": "PANDORA"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "欣新網 (2949，HH Galaxy) 為台灣領先的一站式電商代營運服務商 (TP, Trading Partner)，由欣臨企業 (快速消費品代理商) 與[[新竹物流]]合資成立，累計合作超過 200 個國際品牌。\n\n業務結構與動能：(1) 電商代營運 — 品牌客戶將商品交付欣新網後，即由其全權負責電商業務，涵蓋官網架設、各大平台 ([[momo購物網]]/[[PChome]]/[[蝦皮購物]]) 代操、數位行銷廣告投放、倉儲物流配送及客服等一站式服務；(2) 數據與 AI 行銷 — 開發 PowerAI 廣告投放系統，以大數據驅動精準行銷；(3) 跨品類經營 — 客戶涵蓋日用品、美妝保養、運動鞋服、母嬰等多元品類。公司善用母公司欣臨企業之龐大品牌資源快速拓展客戶。",
+    "supply_chain_md": "**上游 (品牌原廠):**\n- **日用品:** [[花王]] (Kao)、[[嬌生]] (Johnson & Johnson) — FMCG 品牌代營運\n- **美妝保養:** [[萊雅]] (L'Oréal) — 美妝品牌電商代操\n- **運動鞋服:** [[New Balance]]、[[PANDORA]] — 運動/時尚品牌代營運\n- **其他品牌:** 超過 200 個國際品牌 — 跨品類電商代營運\n\n**中游 (電商代營運):**\n- **欣新網** (一站式電商代營運：平台代操、廣告投放、倉儲物流、客服)\n\n**下游 (銷售通路與消費者):**\n- **電商平台:** [[momo購物網]]、[[PChome]]、[[蝦皮購物]] — 線上銷售通路\n- **品牌官網:** 各品牌自營官網 — 代營運\n- **終端消費者:** 一般網購消費者",
+    "customers_suppliers_md": "### 主要客戶\n- **日用品牌:** [[花王]]、[[嬌生]] — FMCG 品牌電商代營運\n- **美妝品牌:** [[萊雅]] (L'Oréal) — 美妝保養品電商代操\n- **運動品牌:** [[New Balance]]、[[PANDORA]] — 運動/時尚品牌代營運\n- **其他品牌:** 超過 200 個國際品牌 — 跨品類電商服務\n\n### 主要供應商\n- **物流夥伴:** [[新竹物流]] — 股東暨物流合作夥伴\n- **廣告平台:** [[Google]]、[[Meta]] — 數位廣告投放\n- **電商平台:** [[momo購物網]]、[[PChome]]、[[蝦皮購物]] — 銷售通路\n- **母公司:** 欣臨企業 — 品牌資源與 FMCG 代理",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $59.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.43 |       12.47 |      0.29 | 1.69 |     12.86 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5728.25 |      4731.29 |      4339.55 |\n| Gross Profit            |       666.83 |       480.35 |       509.81 |\n| Gross Margin (%)        |        11.64 |        10.15 |        11.75 |\n| Selling & Marketing Exp |       333.24 |       222.30 |       193.93 |\n| R&D Exp                 |        18.99 |        17.03 |        15.45 |\n| General & Admin Exp     |       174.46 |       119.72 |        93.45 |\n| Operating Income        |       140.14 |       121.31 |       206.97 |\n| Operating Margin (%)    |         2.45 |         2.56 |         4.77 |\n| Net Income              |       109.42 |        84.82 |       139.16 |\n| Net Margin (%)          |         1.91 |         1.79 |         3.21 |\n| Op Cash Flow            |        92.87 |       -85.47 |       -62.06 |\n| Investing Cash Flow     |        60.89 |       -49.09 |       132.51 |\n| Financing Cash Flow     |      -101.21 |        80.08 |       249.48 |\n| CAPEX                   |        -9.44 |        -7.87 |        -4.15 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1838.33 |      1320.13 |      1374.61 |      1195.17 |\n| Gross Profit            |       212.04 |       141.59 |       166.53 |       146.67 |\n| Gross Margin (%)        |        11.53 |        10.73 |        12.11 |        12.27 |\n| Selling & Marketing Exp |       106.03 |        77.89 |        78.35 |        70.97 |\n| R&D Exp                 |         5.57 |         4.56 |         4.38 |         4.48 |\n| General & Admin Exp     |        57.26 |        42.08 |        40.27 |        34.85 |\n| Operating Income        |        43.18 |        17.08 |        43.52 |        36.36 |\n| Operating Margin (%)    |         2.35 |         1.29 |         3.17 |         3.04 |\n| Net Income              |        42.77 |        15.38 |        25.30 |        25.98 |\n| Net Margin (%)          |         2.33 |         1.17 |         1.84 |         2.17 |\n| Op Cash Flow            |       236.11 |      -142.40 |       -99.17 |        98.33 |\n| Investing Cash Flow     |        57.22 |       -32.08 |        21.43 |        14.31 |\n| Financing Cash Flow     |      -203.01 |       282.38 |       -60.28 |      -120.30 |\n| CAPEX                   |        -2.88 |        -0.80 |        -2.54 |        -3.23 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

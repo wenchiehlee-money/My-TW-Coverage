@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2613",
+  "company_name": "中櫃",
+  "title": "2613 - 中櫃",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 貨櫃運輸集散及倉儲/2613_中櫃.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "2,766 百萬台幣",
+    "enterprise_value": "7,743 百萬台幣"
+  },
+  "business": {
+    "summary": "中國貨櫃運輸股份有限公司 (2613，China Container Terminal) 成立於 1969 年，主要業務為貨櫃集散站經營。公司擁有並經營[[基隆港]]西 19-21 號碼頭貨櫃集散站、[[高雄港]] 66 號碼頭貨櫃集散站及五堵內陸貨櫃場。提供貨櫃裝卸、倉儲、各種物流加工及[[保稅倉庫]]服務。為靠泊基隆及高雄港之國際航商提供碼頭裝卸與倉儲服務。公司亦承接政府港口業務委外經營案。",
+    "entities": [
+      "基隆港",
+      "高雄港",
+      "保稅倉庫"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (港口設施與設備)",
+        "text": "**上游 (港口設施與設備):**",
+        "entities": []
+      },
+      {
+        "category": "港務",
+        "text": "[[臺灣港務]] — 碼頭租賃",
+        "entities": [
+          "臺灣港務"
+        ]
+      },
+      {
+        "category": "機具設備",
+        "text": "貨櫃起重機、堆高機等碼頭裝卸設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (碼頭裝卸與倉儲)",
+        "text": "**中游 (碼頭裝卸與倉儲):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中櫃** — 基隆港/高雄港貨櫃集散站營運，提供貨櫃裝卸、倉儲及物流加工服務",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (航商與貿易商)",
+        "text": "**下游 (航商與貿易商):**",
+        "entities": []
+      },
+      {
+        "category": "貨櫃輪公司",
+        "text": "靠泊基隆/高雄港之國際航商 — [[長榮海運]]、[[陽明海運]]、[[萬海航運]]等",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      },
+      {
+        "category": "報關行",
+        "text": "進出口報關業者",
+        "entities": []
+      },
+      {
+        "category": "保稅倉儲",
+        "text": "保稅貨物儲存客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國際航商",
+        "text": "[[長榮海運]]、[[陽明海運]]、[[萬海航運]] — 靠泊基隆/高雄港之貨櫃裝卸",
+        "entities": [
+          "長榮海運",
+          "陽明海運",
+          "萬海航運"
+        ]
+      },
+      {
+        "role": "報關行",
+        "text": "進出口報關業者 — 物流加工服務",
+        "entities": []
+      },
+      {
+        "role": "保稅客戶",
+        "text": "保稅倉庫儲存需求之進出口商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "港務",
+        "text": "[[臺灣港務]] — 碼頭租賃",
+        "entities": [
+          "臺灣港務"
+        ]
+      },
+      {
+        "role": "機具設備",
+        "text": "貨櫃起重機與堆高機供應商",
+        "entities": []
+      },
+      {
+        "role": "維修服務",
+        "text": "碼頭設備維護保養廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "基隆港",
+      "type": "taiwan_company_or_term",
+      "wikilink": "基隆港"
+    },
+    {
+      "name": "高雄港",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄港"
+    },
+    {
+      "name": "保稅倉庫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "保稅倉庫"
+    },
+    {
+      "name": "臺灣港務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臺灣港務"
+    },
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "萬海航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬海航運"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國貨櫃運輸股份有限公司 (2613，China Container Terminal) 成立於 1969 年，主要業務為貨櫃集散站經營。公司擁有並經營[[基隆港]]西 19-21 號碼頭貨櫃集散站、[[高雄港]] 66 號碼頭貨櫃集散站及五堵內陸貨櫃場。提供貨櫃裝卸、倉儲、各種物流加工及[[保稅倉庫]]服務。為靠泊基隆及高雄港之國際航商提供碼頭裝卸與倉儲服務。公司亦承接政府港口業務委外經營案。",
+    "supply_chain_md": "**上游 (港口設施與設備):**\n- **港務:** [[臺灣港務]] — 碼頭租賃\n- **機具設備:** 貨櫃起重機、堆高機等碼頭裝卸設備\n\n**中游 (碼頭裝卸與倉儲):**\n- **中櫃** — 基隆港/高雄港貨櫃集散站營運，提供貨櫃裝卸、倉儲及物流加工服務\n\n**下游 (航商與貿易商):**\n- **貨櫃輪公司:** 靠泊基隆/高雄港之國際航商 — [[長榮海運]]、[[陽明海運]]、[[萬海航運]]等\n- **報關行:** 進出口報關業者\n- **保稅倉儲:** 保稅貨物儲存客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **國際航商:** [[長榮海運]]、[[陽明海運]]、[[萬海航運]] — 靠泊基隆/高雄港之貨櫃裝卸\n- **報關行:** 進出口報關業者 — 物流加工服務\n- **保稅客戶:** 保稅倉庫儲存需求之進出口商\n\n### 主要供應商\n- **港務:** [[臺灣港務]] — 碼頭租賃\n- **機具設備:** 貨櫃起重機與堆高機供應商\n- **維修服務:** 碼頭設備維護保養廠商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $20.15 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.68 |         N/A |      0.81 | 0.87 |     14.55 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3367.57 |      3285.82 |      3148.32 |\n| Gross Profit            |       571.38 |       550.39 |       467.72 |\n| Gross Margin (%)        |        16.97 |        16.75 |        14.86 |\n| Selling & Marketing Exp |       112.41 |       101.76 |       104.26 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       108.07 |       107.53 |        94.34 |\n| Operating Income        |       350.89 |       341.09 |       269.12 |\n| Operating Margin (%)    |        10.42 |        10.38 |         8.55 |\n| Net Income              |       157.09 |       115.55 |        97.65 |\n| Net Margin (%)          |         4.66 |         3.52 |         3.10 |\n| Op Cash Flow            |       878.65 |       837.35 |       772.91 |\n| Investing Cash Flow     |     -1059.11 |        -8.36 |      -339.41 |\n| Financing Cash Flow     |       145.72 |      -783.87 |      -399.05 |\n| CAPEX                   |     -1044.44 |       -74.81 |      -337.85 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       848.88 |       877.39 |       869.61 |       771.69 |\n| Gross Profit            |       139.51 |       159.97 |       157.18 |       114.72 |\n| Gross Margin (%)        |        16.43 |        18.23 |        18.07 |        14.87 |\n| Selling & Marketing Exp |        26.62 |        29.94 |        28.19 |        27.67 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        28.45 |        28.32 |        26.62 |        24.68 |\n| Operating Income        |        84.44 |       101.70 |       102.38 |        62.38 |\n| Operating Margin (%)    |         9.95 |        11.59 |        11.77 |         8.08 |\n| Net Income              |        40.49 |        49.13 |        35.49 |        31.97 |\n| Net Margin (%)          |         4.77 |         5.60 |         4.08 |         4.14 |\n| Op Cash Flow            |       232.64 |       220.75 |       191.18 |       234.08 |\n| Investing Cash Flow     |      -633.39 |       -75.76 |      -212.05 |      -137.91 |\n| Financing Cash Flow     |       438.58 |      -102.44 |       -80.27 |      -110.16 |\n| CAPEX                   |      -631.89 |       -76.95 |      -186.62 |      -148.99 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

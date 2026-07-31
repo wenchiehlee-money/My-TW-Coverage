@@ -1,0 +1,433 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2454",
+  "company_name": "聯發科",
+  "title": "2454 - [[聯發科]]",
+  "source_md": "Pilot_Reports/半導體 - IC設計/2454_聯發科.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "5,027,747 百萬台幣",
+    "enterprise_value": "4,867,288 百萬台幣"
+  },
+  "business": {
+    "summary": "[[聯發科]]技 (2454) 是全球領先的無晶圓 [[IC 設計]]公司，為全球每年超過 20 億台消費性裝置提供晶片。公司核心產品涵蓋智慧型手機 [[SoC]] ([[天璣]]系列)、[[Wi-Fi 7]]/[[Wi-Fi 6]] 無線連接晶片、智慧電視 [[SoC]]、[[ASIC]] 客製化晶片及[[車用晶片]]。[[聯發科]]在 [[5G]] 手機晶片市占率位居全球前二，並積極拓展 [[AI]] 運算、[[生成式 AI]] 端側推論及高階運算市場。",
+    "entities": [
+      "聯發科",
+      "IC 設計",
+      "SoC",
+      "天璣",
+      "Wi-Fi 7",
+      "Wi-Fi 6",
+      "ASIC",
+      "車用晶片",
+      "5G",
+      "AI",
+      "生成式 AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "先進製程晶圓代工",
+        "text": "[[台積電]] (TSMC，4nm/3nm 先進製程)",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "成熟製程",
+        "text": "[[聯華電子]] (UMC)",
+        "entities": [
+          "聯華電子"
+        ]
+      },
+      {
+        "category": "封裝測試",
+        "text": "[[日月光投控]] (ASE)、[[矽品]] (SPIL)、[[京元電子]] (KYEC)",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "京元電子"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "手機 SoC",
+        "text": "**[[聯發科]]** (天璣旗艦/中階系列)",
+        "entities": [
+          "聯發科"
+        ]
+      },
+      {
+        "category": "連接晶片",
+        "text": "Wi-Fi 7、藍牙、GNSS 定位",
+        "entities": []
+      },
+      {
+        "category": "ASIC",
+        "text": "客製化 AI 及高效能運算晶片",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與系統)",
+        "text": "**下游 (品牌與系統):**",
+        "entities": []
+      },
+      {
+        "category": "智慧手機",
+        "text": "[[Samsung]]、[[OPPO]]、[[vivo]]、[[小米]]、[[傳音]]",
+        "entities": [
+          "Samsung",
+          "OPPO",
+          "vivo",
+          "小米",
+          "傳音"
+        ]
+      },
+      {
+        "category": "智慧電視",
+        "text": "[[Sony]]、[[Samsung]]、[[LG]]",
+        "entities": [
+          "Sony",
+          "Samsung",
+          "LG"
+        ]
+      },
+      {
+        "category": "網通設備",
+        "text": "[[TP-Link]]、[[華碩]]",
+        "entities": [
+          "TP-Link",
+          "華碩"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "智慧手機",
+        "text": "[[Samsung]]、[[OPPO]]、[[vivo]]、[[小米]]、[[傳音]]、[[realme]]",
+        "entities": [
+          "Samsung",
+          "OPPO",
+          "vivo",
+          "小米",
+          "傳音",
+          "realme"
+        ]
+      },
+      {
+        "role": "智慧電視",
+        "text": "[[Sony]]、[[Samsung]]、[[LG]]",
+        "entities": [
+          "Sony",
+          "Samsung",
+          "LG"
+        ]
+      },
+      {
+        "role": "網通設備",
+        "text": "[[TP-Link]]、[[華碩]]、[[Deutsche Telekom]]",
+        "entities": [
+          "TP-Link",
+          "華碩",
+          "Deutsche Telekom"
+        ]
+      },
+      {
+        "role": "Chromebook",
+        "text": "[[Lenovo]]、[[HP]]、[[宏碁]]",
+        "entities": [
+          "Lenovo",
+          "HP",
+          "宏碁"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] (TSMC，最大供應商)",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "封裝測試",
+        "text": "[[日月光投控]] (ASE)、[[矽品]]、[[京元電子]]",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "京元電子"
+        ]
+      },
+      {
+        "role": "EDA 工具",
+        "text": "[[Cadence]]、[[Synopsys]]、[[Siemens EDA]]",
+        "entities": [
+          "Cadence",
+          "Synopsys",
+          "Siemens EDA"
+        ]
+      },
+      {
+        "role": "IP 授權",
+        "text": "[[Arm]] (CPU 架構授權)",
+        "entities": [
+          "Arm"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "行動與通訊IC競爭者",
+        "text": "[[Qualcomm]]、[[Broadcom]]、[[Samsung LSI]]、[[UNISOC]]、[[瑞昱]]",
+        "entities": [
+          "Qualcomm",
+          "Broadcom",
+          "Samsung LSI",
+          "UNISOC",
+          "瑞昱"
+        ],
+        "basis": "curated_chip_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "IC 設計",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC 設計"
+    },
+    {
+      "name": "SoC",
+      "type": "international_company_or_term",
+      "wikilink": "SoC"
+    },
+    {
+      "name": "天璣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天璣"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "Wi-Fi 6",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 6"
+    },
+    {
+      "name": "ASIC",
+      "type": "international_company_or_term",
+      "wikilink": "ASIC"
+    },
+    {
+      "name": "車用晶片",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車用晶片"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "生成式 AI",
+      "type": "taiwan_company_or_term",
+      "wikilink": "生成式 AI"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "京元電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京元電子"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "vivo",
+      "type": "international_company_or_term",
+      "wikilink": "vivo"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "傳音",
+      "type": "taiwan_company_or_term",
+      "wikilink": "傳音"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    },
+    {
+      "name": "TP-Link",
+      "type": "international_company_or_term",
+      "wikilink": "TP-Link"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "realme",
+      "type": "international_company_or_term",
+      "wikilink": "realme"
+    },
+    {
+      "name": "Deutsche Telekom",
+      "type": "international_company_or_term",
+      "wikilink": "Deutsche Telekom"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Cadence",
+      "type": "international_company_or_term",
+      "wikilink": "Cadence"
+    },
+    {
+      "name": "Synopsys",
+      "type": "international_company_or_term",
+      "wikilink": "Synopsys"
+    },
+    {
+      "name": "Siemens EDA",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens EDA"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Samsung LSI",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung LSI"
+    },
+    {
+      "name": "UNISOC",
+      "type": "international_company_or_term",
+      "wikilink": "UNISOC"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[聯發科]]技 (2454) 是全球領先的無晶圓 [[IC 設計]]公司，為全球每年超過 20 億台消費性裝置提供晶片。公司核心產品涵蓋智慧型手機 [[SoC]] ([[天璣]]系列)、[[Wi-Fi 7]]/[[Wi-Fi 6]] 無線連接晶片、智慧電視 [[SoC]]、[[ASIC]] 客製化晶片及[[車用晶片]]。[[聯發科]]在 [[5G]] 手機晶片市占率位居全球前二，並積極拓展 [[AI]] 運算、[[生成式 AI]] 端側推論及高階運算市場。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **先進製程晶圓代工:** [[台積電]] (TSMC，4nm/3nm 先進製程)\n- **成熟製程:** [[聯華電子]] (UMC)\n- **封裝測試:** [[日月光投控]] (ASE)、[[矽品]] (SPIL)、[[京元電子]] (KYEC)\n\n**中游 (IC 設計):**\n- **手機 SoC:** **[[聯發科]]** (天璣旗艦/中階系列)\n- **連接晶片:** Wi-Fi 7、藍牙、GNSS 定位\n- **ASIC:** 客製化 AI 及高效能運算晶片\n\n**下游 (品牌與系統):**\n- **智慧手機:** [[Samsung]]、[[OPPO]]、[[vivo]]、[[小米]]、[[傳音]]\n- **智慧電視:** [[Sony]]、[[Samsung]]、[[LG]]\n- **網通設備:** [[TP-Link]]、[[華碩]]",
+    "customers_suppliers_md": "### 主要客戶\n- **智慧手機:** [[Samsung]]、[[OPPO]]、[[vivo]]、[[小米]]、[[傳音]]、[[realme]]\n- **智慧電視:** [[Sony]]、[[Samsung]]、[[LG]]\n- **網通設備:** [[TP-Link]]、[[華碩]]、[[Deutsche Telekom]]\n- **Chromebook:** [[Lenovo]]、[[HP]]、[[宏碁]]\n\n### 主要供應商\n- **晶圓代工:** [[台積電]] (TSMC，最大供應商)\n- **封裝測試:** [[日月光投控]] (ASE)、[[矽品]]、[[京元電子]]\n- **EDA 工具:** [[Cadence]]、[[Synopsys]]、[[Siemens EDA]]\n- **IP 授權:** [[Arm]] (CPU 架構授權)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $3,235.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|     51.60 |       24.51 |      8.72 | 13.23 |     42.38 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    595965.68 |    530585.89 |    433446.33 |\n| Gross Profit            |    283079.94 |    263385.70 |    207367.04 |\n| Gross Margin (%)        |        47.50 |        49.64 |        47.84 |\n| Selling & Marketing Exp |     20447.68 |     17089.71 |     14423.68 |\n| R&D Exp                 |    148306.39 |    131993.14 |    111384.93 |\n| General & Admin Exp     |     10856.76 |     11947.00 |      9703.26 |\n| Operating Income        |    103469.11 |    102355.86 |     71855.18 |\n| Operating Margin (%)    |        17.36 |        19.29 |        16.58 |\n| Net Income              |    105319.26 |    106386.58 |     76978.64 |\n| Net Margin (%)          |        17.67 |        20.05 |        17.76 |\n| Op Cash Flow            |    162792.87 |    156054.61 |    166091.32 |\n| Investing Cash Flow     |    -37753.97 |    -35927.69 |    -28745.70 |\n| Financing Cash Flow     |    -87674.75 |    -90119.38 |   -118569.14 |\n| CAPEX                   |    -25419.59 |    -22512.79 |    -16827.18 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    149150.51 |    150188.01 |    142096.86 |    150368.57 |\n| Gross Profit            |     69055.35 |     69280.91 |     66111.89 |     73877.65 |\n| Gross Margin (%)        |        46.30 |        46.13 |        46.53 |        49.13 |\n| Selling & Marketing Exp |      5014.75 |      5544.57 |      4982.57 |      4931.52 |\n| R&D Exp                 |     38345.07 |     39248.38 |     36352.72 |     36923.22 |\n| General & Admin Exp     |      2804.33 |      2653.14 |      2587.57 |      2631.55 |\n| Operating Income        |     22891.21 |     21834.82 |     22189.03 |     29391.36 |\n| Operating Margin (%)    |        15.35 |        14.54 |        15.62 |        19.55 |\n| Net Income              |     24153.98 |     22925.05 |     25221.03 |     27848.26 |\n| Net Margin (%)          |        16.19 |        15.26 |        17.75 |        18.52 |\n| Op Cash Flow            |    -17656.66 |     64520.28 |     39180.93 |     45668.70 |\n| Investing Cash Flow     |     -4090.71 |    -16638.72 |     -3370.03 |    -10211.84 |\n| Financing Cash Flow     |    -31137.66 |    -14578.76 |    -31019.96 |    -25935.97 |\n| CAPEX                   |     -5722.74 |     -5571.80 |     -4820.96 |     -8386.35 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 34,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

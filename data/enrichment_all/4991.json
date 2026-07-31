@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4991",
+  "company_name": "環宇-KY",
+  "title": "4991 - 環宇-KY",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/4991_環宇-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "43,205 百萬台幣",
+    "enterprise_value": "41,354 百萬台幣"
+  },
+  "business": {
+    "summary": "環宇-KY (GCS Holdings) 為 **化合物半導體 (Compound Semiconductor)** 晶圓代工廠 (Foundry)，主要技術涵蓋 **GaAs** (砷化鎵)、**InP** ([[磷化銦]]) 與 **GaN** ([[氮化鎵]])。\n業務雙引擎：\n1.  **晶圓代工**: 提供 RF (射頻) 與 Opto (光電) 元件代工服務。\n2.  **自有產品 (KGD)**: 銷售光電元件裸晶 (Known Good Die)，特別是 **光探測器 (PD, Photodiode)** 與 **雷射 (Laser)**。\n受惠於 **AI [[資料中心]]** 建置，其高速光模組 (400G/800G) 用之 **PD** 需求強勁，為各大雲端光模組之關鍵供應商。\n亦佈局 **電力電子** (Power Electronics) 與 **濾波器** (BAW Filter, 與晶電合資)。",
+    "entities": [
+      "磷化銦",
+      "氮化鎵",
+      "資料中心"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 化合物晶圓基板 ([[Sumitomo]], [[AXT]]).",
+        "entities": [
+          "Sumitomo",
+          "AXT"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (本體)**: **環宇-KY (4991)** - 化合物[[半導體]]晶圓代工 & 光電元件 IDM.",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**光通訊**: 光模組廠 ([[AAOI]], [[中際旭創]], [[眾達-KY]]).",
+        "entities": [
+          "AAOI",
+          "中際旭創",
+          "眾達-KY"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**RF**: 射頻元件 IDM, 手機 PA 廠.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**光通訊**: **[[AAOI]]** (應用光電), [[資料中心]]光模組供應商.",
+        "entities": [
+          "AAOI",
+          "資料中心"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**終端**: 美系[[資料中心]] (Data Center) 用戶 ([[Google]], [[Microsoft]] 等).",
+        "entities": [
+          "資料中心",
+          "Google",
+          "Microsoft"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**基板**: 國際化合物[[半導體]]基板廠.",
+        "entities": [
+          "半導體"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "磷化銦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷化銦"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "Sumitomo",
+      "type": "international_company_or_term",
+      "wikilink": "Sumitomo"
+    },
+    {
+      "name": "AXT",
+      "type": "international_company_or_term",
+      "wikilink": "AXT"
+    },
+    {
+      "name": "AAOI",
+      "type": "international_company_or_term",
+      "wikilink": "AAOI"
+    },
+    {
+      "name": "中際旭創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中際旭創"
+    },
+    {
+      "name": "眾達-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "眾達-KY"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "環宇-KY (GCS Holdings) 為 **化合物半導體 (Compound Semiconductor)** 晶圓代工廠 (Foundry)，主要技術涵蓋 **GaAs** (砷化鎵)、**InP** ([[磷化銦]]) 與 **GaN** ([[氮化鎵]])。\n業務雙引擎：\n1.  **晶圓代工**: 提供 RF (射頻) 與 Opto (光電) 元件代工服務。\n2.  **自有產品 (KGD)**: 銷售光電元件裸晶 (Known Good Die)，特別是 **光探測器 (PD, Photodiode)** 與 **雷射 (Laser)**。\n受惠於 **AI [[資料中心]]** 建置，其高速光模組 (400G/800G) 用之 **PD** 需求強勁，為各大雲端光模組之關鍵供應商。\n亦佈局 **電力電子** (Power Electronics) 與 **濾波器** (BAW Filter, 與晶電合資)。",
+    "supply_chain_md": "*   **中游 (本體)**: **環宇-KY (4991)** - 化合物[[半導體]]晶圓代工 & 光電元件 IDM.\n*   **上游**: 化合物晶圓基板 ([[Sumitomo]], [[AXT]]).\n*   **下游**:\n    *   **光通訊**: 光模組廠 ([[AAOI]], [[中際旭創]], [[眾達-KY]]).\n    *   **RF**: 射頻元件 IDM, 手機 PA 廠.",
+    "customers_suppliers_md": "### 主要客戶\n*   **光通訊**: **[[AAOI]]** (應用光電), [[資料中心]]光模組供應商.\n*   **終端**: 美系[[資料中心]] (Data Center) 用戶 ([[Google]], [[Microsoft]] 等).\n\n### 主要供應商\n*   **基板**: 國際化合物[[半導體]]基板廠.",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $321.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    128.40 |       26.57 |     15.97 | 9.11 |     54.97 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2195.16 |      1750.04 |      1350.60 |\n| Gross Profit            |      1034.56 |       663.01 |       237.26 |\n| Gross Margin (%)        |        47.13 |        37.89 |        17.57 |\n| Selling & Marketing Exp |        55.46 |        46.72 |        41.56 |\n| R&D Exp                 |       275.32 |       230.14 |       246.04 |\n| General & Admin Exp     |       303.73 |       199.57 |       183.86 |\n| Operating Income        |       400.05 |       186.57 |      -234.20 |\n| Operating Margin (%)    |        18.22 |        10.66 |       -17.34 |\n| Net Income              |        17.47 |      -236.99 |      -792.24 |\n| Net Margin (%)          |         0.80 |       -13.54 |       -58.66 |\n| Op Cash Flow            |       396.12 |       443.97 |       -66.90 |\n| Investing Cash Flow     |       146.60 |       -67.34 |        21.62 |\n| Financing Cash Flow     |       107.11 |      -158.53 |       -52.78 |\n| CAPEX                   |       -60.54 |      -469.60 |      -100.30 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       714.68 |       688.52 |       543.49 |       489.98 |\n| Gross Profit            |       389.75 |       366.23 |       257.51 |       239.13 |\n| Gross Margin (%)        |        54.53 |        53.19 |        47.38 |        48.80 |\n| Selling & Marketing Exp |        14.40 |        19.09 |        11.98 |        11.09 |\n| R&D Exp                 |        89.40 |        86.28 |        79.00 |        51.38 |\n| General & Admin Exp     |       105.84 |       116.28 |        62.06 |        61.08 |\n| Operating Income        |       180.10 |       144.57 |       104.47 |       115.58 |\n| Operating Margin (%)    |        25.20 |        21.00 |        19.22 |        23.59 |\n| Net Income              |       196.09 |        67.73 |        14.46 |        14.27 |\n| Net Margin (%)          |        27.44 |         9.84 |         2.66 |         2.91 |\n| Op Cash Flow            |       168.51 |       143.59 |       297.00 |        63.62 |\n| Investing Cash Flow     |      -402.35 |       -52.48 |        16.09 |        52.52 |\n| Financing Cash Flow     |       797.60 |        59.49 |        10.23 |        -2.16 |\n| CAPEX                   |      -116.20 |        -8.40 |       -21.10 |       -28.31 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

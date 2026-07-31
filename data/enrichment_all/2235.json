@@ -1,0 +1,153 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2235",
+  "company_name": "謚源",
+  "title": "2235 - 謚源",
+  "source_md": "Pilot_Reports/電機機械 - 車用機械傳動設備及零配件/2235_謚源.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "960 百萬台幣",
+    "enterprise_value": "858 百萬台幣"
+  },
+  "business": {
+    "summary": "謚源企業 (2235，I Yuan Precision) 專營汽車散熱風扇總成、空調鼓風機馬達及電動窗升降器，深耕北美 AM 市場。策略夥伴為[[堤維西]] (TYC，1522)，產品透過 TYC 北美子公司[[GENERA]]銷售，終端通路涵蓋[[LKQ]] (美國最大汽車零件商)、[[Amazon]]及 General Parts (NAPA)。100% 台灣桃園生產，受惠中美關稅轉單效應。模具自主開發，90% 以上零組件台灣本地採購。積極開發高效率電動車散熱風扇及鼓風機馬達。",
+    "entities": [
+      "堤維西",
+      "GENERA",
+      "LKQ",
+      "Amazon"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "電晶體/馬達零件",
+        "text": "台灣本地供應商 (90%+ 國產化率)",
+        "entities": []
+      },
+      {
+        "category": "模具",
+        "text": "自有模具開發中心",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**謚源** (散熱風扇總成/空調鼓風機/電動窗升降器，100% 台灣桃園生產)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "策略夥伴",
+        "text": "[[堤維西]] (TYC) / [[GENERA]] — 北美 AM 通路",
+        "entities": [
+          "堤維西",
+          "GENERA"
+        ]
+      },
+      {
+        "category": "零件通路",
+        "text": "[[LKQ]]、[[Amazon]]、General Parts (NAPA)",
+        "entities": [
+          "LKQ",
+          "Amazon"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "策略夥伴",
+        "text": "[[堤維西]] (TYC) / [[GENERA]] — 北美 AM 銷售通路",
+        "entities": [
+          "堤維西",
+          "GENERA"
+        ]
+      },
+      {
+        "role": "零件通路",
+        "text": "[[LKQ]] — 美國最大汽車零件商；[[Amazon]]；NAPA",
+        "entities": [
+          "LKQ",
+          "Amazon"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "零組件",
+        "text": "台灣本地供應商 (90%+ 國產化)",
+        "entities": []
+      },
+      {
+        "role": "模具",
+        "text": "自有模具開發中心",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "堤維西",
+      "type": "taiwan_company_or_term",
+      "wikilink": "堤維西"
+    },
+    {
+      "name": "GENERA",
+      "type": "international_company_or_term",
+      "wikilink": "GENERA"
+    },
+    {
+      "name": "LKQ",
+      "type": "international_company_or_term",
+      "wikilink": "LKQ"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "謚源企業 (2235，I Yuan Precision) 專營汽車散熱風扇總成、空調鼓風機馬達及電動窗升降器，深耕北美 AM 市場。策略夥伴為[[堤維西]] (TYC，1522)，產品透過 TYC 北美子公司[[GENERA]]銷售，終端通路涵蓋[[LKQ]] (美國最大汽車零件商)、[[Amazon]]及 General Parts (NAPA)。100% 台灣桃園生產，受惠中美關稅轉單效應。模具自主開發，90% 以上零組件台灣本地採購。積極開發高效率電動車散熱風扇及鼓風機馬達。",
+    "supply_chain_md": "**上游 (零組件):**\n- **電晶體/馬達零件:** 台灣本地供應商 (90%+ 國產化率)\n- **模具:** 自有模具開發中心\n\n**中游 (製造):**\n- **謚源** (散熱風扇總成/空調鼓風機/電動窗升降器，100% 台灣桃園生產)\n\n**下游 (終端):**\n- **策略夥伴:** [[堤維西]] (TYC) / [[GENERA]] — 北美 AM 通路\n- **零件通路:** [[LKQ]]、[[Amazon]]、General Parts (NAPA)",
+    "customers_suppliers_md": "### 主要客戶\n- **策略夥伴:** [[堤維西]] (TYC) / [[GENERA]] — 北美 AM 銷售通路\n- **零件通路:** [[LKQ]] — 美國最大汽車零件商；[[Amazon]]；NAPA\n\n### 主要供應商\n- **零組件:** 台灣本地供應商 (90%+ 國產化)\n- **模具:** 自有模具開發中心",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $26.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     38.21 |         N/A |      1.73 | 0.77 |     14.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       555.89 |       591.46 |       586.47 |\n| Gross Profit            |       102.11 |       138.95 |       142.72 |\n| Gross Margin (%)        |        18.37 |        23.49 |        24.34 |\n| Selling & Marketing Exp |        19.77 |        18.29 |        18.87 |\n| R&D Exp                 |        17.13 |        17.00 |        17.75 |\n| General & Admin Exp     |        38.39 |        38.70 |        39.19 |\n| Operating Income        |        26.82 |        64.96 |        66.92 |\n| Operating Margin (%)    |         4.82 |        10.98 |        11.41 |\n| Net Income              |        34.24 |        95.85 |        86.80 |\n| Net Margin (%)          |         6.16 |        16.20 |        14.80 |\n| Op Cash Flow            |       102.52 |        86.22 |       168.81 |\n| Investing Cash Flow     |         7.69 |       -85.92 |       233.74 |\n| Financing Cash Flow     |      -120.27 |      -231.67 |      -506.52 |\n| CAPEX                   |       -26.45 |       -22.82 |       -22.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       143.79 |       134.76 |       143.14 |       132.19 |\n| Gross Profit            |        20.86 |        21.76 |        23.42 |        25.71 |\n| Gross Margin (%)        |        14.51 |        16.15 |        16.36 |        19.45 |\n| Selling & Marketing Exp |         4.74 |         5.13 |         5.01 |         4.91 |\n| R&D Exp                 |         3.46 |         4.12 |         4.45 |         4.34 |\n| General & Admin Exp     |         9.23 |        10.56 |         9.38 |         9.59 |\n| Operating Income        |         3.42 |         1.95 |         4.58 |         6.87 |\n| Operating Margin (%)    |         2.38 |         1.45 |         3.20 |         5.20 |\n| Net Income              |         9.78 |        12.30 |        19.64 |       -16.53 |\n| Net Margin (%)          |         6.80 |         9.13 |        13.72 |       -12.50 |\n| Op Cash Flow            |        31.58 |        36.43 |         7.77 |        -7.31 |\n| Investing Cash Flow     |       -77.29 |       -36.83 |        -8.10 |         8.81 |\n| Financing Cash Flow     |        -3.19 |        -3.18 |      -110.80 |        -3.15 |\n| CAPEX                   |       -10.29 |        -6.83 |        -8.08 |        -6.11 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

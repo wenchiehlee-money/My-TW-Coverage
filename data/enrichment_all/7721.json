@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7721",
+  "company_name": "微程式",
+  "title": "7721 - 微程式",
+  "source_md": "Pilot_Reports/電子商務 - 資訊系統建置服務/7721_微程式.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "3,173 百萬台幣",
+    "enterprise_value": "2,902 百萬台幣"
+  },
+  "business": {
+    "summary": "微程式資訊股份有限公司 (7721) 為台灣數位支付與[[物聯網]] (AIoT) 軟硬整合技術服務商。公司以「技術研發為本」之輕資產架構，將 [[RFID]]、[[NFC]]、電控與雲端物聯網實力灌注於多元應用場域：(1) 公共交通數位支付終端 — 為 [[YouBike]] 微笑單車提供全套車柱電子支付系統；(2) 電動自行車 (E-Bike) — 與自行車龍頭[[巨大]] (Giant) 合作智能機電整合；(3) 半導體廠房 AIoT — 與[[家登精密]]合作智慧感測模組。2024 年微程式轉上市，稅前淨利 1.8 億元，獲[[Intel]]、[[巨大]]及[[家登精密]]等策略投資。",
+    "entities": [
+      "物聯網",
+      "RFID",
+      "NFC",
+      "YouBike",
+      "巨大",
+      "家登精密",
+      "Intel"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與通訊)",
+        "text": "**上游 (晶片與通訊):**",
+        "entities": []
+      },
+      {
+        "category": "通訊晶片",
+        "text": "[[NXP]]、[[TI]] — [[RFID]]/[[NFC]]/藍牙晶片",
+        "entities": [
+          "NXP",
+          "TI",
+          "RFID",
+          "NFC"
+        ]
+      },
+      {
+        "category": "微處理器",
+        "text": "[[Intel]] — MCU 半導體",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "category": "公有雲",
+        "text": "[[AWS]]、[[Microsoft Azure]] — 雲端運算平台",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (AIoT 技術服務)",
+        "text": "**中游 (AIoT 技術服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**微程式資訊** (公共交通數位支付終端、E-Bike 智能機電整合、半導體 AIoT 感測模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "公共交通",
+        "text": "[[YouBike]] 微笑單車 — 車柱電子支付系統",
+        "entities": [
+          "YouBike"
+        ]
+      },
+      {
+        "category": "自行車產業",
+        "text": "[[巨大]] (Giant) — E-Bike 智能整合",
+        "entities": [
+          "巨大"
+        ]
+      },
+      {
+        "category": "半導體設備",
+        "text": "[[家登精密]] — 廠房 AIoT 智慧監控",
+        "entities": [
+          "家登精密"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "公共交通",
+        "text": "[[YouBike]] 微笑單車 — 全套車柱支付系統",
+        "entities": [
+          "YouBike"
+        ]
+      },
+      {
+        "role": "自行車製造",
+        "text": "[[巨大]] (Giant) — E-Bike 智能機電整合",
+        "entities": [
+          "巨大"
+        ]
+      },
+      {
+        "role": "半導體設備",
+        "text": "[[家登精密]] — 廠房 AIoT 感測模組",
+        "entities": [
+          "家登精密"
+        ]
+      },
+      {
+        "role": "票證系統",
+        "text": "各大捷運公車票證營運商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "通訊晶片",
+        "text": "[[NXP]]、[[TI]] — [[RFID]]/[[NFC]] 晶片",
+        "entities": [
+          "NXP",
+          "TI",
+          "RFID",
+          "NFC"
+        ]
+      },
+      {
+        "role": "微處理器",
+        "text": "[[Intel]] — MCU 運算核心",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "策略投資人",
+        "text": "[[巨大]]、[[家登精密]] — 技術合作與投資",
+        "entities": [
+          "巨大",
+          "家登精密"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "RFID",
+      "type": "international_company_or_term",
+      "wikilink": "RFID"
+    },
+    {
+      "name": "NFC",
+      "type": "international_company_or_term",
+      "wikilink": "NFC"
+    },
+    {
+      "name": "YouBike",
+      "type": "international_company_or_term",
+      "wikilink": "YouBike"
+    },
+    {
+      "name": "巨大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大"
+    },
+    {
+      "name": "家登精密",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家登精密"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "TI",
+      "type": "international_company_or_term",
+      "wikilink": "TI"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "微程式資訊股份有限公司 (7721) 為台灣數位支付與[[物聯網]] (AIoT) 軟硬整合技術服務商。公司以「技術研發為本」之輕資產架構，將 [[RFID]]、[[NFC]]、電控與雲端物聯網實力灌注於多元應用場域：(1) 公共交通數位支付終端 — 為 [[YouBike]] 微笑單車提供全套車柱電子支付系統；(2) 電動自行車 (E-Bike) — 與自行車龍頭[[巨大]] (Giant) 合作智能機電整合；(3) 半導體廠房 AIoT — 與[[家登精密]]合作智慧感測模組。2024 年微程式轉上市，稅前淨利 1.8 億元，獲[[Intel]]、[[巨大]]及[[家登精密]]等策略投資。",
+    "supply_chain_md": "**上游 (晶片與通訊):**\n- **通訊晶片:** [[NXP]]、[[TI]] — [[RFID]]/[[NFC]]/藍牙晶片\n- **微處理器:** [[Intel]] — MCU 半導體\n- **公有雲:** [[AWS]]、[[Microsoft Azure]] — 雲端運算平台\n\n**中游 (AIoT 技術服務):**\n- **微程式資訊** (公共交通數位支付終端、E-Bike 智能機電整合、半導體 AIoT 感測模組)\n\n**下游 (終端應用):**\n- **公共交通:** [[YouBike]] 微笑單車 — 車柱電子支付系統\n- **自行車產業:** [[巨大]] (Giant) — E-Bike 智能整合\n- **半導體設備:** [[家登精密]] — 廠房 AIoT 智慧監控",
+    "customers_suppliers_md": "### 主要客戶\n- **公共交通:** [[YouBike]] 微笑單車 — 全套車柱支付系統\n- **自行車製造:** [[巨大]] (Giant) — E-Bike 智能機電整合\n- **半導體設備:** [[家登精密]] — 廠房 AIoT 感測模組\n- **票證系統:** 各大捷運公車票證營運商\n\n### 主要供應商\n- **通訊晶片:** [[NXP]]、[[TI]] — [[RFID]]/[[NFC]] 晶片\n- **微處理器:** [[Intel]] — MCU 運算核心\n- **策略投資人:** [[巨大]]、[[家登精密]] — 技術合作與投資",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $55.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     91.31 |       31.12 |      5.80 | 2.44 |     49.27 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       507.79 |       794.31 |       677.52 |\n| Gross Profit            |       346.16 |       446.54 |       355.44 |\n| Gross Margin (%)        |        68.17 |        56.22 |        52.46 |\n| Selling & Marketing Exp |       158.79 |       134.62 |       130.21 |\n| R&D Exp                 |        87.61 |        71.81 |        70.01 |\n| General & Admin Exp     |        68.78 |        63.67 |        55.72 |\n| Operating Income        |        30.98 |       176.44 |        99.49 |\n| Operating Margin (%)    |         6.10 |        22.21 |        14.68 |\n| Net Income              |        29.03 |       151.58 |        92.08 |\n| Net Margin (%)          |         5.72 |        19.08 |        13.59 |\n| Op Cash Flow            |       175.76 |       153.47 |        42.45 |\n| Investing Cash Flow     |      -288.45 |      -356.47 |       -80.04 |\n| Financing Cash Flow     |       200.70 |       243.85 |       115.39 |\n| CAPEX                   |      -208.88 |       -14.80 |       -14.10 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       139.95 |       119.82 |       128.26 |       119.75 |\n| Gross Profit            |        91.73 |        88.69 |        89.57 |        76.17 |\n| Gross Margin (%)        |        65.54 |        74.03 |        69.83 |        63.61 |\n| Selling & Marketing Exp |        48.63 |        37.01 |        38.48 |        34.68 |\n| R&D Exp                 |        22.81 |        26.64 |        18.95 |        19.21 |\n| General & Admin Exp     |        13.54 |        20.17 |        19.28 |        15.79 |\n| Operating Income        |         6.74 |         4.87 |        12.87 |         6.50 |\n| Operating Margin (%)    |         4.82 |         4.06 |        10.03 |         5.42 |\n| Net Income              |         8.13 |         5.44 |         7.79 |         7.67 |\n| Net Margin (%)          |         5.81 |         4.54 |         6.08 |         6.40 |\n| Op Cash Flow            |        26.86 |        81.78 |         4.90 |        62.22 |\n| Investing Cash Flow     |       -16.85 |      -312.21 |       113.28 |       -72.66 |\n| Financing Cash Flow     |       -12.89 |       332.22 |      -110.36 |        -8.27 |\n| CAPEX                   |      -163.95 |       -20.27 |        -8.81 |       -15.85 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

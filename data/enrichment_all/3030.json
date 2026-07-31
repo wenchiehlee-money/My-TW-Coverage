@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3030",
+  "company_name": "德律",
+  "title": "3030 - 德律",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/3030_德律.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "60,235 百萬台幣",
+    "enterprise_value": "58,177 百萬台幣"
+  },
+  "business": {
+    "summary": "德律科技股份有限公司 (3030，TRI) 為台灣最大的自動光學檢測設備 (AOI) 廠商，全球市佔率名列前茅。專注於電路板組裝檢測 (PCBA Test)。四大主力產品：(1) AOI 自動光學檢測 — 檢測零件焊接品質 (營收佔比最高)；(2) SPI 錫膏檢測 — 印刷厚度檢測；(3) AXI X-ray 檢測 — BGA 等隱藏焊點檢測；(4) ICT 電路板測試 — 電氣功能測試。受惠於[[AI 伺服器]]與車用電子製程日益複雜，對高階檢測設備需求強勁。",
+    "entities": [
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵零組件)",
+        "text": "**上游 (關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "光學元件",
+        "text": "工業相機、光學鏡頭",
+        "entities": []
+      },
+      {
+        "category": "X-ray",
+        "text": "X-ray 球管",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "滑軌馬達、精密平台",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (檢測設備製造)",
+        "text": "**中游 (檢測設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**德律** — AOI、SPI、AXI、ICT 等自動化檢測設備設計與製造",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "EMS/ODM",
+        "text": "[[鴻海]]、[[廣達]]、[[緯創]] — 產線品質檢測",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "category": "品牌供應鏈",
+        "text": "[[Apple]]供應鏈、[[Tesla]]供應鏈",
+        "entities": [
+          "Apple",
+          "Tesla"
+        ]
+      },
+      {
+        "category": "半導體封測",
+        "text": "封裝測試廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EMS 大廠",
+        "text": "[[鴻海]]、[[廣達]]、[[緯創]] — 產線 AOI/SPI/AXI 檢測設備",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "role": "品牌供應鏈",
+        "text": "[[Apple]]供應鏈、[[Tesla]]供應鏈 — 高階檢測需求",
+        "entities": [
+          "Apple",
+          "Tesla"
+        ]
+      },
+      {
+        "role": "半導體封測",
+        "text": "封裝測試廠 — 檢測設備",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "工業相機",
+        "text": "歐美日工業相機與鏡頭大廠",
+        "entities": []
+      },
+      {
+        "role": "X-ray 球管",
+        "text": "X-ray 元件供應商",
+        "entities": []
+      },
+      {
+        "role": "精密機構",
+        "text": "滑軌馬達與精密平台供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "德律科技股份有限公司 (3030，TRI) 為台灣最大的自動光學檢測設備 (AOI) 廠商，全球市佔率名列前茅。專注於電路板組裝檢測 (PCBA Test)。四大主力產品：(1) AOI 自動光學檢測 — 檢測零件焊接品質 (營收佔比最高)；(2) SPI 錫膏檢測 — 印刷厚度檢測；(3) AXI X-ray 檢測 — BGA 等隱藏焊點檢測；(4) ICT 電路板測試 — 電氣功能測試。受惠於[[AI 伺服器]]與車用電子製程日益複雜，對高階檢測設備需求強勁。",
+    "supply_chain_md": "**上游 (關鍵零組件):**\n- **光學元件:** 工業相機、光學鏡頭\n- **X-ray:** X-ray 球管\n- **機構件:** 滑軌馬達、精密平台\n\n**中游 (檢測設備製造):**\n- **德律** — AOI、SPI、AXI、ICT 等自動化檢測設備設計與製造\n\n**下游 (終端客戶):**\n- **EMS/ODM:** [[鴻海]]、[[廣達]]、[[緯創]] — 產線品質檢測\n- **品牌供應鏈:** [[Apple]]供應鏈、[[Tesla]]供應鏈\n- **半導體封測:** 封裝測試廠",
+    "customers_suppliers_md": "### 主要客戶\n- **EMS 大廠:** [[鴻海]]、[[廣達]]、[[緯創]] — 產線 AOI/SPI/AXI 檢測設備\n- **品牌供應鏈:** [[Apple]]供應鏈、[[Tesla]]供應鏈 — 高階檢測需求\n- **半導體封測:** 封裝測試廠 — 檢測設備\n\n### 主要供應商\n- **工業相機:** 歐美日工業相機與鏡頭大廠\n- **X-ray 球管:** X-ray 元件供應商\n- **精密機構:** 滑軌馬達與精密平台供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $249.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     21.56 |         N/A |      6.56 | 5.62 |     16.60 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8467.43 |      6355.81 |      4435.10 |\n| Gross Profit            |      4940.75 |      3784.05 |      2630.61 |\n| Gross Margin (%)        |        58.35 |        59.54 |        59.31 |\n| Selling & Marketing Exp |      1089.27 |       984.86 |       831.14 |\n| R&D Exp                 |       640.19 |       573.00 |       428.17 |\n| General & Admin Exp     |       213.52 |       190.28 |       169.31 |\n| Operating Income        |      2997.77 |      2035.92 |      1201.99 |\n| Operating Margin (%)    |        35.40 |        32.03 |        27.10 |\n| Net Income              |      2478.68 |      1836.63 |      1001.25 |\n| Net Margin (%)          |        29.27 |        28.90 |        22.58 |\n| Op Cash Flow            |      1727.45 |      1159.61 |      1877.83 |\n| Investing Cash Flow     |       -96.94 |      -369.93 |     -1058.29 |\n| Financing Cash Flow     |     -1212.39 |      -813.64 |     -1097.90 |\n| CAPEX                   |      -300.31 |      -388.97 |      -876.80 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2441.41 |      2081.40 |      2377.84 |      1940.51 |\n| Gross Profit            |      1471.55 |      1262.06 |      1388.27 |      1117.91 |\n| Gross Margin (%)        |        60.27 |        60.64 |        58.38 |        57.61 |\n| Selling & Marketing Exp |       301.00 |       301.26 |       255.12 |       251.81 |\n| R&D Exp                 |       180.85 |       186.29 |       141.11 |       141.57 |\n| General & Admin Exp     |        63.81 |        60.07 |        47.08 |        53.97 |\n| Operating Income        |       925.90 |       714.44 |       944.97 |       670.55 |\n| Operating Margin (%)    |        37.92 |        34.33 |        39.74 |        34.56 |\n| Net Income              |       826.46 |       686.18 |       521.47 |       577.80 |\n| Net Margin (%)          |        33.85 |        32.97 |        21.93 |        29.78 |\n| Op Cash Flow            |       522.63 |       811.12 |         7.52 |       996.69 |\n| Investing Cash Flow     |       -50.97 |      -223.05 |        41.39 |       -48.00 |\n| Financing Cash Flow     |        -7.62 |        -8.38 |        -7.47 |        -8.53 |\n| CAPEX                   |       -20.73 |      -207.82 |       -24.40 |       -40.62 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1560",
+  "company_name": "中砂",
+  "title": "1560 - 中砂",
+  "source_md": "Pilot_Reports/電機機械 - 五金元件及零配件/1560_中砂.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "89,272 百萬台幣",
+    "enterprise_value": "89,355 百萬台幣"
+  },
+  "business": {
+    "summary": "中國砂輪 (1560，Kinik) 成立於 1953 年，總部位於台灣新北鶯歌，為台灣歷史最悠久的研磨材料製造商。公司已從傳統砂輪廠成功轉型為[[半導體]]先進製程關鍵耗材供應商，三大事業體為：(1) 鑽石碟事業 (Diamond Disk) — 用於[[CMP]]化學機械研磨製程之修整器，為[[台積電]]先進製程 (3nm/2nm) 的核心耗材，市佔率領先；(2) 再生晶圓事業 (Reclaimed Wafer) — 竹南科學園區廠區為全球前三大再生[[矽晶圓]]供應商；(3) 傳統砂輪事業 — 供應精密機械加工業。營收佔比約為再生晶圓 48%、鑽石碟 30%、砂輪 22%。",
+    "entities": [
+      "半導體",
+      "CMP",
+      "台積電",
+      "矽晶圓"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鑽石碟",
+        "text": "人造鑽石粉末 ([[Element Six]] 等)、陶瓷結合劑、金屬基座",
+        "entities": [
+          "Element Six"
+        ]
+      },
+      {
+        "category": "再生晶圓",
+        "text": "回收測試[[矽晶圓]] (客戶端提供)",
+        "entities": [
+          "矽晶圓"
+        ]
+      },
+      {
+        "category": "砂輪",
+        "text": "氧化鋁、碳化矽等研磨材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中國砂輪** — 鑽石粉末燒結、晶圓研磨拋光清洗、砂輪配方調製燒結",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]] (UMC)",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Micron]]、[[Intel]]、[[力積電]]",
+        "entities": [
+          "Micron",
+          "Intel",
+          "力積電"
+        ]
+      },
+      {
+        "category": "精密機械",
+        "text": "工具機製造商及金屬加工業",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體 (鑽石碟/再生晶圓)",
+        "text": "[[台積電]] (最大單一客戶，鑽石碟約六成出貨)、[[聯電]]、[[Micron]]、[[Intel]]、[[力積電]]",
+        "entities": [
+          "台積電",
+          "聯電",
+          "Micron",
+          "Intel",
+          "力積電"
+        ]
+      },
+      {
+        "role": "傳統砂輪",
+        "text": "精密機械加工廠、工具機製造商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鑽石粉末",
+        "text": "[[Element Six]] 等國際大廠",
+        "entities": [
+          "Element Six"
+        ]
+      },
+      {
+        "role": "矽晶圓",
+        "text": "客戶端提供之測試晶圓供回收再生",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "CMP",
+      "type": "international_company_or_term",
+      "wikilink": "CMP"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "Element Six",
+      "type": "international_company_or_term",
+      "wikilink": "Element Six"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "力積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力積電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中國砂輪 (1560，Kinik) 成立於 1953 年，總部位於台灣新北鶯歌，為台灣歷史最悠久的研磨材料製造商。公司已從傳統砂輪廠成功轉型為[[半導體]]先進製程關鍵耗材供應商，三大事業體為：(1) 鑽石碟事業 (Diamond Disk) — 用於[[CMP]]化學機械研磨製程之修整器，為[[台積電]]先進製程 (3nm/2nm) 的核心耗材，市佔率領先；(2) 再生晶圓事業 (Reclaimed Wafer) — 竹南科學園區廠區為全球前三大再生[[矽晶圓]]供應商；(3) 傳統砂輪事業 — 供應精密機械加工業。營收佔比約為再生晶圓 48%、鑽石碟 30%、砂輪 22%。",
+    "supply_chain_md": "**上游 (原料):**\n- **鑽石碟:** 人造鑽石粉末 ([[Element Six]] 等)、陶瓷結合劑、金屬基座\n- **再生晶圓:** 回收測試[[矽晶圓]] (客戶端提供)\n- **砂輪:** 氧化鋁、碳化矽等研磨材料\n\n**中游 (製造加工):**\n- **中國砂輪** — 鑽石粉末燒結、晶圓研磨拋光清洗、砂輪配方調製燒結\n\n**下游 (終端應用):**\n- **晶圓代工:** [[台積電]]、[[聯電]] (UMC)\n- **記憶體:** [[Micron]]、[[Intel]]、[[力積電]]\n- **精密機械:** 工具機製造商及金屬加工業",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體 (鑽石碟/再生晶圓):** [[台積電]] (最大單一客戶，鑽石碟約六成出貨)、[[聯電]]、[[Micron]]、[[Intel]]、[[力積電]]\n- **傳統砂輪:** 精密機械加工廠、工具機製造商\n\n### 主要供應商\n- **鑽石粉末:** [[Element Six]] 等國際大廠\n- **矽晶圓:** 客戶端提供之測試晶圓供回收再生",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $582.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|     57.62 |       31.05 |     10.09 | 10.52 |     40.94 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8149.48 |      7019.49 |      6380.90 |\n| Gross Profit            |      2647.04 |      2188.12 |      1942.23 |\n| Gross Margin (%)        |        32.48 |        31.17 |        30.44 |\n| Selling & Marketing Exp |       608.02 |       507.62 |       500.56 |\n| R&D Exp                 |       191.20 |       164.10 |       156.50 |\n| General & Admin Exp     |       542.40 |       359.36 |       296.45 |\n| Operating Income        |      1305.42 |      1157.03 |       988.71 |\n| Operating Margin (%)    |        16.02 |        16.48 |        15.49 |\n| Net Income              |      1360.22 |      1035.00 |       852.12 |\n| Net Margin (%)          |        16.69 |        14.74 |        13.35 |\n| Op Cash Flow            |      1914.08 |      1617.36 |      1289.22 |\n| Investing Cash Flow     |     -1912.74 |      -462.38 |      -936.85 |\n| Financing Cash Flow     |      -462.41 |      -172.61 |      -488.84 |\n| CAPEX                   |     -1059.57 |      -348.51 |      -532.35 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2293.23 |      2171.81 |      2114.76 |      1771.63 |\n| Gross Profit            |       802.56 |       742.42 |       679.72 |       547.59 |\n| Gross Margin (%)        |        35.00 |        34.18 |        32.14 |        30.91 |\n| Selling & Marketing Exp |       178.69 |       164.74 |       150.45 |       127.72 |\n| R&D Exp                 |        48.37 |        52.71 |        48.91 |        41.03 |\n| General & Admin Exp     |       129.94 |       187.18 |       128.31 |        96.64 |\n| Operating Income        |       445.56 |       337.79 |       352.06 |       282.20 |\n| Operating Margin (%)    |        19.43 |        15.55 |        16.65 |        15.93 |\n| Net Income              |       436.36 |       479.60 |       266.37 |       285.81 |\n| Net Margin (%)          |        19.03 |        22.08 |        12.60 |        16.13 |\n| Op Cash Flow            |       467.58 |       748.78 |       376.97 |       411.12 |\n| Investing Cash Flow     |      -582.28 |      -403.64 |      -879.02 |      -267.67 |\n| Financing Cash Flow     |       318.86 |      -612.13 |      -105.89 |        30.98 |\n| CAPEX                   |      -584.35 |      -295.66 |      -200.03 |      -200.82 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

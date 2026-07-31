@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6170",
+  "company_name": "統振",
+  "title": "6170_統振",
+  "source_md": "Pilot_Reports/通信網路 - 電信服務業/6170_統振.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "market_cap": "4,420 百萬台幣",
+    "enterprise_value": "5,506 百萬台幣"
+  },
+  "business": {
+    "summary": "統振 (6170) 從傳統電池代理商成功轉型為台灣「外籍移工金融科技服務」龍頭企業。公司以自行開發的 QuickPay APP 為核心，打造涵蓋跨境匯款、電信、旅運及電商的移工生態圈。\n\n業務結構與動能：(1) 金融科技金流 — QuickPay 為台灣首家獲准辦理外籍移工小額匯兌之平台，有效會員數超過 40 萬人，累計匯款金額逾 500 億元，涵蓋印尼、越南、菲律賓及泰國等東南亞四國，市佔率約 40%，為主要營收與利潤引擎；(2) 電信事業 — 代理[[台灣大哥大]] OK 卡預付卡，針對移工市場銷售；(3) 流通事業 — 子公司東旺利代理 [[Duracell]] 金頂電池 (台灣獨家)、德國 [[Doppelherz]] 雙心保健食品及彩妝洗沐品牌；(4) 旅運服務 — Q Go 跨國機票與 Q-Shopping 移工電商平台。",
+    "entities": [
+      "台灣大哥大",
+      "Duracell",
+      "Doppelherz"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金融與商品供應)",
+        "text": "**上游 (金融與商品供應):**",
+        "entities": []
+      },
+      {
+        "category": "銀行合作",
+        "text": "東南亞各國合作銀行 — 跨境匯款清算",
+        "entities": []
+      },
+      {
+        "category": "金流通路",
+        "text": "便利商店金流系統 — 匯款收款端",
+        "entities": []
+      },
+      {
+        "category": "電信合作",
+        "text": "[[台灣大哥大]] — OK 卡預付卡代理",
+        "entities": [
+          "台灣大哥大"
+        ]
+      },
+      {
+        "category": "消費品原廠",
+        "text": "[[Duracell]] (金頂電池)、[[Doppelherz]] (雙心保健) — 流通商品代理",
+        "entities": [
+          "Duracell",
+          "Doppelherz"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台營運)",
+        "text": "**中游 (平台營運):**",
+        "entities": []
+      },
+      {
+        "category": "匯兌平台",
+        "text": "**統振** (QuickPay 跨境小額匯款)",
+        "entities": []
+      },
+      {
+        "category": "電信代理",
+        "text": "**統振** ([[台灣大哥大]] OK 卡移工電信)",
+        "entities": [
+          "台灣大哥大"
+        ]
+      },
+      {
+        "category": "流通代理",
+        "text": "**東旺利** (電池/保健品/彩妝品牌代理)",
+        "entities": []
+      },
+      {
+        "category": "旅運電商",
+        "text": "**統振** (Q Go 機票、Q-Shopping 電商)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端用戶)",
+        "text": "**下游 (終端用戶):**",
+        "entities": []
+      },
+      {
+        "category": "外籍移工",
+        "text": "印尼、越南、菲律賓、泰國在台移工 — 匯款/電信/消費",
+        "entities": []
+      },
+      {
+        "category": "新住民",
+        "text": "在台東南亞新住民 — 生活服務",
+        "entities": []
+      },
+      {
+        "category": "一般消費者",
+        "text": "國內消費者 — 金頂電池/雙心保健品",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "外籍移工",
+        "text": "超過 40 萬名 QuickPay 活躍會員 (印尼、越南、菲律賓、泰國)",
+        "entities": []
+      },
+      {
+        "role": "移工雇主",
+        "text": "製造業與營建業雇主 — 移工電信方案",
+        "entities": []
+      },
+      {
+        "role": "一般消費者",
+        "text": "[[Duracell]] 金頂電池與 [[Doppelherz]] 雙心保健品終端消費者",
+        "entities": [
+          "Duracell",
+          "Doppelherz"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "電信合作",
+        "text": "[[台灣大哥大]] — OK 卡預付卡",
+        "entities": [
+          "台灣大哥大"
+        ]
+      },
+      {
+        "role": "電池代理",
+        "text": "[[Duracell]] (金頂) — 台灣獨家電池代理",
+        "entities": [
+          "Duracell"
+        ]
+      },
+      {
+        "role": "保健品代理",
+        "text": "[[Doppelherz]] (德之寶/雙心) — 德國保健食品",
+        "entities": [
+          "Doppelherz"
+        ]
+      },
+      {
+        "role": "銀行合作",
+        "text": "東南亞各國合作銀行 — 跨境匯款清算通路",
+        "entities": []
+      },
+      {
+        "role": "金流通路",
+        "text": "[[7-ELEVEN]]、[[全家便利商店]] — 便利商店匯款收款端",
+        "entities": [
+          "7-ELEVEN",
+          "全家便利商店"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台灣大哥大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大哥大"
+    },
+    {
+      "name": "Duracell",
+      "type": "international_company_or_term",
+      "wikilink": "Duracell"
+    },
+    {
+      "name": "Doppelherz",
+      "type": "international_company_or_term",
+      "wikilink": "Doppelherz"
+    },
+    {
+      "name": "7-ELEVEN",
+      "type": "international_company_or_term",
+      "wikilink": "7-ELEVEN"
+    },
+    {
+      "name": "全家便利商店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家便利商店"
+    },
+    {
+      "name": "台灣大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "統振 (6170) 從傳統電池代理商成功轉型為台灣「外籍移工金融科技服務」龍頭企業。公司以自行開發的 QuickPay APP 為核心，打造涵蓋跨境匯款、電信、旅運及電商的移工生態圈。\n\n業務結構與動能：(1) 金融科技金流 — QuickPay 為台灣首家獲准辦理外籍移工小額匯兌之平台，有效會員數超過 40 萬人，累計匯款金額逾 500 億元，涵蓋印尼、越南、菲律賓及泰國等東南亞四國，市佔率約 40%，為主要營收與利潤引擎；(2) 電信事業 — 代理[[台灣大哥大]] OK 卡預付卡，針對移工市場銷售；(3) 流通事業 — 子公司東旺利代理 [[Duracell]] 金頂電池 (台灣獨家)、德國 [[Doppelherz]] 雙心保健食品及彩妝洗沐品牌；(4) 旅運服務 — Q Go 跨國機票與 Q-Shopping 移工電商平台。",
+    "supply_chain_md": "**上游 (金融與商品供應):**\n- **銀行合作:** 東南亞各國合作銀行 — 跨境匯款清算\n- **金流通路:** 便利商店金流系統 — 匯款收款端\n- **電信合作:** [[台灣大哥大]] — OK 卡預付卡代理\n- **消費品原廠:** [[Duracell]] (金頂電池)、[[Doppelherz]] (雙心保健) — 流通商品代理\n\n**中游 (平台營運):**\n- **匯兌平台:** **統振** (QuickPay 跨境小額匯款)\n- **電信代理:** **統振** ([[台灣大哥大]] OK 卡移工電信)\n- **流通代理:** **東旺利** (電池/保健品/彩妝品牌代理)\n- **旅運電商:** **統振** (Q Go 機票、Q-Shopping 電商)\n\n**下游 (終端用戶):**\n- **外籍移工:** 印尼、越南、菲律賓、泰國在台移工 — 匯款/電信/消費\n- **新住民:** 在台東南亞新住民 — 生活服務\n- **一般消費者:** 國內消費者 — 金頂電池/雙心保健品",
+    "customers_suppliers_md": "### 主要客戶\n- **外籍移工:** 超過 40 萬名 QuickPay 活躍會員 (印尼、越南、菲律賓、泰國)\n- **移工雇主:** 製造業與營建業雇主 — 移工電信方案\n- **一般消費者:** [[Duracell]] 金頂電池與 [[Doppelherz]] 雙心保健品終端消費者\n\n### 主要供應商\n- **電信合作:** [[台灣大哥大]] — OK 卡預付卡\n- **電池代理:** [[Duracell]] (金頂) — 台灣獨家電池代理\n- **保健品代理:** [[Doppelherz]] (德之寶/雙心) — 德國保健食品\n- **銀行合作:** 東南亞各國合作銀行 — 跨境匯款清算通路\n- **金流通路:** [[7-ELEVEN]]、[[全家便利商店]] — 便利商店匯款收款端",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $46.35 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.46 |         N/A |      1.41 | 2.45 |     18.34 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3186.45 |      2905.94 |      2261.39 |\n| Gross Profit            |       997.55 |       865.39 |       700.29 |\n| Gross Margin (%)        |        31.31 |        29.78 |        30.97 |\n| Selling & Marketing Exp |       474.00 |       418.74 |       325.29 |\n| R&D Exp                 |       -    |       -    |         0.00 |\n| General & Admin Exp     |       212.43 |       173.86 |       153.78 |\n| Operating Income        |       311.12 |       272.80 |       221.23 |\n| Operating Margin (%)    |         9.76 |         9.39 |         9.78 |\n| Net Income              |       437.17 |       330.12 |       249.12 |\n| Net Margin (%)          |        13.72 |        11.36 |        11.02 |\n| Op Cash Flow            |       278.95 |       405.46 |      -690.07 |\n| Investing Cash Flow     |       -12.90 |        34.73 |       233.45 |\n| Financing Cash Flow     |      -338.66 |      -182.16 |       171.69 |\n| CAPEX                   |        -2.84 |        -0.23 |        -0.44 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       769.63 |       813.49 |       785.48 |       817.85 |\n| Gross Profit            |       237.47 |       261.76 |       240.78 |       257.54 |\n| Gross Margin (%)        |        30.85 |        32.18 |        30.65 |        31.49 |\n| Selling & Marketing Exp |       118.00 |       120.34 |       117.64 |       118.02 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        58.61 |        63.10 |        42.69 |        48.03 |\n| Operating Income        |        60.85 |        78.31 |        80.46 |        91.49 |\n| Operating Margin (%)    |         7.91 |         9.63 |        10.24 |        11.19 |\n| Net Income              |       108.20 |       155.26 |        77.67 |        96.04 |\n| Net Margin (%)          |        14.06 |        19.09 |         9.89 |        11.74 |\n| Op Cash Flow            |       168.09 |       208.37 |       302.46 |      -399.98 |\n| Investing Cash Flow     |        -9.30 |        -0.93 |        -0.08 |        -2.59 |\n| Financing Cash Flow     |      -128.61 |       -58.91 |      -318.87 |       167.73 |\n| CAPEX                   |        -0.37 |        -2.48 |         0.00 |         0.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4909",
+  "company_name": "新復興",
+  "title": "4909 - 新復興",
+  "source_md": "Pilot_Reports/太空衛星科技 - 零組件_材料/4909_新復興.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "3,253 百萬台幣",
+    "enterprise_value": "1,140 百萬台幣"
+  },
+  "business": {
+    "summary": "新復興微波通訊 (4909，[[Shin Fu Shing]]) 為全球 **高頻微波 [[PCB]]** 領導廠商，在亞洲為少數除日商外能大規模生產高頻微波通訊基板之廠商。\n\n主要產品線：(1) **LNB 基板** — 衛星電視降頻器用 PCB，全球市佔率高達八成，為絕對龍頭；(2) **[[5G]] 基地台 PCB** — 供應 [[CommScope]] (Andrew) 等電信設備商之天線板與小型基地台板；(3) **[[低軌衛星]] (LEO) PCB** — 透過 [[啟碁]] 供應 [[SpaceX]] Starlink 地面接收設備用高頻板；(4) **車用 PCB** — [[ADAS]] 雷達板。公司專精於特殊複合材料基板 (如 [[Rogers]] 高頻材料) 與高[[散熱]]基板技術，近年受惠衛星通訊與 5G 雙引擎驅動，營運大幅成長。",
+    "entities": [
+      "Shin Fu Shing",
+      "PCB",
+      "5G",
+      "CommScope",
+      "低軌衛星",
+      "啟碁",
+      "SpaceX",
+      "ADAS",
+      "Rogers",
+      "散熱"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (高頻基板材料)",
+        "text": "**上游 (高頻基板材料):**",
+        "entities": []
+      },
+      {
+        "category": "CCL",
+        "text": "[[Rogers]] — 高頻微波銅箔基板 (特殊複合材料)",
+        "entities": [
+          "Rogers"
+        ]
+      },
+      {
+        "category": "銅箔",
+        "text": "[[銅箔]]供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "化學藥水",
+        "text": "PCB 製程化學品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (高頻微波 PCB 製造)",
+        "text": "**中游 (高頻微波 PCB 製造):**",
+        "entities": []
+      },
+      {
+        "category": "LNB 基板",
+        "text": "**新復興** (全球市佔率 80%)",
+        "entities": []
+      },
+      {
+        "category": "5G 天線板",
+        "text": "**新復興** (基地台用高頻 PCB)",
+        "entities": []
+      },
+      {
+        "category": "衛星通訊板",
+        "text": "**新復興** (VSAT/LEO 衛星接收器 PCB)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (衛星與通訊終端)",
+        "text": "**下游 (衛星與通訊終端):**",
+        "entities": []
+      },
+      {
+        "category": "衛星 LNB",
+        "text": "[[DirecTV]]、[[Dish Network]] — 北美衛星電視降頻器",
+        "entities": [
+          "DirecTV",
+          "Dish Network"
+        ]
+      },
+      {
+        "category": "衛星通訊",
+        "text": "[[啟碁]] — [[SpaceX]] Starlink 地面設備代工",
+        "entities": [
+          "啟碁",
+          "SpaceX"
+        ]
+      },
+      {
+        "category": "電信設備",
+        "text": "[[CommScope]] (Andrew) — 5G 基地台天線",
+        "entities": [
+          "CommScope"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "[[ADAS]] 雷達板客戶",
+        "entities": [
+          "ADAS"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "衛星電視",
+        "text": "[[DirecTV]]、[[Dish Network]] — 北美衛星電視 LNB 降頻器 PCB",
+        "entities": [
+          "DirecTV",
+          "Dish Network"
+        ]
+      },
+      {
+        "role": "衛星通訊",
+        "text": "[[啟碁]] (WNC) — [[SpaceX]] Starlink 路由器/接收器高頻板",
+        "entities": [
+          "啟碁",
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "電信設備",
+        "text": "[[CommScope]] (Andrew) — [[5G]] 基地台天線板",
+        "entities": [
+          "CommScope",
+          "5G"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "[[ADAS]] 雷達板客戶",
+        "entities": [
+          "ADAS"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CCL",
+        "text": "[[Rogers]] — 高頻微波用特殊銅箔基板",
+        "entities": [
+          "Rogers"
+        ]
+      },
+      {
+        "role": "銅箔",
+        "text": "[[銅箔]]供應商",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "role": "化學品",
+        "text": "PCB 製程藥水供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Shin Fu Shing",
+      "type": "international_company_or_term",
+      "wikilink": "Shin Fu Shing"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "CommScope",
+      "type": "international_company_or_term",
+      "wikilink": "CommScope"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "啟碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "啟碁"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "Rogers",
+      "type": "international_company_or_term",
+      "wikilink": "Rogers"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "DirecTV",
+      "type": "international_company_or_term",
+      "wikilink": "DirecTV"
+    },
+    {
+      "name": "Dish Network",
+      "type": "international_company_or_term",
+      "wikilink": "Dish Network"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新復興微波通訊 (4909，[[Shin Fu Shing]]) 為全球 **高頻微波 [[PCB]]** 領導廠商，在亞洲為少數除日商外能大規模生產高頻微波通訊基板之廠商。\n\n主要產品線：(1) **LNB 基板** — 衛星電視降頻器用 PCB，全球市佔率高達八成，為絕對龍頭；(2) **[[5G]] 基地台 PCB** — 供應 [[CommScope]] (Andrew) 等電信設備商之天線板與小型基地台板；(3) **[[低軌衛星]] (LEO) PCB** — 透過 [[啟碁]] 供應 [[SpaceX]] Starlink 地面接收設備用高頻板；(4) **車用 PCB** — [[ADAS]] 雷達板。公司專精於特殊複合材料基板 (如 [[Rogers]] 高頻材料) 與高[[散熱]]基板技術，近年受惠衛星通訊與 5G 雙引擎驅動，營運大幅成長。",
+    "supply_chain_md": "**上游 (高頻基板材料):**\n- **CCL:** [[Rogers]] — 高頻微波銅箔基板 (特殊複合材料)\n- **銅箔:** [[銅箔]]供應商\n- **化學藥水:** PCB 製程化學品\n\n**中游 (高頻微波 PCB 製造):**\n- **LNB 基板:** **新復興** (全球市佔率 80%)\n- **5G 天線板:** **新復興** (基地台用高頻 PCB)\n- **衛星通訊板:** **新復興** (VSAT/LEO 衛星接收器 PCB)\n\n**下游 (衛星與通訊終端):**\n- **衛星 LNB:** [[DirecTV]]、[[Dish Network]] — 北美衛星電視降頻器\n- **衛星通訊:** [[啟碁]] — [[SpaceX]] Starlink 地面設備代工\n- **電信設備:** [[CommScope]] (Andrew) — 5G 基地台天線\n- **車用:** [[ADAS]] 雷達板客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **衛星電視:** [[DirecTV]]、[[Dish Network]] — 北美衛星電視 LNB 降頻器 PCB\n- **衛星通訊:** [[啟碁]] (WNC) — [[SpaceX]] Starlink 路由器/接收器高頻板\n- **電信設備:** [[CommScope]] (Andrew) — [[5G]] 基地台天線板\n- **車用:** [[ADAS]] 雷達板客戶\n\n### 主要供應商\n- **CCL:** [[Rogers]] — 高頻微波用特殊銅箔基板\n- **銅箔:** [[銅箔]]供應商\n- **化學品:** PCB 製程藥水供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $33.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |     13.64 | 1.23 |    -13.11 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       296.57 |      2777.06 |       620.52 |\n| Gross Profit            |       -30.00 |      1039.88 |       132.75 |\n| Gross Margin (%)        |       -10.12 |        37.45 |        21.39 |\n| Selling & Marketing Exp |        18.04 |        28.51 |        18.64 |\n| R&D Exp                 |        14.02 |        13.81 |        15.73 |\n| General & Admin Exp     |        39.59 |       177.00 |        41.38 |\n| Operating Income        |      -101.66 |       820.55 |        57.01 |\n| Operating Margin (%)    |       -34.28 |        29.55 |         9.19 |\n| Net Income              |      -116.66 |       946.47 |        38.89 |\n| Net Margin (%)          |       -39.33 |        34.08 |         6.27 |\n| Op Cash Flow            |       554.89 |       167.75 |        11.62 |\n| Investing Cash Flow     |        34.89 |       345.22 |         1.48 |\n| Financing Cash Flow     |      -559.94 |       -46.68 |         0.00 |\n| CAPEX                   |       -14.95 |       -27.98 |        -7.77 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        51.69 |        55.13 |        71.23 |        51.52 |\n| Gross Profit            |       -10.25 |       -14.83 |        -7.16 |       -14.28 |\n| Gross Margin (%)        |       -19.82 |       -26.90 |       -10.05 |       -27.71 |\n| Selling & Marketing Exp |         4.13 |         4.34 |         4.85 |         3.97 |\n| R&D Exp                 |         3.27 |         3.59 |         3.62 |         3.50 |\n| General & Admin Exp     |         9.05 |        12.47 |        10.76 |         7.43 |\n| Operating Income        |       -26.71 |       -35.23 |       -26.39 |       -29.18 |\n| Operating Margin (%)    |       -51.67 |       -63.91 |       -37.05 |       -56.65 |\n| Net Income              |         4.31 |        19.85 |        57.47 |      -197.72 |\n| Net Margin (%)          |         8.34 |        36.00 |        80.68 |      -383.78 |\n| Op Cash Flow            |       -48.70 |       -17.20 |      -155.74 |       142.07 |\n| Investing Cash Flow     |        -1.53 |        -4.82 |         9.94 |        -0.20 |\n| Financing Cash Flow     |       -    |         0.00 |      -560.14 |       -    |\n| CAPEX                   |        -1.12 |        -2.94 |        -7.00 |        -2.69 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

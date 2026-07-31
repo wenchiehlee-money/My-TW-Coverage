@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3548",
+  "company_name": "兆利",
+  "title": "3548 - 兆利",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 機構樞紐/3548_兆利.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,593 百萬台幣",
+    "enterprise_value": "1,950 百萬台幣"
+  },
+  "business": {
+    "summary": "兆利 (3548，[[Jarllytec]]) 為全球前三大筆電樞紐 (Hinge) 製造商，近年成功切入摺疊手機鉸鏈市場成為核心成長引擎。\n\n業務結構與動能：(1) 摺疊手機 — 為 [[Huawei]] 摺疊機主力鉸鏈供應商，同時供應 [[OPPO]]、[[小米]] 等品牌，摺疊手機營收占比已過半，獲利能力顯著優於傳統 NB 鉸鏈；(2) NB/Monitor — 供應 [[Apple]]、[[Dell]] 等品牌筆電鉸鏈，透過 [[廣達]]、[[英業達]] 等 ODM 廠出貨；(3) 摺疊 PC — 市場預期未來有望切入 [[Apple]] 摺疊產品供應鏈。核心技術為精密多軸鉸鏈設計與 MIM (金屬粉末射出成型) 製程。",
+    "entities": [
+      "Jarllytec",
+      "Huawei",
+      "OPPO",
+      "小米",
+      "Apple",
+      "Dell",
+      "廣達",
+      "英業達"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬與精密零件)",
+        "text": "**上游 (金屬與精密零件):**",
+        "entities": []
+      },
+      {
+        "category": "MIM 零件",
+        "text": "金屬粉末射出成型零件供應商",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "不鏽鋼與特殊鋼材供應商",
+        "entities": []
+      },
+      {
+        "category": "精密軸承",
+        "text": "微型軸承與彈簧供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (鉸鏈設計製造)",
+        "text": "**中游 (鉸鏈設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "摺疊手機鉸鏈",
+        "text": "**兆利** (多軸摺疊鉸鏈)",
+        "entities": []
+      },
+      {
+        "category": "NB 鉸鏈",
+        "text": "**兆利** (筆電轉軸設計製造)",
+        "entities": []
+      },
+      {
+        "category": "Monitor 鉸鏈",
+        "text": "**兆利** (顯示器支架與轉軸)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (手機品牌與NB ODM)",
+        "text": "**下游 (手機品牌與NB ODM):**",
+        "entities": []
+      },
+      {
+        "category": "摺疊手機",
+        "text": "[[Huawei]]、[[OPPO]]、[[小米]] — 摺疊手機鉸鏈",
+        "entities": [
+          "Huawei",
+          "OPPO",
+          "小米"
+        ]
+      },
+      {
+        "category": "NB 品牌",
+        "text": "[[Apple]]、[[Dell]] — NB 鉸鏈",
+        "entities": [
+          "Apple",
+          "Dell"
+        ]
+      },
+      {
+        "category": "NB ODM",
+        "text": "[[廣達]]、[[英業達]] — NB 鉸鏈代工出貨",
+        "entities": [
+          "廣達",
+          "英業達"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "摺疊手機",
+        "text": "[[Huawei]] — 摺疊機主力鉸鏈供應商",
+        "entities": [
+          "Huawei"
+        ]
+      },
+      {
+        "role": "摺疊手機",
+        "text": "[[OPPO]]、[[小米]] — 摺疊手機鉸鏈",
+        "entities": [
+          "OPPO",
+          "小米"
+        ]
+      },
+      {
+        "role": "NB 品牌",
+        "text": "[[Apple]]、[[Dell]] — 筆電鉸鏈",
+        "entities": [
+          "Apple",
+          "Dell"
+        ]
+      },
+      {
+        "role": "NB ODM",
+        "text": "[[廣達]]、[[英業達]] — NB 鉸鏈代工出貨",
+        "entities": [
+          "廣達",
+          "英業達"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "MIM 零件",
+        "text": "金屬粉末射出成型零件供應商",
+        "entities": []
+      },
+      {
+        "role": "鋼材",
+        "text": "不鏽鋼與特殊鋼材供應商",
+        "entities": []
+      },
+      {
+        "role": "精密零件",
+        "text": "微型軸承與彈簧供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Jarllytec",
+      "type": "international_company_or_term",
+      "wikilink": "Jarllytec"
+    },
+    {
+      "name": "Huawei",
+      "type": "international_company_or_term",
+      "wikilink": "Huawei"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "兆利 (3548，[[Jarllytec]]) 為全球前三大筆電樞紐 (Hinge) 製造商，近年成功切入摺疊手機鉸鏈市場成為核心成長引擎。\n\n業務結構與動能：(1) 摺疊手機 — 為 [[Huawei]] 摺疊機主力鉸鏈供應商，同時供應 [[OPPO]]、[[小米]] 等品牌，摺疊手機營收占比已過半，獲利能力顯著優於傳統 NB 鉸鏈；(2) NB/Monitor — 供應 [[Apple]]、[[Dell]] 等品牌筆電鉸鏈，透過 [[廣達]]、[[英業達]] 等 ODM 廠出貨；(3) 摺疊 PC — 市場預期未來有望切入 [[Apple]] 摺疊產品供應鏈。核心技術為精密多軸鉸鏈設計與 MIM (金屬粉末射出成型) 製程。",
+    "supply_chain_md": "**上游 (金屬與精密零件):**\n- **MIM 零件:** 金屬粉末射出成型零件供應商\n- **鋼材:** 不鏽鋼與特殊鋼材供應商\n- **精密軸承:** 微型軸承與彈簧供應商\n\n**中游 (鉸鏈設計製造):**\n- **摺疊手機鉸鏈:** **兆利** (多軸摺疊鉸鏈)\n- **NB 鉸鏈:** **兆利** (筆電轉軸設計製造)\n- **Monitor 鉸鏈:** **兆利** (顯示器支架與轉軸)\n\n**下游 (手機品牌與NB ODM):**\n- **摺疊手機:** [[Huawei]]、[[OPPO]]、[[小米]] — 摺疊手機鉸鏈\n- **NB 品牌:** [[Apple]]、[[Dell]] — NB 鉸鏈\n- **NB ODM:** [[廣達]]、[[英業達]] — NB 鉸鏈代工出貨",
+    "customers_suppliers_md": "### 主要客戶\n- **摺疊手機:** [[Huawei]] — 摺疊機主力鉸鏈供應商\n- **摺疊手機:** [[OPPO]]、[[小米]] — 摺疊手機鉸鏈\n- **NB 品牌:** [[Apple]]、[[Dell]] — 筆電鉸鏈\n- **NB ODM:** [[廣達]]、[[英業達]] — NB 鉸鏈代工出貨\n\n### 主要供應商\n- **MIM 零件:** 金屬粉末射出成型零件供應商\n- **鋼材:** 不鏽鋼與特殊鋼材供應商\n- **精密零件:** 微型軸承與彈簧供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $66.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     32.55 |        5.69 |      0.53 | 0.72 |      4.17 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9405.43 |      9578.17 |      8220.66 |\n| Gross Profit            |      1124.17 |      1586.12 |      1483.25 |\n| Gross Margin (%)        |        11.95 |        16.56 |        18.04 |\n| Selling & Marketing Exp |       172.80 |       247.87 |       222.06 |\n| R&D Exp                 |       246.73 |       268.06 |       223.79 |\n| General & Admin Exp     |       450.29 |       523.46 |       452.63 |\n| Operating Income        |       254.36 |       546.75 |       584.76 |\n| Operating Margin (%)    |         2.70 |         5.71 |         7.11 |\n| Net Income              |       150.74 |       576.76 |       535.28 |\n| Net Margin (%)          |         1.60 |         6.02 |         6.51 |\n| Op Cash Flow            |       516.26 |       448.90 |       973.19 |\n| Investing Cash Flow     |      -538.76 |      -506.20 |      -461.22 |\n| Financing Cash Flow     |       953.12 |       254.04 |      -321.67 |\n| CAPEX                   |      -450.97 |      -606.09 |      -367.06 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2045.55 |      2024.63 |      2707.35 |      2627.91 |\n| Gross Profit            |       220.35 |       232.17 |       352.32 |       319.33 |\n| Gross Margin (%)        |        10.77 |        11.47 |        13.01 |        12.15 |\n| Selling & Marketing Exp |         1.29 |        53.99 |        58.33 |        59.19 |\n| R&D Exp                 |        63.78 |        58.13 |        65.78 |        59.03 |\n| General & Admin Exp     |       114.24 |       104.60 |       109.45 |       122.00 |\n| Operating Income        |        41.05 |        15.45 |       118.76 |        79.10 |\n| Operating Margin (%)    |         2.01 |         0.76 |         4.39 |         3.01 |\n| Net Income              |       101.14 |        45.78 |       -52.23 |        56.05 |\n| Net Margin (%)          |         4.94 |         2.26 |        -1.93 |         2.13 |\n| Op Cash Flow            |       108.22 |         2.16 |      -341.66 |       747.55 |\n| Investing Cash Flow     |       527.31 |       247.87 |      -598.22 |      -715.71 |\n| Financing Cash Flow     |      -152.91 |      -137.90 |        44.06 |      1199.88 |\n| CAPEX                   |       -66.71 |        32.19 |      -109.67 |      -306.77 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

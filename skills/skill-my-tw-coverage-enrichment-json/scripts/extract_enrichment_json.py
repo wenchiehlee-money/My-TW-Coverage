@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract My-TW-Coverage Markdown enrichment into atomic draft JSON.
+"""Extract My-TW-Coverage Markdown enrichment into atomic canonical JSON.
 
 The extractor is intentionally conservative: it preserves source Markdown
 snippets and emits warnings when text cannot be safely atomized.
@@ -263,6 +263,7 @@ def build_json(focus: FocusRow, path: Path, coverage_root: Path) -> dict[str, An
             "business_summary_md": business_summary,
             "supply_chain_md": supply_text,
             "customers_suppliers_md": rel_text,
+            "financial_md": sections.get("財務概況 (單位: 百萬台幣, 只有 Margin 為 %)", ""),
         },
         "quality": {
             "parser_status": "parsed",
@@ -310,7 +311,7 @@ def main() -> int:
     )
     focus_path = Path(args.focus).resolve() if args.focus else default_focus.resolve()
     coverage_root = Path(args.coverage_root).resolve() if args.coverage_root else default_coverage_root.resolve()
-    default_out = coverage_root / "data" / "enrichment_all_draft"
+    default_out = coverage_root / "data" / "enrichment_all"
     default_manifest = coverage_root / "data" / "enrichment_all_manifest.csv"
     out_dir = Path(args.out).resolve() if args.out else default_out
     manifest_path = Path(args.manifest).resolve() if args.manifest else default_manifest

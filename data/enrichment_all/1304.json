@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1304",
+  "company_name": "台聚",
+  "title": "1304 - 台聚",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 石化中間原料(例如乙烯、丙烯、丁二烯、苯、酚等)/1304_台聚.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "12,117 百萬台幣",
+    "enterprise_value": "40,966 百萬台幣"
+  },
+  "business": {
+    "summary": "台聚 (USI Corporation) (台灣聚合化學品股份有限公司) 成立於 1965 年，總部位於台灣[[高雄]]，為[[台聚集團]] (USI Group) 之核心企業。台聚不僅是台灣第一家生產[[聚乙烯]] (PE) 的石化廠，更已發展成為跨足石化、電子材料、投資等領域之綜合集團。主要產品涵蓋 HDPE、LDPE、LLDPE、[[EVA]] (乙烯醋酸乙烯酯共聚物) 及 CBC (環狀嵌段共聚物)。近年受惠於太陽能產業發展，EVA 封裝膜原料成為公司獲利重要引擎。",
+    "entities": [
+      "高雄",
+      "台聚集團",
+      "聚乙烯",
+      "EVA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "原料",
+        "text": "[[乙烯]] (Ethylene)、醋酸乙烯 (VAM)。",
+        "entities": [
+          "乙烯"
+        ]
+      },
+      {
+        "category": "供應商",
+        "text": "主要來自[[中油]] (CPC) 及透過集團聯合採購進口，確保原料來源分散與穩定。",
+        "entities": [
+          "中油"
+        ]
+      },
+      {
+        "category": "子公司",
+        "text": "透過[[華夏]] (1305)、[[亞聚]] (1308)、[[台達化]] (1309) 進行垂直與水平整合。",
+        "entities": [
+          "華夏",
+          "亞聚",
+          "台達化"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "主要產品",
+        "text": "- **主要產品:**",
+        "entities": []
+      },
+      {
+        "category": "EVA",
+        "text": "[[太陽能]]封裝膜 (高毛利)、發泡鞋材、熱熔膠。",
+        "entities": [
+          "太陽能"
+        ]
+      },
+      {
+        "category": "PE (LDPE/HDPE/LLDPE)",
+        "text": "農業用膜、包裝膜、射出成型日用品 (塑膠桶、瓶蓋)。",
+        "entities": []
+      },
+      {
+        "category": "CBC",
+        "text": "高階光學鏡頭、[[醫療器材]] (高附加價值新產品)。",
+        "entities": [
+          "醫療器材"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "太陽能",
+        "text": "國內外太陽能模組廠 (EVA 封裝膜)。",
+        "entities": []
+      },
+      {
+        "role": "加工業",
+        "text": "鞋材廠 (如寶成供應鏈)、包裝材廠、電線電纜廠。",
+        "entities": []
+      },
+      {
+        "role": "出口",
+        "text": "中國、東南亞、印度、中東等地。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[台灣中油]]、國際石化大廠。",
+        "entities": [
+          "台灣中油"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "高雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄"
+    },
+    {
+      "name": "台聚集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚集團"
+    },
+    {
+      "name": "聚乙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚乙烯"
+    },
+    {
+      "name": "EVA",
+      "type": "international_company_or_term",
+      "wikilink": "EVA"
+    },
+    {
+      "name": "乙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "乙烯"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "華夏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏"
+    },
+    {
+      "name": "亞聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞聚"
+    },
+    {
+      "name": "台達化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達化"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "醫療器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療器材"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "德淵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "德淵"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台聚 (USI Corporation) (台灣聚合化學品股份有限公司) 成立於 1965 年，總部位於台灣[[高雄]]，為[[台聚集團]] (USI Group) 之核心企業。台聚不僅是台灣第一家生產[[聚乙烯]] (PE) 的石化廠，更已發展成為跨足石化、電子材料、投資等領域之綜合集團。主要產品涵蓋 HDPE、LDPE、LLDPE、[[EVA]] (乙烯醋酸乙烯酯共聚物) 及 CBC (環狀嵌段共聚物)。近年受惠於太陽能產業發展，EVA 封裝膜原料成為公司獲利重要引擎。",
+    "supply_chain_md": "**上游 (石化原料):**\n- **原料:** [[乙烯]] (Ethylene)、醋酸乙烯 (VAM)。\n- **供應商:** 主要來自[[中油]] (CPC) 及透過集團聯合採購進口，確保原料來源分散與穩定。\n- **子公司:** 透過[[華夏]] (1305)、[[亞聚]] (1308)、[[台達化]] (1309) 進行垂直與水平整合。\n\n**下游應用:**\n- **主要產品:**\n    - **EVA:** [[太陽能]]封裝膜 (高毛利)、發泡鞋材、熱熔膠。\n    - **PE (LDPE/HDPE/LLDPE):** 農業用膜、包裝膜、射出成型日用品 (塑膠桶、瓶蓋)。\n    - **CBC:** 高階光學鏡頭、[[醫療器材]] (高附加價值新產品)。",
+    "customers_suppliers_md": "### 主要客戶\n- **太陽能:** 國內外太陽能模組廠 (EVA 封裝膜)。\n- **加工業:** 鞋材廠 (如寶成供應鏈)、包裝材廠、電線電纜廠。\n- **出口:** 中國、東南亞、印度、中東等地。\n\n### 主要供應商\n- **原料:** [[台灣中油]]、國際石化大廠。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $11.05 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       -6.74 |      0.28 | 0.67 |   -358.46 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     44168.00 |     51008.16 |     52264.76 |\n| Gross Profit            |      1347.65 |      2297.41 |      5606.27 |\n| Gross Margin (%)        |         3.05 |         4.50 |        10.73 |\n| Selling & Marketing Exp |      2243.72 |      2502.26 |      2196.36 |\n| R&D Exp                 |       555.22 |       517.98 |       468.42 |\n| General & Admin Exp     |      1198.81 |      1278.17 |      1323.10 |\n| Operating Income        |     -2650.09 |     -2001.01 |      1618.40 |\n| Operating Margin (%)    |        -6.00 |        -3.92 |         3.10 |\n| Net Income              |     -2790.96 |     -2147.47 |      -207.01 |\n| Net Margin (%)          |        -6.32 |        -4.21 |        -0.40 |\n| Op Cash Flow            |       866.77 |      1485.53 |      4756.47 |\n| Investing Cash Flow     |     -3961.32 |     -6885.65 |     -4586.48 |\n| Financing Cash Flow     |      -471.40 |      1422.79 |      -587.38 |\n| CAPEX                   |     -3687.80 |     -3716.96 |     -3505.03 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      9940.54 |     10505.77 |     11574.19 |     12147.50 |\n| Gross Profit            |       530.34 |       173.56 |       207.78 |       435.97 |\n| Gross Margin (%)        |         5.34 |         1.65 |         1.80 |         3.59 |\n| Selling & Marketing Exp |       516.97 |       561.11 |       582.97 |       582.68 |\n| R&D Exp                 |       140.67 |       172.24 |       114.28 |       128.04 |\n| General & Admin Exp     |       300.45 |       286.82 |       284.53 |       327.00 |\n| Operating Income        |      -427.74 |      -846.61 |      -774.00 |      -601.74 |\n| Operating Margin (%)    |        -4.30 |        -8.06 |        -6.69 |        -4.95 |\n| Net Income              |      -808.76 |      -479.30 |      -869.45 |      -633.45 |\n| Net Margin (%)          |        -8.14 |        -4.56 |        -7.51 |        -5.21 |\n| Op Cash Flow            |       851.70 |      -356.87 |       435.86 |       -63.91 |\n| Investing Cash Flow     |     -1237.07 |     -1216.37 |      -728.87 |      -779.01 |\n| Financing Cash Flow     |       200.65 |      -182.05 |      -412.41 |       -77.59 |\n| CAPEX                   |     -1122.89 |      -957.73 |      -888.74 |      -718.44 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

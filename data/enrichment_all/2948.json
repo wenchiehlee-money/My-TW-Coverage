@@ -1,0 +1,158 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2948",
+  "company_name": "寶陞",
+  "title": "2948 - 寶陞",
+  "source_md": "Pilot_Reports/貿易百貨 - 貿易商、代理商、經銷商/2948_寶陞.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Home Improvement Retail",
+    "market_cap": "1,145 百萬台幣",
+    "enterprise_value": "1,981 百萬台幣"
+  },
+  "business": {
+    "summary": "寶陞國際 (2948，Baosheng International) 為專注美國市場的地板與建材通路商，旗下擁有自有品牌 [[Artisan Hardwood]] 及 [[BAUSEN]]。公司總部設於美國德州休士頓，主攻美國華人社區、當地建商及承包商市場。產品涵蓋：(1) 海島型實木複合地板；(2) [[SPC]] 石塑防水超耐磨地板；(3) 超耐磨木地板；(4) 廚房櫥櫃與石英石檯面。在美國設有 5 座倉儲，自有物流車隊逾 20 輛，向全美約 4,500 個客戶供應產品。",
+    "entities": [
+      "Artisan Hardwood",
+      "BAUSEN",
+      "SPC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (地板製造)",
+        "text": "**上游 (地板製造):**",
+        "entities": []
+      },
+      {
+        "category": "地板 OEM",
+        "text": "中國、越南、東南亞地板代工廠 — 實木複合地板、[[SPC]] 石塑地板",
+        "entities": [
+          "SPC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌通路)",
+        "text": "**中游 (品牌通路):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**寶陞** ([[Artisan Hardwood]]/[[BAUSEN]] 品牌經營、美國倉儲物流、直銷通路)",
+        "entities": [
+          "Artisan Hardwood",
+          "BAUSEN"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "裝修承包商",
+        "text": "美國各州裝修工班 — B2B 直銷",
+        "entities": []
+      },
+      {
+        "category": "建商",
+        "text": "美國地區型建商 — 新建案地板",
+        "entities": []
+      },
+      {
+        "category": "指標客戶",
+        "text": "[[巴克萊銀行]]休士頓分行、[[福朋喜來登]]酒店",
+        "entities": [
+          "巴克萊銀行",
+          "福朋喜來登"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "裝修承包商",
+        "text": "美國各州裝修工班 — 全美約 4,500 個客戶",
+        "entities": []
+      },
+      {
+        "role": "建商",
+        "text": "美國地區型中小建商",
+        "entities": []
+      },
+      {
+        "role": "指標客戶",
+        "text": "[[巴克萊銀行]]休士頓分行、加州[[福朋喜來登]]酒店",
+        "entities": [
+          "巴克萊銀行",
+          "福朋喜來登"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "地板代工",
+        "text": "中國、越南、東南亞 OEM 工廠 — 實木複合地板與 [[SPC]] 地板",
+        "entities": [
+          "SPC"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Artisan Hardwood",
+      "type": "international_company_or_term",
+      "wikilink": "Artisan Hardwood"
+    },
+    {
+      "name": "BAUSEN",
+      "type": "international_company_or_term",
+      "wikilink": "BAUSEN"
+    },
+    {
+      "name": "SPC",
+      "type": "international_company_or_term",
+      "wikilink": "SPC"
+    },
+    {
+      "name": "巴克萊銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巴克萊銀行"
+    },
+    {
+      "name": "福朋喜來登",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福朋喜來登"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶陞國際 (2948，Baosheng International) 為專注美國市場的地板與建材通路商，旗下擁有自有品牌 [[Artisan Hardwood]] 及 [[BAUSEN]]。公司總部設於美國德州休士頓，主攻美國華人社區、當地建商及承包商市場。產品涵蓋：(1) 海島型實木複合地板；(2) [[SPC]] 石塑防水超耐磨地板；(3) 超耐磨木地板；(4) 廚房櫥櫃與石英石檯面。在美國設有 5 座倉儲，自有物流車隊逾 20 輛，向全美約 4,500 個客戶供應產品。",
+    "supply_chain_md": "**上游 (地板製造):**\n- **地板 OEM:** 中國、越南、東南亞地板代工廠 — 實木複合地板、[[SPC]] 石塑地板\n\n**中游 (品牌通路):**\n- **寶陞** ([[Artisan Hardwood]]/[[BAUSEN]] 品牌經營、美國倉儲物流、直銷通路)\n\n**下游 (終端客戶):**\n- **裝修承包商:** 美國各州裝修工班 — B2B 直銷\n- **建商:** 美國地區型建商 — 新建案地板\n- **指標客戶:** [[巴克萊銀行]]休士頓分行、[[福朋喜來登]]酒店",
+    "customers_suppliers_md": "### 主要客戶\n- **裝修承包商:** 美國各州裝修工班 — 全美約 4,500 個客戶\n- **建商:** 美國地區型中小建商\n- **指標客戶:** [[巴克萊銀行]]休士頓分行、加州[[福朋喜來登]]酒店\n\n### 主要供應商\n- **地板代工:** 中國、越南、東南亞 OEM 工廠 — 實木複合地板與 [[SPC]] 地板",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $38.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.85 |         N/A |      0.55 | 1.11 |     15.20 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2140.63 |      2102.02 |      2185.85 |\n| Gross Profit            |       909.18 |       879.50 |       901.60 |\n| Gross Margin (%)        |        42.47 |        41.84 |        41.25 |\n| Selling & Marketing Exp |       259.15 |       225.71 |       225.84 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       525.29 |       527.89 |       494.98 |\n| Operating Income        |       124.74 |       125.90 |       180.79 |\n| Operating Margin (%)    |         5.83 |         5.99 |         8.27 |\n| Net Income              |        66.43 |        65.59 |       106.59 |\n| Net Margin (%)          |         3.10 |         3.12 |         4.88 |\n| Op Cash Flow            |       175.78 |      -139.34 |        83.89 |\n| Investing Cash Flow     |         2.27 |       -32.21 |       -38.74 |\n| Financing Cash Flow     |      -164.25 |      -113.21 |       112.05 |\n| CAPEX                   |        -2.49 |       -10.21 |       -19.44 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       512.11 |       543.21 |       561.92 |       523.39 |\n| Gross Profit            |       246.06 |       210.82 |       227.46 |       224.83 |\n| Gross Margin (%)        |        48.05 |        38.81 |        40.48 |        42.96 |\n| Selling & Marketing Exp |        60.49 |        63.35 |        72.98 |        62.33 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       139.39 |       128.30 |       127.80 |       129.80 |\n| Operating Income        |        46.18 |        19.18 |        26.68 |        32.70 |\n| Operating Margin (%)    |         9.02 |         3.53 |         4.75 |         6.25 |\n| Net Income              |        16.33 |        20.34 |        17.94 |        11.81 |\n| Net Margin (%)          |         3.19 |         3.74 |         3.19 |         2.26 |\n| Op Cash Flow            |       -50.33 |       -22.19 |       237.49 |        10.80 |\n| Investing Cash Flow     |       -12.37 |       -15.90 |        21.05 |         9.49 |\n| Financing Cash Flow     |       -21.86 |         0.10 |      -116.74 |       -25.75 |\n| CAPEX                   |        -0.90 |        -1.59 |         0.00 |         0.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

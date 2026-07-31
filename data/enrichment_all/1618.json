@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1618",
+  "company_name": "合機",
+  "title": "1618 - 合機",
+  "source_md": "Pilot_Reports/汽電共生 - 電纜/1618_合機.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "7,072 百萬台幣",
+    "enterprise_value": "6,889 百萬台幣"
+  },
+  "business": {
+    "summary": "合機電線電纜股份有限公司 (1618) 成立於 1989 年，總部位於台北，工廠設於桃園觀音。合機主要生產高壓及超高壓電力電纜，具備 345kV 超高壓電纜生產及檢測能力，為台灣僅有四家具備此技術之廠商之一。受惠於[[台電]]強韌電網計畫釋出大量高壓電纜標案，公司在手訂單超過 50 億元，營收屢創新高。產品線亦涵蓋 161kV 電纜、通信線纜及一般建築用線。",
+    "entities": [
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "金屬",
+        "text": "銅板 (LME 連動)、鋁錠、鉛",
+        "entities": []
+      },
+      {
+        "category": "化工",
+        "text": "[[XLPE]] 交連聚乙烯、PVC 塑膠粒",
+        "entities": [
+          "XLPE"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電纜製造)",
+        "text": "**中游 (電纜製造):**",
+        "entities": []
+      },
+      {
+        "category": "高壓電纜",
+        "text": "**合機** (伸線、絞線、CCV 交連製程，具備 345kV 檢測能力)",
+        "entities": []
+      },
+      {
+        "category": "一般線纜",
+        "text": "**合機** (建築用線、通信線)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "公用事業",
+        "text": "[[台電]] — 強韌電網計畫 161kV/345kV 地下電纜",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "公共工程",
+        "text": "捷運局、機場擴建工程",
+        "entities": []
+      },
+      {
+        "category": "民間工程",
+        "text": "統包工程商、大型工廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "公用事業",
+        "text": "[[台電]] (強韌電網計畫, 161kV/345kV 地下電纜為主力)",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "公共工程",
+        "text": "捷運局、機場擴建工程",
+        "entities": []
+      },
+      {
+        "role": "民間",
+        "text": "統包工程商、大型工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅材",
+        "text": "國際金屬貿易商 (LME 連動)",
+        "entities": []
+      },
+      {
+        "role": "化工材料",
+        "text": "[[XLPE]] 交連聚乙烯供應商",
+        "entities": [
+          "XLPE"
+        ]
+      },
+      {
+        "role": "同業",
+        "text": "[[華榮]] (1608)、[[大亞]] (1609)、[[華電]] (1603) — 345kV 超高壓電纜市場競爭者",
+        "entities": [
+          "華榮",
+          "大亞",
+          "華電"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "XLPE",
+      "type": "international_company_or_term",
+      "wikilink": "XLPE"
+    },
+    {
+      "name": "華榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華榮"
+    },
+    {
+      "name": "大亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大亞"
+    },
+    {
+      "name": "華電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "合機電線電纜股份有限公司 (1618) 成立於 1989 年，總部位於台北，工廠設於桃園觀音。合機主要生產高壓及超高壓電力電纜，具備 345kV 超高壓電纜生產及檢測能力，為台灣僅有四家具備此技術之廠商之一。受惠於[[台電]]強韌電網計畫釋出大量高壓電纜標案，公司在手訂單超過 50 億元，營收屢創新高。產品線亦涵蓋 161kV 電纜、通信線纜及一般建築用線。",
+    "supply_chain_md": "**上游 (原材料):**\n- **金屬:** 銅板 (LME 連動)、鋁錠、鉛\n- **化工:** [[XLPE]] 交連聚乙烯、PVC 塑膠粒\n\n**中游 (電纜製造):**\n- **高壓電纜:** **合機** (伸線、絞線、CCV 交連製程，具備 345kV 檢測能力)\n- **一般線纜:** **合機** (建築用線、通信線)\n\n**下游 (終端應用):**\n- **公用事業:** [[台電]] — 強韌電網計畫 161kV/345kV 地下電纜\n- **公共工程:** 捷運局、機場擴建工程\n- **民間工程:** 統包工程商、大型工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **公用事業:** [[台電]] (強韌電網計畫, 161kV/345kV 地下電纜為主力)\n- **公共工程:** 捷運局、機場擴建工程\n- **民間:** 統包工程商、大型工廠\n\n### 主要供應商\n- **銅材:** 國際金屬貿易商 (LME 連動)\n- **化工材料:** [[XLPE]] 交連聚乙烯供應商\n- **同業:** [[華榮]] (1608)、[[大亞]] (1609)、[[華電]] (1603) — 345kV 超高壓電纜市場競爭者",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $36.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      8.73 |         N/A |      1.44 | 1.09 |      7.28 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4815.50 |      4674.93 |      4482.67 |\n| Gross Profit            |       911.15 |       905.56 |       577.29 |\n| Gross Margin (%)        |        18.92 |        19.37 |        12.88 |\n| Selling & Marketing Exp |        74.89 |        57.33 |        53.61 |\n| R&D Exp                 |         7.13 |         6.16 |         8.65 |\n| General & Admin Exp     |        77.00 |        88.70 |        63.39 |\n| Operating Income        |       752.13 |       753.38 |       451.64 |\n| Operating Margin (%)    |        15.62 |        16.12 |        10.08 |\n| Net Income              |       810.41 |       714.72 |       386.80 |\n| Net Margin (%)          |        16.83 |        15.29 |         8.63 |\n| Op Cash Flow            |        57.84 |      -157.79 |      -228.67 |\n| Investing Cash Flow     |        39.27 |       -33.24 |      -121.69 |\n| Financing Cash Flow     |       -88.00 |       301.94 |       272.34 |\n| CAPEX                   |       -49.07 |      -106.04 |      -157.94 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       987.32 |      1175.81 |      1564.64 |      1087.73 |\n| Gross Profit            |       195.91 |       204.58 |       235.17 |       275.49 |\n| Gross Margin (%)        |        19.84 |        17.40 |        15.03 |        25.33 |\n| Selling & Marketing Exp |        22.61 |        26.22 |        15.20 |        10.86 |\n| R&D Exp                 |         1.34 |         2.30 |         1.30 |         2.20 |\n| General & Admin Exp     |        16.90 |         0.26 |        30.45 |        29.40 |\n| Operating Income        |       155.06 |       175.81 |       188.22 |       233.04 |\n| Operating Margin (%)    |        15.71 |        14.95 |        12.03 |        21.42 |\n| Net Income              |       182.41 |       194.38 |       197.05 |       236.57 |\n| Net Margin (%)          |        18.48 |        16.53 |        12.59 |        21.75 |\n| Op Cash Flow            |       120.96 |      -207.35 |       134.03 |        10.20 |\n| Investing Cash Flow     |        -6.02 |        74.21 |       -18.72 |       -10.19 |\n| Financing Cash Flow     |       -88.13 |        62.78 |       -68.39 |         5.74 |\n| CAPEX                   |        -7.45 |        -4.46 |       -24.91 |       -12.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

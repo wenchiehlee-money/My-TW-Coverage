@@ -1,0 +1,212 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1305",
+  "company_name": "華夏",
+  "title": "1305 - 華夏",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 塑膠製品/1305_華夏.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "6,362 百萬台幣",
+    "enterprise_value": "13,049 百萬台幣"
+  },
+  "business": {
+    "summary": "華夏海灣塑膠股份有限公司 (China General Plastics Corporation, CGPC) 成立於 1964 年，隸屬於[[台聚集團]]，總部位於台灣[[台北]]。華夏為台灣第二大 [[PVC]] (聚氯乙烯) 生產商，擁有從 VCM (氯乙烯單體) 到 PVC 粉，再到下游二次加工品 (膠布、膠皮、管材) 之完整垂直整合產線。公司產品廣泛應用於建材、裝潢、汽車及醫療領域，並以「華夏」與「CGPC」品牌行銷全球。",
+    "entities": [
+      "台聚集團",
+      "台北",
+      "PVC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (垂直整合)",
+        "text": "**上游 (垂直整合):**",
+        "entities": []
+      },
+      {
+        "category": "原料",
+        "text": "- **原料:**",
+        "entities": []
+      },
+      {
+        "category": "VCM",
+        "text": "持有[[台灣氯乙烯]] (TVCM) 87% 股權，確保關鍵原料 VCM 穩定供應 (年產能 48.5 萬噸)。",
+        "entities": [
+          "台灣氯乙烯"
+        ]
+      },
+      {
+        "category": "PVC粉",
+        "text": "子公司[[華夏聚合]] (年產能 22 萬噸) 強化上游整合。",
+        "entities": [
+          "華夏聚合"
+        ]
+      },
+      {
+        "category": "乙烯/EDC",
+        "text": "向[[中油]]或國外採購。",
+        "entities": [
+          "中油"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "主要產品",
+        "text": "[[PVC粉]]、[[膠布]]、[[膠皮]]、管材、異型押出建材。",
+        "entities": [
+          "PVC粉",
+          "膠布",
+          "膠皮"
+        ]
+      },
+      {
+        "category": "終端應用",
+        "text": "- **終端應用:**",
+        "entities": []
+      },
+      {
+        "category": "營建",
+        "text": "水管、防水膜、隔間板、地板 (LVT)。",
+        "entities": []
+      },
+      {
+        "category": "民生",
+        "text": "家具貼皮、雨衣、包裝膜 (保鮮膜)。",
+        "entities": []
+      },
+      {
+        "category": "車用/醫療",
+        "text": "汽車內飾皮、[[醫療器材]]包裝。",
+        "entities": [
+          "醫療器材"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "加工業",
+        "text": "國內外塑膠二次加工廠。",
+        "entities": []
+      },
+      {
+        "role": "建材商",
+        "text": "[[營造]]廠、建材經銷商。",
+        "entities": [
+          "營造"
+        ]
+      },
+      {
+        "role": "外銷",
+        "text": "美國、澳洲、東南亞、中國大陸 (主要外銷市場)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[台灣氯乙烯]] (自給)、[[中油]]、[[台塑]]。",
+        "entities": [
+          "台灣氯乙烯",
+          "中油",
+          "台塑"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台聚集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台聚集團"
+    },
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "PVC",
+      "type": "international_company_or_term",
+      "wikilink": "PVC"
+    },
+    {
+      "name": "台灣氯乙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣氯乙烯"
+    },
+    {
+      "name": "華夏聚合",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華夏聚合"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "PVC粉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "PVC粉"
+    },
+    {
+      "name": "膠布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "膠布"
+    },
+    {
+      "name": "膠皮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "膠皮"
+    },
+    {
+      "name": "醫療器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療器材"
+    },
+    {
+      "name": "營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "營造"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華夏海灣塑膠股份有限公司 (China General Plastics Corporation, CGPC) 成立於 1964 年，隸屬於[[台聚集團]]，總部位於台灣[[台北]]。華夏為台灣第二大 [[PVC]] (聚氯乙烯) 生產商，擁有從 VCM (氯乙烯單體) 到 PVC 粉，再到下游二次加工品 (膠布、膠皮、管材) 之完整垂直整合產線。公司產品廣泛應用於建材、裝潢、汽車及醫療領域，並以「華夏」與「CGPC」品牌行銷全球。",
+    "supply_chain_md": "**上游 (垂直整合):**\n- **原料:**\n    - **VCM:** 持有[[台灣氯乙烯]] (TVCM) 87% 股權，確保關鍵原料 VCM 穩定供應 (年產能 48.5 萬噸)。\n    - **PVC粉:** 子公司[[華夏聚合]] (年產能 22 萬噸) 強化上游整合。\n    - **乙烯/EDC:** 向[[中油]]或國外採購。\n\n**下游應用:**\n- **主要產品:** [[PVC粉]]、[[膠布]]、[[膠皮]]、管材、異型押出建材。\n- **終端應用:**\n    - **營建:** 水管、防水膜、隔間板、地板 (LVT)。\n    - **民生:** 家具貼皮、雨衣、包裝膜 (保鮮膜)。\n    - **車用/醫療:** 汽車內飾皮、[[醫療器材]]包裝。",
+    "customers_suppliers_md": "### 主要客戶\n- **加工業:** 國內外塑膠二次加工廠。\n- **建材商:** [[營造]]廠、建材經銷商。\n- **外銷:** 美國、澳洲、東南亞、中國大陸 (主要外銷市場)。\n\n### 主要供應商\n- **原料:** [[台灣氯乙烯]] (自給)、[[中油]]、[[台塑]]。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $10.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |      -15.65 |      0.67 | 0.82 |    -47.75 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9220.95 |     11086.73 |     13707.31 |\n| Gross Profit            |      -349.92 |       210.58 |      1676.77 |\n| Gross Margin (%)        |        -3.79 |         1.90 |        12.23 |\n| Selling & Marketing Exp |       638.94 |       726.93 |       850.95 |\n| R&D Exp                 |        34.70 |        50.59 |        72.93 |\n| General & Admin Exp     |       236.39 |       275.77 |       293.04 |\n| Operating Income        |     -1259.94 |      -842.71 |       459.86 |\n| Operating Margin (%)    |       -13.66 |        -7.60 |         3.35 |\n| Net Income              |      -918.98 |      -709.97 |       341.92 |\n| Net Margin (%)          |        -9.97 |        -6.40 |         2.49 |\n| Op Cash Flow            |       -87.48 |       776.27 |      1020.90 |\n| Investing Cash Flow     |     -1601.66 |     -1461.58 |     -2072.27 |\n| Financing Cash Flow     |       675.23 |      1004.95 |       976.68 |\n| CAPEX                   |     -2014.19 |     -1512.79 |     -1431.02 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2673.91 |      1835.55 |      2265.11 |      2658.16 |\n| Gross Profit            |        52.64 |        11.94 |       -64.07 |      -192.25 |\n| Gross Margin (%)        |         1.97 |         0.65 |        -2.83 |        -7.23 |\n| Selling & Marketing Exp |       158.24 |       136.99 |       163.14 |       167.90 |\n| R&D Exp                 |         8.54 |         7.66 |         9.22 |         9.01 |\n| General & Admin Exp     |        61.41 |        55.93 |        59.92 |        48.27 |\n| Operating Income        |      -175.55 |      -188.64 |      -296.35 |      -417.42 |\n| Operating Margin (%)    |        -6.57 |       -10.28 |       -13.08 |       -15.70 |\n| Net Income              |      -120.41 |      -141.65 |      -103.30 |      -405.54 |\n| Net Margin (%)          |        -4.50 |        -7.72 |        -4.56 |       -15.26 |\n| Op Cash Flow            |       330.77 |       541.51 |      -218.05 |      -327.13 |\n| Investing Cash Flow     |      -620.57 |      -668.45 |      -597.80 |       144.65 |\n| Financing Cash Flow     |       981.03 |       161.75 |       136.85 |         9.22 |\n| CAPEX                   |      -746.38 |      -675.86 |      -560.76 |      -501.30 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

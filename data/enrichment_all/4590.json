@@ -1,0 +1,178 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4590",
+  "company_name": "富田-創",
+  "title": "4590 - 富田-創",
+  "source_md": "Pilot_Reports/電機機械 - 傳動元件/4590_富田-創.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "4,250 百萬台幣",
+    "enterprise_value": "3,696 百萬台幣"
+  },
+  "business": {
+    "summary": "富田電機 (4590，Fukuta Electric & Machinery) 為知名馬達製造商，被譽為「電動車心臟」專家。[[Tesla]]創立初期獨家馬達供應商 (合作逾 15 年，[[Tesla]] 最資深供應商)，曾將 180KW 馬達從 400+ 公斤降至 60 公斤。產品涵蓋工業馬達 (感應/伺服/變頻) 與[[電動車]]動力系統。近年拓展無人機馬達、[[低軌衛星]]球型馬達及[[AI]]機器人關節模組。上游矽鋼片與[[中鋼]]合作開發。",
+    "entities": [
+      "Tesla",
+      "電動車",
+      "低軌衛星",
+      "AI",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "矽鋼片",
+        "text": "[[中鋼]] — 合作開發電磁鋼片",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "銅線/磁鐵",
+        "text": "銅線及稀土永磁磁鐵供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**富田** (EV 馬達/工業馬達/無人機馬達/衛星馬達)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "[[Tesla]] (最大客戶/最資深供應商)、[[Mazda]] — EV 驅動馬達",
+        "entities": [
+          "Tesla",
+          "Mazda"
+        ]
+      },
+      {
+        "category": "工業",
+        "text": "工具機主軸/風機/空壓機",
+        "entities": []
+      },
+      {
+        "category": "新興",
+        "text": "無人機馬達、[[低軌衛星]]姿態控制、[[AI]]機器人關節",
+        "entities": [
+          "低軌衛星",
+          "AI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電動車",
+        "text": "[[Tesla]] — 最大客戶/最資深供應商；[[Mazda]] — EV 馬達",
+        "entities": [
+          "Tesla",
+          "Mazda"
+        ]
+      },
+      {
+        "role": "工業",
+        "text": "工具機/風機/空壓機",
+        "entities": []
+      },
+      {
+        "role": "新興",
+        "text": "無人機、[[低軌衛星]]、[[AI]]機器人",
+        "entities": [
+          "低軌衛星",
+          "AI"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "矽鋼片",
+        "text": "[[中鋼]] — 合作開發",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "磁鐵",
+        "text": "稀土永磁供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "Mazda",
+      "type": "international_company_or_term",
+      "wikilink": "Mazda"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富田電機 (4590，Fukuta Electric & Machinery) 為知名馬達製造商，被譽為「電動車心臟」專家。[[Tesla]]創立初期獨家馬達供應商 (合作逾 15 年，[[Tesla]] 最資深供應商)，曾將 180KW 馬達從 400+ 公斤降至 60 公斤。產品涵蓋工業馬達 (感應/伺服/變頻) 與[[電動車]]動力系統。近年拓展無人機馬達、[[低軌衛星]]球型馬達及[[AI]]機器人關節模組。上游矽鋼片與[[中鋼]]合作開發。",
+    "supply_chain_md": "**上游 (原料):**\n- **矽鋼片:** [[中鋼]] — 合作開發電磁鋼片\n- **銅線/磁鐵:** 銅線及稀土永磁磁鐵供應商\n\n**中游 (製造):**\n- **富田** (EV 馬達/工業馬達/無人機馬達/衛星馬達)\n\n**下游 (終端):**\n- **電動車:** [[Tesla]] (最大客戶/最資深供應商)、[[Mazda]] — EV 驅動馬達\n- **工業:** 工具機主軸/風機/空壓機\n- **新興:** 無人機馬達、[[低軌衛星]]姿態控制、[[AI]]機器人關節",
+    "customers_suppliers_md": "### 主要客戶\n- **電動車:** [[Tesla]] — 最大客戶/最資深供應商；[[Mazda]] — EV 馬達\n- **工業:** 工具機/風機/空壓機\n- **新興:** 無人機、[[低軌衛星]]、[[AI]]機器人\n\n### 主要供應商\n- **矽鋼片:** [[中鋼]] — 合作開發\n- **磁鐵:** 稀土永磁供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $77.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.11 |         N/A |      3.53 | 1.21 |     15.40 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1295.53 |      2199.75 |      2863.46 |\n| Gross Profit            |       378.13 |       479.58 |       195.96 |\n| Gross Margin (%)        |        29.19 |        21.80 |         6.84 |\n| Selling & Marketing Exp |        91.11 |       136.38 |       168.20 |\n| R&D Exp                 |       159.49 |       130.62 |       127.93 |\n| General & Admin Exp     |       131.32 |       120.86 |       135.25 |\n| Operating Income        |        -3.79 |        91.73 |      -235.42 |\n| Operating Margin (%)    |        -0.29 |         4.17 |        -8.22 |\n| Net Income              |       139.09 |       140.41 |      -173.87 |\n| Net Margin (%)          |        10.74 |         6.38 |        -6.07 |\n| Op Cash Flow            |      1316.47 |       152.71 |       789.80 |\n| Investing Cash Flow     |      -166.70 |      -144.74 |      -268.20 |\n| Financing Cash Flow     |      -423.69 |      -296.86 |       536.67 |\n| CAPEX                   |       -95.01 |      -146.82 |      -265.93 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       267.55 |       287.18 |       353.02 |       294.67 |\n| Gross Profit            |        80.74 |        87.71 |       150.36 |        68.41 |\n| Gross Margin (%)        |        30.18 |        30.54 |        42.59 |        23.22 |\n| Selling & Marketing Exp |        19.87 |        18.88 |        19.69 |        23.01 |\n| R&D Exp                 |        42.37 |        35.20 |        43.44 |        40.25 |\n| General & Admin Exp     |        42.44 |        34.27 |        35.98 |        29.25 |\n| Operating Income        |       -23.93 |        -0.64 |        51.26 |       -24.09 |\n| Operating Margin (%)    |        -8.95 |        -0.22 |        14.52 |        -8.17 |\n| Net Income              |        64.92 |       104.80 |        73.88 |       -20.71 |\n| Net Margin (%)          |        24.26 |        36.49 |        20.93 |        -7.03 |\n| Op Cash Flow            |       -83.08 |       890.33 |       -94.76 |       561.52 |\n| Investing Cash Flow     |        64.36 |        -6.51 |       -92.03 |       -60.68 |\n| Financing Cash Flow     |       162.80 |       -67.69 |      -199.59 |      -104.99 |\n| CAPEX                   |        -5.64 |        -6.54 |       -19.18 |       -60.68 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

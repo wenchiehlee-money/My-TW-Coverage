@@ -1,0 +1,294 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2395",
+  "company_name": "研華",
+  "title": "2395 - 研華",
+  "source_md": "Pilot_Reports/運動科技 - 軟體開發/2395_研華.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "477,540 百萬台幣",
+    "enterprise_value": "459,332 百萬台幣"
+  },
+  "business": {
+    "summary": "研華科技 (2395，[[Advantech]]) 成立於 1981 年，總部位於台北，為全球最大[[工業電腦]] ([[IPC]]) 品牌廠暨工業物聯網 ([[IIoT]]) 解決方案領導者。公司產品及服務涵蓋嵌入式電腦、工業自動化、智慧系統、[[Edge AI]] 邊緣運算及雲端服務。\n\n六大事業群：(1) 工業物聯網自動化 (iAutomation)；(2) 嵌入式物聯網 (Embedded-IoT)；(3) 應用運算 (Applied Computing)；(4) 邊緣伺服器 (Edge Server)；(5) 服務物聯網 (iService)；(6) 研華服務+。2025 Q1 營收 173.5 億元，年增 25%，北美及歐洲需求強勁，能源、醫療及半導體為主要成長動能。全球產能布局涵蓋台灣、中國崑山、美國及歐洲。",
+    "entities": [
+      "Advantech",
+      "工業電腦",
+      "IPC",
+      "IIoT",
+      "Edge AI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (CPU 與電子元件)",
+        "text": "**上游 (CPU 與電子元件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 嵌入式/工業級 CPU 及晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]] — Edge AI 邊緣運算 GPU",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "被動元件",
+        "text": "[[MLCC]]、連接器、電源模組",
+        "entities": [
+          "MLCC"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "工業級多層 PCB 及散熱模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (工業電腦品牌與解決方案)",
+        "text": "**中游 (工業電腦品牌與解決方案):**",
+        "entities": []
+      },
+      {
+        "category": "IPC 品牌",
+        "text": "**研華** (全球最大工業電腦品牌，嵌入式/機架式 IPC)",
+        "entities": []
+      },
+      {
+        "category": "Edge AI",
+        "text": "**研華** (AI 邊緣伺服器及 GPU 運算平台)",
+        "entities": []
+      },
+      {
+        "category": "軟體平台",
+        "text": "**研華** (WISE-IoT 雲端物聯網平台)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (各產業終端客戶)",
+        "text": "**下游 (各產業終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "工廠自動化",
+        "text": "全球製造業 — 智慧工廠 IPC/HMI/控制器",
+        "entities": []
+      },
+      {
+        "category": "能源",
+        "text": "太陽能/風電/儲能 — 邊緣運算監控",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "醫院及醫療設備廠 — 醫療級觸控電腦",
+        "entities": []
+      },
+      {
+        "category": "交通/零售",
+        "text": "智慧交通及智慧零售解決方案",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工廠自動化",
+        "text": "全球製造業 — [[IPC]]/HMI/自動化控制器",
+        "entities": [
+          "IPC"
+        ]
+      },
+      {
+        "role": "能源產業",
+        "text": "太陽能/風電/儲能 — 邊緣運算監控平台",
+        "entities": []
+      },
+      {
+        "role": "醫療機構",
+        "text": "醫院及醫療設備廠 — 醫療級觸控電腦",
+        "entities": []
+      },
+      {
+        "role": "智慧交通/零售",
+        "text": "交通及零售業 — IoT 解決方案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 嵌入式 CPU 及晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]] — Edge AI 邊緣運算 GPU",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "電子元件",
+        "text": "被動元件及連接器通路商",
+        "entities": []
+      },
+      {
+        "role": "PCB/散熱",
+        "text": "工業級 PCB 及散熱模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "role": "工業電腦競爭者",
+        "text": "[[威強電]]、[[凌華]]、[[研揚]]、[[艾訊]]、[[立端]]、[[樺漢]]、[[新漢]]",
+        "entities": [
+          "威強電",
+          "凌華",
+          "研揚",
+          "艾訊",
+          "立端",
+          "樺漢",
+          "新漢"
+        ],
+        "basis": "curated_ipc_brand_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Advantech",
+      "type": "international_company_or_term",
+      "wikilink": "Advantech"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "IPC",
+      "type": "international_company_or_term",
+      "wikilink": "IPC"
+    },
+    {
+      "name": "IIoT",
+      "type": "international_company_or_term",
+      "wikilink": "IIoT"
+    },
+    {
+      "name": "Edge AI",
+      "type": "international_company_or_term",
+      "wikilink": "Edge AI"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "威強電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威強電"
+    },
+    {
+      "name": "凌華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌華"
+    },
+    {
+      "name": "研揚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研揚"
+    },
+    {
+      "name": "艾訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "艾訊"
+    },
+    {
+      "name": "立端",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立端"
+    },
+    {
+      "name": "樺漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樺漢"
+    },
+    {
+      "name": "新漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新漢"
+    },
+    {
+      "name": "泓格",
+      "type": "taiwan_company_or_term",
+      "wikilink": "泓格"
+    },
+    {
+      "name": "廣錠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣錠"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "研華科技 (2395，[[Advantech]]) 成立於 1981 年，總部位於台北，為全球最大[[工業電腦]] ([[IPC]]) 品牌廠暨工業物聯網 ([[IIoT]]) 解決方案領導者。公司產品及服務涵蓋嵌入式電腦、工業自動化、智慧系統、[[Edge AI]] 邊緣運算及雲端服務。\n\n六大事業群：(1) 工業物聯網自動化 (iAutomation)；(2) 嵌入式物聯網 (Embedded-IoT)；(3) 應用運算 (Applied Computing)；(4) 邊緣伺服器 (Edge Server)；(5) 服務物聯網 (iService)；(6) 研華服務+。2025 Q1 營收 173.5 億元，年增 25%，北美及歐洲需求強勁，能源、醫療及半導體為主要成長動能。全球產能布局涵蓋台灣、中國崑山、美國及歐洲。",
+    "supply_chain_md": "**上游 (CPU 與電子元件):**\n- **處理器:** [[Intel]]、[[AMD]] — 嵌入式/工業級 CPU 及晶片組\n- **GPU:** [[NVIDIA]] — Edge AI 邊緣運算 GPU\n- **被動元件:** [[MLCC]]、連接器、電源模組\n- **PCB:** 工業級多層 PCB 及散熱模組\n\n**中游 (工業電腦品牌與解決方案):**\n- **IPC 品牌:** **研華** (全球最大工業電腦品牌，嵌入式/機架式 IPC)\n- **Edge AI:** **研華** (AI 邊緣伺服器及 GPU 運算平台)\n- **軟體平台:** **研華** (WISE-IoT 雲端物聯網平台)\n\n**下游 (各產業終端客戶):**\n- **工廠自動化:** 全球製造業 — 智慧工廠 IPC/HMI/控制器\n- **能源:** 太陽能/風電/儲能 — 邊緣運算監控\n- **醫療:** 醫院及醫療設備廠 — 醫療級觸控電腦\n- **交通/零售:** 智慧交通及智慧零售解決方案",
+    "customers_suppliers_md": "### 主要客戶\n- **工廠自動化:** 全球製造業 — [[IPC]]/HMI/自動化控制器\n- **能源產業:** 太陽能/風電/儲能 — 邊緣運算監控平台\n- **醫療機構:** 醫院及醫療設備廠 — 醫療級觸控電腦\n- **智慧交通/零售:** 交通及零售業 — IoT 解決方案\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — 嵌入式 CPU 及晶片組\n- **GPU:** [[NVIDIA]] — Edge AI 邊緣運算 GPU\n- **電子元件:** 被動元件及連接器通路商\n- **PCB/散熱:** 工業級 PCB 及散熱模組供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $547.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     42.67 |       29.84 |      6.43 | 9.57 |     34.45 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     70882.36 |     59786.29 |     64567.70 |\n| Gross Profit            |     28197.60 |     24375.89 |     26161.81 |\n| Gross Margin (%)        |        39.78 |        40.77 |        40.52 |\n| Selling & Marketing Exp |      6756.60 |      6205.99 |      6007.37 |\n| R&D Exp                 |      5815.87 |      5415.98 |      4829.78 |\n| General & Admin Exp     |      4078.82 |      3659.88 |      3164.28 |\n| Operating Income        |     11546.31 |      9094.03 |     12160.38 |\n| Operating Margin (%)    |        16.29 |        15.21 |        18.83 |\n| Net Income              |     10592.51 |      9005.04 |     10837.53 |\n| Net Margin (%)          |        14.94 |        15.06 |        16.78 |\n| Op Cash Flow            |      9902.69 |     10510.85 |      9664.66 |\n| Investing Cash Flow     |     -4220.52 |      -469.84 |     -2572.75 |\n| Financing Cash Flow     |     -7845.59 |     -7792.19 |     -8064.10 |\n| CAPEX                   |     -3013.24 |     -1637.66 |     -1287.74 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     20385.26 |     17921.41 |     17835.80 |     17351.25 |\n| Gross Profit            |      7979.82 |      7129.05 |      7132.73 |      7027.92 |\n| Gross Margin (%)        |        39.15 |        39.78 |        39.99 |        40.50 |\n| Selling & Marketing Exp |      1741.38 |      1767.68 |      1606.51 |      1682.15 |\n| R&D Exp                 |      1513.89 |      1538.98 |      1404.70 |      1409.56 |\n| General & Admin Exp     |       997.85 |       996.16 |      1028.22 |      1017.09 |\n| Operating Income        |      3726.70 |      2826.23 |      3093.30 |      2919.12 |\n| Operating Margin (%)    |        18.28 |        15.77 |        17.34 |        16.82 |\n| Net Income              |      3334.16 |      3103.44 |      1988.96 |      2734.00 |\n| Net Margin (%)          |        16.36 |        17.32 |        11.15 |        15.76 |\n| Op Cash Flow            |      1113.28 |       903.40 |       490.08 |      2464.34 |\n| Investing Cash Flow     |     -2890.32 |     -1060.99 |     -1229.44 |      -846.39 |\n| Financing Cash Flow     |       290.91 |         1.35 |      -138.55 |      -457.99 |\n| CAPEX                   |      -736.89 |      -906.77 |      -700.08 |      -689.58 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

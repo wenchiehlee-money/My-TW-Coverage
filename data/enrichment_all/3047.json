@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3047",
+  "company_name": "訊舟",
+  "title": "3047 - 訊舟",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/3047_訊舟.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "3,036 百萬台幣",
+    "enterprise_value": "3,823 百萬台幣"
+  },
+  "business": {
+    "summary": "訊舟科技 (3047，[[EDIMAX]]) 為台灣老牌網通設備廠商，以自有品牌 EDIMAX 及 COMTREND 雙品牌行銷全球，成立於 1986 年，擁有超過三十年網通產品研發製造經驗，服務全球逾 300 個合作夥伴。核心產品涵蓋家用及企業級 [[Wi-Fi]] 路由器、網管型交換器、無線基地台 (AP)、[[AIoT]] 空氣品質監測方案 (AirBox) 及工業交換器。\n\n公司持有子公司 [[康全電訊]] (8089，Comtrend，持股約 33%)，康全專注於電信營運商標案與寬頻設備，近年在印度市場表現亮眼，成功取得印度最大行動電信業者之 [[5G]] 標案，帶動營收大幅成長，成為集團重要獲利引擎。訊舟近年積極拓展 AIoT 應用及企業級網管方案，同時透過 OBM 與 ODM 雙軌策略拓展全球市場。",
+    "entities": [
+      "EDIMAX",
+      "Wi-Fi",
+      "AIoT",
+      "康全電訊",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與元件)",
+        "text": "**上游 (網通晶片與元件):**",
+        "entities": []
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "[[瑞昱]]、[[聯發科]] — Wi-Fi 路由解決方案",
+        "entities": [
+          "瑞昱",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "寬頻晶片",
+        "text": "[[Broadcom]] — 寬頻路由晶片",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "感測器",
+        "text": "AIoT 環境感測器零組件",
+        "entities": []
+      },
+      {
+        "category": "光通訊模組",
+        "text": "光收發模組元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (網通設備品牌與製造)",
+        "text": "**中游 (網通設備品牌與製造):**",
+        "entities": []
+      },
+      {
+        "category": "消費品牌",
+        "text": "**訊舟** (EDIMAX 品牌 — 路由器/交換器/AP)",
+        "entities": []
+      },
+      {
+        "category": "電信設備",
+        "text": "[[康全電訊]] (Comtrend，8089 — 局端寬頻設備/5G CPE)",
+        "entities": [
+          "康全電訊"
+        ]
+      },
+      {
+        "category": "AIoT",
+        "text": "**訊舟** (AirBox 空氣品質監測系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電信營運商與消費通路)",
+        "text": "**下游 (電信營運商與消費通路):**",
+        "entities": []
+      },
+      {
+        "category": "印度電信",
+        "text": "印度最大行動電信業者 5G 標案 ([[康全電訊]] 主導)",
+        "entities": [
+          "康全電訊"
+        ]
+      },
+      {
+        "category": "新興市場",
+        "text": "亞太及新興國家電信營運商寬頻設備",
+        "entities": []
+      },
+      {
+        "category": "消費通路",
+        "text": "全球中小企業及 SOHO 用戶 (歐美亞 IT 經銷商)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "印度電信",
+        "text": "印度最大行動電信業者 — [[康全電訊]] 5G 標案 (營收成長五成以上)",
+        "entities": [
+          "康全電訊"
+        ]
+      },
+      {
+        "role": "新興市場電信",
+        "text": "東南亞及新興國家電信營運商 — 局端寬頻設備",
+        "entities": []
+      },
+      {
+        "role": "歐美消費",
+        "text": "EDIMAX 品牌透過代理商 (如英國 Solwise) 銷售予 SMB 及消費者",
+        "entities": []
+      },
+      {
+        "role": "AIoT",
+        "text": "政府機關及學校空氣品質監測標案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "[[瑞昱]]、[[聯發科]]",
+        "entities": [
+          "瑞昱",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "寬頻晶片",
+        "text": "[[Broadcom]]",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "子公司",
+        "text": "[[康全電訊]] (8089，持股約 33%，電信標案主力)",
+        "entities": [
+          "康全電訊"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "EDIMAX",
+      "type": "international_company_or_term",
+      "wikilink": "EDIMAX"
+    },
+    {
+      "name": "Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "康全電訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康全電訊"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "訊舟科技 (3047，[[EDIMAX]]) 為台灣老牌網通設備廠商，以自有品牌 EDIMAX 及 COMTREND 雙品牌行銷全球，成立於 1986 年，擁有超過三十年網通產品研發製造經驗，服務全球逾 300 個合作夥伴。核心產品涵蓋家用及企業級 [[Wi-Fi]] 路由器、網管型交換器、無線基地台 (AP)、[[AIoT]] 空氣品質監測方案 (AirBox) 及工業交換器。\n\n公司持有子公司 [[康全電訊]] (8089，Comtrend，持股約 33%)，康全專注於電信營運商標案與寬頻設備，近年在印度市場表現亮眼，成功取得印度最大行動電信業者之 [[5G]] 標案，帶動營收大幅成長，成為集團重要獲利引擎。訊舟近年積極拓展 AIoT 應用及企業級網管方案，同時透過 OBM 與 ODM 雙軌策略拓展全球市場。",
+    "supply_chain_md": "**上游 (網通晶片與元件):**\n- **Wi-Fi 晶片:** [[瑞昱]]、[[聯發科]] — Wi-Fi 路由解決方案\n- **寬頻晶片:** [[Broadcom]] — 寬頻路由晶片\n- **感測器:** AIoT 環境感測器零組件\n- **光通訊模組:** 光收發模組元件\n\n**中游 (網通設備品牌與製造):**\n- **消費品牌:** **訊舟** (EDIMAX 品牌 — 路由器/交換器/AP)\n- **電信設備:** [[康全電訊]] (Comtrend，8089 — 局端寬頻設備/5G CPE)\n- **AIoT:** **訊舟** (AirBox 空氣品質監測系統)\n\n**下游 (電信營運商與消費通路):**\n- **印度電信:** 印度最大行動電信業者 5G 標案 ([[康全電訊]] 主導)\n- **新興市場:** 亞太及新興國家電信營運商寬頻設備\n- **消費通路:** 全球中小企業及 SOHO 用戶 (歐美亞 IT 經銷商)",
+    "customers_suppliers_md": "### 主要客戶\n- **印度電信:** 印度最大行動電信業者 — [[康全電訊]] 5G 標案 (營收成長五成以上)\n- **新興市場電信:** 東南亞及新興國家電信營運商 — 局端寬頻設備\n- **歐美消費:** EDIMAX 品牌透過代理商 (如英國 Solwise) 銷售予 SMB 及消費者\n- **AIoT:** 政府機關及學校空氣品質監測標案\n\n### 主要供應商\n- **Wi-Fi 晶片:** [[瑞昱]]、[[聯發科]]\n- **寬頻晶片:** [[Broadcom]]\n- **子公司:** [[康全電訊]] (8089，持股約 33%，電信標案主力)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $13.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.94 | 1.18 |    -12.15 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3650.84 |      6815.33 |      4260.41 |\n| Gross Profit            |      1006.74 |      1866.31 |      1055.48 |\n| Gross Margin (%)        |        27.58 |        27.38 |        24.77 |\n| Selling & Marketing Exp |       524.28 |       602.40 |       552.58 |\n| R&D Exp                 |       437.26 |       469.36 |       448.92 |\n| General & Admin Exp     |       332.59 |       419.98 |       301.68 |\n| Operating Income        |      -287.39 |       374.56 |      -247.69 |\n| Operating Margin (%)    |        -7.87 |         5.50 |        -5.81 |\n| Net Income              |      -200.84 |       112.89 |       -30.96 |\n| Net Margin (%)          |        -5.50 |         1.66 |        -0.73 |\n| Op Cash Flow            |       128.92 |       955.56 |       290.59 |\n| Investing Cash Flow     |      -245.48 |       -83.49 |       -24.96 |\n| Financing Cash Flow     |       -55.06 |      -282.90 |      -837.46 |\n| CAPEX                   |      -224.24 |      -101.51 |       -71.77 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       761.07 |       710.78 |       706.64 |       963.14 |\n| Gross Profit            |       175.53 |       167.19 |       207.19 |       262.81 |\n| Gross Margin (%)        |        23.06 |        23.52 |        29.32 |        27.29 |\n| Selling & Marketing Exp |        96.47 |       150.51 |       122.11 |       127.17 |\n| R&D Exp                 |        99.06 |       106.32 |       109.79 |       114.45 |\n| General & Admin Exp     |        72.73 |        92.25 |        82.83 |        73.84 |\n| Operating Income        |       -92.72 |      -181.89 |      -107.55 |       -52.65 |\n| Operating Margin (%)    |       -12.18 |       -25.59 |       -15.22 |        -5.47 |\n| Net Income              |       -21.33 |       -90.81 |       -57.09 |       -97.34 |\n| Net Margin (%)          |        -2.80 |       -12.78 |        -8.08 |       -10.11 |\n| Op Cash Flow            |         4.01 |      -164.14 |       104.89 |        96.03 |\n| Investing Cash Flow     |        -9.81 |      -122.66 |       -44.70 |       -45.71 |\n| Financing Cash Flow     |       119.11 |       108.81 |      -136.24 |       -20.11 |\n| CAPEX                   |       -17.64 |      -154.18 |       -27.25 |       -28.79 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

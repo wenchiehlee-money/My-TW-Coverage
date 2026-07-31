@@ -1,0 +1,227 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1521",
+  "company_name": "大億",
+  "title": "1521 - 大億",
+  "source_md": "Pilot_Reports/汽車 - 車燈/1521_大億.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,913 百萬台幣",
+    "enterprise_value": "1,801 百萬台幣"
+  },
+  "business": {
+    "summary": "大億交通 (1521，Ta Yih Industrial) 為台灣 OEM 車燈龍頭，國內市佔率高達 72%。產品涵蓋高階[[LED]]自適應頭燈 ([[ADB]])、貫穿式尾燈、IML 氛圍燈等。日商[[小糸製作所]] (KOITO) 為重要技術合作夥伴與股東。台灣 OEM 客戶涵蓋[[國瑞汽車]] ([[Toyota]])、[[中華汽車]]、[[三陽工業]]，北美客戶為[[Stellantis]]。公司成功將照明技術延伸至航太 (與[[漢翔]]合作機外燈光系統) 及軌道車輛 (取得[[Alstom]]合格供應商認證，已交付台北捷運環狀線二期燈具)。",
+    "entities": [
+      "LED",
+      "ADB",
+      "小糸製作所",
+      "國瑞汽車",
+      "Toyota",
+      "中華汽車",
+      "三陽工業",
+      "Stellantis",
+      "漢翔",
+      "Alstom"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與技術)",
+        "text": "**上游 (零組件與技術):**",
+        "entities": []
+      },
+      {
+        "category": "LED 光源",
+        "text": "[[LED]]光源模組供應商",
+        "entities": [
+          "LED"
+        ]
+      },
+      {
+        "category": "技術夥伴",
+        "text": "[[小糸製作所]] (KOITO) — 技術合作與股東",
+        "entities": [
+          "小糸製作所"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**大億** (OEM 車燈/[[ADB]]/氛圍燈、軌道燈具、航太燈具)",
+        "entities": [
+          "ADB"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "台灣 OEM",
+        "text": "[[國瑞汽車]] ([[Toyota]])、[[中華汽車]]、[[三陽工業]] — 車燈",
+        "entities": [
+          "國瑞汽車",
+          "Toyota",
+          "中華汽車",
+          "三陽工業"
+        ]
+      },
+      {
+        "category": "北美 OEM",
+        "text": "[[Stellantis]] — 車燈",
+        "entities": [
+          "Stellantis"
+        ]
+      },
+      {
+        "category": "軌道",
+        "text": "[[Alstom]] — 捷運燈具",
+        "entities": [
+          "Alstom"
+        ]
+      },
+      {
+        "category": "航太",
+        "text": "[[漢翔]] — 機外燈光系統",
+        "entities": [
+          "漢翔"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台灣 OEM (市佔 72%)",
+        "text": "[[國瑞汽車]] ([[Toyota]])、[[中華汽車]]、[[三陽工業]]",
+        "entities": [
+          "國瑞汽車",
+          "Toyota",
+          "中華汽車",
+          "三陽工業"
+        ]
+      },
+      {
+        "role": "北美 OEM",
+        "text": "[[Stellantis]] — 車燈",
+        "entities": [
+          "Stellantis"
+        ]
+      },
+      {
+        "role": "軌道",
+        "text": "[[Alstom]] — 台北捷運燈具",
+        "entities": [
+          "Alstom"
+        ]
+      },
+      {
+        "role": "航太",
+        "text": "[[漢翔]] — 機外燈光系統",
+        "entities": [
+          "漢翔"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "技術夥伴",
+        "text": "[[小糸製作所]] (KOITO) — 技術合作與股東",
+        "entities": [
+          "小糸製作所"
+        ]
+      },
+      {
+        "role": "LED 光源",
+        "text": "LED 光源模組",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "ADB",
+      "type": "international_company_or_term",
+      "wikilink": "ADB"
+    },
+    {
+      "name": "小糸製作所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小糸製作所"
+    },
+    {
+      "name": "國瑞汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國瑞汽車"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "中華汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華汽車"
+    },
+    {
+      "name": "三陽工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三陽工業"
+    },
+    {
+      "name": "Stellantis",
+      "type": "international_company_or_term",
+      "wikilink": "Stellantis"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    },
+    {
+      "name": "Alstom",
+      "type": "international_company_or_term",
+      "wikilink": "Alstom"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大億交通 (1521，Ta Yih Industrial) 為台灣 OEM 車燈龍頭，國內市佔率高達 72%。產品涵蓋高階[[LED]]自適應頭燈 ([[ADB]])、貫穿式尾燈、IML 氛圍燈等。日商[[小糸製作所]] (KOITO) 為重要技術合作夥伴與股東。台灣 OEM 客戶涵蓋[[國瑞汽車]] ([[Toyota]])、[[中華汽車]]、[[三陽工業]]，北美客戶為[[Stellantis]]。公司成功將照明技術延伸至航太 (與[[漢翔]]合作機外燈光系統) 及軌道車輛 (取得[[Alstom]]合格供應商認證，已交付台北捷運環狀線二期燈具)。",
+    "supply_chain_md": "**上游 (零組件與技術):**\n- **LED 光源:** [[LED]]光源模組供應商\n- **技術夥伴:** [[小糸製作所]] (KOITO) — 技術合作與股東\n\n**中游 (製造):**\n- **大億** (OEM 車燈/[[ADB]]/氛圍燈、軌道燈具、航太燈具)\n\n**下游 (終端):**\n- **台灣 OEM:** [[國瑞汽車]] ([[Toyota]])、[[中華汽車]]、[[三陽工業]] — 車燈\n- **北美 OEM:** [[Stellantis]] — 車燈\n- **軌道:** [[Alstom]] — 捷運燈具\n- **航太:** [[漢翔]] — 機外燈光系統",
+    "customers_suppliers_md": "### 主要客戶\n- **台灣 OEM (市佔 72%):** [[國瑞汽車]] ([[Toyota]])、[[中華汽車]]、[[三陽工業]]\n- **北美 OEM:** [[Stellantis]] — 車燈\n- **軌道:** [[Alstom]] — 台北捷運燈具\n- **航太:** [[漢翔]] — 機外燈光系統\n\n### 主要供應商\n- **技術夥伴:** [[小糸製作所]] (KOITO) — 技術合作與股東\n- **LED 光源:** LED 光源模組",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $24.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     34.86 |        4.49 |      0.50 | 1.02 |      8.78 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3629.96 |      3696.22 |      4817.00 |\n| Gross Profit            |       590.85 |       512.90 |       713.11 |\n| Gross Margin (%)        |        16.28 |        13.88 |        14.80 |\n| Selling & Marketing Exp |       198.50 |       163.23 |       188.65 |\n| R&D Exp                 |       145.67 |       159.90 |       172.27 |\n| General & Admin Exp     |       138.80 |       151.35 |       156.19 |\n| Operating Income        |       107.87 |        38.43 |       196.00 |\n| Operating Margin (%)    |         2.97 |         1.04 |         4.07 |\n| Net Income              |        66.41 |        87.43 |        42.41 |\n| Net Margin (%)          |         1.83 |         2.37 |         0.88 |\n| Op Cash Flow            |        77.26 |       209.71 |       437.58 |\n| Investing Cash Flow     |       -43.47 |       -82.62 |       -41.53 |\n| Financing Cash Flow     |      -140.23 |      -225.27 |      -160.44 |\n| CAPEX                   |       -29.22 |      -107.97 |       -46.92 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1003.76 |       975.72 |       862.60 |       888.29 |\n| Gross Profit            |       151.06 |       166.27 |       132.63 |       163.87 |\n| Gross Margin (%)        |        15.05 |        17.04 |        15.38 |        18.45 |\n| Selling & Marketing Exp |        45.99 |        60.78 |        43.17 |        42.93 |\n| R&D Exp                 |        34.45 |        38.17 |        38.16 |        35.81 |\n| General & Admin Exp     |        36.69 |        32.51 |        30.34 |        42.01 |\n| Operating Income        |        33.92 |        34.81 |        20.95 |        43.13 |\n| Operating Margin (%)    |         3.38 |         3.57 |         2.43 |         4.86 |\n| Net Income              |        33.33 |        40.36 |       -28.71 |        45.99 |\n| Net Margin (%)          |         3.32 |         4.14 |        -3.33 |         5.18 |\n| Op Cash Flow            |       -38.94 |         8.33 |        14.45 |        24.31 |\n| Investing Cash Flow     |       -11.70 |        -4.36 |       -14.27 |        -2.72 |\n| Financing Cash Flow     |        96.17 |      -103.86 |        -3.18 |       -53.02 |\n| CAPEX                   |       -11.70 |        -4.25 |       -15.73 |        -5.60 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

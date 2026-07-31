@@ -1,0 +1,177 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6606",
+  "company_name": "建德工業",
+  "title": "6606_建德工業",
+  "source_md": "Pilot_Reports/電機機械 - 金屬加工用機械/6606_建德工業.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "2,840 百萬台幣",
+    "enterprise_value": "2,276 百萬台幣"
+  },
+  "business": {
+    "summary": "建德工業 (6606，Kent Industrial) 為台灣老牌精密磨床製造商 (1966 年創立，近 60 年)，自有品牌「KENT」為全球前二大平面磨床製造廠。產品涵蓋精密平面磨床、CNC 數控磨床 (5U 精度)、龍門磨床、萬能圓周磨床及立式/龍門加工中心機。生產基地在台灣與中國 (浙江/江蘇)。上游關鍵零組件採購自[[上銀]] (滾珠螺桿/線性滑軌)、[[銀泰]] (傳動元件)，CNC 控制器來自[[FANUC]]及[[Mitsubishi]]。",
+    "entities": [
+      "上銀",
+      "銀泰",
+      "FANUC",
+      "Mitsubishi"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "傳動元件",
+        "text": "[[上銀]] — [[滾珠螺桿]]/[[線性滑軌]]；[[銀泰]] — 傳動元件",
+        "entities": [
+          "上銀",
+          "滾珠螺桿",
+          "線性滑軌",
+          "銀泰"
+        ]
+      },
+      {
+        "category": "CNC 控制器",
+        "text": "[[FANUC]]、[[Mitsubishi]] — 數控系統",
+        "entities": [
+          "FANUC",
+          "Mitsubishi"
+        ]
+      },
+      {
+        "category": "鑄件",
+        "text": "國內鑄造廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**建德** (KENT 品牌精密磨床/CNC 磨床/加工中心機)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "模具",
+        "text": "射出/沖壓模具研磨",
+        "entities": []
+      },
+      {
+        "category": "汽車",
+        "text": "引擎/傳動零件精密研磨",
+        "entities": []
+      },
+      {
+        "category": "航太",
+        "text": "航太零件加工",
+        "entities": []
+      },
+      {
+        "category": "3C",
+        "text": "金屬機殼/零件加工",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "模具/汽車/航太/3C",
+        "text": "全球精密金屬加工業 — KENT 品牌磨床",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "傳動",
+        "text": "[[上銀]] — [[滾珠螺桿]]/[[線性滑軌]]；[[銀泰]]",
+        "entities": [
+          "上銀",
+          "滾珠螺桿",
+          "線性滑軌",
+          "銀泰"
+        ]
+      },
+      {
+        "role": "CNC",
+        "text": "[[FANUC]]、[[Mitsubishi]] — 數控系統",
+        "entities": [
+          "FANUC",
+          "Mitsubishi"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "上銀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上銀"
+    },
+    {
+      "name": "銀泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銀泰"
+    },
+    {
+      "name": "FANUC",
+      "type": "international_company_or_term",
+      "wikilink": "FANUC"
+    },
+    {
+      "name": "Mitsubishi",
+      "type": "international_company_or_term",
+      "wikilink": "Mitsubishi"
+    },
+    {
+      "name": "滾珠螺桿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "滾珠螺桿"
+    },
+    {
+      "name": "線性滑軌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "線性滑軌"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "建德工業 (6606，Kent Industrial) 為台灣老牌精密磨床製造商 (1966 年創立，近 60 年)，自有品牌「KENT」為全球前二大平面磨床製造廠。產品涵蓋精密平面磨床、CNC 數控磨床 (5U 精度)、龍門磨床、萬能圓周磨床及立式/龍門加工中心機。生產基地在台灣與中國 (浙江/江蘇)。上游關鍵零組件採購自[[上銀]] (滾珠螺桿/線性滑軌)、[[銀泰]] (傳動元件)，CNC 控制器來自[[FANUC]]及[[Mitsubishi]]。",
+    "supply_chain_md": "**上游 (零組件):**\n- **傳動元件:** [[上銀]] — [[滾珠螺桿]]/[[線性滑軌]]；[[銀泰]] — 傳動元件\n- **CNC 控制器:** [[FANUC]]、[[Mitsubishi]] — 數控系統\n- **鑄件:** 國內鑄造廠\n\n**中游 (製造):**\n- **建德** (KENT 品牌精密磨床/CNC 磨床/加工中心機)\n\n**下游 (終端):**\n- **模具:** 射出/沖壓模具研磨\n- **汽車:** 引擎/傳動零件精密研磨\n- **航太:** 航太零件加工\n- **3C:** 金屬機殼/零件加工",
+    "customers_suppliers_md": "### 主要客戶\n- **模具/汽車/航太/3C:** 全球精密金屬加工業 — KENT 品牌磨床\n\n### 主要供應商\n- **傳動:** [[上銀]] — [[滾珠螺桿]]/[[線性滑軌]]；[[銀泰]]\n- **CNC:** [[FANUC]]、[[Mitsubishi]] — 數控系統",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     23.84 |         N/A |      3.40 | 1.80 |      8.72 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       815.27 |       729.14 |       755.75 |\n| Gross Profit            |       327.63 |       270.11 |       302.06 |\n| Gross Margin (%)        |        40.19 |        37.05 |        39.97 |\n| Selling & Marketing Exp |        37.27 |        39.94 |        41.00 |\n| R&D Exp                 |        20.92 |        22.60 |        17.54 |\n| General & Admin Exp     |        78.19 |        81.70 |        81.73 |\n| Operating Income        |       191.25 |       125.88 |       161.79 |\n| Operating Margin (%)    |        23.46 |        17.26 |        21.41 |\n| Net Income              |       119.89 |       101.83 |       101.99 |\n| Net Margin (%)          |        14.71 |        13.97 |        13.50 |\n| Op Cash Flow            |       -22.50 |       268.94 |        31.85 |\n| Investing Cash Flow     |       -81.91 |       398.26 |       -78.05 |\n| Financing Cash Flow     |      -410.80 |      -161.61 |       -28.32 |\n| CAPEX                   |       -52.87 |       -37.16 |       -54.20 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       215.34 |       199.74 |       227.53 |       172.66 |\n| Gross Profit            |        82.17 |        86.37 |        92.49 |        66.61 |\n| Gross Margin (%)        |        38.16 |        43.24 |        40.65 |        38.58 |\n| Selling & Marketing Exp |         6.81 |        11.31 |        10.71 |         8.44 |\n| R&D Exp                 |         2.89 |         6.04 |         9.20 |         2.79 |\n| General & Admin Exp     |        16.86 |        20.21 |        20.09 |        21.03 |\n| Operating Income        |        55.60 |        48.81 |        52.49 |        34.35 |\n| Operating Margin (%)    |        25.82 |        24.44 |        23.07 |        19.89 |\n| Net Income              |        36.12 |        33.56 |        21.68 |        28.53 |\n| Net Margin (%)          |        16.77 |        16.80 |         9.53 |        16.52 |\n| Op Cash Flow            |       -72.42 |      -119.25 |       108.21 |        60.96 |\n| Investing Cash Flow     |       -24.21 |       -62.71 |         3.57 |         1.44 |\n| Financing Cash Flow     |        -0.86 |        -0.90 |      -362.17 |       -46.86 |\n| CAPEX                   |       -22.25 |       -23.61 |        -2.36 |        -4.65 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

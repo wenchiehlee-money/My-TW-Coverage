@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6835",
+  "company_name": "圓裕",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/印刷電路板 - 硬板、軟板、IC載板製造/6835_圓裕.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "2,011 百萬台幣",
+    "enterprise_value": "1,675 百萬台幣"
+  },
+  "business": {
+    "summary": "圓裕企業 (6835) 為[[FPC]]與線組整合方案商。已切入美系電動車Tier 1 (電池感測[[FPC]])。上游[[FCCL]]來自[[台虹]]。",
+    "entities": [
+      "FPC",
+      "FCCL",
+      "台虹"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[台虹]] — [[FCCL]]",
+        "entities": [
+          "台虹",
+          "FCCL"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**圓裕** ([[FPC]]/線組)",
+        "entities": [
+          "FPC"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "美系EV品牌、工控/筆電代工",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "美系EV — 電池[[FPC]]",
+        "entities": [
+          "FPC"
+        ]
+      },
+      {
+        "role": "",
+        "text": "工控/NB代工",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[台虹]] — [[FCCL]]",
+        "entities": [
+          "台虹",
+          "FCCL"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "FPC",
+      "type": "international_company_or_term",
+      "wikilink": "FPC"
+    },
+    {
+      "name": "FCCL",
+      "type": "international_company_or_term",
+      "wikilink": "FCCL"
+    },
+    {
+      "name": "台虹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台虹"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "圓裕企業 (6835) 為[[FPC]]與線組整合方案商。已切入美系電動車Tier 1 (電池感測[[FPC]])。上游[[FCCL]]來自[[台虹]]。",
+    "supply_chain_md": "**上游:** [[台虹]] — [[FCCL]]\n**中游:** **圓裕** ([[FPC]]/線組)\n**下游:** 美系EV品牌、工控/筆電代工",
+    "customers_suppliers_md": "### 主要客戶\n- 美系EV — 電池[[FPC]]\n- 工控/NB代工\n\n### 主要供應商\n- [[台虹]] — [[FCCL]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $30.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    230.77 |         N/A |      0.84 | 1.11 |     13.39 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2379.71 |      2437.61 |      2198.30 |\n| Gross Profit            |       515.05 |       638.62 |       595.10 |\n| Gross Margin (%)        |        21.64 |        26.20 |        27.07 |\n| Selling & Marketing Exp |       127.29 |       123.12 |       105.14 |\n| R&D Exp                 |        98.55 |        91.40 |        86.37 |\n| General & Admin Exp     |       148.11 |       151.91 |       145.81 |\n| Operating Income        |       141.10 |       272.19 |       257.78 |\n| Operating Margin (%)    |         5.93 |        11.17 |        11.73 |\n| Net Income              |        63.83 |       268.67 |       236.13 |\n| Net Margin (%)          |         2.68 |        11.02 |        10.74 |\n| Op Cash Flow            |        83.78 |       373.69 |       344.68 |\n| Investing Cash Flow     |      -656.48 |       -64.40 |       264.57 |\n| Financing Cash Flow     |       130.95 |       566.83 |       -84.31 |\n| CAPEX                   |      -635.81 |       -31.98 |       -44.83 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       576.64 |       521.76 |       609.85 |       648.87 |\n| Gross Profit            |        95.60 |        90.16 |       125.49 |       149.10 |\n| Gross Margin (%)        |        16.58 |        17.28 |        20.58 |        22.98 |\n| Selling & Marketing Exp |        32.24 |        32.12 |        34.32 |        28.05 |\n| R&D Exp                 |        19.89 |        27.04 |        25.06 |        24.25 |\n| General & Admin Exp     |        38.96 |        39.63 |        37.42 |        36.31 |\n| Operating Income        |         4.51 |        -8.62 |        28.69 |        60.48 |\n| Operating Margin (%)    |         0.78 |        -1.65 |         4.70 |         9.32 |\n| Net Income              |         3.50 |         2.72 |        32.38 |       -30.08 |\n| Net Margin (%)          |         0.61 |         0.52 |         5.31 |        -4.64 |\n| Op Cash Flow            |        44.00 |        71.92 |       -19.85 |       -44.97 |\n| Investing Cash Flow     |       -25.95 |      -153.51 |      -204.23 |      -168.62 |\n| Financing Cash Flow     |       -60.23 |       274.60 |       -84.86 |       -85.75 |\n| CAPEX                   |       -26.17 |      -150.38 |      -185.94 |      -169.22 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

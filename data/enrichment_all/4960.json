@@ -1,0 +1,246 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4960",
+  "company_name": "誠美材",
+  "title": "4960 - 誠美材",
+  "source_md": "Pilot_Reports/平面顯示器 - 其他零組件/4960_誠美材.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "10,579 百萬台幣",
+    "enterprise_value": "11,704 百萬台幣"
+  },
+  "business": {
+    "summary": "誠美材料 (4960，[[CMMT]]) 為台灣主要 **偏光片 (Polarizer)** 製造商之一，原名奇美材料，曾隸屬奇美集團。\n\n產品廣泛應用於：(1) **大尺寸面板** — 電視 (主要營收來源)、桌上型顯示器；(2) **中小尺寸** — 筆電、車用顯示器、行動裝置。生產據點位於台灣台南 (月產能約 250 萬平方公尺) 與中國寧波 (昆山奇美材料與 [[日東電工]] 合作之 2500mm 寬幅產線)。近年積極轉型開發高值化產品，如 [[OLED]] 偏光片、[[Mini LED]] 光學膜與車載顯示應用，並拓展非顯示器材料領域。",
+    "entities": [
+      "CMMT",
+      "日東電工",
+      "OLED",
+      "Mini LED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (偏光片關鍵原料)",
+        "text": "**上游 (偏光片關鍵原料):**",
+        "entities": []
+      },
+      {
+        "category": "TAC 膜",
+        "text": "[[Fujifilm]]、[[Konica Minolta]] — 三醋酸纖維素保護膜",
+        "entities": [
+          "Fujifilm",
+          "Konica Minolta"
+        ]
+      },
+      {
+        "category": "PVA 膜",
+        "text": "[[Kuraray]] — 聚乙烯醇延伸膜 (偏光核心)",
+        "entities": [
+          "Kuraray"
+        ]
+      },
+      {
+        "category": "PET 膜",
+        "text": "PET 保護膜供應商",
+        "entities": []
+      },
+      {
+        "category": "合作夥伴",
+        "text": "[[日東電工]] (Nitto Denko) — 昆山產線技術合作",
+        "entities": [
+          "日東電工"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (偏光片製造)",
+        "text": "**中游 (偏光片製造):**",
+        "entities": []
+      },
+      {
+        "category": "大尺寸偏光片",
+        "text": "**誠美材** (TV/Monitor 用)",
+        "entities": []
+      },
+      {
+        "category": "中小尺寸偏光片",
+        "text": "**誠美材** (NB/車用/行動裝置)",
+        "entities": []
+      },
+      {
+        "category": "新材料",
+        "text": "**誠美材** ([[OLED]] 偏光片、[[Mini LED]] 光學膜)",
+        "entities": [
+          "OLED",
+          "Mini LED"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板客戶)",
+        "text": "**下游 (面板客戶):**",
+        "entities": []
+      },
+      {
+        "category": "台系面板",
+        "text": "[[群創]] (主要客戶)、[[友達]]",
+        "entities": [
+          "群創",
+          "友達"
+        ]
+      },
+      {
+        "category": "陸系面板",
+        "text": "[[京東方]] (BOE)、[[惠科]] (HKC)、咸陽彩虹",
+        "entities": [
+          "京東方",
+          "惠科"
+        ]
+      },
+      {
+        "category": "日系面板",
+        "text": "SDP (堺工廠) — 電視面板應用",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台系面板",
+        "text": "[[群創]] — 長期合作夥伴與最大出海口",
+        "entities": [
+          "群創"
+        ]
+      },
+      {
+        "role": "台系面板",
+        "text": "[[友達]] — 偏光片供應",
+        "entities": [
+          "友達"
+        ]
+      },
+      {
+        "role": "陸系面板",
+        "text": "[[京東方]] (BOE)、[[惠科]] (HKC)、咸陽彩虹 — 大尺寸 TV 偏光片",
+        "entities": [
+          "京東方",
+          "惠科"
+        ]
+      },
+      {
+        "role": "日系面板",
+        "text": "SDP (堺工廠) — 電視面板應用",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "TAC 膜",
+        "text": "[[Fujifilm]]、[[Konica Minolta]] — 偏光片保護膜 (日系寡佔)",
+        "entities": [
+          "Fujifilm",
+          "Konica Minolta"
+        ]
+      },
+      {
+        "role": "PVA 膜",
+        "text": "[[Kuraray]] — 偏光核心原料 (日系獨佔)",
+        "entities": [
+          "Kuraray"
+        ]
+      },
+      {
+        "role": "技術合作",
+        "text": "[[日東電工]] — 昆山產線合作夥伴",
+        "entities": [
+          "日東電工"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "CMMT",
+      "type": "international_company_or_term",
+      "wikilink": "CMMT"
+    },
+    {
+      "name": "日東電工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日東電工"
+    },
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "Mini LED",
+      "type": "international_company_or_term",
+      "wikilink": "Mini LED"
+    },
+    {
+      "name": "Fujifilm",
+      "type": "international_company_or_term",
+      "wikilink": "Fujifilm"
+    },
+    {
+      "name": "Konica Minolta",
+      "type": "international_company_or_term",
+      "wikilink": "Konica Minolta"
+    },
+    {
+      "name": "Kuraray",
+      "type": "international_company_or_term",
+      "wikilink": "Kuraray"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "惠科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "惠科"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "誠美材料 (4960，[[CMMT]]) 為台灣主要 **偏光片 (Polarizer)** 製造商之一，原名奇美材料，曾隸屬奇美集團。\n\n產品廣泛應用於：(1) **大尺寸面板** — 電視 (主要營收來源)、桌上型顯示器；(2) **中小尺寸** — 筆電、車用顯示器、行動裝置。生產據點位於台灣台南 (月產能約 250 萬平方公尺) 與中國寧波 (昆山奇美材料與 [[日東電工]] 合作之 2500mm 寬幅產線)。近年積極轉型開發高值化產品，如 [[OLED]] 偏光片、[[Mini LED]] 光學膜與車載顯示應用，並拓展非顯示器材料領域。",
+    "supply_chain_md": "**上游 (偏光片關鍵原料):**\n- **TAC 膜:** [[Fujifilm]]、[[Konica Minolta]] — 三醋酸纖維素保護膜\n- **PVA 膜:** [[Kuraray]] — 聚乙烯醇延伸膜 (偏光核心)\n- **PET 膜:** PET 保護膜供應商\n- **合作夥伴:** [[日東電工]] (Nitto Denko) — 昆山產線技術合作\n\n**中游 (偏光片製造):**\n- **大尺寸偏光片:** **誠美材** (TV/Monitor 用)\n- **中小尺寸偏光片:** **誠美材** (NB/車用/行動裝置)\n- **新材料:** **誠美材** ([[OLED]] 偏光片、[[Mini LED]] 光學膜)\n\n**下游 (面板客戶):**\n- **台系面板:** [[群創]] (主要客戶)、[[友達]]\n- **陸系面板:** [[京東方]] (BOE)、[[惠科]] (HKC)、咸陽彩虹\n- **日系面板:** SDP (堺工廠) — 電視面板應用",
+    "customers_suppliers_md": "### 主要客戶\n- **台系面板:** [[群創]] — 長期合作夥伴與最大出海口\n- **台系面板:** [[友達]] — 偏光片供應\n- **陸系面板:** [[京東方]] (BOE)、[[惠科]] (HKC)、咸陽彩虹 — 大尺寸 TV 偏光片\n- **日系面板:** SDP (堺工廠) — 電視面板應用\n\n### 主要供應商\n- **TAC 膜:** [[Fujifilm]]、[[Konica Minolta]] — 偏光片保護膜 (日系寡佔)\n- **PVA 膜:** [[Kuraray]] — 偏光核心原料 (日系獨佔)\n- **技術合作:** [[日東電工]] — 昆山產線合作夥伴",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $17.95 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |      -36.63 |      1.22 | 1.40 |    -12.09 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8643.19 |      8927.19 |      9237.66 |\n| Gross Profit            |      -388.93 |       443.81 |       365.01 |\n| Gross Margin (%)        |        -4.50 |         4.97 |         3.95 |\n| Selling & Marketing Exp |       186.97 |       238.51 |       217.75 |\n| R&D Exp                 |       394.80 |       393.20 |       389.68 |\n| General & Admin Exp     |       364.83 |       379.88 |       290.14 |\n| Operating Income        |     -1335.55 |      -567.77 |      -532.55 |\n| Operating Margin (%)    |       -15.45 |        -6.36 |        -5.77 |\n| Net Income              |     -1462.72 |      -266.91 |      -580.96 |\n| Net Margin (%)          |       -16.92 |        -2.99 |        -6.29 |\n| Op Cash Flow            |      -541.03 |      -270.56 |      -969.34 |\n| Investing Cash Flow     |      1315.71 |     -2604.27 |      -492.94 |\n| Financing Cash Flow     |       135.05 |       508.19 |      -181.55 |\n| CAPEX                   |      -322.44 |      -355.00 |      -348.76 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2252.14 |      2159.65 |      2114.91 |      2116.49 |\n| Gross Profit            |      -185.79 |       -59.31 |      -113.80 |       -30.03 |\n| Gross Margin (%)        |        -8.25 |        -2.75 |        -5.38 |        -1.42 |\n| Selling & Marketing Exp |        46.21 |        46.28 |        46.14 |        48.34 |\n| R&D Exp                 |        90.69 |       111.19 |        98.18 |        94.75 |\n| General & Admin Exp     |        95.25 |        87.25 |        94.68 |        87.66 |\n| Operating Income        |      -417.93 |      -304.03 |      -352.80 |      -260.77 |\n| Operating Margin (%)    |       -18.56 |       -14.08 |       -16.68 |       -12.32 |\n| Net Income              |      -262.26 |      -219.28 |      -748.82 |      -232.35 |\n| Net Margin (%)          |       -11.65 |       -10.15 |       -35.41 |       -10.98 |\n| Op Cash Flow            |       102.16 |       -84.88 |      -379.29 |      -179.03 |\n| Investing Cash Flow     |       564.60 |       -86.93 |      -182.33 |      1020.37 |\n| Financing Cash Flow     |      -768.63 |       213.41 |       -30.74 |       721.01 |\n| CAPEX                   |       -71.78 |       -45.87 |      -123.69 |       -81.09 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

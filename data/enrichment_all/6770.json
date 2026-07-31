@@ -1,0 +1,296 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6770",
+  "company_name": "力積電",
+  "title": "6770_力積電",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/6770_力積電.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "215,075 百萬台幣",
+    "enterprise_value": "216,572 百萬台幣"
+  },
+  "business": {
+    "summary": "力積電 (6770，[[PSMC]]) 為全球第八大[[晶圓代工]]廠，擁有四座 12 吋及兩座 8 吋晶圓廠，提供 [[DRAM]] 記憶體製造及邏輯 IC 代工。邏輯 IC 中 [[LCD]] 驅動 IC 占比約 40%，積極發展 [[AI]]、車用及工業產品。近期以 18 億美元將銅鑼廠售予 [[Micron]]，雙方展開 [[HBM]] 代工合作，並與印度 [[Tata Electronics]] 合作建設 12 吋晶圓廠。",
+    "entities": [
+      "PSMC",
+      "晶圓代工",
+      "DRAM",
+      "LCD",
+      "AI",
+      "Micron",
+      "HBM",
+      "Tata Electronics"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與設備)",
+        "text": "**上游 (材料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "[[矽晶圓]]",
+        "text": "[[合晶科技]] 等矽晶圓供應",
+        "entities": [
+          "矽晶圓",
+          "合晶科技"
+        ]
+      },
+      {
+        "category": "設備",
+        "text": "半導體製程設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (晶圓代工)",
+        "text": "**中游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "**力積電** (全球第八大，DRAM + 邏輯代工)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計)",
+        "text": "**下游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[聯詠]]、[[奇景光電]] (LCD 驅動 IC 代工)",
+        "entities": [
+          "聯詠",
+          "奇景光電"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Micron]] ([[HBM]] 合作)",
+        "entities": [
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "category": "海外",
+        "text": "[[Tata Electronics]] (印度合資晶圓廠)",
+        "entities": [
+          "Tata Electronics"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "驅動 IC",
+        "text": "[[聯詠]]、[[奇景光電]]",
+        "entities": [
+          "聯詠",
+          "奇景光電"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Micron]] ([[HBM]] 合作/銅鑼廠售予)",
+        "entities": [
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "role": "海外合作",
+        "text": "[[Tata Electronics]] (印度晶圓廠)",
+        "entities": [
+          "Tata Electronics"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "矽晶圓",
+        "text": "[[合晶科技]]",
+        "entities": [
+          "合晶科技"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[台積電]]、[[聯華電子]]、[[世界先進]]",
+        "entities": [
+          "台積電",
+          "聯華電子",
+          "世界先進"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "成熟製程晶圓代工競爭者",
+        "text": "[[聯電]]、[[世界]]、[[中芯國際]]、[[GlobalFoundries]]、[[華虹半導體]]",
+        "entities": [
+          "聯電",
+          "世界",
+          "中芯國際",
+          "GlobalFoundries",
+          "華虹半導體"
+        ],
+        "basis": "curated_foundry_competitor_rule",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[台積電]]",
+        "entities": [
+          "台積電"
+        ],
+        "basis": "reciprocal_competitor_from:2330",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PSMC",
+      "type": "international_company_or_term",
+      "wikilink": "PSMC"
+    },
+    {
+      "name": "晶圓代工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶圓代工"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "LCD",
+      "type": "international_company_or_term",
+      "wikilink": "LCD"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "Tata Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Tata Electronics"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "合晶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合晶科技"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "奇景光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇景光電"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "世界",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界"
+    },
+    {
+      "name": "中芯國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中芯國際"
+    },
+    {
+      "name": "GlobalFoundries",
+      "type": "international_company_or_term",
+      "wikilink": "GlobalFoundries"
+    },
+    {
+      "name": "華虹半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華虹半導體"
+    },
+    {
+      "name": "中華化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華化"
+    },
+    {
+      "name": "巨漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨漢"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "力積電 (6770，[[PSMC]]) 為全球第八大[[晶圓代工]]廠，擁有四座 12 吋及兩座 8 吋晶圓廠，提供 [[DRAM]] 記憶體製造及邏輯 IC 代工。邏輯 IC 中 [[LCD]] 驅動 IC 占比約 40%，積極發展 [[AI]]、車用及工業產品。近期以 18 億美元將銅鑼廠售予 [[Micron]]，雙方展開 [[HBM]] 代工合作，並與印度 [[Tata Electronics]] 合作建設 12 吋晶圓廠。",
+    "supply_chain_md": "**上游 (材料與設備):**\n- **[[矽晶圓]]:** [[合晶科技]] 等矽晶圓供應\n- **設備:** 半導體製程設備\n\n**中游 (晶圓代工):**\n- **晶圓代工:** **力積電** (全球第八大，DRAM + 邏輯代工)\n\n**下游 (IC 設計):**\n- **驅動 IC:** [[聯詠]]、[[奇景光電]] (LCD 驅動 IC 代工)\n- **記憶體:** [[Micron]] ([[HBM]] 合作)\n- **海外:** [[Tata Electronics]] (印度合資晶圓廠)",
+    "customers_suppliers_md": "### 主要客戶\n- **驅動 IC:** [[聯詠]]、[[奇景光電]]\n- **記憶體:** [[Micron]] ([[HBM]] 合作/銅鑼廠售予)\n- **海外合作:** [[Tata Electronics]] (印度晶圓廠)\n\n### 主要供應商\n- **矽晶圓:** [[合晶科技]]\n- **競爭同業:** [[台積電]]、[[聯華電子]]、[[世界先進]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $49.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     29.49 |        7.00 |      4.30 | 2.18 |     41.76 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     46730.11 |     44725.71 |     44022.55 |\n| Gross Profit            |     -1537.00 |       525.42 |      5291.97 |\n| Gross Margin (%)        |        -3.29 |         1.17 |        12.02 |\n| Selling & Marketing Exp |       462.88 |       417.48 |       391.39 |\n| R&D Exp                 |      5257.28 |      5083.63 |      4371.20 |\n| General & Admin Exp     |      2334.32 |      4319.54 |      4497.13 |\n| Operating Income        |     -5960.08 |     -7965.47 |     -3156.45 |\n| Operating Margin (%)    |       -12.75 |       -17.81 |        -7.17 |\n| Net Income              |     -7812.66 |     -6777.30 |     -1643.54 |\n| Net Margin (%)          |       -16.72 |       -15.15 |        -3.73 |\n| Op Cash Flow            |      7823.46 |      6494.63 |      1501.50 |\n| Investing Cash Flow     |      3553.60 |    -35298.18 |    -47688.19 |\n| Financing Cash Flow     |     -5516.91 |      6578.99 |     23803.76 |\n| CAPEX                   |     -8592.83 |    -23533.26 |    -48016.29 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     13572.46 |     12495.24 |     11840.43 |     11277.97 |\n| Gross Profit            |      1388.21 |       794.33 |      -773.29 |     -1021.98 |\n| Gross Margin (%)        |        10.23 |         6.36 |        -6.53 |        -9.06 |\n| Selling & Marketing Exp |       170.07 |       121.78 |       113.25 |       111.49 |\n| R&D Exp                 |      1615.18 |      1346.28 |      1297.19 |      1260.11 |\n| General & Admin Exp     |       744.41 |       559.92 |       569.42 |       582.59 |\n| Operating Income        |     14226.11 |      -719.35 |     -2686.16 |     -1696.43 |\n| Operating Margin (%)    |       104.82 |        -5.76 |       -22.69 |       -15.04 |\n| Net Income              |     14231.21 |      -654.08 |     -2727.94 |     -3333.59 |\n| Net Margin (%)          |       104.85 |        -5.23 |       -23.04 |       -29.56 |\n| Op Cash Flow            |     13345.50 |      3168.03 |      1209.62 |      2658.87 |\n| Investing Cash Flow     |     19565.81 |     -1092.62 |      1307.72 |     -2252.54 |\n| Financing Cash Flow     |    -31566.99 |     -1208.60 |     -3207.34 |       405.10 |\n| CAPEX                   |     -1960.04 |      -819.20 |     -2036.94 |     -2068.50 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "competitors_curated_override_needs_review",
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

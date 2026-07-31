@@ -1,0 +1,216 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3661",
+  "company_name": "世芯-KY",
+  "title": "3661 - 世芯-KY",
+  "source_md": "Pilot_Reports/半導體 - IP設計_IC設計代工服務/3661_世芯-KY.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "230,266 百萬台幣",
+    "enterprise_value": "189,589 百萬台幣"
+  },
+  "business": {
+    "summary": "世芯-KY (Alchip) 是全球領先的高效能運算 (HPC) 與人工智慧 ([[AI]]) 晶片 **ASIC (客製化晶片)** 設計服務商。\n公司專注於 **台積電** 7nm、5nm 及 3nm 的先進製程，並具備深厚的 2.5D/3D 先進封裝 ([[CoWoS]]) 整合能力。\n核心競爭力與亮點：\n1.  **雲端服務商 (CSP) 核心夥伴**: 為北美雲端巨頭 (如 [[Amazon]]、[[Intel]]) 量產自研 [[AI]] 晶片 (例如 [[Amazon]] 的 Inferentia 與 Trainium 產品線)。\n2.  **供應鏈總指揮**: 提供從架構設計、IP 整合、下單管理到封測物流的 Turnkey 服務，確保先進製程晶片的一次投片成功 (One-pass design win)。\n3.  **先進製程領頭羊**: 營收高達 90% 以上來自 [[AI]] 與 HPC 相關應用，預計 2026 年迎來 3nm [[AI]] 加速器的大規模量產。\n4.  **全球化佈局**: 為規避地緣政治風險，積極分散研發與工程資源至北美、日本與東南亞。",
+    "entities": [
+      "AI",
+      "CoWoS",
+      "Amazon",
+      "Intel"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: IP 供應商 ([[Arm]], [[Synopsys]]), EDA 設計工具商。",
+        "entities": [
+          "Arm",
+          "Synopsys"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **世芯-KY (3661)** - ASIC 設計服務與量產代管。",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**合作代工**: [[台積電]] (先進製程唯一夥伴)。",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游 (終端客戶)**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**超大型[[資料中心]]**: [[Amazon]] (AWS), [[Intel]], [[Google]] 等。",
+        "entities": [
+          "資料中心",
+          "Amazon",
+          "Intel",
+          "Google"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**自研晶片大廠**: 理想汽車 (車用電子), 高端[[網通]]與超級電腦業者。",
+        "entities": [
+          "網通"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Amazon]] Web Services (AWS): 提供其自研 [[AI]] 晶片的設計與代管服務。",
+        "entities": [
+          "Amazon",
+          "AI"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[Intel]] (Gaudi 晶片整合專案).",
+        "entities": [
+          "Intel"
+        ]
+      },
+      {
+        "role": "",
+        "text": "北美、日本及中國之一線 [[AI]]、車用與高速運算品牌商。",
+        "entities": [
+          "AI"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "1.  **雲端服務商 (CSP) 核心夥伴**: 為北美雲端巨頭 (如 [[Amazon]]、[[Intel]]) 量產自研 [[AI]] 晶片 (例如 [[Amazon]] 的 Inferentia 與 Trainium 產品線)。",
+        "entities": [
+          "Amazon",
+          "Intel",
+          "AI"
+        ]
+      },
+      {
+        "text": "*   **自研晶片大廠**: 理想汽車 (車用電子), 高端[[網通]]與超級電腦業者。",
+        "entities": [
+          "網通"
+        ]
+      },
+      {
+        "text": "*   [[Amazon]] Web Services (AWS): 提供其自研 [[AI]] 晶片的設計與代管服務。",
+        "entities": [
+          "Amazon",
+          "AI"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "核心競爭力與亮點：",
+        "entities": []
+      }
+    ],
+    "risks": [
+      {
+        "text": "4.  **全球化佈局**: 為規避地緣政治風險，積極分散研發與工程資源至北美、日本與東南亞。",
+        "entities": []
+      }
+    ],
+    "notes": [
+      {
+        "text": "核心競爭力與亮點：",
+        "entities": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "Synopsys",
+      "type": "international_company_or_term",
+      "wikilink": "Synopsys"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "巨有科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨有科技"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "世芯-KY (Alchip) 是全球領先的高效能運算 (HPC) 與人工智慧 ([[AI]]) 晶片 **ASIC (客製化晶片)** 設計服務商。\n公司專注於 **台積電** 7nm、5nm 及 3nm 的先進製程，並具備深厚的 2.5D/3D 先進封裝 ([[CoWoS]]) 整合能力。\n核心競爭力與亮點：\n1.  **雲端服務商 (CSP) 核心夥伴**: 為北美雲端巨頭 (如 [[Amazon]]、[[Intel]]) 量產自研 [[AI]] 晶片 (例如 [[Amazon]] 的 Inferentia 與 Trainium 產品線)。\n2.  **供應鏈總指揮**: 提供從架構設計、IP 整合、下單管理到封測物流的 Turnkey 服務，確保先進製程晶片的一次投片成功 (One-pass design win)。\n3.  **先進製程領頭羊**: 營收高達 90% 以上來自 [[AI]] 與 HPC 相關應用，預計 2026 年迎來 3nm [[AI]] 加速器的大規模量產。\n4.  **全球化佈局**: 為規避地緣政治風險，積極分散研發與工程資源至北美、日本與東南亞。",
+    "supply_chain_md": "*   **上游**: IP 供應商 ([[Arm]], [[Synopsys]]), EDA 設計工具商。\n*   **中游**: **世芯-KY (3661)** - ASIC 設計服務與量產代管。\n*   **合作代工**: [[台積電]] (先進製程唯一夥伴)。\n*   **下游 (終端客戶)**:\n    *   **超大型[[資料中心]]**: [[Amazon]] (AWS), [[Intel]], [[Google]] 等。\n    *   **自研晶片大廠**: 理想汽車 (車用電子), 高端[[網通]]與超級電腦業者。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Amazon]] Web Services (AWS): 提供其自研 [[AI]] 晶片的設計與代管服務。\n*   [[Intel]] (Gaudi 晶片整合專案).\n*   北美、日本及中國之一線 [[AI]]、車用與高速運算品牌商。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $2,785.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     41.54 |       15.61 |      9.28 | 5.26 |     24.56 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     30926.09 |     51968.57 |     30481.58 |\n| Gross Profit            |      8154.38 |     10201.00 |      6794.35 |\n| Gross Margin (%)        |        26.37 |        19.63 |        22.29 |\n| Selling & Marketing Exp |       295.22 |       276.45 |       249.72 |\n| R&D Exp                 |      1831.07 |      2141.87 |      1546.59 |\n| General & Admin Exp     |       634.36 |       989.50 |       857.29 |\n| Operating Income        |      5393.74 |      6793.18 |      4140.75 |\n| Operating Margin (%)    |        17.44 |        13.07 |        13.58 |\n| Net Income              |      5598.34 |      6445.72 |      3325.17 |\n| Net Margin (%)          |        18.10 |        12.40 |        10.91 |\n| Op Cash Flow            |     15271.71 |      3357.88 |      9305.96 |\n| Investing Cash Flow     |     -5827.97 |      -676.46 |     -5118.49 |\n| Financing Cash Flow     |     -2653.12 |     12855.04 |      1275.67 |\n| CAPEX                   |     -2654.30 |     -2613.05 |     -3258.84 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4186.85 |      4727.38 |      6569.86 |      9144.00 |\n| Gross Profit            |      2100.85 |      1997.49 |      1840.92 |      1887.21 |\n| Gross Margin (%)        |        50.18 |        42.25 |        28.02 |        20.64 |\n| Selling & Marketing Exp |        61.44 |        92.37 |        55.92 |        85.81 |\n| R&D Exp                 |       507.82 |       417.37 |       452.98 |       494.04 |\n| General & Admin Exp     |       161.76 |       104.37 |       177.33 |       165.12 |\n| Operating Income        |      1369.83 |      1383.39 |      1154.69 |      1142.24 |\n| Operating Margin (%)    |        32.72 |        29.26 |        17.58 |        12.49 |\n| Net Income              |      1427.89 |      1483.39 |      1327.91 |      1323.52 |\n| Net Margin (%)          |        34.10 |        31.38 |        20.21 |        14.47 |\n| Op Cash Flow            |       249.48 |     -1357.10 |      4858.14 |     -2311.11 |\n| Investing Cash Flow     |     -4414.50 |      -341.38 |     -1049.65 |     -1047.60 |\n| Financing Cash Flow     |        97.82 |        40.98 |     -2820.94 |        27.41 |\n| CAPEX                   |      -398.21 |      -314.53 |      -593.28 |      -355.88 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

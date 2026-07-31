@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8059",
+  "company_name": "凱碩",
+  "title": "8059 - 凱碩",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/8059_凱碩.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "2,775 百萬台幣",
+    "enterprise_value": "4,225 百萬台幣"
+  },
+  "business": {
+    "summary": "凱碩科技 (8059，[[CastleNet Technology]]) 為台灣專注於寬頻網路通訊設備之 OBM/ODM 製造商，成立於 1998 年，為國內排名前五大寬頻數據機供應商。公司深耕纜線數據機 ([[Cable Modem]]) 技術，為全球少數取得 [[CableLabs]] 認證並具備 [[DOCSIS 3.1]] 技術能力之廠商。\n\n核心產品涵蓋 [[DOCSIS]] 3.1 纜線數據機、網格無線路由系統 ([[Mesh Wi-Fi]])、光纖網路終端設備 (ONT) 及語音閘道器。主要行銷歐洲、南美洲、日本及韓國，客戶以有線電視多系統營運商 (MSO)、電信營運商及網際網路服務供應商 (ISP) 為主。近年積極投入 [[5G]]、[[Wi-Fi 6]] 及物聯網 ([[物聯網]]) 新技術開發，透過垂直整合生產優勢拓展全球寬頻升級商機。",
+    "entities": [
+      "CastleNet Technology",
+      "Cable Modem",
+      "CableLabs",
+      "DOCSIS 3.1",
+      "DOCSIS",
+      "Mesh Wi-Fi",
+      "5G",
+      "Wi-Fi 6",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (寬頻通訊晶片)",
+        "text": "**上游 (寬頻通訊晶片):**",
+        "entities": []
+      },
+      {
+        "category": "DOCSIS 晶片",
+        "text": "[[Broadcom]] — Cable Modem 主晶片 (寡占供應)",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "[[Wi-Fi 6]] 無線模組晶片",
+        "entities": [
+          "Wi-Fi 6"
+        ]
+      },
+      {
+        "category": "記憶體與被動元件",
+        "text": "DRAM、Flash 及各類電子被動元件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (寬頻終端設備製造)",
+        "text": "**中游 (寬頻終端設備製造):**",
+        "entities": []
+      },
+      {
+        "category": "纜線數據機",
+        "text": "**凱碩** ([[DOCSIS 3.1]] Cable Modem)",
+        "entities": [
+          "DOCSIS 3.1"
+        ]
+      },
+      {
+        "category": "無線路由",
+        "text": "**凱碩** ([[Mesh Wi-Fi]] 網狀路由器)",
+        "entities": [
+          "Mesh Wi-Fi"
+        ]
+      },
+      {
+        "category": "光纖終端",
+        "text": "**凱碩** (ONT 光纖接取設備)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (有線電視與電信營運商)",
+        "text": "**下游 (有線電視與電信營運商):**",
+        "entities": []
+      },
+      {
+        "category": "歐洲",
+        "text": "歐洲有線電視業者 — DOCSIS 寬頻升級",
+        "entities": []
+      },
+      {
+        "category": "日韓",
+        "text": "日本及韓國有線電視營運商",
+        "entities": []
+      },
+      {
+        "category": "南美洲",
+        "text": "中南美洲 MSO 及 ISP",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "歐洲 MSO",
+        "text": "歐洲有線電視多系統營運商 — [[DOCSIS 3.1]] 數據機",
+        "entities": [
+          "DOCSIS 3.1"
+        ]
+      },
+      {
+        "role": "日韓市場",
+        "text": "日本及韓國有線電視營運商 — Cable Modem 代工",
+        "entities": []
+      },
+      {
+        "role": "南美洲",
+        "text": "中南美洲 MSO 及 ISP — 寬頻終端設備",
+        "entities": []
+      },
+      {
+        "role": "全球 ISP",
+        "text": "網際網路服務供應商 — [[Mesh Wi-Fi]] 與 ONT 設備",
+        "entities": [
+          "Mesh Wi-Fi"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "DOCSIS 晶片",
+        "text": "[[Broadcom]] — Cable Modem 核心晶片 (下單到交貨約 4-6 個月)",
+        "entities": [
+          "Broadcom"
+        ]
+      },
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "[[Wi-Fi 6]] 無線模組晶片供應商",
+        "entities": [
+          "Wi-Fi 6"
+        ]
+      },
+      {
+        "role": "認證標準",
+        "text": "[[CableLabs]] — DOCSIS 規格認證",
+        "entities": [
+          "CableLabs"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "CastleNet Technology",
+      "type": "international_company_or_term",
+      "wikilink": "CastleNet Technology"
+    },
+    {
+      "name": "Cable Modem",
+      "type": "international_company_or_term",
+      "wikilink": "Cable Modem"
+    },
+    {
+      "name": "CableLabs",
+      "type": "international_company_or_term",
+      "wikilink": "CableLabs"
+    },
+    {
+      "name": "DOCSIS 3.1",
+      "type": "international_company_or_term",
+      "wikilink": "DOCSIS 3.1"
+    },
+    {
+      "name": "DOCSIS",
+      "type": "international_company_or_term",
+      "wikilink": "DOCSIS"
+    },
+    {
+      "name": "Mesh Wi-Fi",
+      "type": "international_company_or_term",
+      "wikilink": "Mesh Wi-Fi"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Wi-Fi 6",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 6"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "凱碩科技 (8059，[[CastleNet Technology]]) 為台灣專注於寬頻網路通訊設備之 OBM/ODM 製造商，成立於 1998 年，為國內排名前五大寬頻數據機供應商。公司深耕纜線數據機 ([[Cable Modem]]) 技術，為全球少數取得 [[CableLabs]] 認證並具備 [[DOCSIS 3.1]] 技術能力之廠商。\n\n核心產品涵蓋 [[DOCSIS]] 3.1 纜線數據機、網格無線路由系統 ([[Mesh Wi-Fi]])、光纖網路終端設備 (ONT) 及語音閘道器。主要行銷歐洲、南美洲、日本及韓國，客戶以有線電視多系統營運商 (MSO)、電信營運商及網際網路服務供應商 (ISP) 為主。近年積極投入 [[5G]]、[[Wi-Fi 6]] 及物聯網 ([[物聯網]]) 新技術開發，透過垂直整合生產優勢拓展全球寬頻升級商機。",
+    "supply_chain_md": "**上游 (寬頻通訊晶片):**\n- **DOCSIS 晶片:** [[Broadcom]] — Cable Modem 主晶片 (寡占供應)\n- **Wi-Fi 晶片:** [[Wi-Fi 6]] 無線模組晶片\n- **記憶體與被動元件:** DRAM、Flash 及各類電子被動元件\n\n**中游 (寬頻終端設備製造):**\n- **纜線數據機:** **凱碩** ([[DOCSIS 3.1]] Cable Modem)\n- **無線路由:** **凱碩** ([[Mesh Wi-Fi]] 網狀路由器)\n- **光纖終端:** **凱碩** (ONT 光纖接取設備)\n\n**下游 (有線電視與電信營運商):**\n- **歐洲:** 歐洲有線電視業者 — DOCSIS 寬頻升級\n- **日韓:** 日本及韓國有線電視營運商\n- **南美洲:** 中南美洲 MSO 及 ISP",
+    "customers_suppliers_md": "### 主要客戶\n- **歐洲 MSO:** 歐洲有線電視多系統營運商 — [[DOCSIS 3.1]] 數據機\n- **日韓市場:** 日本及韓國有線電視營運商 — Cable Modem 代工\n- **南美洲:** 中南美洲 MSO 及 ISP — 寬頻終端設備\n- **全球 ISP:** 網際網路服務供應商 — [[Mesh Wi-Fi]] 與 ONT 設備\n\n### 主要供應商\n- **DOCSIS 晶片:** [[Broadcom]] — Cable Modem 核心晶片 (下單到交貨約 4-6 個月)\n- **Wi-Fi 晶片:** [[Wi-Fi 6]] 無線模組晶片供應商\n- **認證標準:** [[CableLabs]] — DOCSIS 規格認證",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $14.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.28 | 2.39 |    -90.38 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7649.91 |       411.28 |       556.44 |\n| Gross Profit            |       704.87 |      -164.26 |       111.05 |\n| Gross Margin (%)        |         9.21 |       -39.94 |        19.96 |\n| Selling & Marketing Exp |       376.65 |        23.37 |        20.65 |\n| R&D Exp                 |       292.38 |       128.09 |       131.88 |\n| General & Admin Exp     |       259.78 |        66.89 |        59.35 |\n| Operating Income        |      -223.94 |      -382.61 |      -100.82 |\n| Operating Margin (%)    |        -2.93 |       -93.03 |       -18.12 |\n| Net Income              |      -462.96 |      -355.06 |         6.72 |\n| Net Margin (%)          |        -6.05 |       -86.33 |         1.21 |\n| Op Cash Flow            |      1780.30 |      -543.41 |      -258.02 |\n| Investing Cash Flow     |       329.86 |        -6.94 |        31.68 |\n| Financing Cash Flow     |      -587.28 |       534.89 |       307.12 |\n| CAPEX                   |       -17.34 |        -5.92 |         0.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2093.31 |      3131.50 |      2770.13 |      1568.40 |\n| Gross Profit            |       366.88 |       395.81 |       269.50 |        80.87 |\n| Gross Margin (%)        |        17.53 |        12.64 |         9.73 |         5.16 |\n| Selling & Marketing Exp |       126.46 |       149.35 |       127.44 |        92.86 |\n| R&D Exp                 |        96.45 |        78.43 |       102.81 |        84.58 |\n| General & Admin Exp     |        95.97 |        83.74 |       105.18 |        63.78 |\n| Operating Income        |        48.00 |        84.29 |       -65.92 |      -160.34 |\n| Operating Margin (%)    |         2.29 |         2.69 |        -2.38 |       -10.22 |\n| Net Income              |       -13.81 |         4.03 |       -93.74 |      -262.27 |\n| Net Margin (%)          |        -0.66 |         0.13 |        -3.38 |       -16.72 |\n| Op Cash Flow            |     -1123.89 |      1550.61 |       -83.16 |      -118.27 |\n| Investing Cash Flow     |        -5.64 |       -40.83 |       -10.16 |       382.51 |\n| Financing Cash Flow     |      -180.85 |      -533.62 |        88.21 |      -202.00 |\n| CAPEX                   |        -5.70 |        -3.17 |        -9.79 |        -2.90 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

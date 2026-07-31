@@ -1,0 +1,209 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1110",
+  "company_name": "東泥",
+  "title": "1110 - 東泥",
+  "source_md": "Pilot_Reports/水泥 - 水泥成品/1110_東泥.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Building Materials",
+    "market_cap": "9,156 百萬台幣",
+    "enterprise_value": "10,545 百萬台幣"
+  },
+  "business": {
+    "summary": "東南水泥股份有限公司 (1110，Southeast Cement) 簡稱東泥，成立於 1956 年。公司早期以生產水泥為主，近年積極轉型為多元化資產控股公司，佈局[[土地開發]]、[[資源再生]]及[[資產租賃]]等領域。高雄廠區已轉型為熟料研磨與水泥儲運中心。透過子公司[[東泥建設]]進行房地產開發，以及與美商[[好市多]] ([[Costco]]) 合作開發高雄亞灣區土地，透過子公司[[東南米樂]]打造「東南米樂 Plaza」商業綜合體。旗下[[東南高良]]則經營資源再生事業，將一般事業廢棄物轉化為綠建材標章之混凝土再生粒料。",
+    "entities": [
+      "土地開發",
+      "資源再生",
+      "資產租賃",
+      "東泥建設",
+      "好市多",
+      "Costco",
+      "東南米樂",
+      "東南高良"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與資源再生)",
+        "text": "**上游 (原料與資源再生):**",
+        "entities": []
+      },
+      {
+        "category": "水泥買賣",
+        "text": "轉型為水泥通路商，負責熟料外購與進口",
+        "entities": []
+      },
+      {
+        "category": "資源再生",
+        "text": "[[東南高良]] — 回收事業廢棄物，轉化為綠建材再生粒料",
+        "entities": [
+          "東南高良"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (建材與開發)",
+        "text": "**中游 (建材與開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**東泥** — 熟料研磨、水泥儲運、爐石粉產銷",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[東泥建設]]** — 住宅建案開發",
+        "entities": [
+          "東泥建設"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "建材銷售",
+        "text": "卜特蘭水泥、高爐水泥、爐石粉",
+        "entities": []
+      },
+      {
+        "category": "預拌混凝土",
+        "text": "[[東南高良]]高雄大發廠",
+        "entities": [
+          "東南高良"
+        ]
+      },
+      {
+        "category": "商業資產",
+        "text": "[[東南米樂]]與[[好市多]] ([[Costco]]) 合作開發高雄亞灣區",
+        "entities": [
+          "東南米樂",
+          "好市多",
+          "Costco"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "建材通路",
+        "text": "南部營造廠與預拌混凝土廠",
+        "entities": []
+      },
+      {
+        "role": "不動產",
+        "text": "[[東泥建設]] — 住宅買家 (如「東泥大賦」屏東潮州、高雄仁武建案)",
+        "entities": [
+          "東泥建設"
+        ]
+      },
+      {
+        "role": "商業租賃",
+        "text": "[[好市多]] ([[Costco]]) — 高雄亞灣區「東南米樂 Plaza」",
+        "entities": [
+          "好市多",
+          "Costco"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "水泥原料",
+        "text": "進口熟料及[[石灰石]]",
+        "entities": [
+          "石灰石"
+        ]
+      },
+      {
+        "role": "資源再生",
+        "text": "[[東南高良]] — 再生粒料與預拌混凝土",
+        "entities": [
+          "東南高良"
+        ]
+      },
+      {
+        "role": "建設工程",
+        "text": "營造工程承攬廠商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "土地開發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "土地開發"
+    },
+    {
+      "name": "資源再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資源再生"
+    },
+    {
+      "name": "資產租賃",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資產租賃"
+    },
+    {
+      "name": "東泥建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東泥建設"
+    },
+    {
+      "name": "好市多",
+      "type": "taiwan_company_or_term",
+      "wikilink": "好市多"
+    },
+    {
+      "name": "Costco",
+      "type": "international_company_or_term",
+      "wikilink": "Costco"
+    },
+    {
+      "name": "東南米樂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東南米樂"
+    },
+    {
+      "name": "東南高良",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東南高良"
+    },
+    {
+      "name": "石灰石",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石灰石"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東南水泥股份有限公司 (1110，Southeast Cement) 簡稱東泥，成立於 1956 年。公司早期以生產水泥為主，近年積極轉型為多元化資產控股公司，佈局[[土地開發]]、[[資源再生]]及[[資產租賃]]等領域。高雄廠區已轉型為熟料研磨與水泥儲運中心。透過子公司[[東泥建設]]進行房地產開發，以及與美商[[好市多]] ([[Costco]]) 合作開發高雄亞灣區土地，透過子公司[[東南米樂]]打造「東南米樂 Plaza」商業綜合體。旗下[[東南高良]]則經營資源再生事業，將一般事業廢棄物轉化為綠建材標章之混凝土再生粒料。",
+    "supply_chain_md": "**上游 (原料與資源再生):**\n- **水泥買賣:** 轉型為水泥通路商，負責熟料外購與進口\n- **資源再生:** [[東南高良]] — 回收事業廢棄物，轉化為綠建材再生粒料\n\n**中游 (建材與開發):**\n- **東泥** — 熟料研磨、水泥儲運、爐石粉產銷\n- **[[東泥建設]]** — 住宅建案開發\n\n**下游 (終端應用):**\n- **建材銷售:** 卜特蘭水泥、高爐水泥、爐石粉\n- **預拌混凝土:** [[東南高良]]高雄大發廠\n- **商業資產:** [[東南米樂]]與[[好市多]] ([[Costco]]) 合作開發高雄亞灣區",
+    "customers_suppliers_md": "### 主要客戶\n- **建材通路:** 南部營造廠與預拌混凝土廠\n- **不動產:** [[東泥建設]] — 住宅買家 (如「東泥大賦」屏東潮州、高雄仁武建案)\n- **商業租賃:** [[好市多]] ([[Costco]]) — 高雄亞灣區「東南米樂 Plaza」\n\n### 主要供應商\n- **水泥原料:** 進口熟料及[[石灰石]]\n- **資源再生:** [[東南高良]] — 再生粒料與預拌混凝土\n- **建設工程:** 營造工程承攬廠商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $16.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     44.72 |         N/A |      3.41 | 0.97 |     36.23 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2851.56 |      2872.96 |      2273.52 |\n| Gross Profit            |       428.46 |       523.04 |       203.88 |\n| Gross Margin (%)        |        15.03 |        18.21 |         8.97 |\n| Selling & Marketing Exp |        30.35 |        53.82 |        20.88 |\n| R&D Exp                 |         4.84 |         0.00 |       -    |\n| General & Admin Exp     |       151.39 |       133.20 |       126.59 |\n| Operating Income        |       241.89 |       336.02 |        56.41 |\n| Operating Margin (%)    |         8.48 |        11.70 |         2.48 |\n| Net Income              |       205.53 |       348.49 |       149.52 |\n| Net Margin (%)          |         7.21 |        12.13 |         6.58 |\n| Op Cash Flow            |       125.84 |       354.11 |       275.85 |\n| Investing Cash Flow     |      -234.51 |      -253.38 |       311.86 |\n| Financing Cash Flow     |       178.47 |       159.83 |      -596.20 |\n| CAPEX                   |      -111.12 |      -205.25 |      -445.48 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       709.27 |       653.30 |       748.46 |       740.52 |\n| Gross Profit            |       108.39 |       110.89 |       105.60 |       103.58 |\n| Gross Margin (%)        |        15.28 |        16.97 |        14.11 |        13.99 |\n| Selling & Marketing Exp |         8.02 |         8.50 |         7.18 |         6.65 |\n| R&D Exp                 |         2.08 |         1.42 |         1.09 |         0.25 |\n| General & Admin Exp     |        46.38 |        41.55 |        31.51 |        31.95 |\n| Operating Income        |        51.92 |        59.41 |        65.83 |        64.73 |\n| Operating Margin (%)    |         7.32 |         9.09 |         8.80 |         8.74 |\n| Net Income              |        41.58 |       121.48 |        -3.35 |        45.81 |\n| Net Margin (%)          |         5.86 |        18.60 |        -0.45 |         6.19 |\n| Op Cash Flow            |       -26.96 |       141.17 |       -20.39 |        32.02 |\n| Investing Cash Flow     |       -83.42 |       -56.43 |       -39.28 |       -55.38 |\n| Financing Cash Flow     |       294.33 |      -242.42 |       127.64 |        -1.07 |\n| CAPEX                   |       -19.82 |       -23.70 |       -23.52 |       -44.08 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

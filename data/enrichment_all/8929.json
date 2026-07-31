@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8929",
+  "company_name": "富堡",
+  "title": "8929 - 富堡",
+  "source_md": "Pilot_Reports/醫療器材 - 醫療器材研發、設計、製造/8929_富堡.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products",
+    "market_cap": "673 百萬台幣",
+    "enterprise_value": "374 百萬台幣"
+  },
+  "business": {
+    "summary": "富堡工業股份有限公司 (8929) 成立於 1977 年，總部位於台灣台北，為台灣及東南亞成人失禁照護用品之領導廠商。公司主要產品涵蓋成人紙尿褲、復健褲、看護墊等成人照護用品，以自有品牌「[[安安]] (Ancare)」在台灣市場佔有一至二成市佔率。此外亦生產嬰兒紙尿褲 (Tino 品牌)、女性衛生用品 ([[ANAN]] 品牌) 及面膜等個人護理產品。富堡近年積極佈局海外市場，已於印度、印尼、柬埔寨及孟加拉成立子公司，搶攻新興市場之高齡照護與個人消費商機。",
+    "entities": [
+      "安安",
+      "ANAN"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (不織布與化工原料)",
+        "text": "**上游 (不織布與化工原料):**",
+        "entities": []
+      },
+      {
+        "category": "吸收材料",
+        "text": "高吸水性樹脂 ([[SAP]])、木漿棉 (Fluff Pulp)",
+        "entities": [
+          "SAP"
+        ]
+      },
+      {
+        "category": "不織布",
+        "text": "[[紡黏不織布]]、熱風不織布等衛材用不織布",
+        "entities": [
+          "紡黏不織布"
+        ]
+      },
+      {
+        "category": "防漏材料",
+        "text": "[[PE]] 透氣膜、彈性腰圍材料",
+        "entities": [
+          "PE"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (衛材製造)",
+        "text": "**中游 (衛材製造):**",
+        "entities": []
+      },
+      {
+        "category": "品牌製造",
+        "text": "**富堡工業 (8929)** — 成人紙尿褲、嬰兒紙尿褲、女性衛生用品之研發製造與品牌營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "內銷通路",
+        "text": "藥局、醫療器材行、量販超市",
+        "entities": []
+      },
+      {
+        "category": "外銷市場",
+        "text": "東南亞 (馬來西亞為主)、東北亞、美國及澳洲",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "自有品牌",
+        "text": "「[[安安]]」成人紙尿褲 (台灣內銷主力)",
+        "entities": [
+          "安安"
+        ]
+      },
+      {
+        "role": "美國通路",
+        "text": "美國零售通路 (婦女衛生產品代工，佔外銷約二成)",
+        "entities": []
+      },
+      {
+        "role": "東南亞經銷",
+        "text": "馬來西亞、印度、印尼等新興市場經銷商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "吸收材料",
+        "text": "國際 [[SAP]] (高吸水性樹脂) 供應商如 [[BASF]]、[[Evonik]]",
+        "entities": [
+          "SAP",
+          "BASF",
+          "Evonik"
+        ]
+      },
+      {
+        "role": "不織布原料",
+        "text": "國內外衛材用不織布供應商 (如 [[南六]] 6504 等)",
+        "entities": [
+          "南六"
+        ]
+      },
+      {
+        "role": "木漿棉",
+        "text": "國際漿紙大廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "安安",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安安"
+    },
+    {
+      "name": "ANAN",
+      "type": "international_company_or_term",
+      "wikilink": "ANAN"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "紡黏不織布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "紡黏不織布"
+    },
+    {
+      "name": "PE",
+      "type": "international_company_or_term",
+      "wikilink": "PE"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Evonik",
+      "type": "international_company_or_term",
+      "wikilink": "Evonik"
+    },
+    {
+      "name": "南六",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南六"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "富堡工業股份有限公司 (8929) 成立於 1977 年，總部位於台灣台北，為台灣及東南亞成人失禁照護用品之領導廠商。公司主要產品涵蓋成人紙尿褲、復健褲、看護墊等成人照護用品，以自有品牌「[[安安]] (Ancare)」在台灣市場佔有一至二成市佔率。此外亦生產嬰兒紙尿褲 (Tino 品牌)、女性衛生用品 ([[ANAN]] 品牌) 及面膜等個人護理產品。富堡近年積極佈局海外市場，已於印度、印尼、柬埔寨及孟加拉成立子公司，搶攻新興市場之高齡照護與個人消費商機。",
+    "supply_chain_md": "**上游 (不織布與化工原料):**\n- **吸收材料:** 高吸水性樹脂 ([[SAP]])、木漿棉 (Fluff Pulp)\n- **不織布:** [[紡黏不織布]]、熱風不織布等衛材用不織布\n- **防漏材料:** [[PE]] 透氣膜、彈性腰圍材料\n\n**中游 (衛材製造):**\n- **品牌製造:** **富堡工業 (8929)** — 成人紙尿褲、嬰兒紙尿褲、女性衛生用品之研發製造與品牌營運\n\n**下游 (銷售通路):**\n- **內銷通路:** 藥局、醫療器材行、量販超市\n- **外銷市場:** 東南亞 (馬來西亞為主)、東北亞、美國及澳洲",
+    "customers_suppliers_md": "### 主要客戶\n- **自有品牌:** 「[[安安]]」成人紙尿褲 (台灣內銷主力)\n- **美國通路:** 美國零售通路 (婦女衛生產品代工，佔外銷約二成)\n- **東南亞經銷:** 馬來西亞、印度、印尼等新興市場經銷商\n\n### 主要供應商\n- **吸收材料:** 國際 [[SAP]] (高吸水性樹脂) 供應商如 [[BASF]]、[[Evonik]]\n- **不織布原料:** 國內外衛材用不織布供應商 (如 [[南六]] 6504 等)\n- **木漿棉:** 國際漿紙大廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $13.25 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.94 | 0.82 |    -10.91 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       719.64 |       772.88 |       687.32 |\n| Gross Profit            |       179.42 |       192.01 |       141.39 |\n| Gross Margin (%)        |        24.93 |        24.84 |        20.57 |\n| Selling & Marketing Exp |       148.61 |       134.70 |       121.25 |\n| R&D Exp                 |         2.32 |         1.91 |         1.23 |\n| General & Admin Exp     |        70.20 |        65.81 |        69.51 |\n| Operating Income        |       -41.70 |       -10.40 |       -50.59 |\n| Operating Margin (%)    |        -5.80 |        -1.35 |        -7.36 |\n| Net Income              |       -22.86 |        48.26 |       -23.08 |\n| Net Margin (%)          |        -3.18 |         6.24 |        -3.36 |\n| Op Cash Flow            |       -13.51 |        43.88 |        23.05 |\n| Investing Cash Flow     |        48.32 |        -1.10 |        -2.29 |\n| Financing Cash Flow     |        -8.51 |       -14.64 |        28.51 |\n| CAPEX                   |       -34.54 |        -2.95 |        -3.04 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       190.70 |       178.94 |       163.72 |       186.28 |\n| Gross Profit            |        51.10 |        41.69 |        40.16 |        46.47 |\n| Gross Margin (%)        |        26.80 |        23.30 |        24.53 |        24.95 |\n| Selling & Marketing Exp |        39.48 |        35.60 |        36.22 |        37.31 |\n| R&D Exp                 |         0.57 |         0.55 |         0.49 |         0.70 |\n| General & Admin Exp     |        15.49 |        17.44 |        16.80 |        20.47 |\n| Operating Income        |        -4.45 |       -11.90 |       -13.36 |       -12.00 |\n| Operating Margin (%)    |        -2.33 |        -6.65 |        -8.16 |        -6.44 |\n| Net Income              |         1.26 |         8.31 |       -18.81 |       -13.63 |\n| Net Margin (%)          |         0.66 |         4.64 |       -11.49 |        -7.32 |\n| Op Cash Flow            |         0.50 |         6.59 |         7.54 |       -28.15 |\n| Investing Cash Flow     |        10.64 |       -15.99 |        31.81 |        21.86 |\n| Financing Cash Flow     |       -22.74 |       -11.60 |       -49.47 |        75.29 |\n| CAPEX                   |       -25.24 |        -5.13 |         0.41 |        -4.59 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

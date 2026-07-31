@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2614",
+  "company_name": "東森",
+  "title": "2614 - 東森",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 散裝航運/2614_東森.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Conglomerates",
+    "market_cap": "5,907 百萬台幣",
+    "enterprise_value": "17,887 百萬台幣"
+  },
+  "business": {
+    "summary": "東森國際股份有限公司成立於1975年，前身為遠東倉儲，目前為橫跨新媒體、電商購物及倉儲貿易之多角化控股公司。三大核心事業：（1）**新媒體事業：** 擁有[[ETtoday新聞雲]]（台灣流量最大之網路新聞媒體）及衛星電視頻道，數位廣告營收持續成長；（2）**電商購物事業：** 旗下[[東森購物]]（Eastern Home Shopping）為台灣最早之電視購物平台，涵蓋電視、網路及行動購物，並自營美妝保養品牌 [[Natural Beauty]]；（3）**倉儲貿易事業：** 經營高雄港散裝穀物自動化倉儲（Silo），為國內大宗穀物進口之重要中轉據點。近年亦積極佈局寵物市場，推出[[東森寵物雲]]實體及線上通路。",
+    "entities": [
+      "ETtoday新聞雲",
+      "東森購物",
+      "Natural Beauty",
+      "東森寵物雲"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (內容與商品來源)",
+        "text": "**上游 (內容與商品來源):**",
+        "entities": []
+      },
+      {
+        "category": "媒體內容",
+        "text": "記者團隊、外部內容授權",
+        "entities": []
+      },
+      {
+        "category": "電商商品",
+        "text": "品牌供應商、自營品牌 [[Natural Beauty]]",
+        "entities": [
+          "Natural Beauty"
+        ]
+      },
+      {
+        "category": "穀物",
+        "text": "國際穀物貿易商（進口大宗穀物）",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (平台與營運)",
+        "text": "**中游 (平台與營運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**東森國際** — 新聞媒體平台（[[ETtoday新聞雲]]）、電視及網路購物平台（[[東森購物]]）、穀物倉儲營運",
+        "entities": [
+          "ETtoday新聞雲",
+          "東森購物"
+        ]
+      },
+      {
+        "category": "寵物通路",
+        "text": "[[東森寵物雲]]（實體門市與電商）",
+        "entities": [
+          "東森寵物雲"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "廣告主",
+        "text": "品牌廣告商投放數位廣告",
+        "entities": []
+      },
+      {
+        "category": "消費者",
+        "text": "電視及網路購物消費者",
+        "entities": []
+      },
+      {
+        "category": "飼料與食品業",
+        "text": "[[大成長城]]、[[統一]]等飼料廠及麵粉廠（穀物倉儲客戶）",
+        "entities": [
+          "大成長城",
+          "統一"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "媒體廣告",
+        "text": "品牌廣告主（數位廣告投放於[[ETtoday新聞雲]]）",
+        "entities": [
+          "ETtoday新聞雲"
+        ]
+      },
+      {
+        "role": "電商購物",
+        "text": "一般消費者（[[東森購物]]電視/網路/行動購物）",
+        "entities": [
+          "東森購物"
+        ]
+      },
+      {
+        "role": "穀物倉儲",
+        "text": "飼料廠如[[大成長城]]、[[台灣卜蜂]]；麵粉廠如[[統一]]、[[聯華食品]]",
+        "entities": [
+          "大成長城",
+          "台灣卜蜂",
+          "統一",
+          "聯華食品"
+        ]
+      },
+      {
+        "role": "寵物通路",
+        "text": "寵物飼主消費者（[[東森寵物雲]]）",
+        "entities": [
+          "東森寵物雲"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "商品供應商",
+        "text": "國內外品牌商（電視購物商品來源）",
+        "entities": []
+      },
+      {
+        "role": "美妝原料",
+        "text": "[[Natural Beauty]] 自營品牌原料供應商",
+        "entities": [
+          "Natural Beauty"
+        ]
+      },
+      {
+        "role": "穀物貿易",
+        "text": "國際穀物貿易商（如[[Cargill]]、[[ADM]]等）",
+        "entities": [
+          "Cargill",
+          "ADM"
+        ]
+      },
+      {
+        "role": "衛星傳輸",
+        "text": "衛星頻道上架與傳輸服務商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ETtoday新聞雲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ETtoday新聞雲"
+    },
+    {
+      "name": "東森購物",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東森購物"
+    },
+    {
+      "name": "Natural Beauty",
+      "type": "international_company_or_term",
+      "wikilink": "Natural Beauty"
+    },
+    {
+      "name": "東森寵物雲",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東森寵物雲"
+    },
+    {
+      "name": "大成長城",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大成長城"
+    },
+    {
+      "name": "統一",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一"
+    },
+    {
+      "name": "台灣卜蜂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣卜蜂"
+    },
+    {
+      "name": "聯華食品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華食品"
+    },
+    {
+      "name": "Cargill",
+      "type": "international_company_or_term",
+      "wikilink": "Cargill"
+    },
+    {
+      "name": "ADM",
+      "type": "international_company_or_term",
+      "wikilink": "ADM"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "東森國際股份有限公司成立於1975年，前身為遠東倉儲，目前為橫跨新媒體、電商購物及倉儲貿易之多角化控股公司。三大核心事業：（1）**新媒體事業：** 擁有[[ETtoday新聞雲]]（台灣流量最大之網路新聞媒體）及衛星電視頻道，數位廣告營收持續成長；（2）**電商購物事業：** 旗下[[東森購物]]（Eastern Home Shopping）為台灣最早之電視購物平台，涵蓋電視、網路及行動購物，並自營美妝保養品牌 [[Natural Beauty]]；（3）**倉儲貿易事業：** 經營高雄港散裝穀物自動化倉儲（Silo），為國內大宗穀物進口之重要中轉據點。近年亦積極佈局寵物市場，推出[[東森寵物雲]]實體及線上通路。",
+    "supply_chain_md": "**上游 (內容與商品來源):**\n- **媒體內容:** 記者團隊、外部內容授權\n- **電商商品:** 品牌供應商、自營品牌 [[Natural Beauty]]\n- **穀物:** 國際穀物貿易商（進口大宗穀物）\n\n**中游 (平台與營運):**\n- **東森國際** — 新聞媒體平台（[[ETtoday新聞雲]]）、電視及網路購物平台（[[東森購物]]）、穀物倉儲營運\n- **寵物通路:** [[東森寵物雲]]（實體門市與電商）\n\n**下游 (終端客戶):**\n- **廣告主:** 品牌廣告商投放數位廣告\n- **消費者:** 電視及網路購物消費者\n- **飼料與食品業:** [[大成長城]]、[[統一]]等飼料廠及麵粉廠（穀物倉儲客戶）",
+    "customers_suppliers_md": "### 主要客戶\n- **媒體廣告:** 品牌廣告主（數位廣告投放於[[ETtoday新聞雲]]）\n- **電商購物:** 一般消費者（[[東森購物]]電視/網路/行動購物）\n- **穀物倉儲:** 飼料廠如[[大成長城]]、[[台灣卜蜂]]；麵粉廠如[[統一]]、[[聯華食品]]\n- **寵物通路:** 寵物飼主消費者（[[東森寵物雲]]）\n\n### 主要供應商\n- **商品供應商:** 國內外品牌商（電視購物商品來源）\n- **美妝原料:** [[Natural Beauty]] 自營品牌原料供應商\n- **穀物貿易:** 國際穀物貿易商（如[[Cargill]]、[[ADM]]等）\n- **衛星傳輸:** 衛星頻道上架與傳輸服務商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $17.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      8.97 |         N/A |      1.08 | 1.36 |     26.54 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5473.33 |      5748.99 |      5841.60 |\n| Gross Profit            |      1845.01 |      1854.55 |      1711.65 |\n| Gross Margin (%)        |        33.71 |        32.26 |        29.30 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      1363.75 |      1531.34 |      1801.71 |\n| Operating Income        |       481.26 |       323.20 |       -90.06 |\n| Operating Margin (%)    |         8.79 |         5.62 |        -1.54 |\n| Net Income              |       652.85 |       371.84 |      -272.76 |\n| Net Margin (%)          |        11.93 |         6.47 |        -4.67 |\n| Op Cash Flow            |      1727.63 |      2201.33 |      1487.77 |\n| Investing Cash Flow     |     -1467.84 |     -1695.60 |     -1834.26 |\n| Financing Cash Flow     |       473.51 |       280.97 |       116.19 |\n| CAPEX                   |     -2064.71 |     -1921.15 |     -1754.43 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1433.91 |      1375.08 |      1376.53 |      1287.80 |\n| Gross Profit            |       494.53 |       485.27 |       485.16 |       380.05 |\n| Gross Margin (%)        |        34.49 |        35.29 |        35.25 |        29.51 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       347.31 |       328.83 |       344.72 |       342.89 |\n| Operating Income        |       147.21 |       156.45 |       140.44 |        37.16 |\n| Operating Margin (%)    |        10.27 |        11.38 |        10.20 |         2.89 |\n| Net Income              |       188.89 |       210.09 |       168.77 |        85.10 |\n| Net Margin (%)          |        13.17 |        15.28 |        12.26 |         6.61 |\n| Op Cash Flow            |       532.53 |       462.16 |       440.71 |       292.23 |\n| Investing Cash Flow     |      -849.18 |      -458.34 |      -138.75 |       -21.56 |\n| Financing Cash Flow     |       951.40 |        84.29 |      -287.38 |      -274.80 |\n| CAPEX                   |      -773.59 |      -593.09 |      -286.39 |      -411.64 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4416",
+  "company_name": "三圓",
+  "title": "4416 - 三圓",
+  "source_md": "Pilot_Reports/建材營造 - 建設業/4416_三圓.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "market_cap": "744 百萬台幣",
+    "enterprise_value": "12,080 百萬台幣"
+  },
+  "business": {
+    "summary": "三圓建設股份有限公司 (4416) 為專注於大台北地區之精緻不動產開發商，以興建高品質[[豪宅]]與[[商辦]]大樓聞名。近年代表作為[[台北]]東區之指標豪宅案「[[Diamond Towers]]」。公司主要採取先建後售或預售模式，鎖定高資產客群，並長期持有部分精華地段資產以獲取穩定租金收益。主要委託[[海悅國際]]等代銷業者進行銷售，營造工程與知名營造廠如[[互助營造]]合作。",
+    "entities": [
+      "豪宅",
+      "商辦",
+      "台北",
+      "Diamond Towers",
+      "海悅國際",
+      "互助營造"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**：土地開發、[[都市更新]] 整合、[[建築師]] 設計規劃、營造廠 工程承攬。",
+        "entities": [
+          "都市更新",
+          "建築師"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "三圓位於不動產產業鏈的**中游建設端**：",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中游**：建設公司 (三圓) 負責建案之整體規劃、財務槓桿操作與品牌行銷。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**：銷售予 高資產人士、企業總部 或透過 代銷業者 進行銷售。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "購屋者",
+        "text": "高資產人士 — [[Diamond Towers]] 等指標[[豪宅]]",
+        "entities": [
+          "Diamond Towers",
+          "豪宅"
+        ]
+      },
+      {
+        "role": "[[商辦]]租戶",
+        "text": "企業總部辦公室租賃",
+        "entities": [
+          "商辦"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造工程",
+        "text": "[[互助營造]] — 高階工程承攬",
+        "entities": [
+          "互助營造"
+        ]
+      },
+      {
+        "role": "代銷",
+        "text": "[[海悅國際]] — 委託代銷服務",
+        "entities": [
+          "海悅國際"
+        ]
+      },
+      {
+        "role": "建材",
+        "text": "高階[[建材]]供應商",
+        "entities": [
+          "建材"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "豪宅",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豪宅"
+    },
+    {
+      "name": "商辦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "商辦"
+    },
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "Diamond Towers",
+      "type": "international_company_or_term",
+      "wikilink": "Diamond Towers"
+    },
+    {
+      "name": "海悅國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海悅國際"
+    },
+    {
+      "name": "互助營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "互助營造"
+    },
+    {
+      "name": "都市更新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "都市更新"
+    },
+    {
+      "name": "建築師",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建築師"
+    },
+    {
+      "name": "建材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "建材"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三圓建設股份有限公司 (4416) 為專注於大台北地區之精緻不動產開發商，以興建高品質[[豪宅]]與[[商辦]]大樓聞名。近年代表作為[[台北]]東區之指標豪宅案「[[Diamond Towers]]」。公司主要採取先建後售或預售模式，鎖定高資產客群，並長期持有部分精華地段資產以獲取穩定租金收益。主要委託[[海悅國際]]等代銷業者進行銷售，營造工程與知名營造廠如[[互助營造]]合作。",
+    "supply_chain_md": "三圓位於不動產產業鏈的**中游建設端**：\n*   **上游**：土地開發、[[都市更新]] 整合、[[建築師]] 設計規劃、營造廠 工程承攬。\n*   **中游**：建設公司 (三圓) 負責建案之整體規劃、財務槓桿操作與品牌行銷。\n*   **下游**：銷售予 高資產人士、企業總部 或透過 代銷業者 進行銷售。",
+    "customers_suppliers_md": "### 主要客戶\n- **購屋者:** 高資產人士 — [[Diamond Towers]] 等指標[[豪宅]]\n- **[[商辦]]租戶:** 企業總部辦公室租賃\n\n### 主要供應商\n- **營造工程:** [[互助營造]] — 高階工程承攬\n- **代銷:** [[海悅國際]] — 委託代銷服務\n- **建材:** 高階[[建材]]供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $10.25 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.92 |         N/A |      0.35 | 0.42 |     17.69 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2024-12-31 |   2023-12-31 |   2022-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       404.30 |       116.55 |        95.72 |\n| Gross Profit            |       108.98 |        63.88 |        51.89 |\n| Gross Margin (%)        |        26.96 |        54.81 |        54.21 |\n| Selling & Marketing Exp |         2.24 |         1.82 |         1.89 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        49.78 |        34.52 |        49.65 |\n| Operating Income        |        56.96 |        27.54 |         0.34 |\n| Operating Margin (%)    |        14.09 |        23.63 |         0.36 |\n| Net Income              |         5.85 |        -1.47 |      -271.11 |\n| Net Margin (%)          |         1.45 |        -1.26 |      -283.24 |\n| Op Cash Flow            |      -122.82 |       134.24 |     -1673.87 |\n| Investing Cash Flow     |       692.50 |      -108.95 |        27.39 |\n| Financing Cash Flow     |        85.52 |      -452.19 |      2390.45 |\n| CAPEX                   |        -0.32 |        -2.01 |        -0.89 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-09-30 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        27.62 |       422.94 |        24.51 |       326.60 |\n| Gross Profit            |        60.01 |       160.11 |        13.36 |        64.42 |\n| Gross Margin (%)        |       217.26 |        37.86 |        54.50 |        19.72 |\n| Selling & Marketing Exp |         0.44 |        17.67 |         0.39 |         1.03 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        27.10 |        11.27 |         7.73 |        24.44 |\n| Operating Income        |        32.47 |       131.17 |         5.23 |        38.95 |\n| Operating Margin (%)    |       117.55 |        31.01 |        21.35 |        11.93 |\n| Net Income              |      -101.71 |        88.24 |       -86.96 |        11.29 |\n| Net Margin (%)          |      -368.24 |        20.86 |      -354.84 |         3.46 |\n| Op Cash Flow            |      -150.46 |       275.25 |      -550.61 |       155.55 |\n| Investing Cash Flow     |       127.39 |        15.34 |      -407.46 |       626.24 |\n| Financing Cash Flow     |        18.82 |      -355.14 |      -223.23 |       185.30 |\n| CAPEX                   |        -2.13 |        -0.45 |        -0.16 |         0.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

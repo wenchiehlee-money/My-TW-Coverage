@@ -1,0 +1,184 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2230",
+  "company_name": "泰茂",
+  "title": "2230 - 泰茂",
+  "source_md": "Pilot_Reports/電機機械 - 車用機械傳動設備及零配件/2230_泰茂.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,414 百萬台幣",
+    "enterprise_value": "1,443 百萬台幣"
+  },
+  "business": {
+    "summary": "泰茂實業 (2230，Thai Mao) 經營三大事業：(1) 活塞環 — 以 BLACK DIAMOND 品牌外銷全球 110 餘國售後市場；(2) 儲能系統 — 採用[[台塑新智能]]電芯，開發工廠/家用儲能方案，宜蘭設有 5.5MW 大型儲能場站；(3) 中國白酒經銷 — 透過中溢匯通取得[[五糧液]]全國電商權及北京/江蘇線下經銷，另代理[[國台酒]]。另透過收購[[晨亨科技]]跨足車用顯示器，為國際車廠 Tier 1 顯示器供應商。",
+    "entities": [
+      "台塑新智能",
+      "五糧液",
+      "國台酒",
+      "晨亨科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與電芯)",
+        "text": "**上游 (原料與電芯):**",
+        "entities": []
+      },
+      {
+        "category": "儲能電芯",
+        "text": "[[台塑新智能]] — 國產電芯供應",
+        "entities": [
+          "台塑新智能"
+        ]
+      },
+      {
+        "category": "白酒",
+        "text": "[[五糧液]]、[[國台酒]] — 品牌授權與經銷",
+        "entities": [
+          "五糧液",
+          "國台酒"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與服務)",
+        "text": "**中游 (製造與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**泰茂** (活塞環製造/儲能系統/白酒經銷)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[晨亨科技]]** (子公司，車用顯示器 Tier 1)",
+        "entities": [
+          "晨亨科技"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "活塞環",
+        "text": "全球 110+ 國 AM 經銷 — BLACK DIAMOND 品牌",
+        "entities": []
+      },
+      {
+        "category": "儲能",
+        "text": "台灣工廠/家庭用戶、宜蘭 5.5MW 場站",
+        "entities": []
+      },
+      {
+        "category": "白酒",
+        "text": "中國江蘇省零售通路",
+        "entities": []
+      },
+      {
+        "category": "車用顯示",
+        "text": "國際車廠 — [[晨亨科技]]供應",
+        "entities": [
+          "晨亨科技"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "活塞環",
+        "text": "全球 110+ 國 AM 經銷商 — BLACK DIAMOND 品牌",
+        "entities": []
+      },
+      {
+        "role": "儲能",
+        "text": "台灣工廠與家庭用戶",
+        "entities": []
+      },
+      {
+        "role": "白酒",
+        "text": "中國消費者 — [[五糧液]]電商/線下通路",
+        "entities": [
+          "五糧液"
+        ]
+      },
+      {
+        "role": "車用顯示",
+        "text": "國際車廠 — [[晨亨科技]] Tier 1 供應",
+        "entities": [
+          "晨亨科技"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "儲能電芯",
+        "text": "[[台塑新智能]] — 國產電芯",
+        "entities": [
+          "台塑新智能"
+        ]
+      },
+      {
+        "role": "白酒品牌",
+        "text": "[[五糧液]]、[[國台酒]] — 品牌授權",
+        "entities": [
+          "五糧液",
+          "國台酒"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台塑新智能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑新智能"
+    },
+    {
+      "name": "五糧液",
+      "type": "taiwan_company_or_term",
+      "wikilink": "五糧液"
+    },
+    {
+      "name": "國台酒",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國台酒"
+    },
+    {
+      "name": "晨亨科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晨亨科技"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "泰茂實業 (2230，Thai Mao) 經營三大事業：(1) 活塞環 — 以 BLACK DIAMOND 品牌外銷全球 110 餘國售後市場；(2) 儲能系統 — 採用[[台塑新智能]]電芯，開發工廠/家用儲能方案，宜蘭設有 5.5MW 大型儲能場站；(3) 中國白酒經銷 — 透過中溢匯通取得[[五糧液]]全國電商權及北京/江蘇線下經銷，另代理[[國台酒]]。另透過收購[[晨亨科技]]跨足車用顯示器，為國際車廠 Tier 1 顯示器供應商。",
+    "supply_chain_md": "**上游 (原料與電芯):**\n- **儲能電芯:** [[台塑新智能]] — 國產電芯供應\n- **白酒:** [[五糧液]]、[[國台酒]] — 品牌授權與經銷\n\n**中游 (製造與服務):**\n- **泰茂** (活塞環製造/儲能系統/白酒經銷)\n- **[[晨亨科技]]** (子公司，車用顯示器 Tier 1)\n\n**下游 (終端):**\n- **活塞環:** 全球 110+ 國 AM 經銷 — BLACK DIAMOND 品牌\n- **儲能:** 台灣工廠/家庭用戶、宜蘭 5.5MW 場站\n- **白酒:** 中國江蘇省零售通路\n- **車用顯示:** 國際車廠 — [[晨亨科技]]供應",
+    "customers_suppliers_md": "### 主要客戶\n- **活塞環:** 全球 110+ 國 AM 經銷商 — BLACK DIAMOND 品牌\n- **儲能:** 台灣工廠與家庭用戶\n- **白酒:** 中國消費者 — [[五糧液]]電商/線下通路\n- **車用顯示:** 國際車廠 — [[晨亨科技]] Tier 1 供應\n\n### 主要供應商\n- **儲能電芯:** [[台塑新智能]] — 國產電芯\n- **白酒品牌:** [[五糧液]]、[[國台酒]] — 品牌授權",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $21.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.63 | 1.34 |    -13.78 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2025.20 |      1979.80 |       658.41 |\n| Gross Profit            |       134.37 |       450.58 |       217.11 |\n| Gross Margin (%)        |         6.64 |        22.76 |        32.97 |\n| Selling & Marketing Exp |        78.34 |        30.37 |        31.49 |\n| R&D Exp                 |         7.21 |         9.07 |         6.35 |\n| General & Admin Exp     |        87.50 |        68.75 |        51.53 |\n| Operating Income        |       -39.63 |       342.76 |       127.80 |\n| Operating Margin (%)    |        -1.96 |        17.31 |        19.41 |\n| Net Income              |       -73.08 |       322.67 |       126.44 |\n| Net Margin (%)          |        -3.61 |        16.30 |        19.20 |\n| Op Cash Flow            |      -350.68 |       229.61 |        93.94 |\n| Investing Cash Flow     |      -107.23 |      -112.40 |      -299.40 |\n| Financing Cash Flow     |       349.07 |       -16.66 |       319.08 |\n| CAPEX                   |       -70.29 |       -57.19 |      -245.46 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       717.99 |       541.02 |       314.50 |       451.69 |\n| Gross Profit            |        20.14 |        50.09 |        30.94 |        33.20 |\n| Gross Margin (%)        |         2.81 |         9.26 |         9.84 |         7.35 |\n| Selling & Marketing Exp |        37.26 |        24.75 |         9.53 |         6.80 |\n| R&D Exp                 |         2.00 |         1.74 |         1.94 |         1.53 |\n| General & Admin Exp     |        25.09 |        24.53 |        20.76 |        17.13 |\n| Operating Income        |       -44.89 |        -1.21 |        -1.28 |         7.74 |\n| Operating Margin (%)    |        -6.25 |        -0.22 |        -0.41 |         1.71 |\n| Net Income              |       -59.86 |        -1.27 |       -21.72 |         9.77 |\n| Net Margin (%)          |        -8.34 |        -0.23 |        -6.91 |         2.16 |\n| Op Cash Flow            |      -331.83 |      -164.35 |         5.51 |       139.99 |\n| Investing Cash Flow     |       -36.26 |       -52.33 |        -9.44 |        -9.20 |\n| Financing Cash Flow     |       180.18 |        92.73 |        27.80 |        48.36 |\n| CAPEX                   |        -0.26 |       -50.79 |       -13.62 |        -5.62 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

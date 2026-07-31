@@ -1,0 +1,138 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4523",
+  "company_name": "永彰",
+  "title": "4523 - 永彰",
+  "source_md": "Pilot_Reports/電機機械 - 車用機械傳動設備及零配件/4523_永彰.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "1,582 百萬台幣",
+    "enterprise_value": "1,115 百萬台幣"
+  },
+  "business": {
+    "summary": "永彰科技 (4523，原與[[Marelli]]合資) 專注汽車空調 (冷凝器/蒸發器)。延伸至[[伺服器]][[水冷]]散熱及[[儲能]]熱管理。客戶含[[裕隆]]、[[中華汽車]]。",
+    "entities": [
+      "Marelli",
+      "伺服器",
+      "水冷",
+      "儲能",
+      "裕隆",
+      "中華汽車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "鋁材/銅材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**永彰** (汽車空調/[[伺服器]][[水冷]]/[[儲能]]熱管理)",
+        "entities": [
+          "伺服器",
+          "水冷",
+          "儲能"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[裕隆]]、[[中華汽車]]",
+        "entities": [
+          "裕隆",
+          "中華汽車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[裕隆]]、[[中華汽車]] — 空調",
+        "entities": [
+          "裕隆",
+          "中華汽車"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[伺服器]] ODM — [[水冷]]",
+        "entities": [
+          "伺服器",
+          "水冷"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "鋁材/銅材; [[Marelli]] (歷史)",
+        "entities": [
+          "Marelli"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Marelli",
+      "type": "international_company_or_term",
+      "wikilink": "Marelli"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "水冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "水冷"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    },
+    {
+      "name": "裕隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆"
+    },
+    {
+      "name": "中華汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華汽車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永彰科技 (4523，原與[[Marelli]]合資) 專注汽車空調 (冷凝器/蒸發器)。延伸至[[伺服器]][[水冷]]散熱及[[儲能]]熱管理。客戶含[[裕隆]]、[[中華汽車]]。",
+    "supply_chain_md": "**上游:** 鋁材/銅材\n**中游:** **永彰** (汽車空調/[[伺服器]][[水冷]]/[[儲能]]熱管理)\n**下游:** [[裕隆]]、[[中華汽車]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[裕隆]]、[[中華汽車]] — 空調\n- [[伺服器]] ODM — [[水冷]]\n\n### 主要供應商\n- 鋁材/銅材; [[Marelli]] (歷史)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $24.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      1.03 |         N/A |      2.06 | 0.74 |     -1.44 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       573.79 |       618.01 |       582.56 |\n| Gross Profit            |      -408.96 |       121.54 |       139.56 |\n| Gross Margin (%)        |       -71.27 |        19.67 |        23.96 |\n| Selling & Marketing Exp |       104.79 |        69.32 |        43.06 |\n| R&D Exp                 |        38.41 |        46.42 |        37.12 |\n| General & Admin Exp     |       283.47 |       187.36 |       179.30 |\n| Operating Income        |      -835.64 |      -181.56 |      -119.93 |\n| Operating Margin (%)    |      -145.63 |       -29.38 |       -20.59 |\n| Net Income              |      1424.33 |       -97.80 |       -16.27 |\n| Net Margin (%)          |       248.23 |       -15.83 |        -2.79 |\n| Op Cash Flow            |      -406.38 |      -242.17 |      -515.42 |\n| Investing Cash Flow     |      1506.32 |       -95.67 |        57.42 |\n| Financing Cash Flow     |      -405.70 |       112.19 |       719.33 |\n| CAPEX                   |      -741.86 |      -115.36 |       -34.59 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       356.10 |       114.01 |       123.94 |       174.84 |\n| Gross Profit            |        64.33 |        52.09 |      -362.23 |      -137.21 |\n| Gross Margin (%)        |        18.06 |        45.69 |      -292.26 |       -78.48 |\n| Selling & Marketing Exp |        21.95 |        37.30 |        27.00 |        19.17 |\n| R&D Exp                 |         6.30 |         7.04 |         8.37 |         8.82 |\n| General & Admin Exp     |        57.57 |        49.63 |       101.03 |        67.29 |\n| Operating Income        |       -21.49 |       -41.88 |      -498.63 |      -232.50 |\n| Operating Margin (%)    |        -6.04 |       -36.74 |      -402.31 |      -132.98 |\n| Net Income              |        -9.73 |       -66.53 |      1862.20 |      -247.03 |\n| Net Margin (%)          |        -2.73 |       -58.35 |      1502.47 |      -141.29 |\n| Op Cash Flow            |      -136.87 |       -81.55 |       -87.85 |      -124.74 |\n| Investing Cash Flow     |      -129.38 |      1883.67 |       -92.89 |       -62.27 |\n| Financing Cash Flow     |        58.87 |     -1313.09 |       327.05 |       389.24 |\n| CAPEX                   |       -24.09 |       -60.04 |      -609.19 |       -21.55 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

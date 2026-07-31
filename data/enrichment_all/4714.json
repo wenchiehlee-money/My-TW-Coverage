@@ -1,0 +1,251 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4714",
+  "company_name": "永捷",
+  "title": "4714 - 永捷",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 塑膠製品/4714_永捷.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "2,192 百萬台幣",
+    "enterprise_value": "7,924 百萬台幣"
+  },
+  "business": {
+    "summary": "永捷創新科技 (4714，U-Best Innovative Technology) 為 PU 合成樹脂與複合材料製造商，2025 年營收 15.29 億元創歷史新高 (年增 85%)。傳統業務為運動鞋用合成皮/接著劑 (佔約 40%)，供應[[Nike]]、[[Adidas]]代工體系 ([[寶成]]、[[豐泰]])。新興業務為可撓式 HC (Hard Coat) 材料，應用於[[Samsung]] [[Galaxy Z Fold]]等[[折疊手機]][[OLED]]保護膜，毛利率逾 40%。上游[[MDI]]/[[TDI]]異氰酸酯來自[[萬華化學]]、[[Covestro]]、[[BASF]]。子公司[[信立化學]]、孫公司[[普大應材]]串聯 PVC/PU 合成皮產業鏈。",
+    "entities": [
+      "Nike",
+      "Adidas",
+      "寶成",
+      "豐泰",
+      "Samsung",
+      "Galaxy Z Fold",
+      "折疊手機",
+      "OLED",
+      "MDI",
+      "TDI",
+      "萬華化學",
+      "Covestro",
+      "BASF",
+      "信立化學",
+      "普大應材"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "異氰酸酯",
+        "text": "[[萬華化學]]、[[Covestro]]、[[BASF]] — [[MDI]]/[[TDI]]",
+        "entities": [
+          "萬華化學",
+          "Covestro",
+          "BASF",
+          "MDI",
+          "TDI"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**永捷** ([[PU樹脂]]/[[TPU]]/合成皮/HC 材料)",
+        "entities": [
+          "PU樹脂",
+          "TPU"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[信立化學]]**、**[[普大應材]]** (子/孫公司)",
+        "entities": [
+          "信立化學",
+          "普大應材"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "鞋材",
+        "text": "[[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工體系",
+        "entities": [
+          "寶成",
+          "豐泰",
+          "Nike",
+          "Adidas"
+        ]
+      },
+      {
+        "category": "折疊手機",
+        "text": "[[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜用 HC 材料",
+        "entities": [
+          "Samsung",
+          "Galaxy Z Fold",
+          "OLED"
+        ]
+      },
+      {
+        "category": "合成皮",
+        "text": "亞太合成皮加工商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鞋材",
+        "text": "[[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工 (佔約 40%)",
+        "entities": [
+          "寶成",
+          "豐泰",
+          "Nike",
+          "Adidas"
+        ]
+      },
+      {
+        "role": "折疊手機",
+        "text": "[[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜 HC 材料",
+        "entities": [
+          "Samsung",
+          "Galaxy Z Fold",
+          "OLED"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "異氰酸酯",
+        "text": "[[萬華化學]]、[[Covestro]]、[[BASF]] — MDI/TDI",
+        "entities": [
+          "萬華化學",
+          "Covestro",
+          "BASF"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "寶成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶成"
+    },
+    {
+      "name": "豐泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐泰"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "Galaxy Z Fold",
+      "type": "international_company_or_term",
+      "wikilink": "Galaxy Z Fold"
+    },
+    {
+      "name": "折疊手機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "折疊手機"
+    },
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "MDI",
+      "type": "international_company_or_term",
+      "wikilink": "MDI"
+    },
+    {
+      "name": "TDI",
+      "type": "international_company_or_term",
+      "wikilink": "TDI"
+    },
+    {
+      "name": "萬華化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬華化學"
+    },
+    {
+      "name": "Covestro",
+      "type": "international_company_or_term",
+      "wikilink": "Covestro"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "信立化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "信立化學"
+    },
+    {
+      "name": "普大應材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "普大應材"
+    },
+    {
+      "name": "PU樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "PU樹脂"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永捷創新科技 (4714，U-Best Innovative Technology) 為 PU 合成樹脂與複合材料製造商，2025 年營收 15.29 億元創歷史新高 (年增 85%)。傳統業務為運動鞋用合成皮/接著劑 (佔約 40%)，供應[[Nike]]、[[Adidas]]代工體系 ([[寶成]]、[[豐泰]])。新興業務為可撓式 HC (Hard Coat) 材料，應用於[[Samsung]] [[Galaxy Z Fold]]等[[折疊手機]][[OLED]]保護膜，毛利率逾 40%。上游[[MDI]]/[[TDI]]異氰酸酯來自[[萬華化學]]、[[Covestro]]、[[BASF]]。子公司[[信立化學]]、孫公司[[普大應材]]串聯 PVC/PU 合成皮產業鏈。",
+    "supply_chain_md": "**上游 (原料):**\n- **異氰酸酯:** [[萬華化學]]、[[Covestro]]、[[BASF]] — [[MDI]]/[[TDI]]\n\n**中游 (製造):**\n- **永捷** ([[PU樹脂]]/[[TPU]]/合成皮/HC 材料)\n- **[[信立化學]]**、**[[普大應材]]** (子/孫公司)\n\n**下游 (終端):**\n- **鞋材:** [[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工體系\n- **折疊手機:** [[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜用 HC 材料\n- **合成皮:** 亞太合成皮加工商",
+    "customers_suppliers_md": "### 主要客戶\n- **鞋材:** [[寶成]]、[[豐泰]] — [[Nike]]/[[Adidas]]代工 (佔約 40%)\n- **折疊手機:** [[Samsung]] [[Galaxy Z Fold]] — [[OLED]]保護膜 HC 材料\n\n### 主要供應商\n- **異氰酸酯:** [[萬華化學]]、[[Covestro]]、[[BASF]] — MDI/TDI",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $10.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.21 | 0.84 |    -39.96 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1528.39 |       825.78 |       516.50 |\n| Gross Profit            |       150.67 |       140.12 |        87.53 |\n| Gross Margin (%)        |         9.86 |        16.97 |        16.95 |\n| Selling & Marketing Exp |       110.88 |        78.80 |        20.03 |\n| R&D Exp                 |        43.01 |        18.77 |        19.39 |\n| General & Admin Exp     |       352.97 |       214.82 |       146.69 |\n| Operating Income        |      -356.19 |      -172.28 |       -98.59 |\n| Operating Margin (%)    |       -23.31 |       -20.86 |       -19.09 |\n| Net Income              |       -95.51 |       137.41 |        19.89 |\n| Net Margin (%)          |        -6.25 |        16.64 |         3.85 |\n| Op Cash Flow            |       -56.91 |     -1725.26 |      -228.46 |\n| Investing Cash Flow     |       692.61 |       -16.38 |        -7.60 |\n| Financing Cash Flow     |      -197.17 |      1960.13 |       136.88 |\n| CAPEX                   |       -42.94 |       -29.41 |       -39.73 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       469.35 |       386.59 |       355.97 |       316.49 |\n| Gross Profit            |       -60.19 |        76.11 |        80.01 |        54.74 |\n| Gross Margin (%)        |       -12.82 |        19.69 |        22.48 |        17.29 |\n| Selling & Marketing Exp |        22.72 |        23.23 |        28.79 |        36.14 |\n| R&D Exp                 |         9.67 |        10.31 |        10.73 |        12.29 |\n| General & Admin Exp     |        57.78 |       147.44 |        41.18 |       106.57 |\n| Operating Income        |      -150.36 |      -104.87 |        -0.70 |      -100.27 |\n| Operating Margin (%)    |       -32.04 |       -27.13 |        -0.20 |       -31.68 |\n| Net Income              |      -220.92 |        94.18 |       -94.13 |       125.36 |\n| Net Margin (%)          |       -47.07 |        24.36 |       -26.44 |        39.61 |\n| Op Cash Flow            |       198.71 |        -1.10 |       -72.40 |      -182.12 |\n| Investing Cash Flow     |      -992.22 |      2323.51 |       -68.16 |      -570.52 |\n| Financing Cash Flow     |      -361.46 |      -626.60 |        74.19 |       716.70 |\n| CAPEX                   |        -7.16 |        -6.19 |       -12.92 |       -16.68 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": []
+  }
+}

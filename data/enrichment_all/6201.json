@@ -1,0 +1,187 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6201",
+  "company_name": "亞弘電",
+  "title": "6201_亞弘電",
+  "source_md": "Pilot_Reports/醫療器材 - 醫療器材研發、設計、製造/6201_亞弘電.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "market_cap": "4,371 百萬台幣",
+    "enterprise_value": "2,996 百萬台幣"
+  },
+  "business": {
+    "summary": "亞弘電科技 (6201) 成立於 1981 年，總部位於台南，為專業 [[ODM]] 代工廠，專注於電子音訊、小家電及醫療保健產品。營收主力為專業音響設備 (高階音響、DJ 混音機、黑膠唱盤等，佔逾八成)，其次為小家電 (電動牙刷、咖啡機、空氣清淨機) 及[[醫療器材]] (血壓計)。為分散地緣政治風險，亞弘電推動「非紅供應鏈」，除台灣總部及中國東莞廠外，大舉擴充菲律賓廠產能，為爭取歐美訂單之重要利器。約七成產品銷往美國。",
+    "entities": [
+      "ODM",
+      "醫療器材"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原物料與零組件)",
+        "text": "**上游 (原物料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "PC/ABS 等工程塑料",
+        "entities": []
+      },
+      {
+        "category": "電子零件",
+        "text": "IC、電容、電阻、馬達、微動開關",
+        "entities": []
+      },
+      {
+        "category": "印刷電路板",
+        "text": "PCB 供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設計與製造)",
+        "text": "**中游 (設計與製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**亞弘電** — 專業音訊產品、健康小家電及[[醫療器材]]之 [[ODM]] 設計與製造 (台灣/東莞/菲律賓三地生產)",
+        "entities": [
+          "醫療器材",
+          "ODM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌客戶)",
+        "text": "**下游 (國際品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "歐美品牌",
+        "text": "[[Philips]] (飛利浦)、[[Groupe SEB]] (法國賽博集團)",
+        "entities": [
+          "Philips",
+          "Groupe SEB"
+        ]
+      },
+      {
+        "category": "DJ 設備",
+        "text": "[[Numark]] — DJ 混音機/唱盤",
+        "entities": [
+          "Numark"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "國際知名音響與小家電品牌",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "飛利浦",
+        "text": "[[Philips]] — 小家電及音響 [[ODM]]",
+        "entities": [
+          "Philips",
+          "ODM"
+        ]
+      },
+      {
+        "role": "法國賽博",
+        "text": "[[Groupe SEB]] — 小家電代工",
+        "entities": [
+          "Groupe SEB"
+        ]
+      },
+      {
+        "role": "DJ 設備",
+        "text": "[[Numark]] — 專業 DJ 混音機/唱盤",
+        "entities": [
+          "Numark"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "歐美日國際知名品牌 (約七成銷往美國)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠粒",
+        "text": "台達化等國內塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "電子零件",
+        "text": "國內外半導體、被動元件、PCB 供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "亞弘電科技 (6201) 成立於 1981 年，總部位於台南，為專業 [[ODM]] 代工廠，專注於電子音訊、小家電及醫療保健產品。營收主力為專業音響設備 (高階音響、DJ 混音機、黑膠唱盤等，佔逾八成)，其次為小家電 (電動牙刷、咖啡機、空氣清淨機) 及[[醫療器材]] (血壓計)。為分散地緣政治風險，亞弘電推動「非紅供應鏈」，除台灣總部及中國東莞廠外，大舉擴充菲律賓廠產能，為爭取歐美訂單之重要利器。約七成產品銷往美國。",
+        "entities": [
+          "ODM",
+          "醫療器材"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "醫療器材",
+      "type": "taiwan_company_or_term",
+      "wikilink": "醫療器材"
+    },
+    {
+      "name": "Philips",
+      "type": "international_company_or_term",
+      "wikilink": "Philips"
+    },
+    {
+      "name": "Groupe SEB",
+      "type": "international_company_or_term",
+      "wikilink": "Groupe SEB"
+    },
+    {
+      "name": "Numark",
+      "type": "international_company_or_term",
+      "wikilink": "Numark"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "亞弘電科技 (6201) 成立於 1981 年，總部位於台南，為專業 [[ODM]] 代工廠，專注於電子音訊、小家電及醫療保健產品。營收主力為專業音響設備 (高階音響、DJ 混音機、黑膠唱盤等，佔逾八成)，其次為小家電 (電動牙刷、咖啡機、空氣清淨機) 及[[醫療器材]] (血壓計)。為分散地緣政治風險，亞弘電推動「非紅供應鏈」，除台灣總部及中國東莞廠外，大舉擴充菲律賓廠產能，為爭取歐美訂單之重要利器。約七成產品銷往美國。",
+    "supply_chain_md": "**上游 (原物料與零組件):**\n- **塑膠粒:** PC/ABS 等工程塑料\n- **電子零件:** IC、電容、電阻、馬達、微動開關\n- **印刷電路板:** PCB 供應商\n\n**中游 (設計與製造):**\n- **亞弘電** — 專業音訊產品、健康小家電及[[醫療器材]]之 [[ODM]] 設計與製造 (台灣/東莞/菲律賓三地生產)\n\n**下游 (國際品牌客戶):**\n- **歐美品牌:** [[Philips]] (飛利浦)、[[Groupe SEB]] (法國賽博集團)\n- **DJ 設備:** [[Numark]] — DJ 混音機/唱盤\n- **其他:** 國際知名音響與小家電品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **飛利浦:** [[Philips]] — 小家電及音響 [[ODM]]\n- **法國賽博:** [[Groupe SEB]] — 小家電代工\n- **DJ 設備:** [[Numark]] — 專業 DJ 混音機/唱盤\n- **其他:** 歐美日國際知名品牌 (約七成銷往美國)\n\n### 主要供應商\n- **塑膠粒:** 台達化等國內塑膠粒供應商\n- **電子零件:** 國內外半導體、被動元件、PCB 供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $48.35 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.79 |         N/A |      1.34 | 1.65 |      7.38 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3327.00 |      3318.22 |      3406.28 |\n| Gross Profit            |       785.11 |       855.62 |       865.45 |\n| Gross Margin (%)        |        23.60 |        25.79 |        25.41 |\n| Selling & Marketing Exp |        62.78 |        55.39 |        65.88 |\n| R&D Exp                 |       112.42 |       114.66 |       111.20 |\n| General & Admin Exp     |       220.57 |       218.61 |       217.43 |\n| Operating Income        |       389.33 |       466.96 |       470.94 |\n| Operating Margin (%)    |        11.70 |        14.07 |        13.83 |\n| Net Income              |       331.16 |       417.75 |       413.41 |\n| Net Margin (%)          |         9.95 |        12.59 |        12.14 |\n| Op Cash Flow            |       319.20 |       492.61 |       788.76 |\n| Investing Cash Flow     |        -2.14 |      -331.17 |      -359.63 |\n| Financing Cash Flow     |      -382.95 |      -366.43 |      -309.81 |\n| CAPEX                   |       -42.50 |      -195.61 |       -23.64 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       697.90 |       739.72 |       902.28 |       800.55 |\n| Gross Profit            |       163.81 |       165.22 |       212.49 |       213.09 |\n| Gross Margin (%)        |        23.47 |        22.34 |        23.55 |        26.62 |\n| Selling & Marketing Exp |        14.85 |        17.09 |        14.38 |        15.48 |\n| R&D Exp                 |        24.82 |        26.02 |        30.74 |        27.40 |\n| General & Admin Exp     |        51.41 |        52.87 |        55.05 |        58.96 |\n| Operating Income        |        72.72 |        69.25 |       112.32 |       111.25 |\n| Operating Margin (%)    |        10.42 |         9.36 |        12.45 |        13.90 |\n| Net Income              |        57.50 |        57.97 |        84.06 |        95.40 |\n| Net Margin (%)          |         8.24 |         7.84 |         9.32 |        11.92 |\n| Op Cash Flow            |        52.53 |       -42.20 |        93.47 |       163.24 |\n| Investing Cash Flow     |       130.33 |       -74.25 |      -209.43 |      -156.90 |\n| Financing Cash Flow     |        -7.64 |        -7.53 |        -6.50 |        -4.75 |\n| CAPEX                   |        -4.67 |       -20.09 |       -14.77 |        -2.81 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

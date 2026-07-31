@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4738",
+  "company_name": "大同精化",
+  "title": "4738 - 大同精化",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 顏染料/4738_大同精化.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "440 百萬台幣",
+    "enterprise_value": "543 百萬台幣"
+  },
+  "business": {
+    "summary": "大同精密化學 (4738，Tatung Fine Chemicals) 為[[大同]]集團子公司。核心業務為陽離子電著塗料 (E-coat) — 台灣首家引進此技術 (1980 年)，應用於消費電子機殼 ([[鴻海]]供應鏈)、汽車零件及五金表面處理。新能源事業開發[[磷酸鋰鐵]] (LFP) 正極材料，應用於[[儲能系統]]及[[電動車]]。",
+    "entities": [
+      "大同",
+      "鴻海",
+      "磷酸鋰鐵",
+      "儲能系統",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "樹脂",
+        "text": "環氧樹脂/壓克力樹脂",
+        "entities": []
+      },
+      {
+        "category": "鋰鹽/磷酸鐵",
+        "text": "LFP 正極材料原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**大同精化** (E-coat 電著塗料；[[磷酸鋰鐵]] LFP 正極材料)",
+        "entities": [
+          "磷酸鋰鐵"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電子機殼",
+        "text": "[[鴻海]]供應鏈 — E-coat 表面處理",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "category": "汽車/五金",
+        "text": "汽車零件/五金加工廠",
+        "entities": []
+      },
+      {
+        "category": "儲能/EV",
+        "text": "[[儲能系統]]、[[電動車]] — LFP 正極材料",
+        "entities": [
+          "儲能系統",
+          "電動車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子機殼",
+        "text": "[[鴻海]]供應鏈 — E-coat",
+        "entities": [
+          "鴻海"
+        ]
+      },
+      {
+        "role": "汽車/五金",
+        "text": "零件/五金廠 — 表面處理",
+        "entities": []
+      },
+      {
+        "role": "儲能/EV",
+        "text": "[[儲能系統]]、[[電動車]] — [[磷酸鋰鐵]]",
+        "entities": [
+          "儲能系統",
+          "電動車",
+          "磷酸鋰鐵"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母集團",
+        "text": "[[大同]] — 集團資源",
+        "entities": [
+          "大同"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "磷酸鋰鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磷酸鋰鐵"
+    },
+    {
+      "name": "儲能系統",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能系統"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "大同精密化學 (4738，Tatung Fine Chemicals) 為[[大同]]集團子公司。核心業務為陽離子電著塗料 (E-coat) — 台灣首家引進此技術 (1980 年)，應用於消費電子機殼 ([[鴻海]]供應鏈)、汽車零件及五金表面處理。新能源事業開發[[磷酸鋰鐵]] (LFP) 正極材料，應用於[[儲能系統]]及[[電動車]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **樹脂:** 環氧樹脂/壓克力樹脂\n- **鋰鹽/磷酸鐵:** LFP 正極材料原料\n\n**中游 (製造):**\n- **大同精化** (E-coat 電著塗料；[[磷酸鋰鐵]] LFP 正極材料)\n\n**下游 (終端):**\n- **電子機殼:** [[鴻海]]供應鏈 — E-coat 表面處理\n- **汽車/五金:** 汽車零件/五金加工廠\n- **儲能/EV:** [[儲能系統]]、[[電動車]] — LFP 正極材料",
+    "customers_suppliers_md": "### 主要客戶\n- **電子機殼:** [[鴻海]]供應鏈 — E-coat\n- **汽車/五金:** 零件/五金廠 — 表面處理\n- **儲能/EV:** [[儲能系統]]、[[電動車]] — [[磷酸鋰鐵]]\n\n### 主要供應商\n- **母集團:** [[大同]] — 集團資源",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $5.75 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     30.26 |         N/A |      1.34 | 3.01 |     25.78 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       333.48 |       295.22 |       261.41 |\n| Gross Profit            |        90.92 |        76.76 |        66.13 |\n| Gross Margin (%)        |        27.26 |        26.00 |        25.30 |\n| Selling & Marketing Exp |        37.36 |        34.77 |        30.74 |\n| R&D Exp                 |         6.45 |         6.48 |         6.79 |\n| General & Admin Exp     |        32.33 |        31.44 |        29.37 |\n| Operating Income        |        14.78 |         4.07 |        -0.77 |\n| Operating Margin (%)    |         4.43 |         1.38 |        -0.29 |\n| Net Income              |        14.43 |         5.95 |         4.32 |\n| Net Margin (%)          |         4.33 |         2.02 |         1.65 |\n| Op Cash Flow            |        -5.10 |        -0.90 |        24.57 |\n| Investing Cash Flow     |        -2.13 |         0.05 |         1.52 |\n| Financing Cash Flow     |       -15.91 |        16.27 |       -21.21 |\n| CAPEX                   |        -4.58 |        -2.56 |        -4.10 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

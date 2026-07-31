@@ -1,0 +1,214 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6863",
+  "company_name": "永道-KY",
+  "title": "6863_永道-KY",
+  "source_md": "Pilot_Reports/Electronic Components/6863_永道-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "9,249 百萬台幣",
+    "enterprise_value": "9,116 百萬台幣"
+  },
+  "business": {
+    "summary": "永道-KY (6863，[[Arizon RFID]]) 隸屬於[[永豐餘]]集團，為全球第二大、亞洲最大的 [[RFID]] 電子標籤 ODM 製造商，全球市佔率約 25%，年產能達 50 億枚。\n\n業務結構與動能：(1) UHF [[RFID]] 標籤 — 超高頻無線射頻識別電子標籤，廣泛應用於服飾零售 ([[Uniqlo]]、[[ZARA]]、[[Walmart]] 自助結帳)、物流追蹤與機場行李分揀；(2) HF [[RFID]] 標籤 — 高頻電子標籤，應用於圖書館與醫療管理；(3) 天線設計與 Inlay 封裝 — 全球少數同時掌握天線設計與晶片封裝核心技術的廠商，取得最高等級 ARC 品質認證。公司於台灣與中國均有生產基地。",
+    "entities": [
+      "Arizon RFID",
+      "永豐餘",
+      "RFID",
+      "Uniqlo",
+      "ZARA",
+      "Walmart"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "RFID 晶片",
+        "text": "RFID 射頻晶片供應商",
+        "entities": []
+      },
+      {
+        "category": "天線材料",
+        "text": "導電銀漿/鋁箔 (天線印刷用)",
+        "entities": []
+      },
+      {
+        "category": "基材",
+        "text": "抗靜電 PET 薄膜與離型紙",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[RFID]] 標籤製造)",
+        "text": "**中游 ([[RFID]] 標籤製造):**",
+        "entities": [
+          "RFID"
+        ]
+      },
+      {
+        "category": "UHF 標籤",
+        "text": "**永道** (超高頻 [[RFID]] 電子標籤)",
+        "entities": [
+          "RFID"
+        ]
+      },
+      {
+        "category": "HF 標籤",
+        "text": "**永道** (高頻 [[RFID]] 標籤)",
+        "entities": [
+          "RFID"
+        ]
+      },
+      {
+        "category": "Inlay 封裝",
+        "text": "**永道** (天線設計與晶片封裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (零售與物流)",
+        "text": "**下游 (零售與物流):**",
+        "entities": []
+      },
+      {
+        "category": "服飾零售",
+        "text": "[[Uniqlo]]、[[ZARA]]、[[Walmart]] — 自助結帳/庫存管理",
+        "entities": [
+          "Uniqlo",
+          "ZARA",
+          "Walmart"
+        ]
+      },
+      {
+        "category": "快遞物流",
+        "text": "全球快遞物流業者 — 包裹追蹤",
+        "entities": []
+      },
+      {
+        "category": "機場行李",
+        "text": "國際機場行李系統 — 行李分揀",
+        "entities": []
+      },
+      {
+        "category": "醫療/圖書",
+        "text": "醫療院所與圖書館 — 資產管理",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "服飾零售",
+        "text": "[[Uniqlo]]、[[ZARA]]、[[Walmart]] — [[RFID]] 自助結帳與庫存管理",
+        "entities": [
+          "Uniqlo",
+          "ZARA",
+          "Walmart",
+          "RFID"
+        ]
+      },
+      {
+        "role": "快遞物流",
+        "text": "全球快遞物流業者 — [[RFID]] 包裹追蹤",
+        "entities": [
+          "RFID"
+        ]
+      },
+      {
+        "role": "機場系統",
+        "text": "國際機場 — [[RFID]] 行李分揀標籤",
+        "entities": [
+          "RFID"
+        ]
+      },
+      {
+        "role": "醫療/圖書",
+        "text": "醫療院所與圖書館 — 資產管理標籤",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "RFID 晶片",
+        "text": "RFID 射頻晶片供應商",
+        "entities": []
+      },
+      {
+        "role": "天線材料",
+        "text": "導電銀漿/鋁箔供應商",
+        "entities": []
+      },
+      {
+        "role": "母集團",
+        "text": "[[永豐餘]] — 集團資源支援",
+        "entities": [
+          "永豐餘"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Arizon RFID",
+      "type": "international_company_or_term",
+      "wikilink": "Arizon RFID"
+    },
+    {
+      "name": "永豐餘",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐餘"
+    },
+    {
+      "name": "RFID",
+      "type": "international_company_or_term",
+      "wikilink": "RFID"
+    },
+    {
+      "name": "Uniqlo",
+      "type": "international_company_or_term",
+      "wikilink": "Uniqlo"
+    },
+    {
+      "name": "ZARA",
+      "type": "international_company_or_term",
+      "wikilink": "ZARA"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永道-KY (6863，[[Arizon RFID]]) 隸屬於[[永豐餘]]集團，為全球第二大、亞洲最大的 [[RFID]] 電子標籤 ODM 製造商，全球市佔率約 25%，年產能達 50 億枚。\n\n業務結構與動能：(1) UHF [[RFID]] 標籤 — 超高頻無線射頻識別電子標籤，廣泛應用於服飾零售 ([[Uniqlo]]、[[ZARA]]、[[Walmart]] 自助結帳)、物流追蹤與機場行李分揀；(2) HF [[RFID]] 標籤 — 高頻電子標籤，應用於圖書館與醫療管理；(3) 天線設計與 Inlay 封裝 — 全球少數同時掌握天線設計與晶片封裝核心技術的廠商，取得最高等級 ARC 品質認證。公司於台灣與中國均有生產基地。",
+    "supply_chain_md": "**上游 (材料):**\n- **RFID 晶片:** RFID 射頻晶片供應商\n- **天線材料:** 導電銀漿/鋁箔 (天線印刷用)\n- **基材:** 抗靜電 PET 薄膜與離型紙\n\n**中游 ([[RFID]] 標籤製造):**\n- **UHF 標籤:** **永道** (超高頻 [[RFID]] 電子標籤)\n- **HF 標籤:** **永道** (高頻 [[RFID]] 標籤)\n- **Inlay 封裝:** **永道** (天線設計與晶片封裝)\n\n**下游 (零售與物流):**\n- **服飾零售:** [[Uniqlo]]、[[ZARA]]、[[Walmart]] — 自助結帳/庫存管理\n- **快遞物流:** 全球快遞物流業者 — 包裹追蹤\n- **機場行李:** 國際機場行李系統 — 行李分揀\n- **醫療/圖書:** 醫療院所與圖書館 — 資產管理",
+    "customers_suppliers_md": "### 主要客戶\n- **服飾零售:** [[Uniqlo]]、[[ZARA]]、[[Walmart]] — [[RFID]] 自助結帳與庫存管理\n- **快遞物流:** 全球快遞物流業者 — [[RFID]] 包裹追蹤\n- **機場系統:** 國際機場 — [[RFID]] 行李分揀標籤\n- **醫療/圖書:** 醫療院所與圖書館 — 資產管理標籤\n\n### 主要供應商\n- **RFID 晶片:** RFID 射頻晶片供應商\n- **天線材料:** 導電銀漿/鋁箔供應商\n- **母集團:** [[永豐餘]] — 集團資源支援",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $124.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    114.22 |       13.49 |      2.35 | 1.51 |     17.45 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3952.72 |      4612.42 |      2685.95 |\n| Gross Profit            |       881.74 |      1483.62 |       793.25 |\n| Gross Margin (%)        |        22.31 |        32.17 |        29.53 |\n| Selling & Marketing Exp |        95.80 |       132.00 |        94.35 |\n| R&D Exp                 |       136.76 |       184.01 |       102.29 |\n| General & Admin Exp     |       297.87 |       313.97 |       205.70 |\n| Operating Income        |       351.30 |       853.63 |       390.91 |\n| Operating Margin (%)    |         8.89 |        18.51 |        14.55 |\n| Net Income              |       224.90 |       846.81 |       447.93 |\n| Net Margin (%)          |         5.69 |        18.36 |        16.68 |\n| Op Cash Flow            |       807.41 |       273.74 |       137.45 |\n| Investing Cash Flow     |      -735.87 |      -755.72 |      -417.48 |\n| Financing Cash Flow     |       169.51 |      1400.39 |      1113.17 |\n| CAPEX                   |      -691.97 |     -1121.70 |      -161.35 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1157.37 |      1063.56 |       821.16 |       922.89 |\n| Gross Profit            |       223.61 |       109.35 |       172.00 |       262.60 |\n| Gross Margin (%)        |        19.32 |        10.28 |        20.95 |        28.45 |\n| Selling & Marketing Exp |        34.00 |         7.34 |        28.32 |        30.71 |\n| R&D Exp                 |        31.57 |        24.38 |        28.03 |        37.17 |\n| General & Admin Exp     |        89.62 |        92.17 |        70.72 |        61.44 |\n| Operating Income        |        68.42 |       -14.53 |        44.94 |       133.28 |\n| Operating Margin (%)    |         5.91 |        -1.37 |         5.47 |        14.44 |\n| Net Income              |        45.91 |         3.75 |        64.67 |       -32.41 |\n| Net Margin (%)          |         3.97 |         0.35 |         7.88 |        -3.51 |\n| Op Cash Flow            |       193.78 |       -26.21 |       432.40 |        53.17 |\n| Investing Cash Flow     |      -415.02 |       402.48 |      -564.07 |      -404.54 |\n| Financing Cash Flow     |        67.89 |       532.79 |      -257.06 |      -103.11 |\n| CAPEX                   |      -116.88 |      -378.13 |       -15.08 |      -208.46 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

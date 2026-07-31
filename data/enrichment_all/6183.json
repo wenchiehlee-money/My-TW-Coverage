@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6183",
+  "company_name": "關貿",
+  "title": "6183 - [[關貿]]",
+  "source_md": "Pilot_Reports/資通訊安全 - 安全營運與事件回應/6183_關貿.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Business Services",
+    "market_cap": "13,920 百萬台幣",
+    "enterprise_value": "12,255 百萬台幣"
+  },
+  "business": {
+    "summary": "關貿網路股份有限公司 (6183) 為台灣歷史悠久的資訊服務領導品牌，前身為[[財政部]]貨物通關自動化規劃小組。以電子資料交換 (EDI) 與通關物流自動化起家，後擴展為全方位資訊系統整合商。主要業務包括：\n\n1. **電子通關網路：** 承攬國家級資訊基礎建設，包含[[財政部]][[關務署]]通關自動化系統。\n2. **政府資訊系統：** 報稅系統、電子化政府、[[健保快易通]]等便民服務建置維運。\n3. **企業數位轉型：** AIoT智慧物聯網、雲端服務、ESG碳盤查系統。\n4. **資安防護：** SOC安全監控中心、紅隊演練等資安服務。\n\n憑藉獨特半官方色彩與龐大B2B連線網路（超過八千家企業），關貿為台灣政府與企業數位轉型之關鍵樞紐。",
+    "entities": [
+      "財政部",
+      "關務署",
+      "健保快易通"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (硬體與軟體)",
+        "text": "**上游 (硬體與軟體):**",
+        "entities": []
+      },
+      {
+        "category": "伺服器",
+        "text": "[[Dell]]、[[HPE]]等伺服器硬體原廠",
+        "entities": [
+          "Dell",
+          "HPE"
+        ]
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft Azure]]等雲端服務",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "category": "資安軟體",
+        "text": "國際資安軟體開發商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (資訊服務)",
+        "text": "**中游 (資訊服務):**",
+        "entities": []
+      },
+      {
+        "category": "關貿 (6183)",
+        "text": "電子通關網路、政府系統建置維運、企業ESG與資安雲端解決方案",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "[[財政部]]、[[關務署]]等中央政府部門",
+        "entities": [
+          "財政部",
+          "關務署"
+        ]
+      },
+      {
+        "category": "企業客戶",
+        "text": "[[全聯]]、[[家樂福]]等超過八千家B2B企業",
+        "entities": [
+          "全聯",
+          "家樂福"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "政府機關",
+        "text": "[[財政部]]、[[關務署]]（通關自動化系統，佔比高）",
+        "entities": [
+          "財政部",
+          "關務署"
+        ]
+      },
+      {
+        "role": "公營事業",
+        "text": "[[健保署]]（健保快易通）",
+        "entities": [
+          "健保署"
+        ]
+      },
+      {
+        "role": "零售通路",
+        "text": "[[全聯]]、[[家樂福]]等B2B企業供應商",
+        "entities": [
+          "全聯",
+          "家樂福"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "伺服器硬體",
+        "text": "[[Dell]]、[[HPE]]等國際大廠",
+        "entities": [
+          "Dell",
+          "HPE"
+        ]
+      },
+      {
+        "role": "雲端服務",
+        "text": "[[AWS]]、[[Microsoft Azure]]",
+        "entities": [
+          "AWS",
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "資安軟體",
+        "text": "國際資安解決方案供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "財政部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "財政部"
+    },
+    {
+      "name": "關務署",
+      "type": "taiwan_company_or_term",
+      "wikilink": "關務署"
+    },
+    {
+      "name": "健保快易通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "健保快易通"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HPE",
+      "type": "international_company_or_term",
+      "wikilink": "HPE"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "全聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全聯"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "健保署",
+      "type": "taiwan_company_or_term",
+      "wikilink": "健保署"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "關貿網路股份有限公司 (6183) 為台灣歷史悠久的資訊服務領導品牌，前身為[[財政部]]貨物通關自動化規劃小組。以電子資料交換 (EDI) 與通關物流自動化起家，後擴展為全方位資訊系統整合商。主要業務包括：\n\n1. **電子通關網路：** 承攬國家級資訊基礎建設，包含[[財政部]][[關務署]]通關自動化系統。\n2. **政府資訊系統：** 報稅系統、電子化政府、[[健保快易通]]等便民服務建置維運。\n3. **企業數位轉型：** AIoT智慧物聯網、雲端服務、ESG碳盤查系統。\n4. **資安防護：** SOC安全監控中心、紅隊演練等資安服務。\n\n憑藉獨特半官方色彩與龐大B2B連線網路（超過八千家企業），關貿為台灣政府與企業數位轉型之關鍵樞紐。",
+    "supply_chain_md": "**上游 (硬體與軟體):**\n- **伺服器：** [[Dell]]、[[HPE]]等伺服器硬體原廠\n- **雲端平台：** [[AWS]]、[[Microsoft Azure]]等雲端服務\n- **資安軟體：** 國際資安軟體開發商\n\n**中游 (資訊服務):**\n- **關貿 (6183)：** 電子通關網路、政府系統建置維運、企業ESG與資安雲端解決方案\n\n**下游 (終端客戶):**\n- **政府機關：** [[財政部]]、[[關務署]]等中央政府部門\n- **企業客戶：** [[全聯]]、[[家樂福]]等超過八千家B2B企業",
+    "customers_suppliers_md": "### 主要客戶\n- **政府機關：** [[財政部]]、[[關務署]]（通關自動化系統，佔比高）\n- **公營事業：** [[健保署]]（健保快易通）\n- **零售通路：** [[全聯]]、[[家樂福]]等B2B企業供應商\n\n### 主要供應商\n- **伺服器硬體：** [[Dell]]、[[HPE]]等國際大廠\n- **雲端服務：** [[AWS]]、[[Microsoft Azure]]\n- **資安軟體：** 國際資安解決方案供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $91.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     22.66 |         N/A |      4.90 | 4.57 |     14.42 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2753.28 |      2554.68 |      2297.24 |\n| Gross Profit            |      1194.80 |      1078.37 |      1012.45 |\n| Gross Margin (%)        |        43.40 |        42.21 |        44.07 |\n| Selling & Marketing Exp |        97.76 |        90.02 |        87.88 |\n| R&D Exp                 |        39.83 |        40.44 |        34.67 |\n| General & Admin Exp     |       368.66 |       358.55 |       329.34 |\n| Operating Income        |       686.27 |       588.84 |       559.30 |\n| Operating Margin (%)    |        24.93 |        23.05 |        24.35 |\n| Net Income              |       585.56 |       510.28 |       480.67 |\n| Net Margin (%)          |        21.27 |        19.97 |        20.92 |\n| Op Cash Flow            |       678.48 |       811.19 |       583.69 |\n| Investing Cash Flow     |      -495.75 |      -311.49 |      -108.95 |\n| Financing Cash Flow     |      -493.61 |      -448.95 |      -387.76 |\n| CAPEX                   |      -242.54 |      -191.45 |      -127.70 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       663.94 |       796.30 |       623.12 |       624.00 |\n| Gross Profit            |       299.86 |       329.29 |       268.64 |       271.47 |\n| Gross Margin (%)        |        45.16 |        41.35 |        43.11 |        43.51 |\n| Selling & Marketing Exp |        21.03 |        28.79 |        22.03 |        21.39 |\n| R&D Exp                 |        11.19 |        13.16 |         8.77 |         8.71 |\n| General & Admin Exp     |        73.78 |       128.51 |        78.81 |        75.23 |\n| Operating Income        |       193.49 |       157.28 |       158.58 |       165.88 |\n| Operating Margin (%)    |        29.14 |        19.75 |        25.45 |        26.58 |\n| Net Income              |       160.14 |       132.51 |       133.76 |       138.15 |\n| Net Margin (%)          |        24.12 |        16.64 |        21.47 |        22.14 |\n| Op Cash Flow            |       340.71 |       290.30 |        96.12 |        90.59 |\n| Investing Cash Flow     |      -224.10 |       -97.07 |       -11.88 |      -402.39 |\n| Financing Cash Flow     |        -8.97 |        -6.95 |        -6.49 |        -4.62 |\n| CAPEX                   |       -14.77 |      -135.31 |       -60.00 |       -13.29 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

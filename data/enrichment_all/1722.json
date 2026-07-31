@@ -1,0 +1,287 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1722",
+  "company_name": "台肥",
+  "title": "1722 - 台肥",
+  "source_md": "Pilot_Reports/其他 - 其他/1722_台肥.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Agricultural Inputs",
+    "market_cap": "44,394 百萬台幣",
+    "enterprise_value": "41,459 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣肥料 (1722，Taiwan Fertilizer Co.) 為台灣第一大肥料供應商，國內肥料市佔率約 70%，最大股東為農業部 (持股約 24%)。公司以「肥料化工」及「不動產暨投資」雙主軸發展：(1) 肥料化工 — 自產複合肥料、[[硫酸銨]]、[[過磷酸鈣]]及有機質肥料，進口轉售[[尿素]]、[[氯化鉀]]等；化工品涵蓋[[三聚氰胺]]、[[硫酸]]、[[硝酸]]、[[氨水]]等工業化學品；(2) 不動產 — 持有全台土地約 53 萬坪，南港經貿園區為台北市最大地主 (約 3.58 萬坪)，南港 C3 地上權案帶來 150 億元現金、C2 觀光旅館暨辦公大樓總投資逾 100 億元；(3) 生技 — 子公司[[台海生技]]於花蓮經營亞洲最大深層海水廠。近期積極發展電子級化學品，爭取打入半導體供應鏈。",
+    "entities": [
+      "硫酸銨",
+      "過磷酸鈣",
+      "尿素",
+      "氯化鉀",
+      "三聚氰胺",
+      "硫酸",
+      "硝酸",
+      "氨水",
+      "台海生技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "天然氣",
+        "text": "[[台灣中油]] — 合成氨之核心原料",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "鉀肥",
+        "text": "[[Canpotex]] (加拿大，由[[Nutrien]]及[[Mosaic]]合資)、[[ICL Group]] (以色列)、[[Arab Potash Company]] (約旦)",
+        "entities": [
+          "Canpotex",
+          "Nutrien",
+          "Mosaic",
+          "ICL Group",
+          "Arab Potash Company"
+        ]
+      },
+      {
+        "category": "磷礦石",
+        "text": "[[OCP Group]] (摩洛哥，全球最大磷礦出口商)",
+        "entities": [
+          "OCP Group"
+        ]
+      },
+      {
+        "category": "尿素進口",
+        "text": "中東及東南亞尿素生產商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與開發)",
+        "text": "**中游 (製造與開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台肥** (複合肥料/化工品生產、南港不動產開發、電子級化學品)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[台海生技]]** (子公司，花蓮深層海水廠)",
+        "entities": [
+          "台海生技"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "肥料",
+        "text": "全台各級農會系統 — 配售「農友牌」肥料予農民",
+        "entities": []
+      },
+      {
+        "category": "化工品",
+        "text": "建材業 ([[三聚氰胺]])、化工業 ([[硫酸]]、[[硝酸]])",
+        "entities": [
+          "三聚氰胺",
+          "硫酸",
+          "硝酸"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "電子級化學品 — 發展中",
+        "entities": []
+      },
+      {
+        "category": "不動產",
+        "text": "南港經貿園區商辦大樓租戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "肥料",
+        "text": "全台各級農會系統 — 「農友牌」肥料最大經銷通路",
+        "entities": []
+      },
+      {
+        "role": "化工品",
+        "text": "國內建材業 ([[三聚氰胺]])、化工業 ([[硫酸]]、[[硝酸]]、[[氨水]])",
+        "entities": [
+          "三聚氰胺",
+          "硫酸",
+          "硝酸",
+          "氨水"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "電子級化學品客戶 (發展中)",
+        "entities": []
+      },
+      {
+        "role": "不動產",
+        "text": "南港經貿園區商辦承租戶",
+        "entities": []
+      },
+      {
+        "role": "生技",
+        "text": "[[台海生技]] — 深層海水系列產品消費者",
+        "entities": [
+          "台海生技"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "天然氣",
+        "text": "[[台灣中油]] — 合成氨原料",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "鉀肥",
+        "text": "[[Canpotex]] (加拿大)、[[ICL Group]] (以色列)、[[Arab Potash Company]] (約旦)",
+        "entities": [
+          "Canpotex",
+          "ICL Group",
+          "Arab Potash Company"
+        ]
+      },
+      {
+        "role": "磷礦石",
+        "text": "[[OCP Group]] (摩洛哥)",
+        "entities": [
+          "OCP Group"
+        ]
+      },
+      {
+        "role": "尿素",
+        "text": "中東及東南亞進口商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "硫酸銨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硫酸銨"
+    },
+    {
+      "name": "過磷酸鈣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "過磷酸鈣"
+    },
+    {
+      "name": "尿素",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尿素"
+    },
+    {
+      "name": "氯化鉀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氯化鉀"
+    },
+    {
+      "name": "三聚氰胺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三聚氰胺"
+    },
+    {
+      "name": "硫酸",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硫酸"
+    },
+    {
+      "name": "硝酸",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硝酸"
+    },
+    {
+      "name": "氨水",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氨水"
+    },
+    {
+      "name": "台海生技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台海生技"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "Canpotex",
+      "type": "international_company_or_term",
+      "wikilink": "Canpotex"
+    },
+    {
+      "name": "Nutrien",
+      "type": "international_company_or_term",
+      "wikilink": "Nutrien"
+    },
+    {
+      "name": "Mosaic",
+      "type": "international_company_or_term",
+      "wikilink": "Mosaic"
+    },
+    {
+      "name": "ICL Group",
+      "type": "international_company_or_term",
+      "wikilink": "ICL Group"
+    },
+    {
+      "name": "Arab Potash Company",
+      "type": "international_company_or_term",
+      "wikilink": "Arab Potash Company"
+    },
+    {
+      "name": "OCP Group",
+      "type": "international_company_or_term",
+      "wikilink": "OCP Group"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣肥料 (1722，Taiwan Fertilizer Co.) 為台灣第一大肥料供應商，國內肥料市佔率約 70%，最大股東為農業部 (持股約 24%)。公司以「肥料化工」及「不動產暨投資」雙主軸發展：(1) 肥料化工 — 自產複合肥料、[[硫酸銨]]、[[過磷酸鈣]]及有機質肥料，進口轉售[[尿素]]、[[氯化鉀]]等；化工品涵蓋[[三聚氰胺]]、[[硫酸]]、[[硝酸]]、[[氨水]]等工業化學品；(2) 不動產 — 持有全台土地約 53 萬坪，南港經貿園區為台北市最大地主 (約 3.58 萬坪)，南港 C3 地上權案帶來 150 億元現金、C2 觀光旅館暨辦公大樓總投資逾 100 億元；(3) 生技 — 子公司[[台海生技]]於花蓮經營亞洲最大深層海水廠。近期積極發展電子級化學品，爭取打入半導體供應鏈。",
+    "supply_chain_md": "**上游 (原料):**\n- **天然氣:** [[台灣中油]] — 合成氨之核心原料\n- **鉀肥:** [[Canpotex]] (加拿大，由[[Nutrien]]及[[Mosaic]]合資)、[[ICL Group]] (以色列)、[[Arab Potash Company]] (約旦)\n- **磷礦石:** [[OCP Group]] (摩洛哥，全球最大磷礦出口商)\n- **尿素進口:** 中東及東南亞尿素生產商\n\n**中游 (製造與開發):**\n- **台肥** (複合肥料/化工品生產、南港不動產開發、電子級化學品)\n- **[[台海生技]]** (子公司，花蓮深層海水廠)\n\n**下游 (終端應用):**\n- **肥料:** 全台各級農會系統 — 配售「農友牌」肥料予農民\n- **化工品:** 建材業 ([[三聚氰胺]])、化工業 ([[硫酸]]、[[硝酸]])\n- **半導體:** 電子級化學品 — 發展中\n- **不動產:** 南港經貿園區商辦大樓租戶",
+    "customers_suppliers_md": "### 主要客戶\n- **肥料:** 全台各級農會系統 — 「農友牌」肥料最大經銷通路\n- **化工品:** 國內建材業 ([[三聚氰胺]])、化工業 ([[硫酸]]、[[硝酸]]、[[氨水]])\n- **半導體:** 電子級化學品客戶 (發展中)\n- **不動產:** 南港經貿園區商辦承租戶\n- **生技:** [[台海生技]] — 深層海水系列產品消費者\n\n### 主要供應商\n- **天然氣:** [[台灣中油]] — 合成氨原料\n- **鉀肥:** [[Canpotex]] (加拿大)、[[ICL Group]] (以色列)、[[Arab Potash Company]] (約旦)\n- **磷礦石:** [[OCP Group]] (摩洛哥)\n- **尿素:** 中東及東南亞進口商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $45.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     48.21 |       15.74 |      3.59 | 0.82 |     24.60 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     12087.71 |     11873.26 |     15014.79 |\n| Gross Profit            |      1583.01 |      1784.44 |      4118.17 |\n| Gross Margin (%)        |        13.10 |        15.03 |        27.43 |\n| Selling & Marketing Exp |       207.57 |       258.18 |       319.57 |\n| R&D Exp                 |        35.41 |        39.30 |        44.54 |\n| General & Admin Exp     |       977.49 |       937.26 |       996.42 |\n| Operating Income        |       362.54 |       549.71 |      2757.64 |\n| Operating Margin (%)    |         3.00 |         4.63 |        18.37 |\n| Net Income              |       932.24 |      1965.65 |      3919.05 |\n| Net Margin (%)          |         7.71 |        16.56 |        26.10 |\n| Op Cash Flow            |      2370.25 |      3705.46 |      6058.53 |\n| Investing Cash Flow     |     -2976.18 |     -1323.60 |     -2048.88 |\n| Financing Cash Flow     |     -1529.05 |     -2629.07 |     -2416.60 |\n| CAPEX                   |      -478.54 |      -523.61 |      -405.43 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2724.44 |      3020.10 |      3011.33 |      3331.84 |\n| Gross Profit            |       416.94 |       418.26 |       515.65 |       232.16 |\n| Gross Margin (%)        |        15.30 |        13.85 |        17.12 |         6.97 |\n| Selling & Marketing Exp |        51.45 |        47.38 |        54.94 |        53.81 |\n| R&D Exp                 |         7.79 |         7.24 |        12.60 |         7.78 |\n| General & Admin Exp     |       274.93 |       248.04 |       239.95 |       214.57 |\n| Operating Income        |        82.78 |       115.61 |       208.17 |       -44.01 |\n| Operating Margin (%)    |         3.04 |         3.83 |         6.91 |        -1.32 |\n| Net Income              |      -159.76 |       561.74 |       428.86 |       101.40 |\n| Net Margin (%)          |        -5.86 |        18.60 |        14.24 |         3.04 |\n| Op Cash Flow            |      1236.24 |       300.66 |       613.24 |       220.12 |\n| Investing Cash Flow     |     -1061.87 |       -29.56 |     -1641.81 |      -242.94 |\n| Financing Cash Flow     |     -1199.06 |      -292.11 |       -19.18 |       -18.70 |\n| CAPEX                   |      -156.38 |      -113.32 |      -131.28 |       -77.57 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": []
+  }
+}

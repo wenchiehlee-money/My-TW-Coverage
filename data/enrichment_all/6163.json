@@ -1,0 +1,339 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6163",
+  "company_name": "華電網",
+  "title": "6163_華電網",
+  "source_md": "Pilot_Reports/智慧電網 - 能源管理服務/6163_華電網.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Communication Services",
+    "industry": "Telecom Services",
+    "market_cap": "5,486 百萬台幣",
+    "enterprise_value": "5,308 百萬台幣"
+  },
+  "business": {
+    "summary": "華電聯網 (6163，[[HWACOM]]) 是台灣領先的大型資通訊系統整合商，業務橫跨電信網路、數位媒體、智慧交通、智慧城市、資安與企業[[雲端服務]]六大領域。公司曾建置台灣首套 ADSL 系統及最大 IPTV (MOD) 系統。\n\n業務結構與動能：(1) 智慧交通 — 高速公路數位分身管理、桃園機場第三航廈全球首例自駕電動巴士 (PMS) 接駁系統，為近年指標性專案；(2) [[5G]] AIoT 專網 — 為[[台灣中油]]等工業區建置 [[5G]] 專網，結合 AI 與[[物聯網]]技術；(3) 資安服務 — 提供一站式零信任資安解決方案；(4) 企業 ICT — 與[[研華科技]]策略合作，提供[[雲端服務]]、網路建置與系統整合。主要合作夥伴包含 [[Cisco]]、[[Nokia]]、[[Palo Alto Networks]] 及 [[Microsoft]]。",
+    "entities": [
+      "HWACOM",
+      "雲端服務",
+      "5G",
+      "台灣中油",
+      "物聯網",
+      "研華科技",
+      "Cisco",
+      "Nokia",
+      "Palo Alto Networks",
+      "Microsoft"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備與軟體)",
+        "text": "**上游 (設備與軟體):**",
+        "entities": []
+      },
+      {
+        "category": "網通設備",
+        "text": "[[Cisco]] — 路由器/交換器",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "category": "通訊設備",
+        "text": "[[Nokia]] — 電信級網路設備",
+        "entities": [
+          "Nokia"
+        ]
+      },
+      {
+        "category": "資安方案",
+        "text": "[[Palo Alto Networks]] — 企業資安防護",
+        "entities": [
+          "Palo Alto Networks"
+        ]
+      },
+      {
+        "category": "雲端/軟體",
+        "text": "[[Microsoft]] — 企業級雲端與軟體",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "category": "工業電腦",
+        "text": "[[研華科技]] — AIoT 邊緣運算設備",
+        "entities": [
+          "研華科技"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合服務)",
+        "text": "**中游 (系統整合服務):**",
+        "entities": []
+      },
+      {
+        "category": "智慧交通",
+        "text": "**華電聯網** (高速公路數位分身、機場自駕巴士)",
+        "entities": []
+      },
+      {
+        "category": "[[5G]] 專網",
+        "text": "**華電聯網** (工業區 [[5G]] AIoT 專網建置)",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "資安服務",
+        "text": "**華電聯網** (零信任資安方案)",
+        "entities": []
+      },
+      {
+        "category": "企業 ICT",
+        "text": "**華電聯網** ([[雲端服務]]與網路整合)",
+        "entities": [
+          "雲端服務"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電信營運商",
+        "text": "[[中華電信]]、[[台灣大哥大]]、[[遠傳電信]]",
+        "entities": [
+          "中華電信",
+          "台灣大哥大",
+          "遠傳電信"
+        ]
+      },
+      {
+        "category": "政府機關",
+        "text": "交通部 (高公局/台鐵)、桃園機場、國防單位",
+        "entities": []
+      },
+      {
+        "category": "國營事業",
+        "text": "[[台灣中油]] — [[5G]] 專網",
+        "entities": [
+          "台灣中油",
+          "5G"
+        ]
+      },
+      {
+        "category": "企業客戶",
+        "text": "[[聯發科]]、[[群創]]、[[旺宏]]等科技業及金融醫療機構",
+        "entities": [
+          "聯發科",
+          "群創",
+          "旺宏"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信營運商",
+        "text": "[[中華電信]] — 長期關鍵合作夥伴",
+        "entities": [
+          "中華電信"
+        ]
+      },
+      {
+        "role": "政府交通",
+        "text": "交通部高公局、台鐵 — 智慧交通系統",
+        "entities": []
+      },
+      {
+        "role": "機場",
+        "text": "桃園國際機場 — 自駕電動巴士接駁系統",
+        "entities": []
+      },
+      {
+        "role": "國營事業",
+        "text": "[[台灣中油]] — [[5G]] AIoT 專網",
+        "entities": [
+          "台灣中油",
+          "5G"
+        ]
+      },
+      {
+        "role": "科技業",
+        "text": "[[聯發科]]、[[群創]]、[[旺宏]] — 企業 ICT 服務",
+        "entities": [
+          "聯發科",
+          "群創",
+          "旺宏"
+        ]
+      },
+      {
+        "role": "金融醫療",
+        "text": "大型金融機構與醫療院所 — 資安與網路整合",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網通設備",
+        "text": "[[Cisco]] — 路由器/交換器",
+        "entities": [
+          "Cisco"
+        ]
+      },
+      {
+        "role": "通訊設備",
+        "text": "[[Nokia]] — 電信級網路設備",
+        "entities": [
+          "Nokia"
+        ]
+      },
+      {
+        "role": "資安",
+        "text": "[[Palo Alto Networks]] — 資安防護方案",
+        "entities": [
+          "Palo Alto Networks"
+        ]
+      },
+      {
+        "role": "軟體平台",
+        "text": "[[Microsoft]] — 企業雲端與軟體",
+        "entities": [
+          "Microsoft"
+        ]
+      },
+      {
+        "role": "工業電腦",
+        "text": "[[研華科技]] — AIoT 邊緣運算設備",
+        "entities": [
+          "研華科技"
+        ]
+      },
+      {
+        "role": "[[5G]] 專網",
+        "text": "[[和碩]] — [[5G]] 專網設備合作",
+        "entities": [
+          "5G",
+          "和碩"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "HWACOM",
+      "type": "international_company_or_term",
+      "wikilink": "HWACOM"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "研華科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華科技"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Nokia",
+      "type": "international_company_or_term",
+      "wikilink": "Nokia"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "台灣大哥大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣大哥大"
+    },
+    {
+      "name": "遠傳電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳電信"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華電聯網 (6163，[[HWACOM]]) 是台灣領先的大型資通訊系統整合商，業務橫跨電信網路、數位媒體、智慧交通、智慧城市、資安與企業[[雲端服務]]六大領域。公司曾建置台灣首套 ADSL 系統及最大 IPTV (MOD) 系統。\n\n業務結構與動能：(1) 智慧交通 — 高速公路數位分身管理、桃園機場第三航廈全球首例自駕電動巴士 (PMS) 接駁系統，為近年指標性專案；(2) [[5G]] AIoT 專網 — 為[[台灣中油]]等工業區建置 [[5G]] 專網，結合 AI 與[[物聯網]]技術；(3) 資安服務 — 提供一站式零信任資安解決方案；(4) 企業 ICT — 與[[研華科技]]策略合作，提供[[雲端服務]]、網路建置與系統整合。主要合作夥伴包含 [[Cisco]]、[[Nokia]]、[[Palo Alto Networks]] 及 [[Microsoft]]。",
+    "supply_chain_md": "**上游 (設備與軟體):**\n- **網通設備:** [[Cisco]] — 路由器/交換器\n- **通訊設備:** [[Nokia]] — 電信級網路設備\n- **資安方案:** [[Palo Alto Networks]] — 企業資安防護\n- **雲端/軟體:** [[Microsoft]] — 企業級雲端與軟體\n- **工業電腦:** [[研華科技]] — AIoT 邊緣運算設備\n\n**中游 (系統整合服務):**\n- **智慧交通:** **華電聯網** (高速公路數位分身、機場自駕巴士)\n- **[[5G]] 專網:** **華電聯網** (工業區 [[5G]] AIoT 專網建置)\n- **資安服務:** **華電聯網** (零信任資安方案)\n- **企業 ICT:** **華電聯網** ([[雲端服務]]與網路整合)\n\n**下游 (終端客戶):**\n- **電信營運商:** [[中華電信]]、[[台灣大哥大]]、[[遠傳電信]]\n- **政府機關:** 交通部 (高公局/台鐵)、桃園機場、國防單位\n- **國營事業:** [[台灣中油]] — [[5G]] 專網\n- **企業客戶:** [[聯發科]]、[[群創]]、[[旺宏]]等科技業及金融醫療機構",
+    "customers_suppliers_md": "### 主要客戶\n- **電信營運商:** [[中華電信]] — 長期關鍵合作夥伴\n- **政府交通:** 交通部高公局、台鐵 — 智慧交通系統\n- **機場:** 桃園國際機場 — 自駕電動巴士接駁系統\n- **國營事業:** [[台灣中油]] — [[5G]] AIoT 專網\n- **科技業:** [[聯發科]]、[[群創]]、[[旺宏]] — 企業 ICT 服務\n- **金融醫療:** 大型金融機構與醫療院所 — 資安與網路整合\n\n### 主要供應商\n- **網通設備:** [[Cisco]] — 路由器/交換器\n- **通訊設備:** [[Nokia]] — 電信級網路設備\n- **資安:** [[Palo Alto Networks]] — 資安防護方案\n- **軟體平台:** [[Microsoft]] — 企業雲端與軟體\n- **工業電腦:** [[研華科技]] — AIoT 邊緣運算設備\n- **[[5G]] 專網:** [[和碩]] — [[5G]] 專網設備合作",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $35.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     50.49 |         N/A |      0.79 | 1.78 |     23.73 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6105.82 |      5503.77 |      5252.73 |\n| Gross Profit            |      1226.29 |      1222.80 |      1070.03 |\n| Gross Margin (%)        |        20.08 |        22.22 |        20.37 |\n| Selling & Marketing Exp |       730.95 |       693.23 |       784.68 |\n| R&D Exp                 |        67.42 |        66.16 |        53.28 |\n| General & Admin Exp     |       307.32 |       288.97 |       227.24 |\n| Operating Income        |       120.60 |       174.45 |         4.82 |\n| Operating Margin (%)    |         1.98 |         3.17 |         0.09 |\n| Net Income              |       105.35 |       130.58 |        57.62 |\n| Net Margin (%)          |         1.73 |         2.37 |         1.10 |\n| Op Cash Flow            |       739.44 |      -881.65 |       896.65 |\n| Investing Cash Flow     |      -183.60 |         2.20 |      -314.94 |\n| Financing Cash Flow     |        43.64 |       693.91 |      -176.07 |\n| CAPEX                   |       -57.93 |       -76.18 |      -222.34 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2244.42 |      1639.41 |       974.98 |      1247.00 |\n| Gross Profit            |       442.58 |       308.44 |       175.16 |       300.11 |\n| Gross Margin (%)        |        19.72 |        18.81 |        17.97 |        24.07 |\n| Selling & Marketing Exp |       196.03 |       166.84 |       176.93 |       191.15 |\n| R&D Exp                 |        18.71 |        15.62 |        16.12 |        16.97 |\n| General & Admin Exp     |       105.76 |        67.37 |        65.49 |        68.70 |\n| Operating Income        |       122.08 |        58.60 |       -83.37 |        23.29 |\n| Operating Margin (%)    |         5.44 |         3.57 |        -8.55 |         1.87 |\n| Net Income              |       128.79 |        31.22 |       -78.57 |        23.91 |\n| Net Margin (%)          |         5.74 |         1.90 |        -8.06 |         1.92 |\n| Op Cash Flow            |       660.92 |        88.74 |      -212.02 |       201.81 |\n| Investing Cash Flow     |      -321.20 |       -31.32 |       110.84 |        58.08 |\n| Financing Cash Flow     |       412.61 |       -72.78 |      -237.41 |       -58.78 |\n| CAPEX                   |       -23.05 |        -9.87 |       -15.60 |        -9.41 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": []
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8222",
+  "company_name": "寶一",
+  "title": "8222 - 寶一",
+  "source_md": "Pilot_Reports/電機機械 - 金屬加工處理/8222_寶一.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "market_cap": "2,438 百萬台幣",
+    "enterprise_value": "3,322 百萬台幣"
+  },
+  "business": {
+    "summary": "寶一科技 (8222，Aerowin Technology) 成立逾 40 年，專注於航空發動機關鍵零件之精密製造。核心技術涵蓋超合金與[[鈦合金]]之成型、焊接、加工、熱處理及表面處理，主力產品為引擎冷卻件與環件，廣泛應用於全球主流民用與軍用航空發動機。客戶遍及美、法、德、日、義、比、波蘭等國，為[[Pratt & Whitney]]、[[Safran]]旗下多家子公司、[[川崎重工]]、[[MTU Aero Engines]]、[[GE Avio]] 等全球一線引擎大廠之重要 Tier 1/Tier 2 供應商。受惠於[[LEAP]]、[[PW1000G]] 等新世代引擎量產放大，營收持續成長。",
+    "entities": [
+      "鈦合金",
+      "Pratt & Whitney",
+      "Safran",
+      "川崎重工",
+      "MTU Aero Engines",
+      "GE Avio",
+      "LEAP",
+      "PW1000G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊合金",
+        "text": "[[榮剛]] — 超合金與[[鈦合金]]鍛造件",
+        "entities": [
+          "榮剛",
+          "鈦合金"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (精密製造)",
+        "text": "**中游 (精密製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**寶一** (航空發動機冷卻件與環件之精密成型、焊接與表面處理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (引擎 OEM)",
+        "text": "**下游 (引擎 OEM):**",
+        "entities": []
+      },
+      {
+        "category": "美系",
+        "text": "[[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎零組件",
+        "entities": [
+          "Pratt & Whitney",
+          "PW1000G",
+          "PW1500G"
+        ]
+      },
+      {
+        "category": "法系",
+        "text": "[[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 引擎零組件",
+        "entities": [
+          "Safran Aircraft Engines",
+          "Safran Aero Boosters",
+          "Safran Transmission Systems",
+          "LEAP",
+          "CFM56"
+        ]
+      },
+      {
+        "category": "德系",
+        "text": "[[MTU Aero Engines]] — 引擎零組件",
+        "entities": [
+          "MTU Aero Engines"
+        ]
+      },
+      {
+        "category": "義系",
+        "text": "[[GE Avio]] — [[GE Aerospace]]子公司，引擎零組件",
+        "entities": [
+          "GE Avio",
+          "GE Aerospace"
+        ]
+      },
+      {
+        "category": "日系",
+        "text": "[[川崎重工]]、[[三菱重工]] — [[PW1500G]] 等引擎零組件",
+        "entities": [
+          "川崎重工",
+          "三菱重工",
+          "PW1500G"
+        ]
+      },
+      {
+        "category": "其他",
+        "text": "[[Honeywell]] — 引擎零組件",
+        "entities": [
+          "Honeywell"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "美系引擎",
+        "text": "[[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎冷卻件與環件",
+        "entities": [
+          "Pratt & Whitney",
+          "PW1000G",
+          "PW1500G"
+        ]
+      },
+      {
+        "role": "法系引擎",
+        "text": "[[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 零組件",
+        "entities": [
+          "Safran Aircraft Engines",
+          "Safran Aero Boosters",
+          "Safran Transmission Systems",
+          "LEAP",
+          "CFM56"
+        ]
+      },
+      {
+        "role": "德系引擎",
+        "text": "[[MTU Aero Engines]] — 引擎零組件",
+        "entities": [
+          "MTU Aero Engines"
+        ]
+      },
+      {
+        "role": "義系引擎",
+        "text": "[[GE Avio]] ([[GE Aerospace]]子公司) — 引擎零組件",
+        "entities": [
+          "GE Avio",
+          "GE Aerospace"
+        ]
+      },
+      {
+        "role": "日系引擎",
+        "text": "[[川崎重工]] — [[PW1500G]] 燃燒室零組件 (近期大幅增長)；[[三菱重工]] — 引擎零組件",
+        "entities": [
+          "川崎重工",
+          "PW1500G",
+          "三菱重工"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "[[Honeywell]]、[[漢翔]] — 引擎零組件",
+        "entities": [
+          "Honeywell",
+          "漢翔"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊合金",
+        "text": "[[榮剛]] — 超合金與[[鈦合金]]鍛造件",
+        "entities": [
+          "榮剛",
+          "鈦合金"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "鈦合金",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈦合金"
+    },
+    {
+      "name": "Pratt & Whitney",
+      "type": "international_company_or_term",
+      "wikilink": "Pratt & Whitney"
+    },
+    {
+      "name": "Safran",
+      "type": "international_company_or_term",
+      "wikilink": "Safran"
+    },
+    {
+      "name": "川崎重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "川崎重工"
+    },
+    {
+      "name": "MTU Aero Engines",
+      "type": "international_company_or_term",
+      "wikilink": "MTU Aero Engines"
+    },
+    {
+      "name": "GE Avio",
+      "type": "international_company_or_term",
+      "wikilink": "GE Avio"
+    },
+    {
+      "name": "LEAP",
+      "type": "international_company_or_term",
+      "wikilink": "LEAP"
+    },
+    {
+      "name": "PW1000G",
+      "type": "international_company_or_term",
+      "wikilink": "PW1000G"
+    },
+    {
+      "name": "榮剛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "榮剛"
+    },
+    {
+      "name": "PW1500G",
+      "type": "international_company_or_term",
+      "wikilink": "PW1500G"
+    },
+    {
+      "name": "Safran Aircraft Engines",
+      "type": "international_company_or_term",
+      "wikilink": "Safran Aircraft Engines"
+    },
+    {
+      "name": "Safran Aero Boosters",
+      "type": "international_company_or_term",
+      "wikilink": "Safran Aero Boosters"
+    },
+    {
+      "name": "Safran Transmission Systems",
+      "type": "international_company_or_term",
+      "wikilink": "Safran Transmission Systems"
+    },
+    {
+      "name": "CFM56",
+      "type": "international_company_or_term",
+      "wikilink": "CFM56"
+    },
+    {
+      "name": "GE Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aerospace"
+    },
+    {
+      "name": "三菱重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱重工"
+    },
+    {
+      "name": "Honeywell",
+      "type": "international_company_or_term",
+      "wikilink": "Honeywell"
+    },
+    {
+      "name": "漢翔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢翔"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "寶一科技 (8222，Aerowin Technology) 成立逾 40 年，專注於航空發動機關鍵零件之精密製造。核心技術涵蓋超合金與[[鈦合金]]之成型、焊接、加工、熱處理及表面處理，主力產品為引擎冷卻件與環件，廣泛應用於全球主流民用與軍用航空發動機。客戶遍及美、法、德、日、義、比、波蘭等國，為[[Pratt & Whitney]]、[[Safran]]旗下多家子公司、[[川崎重工]]、[[MTU Aero Engines]]、[[GE Avio]] 等全球一線引擎大廠之重要 Tier 1/Tier 2 供應商。受惠於[[LEAP]]、[[PW1000G]] 等新世代引擎量產放大，營收持續成長。",
+    "supply_chain_md": "**上游 (材料):**\n- **特殊合金:** [[榮剛]] — 超合金與[[鈦合金]]鍛造件\n\n**中游 (精密製造):**\n- **寶一** (航空發動機冷卻件與環件之精密成型、焊接與表面處理)\n\n**下游 (引擎 OEM):**\n- **美系:** [[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎零組件\n- **法系:** [[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 引擎零組件\n- **德系:** [[MTU Aero Engines]] — 引擎零組件\n- **義系:** [[GE Avio]] — [[GE Aerospace]]子公司，引擎零組件\n- **日系:** [[川崎重工]]、[[三菱重工]] — [[PW1500G]] 等引擎零組件\n- **其他:** [[Honeywell]] — 引擎零組件",
+    "customers_suppliers_md": "### 主要客戶\n- **美系引擎:** [[Pratt & Whitney]] — [[PW1000G]]/[[PW1500G]] 引擎冷卻件與環件\n- **法系引擎:** [[Safran Aircraft Engines]]、[[Safran Aero Boosters]]、[[Safran Transmission Systems]] — [[LEAP]]/[[CFM56]] 零組件\n- **德系引擎:** [[MTU Aero Engines]] — 引擎零組件\n- **義系引擎:** [[GE Avio]] ([[GE Aerospace]]子公司) — 引擎零組件\n- **日系引擎:** [[川崎重工]] — [[PW1500G]] 燃燒室零組件 (近期大幅增長)；[[三菱重工]] — 引擎零組件\n- **其他:** [[Honeywell]]、[[漢翔]] — 引擎零組件\n\n### 主要供應商\n- **特殊合金:** [[榮剛]] — 超合金與[[鈦合金]]鍛造件",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $34.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     55.90 |       39.65 |      2.48 | 2.52 |     21.36 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       961.01 |       824.13 |       683.83 |\n| Gross Profit            |       177.99 |       185.25 |       133.74 |\n| Gross Margin (%)        |        18.52 |        22.48 |        19.56 |\n| Selling & Marketing Exp |        22.97 |        23.48 |        20.30 |\n| R&D Exp                 |        53.57 |        52.74 |        45.08 |\n| General & Admin Exp     |        37.16 |        39.49 |        31.40 |\n| Operating Income        |        64.29 |        72.55 |        36.97 |\n| Operating Margin (%)    |         6.69 |         8.80 |         5.41 |\n| Net Income              |        37.45 |       102.09 |        60.63 |\n| Net Margin (%)          |         3.90 |        12.39 |         8.87 |\n| Op Cash Flow            |        14.67 |        80.67 |       -98.48 |\n| Investing Cash Flow     |       -97.09 |      -554.43 |       -77.57 |\n| Financing Cash Flow     |        38.60 |       447.72 |        42.73 |\n| CAPEX                   |       -95.19 |      -558.30 |       -77.86 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       234.43 |       234.61 |       219.46 |       253.59 |\n| Gross Profit            |        59.23 |        53.20 |        34.37 |        33.85 |\n| Gross Margin (%)        |        25.27 |        22.67 |        15.66 |        13.35 |\n| Selling & Marketing Exp |         5.84 |         5.43 |         6.04 |         5.68 |\n| R&D Exp                 |        13.03 |        11.45 |        14.99 |        13.39 |\n| General & Admin Exp     |         9.45 |         9.72 |         9.68 |         7.84 |\n| Operating Income        |        30.90 |        26.59 |         3.67 |         6.95 |\n| Operating Margin (%)    |        13.18 |        11.34 |         1.67 |         2.74 |\n| Net Income              |        25.51 |        26.25 |        10.35 |       -20.47 |\n| Net Margin (%)          |        10.88 |        11.19 |         4.71 |        -8.07 |\n| Op Cash Flow            |        26.66 |        44.82 |        23.78 |        17.54 |\n| Investing Cash Flow     |       -19.19 |       -16.38 |       -14.08 |       -35.25 |\n| Financing Cash Flow     |        14.96 |        50.18 |       -63.49 |        52.70 |\n| CAPEX                   |       -19.69 |       -16.18 |       -12.93 |       -35.63 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 18,
+    "warnings": []
+  }
+}

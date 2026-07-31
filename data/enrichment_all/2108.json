@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2108",
+  "company_name": "南帝",
+  "title": "2108 - 南帝",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 橡膠製品/2108_南帝.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "13,098 百萬台幣",
+    "enterprise_value": "4,292 百萬台幣"
+  },
+  "business": {
+    "summary": "南帝化學工業 (2108，Nantex Industry) 隸屬[[台南紡織]]集團，為全球前五大、台灣第一大[[NBR]] (丁腈橡膠) 製造商，年產能約 18 萬噸，全球市佔率約 12%。核心產品：(1) 合成乳膠 (NBR Latex) — 供應全球手套製造商如[[Top Glove]]、[[Hartalega]]、[[Kossan]]、[[Supermax]]等馬來西亞手套大廠；(2) 固態[[NBR]]橡膠 (品牌 Nancar) — 油封、O型環、燃油管用；(3) [[熱可塑性彈性體]] (TPE，品牌 DYNAPRENE) — 汽車零件/建材/3C；(4) 碳黑母粒。上游原料為[[丁二烯]]及[[丙烯腈]]。",
+    "entities": [
+      "台南紡織",
+      "NBR",
+      "Top Glove",
+      "Hartalega",
+      "Kossan",
+      "Supermax",
+      "熱可塑性彈性體",
+      "丁二烯",
+      "丙烯腈"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "丁二烯",
+        "text": "[[丁二烯]]國際供應商",
+        "entities": [
+          "丁二烯"
+        ]
+      },
+      {
+        "category": "丙烯腈",
+        "text": "[[丙烯腈]]國際供應商",
+        "entities": [
+          "丙烯腈"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**南帝** ([[NBR]]乳膠/固態 NBR/[[熱可塑性彈性體]] TPE/碳黑母粒)",
+        "entities": [
+          "NBR",
+          "熱可塑性彈性體"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "手套廠",
+        "text": "[[Top Glove]]、[[Hartalega]]、[[Kossan]]、[[Supermax]] — NBR 乳膠",
+        "entities": [
+          "Top Glove",
+          "Hartalega",
+          "Kossan",
+          "Supermax"
+        ]
+      },
+      {
+        "category": "橡膠加工",
+        "text": "油封/O 型環/燃油管製造商 — 固態 NBR",
+        "entities": []
+      },
+      {
+        "category": "汽車/3C",
+        "text": "[[熱可塑性彈性體]] TPE 應用",
+        "entities": [
+          "熱可塑性彈性體"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "手套廠 (馬來西亞)",
+        "text": "[[Top Glove]]、[[Hartalega]]、[[Kossan]]、[[Supermax]] — NBR 乳膠",
+        "entities": [
+          "Top Glove",
+          "Hartalega",
+          "Kossan",
+          "Supermax"
+        ]
+      },
+      {
+        "role": "橡膠加工",
+        "text": "東南亞/韓國/中國橡膠製品廠 — 固態 NBR",
+        "entities": []
+      },
+      {
+        "role": "汽車/3C",
+        "text": "[[熱可塑性彈性體]] TPE 應用",
+        "entities": [
+          "熱可塑性彈性體"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化",
+        "text": "[[丁二烯]]、[[丙烯腈]]國際供應商",
+        "entities": [
+          "丁二烯",
+          "丙烯腈"
+        ]
+      },
+      {
+        "role": "母集團",
+        "text": "[[台南紡織]]",
+        "entities": [
+          "台南紡織"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台南紡織",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台南紡織"
+    },
+    {
+      "name": "NBR",
+      "type": "international_company_or_term",
+      "wikilink": "NBR"
+    },
+    {
+      "name": "Top Glove",
+      "type": "international_company_or_term",
+      "wikilink": "Top Glove"
+    },
+    {
+      "name": "Hartalega",
+      "type": "international_company_or_term",
+      "wikilink": "Hartalega"
+    },
+    {
+      "name": "Kossan",
+      "type": "international_company_or_term",
+      "wikilink": "Kossan"
+    },
+    {
+      "name": "Supermax",
+      "type": "international_company_or_term",
+      "wikilink": "Supermax"
+    },
+    {
+      "name": "熱可塑性彈性體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "熱可塑性彈性體"
+    },
+    {
+      "name": "丁二烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "丁二烯"
+    },
+    {
+      "name": "丙烯腈",
+      "type": "taiwan_company_or_term",
+      "wikilink": "丙烯腈"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "南帝化學工業 (2108，Nantex Industry) 隸屬[[台南紡織]]集團，為全球前五大、台灣第一大[[NBR]] (丁腈橡膠) 製造商，年產能約 18 萬噸，全球市佔率約 12%。核心產品：(1) 合成乳膠 (NBR Latex) — 供應全球手套製造商如[[Top Glove]]、[[Hartalega]]、[[Kossan]]、[[Supermax]]等馬來西亞手套大廠；(2) 固態[[NBR]]橡膠 (品牌 Nancar) — 油封、O型環、燃油管用；(3) [[熱可塑性彈性體]] (TPE，品牌 DYNAPRENE) — 汽車零件/建材/3C；(4) 碳黑母粒。上游原料為[[丁二烯]]及[[丙烯腈]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **丁二烯:** [[丁二烯]]國際供應商\n- **丙烯腈:** [[丙烯腈]]國際供應商\n\n**中游 (製造):**\n- **南帝** ([[NBR]]乳膠/固態 NBR/[[熱可塑性彈性體]] TPE/碳黑母粒)\n\n**下游 (終端):**\n- **手套廠:** [[Top Glove]]、[[Hartalega]]、[[Kossan]]、[[Supermax]] — NBR 乳膠\n- **橡膠加工:** 油封/O 型環/燃油管製造商 — 固態 NBR\n- **汽車/3C:** [[熱可塑性彈性體]] TPE 應用",
+    "customers_suppliers_md": "### 主要客戶\n- **手套廠 (馬來西亞):** [[Top Glove]]、[[Hartalega]]、[[Kossan]]、[[Supermax]] — NBR 乳膠\n- **橡膠加工:** 東南亞/韓國/中國橡膠製品廠 — 固態 NBR\n- **汽車/3C:** [[熱可塑性彈性體]] TPE 應用\n\n### 主要供應商\n- **石化:** [[丁二烯]]、[[丙烯腈]]國際供應商\n- **母集團:** [[台南紡織]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $26.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     30.87 |        7.88 |      1.32 | 0.91 |      3.69 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9546.43 |     11364.29 |      8942.04 |\n| Gross Profit            |      2132.47 |      2257.54 |      2096.11 |\n| Gross Margin (%)        |        22.34 |        19.87 |        23.44 |\n| Selling & Marketing Exp |       507.03 |       624.21 |       456.67 |\n| R&D Exp                 |       106.68 |       101.92 |        88.03 |\n| General & Admin Exp     |       815.05 |       744.95 |       714.55 |\n| Operating Income        |       703.71 |       786.47 |       836.85 |\n| Operating Margin (%)    |         7.37 |         6.92 |         9.36 |\n| Net Income              |       410.49 |       562.47 |       714.04 |\n| Net Margin (%)          |         4.30 |         4.95 |         7.99 |\n| Op Cash Flow            |      1466.41 |       845.56 |      1260.52 |\n| Investing Cash Flow     |     -1684.03 |      1372.88 |       629.09 |\n| Financing Cash Flow     |      -157.92 |      -680.08 |     -1067.12 |\n| CAPEX                   |      -421.96 |      -270.38 |      -228.19 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2595.68 |      2305.55 |      2626.46 |      2271.21 |\n| Gross Profit            |       706.99 |       582.98 |       472.40 |       542.62 |\n| Gross Margin (%)        |        27.24 |        25.29 |        17.99 |        23.89 |\n| Selling & Marketing Exp |       121.92 |       116.54 |       131.12 |       128.22 |\n| R&D Exp                 |        25.94 |        31.82 |        22.91 |        23.31 |\n| General & Admin Exp     |       236.86 |       224.40 |       179.55 |       196.19 |\n| Operating Income        |       322.26 |       210.22 |       138.82 |       194.90 |\n| Operating Margin (%)    |        12.42 |         9.12 |         5.29 |         8.58 |\n| Net Income              |       166.57 |       129.21 |        13.52 |       150.37 |\n| Net Margin (%)          |         6.42 |         5.60 |         0.51 |         6.62 |\n| Op Cash Flow            |        34.22 |       757.84 |       494.53 |      -206.16 |\n| Investing Cash Flow     |      -338.61 |     -1378.65 |       -11.69 |      -176.30 |\n| Financing Cash Flow     |        47.60 |      -284.63 |      -454.98 |       -39.49 |\n| CAPEX                   |       -72.67 |       -87.97 |      -154.80 |       -82.32 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

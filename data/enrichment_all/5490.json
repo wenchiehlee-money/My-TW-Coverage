@@ -1,0 +1,168 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5490",
+  "company_name": "同亨",
+  "title": "5490 - 同亨",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/5490_同亨.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "3,088 百萬台幣",
+    "enterprise_value": "2,440 百萬台幣"
+  },
+  "business": {
+    "summary": "同亨科技 (5490，XAC Automation) 成立於 1993 年，為全球電子金融交易終端機 (EFT-POS) 之專業製造商。產品涵蓋桌上型/手持式 POS 機、戶外自助付費終端機、mPOS 行動支付設備及 PIN Pad 密碼鍵盤。同亨專注於支付安全技術，產品通過 PCI 等國際安全認證。營運模式以[[ODM]]為主，為國際大廠提供客製化解決方案，客戶涵蓋國際收單機構如[[Ingenico]]、[[Verifone]]等品牌及各國銀行。",
+    "entities": [
+      "ODM",
+      "Ingenico",
+      "Verifone"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心電子與安控模組)",
+        "text": "**上游 (核心電子與安控模組):**",
+        "entities": []
+      },
+      {
+        "category": "資安晶片",
+        "text": "安控系統晶片、感測讀卡模組",
+        "entities": []
+      },
+      {
+        "category": "機構件",
+        "text": "面板、金屬機殼、[[PCB]]電路板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (交易終端設計與代工)",
+        "text": "**中游 (交易終端設計與代工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**同亨** — EFT-POS 終端機與 mPOS 設備[[ODM]]代工，掌握支付安全加密技術與全球認證",
+        "entities": [
+          "ODM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (金融收單與系統整合)",
+        "text": "**下游 (金融收單與系統整合):**",
+        "entities": []
+      },
+      {
+        "category": "國際品牌",
+        "text": "[[Ingenico]]、[[Verifone]] — 支付終端品牌代工",
+        "entities": [
+          "Ingenico",
+          "Verifone"
+        ]
+      },
+      {
+        "category": "銀行與收單機構",
+        "text": "各國銀行與區域性支付處理商",
+        "entities": []
+      },
+      {
+        "category": "系統整合商",
+        "text": "獨立 SI 與軟體商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國際支付品牌",
+        "text": "[[Ingenico]]、[[Verifone]] — POS 終端[[ODM]]代工",
+        "entities": [
+          "Ingenico",
+          "Verifone",
+          "ODM"
+        ]
+      },
+      {
+        "role": "金融機構",
+        "text": "各國銀行與區域支付處理商 — EFT-POS 採購",
+        "entities": []
+      },
+      {
+        "role": "系統整合商",
+        "text": "全球獨立 SI 與軟體商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "安控晶片",
+        "text": "國際安全晶片供應商",
+        "entities": []
+      },
+      {
+        "role": "[[PCB]]",
+        "text": "印刷電路板製造商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "機構件",
+        "text": "金屬機殼與面板供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "Ingenico",
+      "type": "international_company_or_term",
+      "wikilink": "Ingenico"
+    },
+    {
+      "name": "Verifone",
+      "type": "international_company_or_term",
+      "wikilink": "Verifone"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "同亨科技 (5490，XAC Automation) 成立於 1993 年，為全球電子金融交易終端機 (EFT-POS) 之專業製造商。產品涵蓋桌上型/手持式 POS 機、戶外自助付費終端機、mPOS 行動支付設備及 PIN Pad 密碼鍵盤。同亨專注於支付安全技術，產品通過 PCI 等國際安全認證。營運模式以[[ODM]]為主，為國際大廠提供客製化解決方案，客戶涵蓋國際收單機構如[[Ingenico]]、[[Verifone]]等品牌及各國銀行。",
+    "supply_chain_md": "**上游 (核心電子與安控模組):**\n- **資安晶片:** 安控系統晶片、感測讀卡模組\n- **機構件:** 面板、金屬機殼、[[PCB]]電路板\n\n**中游 (交易終端設計與代工):**\n- **同亨** — EFT-POS 終端機與 mPOS 設備[[ODM]]代工，掌握支付安全加密技術與全球認證\n\n**下游 (金融收單與系統整合):**\n- **國際品牌:** [[Ingenico]]、[[Verifone]] — 支付終端品牌代工\n- **銀行與收單機構:** 各國銀行與區域性支付處理商\n- **系統整合商:** 獨立 SI 與軟體商",
+    "customers_suppliers_md": "### 主要客戶\n- **國際支付品牌:** [[Ingenico]]、[[Verifone]] — POS 終端[[ODM]]代工\n- **金融機構:** 各國銀行與區域支付處理商 — EFT-POS 採購\n- **系統整合商:** 全球獨立 SI 與軟體商\n\n### 主要供應商\n- **安控晶片:** 國際安全晶片供應商\n- **[[PCB]]:** 印刷電路板製造商\n- **機構件:** 金屬機殼與面板供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $31.25 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     19.05 |         N/A |      1.87 | 2.10 |     11.23 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1536.69 |      1371.95 |       767.33 |\n| Gross Profit            |       668.79 |       471.11 |       190.52 |\n| Gross Margin (%)        |        43.52 |        34.34 |        24.83 |\n| Selling & Marketing Exp |        44.92 |        49.52 |        33.91 |\n| R&D Exp                 |       316.66 |       282.31 |       275.62 |\n| General & Admin Exp     |       110.41 |       113.46 |       108.57 |\n| Operating Income        |       196.80 |        25.82 |      -227.57 |\n| Operating Margin (%)    |        12.81 |         1.88 |       -29.66 |\n| Net Income              |       157.85 |        32.85 |      -172.56 |\n| Net Margin (%)          |        10.27 |         2.39 |       -22.49 |\n| Op Cash Flow            |      -189.80 |        22.86 |       -30.31 |\n| Investing Cash Flow     |        14.97 |         4.22 |       148.95 |\n| Financing Cash Flow     |       -45.38 |        -6.86 |       -19.67 |\n| CAPEX                   |        -7.61 |        -4.38 |        -5.36 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       440.88 |       410.35 |       336.97 |       421.12 |\n| Gross Profit            |       197.12 |       160.10 |       158.19 |       193.80 |\n| Gross Margin (%)        |        44.71 |        39.01 |        46.95 |        46.02 |\n| Selling & Marketing Exp |        12.71 |        11.40 |        10.54 |        12.36 |\n| R&D Exp                 |        80.42 |        81.92 |        83.53 |        71.56 |\n| General & Admin Exp     |        28.79 |        25.09 |        27.14 |        31.06 |\n| Operating Income        |        75.21 |        41.68 |        36.98 |        78.82 |\n| Operating Margin (%)    |        17.06 |        10.16 |        10.98 |        18.72 |\n| Net Income              |        65.56 |        40.67 |        10.39 |        69.59 |\n| Net Margin (%)          |        14.87 |         9.91 |         3.08 |        16.52 |\n| Op Cash Flow            |       116.53 |       -35.94 |       114.84 |      -258.65 |\n| Investing Cash Flow     |        -3.85 |        -0.33 |        -0.69 |        20.84 |\n| Financing Cash Flow     |        -3.36 |        -3.28 |        -3.12 |        -3.27 |\n| CAPEX                   |        -3.65 |        -1.15 |        -1.24 |        -1.87 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

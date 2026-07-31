@@ -1,0 +1,228 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6756",
+  "company_name": "威鋒電子",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/半導體 - IC設計/6756_威鋒電子.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "6,040 百萬台幣",
+    "enterprise_value": "5,135 百萬台幣"
+  },
+  "business": {
+    "summary": "威鋒電子 (6756，[[VIA Labs]]) 隸屬於[[威盛電子]]集團，為全球領先的 USB 控制晶片 Fabless IC 設計公司。公司深度參與 USB-IF 協會標準制定，專注於高速傳輸介面與 USB Type-C 相關技術。\n\n業務結構與動能：(1) [[USB4]] 控制晶片 — 主機端 (Host) 與裝置端 (Device) USB4 控制器，支援 40Gbps 高速傳輸，受惠於歐盟 Type-C 統一規格法案與 [[AI PC]] 對高速傳輸的需求；(2) USB PD 控制器 — USB Power Delivery 電力傳輸控制晶片，支援最高 240W EPR 快充；(3) USB Hub 控制器 — USB 3.2 集線器晶片。產品廣泛應用於筆電、擴充基座 (Docking)、顯示器及車用電子。主要客戶包含 [[Lenovo]]、[[Dell]] 等筆電品牌及 [[Plugable]] 等周邊配件廠。晶圓製造主要委託 [[台積電]]。",
+    "entities": [
+      "VIA Labs",
+      "威盛電子",
+      "USB4",
+      "AI PC",
+      "Lenovo",
+      "Dell",
+      "Plugable",
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (IP 與晶圓代工)",
+        "text": "**上游 (IP 與晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] — USB 控制晶片晶圓製造",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "大型半導體封測廠",
+        "entities": []
+      },
+      {
+        "category": "EDA",
+        "text": "電子設計自動化軟體",
+        "entities": []
+      },
+      {
+        "category": "IP",
+        "text": "半導體矽智財授權",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "[[USB4]] 控制器",
+        "text": "**威鋒** (USB4 Host/Device 控制晶片)",
+        "entities": [
+          "USB4"
+        ]
+      },
+      {
+        "category": "USB PD",
+        "text": "**威鋒** (USB Power Delivery 電力傳輸控制器)",
+        "entities": []
+      },
+      {
+        "category": "USB Hub",
+        "text": "**威鋒** (USB 3.2 集線器控制晶片)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌與周邊廠商)",
+        "text": "**下游 (品牌與周邊廠商):**",
+        "entities": []
+      },
+      {
+        "category": "筆電品牌",
+        "text": "[[Lenovo]]、[[Dell]] — USB4/Type-C 控制晶片",
+        "entities": [
+          "Lenovo",
+          "Dell"
+        ]
+      },
+      {
+        "category": "擴充基座",
+        "text": "[[Plugable]] — USB4 Docking Station 方案",
+        "entities": [
+          "Plugable"
+        ]
+      },
+      {
+        "category": "主機板",
+        "text": "主機板廠 — USB 控制晶片",
+        "entities": []
+      },
+      {
+        "category": "車用電子",
+        "text": "車聯網設備 — USB 介面控制",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "筆電品牌",
+        "text": "[[Lenovo]]、[[Dell]] — USB4/Type-C 控制晶片",
+        "entities": [
+          "Lenovo",
+          "Dell"
+        ]
+      },
+      {
+        "role": "擴充基座",
+        "text": "[[Plugable]] — USB4 Docking Station 整合方案",
+        "entities": [
+          "Plugable"
+        ]
+      },
+      {
+        "role": "主機板/周邊",
+        "text": "全球主機板廠與電腦周邊製造商",
+        "entities": []
+      },
+      {
+        "role": "車用電子",
+        "text": "車聯網與車載設備廠 — USB 介面方案",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] — 晶圓製造",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "大型半導體封測廠",
+        "entities": []
+      },
+      {
+        "role": "集團資源",
+        "text": "[[威盛電子]] — 技術與 IP 支援",
+        "entities": [
+          "威盛電子"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "VIA Labs",
+      "type": "international_company_or_term",
+      "wikilink": "VIA Labs"
+    },
+    {
+      "name": "威盛電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威盛電子"
+    },
+    {
+      "name": "USB4",
+      "type": "international_company_or_term",
+      "wikilink": "USB4"
+    },
+    {
+      "name": "AI PC",
+      "type": "international_company_or_term",
+      "wikilink": "AI PC"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "Plugable",
+      "type": "international_company_or_term",
+      "wikilink": "Plugable"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "威鋒電子 (6756，[[VIA Labs]]) 隸屬於[[威盛電子]]集團，為全球領先的 USB 控制晶片 Fabless IC 設計公司。公司深度參與 USB-IF 協會標準制定，專注於高速傳輸介面與 USB Type-C 相關技術。\n\n業務結構與動能：(1) [[USB4]] 控制晶片 — 主機端 (Host) 與裝置端 (Device) USB4 控制器，支援 40Gbps 高速傳輸，受惠於歐盟 Type-C 統一規格法案與 [[AI PC]] 對高速傳輸的需求；(2) USB PD 控制器 — USB Power Delivery 電力傳輸控制晶片，支援最高 240W EPR 快充；(3) USB Hub 控制器 — USB 3.2 集線器晶片。產品廣泛應用於筆電、擴充基座 (Docking)、顯示器及車用電子。主要客戶包含 [[Lenovo]]、[[Dell]] 等筆電品牌及 [[Plugable]] 等周邊配件廠。晶圓製造主要委託 [[台積電]]。",
+    "supply_chain_md": "**上游 (IP 與晶圓代工):**\n- **晶圓代工:** [[台積電]] — USB 控制晶片晶圓製造\n- **封測:** 大型半導體封測廠\n- **EDA:** 電子設計自動化軟體\n- **IP:** 半導體矽智財授權\n\n**中游 (IC 設計):**\n- **[[USB4]] 控制器:** **威鋒** (USB4 Host/Device 控制晶片)\n- **USB PD:** **威鋒** (USB Power Delivery 電力傳輸控制器)\n- **USB Hub:** **威鋒** (USB 3.2 集線器控制晶片)\n\n**下游 (品牌與周邊廠商):**\n- **筆電品牌:** [[Lenovo]]、[[Dell]] — USB4/Type-C 控制晶片\n- **擴充基座:** [[Plugable]] — USB4 Docking Station 方案\n- **主機板:** 主機板廠 — USB 控制晶片\n- **車用電子:** 車聯網設備 — USB 介面控制",
+    "customers_suppliers_md": "### 主要客戶\n- **筆電品牌:** [[Lenovo]]、[[Dell]] — USB4/Type-C 控制晶片\n- **擴充基座:** [[Plugable]] — USB4 Docking Station 整合方案\n- **主機板/周邊:** 全球主機板廠與電腦周邊製造商\n- **車用電子:** 車聯網與車載設備廠 — USB 介面方案\n\n### 主要供應商\n- **晶圓代工:** [[台積電]] — 晶圓製造\n- **封測:** 大型半導體封測廠\n- **集團資源:** [[威盛電子]] — 技術與 IP 支援",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $84.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     56.33 |         N/A |      3.76 | 2.02 |    -63.87 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1550.11 |      1700.31 |      2035.10 |\n| Gross Profit            |       751.78 |       850.96 |       931.36 |\n| Gross Margin (%)        |        48.50 |        50.05 |        45.76 |\n| Selling & Marketing Exp |        48.54 |        66.93 |        53.34 |\n| R&D Exp                 |       694.48 |       678.38 |       645.62 |\n| General & Admin Exp     |       118.35 |        91.01 |        76.25 |\n| Operating Income        |      -109.60 |        14.63 |       156.15 |\n| Operating Margin (%)    |        -7.07 |         0.86 |         7.67 |\n| Net Income              |        77.64 |       157.25 |       180.57 |\n| Net Margin (%)          |         5.01 |         9.25 |         8.87 |\n| Op Cash Flow            |        75.34 |       434.22 |       992.17 |\n| Investing Cash Flow     |      -251.21 |      -750.10 |      -596.89 |\n| Financing Cash Flow     |       -36.64 |       135.91 |      -519.59 |\n| CAPEX                   |      -252.85 |      -150.17 |      -165.21 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       408.38 |       326.93 |       424.73 |       390.08 |\n| Gross Profit            |       192.56 |       160.57 |       188.15 |       210.49 |\n| Gross Margin (%)        |        47.15 |        49.11 |        44.30 |        53.96 |\n| Selling & Marketing Exp |        10.34 |        12.62 |        10.99 |        14.59 |\n| R&D Exp                 |       190.65 |       162.91 |       163.93 |       176.99 |\n| General & Admin Exp     |        31.08 |        31.00 |        29.14 |        27.14 |\n| Operating Income        |       -39.50 |       -45.97 |       -15.91 |        -8.22 |\n| Operating Margin (%)    |        -9.67 |       -14.06 |        -3.75 |        -2.11 |\n| Net Income              |        27.82 |         9.98 |        23.81 |        16.02 |\n| Net Margin (%)          |         6.81 |         3.05 |         5.61 |         4.11 |\n| Op Cash Flow            |        71.77 |      -104.23 |       112.41 |        -4.61 |\n| Investing Cash Flow     |       201.01 |      -382.88 |       122.98 |      -192.32 |\n| Financing Cash Flow     |        26.12 |        70.64 |      -132.31 |        -1.10 |\n| CAPEX                   |       -22.65 |      -117.70 |       -69.61 |       -42.89 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6506",
+  "company_name": "雙邦",
+  "title": "6506_雙邦",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 接著劑(合成樹脂)/6506_雙邦.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "1,330 百萬台幣",
+    "enterprise_value": "2,068 百萬台幣"
+  },
+  "business": {
+    "summary": "雙邦實業 (6506，Shuang Bang Industrial) 為高機能[[PU樹脂]]/[[TPU]]及透濕防水布料製造商，為國內生產高機能透濕防水布之先驅。自行生產[[PU樹脂]]供加工貼合，產品應用於國際運動鞋品牌鞋材 (供應[[Nike]]、[[adidas]]、[[Columbia]]、[[The North Face]]代工體系如[[豐泰]]、[[裕元]])、戶外運動機能服飾、太陽能電池封裝膜及節能建材。上游[[MDI]]/TDI 原料來自[[台塑]]、[[南亞塑膠]]、[[萬華化學]]。",
+    "entities": [
+      "PU樹脂",
+      "TPU",
+      "Nike",
+      "adidas",
+      "Columbia",
+      "The North Face",
+      "豐泰",
+      "裕元",
+      "MDI",
+      "台塑",
+      "南亞塑膠",
+      "萬華化學"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "異氰酸酯",
+        "text": "[[台塑]]、[[南亞塑膠]]、[[萬華化學]] — [[MDI]]/TDI",
+        "entities": [
+          "台塑",
+          "南亞塑膠",
+          "萬華化學",
+          "MDI"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**雙邦** ([[PU樹脂]]/[[TPU]]/透濕防水布料)",
+        "entities": [
+          "PU樹脂",
+          "TPU"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "鞋材",
+        "text": "[[Nike]]、[[adidas]]、[[Columbia]]、[[The North Face]]代工體系 ([[豐泰]]、[[裕元]])",
+        "entities": [
+          "Nike",
+          "adidas",
+          "Columbia",
+          "The North Face",
+          "豐泰",
+          "裕元"
+        ]
+      },
+      {
+        "category": "戶外服飾",
+        "text": "機能防水透濕布料",
+        "entities": []
+      },
+      {
+        "category": "太陽能/建材",
+        "text": "封裝膜及節能建材",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鞋材",
+        "text": "[[Nike]]、[[adidas]]、[[Columbia]]、[[The North Face]]代工體系 ([[豐泰]]、[[裕元]])",
+        "entities": [
+          "Nike",
+          "adidas",
+          "Columbia",
+          "The North Face",
+          "豐泰",
+          "裕元"
+        ]
+      },
+      {
+        "role": "戶外服飾",
+        "text": "機能防水透濕",
+        "entities": []
+      },
+      {
+        "role": "太陽能/建材",
+        "text": "封裝膜/節能建材",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "異氰酸酯",
+        "text": "[[台塑]]、[[南亞塑膠]]、[[萬華化學]] — MDI/TDI",
+        "entities": [
+          "台塑",
+          "南亞塑膠",
+          "萬華化學"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PU樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "PU樹脂"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "adidas",
+      "type": "international_company_or_term",
+      "wikilink": "adidas"
+    },
+    {
+      "name": "Columbia",
+      "type": "international_company_or_term",
+      "wikilink": "Columbia"
+    },
+    {
+      "name": "The North Face",
+      "type": "international_company_or_term",
+      "wikilink": "The North Face"
+    },
+    {
+      "name": "豐泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐泰"
+    },
+    {
+      "name": "裕元",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕元"
+    },
+    {
+      "name": "MDI",
+      "type": "international_company_or_term",
+      "wikilink": "MDI"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "萬華化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬華化學"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "雙邦實業 (6506，Shuang Bang Industrial) 為高機能[[PU樹脂]]/[[TPU]]及透濕防水布料製造商，為國內生產高機能透濕防水布之先驅。自行生產[[PU樹脂]]供加工貼合，產品應用於國際運動鞋品牌鞋材 (供應[[Nike]]、[[adidas]]、[[Columbia]]、[[The North Face]]代工體系如[[豐泰]]、[[裕元]])、戶外運動機能服飾、太陽能電池封裝膜及節能建材。上游[[MDI]]/TDI 原料來自[[台塑]]、[[南亞塑膠]]、[[萬華化學]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **異氰酸酯:** [[台塑]]、[[南亞塑膠]]、[[萬華化學]] — [[MDI]]/TDI\n\n**中游 (製造):**\n- **雙邦** ([[PU樹脂]]/[[TPU]]/透濕防水布料)\n\n**下游 (終端):**\n- **鞋材:** [[Nike]]、[[adidas]]、[[Columbia]]、[[The North Face]]代工體系 ([[豐泰]]、[[裕元]])\n- **戶外服飾:** 機能防水透濕布料\n- **太陽能/建材:** 封裝膜及節能建材",
+    "customers_suppliers_md": "### 主要客戶\n- **鞋材:** [[Nike]]、[[adidas]]、[[Columbia]]、[[The North Face]]代工體系 ([[豐泰]]、[[裕元]])\n- **戶外服飾:** 機能防水透濕\n- **太陽能/建材:** 封裝膜/節能建材\n\n### 主要供應商\n- **異氰酸酯:** [[台塑]]、[[南亞塑膠]]、[[萬華化學]] — MDI/TDI",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $16.15 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.68 |         N/A |      0.69 | 1.08 |      8.40 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1875.44 |      1907.84 |      1580.61 |\n| Gross Profit            |       300.27 |       260.60 |       123.16 |\n| Gross Margin (%)        |        16.01 |        13.66 |         7.79 |\n| Selling & Marketing Exp |        72.98 |        78.89 |        65.70 |\n| R&D Exp                 |        27.25 |        36.36 |        37.95 |\n| General & Admin Exp     |        75.19 |        81.86 |        71.04 |\n| Operating Income        |       124.86 |        63.48 |       -51.53 |\n| Operating Margin (%)    |         6.66 |         3.33 |        -3.26 |\n| Net Income              |        85.30 |        61.43 |         0.64 |\n| Net Margin (%)          |         4.55 |         3.22 |         0.04 |\n| Op Cash Flow            |       214.76 |       176.11 |        84.27 |\n| Investing Cash Flow     |      -126.55 |       -99.69 |      -283.94 |\n| Financing Cash Flow     |      -105.24 |       -77.10 |       187.36 |\n| CAPEX                   |      -127.98 |      -153.62 |      -249.12 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       431.60 |       439.89 |       483.52 |       520.43 |\n| Gross Profit            |        66.75 |        65.93 |        74.26 |        93.34 |\n| Gross Margin (%)        |        15.47 |        14.99 |        15.36 |        17.94 |\n| Selling & Marketing Exp |        18.03 |        17.31 |        17.89 |        19.74 |\n| R&D Exp                 |         5.27 |         5.50 |         8.32 |         8.16 |\n| General & Admin Exp     |        17.13 |        19.57 |        16.80 |        21.69 |\n| Operating Income        |        26.32 |        23.55 |        31.25 |        43.75 |\n| Operating Margin (%)    |         6.10 |         5.35 |         6.46 |         8.41 |\n| Net Income              |        25.85 |        18.73 |         7.24 |        33.48 |\n| Net Margin (%)          |         5.99 |         4.26 |         1.50 |         6.43 |\n| Op Cash Flow            |        45.81 |        64.95 |        57.48 |        46.53 |\n| Investing Cash Flow     |       -29.76 |       -28.69 |       -35.96 |       -32.14 |\n| Financing Cash Flow     |       -49.00 |       -30.76 |       -18.77 |        -6.71 |\n| CAPEX                   |       -30.11 |       -29.18 |       -36.39 |       -32.30 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

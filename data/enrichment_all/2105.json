@@ -1,0 +1,238 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2105",
+  "company_name": "正新",
+  "title": "2105 - 正新",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 橡膠製品/2105_正新.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "98,539 百萬台幣",
+    "enterprise_value": "94,665 百萬台幣"
+  },
+  "business": {
+    "summary": "正新橡膠 (2105，Cheng Shin Rubber) 為台灣最大輪胎集團，全球前十大輪胎廠。旗艦品牌[[Maxxis]] (瑪吉斯) 為全球知名運動輪胎品牌，另有 CHENG SHIN、CST 及 PRESA 等品牌。OEM 客戶涵蓋[[BMW]] (1/2/5/7 系列、MINI、X1/X3/X4 原廠配胎)、[[Ford]]、[[Toyota]]、[[Nissan]]、[[Honda]]、[[Volkswagen]]及[[GM]]。全球 11 座工廠分布於台灣、中國 (昆山/廈門/重慶)、泰國、越南、印尼及印度。賽事方面，[[Maxxis]] RAZR RAID+ 參與[[達卡拉力賽]] (Dakar Rally)。上游原料採購自[[台橡]] (合成橡膠) 及[[中橡]] (碳煙)。",
+    "entities": [
+      "Maxxis",
+      "BMW",
+      "Ford",
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Volkswagen",
+      "GM",
+      "達卡拉力賽",
+      "台橡",
+      "中橡"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "合成橡膠",
+        "text": "[[台橡]] (TSRC) — SBR/SSBR",
+        "entities": [
+          "台橡"
+        ]
+      },
+      {
+        "category": "碳煙",
+        "text": "[[中橡]] ([[Continental]] Carbon) — 碳黑",
+        "entities": [
+          "中橡",
+          "Continental"
+        ]
+      },
+      {
+        "category": "天然橡膠/簾布/鋼絲",
+        "text": "國際原料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**正新** ([[Maxxis]] 品牌輪胎製造，全球 11 座工廠)",
+        "entities": [
+          "Maxxis"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "OEM 客戶",
+        "text": "[[BMW]]、[[Ford]]、[[Toyota]]、[[Nissan]]、[[Honda]]、[[Volkswagen]]、[[GM]] — 原廠配胎",
+        "entities": [
+          "BMW",
+          "Ford",
+          "Toyota",
+          "Nissan",
+          "Honda",
+          "Volkswagen",
+          "GM"
+        ]
+      },
+      {
+        "category": "全球 AM",
+        "text": "[[Maxxis]]/CST 品牌全球經銷",
+        "entities": [
+          "Maxxis"
+        ]
+      },
+      {
+        "category": "賽事",
+        "text": "[[達卡拉力賽]] — Maxxis RAZR RAID+",
+        "entities": [
+          "達卡拉力賽"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "OEM",
+        "text": "[[BMW]] — 1/2/5/7/MINI/X 系列原廠配胎；[[Ford]]；[[Toyota]]；[[Nissan]]；[[Honda]]；[[Volkswagen]]；[[GM]]",
+        "entities": [
+          "BMW",
+          "Ford",
+          "Toyota",
+          "Nissan",
+          "Honda",
+          "Volkswagen",
+          "GM"
+        ]
+      },
+      {
+        "role": "全球 AM",
+        "text": "[[Maxxis]]/CST/PRESA 品牌全球經銷",
+        "entities": [
+          "Maxxis"
+        ]
+      },
+      {
+        "role": "賽事",
+        "text": "[[達卡拉力賽]] — Maxxis 官方輪胎",
+        "entities": [
+          "達卡拉力賽"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "合成橡膠",
+        "text": "[[台橡]] — SBR/SSBR",
+        "entities": [
+          "台橡"
+        ]
+      },
+      {
+        "role": "碳煙",
+        "text": "[[中橡]] — 碳黑",
+        "entities": [
+          "中橡"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Maxxis",
+      "type": "international_company_or_term",
+      "wikilink": "Maxxis"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "Nissan",
+      "type": "international_company_or_term",
+      "wikilink": "Nissan"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Volkswagen",
+      "type": "international_company_or_term",
+      "wikilink": "Volkswagen"
+    },
+    {
+      "name": "GM",
+      "type": "international_company_or_term",
+      "wikilink": "GM"
+    },
+    {
+      "name": "達卡拉力賽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達卡拉力賽"
+    },
+    {
+      "name": "台橡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台橡"
+    },
+    {
+      "name": "中橡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中橡"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "正新橡膠 (2105，Cheng Shin Rubber) 為台灣最大輪胎集團，全球前十大輪胎廠。旗艦品牌[[Maxxis]] (瑪吉斯) 為全球知名運動輪胎品牌，另有 CHENG SHIN、CST 及 PRESA 等品牌。OEM 客戶涵蓋[[BMW]] (1/2/5/7 系列、MINI、X1/X3/X4 原廠配胎)、[[Ford]]、[[Toyota]]、[[Nissan]]、[[Honda]]、[[Volkswagen]]及[[GM]]。全球 11 座工廠分布於台灣、中國 (昆山/廈門/重慶)、泰國、越南、印尼及印度。賽事方面，[[Maxxis]] RAZR RAID+ 參與[[達卡拉力賽]] (Dakar Rally)。上游原料採購自[[台橡]] (合成橡膠) 及[[中橡]] (碳煙)。",
+    "supply_chain_md": "**上游 (原料):**\n- **合成橡膠:** [[台橡]] (TSRC) — SBR/SSBR\n- **碳煙:** [[中橡]] ([[Continental]] Carbon) — 碳黑\n- **天然橡膠/簾布/鋼絲:** 國際原料供應商\n\n**中游 (製造):**\n- **正新** ([[Maxxis]] 品牌輪胎製造，全球 11 座工廠)\n\n**下游 (終端):**\n- **OEM 客戶:** [[BMW]]、[[Ford]]、[[Toyota]]、[[Nissan]]、[[Honda]]、[[Volkswagen]]、[[GM]] — 原廠配胎\n- **全球 AM:** [[Maxxis]]/CST 品牌全球經銷\n- **賽事:** [[達卡拉力賽]] — Maxxis RAZR RAID+",
+    "customers_suppliers_md": "### 主要客戶\n- **OEM:** [[BMW]] — 1/2/5/7/MINI/X 系列原廠配胎；[[Ford]]；[[Toyota]]；[[Nissan]]；[[Honda]]；[[Volkswagen]]；[[GM]]\n- **全球 AM:** [[Maxxis]]/CST/PRESA 品牌全球經銷\n- **賽事:** [[達卡拉力賽]] — Maxxis 官方輪胎\n\n### 主要供應商\n- **合成橡膠:** [[台橡]] — SBR/SSBR\n- **碳煙:** [[中橡]] — 碳黑",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $30.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.86 |       21.22 |      1.09 | 1.17 |      6.07 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     90780.87 |     96247.06 |     96201.31 |\n| Gross Profit            |     20632.04 |     23243.92 |     23388.69 |\n| Gross Margin (%)        |        22.73 |        24.15 |        24.31 |\n| Selling & Marketing Exp |      6321.67 |      5936.69 |      5735.57 |\n| R&D Exp                 |      3705.26 |      3705.00 |      3783.39 |\n| General & Admin Exp     |      3444.84 |      3602.31 |      3478.09 |\n| Operating Income        |      7160.28 |      9999.92 |     10391.63 |\n| Operating Margin (%)    |         7.89 |        10.39 |        10.80 |\n| Net Income              |      4854.33 |      8017.12 |      7182.38 |\n| Net Margin (%)          |         5.35 |         8.33 |         7.47 |\n| Op Cash Flow            |     13554.22 |     17694.56 |     21210.30 |\n| Investing Cash Flow     |    -10783.47 |     -9291.24 |    -10519.30 |\n| Financing Cash Flow     |     -6917.42 |     -6243.03 |    -10330.67 |\n| CAPEX                   |     -2999.63 |     -2736.34 |     -3215.43 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     23428.39 |     20955.15 |     23674.53 |     22987.42 |\n| Gross Profit            |      5819.82 |      4786.97 |      5536.44 |      5020.53 |\n| Gross Margin (%)        |        24.84 |        22.84 |        23.39 |        21.84 |\n| Selling & Marketing Exp |      1696.20 |      1615.21 |      1719.47 |      1488.23 |\n| R&D Exp                 |       870.20 |       922.96 |       907.95 |       923.28 |\n| General & Admin Exp     |       925.14 |       828.12 |       845.82 |       859.28 |\n| Operating Income        |      2328.29 |      1420.69 |      2063.21 |      1749.73 |\n| Operating Margin (%)    |         9.94 |         6.78 |         8.71 |         7.61 |\n| Net Income              |      1861.69 |       860.92 |      1636.90 |       905.31 |\n| Net Margin (%)          |         7.95 |         4.11 |         6.91 |         3.94 |\n| Op Cash Flow            |      3847.16 |      3639.84 |      2992.32 |      5263.74 |\n| Investing Cash Flow     |      1475.34 |     -7728.57 |     -2089.89 |      -297.59 |\n| Financing Cash Flow     |      -318.15 |      -732.13 |     -3607.26 |      -827.13 |\n| CAPEX                   |      -910.15 |      -808.67 |      -662.30 |      -790.80 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

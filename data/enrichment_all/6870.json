@@ -1,0 +1,244 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6870",
+  "company_name": "騰雲",
+  "title": "6870_騰雲",
+  "source_md": "Pilot_Reports/金融科技 - 支付/6870_騰雲.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "5,728 百萬台幣",
+    "enterprise_value": "6,749 百萬台幣"
+  },
+  "business": {
+    "summary": "騰雲科技服務股份有限公司 (6870) 為大型零售商與購物中心提供「客流、商流、金流」全方位數位轉型 [[SaaS]] 解決方案。核心產品採「解決方案即服務」(SolaaS) 模式，整合百貨商場前端行動支付 ([[Apple Pay]]、[[LINE Pay]] 等)、POS 收銀、電子發票、會員紅利 ([[CRM]]) 及櫃位帳務結算。透過 [[AI]] 與大數據技術提供深度客流分析與精準行銷。公司幾乎壟斷台灣大型百貨資訊金流系統，2024 年營收達 6.68 億元創新高，服務超過 100 家大型百貨商場。海外佈局積極，與日本 [[Hitachi]] 及 VINX 結盟，2024 年海外營收佔比達 35%。",
+    "entities": [
+      "SaaS",
+      "Apple Pay",
+      "LINE Pay",
+      "CRM",
+      "AI",
+      "Hitachi"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (雲端與硬體)",
+        "text": "**上游 (雲端與硬體):**",
+        "entities": []
+      },
+      {
+        "category": "公有雲",
+        "text": "[[AWS]]、[[Microsoft Azure]]、[[Google Cloud]] — 雲端基礎設施",
+        "entities": [
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud"
+        ]
+      },
+      {
+        "category": "POS 硬體",
+        "text": "收銀終端設備供應商",
+        "entities": []
+      },
+      {
+        "category": "技術合作",
+        "text": "[[Hitachi]]、VINX — 日本系統整合夥伴",
+        "entities": [
+          "Hitachi"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[SaaS]] 服務)",
+        "text": "**中游 ([[SaaS]] 服務):**",
+        "entities": [
+          "SaaS"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**騰雲科技** (百貨零售雲端客商金流整合、[[AI]] 大數據分析、[[CRM]] 會員管理)",
+        "entities": [
+          "AI",
+          "CRM"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (百貨與零售)",
+        "text": "**下游 (百貨與零售):**",
+        "entities": []
+      },
+      {
+        "category": "百貨龍頭",
+        "text": "[[新光三越]]、[[遠東百貨]]、[[SOGO]] — 台灣三大百貨",
+        "entities": [
+          "新光三越",
+          "遠東百貨",
+          "SOGO"
+        ]
+      },
+      {
+        "category": "國際商場",
+        "text": "[[三井Outlet]]、[[AEON]] — 日本零售集團",
+        "entities": [
+          "三井Outlet",
+          "AEON"
+        ]
+      },
+      {
+        "category": "海外市場",
+        "text": "中國、日本、馬來西亞百貨與購物中心",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "台灣百貨",
+        "text": "[[新光三越]]、[[遠東百貨]]、[[SOGO]] — 核心百貨客戶群",
+        "entities": [
+          "新光三越",
+          "遠東百貨",
+          "SOGO"
+        ]
+      },
+      {
+        "role": "國際商場",
+        "text": "[[三井Outlet]]、[[AEON]] — 日本市場客戶",
+        "entities": [
+          "三井Outlet",
+          "AEON"
+        ]
+      },
+      {
+        "role": "海外市場",
+        "text": "中國與馬來西亞百貨商場",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[AWS]]、[[Microsoft Azure]]、[[Google Cloud]]",
+        "entities": [
+          "AWS",
+          "Microsoft Azure",
+          "Google Cloud"
+        ]
+      },
+      {
+        "role": "技術夥伴",
+        "text": "[[Hitachi]] — 日本系統整合代理",
+        "entities": [
+          "Hitachi"
+        ]
+      },
+      {
+        "role": "POS 硬體",
+        "text": "收銀終端設備供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "SaaS",
+      "type": "international_company_or_term",
+      "wikilink": "SaaS"
+    },
+    {
+      "name": "Apple Pay",
+      "type": "international_company_or_term",
+      "wikilink": "Apple Pay"
+    },
+    {
+      "name": "LINE Pay",
+      "type": "international_company_or_term",
+      "wikilink": "LINE Pay"
+    },
+    {
+      "name": "CRM",
+      "type": "international_company_or_term",
+      "wikilink": "CRM"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "Hitachi",
+      "type": "international_company_or_term",
+      "wikilink": "Hitachi"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "Google Cloud",
+      "type": "international_company_or_term",
+      "wikilink": "Google Cloud"
+    },
+    {
+      "name": "新光三越",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光三越"
+    },
+    {
+      "name": "遠東百貨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東百貨"
+    },
+    {
+      "name": "SOGO",
+      "type": "international_company_or_term",
+      "wikilink": "SOGO"
+    },
+    {
+      "name": "三井Outlet",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三井Outlet"
+    },
+    {
+      "name": "AEON",
+      "type": "international_company_or_term",
+      "wikilink": "AEON"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "騰雲科技服務股份有限公司 (6870) 為大型零售商與購物中心提供「客流、商流、金流」全方位數位轉型 [[SaaS]] 解決方案。核心產品採「解決方案即服務」(SolaaS) 模式，整合百貨商場前端行動支付 ([[Apple Pay]]、[[LINE Pay]] 等)、POS 收銀、電子發票、會員紅利 ([[CRM]]) 及櫃位帳務結算。透過 [[AI]] 與大數據技術提供深度客流分析與精準行銷。公司幾乎壟斷台灣大型百貨資訊金流系統，2024 年營收達 6.68 億元創新高，服務超過 100 家大型百貨商場。海外佈局積極，與日本 [[Hitachi]] 及 VINX 結盟，2024 年海外營收佔比達 35%。",
+    "supply_chain_md": "**上游 (雲端與硬體):**\n- **公有雲:** [[AWS]]、[[Microsoft Azure]]、[[Google Cloud]] — 雲端基礎設施\n- **POS 硬體:** 收銀終端設備供應商\n- **技術合作:** [[Hitachi]]、VINX — 日本系統整合夥伴\n\n**中游 ([[SaaS]] 服務):**\n- **騰雲科技** (百貨零售雲端客商金流整合、[[AI]] 大數據分析、[[CRM]] 會員管理)\n\n**下游 (百貨與零售):**\n- **百貨龍頭:** [[新光三越]]、[[遠東百貨]]、[[SOGO]] — 台灣三大百貨\n- **國際商場:** [[三井Outlet]]、[[AEON]] — 日本零售集團\n- **海外市場:** 中國、日本、馬來西亞百貨與購物中心",
+    "customers_suppliers_md": "### 主要客戶\n- **台灣百貨:** [[新光三越]]、[[遠東百貨]]、[[SOGO]] — 核心百貨客戶群\n- **國際商場:** [[三井Outlet]]、[[AEON]] — 日本市場客戶\n- **海外市場:** 中國與馬來西亞百貨商場\n\n### 主要供應商\n- **雲端平台:** [[AWS]]、[[Microsoft Azure]]、[[Google Cloud]]\n- **技術夥伴:** [[Hitachi]] — 日本系統整合代理\n- **POS 硬體:** 收銀終端設備供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $224.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     34.02 |        0.78 |      6.71 | 5.24 |     31.05 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       804.35 |       668.46 |       538.88 |\n| Gross Profit            |       564.55 |       465.59 |       390.73 |\n| Gross Margin (%)        |        70.19 |        69.65 |        72.51 |\n| Selling & Marketing Exp |        46.78 |        42.41 |        26.88 |\n| R&D Exp                 |       227.74 |       209.47 |       185.53 |\n| General & Admin Exp     |        94.61 |        86.78 |        98.82 |\n| Operating Income        |       195.41 |       126.94 |        79.84 |\n| Operating Margin (%)    |        24.29 |        18.99 |        14.82 |\n| Net Income              |       165.42 |       115.45 |        81.08 |\n| Net Margin (%)          |        20.57 |        17.27 |        15.05 |\n| Op Cash Flow            |        -8.61 |         9.82 |       101.00 |\n| Investing Cash Flow     |      -583.06 |      -194.20 |      -138.08 |\n| Financing Cash Flow     |       -81.39 |       668.86 |       237.31 |\n| CAPEX                   |      -491.18 |       -56.38 |       -69.95 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       210.03 |       257.03 |       229.16 |       162.98 |\n| Gross Profit            |       139.22 |       176.88 |       168.08 |       116.95 |\n| Gross Margin (%)        |        66.29 |        68.82 |        73.34 |        71.76 |\n| Selling & Marketing Exp |        12.03 |        12.29 |        10.46 |        12.40 |\n| R&D Exp                 |        57.85 |        71.45 |        53.54 |        53.46 |\n| General & Admin Exp     |        29.84 |        26.42 |        24.86 |        22.40 |\n| Operating Income        |        39.50 |        66.72 |        79.20 |        28.70 |\n| Operating Margin (%)    |        18.81 |        25.96 |        34.56 |        17.61 |\n| Net Income              |        25.60 |        63.10 |        67.95 |        19.32 |\n| Net Margin (%)          |        12.19 |        24.55 |        29.65 |        11.86 |\n| Op Cash Flow            |       -46.77 |        28.52 |       -51.03 |        13.33 |\n| Investing Cash Flow     |       -21.05 |       -81.53 |       -13.27 |        -8.39 |\n| Financing Cash Flow     |       -12.76 |       -30.80 |       -10.82 |       -18.24 |\n| CAPEX                   |        -1.92 |       -34.45 |        -1.27 |        -2.08 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

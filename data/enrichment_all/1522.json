@@ -1,0 +1,181 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1522",
+  "company_name": "堤維西",
+  "title": "1522 - 堤維西",
+  "source_md": "Pilot_Reports/汽車 - 車燈/1522_堤維西.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "8,470 百萬台幣",
+    "enterprise_value": "22,089 百萬台幣"
+  },
+  "business": {
+    "summary": "堤維西 (1522，TYC Brother Industrial) 為全球知名 AM 車燈領導製造商，品牌「TYC」在北美 AM 車燈市場市佔約 12%，位居全球前五大。受惠於[[State Farm]]等北美保險公司擴大採用 AM 碰撞零件政策。子公司[[儒億科技]]提供精密模具與 OEM 燈具，[[迪比恩科技]]供應反光片電鑄模仁。美國密西根州底特律近郊購地設廠切入在地 OEM 市場。中國重慶廠鎖定新能源車品牌供應高階電控照明。OEM 客戶包含[[長安福特]]及中國新勢力電動車品牌。",
+    "entities": [
+      "State Farm",
+      "儒億科技",
+      "迪比恩科技",
+      "長安福特"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "模具",
+        "text": "[[儒億科技]] — 精密模具與 OEM 燈具",
+        "entities": [
+          "儒億科技"
+        ]
+      },
+      {
+        "category": "電鑄模仁",
+        "text": "[[迪比恩科技]] — 反光片電鑄模仁",
+        "entities": [
+          "迪比恩科技"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**堤維西** (AM/OEM 車燈研發製造，台灣/中國重慶/美國密西根)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "AM 通路",
+        "text": "[[LKQ]]等北美 AM 經銷商、全球修車廠",
+        "entities": [
+          "LKQ"
+        ]
+      },
+      {
+        "category": "保險驅動",
+        "text": "[[State Farm]] — AM 認證件理賠",
+        "entities": [
+          "State Farm"
+        ]
+      },
+      {
+        "category": "OEM",
+        "text": "[[長安福特]]、中國新能源車品牌",
+        "entities": [
+          "長安福特"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AM 通路",
+        "text": "[[LKQ]]等北美 AM 經銷商 (TYC 品牌市佔 12%)",
+        "entities": [
+          "LKQ"
+        ]
+      },
+      {
+        "role": "保險",
+        "text": "[[State Farm]] — 間接帶動 AM 採用",
+        "entities": [
+          "State Farm"
+        ]
+      },
+      {
+        "role": "OEM",
+        "text": "[[長安福特]]、中國新能源車品牌",
+        "entities": [
+          "長安福特"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "模具",
+        "text": "[[儒億科技]] — 精密模具",
+        "entities": [
+          "儒億科技"
+        ]
+      },
+      {
+        "role": "電鑄",
+        "text": "[[迪比恩科技]] — 反光片模仁",
+        "entities": [
+          "迪比恩科技"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "State Farm",
+      "type": "international_company_or_term",
+      "wikilink": "State Farm"
+    },
+    {
+      "name": "儒億科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儒億科技"
+    },
+    {
+      "name": "迪比恩科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "迪比恩科技"
+    },
+    {
+      "name": "長安福特",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長安福特"
+    },
+    {
+      "name": "LKQ",
+      "type": "international_company_or_term",
+      "wikilink": "LKQ"
+    },
+    {
+      "name": "麗清",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麗清"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "堤維西 (1522，TYC Brother Industrial) 為全球知名 AM 車燈領導製造商，品牌「TYC」在北美 AM 車燈市場市佔約 12%，位居全球前五大。受惠於[[State Farm]]等北美保險公司擴大採用 AM 碰撞零件政策。子公司[[儒億科技]]提供精密模具與 OEM 燈具，[[迪比恩科技]]供應反光片電鑄模仁。美國密西根州底特律近郊購地設廠切入在地 OEM 市場。中國重慶廠鎖定新能源車品牌供應高階電控照明。OEM 客戶包含[[長安福特]]及中國新勢力電動車品牌。",
+    "supply_chain_md": "**上游 (零組件):**\n- **模具:** [[儒億科技]] — 精密模具與 OEM 燈具\n- **電鑄模仁:** [[迪比恩科技]] — 反光片電鑄模仁\n\n**中游 (製造):**\n- **堤維西** (AM/OEM 車燈研發製造，台灣/中國重慶/美國密西根)\n\n**下游 (終端):**\n- **AM 通路:** [[LKQ]]等北美 AM 經銷商、全球修車廠\n- **保險驅動:** [[State Farm]] — AM 認證件理賠\n- **OEM:** [[長安福特]]、中國新能源車品牌",
+    "customers_suppliers_md": "### 主要客戶\n- **AM 通路:** [[LKQ]]等北美 AM 經銷商 (TYC 品牌市佔 12%)\n- **保險:** [[State Farm]] — 間接帶動 AM 採用\n- **OEM:** [[長安福特]]、中國新能源車品牌\n\n### 主要供應商\n- **模具:** [[儒億科技]] — 精密模具\n- **電鑄:** [[迪比恩科技]] — 反光片模仁",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $27.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    192.86 |        5.01 |      0.32 | 0.86 |      8.05 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     24418.56 |     20121.71 |     19277.54 |\n| Gross Profit            |      5340.80 |      5886.33 |      5168.48 |\n| Gross Margin (%)        |        21.87 |        29.25 |        26.81 |\n| Selling & Marketing Exp |      1873.81 |      1987.49 |      1806.90 |\n| R&D Exp                 |       808.65 |       448.85 |       396.27 |\n| General & Admin Exp     |      1454.02 |      1048.46 |      1215.91 |\n| Operating Income        |      1204.31 |      2401.53 |      1749.41 |\n| Operating Margin (%)    |         4.93 |        11.94 |         9.07 |\n| Net Income              |       597.78 |      1544.09 |      1093.13 |\n| Net Margin (%)          |         2.45 |         7.67 |         5.67 |\n| Op Cash Flow            |       974.47 |      3154.72 |      3852.37 |\n| Investing Cash Flow     |     -3839.78 |     -2412.63 |     -1931.74 |\n| Financing Cash Flow     |      3647.20 |     -1261.21 |     -1943.24 |\n| CAPEX                   |     -3489.81 |     -2420.00 |     -1873.07 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      6675.15 |      8278.99 |      6903.16 |      4323.68 |\n| Gross Profit            |      1033.27 |      1244.22 |      1779.91 |       849.56 |\n| Gross Margin (%)        |        15.48 |        15.03 |        25.78 |        19.65 |\n| Selling & Marketing Exp |       446.92 |       490.77 |       536.51 |       341.21 |\n| R&D Exp                 |       259.97 |       319.85 |       271.88 |       113.61 |\n| General & Admin Exp     |       402.57 |       416.54 |       396.02 |       345.58 |\n| Operating Income        |       -76.19 |        17.07 |       575.50 |        49.15 |\n| Operating Margin (%)    |        -1.14 |         0.21 |         8.34 |         1.14 |\n| Net Income              |       -58.60 |       172.20 |       333.84 |      -342.29 |\n| Net Margin (%)          |        -0.88 |         2.08 |         4.84 |        -7.92 |\n| Op Cash Flow            |       632.50 |      -175.26 |       291.35 |       591.86 |\n| Investing Cash Flow     |      -466.65 |      -822.62 |        43.98 |     -2584.41 |\n| Financing Cash Flow     |      -102.16 |       605.90 |       765.28 |       688.34 |\n| CAPEX                   |      -549.75 |      -969.80 |      -893.14 |     -1170.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

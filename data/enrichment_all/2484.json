@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2484",
+  "company_name": "希華",
+  "title": "2484 - 希華",
+  "source_md": "Pilot_Reports/被動元件 - 濾波器、振盪器/2484_希華.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "9,454 百萬台幣",
+    "enterprise_value": "9,128 百萬台幣"
+  },
+  "business": {
+    "summary": "希華晶體 (2484，Siward) 是全球[[石英]]頻率控制元件領導廠商，產品涵蓋[[石英晶體]]、[[石英振盪器]]、[[TCXO]] (溫度補償振盪器)、[[VCXO]] 及 VCTCXO。公司從合成石英棒到晶體元件自主設計製造一貫化生產。近年推出超高頻 312.5 MHz 差分輸出振盪器，瞄準[[資料中心]]高速通訊、[[光通訊]]及伺服器時脈應用。",
+    "entities": [
+      "石英",
+      "石英晶體",
+      "石英振盪器",
+      "TCXO",
+      "VCXO",
+      "資料中心",
+      "光通訊"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "合成石英",
+        "text": "石英晶棒自主生長",
+        "entities": []
+      },
+      {
+        "category": "封裝材料",
+        "text": "陶瓷/金屬封裝外殼",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (頻率元件製造)",
+        "text": "**中游 (頻率元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "石英元件",
+        "text": "**希華** (石英晶體/振盪器/TCXO，一貫化生產)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子系統)",
+        "text": "**下游 (電子系統):**",
+        "entities": []
+      },
+      {
+        "category": "[[資料中心]]",
+        "text": "伺服器時脈及光通訊振盪器",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "category": "通訊",
+        "text": "[[5G]] 基地台及手機",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "車用頻率元件",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "[[資料中心]]",
+        "text": "伺服器時脈及光通訊客戶",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "role": "通訊",
+        "text": "[[5G]] 基地台及手機品牌",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "車用頻率元件客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "合成石英",
+        "text": "自主生長石英晶棒",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[TXC]] (台灣晶技)、[[日本電波工業]]、[[Epson Toyocom]]",
+        "entities": [
+          "TXC",
+          "日本電波工業",
+          "Epson Toyocom"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[TXC]] (台灣晶技)、[[日本電波工業]]、[[Epson Toyocom]]",
+        "entities": [
+          "TXC",
+          "日本電波工業",
+          "Epson Toyocom"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "石英",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石英"
+    },
+    {
+      "name": "石英晶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石英晶體"
+    },
+    {
+      "name": "石英振盪器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石英振盪器"
+    },
+    {
+      "name": "TCXO",
+      "type": "international_company_or_term",
+      "wikilink": "TCXO"
+    },
+    {
+      "name": "VCXO",
+      "type": "international_company_or_term",
+      "wikilink": "VCXO"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "光通訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光通訊"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "TXC",
+      "type": "international_company_or_term",
+      "wikilink": "TXC"
+    },
+    {
+      "name": "日本電波工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日本電波工業"
+    },
+    {
+      "name": "Epson Toyocom",
+      "type": "international_company_or_term",
+      "wikilink": "Epson Toyocom"
+    },
+    {
+      "name": "台嘉碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台嘉碩"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "希華晶體 (2484，Siward) 是全球[[石英]]頻率控制元件領導廠商，產品涵蓋[[石英晶體]]、[[石英振盪器]]、[[TCXO]] (溫度補償振盪器)、[[VCXO]] 及 VCTCXO。公司從合成石英棒到晶體元件自主設計製造一貫化生產。近年推出超高頻 312.5 MHz 差分輸出振盪器，瞄準[[資料中心]]高速通訊、[[光通訊]]及伺服器時脈應用。",
+    "supply_chain_md": "**上游 (原料):**\n- **合成石英:** 石英晶棒自主生長\n- **封裝材料:** 陶瓷/金屬封裝外殼\n\n**中游 (頻率元件製造):**\n- **石英元件:** **希華** (石英晶體/振盪器/TCXO，一貫化生產)\n\n**下游 (電子系統):**\n- **[[資料中心]]:** 伺服器時脈及光通訊振盪器\n- **通訊:** [[5G]] 基地台及手機\n- **車用:** 車用頻率元件",
+    "customers_suppliers_md": "### 主要客戶\n- **[[資料中心]]:** 伺服器時脈及光通訊客戶\n- **通訊:** [[5G]] 基地台及手機品牌\n- **車用:** 車用頻率元件客戶\n\n### 主要供應商\n- **合成石英:** 自主生長石英晶棒\n- **競爭同業:** [[TXC]] (台灣晶技)、[[日本電波工業]]、[[Epson Toyocom]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $57.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     78.90 |         N/A |      3.87 | 2.24 |     29.98 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2409.85 |      2189.46 |      2355.39 |\n| Gross Profit            |       421.90 |       428.93 |       646.36 |\n| Gross Margin (%)        |        17.51 |        19.59 |        27.44 |\n| Selling & Marketing Exp |       103.08 |        98.84 |        99.80 |\n| R&D Exp                 |       118.48 |       121.81 |       128.92 |\n| General & Admin Exp     |       121.06 |       121.62 |       138.70 |\n| Operating Income        |        79.28 |        86.65 |       278.94 |\n| Operating Margin (%)    |         3.29 |         3.96 |        11.84 |\n| Net Income              |       103.66 |       158.23 |       260.99 |\n| Net Margin (%)          |         4.30 |         7.23 |        11.08 |\n| Op Cash Flow            |       248.70 |       242.52 |       460.66 |\n| Investing Cash Flow     |      -208.36 |       -65.68 |       -60.91 |\n| Financing Cash Flow     |       -83.43 |      -491.60 |      -709.56 |\n| CAPEX                   |      -236.37 |       -66.38 |       -63.31 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       558.49 |       559.09 |       649.02 |       598.33 |\n| Gross Profit            |       124.01 |       121.92 |       110.09 |       108.88 |\n| Gross Margin (%)        |        22.20 |        21.81 |        16.96 |        18.20 |\n| Selling & Marketing Exp |        24.68 |        24.86 |        27.74 |        25.00 |\n| R&D Exp                 |        27.91 |        29.04 |        30.05 |        29.38 |\n| General & Admin Exp     |        33.22 |        32.80 |        24.37 |        32.49 |\n| Operating Income        |        38.19 |        35.22 |        27.93 |        22.02 |\n| Operating Margin (%)    |         6.84 |         6.30 |         4.30 |         3.68 |\n| Net Income              |        51.85 |        61.52 |       -17.73 |        38.12 |\n| Net Margin (%)          |         9.28 |        11.00 |        -2.73 |         6.37 |\n| Op Cash Flow            |        -4.35 |       110.56 |        26.96 |        43.85 |\n| Investing Cash Flow     |       -23.99 |       -21.94 |       -37.74 |       -28.62 |\n| Financing Cash Flow     |         5.36 |        35.28 |       -61.56 |       -61.59 |\n| CAPEX                   |       -23.94 |       -44.23 |       -39.39 |       -27.33 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

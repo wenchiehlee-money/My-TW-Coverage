@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5321",
+  "company_name": "美而快",
+  "title": "5321 - 美而快",
+  "source_md": "Pilot_Reports/印刷電路板 - 硬板、軟板、IC載板製造/5321_美而快.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,861 百萬台幣",
+    "enterprise_value": "5,968 百萬台幣"
+  },
+  "business": {
+    "summary": "美而快國際 (5321) 原名九德電子，轉型為台灣 **快時尚電商** 龍頭，旗下擁有 **[[PAZZO]]**、**[[MEIER.Q]]**、Mercci22、MOUGGAN 等逾 30 個自營網路服飾品牌，累計會員數超過 280 萬人。\n\n核心策略：(1) **網紅經濟** — 與 KOL 網紅合作創立/孵化品牌，流量變現模式獨步業界；(2) **OMO 全通路** — 開設 **UR Living** 複合式商場 (結合服飾、餐飲 burn 不然餐廳、生活美學)，全台已展店逾 20 家；(3) **供應鏈整合** — 從成衣代工起家，具備從設計、打樣到生產之垂直整合能力，一週內可完成設計到上架銷售；(4) **多角化** — 跨足餐飲 (burn 不然)、生醫科技、美學品牌 (椛兒美學) 等領域。",
+    "entities": [
+      "PAZZO",
+      "MEIER.Q"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (紡織與成衣製造)",
+        "text": "**上游 (紡織與成衣製造):**",
+        "entities": []
+      },
+      {
+        "category": "布料",
+        "text": "紡織廠 — 面料供應",
+        "entities": []
+      },
+      {
+        "category": "成衣代工",
+        "text": "ODM/OEM 成衣製造合作廠",
+        "entities": []
+      },
+      {
+        "category": "配件",
+        "text": "服飾配件與包材供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌經營與電商平台)",
+        "text": "**中游 (品牌經營與電商平台):**",
+        "entities": []
+      },
+      {
+        "category": "商業品牌",
+        "text": "**美而快** ([[PAZZO]]、[[MEIER.Q]] — 自營女裝品牌)",
+        "entities": [
+          "PAZZO",
+          "MEIER.Q"
+        ]
+      },
+      {
+        "category": "網紅品牌",
+        "text": "**美而快** (KOL 聯名品牌孵化)",
+        "entities": []
+      },
+      {
+        "category": "實體通路",
+        "text": "**美而快** (UR Living 複合式商場)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端消費市場)",
+        "text": "**下游 (終端消費市場):**",
+        "entities": []
+      },
+      {
+        "category": "線上消費",
+        "text": "280 萬會員 — 官網/APP 電商平台",
+        "entities": []
+      },
+      {
+        "category": "線下消費",
+        "text": "UR Living 實體商場 — 全台逾 20 家",
+        "entities": []
+      },
+      {
+        "category": "物流配送",
+        "text": "[[7-ELEVEN]]、[[全家便利商店]] — 超商取貨",
+        "entities": [
+          "7-ELEVEN",
+          "全家便利商店"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "線上消費者",
+        "text": "280 萬會員 — 女性族群 (主攻 18-45 歲)",
+        "entities": []
+      },
+      {
+        "role": "線下消費者",
+        "text": "UR Living 複合式商場顧客",
+        "entities": []
+      },
+      {
+        "role": "餐飲消費",
+        "text": "burn 不然餐廳顧客",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "成衣代工",
+        "text": "ODM/OEM 成衣製造合作廠 — 快速反應供應鏈",
+        "entities": []
+      },
+      {
+        "role": "布料",
+        "text": "紡織廠 — 面料供應",
+        "entities": []
+      },
+      {
+        "role": "物流",
+        "text": "[[7-ELEVEN]]、[[全家便利商店]] — 超商取貨配送",
+        "entities": [
+          "7-ELEVEN",
+          "全家便利商店"
+        ]
+      },
+      {
+        "role": "電商平台",
+        "text": "自建官網/APP 電商系統",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PAZZO",
+      "type": "international_company_or_term",
+      "wikilink": "PAZZO"
+    },
+    {
+      "name": "MEIER.Q",
+      "type": "international_company_or_term",
+      "wikilink": "MEIER.Q"
+    },
+    {
+      "name": "7-ELEVEN",
+      "type": "international_company_or_term",
+      "wikilink": "7-ELEVEN"
+    },
+    {
+      "name": "全家便利商店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全家便利商店"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "美而快國際 (5321) 原名九德電子，轉型為台灣 **快時尚電商** 龍頭，旗下擁有 **[[PAZZO]]**、**[[MEIER.Q]]**、Mercci22、MOUGGAN 等逾 30 個自營網路服飾品牌，累計會員數超過 280 萬人。\n\n核心策略：(1) **網紅經濟** — 與 KOL 網紅合作創立/孵化品牌，流量變現模式獨步業界；(2) **OMO 全通路** — 開設 **UR Living** 複合式商場 (結合服飾、餐飲 burn 不然餐廳、生活美學)，全台已展店逾 20 家；(3) **供應鏈整合** — 從成衣代工起家，具備從設計、打樣到生產之垂直整合能力，一週內可完成設計到上架銷售；(4) **多角化** — 跨足餐飲 (burn 不然)、生醫科技、美學品牌 (椛兒美學) 等領域。",
+    "supply_chain_md": "**上游 (紡織與成衣製造):**\n- **布料:** 紡織廠 — 面料供應\n- **成衣代工:** ODM/OEM 成衣製造合作廠\n- **配件:** 服飾配件與包材供應商\n\n**中游 (品牌經營與電商平台):**\n- **商業品牌:** **美而快** ([[PAZZO]]、[[MEIER.Q]] — 自營女裝品牌)\n- **網紅品牌:** **美而快** (KOL 聯名品牌孵化)\n- **實體通路:** **美而快** (UR Living 複合式商場)\n\n**下游 (終端消費市場):**\n- **線上消費:** 280 萬會員 — 官網/APP 電商平台\n- **線下消費:** UR Living 實體商場 — 全台逾 20 家\n- **物流配送:** [[7-ELEVEN]]、[[全家便利商店]] — 超商取貨",
+    "customers_suppliers_md": "### 主要客戶\n- **線上消費者:** 280 萬會員 — 女性族群 (主攻 18-45 歲)\n- **線下消費者:** UR Living 複合式商場顧客\n- **餐飲消費:** burn 不然餐廳顧客\n\n### 主要供應商\n- **成衣代工:** ODM/OEM 成衣製造合作廠 — 快速反應供應鏈\n- **布料:** 紡織廠 — 面料供應\n- **物流:** [[7-ELEVEN]]、[[全家便利商店]] — 超商取貨配送\n- **電商平台:** 自建官網/APP 電商系統",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $52.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.03 | 4.37 |     27.07 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2842.19 |      3383.00 |      3264.96 |\n| Gross Profit            |      1452.29 |      1541.56 |      1233.70 |\n| Gross Margin (%)        |        51.10 |        45.57 |        37.79 |\n| Selling & Marketing Exp |      1068.18 |      1108.10 |       789.22 |\n| R&D Exp                 |         0.00 |         4.50 |        12.56 |\n| General & Admin Exp     |       256.46 |       304.96 |       262.85 |\n| Operating Income        |       127.64 |       124.00 |       169.08 |\n| Operating Margin (%)    |         4.49 |         3.67 |         5.18 |\n| Net Income              |       -14.37 |         1.59 |        82.28 |\n| Net Margin (%)          |        -0.51 |         0.05 |         2.52 |\n| Op Cash Flow            |       429.76 |       170.63 |       277.89 |\n| Investing Cash Flow     |      -276.26 |      -520.78 |      -258.57 |\n| Financing Cash Flow     |       -47.71 |       351.10 |       -96.56 |\n| CAPEX                   |      -239.85 |      -490.50 |      -177.04 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       709.85 |       704.15 |       694.07 |       734.12 |\n| Gross Profit            |       359.69 |       363.89 |       360.74 |       367.97 |\n| Gross Margin (%)        |        50.67 |        51.68 |        51.97 |        50.12 |\n| Selling & Marketing Exp |       281.29 |       261.23 |       257.91 |       267.75 |\n| R&D Exp                 |         0.00 |         0.00 |         0.00 |         0.00 |\n| General & Admin Exp     |        58.71 |        64.47 |        65.68 |        67.61 |\n| Operating Income        |        19.69 |        38.19 |        37.16 |        32.61 |\n| Operating Margin (%)    |         2.77 |         5.42 |         5.35 |         4.44 |\n| Net Income              |       -18.91 |         0.15 |         1.10 |         3.29 |\n| Net Margin (%)          |        -2.66 |         0.02 |         0.16 |         0.45 |\n| Op Cash Flow            |       140.73 |       189.94 |        16.63 |        82.46 |\n| Investing Cash Flow     |       -15.34 |       -91.26 |      -110.74 |       -58.92 |\n| Financing Cash Flow     |        -9.67 |       -51.74 |        47.03 |       -33.33 |\n| CAPEX                   |       -25.33 |       -64.31 |       -92.55 |       -57.66 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

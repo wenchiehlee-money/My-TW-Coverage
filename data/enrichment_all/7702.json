@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7702",
+  "company_name": "前端風電",
+  "title": "7702 - 前端風電",
+  "source_md": "Pilot_Reports/風力發電 - 鋼材/7702_前端風電.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "[[Meta]]l Fabrication",
+    "market_cap": "1,346 百萬台幣",
+    "enterprise_value": "1,831 百萬台幣"
+  },
+  "business": {
+    "summary": "前端風電 (7702，APEX Wind) 為台灣[[離岸風電]]水下基礎鋼構加工廠。專精極厚鋼板捲圓、精密焊接與防蝕塗裝。主要生產Pin Pile基樁及Jacket套管管件。上游鋼板來自[[中鋼]]、[[新光鋼]]。下游承攬商含[[世紀鋼]]、[[興達海基]]，間接服務風場開發商[[沃旭能源]]、[[CIP]]、[[wpd]]。",
+    "entities": [
+      "離岸風電",
+      "中鋼",
+      "新光鋼",
+      "世紀鋼",
+      "興達海基",
+      "沃旭能源",
+      "CIP",
+      "wpd"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "[[中鋼]]、[[新光鋼]] — 特規厚鋼板",
+        "entities": [
+          "中鋼",
+          "新光鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**前端風電** ([[離岸風電]]Pin Pile/Jacket管件焊接加工)",
+        "entities": [
+          "離岸風電"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "[[世紀鋼]]、[[興達海基]] — 水下基礎總承攬",
+        "entities": [
+          "世紀鋼",
+          "興達海基"
+        ]
+      },
+      {
+        "category": "",
+        "text": "[[沃旭能源]]、[[CIP]]、[[wpd]] — 風場開發",
+        "entities": [
+          "沃旭能源",
+          "CIP",
+          "wpd"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[世紀鋼]]、[[興達海基]] — 水下基礎",
+        "entities": [
+          "世紀鋼",
+          "興達海基"
+        ]
+      },
+      {
+        "role": "",
+        "text": "間接: [[沃旭能源]]、[[CIP]]、[[wpd]]",
+        "entities": [
+          "沃旭能源",
+          "CIP",
+          "wpd"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[中鋼]]、[[新光鋼]] — 厚鋼板",
+        "entities": [
+          "中鋼",
+          "新光鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "離岸風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "離岸風電"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "新光鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光鋼"
+    },
+    {
+      "name": "世紀鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀鋼"
+    },
+    {
+      "name": "興達海基",
+      "type": "taiwan_company_or_term",
+      "wikilink": "興達海基"
+    },
+    {
+      "name": "沃旭能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沃旭能源"
+    },
+    {
+      "name": "CIP",
+      "type": "international_company_or_term",
+      "wikilink": "CIP"
+    },
+    {
+      "name": "wpd",
+      "type": "international_company_or_term",
+      "wikilink": "wpd"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "前端風電 (7702，APEX Wind) 為台灣[[離岸風電]]水下基礎鋼構加工廠。專精極厚鋼板捲圓、精密焊接與防蝕塗裝。主要生產Pin Pile基樁及Jacket套管管件。上游鋼板來自[[中鋼]]、[[新光鋼]]。下游承攬商含[[世紀鋼]]、[[興達海基]]，間接服務風場開發商[[沃旭能源]]、[[CIP]]、[[wpd]]。",
+    "supply_chain_md": "**上游:** [[中鋼]]、[[新光鋼]] — 特規厚鋼板\n**中游:** **前端風電** ([[離岸風電]]Pin Pile/Jacket管件焊接加工)\n**下游:**\n- [[世紀鋼]]、[[興達海基]] — 水下基礎總承攬\n- [[沃旭能源]]、[[CIP]]、[[wpd]] — 風場開發",
+    "customers_suppliers_md": "### 主要客戶\n- [[世紀鋼]]、[[興達海基]] — 水下基礎\n- 間接: [[沃旭能源]]、[[CIP]]、[[wpd]]\n\n### 主要供應商\n- [[中鋼]]、[[新光鋼]] — 厚鋼板",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $20.20 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    126.25 |         N/A |      1.22 | 1.82 |     22.71 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1094.96 |       283.85 |      1068.83 |\n| Gross Profit            |        53.15 |         5.40 |       180.83 |\n| Gross Margin (%)        |         4.85 |         1.90 |        16.92 |\n| Selling & Marketing Exp |         8.61 |         9.46 |        11.27 |\n| R&D Exp                 |         1.19 |         1.53 |         0.03 |\n| General & Admin Exp     |        21.21 |        18.77 |        25.51 |\n| Operating Income        |        22.14 |       -24.37 |       144.02 |\n| Operating Margin (%)    |         2.02 |        -8.59 |        13.47 |\n| Net Income              |        10.66 |        -6.75 |       122.69 |\n| Net Margin (%)          |         0.97 |        -2.38 |        11.48 |\n| Op Cash Flow            |       169.51 |       -21.53 |       284.85 |\n| Investing Cash Flow     |        -4.03 |      -618.10 |      -103.57 |\n| Financing Cash Flow     |      -142.41 |       468.13 |       -42.75 |\n| CAPEX                   |        -3.48 |      -565.48 |       -44.37 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

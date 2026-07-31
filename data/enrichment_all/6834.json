@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6834",
+  "company_name": "天二科技",
+  "title": "{file.replace('.md', '')}",
+  "source_md": "Pilot_Reports/被動元件 - 電阻器/6834_天二科技.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "6,556 百萬台幣",
+    "enterprise_value": "6,674 百萬台幣"
+  },
+  "business": {
+    "summary": "天二科技 (6834，[[TA-I Technology]]) 專注於被動元件晶片電阻的研發與製造，掌握厚膜、薄膜及高階金屬板電阻核心製程。\n\n業務結構與動能：(1) 金屬板電阻 — 具高功率、低阻值且耐大電流特性，成功切入 [[AI 伺服器]]電源供應鏈 (如搭載 [[NVIDIA]] GB200 晶片之主板與高階電源模組)，為近年營收爆發性成長的關鍵引擎；(2) 厚膜晶片電阻 — 一般標準型與精密型厚膜電阻；(3) 薄膜電阻 — 高精度薄膜晶片電阻。受惠於 [[AI 伺服器]] 運算電流與散熱要求急遽攀升，天二的高階金屬板電阻需求持續增長。主要客戶為全球主機板廠、電源供應器廠及 AI 伺服器系統代工廠。",
+    "entities": [
+      "TA-I Technology",
+      "AI 伺服器",
+      "NVIDIA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料)",
+        "text": "**上游 (材料):**",
+        "entities": []
+      },
+      {
+        "category": "基板",
+        "text": "高純度氧化鋁陶瓷基板",
+        "entities": []
+      },
+      {
+        "category": "漿料",
+        "text": "貴金屬厚膜漿料 (銀、鈀、釕)",
+        "entities": []
+      },
+      {
+        "category": "合金板材",
+        "text": "銅錳特殊合金板材 (金屬板電阻用)",
+        "entities": []
+      },
+      {
+        "category": "保護漆",
+        "text": "絕緣保護漆",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (晶片電阻製造)",
+        "text": "**中游 (晶片電阻製造):**",
+        "entities": []
+      },
+      {
+        "category": "金屬板電阻",
+        "text": "**天二** ([[AI 伺服器]]專用耐大電流金屬板電阻)",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "厚膜電阻",
+        "text": "**天二** (標準型/精密型厚膜晶片電阻)",
+        "entities": []
+      },
+      {
+        "category": "薄膜電阻",
+        "text": "**天二** (高精度薄膜晶片電阻)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (主機板與伺服器)",
+        "text": "**下游 (主機板與伺服器):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[AI 伺服器]]系統代工廠 — 金屬板電阻",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "主機板",
+        "text": "全球主機板廠 — 晶片電阻",
+        "entities": []
+      },
+      {
+        "category": "電源供應",
+        "text": "電源供應器廠 — 高功率電阻",
+        "entities": []
+      },
+      {
+        "category": "手機/車用",
+        "text": "智慧型手機品牌與 [[電動車]] 車充系統",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 伺服器",
+        "text": "[[AI 伺服器]]系統代工廠 — [[NVIDIA]] GB200 平台用金屬板電阻",
+        "entities": [
+          "AI 伺服器",
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "主機板",
+        "text": "全球主機板廠 — 晶片電阻",
+        "entities": []
+      },
+      {
+        "role": "電源供應",
+        "text": "電源供應器廠 — 高功率電阻",
+        "entities": []
+      },
+      {
+        "role": "車用電子",
+        "text": "[[電動車]]車充系統 — 耐大電流電阻",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "陶瓷基板",
+        "text": "高純度氧化鋁陶瓷基板供應商",
+        "entities": []
+      },
+      {
+        "role": "漿料",
+        "text": "貴金屬厚膜漿料 (銀、鈀、釕) 供應商",
+        "entities": []
+      },
+      {
+        "role": "合金板材",
+        "text": "銅錳特殊合金板材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TA-I Technology",
+      "type": "international_company_or_term",
+      "wikilink": "TA-I Technology"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "天二科技 (6834，[[TA-I Technology]]) 專注於被動元件晶片電阻的研發與製造，掌握厚膜、薄膜及高階金屬板電阻核心製程。\n\n業務結構與動能：(1) 金屬板電阻 — 具高功率、低阻值且耐大電流特性，成功切入 [[AI 伺服器]]電源供應鏈 (如搭載 [[NVIDIA]] GB200 晶片之主板與高階電源模組)，為近年營收爆發性成長的關鍵引擎；(2) 厚膜晶片電阻 — 一般標準型與精密型厚膜電阻；(3) 薄膜電阻 — 高精度薄膜晶片電阻。受惠於 [[AI 伺服器]] 運算電流與散熱要求急遽攀升，天二的高階金屬板電阻需求持續增長。主要客戶為全球主機板廠、電源供應器廠及 AI 伺服器系統代工廠。",
+    "supply_chain_md": "**上游 (材料):**\n- **基板:** 高純度氧化鋁陶瓷基板\n- **漿料:** 貴金屬厚膜漿料 (銀、鈀、釕)\n- **合金板材:** 銅錳特殊合金板材 (金屬板電阻用)\n- **保護漆:** 絕緣保護漆\n\n**中游 (晶片電阻製造):**\n- **金屬板電阻:** **天二** ([[AI 伺服器]]專用耐大電流金屬板電阻)\n- **厚膜電阻:** **天二** (標準型/精密型厚膜晶片電阻)\n- **薄膜電阻:** **天二** (高精度薄膜晶片電阻)\n\n**下游 (主機板與伺服器):**\n- **AI 伺服器:** [[AI 伺服器]]系統代工廠 — 金屬板電阻\n- **主機板:** 全球主機板廠 — 晶片電阻\n- **電源供應:** 電源供應器廠 — 高功率電阻\n- **手機/車用:** 智慧型手機品牌與 [[電動車]] 車充系統",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 伺服器:** [[AI 伺服器]]系統代工廠 — [[NVIDIA]] GB200 平台用金屬板電阻\n- **主機板:** 全球主機板廠 — 晶片電阻\n- **電源供應:** 電源供應器廠 — 高功率電阻\n- **車用電子:** [[電動車]]車充系統 — 耐大電流電阻\n\n### 主要供應商\n- **陶瓷基板:** 高純度氧化鋁陶瓷基板供應商\n- **漿料:** 貴金屬厚膜漿料 (銀、鈀、釕) 供應商\n- **合金板材:** 銅錳特殊合金板材供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $72.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    119.02 |         N/A |      4.28 | 4.40 |     29.15 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1430.88 |      1267.85 |       942.80 |\n| Gross Profit            |       256.20 |       224.76 |        24.59 |\n| Gross Margin (%)        |        17.90 |        17.73 |         2.61 |\n| Selling & Marketing Exp |        68.38 |        64.66 |        56.97 |\n| R&D Exp                 |        36.81 |        30.43 |        33.47 |\n| General & Admin Exp     |       106.15 |        98.71 |        96.47 |\n| Operating Income        |        44.85 |        30.95 |      -162.31 |\n| Operating Margin (%)    |         3.13 |         2.44 |       -17.22 |\n| Net Income              |        44.40 |        56.77 |       -96.12 |\n| Net Margin (%)          |         3.10 |         4.48 |       -10.20 |\n| Op Cash Flow            |       129.04 |       231.29 |        37.19 |\n| Investing Cash Flow     |      -173.81 |      -189.19 |      -168.21 |\n| Financing Cash Flow     |        51.07 |       -17.24 |        36.31 |\n| CAPEX                   |      -121.41 |      -102.21 |       -99.90 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       419.74 |       330.64 |       384.17 |       350.69 |\n| Gross Profit            |        96.73 |        54.02 |        68.93 |        74.33 |\n| Gross Margin (%)        |        23.04 |        16.34 |        17.94 |        21.20 |\n| Selling & Marketing Exp |        17.63 |        18.44 |        16.74 |        15.64 |\n| R&D Exp                 |        10.70 |         9.04 |         9.43 |         8.54 |\n| General & Admin Exp     |        32.58 |        28.76 |        22.74 |        27.32 |\n| Operating Income        |        35.83 |        -2.22 |        20.02 |        22.84 |\n| Operating Margin (%)    |         8.54 |        -0.67 |         5.21 |         6.51 |\n| Net Income              |        39.73 |        22.89 |       -47.83 |        29.79 |\n| Net Margin (%)          |         9.47 |         6.92 |       -12.45 |         8.49 |\n| Op Cash Flow            |        35.40 |        59.59 |       -26.52 |        59.42 |\n| Investing Cash Flow     |       -20.14 |       -63.28 |       -36.10 |       -48.03 |\n| Financing Cash Flow     |         9.03 |        -0.94 |        58.82 |        33.35 |\n| CAPEX                   |       -30.10 |       -12.27 |       -37.71 |       -46.62 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5608",
+  "company_name": "四維航",
+  "title": "5608_四維航",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 散裝航運/5608_四維航.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "5,061 百萬台幣",
+    "enterprise_value": "10,468 百萬台幣"
+  },
+  "business": {
+    "summary": "四維航業股份有限公司 (5608) 主要經營[[散裝航運]]，船隊涵蓋輕便型 (Handy)、Supramax 及巴拿馬極限型等多種船型，專門在全球主要港口間運輸礦石、煤炭、穀物、鋼材及原木等大宗物資與工業原料。除航運本業外，公司亦涉足船務代理與[[綠舞觀光]]日式主題度假村等相關轉投資事業。主要客戶為大型鋼鐵廠 (如[[POSCO]]、[[中鋼]]) 及國際原物料貿易商。",
+    "entities": [
+      "散裝航運",
+      "綠舞觀光",
+      "POSCO",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶建造與維護)",
+        "text": "**上游 (船舶建造與維護):**",
+        "entities": []
+      },
+      {
+        "category": "造船",
+        "text": "國內外造船廠 — 散裝輪建造與維修",
+        "entities": []
+      },
+      {
+        "category": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      },
+      {
+        "category": "船員",
+        "text": "船員管理及派遣機構",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (散裝航運)",
+        "text": "**中游 (散裝航運):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**四維航** — 散裝航運服務、船務代理",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "鋼鐵業",
+        "text": "[[POSCO]]、[[中鋼]] — 鐵礦砂與煤炭運輸",
+        "entities": [
+          "POSCO",
+          "中鋼"
+        ]
+      },
+      {
+        "category": "原物料貿易商",
+        "text": "國際大宗穀物與原木貿易商",
+        "entities": []
+      },
+      {
+        "category": "觀光",
+        "text": "綠舞觀光日式主題度假村 (轉投資)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鋼鐵業",
+        "text": "[[POSCO]]、[[中鋼]] — 鐵礦砂與煤炭運輸",
+        "entities": [
+          "POSCO",
+          "中鋼"
+        ]
+      },
+      {
+        "role": "原物料貿易商",
+        "text": "國際大宗穀物、鋼材及原木貿易商",
+        "entities": []
+      },
+      {
+        "role": "基礎建設",
+        "text": "各國基礎建設相關採購單位",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "造船",
+        "text": "國內外造船廠 — 散裝輪建造與維修",
+        "entities": []
+      },
+      {
+        "role": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      },
+      {
+        "role": "船員管理",
+        "text": "船員派遣機構",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "散裝航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散裝航運"
+    },
+    {
+      "name": "綠舞觀光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "綠舞觀光"
+    },
+    {
+      "name": "POSCO",
+      "type": "international_company_or_term",
+      "wikilink": "POSCO"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "四維航業股份有限公司 (5608) 主要經營[[散裝航運]]，船隊涵蓋輕便型 (Handy)、Supramax 及巴拿馬極限型等多種船型，專門在全球主要港口間運輸礦石、煤炭、穀物、鋼材及原木等大宗物資與工業原料。除航運本業外，公司亦涉足船務代理與[[綠舞觀光]]日式主題度假村等相關轉投資事業。主要客戶為大型鋼鐵廠 (如[[POSCO]]、[[中鋼]]) 及國際原物料貿易商。",
+    "supply_chain_md": "**上游 (船舶建造與維護):**\n- **造船:** 國內外造船廠 — 散裝輪建造與維修\n- **燃油:** 全球各港口燃油供應商\n- **船員:** 船員管理及派遣機構\n\n**中游 (散裝航運):**\n- **四維航** — 散裝航運服務、船務代理\n\n**下游 (終端客戶):**\n- **鋼鐵業:** [[POSCO]]、[[中鋼]] — 鐵礦砂與煤炭運輸\n- **原物料貿易商:** 國際大宗穀物與原木貿易商\n- **觀光:** 綠舞觀光日式主題度假村 (轉投資)",
+    "customers_suppliers_md": "### 主要客戶\n- **鋼鐵業:** [[POSCO]]、[[中鋼]] — 鐵礦砂與煤炭運輸\n- **原物料貿易商:** 國際大宗穀物、鋼材及原木貿易商\n- **基礎建設:** 各國基礎建設相關採購單位\n\n### 主要供應商\n- **造船:** 國內外造船廠 — 散裝輪建造與維修\n- **燃油:** 全球各港口燃油供應商\n- **船員管理:** 船員派遣機構",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $12.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     56.09 |        1.17 |      1.58 | 0.52 |      8.28 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3183.91 |      3492.77 |      3461.13 |\n| Gross Profit            |       203.26 |       312.41 |       136.09 |\n| Gross Margin (%)        |         6.38 |         8.94 |         3.93 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       298.13 |       296.01 |       303.30 |\n| Operating Income        |       -94.87 |        16.40 |      -167.21 |\n| Operating Margin (%)    |        -2.98 |         0.47 |        -4.83 |\n| Net Income              |       -49.52 |      -269.25 |      -476.00 |\n| Net Margin (%)          |        -1.56 |        -7.71 |       -13.75 |\n| Op Cash Flow            |      1095.62 |       979.36 |       411.60 |\n| Investing Cash Flow     |       670.56 |     -1353.84 |       578.84 |\n| Financing Cash Flow     |     -1710.31 |     -1009.33 |     -2987.46 |\n| CAPEX                   |      -853.84 |     -2387.01 |      -406.64 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       768.62 |       857.38 |       775.42 |       767.57 |\n| Gross Profit            |        88.54 |       140.48 |        85.96 |        17.74 |\n| Gross Margin (%)        |        11.52 |        16.39 |        11.09 |         2.31 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        79.35 |        78.07 |        73.61 |        73.87 |\n| Operating Income        |         9.19 |        62.42 |        12.35 |       -56.13 |\n| Operating Margin (%)    |         1.20 |         7.28 |         1.59 |        -7.31 |\n| Net Income              |       -41.75 |         4.75 |       -90.73 |       217.46 |\n| Net Margin (%)          |        -5.43 |         0.55 |       -11.70 |        28.33 |\n| Op Cash Flow            |       202.57 |       296.78 |       358.21 |       347.69 |\n| Investing Cash Flow     |      -105.30 |       361.43 |      -123.36 |       170.14 |\n| Financing Cash Flow     |      -634.92 |      -625.35 |      -281.86 |      -260.40 |\n| CAPEX                   |      -122.97 |      -602.53 |      -105.30 |       -77.59 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

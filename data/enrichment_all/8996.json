@@ -1,0 +1,200 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8996",
+  "company_name": "高力",
+  "title": "8996 - 高力",
+  "source_md": "Pilot_Reports/電機機械 - 油空壓元件/8996_高力.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "79,790 百萬台幣",
+    "enterprise_value": "78,972 百萬台幣"
+  },
+  "business": {
+    "summary": "高力熱處理 (8996，Kaori Heat Treatment) 為台灣唯一具備「真空硬銲板式熱交換器」技術之廠商，國內市佔超過九成，行銷 70+ 國。三大業務：(1) 傳統板式熱交換器 (冷凍空調/油壓，約 40% 營收)；(2) [[AI 伺服器]][[液冷]]散熱方案 (約 50% 營收，三位數成長) — 供應[[奇鋐]]、[[雙鴻]]、[[台達電]]等散熱模組廠；(3) 燃料電池核心元件 — 與[[Bloom Energy]]合作逾 15 年供應 Hot Box (間接服務[[Apple]]、[[Google]]、[[Walmart]])。泰國新廠預計 2026 年量產。2025 年 9 月營收創新高 6.37 億元。",
+    "entities": [
+      "AI 伺服器",
+      "液冷",
+      "奇鋐",
+      "雙鴻",
+      "台達電",
+      "Bloom Energy",
+      "Apple",
+      "Google",
+      "Walmart"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "不鏽鋼/銅合金",
+        "text": "板材供應商",
+        "entities": []
+      },
+      {
+        "category": "銲接材料",
+        "text": "真空硬銲專用",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**高力** (真空硬銲板式熱交換器/燃料電池 Hot Box/[[AI 伺服器]][[液冷]]模組)",
+        "entities": [
+          "AI 伺服器",
+          "液冷"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "AI 液冷 (佔 50%)",
+        "text": "[[奇鋐]]、[[雙鴻]]、[[台達電]] — AI 伺服器散熱供應鏈",
+        "entities": [
+          "奇鋐",
+          "雙鴻",
+          "台達電"
+        ]
+      },
+      {
+        "category": "燃料電池",
+        "text": "[[Bloom Energy]] — Hot Box 長約 (間接服務[[Apple]]、[[Google]]、[[Walmart]])",
+        "entities": [
+          "Bloom Energy",
+          "Apple",
+          "Google",
+          "Walmart"
+        ]
+      },
+      {
+        "category": "冷凍空調",
+        "text": "全球設備廠 — 傳統熱交換器",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 液冷",
+        "text": "[[奇鋐]]、[[雙鴻]]、[[台達電]] — [[AI 伺服器]]散熱",
+        "entities": [
+          "奇鋐",
+          "雙鴻",
+          "台達電",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "燃料電池",
+        "text": "[[Bloom Energy]] — Hot Box 長約",
+        "entities": [
+          "Bloom Energy"
+        ]
+      },
+      {
+        "role": "冷凍空調",
+        "text": "全球設備廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "板材",
+        "text": "不鏽鋼/銅合金",
+        "entities": []
+      },
+      {
+        "role": "銲接",
+        "text": "真空硬銲材料",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "液冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "液冷"
+    },
+    {
+      "name": "奇鋐",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇鋐"
+    },
+    {
+      "name": "雙鴻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雙鴻"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "Bloom Energy",
+      "type": "international_company_or_term",
+      "wikilink": "Bloom Energy"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "高力熱處理 (8996，Kaori Heat Treatment) 為台灣唯一具備「真空硬銲板式熱交換器」技術之廠商，國內市佔超過九成，行銷 70+ 國。三大業務：(1) 傳統板式熱交換器 (冷凍空調/油壓，約 40% 營收)；(2) [[AI 伺服器]][[液冷]]散熱方案 (約 50% 營收，三位數成長) — 供應[[奇鋐]]、[[雙鴻]]、[[台達電]]等散熱模組廠；(3) 燃料電池核心元件 — 與[[Bloom Energy]]合作逾 15 年供應 Hot Box (間接服務[[Apple]]、[[Google]]、[[Walmart]])。泰國新廠預計 2026 年量產。2025 年 9 月營收創新高 6.37 億元。",
+    "supply_chain_md": "**上游 (原料):**\n- **不鏽鋼/銅合金:** 板材供應商\n- **銲接材料:** 真空硬銲專用\n\n**中游 (製造):**\n- **高力** (真空硬銲板式熱交換器/燃料電池 Hot Box/[[AI 伺服器]][[液冷]]模組)\n\n**下游 (終端):**\n- **AI 液冷 (佔 50%):** [[奇鋐]]、[[雙鴻]]、[[台達電]] — AI 伺服器散熱供應鏈\n- **燃料電池:** [[Bloom Energy]] — Hot Box 長約 (間接服務[[Apple]]、[[Google]]、[[Walmart]])\n- **冷凍空調:** 全球設備廠 — 傳統熱交換器",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 液冷:** [[奇鋐]]、[[雙鴻]]、[[台達電]] — [[AI 伺服器]]散熱\n- **燃料電池:** [[Bloom Energy]] — Hot Box 長約\n- **冷凍空調:** 全球設備廠\n\n### 主要供應商\n- **板材:** 不鏽鋼/銅合金\n- **銲接:** 真空硬銲材料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $778.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|     55.57 |       19.26 |      8.04 | 15.58 |     40.39 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6580.62 |      4003.44 |      4325.67 |\n| Gross Profit            |      1798.98 |      1194.85 |      1223.95 |\n| Gross Margin (%)        |        27.34 |        29.85 |        28.30 |\n| Selling & Marketing Exp |       159.42 |       139.32 |       139.41 |\n| R&D Exp                 |       218.29 |       113.10 |        83.81 |\n| General & Admin Exp     |       376.61 |       297.43 |       287.46 |\n| Operating Income        |      1044.66 |       645.01 |       713.26 |\n| Operating Margin (%)    |        15.87 |        16.11 |        16.49 |\n| Net Income              |       829.55 |       593.04 |       576.53 |\n| Net Margin (%)          |        12.61 |        14.81 |        13.33 |\n| Op Cash Flow            |       597.89 |      1041.28 |       679.04 |\n| Investing Cash Flow     |      -218.86 |      -194.64 |      -346.11 |\n| Financing Cash Flow     |      -578.87 |       426.13 |         2.27 |\n| CAPEX                   |      -324.22 |      -198.33 |      -352.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3422.97 |      2292.73 |      1786.02 |      1488.01 |\n| Gross Profit            |       993.40 |       615.61 |       442.17 |       436.77 |\n| Gross Margin (%)        |        29.02 |        26.85 |        24.76 |        29.35 |\n| Selling & Marketing Exp |        55.39 |        45.76 |        44.68 |        37.25 |\n| R&D Exp                 |        99.87 |        86.91 |        49.94 |        43.60 |\n| General & Admin Exp     |       147.00 |       119.00 |       100.54 |        81.62 |\n| Operating Income        |       691.13 |       363.94 |       247.01 |       274.30 |\n| Operating Margin (%)    |        20.19 |        15.87 |        13.83 |        18.43 |\n| Net Income              |       605.67 |       315.97 |       258.47 |       121.85 |\n| Net Margin (%)          |        17.69 |        13.78 |        14.47 |         8.19 |\n| Op Cash Flow            |       517.77 |        15.47 |       613.70 |       254.40 |\n| Investing Cash Flow     |      -193.79 |      -120.09 |        70.44 |       -80.03 |\n| Financing Cash Flow     |      -131.66 |      -132.12 |      -290.43 |       141.81 |\n| CAPEX                   |      -191.99 |       -97.62 |       -47.56 |       -86.05 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

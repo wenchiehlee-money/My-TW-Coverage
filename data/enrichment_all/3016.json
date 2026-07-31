@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3016",
+  "company_name": "嘉晶",
+  "title": "3016 - 嘉晶",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/3016_嘉晶.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "22,304 百萬台幣",
+    "enterprise_value": "20,881 百萬台幣"
+  },
+  "business": {
+    "summary": "嘉晶電子 (3016) 是[[漢磊投控]]旗下的專業[[磊晶]][[矽晶圓]]廠，為台灣唯一能量產 4 吋及 6 吋[[碳化矽]] (SiC) [[磊晶]]及 6 吋[[氮化鎵]] (GaN) [[磊晶]]的廠商。公司業務涵蓋矽[[磊晶]]代工 (占 2024 年營收約 60%) 及[[磊晶]][[矽晶圓]]生產 (約 40%)，產品應用於功率元件、[[電動車]]、[[智慧電網]]、[[儲能系統]]及電源供應器。",
+    "entities": [
+      "漢磊投控",
+      "磊晶",
+      "矽晶圓",
+      "碳化矽",
+      "氮化鎵",
+      "電動車",
+      "智慧電網",
+      "儲能系統"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與設備)",
+        "text": "**上游 (原料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "[[矽晶圓]]基板",
+        "text": "矽及 SiC 晶圓基板",
+        "entities": [
+          "矽晶圓"
+        ]
+      },
+      {
+        "category": "[[磊晶]]設備",
+        "text": "[[CVD]] [[磊晶]]設備",
+        "entities": [
+          "磊晶",
+          "CVD"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[磊晶]]代工)",
+        "text": "**中游 ([[磊晶]]代工):**",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "[[磊晶]]製造",
+        "text": "**嘉晶** (矽/SiC/GaN [[磊晶]]代工及晶圓生產)",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[漢磊投控]] (集團整合)",
+        "entities": [
+          "漢磊投控"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (功率元件與終端)",
+        "text": "**下游 (功率元件與終端):**",
+        "entities": []
+      },
+      {
+        "category": "功率元件 IDM",
+        "text": "國際 IDM 大廠 (SiC [[磊晶]]品質獲認證)",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "[[電動車]]",
+        "text": "SiC 功率元件用於[[電動車]]逆變器",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "category": "儲能/電網",
+        "text": "智慧電網及儲能系統電源模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "國際 IDM",
+        "text": "國際功率半導體 IDM 廠 (SiC [[磊晶]]代工)",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "role": "集團內部",
+        "text": "[[漢磊投控]] 集團協同",
+        "entities": [
+          "漢磊投控"
+        ]
+      },
+      {
+        "role": "[[電動車]]/儲能",
+        "text": "SiC 功率元件應用客戶",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "SiC 基板",
+        "text": "碳化[[矽晶圓]]基板供應商",
+        "entities": [
+          "矽晶圓"
+        ]
+      },
+      {
+        "role": "[[磊晶]]設備",
+        "text": "[[CVD]] [[磊晶]]設備",
+        "entities": [
+          "磊晶",
+          "CVD"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[Wolfspeed]] (美國)、國際 SiC [[磊晶]]廠",
+        "entities": [
+          "Wolfspeed",
+          "磊晶"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[Wolfspeed]] (美國)、國際 SiC [[磊晶]]廠",
+        "entities": [
+          "Wolfspeed",
+          "磊晶"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "漢磊投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢磊投控"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "碳化矽",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳化矽"
+    },
+    {
+      "name": "氮化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "氮化鎵"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "智慧電網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智慧電網"
+    },
+    {
+      "name": "儲能系統",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能系統"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "Wolfspeed",
+      "type": "international_company_or_term",
+      "wikilink": "Wolfspeed"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "嘉晶電子 (3016) 是[[漢磊投控]]旗下的專業[[磊晶]][[矽晶圓]]廠，為台灣唯一能量產 4 吋及 6 吋[[碳化矽]] (SiC) [[磊晶]]及 6 吋[[氮化鎵]] (GaN) [[磊晶]]的廠商。公司業務涵蓋矽[[磊晶]]代工 (占 2024 年營收約 60%) 及[[磊晶]][[矽晶圓]]生產 (約 40%)，產品應用於功率元件、[[電動車]]、[[智慧電網]]、[[儲能系統]]及電源供應器。",
+    "supply_chain_md": "**上游 (原料與設備):**\n- **[[矽晶圓]]基板:** 矽及 SiC 晶圓基板\n- **[[磊晶]]設備:** [[CVD]] [[磊晶]]設備\n\n**中游 ([[磊晶]]代工):**\n- **[[磊晶]]製造:** **嘉晶** (矽/SiC/GaN [[磊晶]]代工及晶圓生產)\n- **母公司:** [[漢磊投控]] (集團整合)\n\n**下游 (功率元件與終端):**\n- **功率元件 IDM:** 國際 IDM 大廠 (SiC [[磊晶]]品質獲認證)\n- **[[電動車]]:** SiC 功率元件用於[[電動車]]逆變器\n- **儲能/電網:** 智慧電網及儲能系統電源模組",
+    "customers_suppliers_md": "### 主要客戶\n- **國際 IDM:** 國際功率半導體 IDM 廠 (SiC [[磊晶]]代工)\n- **集團內部:** [[漢磊投控]] 集團協同\n- **[[電動車]]/儲能:** SiC 功率元件應用客戶\n\n### 主要供應商\n- **SiC 基板:** 碳化[[矽晶圓]]基板供應商\n- **[[磊晶]]設備:** [[CVD]] [[磊晶]]設備\n- **競爭同業:** [[Wolfspeed]] (美國)、國際 SiC [[磊晶]]廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $74.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    181.46 |       47.69 |      5.30 | 4.38 |     38.22 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3891.70 |      4107.47 |      4236.50 |\n| Gross Profit            |       306.50 |       382.00 |       495.47 |\n| Gross Margin (%)        |         7.88 |         9.30 |        11.70 |\n| Selling & Marketing Exp |        44.72 |        47.39 |        47.41 |\n| R&D Exp                 |        56.78 |        72.14 |        88.34 |\n| General & Admin Exp     |       187.25 |       189.51 |       176.75 |\n| Operating Income        |        17.75 |        72.96 |       182.97 |\n| Operating Margin (%)    |         0.46 |         1.78 |         4.32 |\n| Net Income              |        20.42 |       264.61 |       164.04 |\n| Net Margin (%)          |         0.52 |         6.44 |         3.87 |\n| Op Cash Flow            |       492.48 |       804.97 |       553.67 |\n| Investing Cash Flow     |      -439.41 |      -573.25 |      -611.84 |\n| Financing Cash Flow     |      -404.80 |       122.77 |      -498.41 |\n| CAPEX                   |      -449.74 |      -827.38 |      -614.34 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1058.98 |      1064.80 |       975.24 |       954.64 |\n| Gross Profit            |       188.23 |       125.79 |        75.97 |        48.10 |\n| Gross Margin (%)        |        17.77 |        11.81 |         7.79 |         5.04 |\n| Selling & Marketing Exp |        11.21 |        10.85 |        11.60 |        10.38 |\n| R&D Exp                 |        13.93 |        16.12 |        13.74 |        15.54 |\n| General & Admin Exp     |        50.85 |        46.80 |        45.62 |        48.50 |\n| Operating Income        |       112.23 |        52.02 |         5.01 |       -26.31 |\n| Operating Margin (%)    |        10.60 |         4.89 |         0.51 |        -2.76 |\n| Net Income              |       100.66 |        46.48 |        13.76 |       -42.65 |\n| Net Margin (%)          |         9.50 |         4.36 |         1.41 |        -4.47 |\n| Op Cash Flow            |       256.07 |       199.56 |        93.62 |        68.77 |\n| Investing Cash Flow     |       -28.48 |      -117.05 |       -35.38 |       -79.21 |\n| Financing Cash Flow     |        79.64 |       109.72 |      -123.73 |      -342.51 |\n| CAPEX                   |       -28.48 |      -117.34 |       -34.75 |       -79.25 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

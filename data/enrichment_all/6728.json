@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6728",
+  "company_name": "上洋",
+  "title": "6728 - 上洋",
+  "source_md": "Pilot_Reports/貿易百貨 - 貿易商、代理商、經銷商/6728_上洋.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "3,253 百萬台幣",
+    "enterprise_value": "4,858 百萬台幣"
+  },
+  "business": {
+    "summary": "上洋產業股份有限公司 (6728) 成立於 1979 年，總部位於新北市，深耕商用洗衣設備市場逾 40 年。公司為多品牌家電代理與通路商，三大事業群：(1) 空調家電事業群 — 台灣總代理 [[三菱重工]] 家用/商用/VRF 變頻空調；(2) 商用洗衣事業群 — 代理 [[AQUA]]（日本以外全球唯一總代理）、[[Huebsch]] (優必洗) 商用洗烘衣設備，並發展自助洗衣店加盟業務；(3) 新發事業群 — 發展自有品牌「one-meter」家電及醫療級洗衣設備，並積極拓展東南亞市場。",
+    "entities": [
+      "三菱重工",
+      "AQUA",
+      "Huebsch"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際品牌原廠)",
+        "text": "**上游 (國際品牌原廠):**",
+        "entities": []
+      },
+      {
+        "category": "空調",
+        "text": "[[三菱重工]] — 家用/商用/VRF 變頻空調",
+        "entities": [
+          "三菱重工"
+        ]
+      },
+      {
+        "category": "商洗",
+        "text": "[[AQUA]] — 商用洗烘衣設備",
+        "entities": [
+          "AQUA"
+        ]
+      },
+      {
+        "category": "商洗",
+        "text": "[[Huebsch]] (優必洗) — 商用洗烘衣設備",
+        "entities": [
+          "Huebsch"
+        ]
+      },
+      {
+        "category": "自有品牌",
+        "text": "one-meter 品牌家電",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (代理與通路經營)",
+        "text": "**中游 (代理與通路經營):**",
+        "entities": []
+      },
+      {
+        "category": "空調代理",
+        "text": "**上洋** ([[三菱重工]]空調台灣總代理)",
+        "entities": [
+          "三菱重工"
+        ]
+      },
+      {
+        "category": "商洗代理",
+        "text": "**上洋** ([[AQUA]]/[[Huebsch]] 全球/台灣代理)",
+        "entities": [
+          "AQUA",
+          "Huebsch"
+        ]
+      },
+      {
+        "category": "自助洗衣",
+        "text": "**上洋** (自助洗衣店加盟體系)",
+        "entities": []
+      },
+      {
+        "category": "水電工程",
+        "text": "**上洋** (空調安裝與維護服務)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "消費者",
+        "text": "台灣家庭 — 空調/家電購買",
+        "entities": []
+      },
+      {
+        "category": "商業客戶",
+        "text": "飯店、醫院、洗衣店 — 商用洗衣設備",
+        "entities": []
+      },
+      {
+        "category": "便利商店",
+        "text": "超商通路 — 空調汰舊換新商機",
+        "entities": []
+      },
+      {
+        "category": "東南亞",
+        "text": "東南亞市場 — 商洗設備外銷",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費者",
+        "text": "台灣家庭消費者 — [[三菱重工]]空調/家電",
+        "entities": [
+          "三菱重工"
+        ]
+      },
+      {
+        "role": "商業洗衣",
+        "text": "飯店、醫院、自助洗衣店 — [[AQUA]]/[[Huebsch]] 商洗設備",
+        "entities": [
+          "AQUA",
+          "Huebsch"
+        ]
+      },
+      {
+        "role": "便利商店",
+        "text": "台灣超商體系 — 空調汰舊換新",
+        "entities": []
+      },
+      {
+        "role": "東南亞市場",
+        "text": "東南亞商用洗衣設備客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "空調",
+        "text": "[[三菱重工]] — 變頻空調設備原廠",
+        "entities": [
+          "三菱重工"
+        ]
+      },
+      {
+        "role": "商洗",
+        "text": "[[AQUA]] — 商用洗烘衣設備原廠",
+        "entities": [
+          "AQUA"
+        ]
+      },
+      {
+        "role": "商洗",
+        "text": "[[Huebsch]] (優必洗) — 商用洗烘衣設備原廠",
+        "entities": [
+          "Huebsch"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "三菱重工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱重工"
+    },
+    {
+      "name": "AQUA",
+      "type": "international_company_or_term",
+      "wikilink": "AQUA"
+    },
+    {
+      "name": "Huebsch",
+      "type": "international_company_or_term",
+      "wikilink": "Huebsch"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "上洋產業股份有限公司 (6728) 成立於 1979 年，總部位於新北市，深耕商用洗衣設備市場逾 40 年。公司為多品牌家電代理與通路商，三大事業群：(1) 空調家電事業群 — 台灣總代理 [[三菱重工]] 家用/商用/VRF 變頻空調；(2) 商用洗衣事業群 — 代理 [[AQUA]]（日本以外全球唯一總代理）、[[Huebsch]] (優必洗) 商用洗烘衣設備，並發展自助洗衣店加盟業務；(3) 新發事業群 — 發展自有品牌「one-meter」家電及醫療級洗衣設備，並積極拓展東南亞市場。",
+    "supply_chain_md": "**上游 (國際品牌原廠):**\n- **空調:** [[三菱重工]] — 家用/商用/VRF 變頻空調\n- **商洗:** [[AQUA]] — 商用洗烘衣設備\n- **商洗:** [[Huebsch]] (優必洗) — 商用洗烘衣設備\n- **自有品牌:** one-meter 品牌家電\n\n**中游 (代理與通路經營):**\n- **空調代理:** **上洋** ([[三菱重工]]空調台灣總代理)\n- **商洗代理:** **上洋** ([[AQUA]]/[[Huebsch]] 全球/台灣代理)\n- **自助洗衣:** **上洋** (自助洗衣店加盟體系)\n- **水電工程:** **上洋** (空調安裝與維護服務)\n\n**下游 (終端客戶):**\n- **消費者:** 台灣家庭 — 空調/家電購買\n- **商業客戶:** 飯店、醫院、洗衣店 — 商用洗衣設備\n- **便利商店:** 超商通路 — 空調汰舊換新商機\n- **東南亞:** 東南亞市場 — 商洗設備外銷",
+    "customers_suppliers_md": "### 主要客戶\n- **消費者:** 台灣家庭消費者 — [[三菱重工]]空調/家電\n- **商業洗衣:** 飯店、醫院、自助洗衣店 — [[AQUA]]/[[Huebsch]] 商洗設備\n- **便利商店:** 台灣超商體系 — 空調汰舊換新\n- **東南亞市場:** 東南亞商用洗衣設備客戶\n\n### 主要供應商\n- **空調:** [[三菱重工]] — 變頻空調設備原廠\n- **商洗:** [[AQUA]] — 商用洗烘衣設備原廠\n- **商洗:** [[Huebsch]] (優必洗) — 商用洗烘衣設備原廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $107.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     12.04 |         N/A |      0.67 | 1.72 |     11.34 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4735.31 |      3511.41 |      2733.11 |\n| Gross Profit            |      1594.41 |      1307.59 |      1002.67 |\n| Gross Margin (%)        |        33.67 |        37.24 |        36.69 |\n| Selling & Marketing Exp |       312.22 |       299.11 |       240.19 |\n| R&D Exp                 |         6.40 |         6.50 |        10.43 |\n| General & Admin Exp     |       885.56 |       606.27 |       449.85 |\n| Operating Income        |       390.24 |       395.71 |       302.20 |\n| Operating Margin (%)    |         8.24 |        11.27 |        11.06 |\n| Net Income              |       294.32 |       303.93 |       236.37 |\n| Net Margin (%)          |         6.22 |         8.66 |         8.65 |\n| Op Cash Flow            |      -266.39 |       144.44 |       373.85 |\n| Investing Cash Flow     |      -122.16 |      -732.95 |      -374.92 |\n| Financing Cash Flow     |       378.05 |       828.04 |       -68.74 |\n| CAPEX                   |       -67.58 |      -679.92 |      -372.97 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1062.48 |      1304.67 |      1013.26 |      1435.96 |\n| Gross Profit            |       392.43 |       404.78 |       368.56 |       470.99 |\n| Gross Margin (%)        |        36.94 |        31.03 |        36.37 |        32.80 |\n| Selling & Marketing Exp |        67.47 |        64.47 |        70.18 |       113.75 |\n| R&D Exp                 |         4.97 |         0.65 |         2.03 |         0.74 |\n| General & Admin Exp     |       247.08 |       259.95 |       224.62 |       222.21 |\n| Operating Income        |        72.91 |        79.70 |        71.73 |       134.29 |\n| Operating Margin (%)    |         6.86 |         6.11 |         7.08 |         9.35 |\n| Net Income              |        59.28 |        59.09 |        60.86 |        93.47 |\n| Net Margin (%)          |         5.58 |         4.53 |         6.01 |         6.51 |\n| Op Cash Flow            |       -40.21 |       298.70 |        94.06 |        47.87 |\n| Investing Cash Flow     |       -77.33 |       -39.59 |       -33.20 |       -28.01 |\n| Financing Cash Flow     |        76.04 |      -169.91 |        54.23 |        -9.64 |\n| CAPEX                   |       -71.06 |       -28.72 |       -19.61 |       -10.59 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

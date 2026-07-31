@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4721",
+  "company_name": "美琪瑪",
+  "title": "4721 - 美琪瑪",
+  "source_md": "Pilot_Reports/電動車輛產業 - 鋰電池材料/4721_美琪瑪.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "4,874 百萬台幣",
+    "enterprise_value": "5,165 百萬台幣"
+  },
+  "business": {
+    "summary": "美琪瑪科技 (4721，Mechema) 雙核心事業：(1) PTA 氧化觸媒 (醋酸鈷/醋酸錳) — 全球領導地位，供應 PTA 製造商如[[亞東石化]]、[[台化]]、[[遠東新世紀]]；(2) 電動車電池材料 — [[硫酸鈷]]、[[硫酸鎳]]供應[[鋰電池]]正極材料前驅體，與日本[[Toda Kogyo]] (戶田工業) 合資設立[[美戶先進材料]]生產 NCA/NCM 正極前驅體。電池材料營收佔比已達約 50%。供應鏈經由[[住友金屬礦山]]、[[Panasonic]]間接供應[[Tesla]]電動車電池。另發展廢電池鈷鎳回收循環經濟。",
+    "entities": [
+      "亞東石化",
+      "台化",
+      "遠東新世紀",
+      "硫酸鈷",
+      "硫酸鎳",
+      "鋰電池",
+      "Toda Kogyo",
+      "美戶先進材料",
+      "住友金屬礦山",
+      "Panasonic",
+      "Tesla"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鈷/鎳金屬",
+        "text": "國際鈷鎳供應商",
+        "entities": []
+      },
+      {
+        "category": "廢電池回收",
+        "text": "廢電池/廢觸媒鈷鎳回收",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**美琪瑪** (PTA 觸媒/[[硫酸鈷]]/[[硫酸鎳]])",
+        "entities": [
+          "硫酸鈷",
+          "硫酸鎳"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**[[美戶先進材料]]** (與[[Toda Kogyo]]合資，NCA/NCM 前驅體)",
+        "entities": [
+          "美戶先進材料",
+          "Toda Kogyo"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "PTA 觸媒",
+        "text": "[[亞東石化]]、[[台化]]、[[遠東新世紀]] — PTA 製程",
+        "entities": [
+          "亞東石化",
+          "台化",
+          "遠東新世紀"
+        ]
+      },
+      {
+        "category": "電池材料",
+        "text": "[[住友金屬礦山]] → [[Panasonic]] → [[Tesla]] — [[鋰電池]]正極材料鏈",
+        "entities": [
+          "住友金屬礦山",
+          "Panasonic",
+          "Tesla",
+          "鋰電池"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "PTA 觸媒",
+        "text": "[[亞東石化]]、[[台化]]、[[遠東新世紀]]",
+        "entities": [
+          "亞東石化",
+          "台化",
+          "遠東新世紀"
+        ]
+      },
+      {
+        "role": "電池鏈",
+        "text": "[[住友金屬礦山]] → [[Panasonic]] → [[Tesla]]",
+        "entities": [
+          "住友金屬礦山",
+          "Panasonic",
+          "Tesla"
+        ]
+      },
+      {
+        "role": "合資",
+        "text": "[[Toda Kogyo]] — [[美戶先進材料]]合資夥伴",
+        "entities": [
+          "Toda Kogyo",
+          "美戶先進材料"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鈷鎳",
+        "text": "國際鈷鎳金屬供應商",
+        "entities": []
+      },
+      {
+        "role": "回收",
+        "text": "廢電池/廢觸媒回收",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "亞東石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞東石化"
+    },
+    {
+      "name": "台化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台化"
+    },
+    {
+      "name": "遠東新世紀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新世紀"
+    },
+    {
+      "name": "硫酸鈷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硫酸鈷"
+    },
+    {
+      "name": "硫酸鎳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硫酸鎳"
+    },
+    {
+      "name": "鋰電池",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鋰電池"
+    },
+    {
+      "name": "Toda Kogyo",
+      "type": "international_company_or_term",
+      "wikilink": "Toda Kogyo"
+    },
+    {
+      "name": "美戶先進材料",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美戶先進材料"
+    },
+    {
+      "name": "住友金屬礦山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友金屬礦山"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "美琪瑪科技 (4721，Mechema) 雙核心事業：(1) PTA 氧化觸媒 (醋酸鈷/醋酸錳) — 全球領導地位，供應 PTA 製造商如[[亞東石化]]、[[台化]]、[[遠東新世紀]]；(2) 電動車電池材料 — [[硫酸鈷]]、[[硫酸鎳]]供應[[鋰電池]]正極材料前驅體，與日本[[Toda Kogyo]] (戶田工業) 合資設立[[美戶先進材料]]生產 NCA/NCM 正極前驅體。電池材料營收佔比已達約 50%。供應鏈經由[[住友金屬礦山]]、[[Panasonic]]間接供應[[Tesla]]電動車電池。另發展廢電池鈷鎳回收循環經濟。",
+    "supply_chain_md": "**上游 (原料):**\n- **鈷/鎳金屬:** 國際鈷鎳供應商\n- **廢電池回收:** 廢電池/廢觸媒鈷鎳回收\n\n**中游 (製造):**\n- **美琪瑪** (PTA 觸媒/[[硫酸鈷]]/[[硫酸鎳]])\n- **[[美戶先進材料]]** (與[[Toda Kogyo]]合資，NCA/NCM 前驅體)\n\n**下游 (終端):**\n- **PTA 觸媒:** [[亞東石化]]、[[台化]]、[[遠東新世紀]] — PTA 製程\n- **電池材料:** [[住友金屬礦山]] → [[Panasonic]] → [[Tesla]] — [[鋰電池]]正極材料鏈",
+    "customers_suppliers_md": "### 主要客戶\n- **PTA 觸媒:** [[亞東石化]]、[[台化]]、[[遠東新世紀]]\n- **電池鏈:** [[住友金屬礦山]] → [[Panasonic]] → [[Tesla]]\n- **合資:** [[Toda Kogyo]] — [[美戶先進材料]]合資夥伴\n\n### 主要供應商\n- **鈷鎳:** 國際鈷鎳金屬供應商\n- **回收:** 廢電池/廢觸媒回收",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $63.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.03 |         N/A |      1.68 | 3.59 |     11.34 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2530.66 |      2121.65 |      2316.36 |\n| Gross Profit            |       463.10 |       415.06 |       234.07 |\n| Gross Margin (%)        |        18.30 |        19.56 |        10.10 |\n| Selling & Marketing Exp |        64.37 |        65.55 |        51.25 |\n| R&D Exp                 |        18.66 |        12.35 |        15.30 |\n| General & Admin Exp     |        78.76 |        72.21 |        56.30 |\n| Operating Income        |       301.31 |       264.95 |       111.21 |\n| Operating Margin (%)    |        11.91 |        12.49 |         4.80 |\n| Net Income              |       225.72 |       251.92 |       -24.54 |\n| Net Margin (%)          |         8.92 |        11.87 |        -1.06 |\n| Op Cash Flow            |       185.76 |       297.49 |       620.60 |\n| Investing Cash Flow     |       -46.30 |       -29.63 |       -62.21 |\n| Financing Cash Flow     |      -137.10 |        -1.02 |      -735.44 |\n| CAPEX                   |       -73.34 |       -38.60 |       -45.04 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       761.35 |       518.12 |       548.12 |       985.81 |\n| Gross Profit            |       195.35 |       132.53 |       105.79 |       122.75 |\n| Gross Margin (%)        |        25.66 |        25.58 |        19.30 |        12.45 |\n| Selling & Marketing Exp |        17.07 |        13.68 |        16.77 |        17.60 |\n| R&D Exp                 |         4.41 |         4.47 |         4.48 |         6.13 |\n| General & Admin Exp     |        20.66 |        21.09 |        20.11 |        17.36 |\n| Operating Income        |       153.21 |        93.29 |        64.42 |        81.65 |\n| Operating Margin (%)    |        20.12 |        18.01 |        11.75 |         8.28 |\n| Net Income              |       125.47 |        67.90 |        41.55 |        60.15 |\n| Net Margin (%)          |        16.48 |        13.10 |         7.58 |         6.10 |\n| Op Cash Flow            |       -14.69 |       -35.43 |       135.48 |       166.20 |\n| Investing Cash Flow     |       -92.73 |        48.61 |        -4.15 |       -85.36 |\n| Financing Cash Flow     |       133.35 |         5.78 |      -159.32 |      -135.25 |\n| CAPEX                   |       -91.07 |       -17.60 |       -18.72 |       -19.30 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

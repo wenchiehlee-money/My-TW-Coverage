@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5356",
+  "company_name": "協益",
+  "title": "5356 - 協益",
+  "source_md": "Pilot_Reports/醫療器材 - 電子零組件、塑化材料、五金零件/5356_協益.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "2,483 百萬台幣",
+    "enterprise_value": "1,714 百萬台幣"
+  },
+  "business": {
+    "summary": "協益電子 (5356，[[Sirtec]]) 主要從事 **電子產品組裝 (EMS)** 與 **塑膠射出成型**，為老牌電子代工廠。\n\n業務範疇：(1) **雷射印表機碳粉匣** — 為 [[Lexmark]] 代工製造碳粉匣與機構件，為傳統核心業務；(2) **網通/電子產品** — 為 [[Motorola]] 代工路由器等網通設備組裝；(3) **車用電子** — 車用音響面板、抬頭顯示器 ([[HUD]]) 相關零組件；(4) **消費電子** — [[Sony]] 等品牌電子產品代工；(5) **塑膠製品** — 3C 產品外殼、精密塑膠射出件；(6) **面板驅動板** — [[TFT-LCD]] Drive Card 組裝。主要工廠位於中國東莞及蘇州，以 EMS/ODM 模式服務國際品牌客戶。",
+    "entities": [
+      "Sirtec",
+      "Lexmark",
+      "Motorola",
+      "HUD",
+      "Sony",
+      "TFT-LCD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子材料與塑膠原料)",
+        "text": "**上游 (電子材料與塑膠原料):**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粒",
+        "text": "工程塑膠粒供應商 — 射出成型原料",
+        "entities": []
+      },
+      {
+        "category": "電子元件",
+        "text": "IC、[[PCB]]、被動元件",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "鋼材",
+        "text": "精密模具用鋼材",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (EMS 組裝與塑膠射出)",
+        "text": "**中游 (EMS 組裝與塑膠射出):**",
+        "entities": []
+      },
+      {
+        "category": "碳粉匣",
+        "text": "**協益** ([[Lexmark]] 雷射印表機碳粉匣代工)",
+        "entities": [
+          "Lexmark"
+        ]
+      },
+      {
+        "category": "網通組裝",
+        "text": "**協益** ([[Motorola]] 路由器/網通設備代工)",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "category": "車用零件",
+        "text": "**協益** (車用音響面板/[[HUD]] 零組件)",
+        "entities": [
+          "HUD"
+        ]
+      },
+      {
+        "category": "塑膠射出",
+        "text": "**協益** (3C 外殼/精密塑膠件)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (國際品牌客戶)",
+        "text": "**下游 (國際品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "印表機",
+        "text": "[[Lexmark]] — 雷射印表機碳粉匣/機構件",
+        "entities": [
+          "Lexmark"
+        ]
+      },
+      {
+        "category": "網通",
+        "text": "[[Motorola]] — 路由器/網通設備組裝",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "category": "消費電子",
+        "text": "[[Sony]] — 電子產品代工",
+        "entities": [
+          "Sony"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "車用音響與 [[HUD]] 系統品牌商",
+        "entities": [
+          "HUD"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "印表機",
+        "text": "[[Lexmark]] — 雷射印表機碳粉匣與機構件代工",
+        "entities": [
+          "Lexmark"
+        ]
+      },
+      {
+        "role": "網通",
+        "text": "[[Motorola]] — 路由器/網通設備 EMS 代工",
+        "entities": [
+          "Motorola"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "[[Sony]] — 電子產品代工",
+        "entities": [
+          "Sony"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "車用音響面板與 [[HUD]] 系統品牌商",
+        "entities": [
+          "HUD"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "塑膠粒",
+        "text": "工程塑膠粒供應商 — 射出成型原料",
+        "entities": []
+      },
+      {
+        "role": "電子元件",
+        "text": "IC/[[PCB]]/被動元件供應商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "鋼材",
+        "text": "精密模具用鋼材供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Sirtec",
+      "type": "international_company_or_term",
+      "wikilink": "Sirtec"
+    },
+    {
+      "name": "Lexmark",
+      "type": "international_company_or_term",
+      "wikilink": "Lexmark"
+    },
+    {
+      "name": "Motorola",
+      "type": "international_company_or_term",
+      "wikilink": "Motorola"
+    },
+    {
+      "name": "HUD",
+      "type": "international_company_or_term",
+      "wikilink": "HUD"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "TFT-LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT-LCD"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "協益電子 (5356，[[Sirtec]]) 主要從事 **電子產品組裝 (EMS)** 與 **塑膠射出成型**，為老牌電子代工廠。\n\n業務範疇：(1) **雷射印表機碳粉匣** — 為 [[Lexmark]] 代工製造碳粉匣與機構件，為傳統核心業務；(2) **網通/電子產品** — 為 [[Motorola]] 代工路由器等網通設備組裝；(3) **車用電子** — 車用音響面板、抬頭顯示器 ([[HUD]]) 相關零組件；(4) **消費電子** — [[Sony]] 等品牌電子產品代工；(5) **塑膠製品** — 3C 產品外殼、精密塑膠射出件；(6) **面板驅動板** — [[TFT-LCD]] Drive Card 組裝。主要工廠位於中國東莞及蘇州，以 EMS/ODM 模式服務國際品牌客戶。",
+    "supply_chain_md": "**上游 (電子材料與塑膠原料):**\n- **塑膠粒:** 工程塑膠粒供應商 — 射出成型原料\n- **電子元件:** IC、[[PCB]]、被動元件\n- **鋼材:** 精密模具用鋼材\n\n**中游 (EMS 組裝與塑膠射出):**\n- **碳粉匣:** **協益** ([[Lexmark]] 雷射印表機碳粉匣代工)\n- **網通組裝:** **協益** ([[Motorola]] 路由器/網通設備代工)\n- **車用零件:** **協益** (車用音響面板/[[HUD]] 零組件)\n- **塑膠射出:** **協益** (3C 外殼/精密塑膠件)\n\n**下游 (國際品牌客戶):**\n- **印表機:** [[Lexmark]] — 雷射印表機碳粉匣/機構件\n- **網通:** [[Motorola]] — 路由器/網通設備組裝\n- **消費電子:** [[Sony]] — 電子產品代工\n- **車用:** 車用音響與 [[HUD]] 系統品牌商",
+    "customers_suppliers_md": "### 主要客戶\n- **印表機:** [[Lexmark]] — 雷射印表機碳粉匣與機構件代工\n- **網通:** [[Motorola]] — 路由器/網通設備 EMS 代工\n- **消費電子:** [[Sony]] — 電子產品代工\n- **車用:** 車用音響面板與 [[HUD]] 系統品牌商\n\n### 主要供應商\n- **塑膠粒:** 工程塑膠粒供應商 — 射出成型原料\n- **電子元件:** IC/[[PCB]]/被動元件供應商\n- **鋼材:** 精密模具用鋼材供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $24.15 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     54.89 |         N/A |      0.76 | 0.55 |      6.92 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3354.98 |      3878.17 |      3320.74 |\n| Gross Profit            |       487.11 |       509.16 |       297.69 |\n| Gross Margin (%)        |        14.52 |        13.13 |         8.96 |\n| Selling & Marketing Exp |        52.33 |        50.33 |        54.12 |\n| R&D Exp                 |        18.14 |         0.00 |         3.43 |\n| General & Admin Exp     |       240.52 |       250.28 |       209.49 |\n| Operating Income        |       176.12 |       208.55 |        30.65 |\n| Operating Margin (%)    |         5.25 |         5.38 |         0.92 |\n| Net Income              |        45.82 |       222.57 |       564.67 |\n| Net Margin (%)          |         1.37 |         5.74 |        17.00 |\n| Op Cash Flow            |       198.42 |       585.82 |        84.70 |\n| Investing Cash Flow     |        48.02 |        11.85 |       228.15 |\n| Financing Cash Flow     |      -433.33 |      -326.00 |      -395.61 |\n| CAPEX                   |      -193.74 |       -86.05 |      -102.80 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       815.50 |       888.13 |       781.26 |       870.09 |\n| Gross Profit            |        89.87 |       170.96 |       112.95 |       113.34 |\n| Gross Margin (%)        |        11.02 |        19.25 |        14.46 |        13.03 |\n| Selling & Marketing Exp |        -2.72 |        29.56 |        14.12 |        11.36 |\n| R&D Exp                 |         5.39 |         4.20 |         4.36 |         4.19 |\n| General & Admin Exp     |        61.39 |        62.91 |        55.42 |        60.80 |\n| Operating Income        |        25.81 |        74.29 |        39.05 |        36.98 |\n| Operating Margin (%)    |         3.16 |         8.36 |         5.00 |         4.25 |\n| Net Income              |        29.68 |        93.79 |      -105.36 |        27.71 |\n| Net Margin (%)          |         3.64 |        10.56 |       -13.49 |         3.18 |\n| Op Cash Flow            |       -38.15 |        40.29 |       144.88 |        51.40 |\n| Investing Cash Flow     |       -25.36 |      -124.15 |       244.25 |       -46.73 |\n| Financing Cash Flow     |        37.99 |      -249.62 |      -113.83 |      -107.87 |\n| CAPEX                   |       -46.58 |       -81.91 |       -44.45 |       -20.81 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1617",
+  "company_name": "榮星",
+  "title": "1617 - 榮星",
+  "source_md": "Pilot_Reports/通信網路 - 線材/1617_榮星.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "2,572 百萬台幣",
+    "enterprise_value": "2,645 百萬台幣"
+  },
+  "business": {
+    "summary": "榮星電線 (1617，Jung Shing Wire) 為台灣[[漆包線]]產業龍頭，國內唯一線材應用最齊全之漆包線大廠。主要產品涵蓋一般漆包線、耐熱[[漆包線]]、特種漆包線、鍍錫銅線及電子線。裸銅線約佔成本 85%，向[[華榮]]、[[華新麗華]]、[[大亞]]等具煉銅能力之大廠採購。下游客戶涵蓋[[台達電]]、[[光寶科技]] (變壓器線圈)、[[東元電機]]、[[大同]] (馬達)、[[士林電機]] (車用/工業馬達)。",
+    "entities": [
+      "漆包線",
+      "華榮",
+      "華新麗華",
+      "大亞",
+      "台達電",
+      "光寶科技",
+      "東元電機",
+      "大同",
+      "士林電機"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "裸銅線 (佔 85%)",
+        "text": "[[華榮]]、[[華新麗華]]、[[大亞]] — 煉銅大廠",
+        "entities": [
+          "華榮",
+          "華新麗華",
+          "大亞"
+        ]
+      },
+      {
+        "category": "絕緣漆",
+        "text": "國內外化工廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**榮星** ([[漆包線]]龍頭：一般/耐熱/特種漆包線)",
+        "entities": [
+          "漆包線"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電源",
+        "text": "[[台達電]]、[[光寶科技]] — 變壓器線圈",
+        "entities": [
+          "台達電",
+          "光寶科技"
+        ]
+      },
+      {
+        "category": "馬達",
+        "text": "[[東元電機]]、[[大同]] — 壓縮機/工業馬達",
+        "entities": [
+          "東元電機",
+          "大同"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "[[士林電機]] — 車用馬達",
+        "entities": [
+          "士林電機"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電源",
+        "text": "[[台達電]]、[[光寶科技]] — 變壓器線圈",
+        "entities": [
+          "台達電",
+          "光寶科技"
+        ]
+      },
+      {
+        "role": "馬達",
+        "text": "[[東元電機]]、[[大同]]、[[士林電機]]",
+        "entities": [
+          "東元電機",
+          "大同",
+          "士林電機"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "裸銅線",
+        "text": "[[華榮]]、[[華新麗華]]、[[大亞]] (佔成本 85%)",
+        "entities": [
+          "華榮",
+          "華新麗華",
+          "大亞"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "漆包線",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漆包線"
+    },
+    {
+      "name": "華榮",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華榮"
+    },
+    {
+      "name": "華新麗華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華新麗華"
+    },
+    {
+      "name": "大亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大亞"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科技"
+    },
+    {
+      "name": "東元電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東元電機"
+    },
+    {
+      "name": "大同",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大同"
+    },
+    {
+      "name": "士林電機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "士林電機"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "榮星電線 (1617，Jung Shing Wire) 為台灣[[漆包線]]產業龍頭，國內唯一線材應用最齊全之漆包線大廠。主要產品涵蓋一般漆包線、耐熱[[漆包線]]、特種漆包線、鍍錫銅線及電子線。裸銅線約佔成本 85%，向[[華榮]]、[[華新麗華]]、[[大亞]]等具煉銅能力之大廠採購。下游客戶涵蓋[[台達電]]、[[光寶科技]] (變壓器線圈)、[[東元電機]]、[[大同]] (馬達)、[[士林電機]] (車用/工業馬達)。",
+    "supply_chain_md": "**上游 (原料):**\n- **裸銅線 (佔 85%):** [[華榮]]、[[華新麗華]]、[[大亞]] — 煉銅大廠\n- **絕緣漆:** 國內外化工廠\n\n**中游 (製造):**\n- **榮星** ([[漆包線]]龍頭：一般/耐熱/特種漆包線)\n\n**下游 (終端):**\n- **電源:** [[台達電]]、[[光寶科技]] — 變壓器線圈\n- **馬達:** [[東元電機]]、[[大同]] — 壓縮機/工業馬達\n- **車用:** [[士林電機]] — 車用馬達",
+    "customers_suppliers_md": "### 主要客戶\n- **電源:** [[台達電]]、[[光寶科技]] — 變壓器線圈\n- **馬達:** [[東元電機]]、[[大同]]、[[士林電機]]\n\n### 主要供應商\n- **裸銅線:** [[華榮]]、[[華新麗華]]、[[大亞]] (佔成本 85%)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     22.79 |         N/A |      0.70 | 1.15 |     23.22 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3363.15 |      3395.53 |      2827.09 |\n| Gross Profit            |       243.01 |       309.81 |       225.87 |\n| Gross Margin (%)        |         7.23 |         9.12 |         7.99 |\n| Selling & Marketing Exp |        48.92 |        46.98 |        45.13 |\n| R&D Exp                 |        17.95 |        28.06 |        17.16 |\n| General & Admin Exp     |       182.07 |       186.82 |       189.06 |\n| Operating Income        |        -5.94 |        47.95 |       -25.48 |\n| Operating Margin (%)    |        -0.18 |         1.41 |        -0.90 |\n| Net Income              |       115.39 |        89.74 |        14.68 |\n| Net Margin (%)          |         3.43 |         2.64 |         0.52 |\n| Op Cash Flow            |      -105.39 |       -48.34 |       152.19 |\n| Investing Cash Flow     |       329.69 |      -263.59 |      -189.31 |\n| Financing Cash Flow     |      -194.09 |        81.10 |        32.52 |\n| CAPEX                   |       -56.11 |       -83.64 |       -61.51 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       909.86 |       849.41 |       834.33 |       769.55 |\n| Gross Profit            |        61.28 |        59.27 |        58.52 |        63.93 |\n| Gross Margin (%)        |         6.74 |         6.98 |         7.01 |         8.31 |\n| Selling & Marketing Exp |        12.54 |        11.89 |        12.82 |        11.67 |\n| R&D Exp                 |         2.98 |         3.96 |         5.22 |         5.79 |\n| General & Admin Exp     |        50.66 |        41.05 |        43.47 |        46.90 |\n| Operating Income        |        -4.90 |         2.38 |        -2.99 |        -0.44 |\n| Operating Margin (%)    |        -0.54 |         0.28 |        -0.36 |        -0.06 |\n| Net Income              |       179.39 |        15.24 |       -58.75 |       -20.49 |\n| Net Margin (%)          |        19.72 |         1.79 |        -7.04 |        -2.66 |\n| Op Cash Flow            |       -34.00 |       -23.83 |       -36.90 |       -10.66 |\n| Investing Cash Flow     |        86.13 |        -2.70 |       107.56 |       138.69 |\n| Financing Cash Flow     |       -49.88 |      -134.72 |       -54.01 |        44.52 |\n| CAPEX                   |       -27.92 |       -10.79 |        -7.86 |        -9.54 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

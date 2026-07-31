@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3055",
+  "company_name": "蔚華科",
+  "title": "3055 - 蔚華科",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/3055_蔚華科.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "11,668 百萬台幣",
+    "enterprise_value": "10,835 百萬台幣"
+  },
+  "business": {
+    "summary": "蔚華科技 (3055) 是台灣專業的半導體設備通路商與技術服務商，代理全球領先設備品牌，提供測試、封裝、檢測及失效分析等整合解決方案。代理品牌包括 [[NI]]、[[Hamamatsu]]、[[Toray Engineering]]、[[TESCAN]]、[[SEMICS]]、[[ShibaSoku]] 等。公司成立於 1987 年，海外營收占 67% (以中國為主)，並建立亞太首座功率半導體動態可靠度驗證實驗室。",
+    "entities": [
+      "NI",
+      "Hamamatsu",
+      "Toray Engineering",
+      "TESCAN",
+      "SEMICS",
+      "ShibaSoku"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (設備原廠)",
+        "text": "**上游 (設備原廠):**",
+        "entities": []
+      },
+      {
+        "category": "測試設備",
+        "text": "[[NI]]、[[ShibaSoku]] ([[IGBT]] 測試)",
+        "entities": [
+          "NI",
+          "ShibaSoku",
+          "IGBT"
+        ]
+      },
+      {
+        "category": "檢測設備",
+        "text": "[[Hamamatsu]] (失效分析)、[[TESCAN]] (電子顯微鏡)",
+        "entities": [
+          "Hamamatsu",
+          "TESCAN"
+        ]
+      },
+      {
+        "category": "封裝設備",
+        "text": "[[Toray Engineering]] (AOI 光學檢測)、[[SEMICS]] ([[探針卡]])",
+        "entities": [
+          "Toray Engineering",
+          "SEMICS",
+          "探針卡"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備通路與服務)",
+        "text": "**中游 (設備通路與服務):**",
+        "entities": []
+      },
+      {
+        "category": "設備代理",
+        "text": "**蔚華** (半導體設備代理、技術服務及驗證實驗室)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體製造)",
+        "text": "**下游 (半導體製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工/IDM",
+        "text": "台灣及中國半導體製造廠",
+        "entities": []
+      },
+      {
+        "category": "封裝測試",
+        "text": "封測廠客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體製造",
+        "text": "台灣及中國晶圓代工、IDM 及封測廠",
+        "entities": []
+      },
+      {
+        "role": "功率半導體",
+        "text": "功率元件製造商 (可靠度驗證)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "測試",
+        "text": "[[NI]]、[[ShibaSoku]]",
+        "entities": [
+          "NI",
+          "ShibaSoku"
+        ]
+      },
+      {
+        "role": "檢測",
+        "text": "[[Hamamatsu]]、[[TESCAN]]、[[Toray Engineering]]",
+        "entities": [
+          "Hamamatsu",
+          "TESCAN",
+          "Toray Engineering"
+        ]
+      },
+      {
+        "role": "封裝",
+        "text": "[[SEMICS]]、[[AFORE]]、[[ERS]]、[[Osai]]",
+        "entities": [
+          "SEMICS",
+          "AFORE",
+          "ERS",
+          "Osai"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "NI",
+      "type": "international_company_or_term",
+      "wikilink": "NI"
+    },
+    {
+      "name": "Hamamatsu",
+      "type": "international_company_or_term",
+      "wikilink": "Hamamatsu"
+    },
+    {
+      "name": "Toray Engineering",
+      "type": "international_company_or_term",
+      "wikilink": "Toray Engineering"
+    },
+    {
+      "name": "TESCAN",
+      "type": "international_company_or_term",
+      "wikilink": "TESCAN"
+    },
+    {
+      "name": "SEMICS",
+      "type": "international_company_or_term",
+      "wikilink": "SEMICS"
+    },
+    {
+      "name": "ShibaSoku",
+      "type": "international_company_or_term",
+      "wikilink": "ShibaSoku"
+    },
+    {
+      "name": "IGBT",
+      "type": "technology",
+      "wikilink": "IGBT"
+    },
+    {
+      "name": "探針卡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "探針卡"
+    },
+    {
+      "name": "AFORE",
+      "type": "international_company_or_term",
+      "wikilink": "AFORE"
+    },
+    {
+      "name": "ERS",
+      "type": "international_company_or_term",
+      "wikilink": "ERS"
+    },
+    {
+      "name": "Osai",
+      "type": "international_company_or_term",
+      "wikilink": "Osai"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "蔚華科技 (3055) 是台灣專業的半導體設備通路商與技術服務商，代理全球領先設備品牌，提供測試、封裝、檢測及失效分析等整合解決方案。代理品牌包括 [[NI]]、[[Hamamatsu]]、[[Toray Engineering]]、[[TESCAN]]、[[SEMICS]]、[[ShibaSoku]] 等。公司成立於 1987 年，海外營收占 67% (以中國為主)，並建立亞太首座功率半導體動態可靠度驗證實驗室。",
+    "supply_chain_md": "**上游 (設備原廠):**\n- **測試設備:** [[NI]]、[[ShibaSoku]] ([[IGBT]] 測試)\n- **檢測設備:** [[Hamamatsu]] (失效分析)、[[TESCAN]] (電子顯微鏡)\n- **封裝設備:** [[Toray Engineering]] (AOI 光學檢測)、[[SEMICS]] ([[探針卡]])\n\n**中游 (設備通路與服務):**\n- **設備代理:** **蔚華** (半導體設備代理、技術服務及驗證實驗室)\n\n**下游 (半導體製造):**\n- **晶圓代工/IDM:** 台灣及中國半導體製造廠\n- **封裝測試:** 封測廠客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體製造:** 台灣及中國晶圓代工、IDM 及封測廠\n- **功率半導體:** 功率元件製造商 (可靠度驗證)\n\n### 主要供應商 (代理品牌)\n- **測試:** [[NI]]、[[ShibaSoku]]\n- **檢測:** [[Hamamatsu]]、[[TESCAN]]、[[Toray Engineering]]\n- **封裝:** [[SEMICS]]、[[AFORE]]、[[ERS]]、[[Osai]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $93.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |      -56.14 |     22.04 | 6.47 |    -48.02 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       459.21 |       673.27 |      1342.71 |\n| Gross Profit            |        74.10 |       137.76 |       238.42 |\n| Gross Margin (%)        |        16.14 |        20.46 |        17.76 |\n| Selling & Marketing Exp |       149.92 |       220.24 |       233.78 |\n| R&D Exp                 |        79.84 |        54.87 |        44.53 |\n| General & Admin Exp     |       153.18 |       153.50 |       120.99 |\n| Operating Income        |      -307.73 |      -291.00 |      -162.44 |\n| Operating Margin (%)    |       -67.01 |       -43.22 |       -12.10 |\n| Net Income              |      -302.97 |      -251.52 |       -56.09 |\n| Net Margin (%)          |       -65.98 |       -37.36 |        -4.18 |\n| Op Cash Flow            |      -201.08 |      -208.68 |       137.86 |\n| Investing Cash Flow     |       -27.75 |       551.44 |       615.00 |\n| Financing Cash Flow     |      -214.21 |      -574.12 |      -396.01 |\n| CAPEX                   |       -15.82 |       -13.25 |       -24.02 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        88.26 |       209.37 |        66.50 |        63.13 |\n| Gross Profit            |        14.86 |        51.75 |         5.71 |        14.46 |\n| Gross Margin (%)        |        16.83 |        24.72 |         8.59 |        22.90 |\n| Selling & Marketing Exp |        34.24 |        41.21 |        49.53 |        53.94 |\n| R&D Exp                 |        29.61 |        16.24 |        20.51 |        15.36 |\n| General & Admin Exp     |        58.98 |        25.72 |        42.00 |        61.16 |\n| Operating Income        |      -107.85 |       -30.41 |      -106.34 |      -116.00 |\n| Operating Margin (%)    |      -122.20 |       -14.52 |      -159.91 |      -183.74 |\n| Net Income              |      -107.40 |      -103.95 |       -74.71 |       -88.31 |\n| Net Margin (%)          |      -121.69 |       -49.65 |      -112.35 |      -139.89 |\n| Op Cash Flow            |      -109.56 |       -43.60 |       -39.89 |      -111.98 |\n| Investing Cash Flow     |         8.50 |        11.99 |       -47.60 |       226.41 |\n| Financing Cash Flow     |       -15.87 |       -96.11 |        24.68 |       -48.29 |\n| CAPEX                   |       -11.49 |        -1.03 |        -3.04 |        -5.51 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

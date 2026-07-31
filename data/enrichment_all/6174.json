@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6174",
+  "company_name": "安��",
+  "title": "6174_安��",
+  "source_md": "Pilot_Reports/被動元件 - 濾波器、振盪器/6174_安��.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,895 百萬台幣",
+    "enterprise_value": "2,032 百萬台幣"
+  },
+  "business": {
+    "summary": "安碁科技 (6174，[[AKER Technology]]) 成立於 1990 年，為專業頻率控制元件製造商，產品廣泛應用於[[電動車]]、[[5G]] 及[[工業電腦]]等領域。\n\n主要產品：(1) 石英晶體 (Crystal) — 各頻率石英諧振器；(2) 石英振盪器 (Oscillator) — 溫度補償振盪器 (TCXO)、壓控振盪器 (VCXO)、音叉型振盪器；(3) 石英濾波器。公司採「少量多樣」客製化策略，專注技術門檻較高的利基市場。產品應用以車用電子為最大宗 (占比逾五成)，其餘涵蓋工業控制、電腦消費性產品及[[網通]]設備，銷售遍及兩岸、歐美。同業競爭對手包括[[TXC]] (晶技) 及[[Siward]] (希華)。",
+    "entities": [
+      "AKER Technology",
+      "電動車",
+      "5G",
+      "工業電腦",
+      "網通",
+      "TXC",
+      "Siward"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原材料)",
+        "text": "**上游 (原材料):**",
+        "entities": []
+      },
+      {
+        "category": "石英晶棒",
+        "text": "人工石英晶棒供應商",
+        "entities": []
+      },
+      {
+        "category": "陶瓷基座",
+        "text": "陶瓷載板 (Package) 供應商",
+        "entities": []
+      },
+      {
+        "category": "金屬上蓋",
+        "text": "金屬封裝材料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (頻率元件製造)",
+        "text": "**中游 (頻率元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "石英晶體",
+        "text": "**安碁** (各頻率石英諧振器)",
+        "entities": []
+      },
+      {
+        "category": "振盪器",
+        "text": "**安碁** (TCXO/VCXO 石英振盪器)",
+        "entities": []
+      },
+      {
+        "category": "濾波器",
+        "text": "**安碁** (石英濾波器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "車用電子",
+        "text": "全球 Tier 1/Tier 2 車用電子廠 — 車規石英元件",
+        "entities": []
+      },
+      {
+        "category": "[[工業電腦]]",
+        "text": "工業控制設備商 — 工控用頻率元件",
+        "entities": [
+          "工業電腦"
+        ]
+      },
+      {
+        "category": "[[網通]]設備",
+        "text": "網通設備製造廠 — 通訊用石英元件",
+        "entities": [
+          "網通"
+        ]
+      },
+      {
+        "category": "消費性電子",
+        "text": "消費性產品代工廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用電子",
+        "text": "全球 Tier 1/Tier 2 車用電子供應商 — 車規石英晶體/振盪器",
+        "entities": []
+      },
+      {
+        "role": "[[工業電腦]]",
+        "text": "工控設備商 — 工控用頻率元件",
+        "entities": [
+          "工業電腦"
+        ]
+      },
+      {
+        "role": "[[網通]]設備",
+        "text": "網通設備製造廠 — 通訊用石英元件",
+        "entities": [
+          "網通"
+        ]
+      },
+      {
+        "role": "消費性電子",
+        "text": "消費性產品代工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石英晶棒",
+        "text": "人工石英晶棒供應商",
+        "entities": []
+      },
+      {
+        "role": "陶瓷基座",
+        "text": "陶瓷載板供應商",
+        "entities": []
+      },
+      {
+        "role": "封裝材料",
+        "text": "金屬上蓋與導電膠供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "text": "主要產品：(1) 石英晶體 (Crystal) — 各頻率石英諧振器；(2) 石英振盪器 (Oscillator) — 溫度補償振盪器 (TCXO)、壓控振盪器 (VCXO)、音叉型振盪器；(3) 石英濾波器。公司採「少量多樣」客製化策略，專注技術門檻較高的利基市場。產品應用以車用電子為最大宗 (占比逾五成)，其餘涵蓋工業控制、電腦消費性產品及[[網通]]設備，銷售遍及兩岸、歐美。同業競爭對手包括[[TXC]] (晶技) 及[[Siward]] (希華)。",
+        "entities": [
+          "網通",
+          "TXC",
+          "Siward"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "主要產品：(1) 石英晶體 (Crystal) — 各頻率石英諧振器；(2) 石英振盪器 (Oscillator) — 溫度補償振盪器 (TCXO)、壓控振盪器 (VCXO)、音叉型振盪器；(3) 石英濾波器。公司採「少量多樣」客製化策略，專注技術門檻較高的利基市場。產品應用以車用電子為最大宗 (占比逾五成)，其餘涵蓋工業控制、電腦消費性產品及[[網通]]設備，銷售遍及兩岸、歐美。同業競爭對手包括[[TXC]] (晶技) 及[[Siward]] (希華)。",
+        "entities": [
+          "網通",
+          "TXC",
+          "Siward"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AKER Technology",
+      "type": "international_company_or_term",
+      "wikilink": "AKER Technology"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "工業電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業電腦"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "TXC",
+      "type": "international_company_or_term",
+      "wikilink": "TXC"
+    },
+    {
+      "name": "Siward",
+      "type": "international_company_or_term",
+      "wikilink": "Siward"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "安碁科技 (6174，[[AKER Technology]]) 成立於 1990 年，為專業頻率控制元件製造商，產品廣泛應用於[[電動車]]、[[5G]] 及[[工業電腦]]等領域。\n\n主要產品：(1) 石英晶體 (Crystal) — 各頻率石英諧振器；(2) 石英振盪器 (Oscillator) — 溫度補償振盪器 (TCXO)、壓控振盪器 (VCXO)、音叉型振盪器；(3) 石英濾波器。公司採「少量多樣」客製化策略，專注技術門檻較高的利基市場。產品應用以車用電子為最大宗 (占比逾五成)，其餘涵蓋工業控制、電腦消費性產品及[[網通]]設備，銷售遍及兩岸、歐美。同業競爭對手包括[[TXC]] (晶技) 及[[Siward]] (希華)。",
+    "supply_chain_md": "**上游 (原材料):**\n- **石英晶棒:** 人工石英晶棒供應商\n- **陶瓷基座:** 陶瓷載板 (Package) 供應商\n- **金屬上蓋:** 金屬封裝材料供應商\n\n**中游 (頻率元件製造):**\n- **石英晶體:** **安碁** (各頻率石英諧振器)\n- **振盪器:** **安碁** (TCXO/VCXO 石英振盪器)\n- **濾波器:** **安碁** (石英濾波器)\n\n**下游 (終端應用):**\n- **車用電子:** 全球 Tier 1/Tier 2 車用電子廠 — 車規石英元件\n- **[[工業電腦]]:** 工業控制設備商 — 工控用頻率元件\n- **[[網通]]設備:** 網通設備製造廠 — 通訊用石英元件\n- **消費性電子:** 消費性產品代工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **車用電子:** 全球 Tier 1/Tier 2 車用電子供應商 — 車規石英晶體/振盪器\n- **[[工業電腦]]:** 工控設備商 — 工控用頻率元件\n- **[[網通]]設備:** 網通設備製造廠 — 通訊用石英元件\n- **消費性電子:** 消費性產品代工廠\n\n### 主要供應商\n- **石英晶棒:** 人工石英晶棒供應商\n- **陶瓷基座:** 陶瓷載板供應商\n- **封裝材料:** 金屬上蓋與導電膠供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $38.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     53.40 |         N/A |      3.03 | 2.90 |     20.56 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       611.01 |       466.96 |       465.31 |\n| Gross Profit            |       212.70 |       153.78 |       151.58 |\n| Gross Margin (%)        |        34.81 |        32.93 |        32.58 |\n| Selling & Marketing Exp |        55.98 |        58.81 |        50.48 |\n| R&D Exp                 |        43.04 |        36.94 |        35.36 |\n| General & Admin Exp     |        72.88 |        64.79 |        58.94 |\n| Operating Income        |        40.81 |        -6.76 |         6.80 |\n| Operating Margin (%)    |         6.68 |        -1.45 |         1.46 |\n| Net Income              |        33.08 |        37.26 |        14.30 |\n| Net Margin (%)          |         5.41 |         7.98 |         3.07 |\n| Op Cash Flow            |        19.43 |        27.69 |        63.24 |\n| Investing Cash Flow     |      -126.91 |       -22.99 |       -40.65 |\n| Financing Cash Flow     |       105.83 |       -26.53 |       -78.34 |\n| CAPEX                   |      -126.11 |       -51.81 |       -62.03 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       166.49 |       158.96 |       154.45 |       153.73 |\n| Gross Profit            |        56.97 |        55.50 |        52.01 |        56.62 |\n| Gross Margin (%)        |        34.22 |        34.91 |        33.67 |        36.83 |\n| Selling & Marketing Exp |        14.46 |        15.62 |        12.91 |        14.34 |\n| R&D Exp                 |         7.08 |         9.81 |        10.55 |        11.93 |\n| General & Admin Exp     |        18.59 |        19.83 |        19.75 |        15.33 |\n| Operating Income        |        16.83 |        10.24 |         8.80 |        15.03 |\n| Operating Margin (%)    |        10.11 |         6.44 |         5.70 |         9.78 |\n| Net Income              |        16.48 |        13.24 |        11.68 |        -5.40 |\n| Net Margin (%)          |         9.90 |         8.33 |         7.56 |        -3.51 |\n| Op Cash Flow            |        23.07 |        15.51 |        19.16 |        -3.32 |\n| Investing Cash Flow     |       -17.44 |       -53.77 |       -50.02 |       -17.39 |\n| Financing Cash Flow     |         3.17 |        34.02 |        11.83 |        22.37 |\n| CAPEX                   |       -45.79 |       -39.93 |       -50.77 |       -21.36 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3078",
+  "company_name": "僑威",
+  "title": "3078 - 僑威",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 電源供應器/3078_僑威.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "11,415 百萬台幣",
+    "enterprise_value": "6,522 百萬台幣"
+  },
+  "business": {
+    "summary": "僑威科技 (3078，Channelwell Technology / CWT) 為全球最大電競 PC 電源供應器代工廠，逾 30 年經驗。主要替全球電競品牌代工[[ATX 3.1]]中高階電源，客戶涵蓋[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]。垂直整合自製變壓器與線材。成長動能：(1) [[GPU]]功耗提升帶動大瓦數電源換機潮 (如[[NVIDIA]] [[RTX 5090]])；(2) 醫療電源；(3) 網通/伺服器 CRPS 電源。上游功率半導體來自[[Infineon]]、[[Onsemi]]，被動元件經銷自[[日電貿]]、[[國巨]]。另供應安控大廠[[海康威視]]。",
+    "entities": [
+      "ATX 3.1",
+      "Corsair",
+      "MSI",
+      "Cooler Master",
+      "華碩",
+      "Thermaltake",
+      "GPU",
+      "NVIDIA",
+      "RTX 5090",
+      "Infineon",
+      "Onsemi",
+      "日電貿",
+      "國巨",
+      "海康威視"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (元件)",
+        "text": "**上游 (元件):**",
+        "entities": []
+      },
+      {
+        "category": "功率半導體",
+        "text": "[[Infineon]]、[[Onsemi]] — [[MOSFET]]",
+        "entities": [
+          "Infineon",
+          "Onsemi",
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "被動元件",
+        "text": "[[日電貿]]、[[國巨]] — 電容等",
+        "entities": [
+          "日電貿",
+          "國巨"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**僑威** (電競/醫療/網通電源代工，高度垂直整合)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌)",
+        "text": "**下游 (品牌):**",
+        "entities": []
+      },
+      {
+        "category": "電競",
+        "text": "[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]] — [[ATX 3.1]]電源",
+        "entities": [
+          "Corsair",
+          "MSI",
+          "Cooler Master",
+          "華碩",
+          "Thermaltake",
+          "ATX 3.1"
+        ]
+      },
+      {
+        "category": "安控",
+        "text": "[[海康威視]] — 電源供應",
+        "entities": [
+          "海康威視"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電競品牌",
+        "text": "[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]",
+        "entities": [
+          "Corsair",
+          "MSI",
+          "Cooler Master",
+          "華碩",
+          "Thermaltake"
+        ]
+      },
+      {
+        "role": "安控",
+        "text": "[[海康威視]]",
+        "entities": [
+          "海康威視"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "功率IC",
+        "text": "[[Infineon]]、[[Onsemi]]",
+        "entities": [
+          "Infineon",
+          "Onsemi"
+        ]
+      },
+      {
+        "role": "被動元件",
+        "text": "[[日電貿]]、[[國巨]]",
+        "entities": [
+          "日電貿",
+          "國巨"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ATX 3.1",
+      "type": "international_company_or_term",
+      "wikilink": "ATX 3.1"
+    },
+    {
+      "name": "Corsair",
+      "type": "international_company_or_term",
+      "wikilink": "Corsair"
+    },
+    {
+      "name": "MSI",
+      "type": "international_company_or_term",
+      "wikilink": "MSI"
+    },
+    {
+      "name": "Cooler Master",
+      "type": "international_company_or_term",
+      "wikilink": "Cooler Master"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "Thermaltake",
+      "type": "international_company_or_term",
+      "wikilink": "Thermaltake"
+    },
+    {
+      "name": "GPU",
+      "type": "international_company_or_term",
+      "wikilink": "GPU"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "RTX 5090",
+      "type": "international_company_or_term",
+      "wikilink": "RTX 5090"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "Onsemi",
+      "type": "international_company_or_term",
+      "wikilink": "Onsemi"
+    },
+    {
+      "name": "日電貿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日電貿"
+    },
+    {
+      "name": "國巨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國巨"
+    },
+    {
+      "name": "海康威視",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海康威視"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "僑威科技 (3078，Channelwell Technology / CWT) 為全球最大電競 PC 電源供應器代工廠，逾 30 年經驗。主要替全球電競品牌代工[[ATX 3.1]]中高階電源，客戶涵蓋[[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]。垂直整合自製變壓器與線材。成長動能：(1) [[GPU]]功耗提升帶動大瓦數電源換機潮 (如[[NVIDIA]] [[RTX 5090]])；(2) 醫療電源；(3) 網通/伺服器 CRPS 電源。上游功率半導體來自[[Infineon]]、[[Onsemi]]，被動元件經銷自[[日電貿]]、[[國巨]]。另供應安控大廠[[海康威視]]。",
+    "supply_chain_md": "**上游 (元件):**\n- **功率半導體:** [[Infineon]]、[[Onsemi]] — [[MOSFET]]\n- **被動元件:** [[日電貿]]、[[國巨]] — 電容等\n\n**中游 (製造):**\n- **僑威** (電競/醫療/網通電源代工，高度垂直整合)\n\n**下游 (品牌):**\n- **電競:** [[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]] — [[ATX 3.1]]電源\n- **安控:** [[海康威視]] — 電源供應",
+    "customers_suppliers_md": "### 主要客戶\n- **電競品牌:** [[Corsair]]、[[MSI]]、[[Cooler Master]]、[[華碩]]、[[Thermaltake]]\n- **安控:** [[海康威視]]\n\n### 主要供應商\n- **功率IC:** [[Infineon]]、[[Onsemi]]\n- **被動元件:** [[日電貿]]、[[國巨]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $49.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.23 |         N/A |      1.28 | 1.68 |      4.32 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     10009.79 |      8616.57 |     10889.87 |\n| Gross Profit            |      2574.70 |      2092.23 |      2679.25 |\n| Gross Margin (%)        |        25.72 |        24.28 |        24.60 |\n| Selling & Marketing Exp |       184.86 |       157.59 |       182.73 |\n| R&D Exp                 |       292.85 |       282.04 |       262.38 |\n| General & Admin Exp     |       401.94 |       410.67 |       401.19 |\n| Operating Income        |      1695.05 |      1241.93 |      1832.96 |\n| Operating Margin (%)    |        16.93 |        14.41 |        16.83 |\n| Net Income              |      1379.34 |      1278.57 |      1544.76 |\n| Net Margin (%)          |        13.78 |        14.84 |        14.19 |\n| Op Cash Flow            |      1882.53 |      1727.34 |      1546.20 |\n| Investing Cash Flow     |      -915.36 |      -104.89 |      1515.44 |\n| Financing Cash Flow     |      -909.34 |     -2350.99 |      -994.80 |\n| CAPEX                   |      -144.54 |      -224.09 |      -252.64 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1696.61 |      1736.29 |      2306.05 |      3129.10 |\n| Gross Profit            |       348.75 |       416.61 |       578.31 |       860.50 |\n| Gross Margin (%)        |        20.56 |        23.99 |        25.08 |        27.50 |\n| Selling & Marketing Exp |        37.64 |        44.97 |        44.80 |        51.28 |\n| R&D Exp                 |        77.47 |        71.52 |        71.51 |        75.02 |\n| General & Admin Exp     |        86.31 |        89.98 |        96.10 |       107.73 |\n| Operating Income        |       147.34 |       210.13 |       365.90 |       626.48 |\n| Operating Margin (%)    |         8.68 |        12.10 |        15.87 |        20.02 |\n| Net Income              |       163.36 |       248.79 |       338.25 |       371.02 |\n| Net Margin (%)          |         9.63 |        14.33 |        14.67 |        11.86 |\n| Op Cash Flow            |       160.68 |       394.29 |       403.04 |       482.01 |\n| Investing Cash Flow     |       372.76 |       -94.97 |      -588.31 |        -8.37 |\n| Financing Cash Flow     |         0.16 |      -908.63 |         0.17 |        -0.46 |\n| CAPEX                   |       -40.47 |       -55.89 |       -30.48 |       -31.58 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

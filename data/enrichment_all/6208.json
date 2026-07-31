@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6208",
+  "company_name": "日揚",
+  "title": "6208_日揚",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/6208_日揚.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "7,519 百萬台幣",
+    "enterprise_value": "9,795 百萬台幣"
+  },
+  "business": {
+    "summary": "日揚科技 (6208，Htc Vacuum) 為台灣真空技術領域龍頭，半導體/光電產業基礎設施硬體夥伴。四大業務：(1) 真空腔體/零組件製造；(2) 真空幫浦代理與維修；(3) 尾氣處理設備 (Scrubber，自主開發 Microwave Plasma Scrubber，全氟碳化物處理效率達 99.9%)；(4) 半導體精密零組件清洗再生服務 (子公司德揚科技)。[[台積電]]為最大客戶 (營收佔比逾 20%)，另供應[[聯電]]。面板客戶涵蓋[[群創]]、[[友達]]。國際設備廠客戶含[[Applied Materials]]。",
+    "entities": [
+      "台積電",
+      "聯電",
+      "群創",
+      "友達",
+      "Applied Materials"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊金屬",
+        "text": "不鏽鋼/碳鋼/鋁等特殊金屬",
+        "entities": []
+      },
+      {
+        "category": "真空零件",
+        "text": "國際真空設備原廠零件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造與服務)",
+        "text": "**中游 (製造與服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**日揚** (真空腔體製造/真空幫浦維修/Scrubber 尾氣處理/零件清洗再生)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]] (最大客戶，佔營收 20%+)、[[聯電]]",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "面板",
+        "text": "[[群創]]、[[友達]]",
+        "entities": [
+          "群創",
+          "友達"
+        ]
+      },
+      {
+        "category": "國際設備",
+        "text": "[[Applied Materials]]",
+        "entities": [
+          "Applied Materials"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]] (最大，佔 20%+)、[[聯電]] — 真空設備/Scrubber/清洗",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "[[群創]]、[[友達]]",
+        "entities": [
+          "群創",
+          "友達"
+        ]
+      },
+      {
+        "role": "設備廠",
+        "text": "[[Applied Materials]]",
+        "entities": [
+          "Applied Materials"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬",
+        "text": "特殊金屬材料",
+        "entities": []
+      },
+      {
+        "role": "真空零件",
+        "text": "國際真空設備原廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "日揚科技 (6208，Htc Vacuum) 為台灣真空技術領域龍頭，半導體/光電產業基礎設施硬體夥伴。四大業務：(1) 真空腔體/零組件製造；(2) 真空幫浦代理與維修；(3) 尾氣處理設備 (Scrubber，自主開發 Microwave Plasma Scrubber，全氟碳化物處理效率達 99.9%)；(4) 半導體精密零組件清洗再生服務 (子公司德揚科技)。[[台積電]]為最大客戶 (營收佔比逾 20%)，另供應[[聯電]]。面板客戶涵蓋[[群創]]、[[友達]]。國際設備廠客戶含[[Applied Materials]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **特殊金屬:** 不鏽鋼/碳鋼/鋁等特殊金屬\n- **真空零件:** 國際真空設備原廠零件\n\n**中游 (製造與服務):**\n- **日揚** (真空腔體製造/真空幫浦維修/Scrubber 尾氣處理/零件清洗再生)\n\n**下游 (終端):**\n- **半導體:** [[台積電]] (最大客戶，佔營收 20%+)、[[聯電]]\n- **面板:** [[群創]]、[[友達]]\n- **國際設備:** [[Applied Materials]]",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]] (最大，佔 20%+)、[[聯電]] — 真空設備/Scrubber/清洗\n- **面板:** [[群創]]、[[友達]]\n- **設備廠:** [[Applied Materials]]\n\n### 主要供應商\n- **金屬:** 特殊金屬材料\n- **真空零件:** 國際真空設備原廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $79.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     20.98 |         N/A |      2.04 | 2.41 |     18.02 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3753.65 |      3934.27 |      4205.44 |\n| Gross Profit            |      1251.24 |      1359.80 |      1437.54 |\n| Gross Margin (%)        |        33.33 |        34.56 |        34.18 |\n| Selling & Marketing Exp |       304.54 |       300.36 |       314.92 |\n| R&D Exp                 |       206.57 |       221.26 |       229.47 |\n| General & Admin Exp     |       375.12 |       383.01 |       333.10 |\n| Operating Income        |       365.01 |       455.17 |       559.13 |\n| Operating Margin (%)    |         9.72 |        11.57 |        13.30 |\n| Net Income              |       238.24 |       323.32 |       356.99 |\n| Net Margin (%)          |         6.35 |         8.22 |         8.49 |\n| Op Cash Flow            |       357.38 |       533.87 |         9.08 |\n| Investing Cash Flow     |      -345.56 |      -277.37 |      -559.47 |\n| Financing Cash Flow     |      -267.64 |       162.88 |       698.19 |\n| CAPEX                   |      -214.95 |      -246.39 |      -593.94 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       752.83 |      1043.08 |       968.78 |       898.83 |\n| Gross Profit            |       252.90 |       349.14 |       305.26 |       295.75 |\n| Gross Margin (%)        |        33.59 |        33.47 |        31.51 |        32.90 |\n| Selling & Marketing Exp |        71.84 |        87.76 |        78.11 |        68.43 |\n| R&D Exp                 |        34.47 |        53.00 |        55.54 |        49.27 |\n| General & Admin Exp     |        86.24 |       100.56 |        95.40 |        88.84 |\n| Operating Income        |        60.34 |       107.81 |        76.21 |        89.22 |\n| Operating Margin (%)    |         8.02 |        10.34 |         7.87 |         9.93 |\n| Net Income              |       179.72 |        70.13 |        36.38 |        72.91 |\n| Net Margin (%)          |        23.87 |         6.72 |         3.76 |         8.11 |\n| Op Cash Flow            |       126.46 |       337.50 |      -125.37 |       140.82 |\n| Investing Cash Flow     |      -402.73 |      -200.31 |       -44.36 |       -16.16 |\n| Financing Cash Flow     |       -58.67 |      -158.76 |      -126.59 |        25.45 |\n| CAPEX                   |       -27.08 |       -58.83 |       -36.52 |       -35.62 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4711",
+  "company_name": "永純",
+  "title": "4711 - 永純",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 接著劑(合成樹脂)/4711_永純.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "943 百萬台幣",
+    "enterprise_value": "517 百萬台幣"
+  },
+  "business": {
+    "summary": "永純化學工業 (4711，Yong Shun Chemical) 專注[[不飽和聚酯樹脂]] (UP Resin)、聚酯多元醇及[[FRP]] (玻璃纖維強化塑膠) 製品，FRP 生產逾 50 年歷史。與日本[[富士樹脂]]及[[富洋樹脂工業]]技術合作。FRP 化學儲槽為核心產品，供應半導體建廠 (如[[台積電]]、[[聯電]]等晶圓廠之廢液/化學品儲槽)、化工廠及污水處理廠之耐腐蝕設備需求。下游樹脂客戶涵蓋塗料、膠帶、鞋材及建材廠。上游石化原料 (苯酐/順酐/乙二醇) 來自[[南亞塑膠]]及[[台灣中油]]。",
+    "entities": [
+      "不飽和聚酯樹脂",
+      "FRP",
+      "富士樹脂",
+      "富洋樹脂工業",
+      "台積電",
+      "聯電",
+      "南亞塑膠",
+      "台灣中油"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與技術)",
+        "text": "**上游 (原料與技術):**",
+        "entities": []
+      },
+      {
+        "category": "石化原料",
+        "text": "[[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐/乙二醇",
+        "entities": [
+          "南亞塑膠",
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "技術合作",
+        "text": "[[富士樹脂]]、[[富洋樹脂工業]] (日本)",
+        "entities": [
+          "富士樹脂",
+          "富洋樹脂工業"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**永純** ([[不飽和聚酯樹脂]]/聚酯多元醇/[[FRP]]化學儲槽)",
+        "entities": [
+          "不飽和聚酯樹脂",
+          "FRP"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體建廠",
+        "text": "[[台積電]]、[[聯電]] — FRP 廢液/化學品儲槽",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "化工/環保",
+        "text": "化工廠/污水處理廠 — 耐腐蝕 FRP 設備",
+        "entities": []
+      },
+      {
+        "category": "樹脂加工",
+        "text": "塗料/膠帶/鞋材/建材廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[聯電]] — FRP 化學儲槽 (建廠需求)",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "化工/環保",
+        "text": "化工廠/污水處理廠 — 耐腐蝕 FRP",
+        "entities": []
+      },
+      {
+        "role": "樹脂加工",
+        "text": "塗料/膠帶/鞋材/建材廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化",
+        "text": "[[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐",
+        "entities": [
+          "南亞塑膠",
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "技術",
+        "text": "[[富士樹脂]]、[[富洋樹脂工業]] (日本)",
+        "entities": [
+          "富士樹脂",
+          "富洋樹脂工業"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "不飽和聚酯樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不飽和聚酯樹脂"
+    },
+    {
+      "name": "FRP",
+      "type": "international_company_or_term",
+      "wikilink": "FRP"
+    },
+    {
+      "name": "富士樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富士樹脂"
+    },
+    {
+      "name": "富洋樹脂工業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富洋樹脂工業"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "永純化學工業 (4711，Yong Shun Chemical) 專注[[不飽和聚酯樹脂]] (UP Resin)、聚酯多元醇及[[FRP]] (玻璃纖維強化塑膠) 製品，FRP 生產逾 50 年歷史。與日本[[富士樹脂]]及[[富洋樹脂工業]]技術合作。FRP 化學儲槽為核心產品，供應半導體建廠 (如[[台積電]]、[[聯電]]等晶圓廠之廢液/化學品儲槽)、化工廠及污水處理廠之耐腐蝕設備需求。下游樹脂客戶涵蓋塗料、膠帶、鞋材及建材廠。上游石化原料 (苯酐/順酐/乙二醇) 來自[[南亞塑膠]]及[[台灣中油]]。",
+    "supply_chain_md": "**上游 (原料與技術):**\n- **石化原料:** [[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐/乙二醇\n- **技術合作:** [[富士樹脂]]、[[富洋樹脂工業]] (日本)\n\n**中游 (製造):**\n- **永純** ([[不飽和聚酯樹脂]]/聚酯多元醇/[[FRP]]化學儲槽)\n\n**下游 (終端):**\n- **半導體建廠:** [[台積電]]、[[聯電]] — FRP 廢液/化學品儲槽\n- **化工/環保:** 化工廠/污水處理廠 — 耐腐蝕 FRP 設備\n- **樹脂加工:** 塗料/膠帶/鞋材/建材廠",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]、[[聯電]] — FRP 化學儲槽 (建廠需求)\n- **化工/環保:** 化工廠/污水處理廠 — 耐腐蝕 FRP\n- **樹脂加工:** 塗料/膠帶/鞋材/建材廠\n\n### 主要供應商\n- **石化:** [[南亞塑膠]]、[[台灣中油]] — 苯酐/順酐\n- **技術:** [[富士樹脂]]、[[富洋樹脂工業]] (日本)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     41.76 |         N/A |      1.28 | 0.91 |     13.75 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       729.03 |       763.39 |       768.73 |\n| Gross Profit            |        88.27 |        86.05 |       100.94 |\n| Gross Margin (%)        |        12.11 |        11.27 |        13.13 |\n| Selling & Marketing Exp |        32.74 |        34.56 |        33.75 |\n| R&D Exp                 |         8.81 |         7.18 |         5.57 |\n| General & Admin Exp     |        39.62 |        38.91 |        40.62 |\n| Operating Income        |         7.10 |         5.41 |        21.01 |\n| Operating Margin (%)    |         0.97 |         0.71 |         2.73 |\n| Net Income              |         9.31 |         5.81 |        18.38 |\n| Net Margin (%)          |         1.28 |         0.76 |         2.39 |\n| Op Cash Flow            |        86.97 |        38.86 |        71.64 |\n| Investing Cash Flow     |        -9.21 |       -24.62 |       -35.63 |\n| Financing Cash Flow     |       -46.28 |       -16.65 |        -9.44 |\n| CAPEX                   |        -9.06 |       -11.58 |       -35.27 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       187.91 |       187.61 |       189.88 |       173.71 |\n| Gross Profit            |        35.08 |        27.42 |        24.17 |        19.20 |\n| Gross Margin (%)        |        18.67 |        14.61 |        12.73 |        11.06 |\n| Selling & Marketing Exp |         8.53 |         8.19 |         7.94 |         8.00 |\n| R&D Exp                 |         1.93 |         2.52 |         3.06 |         1.64 |\n| General & Admin Exp     |         9.86 |        10.49 |         9.55 |        10.33 |\n| Operating Income        |        14.77 |         6.22 |         3.63 |        -0.76 |\n| Operating Margin (%)    |         7.86 |         3.32 |         1.91 |        -0.44 |\n| Net Income              |        14.18 |         2.15 |         6.80 |        -0.25 |\n| Net Margin (%)          |         7.54 |         1.15 |         3.58 |        -0.14 |\n| Op Cash Flow            |        21.71 |        30.58 |        22.40 |        15.90 |\n| Investing Cash Flow     |        -0.55 |        -2.21 |        -0.64 |        -0.80 |\n| Financing Cash Flow     |       -30.60 |        17.84 |       -41.67 |        -3.13 |\n| CAPEX                   |        -1.10 |        -2.16 |        -0.64 |        -0.75 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

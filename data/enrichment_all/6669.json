@@ -1,0 +1,345 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6669",
+  "company_name": "緯穎",
+  "title": "6669_緯穎",
+  "source_md": "Pilot_Reports/人工智慧 - 運算設備/6669_緯穎.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "2,862,877 百萬台幣",
+    "enterprise_value": "990,294 百萬台幣"
+  },
+  "business": {
+    "summary": "[[緯穎科技]] (6669) 隸屬於[[緯創]] (3231) 集團，是全球超大型資料中心 (Hyperscale Data Center) 及雲端基礎架構解決方案的領導廠商。緯穎專注於雲端伺服器與儲存設備的設計與製造，並採用原廠直銷 (ODM-Direct) 的創新商業模式，跳過傳統品牌商，直接為雲端運算巨頭客製化設計機架式 (Rack-level) 巨型伺服器系統。身為開放運算計畫 ([[OCP]]) 的白金會員，緯穎致力於打造高運算效能、低總體擁有成本且高能源效率的綠色資料中心。隨著生成式 AI 爆發，緯穎積極搶攻 [[AI 伺服器]]商機，涵蓋 [[GPU]]、[[ASIC]] 等多元架構，穩居全球雲端伺服器市場的核心地位。",
+    "entities": [
+      "緯穎科技",
+      "緯創",
+      "OCP",
+      "AI 伺服器",
+      "GPU",
+      "ASIC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (核心零組件)",
+        "text": "**上游 (核心零組件):**",
+        "entities": []
+      },
+      {
+        "category": "AI 處理器",
+        "text": "[[NVIDIA]] (GPU)、[[AMD]]、[[Intel]]、客製化 [[ASIC]] 晶片",
+        "entities": [
+          "NVIDIA",
+          "AMD",
+          "Intel",
+          "ASIC"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[三星電子]]、[[SK 海力士]]、[[Micron]] — [[HBM]]、[[DRAM]]、SSD",
+        "entities": [
+          "三星電子",
+          "SK 海力士",
+          "Micron",
+          "HBM",
+          "DRAM"
+        ]
+      },
+      {
+        "category": "散熱模組",
+        "text": "氣冷/[[液冷]]散熱系統供應商",
+        "entities": [
+          "液冷"
+        ]
+      },
+      {
+        "category": "電源/機殼",
+        "text": "伺服器電源供應器及高階 [[PCB]] 板",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (雲端伺服器 ODM Direct)",
+        "text": "**中游 (雲端伺服器 ODM Direct):**",
+        "entities": []
+      },
+      {
+        "category": "系統設計",
+        "text": "**緯穎科技** (超大型雲端[[資料中心]]伺服器架構設計)",
+        "entities": [
+          "資料中心"
+        ]
+      },
+      {
+        "category": "系統製造",
+        "text": "**緯穎科技** (主機板製造與整機櫃 Rack 組裝測試)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球超大型 CSP)",
+        "text": "**下游 (全球超大型 CSP):**",
+        "entities": []
+      },
+      {
+        "category": "社群平台",
+        "text": "[[Meta]] — 最大單一客戶，佔營收逾五成",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[Microsoft]]、[[Amazon]] (AWS) — [[AI 伺服器]]大單",
+        "entities": [
+          "Microsoft",
+          "Amazon",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "主權 AI",
+        "text": "新興主權 AI 業者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "社群平台",
+        "text": "[[Meta]] — 最大單一客戶，佔營收逾五成",
+        "entities": [
+          "Meta"
+        ]
+      },
+      {
+        "role": "雲端平台",
+        "text": "[[Microsoft]]、[[Amazon]] (AWS) — AI 伺服器加速擴增",
+        "entities": [
+          "Microsoft",
+          "Amazon"
+        ]
+      },
+      {
+        "role": "主權 AI",
+        "text": "新興主權 AI 業者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "AI 處理器",
+        "text": "[[NVIDIA]]、[[AMD]]、[[Intel]] — GPU/CPU 等核心晶片",
+        "entities": [
+          "NVIDIA",
+          "AMD",
+          "Intel"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[三星電子]]、[[SK 海力士]]、[[Micron]] — [[HBM]]/DRAM/SSD",
+        "entities": [
+          "三星電子",
+          "SK 海力士",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "role": "散熱/電源",
+        "text": "台系頂級伺服器散熱與電源零組件供應鏈",
+        "entities": []
+      },
+      {
+        "role": "母集團",
+        "text": "[[緯創]] (3231) — 製造能量與策略協同",
+        "entities": [
+          "緯創"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "AI伺服器同業",
+        "text": "[[廣達]]、[[鴻海]]、[[緯創]]、[[英業達]]、[[Supermicro]]、[[Dell]]、[[HPE]]",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "緯創",
+          "英業達",
+          "Supermicro",
+          "Dell",
+          "HPE"
+        ],
+        "basis": "curated_server_peer_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "緯穎科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯穎科技"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "OCP",
+      "type": "international_company_or_term",
+      "wikilink": "OCP"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "GPU",
+      "type": "international_company_or_term",
+      "wikilink": "GPU"
+    },
+    {
+      "name": "ASIC",
+      "type": "international_company_or_term",
+      "wikilink": "ASIC"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "三星電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三星電子"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "DRAM",
+      "type": "technology",
+      "wikilink": "DRAM"
+    },
+    {
+      "name": "液冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "液冷"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "Supermicro",
+      "type": "international_company_or_term",
+      "wikilink": "Supermicro"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HPE",
+      "type": "international_company_or_term",
+      "wikilink": "HPE"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[緯穎科技]] (6669) 隸屬於[[緯創]] (3231) 集團，是全球超大型資料中心 (Hyperscale Data Center) 及雲端基礎架構解決方案的領導廠商。緯穎專注於雲端伺服器與儲存設備的設計與製造，並採用原廠直銷 (ODM-Direct) 的創新商業模式，跳過傳統品牌商，直接為雲端運算巨頭客製化設計機架式 (Rack-level) 巨型伺服器系統。身為開放運算計畫 ([[OCP]]) 的白金會員，緯穎致力於打造高運算效能、低總體擁有成本且高能源效率的綠色資料中心。隨著生成式 AI 爆發，緯穎積極搶攻 [[AI 伺服器]]商機，涵蓋 [[GPU]]、[[ASIC]] 等多元架構，穩居全球雲端伺服器市場的核心地位。",
+    "supply_chain_md": "**上游 (核心零組件):**\n- **AI 處理器:** [[NVIDIA]] (GPU)、[[AMD]]、[[Intel]]、客製化 [[ASIC]] 晶片\n- **記憶體:** [[三星電子]]、[[SK 海力士]]、[[Micron]] — [[HBM]]、[[DRAM]]、SSD\n- **散熱模組:** 氣冷/[[液冷]]散熱系統供應商\n- **電源/機殼:** 伺服器電源供應器及高階 [[PCB]] 板\n\n**中游 (雲端伺服器 ODM Direct):**\n- **系統設計:** **緯穎科技** (超大型雲端[[資料中心]]伺服器架構設計)\n- **系統製造:** **緯穎科技** (主機板製造與整機櫃 Rack 組裝測試)\n\n**下游 (全球超大型 CSP):**\n- **社群平台:** [[Meta]] — 最大單一客戶，佔營收逾五成\n- **雲端平台:** [[Microsoft]]、[[Amazon]] (AWS) — [[AI 伺服器]]大單\n- **主權 AI:** 新興主權 AI 業者",
+    "customers_suppliers_md": "### 主要客戶\n- **社群平台:** [[Meta]] — 最大單一客戶，佔營收逾五成\n- **雲端平台:** [[Microsoft]]、[[Amazon]] (AWS) — AI 伺服器加速擴增\n- **主權 AI:** 新興主權 AI 業者\n\n### 主要供應商\n- **AI 處理器:** [[NVIDIA]]、[[AMD]]、[[Intel]] — GPU/CPU 等核心晶片\n- **記憶體:** [[三星電子]]、[[SK 海力士]]、[[Micron]] — [[HBM]]/DRAM/SSD\n- **散熱/電源:** 台系頂級伺服器散熱與電源零組件供應鏈\n- **母集團:** [[緯創]] (3231) — 製造能量與策略協同",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $4,900.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.01 |        9.76 |      2.59 | 6.50 |     13.24 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    950663.31 |    360541.10 |    241900.99 |\n| Gross Profit            |     78454.02 |     37400.41 |     22657.28 |\n| Gross Margin (%)        |         8.25 |        10.37 |         9.37 |\n| Selling & Marketing Exp |      1768.02 |      1269.54 |      1053.54 |\n| R&D Exp                 |      9417.89 |      6043.88 |      4018.82 |\n| General & Admin Exp     |      3361.12 |      1977.55 |      1722.19 |\n| Operating Income        |     63907.00 |     28109.43 |     15862.73 |\n| Operating Margin (%)    |         6.72 |         7.80 |         6.56 |\n| Net Income              |     51118.16 |     22776.17 |     12043.66 |\n| Net Margin (%)          |         5.38 |         6.32 |         4.98 |\n| Op Cash Flow            |      -624.48 |    -19993.26 |     23060.42 |\n| Investing Cash Flow     |    -13766.15 |     -5654.65 |     -4695.65 |\n| Financing Cash Flow     |     56187.79 |     36315.56 |     -7114.51 |\n| CAPEX                   |    -13932.40 |     -5107.39 |     -4999.38 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    276507.73 |    292440.48 |    266824.04 |    220743.50 |\n| Gross Profit            |     20881.17 |     21129.47 |     23531.64 |     18943.44 |\n| Gross Margin (%)        |         7.55 |         7.23 |         8.82 |         8.58 |\n| Selling & Marketing Exp |       586.36 |       413.34 |       399.82 |       484.86 |\n| R&D Exp                 |      2047.94 |      3164.33 |      2825.75 |      1848.75 |\n| General & Admin Exp     |       785.99 |      1091.09 |       731.69 |       964.67 |\n| Operating Income        |     17460.87 |     16460.70 |     19574.38 |     15645.16 |\n| Operating Margin (%)    |         6.31 |         5.63 |         7.34 |         7.09 |\n| Net Income              |     14114.41 |     13791.51 |     15410.91 |     12122.37 |\n| Net Margin (%)          |         5.10 |         4.72 |         5.78 |         5.49 |\n| Op Cash Flow            |    -16154.19 |     12361.87 |      3847.44 |      9026.54 |\n| Investing Cash Flow     |     -5043.45 |     -5072.35 |     -2105.06 |     -4159.50 |\n| Financing Cash Flow     |      1930.65 |     29368.10 |     -9625.00 |      9476.81 |\n| CAPEX                   |     -5524.56 |     -5415.81 |     -2013.52 |     -4469.31 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 20,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

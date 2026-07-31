@@ -59,7 +59,7 @@ def apply_override(path: Path, entry: dict[str, Any], replace_existing: bool) ->
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--json-dir", default="data/enrichment_all_draft")
+    parser.add_argument("--json-dir", default="data/enrichment_all")
     parser.add_argument("--overrides", default="data/enrichment_competitor_overrides.json")
     parser.add_argument("--replace-existing", action="store_true", help="Replace existing competitor entries instead of filling only empty arrays.")
     args = parser.parse_args()

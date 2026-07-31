@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1301",
+  "company_name": "台塑",
+  "title": "1301 - [[台塑]]",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 塑膠製品/1301_台塑.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "357,755 百萬台幣",
+    "enterprise_value": "379,191 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣塑膠工業股份有限公司 (Formosa Plastics Corporation, FPC) 成立於 1954 年，總部位於台灣[[高雄]]，為[[台塑集團]]之旗艦企業。[[台塑]]為台灣最大石化工業集團之一，採高度垂直整合模式，從最上游之乙烯、丙烯等石化原料，到生產 PVC、PE、PP 等泛用塑膠，以至碳纖維、[[SAP]] 等特用化學品，建立了完整的產業鏈。公司在台灣(麥寮六輕)、美國(德州、路易斯安那)、中國大陸(寧波)等地均設有大型生產基地，為全球主要之塑膠原料供應商。",
+    "entities": [
+      "高雄",
+      "台塑集團",
+      "台塑",
+      "SAP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "原料來源",
+        "text": "透過集團子公司 [[台塑石化]] (6505) 供應乙烯、丙烯等輕油裂解產品，確保穩定低成本原料。",
+        "entities": [
+          "台塑石化"
+        ]
+      },
+      {
+        "category": "自有產能",
+        "text": "美國廠區擁有天然氣進料之裂解廠，具成本優勢。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "五大類產品",
+        "text": "- **五大類產品:**",
+        "entities": []
+      },
+      {
+        "category": "塑膠粉/粒",
+        "text": "[[PVC]] (聚氯乙烯)、[[PE]] (聚乙烯)、[[PP]] (聚丙烯)、EVA。",
+        "entities": [
+          "PVC",
+          "PE",
+          "PP"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "液鹼、丙烯酸酯 (AE)、正丁醇 (NBA)、AN。",
+        "entities": []
+      },
+      {
+        "category": "特用化學",
+        "text": "[[碳纖維]] (Carbon Fiber)、高吸水性樹脂 ([[SAP]])。",
+        "entities": [
+          "碳纖維",
+          "SAP"
+        ]
+      },
+      {
+        "category": "終端應用",
+        "text": "建材管材、食品包裝、汽車零組件、紡織成衣、醫療衛生用品、航太、風力發電葉片。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "加工業",
+        "text": "國內外塑膠加工廠、紡織廠、電子材料廠。",
+        "entities": []
+      },
+      {
+        "role": "終端品牌",
+        "text": "鞋業 (如[[寶成]]、[[豐泰]])、電子代工廠 (間接供應)。",
+        "entities": [
+          "寶成",
+          "豐泰"
+        ]
+      },
+      {
+        "role": "出口市場",
+        "text": "廣泛出口至中國、東南亞、印度、美洲等地。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "關鍵原料",
+        "text": "[[台塑石化]] (Formosa Petrochemical)。",
+        "entities": [
+          "台塑石化"
+        ]
+      },
+      {
+        "role": "能源/電力",
+        "text": "[[麥寮汽電]]、[[台塑]]石化。",
+        "entities": [
+          "麥寮汽電",
+          "台塑"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "- **自有產能:** 美國廠區擁有天然氣進料之裂解廠，具成本優勢。",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "高雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄"
+    },
+    {
+      "name": "台塑集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑集團"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "台塑石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑石化"
+    },
+    {
+      "name": "PVC",
+      "type": "international_company_or_term",
+      "wikilink": "PVC"
+    },
+    {
+      "name": "PE",
+      "type": "international_company_or_term",
+      "wikilink": "PE"
+    },
+    {
+      "name": "PP",
+      "type": "international_company_or_term",
+      "wikilink": "PP"
+    },
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "寶成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶成"
+    },
+    {
+      "name": "豐泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐泰"
+    },
+    {
+      "name": "麥寮汽電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "麥寮汽電"
+    },
+    {
+      "name": "鉅邁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鉅邁"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣塑膠工業股份有限公司 (Formosa Plastics Corporation, FPC) 成立於 1954 年，總部位於台灣[[高雄]]，為[[台塑集團]]之旗艦企業。[[台塑]]為台灣最大石化工業集團之一，採高度垂直整合模式，從最上游之乙烯、丙烯等石化原料，到生產 PVC、PE、PP 等泛用塑膠，以至碳纖維、[[SAP]] 等特用化學品，建立了完整的產業鏈。公司在台灣(麥寮六輕)、美國(德州、路易斯安那)、中國大陸(寧波)等地均設有大型生產基地，為全球主要之塑膠原料供應商。",
+    "supply_chain_md": "**上游 (石化原料):**\n- **原料來源:** 透過集團子公司 [[台塑石化]] (6505) 供應乙烯、丙烯等輕油裂解產品，確保穩定低成本原料。\n- **自有產能:** 美國廠區擁有天然氣進料之裂解廠，具成本優勢。\n\n**下游應用:**\n- **五大類產品:**\n    - **塑膠粉/粒:** [[PVC]] (聚氯乙烯)、[[PE]] (聚乙烯)、[[PP]] (聚丙烯)、EVA。\n    - **化學品:** 液鹼、丙烯酸酯 (AE)、正丁醇 (NBA)、AN。\n    - **特用化學:** [[碳纖維]] (Carbon Fiber)、高吸水性樹脂 ([[SAP]])。\n- **終端應用:** 建材管材、食品包裝、汽車零組件、紡織成衣、醫療衛生用品、航太、風力發電葉片。",
+    "customers_suppliers_md": "### 主要客戶\n- **加工業:** 國內外塑膠加工廠、紡織廠、電子材料廠。\n- **終端品牌:** 鞋業 (如[[寶成]]、[[豐泰]])、電子代工廠 (間接供應)。\n- **出口市場:** 廣泛出口至中國、東南亞、印度、美洲等地。\n\n### 主要供應商\n- **關鍵原料:** [[台塑石化]] (Formosa Petrochemical)。\n- **能源/電力:** [[麥寮汽電]]、[[台塑]]石化。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $54.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       24.27 |      2.02 | 0.88 |    136.54 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    175411.40 |    200040.35 |    199138.78 |\n| Gross Profit            |      5603.31 |     10148.42 |      9826.46 |\n| Gross Margin (%)        |         3.19 |         5.07 |         4.93 |\n| Selling & Marketing Exp |      6460.52 |      7499.69 |      6620.74 |\n| R&D Exp                 |      1479.28 |      1648.94 |      1779.23 |\n| General & Admin Exp     |      5098.52 |      5015.91 |      5453.96 |\n| Operating Income        |     -7435.00 |     -4016.13 |     -4027.47 |\n| Operating Margin (%)    |        -4.24 |        -2.01 |        -2.02 |\n| Net Income              |    -10048.66 |     -1231.77 |      7337.71 |\n| Net Margin (%)          |        -5.73 |        -0.62 |         3.68 |\n| Op Cash Flow            |      6619.09 |     11461.39 |      6157.31 |\n| Investing Cash Flow     |     -6096.43 |    -17810.50 |    -27488.68 |\n| Financing Cash Flow     |     -8861.32 |     17582.38 |     12531.47 |\n| CAPEX                   |    -14560.67 |    -16198.00 |    -13636.59 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     41985.12 |     41104.14 |     41717.95 |     45387.10 |\n| Gross Profit            |      1555.47 |       979.14 |       576.05 |      1587.74 |\n| Gross Margin (%)        |         3.70 |         2.38 |         1.38 |         3.50 |\n| Selling & Marketing Exp |      1545.49 |      1602.72 |      1574.71 |      1662.71 |\n| R&D Exp                 |       278.45 |      -669.12 |       723.22 |       703.99 |\n| General & Admin Exp     |      1205.24 |      2360.10 |       891.15 |       923.60 |\n| Operating Income        |     -1473.72 |     -2314.57 |     -2613.03 |     -1702.55 |\n| Operating Margin (%)    |        -3.51 |        -5.63 |        -6.26 |        -3.75 |\n| Net Income              |      3268.63 |     -2871.27 |      -602.12 |     -6625.71 |\n| Net Margin (%)          |         7.79 |        -6.99 |        -1.44 |       -14.60 |\n| Op Cash Flow            |      1178.82 |       261.03 |      7393.37 |      -928.73 |\n| Investing Cash Flow     |     -3867.47 |      4130.83 |     -3305.73 |     -2741.04 |\n| Financing Cash Flow     |      1882.46 |     -3352.19 |     -7152.39 |     -5405.68 |\n| CAPEX                   |     -4445.56 |     -4525.73 |     -3337.22 |     -3320.57 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

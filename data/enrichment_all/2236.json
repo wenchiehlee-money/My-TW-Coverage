@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2236",
+  "company_name": "百達-KY",
+  "title": "2236 - 百達-KY",
+  "source_md": "Pilot_Reports/Specialty Industrial Machinery/2236_百達-KY.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "8,044 百萬台幣",
+    "enterprise_value": "10,165 百萬台幣"
+  },
+  "business": {
+    "summary": "百達精密 (2236，百達-KY，Patec) 總部新加坡，專精精密沖壓機台與汽機車金屬沖壓零件 (佔營收逾80%)。2024年收購 BIGL (約23.9億台幣) 掌握[[Seagate]] HDD 致動臂訂單。汽車客戶含[[BYD]]、長安汽車等中國[[電動車]]廠。產品涵蓋排氣系統、門鎖座椅、煞車系統、動力系統及避震系統零組件。據點含新加坡、印尼、中國、泰國、越南、歐洲。另為[[Honda]]、[[Yamaha]]供應機車沖壓件。",
+    "entities": [
+      "Seagate",
+      "BYD",
+      "電動車",
+      "Honda",
+      "Yamaha"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼板/模具鋼",
+        "text": "金屬材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**百達** (精密沖壓機台/汽機車沖壓件/HDD致動臂)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電動車",
+        "text": "[[BYD]]、長安汽車",
+        "entities": [
+          "BYD"
+        ]
+      },
+      {
+        "category": "HDD",
+        "text": "[[Seagate]] (透過BIGL)",
+        "entities": [
+          "Seagate"
+        ]
+      },
+      {
+        "category": "機車",
+        "text": "[[Honda]]、[[Yamaha]] — 東南亞沖壓件",
+        "entities": [
+          "Honda",
+          "Yamaha"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EV",
+        "text": "[[BYD]]、長安汽車 — [[電動車]]沖壓件",
+        "entities": [
+          "BYD",
+          "電動車"
+        ]
+      },
+      {
+        "role": "HDD",
+        "text": "[[Seagate]] — 致動臂",
+        "entities": [
+          "Seagate"
+        ]
+      },
+      {
+        "role": "機車",
+        "text": "[[Honda]]、[[Yamaha]] — 沖壓件",
+        "entities": [
+          "Honda",
+          "Yamaha"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "鋼板/模具鋼",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Seagate",
+      "type": "international_company_or_term",
+      "wikilink": "Seagate"
+    },
+    {
+      "name": "BYD",
+      "type": "international_company_or_term",
+      "wikilink": "BYD"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "百達精密 (2236，百達-KY，Patec) 總部新加坡，專精精密沖壓機台與汽機車金屬沖壓零件 (佔營收逾80%)。2024年收購 BIGL (約23.9億台幣) 掌握[[Seagate]] HDD 致動臂訂單。汽車客戶含[[BYD]]、長安汽車等中國[[電動車]]廠。產品涵蓋排氣系統、門鎖座椅、煞車系統、動力系統及避震系統零組件。據點含新加坡、印尼、中國、泰國、越南、歐洲。另為[[Honda]]、[[Yamaha]]供應機車沖壓件。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼板/模具鋼:** 金屬材料\n\n**中游 (製造):**\n- **百達** (精密沖壓機台/汽機車沖壓件/HDD致動臂)\n\n**下游 (終端):**\n- **電動車:** [[BYD]]、長安汽車\n- **HDD:** [[Seagate]] (透過BIGL)\n- **機車:** [[Honda]]、[[Yamaha]] — 東南亞沖壓件",
+    "customers_suppliers_md": "### 主要客戶\n- **EV:** [[BYD]]、長安汽車 — [[電動車]]沖壓件\n- **HDD:** [[Seagate]] — 致動臂\n- **機車:** [[Honda]]、[[Yamaha]] — 沖壓件\n\n### 主要供應商\n- 鋼板/模具鋼",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $131.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       17.05 |      0.83 | 3.50 |     30.93 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9323.37 |      1782.27 |      1817.19 |\n| Gross Profit            |       995.98 |       344.63 |       578.95 |\n| Gross Margin (%)        |        10.68 |        19.34 |        31.86 |\n| Selling & Marketing Exp |       139.14 |       136.37 |        95.91 |\n| R&D Exp                 |        66.71 |        59.70 |        48.02 |\n| General & Admin Exp     |       796.13 |       424.93 |       249.85 |\n| Operating Income        |        -6.01 |      -276.37 |       185.18 |\n| Operating Margin (%)    |        -0.06 |       -15.51 |        10.19 |\n| Net Income              |      -379.82 |       393.07 |       139.25 |\n| Net Margin (%)          |        -4.07 |        22.05 |         7.66 |\n| Op Cash Flow            |      -152.34 |        30.59 |        86.21 |\n| Investing Cash Flow     |      -342.24 |     -1754.88 |       -29.03 |\n| Financing Cash Flow     |      -344.75 |      2596.11 |       280.91 |\n| CAPEX                   |      -245.38 |       -73.52 |       -41.02 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2330.49 |      2411.00 |      2281.38 |      2300.49 |\n| Gross Profit            |       197.71 |       276.64 |       205.97 |       315.66 |\n| Gross Margin (%)        |         8.48 |        11.47 |         9.03 |        13.72 |\n| Selling & Marketing Exp |        34.15 |        34.79 |        30.61 |        39.59 |\n| R&D Exp                 |        18.65 |        15.50 |        16.12 |        16.44 |\n| General & Admin Exp     |       240.94 |       221.40 |       188.25 |       145.55 |\n| Operating Income        |       -96.04 |         4.96 |       -29.01 |       114.08 |\n| Operating Margin (%)    |        -4.12 |         0.21 |        -1.27 |         4.96 |\n| Net Income              |      -236.74 |      -181.64 |       -14.95 |        53.51 |\n| Net Margin (%)          |       -10.16 |        -7.53 |        -0.66 |         2.33 |\n| Op Cash Flow            |         1.21 |      -166.87 |       156.40 |      -143.08 |\n| Investing Cash Flow     |      -410.47 |        33.77 |        16.08 |        18.38 |\n| Financing Cash Flow     |       126.41 |       -82.10 |       -65.78 |      -323.27 |\n| CAPEX                   |      -124.48 |       -62.49 |       -31.66 |       -26.75 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

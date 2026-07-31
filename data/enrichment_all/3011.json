@@ -1,0 +1,183 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3011",
+  "company_name": "今皓",
+  "title": "3011 - 今皓",
+  "source_md": "Pilot_Reports/通信網路 - 線材/3011_今皓.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,497 百萬台幣",
+    "enterprise_value": "2,242 百萬台幣"
+  },
+  "business": {
+    "summary": "今皓光電 ([[Ji-Haw Industrial]]) 為老牌連接線廠，近期積極轉型 [[AI 伺服器]]線束與車用 AI 系統。公司收購勤天科技切入車用軟體與毫米波雷達演算法，試圖擺脫傳統線材廠低毛利競爭。\n\n核心業務與轉型方向：(1) [[AI 伺服器]]線束 — 開發 400G/800G 高速傳輸線，已出貨 100G/200G 外部線及 PCIe 5.0 內部線；(2) 車用 AI 系統 — 透過勤天科技布局毫米波雷達與 [[ADAS]] 演算法；(3) 企業 AI 軟體 — 開發 Agatha 企業用 AI 平台與 TUAN 數位人應用平台。",
+    "entities": [
+      "Ji-Haw Industrial",
+      "AI 伺服器",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (線材與零組件)",
+        "text": "**上游 (線材與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "銅線",
+        "text": "銅線與電纜原材料供應商",
+        "entities": []
+      },
+      {
+        "category": "連接器端子",
+        "text": "連接器端子與金屬件",
+        "entities": []
+      },
+      {
+        "category": "IC 晶片",
+        "text": "車用 AI 方案晶片",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (連接線與軟體)",
+        "text": "**中游 (連接線與軟體):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器線束",
+        "text": "**今皓** (400G/800G 高速傳輸線)",
+        "entities": []
+      },
+      {
+        "category": "傳統連接線",
+        "text": "**今皓** (PC/NB 內部連接線)",
+        "entities": []
+      },
+      {
+        "category": "車用軟體",
+        "text": "**今皓**旗下勤天科技 (毫米波雷達演算法)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (伺服器 ODM 與車廠)",
+        "text": "**下游 (伺服器 ODM 與車廠):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[廣達]]、[[鴻海]]、[[緯創]] — 高速傳輸線束",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "緯創"
+        ]
+      },
+      {
+        "category": "PC/NB",
+        "text": "PC/NB 代工廠 — 傳統線材",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "日系汽車 Tier 1 — 車用 AI 模組",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 伺服器",
+        "text": "[[廣達]]、[[鴻海]]、[[緯創]] — 高速傳輸線束",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "緯創"
+        ]
+      },
+      {
+        "role": "PC/NB",
+        "text": "PC/NB 代工廠 — 傳統連接線材",
+        "entities": []
+      },
+      {
+        "role": "車用",
+        "text": "日系汽車 Tier 1 — 勤天科技車用 AI 模組",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "線材",
+        "text": "銅線與電纜原材料供應商",
+        "entities": []
+      },
+      {
+        "role": "端子",
+        "text": "連接器端子金屬件供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Ji-Haw Industrial",
+      "type": "international_company_or_term",
+      "wikilink": "Ji-Haw Industrial"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "今皓光電 ([[Ji-Haw Industrial]]) 為老牌連接線廠，近期積極轉型 [[AI 伺服器]]線束與車用 AI 系統。公司收購勤天科技切入車用軟體與毫米波雷達演算法，試圖擺脫傳統線材廠低毛利競爭。\n\n核心業務與轉型方向：(1) [[AI 伺服器]]線束 — 開發 400G/800G 高速傳輸線，已出貨 100G/200G 外部線及 PCIe 5.0 內部線；(2) 車用 AI 系統 — 透過勤天科技布局毫米波雷達與 [[ADAS]] 演算法；(3) 企業 AI 軟體 — 開發 Agatha 企業用 AI 平台與 TUAN 數位人應用平台。",
+    "supply_chain_md": "**上游 (線材與零組件):**\n- **銅線:** 銅線與電纜原材料供應商\n- **連接器端子:** 連接器端子與金屬件\n- **IC 晶片:** 車用 AI 方案晶片\n\n**中游 (連接線與軟體):**\n- **AI 伺服器線束:** **今皓** (400G/800G 高速傳輸線)\n- **傳統連接線:** **今皓** (PC/NB 內部連接線)\n- **車用軟體:** **今皓**旗下勤天科技 (毫米波雷達演算法)\n\n**下游 (伺服器 ODM 與車廠):**\n- **AI 伺服器:** [[廣達]]、[[鴻海]]、[[緯創]] — 高速傳輸線束\n- **PC/NB:** PC/NB 代工廠 — 傳統線材\n- **車用:** 日系汽車 Tier 1 — 車用 AI 模組",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 伺服器:** [[廣達]]、[[鴻海]]、[[緯創]] — 高速傳輸線束\n- **PC/NB:** PC/NB 代工廠 — 傳統連接線材\n- **車用:** 日系汽車 Tier 1 — 勤天科技車用 AI 模組\n\n### 主要供應商\n- **線材:** 銅線與電纜原材料供應商\n- **端子:** 連接器端子金屬件供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $11.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      2.19 | 1.09 |     -7.42 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       754.64 |      1152.17 |      1150.69 |\n| Gross Profit            |        39.88 |        84.92 |       143.49 |\n| Gross Margin (%)        |         5.28 |         7.37 |        12.47 |\n| Selling & Marketing Exp |        92.80 |        92.92 |        76.41 |\n| R&D Exp                 |        86.02 |        80.53 |        60.85 |\n| General & Admin Exp     |       190.90 |       185.95 |       150.85 |\n| Operating Income        |      -329.85 |      -274.47 |      -144.64 |\n| Operating Margin (%)    |       -43.71 |       -23.82 |       -12.57 |\n| Net Income              |      -292.93 |      -248.78 |      -138.32 |\n| Net Margin (%)          |       -38.82 |       -21.59 |       -12.02 |\n| Op Cash Flow            |      -180.97 |      -149.60 |       -15.85 |\n| Investing Cash Flow     |       -89.70 |      -164.01 |      -292.87 |\n| Financing Cash Flow     |       184.90 |       333.21 |       197.45 |\n| CAPEX                   |       -56.42 |       -57.40 |      -118.84 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       163.24 |       166.97 |       193.05 |       231.38 |\n| Gross Profit            |        17.32 |         3.62 |         4.11 |        14.84 |\n| Gross Margin (%)        |        10.61 |         2.17 |         2.13 |         6.41 |\n| Selling & Marketing Exp |        24.74 |        24.34 |        22.46 |        21.26 |\n| R&D Exp                 |        21.85 |        18.63 |        22.02 |        23.52 |\n| General & Admin Exp     |        46.86 |        45.49 |        46.55 |        52.01 |\n| Operating Income        |       -76.14 |       -84.84 |       -86.93 |       -81.95 |\n| Operating Margin (%)    |       -46.64 |       -50.81 |       -45.03 |       -35.42 |\n| Net Income              |      -120.47 |       -93.69 |        -9.57 |       -69.20 |\n| Net Margin (%)          |       -73.80 |       -56.11 |        -4.96 |       -29.91 |\n| Op Cash Flow            |       -74.17 |       -27.75 |       -17.98 |       -61.07 |\n| Investing Cash Flow     |       -62.40 |       -27.98 |        44.43 |       -43.75 |\n| Financing Cash Flow     |       142.85 |         8.81 |        29.01 |         4.23 |\n| CAPEX                   |       -11.53 |       -13.18 |       -27.18 |        -4.54 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

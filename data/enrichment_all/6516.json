@@ -1,0 +1,131 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6516",
+  "company_name": "勤崴國際",
+  "title": "6516_勤崴國際",
+  "source_md": "Pilot_Reports/人工智慧 - 領域解決方案/6516_勤崴國際.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "market_cap": "3,105 百萬台幣",
+    "enterprise_value": "2,348 百萬台幣"
+  },
+  "business": {
+    "summary": "勤崴國際科技股份有限公司 (6516，KingwayTek) 隸屬於[[中華電信]]集團，是台灣最具代表性的電子地圖、導航系統及[[車聯網]]平台開發商。勤崴憑藉在台灣電子地圖市場超過七成的絕對市佔率(為[[Google]] Maps在台灣的圖資合作夥伴)，已成功轉型為智慧移動系統整合商。其業務涵蓋商用車隊管理平台、[[ADAS]](先進駕駛輔助系統)高精地圖，以及Level 4全自動駕駛巴士的自駕營運服務。公司不僅切入歐系車廠及Toyota的[[車聯網]]系統，更成功在[[台積電]]廠區落地自駕接駁專案。",
+    "entities": [
+      "中華電信",
+      "車聯網",
+      "Google",
+      "ADAS",
+      "台積電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 衛星影像資料、航空/地理測繪數據服務、雲端運算基礎設施(IaaS)及車載硬體(OBU)製造商。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **勤崴國際** (電子圖資繪製/銷售、[[車聯網]]/車隊管理雲端平台及自動駕駛系統整合服務)。",
+        "entities": [
+          "車聯網"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**: 大型網路搜尋業主([[Google]]/Yahoo)、國內外各大車輛品牌([[OEM]])、大型企業物流車隊及政府單位。",
+        "entities": [
+          "Google",
+          "OEM"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Google]](圖資主力客戶)、和泰汽車(Toyota聯網服務)、[[BMW]]、[[台積電]](廠區自駕接駁)及中興保全。",
+        "entities": [
+          "Google",
+          "BMW",
+          "台積電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "內政部國土測繪中心、國外大型衛星圖資供應商及各類自駕車用光達/雷達感測器硬體商。",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華電信"
+    },
+    {
+      "name": "車聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車聯網"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "OEM",
+      "type": "international_company_or_term",
+      "wikilink": "OEM"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "勤崴國際科技股份有限公司 (6516，KingwayTek) 隸屬於[[中華電信]]集團，是台灣最具代表性的電子地圖、導航系統及[[車聯網]]平台開發商。勤崴憑藉在台灣電子地圖市場超過七成的絕對市佔率(為[[Google]] Maps在台灣的圖資合作夥伴)，已成功轉型為智慧移動系統整合商。其業務涵蓋商用車隊管理平台、[[ADAS]](先進駕駛輔助系統)高精地圖，以及Level 4全自動駕駛巴士的自駕營運服務。公司不僅切入歐系車廠及Toyota的[[車聯網]]系統，更成功在[[台積電]]廠區落地自駕接駁專案。",
+    "supply_chain_md": "*   **上游**: 衛星影像資料、航空/地理測繪數據服務、雲端運算基礎設施(IaaS)及車載硬體(OBU)製造商。\n*   **中游**: **勤崴國際** (電子圖資繪製/銷售、[[車聯網]]/車隊管理雲端平台及自動駕駛系統整合服務)。\n*   **下游**: 大型網路搜尋業主([[Google]]/Yahoo)、國內外各大車輛品牌([[OEM]])、大型企業物流車隊及政府單位。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[Google]](圖資主力客戶)、和泰汽車(Toyota聯網服務)、[[BMW]]、[[台積電]](廠區自駕接駁)及中興保全。\n\n### 主要供應商\n*   內政部國土測繪中心、國外大型衛星圖資供應商及各類自駕車用光達/雷達感測器硬體商。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $56.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     30.94 |         N/A |      5.27 | 3.03 |     22.91 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       546.97 |       444.19 |       505.48 |\n| Gross Profit            |       298.46 |       251.65 |       242.22 |\n| Gross Margin (%)        |        54.57 |        56.65 |        47.92 |\n| Selling & Marketing Exp |        50.71 |        38.30 |        39.05 |\n| R&D Exp                 |       125.37 |       115.60 |       101.62 |\n| General & Admin Exp     |        57.69 |        53.18 |        48.98 |\n| Operating Income        |        64.73 |        43.92 |        53.69 |\n| Operating Margin (%)    |        11.83 |         9.89 |        10.62 |\n| Net Income              |        85.05 |        82.16 |        60.95 |\n| Net Margin (%)          |        15.55 |        18.50 |        12.06 |\n| Op Cash Flow            |        31.41 |        89.75 |       145.82 |\n| Investing Cash Flow     |       177.73 |      -149.42 |       -94.06 |\n| Financing Cash Flow     |      -174.18 |       -36.60 |       -71.11 |\n| CAPEX                   |       -18.17 |       -12.51 |       -16.70 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       180.32 |       169.78 |       119.81 |       133.82 |\n| Gross Profit            |        88.58 |        90.03 |        72.39 |        69.14 |\n| Gross Margin (%)        |        49.12 |        53.03 |        60.41 |        51.67 |\n| Selling & Marketing Exp |        10.06 |         9.70 |         9.91 |         8.85 |\n| R&D Exp                 |        27.75 |        32.07 |        33.21 |        26.44 |\n| General & Admin Exp     |        14.73 |        17.58 |        13.70 |        14.35 |\n| Operating Income        |        36.03 |        30.68 |        15.59 |        19.52 |\n| Operating Margin (%)    |        19.98 |        18.07 |        13.01 |        14.59 |\n| Net Income              |        36.95 |        35.10 |        17.27 |        20.40 |\n| Net Margin (%)          |        20.49 |        20.67 |        14.41 |        15.24 |\n| Op Cash Flow            |        38.33 |       -16.32 |       -37.27 |        -5.05 |\n| Investing Cash Flow     |       -25.08 |        38.66 |       191.70 |        29.10 |\n| Financing Cash Flow     |        -2.47 |        -2.65 |       -42.46 |        -3.05 |\n| CAPEX                   |        -2.13 |        -4.34 |        -3.50 |        -4.47 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5315",
+  "company_name": "光聯",
+  "title": "5315 - 光聯",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 面板/5315_光聯.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,973 百萬台幣",
+    "enterprise_value": "769 百萬台幣"
+  },
+  "business": {
+    "summary": "光聯科技 (5315，[[United Radiant Technology]]) 成立於 1990 年，總部位於台中梧棲科技工業園區。公司專精於 **中小尺寸液晶顯示器 (LCD/LCM)** 及 **觸控面板 (TP)** 之研發與製造，技術涵蓋單色 LCD、[[TFT-LCD]] 模組及電容式/電阻式觸控整合方案。\n\n近年積極轉型至利基型高毛利市場：(1) **車載顯示** — 為 [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) 等國際車廠供應車用儀表/中控顯示模組；(2) **家電** — 歐洲白色家電品牌如 [[Miele]]、[[Bosch]] 之食物調理機/洗衣機顯示面板；(3) **工控** — 歐美工業儀表與自動化設備顯示器；(4) **海事/醫療** — 船用儀表與醫療設備顯示。歐洲為最大營收市場 (約 60%)，產品具備高亮度、寬溫操作、防水防塵等特殊規格。",
+    "entities": [
+      "United Radiant Technology",
+      "TFT-LCD",
+      "Porsche",
+      "Hyundai",
+      "Ford",
+      "Suzuki",
+      "Miele",
+      "Bosch"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板與驅動元件)",
+        "text": "**上游 (面板與驅動元件):**",
+        "entities": []
+      },
+      {
+        "category": "LCD 面板",
+        "text": "TFT/STN 玻璃基板供應商",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "顯示器驅動 IC 設計廠",
+        "entities": []
+      },
+      {
+        "category": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      },
+      {
+        "category": "觸控材料",
+        "text": "觸控感測 [[ITO]] 薄膜",
+        "entities": [
+          "ITO"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (顯示模組製造)",
+        "text": "**中游 (顯示模組製造):**",
+        "entities": []
+      },
+      {
+        "category": "車用顯示",
+        "text": "**光聯** (車用儀表/中控 LCM 模組)",
+        "entities": []
+      },
+      {
+        "category": "家電顯示",
+        "text": "**光聯** (白色家電顯示面板)",
+        "entities": []
+      },
+      {
+        "category": "工控/海事",
+        "text": "**光聯** (工業儀表/船用顯示模組)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌客戶)",
+        "text": "**下游 (終端品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "[[Porsche]]、[[Hyundai]]、[[Ford]]、[[Suzuki]] — 車用顯示模組",
+        "entities": [
+          "Porsche",
+          "Hyundai",
+          "Ford",
+          "Suzuki"
+        ]
+      },
+      {
+        "category": "家電",
+        "text": "[[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示",
+        "entities": [
+          "Miele",
+          "Bosch"
+        ]
+      },
+      {
+        "category": "工控",
+        "text": "歐美工業儀表品牌 — 自動化設備顯示器",
+        "entities": []
+      },
+      {
+        "category": "醫療/海事",
+        "text": "醫療設備與船用儀表顯示",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用",
+        "text": "[[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) — 車用儀表/中控顯示",
+        "entities": [
+          "Porsche",
+          "Hyundai",
+          "Ford",
+          "Suzuki"
+        ]
+      },
+      {
+        "role": "家電",
+        "text": "[[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示面板",
+        "entities": [
+          "Miele",
+          "Bosch"
+        ]
+      },
+      {
+        "role": "工控",
+        "text": "歐美工業儀表廠商 — 自動化設備顯示器",
+        "entities": []
+      },
+      {
+        "role": "醫療/海事",
+        "text": "醫療設備與船用儀表品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "LCD 面板",
+        "text": "TFT/STN 玻璃基板供應商",
+        "entities": []
+      },
+      {
+        "role": "驅動 IC",
+        "text": "顯示器驅動 IC 設計廠",
+        "entities": []
+      },
+      {
+        "role": "背光模組",
+        "text": "LED 背光模組供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "近年積極轉型至利基型高毛利市場：(1) **車載顯示** — 為 [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) 等國際車廠供應車用儀表/中控顯示模組；(2) **家電** — 歐洲白色家電品牌如 [[Miele]]、[[Bosch]] 之食物調理機/洗衣機顯示面板；(3) **工控** — 歐美工業儀表與自動化設備顯示器；(4) **海事/醫療** — 船用儀表與醫療設備顯示。歐洲為最大營收市場 (約 60%)，產品具備高亮度、寬溫操作、防水防塵等特殊規格。",
+        "entities": [
+          "Porsche",
+          "Hyundai",
+          "Ford",
+          "Suzuki",
+          "Miele",
+          "Bosch"
+        ]
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "United Radiant Technology",
+      "type": "international_company_or_term",
+      "wikilink": "United Radiant Technology"
+    },
+    {
+      "name": "TFT-LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT-LCD"
+    },
+    {
+      "name": "Porsche",
+      "type": "international_company_or_term",
+      "wikilink": "Porsche"
+    },
+    {
+      "name": "Hyundai",
+      "type": "international_company_or_term",
+      "wikilink": "Hyundai"
+    },
+    {
+      "name": "Ford",
+      "type": "international_company_or_term",
+      "wikilink": "Ford"
+    },
+    {
+      "name": "Suzuki",
+      "type": "international_company_or_term",
+      "wikilink": "Suzuki"
+    },
+    {
+      "name": "Miele",
+      "type": "international_company_or_term",
+      "wikilink": "Miele"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "ITO",
+      "type": "international_company_or_term",
+      "wikilink": "ITO"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "光聯科技 (5315，[[United Radiant Technology]]) 成立於 1990 年，總部位於台中梧棲科技工業園區。公司專精於 **中小尺寸液晶顯示器 (LCD/LCM)** 及 **觸控面板 (TP)** 之研發與製造，技術涵蓋單色 LCD、[[TFT-LCD]] 模組及電容式/電阻式觸控整合方案。\n\n近年積極轉型至利基型高毛利市場：(1) **車載顯示** — 為 [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) 等國際車廠供應車用儀表/中控顯示模組；(2) **家電** — 歐洲白色家電品牌如 [[Miele]]、[[Bosch]] 之食物調理機/洗衣機顯示面板；(3) **工控** — 歐美工業儀表與自動化設備顯示器；(4) **海事/醫療** — 船用儀表與醫療設備顯示。歐洲為最大營收市場 (約 60%)，產品具備高亮度、寬溫操作、防水防塵等特殊規格。",
+    "supply_chain_md": "**上游 (面板與驅動元件):**\n- **LCD 面板:** TFT/STN 玻璃基板供應商\n- **驅動 IC:** 顯示器驅動 IC 設計廠\n- **背光模組:** LED 背光模組供應商\n- **觸控材料:** 觸控感測 [[ITO]] 薄膜\n\n**中游 (顯示模組製造):**\n- **車用顯示:** **光聯** (車用儀表/中控 LCM 模組)\n- **家電顯示:** **光聯** (白色家電顯示面板)\n- **工控/海事:** **光聯** (工業儀表/船用顯示模組)\n\n**下游 (終端品牌客戶):**\n- **車用:** [[Porsche]]、[[Hyundai]]、[[Ford]]、[[Suzuki]] — 車用顯示模組\n- **家電:** [[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示\n- **工控:** 歐美工業儀表品牌 — 自動化設備顯示器\n- **醫療/海事:** 醫療設備與船用儀表顯示",
+    "customers_suppliers_md": "### 主要客戶\n- **車用:** [[Porsche]] (保時捷)、[[Hyundai]] (現代)、[[Ford]] (福特)、[[Suzuki]] (鈴木) — 車用儀表/中控顯示\n- **家電:** [[Miele]]、[[Bosch]] — 歐洲高階白色家電顯示面板\n- **工控:** 歐美工業儀表廠商 — 自動化設備顯示器\n- **醫療/海事:** 醫療設備與船用儀表品牌\n\n### 主要供應商\n- **LCD 面板:** TFT/STN 玻璃基板供應商\n- **驅動 IC:** 顯示器驅動 IC 設計廠\n- **背光模組:** LED 背光模組供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.86 |         N/A |      1.02 | 1.25 |      4.99 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2003.49 |      1555.56 |      1557.82 |\n| Gross Profit            |       300.27 |       254.39 |       260.25 |\n| Gross Margin (%)        |        14.99 |        16.35 |        16.71 |\n| Selling & Marketing Exp |        32.71 |        39.41 |        39.21 |\n| R&D Exp                 |        31.60 |        30.45 |        35.11 |\n| General & Admin Exp     |       104.62 |        94.78 |        90.74 |\n| Operating Income        |       131.34 |        89.75 |        95.19 |\n| Operating Margin (%)    |         6.56 |         5.77 |         6.11 |\n| Net Income              |       202.22 |       128.27 |        90.22 |\n| Net Margin (%)          |        10.09 |         8.25 |         5.79 |\n| Op Cash Flow            |       167.07 |        90.50 |       177.59 |\n| Investing Cash Flow     |        74.08 |      -318.81 |       -34.65 |\n| Financing Cash Flow     |      -161.38 |       -86.89 |      -192.80 |\n| CAPEX                   |       -21.80 |       -38.83 |       -24.50 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       465.85 |       515.60 |       482.47 |       506.19 |\n| Gross Profit            |        86.80 |        77.77 |        72.92 |        67.67 |\n| Gross Margin (%)        |        18.63 |        15.08 |        15.11 |        13.37 |\n| Selling & Marketing Exp |         7.97 |         7.38 |         6.40 |         9.69 |\n| R&D Exp                 |         6.97 |         7.98 |         7.96 |         8.18 |\n| General & Admin Exp     |        23.98 |        23.54 |        27.95 |        28.35 |\n| Operating Income        |        47.88 |        38.87 |        30.61 |        21.45 |\n| Operating Margin (%)    |        10.28 |         7.54 |         6.34 |         4.24 |\n| Net Income              |        46.60 |        39.71 |        63.12 |        36.16 |\n| Net Margin (%)          |        10.00 |         7.70 |        13.08 |         7.14 |\n| Op Cash Flow            |       138.36 |        78.48 |        -3.63 |       -29.19 |\n| Investing Cash Flow     |       -11.65 |        27.16 |        -6.77 |       135.73 |\n| Financing Cash Flow     |        -0.47 |        -0.47 |      -160.00 |        -0.46 |\n| CAPEX                   |        -3.88 |        -3.03 |        -6.52 |        -4.75 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1802",
+  "company_name": "台玻",
+  "title": "1802 - 台玻",
+  "source_md": "Pilot_Reports/印刷電路板 - 玻璃纖維_玻纖布/1802_台玻.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "",
+    "industry": "",
+    "market_cap": "",
+    "enterprise_value": ""
+  },
+  "business": {
+    "summary": "台玻 (Taiwan Glass Ind. Corp.) 成立於 1964 年，總部位於台灣[[台北]]，為國內最大、全球名列前茅的玻璃製造集團。公司產品線涵蓋平板玻璃、玻璃器皿及玻璃纖維。平板玻璃廣泛應用於建築帷幕牆與汽車領域；近年台玻積極轉型，大力發展高階電子級玻璃纖維布 (如 Low DK/Low CTE 產品)，已成功通過認證並打入 [[AI 伺服器]] 與 5G 通訊設備之 CCL 銅箔基板供應鏈，成為營運成長新引擎。",
+    "entities": [
+      "台北",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與技術聯盟)",
+        "text": "**上游 (原料與技術聯盟):**",
+        "entities": []
+      },
+      {
+        "category": "基礎原料",
+        "text": "採購天然氣與純鹼 (自轉投資 [[實聯化工]] 江蘇廠或自美日進口)。",
+        "entities": [
+          "實聯化工"
+        ]
+      },
+      {
+        "category": "高階玻纖原料",
+        "text": "向日本玻纖大廠 [[日東紡]] (Nittobo) 採購特殊原料。",
+        "entities": [
+          "日東紡"
+        ]
+      },
+      {
+        "category": "技術授權",
+        "text": "與美國 [[Owens Corning]] 締結長期技術合作提升玻纖效能。",
+        "entities": [
+          "Owens Corning"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (核心製造)",
+        "text": "**中游 (核心製造):**",
+        "entities": []
+      },
+      {
+        "category": "玻璃工業",
+        "text": "**台灣玻璃** (平板玻璃、汽車/防彈安全玻璃、T.G品牌器皿、電子級玻纖布製造)。",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游應用 (終端市場)",
+        "text": "**下游應用 (終端市場):**",
+        "entities": []
+      },
+      {
+        "category": "傳統建材與車用",
+        "text": "營造業大樓帷幕牆 (佔平板玻璃 70%)，以及汽車風擋玻璃。",
+        "entities": []
+      },
+      {
+        "category": "高階科技產業",
+        "text": "高頻高速 PCB、銅箔基板 (CCL) 廠，最終應用於 [[AI 伺服器]] 與 5G 基地台。",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 科技終端",
+        "text": "[[NVIDIA]] (其高階 Low DK 玻纖布成功打入 [[NVIDIA]] AI 伺服器供應鏈)。",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "營建與車用",
+        "text": "國內外大型營造商及各大汽車製造廠。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料化工",
+        "text": "[[實聯化工]] (供應純鹼)、日本 [[日東紡]] (高階玻纖原料)。",
+        "entities": [
+          "實聯化工",
+          "日東紡"
+        ]
+      },
+      {
+        "role": "技術與能源",
+        "text": "美國 [[Owens Corning]] (技術合作)、台灣與海外天然氣供應商。",
+        "entities": [
+          "Owens Corning"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台北",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "實聯化工",
+      "type": "taiwan_company_or_term",
+      "wikilink": "實聯化工"
+    },
+    {
+      "name": "日東紡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日東紡"
+    },
+    {
+      "name": "Owens Corning",
+      "type": "international_company_or_term",
+      "wikilink": "Owens Corning"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台玻 (Taiwan Glass Ind. Corp.) 成立於 1964 年，總部位於台灣[[台北]]，為國內最大、全球名列前茅的玻璃製造集團。公司產品線涵蓋平板玻璃、玻璃器皿及玻璃纖維。平板玻璃廣泛應用於建築帷幕牆與汽車領域；近年台玻積極轉型，大力發展高階電子級玻璃纖維布 (如 Low DK/Low CTE 產品)，已成功通過認證並打入 [[AI 伺服器]] 與 5G 通訊設備之 CCL 銅箔基板供應鏈，成為營運成長新引擎。",
+    "supply_chain_md": "**上游 (原料與技術聯盟):**\n- **基礎原料:** 採購天然氣與純鹼 (自轉投資 [[實聯化工]] 江蘇廠或自美日進口)。\n- **高階玻纖原料:** 向日本玻纖大廠 [[日東紡]] (Nittobo) 採購特殊原料。\n- **技術授權:** 與美國 [[Owens Corning]] 締結長期技術合作提升玻纖效能。\n\n**中游 (核心製造):**\n- **玻璃工業:** **台灣玻璃** (平板玻璃、汽車/防彈安全玻璃、T.G品牌器皿、電子級玻纖布製造)。\n\n**下游應用 (終端市場):**\n- **傳統建材與車用:** 營造業大樓帷幕牆 (佔平板玻璃 70%)，以及汽車風擋玻璃。\n- **高階科技產業:** 高頻高速 PCB、銅箔基板 (CCL) 廠，最終應用於 [[AI 伺服器]] 與 5G 基地台。",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 科技終端:** [[NVIDIA]] (其高階 Low DK 玻纖布成功打入 [[NVIDIA]] AI 伺服器供應鏈)。\n- **營建與車用:** 國內外大型營造商及各大汽車製造廠。\n\n### 主要供應商\n- **原料化工:** [[實聯化工]] (供應純鹼)、日本 [[日東紡]] (高階玻纖原料)。\n- **技術與能源:** 美國 [[Owens Corning]] (技術合作)、台灣與海外天然氣供應商。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $42.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    327.69 |       12.68 |      2.94 | 2.49 |     26.62 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     41494.38 |     42502.81 |     45619.04 |\n| Gross Profit            |      4814.70 |      3672.13 |      4567.34 |\n| Gross Margin (%)        |        11.60 |         8.64 |        10.01 |\n| Selling & Marketing Exp |      2638.31 |      2695.32 |      2757.31 |\n| R&D Exp                 |       878.63 |       956.53 |      1039.59 |\n| General & Admin Exp     |      1368.10 |      1331.94 |      1242.79 |\n| Operating Income        |       388.62 |     -1283.80 |      -343.66 |\n| Operating Margin (%)    |         0.94 |        -3.02 |        -0.75 |\n| Net Income              |      -590.33 |     -1571.56 |        34.59 |\n| Net Margin (%)          |        -1.42 |        -3.70 |         0.08 |\n| Op Cash Flow            |      2417.79 |      5257.40 |      4350.44 |\n| Investing Cash Flow     |     -3917.12 |     -3549.04 |     -4272.69 |\n| Financing Cash Flow     |      1858.65 |      -398.11 |     -1589.18 |\n| CAPEX                   |     -4704.44 |     -4035.01 |     -4177.10 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     10244.19 |     10791.85 |     10726.80 |     10323.42 |\n| Gross Profit            |      1969.49 |      1475.22 |      1250.70 |      1032.12 |\n| Gross Margin (%)        |        19.23 |        13.67 |        11.66 |        10.00 |\n| Selling & Marketing Exp |       626.56 |       707.45 |       617.40 |       659.41 |\n| R&D Exp                 |       167.44 |       230.93 |       221.45 |       207.79 |\n| General & Admin Exp     |       365.20 |       362.89 |       324.92 |       336.96 |\n| Operating Income        |       820.21 |       532.24 |       146.48 |      -136.44 |\n| Operating Margin (%)    |         8.01 |         4.93 |         1.37 |        -1.32 |\n| Net Income              |       593.56 |       369.85 |       277.16 |      -867.51 |\n| Net Margin (%)          |         5.79 |         3.43 |         2.58 |        -8.40 |\n| Op Cash Flow            |        -1.66 |       642.39 |       424.48 |      1548.16 |\n| Investing Cash Flow     |     -1153.32 |      -730.66 |      -886.74 |      -829.40 |\n| Financing Cash Flow     |      -532.14 |       296.61 |       282.98 |       689.55 |\n| CAPEX                   |     -1348.13 |     -1172.74 |     -1125.00 |      -935.70 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

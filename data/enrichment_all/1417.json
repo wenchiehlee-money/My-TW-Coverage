@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1417",
+  "company_name": "嘉裕",
+  "title": "1417 - 嘉裕",
+  "source_md": "Pilot_Reports/紡織 - 成衣及其它家居紡織類品/1417_嘉裕.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Retail",
+    "market_cap": "1,573 百萬台幣",
+    "enterprise_value": "293 百萬台幣"
+  },
+  "business": {
+    "summary": "嘉裕股份有限公司 (1417) 為[[裕隆集團]]旗下服飾事業，以「嘉裕西服 Carnival」品牌經營男士西服與正式服飾。公司曾為[[Giorgio Armani]]台灣獨家代理商長達數十年，2021 年結束代理後轉由關係企業[[台元紡織]]承接。近年積極轉型，成功承攬[[國防部]]軍服統包標案 (含[[海軍司令部]]、[[空軍司令部]]服裝供售站，金額達 21 億元)，與[[興采實業]]子公司[[神采時尚]]、[[佳和實業]]、[[數博整合]]共同得標。品牌零售通路以百貨專櫃及直營門市為主。",
+    "entities": [
+      "裕隆集團",
+      "Giorgio Armani",
+      "台元紡織",
+      "國防部",
+      "海軍司令部",
+      "空軍司令部",
+      "興采實業",
+      "神采時尚",
+      "佳和實業",
+      "數博整合"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與合作)",
+        "text": "**上游 (原料與合作):**",
+        "entities": []
+      },
+      {
+        "category": "化纖原料",
+        "text": "[[遠東新世紀]] — 布料原料",
+        "entities": [
+          "遠東新世紀"
+        ]
+      },
+      {
+        "category": "軍服合作",
+        "text": "[[興采實業]]/[[神采時尚]]、[[佳和實業]]、[[數博整合]] — 軍服標案共同得標夥伴",
+        "entities": [
+          "興采實業",
+          "神采時尚",
+          "佳和實業",
+          "數博整合"
+        ]
+      },
+      {
+        "category": "集團資源",
+        "text": "[[台元紡織]] — 關係企業",
+        "entities": [
+          "台元紡織"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設計製造)",
+        "text": "**中游 (設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**嘉裕** (品牌服飾設計製造、軍服統包)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "軍方",
+        "text": "[[國防部]] ([[海軍司令部]]、[[空軍司令部]])、[[海巡署]] — 軍服標案",
+        "entities": [
+          "國防部",
+          "海軍司令部",
+          "空軍司令部",
+          "海巡署"
+        ]
+      },
+      {
+        "category": "零售",
+        "text": "百貨專櫃及直營門市消費者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "軍方標案",
+        "text": "[[國防部]] ([[海軍司令部]]、[[空軍司令部]]) — 軍服供售站標案 21 億元",
+        "entities": [
+          "國防部",
+          "海軍司令部",
+          "空軍司令部"
+        ]
+      },
+      {
+        "role": "海巡",
+        "text": "[[海巡署]] — 制服標案",
+        "entities": [
+          "海巡署"
+        ]
+      },
+      {
+        "role": "零售",
+        "text": "百貨專櫃與直營門市消費者",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "軍服合作",
+        "text": "[[興采實業]]/[[神采時尚]]、[[佳和實業]]、[[數博整合]] — 共同得標夥伴",
+        "entities": [
+          "興采實業",
+          "神采時尚",
+          "佳和實業",
+          "數博整合"
+        ]
+      },
+      {
+        "role": "化纖",
+        "text": "[[遠東新世紀]] — 布料原料",
+        "entities": [
+          "遠東新世紀"
+        ]
+      },
+      {
+        "role": "集團企業",
+        "text": "[[台元紡織]] — 關係企業供應",
+        "entities": [
+          "台元紡織"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "裕隆集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆集團"
+    },
+    {
+      "name": "Giorgio Armani",
+      "type": "international_company_or_term",
+      "wikilink": "Giorgio Armani"
+    },
+    {
+      "name": "台元紡織",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台元紡織"
+    },
+    {
+      "name": "國防部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國防部"
+    },
+    {
+      "name": "海軍司令部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海軍司令部"
+    },
+    {
+      "name": "空軍司令部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "空軍司令部"
+    },
+    {
+      "name": "興采實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "興采實業"
+    },
+    {
+      "name": "神采時尚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "神采時尚"
+    },
+    {
+      "name": "佳和實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "佳和實業"
+    },
+    {
+      "name": "數博整合",
+      "type": "taiwan_company_or_term",
+      "wikilink": "數博整合"
+    },
+    {
+      "name": "遠東新世紀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新世紀"
+    },
+    {
+      "name": "海巡署",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海巡署"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "嘉裕股份有限公司 (1417) 為[[裕隆集團]]旗下服飾事業，以「嘉裕西服 Carnival」品牌經營男士西服與正式服飾。公司曾為[[Giorgio Armani]]台灣獨家代理商長達數十年，2021 年結束代理後轉由關係企業[[台元紡織]]承接。近年積極轉型，成功承攬[[國防部]]軍服統包標案 (含[[海軍司令部]]、[[空軍司令部]]服裝供售站，金額達 21 億元)，與[[興采實業]]子公司[[神采時尚]]、[[佳和實業]]、[[數博整合]]共同得標。品牌零售通路以百貨專櫃及直營門市為主。",
+    "supply_chain_md": "**上游 (原料與合作):**\n- **化纖原料:** [[遠東新世紀]] — 布料原料\n- **軍服合作:** [[興采實業]]/[[神采時尚]]、[[佳和實業]]、[[數博整合]] — 軍服標案共同得標夥伴\n- **集團資源:** [[台元紡織]] — 關係企業\n\n**中游 (設計製造):**\n- **嘉裕** (品牌服飾設計製造、軍服統包)\n\n**下游 (終端客戶):**\n- **軍方:** [[國防部]] ([[海軍司令部]]、[[空軍司令部]])、[[海巡署]] — 軍服標案\n- **零售:** 百貨專櫃及直營門市消費者",
+    "customers_suppliers_md": "### 主要客戶\n- **軍方標案:** [[國防部]] ([[海軍司令部]]、[[空軍司令部]]) — 軍服供售站標案 21 億元\n- **海巡:** [[海巡署]] — 制服標案\n- **零售:** 百貨專櫃與直營門市消費者\n\n### 主要供應商\n- **軍服合作:** [[興采實業]]/[[神采時尚]]、[[佳和實業]]、[[數博整合]] — 共同得標夥伴\n- **化纖:** [[遠東新世紀]] — 布料原料\n- **集團企業:** [[台元紡織]] — 關係企業供應",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $8.18 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.78 |         N/A |      3.68 | 0.66 |     10.71 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       403.83 |       603.20 |      1496.18 |\n| Gross Profit            |       216.22 |       137.16 |       499.45 |\n| Gross Margin (%)        |        53.54 |        22.74 |        33.38 |\n| Selling & Marketing Exp |       146.03 |       250.16 |       423.11 |\n| R&D Exp                 |         3.89 |         3.11 |         2.36 |\n| General & Admin Exp     |        86.41 |       129.24 |       153.42 |\n| Operating Income        |       -20.11 |      -245.35 |       -79.43 |\n| Operating Margin (%)    |        -4.98 |       -40.67 |        -5.31 |\n| Net Income              |       117.25 |      -154.49 |       -66.20 |\n| Net Margin (%)          |        29.03 |       -25.61 |        -4.42 |\n| Op Cash Flow            |        63.72 |        67.66 |       513.31 |\n| Investing Cash Flow     |       182.09 |       170.77 |       100.28 |\n| Financing Cash Flow     |      -137.60 |      -306.76 |      -782.72 |\n| CAPEX                   |       -18.04 |        -5.40 |       -27.25 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        73.80 |       166.36 |        97.63 |        84.70 |\n| Gross Profit            |        49.31 |        91.61 |        48.10 |        42.22 |\n| Gross Margin (%)        |        66.83 |        55.07 |        49.27 |        49.85 |\n| Selling & Marketing Exp |        33.86 |        37.60 |        35.82 |        36.83 |\n| R&D Exp                 |         1.01 |         1.02 |         1.02 |         0.93 |\n| General & Admin Exp     |        16.67 |        24.77 |        18.89 |        18.41 |\n| Operating Income        |        -2.23 |        28.23 |        -7.63 |       -13.95 |\n| Operating Margin (%)    |        -3.03 |        16.97 |        -7.81 |       -16.47 |\n| Net Income              |       -42.32 |        83.39 |        31.75 |        12.65 |\n| Net Margin (%)          |       -57.35 |        50.12 |        32.52 |        14.93 |\n| Op Cash Flow            |        30.39 |        82.06 |        13.01 |       -32.45 |\n| Investing Cash Flow     |       -35.25 |        41.71 |       -26.86 |       168.76 |\n| Financing Cash Flow     |       -38.37 |       -42.68 |        -3.38 |       -88.19 |\n| CAPEX                   |        -5.35 |        -6.15 |        -1.75 |        -2.55 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

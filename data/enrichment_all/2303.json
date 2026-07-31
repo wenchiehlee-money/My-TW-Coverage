@@ -1,0 +1,293 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2303",
+  "company_name": "聯電",
+  "title": "2303 - [[聯電]]",
+  "source_md": "Pilot_Reports/半導體 - IC_晶圓製造/2303_聯電.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "1,286,010 百萬台幣",
+    "enterprise_value": "1,231,155 百萬台幣"
+  },
+  "business": {
+    "summary": "[[聯電]] (United Microelectronics Corporation, UMC) 成立於 1980 年，總部位於台灣[[新竹]]。公司為全球第三大**晶圓代工 (Foundry)** 廠商，僅次於[[台積電]]與三星。[[聯電]]專注於**成熟製程** (22nm - 0.6um) 及特殊製程 (Specialty Technologies)，如高壓 (HV)、嵌入式非揮發性[[記憶體]] (eNVM)、RFSOI 及 BCD 製程。公司在台灣、新加坡、中國(廈門)及日本擁有 12 吋及 8 吋晶圓廠。[[聯電]]近年策略不再追求先進製程競賽，轉而深耕特殊製程，追求穩健獲利與現金流。",
+    "entities": [
+      "聯電",
+      "新竹",
+      "台積電",
+      "記憶體"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料/設備)",
+        "text": "**上游 (原料/設備):**",
+        "entities": []
+      },
+      {
+        "category": "[[矽晶圓]]",
+        "text": "[[環球晶]] (GlobalWafers)、[[SUMCO]]、Shin-Etsu。",
+        "entities": [
+          "矽晶圓",
+          "環球晶",
+          "SUMCO"
+        ]
+      },
+      {
+        "category": "設備",
+        "text": "[[Applied Materials]], [[ASML]], [[Tokyo Electron]], [[Lam Research]], 漢唐, 帆宣。",
+        "entities": [
+          "Applied Materials",
+          "ASML",
+          "Tokyo Electron",
+          "Lam Research"
+        ]
+      },
+      {
+        "category": "化學品/光阻",
+        "text": "Merck, DOW, 關東鑫林, 三福化工。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "IC 設計公司 (Fabless)",
+        "text": "將從客戶端接收的設計圖生產成晶片。",
+        "entities": []
+      },
+      {
+        "category": "應用領域",
+        "text": "通訊 ([[5G]]/Wi-Fi)、顯示器驅動 IC (DDI)、[[物聯網]]、車用電子 (Auto)、電源管理 (PMIC)、[[MCU]]。",
+        "entities": [
+          "5G",
+          "物聯網",
+          "MCU"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "通訊/網通",
+        "text": "[[聯發科]], [[瑞昱]], [[Qualcomm]].",
+        "entities": [
+          "聯發科",
+          "瑞昱",
+          "Qualcomm"
+        ]
+      },
+      {
+        "role": "驅動 IC",
+        "text": "Novatek ([[聯詠]] - [[聯電]]集團), Himax (奇景).",
+        "entities": [
+          "聯詠",
+          "聯電"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "[[Texas Instruments]], Silicon Labs, Kodak.",
+        "entities": [
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[矽晶圓]]",
+        "text": "[[環球晶]], 台勝科.",
+        "entities": [
+          "矽晶圓",
+          "環球晶"
+        ]
+      },
+      {
+        "role": "設備",
+        "text": "應用材料, 艾司摩爾.",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "role": "晶圓代工競爭者",
+        "text": "[[台積電]]、[[GlobalFoundries]]、[[Intel Foundry]]、[[中芯國際]]、[[Samsung Foundry]]、[[世界]]、[[力積電]]",
+        "entities": [
+          "台積電",
+          "GlobalFoundries",
+          "Intel Foundry",
+          "中芯國際",
+          "Samsung Foundry",
+          "世界",
+          "力積電"
+        ],
+        "basis": "curated_foundry_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "矽晶圓",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓"
+    },
+    {
+      "name": "環球晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環球晶"
+    },
+    {
+      "name": "SUMCO",
+      "type": "international_company_or_term",
+      "wikilink": "SUMCO"
+    },
+    {
+      "name": "Applied Materials",
+      "type": "international_company_or_term",
+      "wikilink": "Applied Materials"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "Tokyo Electron",
+      "type": "international_company_or_term",
+      "wikilink": "Tokyo Electron"
+    },
+    {
+      "name": "Lam Research",
+      "type": "international_company_or_term",
+      "wikilink": "Lam Research"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "GlobalFoundries",
+      "type": "international_company_or_term",
+      "wikilink": "GlobalFoundries"
+    },
+    {
+      "name": "Intel Foundry",
+      "type": "international_company_or_term",
+      "wikilink": "Intel Foundry"
+    },
+    {
+      "name": "中芯國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中芯國際"
+    },
+    {
+      "name": "Samsung Foundry",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung Foundry"
+    },
+    {
+      "name": "世界",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界"
+    },
+    {
+      "name": "力積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力積電"
+    },
+    {
+      "name": "中華化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華化"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[聯電]] (United Microelectronics Corporation, UMC) 成立於 1980 年，總部位於台灣[[新竹]]。公司為全球第三大**晶圓代工 (Foundry)** 廠商，僅次於[[台積電]]與三星。[[聯電]]專注於**成熟製程** (22nm - 0.6um) 及特殊製程 (Specialty Technologies)，如高壓 (HV)、嵌入式非揮發性[[記憶體]] (eNVM)、RFSOI 及 BCD 製程。公司在台灣、新加坡、中國(廈門)及日本擁有 12 吋及 8 吋晶圓廠。[[聯電]]近年策略不再追求先進製程競賽，轉而深耕特殊製程，追求穩健獲利與現金流。",
+    "supply_chain_md": "**上游 (原料/設備):**\n- **[[矽晶圓]]:** [[環球晶]] (GlobalWafers)、[[SUMCO]]、Shin-Etsu。\n- **設備:** [[Applied Materials]], [[ASML]], [[Tokyo Electron]], [[Lam Research]], 漢唐, 帆宣。\n- **化學品/光阻:** Merck, DOW, 關東鑫林, 三福化工。\n\n**下游應用:**\n- **IC 設計公司 (Fabless):** 將從客戶端接收的設計圖生產成晶片。\n- **應用領域:** 通訊 ([[5G]]/Wi-Fi)、顯示器驅動 IC (DDI)、[[物聯網]]、車用電子 (Auto)、電源管理 (PMIC)、[[MCU]]。",
+    "customers_suppliers_md": "### 主要客戶\n- **通訊/網通:** [[聯發科]], [[瑞昱]], [[Qualcomm]].\n- **驅動 IC:** Novatek ([[聯詠]] - [[聯電]]集團), Himax (奇景).\n- **其他:** [[Texas Instruments]], Silicon Labs, Kodak.\n\n### 主要供應商\n- **[[矽晶圓]]:** [[環球晶]], 台勝科.\n- **設備:** 應用材料, 艾司摩爾.",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $110.00 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.69 |       16.14 |      5.50 | 3.09 |     11.72 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    237553.20 |    232302.58 |    222533.00 |\n| Gross Profit            |     68906.50 |     75654.08 |     77743.84 |\n| Gross Margin (%)        |        29.01 |        32.57 |        34.94 |\n| Selling & Marketing Exp |      2433.45 |      2701.48 |      3225.15 |\n| R&D Exp                 |     17724.75 |     15616.04 |     13283.83 |\n| General & Admin Exp     |      6791.90 |      7117.42 |      7477.04 |\n| Operating Income        |     43658.93 |     51268.64 |     57289.77 |\n| Operating Margin (%)    |        18.38 |        22.07 |        25.74 |\n| Net Income              |     40360.31 |     48779.30 |     59688.95 |\n| Net Margin (%)          |        16.99 |        21.00 |        26.82 |\n| Op Cash Flow            |     99864.19 |     93872.04 |     85999.71 |\n| Investing Cash Flow     |    -53154.43 |    -85941.10 |    -97786.54 |\n| Financing Cash Flow     |    -39203.86 |    -39199.75 |    -29086.18 |\n| CAPEX                   |    -50733.65 |    -91343.01 |    -94020.18 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-06-30 |   2026-03-31 |   2025-12-31 |   2025-09-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     68732.66 |     61037.90 |     61809.54 |     59127.04 |\n| Gross Profit            |     22322.79 |     17818.49 |     18958.44 |     17623.32 |\n| Gross Margin (%)        |        32.48 |        29.19 |        30.67 |        29.81 |\n| Selling & Marketing Exp |       732.69 |       689.25 |       594.95 |       628.04 |\n| R&D Exp                 |      4747.20 |      4575.30 |      4936.75 |      4630.62 |\n| General & Admin Exp     |      2425.62 |      1834.13 |      1852.58 |      1714.52 |\n| Operating Income        |     14878.74 |     11219.10 |     13356.18 |     11007.21 |\n| Operating Margin (%)    |        21.65 |        18.38 |        21.61 |        18.62 |\n| Net Income              |     42259.96 |     16171.47 |      8698.98 |     14982.06 |\n| Net Margin (%)          |        61.48 |        26.49 |        14.07 |        25.34 |\n| Op Cash Flow            |     33697.36 |     21981.33 |     33002.89 |     20937.56 |\n| Investing Cash Flow     |     -7426.98 |    -21347.83 |    -17059.09 |    -16151.88 |\n| Financing Cash Flow     |    -10753.02 |     -3686.23 |    -11416.15 |    -15160.40 |\n| CAPEX                   |     -9480.26 |    -13207.42 |    -15493.49 |    -12170.62 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

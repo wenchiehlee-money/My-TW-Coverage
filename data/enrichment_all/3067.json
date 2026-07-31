@@ -1,0 +1,212 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3067",
+  "company_name": "全域",
+  "title": "3067 - 全域",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/3067_全域.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "360 百萬台幣",
+    "enterprise_value": "361 百萬台幣"
+  },
+  "business": {
+    "summary": "全域國際股份有限公司 (3067) 以自有品牌 [[Phonic]] 行銷全球，是知名的專業音響設備製造商。主要產品包含數位[[混音器]]、[[功率擴大機]]、揚聲器與錄音室[[監聽喇叭]]。產品行銷超過 50 個國家，與 [[Yamaha]]、[[Behringer]] 等品牌在專業音響市場競爭。除音響本業外，公司也跨足環境淨化領域，銷售全戶濾淨淨水產品與[[空氣清淨機]]。近年營運規模較小，轉型控股公司型態，涉足多元投資。",
+    "entities": [
+      "Phonic",
+      "混音器",
+      "功率擴大機",
+      "監聽喇叭",
+      "Yamaha",
+      "Behringer",
+      "空氣清淨機"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子零組件)",
+        "text": "**上游 (電子零組件):**",
+        "entities": []
+      },
+      {
+        "category": "DSP 晶片",
+        "text": "數位訊號處理晶片供應商",
+        "entities": []
+      },
+      {
+        "category": "被動元件",
+        "text": "電容、電阻等電子元件",
+        "entities": []
+      },
+      {
+        "category": "機殼模具",
+        "text": "金屬/塑膠機殼供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (音響設計製造)",
+        "text": "**中游 (音響設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "品牌經營",
+        "text": "**全域** ([[Phonic]] 品牌專業音響)",
+        "entities": [
+          "Phonic"
+        ]
+      },
+      {
+        "category": "產品設計",
+        "text": "混音器、擴大機、揚聲器設計",
+        "entities": []
+      },
+      {
+        "category": "環境淨化",
+        "text": "淨水與空氣清淨產品",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "專業展演",
+        "text": "演唱會、錄音室、廣播電台",
+        "entities": []
+      },
+      {
+        "category": "經銷通路",
+        "text": "全球樂器行與音響設備經銷商如 [[Sweetwater]]、[[Thomann]]",
+        "entities": [
+          "Sweetwater",
+          "Thomann"
+        ]
+      },
+      {
+        "category": "商業空間",
+        "text": "賣場、餐廳背景音樂系統",
+        "entities": []
+      },
+      {
+        "category": "家庭",
+        "text": "發燒友音響設備",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經銷通路",
+        "text": "[[Sweetwater]]、[[Thomann]] — 全球樂器行與音響經銷商",
+        "entities": [
+          "Sweetwater",
+          "Thomann"
+        ]
+      },
+      {
+        "role": "專業展演",
+        "text": "演唱會製作公司、錄音室、廣播電台",
+        "entities": []
+      },
+      {
+        "role": "商業空間",
+        "text": "賣場、餐廳 — 背景音樂系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "DSP 晶片",
+        "text": "數位訊號處理晶片原廠",
+        "entities": []
+      },
+      {
+        "role": "代工",
+        "text": "中國音響組裝代工廠",
+        "entities": []
+      },
+      {
+        "role": "機殼",
+        "text": "金屬/塑膠機殼模具供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Phonic",
+      "type": "international_company_or_term",
+      "wikilink": "Phonic"
+    },
+    {
+      "name": "混音器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "混音器"
+    },
+    {
+      "name": "功率擴大機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "功率擴大機"
+    },
+    {
+      "name": "監聽喇叭",
+      "type": "taiwan_company_or_term",
+      "wikilink": "監聽喇叭"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "Behringer",
+      "type": "international_company_or_term",
+      "wikilink": "Behringer"
+    },
+    {
+      "name": "空氣清淨機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "空氣清淨機"
+    },
+    {
+      "name": "Sweetwater",
+      "type": "international_company_or_term",
+      "wikilink": "Sweetwater"
+    },
+    {
+      "name": "Thomann",
+      "type": "international_company_or_term",
+      "wikilink": "Thomann"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "全域國際股份有限公司 (3067) 以自有品牌 [[Phonic]] 行銷全球，是知名的專業音響設備製造商。主要產品包含數位[[混音器]]、[[功率擴大機]]、揚聲器與錄音室[[監聽喇叭]]。產品行銷超過 50 個國家，與 [[Yamaha]]、[[Behringer]] 等品牌在專業音響市場競爭。除音響本業外，公司也跨足環境淨化領域，銷售全戶濾淨淨水產品與[[空氣清淨機]]。近年營運規模較小，轉型控股公司型態，涉足多元投資。",
+    "supply_chain_md": "**上游 (電子零組件):**\n- **DSP 晶片:** 數位訊號處理晶片供應商\n- **被動元件:** 電容、電阻等電子元件\n- **機殼模具:** 金屬/塑膠機殼供應商\n\n**中游 (音響設計製造):**\n- **品牌經營:** **全域** ([[Phonic]] 品牌專業音響)\n- **產品設計:** 混音器、擴大機、揚聲器設計\n- **環境淨化:** 淨水與空氣清淨產品\n\n**下游 (終端應用):**\n- **專業展演:** 演唱會、錄音室、廣播電台\n- **經銷通路:** 全球樂器行與音響設備經銷商如 [[Sweetwater]]、[[Thomann]]\n- **商業空間:** 賣場、餐廳背景音樂系統\n- **家庭:** 發燒友音響設備",
+    "customers_suppliers_md": "### 主要客戶\n- **經銷通路:** [[Sweetwater]]、[[Thomann]] — 全球樂器行與音響經銷商\n- **專業展演:** 演唱會製作公司、錄音室、廣播電台\n- **商業空間:** 賣場、餐廳 — 背景音樂系統\n\n### 主要供應商\n- **DSP 晶片:** 數位訊號處理晶片原廠\n- **代工:** 中國音響組裝代工廠\n- **機殼:** 金屬/塑膠機殼模具供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      5.13 | 1.45 |    -43.23 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |        58.42 |        43.65 |       170.93 |\n| Gross Profit            |        16.63 |        20.18 |        61.23 |\n| Gross Margin (%)        |        28.47 |        46.22 |        35.82 |\n| Selling & Marketing Exp |         4.71 |         8.46 |         2.71 |\n| R&D Exp                 |         0.31 |         1.90 |         1.66 |\n| General & Admin Exp     |        24.25 |        33.82 |        30.76 |\n| Operating Income        |       -12.64 |       -24.00 |        26.10 |\n| Operating Margin (%)    |       -21.64 |       -54.99 |        15.27 |\n| Net Income              |       -16.78 |       -20.18 |        23.48 |\n| Net Margin (%)          |       -28.72 |       -46.23 |        13.74 |\n| Op Cash Flow            |       -30.79 |       -34.93 |        14.66 |\n| Investing Cash Flow     |       -34.47 |       -33.15 |      -106.02 |\n| Financing Cash Flow     |        27.42 |        -1.64 |        -3.84 |\n| CAPEX                   |       -40.10 |         0.00 |        -0.17 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        14.99 |        16.91 |        12.14 |        14.38 |\n| Gross Profit            |         4.33 |         5.00 |         3.32 |         4.00 |\n| Gross Margin (%)        |        28.85 |        29.53 |        27.32 |        27.79 |\n| Selling & Marketing Exp |         1.91 |         2.66 |         0.09 |         0.06 |\n| R&D Exp                 |         0.00 |         0.00 |         0.05 |         0.26 |\n| General & Admin Exp     |         5.39 |         5.21 |         7.23 |         6.42 |\n| Operating Income        |        -2.97 |        -2.87 |        -4.05 |        -2.75 |\n| Operating Margin (%)    |       -19.84 |       -16.99 |       -33.36 |       -19.09 |\n| Net Income              |        -0.47 |        -1.20 |       -16.66 |         1.55 |\n| Net Margin (%)          |        -3.12 |        -7.08 |      -137.29 |        10.76 |\n| Op Cash Flow            |       -10.58 |         2.70 |       -12.37 |       -10.54 |\n| Investing Cash Flow     |         5.69 |        -1.98 |       -34.23 |        -3.94 |\n| Financing Cash Flow     |        -0.70 |        -0.71 |        29.24 |        -0.41 |\n| CAPEX                   |        -0.82 |        -1.48 |       -33.86 |        -3.94 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

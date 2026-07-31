@@ -1,0 +1,264 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3227",
+  "company_name": "原相",
+  "title": "3227 - 原相",
+  "source_md": "Pilot_Reports/半導體 - IC設計/3227_原相.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "28,104 百萬台幣",
+    "enterprise_value": "20,275 百萬台幣"
+  },
+  "business": {
+    "summary": "原相科技 (3227) 是全球光學滑鼠[[感測晶片]]最大供應商，專注於 [[CMOS 影像感測器]] (CIS) 及感測應用 IC 設計。公司核心技術涵蓋[[光學導航]]、動態物體偵測、[[電容觸控]]、[[心率感測]]及客製化 [[ASIC]]。產品廣泛應用於[[電競周邊]] (滑鼠感測器)、[[掃地機器人]]導航、穿戴式裝置健康監測、[[TWS 耳機]]觸控及工業視覺。公司在美國矽谷、丹麥、日本及中國均設有據點。",
+    "entities": [
+      "感測晶片",
+      "CMOS 影像感測器",
+      "光學導航",
+      "電容觸控",
+      "心率感測",
+      "ASIC",
+      "電競周邊",
+      "掃地機器人",
+      "TWS 耳機"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      },
+      {
+        "category": "封裝測試",
+        "text": "半導體封測服務",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "感測 IC",
+        "text": "**原相** (光學導航感測器、CIS、觸控 IC、心率感測 IC)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌)",
+        "text": "**下游 (終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "電競周邊",
+        "text": "[[Logitech]]、[[Razer]]、[[SteelSeries]] (電競滑鼠感測器)",
+        "entities": [
+          "Logitech",
+          "Razer",
+          "SteelSeries"
+        ]
+      },
+      {
+        "category": "掃地機器人",
+        "text": "[[iRobot]]、[[石頭科技]]、[[科沃斯]] (導航感測)",
+        "entities": [
+          "iRobot",
+          "石頭科技",
+          "科沃斯"
+        ]
+      },
+      {
+        "category": "穿戴裝置",
+        "text": "TWS 耳機及智慧手環品牌",
+        "entities": []
+      },
+      {
+        "category": "通路",
+        "text": "[[大聯大控股]] (WPG，代理經銷)",
+        "entities": [
+          "大聯大控股"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電競周邊",
+        "text": "[[Logitech]]、[[Razer]]、[[SteelSeries]] (光學滑鼠感測器)",
+        "entities": [
+          "Logitech",
+          "Razer",
+          "SteelSeries"
+        ]
+      },
+      {
+        "role": "掃地機器人",
+        "text": "[[iRobot]]、[[石頭科技]]、[[科沃斯]] (光學導航)",
+        "entities": [
+          "iRobot",
+          "石頭科技",
+          "科沃斯"
+        ]
+      },
+      {
+        "role": "穿戴裝置",
+        "text": "TWS 耳機品牌 (觸控及心率感測)",
+        "entities": []
+      },
+      {
+        "role": "通路經銷",
+        "text": "[[大聯大控股]] (WPG)",
+        "entities": [
+          "大聯大控股"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      },
+      {
+        "role": "封裝測試",
+        "text": "半導體封測服務",
+        "entities": []
+      },
+      {
+        "role": "EDA/IP",
+        "text": "[[Cadence]]、[[Synopsys]]",
+        "entities": [
+          "Cadence",
+          "Synopsys"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "感測晶片",
+      "type": "taiwan_company_or_term",
+      "wikilink": "感測晶片"
+    },
+    {
+      "name": "CMOS 影像感測器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "CMOS 影像感測器"
+    },
+    {
+      "name": "光學導航",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光學導航"
+    },
+    {
+      "name": "電容觸控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電容觸控"
+    },
+    {
+      "name": "心率感測",
+      "type": "taiwan_company_or_term",
+      "wikilink": "心率感測"
+    },
+    {
+      "name": "ASIC",
+      "type": "international_company_or_term",
+      "wikilink": "ASIC"
+    },
+    {
+      "name": "電競周邊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電競周邊"
+    },
+    {
+      "name": "掃地機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "掃地機器人"
+    },
+    {
+      "name": "TWS 耳機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "TWS 耳機"
+    },
+    {
+      "name": "Logitech",
+      "type": "international_company_or_term",
+      "wikilink": "Logitech"
+    },
+    {
+      "name": "Razer",
+      "type": "international_company_or_term",
+      "wikilink": "Razer"
+    },
+    {
+      "name": "SteelSeries",
+      "type": "international_company_or_term",
+      "wikilink": "SteelSeries"
+    },
+    {
+      "name": "iRobot",
+      "type": "international_company_or_term",
+      "wikilink": "iRobot"
+    },
+    {
+      "name": "石頭科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "石頭科技"
+    },
+    {
+      "name": "科沃斯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "科沃斯"
+    },
+    {
+      "name": "大聯大控股",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大控股"
+    },
+    {
+      "name": "Cadence",
+      "type": "international_company_or_term",
+      "wikilink": "Cadence"
+    },
+    {
+      "name": "Synopsys",
+      "type": "international_company_or_term",
+      "wikilink": "Synopsys"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "原相科技 (3227) 是全球光學滑鼠[[感測晶片]]最大供應商，專注於 [[CMOS 影像感測器]] (CIS) 及感測應用 IC 設計。公司核心技術涵蓋[[光學導航]]、動態物體偵測、[[電容觸控]]、[[心率感測]]及客製化 [[ASIC]]。產品廣泛應用於[[電競周邊]] (滑鼠感測器)、[[掃地機器人]]導航、穿戴式裝置健康監測、[[TWS 耳機]]觸控及工業視覺。公司在美國矽谷、丹麥、日本及中國均設有據點。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **晶圓代工:** 台灣晶圓代工廠\n- **封裝測試:** 半導體封測服務\n\n**中游 (IC 設計):**\n- **感測 IC:** **原相** (光學導航感測器、CIS、觸控 IC、心率感測 IC)\n\n**下游 (終端品牌):**\n- **電競周邊:** [[Logitech]]、[[Razer]]、[[SteelSeries]] (電競滑鼠感測器)\n- **掃地機器人:** [[iRobot]]、[[石頭科技]]、[[科沃斯]] (導航感測)\n- **穿戴裝置:** TWS 耳機及智慧手環品牌\n- **通路:** [[大聯大控股]] (WPG，代理經銷)",
+    "customers_suppliers_md": "### 主要客戶\n- **電競周邊:** [[Logitech]]、[[Razer]]、[[SteelSeries]] (光學滑鼠感測器)\n- **掃地機器人:** [[iRobot]]、[[石頭科技]]、[[科沃斯]] (光學導航)\n- **穿戴裝置:** TWS 耳機品牌 (觸控及心率感測)\n- **通路經銷:** [[大聯大控股]] (WPG)\n\n### 主要供應商\n- **晶圓代工:** 台灣晶圓代工廠\n- **封裝測試:** 半導體封測服務\n- **EDA/IP:** [[Cadence]]、[[Synopsys]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $181.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.53 |       14.04 |      3.06 | 2.40 |      9.75 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9127.08 |      8362.27 |      5844.52 |\n| Gross Profit            |      5529.98 |      5187.04 |      3366.30 |\n| Gross Margin (%)        |        60.59 |        62.03 |        57.60 |\n| Selling & Marketing Exp |       378.54 |       385.56 |       315.49 |\n| R&D Exp                 |      2687.24 |      2423.28 |      1805.94 |\n| General & Admin Exp     |       574.44 |       651.94 |       541.77 |\n| Operating Income        |      1889.75 |      1758.66 |       714.10 |\n| Operating Margin (%)    |        20.70 |        21.03 |        12.22 |\n| Net Income              |      1811.91 |      1815.42 |       799.40 |\n| Net Margin (%)          |        19.85 |        21.71 |        13.68 |\n| Op Cash Flow            |      2842.27 |      2509.49 |      1290.75 |\n| Investing Cash Flow     |       -84.36 |     -1029.23 |      -195.04 |\n| Financing Cash Flow     |     -1529.97 |      -706.88 |      -908.09 |\n| CAPEX                   |      -351.60 |      -289.27 |      -158.87 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2209.41 |      2286.72 |      2211.63 |      2279.97 |\n| Gross Profit            |      1314.23 |      1337.51 |      1311.33 |      1423.51 |\n| Gross Margin (%)        |        59.48 |        58.49 |        59.29 |        62.44 |\n| Selling & Marketing Exp |        96.62 |        94.78 |        92.50 |        88.81 |\n| R&D Exp                 |       689.33 |       701.57 |       696.43 |       608.62 |\n| General & Admin Exp     |       144.19 |       150.39 |       139.72 |       138.16 |\n| Operating Income        |       384.09 |       390.78 |       382.67 |       587.91 |\n| Operating Margin (%)    |        17.38 |        17.09 |        17.30 |        25.79 |\n| Net Income              |       389.91 |       458.44 |       441.95 |       366.32 |\n| Net Margin (%)          |        17.65 |        20.05 |        19.98 |        16.07 |\n| Op Cash Flow            |       449.09 |       978.73 |       667.12 |       403.15 |\n| Investing Cash Flow     |       -52.61 |      -136.01 |        41.63 |        92.14 |\n| Financing Cash Flow     |       -10.90 |       -10.34 |     -1498.88 |       -10.21 |\n| CAPEX                   |       -56.26 |      -106.20 |      -163.84 |       -54.02 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 18,
+    "warnings": []
+  }
+}

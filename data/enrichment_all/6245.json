@@ -1,0 +1,315 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6245",
+  "company_name": "立端",
+  "title": "6245_立端",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/6245_立端.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "11,347 百萬台幣",
+    "enterprise_value": "7,504 百萬台幣"
+  },
+  "business": {
+    "summary": "立端科技 (6245，[[Lanner Electronics]]) 為全球最大網路安全硬體平台製造商，全球市佔率逾四成，北美市場市佔更達約五成。公司專注於「網路安全硬體平台」及「電信邊緣運算 (Edge Computing)」兩大領域，總部位於台灣汐止。\n\n公司為全球各大資安軟體巨頭量身打造客製化硬體底座平台，產品採用 [[Intel]]、[[AMD]]、[[NVIDIA]] 等高階 CPU/GPU 晶片。2020 年[[台達電]] (Delta Electronics) 入股成為最大股東，提供電源管理及散熱技術支援。近年更與 [[NVIDIA]] 策略聯手發布 AstraEdge 邊緣 AI 伺服器平台，積極進軍 [[AI 伺服器]]邊緣運算及 [[5G]] SD-WAN 領域。所有高機敏性產線保留於台灣總部。",
+    "entities": [
+      "Lanner Electronics",
+      "Intel",
+      "AMD",
+      "NVIDIA",
+      "台達電",
+      "AI 伺服器",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (高階 CPU/GPU 與網通晶片)",
+        "text": "**上游 (高階 CPU/GPU 與網通晶片):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 伺服器級 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]] — 邊緣 AI 加速器 (H200)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "網通晶片",
+        "text": "千兆網通封包加速處理晶片",
+        "entities": []
+      },
+      {
+        "category": "記憶體/PCB",
+        "text": "高階 ECC DRAM 及多層高頻 PCB",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (網安硬體與邊緣運算平台)",
+        "text": "**中游 (網安硬體與邊緣運算平台):**",
+        "entities": []
+      },
+      {
+        "category": "資安平台",
+        "text": "**立端** (全球最大網路安全硬體平台，市佔逾四成)",
+        "entities": []
+      },
+      {
+        "category": "邊緣 AI",
+        "text": "**立端** (AstraEdge 邊緣 AI 伺服器，搭載 [[NVIDIA]] H200)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "台灣製造",
+        "text": "汐止總部月產能逾 5.6 萬台",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (資安軟體巨頭與電信營運商)",
+        "text": "**下游 (資安軟體巨頭與電信營運商):**",
+        "entities": []
+      },
+      {
+        "category": "資安軟體",
+        "text": "[[Cisco]]、[[Check Point]]、[[Juniper Networks]]、[[A10 Networks]] — 客製化硬體平台",
+        "entities": [
+          "Cisco",
+          "Check Point",
+          "Juniper Networks",
+          "A10 Networks"
+        ]
+      },
+      {
+        "category": "北美電信",
+        "text": "[[Verizon]]、[[AT&T]] — 5G SD-WAN 邊緣運算",
+        "entities": [
+          "Verizon",
+          "AT&T"
+        ]
+      },
+      {
+        "category": "國際電信",
+        "text": "[[Tata]] (印度)、[[Orange]] (歐洲) — 邊緣基站設備",
+        "entities": [
+          "Tata",
+          "Orange"
+        ]
+      },
+      {
+        "category": "最大股東",
+        "text": "[[台達電]] — 電源/散熱技術及製造支援",
+        "entities": [
+          "台達電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "資安軟體",
+        "text": "[[Cisco]]、[[Check Point]]、[[Juniper Networks]]、[[A10 Networks]] — 客製化網安硬體平台",
+        "entities": [
+          "Cisco",
+          "Check Point",
+          "Juniper Networks",
+          "A10 Networks"
+        ]
+      },
+      {
+        "role": "北美電信",
+        "text": "[[Verizon]]、[[AT&T]] — 5G SD-WAN 及邊緣運算",
+        "entities": [
+          "Verizon",
+          "AT&T"
+        ]
+      },
+      {
+        "role": "國際電信",
+        "text": "[[Tata]] 電信 (印度)、[[Orange]] (歐洲) — 邊緣基站",
+        "entities": [
+          "Tata",
+          "Orange"
+        ]
+      },
+      {
+        "role": "AI 合作",
+        "text": "[[NVIDIA]] — AstraEdge 邊緣 AI 伺服器聯合發布",
+        "entities": [
+          "NVIDIA"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[AMD]] — 伺服器級 CPU",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]] — 邊緣 AI 加速器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "最大股東",
+        "text": "[[台達電]] (Delta Electronics) — 電源管理/散熱/製造支援",
+        "entities": [
+          "台達電"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[研華]]",
+        "entities": [
+          "研華"
+        ],
+        "basis": "reciprocal_competitor_from:2395",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[威強電]]",
+        "entities": [
+          "威強電"
+        ],
+        "basis": "reciprocal_competitor_from:3022",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Lanner Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Lanner Electronics"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Check Point",
+      "type": "international_company_or_term",
+      "wikilink": "Check Point"
+    },
+    {
+      "name": "Juniper Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Juniper Networks"
+    },
+    {
+      "name": "A10 Networks",
+      "type": "international_company_or_term",
+      "wikilink": "A10 Networks"
+    },
+    {
+      "name": "Verizon",
+      "type": "international_company_or_term",
+      "wikilink": "Verizon"
+    },
+    {
+      "name": "AT&T",
+      "type": "international_company_or_term",
+      "wikilink": "AT&T"
+    },
+    {
+      "name": "Tata",
+      "type": "international_company_or_term",
+      "wikilink": "Tata"
+    },
+    {
+      "name": "Orange",
+      "type": "international_company_or_term",
+      "wikilink": "Orange"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "威強電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威強電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "立端科技 (6245，[[Lanner Electronics]]) 為全球最大網路安全硬體平台製造商，全球市佔率逾四成，北美市場市佔更達約五成。公司專注於「網路安全硬體平台」及「電信邊緣運算 (Edge Computing)」兩大領域，總部位於台灣汐止。\n\n公司為全球各大資安軟體巨頭量身打造客製化硬體底座平台，產品採用 [[Intel]]、[[AMD]]、[[NVIDIA]] 等高階 CPU/GPU 晶片。2020 年[[台達電]] (Delta Electronics) 入股成為最大股東，提供電源管理及散熱技術支援。近年更與 [[NVIDIA]] 策略聯手發布 AstraEdge 邊緣 AI 伺服器平台，積極進軍 [[AI 伺服器]]邊緣運算及 [[5G]] SD-WAN 領域。所有高機敏性產線保留於台灣總部。",
+    "supply_chain_md": "**上游 (高階 CPU/GPU 與網通晶片):**\n- **處理器:** [[Intel]]、[[AMD]] — 伺服器級 CPU\n- **GPU:** [[NVIDIA]] — 邊緣 AI 加速器 (H200)\n- **網通晶片:** 千兆網通封包加速處理晶片\n- **記憶體/PCB:** 高階 ECC DRAM 及多層高頻 PCB\n\n**中游 (網安硬體與邊緣運算平台):**\n- **資安平台:** **立端** (全球最大網路安全硬體平台，市佔逾四成)\n- **邊緣 AI:** **立端** (AstraEdge 邊緣 AI 伺服器，搭載 [[NVIDIA]] H200)\n- **台灣製造:** 汐止總部月產能逾 5.6 萬台\n\n**下游 (資安軟體巨頭與電信營運商):**\n- **資安軟體:** [[Cisco]]、[[Check Point]]、[[Juniper Networks]]、[[A10 Networks]] — 客製化硬體平台\n- **北美電信:** [[Verizon]]、[[AT&T]] — 5G SD-WAN 邊緣運算\n- **國際電信:** [[Tata]] (印度)、[[Orange]] (歐洲) — 邊緣基站設備\n- **最大股東:** [[台達電]] — 電源/散熱技術及製造支援",
+    "customers_suppliers_md": "### 主要客戶\n- **資安軟體:** [[Cisco]]、[[Check Point]]、[[Juniper Networks]]、[[A10 Networks]] — 客製化網安硬體平台\n- **北美電信:** [[Verizon]]、[[AT&T]] — 5G SD-WAN 及邊緣運算\n- **國際電信:** [[Tata]] 電信 (印度)、[[Orange]] (歐洲) — 邊緣基站\n- **AI 合作:** [[NVIDIA]] — AstraEdge 邊緣 AI 伺服器聯合發布\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[AMD]] — 伺服器級 CPU\n- **GPU:** [[NVIDIA]] — 邊緣 AI 加速器\n- **最大股東:** [[台達電]] (Delta Electronics) — 電源管理/散熱/製造支援",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $73.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.43 |         N/A |      1.54 | 1.70 |     10.59 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7187.81 |      7450.62 |      8371.34 |\n| Gross Profit            |      2275.68 |      2654.91 |      2818.86 |\n| Gross Margin (%)        |        31.66 |        35.63 |        33.67 |\n| Selling & Marketing Exp |       594.50 |       667.81 |       565.97 |\n| R&D Exp                 |       620.23 |       619.11 |       642.07 |\n| General & Admin Exp     |       437.78 |       390.57 |       450.12 |\n| Operating Income        |       623.18 |       977.43 |      1160.70 |\n| Operating Margin (%)    |         8.67 |        13.12 |        13.87 |\n| Net Income              |       642.15 |       890.81 |       987.42 |\n| Net Margin (%)          |         8.93 |        11.96 |        11.80 |\n| Op Cash Flow            |       847.05 |       503.30 |      2254.91 |\n| Investing Cash Flow     |     -1837.62 |      -137.86 |     -1136.74 |\n| Financing Cash Flow     |      -620.28 |      -640.21 |      -607.33 |\n| CAPEX                   |       -58.85 |       -88.05 |       -54.28 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1541.41 |      2010.60 |      1864.97 |      1607.83 |\n| Gross Profit            |       508.74 |       641.00 |       580.57 |       480.89 |\n| Gross Margin (%)        |        33.01 |        31.88 |        31.13 |        29.91 |\n| Selling & Marketing Exp |       139.82 |       153.62 |       137.37 |       154.83 |\n| R&D Exp                 |       137.24 |       145.37 |       168.78 |       148.19 |\n| General & Admin Exp     |       103.41 |       108.44 |       111.15 |       110.52 |\n| Operating Income        |       128.28 |       233.57 |       163.27 |        67.34 |\n| Operating Margin (%)    |         8.32 |        11.62 |         8.75 |         4.19 |\n| Net Income              |       109.43 |       219.25 |       157.31 |       109.19 |\n| Net Margin (%)          |         7.10 |        10.90 |         8.44 |         6.79 |\n| Op Cash Flow            |      -327.54 |       207.63 |       -37.11 |       275.22 |\n| Investing Cash Flow     |      -246.37 |      -598.67 |       417.36 |       266.68 |\n| Financing Cash Flow     |        -9.02 |        -8.77 |      -596.00 |       -10.75 |\n| CAPEX                   |        -9.15 |       -14.50 |       -14.33 |       -12.74 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

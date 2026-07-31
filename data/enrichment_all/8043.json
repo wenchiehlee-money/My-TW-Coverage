@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8043",
+  "company_name": "蜜望實",
+  "title": "8043 - 蜜望實",
+  "source_md": "Pilot_Reports/被動元件 - 電容器/8043_蜜望實.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "9,549 百萬台幣",
+    "enterprise_value": "11,188 百萬台幣"
+  },
+  "business": {
+    "summary": "蜜望實企業 (8043) 為台灣專業高階被動元件技術通路商，長期擔任日本 [[太陽誘電]] (Taiyo Yuden) 在台灣的核心代理商，專注於高容值 [[MLCC]] (積層陶瓷電容) 及電感產品之代理銷售與技術支援服務。\n\n公司不僅單純進行零件買賣，更提供產品參考設計與技術應用諮詢，協助客戶選擇最適電子零組件方案。近年受惠於 [[AI 伺服器]] 對高溫、高可靠度 [[MLCC]] 元件的爆發性需求 (通用伺服器約使用 2,000 顆 [[MLCC]]，[[AI 伺服器]] 跳升至 2 萬顆，GB300 機櫃更高達 45 萬顆)，AI 相關營收占比已達四成。此外，公司亦積極拓展 [[電動車]]、[[5G]] 通訊設備、物聯網及 E-Bike 等高成長應用領域。",
+    "entities": [
+      "太陽誘電",
+      "MLCC",
+      "AI 伺服器",
+      "電動車",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (被動元件原廠)",
+        "text": "**上游 (被動元件原廠):**",
+        "entities": []
+      },
+      {
+        "category": "[[MLCC]] 與電感",
+        "text": "[[太陽誘電]] (Taiyo Yuden) — 高容值 [[MLCC]] 及電感之核心原廠供應商",
+        "entities": [
+          "MLCC",
+          "太陽誘電"
+        ]
+      },
+      {
+        "category": "電源管理IC",
+        "text": "國際 PMIC 原廠",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (技術通路)",
+        "text": "**中游 (技術通路):**",
+        "entities": []
+      },
+      {
+        "category": "被動元件代理",
+        "text": "**蜜望實** (高階 [[MLCC]]、電感及 PMIC 之技術代理與專業通路銷售)",
+        "entities": [
+          "MLCC"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[AI 伺服器]] ODM/OEM 代工廠 — [[MLCC]] 用量爆增",
+        "entities": [
+          "AI 伺服器",
+          "MLCC"
+        ]
+      },
+      {
+        "category": "通訊設備",
+        "text": "[[5G]] 基地台與網通設備廠",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "category": "車用電子",
+        "text": "[[電動車]] 電子零組件廠",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "category": "消費電子",
+        "text": "筆電、E-Bike、IoT 等終端產品製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 伺服器",
+        "text": "台灣 [[AI 伺服器]] ODM 廠 — AI 營收占比達四成",
+        "entities": [
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "通訊設備",
+        "text": "[[5G]] 通訊與網通設備製造商",
+        "entities": [
+          "5G"
+        ]
+      },
+      {
+        "role": "車用電子",
+        "text": "[[電動車]] 電力系統零組件廠",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "role": "消費電子",
+        "text": "筆電、E-Bike 等終端電子產品組裝廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[MLCC]] 與電感",
+        "text": "[[太陽誘電]] (Taiyo Yuden) — 長期獨家核心原廠合作夥伴",
+        "entities": [
+          "MLCC",
+          "太陽誘電"
+        ]
+      },
+      {
+        "role": "其他被動元件",
+        "text": "國際被動元件與 PMIC 原廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "太陽誘電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽誘電"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "蜜望實企業 (8043) 為台灣專業高階被動元件技術通路商，長期擔任日本 [[太陽誘電]] (Taiyo Yuden) 在台灣的核心代理商，專注於高容值 [[MLCC]] (積層陶瓷電容) 及電感產品之代理銷售與技術支援服務。\n\n公司不僅單純進行零件買賣，更提供產品參考設計與技術應用諮詢，協助客戶選擇最適電子零組件方案。近年受惠於 [[AI 伺服器]] 對高溫、高可靠度 [[MLCC]] 元件的爆發性需求 (通用伺服器約使用 2,000 顆 [[MLCC]]，[[AI 伺服器]] 跳升至 2 萬顆，GB300 機櫃更高達 45 萬顆)，AI 相關營收占比已達四成。此外，公司亦積極拓展 [[電動車]]、[[5G]] 通訊設備、物聯網及 E-Bike 等高成長應用領域。",
+    "supply_chain_md": "**上游 (被動元件原廠):**\n- **[[MLCC]] 與電感:** [[太陽誘電]] (Taiyo Yuden) — 高容值 [[MLCC]] 及電感之核心原廠供應商\n- **電源管理IC:** 國際 PMIC 原廠\n\n**中游 (技術通路):**\n- **被動元件代理:** **蜜望實** (高階 [[MLCC]]、電感及 PMIC 之技術代理與專業通路銷售)\n\n**下游 (終端應用):**\n- **AI 伺服器:** [[AI 伺服器]] ODM/OEM 代工廠 — [[MLCC]] 用量爆增\n- **通訊設備:** [[5G]] 基地台與網通設備廠\n- **車用電子:** [[電動車]] 電子零組件廠\n- **消費電子:** 筆電、E-Bike、IoT 等終端產品製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 伺服器:** 台灣 [[AI 伺服器]] ODM 廠 — AI 營收占比達四成\n- **通訊設備:** [[5G]] 通訊與網通設備製造商\n- **車用電子:** [[電動車]] 電力系統零組件廠\n- **消費電子:** 筆電、E-Bike 等終端電子產品組裝廠\n\n### 主要供應商\n- **[[MLCC]] 與電感:** [[太陽誘電]] (Taiyo Yuden) — 長期獨家核心原廠合作夥伴\n- **其他被動元件:** 國際被動元件與 PMIC 原廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $115.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     34.64 |         N/A |      1.46 | 3.27 |     98.41 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      5426.26 |      4688.01 |      4885.67 |\n| Gross Profit            |       305.13 |       209.69 |       135.75 |\n| Gross Margin (%)        |         5.62 |         4.47 |         2.78 |\n| Selling & Marketing Exp |       162.18 |       131.94 |       124.38 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        80.47 |        86.42 |        72.59 |\n| Operating Income        |        62.47 |        -8.66 |       -61.22 |\n| Operating Margin (%)    |         1.15 |        -0.18 |        -1.25 |\n| Net Income              |       133.51 |       121.38 |       -19.06 |\n| Net Margin (%)          |         2.46 |         2.59 |        -0.39 |\n| Op Cash Flow            |      -499.97 |      -237.38 |       610.24 |\n| Investing Cash Flow     |       127.33 |       297.30 |      -397.99 |\n| Financing Cash Flow     |       407.37 |       116.35 |       -91.16 |\n| CAPEX                   |       -10.22 |       -10.63 |       -11.46 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1902.77 |      1816.27 |      1337.72 |      1219.65 |\n| Gross Profit            |       135.23 |       158.25 |        66.02 |        20.61 |\n| Gross Margin (%)        |         7.11 |         8.71 |         4.94 |         1.69 |\n| Selling & Marketing Exp |        57.35 |        67.21 |        37.15 |        29.53 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        26.75 |        28.24 |        17.88 |        16.94 |\n| Operating Income        |        51.13 |        62.80 |        11.00 |       -25.86 |\n| Operating Margin (%)    |         2.69 |         3.46 |         0.82 |        -2.12 |\n| Net Income              |       107.73 |       126.75 |        67.68 |       -35.94 |\n| Net Margin (%)          |         5.66 |         6.98 |         5.06 |        -2.95 |\n| Op Cash Flow            |     -1854.12 |       -26.01 |      -405.82 |        43.44 |\n| Investing Cash Flow     |       -46.34 |        -5.11 |        59.90 |        56.77 |\n| Financing Cash Flow     |      1971.94 |       117.57 |       286.08 |       -11.99 |\n| CAPEX                   |        -3.89 |        -5.20 |        -0.25 |        -2.75 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

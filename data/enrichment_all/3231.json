@@ -1,0 +1,363 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3231",
+  "company_name": "緯創",
+  "title": "3231 - [[緯創]]",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 桌上型電腦/3231_緯創.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "539,019 百萬台幣",
+    "enterprise_value": "977,834 百萬台幣"
+  },
+  "business": {
+    "summary": "[[緯創]]資通 (3231，[[緯創]]) 為全球前三大 ICT 資訊產品代工廠，由 [[宏碁]] 集團拆分而來。近年公司積極執行精實策略，出售低毛利手機業務，全力投入 [[AI 伺服器]]與高價值產品領域，成功轉型為 AI 伺服器核心供應商。\n\n核心業務與成長引擎：(1) AI 伺服器 GPU 基板 — 為 [[NVIDIA]] 最關鍵供應商之一，獨家供應 DGX 系統 GPU 基板 (Baseboard) 與相關算力模組；(2) 集團綜效 — 子公司 [[緯穎]] 專攻超大型 [[CSP]] 資料中心直銷，[[緯創]]提供關鍵零組件與製造能力；(3) 邊緣運算與車用 — 布局車載電腦系統與工業用手持裝置，逐步拉升獲利空間。",
+    "entities": [
+      "緯創",
+      "宏碁",
+      "AI 伺服器",
+      "NVIDIA",
+      "緯穎",
+      "CSP"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (關鍵晶片與零組件)",
+        "text": "**上游 (關鍵晶片與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]] — AI 伺服器核心晶片合作夥伴",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 伺服器與筆電處理器",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK Hynix]]、[[Micron]] — [[HBM]]/[[DDR5]] 伺服器記憶體",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Micron",
+          "HBM",
+          "DDR5"
+        ]
+      },
+      {
+        "category": "基板",
+        "text": "[[ABF 載板]]供應商",
+        "entities": [
+          "ABF 載板"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統組裝/ODM)",
+        "text": "**中游 (系統組裝/ODM):**",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**[[緯創]]** ([[NVIDIA]] DGX 系統 GPU 基板製造)",
+        "entities": [
+          "緯創",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "筆電/桌機",
+        "text": "**[[緯創]]** (品牌客戶 ODM 代工)",
+        "entities": [
+          "緯創"
+        ]
+      },
+      {
+        "category": "子公司",
+        "text": "[[緯穎]] — CSP 伺服器直銷",
+        "entities": [
+          "緯穎"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端品牌與雲端巨頭)",
+        "text": "**下游 (終端品牌與雲端巨頭):**",
+        "entities": []
+      },
+      {
+        "category": "AI 算力",
+        "text": "[[NVIDIA]] — DGX 系統",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "CSP 雲端",
+        "text": "[[Meta]]、[[Microsoft]]、[[Google]] — AI 資料中心",
+        "entities": [
+          "Meta",
+          "Microsoft",
+          "Google"
+        ]
+      },
+      {
+        "category": "PC 品牌",
+        "text": "[[Dell]]、[[HP]]、[[Lenovo]] — 筆電/桌機 ODM",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AI 核心",
+        "text": "[[NVIDIA]] — DGX 系統 GPU 基板獨家供應",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "CSP 雲端",
+        "text": "[[Meta]]、[[Microsoft]]、[[Google]] — AI 伺服器 (部分透過[[緯穎]])",
+        "entities": [
+          "Meta",
+          "Microsoft",
+          "Google",
+          "緯穎"
+        ]
+      },
+      {
+        "role": "PC 品牌",
+        "text": "[[Dell]]、[[HP]]、[[Lenovo]] — 筆電/桌機 ODM",
+        "entities": [
+          "Dell",
+          "HP",
+          "Lenovo"
+        ]
+      },
+      {
+        "role": "車用/工控",
+        "text": "車載電腦與工業手持裝置客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]] — AI 伺服器核心晶片",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 處理器",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK Hynix]]、[[Micron]] — [[HBM]]/DDR5",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "role": "基板",
+        "text": "[[ABF 載板]]供應商",
+        "entities": [
+          "ABF 載板"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "ODM與伺服器同業",
+        "text": "[[廣達]]、[[鴻海]]、[[仁寶]]、[[英業達]]、[[和碩]]、[[緯穎]]",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "仁寶",
+          "英業達",
+          "和碩",
+          "緯穎"
+        ],
+        "basis": "curated_odm_server_peer_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "緯穎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯穎"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "DDR5",
+      "type": "international_company_or_term",
+      "wikilink": "DDR5"
+    },
+    {
+      "name": "ABF 載板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "ABF 載板"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[緯創]]資通 (3231，[[緯創]]) 為全球前三大 ICT 資訊產品代工廠，由 [[宏碁]] 集團拆分而來。近年公司積極執行精實策略，出售低毛利手機業務，全力投入 [[AI 伺服器]]與高價值產品領域，成功轉型為 AI 伺服器核心供應商。\n\n核心業務與成長引擎：(1) AI 伺服器 GPU 基板 — 為 [[NVIDIA]] 最關鍵供應商之一，獨家供應 DGX 系統 GPU 基板 (Baseboard) 與相關算力模組；(2) 集團綜效 — 子公司 [[緯穎]] 專攻超大型 [[CSP]] 資料中心直銷，[[緯創]]提供關鍵零組件與製造能力；(3) 邊緣運算與車用 — 布局車載電腦系統與工業用手持裝置，逐步拉升獲利空間。",
+    "supply_chain_md": "**上游 (關鍵晶片與零組件):**\n- **GPU:** [[NVIDIA]] — AI 伺服器核心晶片合作夥伴\n- **CPU:** [[Intel]]、[[AMD]] — 伺服器與筆電處理器\n- **記憶體:** [[Samsung]]、[[SK Hynix]]、[[Micron]] — [[HBM]]/[[DDR5]] 伺服器記憶體\n- **基板:** [[ABF 載板]]供應商\n\n**中游 (系統組裝/ODM):**\n- **AI 伺服器:** **[[緯創]]** ([[NVIDIA]] DGX 系統 GPU 基板製造)\n- **筆電/桌機:** **[[緯創]]** (品牌客戶 ODM 代工)\n- **子公司:** [[緯穎]] — CSP 伺服器直銷\n\n**下游 (終端品牌與雲端巨頭):**\n- **AI 算力:** [[NVIDIA]] — DGX 系統\n- **CSP 雲端:** [[Meta]]、[[Microsoft]]、[[Google]] — AI 資料中心\n- **PC 品牌:** [[Dell]]、[[HP]]、[[Lenovo]] — 筆電/桌機 ODM",
+    "customers_suppliers_md": "### 主要客戶\n- **AI 核心:** [[NVIDIA]] — DGX 系統 GPU 基板獨家供應\n- **CSP 雲端:** [[Meta]]、[[Microsoft]]、[[Google]] — AI 伺服器 (部分透過[[緯穎]])\n- **PC 品牌:** [[Dell]]、[[HP]]、[[Lenovo]] — 筆電/桌機 ODM\n- **車用/工控:** 車載電腦與工業手持裝置客戶\n\n### 主要供應商\n- **GPU:** [[NVIDIA]] — AI 伺服器核心晶片\n- **CPU:** [[Intel]]、[[AMD]] — 處理器\n- **記憶體:** [[Samsung]]、[[SK Hynix]]、[[Micron]] — [[HBM]]/DDR5\n- **基板:** [[ABF 載板]]供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $160.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.86 |        8.89 |      0.19 | 2.68 |      9.10 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |   2186522.64 |   1049255.78 |    867057.01 |\n| Gross Profit            |    133983.37 |     84090.84 |     68982.87 |\n| Gross Margin (%)        |         6.13 |         8.01 |         7.96 |\n| Selling & Marketing Exp |     14228.81 |     12240.42 |     10828.13 |\n| R&D Exp                 |     31371.18 |     25971.40 |     23894.25 |\n| General & Admin Exp     |      9829.88 |      6900.50 |      6870.23 |\n| Operating Income        |     78553.50 |     38978.53 |     27390.26 |\n| Operating Margin (%)    |         3.59 |         3.71 |         3.16 |\n| Net Income              |     27408.10 |     17445.59 |     11471.62 |\n| Net Margin (%)          |         1.25 |         1.66 |         1.32 |\n| Op Cash Flow            |   -105809.66 |      5749.83 |     48219.02 |\n| Investing Cash Flow     |    -43513.15 |    -20093.94 |    -14664.66 |\n| Financing Cash Flow     |    217194.81 |     12854.96 |    -23204.65 |\n| CAPEX                   |    -41112.04 |    -17823.59 |    -13764.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    846303.03 |    720940.83 |    567805.28 |    551291.45 |\n| Gross Profit            |     44093.95 |     40509.47 |     41964.85 |     24453.49 |\n| Gross Margin (%)        |         5.21 |         5.62 |         7.39 |         4.44 |\n| Selling & Marketing Exp |      4307.17 |      3683.82 |      3493.16 |      3692.31 |\n| R&D Exp                 |      7633.91 |      8331.08 |      8913.84 |      7785.03 |\n| General & Admin Exp     |      3015.60 |      3020.85 |      2415.37 |      2188.80 |\n| Operating Income        |     29137.26 |     25473.72 |     27142.49 |     10787.34 |\n| Operating Margin (%)    |         3.44 |         3.53 |         4.78 |         1.96 |\n| Net Income              |      9630.74 |      8166.51 |      7406.24 |      6503.89 |\n| Net Margin (%)          |         1.14 |         1.13 |         1.30 |         1.18 |\n| Op Cash Flow            |   -140605.53 |     70838.55 |    -38549.89 |   -110873.90 |\n| Investing Cash Flow     |    -13635.00 |    -13563.68 |    -17329.94 |     -6899.40 |\n| Financing Cash Flow     |    106812.38 |      6079.36 |     47197.61 |    134781.33 |\n| CAPEX                   |     -9714.50 |    -12079.07 |    -14401.83 |    -10395.67 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 20,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

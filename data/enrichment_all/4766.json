@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4766",
+  "company_name": "南寶",
+  "title": "4766 - 南寶",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 接著劑(合成樹脂)/4766_南寶.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "37,377 百萬台幣",
+    "enterprise_value": "36,785 百萬台幣"
+  },
+  "business": {
+    "summary": "南寶樹脂 (4766，Nan Pao Resins) 為台灣化學材料集團，全球鞋用接著劑市佔第一 (Tier-1 品牌市佔約 50%)，獲[[Nike]]頒發「整體卓越供應商」獎。三大成長引擎：(1) 鞋材接著劑 — 供應[[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]]品牌代工體系 ([[寶成]]、[[豐泰]]、[[鈺齊-KY]])；(2) 半導體製程膠帶 — UV 解黏膠帶供應[[台積電]]晶圓切割/研磨供應鏈；(3) [[碳纖維]]複合材料 — 2022 年收購中國裕博自行車碳纖維樹脂事業，供應[[巨大機械]]、[[美利達]]。綠色產品佔營收 63%。",
+    "entities": [
+      "Nike",
+      "Adidas",
+      "Under Armour",
+      "New Balance",
+      "Timberland",
+      "寶成",
+      "豐泰",
+      "鈺齊-KY",
+      "台積電",
+      "碳纖維",
+      "巨大機械",
+      "美利達"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "石化單體",
+        "text": "丙烯酸/溶劑",
+        "entities": []
+      },
+      {
+        "category": "碳纖維布",
+        "text": "[[碳纖維]]布供應商",
+        "entities": [
+          "碳纖維"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**南寶** (鞋用接著劑/半導體膠帶/[[碳纖維]]樹脂/UV 固化材料)",
+        "entities": [
+          "碳纖維"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "鞋材 (全球第一)",
+        "text": "[[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]",
+        "entities": [
+          "Nike",
+          "Adidas",
+          "Under Armour",
+          "New Balance",
+          "Timberland",
+          "寶成",
+          "豐泰",
+          "鈺齊-KY"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]] — UV 解黏膠帶",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "碳纖維",
+        "text": "[[巨大機械]]、[[美利達]] — 自行車碳纖維",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鞋材",
+        "text": "[[Nike]] (卓越供應商)、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]",
+        "entities": [
+          "Nike",
+          "Adidas",
+          "Under Armour",
+          "New Balance",
+          "Timberland",
+          "寶成",
+          "豐泰",
+          "鈺齊-KY"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "[[台積電]] — UV 解黏膠帶",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "碳纖維",
+        "text": "[[巨大機械]]、[[美利達]] — 自行車碳纖維樹脂",
+        "entities": [
+          "巨大機械",
+          "美利達"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "石化",
+        "text": "丙烯酸/溶劑供應商",
+        "entities": []
+      },
+      {
+        "role": "碳纖維",
+        "text": "碳纖維布供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Adidas",
+      "type": "international_company_or_term",
+      "wikilink": "Adidas"
+    },
+    {
+      "name": "Under Armour",
+      "type": "international_company_or_term",
+      "wikilink": "Under Armour"
+    },
+    {
+      "name": "New Balance",
+      "type": "international_company_or_term",
+      "wikilink": "New Balance"
+    },
+    {
+      "name": "Timberland",
+      "type": "international_company_or_term",
+      "wikilink": "Timberland"
+    },
+    {
+      "name": "寶成",
+      "type": "taiwan_company_or_term",
+      "wikilink": "寶成"
+    },
+    {
+      "name": "豐泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "豐泰"
+    },
+    {
+      "name": "鈺齊-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鈺齊-KY"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "碳纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "碳纖維"
+    },
+    {
+      "name": "巨大機械",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨大機械"
+    },
+    {
+      "name": "美利達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "美利達"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "南寶樹脂 (4766，Nan Pao Resins) 為台灣化學材料集團，全球鞋用接著劑市佔第一 (Tier-1 品牌市佔約 50%)，獲[[Nike]]頒發「整體卓越供應商」獎。三大成長引擎：(1) 鞋材接著劑 — 供應[[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]]品牌代工體系 ([[寶成]]、[[豐泰]]、[[鈺齊-KY]])；(2) 半導體製程膠帶 — UV 解黏膠帶供應[[台積電]]晶圓切割/研磨供應鏈；(3) [[碳纖維]]複合材料 — 2022 年收購中國裕博自行車碳纖維樹脂事業，供應[[巨大機械]]、[[美利達]]。綠色產品佔營收 63%。",
+    "supply_chain_md": "**上游 (原料):**\n- **石化單體:** 丙烯酸/溶劑\n- **碳纖維布:** [[碳纖維]]布供應商\n\n**中游 (製造):**\n- **南寶** (鞋用接著劑/半導體膠帶/[[碳纖維]]樹脂/UV 固化材料)\n\n**下游 (終端):**\n- **鞋材 (全球第一):** [[Nike]]、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]\n- **半導體:** [[台積電]] — UV 解黏膠帶\n- **碳纖維:** [[巨大機械]]、[[美利達]] — 自行車碳纖維",
+    "customers_suppliers_md": "### 主要客戶\n- **鞋材:** [[Nike]] (卓越供應商)、[[Adidas]]、[[Under Armour]]、[[New Balance]]、[[Timberland]] — 代工廠[[寶成]]、[[豐泰]]、[[鈺齊-KY]]\n- **半導體:** [[台積電]] — UV 解黏膠帶\n- **碳纖維:** [[巨大機械]]、[[美利達]] — 自行車碳纖維樹脂\n\n### 主要供應商\n- **石化:** 丙烯酸/溶劑供應商\n- **碳纖維:** 碳纖維布供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $308.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.26 |       12.65 |      1.58 | 2.85 |      7.96 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     23200.30 |     22982.60 |     20581.19 |\n| Gross Profit            |      7916.03 |      7522.26 |      6490.46 |\n| Gross Margin (%)        |        34.12 |        32.73 |        31.54 |\n| Selling & Marketing Exp |      2269.91 |      2157.87 |      1998.30 |\n| R&D Exp                 |       555.81 |       543.03 |       519.40 |\n| General & Admin Exp     |      1239.45 |      1185.59 |       978.93 |\n| Operating Income        |      3850.86 |      3635.77 |      2993.83 |\n| Operating Margin (%)    |        16.60 |        15.82 |        14.55 |\n| Net Income              |      2441.95 |      2684.26 |      2428.22 |\n| Net Margin (%)          |        10.53 |        11.68 |        11.80 |\n| Op Cash Flow            |      3365.30 |      2802.12 |      3128.99 |\n| Investing Cash Flow     |      -937.51 |      -644.95 |      -792.10 |\n| Financing Cash Flow     |     -1753.86 |       -34.77 |     -1736.91 |\n| CAPEX                   |      -656.62 |      -630.30 |      -700.89 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      5930.14 |      5910.26 |      5805.42 |      5554.48 |\n| Gross Profit            |      2000.83 |      2000.85 |      2002.50 |      1911.85 |\n| Gross Margin (%)        |        33.74 |        33.85 |        34.49 |        34.42 |\n| Selling & Marketing Exp |       571.19 |       580.88 |       560.49 |       557.34 |\n| R&D Exp                 |       138.42 |       136.48 |       140.76 |       140.15 |\n| General & Admin Exp     |       309.15 |       308.51 |       311.77 |       310.02 |\n| Operating Income        |       982.06 |       974.98 |       989.48 |       904.34 |\n| Operating Margin (%)    |        16.56 |        16.50 |        17.04 |        16.28 |\n| Net Income              |       560.47 |       599.01 |       553.54 |       728.92 |\n| Net Margin (%)          |         9.45 |        10.14 |         9.53 |        13.12 |\n| Op Cash Flow            |      1148.11 |       848.06 |       791.34 |       577.79 |\n| Investing Cash Flow     |      -252.70 |      -170.80 |      -327.85 |      -186.16 |\n| Financing Cash Flow     |      -528.50 |     -1254.18 |      -405.46 |       434.28 |\n| CAPEX                   |      -138.87 |      -126.77 |      -260.05 |      -130.93 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

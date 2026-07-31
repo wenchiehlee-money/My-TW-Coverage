@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2249",
+  "company_name": "湧盛",
+  "title": "2249 - 湧盛",
+  "source_md": "Pilot_Reports/汽車 - 其他/2249_湧盛.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,592 百萬台幣",
+    "enterprise_value": "2,107 百萬台幣"
+  },
+  "business": {
+    "summary": "湧盛精密工業 (2249) 為台灣最大汽車空調壓縮機製造商，佔台灣壓縮機出口量逾 95%。產品以 AM (售後市場) 為主，生產相容於[[Denso]]及[[Sanden]]規格之壓縮機，適用於[[Mercedes-Benz]]、[[BMW]]、[[Audi]]、[[Porsche]]、[[Volvo]]、[[Toyota]]、[[Honda]]等歐日系車款。產品行銷全球 AM 通路。",
+    "entities": [
+      "Denso",
+      "Sanden",
+      "Mercedes-Benz",
+      "BMW",
+      "Audi",
+      "Porsche",
+      "Volvo",
+      "Toyota",
+      "Honda"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "鋁壓鑄件",
+        "text": "鋁合金壓鑄零件供應商",
+        "entities": []
+      },
+      {
+        "category": "精密加工件",
+        "text": "精密機械加工零組件",
+        "entities": []
+      },
+      {
+        "category": "電控閥",
+        "text": "電子控制閥供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**湧盛** (汽車空調壓縮機製造，相容[[Denso]]/[[Sanden]]規格)",
+        "entities": [
+          "Denso",
+          "Sanden"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (AM 通路)",
+        "text": "**下游 (AM 通路):**",
+        "entities": []
+      },
+      {
+        "category": "全球 AM",
+        "text": "經銷商服務[[Mercedes-Benz]]、[[BMW]]、[[Audi]]、[[Porsche]]、[[Volvo]]、[[Toyota]]、[[Honda]]車款",
+        "entities": [
+          "Mercedes-Benz",
+          "BMW",
+          "Audi",
+          "Porsche",
+          "Volvo",
+          "Toyota",
+          "Honda"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "全球 AM",
+        "text": "汽車空調壓縮機經銷商 — 服務[[Mercedes-Benz]]、[[BMW]]、[[Audi]]、[[Porsche]]、[[Volvo]]、[[Toyota]]、[[Honda]]等車款",
+        "entities": [
+          "Mercedes-Benz",
+          "BMW",
+          "Audi",
+          "Porsche",
+          "Volvo",
+          "Toyota",
+          "Honda"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "壓縮機規格",
+        "text": "相容[[Denso]]、[[Sanden]]規格",
+        "entities": [
+          "Denso",
+          "Sanden"
+        ]
+      },
+      {
+        "role": "零組件",
+        "text": "鋁壓鑄件、精密加工件、電控閥",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Denso",
+      "type": "international_company_or_term",
+      "wikilink": "Denso"
+    },
+    {
+      "name": "Sanden",
+      "type": "international_company_or_term",
+      "wikilink": "Sanden"
+    },
+    {
+      "name": "Mercedes-Benz",
+      "type": "international_company_or_term",
+      "wikilink": "Mercedes-Benz"
+    },
+    {
+      "name": "BMW",
+      "type": "international_company_or_term",
+      "wikilink": "BMW"
+    },
+    {
+      "name": "Audi",
+      "type": "international_company_or_term",
+      "wikilink": "Audi"
+    },
+    {
+      "name": "Porsche",
+      "type": "international_company_or_term",
+      "wikilink": "Porsche"
+    },
+    {
+      "name": "Volvo",
+      "type": "international_company_or_term",
+      "wikilink": "Volvo"
+    },
+    {
+      "name": "Toyota",
+      "type": "international_company_or_term",
+      "wikilink": "Toyota"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "湧盛精密工業 (2249) 為台灣最大汽車空調壓縮機製造商，佔台灣壓縮機出口量逾 95%。產品以 AM (售後市場) 為主，生產相容於[[Denso]]及[[Sanden]]規格之壓縮機，適用於[[Mercedes-Benz]]、[[BMW]]、[[Audi]]、[[Porsche]]、[[Volvo]]、[[Toyota]]、[[Honda]]等歐日系車款。產品行銷全球 AM 通路。",
+    "supply_chain_md": "**上游 (零組件):**\n- **鋁壓鑄件:** 鋁合金壓鑄零件供應商\n- **精密加工件:** 精密機械加工零組件\n- **電控閥:** 電子控制閥供應商\n\n**中游 (製造):**\n- **湧盛** (汽車空調壓縮機製造，相容[[Denso]]/[[Sanden]]規格)\n\n**下游 (AM 通路):**\n- **全球 AM:** 經銷商服務[[Mercedes-Benz]]、[[BMW]]、[[Audi]]、[[Porsche]]、[[Volvo]]、[[Toyota]]、[[Honda]]車款",
+    "customers_suppliers_md": "### 主要客戶\n- **全球 AM:** 汽車空調壓縮機經銷商 — 服務[[Mercedes-Benz]]、[[BMW]]、[[Audi]]、[[Porsche]]、[[Volvo]]、[[Toyota]]、[[Honda]]等車款\n\n### 主要供應商\n- **壓縮機規格:** 相容[[Denso]]、[[Sanden]]規格\n- **零組件:** 鋁壓鑄件、精密加工件、電控閥",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $102.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      9.06 |         N/A |      1.07 | 1.84 |      5.29 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2635.64 |      2923.48 |      2095.56 |\n| Gross Profit            |       594.66 |       554.06 |       385.39 |\n| Gross Margin (%)        |        22.56 |        18.95 |        18.39 |\n| Selling & Marketing Exp |       120.09 |       113.28 |        88.92 |\n| R&D Exp                 |        23.06 |        22.60 |        23.89 |\n| General & Admin Exp     |        50.21 |        41.69 |        36.69 |\n| Operating Income        |       401.30 |       376.49 |       235.89 |\n| Operating Margin (%)    |        15.23 |        12.88 |        11.26 |\n| Net Income              |       289.54 |       341.37 |       197.02 |\n| Net Margin (%)          |        10.99 |        11.68 |         9.40 |\n| Op Cash Flow            |       203.41 |       219.61 |       450.50 |\n| Investing Cash Flow     |      -364.25 |       -21.42 |       -26.33 |\n| Financing Cash Flow     |       -99.45 |         1.23 |      -105.00 |\n| CAPEX                   |       -33.44 |       -23.59 |       -23.94 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

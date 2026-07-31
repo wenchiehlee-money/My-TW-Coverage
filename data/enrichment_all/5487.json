@@ -1,0 +1,194 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5487",
+  "company_name": "通泰",
+  "title": "5487 - 通泰",
+  "source_md": "Pilot_Reports/半導體 - IC設計/5487_通泰.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "678 百萬台幣",
+    "enterprise_value": "295 百萬台幣"
+  },
+  "business": {
+    "summary": "通泰積體電路 (5487，[[TonTek]]) 成立於 1986 年，為專注於消費性 IC 設計的 Fabless 公司。\n\n主要產品：(1) 觸摸開關 IC — 電容式觸控 IC，廣泛應用於家電及行動裝置面板；(2) [[MCU]] 微控制器 — 通用型與特定應用微控制器；(3) 健康量測 IC — 應用於血壓計、體溫計等健康醫療裝置；(4) 綠色節能 IC — [[LED]] 驅動 IC、PIR 人體感測 IC，應用於節能照明與安防系統。採 Fabless 模式，晶圓代工委託台灣成熟製程代工廠，封測委外處理。",
+    "entities": [
+      "TonTek",
+      "MCU",
+      "LED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[聯電]]、[[世界先進]] — 成熟製程代工",
+        "entities": [
+          "聯電",
+          "世界先進"
+        ]
+      },
+      {
+        "category": "封裝測試",
+        "text": "封測廠 — IC 封裝與測試服務",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "觸控 IC",
+        "text": "**通泰** (電容式觸控開關 IC)",
+        "entities": []
+      },
+      {
+        "category": "[[MCU]]",
+        "text": "**通泰** (微控制器設計)",
+        "entities": [
+          "MCU"
+        ]
+      },
+      {
+        "category": "感測 IC",
+        "text": "**通泰** ([[LED]] 驅動/PIR 感測 IC)",
+        "entities": [
+          "LED"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "家電",
+        "text": "家電製造商 — 觸控面板 IC",
+        "entities": []
+      },
+      {
+        "category": "健康醫療",
+        "text": "醫療器材廠 — 血壓計/體溫計 IC",
+        "entities": []
+      },
+      {
+        "category": "照明",
+        "text": "[[LED]] 照明廠 — 驅動 IC",
+        "entities": [
+          "LED"
+        ]
+      },
+      {
+        "category": "安防",
+        "text": "安防設備廠 — PIR 感測 IC",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "家電",
+        "text": "家電製造商 — 電容式觸控面板 IC",
+        "entities": []
+      },
+      {
+        "role": "健康醫療",
+        "text": "醫療器材 OEM/ODM 廠 — 健康量測 IC",
+        "entities": []
+      },
+      {
+        "role": "照明",
+        "text": "[[LED]] 照明廠 — 驅動 IC",
+        "entities": [
+          "LED"
+        ]
+      },
+      {
+        "role": "安防/玩具",
+        "text": "安防設備與玩具製造商 — PIR 感測 IC",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[聯電]]、[[世界先進]] — 成熟製程晶圓代工",
+        "entities": [
+          "聯電",
+          "世界先進"
+        ]
+      },
+      {
+        "role": "封裝測試",
+        "text": "封測服務供應商",
+        "entities": []
+      },
+      {
+        "role": "IC 設計工具",
+        "text": "EDA 工具供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "TonTek",
+      "type": "international_company_or_term",
+      "wikilink": "TonTek"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "世界先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界先進"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "通泰積體電路 (5487，[[TonTek]]) 成立於 1986 年，為專注於消費性 IC 設計的 Fabless 公司。\n\n主要產品：(1) 觸摸開關 IC — 電容式觸控 IC，廣泛應用於家電及行動裝置面板；(2) [[MCU]] 微控制器 — 通用型與特定應用微控制器；(3) 健康量測 IC — 應用於血壓計、體溫計等健康醫療裝置；(4) 綠色節能 IC — [[LED]] 驅動 IC、PIR 人體感測 IC，應用於節能照明與安防系統。採 Fabless 模式，晶圓代工委託台灣成熟製程代工廠，封測委外處理。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **晶圓代工:** [[聯電]]、[[世界先進]] — 成熟製程代工\n- **封裝測試:** 封測廠 — IC 封裝與測試服務\n\n**中游 (IC 設計):**\n- **觸控 IC:** **通泰** (電容式觸控開關 IC)\n- **[[MCU]]:** **通泰** (微控制器設計)\n- **感測 IC:** **通泰** ([[LED]] 驅動/PIR 感測 IC)\n\n**下游 (終端應用):**\n- **家電:** 家電製造商 — 觸控面板 IC\n- **健康醫療:** 醫療器材廠 — 血壓計/體溫計 IC\n- **照明:** [[LED]] 照明廠 — 驅動 IC\n- **安防:** 安防設備廠 — PIR 感測 IC",
+    "customers_suppliers_md": "### 主要客戶\n- **家電:** 家電製造商 — 電容式觸控面板 IC\n- **健康醫療:** 醫療器材 OEM/ODM 廠 — 健康量測 IC\n- **照明:** [[LED]] 照明廠 — 驅動 IC\n- **安防/玩具:** 安防設備與玩具製造商 — PIR 感測 IC\n\n### 主要供應商\n- **晶圓代工:** [[聯電]]、[[世界先進]] — 成熟製程晶圓代工\n- **封裝測試:** 封測服務供應商\n- **IC 設計工具:** EDA 工具供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $28.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      4.31 | 1.30 |    -17.47 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       164.18 |       194.28 |       161.09 |\n| Gross Profit            |        54.18 |        55.73 |        44.99 |\n| Gross Margin (%)        |        33.00 |        28.69 |        27.93 |\n| Selling & Marketing Exp |        12.65 |        10.95 |        18.99 |\n| R&D Exp                 |        27.35 |        29.04 |        32.34 |\n| General & Admin Exp     |        33.73 |        32.54 |        28.59 |\n| Operating Income        |       -19.56 |       -16.80 |       -34.94 |\n| Operating Margin (%)    |       -11.91 |        -8.65 |       -21.69 |\n| Net Income              |       -12.92 |        -2.67 |       -28.96 |\n| Net Margin (%)          |        -7.87 |        -1.37 |       -17.98 |\n| Op Cash Flow            |        15.79 |         8.83 |       -21.76 |\n| Investing Cash Flow     |        18.31 |       -44.29 |        -9.10 |\n| Financing Cash Flow     |         0.20 |        -0.02 |         2.13 |\n| CAPEX                   |        -1.25 |        -3.23 |        -8.29 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        37.31 |        39.47 |        37.34 |        43.17 |\n| Gross Profit            |        13.04 |        12.77 |        11.84 |        14.44 |\n| Gross Margin (%)        |        34.95 |        32.34 |        31.71 |        33.44 |\n| Selling & Marketing Exp |         3.58 |         3.41 |         3.22 |         3.05 |\n| R&D Exp                 |         6.98 |         6.61 |         6.77 |         6.78 |\n| General & Admin Exp     |         9.53 |         8.62 |         8.24 |         8.41 |\n| Operating Income        |        -7.04 |        -5.88 |        -6.38 |        -3.80 |\n| Operating Margin (%)    |       -18.88 |       -14.89 |       -17.09 |        -8.81 |\n| Net Income              |        -1.39 |         0.94 |        -0.06 |       -13.62 |\n| Net Margin (%)          |        -3.71 |         2.38 |        -0.16 |       -31.54 |\n| Op Cash Flow            |        -4.34 |        11.26 |         8.55 |        -0.11 |\n| Investing Cash Flow     |        -0.19 |        -1.73 |         7.98 |         2.93 |\n| Financing Cash Flow     |       -    |         0.20 |         0.00 |         0.00 |\n| CAPEX                   |        -0.19 |        -0.38 |        -0.04 |        -0.82 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

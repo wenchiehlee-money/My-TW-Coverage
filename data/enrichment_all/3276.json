@@ -1,0 +1,294 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3276",
+  "company_name": "宇環",
+  "title": "3276 - 宇環",
+  "source_md": "Pilot_Reports/印刷電路板 - 硬板、軟板、IC載板製造/3276_宇環.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,084 百萬台幣",
+    "enterprise_value": "1,032 百萬台幣"
+  },
+  "business": {
+    "summary": "宇環科技 (3276，[[T-Flex Techvest]]) 為 [[PCB]] (印刷電路板) 製造商，母公司為光電板大廠[[志超]] (8213)。主要產品涵蓋多層板、[[HDI]] 板及軟硬結合板，應用領域以筆電/PC、光電板 (LCD/觸控面板) 及車用板為主。\n\n轉投資子公司志昱主要生產 2 至 10 層印刷電路板，以汽車板及光電板為大宗。近期因車用板毛利壓力，策略調整為委外代工模式經營車用業務，將產能與資源回歸較具競爭力的筆電與消費性電子用板。",
+    "entities": [
+      "T-Flex Techvest",
+      "PCB",
+      "志超",
+      "HDI"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (PCB 原材料)",
+        "text": "**上游 (PCB 原材料):**",
+        "entities": []
+      },
+      {
+        "category": "銅箔基板",
+        "text": "[[台光電]]、[[聯茂]] — [[CCL]] 銅箔基板",
+        "entities": [
+          "台光電",
+          "聯茂",
+          "CCL"
+        ]
+      },
+      {
+        "category": "銅箔",
+        "text": "[[長春石化]] — 電解[[銅箔]]",
+        "entities": [
+          "長春石化",
+          "銅箔"
+        ]
+      },
+      {
+        "category": "玻纖布",
+        "text": "[[台玻]]、[[富喬]] — [[玻纖布]]",
+        "entities": [
+          "台玻",
+          "富喬",
+          "玻纖布"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "蝕刻液、電鍍液供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (PCB 製造)",
+        "text": "**中游 (PCB 製造):**",
+        "entities": []
+      },
+      {
+        "category": "多層板",
+        "text": "**宇環** (NB/PC 用多層 [[PCB]])",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "光電板",
+        "text": "**宇環** (LCD/觸控面板用 [[PCB]])",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "category": "子公司",
+        "text": "志昱 — 車用板與光電板",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "筆電代工",
+        "text": "[[廣達]]、[[仁寶]] — NB 用 [[PCB]]",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "PCB"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "[[友達]]、[[群創]] — 光電板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[志超]] (8213) — 集團產能整合",
+        "entities": [
+          "志超"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "筆電 ODM",
+        "text": "[[廣達]]、[[仁寶]] — NB/PC 用多層板",
+        "entities": [
+          "廣達",
+          "仁寶"
+        ]
+      },
+      {
+        "role": "面板廠",
+        "text": "[[友達]]、[[群創]] — LCD/觸控面板用光電板",
+        "entities": [
+          "友達",
+          "群創"
+        ]
+      },
+      {
+        "role": "母公司集團",
+        "text": "[[志超]] (8213) — 集團內部訂單整合",
+        "entities": [
+          "志超"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "車用 [[PCB]] 客戶 (轉為委外代工模式)",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅箔基板",
+        "text": "[[台光電]]、[[聯茂]] — [[CCL]] 基板材料",
+        "entities": [
+          "台光電",
+          "聯茂",
+          "CCL"
+        ]
+      },
+      {
+        "role": "銅箔",
+        "text": "[[長春石化]] — 電解[[銅箔]]",
+        "entities": [
+          "長春石化",
+          "銅箔"
+        ]
+      },
+      {
+        "role": "玻纖布",
+        "text": "[[玻纖布]]供應商",
+        "entities": [
+          "玻纖布"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "轉投資子公司志昱主要生產 2 至 10 層印刷電路板，以汽車板及光電板為大宗。近期因車用板毛利壓力，策略調整為委外代工模式經營車用業務，將產能與資源回歸較具競爭力的筆電與消費性電子用板。",
+        "entities": []
+      }
+    ],
+    "notes": [
+      {
+        "text": "轉投資子公司志昱主要生產 2 至 10 層印刷電路板，以汽車板及光電板為大宗。近期因車用板毛利壓力，策略調整為委外代工模式經營車用業務，將產能與資源回歸較具競爭力的筆電與消費性電子用板。",
+        "entities": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "T-Flex Techvest",
+      "type": "international_company_or_term",
+      "wikilink": "T-Flex Techvest"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "志超",
+      "type": "taiwan_company_or_term",
+      "wikilink": "志超"
+    },
+    {
+      "name": "HDI",
+      "type": "international_company_or_term",
+      "wikilink": "HDI"
+    },
+    {
+      "name": "台光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台光電"
+    },
+    {
+      "name": "聯茂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯茂"
+    },
+    {
+      "name": "CCL",
+      "type": "international_company_or_term",
+      "wikilink": "CCL"
+    },
+    {
+      "name": "長春石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長春石化"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "台玻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台玻"
+    },
+    {
+      "name": "富喬",
+      "type": "taiwan_company_or_term",
+      "wikilink": "富喬"
+    },
+    {
+      "name": "玻纖布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "玻纖布"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宇環科技 (3276，[[T-Flex Techvest]]) 為 [[PCB]] (印刷電路板) 製造商，母公司為光電板大廠[[志超]] (8213)。主要產品涵蓋多層板、[[HDI]] 板及軟硬結合板，應用領域以筆電/PC、光電板 (LCD/觸控面板) 及車用板為主。\n\n轉投資子公司志昱主要生產 2 至 10 層印刷電路板，以汽車板及光電板為大宗。近期因車用板毛利壓力，策略調整為委外代工模式經營車用業務，將產能與資源回歸較具競爭力的筆電與消費性電子用板。",
+    "supply_chain_md": "**上游 (PCB 原材料):**\n- **銅箔基板:** [[台光電]]、[[聯茂]] — [[CCL]] 銅箔基板\n- **銅箔:** [[長春石化]] — 電解[[銅箔]]\n- **玻纖布:** [[台玻]]、[[富喬]] — [[玻纖布]]\n- **化學品:** 蝕刻液、電鍍液供應商\n\n**中游 (PCB 製造):**\n- **多層板:** **宇環** (NB/PC 用多層 [[PCB]])\n- **光電板:** **宇環** (LCD/觸控面板用 [[PCB]])\n- **子公司:** 志昱 — 車用板與光電板\n\n**下游 (終端應用):**\n- **筆電代工:** [[廣達]]、[[仁寶]] — NB 用 [[PCB]]\n- **面板廠:** [[友達]]、[[群創]] — 光電板\n- **母公司:** [[志超]] (8213) — 集團產能整合",
+    "customers_suppliers_md": "### 主要客戶\n- **筆電 ODM:** [[廣達]]、[[仁寶]] — NB/PC 用多層板\n- **面板廠:** [[友達]]、[[群創]] — LCD/觸控面板用光電板\n- **母公司集團:** [[志超]] (8213) — 集團內部訂單整合\n- **車用:** 車用 [[PCB]] 客戶 (轉為委外代工模式)\n\n### 主要供應商\n- **銅箔基板:** [[台光電]]、[[聯茂]] — [[CCL]] 基板材料\n- **銅箔:** [[長春石化]] — 電解[[銅箔]]\n- **玻纖布:** [[玻纖布]]供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     75.00 |         N/A |      2.06 | 1.23 |    -18.31 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       505.10 |       893.95 |      1289.66 |\n| Gross Profit            |        -7.24 |       -31.78 |        53.72 |\n| Gross Margin (%)        |        -1.43 |        -3.55 |         4.17 |\n| Selling & Marketing Exp |        24.64 |        29.82 |        31.34 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        67.38 |        72.55 |        45.42 |\n| Operating Income        |       -99.26 |      -134.15 |       -23.05 |\n| Operating Margin (%)    |       -19.65 |       -15.01 |        -1.79 |\n| Net Income              |        14.64 |        -9.63 |        54.81 |\n| Net Margin (%)          |         2.90 |        -1.08 |         4.25 |\n| Op Cash Flow            |       -53.73 |        60.70 |        16.36 |\n| Investing Cash Flow     |       173.37 |        22.05 |       -46.07 |\n| Financing Cash Flow     |       -10.60 |       -75.16 |       -42.00 |\n| CAPEX                   |       -41.75 |       -72.10 |       -54.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       138.65 |       123.25 |       124.67 |       120.08 |\n| Gross Profit            |         0.42 |        -0.28 |         0.86 |        -6.64 |\n| Gross Margin (%)        |         0.31 |        -0.22 |         0.69 |        -5.53 |\n| Selling & Marketing Exp |         5.70 |         6.03 |         6.02 |         6.50 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        15.80 |        15.82 |        17.12 |        16.44 |\n| Operating Income        |       -21.08 |       -22.13 |       -22.28 |       -29.59 |\n| Operating Margin (%)    |       -15.20 |       -17.95 |       -17.87 |       -24.64 |\n| Net Income              |        -0.10 |         5.06 |         6.22 |         2.50 |\n| Net Margin (%)          |        -0.07 |         4.11 |         4.99 |         2.08 |\n| Op Cash Flow            |        -2.38 |       -26.13 |        46.81 |       -34.14 |\n| Investing Cash Flow     |         5.02 |        49.15 |        48.91 |        71.84 |\n| Financing Cash Flow     |         3.52 |         1.03 |         0.64 |        -0.46 |\n| CAPEX                   |        -4.43 |        -2.04 |        -8.42 |       -23.04 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 16,
+    "warnings": []
+  }
+}

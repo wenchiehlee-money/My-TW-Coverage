@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4749",
+  "company_name": "新應材",
+  "title": "4749 - 新應材",
+  "source_md": "Pilot_Reports/半導體 - 化學品/4749_新應材.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "61,779 百萬台幣",
+    "enterprise_value": "58,033 百萬台幣"
+  },
+  "business": {
+    "summary": "新應材科技股份有限公司 (4749) 成立於 2003 年，為台灣本土關鍵半導體特用化學品供應商。專注於[[微影]]製程材料，包括：(1) [[光阻]] (Photoresist) — I-Line、KrF、ArF 光阻（研發/認證中）；(2) 配套化學品 — 清洗劑 (Rinse)、[[去光阻液]] (Stripper)、洗邊劑 (EBR)、底部抗反射層 ([[BARC]])。已成功打入 [[台積電]] 先進製程（7nm/5nm/3nm/2nm）供應鏈，為少數能取代日系進口材料的台灣廠商。另有 [[Micro LED]] 用量子點材料與 [[CIS]] 材料。台積電為最大單一客戶，營收佔比已達約 79%。",
+    "entities": [
+      "微影",
+      "光阻",
+      "去光阻液",
+      "BARC",
+      "台積電",
+      "Micro LED",
+      "CIS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (特用化學原料)",
+        "text": "**上游 (特用化學原料):**",
+        "entities": []
+      },
+      {
+        "category": "樹脂",
+        "text": "感光性樹脂原料",
+        "entities": []
+      },
+      {
+        "category": "感光劑",
+        "text": "光敏劑與增感劑",
+        "entities": []
+      },
+      {
+        "category": "溶劑",
+        "text": "高純度電子級溶劑",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電子級化學品配方製造)",
+        "text": "**中游 (電子級化學品配方製造):**",
+        "entities": []
+      },
+      {
+        "category": "光阻配套",
+        "text": "**新應材** ([[光阻]]清洗劑 Rinse、[[BARC]]、EBR)",
+        "entities": [
+          "光阻",
+          "BARC"
+        ]
+      },
+      {
+        "category": "去光阻",
+        "text": "**新應材** ([[去光阻液]] Stripper)",
+        "entities": [
+          "去光阻液"
+        ]
+      },
+      {
+        "category": "先進製程",
+        "text": "**新應材** (N3/N2 製程配套材料)",
+        "entities": []
+      },
+      {
+        "category": "生產基地",
+        "text": "桃園廠、台南廠、高雄廠",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體與光電製造)",
+        "text": "**下游 (半導體與光電製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] — 先進製程關鍵材料（營收佔比約 79%）",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "面板/光電",
+        "text": "[[友達]]、[[群創]] — [[Micro LED]]/面板材料",
+        "entities": [
+          "友達",
+          "群創",
+          "Micro LED"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "[[日月光投控]] — 封裝製程材料",
+        "entities": [
+          "日月光投控"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] — 先進製程（N7/N5/N3/N2）配套化學品（最大客戶）",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "面板廠",
+        "text": "[[友達]]、[[群創]] — [[Micro LED]]/面板材料",
+        "entities": [
+          "友達",
+          "群創",
+          "Micro LED"
+        ]
+      },
+      {
+        "role": "封測廠",
+        "text": "[[日月光投控]] — 封裝製程材料",
+        "entities": [
+          "日月光投控"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "樹脂",
+        "text": "感光性樹脂原料供應商",
+        "entities": []
+      },
+      {
+        "role": "溶劑",
+        "text": "高純度電子級溶劑供應商",
+        "entities": []
+      },
+      {
+        "role": "感光劑",
+        "text": "光敏劑原料廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [
+      {
+        "text": "新應材科技股份有限公司 (4749) 成立於 2003 年，為台灣本土關鍵半導體特用化學品供應商。專注於[[微影]]製程材料，包括：(1) [[光阻]] (Photoresist) — I-Line、KrF、ArF 光阻（研發/認證中）；(2) 配套化學品 — 清洗劑 (Rinse)、[[去光阻液]] (Stripper)、洗邊劑 (EBR)、底部抗反射層 ([[BARC]])。已成功打入 [[台積電]] 先進製程（7nm/5nm/3nm/2nm）供應鏈，為少數能取代日系進口材料的台灣廠商。另有 [[Micro LED]] 用量子點材料與 [[CIS]] 材料。台積電為最大單一客戶，營收佔比已達約 79%。",
+        "entities": [
+          "微影",
+          "光阻",
+          "去光阻液",
+          "BARC",
+          "台積電",
+          "Micro LED",
+          "CIS"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "微影",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微影"
+    },
+    {
+      "name": "光阻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光阻"
+    },
+    {
+      "name": "去光阻液",
+      "type": "taiwan_company_or_term",
+      "wikilink": "去光阻液"
+    },
+    {
+      "name": "BARC",
+      "type": "international_company_or_term",
+      "wikilink": "BARC"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Micro LED",
+      "type": "international_company_or_term",
+      "wikilink": "Micro LED"
+    },
+    {
+      "name": "CIS",
+      "type": "international_company_or_term",
+      "wikilink": "CIS"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "新應材科技股份有限公司 (4749) 成立於 2003 年，為台灣本土關鍵半導體特用化學品供應商。專注於[[微影]]製程材料，包括：(1) [[光阻]] (Photoresist) — I-Line、KrF、ArF 光阻（研發/認證中）；(2) 配套化學品 — 清洗劑 (Rinse)、[[去光阻液]] (Stripper)、洗邊劑 (EBR)、底部抗反射層 ([[BARC]])。已成功打入 [[台積電]] 先進製程（7nm/5nm/3nm/2nm）供應鏈，為少數能取代日系進口材料的台灣廠商。另有 [[Micro LED]] 用量子點材料與 [[CIS]] 材料。台積電為最大單一客戶，營收佔比已達約 79%。",
+    "supply_chain_md": "**上游 (特用化學原料):**\n- **樹脂:** 感光性樹脂原料\n- **感光劑:** 光敏劑與增感劑\n- **溶劑:** 高純度電子級溶劑\n\n**中游 (電子級化學品配方製造):**\n- **光阻配套:** **新應材** ([[光阻]]清洗劑 Rinse、[[BARC]]、EBR)\n- **去光阻:** **新應材** ([[去光阻液]] Stripper)\n- **先進製程:** **新應材** (N3/N2 製程配套材料)\n- **生產基地:** 桃園廠、台南廠、高雄廠\n\n**下游 (半導體與光電製造):**\n- **晶圓代工:** [[台積電]] — 先進製程關鍵材料（營收佔比約 79%）\n- **面板/光電:** [[友達]]、[[群創]] — [[Micro LED]]/面板材料\n- **封測:** [[日月光投控]] — 封裝製程材料",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] — 先進製程（N7/N5/N3/N2）配套化學品（最大客戶）\n- **面板廠:** [[友達]]、[[群創]] — [[Micro LED]]/面板材料\n- **封測廠:** [[日月光投控]] — 封裝製程材料\n\n### 主要供應商\n- **樹脂:** 感光性樹脂原料供應商\n- **溶劑:** 高純度電子級溶劑供應商\n- **感光劑:** 光敏劑原料廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $672.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     53.25 |       30.05 |     13.75 | 6.97 |     40.42 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4261.84 |      3321.86 |      2364.38 |\n| Gross Profit            |      1835.38 |      1204.39 |       694.25 |\n| Gross Margin (%)        |        43.07 |        36.26 |        29.36 |\n| Selling & Marketing Exp |        93.22 |        72.41 |        58.52 |\n| R&D Exp                 |       385.44 |       278.91 |       235.24 |\n| General & Admin Exp     |       294.89 |       266.55 |       177.08 |\n| Operating Income        |      1061.16 |       586.54 |       223.41 |\n| Operating Margin (%)    |        24.90 |        17.66 |         9.45 |\n| Net Income              |      1044.08 |       697.54 |       318.37 |\n| Net Margin (%)          |        24.50 |        21.00 |        13.47 |\n| Op Cash Flow            |      1116.79 |       944.19 |       -59.65 |\n| Investing Cash Flow     |     -4175.99 |      -808.19 |      -536.08 |\n| Financing Cash Flow     |      3628.20 |      -129.23 |       362.85 |\n| CAPEX                   |     -1147.95 |     -1126.49 |      -581.45 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1245.69 |      1084.32 |      1065.50 |      1152.70 |\n| Gross Profit            |       565.67 |       477.30 |       450.42 |       533.00 |\n| Gross Margin (%)        |        45.41 |        44.02 |        42.27 |        46.24 |\n| Selling & Marketing Exp |        31.50 |        24.09 |        21.09 |        29.08 |\n| R&D Exp                 |       116.63 |       118.86 |       101.95 |        84.63 |\n| General & Admin Exp     |        80.41 |        80.89 |        67.84 |        61.85 |\n| Operating Income        |       337.16 |       253.13 |       259.15 |       357.50 |\n| Operating Margin (%)    |        27.07 |        23.34 |        24.32 |        31.01 |\n| Net Income              |       339.52 |       261.58 |       290.13 |       284.60 |\n| Net Margin (%)          |        27.26 |        24.12 |        27.23 |        24.69 |\n| Op Cash Flow            |       219.42 |       215.46 |       158.26 |       450.40 |\n| Investing Cash Flow     |      -288.33 |      -925.17 |      -500.81 |      -211.22 |\n| Financing Cash Flow     |        -5.53 |      -105.51 |      -460.73 |      -381.27 |\n| CAPEX                   |      -193.61 |      -700.72 |      -123.56 |      -128.06 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

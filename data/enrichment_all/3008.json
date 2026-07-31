@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3008",
+  "company_name": "大立光",
+  "title": "3008 - [[大立光]]",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 光學鏡片、鏡頭/3008_大立光.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "503,573 百萬台幣",
+    "enterprise_value": "375,835 百萬台幣"
+  },
+  "business": {
+    "summary": "[[大立光]]電 ([[Largan Precision]]) 為全球手機鏡頭龍頭廠，技術與產能遙遙領先同業。公司專注於高階塑膠非球面鏡片之設計與模具製造，擁有極高良率與專利護城河。\n\n主要產品線涵蓋：(1) 高階手機鏡頭 — 7P/8P/9P 規格鏡組，為 [[Apple]] iPhone 系列核心供應商；(2) 潛望式鏡頭 (Periscope Lens) — 受惠高倍光學變焦趨勢，打入 [[Apple]] 及 [[Samsung]] 旗艦機種；(3) 車用鏡頭 — 切入 [[ADAS]] 車載光學，規格持續升級。",
+    "entities": [
+      "大立光",
+      "Largan Precision",
+      "Apple",
+      "Samsung",
+      "ADAS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學材料與模具)",
+        "text": "**上游 (光學材料與模具):**",
+        "entities": []
+      },
+      {
+        "category": "光學塑膠粒",
+        "text": "日系特殊光學樹脂供應商 — 鏡片核心材料",
+        "entities": []
+      },
+      {
+        "category": "模具鋼材",
+        "text": "高精密模具鋼",
+        "entities": []
+      },
+      {
+        "category": "設備",
+        "text": "自製精密模具與自動化設備 — 核心競爭力",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (鏡頭設計與製造)",
+        "text": "**中游 (鏡頭設計與製造):**",
+        "entities": []
+      },
+      {
+        "category": "手機鏡頭",
+        "text": "**[[大立光]]** (7P/8P/9P 高階手機鏡組)",
+        "entities": [
+          "大立光"
+        ]
+      },
+      {
+        "category": "潛望式鏡頭",
+        "text": "**[[大立光]]** (Periscope 長焦鏡頭)",
+        "entities": [
+          "大立光"
+        ]
+      },
+      {
+        "category": "車用鏡頭",
+        "text": "**[[大立光]]** ([[ADAS]] 車載光學鏡頭)",
+        "entities": [
+          "大立光",
+          "ADAS"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (鏡頭模組廠與終端品牌)",
+        "text": "**下游 (鏡頭模組廠與終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "鏡頭模組",
+        "text": "[[LG Innotek]]、[[鴻海]]、[[立訊]] — 模組組裝",
+        "entities": [
+          "LG Innotek",
+          "鴻海",
+          "立訊"
+        ]
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Apple]]、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "[[Tesla]]、歐系車廠 — 透過模組廠間接供貨",
+        "entities": [
+          "Tesla"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "手機品牌",
+        "text": "[[Apple]] (最大客戶)、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]",
+        "entities": [
+          "Apple",
+          "Samsung",
+          "小米",
+          "OPPO",
+          "vivo"
+        ]
+      },
+      {
+        "role": "鏡頭模組廠",
+        "text": "[[LG Innotek]]、[[鴻海]]、[[立訊]]",
+        "entities": [
+          "LG Innotek",
+          "鴻海",
+          "立訊"
+        ]
+      },
+      {
+        "role": "車用",
+        "text": "[[Tesla]] — 透過模組廠供貨車載鏡頭",
+        "entities": [
+          "Tesla"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學材料",
+        "text": "日系光學塑膠粒供應商",
+        "entities": []
+      },
+      {
+        "role": "設備",
+        "text": "自製精密模具與自動化設備為核心競爭力",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "[[大立光]]電 ([[Largan Precision]]) 為全球手機鏡頭龍頭廠，技術與產能遙遙領先同業。公司專注於高階塑膠非球面鏡片之設計與模具製造，擁有極高良率與專利護城河。",
+        "entities": [
+          "大立光",
+          "Largan Precision"
+        ]
+      },
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備 — 核心競爭力",
+        "entities": []
+      },
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備為核心競爭力",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": [
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備 — 核心競爭力",
+        "entities": []
+      },
+      {
+        "text": "- **設備:** 自製精密模具與自動化設備為核心競爭力",
+        "entities": []
+      }
+    ]
+  },
+  "entities": [
+    {
+      "name": "大立光",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大立光"
+    },
+    {
+      "name": "Largan Precision",
+      "type": "international_company_or_term",
+      "wikilink": "Largan Precision"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "LG Innotek",
+      "type": "international_company_or_term",
+      "wikilink": "LG Innotek"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "立訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立訊"
+    },
+    {
+      "name": "小米",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小米"
+    },
+    {
+      "name": "OPPO",
+      "type": "international_company_or_term",
+      "wikilink": "OPPO"
+    },
+    {
+      "name": "vivo",
+      "type": "international_company_or_term",
+      "wikilink": "vivo"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[大立光]]電 ([[Largan Precision]]) 為全球手機鏡頭龍頭廠，技術與產能遙遙領先同業。公司專注於高階塑膠非球面鏡片之設計與模具製造，擁有極高良率與專利護城河。\n\n主要產品線涵蓋：(1) 高階手機鏡頭 — 7P/8P/9P 規格鏡組，為 [[Apple]] iPhone 系列核心供應商；(2) 潛望式鏡頭 (Periscope Lens) — 受惠高倍光學變焦趨勢，打入 [[Apple]] 及 [[Samsung]] 旗艦機種；(3) 車用鏡頭 — 切入 [[ADAS]] 車載光學，規格持續升級。",
+    "supply_chain_md": "**上游 (光學材料與模具):**\n- **光學塑膠粒:** 日系特殊光學樹脂供應商 — 鏡片核心材料\n- **模具鋼材:** 高精密模具鋼\n- **設備:** 自製精密模具與自動化設備 — 核心競爭力\n\n**中游 (鏡頭設計與製造):**\n- **手機鏡頭:** **[[大立光]]** (7P/8P/9P 高階手機鏡組)\n- **潛望式鏡頭:** **[[大立光]]** (Periscope 長焦鏡頭)\n- **車用鏡頭:** **[[大立光]]** ([[ADAS]] 車載光學鏡頭)\n\n**下游 (鏡頭模組廠與終端品牌):**\n- **鏡頭模組:** [[LG Innotek]]、[[鴻海]]、[[立訊]] — 模組組裝\n- **手機品牌:** [[Apple]]、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **車用:** [[Tesla]]、歐系車廠 — 透過模組廠間接供貨",
+    "customers_suppliers_md": "### 主要客戶\n- **手機品牌:** [[Apple]] (最大客戶)、[[Samsung]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **鏡頭模組廠:** [[LG Innotek]]、[[鴻海]]、[[立訊]]\n- **車用:** [[Tesla]] — 透過模組廠供貨車載鏡頭\n\n### 主要供應商\n- **光學材料:** 日系光學塑膠粒供應商\n- **設備:** 自製精密模具與自動化設備為核心競爭力",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $3,715.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     23.88 |       18.17 |      7.82 | 2.69 |     11.51 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     61147.89 |     59457.55 |     48842.25 |\n| Gross Profit            |     30837.05 |     31209.31 |     23805.55 |\n| Gross Margin (%)        |        50.43 |        52.49 |        48.74 |\n| Selling & Marketing Exp |       376.08 |       398.79 |       290.63 |\n| R&D Exp                 |      5293.32 |      5246.70 |      4191.17 |\n| General & Admin Exp     |      1609.39 |      1531.29 |      1504.48 |\n| Operating Income        |     23558.26 |     24032.53 |     17819.28 |\n| Operating Margin (%)    |        38.53 |        40.42 |        36.48 |\n| Net Income              |     21275.41 |     25915.41 |     17902.32 |\n| Net Margin (%)          |        34.79 |        43.59 |        36.65 |\n| Op Cash Flow            |     26080.23 |     31578.53 |     18198.56 |\n| Investing Cash Flow     |     -9235.73 |    -16066.03 |    -11151.03 |\n| Financing Cash Flow     |    -13457.66 |    -10763.55 |     -9750.25 |\n| CAPEX                   |    -12514.88 |    -11446.93 |     -8449.14 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     17218.64 |     11672.62 |     14579.23 |     18209.99 |\n| Gross Profit            |      8260.18 |      6260.02 |      7964.51 |     10758.76 |\n| Gross Margin (%)        |        47.97 |        53.63 |        54.63 |        59.08 |\n| Selling & Marketing Exp |       102.47 |        80.54 |        95.92 |       182.23 |\n| R&D Exp                 |      1419.56 |       986.34 |      1348.30 |      1768.48 |\n| General & Admin Exp     |       409.56 |       314.31 |       433.97 |       482.73 |\n| Operating Income        |      6328.59 |      4878.83 |      6086.33 |      8325.32 |\n| Operating Margin (%)    |        36.75 |        41.80 |        41.75 |        45.72 |\n| Net Income              |      6719.70 |      1032.13 |      6443.31 |      8676.35 |\n| Net Margin (%)          |        39.03 |         8.84 |        44.20 |        47.65 |\n| Op Cash Flow            |     10519.68 |      3186.77 |      9830.08 |     16080.46 |\n| Investing Cash Flow     |     -1092.31 |     -2437.28 |     -2457.43 |         5.20 |\n| Financing Cash Flow     |     -1746.32 |     -7694.00 |         5.26 |       -56.76 |\n| CAPEX                   |     -2669.65 |     -3537.19 |     -2916.74 |     -2752.33 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": []
+  }
+}

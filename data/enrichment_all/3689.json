@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3689",
+  "company_name": "湧德",
+  "title": "3689 - 湧德",
+  "source_md": "Pilot_Reports/連接器 - 連接器設計、組裝及製造/3689_湧德.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "8,888 百萬台幣",
+    "enterprise_value": "7,853 百萬台幣"
+  },
+  "business": {
+    "summary": "湧德電子 (UDE) 為全球領先的 **整合型訊號連接器** 製造商，是全球第二大整合型 RJ45 [[連接器]]供應商。\n公司近年致力於從傳統[[網通]][[連接器]]向 **高頻高速傳輸** 及 **光通訊領域** 轉型。\n核心業務與發展亮點：\n1.  **[[AI 伺服器]]供應鏈**: 成功打入 **[[NVIDIA]] GB200** 系列 [[AI]] [[伺服器]]供應鏈，供應高速[[連接器]]及相關線束。\n2.  **高速傳輸解決方案**: 提供 SFP, QSFP, QSFP-DD 等光傳輸模組[[連接器]]，支援 400G、800G 及未來的 1.6T 高速應用，滿足[[資料中心]]對大頻寬的需求。\n3.  **液冷與 AI 網通**: 佈局 [[AI]] [[伺服器]]所需的液冷監控系統及浸沒式[[散熱]]連接方案。\n4.  **全球產能佈局**: 在中國廣東、四川及越南設立製造廠。越南廠預計 2025 年後半段投入產能，可望增加對北美 [[CSP]] ([[雲端服務]]商) 客戶的供應彈性。",
+    "entities": [
+      "連接器",
+      "網通",
+      "AI 伺服器",
+      "NVIDIA",
+      "AI",
+      "伺服器",
+      "資料中心",
+      "散熱",
+      "CSP",
+      "雲端服務"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**: 金屬端子、塑膠基材、變壓器磁性組件、線材。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游**: **湧德 (3689)** - [[連接器]]研發設計、[[自動化]]組裝、訊號測試。",
+        "entities": [
+          "連接器",
+          "自動化"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**網通設備商**: [[智邦]], [[Cisco]]。",
+        "entities": [
+          "智邦",
+          "Cisco"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**CSP (雲端服務商)**: AWS, [[Meta]], [[Google]]。",
+        "entities": [
+          "Meta",
+          "Google"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**消費電子/遊戲機**: [[Samsung]], [[LG]], [[Microsoft]] (Xbox), [[Sony]] (PlayStation)。",
+        "entities": [
+          "Samsung",
+          "LG",
+          "Microsoft",
+          "Sony"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[AI]]/[[伺服器]]：[[NVIDIA]] GB200 供應鏈、北美 [[CSP]] 大廠。",
+        "entities": [
+          "AI",
+          "伺服器",
+          "NVIDIA",
+          "CSP"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[網通]]大廠：智邦 (Accton)。",
+        "entities": [
+          "網通"
+        ]
+      },
+      {
+        "role": "",
+        "text": "消費電子：[[Sony]], [[Microsoft]], [[Samsung]]。",
+        "entities": [
+          "Sony",
+          "Microsoft",
+          "Samsung"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "Cisco",
+      "type": "international_company_or_term",
+      "wikilink": "Cisco"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "LG",
+      "type": "international_company_or_term",
+      "wikilink": "LG"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "湧德電子 (UDE) 為全球領先的 **整合型訊號連接器** 製造商，是全球第二大整合型 RJ45 [[連接器]]供應商。\n公司近年致力於從傳統[[網通]][[連接器]]向 **高頻高速傳輸** 及 **光通訊領域** 轉型。\n核心業務與發展亮點：\n1.  **[[AI 伺服器]]供應鏈**: 成功打入 **[[NVIDIA]] GB200** 系列 [[AI]] [[伺服器]]供應鏈，供應高速[[連接器]]及相關線束。\n2.  **高速傳輸解決方案**: 提供 SFP, QSFP, QSFP-DD 等光傳輸模組[[連接器]]，支援 400G、800G 及未來的 1.6T 高速應用，滿足[[資料中心]]對大頻寬的需求。\n3.  **液冷與 AI 網通**: 佈局 [[AI]] [[伺服器]]所需的液冷監控系統及浸沒式[[散熱]]連接方案。\n4.  **全球產能佈局**: 在中國廣東、四川及越南設立製造廠。越南廠預計 2025 年後半段投入產能，可望增加對北美 [[CSP]] ([[雲端服務]]商) 客戶的供應彈性。",
+    "supply_chain_md": "*   **上游**: 金屬端子、塑膠基材、變壓器磁性組件、線材。\n*   **中游**: **湧德 (3689)** - [[連接器]]研發設計、[[自動化]]組裝、訊號測試。\n*   **下游**:\n    *   **網通設備商**: [[智邦]], [[Cisco]]。\n    *   **CSP (雲端服務商)**: AWS, [[Meta]], [[Google]]。\n    *   **消費電子/遊戲機**: [[Samsung]], [[LG]], [[Microsoft]] (Xbox), [[Sony]] (PlayStation)。",
+    "customers_suppliers_md": "### 主要客戶\n*   [[AI]]/[[伺服器]]：[[NVIDIA]] GB200 供應鏈、北美 [[CSP]] 大廠。\n*   [[網通]]大廠：智邦 (Accton)。\n*   消費電子：[[Sony]], [[Microsoft]], [[Samsung]]。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $95.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     13.30 |         N/A |      1.29 | 1.77 |      6.67 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6206.98 |      5150.48 |      6123.83 |\n| Gross Profit            |      1857.84 |      1397.33 |      1315.85 |\n| Gross Margin (%)        |        29.93 |        27.13 |        21.49 |\n| Selling & Marketing Exp |       250.76 |       224.98 |       285.34 |\n| R&D Exp                 |       281.86 |       246.24 |       247.27 |\n| General & Admin Exp     |       500.74 |       401.55 |       401.78 |\n| Operating Income        |       824.47 |       524.56 |       381.46 |\n| Operating Margin (%)    |        13.28 |        10.18 |         6.23 |\n| Net Income              |       652.16 |       511.21 |       384.71 |\n| Net Margin (%)          |        10.51 |         9.93 |         6.28 |\n| Op Cash Flow            |      1028.63 |       721.19 |      1527.46 |\n| Investing Cash Flow     |     -1242.56 |      -512.49 |      -217.12 |\n| Financing Cash Flow     |       377.10 |      -391.93 |      -250.25 |\n| CAPEX                   |      -595.79 |      -535.68 |      -203.98 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1923.91 |      1670.04 |      1544.44 |      1487.65 |\n| Gross Profit            |       582.07 |       516.41 |       448.84 |       439.81 |\n| Gross Margin (%)        |        30.25 |        30.92 |        29.06 |        29.56 |\n| Selling & Marketing Exp |       102.82 |        76.48 |        57.51 |        62.32 |\n| R&D Exp                 |       101.50 |        78.79 |        66.60 |        67.31 |\n| General & Admin Exp     |       151.73 |       152.35 |       114.38 |       107.05 |\n| Operating Income        |       226.01 |       208.79 |       210.35 |       203.12 |\n| Operating Margin (%)    |        11.75 |        12.50 |        13.62 |        13.65 |\n| Net Income              |       182.23 |       179.27 |       140.94 |       188.32 |\n| Net Margin (%)          |         9.47 |        10.73 |         9.13 |        12.66 |\n| Op Cash Flow            |       260.02 |        88.89 |       515.66 |       172.95 |\n| Investing Cash Flow     |      -225.14 |      -779.77 |      -190.34 |      -158.18 |\n| Financing Cash Flow     |       181.64 |       326.84 |       176.37 |        58.44 |\n| CAPEX                   |      -102.45 |       -98.60 |      -192.99 |      -162.47 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": []
+  }
+}

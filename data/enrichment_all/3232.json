@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3232",
+  "company_name": "昱捷",
+  "title": "3232 - 昱捷",
+  "source_md": "Pilot_Reports/半導體 - IC通路/3232_昱捷.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronics & Computer Distribution",
+    "market_cap": "885 百萬台幣",
+    "enterprise_value": "797 百萬台幣"
+  },
+  "business": {
+    "summary": "昱捷 (3232，Sentronic International) 是專業之半導體零件通路商，主要代理日系品牌之主動與被動元件。核心代理線包括 [[Renesas]]、[[OMRON]]、[[Kyocera]] 等日本大廠。產品涵蓋 [[MCU]] (微控制器)、[[MOSFET]]、感測器與二極體。應用領域涵蓋車用電子 ([[ADAS]]/[[電動車]])、工業自動化、[[物聯網]] 與消費電子。近年公司除通路業務外，亦涉足植牙/牙材系統以多元化經營。",
+    "entities": [
+      "Renesas",
+      "OMRON",
+      "Kyocera",
+      "MCU",
+      "MOSFET",
+      "ADAS",
+      "電動車",
+      "物聯網"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (半導體原廠)",
+        "text": "**上游 (半導體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "MCU/車用",
+        "text": "[[Renesas]] — [[MCU]]、車用晶片",
+        "entities": [
+          "Renesas",
+          "MCU"
+        ]
+      },
+      {
+        "category": "感測/自動化",
+        "text": "[[OMRON]] — 感測器、繼電器",
+        "entities": [
+          "OMRON"
+        ]
+      },
+      {
+        "category": "陶瓷/被動",
+        "text": "[[Kyocera]] — 陶瓷電容、晶體",
+        "entities": [
+          "Kyocera"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理)",
+        "text": "**中游 (通路代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**昱捷** (IC/分離式元件代理銷售、技術支援)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "車用",
+        "text": "汽車電子模組廠 — [[ADAS]]/[[電動車]]系統",
+        "entities": [
+          "ADAS",
+          "電動車"
+        ]
+      },
+      {
+        "category": "工控",
+        "text": "自動化設備廠",
+        "entities": []
+      },
+      {
+        "category": "消費電子",
+        "text": "手機/家電代工廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用電子",
+        "text": "汽車電子模組廠 — [[ADAS]]/[[電動車]]系統",
+        "entities": [
+          "ADAS",
+          "電動車"
+        ]
+      },
+      {
+        "role": "工控設備",
+        "text": "自動化設備製造商",
+        "entities": []
+      },
+      {
+        "role": "消費電子",
+        "text": "手機與家電代工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "MCU",
+        "text": "[[Renesas]] — 微控制器與車用 IC (主力代理線)",
+        "entities": [
+          "Renesas"
+        ]
+      },
+      {
+        "role": "感測器",
+        "text": "[[OMRON]] — 感測器與繼電器",
+        "entities": [
+          "OMRON"
+        ]
+      },
+      {
+        "role": "陶瓷元件",
+        "text": "[[Kyocera]] — 陶瓷電容與晶體",
+        "entities": [
+          "Kyocera"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "OMRON",
+      "type": "international_company_or_term",
+      "wikilink": "OMRON"
+    },
+    {
+      "name": "Kyocera",
+      "type": "international_company_or_term",
+      "wikilink": "Kyocera"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "物聯網",
+      "type": "taiwan_company_or_term",
+      "wikilink": "物聯網"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "昱捷 (3232，Sentronic International) 是專業之半導體零件通路商，主要代理日系品牌之主動與被動元件。核心代理線包括 [[Renesas]]、[[OMRON]]、[[Kyocera]] 等日本大廠。產品涵蓋 [[MCU]] (微控制器)、[[MOSFET]]、感測器與二極體。應用領域涵蓋車用電子 ([[ADAS]]/[[電動車]])、工業自動化、[[物聯網]] 與消費電子。近年公司除通路業務外，亦涉足植牙/牙材系統以多元化經營。",
+    "supply_chain_md": "**上游 (半導體原廠):**\n- **MCU/車用:** [[Renesas]] — [[MCU]]、車用晶片\n- **感測/自動化:** [[OMRON]] — 感測器、繼電器\n- **陶瓷/被動:** [[Kyocera]] — 陶瓷電容、晶體\n\n**中游 (通路代理):**\n- **昱捷** (IC/分離式元件代理銷售、技術支援)\n\n**下游 (終端應用):**\n- **車用:** 汽車電子模組廠 — [[ADAS]]/[[電動車]]系統\n- **工控:** 自動化設備廠\n- **消費電子:** 手機/家電代工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **車用電子:** 汽車電子模組廠 — [[ADAS]]/[[電動車]]系統\n- **工控設備:** 自動化設備製造商\n- **消費電子:** 手機與家電代工廠\n\n### 主要供應商\n- **MCU:** [[Renesas]] — 微控制器與車用 IC (主力代理線)\n- **感測器:** [[OMRON]] — 感測器與繼電器\n- **陶瓷元件:** [[Kyocera]] — 陶瓷電容與晶體",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $19.30 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     83.91 |         N/A |      1.02 | 1.33 |     23.96 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2024-12-31 |   2023-12-31 |   2022-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1550.75 |      1508.88 |      1417.72 |\n| Gross Profit            |       141.96 |       154.18 |       156.33 |\n| Gross Margin (%)        |         9.15 |        10.22 |        11.03 |\n| Selling & Marketing Exp |        47.14 |        44.24 |        47.08 |\n| R&D Exp                 |        21.18 |        22.34 |        11.04 |\n| General & Admin Exp     |        63.27 |        59.30 |        69.57 |\n| Operating Income        |        10.37 |        28.31 |        28.64 |\n| Operating Margin (%)    |         0.67 |         1.88 |         2.02 |\n| Net Income              |        14.70 |        11.87 |        14.91 |\n| Net Margin (%)          |         0.95 |         0.79 |         1.05 |\n| Op Cash Flow            |       154.44 |       170.43 |      -205.71 |\n| Investing Cash Flow     |         8.73 |       -10.38 |       -81.69 |\n| Financing Cash Flow     |      -118.23 |      -112.29 |       299.61 |\n| CAPEX                   |        -1.58 |        -1.96 |       -18.80 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-09-30 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       217.57 |       232.12 |       257.95 |       312.18 |\n| Gross Profit            |        44.58 |        47.61 |        41.80 |        28.62 |\n| Gross Margin (%)        |        20.49 |        20.51 |        16.21 |         9.17 |\n| Selling & Marketing Exp |        13.56 |        12.11 |        11.62 |        11.65 |\n| R&D Exp                 |         3.86 |         4.25 |         7.12 |         8.81 |\n| General & Admin Exp     |        16.27 |        13.92 |        15.85 |        16.98 |\n| Operating Income        |        10.90 |        17.34 |         7.21 |        -8.82 |\n| Operating Margin (%)    |         5.01 |         7.47 |         2.80 |        -2.83 |\n| Net Income              |        15.10 |       -13.22 |        11.21 |         0.02 |\n| Net Margin (%)          |         6.94 |        -5.69 |         4.35 |         0.01 |\n| Op Cash Flow            |        38.09 |       -18.15 |        52.85 |        61.12 |\n| Investing Cash Flow     |        18.04 |        -6.56 |         2.37 |        11.10 |\n| Financing Cash Flow     |       -26.05 |        -2.77 |       -76.14 |       -65.18 |\n| CAPEX                   |        -1.07 |        -1.00 |        -0.21 |        -0.73 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

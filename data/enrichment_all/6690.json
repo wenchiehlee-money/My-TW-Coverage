@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6690",
+  "company_name": "安�硌穈T",
+  "title": "6690_安�硌穈T",
+  "source_md": "Pilot_Reports/資通訊安全 - 網路基礎設施/6690_安�硌穈T.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "4,680 百萬台幣",
+    "enterprise_value": "3,407 百萬台幣"
+  },
+  "business": {
+    "summary": "安碁資訊股份有限公司 (6690，Acer Cyber Security) 為[[宏碁]]集團旗下資安子公司，是台灣最大的專業資訊安全監控委外服務商 ([[MSSP]])。公司核心業務涵蓋四大服務：(1) 資訊安全監控 (Cloud [[SOC]]) — 提供雲地聯防之 7x24 全天候安全事件監控與告警；(2) 資訊安全檢測 — [[滲透測試]]、弱點掃描與紅隊演練；(3) 資訊安全管理 — [[ISO 27001]] 等合規顧問；(4) 情資分享與維運科技管理。客戶涵蓋超過 300 家政府機關與企業，政府佔 45%、金融佔 40%、製造業佔 15%，為台灣 SOC 市場市佔率逾六成之絕對領導者。",
+    "entities": [
+      "宏碁",
+      "MSSP",
+      "SOC",
+      "滲透測試",
+      "ISO 27001"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (資安軟硬體)",
+        "text": "**上游 (資安軟硬體):**",
+        "entities": []
+      },
+      {
+        "category": "資安設備",
+        "text": "[[Fortinet]]、[[Palo Alto Networks]] — 防火牆與入侵偵測設備",
+        "entities": [
+          "Fortinet",
+          "Palo Alto Networks"
+        ]
+      },
+      {
+        "category": "SIEM 平台",
+        "text": "[[Splunk]]、[[IBM QRadar]] — 安全事件管理系統",
+        "entities": [
+          "Splunk",
+          "IBM QRadar"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[宏碁]] — 伺服器硬體與品牌支持",
+        "entities": [
+          "宏碁"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (資安服務)",
+        "text": "**中游 (資安服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**安碁資訊** (Cloud [[SOC]] 監控、[[滲透測試]]、資安合規顧問、威脅情資分享)",
+        "entities": [
+          "SOC",
+          "滲透測試"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "政府機關",
+        "text": "中央與地方各級政府資安監控",
+        "entities": []
+      },
+      {
+        "category": "金融業",
+        "text": "各大金控銀行、證券、保險 — 合規資安監控",
+        "entities": []
+      },
+      {
+        "category": "製造業",
+        "text": "高科技製造與 [[OT]] 工控安全",
+        "entities": [
+          "OT"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "政府機關 (佔 45%)",
+        "text": "中央與地方各級政府 — 資安監控與合規",
+        "entities": []
+      },
+      {
+        "role": "金融業 (佔 40%)",
+        "text": "各大金控銀行、證券商、保險公司 — [[SOC]] 委外監控",
+        "entities": [
+          "SOC"
+        ]
+      },
+      {
+        "role": "製造業 (佔 15%)",
+        "text": "高科技製造業 — IT/[[OT]] 安全監控",
+        "entities": [
+          "OT"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "資安設備",
+        "text": "[[Fortinet]]、[[Palo Alto Networks]] — 防火牆與 IDS/IPS",
+        "entities": [
+          "Fortinet",
+          "Palo Alto Networks"
+        ]
+      },
+      {
+        "role": "SIEM 系統",
+        "text": "[[Splunk]]、[[IBM QRadar]] — 日誌分析平台",
+        "entities": [
+          "Splunk",
+          "IBM QRadar"
+        ]
+      },
+      {
+        "role": "母集團",
+        "text": "[[宏碁]] — 伺服器硬體與集團資源",
+        "entities": [
+          "宏碁"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "MSSP",
+      "type": "international_company_or_term",
+      "wikilink": "MSSP"
+    },
+    {
+      "name": "SOC",
+      "type": "international_company_or_term",
+      "wikilink": "SOC"
+    },
+    {
+      "name": "滲透測試",
+      "type": "taiwan_company_or_term",
+      "wikilink": "滲透測試"
+    },
+    {
+      "name": "ISO 27001",
+      "type": "international_company_or_term",
+      "wikilink": "ISO 27001"
+    },
+    {
+      "name": "Fortinet",
+      "type": "international_company_or_term",
+      "wikilink": "Fortinet"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Palo Alto Networks"
+    },
+    {
+      "name": "Splunk",
+      "type": "international_company_or_term",
+      "wikilink": "Splunk"
+    },
+    {
+      "name": "IBM QRadar",
+      "type": "international_company_or_term",
+      "wikilink": "IBM QRadar"
+    },
+    {
+      "name": "OT",
+      "type": "international_company_or_term",
+      "wikilink": "OT"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "安碁資訊股份有限公司 (6690，Acer Cyber Security) 為[[宏碁]]集團旗下資安子公司，是台灣最大的專業資訊安全監控委外服務商 ([[MSSP]])。公司核心業務涵蓋四大服務：(1) 資訊安全監控 (Cloud [[SOC]]) — 提供雲地聯防之 7x24 全天候安全事件監控與告警；(2) 資訊安全檢測 — [[滲透測試]]、弱點掃描與紅隊演練；(3) 資訊安全管理 — [[ISO 27001]] 等合規顧問；(4) 情資分享與維運科技管理。客戶涵蓋超過 300 家政府機關與企業，政府佔 45%、金融佔 40%、製造業佔 15%，為台灣 SOC 市場市佔率逾六成之絕對領導者。",
+    "supply_chain_md": "**上游 (資安軟硬體):**\n- **資安設備:** [[Fortinet]]、[[Palo Alto Networks]] — 防火牆與入侵偵測設備\n- **SIEM 平台:** [[Splunk]]、[[IBM QRadar]] — 安全事件管理系統\n- **母公司:** [[宏碁]] — 伺服器硬體與品牌支持\n\n**中游 (資安服務):**\n- **安碁資訊** (Cloud [[SOC]] 監控、[[滲透測試]]、資安合規顧問、威脅情資分享)\n\n**下游 (終端客戶):**\n- **政府機關:** 中央與地方各級政府資安監控\n- **金融業:** 各大金控銀行、證券、保險 — 合規資安監控\n- **製造業:** 高科技製造與 [[OT]] 工控安全",
+    "customers_suppliers_md": "### 主要客戶\n- **政府機關 (佔 45%):** 中央與地方各級政府 — 資安監控與合規\n- **金融業 (佔 40%):** 各大金控銀行、證券商、保險公司 — [[SOC]] 委外監控\n- **製造業 (佔 15%):** 高科技製造業 — IT/[[OT]] 安全監控\n\n### 主要供應商\n- **資安設備:** [[Fortinet]]、[[Palo Alto Networks]] — 防火牆與 IDS/IPS\n- **SIEM 系統:** [[Splunk]]、[[IBM QRadar]] — 日誌分析平台\n- **母集團:** [[宏碁]] — 伺服器硬體與集團資源",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $157.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.96 |       11.95 |      1.86 | 1.61 |      7.22 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2431.96 |      2146.43 |      1844.56 |\n| Gross Profit            |      1032.23 |       890.33 |       733.33 |\n| Gross Margin (%)        |        42.44 |        41.48 |        39.76 |\n| Selling & Marketing Exp |       127.80 |       110.97 |        95.08 |\n| R&D Exp                 |       364.58 |       309.54 |       257.72 |\n| General & Admin Exp     |       176.04 |       176.33 |       147.54 |\n| Operating Income        |       363.81 |       293.49 |       233.00 |\n| Operating Margin (%)    |        14.96 |        13.67 |        12.63 |\n| Net Income              |       306.69 |       225.76 |       190.59 |\n| Net Margin (%)          |        12.61 |        10.52 |        10.33 |\n| Op Cash Flow            |      1276.69 |      1487.08 |       859.38 |\n| Investing Cash Flow     |     -1681.20 |     -1983.55 |      -979.47 |\n| Financing Cash Flow     |      -221.74 |      1563.78 |         4.84 |\n| CAPEX                   |       -69.32 |     -1234.21 |      -404.10 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       624.81 |       691.68 |       597.72 |       516.33 |\n| Gross Profit            |       234.20 |       293.51 |       255.52 |       214.29 |\n| Gross Margin (%)        |        37.48 |        42.44 |        42.75 |        41.50 |\n| Selling & Marketing Exp |        28.09 |        32.40 |        32.56 |        30.68 |\n| R&D Exp                 |        84.60 |        96.16 |        91.25 |        81.17 |\n| General & Admin Exp     |        39.81 |        53.49 |        41.45 |        35.70 |\n| Operating Income        |        81.69 |       111.47 |        90.27 |        66.74 |\n| Operating Margin (%)    |        13.08 |        16.12 |        15.10 |        12.93 |\n| Net Income              |        68.06 |        94.55 |        75.03 |        56.16 |\n| Net Margin (%)          |        10.89 |        13.67 |        12.55 |        10.88 |\n| Op Cash Flow            |       303.98 |       572.81 |       198.37 |       296.12 |\n| Investing Cash Flow     |      -319.48 |      -784.90 |      -382.73 |      -215.25 |\n| Financing Cash Flow     |       -10.58 |       -10.53 |       -10.45 |       -10.28 |\n| CAPEX                   |       -32.35 |       -21.55 |        -3.58 |       -24.20 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

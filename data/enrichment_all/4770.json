@@ -1,0 +1,193 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4770",
+  "company_name": "上品",
+  "title": "4770 - 上品",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/4770_上品.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "16,995 百萬台幣",
+    "enterprise_value": "13,230 百萬台幣"
+  },
+  "business": {
+    "summary": "上品綜合工業 (4770，Allied Supreme) 為台灣頂尖 [[PTFE]]/氟素高分子內襯設備專業廠 (1981 年成立，授權 Teflon 品牌)。產品涵蓋氟素內襯儲槽、熱交換器、槽車及管線，用於儲存/輸送超高純度腐蝕性電子化學品 (HF、H2SO4)。電子級化學品領域佔營收約 90%，為半導體廠化學品交付基礎設施之關鍵供應商。上游[[PTFE]]樹脂採購自全球三大氟素樹脂廠 — [[Chemours]] (杜邦分拆)、[[Daikin]]、[[3M]]。下游直接客戶為電子化學品供應商如[[長春集團]]、[[關東鑫林]]、[[巴斯夫]]，終端使用者為[[台積電]]、[[Micron]]、[[聯電]]等晶圓廠。市值約 190 億元。",
+    "entities": [
+      "PTFE",
+      "Chemours",
+      "Daikin",
+      "3M",
+      "長春集團",
+      "關東鑫林",
+      "巴斯夫",
+      "台積電",
+      "Micron",
+      "聯電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "PTFE 樹脂",
+        "text": "[[Chemours]]、[[Daikin]]、[[3M]] — 全球三大氟素樹脂原料",
+        "entities": [
+          "Chemours",
+          "Daikin",
+          "3M"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**上品** ([[PTFE]]氟素內襯儲槽/熱交換器/槽車/管線)",
+        "entities": [
+          "PTFE"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電子化學品商 (直接客戶)",
+        "text": "[[長春集團]]、[[關東鑫林]]、[[巴斯夫]] — 電子化學品儲運設備",
+        "entities": [
+          "長春集團",
+          "關東鑫林",
+          "巴斯夫"
+        ]
+      },
+      {
+        "category": "晶圓廠 (終端用戶)",
+        "text": "[[台積電]]、[[Micron]]、[[聯電]] — 化學品交付基礎設施",
+        "entities": [
+          "台積電",
+          "Micron",
+          "聯電"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子化學品 (直接)",
+        "text": "[[長春集團]]、[[關東鑫林]]、[[巴斯夫]] — 化學品儲運設備",
+        "entities": [
+          "長春集團",
+          "關東鑫林",
+          "巴斯夫"
+        ]
+      },
+      {
+        "role": "晶圓廠 (終端)",
+        "text": "[[台積電]]、[[Micron]]、[[聯電]] — 化學品基礎設施",
+        "entities": [
+          "台積電",
+          "Micron",
+          "聯電"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "PTFE 樹脂",
+        "text": "[[Chemours]]、[[Daikin]]、[[3M]] — 氟素高分子原料",
+        "entities": [
+          "Chemours",
+          "Daikin",
+          "3M"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PTFE",
+      "type": "international_company_or_term",
+      "wikilink": "PTFE"
+    },
+    {
+      "name": "Chemours",
+      "type": "international_company_or_term",
+      "wikilink": "Chemours"
+    },
+    {
+      "name": "Daikin",
+      "type": "international_company_or_term",
+      "wikilink": "Daikin"
+    },
+    {
+      "name": "3M",
+      "type": "international_company_or_term",
+      "wikilink": "3M"
+    },
+    {
+      "name": "長春集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長春集團"
+    },
+    {
+      "name": "關東鑫林",
+      "type": "taiwan_company_or_term",
+      "wikilink": "關東鑫林"
+    },
+    {
+      "name": "巴斯夫",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巴斯夫"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "上品綜合工業 (4770，Allied Supreme) 為台灣頂尖 [[PTFE]]/氟素高分子內襯設備專業廠 (1981 年成立，授權 Teflon 品牌)。產品涵蓋氟素內襯儲槽、熱交換器、槽車及管線，用於儲存/輸送超高純度腐蝕性電子化學品 (HF、H2SO4)。電子級化學品領域佔營收約 90%，為半導體廠化學品交付基礎設施之關鍵供應商。上游[[PTFE]]樹脂採購自全球三大氟素樹脂廠 — [[Chemours]] (杜邦分拆)、[[Daikin]]、[[3M]]。下游直接客戶為電子化學品供應商如[[長春集團]]、[[關東鑫林]]、[[巴斯夫]]，終端使用者為[[台積電]]、[[Micron]]、[[聯電]]等晶圓廠。市值約 190 億元。",
+    "supply_chain_md": "**上游 (原料):**\n- **PTFE 樹脂:** [[Chemours]]、[[Daikin]]、[[3M]] — 全球三大氟素樹脂原料\n\n**中游 (製造):**\n- **上品** ([[PTFE]]氟素內襯儲槽/熱交換器/槽車/管線)\n\n**下游 (終端):**\n- **電子化學品商 (直接客戶):** [[長春集團]]、[[關東鑫林]]、[[巴斯夫]] — 電子化學品儲運設備\n- **晶圓廠 (終端用戶):** [[台積電]]、[[Micron]]、[[聯電]] — 化學品交付基礎設施",
+    "customers_suppliers_md": "### 主要客戶\n- **電子化學品 (直接):** [[長春集團]]、[[關東鑫林]]、[[巴斯夫]] — 化學品儲運設備\n- **晶圓廠 (終端):** [[台積電]]、[[Micron]]、[[聯電]] — 化學品基礎設施\n\n### 主要供應商\n- **PTFE 樹脂:** [[Chemours]]、[[Daikin]]、[[3M]] — 氟素高分子原料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $212.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     21.05 |       12.44 |      3.52 | 2.10 |     11.22 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4726.10 |      6457.40 |      5692.35 |\n| Gross Profit            |      1558.49 |      2629.93 |      2644.00 |\n| Gross Margin (%)        |        32.98 |        40.73 |        46.45 |\n| Selling & Marketing Exp |       206.60 |       264.95 |       251.94 |\n| R&D Exp                 |       136.88 |       129.42 |       154.38 |\n| General & Admin Exp     |       195.55 |       253.24 |       222.13 |\n| Operating Income        |      1019.47 |      1982.33 |      2015.55 |\n| Operating Margin (%)    |        21.57 |        30.70 |        35.41 |\n| Net Income              |       815.86 |      1732.76 |      1683.25 |\n| Net Margin (%)          |        17.26 |        26.83 |        29.57 |\n| Op Cash Flow            |      1601.51 |      1472.67 |       828.56 |\n| Investing Cash Flow     |      -964.06 |      -317.36 |        -5.62 |\n| Financing Cash Flow     |      -931.63 |     -1034.90 |      -845.73 |\n| CAPEX                   |      -187.79 |      -239.37 |      -197.12 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1058.61 |      1050.87 |      1397.06 |      1312.33 |\n| Gross Profit            |       369.93 |       300.82 |       415.38 |       490.27 |\n| Gross Margin (%)        |        34.94 |        28.63 |        29.73 |        37.36 |\n| Selling & Marketing Exp |        50.69 |        51.17 |        54.31 |        53.17 |\n| R&D Exp                 |        34.76 |        47.18 |        35.61 |        29.96 |\n| General & Admin Exp     |        46.20 |        46.84 |        52.22 |        50.57 |\n| Operating Income        |       238.28 |       155.63 |       273.25 |       356.57 |\n| Operating Margin (%)    |        22.51 |        14.81 |        19.56 |        27.17 |\n| Net Income              |       201.63 |       143.86 |       244.02 |       220.21 |\n| Net Margin (%)          |        19.05 |        13.69 |        17.47 |        16.78 |\n| Op Cash Flow            |       388.68 |       387.31 |       346.24 |       127.40 |\n| Investing Cash Flow     |      -693.86 |      -356.65 |      -378.58 |       -10.16 |\n| Financing Cash Flow     |       -25.27 |       116.93 |       -33.05 |      -992.76 |\n| CAPEX                   |       -41.32 |       -35.77 |       -51.20 |       -66.13 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

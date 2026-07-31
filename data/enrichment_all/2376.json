@@ -1,0 +1,305 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2376",
+  "company_name": "技嘉",
+  "title": "2376 - [[技嘉]]",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備/2376_技嘉.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "215,369 百萬台幣",
+    "enterprise_value": "241,304 百萬台幣"
+  },
+  "business": {
+    "summary": "技嘉科技 (2376，[[Gigabyte Technology]]) 成立於 1986 年，總部位於新北市，為全球知名主機板、顯示卡及 [[AI 伺服器]]品牌廠。2024 年合併營收達 2,651 億元，年增 93.78%，EPS 達 15.03 元。\n\n三大事業核心：(1) 零組件板卡事業：主機板 ([[Intel]]/[[AMD]] 平台)、顯示卡 ([[NVIDIA]]/[[AMD]] GPU)、電競周邊 (AORUS 品牌)，顯卡市場持續供不應求，2025 年市場年增 15-20%；(2) AI 伺服器事業：[[NVIDIA]] 認證伺服器製造商，AI 伺服器已佔伺服器營收八成，積極推動 GB10/B300/GB300 新一代平台，提供 GPU 伺服器、高密度伺服器、單相/雙相浸沒式[[液冷]]及資料中心完整方案；(3) 解決方案：嵌入式運算、e-Mobility [[電動自行車]]及 [[AIoT]] 方案。",
+    "entities": [
+      "Gigabyte Technology",
+      "AI 伺服器",
+      "Intel",
+      "AMD",
+      "NVIDIA",
+      "液冷",
+      "電動自行車",
+      "AIoT"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與關鍵零組件)",
+        "text": "**上游 (晶片與關鍵零組件):**",
+        "entities": []
+      },
+      {
+        "category": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 桌機/伺服器處理器及晶片組",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "category": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "category": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "category": "PCB",
+        "text": "高層數 PCB 電路板及散熱模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (板卡品牌與 AI 伺服器製造)",
+        "text": "**中游 (板卡品牌與 AI 伺服器製造):**",
+        "entities": []
+      },
+      {
+        "category": "板卡品牌",
+        "text": "**技嘉** (GIGABYTE/AORUS 品牌主機板/顯卡)",
+        "entities": []
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "**技嘉** ([[NVIDIA]] 認證 AI 伺服器，GPU/高密度/邊緣)",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "液冷方案",
+        "text": "**技嘉** (單相/雙相浸沒式[[液冷]]資料中心方案)",
+        "entities": [
+          "液冷"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球通路與雲端客戶)",
+        "text": "**下游 (全球通路與雲端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "DIY 通路",
+        "text": "全球 IT 零組件通路經銷商 — 主機板/顯卡",
+        "entities": []
+      },
+      {
+        "category": "CSP 雲端",
+        "text": "全球雲端服務商 — AI 伺服器及資料中心方案",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "各產業 AI 資料中心建置客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "DIY 零售",
+        "text": "全球 IT 零組件通路商 — GIGABYTE/AORUS 主機板及顯卡",
+        "entities": []
+      },
+      {
+        "role": "CSP 雲端",
+        "text": "全球雲端服務商 — [[NVIDIA]] 認證 AI 伺服器",
+        "entities": [
+          "NVIDIA"
+        ]
+      },
+      {
+        "role": "企業 AI",
+        "text": "企業及研究機構 — AI 資料中心建置方案",
+        "entities": []
+      },
+      {
+        "role": "電競玩家",
+        "text": "全球電競消費者 — AORUS 品牌電競生態系",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "CPU",
+        "text": "[[Intel]]、[[AMD]] — 處理器及晶片組平台",
+        "entities": [
+          "Intel",
+          "AMD"
+        ]
+      },
+      {
+        "role": "GPU",
+        "text": "[[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU",
+        "entities": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      {
+        "role": "記憶體",
+        "text": "[[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD",
+        "entities": [
+          "Samsung",
+          "SK 海力士",
+          "Micron",
+          "HBM"
+        ]
+      },
+      {
+        "role": "PCB",
+        "text": "高層數 PCB 電路板製造商",
+        "entities": []
+      }
+    ],
+    "competitors": [
+      {
+        "role": "PC與主機板品牌競爭者",
+        "text": "[[華碩]]、[[微星]]、[[宏碁]]、[[ASRock]]、[[Dell]]、[[HP]]",
+        "entities": [
+          "華碩",
+          "微星",
+          "宏碁",
+          "ASRock",
+          "Dell",
+          "HP"
+        ],
+        "basis": "curated_pc_brand_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Gigabyte Technology",
+      "type": "international_company_or_term",
+      "wikilink": "Gigabyte Technology"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "AMD",
+      "type": "international_company_or_term",
+      "wikilink": "AMD"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "液冷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "液冷"
+    },
+    {
+      "name": "電動自行車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動自行車"
+    },
+    {
+      "name": "AIoT",
+      "type": "international_company_or_term",
+      "wikilink": "AIoT"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK 海力士",
+      "type": "taiwan_company_or_term",
+      "wikilink": "SK 海力士"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "HBM",
+      "type": "technology",
+      "wikilink": "HBM"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "ASRock",
+      "type": "international_company_or_term",
+      "wikilink": "ASRock"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "技嘉科技 (2376，[[Gigabyte Technology]]) 成立於 1986 年，總部位於新北市，為全球知名主機板、顯示卡及 [[AI 伺服器]]品牌廠。2024 年合併營收達 2,651 億元，年增 93.78%，EPS 達 15.03 元。\n\n三大事業核心：(1) 零組件板卡事業：主機板 ([[Intel]]/[[AMD]] 平台)、顯示卡 ([[NVIDIA]]/[[AMD]] GPU)、電競周邊 (AORUS 品牌)，顯卡市場持續供不應求，2025 年市場年增 15-20%；(2) AI 伺服器事業：[[NVIDIA]] 認證伺服器製造商，AI 伺服器已佔伺服器營收八成，積極推動 GB10/B300/GB300 新一代平台，提供 GPU 伺服器、高密度伺服器、單相/雙相浸沒式[[液冷]]及資料中心完整方案；(3) 解決方案：嵌入式運算、e-Mobility [[電動自行車]]及 [[AIoT]] 方案。",
+    "supply_chain_md": "**上游 (晶片與關鍵零組件):**\n- **CPU:** [[Intel]]、[[AMD]] — 桌機/伺服器處理器及晶片組\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD\n- **PCB:** 高層數 PCB 電路板及散熱模組\n\n**中游 (板卡品牌與 AI 伺服器製造):**\n- **板卡品牌:** **技嘉** (GIGABYTE/AORUS 品牌主機板/顯卡)\n- **AI 伺服器:** **技嘉** ([[NVIDIA]] 認證 AI 伺服器，GPU/高密度/邊緣)\n- **液冷方案:** **技嘉** (單相/雙相浸沒式[[液冷]]資料中心方案)\n\n**下游 (全球通路與雲端客戶):**\n- **DIY 通路:** 全球 IT 零組件通路經銷商 — 主機板/顯卡\n- **CSP 雲端:** 全球雲端服務商 — AI 伺服器及資料中心方案\n- **企業客戶:** 各產業 AI 資料中心建置客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **DIY 零售:** 全球 IT 零組件通路商 — GIGABYTE/AORUS 主機板及顯卡\n- **CSP 雲端:** 全球雲端服務商 — [[NVIDIA]] 認證 AI 伺服器\n- **企業 AI:** 企業及研究機構 — AI 資料中心建置方案\n- **電競玩家:** 全球電競消費者 — AORUS 品牌電競生態系\n\n### 主要供應商\n- **CPU:** [[Intel]]、[[AMD]] — 處理器及晶片組平台\n- **GPU:** [[NVIDIA]]、[[AMD]] — 顯示卡及 AI 伺服器 GPU\n- **記憶體:** [[Samsung]]、[[SK 海力士]]、[[Micron]] — DRAM/[[HBM]]/SSD\n- **PCB:** 高層數 PCB 電路板製造商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $318.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.85 |        9.40 |      0.57 | 3.30 |     11.55 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    336936.66 |    265148.78 |    136773.41 |\n| Gross Profit            |     35185.10 |     28092.49 |     16575.44 |\n| Gross Margin (%)        |        10.44 |        10.59 |        12.12 |\n| Selling & Marketing Exp |      9343.64 |      7121.52 |      5874.50 |\n| R&D Exp                 |      4307.12 |      4127.57 |      2747.33 |\n| General & Admin Exp     |      4582.78 |      3965.52 |      2970.76 |\n| Operating Income        |     16951.55 |     12877.87 |      4982.85 |\n| Operating Margin (%)    |         5.03 |         4.86 |         3.64 |\n| Net Income              |     12189.87 |      9788.54 |      4742.98 |\n| Net Margin (%)          |         3.62 |         3.69 |         3.47 |\n| Op Cash Flow            |      5088.94 |    -16182.19 |      2264.86 |\n| Investing Cash Flow     |     -1330.81 |     -3076.61 |      -674.98 |\n| Financing Cash Flow     |     15061.17 |     17190.48 |      5455.90 |\n| CAPEX                   |     -1403.36 |     -2137.72 |      -582.16 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    105057.33 |     89349.64 |     79581.47 |    102258.12 |\n| Gross Profit            |     12614.63 |      9188.81 |      7883.02 |      9632.95 |\n| Gross Margin (%)        |        12.01 |        10.28 |         9.91 |         9.42 |\n| Selling & Marketing Exp |      2406.66 |      2739.20 |      2173.94 |      2494.22 |\n| R&D Exp                 |       907.85 |      1243.72 |      1109.20 |       960.82 |\n| General & Admin Exp     |      1458.23 |      1186.53 |      1251.52 |      1096.69 |\n| Operating Income        |      7841.89 |      4019.36 |      3348.37 |      5081.22 |\n| Operating Margin (%)    |         7.46 |         4.50 |         4.21 |         4.97 |\n| Net Income              |      5268.40 |      2968.60 |      3055.60 |      3049.56 |\n| Net Margin (%)          |         5.01 |         3.32 |         3.84 |         2.98 |\n| Op Cash Flow            |    -20652.88 |      3184.84 |     -2802.91 |      2524.34 |\n| Investing Cash Flow     |     -1317.39 |      -582.17 |      -914.48 |       632.29 |\n| Financing Cash Flow     |     43953.05 |     -5548.60 |      4334.90 |     -2992.89 |\n| CAPEX                   |      -182.61 |      -724.17 |      -324.26 |      -193.45 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 12,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

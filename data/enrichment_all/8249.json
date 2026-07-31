@@ -1,0 +1,116 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8249",
+  "company_name": "菱光",
+  "title": "8249 - 菱光",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備之零組件/8249_菱光.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "5,406 百萬台幣",
+    "enterprise_value": "3,587 百萬台幣"
+  },
+  "business": {
+    "summary": "菱光科技 (8249) 為全球CIS模組龍頭 (技術源自[[Toshiba]])。三大事業：CIS模組 (事務機)、隱形雷射晶圓切割 ([[MEMS]]/[[RFID]])、[[LWIR]]紅外線熱像 (安防/無人機/國防)。",
+    "entities": [
+      "Toshiba",
+      "MEMS",
+      "RFID",
+      "LWIR"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "光學元件/CMOS/雷射源/紅外線偵測器",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**菱光** (CIS/雷射切割/[[LWIR]]紅外線)",
+        "entities": [
+          "LWIR"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "事務機品牌、[[MEMS]]/[[RFID]]晶圓、安防/國防",
+        "entities": [
+          "MEMS",
+          "RFID"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "事務機品牌; [[MEMS]]/[[RFID]]切割; 安防/國防",
+        "entities": [
+          "MEMS",
+          "RFID"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Toshiba]] (技術); 光學/紅外線",
+        "entities": [
+          "Toshiba"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Toshiba",
+      "type": "international_company_or_term",
+      "wikilink": "Toshiba"
+    },
+    {
+      "name": "MEMS",
+      "type": "international_company_or_term",
+      "wikilink": "MEMS"
+    },
+    {
+      "name": "RFID",
+      "type": "international_company_or_term",
+      "wikilink": "RFID"
+    },
+    {
+      "name": "LWIR",
+      "type": "international_company_or_term",
+      "wikilink": "LWIR"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "菱光科技 (8249) 為全球CIS模組龍頭 (技術源自[[Toshiba]])。三大事業：CIS模組 (事務機)、隱形雷射晶圓切割 ([[MEMS]]/[[RFID]])、[[LWIR]]紅外線熱像 (安防/無人機/國防)。",
+    "supply_chain_md": "**上游:** 光學元件/CMOS/雷射源/紅外線偵測器\n**中游:** **菱光** (CIS/雷射切割/[[LWIR]]紅外線)\n**下游:** 事務機品牌、[[MEMS]]/[[RFID]]晶圓、安防/國防",
+    "customers_suppliers_md": "### 主要客戶\n- 事務機品牌; [[MEMS]]/[[RFID]]切割; 安防/國防\n\n### 主要供應商\n- [[Toshiba]] (技術); 光學/紅外線",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $39.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      9.92 |         N/A |      1.47 | 0.86 |     10.87 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      3720.64 |      4200.19 |      3056.22 |\n| Gross Profit            |       763.82 |       858.39 |       573.83 |\n| Gross Margin (%)        |        20.53 |        20.44 |        18.78 |\n| Selling & Marketing Exp |        64.03 |        61.06 |        73.11 |\n| R&D Exp                 |        77.78 |        79.27 |        89.17 |\n| General & Admin Exp     |       268.32 |       236.01 |       174.44 |\n| Operating Income        |       353.69 |       482.05 |       237.11 |\n| Operating Margin (%)    |         9.51 |        11.48 |         7.76 |\n| Net Income              |       429.62 |       361.27 |       246.79 |\n| Net Margin (%)          |        11.55 |         8.60 |         8.07 |\n| Op Cash Flow            |       259.42 |       755.16 |       181.77 |\n| Investing Cash Flow     |      -174.73 |       103.75 |       906.42 |\n| Financing Cash Flow     |       -84.96 |      -282.69 |      -286.76 |\n| CAPEX                   |      -107.15 |       -33.29 |       -13.07 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       960.37 |       803.90 |       880.80 |      1075.58 |\n| Gross Profit            |       184.64 |       156.68 |       184.78 |       237.71 |\n| Gross Margin (%)        |        19.23 |        19.49 |        20.98 |        22.10 |\n| Selling & Marketing Exp |        15.88 |        15.52 |        16.53 |        16.09 |\n| R&D Exp                 |        18.96 |        17.29 |        22.43 |        19.10 |\n| General & Admin Exp     |        55.56 |        84.10 |        75.39 |        53.28 |\n| Operating Income        |        94.24 |        39.78 |        70.43 |       149.24 |\n| Operating Margin (%)    |         9.81 |         4.95 |         8.00 |        13.88 |\n| Net Income              |        26.97 |       185.52 |       109.07 |       108.07 |\n| Net Margin (%)          |         2.81 |        23.08 |        12.38 |        10.05 |\n| Op Cash Flow            |        71.90 |       276.13 |      -164.03 |        75.42 |\n| Investing Cash Flow     |      -203.90 |       -32.02 |        -1.95 |        63.15 |\n| Financing Cash Flow     |        -2.96 |      -274.76 |       194.98 |        -2.22 |\n| CAPEX                   |       -66.13 |       -36.17 |        -2.79 |        -2.06 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

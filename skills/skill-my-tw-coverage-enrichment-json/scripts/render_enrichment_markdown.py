@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render draft enrichment JSON back to preview Markdown and compare coverage.
+"""Render canonical enrichment JSON back to preview Markdown and compare coverage.
 
 Rendering is JSON-only and never overwrites Pilot_Reports. When source Markdown is
 available, the compare CSV uses it as validation context only.
@@ -164,7 +164,7 @@ def render_markdown(data: dict[str, Any], original: str) -> str:
     title = data.get("title") or f"{data.get('ticker', '')} - [[{data.get('company_name', '')}]]"
     profile = data.get("profile", {})
     business_summary = data.get("business", {}).get("summary", "").strip()
-    financial = split_financial_section(original)
+    financial = str(data.get("source_text", {}).get("financial_md", "")).strip()
 
     parts: list[str] = [f"# {title}", "", "## 業務簡介"]
     parts.extend(format_metadata(profile))
@@ -173,7 +173,8 @@ def render_markdown(data: dict[str, Any], original: str) -> str:
     if competitive:
         parts.extend(["", competitive])
     if financial:
-        parts.extend(["", financial])
+        heading = financial if financial.startswith("## ") else "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n" + financial
+        parts.extend(["", heading])
     return "\n".join(part.rstrip() for part in parts).rstrip() + "\n"
 
 
@@ -196,14 +197,14 @@ def compare(original: str, rendered: str, data: dict[str, Any]) -> dict[str, Any
         "rendered_wikilinks": len(rendered_links),
         "missing_wikilinks": ";".join(missing_links),
         "missing_source_sections": ";".join(section_results),
-        "financial_preserved": "not_rendered",
+        "financial_preserved": str(bool(data.get("source_text", {}).get("financial_md", ""))).lower(),
         "competitor_count": len(data.get("relationships", {}).get("competitors", []) or []),
     }
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--json-dir", default="data/enrichment_all_draft")
+    parser.add_argument("--json-dir", default="data/enrichment_all")
     parser.add_argument("--coverage-root", default=".")
     parser.add_argument("--out", default="output/enrichment_all_rendered")
     parser.add_argument("--compare", default="output/enrichment_all_render_compare.csv")

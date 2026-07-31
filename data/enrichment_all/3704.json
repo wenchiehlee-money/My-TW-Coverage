@@ -1,0 +1,264 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3704",
+  "company_name": "合勤控",
+  "title": "3704 - 合勤控",
+  "source_md": "Pilot_Reports/資通訊安全 - 網路基礎設施/3704_合勤控.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "16,546 百萬台幣",
+    "enterprise_value": "17,245 百萬台幣"
+  },
+  "business": {
+    "summary": "合勤投資控股 (3704，[[Zyxel Group]]) 為台灣歷史最悠久之通訊網路設備集團，旗下三大事業群：合勤科技 (Zyxel Communications，專攻電信營運商標案)、兆勤科技 ([[Zyxel Networks]]，主攻企業 SMB 網路資安自有品牌) 及盟創科技 ([[MitraStar]]，主攻硬體 OEM/ODM 代工)。\n\n產品涵蓋光纖寬頻 ([[PON]])、[[5G]] 固定無線接取 ([[FWA]])、[[Wi-Fi 7]] 路由器、網安防火牆及 Nebula 雲端網管平台。兆勤科技 Nebula 雲端生態系已部署超過百萬台裝置至全球 150 國以上中小企業。公司 2026 年獲選入 S&P Global 永續年鑑，在全球電信設備製造商中排名第一。",
+    "entities": [
+      "Zyxel Group",
+      "Zyxel Networks",
+      "MitraStar",
+      "PON",
+      "5G",
+      "FWA",
+      "Wi-Fi 7"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與元件)",
+        "text": "**上游 (網通晶片與元件):**",
+        "entities": []
+      },
+      {
+        "category": "網通 SoC",
+        "text": "[[Broadcom]]、[[Qualcomm]]、[[聯發科]] 等網通晶片",
+        "entities": [
+          "Broadcom",
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "射頻元件",
+        "text": "通訊射頻晶片",
+        "entities": []
+      },
+      {
+        "category": "PCB",
+        "text": "工業級 PCB 載板",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (多角化網通設備集團)",
+        "text": "**中游 (多角化網通設備集團):**",
+        "entities": []
+      },
+      {
+        "category": "品牌事業",
+        "text": "合勤科技 (電信營運商標案)",
+        "entities": []
+      },
+      {
+        "category": "通路事業",
+        "text": "[[Zyxel Networks]] 兆勤 (企業 SMB 資安品牌/Nebula 雲管理)",
+        "entities": [
+          "Zyxel Networks"
+        ]
+      },
+      {
+        "category": "代工事業",
+        "text": "[[MitraStar]] 盟創 (高彈性 OEM/ODM)",
+        "entities": [
+          "MitraStar"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球電信與企業)",
+        "text": "**下游 (全球電信與企業):**",
+        "entities": []
+      },
+      {
+        "category": "歐美電信",
+        "text": "[[Telenor]]、歐美亞一線電信營運商",
+        "entities": [
+          "Telenor"
+        ]
+      },
+      {
+        "category": "中小企業",
+        "text": "全球 150 國 SMB 及 MSP 通路",
+        "entities": []
+      },
+      {
+        "category": "資安合作",
+        "text": "全球端點防護合作夥伴",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電信營運商",
+        "text": "[[Telenor]] (挪威)、歐美亞一線電信商 (5G FWA/光纖標案)",
+        "entities": [
+          "Telenor"
+        ]
+      },
+      {
+        "role": "企業通路",
+        "text": "全球 150 國中小企業 (Nebula 雲端網管)",
+        "entities": []
+      },
+      {
+        "role": "資安 MSP",
+        "text": "管理服務提供商 (企業資安方案)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "網通晶片",
+        "text": "[[Broadcom]]、[[Qualcomm]]、[[聯發科]]",
+        "entities": [
+          "Broadcom",
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[智易]]、[[正文]]、[[中磊]]",
+        "entities": [
+          "智易",
+          "正文",
+          "中磊"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[智易]]、[[正文]]、[[中磊]]",
+        "entities": [
+          "智易",
+          "正文",
+          "中磊"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[啟碁]]",
+        "entities": [
+          "啟碁"
+        ],
+        "basis": "reciprocal_competitor_from:6285",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Zyxel Group",
+      "type": "international_company_or_term",
+      "wikilink": "Zyxel Group"
+    },
+    {
+      "name": "Zyxel Networks",
+      "type": "international_company_or_term",
+      "wikilink": "Zyxel Networks"
+    },
+    {
+      "name": "MitraStar",
+      "type": "international_company_or_term",
+      "wikilink": "MitraStar"
+    },
+    {
+      "name": "PON",
+      "type": "international_company_or_term",
+      "wikilink": "PON"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "FWA",
+      "type": "international_company_or_term",
+      "wikilink": "FWA"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Telenor",
+      "type": "international_company_or_term",
+      "wikilink": "Telenor"
+    },
+    {
+      "name": "智易",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智易"
+    },
+    {
+      "name": "正文",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正文"
+    },
+    {
+      "name": "中磊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中磊"
+    },
+    {
+      "name": "啟碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "啟碁"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "合勤投資控股 (3704，[[Zyxel Group]]) 為台灣歷史最悠久之通訊網路設備集團，旗下三大事業群：合勤科技 (Zyxel Communications，專攻電信營運商標案)、兆勤科技 ([[Zyxel Networks]]，主攻企業 SMB 網路資安自有品牌) 及盟創科技 ([[MitraStar]]，主攻硬體 OEM/ODM 代工)。\n\n產品涵蓋光纖寬頻 ([[PON]])、[[5G]] 固定無線接取 ([[FWA]])、[[Wi-Fi 7]] 路由器、網安防火牆及 Nebula 雲端網管平台。兆勤科技 Nebula 雲端生態系已部署超過百萬台裝置至全球 150 國以上中小企業。公司 2026 年獲選入 S&P Global 永續年鑑，在全球電信設備製造商中排名第一。",
+    "supply_chain_md": "**上游 (網通晶片與元件):**\n- **網通 SoC:** [[Broadcom]]、[[Qualcomm]]、[[聯發科]] 等網通晶片\n- **射頻元件:** 通訊射頻晶片\n- **PCB:** 工業級 PCB 載板\n\n**中游 (多角化網通設備集團):**\n- **品牌事業:** 合勤科技 (電信營運商標案)\n- **通路事業:** [[Zyxel Networks]] 兆勤 (企業 SMB 資安品牌/Nebula 雲管理)\n- **代工事業:** [[MitraStar]] 盟創 (高彈性 OEM/ODM)\n\n**下游 (全球電信與企業):**\n- **歐美電信:** [[Telenor]]、歐美亞一線電信營運商\n- **中小企業:** 全球 150 國 SMB 及 MSP 通路\n- **資安合作:** 全球端點防護合作夥伴",
+    "customers_suppliers_md": "### 主要客戶\n- **電信營運商:** [[Telenor]] (挪威)、歐美亞一線電信商 (5G FWA/光纖標案)\n- **企業通路:** 全球 150 國中小企業 (Nebula 雲端網管)\n- **資安 MSP:** 管理服務提供商 (企業資安方案)\n\n### 主要供應商\n- **網通晶片:** [[Broadcom]]、[[Qualcomm]]、[[聯發科]]\n- **競爭同業:** [[智易]]、[[正文]]、[[中磊]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $39.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     34.70 |       12.16 |      0.66 | 1.38 |     14.12 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     25295.20 |     25969.44 |     30379.98 |\n| Gross Profit            |      6743.32 |      6434.22 |      6679.14 |\n| Gross Margin (%)        |        26.66 |        24.78 |        21.99 |\n| Selling & Marketing Exp |      2649.80 |      2626.12 |      2414.12 |\n| R&D Exp                 |      1854.70 |      1906.80 |      1916.64 |\n| General & Admin Exp     |      1047.88 |       979.96 |      1047.73 |\n| Operating Income        |      1190.94 |       921.34 |      1300.64 |\n| Operating Margin (%)    |         4.71 |         3.55 |         4.28 |\n| Net Income              |       634.14 |       569.65 |      1341.16 |\n| Net Margin (%)          |         2.51 |         2.19 |         4.41 |\n| Op Cash Flow            |       336.14 |     -1385.22 |      3635.55 |\n| Investing Cash Flow     |      -515.49 |     -1748.67 |      -327.29 |\n| Financing Cash Flow     |       122.43 |      -265.02 |     -2773.59 |\n| CAPEX                   |      -545.04 |      -948.71 |      -241.21 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      6310.21 |      5655.91 |      6186.94 |      7034.91 |\n| Gross Profit            |      1515.16 |      1729.64 |      1505.31 |      1592.84 |\n| Gross Margin (%)        |        24.01 |        30.58 |        24.33 |        22.64 |\n| Selling & Marketing Exp |       660.63 |       717.28 |       664.93 |       670.31 |\n| R&D Exp                 |       477.17 |       486.19 |       429.78 |       495.81 |\n| General & Admin Exp     |       259.81 |       275.60 |       278.36 |       257.49 |\n| Operating Income        |       117.55 |       250.58 |       132.23 |       169.23 |\n| Operating Margin (%)    |         1.86 |         4.43 |         2.14 |         2.41 |\n| Net Income              |       117.07 |       177.87 |      -379.98 |       281.25 |\n| Net Margin (%)          |         1.86 |         3.14 |        -6.14 |         4.00 |\n| Op Cash Flow            |      -484.76 |       950.87 |      1174.07 |      -935.70 |\n| Investing Cash Flow     |      -115.36 |      -195.90 |      -234.11 |       -11.87 |\n| Financing Cash Flow     |       190.81 |      -538.88 |     -1187.29 |      1470.32 |\n| CAPEX                   |      -139.43 |      -161.63 |      -279.42 |       -60.23 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1776",
+  "company_name": "展宇",
+  "title": "1776 - 展宇",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 石化中間原料(例如乙烯、丙烯、丁二烯、苯、酚等)/1776_展宇.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Chemicals",
+    "market_cap": "1,001 百萬台幣",
+    "enterprise_value": "713 百萬台幣"
+  },
+  "business": {
+    "summary": "展宇藥品科技 (1776，Headway Advanced Materials) 成立於 1976 年，專業[[PU樹脂]]及[[TPU]]粒製造商。產品涵蓋溶劑型/水性/無溶劑 PU 樹脂、聚異氰酸酯、[[TPU]]粒及聚天門冬胺酸酯樹脂，應用於鞋材 (供應[[Nike]]、[[adidas]]、[[Puma]]代工體系)、合成皮革、家具建材及電子絕緣。上游異氰酸酯原料採購自[[BASF]]、[[Covestro]]、[[萬華化學]]，國內基礎化學品來自[[台塑]]集團。生產基地位於台灣新竹、中國及越南。近年推動水性及無溶劑環保 PU 樹脂，符合國際品牌永續供應鏈要求。",
+    "entities": [
+      "PU樹脂",
+      "TPU",
+      "Nike",
+      "adidas",
+      "Puma",
+      "BASF",
+      "Covestro",
+      "萬華化學",
+      "台塑"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "異氰酸酯",
+        "text": "[[BASF]]、[[Covestro]]、[[萬華化學]] — [[MDI]]/[[TDI]]",
+        "entities": [
+          "BASF",
+          "Covestro",
+          "萬華化學",
+          "MDI",
+          "TDI"
+        ]
+      },
+      {
+        "category": "基礎化學",
+        "text": "[[台塑]]集團 — 多元醇/溶劑",
+        "entities": [
+          "台塑"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**展宇** ([[PU樹脂]]/[[TPU]]粒/接著劑，台灣/中國/越南)",
+        "entities": [
+          "PU樹脂",
+          "TPU"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "鞋材",
+        "text": "[[Nike]]、[[adidas]]、[[Puma]]代工體系 — PU 接著劑/TPU",
+        "entities": [
+          "Nike",
+          "adidas",
+          "Puma"
+        ]
+      },
+      {
+        "category": "合成皮革",
+        "text": "亞太合成皮加工商",
+        "entities": []
+      },
+      {
+        "category": "家具建材",
+        "text": "水性/無溶劑環保塗料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "鞋材",
+        "text": "[[Nike]]、[[adidas]]、[[Puma]]代工體系 — PU 接著劑/[[TPU]]",
+        "entities": [
+          "Nike",
+          "adidas",
+          "Puma",
+          "TPU"
+        ]
+      },
+      {
+        "role": "合成皮革",
+        "text": "亞太合成皮加工商",
+        "entities": []
+      },
+      {
+        "role": "家具建材",
+        "text": "環保水性 PU 塗料客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "異氰酸酯",
+        "text": "[[BASF]]、[[Covestro]]、[[萬華化學]]",
+        "entities": [
+          "BASF",
+          "Covestro",
+          "萬華化學"
+        ]
+      },
+      {
+        "role": "基礎化學",
+        "text": "[[台塑]]集團",
+        "entities": [
+          "台塑"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PU樹脂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "PU樹脂"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "adidas",
+      "type": "international_company_or_term",
+      "wikilink": "adidas"
+    },
+    {
+      "name": "Puma",
+      "type": "international_company_or_term",
+      "wikilink": "Puma"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Covestro",
+      "type": "international_company_or_term",
+      "wikilink": "Covestro"
+    },
+    {
+      "name": "萬華化學",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬華化學"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "MDI",
+      "type": "international_company_or_term",
+      "wikilink": "MDI"
+    },
+    {
+      "name": "TDI",
+      "type": "international_company_or_term",
+      "wikilink": "TDI"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "展宇藥品科技 (1776，Headway Advanced Materials) 成立於 1976 年，專業[[PU樹脂]]及[[TPU]]粒製造商。產品涵蓋溶劑型/水性/無溶劑 PU 樹脂、聚異氰酸酯、[[TPU]]粒及聚天門冬胺酸酯樹脂，應用於鞋材 (供應[[Nike]]、[[adidas]]、[[Puma]]代工體系)、合成皮革、家具建材及電子絕緣。上游異氰酸酯原料採購自[[BASF]]、[[Covestro]]、[[萬華化學]]，國內基礎化學品來自[[台塑]]集團。生產基地位於台灣新竹、中國及越南。近年推動水性及無溶劑環保 PU 樹脂，符合國際品牌永續供應鏈要求。",
+    "supply_chain_md": "**上游 (原料):**\n- **異氰酸酯:** [[BASF]]、[[Covestro]]、[[萬華化學]] — [[MDI]]/[[TDI]]\n- **基礎化學:** [[台塑]]集團 — 多元醇/溶劑\n\n**中游 (製造):**\n- **展宇** ([[PU樹脂]]/[[TPU]]粒/接著劑，台灣/中國/越南)\n\n**下游 (終端):**\n- **鞋材:** [[Nike]]、[[adidas]]、[[Puma]]代工體系 — PU 接著劑/TPU\n- **合成皮革:** 亞太合成皮加工商\n- **家具建材:** 水性/無溶劑環保塗料",
+    "customers_suppliers_md": "### 主要客戶\n- **鞋材:** [[Nike]]、[[adidas]]、[[Puma]]代工體系 — PU 接著劑/[[TPU]]\n- **合成皮革:** 亞太合成皮加工商\n- **家具建材:** 環保水性 PU 塗料客戶\n\n### 主要供應商\n- **異氰酸酯:** [[BASF]]、[[Covestro]]、[[萬華化學]]\n- **基礎化學:** [[台塑]]集團",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $16.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     34.79 |       13.05 |      0.97 | 1.16 |      7.24 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1032.41 |      1225.51 |      1206.90 |\n| Gross Profit            |       178.12 |       224.58 |       183.91 |\n| Gross Margin (%)        |        17.25 |        18.33 |        15.24 |\n| Selling & Marketing Exp |        46.00 |        55.78 |        52.70 |\n| R&D Exp                 |        20.78 |        22.71 |        23.55 |\n| General & Admin Exp     |        77.10 |       102.67 |        96.43 |\n| Operating Income        |        34.25 |        43.42 |        11.23 |\n| Operating Margin (%)    |         3.32 |         3.54 |         0.93 |\n| Net Income              |        16.53 |        46.67 |        26.02 |\n| Net Margin (%)          |         1.60 |         3.81 |         2.16 |\n| Op Cash Flow            |       183.58 |       148.40 |       110.40 |\n| Investing Cash Flow     |        -6.56 |        -0.06 |       -32.54 |\n| Financing Cash Flow     |      -155.49 |       -69.70 |      -204.53 |\n| CAPEX                   |       -22.43 |       -35.61 |       -32.67 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       275.33 |       263.74 |       248.89 |       258.54 |\n| Gross Profit            |        63.55 |        59.35 |        42.66 |        34.30 |\n| Gross Margin (%)        |        23.08 |        22.50 |        17.14 |        13.27 |\n| Selling & Marketing Exp |        11.00 |        11.55 |        11.03 |        10.98 |\n| R&D Exp                 |         4.79 |         5.28 |         5.83 |         4.50 |\n| General & Admin Exp     |        23.29 |        21.39 |        16.31 |        18.50 |\n| Operating Income        |        24.47 |        21.13 |         9.50 |         0.32 |\n| Operating Margin (%)    |         8.89 |         8.01 |         3.82 |         0.12 |\n| Net Income              |        21.33 |        13.79 |         1.13 |        -7.03 |\n| Net Margin (%)          |         7.75 |         5.23 |         0.45 |        -2.72 |\n| Op Cash Flow            |        43.59 |        33.11 |        49.97 |        56.37 |\n| Investing Cash Flow     |       -18.47 |       -24.08 |        23.05 |       -10.54 |\n| Financing Cash Flow     |       -79.61 |      -108.43 |         4.14 |       -30.38 |\n| CAPEX                   |        -2.24 |       -10.60 |        -0.53 |        -8.50 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

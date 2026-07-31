@@ -1,0 +1,253 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3264",
+  "company_name": "欣銓",
+  "title": "3264 - 欣銓",
+  "source_md": "Pilot_Reports/半導體 - IC封裝測試/3264_欣銓.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "79,145 百萬台幣",
+    "enterprise_value": "91,424 百萬台幣"
+  },
+  "business": {
+    "summary": "欣銓科技 (3264) 是台灣前三大[[晶圓測試]]廠，專業提供晶圓測試 (CP，占營收 73%) 及成品測試 (FT，27%)。公司在車用 [[MCU]] 測試市占率超過八成，為國際車用 IC 大廠指定測試合作夥伴。",
+    "entities": [
+      "晶圓測試",
+      "MCU"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (測試設備)",
+        "text": "**上游 (測試設備):**",
+        "entities": []
+      },
+      {
+        "category": "測試機台",
+        "text": "[[Advantest]]、[[Teradyne]]",
+        "entities": [
+          "Advantest",
+          "Teradyne"
+        ]
+      },
+      {
+        "category": "探針卡",
+        "text": "[[FormFactor]]",
+        "entities": [
+          "FormFactor"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (測試代工)",
+        "text": "**中游 (測試代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓/成品測試",
+        "text": "**欣銓** (台灣前三大，車用 MCU 測試市占 80%+)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (IC 設計/IDM)",
+        "text": "**下游 (IC 設計/IDM):**",
+        "entities": []
+      },
+      {
+        "category": "車用 IC",
+        "text": "[[Texas Instruments]]、[[Renesas]]、[[Infineon]]、[[NXP]]、[[STMicroelectronics]]",
+        "entities": [
+          "Texas Instruments",
+          "Renesas",
+          "Infineon",
+          "NXP",
+          "STMicroelectronics"
+        ]
+      },
+      {
+        "category": "台灣 IC",
+        "text": "[[聯發科]]、[[旺宏]]",
+        "entities": [
+          "聯發科",
+          "旺宏"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用 IC IDM",
+        "text": "[[Texas Instruments]]、[[Renesas]]、[[Infineon]]、[[NXP]]、[[STMicroelectronics]]",
+        "entities": [
+          "Texas Instruments",
+          "Renesas",
+          "Infineon",
+          "NXP",
+          "STMicroelectronics"
+        ]
+      },
+      {
+        "role": "台灣 IC",
+        "text": "[[聯發科]]、[[旺宏]]",
+        "entities": [
+          "聯發科",
+          "旺宏"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "測試設備",
+        "text": "[[Advantest]]、[[Teradyne]]",
+        "entities": [
+          "Advantest",
+          "Teradyne"
+        ]
+      },
+      {
+        "role": "探針卡",
+        "text": "[[FormFactor]]",
+        "entities": [
+          "FormFactor"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[京元電子]]、[[矽格]]",
+        "entities": [
+          "京元電子",
+          "矽格"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[京元電子]]、[[矽格]]",
+        "entities": [
+          "京元電子",
+          "矽格"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "晶圓測試",
+      "type": "taiwan_company_or_term",
+      "wikilink": "晶圓測試"
+    },
+    {
+      "name": "MCU",
+      "type": "international_company_or_term",
+      "wikilink": "MCU"
+    },
+    {
+      "name": "Advantest",
+      "type": "international_company_or_term",
+      "wikilink": "Advantest"
+    },
+    {
+      "name": "Teradyne",
+      "type": "international_company_or_term",
+      "wikilink": "Teradyne"
+    },
+    {
+      "name": "FormFactor",
+      "type": "international_company_or_term",
+      "wikilink": "FormFactor"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Infineon",
+      "type": "international_company_or_term",
+      "wikilink": "Infineon"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "STMicroelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "STMicroelectronics"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "旺宏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "旺宏"
+    },
+    {
+      "name": "京元電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京元電子"
+    },
+    {
+      "name": "矽格",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽格"
+    },
+    {
+      "name": "逸昌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "逸昌"
+    },
+    {
+      "name": "精拓科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精拓科"
+    },
+    {
+      "name": "凱鈺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱鈺"
+    },
+    {
+      "name": "微矽電子-創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微矽電子-創"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "欣銓科技 (3264) 是台灣前三大[[晶圓測試]]廠，專業提供晶圓測試 (CP，占營收 73%) 及成品測試 (FT，27%)。公司在車用 [[MCU]] 測試市占率超過八成，為國際車用 IC 大廠指定測試合作夥伴。",
+    "supply_chain_md": "**上游 (測試設備):**\n- **測試機台:** [[Advantest]]、[[Teradyne]]\n- **探針卡:** [[FormFactor]]\n\n**中游 (測試代工):**\n- **晶圓/成品測試:** **欣銓** (台灣前三大，車用 MCU 測試市占 80%+)\n\n**下游 (IC 設計/IDM):**\n- **車用 IC:** [[Texas Instruments]]、[[Renesas]]、[[Infineon]]、[[NXP]]、[[STMicroelectronics]]\n- **台灣 IC:** [[聯發科]]、[[旺宏]]",
+    "customers_suppliers_md": "### 主要客戶\n- **車用 IC IDM:** [[Texas Instruments]]、[[Renesas]]、[[Infineon]]、[[NXP]]、[[STMicroelectronics]]\n- **台灣 IC:** [[聯發科]]、[[旺宏]]\n\n### 主要供應商\n- **測試設備:** [[Advantest]]、[[Teradyne]]\n- **探針卡:** [[FormFactor]]\n- **競爭同業:** [[京元電子]]、[[矽格]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $161.00 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     27.06 |       13.37 |      4.80 | 3.89 |     12.09 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     14028.46 |     13100.59 |     14052.24 |\n| Gross Profit            |      5091.49 |      3675.13 |      4873.53 |\n| Gross Margin (%)        |        36.29 |        28.05 |        34.68 |\n| Selling & Marketing Exp |       135.86 |       104.22 |        95.55 |\n| R&D Exp                 |       532.89 |       476.89 |       493.49 |\n| General & Admin Exp     |       857.66 |       740.46 |       879.21 |\n| Operating Income        |      3565.08 |      2353.57 |      3405.29 |\n| Operating Margin (%)    |        25.41 |        17.97 |        24.23 |\n| Net Income              |      2840.24 |      2104.27 |      2746.26 |\n| Net Margin (%)          |        20.25 |        16.06 |        19.54 |\n| Op Cash Flow            |      5716.34 |      6366.41 |      6163.68 |\n| Investing Cash Flow     |     -2855.67 |     -4617.67 |     -6030.49 |\n| Financing Cash Flow     |     -2790.59 |     -1679.51 |     -1030.86 |\n| CAPEX                   |     -3863.87 |     -3812.84 |     -5471.46 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3799.07 |      3423.57 |      3212.73 |      3156.67 |\n| Gross Profit            |      1437.20 |      1243.50 |      1128.37 |       868.19 |\n| Gross Margin (%)        |        37.83 |        36.32 |        35.12 |        27.50 |\n| Selling & Marketing Exp |        38.59 |        31.21 |        30.67 |        27.98 |\n| R&D Exp                 |       141.57 |       125.78 |       127.91 |       119.22 |\n| General & Admin Exp     |       246.87 |       182.60 |       192.75 |       200.95 |\n| Operating Income        |      1010.17 |       903.92 |       777.04 |       520.03 |\n| Operating Margin (%)    |        26.59 |        26.40 |        24.19 |        16.47 |\n| Net Income              |       848.43 |       563.30 |       601.26 |       443.46 |\n| Net Margin (%)          |        22.33 |        16.45 |        18.71 |        14.05 |\n| Op Cash Flow            |      2079.22 |       843.02 |      1350.79 |      2023.66 |\n| Investing Cash Flow     |      -630.06 |      -414.64 |      -777.61 |     -1225.86 |\n| Financing Cash Flow     |     -1278.12 |       124.16 |       713.12 |      -345.32 |\n| CAPEX                   |      -996.02 |      -851.90 |     -1079.72 |      -708.67 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4707",
+  "company_name": "磐亞",
+  "title": "4707 - 磐亞",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 石化中間原料(例如乙烯、丙烯、丁二烯、苯、酚等)/4707_磐亞.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "10,416 百萬台幣",
+    "enterprise_value": "12,068 百萬台幣"
+  },
+  "business": {
+    "summary": "磐亞股份有限公司 (4707，Pan Asia Chemical / PACC) 為台灣最大非離子[[界面活性劑]]製造商，隸屬[[中石化]] (1314) 集團。核心原料[[環氧乙烷]] (EO) 由母公司[[中石化]]優先供應，具成本與供應穩定優勢。產品應用涵蓋紡織精練/染色助劑、電子/半導體清洗劑、造紙化學品、農藥乳化劑及個人清潔用品原料。工廠位於高雄大社工業區。",
+    "entities": [
+      "界面活性劑",
+      "中石化",
+      "環氧乙烷"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "環氧乙烷",
+        "text": "[[中石化]] (母公司) — [[環氧乙烷]] (EO) 優先供應",
+        "entities": [
+          "中石化",
+          "環氧乙烷"
+        ]
+      },
+      {
+        "category": "脂肪醇",
+        "text": "脂肪醇供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**磐亞** (非離子[[界面活性劑]]，高雄大社工業區)",
+        "entities": [
+          "界面活性劑"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "紡織",
+        "text": "精練劑/染色助劑 — 紡織染整業",
+        "entities": []
+      },
+      {
+        "category": "電子",
+        "text": "半導體清洗劑 — 半導體/面板廠",
+        "entities": []
+      },
+      {
+        "category": "農藥",
+        "text": "農藥乳化劑 — 農藥配方廠",
+        "entities": []
+      },
+      {
+        "category": "民生",
+        "text": "清潔用品原料",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "紡織",
+        "text": "紡織染整業 — 精練/染色助劑",
+        "entities": []
+      },
+      {
+        "role": "電子",
+        "text": "半導體/面板廠 — 清洗劑",
+        "entities": []
+      },
+      {
+        "role": "農藥",
+        "text": "農藥配方廠 — 乳化劑",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "環氧乙烷",
+        "text": "[[中石化]] (母公司) — 核心原料優先供應",
+        "entities": [
+          "中石化"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "界面活性劑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "界面活性劑"
+    },
+    {
+      "name": "中石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中石化"
+    },
+    {
+      "name": "環氧乙烷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "環氧乙烷"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "磐亞股份有限公司 (4707，Pan Asia Chemical / PACC) 為台灣最大非離子[[界面活性劑]]製造商，隸屬[[中石化]] (1314) 集團。核心原料[[環氧乙烷]] (EO) 由母公司[[中石化]]優先供應，具成本與供應穩定優勢。產品應用涵蓋紡織精練/染色助劑、電子/半導體清洗劑、造紙化學品、農藥乳化劑及個人清潔用品原料。工廠位於高雄大社工業區。",
+    "supply_chain_md": "**上游 (原料):**\n- **環氧乙烷:** [[中石化]] (母公司) — [[環氧乙烷]] (EO) 優先供應\n- **脂肪醇:** 脂肪醇供應商\n\n**中游 (製造):**\n- **磐亞** (非離子[[界面活性劑]]，高雄大社工業區)\n\n**下游 (終端):**\n- **紡織:** 精練劑/染色助劑 — 紡織染整業\n- **電子:** 半導體清洗劑 — 半導體/面板廠\n- **農藥:** 農藥乳化劑 — 農藥配方廠\n- **民生:** 清潔用品原料",
+    "customers_suppliers_md": "### 主要客戶\n- **紡織:** 紡織染整業 — 精練/染色助劑\n- **電子:** 半導體/面板廠 — 清洗劑\n- **農藥:** 農藥配方廠 — 乳化劑\n\n### 主要供應商\n- **環氧乙烷:** [[中石化]] (母公司) — 核心原料優先供應",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $23.25 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     26.12 |         N/A |      7.11 | 1.45 |   -187.32 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2024-12-31 |   2023-12-31 |   2022-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1441.18 |      1322.83 |      1828.73 |\n| Gross Profit            |        19.40 |        91.63 |       268.11 |\n| Gross Margin (%)        |         1.35 |         6.93 |        14.66 |\n| Selling & Marketing Exp |        48.40 |        43.75 |        86.13 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        51.78 |        54.25 |        55.00 |\n| Operating Income        |       -80.78 |        -6.37 |       126.98 |\n| Operating Margin (%)    |        -5.61 |        -0.48 |         6.94 |\n| Net Income              |       381.79 |       347.28 |       402.10 |\n| Net Margin (%)          |        26.49 |        26.25 |        21.99 |\n| Op Cash Flow            |        40.78 |        36.91 |       406.18 |\n| Investing Cash Flow     |      -175.77 |       264.07 |       -58.78 |\n| Financing Cash Flow     |       203.97 |      -366.34 |      -320.91 |\n| CAPEX                   |        -2.60 |       -11.01 |        -7.97 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-09-30 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       380.30 |       343.38 |       326.72 |       378.45 |\n| Gross Profit            |         1.68 |       -16.14 |       -11.31 |        20.54 |\n| Gross Margin (%)        |         0.44 |        -4.70 |        -3.46 |         5.43 |\n| Selling & Marketing Exp |        12.85 |        12.68 |        11.86 |        14.48 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        11.01 |        11.08 |        10.92 |        12.99 |\n| Operating Income        |       -22.18 |       -39.90 |       -34.09 |        -6.94 |\n| Operating Margin (%)    |        -5.83 |       -11.62 |       -10.43 |        -1.83 |\n| Net Income              |       126.26 |        31.13 |        87.62 |       108.06 |\n| Net Margin (%)          |        33.20 |         9.07 |        26.82 |        28.55 |\n| Op Cash Flow            |        99.99 |       -55.46 |       -10.89 |         9.51 |\n| Investing Cash Flow     |       200.79 |        -1.87 |        -0.87 |        14.81 |\n| Financing Cash Flow     |      -352.47 |         2.99 |       -25.87 |       102.48 |\n| CAPEX                   |        -3.01 |        -4.57 |        -2.13 |        -1.83 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

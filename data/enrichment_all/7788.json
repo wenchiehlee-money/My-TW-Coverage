@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7788",
+  "company_name": "松川精密",
+  "title": "7788 - 松川精密",
+  "source_md": "Pilot_Reports/電動車輛產業 - 零組件/7788_松川精密.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Electrical Equipment & Parts",
+    "market_cap": "14,833 百萬台幣",
+    "enterprise_value": "15,138 百萬台幣"
+  },
+  "business": {
+    "summary": "松川精密 (7788) 為台灣繼電器霸主 (品牌Song Chuan)。已打入[[Tesla]]供應鏈。與[[台達電]]、[[光寶科技]]合作AI伺服器特規接觸器。自製率80%。客戶2000+家。",
+    "entities": [
+      "Tesla",
+      "台達電",
+      "光寶科技"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "紅銅/鈹銅/漆包線 (80%自製)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**松川** (繼電器/高壓接觸器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[Tesla]]、[[台達電]]、[[光寶科技]]、[[儲能]]、家電",
+        "entities": [
+          "Tesla",
+          "台達電",
+          "光寶科技",
+          "儲能"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Tesla]] — EV接觸器",
+        "entities": [
+          "Tesla"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[台達電]]、[[光寶科技]] — AI電源",
+        "entities": [
+          "台達電",
+          "光寶科技"
+        ]
+      },
+      {
+        "role": "",
+        "text": "全球家電 (2000+)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "80%自製",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "台達電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台達電"
+    },
+    {
+      "name": "光寶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科技"
+    },
+    {
+      "name": "儲能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "松川精密 (7788) 為台灣繼電器霸主 (品牌Song Chuan)。已打入[[Tesla]]供應鏈。與[[台達電]]、[[光寶科技]]合作AI伺服器特規接觸器。自製率80%。客戶2000+家。",
+    "supply_chain_md": "**上游:** 紅銅/鈹銅/漆包線 (80%自製)\n**中游:** **松川** (繼電器/高壓接觸器)\n**下游:** [[Tesla]]、[[台達電]]、[[光寶科技]]、[[儲能]]、家電",
+    "customers_suppliers_md": "### 主要客戶\n- [[Tesla]] — EV接觸器\n- [[台達電]]、[[光寶科技]] — AI電源\n- 全球家電 (2000+)\n\n### 主要供應商\n- 80%自製",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $173.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     44.83 |       16.88 |      2.08 | 2.32 |     18.00 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6432.80 |      5963.71 |      5480.33 |\n| Gross Profit            |      1739.63 |      1653.73 |      1526.84 |\n| Gross Margin (%)        |        27.04 |        27.73 |        27.86 |\n| Selling & Marketing Exp |       281.97 |       239.12 |       242.29 |\n| R&D Exp                 |       174.35 |       126.50 |       152.93 |\n| General & Admin Exp     |       804.95 |       743.38 |       793.37 |\n| Operating Income        |       478.36 |       544.74 |       338.24 |\n| Operating Margin (%)    |         7.44 |         9.13 |         6.17 |\n| Net Income              |       269.16 |       504.40 |       380.00 |\n| Net Margin (%)          |         4.18 |         8.46 |         6.93 |\n| Op Cash Flow            |       431.46 |       769.74 |       842.65 |\n| Investing Cash Flow     |      -498.43 |      -529.66 |      -339.24 |\n| Financing Cash Flow     |       270.33 |      -410.49 |       102.86 |\n| CAPEX                   |      -344.23 |      -530.37 |      -360.38 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1857.13 |      1669.74 |      1529.50 |      1610.81 |\n| Gross Profit            |       500.24 |       434.81 |       404.62 |       438.00 |\n| Gross Margin (%)        |        26.94 |        26.04 |        26.45 |        27.19 |\n| Selling & Marketing Exp |        66.46 |        86.49 |        70.95 |        66.01 |\n| R&D Exp                 |        57.72 |        53.87 |        40.98 |        41.20 |\n| General & Admin Exp     |       201.01 |       221.60 |       192.87 |       183.34 |\n| Operating Income        |       175.04 |        72.85 |        99.82 |       147.45 |\n| Operating Margin (%)    |         9.43 |         4.36 |         6.53 |         9.15 |\n| Net Income              |       177.27 |       110.91 |       111.04 |       -97.53 |\n| Net Margin (%)          |         9.55 |         6.64 |         7.26 |        -6.05 |\n| Op Cash Flow            |        34.88 |       124.34 |       219.16 |        38.24 |\n| Investing Cash Flow     |       -58.29 |      -194.40 |       -70.65 |      -139.32 |\n| Financing Cash Flow     |       -44.49 |       587.80 |      -301.09 |       163.75 |\n| CAPEX                   |      -161.24 |      -123.69 |       -87.83 |       -61.77 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

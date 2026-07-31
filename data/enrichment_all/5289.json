@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5289",
+  "company_name": "宜鼎",
+  "title": "5289 - 宜鼎",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備/5289_宜鼎.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "111,751 百萬台幣",
+    "enterprise_value": "112,669 百萬台幣"
+  },
+  "business": {
+    "summary": "宜鼎國際 (Innodisk) 為全球工業級 **嵌入式快閃記憶體 (Flash)** 與 **DRAM 模組** 領導廠商。\n專注於工控、航太、車載、伺服器等利基市場，強調高度客製化與耐用性。\n近年積極轉型 **AIoT (AI + IoT)** 解決方案：\n1.  **AI 邊緣運算**: 透過子公司 **安提國際 (Aetina)** 與 [[Nvidia]] 合作，提供 Edge AI 平台。\n2.  **InnoAGE/InnoOSR**: 整合微軟 AzureSphere 之資安 SSD。\n3.  **工業模組**: CANbus、PoE 等擴充卡。",
+    "entities": [
+      "Nvidia"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "",
+        "text": "**上游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**NAND Flash**: [[Kioxia]], [[Micron]], [[Samsung]].",
+        "entities": [
+          "Kioxia",
+          "Micron",
+          "Samsung"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**DRAM IC**: [[Samsung]], [[SK Hynix]], [[Nanya]].",
+        "entities": [
+          "Samsung",
+          "SK Hynix",
+          "Nanya"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**控制 IC**: [[Phison]], [[SMI]].",
+        "entities": [
+          "Phison",
+          "SMI"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "",
+        "text": "**中游 (模組製造)**: **宜鼎 (5289)** - 韌體開發, 硬體設計, 封裝測試.",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "",
+        "text": "**下游**:",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**工業電腦 (IPC)**: [[研華]], [[凌華]], [[樺漢]].",
+        "entities": [
+          "研華",
+          "凌華",
+          "樺漢"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**應用領域**: 航太, 國防, 智慧工廠, 醫療設備, 網通伺服器.",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "**IPC 大廠**: 全球主要工業電腦製造商.",
+        "entities": []
+      },
+      {
+        "role": "",
+        "text": "**AI 夥伴**: [[Nvidia]] (透過安提國際合作).",
+        "entities": [
+          "Nvidia"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "**晶圓**: [[Kioxia]] (Toshiba), [[Micron]].",
+        "entities": [
+          "Kioxia",
+          "Micron"
+        ]
+      },
+      {
+        "role": "",
+        "text": "**Controller**: [[Phison]] (群聯).",
+        "entities": [
+          "Phison"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [
+      {
+        "text": "專注於工控、航太、車載、伺服器等利基市場，強調高度客製化與耐用性。",
+        "entities": []
+      }
+    ],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nvidia",
+      "type": "international_company_or_term",
+      "wikilink": "Nvidia"
+    },
+    {
+      "name": "Kioxia",
+      "type": "international_company_or_term",
+      "wikilink": "Kioxia"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "SK Hynix",
+      "type": "international_company_or_term",
+      "wikilink": "SK Hynix"
+    },
+    {
+      "name": "Nanya",
+      "type": "international_company_or_term",
+      "wikilink": "Nanya"
+    },
+    {
+      "name": "Phison",
+      "type": "international_company_or_term",
+      "wikilink": "Phison"
+    },
+    {
+      "name": "SMI",
+      "type": "international_company_or_term",
+      "wikilink": "SMI"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "凌華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌華"
+    },
+    {
+      "name": "樺漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "樺漢"
+    },
+    {
+      "name": "宇瞻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宇瞻"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宜鼎國際 (Innodisk) 為全球工業級 **嵌入式快閃記憶體 (Flash)** 與 **DRAM 模組** 領導廠商。\n專注於工控、航太、車載、伺服器等利基市場，強調高度客製化與耐用性。\n近年積極轉型 **AIoT (AI + IoT)** 解決方案：\n1.  **AI 邊緣運算**: 透過子公司 **安提國際 (Aetina)** 與 [[Nvidia]] 合作，提供 Edge AI 平台。\n2.  **InnoAGE/InnoOSR**: 整合微軟 AzureSphere 之資安 SSD。\n3.  **工業模組**: CANbus、PoE 等擴充卡。",
+    "supply_chain_md": "*   **中游 (模組製造)**: **宜鼎 (5289)** - 韌體開發, 硬體設計, 封裝測試.\n*   **上游**:\n    *   **NAND Flash**: [[Kioxia]], [[Micron]], [[Samsung]].\n    *   **DRAM IC**: [[Samsung]], [[SK Hynix]], [[Nanya]].\n    *   **控制 IC**: [[Phison]], [[SMI]].\n*   **下游**:\n    *   **工業電腦 (IPC)**: [[研華]], [[凌華]], [[樺漢]].\n    *   **應用領域**: 航太, 國防, 智慧工廠, 醫療設備, 網通伺服器.",
+    "customers_suppliers_md": "### 主要客戶\n*   **IPC 大廠**: 全球主要工業電腦製造商.\n*   **AI 夥伴**: [[Nvidia]] (透過安提國際合作).\n\n### 主要供應商\n*   **晶圓**: [[Kioxia]] (Toshiba), [[Micron]].\n*   **Controller**: [[Phison]] (群聯).",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $1,180.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.82 |        6.87 |      4.58 | 7.84 |     12.68 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     14261.26 |      8915.64 |      8313.78 |\n| Gross Profit            |      4431.93 |      2825.25 |      2845.91 |\n| Gross Margin (%)        |        31.08 |        31.69 |        34.23 |\n| Selling & Marketing Exp |       881.91 |       712.59 |       650.60 |\n| R&D Exp                 |       562.08 |       495.55 |       409.33 |\n| General & Admin Exp     |       597.88 |       444.12 |       422.26 |\n| Operating Income        |      2390.07 |      1172.99 |      1363.72 |\n| Operating Margin (%)    |        16.76 |        13.16 |        16.40 |\n| Net Income              |      2035.64 |      1106.17 |      1147.62 |\n| Net Margin (%)          |        14.27 |        12.41 |        13.80 |\n| Op Cash Flow            |     -2273.80 |       854.48 |      1457.69 |\n| Investing Cash Flow     |      -114.35 |      -736.64 |      -734.76 |\n| Financing Cash Flow     |      1031.49 |      -668.01 |     -1174.03 |\n| CAPEX                   |      -230.35 |      -354.41 |      -706.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     13182.61 |      4806.69 |      3028.43 |      2618.74 |\n| Gross Profit            |      7791.36 |      1597.29 |       785.09 |       800.73 |\n| Gross Margin (%)        |        59.10 |        33.23 |        25.92 |        30.58 |\n| Selling & Marketing Exp |       348.71 |       260.94 |       201.05 |       187.35 |\n| R&D Exp                 |       260.86 |       154.81 |       132.63 |       128.29 |\n| General & Admin Exp     |       329.96 |       230.53 |        97.59 |       118.09 |\n| Operating Income        |      6851.82 |       951.00 |       353.82 |       367.01 |\n| Operating Margin (%)    |        51.98 |        19.78 |        11.68 |        14.01 |\n| Net Income              |      5466.36 |       870.72 |       185.35 |       336.54 |\n| Net Margin (%)          |        41.47 |        18.11 |         6.12 |        12.85 |\n| Op Cash Flow            |      -124.41 |     -1568.76 |      -855.67 |       166.18 |\n| Investing Cash Flow     |      -158.80 |       198.42 |      -173.56 |      -307.18 |\n| Financing Cash Flow     |      1334.73 |       524.25 |       234.69 |         6.03 |\n| CAPEX                   |      -138.51 |       -48.57 |       -87.02 |       -64.96 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2109",
+  "company_name": "華豐",
+  "title": "2109 - 華豐",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 橡膠製品/2109_華豐.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "4,023 百萬台幣",
+    "enterprise_value": "5,536 百萬台幣"
+  },
+  "business": {
+    "summary": "華豐橡膠 (2109，Hwa Fong Rubber) 創立於 1945 年，為台灣最早之輪胎廠，自有品牌[[DURO]]。營收結構以機車胎 (50%+) 及自行車胎 (20%+) 為主。[[住友橡膠]] (Sumitomo Rubber) 自 1979 年起進行資本與技術合作，為重要策略夥伴。機車胎 OEM 客戶涵蓋[[Yamaha]]、[[Honda]]、[[Kawasaki]] (泰國廠供應日系機車組裝線)。自行車胎為[[Vittoria]]、[[迪卡儂]] ([[Decathlon]])、[[米其林]] (Michelin)、[[固特異]] (Goodyear) 代工。生產基地位於台灣、泰國及中國，近期收購[[住友橡膠]]紐約州工廠拓展北美市場，另規劃印尼機車胎廠。",
+    "entities": [
+      "DURO",
+      "住友橡膠",
+      "Yamaha",
+      "Honda",
+      "Kawasaki",
+      "Vittoria",
+      "迪卡儂",
+      "Decathlon",
+      "米其林",
+      "固特異"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與技術)",
+        "text": "**上游 (原料與技術):**",
+        "entities": []
+      },
+      {
+        "category": "策略夥伴",
+        "text": "[[住友橡膠]] (Sumitomo Rubber) — 資本與技術合作",
+        "entities": [
+          "住友橡膠"
+        ]
+      },
+      {
+        "category": "橡膠原料",
+        "text": "天然橡膠及合成橡膠供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**華豐** ([[DURO]] 品牌輪胎製造，台灣/泰國/中國/美國紐約工廠)",
+        "entities": [
+          "DURO"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "機車 OEM",
+        "text": "[[Yamaha]]、[[Honda]]、[[Kawasaki]] — 日系機車原廠配胎",
+        "entities": [
+          "Yamaha",
+          "Honda",
+          "Kawasaki"
+        ]
+      },
+      {
+        "category": "自行車代工",
+        "text": "[[Vittoria]]、[[迪卡儂]]、[[米其林]]、[[固特異]] — OEM/代工",
+        "entities": [
+          "Vittoria",
+          "迪卡儂",
+          "米其林",
+          "固特異"
+        ]
+      },
+      {
+        "category": "全球 AM",
+        "text": "[[DURO]] 品牌全球經銷",
+        "entities": [
+          "DURO"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "機車 OEM",
+        "text": "[[Yamaha]]、[[Honda]]、[[Kawasaki]] — 泰國廠供應日系組裝線",
+        "entities": [
+          "Yamaha",
+          "Honda",
+          "Kawasaki"
+        ]
+      },
+      {
+        "role": "自行車代工",
+        "text": "[[Vittoria]]、[[迪卡儂]]、[[米其林]]、[[固特異]] — OEM/私牌代工",
+        "entities": [
+          "Vittoria",
+          "迪卡儂",
+          "米其林",
+          "固特異"
+        ]
+      },
+      {
+        "role": "全球 AM",
+        "text": "[[DURO]] 品牌輪胎經銷",
+        "entities": [
+          "DURO"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "策略夥伴",
+        "text": "[[住友橡膠]] — 資本與技術合作",
+        "entities": [
+          "住友橡膠"
+        ]
+      },
+      {
+        "role": "橡膠原料",
+        "text": "天然橡膠及合成橡膠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "DURO",
+      "type": "international_company_or_term",
+      "wikilink": "DURO"
+    },
+    {
+      "name": "住友橡膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友橡膠"
+    },
+    {
+      "name": "Yamaha",
+      "type": "international_company_or_term",
+      "wikilink": "Yamaha"
+    },
+    {
+      "name": "Honda",
+      "type": "international_company_or_term",
+      "wikilink": "Honda"
+    },
+    {
+      "name": "Kawasaki",
+      "type": "international_company_or_term",
+      "wikilink": "Kawasaki"
+    },
+    {
+      "name": "Vittoria",
+      "type": "international_company_or_term",
+      "wikilink": "Vittoria"
+    },
+    {
+      "name": "迪卡儂",
+      "type": "taiwan_company_or_term",
+      "wikilink": "迪卡儂"
+    },
+    {
+      "name": "Decathlon",
+      "type": "international_company_or_term",
+      "wikilink": "Decathlon"
+    },
+    {
+      "name": "米其林",
+      "type": "taiwan_company_or_term",
+      "wikilink": "米其林"
+    },
+    {
+      "name": "固特異",
+      "type": "taiwan_company_or_term",
+      "wikilink": "固特異"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華豐橡膠 (2109，Hwa Fong Rubber) 創立於 1945 年，為台灣最早之輪胎廠，自有品牌[[DURO]]。營收結構以機車胎 (50%+) 及自行車胎 (20%+) 為主。[[住友橡膠]] (Sumitomo Rubber) 自 1979 年起進行資本與技術合作，為重要策略夥伴。機車胎 OEM 客戶涵蓋[[Yamaha]]、[[Honda]]、[[Kawasaki]] (泰國廠供應日系機車組裝線)。自行車胎為[[Vittoria]]、[[迪卡儂]] ([[Decathlon]])、[[米其林]] (Michelin)、[[固特異]] (Goodyear) 代工。生產基地位於台灣、泰國及中國，近期收購[[住友橡膠]]紐約州工廠拓展北美市場，另規劃印尼機車胎廠。",
+    "supply_chain_md": "**上游 (原料與技術):**\n- **策略夥伴:** [[住友橡膠]] (Sumitomo Rubber) — 資本與技術合作\n- **橡膠原料:** 天然橡膠及合成橡膠供應商\n\n**中游 (製造):**\n- **華豐** ([[DURO]] 品牌輪胎製造，台灣/泰國/中國/美國紐約工廠)\n\n**下游 (終端):**\n- **機車 OEM:** [[Yamaha]]、[[Honda]]、[[Kawasaki]] — 日系機車原廠配胎\n- **自行車代工:** [[Vittoria]]、[[迪卡儂]]、[[米其林]]、[[固特異]] — OEM/代工\n- **全球 AM:** [[DURO]] 品牌全球經銷",
+    "customers_suppliers_md": "### 主要客戶\n- **機車 OEM:** [[Yamaha]]、[[Honda]]、[[Kawasaki]] — 泰國廠供應日系組裝線\n- **自行車代工:** [[Vittoria]]、[[迪卡儂]]、[[米其林]]、[[固特異]] — OEM/私牌代工\n- **全球 AM:** [[DURO]] 品牌輪胎經銷\n\n### 主要供應商\n- **策略夥伴:** [[住友橡膠]] — 資本與技術合作\n- **橡膠原料:** 天然橡膠及合成橡膠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $14.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     11.83 |         N/A |      0.92 | 1.14 |      8.90 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2024-12-31 |   2023-12-31 |   2022-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4940.88 |      4674.30 |      5414.35 |\n| Gross Profit            |      1161.81 |      1025.82 |      1076.03 |\n| Gross Margin (%)        |        23.51 |        21.95 |        19.87 |\n| Selling & Marketing Exp |       236.82 |       267.73 |       222.76 |\n| R&D Exp                 |        21.84 |        23.78 |        31.70 |\n| General & Admin Exp     |       218.74 |       265.84 |       253.83 |\n| Operating Income        |       684.41 |       468.47 |       567.74 |\n| Operating Margin (%)    |        13.85 |        10.02 |        10.49 |\n| Net Income              |       449.98 |       422.34 |       294.49 |\n| Net Margin (%)          |         9.11 |         9.04 |         5.44 |\n| Op Cash Flow            |       502.25 |       530.88 |       888.27 |\n| Investing Cash Flow     |       -70.03 |      1113.22 |         1.84 |\n| Financing Cash Flow     |      -442.03 |      -878.06 |      -663.21 |\n| CAPEX                   |      -184.71 |      -110.75 |       -96.80 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-09-30 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       966.03 |      1140.48 |      1220.05 |      1313.68 |\n| Gross Profit            |       185.50 |       251.61 |       277.59 |       301.94 |\n| Gross Margin (%)        |        19.20 |        22.06 |        22.75 |        22.98 |\n| Selling & Marketing Exp |        54.47 |        60.55 |        51.83 |        63.66 |\n| R&D Exp                 |         4.81 |         5.23 |         5.25 |         5.37 |\n| General & Admin Exp     |        62.48 |        54.81 |        58.57 |        57.02 |\n| Operating Income        |        63.75 |       131.01 |       161.93 |       175.89 |\n| Operating Margin (%)    |         6.60 |        11.49 |        13.27 |        13.39 |\n| Net Income              |        75.46 |        38.35 |       104.48 |       135.28 |\n| Net Margin (%)          |         7.81 |         3.36 |         8.56 |        10.30 |\n| Op Cash Flow            |       303.93 |        51.08 |       156.52 |       162.09 |\n| Investing Cash Flow     |       -27.89 |        -1.96 |       -15.05 |       -85.36 |\n| Financing Cash Flow     |        -6.68 |      -211.40 |      -115.36 |      -150.64 |\n| CAPEX                   |        -9.57 |       -20.49 |       -35.60 |      -122.33 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

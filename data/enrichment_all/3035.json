@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3035",
+  "company_name": "智原",
+  "title": "3035 - 智原",
+  "source_md": "Pilot_Reports/半導體 - IP設計_IC設計代工服務/3035_智原.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "43,512 百萬台幣",
+    "enterprise_value": "35,152 百萬台幣"
+  },
+  "business": {
+    "summary": "智原科技 (3035) 是亞洲首家 [[ASIC]] 設計服務廠商，提供經驗證的[[矽智財]] (Silicon IP) 授權及客製化 ASIC 設計方案。公司為[[聯華電子]]集團成員，全球前十大 IP 供應商之一，ASIC 團隊逾 30 年經驗，累計完成數千個設計案，年出貨數億顆晶片。IP 產品涵蓋 [[Arm]] 相容 CPU、[[DDR]] 控制器、[[USB]]、[[PCIe]]、[[SerDes]] 及數百個數位/混合訊號 IP。",
+    "entities": [
+      "ASIC",
+      "矽智財",
+      "聯華電子",
+      "Arm",
+      "DDR",
+      "USB",
+      "PCIe",
+      "SerDes"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (IP 與 EDA)",
+        "text": "**上游 (IP 與 EDA):**",
+        "entities": []
+      },
+      {
+        "category": "CPU 架構",
+        "text": "[[Arm]] (IP 授權)",
+        "entities": [
+          "Arm"
+        ]
+      },
+      {
+        "category": "EDA 工具",
+        "text": "[[Cadence]]、[[Synopsys]]",
+        "entities": [
+          "Cadence",
+          "Synopsys"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (ASIC 設計服務)",
+        "text": "**中游 (ASIC 設計服務):**",
+        "entities": []
+      },
+      {
+        "category": "ASIC/IP",
+        "text": "**智原** (ASIC 設計服務及 Silicon IP 授權)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (晶圓代工與客戶)",
+        "text": "**下游 (晶圓代工與客戶):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[聯華電子]] (UMC)、[[台積電]] (TSMC)",
+        "entities": [
+          "聯華電子",
+          "台積電"
+        ]
+      },
+      {
+        "category": "封裝測試",
+        "text": "全球封測夥伴",
+        "entities": []
+      },
+      {
+        "category": "客戶",
+        "text": "IC 設計公司、IDM 廠及系統廠商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "IC 設計公司",
+        "text": "全球 IC 設計公司 (ASIC 設計委託)",
+        "entities": []
+      },
+      {
+        "role": "IDM 廠",
+        "text": "國際 IDM 半導體廠 (IP 授權)",
+        "entities": []
+      },
+      {
+        "role": "系統廠商",
+        "text": "系統級客戶 (客製化 ASIC 方案)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[聯華電子]]、[[台積電]]",
+        "entities": [
+          "聯華電子",
+          "台積電"
+        ]
+      },
+      {
+        "role": "IP 授權",
+        "text": "[[Arm]] (CPU 架構)",
+        "entities": [
+          "Arm"
+        ]
+      },
+      {
+        "role": "EDA",
+        "text": "[[Cadence]]、[[Synopsys]]",
+        "entities": [
+          "Cadence",
+          "Synopsys"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ASIC",
+      "type": "international_company_or_term",
+      "wikilink": "ASIC"
+    },
+    {
+      "name": "矽智財",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽智財"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "DDR",
+      "type": "international_company_or_term",
+      "wikilink": "DDR"
+    },
+    {
+      "name": "USB",
+      "type": "international_company_or_term",
+      "wikilink": "USB"
+    },
+    {
+      "name": "PCIe",
+      "type": "international_company_or_term",
+      "wikilink": "PCIe"
+    },
+    {
+      "name": "SerDes",
+      "type": "international_company_or_term",
+      "wikilink": "SerDes"
+    },
+    {
+      "name": "Cadence",
+      "type": "international_company_or_term",
+      "wikilink": "Cadence"
+    },
+    {
+      "name": "Synopsys",
+      "type": "international_company_or_term",
+      "wikilink": "Synopsys"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "智原科技 (3035) 是亞洲首家 [[ASIC]] 設計服務廠商，提供經驗證的[[矽智財]] (Silicon IP) 授權及客製化 ASIC 設計方案。公司為[[聯華電子]]集團成員，全球前十大 IP 供應商之一，ASIC 團隊逾 30 年經驗，累計完成數千個設計案，年出貨數億顆晶片。IP 產品涵蓋 [[Arm]] 相容 CPU、[[DDR]] 控制器、[[USB]]、[[PCIe]]、[[SerDes]] 及數百個數位/混合訊號 IP。",
+    "supply_chain_md": "**上游 (IP 與 EDA):**\n- **CPU 架構:** [[Arm]] (IP 授權)\n- **EDA 工具:** [[Cadence]]、[[Synopsys]]\n\n**中游 (ASIC 設計服務):**\n- **ASIC/IP:** **智原** (ASIC 設計服務及 Silicon IP 授權)\n\n**下游 (晶圓代工與客戶):**\n- **晶圓代工:** [[聯華電子]] (UMC)、[[台積電]] (TSMC)\n- **封裝測試:** 全球封測夥伴\n- **客戶:** IC 設計公司、IDM 廠及系統廠商",
+    "customers_suppliers_md": "### 主要客戶\n- **IC 設計公司:** 全球 IC 設計公司 (ASIC 設計委託)\n- **IDM 廠:** 國際 IDM 半導體廠 (IP 授權)\n- **系統廠商:** 系統級客戶 (客製化 ASIC 方案)\n\n### 主要供應商\n- **晶圓代工:** [[聯華電子]]、[[台積電]]\n- **IP 授權:** [[Arm]] (CPU 架構)\n- **EDA:** [[Cadence]]、[[Synopsys]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $150.50 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     80.48 |       23.93 |      3.28 | 2.29 |     49.59 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     17992.81 |     11064.85 |     11965.57 |\n| Gross Profit            |      4857.49 |      5051.36 |      5307.14 |\n| Gross Margin (%)        |        27.00 |        45.65 |        44.35 |\n| Selling & Marketing Exp |       435.96 |       451.98 |       451.54 |\n| R&D Exp                 |      3211.08 |      2956.91 |      2362.45 |\n| General & Admin Exp     |       676.69 |       537.27 |       531.28 |\n| Operating Income        |       533.76 |      1105.19 |      1961.88 |\n| Operating Margin (%)    |         2.97 |         9.99 |        16.40 |\n| Net Income              |       731.33 |      1041.46 |      1589.47 |\n| Net Margin (%)          |         4.06 |         9.41 |        13.28 |\n| Op Cash Flow            |       929.55 |      2900.61 |      3007.16 |\n| Investing Cash Flow     |     -1099.56 |     -2562.24 |      -703.74 |\n| Financing Cash Flow     |      -831.77 |      2177.68 |     -1421.28 |\n| CAPEX                   |      -663.44 |     -1018.16 |      -666.09 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2588.50 |      2807.76 |      4511.86 |      7437.58 |\n| Gross Profit            |      1224.43 |      1183.73 |      1091.12 |      1508.01 |\n| Gross Margin (%)        |        47.30 |        42.16 |        24.18 |        20.28 |\n| Selling & Marketing Exp |       114.10 |       109.72 |       103.44 |       110.08 |\n| R&D Exp                 |       812.74 |       779.06 |       806.56 |       852.90 |\n| General & Admin Exp     |       195.41 |       213.31 |       151.29 |       156.99 |\n| Operating Income        |       102.19 |        81.64 |        29.81 |       388.03 |\n| Operating Margin (%)    |         3.95 |         2.91 |         0.66 |         5.22 |\n| Net Income              |       104.26 |       207.54 |        25.84 |       346.22 |\n| Net Margin (%)          |         4.03 |         7.39 |         0.57 |         4.65 |\n| Op Cash Flow            |       903.97 |      -515.57 |      2073.37 |     -1167.61 |\n| Investing Cash Flow     |      -254.01 |      -126.75 |      -224.39 |      -389.06 |\n| Financing Cash Flow     |       393.72 |       -13.65 |       -10.88 |       -13.05 |\n| CAPEX                   |      -254.06 |      -143.51 |      -178.98 |      -195.11 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

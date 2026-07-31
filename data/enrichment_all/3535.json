@@ -1,0 +1,247 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3535",
+  "company_name": "晶彩科",
+  "title": "3535 - 晶彩科",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/3535_晶彩科.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "5,881 百萬台幣",
+    "enterprise_value": "5,422 百萬台幣"
+  },
+  "business": {
+    "summary": "晶彩科技 (3535，[[Favite]]) 為自動光學檢測 (AOI) 設備製造商，早期以面板 (LCD/[[OLED]]) 檢測為主，近年成功轉型半導體先進封裝檢測領域。\n\n公司之 AI AOI 與紅外線穿透檢測技術具獨占性，成功打入 [[台積電]] [[CoWoS]]-L 供應鏈。產品應用涵蓋 FOWLP、[[2.5D 封裝]]/[[3D 封裝]]、[[Micro LED]] 等高階製程。受惠於 AI 算力需求帶動 [[CoWoS]] 先進封裝產能大幅擴充，晶彩科之 AOI 設備需求持續攀升。另服務面板廠 [[友達]]、[[群創]] 及中國面板廠 [[京東方]] 之檢測需求。",
+    "entities": [
+      "Favite",
+      "OLED",
+      "台積電",
+      "CoWoS",
+      "2.5D 封裝",
+      "3D 封裝",
+      "Micro LED",
+      "友達",
+      "群創",
+      "京東方"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (光學與精密元件)",
+        "text": "**上游 (光學與精密元件):**",
+        "entities": []
+      },
+      {
+        "category": "光學鏡頭",
+        "text": "高階工業檢測光學鏡頭",
+        "entities": []
+      },
+      {
+        "category": "影像感測器",
+        "text": "高解析度工業 CMOS 感測器",
+        "entities": []
+      },
+      {
+        "category": "運動控制",
+        "text": "精密運動控制模組 (Stage)",
+        "entities": []
+      },
+      {
+        "category": "紅外線光源",
+        "text": "紅外線穿透檢測專用光源",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (AOI 設備設計製造)",
+        "text": "**中游 (AOI 設備設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "半導體 AOI",
+        "text": "**晶彩科** ([[CoWoS]] 先進封裝 AOI 檢測設備)",
+        "entities": [
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "面板 AOI",
+        "text": "**晶彩科** (LCD/[[OLED]] 面板缺陷檢測)",
+        "entities": [
+          "OLED"
+        ]
+      },
+      {
+        "category": "AI 演算",
+        "text": "**晶彩科** (AI 瑕疵辨識軟體)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體與面板製造)",
+        "text": "**下游 (半導體與面板製造):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] — [[CoWoS]]-L 先進封裝 AOI",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "category": "封測廠",
+        "text": "[[日月光投控]] — 半導體封裝檢測",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "[[友達]]、[[群創]]、[[京東方]] — 面板缺陷檢測",
+        "entities": [
+          "友達",
+          "群創",
+          "京東方"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] — [[CoWoS]]-L 先進封裝 AOI 設備",
+        "entities": [
+          "台積電",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "封測廠",
+        "text": "[[日月光投控]] — 半導體封裝檢測設備",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "role": "面板廠",
+        "text": "[[友達]]、[[群創]]、[[京東方]] — LCD/[[OLED]] 檢測",
+        "entities": [
+          "友達",
+          "群創",
+          "京東方",
+          "OLED"
+        ]
+      },
+      {
+        "role": "[[Micro LED]]",
+        "text": "[[Micro LED]] 量產線缺陷檢測",
+        "entities": [
+          "Micro LED"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學鏡頭",
+        "text": "高階工業光學鏡頭供應商",
+        "entities": []
+      },
+      {
+        "role": "感測器",
+        "text": "高解析度工業 CMOS 感測器原廠",
+        "entities": []
+      },
+      {
+        "role": "運動控制",
+        "text": "精密運動控制平台供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Favite",
+      "type": "international_company_or_term",
+      "wikilink": "Favite"
+    },
+    {
+      "name": "OLED",
+      "type": "international_company_or_term",
+      "wikilink": "OLED"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "2.5D 封裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "2.5D 封裝"
+    },
+    {
+      "name": "3D 封裝",
+      "type": "taiwan_company_or_term",
+      "wikilink": "3D 封裝"
+    },
+    {
+      "name": "Micro LED",
+      "type": "international_company_or_term",
+      "wikilink": "Micro LED"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "晶彩科技 (3535，[[Favite]]) 為自動光學檢測 (AOI) 設備製造商，早期以面板 (LCD/[[OLED]]) 檢測為主，近年成功轉型半導體先進封裝檢測領域。\n\n公司之 AI AOI 與紅外線穿透檢測技術具獨占性，成功打入 [[台積電]] [[CoWoS]]-L 供應鏈。產品應用涵蓋 FOWLP、[[2.5D 封裝]]/[[3D 封裝]]、[[Micro LED]] 等高階製程。受惠於 AI 算力需求帶動 [[CoWoS]] 先進封裝產能大幅擴充，晶彩科之 AOI 設備需求持續攀升。另服務面板廠 [[友達]]、[[群創]] 及中國面板廠 [[京東方]] 之檢測需求。",
+    "supply_chain_md": "**上游 (光學與精密元件):**\n- **光學鏡頭:** 高階工業檢測光學鏡頭\n- **影像感測器:** 高解析度工業 CMOS 感測器\n- **運動控制:** 精密運動控制模組 (Stage)\n- **紅外線光源:** 紅外線穿透檢測專用光源\n\n**中游 (AOI 設備設計製造):**\n- **半導體 AOI:** **晶彩科** ([[CoWoS]] 先進封裝 AOI 檢測設備)\n- **面板 AOI:** **晶彩科** (LCD/[[OLED]] 面板缺陷檢測)\n- **AI 演算:** **晶彩科** (AI 瑕疵辨識軟體)\n\n**下游 (半導體與面板製造):**\n- **晶圓代工:** [[台積電]] — [[CoWoS]]-L 先進封裝 AOI\n- **封測廠:** [[日月光投控]] — 半導體封裝檢測\n- **面板廠:** [[友達]]、[[群創]]、[[京東方]] — 面板缺陷檢測",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] — [[CoWoS]]-L 先進封裝 AOI 設備\n- **封測廠:** [[日月光投控]] — 半導體封裝檢測設備\n- **面板廠:** [[友達]]、[[群創]]、[[京東方]] — LCD/[[OLED]] 檢測\n- **[[Micro LED]]:** [[Micro LED]] 量產線缺陷檢測\n\n### 主要供應商\n- **光學鏡頭:** 高階工業光學鏡頭供應商\n- **感測器:** 高解析度工業 CMOS 感測器原廠\n- **運動控制:** 精密運動控制平台供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $70.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    175.25 |      318.64 |      7.55 | 4.98 |    159.40 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       459.86 |       667.59 |       445.68 |\n| Gross Profit            |       185.71 |       317.40 |       202.95 |\n| Gross Margin (%)        |        40.38 |        47.54 |        45.54 |\n| Selling & Marketing Exp |        27.73 |        37.87 |        18.71 |\n| R&D Exp                 |       196.15 |       172.74 |       186.96 |\n| General & Admin Exp     |        79.07 |        80.82 |        77.81 |\n| Operating Income        |      -117.25 |        25.97 |       -80.53 |\n| Operating Margin (%)    |       -25.50 |         3.89 |       -18.07 |\n| Net Income              |       -84.30 |        54.49 |       -33.00 |\n| Net Margin (%)          |       -18.33 |         8.16 |        -7.40 |\n| Op Cash Flow            |        23.35 |       126.56 |       100.36 |\n| Investing Cash Flow     |      -114.66 |      -461.68 |         6.81 |\n| Financing Cash Flow     |        45.43 |       -74.08 |      -257.19 |\n| CAPEX                   |       -15.59 |       -14.92 |        -4.22 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       325.30 |       245.62 |       110.29 |        53.04 |\n| Gross Profit            |       149.94 |        87.91 |        51.74 |        20.50 |\n| Gross Margin (%)        |        46.09 |        35.79 |        46.91 |        38.66 |\n| Selling & Marketing Exp |         6.39 |         7.84 |         8.51 |         6.16 |\n| R&D Exp                 |        51.27 |        36.37 |        60.46 |        56.09 |\n| General & Admin Exp     |        24.94 |        19.57 |        20.64 |        19.41 |\n| Operating Income        |        67.33 |        24.14 |       -37.87 |       -61.15 |\n| Operating Margin (%)    |        20.70 |         9.83 |       -34.33 |      -115.29 |\n| Net Income              |        78.02 |        52.91 |        -4.29 |       -94.75 |\n| Net Margin (%)          |        23.98 |        21.54 |        -3.89 |      -178.63 |\n| Op Cash Flow            |        40.39 |        39.84 |        28.09 |       -25.28 |\n| Investing Cash Flow     |       110.36 |       -62.62 |       -85.37 |      -213.26 |\n| Financing Cash Flow     |        -3.78 |        -3.77 |        56.71 |        -3.75 |\n| CAPEX                   |        -3.90 |        -3.68 |        -7.68 |        -0.34 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

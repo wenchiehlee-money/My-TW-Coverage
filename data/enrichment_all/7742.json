@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7742",
+  "company_name": "天弘化",
+  "title": "7742 - 天弘化",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 石化上游原料及相關鑽探設備/7742_天弘化.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "4,308 百萬台幣",
+    "enterprise_value": "6,900 百萬台幣"
+  },
+  "business": {
+    "summary": "天弘化學 (7742，Uranus Chemicals) 為[[康普]] (4739) 集團戰略子公司 (1975 年成立)，專注高純度新能源電池正極前驅體材料[[硫酸鈷]]、精密電子級特用化學品、[[草酸]]及特殊金屬化合物之研發與精煉。營收結構：新能源電池材料約 72%、草酸約 14%、特用化學品約 9%。採代工不代料模式 (toll processing) 迴避鈷價波動風險。下游客戶涵蓋全球[[三元鋰電池]]正極材料加工廠如[[Umicore]]、[[住友金屬礦山]]、[[格林美]]。上游鈷原料來自[[嘉能可]] (Glencore) 等國際鈷礦商。",
+    "entities": [
+      "康普",
+      "硫酸鈷",
+      "草酸",
+      "三元鋰電池",
+      "Umicore",
+      "住友金屬礦山",
+      "格林美",
+      "嘉能可"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鈷原料",
+        "text": "[[嘉能可]] (Glencore) 等國際鈷礦/粗提煉商",
+        "entities": [
+          "嘉能可"
+        ]
+      },
+      {
+        "category": "母公司",
+        "text": "[[康普]] (4739) — 集團戰略",
+        "entities": [
+          "康普"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**天弘化** ([[硫酸鈷]]/[[草酸]]/特用化學品精煉，toll processing 模式)",
+        "entities": [
+          "硫酸鈷",
+          "草酸"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "電池正極",
+        "text": "[[Umicore]]、[[住友金屬礦山]]、[[格林美]] — [[三元鋰電池]]前驅體",
+        "entities": [
+          "Umicore",
+          "住友金屬礦山",
+          "格林美",
+          "三元鋰電池"
+        ]
+      },
+      {
+        "category": "半導體",
+        "text": "電子級草酸/清洗劑 — 晶圓廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "正極材料",
+        "text": "[[Umicore]]、[[住友金屬礦山]]、[[格林美]] — [[硫酸鈷]]供[[三元鋰電池]]",
+        "entities": [
+          "Umicore",
+          "住友金屬礦山",
+          "格林美",
+          "硫酸鈷",
+          "三元鋰電池"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "晶圓廠 — 電子級草酸/清洗劑",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鈷原料",
+        "text": "[[嘉能可]] (Glencore) 等國際鈷礦商",
+        "entities": [
+          "嘉能可"
+        ]
+      },
+      {
+        "role": "母公司",
+        "text": "[[康普]] (4739)",
+        "entities": [
+          "康普"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [
+      {
+        "text": "天弘化學 (7742，Uranus Chemicals) 為[[康普]] (4739) 集團戰略子公司 (1975 年成立)，專注高純度新能源電池正極前驅體材料[[硫酸鈷]]、精密電子級特用化學品、[[草酸]]及特殊金屬化合物之研發與精煉。營收結構：新能源電池材料約 72%、草酸約 14%、特用化學品約 9%。採代工不代料模式 (toll processing) 迴避鈷價波動風險。下游客戶涵蓋全球[[三元鋰電池]]正極材料加工廠如[[Umicore]]、[[住友金屬礦山]]、[[格林美]]。上游鈷原料來自[[嘉能可]] (Glencore) 等國際鈷礦商。",
+        "entities": [
+          "康普",
+          "硫酸鈷",
+          "草酸",
+          "三元鋰電池",
+          "Umicore",
+          "住友金屬礦山",
+          "格林美",
+          "嘉能可"
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "康普",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康普"
+    },
+    {
+      "name": "硫酸鈷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "硫酸鈷"
+    },
+    {
+      "name": "草酸",
+      "type": "taiwan_company_or_term",
+      "wikilink": "草酸"
+    },
+    {
+      "name": "三元鋰電池",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三元鋰電池"
+    },
+    {
+      "name": "Umicore",
+      "type": "international_company_or_term",
+      "wikilink": "Umicore"
+    },
+    {
+      "name": "住友金屬礦山",
+      "type": "taiwan_company_or_term",
+      "wikilink": "住友金屬礦山"
+    },
+    {
+      "name": "格林美",
+      "type": "taiwan_company_or_term",
+      "wikilink": "格林美"
+    },
+    {
+      "name": "嘉能可",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嘉能可"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "天弘化學 (7742，Uranus Chemicals) 為[[康普]] (4739) 集團戰略子公司 (1975 年成立)，專注高純度新能源電池正極前驅體材料[[硫酸鈷]]、精密電子級特用化學品、[[草酸]]及特殊金屬化合物之研發與精煉。營收結構：新能源電池材料約 72%、草酸約 14%、特用化學品約 9%。採代工不代料模式 (toll processing) 迴避鈷價波動風險。下游客戶涵蓋全球[[三元鋰電池]]正極材料加工廠如[[Umicore]]、[[住友金屬礦山]]、[[格林美]]。上游鈷原料來自[[嘉能可]] (Glencore) 等國際鈷礦商。",
+    "supply_chain_md": "**上游 (原料):**\n- **鈷原料:** [[嘉能可]] (Glencore) 等國際鈷礦/粗提煉商\n- **母公司:** [[康普]] (4739) — 集團戰略\n\n**中游 (製造):**\n- **天弘化** ([[硫酸鈷]]/[[草酸]]/特用化學品精煉，toll processing 模式)\n\n**下游 (終端):**\n- **電池正極:** [[Umicore]]、[[住友金屬礦山]]、[[格林美]] — [[三元鋰電池]]前驅體\n- **半導體:** 電子級草酸/清洗劑 — 晶圓廠",
+    "customers_suppliers_md": "### 主要客戶\n- **正極材料:** [[Umicore]]、[[住友金屬礦山]]、[[格林美]] — [[硫酸鈷]]供[[三元鋰電池]]\n- **半導體:** 晶圓廠 — 電子級草酸/清洗劑\n\n### 主要供應商\n- **鈷原料:** [[嘉能可]] (Glencore) 等國際鈷礦商\n- **母公司:** [[康普]] (4739)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $71.20 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      4.04 | 3.09 |     42.90 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1170.65 |       821.91 |       726.29 |\n| Gross Profit            |       135.25 |       179.68 |       173.50 |\n| Gross Margin (%)        |        11.55 |        21.86 |        23.89 |\n| Selling & Marketing Exp |        23.87 |        49.88 |        27.04 |\n| R&D Exp                 |         8.78 |         7.45 |         4.53 |\n| General & Admin Exp     |        60.96 |        53.58 |        36.66 |\n| Operating Income        |        41.64 |        68.77 |       105.27 |\n| Operating Margin (%)    |         3.56 |         8.37 |        14.49 |\n| Net Income              |      -130.87 |        85.67 |        52.04 |\n| Net Margin (%)          |       -11.18 |        10.42 |         7.16 |\n| Op Cash Flow            |      -354.25 |       -11.22 |      -138.85 |\n| Investing Cash Flow     |       -54.40 |       -63.35 |      -133.01 |\n| Financing Cash Flow     |       295.62 |       174.24 |       -46.69 |\n| CAPEX                   |       -22.66 |       -51.82 |      -196.75 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

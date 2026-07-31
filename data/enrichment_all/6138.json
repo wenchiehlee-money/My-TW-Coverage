@@ -1,0 +1,172 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6138",
+  "company_name": "茂達",
+  "title": "6138_茂達",
+  "source_md": "Pilot_Reports/半導體 - IC設計/6138_茂達.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "20,305 百萬台幣",
+    "enterprise_value": "18,197 百萬台幣"
+  },
+  "business": {
+    "summary": "茂達電子 (6138，[[Anpec]]) 為專業[[電源管理 IC]]設計公司，專注於 DC/DC 轉換器、[[LDO]] 穩壓器、[[MOSFET]] 驅動器及 LED 驅動 IC。產品應用於筆電、伺服器、通訊設備、消費電子及車用電子。為台灣主要的類比電源 IC 設計公司之一。產品涵蓋[[車用電子]]等級。",
+    "entities": [
+      "Anpec",
+      "電源管理 IC",
+      "LDO",
+      "MOSFET",
+      "車用電子"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "台灣晶圓代工廠 (類比製程)",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "電源 IC",
+        "text": "**茂達** (DC/DC/LDO/[[MOSFET]] Driver/LED Driver)",
+        "entities": [
+          "MOSFET"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (電子系統)",
+        "text": "**下游 (電子系統):**",
+        "entities": []
+      },
+      {
+        "category": "筆電/伺服器",
+        "text": "筆電及伺服器電源管理",
+        "entities": []
+      },
+      {
+        "category": "通訊/消費",
+        "text": "通訊設備及消費電子客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "筆電/伺服器",
+        "text": "筆電及伺服器電源管理客戶",
+        "entities": []
+      },
+      {
+        "role": "通訊/消費",
+        "text": "通訊設備及消費電子客戶",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "台灣晶圓代工廠",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[致新]]、[[立錡]]、[[Texas Instruments]]",
+        "entities": [
+          "致新",
+          "立錡",
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[致新]]、[[立錡]]、[[Texas Instruments]]",
+        "entities": [
+          "致新",
+          "立錡",
+          "Texas Instruments"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Anpec",
+      "type": "international_company_or_term",
+      "wikilink": "Anpec"
+    },
+    {
+      "name": "電源管理 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電源管理 IC"
+    },
+    {
+      "name": "LDO",
+      "type": "international_company_or_term",
+      "wikilink": "LDO"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "車用電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "車用電子"
+    },
+    {
+      "name": "致新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "致新"
+    },
+    {
+      "name": "立錡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立錡"
+    },
+    {
+      "name": "Texas Instruments",
+      "type": "international_company_or_term",
+      "wikilink": "Texas Instruments"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "茂達電子 (6138，[[Anpec]]) 為專業[[電源管理 IC]]設計公司，專注於 DC/DC 轉換器、[[LDO]] 穩壓器、[[MOSFET]] 驅動器及 LED 驅動 IC。產品應用於筆電、伺服器、通訊設備、消費電子及車用電子。為台灣主要的類比電源 IC 設計公司之一。產品涵蓋[[車用電子]]等級。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** 台灣晶圓代工廠 (類比製程)\n\n**中游 (IC 設計):**\n- **電源 IC:** **茂達** (DC/DC/LDO/[[MOSFET]] Driver/LED Driver)\n\n**下游 (電子系統):**\n- **筆電/伺服器:** 筆電及伺服器電源管理\n- **通訊/消費:** 通訊設備及消費電子客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **筆電/伺服器:** 筆電及伺服器電源管理客戶\n- **通訊/消費:** 通訊設備及消費電子客戶\n\n### 主要供應商\n- **晶圓代工:** 台灣晶圓代工廠\n- **競爭同業:** [[致新]]、[[立錡]]、[[Texas Instruments]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $257.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.65 |         N/A |      2.49 | 5.60 |     10.68 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7483.69 |      6089.50 |      5416.25 |\n| Gross Profit            |      2695.02 |      2164.27 |      1749.17 |\n| Gross Margin (%)        |        36.01 |        35.54 |        32.29 |\n| Selling & Marketing Exp |       434.60 |       414.37 |       356.20 |\n| R&D Exp                 |       734.40 |       640.84 |       564.47 |\n| General & Admin Exp     |       237.64 |       206.74 |       158.02 |\n| Operating Income        |      1288.38 |       902.33 |       670.50 |\n| Operating Margin (%)    |        17.22 |        14.82 |        12.38 |\n| Net Income              |       951.24 |       720.09 |       510.79 |\n| Net Margin (%)          |        12.71 |        11.83 |         9.43 |\n| Op Cash Flow            |      1533.74 |      1284.70 |       952.11 |\n| Investing Cash Flow     |      -742.88 |      -793.94 |      -988.77 |\n| Financing Cash Flow     |      -808.87 |      -977.13 |      -693.39 |\n| CAPEX                   |      -219.63 |      -221.63 |      -264.39 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1979.00 |      1926.00 |      1962.22 |      1819.67 |\n| Gross Profit            |       759.73 |       745.47 |       719.17 |       625.16 |\n| Gross Margin (%)        |        38.39 |        38.71 |        36.65 |        34.36 |\n| Selling & Marketing Exp |       113.38 |       120.30 |       113.83 |        98.10 |\n| R&D Exp                 |       195.27 |       202.34 |       185.81 |       170.44 |\n| General & Admin Exp     |        64.75 |        66.35 |        61.91 |        47.89 |\n| Operating Income        |       386.33 |       356.48 |       357.63 |       308.72 |\n| Operating Margin (%)    |        19.52 |        18.51 |        18.23 |        16.97 |\n| Net Income              |       269.38 |       275.37 |       289.27 |       196.59 |\n| Net Margin (%)          |        13.61 |        14.30 |        14.74 |        10.80 |\n| Op Cash Flow            |       505.68 |       519.53 |       187.09 |       306.76 |\n| Investing Cash Flow     |      -257.00 |      -372.35 |       424.96 |      -292.16 |\n| Financing Cash Flow     |        -5.87 |        -5.85 |      -731.19 |        -8.11 |\n| CAPEX                   |       -65.45 |       -66.54 |       -41.34 |       -44.56 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

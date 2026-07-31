@@ -1,0 +1,236 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8069",
+  "company_name": "元太",
+  "title": "8069 - 元太",
+  "source_md": "Pilot_Reports/平面顯示器 - 面板/8069_元太.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "206,274 百萬台幣",
+    "enterprise_value": "205,953 百萬台幣"
+  },
+  "business": {
+    "summary": "元太科技工業 (8069，E Ink Holdings) 為全球電子紙 (ePaper) 產業之絕對龍頭，市占率超過九成，掌握電子墨水技術最核心專利與材料配方。公司隸屬 [[永豐餘]] 集團。\n\n核心產品為電子墨水薄膜 (FPL) 及電子紙顯示器模組，具備超低功耗、護眼及極佳戶外可視性。應用領域涵蓋：(1) 電子書閱讀器 — 供應 [[Amazon]] Kindle、[[Kobo]] 等全球電子書品牌，近期 [[Amazon]] 已導入彩色電子紙；(2) 電子貨架標籤 (ESL) — 全球零售業加速導入，主要 ESL 系統商 [[Hanshow]] (漢朔)、[[VusionGroup]] (原 SES-imagotag) 均採用元太電子紙，[[沃爾瑪]] ([[Walmart]]) 已導入四色 ESL；(3) 數位看板與智慧城市 — 大型戶外彩色電子紙看板。2024 年營收 321.6 億元，毛利率 49.6%，淨利率 27.6%。",
+    "entities": [
+      "永豐餘",
+      "Amazon",
+      "Kobo",
+      "Hanshow",
+      "VusionGroup",
+      "沃爾瑪",
+      "Walmart"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與零組件)",
+        "text": "**上游 (材料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "TFT 背板",
+        "text": "[[群創]]、[[京東方]] — TFT 背板供應",
+        "entities": [
+          "群創",
+          "京東方"
+        ]
+      },
+      {
+        "category": "驅動IC",
+        "text": "[[天鈺]] — 電子紙驅動 IC",
+        "entities": [
+          "天鈺"
+        ]
+      },
+      {
+        "category": "化學材料",
+        "text": "電子墨水微膠囊化學原料、特種高分子薄膜",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (電子紙製造)",
+        "text": "**中游 (電子紙製造):**",
+        "entities": []
+      },
+      {
+        "category": "電子墨水薄膜",
+        "text": "**元太科技** (電子墨水材料配方研發、FPL 薄膜製造)",
+        "entities": []
+      },
+      {
+        "category": "電子紙模組",
+        "text": "**元太科技** (電子紙顯示器模組組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "電子書閱讀器",
+        "text": "[[Amazon]] Kindle、[[Kobo]] — 全球電子書品牌",
+        "entities": [
+          "Amazon",
+          "Kobo"
+        ]
+      },
+      {
+        "category": "電子貨架標籤",
+        "text": "[[Hanshow]]、[[VusionGroup]] — ESL 系統整合商",
+        "entities": [
+          "Hanshow",
+          "VusionGroup"
+        ]
+      },
+      {
+        "category": "零售終端",
+        "text": "[[沃爾瑪]] — 導入四色 ESL",
+        "entities": [
+          "沃爾瑪"
+        ]
+      },
+      {
+        "category": "數位看板",
+        "text": "智慧城市與戶外電子看板製造商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電子書",
+        "text": "[[Amazon]] (Kindle)、[[Kobo]] — 全球最大電子書閱讀器品牌",
+        "entities": [
+          "Amazon",
+          "Kobo"
+        ]
+      },
+      {
+        "role": "ESL 系統",
+        "text": "[[Hanshow]] (漢朔)、[[VusionGroup]] — 全球前二大電子貨架標籤系統商",
+        "entities": [
+          "Hanshow",
+          "VusionGroup"
+        ]
+      },
+      {
+        "role": "零售終端",
+        "text": "[[沃爾瑪]] ([[Walmart]]) — 導入四色 ESL",
+        "entities": [
+          "沃爾瑪",
+          "Walmart"
+        ]
+      },
+      {
+        "role": "數位看板",
+        "text": "全球數位看板與智慧城市設備商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "TFT 背板",
+        "text": "[[群創]]、[[京東方]] — TFT 基板供應",
+        "entities": [
+          "群創",
+          "京東方"
+        ]
+      },
+      {
+        "role": "驅動IC",
+        "text": "[[天鈺]] — 電子紙驅動 IC",
+        "entities": [
+          "天鈺"
+        ]
+      },
+      {
+        "role": "光電元件",
+        "text": "同揚光電 — 產業鏈緊密合作夥伴",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "永豐餘",
+      "type": "taiwan_company_or_term",
+      "wikilink": "永豐餘"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Kobo",
+      "type": "international_company_or_term",
+      "wikilink": "Kobo"
+    },
+    {
+      "name": "Hanshow",
+      "type": "international_company_or_term",
+      "wikilink": "Hanshow"
+    },
+    {
+      "name": "VusionGroup",
+      "type": "international_company_or_term",
+      "wikilink": "VusionGroup"
+    },
+    {
+      "name": "沃爾瑪",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沃爾瑪"
+    },
+    {
+      "name": "Walmart",
+      "type": "international_company_or_term",
+      "wikilink": "Walmart"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "天鈺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天鈺"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "元太科技工業 (8069，E Ink Holdings) 為全球電子紙 (ePaper) 產業之絕對龍頭，市占率超過九成，掌握電子墨水技術最核心專利與材料配方。公司隸屬 [[永豐餘]] 集團。\n\n核心產品為電子墨水薄膜 (FPL) 及電子紙顯示器模組，具備超低功耗、護眼及極佳戶外可視性。應用領域涵蓋：(1) 電子書閱讀器 — 供應 [[Amazon]] Kindle、[[Kobo]] 等全球電子書品牌，近期 [[Amazon]] 已導入彩色電子紙；(2) 電子貨架標籤 (ESL) — 全球零售業加速導入，主要 ESL 系統商 [[Hanshow]] (漢朔)、[[VusionGroup]] (原 SES-imagotag) 均採用元太電子紙，[[沃爾瑪]] ([[Walmart]]) 已導入四色 ESL；(3) 數位看板與智慧城市 — 大型戶外彩色電子紙看板。2024 年營收 321.6 億元，毛利率 49.6%，淨利率 27.6%。",
+    "supply_chain_md": "**上游 (材料與零組件):**\n- **TFT 背板:** [[群創]]、[[京東方]] — TFT 背板供應\n- **驅動IC:** [[天鈺]] — 電子紙驅動 IC\n- **化學材料:** 電子墨水微膠囊化學原料、特種高分子薄膜\n\n**中游 (電子紙製造):**\n- **電子墨水薄膜:** **元太科技** (電子墨水材料配方研發、FPL 薄膜製造)\n- **電子紙模組:** **元太科技** (電子紙顯示器模組組裝)\n\n**下游 (終端應用):**\n- **電子書閱讀器:** [[Amazon]] Kindle、[[Kobo]] — 全球電子書品牌\n- **電子貨架標籤:** [[Hanshow]]、[[VusionGroup]] — ESL 系統整合商\n- **零售終端:** [[沃爾瑪]] — 導入四色 ESL\n- **數位看板:** 智慧城市與戶外電子看板製造商",
+    "customers_suppliers_md": "### 主要客戶\n- **電子書:** [[Amazon]] (Kindle)、[[Kobo]] — 全球最大電子書閱讀器品牌\n- **ESL 系統:** [[Hanshow]] (漢朔)、[[VusionGroup]] — 全球前二大電子貨架標籤系統商\n- **零售終端:** [[沃爾瑪]] ([[Walmart]]) — 導入四色 ESL\n- **數位看板:** 全球數位看板與智慧城市設備商\n\n### 主要供應商\n- **TFT 背板:** [[群創]]、[[京東方]] — TFT 基板供應\n- **驅動IC:** [[天鈺]] — 電子紙驅動 IC\n- **光電元件:** 同揚光電 — 產業鏈緊密合作夥伴",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $182.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     19.00 |       13.00 |      5.72 | 3.26 |     15.94 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     36115.81 |     32163.13 |     27119.76 |\n| Gross Profit            |     19833.31 |     15964.67 |     14456.48 |\n| Gross Margin (%)        |        54.92 |        49.64 |        53.31 |\n| Selling & Marketing Exp |      1116.26 |       942.64 |       886.54 |\n| R&D Exp                 |      4888.47 |      4350.93 |      3646.85 |\n| General & Admin Exp     |      3154.28 |      3052.32 |      2637.62 |\n| Operating Income        |     10674.31 |      7618.78 |      7285.48 |\n| Operating Margin (%)    |        29.56 |        23.69 |        26.86 |\n| Net Income              |     10514.88 |      8867.48 |      7814.33 |\n| Net Margin (%)          |        29.11 |        27.57 |        28.81 |\n| Op Cash Flow            |      9599.72 |      7106.16 |     10626.43 |\n| Investing Cash Flow     |       377.41 |     -3260.45 |     -8330.04 |\n| Financing Cash Flow     |     -4353.80 |      -353.73 |     -1204.57 |\n| CAPEX                   |     -4289.68 |     -2908.56 |     -2459.58 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      8633.49 |      7015.76 |     10415.10 |     10625.52 |\n| Gross Profit            |      5150.26 |      3390.13 |      5829.61 |      6405.90 |\n| Gross Margin (%)        |        59.65 |        48.32 |        55.97 |        60.29 |\n| Selling & Marketing Exp |       277.07 |       309.48 |       256.32 |       302.48 |\n| R&D Exp                 |      1203.59 |      1498.11 |      1191.16 |      1148.22 |\n| General & Admin Exp     |       855.79 |       894.94 |       744.70 |       753.20 |\n| Operating Income        |      2813.82 |       687.60 |      3637.43 |      4202.00 |\n| Operating Margin (%)    |        32.59 |         9.80 |        34.92 |        39.55 |\n| Net Income              |      2784.72 |      1118.52 |      4227.72 |      2972.05 |\n| Net Margin (%)          |        32.25 |        15.94 |        40.59 |        27.97 |\n| Op Cash Flow            |      2205.96 |      2666.25 |      3925.51 |      1344.54 |\n| Investing Cash Flow     |     -1462.59 |      -992.30 |      -100.61 |       623.00 |\n| Financing Cash Flow     |       466.54 |      -250.29 |     -3714.54 |       328.06 |\n| CAPEX                   |      -799.19 |     -1906.16 |      -520.00 |     -1196.59 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

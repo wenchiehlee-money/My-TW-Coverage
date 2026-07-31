@@ -1,0 +1,163 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1587",
+  "company_name": "吉茂",
+  "title": "1587 - 吉茂",
+  "source_md": "Pilot_Reports/汽車 - 其他/1587_吉茂.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "1,901 百萬台幣",
+    "enterprise_value": "2,761 百萬台幣"
+  },
+  "business": {
+    "summary": "吉茂精密 (1587，Cryomax Cooling) 成立於 1984 年，主營汽車散熱系統，核心產品為鋁製/銅製水箱、冷凝器及散熱片，主力市場為北美 AM。墨西哥廠已量產 (月產能 1.7 萬件)，2024 年通過[[USMCA]]認證取得銷美零關稅資格，較中國競爭者享有 72% 關稅優勢。公司憑藉熱交換技術成功切入[[AI 伺服器]]水冷散熱零件 (板式熱交換器/CDU 冷卻系統)，供應[[廣達]] [[GB200]] HPC 水冷專案，營收佔比約 2-3%，預計快速放量至 10%+。早期技術合作夥伴為日本[[Denso]] (電裝)。",
+    "entities": [
+      "USMCA",
+      "AI 伺服器",
+      "廣達",
+      "GB200",
+      "Denso"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋁捲/銅捲",
+        "text": "金屬散熱管材供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**吉茂** (汽車水箱/冷凝器/散熱片；[[AI 伺服器]]水冷模組，台灣/墨西哥工廠)",
+        "entities": [
+          "AI 伺服器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "AM 散熱",
+        "text": "北美 AM 零件通路 ([[USMCA]]零關稅)",
+        "entities": [
+          "USMCA"
+        ]
+      },
+      {
+        "category": "AI 水冷",
+        "text": "[[廣達]] — [[GB200]] HPC 水冷板式熱交換器",
+        "entities": [
+          "廣達",
+          "GB200"
+        ]
+      },
+      {
+        "category": "技術夥伴",
+        "text": "[[Denso]] (電裝) — 早期大股東與技術合作",
+        "entities": [
+          "Denso"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AM 散熱",
+        "text": "北美 AM 零件通路 (墨西哥廠[[USMCA]]零關稅)",
+        "entities": [
+          "USMCA"
+        ]
+      },
+      {
+        "role": "AI 水冷",
+        "text": "[[廣達]] — [[GB200]] HPC 水冷散熱",
+        "entities": [
+          "廣達",
+          "GB200"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬",
+        "text": "鋁捲/銅捲散熱管材",
+        "entities": []
+      },
+      {
+        "role": "技術夥伴",
+        "text": "[[Denso]] (電裝) — 早期合作",
+        "entities": [
+          "Denso"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "USMCA",
+      "type": "international_company_or_term",
+      "wikilink": "USMCA"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "GB200",
+      "type": "international_company_or_term",
+      "wikilink": "GB200"
+    },
+    {
+      "name": "Denso",
+      "type": "international_company_or_term",
+      "wikilink": "Denso"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "吉茂精密 (1587，Cryomax Cooling) 成立於 1984 年，主營汽車散熱系統，核心產品為鋁製/銅製水箱、冷凝器及散熱片，主力市場為北美 AM。墨西哥廠已量產 (月產能 1.7 萬件)，2024 年通過[[USMCA]]認證取得銷美零關稅資格，較中國競爭者享有 72% 關稅優勢。公司憑藉熱交換技術成功切入[[AI 伺服器]]水冷散熱零件 (板式熱交換器/CDU 冷卻系統)，供應[[廣達]] [[GB200]] HPC 水冷專案，營收佔比約 2-3%，預計快速放量至 10%+。早期技術合作夥伴為日本[[Denso]] (電裝)。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋁捲/銅捲:** 金屬散熱管材供應商\n\n**中游 (製造):**\n- **吉茂** (汽車水箱/冷凝器/散熱片；[[AI 伺服器]]水冷模組，台灣/墨西哥工廠)\n\n**下游 (終端):**\n- **AM 散熱:** 北美 AM 零件通路 ([[USMCA]]零關稅)\n- **AI 水冷:** [[廣達]] — [[GB200]] HPC 水冷板式熱交換器\n- **技術夥伴:** [[Denso]] (電裝) — 早期大股東與技術合作",
+    "customers_suppliers_md": "### 主要客戶\n- **AM 散熱:** 北美 AM 零件通路 (墨西哥廠[[USMCA]]零關稅)\n- **AI 水冷:** [[廣達]] — [[GB200]] HPC 水冷散熱\n\n### 主要供應商\n- **金屬:** 鋁捲/銅捲散熱管材\n- **技術夥伴:** [[Denso]] (電裝) — 早期合作",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $23.25 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     58.12 |       31.42 |      0.65 | 1.16 |     13.60 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2651.92 |      2154.17 |      2122.06 |\n| Gross Profit            |       505.29 |       451.84 |       444.67 |\n| Gross Margin (%)        |        19.05 |        20.98 |        20.95 |\n| Selling & Marketing Exp |       252.77 |       276.61 |       212.72 |\n| R&D Exp                 |        46.43 |        50.50 |        44.03 |\n| General & Admin Exp     |       140.53 |       156.17 |       133.00 |\n| Operating Income        |        65.57 |       -31.45 |        54.91 |\n| Operating Margin (%)    |         2.47 |        -1.46 |         2.59 |\n| Net Income              |        29.91 |       -33.80 |        42.06 |\n| Net Margin (%)          |         1.13 |        -1.57 |         1.98 |\n| Op Cash Flow            |        17.68 |       -35.72 |       345.47 |\n| Investing Cash Flow     |       -84.64 |      -114.27 |      -428.75 |\n| Financing Cash Flow     |        98.10 |        11.42 |        97.30 |\n| CAPEX                   |       -98.97 |      -122.64 |      -457.77 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       754.07 |       777.83 |       675.32 |       640.00 |\n| Gross Profit            |       126.76 |       140.39 |       126.67 |       129.89 |\n| Gross Margin (%)        |        16.81 |        18.05 |        18.76 |        20.30 |\n| Selling & Marketing Exp |        57.05 |        65.22 |        62.40 |        64.86 |\n| R&D Exp                 |        10.07 |        14.04 |        12.70 |        10.34 |\n| General & Admin Exp     |        35.57 |        38.14 |        33.72 |        33.61 |\n| Operating Income        |        24.07 |        23.00 |        17.86 |        21.08 |\n| Operating Margin (%)    |         3.19 |         2.96 |         2.64 |         3.29 |\n| Net Income              |         3.15 |        10.37 |        14.31 |         4.74 |\n| Net Margin (%)          |         0.42 |         1.33 |         2.12 |         0.74 |\n| Op Cash Flow            |        82.52 |       -96.76 |       -30.69 |        26.17 |\n| Investing Cash Flow     |        -6.14 |       -12.55 |       -23.27 |       -18.00 |\n| Financing Cash Flow     |        44.14 |        27.50 |       -42.02 |        95.36 |\n| CAPEX                   |        -8.79 |       -16.78 |       -24.71 |       -21.80 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

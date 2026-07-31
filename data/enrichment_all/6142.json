@@ -1,0 +1,222 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6142",
+  "company_name": "友勁",
+  "title": "6142_友勁",
+  "source_md": "Pilot_Reports/通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)/6142_友勁.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "market_cap": "3,202 百萬台幣",
+    "enterprise_value": "2,962 百萬台幣"
+  },
+  "business": {
+    "summary": "友勁科技 (6142，Alpha Networks) 為[[友訊科技]] (2332，[[D-Link]]) 轉投資之專業網通設備製造商，隸屬[[台鋼集團]]。公司堅持「台灣製造 (MIT)」以確保品質與資訊安全，近年全面轉型，汰換低毛利消費型網通產品，將營運重心集中於高毛利的商用/企業級網通市場。\n\n主力產品涵蓋 2.5G/10G/100G 規格之 L2/L3 企業級網路交換器、[[Wi-Fi 7]] 企業級智慧型基地台 (AP)、以及小型資料中心交換器。公司在美國對 [[TP-Link]] 等中系網通產品實施禁令的「去中化」趨勢下，以 100% 台灣製造優勢成為客戶產能轉移的首選。",
+    "entities": [
+      "友訊科技",
+      "D-Link",
+      "台鋼集團",
+      "Wi-Fi 7",
+      "TP-Link"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (網通晶片與射頻元件)",
+        "text": "**上游 (網通晶片與射頻元件):**",
+        "entities": []
+      },
+      {
+        "category": "交換器晶片",
+        "text": "[[Broadcom]]、[[瑞昱]] — 企業級網路交換器 IC",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      },
+      {
+        "category": "Wi-Fi 晶片",
+        "text": "[[Qualcomm]]、[[聯發科]] — Wi-Fi 6/7 射頻模組",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "category": "PCB/天線",
+        "text": "高頻多層 PCB 及射頻天線",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (企業級網通設備 MIT 製造)",
+        "text": "**中游 (企業級網通設備 MIT 製造):**",
+        "entities": []
+      },
+      {
+        "category": "企業交換器",
+        "text": "**友勁** (L2/L3 10G/100G 網管交換器)",
+        "entities": []
+      },
+      {
+        "category": "企業 AP",
+        "text": "**友勁** ([[Wi-Fi 7]] 商用基地台)",
+        "entities": [
+          "Wi-Fi 7"
+        ]
+      },
+      {
+        "category": "製造優勢",
+        "text": "100% 台灣在地製造 (MIT)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業網通品牌與系統整合商)",
+        "text": "**下游 (企業網通品牌與系統整合商):**",
+        "entities": []
+      },
+      {
+        "category": "關係企業",
+        "text": "[[D-Link]] (友訊) — 企業級網通設備代工",
+        "entities": [
+          "D-Link"
+        ]
+      },
+      {
+        "category": "企業客戶",
+        "text": "歐美企業級網通品牌商",
+        "entities": []
+      },
+      {
+        "category": "去中化受惠",
+        "text": "原中系網通客戶轉單",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "關係企業",
+        "text": "[[D-Link]] (友訊科技) — 企業級交換器及 AP 代工",
+        "entities": [
+          "D-Link"
+        ]
+      },
+      {
+        "role": "企業品牌商",
+        "text": "歐美企業級網通品牌 — 去中化轉單受惠",
+        "entities": []
+      },
+      {
+        "role": "系統整合商",
+        "text": "國內外大型系統整合商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "交換器晶片",
+        "text": "[[Broadcom]]、[[瑞昱]]",
+        "entities": [
+          "Broadcom",
+          "瑞昱"
+        ]
+      },
+      {
+        "role": "Wi-Fi 晶片",
+        "text": "[[Qualcomm]]、[[聯發科]]",
+        "entities": [
+          "Qualcomm",
+          "聯發科"
+        ]
+      },
+      {
+        "role": "集團關聯",
+        "text": "[[台鋼集團]] 供應鏈資源",
+        "entities": [
+          "台鋼集團"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "友訊科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊科技"
+    },
+    {
+      "name": "D-Link",
+      "type": "international_company_or_term",
+      "wikilink": "D-Link"
+    },
+    {
+      "name": "台鋼集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鋼集團"
+    },
+    {
+      "name": "Wi-Fi 7",
+      "type": "international_company_or_term",
+      "wikilink": "Wi-Fi 7"
+    },
+    {
+      "name": "TP-Link",
+      "type": "international_company_or_term",
+      "wikilink": "TP-Link"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "友勁科技 (6142，Alpha Networks) 為[[友訊科技]] (2332，[[D-Link]]) 轉投資之專業網通設備製造商，隸屬[[台鋼集團]]。公司堅持「台灣製造 (MIT)」以確保品質與資訊安全，近年全面轉型，汰換低毛利消費型網通產品，將營運重心集中於高毛利的商用/企業級網通市場。\n\n主力產品涵蓋 2.5G/10G/100G 規格之 L2/L3 企業級網路交換器、[[Wi-Fi 7]] 企業級智慧型基地台 (AP)、以及小型資料中心交換器。公司在美國對 [[TP-Link]] 等中系網通產品實施禁令的「去中化」趨勢下，以 100% 台灣製造優勢成為客戶產能轉移的首選。",
+    "supply_chain_md": "**上游 (網通晶片與射頻元件):**\n- **交換器晶片:** [[Broadcom]]、[[瑞昱]] — 企業級網路交換器 IC\n- **Wi-Fi 晶片:** [[Qualcomm]]、[[聯發科]] — Wi-Fi 6/7 射頻模組\n- **PCB/天線:** 高頻多層 PCB 及射頻天線\n\n**中游 (企業級網通設備 MIT 製造):**\n- **企業交換器:** **友勁** (L2/L3 10G/100G 網管交換器)\n- **企業 AP:** **友勁** ([[Wi-Fi 7]] 商用基地台)\n- **製造優勢:** 100% 台灣在地製造 (MIT)\n\n**下游 (企業網通品牌與系統整合商):**\n- **關係企業:** [[D-Link]] (友訊) — 企業級網通設備代工\n- **企業客戶:** 歐美企業級網通品牌商\n- **去中化受惠:** 原中系網通客戶轉單",
+    "customers_suppliers_md": "### 主要客戶\n- **關係企業:** [[D-Link]] (友訊科技) — 企業級交換器及 AP 代工\n- **企業品牌商:** 歐美企業級網通品牌 — 去中化轉單受惠\n- **系統整合商:** 國內外大型系統整合商\n\n### 主要供應商\n- **交換器晶片:** [[Broadcom]]、[[瑞昱]]\n- **Wi-Fi 晶片:** [[Qualcomm]]、[[聯發科]]\n- **集團關聯:** [[台鋼集團]] 供應鏈資源",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $9.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.68 | 1.07 |    -19.28 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1803.87 |      1184.29 |      2539.35 |\n| Gross Profit            |       168.94 |        19.14 |       172.91 |\n| Gross Margin (%)        |         9.37 |         1.62 |         6.81 |\n| Selling & Marketing Exp |        50.83 |        46.61 |        65.06 |\n| R&D Exp                 |       216.22 |       220.01 |       188.84 |\n| General & Admin Exp     |        93.83 |        81.29 |       108.43 |\n| Operating Income        |      -191.94 |      -328.77 |      -189.43 |\n| Operating Margin (%)    |       -10.64 |       -27.76 |        -7.46 |\n| Net Income              |       -84.46 |      -164.56 |       -37.16 |\n| Net Margin (%)          |        -4.68 |       -13.89 |        -1.46 |\n| Op Cash Flow            |      -110.50 |      -132.86 |       511.53 |\n| Investing Cash Flow     |        57.55 |      -198.89 |      -335.81 |\n| Financing Cash Flow     |       -10.96 |      -142.81 |      -329.00 |\n| CAPEX                   |       -19.95 |       -27.27 |       -22.18 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       376.91 |       502.87 |       505.50 |       418.59 |\n| Gross Profit            |         6.86 |        50.62 |        52.80 |        58.66 |\n| Gross Margin (%)        |         1.82 |        10.07 |        10.44 |        14.02 |\n| Selling & Marketing Exp |         8.56 |        16.77 |        13.04 |        12.47 |\n| R&D Exp                 |        50.94 |        56.27 |        54.26 |        54.76 |\n| General & Admin Exp     |        26.05 |        21.90 |        23.77 |        22.11 |\n| Operating Income        |       -78.69 |       -44.31 |       -38.26 |       -30.67 |\n| Operating Margin (%)    |       -20.88 |        -8.81 |        -7.57 |        -7.33 |\n| Net Income              |       -29.23 |        24.49 |       -63.79 |       -15.93 |\n| Net Margin (%)          |        -7.75 |         4.87 |       -12.62 |        -3.81 |\n| Op Cash Flow            |        46.90 |       -93.73 |       -54.46 |        -9.22 |\n| Investing Cash Flow     |        -5.17 |       -15.52 |      -193.66 |       271.91 |\n| Financing Cash Flow     |        75.09 |       -16.85 |       -33.25 |       -35.95 |\n| CAPEX                   |         0.92 |        -1.89 |        -6.44 |       -12.54 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

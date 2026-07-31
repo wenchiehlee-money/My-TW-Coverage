@@ -1,0 +1,280 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3014",
+  "company_name": "聯陽",
+  "title": "3014 - 聯陽",
+  "source_md": "Pilot_Reports/半導體 - IC設計/3014_聯陽.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "20,080 百萬台幣",
+    "enterprise_value": "15,016 百萬台幣"
+  },
+  "business": {
+    "summary": "聯陽半導體 (3014) 是[[聯華電子]]集團轉投資的專業 [[IC 設計]]公司，為全球 [[Super I/O]] 控制晶片 (市占 45-50%) 及筆電 [[EC 晶片]] (Embedded Controller，市占 35-40%) 領導廠商。產品線涵蓋高速影像介面 IC ([[HDMI]]、[[DisplayPort]]、[[USB Type-C]])、數位電視 IC、[[電子紙]]驅動 IC、[[感測器中樞]] MCU 及多媒體 [[SoC]]。",
+    "entities": [
+      "聯華電子",
+      "IC 設計",
+      "Super I/O",
+      "EC 晶片",
+      "HDMI",
+      "DisplayPort",
+      "USB Type-C",
+      "電子紙",
+      "感測器中樞",
+      "SoC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[聯華電子]] (UMC)、[[蘇州和艦]] (合資廠)",
+        "entities": [
+          "聯華電子",
+          "蘇州和艦"
+        ]
+      },
+      {
+        "category": "封裝",
+        "text": "[[Amkor]]、[[矽品]]、[[華通電腦]]",
+        "entities": [
+          "Amkor",
+          "矽品",
+          "華通電腦"
+        ]
+      },
+      {
+        "category": "測試",
+        "text": "[[京元電子]]、[[宏觀微電子]]",
+        "entities": [
+          "京元電子",
+          "宏觀微電子"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "PC I/O 控制",
+        "text": "**聯陽** (Super I/O、EC 晶片，全球市占率領先)",
+        "entities": []
+      },
+      {
+        "category": "高速介面",
+        "text": "HDMI、DisplayPort、USB-C 控制 IC",
+        "entities": []
+      },
+      {
+        "category": "多媒體 SoC",
+        "text": "智慧家電及機上盒用",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (系統組裝)",
+        "text": "**下游 (系統組裝):**",
+        "entities": []
+      },
+      {
+        "category": "筆電 ODM",
+        "text": "[[廣達]]、[[仁寶]]、[[英業達]]",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "英業達"
+        ]
+      },
+      {
+        "category": "主機板",
+        "text": "PC 主機板廠",
+        "entities": []
+      },
+      {
+        "category": "智慧家電",
+        "text": "中國大陸家電品牌 (多媒體 SoC 客戶占 80-90%)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "筆電 ODM",
+        "text": "[[廣達]]、[[仁寶]]、[[英業達]]",
+        "entities": [
+          "廣達",
+          "仁寶",
+          "英業達"
+        ]
+      },
+      {
+        "role": "多媒體 SoC",
+        "text": "中國大陸智慧家電品牌 (占 80-90%)",
+        "entities": []
+      },
+      {
+        "role": "主機板/PC",
+        "text": "台灣及全球 PC 主機板廠商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[聯華電子]] (UMC)、[[蘇州和艦]]",
+        "entities": [
+          "聯華電子",
+          "蘇州和艦"
+        ]
+      },
+      {
+        "role": "封裝",
+        "text": "[[Amkor]]、[[矽品]]、[[華通電腦]]",
+        "entities": [
+          "Amkor",
+          "矽品",
+          "華通電腦"
+        ]
+      },
+      {
+        "role": "測試",
+        "text": "[[京元電子]]、[[宏觀微電子]]",
+        "entities": [
+          "京元電子",
+          "宏觀微電子"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "IC 設計",
+      "type": "taiwan_company_or_term",
+      "wikilink": "IC 設計"
+    },
+    {
+      "name": "Super I/O",
+      "type": "international_company_or_term",
+      "wikilink": "Super I/O"
+    },
+    {
+      "name": "EC 晶片",
+      "type": "taiwan_company_or_term",
+      "wikilink": "EC 晶片"
+    },
+    {
+      "name": "HDMI",
+      "type": "international_company_or_term",
+      "wikilink": "HDMI"
+    },
+    {
+      "name": "DisplayPort",
+      "type": "international_company_or_term",
+      "wikilink": "DisplayPort"
+    },
+    {
+      "name": "USB Type-C",
+      "type": "international_company_or_term",
+      "wikilink": "USB Type-C"
+    },
+    {
+      "name": "電子紙",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電子紙"
+    },
+    {
+      "name": "感測器中樞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "感測器中樞"
+    },
+    {
+      "name": "SoC",
+      "type": "international_company_or_term",
+      "wikilink": "SoC"
+    },
+    {
+      "name": "蘇州和艦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蘇州和艦"
+    },
+    {
+      "name": "Amkor",
+      "type": "international_company_or_term",
+      "wikilink": "Amkor"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "華通電腦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華通電腦"
+    },
+    {
+      "name": "京元電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京元電子"
+    },
+    {
+      "name": "宏觀微電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏觀微電子"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "聯陽半導體 (3014) 是[[聯華電子]]集團轉投資的專業 [[IC 設計]]公司，為全球 [[Super I/O]] 控制晶片 (市占 45-50%) 及筆電 [[EC 晶片]] (Embedded Controller，市占 35-40%) 領導廠商。產品線涵蓋高速影像介面 IC ([[HDMI]]、[[DisplayPort]]、[[USB Type-C]])、數位電視 IC、[[電子紙]]驅動 IC、[[感測器中樞]] MCU 及多媒體 [[SoC]]。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **晶圓代工:** [[聯華電子]] (UMC)、[[蘇州和艦]] (合資廠)\n- **封裝:** [[Amkor]]、[[矽品]]、[[華通電腦]]\n- **測試:** [[京元電子]]、[[宏觀微電子]]\n\n**中游 (IC 設計):**\n- **PC I/O 控制:** **聯陽** (Super I/O、EC 晶片，全球市占率領先)\n- **高速介面:** HDMI、DisplayPort、USB-C 控制 IC\n- **多媒體 SoC:** 智慧家電及機上盒用\n\n**下游 (系統組裝):**\n- **筆電 ODM:** [[廣達]]、[[仁寶]]、[[英業達]]\n- **主機板:** PC 主機板廠\n- **智慧家電:** 中國大陸家電品牌 (多媒體 SoC 客戶占 80-90%)",
+    "customers_suppliers_md": "### 主要客戶\n- **筆電 ODM:** [[廣達]]、[[仁寶]]、[[英業達]]\n- **多媒體 SoC:** 中國大陸智慧家電品牌 (占 80-90%)\n- **主機板/PC:** 台灣及全球 PC 主機板廠商\n\n### 主要供應商\n- **晶圓代工:** [[聯華電子]] (UMC)、[[蘇州和艦]]\n- **封裝:** [[Amkor]]、[[矽品]]、[[華通電腦]]\n- **測試:** [[京元電子]]、[[宏觀微電子]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $119.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     12.90 |       25.92 |      2.85 | 3.20 |      7.81 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6946.96 |      6632.58 |      6276.44 |\n| Gross Profit            |      3830.88 |      3689.07 |      3424.00 |\n| Gross Margin (%)        |        55.14 |        55.62 |        54.55 |\n| Selling & Marketing Exp |       463.54 |       412.88 |       390.13 |\n| R&D Exp                 |      1250.45 |      1067.69 |       977.68 |\n| General & Admin Exp     |       310.48 |       373.97 |       293.54 |\n| Operating Income        |      1806.40 |      1834.53 |      1762.65 |\n| Operating Margin (%)    |        26.00 |        27.66 |        28.08 |\n| Net Income              |      1531.30 |      1626.63 |      1587.81 |\n| Net Margin (%)          |        22.04 |        24.52 |        25.30 |\n| Op Cash Flow            |       902.04 |      1384.47 |      2441.43 |\n| Investing Cash Flow     |       -29.13 |        77.91 |        44.22 |\n| Financing Cash Flow     |     -1502.24 |     -1246.88 |      -974.10 |\n| CAPEX                   |       -55.68 |       -61.42 |       -83.30 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1734.05 |      1506.96 |      1794.38 |      1923.31 |\n| Gross Profit            |       992.10 |       853.85 |       952.55 |      1039.73 |\n| Gross Margin (%)        |        57.21 |        56.66 |        53.09 |        54.06 |\n| Selling & Marketing Exp |       113.71 |       116.08 |       116.49 |       115.78 |\n| R&D Exp                 |       300.00 |       300.92 |       313.12 |       339.49 |\n| General & Admin Exp     |        80.07 |        71.09 |        77.40 |        81.66 |\n| Operating Income        |       498.32 |       365.75 |       445.55 |       502.80 |\n| Operating Margin (%)    |        28.74 |        24.27 |        24.83 |        26.14 |\n| Net Income              |       458.70 |       303.52 |       392.06 |       380.25 |\n| Net Margin (%)          |        26.45 |        20.14 |        21.85 |        19.77 |\n| Op Cash Flow            |      -386.59 |      -390.31 |       413.99 |       538.77 |\n| Investing Cash Flow     |       -30.15 |        -2.96 |         6.33 |        52.82 |\n| Financing Cash Flow     |        -1.81 |        -1.98 |     -1495.72 |        -2.87 |\n| CAPEX                   |        -4.39 |        -3.68 |       -10.53 |       -14.40 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": []
+  }
+}

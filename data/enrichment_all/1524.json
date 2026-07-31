@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1524",
+  "company_name": "耿鼎",
+  "title": "1524 - 耿鼎",
+  "source_md": "Pilot_Reports/汽車 - 鈑金/1524_耿鼎.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "4,224 百萬台幣",
+    "enterprise_value": "5,359 百萬台幣"
+  },
+  "business": {
+    "summary": "耿鼎企業 (1524，Gordon Auto Body Parts) 專注於汽車 AM 鈑金件製造，產品涵蓋引擎蓋、葉子板、保險桿、車門等車體鈑金零件，在北美 AM 鈑金件領域擁有逾 30 年經驗。已通過 CAPA 國際品質認證項目達 1,241 項。最大客戶為[[LKQ]] (北美 AM 鈑金市佔近 40%)。北美營收佔比逾六成，受惠於[[State Farm]]等保險公司擴大採用 AM 認證件。上游鋼材採購自[[中鋼]]。",
+    "entities": [
+      "LKQ",
+      "State Farm",
+      "中鋼"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 車用鋼捲/鋁材",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**耿鼎** (模具設計/大型鈑金沖壓/防鏽處理，CAPA 認證)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (AM 通路)",
+        "text": "**下游 (AM 通路):**",
+        "entities": []
+      },
+      {
+        "category": "北美",
+        "text": "[[LKQ]] — 最大客戶 (北美 AM 鈑金市佔近 40%)",
+        "entities": [
+          "LKQ"
+        ]
+      },
+      {
+        "category": "保險",
+        "text": "[[State Farm]] — 間接帶動 AM 理賠",
+        "entities": [
+          "State Farm"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "AM",
+        "text": "[[LKQ]] — 最大客戶，北美 AM 鈑金龍頭",
+        "entities": [
+          "LKQ"
+        ]
+      },
+      {
+        "role": "保險",
+        "text": "[[State Farm]] — 間接帶動 AM 採用",
+        "entities": [
+          "State Farm"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 車用鋼捲/鋁材",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LKQ",
+      "type": "international_company_or_term",
+      "wikilink": "LKQ"
+    },
+    {
+      "name": "State Farm",
+      "type": "international_company_or_term",
+      "wikilink": "State Farm"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "耿鼎企業 (1524，Gordon Auto Body Parts) 專注於汽車 AM 鈑金件製造，產品涵蓋引擎蓋、葉子板、保險桿、車門等車體鈑金零件，在北美 AM 鈑金件領域擁有逾 30 年經驗。已通過 CAPA 國際品質認證項目達 1,241 項。最大客戶為[[LKQ]] (北美 AM 鈑金市佔近 40%)。北美營收佔比逾六成，受惠於[[State Farm]]等保險公司擴大採用 AM 認證件。上游鋼材採購自[[中鋼]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼材:** [[中鋼]] — 車用鋼捲/鋁材\n\n**中游 (製造):**\n- **耿鼎** (模具設計/大型鈑金沖壓/防鏽處理，CAPA 認證)\n\n**下游 (AM 通路):**\n- **北美:** [[LKQ]] — 最大客戶 (北美 AM 鈑金市佔近 40%)\n- **保險:** [[State Farm]] — 間接帶動 AM 理賠",
+    "customers_suppliers_md": "### 主要客戶\n- **AM:** [[LKQ]] — 最大客戶，北美 AM 鈑金龍頭\n- **保險:** [[State Farm]] — 間接帶動 AM 採用\n\n### 主要供應商\n- **鋼材:** [[中鋼]] — 車用鋼捲/鋁材",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.40 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.93 |       22.48 |      1.72 | 1.46 |      7.71 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2630.11 |      3015.61 |      2697.55 |\n| Gross Profit            |       733.10 |       962.91 |       728.96 |\n| Gross Margin (%)        |        27.87 |        31.93 |        27.02 |\n| Selling & Marketing Exp |       197.84 |       197.40 |       186.13 |\n| R&D Exp                 |         5.66 |         5.65 |         4.83 |\n| General & Admin Exp     |       103.99 |       120.23 |       100.45 |\n| Operating Income        |       425.61 |       639.62 |       437.54 |\n| Operating Margin (%)    |        16.18 |        21.21 |        16.22 |\n| Net Income              |       323.08 |       597.26 |       351.56 |\n| Net Margin (%)          |        12.28 |        19.81 |        13.03 |\n| Op Cash Flow            |       695.38 |       648.59 |       909.08 |\n| Investing Cash Flow     |      -450.36 |      -369.84 |      -266.25 |\n| Financing Cash Flow     |      -310.97 |      -594.83 |      -643.23 |\n| CAPEX                   |      -460.09 |      -409.79 |      -286.36 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       562.18 |       707.71 |       635.20 |       534.84 |\n| Gross Profit            |       170.25 |       197.35 |       137.74 |       127.84 |\n| Gross Margin (%)        |        30.28 |        27.89 |        21.68 |        23.90 |\n| Selling & Marketing Exp |        48.90 |        50.87 |        47.52 |        49.94 |\n| R&D Exp                 |         1.40 |         1.50 |         1.42 |         1.39 |\n| General & Admin Exp     |        26.40 |        28.33 |        24.99 |        19.70 |\n| Operating Income        |        93.55 |       116.64 |        63.81 |        56.81 |\n| Operating Margin (%)    |        16.64 |        16.48 |        10.05 |        10.62 |\n| Net Income              |        86.97 |       111.48 |        76.40 |       -26.61 |\n| Net Margin (%)          |        15.47 |        15.75 |        12.03 |        -4.98 |\n| Op Cash Flow            |       184.14 |       277.46 |        37.90 |        73.32 |\n| Investing Cash Flow     |      -121.71 |      -126.89 |      -108.72 |      -108.01 |\n| Financing Cash Flow     |        35.96 |       -83.09 |        13.62 |      -184.67 |\n| CAPEX                   |      -121.75 |      -126.40 |      -118.35 |      -108.04 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 3,
+    "warnings": []
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3632",
+  "company_name": "研勤",
+  "title": "3632 - 研勤",
+  "source_md": "Pilot_Reports/人工智慧 - 系統整合/3632_研勤.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "market_cap": "171 百萬台幣",
+    "enterprise_value": "425 百萬台幣"
+  },
+  "business": {
+    "summary": "研勤科技 (3632，PAPAGO!) 以衛星導航品牌「PAPAGO!」奠定市場地位，目前已轉型為 AI 影像與人臉辨識領導廠商。核心業務：(1) **FACE8 臉霸** — 自主研發人臉辨識引擎，為台灣落地量最大之人臉辨識系統，累計超過一萬家客戶採用，每日辨識量逾百萬次，應用於考勤、校園管理、健身房會員識別及金融機構身份驗證；(2) **車載電子** — 維持「PAPAGO!」[[行車記錄器]]、胎壓偵測及電子後視鏡優勢，整合 AI 影像演算法；(3) **智慧監控** — AI Guard 智慧工安防護雲端平台，偵測施工安全合規性；(4) **多角化經營** — FarBar 廣告機佈局大型商圈，並跨足餐飲品牌掌門精釀。",
+    "entities": [
+      "行車記錄器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件與平台)",
+        "text": "**上游 (零組件與平台):**",
+        "entities": []
+      },
+      {
+        "category": "影像感測晶片",
+        "text": "影像感測器 IC 供應商",
+        "entities": []
+      },
+      {
+        "category": "處理器/模組",
+        "text": "[[聯發科]] GPS 模組、AI 運算晶片",
+        "entities": [
+          "聯發科"
+        ]
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[Microsoft]] Azure、[[AWS]]",
+        "entities": [
+          "Microsoft",
+          "AWS"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (軟體與產品開發)",
+        "text": "**中游 (軟體與產品開發):**",
+        "entities": []
+      },
+      {
+        "category": "AI 人臉辨識",
+        "text": "**研勤** (FACE8 臉霸引擎開發/車載產品設計/智慧工安平台)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "企業管理",
+        "text": "[[柏文]] (健身工廠會員識別)、金融機構、長照中心",
+        "entities": [
+          "柏文"
+        ]
+      },
+      {
+        "category": "政府機關",
+        "text": "各縣市政府考勤專案、校園安全系統",
+        "entities": []
+      },
+      {
+        "category": "零售通路",
+        "text": "汽車百貨、電商平台 (行車記錄器銷售)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "企業端",
+        "text": "[[柏文]] (健身工廠)、大型金融機構、長照中心",
+        "entities": [
+          "柏文"
+        ]
+      },
+      {
+        "role": "政府機關",
+        "text": "各縣市政府考勤系統、校園管理系統",
+        "entities": []
+      },
+      {
+        "role": "零售通路",
+        "text": "汽車百貨、電商平台 ([[行車記錄器]])",
+        "entities": [
+          "行車記錄器"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[Microsoft]] Azure、[[AWS]]",
+        "entities": [
+          "Microsoft",
+          "AWS"
+        ]
+      },
+      {
+        "role": "晶片模組",
+        "text": "[[聯發科]] GPS 模組、影像感測 IC 廠商",
+        "entities": [
+          "聯發科"
+        ]
+      },
+      {
+        "role": "代工製造",
+        "text": "國內電子代工廠 (車載硬體)",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "行車記錄器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "行車記錄器"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "AWS",
+      "type": "international_company_or_term",
+      "wikilink": "AWS"
+    },
+    {
+      "name": "柏文",
+      "type": "taiwan_company_or_term",
+      "wikilink": "柏文"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "研勤科技 (3632，PAPAGO!) 以衛星導航品牌「PAPAGO!」奠定市場地位，目前已轉型為 AI 影像與人臉辨識領導廠商。核心業務：(1) **FACE8 臉霸** — 自主研發人臉辨識引擎，為台灣落地量最大之人臉辨識系統，累計超過一萬家客戶採用，每日辨識量逾百萬次，應用於考勤、校園管理、健身房會員識別及金融機構身份驗證；(2) **車載電子** — 維持「PAPAGO!」[[行車記錄器]]、胎壓偵測及電子後視鏡優勢，整合 AI 影像演算法；(3) **智慧監控** — AI Guard 智慧工安防護雲端平台，偵測施工安全合規性；(4) **多角化經營** — FarBar 廣告機佈局大型商圈，並跨足餐飲品牌掌門精釀。",
+    "supply_chain_md": "**上游 (零組件與平台):**\n- **影像感測晶片:** 影像感測器 IC 供應商\n- **處理器/模組:** [[聯發科]] GPS 模組、AI 運算晶片\n- **雲端平台:** [[Microsoft]] Azure、[[AWS]]\n\n**中游 (軟體與產品開發):**\n- **AI 人臉辨識:** **研勤** (FACE8 臉霸引擎開發/車載產品設計/智慧工安平台)\n\n**下游 (終端應用):**\n- **企業管理:** [[柏文]] (健身工廠會員識別)、金融機構、長照中心\n- **政府機關:** 各縣市政府考勤專案、校園安全系統\n- **零售通路:** 汽車百貨、電商平台 (行車記錄器銷售)",
+    "customers_suppliers_md": "### 主要客戶\n- **企業端:** [[柏文]] (健身工廠)、大型金融機構、長照中心\n- **政府機關:** 各縣市政府考勤系統、校園管理系統\n- **零售通路:** 汽車百貨、電商平台 ([[行車記錄器]])\n\n### 主要供應商\n- **雲端平台:** [[Microsoft]] Azure、[[AWS]]\n- **晶片模組:** [[聯發科]] GPS 模組、影像感測 IC 廠商\n- **代工製造:** 國內電子代工廠 (車載硬體)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $7.68 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.62 | 2.57 |    227.87 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       264.91 |       371.64 |       393.41 |\n| Gross Profit            |       146.34 |       214.79 |       230.21 |\n| Gross Margin (%)        |        55.24 |        57.79 |        58.52 |\n| Selling & Marketing Exp |        49.52 |       106.81 |       112.60 |\n| R&D Exp                 |        33.15 |        38.47 |        31.45 |\n| General & Admin Exp     |        77.83 |        86.32 |        79.28 |\n| Operating Income        |       -14.15 |       -16.82 |         6.88 |\n| Operating Margin (%)    |        -5.34 |        -4.53 |         1.75 |\n| Net Income              |       -15.59 |       -11.98 |         4.43 |\n| Net Margin (%)          |        -5.88 |        -3.22 |         1.13 |\n| Op Cash Flow            |        18.34 |         1.86 |        28.28 |\n| Investing Cash Flow     |        -7.94 |       -39.13 |         0.04 |\n| Financing Cash Flow     |        -5.48 |       -13.77 |       -33.87 |\n| CAPEX                   |        -7.66 |        -7.60 |        -3.88 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        72.62 |        80.86 |        59.60 |        60.40 |\n| Gross Profit            |        44.95 |        44.15 |        32.99 |        34.71 |\n| Gross Margin (%)        |        61.89 |        54.59 |        55.36 |        57.46 |\n| Selling & Marketing Exp |        11.94 |        12.40 |        11.83 |        11.88 |\n| R&D Exp                 |         9.60 |         8.54 |         9.46 |         7.58 |\n| General & Admin Exp     |        17.83 |        20.09 |        20.06 |        18.99 |\n| Operating Income        |         5.58 |         3.12 |        -8.36 |        -3.74 |\n| Operating Margin (%)    |         7.68 |         3.85 |       -14.03 |        -6.19 |\n| Net Income              |         2.58 |         2.08 |        -6.58 |        -7.87 |\n| Net Margin (%)          |         3.55 |         2.58 |       -11.04 |       -13.02 |\n| Op Cash Flow            |        -5.77 |        12.39 |        -3.50 |         9.05 |\n| Investing Cash Flow     |         0.78 |        -3.84 |         1.03 |        -1.04 |\n| Financing Cash Flow     |         0.34 |        -3.24 |         1.66 |        -6.81 |\n| CAPEX                   |        -0.76 |        -3.70 |        -0.63 |        -1.97 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

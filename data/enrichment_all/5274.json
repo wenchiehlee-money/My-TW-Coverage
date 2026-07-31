@@ -1,0 +1,207 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5274",
+  "company_name": "信驊",
+  "title": "5274 - 信驊",
+  "source_md": "Pilot_Reports/半導體 - IC設計/5274_信驊.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "536,836 百萬台幣",
+    "enterprise_value": "529,421 百萬台幣"
+  },
+  "business": {
+    "summary": "信驊科技 (ASPEED) 成立於 2004 年，總部位於台灣[[新竹]]。公司為全球 **BMC (伺服器遠端管理晶片)** 市場龍頭，市佔率高達 70% 以上。核心產品為 **BMC (Baseboard Management Controller)**，是[[資料中心]]及[[伺服器]]不可或缺的關鍵元件。近年亦發展 **Cupola360** (360度全景影像處理晶片) 及 **AV over IP**延伸晶片，拓展 non-BMC 業務。信驊為台灣高價股 (股王等級) 代表，具備極高護城河。",
+    "entities": [
+      "新竹",
+      "資料中心",
+      "伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "晶圓代工 ([[台積電]] 28nm/12nm 等)、封測廠。",
+        "entities": [
+          "台積電"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "[[雲端服務]]供應商 ([[CSP]]: [[Amazon]], [[Microsoft]], [[Google]], [[Meta]])、[[伺服器]]品牌 ([[Dell]], HPE)、[[ODM]] 廠 ([[廣達]]、緯穎等)。",
+        "entities": [
+          "雲端服務",
+          "CSP",
+          "Amazon",
+          "Microsoft",
+          "Google",
+          "Meta",
+          "伺服器",
+          "Dell",
+          "ODM",
+          "廣達"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "category": "角色",
+        "text": "[[伺服器]]管理晶片龍頭 (Fabless)。",
+        "entities": [
+          "伺服器"
+        ]
+      }
+    ]
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "CSP",
+        "text": "北美四大雲端業者 ([[Meta]], [[Microsoft]], [[Amazon]], [[Google]])。",
+        "entities": [
+          "Meta",
+          "Microsoft",
+          "Amazon",
+          "Google"
+        ]
+      },
+      {
+        "role": "伺服器品牌/ODM",
+        "text": "[[Dell]], HPE, Supermicro, [[廣達]], [[緯創]], [[鴻海]]。",
+        "entities": [
+          "Dell",
+          "廣達",
+          "緯創",
+          "鴻海"
+        ]
+      }
+    ],
+    "suppliers": [],
+    "competitors": [
+      {
+        "role": "BMC",
+        "text": "新唐 (Nuvoton, 收購以色列 Nuvoton/[[Panasonic]] 相關部門)、[[Renesas]] (收購 IDT)。",
+        "entities": [
+          "Panasonic",
+          "Renesas"
+        ]
+      },
+      {
+        "text": "### 競爭對手",
+        "entities": []
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "新竹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "雲端服務",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雲端服務"
+    },
+    {
+      "name": "CSP",
+      "type": "international_company_or_term",
+      "wikilink": "CSP"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "Meta",
+      "type": "international_company_or_term",
+      "wikilink": "Meta"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "ODM",
+      "type": "international_company_or_term",
+      "wikilink": "ODM"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "Panasonic",
+      "type": "international_company_or_term",
+      "wikilink": "Panasonic"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "信驊科技 (ASPEED) 成立於 2004 年，總部位於台灣[[新竹]]。公司為全球 **BMC (伺服器遠端管理晶片)** 市場龍頭，市佔率高達 70% 以上。核心產品為 **BMC (Baseboard Management Controller)**，是[[資料中心]]及[[伺服器]]不可或缺的關鍵元件。近年亦發展 **Cupola360** (360度全景影像處理晶片) 及 **AV over IP**延伸晶片，拓展 non-BMC 業務。信驊為台灣高價股 (股王等級) 代表，具備極高護城河。",
+    "supply_chain_md": "**角色:** [[伺服器]]管理晶片龍頭 (Fabless)。\n**上游:** 晶圓代工 ([[台積電]] 28nm/12nm 等)、封測廠。\n**下游:** [[雲端服務]]供應商 ([[CSP]]: [[Amazon]], [[Microsoft]], [[Google]], [[Meta]])、[[伺服器]]品牌 ([[Dell]], HPE)、[[ODM]] 廠 ([[廣達]]、緯穎等)。",
+    "customers_suppliers_md": "### 主要客戶\n- **CSP:** 北美四大雲端業者 ([[Meta]], [[Microsoft]], [[Amazon]], [[Google]])。\n- **伺服器品牌/ODM:** [[Dell]], HPE, Supermicro, [[廣達]], [[緯創]], [[鴻海]]。\n\n### 競爭對手\n- **BMC:** 新唐 (Nuvoton, 收購以色列 Nuvoton/[[Panasonic]] 相關部門)、[[Renesas]] (收購 IDT)。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $13,205.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |   P/B | EV/EBITDA |\n|-----------|-------------|-----------|-------|-----------|\n|    123.24 |       48.44 |     54.01 | 92.12 |     96.65 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9084.88 |      6459.67 |      3130.39 |\n| Gross Profit            |      6178.70 |      4153.80 |      2007.92 |\n| Gross Margin (%)        |        68.01 |        64.30 |        64.14 |\n| Selling & Marketing Exp |       127.58 |       120.37 |        82.63 |\n| R&D Exp                 |      1041.99 |       828.56 |       633.01 |\n| General & Admin Exp     |       348.79 |       286.48 |       212.67 |\n| Operating Income        |      4660.34 |      2918.39 |      1079.61 |\n| Operating Margin (%)    |        51.30 |        45.18 |        34.49 |\n| Net Income              |      3927.81 |      2571.31 |      1006.81 |\n| Net Margin (%)          |        43.23 |        39.81 |        32.16 |\n| Op Cash Flow            |      4495.90 |      3144.69 |       518.77 |\n| Investing Cash Flow     |      -394.67 |      -345.48 |        -0.40 |\n| Financing Cash Flow     |     -1991.48 |      -781.41 |     -1728.04 |\n| CAPEX                   |      -341.67 |      -220.45 |      -152.04 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3146.76 |      2443.13 |      2330.08 |      2246.55 |\n| Gross Profit            |      2177.02 |      1672.35 |      1613.72 |      1524.87 |\n| Gross Margin (%)        |        69.18 |        68.45 |        69.26 |        67.88 |\n| Selling & Marketing Exp |        49.43 |        55.10 |        15.95 |        32.39 |\n| R&D Exp                 |       350.31 |       285.84 |       288.91 |       223.22 |\n| General & Admin Exp     |       118.24 |       113.68 |        77.39 |        85.17 |\n| Operating Income        |      1659.04 |      1217.73 |      1231.47 |      1184.08 |\n| Operating Margin (%)    |        52.72 |        49.84 |        52.85 |        52.71 |\n| Net Income              |      1414.28 |      1197.73 |      1214.20 |       629.10 |\n| Net Margin (%)          |        44.94 |        49.02 |        52.11 |        28.00 |\n| Op Cash Flow            |      1642.82 |      1323.95 |      1079.73 |       739.96 |\n| Investing Cash Flow     |      -267.31 |       -93.17 |        -2.05 |        15.15 |\n| Financing Cash Flow     |        -6.05 |     -1056.23 |      -952.85 |        23.79 |\n| CAPEX                   |      -233.24 |       -88.47 |       -15.51 |        -6.83 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": []
+  }
+}

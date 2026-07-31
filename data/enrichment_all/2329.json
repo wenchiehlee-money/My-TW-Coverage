@@ -1,0 +1,156 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2329",
+  "company_name": "華泰",
+  "title": "2329 - 華泰",
+  "source_md": "Pilot_Reports/半導體 - IC封裝測試/2329_華泰.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "25,534 百萬台幣",
+    "enterprise_value": "25,577 百萬台幣"
+  },
+  "business": {
+    "summary": "華泰電子 (Orient Semiconductor Electronics, OSE) 成立於 1971 年，為台灣老牌[[半導體]]封測與電子代工廠，總部位於高雄。公司業務分為兩大事業群：**半導體封測 (IC)** 與 **電子製造服務 (EMS)**。\n1.  **IC 封測:** 專注於 **NAND Flash** [[記憶體]]封裝測試，主要產品包括 SSD、eMMC、記憶卡等。\n2.  **EMS 代工:** 提供 SMT 表面黏著技術服務，近年成功切入 **[[AI 伺服器]]** 組裝代工，主要客戶為美超微 (Supermicro)。",
+    "entities": [
+      "半導體",
+      "記憶體",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料/IC)",
+        "text": "**上游 (原料/IC):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓/Controller",
+        "text": "向群聯 (Phison)、江波龍 (Longsys) 等模組廠或 Controller 廠接收晶圓或顆粒進行封測。",
+        "entities": []
+      },
+      {
+        "category": "PCB/被動元件",
+        "text": "用於 [[EMS]] 組裝。",
+        "entities": [
+          "EMS"
+        ]
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "儲存",
+        "text": "[[消費性電子]]、工控、車用之 SSD、記憶卡。",
+        "entities": [
+          "消費性電子"
+        ]
+      },
+      {
+        "category": "伺服器",
+        "text": "[[AI]] [[伺服器]]主機板組裝 (Server PCBA)。",
+        "entities": [
+          "AI",
+          "伺服器"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "IC 封測",
+        "text": "金士頓 (Kingston) - 既是客戶也是大股東, 群聯 (Phison), 江波龍 (Longsys)。",
+        "entities": []
+      },
+      {
+        "role": "EMS",
+        "text": "美超微 (Supermicro) - 佔 [[EMS]] 營收比重極高，供應 [[AI]] Server 主機板。",
+        "entities": [
+          "EMS",
+          "AI"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[導線架]]、基板供應商。",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "記憶體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "記憶體"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "EMS",
+      "type": "international_company_or_term",
+      "wikilink": "EMS"
+    },
+    {
+      "name": "消費性電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "消費性電子"
+    },
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "伺服器"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "華泰電子 (Orient Semiconductor Electronics, OSE) 成立於 1971 年，為台灣老牌[[半導體]]封測與電子代工廠，總部位於高雄。公司業務分為兩大事業群：**半導體封測 (IC)** 與 **電子製造服務 (EMS)**。\n1.  **IC 封測:** 專注於 **NAND Flash** [[記憶體]]封裝測試，主要產品包括 SSD、eMMC、記憶卡等。\n2.  **EMS 代工:** 提供 SMT 表面黏著技術服務，近年成功切入 **[[AI 伺服器]]** 組裝代工，主要客戶為美超微 (Supermicro)。",
+    "supply_chain_md": "**上游 (原料/IC):**\n- **晶圓/Controller:** 向群聯 (Phison)、江波龍 (Longsys) 等模組廠或 Controller 廠接收晶圓或顆粒進行封測。\n- **PCB/被動元件:** 用於 [[EMS]] 組裝。\n\n**下游應用:**\n- **儲存:** [[消費性電子]]、工控、車用之 SSD、記憶卡。\n- **伺服器:** [[AI]] [[伺服器]]主機板組裝 (Server PCBA)。",
+    "customers_suppliers_md": "### 主要客戶\n- **IC 封測:** 金士頓 (Kingston) - 既是客戶也是大股東, 群聯 (Phison), 江波龍 (Longsys)。\n- **EMS:** 美超微 (Supermicro) - 佔 [[EMS]] 營收比重極高，供應 [[AI]] Server 主機板。\n\n### 主要供應商\n- **原料:** [[導線架]]、基板供應商。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $37.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.68 |       13.22 |      1.21 | 2.22 |      9.84 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     19683.31 |     16277.44 |     16690.44 |\n| Gross Profit            |      2964.09 |      2465.28 |      3315.30 |\n| Gross Margin (%)        |        15.06 |        15.15 |        19.86 |\n| Selling & Marketing Exp |      1007.43 |       904.26 |       860.87 |\n| R&D Exp                 |       445.12 |       405.99 |       386.75 |\n| General & Admin Exp     |         0.00 |         0.00 |         0.00 |\n| Operating Income        |      1511.54 |      1155.19 |      2067.69 |\n| Operating Margin (%)    |         7.68 |         7.10 |        12.39 |\n| Net Income              |      1410.40 |      1228.61 |      1881.21 |\n| Net Margin (%)          |         7.17 |         7.55 |        11.27 |\n| Op Cash Flow            |      1678.08 |      3274.52 |      2646.86 |\n| Investing Cash Flow     |     -2605.58 |     -1967.10 |     -1076.48 |\n| Financing Cash Flow     |      -793.17 |      -788.54 |     -1605.16 |\n| CAPEX                   |     -2361.20 |     -1989.60 |      -938.54 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4860.48 |      5153.98 |      5263.89 |      4077.48 |\n| Gross Profit            |       621.70 |       791.37 |       787.83 |       538.56 |\n| Gross Margin (%)        |        12.79 |        15.35 |        14.97 |        13.21 |\n| Selling & Marketing Exp |       238.82 |       254.10 |       259.52 |       236.51 |\n| R&D Exp                 |       110.72 |       115.69 |       108.08 |       105.19 |\n| General & Admin Exp     |         0.00 |         0.00 |         0.00 |         0.00 |\n| Operating Income        |       272.16 |       421.59 |       420.23 |       196.86 |\n| Operating Margin (%)    |         5.60 |         8.18 |         7.98 |         4.83 |\n| Net Income              |       234.63 |       403.90 |       387.19 |       187.28 |\n| Net Margin (%)          |         4.83 |         7.84 |         7.36 |         4.59 |\n| Op Cash Flow            |       263.52 |       818.91 |        63.75 |       171.27 |\n| Investing Cash Flow     |      -796.29 |      -524.00 |      -575.88 |      -604.76 |\n| Financing Cash Flow     |       876.56 |      -179.81 |         7.51 |       -50.67 |\n| CAPEX                   |      -799.23 |      -565.78 |      -576.17 |      -607.36 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

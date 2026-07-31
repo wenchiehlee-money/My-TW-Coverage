@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8935",
+  "company_name": "邦泰",
+  "title": "8935 - 邦泰",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 塑膠製品/8935_邦泰.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Specialty Chemicals",
+    "market_cap": "1,980 百萬台幣",
+    "enterprise_value": "2,229 百萬台幣"
+  },
+  "business": {
+    "summary": "邦泰複合材料 (8935，Pontex Polyblend) 成立於 1979 年，台灣最多元複合材料企業。兩大事業：(1) 器材事業 — 運動鞋底射出零組件，長期為[[Nike]]棒球鞋底亞洲最大供應商，亦為[[Crocs]]休閒鞋代工廠，另供應[[安踏]]、[[特步]]；(2) 複合材料事業 — 高值化工程塑膠改質複合材料 (ABS/PC/Nylon/[[TPU]]/PBT)，應用於 3C 電子、汽機車、醫療及綠建材。近年跨足無人機/無人艇機體結構及 AI 機器人，搶攻國防市場。上游工程塑膠原料來自[[台塑]]、[[南亞塑膠]]。",
+    "entities": [
+      "Nike",
+      "Crocs",
+      "安踏",
+      "特步",
+      "TPU",
+      "台塑",
+      "南亞塑膠"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "工程塑膠",
+        "text": "[[台塑]]、[[南亞塑膠]] — ABS/PC/Nylon 等基礎粒",
+        "entities": [
+          "台塑",
+          "南亞塑膠"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**邦泰** (運動鞋底射出零組件；工程塑膠複合材料改質)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "運動鞋",
+        "text": "[[Nike]] — 棒球鞋底亞洲最大供應商；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]",
+        "entities": [
+          "Nike",
+          "Crocs",
+          "安踏",
+          "特步"
+        ]
+      },
+      {
+        "category": "3C/汽車",
+        "text": "電子機殼/汽機車零件用複合材料",
+        "entities": []
+      },
+      {
+        "category": "國防 (新事業)",
+        "text": "無人機/無人艇機體結構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "運動鞋",
+        "text": "[[Nike]] — 棒球鞋底亞洲最大；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]",
+        "entities": [
+          "Nike",
+          "Crocs",
+          "安踏",
+          "特步"
+        ]
+      },
+      {
+        "role": "3C/汽車",
+        "text": "電子機殼/汽車零件用複合材料",
+        "entities": []
+      },
+      {
+        "role": "國防",
+        "text": "無人機/無人艇機體",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "工程塑膠",
+        "text": "[[台塑]]、[[南亞塑膠]]",
+        "entities": [
+          "台塑",
+          "南亞塑膠"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "Crocs",
+      "type": "international_company_or_term",
+      "wikilink": "Crocs"
+    },
+    {
+      "name": "安踏",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安踏"
+    },
+    {
+      "name": "特步",
+      "type": "taiwan_company_or_term",
+      "wikilink": "特步"
+    },
+    {
+      "name": "TPU",
+      "type": "international_company_or_term",
+      "wikilink": "TPU"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "南亞塑膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "南亞塑膠"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "邦泰複合材料 (8935，Pontex Polyblend) 成立於 1979 年，台灣最多元複合材料企業。兩大事業：(1) 器材事業 — 運動鞋底射出零組件，長期為[[Nike]]棒球鞋底亞洲最大供應商，亦為[[Crocs]]休閒鞋代工廠，另供應[[安踏]]、[[特步]]；(2) 複合材料事業 — 高值化工程塑膠改質複合材料 (ABS/PC/Nylon/[[TPU]]/PBT)，應用於 3C 電子、汽機車、醫療及綠建材。近年跨足無人機/無人艇機體結構及 AI 機器人，搶攻國防市場。上游工程塑膠原料來自[[台塑]]、[[南亞塑膠]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **工程塑膠:** [[台塑]]、[[南亞塑膠]] — ABS/PC/Nylon 等基礎粒\n\n**中游 (製造):**\n- **邦泰** (運動鞋底射出零組件；工程塑膠複合材料改質)\n\n**下游 (終端):**\n- **運動鞋:** [[Nike]] — 棒球鞋底亞洲最大供應商；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]\n- **3C/汽車:** 電子機殼/汽機車零件用複合材料\n- **國防 (新事業):** 無人機/無人艇機體結構",
+    "customers_suppliers_md": "### 主要客戶\n- **運動鞋:** [[Nike]] — 棒球鞋底亞洲最大；[[Crocs]] — 休閒鞋代工；[[安踏]]、[[特步]]\n- **3C/汽車:** 電子機殼/汽車零件用複合材料\n- **國防:** 無人機/無人艇機體\n\n### 主要供應商\n- **工程塑膠:** [[台塑]]、[[南亞塑膠]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $16.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      3.67 | 2.20 |    -75.17 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2024-12-31 |   2023-12-31 |   2022-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       553.24 |       594.31 |       946.48 |\n| Gross Profit            |        58.56 |        67.56 |       172.44 |\n| Gross Margin (%)        |        10.59 |        11.37 |        18.22 |\n| Selling & Marketing Exp |        35.35 |        36.00 |        48.35 |\n| R&D Exp                 |        22.78 |        11.73 |        17.90 |\n| General & Admin Exp     |        86.21 |        83.90 |        85.42 |\n| Operating Income        |       -85.77 |       -64.07 |        20.77 |\n| Operating Margin (%)    |       -15.50 |       -10.78 |         2.19 |\n| Net Income              |       -73.34 |       -69.90 |        27.36 |\n| Net Margin (%)          |       -13.26 |       -11.76 |         2.89 |\n| Op Cash Flow            |        -4.01 |        79.51 |       146.99 |\n| Investing Cash Flow     |       -21.91 |       -39.01 |       -46.82 |\n| Financing Cash Flow     |        31.00 |       -77.78 |       -75.89 |\n| CAPEX                   |       -28.27 |       -20.93 |       -11.97 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       134.07 |       130.65 |       144.37 |       129.02 |\n| Gross Profit            |        23.45 |         9.74 |        16.66 |        13.42 |\n| Gross Margin (%)        |        17.49 |         7.46 |        11.54 |        10.40 |\n| Selling & Marketing Exp |         6.89 |         9.49 |         8.75 |         7.87 |\n| R&D Exp                 |         2.33 |         9.64 |         5.76 |         3.57 |\n| General & Admin Exp     |        20.02 |        22.06 |        21.67 |        20.43 |\n| Operating Income        |        -5.80 |       -31.46 |       -19.52 |       -18.45 |\n| Operating Margin (%)    |        -4.32 |       -24.08 |       -13.52 |       -14.30 |\n| Net Income              |       -10.63 |       -21.07 |       -16.70 |       -25.17 |\n| Net Margin (%)          |        -7.93 |       -16.13 |       -11.57 |       -19.51 |\n| Op Cash Flow            |        23.12 |        33.12 |        -9.21 |        -7.78 |\n| Investing Cash Flow     |        -5.26 |        -2.29 |        -1.75 |        -2.69 |\n| Financing Cash Flow     |        16.47 |       -15.40 |        -1.57 |         2.15 |\n| CAPEX                   |        -4.41 |        -2.12 |        -1.92 |        -4.30 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

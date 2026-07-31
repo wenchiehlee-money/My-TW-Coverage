@@ -1,0 +1,143 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4432",
+  "company_name": "銘旺實",
+  "title": "4432 - 銘旺實",
+  "source_md": "Pilot_Reports/紡織 - 成衣及其它家居紡織類品/4432_銘旺實.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "779 百萬台幣",
+    "enterprise_value": "-227 百萬台幣"
+  },
+  "business": {
+    "summary": "銘旺實業 (4432，Ming Wang Shi) 為專業運動休閒成衣製造商，擁有逾 25 年海外生產經驗。主力產品涵蓋泳裝、短褲、外套及長褲等運動休閒服飾，生產基地分布於越南、緬甸及寮國。主要品牌客戶包含[[Under Armour]] (佔營收約 20%，為台灣 OEM 廠中 UA 佔比最高者)、[[adidas]]及 Gear 等國際運動品牌。布料採購自[[遠東新世紀]]、[[力麗]]等台灣紡織廠及美日進口。公司積極轉型 ODM 模式提升附加價值，緬甸及寮國工廠享有出口歐洲零關稅優勢。",
+    "entities": [
+      "Under Armour",
+      "adidas",
+      "遠東新世紀",
+      "力麗"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "機能布料",
+        "text": "[[遠東新世紀]]、[[力麗]] — 台灣機能性布料",
+        "entities": [
+          "遠東新世紀",
+          "力麗"
+        ]
+      },
+      {
+        "category": "進口布料",
+        "text": "美國及日本特殊布料供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**銘旺實** (運動休閒成衣 OEM/ODM，越南/緬甸/寮國工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "運動品牌",
+        "text": "[[Under Armour]] (佔約 20%)、[[adidas]] — OEM/ODM 代工",
+        "entities": [
+          "Under Armour",
+          "adidas"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "運動品牌",
+        "text": "[[Under Armour]] — 佔營收約 20%，最大客戶；[[adidas]] — 運動成衣代工",
+        "entities": [
+          "Under Armour",
+          "adidas"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "機能布料",
+        "text": "[[遠東新世紀]]、[[力麗]] — 台灣機能性布料",
+        "entities": [
+          "遠東新世紀",
+          "力麗"
+        ]
+      },
+      {
+        "role": "進口布料",
+        "text": "美國及日本特殊布料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Under Armour",
+      "type": "international_company_or_term",
+      "wikilink": "Under Armour"
+    },
+    {
+      "name": "adidas",
+      "type": "international_company_or_term",
+      "wikilink": "adidas"
+    },
+    {
+      "name": "遠東新世紀",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東新世紀"
+    },
+    {
+      "name": "力麗",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力麗"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "銘旺實業 (4432，Ming Wang Shi) 為專業運動休閒成衣製造商，擁有逾 25 年海外生產經驗。主力產品涵蓋泳裝、短褲、外套及長褲等運動休閒服飾，生產基地分布於越南、緬甸及寮國。主要品牌客戶包含[[Under Armour]] (佔營收約 20%，為台灣 OEM 廠中 UA 佔比最高者)、[[adidas]]及 Gear 等國際運動品牌。布料採購自[[遠東新世紀]]、[[力麗]]等台灣紡織廠及美日進口。公司積極轉型 ODM 模式提升附加價值，緬甸及寮國工廠享有出口歐洲零關稅優勢。",
+    "supply_chain_md": "**上游 (原料):**\n- **機能布料:** [[遠東新世紀]]、[[力麗]] — 台灣機能性布料\n- **進口布料:** 美國及日本特殊布料供應商\n\n**中游 (製造):**\n- **銘旺實** (運動休閒成衣 OEM/ODM，越南/緬甸/寮國工廠)\n\n**下游 (品牌客戶):**\n- **運動品牌:** [[Under Armour]] (佔約 20%)、[[adidas]] — OEM/ODM 代工",
+    "customers_suppliers_md": "### 主要客戶\n- **運動品牌:** [[Under Armour]] — 佔營收約 20%，最大客戶；[[adidas]] — 運動成衣代工\n\n### 主要供應商\n- **機能布料:** [[遠東新世紀]]、[[力麗]] — 台灣機能性布料\n- **進口布料:** 美國及日本特殊布料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      4.60 |         N/A |      0.73 | 0.50 |     -4.67 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1089.05 |      1124.46 |      1175.04 |\n| Gross Profit            |       246.38 |       285.23 |       281.52 |\n| Gross Margin (%)        |        22.62 |        25.37 |        23.96 |\n| Selling & Marketing Exp |        98.50 |        96.07 |        84.36 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       112.10 |       113.03 |       105.67 |\n| Operating Income        |        35.77 |        76.13 |        91.49 |\n| Operating Margin (%)    |         3.28 |         6.77 |         7.79 |\n| Net Income              |        44.56 |       133.55 |        97.20 |\n| Net Margin (%)          |         4.09 |        11.88 |         8.27 |\n| Op Cash Flow            |         0.37 |       249.33 |       225.09 |\n| Investing Cash Flow     |      -378.32 |       -25.41 |      -121.41 |\n| Financing Cash Flow     |        87.64 |       -40.82 |       -40.06 |\n| CAPEX                   |       -23.85 |       -16.97 |       -13.77 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       237.59 |       261.46 |       292.87 |       281.83 |\n| Gross Profit            |        59.57 |        55.96 |        70.11 |        59.75 |\n| Gross Margin (%)        |        25.07 |        21.40 |        23.94 |        21.20 |\n| Selling & Marketing Exp |        22.27 |        25.90 |        24.90 |        26.47 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        31.19 |        27.45 |        28.62 |        28.10 |\n| Operating Income        |         6.12 |         2.61 |        16.60 |         5.19 |\n| Operating Margin (%)    |         2.58 |         1.00 |         5.67 |         1.84 |\n| Net Income              |       150.25 |        43.88 |        47.26 |       -71.02 |\n| Net Margin (%)          |        63.24 |        16.78 |        16.14 |       -25.20 |\n| Op Cash Flow            |        84.52 |       130.33 |        43.68 |      -178.52 |\n| Investing Cash Flow     |        71.36 |        31.75 |       -81.32 |      -200.78 |\n| Financing Cash Flow     |        -2.04 |       -40.27 |       101.03 |        28.29 |\n| CAPEX                   |        -3.78 |        -6.19 |        -6.07 |        -6.04 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

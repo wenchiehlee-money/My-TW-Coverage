@@ -1,0 +1,225 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2426",
+  "company_name": "鼎元",
+  "title": "2426 - 鼎元",
+  "source_md": "Pilot_Reports/LED照明產業 - 生產製程、檢測設備及原物料/2426_鼎元.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "15,121 百萬台幣",
+    "enterprise_value": "14,094 百萬台幣"
+  },
+  "business": {
+    "summary": "鼎元光電 (2426) 是一家專業的 [[LED]] [[磊晶]]及晶粒製造商，主要產品涵蓋[[砷化鎵]] (GaAs) 紅外線 LED、可見光 LED 晶粒、[[雷射二極體]]及[[光感測器]]元件。公司核心技術包括 [[MOCVD]] [[磊晶]]製程與晶圓級封裝，產品廣泛應用於光通訊、安防監控、車用感測、消費電子及工業檢測等領域。公司在紅外線 LED 晶粒領域具有重要市場地位。",
+    "entities": [
+      "LED",
+      "磊晶",
+      "砷化鎵",
+      "雷射二極體",
+      "光感測器",
+      "MOCVD"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料與設備)",
+        "text": "**上游 (原料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "[[磊晶]]基板",
+        "text": "砷化鎵晶圓供應商",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "MO[[CVD]] 設備",
+        "text": "[[Aixtron]]、[[Veeco]]",
+        "entities": [
+          "CVD",
+          "Aixtron",
+          "Veeco"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[磊晶]]與晶粒製造)",
+        "text": "**中游 ([[磊晶]]與晶粒製造):**",
+        "entities": [
+          "磊晶"
+        ]
+      },
+      {
+        "category": "LED/光電晶粒",
+        "text": "**鼎元光電** (紅外線 LED、可見光 LED、雷射二極體製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (封裝與模組)",
+        "text": "**下游 (封裝與模組):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "[[億光電子]]、[[光寶科技]]、[[Osram]]",
+        "entities": [
+          "億光電子",
+          "光寶科技",
+          "Osram"
+        ]
+      },
+      {
+        "category": "安防監控",
+        "text": "紅外線感測模組廠",
+        "entities": []
+      },
+      {
+        "category": "光通訊",
+        "text": "光收發模組廠商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "LED 封裝",
+        "text": "[[億光電子]]、[[光寶科技]]",
+        "entities": [
+          "億光電子",
+          "光寶科技"
+        ]
+      },
+      {
+        "role": "國際照明",
+        "text": "[[Osram]]、[[Lumileds]]",
+        "entities": [
+          "Osram",
+          "Lumileds"
+        ]
+      },
+      {
+        "role": "安防感測",
+        "text": "紅外線監控模組廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "[[磊晶]]設備",
+        "text": "[[Aixtron]]、[[Veeco]]",
+        "entities": [
+          "磊晶",
+          "Aixtron",
+          "Veeco"
+        ]
+      },
+      {
+        "role": "砷化鎵基板",
+        "text": "化合物半導體基板供應商",
+        "entities": []
+      },
+      {
+        "role": "特殊氣體與化學品",
+        "text": "高純度製程原料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "磊晶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "磊晶"
+    },
+    {
+      "name": "砷化鎵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "砷化鎵"
+    },
+    {
+      "name": "雷射二極體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "雷射二極體"
+    },
+    {
+      "name": "光感測器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光感測器"
+    },
+    {
+      "name": "MOCVD",
+      "type": "international_company_or_term",
+      "wikilink": "MOCVD"
+    },
+    {
+      "name": "CVD",
+      "type": "international_company_or_term",
+      "wikilink": "CVD"
+    },
+    {
+      "name": "Aixtron",
+      "type": "international_company_or_term",
+      "wikilink": "Aixtron"
+    },
+    {
+      "name": "Veeco",
+      "type": "international_company_or_term",
+      "wikilink": "Veeco"
+    },
+    {
+      "name": "億光電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光電子"
+    },
+    {
+      "name": "光寶科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "光寶科技"
+    },
+    {
+      "name": "Osram",
+      "type": "international_company_or_term",
+      "wikilink": "Osram"
+    },
+    {
+      "name": "Lumileds",
+      "type": "international_company_or_term",
+      "wikilink": "Lumileds"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鼎元光電 (2426) 是一家專業的 [[LED]] [[磊晶]]及晶粒製造商，主要產品涵蓋[[砷化鎵]] (GaAs) 紅外線 LED、可見光 LED 晶粒、[[雷射二極體]]及[[光感測器]]元件。公司核心技術包括 [[MOCVD]] [[磊晶]]製程與晶圓級封裝，產品廣泛應用於光通訊、安防監控、車用感測、消費電子及工業檢測等領域。公司在紅外線 LED 晶粒領域具有重要市場地位。",
+    "supply_chain_md": "**上游 (原料與設備):**\n- **[[磊晶]]基板:** 砷化鎵晶圓供應商\n- **MO[[CVD]] 設備:** [[Aixtron]]、[[Veeco]]\n\n**中游 ([[磊晶]]與晶粒製造):**\n- **LED/光電晶粒:** **鼎元光電** (紅外線 LED、可見光 LED、雷射二極體製造)\n\n**下游 (封裝與模組):**\n- **LED 封裝:** [[億光電子]]、[[光寶科技]]、[[Osram]]\n- **安防監控:** 紅外線感測模組廠\n- **光通訊:** 光收發模組廠商",
+    "customers_suppliers_md": "### 主要客戶\n- **LED 封裝:** [[億光電子]]、[[光寶科技]]\n- **國際照明:** [[Osram]]、[[Lumileds]]\n- **安防感測:** 紅外線監控模組廠\n\n### 主要供應商\n- **[[磊晶]]設備:** [[Aixtron]]、[[Veeco]]\n- **砷化鎵基板:** 化合物半導體基板供應商\n- **特殊氣體與化學品:** 高純度製程原料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $47.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       38.89 |      6.27 | 3.79 |     53.78 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2335.86 |      2394.13 |      2267.64 |\n| Gross Profit            |       289.11 |       318.42 |       232.24 |\n| Gross Margin (%)        |        12.38 |        13.30 |        10.24 |\n| Selling & Marketing Exp |        38.98 |        38.16 |        45.41 |\n| R&D Exp                 |       121.23 |       125.00 |       148.00 |\n| General & Admin Exp     |       167.38 |       211.13 |       181.45 |\n| Operating Income        |       -38.49 |       -55.88 |      -142.07 |\n| Operating Margin (%)    |        -1.65 |        -2.33 |        -6.27 |\n| Net Income              |       -76.24 |        62.89 |      -131.95 |\n| Net Margin (%)          |        -3.26 |         2.63 |        -5.82 |\n| Op Cash Flow            |       266.87 |       163.24 |       156.56 |\n| Investing Cash Flow     |      -727.58 |       -34.33 |      -320.79 |\n| Financing Cash Flow     |      -211.22 |      -221.47 |         9.91 |\n| CAPEX                   |      -152.11 |      -195.47 |      -356.26 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       545.15 |       514.70 |       549.61 |       666.81 |\n| Gross Profit            |       107.04 |        55.50 |        57.96 |        90.73 |\n| Gross Margin (%)        |        19.63 |        10.78 |        10.55 |        13.61 |\n| Selling & Marketing Exp |         8.91 |         8.76 |         9.82 |         9.97 |\n| R&D Exp                 |        33.40 |        28.68 |        32.41 |        29.04 |\n| General & Admin Exp     |        48.30 |        33.08 |        45.80 |        44.06 |\n| Operating Income        |        16.42 |       -15.02 |       -30.07 |         7.66 |\n| Operating Margin (%)    |         3.01 |        -2.92 |        -5.47 |         1.15 |\n| Net Income              |        16.63 |       -22.71 |       -31.57 |       -20.18 |\n| Net Margin (%)          |         3.05 |        -4.41 |        -5.74 |        -3.03 |\n| Op Cash Flow            |        83.15 |       110.22 |        14.54 |        95.93 |\n| Investing Cash Flow     |       147.23 |        60.80 |      -111.46 |      -691.68 |\n| Financing Cash Flow     |       -36.76 |       -64.99 |       -64.48 |       -26.73 |\n| CAPEX                   |        -1.17 |       -20.45 |       -53.42 |       -35.61 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

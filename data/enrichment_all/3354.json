@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3354",
+  "company_name": "律勝",
+  "title": "3354 - 律勝",
+  "source_md": "Pilot_Reports/印刷電路板 - 銅箔基板/3354_律勝.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,329 百萬台幣",
+    "enterprise_value": "1,121 百萬台幣"
+  },
+  "business": {
+    "summary": "律勝科技 (3354，[[Microcosm]]) 為台灣專業軟板材料 ([[FPC]] Materials) 製造商。主要產品為軟性[[銅箔]]基板 (FCCL)、保護膠片 (Cover Layer)、[[聚醯亞胺]] (PI) 薄膜及相關功能性材料。\n\n技術亮點與成長動能：(1) 透明 PI — 自主研發 Mpior 透明[[聚醯亞胺]]產品，應用於摺疊手機、摺疊筆電與穿戴式裝置顯示蓋板；(2) [[5G]] 高速材料 — 開發低介電損耗 FCCL，因應 [[5G]] 高頻傳輸需求；(3) 半導體材料 — 跨足半導體封裝用 PI 材料市場。下游客戶涵蓋台系與陸系主要軟板廠，產品終端應用於智慧型手機、穿戴裝置、汽車電子及半導體封裝。兩岸主要面板廠為透明 PI 合作夥伴。",
+    "entities": [
+      "Microcosm",
+      "FPC",
+      "銅箔",
+      "聚醯亞胺",
+      "5G"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (化學原料)",
+        "text": "**上游 (化學原料):**",
+        "entities": []
+      },
+      {
+        "category": "PI 單體",
+        "text": "二酐與二胺化學原料供應商",
+        "entities": []
+      },
+      {
+        "category": "銅箔",
+        "text": "[[長春石化]] — 電解[[銅箔]]",
+        "entities": [
+          "長春石化",
+          "銅箔"
+        ]
+      },
+      {
+        "category": "離型膜",
+        "text": "離型膜供應商",
+        "entities": []
+      },
+      {
+        "category": "溶劑",
+        "text": "特種溶劑供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (軟板材料製造)",
+        "text": "**中游 (軟板材料製造):**",
+        "entities": []
+      },
+      {
+        "category": "FCCL",
+        "text": "**律勝** (軟性[[銅箔]]基板)",
+        "entities": [
+          "銅箔"
+        ]
+      },
+      {
+        "category": "Cover Layer",
+        "text": "**律勝** (保護膠片)",
+        "entities": []
+      },
+      {
+        "category": "PI 薄膜",
+        "text": "**律勝** ([[聚醯亞胺]]薄膜/透明 PI)",
+        "entities": [
+          "聚醯亞胺"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (軟板廠與面板廠)",
+        "text": "**下游 (軟板廠與面板廠):**",
+        "entities": []
+      },
+      {
+        "category": "軟板廠",
+        "text": "[[台郡]]、[[臻鼎]] — [[FPC]] 製造用 FCCL",
+        "entities": [
+          "台郡",
+          "臻鼎",
+          "FPC"
+        ]
+      },
+      {
+        "category": "面板廠",
+        "text": "兩岸面板廠 — 摺疊螢幕透明 PI 材料",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "半導體封裝廠 — 封裝用 PI 材料",
+        "entities": []
+      },
+      {
+        "category": "終端應用",
+        "text": "智慧型手機、[[電動車]]、穿戴裝置",
+        "entities": [
+          "電動車"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "軟板廠",
+        "text": "[[台郡]]、[[臻鼎]] — [[FPC]] 製造用 FCCL 與 Cover Layer",
+        "entities": [
+          "台郡",
+          "臻鼎",
+          "FPC"
+        ]
+      },
+      {
+        "role": "面板廠",
+        "text": "兩岸主要面板廠 — 摺疊螢幕透明 [[聚醯亞胺]] 材料",
+        "entities": [
+          "聚醯亞胺"
+        ]
+      },
+      {
+        "role": "半導體",
+        "text": "半導體封裝廠 — 封裝用 PI 材料",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅箔",
+        "text": "[[長春石化]] — 電解[[銅箔]]",
+        "entities": [
+          "長春石化",
+          "銅箔"
+        ]
+      },
+      {
+        "role": "PI 原料",
+        "text": "二酐與二胺化學原料供應商",
+        "entities": []
+      },
+      {
+        "role": "離型膜",
+        "text": "離型膜供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Microcosm",
+      "type": "international_company_or_term",
+      "wikilink": "Microcosm"
+    },
+    {
+      "name": "FPC",
+      "type": "international_company_or_term",
+      "wikilink": "FPC"
+    },
+    {
+      "name": "銅箔",
+      "type": "taiwan_company_or_term",
+      "wikilink": "銅箔"
+    },
+    {
+      "name": "聚醯亞胺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚醯亞胺"
+    },
+    {
+      "name": "5G",
+      "type": "international_company_or_term",
+      "wikilink": "5G"
+    },
+    {
+      "name": "長春石化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長春石化"
+    },
+    {
+      "name": "台郡",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台郡"
+    },
+    {
+      "name": "臻鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "臻鼎"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "律勝科技 (3354，[[Microcosm]]) 為台灣專業軟板材料 ([[FPC]] Materials) 製造商。主要產品為軟性[[銅箔]]基板 (FCCL)、保護膠片 (Cover Layer)、[[聚醯亞胺]] (PI) 薄膜及相關功能性材料。\n\n技術亮點與成長動能：(1) 透明 PI — 自主研發 Mpior 透明[[聚醯亞胺]]產品，應用於摺疊手機、摺疊筆電與穿戴式裝置顯示蓋板；(2) [[5G]] 高速材料 — 開發低介電損耗 FCCL，因應 [[5G]] 高頻傳輸需求；(3) 半導體材料 — 跨足半導體封裝用 PI 材料市場。下游客戶涵蓋台系與陸系主要軟板廠，產品終端應用於智慧型手機、穿戴裝置、汽車電子及半導體封裝。兩岸主要面板廠為透明 PI 合作夥伴。",
+    "supply_chain_md": "**上游 (化學原料):**\n- **PI 單體:** 二酐與二胺化學原料供應商\n- **銅箔:** [[長春石化]] — 電解[[銅箔]]\n- **離型膜:** 離型膜供應商\n- **溶劑:** 特種溶劑供應商\n\n**中游 (軟板材料製造):**\n- **FCCL:** **律勝** (軟性[[銅箔]]基板)\n- **Cover Layer:** **律勝** (保護膠片)\n- **PI 薄膜:** **律勝** ([[聚醯亞胺]]薄膜/透明 PI)\n\n**下游 (軟板廠與面板廠):**\n- **軟板廠:** [[台郡]]、[[臻鼎]] — [[FPC]] 製造用 FCCL\n- **面板廠:** 兩岸面板廠 — 摺疊螢幕透明 PI 材料\n- **半導體:** 半導體封裝廠 — 封裝用 PI 材料\n- **終端應用:** 智慧型手機、[[電動車]]、穿戴裝置",
+    "customers_suppliers_md": "### 主要客戶\n- **軟板廠:** [[台郡]]、[[臻鼎]] — [[FPC]] 製造用 FCCL 與 Cover Layer\n- **面板廠:** 兩岸主要面板廠 — 摺疊螢幕透明 [[聚醯亞胺]] 材料\n- **半導體:** 半導體封裝廠 — 封裝用 PI 材料\n\n### 主要供應商\n- **銅箔:** [[長春石化]] — 電解[[銅箔]]\n- **PI 原料:** 二酐與二胺化學原料供應商\n- **離型膜:** 離型膜供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |     12.90 | 1.66 |    -22.44 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |        98.66 |       127.69 |       109.84 |\n| Gross Profit            |        12.14 |        13.22 |       -14.73 |\n| Gross Margin (%)        |        12.31 |        10.35 |       -13.41 |\n| Selling & Marketing Exp |        13.23 |         9.77 |         8.55 |\n| R&D Exp                 |        63.09 |        76.77 |        80.26 |\n| General & Admin Exp     |        26.59 |        30.01 |        28.99 |\n| Operating Income        |       -90.77 |      -103.33 |      -132.53 |\n| Operating Margin (%)    |       -92.00 |       -80.92 |      -120.66 |\n| Net Income              |       -58.71 |       -23.55 |       -83.70 |\n| Net Margin (%)          |       -59.50 |       -18.44 |       -76.20 |\n| Op Cash Flow            |       -66.60 |       -61.90 |       -47.03 |\n| Investing Cash Flow     |        64.90 |        32.24 |        29.90 |\n| Financing Cash Flow     |       -99.56 |      -129.01 |       -47.76 |\n| CAPEX                   |       -17.28 |        -9.49 |       -12.13 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        28.51 |        23.82 |        23.43 |        26.11 |\n| Gross Profit            |         8.32 |         4.52 |         1.31 |         3.37 |\n| Gross Margin (%)        |        29.18 |        18.97 |         5.59 |        12.91 |\n| Selling & Marketing Exp |         3.48 |         3.38 |         3.23 |         3.41 |\n| R&D Exp                 |        14.34 |        13.46 |        15.68 |        17.37 |\n| General & Admin Exp     |         6.63 |         6.74 |         6.87 |         6.34 |\n| Operating Income        |       -16.14 |       -19.06 |       -24.47 |       -23.75 |\n| Operating Margin (%)    |       -56.61 |       -80.03 |      -104.43 |       -90.96 |\n| Net Income              |       -11.96 |        -9.12 |       -37.01 |       -10.57 |\n| Net Margin (%)          |       -41.93 |       -38.31 |      -157.95 |       -40.48 |\n| Op Cash Flow            |        -8.44 |       -33.51 |       -20.16 |       -14.38 |\n| Investing Cash Flow     |        -3.05 |        33.03 |         7.41 |        -3.62 |\n| Financing Cash Flow     |        -0.84 |        -1.17 |         0.31 |       -49.80 |\n| CAPEX                   |        -1.12 |        -3.71 |        -6.54 |        -3.15 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}

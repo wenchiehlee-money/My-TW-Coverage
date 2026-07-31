@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4580",
+  "company_name": "捷流閥業",
+  "title": "4580 - 捷流閥業",
+  "source_md": "Pilot_Reports/電機機械 - 鋼鑄鐵元件/4580_捷流閥業.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "3,740 百萬台幣",
+    "enterprise_value": "2,916 百萬台幣"
+  },
+  "business": {
+    "summary": "捷流閥業 (4580，Value Valves) 為台灣閥門龍頭 (1980 年創立)，自有品牌「Value」，專精客製化三偏心蝶閥、球閥、逆止閥、控制閥。擁有自有鑄造廠，垂直整合生產。產品應用涵蓋半導體廠務 (供應[[台積電]]、[[Micron]]之水處理/化學品管路/氣體系統)、石化 ([[台塑]]集團、[[台灣中油]])、電力 ([[台電]])、鋼鐵 ([[中鋼]])、造船 ([[長榮海運]]) 及化工 ([[奇美實業]])。",
+    "entities": [
+      "台積電",
+      "Micron",
+      "台塑",
+      "台灣中油",
+      "台電",
+      "中鋼",
+      "長榮海運",
+      "奇美實業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鑄件",
+        "text": "自有鑄造廠 — 不鏽鋼/碳鋼鑄件",
+        "entities": []
+      },
+      {
+        "category": "執行器/密封件",
+        "text": "氣動/電動執行器及密封件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**捷流** (三偏心蝶閥/球閥/控制閥，自有鑄造+精密加工)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體",
+        "text": "[[台積電]]、[[Micron]] — 廠務水處理/化學品管路",
+        "entities": [
+          "台積電",
+          "Micron"
+        ]
+      },
+      {
+        "category": "石化",
+        "text": "[[台塑]]集團、[[台灣中油]]",
+        "entities": [
+          "台塑",
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "電力/鋼鐵",
+        "text": "[[台電]]、[[中鋼]]",
+        "entities": [
+          "台電",
+          "中鋼"
+        ]
+      },
+      {
+        "category": "造船/化工",
+        "text": "[[長榮海運]]、[[奇美實業]]",
+        "entities": [
+          "長榮海運",
+          "奇美實業"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體",
+        "text": "[[台積電]]、[[Micron]] — 廠務管路閥門",
+        "entities": [
+          "台積電",
+          "Micron"
+        ]
+      },
+      {
+        "role": "石化",
+        "text": "[[台塑]]、[[台灣中油]]",
+        "entities": [
+          "台塑",
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "電力/鋼鐵",
+        "text": "[[台電]]、[[中鋼]]",
+        "entities": [
+          "台電",
+          "中鋼"
+        ]
+      },
+      {
+        "role": "造船/化工",
+        "text": "[[長榮海運]]、[[奇美實業]]",
+        "entities": [
+          "長榮海運",
+          "奇美實業"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鑄件",
+        "text": "自有鑄造廠 (垂直整合)",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "Micron",
+      "type": "international_company_or_term",
+      "wikilink": "Micron"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "奇美實業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇美實業"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "捷流閥業 (4580，Value Valves) 為台灣閥門龍頭 (1980 年創立)，自有品牌「Value」，專精客製化三偏心蝶閥、球閥、逆止閥、控制閥。擁有自有鑄造廠，垂直整合生產。產品應用涵蓋半導體廠務 (供應[[台積電]]、[[Micron]]之水處理/化學品管路/氣體系統)、石化 ([[台塑]]集團、[[台灣中油]])、電力 ([[台電]])、鋼鐵 ([[中鋼]])、造船 ([[長榮海運]]) 及化工 ([[奇美實業]])。",
+    "supply_chain_md": "**上游 (原料):**\n- **鑄件:** 自有鑄造廠 — 不鏽鋼/碳鋼鑄件\n- **執行器/密封件:** 氣動/電動執行器及密封件\n\n**中游 (製造):**\n- **捷流** (三偏心蝶閥/球閥/控制閥，自有鑄造+精密加工)\n\n**下游 (終端):**\n- **半導體:** [[台積電]]、[[Micron]] — 廠務水處理/化學品管路\n- **石化:** [[台塑]]集團、[[台灣中油]]\n- **電力/鋼鐵:** [[台電]]、[[中鋼]]\n- **造船/化工:** [[長榮海運]]、[[奇美實業]]",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體:** [[台積電]]、[[Micron]] — 廠務管路閥門\n- **石化:** [[台塑]]、[[台灣中油]]\n- **電力/鋼鐵:** [[台電]]、[[中鋼]]\n- **造船/化工:** [[長榮海運]]、[[奇美實業]]\n\n### 主要供應商\n- **鑄件:** 自有鑄造廠 (垂直整合)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $79.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     16.00 |        8.85 |      1.62 | 1.31 |      7.65 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2269.13 |      2402.50 |      2609.76 |\n| Gross Profit            |       698.43 |       837.43 |       836.21 |\n| Gross Margin (%)        |        30.78 |        34.86 |        32.04 |\n| Selling & Marketing Exp |       193.85 |       211.89 |       182.06 |\n| R&D Exp                 |        21.60 |        25.75 |        24.24 |\n| General & Admin Exp     |       181.37 |       170.22 |       216.28 |\n| Operating Income        |       301.61 |       429.56 |       413.62 |\n| Operating Margin (%)    |        13.29 |        17.88 |        15.85 |\n| Net Income              |       232.14 |       383.67 |       331.31 |\n| Net Margin (%)          |        10.23 |        15.97 |        12.70 |\n| Op Cash Flow            |       237.40 |       429.49 |       673.93 |\n| Investing Cash Flow     |      -175.69 |        -5.36 |         8.80 |\n| Financing Cash Flow     |      -240.03 |      -211.97 |      -231.18 |\n| CAPEX                   |       -21.65 |       -18.95 |       -20.68 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       551.85 |       580.32 |       599.73 |       537.23 |\n| Gross Profit            |       174.21 |       186.10 |       194.06 |       144.06 |\n| Gross Margin (%)        |        31.57 |        32.07 |        32.36 |        26.82 |\n| Selling & Marketing Exp |        70.03 |        47.94 |        29.95 |        45.94 |\n| R&D Exp                 |         5.39 |         5.68 |         5.38 |         5.15 |\n| General & Admin Exp     |        42.65 |        45.45 |        45.77 |        47.50 |\n| Operating Income        |        56.14 |        87.04 |       112.96 |        45.48 |\n| Operating Margin (%)    |        10.17 |        15.00 |        18.84 |         8.46 |\n| Net Income              |        44.36 |        89.63 |        68.21 |        29.94 |\n| Net Margin (%)          |         8.04 |        15.45 |        11.37 |         5.57 |\n| Op Cash Flow            |       141.09 |         1.43 |        20.15 |        74.72 |\n| Investing Cash Flow     |        -5.75 |       -28.59 |         0.87 |      -142.22 |\n| Financing Cash Flow     |        -1.34 |      -235.43 |        -2.00 |        -1.24 |\n| CAPEX                   |        -2.89 |        -7.96 |         0.89 |       -11.69 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7722",
+  "company_name": "LINEPAY",
+  "title": "7722 - LINEPAY",
+  "source_md": "Pilot_Reports/金融科技 - 支付/7722_LINEPAY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "19,456 百萬台幣",
+    "enterprise_value": "9,348 百萬台幣"
+  },
+  "business": {
+    "summary": "連加網路商業股份有限公司 (7722，LINE Pay Taiwan) 為 [[LINE]] 集團在台灣經營第三方支付與行動支付之子公司。LINE Pay 為台灣行動支付市場主要品牌之一，服務涵蓋餐飲、購物、飲料、生活、交通、娛樂及美妝旅遊七大消費場域。營收主要來自第三方支付交易手續費抽成，依據合作商家店面交易金額收取佣金。LINE Pay 透過 [[LINE]] 通訊平台龐大用戶基礎進行導流，並與多家銀行合作提供信用卡綁定與帳戶儲值功能。2024 年營收達 62.96 億元，年增 27.8%。",
+    "entities": [
+      "LINE"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金融與技術平台)",
+        "text": "**上游 (金融與技術平台):**",
+        "entities": []
+      },
+      {
+        "category": "母集團",
+        "text": "[[LINE]] — 通訊平台用戶導流與技術支援",
+        "entities": [
+          "LINE"
+        ]
+      },
+      {
+        "category": "收單銀行",
+        "text": "[[中國信託]]、[[國泰世華銀行]]等合作銀行",
+        "entities": [
+          "中國信託",
+          "國泰世華銀行"
+        ]
+      },
+      {
+        "category": "信用卡組織",
+        "text": "[[VISA]]、[[Mastercard]]、[[JCB]] — 信用卡清算",
+        "entities": [
+          "VISA",
+          "Mastercard",
+          "JCB"
+        ]
+      },
+      {
+        "category": "跨平台",
+        "text": "[[一卡通]] (iPASS) — 電子支付互通",
+        "entities": [
+          "一卡通"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (行動支付)",
+        "text": "**中游 (行動支付):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**LINE Pay** (第三方行動支付、信用卡綁定收款、跨平台電子支付服務)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (商家與消費者)",
+        "text": "**下游 (商家與消費者):**",
+        "entities": []
+      },
+      {
+        "category": "大型零售",
+        "text": "百貨、量販店、連鎖餐飲",
+        "entities": []
+      },
+      {
+        "category": "中小商家",
+        "text": "便利商店、飲料店、夜市攤商",
+        "entities": []
+      },
+      {
+        "category": "線上平台",
+        "text": "電商網站與外送平台",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "大型零售",
+        "text": "百貨商場、量販店、連鎖餐飲 — 行動支付收款",
+        "entities": []
+      },
+      {
+        "role": "中小商家",
+        "text": "便利商店、飲料店、夜市攤商 — QR Code 收款",
+        "entities": []
+      },
+      {
+        "role": "線上電商",
+        "text": "電商網站與外送平台 — 線上支付串接",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "母集團",
+        "text": "[[LINE]] — 通訊平台與用戶基礎",
+        "entities": [
+          "LINE"
+        ]
+      },
+      {
+        "role": "收單銀行",
+        "text": "[[中國信託]]、[[國泰世華銀行]] — 信用卡收單通道",
+        "entities": [
+          "中國信託",
+          "國泰世華銀行"
+        ]
+      },
+      {
+        "role": "信用卡組織",
+        "text": "[[VISA]]、[[Mastercard]]、[[JCB]] — 國際清算",
+        "entities": [
+          "VISA",
+          "Mastercard",
+          "JCB"
+        ]
+      },
+      {
+        "role": "跨平台",
+        "text": "[[一卡通]] (iPASS) — 電子支付互通",
+        "entities": [
+          "一卡通"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LINE",
+      "type": "international_company_or_term",
+      "wikilink": "LINE"
+    },
+    {
+      "name": "中國信託",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國信託"
+    },
+    {
+      "name": "國泰世華銀行",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國泰世華銀行"
+    },
+    {
+      "name": "VISA",
+      "type": "international_company_or_term",
+      "wikilink": "VISA"
+    },
+    {
+      "name": "Mastercard",
+      "type": "international_company_or_term",
+      "wikilink": "Mastercard"
+    },
+    {
+      "name": "JCB",
+      "type": "international_company_or_term",
+      "wikilink": "JCB"
+    },
+    {
+      "name": "一卡通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "一卡通"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "連加網路商業股份有限公司 (7722，LINE Pay Taiwan) 為 [[LINE]] 集團在台灣經營第三方支付與行動支付之子公司。LINE Pay 為台灣行動支付市場主要品牌之一，服務涵蓋餐飲、購物、飲料、生活、交通、娛樂及美妝旅遊七大消費場域。營收主要來自第三方支付交易手續費抽成，依據合作商家店面交易金額收取佣金。LINE Pay 透過 [[LINE]] 通訊平台龐大用戶基礎進行導流，並與多家銀行合作提供信用卡綁定與帳戶儲值功能。2024 年營收達 62.96 億元，年增 27.8%。",
+    "supply_chain_md": "**上游 (金融與技術平台):**\n- **母集團:** [[LINE]] — 通訊平台用戶導流與技術支援\n- **收單銀行:** [[中國信託]]、[[國泰世華銀行]]等合作銀行\n- **信用卡組織:** [[VISA]]、[[Mastercard]]、[[JCB]] — 信用卡清算\n- **跨平台:** [[一卡通]] (iPASS) — 電子支付互通\n\n**中游 (行動支付):**\n- **LINE Pay** (第三方行動支付、信用卡綁定收款、跨平台電子支付服務)\n\n**下游 (商家與消費者):**\n- **大型零售:** 百貨、量販店、連鎖餐飲\n- **中小商家:** 便利商店、飲料店、夜市攤商\n- **線上平台:** 電商網站與外送平台",
+    "customers_suppliers_md": "### 主要客戶\n- **大型零售:** 百貨商場、量販店、連鎖餐飲 — 行動支付收款\n- **中小商家:** 便利商店、飲料店、夜市攤商 — QR Code 收款\n- **線上電商:** 電商網站與外送平台 — 線上支付串接\n\n### 主要供應商\n- **母集團:** [[LINE]] — 通訊平台與用戶基礎\n- **收單銀行:** [[中國信託]]、[[國泰世華銀行]] — 信用卡收單通道\n- **信用卡組織:** [[VISA]]、[[Mastercard]]、[[JCB]] — 國際清算\n- **跨平台:** [[一卡通]] (iPASS) — 電子支付互通",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $267.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     38.86 |       15.90 |      2.34 | 1.76 |     14.12 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      7872.00 |      6296.00 |      4928.24 |\n| Gross Profit            |      2573.39 |      1985.90 |      1523.73 |\n| Gross Margin (%)        |        32.69 |        31.54 |        30.92 |\n| Selling & Marketing Exp |       738.94 |       406.88 |       337.04 |\n| R&D Exp                 |       524.46 |       254.00 |       155.48 |\n| General & Admin Exp     |       721.02 |       583.80 |       476.55 |\n| Operating Income        |       588.97 |       741.22 |       554.66 |\n| Operating Margin (%)    |         7.48 |        11.77 |        11.25 |\n| Net Income              |       507.39 |       647.12 |       481.61 |\n| Net Margin (%)          |         6.45 |        10.28 |         9.77 |\n| Op Cash Flow            |       320.87 |      2634.91 |     -1217.74 |\n| Investing Cash Flow     |      -341.08 |      -236.51 |      -549.84 |\n| Financing Cash Flow     |      -187.91 |      4112.93 |        95.62 |\n| CAPEX                   |      -349.99 |       -10.43 |       -83.71 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2178.28 |      2015.09 |      1862.83 |      1815.81 |\n| Gross Profit            |       667.34 |       656.94 |       628.22 |       620.89 |\n| Gross Margin (%)        |        30.64 |        32.60 |        33.72 |        34.19 |\n| Selling & Marketing Exp |       246.26 |       193.79 |       153.61 |       145.29 |\n| R&D Exp                 |       109.43 |       124.45 |       140.73 |       149.85 |\n| General & Admin Exp     |       221.08 |       167.53 |       173.15 |       159.26 |\n| Operating Income        |        90.58 |       171.16 |       160.74 |       166.49 |\n| Operating Margin (%)    |         4.16 |         8.49 |         8.63 |         9.17 |\n| Net Income              |        95.54 |       180.32 |        69.33 |       162.20 |\n| Net Margin (%)          |         4.39 |         8.95 |         3.72 |         8.93 |\n| Op Cash Flow            |      -143.15 |      -601.62 |       673.20 |       392.44 |\n| Investing Cash Flow     |       -43.56 |       -69.87 |       -52.71 |      -174.94 |\n| Financing Cash Flow     |       -23.55 |      -121.51 |       -19.96 |       -22.89 |\n| CAPEX                   |       -47.97 |       -69.50 |       -54.36 |      -178.16 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2035",
+  "company_name": "唐榮",
+  "title": "2035 - 唐榮",
+  "source_md": "Pilot_Reports/鋼鐵 - 不鏽鋼胚/2035_唐榮.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "9,170 百萬台幣",
+    "enterprise_value": "20,363 百萬台幣"
+  },
+  "business": {
+    "summary": "唐榮鐵工廠股份有限公司 (Tang Eng Iron Works Co., Ltd.) 成立於 1940 年，總部位於台灣[[高雄]]。公司為台灣歷史最悠久之鋼鐵廠，現為國營事業色彩濃厚之**不鏽鋼上游煉鋼廠**。主要產品為不鏽鋼熱軋/冷軋鋼捲 (300 系為主)。唐榮在國內不鏽鋼產業鏈中扮演關鍵原料供應角色，供應下游客戶進行製管、裁剪及加工。",
+    "entities": [
+      "高雄"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鎳/鉻",
+        "text": "向國外礦商或貿易商採購鎳鐵、金屬鎳、廢不鏽鋼等原料。鎳價波動對成本影響甚鉅。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "加工業",
+        "text": "不鏽鋼裁剪中心 (如[[新鋼]]、[[運錩]])、製管廠 (如[[允強]]、[[彰源]])。",
+        "entities": [
+          "新鋼",
+          "運錩",
+          "允強",
+          "彰源"
+        ]
+      },
+      {
+        "category": "終端應用",
+        "text": "營建、家電、廚具、車輛、化工設備。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "下游加工廠",
+        "text": "[[允強]] (2034)、[[彰源]] (2030)、[[新鋼]] (2032)、[[運錩]] (2069)。",
+        "entities": [
+          "允強",
+          "彰源",
+          "新鋼",
+          "運錩"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "國際鎳商、廢鋼貿易商。",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "高雄",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高雄"
+    },
+    {
+      "name": "新鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新鋼"
+    },
+    {
+      "name": "運錩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "運錩"
+    },
+    {
+      "name": "允強",
+      "type": "taiwan_company_or_term",
+      "wikilink": "允強"
+    },
+    {
+      "name": "彰源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彰源"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "唐榮鐵工廠股份有限公司 (Tang Eng Iron Works Co., Ltd.) 成立於 1940 年，總部位於台灣[[高雄]]。公司為台灣歷史最悠久之鋼鐵廠，現為國營事業色彩濃厚之**不鏽鋼上游煉鋼廠**。主要產品為不鏽鋼熱軋/冷軋鋼捲 (300 系為主)。唐榮在國內不鏽鋼產業鏈中扮演關鍵原料供應角色，供應下游客戶進行製管、裁剪及加工。",
+    "supply_chain_md": "**上游 (原料):**\n- **鎳/鉻:** 向國外礦商或貿易商採購鎳鐵、金屬鎳、廢不鏽鋼等原料。鎳價波動對成本影響甚鉅。\n\n**下游應用:**\n- **加工業:** 不鏽鋼裁剪中心 (如[[新鋼]]、[[運錩]])、製管廠 (如[[允強]]、[[彰源]])。\n- **終端應用:** 營建、家電、廚具、車輛、化工設備。",
+    "customers_suppliers_md": "### 主要客戶\n- **下游加工廠:** [[允強]] (2034)、[[彰源]] (2030)、[[新鋼]] (2032)、[[運錩]] (2069)。\n\n### 主要供應商\n- **原料:** 國際鎳商、廢鋼貿易商。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $26.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      0.96 | 3.84 |    -21.94 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      9602.43 |     12189.39 |     10706.64 |\n| Gross Profit            |     -1252.29 |      -490.14 |      -864.32 |\n| Gross Margin (%)        |       -13.04 |        -4.02 |        -8.07 |\n| Selling & Marketing Exp |       122.14 |       134.18 |       114.44 |\n| R&D Exp                 |         8.38 |         8.86 |         9.03 |\n| General & Admin Exp     |       169.12 |       165.38 |       154.72 |\n| Operating Income        |     -1551.93 |      -798.56 |     -1142.51 |\n| Operating Margin (%)    |       -16.16 |        -6.55 |       -10.67 |\n| Net Income              |     -1652.46 |      -771.74 |     -1125.32 |\n| Net Margin (%)          |       -17.21 |        -6.33 |       -10.51 |\n| Op Cash Flow            |      -981.07 |     -1698.58 |      -584.93 |\n| Investing Cash Flow     |      -227.25 |      -261.90 |      -288.82 |\n| Financing Cash Flow     |      1316.45 |      1785.98 |       655.38 |\n| CAPEX                   |      -211.37 |      -214.20 |      -293.18 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2473.78 |      2035.92 |      2608.22 |      2527.74 |\n| Gross Profit            |       104.54 |      -299.74 |      -391.69 |      -288.83 |\n| Gross Margin (%)        |         4.23 |       -14.72 |       -15.02 |       -11.43 |\n| Selling & Marketing Exp |        30.94 |        32.47 |        28.79 |        31.59 |\n| R&D Exp                 |         1.99 |         2.14 |         2.02 |         2.14 |\n| General & Admin Exp     |        40.72 |        41.01 |        41.17 |        43.41 |\n| Operating Income        |        30.89 |      -375.37 |      -463.68 |      -365.97 |\n| Operating Margin (%)    |         1.25 |       -18.44 |       -17.78 |       -14.48 |\n| Net Income              |       114.12 |      -394.16 |      -463.00 |      -426.92 |\n| Net Margin (%)          |         4.61 |       -19.36 |       -17.75 |       -16.89 |\n| Op Cash Flow            |      -506.41 |     -1015.43 |       527.43 |      -750.91 |\n| Investing Cash Flow     |        32.01 |       -53.76 |       -48.17 |       -75.08 |\n| Financing Cash Flow     |       354.75 |      1264.60 |      -379.19 |       842.92 |\n| CAPEX                   |       -53.95 |       -54.02 |       -48.17 |       -55.83 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

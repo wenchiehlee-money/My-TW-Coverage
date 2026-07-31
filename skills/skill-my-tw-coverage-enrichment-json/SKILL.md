@@ -12,7 +12,7 @@ description: >-
 
 ## Purpose
 
-Convert `../My-TW-Coverage/Pilot_Reports/**/*.md` from presentation Markdown into atomic draft JSON, using `data/enrichment_all_draft` as the active JSON review universe.
+Convert `../My-TW-Coverage/Pilot_Reports/**/*.md` from presentation Markdown into atomic canonical JSON, using `data/enrichment_all` as the active JSON review universe.
 
 Current state:
 
@@ -40,7 +40,7 @@ Equivalent explicit command:
 python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py \
   --focus ../biztrends.TW/StockID_TWSE_TPEX_focus.csv \
   --coverage-root . \
-  --out data/enrichment_all_draft \
+  --out data/enrichment_all \
   --manifest data/enrichment_all_manifest.csv
 ```
 
@@ -50,7 +50,7 @@ It can also run from `biztrends.TW` root:
 python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py \
   --focus StockID_TWSE_TPEX_focus.csv \
   --coverage-root ../My-TW-Coverage \
-  --out ../My-TW-Coverage/data/enrichment_all_draft \
+  --out ../My-TW-Coverage/data/enrichment_all \
   --manifest ../My-TW-Coverage/data/enrichment_all_manifest.csv
 ```
 
@@ -66,18 +66,18 @@ All-report migration preview:
 ```bash
 python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py \
   --all-reports \
-  --out data/enrichment_all_draft \
+  --out data/enrichment_all \
   --manifest data/enrichment_all_manifest.csv
 
 python skills/skill-my-tw-coverage-enrichment-json/scripts/render_enrichment_markdown.py \
-  --json-dir data/enrichment_all_draft \
+  --json-dir data/enrichment_all \
   --out output/enrichment_all_rendered \
   --compare output/enrichment_all_render_compare.csv
 ```
 
 ## JSON Layering
 
-Draft JSON should keep both structured atoms and original Markdown snippets:
+Canonical JSON should keep both structured atoms and original Markdown snippets:
 
 - `profile`: ticker, company name, sector, industry, market cap, enterprise value, source path.
 - `business`: summary text plus extracted wikilinks.
@@ -88,7 +88,7 @@ Draft JSON should keep both structured atoms and original Markdown snippets:
 - `source_text`: original section bodies, so migration is non-lossy.
 - `quality`: parser status, review status, warnings, and counts.
 
-Do not treat the first parsed JSON as approved. It is a draft review artifact.
+Do not treat the first parsed JSON as approved. It remains a review artifact until its atoms are approved.
 
 ## Atomic Relationship Rules
 

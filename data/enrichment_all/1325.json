@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "1325",
+  "company_name": "恆大",
+  "title": "1325 - 恆大",
+  "source_md": "Pilot_Reports/石化及塑橡膠 - 塑膠製品/1325_恆大.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Textile Manufacturing",
+    "market_cap": "2,260 百萬台幣",
+    "enterprise_value": "816 百萬台幣"
+  },
+  "business": {
+    "summary": "[[恆大]]股份有限公司成立於1962年，總部位於台灣台北，工廠設於台南白河及中國廈門。恆大早期以生產手套起家，後轉型為紡結[[不織布]]之專業製造商，為台灣「口罩國家隊」重要成員。主要產品涵蓋[[SMS]]複合不織布、[[熔噴]]不織布及醫用口罩等醫療衛材。近年亦積極開發高附加價值之空氣過濾材 ([[HEPA]])、車用吸音棉及各式複合材料。",
+    "entities": [
+      "恆大",
+      "不織布",
+      "SMS",
+      "熔噴",
+      "HEPA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (石化原料)",
+        "text": "**上游 (石化原料):**",
+        "entities": []
+      },
+      {
+        "category": "原料",
+        "text": "[[PP]] (聚丙烯) 粒、PE粒",
+        "entities": [
+          "PP"
+        ]
+      },
+      {
+        "category": "供應商",
+        "text": "[[台塑]]、[[中油]]等國內外石化大廠",
+        "entities": [
+          "台塑",
+          "中油"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "恆大",
+        "text": "[[SMS]]不織布、[[熔噴]]不織布、口罩成品生產",
+        "entities": [
+          "SMS",
+          "熔噴"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "衛材用",
+        "text": "SMS不織布 (紙尿褲、衛生棉之表層/防漏側邊)、醫療手術衣",
+        "entities": []
+      },
+      {
+        "category": "過濾用",
+        "text": "[[熔噴]]不織布 (口罩中間層、[[HEPA]]濾網)",
+        "entities": [
+          "熔噴",
+          "HEPA"
+        ]
+      },
+      {
+        "category": "成品",
+        "text": "醫用口罩、立體口罩",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "衛材",
+        "text": "國內外紙尿褲與衛生棉大廠如[[金百利克拉克]]、[[花王]]",
+        "entities": [
+          "金百利克拉克",
+          "花王"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "醫院、藥局通路、政府標案 (口罩)",
+        "entities": []
+      },
+      {
+        "role": "濾材",
+        "text": "空調濾網廠、家電廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[台塑]] (PP)、[[福聚]] (PP)",
+        "entities": [
+          "台塑",
+          "福聚"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "恆大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "恆大"
+    },
+    {
+      "name": "不織布",
+      "type": "taiwan_company_or_term",
+      "wikilink": "不織布"
+    },
+    {
+      "name": "SMS",
+      "type": "international_company_or_term",
+      "wikilink": "SMS"
+    },
+    {
+      "name": "熔噴",
+      "type": "taiwan_company_or_term",
+      "wikilink": "熔噴"
+    },
+    {
+      "name": "HEPA",
+      "type": "international_company_or_term",
+      "wikilink": "HEPA"
+    },
+    {
+      "name": "PP",
+      "type": "international_company_or_term",
+      "wikilink": "PP"
+    },
+    {
+      "name": "台塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台塑"
+    },
+    {
+      "name": "中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中油"
+    },
+    {
+      "name": "金百利克拉克",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金百利克拉克"
+    },
+    {
+      "name": "花王",
+      "type": "taiwan_company_or_term",
+      "wikilink": "花王"
+    },
+    {
+      "name": "福聚",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福聚"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[恆大]]股份有限公司成立於1962年，總部位於台灣台北，工廠設於台南白河及中國廈門。恆大早期以生產手套起家，後轉型為紡結[[不織布]]之專業製造商，為台灣「口罩國家隊」重要成員。主要產品涵蓋[[SMS]]複合不織布、[[熔噴]]不織布及醫用口罩等醫療衛材。近年亦積極開發高附加價值之空氣過濾材 ([[HEPA]])、車用吸音棉及各式複合材料。",
+    "supply_chain_md": "**上游 (石化原料):**\n- **原料:** [[PP]] (聚丙烯) 粒、PE粒\n- **供應商:** [[台塑]]、[[中油]]等國內外石化大廠\n\n**中游 (製造):**\n- **恆大:** [[SMS]]不織布、[[熔噴]]不織布、口罩成品生產\n\n**下游 (終端應用):**\n- **衛材用:** SMS不織布 (紙尿褲、衛生棉之表層/防漏側邊)、醫療手術衣\n- **過濾用:** [[熔噴]]不織布 (口罩中間層、[[HEPA]]濾網)\n- **成品:** 醫用口罩、立體口罩",
+    "customers_suppliers_md": "### 主要客戶\n- **衛材:** 國內外紙尿褲與衛生棉大廠如[[金百利克拉克]]、[[花王]]\n- **醫療:** 醫院、藥局通路、政府標案 (口罩)\n- **濾材:** 空調濾網廠、家電廠\n\n### 主要供應商\n- **原料:** [[台塑]] (PP)、[[福聚]] (PP)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      8.24 | 0.85 |    -18.04 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       290.90 |       317.39 |       405.76 |\n| Gross Profit            |       -51.87 |       -36.70 |        -0.38 |\n| Gross Margin (%)        |       -17.83 |       -11.56 |        -0.09 |\n| Selling & Marketing Exp |         9.51 |        10.58 |        11.03 |\n| R&D Exp                 |         7.96 |         8.21 |        10.34 |\n| General & Admin Exp     |        25.10 |        24.46 |        26.72 |\n| Operating Income        |       -94.44 |       -79.95 |       -48.46 |\n| Operating Margin (%)    |       -32.47 |       -25.19 |       -11.94 |\n| Net Income              |       -59.57 |       -51.54 |        17.75 |\n| Net Margin (%)          |       -20.48 |       -16.24 |         4.38 |\n| Op Cash Flow            |       -10.32 |        50.33 |       124.65 |\n| Investing Cash Flow     |       -86.90 |       -71.72 |      -521.03 |\n| Financing Cash Flow     |       -25.57 |       -51.09 |       -58.38 |\n| CAPEX                   |       -17.02 |       -23.00 |       -28.33 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        62.95 |        61.83 |        83.89 |        82.24 |\n| Gross Profit            |       -17.48 |       -17.87 |       -10.59 |        -5.92 |\n| Gross Margin (%)        |       -27.77 |       -28.91 |       -12.63 |        -7.20 |\n| Selling & Marketing Exp |         2.13 |         2.30 |         2.78 |         2.30 |\n| R&D Exp                 |         2.15 |         1.91 |         2.00 |         1.91 |\n| General & Admin Exp     |         4.27 |         6.75 |         7.64 |         6.43 |\n| Operating Income        |       -26.04 |       -28.84 |       -23.01 |       -16.56 |\n| Operating Margin (%)    |       -41.36 |       -46.64 |       -27.43 |       -20.14 |\n| Net Income              |        -4.52 |        -3.51 |       -49.60 |        -1.94 |\n| Net Margin (%)          |        -7.18 |        -5.68 |       -59.12 |        -2.36 |\n| Op Cash Flow            |        21.31 |        15.84 |       -46.75 |        -0.72 |\n| Investing Cash Flow     |       -49.02 |       -28.61 |         9.59 |       -18.86 |\n| Financing Cash Flow     |        -0.01 |       -25.59 |        -0.01 |         0.04 |\n| CAPEX                   |         0.54 |        -3.90 |        -4.89 |        -8.76 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

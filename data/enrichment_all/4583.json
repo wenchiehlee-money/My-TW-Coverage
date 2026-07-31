@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4583",
+  "company_name": "台灣精銳",
+  "title": "4583 - 台灣精銳",
+  "source_md": "Pilot_Reports/電機機械 - 傳動元件/4583_台灣精銳.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "39,043 百萬台幣",
+    "enterprise_value": "34,697 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣精銳 (4583，Apex Dynamics) 為全球最大規模專業伺服用行星式[[減速機]]製造廠 (1987 年創立)，產品涵蓋高精度行星減速機 (佔營收 74%)、齒排及聯軸器，全球 36 家經銷商佈局。下游應用涵蓋半導體設備 (晶圓搬運/檢測驅動)、工業機器人 ([[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈)、工具機及雷射切割進給系統。近年積極開發微型減速機搶攻人形機器人關節模組商機。另經營台中[[日月千禧酒店]]。",
+    "entities": [
+      "減速機",
+      "FANUC",
+      "ABB",
+      "Yaskawa",
+      "日月千禧酒店"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊鋼材/鋁合金",
+        "text": "精密齒輪用鋼材",
+        "entities": []
+      },
+      {
+        "category": "軸承/油封",
+        "text": "精密軸承供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台灣精銳** (行星[[減速機]]/齒排/聯軸器，精密齒輪加工/熱處理/研磨)",
+        "entities": [
+          "減速機"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "半導體設備",
+        "text": "晶圓搬運/檢測驅動模組",
+        "entities": []
+      },
+      {
+        "category": "工業機器人",
+        "text": "[[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — 關節驅動",
+        "entities": [
+          "FANUC",
+          "ABB",
+          "Yaskawa"
+        ]
+      },
+      {
+        "category": "工具機",
+        "text": "五軸加工機/雷射切割進給系統",
+        "entities": []
+      },
+      {
+        "category": "人形機器人",
+        "text": "微型減速機 — 關節驅動",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "機器人",
+        "text": "[[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — [[減速機]]",
+        "entities": [
+          "FANUC",
+          "ABB",
+          "Yaskawa",
+          "減速機"
+        ]
+      },
+      {
+        "role": "半導體設備",
+        "text": "晶圓搬運/檢測設備",
+        "entities": []
+      },
+      {
+        "role": "工具機",
+        "text": "五軸加工/雷射切割",
+        "entities": []
+      },
+      {
+        "role": "人形機器人",
+        "text": "微型減速機 (新興)",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材/軸承",
+        "text": "特殊鋼材及精密軸承",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "減速機"
+    },
+    {
+      "name": "FANUC",
+      "type": "international_company_or_term",
+      "wikilink": "FANUC"
+    },
+    {
+      "name": "ABB",
+      "type": "international_company_or_term",
+      "wikilink": "ABB"
+    },
+    {
+      "name": "Yaskawa",
+      "type": "international_company_or_term",
+      "wikilink": "Yaskawa"
+    },
+    {
+      "name": "日月千禧酒店",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月千禧酒店"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣精銳 (4583，Apex Dynamics) 為全球最大規模專業伺服用行星式[[減速機]]製造廠 (1987 年創立)，產品涵蓋高精度行星減速機 (佔營收 74%)、齒排及聯軸器，全球 36 家經銷商佈局。下游應用涵蓋半導體設備 (晶圓搬運/檢測驅動)、工業機器人 ([[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈)、工具機及雷射切割進給系統。近年積極開發微型減速機搶攻人形機器人關節模組商機。另經營台中[[日月千禧酒店]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **特殊鋼材/鋁合金:** 精密齒輪用鋼材\n- **軸承/油封:** 精密軸承供應商\n\n**中游 (製造):**\n- **台灣精銳** (行星[[減速機]]/齒排/聯軸器，精密齒輪加工/熱處理/研磨)\n\n**下游 (終端):**\n- **半導體設備:** 晶圓搬運/檢測驅動模組\n- **工業機器人:** [[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — 關節驅動\n- **工具機:** 五軸加工機/雷射切割進給系統\n- **人形機器人:** 微型減速機 — 關節驅動",
+    "customers_suppliers_md": "### 主要客戶\n- **機器人:** [[FANUC]]、[[ABB]]、[[Yaskawa]]供應鏈 — [[減速機]]\n- **半導體設備:** 晶圓搬運/檢測設備\n- **工具機:** 五軸加工/雷射切割\n- **人形機器人:** 微型減速機 (新興)\n\n### 主要供應商\n- **鋼材/軸承:** 特殊鋼材及精密軸承",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $450.50 as of 2026-07-30 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     33.40 |       31.55 |     11.23 | 3.64 |     24.75 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2998.02 |      2958.99 |      2686.96 |\n| Gross Profit            |      1563.73 |      1612.53 |      1490.96 |\n| Gross Margin (%)        |        52.16 |        54.50 |        55.49 |\n| Selling & Marketing Exp |        35.92 |        36.09 |        30.66 |\n| R&D Exp                 |        36.92 |        39.12 |        31.97 |\n| General & Admin Exp     |       548.56 |       542.44 |       522.57 |\n| Operating Income        |       942.33 |       994.88 |       905.76 |\n| Operating Margin (%)    |        31.43 |        33.62 |        33.71 |\n| Net Income              |       961.84 |      1134.02 |       873.16 |\n| Net Margin (%)          |        32.08 |        38.32 |        32.50 |\n| Op Cash Flow            |      1162.40 |      1379.73 |      1007.93 |\n| Investing Cash Flow     |     -2204.71 |     -1275.69 |      1506.03 |\n| Financing Cash Flow     |      -993.38 |      -833.92 |      -851.16 |\n| CAPEX                   |       -66.26 |       -25.19 |       -69.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-06-30 |   2026-03-31 |   2025-12-31 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       902.43 |       858.34 |       762.00 |       731.87 |\n| Gross Profit            |       466.66 |       456.01 |       389.98 |       381.55 |\n| Gross Margin (%)        |        51.71 |        53.13 |        51.18 |        52.13 |\n| Selling & Marketing Exp |         9.83 |         8.77 |         8.31 |         8.49 |\n| R&D Exp                 |        13.13 |        11.38 |        10.07 |         7.70 |\n| General & Admin Exp     |       142.46 |       131.00 |       139.94 |       140.10 |\n| Operating Income        |       301.25 |       304.86 |       231.66 |       225.26 |\n| Operating Margin (%)    |        33.38 |        35.52 |        30.40 |        30.78 |\n| Net Income              |       260.67 |       285.42 |       290.50 |        94.20 |\n| Net Margin (%)          |        28.89 |        33.25 |        38.12 |        12.87 |\n| Op Cash Flow            |       415.15 |       337.60 |       352.23 |       274.36 |\n| Investing Cash Flow     |       193.13 |       573.52 |     -1035.20 |       590.69 |\n| Financing Cash Flow     |      -805.90 |       -23.57 |        -2.68 |      -964.72 |\n| CAPEX                   |       -18.31 |        -7.70 |       -13.56 |       -14.34 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

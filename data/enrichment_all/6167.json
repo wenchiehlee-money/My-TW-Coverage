@@ -1,0 +1,221 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6167",
+  "company_name": "久正",
+  "title": "6167_久正",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 面板/6167_久正.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,460 百萬台幣",
+    "enterprise_value": "986 百萬台幣"
+  },
+  "business": {
+    "summary": "久正光電 (6167，品牌 [[POWERTIP]]) 成立於 1991 年，為專業中小尺寸液晶顯示器模組 (LCM) 製造商。\n\n主要業務：(1) STN/TFT LCM — 各類中小尺寸液晶顯示模組，以自有品牌「[[POWERTIP]]」行銷全球，廣泛應用於工控、醫療、家電、安防及車載設備；(2) 觸控面板 — Touch Panel 解決方案；(3) 嵌入式人機介面 (HMI) — 結合 [[Arm]] 架構與 [[NXP]]、[[ST]]、[[Renesas]] 等半導體廠技術，提供軟硬體整合的客製化 HMI 顯示方案。產品極度分散且客製化，經世界各知名大廠認證。",
+    "entities": [
+      "POWERTIP",
+      "Arm",
+      "NXP",
+      "ST",
+      "Renesas"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (面板與零組件)",
+        "text": "**上游 (面板與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "面板玻璃",
+        "text": "液晶面板玻璃供應商",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "驅動 IC 供應商",
+        "entities": []
+      },
+      {
+        "category": "嵌入式晶片",
+        "text": "[[NXP]]、[[ST]]、[[Renesas]] — [[Arm]] 嵌入式處理器",
+        "entities": [
+          "NXP",
+          "ST",
+          "Renesas",
+          "Arm"
+        ]
+      },
+      {
+        "category": "背光/觸控",
+        "text": "背光模組、觸控感測器供應商",
+        "entities": []
+      },
+      {
+        "category": "[[PCB]]",
+        "text": "印刷電路板供應商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (LCM 製造)",
+        "text": "**中游 (LCM 製造):**",
+        "entities": []
+      },
+      {
+        "category": "LCM",
+        "text": "**久正** (STN/TFT 液晶顯示器模組)",
+        "entities": []
+      },
+      {
+        "category": "觸控面板",
+        "text": "**久正** (Touch Panel 解決方案)",
+        "entities": []
+      },
+      {
+        "category": "HMI",
+        "text": "**久正** (嵌入式人機介面)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "工控",
+        "text": "歐美工業控制設備商 — 工控顯示模組",
+        "entities": []
+      },
+      {
+        "category": "醫療",
+        "text": "醫療儀器廠 — 醫療用 LCM",
+        "entities": []
+      },
+      {
+        "category": "家電",
+        "text": "智慧家電品牌 — 家電控制面板",
+        "entities": []
+      },
+      {
+        "category": "車載",
+        "text": "車用零組件 Tier 1/Tier 2 廠 — 車載顯示",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工控",
+        "text": "歐美工業控制設備商 — 工控用 LCM 模組",
+        "entities": []
+      },
+      {
+        "role": "醫療",
+        "text": "醫療儀器製造廠 — 醫療用顯示模組",
+        "entities": []
+      },
+      {
+        "role": "家電",
+        "text": "智慧家電品牌 — 家電控制面板",
+        "entities": []
+      },
+      {
+        "role": "車載",
+        "text": "車用零組件 Tier 1/Tier 2 廠 — 車載顯示",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "嵌入式晶片",
+        "text": "[[NXP]]、[[ST]]、[[Renesas]] — [[Arm]] 嵌入式處理器",
+        "entities": [
+          "NXP",
+          "ST",
+          "Renesas",
+          "Arm"
+        ]
+      },
+      {
+        "role": "面板",
+        "text": "液晶面板玻璃供應商",
+        "entities": []
+      },
+      {
+        "role": "驅動 IC",
+        "text": "驅動 IC 供應商",
+        "entities": []
+      },
+      {
+        "role": "[[PCB]]",
+        "text": "印刷電路板供應商",
+        "entities": [
+          "PCB"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "POWERTIP",
+      "type": "international_company_or_term",
+      "wikilink": "POWERTIP"
+    },
+    {
+      "name": "Arm",
+      "type": "international_company_or_term",
+      "wikilink": "Arm"
+    },
+    {
+      "name": "NXP",
+      "type": "international_company_or_term",
+      "wikilink": "NXP"
+    },
+    {
+      "name": "ST",
+      "type": "international_company_or_term",
+      "wikilink": "ST"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "久正光電 (6167，品牌 [[POWERTIP]]) 成立於 1991 年，為專業中小尺寸液晶顯示器模組 (LCM) 製造商。\n\n主要業務：(1) STN/TFT LCM — 各類中小尺寸液晶顯示模組，以自有品牌「[[POWERTIP]]」行銷全球，廣泛應用於工控、醫療、家電、安防及車載設備；(2) 觸控面板 — Touch Panel 解決方案；(3) 嵌入式人機介面 (HMI) — 結合 [[Arm]] 架構與 [[NXP]]、[[ST]]、[[Renesas]] 等半導體廠技術，提供軟硬體整合的客製化 HMI 顯示方案。產品極度分散且客製化，經世界各知名大廠認證。",
+    "supply_chain_md": "**上游 (面板與零組件):**\n- **面板玻璃:** 液晶面板玻璃供應商\n- **驅動 IC:** 驅動 IC 供應商\n- **嵌入式晶片:** [[NXP]]、[[ST]]、[[Renesas]] — [[Arm]] 嵌入式處理器\n- **背光/觸控:** 背光模組、觸控感測器供應商\n- **[[PCB]]:** 印刷電路板供應商\n\n**中游 (LCM 製造):**\n- **LCM:** **久正** (STN/TFT 液晶顯示器模組)\n- **觸控面板:** **久正** (Touch Panel 解決方案)\n- **HMI:** **久正** (嵌入式人機介面)\n\n**下游 (終端應用):**\n- **工控:** 歐美工業控制設備商 — 工控顯示模組\n- **醫療:** 醫療儀器廠 — 醫療用 LCM\n- **家電:** 智慧家電品牌 — 家電控制面板\n- **車載:** 車用零組件 Tier 1/Tier 2 廠 — 車載顯示",
+    "customers_suppliers_md": "### 主要客戶\n- **工控:** 歐美工業控制設備商 — 工控用 LCM 模組\n- **醫療:** 醫療儀器製造廠 — 醫療用顯示模組\n- **家電:** 智慧家電品牌 — 家電控制面板\n- **車載:** 車用零組件 Tier 1/Tier 2 廠 — 車載顯示\n\n### 主要供應商\n- **嵌入式晶片:** [[NXP]]、[[ST]]、[[Renesas]] — [[Arm]] 嵌入式處理器\n- **面板:** 液晶面板玻璃供應商\n- **驅動 IC:** 驅動 IC 供應商\n- **[[PCB]]:** 印刷電路板供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $9.85 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.13 | 0.84 |    -11.66 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1211.76 |      1070.26 |      1708.39 |\n| Gross Profit            |        93.13 |        73.68 |       291.67 |\n| Gross Margin (%)        |         7.69 |         6.88 |        17.07 |\n| Selling & Marketing Exp |        64.85 |        64.64 |        73.68 |\n| R&D Exp                 |        62.45 |        55.64 |        53.86 |\n| General & Admin Exp     |        86.98 |        77.08 |        88.07 |\n| Operating Income        |      -121.14 |      -123.69 |        76.06 |\n| Operating Margin (%)    |       -10.00 |       -11.56 |         4.45 |\n| Net Income              |        -5.02 |         3.31 |       203.32 |\n| Net Margin (%)          |        -0.41 |         0.31 |        11.90 |\n| Op Cash Flow            |       -35.46 |       -63.53 |       253.11 |\n| Investing Cash Flow     |        16.93 |       -11.47 |        11.92 |\n| Financing Cash Flow     |      -207.02 |      -122.61 |      -146.44 |\n| CAPEX                   |       -28.89 |       -45.15 |       -22.80 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       316.11 |       297.65 |       336.35 |       325.21 |\n| Gross Profit            |        21.31 |        22.95 |        28.64 |        23.90 |\n| Gross Margin (%)        |         6.74 |         7.71 |         8.52 |         7.35 |\n| Selling & Marketing Exp |        17.14 |        16.21 |        16.17 |        16.36 |\n| R&D Exp                 |        17.04 |        18.07 |        16.50 |        14.12 |\n| General & Admin Exp     |        19.76 |        19.99 |        25.39 |        22.61 |\n| Operating Income        |       -32.63 |       -31.31 |       -29.42 |       -29.20 |\n| Operating Margin (%)    |       -10.32 |       -10.52 |        -8.75 |        -8.98 |\n| Net Income              |        -8.55 |        -6.00 |        10.19 |        -4.84 |\n| Net Margin (%)          |        -2.71 |        -2.02 |         3.03 |        -1.49 |\n| Op Cash Flow            |       -19.36 |       -47.54 |       -25.93 |        -3.09 |\n| Investing Cash Flow     |        -8.19 |        -8.55 |        32.06 |        -1.04 |\n| Financing Cash Flow     |         0.04 |      -162.46 |       -32.93 |        -3.10 |\n| CAPEX                   |        -6.78 |        -9.34 |        -4.85 |        -9.94 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

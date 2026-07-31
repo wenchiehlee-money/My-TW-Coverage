@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2409",
+  "company_name": "友達",
+  "title": "2409 - [[友達]]",
+  "source_md": "Pilot_Reports/太陽能產業 - 矽晶圓_矽晶片/2409_友達.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "178,489 百萬台幣",
+    "enterprise_value": "248,739 百萬台幣"
+  },
+  "business": {
+    "summary": "[[友達]]光電 (2409) 是全球主要的[[TFT-LCD]]面板製造商，擁有完整 3.5 代至 8.5 代生產線。2024 年營收組成為 Display 部門 54%、Mobility Solution (車用顯示) 29%、Vertical Solution (智慧顯示/智慧製造/能源) 12%。Display 部門主要生產液晶面板應用於電視、筆電及手機。主要客戶包括 [[Samsung]]、[[海信]]。",
+    "entities": [
+      "友達",
+      "TFT-LCD",
+      "Samsung",
+      "海信"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與設備)",
+        "text": "**上游 (材料與設備):**",
+        "entities": []
+      },
+      {
+        "category": "玻璃基板",
+        "text": "[[康寧]] (Corning)、[[AGC]]",
+        "entities": [
+          "康寧",
+          "AGC"
+        ]
+      },
+      {
+        "category": "驅動 IC",
+        "text": "[[聯詠]]、[[奇景光電]]",
+        "entities": [
+          "聯詠",
+          "奇景光電"
+        ]
+      },
+      {
+        "category": "偏光板/背光",
+        "text": "偏光板及 LED 背光模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (面板製造)",
+        "text": "**中游 (面板製造):**",
+        "entities": []
+      },
+      {
+        "category": "TFT-LCD",
+        "text": "**[[友達]]** (3.5-8.5 代面板，TV/NB/手機/車用)",
+        "entities": [
+          "友達"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "電視",
+        "text": "[[Samsung]]、[[海信]] 等品牌",
+        "entities": [
+          "Samsung",
+          "海信"
+        ]
+      },
+      {
+        "category": "車用",
+        "text": "全球車廠車用顯示",
+        "entities": []
+      },
+      {
+        "category": "智慧零售",
+        "text": "智慧顯示應用客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "電視品牌",
+        "text": "[[Samsung]]、[[海信]]",
+        "entities": [
+          "Samsung",
+          "海信"
+        ]
+      },
+      {
+        "role": "車用顯示",
+        "text": "全球車廠車用面板",
+        "entities": []
+      },
+      {
+        "role": "筆電/手機",
+        "text": "筆電及手機品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "玻璃基板",
+        "text": "[[康寧]]、[[AGC]]",
+        "entities": [
+          "康寧",
+          "AGC"
+        ]
+      },
+      {
+        "role": "驅動 IC",
+        "text": "[[聯詠]]、[[奇景光電]]",
+        "entities": [
+          "聯詠",
+          "奇景光電"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[群創]]、[[京東方]]、[[LG Display]]",
+        "entities": [
+          "群創",
+          "京東方",
+          "LG Display"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[群創]]、[[京東方]]、[[LG Display]]",
+        "entities": [
+          "群創",
+          "京東方",
+          "LG Display"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "TFT-LCD",
+      "type": "international_company_or_term",
+      "wikilink": "TFT-LCD"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "海信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海信"
+    },
+    {
+      "name": "康寧",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康寧"
+    },
+    {
+      "name": "AGC",
+      "type": "international_company_or_term",
+      "wikilink": "AGC"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "奇景光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇景光電"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "LG Display",
+      "type": "international_company_or_term",
+      "wikilink": "LG Display"
+    },
+    {
+      "name": "中華化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華化"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[友達]]光電 (2409) 是全球主要的[[TFT-LCD]]面板製造商，擁有完整 3.5 代至 8.5 代生產線。2024 年營收組成為 Display 部門 54%、Mobility Solution (車用顯示) 29%、Vertical Solution (智慧顯示/智慧製造/能源) 12%。Display 部門主要生產液晶面板應用於電視、筆電及手機。主要客戶包括 [[Samsung]]、[[海信]]。",
+    "supply_chain_md": "**上游 (材料與設備):**\n- **玻璃基板:** [[康寧]] (Corning)、[[AGC]]\n- **驅動 IC:** [[聯詠]]、[[奇景光電]]\n- **偏光板/背光:** 偏光板及 LED 背光模組\n\n**中游 (面板製造):**\n- **TFT-LCD:** **[[友達]]** (3.5-8.5 代面板，TV/NB/手機/車用)\n\n**下游 (品牌客戶):**\n- **電視:** [[Samsung]]、[[海信]] 等品牌\n- **車用:** 全球車廠車用顯示\n- **智慧零售:** 智慧顯示應用客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **電視品牌:** [[Samsung]]、[[海信]]\n- **車用顯示:** 全球車廠車用面板\n- **筆電/手機:** 筆電及手機品牌\n\n### 主要供應商\n- **玻璃基板:** [[康寧]]、[[AGC]]\n- **驅動 IC:** [[聯詠]]、[[奇景光電]]\n- **競爭同業:** [[群創]]、[[京東方]]、[[LG Display]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $22.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     69.38 |       38.13 |      0.60 | 1.12 |      9.85 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    281387.74 |    280245.42 |    247964.44 |\n| Gross Profit            |     32354.81 |     24216.00 |      4610.37 |\n| Gross Margin (%)        |        11.50 |         8.64 |         1.86 |\n| Selling & Marketing Exp |      6978.96 |      6293.28 |      5019.74 |\n| R&D Exp                 |     15976.39 |     16028.32 |     13231.45 |\n| General & Admin Exp     |     10455.05 |     10360.36 |      8321.19 |\n| Operating Income        |     -1055.59 |     -8465.96 |    -21962.01 |\n| Operating Margin (%)    |        -0.38 |        -3.02 |        -8.86 |\n| Net Income              |      6843.36 |     -3064.17 |    -18203.27 |\n| Net Margin (%)          |         2.43 |        -1.09 |        -7.34 |\n| Op Cash Flow            |     11128.85 |     23145.65 |      9993.56 |\n| Investing Cash Flow     |     -5423.38 |    -33088.89 |    -24054.38 |\n| Financing Cash Flow     |    -19181.05 |     -7394.95 |     18366.53 |\n| CAPEX                   |    -18319.63 |    -26923.69 |    -26786.57 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     69031.35 |     70141.57 |     69907.56 |     69236.75 |\n| Gross Profit            |      8183.49 |      7524.76 |      6689.61 |      9361.98 |\n| Gross Margin (%)        |        11.85 |        10.73 |         9.57 |        13.52 |\n| Selling & Marketing Exp |      1704.39 |      2041.79 |      1814.97 |      1631.54 |\n| R&D Exp                 |      4414.10 |      4550.14 |      4002.01 |      3659.69 |\n| General & Admin Exp     |      2700.60 |      2826.19 |      2678.89 |      2567.23 |\n| Operating Income        |      -635.61 |     -1893.35 |     -1806.26 |      1503.53 |\n| Operating Margin (%)    |        -0.92 |        -2.70 |        -2.58 |         2.17 |\n| Net Income              |     -1143.54 |      2882.02 |     -1280.27 |      1947.87 |\n| Net Margin (%)          |        -1.66 |         4.11 |        -1.83 |         2.81 |\n| Op Cash Flow            |      2883.93 |      2926.50 |      3084.25 |      3383.39 |\n| Investing Cash Flow     |     -2798.35 |      3311.93 |     -1173.72 |     -2440.77 |\n| Financing Cash Flow     |     -4060.37 |     -9227.51 |     -1722.25 |     -9702.10 |\n| CAPEX                   |     -2875.04 |     -3895.06 |     -3613.88 |     -4193.18 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

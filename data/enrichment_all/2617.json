@@ -1,0 +1,191 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2617",
+  "company_name": "台航",
+  "title": "2617 - 台航",
+  "source_md": "Pilot_Reports/交通運輸及航運 - 散裝航運/2617_台航.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Marine Shipping",
+    "market_cap": "11,872 百萬台幣",
+    "enterprise_value": "15,324 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣航業股份有限公司 (2617，Taiwan Navigation) 成立於 1946 年，主要股東為[[交通部]] (逾 26%) 及[[陽明海運]]。主要業務包括：(1) 散裝航運 — 擁有輕便型、極限型及卡姆薩型散裝船隊，服務全球；(2) 港勤業務 — 經營台中港及桃園觀塘港 ([[台灣[[中油]]]] [[LNG]]接收站) 之拖船業務；(3) 客運 — 經營高雄-馬公航線 (臺華輪/澎湖輪)；(4) 代營 — 代營[[台灣中油]]及[[台電]]船舶。",
+    "entities": [
+      "交通部",
+      "陽明海運",
+      "台灣[[中油",
+      "LNG",
+      "台灣中油",
+      "台電"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (船舶建造與維護)",
+        "text": "**上游 (船舶建造與維護):**",
+        "entities": []
+      },
+      {
+        "category": "造船",
+        "text": "國內外造船廠 — 散裝輪與拖船",
+        "entities": []
+      },
+      {
+        "category": "燃油",
+        "text": "全球各港口燃油供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (海運與港勤服務)",
+        "text": "**中游 (海運與港勤服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台航** — 散裝航運服務、港勤拖船業務、客運營運",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "散裝客戶",
+        "text": "國際糧商與礦商 — 穀物、煤炭運輸",
+        "entities": []
+      },
+      {
+        "category": "港勤",
+        "text": "[[台灣中油]] — LNG 接收站拖船服務",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "代營",
+        "text": "[[台灣中油]]、[[台電]] — 船舶代營",
+        "entities": [
+          "台灣中油",
+          "台電"
+        ]
+      },
+      {
+        "category": "客運",
+        "text": "高雄-馬公航線旅客",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "散裝航運",
+        "text": "國際糧商與礦商 — 穀物、煤炭運輸",
+        "entities": []
+      },
+      {
+        "role": "港勤",
+        "text": "[[台灣中油]] — 觀塘 LNG 接收站拖船",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "代營",
+        "text": "[[台灣中油]]、[[台電]] — 船舶代營",
+        "entities": [
+          "台灣中油",
+          "台電"
+        ]
+      },
+      {
+        "role": "客運",
+        "text": "高雄-馬公航線旅客 — 臺華輪/澎湖輪",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "造船",
+        "text": "國內外造船廠",
+        "entities": []
+      },
+      {
+        "role": "燃油",
+        "text": "全球燃油供應商",
+        "entities": []
+      },
+      {
+        "role": "股東",
+        "text": "[[交通部]]、[[陽明海運]] — 官股背景",
+        "entities": [
+          "交通部",
+          "陽明海運"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "交通部",
+      "type": "taiwan_company_or_term",
+      "wikilink": "交通部"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "台灣[[中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣[[中油"
+    },
+    {
+      "name": "LNG",
+      "type": "international_company_or_term",
+      "wikilink": "LNG"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣航業股份有限公司 (2617，Taiwan Navigation) 成立於 1946 年，主要股東為[[交通部]] (逾 26%) 及[[陽明海運]]。主要業務包括：(1) 散裝航運 — 擁有輕便型、極限型及卡姆薩型散裝船隊，服務全球；(2) 港勤業務 — 經營台中港及桃園觀塘港 ([[台灣[[中油]]]] [[LNG]]接收站) 之拖船業務；(3) 客運 — 經營高雄-馬公航線 (臺華輪/澎湖輪)；(4) 代營 — 代營[[台灣中油]]及[[台電]]船舶。",
+    "supply_chain_md": "**上游 (船舶建造與維護):**\n- **造船:** 國內外造船廠 — 散裝輪與拖船\n- **燃油:** 全球各港口燃油供應商\n\n**中游 (海運與港勤服務):**\n- **台航** — 散裝航運服務、港勤拖船業務、客運營運\n\n**下游 (終端客戶):**\n- **散裝客戶:** 國際糧商與礦商 — 穀物、煤炭運輸\n- **港勤:** [[台灣中油]] — LNG 接收站拖船服務\n- **代營:** [[台灣中油]]、[[台電]] — 船舶代營\n- **客運:** 高雄-馬公航線旅客",
+    "customers_suppliers_md": "### 主要客戶\n- **散裝航運:** 國際糧商與礦商 — 穀物、煤炭運輸\n- **港勤:** [[台灣中油]] — 觀塘 LNG 接收站拖船\n- **代營:** [[台灣中油]]、[[台電]] — 船舶代營\n- **客運:** 高雄-馬公航線旅客 — 臺華輪/澎湖輪\n\n### 主要供應商\n- **造船:** 國內外造船廠\n- **燃油:** 全球燃油供應商\n- **股東:** [[交通部]]、[[陽明海運]] — 官股背景",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $28.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      8.86 |        8.92 |      2.69 | 0.64 |      5.89 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      4299.84 |      4400.05 |      3990.11 |\n| Gross Profit            |      1794.86 |      1843.18 |      1440.47 |\n| Gross Margin (%)        |        41.74 |        41.89 |        36.10 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       208.96 |       184.04 |       204.91 |\n| Operating Income        |      1585.90 |      1659.13 |      1235.55 |\n| Operating Margin (%)    |        36.88 |        37.71 |        30.97 |\n| Net Income              |      1325.65 |      1283.23 |      1662.89 |\n| Net Margin (%)          |        30.83 |        29.16 |        41.68 |\n| Op Cash Flow            |      2341.15 |      2410.93 |      2064.01 |\n| Investing Cash Flow     |        60.45 |     -2064.18 |      -294.26 |\n| Financing Cash Flow     |     -1821.80 |      -136.23 |     -2037.92 |\n| CAPEX                   |      -608.60 |     -3482.25 |     -2137.78 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1174.95 |      1020.02 |      1024.72 |      1093.93 |\n| Gross Profit            |       543.18 |       404.13 |       391.18 |       471.75 |\n| Gross Margin (%)        |        46.23 |        39.62 |        38.17 |        43.12 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       -    |        47.14 |        44.63 |       -    |\n| Operating Income        |       482.54 |       356.99 |       346.55 |       432.51 |\n| Operating Margin (%)    |        41.07 |        35.00 |        33.82 |        39.54 |\n| Net Income              |       340.14 |       178.64 |       242.04 |       303.88 |\n| Net Margin (%)          |        28.95 |        17.51 |        23.62 |        27.78 |\n| Op Cash Flow            |       715.96 |       500.42 |       567.01 |       769.75 |\n| Investing Cash Flow     |       368.41 |      -203.28 |      -448.77 |      -324.26 |\n| Financing Cash Flow     |      -412.75 |      -464.08 |      -374.71 |      -281.27 |\n| CAPEX                   |       -30.85 |       -15.61 |      -482.77 |       -10.05 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

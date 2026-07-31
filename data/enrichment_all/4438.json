@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4438",
+  "company_name": "廣越",
+  "title": "4438 - 廣越",
+  "source_md": "Pilot_Reports/醫療器材 - 醫療器材研發、設計、製造/4438_廣越.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "6,873 百萬台幣",
+    "enterprise_value": "10,509 百萬台幣"
+  },
+  "business": {
+    "summary": "廣越企業 (4438，Kwong Lung Enterprise) 成立於 1995 年，為全球最大高階羽絨外套製造商。生產基地分布於中國、越南、約旦及羅馬尼亞。主要客戶涵蓋[[adidas]] (訂單年增 60%)、[[Nike]] (年增 10%)、[[The North Face]] ([[VF Corporation]]旗下，年增 60%)、[[Patagonia]] (年增 5%)、[[lululemon]] (最快速成長新客戶)、[[PUMA]]、[[Mont-bell]] (年增 60%)、[[Alo Yoga]] (最新客戶，約旦廠出貨) 及[[Arc'teryx]]等全球頂級運動戶外品牌。策略性股東[[福懋興業]]持股約 20%，同時為主要布料供應商。",
+    "entities": [
+      "adidas",
+      "Nike",
+      "The North Face",
+      "VF Corporation",
+      "Patagonia",
+      "lululemon",
+      "PUMA",
+      "Mont-bell",
+      "Alo Yoga",
+      "Arc'teryx",
+      "福懋興業"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "布料",
+        "text": "[[福懋興業]] — 主要布料供應商 (同時為 20% 策略股東，台灣/越南/中國設廠配合)",
+        "entities": [
+          "福懋興業"
+        ]
+      },
+      {
+        "category": "羽絨",
+        "text": "[[尚弘羽絨]] — 鴨鵝絨填充材料供應 (廣越投資入股確保供應)",
+        "entities": [
+          "尚弘羽絨"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**廣越** (高階羽絨外套 OEM，中國/越南/約旦/羅馬尼亞工廠)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (品牌客戶)",
+        "text": "**下游 (品牌客戶):**",
+        "entities": []
+      },
+      {
+        "category": "運動品牌",
+        "text": "[[adidas]]、[[Nike]]、[[PUMA]]、[[lululemon]]、[[Under Armour]]",
+        "entities": [
+          "adidas",
+          "Nike",
+          "PUMA",
+          "lululemon",
+          "Under Armour"
+        ]
+      },
+      {
+        "category": "戶外品牌",
+        "text": "[[The North Face]]、[[Patagonia]]、[[Mont-bell]]、[[Arc'teryx]]",
+        "entities": [
+          "The North Face",
+          "Patagonia",
+          "Mont-bell",
+          "Arc'teryx"
+        ]
+      },
+      {
+        "category": "新興品牌",
+        "text": "[[Alo Yoga]]、[[Ralph Lauren]]",
+        "entities": [
+          "Alo Yoga",
+          "Ralph Lauren"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "運動品牌",
+        "text": "[[adidas]] (年增 60%)、[[Nike]] (年增 10%)、[[PUMA]]、[[lululemon]] (最快成長)",
+        "entities": [
+          "adidas",
+          "Nike",
+          "PUMA",
+          "lululemon"
+        ]
+      },
+      {
+        "role": "戶外品牌",
+        "text": "[[The North Face]] (年增 60%)、[[Patagonia]]、[[Mont-bell]] (年增 60%)、[[Arc'teryx]]",
+        "entities": [
+          "The North Face",
+          "Patagonia",
+          "Mont-bell",
+          "Arc'teryx"
+        ]
+      },
+      {
+        "role": "時尚/新興",
+        "text": "[[Alo Yoga]] (最新客戶)、[[Ralph Lauren]]",
+        "entities": [
+          "Alo Yoga",
+          "Ralph Lauren"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "布料",
+        "text": "[[福懋興業]] — 主要布料供應商兼 20% 策略股東",
+        "entities": [
+          "福懋興業"
+        ]
+      },
+      {
+        "role": "羽絨",
+        "text": "[[尚弘羽絨]] — 鴨鵝絨填充材料",
+        "entities": [
+          "尚弘羽絨"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "adidas",
+      "type": "international_company_or_term",
+      "wikilink": "adidas"
+    },
+    {
+      "name": "Nike",
+      "type": "international_company_or_term",
+      "wikilink": "Nike"
+    },
+    {
+      "name": "The North Face",
+      "type": "international_company_or_term",
+      "wikilink": "The North Face"
+    },
+    {
+      "name": "VF Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "VF Corporation"
+    },
+    {
+      "name": "Patagonia",
+      "type": "international_company_or_term",
+      "wikilink": "Patagonia"
+    },
+    {
+      "name": "lululemon",
+      "type": "international_company_or_term",
+      "wikilink": "lululemon"
+    },
+    {
+      "name": "PUMA",
+      "type": "international_company_or_term",
+      "wikilink": "PUMA"
+    },
+    {
+      "name": "Mont-bell",
+      "type": "international_company_or_term",
+      "wikilink": "Mont-bell"
+    },
+    {
+      "name": "Alo Yoga",
+      "type": "international_company_or_term",
+      "wikilink": "Alo Yoga"
+    },
+    {
+      "name": "Arc'teryx",
+      "type": "international_company_or_term",
+      "wikilink": "Arc'teryx"
+    },
+    {
+      "name": "福懋興業",
+      "type": "taiwan_company_or_term",
+      "wikilink": "福懋興業"
+    },
+    {
+      "name": "尚弘羽絨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "尚弘羽絨"
+    },
+    {
+      "name": "Under Armour",
+      "type": "international_company_or_term",
+      "wikilink": "Under Armour"
+    },
+    {
+      "name": "Ralph Lauren",
+      "type": "international_company_or_term",
+      "wikilink": "Ralph Lauren"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "廣越企業 (4438，Kwong Lung Enterprise) 成立於 1995 年，為全球最大高階羽絨外套製造商。生產基地分布於中國、越南、約旦及羅馬尼亞。主要客戶涵蓋[[adidas]] (訂單年增 60%)、[[Nike]] (年增 10%)、[[The North Face]] ([[VF Corporation]]旗下，年增 60%)、[[Patagonia]] (年增 5%)、[[lululemon]] (最快速成長新客戶)、[[PUMA]]、[[Mont-bell]] (年增 60%)、[[Alo Yoga]] (最新客戶，約旦廠出貨) 及[[Arc'teryx]]等全球頂級運動戶外品牌。策略性股東[[福懋興業]]持股約 20%，同時為主要布料供應商。",
+    "supply_chain_md": "**上游 (原料):**\n- **布料:** [[福懋興業]] — 主要布料供應商 (同時為 20% 策略股東，台灣/越南/中國設廠配合)\n- **羽絨:** [[尚弘羽絨]] — 鴨鵝絨填充材料供應 (廣越投資入股確保供應)\n\n**中游 (製造):**\n- **廣越** (高階羽絨外套 OEM，中國/越南/約旦/羅馬尼亞工廠)\n\n**下游 (品牌客戶):**\n- **運動品牌:** [[adidas]]、[[Nike]]、[[PUMA]]、[[lululemon]]、[[Under Armour]]\n- **戶外品牌:** [[The North Face]]、[[Patagonia]]、[[Mont-bell]]、[[Arc'teryx]]\n- **新興品牌:** [[Alo Yoga]]、[[Ralph Lauren]]",
+    "customers_suppliers_md": "### 主要客戶\n- **運動品牌:** [[adidas]] (年增 60%)、[[Nike]] (年增 10%)、[[PUMA]]、[[lululemon]] (最快成長)\n- **戶外品牌:** [[The North Face]] (年增 60%)、[[Patagonia]]、[[Mont-bell]] (年增 60%)、[[Arc'teryx]]\n- **時尚/新興:** [[Alo Yoga]] (最新客戶)、[[Ralph Lauren]]\n\n### 主要供應商\n- **布料:** [[福懋興業]] — 主要布料供應商兼 20% 策略股東\n- **羽絨:** [[尚弘羽絨]] — 鴨鵝絨填充材料",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $60.70 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.70 |        5.09 |      0.35 | 0.79 |      8.95 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     19423.69 |     16473.13 |     16552.81 |\n| Gross Profit            |      2566.64 |      2095.32 |      2485.99 |\n| Gross Margin (%)        |        13.21 |        12.72 |        15.02 |\n| Selling & Marketing Exp |       311.03 |       279.78 |       228.32 |\n| R&D Exp                 |       245.19 |       219.46 |       210.26 |\n| General & Admin Exp     |      1219.79 |      1130.77 |      1117.76 |\n| Operating Income        |       790.62 |       465.31 |       929.66 |\n| Operating Margin (%)    |         4.07 |         2.82 |         5.62 |\n| Net Income              |       320.22 |       401.99 |       734.19 |\n| Net Margin (%)          |         1.65 |         2.44 |         4.44 |\n| Op Cash Flow            |      -427.31 |      -430.00 |      1975.69 |\n| Investing Cash Flow     |       -54.94 |      -981.61 |     -1376.35 |\n| Financing Cash Flow     |       449.35 |       374.83 |     -1047.88 |\n| CAPEX                   |      -644.41 |      -377.85 |      -687.58 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2776.63 |      4591.73 |      4804.57 |      2756.05 |\n| Gross Profit            |       330.83 |       387.00 |       805.28 |       281.04 |\n| Gross Margin (%)        |        11.91 |         8.43 |        16.76 |        10.20 |\n| Selling & Marketing Exp |        63.52 |        94.19 |        69.03 |        59.57 |\n| R&D Exp                 |        58.32 |        57.96 |        64.58 |        59.15 |\n| General & Admin Exp     |       297.76 |       320.71 |       300.35 |       279.75 |\n| Operating Income        |       -88.78 |       -85.87 |       371.32 |      -117.44 |\n| Operating Margin (%)    |        -3.20 |        -1.87 |         7.73 |        -4.26 |\n| Net Income              |        -4.99 |       -32.70 |       -35.44 |      -129.84 |\n| Net Margin (%)          |        -0.18 |        -0.71 |        -0.74 |        -4.71 |\n| Op Cash Flow            |     -1696.45 |      2907.22 |     -1621.93 |     -2025.39 |\n| Investing Cash Flow     |       253.96 |      -260.70 |       121.40 |       230.96 |\n| Financing Cash Flow     |       955.25 |     -3828.25 |      1669.55 |      1575.97 |\n| CAPEX                   |       -86.64 |       -89.95 |      -121.49 |      -358.23 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

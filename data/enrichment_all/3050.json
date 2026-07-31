@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3050",
+  "company_name": "鈺德",
+  "title": "3050 - 鈺德",
+  "source_md": "Pilot_Reports/太陽能產業 - 太陽能電廠/3050_鈺德.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": "1,651 百萬台幣",
+    "enterprise_value": "3,023 百萬台幣"
+  },
+  "business": {
+    "summary": "鈺德科技股份有限公司 (3050) 為 [[錸德]] 集團旗下子公司，早期為全球前三大預錄光碟製造商。面對光碟市場萎縮，近年積極轉型至綠能與文創產業。綠能業務包含太陽能電廠（[[厚聚能源]]）與[[儲能系統]]運營，已建置 298 座[[太陽能]]電廠、總裝置容量達 41.5MW。文創業務以陽明山美軍俱樂部 (BY33) 為代表，經營餐飲與文創園區。",
+    "entities": [
+      "錸德",
+      "厚聚能源",
+      "儲能系統",
+      "太陽能"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (綠能設備)",
+        "text": "**上游 (綠能設備):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能模組",
+        "text": "太陽能板供應商",
+        "entities": []
+      },
+      {
+        "category": "逆變器",
+        "text": "逆變器 (Inverter) 供應商",
+        "entities": []
+      },
+      {
+        "category": "儲能電池",
+        "text": "[[儲能系統]]電池芯供應商",
+        "entities": [
+          "儲能系統"
+        ]
+      },
+      {
+        "category": "光碟原料",
+        "text": "聚碳酸酯 (PC) 原料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (綠能營運與光碟製造)",
+        "text": "**中游 (綠能營運與光碟製造):**",
+        "entities": []
+      },
+      {
+        "category": "太陽能電廠",
+        "text": "厚聚能源 (電廠建置與運營)",
+        "entities": []
+      },
+      {
+        "category": "儲能系統",
+        "text": "**鈺德** ([[儲能系統]]整合與運營)",
+        "entities": [
+          "儲能系統"
+        ]
+      },
+      {
+        "category": "光碟製造",
+        "text": "**鈺德** (預錄光碟生產，規模縮減中)",
+        "entities": []
+      },
+      {
+        "category": "文創園區",
+        "text": "**鈺德** (BY33 美軍俱樂部餐飲文創)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (售電與消費)",
+        "text": "**下游 (售電與消費):**",
+        "entities": []
+      },
+      {
+        "category": "售電",
+        "text": "[[台電]] — 太陽能與儲能售電收入",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "category": "光碟",
+        "text": "日本與歐美影音發行商",
+        "entities": []
+      },
+      {
+        "category": "文創",
+        "text": "一般消費者 — BY33 餐飲體驗",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "售電",
+        "text": "[[台電]] — 太陽能與儲能售電",
+        "entities": [
+          "台電"
+        ]
+      },
+      {
+        "role": "光碟",
+        "text": "日本與歐美影音發行商 — 預錄光碟",
+        "entities": []
+      },
+      {
+        "role": "文創",
+        "text": "一般消費者 — BY33 美軍俱樂部",
+        "entities": []
+      },
+      {
+        "role": "集團",
+        "text": "[[錸德]] — 集團內部綠能資源整合",
+        "entities": [
+          "錸德"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "太陽能模組",
+        "text": "太陽能板與逆變器供應商",
+        "entities": []
+      },
+      {
+        "role": "儲能電池",
+        "text": "鋰電池芯與電力轉換設備供應商",
+        "entities": []
+      },
+      {
+        "role": "光碟原料",
+        "text": "聚碳酸酯 (PC) 原料廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "錸德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "錸德"
+    },
+    {
+      "name": "厚聚能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "厚聚能源"
+    },
+    {
+      "name": "儲能系統",
+      "type": "taiwan_company_or_term",
+      "wikilink": "儲能系統"
+    },
+    {
+      "name": "太陽能",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太陽能"
+    },
+    {
+      "name": "台電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "鈺德科技股份有限公司 (3050) 為 [[錸德]] 集團旗下子公司，早期為全球前三大預錄光碟製造商。面對光碟市場萎縮，近年積極轉型至綠能與文創產業。綠能業務包含太陽能電廠（[[厚聚能源]]）與[[儲能系統]]運營，已建置 298 座[[太陽能]]電廠、總裝置容量達 41.5MW。文創業務以陽明山美軍俱樂部 (BY33) 為代表，經營餐飲與文創園區。",
+    "supply_chain_md": "**上游 (綠能設備):**\n- **太陽能模組:** 太陽能板供應商\n- **逆變器:** 逆變器 (Inverter) 供應商\n- **儲能電池:** [[儲能系統]]電池芯供應商\n- **光碟原料:** 聚碳酸酯 (PC) 原料\n\n**中游 (綠能營運與光碟製造):**\n- **太陽能電廠:** 厚聚能源 (電廠建置與運營)\n- **儲能系統:** **鈺德** ([[儲能系統]]整合與運營)\n- **光碟製造:** **鈺德** (預錄光碟生產，規模縮減中)\n- **文創園區:** **鈺德** (BY33 美軍俱樂部餐飲文創)\n\n**下游 (售電與消費):**\n- **售電:** [[台電]] — 太陽能與儲能售電收入\n- **光碟:** 日本與歐美影音發行商\n- **文創:** 一般消費者 — BY33 餐飲體驗",
+    "customers_suppliers_md": "### 主要客戶\n- **售電:** [[台電]] — 太陽能與儲能售電\n- **光碟:** 日本與歐美影音發行商 — 預錄光碟\n- **文創:** 一般消費者 — BY33 美軍俱樂部\n- **集團:** [[錸德]] — 集團內部綠能資源整合\n\n### 主要供應商\n- **太陽能模組:** 太陽能板與逆變器供應商\n- **儲能電池:** 鋰電池芯與電力轉換設備供應商\n- **光碟原料:** 聚碳酸酯 (PC) 原料廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $10.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.35 | 0.70 |     15.60 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1261.68 |      1252.63 |      1136.43 |\n| Gross Profit            |       419.37 |       420.31 |       442.33 |\n| Gross Margin (%)        |        33.24 |        33.55 |        38.92 |\n| Selling & Marketing Exp |        33.41 |        35.90 |        45.02 |\n| R&D Exp                 |         0.00 |         0.00 |         0.36 |\n| General & Admin Exp     |       344.51 |       346.78 |       285.46 |\n| Operating Income        |        41.45 |        37.62 |       111.49 |\n| Operating Margin (%)    |         3.29 |         3.00 |         9.81 |\n| Net Income              |         6.62 |        84.84 |        72.50 |\n| Net Margin (%)          |         0.52 |         6.77 |         6.38 |\n| Op Cash Flow            |       177.35 |       402.71 |       325.97 |\n| Investing Cash Flow     |       -82.41 |      -549.16 |        -3.72 |\n| Financing Cash Flow     |       168.66 |       194.05 |      -232.35 |\n| CAPEX                   |      -154.76 |      -454.72 |       -85.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       280.85 |       325.12 |       324.53 |       309.88 |\n| Gross Profit            |        82.63 |        90.67 |       121.59 |       103.94 |\n| Gross Margin (%)        |        29.42 |        27.89 |        37.47 |        33.54 |\n| Selling & Marketing Exp |         7.44 |         8.33 |         8.65 |         8.33 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        91.22 |        84.48 |        87.37 |        86.21 |\n| Operating Income        |       -16.04 |        -2.14 |        25.57 |         9.40 |\n| Operating Margin (%)    |        -5.71 |        -0.66 |         7.88 |         3.03 |\n| Net Income              |       -11.77 |         3.92 |        29.21 |       -40.33 |\n| Net Margin (%)          |        -4.19 |         1.20 |         9.00 |       -13.01 |\n| Op Cash Flow            |        -2.86 |       -17.13 |        97.25 |        60.21 |\n| Investing Cash Flow     |        14.93 |        88.83 |       -58.28 |       -88.00 |\n| Financing Cash Flow     |      -100.17 |       103.67 |       -65.73 |       183.71 |\n| CAPEX                   |        -8.58 |       -45.51 |       -69.52 |       -25.60 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

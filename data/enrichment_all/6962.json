@@ -1,0 +1,197 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6962",
+  "company_name": "奕力-KY",
+  "title": "6962 - 奕力-KY",
+  "source_md": "Pilot_Reports/Electronic Components/6962_奕力-KY.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "14,846 百萬台幣",
+    "enterprise_value": "11,114 百萬台幣"
+  },
+  "business": {
+    "summary": "奕力-KY (6962，[[ITH Corporation]]) 由原奕力科技與 [[聯詠]] 子公司觸控 IC 部門整合而成，為面板驅動 IC 與觸控 IC 設計公司，全球 TDDI (觸控與顯示驅動整合) 市佔率排名第二。\n\n業務結構與動能：(1) 顯示驅動 IC — 面板驅動 IC，應用於智慧型手機、平板與工控顯示器；(2) 觸控 IC — 觸控控制晶片，整合觸控與顯示驅動技術 (TDDI)；(3) 時序控制器 (TCON) — 面板時序控制 IC。公司掌握柔性螢幕顯示/整合驅動 IC 與車用 TDDI (通過 ISO 26262 ASIL B 認證) 等前瞻技術，已打入 [[Wacom]] Level 1 主動筆認證。總部位於新竹。",
+    "entities": [
+      "ITH Corporation",
+      "聯詠",
+      "Wacom"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工與封測)",
+        "text": "**上游 (晶圓代工與封測):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "category": "封測",
+        "text": "大型 OSAT 封測廠 — COF/COG 封裝",
+        "entities": []
+      },
+      {
+        "category": "IP/EDA",
+        "text": "矽智財與 EDA 工具",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "顯示驅動 IC",
+        "text": "**奕力** (面板驅動 IC 設計)",
+        "entities": []
+      },
+      {
+        "category": "觸控 IC",
+        "text": "**奕力** (觸控控制與 TDDI 晶片)",
+        "entities": []
+      },
+      {
+        "category": "TCON",
+        "text": "**奕力** (時序控制器 IC)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板廠與品牌)",
+        "text": "**下游 (面板廠與品牌):**",
+        "entities": []
+      },
+      {
+        "category": "面板廠",
+        "text": "全球面板廠 — 顯示驅動與觸控 IC",
+        "entities": []
+      },
+      {
+        "category": "手機品牌",
+        "text": "智慧型手機品牌 — TDDI 晶片",
+        "entities": []
+      },
+      {
+        "category": "平板",
+        "text": "平板電腦品牌 — [[Wacom]] 主動筆觸控 IC",
+        "entities": [
+          "Wacom"
+        ]
+      },
+      {
+        "category": "車用顯示",
+        "text": "車用面板廠 — 車規 TDDI IC",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板廠",
+        "text": "全球面板廠 — 顯示驅動與觸控 TDDI IC",
+        "entities": []
+      },
+      {
+        "role": "手機品牌",
+        "text": "智慧型手機品牌 — 柔性螢幕驅動 IC",
+        "entities": []
+      },
+      {
+        "role": "平板",
+        "text": "平板電腦品牌 — [[Wacom]] Level 1 主動筆觸控 IC",
+        "entities": [
+          "Wacom"
+        ]
+      },
+      {
+        "role": "車用顯示",
+        "text": "車用面板廠 — ISO 26262 ASIL B 車規 TDDI",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造",
+        "entities": [
+          "台積電",
+          "聯電"
+        ]
+      },
+      {
+        "role": "封測",
+        "text": "大型 OSAT 封測廠 — COF/COG 封裝",
+        "entities": []
+      },
+      {
+        "role": "關聯企業",
+        "text": "[[聯詠]] — 技術淵源與合作",
+        "entities": [
+          "聯詠"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ITH Corporation",
+      "type": "international_company_or_term",
+      "wikilink": "ITH Corporation"
+    },
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "Wacom",
+      "type": "international_company_or_term",
+      "wikilink": "Wacom"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "奕力-KY (6962，[[ITH Corporation]]) 由原奕力科技與 [[聯詠]] 子公司觸控 IC 部門整合而成，為面板驅動 IC 與觸控 IC 設計公司，全球 TDDI (觸控與顯示驅動整合) 市佔率排名第二。\n\n業務結構與動能：(1) 顯示驅動 IC — 面板驅動 IC，應用於智慧型手機、平板與工控顯示器；(2) 觸控 IC — 觸控控制晶片，整合觸控與顯示驅動技術 (TDDI)；(3) 時序控制器 (TCON) — 面板時序控制 IC。公司掌握柔性螢幕顯示/整合驅動 IC 與車用 TDDI (通過 ISO 26262 ASIL B 認證) 等前瞻技術，已打入 [[Wacom]] Level 1 主動筆認證。總部位於新竹。",
+    "supply_chain_md": "**上游 (晶圓代工與封測):**\n- **晶圓代工:** [[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造\n- **封測:** 大型 OSAT 封測廠 — COF/COG 封裝\n- **IP/EDA:** 矽智財與 EDA 工具\n\n**中游 (IC 設計):**\n- **顯示驅動 IC:** **奕力** (面板驅動 IC 設計)\n- **觸控 IC:** **奕力** (觸控控制與 TDDI 晶片)\n- **TCON:** **奕力** (時序控制器 IC)\n\n**下游 (面板廠與品牌):**\n- **面板廠:** 全球面板廠 — 顯示驅動與觸控 IC\n- **手機品牌:** 智慧型手機品牌 — TDDI 晶片\n- **平板:** 平板電腦品牌 — [[Wacom]] 主動筆觸控 IC\n- **車用顯示:** 車用面板廠 — 車規 TDDI IC",
+    "customers_suppliers_md": "### 主要客戶\n- **面板廠:** 全球面板廠 — 顯示驅動與觸控 TDDI IC\n- **手機品牌:** 智慧型手機品牌 — 柔性螢幕驅動 IC\n- **平板:** 平板電腦品牌 — [[Wacom]] Level 1 主動筆觸控 IC\n- **車用顯示:** 車用面板廠 — ISO 26262 ASIL B 車規 TDDI\n\n### 主要供應商\n- **晶圓代工:** [[台積電]]、[[聯電]] 等晶圓代工廠 — 驅動 IC 製造\n- **封測:** 大型 OSAT 封測廠 — COF/COG 封裝\n- **關聯企業:** [[聯詠]] — 技術淵源與合作",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $29.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     19.59 |        5.26 |      0.77 | 0.70 |      8.45 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     19085.07 |     22461.56 |     22397.64 |\n| Gross Profit            |      5180.92 |      6023.79 |      4547.57 |\n| Gross Margin (%)        |        27.15 |        26.82 |        20.30 |\n| Selling & Marketing Exp |      1114.80 |       919.22 |       861.61 |\n| R&D Exp                 |      2026.73 |      2526.04 |      2180.45 |\n| General & Admin Exp     |       331.10 |       386.67 |       270.67 |\n| Operating Income        |      1708.28 |      2191.86 |      1234.84 |\n| Operating Margin (%)    |         8.95 |         9.76 |         5.51 |\n| Net Income              |      1364.29 |      2249.29 |      1101.59 |\n| Net Margin (%)          |         7.15 |        10.01 |         4.92 |\n| Op Cash Flow            |       249.36 |      3299.12 |      2121.71 |\n| Investing Cash Flow     |     -4272.95 |      -550.44 |      -817.57 |\n| Financing Cash Flow     |     -1131.57 |       103.39 |     -3860.23 |\n| CAPEX                   |      -275.72 |      -299.81 |      -239.80 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3917.70 |      4729.85 |      4672.33 |      4575.25 |\n| Gross Profit            |      1070.69 |       820.77 |      1137.72 |      2140.20 |\n| Gross Margin (%)        |        27.33 |        17.35 |        24.35 |        46.78 |\n| Selling & Marketing Exp |       297.69 |       294.62 |       196.64 |       310.48 |\n| R&D Exp                 |       528.50 |       475.40 |       413.32 |       613.18 |\n| General & Admin Exp     |        97.44 |        76.42 |        65.17 |       109.78 |\n| Operating Income        |       147.07 |       -25.65 |       462.59 |      1106.75 |\n| Operating Margin (%)    |         3.75 |        -0.54 |         9.90 |        24.19 |\n| Net Income              |       279.30 |       131.28 |        13.26 |       926.03 |\n| Net Margin (%)          |         7.13 |         2.78 |         0.28 |        20.24 |\n| Op Cash Flow            |       578.85 |       578.78 |      -382.77 |       166.77 |\n| Investing Cash Flow     |       944.09 |      -140.82 |     -3584.24 |       918.66 |\n| Financing Cash Flow     |      -380.97 |      -838.33 |      -121.26 |      -182.35 |\n| CAPEX                   |       -35.27 |       -47.79 |      -113.92 |       -37.93 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 5,
+    "warnings": []
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2486",
+  "company_name": "一詮",
+  "title": "2486 - 一詮",
+  "source_md": "Pilot_Reports/半導體 - 導線架/2486_一詮.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "42,929 百萬台幣",
+    "enterprise_value": "48,343 百萬台幣"
+  },
+  "business": {
+    "summary": "一詮精密 (2486) 是全球最大的 [[LED 導線架]]製造商，產品涵蓋 LED [[導線架]]、IC [[導線架]]、[[陶瓷基板]]及[[散熱]]元件 (均熱片)。LED [[導線架]]客戶包括韓國 [[Samsung]] 及國內 [[億光電子]]。IC [[導線架]]鎖定中國前三大封裝廠認證，均熱片前五大客戶均為全球半導體封裝大廠如 [[日月光投控]]、[[矽品]]、[[Amkor]]。",
+    "entities": [
+      "LED 導線架",
+      "導線架",
+      "陶瓷基板",
+      "散熱",
+      "Samsung",
+      "億光電子",
+      "日月光投控",
+      "矽品",
+      "Amkor"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "銅合金帶材",
+        "text": "[[導線架]]用銅合金",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "category": "陶瓷粉體",
+        "text": "陶瓷基板材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[導線架]]製造)",
+        "text": "**中游 ([[導線架]]製造):**",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "category": "LED/IC [[導線架]]",
+        "text": "**一詮** (全球最大 LED [[導線架]]，含陶瓷基板/均熱片)",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (封裝廠)",
+        "text": "**下游 (封裝廠):**",
+        "entities": []
+      },
+      {
+        "category": "LED 封裝",
+        "text": "[[Samsung]]、[[億光電子]] (LED [[導線架]])",
+        "entities": [
+          "Samsung",
+          "億光電子",
+          "導線架"
+        ]
+      },
+      {
+        "category": "半導體封裝",
+        "text": "[[日月光投控]]、[[矽品]]、[[Amkor]] (均熱片)",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "Amkor"
+        ]
+      },
+      {
+        "category": "IC 封裝",
+        "text": "中國前三大封裝廠 (IC [[導線架]])",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "LED 封裝",
+        "text": "[[Samsung]]、[[億光電子]]",
+        "entities": [
+          "Samsung",
+          "億光電子"
+        ]
+      },
+      {
+        "role": "半導體封裝 (均熱片)",
+        "text": "[[日月光投控]]、[[矽品]]、[[Amkor]]",
+        "entities": [
+          "日月光投控",
+          "矽品",
+          "Amkor"
+        ]
+      },
+      {
+        "role": "IC 封裝",
+        "text": "中國前三大封裝廠 (IC [[導線架]])",
+        "entities": [
+          "導線架"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅合金",
+        "text": "[[導線架]]用銅合金帶材",
+        "entities": [
+          "導線架"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[順德]] (功率[[導線架]]龍頭)、[[界霖]]",
+        "entities": [
+          "順德",
+          "導線架",
+          "界霖"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[順德]] (功率[[導線架]]龍頭)、[[界霖]]",
+        "entities": [
+          "順德",
+          "導線架",
+          "界霖"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "LED 導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "LED 導線架"
+    },
+    {
+      "name": "導線架",
+      "type": "taiwan_company_or_term",
+      "wikilink": "導線架"
+    },
+    {
+      "name": "陶瓷基板",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陶瓷基板"
+    },
+    {
+      "name": "散熱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "散熱"
+    },
+    {
+      "name": "Samsung",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung"
+    },
+    {
+      "name": "億光電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "億光電子"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "矽品",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽品"
+    },
+    {
+      "name": "Amkor",
+      "type": "international_company_or_term",
+      "wikilink": "Amkor"
+    },
+    {
+      "name": "順德",
+      "type": "taiwan_company_or_term",
+      "wikilink": "順德"
+    },
+    {
+      "name": "界霖",
+      "type": "taiwan_company_or_term",
+      "wikilink": "界霖"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "一詮精密 (2486) 是全球最大的 [[LED 導線架]]製造商，產品涵蓋 LED [[導線架]]、IC [[導線架]]、[[陶瓷基板]]及[[散熱]]元件 (均熱片)。LED [[導線架]]客戶包括韓國 [[Samsung]] 及國內 [[億光電子]]。IC [[導線架]]鎖定中國前三大封裝廠認證，均熱片前五大客戶均為全球半導體封裝大廠如 [[日月光投控]]、[[矽品]]、[[Amkor]]。",
+    "supply_chain_md": "**上游 (原料):**\n- **銅合金帶材:** [[導線架]]用銅合金\n- **陶瓷粉體:** 陶瓷基板材料\n\n**中游 ([[導線架]]製造):**\n- **LED/IC [[導線架]]:** **一詮** (全球最大 LED [[導線架]]，含陶瓷基板/均熱片)\n\n**下游 (封裝廠):**\n- **LED 封裝:** [[Samsung]]、[[億光電子]] (LED [[導線架]])\n- **半導體封裝:** [[日月光投控]]、[[矽品]]、[[Amkor]] (均熱片)\n- **IC 封裝:** 中國前三大封裝廠 (IC [[導線架]])",
+    "customers_suppliers_md": "### 主要客戶\n- **LED 封裝:** [[Samsung]]、[[億光電子]]\n- **半導體封裝 (均熱片):** [[日月光投控]]、[[矽品]]、[[Amkor]]\n- **IC 封裝:** 中國前三大封裝廠 (IC [[導線架]])\n\n### 主要供應商\n- **銅合金:** [[導線架]]用銅合金帶材\n- **競爭同業:** [[順德]] (功率[[導線架]]龍頭)、[[界霖]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $171.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    328.85 |       34.55 |      6.30 | 7.59 |     73.23 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6046.42 |      5492.38 |      5068.70 |\n| Gross Profit            |       859.57 |       770.87 |       717.11 |\n| Gross Margin (%)        |        14.22 |        14.04 |        14.15 |\n| Selling & Marketing Exp |       201.64 |       202.90 |       173.34 |\n| R&D Exp                 |       165.47 |       159.59 |       117.14 |\n| General & Admin Exp     |       354.43 |       396.37 |       307.08 |\n| Operating Income        |       138.03 |        12.01 |       119.55 |\n| Operating Margin (%)    |         2.28 |         0.22 |         2.36 |\n| Net Income              |        50.62 |        18.81 |       200.89 |\n| Net Margin (%)          |         0.84 |         0.34 |         3.96 |\n| Op Cash Flow            |       350.56 |       220.01 |       844.76 |\n| Investing Cash Flow     |     -1669.83 |     -3446.72 |      -185.24 |\n| Financing Cash Flow     |      1134.48 |      3039.13 |      -448.83 |\n| CAPEX                   |     -1688.28 |     -3449.79 |      -140.01 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1620.29 |      1545.92 |      1551.65 |      1597.60 |\n| Gross Profit            |       341.10 |       245.24 |       218.47 |       199.78 |\n| Gross Margin (%)        |        21.05 |        15.86 |        14.08 |        12.50 |\n| Selling & Marketing Exp |        57.92 |        56.86 |        49.44 |        47.11 |\n| R&D Exp                 |        50.45 |        45.00 |        40.78 |        40.07 |\n| General & Admin Exp     |       108.27 |        95.70 |        82.92 |        84.49 |\n| Operating Income        |       124.47 |        47.68 |        45.33 |        28.11 |\n| Operating Margin (%)    |         7.68 |         3.08 |         2.92 |         1.76 |\n| Net Income              |        66.49 |        12.80 |        51.17 |       -11.36 |\n| Net Margin (%)          |         4.10 |         0.83 |         3.30 |        -0.71 |\n| Op Cash Flow            |        92.09 |       268.94 |      -307.80 |       100.06 |\n| Investing Cash Flow     |     -1234.62 |      -197.53 |      -204.12 |      -402.24 |\n| Financing Cash Flow     |      1261.31 |       136.89 |        68.75 |       299.85 |\n| CAPEX                   |     -1234.49 |      -207.78 |      -177.46 |      -429.39 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

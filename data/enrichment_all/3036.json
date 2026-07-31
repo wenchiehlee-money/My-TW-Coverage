@@ -1,0 +1,280 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3036",
+  "company_name": "文曄",
+  "title": "3036 - 文曄",
+  "source_md": "Pilot_Reports/半導體 - IC通路/3036_文曄.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "234,844 百萬台幣",
+    "enterprise_value": "291,616 百萬台幣"
+  },
+  "business": {
+    "summary": "文曄科技 ([[WT Microelectronics]]) 為全球前四大半導體零組件通路商，與 [[大聯大]] 並列台灣通路雙雄。2024 年以 38 億美元完成對加拿大通路商 [[Future Electronics]] 之併購案，成功打入歐美工控與車用市場。\n\n代理產品線極廣，涵蓋類比、混合訊號、功率元件、微控制器等，主要代理 [[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Marvell]]、[[Broadcom]]、[[Skyworks]]、[[ON Semiconductor]] 等國際大廠。服務超過 25,000 家全球客戶。",
+    "entities": [
+      "WT Microelectronics",
+      "大聯大",
+      "Future Electronics",
+      "TI",
+      "STMicroelectronics",
+      "Renesas",
+      "Marvell",
+      "Broadcom",
+      "Skyworks",
+      "ON Semiconductor"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (半導體原廠)",
+        "text": "**上游 (半導體原廠):**",
+        "entities": []
+      },
+      {
+        "category": "類比/功率",
+        "text": "[[TI]]、[[STMicroelectronics]]、[[ON Semiconductor]] — 類比 IC、[[MOSFET]]",
+        "entities": [
+          "TI",
+          "STMicroelectronics",
+          "ON Semiconductor",
+          "MOSFET"
+        ]
+      },
+      {
+        "category": "微控制器",
+        "text": "[[Renesas]]、[[STMicroelectronics]] — MCU",
+        "entities": [
+          "Renesas",
+          "STMicroelectronics"
+        ]
+      },
+      {
+        "category": "射頻/網通",
+        "text": "[[Broadcom]]、[[Marvell]]、[[Skyworks]] — 射頻與網通晶片",
+        "entities": [
+          "Broadcom",
+          "Marvell",
+          "Skyworks"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (通路代理與技術服務)",
+        "text": "**中游 (通路代理與技術服務):**",
+        "entities": []
+      },
+      {
+        "category": "亞太通路",
+        "text": "**文曄** (亞太區半導體代理)",
+        "entities": []
+      },
+      {
+        "category": "歐美通路",
+        "text": "[[Future Electronics]] (歐美工控/車用代理)",
+        "entities": [
+          "Future Electronics"
+        ]
+      },
+      {
+        "category": "技術支援",
+        "text": "**文曄** (設計導入與供應鏈管理)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (EMS/ODM 與終端品牌)",
+        "text": "**下游 (EMS/ODM 與終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "EMS/ODM",
+        "text": "[[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 代工廠採購",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "category": "手機品牌",
+        "text": "[[Apple]]、中國手機品牌",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "category": "車用/工控",
+        "text": "歐美工控與車用大廠 — 透過 [[Future Electronics]] 服務",
+        "entities": [
+          "Future Electronics"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "EMS/ODM",
+        "text": "[[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 半導體零組件採購",
+        "entities": [
+          "鴻海",
+          "廣達",
+          "緯創"
+        ]
+      },
+      {
+        "role": "手機品牌",
+        "text": "[[Apple]]、中國手機品牌",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "車用/工控",
+        "text": "歐美工控與車用大廠 — 透過 [[Future Electronics]]",
+        "entities": [
+          "Future Electronics"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "核心代理原廠",
+        "text": "[[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Broadcom]]、[[Marvell]]、[[Skyworks]]、[[ON Semiconductor]]",
+        "entities": [
+          "TI",
+          "STMicroelectronics",
+          "Renesas",
+          "Broadcom",
+          "Marvell",
+          "Skyworks",
+          "ON Semiconductor"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "WT Microelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "WT Microelectronics"
+    },
+    {
+      "name": "大聯大",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大聯大"
+    },
+    {
+      "name": "Future Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "Future Electronics"
+    },
+    {
+      "name": "TI",
+      "type": "international_company_or_term",
+      "wikilink": "TI"
+    },
+    {
+      "name": "STMicroelectronics",
+      "type": "international_company_or_term",
+      "wikilink": "STMicroelectronics"
+    },
+    {
+      "name": "Renesas",
+      "type": "international_company_or_term",
+      "wikilink": "Renesas"
+    },
+    {
+      "name": "Marvell",
+      "type": "international_company_or_term",
+      "wikilink": "Marvell"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Skyworks",
+      "type": "international_company_or_term",
+      "wikilink": "Skyworks"
+    },
+    {
+      "name": "ON Semiconductor",
+      "type": "international_company_or_term",
+      "wikilink": "ON Semiconductor"
+    },
+    {
+      "name": "MOSFET",
+      "type": "technology",
+      "wikilink": "MOSFET"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "立衛",
+      "type": "taiwan_company_or_term",
+      "wikilink": "立衛"
+    },
+    {
+      "name": "巨虹",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨虹"
+    },
+    {
+      "name": "擎亞",
+      "type": "taiwan_company_or_term",
+      "wikilink": "擎亞"
+    },
+    {
+      "name": "至上",
+      "type": "taiwan_company_or_term",
+      "wikilink": "至上"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "文曄科技 ([[WT Microelectronics]]) 為全球前四大半導體零組件通路商，與 [[大聯大]] 並列台灣通路雙雄。2024 年以 38 億美元完成對加拿大通路商 [[Future Electronics]] 之併購案，成功打入歐美工控與車用市場。\n\n代理產品線極廣，涵蓋類比、混合訊號、功率元件、微控制器等，主要代理 [[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Marvell]]、[[Broadcom]]、[[Skyworks]]、[[ON Semiconductor]] 等國際大廠。服務超過 25,000 家全球客戶。",
+    "supply_chain_md": "**上游 (半導體原廠):**\n- **類比/功率:** [[TI]]、[[STMicroelectronics]]、[[ON Semiconductor]] — 類比 IC、[[MOSFET]]\n- **微控制器:** [[Renesas]]、[[STMicroelectronics]] — MCU\n- **射頻/網通:** [[Broadcom]]、[[Marvell]]、[[Skyworks]] — 射頻與網通晶片\n\n**中游 (通路代理與技術服務):**\n- **亞太通路:** **文曄** (亞太區半導體代理)\n- **歐美通路:** [[Future Electronics]] (歐美工控/車用代理)\n- **技術支援:** **文曄** (設計導入與供應鏈管理)\n\n**下游 (EMS/ODM 與終端品牌):**\n- **EMS/ODM:** [[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 代工廠採購\n- **手機品牌:** [[Apple]]、中國手機品牌\n- **車用/工控:** 歐美工控與車用大廠 — 透過 [[Future Electronics]] 服務",
+    "customers_suppliers_md": "### 主要客戶\n- **EMS/ODM:** [[鴻海]] (最大客戶)、[[廣達]]、[[緯創]] — 半導體零組件採購\n- **手機品牌:** [[Apple]]、中國手機品牌\n- **車用/工控:** 歐美工控與車用大廠 — 透過 [[Future Electronics]]\n\n### 主要供應商\n- **核心代理原廠:** [[TI]]、[[STMicroelectronics]]、[[Renesas]]、[[Broadcom]]、[[Marvell]]、[[Skyworks]]、[[ON Semiconductor]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $183.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     12.95 |        6.24 |      0.16 | 2.07 |     10.72 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |   1177948.91 |    959431.90 |    594518.81 |\n| Gross Profit            |     47623.83 |     37602.07 |     18406.26 |\n| Gross Margin (%)        |         4.04 |         3.92 |         3.10 |\n| Selling & Marketing Exp |     19393.04 |     16573.83 |      6383.29 |\n| R&D Exp                 |       810.44 |       850.59 |       755.45 |\n| General & Admin Exp     |      5898.18 |      4815.20 |      3059.84 |\n| Operating Income        |     21522.18 |     15362.45 |      8207.68 |\n| Operating Margin (%)    |         1.83 |         1.60 |         1.38 |\n| Net Income              |     13543.72 |      9112.16 |      4012.14 |\n| Net Margin (%)          |         1.15 |         0.95 |         0.67 |\n| Op Cash Flow            |     17606.04 |     42427.65 |     41028.04 |\n| Investing Cash Flow     |     -1761.01 |   -108885.89 |      -738.64 |\n| Financing Cash Flow     |    -26817.67 |     82029.86 |    -22956.62 |\n| CAPEX                   |     -1938.64 |      -319.14 |      -253.23 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |    494272.92 |    342086.75 |    328934.35 |    259503.35 |\n| Gross Profit            |     17043.91 |     12793.58 |     12291.72 |     11217.24 |\n| Gross Margin (%)        |         3.45 |         3.74 |         3.74 |         4.32 |\n| Selling & Marketing Exp |      5159.61 |      4962.29 |      4587.91 |      4901.23 |\n| R&D Exp                 |       211.91 |       213.13 |       193.97 |       201.28 |\n| General & Admin Exp     |      1547.44 |      1491.36 |      1590.36 |      1310.96 |\n| Operating Income        |     10124.94 |      6126.79 |      5919.49 |      4803.76 |\n| Operating Margin (%)    |         2.05 |         1.79 |         1.80 |         1.85 |\n| Net Income              |      7009.16 |      4190.91 |      3815.71 |      2830.14 |\n| Net Margin (%)          |         1.42 |         1.23 |         1.16 |         1.09 |\n| Op Cash Flow            |     -8440.12 |     -2186.73 |      6767.48 |       205.44 |\n| Investing Cash Flow     |       300.70 |      -358.96 |      -134.22 |     -1119.15 |\n| Financing Cash Flow     |     17488.20 |     -1508.88 |     -6384.54 |     -9712.18 |\n| CAPEX                   |      -169.18 |     -1444.01 |      -165.82 |      -130.60 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 15,
+    "warnings": []
+  }
+}

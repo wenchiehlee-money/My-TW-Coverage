@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "8210",
+  "company_name": "勤誠",
+  "title": "8210 - 勤誠",
+  "source_md": "Pilot_Reports/雲端運算 - 電腦設備/8210_勤誠.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "122,938 百萬台幣",
+    "enterprise_value": "119,173 百萬台幣"
+  },
+  "business": {
+    "summary": "勤誠興業股份有限公司 (8210，[[Chenbro Micom]]) 成立於 1983 年，總部位於新北市新莊區，是全球前三大伺服器機殼供應商之一，全球白牌伺服器機殼市佔率約 13%。公司 99% 營收來自伺服器及儲存設備機殼，白牌伺服器營收佔比逾七成。\n\n公司提供 OEM/ODM/JDM 服務，產品涵蓋機架式 (Rackmount) 伺服器機殼、塔式伺服器機殼、儲存擴充套件及 [[AI 伺服器]]專用機殼。近年積極搶攻 AI 伺服器機殼商機，展出 2U/4U MGX 生成式 AI 及 [[HPC]] 方案，並支援 [[NVIDIA]] NVL72/NVL36 機櫃部署。公司為 [[Amazon]] HGX AI 伺服器機殼主要供應商，[[ASIC]] 伺服器訂單佔比預計從 2024 年 10-20% 提升至 2025 年 20-30%。",
+    "entities": [
+      "Chenbro Micom",
+      "AI 伺服器",
+      "HPC",
+      "NVIDIA",
+      "Amazon",
+      "ASIC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (金屬材料與零組件)",
+        "text": "**上游 (金屬材料與零組件):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材/鋁材",
+        "text": "伺服器機殼用冷軋鋼板及鋁合金",
+        "entities": []
+      },
+      {
+        "category": "沖壓模具",
+        "text": "精密金屬沖壓模具及治具",
+        "entities": []
+      },
+      {
+        "category": "散熱/電源",
+        "text": "機殼內散熱風扇及電源轉接模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (伺服器機殼設計製造)",
+        "text": "**中游 (伺服器機殼設計製造):**",
+        "entities": []
+      },
+      {
+        "category": "通用機殼",
+        "text": "**勤誠** (Rackmount/Tower 伺服器機殼)",
+        "entities": []
+      },
+      {
+        "category": "AI 機殼",
+        "text": "**勤誠** (2U/4U MGX [[AI 伺服器]]機殼、[[NVIDIA]] NVL72 支援)",
+        "entities": [
+          "AI 伺服器",
+          "NVIDIA"
+        ]
+      },
+      {
+        "category": "儲存機殼",
+        "text": "**勤誠** (儲存擴充套件及磁碟陣列機殼)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (全球雲端及 AI 伺服器客戶)",
+        "text": "**下游 (全球雲端及 AI 伺服器客戶):**",
+        "entities": []
+      },
+      {
+        "category": "CSP 巨頭",
+        "text": "[[Amazon]] (AWS) — HGX AI 伺服器機殼主要供應商",
+        "entities": [
+          "Amazon"
+        ]
+      },
+      {
+        "category": "白牌伺服器",
+        "text": "全球白牌伺服器系統整合商",
+        "entities": []
+      },
+      {
+        "category": "品牌伺服器",
+        "text": "一線伺服器品牌廠 — OEM/JDM 合作",
+        "entities": []
+      },
+      {
+        "category": "企業/電信",
+        "text": "企業級及電信營運商[[資料中心]]",
+        "entities": [
+          "資料中心"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "CSP 巨頭",
+        "text": "[[Amazon]] (AWS) — HGX [[AI 伺服器]]機殼主要供應商",
+        "entities": [
+          "Amazon",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "白牌伺服器",
+        "text": "全球白牌伺服器系統整合商",
+        "entities": []
+      },
+      {
+        "role": "品牌伺服器",
+        "text": "一線伺服器品牌廠 — OEM/JDM 合作",
+        "entities": []
+      },
+      {
+        "role": "[[ASIC]] 伺服器",
+        "text": "[[ASIC]] AI 伺服器客戶 — 訂單佔比持續提升",
+        "entities": [
+          "ASIC"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材/鋁材",
+        "text": "伺服器機殼用冷軋鋼板及鋁合金供應商",
+        "entities": []
+      },
+      {
+        "role": "沖壓模具",
+        "text": "精密金屬沖壓模具供應商",
+        "entities": []
+      },
+      {
+        "role": "散熱/電源",
+        "text": "機殼散熱風扇及電源轉接模組廠",
+        "entities": []
+      },
+      {
+        "role": "GPU 生態",
+        "text": "[[NVIDIA]] — AI 伺服器 NVL72/NVL36 平台相容",
+        "entities": [
+          "NVIDIA"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Chenbro Micom",
+      "type": "international_company_or_term",
+      "wikilink": "Chenbro Micom"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "HPC",
+      "type": "international_company_or_term",
+      "wikilink": "HPC"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "Amazon",
+      "type": "international_company_or_term",
+      "wikilink": "Amazon"
+    },
+    {
+      "name": "ASIC",
+      "type": "international_company_or_term",
+      "wikilink": "ASIC"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "勤誠興業股份有限公司 (8210，[[Chenbro Micom]]) 成立於 1983 年，總部位於新北市新莊區，是全球前三大伺服器機殼供應商之一，全球白牌伺服器機殼市佔率約 13%。公司 99% 營收來自伺服器及儲存設備機殼，白牌伺服器營收佔比逾七成。\n\n公司提供 OEM/ODM/JDM 服務，產品涵蓋機架式 (Rackmount) 伺服器機殼、塔式伺服器機殼、儲存擴充套件及 [[AI 伺服器]]專用機殼。近年積極搶攻 AI 伺服器機殼商機，展出 2U/4U MGX 生成式 AI 及 [[HPC]] 方案，並支援 [[NVIDIA]] NVL72/NVL36 機櫃部署。公司為 [[Amazon]] HGX AI 伺服器機殼主要供應商，[[ASIC]] 伺服器訂單佔比預計從 2024 年 10-20% 提升至 2025 年 20-30%。",
+    "supply_chain_md": "**上游 (金屬材料與零組件):**\n- **鋼材/鋁材:** 伺服器機殼用冷軋鋼板及鋁合金\n- **沖壓模具:** 精密金屬沖壓模具及治具\n- **散熱/電源:** 機殼內散熱風扇及電源轉接模組\n\n**中游 (伺服器機殼設計製造):**\n- **通用機殼:** **勤誠** (Rackmount/Tower 伺服器機殼)\n- **AI 機殼:** **勤誠** (2U/4U MGX [[AI 伺服器]]機殼、[[NVIDIA]] NVL72 支援)\n- **儲存機殼:** **勤誠** (儲存擴充套件及磁碟陣列機殼)\n\n**下游 (全球雲端及 AI 伺服器客戶):**\n- **CSP 巨頭:** [[Amazon]] (AWS) — HGX AI 伺服器機殼主要供應商\n- **白牌伺服器:** 全球白牌伺服器系統整合商\n- **品牌伺服器:** 一線伺服器品牌廠 — OEM/JDM 合作\n- **企業/電信:** 企業級及電信營運商[[資料中心]]",
+    "customers_suppliers_md": "### 主要客戶\n- **CSP 巨頭:** [[Amazon]] (AWS) — HGX [[AI 伺服器]]機殼主要供應商\n- **白牌伺服器:** 全球白牌伺服器系統整合商\n- **品牌伺服器:** 一線伺服器品牌廠 — OEM/JDM 合作\n- **[[ASIC]] 伺服器:** [[ASIC]] AI 伺服器客戶 — 訂單佔比持續提升\n\n### 主要供應商\n- **鋼材/鋁材:** 伺服器機殼用冷軋鋼板及鋁合金供應商\n- **沖壓模具:** 精密金屬沖壓模具供應商\n- **散熱/電源:** 機殼散熱風扇及電源轉接模組廠\n- **GPU 生態:** [[NVIDIA]] — AI 伺服器 NVL72/NVL36 平台相容",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $951.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     28.26 |       14.26 |      4.78 | 9.45 |     19.05 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     22001.34 |     14517.18 |     11247.26 |\n| Gross Profit            |      6594.14 |      3789.79 |      2573.83 |\n| Gross Margin (%)        |        29.97 |        26.11 |        22.88 |\n| Selling & Marketing Exp |       534.94 |       393.73 |       362.05 |\n| R&D Exp                 |       406.62 |       287.28 |       201.98 |\n| General & Admin Exp     |       944.29 |       665.51 |       574.52 |\n| Operating Income        |      4774.20 |      2505.28 |      1450.47 |\n| Operating Margin (%)    |        21.70 |        17.26 |        12.90 |\n| Net Income              |      3558.34 |      1933.53 |      1085.46 |\n| Net Margin (%)          |        16.17 |        13.32 |         9.65 |\n| Op Cash Flow            |      3086.93 |      2696.55 |      2523.92 |\n| Investing Cash Flow     |      -493.27 |     -1589.01 |      -233.74 |\n| Financing Cash Flow     |      -704.68 |      -348.29 |     -1174.65 |\n| CAPEX                   |      -989.22 |      -793.05 |      -245.11 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      7107.29 |      6740.00 |      5442.97 |      4153.77 |\n| Gross Profit            |      2333.09 |      1991.78 |      1628.41 |      1199.27 |\n| Gross Margin (%)        |        32.83 |        29.55 |        29.92 |        28.87 |\n| Selling & Marketing Exp |       146.41 |       180.21 |       111.29 |       107.42 |\n| R&D Exp                 |       133.66 |       130.97 |        87.17 |        83.12 |\n| General & Admin Exp     |       286.77 |       325.74 |       200.66 |       174.74 |\n| Operating Income        |      1776.02 |      1348.20 |      1244.50 |       885.88 |\n| Operating Margin (%)    |        24.99 |        20.00 |        22.86 |        21.33 |\n| Net Income              |      1335.96 |      1069.28 |       828.94 |       666.80 |\n| Net Margin (%)          |        18.80 |        15.86 |        15.23 |        16.05 |\n| Op Cash Flow            |      1185.84 |      1139.08 |       927.63 |       599.07 |\n| Investing Cash Flow     |      -432.02 |       -79.27 |       -53.38 |        19.11 |\n| Financing Cash Flow     |      1821.87 |       104.56 |        90.87 |         7.67 |\n| CAPEX                   |      -425.76 |      -173.66 |      -471.94 |       -77.20 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

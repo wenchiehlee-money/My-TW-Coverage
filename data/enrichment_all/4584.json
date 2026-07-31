@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4584",
+  "company_name": "君帆",
+  "title": "4584 - 君帆",
+  "source_md": "Pilot_Reports/電機機械 - 傳動元件/4584_君帆.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "1,191 百萬台幣",
+    "enterprise_value": "1,240 百萬台幣"
+  },
+  "business": {
+    "summary": "君帆工業 (4584，Jufan Industrial) 為專業液壓缸與氣壓元件製造商 (逾 40 年經驗)，產品涵蓋薄型油壓缸、圓形油壓缸、伺服油壓系統、氣壓缸及真空元件。中國輪胎硫化機油壓缸市場領導品牌。下游應用涵蓋輪胎機械 ([[正新橡膠]]/[[Maxxis]]供應鏈)、醫療設備 (手術台/CT 掃描升降，日本/中國客戶)、射出成型機鎖模油壓缸及工具機。",
+    "entities": [
+      "正新橡膠",
+      "Maxxis"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "鋼管/鋼棒/鑄件",
+        "text": "金屬材料供應商",
+        "entities": []
+      },
+      {
+        "category": "油封/密封件",
+        "text": "油封及密封件",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**君帆** (液壓缸/氣壓缸/真空元件，精密加工/電鍍/組裝)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端)",
+        "text": "**下游 (終端):**",
+        "entities": []
+      },
+      {
+        "category": "輪胎機械",
+        "text": "[[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸",
+        "entities": [
+          "正新橡膠",
+          "Maxxis"
+        ]
+      },
+      {
+        "category": "醫療",
+        "text": "日本醫療設備廠如 [[Shimadzu]] — 手術台/CT 掃描升降系統",
+        "entities": [
+          "Shimadzu"
+        ]
+      },
+      {
+        "category": "射出機/工具機",
+        "text": "[[東芝機械]] 等 — 鎖模油壓缸/驅動系統",
+        "entities": [
+          "東芝機械"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "輪胎設備",
+        "text": "[[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸",
+        "entities": [
+          "正新橡膠",
+          "Maxxis"
+        ]
+      },
+      {
+        "role": "醫療",
+        "text": "手術台/CT 掃描升降",
+        "entities": []
+      },
+      {
+        "role": "機械",
+        "text": "射出成型機/工具機廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "金屬",
+        "text": "鋼管/鋼棒/鑄件",
+        "entities": []
+      },
+      {
+        "role": "密封件",
+        "text": "油封/密封件",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "正新橡膠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正新橡膠"
+    },
+    {
+      "name": "Maxxis",
+      "type": "international_company_or_term",
+      "wikilink": "Maxxis"
+    },
+    {
+      "name": "Shimadzu",
+      "type": "international_company_or_term",
+      "wikilink": "Shimadzu"
+    },
+    {
+      "name": "東芝機械",
+      "type": "taiwan_company_or_term",
+      "wikilink": "東芝機械"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "君帆工業 (4584，Jufan Industrial) 為專業液壓缸與氣壓元件製造商 (逾 40 年經驗)，產品涵蓋薄型油壓缸、圓形油壓缸、伺服油壓系統、氣壓缸及真空元件。中國輪胎硫化機油壓缸市場領導品牌。下游應用涵蓋輪胎機械 ([[正新橡膠]]/[[Maxxis]]供應鏈)、醫療設備 (手術台/CT 掃描升降，日本/中國客戶)、射出成型機鎖模油壓缸及工具機。",
+    "supply_chain_md": "**上游 (原料):**\n- **鋼管/鋼棒/鑄件:** 金屬材料供應商\n- **油封/密封件:** 油封及密封件\n\n**中游 (製造):**\n- **君帆** (液壓缸/氣壓缸/真空元件，精密加工/電鍍/組裝)\n\n**下游 (終端):**\n- **輪胎機械:** [[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸\n- **醫療:** 日本醫療設備廠如 [[Shimadzu]] — 手術台/CT 掃描升降系統\n- **射出機/工具機:** [[東芝機械]] 等 — 鎖模油壓缸/驅動系統",
+    "customers_suppliers_md": "### 主要客戶\n- **輪胎設備:** [[正新橡膠]]/[[Maxxis]]供應鏈 — 硫化機油壓缸\n- **醫療:** 手術台/CT 掃描升降\n- **機械:** 射出成型機/工具機廠\n\n### 主要供應商\n- **金屬:** 鋼管/鋼棒/鑄件\n- **密封件:** 油封/密封件",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $38.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     12.69 |         N/A |      0.94 | 1.04 |      7.00 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1310.97 |      1331.05 |      1011.96 |\n| Gross Profit            |       436.26 |       421.79 |       326.02 |\n| Gross Margin (%)        |        33.28 |        31.69 |        32.22 |\n| Selling & Marketing Exp |        79.83 |        84.03 |        67.57 |\n| R&D Exp                 |        47.28 |        55.98 |        17.00 |\n| General & Admin Exp     |       128.27 |       118.86 |       142.01 |\n| Operating Income        |       180.87 |       162.93 |        99.44 |\n| Operating Margin (%)    |        13.80 |        12.24 |         9.83 |\n| Net Income              |       102.78 |       108.08 |        91.04 |\n| Net Margin (%)          |         7.84 |         8.12 |         9.00 |\n| Op Cash Flow            |        99.86 |       260.03 |       105.22 |\n| Investing Cash Flow     |       -22.41 |      -297.97 |       -14.95 |\n| Financing Cash Flow     |      -152.58 |       -57.47 |       -40.58 |\n| CAPEX                   |      -117.07 |      -209.79 |       -32.00 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       262.82 |       281.09 |       341.44 |       332.24 |\n| Gross Profit            |        79.27 |        96.23 |       105.76 |       108.33 |\n| Gross Margin (%)        |        30.16 |        34.23 |        30.97 |        32.60 |\n| Selling & Marketing Exp |        19.16 |        19.28 |        19.89 |        18.71 |\n| R&D Exp                 |        12.76 |        11.57 |        13.48 |        12.33 |\n| General & Admin Exp     |        32.81 |        33.61 |        32.39 |        29.82 |\n| Operating Income        |        14.54 |        31.77 |        39.99 |        47.47 |\n| Operating Margin (%)    |         5.53 |        11.30 |        11.71 |        14.29 |\n| Net Income              |        27.29 |        23.93 |        19.30 |        19.78 |\n| Net Margin (%)          |        10.38 |         8.51 |         5.65 |         5.95 |\n| Op Cash Flow            |        23.10 |        46.12 |        -4.34 |        98.26 |\n| Investing Cash Flow     |       -41.06 |       -31.57 |        -5.89 |       -32.44 |\n| Financing Cash Flow     |        28.76 |       -35.65 |       -78.58 |       -13.34 |\n| CAPEX                   |       -40.19 |       -34.84 |        -2.07 |       -58.89 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 4,
+    "warnings": []
+  }
+}

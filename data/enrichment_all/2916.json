@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2916",
+  "company_name": "滿心",
+  "title": "2916 - 滿心",
+  "source_md": "Pilot_Reports/貿易百貨 - 製造商/2916_滿心.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Apparel Manufacturing",
+    "market_cap": "2,533 百萬台幣",
+    "enterprise_value": "2,380 百萬台幣"
+  },
+  "business": {
+    "summary": "滿心企業 (2916，Munsin Garment) 成立於 1977 年，為台灣時尚品牌代理與百貨專櫃零售商，非成衣製造商。公司專營國際品牌授權代理與門市經營，代理品牌涵蓋：美國[[Munsingwear]]企鵝休閒服飾、法國[[Le Coq Sportif]]運動品牌、韓國[[HAZZYS]] ([[LF Corp]]旗下)、日本[[PEARLY GATES]]高爾夫球服飾、美國[[DANSKIN]]舞蹈運動服飾、義大利[[Nara Camicie]]女裝、日本[[COCODEAL]]及[[POU DOU DOU]]女裝、[[SCOTTISH HOUSE]]等逾十個國際品牌。全台設有約 200 個百貨專櫃及 90 間精品小店。",
+    "entities": [
+      "Munsingwear",
+      "Le Coq Sportif",
+      "HAZZYS",
+      "LF Corp",
+      "PEARLY GATES",
+      "DANSKIN",
+      "Nara Camicie",
+      "COCODEAL",
+      "POU DOU DOU",
+      "SCOTTISH HOUSE"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (品牌授權)",
+        "text": "**上游 (品牌授權):**",
+        "entities": []
+      },
+      {
+        "category": "美國品牌",
+        "text": "[[Munsingwear]]、[[DANSKIN]] — 品牌授權",
+        "entities": [
+          "Munsingwear",
+          "DANSKIN"
+        ]
+      },
+      {
+        "category": "法國品牌",
+        "text": "[[Le Coq Sportif]] — 運動品牌授權",
+        "entities": [
+          "Le Coq Sportif"
+        ]
+      },
+      {
+        "category": "韓國品牌",
+        "text": "[[HAZZYS]] ([[LF Corp]]) — 時尚品牌授權",
+        "entities": [
+          "HAZZYS",
+          "LF Corp"
+        ]
+      },
+      {
+        "category": "日本品牌",
+        "text": "[[PEARLY GATES]]、[[COCODEAL]]、[[POU DOU DOU]] — 品牌授權",
+        "entities": [
+          "PEARLY GATES",
+          "COCODEAL",
+          "POU DOU DOU"
+        ]
+      },
+      {
+        "category": "義大利品牌",
+        "text": "[[Nara Camicie]] — 女裝品牌授權",
+        "entities": [
+          "Nara Camicie"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (品牌代理)",
+        "text": "**中游 (品牌代理):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**滿心企業** (國際品牌授權代理、百貨專櫃營運)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (零售通路)",
+        "text": "**下游 (零售通路):**",
+        "entities": []
+      },
+      {
+        "category": "百貨專櫃",
+        "text": "[[新光三越]]、[[SOGO]]、[[遠東百貨]] — 約 200 個專櫃",
+        "entities": [
+          "新光三越",
+          "SOGO",
+          "遠東百貨"
+        ]
+      },
+      {
+        "category": "精品小店",
+        "text": "全台約 90 間門市",
+        "entities": []
+      },
+      {
+        "category": "線上商城",
+        "text": "滿心時尚購物網",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "百貨消費者",
+        "text": "[[新光三越]]、[[SOGO]]、[[遠東百貨]] — 約 200 個專櫃銷售",
+        "entities": [
+          "新光三越",
+          "SOGO",
+          "遠東百貨"
+        ]
+      },
+      {
+        "role": "線上消費者",
+        "text": "滿心時尚購物網",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "美國",
+        "text": "[[Munsingwear]]、[[DANSKIN]] — 品牌授權",
+        "entities": [
+          "Munsingwear",
+          "DANSKIN"
+        ]
+      },
+      {
+        "role": "法國",
+        "text": "[[Le Coq Sportif]] — 運動品牌",
+        "entities": [
+          "Le Coq Sportif"
+        ]
+      },
+      {
+        "role": "韓國",
+        "text": "[[HAZZYS]] ([[LF Corp]]) — 時尚品牌",
+        "entities": [
+          "HAZZYS",
+          "LF Corp"
+        ]
+      },
+      {
+        "role": "日本",
+        "text": "[[PEARLY GATES]]、[[COCODEAL]]、[[POU DOU DOU]] — 品牌授權",
+        "entities": [
+          "PEARLY GATES",
+          "COCODEAL",
+          "POU DOU DOU"
+        ]
+      },
+      {
+        "role": "義大利",
+        "text": "[[Nara Camicie]] — 女裝品牌",
+        "entities": [
+          "Nara Camicie"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Munsingwear",
+      "type": "international_company_or_term",
+      "wikilink": "Munsingwear"
+    },
+    {
+      "name": "Le Coq Sportif",
+      "type": "international_company_or_term",
+      "wikilink": "Le Coq Sportif"
+    },
+    {
+      "name": "HAZZYS",
+      "type": "international_company_or_term",
+      "wikilink": "HAZZYS"
+    },
+    {
+      "name": "LF Corp",
+      "type": "international_company_or_term",
+      "wikilink": "LF Corp"
+    },
+    {
+      "name": "PEARLY GATES",
+      "type": "international_company_or_term",
+      "wikilink": "PEARLY GATES"
+    },
+    {
+      "name": "DANSKIN",
+      "type": "international_company_or_term",
+      "wikilink": "DANSKIN"
+    },
+    {
+      "name": "Nara Camicie",
+      "type": "international_company_or_term",
+      "wikilink": "Nara Camicie"
+    },
+    {
+      "name": "COCODEAL",
+      "type": "international_company_or_term",
+      "wikilink": "COCODEAL"
+    },
+    {
+      "name": "POU DOU DOU",
+      "type": "international_company_or_term",
+      "wikilink": "POU DOU DOU"
+    },
+    {
+      "name": "SCOTTISH HOUSE",
+      "type": "international_company_or_term",
+      "wikilink": "SCOTTISH HOUSE"
+    },
+    {
+      "name": "新光三越",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新光三越"
+    },
+    {
+      "name": "SOGO",
+      "type": "international_company_or_term",
+      "wikilink": "SOGO"
+    },
+    {
+      "name": "遠東百貨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠東百貨"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "滿心企業 (2916，Munsin Garment) 成立於 1977 年，為台灣時尚品牌代理與百貨專櫃零售商，非成衣製造商。公司專營國際品牌授權代理與門市經營，代理品牌涵蓋：美國[[Munsingwear]]企鵝休閒服飾、法國[[Le Coq Sportif]]運動品牌、韓國[[HAZZYS]] ([[LF Corp]]旗下)、日本[[PEARLY GATES]]高爾夫球服飾、美國[[DANSKIN]]舞蹈運動服飾、義大利[[Nara Camicie]]女裝、日本[[COCODEAL]]及[[POU DOU DOU]]女裝、[[SCOTTISH HOUSE]]等逾十個國際品牌。全台設有約 200 個百貨專櫃及 90 間精品小店。",
+    "supply_chain_md": "**上游 (品牌授權):**\n- **美國品牌:** [[Munsingwear]]、[[DANSKIN]] — 品牌授權\n- **法國品牌:** [[Le Coq Sportif]] — 運動品牌授權\n- **韓國品牌:** [[HAZZYS]] ([[LF Corp]]) — 時尚品牌授權\n- **日本品牌:** [[PEARLY GATES]]、[[COCODEAL]]、[[POU DOU DOU]] — 品牌授權\n- **義大利品牌:** [[Nara Camicie]] — 女裝品牌授權\n\n**中游 (品牌代理):**\n- **滿心企業** (國際品牌授權代理、百貨專櫃營運)\n\n**下游 (零售通路):**\n- **百貨專櫃:** [[新光三越]]、[[SOGO]]、[[遠東百貨]] — 約 200 個專櫃\n- **精品小店:** 全台約 90 間門市\n- **線上商城:** 滿心時尚購物網",
+    "customers_suppliers_md": "### 主要客戶\n- **百貨消費者:** [[新光三越]]、[[SOGO]]、[[遠東百貨]] — 約 200 個專櫃銷售\n- **線上消費者:** 滿心時尚購物網\n\n### 主要供應商 (品牌授權方)\n- **美國:** [[Munsingwear]]、[[DANSKIN]] — 品牌授權\n- **法國:** [[Le Coq Sportif]] — 運動品牌\n- **韓國:** [[HAZZYS]] ([[LF Corp]]) — 時尚品牌\n- **日本:** [[PEARLY GATES]]、[[COCODEAL]]、[[POU DOU DOU]] — 品牌授權\n- **義大利:** [[Nara Camicie]] — 女裝品牌",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $39.45 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      9.86 |         N/A |      1.30 | 1.72 |      7.35 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1958.27 |      1920.17 |      1838.26 |\n| Gross Profit            |      1057.86 |      1041.48 |       973.83 |\n| Gross Margin (%)        |        54.02 |        54.24 |        52.98 |\n| Selling & Marketing Exp |       702.23 |       680.84 |       617.50 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        77.39 |        83.22 |        76.27 |\n| Operating Income        |       278.24 |       277.43 |       280.06 |\n| Operating Margin (%)    |        14.21 |        14.45 |        15.23 |\n| Net Income              |       255.91 |       248.07 |       252.04 |\n| Net Margin (%)          |        13.07 |        12.92 |        13.71 |\n| Op Cash Flow            |       273.38 |        58.36 |       246.83 |\n| Investing Cash Flow     |      -134.79 |       -93.28 |      -218.84 |\n| Financing Cash Flow     |      -207.16 |       232.15 |       -76.61 |\n| CAPEX                   |      -135.41 |       -93.56 |      -218.75 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       538.10 |       613.87 |       359.45 |       450.10 |\n| Gross Profit            |       283.02 |       334.33 |       195.50 |       244.40 |\n| Gross Margin (%)        |        52.60 |        54.46 |        54.39 |        54.30 |\n| Selling & Marketing Exp |       180.61 |       195.98 |       160.62 |       168.05 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        20.02 |        21.07 |        17.33 |        18.80 |\n| Operating Income        |        82.39 |       117.28 |        17.56 |        57.54 |\n| Operating Margin (%)    |        15.31 |        19.11 |         4.88 |        12.78 |\n| Net Income              |        81.22 |        98.59 |        18.97 |        60.46 |\n| Net Margin (%)          |        15.09 |        16.06 |         5.28 |        13.43 |\n| Op Cash Flow            |       203.05 |        42.33 |       -80.27 |       115.50 |\n| Investing Cash Flow     |       -29.47 |       -13.08 |       -34.74 |       -56.27 |\n| Financing Cash Flow     |      -107.60 |       -23.63 |         4.26 |      -152.50 |\n| CAPEX                   |       -29.64 |       -13.28 |       -34.74 |       -56.89 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2049",
+  "company_name": "上銀",
+  "title": "2049 - 上銀",
+  "source_md": "Pilot_Reports/自動化 - 工業型機器人/2049_上銀.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Tools & Accessories",
+    "market_cap": "102,777 百萬台幣",
+    "enterprise_value": "104,637 百萬台幣"
+  },
+  "business": {
+    "summary": "上銀科技 (2049，HIWIN Technologies) 成立於 1989 年，總部位於台灣台中，以自有品牌「HIWIN」行銷全球，為全球第二大[[滾珠螺桿]]製造商及全球前三大[[線性滑軌]]製造商，與日商 [[THK]] 及 [[NSK]] 合計市佔率超過七成。核心產品包括[[線性滑軌]] (佔營收約 63%)、[[滾珠螺桿]] (約 21%)、[[工業機器人]] (約 9%) 及其他產品 (精密軸承、[[諧波減速機]]「DATORKER」、力矩馬達旋轉平台等)。產品廣泛應用於[[工具機]]、[[半導體]]設備、[[自動化]]產線及[[工業機器人]]，近年積極布局[[人形機器人]]關節模組商機。海外據點遍及美國、德國、日本、瑞士、以色列等國。",
+    "entities": [
+      "滾珠螺桿",
+      "線性滑軌",
+      "THK",
+      "NSK",
+      "工業機器人",
+      "諧波減速機",
+      "工具機",
+      "半導體",
+      "自動化",
+      "人形機器人"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "特殊鋼材",
+        "text": "軸承鋼/合金鋼 — 採購自日本特殊鋼及[[中鋼]]特殊鋼",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "鑄件/電子元件",
+        "text": "國內外供應商",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造加工)",
+        "text": "**中游 (製造加工):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**上銀科技** — 精密研磨、熱處理、組裝 ([[線性滑軌]]、[[滾珠螺桿]]、[[工業機器人]])",
+        "entities": [
+          "線性滑軌",
+          "滾珠螺桿",
+          "工業機器人"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端應用)",
+        "text": "**下游 (終端應用):**",
+        "entities": []
+      },
+      {
+        "category": "工具機",
+        "text": "國內外 CNC [[工具機]]製造商",
+        "entities": [
+          "工具機"
+        ]
+      },
+      {
+        "category": "半導體設備",
+        "text": "[[ASML]]、[[SCREEN]] (迪恩士)、[[Tokyo Electron]] (東京威力科創)",
+        "entities": [
+          "ASML",
+          "SCREEN",
+          "Tokyo Electron"
+        ]
+      },
+      {
+        "category": "自動化/機器人",
+        "text": "[[Fanuc]]、[[Yaskawa]] (安川)、[[Siemens]]",
+        "entities": [
+          "Fanuc",
+          "Yaskawa",
+          "Siemens"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "工具機",
+        "text": "友嘉、程泰、[[DMG MORI]]、[[Mazak]] (全球工具機廠)",
+        "entities": [
+          "DMG MORI",
+          "Mazak"
+        ]
+      },
+      {
+        "role": "半導體設備",
+        "text": "[[ASML]]、[[SCREEN]]、[[Tokyo Electron]]",
+        "entities": [
+          "ASML",
+          "SCREEN",
+          "Tokyo Electron"
+        ]
+      },
+      {
+        "role": "自動化/機器人",
+        "text": "[[Fanuc]]、[[Yaskawa]]、[[Siemens]]",
+        "entities": [
+          "Fanuc",
+          "Yaskawa",
+          "Siemens"
+        ]
+      },
+      {
+        "role": "人形機器人",
+        "text": "全球[[人形機器人]]開發商 (新興市場)",
+        "entities": [
+          "人形機器人"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "特殊鋼材",
+        "text": "日本特殊鋼、[[中鋼]]特殊鋼",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "滾珠螺桿",
+      "type": "taiwan_company_or_term",
+      "wikilink": "滾珠螺桿"
+    },
+    {
+      "name": "線性滑軌",
+      "type": "taiwan_company_or_term",
+      "wikilink": "線性滑軌"
+    },
+    {
+      "name": "THK",
+      "type": "international_company_or_term",
+      "wikilink": "THK"
+    },
+    {
+      "name": "NSK",
+      "type": "international_company_or_term",
+      "wikilink": "NSK"
+    },
+    {
+      "name": "工業機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工業機器人"
+    },
+    {
+      "name": "諧波減速機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "諧波減速機"
+    },
+    {
+      "name": "工具機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工具機"
+    },
+    {
+      "name": "半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "半導體"
+    },
+    {
+      "name": "自動化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動化"
+    },
+    {
+      "name": "人形機器人",
+      "type": "taiwan_company_or_term",
+      "wikilink": "人形機器人"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "ASML",
+      "type": "international_company_or_term",
+      "wikilink": "ASML"
+    },
+    {
+      "name": "SCREEN",
+      "type": "international_company_or_term",
+      "wikilink": "SCREEN"
+    },
+    {
+      "name": "Tokyo Electron",
+      "type": "international_company_or_term",
+      "wikilink": "Tokyo Electron"
+    },
+    {
+      "name": "Fanuc",
+      "type": "international_company_or_term",
+      "wikilink": "Fanuc"
+    },
+    {
+      "name": "Yaskawa",
+      "type": "international_company_or_term",
+      "wikilink": "Yaskawa"
+    },
+    {
+      "name": "Siemens",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens"
+    },
+    {
+      "name": "DMG MORI",
+      "type": "international_company_or_term",
+      "wikilink": "DMG MORI"
+    },
+    {
+      "name": "Mazak",
+      "type": "international_company_or_term",
+      "wikilink": "Mazak"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "上銀科技 (2049，HIWIN Technologies) 成立於 1989 年，總部位於台灣台中，以自有品牌「HIWIN」行銷全球，為全球第二大[[滾珠螺桿]]製造商及全球前三大[[線性滑軌]]製造商，與日商 [[THK]] 及 [[NSK]] 合計市佔率超過七成。核心產品包括[[線性滑軌]] (佔營收約 63%)、[[滾珠螺桿]] (約 21%)、[[工業機器人]] (約 9%) 及其他產品 (精密軸承、[[諧波減速機]]「DATORKER」、力矩馬達旋轉平台等)。產品廣泛應用於[[工具機]]、[[半導體]]設備、[[自動化]]產線及[[工業機器人]]，近年積極布局[[人形機器人]]關節模組商機。海外據點遍及美國、德國、日本、瑞士、以色列等國。",
+    "supply_chain_md": "**上游 (原料):**\n- **特殊鋼材:** 軸承鋼/合金鋼 — 採購自日本特殊鋼及[[中鋼]]特殊鋼\n- **鑄件/電子元件:** 國內外供應商\n\n**中游 (製造加工):**\n- **上銀科技** — 精密研磨、熱處理、組裝 ([[線性滑軌]]、[[滾珠螺桿]]、[[工業機器人]])\n\n**下游 (終端應用):**\n- **工具機:** 國內外 CNC [[工具機]]製造商\n- **半導體設備:** [[ASML]]、[[SCREEN]] (迪恩士)、[[Tokyo Electron]] (東京威力科創)\n- **自動化/機器人:** [[Fanuc]]、[[Yaskawa]] (安川)、[[Siemens]]",
+    "customers_suppliers_md": "### 主要客戶\n- **工具機:** 友嘉、程泰、[[DMG MORI]]、[[Mazak]] (全球工具機廠)\n- **半導體設備:** [[ASML]]、[[SCREEN]]、[[Tokyo Electron]]\n- **自動化/機器人:** [[Fanuc]]、[[Yaskawa]]、[[Siemens]]\n- **人形機器人:** 全球[[人形機器人]]開發商 (新興市場)\n\n### 主要供應商\n- **特殊鋼材:** 日本特殊鋼、[[中鋼]]特殊鋼",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $283.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     61.66 |       27.40 |      4.04 | 2.67 |     24.79 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     24262.64 |     24391.68 |     24632.77 |\n| Gross Profit            |      6977.85 |      7217.81 |      7655.25 |\n| Gross Margin (%)        |        28.76 |        29.59 |        31.08 |\n| Selling & Marketing Exp |      1990.25 |      1996.08 |      1905.24 |\n| R&D Exp                 |      1024.66 |       963.36 |       943.46 |\n| General & Admin Exp     |      2319.71 |      2199.59 |      2155.60 |\n| Operating Income        |      1643.23 |      2058.78 |      2650.95 |\n| Operating Margin (%)    |         6.77 |         8.44 |        10.76 |\n| Net Income              |      1525.87 |      1971.95 |      2034.75 |\n| Net Margin (%)          |         6.29 |         8.08 |         8.26 |\n| Op Cash Flow            |      4277.24 |      3618.62 |      4770.37 |\n| Investing Cash Flow     |     -2817.88 |     -3882.72 |     -2846.03 |\n| Financing Cash Flow     |     -1278.07 |       -18.95 |     -1800.21 |\n| CAPEX                   |     -2765.79 |     -3714.41 |     -2944.47 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      6379.29 |      6503.04 |      5995.33 |      5925.49 |\n| Gross Profit            |      2037.67 |      1758.87 |      1714.75 |      1762.09 |\n| Gross Margin (%)        |        31.94 |        27.05 |        28.60 |        29.74 |\n| Selling & Marketing Exp |       521.29 |       526.51 |       482.98 |       493.51 |\n| R&D Exp                 |       251.93 |       271.06 |       255.18 |       239.03 |\n| General & Admin Exp     |       633.93 |       645.94 |       566.05 |       530.98 |\n| Operating Income        |       630.52 |       315.36 |       410.55 |       498.57 |\n| Operating Margin (%)    |         9.88 |         4.85 |         6.85 |         8.41 |\n| Net Income              |       579.34 |       461.98 |       445.85 |       135.24 |\n| Net Margin (%)          |         9.08 |         7.10 |         7.44 |         2.28 |\n| Op Cash Flow            |      1360.44 |      1639.47 |       985.45 |       610.25 |\n| Investing Cash Flow     |      -533.47 |      -833.61 |      -619.03 |      -691.87 |\n| Financing Cash Flow     |      -440.88 |      -140.63 |      -857.09 |       -47.94 |\n| CAPEX                   |      -453.65 |      -819.35 |      -621.96 |      -693.19 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 19,
+    "warnings": []
+  }
+}

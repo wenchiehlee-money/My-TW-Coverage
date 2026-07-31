@@ -1,0 +1,177 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3444",
+  "company_name": "利機",
+  "title": "3444 - 利機",
+  "source_md": "Pilot_Reports/半導體 - 基板/3444_利機.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductor Equipment & Materials",
+    "market_cap": "2,866 百萬台幣",
+    "enterprise_value": "2,382 百萬台幣"
+  },
+  "business": {
+    "summary": "利機企業 (3444) 是一家專業的半導體及光電產業先進材料通路商，代理銷售涵蓋半導體、[[平面顯示器]]、[[LED]] 及[[綠色能源]]等高科技產業之材料、零件與設備。公司成立於 1993 年，主要產品包括銀漿 (客戶如 [[韋僑]]、[[德微]])、封裝材料及製程化學品。2024 年內銷占 58%、外銷占 42%。",
+    "entities": [
+      "平面顯示器",
+      "LED",
+      "綠色能源",
+      "韋僑",
+      "德微"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料原廠)",
+        "text": "**上游 (材料原廠):**",
+        "entities": []
+      },
+      {
+        "category": "銀漿/化學品",
+        "text": "國際先進材料供應",
+        "entities": []
+      },
+      {
+        "category": "半導體耗材",
+        "text": "封裝及製程用化學品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (材料通路)",
+        "text": "**中游 (材料通路):**",
+        "entities": []
+      },
+      {
+        "category": "材料代理",
+        "text": "**利機** (半導體/LED/面板用先進材料銷售)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (半導體與光電)",
+        "text": "**下游 (半導體與光電):**",
+        "entities": []
+      },
+      {
+        "category": "半導體封裝",
+        "text": "封裝用銀漿客戶如 [[韋僑]]、[[德微]]",
+        "entities": [
+          "韋僑",
+          "德微"
+        ]
+      },
+      {
+        "category": "LED",
+        "text": "LED 製造用材料客戶",
+        "entities": []
+      },
+      {
+        "category": "面板",
+        "text": "平面顯示器材料客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "半導體封裝",
+        "text": "[[韋僑]]、[[德微]] (銀漿產品)",
+        "entities": [
+          "韋僑",
+          "德微"
+        ]
+      },
+      {
+        "role": "LED 製造",
+        "text": "LED 晶粒及封裝廠",
+        "entities": []
+      },
+      {
+        "role": "面板",
+        "text": "平面顯示器製造廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "先進材料",
+        "text": "國際材料原廠",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[長華]] (材料通路)",
+        "entities": [
+          "長華"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[長華]] (材料通路)",
+        "entities": [
+          "長華"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "平面顯示器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "平面顯示器"
+    },
+    {
+      "name": "LED",
+      "type": "international_company_or_term",
+      "wikilink": "LED"
+    },
+    {
+      "name": "綠色能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "綠色能源"
+    },
+    {
+      "name": "韋僑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "韋僑"
+    },
+    {
+      "name": "德微",
+      "type": "taiwan_company_or_term",
+      "wikilink": "德微"
+    },
+    {
+      "name": "長華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長華"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "利機企業 (3444) 是一家專業的半導體及光電產業先進材料通路商，代理銷售涵蓋半導體、[[平面顯示器]]、[[LED]] 及[[綠色能源]]等高科技產業之材料、零件與設備。公司成立於 1993 年，主要產品包括銀漿 (客戶如 [[韋僑]]、[[德微]])、封裝材料及製程化學品。2024 年內銷占 58%、外銷占 42%。",
+    "supply_chain_md": "**上游 (材料原廠):**\n- **銀漿/化學品:** 國際先進材料供應\n- **半導體耗材:** 封裝及製程用化學品\n\n**中游 (材料通路):**\n- **材料代理:** **利機** (半導體/LED/面板用先進材料銷售)\n\n**下游 (半導體與光電):**\n- **半導體封裝:** 封裝用銀漿客戶如 [[韋僑]]、[[德微]]\n- **LED:** LED 製造用材料客戶\n- **面板:** 平面顯示器材料客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **半導體封裝:** [[韋僑]]、[[德微]] (銀漿產品)\n- **LED 製造:** LED 晶粒及封裝廠\n- **面板:** 平面顯示器製造廠\n\n### 主要供應商\n- **先進材料:** 國際材料原廠\n- **競爭同業:** [[長華]] (材料通路)",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $61.50 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     34.94 |         N/A |      2.15 | 2.72 |     29.76 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1275.04 |      1153.49 |       976.40 |\n| Gross Profit            |       267.73 |       284.93 |       255.76 |\n| Gross Margin (%)        |        21.00 |        24.70 |        26.19 |\n| Selling & Marketing Exp |        92.91 |       103.06 |        76.88 |\n| R&D Exp                 |        34.04 |        32.76 |        34.71 |\n| General & Admin Exp     |        66.25 |        67.66 |        68.63 |\n| Operating Income        |        74.53 |        81.45 |        75.53 |\n| Operating Margin (%)    |         5.85 |         7.06 |         7.74 |\n| Net Income              |        96.60 |       107.45 |        93.55 |\n| Net Margin (%)          |         7.58 |         9.32 |         9.58 |\n| Op Cash Flow            |       121.79 |        88.48 |       158.66 |\n| Investing Cash Flow     |       150.83 |       -50.15 |       -14.41 |\n| Financing Cash Flow     |       -95.53 |      -106.03 |       -72.51 |\n| CAPEX                   |       -17.49 |       -76.30 |        -9.43 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       315.95 |       344.43 |       322.58 |       301.15 |\n| Gross Profit            |        62.44 |        62.33 |        70.96 |        72.60 |\n| Gross Margin (%)        |        19.76 |        18.10 |        22.00 |        24.11 |\n| Selling & Marketing Exp |        24.89 |        23.66 |        18.23 |        24.84 |\n| R&D Exp                 |         7.57 |         7.15 |         8.18 |         9.61 |\n| General & Admin Exp     |        18.47 |        16.30 |        17.29 |        15.69 |\n| Operating Income        |        11.51 |        15.22 |        27.25 |        22.46 |\n| Operating Margin (%)    |         3.64 |         4.42 |         8.45 |         7.46 |\n| Net Income              |        18.55 |        22.94 |        18.66 |        35.65 |\n| Net Margin (%)          |         5.87 |         6.66 |         5.78 |        11.84 |\n| Op Cash Flow            |       -14.93 |        41.62 |        87.02 |       -80.93 |\n| Investing Cash Flow     |        -5.86 |        -4.80 |       169.10 |        -7.25 |\n| Financing Cash Flow     |        -1.30 |        -1.39 |        -1.41 |        -1.38 |\n| CAPEX                   |        -4.75 |        -5.06 |        -1.68 |        -5.20 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2644",
+  "company_name": "中信造船",
+  "title": "2644 - 中信造船",
+  "source_md": "Pilot_Reports/其他 - 其他/2644_中信造船.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "market_cap": "6,553 百萬台幣",
+    "enterprise_value": "12,302 百萬台幣"
+  },
+  "business": {
+    "summary": "中信造船 (2644，Jong Shyn Shipbuilding) 為台灣規模最大的民營造船廠，由「台灣船王」韓碧祥創辦。公司主要業務涵蓋：(1) 軍艦建造 — 承建海軍輕型巡防艦原型艦 2 艘 (預算 90.5 億元)，搭載[[Lockheed Martin]] CMS-330 戰鬥管理系統，後續量產 10 艘加速中；(2) 海巡艦艇 — 自 2018 年起承攬[[海巡署]] 81 艘巡防艦艇計畫 (總值 215 億元)，含 600 噸級安平艦系列；(3) 商船與漁船 — 建造貨輪、客輪、超低溫鮪釣漁船等；(4) 無人艇 — 開發「中信五號」無人艇，年產能逾 200 艘，競標海軍無人艇計畫。旗下子公司高鼎遊艇為亞洲最大鋼鋁遊艇製造商。在手訂單逾 200 億元。",
+    "entities": [
+      "Lockheed Martin",
+      "海巡署"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與系統)",
+        "text": "**上游 (材料與系統):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 造船用鋼板主要供應商",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "鋼構",
+        "text": "[[世紀鋼]] — 船舶鋼結構件",
+        "entities": [
+          "世紀鋼"
+        ]
+      },
+      {
+        "category": "船用引擎",
+        "text": "[[Rolls-Royce]] ([[MTU]])、[[GE Aerospace]]、[[Siemens]] — 船用動力系統",
+        "entities": [
+          "Rolls-Royce",
+          "MTU",
+          "GE Aerospace",
+          "Siemens"
+        ]
+      },
+      {
+        "category": "戰鬥系統",
+        "text": "[[Lockheed Martin]] — CMS-330 戰鬥管理系統 (輕型巡防艦)",
+        "entities": [
+          "Lockheed Martin"
+        ]
+      },
+      {
+        "category": "國防系統",
+        "text": "[[中山科學研究院]] — 雷達、飛彈與武器整合",
+        "entities": [
+          "中山科學研究院"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (造船)",
+        "text": "**中游 (造船):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**中信造船** (軍艦/海巡艦艇/商船/漁船設計建造、無人艇研製)",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**高鼎遊艇** (子公司，鋼鋁豪華遊艇製造)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "海軍",
+        "text": "[[中華民國海軍]] — 輕型巡防艦、無人艇",
+        "entities": [
+          "中華民國海軍"
+        ]
+      },
+      {
+        "category": "海巡",
+        "text": "[[海巡署]] — 81 艘各型巡防艦艇",
+        "entities": [
+          "海巡署"
+        ]
+      },
+      {
+        "category": "研究機構",
+        "text": "[[國家海洋研究院]] — 高科技研究船",
+        "entities": [
+          "國家海洋研究院"
+        ]
+      },
+      {
+        "category": "漁業",
+        "text": "遠洋鮪釣漁船業者",
+        "entities": []
+      },
+      {
+        "category": "國際遊艇",
+        "text": "全球遊艇買家 (透過高鼎遊艇)",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "海軍",
+        "text": "[[中華民國海軍]] — 輕型巡防艦原型艦 2 艘 (90.5 億元)、後續量產 10 艘",
+        "entities": [
+          "中華民國海軍"
+        ]
+      },
+      {
+        "role": "海巡",
+        "text": "[[海巡署]] — 81 艘巡防艦艇 (215 億元)，含安平艦系列",
+        "entities": [
+          "海巡署"
+        ]
+      },
+      {
+        "role": "研究機構",
+        "text": "[[國家海洋研究院]] — 高科技研究船",
+        "entities": [
+          "國家海洋研究院"
+        ]
+      },
+      {
+        "role": "漁業",
+        "text": "遠洋鮪釣漁船隊 — 超低溫冷凍漁船",
+        "entities": []
+      },
+      {
+        "role": "遊艇",
+        "text": "國際遊艇客戶 — 高鼎遊艇品牌",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 造船用鋼板",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "鋼構",
+        "text": "[[世紀鋼]] — 船舶結構件",
+        "entities": [
+          "世紀鋼"
+        ]
+      },
+      {
+        "role": "船用引擎",
+        "text": "[[Rolls-Royce]] ([[MTU]])、[[GE Aerospace]]、[[Siemens]] — 動力系統",
+        "entities": [
+          "Rolls-Royce",
+          "MTU",
+          "GE Aerospace",
+          "Siemens"
+        ]
+      },
+      {
+        "role": "戰鬥系統",
+        "text": "[[Lockheed Martin]] — CMS-330 戰管系統",
+        "entities": [
+          "Lockheed Martin"
+        ]
+      },
+      {
+        "role": "國防武器",
+        "text": "[[中山科學研究院]] — 雷達與飛彈系統",
+        "entities": [
+          "中山科學研究院"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "Lockheed Martin",
+      "type": "international_company_or_term",
+      "wikilink": "Lockheed Martin"
+    },
+    {
+      "name": "海巡署",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海巡署"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "世紀鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀鋼"
+    },
+    {
+      "name": "Rolls-Royce",
+      "type": "international_company_or_term",
+      "wikilink": "Rolls-Royce"
+    },
+    {
+      "name": "MTU",
+      "type": "international_company_or_term",
+      "wikilink": "MTU"
+    },
+    {
+      "name": "GE Aerospace",
+      "type": "international_company_or_term",
+      "wikilink": "GE Aerospace"
+    },
+    {
+      "name": "Siemens",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens"
+    },
+    {
+      "name": "中山科學研究院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中山科學研究院"
+    },
+    {
+      "name": "中華民國海軍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華民國海軍"
+    },
+    {
+      "name": "國家海洋研究院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "國家海洋研究院"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "中信造船 (2644，Jong Shyn Shipbuilding) 為台灣規模最大的民營造船廠，由「台灣船王」韓碧祥創辦。公司主要業務涵蓋：(1) 軍艦建造 — 承建海軍輕型巡防艦原型艦 2 艘 (預算 90.5 億元)，搭載[[Lockheed Martin]] CMS-330 戰鬥管理系統，後續量產 10 艘加速中；(2) 海巡艦艇 — 自 2018 年起承攬[[海巡署]] 81 艘巡防艦艇計畫 (總值 215 億元)，含 600 噸級安平艦系列；(3) 商船與漁船 — 建造貨輪、客輪、超低溫鮪釣漁船等；(4) 無人艇 — 開發「中信五號」無人艇，年產能逾 200 艘，競標海軍無人艇計畫。旗下子公司高鼎遊艇為亞洲最大鋼鋁遊艇製造商。在手訂單逾 200 億元。",
+    "supply_chain_md": "**上游 (材料與系統):**\n- **鋼材:** [[中鋼]] — 造船用鋼板主要供應商\n- **鋼構:** [[世紀鋼]] — 船舶鋼結構件\n- **船用引擎:** [[Rolls-Royce]] ([[MTU]])、[[GE Aerospace]]、[[Siemens]] — 船用動力系統\n- **戰鬥系統:** [[Lockheed Martin]] — CMS-330 戰鬥管理系統 (輕型巡防艦)\n- **國防系統:** [[中山科學研究院]] — 雷達、飛彈與武器整合\n\n**中游 (造船):**\n- **中信造船** (軍艦/海巡艦艇/商船/漁船設計建造、無人艇研製)\n- **高鼎遊艇** (子公司，鋼鋁豪華遊艇製造)\n\n**下游 (終端客戶):**\n- **海軍:** [[中華民國海軍]] — 輕型巡防艦、無人艇\n- **海巡:** [[海巡署]] — 81 艘各型巡防艦艇\n- **研究機構:** [[國家海洋研究院]] — 高科技研究船\n- **漁業:** 遠洋鮪釣漁船業者\n- **國際遊艇:** 全球遊艇買家 (透過高鼎遊艇)",
+    "customers_suppliers_md": "### 主要客戶\n- **海軍:** [[中華民國海軍]] — 輕型巡防艦原型艦 2 艘 (90.5 億元)、後續量產 10 艘\n- **海巡:** [[海巡署]] — 81 艘巡防艦艇 (215 億元)，含安平艦系列\n- **研究機構:** [[國家海洋研究院]] — 高科技研究船\n- **漁業:** 遠洋鮪釣漁船隊 — 超低溫冷凍漁船\n- **遊艇:** 國際遊艇客戶 — 高鼎遊艇品牌\n\n### 主要供應商\n- **鋼材:** [[中鋼]] — 造船用鋼板\n- **鋼構:** [[世紀鋼]] — 船舶結構件\n- **船用引擎:** [[Rolls-Royce]] ([[MTU]])、[[GE Aerospace]]、[[Siemens]] — 動力系統\n- **戰鬥系統:** [[Lockheed Martin]] — CMS-330 戰管系統\n- **國防武器:** [[中山科學研究院]] — 雷達與飛彈系統",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $79.90 as of 2026-07-30 | TTM 截至 2025-12-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    221.94 |         N/A |      1.08 | 4.85 |     25.22 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6129.69 |      4829.99 |      4310.54 |\n| Gross Profit            |       433.52 |       298.44 |       321.45 |\n| Gross Margin (%)        |         7.07 |         6.18 |         7.46 |\n| Selling & Marketing Exp |         8.68 |         8.49 |         7.09 |\n| R&D Exp                 |        35.57 |        40.61 |        54.16 |\n| General & Admin Exp     |       133.60 |       120.82 |       106.81 |\n| Operating Income        |       255.66 |       128.51 |       153.39 |\n| Operating Margin (%)    |         4.17 |         2.66 |         3.56 |\n| Net Income              |        29.54 |        37.15 |        33.99 |\n| Net Margin (%)          |         0.48 |         0.77 |         0.79 |\n| Op Cash Flow            |     -1851.45 |       441.35 |       584.12 |\n| Investing Cash Flow     |      -572.00 |      -433.51 |       -99.89 |\n| Financing Cash Flow     |      2469.23 |       -71.67 |      -541.53 |\n| CAPEX                   |      -103.99 |      -203.74 |      -118.46 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

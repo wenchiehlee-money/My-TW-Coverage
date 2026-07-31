@@ -1,0 +1,220 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6928",
+  "company_name": "攸泰科技",
+  "title": "6928_攸泰科技",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 工業電腦/6928_攸泰科技.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Computer Hardware",
+    "market_cap": "3,943 百萬台幣",
+    "enterprise_value": "2,716 百萬台幣"
+  },
+  "business": {
+    "summary": "攸泰科技股份有限公司 (6928) 為[[大眾控]] (3701，大眾國際控股) 集團旗下子公司，成立於 2011 年，以打造「無所不在的連接」為核心理念，透過子公司睿剛電訊經營自有品牌「[[RuggON]]」，專注於強固型移動解決方案。產品必須能在烈日暴雨、極端震動與粉塵環境 (如礦場、南極破冰船或戰場) 中穩定運作。\n\n公司精準卡位「[[低軌衛星]] (LEO)」及「國防無人機」市場，與國家太空中心 ([[TASA]]) 及[[工研院]] (ITRI) 緊密合作，參與低軌衛星地面設備通訊技術開發。成功打入烏茲別克全球最大露天金礦開採商等指標客戶。長期聚焦衛星通訊、農業、物流、海事、交通與政府專案等六大垂直領域。",
+    "entities": [
+      "大眾控",
+      "RuggON",
+      "低軌衛星",
+      "TASA",
+      "工研院"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (工業級核心零組件)",
+        "text": "**上游 (工業級核心零組件):**",
+        "entities": []
+      },
+      {
+        "category": "處理器",
+        "text": "[[Intel]]、[[Qualcomm]] — 工業級 CPU/SoC",
+        "entities": [
+          "Intel",
+          "Qualcomm"
+        ]
+      },
+      {
+        "category": "顯示面板",
+        "text": "戶外高亮度防眩光防刮顯示面板模組",
+        "entities": []
+      },
+      {
+        "category": "RF 模組",
+        "text": "射頻通訊模組及衛星天線元件",
+        "entities": []
+      },
+      {
+        "category": "強固機殼",
+        "text": "防水防摔金屬機構件及特殊電池芯",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (強固型移動解決方案)",
+        "text": "**中游 (強固型移動解決方案):**",
+        "entities": []
+      },
+      {
+        "category": "強固平板",
+        "text": "**攸泰** ([[RuggON]] 品牌強固型移動載具平板)",
+        "entities": [
+          "RuggON"
+        ]
+      },
+      {
+        "category": "衛星終端",
+        "text": "**攸泰** (衛星通訊接收控制終端)",
+        "entities": []
+      },
+      {
+        "category": "無人機控制",
+        "text": "**攸泰** (無人機地面控制系統)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (垂直應用市場)",
+        "text": "**下游 (垂直應用市場):**",
+        "entities": []
+      },
+      {
+        "category": "低軌衛星",
+        "text": "國際低軌衛星通訊營運商及地面設備",
+        "entities": []
+      },
+      {
+        "category": "海事/農業",
+        "text": "跨國海事船舶營運商、精準農業無人機操作",
+        "entities": []
+      },
+      {
+        "category": "國防軍工",
+        "text": "各國軍警消及國安政府部門",
+        "entities": []
+      },
+      {
+        "category": "物流/礦業",
+        "text": "全球大型物流倉儲集團、露天礦場",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "低軌衛星",
+        "text": "國際低軌衛星系統商 — 地面移動終端設備",
+        "entities": []
+      },
+      {
+        "role": "海事/漁探",
+        "text": "國際海事漁探器品牌商 — 強固型航海設備",
+        "entities": []
+      },
+      {
+        "role": "國防政府",
+        "text": "美國各大警消及國安政府部門",
+        "entities": []
+      },
+      {
+        "role": "礦業/物流",
+        "text": "全球最大露天金礦開採商 — 強固平板",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "處理器",
+        "text": "[[Intel]]、[[Qualcomm]] — 工業級 CPU/SoC",
+        "entities": [
+          "Intel",
+          "Qualcomm"
+        ]
+      },
+      {
+        "role": "RF 模組",
+        "text": "射頻通訊及衛星天線模組原廠",
+        "entities": []
+      },
+      {
+        "role": "集團資源",
+        "text": "[[大眾控]] (3701) — 供應鏈策略與議價協同",
+        "entities": [
+          "大眾控"
+        ]
+      },
+      {
+        "role": "研發合作",
+        "text": "[[TASA]] (國家太空中心)、[[工研院]] — 衛星通訊技術開發",
+        "entities": [
+          "TASA",
+          "工研院"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "大眾控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "大眾控"
+    },
+    {
+      "name": "RuggON",
+      "type": "international_company_or_term",
+      "wikilink": "RuggON"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "TASA",
+      "type": "international_company_or_term",
+      "wikilink": "TASA"
+    },
+    {
+      "name": "工研院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "工研院"
+    },
+    {
+      "name": "Intel",
+      "type": "international_company_or_term",
+      "wikilink": "Intel"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "攸泰科技股份有限公司 (6928) 為[[大眾控]] (3701，大眾國際控股) 集團旗下子公司，成立於 2011 年，以打造「無所不在的連接」為核心理念，透過子公司睿剛電訊經營自有品牌「[[RuggON]]」，專注於強固型移動解決方案。產品必須能在烈日暴雨、極端震動與粉塵環境 (如礦場、南極破冰船或戰場) 中穩定運作。\n\n公司精準卡位「[[低軌衛星]] (LEO)」及「國防無人機」市場，與國家太空中心 ([[TASA]]) 及[[工研院]] (ITRI) 緊密合作，參與低軌衛星地面設備通訊技術開發。成功打入烏茲別克全球最大露天金礦開採商等指標客戶。長期聚焦衛星通訊、農業、物流、海事、交通與政府專案等六大垂直領域。",
+    "supply_chain_md": "**上游 (工業級核心零組件):**\n- **處理器:** [[Intel]]、[[Qualcomm]] — 工業級 CPU/SoC\n- **顯示面板:** 戶外高亮度防眩光防刮顯示面板模組\n- **RF 模組:** 射頻通訊模組及衛星天線元件\n- **強固機殼:** 防水防摔金屬機構件及特殊電池芯\n\n**中游 (強固型移動解決方案):**\n- **強固平板:** **攸泰** ([[RuggON]] 品牌強固型移動載具平板)\n- **衛星終端:** **攸泰** (衛星通訊接收控制終端)\n- **無人機控制:** **攸泰** (無人機地面控制系統)\n\n**下游 (垂直應用市場):**\n- **低軌衛星:** 國際低軌衛星通訊營運商及地面設備\n- **海事/農業:** 跨國海事船舶營運商、精準農業無人機操作\n- **國防軍工:** 各國軍警消及國安政府部門\n- **物流/礦業:** 全球大型物流倉儲集團、露天礦場",
+    "customers_suppliers_md": "### 主要客戶\n- **低軌衛星:** 國際低軌衛星系統商 — 地面移動終端設備\n- **海事/漁探:** 國際海事漁探器品牌商 — 強固型航海設備\n- **國防政府:** 美國各大警消及國安政府部門\n- **礦業/物流:** 全球最大露天金礦開採商 — 強固平板\n\n### 主要供應商\n- **處理器:** [[Intel]]、[[Qualcomm]] — 工業級 CPU/SoC\n- **RF 模組:** 射頻通訊及衛星天線模組原廠\n- **集團資源:** [[大眾控]] (3701) — 供應鏈策略與議價協同\n- **研發合作:** [[TASA]] (國家太空中心)、[[工研院]] — 衛星通訊技術開發",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $44.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      2.02 | 1.89 |    -24.57 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      1970.09 |      2021.42 |      3721.34 |\n| Gross Profit            |       519.80 |       464.72 |       794.84 |\n| Gross Margin (%)        |        26.38 |        22.99 |        21.36 |\n| Selling & Marketing Exp |       240.99 |       252.14 |       200.91 |\n| R&D Exp                 |       231.46 |       240.79 |       197.16 |\n| General & Admin Exp     |       160.06 |       118.64 |        95.99 |\n| Operating Income        |      -112.72 |      -146.84 |       300.79 |\n| Operating Margin (%)    |        -5.72 |        -7.26 |         8.08 |\n| Net Income              |       -62.37 |       -67.16 |       257.87 |\n| Net Margin (%)          |        -3.17 |        -3.32 |         6.93 |\n| Op Cash Flow            |       129.16 |        13.20 |       667.39 |\n| Investing Cash Flow     |       348.74 |      -896.13 |       -51.30 |\n| Financing Cash Flow     |       -93.85 |       748.84 |      -164.51 |\n| CAPEX                   |       -28.18 |       -28.79 |       -35.97 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       340.68 |       482.26 |       536.04 |       611.11 |\n| Gross Profit            |       107.63 |       127.36 |       124.79 |       160.02 |\n| Gross Margin (%)        |        31.59 |        26.41 |        23.28 |        26.18 |\n| Selling & Marketing Exp |        70.31 |        58.03 |        54.31 |        58.35 |\n| R&D Exp                 |        61.31 |        60.06 |        53.09 |        57.00 |\n| General & Admin Exp     |        53.74 |        46.24 |        31.15 |        28.93 |\n| Operating Income        |       -77.73 |       -36.97 |       -13.76 |        15.73 |\n| Operating Margin (%)    |       -22.82 |        -7.67 |        -2.57 |         2.57 |\n| Net Income              |       -54.19 |       -19.62 |        -8.32 |        19.77 |\n| Net Margin (%)          |       -15.91 |        -4.07 |        -1.55 |         3.23 |\n| Op Cash Flow            |        30.54 |        -4.37 |       -56.70 |       159.69 |\n| Investing Cash Flow     |      -193.11 |        66.03 |        92.45 |       383.38 |\n| Financing Cash Flow     |       -11.89 |       -62.48 |        -9.80 |        -9.69 |\n| CAPEX                   |        -8.14 |        -7.04 |        -7.05 |        -5.96 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

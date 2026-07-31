@@ -1,0 +1,288 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3034",
+  "company_name": "聯詠",
+  "title": "3034 - [[聯詠]]",
+  "source_md": "Pilot_Reports/半導體 - IC設計/3034_聯詠.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "307,298 百萬台幣",
+    "enterprise_value": "258,948 百萬台幣"
+  },
+  "business": {
+    "summary": "[[聯詠]]科技 (3034) 是全球領先的[[驅動 IC]]設計公司，為[[聯華電子]]集團成員。公司主力產品為 [[LCD 驅動 IC]] (占 2024 年營收 60%) 及顯示器 [[SoC]] 晶片 (占 38%)，涵蓋 [[AMOLED]] 驅動 IC、電視 SoC、安防監控及電源管理晶片。公司在大尺寸面板驅動 IC 市佔率全球領先，客戶涵蓋全球主要面板及消費電子品牌。亞太市場占營收 76%。",
+    "entities": [
+      "聯詠",
+      "驅動 IC",
+      "聯華電子",
+      "LCD 驅動 IC",
+      "SoC",
+      "AMOLED"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶圓代工)",
+        "text": "**上游 (晶圓代工):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓製造",
+        "text": "[[聯華電子]] (UMC，主要晶圓代工及大股東)",
+        "entities": [
+          "聯華電子"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (IC 設計)",
+        "text": "**中游 (IC 設計):**",
+        "entities": []
+      },
+      {
+        "category": "驅動 IC",
+        "text": "**[[聯詠]]** (LCD/[[AMOLED]] 驅動 IC、顯示器 SoC、觸控 IC)",
+        "entities": [
+          "聯詠",
+          "AMOLED"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (面板與終端品牌)",
+        "text": "**下游 (面板與終端品牌):**",
+        "entities": []
+      },
+      {
+        "category": "面板廠",
+        "text": "[[群創]]、[[友達]]、[[京東方]]、[[三星顯示]]、[[LG Display]]",
+        "entities": [
+          "群創",
+          "友達",
+          "京東方",
+          "三星顯示",
+          "LG Display"
+        ]
+      },
+      {
+        "category": "終端品牌",
+        "text": "[[Apple]] (平板電腦)、電視品牌",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "category": "安防監控",
+        "text": "安防攝影機 SoC 客戶",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "面板廠",
+        "text": "[[群創]]、[[友達]]、[[京東方]]、[[三星顯示]]、[[LG Display]]",
+        "entities": [
+          "群創",
+          "友達",
+          "京東方",
+          "三星顯示",
+          "LG Display"
+        ]
+      },
+      {
+        "role": "品牌客戶",
+        "text": "[[Apple]] (平板驅動 IC)",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "電視 SoC",
+        "text": "全球電視品牌廠商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[聯華電子]] (UMC，主要代工夥伴)",
+        "entities": [
+          "聯華電子"
+        ]
+      },
+      {
+        "role": "封裝測試",
+        "text": "半導體封測服務",
+        "entities": []
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[奇景光電]]、[[矽創]]、[[瑞鼎]]、[[天鈺]]、[[敦泰]]",
+        "entities": [
+          "奇景光電",
+          "矽創",
+          "瑞鼎",
+          "天鈺",
+          "敦泰"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "role": "顯示驅動IC競爭者",
+        "text": "[[敦泰]]、[[矽創]]、[[天鈺]]、[[瑞鼎]]、[[奇景光電]]",
+        "entities": [
+          "敦泰",
+          "矽創",
+          "天鈺",
+          "瑞鼎",
+          "奇景光電"
+        ],
+        "basis": "curated_display_driver_ic_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "聯詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯詠"
+    },
+    {
+      "name": "驅動 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "驅動 IC"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "LCD 驅動 IC",
+      "type": "taiwan_company_or_term",
+      "wikilink": "LCD 驅動 IC"
+    },
+    {
+      "name": "SoC",
+      "type": "international_company_or_term",
+      "wikilink": "SoC"
+    },
+    {
+      "name": "AMOLED",
+      "type": "international_company_or_term",
+      "wikilink": "AMOLED"
+    },
+    {
+      "name": "群創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群創"
+    },
+    {
+      "name": "友達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友達"
+    },
+    {
+      "name": "京東方",
+      "type": "taiwan_company_or_term",
+      "wikilink": "京東方"
+    },
+    {
+      "name": "三星顯示",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三星顯示"
+    },
+    {
+      "name": "LG Display",
+      "type": "international_company_or_term",
+      "wikilink": "LG Display"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "奇景光電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "奇景光電"
+    },
+    {
+      "name": "矽創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽創"
+    },
+    {
+      "name": "瑞鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞鼎"
+    },
+    {
+      "name": "天鈺",
+      "type": "taiwan_company_or_term",
+      "wikilink": "天鈺"
+    },
+    {
+      "name": "敦泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "敦泰"
+    },
+    {
+      "name": "譜瑞-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "譜瑞-KY"
+    },
+    {
+      "name": "太欣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太欣"
+    },
+    {
+      "name": "泰詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "泰詠"
+    },
+    {
+      "name": "芯鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "芯鼎"
+    },
+    {
+      "name": "傑霖科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "傑霖科技"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[聯詠]]科技 (3034) 是全球領先的[[驅動 IC]]設計公司，為[[聯華電子]]集團成員。公司主力產品為 [[LCD 驅動 IC]] (占 2024 年營收 60%) 及顯示器 [[SoC]] 晶片 (占 38%)，涵蓋 [[AMOLED]] 驅動 IC、電視 SoC、安防監控及電源管理晶片。公司在大尺寸面板驅動 IC 市佔率全球領先，客戶涵蓋全球主要面板及消費電子品牌。亞太市場占營收 76%。",
+    "supply_chain_md": "**上游 (晶圓代工):**\n- **晶圓製造:** [[聯華電子]] (UMC，主要晶圓代工及大股東)\n\n**中游 (IC 設計):**\n- **驅動 IC:** **[[聯詠]]** (LCD/[[AMOLED]] 驅動 IC、顯示器 SoC、觸控 IC)\n\n**下游 (面板與終端品牌):**\n- **面板廠:** [[群創]]、[[友達]]、[[京東方]]、[[三星顯示]]、[[LG Display]]\n- **終端品牌:** [[Apple]] (平板電腦)、電視品牌\n- **安防監控:** 安防攝影機 SoC 客戶",
+    "customers_suppliers_md": "### 主要客戶\n- **面板廠:** [[群創]]、[[友達]]、[[京東方]]、[[三星顯示]]、[[LG Display]]\n- **品牌客戶:** [[Apple]] (平板驅動 IC)\n- **電視 SoC:** 全球電視品牌廠商\n\n### 主要供應商\n- **晶圓代工:** [[聯華電子]] (UMC，主要代工夥伴)\n- **封裝測試:** 半導體封測服務\n- **競爭同業:** [[奇景光電]]、[[矽創]]、[[瑞鼎]]、[[天鈺]]、[[敦泰]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $491.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     18.31 |       15.29 |      3.09 | 4.15 |     14.08 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |    100663.14 |    102787.75 |    110428.70 |\n| Gross Profit            |     37908.01 |     41472.36 |     46211.89 |\n| Gross Margin (%)        |        37.66 |        40.35 |        41.85 |\n| Selling & Marketing Exp |       397.02 |       426.64 |       389.46 |\n| R&D Exp                 |     16724.60 |     16807.43 |     16791.15 |\n| General & Admin Exp     |      2549.30 |      2432.25 |      2369.61 |\n| Operating Income        |     18237.09 |     21806.04 |     26661.68 |\n| Operating Margin (%)    |        18.12 |        21.21 |        24.14 |\n| Net Income              |     16347.69 |     20342.02 |     23317.51 |\n| Net Margin (%)          |        16.24 |        19.79 |        21.12 |\n| Op Cash Flow            |     13628.74 |     16652.29 |     29981.01 |\n| Investing Cash Flow     |     -1231.88 |      -848.94 |     -1701.95 |\n| Financing Cash Flow     |    -18741.04 |    -20956.32 |    -23552.20 |\n| CAPEX                   |     -1447.92 |     -1557.25 |     -1163.40 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-06-30 |   2025-03-31 |   2024-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |     22817.21 |     26152.06 |     27120.20 |     25262.52 |\n| Gross Profit            |      8712.83 |      9493.65 |     10782.72 |      9980.56 |\n| Gross Margin (%)        |        38.19 |        36.30 |        39.76 |        39.51 |\n| Selling & Marketing Exp |        76.86 |       105.59 |       122.81 |        89.80 |\n| R&D Exp                 |      4160.40 |      3914.94 |      4303.27 |      4334.82 |\n| General & Admin Exp     |       614.16 |       650.09 |       660.89 |       640.03 |\n| Operating Income        |      3861.41 |      4823.03 |      5695.75 |      4915.91 |\n| Operating Margin (%)    |        16.92 |        18.44 |        21.00 |        19.46 |\n| Net Income              |      3689.81 |      3739.25 |      5263.81 |      4801.37 |\n| Net Margin (%)          |        16.17 |        14.30 |        19.41 |        19.01 |\n| Op Cash Flow            |      3189.41 |      1740.04 |      5575.88 |      7598.97 |\n| Investing Cash Flow     |      -443.91 |      -139.04 |      -178.49 |      -728.13 |\n| Financing Cash Flow     |       -20.33 |       -18.32 |      -951.82 |      -102.93 |\n| CAPEX                   |      -517.47 |      -228.80 |      -183.50 |      -858.57 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 17,
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
+  }
+}

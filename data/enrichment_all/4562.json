@@ -1,0 +1,171 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "4562",
+  "company_name": "穎漢",
+  "title": "4562 - 穎漢",
+  "source_md": "Pilot_Reports/電機機械 - 金屬加工用機械/4562_穎漢.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "market_cap": "2,473 百萬台幣",
+    "enterprise_value": "3,253 百萬台幣"
+  },
+  "business": {
+    "summary": "穎漢科技 (4562) 以自有品牌「YLM」行銷全球，專精 CNC [[彎管機]]製造，為全球彎管機領導品牌之一。前五大客戶佔營收約 43%，主要為國際汽車排氣系統 Tier 1 如[[Faurecia]]、[[Tenneco]]等。產品應用於[[汽車]]排氣管、底盤管件、[[空調]]管件及[[航太]]管件彎曲。上游伺服系統含[[Fanuc]]、[[Siemens]]。另供應家具管件及健身器材管件彎曲設備。",
+    "entities": [
+      "彎管機",
+      "Faurecia",
+      "Tenneco",
+      "汽車",
+      "空調",
+      "航太",
+      "Fanuc",
+      "Siemens"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "鑄件/[[Fanuc]]伺服/[[Siemens]]控制/油壓",
+        "entities": [
+          "Fanuc",
+          "Siemens"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游",
+        "text": "**穎漢** (YLM CNC [[彎管機]])",
+        "entities": [
+          "彎管機"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "**下游:**",
+        "entities": []
+      },
+      {
+        "category": "汽車",
+        "text": "[[Faurecia]]、[[Tenneco]] — 排氣管",
+        "entities": [
+          "Faurecia",
+          "Tenneco"
+        ]
+      },
+      {
+        "category": "空調",
+        "text": "[[空調]]管件",
+        "entities": [
+          "空調"
+        ]
+      },
+      {
+        "category": "航太",
+        "text": "[[航太]]管件",
+        "entities": [
+          "航太"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "",
+        "text": "[[Faurecia]]、[[Tenneco]] — 汽車排氣 (前5大佔43%)",
+        "entities": [
+          "Faurecia",
+          "Tenneco"
+        ]
+      },
+      {
+        "role": "",
+        "text": "[[空調]]/[[航太]]管件廠",
+        "entities": [
+          "空調",
+          "航太"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "",
+        "text": "[[Fanuc]]伺服; [[Siemens]]控制; 油壓/鑄件",
+        "entities": [
+          "Fanuc",
+          "Siemens"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "彎管機",
+      "type": "taiwan_company_or_term",
+      "wikilink": "彎管機"
+    },
+    {
+      "name": "Faurecia",
+      "type": "international_company_or_term",
+      "wikilink": "Faurecia"
+    },
+    {
+      "name": "Tenneco",
+      "type": "international_company_or_term",
+      "wikilink": "Tenneco"
+    },
+    {
+      "name": "汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "汽車"
+    },
+    {
+      "name": "空調",
+      "type": "taiwan_company_or_term",
+      "wikilink": "空調"
+    },
+    {
+      "name": "航太",
+      "type": "taiwan_company_or_term",
+      "wikilink": "航太"
+    },
+    {
+      "name": "Fanuc",
+      "type": "international_company_or_term",
+      "wikilink": "Fanuc"
+    },
+    {
+      "name": "Siemens",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "穎漢科技 (4562) 以自有品牌「YLM」行銷全球，專精 CNC [[彎管機]]製造，為全球彎管機領導品牌之一。前五大客戶佔營收約 43%，主要為國際汽車排氣系統 Tier 1 如[[Faurecia]]、[[Tenneco]]等。產品應用於[[汽車]]排氣管、底盤管件、[[空調]]管件及[[航太]]管件彎曲。上游伺服系統含[[Fanuc]]、[[Siemens]]。另供應家具管件及健身器材管件彎曲設備。",
+    "supply_chain_md": "**上游:** 鑄件/[[Fanuc]]伺服/[[Siemens]]控制/油壓\n**中游:** **穎漢** (YLM CNC [[彎管機]])\n**下游:**\n- **汽車:** [[Faurecia]]、[[Tenneco]] — 排氣管\n- **空調:** [[空調]]管件\n- **航太:** [[航太]]管件",
+    "customers_suppliers_md": "### 主要客戶\n- [[Faurecia]]、[[Tenneco]] — 汽車排氣 (前5大佔43%)\n- [[空調]]/[[航太]]管件廠\n\n### 主要供應商\n- [[Fanuc]]伺服; [[Siemens]]控制; 油壓/鑄件",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $27.80 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      3.47 | 2.65 |    -38.31 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       716.41 |       776.84 |       742.20 |\n| Gross Profit            |       260.96 |       276.47 |       251.60 |\n| Gross Margin (%)        |        36.43 |        35.59 |        33.90 |\n| Selling & Marketing Exp |       225.29 |       207.99 |       169.72 |\n| R&D Exp                 |        62.46 |        53.65 |        46.47 |\n| General & Admin Exp     |        85.71 |        89.77 |        92.91 |\n| Operating Income        |      -112.47 |       -74.92 |       -56.83 |\n| Operating Margin (%)    |       -15.70 |        -9.64 |        -7.66 |\n| Net Income              |      -112.13 |       -39.37 |       -80.84 |\n| Net Margin (%)          |       -15.65 |        -5.07 |       -10.89 |\n| Op Cash Flow            |       -84.37 |        77.99 |        59.33 |\n| Investing Cash Flow     |       -30.56 |       -32.50 |       -19.47 |\n| Financing Cash Flow     |        30.33 |       -75.38 |       -47.53 |\n| CAPEX                   |       -31.01 |       -20.97 |       -22.68 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       176.93 |       137.17 |       196.17 |       190.21 |\n| Gross Profit            |        72.00 |        43.12 |        69.48 |        64.52 |\n| Gross Margin (%)        |        40.69 |        31.44 |        35.42 |        33.92 |\n| Selling & Marketing Exp |        50.63 |        61.84 |        53.80 |        55.02 |\n| R&D Exp                 |        12.15 |        22.28 |        13.43 |        13.58 |\n| General & Admin Exp     |        21.08 |        21.46 |        21.68 |        21.85 |\n| Operating Income        |       -11.93 |       -62.46 |       -19.43 |       -25.91 |\n| Operating Margin (%)    |        -6.74 |       -45.54 |        -9.90 |       -13.62 |\n| Net Income              |         9.54 |       -45.67 |       -13.30 |       -56.49 |\n| Net Margin (%)          |         5.39 |       -33.30 |        -6.78 |       -29.70 |\n| Op Cash Flow            |       -36.84 |       -45.00 |       -57.22 |        78.58 |\n| Investing Cash Flow     |         9.27 |       -17.42 |       -10.44 |        -0.52 |\n| Financing Cash Flow     |        23.78 |        52.09 |        -5.45 |         6.42 |\n| CAPEX                   |        -0.76 |       -16.05 |       -10.24 |        -1.75 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 8,
+    "warnings": []
+  }
+}

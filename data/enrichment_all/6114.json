@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6114",
+  "company_name": "久威",
+  "title": "6114_久威",
+  "source_md": "Pilot_Reports/電腦及週邊設備 - 其他電腦及週邊設備之零組件/6114_久威.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "1,124 百萬台幣",
+    "enterprise_value": "238 百萬台幣"
+  },
+  "business": {
+    "summary": "久威國際 (6114) 原以 [[PCB]] 製造起家，策略轉型專注於消費性電子機構材料、光學材料之代理銷售與精密模切加工。\n\n主要業務：(1) 電子材料代理 — 代理國際大廠特用電子材料與光學膜材 (如 [[3M]]、[[Nitto]])，營收占比達 85%，產品應用於智慧型手機光學驅動模組 (VCM 音圈馬達相關膜材)；(2) 精密模切 — 利用精密模切技術加工光學與機構材料，供應消費性電子產品組裝所需。憑藉精準供應鏈管理，成功打入美國科技品牌大廠 ([[Apple]] 供應鏈) 及中國大型電子製造服務商。",
+    "entities": [
+      "PCB",
+      "3M",
+      "Nitto",
+      "Apple"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (國際材料原廠)",
+        "text": "**上游 (國際材料原廠):**",
+        "entities": []
+      },
+      {
+        "category": "光學膜材",
+        "text": "[[3M]]、[[Nitto]] — 特用光學與機構電子材料",
+        "entities": [
+          "3M",
+          "Nitto"
+        ]
+      },
+      {
+        "category": "膠膜",
+        "text": "國際化工大廠 — 精密膠膜材料",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (代理加工)",
+        "text": "**中游 (代理加工):**",
+        "entities": []
+      },
+      {
+        "category": "材料代理",
+        "text": "**久威** (光學與機構電子材料代理)",
+        "entities": []
+      },
+      {
+        "category": "精密模切",
+        "text": "**久威** (光學膜材精密模切加工)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (EMS 與品牌廠)",
+        "text": "**下游 (EMS 與品牌廠):**",
+        "entities": []
+      },
+      {
+        "category": "消費性電子",
+        "text": "[[Apple]] 供應鏈 — 光學驅動模組膜材",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "category": "EMS",
+        "text": "[[鴻海]]、[[和碩]] 等 EMS 大廠 — 組裝用材料",
+        "entities": [
+          "鴻海",
+          "和碩"
+        ]
+      },
+      {
+        "category": "中國 EMS",
+        "text": "中國大型 3C 電子代工廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費性電子",
+        "text": "[[Apple]] 供應鏈 — 光學驅動模組 (VCM) 膜材",
+        "entities": [
+          "Apple"
+        ]
+      },
+      {
+        "role": "EMS",
+        "text": "[[鴻海]]、[[和碩]] 等大廠 — 組裝用電子材料",
+        "entities": [
+          "鴻海",
+          "和碩"
+        ]
+      },
+      {
+        "role": "中國代工",
+        "text": "中國大型 3C 電子產品代工廠",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "光學膜材",
+        "text": "[[3M]]、[[Nitto]] — 特用光學電子材料",
+        "entities": [
+          "3M",
+          "Nitto"
+        ]
+      },
+      {
+        "role": "膠膜",
+        "text": "國際化工大廠 — 精密膠膜材料原廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    },
+    {
+      "name": "3M",
+      "type": "international_company_or_term",
+      "wikilink": "3M"
+    },
+    {
+      "name": "Nitto",
+      "type": "international_company_or_term",
+      "wikilink": "Nitto"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "久威國際 (6114) 原以 [[PCB]] 製造起家，策略轉型專注於消費性電子機構材料、光學材料之代理銷售與精密模切加工。\n\n主要業務：(1) 電子材料代理 — 代理國際大廠特用電子材料與光學膜材 (如 [[3M]]、[[Nitto]])，營收占比達 85%，產品應用於智慧型手機光學驅動模組 (VCM 音圈馬達相關膜材)；(2) 精密模切 — 利用精密模切技術加工光學與機構材料，供應消費性電子產品組裝所需。憑藉精準供應鏈管理，成功打入美國科技品牌大廠 ([[Apple]] 供應鏈) 及中國大型電子製造服務商。",
+    "supply_chain_md": "**上游 (國際材料原廠):**\n- **光學膜材:** [[3M]]、[[Nitto]] — 特用光學與機構電子材料\n- **膠膜:** 國際化工大廠 — 精密膠膜材料\n\n**中游 (代理加工):**\n- **材料代理:** **久威** (光學與機構電子材料代理)\n- **精密模切:** **久威** (光學膜材精密模切加工)\n\n**下游 (EMS 與品牌廠):**\n- **消費性電子:** [[Apple]] 供應鏈 — 光學驅動模組膜材\n- **EMS:** [[鴻海]]、[[和碩]] 等 EMS 大廠 — 組裝用材料\n- **中國 EMS:** 中國大型 3C 電子代工廠",
+    "customers_suppliers_md": "### 主要客戶\n- **消費性電子:** [[Apple]] 供應鏈 — 光學驅動模組 (VCM) 膜材\n- **EMS:** [[鴻海]]、[[和碩]] 等大廠 — 組裝用電子材料\n- **中國代工:** 中國大型 3C 電子產品代工廠\n\n### 主要供應商\n- **光學膜材:** [[3M]]、[[Nitto]] — 特用光學電子材料\n- **膠膜:** 國際化工大廠 — 精密膠膜材料原廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $25.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     27.39 |         N/A |      1.38 | 0.70 |      4.91 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       874.44 |       916.38 |      1190.05 |\n| Gross Profit            |       127.29 |       133.81 |       124.16 |\n| Gross Margin (%)        |        14.56 |        14.60 |        10.43 |\n| Selling & Marketing Exp |        38.88 |        37.62 |        46.98 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |        42.85 |        43.76 |        35.53 |\n| Operating Income        |        45.56 |        52.43 |        41.65 |\n| Operating Margin (%)    |         5.21 |         5.72 |         3.50 |\n| Net Income              |       139.65 |       110.77 |       -27.81 |\n| Net Margin (%)          |        15.97 |        12.09 |        -2.34 |\n| Op Cash Flow            |        12.91 |       203.19 |        66.84 |\n| Investing Cash Flow     |       192.22 |       173.25 |      -296.45 |\n| Financing Cash Flow     |      -202.01 |       -53.15 |       167.91 |\n| CAPEX                   |        -0.04 |        -0.34 |        -5.28 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       197.39 |       174.92 |       240.98 |       254.27 |\n| Gross Profit            |        32.63 |        24.35 |        38.49 |        29.83 |\n| Gross Margin (%)        |        16.53 |        13.92 |        15.97 |        11.73 |\n| Selling & Marketing Exp |        11.07 |        17.34 |         7.93 |         7.34 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |        12.50 |        12.17 |        -1.82 |        18.72 |\n| Operating Income        |         9.06 |        -5.16 |        32.38 |         3.78 |\n| Operating Margin (%)    |         4.59 |        -2.95 |        13.44 |         1.49 |\n| Net Income              |        42.38 |        51.28 |      -139.56 |       141.15 |\n| Net Margin (%)          |        21.47 |        29.31 |       -57.91 |        55.51 |\n| Op Cash Flow            |        51.46 |       110.53 |      -186.10 |        14.28 |\n| Investing Cash Flow     |        13.88 |      -278.15 |       371.26 |       224.72 |\n| Financing Cash Flow     |        36.68 |       -35.38 |      -162.94 |       -33.40 |\n| CAPEX                   |         0.00 |        -0.04 |         0.00 |         0.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

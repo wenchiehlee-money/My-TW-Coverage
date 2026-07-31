@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "5457",
+  "company_name": "宣德",
+  "title": "5457 - 宣德",
+  "source_md": "Pilot_Reports/醫療器材 - 醫療器材研發、設計、製造/5457_宣德.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "5,628 百萬台幣",
+    "enterprise_value": "11,605 百萬台幣"
+  },
+  "business": {
+    "summary": "宣德科技 (Speed Tech) 成立於 1990 年，總部位於台灣[[桃園]]，為中國 **立訊精密 (Luxshare)** 集團成員 (立訊持股約 30%)。主要從事 **電子連接器** 及 **線纜模組** 之製造。產品涵蓋 [[Type-C]], RJ45, USB, HDMI 等[[連接器]]，近年積極拓展 **FATP (整機組裝)** 業務，應用領域擴及 **[[低軌衛星]]** (Starlink)、**[[電動車]]** ([[Tesla]])、**美系手機** ([[Apple]]) 及 **[[AI 伺服器]]** (高速[[連接器]]/線束)。",
+    "entities": [
+      "桃園",
+      "Type-C",
+      "連接器",
+      "低軌衛星",
+      "電動車",
+      "Tesla",
+      "Apple",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游",
+        "text": "金屬沖壓件、塑膠射出件供應商。",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "角色",
+        "text": "[[連接器]]及模組製造商 (中游)。",
+        "entities": [
+          "連接器"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游",
+        "text": "消費電子品牌 ([[Apple]])、[[網通]]廠 ([[SpaceX]])、車廠 ([[Tesla]])、系統組裝廠。",
+        "entities": [
+          "Apple",
+          "網通",
+          "SpaceX",
+          "Tesla"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "消費電子",
+        "text": "[[Apple]] ([[Type-C]] [[連接器]]/機構件)。",
+        "entities": [
+          "Apple",
+          "Type-C",
+          "連接器"
+        ]
+      },
+      {
+        "role": "車用/衛星",
+        "text": "[[Tesla]] (車用[[連接器]]), [[SpaceX]] (Starlink 線束/[[連接器]])。",
+        "entities": [
+          "Tesla",
+          "連接器",
+          "SpaceX"
+        ]
+      },
+      {
+        "role": "其他",
+        "text": "Jabra (耳機組立)。",
+        "entities": []
+      }
+    ],
+    "suppliers": [],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "桃園",
+      "type": "taiwan_company_or_term",
+      "wikilink": "桃園"
+    },
+    {
+      "name": "Type-C",
+      "type": "international_company_or_term",
+      "wikilink": "Type-C"
+    },
+    {
+      "name": "連接器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "連接器"
+    },
+    {
+      "name": "低軌衛星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "低軌衛星"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "Tesla",
+      "type": "international_company_or_term",
+      "wikilink": "Tesla"
+    },
+    {
+      "name": "Apple",
+      "type": "international_company_or_term",
+      "wikilink": "Apple"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "網通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "網通"
+    },
+    {
+      "name": "SpaceX",
+      "type": "international_company_or_term",
+      "wikilink": "SpaceX"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "宣德科技 (Speed Tech) 成立於 1990 年，總部位於台灣[[桃園]]，為中國 **立訊精密 (Luxshare)** 集團成員 (立訊持股約 30%)。主要從事 **電子連接器** 及 **線纜模組** 之製造。產品涵蓋 [[Type-C]], RJ45, USB, HDMI 等[[連接器]]，近年積極拓展 **FATP (整機組裝)** 業務，應用領域擴及 **[[低軌衛星]]** (Starlink)、**[[電動車]]** ([[Tesla]])、**美系手機** ([[Apple]]) 及 **[[AI 伺服器]]** (高速[[連接器]]/線束)。",
+    "supply_chain_md": "**角色:** [[連接器]]及模組製造商 (中游)。\n**上游:** 金屬沖壓件、塑膠射出件供應商。\n**下游:** 消費電子品牌 ([[Apple]])、[[網通]]廠 ([[SpaceX]])、車廠 ([[Tesla]])、系統組裝廠。",
+    "customers_suppliers_md": "### 主要客戶\n- **消費電子:** [[Apple]] ([[Type-C]] [[連接器]]/機構件)。\n- **車用/衛星:** [[Tesla]] (車用[[連接器]]), [[SpaceX]] (Starlink 線束/[[連接器]])。\n- **其他:** Jabra (耳機組立)。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $26.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     10.40 |        6.72 |      0.21 | 0.88 |      4.75 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     24359.83 |     22688.93 |     16741.10 |\n| Gross Profit            |      4334.67 |      3765.87 |      3349.64 |\n| Gross Margin (%)        |        17.79 |        16.60 |        20.01 |\n| Selling & Marketing Exp |       302.45 |       302.46 |       313.98 |\n| R&D Exp                 |      1376.77 |      1184.26 |      1035.01 |\n| General & Admin Exp     |      1244.46 |      1078.91 |       896.12 |\n| Operating Income        |      1410.98 |      1200.25 |      1104.53 |\n| Operating Margin (%)    |         5.79 |         5.29 |         6.60 |\n| Net Income              |       479.80 |       397.08 |       177.19 |\n| Net Margin (%)          |         1.97 |         1.75 |         1.06 |\n| Op Cash Flow            |      2536.80 |      5905.75 |      4422.56 |\n| Investing Cash Flow     |     -3321.94 |     -3285.18 |     -2289.89 |\n| Financing Cash Flow     |      1054.10 |     -1140.33 |      -602.18 |\n| CAPEX                   |     -3126.85 |     -2574.30 |     -1404.29 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      6284.48 |      7154.94 |      5531.46 |      5388.95 |\n| Gross Profit            |      1168.78 |      1275.50 |       917.42 |       972.97 |\n| Gross Margin (%)        |        18.60 |        17.83 |        16.59 |        18.05 |\n| Selling & Marketing Exp |        60.55 |        78.14 |        80.73 |        83.02 |\n| R&D Exp                 |       382.70 |       366.44 |       324.47 |       303.17 |\n| General & Admin Exp     |       326.65 |       296.12 |       320.13 |       301.56 |\n| Operating Income        |       398.88 |       534.79 |       192.09 |       285.22 |\n| Operating Margin (%)    |         6.35 |         7.47 |         3.47 |         5.29 |\n| Net Income              |       213.99 |       183.14 |      -105.72 |       188.39 |\n| Net Margin (%)          |         3.40 |         2.56 |        -1.91 |         3.50 |\n| Op Cash Flow            |      2149.74 |       549.75 |      -465.97 |       303.29 |\n| Investing Cash Flow     |      -779.53 |      -449.05 |      -982.88 |     -1110.49 |\n| Financing Cash Flow     |       108.22 |         8.77 |       285.14 |       651.97 |\n| CAPEX                   |     -1263.83 |      -352.24 |      -824.86 |      -685.93 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

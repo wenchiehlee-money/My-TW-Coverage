@@ -1,0 +1,182 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2427",
+  "company_name": "三商電",
+  "title": "2427 - 三商電",
+  "source_md": "Pilot_Reports/觸控面板 - 金融提款機(ATM)/2427_三商電.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "4,415 百萬台幣",
+    "enterprise_value": "5,567 百萬台幣"
+  },
+  "business": {
+    "summary": "三商電腦股份有限公司 (2427，Mercuries Data Systems) 成立於 1965 年，為[[三商集團]]旗下資訊服務事業。公司專注於金融自動化設備、IT 系統整合及軟體開發。核心業務包括：金融自助設備 ([[ATM]]、外幣兌換機、存款機、智慧繳費機) 之銷售/租賃/維護、鐵路調度無線電系統、政府 IT 標案 (911 派遣系統、救災指揮平台)、保險業解決方案、捷運自動收費系統 (AFC)。三商電為台灣 ATM 市佔率超過五成之金融 IT 基礎設施重要供應商，代理國際大廠[[NCR]]、[[Diebold Nixdorf]]之設備。",
+    "entities": [
+      "三商集團",
+      "ATM",
+      "NCR",
+      "Diebold Nixdorf"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (軟硬體與原廠設備)",
+        "text": "**上游 (軟硬體與原廠設備):**",
+        "entities": []
+      },
+      {
+        "category": "國際設備",
+        "text": "[[NCR]]、[[Diebold Nixdorf]] — ATM 及自助設備硬體",
+        "entities": [
+          "NCR",
+          "Diebold Nixdorf"
+        ]
+      },
+      {
+        "category": "伺服器與網通",
+        "text": "各大品牌伺服器、網通及安控設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (系統整合與軟體開發)",
+        "text": "**中游 (系統整合與軟體開發):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**三商電** — 金融自動化設備在地化軟體開發、系統整合、硬體建置及長期維護",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "金融機構",
+        "text": "台灣各大公股及民營銀行 — ATM 市佔過半",
+        "entities": []
+      },
+      {
+        "category": "政府交通",
+        "text": "[[台鐵]]、[[高鐵]]、[[台北捷運]] — 調度系統與 AFC",
+        "entities": [
+          "台鐵",
+          "高鐵",
+          "台北捷運"
+        ]
+      },
+      {
+        "category": "公部門",
+        "text": "內政部消防署、海巡署 — 救災指揮通訊",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融機構",
+        "text": "台灣各大銀行 — ATM、外幣兌換機、智慧繳費機 (市佔逾五成)",
+        "entities": []
+      },
+      {
+        "role": "政府交通",
+        "text": "[[台鐵]] — 調度無線電系統；[[高鐵]]、[[台北捷運]] — AFC 自動收費系統",
+        "entities": [
+          "台鐵",
+          "高鐵",
+          "台北捷運"
+        ]
+      },
+      {
+        "role": "公部門",
+        "text": "內政部消防署 — 911 派遣系統；海巡署 — 通訊系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "國際設備",
+        "text": "[[NCR]]、[[Diebold Nixdorf]] — 先進 ATM 與自助設備硬體",
+        "entities": [
+          "NCR",
+          "Diebold Nixdorf"
+        ]
+      },
+      {
+        "role": "母集團",
+        "text": "[[三商集團]] — 集團資源共享",
+        "entities": [
+          "三商集團"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "三商集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三商集團"
+    },
+    {
+      "name": "ATM",
+      "type": "international_company_or_term",
+      "wikilink": "ATM"
+    },
+    {
+      "name": "NCR",
+      "type": "international_company_or_term",
+      "wikilink": "NCR"
+    },
+    {
+      "name": "Diebold Nixdorf",
+      "type": "international_company_or_term",
+      "wikilink": "Diebold Nixdorf"
+    },
+    {
+      "name": "台鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台鐵"
+    },
+    {
+      "name": "高鐵",
+      "type": "taiwan_company_or_term",
+      "wikilink": "高鐵"
+    },
+    {
+      "name": "台北捷運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台北捷運"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "三商電腦股份有限公司 (2427，Mercuries Data Systems) 成立於 1965 年，為[[三商集團]]旗下資訊服務事業。公司專注於金融自動化設備、IT 系統整合及軟體開發。核心業務包括：金融自助設備 ([[ATM]]、外幣兌換機、存款機、智慧繳費機) 之銷售/租賃/維護、鐵路調度無線電系統、政府 IT 標案 (911 派遣系統、救災指揮平台)、保險業解決方案、捷運自動收費系統 (AFC)。三商電為台灣 ATM 市佔率超過五成之金融 IT 基礎設施重要供應商，代理國際大廠[[NCR]]、[[Diebold Nixdorf]]之設備。",
+    "supply_chain_md": "**上游 (軟硬體與原廠設備):**\n- **國際設備:** [[NCR]]、[[Diebold Nixdorf]] — ATM 及自助設備硬體\n- **伺服器與網通:** 各大品牌伺服器、網通及安控設備\n\n**中游 (系統整合與軟體開發):**\n- **三商電** — 金融自動化設備在地化軟體開發、系統整合、硬體建置及長期維護\n\n**下游 (終端客戶):**\n- **金融機構:** 台灣各大公股及民營銀行 — ATM 市佔過半\n- **政府交通:** [[台鐵]]、[[高鐵]]、[[台北捷運]] — 調度系統與 AFC\n- **公部門:** 內政部消防署、海巡署 — 救災指揮通訊",
+    "customers_suppliers_md": "### 主要客戶\n- **金融機構:** 台灣各大銀行 — ATM、外幣兌換機、智慧繳費機 (市佔逾五成)\n- **政府交通:** [[台鐵]] — 調度無線電系統；[[高鐵]]、[[台北捷運]] — AFC 自動收費系統\n- **公部門:** 內政部消防署 — 911 派遣系統；海巡署 — 通訊系統\n\n### 主要供應商\n- **國際設備:** [[NCR]]、[[Diebold Nixdorf]] — 先進 ATM 與自助設備硬體\n- **母集團:** [[三商集團]] — 集團資源共享",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $21.90 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     15.21 |         N/A |      0.59 | 1.26 |     14.51 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      6527.78 |      4873.35 |      3971.08 |\n| Gross Profit            |      1563.31 |      1442.48 |      1399.82 |\n| Gross Margin (%)        |        23.95 |        29.60 |        35.25 |\n| Selling & Marketing Exp |       800.71 |       760.17 |       708.02 |\n| R&D Exp                 |       249.80 |       233.11 |       233.89 |\n| General & Admin Exp     |       157.05 |       155.92 |       151.02 |\n| Operating Income        |       355.74 |       293.28 |       306.88 |\n| Operating Margin (%)    |         5.45 |         6.02 |         7.73 |\n| Net Income              |       302.60 |       281.98 |       251.83 |\n| Net Margin (%)          |         4.64 |         5.79 |         6.34 |\n| Op Cash Flow            |      1793.99 |       -99.45 |      -302.10 |\n| Investing Cash Flow     |      -273.27 |      -130.33 |      -108.33 |\n| Financing Cash Flow     |     -1288.46 |       195.83 |       568.83 |\n| CAPEX                   |      -191.56 |      -134.91 |       -97.36 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      2520.82 |       860.43 |      2037.74 |      1108.79 |\n| Gross Profit            |       427.30 |       327.14 |       405.52 |       403.35 |\n| Gross Margin (%)        |        16.95 |        38.02 |        19.90 |        36.38 |\n| Selling & Marketing Exp |       232.75 |       192.81 |       190.15 |       185.00 |\n| R&D Exp                 |        68.39 |        60.89 |        61.79 |        58.73 |\n| General & Admin Exp     |        45.01 |        35.84 |        42.34 |        33.86 |\n| Operating Income        |        81.14 |        37.59 |       111.24 |       125.77 |\n| Operating Margin (%)    |         3.22 |         4.37 |         5.46 |        11.34 |\n| Net Income              |        84.02 |        51.36 |        63.16 |       104.07 |\n| Net Margin (%)          |         3.33 |         5.97 |         3.10 |         9.39 |\n| Op Cash Flow            |       940.66 |       364.67 |       352.16 |       136.50 |\n| Investing Cash Flow     |      -265.36 |       -21.67 |        -1.59 |        15.36 |\n| Financing Cash Flow     |      -257.88 |      -402.04 |      -360.92 |      -267.62 |\n| CAPEX                   |      -170.52 |       -12.47 |        -6.64 |        -1.94 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

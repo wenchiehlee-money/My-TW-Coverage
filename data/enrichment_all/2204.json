@@ -1,0 +1,256 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2204",
+  "company_name": "中華",
+  "title": "2204 - 中華",
+  "source_md": "Pilot_Reports/汽車 - 整車組裝、修理及技術服務/2204_中華.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "market_cap": "28,622 百萬台幣",
+    "enterprise_value": "32,861 百萬台幣"
+  },
+  "business": {
+    "summary": "[[中華汽車]] (2204，China Motor Corporation) 為[[裕隆集團]]核心製造企業，台灣輕型商用車龍頭。主要合作夥伴包含[[三菱汽車]] ([[Mitsubishi]] Motors) 及[[三菱扶桑]] (FUSO)。近年成功引進[[上汽集團]]旗下[[MG]]品牌，MG HS 車款銷售亮眼。產品線涵蓋：(1) 乘用車 — [[MG]] HS、[[Outlander]]、[[Eclipse Cross]] PHEV；(2) 商用車 — [[Delica]] (得利卡)、FUSO [[Canter]] (堅達) 系列；(3) 電動商用車 — ET35 電動貨卡，已導入[[新竹物流]]車隊；(4) 電動二輪 — 自有品牌[[eMOVING]] iE125 自主充電系統。楊梅廠為主要生產基地。",
+    "entities": [
+      "中華汽車",
+      "裕隆集團",
+      "三菱汽車",
+      "Mitsubishi",
+      "三菱扶桑",
+      "上汽集團",
+      "MG",
+      "Outlander",
+      "Eclipse Cross",
+      "Delica",
+      "Canter",
+      "新竹物流",
+      "eMOVING"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (技術與零件)",
+        "text": "**上游 (技術與零件):**",
+        "entities": []
+      },
+      {
+        "category": "乘用車",
+        "text": "[[三菱汽車]] — [[Mitsubishi]] 技術授權與零件",
+        "entities": [
+          "三菱汽車",
+          "Mitsubishi"
+        ]
+      },
+      {
+        "category": "商用車",
+        "text": "[[三菱扶桑]] (FUSO) — 大型商用車技術",
+        "entities": [
+          "三菱扶桑"
+        ]
+      },
+      {
+        "category": "MG 品牌",
+        "text": "[[上汽集團]] — MG 品牌技術與零件供應",
+        "entities": [
+          "上汽集團"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (製造)",
+        "text": "**中游 (製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[中華汽車]]** (楊梅廠整車組裝，涵蓋乘用車、商用車及電動車)",
+        "entities": [
+          "中華汽車"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (經銷與終端)",
+        "text": "**下游 (經銷與終端):**",
+        "entities": []
+      },
+      {
+        "category": "商用車經銷",
+        "text": "[[裕益汽車]] — FUSO 大貨車/曳引車經銷",
+        "entities": [
+          "裕益汽車"
+        ]
+      },
+      {
+        "category": "電動商用車",
+        "text": "[[新竹物流]] — ET35 電動貨卡車隊客戶",
+        "entities": [
+          "新竹物流"
+        ]
+      },
+      {
+        "category": "一般消費者",
+        "text": "[[MG]] HS、[[Outlander]]、[[Delica]] 車主",
+        "entities": [
+          "MG",
+          "Outlander",
+          "Delica"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "物流業",
+        "text": "[[新竹物流]] — ET35 電動貨卡車隊",
+        "entities": [
+          "新竹物流"
+        ]
+      },
+      {
+        "role": "商用車經銷",
+        "text": "[[裕益汽車]] — FUSO 大貨車/曳引車",
+        "entities": [
+          "裕益汽車"
+        ]
+      },
+      {
+        "role": "一般消費者",
+        "text": "[[MG]] HS、[[Outlander]]、[[Delica]] 車主",
+        "entities": [
+          "MG",
+          "Outlander",
+          "Delica"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "乘用車",
+        "text": "[[三菱汽車]] — 技術授權與零件",
+        "entities": [
+          "三菱汽車"
+        ]
+      },
+      {
+        "role": "商用車",
+        "text": "[[三菱扶桑]] (FUSO) — 大型商用車技術",
+        "entities": [
+          "三菱扶桑"
+        ]
+      },
+      {
+        "role": "MG 品牌",
+        "text": "[[上汽集團]] — 品牌技術與零件",
+        "entities": [
+          "上汽集團"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "中華汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華汽車"
+    },
+    {
+      "name": "裕隆集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆集團"
+    },
+    {
+      "name": "三菱汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱汽車"
+    },
+    {
+      "name": "Mitsubishi",
+      "type": "international_company_or_term",
+      "wikilink": "Mitsubishi"
+    },
+    {
+      "name": "三菱扶桑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "三菱扶桑"
+    },
+    {
+      "name": "上汽集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "上汽集團"
+    },
+    {
+      "name": "MG",
+      "type": "international_company_or_term",
+      "wikilink": "MG"
+    },
+    {
+      "name": "Outlander",
+      "type": "international_company_or_term",
+      "wikilink": "Outlander"
+    },
+    {
+      "name": "Eclipse Cross",
+      "type": "international_company_or_term",
+      "wikilink": "Eclipse Cross"
+    },
+    {
+      "name": "Delica",
+      "type": "international_company_or_term",
+      "wikilink": "Delica"
+    },
+    {
+      "name": "Canter",
+      "type": "international_company_or_term",
+      "wikilink": "Canter"
+    },
+    {
+      "name": "新竹物流",
+      "type": "taiwan_company_or_term",
+      "wikilink": "新竹物流"
+    },
+    {
+      "name": "eMOVING",
+      "type": "international_company_or_term",
+      "wikilink": "eMOVING"
+    },
+    {
+      "name": "裕益汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕益汽車"
+    },
+    {
+      "name": "裕隆",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[中華汽車]] (2204，China Motor Corporation) 為[[裕隆集團]]核心製造企業，台灣輕型商用車龍頭。主要合作夥伴包含[[三菱汽車]] ([[Mitsubishi]] Motors) 及[[三菱扶桑]] (FUSO)。近年成功引進[[上汽集團]]旗下[[MG]]品牌，MG HS 車款銷售亮眼。產品線涵蓋：(1) 乘用車 — [[MG]] HS、[[Outlander]]、[[Eclipse Cross]] PHEV；(2) 商用車 — [[Delica]] (得利卡)、FUSO [[Canter]] (堅達) 系列；(3) 電動商用車 — ET35 電動貨卡，已導入[[新竹物流]]車隊；(4) 電動二輪 — 自有品牌[[eMOVING]] iE125 自主充電系統。楊梅廠為主要生產基地。",
+    "supply_chain_md": "**上游 (技術與零件):**\n- **乘用車:** [[三菱汽車]] — [[Mitsubishi]] 技術授權與零件\n- **商用車:** [[三菱扶桑]] (FUSO) — 大型商用車技術\n- **MG 品牌:** [[上汽集團]] — MG 品牌技術與零件供應\n\n**中游 (製造):**\n- **[[中華汽車]]** (楊梅廠整車組裝，涵蓋乘用車、商用車及電動車)\n\n**下游 (經銷與終端):**\n- **商用車經銷:** [[裕益汽車]] — FUSO 大貨車/曳引車經銷\n- **電動商用車:** [[新竹物流]] — ET35 電動貨卡車隊客戶\n- **一般消費者:** [[MG]] HS、[[Outlander]]、[[Delica]] 車主",
+    "customers_suppliers_md": "### 主要客戶\n- **物流業:** [[新竹物流]] — ET35 電動貨卡車隊\n- **商用車經銷:** [[裕益汽車]] — FUSO 大貨車/曳引車\n- **一般消費者:** [[MG]] HS、[[Outlander]]、[[Delica]] 車主\n\n### 主要供應商\n- **乘用車:** [[三菱汽車]] — 技術授權與零件\n- **商用車:** [[三菱扶桑]] (FUSO) — 大型商用車技術\n- **MG 品牌:** [[上汽集團]] — 品牌技術與零件",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $52.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|      9.49 |        7.17 |      0.86 | 0.78 |     14.83 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     32092.17 |     39243.20 |     38432.52 |\n| Gross Profit            |      4861.42 |      5708.24 |      6023.87 |\n| Gross Margin (%)        |        15.15 |        14.55 |        15.67 |\n| Selling & Marketing Exp |       581.06 |       917.78 |       776.67 |\n| R&D Exp                 |      2224.26 |      2013.48 |      1577.72 |\n| General & Admin Exp     |       923.21 |      1049.59 |      1027.75 |\n| Operating Income        |      1132.89 |      1727.39 |      2641.72 |\n| Operating Margin (%)    |         3.53 |         4.40 |         6.87 |\n| Net Income              |      2985.71 |      4006.79 |      5652.25 |\n| Net Margin (%)          |         9.30 |        10.21 |        14.71 |\n| Op Cash Flow            |      1102.30 |       258.41 |      4261.40 |\n| Investing Cash Flow     |      -278.65 |       255.53 |     -5145.65 |\n| Financing Cash Flow     |     -2082.13 |      -446.52 |     -2145.89 |\n| CAPEX                   |     -2101.54 |     -2167.79 |     -2723.89 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      9416.05 |      8132.10 |      7559.91 |      8450.30 |\n| Gross Profit            |      1309.76 |       818.11 |      1429.29 |      1458.59 |\n| Gross Margin (%)        |        13.91 |        10.06 |        18.91 |        17.26 |\n| Selling & Marketing Exp |       187.47 |      -202.21 |       214.14 |       311.99 |\n| R&D Exp                 |       415.23 |       676.51 |       624.87 |       431.27 |\n| General & Admin Exp     |       241.20 |       167.76 |       252.74 |       255.12 |\n| Operating Income        |       465.86 |       176.06 |       337.55 |       460.21 |\n| Operating Margin (%)    |         4.95 |         2.16 |         4.46 |         5.45 |\n| Net Income              |       642.99 |       854.98 |       801.35 |       699.98 |\n| Net Margin (%)          |         6.83 |        10.51 |        10.60 |         8.28 |\n| Op Cash Flow            |      -188.26 |       784.71 |       207.92 |       -12.10 |\n| Investing Cash Flow     |       260.85 |      -522.51 |       292.11 |       329.58 |\n| Financing Cash Flow     |        56.91 |     -1014.26 |      -717.24 |      -618.72 |\n| CAPEX                   |      -420.61 |      -619.46 |      -621.37 |      -380.34 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

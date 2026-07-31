@@ -1,0 +1,244 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2256",
+  "company_name": "歐特明",
+  "title": "2256 - 歐特明",
+  "source_md": "Pilot_Reports/汽車 - 其他/2256_歐特明.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "market_cap": "2,394 百萬台幣",
+    "enterprise_value": "N/A 百萬台幣"
+  },
+  "business": {
+    "summary": "歐特明智能科技 (2256，oToBrite) 為視覺 AI 演算法與車規相機模組之 Tier 1 供應商，專精 L2+ 至 L4 自動駕駛技術。核心產品涵蓋[[ADAS]]視覺系統、[[自動停車]] ([[APA]]/[[AVP]])、[[域控制器]]及車規相機模組。最大客戶為[[小鵬汽車]] (XPeng，歷史營收佔比逾 80%，目標降至 50%)。另供應[[納智捷]]/[[裕隆集團]]及[[鴻華先進]]([[MIH]]電動車平台)。影像感測器採用[[Sony]] IMX623 及[[OmniVision]]，運算平台整合[[indie Semiconductor]]及[[NVIDIA]] Jetson。積極拓展日本、澳洲、歐美市場。",
+    "entities": [
+      "ADAS",
+      "自動停車",
+      "APA",
+      "AVP",
+      "域控制器",
+      "小鵬汽車",
+      "納智捷",
+      "裕隆集團",
+      "鴻華先進",
+      "MIH",
+      "Sony",
+      "OmniVision",
+      "indie Semiconductor",
+      "NVIDIA"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (晶片與感測器)",
+        "text": "**上游 (晶片與感測器):**",
+        "entities": []
+      },
+      {
+        "category": "影像感測器",
+        "text": "[[Sony]]、[[OmniVision]] — 車規 CMOS 感測器",
+        "entities": [
+          "Sony",
+          "OmniVision"
+        ]
+      },
+      {
+        "category": "運算晶片",
+        "text": "[[indie Semiconductor]]、[[NVIDIA]] — 域控制器/AI 運算",
+        "entities": [
+          "indie Semiconductor",
+          "NVIDIA"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (研發製造)",
+        "text": "**中游 (研發製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**歐特明** (視覺 AI 演算法、[[ADAS]] 相機模組、[[域控制器]]、[[APA]]/[[AVP]])",
+        "entities": [
+          "ADAS",
+          "域控制器",
+          "APA",
+          "AVP"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (OEM 客戶)",
+        "text": "**下游 (OEM 客戶):**",
+        "entities": []
+      },
+      {
+        "category": "中國 NEV",
+        "text": "[[小鵬汽車]] — 最大客戶，L2+ 視覺 ADAS",
+        "entities": [
+          "小鵬汽車"
+        ]
+      },
+      {
+        "category": "台灣",
+        "text": "[[納智捷]]/[[裕隆集團]] — ADAS 系統",
+        "entities": [
+          "納智捷",
+          "裕隆集團"
+        ]
+      },
+      {
+        "category": "EV 平台",
+        "text": "[[鴻華先進]] — [[MIH]] 電動車平台",
+        "entities": [
+          "鴻華先進",
+          "MIH"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "中國 NEV",
+        "text": "[[小鵬汽車]] — 最大客戶 (營收佔比目標降至 50%)",
+        "entities": [
+          "小鵬汽車"
+        ]
+      },
+      {
+        "role": "台灣",
+        "text": "[[納智捷]]/[[裕隆集團]] — ADAS 視覺系統",
+        "entities": [
+          "納智捷",
+          "裕隆集團"
+        ]
+      },
+      {
+        "role": "EV 平台",
+        "text": "[[鴻華先進]] — [[MIH]] 平台",
+        "entities": [
+          "鴻華先進",
+          "MIH"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "影像感測",
+        "text": "[[Sony]]、[[OmniVision]] — 車規 CMOS",
+        "entities": [
+          "Sony",
+          "OmniVision"
+        ]
+      },
+      {
+        "role": "運算晶片",
+        "text": "[[indie Semiconductor]]、[[NVIDIA]] — AI 運算平台",
+        "entities": [
+          "indie Semiconductor",
+          "NVIDIA"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "自動停車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "自動停車"
+    },
+    {
+      "name": "APA",
+      "type": "international_company_or_term",
+      "wikilink": "APA"
+    },
+    {
+      "name": "AVP",
+      "type": "international_company_or_term",
+      "wikilink": "AVP"
+    },
+    {
+      "name": "域控制器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "域控制器"
+    },
+    {
+      "name": "小鵬汽車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "小鵬汽車"
+    },
+    {
+      "name": "納智捷",
+      "type": "taiwan_company_or_term",
+      "wikilink": "納智捷"
+    },
+    {
+      "name": "裕隆集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "裕隆集團"
+    },
+    {
+      "name": "鴻華先進",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻華先進"
+    },
+    {
+      "name": "MIH",
+      "type": "international_company_or_term",
+      "wikilink": "MIH"
+    },
+    {
+      "name": "Sony",
+      "type": "international_company_or_term",
+      "wikilink": "Sony"
+    },
+    {
+      "name": "OmniVision",
+      "type": "international_company_or_term",
+      "wikilink": "OmniVision"
+    },
+    {
+      "name": "indie Semiconductor",
+      "type": "international_company_or_term",
+      "wikilink": "indie Semiconductor"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "歐特明智能科技 (2256，oToBrite) 為視覺 AI 演算法與車規相機模組之 Tier 1 供應商，專精 L2+ 至 L4 自動駕駛技術。核心產品涵蓋[[ADAS]]視覺系統、[[自動停車]] ([[APA]]/[[AVP]])、[[域控制器]]及車規相機模組。最大客戶為[[小鵬汽車]] (XPeng，歷史營收佔比逾 80%，目標降至 50%)。另供應[[納智捷]]/[[裕隆集團]]及[[鴻華先進]]([[MIH]]電動車平台)。影像感測器採用[[Sony]] IMX623 及[[OmniVision]]，運算平台整合[[indie Semiconductor]]及[[NVIDIA]] Jetson。積極拓展日本、澳洲、歐美市場。",
+    "supply_chain_md": "**上游 (晶片與感測器):**\n- **影像感測器:** [[Sony]]、[[OmniVision]] — 車規 CMOS 感測器\n- **運算晶片:** [[indie Semiconductor]]、[[NVIDIA]] — 域控制器/AI 運算\n\n**中游 (研發製造):**\n- **歐特明** (視覺 AI 演算法、[[ADAS]] 相機模組、[[域控制器]]、[[APA]]/[[AVP]])\n\n**下游 (OEM 客戶):**\n- **中國 NEV:** [[小鵬汽車]] — 最大客戶，L2+ 視覺 ADAS\n- **台灣:** [[納智捷]]/[[裕隆集團]] — ADAS 系統\n- **EV 平台:** [[鴻華先進]] — [[MIH]] 電動車平台",
+    "customers_suppliers_md": "### 主要客戶\n- **中國 NEV:** [[小鵬汽車]] — 最大客戶 (營收佔比目標降至 50%)\n- **台灣:** [[納智捷]]/[[裕隆集團]] — ADAS 視覺系統\n- **EV 平台:** [[鴻華先進]] — [[MIH]] 平台\n\n### 主要供應商\n- **影像感測:** [[Sony]]、[[OmniVision]] — 車規 CMOS\n- **運算晶片:** [[indie Semiconductor]]、[[NVIDIA]] — AI 運算平台",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $57.00 as of 2026-07-30)\n| P/E (TTM) | Forward P/E | P/S (TTM) | P/B | EV/EBITDA |\n|-----------|-------------|-----------|-----|-----------|\n|       N/A |         N/A |       N/A | N/A |       N/A |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       365.37 |       359.80 |       278.50 |\n| Gross Profit            |       131.02 |       127.76 |       -20.37 |\n| Gross Margin (%)        |        35.86 |        35.51 |        -7.31 |\n| Selling & Marketing Exp |        28.74 |        28.94 |        29.72 |\n| R&D Exp                 |       113.91 |       130.57 |       137.10 |\n| General & Admin Exp     |        35.89 |        34.03 |        37.47 |\n| Operating Income        |       -47.52 |       -65.78 |      -224.66 |\n| Operating Margin (%)    |       -13.01 |       -18.28 |       -80.67 |\n| Net Income              |       -49.46 |       -39.64 |      -229.06 |\n| Net Margin (%)          |       -13.54 |       -11.02 |       -82.25 |\n| Op Cash Flow            |         6.56 |       -14.81 |       -89.88 |\n| Investing Cash Flow     |        -7.91 |        -6.27 |       -24.21 |\n| Financing Cash Flow     |        23.91 |        45.02 |       -31.93 |\n| CAPEX                   |       -31.15 |        -6.45 |        -9.94 |\n\n### 季度關鍵財務數據 (近 4 季)\n無可用數據。"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

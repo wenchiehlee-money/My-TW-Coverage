@@ -1,0 +1,243 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "6005",
+  "company_name": "群益證",
+  "title": "6005_群益證",
+  "source_md": "Pilot_Reports/金融 - 證券業/6005_群益證.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Financial Services",
+    "industry": "Capital Markets",
+    "market_cap": "71,314 百萬台幣",
+    "enterprise_value": "154,685 百萬台幣"
+  },
+  "business": {
+    "summary": "群益金鼎證券 (6005) 成立於 1988 年，為[[群益金融集團]]旗下核心公司，台灣知名大型綜合券商。2011 年併購[[金鼎證券]]後規模大增。台股經紀業務市占率約 4%，排名本土券商第六。業務涵蓋國內外證券經紀、IPO/SPO 承銷、自營交易、債券交易、衍生性金融商品及財富管理。轉投資子公司包括[[群益期貨]] (6024)、群益證券 (香港) 及群益投信。近年積極拓展高資產財富管理，推出「群益享樂宇宙」跨界生態圈，結盟[[KKBOX]]、[[全盈支付]]等異業夥伴。股務代理服務涵蓋 300 多家上市櫃公司。全台設有近 50 個營業據點。",
+    "entities": [
+      "群益金融集團",
+      "金鼎證券",
+      "群益期貨",
+      "KKBOX",
+      "全盈支付"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (交易基建與金融系統)",
+        "text": "**上游 (交易基建與金融系統):**",
+        "entities": []
+      },
+      {
+        "category": "市場基礎設施",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[台灣集中保管結算所]]",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣期貨交易所",
+          "台灣集中保管結算所"
+        ]
+      },
+      {
+        "category": "金融資訊",
+        "text": "[[精誠資訊]] — AI 智能對話模組「AI 問問」",
+        "entities": [
+          "精誠資訊"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (綜合證券服務)",
+        "text": "**中游 (綜合證券服務):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**群益證券 (6005)** — 經紀、承銷、自營、債券、財富管理、股務代理",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**[[群益期貨]] (6024)** — 國內外期貨選擇權經紀",
+        "entities": [
+          "群益期貨"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**群益投信** — 基金發行與管理",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**群益證券 (香港)** — 海外業務據點",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "個人投資人",
+        "text": "經紀散戶及財管高資產客戶",
+        "entities": []
+      },
+      {
+        "category": "機構法人",
+        "text": "國內外法人委託交易",
+        "entities": []
+      },
+      {
+        "category": "企業客戶",
+        "text": "IPO/SPO 承銷、股務代理",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "經紀業務",
+        "text": "全台近 50 據點之散戶投資人 (市占率約 4%)",
+        "entities": []
+      },
+      {
+        "role": "財富管理",
+        "text": "高資產客戶 — 複委託、另類投資、家族傳承規劃",
+        "entities": []
+      },
+      {
+        "role": "承銷業務",
+        "text": "海內外企業法人 — IPO/SPO 承銷保薦",
+        "entities": []
+      },
+      {
+        "role": "股務代理",
+        "text": "300 多家上市櫃公司 — 股東會事務與除權息發放",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "市場基建",
+        "text": "[[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣集中保管結算所]]",
+        "entities": [
+          "台灣證券交易所",
+          "證券櫃檯買賣中心",
+          "台灣集中保管結算所"
+        ]
+      },
+      {
+        "role": "AI 系統",
+        "text": "[[精誠資訊]] — AI 智能對話模組",
+        "entities": [
+          "精誠資訊"
+        ]
+      },
+      {
+        "role": "異業結盟",
+        "text": "[[KKBOX]]、[[全盈支付]]、[[漢堡王]]、[[World Gym]]、[[燦星旅遊]] — 「群益享樂宇宙」生態圈",
+        "entities": [
+          "KKBOX",
+          "全盈支付",
+          "漢堡王",
+          "World Gym",
+          "燦星旅遊"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "群益金融集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群益金融集團"
+    },
+    {
+      "name": "金鼎證券",
+      "type": "taiwan_company_or_term",
+      "wikilink": "金鼎證券"
+    },
+    {
+      "name": "群益期貨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "群益期貨"
+    },
+    {
+      "name": "KKBOX",
+      "type": "international_company_or_term",
+      "wikilink": "KKBOX"
+    },
+    {
+      "name": "全盈支付",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全盈支付"
+    },
+    {
+      "name": "台灣證券交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣證券交易所"
+    },
+    {
+      "name": "證券櫃檯買賣中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "證券櫃檯買賣中心"
+    },
+    {
+      "name": "台灣期貨交易所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣期貨交易所"
+    },
+    {
+      "name": "台灣集中保管結算所",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣集中保管結算所"
+    },
+    {
+      "name": "精誠資訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "精誠資訊"
+    },
+    {
+      "name": "漢堡王",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢堡王"
+    },
+    {
+      "name": "World Gym",
+      "type": "international_company_or_term",
+      "wikilink": "World Gym"
+    },
+    {
+      "name": "燦星旅遊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "燦星旅遊"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "群益金鼎證券 (6005) 成立於 1988 年，為[[群益金融集團]]旗下核心公司，台灣知名大型綜合券商。2011 年併購[[金鼎證券]]後規模大增。台股經紀業務市占率約 4%，排名本土券商第六。業務涵蓋國內外證券經紀、IPO/SPO 承銷、自營交易、債券交易、衍生性金融商品及財富管理。轉投資子公司包括[[群益期貨]] (6024)、群益證券 (香港) 及群益投信。近年積極拓展高資產財富管理，推出「群益享樂宇宙」跨界生態圈，結盟[[KKBOX]]、[[全盈支付]]等異業夥伴。股務代理服務涵蓋 300 多家上市櫃公司。全台設有近 50 個營業據點。",
+    "supply_chain_md": "**上游 (交易基建與金融系統):**\n- **市場基礎設施:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣期貨交易所]]、[[台灣集中保管結算所]]\n- **金融資訊:** [[精誠資訊]] — AI 智能對話模組「AI 問問」\n\n**中游 (綜合證券服務):**\n- **群益證券 (6005)** — 經紀、承銷、自營、債券、財富管理、股務代理\n- **[[群益期貨]] (6024)** — 國內外期貨選擇權經紀\n- **群益投信** — 基金發行與管理\n- **群益證券 (香港)** — 海外業務據點\n\n**下游 (終端客戶):**\n- **個人投資人:** 經紀散戶及財管高資產客戶\n- **機構法人:** 國內外法人委託交易\n- **企業客戶:** IPO/SPO 承銷、股務代理",
+    "customers_suppliers_md": "### 主要客戶\n- **經紀業務:** 全台近 50 據點之散戶投資人 (市占率約 4%)\n- **財富管理:** 高資產客戶 — 複委託、另類投資、家族傳承規劃\n- **承銷業務:** 海內外企業法人 — IPO/SPO 承銷保薦\n- **股務代理:** 300 多家上市櫃公司 — 股東會事務與除權息發放\n\n### 主要供應商\n- **市場基建:** [[台灣證券交易所]]、[[證券櫃檯買賣中心]]、[[台灣集中保管結算所]]\n- **AI 系統:** [[精誠資訊]] — AI 智能對話模組\n- **異業結盟:** [[KKBOX]]、[[全盈支付]]、[[漢堡王]]、[[World Gym]]、[[燦星旅遊]] — 「群益享樂宇宙」生態圈",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $32.75 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     12.41 |         N/A |      3.59 | 1.48 |       N/A |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     21662.01 |     20263.62 |     14033.27 |\n| Gross Profit            |     18522.99 |     17753.61 |     12481.24 |\n| Gross Margin (%)        |        85.51 |        87.61 |        88.94 |\n| Selling & Marketing Exp |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |       -    |       -    |       -    |\n| Operating Income        |      9574.08 |      9781.56 |      6228.14 |\n| Operating Margin (%)    |        44.20 |        48.27 |        44.38 |\n| Net Income              |      5735.93 |      4883.78 |      4131.51 |\n| Net Margin (%)          |        26.48 |        24.10 |        29.44 |\n| Op Cash Flow            |     -6030.22 |    -28202.62 |    -11831.84 |\n| Investing Cash Flow     |       629.98 |     -2320.50 |     -2386.27 |\n| Financing Cash Flow     |     10771.10 |     30940.55 |     11570.23 |\n| CAPEX                   |      -308.02 |      -226.78 |      -320.22 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      8870.14 |      7959.42 |      1595.50 |      3236.95 |\n| Gross Profit            |      8083.52 |      7034.20 |       810.75 |      2594.53 |\n| Gross Margin (%)        |        91.13 |        88.38 |        50.81 |        80.15 |\n| Selling & Marketing Exp |       -    |       -    |       -    |       -    |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       -    |       -    |       -    |       -    |\n| Operating Income        |      5393.20 |      4657.16 |     -1037.50 |       561.22 |\n| Operating Margin (%)    |        60.80 |        58.51 |       -65.03 |        17.34 |\n| Net Income              |      1682.06 |      2039.52 |      1139.70 |       874.66 |\n| Net Margin (%)          |        18.96 |        25.62 |        71.43 |        27.02 |\n| Op Cash Flow            |    -25840.78 |     -1496.53 |     20823.43 |       483.65 |\n| Investing Cash Flow     |       133.88 |       134.19 |       510.24 |      -148.33 |\n| Financing Cash Flow     |     25875.65 |      3363.17 |    -20990.58 |      2522.87 |\n| CAPEX                   |      -110.33 |       -40.96 |       -52.55 |      -104.18 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 13,
+    "warnings": []
+  }
+}

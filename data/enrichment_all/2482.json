@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2482",
+  "company_name": "連宇",
+  "title": "2482 - 連宇",
+  "source_md": "Pilot_Reports/其他 - 其他電子產品及電子服務產業/2482_連宇.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Business Equipment & Supplies",
+    "market_cap": "1,266 百萬台幣",
+    "enterprise_value": "664 百萬台幣"
+  },
+  "business": {
+    "summary": "連宇股份有限公司 (2482，Uniform Industrial) 成立於 1983 年，為電子支付設備製造商，專注於讀卡機 (Card Reader) 及 POS 終端機。主要市場為北美，產品應用於自助加油站、[[電動車]]充電樁及零售店。公司產品通過 [[PCI]]與[[EMV]]國際安全認證，近期積極轉向無人自助服務支付方案市場，提供涵蓋硬體、軟體與雲端管理平台之一站式數位支付解決方案。核心技術包括安全加密 Key Injection 技術與[[NFC]]非接觸式支付。",
+    "entities": [
+      "電動車",
+      "PCI",
+      "EMV",
+      "NFC"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (電子零組件)",
+        "text": "**上游 (電子零組件):**",
+        "entities": []
+      },
+      {
+        "category": "元件採購",
+        "text": "[[IC]]控制晶片、[[PCB]]印刷電路板、塑膠外殼、連接器",
+        "entities": [
+          "IC",
+          "PCB"
+        ]
+      },
+      {
+        "category": "安全晶片",
+        "text": "PCI 認證安全控制模組",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (支付終端製造)",
+        "text": "**中游 (支付終端製造):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**連宇** — 讀卡機與 POS 機表面黏著、組裝、軟體燒錄 (Key Injection) 與系統測試",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (非現金支付場域)",
+        "text": "**下游 (非現金支付場域):**",
+        "entities": []
+      },
+      {
+        "category": "自助加油站",
+        "text": "北美加油站支付終端",
+        "entities": []
+      },
+      {
+        "category": "[[電動車]]充電樁",
+        "text": "充電站支付設備",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "category": "零售通路",
+        "text": "自助結帳與販賣機支付設備",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "北美通路",
+        "text": "自助加油站營運商 — 讀卡機與支付終端",
+        "entities": []
+      },
+      {
+        "role": "[[電動車]]充電",
+        "text": "充電樁營運商 — 支付設備",
+        "entities": [
+          "電動車"
+        ]
+      },
+      {
+        "role": "零售業",
+        "text": "北美零售通路 — 自助結帳系統",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "IC 晶片",
+        "text": "國際安全晶片供應商 — PCI/EMV 認證元件",
+        "entities": []
+      },
+      {
+        "role": "[[PCB]]",
+        "text": "印刷電路板製造商",
+        "entities": [
+          "PCB"
+        ]
+      },
+      {
+        "role": "連接器",
+        "text": "各類電子連接器供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "PCI",
+      "type": "international_company_or_term",
+      "wikilink": "PCI"
+    },
+    {
+      "name": "EMV",
+      "type": "international_company_or_term",
+      "wikilink": "EMV"
+    },
+    {
+      "name": "NFC",
+      "type": "international_company_or_term",
+      "wikilink": "NFC"
+    },
+    {
+      "name": "IC",
+      "type": "international_company_or_term",
+      "wikilink": "IC"
+    },
+    {
+      "name": "PCB",
+      "type": "technology",
+      "wikilink": "PCB"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "連宇股份有限公司 (2482，Uniform Industrial) 成立於 1983 年，為電子支付設備製造商，專注於讀卡機 (Card Reader) 及 POS 終端機。主要市場為北美，產品應用於自助加油站、[[電動車]]充電樁及零售店。公司產品通過 [[PCI]]與[[EMV]]國際安全認證，近期積極轉向無人自助服務支付方案市場，提供涵蓋硬體、軟體與雲端管理平台之一站式數位支付解決方案。核心技術包括安全加密 Key Injection 技術與[[NFC]]非接觸式支付。",
+    "supply_chain_md": "**上游 (電子零組件):**\n- **元件採購:** [[IC]]控制晶片、[[PCB]]印刷電路板、塑膠外殼、連接器\n- **安全晶片:** PCI 認證安全控制模組\n\n**中游 (支付終端製造):**\n- **連宇** — 讀卡機與 POS 機表面黏著、組裝、軟體燒錄 (Key Injection) 與系統測試\n\n**下游 (非現金支付場域):**\n- **自助加油站:** 北美加油站支付終端\n- **[[電動車]]充電樁:** 充電站支付設備\n- **零售通路:** 自助結帳與販賣機支付設備",
+    "customers_suppliers_md": "### 主要客戶\n- **北美通路:** 自助加油站營運商 — 讀卡機與支付終端\n- **[[電動車]]充電:** 充電樁營運商 — 支付設備\n- **零售業:** 北美零售通路 — 自助結帳系統\n\n### 主要供應商\n- **IC 晶片:** 國際安全晶片供應商 — PCI/EMV 認證元件\n- **[[PCB]]:** 印刷電路板製造商\n- **連接器:** 各類電子連接器供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $16.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      2.50 | 1.17 |     -7.46 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       495.81 |       596.58 |      1440.44 |\n| Gross Profit            |       210.28 |       267.19 |       614.55 |\n| Gross Margin (%)        |        42.41 |        44.79 |        42.66 |\n| Selling & Marketing Exp |        97.87 |        95.88 |       116.75 |\n| R&D Exp                 |        72.25 |        77.85 |        89.55 |\n| General & Admin Exp     |       130.90 |       136.31 |       170.10 |\n| Operating Income        |       -90.74 |       -42.85 |       238.15 |\n| Operating Margin (%)    |       -18.30 |        -7.18 |        16.53 |\n| Net Income              |       -84.55 |        63.09 |       186.78 |\n| Net Margin (%)          |       -17.05 |        10.58 |        12.97 |\n| Op Cash Flow            |        39.88 |        33.18 |       290.03 |\n| Investing Cash Flow     |       -47.04 |        65.78 |       -12.35 |\n| Financing Cash Flow     |       -55.51 |       -91.94 |      -128.41 |\n| CAPEX                   |       -44.12 |        -9.71 |       -38.85 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       113.89 |       106.41 |       136.27 |       141.94 |\n| Gross Profit            |        43.55 |        38.11 |        70.38 |        58.48 |\n| Gross Margin (%)        |        38.24 |        35.81 |        51.65 |        41.20 |\n| Selling & Marketing Exp |        23.93 |        25.50 |        25.35 |        23.60 |\n| R&D Exp                 |        22.50 |        19.94 |        19.13 |        17.55 |\n| General & Admin Exp     |        33.55 |        32.88 |        32.03 |        32.89 |\n| Operating Income        |       -36.42 |       -40.21 |        -6.13 |       -15.56 |\n| Operating Margin (%)    |       -31.98 |       -37.78 |        -4.50 |       -10.96 |\n| Net Income              |       -18.24 |       -20.10 |         3.36 |       -50.76 |\n| Net Margin (%)          |       -16.01 |       -18.89 |         2.46 |       -35.76 |\n| Op Cash Flow            |        -3.99 |        29.65 |        10.39 |         6.29 |\n| Investing Cash Flow     |       -34.50 |       -38.99 |        -4.87 |         4.70 |\n| Financing Cash Flow     |        -2.52 |        -2.47 |       -48.23 |        -2.37 |\n| CAPEX                   |       -33.61 |       -36.33 |        -4.80 |        -0.83 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

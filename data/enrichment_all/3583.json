@@ -1,0 +1,211 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3583",
+  "company_name": "辛耘",
+  "title": "3583 - 辛耘",
+  "source_md": "Pilot_Reports/半導體 - 生產製程及檢測設備/3583_辛耘.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Semiconductors",
+    "market_cap": "50,145 百萬台幣",
+    "enterprise_value": "44,595 百萬台幣"
+  },
+  "business": {
+    "summary": "辛耘企業 (3583) 是台灣半導體製程設備廠，三大業務：(1) 自製[[濕式製程]]設備 (Wet Bench/Single Wafer)，(2) 12 吋[[矽晶圓再生]]服務 (國內最大，月產能 16 萬片，製程至 16nm)，(3) 設備代理。自製設備涵蓋 [[CoWoS]]/UBM 用濕式製程工具，受惠於先進封裝擴產。",
+    "entities": [
+      "濕式製程",
+      "矽晶圓再生",
+      "CoWoS"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (零組件)",
+        "text": "**上游 (零組件):**",
+        "entities": []
+      },
+      {
+        "category": "精密機構",
+        "text": "濕式設備機構件",
+        "entities": []
+      },
+      {
+        "category": "化學品",
+        "text": "製程用高純度化學品",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (設備與再生服務)",
+        "text": "**中游 (設備與再生服務):**",
+        "entities": []
+      },
+      {
+        "category": "濕式設備/晶圓再生",
+        "text": "**辛耘** (Wet Bench/Single Wafer 設備 + 12 吋晶圓再生月產能 16 萬片)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (晶圓廠)",
+        "text": "**下游 (晶圓廠):**",
+        "entities": []
+      },
+      {
+        "category": "晶圓代工",
+        "text": "[[台積電]] (最大客戶，占營收 19.37%，設備+再生晶圓)",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "封裝",
+        "text": "[[日月光投控]] (先進封裝設備)",
+        "entities": [
+          "日月光投控"
+        ]
+      },
+      {
+        "category": "LED/太陽能",
+        "text": "LED 及太陽能廠",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "晶圓代工",
+        "text": "[[台積電]] (占營收 19.37%)",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "封裝",
+        "text": "[[日月光投控]] ([[CoWoS]] 設備)",
+        "entities": [
+          "日月光投控",
+          "CoWoS"
+        ]
+      },
+      {
+        "role": "晶圓代工",
+        "text": "[[聯華電子]]",
+        "entities": [
+          "聯華電子"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "材料",
+        "text": "[[3M]] (材料合作)",
+        "entities": [
+          "3M"
+        ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[弘塑]]、[[DNS]] (Screen Holdings)、[[Tokyo Electron]]",
+        "entities": [
+          "弘塑",
+          "DNS",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "text": "- **競爭同業:** [[弘塑]]、[[DNS]] (Screen Holdings)、[[Tokyo Electron]]",
+        "entities": [
+          "弘塑",
+          "DNS",
+          "Tokyo Electron"
+        ]
+      }
+    ],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "濕式製程",
+      "type": "taiwan_company_or_term",
+      "wikilink": "濕式製程"
+    },
+    {
+      "name": "矽晶圓再生",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽晶圓再生"
+    },
+    {
+      "name": "CoWoS",
+      "type": "technology",
+      "wikilink": "CoWoS"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    },
+    {
+      "name": "日月光投控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "日月光投控"
+    },
+    {
+      "name": "聯華電子",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯華電子"
+    },
+    {
+      "name": "3M",
+      "type": "international_company_or_term",
+      "wikilink": "3M"
+    },
+    {
+      "name": "弘塑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "弘塑"
+    },
+    {
+      "name": "DNS",
+      "type": "international_company_or_term",
+      "wikilink": "DNS"
+    },
+    {
+      "name": "Tokyo Electron",
+      "type": "international_company_or_term",
+      "wikilink": "Tokyo Electron"
+    },
+    {
+      "name": "昇陽半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "昇陽半導體"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "辛耘企業 (3583) 是台灣半導體製程設備廠，三大業務：(1) 自製[[濕式製程]]設備 (Wet Bench/Single Wafer)，(2) 12 吋[[矽晶圓再生]]服務 (國內最大，月產能 16 萬片，製程至 16nm)，(3) 設備代理。自製設備涵蓋 [[CoWoS]]/UBM 用濕式製程工具，受惠於先進封裝擴產。",
+    "supply_chain_md": "**上游 (零組件):**\n- **精密機構:** 濕式設備機構件\n- **化學品:** 製程用高純度化學品\n\n**中游 (設備與再生服務):**\n- **濕式設備/晶圓再生:** **辛耘** (Wet Bench/Single Wafer 設備 + 12 吋晶圓再生月產能 16 萬片)\n\n**下游 (晶圓廠):**\n- **晶圓代工:** [[台積電]] (最大客戶，占營收 19.37%，設備+再生晶圓)\n- **封裝:** [[日月光投控]] (先進封裝設備)\n- **LED/太陽能:** LED 及太陽能廠",
+    "customers_suppliers_md": "### 主要客戶\n- **晶圓代工:** [[台積電]] (占營收 19.37%)\n- **封裝:** [[日月光投控]] ([[CoWoS]] 設備)\n- **晶圓代工:** [[聯華電子]]\n\n### 主要供應商\n- **材料:** [[3M]] (材料合作)\n- **競爭同業:** [[弘塑]]、[[DNS]] (Screen Holdings)、[[Tokyo Electron]]",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $594.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     41.57 |       19.24 |      4.09 | 6.25 |     22.90 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     11371.37 |      9688.28 |      6911.98 |\n| Gross Profit            |      3808.38 |      2900.67 |      2206.12 |\n| Gross Margin (%)        |        33.49 |        29.94 |        31.92 |\n| Selling & Marketing Exp |      1462.75 |      1202.24 |       947.73 |\n| R&D Exp                 |       463.32 |       377.55 |       341.44 |\n| General & Admin Exp     |       306.46 |       215.26 |       194.44 |\n| Operating Income        |      1575.84 |      1105.61 |       722.51 |\n| Operating Margin (%)    |        13.86 |        11.41 |        10.45 |\n| Net Income              |      1109.81 |       926.98 |       650.30 |\n| Net Margin (%)          |         9.76 |         9.57 |         9.41 |\n| Op Cash Flow            |      1320.43 |      1725.63 |      1004.12 |\n| Investing Cash Flow     |      -931.95 |      -761.10 |        25.61 |\n| Financing Cash Flow     |      -675.66 |      1282.18 |      -427.78 |\n| CAPEX                   |     -1095.70 |      -546.82 |       -59.22 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      3120.32 |      2814.49 |      2831.28 |      2913.22 |\n| Gross Profit            |      1047.94 |      1044.34 |       909.21 |       962.82 |\n| Gross Margin (%)        |        33.58 |        37.11 |        32.11 |        33.05 |\n| Selling & Marketing Exp |       389.35 |       402.69 |       387.05 |       303.79 |\n| R&D Exp                 |       152.15 |       124.66 |       115.48 |       110.23 |\n| General & Admin Exp     |        91.92 |        87.87 |        74.30 |        72.02 |\n| Operating Income        |       414.53 |       429.12 |       332.37 |       476.78 |\n| Operating Margin (%)    |        13.28 |        15.25 |        11.74 |        16.37 |\n| Net Income              |       332.96 |       329.72 |       293.91 |       228.85 |\n| Net Margin (%)          |        10.67 |        11.72 |        10.38 |         7.86 |\n| Op Cash Flow            |       883.08 |      1259.49 |       332.60 |      -251.65 |\n| Investing Cash Flow     |      -119.97 |      -141.86 |      -164.43 |      -246.92 |\n| Financing Cash Flow     |      -240.68 |       -47.81 |       -66.26 |        47.58 |\n| CAPEX                   |      -122.53 |      -126.27 |      -170.46 |      -217.00 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 10,
+    "warnings": []
+  }
+}

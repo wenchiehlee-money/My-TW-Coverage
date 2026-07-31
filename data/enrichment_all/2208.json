@@ -1,0 +1,393 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2208",
+  "company_name": "台船",
+  "title": "2208 - 台船",
+  "source_md": "Pilot_Reports/風力發電 - 風場營造/2208_台船.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Industrials",
+    "industry": "Aerospace & Defense",
+    "market_cap": "23,452 百萬台幣",
+    "enterprise_value": "47,363 百萬台幣"
+  },
+  "business": {
+    "summary": "台灣國際造船 (2208，CSBC Corporation) 是台灣最大的造船廠，隸屬公營事業體系。公司主要業務涵蓋：(1) 商用船舶新造 — 為[[萬海航運]]建造 8,000 TEU 甲醇雙燃料貨櫃輪 (12+4 艘)、為[[中國航運]]建造 21 萬載重噸海岬型散裝船；(2) 軍艦建造 — 主導國艦國造政策，旗艦計畫為海鯤級潛艦 (計畫建造 8-10 艘)，戰鬥系統由[[Lockheed Martin]]整合，聲納系統由[[Raytheon]]提供，另承建海巡署巡防艦艇；(3) [[離岸風電]]海事工程 — 與比利時[[DEME]]集團合資成立台船環海 (CDWE)，擁有亞洲最大浮吊船「環海翡翠輪」，承攬彰芳暨西島及海龍離岸風場安裝工程；(4) 無人水面載具 (USV) 研發 — 「奮進魔鬼魚號」競標海軍 1,320 艘無人艇計畫。在手訂單約 880 億元，能見度延伸至 2030 年。",
+    "entities": [
+      "萬海航運",
+      "中國航運",
+      "Lockheed Martin",
+      "Raytheon",
+      "離岸風電",
+      "DEME"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (材料與系統)",
+        "text": "**上游 (材料與系統):**",
+        "entities": []
+      },
+      {
+        "category": "鋼材",
+        "text": "[[中鋼]] — 造船用低溫鋼板主要供應商",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "船用引擎",
+        "text": "[[MAN Energy Solutions]]、[[Wärtsilä]]、[[MTU]] — 大型船用柴油主機",
+        "entities": [
+          "MAN Energy Solutions",
+          "Wärtsilä",
+          "MTU"
+        ]
+      },
+      {
+        "category": "潛艦戰系",
+        "text": "[[Lockheed Martin]] — 戰鬥管理系統；[[Raytheon]] — 聲納系統；[[L3Harris]] — 光電桅杆",
+        "entities": [
+          "Lockheed Martin",
+          "Raytheon",
+          "L3Harris"
+        ]
+      },
+      {
+        "category": "國防系統",
+        "text": "[[中山科學研究院]] — 武器整合、雷達與電戰系統",
+        "entities": [
+          "中山科學研究院"
+        ]
+      },
+      {
+        "category": "風機設備",
+        "text": "[[Siemens Gamesa]] — 14 MW 離岸風力發電機組",
+        "entities": [
+          "Siemens Gamesa"
+        ]
+      },
+      {
+        "category": "水下基礎",
+        "text": "[[世紀鋼]]、[[世紀風電]] — 離岸風電鋼構",
+        "entities": [
+          "世紀鋼",
+          "世紀風電"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (造船與海事工程)",
+        "text": "**中游 (造船與海事工程):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**台船** (商船/軍艦設計建造、海鯤級潛艦、[[離岸風電]]安裝工程)",
+        "entities": [
+          "離岸風電"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**台船環海 (CDWE)** — 與[[DEME]]合資，離岸風場安裝",
+        "entities": [
+          "DEME"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "商船客戶",
+        "text": "[[萬海航運]]、[[中國航運]]、[[陽明海運]]、[[長榮海運]]、[[中鋼運通]]、[[台灣中油]]",
+        "entities": [
+          "萬海航運",
+          "中國航運",
+          "陽明海運",
+          "長榮海運",
+          "中鋼運通",
+          "台灣中油"
+        ]
+      },
+      {
+        "category": "軍事客戶",
+        "text": "[[中華民國海軍]] — 海鯤級潛艦、巡防艦",
+        "entities": [
+          "中華民國海軍"
+        ]
+      },
+      {
+        "category": "海巡客戶",
+        "text": "[[海巡署]] — 巡防艦艇",
+        "entities": [
+          "海巡署"
+        ]
+      },
+      {
+        "category": "風電開發商",
+        "text": "[[CIP]]、[[Northland Power]]、[[沃旭能源]] — 離岸風場安裝",
+        "entities": [
+          "CIP",
+          "Northland Power",
+          "沃旭能源"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "貨櫃航運",
+        "text": "[[萬海航運]] — 8,000 TEU 甲醇雙燃料貨櫃輪 12+4 艘",
+        "entities": [
+          "萬海航運"
+        ]
+      },
+      {
+        "role": "散裝航運",
+        "text": "[[中國航運]] — 21 萬 DWT 海岬型散裝船 2+2 艘",
+        "entities": [
+          "中國航運"
+        ]
+      },
+      {
+        "role": "航運客戶",
+        "text": "[[陽明海運]]、[[長榮海運]]、[[中鋼運通]] — 歷史造船客戶",
+        "entities": [
+          "陽明海運",
+          "長榮海運",
+          "中鋼運通"
+        ]
+      },
+      {
+        "role": "能源客戶",
+        "text": "[[台灣中油]] — 5 萬 DWT 油品化學輪",
+        "entities": [
+          "台灣中油"
+        ]
+      },
+      {
+        "role": "軍事客戶",
+        "text": "[[中華民國海軍]] — 海鯤級潛艦、新一代巡防艦",
+        "entities": [
+          "中華民國海軍"
+        ]
+      },
+      {
+        "role": "海巡客戶",
+        "text": "[[海巡署]] — 各型巡防艦艇",
+        "entities": [
+          "海巡署"
+        ]
+      },
+      {
+        "role": "風電客戶",
+        "text": "[[CIP]]、[[Northland Power]]、[[沃旭能源]] — 離岸風場安裝 (透過台船環海)",
+        "entities": [
+          "CIP",
+          "Northland Power",
+          "沃旭能源"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "鋼材",
+        "text": "[[中鋼]] — 造船用鋼板",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "role": "船用引擎",
+        "text": "[[MAN Energy Solutions]]、[[Wärtsilä]]、[[MTU]] — 船用柴油主機",
+        "entities": [
+          "MAN Energy Solutions",
+          "Wärtsilä",
+          "MTU"
+        ]
+      },
+      {
+        "role": "潛艦系統",
+        "text": "[[Lockheed Martin]]、[[Raytheon]]、[[L3Harris]] — 戰系/聲納/光電",
+        "entities": [
+          "Lockheed Martin",
+          "Raytheon",
+          "L3Harris"
+        ]
+      },
+      {
+        "role": "國防武器",
+        "text": "[[中山科學研究院]] — 雷達、飛彈與電戰系統",
+        "entities": [
+          "中山科學研究院"
+        ]
+      },
+      {
+        "role": "風機",
+        "text": "[[Siemens Gamesa]] — 離岸風力發電機組",
+        "entities": [
+          "Siemens Gamesa"
+        ]
+      },
+      {
+        "role": "鋼構",
+        "text": "[[世紀鋼]] — 離岸風電水下基礎",
+        "entities": [
+          "世紀鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "萬海航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "萬海航運"
+    },
+    {
+      "name": "中國航運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中國航運"
+    },
+    {
+      "name": "Lockheed Martin",
+      "type": "international_company_or_term",
+      "wikilink": "Lockheed Martin"
+    },
+    {
+      "name": "Raytheon",
+      "type": "international_company_or_term",
+      "wikilink": "Raytheon"
+    },
+    {
+      "name": "離岸風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "離岸風電"
+    },
+    {
+      "name": "DEME",
+      "type": "international_company_or_term",
+      "wikilink": "DEME"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "MAN Energy Solutions",
+      "type": "international_company_or_term",
+      "wikilink": "MAN Energy Solutions"
+    },
+    {
+      "name": "Wärtsilä",
+      "type": "international_company_or_term",
+      "wikilink": "Wärtsilä"
+    },
+    {
+      "name": "MTU",
+      "type": "international_company_or_term",
+      "wikilink": "MTU"
+    },
+    {
+      "name": "L3Harris",
+      "type": "international_company_or_term",
+      "wikilink": "L3Harris"
+    },
+    {
+      "name": "中山科學研究院",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中山科學研究院"
+    },
+    {
+      "name": "Siemens Gamesa",
+      "type": "international_company_or_term",
+      "wikilink": "Siemens Gamesa"
+    },
+    {
+      "name": "世紀鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀鋼"
+    },
+    {
+      "name": "世紀風電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世紀風電"
+    },
+    {
+      "name": "陽明海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "陽明海運"
+    },
+    {
+      "name": "長榮海運",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長榮海運"
+    },
+    {
+      "name": "中鋼運通",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼運通"
+    },
+    {
+      "name": "台灣中油",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣中油"
+    },
+    {
+      "name": "中華民國海軍",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華民國海軍"
+    },
+    {
+      "name": "海巡署",
+      "type": "taiwan_company_or_term",
+      "wikilink": "海巡署"
+    },
+    {
+      "name": "CIP",
+      "type": "international_company_or_term",
+      "wikilink": "CIP"
+    },
+    {
+      "name": "Northland Power",
+      "type": "international_company_or_term",
+      "wikilink": "Northland Power"
+    },
+    {
+      "name": "沃旭能源",
+      "type": "taiwan_company_or_term",
+      "wikilink": "沃旭能源"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "台灣國際造船 (2208，CSBC Corporation) 是台灣最大的造船廠，隸屬公營事業體系。公司主要業務涵蓋：(1) 商用船舶新造 — 為[[萬海航運]]建造 8,000 TEU 甲醇雙燃料貨櫃輪 (12+4 艘)、為[[中國航運]]建造 21 萬載重噸海岬型散裝船；(2) 軍艦建造 — 主導國艦國造政策，旗艦計畫為海鯤級潛艦 (計畫建造 8-10 艘)，戰鬥系統由[[Lockheed Martin]]整合，聲納系統由[[Raytheon]]提供，另承建海巡署巡防艦艇；(3) [[離岸風電]]海事工程 — 與比利時[[DEME]]集團合資成立台船環海 (CDWE)，擁有亞洲最大浮吊船「環海翡翠輪」，承攬彰芳暨西島及海龍離岸風場安裝工程；(4) 無人水面載具 (USV) 研發 — 「奮進魔鬼魚號」競標海軍 1,320 艘無人艇計畫。在手訂單約 880 億元，能見度延伸至 2030 年。",
+    "supply_chain_md": "**上游 (材料與系統):**\n- **鋼材:** [[中鋼]] — 造船用低溫鋼板主要供應商\n- **船用引擎:** [[MAN Energy Solutions]]、[[Wärtsilä]]、[[MTU]] — 大型船用柴油主機\n- **潛艦戰系:** [[Lockheed Martin]] — 戰鬥管理系統；[[Raytheon]] — 聲納系統；[[L3Harris]] — 光電桅杆\n- **國防系統:** [[中山科學研究院]] — 武器整合、雷達與電戰系統\n- **風機設備:** [[Siemens Gamesa]] — 14 MW 離岸風力發電機組\n- **水下基礎:** [[世紀鋼]]、[[世紀風電]] — 離岸風電鋼構\n\n**中游 (造船與海事工程):**\n- **台船** (商船/軍艦設計建造、海鯤級潛艦、[[離岸風電]]安裝工程)\n- **台船環海 (CDWE)** — 與[[DEME]]合資，離岸風場安裝\n\n**下游 (終端客戶):**\n- **商船客戶:** [[萬海航運]]、[[中國航運]]、[[陽明海運]]、[[長榮海運]]、[[中鋼運通]]、[[台灣中油]]\n- **軍事客戶:** [[中華民國海軍]] — 海鯤級潛艦、巡防艦\n- **海巡客戶:** [[海巡署]] — 巡防艦艇\n- **風電開發商:** [[CIP]]、[[Northland Power]]、[[沃旭能源]] — 離岸風場安裝",
+    "customers_suppliers_md": "### 主要客戶\n- **貨櫃航運:** [[萬海航運]] — 8,000 TEU 甲醇雙燃料貨櫃輪 12+4 艘\n- **散裝航運:** [[中國航運]] — 21 萬 DWT 海岬型散裝船 2+2 艘\n- **航運客戶:** [[陽明海運]]、[[長榮海運]]、[[中鋼運通]] — 歷史造船客戶\n- **能源客戶:** [[台灣中油]] — 5 萬 DWT 油品化學輪\n- **軍事客戶:** [[中華民國海軍]] — 海鯤級潛艦、新一代巡防艦\n- **海巡客戶:** [[海巡署]] — 各型巡防艦艇\n- **風電客戶:** [[CIP]]、[[Northland Power]]、[[沃旭能源]] — 離岸風場安裝 (透過台船環海)\n\n### 主要供應商\n- **鋼材:** [[中鋼]] — 造船用鋼板\n- **船用引擎:** [[MAN Energy Solutions]]、[[Wärtsilä]]、[[MTU]] — 船用柴油主機\n- **潛艦系統:** [[Lockheed Martin]]、[[Raytheon]]、[[L3Harris]] — 戰系/聲納/光電\n- **國防武器:** [[中山科學研究院]] — 雷達、飛彈與電戰系統\n- **風機:** [[Siemens Gamesa]] — 離岸風力發電機組\n- **鋼構:** [[世紀鋼]] — 離岸風電水下基礎",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $18.20 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |       -4.20 |      1.03 | 3.16 |    -41.71 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     21780.24 |     14494.35 |     21476.37 |\n| Gross Profit            |     -2211.70 |     -3057.30 |     -2411.32 |\n| Gross Margin (%)        |       -10.15 |       -21.09 |       -11.23 |\n| Selling & Marketing Exp |        68.20 |        67.65 |        66.97 |\n| R&D Exp                 |       317.90 |       269.29 |       288.96 |\n| General & Admin Exp     |       332.04 |       318.20 |       394.74 |\n| Operating Income        |     -2929.84 |     -3712.43 |     -3161.99 |\n| Operating Margin (%)    |       -13.45 |       -25.61 |       -14.72 |\n| Net Income              |     -2259.94 |     -2779.85 |     -4030.61 |\n| Net Margin (%)          |       -10.38 |       -19.18 |       -18.77 |\n| Op Cash Flow            |     -9521.72 |     -2860.89 |      8331.34 |\n| Investing Cash Flow     |      -848.43 |      -527.94 |      -914.32 |\n| Financing Cash Flow     |      8655.75 |      -303.59 |     -2561.12 |\n| CAPEX                   |      -870.70 |      -555.32 |     -1064.89 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4731.96 |      3838.95 |      4103.47 |      9927.84 |\n| Gross Profit            |         2.24 |       459.94 |       -82.77 |     -1464.48 |\n| Gross Margin (%)        |         0.05 |        11.98 |        -2.02 |       -14.75 |\n| Selling & Marketing Exp |        17.72 |        19.77 |        17.02 |        18.61 |\n| R&D Exp                 |        73.37 |        48.16 |       109.66 |       116.96 |\n| General & Admin Exp     |        77.46 |       106.78 |        70.30 |        83.14 |\n| Operating Income        |      -166.31 |       285.23 |      -279.74 |     -1683.19 |\n| Operating Margin (%)    |        -3.51 |         7.43 |        -6.82 |       -16.95 |\n| Net Income              |        91.37 |       206.82 |        63.19 |     -1698.26 |\n| Net Margin (%)          |         1.93 |         5.39 |         1.54 |       -17.11 |\n| Op Cash Flow            |     -3807.07 |     -4450.56 |     -3540.57 |     -3647.93 |\n| Investing Cash Flow     |      -128.66 |      -407.45 |       -95.48 |      -115.75 |\n| Financing Cash Flow     |      3626.76 |      3986.25 |      3018.65 |      3310.78 |\n| CAPEX                   |      -142.82 |      -441.52 |       -76.86 |      -106.46 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 24,
+    "warnings": []
+  }
+}

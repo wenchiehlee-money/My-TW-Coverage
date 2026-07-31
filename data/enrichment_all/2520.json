@@ -1,0 +1,196 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2520",
+  "company_name": "冠德",
+  "title": "2520 - 冠德",
+  "source_md": "Pilot_Reports/建材營造 - 建設業/2520_冠德.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Real Estate",
+    "industry": "Real Estate - Diversified",
+    "market_cap": "20,460 百萬台幣",
+    "enterprise_value": "31,421 百萬台幣"
+  },
+  "business": {
+    "summary": "[[冠德建設]] (2520，Kindom Development) 成立於 1979 年，總部位於台北，為台灣知名捷運共構開發商，擅長複合式大型開發案。旗下擁有甲級營造廠[[根基營造]] (2546) 及百貨商場[[Global Mall]] (環球購物中心)，形成從開發、營造到商場經營的完整產業鏈。[[Global Mall]]目前全台營運 8 個據點，涵蓋台北、新北、桃園、高雄及屏東。冠德近年積極拓展，正於台中興建結合捷運市政府站之「[[冠德環球購物中心]]」，預計 2029 年完工，並引進[[凱悅酒店集團]]打造複合式空間。集團旗下三大事業體 — 冠德建設、[[根基營造]]、[[Global Mall]] — 2024 年同獲亞洲最佳企業雇主獎。",
+    "entities": [
+      "冠德建設",
+      "根基營造",
+      "Global Mall",
+      "冠德環球購物中心",
+      "凱悅酒店集團"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (土地與營造)",
+        "text": "**上游 (土地與營造):**",
+        "entities": []
+      },
+      {
+        "category": "土地取得",
+        "text": "捷運聯開、[[都市更新]]、土地標售",
+        "entities": [
+          "都市更新"
+        ]
+      },
+      {
+        "category": "營造施工",
+        "text": "[[根基營造]] (子公司，2546，甲級資格) — 2025 年獲台灣 ESG 永續獎低碳營運首獎",
+        "entities": [
+          "根基營造"
+        ]
+      },
+      {
+        "category": "建材",
+        "text": "水泥、鋼筋、機電設備",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (開發與經營)",
+        "text": "**中游 (開發與經營):**",
+        "entities": []
+      },
+      {
+        "category": "",
+        "text": "**冠德建設** — 捷運共構住宅及商辦開發",
+        "entities": []
+      },
+      {
+        "category": "商場營運",
+        "text": "[[Global Mall]] (環球購物中心) — 全台 8 據點",
+        "entities": [
+          "Global Mall"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (終端客戶)",
+        "text": "**下游 (終端客戶):**",
+        "entities": []
+      },
+      {
+        "category": "購屋族群",
+        "text": "中高階購屋客群 (精緻住宅)",
+        "entities": []
+      },
+      {
+        "category": "商場消費者",
+        "text": "[[Global Mall]]購物中心消費客群",
+        "entities": [
+          "Global Mall"
+        ]
+      },
+      {
+        "category": "飯店",
+        "text": "[[凱悅酒店集團]] — 台中冠德環球購物中心合作夥伴",
+        "entities": [
+          "凱悅酒店集團"
+        ]
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "住宅買方",
+        "text": "中高階購屋客群",
+        "entities": []
+      },
+      {
+        "role": "商場消費者",
+        "text": "[[Global Mall]]全台 8 據點之消費族群",
+        "entities": [
+          "Global Mall"
+        ]
+      },
+      {
+        "role": "飯店合作",
+        "text": "[[凱悅酒店集團]] — 台中[[冠德環球購物中心]]合作",
+        "entities": [
+          "凱悅酒店集團",
+          "冠德環球購物中心"
+        ]
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "營造廠",
+        "text": "[[根基營造]] (子公司 2546) — 垂直整合施工",
+        "entities": [
+          "根基營造"
+        ]
+      },
+      {
+        "role": "建材",
+        "text": "水泥、鋼筋及機電設備供應商",
+        "entities": []
+      },
+      {
+        "role": "商場品牌",
+        "text": "[[Global Mall]]進駐之餐飲、零售品牌",
+        "entities": [
+          "Global Mall"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "冠德建設",
+      "type": "taiwan_company_or_term",
+      "wikilink": "冠德建設"
+    },
+    {
+      "name": "根基營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "根基營造"
+    },
+    {
+      "name": "Global Mall",
+      "type": "international_company_or_term",
+      "wikilink": "Global Mall"
+    },
+    {
+      "name": "冠德環球購物中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "冠德環球購物中心"
+    },
+    {
+      "name": "凱悅酒店集團",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凱悅酒店集團"
+    },
+    {
+      "name": "都市更新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "都市更新"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "[[冠德建設]] (2520，Kindom Development) 成立於 1979 年，總部位於台北，為台灣知名捷運共構開發商，擅長複合式大型開發案。旗下擁有甲級營造廠[[根基營造]] (2546) 及百貨商場[[Global Mall]] (環球購物中心)，形成從開發、營造到商場經營的完整產業鏈。[[Global Mall]]目前全台營運 8 個據點，涵蓋台北、新北、桃園、高雄及屏東。冠德近年積極拓展，正於台中興建結合捷運市政府站之「[[冠德環球購物中心]]」，預計 2029 年完工，並引進[[凱悅酒店集團]]打造複合式空間。集團旗下三大事業體 — 冠德建設、[[根基營造]]、[[Global Mall]] — 2024 年同獲亞洲最佳企業雇主獎。",
+    "supply_chain_md": "**上游 (土地與營造):**\n- **土地取得:** 捷運聯開、[[都市更新]]、土地標售\n- **營造施工:** [[根基營造]] (子公司，2546，甲級資格) — 2025 年獲台灣 ESG 永續獎低碳營運首獎\n- **建材:** 水泥、鋼筋、機電設備\n\n**中游 (開發與經營):**\n- **冠德建設** — 捷運共構住宅及商辦開發\n- **商場營運:** [[Global Mall]] (環球購物中心) — 全台 8 據點\n\n**下游 (終端客戶):**\n- **購屋族群:** 中高階購屋客群 (精緻住宅)\n- **商場消費者:** [[Global Mall]]購物中心消費客群\n- **飯店:** [[凱悅酒店集團]] — 台中冠德環球購物中心合作夥伴",
+    "customers_suppliers_md": "### 主要客戶\n- **住宅買方:** 中高階購屋客群\n- **商場消費者:** [[Global Mall]]全台 8 據點之消費族群\n- **飯店合作:** [[凱悅酒店集團]] — 台中[[冠德環球購物中心]]合作\n\n### 主要供應商\n- **營造廠:** [[根基營造]] (子公司 2546) — 垂直整合施工\n- **建材:** 水泥、鋼筋及機電設備供應商\n- **商場品牌:** [[Global Mall]]進駐之餐飲、零售品牌",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $35.10 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     14.69 |       10.03 |      0.90 | 0.87 |      9.69 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |     22872.61 |     28677.52 |     19442.50 |\n| Gross Profit            |      5136.06 |      9667.03 |      5871.37 |\n| Gross Margin (%)        |        22.46 |        33.71 |        30.20 |\n| Selling & Marketing Exp |        99.75 |       237.70 |       163.65 |\n| R&D Exp                 |       -    |       -    |       -    |\n| General & Admin Exp     |      1927.73 |      1926.65 |      1775.25 |\n| Operating Income        |      3108.58 |      7502.68 |      3932.48 |\n| Operating Margin (%)    |        13.59 |        26.16 |        20.23 |\n| Net Income              |      1556.14 |      5550.48 |      2395.15 |\n| Net Margin (%)          |         6.80 |        19.35 |        12.32 |\n| Op Cash Flow            |     -4044.41 |      9857.75 |      1909.30 |\n| Investing Cash Flow     |       153.91 |        88.47 |        68.67 |\n| Financing Cash Flow     |      2513.14 |     -5917.75 |     -3322.36 |\n| CAPEX                   |      -168.96 |       -93.38 |       -76.52 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      4862.54 |      6676.67 |      6129.84 |      5339.33 |\n| Gross Profit            |      1141.76 |      1546.76 |      1199.76 |      1210.37 |\n| Gross Margin (%)        |        23.48 |        23.17 |        19.57 |        22.67 |\n| Selling & Marketing Exp |        16.66 |        24.63 |        27.05 |        24.04 |\n| R&D Exp                 |       -    |       -    |       -    |       -    |\n| General & Admin Exp     |       466.50 |       516.20 |       468.76 |       493.13 |\n| Operating Income        |       658.61 |      1005.93 |       703.95 |       693.20 |\n| Operating Margin (%)    |        13.54 |        15.07 |        11.48 |        12.98 |\n| Net Income              |       308.67 |       529.77 |       339.29 |       247.70 |\n| Net Margin (%)          |         6.35 |         7.93 |         5.54 |         4.64 |\n| Op Cash Flow            |      1671.13 |        64.00 |       939.82 |     -4582.34 |\n| Investing Cash Flow     |       -30.23 |        -3.15 |        88.08 |        37.21 |\n| Financing Cash Flow     |      -734.42 |      -487.71 |       -43.99 |      2893.08 |\n| CAPEX                   |       -37.94 |       -53.63 |       -66.91 |       -35.52 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 6,
+    "warnings": []
+  }
+}

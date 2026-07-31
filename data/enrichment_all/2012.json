@@ -1,0 +1,161 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "2012",
+  "company_name": "春雨",
+  "title": "2012 - 春雨",
+  "source_md": "Pilot_Reports/風力發電 - 其他配件/2012_春雨.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Basic Materials",
+    "industry": "Steel",
+    "market_cap": "4,460 百萬台幣",
+    "enterprise_value": "8,979 百萬台幣"
+  },
+  "business": {
+    "summary": "春雨工廠 (2012) 為台灣最大[[扣件]] (螺絲/螺帽) 製造商之一。產品涵蓋高強度[[扣件]]、[[軌道扣件]]及特殊扣件。上游盤元/線材來自[[中鋼]]。下游外銷北美工業通路如[[Fastenal]]、[[Grainger]]。另拓展[[電動車]]用高強度扣件。",
+    "entities": [
+      "扣件",
+      "軌道扣件",
+      "中鋼",
+      "Fastenal",
+      "Grainger",
+      "電動車"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (原料)",
+        "text": "**上游 (原料):**",
+        "entities": []
+      },
+      {
+        "category": "盤元線材",
+        "text": "向[[中鋼]] (CSC) 及日韓鋼廠採購碳鋼/合金鋼盤元 (Wire Rod)。",
+        "entities": [
+          "中鋼"
+        ]
+      },
+      {
+        "category": "加工",
+        "text": "擁有從酸洗、球化退火、伸線到成型之完整製程 (春雨集團內部整合)。",
+        "entities": []
+      }
+    ],
+    "midstream": [],
+    "downstream": [
+      {
+        "category": "下游應用",
+        "text": "**下游應用:**",
+        "entities": []
+      },
+      {
+        "category": "建築/公共工程",
+        "text": "鋼結構用 TC 螺栓 (台北101、高鐵)、橋樑、隧道。",
+        "entities": []
+      },
+      {
+        "category": "汽車/軌道",
+        "text": "汽車引擎/底盤扣件、高鐵/捷運軌道扣件。",
+        "entities": []
+      },
+      {
+        "category": "工業/機械",
+        "text": "工具機、一般機械用標準件。",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "建築業",
+        "text": "國內外鋼結構廠、[[營造]]廠。",
+        "entities": [
+          "營造"
+        ]
+      },
+      {
+        "role": "通路商",
+        "text": "美國及歐洲大型工業扣件通路商 ([[Fastenal]]、[[Grainger]] 等)。",
+        "entities": [
+          "Fastenal",
+          "Grainger"
+        ]
+      },
+      {
+        "role": "汽車業",
+        "text": "透過 Tier 1 供應商交貨給車廠。",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "原料",
+        "text": "[[中鋼]] (2002) (盤元主要來源)。",
+        "entities": [
+          "中鋼"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "扣件",
+      "type": "taiwan_company_or_term",
+      "wikilink": "扣件"
+    },
+    {
+      "name": "軌道扣件",
+      "type": "taiwan_company_or_term",
+      "wikilink": "軌道扣件"
+    },
+    {
+      "name": "中鋼",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中鋼"
+    },
+    {
+      "name": "Fastenal",
+      "type": "international_company_or_term",
+      "wikilink": "Fastenal"
+    },
+    {
+      "name": "Grainger",
+      "type": "international_company_or_term",
+      "wikilink": "Grainger"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "營造",
+      "type": "taiwan_company_or_term",
+      "wikilink": "營造"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "春雨工廠 (2012) 為台灣最大[[扣件]] (螺絲/螺帽) 製造商之一。產品涵蓋高強度[[扣件]]、[[軌道扣件]]及特殊扣件。上游盤元/線材來自[[中鋼]]。下游外銷北美工業通路如[[Fastenal]]、[[Grainger]]。另拓展[[電動車]]用高強度扣件。",
+    "supply_chain_md": "**上游 (原料):**\n- **盤元線材:** 向[[中鋼]] (CSC) 及日韓鋼廠採購碳鋼/合金鋼盤元 (Wire Rod)。\n- **加工:** 擁有從酸洗、球化退火、伸線到成型之完整製程 (春雨集團內部整合)。\n\n**下游應用:**\n- **建築/公共工程:** 鋼結構用 TC 螺栓 (台北101、高鐵)、橋樑、隧道。\n- **汽車/軌道:** 汽車引擎/底盤扣件、高鐵/捷運軌道扣件。\n- **工業/機械:** 工具機、一般機械用標準件。",
+    "customers_suppliers_md": "### 主要客戶\n- **建築業:** 國內外鋼結構廠、[[營造]]廠。\n- **通路商:** 美國及歐洲大型工業扣件通路商 ([[Fastenal]]、[[Grainger]] 等)。\n- **汽車業:** 透過 Tier 1 供應商交貨給車廠。\n\n### 主要供應商\n- **原料:** [[中鋼]] (2002) (盤元主要來源)。",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $15.65 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |        4.38 |      0.54 | 1.14 |     21.40 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      8307.67 |      9165.10 |      8460.64 |\n| Gross Profit            |      1143.73 |      1320.79 |      1319.06 |\n| Gross Margin (%)        |        13.77 |        14.41 |        15.59 |\n| Selling & Marketing Exp |       256.73 |       315.09 |       289.54 |\n| R&D Exp                 |        74.08 |        68.54 |        62.90 |\n| General & Admin Exp     |       504.12 |       486.67 |       506.15 |\n| Operating Income        |       308.81 |       450.48 |       460.47 |\n| Operating Margin (%)    |         3.72 |         4.92 |         5.44 |\n| Net Income              |        55.30 |       287.15 |       253.62 |\n| Net Margin (%)          |         0.67 |         3.13 |         3.00 |\n| Op Cash Flow            |       808.54 |      -489.28 |      1395.47 |\n| Investing Cash Flow     |      -713.35 |      -225.80 |      -548.69 |\n| Financing Cash Flow     |      -648.51 |      -577.75 |      -699.87 |\n| CAPEX                   |      -399.56 |      -106.98 |       -60.67 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |      1798.92 |      1926.47 |      2253.69 |      2081.23 |\n| Gross Profit            |       203.88 |       261.00 |       329.01 |       301.77 |\n| Gross Margin (%)        |        11.33 |        13.55 |        14.60 |        14.50 |\n| Selling & Marketing Exp |        59.52 |        60.40 |        69.27 |        66.28 |\n| R&D Exp                 |        17.51 |        24.75 |        14.45 |        17.63 |\n| General & Admin Exp     |       124.30 |       133.21 |       121.73 |       119.59 |\n| Operating Income        |         2.55 |        42.64 |       123.56 |        98.26 |\n| Operating Margin (%)    |         0.14 |         2.21 |         5.48 |         4.72 |\n| Net Income              |       -33.83 |       -14.58 |        11.23 |        25.79 |\n| Net Margin (%)          |        -1.88 |        -0.76 |         0.50 |         1.24 |\n| Op Cash Flow            |       -39.39 |         1.57 |       228.95 |       497.96 |\n| Investing Cash Flow     |        71.84 |      -390.95 |      -324.22 |        -9.99 |\n| Financing Cash Flow     |        71.78 |       180.38 |      -488.53 |        54.91 |\n| CAPEX                   |       -65.55 |      -225.12 |       -83.54 |       -46.71 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 7,
+    "warnings": []
+  }
+}

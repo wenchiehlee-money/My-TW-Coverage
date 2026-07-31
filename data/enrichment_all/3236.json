@@ -1,0 +1,261 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "3236",
+  "company_name": "千如",
+  "title": "3236 - 千如",
+  "source_md": "Pilot_Reports/被動元件 - 電感器/3236_千如.md",
+  "extracted_at": "2026-07-30 23:51:47 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "market_cap": "4,037 百萬台幣",
+    "enterprise_value": "4,357 百萬台幣"
+  },
+  "business": {
+    "summary": "千如電機 (3236，[[ABC Taiwan Electronics]]) 是專業的電感 (Inductor) 與被動元件製造商，以高品質與客製化能力著稱。產品線涵蓋 [[SMD]] 功率電感、濾波器、變壓器以及精密散熱零件。\n\n核心業務驅動力：(1) 車用電子領航 — 取得 IATF 16949 與 AEC-Q200 認證，深耕[[電動車]] BMS (電池管理系統)、車載充電器 (OBC) 與 [[ADAS]] 相關電感需求，客戶涵蓋國際 Tier 1 車電廠商；(2) 工業與醫療 — 提供高穩定性功率元件，用於工業自動化、醫療監控儀器與高階電源供應器；(3) AI 與網通 — 針對[[資料中心]]與 [[AI 伺服器]]開發大電流、低損耗電感解決方案，因應算力提升帶來的電源管理挑戰。生產基地橫跨台灣、中國與東南亞。",
+    "entities": [
+      "ABC Taiwan Electronics",
+      "SMD",
+      "電動車",
+      "ADAS",
+      "資料中心",
+      "AI 伺服器"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (磁性材料與金屬)",
+        "text": "**上游 (磁性材料與金屬):**",
+        "entities": []
+      },
+      {
+        "category": "銅線",
+        "text": "漆包銅線供應商 — 電感繞線核心材料",
+        "entities": []
+      },
+      {
+        "category": "磁性材料",
+        "text": "鐵氧體磁芯、金屬粉末磁芯",
+        "entities": []
+      },
+      {
+        "category": "陶瓷基板",
+        "text": "陶瓷材料供應商 — [[MLCC]] 級陶瓷",
+        "entities": [
+          "MLCC"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (被動元件製造)",
+        "text": "**中游 (被動元件製造):**",
+        "entities": []
+      },
+      {
+        "category": "功率電感",
+        "text": "**千如** ([[SMD]] 功率電感、繞線電感)",
+        "entities": [
+          "SMD"
+        ]
+      },
+      {
+        "category": "濾波器",
+        "text": "**千如** (EMI 濾波器、共模電感)",
+        "entities": []
+      },
+      {
+        "category": "變壓器",
+        "text": "**千如** (高頻變壓器、脈衝變壓器)",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (車用、AI 與工控應用)",
+        "text": "**下游 (車用、AI 與工控應用):**",
+        "entities": []
+      },
+      {
+        "category": "車用電子",
+        "text": "[[Bosch]]、[[Continental]]、[[Denso]] — Tier 1 車電廠 BMS/OBC 電感",
+        "entities": [
+          "Bosch",
+          "Continental",
+          "Denso"
+        ]
+      },
+      {
+        "category": "AI 伺服器",
+        "text": "[[廣達]]、[[緯創]] — [[AI 伺服器]]電源管理電感",
+        "entities": [
+          "廣達",
+          "緯創",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "category": "網通設備",
+        "text": "[[仁寶]]、[[和碩]] — 基地台與伺服器電源模組",
+        "entities": [
+          "仁寶",
+          "和碩"
+        ]
+      },
+      {
+        "category": "工業控制",
+        "text": "工業自動化設備與電源供應器廠商",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "車用 Tier 1",
+        "text": "[[Bosch]]、[[Continental]]、[[Denso]] — [[電動車]] BMS/OBC/[[ADAS]] 電感",
+        "entities": [
+          "Bosch",
+          "Continental",
+          "Denso",
+          "電動車",
+          "ADAS"
+        ]
+      },
+      {
+        "role": "AI 伺服器",
+        "text": "[[廣達]]、[[緯創]] — [[AI 伺服器]]電源模組電感",
+        "entities": [
+          "廣達",
+          "緯創",
+          "AI 伺服器"
+        ]
+      },
+      {
+        "role": "網通設備",
+        "text": "[[仁寶]]、[[和碩]] — 伺服器與基地台電源",
+        "entities": [
+          "仁寶",
+          "和碩"
+        ]
+      },
+      {
+        "role": "工業/醫療",
+        "text": "工業自動化與醫療設備廠商 — 高穩定性電感",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "銅線",
+        "text": "漆包銅線供應商 — 電感繞線材料",
+        "entities": []
+      },
+      {
+        "role": "磁芯",
+        "text": "鐵氧體與金屬粉末磁芯供應商",
+        "entities": []
+      },
+      {
+        "role": "陶瓷",
+        "text": "陶瓷基板材料供應商",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "ABC Taiwan Electronics",
+      "type": "international_company_or_term",
+      "wikilink": "ABC Taiwan Electronics"
+    },
+    {
+      "name": "SMD",
+      "type": "international_company_or_term",
+      "wikilink": "SMD"
+    },
+    {
+      "name": "電動車",
+      "type": "taiwan_company_or_term",
+      "wikilink": "電動車"
+    },
+    {
+      "name": "ADAS",
+      "type": "international_company_or_term",
+      "wikilink": "ADAS"
+    },
+    {
+      "name": "資料中心",
+      "type": "taiwan_company_or_term",
+      "wikilink": "資料中心"
+    },
+    {
+      "name": "AI 伺服器",
+      "type": "taiwan_company_or_term",
+      "wikilink": "AI 伺服器"
+    },
+    {
+      "name": "MLCC",
+      "type": "technology",
+      "wikilink": "MLCC"
+    },
+    {
+      "name": "Bosch",
+      "type": "international_company_or_term",
+      "wikilink": "Bosch"
+    },
+    {
+      "name": "Continental",
+      "type": "international_company_or_term",
+      "wikilink": "Continental"
+    },
+    {
+      "name": "Denso",
+      "type": "international_company_or_term",
+      "wikilink": "Denso"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "緯創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "緯創"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "千如電機 (3236，[[ABC Taiwan Electronics]]) 是專業的電感 (Inductor) 與被動元件製造商，以高品質與客製化能力著稱。產品線涵蓋 [[SMD]] 功率電感、濾波器、變壓器以及精密散熱零件。\n\n核心業務驅動力：(1) 車用電子領航 — 取得 IATF 16949 與 AEC-Q200 認證，深耕[[電動車]] BMS (電池管理系統)、車載充電器 (OBC) 與 [[ADAS]] 相關電感需求，客戶涵蓋國際 Tier 1 車電廠商；(2) 工業與醫療 — 提供高穩定性功率元件，用於工業自動化、醫療監控儀器與高階電源供應器；(3) AI 與網通 — 針對[[資料中心]]與 [[AI 伺服器]]開發大電流、低損耗電感解決方案，因應算力提升帶來的電源管理挑戰。生產基地橫跨台灣、中國與東南亞。",
+    "supply_chain_md": "**上游 (磁性材料與金屬):**\n- **銅線:** 漆包銅線供應商 — 電感繞線核心材料\n- **磁性材料:** 鐵氧體磁芯、金屬粉末磁芯\n- **陶瓷基板:** 陶瓷材料供應商 — [[MLCC]] 級陶瓷\n\n**中游 (被動元件製造):**\n- **功率電感:** **千如** ([[SMD]] 功率電感、繞線電感)\n- **濾波器:** **千如** (EMI 濾波器、共模電感)\n- **變壓器:** **千如** (高頻變壓器、脈衝變壓器)\n\n**下游 (車用、AI 與工控應用):**\n- **車用電子:** [[Bosch]]、[[Continental]]、[[Denso]] — Tier 1 車電廠 BMS/OBC 電感\n- **AI 伺服器:** [[廣達]]、[[緯創]] — [[AI 伺服器]]電源管理電感\n- **網通設備:** [[仁寶]]、[[和碩]] — 基地台與伺服器電源模組\n- **工業控制:** 工業自動化設備與電源供應器廠商",
+    "customers_suppliers_md": "### 主要客戶\n- **車用 Tier 1:** [[Bosch]]、[[Continental]]、[[Denso]] — [[電動車]] BMS/OBC/[[ADAS]] 電感\n- **AI 伺服器:** [[廣達]]、[[緯創]] — [[AI 伺服器]]電源模組電感\n- **網通設備:** [[仁寶]]、[[和碩]] — 伺服器與基地台電源\n- **工業/醫療:** 工業自動化與醫療設備廠商 — 高穩定性電感\n\n### 主要供應商\n- **銅線:** 漆包銅線供應商 — 電感繞線材料\n- **磁芯:** 鐵氧體與金屬粉末磁芯供應商\n- **陶瓷:** 陶瓷基板材料供應商",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $35.25 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|    110.16 |         N/A |      1.72 | 2.28 |     14.49 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2067.60 |      1864.18 |      1992.30 |\n| Gross Profit            |       523.10 |       409.91 |       449.63 |\n| Gross Margin (%)        |        25.30 |        21.99 |        22.57 |\n| Selling & Marketing Exp |        75.39 |        73.45 |        63.83 |\n| R&D Exp                 |       102.14 |       110.22 |       104.40 |\n| General & Admin Exp     |       251.55 |       246.13 |       247.22 |\n| Operating Income        |        94.01 |       -19.90 |        34.18 |\n| Operating Margin (%)    |         4.55 |        -1.07 |         1.72 |\n| Net Income              |        33.76 |         4.45 |        37.36 |\n| Net Margin (%)          |         1.63 |         0.24 |         1.88 |\n| Op Cash Flow            |       168.23 |       161.41 |       287.44 |\n| Investing Cash Flow     |      -102.08 |      -127.87 |      -227.83 |\n| Financing Cash Flow     |      -105.47 |       -89.15 |       116.07 |\n| CAPEX                   |      -151.70 |      -231.54 |      -243.65 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2025-12-31 |   2025-09-30 |   2025-06-30 |   2025-03-31 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       539.00 |       551.16 |       527.46 |       449.99 |\n| Gross Profit            |       140.32 |       157.70 |       118.72 |       106.36 |\n| Gross Margin (%)        |        26.03 |        28.61 |        22.51 |        23.64 |\n| Selling & Marketing Exp |        20.34 |        18.78 |        18.50 |        17.77 |\n| R&D Exp                 |        27.21 |        26.04 |        25.14 |        23.75 |\n| General & Admin Exp     |        65.73 |        61.17 |        55.40 |        69.25 |\n| Operating Income        |        27.03 |        51.71 |        19.67 |        -4.41 |\n| Operating Margin (%)    |         5.02 |         9.38 |         3.73 |        -0.98 |\n| Net Income              |        21.03 |        32.95 |       -20.20 |        -0.02 |\n| Net Margin (%)          |         3.90 |         5.98 |        -3.83 |        -0.00 |\n| Op Cash Flow            |       118.65 |        67.53 |        10.70 |       -28.66 |\n| Investing Cash Flow     |       -41.94 |       -32.96 |       -33.39 |         6.20 |\n| Financing Cash Flow     |       -45.71 |       -77.67 |        14.82 |         3.09 |\n| CAPEX                   |       -54.14 |       -33.41 |       -41.73 |       -22.41 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 14,
+    "warnings": []
+  }
+}

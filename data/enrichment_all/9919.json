@@ -1,0 +1,231 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "9919",
+  "company_name": "康那香",
+  "title": "9919 - 康那香",
+  "source_md": "Pilot_Reports/醫療器材 - 醫療器材研發、設計、製造/9919_康那香.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Consumer Defensive",
+    "industry": "Household & Personal Products",
+    "market_cap": "2,676 百萬台幣",
+    "enterprise_value": "4,633 百萬台幣"
+  },
+  "business": {
+    "summary": "康那香企業股份有限公司 (9919) 成立於 1968 年，總部位於台灣台北，為台灣歷史悠久之不織布與衛生用品製造大廠，位列全球前 40 大不織布廠商。公司產品涵蓋衛生棉 (「[[康乃馨]]」品牌)、紙尿褲、濕紙巾 (「[[康乃馨]]」濕紙巾)、化妝棉 (「[[蘭韻]]」品牌) 及各式不織布製品。其中「[[蘭韻]]」化妝棉與「[[康乃馨]]」濕紙巾在國內品牌銷售居龍頭地位。康那香並具備整廠輸出能力，涵蓋從不織布原料製造到成品加工之完整產業鏈。公司亦跨足空氣過濾與水處理事業。生產基地位於台灣台南及中國上海。",
+    "entities": [
+      "康乃馨",
+      "蘭韻"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (纖維與化工原料)",
+        "text": "**上游 (纖維與化工原料):**",
+        "entities": []
+      },
+      {
+        "category": "纖維原料",
+        "text": "[[聚酯纖維]]、[[聚丙烯]] (PP)、[[嫘縈]] (Rayon)、木漿棉",
+        "entities": [
+          "聚酯纖維",
+          "聚丙烯",
+          "嫘縈"
+        ]
+      },
+      {
+        "category": "吸收材料",
+        "text": "[[SAP]] (高吸水性樹脂) 用於紙尿褲",
+        "entities": [
+          "SAP"
+        ]
+      },
+      {
+        "category": "化學品",
+        "text": "黏合劑、柔軟劑等加工助劑",
+        "entities": []
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 (不織布與衛材製造)",
+        "text": "**中游 (不織布與衛材製造):**",
+        "entities": []
+      },
+      {
+        "category": "不織布製造",
+        "text": "**康那香 (9919)** — 熱風、壓延、氣流成網、水刺、熔噴等多製程不織布製造",
+        "entities": []
+      },
+      {
+        "category": "成品加工",
+        "text": "衛生棉、紙尿褲、濕紙巾、化妝棉等衛材成品",
+        "entities": []
+      },
+      {
+        "category": "工業應用",
+        "text": "空氣過濾材料、廢水處理與淨水方案",
+        "entities": []
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (銷售通路)",
+        "text": "**下游 (銷售通路):**",
+        "entities": []
+      },
+      {
+        "category": "品牌零售",
+        "text": "全台各大量販超市、藥妝店 (「[[康乃馨]]」、「[[蘭韻]]」品牌)",
+        "entities": [
+          "康乃馨",
+          "蘭韻"
+        ]
+      },
+      {
+        "category": "OEM 代工",
+        "text": "國內外衛材品牌代工",
+        "entities": []
+      },
+      {
+        "category": "工業客戶",
+        "text": "空氣過濾設備商及水處理工程業者",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "自有品牌零售",
+        "text": "「[[康乃馨]]」(衛生棉/濕紙巾)、「[[蘭韻]]」(化妝棉) — 透過 [[全聯]]、[[家樂福]]、[[統一超商]] 等通路銷售",
+        "entities": [
+          "康乃馨",
+          "蘭韻",
+          "全聯",
+          "家樂福",
+          "統一超商"
+        ]
+      },
+      {
+        "role": "OEM 代工",
+        "text": "國內外衛材品牌之代工製造",
+        "entities": []
+      },
+      {
+        "role": "工業客戶",
+        "text": "空氣過濾及水處理事業之設備商",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "纖維原料",
+        "text": "[[聚酯纖維]]、[[嫘縈]]、木漿棉等化學纖維供應商",
+        "entities": [
+          "聚酯纖維",
+          "嫘縈"
+        ]
+      },
+      {
+        "role": "吸收材料",
+        "text": "國際 [[SAP]] 供應商 (如 [[BASF]]、[[Evonik]])",
+        "entities": [
+          "SAP",
+          "BASF",
+          "Evonik"
+        ]
+      },
+      {
+        "role": "設備供應",
+        "text": "歐洲不織布產線及衛材加工設備廠",
+        "entities": []
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "康乃馨",
+      "type": "taiwan_company_or_term",
+      "wikilink": "康乃馨"
+    },
+    {
+      "name": "蘭韻",
+      "type": "taiwan_company_or_term",
+      "wikilink": "蘭韻"
+    },
+    {
+      "name": "聚酯纖維",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚酯纖維"
+    },
+    {
+      "name": "聚丙烯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聚丙烯"
+    },
+    {
+      "name": "嫘縈",
+      "type": "taiwan_company_or_term",
+      "wikilink": "嫘縈"
+    },
+    {
+      "name": "SAP",
+      "type": "international_company_or_term",
+      "wikilink": "SAP"
+    },
+    {
+      "name": "全聯",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全聯"
+    },
+    {
+      "name": "家樂福",
+      "type": "taiwan_company_or_term",
+      "wikilink": "家樂福"
+    },
+    {
+      "name": "統一超商",
+      "type": "taiwan_company_or_term",
+      "wikilink": "統一超商"
+    },
+    {
+      "name": "BASF",
+      "type": "international_company_or_term",
+      "wikilink": "BASF"
+    },
+    {
+      "name": "Evonik",
+      "type": "international_company_or_term",
+      "wikilink": "Evonik"
+    },
+    {
+      "name": "全台",
+      "type": "taiwan_company_or_term",
+      "wikilink": "全台"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "康那香企業股份有限公司 (9919) 成立於 1968 年，總部位於台灣台北，為台灣歷史悠久之不織布與衛生用品製造大廠，位列全球前 40 大不織布廠商。公司產品涵蓋衛生棉 (「[[康乃馨]]」品牌)、紙尿褲、濕紙巾 (「[[康乃馨]]」濕紙巾)、化妝棉 (「[[蘭韻]]」品牌) 及各式不織布製品。其中「[[蘭韻]]」化妝棉與「[[康乃馨]]」濕紙巾在國內品牌銷售居龍頭地位。康那香並具備整廠輸出能力，涵蓋從不織布原料製造到成品加工之完整產業鏈。公司亦跨足空氣過濾與水處理事業。生產基地位於台灣台南及中國上海。",
+    "supply_chain_md": "**上游 (纖維與化工原料):**\n- **纖維原料:** [[聚酯纖維]]、[[聚丙烯]] (PP)、[[嫘縈]] (Rayon)、木漿棉\n- **吸收材料:** [[SAP]] (高吸水性樹脂) 用於紙尿褲\n- **化學品:** 黏合劑、柔軟劑等加工助劑\n\n**中游 (不織布與衛材製造):**\n- **不織布製造:** **康那香 (9919)** — 熱風、壓延、氣流成網、水刺、熔噴等多製程不織布製造\n- **成品加工:** 衛生棉、紙尿褲、濕紙巾、化妝棉等衛材成品\n- **工業應用:** 空氣過濾材料、廢水處理與淨水方案\n\n**下游 (銷售通路):**\n- **品牌零售:** 全台各大量販超市、藥妝店 (「[[康乃馨]]」、「[[蘭韻]]」品牌)\n- **OEM 代工:** 國內外衛材品牌代工\n- **工業客戶:** 空氣過濾設備商及水處理工程業者",
+    "customers_suppliers_md": "### 主要客戶\n- **自有品牌零售:** 「[[康乃馨]]」(衛生棉/濕紙巾)、「[[蘭韻]]」(化妝棉) — 透過 [[全聯]]、[[家樂福]]、[[統一超商]] 等通路銷售\n- **OEM 代工:** 國內外衛材品牌之代工製造\n- **工業客戶:** 空氣過濾及水處理事業之設備商\n\n### 主要供應商\n- **纖維原料:** [[聚酯纖維]]、[[嫘縈]]、木漿棉等化學纖維供應商\n- **吸收材料:** 國際 [[SAP]] 供應商 (如 [[BASF]]、[[Evonik]])\n- **設備供應:** 歐洲不織布產線及衛材加工設備廠",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $13.60 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|       N/A |         N/A |      1.00 | 1.32 |    -13.54 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |      2665.87 |      2937.26 |      2938.26 |\n| Gross Profit            |        67.05 |       341.68 |       126.12 |\n| Gross Margin (%)        |         2.52 |        11.63 |         4.29 |\n| Selling & Marketing Exp |       376.79 |       398.28 |       365.63 |\n| R&D Exp                 |        54.70 |        39.81 |        45.33 |\n| General & Admin Exp     |       187.50 |       177.26 |       204.49 |\n| Operating Income        |      -551.93 |      -273.67 |      -489.33 |\n| Operating Margin (%)    |       -20.70 |        -9.32 |       -16.65 |\n| Net Income              |      -473.99 |      -368.46 |       658.68 |\n| Net Margin (%)          |       -17.78 |       -12.54 |        22.42 |\n| Op Cash Flow            |       -97.97 |      -418.25 |       -92.71 |\n| Investing Cash Flow     |      -136.51 |       845.06 |       541.82 |\n| Financing Cash Flow     |       -71.83 |      -492.10 |       167.72 |\n| CAPEX                   |      -114.22 |      -190.96 |      -217.90 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |       677.60 |       661.11 |       689.36 |       637.75 |\n| Gross Profit            |        65.34 |       -20.80 |         6.47 |        29.39 |\n| Gross Margin (%)        |         9.64 |        -3.15 |         0.94 |         4.61 |\n| Selling & Marketing Exp |       102.92 |        93.77 |        96.78 |        92.99 |\n| R&D Exp                 |        22.90 |        17.78 |        16.38 |        11.85 |\n| General & Admin Exp     |        42.65 |        48.51 |        49.18 |        46.24 |\n| Operating Income        |      -103.13 |      -180.86 |      -155.86 |      -121.69 |\n| Operating Margin (%)    |       -15.22 |       -27.36 |       -22.61 |       -19.08 |\n| Net Income              |      -100.69 |      -183.67 |      -182.67 |      -156.36 |\n| Net Margin (%)          |       -14.86 |       -27.78 |       -26.50 |       -24.52 |\n| Op Cash Flow            |       -71.63 |       -20.29 |        -4.68 |      -100.78 |\n| Investing Cash Flow     |       -19.21 |       -16.38 |       111.62 |       -33.98 |\n| Financing Cash Flow     |       -37.11 |        73.00 |        55.00 |        32.09 |\n| CAPEX                   |       -22.29 |       -25.70 |       -25.06 |       -32.55 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 11,
+    "warnings": []
+  }
+}

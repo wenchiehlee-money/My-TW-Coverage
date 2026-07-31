@@ -1,0 +1,219 @@
+{
+  "schema_version": "0.1.0",
+  "ticker": "7547",
+  "company_name": "碩網",
+  "title": "7547 - 碩網",
+  "source_md": "Pilot_Reports/人工智慧 - 系統整合/7547_碩網.md",
+  "extracted_at": "2026-07-30 23:51:48 CST",
+  "profile": {
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "market_cap": "1,530 百萬台幣",
+    "enterprise_value": "776 百萬台幣"
+  },
+  "business": {
+    "summary": "碩網資訊股份有限公司 (7547，Intumit) 為台灣「對話式 [[AI]]」與「自然語言處理 ([[NLP]])」領域之軟體系統領導者。核心產品 SmartRobot 智能客服系統在台灣金融業擁有超過八成市佔率，累積逾 700 家企業客戶。公司專精於將 [[AI]] 大語言模型 ([[LLM]]) 落地轉化為企業可實際運用之智能應用，包含 24 小時虛擬客服、企業內部知識管理 (SmartWork/KMS) 及生成式 AI 平台 (GenAI Admin Portal)。2024 年 GenAI Admin Portal 貢獻 1.6 億元營收，佔比從 4% 躍升至 49%。公司為 [[Microsoft]] 台灣年度最佳合作夥伴 (2024)，並積極拓展日本大型保險金融市場。",
+    "entities": [
+      "AI",
+      "NLP",
+      "LLM",
+      "Microsoft"
+    ]
+  },
+  "supply_chain": {
+    "upstream": [
+      {
+        "category": "上游 (雲端與 AI 平台)",
+        "text": "**上游 (雲端與 AI 平台):**",
+        "entities": []
+      },
+      {
+        "category": "雲端平台",
+        "text": "[[Microsoft Azure]] — 核心雲端基礎設施與 [[OpenAI]] 服務",
+        "entities": [
+          "Microsoft Azure",
+          "OpenAI"
+        ]
+      },
+      {
+        "category": "AI 模型",
+        "text": "[[OpenAI]]、[[Google]] Gemini — 大語言模型技術",
+        "entities": [
+          "OpenAI",
+          "Google"
+        ]
+      },
+      {
+        "category": "GPU 運算",
+        "text": "[[NVIDIA]] — AI 推論運算平台",
+        "entities": [
+          "NVIDIA"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "category": "中游 ([[AI]] 軟體)",
+        "text": "**中游 ([[AI]] 軟體):**",
+        "entities": [
+          "AI"
+        ]
+      },
+      {
+        "category": "",
+        "text": "**碩網資訊** (SmartRobot 對話式 [[AI]]、GenAI Admin Portal、[[NLP]] 企業知識管理系統)",
+        "entities": [
+          "AI",
+          "NLP"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "category": "下游 (企業客戶)",
+        "text": "**下游 (企業客戶):**",
+        "entities": []
+      },
+      {
+        "category": "金融業 (市佔逾 80%)",
+        "text": "各大金控銀行、壽險、證券商",
+        "entities": []
+      },
+      {
+        "category": "高科技製造",
+        "text": "[[台積電]] — 內部 Helpdesk AI 客服",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "category": "政府機關",
+        "text": "各級政府部會 AI 客服專案",
+        "entities": []
+      },
+      {
+        "category": "海外市場",
+        "text": "日本大型保險與金融機構",
+        "entities": []
+      }
+    ],
+    "other": []
+  },
+  "relationships": {
+    "customers": [
+      {
+        "role": "金融業 (市佔逾 80%)",
+        "text": "各大金控銀行、壽險、證券商 — SmartRobot 智能客服",
+        "entities": []
+      },
+      {
+        "role": "高科技業",
+        "text": "[[台積電]] — 內部 Helpdesk AI 系統",
+        "entities": [
+          "台積電"
+        ]
+      },
+      {
+        "role": "政府機關",
+        "text": "各級政府 — AI 公共服務客服",
+        "entities": []
+      },
+      {
+        "role": "海外客戶",
+        "text": "日本大型保險金融機構 — GenAI 平台",
+        "entities": []
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "雲端平台",
+        "text": "[[Microsoft Azure]] — ISV 戰略合作夥伴",
+        "entities": [
+          "Microsoft Azure"
+        ]
+      },
+      {
+        "role": "AI 模型",
+        "text": "[[OpenAI]] — 大語言模型核心技術",
+        "entities": [
+          "OpenAI"
+        ]
+      },
+      {
+        "role": "GPU 運算",
+        "text": "[[NVIDIA]] — AI 推論運算支援",
+        "entities": [
+          "NVIDIA"
+        ]
+      }
+    ],
+    "competitors": [],
+    "peers": [],
+    "substitutes": [],
+    "other": []
+  },
+  "competitive_position": {
+    "moats": [],
+    "risks": [],
+    "notes": []
+  },
+  "entities": [
+    {
+      "name": "AI",
+      "type": "technology",
+      "wikilink": "AI"
+    },
+    {
+      "name": "NLP",
+      "type": "international_company_or_term",
+      "wikilink": "NLP"
+    },
+    {
+      "name": "LLM",
+      "type": "international_company_or_term",
+      "wikilink": "LLM"
+    },
+    {
+      "name": "Microsoft",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft"
+    },
+    {
+      "name": "Microsoft Azure",
+      "type": "international_company_or_term",
+      "wikilink": "Microsoft Azure"
+    },
+    {
+      "name": "OpenAI",
+      "type": "international_company_or_term",
+      "wikilink": "OpenAI"
+    },
+    {
+      "name": "Google",
+      "type": "international_company_or_term",
+      "wikilink": "Google"
+    },
+    {
+      "name": "NVIDIA",
+      "type": "international_company_or_term",
+      "wikilink": "NVIDIA"
+    },
+    {
+      "name": "台積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台積電"
+    }
+  ],
+  "source_text": {
+    "business_summary_md": "碩網資訊股份有限公司 (7547，Intumit) 為台灣「對話式 [[AI]]」與「自然語言處理 ([[NLP]])」領域之軟體系統領導者。核心產品 SmartRobot 智能客服系統在台灣金融業擁有超過八成市佔率，累積逾 700 家企業客戶。公司專精於將 [[AI]] 大語言模型 ([[LLM]]) 落地轉化為企業可實際運用之智能應用，包含 24 小時虛擬客服、企業內部知識管理 (SmartWork/KMS) 及生成式 AI 平台 (GenAI Admin Portal)。2024 年 GenAI Admin Portal 貢獻 1.6 億元營收，佔比從 4% 躍升至 49%。公司為 [[Microsoft]] 台灣年度最佳合作夥伴 (2024)，並積極拓展日本大型保險金融市場。",
+    "supply_chain_md": "**上游 (雲端與 AI 平台):**\n- **雲端平台:** [[Microsoft Azure]] — 核心雲端基礎設施與 [[OpenAI]] 服務\n- **AI 模型:** [[OpenAI]]、[[Google]] Gemini — 大語言模型技術\n- **GPU 運算:** [[NVIDIA]] — AI 推論運算平台\n\n**中游 ([[AI]] 軟體):**\n- **碩網資訊** (SmartRobot 對話式 [[AI]]、GenAI Admin Portal、[[NLP]] 企業知識管理系統)\n\n**下游 (企業客戶):**\n- **金融業 (市佔逾 80%):** 各大金控銀行、壽險、證券商\n- **高科技製造:** [[台積電]] — 內部 Helpdesk AI 客服\n- **政府機關:** 各級政府部會 AI 客服專案\n- **海外市場:** 日本大型保險與金融機構",
+    "customers_suppliers_md": "### 主要客戶\n- **金融業 (市佔逾 80%):** 各大金控銀行、壽險、證券商 — SmartRobot 智能客服\n- **高科技業:** [[台積電]] — 內部 Helpdesk AI 系統\n- **政府機關:** 各級政府 — AI 公共服務客服\n- **海外客戶:** 日本大型保險金融機構 — GenAI 平台\n\n### 主要供應商\n- **雲端平台:** [[Microsoft Azure]] — ISV 戰略合作夥伴\n- **AI 模型:** [[OpenAI]] — 大語言模型核心技術\n- **GPU 運算:** [[NVIDIA]] — AI 推論運算支援",
+    "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n### 估值指標 (股價 $44.55 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)\n| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |\n|-----------|-------------|-----------|------|-----------|\n|     17.54 |       16.44 |      3.93 | 1.49 |      7.13 |\n\n### 年度關鍵財務數據 (近 3 年)\n|                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |\n|:------------------------|-------------:|-------------:|-------------:|\n| Revenue                 |       352.29 |       333.40 |       202.10 |\n| Gross Profit            |       191.82 |       148.84 |        94.81 |\n| Gross Margin (%)        |        54.45 |        44.64 |        46.91 |\n| Selling & Marketing Exp |        35.16 |        34.87 |        22.51 |\n| R&D Exp                 |        37.59 |        38.79 |        31.45 |\n| General & Admin Exp     |        17.95 |        18.54 |        13.50 |\n| Operating Income        |       101.12 |        56.65 |        27.35 |\n| Operating Margin (%)    |        28.70 |        16.99 |        13.53 |\n| Net Income              |        81.70 |        57.67 |        31.12 |\n| Net Margin (%)          |        23.19 |        17.30 |        15.40 |\n| Op Cash Flow            |        37.18 |        60.17 |        40.72 |\n| Investing Cash Flow     |      -320.11 |      -119.34 |        -3.38 |\n| Financing Cash Flow     |       286.08 |        97.52 |       -17.71 |\n| CAPEX                   |        -0.92 |        -0.14 |        -0.36 |\n\n### 季度關鍵財務數據 (近 4 季)\n|                         |   2026-03-31 |   2025-12-31 |   2025-09-30 |   2025-06-30 |\n|:------------------------|-------------:|-------------:|-------------:|-------------:|\n| Revenue                 |        90.74 |       103.94 |       104.27 |        82.27 |\n| Gross Profit            |        37.41 |        46.75 |        62.38 |        50.65 |\n| Gross Margin (%)        |        41.23 |        44.98 |        59.82 |        61.57 |\n| Selling & Marketing Exp |         8.82 |        10.37 |         8.66 |         7.73 |\n| R&D Exp                 |        10.71 |        10.58 |         9.12 |         9.14 |\n| General & Admin Exp     |         3.76 |         4.92 |         4.52 |         4.00 |\n| Operating Income        |        14.12 |        20.88 |        40.07 |        29.79 |\n| Operating Margin (%)    |        15.56 |        20.09 |        38.43 |        36.20 |\n| Net Income              |        14.01 |        17.87 |        34.73 |        16.55 |\n| Net Margin (%)          |        15.44 |        17.19 |        33.31 |        20.11 |\n| Op Cash Flow            |         8.40 |        33.74 |        -0.61 |         3.56 |\n| Investing Cash Flow     |       -10.64 |       -21.59 |      -307.74 |        27.49 |\n| Financing Cash Flow     |         0.18 |         2.83 |       284.47 |        -0.61 |\n| CAPEX                   |        -0.56 |        -0.20 |        -0.45 |        -0.14 |"
+  },
+  "quality": {
+    "parser_status": "parsed",
+    "review_status": "needs_review",
+    "wikilink_count": 9,
+    "warnings": []
+  }
+}
