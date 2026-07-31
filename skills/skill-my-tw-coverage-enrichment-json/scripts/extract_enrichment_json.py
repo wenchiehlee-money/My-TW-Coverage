@@ -310,8 +310,8 @@ def main() -> int:
     )
     focus_path = Path(args.focus).resolve() if args.focus else default_focus.resolve()
     coverage_root = Path(args.coverage_root).resolve() if args.coverage_root else default_coverage_root.resolve()
-    default_out = coverage_root / "data" / "enrichment_draft"
-    default_manifest = coverage_root / "data" / "enrichment_manifest.csv"
+    default_out = coverage_root / "data" / "enrichment_all_draft"
+    default_manifest = coverage_root / "data" / "enrichment_all_manifest.csv"
     out_dir = Path(args.out).resolve() if args.out else default_out
     manifest_path = Path(args.manifest).resolve() if args.manifest else default_manifest
     out_dir.mkdir(parents=True, exist_ok=True)

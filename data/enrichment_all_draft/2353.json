@@ -190,7 +190,35 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[華碩]]",
+        "entities": [
+          "華碩"
+        ],
+        "basis": "reciprocal_competitor_from:2357",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[技嘉]]",
+        "entities": [
+          "技嘉"
+        ],
+        "basis": "reciprocal_competitor_from:2376",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[微星]]",
+        "entities": [
+          "微星"
+        ],
+        "basis": "reciprocal_competitor_from:2377",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -305,6 +333,21 @@
       "name": "Google",
       "type": "international_company_or_term",
       "wikilink": "Google"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
     }
   ],
   "source_text": {
@@ -316,6 +359,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 21,
-    "warnings": []
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
   }
 }

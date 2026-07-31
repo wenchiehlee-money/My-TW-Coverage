@@ -129,7 +129,20 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "電信服務競爭者",
+        "text": "[[中華電]]、[[遠傳]]、[[亞太電信]]、[[台灣之星]]",
+        "entities": [
+          "中華電",
+          "遠傳",
+          "亞太電信",
+          "台灣之星"
+        ],
+        "basis": "curated_telco_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -199,6 +212,21 @@
       "name": "中華電",
       "type": "taiwan_company_or_term",
       "wikilink": "中華電"
+    },
+    {
+      "name": "遠傳",
+      "type": "taiwan_company_or_term",
+      "wikilink": "遠傳"
+    },
+    {
+      "name": "亞太電信",
+      "type": "taiwan_company_or_term",
+      "wikilink": "亞太電信"
+    },
+    {
+      "name": "台灣之星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "台灣之星"
     }
   ],
   "source_text": {
@@ -210,6 +238,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 11,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

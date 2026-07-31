@@ -137,14 +137,17 @@
     ],
     "competitors": [
       {
-        "text": "- **競爭同業:** [[奇景光電]]、[[矽創]]、[[瑞鼎]]、[[天鈺]]、[[敦泰]]",
+        "role": "顯示驅動IC競爭者",
+        "text": "[[敦泰]]、[[矽創]]、[[天鈺]]、[[瑞鼎]]、[[奇景光電]]",
         "entities": [
-          "奇景光電",
+          "敦泰",
           "矽創",
-          "瑞鼎",
           "天鈺",
-          "敦泰"
-        ]
+          "瑞鼎",
+          "奇景光電"
+        ],
+        "basis": "curated_display_driver_ic_competitor_rule",
+        "review_status": "needs_review"
       }
     ],
     "peers": [],
@@ -241,6 +244,31 @@
       "name": "敦泰",
       "type": "taiwan_company_or_term",
       "wikilink": "敦泰"
+    },
+    {
+      "name": "譜瑞-KY",
+      "type": "taiwan_company_or_term",
+      "wikilink": "譜瑞-KY"
+    },
+    {
+      "name": "太欣",
+      "type": "taiwan_company_or_term",
+      "wikilink": "太欣"
+    },
+    {
+      "name": "泰詠",
+      "type": "taiwan_company_or_term",
+      "wikilink": "泰詠"
+    },
+    {
+      "name": "芯鼎",
+      "type": "taiwan_company_or_term",
+      "wikilink": "芯鼎"
+    },
+    {
+      "name": "傑霖科技",
+      "type": "taiwan_company_or_term",
+      "wikilink": "傑霖科技"
     }
   ],
   "source_text": {
@@ -252,6 +280,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 17,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

@@ -203,10 +203,10 @@ def compare(original: str, rendered: str, data: dict[str, Any]) -> dict[str, Any
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--json-dir", default="data/enrichment_draft")
+    parser.add_argument("--json-dir", default="data/enrichment_all_draft")
     parser.add_argument("--coverage-root", default=".")
-    parser.add_argument("--out", default="output/enrichment_rendered")
-    parser.add_argument("--compare", default="output/enrichment_render_compare.csv")
+    parser.add_argument("--out", default="output/enrichment_all_rendered")
+    parser.add_argument("--compare", default="output/enrichment_all_render_compare.csv")
     parser.add_argument("--ticker")
     args = parser.parse_args()
 

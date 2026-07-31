@@ -12,7 +12,7 @@ description: >-
 
 ## Purpose
 
-Convert `../My-TW-Coverage/Pilot_Reports/**/*.md` from presentation Markdown into atomic draft JSON, using `StockID_TWSE_TPEX_focus.csv` as the first review universe.
+Convert `../My-TW-Coverage/Pilot_Reports/**/*.md` from presentation Markdown into atomic draft JSON, using `data/enrichment_all_draft` as the active JSON review universe.
 
 Current state:
 
@@ -40,8 +40,8 @@ Equivalent explicit command:
 python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py \
   --focus ../biztrends.TW/StockID_TWSE_TPEX_focus.csv \
   --coverage-root . \
-  --out data/enrichment_draft \
-  --manifest data/enrichment_manifest.csv
+  --out data/enrichment_all_draft \
+  --manifest data/enrichment_all_manifest.csv
 ```
 
 It can also run from `biztrends.TW` root:
@@ -50,8 +50,8 @@ It can also run from `biztrends.TW` root:
 python skills/skill-my-tw-coverage-enrichment-json/scripts/extract_enrichment_json.py \
   --focus StockID_TWSE_TPEX_focus.csv \
   --coverage-root ../My-TW-Coverage \
-  --out ../My-TW-Coverage/data/enrichment_draft \
-  --manifest ../My-TW-Coverage/data/enrichment_manifest.csv
+  --out ../My-TW-Coverage/data/enrichment_all_draft \
+  --manifest ../My-TW-Coverage/data/enrichment_all_manifest.csv
 ```
 
 Useful scopes:

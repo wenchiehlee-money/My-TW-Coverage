@@ -162,7 +162,22 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "PC與電競品牌競爭者",
+        "text": "[[華碩]]、[[技嘉]]、[[宏碁]]、[[Lenovo]]、[[Dell]]、[[HP]]",
+        "entities": [
+          "華碩",
+          "技嘉",
+          "宏碁",
+          "Lenovo",
+          "Dell",
+          "HP"
+        ],
+        "basis": "curated_pc_brand_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -212,6 +227,36 @@
       "name": "Micron",
       "type": "international_company_or_term",
       "wikilink": "Micron"
+    },
+    {
+      "name": "華碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華碩"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
     }
   ],
   "source_text": {
@@ -223,6 +268,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 8,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

@@ -160,7 +160,26 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[研華]]",
+        "entities": [
+          "研華"
+        ],
+        "basis": "reciprocal_competitor_from:2395",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[威強電]]",
+        "entities": [
+          "威強電"
+        ],
+        "basis": "reciprocal_competitor_from:3022",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -210,6 +229,11 @@
       "name": "DDR5",
       "type": "international_company_or_term",
       "wikilink": "DDR5"
+    },
+    {
+      "name": "威強電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威強電"
     }
   ],
   "source_text": {
@@ -221,6 +245,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 8,
-    "warnings": []
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
   }
 }

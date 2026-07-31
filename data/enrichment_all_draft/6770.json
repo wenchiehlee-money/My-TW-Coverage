@@ -135,12 +135,26 @@
     ],
     "competitors": [
       {
-        "text": "- **競爭同業:** [[台積電]]、[[聯華電子]]、[[世界先進]]",
+        "role": "成熟製程晶圓代工競爭者",
+        "text": "[[聯電]]、[[世界]]、[[中芯國際]]、[[GlobalFoundries]]、[[華虹半導體]]",
         "entities": [
-          "台積電",
-          "聯華電子",
-          "世界先進"
-        ]
+          "聯電",
+          "世界",
+          "中芯國際",
+          "GlobalFoundries",
+          "華虹半導體"
+        ],
+        "basis": "curated_foundry_competitor_rule",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[台積電]]",
+        "entities": [
+          "台積電"
+        ],
+        "basis": "reciprocal_competitor_from:2330",
+        "review_status": "needs_review"
       }
     ],
     "peers": [],
@@ -227,6 +241,41 @@
       "name": "世界先進",
       "type": "taiwan_company_or_term",
       "wikilink": "世界先進"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "世界",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界"
+    },
+    {
+      "name": "中芯國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中芯國際"
+    },
+    {
+      "name": "GlobalFoundries",
+      "type": "international_company_or_term",
+      "wikilink": "GlobalFoundries"
+    },
+    {
+      "name": "華虹半導體",
+      "type": "taiwan_company_or_term",
+      "wikilink": "華虹半導體"
+    },
+    {
+      "name": "中華化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華化"
+    },
+    {
+      "name": "巨漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨漢"
     }
   ],
   "source_text": {
@@ -238,6 +287,9 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 15,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review",
+      "competitors_reciprocal_edges_need_review"
+    ]
   }
 }

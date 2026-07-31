@@ -114,11 +114,17 @@
     ],
     "competitors": [
       {
-        "text": "- **競爭同業:** [[慧榮科技]]、[[Maxio Technology]]",
+        "role": "NAND控制IC競爭者",
+        "text": "[[慧榮科技]]、[[Maxio Technology]]、[[Marvell]]、[[Realtek]]、[[Innogrit]]",
         "entities": [
           "慧榮科技",
-          "Maxio Technology"
-        ]
+          "Maxio Technology",
+          "Marvell",
+          "Realtek",
+          "Innogrit"
+        ],
+        "basis": "curated_nand_controller_competitor_rule",
+        "review_status": "needs_review"
       }
     ],
     "peers": [],
@@ -190,6 +196,26 @@
       "name": "Maxio Technology",
       "type": "international_company_or_term",
       "wikilink": "Maxio Technology"
+    },
+    {
+      "name": "Marvell",
+      "type": "international_company_or_term",
+      "wikilink": "Marvell"
+    },
+    {
+      "name": "Realtek",
+      "type": "international_company_or_term",
+      "wikilink": "Realtek"
+    },
+    {
+      "name": "Innogrit",
+      "type": "international_company_or_term",
+      "wikilink": "Innogrit"
+    },
+    {
+      "name": "鑫創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鑫創"
     }
   ],
   "source_text": {
@@ -201,6 +227,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 12,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

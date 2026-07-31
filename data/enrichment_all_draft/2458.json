@@ -97,7 +97,21 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "觸控與人機介面IC競爭者",
+        "text": "[[敦泰]]、[[矽創]]、[[Synaptics]]、[[Goodix]]、[[FocalTech]]",
+        "entities": [
+          "敦泰",
+          "矽創",
+          "Synaptics",
+          "Goodix",
+          "FocalTech"
+        ],
+        "basis": "curated_touch_controller_ic_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -182,6 +196,36 @@
       "name": "Xiaomi",
       "type": "international_company_or_term",
       "wikilink": "Xiaomi"
+    },
+    {
+      "name": "敦泰",
+      "type": "taiwan_company_or_term",
+      "wikilink": "敦泰"
+    },
+    {
+      "name": "矽創",
+      "type": "taiwan_company_or_term",
+      "wikilink": "矽創"
+    },
+    {
+      "name": "Synaptics",
+      "type": "international_company_or_term",
+      "wikilink": "Synaptics"
+    },
+    {
+      "name": "Goodix",
+      "type": "international_company_or_term",
+      "wikilink": "Goodix"
+    },
+    {
+      "name": "FocalTech",
+      "type": "international_company_or_term",
+      "wikilink": "FocalTech"
+    },
+    {
+      "name": "笙泉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "笙泉"
     }
   ],
   "source_text": {
@@ -193,6 +237,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 15,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

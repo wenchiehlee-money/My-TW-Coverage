@@ -74,7 +74,22 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "網通設備ODM同業",
+        "text": "[[中磊]]、[[智易]]、[[正文]]、[[合勤控]]、[[友訊]]、[[智邦]]",
+        "entities": [
+          "中磊",
+          "智易",
+          "正文",
+          "合勤控",
+          "友訊",
+          "智邦"
+        ],
+        "basis": "curated_networking_oem_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -129,6 +144,41 @@
       "name": "Broadcom",
       "type": "international_company_or_term",
       "wikilink": "Broadcom"
+    },
+    {
+      "name": "中磊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中磊"
+    },
+    {
+      "name": "智易",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智易"
+    },
+    {
+      "name": "正文",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正文"
+    },
+    {
+      "name": "合勤控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合勤控"
+    },
+    {
+      "name": "友訊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "友訊"
+    },
+    {
+      "name": "智邦",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智邦"
+    },
+    {
+      "name": "譁裕",
+      "type": "taiwan_company_or_term",
+      "wikilink": "譁裕"
     }
   ],
   "source_text": {
@@ -140,6 +190,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 9,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

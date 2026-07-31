@@ -128,7 +128,23 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "晶圓代工競爭者",
+        "text": "[[聯電]]、[[GlobalFoundries]]、[[Intel Foundry]]、[[中芯國際]]、[[Samsung Foundry]]、[[世界]]、[[力積電]]",
+        "entities": [
+          "聯電",
+          "GlobalFoundries",
+          "Intel Foundry",
+          "中芯國際",
+          "Samsung Foundry",
+          "世界",
+          "力積電"
+        ],
+        "basis": "curated_foundry_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -278,6 +294,66 @@
       "name": "Sony",
       "type": "international_company_or_term",
       "wikilink": "Sony"
+    },
+    {
+      "name": "聯電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯電"
+    },
+    {
+      "name": "GlobalFoundries",
+      "type": "international_company_or_term",
+      "wikilink": "GlobalFoundries"
+    },
+    {
+      "name": "Intel Foundry",
+      "type": "international_company_or_term",
+      "wikilink": "Intel Foundry"
+    },
+    {
+      "name": "中芯國際",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中芯國際"
+    },
+    {
+      "name": "Samsung Foundry",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung Foundry"
+    },
+    {
+      "name": "世界",
+      "type": "taiwan_company_or_term",
+      "wikilink": "世界"
+    },
+    {
+      "name": "力積電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "力積電"
+    },
+    {
+      "name": "長興",
+      "type": "taiwan_company_or_term",
+      "wikilink": "長興"
+    },
+    {
+      "name": "中華化",
+      "type": "taiwan_company_or_term",
+      "wikilink": "中華化"
+    },
+    {
+      "name": "漢磊",
+      "type": "taiwan_company_or_term",
+      "wikilink": "漢磊"
+    },
+    {
+      "name": "巨漢",
+      "type": "taiwan_company_or_term",
+      "wikilink": "巨漢"
+    },
+    {
+      "name": "鉅邁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鉅邁"
     }
   ],
   "source_text": {
@@ -289,6 +365,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 28,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

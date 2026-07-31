@@ -195,7 +195,21 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "行動與通訊IC競爭者",
+        "text": "[[Qualcomm]]、[[Broadcom]]、[[Samsung LSI]]、[[UNISOC]]、[[瑞昱]]",
+        "entities": [
+          "Qualcomm",
+          "Broadcom",
+          "Samsung LSI",
+          "UNISOC",
+          "瑞昱"
+        ],
+        "basis": "curated_chip_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -375,6 +389,31 @@
       "name": "Arm",
       "type": "international_company_or_term",
       "wikilink": "Arm"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Samsung LSI",
+      "type": "international_company_or_term",
+      "wikilink": "Samsung LSI"
+    },
+    {
+      "name": "UNISOC",
+      "type": "international_company_or_term",
+      "wikilink": "UNISOC"
+    },
+    {
+      "name": "瑞昱",
+      "type": "taiwan_company_or_term",
+      "wikilink": "瑞昱"
     }
   ],
   "source_text": {
@@ -386,6 +425,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 34,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

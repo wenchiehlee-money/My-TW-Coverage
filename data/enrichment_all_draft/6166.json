@@ -78,7 +78,26 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[研華]]",
+        "entities": [
+          "研華"
+        ],
+        "basis": "reciprocal_competitor_from:2395",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[威強電]]",
+        "entities": [
+          "威強電"
+        ],
+        "basis": "reciprocal_competitor_from:3022",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -168,6 +187,21 @@
       "name": "聯發科",
       "type": "taiwan_company_or_term",
       "wikilink": "聯發科"
+    },
+    {
+      "name": "研華",
+      "type": "taiwan_company_or_term",
+      "wikilink": "研華"
+    },
+    {
+      "name": "威強電",
+      "type": "taiwan_company_or_term",
+      "wikilink": "威強電"
+    },
+    {
+      "name": "泓格",
+      "type": "taiwan_company_or_term",
+      "wikilink": "泓格"
     }
   ],
   "source_text": {
@@ -179,6 +213,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 16,
-    "warnings": []
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
   }
 }

@@ -150,6 +150,15 @@
           "正文",
           "中磊"
         ]
+      },
+      {
+        "role": "競爭同業",
+        "text": "[[啟碁]]",
+        "entities": [
+          "啟碁"
+        ],
+        "basis": "reciprocal_competitor_from:6285",
+        "review_status": "needs_review"
       }
     ],
     "peers": [],
@@ -231,6 +240,11 @@
       "name": "中磊",
       "type": "taiwan_company_or_term",
       "wikilink": "中磊"
+    },
+    {
+      "name": "啟碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "啟碁"
     }
   ],
   "source_text": {
@@ -242,6 +256,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 14,
-    "warnings": []
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
   }
 }

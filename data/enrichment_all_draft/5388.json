@@ -182,7 +182,17 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "text": "[[啟碁]]",
+        "entities": [
+          "啟碁"
+        ],
+        "basis": "reciprocal_competitor_from:6285",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -297,6 +307,31 @@
       "name": "Harmonic",
       "type": "international_company_or_term",
       "wikilink": "Harmonic"
+    },
+    {
+      "name": "展達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "展達"
+    },
+    {
+      "name": "智易",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智易"
+    },
+    {
+      "name": "合勤控",
+      "type": "taiwan_company_or_term",
+      "wikilink": "合勤控"
+    },
+    {
+      "name": "正文",
+      "type": "taiwan_company_or_term",
+      "wikilink": "正文"
+    },
+    {
+      "name": "啟碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "啟碁"
     }
   ],
   "source_text": {
@@ -308,6 +343,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 21,
-    "warnings": []
+    "warnings": [
+      "competitors_reciprocal_edges_need_review"
+    ]
   }
 }

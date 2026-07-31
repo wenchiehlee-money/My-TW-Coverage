@@ -185,7 +185,22 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "PC品牌競爭者",
+        "text": "[[宏碁]]、[[微星]]、[[技嘉]]、[[Dell]]、[[HP]]、[[Lenovo]]",
+        "entities": [
+          "宏碁",
+          "微星",
+          "技嘉",
+          "Dell",
+          "HP",
+          "Lenovo"
+        ],
+        "basis": "curated_pc_brand_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -265,6 +280,36 @@
       "name": "Amazon",
       "type": "international_company_or_term",
       "wikilink": "Amazon"
+    },
+    {
+      "name": "宏碁",
+      "type": "taiwan_company_or_term",
+      "wikilink": "宏碁"
+    },
+    {
+      "name": "微星",
+      "type": "taiwan_company_or_term",
+      "wikilink": "微星"
+    },
+    {
+      "name": "技嘉",
+      "type": "taiwan_company_or_term",
+      "wikilink": "技嘉"
+    },
+    {
+      "name": "Dell",
+      "type": "international_company_or_term",
+      "wikilink": "Dell"
+    },
+    {
+      "name": "HP",
+      "type": "international_company_or_term",
+      "wikilink": "HP"
+    },
+    {
+      "name": "Lenovo",
+      "type": "international_company_or_term",
+      "wikilink": "Lenovo"
     }
   ],
   "source_text": {
@@ -276,6 +321,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 14,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

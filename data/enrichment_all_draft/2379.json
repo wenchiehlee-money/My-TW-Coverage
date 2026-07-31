@@ -108,7 +108,21 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "通訊與網通IC競爭者",
+        "text": "[[聯發科]]、[[Broadcom]]、[[Qualcomm]]、[[Marvell]]、[[MaxLinear]]",
+        "entities": [
+          "聯發科",
+          "Broadcom",
+          "Qualcomm",
+          "Marvell",
+          "MaxLinear"
+        ],
+        "basis": "curated_chip_competitor_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -178,6 +192,66 @@
       "name": "NVIDIA",
       "type": "international_company_or_term",
       "wikilink": "NVIDIA"
+    },
+    {
+      "name": "聯發科",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯發科"
+    },
+    {
+      "name": "Broadcom",
+      "type": "international_company_or_term",
+      "wikilink": "Broadcom"
+    },
+    {
+      "name": "Qualcomm",
+      "type": "international_company_or_term",
+      "wikilink": "Qualcomm"
+    },
+    {
+      "name": "Marvell",
+      "type": "international_company_or_term",
+      "wikilink": "Marvell"
+    },
+    {
+      "name": "MaxLinear",
+      "type": "international_company_or_term",
+      "wikilink": "MaxLinear"
+    },
+    {
+      "name": "聯傑",
+      "type": "taiwan_company_or_term",
+      "wikilink": "聯傑"
+    },
+    {
+      "name": "智微",
+      "type": "taiwan_company_or_term",
+      "wikilink": "智微"
+    },
+    {
+      "name": "凌陽創新",
+      "type": "taiwan_company_or_term",
+      "wikilink": "凌陽創新"
+    },
+    {
+      "name": "祥碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "祥碩"
+    },
+    {
+      "name": "達發",
+      "type": "taiwan_company_or_term",
+      "wikilink": "達發"
+    },
+    {
+      "name": "安格",
+      "type": "taiwan_company_or_term",
+      "wikilink": "安格"
+    },
+    {
+      "name": "九暘",
+      "type": "taiwan_company_or_term",
+      "wikilink": "九暘"
     }
   ],
   "source_text": {
@@ -189,6 +263,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 12,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

@@ -194,7 +194,22 @@
         ]
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "ODM與伺服器同業",
+        "text": "[[廣達]]、[[鴻海]]、[[仁寶]]、[[英業達]]、[[和碩]]、[[緯穎]]",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "仁寶",
+          "英業達",
+          "和碩",
+          "緯穎"
+        ],
+        "basis": "curated_odm_server_peer_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -304,6 +319,31 @@
       "name": "Lenovo",
       "type": "international_company_or_term",
       "wikilink": "Lenovo"
+    },
+    {
+      "name": "廣達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "廣達"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
+    },
+    {
+      "name": "仁寶",
+      "type": "taiwan_company_or_term",
+      "wikilink": "仁寶"
+    },
+    {
+      "name": "英業達",
+      "type": "taiwan_company_or_term",
+      "wikilink": "英業達"
+    },
+    {
+      "name": "和碩",
+      "type": "taiwan_company_or_term",
+      "wikilink": "和碩"
     }
   ],
   "source_text": {
@@ -315,6 +355,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 20,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }

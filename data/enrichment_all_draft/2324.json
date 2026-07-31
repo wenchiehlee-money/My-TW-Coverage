@@ -192,7 +192,21 @@
         "entities": []
       }
     ],
-    "competitors": [],
+    "competitors": [
+      {
+        "role": "NB_ODM同業",
+        "text": "[[廣達]]、[[鴻海]]、[[英業達]]、[[緯創]]、[[和碩]]",
+        "entities": [
+          "廣達",
+          "鴻海",
+          "英業達",
+          "緯創",
+          "和碩"
+        ],
+        "basis": "curated_odm_peer_rule",
+        "review_status": "needs_review"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -307,6 +321,11 @@
       "name": "Toshiba",
       "type": "international_company_or_term",
       "wikilink": "Toshiba"
+    },
+    {
+      "name": "鴻海",
+      "type": "taiwan_company_or_term",
+      "wikilink": "鴻海"
     }
   ],
   "source_text": {
@@ -318,6 +337,8 @@
     "parser_status": "parsed",
     "review_status": "needs_review",
     "wikilink_count": 21,
-    "warnings": []
+    "warnings": [
+      "competitors_curated_override_needs_review"
+    ]
   }
 }
