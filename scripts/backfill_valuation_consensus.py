@@ -16,6 +16,7 @@ DEFAULT_JSON_DIR = ROOT / "data/enrichment_all"
 DEFAULT_CONSENSUS = ROOT.parent / "biztrends.TW/data/market_expectations/normalized_consensus.csv"
 DEFAULT_GOODINFO_ANNUAL = ROOT.parent / "Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_performance.csv"
 DEFAULT_GOODINFO_QUARTERLY = ROOT.parent / "Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_performance1.csv"
+DEFAULT_INVESTOR_CONFERENCE_DATA = ROOT.parent / "InvestorConference/data"
 
 VALUATION_RE = re.compile(
     r"^### 估值指標(?: \(股價 \$(?P<price>[^ ]+) as of (?P<as_of>[^|)]+)"
@@ -218,6 +219,32 @@ def quarter_to_date(period: object) -> str:
     return f"{year}-{month_day}"
 
 
+def eps_source_rank(row: dict[str, Any]) -> int:
+    source = str(row.get("source") or "")
+    if source.startswith("InvestorConference"):
+        return 0
+    if source.startswith("MOPS"):
+        return 1
+    if source.startswith("GoodInfo"):
+        return 2
+    return 9
+
+
+def merge_eps_entries(existing: list[dict[str, Any]], new_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_period: dict[str, dict[str, Any]] = {}
+    for row in [*existing, *new_rows]:
+        period = str(row.get("period", "")).strip()
+        eps = parse_number(row.get("eps_twd"))
+        if not period or eps is None:
+            continue
+        normalized = dict(row)
+        normalized["eps_twd"] = eps
+        current = by_period.get(period)
+        if current is None or eps_source_rank(normalized) < eps_source_rank(current):
+            by_period[period] = normalized
+    return sorted(by_period.values(), key=lambda r: r["period"], reverse=True)
+
+
 def load_actual_eps(annual_path: Path, quarterly_path: Path) -> dict[str, dict[str, Any]]:
     by_stock: dict[str, dict[str, Any]] = {}
 
@@ -233,6 +260,8 @@ def load_actual_eps(annual_path: Path, quarterly_path: Path) -> dict[str, dict[s
                 entry["annual"].append({
                     "period": f"{year}-12-31",
                     "eps_twd": eps,
+                    "eps_type": "after_tax",
+                    "source": "GoodInfo.Analyzer",
                     "source_file": str(annual_path.relative_to(ROOT.parent)),
                 })
 
@@ -248,13 +277,88 @@ def load_actual_eps(annual_path: Path, quarterly_path: Path) -> dict[str, dict[s
                 entry["quarterly"].append({
                     "period": period,
                     "eps_twd": eps,
+                    "eps_type": "after_tax",
+                    "source": "GoodInfo.Analyzer",
                     "source_file": str(quarterly_path.relative_to(ROOT.parent)),
                 })
 
     for entry in by_stock.values():
-        entry["annual"] = sorted(entry.get("annual", []), key=lambda r: r["period"], reverse=True)
-        entry["quarterly"] = sorted(entry.get("quarterly", []), key=lambda r: r["period"], reverse=True)
+        entry["annual"] = merge_eps_entries([], entry.get("annual", []))
+        entry["quarterly"] = merge_eps_entries([], entry.get("quarterly", []))
     return by_stock
+
+
+def file_period_to_date(year: str, quarter: str) -> str:
+    month_day = {"1": "03-31", "2": "06-30", "3": "09-30", "4": "12-31"}[quarter]
+    return f"{year}-{month_day}"
+
+
+def extract_release_date(text: str) -> str | None:
+    match = re.search(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}", text)
+    if not match:
+        return None
+    try:
+        return datetime.strptime(match.group(0), "%B %d, %Y").date().isoformat()
+    except ValueError:
+        return None
+
+
+def parse_investorconference_earnings_release(path: Path) -> dict[str, Any] | None:
+    match = re.search(r"(?P<ticker>[^/]+)_(?P<year>20\d{2})_q(?P<quarter>[1-4])_earnings_release\.md$", path.name, re.IGNORECASE)
+    if not match:
+        return None
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    eps_match = re.search(r"diluted earnings per share of NT\$\s*([0-9]+(?:\.[0-9]+)?)", text, re.IGNORECASE)
+    if not eps_match:
+        eps_match = re.search(r"EPS of NT\$\s*([0-9]+(?:\.[0-9]+)?)", text, re.IGNORECASE)
+    eps = parse_number(eps_match.group(1)) if eps_match else None
+    if eps is None:
+        return None
+    revenue_match = re.search(r"consolidated revenue of\s+NT\$\s*([0-9,]+(?:\.[0-9]+)?)\s*billion", text, re.IGNORECASE)
+    net_income_match = re.search(r"net income of\s+NT\$\s*([0-9,]+(?:\.[0-9]+)?)\s*billion", text, re.IGNORECASE)
+    row = {
+        "period": file_period_to_date(match.group("year"), match.group("quarter")),
+        "eps_twd": eps,
+        "eps_type": "diluted",
+        "source": "InvestorConference.earnings_release",
+        "source_file": str(path.relative_to(ROOT.parent)),
+        "released_at": extract_release_date(text),
+    }
+    revenue = parse_number(revenue_match.group(1)) if revenue_match else None
+    net_income = parse_number(net_income_match.group(1)) if net_income_match else None
+    if revenue is not None:
+        row["revenue_m_twd"] = revenue * 1000
+    if net_income is not None:
+        row["net_income_m_twd"] = net_income * 1000
+    return {"ticker": match.group("ticker"), "row": row}
+
+
+def load_investorconference_actual_eps(data_root: Path) -> dict[str, dict[str, Any]]:
+    by_stock: dict[str, dict[str, Any]] = {}
+    if not data_root.is_dir():
+        return by_stock
+    for path in sorted(data_root.glob("*/*_earnings_release.md")):
+        parsed = parse_investorconference_earnings_release(path)
+        if not parsed:
+            continue
+        ticker = str(parsed["ticker"]).strip()
+        if not ticker.isdigit():
+            continue
+        entry = by_stock.setdefault(ticker, {"source": "InvestorConference", "annual": [], "quarterly": []})
+        entry["quarterly"].append(parsed["row"])
+    for entry in by_stock.values():
+        entry["quarterly"] = merge_eps_entries([], entry.get("quarterly", []))
+    return by_stock
+
+
+def merge_actual_eps_sources(*sources: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    merged: dict[str, dict[str, Any]] = {}
+    for source in sources:
+        for ticker, payload in source.items():
+            entry = merged.setdefault(ticker, {"source": "merged_actual_eps", "annual": [], "quarterly": []})
+            entry["annual"] = merge_eps_entries(entry.get("annual", []), payload.get("annual", []))
+            entry["quarterly"] = merge_eps_entries(entry.get("quarterly", []), payload.get("quarterly", []))
+    return merged
 
 def build_consensus(rows: list[dict[str, str]]) -> dict[str, Any]:
     items = [item for item in [
@@ -329,12 +433,16 @@ def main() -> int:
     parser.add_argument("--consensus", default=str(DEFAULT_CONSENSUS))
     parser.add_argument("--goodinfo-annual", default=str(DEFAULT_GOODINFO_ANNUAL))
     parser.add_argument("--goodinfo-quarterly", default=str(DEFAULT_GOODINFO_QUARTERLY))
+    parser.add_argument("--investorconference-data", default=str(DEFAULT_INVESTOR_CONFERENCE_DATA))
     parser.add_argument("--ticker")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     consensus = load_consensus(Path(args.consensus))
-    actual_eps = load_actual_eps(Path(args.goodinfo_annual), Path(args.goodinfo_quarterly))
+    actual_eps = merge_actual_eps_sources(
+        load_actual_eps(Path(args.goodinfo_annual), Path(args.goodinfo_quarterly)),
+        load_investorconference_actual_eps(Path(args.investorconference_data)),
+    )
     json_dir = Path(args.json_dir)
     paths = [json_dir / f"{args.ticker}.json"] if args.ticker else sorted(json_dir.glob("*.json"))
     updated = skipped = 0
