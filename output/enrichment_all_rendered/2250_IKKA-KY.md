@@ -80,3 +80,5 @@ IKKA Holdings (2250，IKKA-KY) 為日系精密塑膠射出成型廠 (1963 年創
 | Investing Cash Flow     |       -17.88 |       -24.72 |        17.39 |       -29.49 |
 | Financing Cash Flow     |       -28.76 |      -143.12 |       -16.88 |       -25.20 |
 | CAPEX                   |       -18.31 |       -28.89 |       -17.30 |       -13.10 |
+
+Updated: 2026-08-01 17:32 CST
