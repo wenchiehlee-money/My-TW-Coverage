@@ -75,9 +75,24 @@
 | Financing Cash Flow     |        25.30 |        -0.39 |        -0.31 |        -0.32 |
 | CAPEX                   |      -100.22 |       -55.60 |       -49.98 |       -58.00 |
 
-### 競爭同業 Revenue/Profit/GM
+### 競爭同業 Revenue/Profit/GM/PE
 
-Unit: `百萬台幣`
+Revenue/Profit Unit: `百萬台幣`
+
+#### Profile
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">4971</td><td style="text-align: left;">IET-KY</td><td style="text-align: left;">Taiwan</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">CVD</td><td style="text-align: left;">CVD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">磊晶</td><td style="text-align: left;">磊晶</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### Revenue
 
 <table>
 <thead>
@@ -88,5 +103,46 @@ Unit: `百萬台幣`
 <tr><td style="text-align: left;">4971</td><td style="text-align: left;">IET-KY</td><td style="text-align: left;">Taiwan</td><td style="text-align: left;">目標公司</td></tr>
 <tr><td style="text-align: left;">CVD</td><td style="text-align: left;">CVD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
 <tr><td style="text-align: left;">磊晶</td><td style="text-align: left;">磊晶</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### Profit
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">4971</td><td style="text-align: left;">IET-KY</td><td style="text-align: left;">Taiwan</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">CVD</td><td style="text-align: left;">CVD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">磊晶</td><td style="text-align: left;">磊晶</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### GM
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">4971</td><td style="text-align: left;">IET-KY</td><td style="text-align: left;">Taiwan</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">CVD</td><td style="text-align: left;">CVD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">磊晶</td><td style="text-align: left;">磊晶</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### P/E
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th><th style="text-align: right;">Price</th><th style="text-align: left;">Currency</th><th style="text-align: left;">As Of</th><th style="text-align: left;">TTM End</th><th style="text-align: right;">P/E (TTM)</th><th style="text-align: left;">Forward End</th><th style="text-align: right;">Forward P/E</th><th style="text-align: right;">P/S (TTM)</th><th style="text-align: right;">P/B</th><th style="text-align: right;">EV/EBITDA</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">4971</td><td style="text-align: left;">IET-KY</td><td style="text-align: left;">Taiwan</td><td style="text-align: left;">目標公司</td><td style="text-align: right;">316.0</td><td style="text-align: left;">TWD</td><td style="text-align: left;">2026-07-30</td><td style="text-align: left;">2026-03-31</td><td style="text-align: right;">61.24</td><td style="text-align: left;">2026-12-31</td><td style="text-align: right;">25.14</td><td style="text-align: right;">11.07</td><td style="text-align: right;">6.04</td><td style="text-align: right;">36.92</td></tr>
+<tr><td style="text-align: left;">CVD</td><td style="text-align: left;">CVD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: left;"></td><td style="text-align: left;"></td><td style="text-align: left;"></td><td style="text-align: right;"></td><td style="text-align: left;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+<tr><td style="text-align: left;">磊晶</td><td style="text-align: left;">磊晶</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: left;"></td><td style="text-align: left;"></td><td style="text-align: left;"></td><td style="text-align: right;"></td><td style="text-align: left;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
 </tbody>
 </table>
