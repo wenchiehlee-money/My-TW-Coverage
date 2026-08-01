@@ -188,16 +188,24 @@
     "competitors": [
       {
         "role": "PC品牌競爭者",
-        "text": "[[宏碁]]、[[微星]]、[[技嘉]]、[[Dell]]、[[HP]]、[[Lenovo]]",
+        "text": "[[宏碁]]、[[微星]]、[[技嘉]]、[[Dell]]、[[Lenovo]]",
         "entities": [
           "宏碁",
           "微星",
           "技嘉",
           "Dell",
-          "HP",
           "Lenovo"
         ],
         "basis": "curated_pc_brand_competitor_rule",
+        "review_status": "needs_review"
+      },
+      {
+        "role": "AI伺服器競爭者",
+        "text": "[[HPE]] — Hewlett Packard Enterprise，企業伺服器、儲存、網路與混合雲；與華碩競爭主要在企業及 AI 伺服器市場",
+        "entities": [
+          "HPE"
+        ],
+        "basis": "curated_server_brand_competitor_rule",
         "review_status": "needs_review"
       }
     ],
