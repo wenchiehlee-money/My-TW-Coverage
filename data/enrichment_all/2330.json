@@ -1340,5 +1340,513 @@
         }
       ]
     }
-  }
+  },
+  "evidence": {
+    "segment_revenue_platforms": {
+      "title": "營收平台佔比 (Revenue by Platform %)",
+      "description": "台積電各平台營收占比與對應營收金額，營收金額單位為百萬台幣。",
+      "unit": "百萬台幣",
+      "source_dataset": "../biztrends.TW/data/company_segment_weights.csv",
+      "render_section": {
+        "heading": "### 營收平台佔比 (Revenue by Platform %)",
+        "anchor": "營收平台佔比-revenue-by-platform-"
+      },
+      "segment_order": [
+        "HPC",
+        "Smartphone",
+        "IoT",
+        "Automotive",
+        "DCE",
+        "Others"
+      ],
+      "rows": [
+        {
+          "period": "2026-Q2",
+          "segments": {
+            "HPC": {
+              "weight_pct": 66.0,
+              "revenue_m_twd": 838451.0,
+              "source_type": "official_ir",
+              "source_link": "../InvestorConference/data/2330/2330_2026_q2_management_report.md",
+              "confidence": "high",
+              "note": "官方 2026 Q2 platform mix",
+              "process_timestamp": "2026-07-19 17:10:28 CST"
+            },
+            "Smartphone": {
+              "weight_pct": 22.0,
+              "revenue_m_twd": 279484.0,
+              "source_type": "official_ir",
+              "source_link": "../InvestorConference/data/2330/2330_2026_q2_management_report.md",
+              "confidence": "high",
+              "note": "官方 2026 Q2 platform mix",
+              "process_timestamp": "2026-07-19 17:10:28 CST"
+            },
+            "IoT": {
+              "weight_pct": 5.0,
+              "revenue_m_twd": 63519.0,
+              "source_type": "official_ir",
+              "source_link": "../InvestorConference/data/2330/2330_2026_q2_management_report.md",
+              "confidence": "high",
+              "note": "官方 2026 Q2 platform mix",
+              "process_timestamp": "2026-07-19 17:10:28 CST"
+            },
+            "Automotive": {
+              "weight_pct": 4.0,
+              "revenue_m_twd": 50815.0,
+              "source_type": "official_ir",
+              "source_link": "../InvestorConference/data/2330/2330_2026_q2_management_report.md",
+              "confidence": "high",
+              "note": "官方 2026 Q2 platform mix",
+              "process_timestamp": "2026-07-19 17:10:28 CST"
+            },
+            "DCE": {
+              "weight_pct": 1.0,
+              "revenue_m_twd": 12704.0,
+              "source_type": "official_ir",
+              "source_link": "../InvestorConference/data/2330/2330_2026_q2_management_report.md",
+              "confidence": "high",
+              "note": "官方 2026 Q2 platform mix",
+              "process_timestamp": "2026-07-19 17:10:28 CST"
+            },
+            "Others": {
+              "weight_pct": 2.0,
+              "revenue_m_twd": 25408.0,
+              "source_type": "official_ir",
+              "source_link": "../InvestorConference/data/2330/2330_2026_q2_management_report.md",
+              "confidence": "high",
+              "note": "官方 2026 Q2 platform mix",
+              "process_timestamp": "2026-07-19 17:10:28 CST"
+            }
+          }
+        },
+        {
+          "period": "2025-Q1",
+          "segments": {
+            "HPC": {
+              "weight_pct": 59.0,
+              "revenue_m_twd": 495187.0
+            },
+            "Smartphone": {
+              "weight_pct": 28.0,
+              "revenue_m_twd": 235004.0
+            },
+            "IoT": {
+              "weight_pct": 5.0,
+              "revenue_m_twd": 41965.0
+            },
+            "Automotive": {
+              "weight_pct": 4.0,
+              "revenue_m_twd": 33572.0
+            },
+            "DCE": {
+              "weight_pct": 3.0,
+              "revenue_m_twd": 25179.0
+            },
+            "Others": {
+              "weight_pct": 1.0,
+              "revenue_m_twd": 8393.0
+            }
+          }
+        },
+        {
+          "period": "2024-Q4",
+          "segments": {
+            "HPC": {
+              "weight_pct": 53.0,
+              "revenue_m_twd": 460305.0
+            },
+            "Smartphone": {
+              "weight_pct": 35.0,
+              "revenue_m_twd": 303975.0
+            },
+            "IoT": {
+              "weight_pct": 5.0,
+              "revenue_m_twd": 43425.0
+            },
+            "Automotive": {
+              "weight_pct": 4.0,
+              "revenue_m_twd": 34740.0
+            },
+            "DCE": {
+              "weight_pct": 2.0,
+              "revenue_m_twd": 17370.0
+            },
+            "Others": {
+              "weight_pct": 1.0,
+              "revenue_m_twd": 8685.0
+            }
+          }
+        },
+        {
+          "period": "2024-Q3",
+          "segments": {
+            "HPC": {
+              "weight_pct": 51.0,
+              "revenue_m_twd": 387498.0
+            },
+            "Smartphone": {
+              "weight_pct": 34.0,
+              "revenue_m_twd": 258332.0
+            },
+            "IoT": {
+              "weight_pct": 6.0,
+              "revenue_m_twd": 45588.0
+            },
+            "Automotive": {
+              "weight_pct": 5.0,
+              "revenue_m_twd": 37990.0
+            },
+            "DCE": {
+              "weight_pct": 3.0,
+              "revenue_m_twd": 22794.0
+            },
+            "Others": {
+              "weight_pct": 1.0,
+              "revenue_m_twd": 7598.0
+            }
+          }
+        },
+        {
+          "period": "2024-Q2",
+          "segments": {
+            "HPC": {
+              "weight_pct": 52.0,
+              "revenue_m_twd": 350220.0
+            },
+            "Smartphone": {
+              "weight_pct": 33.0,
+              "revenue_m_twd": 222255.0
+            },
+            "IoT": {
+              "weight_pct": 6.0,
+              "revenue_m_twd": 40410.0
+            },
+            "Automotive": {
+              "weight_pct": 4.0,
+              "revenue_m_twd": 26940.0
+            },
+            "DCE": {
+              "weight_pct": 4.0,
+              "revenue_m_twd": 26940.0
+            },
+            "Others": {
+              "weight_pct": 1.0,
+              "revenue_m_twd": 6735.0
+            }
+          }
+        },
+        {
+          "period": "2024-Q1",
+          "segments": {
+            "HPC": {
+              "weight_pct": 46.0,
+              "revenue_m_twd": 272596.0
+            },
+            "Smartphone": {
+              "weight_pct": 38.0,
+              "revenue_m_twd": 225188.0
+            },
+            "IoT": {
+              "weight_pct": 6.0,
+              "revenue_m_twd": 35556.0
+            },
+            "Automotive": {
+              "weight_pct": 5.0,
+              "revenue_m_twd": 29630.0
+            },
+            "DCE": {
+              "weight_pct": 3.0,
+              "revenue_m_twd": 17778.0
+            },
+            "Others": {
+              "weight_pct": 2.0,
+              "revenue_m_twd": 11852.0
+            }
+          }
+        },
+        {
+          "period": "2023-Q4",
+          "segments": {
+            "HPC": {
+              "weight_pct": 43.0,
+              "revenue_m_twd": 268965.0
+            },
+            "Smartphone": {
+              "weight_pct": 36.0,
+              "revenue_m_twd": 225180.0
+            },
+            "IoT": {
+              "weight_pct": 7.0,
+              "revenue_m_twd": 43785.0
+            },
+            "Automotive": {
+              "weight_pct": 8.0,
+              "revenue_m_twd": 50040.0
+            },
+            "DCE": {
+              "weight_pct": 4.0,
+              "revenue_m_twd": 25020.0
+            },
+            "Others": {
+              "weight_pct": 2.0,
+              "revenue_m_twd": 12510.0
+            }
+          }
+        },
+        {
+          "period": "2023-Q3",
+          "segments": {
+            "HPC": {
+              "weight_pct": 42.0,
+              "revenue_m_twd": 229614.0
+            },
+            "Smartphone": {
+              "weight_pct": 33.0,
+              "revenue_m_twd": 180411.0
+            },
+            "IoT": {
+              "weight_pct": 8.0,
+              "revenue_m_twd": 43736.0
+            },
+            "Automotive": {
+              "weight_pct": 8.0,
+              "revenue_m_twd": 43736.0
+            },
+            "DCE": {
+              "weight_pct": 5.0,
+              "revenue_m_twd": 27335.0
+            },
+            "Others": {
+              "weight_pct": 4.0,
+              "revenue_m_twd": 21868.0
+            }
+          }
+        },
+        {
+          "period": "2023-Q2",
+          "segments": {
+            "HPC": {
+              "weight_pct": 29.0,
+              "revenue_m_twd": 139432.0
+            },
+            "Smartphone": {
+              "weight_pct": 33.0,
+              "revenue_m_twd": 158664.0
+            },
+            "IoT": {
+              "weight_pct": 9.0,
+              "revenue_m_twd": 43272.0
+            },
+            "Automotive": {
+              "weight_pct": 9.0,
+              "revenue_m_twd": 43272.0
+            },
+            "DCE": {
+              "weight_pct": 11.0,
+              "revenue_m_twd": 52888.0
+            },
+            "Others": {
+              "weight_pct": 9.0,
+              "revenue_m_twd": 43272.0
+            }
+          }
+        },
+        {
+          "period": "2023-Q1",
+          "segments": {
+            "HPC": {
+              "weight_pct": 31.0,
+              "revenue_m_twd": 157697.0
+            },
+            "Smartphone": {
+              "weight_pct": 34.0,
+              "revenue_m_twd": 172958.0
+            },
+            "IoT": {
+              "weight_pct": 9.0,
+              "revenue_m_twd": 45783.0
+            },
+            "Automotive": {
+              "weight_pct": 8.0,
+              "revenue_m_twd": 40696.0
+            },
+            "DCE": {
+              "weight_pct": 10.0,
+              "revenue_m_twd": 50870.0
+            },
+            "Others": {
+              "weight_pct": 8.0,
+              "revenue_m_twd": 40696.0
+            }
+          }
+        }
+      ]
+    },
+    "customer_relationships": {
+      "title": "主要客戶關係驗證",
+      "description": "主要客戶 claim 的 reviewed relationship evidence。第一版先以 JSON relationships 與 source_text customers section 作為 presentation-linked evidence。",
+      "source_json_paths": [
+        "relationships.customers",
+        "source_text.customers_suppliers_md"
+      ],
+      "render_section": {
+        "heading": "### 主要客戶",
+        "anchor": "主要客戶"
+      }
+    },
+    "peer_comparison": {
+      "title": "競爭同業 Revenue/Profit/GM/PE",
+      "description": "晶圓代工競爭同業的 Revenue / Profit / GM / P/E 比較表。",
+      "source_json_paths": [
+        "relationships.competitors"
+      ],
+      "render_section": {
+        "heading": "### 競爭同業 Revenue/Profit/GM/PE",
+        "anchor": "競爭同業-revenueprofitgmpe"
+      }
+    },
+    "market_valuation": {
+      "title": "估值指標",
+      "description": "市場估值與 consensus 估值，含 P/E、P/S、P/B、EV/EBITDA 與 forward consensus。",
+      "source_json_paths": [
+        "financials.valuation"
+      ],
+      "render_section": {
+        "heading": "### 估值指標",
+        "anchor": "估值指標"
+      }
+    },
+    "quarterly_financials": {
+      "title": "季度關鍵財務數據 (近 4 季)",
+      "description": "近四季 Revenue、Profit、Margin、EPS 與現金流資料。",
+      "source_json_paths": [
+        "source_text.financial_md",
+        "financials.actual_eps.quarterly"
+      ],
+      "render_section": {
+        "heading": "### 季度關鍵財務數據 (近 4 季)",
+        "anchor": "季度關鍵財務數據-近-4-季"
+      }
+    },
+    "annual_financials": {
+      "title": "年度關鍵財務數據 (近 3 年)",
+      "description": "近三年 Revenue、Profit、Margin、EPS 與現金流資料。",
+      "source_json_paths": [
+        "source_text.financial_md",
+        "financials.actual_eps.annual"
+      ],
+      "render_section": {
+        "heading": "### 年度關鍵財務數據 (近 3 年)",
+        "anchor": "年度關鍵財務數據-近-3-年"
+      }
+    }
+  },
+  "annotations": [
+    {
+      "id": "ann-2330-platform-revenue-001",
+      "presentation_path": "supply_chain.downstream[category=主要平台]",
+      "presentation_match": "主要平台",
+      "claim_type": "segment_exposure",
+      "entity": "2330",
+      "relationship": "platform",
+      "theme": [
+        "AI",
+        "HPC"
+      ],
+      "evidence_ref": "evidence.segment_revenue_platforms",
+      "render": {
+        "badge": true,
+        "label": "前10季-營收平台佔比",
+        "color": "blue",
+        "alt": "History EPS"
+      },
+      "confidence": "high",
+      "status": "linked_supported"
+    },
+    {
+      "id": "ann-2330-peer-financials-001",
+      "presentation_path": "relationships.competitors",
+      "presentation_match": "### 競爭同業",
+      "claim_type": "peer_comparison",
+      "entity": "2330",
+      "relationship": "competitor",
+      "evidence_ref": "evidence.peer_comparison",
+      "render": {
+        "badge": true,
+        "label": "同業-Rev/Profit/GM/PE",
+        "color": "blue",
+        "alt": "Peer Financials"
+      },
+      "confidence": "high",
+      "status": "linked_supported"
+    },
+    {
+      "id": "ann-2330-customer-relationships-001",
+      "presentation_path": "relationships.customers",
+      "presentation_match": "### 主要客戶",
+      "claim_type": "customer_relationship",
+      "entity": "2330",
+      "relationship": "customer",
+      "evidence_ref": "evidence.customer_relationships",
+      "render": {
+        "badge": true,
+        "label": "客戶-關係驗證",
+        "color": "green",
+        "alt": "Customer Evidence"
+      },
+      "confidence": "medium",
+      "status": "linked_partial"
+    },
+    {
+      "id": "ann-2330-market-valuation-001",
+      "presentation_path": "financials.valuation",
+      "presentation_match": "### 估值指標",
+      "claim_type": "valuation",
+      "entity": "2330",
+      "relationship": "valuation",
+      "evidence_ref": "evidence.market_valuation",
+      "render": {
+        "badge": true,
+        "label": "估值-市場共識",
+        "color": "purple",
+        "alt": "Valuation Evidence"
+      },
+      "confidence": "high",
+      "status": "linked_supported"
+    },
+    {
+      "id": "ann-2330-quarterly-financials-001",
+      "presentation_path": "source_text.financial_md[季度關鍵財務數據]",
+      "presentation_match": "### 季度關鍵財務數據",
+      "claim_type": "quarterly_financials",
+      "entity": "2330",
+      "relationship": "financial_actuals",
+      "evidence_ref": "evidence.quarterly_financials",
+      "render": {
+        "badge": true,
+        "label": "近4季-財務數據",
+        "color": "blue",
+        "alt": "Quarterly Financials"
+      },
+      "confidence": "medium",
+      "status": "linked_partial"
+    },
+    {
+      "id": "ann-2330-annual-financials-001",
+      "presentation_path": "source_text.financial_md[年度關鍵財務數據]",
+      "presentation_match": "### 年度關鍵財務數據",
+      "claim_type": "annual_financials",
+      "entity": "2330",
+      "relationship": "financial_actuals",
+      "evidence_ref": "evidence.annual_financials",
+      "render": {
+        "badge": true,
+        "label": "近3年-財務數據",
+        "color": "blue",
+        "alt": "Annual Financials"
+      },
+      "confidence": "medium",
+      "status": "linked_partial"
+    }
+  ]
 }

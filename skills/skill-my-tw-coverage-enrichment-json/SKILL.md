@@ -86,6 +86,8 @@ Canonical JSON should keep both structured atoms and original Markdown snippets:
 - `competitive_position`: moats, risks, competitive notes.
 - `entities`: all wikilinks with simple type classification.
 - `source_text`: original section bodies, so migration is non-lossy.
+- `evidence`: atomic source-backed facts and tables that rendered Markdown can cite.
+- `annotations`: reviewed links from presentation claims to evidence objects, including badge-rendering intent.
 - `quality`: parser status, review status, warnings, and counts.
 
 Do not treat the first parsed JSON as approved. It remains a review artifact until its atoms are approved.
@@ -103,6 +105,45 @@ When extraction is ambiguous, preserve text in `source_text` and add a `quality.
 
 Do not auto-fill `relationships.competitors` from same-folder or same-industry peers. If competitors are not explicit in source or reviewed JSON, leave the array empty and review it manually. Folder peers are classification context, not validated competitors.
 
+## Evidence and Annotation Rules
+
+JSON should fully describe rendered Markdown context. Rendered Markdown is output, not storage. When a presentation claim has source-backed data, add an `evidence` object and an `annotations[]` entry rather than hardcoding Markdown badges.
+
+First-wave evidence objects:
+
+- `evidence.segment_revenue_platforms`: platform revenue mix and revenue amounts, sourced from `../biztrends.TW/data/company_segment_weights.csv` and matching revenue totals.
+- `evidence.customer_relationships`: reviewed customer claims and supporting source documents.
+- `evidence.peer_revenue`, `evidence.peer_profitability`, `evidence.peer_valuation`: competitor comparison data rendered as Revenue / Profit / GM / P/E.
+- `evidence.market_valuation`, `evidence.quarterly_financials`, `evidence.consensus_estimates`: valuation, actual financials, and consensus evidence.
+
+Only these high-value presentation contexts should receive first-wave annotator badges:
+
+- `主要平台` -> `evidence.segment_revenue_platforms`
+- `主要客戶` -> `evidence.customer_relationships`
+- `競爭同業` -> peer evidence objects
+- `估值/財務敘述` -> valuation, quarterly financial, or consensus evidence objects
+
+Example annotation shape:
+
+```json
+{
+  "id": "ann-2330-platform-revenue-001",
+  "presentation_path": "supply_chain.downstream[category=主要平台]",
+  "presentation_match": "主要平台",
+  "claim_type": "segment_exposure",
+  "evidence_ref": "evidence.segment_revenue_platforms",
+  "render": {
+    "badge": true,
+    "label": "前10季-營收平台佔比",
+    "color": "blue"
+  },
+  "confidence": "high",
+  "status": "linked_supported"
+}
+```
+
+Extractor/backfill logic may create `annotations[]`, but renderer must not invent annotations. If evidence is missing or only partially linked, set `status` to `missing_evidence_source`, `missing_evidence_structure`, `linked_partial`, or another explicit trust status instead of rendering a supported badge.
+
 ## Review Rules
 
 For each focus ticker:
@@ -116,7 +157,7 @@ For each focus ticker:
 ## Boundaries
 
 - This skill does not render Markdown; use `skill-my-tw-coverage-render-markdown` for JSON-to-Markdown output.
-- This skill does not update financial tables.
-- This skill does not produce evidence-linked model signals yet.
+- This skill does not update upstream financial CSVs.
+- This skill may define or backfill JSON `evidence` and `annotations`, but it does not render Markdown badges directly.
 - This skill does not directly update `biztrends.TW/data/company_segment_weights.csv`.
-- Future evidence linking can add per-atom `evidence`, `confidence`, and `status`, but initial migration should focus on non-lossy atomic structure.
+- Do not treat legacy `source_text.*_md` as final storage for evidence; use it only as transitional non-lossy preservation until atomic evidence is complete.
