@@ -81,6 +81,7 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Cross-check: FactSet | R
 | Operating Income        |        85.58 |       -39.97 |        16.97 |
 | Operating Margin (%)    |         8.16 |        -4.61 |         2.19 |
 | Net Income              |        53.85 |       -39.66 |         5.10 |
+| EPS (TWD)               |         1.58 |        -1.24 |         0.16 |
 | Net Margin (%)          |         5.14 |        -4.57 |         0.66 |
 | Op Cash Flow            |      -157.32 |      -211.44 |        34.03 |
 | Investing Cash Flow     |       -82.44 |      -185.61 |        -7.87 |
@@ -99,6 +100,7 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Cross-check: FactSet | R
 | Operating Income        |        43.98 |        10.79 |        15.68 |        15.13 |
 | Operating Margin (%)    |        14.63 |         4.04 |         6.50 |         6.32 |
 | Net Income              |        46.16 |         7.03 |        -7.63 |         8.29 |
+| EPS (TWD)               |         1.35 |         0.20 |        -0.23 |         0.26 |
 | Net Margin (%)          |        15.36 |         2.63 |        -3.16 |         3.46 |
 | Op Cash Flow            |         2.00 |       -38.37 |       -35.72 |       -85.23 |
 | Investing Cash Flow     |       -37.62 |       -14.81 |        -5.25 |       -24.77 |

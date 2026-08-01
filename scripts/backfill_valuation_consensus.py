@@ -14,6 +14,8 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_JSON_DIR = ROOT / "data/enrichment_all"
 DEFAULT_CONSENSUS = ROOT.parent / "biztrends.TW/data/market_expectations/normalized_consensus.csv"
+DEFAULT_GOODINFO_ANNUAL = ROOT.parent / "Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_performance.csv"
+DEFAULT_GOODINFO_QUARTERLY = ROOT.parent / "Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_performance1.csv"
 
 VALUATION_RE = re.compile(
     r"^### 估值指標(?: \(股價 \$(?P<price>[^ ]+) as of (?P<as_of>[^|)]+)"
@@ -205,6 +207,55 @@ def consensus_item(rows: list[dict[str, str]], metric: str, period_offset: str) 
     }
 
 
+
+def quarter_to_date(period: object) -> str:
+    text = str(period or "").strip()
+    match = re.match(r"^(\d{4})Q([1-4])$", text)
+    if not match:
+        return ""
+    year = match.group(1)
+    month_day = {"1": "03-31", "2": "06-30", "3": "09-30", "4": "12-31"}[match.group(2)]
+    return f"{year}-{month_day}"
+
+
+def load_actual_eps(annual_path: Path, quarterly_path: Path) -> dict[str, dict[str, Any]]:
+    by_stock: dict[str, dict[str, Any]] = {}
+
+    if annual_path.is_file():
+        with annual_path.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                ticker = str(row.get("stock_code", "")).strip()
+                year = str(row.get("年度", "")).strip()
+                eps = parse_number(row.get("eps_元_稅後_eps"))
+                if not ticker or not re.match(r"^\d{4}$", year) or eps is None:
+                    continue
+                entry = by_stock.setdefault(ticker, {"source": "GoodInfo.Analyzer", "annual": [], "quarterly": []})
+                entry["annual"].append({
+                    "period": f"{year}-12-31",
+                    "eps_twd": eps,
+                    "source_file": str(annual_path.relative_to(ROOT.parent)),
+                })
+
+    if quarterly_path.is_file():
+        with quarterly_path.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                ticker = str(row.get("stock_code", "")).strip()
+                period = quarter_to_date(row.get("季度"))
+                eps = parse_number(row.get("eps_元_稅後_eps"))
+                if not ticker or not period or eps is None:
+                    continue
+                entry = by_stock.setdefault(ticker, {"source": "GoodInfo.Analyzer", "annual": [], "quarterly": []})
+                entry["quarterly"].append({
+                    "period": period,
+                    "eps_twd": eps,
+                    "source_file": str(quarterly_path.relative_to(ROOT.parent)),
+                })
+
+    for entry in by_stock.values():
+        entry["annual"] = sorted(entry.get("annual", []), key=lambda r: r["period"], reverse=True)
+        entry["quarterly"] = sorted(entry.get("quarterly", []), key=lambda r: r["period"], reverse=True)
+    return by_stock
+
 def build_consensus(rows: list[dict[str, str]]) -> dict[str, Any]:
     items = [item for item in [
         consensus_item(rows, "eps", "0y"),
@@ -276,11 +327,14 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--json-dir", default=str(DEFAULT_JSON_DIR))
     parser.add_argument("--consensus", default=str(DEFAULT_CONSENSUS))
+    parser.add_argument("--goodinfo-annual", default=str(DEFAULT_GOODINFO_ANNUAL))
+    parser.add_argument("--goodinfo-quarterly", default=str(DEFAULT_GOODINFO_QUARTERLY))
     parser.add_argument("--ticker")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     consensus = load_consensus(Path(args.consensus))
+    actual_eps = load_actual_eps(Path(args.goodinfo_annual), Path(args.goodinfo_quarterly))
     json_dir = Path(args.json_dir)
     paths = [json_dir / f"{args.ticker}.json"] if args.ticker else sorted(json_dir.glob("*.json"))
     updated = skipped = 0
@@ -296,7 +350,10 @@ def main() -> int:
         ticker = str(data.get("ticker") or path.stem)
         valuation["consensus"] = build_consensus(consensus.get(ticker, []))
         add_derived(valuation)
-        data.setdefault("financials", {})["valuation"] = valuation
+        financials = data.setdefault("financials", {})
+        financials["valuation"] = valuation
+        if ticker in actual_eps:
+            financials["actual_eps"] = actual_eps[ticker]
         if not args.dry_run:
             path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         updated += 1
