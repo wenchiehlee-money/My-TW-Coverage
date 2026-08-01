@@ -39,10 +39,35 @@
 - 走著瞧 (6902，Gogolook) 為國際知名之「信任科技 (TrustTech)」AI 軟體服務公司，從台灣國民 App「[[Whoscall]]」起家。透過用戶回報與 AI 大數據分析，累積全球龐大的電話識別與防詐騙惡意資料庫。公司業務延伸至企業端防詐 ([[ScamAdviser]] 全球假網址與商譽風險偵測)、個人端防詐 (美玉姨查核系統) 及金融科技媒合服務 (袋鼠金融 Roo.Cash)。公司深受 [[NAVER]] ([[LINE]] 母公司) 資金挹注與技術肯定，亦與台灣警政署、韓國金融監督院、泰國警方及馬來西亞州政府等多國安保單位合作。
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
-### 估值指標 (股價 $120.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)
-| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |
-|-----------|-------------|-----------|------|-----------|
-|     76.43 |       12.31 |      3.83 | 5.60 |     34.17 |
+
+### 估值指標
+
+基準日: 2026-07-30 | 股價: 120.00 TWD | TTM 截至: 2026-03-31 | Forward: 2026-12-31
+
+#### 市場估值
+
+| 指標 | 數值 | 說明 |
+|:---|:---|:---|
+| P/E (TTM) | 76.43x | 股價 / TTM EPS |
+| P/S (TTM) | 3.83x | 市值 / TTM 營收 |
+| P/B | 5.60x | 市值 / 股東權益 |
+| EV/EBITDA (TTM) | 34.17x | 企業價值 / TTM EBITDA |
+
+#### Consensus 估值
+
+Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Cross-check: FactSet | Revenue 單位: 百萬台幣
+
+| 指標 | Primary | Cross-check | 差異 | 用途 / 單位 | 信心 |
+|:---|:---|:---|:---|:---|:---|
+| 2026E EPS | 6.75 | NA | NA | Forward P/E; current year; 單位: TWD/share | medium |
+| 2026E Revenue | 1,284 | NA | NA | Forward P/S; current year; 單位: 百萬台幣 | medium |
+| 2027E EPS | 9.75 | NA | NA | Forward P/E; next year; 單位: TWD/share | medium |
+| 2027E Revenue | 1,502 | NA | NA | Forward P/S; next year; 單位: 百萬台幣 | medium |
+
+| 估值指標 | 數值 | 使用基礎 |
+|:---|:---|:---|
+| Forward P/E (Consensus) | 12.31x | 股價 / 2027E EPS consensus |
+| Forward P/S (Consensus) | 2.69x | 市值 / 2027E Revenue consensus；Revenue 單位: 百萬台幣 |
 
 ### 年度關鍵財務數據 (近 3 年)
 |                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |

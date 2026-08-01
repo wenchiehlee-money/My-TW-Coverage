@@ -36,10 +36,35 @@
 - **跨平台:** [[一卡通]] (iPASS) — 電子支付互通
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
-### 估值指標 (股價 $267.00 as of 2026-07-30 | TTM 截至 2026-03-31 | Forward 預估至 2026-12-31)
-| P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |
-|-----------|-------------|-----------|------|-----------|
-|     38.86 |       15.90 |      2.34 | 1.76 |     14.12 |
+
+### 估值指標
+
+基準日: 2026-07-30 | 股價: 267.00 TWD | TTM 截至: 2026-03-31 | Forward: 2026-12-31
+
+#### 市場估值
+
+| 指標 | 數值 | 說明 |
+|:---|:---|:---|
+| P/E (TTM) | 38.86x | 股價 / TTM EPS |
+| P/S (TTM) | 2.34x | 市值 / TTM 營收 |
+| P/B | 1.76x | 市值 / 股東權益 |
+| EV/EBITDA (TTM) | 14.12x | 企業價值 / TTM EBITDA |
+
+#### Consensus 估值
+
+Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Cross-check: FactSet | Revenue 單位: 百萬台幣
+
+| 指標 | Primary | Cross-check | 差異 | 用途 / 單位 | 信心 |
+|:---|:---|:---|:---|:---|:---|
+| 2026E EPS | 12.36 | NA | NA | Forward P/E; current year; 單位: TWD/share | medium |
+| 2026E Revenue | 9,677 | NA | NA | Forward P/S; current year; 單位: 百萬台幣 | medium |
+| 2027E EPS | 16.80 | NA | NA | Forward P/E; next year; 單位: TWD/share | medium |
+| 2027E Revenue | 12,032 | NA | NA | Forward P/S; next year; 單位: 百萬台幣 | medium |
+
+| 估值指標 | 數值 | 使用基礎 |
+|:---|:---|:---|
+| Forward P/E (Consensus) | 15.90x | 股價 / 2027E EPS consensus |
+| Forward P/S (Consensus) | 1.62x | 市值 / 2027E Revenue consensus；Revenue 單位: 百萬台幣 |
 
 ### 年度關鍵財務數據 (近 3 年)
 |                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |

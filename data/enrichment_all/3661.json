@@ -212,5 +212,114 @@
     "review_status": "needs_review",
     "wikilink_count": 10,
     "warnings": []
+  },
+  "financials": {
+    "valuation": {
+      "as_of": "2026-07-30",
+      "currency": "TWD",
+      "price": 2785.0,
+      "ttm_period_end": "2026-03-31",
+      "forward_period_end": "2026-12-31",
+      "market_cap_m_twd": 230266.0,
+      "enterprise_value_m_twd": 189589.0,
+      "metrics": {
+        "pe_ttm": 41.54,
+        "forward_pe": 15.61,
+        "ps_ttm": 9.28,
+        "pb": 5.26,
+        "ev_ebitda_ttm": 24.56
+      },
+      "consensus": {
+        "normalized_source": "data/market_expectations/normalized_consensus.csv",
+        "primary_source": "Yahoo.Finance",
+        "cross_check_source": "FactSet",
+        "as_of": "2026-08-01",
+        "items": [
+          {
+            "metric": "eps",
+            "period_type": "annual",
+            "period_offset": "0y",
+            "fiscal_year": "2026",
+            "primary_value": 135.1536,
+            "primary_source": "Yahoo.Finance.latest",
+            "primary_as_of": "2026-08-01",
+            "cross_check_value": 136.49,
+            "cross_check_source": "FactSet",
+            "cross_check_as_of": "2026-07-08",
+            "difference_pct": -0.9791193494028847,
+            "unit": "TWD/share",
+            "analyst_count": 18.0,
+            "high": 163.01,
+            "low": 103.06,
+            "median": 135.56,
+            "confidence": "high"
+          },
+          {
+            "metric": "eps",
+            "period_type": "annual",
+            "period_offset": "1y",
+            "fiscal_year": "2027",
+            "primary_value": 178.4331,
+            "primary_source": "Yahoo.Finance.latest",
+            "primary_as_of": "2026-08-01",
+            "cross_check_value": 180.19,
+            "cross_check_source": "FactSet",
+            "cross_check_as_of": "2026-07-08",
+            "difference_pct": -0.975026361063323,
+            "unit": "TWD/share",
+            "analyst_count": 18.0,
+            "high": 212.07,
+            "low": 153.56,
+            "median": 180.23,
+            "confidence": "high"
+          },
+          {
+            "metric": "revenue",
+            "period_type": "annual",
+            "period_offset": "0y",
+            "fiscal_year": "2026",
+            "primary_value": 71186.60834,
+            "primary_source": "Yahoo.Finance.latest",
+            "primary_as_of": "2026-08-01",
+            "cross_check_value": 75968.59,
+            "cross_check_source": "FactSet",
+            "cross_check_as_of": "2026-07-08",
+            "difference_pct": -6.29468265766153,
+            "unit": "百萬台幣",
+            "analyst_count": 18.0,
+            "high": 92318.0,
+            "low": 58886.86,
+            "median": 77523.02,
+            "confidence": "high"
+          },
+          {
+            "metric": "revenue",
+            "period_type": "annual",
+            "period_offset": "1y",
+            "fiscal_year": "2027",
+            "primary_value": 115287.3469,
+            "primary_source": "Yahoo.Finance.latest",
+            "primary_as_of": "2026-08-01",
+            "cross_check_value": 115479.35,
+            "cross_check_source": "FactSet",
+            "cross_check_as_of": "2026-07-08",
+            "difference_pct": -0.166266176593479,
+            "unit": "百萬台幣",
+            "analyst_count": 18.0,
+            "high": 134592.13,
+            "low": 89350.0,
+            "median": 115487.58,
+            "confidence": "high"
+          }
+        ],
+        "target_price": null
+      },
+      "derived_consensus_metrics": {
+        "forward_pe_consensus": 15.608090651342156,
+        "forward_pe_fiscal_year": "2027",
+        "forward_ps_consensus": 1.997322396530924,
+        "forward_ps_fiscal_year": "2027"
+      }
+    }
   }
 }

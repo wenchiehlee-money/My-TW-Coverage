@@ -187,5 +187,69 @@
     "review_status": "needs_review",
     "wikilink_count": 7,
     "warnings": []
+  },
+  "financials": {
+    "valuation": {
+      "as_of": "2026-07-30",
+      "currency": "TWD",
+      "price": 49.7,
+      "ttm_period_end": "2026-03-31",
+      "forward_period_end": "2026-12-31",
+      "market_cap_m_twd": 1000.0,
+      "enterprise_value_m_twd": 663.0,
+      "metrics": {
+        "pe_ttm": 16.9,
+        "ps_ttm": 4.67,
+        "pb": 2.65,
+        "ev_ebitda_ttm": 9.4
+      },
+      "consensus": {
+        "normalized_source": "data/market_expectations/normalized_consensus.csv",
+        "primary_source": "Yahoo.Finance",
+        "cross_check_source": "FactSet",
+        "as_of": "2026-08-01",
+        "items": [
+          {
+            "metric": "revenue",
+            "period_type": "annual",
+            "period_offset": "0y",
+            "fiscal_year": "2026",
+            "primary_value": 0.0,
+            "primary_source": "Yahoo.Finance.latest",
+            "primary_as_of": "2026-08-01",
+            "cross_check_value": null,
+            "cross_check_source": null,
+            "cross_check_as_of": null,
+            "difference_pct": null,
+            "unit": "百萬台幣",
+            "analyst_count": null,
+            "high": null,
+            "low": null,
+            "median": null,
+            "confidence": "medium"
+          },
+          {
+            "metric": "revenue",
+            "period_type": "annual",
+            "period_offset": "1y",
+            "fiscal_year": "2027",
+            "primary_value": 0.0,
+            "primary_source": "Yahoo.Finance.latest",
+            "primary_as_of": "2026-08-01",
+            "cross_check_value": null,
+            "cross_check_source": null,
+            "cross_check_as_of": null,
+            "difference_pct": null,
+            "unit": "百萬台幣",
+            "analyst_count": null,
+            "high": null,
+            "low": null,
+            "median": null,
+            "confidence": "medium"
+          }
+        ],
+        "target_price": null
+      }
+    }
   }
 }
