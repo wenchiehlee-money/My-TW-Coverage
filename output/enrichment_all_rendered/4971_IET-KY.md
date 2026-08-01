@@ -78,7 +78,7 @@
 ### 競爭同業 Revenue/Profit/GM/PE
 
 Revenue/Profit Unit: `百萬台幣`
-P/E Range: `季內最低/最高日收盤價 / TTM EPS (當季 EPS + 最近 3 季 EPS)`
+P/E Range: `季內最低/平均/最高日收盤價 / TTM EPS (當季 EPS + 最近 3 季 EPS)`
 
 #### Profile
 
