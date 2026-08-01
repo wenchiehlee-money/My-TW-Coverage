@@ -1745,7 +1745,7 @@
     {
       "id": "ann-2330-platform-revenue-001",
       "presentation_path": "supply_chain.downstream[category=主要平台]",
-      "presentation_match": "主要平台",
+      "presentation_match": "- **主要平台:**",
       "claim_type": "segment_exposure",
       "entity": "2330",
       "relationship": "platform",
@@ -1764,9 +1764,60 @@
       "status": "linked_supported"
     },
     {
+      "id": "ann-2330-customer-apple-001",
+      "presentation_path": "relationships.customers[role=超級大客戶]",
+      "presentation_match": "- **超級大客戶:**",
+      "claim_type": "customer_relationship",
+      "entity": "2330",
+      "relationship": "customer",
+      "evidence_ref": "evidence.customer_relationships",
+      "render": {
+        "badge": true,
+        "label": "客戶-Apple驗證",
+        "color": "green",
+        "alt": "Customer Evidence"
+      },
+      "confidence": "medium",
+      "status": "linked_partial"
+    },
+    {
+      "id": "ann-2330-customer-ai-hpc-001",
+      "presentation_path": "relationships.customers[role=AI/HPC]",
+      "presentation_match": "- **AI/HPC:**",
+      "claim_type": "customer_relationship",
+      "entity": "2330",
+      "relationship": "customer",
+      "evidence_ref": "evidence.customer_relationships",
+      "render": {
+        "badge": true,
+        "label": "客戶-AI/HPC驗證",
+        "color": "green",
+        "alt": "Customer Evidence"
+      },
+      "confidence": "medium",
+      "status": "linked_partial"
+    },
+    {
+      "id": "ann-2330-customer-other-major-001",
+      "presentation_path": "relationships.customers[role=其他主要客戶]",
+      "presentation_match": "- **其他主要客戶:**",
+      "claim_type": "customer_relationship",
+      "entity": "2330",
+      "relationship": "customer",
+      "evidence_ref": "evidence.customer_relationships",
+      "render": {
+        "badge": true,
+        "label": "客戶-主要名單驗證",
+        "color": "green",
+        "alt": "Customer Evidence"
+      },
+      "confidence": "medium",
+      "status": "linked_partial"
+    },
+    {
       "id": "ann-2330-peer-financials-001",
-      "presentation_path": "relationships.competitors",
-      "presentation_match": "### 競爭同業",
+      "presentation_path": "relationships.competitors[category=晶圓代工競爭者]",
+      "presentation_match": "- **晶圓代工競爭者:**",
       "claim_type": "peer_comparison",
       "entity": "2330",
       "relationship": "competitor",
@@ -1779,74 +1830,6 @@
       },
       "confidence": "high",
       "status": "linked_supported"
-    },
-    {
-      "id": "ann-2330-customer-relationships-001",
-      "presentation_path": "relationships.customers",
-      "presentation_match": "### 主要客戶",
-      "claim_type": "customer_relationship",
-      "entity": "2330",
-      "relationship": "customer",
-      "evidence_ref": "evidence.customer_relationships",
-      "render": {
-        "badge": true,
-        "label": "客戶-關係驗證",
-        "color": "green",
-        "alt": "Customer Evidence"
-      },
-      "confidence": "medium",
-      "status": "linked_partial"
-    },
-    {
-      "id": "ann-2330-market-valuation-001",
-      "presentation_path": "financials.valuation",
-      "presentation_match": "### 估值指標",
-      "claim_type": "valuation",
-      "entity": "2330",
-      "relationship": "valuation",
-      "evidence_ref": "evidence.market_valuation",
-      "render": {
-        "badge": true,
-        "label": "估值-市場共識",
-        "color": "purple",
-        "alt": "Valuation Evidence"
-      },
-      "confidence": "high",
-      "status": "linked_supported"
-    },
-    {
-      "id": "ann-2330-quarterly-financials-001",
-      "presentation_path": "source_text.financial_md[季度關鍵財務數據]",
-      "presentation_match": "### 季度關鍵財務數據",
-      "claim_type": "quarterly_financials",
-      "entity": "2330",
-      "relationship": "financial_actuals",
-      "evidence_ref": "evidence.quarterly_financials",
-      "render": {
-        "badge": true,
-        "label": "近4季-財務數據",
-        "color": "blue",
-        "alt": "Quarterly Financials"
-      },
-      "confidence": "medium",
-      "status": "linked_partial"
-    },
-    {
-      "id": "ann-2330-annual-financials-001",
-      "presentation_path": "source_text.financial_md[年度關鍵財務數據]",
-      "presentation_match": "### 年度關鍵財務數據",
-      "claim_type": "annual_financials",
-      "entity": "2330",
-      "relationship": "financial_actuals",
-      "evidence_ref": "evidence.annual_financials",
-      "render": {
-        "badge": true,
-        "label": "近3年-財務數據",
-        "color": "blue",
-        "alt": "Annual Financials"
-      },
-      "confidence": "medium",
-      "status": "linked_partial"
     }
   ]
 }
