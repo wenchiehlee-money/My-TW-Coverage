@@ -46,12 +46,12 @@
 
 #### 市場估值
 
-| 指標 | 數值 | 說明 |
-|:---|:---|:---|
-| P/E (TTM) | 76.43x | 股價 / TTM EPS |
-| P/S (TTM) | 3.83x | 市值 / TTM 營收 |
-| P/B | 5.60x | 市值 / 股東權益 |
-| EV/EBITDA (TTM) | 34.17x | 企業價值 / TTM EBITDA |
+| 指標 | 數值 | 分子 | 分母 | 說明 |
+|:---|:---|:---|:---|:---|
+| P/E (TTM) | 76.43x | 股價 120.00 TWD | TTM EPS 1.57 TWD | 股價 / TTM EPS |
+| P/S (TTM) | 3.83x | 市值 4,033 百萬台幣 | TTM 營收 1,053 百萬台幣 | 市值 / TTM 營收 |
+| P/B | 5.60x | 市值 4,033 百萬台幣 | 股東權益 720 百萬台幣 | 市值 / 股東權益 |
+| EV/EBITDA (TTM) | 34.17x | 企業價值 3,966 百萬台幣 | TTM EBITDA 116 百萬台幣 | 企業價值 / TTM EBITDA |
 
 #### Consensus 估值
 
@@ -64,10 +64,10 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Cross-check: FactSet | R
 | 2027E EPS | 9.75 | NA | NA | Forward P/E; next year; 單位: TWD/share | medium |
 | 2027E Revenue | 1,502 | NA | NA | Forward P/S; next year; 單位: 百萬台幣 | medium |
 
-| 估值指標 | 數值 | 使用基礎 |
-|:---|:---|:---|
-| Forward P/E (Consensus) | 12.31x | 股價 / 2027E EPS consensus |
-| Forward P/S (Consensus) | 2.69x | 市值 / 2027E Revenue consensus；Revenue 單位: 百萬台幣 |
+| 估值指標 | 數值 | 分子 | 分母 | 使用基礎 |
+|:---|:---|:---|:---|:---|
+| Forward P/E (Consensus) | 12.31x | 股價 120.00 TWD | 2027E EPS 9.75 TWD | 股價 / consensus EPS |
+| Forward P/S (Consensus) | 2.69x | 市值 4,033 百萬台幣 | 2027E Revenue 1,502 百萬台幣 | 市值 / consensus revenue |
 
 ### 年度關鍵財務數據 (近 3 年)
 |                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |

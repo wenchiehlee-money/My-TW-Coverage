@@ -234,6 +234,26 @@ def build_consensus(rows: list[dict[str, str]]) -> dict[str, Any]:
 def add_derived(valuation: dict[str, Any]) -> None:
     price = valuation.get("price")
     market_cap = valuation.get("market_cap_m_twd")
+    enterprise_value = valuation.get("enterprise_value_m_twd")
+    metrics = valuation.get("metrics", {}) or {}
+
+    derived_inputs: dict[str, Any] = {}
+    pe_ttm = metrics.get("pe_ttm")
+    ps_ttm = metrics.get("ps_ttm")
+    pb = metrics.get("pb")
+    ev_ebitda_ttm = metrics.get("ev_ebitda_ttm")
+    if price and pe_ttm:
+        derived_inputs["ttm_eps_twd"] = price / pe_ttm
+    if market_cap and ps_ttm:
+        derived_inputs["ttm_revenue_m_twd"] = market_cap / ps_ttm
+    if market_cap and pb:
+        derived_inputs["book_value_m_twd"] = market_cap / pb
+    if enterprise_value and ev_ebitda_ttm:
+        derived_inputs["ttm_ebitda_m_twd"] = enterprise_value / ev_ebitda_ttm
+    if derived_inputs:
+        derived_inputs["source"] = "derived_from_market_valuation_multiples"
+        valuation["derived_inputs"] = derived_inputs
+
     consensus = valuation.get("consensus", {})
     derived: dict[str, Any] = {}
     for item in consensus.get("items", []) or []:
@@ -243,9 +263,11 @@ def add_derived(valuation: dict[str, Any]) -> None:
         if metric == "eps" and offset == "1y" and price and value:
             derived["forward_pe_consensus"] = price / value
             derived["forward_pe_fiscal_year"] = item.get("fiscal_year")
+            derived["forward_eps_twd"] = value
         if metric == "revenue" and offset == "1y" and market_cap and value:
             derived["forward_ps_consensus"] = market_cap / value
             derived["forward_ps_fiscal_year"] = item.get("fiscal_year")
+            derived["forward_revenue_m_twd"] = value
     if derived:
         valuation["derived_consensus_metrics"] = derived
 
