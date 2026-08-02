@@ -1,7 +1,7 @@
 # Thematic Investment Screens
 
 > Auto-generated supply chain maps from `data/themes/*.json` and `data/enrichment_all/*.json`.
-> Regenerate: `python scripts/build_themes.py`
+> Regenerate: `python skills/skill-my-tw-coverage-render-markdown/scripts/build_themes.py`
 
 ---
 

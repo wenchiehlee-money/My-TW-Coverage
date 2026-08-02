@@ -45,13 +45,24 @@ def badge_label_text(label: str) -> str:
     return quote(label.replace("-", "--"), safe="")
 
 
+def render_badge_link(label: str, target: str, color: str = "blue", *, quote_target: bool = True) -> str:
+    badge_label = str(label).strip()
+    badge_color = str(color or "blue").strip()
+    image = f"https://img.shields.io/badge/{badge_label_text(badge_label)}-{quote(badge_color, safe='')}"
+    href = quote(target) if quote_target else target
+    return f"[![{badge_label}]({image})]({href})"
+
+
 def render_theme_badge(theme_def: dict[str, Any], href: str | None = None, label: str | None = None) -> str:
     render = theme_def.get("render", {}) if isinstance(theme_def.get("render"), dict) else {}
     badge_label = str(label or render.get("badge_label") or theme_def.get("tag") or "Theme").strip()
     color = str(render.get("badge_color") or "blue").strip()
     target = href or theme_output_filename(theme_def)
-    image = f"https://img.shields.io/badge/{badge_label_text(badge_label)}-{quote(color, safe='')}"
-    return f"[![{badge_label}]({image})]({quote(target)})"
+    return render_badge_link(badge_label, target, color)
+
+
+def render_company_badge(label: str, target: str) -> str:
+    return render_badge_link(label, target, "blue", quote_target=False)
 
 
 def load_theme_definitions() -> dict[str, dict[str, Any]]:
@@ -262,7 +273,6 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
         return None
 
     lines = [f"# {theme_def['name']}", "", f"> {theme_def['desc']}", ""]
-    lines.append(f"**Theme ID:** `{theme_def['id']}`")
     lines.append(f"**涵蓋公司數:** {len({e['ticker'] for e in entries})}")
     lines.append("")
 
@@ -306,13 +316,8 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
         for sector in sorted(by_sector.keys()):
             for item in sorted(by_sector[sector], key=lambda x: x["ticker"]):
                 label = f"{item['ticker']} {item['company']}"
-                linked = f"[{label}]({item['company_link']})" if item.get("company_link") else label
-                sources = ", ".join(f"`{x}`" for x in item.get("source_paths", [])[:3])
-                if len(item.get("source_paths", [])) > 3:
-                    sources += f", +{len(item['source_paths']) - 3} more"
-                matched = ", ".join(item.get("matches", []))
-                detail = f"; match: {matched}" if matched else ""
-                result.append(f"- **{linked}** ({sector}) — {sources}{detail}")
+                linked = render_company_badge(label, item["company_link"]) if item.get("company_link") else label
+                result.append(f"- {linked} ({sector})")
         return result
 
     for role, label in role_labels:
@@ -333,7 +338,7 @@ def build_index(themes_built: dict[str, int], theme_definitions: dict[str, dict[
         "# Thematic Investment Screens",
         "",
         "> Auto-generated supply chain maps from `data/themes/*.json` and `data/enrichment_all/*.json`.",
-        "> Regenerate: `python scripts/build_themes.py`",
+        "> Regenerate: `python skills/skill-my-tw-coverage-render-markdown/scripts/build_themes.py`",
         "",
         "---",
         "",
