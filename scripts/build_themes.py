@@ -182,13 +182,40 @@ def load_company_json_files(ticker: str | None = None) -> list[Path]:
     return sorted(ENRICHMENT_JSON_DIR.glob("*.json"))
 
 
+def plain_context_text(value: Any) -> str:
+    text = str(value or "")
+    return re.sub(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", r"\1", text).strip()
+
+
 def profile_sector(data: dict[str, Any]) -> str:
-    source_md = str(data.get("source_md", "")).replace("\\", "/")
-    parts = source_md.split("/")
-    if len(parts) >= 2 and parts[-2]:
-        return parts[-2]
     profile = data.get("profile", {}) if isinstance(data.get("profile"), dict) else {}
-    return str(profile.get("chain_name") or profile.get("industry") or profile.get("sector") or "").strip()
+    return plain_context_text(profile.get("chain_name") or profile.get("industry") or profile.get("sector") or "")
+
+
+def parse_market_cap(value: Any) -> float:
+    text = str(value or "")
+    match = re.search(r"-?\d[\d,]*(?:\.\d+)?", text)
+    if not match:
+        return 0.0
+    try:
+        return float(match.group(0).replace(",", ""))
+    except ValueError:
+        return 0.0
+
+
+def load_company_market_caps() -> dict[str, tuple[float, str]]:
+    caps: dict[str, tuple[float, str]] = {}
+    for path in load_company_json_files():
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        ticker = str(data.get("ticker", "")).strip()
+        profile = data.get("profile", {}) if isinstance(data.get("profile"), dict) else {}
+        label = str(profile.get("market_cap") or "").strip()
+        if ticker:
+            caps[ticker] = (parse_market_cap(label), label)
+    return caps
 
 
 def company_output_link(data: dict[str, Any]) -> str:
@@ -246,7 +273,12 @@ def criterion_matches(row: dict[str, str], criterion: dict[str, Any]) -> bool:
     return True
 
 
-def iter_ic_taxonomy_entries(theme_tag: str, theme_def: dict[str, Any], chain_names: dict[str, str]) -> list[dict[str, str]]:
+def iter_ic_taxonomy_entries(
+    theme_tag: str,
+    theme_def: dict[str, Any],
+    chain_names: dict[str, str],
+    market_caps: dict[str, tuple[float, str]],
+) -> list[dict[str, Any]]:
     theme_supply_chain = theme_def.get("theme_supply_chain")
     if not isinstance(theme_supply_chain, dict):
         return []
@@ -283,6 +315,7 @@ def iter_ic_taxonomy_entries(theme_tag: str, theme_def: dict[str, Any], chain_na
                     if key in seen:
                         continue
                     seen.add(key)
+                    market_cap, market_cap_label = market_caps.get(ticker, (0.0, ""))
                     entries.append({
                         "ticker": ticker,
                         "company": company,
@@ -291,6 +324,8 @@ def iter_ic_taxonomy_entries(theme_tag: str, theme_def: dict[str, Any], chain_na
                         "role": role,
                         "source_path": f"ic.tpex.org.tw/{chain_code}/{position}/{subcategory}",
                         "match": "ic.tpex.org.tw",
+                        "market_cap": market_cap,
+                        "market_cap_label": market_cap_label,
                     })
     return entries
 
@@ -392,9 +427,10 @@ def scan_theme_links(theme_defs: dict[str, dict[str, Any]]) -> dict[str, list[di
     theme_map: dict[str, list[dict[str, str]]] = defaultdict(list)
     seen: set[tuple[str, str, str]] = set()
     chain_names = load_ic_chain_names()
+    market_caps = load_company_market_caps()
 
     for tag, theme_def in theme_defs.items():
-        for entry in iter_ic_taxonomy_entries(tag, theme_def, chain_names):
+        for entry in iter_ic_taxonomy_entries(tag, theme_def, chain_names, market_caps):
             key = (tag, entry["ticker"], entry["source_path"])
             if key in seen:
                 continue
@@ -410,11 +446,14 @@ def scan_theme_links(theme_defs: dict[str, dict[str, Any]]) -> dict[str, list[di
         company = str(data.get("company_name", "")).strip()
         if not ticker or not company:
             continue
+        market_cap, market_cap_label = market_caps.get(ticker, (0.0, ""))
         base = {
             "ticker": ticker,
             "company": company,
             "sector": profile_sector(data),
             "company_link": company_output_link(data),
+            "market_cap": market_cap,
+            "market_cap_label": market_cap_label,
         }
 
         for tag, role, source_path in explicit_theme_entries(data, theme_defs):
@@ -489,8 +528,20 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
         ("related", "相關公司"),
     ]
 
-    def format_entries(role_entries: list[dict[str, str]]) -> list[str]:
-        by_sector: dict[str, list[dict[str, str]]] = defaultdict(list)
+    def market_cap_value(item: dict[str, Any]) -> float:
+        try:
+            return float(item.get("market_cap") or 0.0)
+        except (TypeError, ValueError):
+            return 0.0
+
+    def entry_context(item: dict[str, Any], role: str) -> str:
+        sector = plain_context_text(item.get("sector") or "")
+        if role in structured_roles and item.get("market_cap_label"):
+            return f"{sector}; 市值: {item['market_cap_label']}" if sector else f"市值: {item['market_cap_label']}"
+        return sector
+
+    def format_entries(role_entries: list[dict[str, Any]], role: str) -> list[str]:
+        by_sector: dict[str, list[dict[str, Any]]] = defaultdict(list)
         merged: dict[str, dict[str, Any]] = {}
         for entry in role_entries:
             ticker = entry["ticker"]
@@ -501,14 +552,27 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
                 item["source_paths"].append(source_path)
             if match and match not in item["matches"]:
                 item["matches"].append(match)
-        for entry in merged.values():
-            by_sector[entry["sector"]].append(entry)
+
         result: list[str] = []
+        if role in structured_roles:
+            ordered = sorted(
+                merged.values(),
+                key=lambda x: (-market_cap_value(x), str(x.get("ticker") or "")),
+            )
+            for item in ordered:
+                label = f"{item['ticker']} {item['company']}"
+                linked = render_company_badge(label, item["company_link"]) if item.get("company_link") else label
+                context = entry_context(item, role)
+                result.append(f"- {linked} ({context})" if context else f"- {linked}")
+            return result
+
+        for entry in merged.values():
+            by_sector[str(entry.get("sector") or "")].append(entry)
         for sector in sorted(by_sector.keys()):
             for item in sorted(by_sector[sector], key=lambda x: x["ticker"]):
                 label = f"{item['ticker']} {item['company']}"
                 linked = render_company_badge(label, item["company_link"]) if item.get("company_link") else label
-                result.append(f"- {linked} ({sector})")
+                result.append(f"- {linked} ({sector})" if sector else f"- {linked}")
         return result
 
     for role, label in role_labels:
@@ -517,7 +581,7 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             continue
         lines.append(f"## {label} ({len({e['ticker'] for e in role_entries})})")
         lines.append("")
-        lines.extend(format_entries(role_entries))
+        lines.extend(format_entries(role_entries, role))
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
