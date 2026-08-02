@@ -4,13 +4,25 @@
   "desc": "電動車完整供應鏈，從電池材料到功率元件到車用電子",
   "category": "電動車 / 車用",
   "order": 110,
-  "related": [
-    "碳化矽",
+  "index_categories": [
+    "電動車 / 車用"
+  ],
+  "id": "theme.ev",
+  "type": "theme",
+  "aliases": [
+    "電動車"
+  ],
+  "related_theme_tags": [
+    "碳化矽"
+  ],
+  "related_entities": [
     "IGBT",
     "MOSFET",
     "車用電子"
   ],
-  "index_categories": [
-    "電動車 / 車用"
-  ]
+  "render": {
+    "output_filename": "電動車.md",
+    "badge_label": "電動車",
+    "badge_color": "blue"
+  }
 }

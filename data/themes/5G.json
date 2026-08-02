@@ -4,12 +4,24 @@
   "desc": "5G 基礎建設與終端應用，涵蓋基站、天線、射頻前端、濾波器",
   "category": "通訊",
   "order": 120,
-  "related": [
-    "氮化鎵",
-    "RF",
-    "低軌衛星"
-  ],
   "index_categories": [
     "通訊"
-  ]
+  ],
+  "id": "theme.5g",
+  "type": "theme",
+  "aliases": [
+    "5G"
+  ],
+  "related_theme_tags": [
+    "氮化鎵",
+    "低軌衛星"
+  ],
+  "related_entities": [
+    "RF"
+  ],
+  "render": {
+    "output_filename": "5G.md",
+    "badge_label": "5G",
+    "badge_color": "blue"
+  }
 }

@@ -2,168 +2,325 @@
 
 > AI 訓練與推論伺服器完整供應鏈，從晶片到系統到散熱
 
-**涵蓋公司數:** 148
+**Theme ID:** `theme.ai_server`
+**涵蓋公司數:** 171
 
-**相關主題:** [[CoWoS]] (39) | [[HBM]] (16) | [[NVIDIA]] (104) | [[CPO]] (13) | [[資料中心]] (77)
+**相關主題/實體:** [CoWoS](CoWoS.md) (39) | [HBM](HBM.md) (16) | [CPO](CPO.md) (14) | [資料中心](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (111)
 
 ---
 
 ## 上游 (10)
 
-- **2357 華碩** (人工智慧 - 智慧設備)
-- **1587 吉茂** (汽車 - 其他)
-- **2324 仁寶** (運動科技 - 穿戴式裝置)
-- **2382 廣達** (運動科技 - 穿戴式裝置)
-- **2025 千興** (鋼鐵 - 冷熱軋不鏽鋼板捲)
-- **6982 大井泵浦** (電機機械 - 傳動元件)
-- **2376 技嘉** (電腦及週邊設備 - 其他電腦及週邊設備)
-- **2377 微星** (電腦及週邊設備 - 其他電腦及週邊設備)
-- **3231 緯創** (電腦及週邊設備 - 桌上型電腦)
-- **2356 英業達** (電腦及週邊設備 - 筆記型電腦)
+- **[2357 華碩](../enrichment_all_rendered/2357_%E8%8F%AF%E7%A2%A9.md)** (人工智慧 - 智慧設備) — `supply_chain.upstream[2]`, `relationships.suppliers[1]`; match: AI 伺服器
+- **[3558 神準](../enrichment_all_rendered/3558_%E7%A5%9E%E6%BA%96.md)** (通信網路 - 有線通訊設備(如電話機、傳真機)) — `supply_chain.upstream[1]`; match: AI 伺服器
+- **[2324 仁寶](../enrichment_all_rendered/2324_%E4%BB%81%E5%AF%B6.md)** (運動科技 - 穿戴式裝置) — `supply_chain.upstream[2]`; match: AI 伺服器
+- **[2382 廣達](../enrichment_all_rendered/2382_%E5%BB%A3%E9%81%94.md)** (運動科技 - 穿戴式裝置) — `supply_chain.upstream[2]`, `relationships.suppliers[1]`; match: AI 伺服器
+- **[2480 敦陽科](../enrichment_all_rendered/2480_%E6%95%A6%E9%99%BD%E7%A7%91.md)** (金融科技 - 數位身分) — `supply_chain.upstream[1]`, `relationships.suppliers[0]`; match: AI 伺服器
+- **[8210 勤誠](../enrichment_all_rendered/8210_%E5%8B%A4%E8%AA%A0.md)** (雲端運算 - 電腦設備) — `relationships.suppliers[3]`; match: AI 伺服器
+- **[2376 技嘉](../enrichment_all_rendered/2376_%E6%8A%80%E5%98%89.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `supply_chain.upstream[2]`, `relationships.suppliers[1]`; match: AI 伺服器
+- **[2377 微星](../enrichment_all_rendered/2377_%E5%BE%AE%E6%98%9F.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `supply_chain.upstream[2]`; match: AI 伺服器
+- **[3231 緯創](../enrichment_all_rendered/3231_%E7%B7%AF%E5%89%B5.md)** (電腦及週邊設備 - 桌上型電腦) — `supply_chain.upstream[1]`, `relationships.suppliers[0]`; match: AI 伺服器
+- **[2356 英業達](../enrichment_all_rendered/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)** (電腦及週邊設備 - 筆記型電腦) — `supply_chain.upstream[2]`, `relationships.suppliers[1]`; match: AI 伺服器
 
-## 中游 (17)
+## 中游 (35)
 
-- **6862 三集瑞-KY** (Electronic Components)
-- **2308 台達電** (人工智慧 - 系統整合)
-- **6698 旭暉應材** (其他 - 其他電子產品及電子服務產業)
-- **3044 健鼎** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **4927 泰鼎-KY** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **3691 碩禾** (太陽能產業 - 材料)
-- **6834 天二科技** (被動元件 - 電阻器)
-- **6245 立端** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話))
-- **3011 今皓** (通信網路 - 線材)
-- **6190 萬泰科** (通信網路 - 線材)
-- **3322 建舜電** (連接器 - 連接器設計、組裝及製造)
-- **2301 光寶科** (醫療器材 - 醫療器材研發、設計、製造)
-- **8210 勤誠** (雲端運算 - 電腦設備)
-- **8996 高力** (電機機械 - 油空壓元件)
-- **2317 鴻海** (電腦及週邊設備 - 其他電腦及週邊設備)
-- **5465 富驊** (電腦及週邊設備 - 機殼)
-- **7861 貝爾威勒** (電腦及週邊設備 - 連接線)
+- **[6715 嘉基](../enrichment_all_rendered/6715_%E5%98%89%E5%9F%BA.md)** (Communication Equipment) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[6862 三集瑞-KY](../enrichment_all_rendered/6862_%E4%B8%89%E9%9B%86%E7%91%9E-KY.md)** (Electronic Components) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[2357 華碩](../enrichment_all_rendered/2357_%E8%8F%AF%E7%A2%A9.md)** (人工智慧 - 智慧設備) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[2308 台達電](../enrichment_all_rendered/2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md)** (人工智慧 - 系統整合) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[6698 旭暉應材](../enrichment_all_rendered/6698_%E6%97%AD%E6%9A%89%E6%87%89%E6%9D%90.md)** (其他 - 其他電子產品及電子服務產業) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[6840 東研信超](../enrichment_all_rendered/6840_%E6%9D%B1%E7%A0%94%E4%BF%A1%E8%B6%85.md)** (其他 - 其他電子產品及電子服務產業) — `supply_chain.midstream[4]`; match: AI 伺服器
+- **[3044 健鼎](../enrichment_all_rendered/3044_%E5%81%A5%E9%BC%8E.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[4927 泰鼎-KY](../enrichment_all_rendered/4927_%E6%B3%B0%E9%BC%8E-KY.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[3691 碩禾](../enrichment_all_rendered/3691_%E7%A2%A9%E7%A6%BE.md)** (太陽能產業 - 材料) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[1587 吉茂](../enrichment_all_rendered/1587_%E5%90%89%E8%8C%82.md)** (汽車 - 其他) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[5328 華容](../enrichment_all_rendered/5328_%E8%8F%AF%E5%AE%B9.md)** (被動元件 - 電容器) — `supply_chain.midstream[3]`; match: AI 伺服器
+- **[3207 耀勝](../enrichment_all_rendered/3207_%E8%80%80%E5%8B%9D.md)** (被動元件 - 電感器) — `supply_chain.midstream[3]`; match: AI 伺服器
+- **[6834 天二科技](../enrichment_all_rendered/6834_%E5%A4%A9%E4%BA%8C%E7%A7%91%E6%8A%80.md)** (被動元件 - 電阻器) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[3564 其陽](../enrichment_all_rendered/3564_%E5%85%B6%E9%99%BD.md)** (資通訊安全 - 網路基礎設施) — `supply_chain.midstream[3]`; match: AI 伺服器
+- **[6245 立端](../enrichment_all_rendered/6245_%E7%AB%8B%E7%AB%AF.md)** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[3011 今皓](../enrichment_all_rendered/3011_%E4%BB%8A%E7%9A%93.md)** (通信網路 - 線材) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[6190 萬泰科](../enrichment_all_rendered/6190_%E8%90%AC%E6%B3%B0%E7%A7%91.md)** (通信網路 - 線材) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[3322 建舜電](../enrichment_all_rendered/3322_%E5%BB%BA%E8%88%9C%E9%9B%BB.md)** (連接器 - 連接器設計、組裝及製造) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[2324 仁寶](../enrichment_all_rendered/2324_%E4%BB%81%E5%AF%B6.md)** (運動科技 - 穿戴式裝置) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[2382 廣達](../enrichment_all_rendered/2382_%E5%BB%A3%E9%81%94.md)** (運動科技 - 穿戴式裝置) — `supply_chain.midstream[0]`, `supply_chain.midstream[2]`; match: AI 伺服器
+- **[2301 光寶科](../enrichment_all_rendered/2301_%E5%85%89%E5%AF%B6%E7%A7%91.md)** (醫療器材 - 醫療器材研發、設計、製造) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[8210 勤誠](../enrichment_all_rendered/8210_%E5%8B%A4%E8%AA%A0.md)** (雲端運算 - 電腦設備) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[4503 金雨](../enrichment_all_rendered/4503_%E9%87%91%E9%9B%A8.md)** (電動車輛產業 - 零組件) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[6982 大井泵浦](../enrichment_all_rendered/6982_%E5%A4%A7%E4%BA%95%E6%B3%B5%E6%B5%A6.md)** (電機機械 - 傳動元件) — `supply_chain.midstream[0]`; match: AI 伺服器
+- **[8996 高力](../enrichment_all_rendered/8996_%E9%AB%98%E5%8A%9B.md)** (電機機械 - 油空壓元件) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[7711 永擎](../enrichment_all_rendered/7711_%E6%B0%B8%E6%93%8E.md)** (電腦及週邊設備 - 伺服器) — `supply_chain.midstream[0]`; match: AI 伺服器
+- **[2317 鴻海](../enrichment_all_rendered/2317_%E9%B4%BB%E6%B5%B7.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[2376 技嘉](../enrichment_all_rendered/2376_%E6%8A%80%E5%98%89.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `supply_chain.midstream[0]`, `supply_chain.midstream[2]`; match: AI 伺服器
+- **[2377 微星](../enrichment_all_rendered/2377_%E5%BE%AE%E6%98%9F.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `supply_chain.midstream[0]`, `supply_chain.midstream[2]`; match: AI 伺服器
+- **[3324 雙鴻](../enrichment_all_rendered/3324_%E9%9B%99%E9%B4%BB.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `supply_chain.midstream[3]`; match: AI 伺服器
+- **[3231 緯創](../enrichment_all_rendered/3231_%E7%B7%AF%E5%89%B5.md)** (電腦及週邊設備 - 桌上型電腦) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[3032 偉訓](../enrichment_all_rendered/3032_%E5%81%89%E8%A8%93.md)** (電腦及週邊設備 - 機殼) — `supply_chain.midstream[4]`; match: AI 伺服器
+- **[5465 富驊](../enrichment_all_rendered/5465_%E5%AF%8C%E9%A9%8A.md)** (電腦及週邊設備 - 機殼) — `supply_chain.midstream[1]`; match: AI 伺服器
+- **[2356 英業達](../enrichment_all_rendered/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)** (電腦及週邊設備 - 筆記型電腦) — `supply_chain.midstream[2]`; match: AI 伺服器
+- **[7861 貝爾威勒](../enrichment_all_rendered/7861_%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92.md)** (電腦及週邊設備 - 連接線) — `supply_chain.midstream[1]`; match: AI 伺服器
 
-## 下游 (43)
+## 下游/客戶關係 (98)
 
-- **3483 力致** (LED照明產業 - 燈具_應用)
-- **2618 長榮航** (交通運輸及航運 - 海陸空大眾運輸)
-- **2646 星宇航空** (交通運輸及航運 - 海陸空大眾運輸)
-- **2643 捷迅** (交通運輸及航運 - 海陸空貨運承攬)
-- **5609 中菲行** (交通運輸及航運 - 海陸空貨運承攬)
-- **5607 遠雄港** (交通運輸及航運 - 貨櫃運輸集散及倉儲)
-- **8390 金益鼎** (其他 - 環保潔能服務產業)
-- **2481 強茂** (半導體 - IC_晶圓製造)
-- **4760 勤凱** (半導體 - IC封裝測試)
-- **3260 威剛** (半導體 - IC模組)
-- **3048 益登** (半導體 - IC通路)
-- **8054 安國** (半導體 - IP設計_IC設計代工服務)
-- **4722 國精化** (半導體 - 化學品)
-- **6920 恆勁科技** (半導體 - 基板)
-- **2351 順德** (半導體 - 導線架)
-- **2360 致茂** (半導體 - 生產製程及檢測設備)
-- **5498 凱崴** (印刷電路板 - 基板組裝加工及相關製造)
-- **3563 牧德** (印刷電路板 - 生產製程及檢測設備)
-- **2368 金像電** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **8155 博智** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **2383 台光電** (印刷電路板 - 銅箔基板)
-- **4304 勝昱** (石化及塑橡膠 - 塑膠製品)
-- **8043 蜜望實** (被動元件 - 電容器)
-- **2492 華新科** (被動元件 - 電容器材料(如電蝕_化成鋁箔、介面瓷粉))
-- **3236 千如** (被動元件 - 電感器)
-- **6155 鈞寶** (被動元件 - 電感器材料(如鐵氧體、導電漿墨))
-- **2327 國巨** (被動元件 - 電阻器)
-- **3002 歐格** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話))
-- **3605 宏致** (連接器 - 連接器設計、組裝及製造)
-- **8358 金居** (電動車輛產業 - 鋰電池材料)
-- **2421 建準** (電動車輛產業 - 零組件)
-- **3058 立德** (電動車輛產業 - 零組件)
-- **3211 順達** (電動車輛產業 - 零組件)
-- **4543 萬在** (電機機械 - 五金元件及零配件)
-- **4549 桓達** (電機機械 - 電控元件)
-- **5426 振發** (電腦及週邊設備 - 其他電腦及週邊設備之零組件)
-- **6584 南俊國際** (電腦及週邊設備 - 其他電腦及週邊設備之零組件)
-- **3017 奇鋐** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組)
-- **3071 協禧** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組)
-- **3338 泰碩** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組)
-- **6831 邁科** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組)
-- **6134 萬旭** (電腦及週邊設備 - 連接線)
-- **2420 新巨** (電腦及週邊設備 - 電源供應器)
+- **[6862 三集瑞-KY](../enrichment_all_rendered/6862_%E4%B8%89%E9%9B%86%E7%91%9E-KY.md)** (Electronic Components) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6924 榮惠-KY創](../enrichment_all_rendered/6924_%E6%A6%AE%E6%83%A0-KY%E5%89%B5.md)** (Electronic Components) — `supply_chain.downstream[4]`, `relationships.customers[3]`; match: AI 伺服器
+- **[5230 雷笛克光學](../enrichment_all_rendered/5230_%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8.md)** (LED照明產業 - 封裝_模組) — `supply_chain.downstream[3]`; match: AI 伺服器
+- **[3483 力致](../enrichment_all_rendered/3483_%E5%8A%9B%E8%87%B4.md)** (LED照明產業 - 燈具_應用) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2610 華航](../enrichment_all_rendered/2610_%E8%8F%AF%E8%88%AA.md)** (交通運輸及航運 - 海陸空大眾運輸) — `relationships.customers[1]`; match: AI 伺服器
+- **[2618 長榮航](../enrichment_all_rendered/2618_%E9%95%B7%E6%A6%AE%E8%88%AA.md)** (交通運輸及航運 - 海陸空大眾運輸) — `supply_chain.downstream[2]`, `relationships.customers[0]`; match: AI 伺服器
+- **[2646 星宇航空](../enrichment_all_rendered/2646_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA.md)** (交通運輸及航運 - 海陸空大眾運輸) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2643 捷迅](../enrichment_all_rendered/2643_%E6%8D%B7%E8%BF%85.md)** (交通運輸及航運 - 海陸空貨運承攬) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[5609 中菲行](../enrichment_all_rendered/5609_%E4%B8%AD%E8%8F%B2%E8%A1%8C.md)** (交通運輸及航運 - 海陸空貨運承攬) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[5607 遠雄港](../enrichment_all_rendered/5607_%E9%81%A0%E9%9B%84%E6%B8%AF.md)** (交通運輸及航運 - 貨櫃運輸集散及倉儲) — `supply_chain.downstream[2]`, `supply_chain.downstream[4]`, `relationships.customers[3]`; match: AI 伺服器
+- **[2357 華碩](../enrichment_all_rendered/2357_%E8%8F%AF%E7%A2%A9.md)** (人工智慧 - 智慧設備) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[3706 神達](../enrichment_all_rendered/3706_%E7%A5%9E%E9%81%94.md)** (人工智慧 - 運算設備) — `supply_chain.downstream[2]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6669 緯穎](../enrichment_all_rendered/6669_%E7%B7%AF%E7%A9%8E.md)** (人工智慧 - 運算設備) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[6698 旭暉應材](../enrichment_all_rendered/6698_%E6%97%AD%E6%9A%89%E6%87%89%E6%9D%90.md)** (其他 - 其他電子產品及電子服務產業) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[6761 穩得](../enrichment_all_rendered/6761_%E7%A9%A9%E5%BE%97.md)** (其他 - 其他電子產品及電子服務產業) — `supply_chain.downstream[4]`, `relationships.customers[3]`; match: AI 伺服器
+- **[6840 東研信超](../enrichment_all_rendered/6840_%E6%9D%B1%E7%A0%94%E4%BF%A1%E8%B6%85.md)** (其他 - 其他電子產品及電子服務產業) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[6903 巨漢](../enrichment_all_rendered/6903_%E5%B7%A8%E6%BC%A2.md)** (其他 - 其他電子產品及電子服務產業) — `supply_chain.downstream[4]`; match: AI 伺服器
+- **[8021 尖點](../enrichment_all_rendered/8021_%E5%B0%96%E9%BB%9E.md)** (其他 - 其他電子產品及電子服務產業) — `relationships.customers[2]`; match: AI 伺服器
+- **[8390 金益鼎](../enrichment_all_rendered/8390_%E9%87%91%E7%9B%8A%E9%BC%8E.md)** (其他 - 環保潔能服務產業) — `supply_chain.downstream[2]`, `relationships.customers[2]`; match: AI 伺服器
+- **[2481 強茂](../enrichment_all_rendered/2481_%E5%BC%B7%E8%8C%82.md)** (半導體 - IC_晶圓製造) — `supply_chain.downstream[2]`, `relationships.customers[2]`; match: AI 伺服器
+- **[4760 勤凱](../enrichment_all_rendered/4760_%E5%8B%A4%E5%87%B1.md)** (半導體 - IC封裝測試) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[3260 威剛](../enrichment_all_rendered/3260_%E5%A8%81%E5%89%9B.md)** (半導體 - IC模組) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3048 益登](../enrichment_all_rendered/3048_%E7%9B%8A%E7%99%BB.md)** (半導體 - IC通路) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3209 全科](../enrichment_all_rendered/3209_%E5%85%A8%E7%A7%91.md)** (半導體 - IC通路) — `relationships.customers[1]`; match: AI 伺服器
+- **[8054 安國](../enrichment_all_rendered/8054_%E5%AE%89%E5%9C%8B.md)** (半導體 - IP設計_IC設計代工服務) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[4722 國精化](../enrichment_all_rendered/4722_%E5%9C%8B%E7%B2%BE%E5%8C%96.md)** (半導體 - 化學品) — `supply_chain.downstream[1]`, `supply_chain.downstream[3]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6920 恆勁科技](../enrichment_all_rendered/6920_%E6%81%86%E5%8B%81%E7%A7%91%E6%8A%80.md)** (半導體 - 基板) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2351 順德](../enrichment_all_rendered/2351_%E9%A0%86%E5%BE%B7.md)** (半導體 - 導線架) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2360 致茂](../enrichment_all_rendered/2360_%E8%87%B4%E8%8C%82.md)** (半導體 - 生產製程及檢測設備) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3219 倚強科](../enrichment_all_rendered/3219_%E5%80%9A%E5%BC%B7%E7%A7%91.md)** (半導體 - 生產製程及檢測設備) — `relationships.customers[0]`; match: AI 伺服器
+- **[5498 凱崴](../enrichment_all_rendered/5498_%E5%87%B1%E5%B4%B4.md)** (印刷電路板 - 基板組裝加工及相關製造) — `supply_chain.downstream[2]`, `relationships.customers[2]`; match: AI 伺服器
+- **[1802 台玻](../enrichment_all_rendered/1802_%E5%8F%B0%E7%8E%BB.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `supply_chain.downstream[2]`, `relationships.customers[0]`; match: AI 伺服器
+- **[5340 建榮](../enrichment_all_rendered/5340_%E5%BB%BA%E6%A6%AE.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `relationships.customers[1]`; match: AI 伺服器
+- **[5475 德宏](../enrichment_all_rendered/5475_%E5%BE%B7%E5%AE%8F.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `relationships.customers[1]`; match: AI 伺服器
+- **[3563 牧德](../enrichment_all_rendered/3563_%E7%89%A7%E5%BE%B7.md)** (印刷電路板 - 生產製程及檢測設備) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[8438 昶昕](../enrichment_all_rendered/8438_%E6%98%B6%E6%98%95.md)** (印刷電路板 - 生產製程及檢測設備) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2368 金像電](../enrichment_all_rendered/2368_%E9%87%91%E5%83%8F%E9%9B%BB.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3044 健鼎](../enrichment_all_rendered/3044_%E5%81%A5%E9%BC%8E.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `relationships.customers[3]`; match: AI 伺服器
+- **[8155 博智](../enrichment_all_rendered/8155_%E5%8D%9A%E6%99%BA.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[2383 台光電](../enrichment_all_rendered/2383_%E5%8F%B0%E5%85%89%E9%9B%BB.md)** (印刷電路板 - 銅箔基板) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3691 碩禾](../enrichment_all_rendered/3691_%E7%A2%A9%E7%A6%BE.md)** (太陽能產業 - 材料) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[4551 智伸科](../enrichment_all_rendered/4551_%E6%99%BA%E4%BC%B8%E7%A7%91.md)** (汽車 - 其他) — `supply_chain.downstream[4]`, `relationships.customers[4]`; match: AI 伺服器
+- **[2241 艾姆勒](../enrichment_all_rendered/2241_%E8%89%BE%E5%A7%86%E5%8B%92.md)** (汽車 - 車燈) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[4304 勝昱](../enrichment_all_rendered/4304_%E5%8B%9D%E6%98%B1.md)** (石化及塑橡膠 - 塑膠製品) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3221 台嘉碩](../enrichment_all_rendered/3221_%E5%8F%B0%E5%98%89%E7%A2%A9.md)** (被動元件 - 濾波器、振盪器) — `supply_chain.downstream[4]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3090 日電貿](../enrichment_all_rendered/3090_%E6%97%A5%E9%9B%BB%E8%B2%BF.md)** (被動元件 - 電容器) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[5328 華容](../enrichment_all_rendered/5328_%E8%8F%AF%E5%AE%B9.md)** (被動元件 - 電容器) — `supply_chain.downstream[3]`, `relationships.customers[3]`; match: AI 伺服器
+- **[8043 蜜望實](../enrichment_all_rendered/8043_%E8%9C%9C%E6%9C%9B%E5%AF%A6.md)** (被動元件 - 電容器) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[2492 華新科](../enrichment_all_rendered/2492_%E8%8F%AF%E6%96%B0%E7%A7%91.md)** (被動元件 - 電容器材料(如電蝕_化成鋁箔、介面瓷粉)) — `supply_chain.downstream[2]`; match: AI 伺服器
+- **[6175 立敦](../enrichment_all_rendered/6175_%E7%AB%8B%E6%95%A6.md)** (被動元件 - 電容器材料(如電蝕_化成鋁箔、介面瓷粉)) — `supply_chain.downstream[4]`, `relationships.customers[3]`; match: AI 伺服器
+- **[3207 耀勝](../enrichment_all_rendered/3207_%E8%80%80%E5%8B%9D.md)** (被動元件 - 電感器) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[3236 千如](../enrichment_all_rendered/3236_%E5%8D%83%E5%A6%82.md)** (被動元件 - 電感器) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[6155 鈞寶](../enrichment_all_rendered/6155_%E9%88%9E%E5%AF%B6.md)** (被動元件 - 電感器材料(如鐵氧體、導電漿墨)) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[2327 國巨](../enrichment_all_rendered/2327_%E5%9C%8B%E5%B7%A8.md)** (被動元件 - 電阻器) — `supply_chain.downstream[1]`, `relationships.customers[2]`; match: AI 伺服器
+- **[6834 天二科技](../enrichment_all_rendered/6834_%E5%A4%A9%E4%BA%8C%E7%A7%91%E6%8A%80.md)** (被動元件 - 電阻器) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3363 上詮](../enrichment_all_rendered/3363_%E4%B8%8A%E8%A9%AE.md)** (通信網路 - 光通訊設備(如光纖電纜、光傳輸設備)) — `supply_chain.downstream[1]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3002 歐格](../enrichment_all_rendered/3002_%E6%AD%90%E6%A0%BC.md)** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6245 立端](../enrichment_all_rendered/6245_%E7%AB%8B%E7%AB%AF.md)** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)) — `relationships.customers[3]`; match: AI 伺服器
+- **[3011 今皓](../enrichment_all_rendered/3011_%E4%BB%8A%E7%9A%93.md)** (通信網路 - 線材) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6190 萬泰科](../enrichment_all_rendered/6190_%E8%90%AC%E6%B3%B0%E7%A7%91.md)** (通信網路 - 線材) — `supply_chain.downstream[0]`, `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3322 建舜電](../enrichment_all_rendered/3322_%E5%BB%BA%E8%88%9C%E9%9B%BB.md)** (連接器 - 連接器設計、組裝及製造) — `supply_chain.downstream[0]`, `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3605 宏致](../enrichment_all_rendered/3605_%E5%AE%8F%E8%87%B4.md)** (連接器 - 連接器設計、組裝及製造) — `supply_chain.downstream[1]`, `supply_chain.downstream[2]`, `relationships.customers[1]`, +1 more; match: AI 伺服器
+- **[2324 仁寶](../enrichment_all_rendered/2324_%E4%BB%81%E5%AF%B6.md)** (運動科技 - 穿戴式裝置) — `supply_chain.downstream[2]`, `relationships.customers[2]`; match: AI 伺服器
+- **[2382 廣達](../enrichment_all_rendered/2382_%E5%BB%A3%E9%81%94.md)** (運動科技 - 穿戴式裝置) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2301 光寶科](../enrichment_all_rendered/2301_%E5%85%89%E5%AF%B6%E7%A7%91.md)** (醫療器材 - 醫療器材研發、設計、製造) — `relationships.customers[0]`; match: AI 伺服器
+- **[5288 豐祥-KY](../enrichment_all_rendered/5288_%E8%B1%90%E7%A5%A5-KY.md)** (醫療器材 - 電子零組件、塑化材料、五金零件) — `relationships.customers[4]`; match: AI 伺服器
+- **[2025 千興](../enrichment_all_rendered/2025_%E5%8D%83%E8%88%88.md)** (鋼鐵 - 冷熱軋不鏽鋼板捲) — `supply_chain.downstream[0]`, `relationships.customers[1]`; match: AI 伺服器
+- **[8210 勤誠](../enrichment_all_rendered/8210_%E5%8B%A4%E8%AA%A0.md)** (雲端運算 - 電腦設備) — `supply_chain.downstream[0]`, `supply_chain.downstream[1]`, `relationships.customers[0]`, +1 more; match: AI 伺服器
+- **[8358 金居](../enrichment_all_rendered/8358_%E9%87%91%E5%B1%85.md)** (電動車輛產業 - 鋰電池材料) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2421 建準](../enrichment_all_rendered/2421_%E5%BB%BA%E6%BA%96.md)** (電動車輛產業 - 零組件) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3015 全漢](../enrichment_all_rendered/3015_%E5%85%A8%E6%BC%A2.md)** (電動車輛產業 - 零組件) — `supply_chain.downstream[2]`; match: AI 伺服器
+- **[3058 立德](../enrichment_all_rendered/3058_%E7%AB%8B%E5%BE%B7.md)** (電動車輛產業 - 零組件) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3211 順達](../enrichment_all_rendered/3211_%E9%A0%86%E9%81%94.md)** (電動車輛產業 - 零組件) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[4503 金雨](../enrichment_all_rendered/4503_%E9%87%91%E9%9B%A8.md)** (電動車輛產業 - 零組件) — `relationships.customers[0]`; match: AI 伺服器
+- **[4543 萬在](../enrichment_all_rendered/4543_%E8%90%AC%E5%9C%A8.md)** (電機機械 - 五金元件及零配件) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[6982 大井泵浦](../enrichment_all_rendered/6982_%E5%A4%A7%E4%BA%95%E6%B3%B5%E6%B5%A6.md)** (電機機械 - 傳動元件) — `relationships.customers[0]`; match: AI 伺服器
+- **[8996 高力](../enrichment_all_rendered/8996_%E9%AB%98%E5%8A%9B.md)** (電機機械 - 油空壓元件) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6705 振躍精密](../enrichment_all_rendered/6705_%E6%8C%AF%E8%BA%8D%E7%B2%BE%E5%AF%86.md)** (電機機械 - 鋼鑄鐵元件) — `relationships.customers[2]`; match: AI 伺服器
+- **[4549 桓達](../enrichment_all_rendered/4549_%E6%A1%93%E9%81%94.md)** (電機機械 - 電控元件) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[2376 技嘉](../enrichment_all_rendered/2376_%E6%8A%80%E5%98%89.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2377 微星](../enrichment_all_rendered/2377_%E5%BE%AE%E6%98%9F.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2059 川湖](../enrichment_all_rendered/2059_%E5%B7%9D%E6%B9%96.md)** (電腦及週邊設備 - 其他電腦及週邊設備之零組件) — `supply_chain.downstream[3]`, `relationships.customers[2]`; match: AI 伺服器
+- **[5426 振發](../enrichment_all_rendered/5426_%E6%8C%AF%E7%99%BC.md)** (電腦及週邊設備 - 其他電腦及週邊設備之零組件) — `supply_chain.downstream[3]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6584 南俊國際](../enrichment_all_rendered/6584_%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B.md)** (電腦及週邊設備 - 其他電腦及週邊設備之零組件) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3017 奇鋐](../enrichment_all_rendered/3017_%E5%A5%87%E9%8B%90.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `supply_chain.downstream[1]`; match: AI 伺服器
+- **[3071 協禧](../enrichment_all_rendered/3071_%E5%8D%94%E7%A6%A7.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3324 雙鴻](../enrichment_all_rendered/3324_%E9%9B%99%E9%B4%BB.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[3338 泰碩](../enrichment_all_rendered/3338_%E6%B3%B0%E7%A2%A9.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `supply_chain.downstream[0]`, `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[6831 邁科](../enrichment_all_rendered/6831_%E9%82%81%E7%A7%91.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[3231 緯創](../enrichment_all_rendered/3231_%E7%B7%AF%E5%89%B5.md)** (電腦及週邊設備 - 桌上型電腦) — `relationships.customers[1]`; match: AI 伺服器
+- **[6805 富世達](../enrichment_all_rendered/6805_%E5%AF%8C%E4%B8%96%E9%81%94.md)** (電腦及週邊設備 - 機構樞紐) — `supply_chain.downstream[4]`; match: AI 伺服器
+- **[3013 晟銘電](../enrichment_all_rendered/3013_%E6%99%9F%E9%8A%98%E9%9B%BB.md)** (電腦及週邊設備 - 機殼) — `supply_chain.downstream[2]`, `supply_chain.downstream[4]`, `relationships.customers[0]`, +1 more; match: AI 伺服器
+- **[3032 偉訓](../enrichment_all_rendered/3032_%E5%81%89%E8%A8%93.md)** (電腦及週邊設備 - 機殼) — `supply_chain.downstream[4]`, `relationships.customers[3]`; match: AI 伺服器
+- **[5465 富驊](../enrichment_all_rendered/5465_%E5%AF%8C%E9%A9%8A.md)** (電腦及週邊設備 - 機殼) — `supply_chain.downstream[2]`, `relationships.customers[1]`; match: AI 伺服器
+- **[2356 英業達](../enrichment_all_rendered/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)** (電腦及週邊設備 - 筆記型電腦) — `supply_chain.downstream[2]`, `relationships.customers[2]`; match: AI 伺服器
+- **[6134 萬旭](../enrichment_all_rendered/6134_%E8%90%AC%E6%97%AD.md)** (電腦及週邊設備 - 連接線) — `supply_chain.downstream[2]`, `relationships.customers[2]`; match: AI 伺服器
+- **[7861 貝爾威勒](../enrichment_all_rendered/7861_%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92.md)** (電腦及週邊設備 - 連接線) — `supply_chain.downstream[1]`, `relationships.customers[0]`; match: AI 伺服器
+- **[2420 新巨](../enrichment_all_rendered/2420_%E6%96%B0%E5%B7%A8.md)** (電腦及週邊設備 - 電源供應器) — `supply_chain.downstream[1]`; match: AI 伺服器
 
-## 相關公司 (78)
+## 相關公司 (161)
 
-- **6924 榮惠-KY創** (Electronic Components)
-- **5230 雷笛克光學** (LED照明產業 - 封裝_模組)
-- **6412 群電** (LED照明產業 - 燈具_應用)
-- **4569 六方科-KY** (Metal Fabrication)
-- **2610 華航** (交通運輸及航運 - 海陸空大眾運輸)
-- **6669 緯穎** (人工智慧 - 運算設備)
-- **6761 穩得** (其他 - 其他電子產品及電子服務產業)
-- **6840 東研信超** (其他 - 其他電子產品及電子服務產業)
-- **6903 巨漢** (其他 - 其他電子產品及電子服務產業)
-- **8021 尖點** (其他 - 其他電子產品及電子服務產業)
-- **3675 德微** (半導體 - IC_晶圓製造)
-- **2329 華泰** (半導體 - IC封裝測試)
-- **6291 沛亨** (半導體 - IC設計)
-- **6411 晶焱** (半導體 - IC設計)
-- **6415 矽力-KY** (半導體 - IC設計)
-- **6435 大中** (半導體 - IC設計)
-- **6693 廣閎科** (半導體 - IC設計)
-- **2347 聯強** (半導體 - IC通路)
-- **3305 昇貿** (半導體 - 化學品)
-- **3653 健策** (半導體 - 導線架)
-- **3030 德律** (半導體 - 生產製程及檢測設備)
-- **3093 港建** (半導體 - 生產製程及檢測設備)
-- **3219 倚強科** (半導體 - 生產製程及檢測設備)
-- **1303 南亞** (印刷電路板 - 玻璃纖維_玻纖布)
-- **1802 台玻** (印刷電路板 - 玻璃纖維_玻纖布)
-- **1815 富喬** (印刷電路板 - 玻璃纖維_玻纖布)
-- **5340 建榮** (印刷電路板 - 玻璃纖維_玻纖布)
-- **5475 德宏** (印刷電路板 - 玻璃纖維_玻纖布)
-- **6727 亞泰金屬** (印刷電路板 - 生產製程及檢測設備)
-- **8438 昶昕** (印刷電路板 - 生產製程及檢測設備)
-- **3037 欣興** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **3115 富榮綱** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **3229 晟鈦** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **4958 臻鼎-KY** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **8046 南電** (印刷電路板 - 硬板、軟板、IC載板製造)
-- **2406 國碩** (太陽能產業 - 太陽能發電設備_系統及系統工程)
-- **6234 高僑** (太陽能產業 - 太陽能發電設備_系統及系統工程)
-- **6409 旭隼** (太陽能產業 - 太陽能發電設備_系統及系統工程)
-- **4551 智伸科** (汽車 - 其他)
-- **1514 亞力** (汽電共生 - 配電系統)
-- **1612 宏泰** (汽電共生 - 電纜)
-- **6618 永虹先進** (石化及塑橡膠 - 人造纖維)
-- **6425 易發** (自動化 - 自動化機台(例如加工、運輸、檢測、包裝等機台))
-- **3042 晶技** (被動元件 - 濾波器、振盪器)
-- **3221 台嘉碩** (被動元件 - 濾波器、振盪器)
-- **3090 日電貿** (被動元件 - 電容器)
-- **5328 華容** (被動元件 - 電容器)
-- **6175 立敦** (被動元件 - 電容器材料(如電蝕_化成鋁箔、介面瓷粉))
-- **3207 耀勝** (被動元件 - 電感器)
-- **3357 臺慶科** (被動元件 - 電感器材料(如鐵氧體、導電漿墨))
-- **8121 越峰** (被動元件 - 電感器材料(如鐵氧體、導電漿墨))
-- **3564 其陽** (資通訊安全 - 網路基礎設施)
-- **1608 華榮** (通信網路 - 光通訊設備(如光纖電纜、光傳輸設備))
-- **2345 智邦** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話))
-- **3217 優群** (連接器 - 連接器設計、組裝及製造)
-- **3526 凡甲** (連接器 - 連接器設計、組裝及製造)
-- **3533 嘉澤** (連接器 - 連接器設計、組裝及製造)
-- **3689 湧德** (連接器 - 連接器設計、組裝及製造)
-- **6272 驊陞** (連接器 - 連接器設計、組裝及製造)
-- **6290 良維** (連接器 - 連接器設計、組裝及製造)
-- **6418 詠昇** (連接器 - 連接器設計、組裝及製造)
-- **5457 宣德** (醫療器材 - 醫療器材研發、設計、製造)
-- **5288 豐祥-KY** (醫療器材 - 電子零組件、塑化材料、五金零件)
-- **1519 華城** (電動車輛產業 - 零組件)
-- **3323 加百裕** (電動車輛產業 - 零組件)
-- **4931 新盛力** (電動車輛產業 - 零組件)
-- **6220 岳豐** (電子商務 - 自有產品(服務)銷售)
-- **4573 高明鐵** (電機機械 - 傳動元件)
-- **6705 振躍精密** (電機機械 - 鋼鑄鐵元件)
-- **2425 承啟** (電腦及週邊設備 - 主機板)
-- **2059 川湖** (電腦及週邊設備 - 其他電腦及週邊設備之零組件)
-- **3191 雲嘉南** (電腦及週邊設備 - 其他電腦及週邊設備之零組件)
-- **4999 鑫禾** (電腦及週邊設備 - 機構樞紐)
-- **6805 富世達** (電腦及週邊設備 - 機構樞紐)
-- **3013 晟銘電** (電腦及週邊設備 - 機殼)
-- **3032 偉訓** (電腦及週邊設備 - 機殼)
-- **3540 曜越** (電腦及週邊設備 - 機殼)
-- **3388 崇越電** (食品生技 - 原料)
+- **[6933 AMAX-KY](../enrichment_all_rendered/6933_AMAX-KY.md)** (Computer Hardware) — `business.summary`, `competitive_position.moats[0]`, `competitive_position.notes[0]`; match: AI 伺服器
+- **[6862 三集瑞-KY](../enrichment_all_rendered/6862_%E4%B8%89%E9%9B%86%E7%91%9E-KY.md)** (Electronic Components) — `business.summary`, `competitive_position.notes[0]`; match: AI 伺服器
+- **[3483 力致](../enrichment_all_rendered/3483_%E5%8A%9B%E8%87%B4.md)** (LED照明產業 - 燈具_應用) — `business.summary`; match: AI 伺服器
+- **[6412 群電](../enrichment_all_rendered/6412_%E7%BE%A4%E9%9B%BB.md)** (LED照明產業 - 燈具_應用) — `business.summary`; match: AI 伺服器
+- **[4569 六方科-KY](../enrichment_all_rendered/4569_%E5%85%AD%E6%96%B9%E7%A7%91-KY.md)** (Metal Fabrication) — `business.summary`; match: AI 伺服器
+- **[2610 華航](../enrichment_all_rendered/2610_%E8%8F%AF%E8%88%AA.md)** (交通運輸及航運 - 海陸空大眾運輸) — `business.summary`; match: AI 伺服器
+- **[2618 長榮航](../enrichment_all_rendered/2618_%E9%95%B7%E6%A6%AE%E8%88%AA.md)** (交通運輸及航運 - 海陸空大眾運輸) — `business.summary`; match: AI 伺服器
+- **[2646 星宇航空](../enrichment_all_rendered/2646_%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA.md)** (交通運輸及航運 - 海陸空大眾運輸) — `business.summary`; match: AI 伺服器
+- **[2643 捷迅](../enrichment_all_rendered/2643_%E6%8D%B7%E8%BF%85.md)** (交通運輸及航運 - 海陸空貨運承攬) — `business.summary`; match: AI 伺服器
+- **[5609 中菲行](../enrichment_all_rendered/5609_%E4%B8%AD%E8%8F%B2%E8%A1%8C.md)** (交通運輸及航運 - 海陸空貨運承攬) — `business.summary`; match: AI 伺服器
+- **[5607 遠雄港](../enrichment_all_rendered/5607_%E9%81%A0%E9%9B%84%E6%B8%AF.md)** (交通運輸及航運 - 貨櫃運輸集散及倉儲) — `business.summary`; match: AI 伺服器
+- **[2357 華碩](../enrichment_all_rendered/2357_%E8%8F%AF%E7%A2%A9.md)** (人工智慧 - 智慧設備) — `business.summary`, `relationships.competitors[1]`; match: AI 伺服器
+- **[2308 台達電](../enrichment_all_rendered/2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md)** (人工智慧 - 系統整合) — `business.summary`; match: AI 伺服器
+- **[6669 緯穎](../enrichment_all_rendered/6669_%E7%B7%AF%E7%A9%8E.md)** (人工智慧 - 運算設備) — `business.summary`; match: AI 伺服器
+- **[3665 貿聯-KY](../enrichment_all_rendered/3665_%E8%B2%BF%E8%81%AF-KY.md)** (休閒娛樂 - 休閒車業) — `business.summary`; match: AI 伺服器
+- **[6698 旭暉應材](../enrichment_all_rendered/6698_%E6%97%AD%E6%9A%89%E6%87%89%E6%9D%90.md)** (其他 - 其他電子產品及電子服務產業) — `business.summary`; match: AI 伺服器
+- **[6761 穩得](../enrichment_all_rendered/6761_%E7%A9%A9%E5%BE%97.md)** (其他 - 其他電子產品及電子服務產業) — `business.summary`; match: AI 伺服器
+- **[6840 東研信超](../enrichment_all_rendered/6840_%E6%9D%B1%E7%A0%94%E4%BF%A1%E8%B6%85.md)** (其他 - 其他電子產品及電子服務產業) — `business.summary`; match: AI 伺服器
+- **[6903 巨漢](../enrichment_all_rendered/6903_%E5%B7%A8%E6%BC%A2.md)** (其他 - 其他電子產品及電子服務產業) — `business.summary`, `relationships.competitors[0]`; match: AI 伺服器
+- **[8021 尖點](../enrichment_all_rendered/8021_%E5%B0%96%E9%BB%9E.md)** (其他 - 其他電子產品及電子服務產業) — `business.summary`; match: AI 伺服器
+- **[8390 金益鼎](../enrichment_all_rendered/8390_%E9%87%91%E7%9B%8A%E9%BC%8E.md)** (其他 - 環保潔能服務產業) — `business.summary`; match: AI 伺服器
+- **[3515 華擎](../enrichment_all_rendered/3515_%E8%8F%AF%E6%93%8E.md)** (區塊鏈 - 元件裝置) — `business.summary`; match: AI 伺服器
+- **[2481 強茂](../enrichment_all_rendered/2481_%E5%BC%B7%E8%8C%82.md)** (半導體 - IC_晶圓製造) — `business.summary`; match: AI 伺服器
+- **[3675 德微](../enrichment_all_rendered/3675_%E5%BE%B7%E5%BE%AE.md)** (半導體 - IC_晶圓製造) — `business.summary`; match: AI 伺服器
+- **[2329 華泰](../enrichment_all_rendered/2329_%E8%8F%AF%E6%B3%B0.md)** (半導體 - IC封裝測試) — `business.summary`; match: AI 伺服器
+- **[3260 威剛](../enrichment_all_rendered/3260_%E5%A8%81%E5%89%9B.md)** (半導體 - IC模組) — `business.summary`; match: AI 伺服器
+- **[6291 沛亨](../enrichment_all_rendered/6291_%E6%B2%9B%E4%BA%A8.md)** (半導體 - IC設計) — `business.summary`, `competitive_position.moats[0]`; match: AI 伺服器
+- **[6411 晶焱](../enrichment_all_rendered/6411_%E6%99%B6%E7%84%B1.md)** (半導體 - IC設計) — `business.summary`; match: AI 伺服器
+- **[6415 矽力-KY](../enrichment_all_rendered/6415_%E7%9F%BD%E5%8A%9B-KY.md)** (半導體 - IC設計) — `business.summary`, `relationships.substitutes[0]`; match: AI 伺服器
+- **[6435 大中](../enrichment_all_rendered/6435_%E5%A4%A7%E4%B8%AD.md)** (半導體 - IC設計) — `business.summary`; match: AI 伺服器
+- **[6693 廣閎科](../enrichment_all_rendered/6693_%E5%BB%A3%E9%96%8E%E7%A7%91.md)** (半導體 - IC設計) — `business.summary`; match: AI 伺服器
+- **[2347 聯強](../enrichment_all_rendered/2347_%E8%81%AF%E5%BC%B7.md)** (半導體 - IC通路) — `business.summary`; match: AI 伺服器
+- **[8054 安國](../enrichment_all_rendered/8054_%E5%AE%89%E5%9C%8B.md)** (半導體 - IP設計_IC設計代工服務) — `business.summary`; match: AI 伺服器
+- **[3305 昇貿](../enrichment_all_rendered/3305_%E6%98%87%E8%B2%BF.md)** (半導體 - 化學品) — `business.summary`; match: AI 伺服器
+- **[4722 國精化](../enrichment_all_rendered/4722_%E5%9C%8B%E7%B2%BE%E5%8C%96.md)** (半導體 - 化學品) — `business.summary`; match: AI 伺服器
+- **[6920 恆勁科技](../enrichment_all_rendered/6920_%E6%81%86%E5%8B%81%E7%A7%91%E6%8A%80.md)** (半導體 - 基板) — `business.summary`; match: AI 伺服器
+- **[2351 順德](../enrichment_all_rendered/2351_%E9%A0%86%E5%BE%B7.md)** (半導體 - 導線架) — `business.summary`; match: AI 伺服器
+- **[3653 健策](../enrichment_all_rendered/3653_%E5%81%A5%E7%AD%96.md)** (半導體 - 導線架) — `business.summary`; match: AI 伺服器
+- **[2360 致茂](../enrichment_all_rendered/2360_%E8%87%B4%E8%8C%82.md)** (半導體 - 生產製程及檢測設備) — `business.summary`; match: AI 伺服器
+- **[3030 德律](../enrichment_all_rendered/3030_%E5%BE%B7%E5%BE%8B.md)** (半導體 - 生產製程及檢測設備) — `business.summary`; match: AI 伺服器
+- **[3093 港建](../enrichment_all_rendered/3093_%E6%B8%AF%E5%BB%BA.md)** (半導體 - 生產製程及檢測設備) — `business.summary`; match: AI 伺服器
+- **[3219 倚強科](../enrichment_all_rendered/3219_%E5%80%9A%E5%BC%B7%E7%A7%91.md)** (半導體 - 生產製程及檢測設備) — `business.summary`; match: AI 伺服器
+- **[5498 凱崴](../enrichment_all_rendered/5498_%E5%87%B1%E5%B4%B4.md)** (印刷電路板 - 基板組裝加工及相關製造) — `business.summary`; match: AI 伺服器
+- **[1303 南亞](../enrichment_all_rendered/1303_%E5%8D%97%E4%BA%9E.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `business.summary`; match: AI 伺服器
+- **[1802 台玻](../enrichment_all_rendered/1802_%E5%8F%B0%E7%8E%BB.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `business.summary`; match: AI 伺服器
+- **[1815 富喬](../enrichment_all_rendered/1815_%E5%AF%8C%E5%96%AC.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `business.summary`; match: AI 伺服器
+- **[5340 建榮](../enrichment_all_rendered/5340_%E5%BB%BA%E6%A6%AE.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `business.summary`, `competitive_position.moats[0]`, `competitive_position.notes[0]`; match: AI 伺服器
+- **[5475 德宏](../enrichment_all_rendered/5475_%E5%BE%B7%E5%AE%8F.md)** (印刷電路板 - 玻璃纖維_玻纖布) — `business.summary`; match: AI 伺服器
+- **[3498 陽程](../enrichment_all_rendered/3498_%E9%99%BD%E7%A8%8B.md)** (印刷電路板 - 生產製程及檢測設備) — `business.summary`; match: AI 伺服器
+- **[3563 牧德](../enrichment_all_rendered/3563_%E7%89%A7%E5%BE%B7.md)** (印刷電路板 - 生產製程及檢測設備) — `business.summary`, `relationships.competitors[0]`, `relationships.peers[0]`; match: AI 伺服器
+- **[6727 亞泰金屬](../enrichment_all_rendered/6727_%E4%BA%9E%E6%B3%B0%E9%87%91%E5%B1%AC.md)** (印刷電路板 - 生產製程及檢測設備) — `business.summary`; match: AI 伺服器
+- **[8438 昶昕](../enrichment_all_rendered/8438_%E6%98%B6%E6%98%95.md)** (印刷電路板 - 生產製程及檢測設備) — `business.summary`; match: AI 伺服器
+- **[2368 金像電](../enrichment_all_rendered/2368_%E9%87%91%E5%83%8F%E9%9B%BB.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[3037 欣興](../enrichment_all_rendered/3037_%E6%AC%A3%E8%88%88.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[3044 健鼎](../enrichment_all_rendered/3044_%E5%81%A5%E9%BC%8E.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[3115 富榮綱](../enrichment_all_rendered/3115_%E5%AF%8C%E6%A6%AE%E7%B6%B1.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[3229 晟鈦](../enrichment_all_rendered/3229_%E6%99%9F%E9%88%A6.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[3321 同泰](../enrichment_all_rendered/3321_%E5%90%8C%E6%B3%B0.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[4927 泰鼎-KY](../enrichment_all_rendered/4927_%E6%B3%B0%E9%BC%8E-KY.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[4958 臻鼎-KY](../enrichment_all_rendered/4958_%E8%87%BB%E9%BC%8E-KY.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[8046 南電](../enrichment_all_rendered/8046_%E5%8D%97%E9%9B%BB.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[8155 博智](../enrichment_all_rendered/8155_%E5%8D%9A%E6%99%BA.md)** (印刷電路板 - 硬板、軟板、IC載板製造) — `business.summary`; match: AI 伺服器
+- **[4989 榮科](../enrichment_all_rendered/4989_%E6%A6%AE%E7%A7%91.md)** (印刷電路板 - 銅箔) — `business.summary`; match: AI 伺服器
+- **[2383 台光電](../enrichment_all_rendered/2383_%E5%8F%B0%E5%85%89%E9%9B%BB.md)** (印刷電路板 - 銅箔基板) — `business.summary`, `relationships.substitutes[0]`; match: AI 伺服器
+- **[2406 國碩](../enrichment_all_rendered/2406_%E5%9C%8B%E7%A2%A9.md)** (太陽能產業 - 太陽能發電設備_系統及系統工程) — `business.summary`; match: AI 伺服器
+- **[6234 高僑](../enrichment_all_rendered/6234_%E9%AB%98%E5%83%91.md)** (太陽能產業 - 太陽能發電設備_系統及系統工程) — `business.summary`; match: AI 伺服器
+- **[6409 旭隼](../enrichment_all_rendered/6409_%E6%97%AD%E9%9A%BC.md)** (太陽能產業 - 太陽能發電設備_系統及系統工程) — `business.summary`; match: AI 伺服器
+- **[3691 碩禾](../enrichment_all_rendered/3691_%E7%A2%A9%E7%A6%BE.md)** (太陽能產業 - 材料) — `business.summary`; match: AI 伺服器
+- **[1587 吉茂](../enrichment_all_rendered/1587_%E5%90%89%E8%8C%82.md)** (汽車 - 其他) — `business.summary`; match: AI 伺服器
+- **[2228 劍麟](../enrichment_all_rendered/2228_%E5%8A%8D%E9%BA%9F.md)** (汽車 - 其他) — `business.summary`; match: AI 伺服器
+- **[4551 智伸科](../enrichment_all_rendered/4551_%E6%99%BA%E4%BC%B8%E7%A7%91.md)** (汽車 - 其他) — `business.summary`; match: AI 伺服器
+- **[1514 亞力](../enrichment_all_rendered/1514_%E4%BA%9E%E5%8A%9B.md)** (汽電共生 - 配電系統) — `business.summary`; match: AI 伺服器
+- **[1612 宏泰](../enrichment_all_rendered/1612_%E5%AE%8F%E6%B3%B0.md)** (汽電共生 - 電纜) — `business.summary`; match: AI 伺服器
+- **[6618 永虹先進](../enrichment_all_rendered/6618_%E6%B0%B8%E8%99%B9%E5%85%88%E9%80%B2.md)** (石化及塑橡膠 - 人造纖維) — `business.summary`; match: AI 伺服器
+- **[4304 勝昱](../enrichment_all_rendered/4304_%E5%8B%9D%E6%98%B1.md)** (石化及塑橡膠 - 塑膠製品) — `business.summary`; match: AI 伺服器
+- **[6425 易發](../enrichment_all_rendered/6425_%E6%98%93%E7%99%BC.md)** (自動化 - 自動化機台(例如加工、運輸、檢測、包裝等機台)) — `business.summary`; match: AI 伺服器
+- **[3042 晶技](../enrichment_all_rendered/3042_%E6%99%B6%E6%8A%80.md)** (被動元件 - 濾波器、振盪器) — `business.summary`; match: AI 伺服器
+- **[3221 台嘉碩](../enrichment_all_rendered/3221_%E5%8F%B0%E5%98%89%E7%A2%A9.md)** (被動元件 - 濾波器、振盪器) — `business.summary`; match: AI 伺服器
+- **[3090 日電貿](../enrichment_all_rendered/3090_%E6%97%A5%E9%9B%BB%E8%B2%BF.md)** (被動元件 - 電容器) — `business.summary`; match: AI 伺服器
+- **[5328 華容](../enrichment_all_rendered/5328_%E8%8F%AF%E5%AE%B9.md)** (被動元件 - 電容器) — `business.summary`; match: AI 伺服器
+- **[8043 蜜望實](../enrichment_all_rendered/8043_%E8%9C%9C%E6%9C%9B%E5%AF%A6.md)** (被動元件 - 電容器) — `business.summary`; match: AI 伺服器
+- **[6175 立敦](../enrichment_all_rendered/6175_%E7%AB%8B%E6%95%A6.md)** (被動元件 - 電容器材料(如電蝕_化成鋁箔、介面瓷粉)) — `business.summary`; match: AI 伺服器
+- **[3207 耀勝](../enrichment_all_rendered/3207_%E8%80%80%E5%8B%9D.md)** (被動元件 - 電感器) — `business.summary`; match: AI 伺服器
+- **[3236 千如](../enrichment_all_rendered/3236_%E5%8D%83%E5%A6%82.md)** (被動元件 - 電感器) — `business.summary`; match: AI 伺服器
+- **[3357 臺慶科](../enrichment_all_rendered/3357_%E8%87%BA%E6%85%B6%E7%A7%91.md)** (被動元件 - 電感器材料(如鐵氧體、導電漿墨)) — `business.summary`; match: AI 伺服器
+- **[6155 鈞寶](../enrichment_all_rendered/6155_%E9%88%9E%E5%AF%B6.md)** (被動元件 - 電感器材料(如鐵氧體、導電漿墨)) — `business.summary`; match: AI 伺服器
+- **[8121 越峰](../enrichment_all_rendered/8121_%E8%B6%8A%E5%B3%B0.md)** (被動元件 - 電感器材料(如鐵氧體、導電漿墨)) — `business.summary`; match: AI 伺服器
+- **[2327 國巨](../enrichment_all_rendered/2327_%E5%9C%8B%E5%B7%A8.md)** (被動元件 - 電阻器) — `business.summary`; match: AI 伺服器
+- **[6834 天二科技](../enrichment_all_rendered/6834_%E5%A4%A9%E4%BA%8C%E7%A7%91%E6%8A%80.md)** (被動元件 - 電阻器) — `business.summary`; match: AI 伺服器
+- **[3564 其陽](../enrichment_all_rendered/3564_%E5%85%B6%E9%99%BD.md)** (資通訊安全 - 網路基礎設施) — `business.summary`; match: AI 伺服器
+- **[1608 華榮](../enrichment_all_rendered/1608_%E8%8F%AF%E6%A6%AE.md)** (通信網路 - 光通訊設備(如光纖電纜、光傳輸設備)) — `business.summary`; match: AI 伺服器
+- **[3363 上詮](../enrichment_all_rendered/3363_%E4%B8%8A%E8%A9%AE.md)** (通信網路 - 光通訊設備(如光纖電纜、光傳輸設備)) — `relationships.substitutes[0]`; match: AI 伺服器
+- **[3558 神準](../enrichment_all_rendered/3558_%E7%A5%9E%E6%BA%96.md)** (通信網路 - 有線通訊設備(如電話機、傳真機)) — `business.summary`; match: AI 伺服器
+- **[2345 智邦](../enrichment_all_rendered/2345_%E6%99%BA%E9%82%A6.md)** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)) — `business.summary`; match: AI 伺服器
+- **[3002 歐格](../enrichment_all_rendered/3002_%E6%AD%90%E6%A0%BC.md)** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)) — `business.summary`; match: AI 伺服器
+- **[6245 立端](../enrichment_all_rendered/6245_%E7%AB%8B%E7%AB%AF.md)** (通信網路 - 網路設備(如數據機、網路卡、閘道器、路由器、網路電話)) — `business.summary`; match: AI 伺服器
+- **[3011 今皓](../enrichment_all_rendered/3011_%E4%BB%8A%E7%9A%93.md)** (通信網路 - 線材) — `business.summary`; match: AI 伺服器
+- **[6190 萬泰科](../enrichment_all_rendered/6190_%E8%90%AC%E6%B3%B0%E7%A7%91.md)** (通信網路 - 線材) — `business.summary`; match: AI 伺服器
+- **[3217 優群](../enrichment_all_rendered/3217_%E5%84%AA%E7%BE%A4.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`; match: AI 伺服器
+- **[3322 建舜電](../enrichment_all_rendered/3322_%E5%BB%BA%E8%88%9C%E9%9B%BB.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`, `competitive_position.moats[0]`, `competitive_position.risks[0]`, +1 more; match: AI 伺服器
+- **[3526 凡甲](../enrichment_all_rendered/3526_%E5%87%A1%E7%94%B2.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`; match: AI 伺服器
+- **[3533 嘉澤](../enrichment_all_rendered/3533_%E5%98%89%E6%BE%A4.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`; match: AI 伺服器
+- **[3605 宏致](../enrichment_all_rendered/3605_%E5%AE%8F%E8%87%B4.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`; match: AI 伺服器
+- **[3689 湧德](../enrichment_all_rendered/3689_%E6%B9%A7%E5%BE%B7.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`; match: AI 伺服器
+- **[6272 驊陞](../enrichment_all_rendered/6272_%E9%A9%8A%E9%99%9E.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`; match: AI 伺服器
+- **[6290 良維](../enrichment_all_rendered/6290_%E8%89%AF%E7%B6%AD.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`; match: AI 伺服器
+- **[6418 詠昇](../enrichment_all_rendered/6418_%E8%A9%A0%E6%98%87.md)** (連接器 - 連接器設計、組裝及製造) — `business.summary`, `competitive_position.moats[0]`; match: AI 伺服器
+- **[2324 仁寶](../enrichment_all_rendered/2324_%E4%BB%81%E5%AF%B6.md)** (運動科技 - 穿戴式裝置) — `business.summary`; match: AI 伺服器
+- **[2382 廣達](../enrichment_all_rendered/2382_%E5%BB%A3%E9%81%94.md)** (運動科技 - 穿戴式裝置) — `business.summary`; match: AI 伺服器
+- **[2301 光寶科](../enrichment_all_rendered/2301_%E5%85%89%E5%AF%B6%E7%A7%91.md)** (醫療器材 - 醫療器材研發、設計、製造) — `business.summary`; match: AI 伺服器
+- **[5457 宣德](../enrichment_all_rendered/5457_%E5%AE%A3%E5%BE%B7.md)** (醫療器材 - 醫療器材研發、設計、製造) — `business.summary`; match: AI 伺服器
+- **[5288 豐祥-KY](../enrichment_all_rendered/5288_%E8%B1%90%E7%A5%A5-KY.md)** (醫療器材 - 電子零組件、塑化材料、五金零件) — `business.summary`; match: AI 伺服器
+- **[2480 敦陽科](../enrichment_all_rendered/2480_%E6%95%A6%E9%99%BD%E7%A7%91.md)** (金融科技 - 數位身分) — `business.summary`; match: AI 伺服器
+- **[2025 千興](../enrichment_all_rendered/2025_%E5%8D%83%E8%88%88.md)** (鋼鐵 - 冷熱軋不鏽鋼板捲) — `business.summary`; match: AI 伺服器
+- **[5009 榮剛](../enrichment_all_rendered/5009_%E6%A6%AE%E5%89%9B.md)** (鋼鐵 - 鋼胚) — `business.summary`; match: AI 伺服器
+- **[3057 喬鼎](../enrichment_all_rendered/3057_%E5%96%AC%E9%BC%8E.md)** (雲端運算 - 電腦設備) — `business.summary`; match: AI 伺服器
+- **[8210 勤誠](../enrichment_all_rendered/8210_%E5%8B%A4%E8%AA%A0.md)** (雲端運算 - 電腦設備) — `business.summary`; match: AI 伺服器
+- **[8358 金居](../enrichment_all_rendered/8358_%E9%87%91%E5%B1%85.md)** (電動車輛產業 - 鋰電池材料) — `business.summary`, `competitive_position.notes[0]`; match: AI 伺服器
+- **[1519 華城](../enrichment_all_rendered/1519_%E8%8F%AF%E5%9F%8E.md)** (電動車輛產業 - 零組件) — `business.summary`; match: AI 伺服器
+- **[2421 建準](../enrichment_all_rendered/2421_%E5%BB%BA%E6%BA%96.md)** (電動車輛產業 - 零組件) — `business.summary`; match: AI 伺服器
+- **[3015 全漢](../enrichment_all_rendered/3015_%E5%85%A8%E6%BC%A2.md)** (電動車輛產業 - 零組件) — `business.summary`, `competitive_position.moats[0]`; match: AI 伺服器
+- **[3058 立德](../enrichment_all_rendered/3058_%E7%AB%8B%E5%BE%B7.md)** (電動車輛產業 - 零組件) — `business.summary`; match: AI 伺服器
+- **[3211 順達](../enrichment_all_rendered/3211_%E9%A0%86%E9%81%94.md)** (電動車輛產業 - 零組件) — `business.summary`; match: AI 伺服器
+- **[3323 加百裕](../enrichment_all_rendered/3323_%E5%8A%A0%E7%99%BE%E8%A3%95.md)** (電動車輛產業 - 零組件) — `business.summary`; match: AI 伺服器
+- **[4931 新盛力](../enrichment_all_rendered/4931_%E6%96%B0%E7%9B%9B%E5%8A%9B.md)** (電動車輛產業 - 零組件) — `business.summary`; match: AI 伺服器
+- **[6220 岳豐](../enrichment_all_rendered/6220_%E5%B2%B3%E8%B1%90.md)** (電子商務 - 自有產品(服務)銷售) — `business.summary`; match: AI 伺服器
+- **[4543 萬在](../enrichment_all_rendered/4543_%E8%90%AC%E5%9C%A8.md)** (電機機械 - 五金元件及零配件) — `business.summary`; match: AI 伺服器
+- **[4573 高明鐵](../enrichment_all_rendered/4573_%E9%AB%98%E6%98%8E%E9%90%B5.md)** (電機機械 - 傳動元件) — `business.summary`; match: AI 伺服器
+- **[6982 大井泵浦](../enrichment_all_rendered/6982_%E5%A4%A7%E4%BA%95%E6%B3%B5%E6%B5%A6.md)** (電機機械 - 傳動元件) — `business.summary`; match: AI 伺服器
+- **[8996 高力](../enrichment_all_rendered/8996_%E9%AB%98%E5%8A%9B.md)** (電機機械 - 油空壓元件) — `business.summary`; match: AI 伺服器
+- **[6705 振躍精密](../enrichment_all_rendered/6705_%E6%8C%AF%E8%BA%8D%E7%B2%BE%E5%AF%86.md)** (電機機械 - 鋼鑄鐵元件) — `business.summary`; match: AI 伺服器
+- **[4549 桓達](../enrichment_all_rendered/4549_%E6%A1%93%E9%81%94.md)** (電機機械 - 電控元件) — `business.summary`; match: AI 伺服器
+- **[2425 承啟](../enrichment_all_rendered/2425_%E6%89%BF%E5%95%9F.md)** (電腦及週邊設備 - 主機板) — `business.summary`, `relationships.other[3]`; match: AI 伺服器
+- **[3147 大綜](../enrichment_all_rendered/3147_%E5%A4%A7%E7%B6%9C.md)** (電腦及週邊設備 - 伺服器) — `business.summary`; match: AI 伺服器
+- **[7711 永擎](../enrichment_all_rendered/7711_%E6%B0%B8%E6%93%8E.md)** (電腦及週邊設備 - 伺服器) — `business.summary`; match: AI 伺服器
+- **[2317 鴻海](../enrichment_all_rendered/2317_%E9%B4%BB%E6%B5%B7.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `business.summary`; match: AI 伺服器
+- **[2376 技嘉](../enrichment_all_rendered/2376_%E6%8A%80%E5%98%89.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `business.summary`; match: AI 伺服器
+- **[2377 微星](../enrichment_all_rendered/2377_%E5%BE%AE%E6%98%9F.md)** (電腦及週邊設備 - 其他電腦及週邊設備) — `business.summary`; match: AI 伺服器
+- **[2059 川湖](../enrichment_all_rendered/2059_%E5%B7%9D%E6%B9%96.md)** (電腦及週邊設備 - 其他電腦及週邊設備之零組件) — `business.summary`; match: AI 伺服器
+- **[3191 雲嘉南](../enrichment_all_rendered/3191_%E9%9B%B2%E5%98%89%E5%8D%97.md)** (電腦及週邊設備 - 其他電腦及週邊設備之零組件) — `business.summary`; match: AI 伺服器
+- **[5426 振發](../enrichment_all_rendered/5426_%E6%8C%AF%E7%99%BC.md)** (電腦及週邊設備 - 其他電腦及週邊設備之零組件) — `business.summary`; match: AI 伺服器
+- **[6584 南俊國際](../enrichment_all_rendered/6584_%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B.md)** (電腦及週邊設備 - 其他電腦及週邊設備之零組件) — `business.summary`; match: AI 伺服器
+- **[3017 奇鋐](../enrichment_all_rendered/3017_%E5%A5%87%E9%8B%90.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `business.summary`, `competitive_position.moats[0]`, `competitive_position.notes[0]`; match: AI 伺服器
+- **[3071 協禧](../enrichment_all_rendered/3071_%E5%8D%94%E7%A6%A7.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `business.summary`; match: AI 伺服器
+- **[3324 雙鴻](../enrichment_all_rendered/3324_%E9%9B%99%E9%B4%BB.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `business.summary`, `competitive_position.moats[0]`, `competitive_position.notes[0]`; match: AI 伺服器
+- **[3338 泰碩](../enrichment_all_rendered/3338_%E6%B3%B0%E7%A2%A9.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `business.summary`; match: AI 伺服器
+- **[4912 聯德控股-KY](../enrichment_all_rendered/4912_%E8%81%AF%E5%BE%B7%E6%8E%A7%E8%82%A1-KY.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `business.summary`; match: AI 伺服器
+- **[6831 邁科](../enrichment_all_rendered/6831_%E9%82%81%E7%A7%91.md)** (電腦及週邊設備 - 散熱片、風扇馬達、散熱模組) — `business.summary`; match: AI 伺服器
+- **[3231 緯創](../enrichment_all_rendered/3231_%E7%B7%AF%E5%89%B5.md)** (電腦及週邊設備 - 桌上型電腦) — `business.summary`; match: AI 伺服器
+- **[4999 鑫禾](../enrichment_all_rendered/4999_%E9%91%AB%E7%A6%BE.md)** (電腦及週邊設備 - 機構樞紐) — `business.summary`; match: AI 伺服器
+- **[6805 富世達](../enrichment_all_rendered/6805_%E5%AF%8C%E4%B8%96%E9%81%94.md)** (電腦及週邊設備 - 機構樞紐) — `business.summary`; match: AI 伺服器
+- **[3013 晟銘電](../enrichment_all_rendered/3013_%E6%99%9F%E9%8A%98%E9%9B%BB.md)** (電腦及週邊設備 - 機殼) — `business.summary`; match: AI 伺服器
+- **[3032 偉訓](../enrichment_all_rendered/3032_%E5%81%89%E8%A8%93.md)** (電腦及週邊設備 - 機殼) — `business.summary`; match: AI 伺服器
+- **[3540 曜越](../enrichment_all_rendered/3540_%E6%9B%9C%E8%B6%8A.md)** (電腦及週邊設備 - 機殼) — `business.summary`; match: AI 伺服器
+- **[5465 富驊](../enrichment_all_rendered/5465_%E5%AF%8C%E9%A9%8A.md)** (電腦及週邊設備 - 機殼) — `business.summary`; match: AI 伺服器
+- **[3693 營邦](../enrichment_all_rendered/3693_%E7%87%9F%E9%82%A6.md)** (電腦及週邊設備 - 磁碟儲存系統) — `business.summary`; match: AI 伺服器
+- **[2356 英業達](../enrichment_all_rendered/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)** (電腦及週邊設備 - 筆記型電腦) — `business.summary`; match: AI 伺服器
+- **[6134 萬旭](../enrichment_all_rendered/6134_%E8%90%AC%E6%97%AD.md)** (電腦及週邊設備 - 連接線) — `business.summary`; match: AI 伺服器
+- **[7861 貝爾威勒](../enrichment_all_rendered/7861_%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92.md)** (電腦及週邊設備 - 連接線) — `business.summary`; match: AI 伺服器
+- **[2420 新巨](../enrichment_all_rendered/2420_%E6%96%B0%E5%B7%A8.md)** (電腦及週邊設備 - 電源供應器) — `business.summary`, `competitive_position.moats[0]`; match: AI 伺服器
+- **[3388 崇越電](../enrichment_all_rendered/3388_%E5%B4%87%E8%B6%8A%E9%9B%BB.md)** (食品生技 - 原料) — `business.summary`; match: AI 伺服器

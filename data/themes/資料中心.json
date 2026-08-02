@@ -4,13 +4,25 @@
   "desc": "超大規模資料中心基礎設施，涵蓋伺服器、網通、電源、散熱",
   "category": "AI / 資料中心",
   "order": 100,
-  "related": [
-    "AI 伺服器",
-    "CPO",
-    "矽光子",
-    "PCB"
-  ],
   "index_categories": [
     "AI / 資料中心"
-  ]
+  ],
+  "id": "theme.data_center",
+  "type": "theme",
+  "aliases": [
+    "資料中心"
+  ],
+  "related_theme_tags": [
+    "AI 伺服器",
+    "CPO",
+    "矽光子"
+  ],
+  "related_entities": [
+    "PCB"
+  ],
+  "render": {
+    "output_filename": "資料中心.md",
+    "badge_label": "資料中心",
+    "badge_color": "blue"
+  }
 }
