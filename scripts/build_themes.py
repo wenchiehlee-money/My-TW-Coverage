@@ -273,6 +273,13 @@ def criterion_matches(row: dict[str, str], criterion: dict[str, Any]) -> bool:
     return True
 
 
+def int_value(value: Any, default: int) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
 def iter_ic_taxonomy_entries(
     theme_tag: str,
     theme_def: dict[str, Any],
@@ -297,6 +304,8 @@ def iter_ic_taxonomy_entries(
             chain_code = str(criterion.get("chain_code", "")).strip()
             if not chain_code:
                 continue
+            default_rank = {"upstream": 100, "midstream": 200, "downstream": 300}.get(role, 900)
+            primary_rank = int_value(criterion.get("primary_rank"), default_rank)
             path = IC_TPEX_DIR / f"raw_SupplyChain_{chain_code}.csv"
             if not path.exists():
                 continue
@@ -326,6 +335,7 @@ def iter_ic_taxonomy_entries(
                         "match": "ic.tpex.org.tw",
                         "market_cap": market_cap,
                         "market_cap_label": market_cap_label,
+                        "primary_rank": primary_rank,
                     })
     return entries
 
@@ -497,7 +507,32 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
     lines = [f"# {theme_def['name']}", "", f"> {theme_def['desc']}", ""]
     has_theme_supply_chain = isinstance(theme_def.get("theme_supply_chain"), dict)
     structured_roles = {"upstream", "midstream", "downstream"}
+
+    def primary_rank(item: dict[str, Any]) -> int:
+        return int_value(item.get("primary_rank"), {"upstream": 100, "midstream": 200, "downstream": 300}.get(str(item.get("role") or ""), 900))
+
+    if has_theme_supply_chain:
+        best_role_by_ticker: dict[str, str] = {}
+        for ticker, ticker_entries in defaultdict(list, {
+            ticker: [e for e in entries if e.get("ticker") == ticker and e.get("role") in structured_roles]
+            for ticker in {str(e.get("ticker") or "") for e in entries if e.get("role") in structured_roles}
+        }).items():
+            if not ticker_entries:
+                continue
+            best = sorted(ticker_entries, key=lambda e: (primary_rank(e), str(e.get("role") or ""), str(e.get("source_path") or "")))[0]
+            best_role_by_ticker[ticker] = str(best.get("role") or "")
+        entries = [
+            e for e in entries
+            if e.get("role") not in structured_roles or best_role_by_ticker.get(str(e.get("ticker") or "")) == e.get("role")
+        ]
+
     structured_entries = [e for e in entries if e.get("role") in structured_roles]
+    if has_theme_supply_chain:
+        structured_tickers = {str(e.get("ticker") or "") for e in structured_entries}
+        entries = [
+            e for e in entries
+            if e.get("role") in structured_roles or str(e.get("ticker") or "") not in structured_tickers
+        ]
     count_entries = structured_entries if has_theme_supply_chain else entries
     lines.append(f"**涵蓋公司數:** {len({e['ticker'] for e in count_entries})}")
     if has_theme_supply_chain:
