@@ -38,7 +38,7 @@ jobs:
         run: python scripts/build_wikilink_index.py
 
       - name: Rebuild Themes Value Chain
-        run: python scripts/build_themes.py
+        run: python skills/skill-my-tw-coverage-render-markdown/scripts/build_themes.py
 
       - name: Rebuild Network Graph
         run: python scripts/build_network.py
