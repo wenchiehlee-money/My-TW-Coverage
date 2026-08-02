@@ -1,7 +1,7 @@
 """
 add_ticker.py — Generate a new ticker report with financials and base structure.
 
-Creates a new .md file under Pilot_Reports/{folder}/ with:
+Creates a new .md file under Pilot_Reports/ with:
 - Title with wikilinked company name
 - Metadata (sector, industry, market cap, enterprise value)
 - Placeholder sections for enrichment (業務簡介, 供應鏈, 客戶供應商)
@@ -9,7 +9,7 @@ Creates a new .md file under Pilot_Reports/{folder}/ with:
 
 Usage:
   python scripts/add_ticker.py 2330 台積電
-  python scripts/add_ticker.py 2330 台積電 --folder 半導體 - IC_晶圓製造
+  python scripts/add_ticker.py 2330 台積電 --folder 半導體 - IC_晶圓製造  # metadata hint only
   python scripts/add_ticker.py 2330 台積電 --sector Semiconductors  # Legacy fallback
 
 After generating, use /update-enrichment to add business descriptions.
@@ -74,7 +74,7 @@ def generate_report(ticker, name, sector=None, industry=None):
 
 
 def sanitize_folder_name(name):
-    """Clean up a mapped folder name for use under Pilot_Reports."""
+    """Clean up a mapped folder name for display/logging."""
     return re.sub(r'[<>:"/\\|?*]', "_", name).strip()
 
 
@@ -116,9 +116,9 @@ def main():
     print(f"Generating report for {ticker} ({name})...")
     content, detected_sector = generate_report(ticker, name, sector)
 
-    # Determine output folder
+    # Keep Pilot_Reports flat. Folder/sector is retained only as a metadata hint.
     folder_name = sanitize_folder_name(folder or sector or detected_sector)
-    output_dir = os.path.join(REPORTS_DIR, folder_name)
+    output_dir = REPORTS_DIR
     os.makedirs(output_dir, exist_ok=True)
 
     # Write file
