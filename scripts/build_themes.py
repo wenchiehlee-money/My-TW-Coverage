@@ -30,6 +30,23 @@ OUTPUT_THEMES_DIR = PROJECT_ROOT / "output" / "themes"
 COMPANY_OUTPUT_DIR = PROJECT_ROOT / "output" / "enrichment_all_rendered"
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 
+ENTITY_ALIAS_BY_COMPANY = {
+    "中華電": ["中華電信"],
+    "台灣大": ["台灣大哥大"],
+    "遠傳": ["遠傳電信"],
+    "世界": ["世界先進"],
+    "光寶科": ["光寶科技"],
+    "台達電": ["台達電子"],
+    "臻鼎-KY": ["臻鼎"],
+    "鈺齊-KY": ["鈺齊"],
+    "鴻華先進-創": ["鴻華先進"],
+    "友達": ["友達光電"],
+    "群創": ["群創光電"],
+    "日月光投控": ["日月光"],
+    "LINEPAY": ["LINE Pay"],
+}
+
+
 
 def safe_theme_filename(tag: str) -> str:
     return tag.replace(" ", "_").replace("/", "_") + ".md"
@@ -63,6 +80,41 @@ def render_theme_badge(theme_def: dict[str, Any], href: str | None = None, label
 
 def render_company_badge(label: str, target: str) -> str:
     return render_badge_link(label, target, "blue", quote_target=False)
+
+
+def normalized_entity_key(value: str) -> str:
+    return re.sub(r"[\s_\-]+", "", value).lower()
+
+
+def load_company_badge_index() -> dict[str, tuple[str, str]]:
+    index: dict[str, tuple[str, str]] = {}
+    for path in sorted(COMPANY_OUTPUT_DIR.glob("*.md")):
+        stem = path.stem
+        if "_" not in stem:
+            continue
+        ticker, company = stem.split("_", 1)
+        href = f"../enrichment_all_rendered/{quote(path.name)}"
+        aliases = {ticker, company, f"{ticker} {company}", f"{ticker}_{company}"}
+        aliases.update(ENTITY_ALIAS_BY_COMPANY.get(company, []))
+        for suffix in ("-KY", "-KY創", "-創"):
+            if company.endswith(suffix):
+                aliases.add(company[: -len(suffix)])
+        for alias in aliases:
+            if alias:
+                index.setdefault(alias, (alias, href))
+                normalized = normalized_entity_key(alias)
+                if normalized:
+                    index.setdefault(normalized, (alias, href))
+    return index
+
+
+def render_related_entity(entity: str, company_index: dict[str, tuple[str, str]]) -> str:
+    label = str(entity).strip()
+    target = company_index.get(label) or company_index.get(normalized_entity_key(label))
+    if not target:
+        return f"[[{label}]]"
+    _, href = target
+    return render_company_badge(label, href)
 
 
 def load_theme_definitions() -> dict[str, dict[str, Any]]:
@@ -278,13 +330,14 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
 
     related_parts: list[str] = []
     theme_defs_by_tag = getattr(build_theme_page, "theme_definitions", {})
+    company_badge_index = getattr(build_theme_page, "company_badge_index", {})
     for related_tag in theme_def.get("related_theme_tags", []) or []:
         count = len({e["ticker"] for e in theme_map.get(related_tag, [])})
         if count > 0 and related_tag in theme_map:
             related_def = theme_defs_by_tag.get(related_tag, {"tag": related_tag})
             related_parts.append(f"{render_theme_badge(related_def)} ({count})")
     if theme_def.get("related_entities"):
-        related_parts.extend(f"[[{entity}]]" for entity in theme_def.get("related_entities", []) or [])
+        related_parts.extend(render_related_entity(str(entity), company_badge_index) for entity in theme_def.get("related_entities", []) or [])
     if related_parts:
         lines.append(f"**相關主題/實體:** {' | '.join(related_parts)}")
         lines.append("")
@@ -383,6 +436,7 @@ def main() -> int:
     print("Scanning canonical enrichment JSON for theme links...")
     theme_map = scan_theme_links(theme_definitions)
     build_theme_page.theme_definitions = theme_definitions
+    build_theme_page.company_badge_index = load_company_badge_index()
     print(f"Found {len(theme_map)} themes with company matches.\n")
 
     if args and args[0] != "--list":

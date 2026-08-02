@@ -4,7 +4,7 @@
 
 **涵蓋公司數:** 100
 
-**相關主題/實體:** [[Apple]] | [[台積電]] | [[鴻海]]
+**相關主題/實體:** [[Apple]] | [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](../enrichment_all_rendered/2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) | [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](../enrichment_all_rendered/2317_%E9%B4%BB%E6%B5%B7.md)
 
 ---
 
