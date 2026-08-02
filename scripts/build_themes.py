@@ -41,6 +41,19 @@ def theme_output_filename(theme_def: dict[str, Any]) -> str:
     return filename or safe_theme_filename(str(theme_def.get("tag", "")).strip())
 
 
+def badge_label_text(label: str) -> str:
+    return quote(label.replace("-", "--"), safe="")
+
+
+def render_theme_badge(theme_def: dict[str, Any], href: str | None = None, label: str | None = None) -> str:
+    render = theme_def.get("render", {}) if isinstance(theme_def.get("render"), dict) else {}
+    badge_label = str(label or render.get("badge_label") or theme_def.get("tag") or "Theme").strip()
+    color = str(render.get("badge_color") or "blue").strip()
+    target = href or theme_output_filename(theme_def)
+    image = f"https://img.shields.io/badge/{badge_label_text(badge_label)}-{quote(color, safe='')}"
+    return f"[![{badge_label}]({image})]({quote(target)})"
+
+
 def load_theme_definitions() -> dict[str, dict[str, Any]]:
     """Load curated theme definitions from data/themes/*.json."""
     if not THEMES_DATA_DIR.is_dir():
@@ -259,7 +272,7 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
         count = len({e["ticker"] for e in theme_map.get(related_tag, [])})
         if count > 0 and related_tag in theme_map:
             related_def = theme_defs_by_tag.get(related_tag, {"tag": related_tag})
-            related_parts.append(f"[{related_tag}]({quote(theme_output_filename(related_def))}) ({count})")
+            related_parts.append(f"{render_theme_badge(related_def)} ({count})")
     if theme_def.get("related_entities"):
         related_parts.extend(f"[[{entity}]]" for entity in theme_def.get("related_entities", []) or [])
     if related_parts:
@@ -343,7 +356,7 @@ def build_index(themes_built: dict[str, int], theme_definitions: dict[str, dict[
         lines.append("")
         for tag, definition in sorted(items, key=lambda item: (item[1].get("order", 9990), item[0])):
             count = themes_built[tag]
-            lines.append(f"- [{tag}]({quote(theme_output_filename(definition))}) — {count} 家公司")
+            lines.append(f"- {render_theme_badge(definition)} — {count} 家公司")
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"

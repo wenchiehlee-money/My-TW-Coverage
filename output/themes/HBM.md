@@ -5,7 +5,7 @@
 **Theme ID:** `theme.hbm`
 **涵蓋公司數:** 16
 
-**相關主題/實體:** [CoWoS](CoWoS.md) (39) | [AI 伺服器](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (171) | [[DRAM]]
+**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-blue)](CoWoS.md) (39) | [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-blue)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (171) | [[DRAM]]
 
 ---
 

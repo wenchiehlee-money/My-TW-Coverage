@@ -5,7 +5,7 @@
 **Theme ID:** `theme.tesla_supply_chain`
 **涵蓋公司數:** 55
 
-**相關主題/實體:** [電動車](%E9%9B%BB%E5%8B%95%E8%BB%8A.md) (169) | [碳化矽](%E7%A2%B3%E5%8C%96%E7%9F%BD.md) (24) | [[Tesla]]
+**相關主題/實體:** [![電動車](https://img.shields.io/badge/%E9%9B%BB%E5%8B%95%E8%BB%8A-blue)](%E9%9B%BB%E5%8B%95%E8%BB%8A.md) (169) | [![碳化矽](https://img.shields.io/badge/%E7%A2%B3%E5%8C%96%E7%9F%BD-blue)](%E7%A2%B3%E5%8C%96%E7%9F%BD.md) (24) | [[Tesla]]
 
 ---
 

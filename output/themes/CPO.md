@@ -5,7 +5,7 @@
 **Theme ID:** `theme.cpo`
 **涵蓋公司數:** 14
 
-**相關主題/實體:** [矽光子](%E7%9F%BD%E5%85%89%E5%AD%90.md) (17) | [AI 伺服器](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (171) | [資料中心](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (111) | [[光收發模組]]
+**相關主題/實體:** [![矽光子](https://img.shields.io/badge/%E7%9F%BD%E5%85%89%E5%AD%90-blue)](%E7%9F%BD%E5%85%89%E5%AD%90.md) (17) | [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-blue)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (171) | [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-blue)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (111) | [[光收發模組]]
 
 ---
 

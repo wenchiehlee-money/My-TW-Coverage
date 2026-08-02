@@ -6,7 +6,7 @@
 **市值:** 14,035 百萬台幣
 **企業價值:** 13,972 百萬台幣
 
-英特磊 (IET-KY, [[Intel]]liEPI) 成立於 1999 年，總部位於美國德州 (註冊於開曼群島)。公司專注於 **分子束[[磊晶]] (MBE)** 技術，生產 **III-V 族化合物半導體[[磊晶]]片** (Epi Wafer)。與常見的 MO[[CVD]] 不同，MBE 技術具備原子級精確度，特別適合高頻、高效能元件。產品應用涵蓋 **[![磷化銦](https://img.shields.io/badge/磷化銦-blue)](../themes/%E7%A3%B7%E5%8C%96%E9%8A%A6.md) (InP)** ([[光通訊]]、HBT 射頻)、**砷化鎵 (GaAs)** (RF、pHEMT) 及 **銻化鎵 (GaSb)** (紅外線偵測、國防)。近期受惠於 **AI [![資料中心](https://img.shields.io/badge/資料中心-blue)](../themes/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md)** 對 800G 光收發模組需求，InP 相關[[磊晶]]片成長強勁。
+英特磊 (IET-KY, [[Intel]]liEPI) 成立於 1999 年，總部位於美國德州 (註冊於開曼群島)。公司專注於 **分子束[[磊晶]] (MBE)** 技術，生產 **III-V 族化合物半導體[[磊晶]]片** (Epi Wafer)。與常見的 MO[[CVD]] 不同，MBE 技術具備原子級精確度，特別適合高頻、高效能元件。產品應用涵蓋 **[![磷化銦](https://img.shields.io/badge/%E7%A3%B7%E5%8C%96%E9%8A%A6-blue)](../themes/%E7%A3%B7%E5%8C%96%E9%8A%A6.md) (InP)** ([[光通訊]]、HBT 射頻)、**砷化鎵 (GaAs)** (RF、pHEMT) 及 **銻化鎵 (GaSb)** (紅外線偵測、國防)。近期受惠於 **AI [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-blue)](../themes/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md)** 對 800G 光收發模組需求，InP 相關[[磊晶]]片成長強勁。
 
 ## 供應鏈位置
 **角色:** 化合物[[半導體]][[磊晶]]廠 (Epi House)。
