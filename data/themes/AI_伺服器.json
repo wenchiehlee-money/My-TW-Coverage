@@ -24,5 +24,71 @@
     "output_filename": "AI_伺服器.md",
     "badge_label": "AI 伺服器",
     "badge_color": "green"
+  },
+  "theme_supply_chain": {
+    "taxonomy_source": "../biztrends.TW/data/ic.tpex.org.tw/raw_SupplyChain_*.csv",
+    "role_semantics": "Theme layers are AI-server narrative roles backed by IC taxonomy rows; source_path preserves IC chain/position/subcategory provenance.",
+    "upstream": [
+      {
+        "chain_code": "F000",
+        "chain_name": "電腦及週邊設備",
+        "positions": [
+          "上游"
+        ],
+        "subcategories": [
+          "中央處理器",
+          "晶片組",
+          "顯示卡",
+          "記憶體",
+          "硬碟機",
+          "磁碟儲存系統",
+          "網路卡",
+          "電源供應器",
+          "散熱片、風扇馬達、散熱模組",
+          "機殼",
+          "主機板",
+          "輸出入模組/介面卡",
+          "連接線",
+          "其他電腦及週邊設備之零組件"
+        ]
+      }
+    ],
+    "midstream": [
+      {
+        "chain_code": "F000",
+        "chain_name": "電腦及週邊設備",
+        "positions": [
+          "下游"
+        ],
+        "subcategories": [
+          "伺服器"
+        ]
+      },
+      {
+        "chain_code": "5300",
+        "chain_name": "人工智慧",
+        "positions": [
+          "上游"
+        ],
+        "subcategories": [
+          "運算設備"
+        ]
+      }
+    ],
+    "downstream": [
+      {
+        "chain_code": "5300",
+        "chain_name": "人工智慧",
+        "positions": [
+          "上游"
+        ],
+        "subcategories": [
+          "雲端平台",
+          "資料處理",
+          "大型語言模型",
+          "領域解決方案"
+        ]
+      }
+    ]
   }
 }

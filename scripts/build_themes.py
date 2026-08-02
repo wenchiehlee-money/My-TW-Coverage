@@ -14,6 +14,7 @@ Output: output/themes/ folder with one .md per theme.
 
 from __future__ import annotations
 
+import csv
 import json
 import os
 import re
@@ -28,6 +29,8 @@ ENRICHMENT_JSON_DIR = PROJECT_ROOT / "data" / "enrichment_all"
 THEMES_DATA_DIR = PROJECT_ROOT / "data" / "themes"
 OUTPUT_THEMES_DIR = PROJECT_ROOT / "output" / "themes"
 COMPANY_OUTPUT_DIR = PROJECT_ROOT / "output" / "enrichment_all_rendered"
+DEFAULT_BIZTRENDS_ROOT = PROJECT_ROOT.parent / "biztrends.TW"
+IC_TPEX_DIR = DEFAULT_BIZTRENDS_ROOT / "data" / "ic.tpex.org.tw"
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 
 ENTITY_ALIAS_BY_COMPANY = {
@@ -197,6 +200,101 @@ def company_output_link(data: dict[str, Any]) -> str:
     return ""
 
 
+def company_output_link_by_identity(ticker: str, company: str) -> str:
+    filename = f"{ticker}_{company}.md"
+    if ticker and company and (COMPANY_OUTPUT_DIR / filename).exists():
+        return f"../enrichment_all_rendered/{quote(filename)}"
+    return ""
+
+
+def load_ic_chain_names() -> dict[str, str]:
+    chain_names: dict[str, str] = {}
+    path = IC_TPEX_DIR / "raw_SupplyChainMap.csv"
+    if not path.exists():
+        return chain_names
+    with path.open("r", encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            code = str(row.get("產業鏈代碼", "")).strip()
+            name = str(row.get("產業鏈名稱", "")).strip()
+            if code and name:
+                chain_names.setdefault(code, name)
+    return chain_names
+
+
+def split_criteria_values(value: Any) -> set[str]:
+    if value is None:
+        return set()
+    if isinstance(value, str):
+        raw = [value]
+    elif isinstance(value, list):
+        raw = [str(x) for x in value]
+    else:
+        raw = [str(value)]
+    values: set[str] = set()
+    for item in raw:
+        values.update(part.strip() for part in re.split(r"[;,，、]", item) if part.strip())
+    return values
+
+
+def criterion_matches(row: dict[str, str], criterion: dict[str, Any]) -> bool:
+    positions = split_criteria_values(criterion.get("position") or criterion.get("positions"))
+    subcategories = split_criteria_values(criterion.get("subcategory") or criterion.get("subcategories"))
+    if positions and str(row.get("位置", "")).strip() not in positions:
+        return False
+    if subcategories and str(row.get("子分類", "")).strip() not in subcategories:
+        return False
+    return True
+
+
+def iter_ic_taxonomy_entries(theme_tag: str, theme_def: dict[str, Any], chain_names: dict[str, str]) -> list[dict[str, str]]:
+    theme_supply_chain = theme_def.get("theme_supply_chain")
+    if not isinstance(theme_supply_chain, dict):
+        return []
+
+    entries: list[dict[str, str]] = []
+    seen: set[tuple[str, str, str, str]] = set()
+    for role in ("upstream", "midstream", "downstream"):
+        criteria = theme_supply_chain.get(role, [])
+        if isinstance(criteria, dict):
+            criteria = [criteria]
+        if not isinstance(criteria, list):
+            continue
+        for criterion in criteria:
+            if not isinstance(criterion, dict):
+                continue
+            chain_code = str(criterion.get("chain_code", "")).strip()
+            if not chain_code:
+                continue
+            path = IC_TPEX_DIR / f"raw_SupplyChain_{chain_code}.csv"
+            if not path.exists():
+                continue
+            chain_name = str(criterion.get("chain_name") or chain_names.get(chain_code) or chain_code).strip()
+            with path.open("r", encoding="utf-8-sig", newline="") as f:
+                for row in csv.DictReader(f):
+                    if not criterion_matches(row, criterion):
+                        continue
+                    ticker = str(row.get("代號", "")).strip()
+                    company = str(row.get("名稱", "")).strip()
+                    if not ticker or not company:
+                        continue
+                    position = str(row.get("位置", "")).strip()
+                    subcategory = str(row.get("子分類", "")).strip()
+                    key = (theme_tag, role, ticker, subcategory)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    entries.append({
+                        "ticker": ticker,
+                        "company": company,
+                        "sector": f"{chain_name} - {subcategory}" if subcategory else chain_name,
+                        "company_link": company_output_link_by_identity(ticker, company),
+                        "role": role,
+                        "source_path": f"ic.tpex.org.tw/{chain_code}/{position}/{subcategory}",
+                        "match": "ic.tpex.org.tw",
+                    })
+    return entries
+
+
 def item_entities(item: dict[str, Any]) -> set[str]:
     values = {str(x).strip() for x in item.get("entities", []) or [] if str(x).strip()}
     text = str(item.get("text", ""))
@@ -290,9 +388,18 @@ def explicit_theme_entries(data: dict[str, Any], theme_defs: dict[str, dict[str,
 
 
 def scan_theme_links(theme_defs: dict[str, dict[str, Any]]) -> dict[str, list[dict[str, str]]]:
-    """Scan canonical company JSON and return {theme_tag: [company entries]}."""
+    """Scan canonical company JSON and IC taxonomy, returning {theme_tag: [company entries]}."""
     theme_map: dict[str, list[dict[str, str]]] = defaultdict(list)
     seen: set[tuple[str, str, str]] = set()
+    chain_names = load_ic_chain_names()
+
+    for tag, theme_def in theme_defs.items():
+        for entry in iter_ic_taxonomy_entries(tag, theme_def, chain_names):
+            key = (tag, entry["ticker"], entry["source_path"])
+            if key in seen:
+                continue
+            seen.add(key)
+            theme_map[tag].append(entry)
 
     for json_path in load_company_json_files():
         try:
@@ -337,7 +444,8 @@ def scan_theme_links(theme_defs: dict[str, dict[str, Any]]) -> dict[str, list[di
                 if key in seen:
                     continue
                 seen.add(key)
-                theme_map[tag].append({**base, "role": str(context["role"]), "source_path": str(context["path"]), "match": matched})
+                role = "related" if isinstance(theme_def.get("theme_supply_chain"), dict) else str(context["role"])
+                theme_map[tag].append({**base, "role": role, "source_path": str(context["path"]), "match": matched})
 
     return theme_map
 
@@ -348,7 +456,14 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
         return None
 
     lines = [f"# {theme_def['name']}", "", f"> {theme_def['desc']}", ""]
-    lines.append(f"**涵蓋公司數:** {len({e['ticker'] for e in entries})}")
+    has_theme_supply_chain = isinstance(theme_def.get("theme_supply_chain"), dict)
+    structured_roles = {"upstream", "midstream", "downstream"}
+    structured_entries = [e for e in entries if e.get("role") in structured_roles]
+    count_entries = structured_entries if has_theme_supply_chain else entries
+    lines.append(f"**涵蓋公司數:** {len({e['ticker'] for e in count_entries})}")
+    if has_theme_supply_chain:
+        source = str(theme_def.get("theme_supply_chain", {}).get("taxonomy_source") or "../biztrends.TW/data/ic.tpex.org.tw/raw_SupplyChain_*.csv")
+        lines.append(f"**供應鏈層級依據:** `{source}`")
     lines.append("")
 
     related_parts: list[str] = []
@@ -406,6 +521,14 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
+
+
+
+
+def theme_company_count(theme_def: dict[str, Any], entries: list[dict[str, str]]) -> int:
+    if isinstance(theme_def.get("theme_supply_chain"), dict):
+        entries = [e for e in entries if e.get("role") in {"upstream", "midstream", "downstream"}]
+    return len({e["ticker"] for e in entries})
 
 
 def build_index(themes_built: dict[str, int], theme_definitions: dict[str, dict[str, Any]]) -> str:
@@ -479,7 +602,7 @@ def main() -> int:
             continue
         filename = theme_output_filename(definition)
         (OUTPUT_THEMES_DIR / filename).write_text(page, encoding="utf-8")
-        count = len({e["ticker"] for e in theme_map.get(tag, [])})
+        count = theme_company_count(definition, theme_map.get(tag, []))
         themes_built[tag] = count
         print(f"  {tag}: {count} companies -> {filename}")
 
