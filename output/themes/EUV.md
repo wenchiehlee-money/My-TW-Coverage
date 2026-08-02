@@ -4,7 +4,7 @@
 
 **涵蓋公司數:** 10
 
-**相關主題/實體:** [![光阻液](https://img.shields.io/badge/%E5%85%89%E9%98%BB%E6%B6%B2-blue)](%E5%85%89%E9%98%BB%E6%B6%B2.md) (6) | [[ASML]]
+**相關主題/實體:** [![光阻液](https://img.shields.io/badge/%E5%85%89%E9%98%BB%E6%B6%B2-green)](%E5%85%89%E9%98%BB%E6%B6%B2.md) (6) | [[ASML]]
 
 ---
 

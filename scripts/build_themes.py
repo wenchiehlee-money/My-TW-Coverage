@@ -37,6 +37,9 @@ ENTITY_ALIAS_BY_COMPANY = {
     "世界": ["世界先進"],
     "光寶科": ["光寶科技"],
     "台達電": ["台達電子"],
+    "華碩": ["ASUSTeK Computer", "ASUS"],
+    "仁寶": ["Compal Electronics", "Compal"],
+    "技嘉": ["Gigabyte Technology", "GIGABYTE"],
     "臻鼎-KY": ["臻鼎"],
     "鈺齊-KY": ["鈺齊"],
     "鴻華先進-創": ["鴻華先進"],
@@ -73,7 +76,7 @@ def render_badge_link(label: str, target: str, color: str = "blue", *, quote_tar
 def render_theme_badge(theme_def: dict[str, Any], href: str | None = None, label: str | None = None) -> str:
     render = theme_def.get("render", {}) if isinstance(theme_def.get("render"), dict) else {}
     badge_label = str(label or render.get("badge_label") or theme_def.get("tag") or "Theme").strip()
-    color = str(render.get("badge_color") or "blue").strip()
+    color = str(render.get("badge_color") or "green").strip()
     target = href or theme_output_filename(theme_def)
     return render_badge_link(badge_label, target, color)
 
@@ -86,6 +89,19 @@ def normalized_entity_key(value: str) -> str:
     return re.sub(r"[\s_\-]+", "", value).lower()
 
 
+def extract_self_aliases(data: dict[str, Any], ticker: str) -> set[str]:
+    aliases: set[str] = set()
+    business = data.get("business", {}) if isinstance(data.get("business"), dict) else {}
+    summary = str(business.get("summary") or business.get("business_summary_md") or "")
+    ticker_pattern = re.escape(ticker)
+    for match in re.finditer(rf"[（(][^）)]*{ticker_pattern}[^）)]*?[\s,，、/：:;；-]*\[\[([^\]]+)\]\](?=[\s,，、/;；）)])[^）)]*[）)]", summary):
+        aliases.add(match.group(1).strip())
+    start_match = re.match(rf"\s*\[\[([^\]]+)\]\]\s*[（(]\s*{ticker_pattern}\s*[）)]", summary)
+    if start_match:
+        aliases.add(start_match.group(1).strip())
+    return {alias for alias in aliases if alias}
+
+
 def load_company_badge_index() -> dict[str, tuple[str, str]]:
     index: dict[str, tuple[str, str]] = {}
     for path in sorted(COMPANY_OUTPUT_DIR.glob("*.md")):
@@ -96,6 +112,13 @@ def load_company_badge_index() -> dict[str, tuple[str, str]]:
         href = f"../enrichment_all_rendered/{quote(path.name)}"
         aliases = {ticker, company, f"{ticker} {company}", f"{ticker}_{company}"}
         aliases.update(ENTITY_ALIAS_BY_COMPANY.get(company, []))
+        json_path = ENRICHMENT_JSON_DIR / f"{ticker}.json"
+        if json_path.exists():
+            try:
+                data = json.loads(json_path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                data = {}
+            aliases.update(extract_self_aliases(data, ticker))
         for suffix in ("-KY", "-KY創", "-創"):
             if company.endswith(suffix):
                 aliases.add(company[: -len(suffix)])

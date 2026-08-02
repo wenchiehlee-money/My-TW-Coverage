@@ -4,7 +4,7 @@
 
 **涵蓋公司數:** 171
 
-**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-blue)](CoWoS.md) (39) | [![HBM](https://img.shields.io/badge/HBM-blue)](HBM.md) (16) | [![CPO](https://img.shields.io/badge/CPO-blue)](CPO.md) (14) | [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-blue)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (111)
+**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) (16) | [![CPO](https://img.shields.io/badge/CPO-green)](CPO.md) (14) | [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (111)
 
 ---
 

@@ -8,13 +8,13 @@
 
 艾瑪斯科技控股 (6933，AMAX-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有 [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) 集團約 25% 的強大股權支持。總部位於美國矽谷，為 [[NVIDIA]] 精英合作夥伴。當 [[NVIDIA]] 或 [[AMD]] 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
 
-AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷」到最先進「[[液冷]] (Liquid Cooling) 整機櫃」的客製化散熱與系統解決方案，深受歐美 [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-blue)](../themes/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) 與頂尖研究機構的重用。客戶包含全球知名半導體設備光刻機大廠 [[ASML]]，是 AI 算力軍備競賽的超級「系統整合軍火商」。
+AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷」到最先進「[[液冷]] (Liquid Cooling) 整機櫃」的客製化散熱與系統解決方案，深受歐美 [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](../themes/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) 與頂尖研究機構的重用。客戶包含全球知名半導體設備光刻機大廠 [[ASML]]，是 AI 算力軍備競賽的超級「系統整合軍火商」。
 
 ## 供應鏈位置
 **上游 (AI 處理器與伺服器零組件):**
 - **AI 晶片:** [[NVIDIA]] — 最高階 GPU (H100/H200/B200)
 - **處理器:** [[AMD]]、[[Intel]] — 伺服器級 CPU
-- **記憶體/儲存:** 大容量 [![HBM](https://img.shields.io/badge/HBM-blue)](../themes/HBM.md)、[[DRAM]]、SSD 儲存陣列
+- **記憶體/儲存:** 大容量 [![HBM](https://img.shields.io/badge/HBM-green)](../themes/HBM.md)、[[DRAM]]、SSD 儲存陣列
 - **散熱:** [[液冷]]散熱管線/幫浦及無塵機櫃
 
 **中游 (AI HPC 系統整合):**

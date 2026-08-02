@@ -4,7 +4,7 @@
 
 **涵蓋公司數:** 39
 
-**相關主題/實體:** [![HBM](https://img.shields.io/badge/HBM-blue)](HBM.md) (16) | [![ABF 載板](https://img.shields.io/badge/ABF%20%E8%BC%89%E6%9D%BF-blue)](ABF_%E8%BC%89%E6%9D%BF.md) (14) | [[2.5D 封裝]] | [[3D 封裝]] | [[矽中介層]]
+**相關主題/實體:** [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) (16) | [![ABF 載板](https://img.shields.io/badge/ABF%20%E8%BC%89%E6%9D%BF-green)](ABF_%E8%BC%89%E6%9D%BF.md) (14) | [[2.5D 封裝]] | [[3D 封裝]] | [[矽中介層]]
 
 ---
 
