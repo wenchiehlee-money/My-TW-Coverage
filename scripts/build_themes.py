@@ -10,130 +10,54 @@ Usage:
   python scripts/build_themes.py --list       # List available themes
   python scripts/build_themes.py "CoWoS"      # Rebuild single theme
 
-Output: themes/ folder with one .md per theme.
+Output: output/themes/ folder with one .md per theme.
 """
 
+import json
 import os
 import re
 import sys
 from collections import defaultdict
 
-REPORTS_DIR = os.path.join(os.path.dirname(__file__), "..", "Pilot_Reports")
-THEMES_DIR = os.path.join(os.path.dirname(__file__), "..", "themes")
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+REPORTS_DIR = os.path.join(PROJECT_ROOT, "Pilot_Reports")
+THEMES_DATA_DIR = os.path.join(PROJECT_ROOT, "data", "themes")
+OUTPUT_THEMES_DIR = os.path.join(PROJECT_ROOT, "output", "themes")
 
-# Curated themes with supply chain role hints
-# Format: theme_wikilink -> { display_name, description, related_tags }
-THEME_DEFINITIONS = {
-    # === Advanced Packaging ===
-    "CoWoS": {
-        "name": "CoWoS 先進封裝",
-        "desc": "台積電 Chip-on-Wafer-on-Substrate 2.5D 先進封裝技術，AI 晶片關鍵製程",
-        "related": ["HBM", "2.5D 封裝", "3D 封裝", "ABF 載板", "矽中介層"],
-    },
-    "HBM": {
-        "name": "HBM 高頻寬記憶體",
-        "desc": "High Bandwidth Memory，AI 加速器必備的高速堆疊記憶體",
-        "related": ["CoWoS", "AI 伺服器", "DRAM"],
-    },
-    "CPO": {
-        "name": "CPO 共封裝光學",
-        "desc": "Co-Packaged Optics，將光學元件整合於晶片封裝中以突破頻寬瓶頸",
-        "related": ["矽光子", "光收發模組", "AI 伺服器", "資料中心"],
-    },
-    # === Photonics ===
-    "矽光子": {
-        "name": "矽光子 Silicon Photonics",
-        "desc": "以矽基製程整合光學元件，實現高速光互連，下一代資料中心核心技術",
-        "related": ["CPO", "EML", "VCSEL", "光收發模組", "資料中心"],
-    },
-    "VCSEL": {
-        "name": "VCSEL 垂直共振腔面射型雷射",
-        "desc": "3D 感測、光通訊及 LiDAR 核心光源元件",
-        "related": ["矽光子", "光收發模組", "砷化鎵"],
-    },
-    # === Compound Semiconductors ===
-    "碳化矽": {
-        "name": "碳化矽 SiC",
-        "desc": "第三代半導體材料，耐高壓高溫，電動車逆變器及充電樁關鍵材料",
-        "related": ["電動車", "MOSFET", "IGBT", "氮化鎵"],
-    },
-    "氮化鎵": {
-        "name": "氮化鎵 GaN",
-        "desc": "第三代半導體材料，高頻高效，5G 基站、快充及衛星通訊核心",
-        "related": ["5G", "碳化矽", "磷化銦"],
-    },
-    "磷化銦": {
-        "name": "磷化銦 InP",
-        "desc": "III-V 族化合物半導體，光通訊雷射及高速光電元件基板材料",
-        "related": ["矽光子", "EML", "光收發模組", "砷化鎵"],
-    },
-    # === AI / Data Center ===
-    "AI 伺服器": {
-        "name": "AI 伺服器供應鏈",
-        "desc": "AI 訓練與推論伺服器完整供應鏈，從晶片到系統到散熱",
-        "related": ["CoWoS", "HBM", "NVIDIA", "CPO", "資料中心"],
-    },
-    "資料中心": {
-        "name": "資料中心供應鏈",
-        "desc": "超大規模資料中心基礎設施，涵蓋伺服器、網通、電源、散熱",
-        "related": ["AI 伺服器", "CPO", "矽光子", "PCB"],
-    },
-    # === EV / Automotive ===
-    "電動車": {
-        "name": "電動車供應鏈",
-        "desc": "電動車完整供應鏈，從電池材料到功率元件到車用電子",
-        "related": ["碳化矽", "IGBT", "MOSFET", "車用電子"],
-    },
-    # === Applications ===
-    "5G": {
-        "name": "5G 通訊供應鏈",
-        "desc": "5G 基礎建設與終端應用，涵蓋基站、天線、射頻前端、濾波器",
-        "related": ["氮化鎵", "RF", "低軌衛星"],
-    },
-    "低軌衛星": {
-        "name": "低軌衛星 LEO Satellite",
-        "desc": "低軌道衛星通訊供應鏈，天線、地面站、射頻模組",
-        "related": ["5G", "氮化鎵", "RF"],
-    },
-    # === Process / Equipment ===
-    "EUV": {
-        "name": "EUV 極紫外光微影",
-        "desc": "先進製程關鍵微影技術，7nm 以下節點必備",
-        "related": ["光阻液", "ASML"],
-    },
-    # === Materials ===
-    "光阻液": {
-        "name": "光阻液 Photoresist",
-        "desc": "半導體微影製程關鍵化學材料",
-        "related": ["EUV", "微影"],
-    },
-    "ABF 載板": {
-        "name": "ABF 載板",
-        "desc": "Ajinomoto Build-up Film 載板，高階 IC 封裝基板",
-        "related": ["CoWoS", "AI 伺服器", "PCB"],
-    },
-    "矽晶圓": {
-        "name": "矽晶圓",
-        "desc": "半導體製造最基礎的原材料",
-        "related": ["碳化矽", "磊晶"],
-    },
-    # === Key customers (cross-industry) ===
-    "Apple": {
-        "name": "Apple 蘋果供應鏈",
-        "desc": "蘋果公司台灣供應鏈成員",
-        "related": ["台積電", "鴻海"],
-    },
-    "NVIDIA": {
-        "name": "NVIDIA 輝達供應鏈",
-        "desc": "NVIDIA GPU 及 AI 平台台灣供應鏈",
-        "related": ["CoWoS", "HBM", "AI 伺服器", "台積電"],
-    },
-    "Tesla": {
-        "name": "Tesla 特斯拉供應鏈",
-        "desc": "特斯拉電動車台灣供應鏈成員",
-        "related": ["電動車", "碳化矽"],
-    },
-}
+
+def safe_theme_filename(tag):
+    return tag.replace(" ", "_").replace("/", "_")
+
+
+def load_theme_definitions():
+    """Load curated theme definitions from data/themes/*.json."""
+    if not os.path.isdir(THEMES_DATA_DIR):
+        raise FileNotFoundError(f"Theme data directory not found: {THEMES_DATA_DIR}")
+
+    themes = {}
+    for filename in sorted(os.listdir(THEMES_DATA_DIR)):
+        if not filename.endswith(".json"):
+            continue
+        path = os.path.join(THEMES_DATA_DIR, filename)
+        with open(path, "r", encoding="utf-8") as f:
+            definition = json.load(f)
+
+        tag = definition.get("tag")
+        if not tag:
+            raise ValueError(f"Missing 'tag' in {path}")
+        for required in ("name", "desc"):
+            if not definition.get(required):
+                raise ValueError(f"Missing '{required}' in {path}")
+
+        definition.setdefault("related", [])
+        definition.setdefault("category", "未分類")
+        definition.setdefault("index_categories", [definition["category"]])
+        definition.setdefault("order", 9990)
+        themes[tag] = definition
+
+    return dict(
+        sorted(themes.items(), key=lambda item: (item[1].get("order", 9990), item[0]))
+    )
 
 
 def scan_wikilinks():
@@ -270,8 +194,8 @@ def build_theme_page(theme_tag, theme_def, wl_map):
     return "\n".join(lines)
 
 
-def build_index(themes_built):
-    """Build themes/README.md index."""
+def build_index(themes_built, theme_definitions):
+    """Build output/themes/README.md index."""
     lines = []
     lines.append("# Thematic Investment Screens")
     lines.append("")
@@ -281,26 +205,28 @@ def build_index(themes_built):
     lines.append("---")
     lines.append("")
 
-    # Group by category
-    categories = {
-        "先進封裝": ["CoWoS", "HBM", "CPO"],
-        "光電與化合物半導體": ["矽光子", "VCSEL", "碳化矽", "氮化鎵", "磷化銦"],
-        "AI / 資料中心": ["AI 伺服器", "資料中心", "NVIDIA"],
-        "電動車 / 車用": ["電動車", "Tesla"],
-        "通訊": ["5G", "低軌衛星"],
-        "製程與設備": ["EUV"],
-        "材料": ["光阻液", "ABF 載板", "矽晶圓"],
-        "品牌供應鏈": ["Apple", "NVIDIA", "Tesla"],
-    }
+    # Group by category from data/themes/*.json so the index follows the catalog.
+    grouped = defaultdict(list)
+    for tag, definition in theme_definitions.items():
+        if tag not in themes_built:
+            continue
+        for category in definition.get("index_categories", [definition.get("category", "未分類")]):
+            grouped[category].append((tag, definition))
 
-    for cat_name, tags in categories.items():
+    categories = sorted(
+        grouped.items(),
+        key=lambda item: min(defn.get("order", 9990) for _, defn in item[1]),
+    )
+
+    for cat_name, items in categories:
         lines.append(f"## {cat_name}")
         lines.append("")
-        for tag in tags:
-            if tag in themes_built:
-                count = themes_built[tag]
-                safe_name = tag.replace(" ", "_").replace("/", "_")
-                lines.append(f"- [{tag}]({safe_name}.md) — {count} 家公司")
+        for tag, definition in sorted(
+            items, key=lambda item: (item[1].get("order", 9990), item[0])
+        ):
+            count = themes_built[tag]
+            safe_name = safe_theme_filename(tag)
+            lines.append(f"- [{tag}]({safe_name}.md) — {count} 家公司")
         lines.append("")
 
     return "\n".join(lines)
@@ -310,12 +236,13 @@ def main():
     if sys.platform == "win32":
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-    os.makedirs(THEMES_DIR, exist_ok=True)
+    os.makedirs(OUTPUT_THEMES_DIR, exist_ok=True)
+    theme_definitions = load_theme_definitions()
 
     args = sys.argv[1:]
 
     if "--list" in args:
-        for tag, defn in sorted(THEME_DEFINITIONS.items()):
+        for tag, defn in theme_definitions.items():
             print(f"  {tag}: {defn['name']}")
         return
 
@@ -325,19 +252,19 @@ def main():
 
     # Filter to requested theme or build all
     if args and args[0] != "--list":
-        themes_to_build = {args[0]: THEME_DEFINITIONS.get(args[0])}
+        themes_to_build = {args[0]: theme_definitions.get(args[0])}
         if not themes_to_build[args[0]]:
-            print(f"Theme '{args[0]}' not in THEME_DEFINITIONS. Use --list to see available themes.")
+            print(f"Theme '{args[0]}' not in data/themes. Use --list to see available themes.")
             return
     else:
-        themes_to_build = THEME_DEFINITIONS
+        themes_to_build = theme_definitions
 
     themes_built = {}
     for tag, defn in themes_to_build.items():
         page = build_theme_page(tag, defn, wl_map)
         if page:
-            safe_name = tag.replace(" ", "_").replace("/", "_")
-            filepath = os.path.join(THEMES_DIR, f"{safe_name}.md")
+            safe_name = safe_theme_filename(tag)
+            filepath = os.path.join(OUTPUT_THEMES_DIR, f"{safe_name}.md")
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(page)
             count = len(wl_map.get(tag, []))
@@ -345,11 +272,11 @@ def main():
             print(f"  {tag}: {count} companies -> {safe_name}.md")
 
     # Build index
-    index = build_index(themes_built)
-    with open(os.path.join(THEMES_DIR, "README.md"), "w", encoding="utf-8") as f:
+    index = build_index(themes_built, theme_definitions)
+    with open(os.path.join(OUTPUT_THEMES_DIR, "README.md"), "w", encoding="utf-8") as f:
         f.write(index)
 
-    print(f"\nDone. Generated {len(themes_built)} theme pages in themes/")
+    print(f"\nDone. Generated {len(themes_built)} theme pages in output/themes/")
 
 
 if __name__ == "__main__":

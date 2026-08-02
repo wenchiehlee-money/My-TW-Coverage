@@ -160,12 +160,12 @@ Open `network/index.html` in your browser. Node colors: red = Taiwan company, bl
 ### Generate Thematic Investment Screens
 
 ```bash
-python scripts/build_themes.py               # Build all 20 themes
+python scripts/build_themes.py               # Build themes from data/themes/*.json
 python scripts/build_themes.py "CoWoS"       # Single theme
 python scripts/build_themes.py --list        # List available themes
 ```
 
-Generates [themes/](themes/) — supply chain maps for key investment themes. Each page shows companies grouped by upstream/midstream/downstream role. See [themes/README.md](themes/README.md) for the full index.
+Generates [output/themes/](output/themes/) — supply chain maps for key investment themes defined in `data/themes/*.json`. Each page shows companies grouped by upstream/midstream/downstream role. See [output/themes/README.md](output/themes/README.md) for the full index.
 
 ## Token Usage & Cost Guide
 
@@ -182,7 +182,7 @@ These run 100% locally with Python + yfinance. No AI, no API cost.
 | Update Enrichment | `python scripts/update_enrichment.py --data <json> [scope]` | Apply pre-prepared enrichment data |
 | Audit | `python scripts/audit_batch.py <batch> -v` | Quality check reports |
 | Discover (search) | `python scripts/discover.py "<buzzword>"` | Scan reports for keyword matches |
-| Build Themes | `python scripts/build_themes.py` | Generate thematic supply chain pages |
+| Build Themes | `python scripts/build_themes.py` | Generate `output/themes/` from `data/themes/*.json` |
 | Build Network | `python scripts/build_network.py` | Generate interactive D3.js graph |
 | Build Wikilink Index | `python scripts/build_wikilink_index.py` | Rebuild WIKILINKS.md |
 
@@ -255,7 +255,8 @@ The database contains **4,900+ unique wikilinks** across three categories:
 ├── network/                   # Interactive wikilink network graph (auto-generated)
 │   ├── index.html             # D3.js visualization (open in browser)
 │   └── graph_data.json        # Raw graph data (339 nodes, 1,452 edges)
-├── themes/                    # Thematic investment screens (auto-generated)
+├── data/themes/               # Theme definitions used by build_themes.py
+├── output/themes/             # Thematic investment screens (auto-generated)
 │   ├── README.md              # Theme index
 │   ├── CoWoS.md               # 39 companies in CoWoS supply chain
 │   ├── AI_伺服器.md            # 148 companies in AI server ecosystem
