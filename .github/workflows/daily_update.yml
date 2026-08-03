@@ -17,13 +17,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Checkout biztrends.TW (read-only, ephemeral sibling)
-        uses: actions/checkout@v4
-        with:
-          repository: wenchiehlee-money/biztrends.TW
-          token: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
-          path: ../biztrends.TW
-          fetch-depth: 1
+      - name: Clone biztrends.TW (read-only, outside this git worktree)
+        env:
+          GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
+        run: |
+          git clone --depth 1 \
+            "https://x-access-token:${GH_PAT}@github.com/wenchiehlee-money/biztrends.TW.git" \
+            "${{ runner.temp }}/biztrends.TW"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -59,7 +59,10 @@ jobs:
           python skills/skill-my-tw-coverage-render-markdown/scripts/render_enrichment_markdown.py \
             --json-dir data/enrichment_all \
             --out output/enrichment_all_rendered \
-            --compare output/enrichment_all_render_compare.csv
+            --compare output/enrichment_all_render_compare.csv \
+            --biztrends-root "${{ runner.temp }}/biztrends.TW" \
+            --segment-weights "${{ runner.temp }}/biztrends.TW/data/company_segment_weights.csv" \
+            --monthly-revenue "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv"
 
       - name: Commit and push changes
         run: |
