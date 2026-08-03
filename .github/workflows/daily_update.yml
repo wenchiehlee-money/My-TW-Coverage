@@ -16,6 +16,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Pushes made with the default GITHUB_TOKEN don't trigger other
+          # workflows' `on: push` (GitHub's anti-recursion rule), which would
+          # silently stop sync_to_googlealertmanager.yml from ever firing.
+          # Using a PAT here makes the later "git push" count as a normal
+          # actor push so downstream push-triggered workflows still run.
+          token: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
 
       - name: Clone biztrends.TW (read-only, outside this git worktree)
         env:
