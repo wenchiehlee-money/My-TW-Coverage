@@ -17,6 +17,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Checkout biztrends.TW (read-only, ephemeral sibling)
+        uses: actions/checkout@v4
+        with:
+          repository: wenchiehlee-money/biztrends.TW
+          token: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
+          path: ../biztrends.TW
+          fetch-depth: 1
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -45,6 +53,13 @@ jobs:
 
       - name: Run Quality Audit
         run: python scripts/audit_batch.py --all -v
+
+      - name: Render enrichment Markdown + competitor JSON
+        run: |
+          python skills/skill-my-tw-coverage-render-markdown/scripts/render_enrichment_markdown.py \
+            --json-dir data/enrichment_all \
+            --out output/enrichment_all_rendered \
+            --compare output/enrichment_all_render_compare.csv
 
       - name: Commit and push changes
         run: |

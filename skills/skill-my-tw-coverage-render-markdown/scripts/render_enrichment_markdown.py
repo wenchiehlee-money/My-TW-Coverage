@@ -1254,6 +1254,8 @@ def main() -> int:
         themes_dir = (coverage_root / themes_dir).resolve()
     theme_render_index = build_theme_render_index(themes_dir)
 
+    json_out_dir = out_dir.parent / "json"
+
     rows = []
     written = 0
     for json_path in load_json_files(json_dir, args.ticker):
@@ -1261,16 +1263,34 @@ def main() -> int:
         src = original_md_path(coverage_root, data)
         original = src.read_text(encoding="utf-8") if src.exists() else ""
         competitor_financial_section = ""
+        competitor_rows: list[dict[str, Any]] = []
         if competitor_adapter is not None:
-            competitor_financial_section = competitor_adapter.render_competitor_financial_section(
+            competitor_rows = competitor_adapter.output_rows_for_data(
                 data,
                 json_dir,
                 biztrends_root,
                 args.competitor_financial_years,
             )
+            competitor_financial_section = competitor_adapter.render_pivot(competitor_rows)
         rendered = render_markdown(data, "", segment_weight_tables, segment_weight_summaries, monthly_revenue_totals, competitor_financial_section, args.updated_at, entity_render_index, theme_render_index)
         out_path = out_dir / f"{data['ticker']}_{data['company_name']}.md"
         out_path.write_text(rendered, encoding="utf-8")
+        if competitor_rows:
+            json_out_dir.mkdir(parents=True, exist_ok=True)
+            competitor_json_path = json_out_dir / f"{data['ticker']}_competitors.json"
+            competitor_json_path.write_text(
+                json.dumps(
+                    {
+                        "ticker": data["ticker"],
+                        "company_name": data["company_name"],
+                        "as_of": args.updated_at,
+                        "rows": competitor_rows,
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                ),
+                encoding="utf-8",
+            )
         row = compare(original, rendered, data)
         row["rendered_md"] = str(out_path.relative_to(coverage_root)) if out_path.is_relative_to(coverage_root) else str(out_path)
         rows.append(row)

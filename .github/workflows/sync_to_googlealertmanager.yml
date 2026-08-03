@@ -1,0 +1,24 @@
+name: Sync to GoogleAlertManager
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'output/json/**.json'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Sync to GoogleAlertManager
+        uses: BetaHuhn/repo-file-sync-action@latest
+        with:
+          GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
+          CONFIG_PATH: .github/sync-to-googlealertmanager.yml
+          COMMIT_EACH_FILE: false
+          SKIP_PR: true
