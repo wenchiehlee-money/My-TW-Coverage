@@ -155,6 +155,18 @@ Pilot_Reports/{Industry}/{Ticker}_{ChineseName}.md
 | Update Valuation | `python scripts/update_valuation.py [scope]` | Refresh 估值指標 only (fast, no financials) |
 | Discover | `python scripts/discover.py "<buzzword>" [--smart] [--apply]` | Reverse search: find companies by buzzword |
 | Thematic Screens | `python scripts/build_themes.py` | Generate output/themes/ supply chain maps from data/themes/*.json |
+| Docsify Assets | `python scripts/generate_docsify_assets.py` | Generate docsify sidebar, stock index, and wikilink map |
+
+### Docsify 靜態站點
+1. 產生 Docsify 資產 (側邊欄、公司索引與知識圖譜對應):
+   ```bash
+   python scripts/generate_docsify_assets.py
+   ```
+2. 啟動本機伺服器瀏覽網站:
+   ```bash
+   python -m http.server 8000
+   ```
+   瀏覽 [http://localhost:8000](http://localhost:8000) 即可查看具備全文檢索、自動 [[wikilinks]] 跳轉的精美暗黑模式靜態網站。
 
 ### Scope Syntax (shared across all scripts)
 ```

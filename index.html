@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>Taiwan Stock Coverage Database 📈</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="台灣上市櫃公司個股與產業投資主題資料庫 - 靜態生成網站">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- docsify-themeable Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  
+  <style>
+    /* 現代化設計系統 & CSS 變數定義 */
+    :root {
+      /* 字型系統 */
+      --base-font-family: 'Outfit', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --code-font-family: 'Fira Code', Consolas, Monaco, monospace;
+      
+      /* 色彩系統 */
+      --theme-color: #10b981; /* 翡翠綠 */
+      --theme-color-rgb: 16, 185, 129;
+      --accent-blue: #3b82f6;   /* 科技藍 */
+      --accent-purple: #8b5cf6; /* 紫色 */
+      
+      /* 基礎版面 */
+      --base-background: #090d16;
+      --content-max-width: 68em;
+      
+      /* 側邊欄 (Sidebar) */
+      --sidebar-background: rgba(13, 20, 35, 0.85);
+      --sidebar-border-color: rgba(255, 255, 255, 0.06);
+      --sidebar-width: 290px;
+      
+      /* 搜尋框 (Search) */
+      --search-input-background: rgba(30, 41, 59, 0.6);
+      --search-input-placeholder-color: #64748b;
+      --search-result-keyword-background: rgba(16, 185, 129, 0.25);
+      
+      /* 程式碼與引用 */
+      --code-inline-background: rgba(59, 130, 246, 0.12);
+      --code-inline-color: #60a5fa;
+      --blockquote-background: rgba(30, 41, 59, 0.35);
+      --blockquote-border-color: var(--theme-color);
+      
+      /* 表格 */
+      --table-row-odd-background: #0f172a;
+      --table-row-even-background: #1e293b;
+      --table-border-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    /* 全域磨砂玻璃與視覺特效 */
+    body {
+      background-color: #090d16;
+      background-image: 
+        radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.06) 0%, transparent 45%),
+        radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.06) 0%, transparent 45%);
+      background-attachment: fixed;
+    }
+    
+    /* 側邊欄 Glassmorphism 效果 */
+    .sidebar {
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-right: 1px solid var(--sidebar-border-color);
+      box-shadow: 10px 0 40px rgba(0, 0, 0, 0.4);
+    }
+    
+    /* 側邊欄標題 */
+    .sidebar .app-name-link {
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, #60a5fa, #10b981);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 1.35rem;
+      padding: 15px 0;
+      display: inline-block;
+      text-transform: uppercase;
+    }
+    
+    /* 側邊欄選項動態懸停 */
+    .sidebar nav li a {
+      border-radius: 8px;
+      margin: 4px 12px;
+      padding: 8px 16px;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      color: #94a3b8;
+      font-size: 0.95rem;
+    }
+    
+    .sidebar nav li a:hover {
+      background: rgba(255, 255, 255, 0.06);
+      color: #ffffff;
+      transform: translateX(5px);
+    }
+    
+    .sidebar nav li.active > a {
+      background: linear-gradient(90deg, rgba(16, 185, 129, 0.18), rgba(16, 185, 129, 0.02));
+      border-left: 4px solid var(--theme-color);
+      color: #ffffff !important;
+      font-weight: 600;
+      box-shadow: inset 5px 0 10px rgba(16, 185, 129, 0.05);
+    }
+    
+    /* 搜尋輸入框微調 */
+    .search input {
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-radius: 10px !important;
+      padding: 12px 16px 12px 38px !important;
+      color: #f1f5f9 !important;
+      font-size: 0.9rem !important;
+      transition: all 0.3s ease !important;
+    }
+    
+    .search input:focus {
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.25) !important;
+      border-color: var(--theme-color) !important;
+      background-color: rgba(15, 23, 42, 0.95) !important;
+    }
+    
+    /* Markdown 渲染美化 */
+    .markdown-section {
+      padding: 40px 20px;
+    }
+    
+    /* 標題發光漸層設計 */
+    .markdown-section h1 {
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      font-size: 2.6rem;
+      margin-bottom: 1.8rem;
+      background: linear-gradient(to right, #ffffff, #cbd5e1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding-bottom: 18px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    
+    .markdown-section h2 {
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      font-size: 1.8rem;
+      margin-top: 2.8rem;
+      color: #f8fafc;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 10px;
+    }
+
+    .markdown-section h3 {
+      color: #e2e8f0;
+      font-size: 1.38rem;
+      font-weight: 600;
+      margin-top: 2rem;
+    }
+    
+    /* 科技感表格 */
+    .markdown-section table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      margin: 2.2rem 0;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+    }
+    
+    .markdown-section th {
+      background: #111827 !important;
+      color: #f1f5f9 !important;
+      font-weight: 600;
+      border: none;
+      padding: 14px 18px;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+    }
+    
+    .markdown-section td {
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+      border-bottom: none;
+      border-left: none;
+      border-right: none;
+      padding: 14px 18px;
+      transition: background-color 0.2s ease;
+      color: #cbd5e1;
+    }
+    
+    .markdown-section tr:hover td {
+      background-color: rgba(255, 255, 255, 0.03) !important;
+    }
+    
+    /* 連結設計 */
+    .markdown-section a {
+      color: var(--theme-color);
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s ease;
+    }
+    
+    .markdown-section a:hover {
+      border-bottom-color: var(--theme-color);
+      color: #34d399;
+    }
+
+    /* 未解析 wikilink 標記 */
+    .wikilink-unresolved {
+      color: #94a3b8;
+      border-bottom: 1px dashed rgba(255,255,255,0.2);
+      cursor: help;
+    }
+
+    /* 徽章 Badge 微動畫 */
+    .markdown-section img[src*="shields.io"] {
+      border-radius: 6px;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .markdown-section img[src*="shields.io"]:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+    }
+
+    /* 區塊引用 Blockquote */
+    .markdown-section blockquote {
+      border-radius: 0 10px 10px 0;
+      padding: 16px 22px;
+      margin: 1.8rem 0;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      border-left: 4px solid var(--theme-color) !important;
+      background: rgba(30, 41, 59, 0.25) !important;
+      color: #94a3b8;
+    }
+    
+    /* 自訂捲軸 */
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090d16;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 6px;
+      border: 2px solid #090d16;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+
+    /* GitHub Corner */
+    .github-corner svg {
+      fill: var(--theme-color);
+      color: #090d16;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">✨ 正在載入台灣股市研究資料庫...</div>
+  
+  <script>
+    window.$docsify = {
+      name: 'TW Stock Database 📊',
+      repo: 'https://github.com/wenchiehlee-money/My-TW-Coverage',
+      loadSidebar: true,
+      homepage: 'output/themes/README.md',
+      subMaxLevel: 2,
+      maxLevel: 4,
+      auto2top: true,
+      
+      // 搜尋設定
+      search: {
+        maxAge: 86400000, // 快取過期時間 (1天)
+        paths: 'auto',
+        placeholder: '搜尋個股代號、名稱、供應鏈或技術關鍵字...',
+        noData: '🔍 未找到相關結果',
+        depth: 6,
+        hideOtherSidebarContent: false,
+      },
+      
+      // 主題擴充設定
+      themeable: {
+        readyTransition : true,
+        responsiveTables: true
+      },
+
+      plugins: [
+        // 核心插件：動態解析 [[wikilinks]] 與首頁相對路徑
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            // 當首頁被設為 output/themes/README.md 時，路由 path 是 '/'
+            // 我們需要修正該頁面中的相對 markdown 連結，避免 Docsify 404
+            if (vm.route.path === '/' && vm.route.file && vm.route.file.includes('output/themes/README.md')) {
+              html = html.replace(/\]\((?!http|\/)([^)]+\.md)\)/g, '](output/themes/$1)');
+            }
+            
+            if (window.WIKILINK_MAP) {
+              return resolveWikiLinks(html, window.WIKILINK_MAP);
+            }
+            return html;
+          });
+        }
+      ]
+    };
+
+    // 正則表達式動態替換 [[wikilinks]] 連結
+    function resolveWikiLinks(markdown, map) {
+      // 匹配 [[連結]] 或 [[連結|標籤]]
+      return markdown.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, function(match, target, label) {
+        target = target.trim();
+        var displayLabel = label ? label.trim() : target;
+        
+        // 在 mapping 中尋找對應的路徑 (不分大小寫)
+        var resolvedPath = map[target.toLowerCase()] || map[target];
+        if (resolvedPath) {
+          // 清理可能的多餘前綴斜線
+          if (resolvedPath.startsWith('/')) {
+            resolvedPath = resolvedPath.substring(1);
+          }
+          return '[' + displayLabel + '](' + resolvedPath + ')';
+        }
+        
+        // 若找不到映射，則轉為帶有提示的虛擬文字
+        return '<span class="wikilink-unresolved" title="未解析的知識圖譜節點: ' + target + '">' + displayLabel + '</span>';
+      });
+    }
+  </script>
+  
+  <!-- 核心依賴 Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  
+  <!-- 引入自動生成的 wikilink 映射檔 -->
+  <script src="wikilink_map.js"></script>
+</body>
+</html>
