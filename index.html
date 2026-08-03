@@ -13,69 +13,68 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
 
   <!-- docsify-themeable Stylesheets -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   
   <style>
-    /* 現代化設計系統 & CSS 變數定義 */
+    /* 現代化設計系統 & CSS 變數定義 (亮色模式) */
     :root {
       /* 字型系統 */
       --base-font-family: 'Outfit', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       --code-font-family: 'Fira Code', Consolas, Monaco, monospace;
       
       /* 色彩系統 */
-      --theme-color: #10b981; /* 翡翠綠 */
-      --theme-color-rgb: 16, 185, 129;
+      --theme-color: #3eaf7c; /* Vue 綠，與 newzone/VuePress 清新風格一致 */
+      --theme-color-rgb: 62, 175, 124;
       --accent-blue: #3b82f6;   /* 科技藍 */
       --accent-purple: #8b5cf6; /* 紫色 */
       
       /* 基礎版面 */
-      --base-background: #090d16;
+      --base-background: #f8fafc; /* 灰白背景 */
       --content-max-width: 68em;
       
       /* 側邊欄 (Sidebar) */
-      --sidebar-background: rgba(13, 20, 35, 0.85);
-      --sidebar-border-color: rgba(255, 255, 255, 0.06);
+      --sidebar-background: #ffffff;
+      --sidebar-border-color: #e2e8f0;
       --sidebar-width: 290px;
       
       /* 搜尋框 (Search) */
-      --search-input-background: rgba(30, 41, 59, 0.6);
-      --search-input-placeholder-color: #64748b;
-      --search-result-keyword-background: rgba(16, 185, 129, 0.25);
+      --search-input-background: #ffffff;
+      --search-input-placeholder-color: #94a3b8;
+      --search-result-keyword-background: rgba(62, 175, 124, 0.18);
       
       /* 程式碼與引用 */
-      --code-inline-background: rgba(59, 130, 246, 0.12);
-      --code-inline-color: #60a5fa;
-      --blockquote-background: rgba(30, 41, 59, 0.35);
+      --code-inline-background: #f1f5f9;
+      --code-inline-color: #2563eb;
+      --blockquote-background: #f8fafc;
       --blockquote-border-color: var(--theme-color);
       
       /* 表格 */
-      --table-row-odd-background: #0f172a;
-      --table-row-even-background: #1e293b;
-      --table-border-color: rgba(255, 255, 255, 0.05);
+      --table-row-odd-background: #ffffff;
+      --table-row-even-background: #f8fafc;
+      --table-border-color: #e2e8f0;
     }
     
-    /* 全域磨砂玻璃與視覺特效 */
+    /* 全域視覺特效 */
     body {
-      background-color: #090d16;
+      background-color: #f8fafc;
       background-image: 
-        radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.06) 0%, transparent 45%),
-        radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.06) 0%, transparent 45%);
+        radial-gradient(circle at 85% 15%, rgba(62, 175, 124, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 15% 85%, rgba(59, 130, 246, 0.04) 0%, transparent 40%);
       background-attachment: fixed;
+      color: #334155;
     }
     
-    /* 側邊欄 Glassmorphism 效果 */
+    /* 側邊欄樣式 */
     .sidebar {
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
       border-right: 1px solid var(--sidebar-border-color);
-      box-shadow: 10px 0 40px rgba(0, 0, 0, 0.4);
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.02);
     }
     
     /* 側邊欄標題 */
     .sidebar .app-name-link {
       font-weight: 700;
       letter-spacing: -0.03em;
-      background: linear-gradient(135deg, #60a5fa, #10b981);
+      background: linear-gradient(135deg, #3b82f6, #3eaf7c);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 1.35rem;
@@ -86,114 +85,124 @@
     
     /* 側邊欄選項動態懸停 */
     .sidebar nav li a {
-      border-radius: 8px;
+      border-radius: 6px;
       margin: 4px 12px;
       padding: 8px 16px;
-      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-      color: #94a3b8;
+      transition: all 0.2s ease;
+      color: #475569;
       font-size: 0.95rem;
     }
     
     .sidebar nav li a:hover {
-      background: rgba(255, 255, 255, 0.06);
-      color: #ffffff;
-      transform: translateX(5px);
+      background: rgba(62, 175, 124, 0.05);
+      color: var(--theme-color);
+      transform: translateX(4px);
     }
     
     .sidebar nav li.active > a {
-      background: linear-gradient(90deg, rgba(16, 185, 129, 0.18), rgba(16, 185, 129, 0.02));
+      background: rgba(62, 175, 124, 0.08);
       border-left: 4px solid var(--theme-color);
-      color: #ffffff !important;
+      color: var(--theme-color) !important;
       font-weight: 600;
-      box-shadow: inset 5px 0 10px rgba(16, 185, 129, 0.05);
     }
     
-    /* 搜尋輸入框微調 */
+    /* 搜尋輸入框 */
     .search input {
-      border: 1px solid rgba(255, 255, 255, 0.08) !important;
-      border-radius: 10px !important;
-      padding: 12px 16px 12px 38px !important;
-      color: #f1f5f9 !important;
+      border: 1px solid #cbd5e1 !important;
+      border-radius: 8px !important;
+      padding: 10px 14px 10px 38px !important;
+      color: #334155 !important;
       font-size: 0.9rem !important;
-      transition: all 0.3s ease !important;
+      transition: all 0.25s ease !important;
+      background-color: #ffffff !important;
     }
     
     .search input:focus {
-      box-shadow: 0 0 20px rgba(16, 185, 129, 0.25) !important;
+      box-shadow: 0 0 12px rgba(62, 175, 124, 0.2) !important;
       border-color: var(--theme-color) !important;
-      background-color: rgba(15, 23, 42, 0.95) !important;
+    }
+
+    .search p {
+      color: #64748b;
+    }
+
+    .search .matching-post {
+      border-bottom: 1px solid #e2e8f0;
     }
     
-    /* Markdown 渲染美化 */
+    /* Markdown 渲染美化 (極簡白紙張質感) */
     .markdown-section {
-      padding: 40px 20px;
+      padding: 40px 30px;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+      margin: 30px auto;
+      border: 1px solid #f1f5f9;
     }
     
-    /* 標題發光漸層設計 */
+    /* 標題設計 */
     .markdown-section h1 {
       font-weight: 700;
       letter-spacing: -0.04em;
-      font-size: 2.6rem;
+      font-size: 2.5rem;
       margin-bottom: 1.8rem;
-      background: linear-gradient(to right, #ffffff, #cbd5e1);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: #1e293b;
       padding-bottom: 18px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid #e2e8f0;
     }
     
     .markdown-section h2 {
       font-weight: 600;
       letter-spacing: -0.02em;
-      font-size: 1.8rem;
-      margin-top: 2.8rem;
-      color: #f8fafc;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-      padding-bottom: 10px;
+      font-size: 1.75rem;
+      margin-top: 2.5rem;
+      color: #1e293b;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 8px;
     }
 
     .markdown-section h3 {
-      color: #e2e8f0;
-      font-size: 1.38rem;
+      color: #334155;
+      font-size: 1.35rem;
       font-weight: 600;
       margin-top: 2rem;
     }
     
-    /* 科技感表格 */
+    /* 表格 */
     .markdown-section table {
       border-collapse: separate;
       border-spacing: 0;
       width: 100%;
       margin: 2.2rem 0;
-      border-radius: 12px;
+      border-radius: 8px;
       overflow: hidden;
-      border: 1px solid rgba(255, 255, 255, 0.04);
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
     }
     
     .markdown-section th {
-      background: #111827 !important;
-      color: #f1f5f9 !important;
+      background: #f8fafc !important;
+      color: #475569 !important;
       font-weight: 600;
       border: none;
       padding: 14px 18px;
-      text-transform: uppercase;
       font-size: 0.85rem;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.02em;
+      border-bottom: 1px solid #e2e8f0;
     }
     
     .markdown-section td {
-      border-top: 1px solid rgba(255, 255, 255, 0.04);
+      border-top: 1px solid #f1f5f9;
       border-bottom: none;
       border-left: none;
       border-right: none;
       padding: 14px 18px;
       transition: background-color 0.2s ease;
-      color: #cbd5e1;
+      color: #475569;
     }
     
     .markdown-section tr:hover td {
-      background-color: rgba(255, 255, 255, 0.03) !important;
+      background-color: #f8fafc !important;
     }
     
     /* 連結設計 */
@@ -207,13 +216,13 @@
     
     .markdown-section a:hover {
       border-bottom-color: var(--theme-color);
-      color: #34d399;
+      color: #2b8c5a;
     }
 
     /* 未解析 wikilink 標記 */
     .wikilink-unresolved {
       color: #94a3b8;
-      border-bottom: 1px dashed rgba(255,255,255,0.2);
+      border-bottom: 1px dashed #cbd5e1;
       cursor: help;
     }
 
@@ -221,22 +230,35 @@
     .markdown-section img[src*="shields.io"] {
       border-radius: 6px;
       transition: transform 0.25s ease, box-shadow 0.25s ease;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
     .markdown-section img[src*="shields.io"]:hover {
       transform: translateY(-2px) scale(1.03);
-      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+      box-shadow: 0 4px 12px rgba(62, 175, 124, 0.15);
     }
 
     /* 區塊引用 Blockquote */
     .markdown-section blockquote {
-      border-radius: 0 10px 10px 0;
+      border-radius: 0 8px 8px 0;
       padding: 16px 22px;
       margin: 1.8rem 0;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
       border-left: 4px solid var(--theme-color) !important;
-      background: rgba(30, 41, 59, 0.25) !important;
-      color: #94a3b8;
+      background: #f8fafc !important;
+      color: #64748b;
+    }
+    
+    /* Codeblock 亮色模式程式碼框 (保留深色底以利閱讀) */
+    .markdown-section pre {
+      background-color: #1e293b !important;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+      border: 1px solid #e2e8f0;
+      padding: 18px !important;
+    }
+    .markdown-section pre code {
+      color: #cbd5e1 !important;
+      background-color: transparent !important;
     }
     
     /* 自訂捲軸 */
@@ -245,21 +267,21 @@
       height: 10px;
     }
     ::-webkit-scrollbar-track {
-      background: #090d16;
+      background: #f8fafc;
     }
     ::-webkit-scrollbar-thumb {
-      background: #1e293b;
+      background: #cbd5e1;
       border-radius: 6px;
-      border: 2px solid #090d16;
+      border: 2px solid #f8fafc;
     }
     ::-webkit-scrollbar-thumb:hover {
-      background: #334155;
+      background: #94a3b8;
     }
 
     /* GitHub Corner */
     .github-corner svg {
       fill: var(--theme-color);
-      color: #090d16;
+      color: #ffffff;
     }
   </style>
 </head>
