@@ -1290,6 +1290,8 @@ def main() -> int:
                         "ticker": data["ticker"],
                         "company_name": data["company_name"],
                         "as_of": args.updated_at,
+                        "profile": data.get("profile", {}),
+                        "business_summary": data.get("business", {}).get("summary", ""),
                         "rows": competitor_rows,
                     },
                     ensure_ascii=False,
