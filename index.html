@@ -16,8 +16,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   
   <!-- docsify-toc Stylesheet -->
-  <link rel="stylesheet" href="h  <style>
-    /* 現代化設計系統 & CSS 變數定義 (亮色模式 - 還原 newzone.top 宣紙色調) */
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+  
+  <style>
+    /* ========================================================
+       現代化設計系統 & CSS 變數定義 (亮色模式 - 宣紙色調)
+       ======================================================== */
     :root {
       /* 字型系統 */
       --base-font-family: 'Outfit', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -64,28 +68,101 @@
       background-attachment: fixed;
       color: #2c2621; /* 偏深茶色的暖黑，比純黑柔和 */
     }
+
+    /* ========================================================
+       VuePress / LearnData 版面佈局重構 (Layout Rewrite)
+       ======================================================== */
     
-    /* 側邊欄樣式 */
-    .sidebar {
-      border-right: 1px solid var(--sidebar-border-color);
-      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.02);
-      background-color: var(--sidebar-background);
+    /* 1. 100% 橫跨頂部導航欄 Header */
+    .app-nav {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 55px;
+      line-height: 55px;
+      background-color: rgba(250, 246, 239, 0.95) !important; /* 宣紙色磨砂玻璃 */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid #e6dfd3;
+      z-index: 100;
+      padding: 0 40px !important;
+      margin: 0 !important;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+      box-sizing: border-box;
     }
-    
-    /* 側邊欄標題 */
-    .sidebar .app-name-link {
+
+    /* 頂部導航欄左側插入站點 Logo/名稱 */
+    .app-nav::before {
+      content: 'TW Stock Database 📊';
       font-weight: 700;
-      letter-spacing: -0.03em;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
       background: linear-gradient(135deg, #3b82f6, #3e8887);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-size: 1.35rem;
-      padding: 15px 0;
-      display: inline-block;
-      text-transform: uppercase;
+      position: absolute;
+      left: 40px;
+      top: 0;
+      height: 55px;
+      line-height: 55px;
+      font-family: var(--base-font-family);
+    }
+
+    /* 頂部導航選單項目靠右調整 */
+    .app-nav ul {
+      margin: 0 !important;
+      padding: 0 !important;
+      display: flex;
+      align-items: center;
+    }
+
+    .app-nav li {
+      margin: 0 12px !important;
+      font-size: 0.92rem;
+      list-style-type: none;
+    }
+
+    .app-nav a {
+      color: #5c5246 !important;
+      font-weight: 500;
+      transition: color 0.2s ease;
+      text-decoration: none;
+      padding: 4px 8px;
+      border-bottom: 2px solid transparent;
+    }
+
+    .app-nav a:hover, .app-nav li.active a {
+      color: var(--theme-color) !important;
+      border-bottom-color: var(--theme-color);
     }
     
-    /* 側邊欄選項動態懸停 */
+    /* 2. 調整側邊欄 Sidebar (置於頂部 Header 下方) */
+    .sidebar {
+      top: 55px !important;
+      height: calc(100vh - 55px) !important;
+      border-right: 1px solid var(--sidebar-border-color);
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.01);
+      background-color: var(--sidebar-background);
+      z-index: 90;
+      padding-top: 15px !important;
+    }
+
+    /* 隱藏側邊欄原有的 Site Name，因為已經移到頂部了 */
+    .sidebar .app-name {
+      display: none !important;
+    }
+    
+    /* 搜尋框置於側邊欄最上方 */
+    .search {
+      margin-bottom: 15px !important;
+      padding: 0 15px !important;
+    }
+    
+    /* 側邊欄項目樣式 */
     .sidebar nav li a {
       border-radius: 6px;
       margin: 4px 12px;
@@ -132,21 +209,26 @@
       border-bottom: 1px solid #cbd5e1;
     }
     
-    /* Markdown 渲染美化 (極簡白紙張質感) - 調整版面以留空給右側目錄 */
+    /* 3. 調整內容區域 Content (避免被頂部 Header 遮擋) */
+    .content {
+      padding-top: 55px !important;
+    }
+    
+    /* Markdown 渲染美化 (與主背景融為一體，這是 newzone 宣紙風格的靈魂) */
     .markdown-section {
       padding: 40px 30px;
-      background: #faf6ef; /* 與整體背景融為一體，這是 newzone 宣紙風格的靈魂 */
+      background: #faf6ef; 
       border-radius: 12px;
-      margin: 30px 260px 30px auto !important;
+      margin: 30px 260px 30px auto !important; /* 寬螢幕下留空給右側目錄 */
       max-width: 760px !important;
-      border: none; /* 移除邊框，使主背景與紙張融為一體 */
+      border: none; 
     }
 
-    /* 右側 TOC (Table of Contents) 樣式優化 - 完美神似 VuePress */
+    /* 4. 調整右側目錄 TOC (Table of Contents) - 完美神似 VuePress */
     .page-toc {
       position: fixed;
       right: 25px;
-      top: 100px;
+      top: 110px;
       width: 210px;
       border-left: 1px solid #e6dfd3;
       padding-left: 15px;
@@ -172,45 +254,6 @@
     .page-toc li a:hover, .page-toc li.active a {
       color: var(--theme-color) !important;
       transform: translateX(2px);
-    }
-
-    /* 頂部導航欄 (Navbar) 樣式 */
-    .app-nav {
-      position: fixed;
-      margin: 0;
-      padding: 10px 50px 10px 0;
-      width: calc(100% - var(--sidebar-width));
-      background-color: rgba(250, 246, 239, 0.9) !important; /* 宣紙色磨砂玻璃 */
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid #e6dfd3;
-      z-index: 100;
-    }
-
-    .app-nav li {
-      font-size: 0.92rem;
-      list-style-type: none;
-    }
-
-    .app-nav a {
-      color: #5c5246 !important;
-      font-weight: 500;
-      transition: color 0.2s ease;
-      text-decoration: none;
-    }
-
-    .app-nav a:hover, .app-nav li.active a {
-      color: var(--theme-color) !important;
-    }
-
-    /* 當螢幕較小時隱藏右側目錄，保持響應式設計 */
-    @media screen and (max-width: 1200px) {
-      .page-toc {
-        display: none;
-      }
-      .markdown-section {
-        margin: 30px auto !important;
-        max-width: 800px !important;
-      }
     }
     
     /* 標題設計 */
@@ -355,6 +398,42 @@
     .github-corner svg {
       fill: var(--theme-color);
       color: #ffffff;
+    }
+
+    /* ========================================================
+       響應式設計 (Responsive Configurations)
+       ======================================================== */
+    @media screen and (max-width: 1200px) {
+      .page-toc {
+        display: none;
+      }
+      .markdown-section {
+        margin: 30px auto !important;
+        max-width: 800px !important;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .app-nav::before {
+        display: none; /* 小螢幕下隱藏左側站點名稱 */
+      }
+      .app-nav {
+        padding: 0 10px !important;
+      }
+      .sidebar {
+        top: 0 !important;
+        height: 100vh !important;
+        z-index: 110; /* 手機端側邊欄應蓋過導航 */
+      }
+      /* 調整手機選單按鈕 */
+      .sidebar-toggle {
+        top: 12px !important;
+        left: 10px !important;
+        z-index: 120 !important;
+        background: rgba(250, 246, 239, 0.8);
+        border-radius: 4px;
+        padding: 5px;
+      }
     }
   </style>
 </head>
