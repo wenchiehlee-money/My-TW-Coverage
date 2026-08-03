@@ -13,6 +13,7 @@ import importlib.util
 import json
 import re
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -46,7 +47,11 @@ PLATFORM_REVENUE_ANCHOR = "營收平台佔比-revenue-by-platform-"
 QUARTERLY_HEADING = "### 季度關鍵財務數據 (近 4 季)"
 COMPETITOR_FINANCIAL_HEADING = "### 競爭同業 Revenue/Profit/GM"
 H3_RE = re.compile(r"(?m)^### .*$")
-DEFAULT_UPDATED_AT = "2026-08-01 17:32 CST"
+TAIWAN_TZ = timezone(timedelta(hours=8))
+
+
+def current_updated_at() -> str:
+    return datetime.now(TAIWAN_TZ).strftime("%Y-%m-%d %H:%M CST")
 REQUIRED_RENDER_DATA = {
     "data/ConceptStocks/raw_conceptstock_company_income.csv",
     "data/ConceptStocks/raw_conceptstock_daily.csv",
@@ -1217,9 +1222,10 @@ def main() -> int:
     parser.add_argument("--biztrends-root", default="../biztrends.TW")
     parser.add_argument("--themes-dir", default="data/themes")
     parser.add_argument("--competitor-financial-years", type=int, default=3)
-    parser.add_argument("--updated-at", default=DEFAULT_UPDATED_AT)
+    parser.add_argument("--updated-at", default=None, help="Defaults to the current time if omitted")
     parser.add_argument("--ticker")
     args = parser.parse_args()
+    args.updated_at = args.updated_at or current_updated_at()
 
     json_dir = Path(args.json_dir).resolve()
     coverage_root = Path(args.coverage_root).resolve()
