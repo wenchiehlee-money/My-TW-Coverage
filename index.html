@@ -402,10 +402,13 @@
         // 核心插件：動態解析 [[wikilinks]] 與首頁相對路徑
         function(hook, vm) {
           hook.beforeEach(function(html) {
-            // 當首頁被設為 output/themes/README.md 時，路由 path 是 '/'
-            // 我們需要修正該頁面中的相對 markdown 連結，避免 Docsify 404
-            if (vm.route.path === '/' && vm.route.file && vm.route.file.includes('output/themes/README.md')) {
-              html = html.replace(/\]\((?!http|\/)([^)]+\.md)\)/g, '](output/themes/$1)');
+            // 動態補全子目錄 Markdown 中的相對連結前綴，避免 Docsify 404 路由錯誤
+            if (vm.route.file) {
+              var fileDir = vm.route.file.substring(0, vm.route.file.lastIndexOf('/') + 1);
+              if (fileDir) {
+                // 將所有不以 http/https 或 / 開頭，且以 .md 結尾的相對連結，補上目錄前綴
+                html = html.replace(/\]\((?!http|\/)([^)]+\.md)\)/g, '](' + fileDir + '$1)');
+              }
             }
             
             if (window.WIKILINK_MAP) {
