@@ -17,6 +17,9 @@
   
   <!-- docsify-toc Stylesheet -->
   <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+
+  <!-- docsify-sidebar-collapse Stylesheet -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   
   <style>
     /* ========================================================
@@ -185,28 +188,83 @@
       font-weight: 600;
     }
     
-    /* 搜尋輸入框 */
+    /* 搜尋框 (Search Box) 置於頂部導航欄 (Header) 右側 - 完美還原 VuePress */
+    .search {
+      position: fixed !important;
+      right: 300px !important; /* 位於 Navbar 左側 */
+      top: 11px !important;
+      z-index: 105 !important;
+      width: 180px !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      transition: all 0.3s ease;
+    }
+    
     .search input {
-      border: 1px solid #cbd5e1 !important;
-      border-radius: 8px !important;
-      padding: 10px 14px 10px 38px !important;
+      border: 1px solid #dcd3c4 !important;
+      border-radius: 6px !important;
+      padding: 6px 10px 6px 30px !important;
       color: #2c2621 !important;
-      font-size: 0.9rem !important;
-      transition: all 0.25s ease !important;
-      background-color: #ffffff !important;
+      font-size: 0.85rem !important;
+      height: 32px !important;
+      width: 100% !important;
+      background-color: #f0eae1 !important; /* 偏暖灰色的輸入框底色 */
+      box-sizing: border-box !important;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
     
     .search input:focus {
-      box-shadow: 0 0 12px rgba(62, 136, 135, 0.2) !important;
+      background-color: #ffffff !important;
       border-color: var(--theme-color) !important;
+      box-shadow: 0 0 8px rgba(62, 136, 135, 0.2) !important;
+      outline: none !important;
     }
 
-    .search p {
-      color: #64748b;
+    /* 加上快捷鍵 / 提示 */
+    .search::after {
+      content: '/';
+      position: absolute;
+      right: 10px;
+      top: 7px;
+      font-size: 0.75rem;
+      background: #e6dfd3;
+      color: #8c7e6c;
+      padding: 1px 6px;
+      border-radius: 3px;
+      border: 1px solid #dcd3c4;
+      pointer-events: none;
+      line-height: 1.2;
+      transition: opacity 0.2s ease;
+    }
+    .search:focus-within::after {
+      opacity: 0;
+    }
+
+    /* 搜尋結果懸浮彈窗 */
+    .search .results-panel {
+      position: absolute !important;
+      top: 38px !important;
+      right: 0 !important;
+      width: 320px !important;
+      max-height: 400px !important;
+      overflow-y: auto !important;
+      background: #faf6ef !important;
+      border: 1px solid #e6dfd3 !important;
+      border-radius: 8px !important;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1) !important;
+      z-index: 120 !important;
+      box-sizing: border-box !important;
+      padding: 10px !important;
     }
 
     .search .matching-post {
-      border-bottom: 1px solid #cbd5e1;
+      border-bottom: 1px solid #e6dfd3 !important;
+      padding: 10px 0 !important;
+    }
+
+    .search p {
+      color: #8c7e6c;
+      margin: 4px 0 !important;
     }
     
     /* 3. 調整內容區域 Content (避免被頂部 Header 遮擋) */
@@ -401,6 +459,39 @@
     }
 
     /* ========================================================
+       docsify-sidebar-collapse 側邊欄折疊細節圖標優化
+       ======================================================== */
+    /* 移除 Docsify 預設的側邊欄清單小圓點 */
+    .sidebar ul li {
+      list-style-type: none !important;
+    }
+
+    /* 折疊三角形圖標優化 */
+    .sidebar nav li.directory > a::before {
+      border-color: #8c7e6c transparent transparent transparent !important;
+      border-style: solid !important;
+      border-width: 5px 4px 0 4px !important;
+      content: '' !important;
+      display: inline-block !important;
+      width: 0 !important;
+      height: 0 !important;
+      margin-right: 8px !important;
+      margin-bottom: 2px !important;
+      vertical-align: middle !important;
+      transform: rotate(-90deg) !important;
+      transition: transform 0.2s ease !important;
+    }
+
+    .sidebar nav li.directory.open > a::before {
+      transform: rotate(0deg) !important;
+    }
+    
+    /* 文章內清單項目圓點改用雅致的主題色 */
+    .markdown-section ul li::marker {
+      color: var(--theme-color);
+    }
+
+    /* ========================================================
        響應式設計 (Responsive Configurations)
        ======================================================== */
     @media screen and (max-width: 1200px) {
@@ -530,6 +621,9 @@
   
   <!-- 右側 TOC 目錄插件 JS -->
   <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+  
+  <!-- 側邊欄摺疊插件 JS -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   
   <!-- 引入自動生成的 wikilink 映射檔 -->
   <script src="wikilink_map.js"></script>

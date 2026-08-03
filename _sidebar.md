@@ -1,6 +1,5 @@
 - [🏠 首頁](README.md)
 - [📈 投資主題總覽](output/themes/README.md)
-
 - **🔥 熱門投資主題**
   - [CoWoS](output/themes/CoWoS.md)
   - [HBM](output/themes/HBM.md)
@@ -24,7 +23,6 @@
   - [Apple 供應鏈](output/themes/apple_supply_chain.md)
   - [NVIDIA 供應鏈](output/themes/nvidia_supply_chain.md)
   - [Tesla 供應鏈](output/themes/tesla_supply_chain.md)
-
 - **🏢 個股研究報告**
   - [📊 個股總索引](output/enrichment_all_rendered/README.md)
   - [1xxx 水泥/食品/塑膠](output/enrichment_all_rendered/README.md#1xxx-水泥-食品-塑膠-紡織)

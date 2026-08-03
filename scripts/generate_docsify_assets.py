@@ -120,12 +120,10 @@ def generate_docsify_assets():
     with open(sidebar_path, "w", encoding="utf-8") as f:
         f.write("- [🏠 首頁](README.md)\n")
         f.write("- [📈 投資主題總覽](output/themes/README.md)\n")
-        
-        f.write("\n- **🔥 熱門投資主題**\n")
+        f.write("- **🔥 熱門投資主題**\n")
         for title, link in themes_links:
             f.write("  - [{}]({})\n".format(title, link))
-            
-        f.write("\n- **🏢 個股研究報告**\n")
+        f.write("- **🏢 個股研究報告**\n")
         f.write("  - [📊 個股總索引](output/enrichment_all_rendered/README.md)\n")
         f.write("  - [1xxx 水泥/食品/塑膠](output/enrichment_all_rendered/README.md#1xxx-水泥-食品-塑膠-紡織)\n")
         f.write("  - [2xxx 電機/鋼鐵/半導體](output/enrichment_all_rendered/README.md#2xxx-電機-鋼鐵-電子-半導體)\n")
