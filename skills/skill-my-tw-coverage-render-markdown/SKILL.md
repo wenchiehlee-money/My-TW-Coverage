@@ -23,6 +23,7 @@ Use this skill to render canonical enrichment JSON into Markdown for review or p
 - Revenue amount fallback source: `../biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv`
 - Normalized consensus source: `../biztrends.TW/data/market_expectations/normalized_consensus.csv`
 - Competitor financial source: repo-local `skills/skill-company-competitor-analysis` adapter, backed by `../biztrends.TW` financial CSVs
+- Competitor financial export (machine-readable): `output/json/{ticker}_competitors.json` — same `output_rows_for_data()` rows used to build the `### 競爭同業 Revenue/Profit/GM/PE` markdown table, plus `profile` and `business_summary` from the ticker's own JSON. Written for every ticker whose competitors resolve to at least one row. This file is synced downstream to `GoogleAlertManager` (`data/competitors/`) by `.github/workflows/sync_to_googlealertmanager.yml`; treat its shape as a cross-repo contract — do not rename its keys without checking that consumer.
 - Archived/legacy material: `Pilot_Reports/`
 
 Do not use `Pilot_Reports/` as an active render source. Read it only for explicit comparison or migration audits. The intended future state is that `Pilot_Reports/` can be renamed or moved to an archived folder without breaking rendering.
@@ -57,6 +58,8 @@ python3 skills/skill-my-tw-coverage-render-markdown/scripts/render_enrichment_ma
   --biztrends-root ../biztrends.TW \
   --themes-dir data/themes
 ```
+
+`--updated-at` defaults to the current time (Taiwan, `%Y-%m-%d %H:%M CST`) when omitted, so every render — including a no-op re-render of unchanged financial data — produces a fresh `Updated:` line and `as_of` value and therefore a real git diff. Pass an explicit `--updated-at` only when you deliberately want reproducible/identical output (e.g. for a byte-for-byte compare test).
 
 Rebuild theme pages through the same render skill:
 
@@ -140,3 +143,13 @@ rg -n "競爭同業|財務概況|營收平台佔比" output/enrichment_all_rende
 git status --short
 git -C ../skills status --short
 ```
+
+5. When the competitor export changed, confirm `output/json/{ticker}.json` exists for a resolved-competitor ticker and its `rows` match the same-ticker markdown table:
+
+```bash
+python3 -c "import json; d=json.load(open('output/json/2330_competitors.json', encoding='utf-8')); print(len(d['rows']), d['as_of'])"
+```
+
+## CI (`.github/workflows/daily_update.yml`)
+
+The scheduled/dispatched CI run cannot use the `../biztrends.TW` relative path directly — GitHub-hosted runners only check out this repo. CI instead does a plain `git clone` of `biztrends.TW` into `${{ runner.temp }}/biztrends.TW` (outside this repo's git worktree, so it can never be picked up by the later `git add .`) and overrides `--biztrends-root`, `--segment-weights`, and `--monthly-revenue` to point at that absolute path. Do not switch this back to `actions/checkout` with a sibling `path:` — GitHub rejects checkout paths outside `$GITHUB_WORKSPACE`. Do not restore `[skip ci]` on the auto-commit step or drop the PAT from the initial checkout's `token:` input — both are required for the push to actually trigger `sync_to_googlealertmanager.yml` (GitHub's anti-recursion rule silently drops `on: push` triggers for pushes made with the default `GITHUB_TOKEN`, and `[skip ci]` skips all triggers outright).

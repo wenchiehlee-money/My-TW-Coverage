@@ -121,6 +121,8 @@ The adapter reads canonical competitors from `data/enrichment_all/{ticker}.json`
 
 The My-TW renderer imports this adapter directly from the repo-local `skills/skill-company-competitor-analysis` folder. Keep this local skill in sync with `../skills/common/skill-company-competitor-analysis` when changing the adapter.
 
+`output_rows_for_data()` (called by `render_competitor_financial_section()` and directly by `render_enrichment_markdown.py`'s main loop) returns each row with both a display-formatted string and an unrounded numeric sibling: `revenue`/`revenue_raw`, `revenue_yoy_pct`/`revenue_yoy_pct_raw`, `profit`/`profit_raw`, `profit_yoy_pct`/`profit_yoy_pct_raw`, `gross_margin_pct`/`gross_margin_pct_raw`. `render_pivot()` only reads the string fields, so the `_raw` siblings exist purely for downstream machine consumers — currently `render_enrichment_markdown.py`'s `output/json/{ticker}_competitors.json` export, which GoogleAlertManager reads to rank a target company against every peer without re-parsing formatted text (stripping `,`/`%`). Keep both fields in sync if you change how a metric is computed — never format-only one and leave the other stale.
+
 ## Validation
 
 After editing the skill or runner, run:
