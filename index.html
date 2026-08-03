@@ -15,6 +15,9 @@
   <!-- docsify-themeable Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   
+  <!-- docsify-toc Stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+  
   <style>
     /* 現代化設計系統 & CSS 變數定義 (亮色模式) */
     :root {
@@ -130,14 +133,86 @@
       border-bottom: 1px solid #e2e8f0;
     }
     
-    /* Markdown 渲染美化 (極簡白紙張質感) */
+    /* Markdown 渲染美化 (極簡白紙張質感) - 調整版面以留空給右側目錄 */
     .markdown-section {
       padding: 40px 30px;
       background: #ffffff;
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
-      margin: 30px auto;
+      margin: 30px 260px 30px auto !important;
+      max-width: 760px !important;
       border: 1px solid #f1f5f9;
+    }
+
+    /* 右側 TOC (Table of Contents) 樣式優化 - 完美神似 VuePress */
+    .page-toc {
+      position: fixed;
+      right: 25px;
+      top: 100px;
+      width: 210px;
+      border-left: 1px solid #e2e8f0;
+      padding-left: 15px;
+      font-size: 0.85rem;
+      z-index: 10;
+    }
+    
+    .page-toc li {
+      list-style-type: none;
+      margin: 8px 0;
+    }
+    
+    .page-toc li a {
+      color: #64748b !important;
+      text-decoration: none !important;
+      transition: all 0.2s ease;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .page-toc li a:hover, .page-toc li.active a {
+      color: var(--theme-color) !important;
+      transform: translateX(2px);
+    }
+
+    /* 頂部導航欄 (Navbar) 樣式 */
+    .app-nav {
+      position: fixed;
+      margin: 0;
+      padding: 10px 50px 10px 0;
+      width: calc(100% - var(--sidebar-width));
+      background-color: rgba(255, 255, 255, 0.9) !important;
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #e2e8f0;
+      z-index: 100;
+    }
+
+    .app-nav li {
+      font-size: 0.92rem;
+      list-style-type: none;
+    }
+
+    .app-nav a {
+      color: #475569 !important;
+      font-weight: 500;
+      transition: color 0.2s ease;
+      text-decoration: none;
+    }
+
+    .app-nav a:hover, .app-nav li.active a {
+      color: var(--theme-color) !important;
+    }
+
+    /* 當螢幕較小時隱藏右側目錄，保持響應式設計 */
+    @media screen and (max-width: 1200px) {
+      .page-toc {
+        display: none;
+      }
+      .markdown-section {
+        margin: 30px auto !important;
+        max-width: 800px !important;
+      }
     }
     
     /* 標題設計 */
@@ -293,10 +368,19 @@
       name: 'TW Stock Database 📊',
       repo: 'https://github.com/wenchiehlee-money/My-TW-Coverage',
       loadSidebar: true,
+      loadNavbar: true, // 啟用頂部導航欄
       homepage: 'output/themes/README.md',
       subMaxLevel: 2,
       maxLevel: 4,
       auto2top: true,
+      
+      // 右側 TOC 目錄設定
+      toc: {
+        scope: '.markdown-section',
+        findDOM: 'h2, h3',
+        headings: 'h2, h3',
+        title: '本頁目錄'
+      },
       
       // 搜尋設定
       search: {
@@ -363,6 +447,9 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  
+  <!-- 右側 TOC 目錄插件 JS -->
+  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
   
   <!-- 引入自動生成的 wikilink 映射檔 -->
   <script src="wikilink_map.js"></script>
