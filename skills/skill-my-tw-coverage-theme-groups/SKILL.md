@@ -37,6 +37,11 @@ keeps that grouping consistent with each company's own canonical competitor list
 
 Run from the My-TW-Coverage repository root.
 
+0. **Check `references/curation_status.md`** for which themes are already cooked (have real
+   `competitive_groups`) and which are still on the TODO list, sorted by size. Update it when
+   you finish a theme. Some un-cooked themes heavily overlap already-cooked ones (e.g. 矽光子/
+   CPO/磷化銦 overlap 資料中心's optical groups) — reuse that research instead of starting over.
+
 1. **Pick a target.** Render or re-render the theme and look at its largest fallback buckets
    (group headers that are still a raw subcategory or GICS label, not a curated name):
 
@@ -85,6 +90,15 @@ Run from the My-TW-Coverage repository root.
    - **Informational**: a group member has `relationships.competitors` entries, but none
      overlap this group (e.g. its listed competitor is a foreign private company not in the
      dataset, or its competitor data just hasn't been reviewed yet). Not necessarily wrong.
+
+   It also prints a third, purely informational section — AI-canonical-cycle segment weights
+   (from `../biztrends.TW/output/company_cycle_major_weights.csv`, the same data
+   `skill-company-competitor-analysis` uses) for any curated group member that happens to have
+   them. This is context only, never a grouping signal: coverage is far too sparse (a handful
+   of tickers total have disclosed that granularity of revenue mix) and there is no reliable
+   theme-level revenue total to normalize against, so a missing or low weight does not mean a
+   company doesn't belong — see the discussion in `references/curation_status.md` if this needs
+   revisiting later.
 
    **When the tool reports an actionable finding, stop and ask the user how to resolve it.**
    Verify the suggested addition against the company's own business summary first (step 2)

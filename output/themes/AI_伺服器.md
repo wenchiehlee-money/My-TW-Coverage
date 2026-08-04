@@ -2,10 +2,10 @@
 
 > AI 訓練與推論伺服器完整供應鏈，從晶片到系統到散熱
 
-**涵蓋公司數:** 252
-**供應鏈層級依據:** `../biztrends.TW/data/ic.tpex.org.tw/raw_SupplyChain_*.csv`
+**涵蓋公司數:** 380
+**IC 產業鏈資料來源 (部分公司):** `../biztrends.TW/data/ic.tpex.org.tw/raw_SupplyChain_*.csv`
 
-**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) (16) | [![CPO](https://img.shields.io/badge/CPO-green)](CPO.md) (14) | [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (111)
+**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) (16) | [![CPO](https://img.shields.io/badge/CPO-green)](CPO.md) (14) | [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (115)
 
 ---
 

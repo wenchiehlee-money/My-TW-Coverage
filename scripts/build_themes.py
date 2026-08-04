@@ -699,11 +699,10 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             e for e in entries
             if e.get("role") in structured_roles or str(e.get("ticker") or "") not in structured_tickers
         ]
-    count_entries = structured_entries if has_theme_supply_chain else entries
-    lines.append(f"**涵蓋公司數:** {len({e['ticker'] for e in count_entries})}")
+    lines.append(f"**涵蓋公司數:** {len({e['ticker'] for e in entries})}")
     if has_theme_supply_chain:
         source = str(theme_def.get("theme_supply_chain", {}).get("taxonomy_source") or "../biztrends.TW/data/ic.tpex.org.tw/raw_SupplyChain_*.csv")
-        lines.append(f"**供應鏈層級依據:** `{source}`")
+        lines.append(f"**IC 產業鏈資料來源 (部分公司):** `{source}`")
     lines.append("")
 
     related_parts: list[str] = []
@@ -783,8 +782,6 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
 
 
 def theme_company_count(theme_def: dict[str, Any], entries: list[dict[str, str]]) -> int:
-    if isinstance(theme_def.get("theme_supply_chain"), dict):
-        entries = [e for e in entries if e.get("role") in {"upstream", "midstream", "downstream"}]
     return len({e["ticker"] for e in entries})
 
 

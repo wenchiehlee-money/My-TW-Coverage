@@ -14,6 +14,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 import sys
@@ -43,6 +44,46 @@ from scripts.build_themes import (  # noqa: E402
 )
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
+
+# Same AI-related canonical cycles skill-company-competitor-analysis/SKILL.md documents.
+# Informational only — segment-weight coverage is sparse (only a handful of tickers have
+# disclosed revenue-platform data at all), so this is never used to gate/decide a grouping,
+# only to add context when it happens to exist for a member already in a curated group.
+AI_CYCLE_COLUMNS = [
+    "AI_Server_Rack",
+    "AI_Foundry_Packaging",
+    "AI_Network_Infra",
+    "AI_Accelerator",
+    "AI_CPU_Orchestration",
+    "AI_Memory_HBM",
+    "Cloud_AI_Compute",
+]
+SEGMENT_WEIGHTS_PATH = ROOT.parent / "biztrends.TW" / "output" / "company_cycle_major_weights.csv"
+
+
+def load_segment_weights() -> dict[str, dict[str, Any]]:
+    """ticker -> {period, weights: {cycle: pct}} for AI-related canonical cycles, latest row per ticker."""
+    weights: dict[str, dict[str, Any]] = {}
+    if not SEGMENT_WEIGHTS_PATH.exists():
+        return weights
+    with SEGMENT_WEIGHTS_PATH.open("r", encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            ticker = str(row.get("代號", "")).strip()
+            if not ticker:
+                continue
+            cycle_pcts: dict[str, float] = {}
+            for col in AI_CYCLE_COLUMNS:
+                raw = str(row.get(col, "") or "").strip()
+                try:
+                    value = float(raw)
+                except ValueError:
+                    continue
+                if value:
+                    cycle_pcts[col] = value
+            if not cycle_pcts:
+                continue
+            weights[ticker] = {"period": str(row.get("期間", "")).strip(), "weights": cycle_pcts}
+    return weights
 
 
 def normalized_key(value: str) -> str:
@@ -108,7 +149,13 @@ def load_competitor_tickers(ticker: str, name_index: dict[str, str]) -> tuple[se
     return resolved, unresolved
 
 
-def check_theme(tag: str, theme_def: dict[str, Any], theme_map: dict[str, list[dict[str, Any]]], name_index: dict[str, str]) -> list[str]:
+def check_theme(
+    tag: str,
+    theme_def: dict[str, Any],
+    theme_map: dict[str, list[dict[str, Any]]],
+    name_index: dict[str, str],
+    segment_weights: dict[str, dict[str, Any]],
+) -> list[str]:
     report: list[str] = []
     entries = theme_map.get(tag, [])
     if not entries:
@@ -169,9 +216,32 @@ def check_theme(tag: str, theme_def: dict[str, Any], theme_map: dict[str, list[d
                     f"（可能是 relationships.competitors 尚未補齊，不一定代表分組錯）"
                 )
 
-    if section:
+    # 3. Informational only: segment-weight context for curated group members that
+    #    happen to have disclosed AI-canonical-cycle revenue weights. Never used to
+    #    decide grouping — coverage is far too sparse (a handful of tickers total)
+    #    to serve as a gate, and there is no reliable theme-level revenue total to
+    #    normalize against. Purely "here's what we know, if anything."
+    weight_lines: list[str] = []
+    for group_name, tickers in group_members.items():
+        group_weight_lines: list[str] = []
+        for ticker in sorted(tickers):
+            info = segment_weights.get(ticker)
+            if not info:
+                continue
+            company = company_by_ticker.get(ticker, ticker)
+            pct_text = ", ".join(f"{k} {v:.1f}%" for k, v in sorted(info["weights"].items(), key=lambda kv: -kv[1]))
+            group_weight_lines.append(f"    - {ticker} {company} ({info['period']}): {pct_text}")
+        if group_weight_lines:
+            weight_lines.append(f"  「{group_name}」")
+            weight_lines.extend(group_weight_lines)
+
+    if section or weight_lines:
         report.append(f"## {tag}")
-        report.extend(section)
+        if section:
+            report.extend(section)
+        if weight_lines:
+            report.append("  --- segment weight 參考 (僅供參考，不作為分組依據) ---")
+            report.extend(weight_lines)
         report.append("")
     return report
 
@@ -191,6 +261,7 @@ def main() -> int:
     theme_definitions = load_theme_definitions()
     theme_map = scan_theme_links(theme_definitions)
     name_index = build_name_index()
+    segment_weights = load_segment_weights()
 
     tags = list(theme_definitions.keys()) if args.all else [args.theme]
 
@@ -200,7 +271,7 @@ def main() -> int:
         if not theme_def:
             print(f"Theme '{tag}' not found in data/themes.")
             return 1
-        output.extend(check_theme(tag, theme_def, theme_map, name_index))
+        output.extend(check_theme(tag, theme_def, theme_map, name_index, segment_weights))
 
     if not output:
         print("No inconsistencies found between competitive_groups and relationships.competitors.")
