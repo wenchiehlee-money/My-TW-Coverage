@@ -192,6 +192,133 @@ def profile_sector(data: dict[str, Any]) -> str:
     return plain_context_text(profile.get("chain_name") or profile.get("industry") or profile.get("sector") or "")
 
 
+# GICS/yfinance industry labels (English) used as a fallback grouping key when a
+# company has no IC-taxonomy chain_name. Translated so all rendered output stays
+# Traditional Chinese per project rule.
+GICS_INDUSTRY_ZH: dict[str, str] = {
+    "Advertising Agencies": "廣告代理",
+    "Aerospace & Defense": "航太與國防",
+    "Agricultural Inputs": "農業投入品",
+    "Airlines": "航空公司",
+    "Aluminum": "鋁業",
+    "Apparel Manufacturing": "服飾製造",
+    "Apparel Retail": "服飾零售",
+    "Asset Management": "資產管理",
+    "Auto & Truck Dealerships": "汽車與卡車經銷",
+    "Auto Manufacturers": "汽車製造",
+    "Auto Parts": "汽車零組件",
+    "Banks": "銀行",
+    "Banks - Regional": "區域銀行",
+    "Beverages - Non-Alcoholic": "非酒精飲料",
+    "Biotech - Therapeutics": "生技治療藥物",
+    "Biotechnology": "生物科技",
+    "Broadcasting": "廣播媒體",
+    "Building Materials": "建材",
+    "Building Products & Equipment": "建築產品與設備",
+    "Business Equipment & Supplies": "商用設備與用品",
+    "Capital Markets": "資本市場",
+    "Chemicals": "化學",
+    "Communication Equipment": "通訊設備",
+    "Computer Hardware": "電腦硬體",
+    "Conglomerates": "綜合企業",
+    "Consulting Services": "顧問服務",
+    "Consumer Electronics": "消費性電子",
+    "Copper": "銅業",
+    "Credit Services": "信用服務",
+    "Department Stores": "百貨公司",
+    "Drug Manufacturers - Specialty & Generic": "特殊/學名藥製造",
+    "Education & Training Services": "教育與訓練服務",
+    "Electrical Equipment & Parts": "電氣設備與零件",
+    "Electronic Components": "電子零組件",
+    "Electronic Gaming & Multimedia": "電子遊戲與多媒體",
+    "Electronics & Computer Distribution": "電子與電腦通路",
+    "Electronics Distribution": "電子零組件通路",
+    "Engineering & Construction": "工程與營造",
+    "Entertainment": "娛樂",
+    "Farm Products": "農產品",
+    "Financial Conglomerates": "金融控股集團",
+    "Food Distribution": "食品通路",
+    "Footwear & Accessories": "鞋類與配件",
+    "Furnishings, Fixtures & Appliances": "家具家飾與家電",
+    "Gambling": "博弈",
+    "Ground Transportation": "陸上運輸",
+    "Health Information Services": "健康資訊服務",
+    "Home Improvement Retail": "居家修繕零售",
+    "Household & Personal Products": "家用與個人用品",
+    "Industrial Computing": "工業電腦",
+    "Industrial Distribution": "工業品通路",
+    "Information Technology Services": "資訊科技服務",
+    "Insurance - Diversified": "綜合保險",
+    "Insurance - Life": "人壽保險",
+    "Insurance - Property & Casualty": "產物保險",
+    "Insurance - Reinsurance": "再保險",
+    "Insurance Brokers": "保險經紀",
+    "Integrated Freight & Logistics": "綜合貨運與物流",
+    "Internet Content & Information": "網路內容與資訊",
+    "Internet Retail": "網路零售",
+    "Leisure": "休閒",
+    "Lodging": "住宿業",
+    "Lumber & Wood Production": "木材生產",
+    "Marine Shipping": "海運",
+    "Medical Devices": "醫療器材",
+    "Metal Fabrication": "金屬加工",
+    "Oil & Gas Equipment & Services": "油氣設備與服務",
+    "Oil & Gas Refining & Marketing": "石油煉製與行銷",
+    "Optical Components": "光學元件",
+    "Other Electronics": "其他電子產品",
+    "Other Industrial Metals & Mining": "其他工業金屬與礦業",
+    "Packaged Foods": "包裝食品",
+    "Packaging & Containers": "包裝與容器",
+    "Personal Services": "個人服務",
+    "Pollution & Treatment Controls": "污染防治設備",
+    "Publishing": "出版業",
+    "Railroads": "鐵路",
+    "Real Estate - Development": "不動產開發",
+    "Real Estate - Diversified": "綜合不動產",
+    "Real Estate Services": "不動產服務",
+    "Recreational Vehicles": "休閒車輛",
+    "Scientific & Technical Instruments": "科學與技術儀器",
+    "Security & Protection Services": "保全與防護服務",
+    "Semiconductor Equipment": "半導體設備",
+    "Semiconductor Equipment & Materials": "半導體設備與材料",
+    "Semiconductor Materials": "半導體材料",
+    "Semiconductors": "半導體",
+    "Software - Application": "應用軟體",
+    "Software - Infrastructure": "基礎架構軟體",
+    "Solar": "太陽能",
+    "Specialty Business Services": "特殊商業服務",
+    "Specialty Chemicals": "特用化學",
+    "Specialty Industrial Machinery": "特殊工業機械",
+    "Specialty Retail": "特殊零售",
+    "Staffing & Employment Services": "人力派遣服務",
+    "Steel": "鋼鐵",
+    "Telecom Services": "電信服務",
+    "Textile Manufacturing": "紡織製造",
+    "Thermal Coal": "動力煤",
+    "Tools & Accessories": "工具與配件",
+    "Trucking": "卡車運輸",
+    "Utilities - Regulated Electric": "電力事業(受監管)",
+    "Utilities - Regulated Gas": "燃氣事業(受監管)",
+    "Utilities - Regulated Water": "自來水事業(受監管)",
+    "Utilities - Renewable": "再生能源公用事業",
+    "Waste Management": "廢棄物管理",
+}
+
+
+def translate_sector_label(text: str) -> str:
+    text = str(text or "").strip()
+    if not text:
+        return text
+    if text in GICS_INDUSTRY_ZH:
+        return GICS_INDUSTRY_ZH[text]
+    if re.search(r"[一-鿿]", text):
+        return text
+    parts = [p.strip() for p in re.split(r"\s*->\s*", text) if p.strip()]
+    if len(parts) > 1:
+        return " / ".join(GICS_INDUSTRY_ZH.get(p, p) for p in parts)
+    return text
+
+
 def parse_market_cap(value: Any) -> float:
     text = str(value or "")
     match = re.search(r"-?\d[\d,]*(?:\.\d+)?", text)
@@ -340,6 +467,39 @@ def iter_ic_taxonomy_entries(
     return entries
 
 
+def iter_extra_entities(theme_def: dict[str, Any], market_caps: dict[str, tuple[float, str]]) -> list[dict[str, Any]]:
+    """Manually curated companies to inject into a theme's dataset.
+
+    Use when the upstream TPEx taxonomy simply omits a company from every
+    matching chain/subcategory row (a source data gap, not something the
+    scan/grouping logic can recover from) — see data/themes/*.json 'extra_entities'.
+    """
+    extras = theme_def.get("extra_entities", []) or []
+    entries: list[dict[str, Any]] = []
+    for item in extras:
+        if not isinstance(item, dict):
+            continue
+        ticker = str(item.get("ticker") or "").strip()
+        company = str(item.get("company") or "").strip()
+        if not ticker or not company:
+            continue
+        role = str(item.get("role") or "related").strip() or "related"
+        market_cap, market_cap_label = market_caps.get(ticker, (0.0, ""))
+        entries.append({
+            "ticker": ticker,
+            "company": company,
+            "sector": str(item.get("sector") or "").strip(),
+            "company_link": company_output_link_by_identity(ticker, company),
+            "role": role,
+            "source_path": f"extra_entities/{ticker}",
+            "match": "manual",
+            "market_cap": market_cap,
+            "market_cap_label": market_cap_label,
+            "primary_rank": int_value(item.get("primary_rank"), {"upstream": 100, "midstream": 200, "downstream": 300}.get(role, 900)),
+        })
+    return entries
+
+
 def item_entities(item: dict[str, Any]) -> set[str]:
     values = {str(x).strip() for x in item.get("entities", []) or [] if str(x).strip()}
     text = str(item.get("text", ""))
@@ -441,6 +601,12 @@ def scan_theme_links(theme_defs: dict[str, dict[str, Any]]) -> dict[str, list[di
 
     for tag, theme_def in theme_defs.items():
         for entry in iter_ic_taxonomy_entries(tag, theme_def, chain_names, market_caps):
+            key = (tag, entry["ticker"], entry["source_path"])
+            if key in seen:
+                continue
+            seen.add(key)
+            theme_map[tag].append(entry)
+        for entry in iter_extra_entities(theme_def, market_caps):
             key = (tag, entry["ticker"], entry["source_path"])
             if key in seen:
                 continue
@@ -556,67 +722,59 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
 
     lines.extend(["---", ""])
 
-    role_labels = [
-        ("upstream", "上游"),
-        ("midstream", "中游"),
-        ("downstream", "下游/客戶關係"),
-        ("related", "相關公司"),
-    ]
-
     def market_cap_value(item: dict[str, Any]) -> float:
         try:
             return float(item.get("market_cap") or 0.0)
         except (TypeError, ValueError):
             return 0.0
 
-    def entry_context(item: dict[str, Any], role: str) -> str:
-        sector = plain_context_text(item.get("sector") or "")
-        if role in structured_roles and item.get("market_cap_label"):
-            return f"{sector}; 市值: {item['market_cap_label']}" if sector else f"市值: {item['market_cap_label']}"
-        return sector
-
-    def format_entries(role_entries: list[dict[str, Any]], role: str) -> list[str]:
-        by_sector: dict[str, list[dict[str, Any]]] = defaultdict(list)
-        merged: dict[str, dict[str, Any]] = {}
-        for entry in role_entries:
-            ticker = entry["ticker"]
-            item = merged.setdefault(ticker, {**entry, "source_paths": [], "matches": []})
-            source_path = entry.get("source_path", "")
-            match = entry.get("match", "")
-            if source_path and source_path not in item["source_paths"]:
-                item["source_paths"].append(source_path)
-            if match and match not in item["matches"]:
-                item["matches"].append(match)
-
-        result: list[str] = []
-        if role in structured_roles:
-            ordered = sorted(
-                merged.values(),
-                key=lambda x: (-market_cap_value(x), str(x.get("ticker") or "")),
-            )
-            for item in ordered:
-                label = f"{item['ticker']} {item['company']}"
-                linked = render_company_badge(label, item["company_link"]) if item.get("company_link") else label
-                context = entry_context(item, role)
-                result.append(f"- {linked} ({context})" if context else f"- {linked}")
-            return result
-
-        for entry in merged.values():
-            by_sector[str(entry.get("sector") or "")].append(entry)
-        for sector in sorted(by_sector.keys()):
-            for item in sorted(by_sector[sector], key=lambda x: x["ticker"]):
-                label = f"{item['ticker']} {item['company']}"
-                linked = render_company_badge(label, item["company_link"]) if item.get("company_link") else label
-                result.append(f"- {linked} ({sector})" if sector else f"- {linked}")
-        return result
-
-    for role, label in role_labels:
-        role_entries = [e for e in entries if e.get("role") == role]
-        if not role_entries:
+    competitive_groups = theme_def.get("competitive_groups", []) or []
+    competitive_group_by_ticker: dict[str, str] = {}
+    curated_order_index: dict[str, int] = {}
+    for order, group in enumerate(competitive_groups):
+        if not isinstance(group, dict):
             continue
-        lines.append(f"## {label} ({len({e['ticker'] for e in role_entries})})")
-        lines.append("")
-        lines.extend(format_entries(role_entries, role))
+        group_name = str(group.get("name") or "").strip()
+        if not group_name:
+            continue
+        curated_order_index.setdefault(group_name, order)
+        for ticker in group.get("tickers", []) or []:
+            competitive_group_by_ticker[str(ticker).strip()] = group_name
+
+    merged: dict[str, dict[str, Any]] = {}
+    for entry in entries:
+        ticker = entry["ticker"]
+        item = merged.setdefault(ticker, {**entry, "source_paths": [], "matches": []})
+        source_path = entry.get("source_path", "")
+        match = entry.get("match", "")
+        if source_path and source_path not in item["source_paths"]:
+            item["source_paths"].append(source_path)
+        if match and match not in item["matches"]:
+            item["matches"].append(match)
+
+    group_items: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for item in merged.values():
+        ticker = str(item.get("ticker") or "")
+        group_name = competitive_group_by_ticker.get(ticker) or translate_sector_label(plain_context_text(item.get("sector") or "")) or "其他"
+        group_items[group_name].append(item)
+
+    def group_sort_key(name: str) -> tuple:
+        if name in curated_order_index:
+            return (0, curated_order_index[name], name)
+        total_cap = sum(market_cap_value(i) for i in group_items[name])
+        return (1, -total_cap, name)
+
+    lines.append(f"## 相關公司 ({len(merged)})")
+    lines.append("")
+    for group_name in sorted(group_items.keys(), key=group_sort_key):
+        items = sorted(group_items[group_name], key=lambda x: (-market_cap_value(x), str(x.get("ticker") or "")))
+        lines.append(f"**{group_name}** ({len(items)})")
+        for item in items:
+            label = f"{item['ticker']} {item['company']}"
+            linked = render_company_badge(label, item["company_link"]) if item.get("company_link") else label
+            cap_label = str(item.get("market_cap_label") or "")
+            context = f"市值: {cap_label}" if cap_label else ""
+            lines.append(f"- {linked} ({context})" if context else f"- {linked}")
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
