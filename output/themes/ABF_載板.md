@@ -4,26 +4,36 @@
 
 **涵蓋公司數:** 14
 
-**相關主題:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![AI 伺服器](https://img.shields.io/badge/AI%2520%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_伺服器.md) (148) | [[PCB]] (127)
+**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (380) | [[PCB]]
 
 ---
 
-- **3114 [![好德](https://img.shields.io/badge/%E5%A5%BD%E5%BE%B7-blue)](../enrichment_all_rendered/3114_好德.md)** (Industrial Distribution)
-- **3485 [![敘豐](https://img.shields.io/badge/%E6%95%98%E8%B1%90-blue)](../enrichment_all_rendered/3485_敘豐.md)** (Specialty Industrial Machinery)
-- **7795 [![長廣](https://img.shields.io/badge/%E9%95%B7%E5%BB%A3-blue)](../enrichment_all_rendered/7795_長廣.md)** (Specialty Industrial Machinery)
+## 相關公司 (14)
 
-- **3037 [![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](../enrichment_all_rendered/3037_欣興.md)** (Electronic Components)
-- **8046 [![南電](https://img.shields.io/badge/%E5%8D%97%E9%9B%BB-blue)](../enrichment_all_rendered/8046_南電.md)** (Electronic Components)
-- **3189 [![景碩](https://img.shields.io/badge/%E6%99%AF%E7%A2%A9-blue)](../enrichment_all_rendered/3189_景碩.md)** (Semiconductor Equipment & Materials)
+**電子零組件** (5)
+- [![3037 欣興](https://img.shields.io/badge/3037%20%E6%AC%A3%E8%88%88-blue)](../enrichment_all_rendered/3037_%E6%AC%A3%E8%88%88.md) (市值: 1,083,012 百萬台幣)
+- [![8046 南電](https://img.shields.io/badge/8046%20%E5%8D%97%E9%9B%BB-blue)](../enrichment_all_rendered/8046_%E5%8D%97%E9%9B%BB.md) (市值: 567,979 百萬台幣)
+- [![4958 臻鼎-KY](https://img.shields.io/badge/4958%20%E8%87%BB%E9%BC%8E--KY-blue)](../enrichment_all_rendered/4958_%E8%87%BB%E9%BC%8E-KY.md) (市值: 436,626 百萬台幣)
+- [![3093 港建](https://img.shields.io/badge/3093%20%E6%B8%AF%E5%BB%BA-blue)](../enrichment_all_rendered/3093_%E6%B8%AF%E5%BB%BA.md) (市值: 6,249 百萬台幣)
+- [![8074 鉅橡](https://img.shields.io/badge/8074%20%E9%89%85%E6%A9%A1-blue)](../enrichment_all_rendered/8074_%E9%89%85%E6%A9%A1.md) (市值: 4,070 百萬台幣)
 
-- **8074 [![鉅橡](https://img.shields.io/badge/%E9%89%85%E6%A9%A1-blue)](../enrichment_all_rendered/8074_鉅橡.md)** (Electronic Components)
-- **4577 [![達航科技](https://img.shields.io/badge/%E9%81%94%E8%88%AA%E7%A7%91%E6%8A%80-blue)](../enrichment_all_rendered/4577_達航科技.md)** (Specialty Industrial Machinery)
+**特用化學** (1)
+- [![1303 南亞](https://img.shields.io/badge/1303%20%E5%8D%97%E4%BA%9E-blue)](../enrichment_all_rendered/1303_%E5%8D%97%E4%BA%9E.md) (市值: 1,122,211 百萬台幣)
 
-## 相關公司 (6)
+**電腦硬體** (1)
+- [![3231 緯創](https://img.shields.io/badge/3231%20%E7%B7%AF%E5%89%B5-blue)](../enrichment_all_rendered/3231_%E7%B7%AF%E5%89%B5.md) (市值: 539,019 百萬台幣)
 
-- **3231 [![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](../enrichment_all_rendered/3231_緯創.md)** (Computer Hardware)
-- **3093 [![港建](https://img.shields.io/badge/%E6%B8%AF%E5%BB%BA-blue)](../enrichment_all_rendered/3093_港建.md)** (Electronic Components)
-- **4958 [![臻鼎-KY](https://img.shields.io/badge/%E8%87%BB%E9%BC%8E--KY-blue)](../enrichment_all_rendered/4958_臻鼎-KY.md)** (Electronic Components)
-- **6691 [![洋基工程](https://img.shields.io/badge/%E6%B4%8B%E5%9F%BA%E5%B7%A5%E7%A8%8B-blue)](../enrichment_all_rendered/6691_洋基工程.md)** (Engineering & Construction)
-- **1303 [![南亞](https://img.shields.io/badge/%E5%8D%97%E4%BA%9E-blue)](../enrichment_all_rendered/1303_南亞.md)** (Specialty Chemicals)
-- **6664 [![群翊](https://img.shields.io/badge/%E7%BE%A4%E7%BF%8A-blue)](../enrichment_all_rendered/6664_群翊.md)** (Specialty Industrial Machinery)
+**半導體設備與材料** (1)
+- [![3189 景碩](https://img.shields.io/badge/3189%20%E6%99%AF%E7%A2%A9-blue)](../enrichment_all_rendered/3189_%E6%99%AF%E7%A2%A9.md) (市值: 303,503 百萬台幣)
+
+**工程與營造** (1)
+- [![6691 洋基工程](https://img.shields.io/badge/6691%20%E6%B4%8B%E5%9F%BA%E5%B7%A5%E7%A8%8B-blue)](../enrichment_all_rendered/6691_%E6%B4%8B%E5%9F%BA%E5%B7%A5%E7%A8%8B.md) (市值: 75,856 百萬台幣)
+
+**特殊工業機械** (4)
+- [![7795 長廣](https://img.shields.io/badge/7795%20%E9%95%B7%E5%BB%A3-blue)](../enrichment_all_rendered/7795_%E9%95%B7%E5%BB%A3.md) (市值: 27,393 百萬台幣)
+- [![6664 群翊](https://img.shields.io/badge/6664%20%E7%BE%A4%E7%BF%8A-blue)](../enrichment_all_rendered/6664_%E7%BE%A4%E7%BF%8A.md) (市值: 19,063 百萬台幣)
+- [![3485 敘豐](https://img.shields.io/badge/3485%20%E6%95%98%E8%B1%90-blue)](../enrichment_all_rendered/3485_%E6%95%98%E8%B1%90.md) (市值: 7,409 百萬台幣)
+- [![4577 達航科技](https://img.shields.io/badge/4577%20%E9%81%94%E8%88%AA%E7%A7%91%E6%8A%80-blue)](../enrichment_all_rendered/4577_%E9%81%94%E8%88%AA%E7%A7%91%E6%8A%80.md) (市值: 3,420 百萬台幣)
+
+**工業品通路** (1)
+- [![3114 好德](https://img.shields.io/badge/3114%20%E5%A5%BD%E5%BE%B7-blue)](../enrichment_all_rendered/3114_%E5%A5%BD%E5%BE%B7.md) (市值: 1,868 百萬台幣)

@@ -2,13 +2,13 @@
 
 > 以 NVIDIA GPU 與 AI 平台為核心的台灣供應鏈成員，不代表 NVIDIA 公司本身。
 
-**涵蓋公司數:** 114
+**涵蓋公司數:** 115
 
-**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) (16) | [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (380) | [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (115) | [[NVIDIA]] | [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](../enrichment_all_rendered/2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)
+**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) (16) | [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (380) | [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) (115) | [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](../enrichment_all_rendered/NVDA_NVIDIA.md) | [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](../enrichment_all_rendered/2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)
 
 ---
 
-## 相關公司 (114)
+## 相關公司 (115)
 
 **半導體** (8)
 - [![2330 台積電](https://img.shields.io/badge/2330%20%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](../enrichment_all_rendered/2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (市值: 62,108,025 百萬台幣)
@@ -47,7 +47,7 @@
 - [![5230 雷笛克光學](https://img.shields.io/badge/5230%20%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8-blue)](../enrichment_all_rendered/5230_%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8.md) (市值: 931 百萬台幣)
 - [![6512 啟發電](https://img.shields.io/badge/6512%20%E5%95%9F%E7%99%BC%E9%9B%BB-blue)](../enrichment_all_rendered/6512_%E5%95%9F%E7%99%BC%E9%9B%BB.md) (市值: 498 百萬台幣)
 
-**電腦硬體** (41)
+**電腦硬體** (42)
 - [![6669 緯穎](https://img.shields.io/badge/6669%20%E7%B7%AF%E7%A9%8E-blue)](../enrichment_all_rendered/6669_%E7%B7%AF%E7%A9%8E.md) (市值: 2,862,877 百萬台幣)
 - [![2382 廣達](https://img.shields.io/badge/2382%20%E5%BB%A3%E9%81%94-blue)](../enrichment_all_rendered/2382_%E5%BB%A3%E9%81%94.md) (市值: 1,192,973 百萬台幣)
 - [![2357 華碩](https://img.shields.io/badge/2357%20%E8%8F%AF%E7%A2%A9-blue)](../enrichment_all_rendered/2357_%E8%8F%AF%E7%A2%A9.md) (市值: 565,241 百萬台幣)
@@ -89,6 +89,7 @@
 - [![3540 曜越](https://img.shields.io/badge/3540%20%E6%9B%9C%E8%B6%8A-blue)](../enrichment_all_rendered/3540_%E6%9B%9C%E8%B6%8A.md) (市值: 1,634 百萬台幣)
 - [![6825 和暢科技](https://img.shields.io/badge/6825%20%E5%92%8C%E6%9A%A2%E7%A7%91%E6%8A%80-blue)](../enrichment_all_rendered/6825_%E5%92%8C%E6%9A%A2%E7%A7%91%E6%8A%80.md) (市值: 1,339 百萬台幣)
 - [![6680 鑫創電子](https://img.shields.io/badge/6680%20%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90-blue)](../enrichment_all_rendered/6680_%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90.md) (市值: 1,320 百萬台幣)
+- [![DELL Dell](https://img.shields.io/badge/DELL%20Dell-blue)](../enrichment_all_rendered/DELL_Dell.md) (市值: N/A 百萬台幣)
 
 **通訊設備** (7)
 - [![2345 智邦](https://img.shields.io/badge/2345%20%E6%99%BA%E9%82%A6-blue)](../enrichment_all_rendered/2345_%E6%99%BA%E9%82%A6.md) (市值: 1,067,514 百萬台幣)
