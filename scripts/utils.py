@@ -27,7 +27,7 @@ def find_ticker_files(tickers=None, sector=None):
     files = {}
     for fp in glob.glob(os.path.join(REPORTS_DIR, "**", "*.md"), recursive=True):
         fn = os.path.basename(fp)
-        m = re.match(r"^(\d{4})_", fn)
+        m = re.match(r"^([A-Za-z0-9]+)_", fn)
         if not m:
             continue
         t = m.group(1)
@@ -37,7 +37,7 @@ def find_ticker_files(tickers=None, sector=None):
             if folder.lower() != sector.lower():
                 continue
 
-        if tickers is None or t in tickers:
+        if tickers is None or t in tickers or t.upper() in [x.upper() for x in (tickers or [])]:
             files[t] = fp
 
     return files
@@ -46,7 +46,7 @@ def find_ticker_files(tickers=None, sector=None):
 def get_ticker_from_filename(filepath):
     """Extract ticker number and company name from a report filename."""
     fn = os.path.basename(filepath)
-    m = re.match(r"^(\d{4})_(.+)\.md$", fn)
+    m = re.match(r"^([A-Za-z0-9]+)_(.+)\.md$", fn)
     if m:
         return m.group(1), m.group(2)
     return None, None
@@ -101,7 +101,7 @@ def parse_scope_args(args):
         sector = " ".join(args[1:])
         return None, sector, f"all tickers in sector: {sector}"
     else:
-        tickers = [t.strip() for t in args if re.match(r"^\d{4}$", t.strip())]
+        tickers = [t.strip() for t in args if re.match(r"^[A-Za-z0-9]+$", t.strip())]
         return tickers, None, f"{len(tickers)} tickers: {', '.join(tickers)}"
 
 

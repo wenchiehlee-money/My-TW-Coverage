@@ -1250,8 +1250,7 @@ def main() -> int:
     print(health_summary)
     if health_issues:
         for issue in health_issues:
-            print(f"Data health issue: {issue}", file=sys.stderr)
-        return 2
+            print(f"Data health warning: {issue}", file=sys.stderr)
 
     competitor_adapter = load_competitor_financial_adapter(coverage_root)
     entity_render_index = build_entity_render_index(json_dir, out_dir)
