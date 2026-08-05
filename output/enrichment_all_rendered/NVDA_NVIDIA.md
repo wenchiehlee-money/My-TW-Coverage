@@ -9,16 +9,15 @@
 NVIDIA (NVDA，[[NVIDIA]]) 為全球人工智慧 (AI) 算力晶片、圖形處理器 (GPU) 及加速計算平台的絕對霸主。旗下 Hopper (H100/H200) 與 Blackwell (B200/GB200/B300) 架構晶片廣泛應用於全球頂級 CSP 數據中心。公司亦提供 CUDA 軟體生態系與 DGX SuperPOD 全套伺服器基礎架構。
 
 ## 供應鏈位置
-- **晶圓代工與先進封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N4/N3 & CoWoS-S/L)
+- **晶圓代工與先進封裝:** [[台積電]] (N4/N3 & CoWoS-S/L)
 - **高頻寬記憶體 (HBM):** [[SK 海力士]]、[[Micron]]、[[Samsung]]
-- **伺服器電源與散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_%E5%A5%87%E9%8B%90.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_%E9%9B%99%E9%B4%BB.md)
+- **伺服器電源與散熱:** [[台達電]]、[[奇鋐]]、[[雙鴻]]
 
 **中游:**
 - **NVIDIA** — 晶片架構設計、CUDA 軟體平台與 NVLink 交換器技術
 
 **下游:**
-- **主要平台:** Data Center (~84.803%), Gaming (~9.988%), Professional Visualization (~3.5656%), Automotive (~1.6434%).
-- **AI 伺服器 ODM 夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_%E7%B7%AF%E7%A9%8E.md)、[![技嘉](https://img.shields.io/badge/%E6%8A%80%E5%98%89-blue)](2376_%E6%8A%80%E5%98%89.md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)
+- **AI 伺服器 ODM 夥伴:** [[廣達]]、[[鴻海]]、[[緯創]]、[[緯穎]]、[[技嘉]]、[[華碩]]
 - **終端 CSP 客戶:** [[Microsoft]]、[[Meta]]、[[Amazon]]、[[Google]]
 
 ## 主要客戶及供應商
@@ -76,5 +75,3 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Data Center (AI GPUs & Networking) | 88.20% ($30,940M) | H100/H200/B200 出貨與 Spectrum-X 網通需求 |
 | Gaming & AI PC | 8.50% ($2,980M) | RTX 40/50 系列顯示卡需求 |
 | Professional Visualization & Auto | 3.30% ($1,160M) | DRIVE Orin/Thor 與工作站卡 |
-
-Updated: 2026-08-05 21:14 CST
