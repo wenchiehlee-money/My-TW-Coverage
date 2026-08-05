@@ -715,8 +715,13 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             related_parts.append(f"{render_theme_badge(related_def)} ({count})")
     if theme_def.get("related_entities"):
         related_parts.extend(render_related_entity(str(entity), company_badge_index) for entity in theme_def.get("related_entities", []) or [])
-    if related_parts:
-        lines.append(f"**相關主題/實體:** {' | '.join(related_parts)}")
+    if theme_def.get("key_metrics"):
+        lines.append("## 關鍵關注指標")
+        for km in theme_def.get("key_metrics", []) or []:
+            name = str(km.get("name") or "").strip()
+            desc = str(km.get("desc") or "").strip()
+            if name:
+                lines.append(f"- **{name}:** {desc}" if desc else f"- **{name}**")
         lines.append("")
 
     lines.extend(["---", ""])
