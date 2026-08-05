@@ -1,4 +1,4 @@
-# AVGO - [[Broadcom]]
+# AVGO - Broadcom
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,7 +6,7 @@
 **市值:** 760,000 百萬美元
 **企業價值:** 810,000 百萬美元
 
-Broadcom (AVGO，[[Broadcom]]) 博通為全球半導體與企業軟體巨頭，在網路交換晶片 (Tomahawk 5/Jericho3-X)、Custom AI ASIC 客製化晶片 (為 Google TPU, Meta MTIA 代工設計) 及射頻 RF 零組件佔有絕對統治地位。並擁有 VMware 企業雲端軟體事業群。
+Broadcom (AVGO，Broadcom) 博通為全球半導體與企業軟體巨頭，在網路交換晶片 (Tomahawk 5/Jericho3-X)、Custom AI ASIC 客製化晶片 (為 Google TPU, Meta MTIA 代工設計) 及射頻 RF 零組件佔有絕對統治地位。並擁有 VMware 企業雲端軟體事業群。
 
 ## 供應鏈位置
 - **晶圓代工:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N7/N5/N3 & CoWoS)

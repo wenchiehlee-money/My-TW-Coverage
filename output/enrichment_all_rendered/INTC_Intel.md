@@ -1,4 +1,4 @@
-# INTC - [[Intel]]
+# INTC - Intel
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,20 +6,20 @@
 **市值:** 135,000 百萬美元
 **企業價值:** 165,000 百萬美元
 
-Intel Corporation (INTC，[[Intel]]) 為全球個人電腦 x86 處理器 (Core 系列) 與企業伺服器 CPU (Xeon 系列) 龍頭。公司推動 IDM 2.0 戰略，劃分為產品事業群 (CCG 個人電腦、DCAI 數據中心與 AI、NEX 網路與邊緣) 以及獨立運作的晶圓代工部門 (Intel Foundry)。旗下亦包含車用晶片子公司 Mobileye。
+Intel Corporation (INTC，Intel) 為全球個人電腦 x86 處理器 (Core 系列) 與企業伺服器 CPU (Xeon 系列) 龍頭。公司推動 IDM 2.0 戰略，劃分為產品事業群 (CCG 個人電腦、DCAI 數據中心與 AI、NEX 網路與邊緣) 以及獨立運作的晶圓代工部門 (Intel Foundry)。旗下亦包含車用晶片子公司 Mobileye。
 
 ## 供應鏈位置
 **上游:**
-- **晶圓代工與先進封裝外包:** [[台積電]] (N3/N4 代工 Lunar Lake / Arrow Lake 之 Compute Tile)
-- **半導體設備與關鍵組件:** [[ASML]] (High-NA EUV 首批客戶)、[[應用材料]]、[[Lam Research]]
-- **載板與散熱:** [[欣興]]、[[南電]]、[[健策]]
+- **晶圓代工與先進封裝外包:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (N3/N4 代工 Lunar Lake / Arrow Lake 之 Compute Tile)
+- **半導體設備與關鍵組件:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md) (High-NA EUV 首批客戶)、[[應用材料]]、[[Lam Research]]
+- **載板與散熱:** [![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](3037_欣興.md)、[![南電](https://img.shields.io/badge/%E5%8D%97%E9%9B%BB-blue)](8046_南電.md)、[![健策](https://img.shields.io/badge/%E5%81%A5%E7%AD%96-blue)](3653_健策.md)
 
 **中游:**
 - **Intel** — x86 架構設計、Core / Xeon 處理器研發、Foveros 3D 封裝與自有晶圓廠製造
 
 **下游:**
-- **全球 PC 品牌巨頭:** [[Dell]]、[[Lenovo]]、[[HP]]、[[華碩]]、[[宏碁]]
-- **伺服器與 CSP:** [[廣達]]、[[鴻海]]、[[緯創]]、[[英業達]]、[[Microsoft]]、[[Amazon]]
+- **全球 PC 品牌巨頭:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[[Lenovo]]、[[HP]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_華碩.md)、[![宏碁](https://img.shields.io/badge/%E5%AE%8F%E7%A2%81-blue)](2353_宏碁.md)
+- **伺服器與 CSP:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_英業達.md)、[[Microsoft]]、[[Amazon]]
 
 ## 主要客戶及供應商
 

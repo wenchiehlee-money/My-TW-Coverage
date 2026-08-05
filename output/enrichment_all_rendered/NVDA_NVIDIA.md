@@ -1,4 +1,4 @@
-# NVDA - [[NVIDIA]]
+# NVDA - NVIDIA
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,18 +6,18 @@
 **市值:** 3,450,000 百萬美元
 **企業價值:** 3,420,000 百萬美元
 
-NVIDIA (NVDA，[[NVIDIA]]) 為全球人工智慧 (AI) 算力晶片、圖形處理器 (GPU) 及加速計算平台的絕對霸主。旗下 Hopper (H100/H200) 與 Blackwell (B200/GB200/B300) 架構晶片廣泛應用於全球頂級 CSP 數據中心。公司亦提供 CUDA 軟體生態系與 DGX SuperPOD 全套伺服器基礎架構。
+NVIDIA (NVDA，NVIDIA) 為全球人工智慧 (AI) 算力晶片、圖形處理器 (GPU) 及加速計算平台的絕對霸主。旗下 Hopper (H100/H200) 與 Blackwell (B200/GB200/B300) 架構晶片廣泛應用於全球頂級 CSP 數據中心。公司亦提供 CUDA 軟體生態系與 DGX SuperPOD 全套伺服器基礎架構。
 
 ## 供應鏈位置
-- **晶圓代工與先進封裝:** [[台積電]] (N4/N3 & CoWoS-S/L)
+- **晶圓代工與先進封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (N4/N3 & CoWoS-S/L)
 - **高頻寬記憶體 (HBM):** [[SK 海力士]]、[[Micron]]、[[Samsung]]
-- **伺服器電源與散熱:** [[台達電]]、[[奇鋐]]、[[雙鴻]]
+- **伺服器電源與散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)
 
 **中游:**
 - **NVIDIA** — 晶片架構設計、CUDA 軟體平台與 NVLink 交換器技術
 
 **下游:**
-- **AI 伺服器 ODM 夥伴:** [[廣達]]、[[鴻海]]、[[緯創]]、[[緯穎]]、[[技嘉]]、[[華碩]]
+- **AI 伺服器 ODM 夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md)、[![技嘉](https://img.shields.io/badge/%E6%8A%80%E5%98%89-blue)](2376_技嘉.md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_華碩.md)
 - **終端 CSP 客戶:** [[Microsoft]]、[[Meta]]、[[Amazon]]、[[Google]]
 
 ## 主要客戶及供應商

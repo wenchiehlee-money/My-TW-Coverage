@@ -6,11 +6,11 @@
 **市值:** N/A 百萬台幣
 **企業價值:** N/A 百萬台幣
 
-Dell Technologies Inc. (DELL，Dell) 總部位於美國德州德克薩斯州，為全球領先的個人電腦、[[伺服器]]、儲存設備及企業 IT 基礎架構解決方案供應商。公司主要營運兩大事業群：基礎架構解決方案事業群 (ISG)，包含 [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (如 PowerEdge XE9680/XE9680L)、儲存設備及網路設備；以及客戶解決方案事業群 (CSG)，包含商用及消費型桌上型電腦、筆記型電腦 (Latitude, XPS, Alienware) 與顯示器。Dell 擁有全球龐大的企業級通路與一站式 IT 服務整合能力。
+Dell Technologies Inc. (DELL，Dell) 總部位於美國德州德克薩斯州，為全球領先的個人電腦、[![伺服器](https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_伺服器.md)、儲存設備及企業 IT 基礎架構解決方案供應商。公司主要營運兩大事業群：基礎架構解決方案事業群 (ISG)，包含 [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (如 PowerEdge XE9680/XE9680L)、儲存設備及網路設備；以及客戶解決方案事業群 (CSG)，包含商用及消費型桌上型電腦、筆記型電腦 (Latitude, XPS, Alienware) 與顯示器。Dell 擁有全球龐大的企業級通路與一站式 IT 服務整合能力。
 
 ## 供應鏈位置
 **上游 (關鍵零組件與晶片):**
-- **CPU / GPU 晶片:** [[NVIDIA]]、[[AMD]]、[[Intel]] — 提供 AI 晶片 (H100/H200/B200) 與伺服器/PC 處理器
+- **CPU / GPU 晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md) — 提供 AI 晶片 (H100/H200/B200) 與伺服器/PC 處理器
 - **關鍵零組件:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md) — 伺服器電源與散熱方案；[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_%E5%A5%87%E9%8B%90.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_%E9%9B%99%E9%B4%BB.md) — 水冷與散熱模組；[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md) — 代工製造與 L6-L10 板卡組裝
 
 **中游 (品牌設計與伺服器系統整合):**
@@ -27,7 +27,7 @@ Dell Technologies Inc. (DELL，Dell) 總部位於美國德州德克薩斯州，�
 - **商用與個人用戶:** 全球企業員工、電競玩家及一般消費市場
 
 ### 主要供應商
-- **AI 晶片 / 處理器:** [[NVIDIA]]、[[AMD]]、[[Intel]]
+- **AI 晶片 / 處理器:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md)
 - **代工與組裝夥伴:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)
 - **電源與散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_%E5%A5%87%E9%8B%90.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_%E9%9B%99%E9%B4%BB.md)
 

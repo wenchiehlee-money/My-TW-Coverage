@@ -1,4 +1,4 @@
-# QCOM - [[Qualcomm]]
+# QCOM - Qualcomm
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,10 +6,10 @@
 **市值:** 195,000 百萬美元
 **企業價值:** 198,000 百萬美元
 
-Qualcomm (QCOM，[[Qualcomm]]) 高通為全球行動通訊晶片、5G Modem 與智慧型手持裝置 SoC (Snapdragon 系列) 龍頭。公司積極擴展 AI PC 處理器 (Snapdragon X Elite/Plus) 及車用數位座艙平台 (Snapdragon Auto)。
+Qualcomm (QCOM，Qualcomm) 高通為全球行動通訊晶片、5G Modem 與智慧型手持裝置 SoC (Snapdragon 系列) 龍頭。公司積極擴展 AI PC 處理器 (Snapdragon X Elite/Plus) 及車用數位座艙平台 (Snapdragon Auto)。
 
 ## 供應鏈位置
-- **晶圓代工:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N4/N3)、[[Samsung Foundry]]
+- **晶圓代工:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N4/N3)、[![Samsung Foundry](https://img.shields.io/badge/Samsung%2520Foundry-blue)](005930.KS_Samsung Foundry.md)
 - **封裝測試:** [![日月光投控](https://img.shields.io/badge/%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7-blue)](3711_%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md)、[![京元電子](https://img.shields.io/badge/%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90-blue)](2449_%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90.md)
 
 **中游:**
@@ -17,7 +17,7 @@ Qualcomm (QCOM，[[Qualcomm]]) 高通為全球行動通訊晶片、5G Modem 與�
 
 **下游:**
 - **主要平台:** Handsets (~59.8071%), IoT (~21.5193%), Automotive (~18.6736%).
-- **智慧型手機:** [[Apple]]、[![三星](https://img.shields.io/badge/%E4%B8%89%E6%98%9F-blue)](5007_%E4%B8%89%E6%98%9F.md)、[[小米]]、[[OPPO]]、[[vivo]]
+- **智慧型手機:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[![三星](https://img.shields.io/badge/%E4%B8%89%E6%98%9F-blue)](5007_%E4%B8%89%E6%98%9F.md)、[[小米]]、[[OPPO]]、[[vivo]]
 - **AI PC 品牌:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[[Lenovo]]、[[HP]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)、[![宏碁](https://img.shields.io/badge/%E5%AE%8F%E7%A2%81-blue)](2353_%E5%AE%8F%E7%A2%81.md)
 
 ## 主要客戶及供應商

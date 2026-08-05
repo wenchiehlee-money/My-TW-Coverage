@@ -1,4 +1,4 @@
-# SONY - [[Sony]]
+# SONY - Sony
 
 ## 業務簡介
 **板塊:** Consumer Discretionary & Technology
@@ -6,19 +6,19 @@
 **市值:** 115,000 百萬美元
 **企業價值:** 122,000 百萬美元
 
-Sony Group Corporation (SONY，[[Sony]]) 總部位於日本東京，為全球跨國消費性電子、半導體感測器與娛樂影視巨頭。旗下核心業務包含 PlayStation (PS5 家用遊戲機與遊戲軟體遊戲開發)、CMOS 影像感測器 (CIS，為 Apple iPhone 與高階手機主要供應商)、Sony Music 音樂出版、Sony Pictures 電影發行及高端 Bravia 電視與音響。
+Sony Group Corporation (SONY，Sony) 總部位於日本東京，為全球跨國消費性電子、半導體感測器與娛樂影視巨頭。旗下核心業務包含 PlayStation (PS5 家用遊戲機與遊戲軟體遊戲開發)、CMOS 影像感測器 (CIS，為 Apple iPhone 與高階手機主要供應商)、Sony Music 音樂出版、Sony Pictures 電影發行及高端 Bravia 電視與音響。
 
 ## 供應鏈位置
 **上游:**
-- **晶圓代工與合資廠:** [[台積電]] (JASM 熊本廠合作夥伴)、自有熊本/長崎 CIS 晶圓廠
-- **遊戲機與電子零組件代工:** [[鴻海]] (PS5 主機組裝)、[[和碩]]
-- **光學與顯示元件:** [[採鈺]]、[[大立光]]
+- **晶圓代工與合資廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (JASM 熊本廠合作夥伴)、自有熊本/長崎 CIS 晶圓廠
+- **遊戲機與電子零組件代工:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md) (PS5 主機組裝)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_和碩.md)
+- **光學與顯示元件:** [[採鈺]]、[![大立光](https://img.shields.io/badge/%E5%A4%A7%E7%AB%8B%E5%85%89-blue)](3008_大立光.md)
 
 **中游:**
 - **Sony** — CMOS 影像感測器研發製造、PlayStation 主機架構、遊戲開發工作室 (PlayStation Studios) 與影音娛樂內容製作
 
 **下游:**
-- **全球手持裝置品牌:** [[Apple]] (iPhone CIS 鏡頭感測器巨頭)、[[小米]]、[[OPPO]]、[[vivo]]
+- **全球手持裝置品牌:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md) (iPhone CIS 鏡頭感測器巨頭)、[[小米]]、[[OPPO]]、[[vivo]]
 - **廣大全球玩家與影視消費者:** PS5 家用主機玩家、PlayStation Plus 訂閱戶、全球影院與串流平台客戶
 
 ## 主要客戶及供應商

@@ -1,4 +1,4 @@
-# INTC - [[Intel Foundry]]
+# INTC - Intel Foundry
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,10 +6,10 @@
 **市值:** 135,000 百萬美元
 **企業價值:** 165,000 百萬美元
 
-Intel Corporation (INTC，[[Intel Foundry]]) 為美國傳統 IDM 半導體巨頭，公司實施 IDM 2.0 戰略，將晶圓製造拆分為獨立經營的 Intel Foundry。擁有多代埃米級製程節點（Intel 18A、Intel 20A、Intel 3）並積極爭取外部 Fabless 客戶 (如 Microsoft, Amazon, US Department of Defense)。
+Intel Corporation (INTC，Intel Foundry) 為美國傳統 IDM 半導體巨頭，公司實施 IDM 2.0 戰略，將晶圓製造拆分為獨立經營的 Intel Foundry。擁有多代埃米級製程節點（Intel 18A、Intel 20A、Intel 3）並積極爭取外部 Fabless 客戶 (如 Microsoft, Amazon, US Department of Defense)。
 
 ## 供應鏈位置
-- **半導體設備:** [[ASML]] (High-NA EUV 首批客戶)、[[應用材料]]、[[Lam Research]]、[[KLA]]
+- **半導體設備:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md) (High-NA EUV 首批客戶)、[[應用材料]]、[[Lam Research]]、[[KLA]]
 - **特用化學品與晶圓:** [[信越]]、[[勝高]]、[[默克]]
 
 **中游:**

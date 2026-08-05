@@ -18,14 +18,14 @@ TPK-KY (宸鴻) 為全球觸控技術的領導廠商，也是觸控模組量產�
 *   **上游**: ITO 玻璃/薄膜、保護玻璃基板 (康寧等)、觸控控制 IC、光學膠。
 *   **中游**: **TPK-KY (3673)** - 觸控模組研發設計、光學貼合、激光雷達組裝。
 *   **下游**:
-    *   **消費電子巨頭**: [[Apple]] (iPad, MacBook 等觸控相關組件)、歐美 e-reader 客戶。
+    *   **消費電子巨頭**: [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md) (iPad, MacBook 等觸控相關組件)、歐美 e-reader 客戶。
     *   **車用大廠**: [[Tesla]], [[Mercedes-Benz]] (激光雷達協力), Luminar。
     *   **工業與零售**: 智慧販賣機、大型電子白板廠商。
 
 ## 主要客戶及供應商
 ### 主要客戶
 - 車用：[[Tesla]], [[Mercedes-Benz]], Luminar (Lidar 獨家代工)。
-- 消費電子：[[Apple]] (觸控模組/貼合), 國際電子書龍頭客戶。
+- 消費電子：[![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md) (觸控模組/貼合), 國際電子書龍頭客戶。
 - 策略合作：奕力-KY (驅動 IC)。
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)

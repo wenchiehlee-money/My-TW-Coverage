@@ -1,4 +1,4 @@
-# ASML - [[ASML]]
+# ASML - ASML
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,7 +6,7 @@
 **市值:** 310,000 百萬美元
 **企業價值:** 305,000 百萬美元
 
-ASML (ASML，[[ASML]]) 阿斯麥總部位於荷蘭，為全球獨家光刻機 (Lithography) 龍頭，壟斷 100% 極紫外光 (EUV) 光刻機市場 (包含 0.33 NA EUV 與 High-NA 0.55 NA EUV 機器 Twinscan EXE 系列)，是半導體先進製程 (台積電、Intel、Samsung、美光) 不可或缺的基石。
+ASML (ASML，ASML) 阿斯麥總部位於荷蘭，為全球獨家光刻機 (Lithography) 龍頭，壟斷 100% 極紫外光 (EUV) 光刻機市場 (包含 0.33 NA EUV 與 High-NA 0.55 NA EUV 機器 Twinscan EXE 系列)，是半導體先進製程 (台積電、Intel、Samsung、美光) 不可或缺的基石。
 
 ## 供應鏈位置
 - **光學與雷射光源:** [[Zeiss]] (蔡司光學鏡頭)、[[TRUMPF]] (高功率雷射光源)
@@ -16,7 +16,7 @@ ASML (ASML，[[ASML]]) 阿斯麥總部位於荷蘭，為全球獨家光刻機 (L
 - **ASML** — 高光學精度微影曝光系統研發、組裝與光學路徑調校
 
 **下游:**
-- **先進邏輯晶圓廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[[Intel Foundry]]、[[Samsung Foundry]]、[[中芯國際]]
+- **先進邏輯晶圓廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[![Intel Foundry](https://img.shields.io/badge/Intel%2520Foundry-blue)](INTC_Intel Foundry.md)、[![Samsung Foundry](https://img.shields.io/badge/Samsung%2520Foundry-blue)](005930.KS_Samsung Foundry.md)、[![中芯國際](https://img.shields.io/badge/%E4%B8%AD%E8%8A%AF%E5%9C%8B%E9%9A%9B-blue)](0981.HK_中芯國際.md)
 - **記憶體巨頭:** [[SK 海力士]]、[[Micron]]、[[Samsung]]
 
 ## 主要客戶及供應商

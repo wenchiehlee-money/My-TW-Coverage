@@ -1,4 +1,4 @@
-# HPE - [[HPE]]
+# HPE - HPE
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,13 +6,13 @@
 **市值:** 25,400 百萬美元
 **企業價值:** 38,200 百萬美元
 
-Hewlett Packard Enterprise (HPE，[[HPE]]) 總部位於美國德州休士頓，為全球企業級伺服器、數據儲存設備及邊緣運算網路方案巨頭。旗艦產品包含 ProLiant 伺服器、Cray 超級電腦 (如 Frontier/El Capitan)、Alletra 儲存系統及 Aruba 邊緣網路。公司正併購 Juniper Networks 以強化 AI 網通生態系統。
+Hewlett Packard Enterprise (HPE，HPE) 總部位於美國德州休士頓，為全球企業級伺服器、數據儲存設備及邊緣運算網路方案巨頭。旗艦產品包含 ProLiant 伺服器、Cray 超級電腦 (如 Frontier/El Capitan)、Alletra 儲存系統及 Aruba 邊緣網路。公司正併購 Juniper Networks 以強化 AI 網通生態系統。
 
 ## 供應鏈位置
 **上游:**
-- **CPU / GPU 晶片:** [[NVIDIA]] (H100/B200)、[[AMD]] (EPYC/Instinct MI300)、[[Intel]]
-- **伺服器與網通 ODM 代工:** [[鴻海]]、[[廣達]]、[[緯創]]、[[英業達]]、[[智邦]]
-- **電源與水冷散熱:** [[台達電]]、[[奇鋐]]、[[雙鴻]]
+- **CPU / GPU 晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (H100/B200)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) (EPYC/Instinct MI300)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md)
+- **伺服器與網通 ODM 代工:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_英業達.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md)
+- **電源與水冷散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)
 
 **中游:**
 - **HPE** — 企業伺服器架構設計、GreenLake 混合雲訂閱平台與 Cray 超級電腦整合

@@ -1,4 +1,4 @@
-# AMD - [[AMD]]
+# AMD - AMD
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,7 +6,7 @@
 **市值:** 240,000 百萬美元
 **企業價值:** 235,000 百萬美元
 
-Advanced Micro Devices (AMD，[[AMD]]) 為全球領先的高效能與自適應運算晶片供應商，產品涵蓋 x86 處理器 (EPYC 伺服器 CPU、Ryzen PC CPU)、AI 加速器 (Instinct MI300X/MI325X/MI350X) 及 FPGA (賽靈思 Xilinx)。在伺服器 CPU 與 AI 晶片領域為 NVIDIA 與 Intel 最強力的競爭者。
+Advanced Micro Devices (AMD，AMD) 為全球領先的高效能與自適應運算晶片供應商，產品涵蓋 x86 處理器 (EPYC 伺服器 CPU、Ryzen PC CPU)、AI 加速器 (Instinct MI300X/MI325X/MI350X) 及 FPGA (賽靈思 Xilinx)。在伺服器 CPU 與 AI 晶片領域為 NVIDIA 與 Intel 最強力的競爭者。
 
 ## 供應鏈位置
 - **晶圓代工與封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N5/N4/N3 & CoWoS)

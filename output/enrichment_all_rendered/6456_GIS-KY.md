@@ -15,7 +15,7 @@
 
 ## 主要客戶及供應商
 ### 主要客戶
-- [[Apple]](iPad及MacBook觸控/顯示模組之核心供應商)、三星及各大[[AR]]/[[VR]]頭戴裝置品牌。
+- [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)(iPad及MacBook觸控/顯示模組之核心供應商)、三星及各大[[AR]]/[[VR]]頭戴裝置品牌。
 
 ### 主要供應商
 - 各大面板廠(如 [![群創](https://img.shields.io/badge/%E7%BE%A4%E5%89%B5-blue)](3481_%E7%BE%A4%E5%89%B5.md)、夏普等)及康寧等保護玻璃原物料大廠。
