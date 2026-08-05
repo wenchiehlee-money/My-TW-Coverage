@@ -115,16 +115,33 @@ def generate_docsify_assets():
                 title = f.replace(".md", "").replace("_", " ")
                 themes_links.append((title, f"output/themes/{f}"))
                 
-    # 3. 生成根目錄的 _sidebar.md
+    # 3. 生成根目錄的 _sidebar.md (保持極簡與乾淨分組)
     sidebar_path = os.path.join(base_dir, "_sidebar.md")
+    sidebar_content = """- [🏠 首頁](README.md)
+- [📈 投資主題總覽](output/themes/README.md)
+
+- **🔥 核心投資主題**
+  - [AI 伺服器](output/themes/AI_伺服器.md)
+  - [工業電腦 (IPC)](output/themes/工業電腦.md)
+  - [DRAM / 記憶體](output/themes/DRAM.md)
+  - [CoWoS 先進封裝](output/themes/CoWoS.md)
+  - [HBM 高頻寬記憶體](output/themes/HBM.md)
+  - [CPO / 矽光子](output/themes/矽光子.md)
+  - [資料中心](output/themes/資料中心.md)
+  - [NVIDIA 供應鏈](output/themes/NVIDIA.md)
+  - [Apple 供應鏈](output/themes/Apple.md)
+  - [Tesla / 電動車](output/themes/電動車.md)
+
+- **🏢 個股研究報告**
+  - [📊 全庫個股總索引 (1,757家)](output/enrichment_all_rendered/README.md)
+  - [1xxx 水泥/食品/塑膠/紡織](output/enrichment_all_rendered/README.md#1xxx-水泥-食品-塑膠-紡織)
+  - [2xxx 電機/鋼鐵/電子/半導體](output/enrichment_all_rendered/README.md#2xxx-電機-鋼鐵-電子-半導體)
+  - [3xxx 電子/光電/通信/網通](output/enrichment_all_rendered/README.md#3xxx-電子-光電-通信-網通)
+  - [4xxx-5xxx 化學/生技/其他電子](output/enrichment_all_rendered/README.md#4xxx-5xxx-化學-生技-其他電子)
+  - [6xxx-9xxx 航運/觀光/金融/其他](output/enrichment_all_rendered/README.md#6xxx-9xxx-航運-觀光-金融-其他)
+"""
     with open(sidebar_path, "w", encoding="utf-8") as f:
-        f.write("- [🏠 首頁](README.md)\n\n")
-        f.write("## 🎯 投資主題 (Themes)\n")
-        f.write("- [所有投資主題](output/themes/README.md)\n")
-        for title, link in sorted(themes_links, key=lambda x: x[0]):
-            f.write("  - [{}!]({})\n".format(title, link).replace("!]", "]"))
-        f.write("\n## 📊 個股報告 (Companies)\n")
-        f.write("- [個股報告總覽](output/enrichment_all_rendered/README.md)\n")
+        f.write(sidebar_content)
         
     print(f"Generated {sidebar_path}")
 
