@@ -1,0 +1,76 @@
+{
+  "tag": "停泊股",
+  "name": "停泊股 (抗跌避風港與防衛型高殖利率)",
+  "desc": "具備低 Beta、抗大盤暴跌、高殖利率與強大護城河之防衛型股票避風港",
+  "category": "防禦型 / 殖利率",
+  "order": 100,
+  "index_categories": [
+    "防禦型 / 殖利率"
+  ],
+  "id": "theme.defensive_anchors",
+  "type": "theme",
+  "aliases": [
+    "停泊股",
+    "防衛股",
+    "避風港"
+  ],
+  "related_theme_tags": [],
+  "related_entities": [],
+  "extra_entities": [
+    { "ticker": "2412", "company": "中華電", "role": "midstream", "sector": "電信服務" },
+    { "ticker": "3045", "company": "台灣大", "role": "midstream", "sector": "電信服務" },
+    { "ticker": "4904", "company": "遠傳", "role": "midstream", "sector": "電信服務" },
+    { "ticker": "9908", "company": "大台北", "role": "midstream", "sector": "公用事業" },
+    { "ticker": "6803", "company": "崑鼎", "role": "midstream", "sector": "環保廢棄物" },
+    { "ticker": "8422", "company": "可寧衛", "role": "midstream", "sector": "環保廢棄物" },
+    { "ticker": "8473", "company": "山林水", "role": "midstream", "sector": "環保廢棄物" },
+    { "ticker": "9930", "company": "中聯資", "role": "midstream", "sector": "環保廢棄物" },
+    { "ticker": "1216", "company": "統一", "role": "midstream", "sector": "食品通路" },
+    { "ticker": "2912", "company": "統一超", "role": "midstream", "sector": "便利商店" },
+    { "ticker": "1215", "company": "卜蜂", "role": "midstream", "sector": "食品加工" },
+    { "ticker": "1210", "company": "大成", "role": "midstream", "sector": "食品加工" },
+    { "ticker": "4175", "company": "杏一", "role": "midstream", "sector": "醫療用品零售" },
+    { "ticker": "6469", "company": "大樹", "role": "midstream", "sector": "藥局連鎖" },
+    { "ticker": "5871", "company": "中租-KY", "role": "midstream", "sector": "租賃融資" },
+    { "ticker": "9941", "company": "裕融", "role": "midstream", "sector": "租賃融資" },
+    { "ticker": "6592", "company": "和潤企業", "role": "midstream", "sector": "租賃融資" },
+    { "ticker": "2886", "company": "兆豐金", "role": "midstream", "sector": "官股金控" },
+    { "ticker": "5880", "company": "合庫金", "role": "midstream", "sector": "官股金控" },
+    { "ticker": "2892", "company": "第一金", "role": "midstream", "sector": "官股金控" },
+    { "ticker": "2880", "company": "華南金", "role": "midstream", "sector": "官股金控" },
+    { "ticker": "2480", "company": "敦陽科", "role": "midstream", "sector": "資訊系統整合" },
+    { "ticker": "4506", "company": "崇友", "role": "midstream", "sector": "電梯保養維護" },
+    { "ticker": "3164", "company": "德麥", "role": "midstream", "sector": "烘焙原料" }
+  ],
+  "competitive_groups": [
+    {
+      "name": "電信三雄 (低 Beta 與穩定現金流)",
+      "tickers": ["2412", "3045", "4904"]
+    },
+    {
+      "name": "水電公用事業 & 環保廢棄物處理",
+      "tickers": ["9908", "6803", "8422", "8473", "9930"]
+    },
+    {
+      "name": "民生必需消費 & 零售通路",
+      "tickers": ["1216", "2912", "1215", "1210", "4175", "6469"]
+    },
+    {
+      "name": "租賃與資產融資",
+      "tickers": ["5871", "9941", "6592"]
+    },
+    {
+      "name": "官股與防禦型金融金控",
+      "tickers": ["2886", "5880", "2892", "2880"]
+    },
+    {
+      "name": "工業服務與獨占利基市場",
+      "tickers": ["2480", "4506", "3164"]
+    }
+  ],
+  "render": {
+    "output_filename": "停泊股.md",
+    "badge_label": "停泊股",
+    "badge_color": "blue"
+  }
+}

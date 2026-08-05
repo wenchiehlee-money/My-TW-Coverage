@@ -4,7 +4,7 @@
 
 **涵蓋公司數:** 16
 
-**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (172) | [[DRAM]]
+**相關主題/實體:** [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) (39) | [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (380) | [[DRAM]]
 
 ---
 

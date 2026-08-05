@@ -6954,6 +6954,7 @@ window.WIKILINK_MAP = {
   "tesla-supply-chain": "output/themes/tesla_supply_chain.md",
   "vcsel": "output/themes/VCSEL.md",
   "低軌衛星": "output/themes/低軌衛星.md",
+  "停泊股": "output/themes/停泊股.md",
   "光阻液": "output/themes/光阻液.md",
   "氮化鎵": "output/themes/氮化鎵.md",
   "矽光子": "output/themes/矽光子.md",
