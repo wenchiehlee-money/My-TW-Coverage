@@ -115,10 +115,9 @@ def generate_docsify_assets():
                 title = f.replace(".md", "").replace("_", " ")
                 themes_links.append((title, f"output/themes/{f}"))
                 
-    # 3. 生成根目錄的 _sidebar.md (保持極簡單一總覽)
+    # 3. 生成根目錄的 _sidebar.md (僅留首頁)
     sidebar_path = os.path.join(base_dir, "_sidebar.md")
     sidebar_content = """- [🏠 首頁](README.md)
-- [📈 投資主題總覽](output/themes/README.md)
 """
     with open(sidebar_path, "w", encoding="utf-8") as f:
         f.write(sidebar_content)
