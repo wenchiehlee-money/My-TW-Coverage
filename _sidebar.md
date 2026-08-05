@@ -1,2 +1,1 @@
 - [🏠 首頁](README.md)
-- [📈 投資主題總覽](output/themes/README.md)
