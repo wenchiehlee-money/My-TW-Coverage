@@ -1,0 +1,115 @@
+{
+  "tag": "NAND_Flash",
+  "name": "NAND Flash 與控制晶片",
+  "desc": "NAND 快閃記憶體、快閃記憶體控制 IC (SSD/eMMC/UFS 控制晶片) 與記憶體模組產業鏈",
+  "category": "半導體 / 儲存",
+  "order": 25,
+  "index_categories": [
+    "半導體 / 儲存"
+  ],
+  "id": "theme.nand_flash",
+  "type": "theme",
+  "aliases": [
+    "NAND Flash",
+    "NAND 控制晶片",
+    "SSD 控制晶片"
+  ],
+  "related_theme_tags": [
+    "HBM",
+    "AI 伺服器",
+    "資料中心"
+  ],
+  "related_entities": [
+    "NAND Flash",
+    "SSD",
+    "eMMC",
+    "UFS"
+  ],
+  "extra_entities": [
+    {
+      "ticker": "8299",
+      "company": "群聯",
+      "role": "midstream",
+      "sector": "半導體 - 控制晶片設計",
+      "note": "全球 NAND Flash 控制晶片龍頭，年銷 6 億+顆控制晶片，涵蓋 SSD、eMMC、UFS 等完整儲存控制晶片與 AI 模組方案。"
+    },
+    {
+      "ticker": "2379",
+      "company": "瑞昱",
+      "role": "midstream",
+      "sector": "半導體 - 控制晶片設計",
+      "note": "台灣 IC 設計大廠，包含 PC 入門/中階 NVMe SSD 控制晶片產品線。"
+    },
+    {
+      "ticker": "3259",
+      "company": "鑫創",
+      "role": "midstream",
+      "sector": "半導體 - 控制晶片設計",
+      "note": "快閃記憶體控制晶片設計廠 (USB/SD 控制器)。"
+    },
+    {
+      "ticker": "3260",
+      "company": "威剛",
+      "role": "downstream",
+      "sector": "半導體 - 記憶體模組",
+      "note": "全球第二大 DRAM 及 SSD 記憶體模組大廠。"
+    },
+    {
+      "ticker": "2451",
+      "company": "創見",
+      "role": "downstream",
+      "sector": "半導體 - 記憶體模組",
+      "note": "台灣工業級與消費級 Flash 記憶體模組與 SSD 儲存品牌。"
+    },
+    {
+      "ticker": "4967",
+      "company": "十銓",
+      "role": "downstream",
+      "sector": "半導體 - 記憶體模組",
+      "note": "記憶體模組與電競 Flash/SSD 儲存品牌。"
+    },
+    {
+      "ticker": "5289",
+      "company": "宜鼎",
+      "role": "downstream",
+      "sector": "半導體 - 工控儲存模組",
+      "note": "全球工控儲存與工業級 Flash / SSD 模組龍頭。"
+    },
+    {
+      "ticker": "8088",
+      "company": "品安",
+      "role": "downstream",
+      "sector": "半導體 - 記憶體模組代工",
+      "note": "記憶體模組與儲存卡專業代工廠。"
+    },
+    {
+      "ticker": "SIMO",
+      "company": "慧榮科技",
+      "role": "midstream",
+      "sector": "半導體 - 控制晶片設計",
+      "note": "全球獨立 NAND 控制晶片龍頭 (Nasdaq: SIMO)，消費級與車用/企業級 SSD 控制晶片主要競爭對手。"
+    },
+    {
+      "ticker": "MRVL",
+      "company": "Marvell",
+      "role": "midstream",
+      "sector": "半導體 - 控制晶片設計",
+      "note": "美商 IC 設計大廠 (Nasdaq: MRVL)，企業級與資料中心高階 SSD 控制晶片及 PCIe Retimer 供應商。"
+    }
+  ],
+  "competitive_groups": [
+    {
+      "name": "NAND 控制晶片 IC 設計",
+      "tickers": ["8299", "2379", "SIMO", "MRVL", "3259"]
+    },
+    {
+      "name": "記憶體模組 / SSD 儲存品牌與代工",
+      "tickers": ["3260", "5289", "2451", "4967", "8088"]
+    }
+  ],
+  "render": {
+    "output_filename": "NAND_Flash.md",
+    "badge_label": "NAND Flash",
+    "badge_color": "blue"
+  }
+}

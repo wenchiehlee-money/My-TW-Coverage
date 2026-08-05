@@ -58,6 +58,8 @@ US_NAME_OVERRIDES = {
     "0992.HK": "Lenovo Group Limited",
     "LNVGY": "Lenovo Group ADR",
     "HPE": "Hewlett Packard Enterprise",
+    "MRVL": "Marvell Technology",
+    "SIMO": "Silicon Motion Technology",
     "AVGO": "Broadcom Inc.",
     "QCOM": "Qualcomm Inc.",
     "GFS": "GlobalFoundries Inc.",

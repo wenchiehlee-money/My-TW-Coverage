@@ -70,6 +70,14 @@ KNOWN_ALIASES = {
     "力積電": "6770",
     "聯電": "2303",
     "UMC": "2303",
+    "Realtek": "2379",
+    "瑞昱": "2379",
+    "瑞昱半導體": "2379",
+    "慧榮": "SIMO",
+    "慧榮科技": "SIMO",
+    "Silicon Motion": "SIMO",
+    "Marvell": "MRVL",
+    "Marvell Technology": "MRVL",
 }
 
 USD_TO_TWD_RATE = 32.3

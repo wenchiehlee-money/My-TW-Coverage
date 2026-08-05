@@ -11,6 +11,10 @@
 - [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) — 16 家公司
 - [![CPO](https://img.shields.io/badge/CPO-green)](CPO.md) — 14 家公司
 
+## 半導體 / 儲存
+
+- [![NAND Flash](https://img.shields.io/badge/NAND%20Flash-blue)](NAND_Flash.md) — 16 家公司
+
 ## 光電與化合物半導體
 
 - [![矽光子](https://img.shields.io/badge/%E7%9F%BD%E5%85%89%E5%AD%90-green)](%E7%9F%BD%E5%85%89%E5%AD%90.md) — 17 家公司
