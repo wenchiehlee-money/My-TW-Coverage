@@ -115,9 +115,20 @@ def generate_docsify_assets():
                 title = f.replace(".md", "").replace("_", " ")
                 themes_links.append((title, f"output/themes/{f}"))
                 
-    # 3. 生成根目錄的 _sidebar.md (僅留首頁)
+    # 3. 生成根目錄的 _sidebar.md (首頁與其第一層大綱)
     sidebar_path = os.path.join(base_dir, "_sidebar.md")
     sidebar_content = """- [🏠 首頁](README.md)
+  - [Why This Exists](README.md#why-this-exists)
+  - [Quick Start](README.md#quick-start)
+  - [Token Usage & Cost Guide](README.md#token-usage--cost-guide)
+  - [Wikilink Graph](README.md#wikilink-graph)
+  - [Project Structure](README.md#project-structure)
+  - [Quality Standards](README.md#quality-standards)
+  - [Data Sources](README.md#data-sources)
+  - [Limitations](README.md#limitations)
+  - [Wikilink Naming Convention](README.md#wikilink-naming-convention)
+  - [Contributing](README.md#contributing)
+  - [License](README.md#license)
 """
     with open(sidebar_path, "w", encoding="utf-8") as f:
         f.write(sidebar_content)
