@@ -118,7 +118,13 @@ def generate_docsify_assets():
     # 3. 生成根目錄的 _sidebar.md
     sidebar_path = os.path.join(base_dir, "_sidebar.md")
     with open(sidebar_path, "w", encoding="utf-8") as f:
-        f.write("- [🏠 首頁](README.md)\n")
+        f.write("- [🏠 首頁](README.md)\n\n")
+        f.write("## 🎯 投資主題 (Themes)\n")
+        f.write("- [所有投資主題](output/themes/README.md)\n")
+        for title, link in sorted(themes_links, key=lambda x: x[0]):
+            f.write("  - [{}!]({})\n".format(title, link).replace("!]", "]"))
+        f.write("\n## 📊 個股報告 (Companies)\n")
+        f.write("- [個股報告總覽](output/enrichment_all_rendered/README.md)\n")
         
     print(f"Generated {sidebar_path}")
 

@@ -50,3 +50,9 @@
 - [Apple](Apple.md) — 80 家公司
 - [NVIDIA](NVIDIA.md) — 104 家公司
 - [Tesla](Tesla.md) — 47 家公司
+
+
+## 產業與系統
+
+- [工業電腦](工業電腦.md) — 邊緣 AI 與工業自動化
+- [DRAM](DRAM.md) — 記憶體與 HBM3E 先進封裝
