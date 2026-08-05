@@ -119,18 +119,16 @@ def generate_docsify_assets():
     sidebar_path = os.path.join(base_dir, "_sidebar.md")
     sidebar_content = """- [🏠 首頁](README.md)
 - [📈 投資主題總覽](output/themes/README.md)
-
-- **🔥 核心投資主題**
-  - [AI 伺服器](output/themes/AI_伺服器.md)
-  - [工業電腦 (IPC)](output/themes/工業電腦.md)
-  - [DRAM / 記憶體](output/themes/DRAM.md)
-  - [CoWoS 先進封裝](output/themes/CoWoS.md)
-  - [HBM 高頻寬記憶體](output/themes/HBM.md)
-  - [CPO / 矽光子](output/themes/矽光子.md)
-  - [資料中心](output/themes/資料中心.md)
-  - [NVIDIA 供應鏈](output/themes/NVIDIA.md)
-  - [Apple 供應鏈](output/themes/Apple.md)
-  - [Tesla / 電動車](output/themes/電動車.md)
+- [AI 伺服器](output/themes/AI_伺服器.md)
+- [工業電腦 (IPC)](output/themes/工業電腦.md)
+- [DRAM / 記憶體](output/themes/DRAM.md)
+- [CoWoS 先進封裝](output/themes/CoWoS.md)
+- [HBM 高頻寬記憶體](output/themes/HBM.md)
+- [CPO / 矽光子](output/themes/矽光子.md)
+- [資料中心](output/themes/資料中心.md)
+- [NVIDIA 供應鏈](output/themes/NVIDIA.md)
+- [Apple 供應鏈](output/themes/Apple.md)
+- [Tesla / 電動車](output/themes/電動車.md)
 """
     with open(sidebar_path, "w", encoding="utf-8") as f:
         f.write(sidebar_content)
