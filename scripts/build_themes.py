@@ -788,7 +788,7 @@ def theme_company_count(theme_def: dict[str, Any], entries: list[dict[str, str]]
 def build_index(themes_built: dict[str, int], theme_definitions: dict[str, dict[str, Any]]) -> str:
     """Build output/themes/README.md index."""
     lines = [
-        "# Thematic Investment Screens",
+        "# 主題式投資篩選 Thematic Investment Screens",
         "",
         "> Auto-generated supply chain maps from `data/themes/*.json` and `data/enrichment_all/*.json`.",
         "> Regenerate: `python skills/skill-my-tw-coverage-render-markdown/scripts/build_themes.py`",
