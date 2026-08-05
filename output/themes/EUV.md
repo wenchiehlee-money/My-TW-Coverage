@@ -8,12 +8,8 @@
 
 ---
 
-## 上游 (2)
-
 - **2330 [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](../enrichment_all_rendered/2330_台積電.md)** (Semiconductors)
 - **6909 [![創控](https://img.shields.io/badge/%E5%89%B5%E6%8E%A7-blue)](../enrichment_all_rendered/6909_創控.md)** (Specialty Industrial Machinery)
-
-## 下游 (2)
 
 - **6517 [![保勝光學](https://img.shields.io/badge/%E4%BF%9D%E5%8B%9D%E5%85%89%E5%AD%B8-blue)](../enrichment_all_rendered/6517_保勝光學.md)** (Electronic Components)
 - **6823 [![濾能](https://img.shields.io/badge/%E6%BF%BE%E8%83%BD-blue)](../enrichment_all_rendered/6823_濾能.md)** (Pollution & Treatment Controls)

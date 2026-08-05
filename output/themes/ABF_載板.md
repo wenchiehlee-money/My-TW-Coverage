@@ -8,19 +8,13 @@
 
 ---
 
-## 上游 (3)
-
 - **3114 [![好德](https://img.shields.io/badge/%E5%A5%BD%E5%BE%B7-blue)](../enrichment_all_rendered/3114_好德.md)** (Industrial Distribution)
 - **3485 [![敘豐](https://img.shields.io/badge/%E6%95%98%E8%B1%90-blue)](../enrichment_all_rendered/3485_敘豐.md)** (Specialty Industrial Machinery)
 - **7795 [![長廣](https://img.shields.io/badge/%E9%95%B7%E5%BB%A3-blue)](../enrichment_all_rendered/7795_長廣.md)** (Specialty Industrial Machinery)
 
-## 中游 (3)
-
 - **3037 [![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](../enrichment_all_rendered/3037_欣興.md)** (Electronic Components)
 - **8046 [![南電](https://img.shields.io/badge/%E5%8D%97%E9%9B%BB-blue)](../enrichment_all_rendered/8046_南電.md)** (Electronic Components)
 - **3189 [![景碩](https://img.shields.io/badge/%E6%99%AF%E7%A2%A9-blue)](../enrichment_all_rendered/3189_景碩.md)** (Semiconductor Equipment & Materials)
-
-## 下游 (2)
 
 - **8074 [![鉅橡](https://img.shields.io/badge/%E9%89%85%E6%A9%A1-blue)](../enrichment_all_rendered/8074_鉅橡.md)** (Electronic Components)
 - **4577 [![達航科技](https://img.shields.io/badge/%E9%81%94%E8%88%AA%E7%A7%91%E6%8A%80-blue)](../enrichment_all_rendered/4577_達航科技.md)** (Specialty Industrial Machinery)

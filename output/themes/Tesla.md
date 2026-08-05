@@ -8,8 +8,6 @@
 
 ---
 
-## 上游 (8)
-
 - **4915 [![致伸](https://img.shields.io/badge/%E8%87%B4%E4%BC%B8-blue)](../enrichment_all_rendered/4915_致伸.md)** (Consumer Electronics)
 - **3290 [![東浦](https://img.shields.io/badge/%E6%9D%B1%E6%B5%A6-blue)](../enrichment_all_rendered/3290_東浦.md)** (Electrical Equipment & Parts)
 - **7788 [![松川精密](https://img.shields.io/badge/%E6%9D%BE%E5%B7%9D%E7%B2%BE%E5%AF%86-blue)](../enrichment_all_rendered/7788_松川精密.md)** (Electrical Equipment & Parts)
@@ -18,8 +16,6 @@
 - **5457 [![宣德](https://img.shields.io/badge/%E5%AE%A3%E5%BE%B7-blue)](../enrichment_all_rendered/5457_宣德.md)** (Electronic Components)
 - **1586 [![和勤](https://img.shields.io/badge/%E5%92%8C%E5%8B%A4-blue)](../enrichment_all_rendered/1586_和勤.md)** (Metal Fabrication)
 - **4739 [![康普](https://img.shields.io/badge/%E5%BA%B7%E6%99%AE-blue)](../enrichment_all_rendered/4739_康普.md)** (Specialty Chemicals)
-
-## 下游 (22)
 
 - **1536 [![和大](https://img.shields.io/badge/%E5%92%8C%E5%A4%A7-blue)](../enrichment_all_rendered/1536_和大.md)** (Auto Parts)
 - **2101 [![南港](https://img.shields.io/badge/%E5%8D%97%E6%B8%AF-blue)](../enrichment_all_rendered/2101_南港.md)** (Auto Parts)

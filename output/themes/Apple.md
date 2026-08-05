@@ -8,8 +8,6 @@
 
 ---
 
-## 上游 (14)
-
 - **2414 [![精技](https://img.shields.io/badge/%E7%B2%BE%E6%8A%80-blue)](../enrichment_all_rendered/2414_精技.md)** (Computer Hardware)
 - **3406 [![玉晶光](https://img.shields.io/badge/%E7%8E%89%E6%99%B6%E5%85%89-blue)](../enrichment_all_rendered/3406_玉晶光.md)** (Computer Hardware)
 - **4943 [![康控-KY](https://img.shields.io/badge/%E5%BA%B7%E6%8E%A7--KY-blue)](../enrichment_all_rendered/4943_康控-KY.md)** (Electronic Components)
@@ -25,12 +23,8 @@
 - **3518 [![柏騰](https://img.shields.io/badge/%E6%9F%8F%E9%A8%B0-blue)](../enrichment_all_rendered/3518_柏騰.md)** (Specialty Industrial Machinery)
 - **2430 [![燦坤](https://img.shields.io/badge/%E7%87%A6%E5%9D%A4-blue)](../enrichment_all_rendered/2430_燦坤.md)** (Specialty Retail)
 
-## 中游 (2)
-
 - **2367 [![燿華](https://img.shields.io/badge/%E7%87%BF%E8%8F%AF-blue)](../enrichment_all_rendered/2367_燿華.md)** (Electronic Components)
 - **6821 [![聯寶](https://img.shields.io/badge/%E8%81%AF%E5%AF%B6-blue)](../enrichment_all_rendered/6821_聯寶.md)** (Electronic Components)
-
-## 下游 (39)
 
 - **2382 [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](../enrichment_all_rendered/2382_廣達.md)** (Computer Hardware)
 - **2385 [![群光](https://img.shields.io/badge/%E7%BE%A4%E5%85%89-blue)](../enrichment_all_rendered/2385_群光.md)** (Computer Hardware)

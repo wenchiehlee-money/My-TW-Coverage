@@ -8,16 +8,10 @@
 
 ---
 
-## 上游 (1)
-
 - **7711 [![永擎](https://img.shields.io/badge/%E6%B0%B8%E6%93%8E-blue)](../enrichment_all_rendered/7711_永擎.md)** (Computer Hardware)
-
-## 中游 (2)
 
 - **6239 [![力成](https://img.shields.io/badge/%E5%8A%9B%E6%88%90-blue)](../enrichment_all_rendered/6239_力成.md)** (Semiconductors)
 - **8096 [![擎亞](https://img.shields.io/badge/%E6%93%8E%E4%BA%9E-blue)](../enrichment_all_rendered/8096_擎亞.md)** (Semiconductors)
-
-## 下游 (3)
 
 - **2444 [![兆勁](https://img.shields.io/badge/%E5%85%86%E5%8B%81-blue)](../enrichment_all_rendered/2444_兆勁.md)** (Communication Equipment)
 - **3532 [![台勝科](https://img.shields.io/badge/%E5%8F%B0%E5%8B%9D%E7%A7%91-blue)](../enrichment_all_rendered/3532_台勝科.md)** (Semiconductor Equipment & Materials)

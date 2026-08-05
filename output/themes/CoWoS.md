@@ -8,21 +8,15 @@
 
 ---
 
-## 上游 (5)
-
 - **3167 [![大量](https://img.shields.io/badge/%E5%A4%A7%E9%87%8F-blue)](../enrichment_all_rendered/3167_大量.md)** (Specialty Industrial Machinery)
 - **3580 [![友威科](https://img.shields.io/badge/%E5%8F%8B%E5%A8%81%E7%A7%91-blue)](../enrichment_all_rendered/3580_友威科.md)** (Specialty Industrial Machinery)
 - **4510 [![高鋒](https://img.shields.io/badge/%E9%AB%98%E9%8B%92-blue)](../enrichment_all_rendered/4510_高鋒.md)** (Specialty Industrial Machinery)
 - **6664 [![群翊](https://img.shields.io/badge/%E7%BE%A4%E7%BF%8A-blue)](../enrichment_all_rendered/6664_群翊.md)** (Specialty Industrial Machinery)
 - **6706 [![惠特](https://img.shields.io/badge/%E6%83%A0%E7%89%B9-blue)](../enrichment_all_rendered/6706_惠特.md)** (Specialty Industrial Machinery)
 
-## 中游 (3)
-
 - **3535 [![晶彩科](https://img.shields.io/badge/%E6%99%B6%E5%BD%A9%E7%A7%91-blue)](../enrichment_all_rendered/3535_晶彩科.md)** (Computer Hardware)
 - **6742 [![澤米](https://img.shields.io/badge/%E6%BE%A4%E7%B1%B3-blue)](../enrichment_all_rendered/6742_澤米.md)** (Electronic Components)
 - **1717 [![長興](https://img.shields.io/badge/%E9%95%B7%E8%88%88-blue)](../enrichment_all_rendered/1717_長興.md)** (Specialty Chemicals)
-
-## 下游 (11)
 
 - **1721 [![三晃](https://img.shields.io/badge/%E4%B8%89%E6%99%83-blue)](../enrichment_all_rendered/1721_三晃.md)** (Chemicals)
 - **3577 [![泓格](https://img.shields.io/badge/%E6%B3%93%E6%A0%BC-blue)](../enrichment_all_rendered/3577_泓格.md)** (Communication Equipment)

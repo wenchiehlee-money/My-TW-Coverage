@@ -8,11 +8,7 @@
 
 ---
 
-## 上游 (1)
-
 - **6706 [![惠特](https://img.shields.io/badge/%E6%83%A0%E7%89%B9-blue)](../enrichment_all_rendered/6706_惠特.md)** (Specialty Industrial Machinery)
-
-## 中游 (6)
 
 - **3163 [![波若威](https://img.shields.io/badge/%E6%B3%A2%E8%8B%A5%E5%A8%81-blue)](../enrichment_all_rendered/3163_波若威.md)** (Communication Equipment)
 - **3363 [![上詮](https://img.shields.io/badge/%E4%B8%8A%E8%A9%AE-blue)](../enrichment_all_rendered/3363_上詮.md)** (Communication Equipment)

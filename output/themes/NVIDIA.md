@@ -8,8 +8,6 @@
 
 ---
 
-## 上游 (42)
-
 - **2345 [![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](../enrichment_all_rendered/2345_智邦.md)** (Communication Equipment)
 - **6245 [![立端](https://img.shields.io/badge/%E7%AB%8B%E7%AB%AF-blue)](../enrichment_all_rendered/6245_立端.md)** (Communication Equipment)
 - **2324 [![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](../enrichment_all_rendered/2324_仁寶.md)** (Computer Hardware)
@@ -52,8 +50,6 @@
 - **6231 [![系微](https://img.shields.io/badge/%E7%B3%BB%E5%BE%AE-blue)](../enrichment_all_rendered/6231_系微.md)** (Software - Application)
 - **6882 [![甲尚](https://img.shields.io/badge/%E7%94%B2%E5%B0%9A-blue)](../enrichment_all_rendered/6882_甲尚.md)** (Software - Application)
 - **3045 [![台灣大](https://img.shields.io/badge/%E5%8F%B0%E7%81%A3%E5%A4%A7-blue)](../enrichment_all_rendered/3045_台灣大.md)** (Specialty Retail)
-
-## 下游 (16)
 
 - **3163 [![波若威](https://img.shields.io/badge/%E6%B3%A2%E8%8B%A5%E5%A8%81-blue)](../enrichment_all_rendered/3163_波若威.md)** (Communication Equipment)
 - **3324 [![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](../enrichment_all_rendered/3324_雙鴻.md)** (Computer Hardware)

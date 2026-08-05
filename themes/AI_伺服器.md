@@ -8,8 +8,6 @@
 
 ---
 
-## 上游 (10)
-
 - **1587 [![吉茂](https://img.shields.io/badge/%E5%90%89%E8%8C%82-blue)](../enrichment_all_rendered/1587_吉茂.md)** (Auto Parts)
 - **2324 [![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](../enrichment_all_rendered/2324_仁寶.md)** (Computer Hardware)
 - **2356 [![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](../enrichment_all_rendered/2356_英業達.md)** (Computer Hardware)
@@ -20,8 +18,6 @@
 - **3231 [![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](../enrichment_all_rendered/3231_緯創.md)** (Computer Hardware)
 - **6982 [![大井泵浦](https://img.shields.io/badge/%E5%A4%A7%E4%BA%95%E6%B3%B5%E6%B5%A6-blue)](../enrichment_all_rendered/6982_大井泵浦.md)** (Specialty Industrial Machinery)
 - **2025 [![千興](https://img.shields.io/badge/%E5%8D%83%E8%88%88-blue)](../enrichment_all_rendered/2025_千興.md)** (Steel)
-
-## 中游 (17)
 
 - **6190 [![萬泰科](https://img.shields.io/badge/%E8%90%AC%E6%B3%B0%E7%A7%91-blue)](../enrichment_all_rendered/6190_萬泰科.md)** (Communication Equipment)
 - **6245 [![立端](https://img.shields.io/badge/%E7%AB%8B%E7%AB%AF-blue)](../enrichment_all_rendered/6245_立端.md)** (Communication Equipment)
@@ -40,8 +36,6 @@
 - **7861 [![貝爾威勒](https://img.shields.io/badge/%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92-blue)](../enrichment_all_rendered/7861_貝爾威勒.md)** (Electronic Components)
 - **3691 [![碩禾](https://img.shields.io/badge/%E7%A2%A9%E7%A6%BE-blue)](../enrichment_all_rendered/3691_碩禾.md)** (Solar)
 - **8996 [![高力](https://img.shields.io/badge/%E9%AB%98%E5%8A%9B-blue)](../enrichment_all_rendered/8996_高力.md)** (Specialty Industrial Machinery)
-
-## 下游 (43)
 
 - **2618 [![長榮航](https://img.shields.io/badge/%E9%95%B7%E6%A6%AE%E8%88%AA-blue)](../enrichment_all_rendered/2618_長榮航.md)** (Airlines)
 - **2646 [![星宇航空](https://img.shields.io/badge/%E6%98%9F%E5%AE%87%E8%88%AA%E7%A9%BA-blue)](../enrichment_all_rendered/2646_星宇航空.md)** (Airlines)
