@@ -1,4 +1,3 @@
 - [🏠 主題首頁](output/themes/README.md)
-- [🏢 個股總索引](output/enrichment_all_rendered/README.md)
 - [🌐 關聯網路圖](network/index.html)
 - [📦 GitHub 儲存庫](https://github.com/wenchiehlee-money/My-TW-Coverage)
