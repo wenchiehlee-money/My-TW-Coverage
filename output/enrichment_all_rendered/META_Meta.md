@@ -1,4 +1,4 @@
-# META - [[Meta]]
+# META - Meta
 
 ## 業務簡介
 **板塊:** Communication Services
@@ -6,12 +6,12 @@
 **市值:** 1,250,000 百萬美元
 **企業價值:** 1,210,000 百萬美元
 
-Meta Platforms, Inc. (META，[[Meta]]) 為全球社群媒體與開源 AI 巨頭。旗下擁有 Facebook、Instagram、WhatsApp 及 Messenger，每月活躍用戶超過 32 億。公司引領開源大語言模型 (Llama 3/4)，並積極研發自研 MTIA AI 晶片與 Quest VR 頭顯裝備。
+Meta Platforms, Inc. (META，Meta) 為全球社群媒體與開源 AI 巨頭。旗下擁有 Facebook、Instagram、WhatsApp 及 Messenger，每月活躍用戶超過 32 億。公司引領開源大語言模型 (Llama 3/4)，並積極研發自研 MTIA AI 晶片與 Quest VR 頭顯裝備。
 
 ## 供應鏈位置
-- **AI 伺服器與晶片:** [[NVIDIA]] (H100/H200/B200 大客戶)、[[Broadcom]] (MTIA 晶片共同開發)、[[AMD]]
-- **伺服器代工與網通夥伴:** [[廣達]]、[[緯穎]]、[[鴻海]]、[[智邦]] (100G/400G 交換器)
-- **水冷與電源散熱:** [[奇鋐]]、[[雙鴻]]、[[台達電]]
+- **AI 伺服器與晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (H100/H200/B200 大客戶)、[![Broadcom](https://img.shields.io/badge/Broadcom-blue)](AVGO_Broadcom.md) (MTIA 晶片共同開發)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)
+- **伺服器代工與網通夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md) (100G/400G 交換器)
+- **水冷與電源散熱:** [![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)、[![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)
 
 **中游:**
 - **Meta** — Llama 開源 AI 模型研發、MTIA 自研晶片架構、數位廣告演算法與元宇宙生態系

@@ -10,7 +10,7 @@ Advanced Micro Devices (AMD，AMD) 為全球領先的高效能與自適應運算
 
 ## 供應鏈位置
 - **晶圓代工與封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N5/N4/N3 & CoWoS)
-- **高頻寬記憶體 (HBM):** [[Samsung]]、[[SK 海力士]]
+- **高頻寬記憶體 (HBM):** [![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)、[[SK 海力士]]
 - **載板與散熱:** [![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](3037_%E6%AC%A3%E8%88%88.md)、[![景碩](https://img.shields.io/badge/%E6%99%AF%E7%A2%A9-blue)](3189_%E6%99%AF%E7%A2%A9.md)、[![健策](https://img.shields.io/badge/%E5%81%A5%E7%AD%96-blue)](3653_%E5%81%A5%E7%AD%96.md)
 
 **中游:**
@@ -19,7 +19,7 @@ Advanced Micro Devices (AMD，AMD) 為全球領先的高效能與自適應運算
 **下游:**
 - **主要平台:** Data Center (~56.325%), Client (~28.1381%), Embedded (~8.5146%), Gaming (~7.0223%).
 - **伺服器代工與系統整合:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)、[![技嘉](https://img.shields.io/badge/%E6%8A%80%E5%98%89-blue)](2376_%E6%8A%80%E5%98%89.md)
-- **CSP 與企業客戶:** [[Microsoft]]、[[Meta]]、[[Oracle]]、[[Google]]
+- **CSP 與企業客戶:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)、[[Oracle]]、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)
 
 ## 主要客戶及供應商
 

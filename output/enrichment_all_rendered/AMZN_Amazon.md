@@ -1,4 +1,4 @@
-# AMZN - [[Amazon]]
+# AMZN - Amazon
 
 ## 業務簡介
 **板塊:** Consumer Discretionary & Technology
@@ -6,12 +6,12 @@
 **市值:** 1,980,000 百萬美元
 **企業價值:** 2,040,000 百萬美元
 
-Amazon.com, Inc. (AMZN，[[Amazon]]) 為全球最大雲端服務提供商 (AWS) 與電子商務龍頭。AWS 擁有全球最高的雲端市佔率，並推出自研 AI 晶片 (Trainium 2 / Inferentia 2) 與 Bedrock AI 託管平台。公司的 Prime 會員體系與物流網為全球電商護城河。
+Amazon.com, Inc. (AMZN，Amazon) 為全球最大雲端服務提供商 (AWS) 與電子商務龍頭。AWS 擁有全球最高的雲端市佔率，並推出自研 AI 晶片 (Trainium 2 / Inferentia 2) 與 Bedrock AI 託管平台。公司的 Prime 會員體系與物流網為全球電商護城河。
 
 ## 供應鏈位置
-- **AI 伺服器與晶片:** [[NVIDIA]] (H100/B200)、[[Broadcom]] (Custom AI ASIC Partner)、[[AMD]]
-- **伺服器代工與網通夥伴:** [[緯穎]] (AWS 主要代工廠)、[[廣達]]、[[鴻海]]、[[智邦]]
-- **散熱與電源:** [[奇鋐]]、[[雙鴻]]、[[台達電]]
+- **AI 伺服器與晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (H100/B200)、[![Broadcom](https://img.shields.io/badge/Broadcom-blue)](AVGO_Broadcom.md) (Custom AI ASIC Partner)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)
+- **伺服器代工與網通夥伴:** [![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md) (AWS 主要代工廠)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md)
+- **散熱與電源:** [![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)、[![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)
 
 **中游:**
 - **Amazon** — AWS 雲端運算基礎設施、Trainium AI 晶片研發、Prime 電商物流與廣告平台

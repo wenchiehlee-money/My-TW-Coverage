@@ -17,7 +17,7 @@ ASML (ASML，ASML) 阿斯麥總部位於荷蘭，為全球獨家光刻機 (Litho
 
 **下游:**
 - **先進邏輯晶圓廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[![Intel Foundry](https://img.shields.io/badge/Intel%2520Foundry-blue)](INTC_Intel Foundry.md)、[![Samsung Foundry](https://img.shields.io/badge/Samsung%2520Foundry-blue)](005930.KS_Samsung Foundry.md)、[![中芯國際](https://img.shields.io/badge/%E4%B8%AD%E8%8A%AF%E5%9C%8B%E9%9A%9B-blue)](0981.HK_中芯國際.md)
-- **記憶體巨頭:** [[SK 海力士]]、[[Micron]]、[[Samsung]]
+- **記憶體巨頭:** [[SK 海力士]]、[![Micron](https://img.shields.io/badge/Micron-blue)](MU_Micron.md)、[![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)
 
 ## 主要客戶及供應商
 

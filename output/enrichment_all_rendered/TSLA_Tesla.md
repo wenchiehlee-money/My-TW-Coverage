@@ -1,4 +1,4 @@
-# TSLA - [[Tesla]]
+# TSLA - Tesla
 
 ## 業務簡介
 **板塊:** Consumer Discretionary
@@ -6,12 +6,12 @@
 **市值:** 710,000 百萬美元
 **企業價值:** 690,000 百萬美元
 
-Tesla, Inc. (TSLA，[[Tesla]]) 為全球電動車 (Model 3/Y, Cybertruck) 與清潔能源 (Megapack, Powerwall) 領航者。公司以 FSD (Full Self-Driving) 端到端神經網絡、Dojo 超級電腦及 Optimus 人型機器人為核心 AI 戰略目標。
+Tesla, Inc. (TSLA，Tesla) 為全球電動車 (Model 3/Y, Cybertruck) 與清潔能源 (Megapack, Powerwall) 領航者。公司以 FSD (Full Self-Driving) 端到端神經網絡、Dojo 超級電腦及 Optimus 人型機器人為核心 AI 戰略目標。
 
 ## 供應鏈位置
-- **晶圓代工與晶片:** [[台積電]] (HW 4.0 / HW 5.0 自研智駕晶片代工)、[[Samsung]]
-- **電池與正負極材料:** [[寧德時代]]、[[Panasonic]]、[[LG Energy]]、[[和大]] (減速齒輪)
-- **車用組件與線束:** [[乙盛-KY]]、[[貿聯-KY]]、[[聯嘉]]
+- **晶圓代工與晶片:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (HW 4.0 / HW 5.0 自研智駕晶片代工)、[![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)
+- **電池與正負極材料:** [[寧德時代]]、[[Panasonic]]、[[LG Energy]]、[![和大](https://img.shields.io/badge/%E5%92%8C%E5%A4%A7-blue)](1536_和大.md) (減速齒輪)
+- **車用組件與線束:** [![乙盛-KY](https://img.shields.io/badge/%E4%B9%99%E7%9B%9B--KY-blue)](5243_乙盛-KY.md)、[![貿聯-KY](https://img.shields.io/badge/%E8%B2%BF%E8%81%AF--KY-blue)](3665_貿聯-KY.md)、[[聯嘉]]
 
 **中游:**
 - **Tesla** — 電動車平台架構、FSD 視覺算法、Dojo 超算與自動化 Gigafactory 生產線

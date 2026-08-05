@@ -17,7 +17,7 @@ Intel Corporation (INTC，Intel Foundry) 為美國傳統 IDM 半導體巨頭，�
 
 **下游:**
 - **Intel Client/Data Center (CCG/DCAI)** — 內部 x86 Core/Xeon 晶片組裝
-- **外部客戶:** [[Microsoft]] (18A 客製化晶片)、[[Amazon]] AWS (18A 晶片)、[[US DoD]] 國防專案
+- **外部客戶:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md) (18A 客製化晶片)、[![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md) AWS (18A 晶片)、[[US DoD]] 國防專案
 
 ## 主要客戶及供應商
 

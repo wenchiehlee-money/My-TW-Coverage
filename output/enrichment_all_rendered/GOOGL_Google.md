@@ -1,4 +1,4 @@
-# GOOGL - [[Google]]
+# GOOGL - Google
 
 ## 業務簡介
 **板塊:** Communication Services
@@ -6,12 +6,12 @@
 **市值:** 2,150,000 百萬美元
 **企業價值:** 2,080,000 百萬美元
 
-Alphabet Inc. / Google (GOOGL，[[Google]]) 為全球搜尋引擎與數位廣告壟斷巨頭。旗下擁有 Google Cloud 雲端平台、Android 手機作業系統、YouTube 及 Gemini 多模態 AI 模型。公司自研 TPU (Tensor Processing Unit, 包含 v5p / v6) AI 晶片，為全球生成式 AI 領頭羊。
+Alphabet Inc. / Google (GOOGL，Google) 為全球搜尋引擎與數位廣告壟斷巨頭。旗下擁有 Google Cloud 雲端平台、Android 手機作業系統、YouTube 及 Gemini 多模態 AI 模型。公司自研 TPU (Tensor Processing Unit, 包含 v5p / v6) AI 晶片，為全球生成式 AI 領頭羊。
 
 ## 供應鏈位置
-- **TPU AI 晶片代工與設計夥伴:** [[台積電]] (N4/N3 獨家代工 TPU 晶片)、[[Broadcom]] (TPU 共同設計合作夥伴)
-- **伺服器代工與網通夥伴:** [[廣達]]、[[英業達]]、[[鴻海]]、[[智邦]]
-- **電源與水冷散熱:** [[台達電]]、[[奇鋐]]、[[雙鴻]]
+- **TPU AI 晶片代工與設計夥伴:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (N4/N3 獨家代工 TPU 晶片)、[![Broadcom](https://img.shields.io/badge/Broadcom-blue)](AVGO_Broadcom.md) (TPU 共同設計合作夥伴)
+- **伺服器代工與網通夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_英業達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md)
+- **電源與水冷散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)
 
 **中游:**
 - **Google** — Gemini 多模態 AI 模型、TPU 架構設計、Google Cloud 雲端基礎架構與 Android 系統

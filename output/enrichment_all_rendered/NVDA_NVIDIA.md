@@ -10,7 +10,7 @@ NVIDIA (NVDA，NVIDIA) 為全球人工智慧 (AI) 算力晶片、圖形處理器
 
 ## 供應鏈位置
 - **晶圓代工與先進封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (N4/N3 & CoWoS-S/L)
-- **高頻寬記憶體 (HBM):** [[SK 海力士]]、[[Micron]]、[[Samsung]]
+- **高頻寬記憶體 (HBM):** [[SK 海力士]]、[![Micron](https://img.shields.io/badge/Micron-blue)](MU_Micron.md)、[![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)
 - **伺服器電源與散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)
 
 **中游:**
@@ -18,7 +18,7 @@ NVIDIA (NVDA，NVIDIA) 為全球人工智慧 (AI) 算力晶片、圖形處理器
 
 **下游:**
 - **AI 伺服器 ODM 夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md)、[![技嘉](https://img.shields.io/badge/%E6%8A%80%E5%98%89-blue)](2376_技嘉.md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_華碩.md)
-- **終端 CSP 客戶:** [[Microsoft]]、[[Meta]]、[[Amazon]]、[[Google]]
+- **終端 CSP 客戶:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)、[![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)
 
 ## 主要客戶及供應商
 

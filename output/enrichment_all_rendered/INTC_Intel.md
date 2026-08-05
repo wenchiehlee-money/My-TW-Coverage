@@ -19,7 +19,7 @@ Intel Corporation (INTC，Intel) 為全球個人電腦 x86 處理器 (Core 系�
 
 **下游:**
 - **全球 PC 品牌巨頭:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[[Lenovo]]、[[HP]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_華碩.md)、[![宏碁](https://img.shields.io/badge/%E5%AE%8F%E7%A2%81-blue)](2353_宏碁.md)
-- **伺服器與 CSP:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_英業達.md)、[[Microsoft]]、[[Amazon]]
+- **伺服器與 CSP:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_英業達.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)
 
 ## 主要客戶及供應商
 

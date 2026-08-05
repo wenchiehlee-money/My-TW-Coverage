@@ -1,4 +1,4 @@
-# MU - [[Micron]]
+# MU - Micron
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,18 +6,18 @@
 **市值:** 122,000 百萬美元
 **企業價值:** 128,000 百萬美元
 
-Micron Technology, Inc. (MU，[[Micron]]) 為美國記憶體晶片巨頭，全球前三大 DRAM 與 NAND Flash 製造商。公司在 HBM3E (8層/12層 24GB/36GB 高頻寬記憶體) 領域成功打入 NVIDIA H200 / B200 AI 晶片供應鏈，技術領先傳統 DRAM。
+Micron Technology, Inc. (MU，Micron) 為美國記憶體晶片巨頭，全球前三大 DRAM 與 NAND Flash 製造商。公司在 HBM3E (8層/12層 24GB/36GB 高頻寬記憶體) 領域成功打入 NVIDIA H200 / B200 AI 晶片供應鏈，技術領先傳統 DRAM。
 
 ## 供應鏈位置
-- **半導體設備與材料:** [[ASML]] (EUV 曝光機)、[[應用材料]]、[[Lam Research]]、[[KLA]]
-- **矽晶圓:** [[環球晶]]、[[信越]]、[[勝高]]
+- **半導體設備與材料:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md) (EUV 曝光機)、[[應用材料]]、[[Lam Research]]、[[KLA]]
+- **矽晶圓:** [![環球晶](https://img.shields.io/badge/%E7%92%B0%E7%90%83%E6%99%B6-blue)](6488_環球晶.md)、[[信越]]、[[勝高]]
 
 **中游:**
 - **Micron** — 1β/1γ 奈米 DRAM 製程研發、HBM3E 先進封裝堆疊與 232層 NAND Flash 製造
 
 **下游:**
-- **AI 算力與 Server 客戶:** [[NVIDIA]] (HBM3E 採購大廠)、[[AMD]]、[[Microsoft]]、[[Dell]]、[[廣達]]
-- **智慧型手機與 PC OEM:** [[Apple]]、[[小米]]、[[Lenovo]]、[[華碩]]
+- **AI 算力與 Server 客戶:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (HBM3E 採購大廠)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)
+- **智慧型手機與 PC OEM:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[[小米]]、[[Lenovo]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_華碩.md)
 
 ## 主要客戶及供應商
 

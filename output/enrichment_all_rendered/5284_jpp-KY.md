@@ -14,13 +14,13 @@ jpp-KY位於金屬機構件供應鏈的中游製造端，具備從設計、雷�
 - **中游:** jpp-KY（經寶精密）及其子公司（如法國ADB, LUTEC, Spem Aero, ADE）。
 - **下游:** 
     - **航太:** 空中巴士（Airbus）、Thales、Safran。
-    - **通訊/AI:** [[雲端服務]]供應商（[[CSP]]，如[[Google]], [[Microsoft]], AWS）、[![伺服器](https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_伺服器.md)品牌廠、電信設備商。
+    - **通訊/AI:** [[雲端服務]]供應商（[[CSP]]，如[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md), [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md), AWS）、[![伺服器](https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_伺服器.md)品牌廠、電信設備商。
     - **其他:** 飲料販賣機運營商（TaoBin）、醫療設備廠。
 
 ## 主要客戶及供應商
 ### 其他關係
 - **航太:** Airbus (Tier 1供應商), Thales, Safran, Dassault (透過併購切入).
-- **通訊/AI:** [[Microsoft]], AWS, [[Google]] (機櫃、液冷組件), 日本[[散熱]]大廠。
+- **通訊/AI:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md), AWS, [![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md) (機櫃、液冷組件), 日本[[散熱]]大廠。
 - **其他:** Forth Corporation (泰國TaoBin母公司).
 - **主要供應商:** 金屬材料供應商（多為國際或當地合格供應商）。
 

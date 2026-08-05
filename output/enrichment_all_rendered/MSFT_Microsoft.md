@@ -1,4 +1,4 @@
-# MSFT - [[Microsoft]]
+# MSFT - Microsoft
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,12 +6,12 @@
 **市值:** 3,150,000 百萬美元
 **企業價值:** 3,120,000 百萬美元
 
-Microsoft Corporation (MSFT，[[Microsoft]]) 為全球雲端運算 (Azure) 與軟體霸主。公司全力投資 OpenAI 並將 Copilot AI 整合至 Windows、Office 365 與 Azure AI 平台。公司亦擁有 Xbox 遊戲生態系與 LinkedIn 商業社群平台。
+Microsoft Corporation (MSFT，Microsoft) 為全球雲端運算 (Azure) 與軟體霸主。公司全力投資 OpenAI 並將 Copilot AI 整合至 Windows、Office 365 與 Azure AI 平台。公司亦擁有 Xbox 遊戲生態系與 LinkedIn 商業社群平台。
 
 ## 供應鏈位置
-- **AI 伺服器與晶片供應商:** [[NVIDIA]] (H100/B200 GPU)、[[AMD]] (MI300X)、[[Intel]]
-- **AI 伺服器代工與網通夥伴:** [[廣達]]、[[鴻海]]、[[緯穎]]、[[緯創]]、[[智邦]]
-- **水冷與電源解決方案:** [[台達電]]、[[奇鋐]]、[[雙鴻]]
+- **AI 伺服器與晶片供應商:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (H100/B200 GPU)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) (MI300X)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md)
+- **AI 伺服器代工與網通夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md)
+- **水冷與電源解決方案:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)
 
 **中游:**
 - **Microsoft** — Azure 雲端基礎架構、Copilot AI 模型整合、Windows 作業系統與 Office 365 軟體
