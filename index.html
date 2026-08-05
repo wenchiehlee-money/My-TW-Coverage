@@ -15,8 +15,7 @@
   <!-- docsify-themeable Stylesheets -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   
-  <!-- docsify-toc Stylesheet -->
-  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+
 
   <!-- docsify-sidebar-collapse Stylesheet -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
@@ -277,42 +276,12 @@
       padding: 40px 30px;
       background: #faf6ef; 
       border-radius: 12px;
-      margin: 30px 260px 30px auto !important; /* 寬螢幕下留空給右側目錄 */
-      max-width: 760px !important;
+      margin: 30px auto !important;
+      max-width: 860px !important;
       border: none; 
     }
 
-    /* 4. 調整右側目錄 TOC (Table of Contents) - 完美神似 VuePress */
-    .page-toc {
-      position: fixed;
-      right: 25px;
-      top: 110px;
-      width: 210px;
-      border-left: 1px solid #e6dfd3;
-      padding-left: 15px;
-      font-size: 0.85rem;
-      z-index: 10;
-    }
-    
-    .page-toc li {
-      list-style-type: none;
-      margin: 8px 0;
-    }
-    
-    .page-toc li a {
-      color: #8c7e6c !important; /* 偏暖灰褐色目錄 */
-      text-decoration: none !important;
-      transition: all 0.2s ease;
-      display: block;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    
-    .page-toc li a:hover, .page-toc li.active a {
-      color: var(--theme-color) !important;
-      transform: translateX(2px);
-    }
+
     
     /* 標題設計 */
     .markdown-section h1 {
@@ -542,13 +511,7 @@
       maxLevel: 4,
       auto2top: true,
       
-      // 右側 TOC 目錄設定
-      toc: {
-        scope: '.markdown-section',
-        findDOM: 'h2, h3',
-        headings: 'h2, h3',
-        title: '本頁目錄'
-      },
+
       
       // 搜尋設定
       search: {
@@ -619,8 +582,7 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   
-  <!-- 右側 TOC 目錄插件 JS -->
-  <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+
   
   <!-- 側邊欄摺疊插件 JS -->
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
