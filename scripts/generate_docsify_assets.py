@@ -5,7 +5,7 @@ import json
 def generate_docsify_assets():
     base_dir = r"C:\Users\WJLEE\SynologyDrive\NAS\github.com\My-TW-Coverage"
     enrichment_dir = os.path.join(base_dir, "output", "enrichment_all_rendered")
-    themes_dir = os.path.join(base_dir, "output", "themes")
+    themes_dir = os.path.join(base_dir, "themes")
 
     # 1. 處理 enrichment_all_rendered 索引
     print("Scanning enrichment files...")

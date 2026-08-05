@@ -14,7 +14,7 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 **上游 (AI 處理器與伺服器零組件):**
 - **AI 晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) — 最高階 GPU (H100/H200/B200)
 - **處理器:** [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md) — 伺服器級 CPU
-- **記憶體/儲存:** 大容量 [![HBM](https://img.shields.io/badge/HBM-green)](../themes/HBM.md)、[[DRAM]]、SSD 儲存陣列
+- **記憶體/儲存:** 大容量 [![HBM](https://img.shields.io/badge/HBM-green)](../themes/HBM.md)、[![DRAM](https://img.shields.io/badge/DRAM-green)](../themes/DRAM.md)、SSD 儲存陣列
 - **散熱:** [[液冷]]散熱管線/幫浦及無塵機櫃
 
 **中游 (AI HPC 系統整合):**
