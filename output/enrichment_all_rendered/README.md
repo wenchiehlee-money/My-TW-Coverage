@@ -1,6 +1,6 @@
 # 台灣上市櫃公司個股研究報告索引
 
-> 本索引收錄共 1745 家台灣上市櫃公司之個股研究報告。點擊下方分類快速跳轉。
+> 本索引收錄共 1746 家台灣上市櫃公司之個股研究報告。點擊下方分類快速跳轉。
 
 - [1xxx 水泥 食品 塑膠 紡織](#1xxx-水泥-食品-塑膠-紡織)
 - [2xxx 電機 鋼鐵 電子 半導體](#2xxx-電機-鋼鐵-電子-半導體)
@@ -382,7 +382,7 @@
 | [9934 成霖](9934_成霖.md) | [9935 慶豐富](9935_慶豐富.md) | [9937 全國](9937_全國.md) | [9938 百和](9938_百和.md) | [9939 宏全](9939_宏全.md) |
 | [9940 信義](9940_信義.md) | [9941 裕融](9941_裕融.md) | [9944 新麗](9944_新麗.md) | [9945 潤泰新](9945_潤泰新.md) | [9946 三發地產](9946_三發地產.md) |
 | [9950 萬國通](9950_萬國通.md) | [9955 佳龍](9955_佳龍.md) | [9957 燁聯](9957_燁聯.md) | [9958 世紀鋼](9958_世紀鋼.md) | [9960 邁達康](9960_邁達康.md) |
-| [9962 有益](9962_有益.md) | [9999 005930.KS_Samsung Foundry](005930.KS_Samsung Foundry.md) | [9999 0981.HK_中芯國際](0981.HK_中芯國際.md) | [9999 0992.HK_聯想集團](0992.HK_聯想集團.md) | [9999 AMD_AMD](AMD_AMD.md) |
-| [9999 ASML_ASML](ASML_ASML.md) | [9999 AVGO_Broadcom](AVGO_Broadcom.md) | [9999 DELL_Dell](DELL_Dell.md) | [9999 GFS_GlobalFoundries](GFS_GlobalFoundries.md) | [9999 HPE_HPE](HPE_HPE.md) |
-| [9999 INTC_Intel Foundry](INTC_Intel Foundry.md) | [9999 NVDA_NVIDIA](NVDA_NVIDIA.md) | [9999 QCOM_Qualcomm](QCOM_Qualcomm.md) |  |  |
+| [9962 有益](9962_有益.md) | [9999 005930.KS_Samsung Foundry](005930.KS_Samsung Foundry.md) | [9999 0981.HK_中芯國際](0981.HK_中芯國際.md) | [9999 0992.HK_聯想集團](0992.HK_聯想集團.md) | [9999 AAPL_Apple](AAPL_Apple.md) |
+| [9999 AMD_AMD](AMD_AMD.md) | [9999 ASML_ASML](ASML_ASML.md) | [9999 AVGO_Broadcom](AVGO_Broadcom.md) | [9999 DELL_Dell](DELL_Dell.md) | [9999 GFS_GlobalFoundries](GFS_GlobalFoundries.md) |
+| [9999 HPE_HPE](HPE_HPE.md) | [9999 INTC_Intel Foundry](INTC_Intel Foundry.md) | [9999 NVDA_NVIDIA](NVDA_NVIDIA.md) | [9999 QCOM_Qualcomm](QCOM_Qualcomm.md) |  |
 
