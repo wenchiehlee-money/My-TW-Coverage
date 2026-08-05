@@ -4,11 +4,11 @@ import json
 
 def generate_docsify_assets():
     base_dir = r"C:\Users\WJLEE\SynologyDrive\NAS\github.com\My-TW-Coverage"
-    enrichment_dir = os.path.join(base_dir, "output", "enrichment_all_rendered")
+    enrichment_dir = os.path.join(base_dir, "output", "themes", "company")
     themes_dir = os.path.join(base_dir, "themes")
 
-    # 1. 處理 enrichment_all_rendered 索引
-    print("Scanning enrichment files...")
+    # 1. 處理 company (個股) 索引
+    print("Scanning company files...")
     enrichment_files = []
     if os.path.exists(enrichment_dir):
         for f in os.listdir(enrichment_dir):
@@ -52,7 +52,7 @@ def generate_docsify_assets():
         else:
             groups["6xxx-9xxx 航運 觀光 金融 其他"].append((code, name, fname))
 
-    # 生成 output/enrichment_all_rendered/README.md
+    # 生成 output/themes/company/README.md
     readme_path = os.path.join(enrichment_dir, "README.md")
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write("# 台灣上市櫃公司個股研究報告索引\n\n")
@@ -131,7 +131,7 @@ def generate_docsify_assets():
     
     # 處理個股
     for code, name, fname in enrichment_files:
-        rel_path = f"output/enrichment_all_rendered/{fname}"
+        rel_path = f"output/themes/company/{fname}"
         wikilink_map[code.lower()] = rel_path
         wikilink_map[name.lower()] = rel_path
         wikilink_map[f"{code}_{name}".lower()] = rel_path

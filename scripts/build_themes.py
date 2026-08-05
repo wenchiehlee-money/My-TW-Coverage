@@ -112,7 +112,7 @@ def load_company_badge_index() -> dict[str, tuple[str, str]]:
         if "_" not in stem:
             continue
         ticker, company = stem.split("_", 1)
-        href = f"../enrichment_all_rendered/{quote(path.name)}"
+        href = f"company/{quote(path.name)}"
         aliases = {ticker, company, f"{ticker} {company}", f"{ticker}_{company}"}
         aliases.update(ENTITY_ALIAS_BY_COMPANY.get(company, []))
         json_path = ENRICHMENT_JSON_DIR / f"{ticker}.json"
@@ -350,14 +350,14 @@ def company_output_link(data: dict[str, Any]) -> str:
     company = str(data.get("company_name", "")).strip()
     filename = f"{ticker}_{company}.md"
     if (COMPANY_OUTPUT_DIR / filename).exists():
-        return f"../enrichment_all_rendered/{quote(filename)}"
+        return f"company/{quote(filename)}"
     return ""
 
 
 def company_output_link_by_identity(ticker: str, company: str) -> str:
     filename = f"{ticker}_{company}.md"
     if ticker and company and (COMPANY_OUTPUT_DIR / filename).exists():
-        return f"../enrichment_all_rendered/{quote(filename)}"
+        return f"company/{quote(filename)}"
     return ""
 
 

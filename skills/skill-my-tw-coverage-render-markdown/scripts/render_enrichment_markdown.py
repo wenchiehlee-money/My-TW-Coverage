@@ -1215,7 +1215,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--json-dir", default="data/enrichment_all")
     parser.add_argument("--coverage-root", default=".")
-    parser.add_argument("--out", default="output/enrichment_all_rendered")
+    parser.add_argument("--out", default="output/themes/company")
     parser.add_argument("--compare", default="output/enrichment_all_render_compare.csv")
     parser.add_argument("--segment-weights", default="../biztrends.TW/data/company_segment_weights.csv")
     parser.add_argument("--monthly-revenue", default="../biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv")
