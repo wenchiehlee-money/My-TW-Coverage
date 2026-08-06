@@ -100,16 +100,42 @@
   "competitive_groups": [
     {
       "name": "NAND 控制晶片 IC 設計",
-      "tickers": ["8299", "2379", "SIMO", "MRVL", "3259"]
+      "tickers": [
+        "8299",
+        "2379",
+        "SIMO",
+        "MRVL",
+        "3259"
+      ]
     },
     {
       "name": "記憶體模組 / SSD 儲存品牌與代工",
-      "tickers": ["3260", "5289", "2451", "4967", "8088"]
+      "tickers": [
+        "3260",
+        "5289",
+        "2451",
+        "4967",
+        "8088"
+      ]
     }
   ],
   "render": {
     "output_filename": "NAND_Flash.md",
     "badge_label": "NAND Flash",
     "badge_color": "blue"
-  }
+  },
+  "key_metrics": [
+    {
+      "name": "NAND Flash 合約價格與產能利用率",
+      "desc": "原廠控產減產政策與價格回升力度。"
+    },
+    {
+      "name": "企業級 SSD (eSSD) 需求占比",
+      "desc": "AI 伺服器海量訓練資料帶動高容量 eSSD 出貨。"
+    },
+    {
+      "name": "3D NAND 層數升級",
+      "desc": "200+ 層以上 3D NAND 堆疊良率與控制晶片需求。"
+    }
+  ]
 }

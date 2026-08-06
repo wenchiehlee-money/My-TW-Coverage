@@ -5,6 +5,11 @@
 **涵蓋公司數:** 380
 **IC 產業鏈資料來源 (部分公司):** `../biztrends.TW/data/ic.tpex.org.tw/raw_SupplyChain_*.csv`
 
+## 關鍵關注指標
+- **AI 伺服器出貨量與滲透率:** 全球雲端巨頭 (CSP) 採購 NVL72/GB200/H200 伺服器總量。
+- **水冷/液冷散熱滲透率:** CDU 與水冷板 (Cold Plate) 採用率及單機產值提升。
+- **CSP 資本支出 (CAPEX):** Microsoft, Amazon, Google, Meta 總資本支出成長趨勢。
+
 ---
 
 ## 相關公司 (380)
