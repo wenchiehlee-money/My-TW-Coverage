@@ -7021,6 +7021,7 @@ window.WIKILINK_MAP = {
   "dram": "output/themes/DRAM.md",
   "euv": "output/themes/EUV.md",
   "hbm": "output/themes/HBM.md",
+  "hyperscalers": "output/themes/Hyperscalers.md",
   "nand_flash": "output/themes/NAND_Flash.md",
   "nand flash": "output/themes/NAND_Flash.md",
   "nand-flash": "output/themes/NAND_Flash.md",
