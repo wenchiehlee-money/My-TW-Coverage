@@ -154,5 +154,9 @@ def generate_docsify_assets():
         f.write(";\n")
     print(f"Generated {map_js_path} with {len(wikilink_map)} mapping entries.")
 
+    # 5. 重新產生全文檢索索引 (search_data.json)
+    from build_search_index import main as build_search_index
+    build_search_index()
+
 if __name__ == "__main__":
     generate_docsify_assets()

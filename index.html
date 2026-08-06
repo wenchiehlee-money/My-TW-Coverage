@@ -498,9 +498,145 @@
   </style>
 </head>
 <body>
+  <div class="search" id="full-text-search">
+    <input type="search" id="fts-input" placeholder="搜尋個股代號、名稱、供應鏈或技術關鍵字..." autocomplete="off">
+    <div class="results-panel" id="fts-results" style="display:none;"></div>
+  </div>
+
   <div id="app">✨ 正在載入台灣股市研究資料庫...</div>
-  
+
   <script>
+    // ========================================================
+    // 全文檢索 (Full-text Search)
+    // 由於 _sidebar.md 刻意留空（本站以 wikilink 導覽），docsify 內建的
+    // search 外掛只會索引側邊欄可達的頁面，無法涵蓋 1,700+ 篇個股報告。
+    // 改用建置時產生的 search_data.json（見 scripts/build_search_index.py）
+    // 搭配純字串比對，於前端即時進行全文檢索。
+    // ========================================================
+    (function () {
+      var DATA_URL = 'search_data.json';
+      var docs = null;
+      var loadingPromise = null;
+
+      function loadIndex() {
+        if (loadingPromise) return loadingPromise;
+        loadingPromise = fetch(DATA_URL)
+          .then(function (res) { return res.json(); })
+          .then(function (data) {
+            docs = data.map(function (d) {
+              return {
+                path: d.path,
+                title: d.title,
+                ticker: d.ticker || '',
+                text: d.text,
+                haystack: (d.title + ' ' + d.ticker + ' ' + d.text).toLowerCase(),
+              };
+            });
+            return docs;
+          });
+        return loadingPromise;
+      }
+
+      function escapeHtml(s) {
+        return s.replace(/[&<>"']/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+      }
+
+      function snippet(text, term) {
+        var lower = text.toLowerCase();
+        var idx = term ? lower.indexOf(term.toLowerCase()) : -1;
+        var start = idx >= 0 ? Math.max(0, idx - 25) : 0;
+        var raw = text.substring(start, start + 90);
+        return (start > 0 ? '…' : '') + escapeHtml(raw) + '…';
+      }
+
+      function search(query) {
+        var terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+        if (!terms.length || !docs) return [];
+        var results = [];
+        for (var i = 0; i < docs.length; i++) {
+          var d = docs[i];
+          var ok = true;
+          for (var j = 0; j < terms.length; j++) {
+            if (d.haystack.indexOf(terms[j]) === -1) { ok = false; break; }
+          }
+          if (!ok) continue;
+          var titleHit = d.title.toLowerCase().indexOf(terms[0]) !== -1 ||
+                         d.ticker.toLowerCase().indexOf(terms[0]) !== -1;
+          results.push({ doc: d, titleHit: titleHit });
+          if (results.length >= 400) break;
+        }
+        results.sort(function (a, b) {
+          if (a.titleHit !== b.titleHit) return a.titleHit ? -1 : 1;
+          return a.doc.text.length - b.doc.text.length;
+        });
+        return results.slice(0, 30).map(function (r) { return r.doc; });
+      }
+
+      function render(results, term) {
+        var panel = document.getElementById('fts-results');
+        if (!results.length) {
+          panel.innerHTML = '<p>🔍 未找到相關結果</p>';
+          panel.style.display = 'block';
+          return;
+        }
+        var html = results.map(function (d) {
+          var href = '#/' + d.path;
+          return '<div class="matching-post"><a href="' + href + '">' +
+            '<p style="font-weight:600;margin:0 0 4px;">' + escapeHtml(d.title) + '</p>' +
+            '<p style="font-size:0.8rem;">' + snippet(d.text, term) + '</p></a></div>';
+        }).join('');
+        panel.innerHTML = html;
+        panel.style.display = 'block';
+      }
+
+      function initSearch() {
+        var input = document.getElementById('fts-input');
+        var panel = document.getElementById('fts-results');
+        var debounceTimer = null;
+
+        input.addEventListener('focus', function () { loadIndex(); });
+        input.addEventListener('input', function () {
+          var value = input.value;
+          clearTimeout(debounceTimer);
+          if (!value.trim()) { panel.style.display = 'none'; return; }
+          debounceTimer = setTimeout(function () {
+            loadIndex().then(function () {
+              render(search(value), value.trim().split(/\s+/)[0]);
+            });
+          }, 150);
+        });
+
+        document.addEventListener('click', function (e) {
+          if (!document.getElementById('full-text-search').contains(e.target)) {
+            panel.style.display = 'none';
+          }
+        });
+
+        document.addEventListener('keydown', function (e) {
+          var active = document.activeElement;
+          var isTyping = active && /input|textarea/i.test(active.tagName);
+          if (e.key === '/' && !isTyping) {
+            e.preventDefault();
+            input.focus();
+          }
+          if (e.key === 'Escape') { panel.style.display = 'none'; input.blur(); }
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initSearch);
+      } else {
+        initSearch();
+      }
+
+      window.__hideFullTextSearchResults = function () {
+        var panel = document.getElementById('fts-results');
+        if (panel) panel.style.display = 'none';
+      };
+    })();
+
     window.$docsify = {
       name: 'TW Stock Database 📊',
       repo: 'https://github.com/wenchiehlee-money/My-TW-Coverage',
@@ -510,19 +646,7 @@
       subMaxLevel: 2,
       maxLevel: 4,
       auto2top: true,
-      
 
-      
-      // 搜尋設定
-      search: {
-        maxAge: 86400000, // 快取過期時間 (1天)
-        paths: 'auto',
-        placeholder: '搜尋個股代號、名稱、供應鏈或技術關鍵字...',
-        noData: '🔍 未找到相關結果',
-        depth: 6,
-        hideOtherSidebarContent: false,
-      },
-      
       // 主題擴充設定
       themeable: {
         readyTransition : true,
@@ -546,6 +670,9 @@
               return resolveWikiLinks(html, window.WIKILINK_MAP);
             }
             return html;
+          });
+          hook.doneEach(function () {
+            if (window.__hideFullTextSearchResults) window.__hideFullTextSearchResults();
           });
         }
       ]
@@ -577,7 +704,6 @@
   <!-- 核心依賴 Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
