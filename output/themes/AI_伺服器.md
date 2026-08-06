@@ -23,13 +23,15 @@
 - [![6933 AMAX-KY](https://img.shields.io/badge/6933%20AMAX--KY-blue)](company/6933_AMAX-KY.md) (市值: 6,273 百萬台幣)
 - [![6117 迎廣](https://img.shields.io/badge/6117%20%E8%BF%8E%E5%BB%A3-blue)](company/6117_%E8%BF%8E%E5%BB%A3.md) (市值: 6,015 百萬台幣)
 
-**品牌伺服器/主機板/顯卡** (7)
+**品牌伺服器/主機板/顯卡** (9)
 - [![2357 華碩](https://img.shields.io/badge/2357%20%E8%8F%AF%E7%A2%A9-blue)](company/2357_%E8%8F%AF%E7%A2%A9.md) (市值: 565,241 百萬台幣)
 - [![2376 技嘉](https://img.shields.io/badge/2376%20%E6%8A%80%E5%98%89-blue)](company/2376_%E6%8A%80%E5%98%89.md) (市值: 215,369 百萬台幣)
 - 0992.HK 聯想 (市值: 118,500 百萬港幣)
 - [![2377 微星](https://img.shields.io/badge/2377%20%E5%BE%AE%E6%98%9F-blue)](company/2377_%E5%BE%AE%E6%98%9F.md) (市值: 116,168 百萬台幣)
+- [![2353 宏碁](https://img.shields.io/badge/2353%20%E5%AE%8F%E7%A2%81-blue)](company/2353_%E5%AE%8F%E7%A2%81.md) (市值: 86,128 百萬台幣)
 - [![HPE HPE](https://img.shields.io/badge/HPE%20HPE-blue)](company/HPE_HPE.md) (市值: 25,400 百萬美元)
 - [![3515 華擎](https://img.shields.io/badge/3515%20%E8%8F%AF%E6%93%8E-blue)](company/3515_%E8%8F%AF%E6%93%8E.md) (市值: 23,535 百萬台幣)
+- [![2465 麗臺](https://img.shields.io/badge/2465%20%E9%BA%97%E8%87%BA-blue)](company/2465_%E9%BA%97%E8%87%BA.md) (市值: 6,820 百萬台幣)
 - DELL 戴爾 (市值: N/A 百萬台幣)
 
 **電源供應器** (6)
@@ -60,10 +62,13 @@
 - [![3013 晟銘電](https://img.shields.io/badge/3013%20%E6%99%9F%E9%8A%98%E9%9B%BB-blue)](company/3013_%E6%99%9F%E9%8A%98%E9%9B%BB.md) (市值: 15,488 百萬台幣)
 - [![5426 振發](https://img.shields.io/badge/5426%20%E6%8C%AF%E7%99%BC-blue)](company/5426_%E6%8C%AF%E7%99%BC.md) (市值: 3,394 百萬台幣)
 
-**連接器/線材** (3)
+**連接器/線材** (6)
 - [![3665 貿聯-KY](https://img.shields.io/badge/3665%20%E8%B2%BF%E8%81%AF--KY-blue)](company/3665_%E8%B2%BF%E8%81%AF-KY.md) (市值: 407,714 百萬台幣)
 - [![3533 嘉澤](https://img.shields.io/badge/3533%20%E5%98%89%E6%BE%A4-blue)](company/3533_%E5%98%89%E6%BE%A4.md) (市值: 193,584 百萬台幣)
+- [![6290 良維](https://img.shields.io/badge/6290%20%E8%89%AF%E7%B6%AD-blue)](company/6290_%E8%89%AF%E7%B6%AD.md) (市值: 34,319 百萬台幣)
 - [![3217 優群](https://img.shields.io/badge/3217%20%E5%84%AA%E7%BE%A4-blue)](company/3217_%E5%84%AA%E7%BE%A4.md) (市值: 12,615 百萬台幣)
+- [![6220 岳豐](https://img.shields.io/badge/6220%20%E5%B2%B3%E8%B1%90-blue)](company/6220_%E5%B2%B3%E8%B1%90.md) (市值: 3,662 百萬台幣)
+- [![2440 太空梭](https://img.shields.io/badge/2440%20%E5%A4%AA%E7%A9%BA%E6%A2%AD-blue)](company/2440_%E5%A4%AA%E7%A9%BA%E6%A2%AD.md) (市值: 2,094 百萬台幣)
 
 **ABF 載板/PCB** (5)
 - [![3037 欣興](https://img.shields.io/badge/3037%20%E6%AC%A3%E8%88%88-blue)](company/3037_%E6%AC%A3%E8%88%88.md) (市值: 1,083,012 百萬台幣)
@@ -84,8 +89,9 @@
 - [![3679 新至陞](https://img.shields.io/badge/3679%20%E6%96%B0%E8%87%B3%E9%99%9E-blue)](company/3679_%E6%96%B0%E8%87%B3%E9%99%9E.md) (市值: 7,248 百萬台幣)
 - [![3290 東浦](https://img.shields.io/badge/3290%20%E6%9D%B1%E6%B5%A6-blue)](company/3290_%E6%9D%B1%E6%B5%A6.md) (市值: 4,664 百萬台幣)
 
-**資料中心配電 (PDU)** (1)
+**資料中心配電 (PDU)** (2)
 - [![3296 勝德](https://img.shields.io/badge/3296%20%E5%8B%9D%E5%BE%B7-blue)](company/3296_%E5%8B%9D%E5%BE%B7.md) (市值: 2,196 百萬台幣)
+- [![3002 歐格](https://img.shields.io/badge/3002%20%E6%AD%90%E6%A0%BC-blue)](company/3002_%E6%AD%90%E6%A0%BC.md) (市值: 1,585 百萬台幣)
 
 **被動元件** (3)
 - [![2327 國巨](https://img.shields.io/badge/2327%20%E5%9C%8B%E5%B7%A8-blue)](company/2327_%E5%9C%8B%E5%B7%A8.md) (市值: 1,043,776 百萬台幣)
@@ -129,14 +135,13 @@
 - [![4722 國精化](https://img.shields.io/badge/4722%20%E5%9C%8B%E7%B2%BE%E5%8C%96-blue)](company/4722_%E5%9C%8B%E7%B2%BE%E5%8C%96.md) (市值: 17,107 百萬台幣)
 - [![3388 崇越電](https://img.shields.io/badge/3388%20%E5%B4%87%E8%B6%8A%E9%9B%BB-blue)](company/3388_%E5%B4%87%E8%B6%8A%E9%9B%BB.md) (市值: 5,095 百萬台幣)
 
-**電腦及週邊設備 - 電源供應器** (17)
+**電腦及週邊設備 - 電源供應器** (16)
 - [![2360 致茂](https://img.shields.io/badge/2360%20%E8%87%B4%E8%8C%82-blue)](company/2360_%E8%87%B4%E8%8C%82.md) (市值: 777,290 百萬台幣)
 - [![3078 僑威](https://img.shields.io/badge/3078%20%E5%83%91%E5%A8%81-blue)](company/3078_%E5%83%91%E5%A8%81.md) (市值: 11,415 百萬台幣)
 - [![2457 飛宏](https://img.shields.io/badge/2457%20%E9%A3%9B%E5%AE%8F-blue)](company/2457_%E9%A3%9B%E5%AE%8F.md) (市值: 8,941 百萬台幣)
 - [![2420 新巨](https://img.shields.io/badge/2420%20%E6%96%B0%E5%B7%A8-blue)](company/2420_%E6%96%B0%E5%B7%A8.md) (市值: 8,212 百萬台幣)
 - [![6203 海韻電](https://img.shields.io/badge/6203%20%E6%B5%B7%E9%9F%BB%E9%9B%BB-blue)](company/6203_%E6%B5%B7%E9%9F%BB%E9%9B%BB.md) (市值: 5,315 百萬台幣)
 - [![2413 環科](https://img.shields.io/badge/2413%20%E7%92%B0%E7%A7%91-blue)](company/2413_%E7%92%B0%E7%A7%91.md) (市值: 4,668 百萬台幣)
-- [![6220 岳豐](https://img.shields.io/badge/6220%20%E5%B2%B3%E8%B1%90-blue)](company/6220_%E5%B2%B3%E8%B1%90.md) (市值: 3,662 百萬台幣)
 - [![3332 幸康](https://img.shields.io/badge/3332%20%E5%B9%B8%E5%BA%B7-blue)](company/3332_%E5%B9%B8%E5%BA%B7.md) (市值: 2,987 百萬台幣)
 - [![3058 立德](https://img.shields.io/badge/3058%20%E7%AB%8B%E5%BE%B7-blue)](company/3058_%E7%AB%8B%E5%BE%B7.md) (市值: 1,631 百萬台幣)
 - [![3308 聯德](https://img.shields.io/badge/3308%20%E8%81%AF%E5%BE%B7-blue)](company/3308_%E8%81%AF%E5%BE%B7.md) (市值: 1,143 百萬台幣)
@@ -193,17 +198,6 @@
 - [![5230 雷笛克光學](https://img.shields.io/badge/5230%20%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8-blue)](company/5230_%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8.md) (市值: 931 百萬台幣)
 - [![3115 富榮綱](https://img.shields.io/badge/3115%20%E5%AF%8C%E6%A6%AE%E7%B6%B1-blue)](company/3115_%E5%AF%8C%E6%A6%AE%E7%B6%B1.md) (市值: 691 百萬台幣)
 
-**電氣設備與零件** (9)
-- [![1519 華城](https://img.shields.io/badge/1519%20%E8%8F%AF%E5%9F%8E-blue)](company/1519_%E8%8F%AF%E5%9F%8E.md) (市值: 211,009 百萬台幣)
-- [![3211 順達](https://img.shields.io/badge/3211%20%E9%A0%86%E9%81%94-blue)](company/3211_%E9%A0%86%E9%81%94.md) (市值: 47,526 百萬台幣)
-- [![6290 良維](https://img.shields.io/badge/6290%20%E8%89%AF%E7%B6%AD-blue)](company/6290_%E8%89%AF%E7%B6%AD.md) (市值: 34,319 百萬台幣)
-- [![1514 亞力](https://img.shields.io/badge/1514%20%E4%BA%9E%E5%8A%9B-blue)](company/1514_%E4%BA%9E%E5%8A%9B.md) (市值: 26,735 百萬台幣)
-- [![1608 華榮](https://img.shields.io/badge/1608%20%E8%8F%AF%E6%A6%AE-blue)](company/1608_%E8%8F%AF%E6%A6%AE.md) (市值: 11,687 百萬台幣)
-- [![4931 新盛力](https://img.shields.io/badge/4931%20%E6%96%B0%E7%9B%9B%E5%8A%9B-blue)](company/4931_%E6%96%B0%E7%9B%9B%E5%8A%9B.md) (市值: 11,408 百萬台幣)
-- [![1612 宏泰](https://img.shields.io/badge/1612%20%E5%AE%8F%E6%B3%B0-blue)](company/1612_%E5%AE%8F%E6%B3%B0.md) (市值: 9,419 百萬台幣)
-- [![3071 協禧](https://img.shields.io/badge/3071%20%E5%8D%94%E7%A6%A7-blue)](company/3071_%E5%8D%94%E7%A6%A7.md) (市值: 2,679 百萬台幣)
-- [![3002 歐格](https://img.shields.io/badge/3002%20%E6%AD%90%E6%A0%BC-blue)](company/3002_%E6%AD%90%E6%A0%BC.md) (市值: 1,585 百萬台幣)
-
 **電腦及週邊設備 - 其他電腦及週邊設備之零組件** (38)
 - [![3026 禾伸堂](https://img.shields.io/badge/3026%20%E7%A6%BE%E4%BC%B8%E5%A0%82-blue)](company/3026_%E7%A6%BE%E4%BC%B8%E5%A0%82.md) (市值: 78,715 百萬台幣)
 - [![2458 義隆](https://img.shields.io/badge/2458%20%E7%BE%A9%E9%9A%86-blue)](company/2458_%E7%BE%A9%E9%9A%86.md) (市值: 42,805 百萬台幣)
@@ -244,6 +238,15 @@
 - [![6673 和詮](https://img.shields.io/badge/6673%20%E5%92%8C%E8%A9%AE-blue)](company/6673_%E5%92%8C%E8%A9%AE.md) (市值: 293 百萬台幣)
 - 6967 汎瑋材料
 
+**電氣設備與零件** (7)
+- [![1519 華城](https://img.shields.io/badge/1519%20%E8%8F%AF%E5%9F%8E-blue)](company/1519_%E8%8F%AF%E5%9F%8E.md) (市值: 211,009 百萬台幣)
+- [![3211 順達](https://img.shields.io/badge/3211%20%E9%A0%86%E9%81%94-blue)](company/3211_%E9%A0%86%E9%81%94.md) (市值: 47,526 百萬台幣)
+- [![1514 亞力](https://img.shields.io/badge/1514%20%E4%BA%9E%E5%8A%9B-blue)](company/1514_%E4%BA%9E%E5%8A%9B.md) (市值: 26,735 百萬台幣)
+- [![1608 華榮](https://img.shields.io/badge/1608%20%E8%8F%AF%E6%A6%AE-blue)](company/1608_%E8%8F%AF%E6%A6%AE.md) (市值: 11,687 百萬台幣)
+- [![4931 新盛力](https://img.shields.io/badge/4931%20%E6%96%B0%E7%9B%9B%E5%8A%9B-blue)](company/4931_%E6%96%B0%E7%9B%9B%E5%8A%9B.md) (市值: 11,408 百萬台幣)
+- [![1612 宏泰](https://img.shields.io/badge/1612%20%E5%AE%8F%E6%B3%B0-blue)](company/1612_%E5%AE%8F%E6%B3%B0.md) (市值: 9,419 百萬台幣)
+- [![3071 協禧](https://img.shields.io/badge/3071%20%E5%8D%94%E7%A6%A7-blue)](company/3071_%E5%8D%94%E7%A6%A7.md) (市值: 2,679 百萬台幣)
+
 **電腦及週邊設備 - 機殼** (20)
 - [![2474 可成](https://img.shields.io/badge/2474%20%E5%8F%AF%E6%88%90-blue)](company/2474_%E5%8F%AF%E6%88%90.md) (市值: 97,257 百萬台幣)
 - [![3005 神基](https://img.shields.io/badge/3005%20%E7%A5%9E%E5%9F%BA-blue)](company/3005_%E7%A5%9E%E5%9F%BA.md) (市值: 66,801 百萬台幣)
@@ -266,26 +269,6 @@
 - 1211.HK 比亞迪
 - 7744 崴寶
 
-**電腦及週邊設備 - 伺服器** (18)
-- [![2353 宏碁](https://img.shields.io/badge/2353%20%E5%AE%8F%E7%A2%81-blue)](company/2353_%E5%AE%8F%E7%A2%81.md) (市值: 86,128 百萬台幣)
-- [![2371 大同](https://img.shields.io/badge/2371%20%E5%A4%A7%E5%90%8C-blue)](company/2371_%E5%A4%A7%E5%90%8C.md) (市值: 49,310 百萬台幣)
-- [![2352 佳世達](https://img.shields.io/badge/2352%20%E4%BD%B3%E4%B8%96%E9%81%94-blue)](company/2352_%E4%BD%B3%E4%B8%96%E9%81%94.md) (市值: 42,595 百萬台幣)
-- [![3147 大綜](https://img.shields.io/badge/3147%20%E5%A4%A7%E7%B6%9C-blue)](company/3147_%E5%A4%A7%E7%B6%9C.md) (市值: 9,152 百萬台幣)
-- [![3709 鑫聯大投控](https://img.shields.io/badge/3709%20%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7-blue)](company/3709_%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7.md) (市值: 8,672 百萬台幣)
-- [![8099 大世科](https://img.shields.io/badge/8099%20%E5%A4%A7%E4%B8%96%E7%A7%91-blue)](company/8099_%E5%A4%A7%E4%B8%96%E7%A7%91.md) (市值: 5,584 百萬台幣)
-- [![2425 承啟](https://img.shields.io/badge/2425%20%E6%89%BF%E5%95%9F-blue)](company/2425_%E6%89%BF%E5%95%9F.md) (市值: 4,260 百萬台幣)
-- [![6221 晉泰](https://img.shields.io/badge/6221%20%E6%99%89%E6%B3%B0-blue)](company/6221_%E6%99%89%E6%B3%B0.md) (市值: 3,473 百萬台幣)
-- [![2430 燦坤](https://img.shields.io/badge/2430%20%E7%87%A6%E5%9D%A4-blue)](company/2430_%E7%87%A6%E5%9D%A4.md) (市值: 2,003 百萬台幣)
-- [![6218 豪勉](https://img.shields.io/badge/6218%20%E8%B1%AA%E5%8B%89-blue)](company/6218_%E8%B1%AA%E5%8B%89.md) (市值: 1,941 百萬台幣)
-- [![6154 順發](https://img.shields.io/badge/6154%20%E9%A0%86%E7%99%BC-blue)](company/6154_%E9%A0%86%E7%99%BC.md) (市值: 1,081 百萬台幣)
-- [![3349 寶德](https://img.shields.io/badge/3349%20%E5%AF%B6%E5%BE%B7-blue)](company/3349_%E5%AF%B6%E5%BE%B7.md) (市值: 1,027 百萬台幣)
-- 6140 訊達電腦 (市值: 873 百萬台幣)
-- 6707 富基電通
-- 7767 仁大資訊
-- 7841 經貿聯網
-- 7868 聖育
-- 7875 安圖斯
-
 **半導體** (6)
 - [![6415 矽力-KY](https://img.shields.io/badge/6415%20%E7%9F%BD%E5%8A%9B--KY-blue)](company/6415_%E7%9F%BD%E5%8A%9B-KY.md) (市值: 145,827 百萬台幣)
 - [![2329 華泰](https://img.shields.io/badge/2329%20%E8%8F%AF%E6%B3%B0-blue)](company/2329_%E8%8F%AF%E6%B3%B0.md) (市值: 25,534 百萬台幣)
@@ -294,7 +277,7 @@
 - [![6411 晶焱](https://img.shields.io/badge/6411%20%E6%99%B6%E7%84%B1-blue)](company/6411_%E6%99%B6%E7%84%B1.md) (市值: 6,919 百萬台幣)
 - [![6693 廣閎科](https://img.shields.io/badge/6693%20%E5%BB%A3%E9%96%8E%E7%A7%91-blue)](company/6693_%E5%BB%A3%E9%96%8E%E7%A7%91.md) (市值: 6,397 百萬台幣)
 
-**電腦及週邊設備 - 連接線** (19)
+**電腦及週邊設備 - 連接線** (18)
 - [![3023 信邦](https://img.shields.io/badge/3023%20%E4%BF%A1%E9%82%A6-blue)](company/3023_%E4%BF%A1%E9%82%A6.md) (市值: 66,739 百萬台幣)
 - [![7861 貝爾威勒](https://img.shields.io/badge/7861%20%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92-blue)](company/7861_%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92.md) (市值: 60,853 百萬台幣)
 - [![2328 廣宇](https://img.shields.io/badge/2328%20%E5%BB%A3%E5%AE%87-blue)](company/2328_%E5%BB%A3%E5%AE%87.md) (市值: 20,915 百萬台幣)
@@ -304,7 +287,6 @@
 - [![8103 瀚荃](https://img.shields.io/badge/8103%20%E7%80%9A%E8%8D%83-blue)](company/8103_%E7%80%9A%E8%8D%83.md) (市值: 5,420 百萬台幣)
 - [![6205 詮欣](https://img.shields.io/badge/6205%20%E8%A9%AE%E6%AC%A3-blue)](company/6205_%E8%A9%AE%E6%AC%A3.md) (市值: 4,279 百萬台幣)
 - [![3092 鴻碩](https://img.shields.io/badge/3092%20%E9%B4%BB%E7%A2%A9-blue)](company/3092_%E9%B4%BB%E7%A2%A9.md) (市值: 2,421 百萬台幣)
-- [![2440 太空梭](https://img.shields.io/badge/2440%20%E5%A4%AA%E7%A9%BA%E6%A2%AD-blue)](company/2440_%E5%A4%AA%E7%A9%BA%E6%A2%AD.md) (市值: 2,094 百萬台幣)
 - [![3550 聯穎](https://img.shields.io/badge/3550%20%E8%81%AF%E7%A9%8E-blue)](company/3550_%E8%81%AF%E7%A9%8E.md) (市值: 2,054 百萬台幣)
 - [![6134 萬旭](https://img.shields.io/badge/6134%20%E8%90%AC%E6%97%AD-blue)](company/6134_%E8%90%AC%E6%97%AD.md) (市值: 1,941 百萬台幣)
 - [![3114 好德](https://img.shields.io/badge/3114%20%E5%A5%BD%E5%BE%B7-blue)](company/3114_%E5%A5%BD%E5%BE%B7.md) (市值: 1,868 百萬台幣)
@@ -365,6 +347,25 @@
 - 7836 智生活
 - 7839 達人網
 - 7851 慧康生技*-KY
+
+**電腦及週邊設備 - 伺服器** (17)
+- [![2371 大同](https://img.shields.io/badge/2371%20%E5%A4%A7%E5%90%8C-blue)](company/2371_%E5%A4%A7%E5%90%8C.md) (市值: 49,310 百萬台幣)
+- [![2352 佳世達](https://img.shields.io/badge/2352%20%E4%BD%B3%E4%B8%96%E9%81%94-blue)](company/2352_%E4%BD%B3%E4%B8%96%E9%81%94.md) (市值: 42,595 百萬台幣)
+- [![3147 大綜](https://img.shields.io/badge/3147%20%E5%A4%A7%E7%B6%9C-blue)](company/3147_%E5%A4%A7%E7%B6%9C.md) (市值: 9,152 百萬台幣)
+- [![3709 鑫聯大投控](https://img.shields.io/badge/3709%20%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7-blue)](company/3709_%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7.md) (市值: 8,672 百萬台幣)
+- [![8099 大世科](https://img.shields.io/badge/8099%20%E5%A4%A7%E4%B8%96%E7%A7%91-blue)](company/8099_%E5%A4%A7%E4%B8%96%E7%A7%91.md) (市值: 5,584 百萬台幣)
+- [![2425 承啟](https://img.shields.io/badge/2425%20%E6%89%BF%E5%95%9F-blue)](company/2425_%E6%89%BF%E5%95%9F.md) (市值: 4,260 百萬台幣)
+- [![6221 晉泰](https://img.shields.io/badge/6221%20%E6%99%89%E6%B3%B0-blue)](company/6221_%E6%99%89%E6%B3%B0.md) (市值: 3,473 百萬台幣)
+- [![2430 燦坤](https://img.shields.io/badge/2430%20%E7%87%A6%E5%9D%A4-blue)](company/2430_%E7%87%A6%E5%9D%A4.md) (市值: 2,003 百萬台幣)
+- [![6218 豪勉](https://img.shields.io/badge/6218%20%E8%B1%AA%E5%8B%89-blue)](company/6218_%E8%B1%AA%E5%8B%89.md) (市值: 1,941 百萬台幣)
+- [![6154 順發](https://img.shields.io/badge/6154%20%E9%A0%86%E7%99%BC-blue)](company/6154_%E9%A0%86%E7%99%BC.md) (市值: 1,081 百萬台幣)
+- [![3349 寶德](https://img.shields.io/badge/3349%20%E5%AF%B6%E5%BE%B7-blue)](company/3349_%E5%AF%B6%E5%BE%B7.md) (市值: 1,027 百萬台幣)
+- 6140 訊達電腦 (市值: 873 百萬台幣)
+- 6707 富基電通
+- 7767 仁大資訊
+- 7841 經貿聯網
+- 7868 聖育
+- 7875 安圖斯
 
 **半導體設備與材料** (6)
 - [![2481 強茂](https://img.shields.io/badge/2481%20%E5%BC%B7%E8%8C%82-blue)](company/2481_%E5%BC%B7%E8%8C%82.md) (市值: 42,988 百萬台幣)
@@ -442,11 +443,6 @@
 **特殊商業服務** (1)
 - [![5607 遠雄港](https://img.shields.io/badge/5607%20%E9%81%A0%E9%9B%84%E6%B8%AF-blue)](company/5607_%E9%81%A0%E9%9B%84%E6%B8%AF.md) (市值: 18,194 百萬台幣)
 
-**電腦及週邊設備 - 顯示卡** (3)
-- [![2465 麗臺](https://img.shields.io/badge/2465%20%E9%BA%97%E8%87%BA-blue)](company/2465_%E9%BA%97%E8%87%BA.md) (市值: 6,820 百萬台幣)
-- [![2417 圓剛](https://img.shields.io/badge/2417%20%E5%9C%93%E5%89%9B-blue)](company/2417_%E5%9C%93%E5%89%9B.md) (市值: 4,896 百萬台幣)
-- [![6150 撼訊](https://img.shields.io/badge/6150%20%E6%92%BC%E8%A8%8A-blue)](company/6150_%E6%92%BC%E8%A8%8A.md) (市值: 2,509 百萬台幣)
-
 **電腦及週邊設備 - 網路卡** (3)
 - [![6143 振曜](https://img.shields.io/badge/6143%20%E6%8C%AF%E6%9B%9C-blue)](company/6143_%E6%8C%AF%E6%9B%9C.md) (市值: 7,306 百萬台幣)
 - [![3169 亞信](https://img.shields.io/badge/3169%20%E4%BA%9E%E4%BF%A1-blue)](company/3169_%E4%BA%9E%E4%BF%A1.md) (市值: 6,058 百萬台幣)
@@ -490,6 +486,10 @@
 
 **銅業** (1)
 - [![4989 榮科](https://img.shields.io/badge/4989%20%E6%A6%AE%E7%A7%91-blue)](company/4989_%E6%A6%AE%E7%A7%91.md) (市值: 8,015 百萬台幣)
+
+**電腦及週邊設備 - 顯示卡** (2)
+- [![2417 圓剛](https://img.shields.io/badge/2417%20%E5%9C%93%E5%89%9B-blue)](company/2417_%E5%9C%93%E5%89%9B.md) (市值: 4,896 百萬台幣)
+- [![6150 撼訊](https://img.shields.io/badge/6150%20%E6%92%BC%E8%A8%8A-blue)](company/6150_%E6%92%BC%E8%A8%8A.md) (市值: 2,509 百萬台幣)
 
 **人工智慧 - 資料處理** (2)
 - [![6658 聯策](https://img.shields.io/badge/6658%20%E8%81%AF%E7%AD%96-blue)](company/6658_%E8%81%AF%E7%AD%96.md) (市值: 5,019 百萬台幣)
