@@ -1129,7 +1129,10 @@ def render_relationship_section(data: dict[str, Any], entity_render_index: dict[
             if line:
                 lines.append(line)
         lines.append("")
-    return "\n".join(lines).strip()
+    rendered = "\n".join(lines).strip()
+    if rendered:
+        return rendered
+    return str(data.get("source_text", {}).get("customers_suppliers_md", "")).strip()
 
 
 def render_competitive_position(data: dict[str, Any], entity_render_index: dict[str, str] | None = None) -> str:

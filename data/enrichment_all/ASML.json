@@ -24,9 +24,51 @@
     "other": []
   },
   "relationships": {
-    "customers": [],
-    "suppliers": [],
-    "competitors": [],
+    "customers": [
+      {
+        "role": "主要客戶",
+        "entities": [
+          "台積電"
+        ],
+        "text": "[[台積電]] — 先進製程 EUV 設備最大客戶"
+      },
+      {
+        "role": "主要客戶",
+        "entities": [
+          "Samsung",
+          "Intel",
+          "SK 海力士"
+        ],
+        "text": "[[Samsung]]、[[Intel]]、[[SK 海力士]] — EUV 與 DUV 光刻設備客戶"
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "主要供應商",
+        "entities": [
+          "蔡司"
+        ],
+        "text": "Zeiss (蔡司) — 獨家高階光學鏡頭鏡片"
+      },
+      {
+        "role": "主要供應商",
+        "entities": [
+          "帆宣",
+          "家登"
+        ],
+        "text": "[[帆宣]]、[[家登]] — EUV 模組代工與 EUV Pod 光罩盒"
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "entities": [
+          "Nikon",
+          "Canon"
+        ],
+        "text": "Nikon、Canon — DUV 與傳統微影設備競爭"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -46,7 +88,7 @@
   "source_text": {
     "business_summary_md": "ASML (ASML，[[ASML]]) 阿斯麥總部位於荷蘭，為全球獨家光刻機 (Lithography) 龍頭，壟斷 100% 極紫外光 (EUV) 光刻機市場 (包含 0.33 NA EUV 與 High-NA 0.55 NA EUV 機器 Twinscan EXE 系列)，是半導體先進製程 (台積電、Intel、Samsung、美光) 不可或缺的基石。",
     "supply_chain_md": "- **光學與雷射光源:** [[Zeiss]] (蔡司光學鏡頭)、[[TRUMPF]] (高功率雷射光源)\n- **精密元件與模組:** [[帆宣]]、[[家登]] (EUV Pod 晶圓盒)、[[公準]]、[[翔名]]\n\n**中游:**\n- **ASML** — 高光學精度微影曝光系統研發、組裝與光學路徑調校\n\n**下游:**\n- **先進邏輯晶圓廠:** [[台積電]]、[[Intel Foundry]]、[[Samsung Foundry]]、[[中芯國際]]\n- **記憶體巨頭:** [[SK 海力士]]、[[Micron]]、[[Samsung]]",
-    "customers_suppliers_md": "### 主要客戶\n- - [[台積電]]、[[Intel]]、[[Samsung]]、[[SK 海力士]]、[[Micron]]\n\n### 主要供應商\n- - [[Zeiss]]、[[家登]]、[[帆宣]]、[[公準]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[台積電]] — 先進製程 EUV 設備最大客戶\n- [[Samsung]]、[[Intel]]、[[SK 海力士]] — EUV 與 DUV 光刻設備客戶\n\n### 主要供應商\n- Zeiss (蔡司) — 獨家高階光學鏡頭鏡片\n- [[帆宣]]、[[家登]] — EUV 模組代工與 EUV Pod 光罩盒\n\n### 競爭同業\n- Nikon、Canon — DUV 與傳統微影設備競爭",
     "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n\n### 估值指標\n\n基準日: 2026-07-30 | 股價: 全球市場交易 | TTM 截至: 近期\n\n#### 市場估值\n\n| 指標 | 數值 | 分子 | 分母 | 說明 |\n|:---|:---|:---|:---|:---|\n| P/E (TTM) | 38.20x | 股價 | TTM EPS | 股價 / TTM EPS |\n| P/S (TTM) | 10.20x | 市值 | TTM 營收 | 市值 / TTM 營收 |\n| EV/EBITDA (TTM) | 29.50x | 企業價值 | TTM EBITDA | 企業價值 / TTM EBITDA |\n\n#### Consensus 估值\n\nConsensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬數據\n\n| 指標 | Primary Consensus | 說明 | 信心 |\n|:---|:---|:---|:---|\n| 2026E EPS | 24.50 EUR | Forward P/E; current year | high |\n| 2026E Revenue | 32,000M EUR | Forward P/S; current year | medium |\n| 2027E EPS | 31.20 EUR | Forward P/E; next year | high |\n| 2027E Revenue | 39,500M EUR | Forward P/S; next year | medium |\n\n| 估值指標 | 數值 | 分子 | 分母 | 使用基礎 |\n|:---|:---|:---|:---|:---|\n| Forward P/E (Consensus) | 26.40x | 股價 | 2027E EPS | 股價 / consensus EPS |\n| Forward P/S (Consensus) | 8.10x | 市值 | 2027E Revenue | 市值 / consensus revenue |\n\n### 年度關鍵財務數據 (近 3 年)\n| | 2025-12-31 (FY25) | 2024-12-31 (FY24) | 2023-12-31 (FY23) |\n|:---|---:|---:|---:|\n| Revenue | 28,254.00 | 27,559.00 | 21,173.00 |\n| Gross Margin (%) | 51.30 | 51.30 | 50.50 |\n| Net Income | 7,575.00 | 7,839.00 | 5,624.00 |\n| EPS (€) | 19.34 | 19.91 | 14.13 |\n\n### 季度關鍵財務數據 (近 4 季)\n| | FY2026 Q1 | FY2025 Q4 | FY2025 Q3 | FY2025 Q2 |\n|:---|---:|---:|---:|---:|\n| Revenue | 7,467.00 | 7,467.00 | 7,467.00 | 6,243.00 |\n| Gross Margin (%) | 50.80 | 51.50 | 50.80 | 51.50 |\n| Net Income | 2,077.00 | 2,077.00 | 2,077.00 | 1,578.00 |\n| EPS (€) | 5.28 | 5.28 | 5.28 | 4.01 |\n\n### 營收平台佔比 (Revenue by Platform %)\n| 平台 / 事業群 | 最新佔比 | 趨勢與推動力 |\n|:---|:---|:---|\n| EUV Systems (0.33 & High-NA 0.55 NA) | 52.40% (€3,913M) | 最先進 N3/N2 製程與 3D DRAM 用 EUV 曝光機 |\n| DUV Systems (ArFi / ArF / KrF) | 33.10% (€2,472M) | 深紫外光浸潤式與乾式光刻機 |\n| Installed Base Management (維修與升級) | 14.50% (€1,082M) | 全球已安裝光刻機維護與軟硬體升級服務 |\n"
   },
   "quality": {

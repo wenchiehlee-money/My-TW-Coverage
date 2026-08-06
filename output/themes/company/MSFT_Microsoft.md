@@ -68,6 +68,29 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Forward P/E (Consensus) | 28.50x | 股價 | 2027E EPS | 股價 / consensus EPS |
 | Forward P/S (Consensus) | 10.80x | 市值 | 2027E Revenue | 市值 / consensus revenue |
 
+### 年度關鍵財務數據 (近 3 年)
+| | FY2025 | FY2024 | FY2023 |
+|:---|---:|---:|---:|
+| Revenue | 245,122.00 | 211,915.00 | 198,270.00 |
+| Gross Margin (%) | 69.80 | 68.90 | 68.40 |
+| Net Income | 88,136.00 | 72,361.00 | 72,738.00 |
+| EPS ($) | 11.80 | 9.68 | 9.72 |
+
+### 季度關鍵財務數據 (近 4 季)
+| | FY2026 Q1 | FY2025 Q4 | FY2025 Q3 | FY2025 Q2 |
+|:---|---:|---:|---:|---:|
+| Revenue | 65,585.00 | 64,727.00 | 61,858.00 | 62,020.00 |
+| Gross Margin (%) | 70.10 | 69.80 | 70.20 | 69.50 |
+| Net Income | 24,667.00 | 22,036.00 | 21,939.00 | 21,870.00 |
+| EPS ($) | 3.30 | 2.95 | 2.94 | 2.93 |
+
+### 營收平台佔比 (Revenue by Platform %)
+| 平台 / 事業群 | 最新佔比 | 趨勢與推動力 |
+|:---|:---|:---|
+| Intelligent Cloud (Azure & Server products) | 44.50% ($29,185M) | Azure AI 雲端服務與智慧資料庫年增 >30% |
+| Productivity and Business Processes (Office 365) | 32.80% ($21,511M) | Copilot 訂閱用戶數持續爆發成長 |
+| More Personal Computing (Windows, Surface & Xbox) | 22.70% ($14,889M) | Windows 授權與 Activision 遊戲營收 |
+
 ### 競爭同業 Revenue/Profit/GM/PE
 
 Revenue/Profit Unit: `百萬台幣`
@@ -148,27 +171,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-### 年度關鍵財務數據 (近 3 年)
-| | FY2025 | FY2024 | FY2023 |
-|:---|---:|---:|---:|
-| Revenue | 245,122.00 | 211,915.00 | 198,270.00 |
-| Gross Margin (%) | 69.80 | 68.90 | 68.40 |
-| Net Income | 88,136.00 | 72,361.00 | 72,738.00 |
-| EPS ($) | 11.80 | 9.68 | 9.72 |
-
-### 季度關鍵財務數據 (近 4 季)
-| | FY2026 Q1 | FY2025 Q4 | FY2025 Q3 | FY2025 Q2 |
-|:---|---:|---:|---:|---:|
-| Revenue | 65,585.00 | 64,727.00 | 61,858.00 | 62,020.00 |
-| Gross Margin (%) | 70.10 | 69.80 | 70.20 | 69.50 |
-| Net Income | 24,667.00 | 22,036.00 | 21,939.00 | 21,870.00 |
-| EPS ($) | 3.30 | 2.95 | 2.94 | 2.93 |
-
-### 營收平台佔比 (Revenue by Platform %)
-| 平台 / 事業群 | 最新佔比 | 趨勢與推動力 |
-|:---|:---|:---|
-| Intelligent Cloud (Azure & Server products) | 44.50% ($29,185M) | Azure AI 雲端服務與智慧資料庫年增 >30% |
-| Productivity and Business Processes (Office 365) | 32.80% ($21,511M) | Copilot 訂閱用戶數持續爆發成長 |
-| More Personal Computing (Windows, Surface & Xbox) | 22.70% ($14,889M) | Windows 授權與 Activision 遊戲營收 |
-
-Updated: 2026-08-06 15:58 CST
+Updated: 2026-08-06 16:43 CST

@@ -24,9 +24,48 @@
     "other": []
   },
   "relationships": {
-    "customers": [],
-    "suppliers": [],
-    "competitors": [],
+    "customers": [
+      {
+        "role": "主要客戶",
+        "entities": [
+          "Apple",
+          "NVIDIA"
+        ],
+        "text": "[[Apple]]、[[NVIDIA]] — 記憶體與面板客戶"
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "主要供應商",
+        "entities": [
+          "ASML"
+        ],
+        "text": "[[ASML]] — EUV 微影設備"
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "entities": [
+          "台積電"
+        ],
+        "text": "[[台積電]] — 晶圓代工競爭"
+      },
+      {
+        "role": "競爭同業",
+        "entities": [
+          "SK 海力士"
+        ],
+        "text": "[[SK 海力士]] — HBM/DRAM 記憶體競爭"
+      },
+      {
+        "role": "競爭同業",
+        "entities": [
+          "Apple"
+        ],
+        "text": "[[Apple]] — 智慧型手機競爭"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -46,7 +85,7 @@
   "source_text": {
     "business_summary_md": "Samsung Electronics Co., Ltd. (005930.KS，[[Samsung]]) 總部位於韓國水原市，為全球最大記憶體晶片 (DRAM, HBM3E, NAND Flash) 與智慧型手機巨頭，並擁有 Samsung Foundry 晶圓代工及 Samsung Display 面板事業群。公司在 HBM3E 先進記憶體與 3nm GAA 晶圓代工領域具備先進技術。",
     "supply_chain_md": "- **半導體設備與化學品:** [[ASML]] (EUV 獨家設備)、[[應用材料]]、[[Tokyo Electron]]、[[東進世美化]]\n- **關鍵材料與零組件:** [[信越]]、[[勝高]]、[[大立光]] (鏡頭夥伴)\n\n**中游:**\n- **Samsung** — DRAM/NAND 記憶體製造、Exynos 晶片設計、GAA 晶圓代工與 Galaxy 旗艦手機組裝\n\n**下游:**\n- **全球手持裝置與 CSP 客戶:** [[Apple]] (OLED 面板客戶)、[[NVIDIA]] (HBM 記憶體)、[[Microsoft]]、[[Amazon]]、[[Google]]\n- **廣大全球消費者:** 全球 Galaxy 智慧型手機、TV 與家電用戶",
-    "customers_suppliers_md": "### 主要客戶\n- - [[Apple]]、[[NVIDIA]]、[[Microsoft]]、[[Amazon]]、[[Google]]\n\n### 主要供應商\n- - [[ASML]]、[[應用材料]]、[[Tokyo Electron]]、[[勝高]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Apple]]、[[NVIDIA]] — 記憶體與面板客戶\n\n### 主要供應商\n- [[ASML]] — EUV 微影設備\n\n### 競爭同業\n- [[台積電]] — 晶圓代工競爭\n- [[SK 海力士]] — HBM/DRAM 記憶體競爭\n- [[Apple]] — 智慧型手機競爭",
     "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n\n### 估值指標\n\n基準日: 2026-07-30 | 股價: 全球市場交易 | TTM 截至: 近期\n\n#### 市場估值\n\n| 指標 | 數值 | 分子 | 分母 | 說明 |\n|:---|:---|:---|:---|:---|\n| P/E (TTM) | 14.50x | 股價 | TTM EPS | 股價 / TTM EPS |\n| P/S (TTM) | 1.39x | 市值 | TTM 營收 | 市值 / TTM 營收 |\n| EV/EBITDA (TTM) | 6.80x | 企業價值 | TTM EBITDA | 企業價值 / TTM EBITDA |\n\n#### Consensus 估值\n\nConsensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬數據\n\n| 指標 | Primary Consensus | 說明 | 信心 |\n|:---|:---|:---|:---|\n| 2026E EPS | 6,800 KRW | Forward P/E; current year | high |\n| 2026E Revenue | 340,000,000M KRW | Forward P/S; current year | medium |\n| 2027E EPS | 8,200 KRW | Forward P/E; next year | high |\n| 2027E Revenue | 385,000,000M KRW | Forward P/S; next year | medium |\n\n| 估值指標 | 數值 | 分子 | 分母 | 使用基礎 |\n|:---|:---|:---|:---|:---|\n| Forward P/E (Consensus) | 10.80x | 股價 | 2027E EPS | 股價 / consensus EPS |\n| Forward P/S (Consensus) | 1.15x | 市值 | 2027E Revenue | 市值 / consensus revenue |\n\n### 年度關鍵財務數據 (近 3 年)\n| | FY2025 | FY2024 | FY2023 |\n|:---|---:|---:|---:|\n| Revenue (韓元) | 302,230,000 | 258,935,000 | 302,231,000 |\n| Gross Margin (%) | 33.50 | 30.20 | 37.80 |\n| Net Income (韓元) | 35,580,000 | 15,487,000 | 55,654,000 |\n| EPS (韓元) | 5,230 | 2,275 | 8,180 |\n\n### 季度關鍵財務數據 (近 4 季)\n| | FY2026 Q1 | FY2025 Q4 | FY2025 Q3 | FY2025 Q2 |\n|:---|---:|---:|---:|---:|\n| Revenue (韓元) | 79,100,000 | 79,100,000 | 79,100,000 | 74,070,000 |\n| Gross Margin (%) | 34.20 | 33.50 | 33.00 | 32.10 |\n| Net Income (韓元) | 9,780,000 | 9,780,000 | 10,100,000 | 9,840,000 |\n| EPS (韓元) | 1,438 | 1,438 | 1,485 | 1,447 |\n\n### 營收平台佔比 (Revenue by Platform %)\n| 平台 / 事業群 | 最新佔比 | 趨勢與推動力 |\n|:---|:---|:---|\n| Memory (DRAM & HBM3E & NAND) | 61.20% (48,409B KRW) | HBM3E 8層/12層驗證與 Server DRAM 高速需求 |\n| MX Mobile & Display | 22.40% (17,718B KRW) | Galaxy S24/S25 旗艦手機與 OLED 顯示面板 |\n| Foundry & System LSI | 16.40% (12,973B KRW) | 3nm GAA 製程晶圓代工與 Exynos 2500 晶片 |\n"
   },
   "quality": {

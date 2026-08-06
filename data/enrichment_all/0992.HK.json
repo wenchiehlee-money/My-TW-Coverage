@@ -24,9 +24,42 @@
     "other": []
   },
   "relationships": {
-    "customers": [],
-    "suppliers": [],
-    "competitors": [],
+    "customers": [
+      {
+        "role": "主要客戶",
+        "entities": [],
+        "text": "全球企業客戶、教育機構與個人電腦消費者"
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "主要供應商",
+        "entities": [
+          "Intel",
+          "AMD",
+          "NVIDIA"
+        ],
+        "text": "[[Intel]]、[[AMD]]、[[NVIDIA]] — 處理器與 GPU"
+      },
+      {
+        "role": "主要供應商",
+        "entities": [
+          "仁寶",
+          "聯寶"
+        ],
+        "text": "[[仁寶]]、聯寶 — PC 與伺服器代工"
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "entities": [
+          "Dell",
+          "HP"
+        ],
+        "text": "[[Dell]]、[[HP]] — 個人電腦與伺服器市場競爭"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -46,7 +79,7 @@
   "source_text": {
     "business_summary_md": "聯想集團 (0992.HK，[[聯想集團]]) 總部位於中國北京與美國北卡羅來納州，為全球市佔率第一的個人電腦 (PC) 供應商，產品包含 ThinkPad、Yoga 及 Legion 電競系列。公司同時為全球主要伺服器與基礎架構提供商 (ISG)，提供 ThinkSystem 伺服器與 AI 算力基礎設施，並積極拓展 AI PC 換機潮。",
     "supply_chain_md": "**上游:**\n- **CPU / GPU 晶片:** [[Intel]]、[[AMD]]、[[NVIDIA]]、[[Qualcomm]]\n- **代工與組裝夥伴:** [[仁寶]]、[[廣達]]、[[緯創]]、[[英業達]]、[[鴻海]]\n- **記憶體與面板:** [[Samsung]]、[[SK 海力士]]、[[京東方]]\n\n**中游:**\n- **聯想集團 (Lenovo)** — 品牌行銷、系統產品設計、軟硬體整合與自建合資組裝廠 (如合肥聯寶)\n\n**下游:**\n- **全球企業與個人用戶:** 全球商用企業客戶、政府機構、教育市場與廣大消費性市場\n- **通路夥伴:** 全球經銷商 (Distributors)、系統整合商與直營電商",
-    "customers_suppliers_md": "### 主要客戶\n- - 全球大型企業、政府機構、教育市場與廣大個人消費者\n\n### 主要供應商\n- - [[Intel]]、[[AMD]]、[[NVIDIA]]、[[仁寶]]、[[廣達]]",
+    "customers_suppliers_md": "### 主要客戶\n- 全球企業客戶、教育機構與個人電腦消費者\n\n### 主要供應商\n- [[Intel]]、[[AMD]]、[[NVIDIA]] — 處理器與 GPU\n- [[仁寶]]、聯寶 — PC 與伺服器代工\n\n### 競爭同業\n- [[Dell]]、[[HP]] — 個人電腦與伺服器市場競爭",
     "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n\n### 估值指標\n\n基準日: 2026-07-30 | 股價: 全球市場交易 | TTM 截至: 近期\n\n#### 市場估值\n\n| 指標 | 數值 | 分子 | 分母 | 說明 |\n|:---|:---|:---|:---|:---|\n| P/E (TTM) | 11.20x | 股價 | TTM EPS | 股價 / TTM EPS |\n| P/S (TTM) | 0.28x | 市值 | TTM 營收 | 市值 / TTM 營收 |\n| EV/EBITDA (TTM) | 6.50x | 企業價值 | TTM EBITDA | 企業價值 / TTM EBITDA |\n\n#### Consensus 估值\n\nConsensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬數據\n\n| 指標 | Primary Consensus | 說明 | 信心 |\n|:---|:---|:---|:---|\n| 2026E EPS | 0.13 USD | Forward P/E; current year | high |\n| 2026E Revenue | 62,500M USD | Forward P/S; current year | medium |\n| 2027E EPS | 0.15 USD | Forward P/E; next year | high |\n| 2027E Revenue | 69,200M USD | Forward P/S; next year | medium |\n\n| 估值指標 | 數值 | 分子 | 分母 | 使用基礎 |\n|:---|:---|:---|:---|:---|\n| Forward P/E (Consensus) | 8.90x | 股價 | 2027E EPS | 股價 / consensus EPS |\n| Forward P/S (Consensus) | 0.24x | 市值 | 2027E Revenue | 市值 / consensus revenue |\n\n### 年度關鍵財務數據 (近 3 年)\n| | FY2025 | FY2024 | FY2023 |\n|:---|---:|---:|---:|\n| Revenue | 56,864.00 | 56,864.00 | 61,898.00 |\n| Gross Margin (%) | 17.20 | 17.20 | 17.00 |\n| Net Income | 1,011.00 | 1,011.00 | 1,608.00 |\n| EPS ($) | 0.08 | 0.08 | 0.13 |\n\n### 季度關鍵財務數據 (近 4 季)\n| | FY2026 Q1 | FY2025 Q4 | FY2025 Q3 | FY2025 Q2 |\n|:---|---:|---:|---:|---:|\n| Revenue | 15,447.00 | 13,800.00 | 15,720.00 | 14,440.00 |\n| Gross Margin (%) | 16.80 | 17.10 | 16.50 | 17.50 |\n| Net Income | 243.00 | 248.00 | 337.00 | 249.00 |\n| EPS ($) | 0.02 | 0.02 | 0.03 | 0.02 |\n\n### 營收平台佔比 (Revenue by Platform %)\n| 平台 / 事業群 | 最新佔比 | 趨勢與推動力 |\n|:---|:---|:---|\n| Intelligent Devices Group (IDG - PC & Mobile) | 74.50% ($11,508M) | ThinkPad / Legion / Moto 手機與 AI PC 出貨 |\n| Infrastructure Solutions Group (ISG - Servers) | 19.80% ($3,058M) | ThinkSystem AI 伺服器與水冷系統 |\n| Solutions & Services Group (SSG - IT Services) | 5.70% ($881M) | 企業 IT 運營服務與雲端託管服務 |\n"
   },
   "quality": {

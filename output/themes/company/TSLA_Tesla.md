@@ -20,7 +20,17 @@ Tesla, Inc. (TSLA，Tesla) 為全球電動車 (Model 3/Y, Cybertruck) 與清潔�
 - **全球終端車主與能源客戶:** 全球電動車車主、太陽能業主與大型電廠 Megapack 客戶
 
 ## 主要客戶及供應商
+### 主要客戶
+- **主要客戶:** 全球 Model Y, Model 3, Cybercab 與 Cybertruck 購車車主
+- **主要客戶:** Megapack 與 Powerwall 儲能系統企業與家庭客戶
 
+### 主要供應商
+- **主要供應商:** 松下、寧德時代 — 車用動力電池
+- **主要供應商:** [![乙盛-KY](https://img.shields.io/badge/%E4%B9%99%E7%9B%9B--KY-blue)](5243_%E4%B9%99%E7%9B%9B-KY.md)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_%E5%92%8C%E7%A2%A9.md) — 車身機構件與車用電子組裝
+
+### 競爭同業
+- **競爭同業:** BYD (比亞迪) — 全球電動車銷量競爭
+- **競爭同業:** Waymo — Robotaxi 自動駕駛計程車競爭
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -75,4 +85,78 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Energy Storage & Solar (Megapack) | 11.80% ($2,514M) | 儲能系統 Megapack 需求年增突破 120% |
 | Services & Other (Supercharging / FSD) | 6.70% ($1,427M) | 超級充電網路開與 FSD 訂閱收入 |
 
-Updated: 2026-08-06 15:52 CST
+### 競爭同業 Revenue/Profit/GM/PE
+
+Revenue/Profit Unit: `百萬台幣`
+P/E Range: `季內最低/平均/最高股價 / TTM EPS (當季 EPS + 最近 3 季 EPS)`; daily close 優先，歷史季度以 GoodInfo 月高低/季均價補齊
+
+#### Profile
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">TSLA</td><td style="text-align: left;">Tesla</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">BYD</td><td style="text-align: left;">BYD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">Waymo</td><td style="text-align: left;">Waymo</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### Revenue
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">TSLA</td><td style="text-align: left;">Tesla</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">BYD</td><td style="text-align: left;">BYD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">Waymo</td><td style="text-align: left;">Waymo</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### Profit
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">TSLA</td><td style="text-align: left;">Tesla</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">BYD</td><td style="text-align: left;">BYD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">Waymo</td><td style="text-align: left;">Waymo</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### GM
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">TSLA</td><td style="text-align: left;">Tesla</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">BYD</td><td style="text-align: left;">BYD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">Waymo</td><td style="text-align: left;">Waymo</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### P/E
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">TSLA</td><td style="text-align: left;">Tesla</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">BYD</td><td style="text-align: left;">BYD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">Waymo</td><td style="text-align: left;">Waymo</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+Updated: 2026-08-06 16:43 CST

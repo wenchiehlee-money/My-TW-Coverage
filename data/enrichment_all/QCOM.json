@@ -24,9 +24,48 @@
     "other": []
   },
   "relationships": {
-    "customers": [],
-    "suppliers": [],
-    "competitors": [],
+    "customers": [
+      {
+        "role": "主要客戶",
+        "entities": [
+          "Samsung",
+          "小米"
+        ],
+        "text": "[[Samsung]]、小米、OPPO、vivo — 旗艦 Android 手機 Snapdragon 晶片"
+      }
+    ],
+    "suppliers": [
+      {
+        "role": "主要供應商",
+        "entities": [
+          "台積電"
+        ],
+        "text": "[[台積電]] — 旗艦 Snapdragon 晶片晶圓代工"
+      },
+      {
+        "role": "主要供應商",
+        "entities": [
+          "日月光"
+        ],
+        "text": "[[日月光投控]] — 晶片封測夥伴"
+      }
+    ],
+    "competitors": [
+      {
+        "role": "競爭同業",
+        "entities": [
+          "聯發科"
+        ],
+        "text": "[[聯發科]] — 手機晶片全球龍頭爭霸"
+      },
+      {
+        "role": "競爭同業",
+        "entities": [
+          "Apple"
+        ],
+        "text": "[[Apple]] — 自研晶片競爭"
+      }
+    ],
     "peers": [],
     "substitutes": [],
     "other": []
@@ -46,7 +85,7 @@
   "source_text": {
     "business_summary_md": "Qualcomm (QCOM，[[Qualcomm]]) 高通為全球行動通訊晶片、5G Modem 與智慧型手持裝置 SoC (Snapdragon 系列) 龍頭。公司積極擴展 AI PC 處理器 (Snapdragon X Elite/Plus) 及車用數位座艙平台 (Snapdragon Auto)。",
     "supply_chain_md": "- **晶圓代工:** [[台積電]] (N4/N3)、[[Samsung Foundry]]\n- **封裝測試:** [[日月光投控]]、[[京元電子]]\n\n**中游:**\n- **Qualcomm** — Snapdragon 行動 CPU/GPU/NPU 設計與 CDMA/5G 專利授權 (QTL)\n\n**下游:**\n- **智慧型手機:** [[Apple]]、[[三星]]、[[小米]]、[[OPPO]]、[[vivo]]\n- **AI PC 品牌:** [[Dell]]、[[Lenovo]]、[[HP Inc.]]、[[華碩]]、[[宏碁]]",
-    "customers_suppliers_md": "### 主要客戶\n- - [[三星]]、[[小米]]、[[Apple]]、[[Dell]]、[[Lenovo]]\n\n### 主要供應商\n- - [[台積電]]、[[日月光投控]]、[[京元電子]]",
+    "customers_suppliers_md": "### 主要客戶\n- [[Samsung]]、小米、OPPO、vivo — 旗艦 Android 手機 Snapdragon 晶片\n\n### 主要供應商\n- [[台積電]] — 旗艦 Snapdragon 晶片晶圓代工\n- [[日月光投控]] — 晶片封測夥伴\n\n### 競爭同業\n- [[聯發科]] — 手機晶片全球龍頭爭霸\n- [[Apple]] — 自研晶片競爭",
     "financial_md": "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n\n### 估值指標\n\n基準日: 2026-07-30 | 股價: 全球市場交易 | TTM 截至: 近期\n\n#### 市場估值\n\n| 指標 | 數值 | 分子 | 分母 | 說明 |\n|:---|:---|:---|:---|:---|\n| P/E (TTM) | 19.50x | 股價 | TTM EPS | 股價 / TTM EPS |\n| P/S (TTM) | 5.00x | 市值 | TTM 營收 | 市值 / TTM 營收 |\n| EV/EBITDA (TTM) | 15.80x | 企業價值 | TTM EBITDA | 企業價值 / TTM EBITDA |\n\n#### Consensus 估值\n\nConsensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬數據\n\n| 指標 | Primary Consensus | 說明 | 信心 |\n|:---|:---|:---|:---|\n| 2026E EPS | 10.80 USD | Forward P/E; current year | high |\n| 2026E Revenue | 42,500M USD | Forward P/S; current year | medium |\n| 2027E EPS | 12.10 USD | Forward P/E; next year | high |\n| 2027E Revenue | 47,000M USD | Forward P/S; next year | medium |\n\n| 估值指標 | 數值 | 分子 | 分母 | 使用基礎 |\n|:---|:---|:---|:---|:---|\n| Forward P/E (Consensus) | 15.20x | 股價 | 2027E EPS | 股價 / consensus EPS |\n| Forward P/S (Consensus) | 4.30x | 市值 | 2027E Revenue | 市值 / consensus revenue |\n\n### 年度關鍵財務數據 (近 3 年)\n| | FY2025 | FY2024 | FY2023 |\n|:---|---:|---:|---:|\n| Revenue | 38,962.00 | 35,820.00 | 44,200.00 |\n| Gross Margin (%) | 56.20 | 55.80 | 57.50 |\n| Net Income | 10,142.00 | 7,228.00 | 12,986.00 |\n| EPS ($) | 9.02 | 6.42 | 11.52 |\n\n### 季度關鍵財務數據 (近 4 季)\n| | FY2026 Q1 | FY2025 Q4 | FY2025 Q3 | FY2025 Q2 |\n|:---|---:|---:|---:|---:|\n| Revenue | 10,244.00 | 10,244.00 | 9,393.00 | 9,389.00 |\n| Gross Margin (%) | 56.50 | 56.20 | 55.90 | 56.10 |\n| Net Income | 2,767.00 | 2,767.00 | 2,129.00 | 2,326.00 |\n| EPS ($) | 2.47 | 2.47 | 1.88 | 2.06 |\n\n### 營收平台佔比 (Revenue by Platform %)\n| 平台 / 事業群 | 最新佔比 | 趨勢與推動力 |\n|:---|:---|:---|\n| QCT Handsets (手機 SoC) | 68.50% ($7,017M) | 高階 5G 手機與旗艦 Snapdragon 8 Gen 3/4 出貨 |\n| QCT Auto & IoT (車用與聯網) | 19.80% ($2,028M) | Snapdragon Auto 座艙與 AI PC 晶片出貨 |\n| QTL Licensing (專利授權) | 11.70% ($1,199M) | 全球 3G/4G/5G 專利技術授權金 |\n"
   },
   "quality": {
