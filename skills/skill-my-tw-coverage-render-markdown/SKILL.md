@@ -77,12 +77,12 @@ git diff -- output/enrichment_all_rendered data/enrichment_all_render_compare.cs
 ## Rendering Rules
 
 - Render `業務簡介`, `供應鏈位置`, `主要客戶及供應商` (`主要客戶`, `主要供應商`, `競爭同業`), and `財務概況` in strict standardized section order matching 2382 Quanta report.
-- Standard Section Order:
+- Standard Section Order (Matching 2382 Quanta Standard):
   1. `# Ticker - CompanyName`
   2. `## 業務簡介`
   3. `## 供應鏈位置`
   4. `## 主要客戶及供應商` (`### 主要客戶`, `### 主要供應商`, `### 競爭同業`)
-  5. `## 財務概況` (`### 估值指標`, `### 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)`, `### 年度關鍵財務數據`, `### 季度關鍵財務數據`, `### 營收平台佔比`)
+  5. `## 財務概況` (`### 估值指標`, `### 年度關鍵財務數據`, `### 季度關鍵財務數據`, `### 營收平台佔比`, `### 競爭同業 Revenue/Profit/GM/PE`)
 - Keep relationship groups separate. Do not infer competitors from folder peers, chain peers, or same-industry fallbacks.
 - Only render competitors that exist in `relationships.competitors`.
 - Preserve explicit roles such as `晶圓代工競爭者`, `主要競爭對手`, `競爭同業`, or other curated labels from JSON.
