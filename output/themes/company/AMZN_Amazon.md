@@ -20,18 +20,25 @@ Amazon.com, Inc. (AMZN，Amazon) 為全球最大雲端服務提供商 (AWS) 與�
 - **全球企業與消費者:** 數百萬 AWS 雲端企業客戶、Prime 訂閱會員與全球線上購物者
 
 ## 主要客戶及供應商
+### 主要客戶
+- AWS 全球數百萬企業與新創雲端客戶
+- 全球數億 Amazon Prime 電商購物會員
+- 第三方賣家與數位廣告主
 
+### 主要供應商
+- [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (GPU)
+- [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) (AI/CPU)
+- [![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md) (CPU)
+- [![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md) (AWS 伺服器代工)
+- [![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md) (網通交換器)
 
-## 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)
+### 競爭同業
+- [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)
+- [![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)
+- [![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)
 
-| 股票代號 | 公司名稱 | 地區 | 角色定位 | TTM Revenue | TTM Net Profit | Gross Margin (%) | P/E (TTM) |
-|:---|:---|:---|:---|---:|---:|---:|---:|
-| AMZN | [![Amazon (AWS)](https://img.shields.io/badge/AMZN%20Amazon%20%28AWS%29-blue)](AMZN_Amazon.md) | US | 目標公司 | 574,785 M USD | 30,425 M USD | 47.0% | 41.5x |
-| MSFT | [![Microsoft](https://img.shields.io/badge/MSFT%20Microsoft-blue)](MSFT_Microsoft.md) | US | 雲端/AI 競業 | 245,122 M USD | 88,136 M USD | 69.8% | 35.8x |
-| GOOGL | [![Alphabet (Google)](https://img.shields.io/badge/GOOGL%20Alphabet%20%28Google%29-blue)](GOOGL_Google.md) | US | 雲端/AI 競業 | 307,394 M USD | 73,795 M USD | 56.9% | 24.2x |
-| META | [![Meta](https://img.shields.io/badge/META%20Meta-blue)](META_Meta.md) | US | 廣告/AI 競業 | 134,902 M USD | 39,098 M USD | 80.8% | 25.6x |
-
-## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
+## 財務概況
+(單位: 百萬台幣, 只有 Margin 為 %)
 
 ### 估值指標
 
@@ -60,6 +67,15 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 |:---|:---|:---|:---|:---|
 | Forward P/E (Consensus) | 31.20x | 股價 | 2027E EPS | 股價 / consensus EPS |
 | Forward P/S (Consensus) | 2.80x | 市值 | 2027E Revenue | 市值 / consensus revenue |
+
+### 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)
+
+| 股票代號 | 公司名稱 | 地區 | 角色定位 | TTM Revenue | TTM Net Profit | Gross Margin (%) | P/E (TTM) |
+|:---|:---|:---|:---|---:|---:|---:|---:|
+| AMZN | [![Amazon (AWS)](https://img.shields.io/badge/AMZN%20Amazon%20%28AWS%29-blue)](AMZN_Amazon.md) | US | 目標公司 | 574,785 M USD | 30,425 M USD | 47.0% | 41.5x |
+| MSFT | [![Microsoft](https://img.shields.io/badge/MSFT%20Microsoft-blue)](MSFT_Microsoft.md) | US | 雲端/AI 競業 | 245,122 M USD | 88,136 M USD | 69.8% | 35.8x |
+| GOOGL | [![Alphabet (Google)](https://img.shields.io/badge/GOOGL%20Alphabet%20%28Google%29-blue)](GOOGL_Google.md) | US | 雲端/AI 競業 | 307,394 M USD | 73,795 M USD | 56.9% | 24.2x |
+| META | [![Meta](https://img.shields.io/badge/META%20Meta-blue)](META_Meta.md) | US | 廣告/AI 競業 | 134,902 M USD | 39,098 M USD | 80.8% | 25.6x |
 
 ### 年度關鍵財務數據 (近 3 年)
 | | FY2025 | FY2024 | FY2023 |
