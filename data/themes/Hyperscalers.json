@@ -1,0 +1,113 @@
+{
+  "tag": "Hyperscalers",
+  "name": "Hyperscalers (雲端巨頭 CSP 供應鏈) 主題",
+  "desc": "全球前五大雲端服務供應商 (AWS、Microsoft Azure、Google Cloud、Meta、Oracle) AI 與雲端資料中心基礎設施代工與硬體供應鏈。",
+  "category": "AI / 資料中心",
+  "order": 95,
+  "index_categories": [
+    "AI / 資料中心"
+  ],
+  "id": "theme.hyperscalers",
+  "type": "theme",
+  "aliases": [
+    "Hyperscalers",
+    "CSP",
+    "雲端巨頭",
+    "雲端服務供應商"
+  ],
+  "related_theme_tags": [
+    "AI 伺服器",
+    "資料中心",
+    "NVIDIA",
+    "Apple",
+    "Tesla"
+  ],
+  "key_metrics": [
+    {
+      "name": "Top 5 CSP 總資本支出 (CAPEX)",
+      "desc": "AWS, MSFT, GOOGL, META, ORCL 季度 AI 機房 Capex 成長率。"
+    },
+    {
+      "name": "ASIC / 自研 AI 晶片出貨占比",
+      "desc": "Google TPU, Amazon Trainium/Inferentia, Meta MTIA, MSFT Maia 滲透率。"
+    },
+    {
+      "name": "水冷/液冷機櫃 (Liquid Cooling Rack) 採用率",
+      "desc": "包含 NVL72/NVL36 等 100kW+ 高功耗機櫃水冷板與 CDU 拉貨。"
+    }
+  ],
+  "competitive_groups": [
+    {
+      "name": "美國五大超大規模雲端巨頭 (CSP 母廠)",
+      "tickers": [
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "META"
+      ]
+    },
+    {
+      "name": "CSP 主力 AI 伺服器/機櫃 ODM 代工",
+      "tickers": [
+        "6669",
+        "2382",
+        "2317",
+        "3231",
+        "2356",
+        "3706",
+        "4938",
+        "6933"
+      ]
+    },
+    {
+      "name": "ASIC 自研 AI 晶片設計服務 (IP / ASIC)",
+      "tickers": [
+        "3661",
+        "3443",
+        "3035",
+        "6643",
+        "2454",
+        "MRVL"
+      ]
+    },
+    {
+      "name": "CSP 機房高階散熱與水冷模組",
+      "tickers": [
+        "3017",
+        "3324",
+        "3653",
+        "2421",
+        "6230",
+        "4545"
+      ]
+    },
+    {
+      "name": "CSP 資料中心高功率電源與 PDU",
+      "tickers": [
+        "2308",
+        "3015",
+        "2301",
+        "6412",
+        "6409",
+        "3296"
+      ]
+    },
+    {
+      "name": "CSP 高速網通交換器與光收發模組 (400G/800G/1.6T)",
+      "tickers": [
+        "2345",
+        "4977",
+        "3163",
+        "4908",
+        "4979",
+        "3450",
+        "AVGO"
+      ]
+    }
+  ],
+  "render": {
+    "output_filename": "Hyperscalers.md",
+    "badge_label": "Hyperscalers",
+    "badge_color": "green"
+  }
+}
