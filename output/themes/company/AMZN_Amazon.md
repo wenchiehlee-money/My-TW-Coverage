@@ -22,6 +22,15 @@ Amazon.com, Inc. (AMZN，Amazon) 為全球最大雲端服務提供商 (AWS) 與�
 ## 主要客戶及供應商
 
 
+## 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)
+
+| 股票代號 | 公司名稱 | 地區 | 角色定位 | TTM Revenue | TTM Net Profit | Gross Margin (%) | P/E (TTM) |
+|:---|:---|:---|:---|---:|---:|---:|---:|
+| AMZN | [![Amazon (AWS)](https://img.shields.io/badge/AMZN%20Amazon%20%28AWS%29-blue)](AMZN_Amazon.md) | US | 目標公司 | 574,785 M USD | 30,425 M USD | 47.0% | 41.5x |
+| MSFT | [![Microsoft](https://img.shields.io/badge/MSFT%20Microsoft-blue)](MSFT_Microsoft.md) | US | 雲端/AI 競業 | 245,122 M USD | 88,136 M USD | 69.8% | 35.8x |
+| GOOGL | [![Alphabet (Google)](https://img.shields.io/badge/GOOGL%20Alphabet%20%28Google%29-blue)](GOOGL_Google.md) | US | 雲端/AI 競業 | 307,394 M USD | 73,795 M USD | 56.9% | 24.2x |
+| META | [![Meta](https://img.shields.io/badge/META%20Meta-blue)](META_Meta.md) | US | 廣告/AI 競業 | 134,902 M USD | 39,098 M USD | 80.8% | 25.6x |
+
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
 ### 估值指標
