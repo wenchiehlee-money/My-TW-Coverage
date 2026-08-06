@@ -76,7 +76,13 @@ git diff -- output/enrichment_all_rendered data/enrichment_all_render_compare.cs
 
 ## Rendering Rules
 
-- Render `業務簡介`, `供應鏈位置`, `主要客戶`, `主要供應商`, `競爭同業`, `同業參照`, `替代關係`, and competitive-position sections from JSON.
+- Render `業務簡介`, `供應鏈位置`, `主要客戶及供應商` (`主要客戶`, `主要供應商`, `競爭同業`), and `財務概況` in strict standardized section order matching 2382 Quanta report.
+- Standard Section Order:
+  1. `# Ticker - CompanyName`
+  2. `## 業務簡介`
+  3. `## 供應鏈位置`
+  4. `## 主要客戶及供應商` (`### 主要客戶`, `### 主要供應商`, `### 競爭同業`)
+  5. `## 財務概況` (`### 估值指標`, `### 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)`, `### 年度關鍵財務數據`, `### 季度關鍵財務數據`, `### 營收平台佔比`)
 - Keep relationship groups separate. Do not infer competitors from folder peers, chain peers, or same-industry fallbacks.
 - Only render competitors that exist in `relationships.competitors`.
 - Preserve explicit roles such as `晶圓代工競爭者`, `主要競爭對手`, `競爭同業`, or other curated labels from JSON.
@@ -87,7 +93,7 @@ git diff -- output/enrichment_all_rendered data/enrichment_all_render_compare.cs
 - In `營收平台佔比` cells, include `percentage (revenue amount)` when a matching period revenue total exists; amounts are 百萬台幣. Prefer financial table revenue totals, then fall back to monthly revenue summed from GoodInfo Analyzer.
 - Render `### 估值指標` from `financials.valuation` when present. Show market valuation and consensus valuation separately. Consensus revenue in My-TW-Coverage JSON and Markdown must be `百萬台幣`, matching the `財務概況` unit.
 - Do not average Yahoo.Finance and FactSet consensus. Use Yahoo.Finance as primary and FactSet as cross-check / dispersion / target-price context. Downgrade confidence when cross-source differences are large.
-- Insert `### 競爭同業 Revenue/Profit/GM` inside `## 財務概況` when competitors from JSON can be resolved to financial data. Place it after `營收平台佔比` when present, otherwise after `季度關鍵財務數據`.
+- Insert `### 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)` inside `## 財務概況` right under `### 估值指標` when competitors from JSON can be resolved to financial data.
 - Insert a latest-period `主要平台` sentence under the downstream supply-chain section from `company_segment_weights.csv` for tickers with active rows, unless the source already has `主要平台`.
 - Render annotator badges only from reviewed `annotations[]` entries. Do not infer badges from headings or keywords.
 - First-wave annotator badge scope is limited to `主要平台`, `主要客戶`, `競爭同業`, and `估值/財務敘述` contexts.
