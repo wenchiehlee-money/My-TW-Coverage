@@ -699,10 +699,6 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             e for e in entries
             if e.get("role") in structured_roles or str(e.get("ticker") or "") not in structured_tickers
         ]
-    lines.append(f"**涵蓋公司數:** {len({e['ticker'] for e in entries})}")
-    if has_theme_supply_chain:
-        source = str(theme_def.get("theme_supply_chain", {}).get("taxonomy_source") or "../biztrends.TW/data/ic.tpex.org.tw/raw_SupplyChain_*.csv")
-        lines.append(f"**IC 產業鏈資料來源 (部分公司):** `{source}`")
     lines.append("")
 
     related_parts: list[str] = []

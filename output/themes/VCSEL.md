@@ -2,7 +2,6 @@
 
 > 3D 感測、光通訊及 LiDAR 核心光源元件
 
-**涵蓋公司數:** 10
 
 ## 關鍵關注指標
 - **iPhone 3D 感測與 LiDAR 採用率:** 智慧型手機 Face ID 與後鏡頭 LiDAR VCSEL 用量。

@@ -2,7 +2,6 @@
 
 > 以 NVIDIA GPU 與 AI 平台為核心的台灣供應鏈成員，不代表 NVIDIA 公司本身。
 
-**涵蓋公司數:** 115
 
 ## 關鍵關注指標
 - **NVIDIA 季度數據中心營收 (Data Center Revenue):** GPU/NVLink 產品線季度營收成長動能。

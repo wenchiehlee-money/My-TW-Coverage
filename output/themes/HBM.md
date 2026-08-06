@@ -2,7 +2,6 @@
 
 > High Bandwidth Memory，AI 加速器必備的高速堆疊記憶體
 
-**涵蓋公司數:** 16
 
 ## 關鍵關注指標
 - **HBM3e / HBM4 驗證與量產時程:** 原廠 (SK Hynix, Samsung, Micron) 通過 AI 晶片龍頭認證。

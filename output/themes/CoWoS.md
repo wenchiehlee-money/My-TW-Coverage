@@ -2,7 +2,6 @@
 
 > 台積電 Chip-on-Wafer-on-Substrate 2.5D 先進封裝技術，AI 晶片關鍵製程
 
-**涵蓋公司數:** 39
 
 ## 關鍵關注指標
 - **台積電 CoWoS 月產能 (kpm):** CoWoS-S / CoWoS-L 月產能擴充進度與設備交期。
