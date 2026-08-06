@@ -10,7 +10,13 @@
 
 ---
 
-## 相關公司 (72)
+## 相關公司 (76)
+
+**美國五大超大規模雲端巨頭 (CSP 母廠)** (4)
+- [![MSFT Microsoft](https://img.shields.io/badge/MSFT%20Microsoft-blue)](company/MSFT_Microsoft.md) (市值: 3,150,000 百萬美元)
+- [![GOOGL Google](https://img.shields.io/badge/GOOGL%20Google-blue)](company/GOOGL_Google.md) (市值: 2,150,000 百萬美元)
+- [![AMZN Amazon](https://img.shields.io/badge/AMZN%20Amazon-blue)](company/AMZN_Amazon.md) (市值: 1,980,000 百萬美元)
+- [![META Meta](https://img.shields.io/badge/META%20Meta-blue)](company/META_Meta.md) (市值: 1,250,000 百萬美元)
 
 **CSP 主力 AI 伺服器/機櫃 ODM 代工** (7)
 - [![2317 鴻海](https://img.shields.io/badge/2317%20%E9%B4%BB%E6%B5%B7-blue)](company/2317_%E9%B4%BB%E6%B5%B7.md) (市值: 3,318,455 百萬台幣)
