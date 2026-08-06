@@ -537,7 +537,7 @@ def insert_competitor_financial_section(financial: str, competitor_section: str)
 
     reordered: list[str] = []
     inserted = False
-    preferred_after = PLATFORM_REVENUE_HEADING if any(h == PLATFORM_REVENUE_HEADING for h, _section in sections) else QUARTERLY_HEADING
+    preferred_after = "### 估值指標" if any(h == "### 估值指標" for h, _section in sections) else (PLATFORM_REVENUE_HEADING if any(h == PLATFORM_REVENUE_HEADING for h, _section in sections) else QUARTERLY_HEADING)
     for h, section in sections:
         reordered.append(section)
         if h == preferred_after:

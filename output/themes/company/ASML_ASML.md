@@ -16,7 +16,7 @@ ASML (ASML，ASML) 阿斯麥總部位於荷蘭，為全球獨家光刻機 (Litho
 - **ASML** — 高光學精度微影曝光系統研發、組裝與光學路徑調校
 
 **下游:**
-- **先進邏輯晶圓廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[![Intel Foundry](https://img.shields.io/badge/Intel%2520Foundry-blue)](INTC_Intel Foundry.md)、[![Samsung Foundry](https://img.shields.io/badge/Samsung%2520Foundry-blue)](005930.KS_Samsung Foundry.md)、[![中芯國際](https://img.shields.io/badge/%E4%B8%AD%E8%8A%AF%E5%9C%8B%E9%9A%9B-blue)](0981.HK_中芯國際.md)
+- **先進邏輯晶圓廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[[Intel Foundry]]、[[Samsung Foundry]]、[![中芯國際](https://img.shields.io/badge/%E4%B8%AD%E8%8A%AF%E5%9C%8B%E9%9A%9B-blue)](0981.HK_%E4%B8%AD%E8%8A%AF%E5%9C%8B%E9%9A%9B.md)
 - **記憶體巨頭:** [[SK 海力士]]、[![Micron](https://img.shields.io/badge/Micron-blue)](MU_Micron.md)、[![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)
 
 ## 主要客戶及供應商
@@ -75,4 +75,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | DUV Systems (ArFi / ArF / KrF) | 33.10% (€2,472M) | 深紫外光浸潤式與乾式光刻機 |
 | Installed Base Management (維修與升級) | 14.50% (€1,082M) | 全球已安裝光刻機維護與軟硬體升級服務 |
 
-Updated: 2026-08-05 21:14 CST
+Updated: 2026-08-06 15:52 CST

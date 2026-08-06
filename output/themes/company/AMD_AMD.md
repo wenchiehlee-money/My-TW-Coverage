@@ -77,4 +77,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Client (Ryzen PC CPU) | 31.20% ($2,320M) | Ryzen 9000 & AI PC 換機潮 |
 | Gaming & Embedded | 20.30% ($1,511M) | 家用主機晶片與 Xilinx 工控 FPGA |
 
-Updated: 2026-08-05 21:14 CST
+Updated: 2026-08-06 15:52 CST

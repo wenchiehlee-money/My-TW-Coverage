@@ -76,4 +76,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Semiconductor Solutions (AI ASIC & Switches) | 58.20% ($8,179M) | Custom AI ASIC (Google TPU) 與 Tomahawk 網通晶片 |
 | Infrastructure Software (VMware & Symantec) | 41.80% ($5,875M) | VMware 企業私有雲與授權軟體收入 |
 
-Updated: 2026-08-05 21:14 CST
+Updated: 2026-08-06 15:52 CST

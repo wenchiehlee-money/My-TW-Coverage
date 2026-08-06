@@ -10,16 +10,16 @@ Intel Corporation (INTC，Intel) 為全球個人電腦 x86 處理器 (Core 系�
 
 ## 供應鏈位置
 **上游:**
-- **晶圓代工與先進封裝外包:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (N3/N4 代工 Lunar Lake / Arrow Lake 之 Compute Tile)
+- **晶圓代工與先進封裝外包:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N3/N4 代工 Lunar Lake / Arrow Lake 之 Compute Tile)
 - **半導體設備與關鍵組件:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md) (High-NA EUV 首批客戶)、[[應用材料]]、[[Lam Research]]
-- **載板與散熱:** [![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](3037_欣興.md)、[![南電](https://img.shields.io/badge/%E5%8D%97%E9%9B%BB-blue)](8046_南電.md)、[![健策](https://img.shields.io/badge/%E5%81%A5%E7%AD%96-blue)](3653_健策.md)
+- **載板與散熱:** [![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](3037_%E6%AC%A3%E8%88%88.md)、[![南電](https://img.shields.io/badge/%E5%8D%97%E9%9B%BB-blue)](8046_%E5%8D%97%E9%9B%BB.md)、[![健策](https://img.shields.io/badge/%E5%81%A5%E7%AD%96-blue)](3653_%E5%81%A5%E7%AD%96.md)
 
 **中游:**
 - **Intel** — x86 架構設計、Core / Xeon 處理器研發、Foveros 3D 封裝與自有晶圓廠製造
 
 **下游:**
-- **全球 PC 品牌巨頭:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[[Lenovo]]、[[HP]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_華碩.md)、[![宏碁](https://img.shields.io/badge/%E5%AE%8F%E7%A2%81-blue)](2353_宏碁.md)
-- **伺服器與 CSP:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_英業達.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)
+- **全球 PC 品牌巨頭:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[[Lenovo]]、[![HPE](https://img.shields.io/badge/HPE-blue)](HPE_HPE.md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)、[![宏碁](https://img.shields.io/badge/%E5%AE%8F%E7%A2%81-blue)](2353_%E5%AE%8F%E7%A2%81.md)
+- **伺服器與 CSP:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)
 
 ## 主要客戶及供應商
 
@@ -76,3 +76,5 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Client Computing Group (CCG - PC CPU) | 55.40% ($7,359M) | Core Ultra (Lunar Lake/Arrow Lake) AI PC 晶片 |
 | Data Center and AI (DCAI - Xeon) | 31.20% ($4,144M) | Xeon 6 (Granite Rapids / Sierra Forest) 伺服器 CPU |
 | Network and Edge (NEX) & Mobileye | 13.40% ($1,781M) | 網通交換晶片與 Mobileye 智駕方案 |
+
+Updated: 2026-08-06 15:52 CST

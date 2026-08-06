@@ -10,35 +10,20 @@ Amazon.com, Inc. (AMZN，Amazon) 為全球最大雲端服務提供商 (AWS) 與�
 
 ## 供應鏈位置
 - **AI 伺服器與晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (H100/B200)、[![Broadcom](https://img.shields.io/badge/Broadcom-blue)](AVGO_Broadcom.md) (Custom AI ASIC Partner)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)
-- **伺服器代工與網通夥伴:** [![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md) (AWS 主要代工廠)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md)
-- **散熱與電源:** [![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)、[![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)
+- **伺服器代工與網通夥伴:** [![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_%E7%B7%AF%E7%A9%8E.md) (AWS 主要代工廠)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_%E6%99%BA%E9%82%A6.md)
+- **散熱與電源:** [![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_%E5%A5%87%E9%8B%90.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_%E9%9B%99%E9%B4%BB.md)、[![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md)
 
 **中游:**
 - **Amazon** — AWS 雲端運算基礎設施、Trainium AI 晶片研發、Prime 電商物流與廣告平台
 
 **下游:**
+- **主要平台:** North America (~57.9262%), AWS (~21.0369%), International (~21.0369%).
 - **全球企業與消費者:** 數百萬 AWS 雲端企業客戶、Prime 訂閱會員與全球線上購物者
 
 ## 主要客戶及供應商
-### 主要客戶
-- AWS 全球數百萬企業與新創雲端客戶
-- 全球數億 Amazon Prime 電商購物會員
-- 第三方賣家與數位廣告主
 
-### 主要供應商
-- [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (GPU)
-- [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) (AI/CPU)
-- [![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md) (CPU)
-- [![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_緯穎.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md) (AWS 伺服器代工)
-- [![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md) (網通交換器)
 
-### 競爭同業
-- [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)
-- [![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)
-- [![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)
-
-## 財務概況
-(單位: 百萬台幣, 只有 Margin 為 %)
+## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
 ### 估值指標
 
@@ -68,15 +53,6 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Forward P/E (Consensus) | 31.20x | 股價 | 2027E EPS | 股價 / consensus EPS |
 | Forward P/S (Consensus) | 2.80x | 市值 | 2027E Revenue | 市值 / consensus revenue |
 
-### 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)
-
-| 股票代號 | 公司名稱 | 地區 | 角色定位 | TTM Revenue | TTM Net Profit | Gross Margin (%) | P/E (TTM) |
-|:---|:---|:---|:---|---:|---:|---:|---:|
-| AMZN | [![Amazon (AWS)](https://img.shields.io/badge/AMZN%20Amazon%20%28AWS%29-blue)](AMZN_Amazon.md) | US | 目標公司 | 574,785 M USD | 30,425 M USD | 47.0% | 41.5x |
-| MSFT | [![Microsoft](https://img.shields.io/badge/MSFT%20Microsoft-blue)](MSFT_Microsoft.md) | US | 雲端/AI 競業 | 245,122 M USD | 88,136 M USD | 69.8% | 35.8x |
-| GOOGL | [![Alphabet (Google)](https://img.shields.io/badge/GOOGL%20Alphabet%20%28Google%29-blue)](GOOGL_Google.md) | US | 雲端/AI 競業 | 307,394 M USD | 73,795 M USD | 56.9% | 24.2x |
-| META | [![Meta](https://img.shields.io/badge/META%20Meta-blue)](META_Meta.md) | US | 廣告/AI 競業 | 134,902 M USD | 39,098 M USD | 80.8% | 25.6x |
-
 ### 年度關鍵財務數據 (近 3 年)
 | | FY2025 | FY2024 | FY2023 |
 |:---|---:|---:|---:|
@@ -99,3 +75,5 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | North America E-Commerce | 60.50% ($86,704M) | 北美線上零售、Prime 服務與第三方賣家收益 |
 | Amazon Web Services (AWS 雲端) | 17.80% ($25,510M) | AWS 雲端運算與 Trainium AI 晶片出租，貢獻 >60% 營利 |
 | International E-Commerce | 21.70% ($31,099M) | 歐洲、日本及新興市場跨境電商業務 |
+
+Updated: 2026-08-06 15:52 CST

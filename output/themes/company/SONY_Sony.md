@@ -10,9 +10,9 @@ Sony Group Corporation (SONY，Sony) 總部位於日本東京，為全球跨國�
 
 ## 供應鏈位置
 **上游:**
-- **晶圓代工與合資廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (JASM 熊本廠合作夥伴)、自有熊本/長崎 CIS 晶圓廠
-- **遊戲機與電子零組件代工:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md) (PS5 主機組裝)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_和碩.md)
-- **光學與顯示元件:** [[採鈺]]、[![大立光](https://img.shields.io/badge/%E5%A4%A7%E7%AB%8B%E5%85%89-blue)](3008_大立光.md)
+- **晶圓代工與合資廠:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (JASM 熊本廠合作夥伴)、自有熊本/長崎 CIS 晶圓廠
+- **遊戲機與電子零組件代工:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) (PS5 主機組裝)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_%E5%92%8C%E7%A2%A9.md)
+- **光學與顯示元件:** [[採鈺]]、[![大立光](https://img.shields.io/badge/%E5%A4%A7%E7%AB%8B%E5%85%89-blue)](3008_%E5%A4%A7%E7%AB%8B%E5%85%89.md)
 
 **中游:**
 - **Sony** — CMOS 影像感測器研發製造、PlayStation 主機架構、遊戲開發工作室 (PlayStation Studios) 與影音娛樂內容製作
@@ -77,3 +77,5 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Imaging & Sensing Solutions (I&SS - CIS) | 19.80% ($4,257M) | 高階智慧型手機 (iPhone) 用 50MP+ CMOS 影像感測器 |
 | Entertainment, Technology & Services (ET&S) | 18.20% ($3,913M) | Bravia 電視、相機與耳機音響 |
 | Music & Pictures (音樂與電影娛樂) | 28.50% ($6,127M) | 影音內容發行、音樂版權與串流平台授權 |
+
+Updated: 2026-08-06 15:52 CST

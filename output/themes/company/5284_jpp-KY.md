@@ -6,7 +6,7 @@
 **市值:** 13,963 百萬台幣
 **企業價值:** 14,663 百萬台幣
 
-經寶精密控股（jpp-KY, 5284）成立於1998年，總部位於泰國，為泰國最大的精密金屬鈑金加工廠。專注於「少量多樣、高客製化」的利基市場。產品應用領域涵蓋航太（駕駛艙航電機構件）、通訊（[![伺服器](https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_伺服器.md)機櫃、4G/[![5G](https://img.shields.io/badge/5G-green)](../themes/5G.md) 基地台機殼）、電子、綠能及醫療設備。近年受惠於[[AI[[伺服器]]]]需求，成功切入液冷[[散熱]]機櫃及分歧管等關鍵組件供應鏈。公司亦透過併購法國精密加工廠，深入空中巴士（Airbus）供應鏈。
+經寶精密控股（jpp-KY, 5284）成立於1998年，總部位於泰國，為泰國最大的精密金屬鈑金加工廠。專注於「少量多樣、高客製化」的利基市場。產品應用領域涵蓋航太（駕駛艙航電機構件）、通訊（[[伺服器]]機櫃、4G/[![5G](https://img.shields.io/badge/5G-green)](../themes/5G.md) 基地台機殼）、電子、綠能及醫療設備。近年受惠於[[AI[[伺服器]]]]需求，成功切入液冷[[散熱]]機櫃及分歧管等關鍵組件供應鏈。公司亦透過併購法國精密加工廠，深入空中巴士（Airbus）供應鏈。
 
 ## 供應鏈位置
 jpp-KY位於金屬機構件供應鏈的中游製造端，具備從設計、雷射切割、沖壓、焊接、表面處理到組裝的垂直整合能力。
@@ -14,7 +14,7 @@ jpp-KY位於金屬機構件供應鏈的中游製造端，具備從設計、雷�
 - **中游:** jpp-KY（經寶精密）及其子公司（如法國ADB, LUTEC, Spem Aero, ADE）。
 - **下游:** 
     - **航太:** 空中巴士（Airbus）、Thales、Safran。
-    - **通訊/AI:** [[雲端服務]]供應商（[[CSP]]，如[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md), [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md), AWS）、[![伺服器](https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_伺服器.md)品牌廠、電信設備商。
+    - **通訊/AI:** [[雲端服務]]供應商（[![Hyperscalers](https://img.shields.io/badge/Hyperscalers-green)](../themes/Hyperscalers.md)，如 [![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md), [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md), AWS）、[[伺服器]]品牌廠、電信設備商。
     - **其他:** 飲料販賣機運營商（TaoBin）、醫療設備廠。
 
 ## 主要客戶及供應商
@@ -25,7 +25,7 @@ jpp-KY位於金屬機構件供應鏈的中游製造端，具備從設計、雷�
 - **主要供應商:** 金屬材料供應商（多為國際或當地合格供應商）。
 
 ## 核心競爭力
-- 經寶精密控股（jpp-KY, 5284）成立於1998年，總部位於泰國，為泰國最大的精密金屬鈑金加工廠。專注於「少量多樣、高客製化」的利基市場。產品應用領域涵蓋航太（駕駛艙航電機構件）、通訊（[![伺服器](https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_伺服器.md)機櫃、4G/[![5G](https://img.shields.io/badge/5G-green)](../themes/5G.md) 基地台機殼）、電子、綠能及醫療設備。近年受惠於[[AI[[伺服器]]]]需求，成功切入液冷[[散熱]]機櫃及分歧管等關鍵組件供應鏈。公司亦透過併購法國精密加工廠，深入空中巴士（Airbus）供應鏈。
+- 經寶精密控股（jpp-KY, 5284）成立於1998年，總部位於泰國，為泰國最大的精密金屬鈑金加工廠。專注於「少量多樣、高客製化」的利基市場。產品應用領域涵蓋航太（駕駛艙航電機構件）、通訊（[[伺服器]]機櫃、4G/[![5G](https://img.shields.io/badge/5G-green)](../themes/5G.md) 基地台機殼）、電子、綠能及醫療設備。近年受惠於[[AI[[伺服器]]]]需求，成功切入液冷[[散熱]]機櫃及分歧管等關鍵組件供應鏈。公司亦透過併購法國精密加工廠，深入空中巴士（Airbus）供應鏈。
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -78,4 +78,4 @@ jpp-KY位於金屬機構件供應鏈的中游製造端，具備從設計、雷�
 | Financing Cash Flow     |       -19.54 |      -121.37 |      -186.91 |       174.02 |
 | CAPEX                   |      -206.35 |       -77.49 |      -149.77 |       -83.51 |
 
-Updated: 2026-08-05 21:14 CST
+Updated: 2026-08-06 15:52 CST

@@ -6,7 +6,7 @@
 **市值:** N/A 百萬台幣
 **企業價值:** N/A 百萬台幣
 
-Dell Technologies Inc. (DELL，Dell) 總部位於美國德州德克薩斯州，為全球領先的個人電腦、[![伺服器](https://img.shields.io/badge/%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_伺服器.md)、儲存設備及企業 IT 基礎架構解決方案供應商。公司主要營運兩大事業群：基礎架構解決方案事業群 (ISG)，包含 [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (如 PowerEdge XE9680/XE9680L)、儲存設備及網路設備；以及客戶解決方案事業群 (CSG)，包含商用及消費型桌上型電腦、筆記型電腦 (Latitude, XPS, Alienware) 與顯示器。Dell 擁有全球龐大的企業級通路與一站式 IT 服務整合能力。
+Dell Technologies Inc. (DELL，Dell) 總部位於美國德州德克薩斯州，為全球領先的個人電腦、[[伺服器]]、儲存設備及企業 IT 基礎架構解決方案供應商。公司主要營運兩大事業群：基礎架構解決方案事業群 (ISG)，包含 [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) (如 PowerEdge XE9680/XE9680L)、儲存設備及網路設備；以及客戶解決方案事業群 (CSG)，包含商用及消費型桌上型電腦、筆記型電腦 (Latitude, XPS, Alienware) 與顯示器。Dell 擁有全球龐大的企業級通路與一站式 IT 服務整合能力。
 
 ## 供應鏈位置
 **上游 (關鍵零組件與晶片):**
@@ -100,4 +100,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 
 Updated: 2026-08-05 21:06 CST
 
-Updated: 2026-08-05 21:14 CST
+Updated: 2026-08-06 15:52 CST

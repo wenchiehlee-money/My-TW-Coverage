@@ -10,14 +10,15 @@ Micron Technology, Inc. (MU，Micron) 為美國記憶體晶片巨頭，全球前
 
 ## 供應鏈位置
 - **半導體設備與材料:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md) (EUV 曝光機)、[[應用材料]]、[[Lam Research]]、[[KLA]]
-- **矽晶圓:** [![環球晶](https://img.shields.io/badge/%E7%92%B0%E7%90%83%E6%99%B6-blue)](6488_環球晶.md)、[[信越]]、[[勝高]]
+- **矽晶圓:** [![環球晶](https://img.shields.io/badge/%E7%92%B0%E7%90%83%E6%99%B6-blue)](6488_%E7%92%B0%E7%90%83%E6%99%B6.md)、[[信越]]、[[勝高]]
 
 **中游:**
 - **Micron** — 1β/1γ 奈米 DRAM 製程研發、HBM3E 先進封裝堆疊與 232層 NAND Flash 製造
 
 **下游:**
-- **AI 算力與 Server 客戶:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (HBM3E 採購大廠)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)
-- **智慧型手機與 PC OEM:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[[小米]]、[[Lenovo]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_華碩.md)
+- **主要平台:** Cloud Memory (~33.2199%), Core Data Center (~27.8035%), Mobile and Client (~27.7963%), Automotive and Edge (~11.1803%).
+- **AI 算力與 Server 客戶:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (HBM3E 採購大廠)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)
+- **智慧型手機與 PC OEM:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[[小米]]、[[Lenovo]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)
 
 ## 主要客戶及供應商
 
@@ -74,3 +75,5 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Compute and Networking (Server & AI HBM3E) | 52.40% ($4,061M) | HBM3E 出貨量激發強勁營收與毛利增長 |
 | Mobile Business Unit (Smartphone DRAM/NAND) | 21.50% ($1,666M) | 旗艦手機 DRAM 與容量升級 |
 | Storage & Embedded (SSD & Industrial) | 26.10% ($2,023M) | 企業級 PCIe Gen5 SSD 與車用工控記憶體 |
+
+Updated: 2026-08-06 15:52 CST

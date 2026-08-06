@@ -11,13 +11,14 @@ Hewlett Packard Enterprise (HPE，HPE) 總部位於美國德州休士頓，為�
 ## 供應鏈位置
 **上游:**
 - **CPU / GPU 晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (H100/B200)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) (EPYC/Instinct MI300)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md)
-- **伺服器與網通 ODM 代工:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_緯創.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_英業達.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_智邦.md)
-- **電源與水冷散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_台達電.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_奇鋐.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_雙鴻.md)
+- **伺服器與網通 ODM 代工:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_%E6%99%BA%E9%82%A6.md)
+- **電源與水冷散熱:** [![台達電](https://img.shields.io/badge/%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md)、[![奇鋐](https://img.shields.io/badge/%E5%A5%87%E9%8B%90-blue)](3017_%E5%A5%87%E9%8B%90.md)、[![雙鴻](https://img.shields.io/badge/%E9%9B%99%E9%B4%BB-blue)](3324_%E9%9B%99%E9%B4%BB.md)
 
 **中游:**
 - **HPE** — 企業伺服器架構設計、GreenLake 混合雲訂閱平台與 Cray 超級電腦整合
 
 **下游:**
+- **主要平台:** Server (~46.9288%), Networking (~29.2001%), Hybrid Cloud (~14.6001%), Financial Services (~9.271%).
 - **全球企業與 Tier-2/3 CSP:** 全球大型企業、金融機構、國防科研機構與雲端服務提供商
 - **經銷與 SI 夥伴:** 全球系統整合商 (SI)、經銷商與直銷經理
 
@@ -76,3 +77,5 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Server (ProLiant & HPE Cray AI Servers) | 54.20% ($4,178M) | AI 伺服器 (H100/MI300) 與超級電腦積壓訂單 |
 | Intelligent Edge (Aruba Networking) | 16.50% ($1,272M) | 企業 Wi-Fi 6E/7、Campus Switch 設備 |
 | Hybrid Cloud & Storage (Alletra & GreenLake) | 29.30% ($2,260M) | GreenLake 混合雲訂閱與 AI 數據儲存 |
+
+Updated: 2026-08-06 15:52 CST

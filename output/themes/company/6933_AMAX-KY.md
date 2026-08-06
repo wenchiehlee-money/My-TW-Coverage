@@ -14,7 +14,7 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 **上游 (AI 處理器與伺服器零組件):**
 - **AI 晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) — 最高階 GPU (H100/H200/B200)
 - **處理器:** [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md) — 伺服器級 CPU
-- **記憶體/儲存:** 大容量 [![HBM](https://img.shields.io/badge/HBM-green)](../themes/HBM.md)、[![DRAM](https://img.shields.io/badge/DRAM-green)](../themes/DRAM.md)、SSD 儲存陣列
+- **記憶體/儲存:** 大容量 [![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](../themes/DRAM.md)、[![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](../themes/DRAM.md)、SSD 儲存陣列
 - **散熱:** [[液冷]]散熱管線/幫浦及無塵機櫃
 
 **中游 (AI HPC 系統整合):**
@@ -98,4 +98,4 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 | Financing Cash Flow     |       601.44 |       163.03 |       -83.24 |        36.16 |
 | CAPEX                   |       -19.25 |       -13.53 |       -23.80 |       -21.18 |
 
-Updated: 2026-08-05 21:14 CST
+Updated: 2026-08-06 15:52 CST

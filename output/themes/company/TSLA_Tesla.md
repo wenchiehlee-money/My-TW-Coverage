@@ -9,9 +9,9 @@
 Tesla, Inc. (TSLA，Tesla) 為全球電動車 (Model 3/Y, Cybertruck) 與清潔能源 (Megapack, Powerwall) 領航者。公司以 FSD (Full Self-Driving) 端到端神經網絡、Dojo 超級電腦及 Optimus 人型機器人為核心 AI 戰略目標。
 
 ## 供應鏈位置
-- **晶圓代工與晶片:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (HW 4.0 / HW 5.0 自研智駕晶片代工)、[![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)
-- **電池與正負極材料:** [[寧德時代]]、[[Panasonic]]、[[LG Energy]]、[![和大](https://img.shields.io/badge/%E5%92%8C%E5%A4%A7-blue)](1536_和大.md) (減速齒輪)
-- **車用組件與線束:** [![乙盛-KY](https://img.shields.io/badge/%E4%B9%99%E7%9B%9B--KY-blue)](5243_乙盛-KY.md)、[![貿聯-KY](https://img.shields.io/badge/%E8%B2%BF%E8%81%AF--KY-blue)](3665_貿聯-KY.md)、[[聯嘉]]
+- **晶圓代工與晶片:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (HW 4.0 / HW 5.0 自研智駕晶片代工)、[![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)
+- **電池與正負極材料:** [[寧德時代]]、[[Panasonic]]、[[LG Energy]]、[![和大](https://img.shields.io/badge/%E5%92%8C%E5%A4%A7-blue)](1536_%E5%92%8C%E5%A4%A7.md) (減速齒輪)
+- **車用組件與線束:** [![乙盛-KY](https://img.shields.io/badge/%E4%B9%99%E7%9B%9B--KY-blue)](5243_%E4%B9%99%E7%9B%9B-KY.md)、[![貿聯-KY](https://img.shields.io/badge/%E8%B2%BF%E8%81%AF--KY-blue)](3665_%E8%B2%BF%E8%81%AF-KY.md)、[[聯嘉]]
 
 **中游:**
 - **Tesla** — 電動車平台架構、FSD 視覺算法、Dojo 超算與自動化 Gigafactory 生產線
@@ -74,3 +74,5 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Automotive Sales & Regulatory Credits | 81.50% ($17,360M) | Model 3/Y 改款與 Cybertruck 量產放量 |
 | Energy Storage & Solar (Megapack) | 11.80% ($2,514M) | 儲能系統 Megapack 需求年增突破 120% |
 | Services & Other (Supercharging / FSD) | 6.70% ($1,427M) | 超級充電網路開與 FSD 訂閱收入 |
+
+Updated: 2026-08-06 15:52 CST

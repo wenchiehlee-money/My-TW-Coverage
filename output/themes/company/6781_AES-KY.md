@@ -6,7 +6,7 @@
 **市值:** 74,315 百萬台幣
 **企業價值:** 63,356 百萬台幣
 
-AES-KY (6781) 為[[新普科技]]子公司，台灣AI [[BBU]]龍頭。已打入[[AWS]]、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)三大CSP (經[![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) [[GB200]])。2025年營收160億+。電芯來自[[Panasonic]]。另供歐洲[[電動自行車]]。
+AES-KY (6781) 為[[新普科技]]子公司，台灣AI [[BBU]]龍頭。已打入[[AWS]]、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md) 三大CSP (經 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) [[GB200]])。2025年營收160億+。電芯來自[[Panasonic]]。另供歐洲[[電動自行車]]。
 
 ## 供應鏈位置
 **上游:** [[Panasonic]] 電芯
@@ -72,4 +72,4 @@ AES-KY (6781) 為[[新普科技]]子公司，台灣AI [[BBU]]龍頭。已打入[
 | Financing Cash Flow     |        -5.34 |       414.00 |      -705.83 |        14.57 |
 | CAPEX                   |      -228.15 |      -233.08 |       -57.39 |      -263.25 |
 
-Updated: 2026-08-05 21:14 CST
+Updated: 2026-08-06 15:52 CST

@@ -10,16 +10,17 @@ Apple Inc. (AAPL，Apple) 總部位於美國加州庫比蒂諾，為全球市值
 
 ## 供應鏈位置
 **上游 (關鍵零組件與晶片):**
-- **晶圓代工與先進封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_台積電.md) (獨家代工 N3B/N3E 蘋果 A18/M4 晶片 & InFO 封裝)
-- **光學鏡頭與模組:** [![大立光](https://img.shields.io/badge/%E5%A4%A7%E7%AB%8B%E5%85%89-blue)](3008_大立光.md)、[![玉晶光](https://img.shields.io/badge/%E7%8E%89%E6%99%B6%E5%85%89-blue)](3406_玉晶光.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md) (富士康模組)
-- **機殼與軟硬板:** [![華通](https://img.shields.io/badge/%E8%8F%AF%E9%80%9A-blue)](2313_華通.md)、[![臻鼎-KY](https://img.shields.io/badge/%E8%87%BB%E9%BC%8E--KY-blue)](4958_臻鼎-KY.md)、[![台郡](https://img.shields.io/badge/%E5%8F%B0%E9%83%A1-blue)](6269_台郡.md)、[![鴻準](https://img.shields.io/badge/%E9%B4%BB%E6%BA%96-blue)](2354_鴻準.md)
-- **聲學與感測元件:** [![美律](https://img.shields.io/badge/%E7%BE%8E%E5%BE%8B-blue)](2439_美律.md)、[![瑞昱](https://img.shields.io/badge/%E7%91%9E%E6%98%B1-blue)](2379_瑞昱.md)
+- **晶圓代工與先進封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (獨家代工 N3B/N3E 蘋果 A18/M4 晶片 & InFO 封裝)
+- **光學鏡頭與模組:** [![大立光](https://img.shields.io/badge/%E5%A4%A7%E7%AB%8B%E5%85%89-blue)](3008_%E5%A4%A7%E7%AB%8B%E5%85%89.md)、[![玉晶光](https://img.shields.io/badge/%E7%8E%89%E6%99%B6%E5%85%89-blue)](3406_%E7%8E%89%E6%99%B6%E5%85%89.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) (富士康模組)
+- **機殼與軟硬板:** [![華通](https://img.shields.io/badge/%E8%8F%AF%E9%80%9A-blue)](2313_%E8%8F%AF%E9%80%9A.md)、[![臻鼎-KY](https://img.shields.io/badge/%E8%87%BB%E9%BC%8E--KY-blue)](4958_%E8%87%BB%E9%BC%8E-KY.md)、[![台郡](https://img.shields.io/badge/%E5%8F%B0%E9%83%A1-blue)](6269_%E5%8F%B0%E9%83%A1.md)、[![鴻準](https://img.shields.io/badge/%E9%B4%BB%E6%BA%96-blue)](2354_%E9%B4%BB%E6%BA%96.md)
+- **聲學與感測元件:** [![美律](https://img.shields.io/badge/%E7%BE%8E%E5%BE%8B-blue)](2439_%E7%BE%8E%E5%BE%8B.md)、[![瑞昱](https://img.shields.io/badge/%E7%91%9E%E6%98%B1-blue)](2379_%E7%91%9E%E6%98%B1.md)
 
 **中游 (品牌設計與組裝代工):**
 - **Apple** — 產品設計、Apple Silicon 架構設計、iOS/macOS 系統與 App Store 生態系
-- **全球組裝代工夥伴:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_鴻海.md) (富士康，iPhone 旗艦機主要代工)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_和碩.md)、[[立訊精密]]、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_廣達.md) (MacBook 代工)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_仁寶.md) (iPad 代工)
+- **全球組裝代工夥伴:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) (富士康，iPhone 旗艦機主要代工)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_%E5%92%8C%E7%A2%A9.md)、[[立訊精密]]、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md) (MacBook 代工)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md) (iPad 代工)
 
 **下游 (銷售通路與廣大消費者):**
+- **主要平台:** iPhone (~49.5828%), Services (~28.0934%), Mac (~9.4611%), Wearables, Home and Accessories (~7.2045%), iPad (~5.6582%).
 - **銷售通路:** 全球 Apple Store 直營店、Apple Online Store、電信營運商 (AT&T, Verizon, 中國移動) 及授權經銷商
 - **廣大終端用戶:** 全球超過 22 億台活躍 Apple 裝置使用者
 
@@ -80,3 +81,5 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Wearables, Home & Accessories | 8.80% ($8,391M) | Apple Watch, AirPods 與配件銷售 |
 | Mac (個人電腦) | 7.80% ($7,438M) | M3/M4 架構 MacBook Pro / Air 升級 |
 | iPad (平板電腦) | 6.80% ($6,494M) | iPad Pro OLED 與 iPad Air 新品放量 |
+
+Updated: 2026-08-06 15:52 CST
