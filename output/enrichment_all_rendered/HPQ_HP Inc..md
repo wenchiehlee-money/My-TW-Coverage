@@ -81,4 +81,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Personal Systems (PC / Notebook / AI PC) | 68.50% ($9,247M) | 商用 Notebook 與 AI PC 換機需求 |
 | Printing (印表機與耗材) | 31.50% ($4,253M) | 商業印表機與原廠碳粉耗材訂閱收入 |
 
-Updated: 2026-08-07 08:41 CST
+Updated: 2026-08-08 03:53 CST
