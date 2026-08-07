@@ -6,14 +6,14 @@
 **市值:** 6,273 百萬台幣
 **企業價值:** 6,395 百萬台幣
 
-艾瑪斯科技控股 (6933，[[AMAX]]-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有[[鴻海]]集團約 25% 的強大股權支持。總部位於美國矽谷，為 [[NVIDIA]] 精英合作夥伴。當 [[NVIDIA]] 或 [[AMD]] 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
+艾瑪斯科技控股 (6933，AMAX-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有 [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) 集團約 25% 的強大股權支持。總部位於美國矽谷，為 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 精英合作夥伴。當 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 或 [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
 
-AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷」到最先進「[[液冷]] (Liquid Cooling) 整機櫃」的客製化散熱與系統解決方案，深受歐美 [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](../themes/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) 與頂尖研究機構的重用。客戶包含全球知名半導體設備光刻機大廠 [[ASML]]，是 AI 算力軍備競賽的超級「系統整合軍火商」。
+AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷」到最先進「[[液冷]] (Liquid Cooling) 整機櫃」的客製化散熱與系統解決方案，深受歐美 [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](../themes/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) 與頂尖研究機構的重用。客戶包含全球知名半導體設備光刻機大廠 [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md)，是 AI 算力軍備競賽的超級「系統整合軍火商」。
 
 ## 供應鏈位置
 **上游 (AI 處理器與伺服器零組件):**
-- **AI 晶片:** [[NVIDIA]] — 最高階 GPU (H100/H200/B200)
-- **處理器:** [[AMD]]、[[Intel]] — 伺服器級 CPU
+- **AI 晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) — 最高階 GPU (H100/H200/B200)
+- **處理器:** [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md) — 伺服器級 CPU
 - **記憶體/儲存:** 大容量 [![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](../themes/DRAM.md)、[![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](../themes/DRAM.md)、SSD 儲存陣列
 - **散熱:** [[液冷]]散熱管線/幫浦及無塵機櫃
 
@@ -23,29 +23,29 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 - **客製服務:** **AMAX** (從空冷到浸沒式液冷之客製化組裝)
 
 **下游 (全球 AI 算力需求端):**
-- **半導體設備:** [[ASML]] — 全球光刻機霸主之 HPC 運算需求
+- **半導體設備:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md) — 全球光刻機霸主之 HPC 運算需求
 - **雲端 CSP:** 全球頂級雲端服務提供商 AI 資料中心
 - **研究機構:** 各國政府高效能運算實驗室
-- **大股東協同:** [[鴻海]] — 零組件採購與技術協同
+- **大股東協同:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) — 零組件採購與技術協同
 
 ## 主要客戶及供應商
 ### 主要客戶
-- **半導體設備:** [[ASML]] — 全球光刻機霸主之 HPC 運算需求
+- **半導體設備:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md) — 全球光刻機霸主之 HPC 運算需求
 - **雲端 CSP:** 歐美大型 AI 算力中心科技巨頭
 - **研究機構:** 各國政府高效能運算實驗室
 - **AI 新創:** 矽谷 AI 晶片公司及自動駕駛新創
 
 ### 主要供應商
-- **AI 晶片:** [[NVIDIA]] — 最高階 GPU 供應 (精英合作夥伴)
-- **處理器:** [[AMD]]、[[Intel]] — 伺服器級 CPU
-- **大股東:** [[鴻海]] — 約 25% 股權，深度供應鏈零組件採購與技術協同
+- **AI 晶片:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) — 最高階 GPU 供應 (精英合作夥伴)
+- **處理器:** [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md) — 伺服器級 CPU
+- **大股東:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) — 約 25% 股權，深度供應鏈零組件採購與技術協同
 - **液冷設備:** 液冷散熱管線/幫浦及機櫃專業廠
 
 ## 核心競爭力
-- 艾瑪斯科技控股 (6933，[[AMAX]]-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有[[鴻海]]集團約 25% 的強大股權支持。總部位於美國矽谷，為 [[NVIDIA]] 精英合作夥伴。當 [[NVIDIA]] 或 [[AMD]] 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
+- 艾瑪斯科技控股 (6933，AMAX-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有 [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) 集團約 25% 的強大股權支持。總部位於美國矽谷，為 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 精英合作夥伴。當 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 或 [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
 
 ## 競爭定位補充
-- 艾瑪斯科技控股 (6933，[[AMAX]]-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有[[鴻海]]集團約 25% 的強大股權支持。總部位於美國矽谷，為 [[NVIDIA]] 精英合作夥伴。當 [[NVIDIA]] 或 [[AMD]] 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
+- 艾瑪斯科技控股 (6933，AMAX-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有 [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) 集團約 25% 的強大股權支持。總部位於美國矽谷，為 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 精英合作夥伴。當 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 或 [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -98,4 +98,4 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 | Financing Cash Flow     |       601.44 |       163.03 |       -83.24 |        36.16 |
 | CAPEX                   |       -19.25 |       -13.53 |       -23.80 |       -21.18 |
 
-Updated: 2026-08-06 04:27 CST
+Updated: 2026-08-07 08:41 CST

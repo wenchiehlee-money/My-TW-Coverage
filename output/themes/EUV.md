@@ -10,10 +10,15 @@
 
 ---
 
-## 相關公司 (11)
+## 相關公司 (14)
 
-**半導體** (3)
+**Semiconductors & Consumer Electronics** (1)
+- [![005930.KS Samsung](https://img.shields.io/badge/005930.KS%20Samsung-blue)](company/005930.KS_Samsung.md) (市值: 420,000,000 百萬韓元)
+
+**半導體** (5)
 - [![2330 台積電](https://img.shields.io/badge/2330%20%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](company/2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (市值: 62,108,025 百萬台幣)
+- [![INTC Intel](https://img.shields.io/badge/INTC%20Intel-blue)](company/INTC_Intel.md) (市值: 135,000 百萬美元)
+- [![MU Micron](https://img.shields.io/badge/MU%20Micron-blue)](company/MU_Micron.md) (市值: 122,000 百萬美元)
 - [![3680 家登](https://img.shields.io/badge/3680%20%E5%AE%B6%E7%99%BB-blue)](company/3680_%E5%AE%B6%E7%99%BB.md) (市值: 36,976 百萬台幣)
 - [![3178 公準](https://img.shields.io/badge/3178%20%E5%85%AC%E6%BA%96-blue)](company/3178_%E5%85%AC%E6%BA%96.md) (市值: 2,523 百萬台幣)
 

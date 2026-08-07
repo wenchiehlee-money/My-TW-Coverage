@@ -10,13 +10,18 @@
 
 ---
 
-## 相關公司 (100)
+## 相關公司 (104)
 
-**半導體** (9)
+**Semiconductors & Consumer Electronics** (1)
+- [![005930.KS Samsung](https://img.shields.io/badge/005930.KS%20Samsung-blue)](company/005930.KS_Samsung.md) (市值: 420,000,000 百萬韓元)
+
+**半導體** (11)
 - [![2330 台積電](https://img.shields.io/badge/2330%20%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](company/2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (市值: 62,108,025 百萬台幣)
 - [![3711 日月光投控](https://img.shields.io/badge/3711%20%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7-blue)](company/3711_%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md) (市值: 2,189,558 百萬台幣)
+- [![AVGO Broadcom](https://img.shields.io/badge/AVGO%20Broadcom-blue)](company/AVGO_Broadcom.md) (市值: 760,000 百萬美元)
 - [![6488 環球晶](https://img.shields.io/badge/6488%20%E7%92%B0%E7%90%83%E6%99%B6-blue)](company/6488_%E7%92%B0%E7%90%83%E6%99%B6.md) (市值: 413,090 百萬台幣)
 - [![3034 聯詠](https://img.shields.io/badge/3034%20%E8%81%AF%E8%A9%A0-blue)](company/3034_%E8%81%AF%E8%A9%A0.md) (市值: 307,298 百萬台幣)
+- [![MU Micron](https://img.shields.io/badge/MU%20Micron-blue)](company/MU_Micron.md) (市值: 122,000 百萬美元)
 - [![4966 譜瑞-KY](https://img.shields.io/badge/4966%20%E8%AD%9C%E7%91%9E--KY-blue)](company/4966_%E8%AD%9C%E7%91%9E-KY.md) (市值: 42,841 百萬台幣)
 - [![6278 台表科](https://img.shields.io/badge/6278%20%E5%8F%B0%E8%A1%A8%E7%A7%91-blue)](company/6278_%E5%8F%B0%E8%A1%A8%E7%A7%91.md) (市值: 39,447 百萬台幣)
 - [![3105 穩懋](https://img.shields.io/badge/3105%20%E7%A9%A9%E6%87%8B-blue)](company/3105_%E7%A9%A9%E6%87%8B.md) (市值: 23,520 百萬台幣)
@@ -63,6 +68,11 @@
 - [![6114 久威](https://img.shields.io/badge/6114%20%E4%B9%85%E5%A8%81-blue)](company/6114_%E4%B9%85%E5%A8%81.md) (市值: 1,124 百萬台幣)
 - [![4943 康控-KY](https://img.shields.io/badge/4943%20%E5%BA%B7%E6%8E%A7--KY-blue)](company/4943_%E5%BA%B7%E6%8E%A7-KY.md) (市值: 1,050 百萬台幣)
 - [![3095 及成](https://img.shields.io/badge/3095%20%E5%8F%8A%E6%88%90-blue)](company/3095_%E5%8F%8A%E6%88%90.md) (市值: 370 百萬台幣)
+
+**消費性電子** (3)
+- [![AAPL Apple](https://img.shields.io/badge/AAPL%20Apple-blue)](company/AAPL_Apple.md) (市值: 3,380,000 百萬美元)
+- [![4915 致伸](https://img.shields.io/badge/4915%20%E8%87%B4%E4%BC%B8-blue)](company/4915_%E8%87%B4%E4%BC%B8.md) (市值: 29,729 百萬台幣)
+- [![2439 美律](https://img.shields.io/badge/2439%20%E7%BE%8E%E5%BE%8B-blue)](company/2439_%E7%BE%8E%E5%BE%8B.md) (市值: 20,215 百萬台幣)
 
 **電腦硬體** (6)
 - [![2382 廣達](https://img.shields.io/badge/2382%20%E5%BB%A3%E9%81%94-blue)](company/2382_%E5%BB%A3%E9%81%94.md) (市值: 1,192,973 百萬台幣)
@@ -121,10 +131,6 @@
 
 **光學元件** (1)
 - [![3406 玉晶光](https://img.shields.io/badge/3406%20%E7%8E%89%E6%99%B6%E5%85%89-blue)](company/3406_%E7%8E%89%E6%99%B6%E5%85%89.md) (市值: 52,595 百萬台幣)
-
-**消費性電子** (2)
-- [![4915 致伸](https://img.shields.io/badge/4915%20%E8%87%B4%E4%BC%B8-blue)](company/4915_%E8%87%B4%E4%BC%B8.md) (市值: 29,729 百萬台幣)
-- [![2439 美律](https://img.shields.io/badge/2439%20%E7%BE%8E%E5%BE%8B-blue)](company/2439_%E7%BE%8E%E5%BE%8B.md) (市值: 20,215 百萬台幣)
 
 **通訊設備** (3)
 - [![3380 明泰](https://img.shields.io/badge/3380%20%E6%98%8E%E6%B3%B0-blue)](company/3380_%E6%98%8E%E6%B3%B0.md) (市值: 14,653 百萬台幣)

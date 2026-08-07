@@ -10,9 +10,12 @@
 
 ---
 
-## 相關公司 (115)
+## 相關公司 (122)
 
-**半導體** (8)
+**Semiconductors & Consumer Electronics** (1)
+- [![005930.KS Samsung](https://img.shields.io/badge/005930.KS%20Samsung-blue)](company/005930.KS_Samsung.md) (市值: 420,000,000 百萬韓元)
+
+**半導體** (9)
 - [![2330 台積電](https://img.shields.io/badge/2330%20%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](company/2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (市值: 62,108,025 百萬台幣)
 - [![3711 日月光投控](https://img.shields.io/badge/3711%20%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7-blue)](company/3711_%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md) (市值: 2,189,558 百萬台幣)
 - [![2379 瑞昱](https://img.shields.io/badge/2379%20%E7%91%9E%E6%98%B1-blue)](company/2379_%E7%91%9E%E6%98%B1.md) (市值: 378,493 百萬台幣)
@@ -20,6 +23,7 @@
 - [![2337 旺宏](https://img.shields.io/badge/2337%20%E6%97%BA%E5%AE%8F-blue)](company/2337_%E6%97%BA%E5%AE%8F.md) (市值: 196,771 百萬台幣)
 - [![6515 穎崴](https://img.shields.io/badge/6515%20%E7%A9%8E%E5%B4%B4-blue)](company/6515_%E7%A9%8E%E5%B4%B4.md) (市值: 195,146 百萬台幣)
 - [![6239 力成](https://img.shields.io/badge/6239%20%E5%8A%9B%E6%88%90-blue)](company/6239_%E5%8A%9B%E6%88%90.md) (市值: 172,140 百萬台幣)
+- [![MU Micron](https://img.shields.io/badge/MU%20Micron-blue)](company/MU_Micron.md) (市值: 122,000 百萬美元)
 - [![6531 愛普](https://img.shields.io/badge/6531%20%E6%84%9B%E6%99%AE-blue)](company/6531_%E6%84%9B%E6%99%AE.md) (市值: 102,105 百萬台幣)
 
 **電子零組件** (25)
@@ -93,6 +97,15 @@
 - [![6680 鑫創電子](https://img.shields.io/badge/6680%20%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90-blue)](company/6680_%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90.md) (市值: 1,320 百萬台幣)
 - [![DELL Dell](https://img.shields.io/badge/DELL%20Dell-blue)](company/DELL_Dell.md) (市值: N/A 百萬台幣)
 
+**Software & Cloud Services** (1)
+- [![MSFT Microsoft](https://img.shields.io/badge/MSFT%20Microsoft-blue)](company/MSFT_Microsoft.md) (市值: 3,150,000 百萬美元)
+
+**E-Commerce & Cloud Computing** (1)
+- [![AMZN Amazon](https://img.shields.io/badge/AMZN%20Amazon-blue)](company/AMZN_Amazon.md) (市值: 1,980,000 百萬美元)
+
+**Interactive Media & AI** (1)
+- [![META Meta](https://img.shields.io/badge/META%20Meta-blue)](company/META_Meta.md) (市值: 1,250,000 百萬美元)
+
 **通訊設備** (7)
 - [![2345 智邦](https://img.shields.io/badge/2345%20%E6%99%BA%E9%82%A6-blue)](company/2345_%E6%99%BA%E9%82%A6.md) (市值: 1,067,514 百萬台幣)
 - [![3363 上詮](https://img.shields.io/badge/3363%20%E4%B8%8A%E8%A9%AE-blue)](company/3363_%E4%B8%8A%E8%A9%AE.md) (市值: 55,172 百萬台幣)
@@ -125,6 +138,10 @@
 
 **特殊零售** (1)
 - [![3045 台灣大](https://img.shields.io/badge/3045%20%E5%8F%B0%E7%81%A3%E5%A4%A7-blue)](company/3045_%E5%8F%B0%E7%81%A3%E5%A4%A7.md) (市值: 343,999 百萬台幣)
+
+**Computer Hardware & Servers** (2)
+- [![0992.HK 聯想集團](https://img.shields.io/badge/0992.HK%20%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98-blue)](company/0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md) (市值: 118,500 百萬港幣)
+- [![HPE HPE](https://img.shields.io/badge/HPE%20HPE-blue)](company/HPE_HPE.md) (市值: 25,400 百萬美元)
 
 **電子與電腦通路** (5)
 - [![6189 豐藝](https://img.shields.io/badge/6189%20%E8%B1%90%E8%97%9D-blue)](company/6189_%E8%B1%90%E8%97%9D.md) (市值: 12,068 百萬台幣)

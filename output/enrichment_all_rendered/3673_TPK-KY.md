@@ -9,23 +9,23 @@
 TPK-KY (宸鴻) 為全球觸控技術的領導廠商，也是觸控模組量產化的先驅。
 公司提供從 1 吋到 110 吋的全方位觸控解決方案，產品廣泛應用於智慧型手機、平板電腦、筆記型電腦及車載顯示。
 核心業務與發展亮點：
-1.  **車載與感測器轉型**: 積極降低對智慧型手機的依賴，轉向車載與工業應用。為 **[[Tesla]]** 及多個純電及豪華品牌供貨。並與 **Luminar** 合作生產 Iris+ 激光雷達 (Lidar)，切入自動駕駛關鍵感測器市場。
+1.  **車載與感測器轉型**: 積極降低對智慧型手機的依賴，轉向車載與工業應用。為 **[![Tesla](https://img.shields.io/badge/Tesla-blue)](TSLA_Tesla.md)** 及多個純電及豪華品牌供貨。並與 **Luminar** 合作生產 Iris+ 激光雷達 (Lidar)，切入自動駕駛關鍵感測器市場。
 2.  **奈米銀 (Nano Silver) 技術**: 自行研發奈米銀線觸控技術，主要針對大尺寸互動式白板及未來可摺疊式 (Foldable) 觸控產品趨勢。
-3.  **半導體多元佈局**: 併購驅動 IC 廠 [[奕力-KY]] (Ilitek) 大額股份，佈局顯示器驅動與觸控整合晶片 (TDDI)，並與 [[AI]] [[機器人]]客戶 (如美國無人遞送車) 展開合作。
+3.  **半導體多元佈局**: 併購驅動 IC 廠 [![奕力-KY](https://img.shields.io/badge/%E5%A5%95%E5%8A%9B--KY-blue)](6962_%E5%A5%95%E5%8A%9B-KY.md) (Ilitek) 大額股份，佈局顯示器驅動與觸控整合晶片 (TDDI)，並與 [[AI]] [[機器人]]客戶 (如美國無人遞送車) 展開合作。
 4.  **智慧製造實力**: 具備強大的光學貼合 (Bonding) 與保護玻璃加工能力，並提供 3D 列印精密組件及檢測分析服務。
 
 ## 供應鏈位置
 *   **上游**: ITO 玻璃/薄膜、保護玻璃基板 (康寧等)、觸控控制 IC、光學膠。
 *   **中游**: **TPK-KY (3673)** - 觸控模組研發設計、光學貼合、激光雷達組裝。
 *   **下游**:
-    *   **消費電子巨頭**: [[Apple]] (iPad, MacBook 等觸控相關組件)、歐美 e-reader 客戶。
-    *   **車用大廠**: [[Tesla]], [[Mercedes-Benz]] (激光雷達協力), Luminar。
+    *   **消費電子巨頭**: [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md) (iPad, MacBook 等觸控相關組件)、歐美 e-reader 客戶。
+    *   **車用大廠**: [![Tesla](https://img.shields.io/badge/Tesla-blue)](TSLA_Tesla.md), [[Mercedes-Benz]] (激光雷達協力), Luminar。
     *   **工業與零售**: 智慧販賣機、大型電子白板廠商。
 
 ## 主要客戶及供應商
 ### 主要客戶
-- 車用：[[Tesla]], [[Mercedes-Benz]], Luminar (Lidar 獨家代工)。
-- 消費電子：[[Apple]] (觸控模組/貼合), 國際電子書龍頭客戶。
+- 車用：[![Tesla](https://img.shields.io/badge/Tesla-blue)](TSLA_Tesla.md), [[Mercedes-Benz]], Luminar (Lidar 獨家代工)。
+- 消費電子：[![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md) (觸控模組/貼合), 國際電子書龍頭客戶。
 - 策略合作：奕力-KY (驅動 IC)。
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
@@ -79,4 +79,4 @@ TPK-KY (宸鴻) 為全球觸控技術的領導廠商，也是觸控模組量產�
 | Financing Cash Flow     |     -2803.52 |     -1545.68 |       563.87 |      2556.30 |
 | CAPEX                   |      -268.23 |      -194.48 |      -216.08 |      -252.45 |
 
-Updated: 2026-08-06 04:27 CST
+Updated: 2026-08-07 08:41 CST

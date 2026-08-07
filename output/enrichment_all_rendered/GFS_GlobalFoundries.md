@@ -1,4 +1,4 @@
-# GFS - [[GlobalFoundries]]
+# GFS - GlobalFoundries
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,21 +6,25 @@
 **市值:** 28,500 百萬美元
 **企業價值:** 27,200 百萬美元
 
-GlobalFoundries (GFS，[[GlobalFoundries]]) 格羅方德為全球前五大專業晶圓代工廠，總部位於美國紐約州。公司放棄 7nm 以下先進節點，專注於成熟與特殊技術製程（RF SOI、FinFET 12/22nm、FD-SOI 22/12nm、矽光子及車用微控制器）。
+GlobalFoundries (GFS，GlobalFoundries) 格羅方德為全球前五大專業晶圓代工廠，總部位於美國紐約州。公司放棄 7nm 以下先進節點，專注於成熟與特殊技術製程（RF SOI、FinFET 12/22nm、FD-SOI 22/12nm、矽光子及車用微控制器）。
 
 ## 供應鏈位置
-- **光刻機與設備:** [[ASML]]、[[應用材料]]、[[Lam Research]]
-- **矽晶圓與化學品:** [[信越]]、[[勝高]]、[[環球晶]]
+- **光刻機與設備:** [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md)、[[應用材料]]、[[Lam Research]]
+- **矽晶圓與化學品:** [[信越]]、[[勝高]]、[![環球晶](https://img.shields.io/badge/%E7%92%B0%E7%90%83%E6%99%B6-blue)](6488_%E7%92%B0%E7%90%83%E6%99%B6.md)
 
 **中游:**
 - **GlobalFoundries** — 12nm-90nm 特殊晶圓代工製造服務與矽光子平台
 
 **下游:**
-- **無晶圓廠 IC 設計:** [[Qualcomm]]、[[AMD]]、[[NXP]]、[[Infineon]]、[[聯發科]]
-- **車用與工控系統品牌:** [[General Motors]]、[[Bosch]]、[[Apple]]
+- **無晶圓廠 IC 設計:** [![Qualcomm](https://img.shields.io/badge/Qualcomm-blue)](QCOM_Qualcomm.md)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[[NXP]]、[[Infineon]]、[![聯發科](https://img.shields.io/badge/%E8%81%AF%E7%99%BC%E7%A7%91-blue)](2454_%E8%81%AF%E7%99%BC%E7%A7%91.md)
+- **車用與工控系統品牌:** [[General Motors]]、[[Bosch]]、[![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)
 
 ## 主要客戶及供應商
+### 主要客戶
+- - [![Qualcomm](https://img.shields.io/badge/Qualcomm-blue)](QCOM_Qualcomm.md)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[[NXP]]、[[Infineon]]
 
+### 主要供應商
+- - [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md)、[![環球晶](https://img.shields.io/badge/%E7%92%B0%E7%90%83%E6%99%B6-blue)](6488_%E7%92%B0%E7%90%83%E6%99%B6.md)、[[應用材料]]
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -75,4 +79,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Home and Industrial IoT | 28.10% ($474M) | 工控 MCU、低功耗 Wi-Fi/BT 晶片 |
 | Communications Infrastructure & Data Center | 16.50% ($279M) | 矽光子 Optical Transceiver 與電源晶片 |
 
-Updated: 2026-08-06 04:27 CST
+Updated: 2026-08-07 08:41 CST

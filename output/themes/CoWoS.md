@@ -10,9 +10,10 @@
 
 ---
 
-## 相關公司 (39)
+## 相關公司 (40)
 
-**半導體** (10)
+**半導體** (11)
+- [![NVDA NVIDIA](https://img.shields.io/badge/NVDA%20NVIDIA-blue)](company/NVDA_NVIDIA.md) (市值: 3,450,000 百萬美元)
 - [![3711 日月光投控](https://img.shields.io/badge/3711%20%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7-blue)](company/3711_%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md) (市值: 2,189,558 百萬台幣)
 - [![3443 創意](https://img.shields.io/badge/3443%20%E5%89%B5%E6%84%8F-blue)](company/3443_%E5%89%B5%E6%84%8F.md) (市值: 441,566 百萬台幣)
 - [![3661 世芯-KY](https://img.shields.io/badge/3661%20%E4%B8%96%E8%8A%AF--KY-blue)](company/3661_%E4%B8%96%E8%8A%AF-KY.md) (市值: 230,266 百萬台幣)

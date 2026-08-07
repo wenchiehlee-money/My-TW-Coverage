@@ -1,4 +1,4 @@
-# MRVL - [[Marvell]]
+# MRVL - Marvell
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,22 +6,26 @@
 **市值:** 68,500 百萬美元
 **企業價值:** 72,100 百萬美元
 
-Marvell Technology, Inc. (MRVL，[[Marvell]]) 為全球基礎架構半導體晶片巨頭，專注於數據中心 AI 算力互聯、Custom AI ASIC (客製化 AI 晶片設計)、光學 DSP (PAM4 光收發晶片) 與高速乙太網路交換晶片 (Teralynx / Prestera)。公司在 800G / 1.6T 光電互聯 PAM4 晶片市場擁有極高市佔率。
+Marvell Technology, Inc. (MRVL，Marvell) 為全球基礎架構半導體晶片巨頭，專注於數據中心 AI 算力互聯、Custom AI ASIC (客製化 AI 晶片設計)、光學 DSP (PAM4 光收發晶片) 與高速乙太網路交換晶片 (Teralynx / Prestera)。公司在 800G / 1.6T 光電互聯 PAM4 晶片市場擁有極高市佔率。
 
 ## 供應鏈位置
 **上游 (晶圓代工與封裝):**
-- **晶圓代工與先進封裝:** [[台積電]] (N5/N3 代工 Custom AI ASIC & PAM4 DSP 晶片)
-- **封裝與載板:** [[日月光投控]]、[[京元電子]]、[[欣興]]
+- **晶圓代工與先進封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (N5/N3 代工 Custom AI ASIC & PAM4 DSP 晶片)
+- **封裝與載板:** [![日月光投控](https://img.shields.io/badge/%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7-blue)](3711_%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md)、[![京元電子](https://img.shields.io/badge/%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90-blue)](2449_%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90.md)、[![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](3037_%E6%AC%A3%E8%88%88.md)
 
 **中游 (晶片設計):**
 - **Marvell** — 800G/1.6T PAM4 光學 DSP、Custom AI Accelerator 架構、PCIe Switch 及 PCIe NVMe 控制晶片設計
 
 **下游 (光模組、伺服器代工與 CSP):**
-- **光模組與網通夥伴:** [[眾達-KY]]、[[華星光]]、[[智邦]]、[[中際旭創]]
-- **CSP 與 AI 巨頭:** [[Amazon]] (Trainium 晶片夥伴)、[[Google]]、[[Microsoft]]、[[Meta]]
+- **光模組與網通夥伴:** [![眾達-KY](https://img.shields.io/badge/%E7%9C%BE%E9%81%94--KY-blue)](4977_%E7%9C%BE%E9%81%94-KY.md)、[![華星光](https://img.shields.io/badge/%E8%8F%AF%E6%98%9F%E5%85%89-blue)](4979_%E8%8F%AF%E6%98%9F%E5%85%89.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_%E6%99%BA%E9%82%A6.md)、[[中際旭創]]
+- **CSP 與 AI 巨頭:** [![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md) (Trainium 晶片夥伴)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)
 
 ## 主要客戶及供應商
+### 主要客戶
+- [![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md) 及全球光收發模組大廠
 
+### 主要供應商
+- [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[![日月光投控](https://img.shields.io/badge/%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7-blue)](3711_%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md)、[![京元電子](https://img.shields.io/badge/%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90-blue)](2449_%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90.md)、[![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](3037_%E6%AC%A3%E8%88%88.md)
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -76,4 +80,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Enterprise Networking (企業網通) | 14.20% ($215M) | 企業乙太網路 Switch 與 PHY 晶片 |
 | Carrier Infrastructure & Automotive | 13.30% ($202M) | 5G 電信基地台與車用乙太網路晶片 |
 
-Updated: 2026-08-06 04:27 CST
+Updated: 2026-08-07 08:41 CST

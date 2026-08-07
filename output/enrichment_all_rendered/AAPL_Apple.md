@@ -1,4 +1,4 @@
-# AAPL - [[Apple]]
+# AAPL - Apple
 
 ## 業務簡介
 **板塊:** Technology
@@ -6,18 +6,18 @@
 **市值:** 3,380,000 百萬美元
 **企業價值:** 3,410,000 百萬美元
 
-Apple Inc. (AAPL，[[Apple]]) 總部位於美國加州庫比蒂諾，為全球市值最高的科技巨頭與消費性電子龍頭。旗下核心硬體包含 iPhone (智慧型手機)、Mac (個人電腦)、iPad (平板電腦)、Apple Watch 及 AirPods。公司擁有自主開發的 A 系列與 M 系列 Apple Silicon 晶片、iOS/macOS 作業系統與強大的 App Store / Services 生態系，並積極導入 Apple Intelligence 個人化 AI 功能。
+Apple Inc. (AAPL，Apple) 總部位於美國加州庫比蒂諾，為全球市值最高的科技巨頭與消費性電子龍頭。旗下核心硬體包含 iPhone (智慧型手機)、Mac (個人電腦)、iPad (平板電腦)、Apple Watch 及 AirPods。公司擁有自主開發的 A 系列與 M 系列 Apple Silicon 晶片、iOS/macOS 作業系統與強大的 App Store / Services 生態系，並積極導入 Apple Intelligence 個人化 AI 功能。
 
 ## 供應鏈位置
 **上游 (關鍵零組件與晶片):**
-- **晶圓代工與先進封裝:** [[台積電]] (獨家代工 N3B/N3E 蘋果 A18/M4 晶片 & InFO 封裝)
-- **光學鏡頭與模組:** [[大立光]]、[[玉晶光]]、[[鴻海]] (富士康模組)
-- **機殼與軟硬板:** [[華通]]、[[臻鼎-KY]]、[[台郡]]、[[鴻準]]
-- **聲學與感測元件:** [[美律]]、[[瑞昱]]
+- **晶圓代工與先進封裝:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) (獨家代工 N3B/N3E 蘋果 A18/M4 晶片 & InFO 封裝)
+- **光學鏡頭與模組:** [![大立光](https://img.shields.io/badge/%E5%A4%A7%E7%AB%8B%E5%85%89-blue)](3008_%E5%A4%A7%E7%AB%8B%E5%85%89.md)、[![玉晶光](https://img.shields.io/badge/%E7%8E%89%E6%99%B6%E5%85%89-blue)](3406_%E7%8E%89%E6%99%B6%E5%85%89.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) (富士康模組)
+- **機殼與軟硬板:** [![華通](https://img.shields.io/badge/%E8%8F%AF%E9%80%9A-blue)](2313_%E8%8F%AF%E9%80%9A.md)、[![臻鼎-KY](https://img.shields.io/badge/%E8%87%BB%E9%BC%8E--KY-blue)](4958_%E8%87%BB%E9%BC%8E-KY.md)、[![台郡](https://img.shields.io/badge/%E5%8F%B0%E9%83%A1-blue)](6269_%E5%8F%B0%E9%83%A1.md)、[![鴻準](https://img.shields.io/badge/%E9%B4%BB%E6%BA%96-blue)](2354_%E9%B4%BB%E6%BA%96.md)
+- **聲學與感測元件:** [![美律](https://img.shields.io/badge/%E7%BE%8E%E5%BE%8B-blue)](2439_%E7%BE%8E%E5%BE%8B.md)、[![瑞昱](https://img.shields.io/badge/%E7%91%9E%E6%98%B1-blue)](2379_%E7%91%9E%E6%98%B1.md)
 
 **中游 (品牌設計與組裝代工):**
 - **Apple** — 產品設計、Apple Silicon 架構設計、iOS/macOS 系統與 App Store 生態系
-- **全球組裝代工夥伴:** [[鴻海]] (富士康，iPhone 旗艦機主要代工)、[[和碩]]、[[立訊精密]]、[[廣達]] (MacBook 代工)、[[仁寶]] (iPad 代工)
+- **全球組裝代工夥伴:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) (富士康，iPhone 旗艦機主要代工)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_%E5%92%8C%E7%A2%A9.md)、[[立訊精密]]、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md) (MacBook 代工)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md) (iPad 代工)
 
 **下游 (銷售通路與廣大消費者):**
 - **主要平台:** iPhone (~49.5828%), Services (~28.0934%), Mac (~9.4611%), Wearables, Home and Accessories (~7.2045%), iPad (~5.6582%).
@@ -25,7 +25,19 @@ Apple Inc. (AAPL，[[Apple]]) 總部位於美國加州庫比蒂諾，為全球�
 - **廣大終端用戶:** 全球超過 22 億台活躍 Apple 裝置使用者
 
 ## 主要客戶及供應商
+### 主要客戶
+- **主要客戶:** 全球數十億 iPhone, Mac, iPad, Apple Watch 與 AirPods 消費者
+- **主要客戶:** App Store, Apple Music, iCloud 全球服務訂閱用戶
 
+### 主要供應商
+- **主要供應商:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) — A 系列與 M 系列晶片獨家晶圓代工 (3nm/2nm)
+- **主要供應商:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_%E5%92%8C%E7%A2%A9.md)、立訊 — iPhone 與 iPad 主要組裝代工
+- **主要供應商:** [![大立光](https://img.shields.io/badge/%E5%A4%A7%E7%AB%8B%E5%85%89-blue)](3008_%E5%A4%A7%E7%AB%8B%E5%85%89.md)、[![玉晶光](https://img.shields.io/badge/%E7%8E%89%E6%99%B6%E5%85%89-blue)](3406_%E7%8E%89%E6%99%B6%E5%85%89.md) — 高階光學鏡頭
+
+### 競爭同業
+- **競爭同業:** [![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md) — 智慧型手機與消費電子競爭
+- **競爭同業:** [![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md) — Android 作業系統與 Pixel 硬體競爭
+- **競爭同業:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md) — 個人電腦與作業系統競爭
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -82,4 +94,84 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Mac (個人電腦) | 7.80% ($7,438M) | M3/M4 架構 MacBook Pro / Air 升級 |
 | iPad (平板電腦) | 6.80% ($6,494M) | iPad Pro OLED 與 iPad Air 新品放量 |
 
-Updated: 2026-08-06 04:27 CST
+### 競爭同業 Revenue/Profit/GM/PE
+
+Revenue/Profit Unit: `百萬台幣`
+P/E Range: `季內最低/平均/最高股價 / TTM EPS (當季 EPS + 最近 3 季 EPS)`; daily close 優先，歷史季度以 GoodInfo 月高低/季均價補齊
+FX: `1 USD = 32.3 TWD`
+
+#### Profile
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">AAPL</td><td style="text-align: left;">Apple Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">GOOGL</td><td style="text-align: left;">Alphabet Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">MSFT</td><td style="text-align: left;">Microsoft Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">005930.KS</td><td style="text-align: left;">Samsung</td><td style="text-align: left;">Korea</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### Revenue
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th><th colspan="2" style="text-align: center;">2026Q2</th><th colspan="2" style="text-align: center;">2026Q1</th><th colspan="2" style="text-align: center;">2025Q4</th><th colspan="2" style="text-align: center;">2025Q3</th><th colspan="2" style="text-align: center;">2025Q2</th><th colspan="2" style="text-align: center;">2025Q1</th><th colspan="2" style="text-align: center;">2024Q4</th><th colspan="2" style="text-align: center;">2024Q3</th><th colspan="2" style="text-align: center;">2024Q2</th><th colspan="2" style="text-align: center;">2024Q1</th><th colspan="2" style="text-align: center;">2023Q4</th><th colspan="2" style="text-align: center;">2023Q3</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th><th style="text-align: right;">Revenue</th><th style="text-align: right;">Rev YoY</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">AAPL</td><td style="text-align: left;">Apple Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td><td style="text-align: right;">3,534,169.1</td><td style="text-align: right;">+16.4%</td><td style="text-align: right;">3,591,243.2</td><td style="text-align: right;">+16.6%</td><td style="text-align: right;">4,643,318.8</td><td style="text-align: right;">+15.7%</td><td style="text-align: right;">3,309,651.8</td><td style="text-align: right;">+7.9%</td><td style="text-align: right;">3,037,362.8</td><td style="text-align: right;">+9.6%</td><td style="text-align: right;">3,080,095.7</td><td style="text-align: right;">+5.1%</td><td style="text-align: right;">4,014,890.0</td><td style="text-align: right;">+4.0%</td><td style="text-align: right;">3,066,239.0</td><td style="text-align: right;">+16.1%</td><td style="text-align: right;">2,770,597.1</td><td style="text-align: right;">-9.6%</td><td style="text-align: right;">2,931,321.9</td><td style="text-align: right;">-4.3%</td><td style="text-align: right;">3,862,272.5</td><td style="text-align: right;">+2.1%</td><td style="text-align: right;">2,642,043.1</td><td style="text-align: right;">-9.3%</td></tr>
+<tr><td style="text-align: left;">GOOGL</td><td style="text-align: left;">Alphabet Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">3,869,410.8</td><td style="text-align: right;">+24.2%</td><td style="text-align: right;">3,549,640.8</td><td style="text-align: right;">+21.8%</td><td style="text-align: right;">3,678,840.8</td><td style="text-align: right;">+18.1%</td><td style="text-align: right;">3,305,775.8</td><td style="text-align: right;">+15.9%</td><td style="text-align: right;">3,114,624.4</td><td style="text-align: right;">+13.8%</td><td style="text-align: right;">2,914,558.2</td><td style="text-align: right;">+12.0%</td><td style="text-align: right;">3,115,948.7</td><td style="text-align: right;">+11.8%</td><td style="text-align: right;">2,851,056.4</td><td style="text-align: right;">+15.1%</td><td style="text-align: right;">2,737,166.6</td><td style="text-align: right;">+13.6%</td><td style="text-align: right;">2,601,409.7</td><td style="text-align: right;">+15.4%</td><td style="text-align: right;">2,787,813.0</td><td style="text-align: right;">+13.5%</td><td style="text-align: right;">2,477,183.9</td><td style="text-align: right;">+11.0%</td></tr>
+<tr><td style="text-align: left;">MSFT</td><td style="text-align: left;">Microsoft Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-01-29 (Ready)</td><td style="text-align: right;"></td><td style="text-align: right;">2,677,217.8</td><td style="text-align: right;">+18.3%</td><td style="text-align: right;">2,625,117.9</td><td style="text-align: right;">+16.7%</td><td style="text-align: right;">2,508,837.9</td><td style="text-align: right;">+18.4%</td><td style="text-align: right;">2,469,044.3</td><td style="text-align: right;">+18.1%</td><td style="text-align: right;">2,263,131.8</td><td style="text-align: right;">+13.3%</td><td style="text-align: right;">2,249,113.6</td><td style="text-align: right;">+12.3%</td><td style="text-align: right;">2,118,395.5</td><td style="text-align: right;">+16.0%</td><td style="text-align: right;">2,090,682.1</td><td style="text-align: right;">+15.2%</td><td style="text-align: right;">1,998,013.4</td><td style="text-align: right;">+17.0%</td><td style="text-align: right;">2,003,246.0</td><td style="text-align: right;">+17.6%</td><td style="text-align: right;">1,825,499.1</td><td style="text-align: right;">+12.8%</td></tr>
+<tr><td style="text-align: left;">005930.KS</td><td style="text-align: left;">Samsung</td><td style="text-align: left;">Korea</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+</tbody>
+</table>
+
+#### Profit
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th><th colspan="2" style="text-align: center;">2026Q2</th><th colspan="2" style="text-align: center;">2026Q1</th><th colspan="2" style="text-align: center;">2025Q4</th><th colspan="2" style="text-align: center;">2025Q3</th><th colspan="2" style="text-align: center;">2025Q2</th><th colspan="2" style="text-align: center;">2025Q1</th><th colspan="2" style="text-align: center;">2024Q4</th><th colspan="2" style="text-align: center;">2024Q3</th><th colspan="2" style="text-align: center;">2024Q2</th><th colspan="2" style="text-align: center;">2024Q1</th><th colspan="2" style="text-align: center;">2023Q4</th><th colspan="2" style="text-align: center;">2023Q3</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th><th style="text-align: right;">Profit</th><th style="text-align: right;">Profit YoY</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">AAPL</td><td style="text-align: left;">Apple Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td><td style="text-align: right;">1,152,948.5</td><td style="text-align: right;">+26.6%</td><td style="text-align: right;">1,159,085.5</td><td style="text-align: right;">+21.3%</td><td style="text-align: right;">1,642,519.6</td><td style="text-align: right;">+18.7%</td><td style="text-align: right;">1,047,392.1</td><td style="text-align: right;">+9.6%</td><td style="text-align: right;">910,924.6</td><td style="text-align: right;">+11.2%</td><td style="text-align: right;">955,724.7</td><td style="text-align: right;">+6.1%</td><td style="text-align: right;">1,383,473.6</td><td style="text-align: right;">+6.1%</td><td style="text-align: right;">955,789.3</td><td style="text-align: right;">+28.7%</td><td style="text-align: right;">818,869.6</td><td style="text-align: right;">-10.5%</td><td style="text-align: right;">901,170.0</td><td style="text-align: right;">-1.5%</td><td style="text-align: right;">1,304,047.9</td><td style="text-align: right;">+12.1%</td><td style="text-align: right;">742,835.4</td><td style="text-align: right;">-7.6%</td></tr>
+<tr><td style="text-align: left;">GOOGL</td><td style="text-align: left;">Alphabet Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">1,316,871.0</td><td style="text-align: right;">+30.4%</td><td style="text-align: right;">1,282,180.8</td><td style="text-align: right;">+29.7%</td><td style="text-align: right;">1,162,864.6</td><td style="text-align: right;">+16.2%</td><td style="text-align: right;">1,008,664.4</td><td style="text-align: right;">+9.5%</td><td style="text-align: right;">1,010,053.3</td><td style="text-align: right;">+14.0%</td><td style="text-align: right;">988,573.8</td><td style="text-align: right;">+20.2%</td><td style="text-align: right;">1,000,395.6</td><td style="text-align: right;">+30.7%</td><td style="text-align: right;">921,228.3</td><td style="text-align: right;">+33.6%</td><td style="text-align: right;">885,827.5</td><td style="text-align: right;">+25.6%</td><td style="text-align: right;">822,745.6</td><td style="text-align: right;">+46.3%</td><td style="text-align: right;">765,413.1</td><td style="text-align: right;">+30.5%</td><td style="text-align: right;">689,378.9</td><td style="text-align: right;">+24.6%</td></tr>
+<tr><td style="text-align: left;">MSFT</td><td style="text-align: left;">Microsoft Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-01-29 (Ready)</td><td style="text-align: right;"></td><td style="text-align: right;">1,240,255.4</td><td style="text-align: right;">+20.0%</td><td style="text-align: right;">1,236,282.5</td><td style="text-align: right;">+20.9%</td><td style="text-align: right;">1,226,140.3</td><td style="text-align: right;">+24.3%</td><td style="text-align: right;">1,108,632.9</td><td style="text-align: right;">+22.9%</td><td style="text-align: right;">1,033,600.0</td><td style="text-align: right;">+16.0%</td><td style="text-align: right;">1,022,391.9</td><td style="text-align: right;">+17.1%</td><td style="text-align: right;">986,829.6</td><td style="text-align: right;">+13.6%</td><td style="text-align: right;">901,977.5</td><td style="text-align: right;">+15.1%</td><td style="text-align: right;">890,866.3</td><td style="text-align: right;">+23.4%</td><td style="text-align: right;">873,133.6</td><td style="text-align: right;">+32.5%</td><td style="text-align: right;">868,708.5</td><td style="text-align: right;">+25.0%</td></tr>
+<tr><td style="text-align: left;">005930.KS</td><td style="text-align: left;">Samsung</td><td style="text-align: left;">Korea</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+</tbody>
+</table>
+
+#### GM
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th><th style="text-align: center;">2026Q2</th><th style="text-align: center;">2026Q1</th><th style="text-align: center;">2025Q4</th><th style="text-align: center;">2025Q3</th><th style="text-align: center;">2025Q2</th><th style="text-align: center;">2025Q1</th><th style="text-align: center;">2024Q4</th><th style="text-align: center;">2024Q3</th><th style="text-align: center;">2024Q2</th><th style="text-align: center;">2024Q1</th><th style="text-align: center;">2023Q4</th><th style="text-align: center;">2023Q3</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th><th style="text-align: right;">GM</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">AAPL</td><td style="text-align: left;">Apple Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td><td style="text-align: right;">50.1%</td><td style="text-align: right;">49.3%</td><td style="text-align: right;">48.2%</td><td style="text-align: right;">47.2%</td><td style="text-align: right;">46.5%</td><td style="text-align: right;">47.1%</td><td style="text-align: right;">46.9%</td><td style="text-align: right;">46.2%</td><td style="text-align: right;">46.3%</td><td style="text-align: right;">46.6%</td><td style="text-align: right;">45.9%</td><td style="text-align: right;">44.5%</td></tr>
+<tr><td style="text-align: left;">GOOGL</td><td style="text-align: left;">Alphabet Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">61.6%</td><td style="text-align: right;">62.4%</td><td style="text-align: right;">59.8%</td><td style="text-align: right;">59.6%</td><td style="text-align: right;">59.5%</td><td style="text-align: right;">59.7%</td><td style="text-align: right;">57.9%</td><td style="text-align: right;">58.7%</td><td style="text-align: right;">58.1%</td><td style="text-align: right;">58.1%</td><td style="text-align: right;">56.5%</td><td style="text-align: right;">56.7%</td></tr>
+<tr><td style="text-align: left;">MSFT</td><td style="text-align: left;">Microsoft Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-01-29 (Ready)</td><td style="text-align: right;">67.6%</td><td style="text-align: right;">68.0%</td><td style="text-align: right;">69.0%</td><td style="text-align: right;">68.6%</td><td style="text-align: right;">68.7%</td><td style="text-align: right;">68.7%</td><td style="text-align: right;">69.4%</td><td style="text-align: right;">69.6%</td><td style="text-align: right;">70.1%</td><td style="text-align: right;">68.4%</td><td style="text-align: right;">71.2%</td></tr>
+<tr><td style="text-align: left;">005930.KS</td><td style="text-align: left;">Samsung</td><td style="text-align: left;">Korea</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+</tbody>
+</table>
+
+#### P/E
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th><th style="text-align: center;">2026Q2</th><th style="text-align: center;">2026Q1</th><th style="text-align: center;">2025Q4</th><th style="text-align: center;">2025Q3</th><th style="text-align: center;">2025Q2</th><th style="text-align: center;">2025Q1</th><th style="text-align: center;">2024Q4</th><th style="text-align: center;">2024Q3</th><th style="text-align: center;">2024Q2</th><th style="text-align: center;">2024Q1</th><th style="text-align: center;">2023Q4</th><th style="text-align: center;">2023Q3</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th><th style="text-align: right;">P/E Range</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">AAPL</td><td style="text-align: left;">Apple Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td><td style="text-align: right;">財報: 2026-07-30 (Ready)</td><td style="text-align: right;">財報: 2026-01-29 (Ready)</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+<tr><td style="text-align: left;">GOOGL</td><td style="text-align: left;">Alphabet Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: right;">財報: 2026-04-29 (Ready)</td><td style="text-align: right;">財報: 2026-02-04 (Ready)</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+<tr><td style="text-align: left;">MSFT</td><td style="text-align: left;">Microsoft Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-01-29 (Ready)</td><td style="text-align: right;">財報: 2026-04-29 (Ready)</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+<tr><td style="text-align: left;">005930.KS</td><td style="text-align: left;">Samsung</td><td style="text-align: left;">Korea</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
+</tbody>
+</table>
+
+Updated: 2026-08-07 08:41 CST

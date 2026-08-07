@@ -7,8 +7,8 @@
 
 ## 先進封裝
 
-- [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) — 39 家公司
-- [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) — 16 家公司
+- [![CoWoS](https://img.shields.io/badge/CoWoS-green)](CoWoS.md) — 40 家公司
+- [![HBM](https://img.shields.io/badge/HBM-green)](HBM.md) — 18 家公司
 - [![CPO](https://img.shields.io/badge/CPO-green)](CPO.md) — 14 家公司
 
 ## 半導體 / 儲存
@@ -25,10 +25,10 @@
 
 ## AI / 資料中心
 
-- [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) — 380 家公司
-- [![Hyperscalers](https://img.shields.io/badge/Hyperscalers-green)](Hyperscalers.md) — 72 家公司
+- [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) — 176 家公司
+- [![Hyperscalers](https://img.shields.io/badge/Hyperscalers-green)](Hyperscalers.md) — 76 家公司
 - [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) — 116 家公司
-- [![NVIDIA 供應鏈](https://img.shields.io/badge/NVIDIA%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](nvidia_supply_chain.md) — 115 家公司
+- [![NVIDIA 供應鏈](https://img.shields.io/badge/NVIDIA%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](nvidia_supply_chain.md) — 122 家公司
 
 ## 防禦型 / 殖利率
 
@@ -46,7 +46,7 @@
 
 ## 製程與設備
 
-- [![EUV](https://img.shields.io/badge/EUV-green)](EUV.md) — 11 家公司
+- [![EUV](https://img.shields.io/badge/EUV-green)](EUV.md) — 14 家公司
 
 ## 材料
 
@@ -57,10 +57,10 @@
 ## 產業與系統
 
 - [![工業電腦](https://img.shields.io/badge/%E5%B7%A5%E6%A5%AD%E9%9B%BB%E8%85%A6-green)](%E5%B7%A5%E6%A5%AD%E9%9B%BB%E8%85%A6.md) — 113 家公司
-- [![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](DRAM.md) — 149 家公司
+- [![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](DRAM.md) — 150 家公司
 
 ## 品牌供應鏈
 
-- [![Apple 供應鏈](https://img.shields.io/badge/Apple%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](apple_supply_chain.md) — 100 家公司
-- [![NVIDIA 供應鏈](https://img.shields.io/badge/NVIDIA%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](nvidia_supply_chain.md) — 115 家公司
+- [![Apple 供應鏈](https://img.shields.io/badge/Apple%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](apple_supply_chain.md) — 104 家公司
+- [![NVIDIA 供應鏈](https://img.shields.io/badge/NVIDIA%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](nvidia_supply_chain.md) — 122 家公司
 - [![Tesla 供應鏈](https://img.shields.io/badge/Tesla%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](tesla_supply_chain.md) — 55 家公司
