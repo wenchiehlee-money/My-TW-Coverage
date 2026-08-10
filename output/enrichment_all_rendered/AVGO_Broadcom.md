@@ -17,7 +17,6 @@ Broadcom (AVGO，Broadcom) 博通為全球半導體與企業軟體巨頭，在�
 - **Broadcom** — 高階 PCIe Switch、以太網交換晶片、Custom AI ASIC 設計與 VMware 軟體
 
 **下游:**
-- **主要平台:** Semiconductor solutions (~67.6477%), Infrastructure software (~32.3523%).
 - **Hyperscale CSP:** [![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md) (TPU 代工)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md) (AI ASIC)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)
 - **網通與伺服器 OEM:** [[思科]]、[![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![智邦](https://img.shields.io/badge/%E6%99%BA%E9%82%A6-blue)](2345_%E6%99%BA%E9%82%A6.md)
 
@@ -165,4 +164,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-08-10 03:34 CST
+Updated: 2026-08-11 03:55 CST
