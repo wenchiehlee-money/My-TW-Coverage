@@ -3,11 +3,6 @@
 > Co-Packaged Optics，將光學元件整合於晶片封裝中以突破頻寬瓶頸
 
 
-## 關鍵關注指標
-- **800G / 1.6T 光收發模組出貨量:** 資料中心由傳統插拔式向 1.6T 高速光模組升級。
-- **CPO 矽光子技術認證進度:** 主要晶片廠 (NVIDIA/Broadcom) 導入 CPO 架構時程。
-- **光纖陣列 (FA) 與矽光晶圓測試良率:** 光學耦合損失與高頻元件測試產出率。
-
 ---
 
 ## 相關公司 (14)
@@ -37,3 +32,27 @@
 
 **特殊工業機械** (1)
 - [![6706 惠特](https://img.shields.io/badge/6706%20%E6%83%A0%E7%89%B9-blue)](company/6706_%E6%83%A0%E7%89%B9.md) (市值: 7,391 百萬台幣)
+
+## 關鍵關注指標
+- **800G / 1.6T 光收發模組出貨量:** 資料中心由傳統插拔式向 1.6T 高速光模組升級。
+- **CPO 矽光子技術認證進度:** 主要晶片廠 (NVIDIA/Broadcom) 導入 CPO 架構時程。
+- **光纖陣列 (FA) 與矽光晶圓測試良率:** 光學耦合損失與高頻元件測試產出率。
+
+### 相關公司關鍵指標
+
+| 排名 | 公司 | 所屬分組 | 市值 (百萬台幣) |
+|---:|---|---|---:|
+| 1 | [![6515 穎崴](https://img.shields.io/badge/6515%20%E7%A9%8E%E5%B4%B4-blue)](company/6515_%E7%A9%8E%E5%B4%B4.md) | 半導體 | 195,146 百萬台幣 |
+| 2 | [![3081 聯亞](https://img.shields.io/badge/3081%20%E8%81%AF%E4%BA%9E-blue)](company/3081_%E8%81%AF%E4%BA%9E.md) | 半導體設備與材料 | 156,724 百萬台幣 |
+| 3 | [![3363 上詮](https://img.shields.io/badge/3363%20%E4%B8%8A%E8%A9%AE-blue)](company/3363_%E4%B8%8A%E8%A9%AE.md) | 通訊設備 | 55,172 百萬台幣 |
+| 4 | [![3450 聯鈞](https://img.shields.io/badge/3450%20%E8%81%AF%E9%88%9E-blue)](company/3450_%E8%81%AF%E9%88%9E.md) | 半導體 | 53,101 百萬台幣 |
+| 5 | [![3163 波若威](https://img.shields.io/badge/3163%20%E6%B3%A2%E8%8B%A5%E5%A8%81-blue)](company/3163_%E6%B3%A2%E8%8B%A5%E5%A8%81.md) | 通訊設備 | 49,684 百萬台幣 |
+| 6 | [![6269 台郡](https://img.shields.io/badge/6269%20%E5%8F%B0%E9%83%A1-blue)](company/6269_%E5%8F%B0%E9%83%A1.md) | 電子零組件 | 15,706 百萬台幣 |
+| 7 | [![4573 高明鐵](https://img.shields.io/badge/4573%20%E9%AB%98%E6%98%8E%E9%90%B5-blue)](company/4573_%E9%AB%98%E6%98%8E%E9%90%B5.md) | 電子零組件 | 13,709 百萬台幣 |
+| 8 | [![4908 前鼎](https://img.shields.io/badge/4908%20%E5%89%8D%E9%BC%8E-blue)](company/4908_%E5%89%8D%E9%BC%8E.md) | 通訊設備 | 9,816 百萬台幣 |
+| 9 | [![4977 眾達-KY](https://img.shields.io/badge/4977%20%E7%9C%BE%E9%81%94--KY-blue)](company/4977_%E7%9C%BE%E9%81%94-KY.md) | 電腦硬體 | 9,261 百萬台幣 |
+| 10 | [![6153 嘉聯益](https://img.shields.io/badge/6153%20%E5%98%89%E8%81%AF%E7%9B%8A-blue)](company/6153_%E5%98%89%E8%81%AF%E7%9B%8A.md) | 電子零組件 | 9,034 百萬台幣 |
+| 11 | [![3701 大眾控](https://img.shields.io/badge/3701%20%E5%A4%A7%E7%9C%BE%E6%8E%A7-blue)](company/3701_%E5%A4%A7%E7%9C%BE%E6%8E%A7.md) | 電腦硬體 | 8,306 百萬台幣 |
+| 12 | [![6706 惠特](https://img.shields.io/badge/6706%20%E6%83%A0%E7%89%B9-blue)](company/6706_%E6%83%A0%E7%89%B9.md) | 特殊工業機械 | 7,391 百萬台幣 |
+| 13 | [![6205 詮欣](https://img.shields.io/badge/6205%20%E8%A9%AE%E6%AC%A3-blue)](company/6205_%E8%A9%AE%E6%AC%A3.md) | 電子零組件 | 4,279 百萬台幣 |
+| 14 | [![6530 創威](https://img.shields.io/badge/6530%20%E5%89%B5%E5%A8%81-blue)](company/6530_%E5%89%B5%E5%A8%81.md) | 通訊設備 | 2,184 百萬台幣 |

@@ -711,15 +711,6 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             related_parts.append(f"{render_theme_badge(related_def)} ({count})")
     if theme_def.get("related_entities"):
         related_parts.extend(render_related_entity(str(entity), company_badge_index) for entity in theme_def.get("related_entities", []) or [])
-    if theme_def.get("key_metrics"):
-        lines.append("## 關鍵關注指標")
-        for km in theme_def.get("key_metrics", []) or []:
-            name = str(km.get("name") or "").strip()
-            desc = str(km.get("desc") or "").strip()
-            if name:
-                lines.append(f"- **{name}:** {desc}" if desc else f"- **{name}**")
-        lines.append("")
-
     lines.extend(["---", ""])
 
     def market_cap_value(item: dict[str, Any]) -> float:
@@ -775,6 +766,29 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             cap_label = str(item.get("market_cap_label") or "")
             context = f"市值: {cap_label}" if cap_label else ""
             lines.append(f"- {linked} ({context})" if context else f"- {linked}")
+        lines.append("")
+
+    if theme_def.get("key_metrics"):
+        lines.append("## 關鍵關注指標")
+        for km in theme_def.get("key_metrics", []) or []:
+            name = str(km.get("name") or "").strip()
+            desc = str(km.get("desc") or "").strip()
+            if name:
+                lines.append(f"- **{name}:** {desc}" if desc else f"- **{name}**")
+        lines.append("")
+
+        lines.append("### 相關公司關鍵指標")
+        lines.append("")
+        lines.append("| 排名 | 公司 | 所屬分組 | 市值 (百萬台幣) |")
+        lines.append("|---:|---|---|---:|")
+        ranked_items = sorted(merged.values(), key=lambda x: (-market_cap_value(x), str(x.get("ticker") or "")))
+        for rank, item in enumerate(ranked_items, start=1):
+            ticker = str(item.get("ticker") or "")
+            label = f"{item['ticker']} {item['company']}"
+            linked = render_company_badge(label, item["company_link"]) if item.get("company_link") else label
+            group_name = competitive_group_by_ticker.get(ticker) or translate_sector_label(plain_context_text(item.get("sector") or "")) or "其他"
+            cap_label = str(item.get("market_cap_label") or "-")
+            lines.append(f"| {rank} | {linked} | {group_name} | {cap_label} |")
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
