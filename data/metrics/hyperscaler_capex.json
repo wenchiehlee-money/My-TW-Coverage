@@ -2,7 +2,7 @@
   "metric": "Top 5 CSP 總資本支出 (CAPEX)",
   "desc": "AWS, MSFT, GOOGL, META, ORCL 最新一季總資本支出與年增率 (人工每季法說會後更新；「AI 機房」占比為管理層口頭揭露，無法由財報 API 自動抓取，故僅標註總 Capex)。",
   "unit": "USD Billion",
-  "source_note": "各公司官方財報/法說會新聞稿 (10-Q/8-K)。總 Capex 可由 ../ConceptStocks/raw_conceptstock_company_income.csv 的 capex 欄位交叉核對，惟該欄位為年度累計 (YTD) 口徑且 SEC/AlphaVantage 雙來源偶有落差，故本表採官方新聞稿數字為準。",
+  "source_note": "人工從各公司官方財報新聞稿/法說會 (10-Q/8-K) 逐筆查證填入，並非從 ../ConceptStocks/raw_conceptstock_company_income.csv 自動抓取或換算。該檔案的 capex 欄位口徑不穩定 (同一公司不同季度可能是單季、可能是年度累計，且 SEC/AlphaVantage 雙來源偶有落差)，已驗證對 Oracle 若用『FY 全年 - Q3』反推 Q4 會得到 $37.0B，與官方揭露的單季 $15.9B 相差超過 2 倍，故本表不採用該欄位，僅供未來交叉核對的參考來源。",
   "updated_at": "2026-08-17",
   "rows": [
     {
