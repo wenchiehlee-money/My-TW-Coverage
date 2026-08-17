@@ -25,7 +25,8 @@
   "key_metrics": [
     {
       "name": "Top 5 CSP 總資本支出 (CAPEX)",
-      "desc": "AWS, MSFT, GOOGL, META, ORCL 季度 AI 機房 Capex 成長率。"
+      "desc": "AWS, MSFT, GOOGL, META, ORCL 季度 AI 機房 Capex 成長率。",
+      "data_ref": "data/metrics/hyperscaler_capex.json"
     },
     {
       "name": "ASIC / 自研 AI 晶片出貨占比",
@@ -43,7 +44,8 @@
         "AMZN",
         "MSFT",
         "GOOGL",
-        "META"
+        "META",
+        "ORCL"
       ]
     },
     {
@@ -134,6 +136,12 @@
       "company": "Meta",
       "role": "related",
       "sector": "Hyperscaler / 雲端巨頭 (Meta)"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "role": "related",
+      "sector": "Hyperscaler / 雲端巨頭 (OCI)"
     }
   ]
 }

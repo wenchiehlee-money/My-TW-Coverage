@@ -20,6 +20,7 @@ import os
 import re
 import sys
 from collections import defaultdict
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -86,6 +87,49 @@ def render_theme_badge(theme_def: dict[str, Any], href: str | None = None, label
 
 def render_company_badge(label: str, target: str) -> str:
     return render_badge_link(label, target, "blue", quote_target=False)
+
+
+@lru_cache(maxsize=None)
+def load_key_metric_data(data_ref: str) -> dict[str, Any] | None:
+    path = PROJECT_ROOT / data_ref
+    if not path.is_file():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def render_key_metric_data_table(data_ref: str) -> list[str]:
+    """Render a curated numeric data table for a key_metrics entry's 'data_ref' JSON.
+
+    See data/metrics/*.json for the schema (rows of ticker/company/period/
+    capex_usd_b/yoy_pct/fy_guidance_usd_b/source_url). Manually curated from
+    official earnings releases each quarter — not auto-extracted, since the
+    "AI 機房" split isn't machine-readable from any filing.
+    """
+    payload = load_key_metric_data(data_ref)
+    if not payload or not payload.get("rows"):
+        return [f"> (數據待更新: `{data_ref}`)"]
+    lines = [
+        f"> 資料來源: 各公司官方財報/法說會新聞稿 | 更新日: {payload.get('updated_at', '-')} | 單位: {payload.get('unit', '-')}",
+        "",
+        "| 公司 | 最新季度 | Capex | 去年同期 | YoY | FY 財測 |",
+        "|---|---|---:|---:|---:|---:|",
+    ]
+    for row in payload["rows"]:
+        capex = row.get("capex_usd_b")
+        prior = row.get("capex_prior_year_usd_b")
+        yoy = row.get("yoy_pct")
+        guidance = row.get("fy_guidance_usd_b")
+        capex_s = f"${capex:,.1f}B" if isinstance(capex, (int, float)) else "-"
+        prior_s = f"${prior:,.1f}B" if isinstance(prior, (int, float)) else "-"
+        yoy_s = f"+{yoy:.0f}%" if isinstance(yoy, (int, float)) else "-"
+        guidance_s = f"${guidance:,.0f}B" if isinstance(guidance, (int, float)) else "-"
+        company = str(row.get("company") or row.get("ticker") or "").strip()
+        period = str(row.get("period") or "").strip()
+        lines.append(f"| {company} | {period} | {capex_s} | {prior_s} | {yoy_s} | {guidance_s} |")
+    return lines
 
 
 def normalized_entity_key(value: str) -> str:
@@ -775,6 +819,10 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             desc = str(km.get("desc") or "").strip()
             if name:
                 lines.append(f"- **{name}:** {desc}" if desc else f"- **{name}**")
+            data_ref = str(km.get("data_ref") or "").strip()
+            if data_ref:
+                lines.append("")
+                lines.extend(render_key_metric_data_table(data_ref))
         lines.append("")
 
         lines.append("### 相關公司關鍵指標")

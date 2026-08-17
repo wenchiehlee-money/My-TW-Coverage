@@ -1,0 +1,59 @@
+{
+  "metric": "Top 5 CSP 總資本支出 (CAPEX)",
+  "desc": "AWS, MSFT, GOOGL, META, ORCL 最新一季總資本支出與年增率 (人工每季法說會後更新；「AI 機房」占比為管理層口頭揭露，無法由財報 API 自動抓取，故僅標註總 Capex)。",
+  "unit": "USD Billion",
+  "source_note": "各公司官方財報/法說會新聞稿 (10-Q/8-K)。總 Capex 可由 ../ConceptStocks/raw_conceptstock_company_income.csv 的 capex 欄位交叉核對，惟該欄位為年度累計 (YTD) 口徑且 SEC/AlphaVantage 雙來源偶有落差，故本表採官方新聞稿數字為準。",
+  "updated_at": "2026-08-17",
+  "rows": [
+    {
+      "ticker": "AMZN",
+      "company": "Amazon (AWS)",
+      "period": "CY2026 Q2 (2026-06-30)",
+      "capex_usd_b": 54.2,
+      "capex_prior_year_usd_b": 32.1,
+      "yoy_pct": 68.8,
+      "fy_guidance_usd_b": 220,
+      "source_url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft (Azure)",
+      "period": "FY2026 Q4 (2026-06-30)",
+      "capex_usd_b": 41.0,
+      "capex_prior_year_usd_b": 24.2,
+      "yoy_pct": 69.4,
+      "fy_guidance_usd_b": 190,
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet (Google Cloud)",
+      "period": "CY2026 Q2 (2026-06-30)",
+      "capex_usd_b": 44.9,
+      "capex_prior_year_usd_b": 22.4,
+      "yoy_pct": 100.4,
+      "fy_guidance_usd_b": 200,
+      "source_url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "period": "CY2026 Q2 (2026-06-30)",
+      "capex_usd_b": 31.1,
+      "capex_prior_year_usd_b": 17.0,
+      "yoy_pct": 82.8,
+      "fy_guidance_usd_b": 137.5,
+      "source_url": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle (OCI)",
+      "period": "FY2026 全年 (2026-05-31)",
+      "capex_usd_b": 55.7,
+      "capex_prior_year_usd_b": 21.2,
+      "yoy_pct": 162.7,
+      "fy_guidance_usd_b": 92.5,
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+    }
+  ]
+}
