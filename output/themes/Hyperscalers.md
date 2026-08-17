@@ -135,7 +135,7 @@
 | Microsoft (Azure) | FY2026 Q4 (2026-06-30) | $41.0B | $24.2B | +69% | $190B |
 | Alphabet (Google Cloud) | CY2026 Q2 (2026-06-30) | $44.9B | $22.4B | +100% | $200B |
 | Meta | CY2026 Q2 (2026-06-30) | $31.1B | $17.0B | +83% | $138B |
-| Oracle (OCI) | FY2026 全年 (2026-05-31) | $55.7B | $21.2B | +163% | $92B |
+| Oracle (OCI) | FY2026 Q4 (2026-05-31) | $15.9B | $9.1B | +75% | $92B |
 - **ASIC / 自研 AI 晶片出貨占比:** Google TPU, Amazon Trainium/Inferentia, Meta MTIA, MSFT Maia 滲透率。
 - **水冷/液冷機櫃 (Liquid Cooling Rack) 採用率:** 包含 NVL72/NVL36 等 100kW+ 高功耗機櫃水冷板與 CDU 拉貨。
 
