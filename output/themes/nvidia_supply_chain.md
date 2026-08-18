@@ -5,7 +5,7 @@
 
 ---
 
-## 相關公司 (122)
+## 相關公司 (123)
 
 **Semiconductors & Consumer Electronics** (1)
 - [![005930.KS Samsung](https://img.shields.io/badge/005930.KS%20Samsung-blue)](company/005930.KS_Samsung.md) (市值: 420,000,000 百萬韓元)
@@ -127,6 +127,9 @@
 - [![2059 川湖](https://img.shields.io/badge/2059%20%E5%B7%9D%E6%B9%96-blue)](company/2059_%E5%B7%9D%E6%B9%96.md) (市值: 680,897 百萬台幣)
 - [![6584 南俊國際](https://img.shields.io/badge/6584%20%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B-blue)](company/6584_%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B.md) (市值: 30,649 百萬台幣)
 
+**Software & Cloud Infrastructure** (1)
+- [![ORCL Oracle](https://img.shields.io/badge/ORCL%20Oracle-blue)](company/ORCL_Oracle.md) (市值: 433,560 百萬美元)
+
 **電氣設備與零件** (2)
 - [![3665 貿聯-KY](https://img.shields.io/badge/3665%20%E8%B2%BF%E8%81%AF--KY-blue)](company/3665_%E8%B2%BF%E8%81%AF-KY.md) (市值: 407,714 百萬台幣)
 - [![2438 翔耀](https://img.shields.io/badge/2438%20%E7%BF%94%E8%80%80-blue)](company/2438_%E7%BF%94%E8%80%80.md) (市值: 1,132 百萬台幣)
@@ -216,101 +219,102 @@
 | 22 | [![2395 研華](https://img.shields.io/badge/2395%20%E7%A0%94%E8%8F%AF-blue)](company/2395_%E7%A0%94%E8%8F%AF.md) | 電腦硬體 | 477,540 百萬台幣 |
 | 23 | [![6223 旺矽](https://img.shields.io/badge/6223%20%E6%97%BA%E7%9F%BD-blue)](company/6223_%E6%97%BA%E7%9F%BD.md) | 半導體設備與材料 | 469,330 百萬台幣 |
 | 24 | [![4958 臻鼎-KY](https://img.shields.io/badge/4958%20%E8%87%BB%E9%BC%8E--KY-blue)](company/4958_%E8%87%BB%E9%BC%8E-KY.md) | 電子零組件 | 436,626 百萬台幣 |
-| 25 | [![3665 貿聯-KY](https://img.shields.io/badge/3665%20%E8%B2%BF%E8%81%AF--KY-blue)](company/3665_%E8%B2%BF%E8%81%AF-KY.md) | 電氣設備與零件 | 407,714 百萬台幣 |
-| 26 | [![2379 瑞昱](https://img.shields.io/badge/2379%20%E7%91%9E%E6%98%B1-blue)](company/2379_%E7%91%9E%E6%98%B1.md) | 半導體 | 378,493 百萬台幣 |
-| 27 | [![3045 台灣大](https://img.shields.io/badge/3045%20%E5%8F%B0%E7%81%A3%E5%A4%A7-blue)](company/3045_%E5%8F%B0%E7%81%A3%E5%A4%A7.md) | 特殊零售 | 343,999 百萬台幣 |
-| 28 | [![3189 景碩](https://img.shields.io/badge/3189%20%E6%99%AF%E7%A2%A9-blue)](company/3189_%E6%99%AF%E7%A2%A9.md) | 半導體設備與材料 | 303,503 百萬台幣 |
-| 29 | [![2449 京元電子](https://img.shields.io/badge/2449%20%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90-blue)](company/2449_%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90.md) | 半導體 | 272,825 百萬台幣 |
-| 30 | [![4938 和碩](https://img.shields.io/badge/4938%20%E5%92%8C%E7%A2%A9-blue)](company/4938_%E5%92%8C%E7%A2%A9.md) | 電腦硬體 | 219,928 百萬台幣 |
-| 31 | [![2356 英業達](https://img.shields.io/badge/2356%20%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](company/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md) | 電腦硬體 | 216,325 百萬台幣 |
-| 32 | [![2376 技嘉](https://img.shields.io/badge/2376%20%E6%8A%80%E5%98%89-blue)](company/2376_%E6%8A%80%E5%98%89.md) | 電腦硬體 | 215,369 百萬台幣 |
-| 33 | [![2337 旺宏](https://img.shields.io/badge/2337%20%E6%97%BA%E5%AE%8F-blue)](company/2337_%E6%97%BA%E5%AE%8F.md) | 半導體 | 196,771 百萬台幣 |
-| 34 | [![6515 穎崴](https://img.shields.io/badge/6515%20%E7%A9%8E%E5%B4%B4-blue)](company/6515_%E7%A9%8E%E5%B4%B4.md) | 半導體 | 195,146 百萬台幣 |
-| 35 | [![3533 嘉澤](https://img.shields.io/badge/3533%20%E5%98%89%E6%BE%A4-blue)](company/3533_%E5%98%89%E6%BE%A4.md) | 電子零組件 | 193,584 百萬台幣 |
-| 36 | [![6239 力成](https://img.shields.io/badge/6239%20%E5%8A%9B%E6%88%90-blue)](company/6239_%E5%8A%9B%E6%88%90.md) | 半導體 | 172,140 百萬台幣 |
-| 37 | [![2324 仁寶](https://img.shields.io/badge/2324%20%E4%BB%81%E5%AF%B6-blue)](company/2324_%E4%BB%81%E5%AF%B6.md) | 電腦硬體 | 148,361 百萬台幣 |
-| 38 | [![8210 勤誠](https://img.shields.io/badge/8210%20%E5%8B%A4%E8%AA%A0-blue)](company/8210_%E5%8B%A4%E8%AA%A0.md) | 電腦硬體 | 122,938 百萬台幣 |
-| 39 | [![MU Micron](https://img.shields.io/badge/MU%20Micron-blue)](company/MU_Micron.md) | 半導體 | 122,000 百萬美元 |
-| 40 | [![0992.HK 聯想集團](https://img.shields.io/badge/0992.HK%20%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98-blue)](company/0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md) | Computer Hardware & Servers | 118,500 百萬港幣 |
-| 41 | [![2377 微星](https://img.shields.io/badge/2377%20%E5%BE%AE%E6%98%9F-blue)](company/2377_%E5%BE%AE%E6%98%9F.md) | 電腦硬體 | 116,168 百萬台幣 |
-| 42 | [![3706 神達](https://img.shields.io/badge/3706%20%E7%A5%9E%E9%81%94-blue)](company/3706_%E7%A5%9E%E9%81%94.md) | 電腦硬體 | 113,211 百萬台幣 |
-| 43 | [![5289 宜鼎](https://img.shields.io/badge/5289%20%E5%AE%9C%E9%BC%8E-blue)](company/5289_%E5%AE%9C%E9%BC%8E.md) | 電腦硬體 | 111,751 百萬台幣 |
-| 44 | [![6531 愛普](https://img.shields.io/badge/6531%20%E6%84%9B%E6%99%AE-blue)](company/6531_%E6%84%9B%E6%99%AE.md) | 半導體 | 102,105 百萬台幣 |
-| 45 | [![6213 聯茂](https://img.shields.io/badge/6213%20%E8%81%AF%E8%8C%82-blue)](company/6213_%E8%81%AF%E8%8C%82.md) | 電子零組件 | 90,503 百萬台幣 |
-| 46 | [![2353 宏碁](https://img.shields.io/badge/2353%20%E5%AE%8F%E7%A2%81-blue)](company/2353_%E5%AE%8F%E7%A2%81.md) | 電腦硬體 | 86,128 百萬台幣 |
-| 47 | [![3324 雙鴻](https://img.shields.io/badge/3324%20%E9%9B%99%E9%B4%BB-blue)](company/3324_%E9%9B%99%E9%B4%BB.md) | 電子零組件 | 78,296 百萬台幣 |
-| 48 | [![6510 精測](https://img.shields.io/badge/6510%20%E7%B2%BE%E6%B8%AC-blue)](company/6510_%E7%B2%BE%E6%B8%AC.md) | 半導體設備與材料 | 77,710 百萬台幣 |
-| 49 | [![8358 金居](https://img.shields.io/badge/8358%20%E9%87%91%E5%B1%85-blue)](company/8358_%E9%87%91%E5%B1%85.md) | 電子零組件 | 76,000 百萬台幣 |
-| 50 | [![6414 樺漢](https://img.shields.io/badge/6414%20%E6%A8%BA%E6%BC%A2-blue)](company/6414_%E6%A8%BA%E6%BC%A2.md) | 電腦硬體 | 63,679 百萬台幣 |
-| 51 | [![7861 貝爾威勒](https://img.shields.io/badge/7861%20%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92-blue)](company/7861_%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92.md) | 電子零組件 | 60,853 百萬台幣 |
-| 52 | [![3363 上詮](https://img.shields.io/badge/3363%20%E4%B8%8A%E8%A9%AE-blue)](company/3363_%E4%B8%8A%E8%A9%AE.md) | 通訊設備 | 55,172 百萬台幣 |
-| 53 | [![3163 波若威](https://img.shields.io/badge/3163%20%E6%B3%A2%E8%8B%A5%E5%A8%81-blue)](company/3163_%E6%B3%A2%E8%8B%A5%E5%A8%81.md) | 通訊設備 | 49,684 百萬台幣 |
-| 54 | [![8039 台虹](https://img.shields.io/badge/8039%20%E5%8F%B0%E8%99%B9-blue)](company/8039_%E5%8F%B0%E8%99%B9.md) | 電子零組件 | 46,274 百萬台幣 |
-| 55 | [![2504 國產](https://img.shields.io/badge/2504%20%E5%9C%8B%E7%94%A2-blue)](company/2504_%E5%9C%8B%E7%94%A2.md) | 建材 | 37,131 百萬台幣 |
-| 56 | [![6197 佳必琪](https://img.shields.io/badge/6197%20%E4%BD%B3%E5%BF%85%E7%90%AA-blue)](company/6197_%E4%BD%B3%E5%BF%85%E7%90%AA.md) | 電腦硬體 | 33,879 百萬台幣 |
-| 57 | [![6584 南俊國際](https://img.shields.io/badge/6584%20%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B-blue)](company/6584_%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B.md) | 家具家飾與家電 | 30,649 百萬台幣 |
-| 58 | [![6166 凌華](https://img.shields.io/badge/6166%20%E5%87%8C%E8%8F%AF-blue)](company/6166_%E5%87%8C%E8%8F%AF.md) | 電腦硬體 | 30,280 百萬台幣 |
-| 59 | [![6579 研揚](https://img.shields.io/badge/6579%20%E7%A0%94%E6%8F%9A-blue)](company/6579_%E7%A0%94%E6%8F%9A.md) | 電腦硬體 | 26,773 百萬台幣 |
-| 60 | [![HPE HPE](https://img.shields.io/badge/HPE%20HPE-blue)](company/HPE_HPE.md) | Computer Hardware & Servers | 25,400 百萬美元 |
-| 61 | [![2362 藍天](https://img.shields.io/badge/2362%20%E8%97%8D%E5%A4%A9-blue)](company/2362_%E8%97%8D%E5%A4%A9.md) | 電腦硬體 | 24,189 百萬台幣 |
-| 62 | [![3515 華擎](https://img.shields.io/badge/3515%20%E8%8F%AF%E6%93%8E-blue)](company/3515_%E8%8F%AF%E6%93%8E.md) | 電腦硬體 | 23,535 百萬台幣 |
-| 63 | [![6715 嘉基](https://img.shields.io/badge/6715%20%E5%98%89%E5%9F%BA-blue)](company/6715_%E5%98%89%E5%9F%BA.md) | 通訊設備 | 21,604 百萬台幣 |
-| 64 | [![7711 永擎](https://img.shields.io/badge/7711%20%E6%B0%B8%E6%93%8E-blue)](company/7711_%E6%B0%B8%E6%93%8E.md) | 電腦硬體 | 20,206 百萬台幣 |
-| 65 | [![3693 營邦](https://img.shields.io/badge/3693%20%E7%87%9F%E9%82%A6-blue)](company/3693_%E7%87%9F%E9%82%A6.md) | 電腦硬體 | 18,465 百萬台幣 |
-| 66 | [![5607 遠雄港](https://img.shields.io/badge/5607%20%E9%81%A0%E9%9B%84%E6%B8%AF-blue)](company/5607_%E9%81%A0%E9%9B%84%E6%B8%AF.md) | 特殊商業服務 | 18,194 百萬台幣 |
-| 67 | [![6188 廣明](https://img.shields.io/badge/6188%20%E5%BB%A3%E6%98%8E-blue)](company/6188_%E5%BB%A3%E6%98%8E.md) | 電腦硬體 | 17,926 百萬台幣 |
-| 68 | [![2480 敦陽科](https://img.shields.io/badge/2480%20%E6%95%A6%E9%99%BD%E7%A7%91-blue)](company/2480_%E6%95%A6%E9%99%BD%E7%A7%91.md) | 電腦硬體 | 16,592 百萬台幣 |
-| 69 | [![3029 零壹](https://img.shields.io/badge/3029%20%E9%9B%B6%E5%A3%B9-blue)](company/3029_%E9%9B%B6%E5%A3%B9.md) | 電腦硬體 | 16,405 百萬台幣 |
-| 70 | [![8114 振樺電](https://img.shields.io/badge/8114%20%E6%8C%AF%E6%A8%BA%E9%9B%BB-blue)](company/8114_%E6%8C%AF%E6%A8%BA%E9%9B%BB.md) | 商用設備與用品 | 15,984 百萬台幣 |
-| 71 | [![6269 台郡](https://img.shields.io/badge/6269%20%E5%8F%B0%E9%83%A1-blue)](company/6269_%E5%8F%B0%E9%83%A1.md) | 電子零組件 | 15,706 百萬台幣 |
-| 72 | [![3013 晟銘電](https://img.shields.io/badge/3013%20%E6%99%9F%E9%8A%98%E9%9B%BB-blue)](company/3013_%E6%99%9F%E9%8A%98%E9%9B%BB.md) | 電腦硬體 | 15,488 百萬台幣 |
-| 73 | [![3587 閎康](https://img.shields.io/badge/3587%20%E9%96%8E%E5%BA%B7-blue)](company/3587_%E9%96%8E%E5%BA%B7.md) | 科學與技術儀器 | 15,013 百萬台幣 |
-| 74 | [![7749 意騰-KY](https://img.shields.io/badge/7749%20%E6%84%8F%E9%A8%B0--KY-blue)](company/7749_%E6%84%8F%E9%A8%B0-KY.md) | 基礎架構軟體 | 14,480 百萬台幣 |
-| 75 | [![5475 德宏](https://img.shields.io/badge/5475%20%E5%BE%B7%E5%AE%8F-blue)](company/5475_%E5%BE%B7%E5%AE%8F.md) | 紡織製造 | 13,857 百萬台幣 |
-| 76 | [![3605 宏致](https://img.shields.io/badge/3605%20%E5%AE%8F%E8%87%B4-blue)](company/3605_%E5%AE%8F%E8%87%B4.md) | 電子零組件 | 13,505 百萬台幣 |
-| 77 | [![3209 全科](https://img.shields.io/badge/3209%20%E5%85%A8%E7%A7%91-blue)](company/3209_%E5%85%A8%E7%A7%91.md) | 通訊設備 | 12,570 百萬台幣 |
-| 78 | [![8042 金山電](https://img.shields.io/badge/8042%20%E9%87%91%E5%B1%B1%E9%9B%BB-blue)](company/8042_%E9%87%91%E5%B1%B1%E9%9B%BB.md) | 電子零組件 | 12,351 百萬台幣 |
-| 79 | [![8050 廣積](https://img.shields.io/badge/8050%20%E5%BB%A3%E7%A9%8D-blue)](company/8050_%E5%BB%A3%E7%A9%8D.md) | 電腦硬體 | 12,112 百萬台幣 |
-| 80 | [![6189 豐藝](https://img.shields.io/badge/6189%20%E8%B1%90%E8%97%9D-blue)](company/6189_%E8%B1%90%E8%97%9D.md) | 電子與電腦通路 | 12,068 百萬台幣 |
-| 81 | [![3048 益登](https://img.shields.io/badge/3048%20%E7%9B%8A%E7%99%BB-blue)](company/3048_%E7%9B%8A%E7%99%BB.md) | 電子與電腦通路 | 11,926 百萬台幣 |
-| 82 | [![5340 建榮](https://img.shields.io/badge/5340%20%E5%BB%BA%E6%A6%AE-blue)](company/5340_%E5%BB%BA%E6%A6%AE.md) | 紡織製造 | 11,557 百萬台幣 |
-| 83 | [![6245 立端](https://img.shields.io/badge/6245%20%E7%AB%8B%E7%AB%AF-blue)](company/6245_%E7%AB%8B%E7%AB%AF.md) | 通訊設備 | 11,347 百萬台幣 |
-| 84 | [![6190 萬泰科](https://img.shields.io/badge/6190%20%E8%90%AC%E6%B3%B0%E7%A7%91-blue)](company/6190_%E8%90%AC%E6%B3%B0%E7%A7%91.md) | 通訊設備 | 10,831 百萬台幣 |
-| 85 | [![2331 精英](https://img.shields.io/badge/2331%20%E7%B2%BE%E8%8B%B1-blue)](company/2331_%E7%B2%BE%E8%8B%B1.md) | 電腦硬體 | 9,922 百萬台幣 |
-| 86 | [![6231 系微](https://img.shields.io/badge/6231%20%E7%B3%BB%E5%BE%AE-blue)](company/6231_%E7%B3%BB%E5%BE%AE.md) | 應用軟體 | 9,199 百萬台幣 |
-| 87 | [![3689 湧德](https://img.shields.io/badge/3689%20%E6%B9%A7%E5%BE%B7-blue)](company/3689_%E6%B9%A7%E5%BE%B7.md) | 電子零組件 | 8,888 百萬台幣 |
-| 88 | [![3709 鑫聯大投控](https://img.shields.io/badge/3709%20%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7-blue)](company/3709_%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7.md) | 電子與電腦通路 | 8,672 百萬台幣 |
-| 89 | [![6227 茂綸](https://img.shields.io/badge/6227%20%E8%8C%82%E7%B6%B8-blue)](company/6227_%E8%8C%82%E7%B6%B8.md) | 電子與電腦通路 | 8,448 百萬台幣 |
-| 90 | [![8234 新漢](https://img.shields.io/badge/8234%20%E6%96%B0%E6%BC%A2-blue)](company/8234_%E6%96%B0%E6%BC%A2.md) | 電腦硬體 | 8,346 百萬台幣 |
-| 91 | [![6207 雷科](https://img.shields.io/badge/6207%20%E9%9B%B7%E7%A7%91-blue)](company/6207_%E9%9B%B7%E7%A7%91.md) | 電子零組件 | 7,513 百萬台幣 |
-| 92 | [![2465 麗臺](https://img.shields.io/badge/2465%20%E9%BA%97%E8%87%BA-blue)](company/2465_%E9%BA%97%E8%87%BA.md) | 電腦硬體 | 6,820 百萬台幣 |
-| 93 | [![6834 天二科技](https://img.shields.io/badge/6834%20%E5%A4%A9%E4%BA%8C%E7%A7%91%E6%8A%80-blue)](company/6834_%E5%A4%A9%E4%BA%8C%E7%A7%91%E6%8A%80.md) | 電子零組件 | 6,556 百萬台幣 |
-| 94 | [![6933 AMAX-KY](https://img.shields.io/badge/6933%20AMAX--KY-blue)](company/6933_AMAX-KY.md) | 電腦硬體 | 6,273 百萬台幣 |
-| 95 | [![2397 友通](https://img.shields.io/badge/2397%20%E5%8F%8B%E9%80%9A-blue)](company/2397_%E5%8F%8B%E9%80%9A.md) | 電腦硬體 | 6,182 百萬台幣 |
-| 96 | [![6862 三集瑞-KY](https://img.shields.io/badge/6862%20%E4%B8%89%E9%9B%86%E7%91%9E--KY-blue)](company/6862_%E4%B8%89%E9%9B%86%E7%91%9E-KY.md) | 電子零組件 | 6,025 百萬台幣 |
-| 97 | [![6117 迎廣](https://img.shields.io/badge/6117%20%E8%BF%8E%E5%BB%A3-blue)](company/6117_%E8%BF%8E%E5%BB%A3.md) | 電腦硬體 | 6,015 百萬台幣 |
-| 98 | [![2399 映泰](https://img.shields.io/badge/2399%20%E6%98%A0%E6%B3%B0-blue)](company/2399_%E6%98%A0%E6%B3%B0.md) | 電腦硬體 | 5,779 百萬台幣 |
-| 99 | [![6203 海韻電](https://img.shields.io/badge/6203%20%E6%B5%B7%E9%9F%BB%E9%9B%BB-blue)](company/6203_%E6%B5%B7%E9%9F%BB%E9%9B%BB.md) | 電子零組件 | 5,315 百萬台幣 |
-| 100 | [![5474 聰泰](https://img.shields.io/badge/5474%20%E8%81%B0%E6%B3%B0-blue)](company/5474_%E8%81%B0%E6%B3%B0.md) | 電子零組件 | 5,248 百萬台幣 |
-| 101 | [![5203 訊連](https://img.shields.io/badge/5203%20%E8%A8%8A%E9%80%A3-blue)](company/5203_%E8%A8%8A%E9%80%A3.md) | 應用軟體 | 4,888 百萬台幣 |
-| 102 | [![4549 桓達](https://img.shields.io/badge/4549%20%E6%A1%93%E9%81%94-blue)](company/4549_%E6%A1%93%E9%81%94.md) | 科學與技術儀器 | 4,879 百萬台幣 |
-| 103 | [![3594 磐儀](https://img.shields.io/badge/3594%20%E7%A3%90%E5%84%80-blue)](company/3594_%E7%A3%90%E5%84%80.md) | 電腦硬體 | 4,836 百萬台幣 |
-| 104 | [![6776 展�眥篕�](https://img.shields.io/badge/6776%20%E5%B1%95%EF%BF%BD%E7%9C%A5%E7%AF%95%EF%BF%BD-blue)](company/6776_%E5%B1%95%EF%BF%BD%E7%9C%A5%E7%AF%95%EF%BF%BD.md) | 電子與電腦通路 | 4,735 百萬台幣 |
-| 105 | [![6922 宸曜](https://img.shields.io/badge/6922%20%E5%AE%B8%E6%9B%9C-blue)](company/6922_%E5%AE%B8%E6%9B%9C.md) | 電腦硬體 | 4,562 百萬台幣 |
-| 106 | [![2425 承啟](https://img.shields.io/badge/2425%20%E6%89%BF%E5%95%9F-blue)](company/2425_%E6%89%BF%E5%95%9F.md) | 電腦硬體 | 4,260 百萬台幣 |
-| 107 | [![6994 富威電力](https://img.shields.io/badge/6994%20%E5%AF%8C%E5%A8%81%E9%9B%BB%E5%8A%9B-blue)](company/6994_%E5%AF%8C%E5%A8%81%E9%9B%BB%E5%8A%9B.md) | 再生能源公用事業 | 2,804 百萬台幣 |
-| 108 | [![5484 慧友](https://img.shields.io/badge/5484%20%E6%85%A7%E5%8F%8B-blue)](company/5484_%E6%85%A7%E5%8F%8B.md) | 保全與防護服務 | 2,508 百萬台幣 |
-| 109 | [![2256 歐特明](https://img.shields.io/badge/2256%20%E6%AD%90%E7%89%B9%E6%98%8E-blue)](company/2256_%E6%AD%90%E7%89%B9%E6%98%8E.md) | 汽車零組件 | 2,394 百萬台幣 |
-| 110 | [![6591 動力-KY](https://img.shields.io/badge/6591%20%E5%8B%95%E5%8A%9B--KY-blue)](company/6591_%E5%8B%95%E5%8A%9B-KY.md) | 電腦硬體 | 1,739 百萬台幣 |
-| 111 | [![3540 曜越](https://img.shields.io/badge/3540%20%E6%9B%9C%E8%B6%8A-blue)](company/3540_%E6%9B%9C%E8%B6%8A.md) | 電腦硬體 | 1,634 百萬台幣 |
-| 112 | [![7547 碩網](https://img.shields.io/badge/7547%20%E7%A2%A9%E7%B6%B2-blue)](company/7547_%E7%A2%A9%E7%B6%B2.md) | 基礎架構軟體 | 1,530 百萬台幣 |
-| 113 | [![6825 和暢科技](https://img.shields.io/badge/6825%20%E5%92%8C%E6%9A%A2%E7%A7%91%E6%8A%80-blue)](company/6825_%E5%92%8C%E6%9A%A2%E7%A7%91%E6%8A%80.md) | 電腦硬體 | 1,339 百萬台幣 |
-| 114 | [![6680 鑫創電子](https://img.shields.io/badge/6680%20%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90-blue)](company/6680_%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90.md) | 電腦硬體 | 1,320 百萬台幣 |
-| 115 | [![2438 翔耀](https://img.shields.io/badge/2438%20%E7%BF%94%E8%80%80-blue)](company/2438_%E7%BF%94%E8%80%80.md) | 電氣設備與零件 | 1,132 百萬台幣 |
-| 116 | [![6806 森崴能源](https://img.shields.io/badge/6806%20%E6%A3%AE%E5%B4%B4%E8%83%BD%E6%BA%90-blue)](company/6806_%E6%A3%AE%E5%B4%B4%E8%83%BD%E6%BA%90.md) | 再生能源公用事業 | 964 百萬台幣 |
-| 117 | [![5230 雷笛克光學](https://img.shields.io/badge/5230%20%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8-blue)](company/5230_%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8.md) | 電子零組件 | 931 百萬台幣 |
-| 118 | [![4550 長佳](https://img.shields.io/badge/4550%20%E9%95%B7%E4%BD%B3-blue)](company/4550_%E9%95%B7%E4%BD%B3.md) | 健康資訊服務 | 921 百萬台幣 |
-| 119 | [![6512 啟發電](https://img.shields.io/badge/6512%20%E5%95%9F%E7%99%BC%E9%9B%BB-blue)](company/6512_%E5%95%9F%E7%99%BC%E9%9B%BB.md) | 電子零組件 | 498 百萬台幣 |
-| 120 | [![6882 甲尚](https://img.shields.io/badge/6882%20%E7%94%B2%E5%B0%9A-blue)](company/6882_%E7%94%B2%E5%B0%9A.md) | 應用軟體 | 353 百萬台幣 |
-| 121 | [![1802 台玻](https://img.shields.io/badge/1802%20%E5%8F%B0%E7%8E%BB-blue)](company/1802_%E5%8F%B0%E7%8E%BB.md) | 其他 | - |
-| 122 | [![DELL Dell](https://img.shields.io/badge/DELL%20Dell-blue)](company/DELL_Dell.md) | 電腦硬體 | N/A 百萬台幣 |
+| 25 | [![ORCL Oracle](https://img.shields.io/badge/ORCL%20Oracle-blue)](company/ORCL_Oracle.md) | Software & Cloud Infrastructure | 433,560 百萬美元 |
+| 26 | [![3665 貿聯-KY](https://img.shields.io/badge/3665%20%E8%B2%BF%E8%81%AF--KY-blue)](company/3665_%E8%B2%BF%E8%81%AF-KY.md) | 電氣設備與零件 | 407,714 百萬台幣 |
+| 27 | [![2379 瑞昱](https://img.shields.io/badge/2379%20%E7%91%9E%E6%98%B1-blue)](company/2379_%E7%91%9E%E6%98%B1.md) | 半導體 | 378,493 百萬台幣 |
+| 28 | [![3045 台灣大](https://img.shields.io/badge/3045%20%E5%8F%B0%E7%81%A3%E5%A4%A7-blue)](company/3045_%E5%8F%B0%E7%81%A3%E5%A4%A7.md) | 特殊零售 | 343,999 百萬台幣 |
+| 29 | [![3189 景碩](https://img.shields.io/badge/3189%20%E6%99%AF%E7%A2%A9-blue)](company/3189_%E6%99%AF%E7%A2%A9.md) | 半導體設備與材料 | 303,503 百萬台幣 |
+| 30 | [![2449 京元電子](https://img.shields.io/badge/2449%20%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90-blue)](company/2449_%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90.md) | 半導體 | 272,825 百萬台幣 |
+| 31 | [![4938 和碩](https://img.shields.io/badge/4938%20%E5%92%8C%E7%A2%A9-blue)](company/4938_%E5%92%8C%E7%A2%A9.md) | 電腦硬體 | 219,928 百萬台幣 |
+| 32 | [![2356 英業達](https://img.shields.io/badge/2356%20%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](company/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md) | 電腦硬體 | 216,325 百萬台幣 |
+| 33 | [![2376 技嘉](https://img.shields.io/badge/2376%20%E6%8A%80%E5%98%89-blue)](company/2376_%E6%8A%80%E5%98%89.md) | 電腦硬體 | 215,369 百萬台幣 |
+| 34 | [![2337 旺宏](https://img.shields.io/badge/2337%20%E6%97%BA%E5%AE%8F-blue)](company/2337_%E6%97%BA%E5%AE%8F.md) | 半導體 | 196,771 百萬台幣 |
+| 35 | [![6515 穎崴](https://img.shields.io/badge/6515%20%E7%A9%8E%E5%B4%B4-blue)](company/6515_%E7%A9%8E%E5%B4%B4.md) | 半導體 | 195,146 百萬台幣 |
+| 36 | [![3533 嘉澤](https://img.shields.io/badge/3533%20%E5%98%89%E6%BE%A4-blue)](company/3533_%E5%98%89%E6%BE%A4.md) | 電子零組件 | 193,584 百萬台幣 |
+| 37 | [![6239 力成](https://img.shields.io/badge/6239%20%E5%8A%9B%E6%88%90-blue)](company/6239_%E5%8A%9B%E6%88%90.md) | 半導體 | 172,140 百萬台幣 |
+| 38 | [![2324 仁寶](https://img.shields.io/badge/2324%20%E4%BB%81%E5%AF%B6-blue)](company/2324_%E4%BB%81%E5%AF%B6.md) | 電腦硬體 | 148,361 百萬台幣 |
+| 39 | [![8210 勤誠](https://img.shields.io/badge/8210%20%E5%8B%A4%E8%AA%A0-blue)](company/8210_%E5%8B%A4%E8%AA%A0.md) | 電腦硬體 | 122,938 百萬台幣 |
+| 40 | [![MU Micron](https://img.shields.io/badge/MU%20Micron-blue)](company/MU_Micron.md) | 半導體 | 122,000 百萬美元 |
+| 41 | [![0992.HK 聯想集團](https://img.shields.io/badge/0992.HK%20%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98-blue)](company/0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md) | Computer Hardware & Servers | 118,500 百萬港幣 |
+| 42 | [![2377 微星](https://img.shields.io/badge/2377%20%E5%BE%AE%E6%98%9F-blue)](company/2377_%E5%BE%AE%E6%98%9F.md) | 電腦硬體 | 116,168 百萬台幣 |
+| 43 | [![3706 神達](https://img.shields.io/badge/3706%20%E7%A5%9E%E9%81%94-blue)](company/3706_%E7%A5%9E%E9%81%94.md) | 電腦硬體 | 113,211 百萬台幣 |
+| 44 | [![5289 宜鼎](https://img.shields.io/badge/5289%20%E5%AE%9C%E9%BC%8E-blue)](company/5289_%E5%AE%9C%E9%BC%8E.md) | 電腦硬體 | 111,751 百萬台幣 |
+| 45 | [![6531 愛普](https://img.shields.io/badge/6531%20%E6%84%9B%E6%99%AE-blue)](company/6531_%E6%84%9B%E6%99%AE.md) | 半導體 | 102,105 百萬台幣 |
+| 46 | [![6213 聯茂](https://img.shields.io/badge/6213%20%E8%81%AF%E8%8C%82-blue)](company/6213_%E8%81%AF%E8%8C%82.md) | 電子零組件 | 90,503 百萬台幣 |
+| 47 | [![2353 宏碁](https://img.shields.io/badge/2353%20%E5%AE%8F%E7%A2%81-blue)](company/2353_%E5%AE%8F%E7%A2%81.md) | 電腦硬體 | 86,128 百萬台幣 |
+| 48 | [![3324 雙鴻](https://img.shields.io/badge/3324%20%E9%9B%99%E9%B4%BB-blue)](company/3324_%E9%9B%99%E9%B4%BB.md) | 電子零組件 | 78,296 百萬台幣 |
+| 49 | [![6510 精測](https://img.shields.io/badge/6510%20%E7%B2%BE%E6%B8%AC-blue)](company/6510_%E7%B2%BE%E6%B8%AC.md) | 半導體設備與材料 | 77,710 百萬台幣 |
+| 50 | [![8358 金居](https://img.shields.io/badge/8358%20%E9%87%91%E5%B1%85-blue)](company/8358_%E9%87%91%E5%B1%85.md) | 電子零組件 | 76,000 百萬台幣 |
+| 51 | [![6414 樺漢](https://img.shields.io/badge/6414%20%E6%A8%BA%E6%BC%A2-blue)](company/6414_%E6%A8%BA%E6%BC%A2.md) | 電腦硬體 | 63,679 百萬台幣 |
+| 52 | [![7861 貝爾威勒](https://img.shields.io/badge/7861%20%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92-blue)](company/7861_%E8%B2%9D%E7%88%BE%E5%A8%81%E5%8B%92.md) | 電子零組件 | 60,853 百萬台幣 |
+| 53 | [![3363 上詮](https://img.shields.io/badge/3363%20%E4%B8%8A%E8%A9%AE-blue)](company/3363_%E4%B8%8A%E8%A9%AE.md) | 通訊設備 | 55,172 百萬台幣 |
+| 54 | [![3163 波若威](https://img.shields.io/badge/3163%20%E6%B3%A2%E8%8B%A5%E5%A8%81-blue)](company/3163_%E6%B3%A2%E8%8B%A5%E5%A8%81.md) | 通訊設備 | 49,684 百萬台幣 |
+| 55 | [![8039 台虹](https://img.shields.io/badge/8039%20%E5%8F%B0%E8%99%B9-blue)](company/8039_%E5%8F%B0%E8%99%B9.md) | 電子零組件 | 46,274 百萬台幣 |
+| 56 | [![2504 國產](https://img.shields.io/badge/2504%20%E5%9C%8B%E7%94%A2-blue)](company/2504_%E5%9C%8B%E7%94%A2.md) | 建材 | 37,131 百萬台幣 |
+| 57 | [![6197 佳必琪](https://img.shields.io/badge/6197%20%E4%BD%B3%E5%BF%85%E7%90%AA-blue)](company/6197_%E4%BD%B3%E5%BF%85%E7%90%AA.md) | 電腦硬體 | 33,879 百萬台幣 |
+| 58 | [![6584 南俊國際](https://img.shields.io/badge/6584%20%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B-blue)](company/6584_%E5%8D%97%E4%BF%8A%E5%9C%8B%E9%9A%9B.md) | 家具家飾與家電 | 30,649 百萬台幣 |
+| 59 | [![6166 凌華](https://img.shields.io/badge/6166%20%E5%87%8C%E8%8F%AF-blue)](company/6166_%E5%87%8C%E8%8F%AF.md) | 電腦硬體 | 30,280 百萬台幣 |
+| 60 | [![6579 研揚](https://img.shields.io/badge/6579%20%E7%A0%94%E6%8F%9A-blue)](company/6579_%E7%A0%94%E6%8F%9A.md) | 電腦硬體 | 26,773 百萬台幣 |
+| 61 | [![HPE HPE](https://img.shields.io/badge/HPE%20HPE-blue)](company/HPE_HPE.md) | Computer Hardware & Servers | 25,400 百萬美元 |
+| 62 | [![2362 藍天](https://img.shields.io/badge/2362%20%E8%97%8D%E5%A4%A9-blue)](company/2362_%E8%97%8D%E5%A4%A9.md) | 電腦硬體 | 24,189 百萬台幣 |
+| 63 | [![3515 華擎](https://img.shields.io/badge/3515%20%E8%8F%AF%E6%93%8E-blue)](company/3515_%E8%8F%AF%E6%93%8E.md) | 電腦硬體 | 23,535 百萬台幣 |
+| 64 | [![6715 嘉基](https://img.shields.io/badge/6715%20%E5%98%89%E5%9F%BA-blue)](company/6715_%E5%98%89%E5%9F%BA.md) | 通訊設備 | 21,604 百萬台幣 |
+| 65 | [![7711 永擎](https://img.shields.io/badge/7711%20%E6%B0%B8%E6%93%8E-blue)](company/7711_%E6%B0%B8%E6%93%8E.md) | 電腦硬體 | 20,206 百萬台幣 |
+| 66 | [![3693 營邦](https://img.shields.io/badge/3693%20%E7%87%9F%E9%82%A6-blue)](company/3693_%E7%87%9F%E9%82%A6.md) | 電腦硬體 | 18,465 百萬台幣 |
+| 67 | [![5607 遠雄港](https://img.shields.io/badge/5607%20%E9%81%A0%E9%9B%84%E6%B8%AF-blue)](company/5607_%E9%81%A0%E9%9B%84%E6%B8%AF.md) | 特殊商業服務 | 18,194 百萬台幣 |
+| 68 | [![6188 廣明](https://img.shields.io/badge/6188%20%E5%BB%A3%E6%98%8E-blue)](company/6188_%E5%BB%A3%E6%98%8E.md) | 電腦硬體 | 17,926 百萬台幣 |
+| 69 | [![2480 敦陽科](https://img.shields.io/badge/2480%20%E6%95%A6%E9%99%BD%E7%A7%91-blue)](company/2480_%E6%95%A6%E9%99%BD%E7%A7%91.md) | 電腦硬體 | 16,592 百萬台幣 |
+| 70 | [![3029 零壹](https://img.shields.io/badge/3029%20%E9%9B%B6%E5%A3%B9-blue)](company/3029_%E9%9B%B6%E5%A3%B9.md) | 電腦硬體 | 16,405 百萬台幣 |
+| 71 | [![8114 振樺電](https://img.shields.io/badge/8114%20%E6%8C%AF%E6%A8%BA%E9%9B%BB-blue)](company/8114_%E6%8C%AF%E6%A8%BA%E9%9B%BB.md) | 商用設備與用品 | 15,984 百萬台幣 |
+| 72 | [![6269 台郡](https://img.shields.io/badge/6269%20%E5%8F%B0%E9%83%A1-blue)](company/6269_%E5%8F%B0%E9%83%A1.md) | 電子零組件 | 15,706 百萬台幣 |
+| 73 | [![3013 晟銘電](https://img.shields.io/badge/3013%20%E6%99%9F%E9%8A%98%E9%9B%BB-blue)](company/3013_%E6%99%9F%E9%8A%98%E9%9B%BB.md) | 電腦硬體 | 15,488 百萬台幣 |
+| 74 | [![3587 閎康](https://img.shields.io/badge/3587%20%E9%96%8E%E5%BA%B7-blue)](company/3587_%E9%96%8E%E5%BA%B7.md) | 科學與技術儀器 | 15,013 百萬台幣 |
+| 75 | [![7749 意騰-KY](https://img.shields.io/badge/7749%20%E6%84%8F%E9%A8%B0--KY-blue)](company/7749_%E6%84%8F%E9%A8%B0-KY.md) | 基礎架構軟體 | 14,480 百萬台幣 |
+| 76 | [![5475 德宏](https://img.shields.io/badge/5475%20%E5%BE%B7%E5%AE%8F-blue)](company/5475_%E5%BE%B7%E5%AE%8F.md) | 紡織製造 | 13,857 百萬台幣 |
+| 77 | [![3605 宏致](https://img.shields.io/badge/3605%20%E5%AE%8F%E8%87%B4-blue)](company/3605_%E5%AE%8F%E8%87%B4.md) | 電子零組件 | 13,505 百萬台幣 |
+| 78 | [![3209 全科](https://img.shields.io/badge/3209%20%E5%85%A8%E7%A7%91-blue)](company/3209_%E5%85%A8%E7%A7%91.md) | 通訊設備 | 12,570 百萬台幣 |
+| 79 | [![8042 金山電](https://img.shields.io/badge/8042%20%E9%87%91%E5%B1%B1%E9%9B%BB-blue)](company/8042_%E9%87%91%E5%B1%B1%E9%9B%BB.md) | 電子零組件 | 12,351 百萬台幣 |
+| 80 | [![8050 廣積](https://img.shields.io/badge/8050%20%E5%BB%A3%E7%A9%8D-blue)](company/8050_%E5%BB%A3%E7%A9%8D.md) | 電腦硬體 | 12,112 百萬台幣 |
+| 81 | [![6189 豐藝](https://img.shields.io/badge/6189%20%E8%B1%90%E8%97%9D-blue)](company/6189_%E8%B1%90%E8%97%9D.md) | 電子與電腦通路 | 12,068 百萬台幣 |
+| 82 | [![3048 益登](https://img.shields.io/badge/3048%20%E7%9B%8A%E7%99%BB-blue)](company/3048_%E7%9B%8A%E7%99%BB.md) | 電子與電腦通路 | 11,926 百萬台幣 |
+| 83 | [![5340 建榮](https://img.shields.io/badge/5340%20%E5%BB%BA%E6%A6%AE-blue)](company/5340_%E5%BB%BA%E6%A6%AE.md) | 紡織製造 | 11,557 百萬台幣 |
+| 84 | [![6245 立端](https://img.shields.io/badge/6245%20%E7%AB%8B%E7%AB%AF-blue)](company/6245_%E7%AB%8B%E7%AB%AF.md) | 通訊設備 | 11,347 百萬台幣 |
+| 85 | [![6190 萬泰科](https://img.shields.io/badge/6190%20%E8%90%AC%E6%B3%B0%E7%A7%91-blue)](company/6190_%E8%90%AC%E6%B3%B0%E7%A7%91.md) | 通訊設備 | 10,831 百萬台幣 |
+| 86 | [![2331 精英](https://img.shields.io/badge/2331%20%E7%B2%BE%E8%8B%B1-blue)](company/2331_%E7%B2%BE%E8%8B%B1.md) | 電腦硬體 | 9,922 百萬台幣 |
+| 87 | [![6231 系微](https://img.shields.io/badge/6231%20%E7%B3%BB%E5%BE%AE-blue)](company/6231_%E7%B3%BB%E5%BE%AE.md) | 應用軟體 | 9,199 百萬台幣 |
+| 88 | [![3689 湧德](https://img.shields.io/badge/3689%20%E6%B9%A7%E5%BE%B7-blue)](company/3689_%E6%B9%A7%E5%BE%B7.md) | 電子零組件 | 8,888 百萬台幣 |
+| 89 | [![3709 鑫聯大投控](https://img.shields.io/badge/3709%20%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7-blue)](company/3709_%E9%91%AB%E8%81%AF%E5%A4%A7%E6%8A%95%E6%8E%A7.md) | 電子與電腦通路 | 8,672 百萬台幣 |
+| 90 | [![6227 茂綸](https://img.shields.io/badge/6227%20%E8%8C%82%E7%B6%B8-blue)](company/6227_%E8%8C%82%E7%B6%B8.md) | 電子與電腦通路 | 8,448 百萬台幣 |
+| 91 | [![8234 新漢](https://img.shields.io/badge/8234%20%E6%96%B0%E6%BC%A2-blue)](company/8234_%E6%96%B0%E6%BC%A2.md) | 電腦硬體 | 8,346 百萬台幣 |
+| 92 | [![6207 雷科](https://img.shields.io/badge/6207%20%E9%9B%B7%E7%A7%91-blue)](company/6207_%E9%9B%B7%E7%A7%91.md) | 電子零組件 | 7,513 百萬台幣 |
+| 93 | [![2465 麗臺](https://img.shields.io/badge/2465%20%E9%BA%97%E8%87%BA-blue)](company/2465_%E9%BA%97%E8%87%BA.md) | 電腦硬體 | 6,820 百萬台幣 |
+| 94 | [![6834 天二科技](https://img.shields.io/badge/6834%20%E5%A4%A9%E4%BA%8C%E7%A7%91%E6%8A%80-blue)](company/6834_%E5%A4%A9%E4%BA%8C%E7%A7%91%E6%8A%80.md) | 電子零組件 | 6,556 百萬台幣 |
+| 95 | [![6933 AMAX-KY](https://img.shields.io/badge/6933%20AMAX--KY-blue)](company/6933_AMAX-KY.md) | 電腦硬體 | 6,273 百萬台幣 |
+| 96 | [![2397 友通](https://img.shields.io/badge/2397%20%E5%8F%8B%E9%80%9A-blue)](company/2397_%E5%8F%8B%E9%80%9A.md) | 電腦硬體 | 6,182 百萬台幣 |
+| 97 | [![6862 三集瑞-KY](https://img.shields.io/badge/6862%20%E4%B8%89%E9%9B%86%E7%91%9E--KY-blue)](company/6862_%E4%B8%89%E9%9B%86%E7%91%9E-KY.md) | 電子零組件 | 6,025 百萬台幣 |
+| 98 | [![6117 迎廣](https://img.shields.io/badge/6117%20%E8%BF%8E%E5%BB%A3-blue)](company/6117_%E8%BF%8E%E5%BB%A3.md) | 電腦硬體 | 6,015 百萬台幣 |
+| 99 | [![2399 映泰](https://img.shields.io/badge/2399%20%E6%98%A0%E6%B3%B0-blue)](company/2399_%E6%98%A0%E6%B3%B0.md) | 電腦硬體 | 5,779 百萬台幣 |
+| 100 | [![6203 海韻電](https://img.shields.io/badge/6203%20%E6%B5%B7%E9%9F%BB%E9%9B%BB-blue)](company/6203_%E6%B5%B7%E9%9F%BB%E9%9B%BB.md) | 電子零組件 | 5,315 百萬台幣 |
+| 101 | [![5474 聰泰](https://img.shields.io/badge/5474%20%E8%81%B0%E6%B3%B0-blue)](company/5474_%E8%81%B0%E6%B3%B0.md) | 電子零組件 | 5,248 百萬台幣 |
+| 102 | [![5203 訊連](https://img.shields.io/badge/5203%20%E8%A8%8A%E9%80%A3-blue)](company/5203_%E8%A8%8A%E9%80%A3.md) | 應用軟體 | 4,888 百萬台幣 |
+| 103 | [![4549 桓達](https://img.shields.io/badge/4549%20%E6%A1%93%E9%81%94-blue)](company/4549_%E6%A1%93%E9%81%94.md) | 科學與技術儀器 | 4,879 百萬台幣 |
+| 104 | [![3594 磐儀](https://img.shields.io/badge/3594%20%E7%A3%90%E5%84%80-blue)](company/3594_%E7%A3%90%E5%84%80.md) | 電腦硬體 | 4,836 百萬台幣 |
+| 105 | [![6776 展�眥篕�](https://img.shields.io/badge/6776%20%E5%B1%95%EF%BF%BD%E7%9C%A5%E7%AF%95%EF%BF%BD-blue)](company/6776_%E5%B1%95%EF%BF%BD%E7%9C%A5%E7%AF%95%EF%BF%BD.md) | 電子與電腦通路 | 4,735 百萬台幣 |
+| 106 | [![6922 宸曜](https://img.shields.io/badge/6922%20%E5%AE%B8%E6%9B%9C-blue)](company/6922_%E5%AE%B8%E6%9B%9C.md) | 電腦硬體 | 4,562 百萬台幣 |
+| 107 | [![2425 承啟](https://img.shields.io/badge/2425%20%E6%89%BF%E5%95%9F-blue)](company/2425_%E6%89%BF%E5%95%9F.md) | 電腦硬體 | 4,260 百萬台幣 |
+| 108 | [![6994 富威電力](https://img.shields.io/badge/6994%20%E5%AF%8C%E5%A8%81%E9%9B%BB%E5%8A%9B-blue)](company/6994_%E5%AF%8C%E5%A8%81%E9%9B%BB%E5%8A%9B.md) | 再生能源公用事業 | 2,804 百萬台幣 |
+| 109 | [![5484 慧友](https://img.shields.io/badge/5484%20%E6%85%A7%E5%8F%8B-blue)](company/5484_%E6%85%A7%E5%8F%8B.md) | 保全與防護服務 | 2,508 百萬台幣 |
+| 110 | [![2256 歐特明](https://img.shields.io/badge/2256%20%E6%AD%90%E7%89%B9%E6%98%8E-blue)](company/2256_%E6%AD%90%E7%89%B9%E6%98%8E.md) | 汽車零組件 | 2,394 百萬台幣 |
+| 111 | [![6591 動力-KY](https://img.shields.io/badge/6591%20%E5%8B%95%E5%8A%9B--KY-blue)](company/6591_%E5%8B%95%E5%8A%9B-KY.md) | 電腦硬體 | 1,739 百萬台幣 |
+| 112 | [![3540 曜越](https://img.shields.io/badge/3540%20%E6%9B%9C%E8%B6%8A-blue)](company/3540_%E6%9B%9C%E8%B6%8A.md) | 電腦硬體 | 1,634 百萬台幣 |
+| 113 | [![7547 碩網](https://img.shields.io/badge/7547%20%E7%A2%A9%E7%B6%B2-blue)](company/7547_%E7%A2%A9%E7%B6%B2.md) | 基礎架構軟體 | 1,530 百萬台幣 |
+| 114 | [![6825 和暢科技](https://img.shields.io/badge/6825%20%E5%92%8C%E6%9A%A2%E7%A7%91%E6%8A%80-blue)](company/6825_%E5%92%8C%E6%9A%A2%E7%A7%91%E6%8A%80.md) | 電腦硬體 | 1,339 百萬台幣 |
+| 115 | [![6680 鑫創電子](https://img.shields.io/badge/6680%20%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90-blue)](company/6680_%E9%91%AB%E5%89%B5%E9%9B%BB%E5%AD%90.md) | 電腦硬體 | 1,320 百萬台幣 |
+| 116 | [![2438 翔耀](https://img.shields.io/badge/2438%20%E7%BF%94%E8%80%80-blue)](company/2438_%E7%BF%94%E8%80%80.md) | 電氣設備與零件 | 1,132 百萬台幣 |
+| 117 | [![6806 森崴能源](https://img.shields.io/badge/6806%20%E6%A3%AE%E5%B4%B4%E8%83%BD%E6%BA%90-blue)](company/6806_%E6%A3%AE%E5%B4%B4%E8%83%BD%E6%BA%90.md) | 再生能源公用事業 | 964 百萬台幣 |
+| 118 | [![5230 雷笛克光學](https://img.shields.io/badge/5230%20%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8-blue)](company/5230_%E9%9B%B7%E7%AC%9B%E5%85%8B%E5%85%89%E5%AD%B8.md) | 電子零組件 | 931 百萬台幣 |
+| 119 | [![4550 長佳](https://img.shields.io/badge/4550%20%E9%95%B7%E4%BD%B3-blue)](company/4550_%E9%95%B7%E4%BD%B3.md) | 健康資訊服務 | 921 百萬台幣 |
+| 120 | [![6512 啟發電](https://img.shields.io/badge/6512%20%E5%95%9F%E7%99%BC%E9%9B%BB-blue)](company/6512_%E5%95%9F%E7%99%BC%E9%9B%BB.md) | 電子零組件 | 498 百萬台幣 |
+| 121 | [![6882 甲尚](https://img.shields.io/badge/6882%20%E7%94%B2%E5%B0%9A-blue)](company/6882_%E7%94%B2%E5%B0%9A.md) | 應用軟體 | 353 百萬台幣 |
+| 122 | [![1802 台玻](https://img.shields.io/badge/1802%20%E5%8F%B0%E7%8E%BB-blue)](company/1802_%E5%8F%B0%E7%8E%BB.md) | 其他 | - |
+| 123 | [![DELL Dell](https://img.shields.io/badge/DELL%20Dell-blue)](company/DELL_Dell.md) | 電腦硬體 | N/A 百萬台幣 |
