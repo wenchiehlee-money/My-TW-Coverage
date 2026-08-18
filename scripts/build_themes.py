@@ -226,6 +226,37 @@ def render_backlog_metric_table(data_ref: str) -> list[str]:
     return lines
 
 
+def render_useful_life_metric_table(data_ref: str) -> list[str]:
+    """Render the CSP server depreciation useful-life vs GPU refresh-cycle gap table.
+
+    See data/metrics/hyperscaler_useful_life.json for the schema: rows of
+    ticker/company/current_years/history/pl_impact/short_lived_pct/note/
+    source_url. All figures are sourced from each company's own 10-K
+    accounting-estimate-change disclosures, not derived by this table.
+    """
+    payload = load_key_metric_data(data_ref)
+    if not payload or not payload.get("rows"):
+        return [f"> (數據待更新: `{data_ref}`)"]
+    lines = [
+        f"> 更新日: {payload.get('updated_at', '-')}",
+        "",
+        "| 公司 | 現行折舊年限 | 變動歷史 | 損益影響 | 短生命週期資產占 Capex | 備註 |",
+        "|---|---|---|---|---|---|",
+    ]
+    for row in payload["rows"]:
+        company = str(row.get("company") or row.get("ticker") or "").strip()
+        years = str(row.get("current_years") or "-").strip()
+        history = str(row.get("history") or "-").strip()
+        pl_impact = str(row.get("pl_impact") or "-").strip()
+        short_lived = str(row.get("short_lived_pct") or "-").strip()
+        note = str(row.get("note") or "-").strip()
+        lines.append(f"| {company} | {years} | {history} | {pl_impact} | {short_lived} | {note} |")
+    if payload.get("source_note"):
+        lines.append("")
+        lines.append(f"> {payload['source_note']}")
+    return lines
+
+
 def normalized_entity_key(value: str) -> str:
     return re.sub(r"[\s_\-]+", "", value).lower()
 
@@ -921,6 +952,8 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
                     lines.extend(render_execution_metric_table(data_ref))
                 elif kind == "backlog":
                     lines.extend(render_backlog_metric_table(data_ref))
+                elif kind == "useful_life":
+                    lines.extend(render_useful_life_metric_table(data_ref))
                 else:
                     lines.extend(render_key_metric_data_table(data_ref))
         lines.append("")

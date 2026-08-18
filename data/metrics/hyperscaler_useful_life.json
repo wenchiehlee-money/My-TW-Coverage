@@ -1,0 +1,59 @@
+{
+  "metric": "CSP 伺服器折舊年限 vs GPU 世代汰換週期落差",
+  "desc": "折舊年限越長，帳面認列的折舊費用越低、獲利越好看，但若實際技術汰換週期 (NVIDIA 架構約 1-1.5 年一代) 遠短於會計折舊年限，代表現在的獲利被墊高，未來有提前汰換/減損的隱藏風險。2022-2025 年五家中有四家陸續延長折舊年限，僅 Amazon 在 2025 年把一部分伺服器/網通設備的折舊年限從 6 年縮短回 5 年，並公開承認理由是「AI/機器學習技術發展速度加快」。",
+  "unit": "years",
+  "updated_at": "2026-08-18",
+  "source_note": "所有年限與財務影響數字均取自各公司 10-K/財報揭露的會計估計變動說明，非本表推算。「短生命週期資產占 Capex 比重」僅 Microsoft 公開量化揭露，其餘四家未見對應的具體比例揭露。",
+  "rows": [
+    {
+      "ticker": "AMZN",
+      "company": "Amazon (AWS)",
+      "current_years": "5 年 (部分資產)",
+      "history": "2024-01 由 5→6 年；2025-01 再把「一部分伺服器與網通設備」從 6→5 年 (縮短)",
+      "pl_impact": "2025 年縮短年限使折舊費用增加 $1.4B、淨利減少 $1.0B (主要影響 AWS 分部)",
+      "short_lived_pct": "未揭露",
+      "note": "五家中唯一公開承認並縮短折舊年限的公司，官方理由明確寫「AI/機器學習技術發展速度加快」",
+      "source_url": "https://www.hudson-labs.com/research/amazon-server-depreciation-amzn"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft (Azure)",
+      "current_years": "6 年",
+      "history": "2022 由 4→6 年，此後未再變動",
+      "pl_impact": "未查得單年度精確財務影響數字",
+      "short_lived_pct": "~2/3 (管理層法說會揭露：約三分之二 Capex 為短生命週期資產，主要是 CPU/GPU)",
+      "note": "延長後至今未調整，是五家中唯一公開量化「短生命週期資產占比」的公司",
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet (Google Cloud)",
+      "current_years": "6 年",
+      "history": "2021 由 3→4 年；2023 再由 4→6 年 (伺服器)，網通設備 5→6 年",
+      "pl_impact": "2023 年延長使折舊費用減少 $3.9B、淨利增加 $3.0B",
+      "short_lived_pct": "未揭露",
+      "note": "分析師估計 2027 年起將迎來大規模折舊費用「補課」效應 (2023-2026 大量新建資產陸續超過帳列年限)",
+      "source_url": "https://www.datacenterdynamics.com/en/news/google-increases-server-life-to-six-years-will-save-billions-of-dollars/"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "current_years": "5.5 年 (部分資產)",
+      "history": "2022 Q2 由 4→4.5 年；2022 Q4 再到 5 年；2025-01 再延至 5.5 年",
+      "pl_impact": "2025 年延長預估減少當年折舊費用 $2.9B，約當年稅前利益的 4%",
+      "short_lived_pct": "未揭露",
+      "note": "五家中變動次數最多 (三次)，2022-2025 三年內從 4 年一路延到 5.5 年",
+      "source_url": "https://www.thestack.technology/meta-extends-server-life-again-saving-it-2-9-billion/"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle (OCI)",
+      "current_years": "6 年",
+      "history": "陸續由 4→5→6 年 (與 MSFT/GOOGL/META 同期同方向延長)",
+      "pl_impact": "未查得單年度精確財務影響數字",
+      "short_lived_pct": "未揭露",
+      "note": "延長方向與其餘三家 (MSFT/GOOGL/META) 一致，僅 Amazon 反向操作",
+      "source_url": "https://footnotebrief.com/hyperscaler-depreciation-ai-capex-circularity/"
+    }
+  ]
+}
