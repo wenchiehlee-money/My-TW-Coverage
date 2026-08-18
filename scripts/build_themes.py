@@ -146,6 +146,9 @@ def render_key_metric_data_table(data_ref: str) -> list[str]:
     if payload.get("source_note"):
         lines.append("")
         lines.append(f"> {payload['source_note']}")
+    if payload.get("outlook_2028_note"):
+        lines.append("")
+        lines.append(f"> **展望 FY2028:** {payload['outlook_2028_note']}")
     return lines
 
 
