@@ -1,0 +1,63 @@
+{
+  "metric": "Top 5 CSP 未來 Capex 成長 (FY2026 → FY2027 分析師 Consensus)",
+  "desc": "AWS, MSFT, GOOGL, META, ORCL 全年 Capex 分析師共識預估年增率。單季 (未來6季度) 拆分之分析師共識僅存在於 Visible Alpha/Bloomberg/FactSet 等付費終端機，公開網路搜尋無法取得，故以可查證的 FY2026→FY2027 年度共識/財測作為代理指標。",
+  "unit": "USD Billion",
+  "col_period": "比較期間",
+  "col_base": "FY2026",
+  "col_growth": "FY27 vs FY26",
+  "col_forecast": "資料性質",
+  "source_note": "FY2026 為公司自身財測 (多數已與分析師共識收斂)；FY2027 為公開報導引用之分析師共識或 (Oracle 因分析師共識與公司財測落差極大) 公司自身財測。Oracle 若干分析師先前預估僅約 $60B，遠低於公司 2026-06-10 公布的 $90-95B 毛 Capex 財測，故 Oracle 列的是公司財測而非市場共識，已於 rows[].note 註明。",
+  "updated_at": "2026-08-18",
+  "rows": [
+    {
+      "ticker": "AMZN",
+      "company": "Amazon (AWS)",
+      "period": "FY2026 → FY2027",
+      "capex_usd_b": 256.5,
+      "capex_prior_year_usd_b": 220,
+      "yoy_pct": 16.6,
+      "note": "FY2026 為公司財測；FY2027 為分析師共識",
+      "source_url": "https://247wallst.com/investing/2026/07/29/alphabet-captures-2026-ai-capex-alpha-but-amazon-begins-surging-in-2027/"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft (Azure)",
+      "period": "FY2026 → FY2027",
+      "capex_usd_b": 207.6,
+      "capex_prior_year_usd_b": 190,
+      "yoy_pct": 9.3,
+      "note": "FY2026 為 Visible Alpha 共識 ($190.1B，貼近公司財測)；FY2027 為分析師共識",
+      "source_url": "https://247wallst.com/investing/2026/07/29/alphabet-captures-2026-ai-capex-alpha-but-amazon-begins-surging-in-2027/"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet (Google Cloud)",
+      "period": "FY2026 → FY2027",
+      "capex_usd_b": 284.8,
+      "capex_prior_year_usd_b": 200,
+      "yoy_pct": 42.4,
+      "note": "FY2026 為公司財測區間 ($195-205B) 中位數；FY2027 為分析師共識，公司已預告 2027 將顯著增加",
+      "source_url": "https://247wallst.com/investing/2026/07/29/alphabet-captures-2026-ai-capex-alpha-but-amazon-begins-surging-in-2027/"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "period": "FY2026 → FY2027",
+      "capex_usd_b": 185.6,
+      "capex_prior_year_usd_b": 137.5,
+      "yoy_pct": 35.0,
+      "note": "FY2026 為公司財測區間 ($130-145B) 中位數；FY2027 為分析師共識",
+      "source_url": "https://247wallst.com/investing/2026/07/29/alphabet-captures-2026-ai-capex-alpha-but-amazon-begins-surging-in-2027/"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle (OCI)",
+      "period": "FY2026 → FY2027",
+      "capex_usd_b": 92.5,
+      "capex_prior_year_usd_b": 55.7,
+      "yoy_pct": 66.1,
+      "note": "FY2026 為實際值 ($55.7B)；FY2027 為公司財測區間 ($90-95B) 中位數 (毛 Capex，含約 $20-25B 客戶預付款)，非分析師共識 — 先前分析師共識僅約 $60B，遠低於公司財測",
+      "source_url": "https://mlq.ai/news/oracle-reports-557b-fy2026-capex-guides-to-70b-net-outlay-in-fy2027/"
+    }
+  ]
+}

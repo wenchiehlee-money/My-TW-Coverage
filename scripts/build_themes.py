@@ -104,31 +104,48 @@ def render_key_metric_data_table(data_ref: str) -> list[str]:
     """Render a curated numeric data table for a key_metrics entry's 'data_ref' JSON.
 
     See data/metrics/*.json for the schema (rows of ticker/company/period/
-    capex_usd_b/yoy_pct/fy_guidance_usd_b/source_url). Manually curated from
-    official earnings releases each quarter — not auto-extracted, since the
-    "AI 機房" split isn't machine-readable from any filing.
+    capex_usd_b/capex_prior_year_usd_b/yoy_pct/fy_guidance_usd_b or note/
+    source_url). Manually curated from official earnings releases / analyst
+    consensus reporting — not auto-extracted, since neither the "AI 機房"
+    split nor single-quarter-forward consensus is machine-readable from any
+    public filing or free data source. Column headers are overridable per
+    file via col_period/col_base/col_growth/col_forecast (defaults match the
+    original latest-quarter-actual table shape).
     """
     payload = load_key_metric_data(data_ref)
     if not payload or not payload.get("rows"):
         return [f"> (數據待更新: `{data_ref}`)"]
+    col_period = str(payload.get("col_period") or "最新季度")
+    col_base = str(payload.get("col_base") or "去年同期")
+    col_growth = str(payload.get("col_growth") or "YoY")
+    col_forecast = str(payload.get("col_forecast") or "FY 財測")
     lines = [
-        f"> 資料來源: 各公司官方財報/法說會新聞稿 | 更新日: {payload.get('updated_at', '-')} | 單位: {payload.get('unit', '-')}",
+        f"> 更新日: {payload.get('updated_at', '-')} | 單位: {payload.get('unit', '-')}",
         "",
-        "| 公司 | 最新季度 | Capex | 去年同期 | YoY | FY 財測 |",
-        "|---|---|---:|---:|---:|---:|",
+        f"| 公司 | {col_period} | Capex | {col_base} | {col_growth} | {col_forecast} |",
+        "|---|---|---:|---:|---:|---|",
     ]
     for row in payload["rows"]:
         capex = row.get("capex_usd_b")
         prior = row.get("capex_prior_year_usd_b")
         yoy = row.get("yoy_pct")
         guidance = row.get("fy_guidance_usd_b")
+        note = str(row.get("note") or "").strip()
         capex_s = f"${capex:,.1f}B" if isinstance(capex, (int, float)) else "-"
         prior_s = f"${prior:,.1f}B" if isinstance(prior, (int, float)) else "-"
         yoy_s = f"+{yoy:.0f}%" if isinstance(yoy, (int, float)) else "-"
-        guidance_s = f"${guidance:,.0f}B" if isinstance(guidance, (int, float)) else "-"
+        if isinstance(guidance, (int, float)):
+            last_col = f"${guidance:,.0f}B"
+        elif note:
+            last_col = note
+        else:
+            last_col = "-"
         company = str(row.get("company") or row.get("ticker") or "").strip()
         period = str(row.get("period") or "").strip()
-        lines.append(f"| {company} | {period} | {capex_s} | {prior_s} | {yoy_s} | {guidance_s} |")
+        lines.append(f"| {company} | {period} | {capex_s} | {prior_s} | {yoy_s} | {last_col} |")
+    if payload.get("source_note"):
+        lines.append("")
+        lines.append(f"> {payload['source_note']}")
     return lines
 
 
