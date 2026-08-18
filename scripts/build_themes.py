@@ -152,6 +152,44 @@ def render_key_metric_data_table(data_ref: str) -> list[str]:
     return lines
 
 
+def render_execution_metric_table(data_ref: str) -> list[str]:
+    """Render the CSP Capex 'execution performance' table (gross-margin
+    compression vs guidance-revision direction) for a key_metrics entry.
+
+    See data/metrics/hyperscaler_execution.json for the schema: rows of
+    ticker/company/latest_period/gm_latest_pct/gm_prior_pct/gm_change_pp/
+    guidance_direction/note/source_url. gm_* figures are sourced from
+    ../ConceptStocks/raw_conceptstock_company_income.csv gross_margin
+    (official SEC/AlphaVantage filings); guidance_direction is manually
+    tracked from each company's earnings releases within the year.
+    """
+    payload = load_key_metric_data(data_ref)
+    if not payload or not payload.get("rows"):
+        return [f"> (數據待更新: `{data_ref}`)"]
+    lines = [
+        f"> 更新日: {payload.get('updated_at', '-')}",
+        "",
+        "| 公司 | 最新季度 | 毛利率 | 去年同期 | 變化 | FY 財測修正方向 | 解讀 |",
+        "|---|---|---:|---:|---:|---|---|",
+    ]
+    for row in payload["rows"]:
+        gm = row.get("gm_latest_pct")
+        gm_prior = row.get("gm_prior_pct")
+        gm_chg = row.get("gm_change_pp")
+        gm_s = f"{gm:.1f}%" if isinstance(gm, (int, float)) else "-"
+        gm_prior_s = f"{gm_prior:.1f}%" if isinstance(gm_prior, (int, float)) else "-"
+        gm_chg_s = f"{gm_chg:+.1f}pp" if isinstance(gm_chg, (int, float)) else "-"
+        company = str(row.get("company") or row.get("ticker") or "").strip()
+        period = str(row.get("latest_period") or "").strip()
+        direction = str(row.get("guidance_direction") or "-").strip()
+        note = str(row.get("note") or "-").strip()
+        lines.append(f"| {company} | {period} | {gm_s} | {gm_prior_s} | {gm_chg_s} | {direction} | {note} |")
+    if payload.get("source_note"):
+        lines.append("")
+        lines.append(f"> {payload['source_note']}")
+    return lines
+
+
 def normalized_entity_key(value: str) -> str:
     return re.sub(r"[\s_\-]+", "", value).lower()
 
@@ -842,7 +880,10 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             data_ref = str(km.get("data_ref") or "").strip()
             if data_ref:
                 lines.append("")
-                lines.extend(render_key_metric_data_table(data_ref))
+                if str(km.get("data_ref_kind") or "") == "execution":
+                    lines.extend(render_execution_metric_table(data_ref))
+                else:
+                    lines.extend(render_key_metric_data_table(data_ref))
         lines.append("")
 
         lines.append("### 相關公司關鍵指標")

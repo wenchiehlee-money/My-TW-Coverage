@@ -34,6 +34,12 @@
       "data_ref": "data/metrics/hyperscaler_capex_forward.json"
     },
     {
+      "name": "CSP AI Capex 執行力 (瓶頸: 電力/封裝產能/財測修正)",
+      "desc": "衡量 Capex 有沒有轉換成產能與營收：毛利率年增/年減 (折舊侵蝕程度) 對照 FY 財測一年內的修正方向。當前最大瓶頸為電力併網與 CoWoS/HBM 先進封裝產能，其次是土地/建照與工程供應鏈。",
+      "data_ref": "data/metrics/hyperscaler_execution.json",
+      "data_ref_kind": "execution"
+    },
+    {
       "name": "ASIC / 自研 AI 晶片出貨占比",
       "desc": "Google TPU, Amazon Trainium/Inferentia, Meta MTIA, MSFT Maia 滲透率。"
     },

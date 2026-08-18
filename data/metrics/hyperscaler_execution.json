@@ -1,0 +1,64 @@
+{
+  "metric": "CSP AI Capex 執行力 (毛利率壓縮 vs 財測修正方向)",
+  "desc": "衡量 Capex 有沒有真的轉換成產能與營收，而不只是花錢：(1) 毛利率年增/年減 — 反映新增資料中心折舊攤提對獲利的侵蝕程度，壓縮越小代表產能利用率/轉換效率越好；(2) FY 財測修正方向 — 一年內是否上修/持平/不如預期，反映管理層對需求與執行力的信心。",
+  "unit": "percentage points",
+  "updated_at": "2026-08-18",
+  "source_note": "毛利率資料取自 ../ConceptStocks/raw_conceptstock_company_income.csv 的 gross_margin 欄位 (SEC/AlphaVantage 官方申報數字)，取最新可得季度與去年同期比較；財測修正方向為人工彙整當年度法說會/新聞稿。",
+  "rows": [
+    {
+      "ticker": "AMZN",
+      "company": "Amazon (AWS)",
+      "latest_period": "CY2026 Q2",
+      "gm_latest_pct": 52.3,
+      "gm_prior_pct": 51.8,
+      "gm_change_pp": 0.4,
+      "guidance_direction": "上修 (+$20B)",
+      "note": "毛利率不降反升，代表 AWS 產能利用率跟上 Capex 投放速度，執行力目前最佳",
+      "source_url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft (Azure)",
+      "latest_period": "FY2026 Q3",
+      "gm_latest_pct": 67.6,
+      "gm_prior_pct": 68.7,
+      "gm_change_pp": -1.1,
+      "guidance_direction": "持平 (~$190B)",
+      "note": "管理層自陳 Azure 需求受限於電力，$80B 訂單無法即時交付，屬需求/執行落差而非資金不足",
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet (Google Cloud)",
+      "latest_period": "CY2026 Q2",
+      "gm_latest_pct": 61.6,
+      "gm_prior_pct": 59.5,
+      "gm_change_pp": 2.1,
+      "guidance_direction": "兩度上修 ($175-185B → $195-205B)",
+      "note": "毛利率同步改善，但財測一年內連兩次上修，代表需求成長速度超出公司原本規劃",
+      "source_url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta",
+      "latest_period": "CY2026 Q2",
+      "gm_latest_pct": 81.4,
+      "gm_prior_pct": 82.1,
+      "gm_change_pp": -0.8,
+      "guidance_direction": "上修 ($125-145B → $130-145B)",
+      "note": "自由現金流已明顯下滑 (季度僅 $0.78B)，毛利率壓縮幅度不大但現金消耗速度是五家最快",
+      "source_url": "https://www.cnbc.com/2026/07/29/meta-q2-earnings-report-2026.html"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle (OCI)",
+      "latest_period": "FY2026 Q4",
+      "gm_latest_pct": 65.2,
+      "gm_prior_pct": 70.2,
+      "gm_change_pp": -5.0,
+      "guidance_direction": "實際大幅超出原財測 ($55.7B 實際 vs 原估 ~$50B)",
+      "note": "五家中毛利率壓縮最劇烈，RPO $638B 遠大於可認列營收，是目前執行/交付落差最大的一家",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+    }
+  ]
+}
