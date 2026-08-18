@@ -257,6 +257,38 @@ def render_useful_life_metric_table(data_ref: str) -> list[str]:
     return lines
 
 
+def render_tokens_per_watt_table(data_ref: str) -> list[str]:
+    """Render the AI chip generation tokens/watt comparison table.
+
+    Unlike the other CSP metrics, this one is SKU-level (H100/H200/GB200
+    NVL72/GB300 NVL72), not per-company, since no company publicly discloses
+    its exact SKU mix. See data/metrics/hyperscaler_tokens_per_watt.json for
+    the schema: rows of sku/generation/relative_perf/benchmark/note/
+    source_url, all from NVIDIA official specs, MLPerf, or third-party
+    (SemiAnalysis/InferenceX) benchmarks.
+    """
+    payload = load_key_metric_data(data_ref)
+    if not payload or not payload.get("rows"):
+        return [f"> (數據待更新: `{data_ref}`)"]
+    lines = [
+        f"> 更新日: {payload.get('updated_at', '-')} | 單位: {payload.get('unit', '-')}",
+        "",
+        "| SKU | 世代 | 相對效能/瓦 | Benchmark | 備註 |",
+        "|---|---|---|---|---|",
+    ]
+    for row in payload["rows"]:
+        sku = str(row.get("sku") or "").strip()
+        generation = str(row.get("generation") or "-").strip()
+        relative_perf = str(row.get("relative_perf") or "-").strip()
+        benchmark = str(row.get("benchmark") or "-").strip()
+        note = str(row.get("note") or "-").strip()
+        lines.append(f"| {sku} | {generation} | {relative_perf} | {benchmark} | {note} |")
+    if payload.get("source_note"):
+        lines.append("")
+        lines.append(f"> {payload['source_note']}")
+    return lines
+
+
 def normalized_entity_key(value: str) -> str:
     return re.sub(r"[\s_\-]+", "", value).lower()
 
@@ -954,6 +986,8 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
                     lines.extend(render_backlog_metric_table(data_ref))
                 elif kind == "useful_life":
                     lines.extend(render_useful_life_metric_table(data_ref))
+                elif kind == "tokens_per_watt":
+                    lines.extend(render_tokens_per_watt_table(data_ref))
                 else:
                     lines.extend(render_key_metric_data_table(data_ref))
         lines.append("")

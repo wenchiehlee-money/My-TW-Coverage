@@ -191,6 +191,18 @@
 | Oracle (OCI) | 6 年 | 陸續由 4→5→6 年 (與 MSFT/GOOGL/META 同期同方向延長) | 未查得單年度精確財務影響數字 | 未揭露 | 延長方向與其餘三家 (MSFT/GOOGL/META) 一致，僅 Amazon 反向操作 |
 
 > 所有年限與財務影響數字均取自各公司 10-K/財報揭露的會計估計變動說明，非本表推算。「短生命週期資產占 Capex 比重」僅 Microsoft 公開量化揭露，其餘四家未見對應的具體比例揭露。
+- **AI 晶片世代 Tokens/Watt 效能密度比較:** H100 → H200 → GB200 NVL72 → GB300 NVL72，每一代 Throughput/MW 提升約數倍 (GB300 較 Hopper 世代約 5x)，是折舊年限落差風險的技術根源。SKU 層級比較，非個別公司排名 (各公司實際持有的世代組合未公開揭露)。
+
+> 更新日: 2026-08-18 | 單位: relative to H100 = 1.0x
+
+| SKU | 世代 | 相對效能/瓦 | Benchmark | 備註 |
+|---|---|---|---|---|
+| H100 | Hopper (2022) | 基準 (1.0x) | DeepSeek R1 推論: 272 tokens/秒/GPU | 目前五家延長折舊年限、仍大量在役的主力機種之一，是本表的比較基準 |
+| H200 | Hopper 升級版 (2024) | 同代小幅提升 | 記憶體頻寬提升至 4.8TB/s (H100 的 1.4x)；每次推論耗電最高可降 50% | 與 H100 同世代架構，僅記憶體/頻寬升級，非架構級跳躍 |
+| GB200 NVL72 | Blackwell 機櫃級 (2025) | vs H100 叢集：訓練 ~2x，推論最高 4x | NVIDIA 官方 MLPerf v4.1 揭露數字；72 顆 GPU 以 NVLink 組成單一運算域 | 屬機櫃級系統，非單卡比較；需要液冷才能部署 (100kW+/機櫃) |
+| GB300 NVL72 | Blackwell Ultra 機櫃級 (2026) | vs Hopper 世代：Throughput/MW 約 5x，使用者互動速度 (TPS/user) 約 10x | DeepSeek R1 推論: 8,056 tokens/秒/GPU (H100 的 272 的 ~30x)，單位成本 $0.09/百萬 tokens (H100 為 $1.34) | 目前最新一代量產機種，Oracle/Wiwynn 供應鏈已開始交付；本表最新一列 |
+
+> 效能數字取自 NVIDIA 官方公布規格、MLPerf 官方 benchmark、及 SemiAnalysis/InferenceX 第三方實測 (DeepSeek R1 推論)，非本表推算；不同來源測試方法/模型不同，數字僅供世代間相對量級比較，不同來源之間不宜直接互比絕對值。
 - **ASIC / 自研 AI 晶片出貨占比:** Google TPU, Amazon Trainium/Inferentia, Meta MTIA, MSFT Maia 滲透率。
 - **水冷/液冷機櫃 (Liquid Cooling Rack) 採用率:** 包含 NVL72/NVL36 等 100kW+ 高功耗機櫃水冷板與 CDU 拉貨。
 
