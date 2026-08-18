@@ -169,7 +169,7 @@ def render_execution_metric_table(data_ref: str) -> list[str]:
     lines = [
         f"> 更新日: {payload.get('updated_at', '-')}",
         "",
-        "| 公司 | 最新季度 | 毛利率 | 去年同期 | 變化 | FY 財測修正方向 | 解讀 |",
+        "| 公司 | 最新季度 | 毛利率 | 去年同期 | 變化 | FY 財測修正方向 | 官方揭露事實 |",
         "|---|---|---:|---:|---:|---|---|",
     ]
     for row in payload["rows"]:
