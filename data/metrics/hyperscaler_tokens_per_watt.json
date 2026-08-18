@@ -36,6 +36,14 @@
       "benchmark": "DeepSeek R1 推論: 8,056 tokens/秒/GPU (H100 的 272 的 ~30x)，單位成本 $0.09/百萬 tokens (H100 為 $1.34)",
       "note": "目前最新一代量產機種，Oracle/Wiwynn 供應鏈已開始交付；本表最新一列",
       "source_url": "https://inferencex.semianalysis.com/compare/deepseek-r1-gb300-vs-h100"
+    },
+    {
+      "sku": "Vera Rubin NVL72 (VR200)",
+      "generation": "Rubin 機櫃級 (預計 2026 下半年出貨)",
+      "relative_perf": "vs GB300 NVL72：推論 3.3x；vs GB200 NVL72：效能/瓦約 10x",
+      "benchmark": "NVIDIA 官方發布數字：機櫃級推論成本降至 Blackwell 的 1/10；訓練所需 GPU 數量降至 1/4",
+      "note": "⚠️ 目前為 NVIDIA 官方發布會宣稱數字，尚未出貨、無獨立第三方 (如 SemiAnalysis) 實測驗證，與其他列的實測基準不同，解讀時應打折扣",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform"
     }
   ]
 }

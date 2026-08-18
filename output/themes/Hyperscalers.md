@@ -201,6 +201,7 @@
 | H200 | Hopper 升級版 (2024) | 同代小幅提升 | 記憶體頻寬提升至 4.8TB/s (H100 的 1.4x)；每次推論耗電最高可降 50% | 與 H100 同世代架構，僅記憶體/頻寬升級，非架構級跳躍 |
 | GB200 NVL72 | Blackwell 機櫃級 (2025) | vs H100 叢集：訓練 ~2x，推論最高 4x | NVIDIA 官方 MLPerf v4.1 揭露數字；72 顆 GPU 以 NVLink 組成單一運算域 | 屬機櫃級系統，非單卡比較；需要液冷才能部署 (100kW+/機櫃) |
 | GB300 NVL72 | Blackwell Ultra 機櫃級 (2026) | vs Hopper 世代：Throughput/MW 約 5x，使用者互動速度 (TPS/user) 約 10x | DeepSeek R1 推論: 8,056 tokens/秒/GPU (H100 的 272 的 ~30x)，單位成本 $0.09/百萬 tokens (H100 為 $1.34) | 目前最新一代量產機種，Oracle/Wiwynn 供應鏈已開始交付；本表最新一列 |
+| Vera Rubin NVL72 (VR200) | Rubin 機櫃級 (預計 2026 下半年出貨) | vs GB300 NVL72：推論 3.3x；vs GB200 NVL72：效能/瓦約 10x | NVIDIA 官方發布數字：機櫃級推論成本降至 Blackwell 的 1/10；訓練所需 GPU 數量降至 1/4 | ⚠️ 目前為 NVIDIA 官方發布會宣稱數字，尚未出貨、無獨立第三方 (如 SemiAnalysis) 實測驗證，與其他列的實測基準不同，解讀時應打折扣 |
 
 > 效能數字取自 NVIDIA 官方公布規格、MLPerf 官方 benchmark、及 SemiAnalysis/InferenceX 第三方實測 (DeepSeek R1 推論)，非本表推算；不同來源測試方法/模型不同，數字僅供世代間相對量級比較，不同來源之間不宜直接互比絕對值。
 - **ASIC / 自研 AI 晶片出貨占比:** Google TPU, Amazon Trainium/Inferentia, Meta MTIA, MSFT Maia 滲透率。
