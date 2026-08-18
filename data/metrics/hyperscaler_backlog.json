@@ -1,0 +1,53 @@
+{
+  "metric": "CSP Backlog (RPO) vs 營收轉換速度",
+  "desc": "衡量客戶已簽約但尚未認列的營收 (Backlog/RPO) 相對於目前營收規模有多大、以及公司自己揭露要多久才能轉換成營收。四家對外銷售雲端算力的 CSP (AWS/Azure/Google Cloud/OCI) Backlog 年增率全數遠超營收年增率，且揭露口徑不完全一致 (見 note)，不可直接互比絕對數字，但轉換速度的相對排序具參考價值。Meta 2026-07 已對外透露正評估「Meta Compute」業務、計畫將閒置 GPU 產能租售給外部客戶 (對打 AWS/Azure/GCP/CoreWeave/Nebius)，但截至最新財報尚未定價、未上線、無客戶合約，因此還沒有可揭露的 Backlog 數字，暫不列入本表，非因 Meta 不做這件事。",
+  "unit": "USD Billion",
+  "updated_at": "2026-08-18",
+  "source_note": "RPO/Backlog 與轉換率均為公司官方揭露數字 (10-Q/8-K/法說會)，非本表推算；「相對年化營收倍數」為 Backlog 除以最新季度營收 x4 的本表計算值，供量級比較，非官方數字。",
+  "rows": [
+    {
+      "ticker": "ORCL",
+      "company": "Oracle (OCI)",
+      "period": "FY2026 Q4",
+      "backlog_usd_b": 638,
+      "yoy_pct": 363,
+      "revenue_multiple": 8.3,
+      "conversion_disclosure": "12% 於 12 個月內；34% 於 2-3 年；其餘 (>50%) 3 年以上",
+      "note": "四家中揭露的轉換速度最慢，且是唯一明確公布多期轉換時程分佈的公司",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft (Azure)",
+      "period": "FY2026 Q4",
+      "backlog_usd_b": 678,
+      "yoy_pct": 84,
+      "revenue_multiple": 5.6,
+      "conversion_disclosure": "30% 於 12 個月內；加權平均履約期間 2.3 年",
+      "note": "官方揭露的 Commercial RPO 涵蓋全部商用業務 (Azure + Microsoft 365 + Dynamics 等)，並非 Azure 單一業務口徑，與其他三家的雲端專屬 Backlog 不完全可比",
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet (Google Cloud)",
+      "period": "CY2026 Q2",
+      "backlog_usd_b": 514,
+      "yoy_pct": null,
+      "revenue_multiple": 5.2,
+      "conversion_disclosure": "略超過 50% 於 24 個月內 (2026 認列較少，主要落在 2027)",
+      "note": "單季環比增加逾 $50B；官方新聞稿未提供精確 YoY 成長率",
+      "source_url": "https://www.stocktitan.net/sec-filings/GOOG/10-q-alphabet-inc-quarterly-earnings-report-8ffb92bbee5d.html"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon (AWS)",
+      "period": "CY2026 Q2",
+      "backlog_usd_b": 496,
+      "yoy_pct": null,
+      "revenue_multiple": 2.93,
+      "conversion_disclosure": "未揭露分期轉換時程百分比 (四家中唯一未拆分)",
+      "note": "官方僅揭露三位數 % YoY 成長與 $496B 絕對值 (較上季 $364B 增加 $132B)，未提供具體 YoY 百分比與轉換時程拆分；相對年化營收倍數為四家最低",
+      "source_url": "https://www.techtimes.com/articles/322572/20260731/aws-backlog-hits-496b-amazon-raises-ai-spend-220b-capacity-runs-short.htm"
+    }
+  ]
+}

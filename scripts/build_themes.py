@@ -190,6 +190,42 @@ def render_execution_metric_table(data_ref: str) -> list[str]:
     return lines
 
 
+def render_backlog_metric_table(data_ref: str) -> list[str]:
+    """Render the CSP Backlog/RPO vs revenue-conversion-speed table.
+
+    See data/metrics/hyperscaler_backlog.json for the schema: rows of
+    ticker/company/period/backlog_usd_b/yoy_pct/revenue_multiple/
+    conversion_disclosure/note/source_url. All backlog and conversion figures
+    are the companies' own disclosures; revenue_multiple is this table's own
+    (backlog / latest-quarter-revenue x4) calculation, not an official figure.
+    """
+    payload = load_key_metric_data(data_ref)
+    if not payload or not payload.get("rows"):
+        return [f"> (數據待更新: `{data_ref}`)"]
+    lines = [
+        f"> 更新日: {payload.get('updated_at', '-')} | 單位: {payload.get('unit', '-')}",
+        "",
+        "| 公司 | 最新季度 | Backlog/RPO | YoY | 相對年化營收倍數 | 官方揭露轉換速度 | 備註 |",
+        "|---|---|---:|---:|---:|---|---|",
+    ]
+    for row in payload["rows"]:
+        backlog = row.get("backlog_usd_b")
+        yoy = row.get("yoy_pct")
+        mult = row.get("revenue_multiple")
+        backlog_s = f"${backlog:,.0f}B" if isinstance(backlog, (int, float)) else "-"
+        yoy_s = f"+{yoy:.0f}%" if isinstance(yoy, (int, float)) else "未揭露"
+        mult_s = f"{mult:.1f}x" if isinstance(mult, (int, float)) else "-"
+        company = str(row.get("company") or row.get("ticker") or "").strip()
+        period = str(row.get("period") or "").strip()
+        conversion = str(row.get("conversion_disclosure") or "-").strip()
+        note = str(row.get("note") or "-").strip()
+        lines.append(f"| {company} | {period} | {backlog_s} | {yoy_s} | {mult_s} | {conversion} | {note} |")
+    if payload.get("source_note"):
+        lines.append("")
+        lines.append(f"> {payload['source_note']}")
+    return lines
+
+
 def normalized_entity_key(value: str) -> str:
     return re.sub(r"[\s_\-]+", "", value).lower()
 
@@ -880,8 +916,11 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
             data_ref = str(km.get("data_ref") or "").strip()
             if data_ref:
                 lines.append("")
-                if str(km.get("data_ref_kind") or "") == "execution":
+                kind = str(km.get("data_ref_kind") or "")
+                if kind == "execution":
                     lines.extend(render_execution_metric_table(data_ref))
+                elif kind == "backlog":
+                    lines.extend(render_backlog_metric_table(data_ref))
                 else:
                     lines.extend(render_key_metric_data_table(data_ref))
         lines.append("")

@@ -166,6 +166,18 @@
 | Oracle (OCI) | FY2026 Q4 | 65.2% | 70.2% | -5.0pp | 實際大幅超出原財測 ($55.7B 實際 vs 原估 ~$50B) | 管理層自陳毛利率下降主因資料中心擴建與 Infrastructure 營收占比提高 (公司原話)；季末 RPO 達 $638B，同季認列營收為 $19.2B |
 
 > 毛利率資料取自 ../ConceptStocks/raw_conceptstock_company_income.csv 的 gross_margin 欄位 (SEC/AlphaVantage 官方申報數字)，取最新可得季度與去年同期比較；財測修正方向為人工彙整當年度法說會/新聞稿；note 欄位僅描述可查證事實或公司自身歸因，不含本表編者的排名或因果推論。
+- **CSP Backlog (RPO) vs 營收轉換速度:** AWS/Azure/Google Cloud/OCI 已簽約 Backlog 年增率全數遠超營收年增率，且各家官方揭露的轉換速度差異很大 (Oracle 最慢，僅 12% 於 12 個月內轉營收)。Meta 2026-07 起評估「Meta Compute」對外租售 GPU 產能，惟尚未商轉、無可揭露 Backlog，暫不列入本表。
+
+> 更新日: 2026-08-18 | 單位: USD Billion
+
+| 公司 | 最新季度 | Backlog/RPO | YoY | 相對年化營收倍數 | 官方揭露轉換速度 | 備註 |
+|---|---|---:|---:|---:|---|---|
+| Oracle (OCI) | FY2026 Q4 | $638B | +363% | 8.3x | 12% 於 12 個月內；34% 於 2-3 年；其餘 (>50%) 3 年以上 | 四家中揭露的轉換速度最慢，且是唯一明確公布多期轉換時程分佈的公司 |
+| Microsoft (Azure) | FY2026 Q4 | $678B | +84% | 5.6x | 30% 於 12 個月內；加權平均履約期間 2.3 年 | 官方揭露的 Commercial RPO 涵蓋全部商用業務 (Azure + Microsoft 365 + Dynamics 等)，並非 Azure 單一業務口徑，與其他三家的雲端專屬 Backlog 不完全可比 |
+| Alphabet (Google Cloud) | CY2026 Q2 | $514B | 未揭露 | 5.2x | 略超過 50% 於 24 個月內 (2026 認列較少，主要落在 2027) | 單季環比增加逾 $50B；官方新聞稿未提供精確 YoY 成長率 |
+| Amazon (AWS) | CY2026 Q2 | $496B | 未揭露 | 2.9x | 未揭露分期轉換時程百分比 (四家中唯一未拆分) | 官方僅揭露三位數 % YoY 成長與 $496B 絕對值 (較上季 $364B 增加 $132B)，未提供具體 YoY 百分比與轉換時程拆分；相對年化營收倍數為四家最低 |
+
+> RPO/Backlog 與轉換率均為公司官方揭露數字 (10-Q/8-K/法說會)，非本表推算；「相對年化營收倍數」為 Backlog 除以最新季度營收 x4 的本表計算值，供量級比較，非官方數字。
 - **ASIC / 自研 AI 晶片出貨占比:** Google TPU, Amazon Trainium/Inferentia, Meta MTIA, MSFT Maia 滲透率。
 - **水冷/液冷機櫃 (Liquid Cooling Rack) 採用率:** 包含 NVL72/NVL36 等 100kW+ 高功耗機櫃水冷板與 CDU 拉貨。
 
