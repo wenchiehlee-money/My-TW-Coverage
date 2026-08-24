@@ -104,4 +104,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Cross-check: FactSet | R
 | Financing Cash Flow     |       -23.55 |      -121.51 |       -19.96 |       -22.89 |
 | CAPEX                   |       -47.97 |       -69.50 |       -54.36 |      -178.16 |
 
-Updated: 2026-08-24 03:22 CST
+Updated: 2026-08-25 03:30 CST
