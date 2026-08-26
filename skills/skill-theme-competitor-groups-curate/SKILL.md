@@ -29,8 +29,8 @@ This skill curates `data/themes/*.json`'s `competitive_groups` (regroup companie
 the theme's dataset by real competitive segment) and `extra_entities` (inject a company the
 source taxonomy omits entirely) so the rendered page groups true competitors together, and
 keeps that grouping consistent with each company's own canonical competitor list maintained by
-[skill-company-competitor-analysis](../skill-company-competitor-analysis/SKILL.md) /
-[skill-my-tw-coverage-enrichment-json](../skill-my-tw-coverage-enrichment-json/SKILL.md)
+[skill-theme-competitor-analysis](../skill-theme-competitor-analysis/SKILL.md) /
+[skill-company-enrichment-json](../skill-company-enrichment-json/SKILL.md)
 (`data/enrichment_all/{ticker}.json` → `relationships.competitors`).
 
 ## Standard Workflow
@@ -93,7 +93,7 @@ Run from the My-TW-Coverage repository root.
 
    It also prints a third, purely informational section — AI-canonical-cycle segment weights
    (from `../biztrends.TW/output/company_cycle_major_weights.csv`, the same data
-   `skill-company-competitor-analysis` uses) for any curated group member that happens to have
+   `skill-theme-competitor-analysis` uses) for any curated group member that happens to have
    them. This is context only, never a grouping signal: coverage is far too sparse (a handful
    of tickers total have disclosed that granularity of revenue mix) and there is no reliable
    theme-level revenue total to normalize against, so a missing or low weight does not mean a
@@ -112,7 +112,7 @@ Run from the My-TW-Coverage repository root.
      canonical competitor overall while only one of them participates in this particular
      AI-server/CoWoS/whatever product line).
    - Flag `relationships.competitors` itself as needing a fix — that data belongs to
-     `skill-my-tw-coverage-enrichment-json`, not this skill; do not edit
+     `skill-company-enrichment-json`, not this skill; do not edit
      `data/enrichment_all/*.json` from this skill without the user's explicit go-ahead.
 
 5. **Edit `data/themes/<theme>.json`.**
@@ -170,7 +170,7 @@ Run from the My-TW-Coverage repository root.
 - **Reconcile with `relationships.competitors`, don't override it silently.** This skill reads
   that field to sanity-check groupings; it does not write to `data/enrichment_all/*.json`. If a
   conflict looks like `relationships.competitors` is the one that's wrong or stale, say so to
-  the user and hand off to `skill-my-tw-coverage-enrichment-json` rather than fixing it here.
+  the user and hand off to `skill-company-enrichment-json` rather than fixing it here.
 
 ## Data Sources
 

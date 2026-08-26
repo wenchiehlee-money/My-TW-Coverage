@@ -1,5 +1,5 @@
 ---
-name: skill-company-competitor-analysis
+name: skill-theme-competitor-analysis
 description: >-
   Analyze a specified stock's competitors and peers by combining supply-chain product peer seeds,
   relationship-type rules, and quarterly financial performance. Use when the user asks to identify
@@ -8,7 +8,7 @@ description: >-
   Profit YoY, and Gross Margin tables for the most recent three years.
 ---
 
-# Company Competitor Analysis Skill
+# Theme Competitor Analysis Skill
 
 ## Role
 
@@ -24,14 +24,14 @@ Do not use `Canonical cycle` alone as a competitor filter. It is an exposure/the
 Run from the `biztrends.TW` repo root:
 
 ```bash
-python3 skills/skill-company-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --years 3
+python3 skills/skill-theme-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --years 3
 ```
 
 Optional filters:
 
 ```bash
-python3 skills/skill-company-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --relationship brand_competitor
-python3 skills/skill-company-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --relationship brand_competitor,server_peer
+python3 skills/skill-theme-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --relationship brand_competitor
+python3 skills/skill-theme-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --relationship brand_competitor,server_peer
 ```
 
 The runner writes:
@@ -112,14 +112,14 @@ State clearly when a row is a `brand_competitor`, `chip_competitor`, `foundry_co
 When used inside the `My-TW-Coverage` repository, the render adapter is:
 
 ```bash
-python3 skills/skill-company-competitor-analysis/scripts/render_competitor_financial_section.py \
+python3 skills/skill-theme-competitor-analysis/scripts/render_competitor_financial_section.py \
   --json-dir data/enrichment_all \
   --ticker 2330
 ```
 
 The adapter reads canonical competitors from `data/enrichment_all/{ticker}.json`, resolves competitor entity names to Taiwan stock IDs or US/international symbols, then renders a `### 競爭同業 Revenue/Profit/GM` markdown subsection. It uses `../biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_performance1.csv`, `../biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv`, and `../biztrends.TW/data/InvestorConference/raw_ir_quarterly_financials.csv` and `../biztrends.TW/data/ConceptStocks/raw_conceptstock_company_income.csv` for financial data.
 
-The My-TW renderer imports this adapter directly from the repo-local `skills/skill-company-competitor-analysis` folder. Keep this local skill in sync with `../skills/common/skill-company-competitor-analysis` when changing the adapter.
+The My-TW renderer imports this adapter directly from the repo-local `skills/skill-theme-competitor-analysis` folder. Keep this local skill in sync with `../skills/common/skill-theme-competitor-analysis` when changing the adapter.
 
 `output_rows_for_data()` (called by `render_competitor_financial_section()` and directly by `render_enrichment_markdown.py`'s main loop) returns each row with both a display-formatted string and an unrounded numeric sibling: `revenue`/`revenue_raw`, `revenue_yoy_pct`/`revenue_yoy_pct_raw`, `profit`/`profit_raw`, `profit_yoy_pct`/`profit_yoy_pct_raw`, `gross_margin_pct`/`gross_margin_pct_raw`. `render_pivot()` only reads the string fields, so the `_raw` siblings exist purely for downstream machine consumers — currently `render_enrichment_markdown.py`'s `output/json/{ticker}_competitors.json` export, which GoogleAlertManager reads to rank a target company against every peer without re-parsing formatted text (stripping `,`/`%`). Keep both fields in sync if you change how a metric is computed — never format-only one and leave the other stale.
 
@@ -128,9 +128,9 @@ The My-TW renderer imports this adapter directly from the repo-local `skills/ski
 After editing the skill or runner, run:
 
 ```bash
-python3 -m py_compile skills/skill-company-competitor-analysis/scripts/run_company_competitor_analysis.py
-python3 /root/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/skill-company-competitor-analysis
-python3 skills/skill-company-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --years 3
+python3 -m py_compile skills/skill-theme-competitor-analysis/scripts/run_company_competitor_analysis.py
+python3 /root/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/skill-theme-competitor-analysis
+python3 skills/skill-theme-competitor-analysis/scripts/run_company_competitor_analysis.py --stock 2357 --years 3
 ```
 
 Check that `2330` is not included for `2357` unless the user asks for supplier/component exposure. Check that Taiwan reports include the newest monthly-revenue-only quarter when available, for example `2026Q2` after April-June monthly revenue exists while Q2 financial statements are not yet available.
