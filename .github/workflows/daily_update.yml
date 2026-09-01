@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # Pushes made with the default GITHUB_TOKEN don't trigger other
           # workflows' `on: push` (GitHub's anti-recursion rule), which would
@@ -53,7 +53,7 @@ jobs:
         run: python scripts/build_wikilink_index.py
 
       - name: Rebuild Themes Value Chain
-        run: python skills/skill-my-tw-coverage-render-markdown/scripts/build_themes.py
+        run: python skills/skill-company-enrichment-render/scripts/build_themes.py
 
       - name: Rebuild Network Graph
         run: python scripts/build_network.py
@@ -63,7 +63,7 @@ jobs:
 
       - name: Render enrichment Markdown + competitor JSON
         run: |
-          python skills/skill-my-tw-coverage-render-markdown/scripts/render_enrichment_markdown.py \
+          python skills/skill-company-enrichment-render/scripts/render_enrichment_markdown.py \
             --json-dir data/enrichment_all \
             --out output/enrichment_all_rendered \
             --compare output/enrichment_all_render_compare.csv \
