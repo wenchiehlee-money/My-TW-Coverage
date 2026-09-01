@@ -37,8 +37,11 @@
 
 ## 關鍵關注指標
 - **ABF 載板供需缺口:** 高階 AI/HPC 晶片帶動大面積、多層數載板產能利用率。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **大尺寸與高層數占比:** 70x70mm 以上大尺寸與 16 層以上高階載板比重。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **良率與晶圓廠先進封裝產能:** CoWoS 產能擴張速度對 ABF 載板需求拉動。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

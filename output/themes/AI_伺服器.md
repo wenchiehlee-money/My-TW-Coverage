@@ -267,8 +267,11 @@
 
 ## 關鍵關注指標
 - **AI 伺服器出貨量與滲透率:** 全球雲端巨頭 (CSP) 採購 NVL72/GB200/H200 伺服器總量。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **水冷/液冷散熱滲透率:** CDU 與水冷板 (Cold Plate) 採用率及單機產值提升。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **CSP 資本支出 (CAPEX):** Microsoft, Amazon, Google, Meta 總資本支出成長趨勢。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

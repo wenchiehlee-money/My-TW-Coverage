@@ -85,7 +85,7 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Energy Storage & Solar (Megapack) | 11.80% ($2,514M) | 儲能系統 Megapack 需求年增突破 120% |
 | Services & Other (Supercharging / FSD) | 6.70% ($1,427M) | 超級充電網路開與 FSD 訂閱收入 |
 
-### 競爭同業 Revenue/Profit/GM/PE
+### 競爭同業 Revenue/Profit/Margins/PE
 
 Revenue/Profit Unit: `百萬台幣`
 P/E Range: `季內最低/平均/最高股價 / TTM EPS (當季 EPS + 最近 3 季 EPS)`; daily close 優先，歷史季度以 GoodInfo 月高低/季均價補齊
@@ -131,7 +131,21 @@ P/E Range: `季內最低/平均/最高股價 / TTM EPS (當季 EPS + 最近 3 �
 </tbody>
 </table>
 
-#### GM
+#### Net Profit
+
+<table>
+<thead>
+<tr><th style="text-align: left;">Stock</th><th style="text-align: left;">Company</th><th style="text-align: left;">Market</th><th style="text-align: left;">Relationship</th></tr>
+<tr><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th><th style="text-align: left;"></th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: left;">TSLA</td><td style="text-align: left;">Tesla</td><td style="text-align: left;">US</td><td style="text-align: left;">目標公司</td></tr>
+<tr><td style="text-align: left;">BYD</td><td style="text-align: left;">BYD</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td></tr>
+<tr><td style="text-align: left;">Waymo</td><td style="text-align: left;">Waymo</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td></tr>
+</tbody>
+</table>
+
+#### Margins
 
 <table>
 <thead>
@@ -159,4 +173,4 @@ P/E Range: `季內最低/平均/最高股價 / TTM EPS (當季 EPS + 最近 3 �
 </tbody>
 </table>
 
-Updated: 2026-09-01 16:17 CST
+Updated: 2026-09-02 05:38 CST

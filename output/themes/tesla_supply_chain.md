@@ -96,8 +96,11 @@
 
 ## 關鍵關注指標
 - **Tesla 全球季度交付量 (Deliveries):** Cybercab, Model Y/3 之總出貨量與降價政策影響。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **FSD 全自動駕駛里程與普及率:** Robotaxi 商業化進度帶動車載電腦與鏡頭需求。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **Optimus 人形機器人量產進度:** 減速器、馬達、關節機構件台廠拉貨量。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

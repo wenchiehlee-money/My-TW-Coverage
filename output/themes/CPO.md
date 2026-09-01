@@ -35,8 +35,11 @@
 
 ## 關鍵關注指標
 - **800G / 1.6T 光收發模組出貨量:** 資料中心由傳統插拔式向 1.6T 高速光模組升級。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **CPO 矽光子技術認證進度:** 主要晶片廠 (NVIDIA/Broadcom) 導入 CPO 架構時程。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **光纖陣列 (FA) 與矽光晶圓測試良率:** 光學耦合損失與高頻元件測試產出率。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

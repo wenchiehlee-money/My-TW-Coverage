@@ -205,8 +205,11 @@
 
 ## 關鍵關注指標
 - **DRAM 現貨價與合約價趨勢:** DDR4/DDR5 價格走勢與產品交替速度。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **HBM 排擠傳統 DRAM 產能:** 三大原廠轉產 HBM 導致標準型 DRAM 供需緊繃程度。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **DDR5 滲透率:** PC 與伺服器平台升級至 DDR5 之市場滲透率。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

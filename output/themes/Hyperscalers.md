@@ -205,7 +205,9 @@
 
 > 效能數字取自 NVIDIA 官方公布規格、MLPerf 官方 benchmark、及 SemiAnalysis/InferenceX 第三方實測 (DeepSeek R1 推論)，非本表推算；不同來源測試方法/模型不同，數字僅供世代間相對量級比較，不同來源之間不宜直接互比絕對值。
 - **ASIC / 自研 AI 晶片出貨占比:** Google TPU, Amazon Trainium/Inferentia, Meta MTIA, MSFT Maia 滲透率。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **水冷/液冷機櫃 (Liquid Cooling Rack) 採用率:** 包含 NVL72/NVL36 等 100kW+ 高功耗機櫃水冷板與 CDU 拉貨。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

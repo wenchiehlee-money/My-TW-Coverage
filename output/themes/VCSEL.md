@@ -25,8 +25,11 @@
 
 ## 關鍵關注指標
 - **iPhone 3D 感測與 LiDAR 採用率:** 智慧型手機 Face ID 與後鏡頭 LiDAR VCSEL 用量。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **光通訊 VCSEL 800G 出貨占比:** 短距資料中心光纖傳輸採用高頻 VCSEL 晶粒比重。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **化合物半導體 6 吋磊晶片良率:** 砷化鎵 (GaAs) 磊晶產能利用率與價格走勢。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

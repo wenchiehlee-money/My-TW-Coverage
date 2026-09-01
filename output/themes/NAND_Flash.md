@@ -37,8 +37,11 @@
 
 ## 關鍵關注指標
 - **NAND Flash 合約價格與產能利用率:** 原廠控產減產政策與價格回升力度。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **企業級 SSD (eSSD) 需求占比:** AI 伺服器海量訓練資料帶動高容量 eSSD 出貨。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **3D NAND 層數升級:** 200+ 層以上 3D NAND 堆疊良率與控制晶片需求。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

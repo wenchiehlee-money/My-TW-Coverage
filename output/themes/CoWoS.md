@@ -69,8 +69,11 @@
 
 ## 關鍵關注指標
 - **台積電 CoWoS 月產能 (kpm):** CoWoS-S / CoWoS-L 月產能擴充進度與設備交期。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **OSAT 委外封裝比重:** 日月光、京元電等封測大廠後段測試與 OSAT 分流比重。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **先進封裝設備本土化率:** 台廠濕製程、貼合、檢測設備採購比重。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

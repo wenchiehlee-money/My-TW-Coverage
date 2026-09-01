@@ -43,8 +43,11 @@
 
 ## 關鍵關注指標
 - **ASML EUV / High-NA EUV 出貨台數:** 極紫外光刻機交期與全球半導體廠裝機進度。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **EUV 光罩盒 (EUV Pod) 消耗量:** 晶圓廠先進製程投片量與光罩防塵盒採購量。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **EUV 濕製程與零組件替換率:** 先進製程清洗設備與高純度化學品耗耗率。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

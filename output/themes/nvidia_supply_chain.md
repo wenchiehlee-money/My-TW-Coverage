@@ -188,8 +188,11 @@
 
 ## 關鍵關注指標
 - **NVIDIA 季度數據中心營收 (Data Center Revenue):** GPU/NVLink 產品線季度營收成長動能。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **Blackwell / Rubin 平台量產交期:** GB200/NVL72 機櫃系統拉貨量與組裝良率。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **NVIDIA 獨家供應商比重:** 台廠在水冷、電源、滑軌、機殼之單一/主要供應商地位。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

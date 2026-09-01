@@ -169,8 +169,11 @@
 
 ## 關鍵關注指標
 - **iPhone/Mac 季度出貨量:** 新機備貨週期與高階 Pro/Pro Max 機型銷售比重。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **Apple Intelligence 功能上線進度:** 帶動全球舊機換機潮 (Replacement Cycle) 強弱。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **非中國供應鏈分散比重:** 越南、印度等海外產能建置與出貨占比。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 

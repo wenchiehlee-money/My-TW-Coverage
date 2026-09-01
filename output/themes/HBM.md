@@ -37,8 +37,11 @@
 
 ## 關鍵關注指標
 - **HBM3e / HBM4 驗證與量產時程:** 原廠 (SK Hynix, Samsung, Micron) 通過 AI 晶片龍頭認證。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **TSV 通孔技術與堆疊層數:** 8H / 12H / 16H 堆疊技術良率與熱散逸效率。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 - **HBM 測試設備與切割膠帶需求:** 高階記憶體測試時間拉長對檢測設備與材料拉貨。
+> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)
 
 ### 相關公司關鍵指標
 
