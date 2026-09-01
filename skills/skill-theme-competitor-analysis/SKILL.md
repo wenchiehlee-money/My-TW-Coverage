@@ -19,6 +19,16 @@ Act as a cross-market equity research analyst. Treat competitor analysis as a tw
 
 Do not use `Canonical cycle` alone as a competitor filter. It is an exposure/theme field, not a product-market competitor field.
 
+## Alignment with Theme Groupings
+
+This skill's `relationship_type` output (`brand_competitor`/`foundry_competitor`/`odm_peer`/
+`server_peer`/`chip_competitor`) is the canonical source of truth for who competes with whom.
+`skill-theme-competitor-groups-curate`'s per-theme `competitive_groups` boundaries in
+`data/themes/*.json` (My-TW-Coverage repo) are expected to agree with it. When curating a theme
+and this skill's classification for a stock disagrees with `data/enrichment_all/{ticker}.json`'s
+`relationships.competitors`, prefer this skill's rule-based output — `relationships.competitors`
+is text-extracted from company disclosures and can be stale or incomplete.
+
 ## Standard Workflow
 
 Run from the `biztrends.TW` repo root:
