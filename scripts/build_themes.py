@@ -990,6 +990,11 @@ def build_theme_page(theme_tag: str, theme_def: dict[str, Any], theme_map: dict[
                     lines.extend(render_tokens_per_watt_table(data_ref))
                 else:
                     lines.extend(render_key_metric_data_table(data_ref))
+            elif name:
+                # No data_ref wired up yet: surface this explicitly instead of silently
+                # dropping to a bare bullet, so a reader can tell this metric has a
+                # placeholder slot rather than assuming the bullet text is everything.
+                lines.append("> (尚未建立結構化數據；如需補上，在本主題 data/themes/*.json 對應的 key_metrics 項目加上 data_ref)")
         lines.append("")
 
         lines.append("### 相關公司關鍵指標")
