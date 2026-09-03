@@ -134,15 +134,8 @@ First-wave evidence objects:
 
 - `evidence.segment_revenue_platforms`: platform revenue mix and revenue amounts, sourced from `../biztrends.TW/data/company_segment_weights.csv` and matching revenue totals.
 - `evidence.customer_relationships`: reviewed customer claims and supporting source documents.
-- `evidence.peer_revenue`, `evidence.peer_profitability`, `evidence.peer_valuation`: competitor comparison data rendered as `### 競爭同業營運與估值比較 (Revenue / Profit / GM / PE)`.
+- `evidence.peer_revenue`, `evidence.peer_profitability`, `evidence.peer_valuation`: competitor comparison data rendered as Revenue / Profit / GM / P/E.
 - `evidence.market_valuation`, `evidence.quarterly_financials`, `evidence.consensus_estimates`: valuation, actual financials, and consensus evidence.
-
-Standard Rendered Markdown Section Hierarchy (Guaranteed 2382 Quanta Consistency):
-1. `# Ticker - CompanyName`
-2. `## 業務簡介`
-3. `## 供應鏈位置`
-4. `## 主要客戶及供應商` (`### 主要客戶`, `### 主要供應商`, `### 競爭同業`)
-5. `## 財務概況` (`### 估值指標`, `### 年度關鍵財務數據`, `### 季度關鍵財務數據`, `### 營收平台佔比`, `### 競爭同業 Revenue/Profit/GM/PE`)
 
 Only these high-value presentation contexts should receive first-wave annotator badges:
 
