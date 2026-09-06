@@ -174,4 +174,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-06 04:58 CST
+Updated: 2026-09-07 05:07 CST
