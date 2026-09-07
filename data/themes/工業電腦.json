@@ -10,10 +10,10 @@
     "badge_color": "green",
     "output_filename": "工業電腦.md"
   },
-  "description": "工業電腦 (IPC) 專用主題，涵蓋工業自動化、邊緣 AI (Edge AI)、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商。",
+  "description": "工業電腦 (IPC) 與邊緣 AI (Edge AI) 雙主軸產業主題：一軸為工業自動化、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商；另一軸為邊緣 AI 晶片、運算平台與應用系統供應商。",
   "id": "theme.ipc",
   "name": "工業電腦 (IPC & Edge AI) 產業主題",
-  "desc": "工業電腦 (IPC) 專用主題，涵蓋工業自動化、邊緣 AI (Edge AI)、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商。",
+  "desc": "工業電腦 (IPC) 與邊緣 AI (Edge AI) 雙主軸產業主題：一軸為工業自動化、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商；另一軸為邊緣 AI 晶片、運算平台與應用系統供應商。",
   "competitive_groups": [
     {
       "name": "IPC 品牌與系統整合龍頭",
@@ -42,13 +42,15 @@
       ]
     },
     {
-      "name": "邊緣 AI 晶片與工業板卡",
+      "name": "邊緣 AI 晶片、運算平台與應用系統",
       "tickers": [
         "2388",
         "3169",
         "3228",
         "6922",
-        "6680"
+        "6680",
+        "5474",
+        "5484"
       ]
     },
     {
@@ -57,8 +59,143 @@
         "2308",
         "2359",
         "6192",
-        "3413"
+        "3413",
+        "3577",
+        "3455"
       ]
+    },
+    {
+      "name": "IPC/嵌入式系統廠 (二線品牌)",
+      "tickers": [
+        "4916",
+        "2331",
+        "2399",
+        "2405",
+        "3594",
+        "3046",
+        "6161",
+        "6570",
+        "6825",
+        "3564"
+      ]
+    },
+    {
+      "name": "工業電腦/伺服器電源供應器",
+      "tickers": [
+        "6203",
+        "3015",
+        "1471"
+      ]
+    },
+    {
+      "name": "工控/醫療/車用利基型觸控顯示器",
+      "tickers": [
+        "4995",
+        "6899",
+        "5220",
+        "3623",
+        "6916",
+        "3038",
+        "4729",
+        "3434"
+      ]
+    },
+    {
+      "name": "半導體/電子零組件通路商 (工業電腦線)",
+      "tickers": [
+        "3702",
+        "6189",
+        "6227",
+        "3528",
+        "6761",
+        "3232",
+        "6259",
+        "6474"
+      ]
+    },
+    {
+      "name": "工業電腦用 PCB/多層板",
+      "tickers": [
+        "5439",
+        "8155",
+        "5464",
+        "3229",
+        "5291",
+        "6194",
+        "6210"
+      ]
+    },
+    {
+      "name": "被動元件/磁性元件 (工業與車用)",
+      "tickers": [
+        "3236",
+        "5228",
+        "6174",
+        "3207"
+      ]
+    },
+    {
+      "name": "RFID/無線通訊模組",
+      "tickers": [
+        "6417",
+        "6546",
+        "6708",
+        "3694"
+      ]
+    },
+    {
+      "name": "博弈機台專用工業電腦與系統",
+      "tickers": [
+        "6441",
+        "6536"
+      ]
+    },
+    {
+      "name": "精密金屬沖壓/機殼 (伺服器與IPC)",
+      "tickers": [
+        "5426",
+        "5460"
+      ]
+    },
+    {
+      "name": "精密連接器 (工業與車用)",
+      "tickers": [
+        "6205",
+        "6185",
+        "6833",
+        "5271",
+        "3520"
+      ]
+    }
+  ],
+  "extra_entities": [
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "Jetson 平台是本主題「邊緣 AI 晶片與工業板卡」多家台廠 (如 6922 宸曜) 明確依附的邊緣運算平台；ConceptStocks 已 onboard (nVidia概念/NVDA)，依 skill-stock-universe-onboarding 定義為 ConceptStocks 概念欄位對照的海外 ticker，非 TAIEX 台股名單成員，故列為 extra_entities 錨點而非 competitive_groups 同業"
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "Intel Core Ultra (Client Computing Group 產品線) 為本主題 key_metrics 已提及之工業板卡處理器平台；ConceptStocks 已 onboard (Intel概念/INTC)，依 skill-stock-universe-onboarding 列為 extra_entities 錨點"
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "ConceptStocks metadata 揭露 AMD 產品區段明確包含 Embedded (原 Xilinx 工業嵌入式處理器線)，與 IPC/邊緣運算高度相關；ConceptStocks 已 onboard (AMD概念/AMD)，依 skill-stock-universe-onboarding 列為 extra_entities 錨點"
+    },
+    {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "ConceptStocks metadata 揭露 Qualcomm 產品區段明確包含 IoT，為工業邊緣 AI SoC 主要平台商之一；ConceptStocks 已 onboard (Qualcomm概念/QCOM)，依 skill-stock-universe-onboarding 列為 extra_entities 錨點"
     }
   ],
   "key_metrics": [
