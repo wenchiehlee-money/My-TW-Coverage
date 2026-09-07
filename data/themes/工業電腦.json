@@ -10,10 +10,10 @@
     "badge_color": "green",
     "output_filename": "工業電腦.md"
   },
-  "description": "工業電腦 (IPC) 與邊緣 AI (Edge AI) 雙主軸產業主題：一軸為工業自動化、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商；另一軸為邊緣 AI 晶片、運算平台與應用系統供應商。",
+  "description": "工業電腦 (IPC) 專用主題，涵蓋工業自動化、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商。邊緣 AI (Edge AI) 晶片/運算平台獨立為「邊緣 AI」主題，見 [[邊緣 AI]]。",
   "id": "theme.ipc",
-  "name": "工業電腦 (IPC & Edge AI) 產業主題",
-  "desc": "工業電腦 (IPC) 與邊緣 AI (Edge AI) 雙主軸產業主題：一軸為工業自動化、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商；另一軸為邊緣 AI 晶片、運算平台與應用系統供應商。",
+  "name": "工業電腦 (IPC) 產業主題",
+  "desc": "工業電腦 (IPC) 專用主題，涵蓋工業自動化、智慧零售、車載電腦與醫療電子之硬體製造與系統整合商。邊緣 AI (Edge AI) 晶片/運算平台獨立為「邊緣 AI」主題，見 [[邊緣 AI]]。",
   "competitive_groups": [
     {
       "name": "IPC 品牌與系統整合龍頭",
@@ -39,18 +39,6 @@
         "2451",
         "4967",
         "4973"
-      ]
-    },
-    {
-      "name": "邊緣 AI 晶片、運算平台與應用系統",
-      "tickers": [
-        "2388",
-        "3169",
-        "3228",
-        "6922",
-        "6680",
-        "5474",
-        "5484"
       ]
     },
     {
@@ -168,44 +156,10 @@
       ]
     }
   ],
-  "extra_entities": [
-    {
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "role": "related",
-      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
-      "note": "Jetson 平台是本主題「邊緣 AI 晶片與工業板卡」多家台廠 (如 6922 宸曜) 明確依附的邊緣運算平台；ConceptStocks 已 onboard (nVidia概念/NVDA)，依 skill-stock-universe-onboarding 定義為 ConceptStocks 概念欄位對照的海外 ticker，非 TAIEX 台股名單成員，故列為 extra_entities 錨點而非 competitive_groups 同業"
-    },
-    {
-      "ticker": "INTC",
-      "company": "Intel",
-      "role": "related",
-      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
-      "note": "Intel Core Ultra (Client Computing Group 產品線) 為本主題 key_metrics 已提及之工業板卡處理器平台；ConceptStocks 已 onboard (Intel概念/INTC)，依 skill-stock-universe-onboarding 列為 extra_entities 錨點"
-    },
-    {
-      "ticker": "AMD",
-      "company": "AMD",
-      "role": "related",
-      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
-      "note": "ConceptStocks metadata 揭露 AMD 產品區段明確包含 Embedded (原 Xilinx 工業嵌入式處理器線)，與 IPC/邊緣運算高度相關；ConceptStocks 已 onboard (AMD概念/AMD)，依 skill-stock-universe-onboarding 列為 extra_entities 錨點"
-    },
-    {
-      "ticker": "QCOM",
-      "company": "Qualcomm",
-      "role": "related",
-      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
-      "note": "ConceptStocks metadata 揭露 Qualcomm 產品區段明確包含 IoT，為工業邊緣 AI SoC 主要平台商之一；ConceptStocks 已 onboard (Qualcomm概念/QCOM)，依 skill-stock-universe-onboarding 列為 extra_entities 錨點"
-    }
-  ],
   "key_metrics": [
     {
       "name": "B/B Ratio (訂單出貨比)",
       "desc": "> 1 表示工業電腦接單回溫。"
-    },
-    {
-      "name": "Edge AI 滲透率",
-      "desc": "NVIDIA Jetson 平台與 Intel Core Ultra 工業板卡比重。"
     },
     {
       "name": "歐美企業資本支出 (CAPEX)",

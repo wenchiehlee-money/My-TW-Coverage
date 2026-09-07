@@ -57,6 +57,7 @@
 ## 產業與系統
 
 - [![工業電腦](https://img.shields.io/badge/%E5%B7%A5%E6%A5%AD%E9%9B%BB%E8%85%A6-green)](%E5%B7%A5%E6%A5%AD%E9%9B%BB%E8%85%A6.md) — 113 家公司
+- [![邊緣 AI](https://img.shields.io/badge/%E9%82%8A%E7%B7%A3%20AI-orange)](%E9%82%8A%E7%B7%A3_AI.md) — 65 家公司
 - [![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](DRAM.md) — 150 家公司
 
 ## 品牌供應鏈

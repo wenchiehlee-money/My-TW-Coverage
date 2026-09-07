@@ -1,0 +1,134 @@
+{
+  "tag": "邊緣 AI",
+  "aliases": [
+    "Edge AI",
+    "邊緣運算"
+  ],
+  "render": {
+    "badge_label": "邊緣 AI",
+    "badge_color": "orange",
+    "output_filename": "邊緣_AI.md"
+  },
+  "description": "邊緣 AI (Edge AI) 專用主題，涵蓋邊緣運算晶片/SoC、AI 加速卡、嵌入式邊緣運算系統與應用整合商，以及海外邊緣 AI 平台商。原為「工業電腦 (IPC & Edge AI)」主題的一部分，2026-09 拆分為獨立主題，見 [[工業電腦]]。",
+  "id": "theme.edge_ai",
+  "name": "邊緣 AI (Edge AI) 產業主題",
+  "desc": "邊緣 AI (Edge AI) 專用主題，涵蓋邊緣運算晶片/SoC、AI 加速卡、嵌入式邊緣運算系統與應用整合商，以及海外邊緣 AI 平台商。原為「工業電腦 (IPC & Edge AI)」主題的一部分，2026-09 拆分為獨立主題，見 [[工業電腦]]。",
+  "competitive_groups": [
+    {
+      "name": "邊緣 AI 晶片/SoC",
+      "tickers": [
+        "2388",
+        "3228",
+        "6680"
+      ]
+    },
+    {
+      "name": "邊緣 AI 運算系統與應用",
+      "tickers": [
+        "3169",
+        "6922",
+        "5474",
+        "5484"
+      ]
+    },
+    {
+      "name": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AMD",
+        "QCOM"
+      ]
+    }
+  ],
+  "extra_entities": [
+    {
+      "ticker": "2388",
+      "company": "威盛",
+      "role": "related",
+      "sector": "邊緣 AI 晶片/SoC",
+      "note": "原「工業電腦」主題「邊緣 AI 晶片、運算平台與應用系統」分組成員，隨主題拆分遷移至此；x86 SoC/GPU IP 含 AI 加速"
+    },
+    {
+      "ticker": "3228",
+      "company": "金麗科",
+      "role": "related",
+      "sector": "邊緣 AI 晶片/SoC",
+      "note": "原「工業電腦」主題成員遷移至此；FPGA / AI 加速晶片，業務文字未明確含「邊緣運算」關鍵字，故以 extra_entities 手動保留分組成員資格"
+    },
+    {
+      "ticker": "6680",
+      "company": "鑫創電子",
+      "role": "related",
+      "sector": "邊緣 AI 晶片/SoC",
+      "note": "原「工業電腦」主題成員遷移至此；邊緣 AI SoC (攝影機應用)"
+    },
+    {
+      "ticker": "3169",
+      "company": "亞信",
+      "role": "related",
+      "sector": "邊緣 AI 運算系統與應用",
+      "note": "原「工業電腦」主題成員遷移至此；邊緣運算安控/AI 影像方案"
+    },
+    {
+      "ticker": "6922",
+      "company": "宸曜",
+      "role": "related",
+      "sector": "邊緣 AI 運算系統與應用",
+      "note": "原「工業電腦」主題成員遷移至此；嵌入式 AI 運算電腦，採用 NVIDIA Jetson 平台"
+    },
+    {
+      "ticker": "5474",
+      "company": "聰泰",
+      "role": "related",
+      "sector": "邊緣 AI 運算系統與應用",
+      "note": "原「工業電腦」主題成員遷移至此；AI 邊緣運算業務線，NVIDIA Jetson Orin 平台，機器人視覺"
+    },
+    {
+      "ticker": "5484",
+      "company": "慧友",
+      "role": "related",
+      "sector": "邊緣 AI 運算系統與應用",
+      "note": "原「工業電腦」主題成員遷移至此；AIoT 邊緣運算 AI 主機，NVIDIA Jetson 生態系合作夥伴"
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "原「工業電腦」主題 extra_entities 遷移至此；Jetson 平台為多家台廠邊緣運算依附之平台；ConceptStocks 已 onboard (nVidia概念/NVDA)，依 skill-stock-universe-onboarding 定義為海外 concept ticker，非 TAIEX 台股名單成員"
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "原「工業電腦」主題 extra_entities 遷移至此；Intel Core Ultra (Client Computing Group) 邊緣運算處理器平台；ConceptStocks 已 onboard (Intel概念/INTC)"
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "原「工業電腦」主題 extra_entities 遷移至此；ConceptStocks metadata 揭露產品區段明確包含 Embedded (原 Xilinx 工業嵌入式處理器線)；ConceptStocks 已 onboard (AMD概念/AMD)"
+    },
+    {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "role": "related",
+      "sector": "邊緣 AI 平台商 (海外錨點，非台廠競爭同業)",
+      "note": "原「工業電腦」主題 extra_entities 遷移至此；ConceptStocks metadata 揭露產品區段明確包含 IoT；ConceptStocks 已 onboard (Qualcomm概念/QCOM)"
+    }
+  ],
+  "key_metrics": [
+    {
+      "name": "Edge AI 滲透率",
+      "desc": "NVIDIA Jetson 平台與 Intel Core Ultra 工業板卡比重。"
+    }
+  ],
+  "category": "產業與系統",
+  "index_categories": [
+    "產業與系統"
+  ],
+  "order": 151
+}
