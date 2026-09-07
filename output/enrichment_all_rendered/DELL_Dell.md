@@ -17,7 +17,7 @@ Dell Technologies Inc. (DELL，Dell) 總部位於美國德州德克薩斯州，�
 - **Dell (ISG & CSG)** — 品牌行銷、系統架構設計、軟硬體整合與 [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](../themes/AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) 機櫃 (PowerEdge) 組裝 (L10-L12)
 
 **下游 (企業客戶與通路):**
-- **主要平台:** Infrastructure Solutions Group (~66.5138%), Client Solutions Group (~33.4862%).
+- **主要平台:** Infrastructure Solutions Group (~67.9487%), Client Solutions Group (~32.0513%).
 - **雲端服務與企業客戶:** 全球 Tier-2 CSP 雲端服務商、金融機構、政府機關與大型企業數據中心
 - **消費與商用通路:** 全球企業直銷 (Direct Sales)、代理商及零售通路
 
@@ -190,4 +190,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-07 05:07 CST
+Updated: 2026-09-08 05:55 CST
