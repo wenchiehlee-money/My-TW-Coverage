@@ -17,7 +17,7 @@ Oracle Corporation (ORCL，Oracle) 原為全球資料庫軟體與企業應用 (E
 - **Oracle** — Oracle Cloud Infrastructure (OCI) 雲端基礎架構建置、Oracle Database 資料庫、Fusion/NetSuite ERP 企業應用軟體與 Stargate AI 算力出租
 
 **下游:**
-- **主要平台:** Cloud (~51.7052%), Software (~35.5147%), Services (~7.9542%), Hardware (~4.8258%).
+- **主要平台:** Cloud (~70.042%), Software (~16.7507%), Services (~8.5353%), Hardware (~4.6721%).
 - **AI 大模型訓練客戶:** [[OpenAI]] (Stargate 專案主力承購方)、[[xAI]]、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)
 - **全球企業與政府客戶:** 數萬家企業資料庫、ERP 與雲端基礎架構用戶
 
@@ -188,4 +188,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-21 05:13 CST
+Updated: 2026-09-22 06:28 CST
