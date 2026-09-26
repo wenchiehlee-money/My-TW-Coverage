@@ -1,6 +1,6 @@
 # 台灣上市櫃公司個股研究報告索引
 
-> 本索引收錄共 1757 家台灣上市櫃公司之個股研究報告。點擊下方分類快速跳轉。
+> 本索引收錄共 1759 家台灣上市櫃公司之個股研究報告。點擊下方分類快速跳轉。
 
 - [1xxx 水泥 食品 塑膠 紡織](#1xxx-水泥-食品-塑膠-紡織)
 - [2xxx 電機 鋼鐵 電子 半導體](#2xxx-電機-鋼鐵-電子-半導體)
@@ -386,5 +386,6 @@
 | [9999 AAPL_Apple](AAPL_Apple.md) | [9999 AMD_AMD](AMD_AMD.md) | [9999 AMZN_Amazon](AMZN_Amazon.md) | [9999 ASML_ASML](ASML_ASML.md) | [9999 AVGO_Broadcom](AVGO_Broadcom.md) |
 | [9999 DELL_Dell](DELL_Dell.md) | [9999 GFS_GlobalFoundries](GFS_GlobalFoundries.md) | [9999 GOOGL_Google](GOOGL_Google.md) | [9999 HPE_HPE](HPE_HPE.md) | [9999 HPQ_HP Inc.](HPQ_HP Inc..md) |
 | [9999 INTC_Intel Foundry](INTC_Intel Foundry.md) | [9999 INTC_Intel](INTC_Intel.md) | [9999 META_Meta](META_Meta.md) | [9999 MRVL_Marvell](MRVL_Marvell.md) | [9999 MSFT_Microsoft](MSFT_Microsoft.md) |
-| [9999 MU_Micron](MU_Micron.md) | [9999 NVDA_NVIDIA](NVDA_NVIDIA.md) | [9999 QCOM_Qualcomm](QCOM_Qualcomm.md) | [9999 SONY_Sony](SONY_Sony.md) | [9999 TSLA_Tesla](TSLA_Tesla.md) |
+| [9999 MU_Micron](MU_Micron.md) | [9999 NVDA_NVIDIA](NVDA_NVIDIA.md) | [9999 ORCL_Oracle](ORCL_Oracle.md) | [9999 QCOM_Qualcomm](QCOM_Qualcomm.md) | [9999 SIMO_慧榮科技](SIMO_慧榮科技.md) |
+| [9999 SONY_Sony](SONY_Sony.md) | [9999 TSLA_Tesla](TSLA_Tesla.md) |  |  |  |
 

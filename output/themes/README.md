@@ -25,9 +25,9 @@
 
 ## AI / 資料中心
 
-- [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) — 176 家公司
+- [![AI 伺服器](https://img.shields.io/badge/AI%20%E4%BC%BA%E6%9C%8D%E5%99%A8-green)](AI_%E4%BC%BA%E6%9C%8D%E5%99%A8.md) — 382 家公司
 - [![Hyperscalers](https://img.shields.io/badge/Hyperscalers-green)](Hyperscalers.md) — 77 家公司
-- [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) — 117 家公司
+- [![資料中心](https://img.shields.io/badge/%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83-green)](%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83.md) — 118 家公司
 - [![NVIDIA 供應鏈](https://img.shields.io/badge/NVIDIA%20%E4%BE%9B%E6%87%89%E9%8F%88-green)](nvidia_supply_chain.md) — 123 家公司
 
 ## 防禦型 / 殖利率
@@ -58,7 +58,7 @@
 
 - [![工業電腦](https://img.shields.io/badge/%E5%B7%A5%E6%A5%AD%E9%9B%BB%E8%85%A6-green)](%E5%B7%A5%E6%A5%AD%E9%9B%BB%E8%85%A6.md) — 113 家公司
 - [![邊緣 AI](https://img.shields.io/badge/%E9%82%8A%E7%B7%A3%20AI-orange)](%E9%82%8A%E7%B7%A3_AI.md) — 65 家公司
-- [![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](DRAM.md) — 150 家公司
+- [![DRAM/記憶體](https://img.shields.io/badge/DRAM%2F%E8%A8%98%E6%86%B6%E9%AB%94-green)](DRAM.md) — 151 家公司
 
 ## 品牌供應鏈
 

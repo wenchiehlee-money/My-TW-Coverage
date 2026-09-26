@@ -156,6 +156,9 @@ Pilot_Reports/{Industry}/{Ticker}_{ChineseName}.md
 | Discover | `python scripts/discover.py "<buzzword>" [--smart] [--apply]` | Reverse search: find companies by buzzword |
 | Thematic Screens | `python scripts/build_themes.py` | Generate output/themes/ supply chain maps from data/themes/*.json |
 | Docsify Assets | `python scripts/generate_docsify_assets.py` | Generate docsify sidebar, stock index, and wikilink map |
+| Render Enrichment MD | `python skills/skill-company-enrichment-render/scripts/render_enrichment_markdown.py --ticker <TICKER>` | Render `output/themes/company/<ticker>_<name>.md` from `data/enrichment_all/<ticker>.json` — auto-resolves `[[wikilinks]]` into badge links against every other company/theme already rendered. **Required after hand-writing or editing any `data/enrichment_all/*.json` file** (e.g. a non-TW "concept stock" ticker like `MRVL`/`SIMO` that has no `Pilot_Reports` source) — never hand-write the company `.md` page. |
+
+> **非台股 concept stock 新增流程** (美股/外國代號如 `MRVL`、`SIMO`，沒有 `add_ticker.py`/`Pilot_Reports` 可用): (1) 依 `skills/skill-company-enrichment-json` 的 schema 寫入 `data/enrichment_all/<TICKER>.json`；(2) 執行 `python skills/skill-company-enrichment-render/scripts/render_enrichment_markdown.py --ticker <TICKER>` 產生 `output/themes/company/<TICKER>_<Name>.md`（含徽章連結，不要手動寫這份 .md）；(3) 執行 `python scripts/build_themes.py` 讓相關 `data/themes/*.json` 主題頁連結到新公司頁；(4) 執行 `python scripts/generate_docsify_assets.py` 更新側邊欄/索引/wikilink map。
 
 ### Docsify 靜態站點
 1. 產生 Docsify 資產 (側邊欄、公司索引與知識圖譜對應):
