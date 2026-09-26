@@ -262,7 +262,9 @@ def fetch_valuation_data(info):
         ("enterpriseToEbitda", "EV/EBITDA"),
     ]:
         val = info.get(key)
-        valuation[label] = f"{val:.2f}" if val else "N/A"
+        # Yahoo returns non-numeric strings (e.g. "Infinity") for some ratios
+        # on loss-making/thinly-traded tickers instead of omitting the field.
+        valuation[label] = f"{val:.2f}" if isinstance(val, (int, float)) else "N/A"
 
     # Price
     cur_price = info.get("currentPrice")
