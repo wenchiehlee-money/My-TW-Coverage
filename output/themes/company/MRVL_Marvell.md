@@ -21,7 +21,11 @@ Marvell Technology, Inc. (MRVL，Marvell) 為全球基礎架構半導體晶片�
 - **CSP 與 AI 巨頭:** [![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md) (Trainium 晶片夥伴)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)
 
 ## 主要客戶及供應商
+### 主要客戶
+- [![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md) 及全球光收發模組大廠
 
+### 主要供應商
+- [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[![日月光投控](https://img.shields.io/badge/%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7-blue)](3711_%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7.md)、[![京元電子](https://img.shields.io/badge/%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90-blue)](2449_%E4%BA%AC%E5%85%83%E9%9B%BB%E5%AD%90.md)、[![欣興](https://img.shields.io/badge/%E6%AC%A3%E8%88%88-blue)](3037_%E6%AC%A3%E8%88%88.md)
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -76,4 +80,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Enterprise Networking (企業網通) | 14.20% ($215M) | 企業乙太網路 Switch 與 PHY 晶片 |
 | Carrier Infrastructure & Automotive | 13.30% ($202M) | 5G 電信基地台與車用乙太網路晶片 |
 
-Updated: 2026-08-06 16:43 CST
+Updated: 2026-09-26 18:39 CST

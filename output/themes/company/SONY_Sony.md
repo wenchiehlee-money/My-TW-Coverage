@@ -22,7 +22,11 @@ Sony Group Corporation (SONY，Sony) 總部位於日本東京，為全球跨國�
 - **廣大全球玩家與影視消費者:** PS5 家用主機玩家、PlayStation Plus 訂閱戶、全球影院與串流平台客戶
 
 ## 主要客戶及供應商
+### 主要客戶
+- - [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[[小米]]、全球 PlayStaton 玩家與娛樂訂閱客戶
 
+### 主要供應商
+- - [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_%E5%92%8C%E7%A2%A9.md)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) (PS5 APU 供應商)
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -78,4 +82,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Entertainment, Technology & Services (ET&S) | 18.20% ($3,913M) | Bravia 電視、相機與耳機音響 |
 | Music & Pictures (音樂與電影娛樂) | 28.50% ($6,127M) | 影音內容發行、音樂版權與串流平台授權 |
 
-Updated: 2026-08-06 16:43 CST
+Updated: 2026-09-26 18:39 CST

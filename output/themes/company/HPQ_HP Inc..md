@@ -19,11 +19,15 @@ HP Inc. (HPQ，HP Inc.) 總部位於美國加州帕羅奧圖，為全球個人�
 - **代工與組裝夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md) (MacBook/NB 代工)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)
 
 **下游 (通路與終端消費者):**
-- **主要平台:** Personal Systems (~70.8333%), Printing (~29.1667%).
+- **主要平台:** Personal Systems (~75.1592%), Printing (~24.8408%).
 - **銷售通路:** 全球直營電商、Amazon、Best Buy、各大企業採購與經銷商
 
 ## 主要客戶及供應商
+### 主要客戶
+- 全球大型企業、政府機構、教育市場與廣大消費性個人使用者
 
+### 主要供應商
+- [![Intel](https://img.shields.io/badge/Intel-blue)](INTC_Intel.md)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -77,4 +81,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Personal Systems (PC / Notebook / AI PC) | 68.50% ($9,247M) | 商用 Notebook 與 AI PC 換機需求 |
 | Printing (印表機與耗材) | 31.50% ($4,253M) | 商業印表機與原廠碳粉耗材訂閱收入 |
 
-Updated: 2026-08-06 16:43 CST
+Updated: 2026-09-26 18:39 CST

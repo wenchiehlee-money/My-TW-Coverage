@@ -20,7 +20,11 @@ GlobalFoundries (GFS，GlobalFoundries) 格羅方德為全球前五大專業晶�
 - **車用與工控系統品牌:** [[General Motors]]、[[Bosch]]、[![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)
 
 ## 主要客戶及供應商
+### 主要客戶
+- - [![Qualcomm](https://img.shields.io/badge/Qualcomm-blue)](QCOM_Qualcomm.md)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[[NXP]]、[[Infineon]]
 
+### 主要供應商
+- - [![ASML](https://img.shields.io/badge/ASML-blue)](ASML_ASML.md)、[![環球晶](https://img.shields.io/badge/%E7%92%B0%E7%90%83%E6%99%B6-blue)](6488_%E7%92%B0%E7%90%83%E6%99%B6.md)、[[應用材料]]
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -75,4 +79,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Home and Industrial IoT | 28.10% ($474M) | 工控 MCU、低功耗 Wi-Fi/BT 晶片 |
 | Communications Infrastructure & Data Center | 16.50% ($279M) | 矽光子 Optical Transceiver 與電源晶片 |
 
-Updated: 2026-08-06 16:43 CST
+Updated: 2026-09-26 18:39 CST
