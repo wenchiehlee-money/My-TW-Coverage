@@ -43,6 +43,25 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      # Must run before Update Financials/Valuation: it rewrites every company
+      # page in output/themes/company/ from data/enrichment_all/*.json's frozen
+      # financial_md snapshot. For real TW tickers that snapshot is stale (their
+      # JSON's source_md still points at the pre-refactor Pilot_Reports path) --
+      # only concept-stock tickers (e.g. SIMO/MRVL, whose JSON is the actual
+      # source of truth) need this render. Running it first, then letting
+      # Update Financials/Valuation write real yfinance data on top, means the
+      # fresh numbers survive; running it last (as before) clobbered every TW
+      # ticker's just-updated quarter back to whatever was last baked into JSON.
+      - name: Render enrichment Markdown + competitor JSON
+        run: |
+          python skills/skill-company-enrichment-render/scripts/render_enrichment_markdown.py \
+            --json-dir data/enrichment_all \
+            --out output/themes/company \
+            --compare output/enrichment_all_render_compare.csv \
+            --biztrends-root "${{ runner.temp }}/biztrends.TW" \
+            --segment-weights "${{ runner.temp }}/biztrends.TW/data/company_segment_weights.csv" \
+            --monthly-revenue "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv"
+
       - name: Run Update Financials
         run: python scripts/update_financials.py
 
@@ -60,16 +79,6 @@ jobs:
 
       - name: Run Quality Audit
         run: python scripts/audit_batch.py --all -v
-
-      - name: Render enrichment Markdown + competitor JSON
-        run: |
-          python skills/skill-company-enrichment-render/scripts/render_enrichment_markdown.py \
-            --json-dir data/enrichment_all \
-            --out output/themes/company \
-            --compare output/enrichment_all_render_compare.csv \
-            --biztrends-root "${{ runner.temp }}/biztrends.TW" \
-            --segment-weights "${{ runner.temp }}/biztrends.TW/data/company_segment_weights.csv" \
-            --monthly-revenue "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv"
 
       - name: Commit and push changes
         run: |
