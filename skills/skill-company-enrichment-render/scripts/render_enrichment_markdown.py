@@ -286,7 +286,10 @@ def load_segment_weight_summaries(path: Path) -> dict[str, str]:
             segment = str(row.get("segment_name", "")).strip()
             weight = format_approx_pct(str(row.get("weight_pct", "")).strip())
             if segment and weight != "-":
-                parts.append(f"{segment} (~{weight})")
+                # Avoid "~": docsify's markdown renderer treats an odd count of
+                # bare "~" as unmatched subscript-style markup, which silently
+                # eats the first N-1 tildes and only shows the last one.
+                parts.append(f"{segment} (約{weight})")
         if parts:
             summaries[ticker] = "- **主要平台:** " + ", ".join(parts) + "."
     return summaries
