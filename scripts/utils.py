@@ -12,7 +12,7 @@ import glob
 from datetime import date, datetime
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-REPORTS_DIR = os.path.join(PROJECT_ROOT, "Pilot_Reports")
+REPORTS_DIR = os.path.join(PROJECT_ROOT, "output", "themes", "company")
 TASK_FILE = os.path.join(PROJECT_ROOT, "task.md")
 
 
