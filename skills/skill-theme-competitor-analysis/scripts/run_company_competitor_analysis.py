@@ -12,16 +12,44 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 OUTPUT_DIR = ROOT / "output"
-TAIWAN_PERFORMANCE = ROOT / "data/Python-Actions.GoodInfo.Analyzer/raw_performance1.csv"
-TAIWAN_MONTHLY_REVENUE = ROOT / "data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv"
-TAIWAN_SUPPLY_F000 = ROOT / "data/ic.tpex.org.tw/raw_SupplyChain_F000.csv"
-US_INCOME = ROOT / "data/ConceptStocks/raw_conceptstock_company_income.csv"
-INVESTORCONFERENCE_IR_INCOME = ROOT / "data/InvestorConference/raw_ir_quarterly_financials.csv"
-INVESTORCONFERENCE_DATA = ROOT.parent / "InvestorConference" / "data"
-INVESTOR_EVENTS = ROOT / "data/InvestorEvents/raw_event_upcoming_earnings.csv"
 COMPANY_CYCLE_MAJOR_WEIGHTS = OUTPUT_DIR / "company_cycle_major_weights.csv"
-COMPANY_SEGMENT_WEIGHTS = ROOT / "data/company_segment_weights.csv"
-CYCLE_MAPPING = ROOT / "data/cycle_mapping.csv"
+
+# biztrends.TW is private; My-TW-Coverage is public. These files are consumed
+# pull-on-demand (never committed here) -- see skill-stock-pipeline-health-monitor
+# SKILL.md "Private -> Public 下游". Default assumes a NAS sibling checkout for
+# local runs; pass --biztrends-root to point at a CI clone instead.
+BIZTRENDS_ROOT_DEFAULT = ROOT.parent / "biztrends.TW"
+# InvestorConference is itself public, so reading it directly (not via biztrends.TW,
+# which does not mirror its per-stock earnings-release .md files) has no
+# private-data exposure.
+INVESTORCONFERENCE_ROOT_DEFAULT = ROOT.parent / "InvestorConference"
+
+
+def _biztrends_paths(biztrends_root: Path) -> dict[str, Path]:
+    return {
+        "TAIWAN_PERFORMANCE": biztrends_root / "data/Python-Actions.GoodInfo.Analyzer/raw_performance1.csv",
+        "TAIWAN_MONTHLY_REVENUE": biztrends_root / "data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv",
+        "TAIWAN_SUPPLY_F000": biztrends_root / "data/ic.tpex.org.tw/raw_SupplyChain_F000.csv",
+        "US_INCOME": biztrends_root / "data/ConceptStocks/raw_conceptstock_company_income.csv",
+        "INVESTORCONFERENCE_IR_INCOME": biztrends_root / "data/InvestorConference/raw_ir_quarterly_financials.csv",
+        "INVESTOR_EVENTS": biztrends_root / "data/InvestorEvents/raw_event_upcoming_earnings.csv",
+        "COMPANY_SEGMENT_WEIGHTS": biztrends_root / "data/company_segment_weights.csv",
+        "CYCLE_MAPPING": biztrends_root / "data/cycle_mapping.csv",
+    }
+
+
+# Module-level defaults so this file still works when imported/run without
+# going through main()'s argument parsing (e.g. from a REPL or another script).
+_DEFAULT_PATHS = _biztrends_paths(BIZTRENDS_ROOT_DEFAULT)
+TAIWAN_PERFORMANCE = _DEFAULT_PATHS["TAIWAN_PERFORMANCE"]
+TAIWAN_MONTHLY_REVENUE = _DEFAULT_PATHS["TAIWAN_MONTHLY_REVENUE"]
+TAIWAN_SUPPLY_F000 = _DEFAULT_PATHS["TAIWAN_SUPPLY_F000"]
+US_INCOME = _DEFAULT_PATHS["US_INCOME"]
+INVESTORCONFERENCE_IR_INCOME = _DEFAULT_PATHS["INVESTORCONFERENCE_IR_INCOME"]
+INVESTOR_EVENTS = _DEFAULT_PATHS["INVESTOR_EVENTS"]
+COMPANY_SEGMENT_WEIGHTS = _DEFAULT_PATHS["COMPANY_SEGMENT_WEIGHTS"]
+CYCLE_MAPPING = _DEFAULT_PATHS["CYCLE_MAPPING"]
+INVESTORCONFERENCE_DATA = INVESTORCONFERENCE_ROOT_DEFAULT / "data"
 
 AI_RELATED_CYCLES = [
     "AI_Server_Rack",
@@ -975,10 +1003,27 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--years", type=int, default=3, help="Number of recent years of quarterly data to include.")
     parser.add_argument("--relationship", default="brand_competitor,chip_competitor,foundry_competitor,odm_peer,server_peer", help="Comma-separated relationship types to include. Use empty string for all.")
     parser.add_argument("--include-suppliers", action="store_true", help="Include supplier_or_component rows.")
+    parser.add_argument("--biztrends-root", default=str(BIZTRENDS_ROOT_DEFAULT), help="Path to a biztrends.TW checkout or CI clone (private repo; read-only, never committed here).")
+    parser.add_argument("--investorconference-root", default=str(INVESTORCONFERENCE_ROOT_DEFAULT), help="Path to an InvestorConference checkout (public repo; read directly, not mirrored in biztrends.TW).")
     return parser.parse_args()
 
 def main() -> int:
+    global TAIWAN_PERFORMANCE, TAIWAN_MONTHLY_REVENUE, TAIWAN_SUPPLY_F000, US_INCOME
+    global INVESTORCONFERENCE_IR_INCOME, INVESTOR_EVENTS, COMPANY_SEGMENT_WEIGHTS, CYCLE_MAPPING
+    global INVESTORCONFERENCE_DATA
+
     args = parse_args()
+    paths = _biztrends_paths(Path(args.biztrends_root).resolve())
+    TAIWAN_PERFORMANCE = paths["TAIWAN_PERFORMANCE"]
+    TAIWAN_MONTHLY_REVENUE = paths["TAIWAN_MONTHLY_REVENUE"]
+    TAIWAN_SUPPLY_F000 = paths["TAIWAN_SUPPLY_F000"]
+    US_INCOME = paths["US_INCOME"]
+    INVESTORCONFERENCE_IR_INCOME = paths["INVESTORCONFERENCE_IR_INCOME"]
+    INVESTOR_EVENTS = paths["INVESTOR_EVENTS"]
+    COMPANY_SEGMENT_WEIGHTS = paths["COMPANY_SEGMENT_WEIGHTS"]
+    CYCLE_MAPPING = paths["CYCLE_MAPPING"]
+    INVESTORCONFERENCE_DATA = Path(args.investorconference_root).resolve() / "data"
+
     target = args.stock.strip().upper()
     relationships = {item.strip() for item in args.relationship.split(",") if item.strip()}
     if args.include_suppliers:

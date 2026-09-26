@@ -65,7 +65,7 @@ jobs:
         run: |
           python skills/skill-company-enrichment-render/scripts/render_enrichment_markdown.py \
             --json-dir data/enrichment_all \
-            --out output/enrichment_all_rendered \
+            --out output/themes/company \
             --compare output/enrichment_all_render_compare.csv \
             --biztrends-root "${{ runner.temp }}/biztrends.TW" \
             --segment-weights "${{ runner.temp }}/biztrends.TW/data/company_segment_weights.csv" \
