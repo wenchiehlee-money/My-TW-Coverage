@@ -87,7 +87,22 @@ jobs:
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update financial data, valuation, and generated indexes"
-            git push
+            # This job can run for an hour; a manual push landing on master
+            # while it's in flight makes a bare `git push` reject and throws
+            # away the whole run (the runner is torn down right after, so
+            # there's no second chance). Retry with rebase a few times before
+            # giving up -- rebasing our single commit on top of whatever
+            # landed in the meantime is always safe here since this job only
+            # ever touches generated data files, not hand-edited source.
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                break
+              fi
+              echo "Push rejected (attempt $attempt/5), fetching and rebasing..."
+              git fetch origin master
+              git rebase origin/master
+              sleep 5
+            done
           else
             echo "No changes to commit."
           fi
