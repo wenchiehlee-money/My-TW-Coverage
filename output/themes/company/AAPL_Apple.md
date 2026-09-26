@@ -20,7 +20,7 @@ Apple Inc. (AAPL，Apple) 總部位於美國加州庫比蒂諾，為全球市值
 - **全球組裝代工夥伴:** [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) (富士康，iPhone 旗艦機主要代工)、[![和碩](https://img.shields.io/badge/%E5%92%8C%E7%A2%A9-blue)](4938_%E5%92%8C%E7%A2%A9.md)、[[立訊精密]]、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md) (MacBook 代工)、[![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md) (iPad 代工)
 
 **下游 (銷售通路與廣大消費者):**
-- **主要平台:** iPhone (~49.5828%), Services (~28.0934%), Mac (~9.4611%), Wearables, Home and Accessories (~7.2045%), iPad (~5.6582%).
+- **主要平台:** iPhone (約49.5828%), Services (約28.0934%), Mac (約9.4611%), Wearables, Home and Accessories (約7.2045%), iPad (約5.6582%).
 - **銷售通路:** 全球 Apple Store 直營店、Apple Online Store、電信營運商 (AT&T, Verizon, 中國移動) 及授權經銷商
 - **廣大終端用戶:** 全球超過 22 億台活躍 Apple 裝置使用者
 
@@ -189,4 +189,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-26 20:39 CST
+Updated: 2026-09-26 22:58 CST

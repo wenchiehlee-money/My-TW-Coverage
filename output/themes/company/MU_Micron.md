@@ -16,7 +16,7 @@ Micron Technology, Inc. (MU，Micron) 為美國記憶體晶片巨頭，全球前
 - **Micron** — 1β/1γ 奈米 DRAM 製程研發、HBM3E 先進封裝堆疊與 232層 NAND Flash 製造
 
 **下游:**
-- **主要平台:** Cloud Memory (~33.2199%), Core Data Center (~27.8035%), Mobile and Client (~27.7963%), Automotive and Edge (~11.1803%).
+- **主要平台:** Cloud Memory (約33.2199%), Core Data Center (約27.8035%), Mobile and Client (約27.7963%), Automotive and Edge (約11.1803%).
 - **AI 算力與 Server 客戶:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (HBM3E 採購大廠)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)
 - **智慧型手機與 PC OEM:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[[小米]]、[[Lenovo]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)
 
@@ -173,4 +173,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-26 20:39 CST
+Updated: 2026-09-26 22:58 CST

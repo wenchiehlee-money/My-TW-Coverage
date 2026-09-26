@@ -17,7 +17,7 @@ Advanced Micro Devices (AMD，AMD) 為全球領先的高效能與自適應運算
 - **AMD** — x86 CPU 架構 (Zen 系列)、GPU 架構 (CDNA/RDNA) 設計與 Chiplet 晶粒整合
 
 **下游:**
-- **主要平台:** Data Center (~58.2351%), Client (~26.543%), Embedded (~8.4691%), Gaming (~6.7528%).
+- **主要平台:** Data Center (約58.2351%), Client (約26.543%), Embedded (約8.4691%), Gaming (約6.7528%).
 - **伺服器代工與系統整合:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)、[![技嘉](https://img.shields.io/badge/%E6%8A%80%E5%98%89-blue)](2376_%E6%8A%80%E5%98%89.md)
 - **CSP 與企業客戶:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)、[![Oracle](https://img.shields.io/badge/Oracle-blue)](ORCL_Oracle.md)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)
 
@@ -176,4 +176,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-26 20:39 CST
+Updated: 2026-09-26 22:58 CST

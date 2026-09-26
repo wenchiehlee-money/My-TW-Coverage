@@ -17,7 +17,7 @@ Amazon.com, Inc. (AMZN，Amazon) 為全球最大雲端服務提供商 (AWS) 與�
 - **Amazon** — AWS 雲端運算基礎設施、Trainium AI 晶片研發、Prime 電商物流與廣告平台
 
 **下游:**
-- **主要平台:** North America (~57.9262%), AWS (~21.0369%), International (~21.0369%).
+- **主要平台:** North America (約57.9262%), AWS (約21.0369%), International (約21.0369%).
 - **全球企業與消費者:** 數百萬 AWS 雲端企業客戶、Prime 訂閱會員與全球線上購物者
 
 ## 主要客戶及供應商
@@ -186,4 +186,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-26 20:39 CST
+Updated: 2026-09-26 22:58 CST

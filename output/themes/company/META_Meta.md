@@ -17,7 +17,7 @@ Meta Platforms, Inc. (META，Meta) 為全球社群媒體與開源 AI 巨頭。�
 - **Meta** — Llama 開源 AI 模型研發、MTIA 自研晶片架構、數位廣告演算法與元宇宙生態系
 
 **下游:**
-- **主要平台:** Family of Apps (~99.2911%), Reality Labs (~0.7089%).
+- **主要平台:** Family of Apps (約99.2911%), Reality Labs (約0.7089%).
 - **全球廣告主與廣大用戶:** 全球數百萬品牌廣告主與超過 32 億社群平台活躍用戶
 
 ## 主要客戶及供應商
@@ -183,4 +183,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-26 20:39 CST
+Updated: 2026-09-26 22:58 CST

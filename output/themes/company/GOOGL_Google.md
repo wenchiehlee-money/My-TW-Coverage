@@ -17,7 +17,7 @@ Alphabet Inc. / Google (GOOGL，Google) 為全球搜尋引擎與數位廣告壟�
 - **Google** — Gemini 多模態 AI 模型、TPU 架構設計、Google Cloud 雲端基礎架構與 Android 系統
 
 **下游:**
-- **主要平台:** Google Services (~79.2121%), Google Cloud (~20.7879%).
+- **主要平台:** Google Services (約79.2121%), Google Cloud (約20.7879%).
 - **全球廣大廣告主與雲端客戶:** 全球數百萬廣告客戶、YouTube 訂閱戶與 Google Cloud 企業客戶
 
 ## 主要客戶及供應商
@@ -185,4 +185,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-26 20:39 CST
+Updated: 2026-09-26 22:58 CST
