@@ -14,6 +14,7 @@ import importlib.util
 import json
 import re
 import sys
+import struct
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -1166,7 +1167,18 @@ def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path
     if not svg_path.is_file():
         return "## Chart\n\nChart SVG 尚未生成。請先執行 valuation-box renderer。"
     relative_svg = Path(os.path.relpath(svg_path, output_dir))
-    return f"## Chart\n\n![Dynamic valuation box]({relative_svg.as_posix()})"
+    png_path = svg_path.with_suffix(".png")
+    png_size = None
+    if png_path.is_file():
+        png_header = png_path.read_bytes()
+        if png_header[:8] == b"\x89PNG\r\n\x1a\n" and len(png_header) >= 24:
+            png_size = struct.unpack(">II", png_header[16:24])
+    if png_size:
+        width_px, height_px = png_size
+        image = f'<img src="{relative_svg.as_posix()}" width="{width_px}" height="{height_px}" alt="Dynamic valuation box">'
+    else:
+        image = f"![Dynamic valuation box]({relative_svg.as_posix()})"
+    return f"## Chart\n\n{image}"
 
 
 def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: dict[str, str] | None = None, segment_weight_summaries: dict[str, str] | None = None, monthly_revenue_totals: dict[str, dict[str, float]] | None = None, competitor_financial_section: str = "", updated_at: str = "", entity_render_index: dict[str, str] | None = None, theme_render_index: dict[str, dict[str, str]] | None = None, chart_dir: Path | None = None, output_dir: Path | None = None) -> str:
