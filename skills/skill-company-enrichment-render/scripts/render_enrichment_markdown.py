@@ -1167,6 +1167,7 @@ def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path
     if not svg_path.is_file():
         return "## Chart\n\nChart SVG 尚未生成。請先執行 valuation-box renderer。"
     relative_svg = Path(os.path.relpath(svg_path, output_dir))
+    chart_svg_href = Path(str(chart.get("svg_path", relative_svg.as_posix()))).as_posix()
     png_path = svg_path.with_suffix(".png")
     png_size = None
     if png_path.is_file():
@@ -1175,9 +1176,9 @@ def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path
             png_size = struct.unpack(">II", png_header[16:24])
     if png_size:
         width_px, height_px = png_size
-        image = f'<img src="{relative_svg.as_posix()}" width="{width_px}" height="{height_px}" alt="Dynamic valuation box">'
+        image = f'<img src="{chart_svg_href}" width="{width_px}" height="{height_px}" style="max-width:none" alt="Dynamic valuation box">'
     else:
-        image = f"![Dynamic valuation box]({relative_svg.as_posix()})"
+        image = f"![Dynamic valuation box]({chart_svg_href})"
     return f"## Chart\n\n{image}"
 
 
