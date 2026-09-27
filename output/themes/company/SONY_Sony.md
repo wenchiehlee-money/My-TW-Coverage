@@ -82,4 +82,8 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Entertainment, Technology & Services (ET&S) | 18.20% ($3,913M) | Bravia 電視、相機與耳機音響 |
 | Music & Pictures (音樂與電影娛樂) | 28.50% ($6,127M) | 影音內容發行、音樂版權與串流平台授權 |
 
-Updated: 2026-09-27 05:53 CST
+## Chart
+
+Chart SVG 尚未生成。請先執行 valuation-box renderer。
+
+Updated: 2026-09-28 05:52 CST

@@ -80,4 +80,8 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Enterprise Networking (企業網通) | 14.20% ($215M) | 企業乙太網路 Switch 與 PHY 晶片 |
 | Carrier Infrastructure & Automotive | 13.30% ($202M) | 5G 電信基地台與車用乙太網路晶片 |
 
-Updated: 2026-09-27 05:53 CST
+## Chart
+
+Chart SVG 尚未生成。請先執行 valuation-box renderer。
+
+Updated: 2026-09-28 05:52 CST
