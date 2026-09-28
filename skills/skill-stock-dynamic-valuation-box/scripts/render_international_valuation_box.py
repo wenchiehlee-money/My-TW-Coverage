@@ -23,7 +23,12 @@ def _eps_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
     for _, fy in q[(q["period"] == "FY") & q["eps"].notna()].sort_values("end_date").drop_duplicates("end_date", keep="last").iterrows():
         prior = quarterly[(quarterly["end_date"] < fy["end_date"]) & (quarterly["end_date"] >= fy["end_date"] - pd.DateOffset(years=1))].tail(3)
         if len(prior) == 3:
-            rows.append({"period_end": fy["end_date"], "value": float(fy["eps"] - prior["eps"].sum())})
+            derived_q4 = float(fy["eps"] - prior["eps"].sum())
+            # Annual weighted-average EPS is not always reconcilable to
+            # quarterly EPS in international source data. Never create a
+            # fictitious negative Q4/TTM EPS from that mismatch.
+            if derived_q4 >= 0:
+                rows.append({"period_end": fy["end_date"], "value": derived_q4})
     eps = pd.DataFrame(rows).drop_duplicates("period_end", keep="last").sort_values("period_end")
     if eps.empty: return pd.DataFrame(columns=["available_date", "period_end", "ttm_eps"])
     eps["available_date"] = eps["period_end"] + pd.Timedelta(days=45)
@@ -41,7 +46,13 @@ def _revenue_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
         prior = quarterly[(quarterly["end_date"] < fy["end_date"]) & (quarterly["end_date"] >= fy["end_date"] - pd.DateOffset(years=1))].tail(3)
         if len(prior) == 3:
             rows.append({"end_date": fy["end_date"], "revenue": float(fy["revenue"] - prior["revenue"].sum())})
-    revenue = pd.DataFrame(rows).drop_duplicates("end_date", keep="last").sort_values("end_date")
+    revenue = pd.DataFrame(rows).sort_values("end_date")
+    if not revenue.empty:
+        revenue = revenue.drop_duplicates("end_date", keep="last").sort_values("end_date")
+        # ConceptStocks can emit the same fiscal revenue twice on nearby
+        # dates. Keep one bar so chart 4 and chart 5 do not overlap.
+        duplicate = revenue["revenue"].eq(revenue["revenue"].shift()) & revenue["end_date"].diff().le(pd.Timedelta(days=10))
+        revenue = revenue.loc[~duplicate].drop_duplicates("end_date", keep="last")
     if revenue.empty: return pd.DataFrame(columns=["date", "revenue_m_twd", "revenue_yoy_pct", "analyzer_revenue_m_twd", "analyzer_yoy_pct", "finmind_revenue_m_twd", "finmind_yoy_pct"])
     revenue = revenue.rename(columns={"end_date": "date", "revenue": "revenue_m_twd"})
     revenue["revenue_yoy_pct"] = revenue["revenue_m_twd"].pct_change(4) * 100

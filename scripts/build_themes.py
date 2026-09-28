@@ -559,6 +559,18 @@ def company_output_link_by_identity(ticker: str, company: str) -> str:
     filename = f"{ticker}_{company}.md"
     if ticker and company and (COMPANY_OUTPUT_DIR / filename).exists():
         return f"company/{quote(filename)}"
+    # Theme source data often uses a display alias while rendered output uses
+    # the canonical company_name. Resolve by ticker before leaving plain text.
+    json_path = ENRICHMENT_JSON_DIR / f"{ticker}.json"
+    if ticker and json_path.exists():
+        try:
+            data = json.loads(json_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            data = {}
+        canonical = str(data.get("company_name") or "").strip()
+        canonical_filename = f"{ticker}_{canonical}.md"
+        if canonical and (COMPANY_OUTPUT_DIR / canonical_filename).exists():
+            return f"company/{quote(canonical_filename)}"
     return ""
 
 
