@@ -12,6 +12,22 @@ python scripts/render_dynamic_valuation_box.py \
   --output-dir output/dynamic_valuation_box
 ```
 
+## 全公司批次產圖
+
+批次包裝器會掃描 `data/enrichment_all/*.json`，跳過已有完整 PNG/SVG/CSV
+的公司，並將 `FINDMIND_GMAIL_TOKEN1` 到 `FINDMIND_GMAIL_TOKEN5` 輪流分配給
+平行工作者。GoodInfo Analyzer 的月營收優先使用，FinMind 只補缺月；失敗
+代號與錯誤會寫到 `--failure-log`，不會阻止其他公司完成。
+
+```bash
+python skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_batch.py \
+  --json-dir data/enrichment_all \
+  --output-dir output/dynamic_valuation_box \
+  --analyzer-revenue-csv ../Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_revenue.csv \
+  --failure-log output/dynamic_valuation_box_failures.tsv \
+  --workers 5
+```
+
 ## 檔案結構
 
 ```

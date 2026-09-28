@@ -43,6 +43,23 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      # Generate charts before rendering company Markdown. Analyzer is the
+      # preferred monthly-revenue source; FinMind fills missing months.
+      - name: Render dynamic valuation charts
+        env:
+          FINDMIND_GMAIL_TOKEN1: ${{ secrets.FINDMIND_GMAIL_TOKEN1 }}
+          FINDMIND_GMAIL_TOKEN2: ${{ secrets.FINDMIND_GMAIL_TOKEN2 }}
+          FINDMIND_GMAIL_TOKEN3: ${{ secrets.FINDMIND_GMAIL_TOKEN3 }}
+          FINDMIND_GMAIL_TOKEN4: ${{ secrets.FINDMIND_GMAIL_TOKEN4 }}
+          FINDMIND_GMAIL_TOKEN5: ${{ secrets.FINDMIND_GMAIL_TOKEN5 }}
+        run: |
+          python skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_batch.py \
+            --json-dir data/enrichment_all \
+            --output-dir output/dynamic_valuation_box \
+            --analyzer-revenue-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv" \
+            --failure-log output/dynamic_valuation_box_failures.tsv \
+            --workers 5
+
       # Must run before Update Financials/Valuation: it rewrites every company
       # page in output/themes/company/ from data/enrichment_all/*.json's frozen
       # financial_md snapshot. For real TW tickers that snapshot is stale (their

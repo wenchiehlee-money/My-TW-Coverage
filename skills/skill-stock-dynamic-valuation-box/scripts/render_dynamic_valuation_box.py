@@ -8,6 +8,7 @@ the trailing rolling window ending on that day.
 from __future__ import annotations
 
 import argparse
+import itertools
 import os
 import json
 import sys
@@ -35,9 +36,27 @@ FINMIND_URL = "https://api.finmindtrade.com/api/v4/data"
 STATUTORY_DEADLINES = {3: (5, 15), 6: (8, 14), 9: (11, 14), 12: (3, 31)}
 
 
+def _finmind_tokens() -> list[str]:
+    names = ["FINMIND_TOKEN", "FINMIND_API_TOKEN", "FINDMIND_GMAIL_TOKEN"]
+    names += [f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 7)]
+    tokens = []
+    for name in names:
+        token = os.environ.get(name, "")
+        if token and token not in tokens:
+            tokens.append(token)
+    return tokens
+
+
+_FINMIND_TOKEN_ROTATION = itertools.cycle(_finmind_tokens() or [""])
+
+
+def _next_finmind_token() -> str:
+    return next(_FINMIND_TOKEN_ROTATION)
+
+
 def _fetch(dataset: str, symbol: str, start: str, end: str) -> list[dict]:
     params = {"dataset": dataset, "data_id": symbol, "start_date": start, "end_date": end}
-    token = os.environ.get("FINMIND_TOKEN") or os.environ.get("FINMIND_API_TOKEN")
+    token = _next_finmind_token()
     if token:
         params["token"] = token
     query = urlencode(params)
@@ -55,7 +74,7 @@ def _stock_name(symbol: str) -> str:
     nothing (e.g. a delisted or newly listed ticker)."""
     try:
         params = {"dataset": "TaiwanStockInfo", "data_id": symbol}
-        token = os.environ.get("FINMIND_TOKEN") or os.environ.get("FINMIND_API_TOKEN")
+        token = _next_finmind_token()
         if token:
             params["token"] = token
         query = urlencode(params)
@@ -308,7 +327,7 @@ def _build_monthly_revenue(symbol: str, start: str, end: str) -> pd.DataFrame:
     revenue["date"] = pd.to_datetime(dict(year=revenue["year"].astype(int), month=revenue["month"].astype(int), day=1))
     revenue = revenue.sort_values("date").drop_duplicates("date", keep="last")
     revenue["finmind_revenue_m_twd"] = revenue["revenue"] / 1e6
-    revenue["finmind_yoy_pct"] = revenue["finmind_revenue_m_twd"].pct_change(12) * 100
+    revenue["finmind_yoy_pct"] = revenue["finmind_revenue_m_twd"].replace(0, float("nan")).pct_change(12) * 100
     return revenue[["date", "finmind_revenue_m_twd", "finmind_yoy_pct"]].reset_index(drop=True)
 
 
@@ -327,7 +346,7 @@ def _read_analyzer_revenue(path: str, symbol: str) -> pd.DataFrame:
     revenue["date"] = pd.to_datetime(revenue["月別"].astype(str).str.replace("/", "-", regex=False) + "-01", errors="coerce")
     revenue["analyzer_revenue_m_twd"] = pd.to_numeric(revenue["合併營業收入_營收_億"], errors="coerce") * 100
     revenue = revenue.dropna(subset=["date", "analyzer_revenue_m_twd"]).sort_values("date").drop_duplicates("date", keep="last")
-    revenue["analyzer_yoy_pct"] = revenue["analyzer_revenue_m_twd"].pct_change(12) * 100
+    revenue["analyzer_yoy_pct"] = revenue["analyzer_revenue_m_twd"].replace(0, float("nan")).pct_change(12) * 100
     return revenue[columns].reset_index(drop=True)
 
 
@@ -753,7 +772,7 @@ def main() -> None:
         analyzer_revenue = _read_analyzer_revenue(args.analyzer_revenue_csv, symbol)
         monthly_revenue = monthly_revenue.merge(analyzer_revenue, on="date", how="outer").sort_values("date")
         monthly_revenue["revenue_m_twd"] = monthly_revenue["analyzer_revenue_m_twd"].combine_first(monthly_revenue["finmind_revenue_m_twd"])
-        monthly_revenue["revenue_yoy_pct"] = monthly_revenue["revenue_m_twd"].pct_change(12) * 100
+        monthly_revenue["revenue_yoy_pct"] = monthly_revenue["revenue_m_twd"].replace(0, float("nan")).pct_change(12) * 100
         yahoo_curve = yahoo_curve_all[yahoo_curve_all["symbol"] == symbol]
         factset_curve = factset_curve_all[factset_curve_all["symbol"] == symbol]
         png_path, svg_path, csv_path = _plot(symbol, name, args.years, daily, eps, forward_eps, trades, monthly_revenue, output_dir, yahoo_curve, factset_curve)
