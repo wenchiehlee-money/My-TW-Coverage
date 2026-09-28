@@ -12,6 +12,11 @@ def _eps_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
     q = income[income["symbol"].astype(str).str.upper() == symbol.upper()].copy()
     q["end_date"] = pd.to_datetime(q["end_date"], errors="coerce")
     q["eps"] = pd.to_numeric(q["eps"], errors="coerce")
+    # ConceptStocks has a known Alphabet inconsistency around the 2022
+    # 20-for-1 split: 2022 Q1 is on the pre-split EPS basis while Q2/FY are
+    # already post-split. Normalize stale pre-split values before deriving Q4.
+    if symbol.upper() == "GOOGL":
+        q.loc[q["end_date"] < pd.Timestamp("2022-04-01"), "eps"] /= 20.0
     q = q.dropna(subset=["end_date"])
     quarterly = q[q["period"].isin(["Q1", "Q2", "Q3"]) & q["eps"].notna()].sort_values("end_date").drop_duplicates("end_date", keep="last")
     rows = quarterly[["end_date", "eps"]].rename(columns={"end_date": "period_end", "eps": "value"}).to_dict("records")
