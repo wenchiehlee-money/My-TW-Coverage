@@ -177,6 +177,6 @@ FX: `1 USD = 32.3 TWD`
 
 ## Chart
 
-Chart SVG 尚未生成。請先執行 valuation-box renderer。
+![Dynamic valuation box](../../dynamic_valuation_box/HPE_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-28 05:52 CST
+Updated: 2026-09-28 17:27 CST
