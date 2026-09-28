@@ -188,8 +188,4 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-## Chart
-
-Chart SVG 尚未生成。請先執行 valuation-box renderer。
-
-Updated: 2026-09-28 05:52 CST
+Updated: 2026-09-28 13:46 CST
