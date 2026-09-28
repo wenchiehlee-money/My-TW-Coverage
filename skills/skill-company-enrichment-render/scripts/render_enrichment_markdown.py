@@ -1165,7 +1165,7 @@ def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path
         return ""
     svg_path = chart_dir / svg_name
     if not svg_path.is_file():
-        return "## Chart\n\nChart SVG 尚未生成。請先執行 valuation-box renderer。"
+        return ""
     relative_svg = Path(os.path.relpath(svg_path, output_dir))
     chart_svg_href = Path(str(chart.get("svg_path", relative_svg.as_posix()))).as_posix()
     png_path = svg_path.with_suffix(".png")
