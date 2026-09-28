@@ -22,6 +22,9 @@ when live FinMind is unavailable or quota-limited; Analyzer values are preferred
 when present and FinMind fills missing months.
 
 Use this skill when a Taiwan stock needs a time-price diagram that separates valuation from technical timing.
+For non-Taiwan tickers with local Yahoo/ConceptStocks data, use
+`scripts/render_international_valuation_box.py`; it reuses the same five-panel SVG/PNG
+layout with international daily prices and quarterly/annual EPS.
 
 ## Output
 

@@ -188,4 +188,8 @@ FX: `1 USD = 32.3 TWD`
 </tbody>
 </table>
 
-Updated: 2026-09-28 13:46 CST
+## Chart
+
+![Dynamic valuation box](../../dynamic_valuation_box/ORCL_dynamic_valuation_box_3y.svg)
+
+Updated: 2026-09-28 17:23 CST
