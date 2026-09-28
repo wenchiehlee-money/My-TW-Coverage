@@ -658,6 +658,8 @@ def _plot(
     pe_axis.xaxis.set_major_locator(mdates.MonthLocator(interval=max(3, years * 2)))
     pe_axis.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
     pe_axis.xaxis.remove_overlapping_locs = False
+    pe_axis.xaxis.set_minor_locator(mdates.MonthLocator())
+    pe_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
 
     eps_view = eps[eps["available_date"] >= display_start]
     # step() only draws between given x-values, so without this the line just
@@ -752,6 +754,8 @@ def _plot(
     revenue_axis.xaxis.set_major_locator(mdates.MonthLocator(interval=max(3, years * 2)))
     revenue_axis.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
     revenue_axis.xaxis.remove_overlapping_locs = False
+    revenue_axis.xaxis.set_minor_locator(mdates.MonthLocator())
+    revenue_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
     if yoy_series.notna().any():
         growth_axis.bar(revenue_view["date"], yoy_series, width=bar_width, color="#ed7d31", alpha=0.78, label="Revenue YoY growth")
         growth_axis.axhline(0, color="#999999", lw=0.7)
@@ -764,6 +768,8 @@ def _plot(
     growth_axis.xaxis.set_major_locator(mdates.MonthLocator(interval=max(3, years * 2)))
     growth_axis.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
     growth_axis.xaxis.remove_overlapping_locs = False
+    growth_axis.xaxis.set_minor_locator(mdates.MonthLocator())
+    growth_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
 
     # The shared x-axis (line ~625) is deliberately stretched past the price
     # history to fit the furthest forward-EPS target year (e.g. FactSet

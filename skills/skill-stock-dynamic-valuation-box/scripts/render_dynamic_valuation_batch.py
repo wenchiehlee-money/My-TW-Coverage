@@ -43,6 +43,7 @@ def _run_one(
     renderer: Path,
     output_dir: Path,
     analyzer_revenue: str,
+    finmind_revenue: str | None,
     years: int,
     end_date: str | None,
 ) -> tuple[str, bool, str]:
@@ -59,6 +60,8 @@ def _run_one(
         "--analyzer-revenue-csv",
         analyzer_revenue,
     ]
+    if finmind_revenue:
+        command.extend(["--finmind-revenue-csv", finmind_revenue])
     if end_date:
         command.extend(["--end-date", end_date])
     try:
@@ -81,6 +84,7 @@ def main() -> int:
     parser.add_argument("--renderer", help="Per-symbol renderer; defaults to this skill's renderer")
     parser.add_argument("--output-dir", default="output/dynamic_valuation_box")
     parser.add_argument("--analyzer-revenue-csv", required=True)
+    parser.add_argument("--finmind-revenue-csv")
     parser.add_argument("--failure-log", default="output/dynamic_valuation_box_failures.tsv")
     parser.add_argument("--token-env-prefix", default="FINMIND_TOKEN")
     parser.add_argument("--workers", type=int, default=5)
@@ -115,6 +119,7 @@ def main() -> int:
                 renderer,
                 output_dir,
                 args.analyzer_revenue_csv,
+                args.finmind_revenue_csv,
                 args.years,
                 args.end_date,
             ): symbol

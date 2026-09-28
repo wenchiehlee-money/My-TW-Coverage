@@ -14,6 +14,8 @@ for PNG and SVG output.
 The third panel shows one reconciled monthly-revenue series: GoodInfo Analyzer
 `raw_revenue.csv` is preferred, with FinMind `TaiwanStockMonthRevenue` filling missing months.
 The fourth, short panel shows YoY revenue growth for that reconciled series.
+Monthly vertical grid lines are shown in the P/E, monthly-revenue, and YoY-growth panels
+so each month aligns across the shared time axis.
 Pass `--analyzer-revenue-csv` to override the Analyzer CSV path. Pass
 `--finmind-revenue-csv` with the synchronized local FinMind monthly-revenue export
 when live FinMind is unavailable or quota-limited; Analyzer values are preferred
