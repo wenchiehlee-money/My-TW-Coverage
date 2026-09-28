@@ -30,7 +30,7 @@ Dell Technologies Inc. (DELL，Dell) 總部位於美國德州德克薩斯州，�
 - **主要供應商:** [![仁寶](https://img.shields.io/badge/%E4%BB%81%E5%AF%B6-blue)](2324_%E4%BB%81%E5%AF%B6.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md) — 筆電與伺服器代工
 
 ### 競爭同業
-- **競爭同業:** [![HPE](https://img.shields.io/badge/HPE-blue)](HPE_HPE.md)、[[Lenovo]] — 品牌伺服器與 PC 競爭
+- **競爭同業:** [![HPE](https://img.shields.io/badge/HPE-blue)](HPE_HPE.md)、[![Lenovo](https://img.shields.io/badge/Lenovo-blue)](0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md) — 品牌伺服器與 PC 競爭
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 (單位: 百萬台幣, 只有 Margin 為 %)
@@ -194,4 +194,4 @@ FX: `1 USD = 32.3 TWD`
 
 ![Dynamic valuation box](../../dynamic_valuation_box/DELL_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-28 17:27 CST
+Updated: 2026-09-28 20:40 CST

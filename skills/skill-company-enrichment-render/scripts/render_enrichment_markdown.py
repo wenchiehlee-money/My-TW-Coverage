@@ -41,6 +41,7 @@ ENTITY_ALIAS_BY_COMPANY = {
     "群創": ["群創光電"],
     "日月光投控": ["日月光"],
     "LINEPAY": ["LINE Pay"],
+    "聯想集團": ["聯想", "Lenovo", "Lenovo Group", "Lenovo Group Limited"],
 }
 
 FINANCIAL_HEADING = "## 財務概況"
