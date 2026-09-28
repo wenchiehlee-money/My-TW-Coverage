@@ -25,6 +25,25 @@ def _eps_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
     eps["ttm_eps"] = eps["value"].rolling(4).sum()
     return eps.dropna(subset=["ttm_eps"])[["available_date", "period_end", "ttm_eps"]]
 
+def _revenue_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
+    q = income[income["symbol"].astype(str).str.upper() == symbol.upper()].copy()
+    q["end_date"] = pd.to_datetime(q["end_date"], errors="coerce")
+    q["revenue"] = pd.to_numeric(q["total_revenue"], errors="coerce") / 1e6
+    q = q.dropna(subset=["end_date", "revenue"])
+    quarterly = q[q["period"].isin(["Q1", "Q2", "Q3"])].sort_values("end_date").drop_duplicates("end_date", keep="last")
+    rows = quarterly[["end_date", "revenue"]].to_dict("records")
+    for _, fy in q[q["period"] == "FY"].sort_values("end_date").drop_duplicates("end_date", keep="last").iterrows():
+        prior = quarterly[(quarterly["end_date"] < fy["end_date"]) & (quarterly["end_date"] >= fy["end_date"] - pd.DateOffset(years=1))].tail(3)
+        if len(prior) == 3:
+            rows.append({"end_date": fy["end_date"], "revenue": float(fy["revenue"] - prior["revenue"].sum())})
+    revenue = pd.DataFrame(rows).drop_duplicates("end_date", keep="last").sort_values("end_date")
+    if revenue.empty: return pd.DataFrame(columns=["date", "revenue_m_twd", "revenue_yoy_pct", "analyzer_revenue_m_twd", "analyzer_yoy_pct", "finmind_revenue_m_twd", "finmind_yoy_pct"])
+    revenue = revenue.rename(columns={"end_date": "date", "revenue": "revenue_m_twd"})
+    revenue["revenue_yoy_pct"] = revenue["revenue_m_twd"].pct_change(4) * 100
+    for c in ["analyzer_revenue_m_twd", "analyzer_yoy_pct", "finmind_revenue_m_twd", "finmind_yoy_pct"]: revenue[c] = float("nan")
+    return revenue[["date", "revenue_m_twd", "revenue_yoy_pct", "analyzer_revenue_m_twd", "analyzer_yoy_pct", "finmind_revenue_m_twd", "finmind_yoy_pct"]]
+
+
 def render(symbol: str, years: int, price_csv: str, income_csv: str, output_dir: Path, name: str) -> None:
     prices = pd.read_csv(price_csv, dtype={"stock_code": str})
     prices = prices[prices["stock_code"].astype(str).str.upper() == symbol.upper()].copy()
@@ -40,9 +59,9 @@ def render(symbol: str, years: int, price_csv: str, income_csv: str, output_dir:
     daily = daily.join(bands[["pe", "pe_mean", "pe_std", "price_m2", "price_m1", "price_mean", "price_p1", "price_p2"]])
     forward = pd.DataFrame(columns=["symbol", "as_of_date", "forward_eps"])
     for col in ["forward_pe", "forward_pe_mean", "forward_pe_std", "forward_price_m2", "forward_price_m1", "forward_price_mean", "forward_price_p1", "forward_price_p2"]: daily[col] = float("nan")
-    monthly = pd.DataFrame(columns=["date", "revenue_m_twd", "revenue_yoy_pct", "analyzer_revenue_m_twd", "analyzer_yoy_pct", "finmind_revenue_m_twd", "finmind_yoy_pct"])
+    monthly = _revenue_rows(income, symbol)
     trades = pd.DataFrame(columns=["symbol", "date", "side", "price", "lots"])
-    r._plot(symbol, name, years, daily, eps, forward, trades, monthly, output_dir, pd.DataFrame(), pd.DataFrame())
+    r._plot(symbol, name, years, daily, eps, forward, trades, monthly, output_dir, pd.DataFrame(), pd.DataFrame(), revenue_label="Quarterly revenue", revenue_axis_label="Revenue (M USD)", growth_label="Revenue YoY growth")
 
 if __name__ == "__main__":
     ap=argparse.ArgumentParser(); ap.add_argument("--symbols", nargs="+", required=True); ap.add_argument("--years", type=int, choices=(2,3,4,5), default=3); ap.add_argument("--price-csv", default="../Yahoo.Finance/data/reports/raw_yahoo_finance_daily_price.csv"); ap.add_argument("--income-csv", default="../ConceptStocks/raw_conceptstock_company_income.csv"); ap.add_argument("--output-dir", default="output/dynamic_valuation_box"); ap.add_argument("--json-dir", default="data/enrichment_all"); args=ap.parse_args()

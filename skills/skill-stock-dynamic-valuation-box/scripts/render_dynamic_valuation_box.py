@@ -523,6 +523,8 @@ def _plot(
     symbol: str, name: str, years: int, daily: pd.DataFrame, eps: pd.DataFrame,
     forward_eps: pd.DataFrame, trades: pd.DataFrame, monthly_revenue: pd.DataFrame, output_dir: Path,
     yahoo_curve: pd.DataFrame = None, factset_curve: pd.DataFrame = None,
+    revenue_label: str = "Monthly revenue", revenue_axis_label: str = "Revenue (M TWD)",
+    growth_label: str = "Revenue YoY growth",
 ) -> tuple[Path, Path, Path]:
     display_start = daily.index.max() - pd.DateOffset(years=years)
     view = daily.loc[daily.index >= display_start].copy()
@@ -745,8 +747,8 @@ def _plot(
     # 5 years of months, so scale it down proportionally.
     bar_width = 18 * 2 / years
     if revenue_series.notna().any():
-        revenue_axis.bar(revenue_view["date"], revenue_series, width=bar_width, color="#5b9bd5", alpha=0.78, label="Monthly revenue")
-        revenue_axis.set_ylabel("Revenue (M TWD)")
+        revenue_axis.bar(revenue_view["date"], revenue_series, width=bar_width, color="#5b9bd5", alpha=0.78, label=revenue_label)
+        revenue_axis.set_ylabel(revenue_axis_label)
         revenue_axis.legend(loc="upper left", frameon=False, fontsize=8)
     else:
         revenue_axis.text(0.5, 0.5, "Monthly revenue data unavailable", transform=revenue_axis.transAxes, ha="center", va="center")
@@ -757,7 +759,7 @@ def _plot(
     revenue_axis.xaxis.set_minor_locator(mdates.MonthLocator())
     revenue_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
     if yoy_series.notna().any():
-        growth_axis.bar(revenue_view["date"], yoy_series, width=bar_width, color="#ed7d31", alpha=0.78, label="Revenue YoY growth")
+        growth_axis.bar(revenue_view["date"], yoy_series, width=bar_width, color="#ed7d31", alpha=0.78, label=growth_label)
         growth_axis.axhline(0, color="#999999", lw=0.7)
         growth_axis.legend(loc="upper left", frameon=False, fontsize=8)
     else:
