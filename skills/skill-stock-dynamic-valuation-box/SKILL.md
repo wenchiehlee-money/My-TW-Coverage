@@ -14,7 +14,10 @@ for PNG and SVG output.
 The third panel shows one reconciled monthly-revenue series: GoodInfo Analyzer
 `raw_revenue.csv` is preferred, with FinMind `TaiwanStockMonthRevenue` filling missing months.
 The fourth, short panel shows YoY revenue growth for that reconciled series.
-Pass `--analyzer-revenue-csv` to override the Analyzer CSV path.
+Pass `--analyzer-revenue-csv` to override the Analyzer CSV path. Pass
+`--finmind-revenue-csv` with the synchronized local FinMind monthly-revenue export
+when live FinMind is unavailable or quota-limited; Analyzer values are preferred
+when present and FinMind fills missing months.
 
 Use this skill when a Taiwan stock needs a time-price diagram that separates valuation from technical timing.
 
@@ -65,6 +68,7 @@ python skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation
   --trades-csv data/trades.csv \
   --yahoo-consensus-csv ../Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv \
   --factset-report-csv ../Yahoo.Finance/data/reports/raw_factset_detailed_report.csv \
+  --finmind-revenue-csv ../biztrends.TW/data/Python-Actions.FinMind/raw_revenue.csv \
   --output-dir output/dynamic_valuation_box
 ```
 

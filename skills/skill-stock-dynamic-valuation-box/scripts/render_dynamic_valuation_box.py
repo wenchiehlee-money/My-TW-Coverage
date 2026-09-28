@@ -399,6 +399,29 @@ def _read_analyzer_revenue(path: str, symbol: str) -> pd.DataFrame:
     return revenue[columns].reset_index(drop=True)
 
 
+def _read_finmind_revenue_csv(path: str, symbol: str) -> pd.DataFrame:
+    """Read the synchronized local FinMind monthly-revenue export."""
+    columns = ["date", "finmind_revenue_m_twd", "finmind_yoy_pct"]
+    if not path:
+        return pd.DataFrame(columns=columns)
+    try:
+        revenue = pd.read_csv(path, encoding="utf-8-sig")
+    except (FileNotFoundError, OSError, UnicodeDecodeError):
+        return pd.DataFrame(columns=columns)
+    required = {"stock_code", "月別", "合併營業收入_營收_億"}
+    if not required.issubset(revenue.columns):
+        return pd.DataFrame(columns=columns)
+    revenue["stock_code"] = revenue["stock_code"].astype(str).str.extract(r"(\d+)")[0].str.zfill(4)
+    revenue = revenue[revenue["stock_code"] == symbol].copy()
+    if revenue.empty:
+        return pd.DataFrame(columns=columns)
+    revenue["date"] = pd.to_datetime(revenue["月別"].astype(str).str.replace("/", "-", regex=False) + "-01", errors="coerce")
+    revenue["finmind_revenue_m_twd"] = pd.to_numeric(revenue["合併營業收入_營收_億"], errors="coerce") * 100
+    revenue = revenue.dropna(subset=["date", "finmind_revenue_m_twd"]).sort_values("date").drop_duplicates("date", keep="last")
+    revenue["finmind_yoy_pct"] = revenue["finmind_revenue_m_twd"].replace(0, float("nan")).pct_change(12) * 100
+    return revenue[columns].reset_index(drop=True)
+
+
 def _build_daily_box(
     symbol: str, display_years: int, end_date: pd.Timestamp, window: int, forward_eps: pd.DataFrame
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -783,6 +806,7 @@ def main() -> None:
     parser.add_argument("--forward-eps-csv", help="Optional CSV, this skill's own shape: symbol,as_of_date,forward_eps (as_of_date = when the estimate was published, not the target fiscal period)")
     parser.add_argument("--yahoo-consensus-csv", help="Optional CSV in Yahoo Finance's native shape (stock_code, forecast_asof_date, earnings_1y_avg, ...), e.g. a sibling Yahoo.Finance repo's data/reports/raw_yahoo_finance_consensus_daily.csv")
     parser.add_argument("--factset-report-csv", help="Optional CSV in FactSet's native shape (代號/股票代號, MD日期, <year>EPS平均值 columns), e.g. a sibling repo's data/reports/raw_factset_detailed_report.csv")
+    parser.add_argument("--finmind-revenue-csv", help="Optional synchronized FinMind monthly-revenue CSV used when live FinMind data is unavailable or incomplete")
     parser.add_argument("--analyzer-revenue-csv", default="../Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_revenue.csv", help="Optional GoodInfo Analyzer monthly revenue CSV")
     parser.add_argument("--output-dir", default="output/dynamic_valuation_box")
     args = parser.parse_args()
@@ -831,7 +855,21 @@ def main() -> None:
         forward_eps = forward_eps_all[forward_eps_all["symbol"] == symbol]
         daily, eps = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps)
         revenue_start = (end_date - pd.DateOffset(years=args.years + 1)).strftime("%Y-%m-%d")
-        monthly_revenue = _build_monthly_revenue(symbol, revenue_start, end_date.strftime("%Y-%m-%d"))
+        try:
+            monthly_revenue = _build_monthly_revenue(symbol, revenue_start, end_date.strftime("%Y-%m-%d"))
+        except RuntimeError:
+            # A synchronized CSV keeps a render reproducible when the live
+            # FinMind quota is exhausted; without it, preserve the original
+            # error rather than silently producing a chart with no revenue.
+            if not args.finmind_revenue_csv:
+                raise
+            monthly_revenue = pd.DataFrame(columns=["date", "finmind_revenue_m_twd", "finmind_yoy_pct"])
+        local_finmind_revenue = _read_finmind_revenue_csv(args.finmind_revenue_csv, symbol)
+        if not local_finmind_revenue.empty:
+            monthly_revenue = monthly_revenue.merge(local_finmind_revenue, on="date", how="outer", suffixes=("", "_local")).sort_values("date")
+            monthly_revenue["finmind_revenue_m_twd"] = monthly_revenue["finmind_revenue_m_twd"].combine_first(monthly_revenue["finmind_revenue_m_twd_local"])
+            monthly_revenue["finmind_yoy_pct"] = monthly_revenue["finmind_yoy_pct"].combine_first(monthly_revenue["finmind_yoy_pct_local"])
+            monthly_revenue = monthly_revenue.drop(columns=["finmind_revenue_m_twd_local", "finmind_yoy_pct_local"])
         analyzer_revenue = _read_analyzer_revenue(args.analyzer_revenue_csv, symbol)
         monthly_revenue = monthly_revenue.merge(analyzer_revenue, on="date", how="outer").sort_values("date")
         monthly_revenue["revenue_m_twd"] = monthly_revenue["analyzer_revenue_m_twd"].combine_first(monthly_revenue["finmind_revenue_m_twd"])
