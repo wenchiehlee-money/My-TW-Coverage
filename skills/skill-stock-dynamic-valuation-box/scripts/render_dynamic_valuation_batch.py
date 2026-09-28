@@ -88,7 +88,7 @@ def main() -> int:
     parser.add_argument("--failure-log", default="output/dynamic_valuation_box_failures.tsv")
     parser.add_argument("--token-env-prefix", default="FINMIND_TOKEN")
     parser.add_argument("--workers", type=int, default=5)
-    parser.add_argument("--years", type=int, choices=(2, 3, 4, 5), default=2)
+    parser.add_argument("--years", type=int, choices=(2, 3, 4, 5), default=3)
     parser.add_argument("--end-date")
     parser.add_argument("--force", action="store_true", help="Re-render symbols whose three artifacts already exist")
     args = parser.parse_args()

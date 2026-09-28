@@ -57,6 +57,8 @@ jobs:
             --json-dir data/enrichment_all \
             --output-dir output/dynamic_valuation_box \
             --analyzer-revenue-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv" \
+            --finmind-revenue-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.FinMind/raw_revenue.csv" \
+            --years 3 \
             --failure-log output/dynamic_valuation_box_failures.tsv \
             --workers 5
 
