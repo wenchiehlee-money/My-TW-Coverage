@@ -82,7 +82,7 @@ def main() -> int:
     parser.add_argument("--output-dir", default="output/dynamic_valuation_box")
     parser.add_argument("--analyzer-revenue-csv", required=True)
     parser.add_argument("--failure-log", default="output/dynamic_valuation_box_failures.tsv")
-    parser.add_argument("--token-env-prefix", default="FINDMIND_GMAIL_TOKEN")
+    parser.add_argument("--token-env-prefix", default="FINMIND_TOKEN")
     parser.add_argument("--workers", type=int, default=5)
     parser.add_argument("--years", type=int, choices=(2, 3, 4, 5), default=2)
     parser.add_argument("--end-date")
@@ -95,7 +95,7 @@ def main() -> int:
     renderer = Path(args.renderer) if args.renderer else Path(__file__).with_name("render_dynamic_valuation_box.py")
     symbols = _symbols(json_dir)
     pending = [symbol for symbol in symbols if args.force or not _complete(output_dir, symbol)]
-    tokens = [os.environ.get(f"{args.token_env_prefix}{index}", "") for index in range(1, 6)]
+    tokens = [os.environ.get(f"{args.token_env_prefix}{index}", "") for index in range(1, 7)]
     tokens = [token for token in tokens if token]
     if not tokens:
         # A tokenless run remains useful for public/demo environments.  The
