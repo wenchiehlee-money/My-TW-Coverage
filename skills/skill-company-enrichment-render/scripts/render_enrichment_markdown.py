@@ -1174,7 +1174,7 @@ def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path
         png_header = png_path.read_bytes()
         if png_header[:8] == b"\x89PNG\r\n\x1a\n" and len(png_header) >= 24:
             png_size = struct.unpack(">II", png_header[16:24])
-    image = f"![Dynamic valuation box]({chart_svg_href})"
+    image = f"![Dynamic valuation box]({relative_svg.as_posix()})"
     return f"## Chart\n\n{image}"
 
 
