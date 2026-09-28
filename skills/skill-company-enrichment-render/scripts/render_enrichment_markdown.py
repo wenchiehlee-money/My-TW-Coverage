@@ -1157,7 +1157,7 @@ def render_competitive_position(data: dict[str, Any], entity_render_index: dict[
     return "\n".join(lines).strip()
 def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path) -> str:
     ticker = str(data.get("ticker", "")).strip()
-    chart = data.get("chart", {}) or {"kind": "dynamic_valuation_box", "svg_path": f"output/dynamic_valuation_box/{ticker}_dynamic_valuation_box_2y.svg"}
+    chart = data.get("chart", {}) or {"kind": "dynamic_valuation_box", "svg_path": f"output/dynamic_valuation_box/{ticker}_dynamic_valuation_box_3y.svg"}
     if chart.get("kind") != "dynamic_valuation_box":
         return ""
     svg_name = Path(str(chart.get("svg_path", ""))).name

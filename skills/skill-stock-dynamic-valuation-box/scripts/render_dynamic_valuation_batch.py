@@ -17,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 
-ARTIFACT_SUFFIXES = ("_dynamic_valuation_box_2y.png", "_dynamic_valuation_box_2y.svg", "_dynamic_valuation_box_2y.csv")
+ARTIFACT_SUFFIXES = ("_dynamic_valuation_box_3y.png", "_dynamic_valuation_box_3y.svg", "_dynamic_valuation_box_3y.csv")
 
 
 def _symbols(json_dir: Path) -> list[str]:

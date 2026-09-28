@@ -100,6 +100,6 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 
 ## Chart
 
-![Dynamic valuation box](../../dynamic_valuation_box/6933_dynamic_valuation_box_2y.svg)
+![Dynamic valuation box](../../dynamic_valuation_box/6933_dynamic_valuation_box_3y.svg)
 
 Updated: 2026-09-28 15:20 CST
