@@ -178,6 +178,7 @@ def main() -> int:
 
     failures: list[tuple[str, str]] = []
     succeeded = 0
+    quota_failure_streak = 0
     with ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {
             pool.submit(
@@ -197,10 +198,24 @@ def main() -> int:
             symbol, ok, error = future.result()
             if ok:
                 succeeded += 1
+                quota_failure_streak = 0
                 print(f"OK {symbol}")
             else:
                 failures.append((symbol, error))
                 print(f"FAIL {symbol}: {error}", file=sys.stderr)
+                if "quota exhausted" in error.lower() or "reach the upper limit" in error.lower():
+                    quota_failure_streak += 1
+                    if quota_failure_streak >= max(3, workers):
+                        print(
+                            "Stopping batch after consecutive FinMind quota failures; "
+                            "pending symbols remain retryable on the next quota window.",
+                            file=sys.stderr,
+                        )
+                        for pending_future in futures:
+                            pending_future.cancel()
+                        break
+                else:
+                    quota_failure_streak = 0
 
     failure_path = Path(args.failure_log)
     failure_path.parent.mkdir(parents=True, exist_ok=True)
