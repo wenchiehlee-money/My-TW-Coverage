@@ -18,7 +18,7 @@ def _eps_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
     if symbol.upper() == "GOOGL":
         q.loc[q["end_date"] < pd.Timestamp("2022-04-01"), "eps"] /= 20.0
     q = q.dropna(subset=["end_date"])
-    quarterly = q[q["period"].isin(["Q1", "Q2", "Q3"]) & q["eps"].notna()].sort_values("end_date").drop_duplicates("end_date", keep="last")
+    quarterly = q[q["period"].isin(["Q1", "Q2", "Q3", "Q4"]) & q["eps"].notna()].sort_values("end_date").drop_duplicates("end_date", keep="last")
     rows = quarterly[["end_date", "eps"]].rename(columns={"end_date": "period_end", "eps": "value"}).to_dict("records")
     fy_rows = q[(q["period"] == "FY") & q["eps"].notna()].copy()
     fy_rows = fy_rows[fy_rows["fiscal_year"].astype(str) == fy_rows["end_date"].dt.year.astype(str)]

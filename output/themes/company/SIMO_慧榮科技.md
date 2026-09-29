@@ -64,3 +64,9 @@ Silicon Motion Technology Corporation (NasdaqGS: SIMO，慧榮科技) 為全球�
 > 2026 年 AI 伺服器帶動企業級 SSD 控制晶片 (MonTitan) 與 PCIe NVMe 開機碟 (Ferri) 需求爆發，單季營收連續創新高，Q3 2026 財測為 5.19–5.41 億美元 (QoQ +15%~20%)。
 
 Updated: 2026-09-29 07:47 CST
+
+## Chart
+
+![Dynamic valuation box](../../dynamic_valuation_box/SIMO_dynamic_valuation_box_3y.svg)
+
+Updated: 2026-09-29 16:45 CST
