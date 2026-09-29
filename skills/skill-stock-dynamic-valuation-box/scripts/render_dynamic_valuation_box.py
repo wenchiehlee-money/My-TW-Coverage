@@ -422,9 +422,37 @@ def _read_finmind_revenue_csv(path: str, symbol: str) -> pd.DataFrame:
     return revenue[columns].reset_index(drop=True)
 
 
+def _build_profit_metrics(financials: pd.DataFrame) -> pd.DataFrame:
+    """Build no-look-ahead quarterly net-profit and margin metrics."""
+    columns = [
+        "period_end", "available_date", "revenue", "net_profit",
+        "net_profit_yoy_pct", "net_margin_pct", "net_margin_yoy_pct",
+    ]
+    required = {"date", "type", "value"}
+    if not required.issubset(financials.columns):
+        return pd.DataFrame(columns=columns)
+    rows = financials[financials["type"].isin(["Revenue", "IncomeAfterTaxes", "IncomeAfterTax"])].copy()
+    if rows.empty:
+        return pd.DataFrame(columns=columns)
+    rows["period_end"] = pd.to_datetime(rows["date"], errors="coerce")
+    rows["value"] = pd.to_numeric(rows["value"], errors="coerce")
+    rows = rows.dropna(subset=["period_end", "value"]).drop_duplicates(["period_end", "type"], keep="last")
+    pivot = rows.pivot(index="period_end", columns="type", values="value").sort_index()
+    income_type = next((name for name in ("IncomeAfterTaxes", "IncomeAfterTax") if name in pivot.columns), None)
+    if "Revenue" not in pivot.columns or income_type is None:
+        return pd.DataFrame(columns=columns)
+    metrics = pd.DataFrame({"revenue": pivot["Revenue"], "net_profit": pivot[income_type]})
+    metrics["available_date"] = metrics.index.to_series().map(_availability_date)
+    metrics["net_profit_yoy_pct"] = metrics["net_profit"].pct_change(4) * 100
+    metrics["net_margin_pct"] = metrics["net_profit"].div(metrics["revenue"].replace(0, float("nan"))) * 100
+    metrics["net_margin_yoy_pct"] = metrics["net_margin_pct"].diff(4)
+    metrics["period_end"] = metrics.index
+    return metrics.reset_index(drop=True)[columns]
+
+
 def _build_daily_box(
     symbol: str, display_years: int, end_date: pd.Timestamp, window: int, forward_eps: pd.DataFrame
-) -> tuple[pd.DataFrame, pd.DataFrame]:
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     # Extra history warms up the PE rolling distribution before the display range.
     data_start = (end_date - pd.DateOffset(years=display_years + 3)).strftime("%Y-%m-%d")
     eps_start = (end_date - pd.DateOffset(years=display_years + 5)).strftime("%Y-%m-%d")
@@ -447,6 +475,7 @@ def _build_daily_box(
     eps["available_date"] = eps["period_end"].map(_availability_date)
     eps["ttm_eps"] = eps["value"].rolling(4).sum()
     eps = eps.dropna(subset=["ttm_eps"])[["available_date", "period_end", "ttm_eps"]]
+    profit_metrics = _build_profit_metrics(financials)
 
     split_factors = _stock_dividend_factors(symbol, data_start, end_text)
     prices, eps = _adjust_for_stock_dividends(prices, eps, split_factors)
@@ -490,7 +519,7 @@ def _build_daily_box(
         daily["forward_pe_std"] = forward_band["pe_std"]
         for name in ("m2", "m1", "mean", "p1", "p2"):
             daily[f"forward_price_{name}"] = forward_band[f"price_{name}"]
-    return daily, eps
+    return daily, eps, profit_metrics
 
 
 def _read_trade_events(path: str | None, symbols: Iterable[str]) -> pd.DataFrame:
@@ -521,7 +550,8 @@ def _read_trade_events(path: str | None, symbols: Iterable[str]) -> pd.DataFrame
 
 def _plot(
     symbol: str, name: str, years: int, daily: pd.DataFrame, eps: pd.DataFrame,
-    forward_eps: pd.DataFrame, trades: pd.DataFrame, monthly_revenue: pd.DataFrame, output_dir: Path,
+    forward_eps: pd.DataFrame, trades: pd.DataFrame, monthly_revenue: pd.DataFrame,
+    profit_metrics: pd.DataFrame, output_dir: Path,
     yahoo_curve: pd.DataFrame = None, factset_curve: pd.DataFrame = None,
     revenue_label: str = "Monthly revenue", revenue_axis_label: str = "Revenue (M TWD)",
     growth_label: str = "Revenue YoY growth",
@@ -579,9 +609,12 @@ def _plot(
     # own panel. When a forward curve's target year runs past the price
     # history (e.g. FactSet's FY2028E), both panels' x-range is explicitly
     # extended together below, rather than left to independent autoscale.
-    figure, (axis, pe_axis, eps_axis, revenue_axis, growth_axis) = plt.subplots(5, 1, figsize=(16, 16.5), sharex=True, gridspec_kw={"height_ratios": [3, 1.0, 1.6, 1.5, 0.9], "hspace": 0.1})
+    figure, (axis, pe_axis, eps_axis, revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis, net_margin_axis, net_margin_yoy_axis) = plt.subplots(
+        9, 1, figsize=(16, 22.5), sharex=True,
+        gridspec_kw={"height_ratios": [3, 1.0, 1.6, 0.9, 0.9, 0.7, 0.7, 0.7, 0.7], "hspace": 0.1},
+    )
     label = f"{symbol} {name}" if name else symbol
-    figure.suptitle(f"{label} | {years}-year price, P/E valuation box, EPS & revenue trend", x=0.125, ha="left", y=0.975, fontsize=16, fontweight="bold")
+    figure.suptitle(f"{label} | {years}-year price, valuation box, EPS, revenue & profit trend", x=0.125, ha="left", y=0.975, fontsize=16, fontweight="bold")
 
     axis.fill_between(view.index, view["price_m2"], view["price_p2"], color="#f4c7c3", alpha=0.38, label="Outer valuation range: PE mean ±2σ")
     axis.fill_between(view.index, view["price_m1"], view["price_p1"], color="#b7e1cd", alpha=0.72, label="Core valuation box: PE mean ±1σ")
@@ -773,6 +806,32 @@ def _plot(
     growth_axis.xaxis.set_minor_locator(mdates.MonthLocator())
     growth_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
 
+    profit_view = profit_metrics[profit_metrics["available_date"] >= display_start].copy()
+    metric_specs = (
+        (net_profit_axis, "net_profit", "Net profit", "Net profit (reported units)", "#4472c4", "line"),
+        (net_profit_yoy_axis, "net_profit_yoy_pct", "Net profit YoY", "YoY (%)", "#70ad47", "bar"),
+        (net_margin_axis, "net_margin_pct", "Net profit margin", "Margin (%)", "#7030a0", "line"),
+        (net_margin_yoy_axis, "net_margin_yoy_pct", "Margin YoY change", "Δ margin (pp)", "#ed7d31", "line"),
+    )
+    for metric_axis, field, label_text, ylabel, color, kind in metric_specs:
+        series = profit_view.get(field, pd.Series(index=profit_view.index, dtype=float))
+        valid = series.notna()
+        if valid.any():
+            if kind == "bar":
+                metric_axis.bar(profit_view.loc[valid, "available_date"], series.loc[valid], width=45, color=color, alpha=0.78, label=label_text)
+            else:
+                metric_axis.plot(profit_view.loc[valid, "available_date"], series.loc[valid], color=color, lw=1.4, marker="o", ms=3, label=label_text)
+            metric_axis.legend(loc="upper left", frameon=False, fontsize=7)
+        else:
+            metric_axis.text(0.5, 0.5, f"{label_text} data unavailable", transform=metric_axis.transAxes, ha="center", va="center")
+        metric_axis.set_ylabel(ylabel)
+        metric_axis.grid(axis="y", color="#e6e6e6", lw=0.7)
+        metric_axis.xaxis.set_major_locator(mdates.MonthLocator(interval=max(3, years * 2)))
+        metric_axis.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
+        metric_axis.xaxis.remove_overlapping_locs = False
+        metric_axis.xaxis.set_minor_locator(mdates.MonthLocator())
+        metric_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
+
     # The shared x-axis (line ~625) is deliberately stretched past the price
     # history to fit the furthest forward-EPS target year (e.g. FactSet
     # FY2028E) so the top price panel's trend rays and the EPS panel's
@@ -861,7 +920,7 @@ def main() -> None:
     for symbol in symbols:
         name = _stock_name(symbol)
         forward_eps = forward_eps_all[forward_eps_all["symbol"] == symbol]
-        daily, eps = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps)
+        daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps)
         revenue_start = (end_date - pd.DateOffset(years=args.years + 1)).strftime("%Y-%m-%d")
         try:
             monthly_revenue = _build_monthly_revenue(symbol, revenue_start, end_date.strftime("%Y-%m-%d"))
@@ -884,7 +943,10 @@ def main() -> None:
         monthly_revenue["revenue_yoy_pct"] = monthly_revenue["revenue_m_twd"].replace(0, float("nan")).pct_change(12) * 100
         yahoo_curve = yahoo_curve_all[yahoo_curve_all["symbol"] == symbol]
         factset_curve = factset_curve_all[factset_curve_all["symbol"] == symbol]
-        png_path, svg_path, csv_path = _plot(symbol, name, args.years, daily, eps, forward_eps, trades, monthly_revenue, output_dir, yahoo_curve, factset_curve)
+        png_path, svg_path, csv_path = _plot(
+            symbol, name, args.years, daily, eps, forward_eps, trades, monthly_revenue,
+            profit_metrics, output_dir, yahoo_curve, factset_curve,
+        )
         print(f"{symbol}: {svg_path}")
         print(f"{symbol}: {png_path}")
         print(f"{symbol}: {csv_path}")

@@ -99,8 +99,17 @@ def main() -> int:
     renderer = Path(args.renderer) if args.renderer else Path(__file__).with_name("render_dynamic_valuation_box.py")
     symbols = _symbols(json_dir)
     pending = [symbol for symbol in symbols if args.force or not _complete(output_dir, symbol)]
-    tokens = [os.environ.get(f"{args.token_env_prefix}{index}", "") for index in range(1, 7)]
-    tokens = [token for token in tokens if token]
+    token_names = [f"{args.token_env_prefix}{index}" for index in range(1, 7)]
+    token_names += [
+        "FINMIND_TOKEN", "FINMIND_API_TOKEN",
+        *(f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 7)),
+        "FINDMIND_GMAIL_TOKEN",
+    ]
+    tokens = []
+    for name in token_names:
+        token = os.environ.get(name, "")
+        if token and token not in tokens:
+            tokens.append(token)
     if not tokens:
         # A tokenless run remains useful for public/demo environments.  The
         # renderer will report the actual API response instead of failing here.
@@ -141,6 +150,12 @@ def main() -> int:
         encoding="utf-8",
     )
     print(f"completed={succeeded} failed={len(failures)} failure_log={failure_path}")
+    if failures:
+        print(
+            f"ERROR: {len(failures)} valuation charts failed; refusing to publish incomplete company pages.",
+            file=sys.stderr,
+        )
+        return 1
     return 0
 
 

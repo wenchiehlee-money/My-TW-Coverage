@@ -13,7 +13,9 @@ font file (for example, Noto Sans CJK TC) before rendering. The same selected fo
 for PNG and SVG output.
 The third panel shows one reconciled monthly-revenue series: GoodInfo Analyzer
 `raw_revenue.csv` is preferred, with FinMind `TaiwanStockMonthRevenue` filling missing months.
-The fourth, short panel shows YoY revenue growth for that reconciled series.
+The fourth and fifth panels show the reconciled monthly revenue and its YoY growth.
+Panels 6–9 are compact quarterly financial panels: net profit, net profit YoY growth,
+net profit margin, and margin YoY change.
 Monthly vertical grid lines are shown in the P/E, monthly-revenue, and YoY-growth panels
 so each month aligns across the shared time axis.
 Pass `--analyzer-revenue-csv` to override the Analyzer CSV path. Pass
@@ -23,7 +25,7 @@ when present and FinMind fills missing months.
 
 Use this skill when a Taiwan stock needs a time-price diagram that separates valuation from technical timing.
 For non-Taiwan tickers with local Yahoo/ConceptStocks data, use
-`scripts/render_international_valuation_box.py`; it reuses the same five-panel SVG/PNG
+`scripts/render_international_valuation_box.py`; it reuses the same nine-panel SVG/PNG
 layout with international daily prices and quarterly/annual EPS.
 
 ## Output

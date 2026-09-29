@@ -20,14 +20,16 @@ def _eps_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
     q = q.dropna(subset=["end_date"])
     quarterly = q[q["period"].isin(["Q1", "Q2", "Q3"]) & q["eps"].notna()].sort_values("end_date").drop_duplicates("end_date", keep="last")
     rows = quarterly[["end_date", "eps"]].rename(columns={"end_date": "period_end", "eps": "value"}).to_dict("records")
-    for _, fy in q[(q["period"] == "FY") & q["eps"].notna()].sort_values("end_date").drop_duplicates("end_date", keep="last").iterrows():
+    fy_rows = q[(q["period"] == "FY") & q["eps"].notna()].copy()
+    fy_rows = fy_rows[fy_rows["fiscal_year"].astype(str) == fy_rows["end_date"].dt.year.astype(str)]
+    for _, fy in fy_rows.sort_values("end_date").drop_duplicates("end_date", keep="last").iterrows():
         prior = quarterly[(quarterly["end_date"] < fy["end_date"]) & (quarterly["end_date"] >= fy["end_date"] - pd.DateOffset(years=1))].tail(3)
         if len(prior) == 3:
             derived_q4 = float(fy["eps"] - prior["eps"].sum())
             # Annual weighted-average EPS is not always reconcilable to
             # quarterly EPS in international source data. Never create a
             # fictitious negative Q4/TTM EPS from that mismatch.
-            if derived_q4 >= 0:
+            if derived_q4 >= -0.1:
                 rows.append({"period_end": fy["end_date"], "value": derived_q4})
     eps = pd.DataFrame(rows).drop_duplicates("period_end", keep="last").sort_values("period_end")
     if eps.empty: return pd.DataFrame(columns=["available_date", "period_end", "ttm_eps"])
@@ -77,7 +79,7 @@ def render(symbol: str, years: int, price_csv: str, income_csv: str, output_dir:
     for col in ["forward_pe", "forward_pe_mean", "forward_pe_std", "forward_price_m2", "forward_price_m1", "forward_price_mean", "forward_price_p1", "forward_price_p2"]: daily[col] = float("nan")
     monthly = _revenue_rows(income, symbol)
     trades = pd.DataFrame(columns=["symbol", "date", "side", "price", "lots"])
-    r._plot(symbol, name, years, daily, eps, forward, trades, monthly, output_dir, pd.DataFrame(), pd.DataFrame(), revenue_label="Quarterly revenue", revenue_axis_label="Revenue (M USD)", growth_label="Revenue YoY growth")
+    r._plot(symbol, name, years, daily, eps, forward, trades, monthly, pd.DataFrame(), output_dir, pd.DataFrame(), pd.DataFrame(), revenue_label="Quarterly revenue", revenue_axis_label="Revenue (M USD)", growth_label="Revenue YoY growth")
 
 if __name__ == "__main__":
     ap=argparse.ArgumentParser(); ap.add_argument("--symbols", nargs="+", required=True); ap.add_argument("--years", type=int, choices=(2,3,4,5), default=3); ap.add_argument("--price-csv", default="../Yahoo.Finance/data/reports/raw_yahoo_finance_daily_price.csv"); ap.add_argument("--income-csv", default="../ConceptStocks/raw_conceptstock_company_income.csv"); ap.add_argument("--output-dir", default="output/dynamic_valuation_box"); ap.add_argument("--json-dir", default="data/enrichment_all"); args=ap.parse_args()

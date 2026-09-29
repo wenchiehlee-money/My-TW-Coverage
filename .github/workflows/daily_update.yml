@@ -47,6 +47,12 @@ jobs:
       # preferred monthly-revenue source; FinMind fills missing months.
       - name: Render dynamic valuation charts
         env:
+          FINMIND_TOKEN1: ${{ secrets.FINMIND_TOKEN1 }}
+          FINMIND_TOKEN2: ${{ secrets.FINMIND_TOKEN2 }}
+          FINMIND_TOKEN3: ${{ secrets.FINMIND_TOKEN3 }}
+          FINMIND_TOKEN4: ${{ secrets.FINMIND_TOKEN4 }}
+          FINMIND_TOKEN5: ${{ secrets.FINMIND_TOKEN5 }}
+          FINMIND_TOKEN6: ${{ secrets.FINMIND_TOKEN6 }}
           FINDMIND_GMAIL_TOKEN1: ${{ secrets.FINDMIND_GMAIL_TOKEN1 }}
           FINDMIND_GMAIL_TOKEN2: ${{ secrets.FINDMIND_GMAIL_TOKEN2 }}
           FINDMIND_GMAIL_TOKEN3: ${{ secrets.FINDMIND_GMAIL_TOKEN3 }}
