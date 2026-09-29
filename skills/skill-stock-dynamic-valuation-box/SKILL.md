@@ -12,7 +12,7 @@ For environments without an installed CJK font, set `TW_CJK_FONT` to a Tradition
 font file (for example, Noto Sans CJK TC) before rendering. The same selected font is used
 for PNG and SVG output.
 The third panel shows one reconciled monthly-revenue series: GoodInfo Analyzer
-`raw_revenue.csv` is preferred, with FinMind `TaiwanStockMonthRevenue` filling missing months.
+`raw_revenue.csv` is preferred, with the synchronized local FinMind `raw_revenue.csv` filling missing months; live `TaiwanStockMonthRevenue` is used only when the local feed has no rows for a symbol.
 The fourth and fifth panels show the reconciled monthly revenue and its YoY growth.
 Panels 6–9 are compact quarterly financial panels: net profit, net profit YoY growth,
 net profit margin, and margin YoY change.

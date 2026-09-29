@@ -964,25 +964,24 @@ def main() -> None:
     factset_curve_all = _factset_forward_curve(args.factset_report_csv, symbols)
     output_dir = Path(args.output_dir)
     for symbol in symbols:
-        name = _stock_name(symbol)
+        # Bulk runs already have the company name in the surrounding page data;
+        # avoid an extra FinMind TaiwanStockInfo call per symbol here.
+        name = ""
         forward_eps = forward_eps_all[forward_eps_all["symbol"] == symbol]
         daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps)
         revenue_start = (end_date - pd.DateOffset(years=args.years + 1)).strftime("%Y-%m-%d")
-        try:
-            monthly_revenue = _build_monthly_revenue(symbol, revenue_start, end_date.strftime("%Y-%m-%d"))
-        except RuntimeError:
-            # A synchronized CSV keeps a render reproducible when the live
-            # FinMind quota is exhausted; without it, preserve the original
-            # error rather than silently producing a chart with no revenue.
-            if not args.finmind_revenue_csv:
-                raise
-            monthly_revenue = pd.DataFrame(columns=["date", "finmind_revenue_m_twd", "finmind_yoy_pct"])
         local_finmind_revenue = _read_finmind_revenue_csv(args.finmind_revenue_csv, symbol)
         if not local_finmind_revenue.empty:
-            monthly_revenue = monthly_revenue.merge(local_finmind_revenue, on="date", how="outer", suffixes=("", "_local")).sort_values("date")
-            monthly_revenue["finmind_revenue_m_twd"] = monthly_revenue["finmind_revenue_m_twd"].combine_first(monthly_revenue["finmind_revenue_m_twd_local"])
-            monthly_revenue["finmind_yoy_pct"] = monthly_revenue["finmind_yoy_pct"].combine_first(monthly_revenue["finmind_yoy_pct_local"])
-            monthly_revenue = monthly_revenue.drop(columns=["finmind_revenue_m_twd_local", "finmind_yoy_pct_local"])
+            # Prefer the synchronized local feed so bulk rendering does not
+            # spend a live request on data already present on disk.
+            monthly_revenue = local_finmind_revenue
+        else:
+            try:
+                monthly_revenue = _build_monthly_revenue(symbol, revenue_start, end_date.strftime("%Y-%m-%d"))
+            except RuntimeError:
+                if not args.finmind_revenue_csv:
+                    raise
+                monthly_revenue = pd.DataFrame(columns=["date", "finmind_revenue_m_twd", "finmind_yoy_pct"])
         analyzer_revenue = _read_analyzer_revenue(args.analyzer_revenue_csv, symbol)
         monthly_revenue = monthly_revenue.merge(analyzer_revenue, on="date", how="outer").sort_values("date")
         monthly_revenue["revenue_m_twd"] = monthly_revenue["analyzer_revenue_m_twd"].combine_first(monthly_revenue["finmind_revenue_m_twd"])
