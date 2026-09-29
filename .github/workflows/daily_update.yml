@@ -32,6 +32,14 @@ jobs:
             "https://x-access-token:${GH_PAT}@github.com/wenchiehlee-money/biztrends.TW.git" \
             "${{ runner.temp }}/biztrends.TW"
 
+      - name: Clone Yahoo.Finance forward-EPS feeds
+        env:
+          GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
+        run: |
+          git clone --depth 1 \
+            "https://x-access-token:${GH_PAT}@github.com/wenchiehlee-money/Yahoo.Finance.git" \
+            "${{ runner.temp }}/Yahoo.Finance"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -64,7 +72,13 @@ jobs:
             --output-dir output/dynamic_valuation_box \
             --analyzer-revenue-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv" \
             --finmind-revenue-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.FinMind/raw_revenue.csv" \
+            --finmind-financial-ratio-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.FinMind/raw_fin_ratio_quarter.csv" \
+            --yahoo-consensus-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv" \
+            --factset-report-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_factset_detailed_report.csv" \
             --years 3 \
+            --force \
+            --require-forward-eps \
+            --wait-for-quota \
             --failure-log output/dynamic_valuation_box_failures.tsv \
             --workers 5
 

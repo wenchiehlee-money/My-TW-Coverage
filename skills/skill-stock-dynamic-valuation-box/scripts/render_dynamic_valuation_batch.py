@@ -13,6 +13,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -91,6 +92,10 @@ def _run_one(
     output_dir: Path,
     analyzer_revenue: str,
     finmind_revenue: str | None,
+    financial_ratio: str | None,
+    yahoo_consensus: str | None,
+    factset_report: str | None,
+    require_forward_eps: bool,
     years: int,
     end_date: str | None,
 ) -> tuple[str, bool, str]:
@@ -123,6 +128,14 @@ def _run_one(
     ]
     if finmind_revenue:
         command.extend(["--finmind-revenue-csv", finmind_revenue])
+    if financial_ratio:
+        command.extend(["--finmind-financial-ratio-csv", financial_ratio])
+    if yahoo_consensus:
+        command.extend(["--yahoo-consensus-csv", yahoo_consensus])
+    if factset_report:
+        command.extend(["--factset-report-csv", factset_report])
+    if require_forward_eps:
+        command.append("--require-forward-eps")
     if end_date:
         command.extend(["--end-date", end_date])
     try:
@@ -146,6 +159,12 @@ def main() -> int:
     parser.add_argument("--output-dir", default="output/dynamic_valuation_box")
     parser.add_argument("--analyzer-revenue-csv", required=True)
     parser.add_argument("--finmind-revenue-csv")
+    parser.add_argument("--finmind-financial-ratio-csv")
+    parser.add_argument("--yahoo-consensus-csv")
+    parser.add_argument("--factset-report-csv")
+    parser.add_argument("--require-forward-eps", action="store_true", help="Fail symbols without forward-EPS rows")
+    parser.add_argument("--wait-for-quota", action="store_true", help="Wait and retry quota-exhausted symbols")
+    parser.add_argument("--quota-wait-hours", type=float, default=5.5, help="Maximum quota wait per run when --wait-for-quota is used")
     parser.add_argument("--failure-log", default="output/dynamic_valuation_box_failures.tsv")
     parser.add_argument("--token-env-prefix", default="FINMIND_TOKEN")
     parser.add_argument("--workers", type=int, default=5)
@@ -166,72 +185,99 @@ def main() -> int:
         *(f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 21)),
         "FINDMIND_GMAIL_TOKEN",
     ]
-    tokens = []
+    configured_tokens = []
     for name in token_names:
         token = os.environ.get(name, "")
-        if token and token not in tokens:
-            tokens.append(token)
-    if tokens:
-        before = len(tokens)
-        tokens = [token for token in tokens if _quota_remaining(token) > 0]
-        print(f"quota_preflight active={len(tokens)} exhausted={before - len(tokens)}")
+        if token and token not in configured_tokens:
+            configured_tokens.append(token)
+
+    def active_tokens() -> list[str]:
+        return [token for token in configured_tokens if _quota_remaining(token) > 0]
+
+    wait_started = time.monotonic()
+    tokens = active_tokens() if configured_tokens else []
+    while configured_tokens and not tokens and args.wait_for_quota:
+        if time.monotonic() - wait_started >= args.quota_wait_hours * 3600:
+            break
+        print("All configured FinMind tokens are exhausted; waiting 60 seconds before quota recheck.", flush=True)
+        time.sleep(60)
+        tokens = active_tokens()
+    if configured_tokens:
+        print(f"quota_preflight active={len(tokens)} exhausted={len(configured_tokens) - len(tokens)}")
+    if configured_tokens and not tokens:
+        print("ERROR: all configured FinMind tokens remain exhausted after the quota wait window.", file=sys.stderr)
+        return 1
     if not tokens:
-        # A tokenless run remains useful for public/demo environments.  The
+        # A tokenless run remains useful for public/demo environments. The
         # renderer will report the actual API response instead of failing here.
         tokens = [""]
     workers = max(1, min(args.workers, len(tokens), len(pending) or 1))
     print(f"symbols={len(symbols)} complete={len(symbols) - len(pending)} pending={len(pending)} workers={workers}")
 
-    failures: list[tuple[str, str]] = []
+    failures: dict[str, str] = {}
     succeeded = 0
-    quota_failure_streak = 0
-    with ThreadPoolExecutor(max_workers=workers) as pool:
-        futures = {
-            pool.submit(
-                _run_one,
-                symbol,
-                company_names.get(symbol, ""),
-                tokens[index % len(tokens)],
-                renderer,
-                output_dir,
-                args.analyzer_revenue_csv,
-                args.finmind_revenue_csv,
-                args.years,
-                args.end_date,
-            ): symbol
-            for index, symbol in enumerate(pending)
-        }
-        for future in as_completed(futures):
-            symbol, ok, error = future.result()
-            if ok:
-                succeeded += 1
-                quota_failure_streak = 0
-                print(f"OK {symbol}")
-            else:
-                failures.append((symbol, error))
-                print(f"FAIL {symbol}: {error}", file=sys.stderr)
-                if "quota exhausted" in error.lower() or "reach the upper limit" in error.lower():
-                    quota_failure_streak += 1
-                    if quota_failure_streak >= max(3, workers):
-                        print(
-                            "Stopping batch after consecutive FinMind quota failures; "
-                            "pending symbols remain retryable on the next quota window.",
-                            file=sys.stderr,
-                        )
-                        for pending_future in futures:
-                            pending_future.cancel()
-                        break
+    remaining = list(pending)
+    while remaining:
+        round_failures: list[tuple[str, str]] = []
+        quota_symbols: list[str] = []
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {
+                pool.submit(
+                    _run_one,
+                    symbol,
+                    company_names.get(symbol, ""),
+                    tokens[index % len(tokens)],
+                    renderer,
+                    output_dir,
+                    args.analyzer_revenue_csv,
+                    args.finmind_revenue_csv,
+                    args.finmind_financial_ratio_csv,
+                    args.yahoo_consensus_csv,
+                    args.factset_report_csv,
+                    args.require_forward_eps,
+                    args.years,
+                    args.end_date,
+                ): symbol
+                for index, symbol in enumerate(remaining)
+            }
+            for future in as_completed(futures):
+                symbol, ok, error = future.result()
+                if ok:
+                    succeeded += 1
+                    print(f"OK {symbol}")
                 else:
-                    quota_failure_streak = 0
+                    round_failures.append((symbol, error))
+                    print(f"FAIL {symbol}: {error}", file=sys.stderr)
+                    if "quota exhausted" in error.lower() or "reach the upper limit" in error.lower() or "payment required" in error.lower():
+                        quota_symbols.append(symbol)
+                    else:
+                        failures[symbol] = error
+        if quota_symbols and args.wait_for_quota and configured_tokens:
+            while time.monotonic() - wait_started < args.quota_wait_hours * 3600:
+                print(f"{len(quota_symbols)} symbols hit FinMind quota; waiting 60 seconds before retry.", flush=True)
+                time.sleep(60)
+                tokens = active_tokens()
+                if tokens:
+                    workers = max(1, min(args.workers, len(tokens), len(quota_symbols)))
+                    remaining = quota_symbols
+                    break
+            else:
+                remaining = []
+            if remaining:
+                continue
+        for symbol in quota_symbols:
+            failures[symbol] = next(error for item, error in round_failures if item == symbol)
+        remaining = []
 
+    failure_rows = sorted(failures.items())
     failure_path = Path(args.failure_log)
     failure_path.parent.mkdir(parents=True, exist_ok=True)
     failure_path.write_text(
-        "symbol\terror\n" + "\n".join(f"{symbol}\t{error.replace(chr(9), ' ')}" for symbol, error in sorted(failures)) + ("\n" if failures else ""),
+        "symbol\terror\n" + "\n".join(f"{symbol}\t{error.replace(chr(9), ' ')}" for symbol, error in failure_rows) + ("\n" if failure_rows else ""),
         encoding="utf-8",
     )
-    print(f"completed={succeeded} failed={len(failures)} failure_log={failure_path}")
-    if failures:
+    print(f"completed={succeeded} failed={len(failure_rows)} failure_log={failure_path}")
+    if failure_rows:
         print(
             f"ERROR: {len(failures)} valuation charts failed; refusing to publish incomplete company pages.",
             file=sys.stderr,
