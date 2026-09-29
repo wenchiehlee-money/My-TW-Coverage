@@ -468,6 +468,40 @@ def _read_finmind_revenue_csv(path: str, symbol: str) -> pd.DataFrame:
     return revenue[columns].reset_index(drop=True)
 
 
+def _read_local_eps_ratio_csv(path: str, symbol: str) -> pd.DataFrame:
+    """Read quarterly EPS from the synchronized FinMind ratio export.
+
+    FinMind's live financial-statement endpoint can expose only a recent
+    history for some symbols. This local export is used only to warm up the
+    EPS series, so the visible chart can calculate the earliest YoY bars
+    without making additional API calls.
+    """
+    columns = ["period_end", "available_date", "eps"]
+    if not path:
+        return pd.DataFrame(columns=columns)
+    try:
+        header = pd.read_csv(path, nrows=0).columns
+        eps_column = next((name for name in header if str(name).startswith("每股稅後盈餘 (元)")), None)
+        if eps_column is None:
+            return pd.DataFrame(columns=columns)
+        raw = pd.read_csv(path, usecols=["stock_code", "季度", eps_column])
+    except (OSError, ValueError, pd.errors.ParserError):
+        return pd.DataFrame(columns=columns)
+    stock = raw["stock_code"].astype(str).str.extract(r"(\d+)")[0].str.zfill(4)
+    raw = raw[stock == symbol].copy()
+    if raw.empty:
+        return pd.DataFrame(columns=columns)
+    quarter = raw["季度"].astype(str).str.extract(r"(\d{4})Q([1-4])")
+    raw["year"] = pd.to_numeric(quarter[0], errors="coerce")
+    raw["quarter"] = pd.to_numeric(quarter[1], errors="coerce")
+    raw["eps"] = pd.to_numeric(raw[eps_column], errors="coerce")
+    raw = raw.dropna(subset=["year", "quarter", "eps"])
+    month_day = {1: (3, 31), 2: (6, 30), 3: (9, 30), 4: (12, 31)}
+    raw["period_end"] = [pd.Timestamp(int(year), *month_day[int(q)]) for year, q in zip(raw["year"], raw["quarter"])]
+    raw["available_date"] = raw["period_end"].map(_availability_date)
+    return raw[columns].drop_duplicates("period_end", keep="last").sort_values("period_end").reset_index(drop=True)
+
+
 def _build_profit_metrics(financials: pd.DataFrame) -> pd.DataFrame:
     """Build no-look-ahead quarterly net-profit and margin metrics."""
     columns = [
@@ -500,7 +534,7 @@ def _build_profit_metrics(financials: pd.DataFrame) -> pd.DataFrame:
 
 
 def _build_daily_box(
-    symbol: str, display_years: int, end_date: pd.Timestamp, window: int, forward_eps: pd.DataFrame
+    symbol: str, display_years: int, end_date: pd.Timestamp, window: int, forward_eps: pd.DataFrame, local_eps_csv: str = ""
 ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     # Extra history warms up the PE rolling distribution before the display range.
     data_start = (end_date - pd.DateOffset(years=display_years + 3)).strftime("%Y-%m-%d")
@@ -523,6 +557,10 @@ def _build_daily_box(
     eps = eps[["period_end", "value"]].drop_duplicates("period_end", keep="last").sort_values("period_end")
     eps["available_date"] = eps["period_end"].map(_availability_date)
     eps["eps"] = eps["value"]
+    local_eps = _read_local_eps_ratio_csv(local_eps_csv, symbol)
+    if not local_eps.empty:
+        eps = pd.concat([eps[["period_end", "available_date", "eps"]], local_eps], ignore_index=True)
+        eps = eps.drop_duplicates("period_end", keep="last").sort_values("period_end")
     eps["ttm_eps"] = eps["eps"].rolling(4).sum()
     eps = eps.dropna(subset=["ttm_eps"])[["available_date", "period_end", "eps", "ttm_eps"]]
     profit_metrics = _build_profit_metrics(financials)
@@ -821,10 +859,23 @@ def _plot(
     eps_axis.xaxis.remove_overlapping_locs = False
     eps_axis.xaxis.set_minor_locator(mdates.MonthLocator())
     eps_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
-    eps_reported_view = eps[eps["available_date"] >= display_start].copy()
-    eps_reported = eps_reported_view.get("eps", eps_reported_view.get("value", pd.Series(index=eps_reported_view.index, dtype=float)))
-    eps_reported = pd.to_numeric(eps_reported, errors="coerce")
-    eps_reported_yoy = eps_reported.pct_change(4) * 100
+    # Calculate YoY against the complete available EPS history before
+    # restricting the chart to its visible window. Calculating pct_change(4)
+    # after this filter incorrectly leaves the first four visible quarters
+    # blank even when their year-earlier EPS observations were fetched during
+    # the warm-up period (e.g. 2356's 2023-2024 bars in a 3-year chart).
+    eps_reported_all = pd.to_numeric(
+        eps.get("eps", eps.get("value", pd.Series(index=eps.index, dtype=float))),
+        errors="coerce",
+    )
+    eps_with_yoy = eps.copy()
+    eps_with_yoy["eps_yoy_pct"] = eps_reported_all.pct_change(4) * 100
+    eps_reported_view = eps_with_yoy[eps_with_yoy["available_date"] >= display_start].copy()
+    eps_reported = pd.to_numeric(
+        eps_reported_view.get("eps", eps_reported_view.get("value", pd.Series(index=eps_reported_view.index, dtype=float))),
+        errors="coerce",
+    )
+    eps_reported_yoy = pd.to_numeric(eps_reported_view["eps_yoy_pct"], errors="coerce")
     valid_eps = eps_reported.notna()
     if valid_eps.any():
         reported_eps_axis.bar(eps_reported_view.loc[valid_eps, "available_date"], eps_reported.loc[valid_eps], width=45, color="#8064a2", alpha=0.82, label="Reported quarterly EPS")
@@ -960,6 +1011,7 @@ def main() -> None:
     parser.add_argument("--yahoo-consensus-csv", help="Optional CSV in Yahoo Finance's native shape (stock_code, forecast_asof_date, earnings_1y_avg, ...), e.g. a sibling Yahoo.Finance repo's data/reports/raw_yahoo_finance_consensus_daily.csv")
     parser.add_argument("--factset-report-csv", help="Optional CSV in FactSet's native shape (代號/股票代號, MD日期, <year>EPS平均值 columns), e.g. a sibling repo's data/reports/raw_factset_detailed_report.csv")
     parser.add_argument("--finmind-revenue-csv", help="Optional synchronized FinMind monthly-revenue CSV used when live FinMind data is unavailable or incomplete")
+    parser.add_argument("--finmind-financial-ratio-csv", help="Optional synchronized FinMind quarterly-ratio CSV used to warm up EPS history")
     parser.add_argument("--analyzer-revenue-csv", default="../Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_revenue.csv", help="Optional GoodInfo Analyzer monthly revenue CSV")
     parser.add_argument("--output-dir", default="output/dynamic_valuation_box")
     args = parser.parse_args()
@@ -1008,7 +1060,7 @@ def main() -> None:
         # avoid an extra FinMind TaiwanStockInfo call per symbol here.
         name = args.company_name.strip()
         forward_eps = forward_eps_all[forward_eps_all["symbol"] == symbol]
-        daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps)
+        daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps, args.finmind_financial_ratio_csv)
         revenue_start = (end_date - pd.DateOffset(years=args.years + 1)).strftime("%Y-%m-%d")
         local_finmind_revenue = _read_finmind_revenue_csv(args.finmind_revenue_csv, symbol)
         if not local_finmind_revenue.empty:
