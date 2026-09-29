@@ -951,6 +951,7 @@ def _plot(
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--symbols", nargs="+", required=True, help="Taiwan stock codes, e.g. 3045 2412")
+    parser.add_argument("--company-name", default="", help="Company name for the SVG title; avoids an extra FinMind info request")
     parser.add_argument("--years", type=int, choices=(2, 3, 4, 5), default=3, help="Visible price-history years")
     parser.add_argument("--end-date", default=date.today().isoformat(), help="Analysis cutoff date, YYYY-MM-DD")
     parser.add_argument("--window", type=int, default=120, help="Rolling PE observations (default: 120, minimum: 120)")
@@ -1005,7 +1006,7 @@ def main() -> None:
     for symbol in symbols:
         # Bulk runs already have the company name in the surrounding page data;
         # avoid an extra FinMind TaiwanStockInfo call per symbol here.
-        name = ""
+        name = args.company_name.strip()
         forward_eps = forward_eps_all[forward_eps_all["symbol"] == symbol]
         daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps)
         revenue_start = (end_date - pd.DateOffset(years=args.years + 1)).strftime("%Y-%m-%d")

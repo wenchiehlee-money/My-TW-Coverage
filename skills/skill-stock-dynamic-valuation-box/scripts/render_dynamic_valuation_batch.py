@@ -48,8 +48,9 @@ _load_local_dotenv()
 ARTIFACT_SUFFIXES = ("_dynamic_valuation_box_3y.png", "_dynamic_valuation_box_3y.svg", "_dynamic_valuation_box_3y.csv")
 
 
-def _symbols(json_dir: Path) -> list[str]:
+def _symbols(json_dir: Path) -> tuple[list[str], dict[str, str]]:
     symbols: set[str] = set()
+    names: dict[str, str] = {}
     for path in sorted(json_dir.glob("*.json")):
         try:
             record = json.loads(path.read_text(encoding="utf-8"))
@@ -57,8 +58,10 @@ def _symbols(json_dir: Path) -> list[str]:
             continue
         ticker = str(record.get("ticker", "")).strip()
         if ticker.isdigit():
-            symbols.add(ticker.zfill(4))
-    return sorted(symbols)
+            symbol = ticker.zfill(4)
+            symbols.add(symbol)
+            names[symbol] = str(record.get("company_name", "")).strip()
+    return sorted(symbols), names
 
 
 def _complete(output_dir: Path, symbol: str) -> bool:
@@ -82,6 +85,7 @@ def _quota_remaining(token: str) -> int:
 
 def _run_one(
     symbol: str,
+    company_name: str,
     token: str,
     renderer: Path,
     output_dir: Path,
@@ -108,6 +112,8 @@ def _run_one(
         str(renderer),
         "--symbols",
         symbol,
+        "--company-name",
+        company_name,
         "--years",
         str(years),
         "--output-dir",
@@ -152,7 +158,7 @@ def main() -> int:
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     renderer = Path(args.renderer) if args.renderer else Path(__file__).with_name("render_dynamic_valuation_box.py")
-    symbols = _symbols(json_dir)
+    symbols, company_names = _symbols(json_dir)
     pending = [symbol for symbol in symbols if args.force or not _complete(output_dir, symbol)]
     token_names = [f"{args.token_env_prefix}{index}" for index in range(1, 21)]
     token_names += [
@@ -184,6 +190,7 @@ def main() -> int:
             pool.submit(
                 _run_one,
                 symbol,
+                company_names.get(symbol, ""),
                 tokens[index % len(tokens)],
                 renderer,
                 output_dir,
