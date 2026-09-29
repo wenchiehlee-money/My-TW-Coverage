@@ -519,8 +519,9 @@ def _build_daily_box(
     eps["period_end"] = pd.to_datetime(eps["date"])
     eps = eps[["period_end", "value"]].drop_duplicates("period_end", keep="last").sort_values("period_end")
     eps["available_date"] = eps["period_end"].map(_availability_date)
-    eps["ttm_eps"] = eps["value"].rolling(4).sum()
-    eps = eps.dropna(subset=["ttm_eps"])[["available_date", "period_end", "ttm_eps"]]
+    eps["eps"] = eps["value"]
+    eps["ttm_eps"] = eps["eps"].rolling(4).sum()
+    eps = eps.dropna(subset=["ttm_eps"])[["available_date", "period_end", "eps", "ttm_eps"]]
     profit_metrics = _build_profit_metrics(financials)
 
     split_factors = _stock_dividend_factors(symbol, data_start, end_text)
@@ -655,9 +656,9 @@ def _plot(
     # own panel. When a forward curve's target year runs past the price
     # history (e.g. FactSet's FY2028E), both panels' x-range is explicitly
     # extended together below, rather than left to independent autoscale.
-    figure, (axis, pe_axis, eps_axis, revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis, net_margin_axis, net_margin_yoy_axis) = plt.subplots(
-        9, 1, figsize=(16, 22.5), sharex=True,
-        gridspec_kw={"height_ratios": [3, 1.0, 1.6, 0.9, 0.9, 0.7, 0.7, 0.7, 0.7], "hspace": 0.1},
+    figure, (axis, pe_axis, eps_axis, reported_eps_axis, eps_yoy_axis, revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis, net_margin_axis, net_margin_yoy_axis) = plt.subplots(
+        11, 1, figsize=(16, 27.5), sharex=True,
+        gridspec_kw={"height_ratios": [3, 1.0, 1.6, 0.9, 0.9, 0.9, 0.9, 0.7, 0.7, 0.7, 0.7], "hspace": 0.1},
     )
     label = f"{symbol} {name}" if name else symbol
     figure.suptitle(f"{label} | {years}-year price, valuation box, EPS, revenue & profit trend", x=0.125, ha="left", y=0.975, fontsize=16, fontweight="bold")
@@ -817,6 +818,33 @@ def _plot(
     eps_axis.xaxis.remove_overlapping_locs = False
     eps_axis.xaxis.set_minor_locator(mdates.MonthLocator())
     eps_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
+    eps_reported_view = eps[eps["available_date"] >= display_start].copy()
+    eps_reported = eps_reported_view.get("eps", eps_reported_view.get("value", pd.Series(index=eps_reported_view.index, dtype=float)))
+    eps_reported = pd.to_numeric(eps_reported, errors="coerce")
+    eps_reported_yoy = eps_reported.pct_change(4) * 100
+    valid_eps = eps_reported.notna()
+    if valid_eps.any():
+        reported_eps_axis.bar(eps_reported_view.loc[valid_eps, "available_date"], eps_reported.loc[valid_eps], width=45, color="#8064a2", alpha=0.82, label="Reported quarterly EPS")
+        reported_eps_axis.legend(loc="upper left", frameon=False, fontsize=8)
+    else:
+        reported_eps_axis.text(0.5, 0.5, "Reported EPS data unavailable", transform=reported_eps_axis.transAxes, ha="center", va="center")
+    reported_eps_axis.set_ylabel("EPS")
+    reported_eps_axis.grid(axis="y", color="#e6e6e6", lw=0.7)
+
+    valid_eps_yoy = eps_reported_yoy.notna()
+    if valid_eps_yoy.any():
+        eps_yoy_axis.bar(
+            eps_reported_view.loc[valid_eps_yoy, "available_date"], eps_reported_yoy.loc[valid_eps_yoy], width=45,
+            color=["#c00000" if value > 0 else "#70ad47" for value in eps_reported_yoy.loc[valid_eps_yoy]],
+            alpha=0.82, label="EPS YoY growth",
+        )
+        eps_yoy_axis.legend(loc="upper left", frameon=False, fontsize=8)
+    else:
+        eps_yoy_axis.text(0.5, 0.5, "EPS YoY data unavailable", transform=eps_yoy_axis.transAxes, ha="center", va="center")
+    eps_yoy_axis.axhline(0, color="#999999", lw=0.7)
+    eps_yoy_axis.set_ylabel("YoY (%)")
+    eps_yoy_axis.grid(axis="y", color="#e6e6e6", lw=0.7)
+
     revenue_view = monthly_revenue[monthly_revenue["date"] >= display_start].copy()
     revenue_series = revenue_view.get("revenue_m_twd", pd.Series(index=revenue_view.index, dtype=float))
     yoy_series = revenue_view.get("revenue_yoy_pct", pd.Series(index=revenue_view.index, dtype=float))
@@ -838,7 +866,7 @@ def _plot(
     revenue_axis.xaxis.set_minor_locator(mdates.MonthLocator())
     revenue_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
     if yoy_series.notna().any():
-        growth_axis.bar(revenue_view["date"], yoy_series, width=bar_width, color="#ed7d31", alpha=0.78, label=growth_label)
+        growth_axis.bar(revenue_view["date"], yoy_series, width=bar_width, color=["#c00000" if value > 0 else "#70ad47" for value in yoy_series], alpha=0.82, label=growth_label)
         growth_axis.axhline(0, color="#999999", lw=0.7)
         growth_axis.legend(loc="upper left", frameon=False, fontsize=8)
     else:
@@ -854,17 +882,25 @@ def _plot(
 
     profit_view = profit_metrics[profit_metrics["available_date"] >= display_start].copy()
     metric_specs = (
-        (net_profit_axis, "net_profit", "Net profit", "Net profit (reported units)", "#4472c4", "line"),
+        (net_profit_axis, "net_profit", "Net profit", "Net profit (reported units)", "#4472c4", "bar"),
         (net_profit_yoy_axis, "net_profit_yoy_pct", "Net profit YoY", "YoY (%)", "#70ad47", "bar"),
-        (net_margin_axis, "net_margin_pct", "Net profit margin", "Margin (%)", "#7030a0", "line"),
-        (net_margin_yoy_axis, "net_margin_yoy_pct", "Margin YoY change", "Δ margin (pp)", "#ed7d31", "line"),
+        (net_margin_axis, "net_margin_pct", "Net profit margin", "Margin (%)", "#7030a0", "bar"),
+        (net_margin_yoy_axis, "net_margin_yoy_pct", "Margin YoY change", "Δ margin (pp)", "#ed7d31", "bar"),
     )
     for metric_axis, field, label_text, ylabel, color, kind in metric_specs:
         series = profit_view.get(field, pd.Series(index=profit_view.index, dtype=float))
         valid = series.notna()
         if valid.any():
             if kind == "bar":
-                metric_axis.bar(profit_view.loc[valid, "available_date"], series.loc[valid], width=45, color=color, alpha=0.78, label=label_text)
+                colors = (
+                    ["#c00000" if value > 0 else "#70ad47" for value in series.loc[valid]]
+                    if "yoy" in field
+                    else color
+                )
+                metric_axis.bar(
+                    profit_view.loc[valid, "available_date"], series.loc[valid], width=45,
+                    color=colors, alpha=0.82, label=label_text,
+                )
             else:
                 metric_axis.plot(profit_view.loc[valid, "available_date"], series.loc[valid], color=color, lw=1.4, marker="o", ms=3, label=label_text)
             metric_axis.legend(loc="upper left", frameon=False, fontsize=7)
