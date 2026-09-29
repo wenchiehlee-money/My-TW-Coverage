@@ -35,7 +35,7 @@ def _eps_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
     if eps.empty: return pd.DataFrame(columns=["available_date", "period_end", "eps", "ttm_eps"])
     eps["available_date"] = eps["period_end"] + pd.Timedelta(days=45)
     eps["ttm_eps"] = eps["value"].rolling(4).sum()
-    return eps.dropna(subset=["ttm_eps"])[["available_date", "period_end", "value", "ttm_eps"]].rename(columns={"value": "eps"})
+    return eps[["available_date", "period_end", "value", "ttm_eps"]].rename(columns={"value": "eps"})
 
 def _revenue_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
     q = income[income["symbol"].astype(str).str.upper() == symbol.upper()].copy()
