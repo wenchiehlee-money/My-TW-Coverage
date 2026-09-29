@@ -99,7 +99,7 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 |:---|:---|:---| 
 | FY2027 Q1 | 66.51% (29,000M) | 33.49% (14,600M) |
 
-Updated: 2026-08-05 21:06 CST
+Updated: 2026-09-29 16:30 CST
 
 ### 競爭同業 Revenue/Profit/Margins/PE
 
@@ -194,4 +194,4 @@ FX: `1 USD = 32.3 TWD`
 
 ![Dynamic valuation box](../../dynamic_valuation_box/DELL_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-29 07:47 CST
+Updated: 2026-09-29 16:30 CST

@@ -604,7 +604,7 @@ def _plot(
     profit_metrics: pd.DataFrame, output_dir: Path,
     yahoo_curve: pd.DataFrame = None, factset_curve: pd.DataFrame = None,
     revenue_label: str = "Monthly revenue", revenue_axis_label: str = "Revenue (M TWD)",
-    growth_label: str = "Revenue YoY growth",
+    growth_label: str = "Revenue YoY growth", profit_axis_label: str = "Net profit (NT$ million)",
 ) -> tuple[Path, Path, Path]:
     display_start = daily.index.max() - pd.DateOffset(years=years)
     view = daily.loc[daily.index >= display_start].copy()
@@ -885,7 +885,7 @@ def _plot(
 
     profit_view = profit_metrics[profit_metrics["available_date"] >= display_start].copy()
     metric_specs = (
-        (net_profit_axis, "net_profit", "Net profit", "Net profit (NT$ million)", "#4472c4", "bar"),
+        (net_profit_axis, "net_profit", "Net profit", profit_axis_label, "#4472c4", "bar"),
         (net_profit_yoy_axis, "net_profit_yoy_pct", "Net profit YoY", "YoY (%)", "#70ad47", "bar"),
         (net_margin_axis, "net_margin_pct", "Net profit margin", "Margin (%)", "#7030a0", "bar"),
         (net_margin_yoy_axis, "net_margin_yoy_pct", "Margin YoY change", "Δ margin (pp)", "#ed7d31", "bar"),
