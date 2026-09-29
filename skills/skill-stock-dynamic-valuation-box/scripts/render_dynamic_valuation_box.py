@@ -14,10 +14,7 @@ import sys
 from datetime import date
 from pathlib import Path
 from typing import Iterable
-from urllib.error import HTTPError
-from urllib.parse import urlencode
-from urllib.request import Request, urlopen
-
+import requests
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
@@ -32,6 +29,26 @@ try:
     load_dotenv()
 except ImportError:
     pass
+
+def _load_local_dotenv() -> None:
+    env_path = Path(".env")
+    if not env_path.is_file():
+        return
+    try:
+        lines = env_path.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip("\"'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+_load_local_dotenv()
 
 # Sibling registry skill: the μ/σ/±1σ/±2σ PE-band math is shared with
 # skill-stock-ma-rsi-bband-macd-peband's calc_pe_band_series() instead of being
@@ -79,14 +96,15 @@ def _finmind_quota_remaining(token: str) -> int:
     """
     if token in _token_remaining:
         return _token_remaining[token]
-    request = Request(FINMIND_QUOTA_URL, headers={"Authorization": f"Bearer {token}"})
     try:
-        with urlopen(request, timeout=20) as response:
-            body = json.load(response)
+        response = requests.get(
+            FINMIND_QUOTA_URL, headers={"Authorization": f"Bearer {token}"}, timeout=20,
+        )
+        body = response.json()
         limit = int(body.get("api_request_limit", 0) or 0)
         used = int(body.get("user_count", 0) or 0)
         remaining = max(limit - used, 0) if limit > 0 else 0
-    except (HTTPError, OSError, ValueError, TypeError):
+    except (requests.RequestException, OSError, ValueError, TypeError):
         remaining = 0
     _token_remaining[token] = remaining
     return remaining
@@ -125,20 +143,18 @@ def _fetch(dataset: str, symbol: str, start: str, end: str) -> list[dict]:
     last_error: Exception | None = None
     for token in attempt_tokens:
         params = {"dataset": dataset, "data_id": symbol, "start_date": start, "end_date": end}
-        query = urlencode(params)
         headers = {"User-Agent": "dynamic-valuation-box/1.0"}
         if token:
             headers["Authorization"] = f"Bearer {token}"
-        request = Request(f"{FINMIND_URL}?{query}", headers=headers)
         try:
-            with urlopen(request, timeout=60) as response:
-                body = json.load(response)
-        except HTTPError as exc:
+            response = requests.get(FINMIND_URL, params=params, headers=headers, timeout=60)
+            body = response.json()
+        except (requests.RequestException, ValueError) as exc:
             last_error = exc
-            if exc.code == 402 and token:
-                _retire_token(token)
-                continue
             raise RuntimeError(f"{symbol} {dataset}: FinMind request failed ({exc})") from exc
+        if response.status_code == 402 and token:
+            _retire_token(token)
+            continue
         if token and token in _token_remaining:
             _token_remaining[token] = max(_token_remaining[token] - 1, 0)
         if body.get("status") != 200:

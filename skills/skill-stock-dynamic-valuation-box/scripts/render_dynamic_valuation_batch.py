@@ -13,8 +13,36 @@ import json
 import os
 import subprocess
 import sys
+
+import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+def _load_local_dotenv() -> None:
+    env_path = Path(".env")
+    if not env_path.is_file():
+        return
+    try:
+        lines = env_path.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip("\"'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+_load_local_dotenv()
 
 
 ARTIFACT_SUFFIXES = ("_dynamic_valuation_box_3y.png", "_dynamic_valuation_box_3y.svg", "_dynamic_valuation_box_3y.csv")
@@ -37,6 +65,21 @@ def _complete(output_dir: Path, symbol: str) -> bool:
     return all((output_dir / f"{symbol}{suffix}").is_file() for suffix in ARTIFACT_SUFFIXES)
 
 
+def _quota_remaining(token: str) -> int:
+    try:
+        response = requests.get(
+            "https://api.web.finmindtrade.com/v2/user_info",
+            headers={"Authorization": f"Bearer {token}"},
+            timeout=20,
+        )
+        body = response.json()
+        limit = int(body.get("api_request_limit", 0) or 0)
+        used = int(body.get("user_count", 0) or 0)
+        return max(limit - used, 0) if limit > 0 else 0
+    except (requests.RequestException, ValueError, TypeError):
+        return 0
+
+
 def _run_one(
     symbol: str,
     token: str,
@@ -48,6 +91,18 @@ def _run_one(
     end_date: str | None,
 ) -> tuple[str, bool, str]:
     env = os.environ.copy()
+    # Each child must see only its assigned token.  If the parent environment
+    # exposes the whole token pool, the renderer would rotate across all tokens
+    # inside every worker and defeat the batch-level quota allocation.
+    token_env_names = [
+        "FINMIND_TOKEN", "FINMIND_API_TOKEN",
+        *(f"FINMIND_TOKEN{index}" for index in range(1, 7)),
+        "FINDMIND_GMAIL_TOKEN", *(f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 7)),
+    ]
+    for name in token_env_names:
+        env[name] = ""
+    if token:
+        env["FINMIND_TOKEN"] = token
     command = [
         sys.executable,
         str(renderer),
@@ -110,6 +165,10 @@ def main() -> int:
         token = os.environ.get(name, "")
         if token and token not in tokens:
             tokens.append(token)
+    if tokens:
+        before = len(tokens)
+        tokens = [token for token in tokens if _quota_remaining(token) > 0]
+        print(f"quota_preflight active={len(tokens)} exhausted={before - len(tokens)}")
     if not tokens:
         # A tokenless run remains useful for public/demo environments.  The
         # renderer will report the actual API response instead of failing here.
