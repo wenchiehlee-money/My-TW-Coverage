@@ -88,3 +88,9 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 | Investing Cash Flow     |      -107.58 |       -19.25 |       109.90 |       -23.77 |
 | Financing Cash Flow     |       -12.47 |       601.44 |       163.03 |       -83.24 |
 | CAPEX                   |       -30.15 |       -19.25 |       -13.53 |       -23.80 |
+
+## Chart
+
+![Dynamic valuation box](../../dynamic_valuation_box/6933_dynamic_valuation_box_3y.svg)
+
+Updated: 2026-09-29 16:00 CST
