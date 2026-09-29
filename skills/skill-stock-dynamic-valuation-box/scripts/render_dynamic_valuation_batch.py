@@ -96,8 +96,8 @@ def _run_one(
     # inside every worker and defeat the batch-level quota allocation.
     token_env_names = [
         "FINMIND_TOKEN", "FINMIND_API_TOKEN",
-        *(f"FINMIND_TOKEN{index}" for index in range(1, 7)),
-        "FINDMIND_GMAIL_TOKEN", *(f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 7)),
+        *(f"FINMIND_TOKEN{index}" for index in range(1, 21)),
+        "FINDMIND_GMAIL_TOKEN", *(f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 21)),
     ]
     for name in token_env_names:
         env[name] = ""
@@ -154,10 +154,10 @@ def main() -> int:
     renderer = Path(args.renderer) if args.renderer else Path(__file__).with_name("render_dynamic_valuation_box.py")
     symbols = _symbols(json_dir)
     pending = [symbol for symbol in symbols if args.force or not _complete(output_dir, symbol)]
-    token_names = [f"{args.token_env_prefix}{index}" for index in range(1, 7)]
+    token_names = [f"{args.token_env_prefix}{index}" for index in range(1, 21)]
     token_names += [
         "FINMIND_TOKEN", "FINMIND_API_TOKEN",
-        *(f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 7)),
+        *(f"FINDMIND_GMAIL_TOKEN{index}" for index in range(1, 21)),
         "FINDMIND_GMAIL_TOKEN",
     ]
     tokens = []

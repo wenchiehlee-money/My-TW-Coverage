@@ -66,7 +66,7 @@ STATUTORY_DEADLINES = {3: (5, 15), 6: (8, 14), 9: (11, 14), 12: (3, 31)}
 # Historical drift across this codebase's various FinMind-consuming scripts left
 # three different env-var naming schemes for a pool of rotatable tokens (a single
 # free FinMind account's daily quota is tiny) — this skill's own original
-# FINMIND_TOKEN/FINMIND_API_TOKEN, the numbered FINMIND_TOKEN1..6 convention that
+# FINMIND_TOKEN/FINMIND_API_TOKEN, the numbered FINMIND_TOKEN1..20 convention that
 # is actually current (see Python-Actions.FinMind's .env.example and its
 # daily-finmind-status.yml secrets), and skill-finmind-fetch's
 # FINDMIND_GMAIL_TOKEN[1-6] (note the transposed "FINDMIND" spelling there,
@@ -78,8 +78,8 @@ STATUTORY_DEADLINES = {3: (5, 15), 6: (8, 14), 9: (11, 14), 12: (3, 31)}
 # just to read token names.
 TOKEN_ENV_NAMES = (
     "FINMIND_TOKEN", "FINMIND_API_TOKEN",
-    *(f"FINMIND_TOKEN{i}" for i in range(1, 7)),
-    "FINDMIND_GMAIL_TOKEN", *(f"FINDMIND_GMAIL_TOKEN{i}" for i in range(1, 7)),
+    *(f"FINMIND_TOKEN{i}" for i in range(1, 21)),
+    "FINDMIND_GMAIL_TOKEN", *(f"FINDMIND_GMAIL_TOKEN{i}" for i in range(1, 21)),
 )
 
 _live_tokens: list[str] | None = None
