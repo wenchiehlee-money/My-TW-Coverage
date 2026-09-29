@@ -1013,6 +1013,18 @@ def _plot(
     return png_path, svg_path, csv_path
 
 
+def _discover_forward_feed(filename: str) -> str | None:
+    """Find the standard sibling-repo forward-EPS feed when no path is given."""
+    candidates = [
+        Path.cwd().parent / "Yahoo.Finance" / "data" / "reports" / filename,
+        Path("/app/projects/Yahoo.Finance/data/reports") / filename,
+    ]
+    for candidate in candidates:
+        if candidate.is_file():
+            return str(candidate)
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--symbols", nargs="+", required=True, help="Taiwan stock codes, e.g. 3045 2412")
@@ -1028,7 +1040,12 @@ def main() -> None:
     parser.add_argument("--finmind-financial-ratio-csv", help="Optional synchronized FinMind quarterly-ratio CSV used to warm up EPS history")
     parser.add_argument("--analyzer-revenue-csv", default="../Python-Actions.GoodInfo.Analyzer/data/stage1_raw/raw_revenue.csv", help="Optional GoodInfo Analyzer monthly revenue CSV")
     parser.add_argument("--output-dir", default="output/dynamic_valuation_box")
+    parser.add_argument("--require-forward-eps", action="store_true", help="Fail if no forward-EPS rows are available for a requested symbol")
     args = parser.parse_args()
+    if args.yahoo_consensus_csv is None:
+        args.yahoo_consensus_csv = _discover_forward_feed("raw_yahoo_finance_consensus_daily.csv")
+    if args.factset_report_csv is None:
+        args.factset_report_csv = _discover_forward_feed("raw_factset_detailed_report.csv")
     if args.window < 120:
         parser.error("--window must be at least 120 observations")
 
@@ -1063,6 +1080,12 @@ def main() -> None:
         forward_eps_all = pd.concat(forward_eps_sources, ignore_index=True).sort_values("as_of_date")
     else:
         forward_eps_all = pd.DataFrame(columns=["symbol", "as_of_date", "forward_eps"])
+    missing_forward = [symbol for symbol in symbols if forward_eps_all[forward_eps_all["symbol"] == symbol].empty]
+    if missing_forward:
+        message = "No forward EPS rows found for: " + ", ".join(missing_forward)
+        if args.require_forward_eps:
+            raise RuntimeError(message + ". Supply --forward-eps-csv, --yahoo-consensus-csv, or --factset-report-csv.")
+        print(f"[render_dynamic_valuation_box] Warning: {message}; trailing-only valuation will be rendered for those symbols.", file=sys.stderr)
     # For the bottom-panel display, Yahoo and FactSet are kept unmerged (see
     # _plot): each source's own target-fiscal-year curve, not pooled into the
     # single per-day series above.

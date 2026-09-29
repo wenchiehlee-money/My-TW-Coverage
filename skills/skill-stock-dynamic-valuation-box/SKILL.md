@@ -51,7 +51,7 @@ This skill owns only the valuation layer. Its daily CSV is the stable hand-off:
 
 Downstream technical and quality skills must reference this CSV by date; they must not recalculate the valuation box from adjusted prices or later financial statements.
 
-Forward EPS is a distinct, optional layer with its own contract:
+Forward EPS is a distinct layer with its own contract. It is automatically included when a supported local feed has rows for the requested symbol:
 
 - **Consumes:** a dated consensus/forward-EPS feed — FinMind has none of its own, but Yahoo Finance and FactSet do. Point the script at either feed's native export directly (`--yahoo-consensus-csv`, `--factset-report-csv`), or at a CSV already reshaped into this skill's own `symbol,as_of_date,forward_eps` form (`--forward-eps-csv`). All three may be combined; rows are pooled and the backward merge just uses whichever source's estimate was newest as of each trading day.
 - **Emits:** date-available `forward_eps`, `forward_pe`, and `forward_price_m2`/`forward_price_m1`/`forward_price_mean`/`forward_price_p1`/`forward_price_p2` bands, alongside the trailing-EPS columns, in the same daily CSV.
@@ -78,7 +78,7 @@ python skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation
   --output-dir output/dynamic_valuation_box
 ```
 
-`--years` accepts only `2`, `3`, `4`, or `5`. `--end-date YYYY-MM-DD` freezes a historical retrospective. `--window` defaults to 120 trading observations (the minimum); raise it for a longer, less reactive PE baseline. `--yahoo-consensus-csv`, `--factset-report-csv`, and `--forward-eps-csv` are all optional and independent — pass any subset (including none), and any combination; when none are given, the chart and CSV are unchanged from the trailing-only output.
+`--years` accepts only `2`, `3`, `4`, or `5`. `--end-date YYYY-MM-DD` freezes a historical retrospective. `--window` defaults to 120 trading observations (the minimum); raise it for a longer, less reactive PE baseline. `--yahoo-consensus-csv`, `--factset-report-csv`, and `--forward-eps-csv` can be combined. When omitted, the renderer automatically discovers the standard sibling Yahoo Finance/FactSet report feeds when present, so forward EPS is included by default. Use `--require-forward-eps` to fail instead of falling back to trailing-only output when no forward rows exist.
 
 ## Optional trade-event CSV
 
