@@ -852,7 +852,7 @@ def _plot(
             text_y = y + (0.07 + 0.09 * source_index) * y_span
             eps_axis.annotate(f"{source_label} FY{target_year}E {y:.1f}", xy=(x, y), xytext=(x, text_y), textcoords="data", fontsize=7.5, color=color, ha="center", va="bottom")
         eps_axis.legend(loc="upper left", fontsize=8, frameon=False)
-    eps_axis.set_ylabel("EPS")
+    eps_axis.set_ylabel("Trailing EPS")
     eps_axis.grid(axis="y", color="#e6e6e6", lw=0.7)
     eps_axis.xaxis.set_major_locator(mdates.MonthLocator(interval=max(3, years * 2)))
     eps_axis.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
@@ -898,6 +898,20 @@ def _plot(
     eps_yoy_axis.axhline(0, color="#999999", lw=0.7)
     eps_yoy_axis.set_ylabel("YoY (%)")
     eps_yoy_axis.grid(axis="y", color="#e6e6e6", lw=0.7)
+
+    # Keep every panel aligned to the same monthly vertical grid, including
+    # the two reported-EPS bar panels whose x-axis labels are hidden by the
+    # shared axis. This makes a quarter's bars line up with the revenue,
+    # profit, and valuation panels instead of leaving panels 4-5 gridless.
+    all_panels = (
+        axis, pe_axis, eps_axis, reported_eps_axis, eps_yoy_axis,
+        revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis,
+        net_margin_axis, net_margin_yoy_axis,
+    )
+    for panel_axis in all_panels:
+        panel_axis.xaxis.remove_overlapping_locs = False
+        panel_axis.xaxis.set_minor_locator(mdates.MonthLocator())
+        panel_axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
 
     revenue_view = monthly_revenue[monthly_revenue["date"] >= display_start].copy()
     revenue_series = revenue_view.get("revenue_m_twd", pd.Series(index=revenue_view.index, dtype=float))

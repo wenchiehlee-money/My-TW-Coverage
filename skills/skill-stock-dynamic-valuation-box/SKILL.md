@@ -11,13 +11,12 @@ For each requested stock, the renderer writes a PNG, an SVG using the same figur
 For environments without an installed CJK font, set `TW_CJK_FONT` to a Traditional Chinese
 font file (for example, Noto Sans CJK TC) before rendering. The same selected font is used
 for PNG and SVG output.
-Panel 3 shows trailing TTM EPS. Panel 4 shows reported quarterly EPS and Panel 5 shows EPS YoY growth.
+Panel 3 shows trailing EPS (TTM). Panel 4 shows reported quarterly EPS and Panel 5 shows EPS YoY growth.
 Panels 4–11 are bar charts: reported EPS, EPS YoY, monthly revenue, revenue YoY, net profit,
 net profit YoY, net profit margin, and margin YoY change. Positive YoY bars are red; negative YoY bars are green.
 Panel 6 uses GoodInfo Analyzer `raw_revenue.csv` where available, then the synchronized local FinMind
 `raw_revenue.csv`; live `TaiwanStockMonthRevenue` is used only when local feeds have no rows for a symbol.
-Monthly vertical grid lines are shown in the P/E, monthly-revenue, and YoY-growth panels
-so each month aligns across the shared time axis.
+Monthly vertical grid lines are shown in every panel so each month aligns across the shared time axis.
 Pass `--analyzer-revenue-csv` to override the Analyzer CSV path. Pass
 `--finmind-revenue-csv` with the synchronized local FinMind monthly-revenue export
 when live FinMind is unavailable or quota-limited; Analyzer values are preferred
