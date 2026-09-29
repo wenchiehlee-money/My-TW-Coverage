@@ -43,6 +43,7 @@ sys.path.insert(0, str(PEBAND_SCRIPTS_DIR))
 from indicators import calc_pe_band_series  # noqa: E402
 
 FINMIND_URL = "https://api.finmindtrade.com/api/v4/data"
+FINMIND_QUOTA_URL = "https://api.web.finmindtrade.com/v2/user_info"
 STATUTORY_DEADLINES = {3: (5, 15), 6: (8, 14), 9: (11, 14), 12: (3, 31)}
 
 # Historical drift across this codebase's various FinMind-consuming scripts left
@@ -65,6 +66,30 @@ TOKEN_ENV_NAMES = (
 )
 
 _live_tokens: list[str] | None = None
+_token_remaining: dict[str, int] = {}
+
+
+def _finmind_quota_remaining(token: str) -> int:
+    """Return the current hourly quota remaining for a token.
+
+    FinMind's data API now requires Bearer authentication; this separate
+    user-info check is a guard against retrying known-exhausted tokens.
+    Cache the result per process and decrement after each successful data
+    request so a render batch does not need a quota call for every request.
+    """
+    if token in _token_remaining:
+        return _token_remaining[token]
+    request = Request(FINMIND_QUOTA_URL, headers={"Authorization": f"Bearer {token}"})
+    try:
+        with urlopen(request, timeout=20) as response:
+            body = json.load(response)
+        limit = int(body.get("api_request_limit", 0) or 0)
+        used = int(body.get("user_count", 0) or 0)
+        remaining = max(limit - used, 0) if limit > 0 else 0
+    except (HTTPError, OSError, ValueError, TypeError):
+        remaining = 0
+    _token_remaining[token] = remaining
+    return remaining
 
 
 def _finmind_tokens() -> list[str]:
@@ -79,7 +104,9 @@ def _finmind_tokens() -> list[str]:
             value = os.environ.get(name)
             if value and value.strip() and value.strip() not in seen:
                 seen.append(value.strip())
-        _live_tokens = seen
+        # Double-check every token against FinMind's quota API before the
+        # first data request; exhausted tokens are never selected.
+        _live_tokens = [token for token in seen if _finmind_quota_remaining(token) > 0]
     return _live_tokens
 
 
@@ -98,10 +125,11 @@ def _fetch(dataset: str, symbol: str, start: str, end: str) -> list[dict]:
     last_error: Exception | None = None
     for token in attempt_tokens:
         params = {"dataset": dataset, "data_id": symbol, "start_date": start, "end_date": end}
-        if token:
-            params["token"] = token
         query = urlencode(params)
-        request = Request(f"{FINMIND_URL}?{query}", headers={"User-Agent": "dynamic-valuation-box/1.0"})
+        headers = {"User-Agent": "dynamic-valuation-box/1.0"}
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        request = Request(f"{FINMIND_URL}?{query}", headers=headers)
         try:
             with urlopen(request, timeout=60) as response:
                 body = json.load(response)
@@ -111,6 +139,8 @@ def _fetch(dataset: str, symbol: str, start: str, end: str) -> list[dict]:
                 _retire_token(token)
                 continue
             raise RuntimeError(f"{symbol} {dataset}: FinMind request failed ({exc})") from exc
+        if token and token in _token_remaining:
+            _token_remaining[token] = max(_token_remaining[token] - 1, 0)
         if body.get("status") != 200:
             msg = str(body.get("msg", "")).strip()
             if token and ("reach the upper limit" in msg.lower() or "token is illegal" in msg.lower()):
