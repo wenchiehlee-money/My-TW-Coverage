@@ -105,7 +105,7 @@
 - [![6561 是方](https://img.shields.io/badge/6561%20%E6%98%AF%E6%96%B9-blue)](company/6561_%E6%98%AF%E6%96%B9.md) (市值: 24,935 百萬台幣)
 
 **資訊科技服務** (3)
-- [![6811 宏�硌穈T](https://img.shields.io/badge/6811%20%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T-blue)](company/6811_%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T.md) (市值: 8,891 百萬台幣)
+- [![6811 宏碁資訊](https://img.shields.io/badge/6811%20%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T-blue)](company/6811_%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T.md) (市值: 8,891 百萬台幣)
 - [![6112 邁達特](https://img.shields.io/badge/6112%20%E9%82%81%E9%81%94%E7%89%B9-blue)](company/6112_%E9%82%81%E9%81%94%E7%89%B9.md) (市值: 7,167 百萬台幣)
 - [![1416 廣豐](https://img.shields.io/badge/1416%20%E5%BB%A3%E8%B1%90-blue)](company/1416_%E5%BB%A3%E8%B1%90.md) (市值: 1,992 百萬台幣)
 
@@ -272,7 +272,7 @@
 | 57 | [![4908 前鼎](https://img.shields.io/badge/4908%20%E5%89%8D%E9%BC%8E-blue)](company/4908_%E5%89%8D%E9%BC%8E.md) | CSP 高速網通交換器與光收發模組 (400G/800G/1.6T) | 9,816 百萬台幣 |
 | 58 | [![6230 尼得科超眾](https://img.shields.io/badge/6230%20%E5%B0%BC%E5%BE%97%E7%A7%91%E8%B6%85%E7%9C%BE-blue)](company/6230_%E5%B0%BC%E5%BE%97%E7%A7%91%E8%B6%85%E7%9C%BE.md) | CSP 機房高階散熱與水冷模組 | 9,670 百萬台幣 |
 | 59 | [![4977 眾達-KY](https://img.shields.io/badge/4977%20%E7%9C%BE%E9%81%94--KY-blue)](company/4977_%E7%9C%BE%E9%81%94-KY.md) | CSP 高速網通交換器與光收發模組 (400G/800G/1.6T) | 9,261 百萬台幣 |
-| 60 | [![6811 宏�硌穈T](https://img.shields.io/badge/6811%20%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T-blue)](company/6811_%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T.md) | 資訊科技服務 | 8,891 百萬台幣 |
+| 60 | [![6811 宏碁資訊](https://img.shields.io/badge/6811%20%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T-blue)](company/6811_%E5%AE%8F%EF%BF%BD%E7%A1%8C%E7%A9%88T.md) | 資訊科技服務 | 8,891 百萬台幣 |
 | 61 | [![3689 湧德](https://img.shields.io/badge/3689%20%E6%B9%A7%E5%BE%B7-blue)](company/3689_%E6%B9%A7%E5%BE%B7.md) | 電子零組件 | 8,888 百萬台幣 |
 | 62 | [![6462 神盾](https://img.shields.io/badge/6462%20%E7%A5%9E%E7%9B%BE-blue)](company/6462_%E7%A5%9E%E7%9B%BE.md) | 基礎架構軟體 | 8,377 百萬台幣 |
 | 63 | [![3032 偉訓](https://img.shields.io/badge/3032%20%E5%81%89%E8%A8%93-blue)](company/3032_%E5%81%89%E8%A8%93.md) | 電腦硬體 | 8,372 百萬台幣 |
