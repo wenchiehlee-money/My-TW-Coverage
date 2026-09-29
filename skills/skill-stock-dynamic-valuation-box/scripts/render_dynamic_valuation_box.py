@@ -487,7 +487,10 @@ def _build_profit_metrics(financials: pd.DataFrame) -> pd.DataFrame:
     income_type = next((name for name in ("IncomeAfterTaxes", "IncomeAfterTax") if name in pivot.columns), None)
     if "Revenue" not in pivot.columns or income_type is None:
         return pd.DataFrame(columns=columns)
-    metrics = pd.DataFrame({"revenue": pivot["Revenue"], "net_profit": pivot[income_type]})
+    # FinMind financial-statement amounts are reported in thousand TWD, while
+    # the chart's revenue panel uses million TWD. Normalize both financial
+    # amounts to million TWD so net profit is directly comparable with revenue.
+    metrics = pd.DataFrame({"revenue": pivot["Revenue"] / 1_000, "net_profit": pivot[income_type] / 1_000})
     metrics["available_date"] = metrics.index.to_series().map(_availability_date)
     metrics["net_profit_yoy_pct"] = metrics["net_profit"].pct_change(4) * 100
     metrics["net_margin_pct"] = metrics["net_profit"].div(metrics["revenue"].replace(0, float("nan"))) * 100
@@ -882,7 +885,7 @@ def _plot(
 
     profit_view = profit_metrics[profit_metrics["available_date"] >= display_start].copy()
     metric_specs = (
-        (net_profit_axis, "net_profit", "Net profit", "Net profit (reported units)", "#4472c4", "bar"),
+        (net_profit_axis, "net_profit", "Net profit", "Net profit (NT$ million)", "#4472c4", "bar"),
         (net_profit_yoy_axis, "net_profit_yoy_pct", "Net profit YoY", "YoY (%)", "#70ad47", "bar"),
         (net_margin_axis, "net_margin_pct", "Net profit margin", "Margin (%)", "#7030a0", "bar"),
         (net_margin_yoy_axis, "net_margin_yoy_pct", "Margin YoY change", "Δ margin (pp)", "#ed7d31", "bar"),
