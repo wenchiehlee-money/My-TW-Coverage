@@ -85,4 +85,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 
 ![Dynamic valuation box](../../dynamic_valuation_box/HPQ_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-28 17:27 CST
+Updated: 2026-09-29 07:47 CST

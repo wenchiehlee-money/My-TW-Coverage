@@ -31,7 +31,7 @@ Hewlett Packard Enterprise (HPE，HPE) 總部位於美國德州休士頓，為�
 - **主要供應商:** [![英業達](https://img.shields.io/badge/%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) — 品牌伺服器代工
 
 ### 競爭同業
-- **競爭同業:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[[Lenovo]] — 企業伺服器與儲存設備競爭
+- **競爭同業:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![Lenovo](https://img.shields.io/badge/Lenovo-blue)](0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md) — 企業伺服器與儲存設備競爭
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
 
@@ -179,4 +179,4 @@ FX: `1 USD = 32.3 TWD`
 
 ![Dynamic valuation box](../../dynamic_valuation_box/HPE_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-28 17:27 CST
+Updated: 2026-09-29 07:47 CST

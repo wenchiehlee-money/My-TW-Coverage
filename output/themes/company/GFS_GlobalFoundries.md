@@ -79,8 +79,4 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Home and Industrial IoT | 28.10% ($474M) | 工控 MCU、低功耗 Wi-Fi/BT 晶片 |
 | Communications Infrastructure & Data Center | 16.50% ($279M) | 矽光子 Optical Transceiver 與電源晶片 |
 
-## Chart
-
-Chart SVG 尚未生成。請先執行 valuation-box renderer。
-
-Updated: 2026-09-28 05:52 CST
+Updated: 2026-09-29 07:47 CST

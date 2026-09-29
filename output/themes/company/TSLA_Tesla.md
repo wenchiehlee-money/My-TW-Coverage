@@ -173,8 +173,4 @@ P/E Range: `季內最低/平均/最高股價 / TTM EPS (當季 EPS + 最近 3 �
 </tbody>
 </table>
 
-## Chart
-
-Chart SVG 尚未生成。請先執行 valuation-box renderer。
-
-Updated: 2026-09-28 05:52 CST
+Updated: 2026-09-29 07:47 CST

@@ -24,7 +24,7 @@ Advanced Micro Devices (AMD，AMD) 為全球領先的高效能與自適應運算
 ## 主要客戶及供應商
 ### 主要客戶
 - **主要客戶:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)、[![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md) — 伺服器與 AI 晶片客戶
-- **主要客戶:** 戴爾、[[Lenovo]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md) — PC 與伺服器 OEM 夥伴
+- **主要客戶:** 戴爾、[![Lenovo](https://img.shields.io/badge/Lenovo-blue)](0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md) — PC 與伺服器 OEM 夥伴
 
 ### 主要供應商
 - **主要供應商:** [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md) — EPYC CPU 與 Instinct AI 晶片代工
@@ -180,4 +180,4 @@ FX: `1 USD = 32.3 TWD`
 
 ![Dynamic valuation box](../../dynamic_valuation_box/AMD_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-28 17:26 CST
+Updated: 2026-09-29 07:47 CST

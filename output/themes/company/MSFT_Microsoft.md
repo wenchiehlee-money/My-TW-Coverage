@@ -190,4 +190,4 @@ FX: `1 USD = 32.3 TWD`
 
 ![Dynamic valuation box](../../dynamic_valuation_box/MSFT_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-28 17:27 CST
+Updated: 2026-09-29 07:47 CST

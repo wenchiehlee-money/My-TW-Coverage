@@ -18,7 +18,7 @@ Micron Technology, Inc. (MU，Micron) 為美國記憶體晶片巨頭，全球前
 **下游:**
 - **主要平台:** Cloud Memory (約33.2199%), Core Data Center (約27.8035%), Mobile and Client (約27.7963%), Automotive and Edge (約11.1803%).
 - **AI 算力與 Server 客戶:** [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) (HBM3E 採購大廠)、[![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)
-- **智慧型手機與 PC OEM:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[[小米]]、[[Lenovo]]、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)
+- **智慧型手機與 PC OEM:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[[小米]]、[![Lenovo](https://img.shields.io/badge/Lenovo-blue)](0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)
 
 ## 主要客戶及供應商
 ### 主要客戶
@@ -177,4 +177,4 @@ FX: `1 USD = 32.3 TWD`
 
 ![Dynamic valuation box](../../dynamic_valuation_box/MU_dynamic_valuation_box_3y.svg)
 
-Updated: 2026-09-28 17:27 CST
+Updated: 2026-09-29 07:47 CST
