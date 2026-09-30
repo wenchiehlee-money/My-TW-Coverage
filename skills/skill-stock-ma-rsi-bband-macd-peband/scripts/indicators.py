@@ -21,11 +21,17 @@ def calc_std(close: pd.Series, period: int) -> pd.Series:
 
 
 def calc_bbands(close: pd.Series, period: int = 20, k: float = 2.0) -> pd.DataFrame:
-    """布林通道：中軌=MA_N，上/下軌=中軌±k倍STD_N（k預設2，業界慣例）。"""
+    """布林通道（BBand）：標準定義為中軌=MA20、STD20為20日樣本標準差，內軌=MA20±1σ，外軌=MA20±2σ；回傳的 upper/lower 是外軌（±2σ），函式參數允許其他週期或k值。"""
     ma = calc_ma(close, period)
     std = calc_std(close, period)
     return pd.DataFrame({
         "mid": ma,
+        "upper1": ma + std,
+        "lower1": ma - std,
+        "upper2": ma + 2 * std,
+        "lower2": ma - 2 * std,
+        # Backward-compatible aliases: upper/lower are the configured kσ
+        # bands, whose standard definition is the outer ±2σ band.
         "upper": ma + k * std,
         "lower": ma - k * std,
         "std": std,
@@ -259,8 +265,13 @@ def calc_all(close: pd.Series, ma_periods=(20, 60, 120, 240), rsi_period=14,
         out[f"zscore_MA{n}"] = last(z)
 
     bb = calc_bbands(close, bband_period, bband_k)
-    out[f"BB{bband_period}_upper"] = last(bb["upper"])
+    out[f"BB{bband_period}_upper1"] = last(bb["upper1"])
     out[f"BB{bband_period}_mid"] = last(bb["mid"])
+    out[f"BB{bband_period}_lower1"] = last(bb["lower1"])
+    out[f"BB{bband_period}_upper2"] = last(bb["upper2"])
+    out[f"BB{bband_period}_lower2"] = last(bb["lower2"])
+    # Backward-compatible aliases retain the historical ±2σ names.
+    out[f"BB{bband_period}_upper"] = last(bb["upper"])
     out[f"BB{bband_period}_lower"] = last(bb["lower"])
 
     out[f"RSI{rsi_period}"] = last(calc_rsi(close, rsi_period))
