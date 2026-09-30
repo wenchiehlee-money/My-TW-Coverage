@@ -674,12 +674,16 @@ def _plot(
     if cjk_font_path and Path(cjk_font_path).is_file():
         font_manager.fontManager.addfont(cjk_font_path)
         cjk_family = font_manager.FontProperties(fname=cjk_font_path).get_name()
+    has_cjk_name = any("\u3400" <= char <= "\u9fff" for char in str(name))
+    if has_cjk_name and not cjk_family:
+        raise RuntimeError(f"{symbol}: Traditional Chinese company name requires a valid TW_CJK_FONT; refusing missing-glyph fallback")
     preferred_fonts = [cjk_family] if cjk_family else []
     plt.rcParams["font.sans-serif"] = preferred_fonts + [
         "Microsoft JhengHei", "Microsoft YaHei", "PingFang TC", "Noto Sans CJK TC",
         "Noto Sans TC", "SimHei", "DejaVu Sans",
     ]
     plt.rcParams["axes.unicode_minus"] = False
+    plt.rcParams["svg.fonttype"] = "path"
 
     # Precomputed once, up front, so both panels can use the same per-source
     # forward-EPS facts: the top panel projects a future trend ray from today
