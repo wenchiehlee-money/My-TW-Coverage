@@ -57,7 +57,7 @@ _load_local_dotenv()
 # close this skill deliberately uses (see "Required valuation rules" below).
 PEBAND_SCRIPTS_DIR = (Path(__file__).resolve().parent / "../../skill-stock-ma-rsi-bband-macd-peband/scripts").resolve()
 sys.path.insert(0, str(PEBAND_SCRIPTS_DIR))
-from indicators import calc_pe_band_series  # noqa: E402
+from indicators import calc_bbands, calc_ma, calc_pe_band_series  # noqa: E402
 
 FINMIND_URL = "https://api.finmindtrade.com/api/v4/data"
 FINMIND_QUOTA_URL = "https://api.web.finmindtrade.com/v2/user_info"
@@ -651,6 +651,17 @@ def _plot(
     revenue_label: str = "Monthly revenue", revenue_axis_label: str = "Revenue (M TWD)",
     growth_label: str = "Revenue YoY growth", profit_axis_label: str = "Net profit (NT$ million)",
 ) -> tuple[Path, Path, Path]:
+    daily = daily.copy()
+    daily["sma20"] = calc_ma(daily["close"], 20)
+    daily["sma60"] = calc_ma(daily["close"], 60)
+    daily["sma120"] = calc_ma(daily["close"], 120)
+    daily["sma240"] = calc_ma(daily["close"], 240)
+    bands = calc_bbands(daily["close"], period=20, k=2.0)
+    daily["bband_mid"] = bands["mid"]
+    daily["bband_upper2"] = bands["upper"]
+    daily["bband_lower2"] = bands["lower"]
+    daily["bband_upper1"] = daily["bband_mid"] + bands["std"]
+    daily["bband_lower1"] = daily["bband_mid"] - bands["std"]
     display_start = daily.index.max() - pd.DateOffset(years=years)
     view = daily.loc[daily.index >= display_start].copy()
     if view.empty:
@@ -704,9 +715,9 @@ def _plot(
     # own panel. When a forward curve's target year runs past the price
     # history (e.g. FactSet's FY2028E), both panels' x-range is explicitly
     # extended together below, rather than left to independent autoscale.
-    figure, (axis, pe_axis, eps_axis, reported_eps_axis, eps_yoy_axis, revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis, net_margin_axis, net_margin_yoy_axis) = plt.subplots(
-        11, 1, figsize=(16, 27.5), sharex=True,
-        gridspec_kw={"height_ratios": [3, 1.0, 1.6, 0.9, 0.9, 0.9, 0.9, 0.7, 0.7, 0.7, 0.7], "hspace": 0.1},
+    figure, (axis, technical_axis, pe_axis, eps_axis, reported_eps_axis, eps_yoy_axis, revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis, net_margin_axis, net_margin_yoy_axis) = plt.subplots(
+        12, 1, figsize=(16, 29.5), sharex=True,
+        gridspec_kw={"height_ratios": [3, 1.7, 1.0, 1.6, 0.9, 0.9, 0.9, 0.9, 0.7, 0.7, 0.7, 0.7], "hspace": 0.1},
     )
     label = f"{symbol} {name}" if name else symbol
     figure.suptitle(f"{label} | {years}-year price, valuation box, EPS, revenue & profit trend", x=0.125, ha="left", y=0.975, fontsize=16, fontweight="bold")
@@ -776,6 +787,20 @@ def _plot(
     axis.xaxis.set_minor_locator(mdates.MonthLocator())
     axis.grid(which="minor", axis="x", color="#c9c9c9", lw=0.5)
     axis.legend(loc="upper left", ncol=3, fontsize=9, frameon=False)
+
+    technical_axis.plot(view.index, view["close"], color="#17365d", lw=1.4, label="Close (same as panel 1)")
+    for field, color, label_text in (("sma20", "#d62728", "SMA20"), ("sma60", "#ff7f0e", "SMA60"), ("sma120", "#2ca02c", "SMA120"), ("sma240", "#9467bd", "SMA240")):
+        technical_axis.plot(view.index, view[field], color=color, lw=0.9, label=label_text)
+    technical_axis.fill_between(view.index, view["bband_lower2"], view["bband_upper2"], color="#d9d9d9", alpha=0.25, label="Bollinger ±2σ")
+    technical_axis.fill_between(view.index, view["bband_lower1"], view["bband_upper1"], color="#9ecae1", alpha=0.28, label="Bollinger ±1σ")
+    technical_axis.plot(view.index, view["bband_mid"], color="#3182bd", lw=1.0, ls="--", label="Bollinger middle (SMA20)")
+    technical_axis.plot(view.index, view["bband_upper1"], color="#3182bd", lw=0.7, ls=":")
+    technical_axis.plot(view.index, view["bband_lower1"], color="#3182bd", lw=0.7, ls=":")
+    technical_axis.plot(view.index, view["bband_upper2"], color="#756bb1", lw=0.7, ls=":")
+    technical_axis.plot(view.index, view["bband_lower2"], color="#756bb1", lw=0.7, ls=":")
+    technical_axis.set_ylabel("Price")
+    technical_axis.grid(axis="y", color="#d9e2f3", lw=0.7)
+    technical_axis.legend(loc="upper left", ncol=4, fontsize=7, frameon=False)
 
     pe_axis.plot(view.index, view["pe"], color="#6a329f", lw=0.8, alpha=0.65, label="Trailing P/E")
     pe_axis.plot(view.index, view["pe_mean"], color="#666666", lw=1.2, ls="--", label="P/E mean")
@@ -911,7 +936,7 @@ def _plot(
     # shared axis. This makes a quarter's bars line up with the revenue,
     # profit, and valuation panels instead of leaving panels 4-5 gridless.
     all_panels = (
-        axis, pe_axis, eps_axis, reported_eps_axis, eps_yoy_axis,
+        axis, technical_axis, pe_axis, eps_axis, reported_eps_axis, eps_yoy_axis,
         revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis,
         net_margin_axis, net_margin_yoy_axis,
     )
