@@ -794,7 +794,7 @@ def _plot(
 
     technical_axis.plot(view.index, view["close"], color="#17365d", lw=1.4, label="Close (same as panel 1)")
     for field, color, label_text in (("sma20", "#d62728", "SMA20"), ("sma60", "#ff7f0e", "SMA60"), ("sma120", "#2ca02c", "SMA120"), ("sma240", "#9467bd", "SMA240")):
-        technical_axis.plot(view.index, view[field], color=color, lw=0.9, label=label_text)
+        technical_axis.plot(view.index, view[field], color=color, lw=1.5 if field == "sma20" else 0.9, label=label_text, zorder=5 if field == "sma20" else 4)
     technical_axis.fill_between(view.index, view["bband_lower2"], view["bband_upper2"], color="#d9d9d9", alpha=0.25, label="Bollinger ±2σ")
     technical_axis.fill_between(view.index, view["bband_lower1"], view["bband_upper1"], color="#9ecae1", alpha=0.28, label="Bollinger ±1σ")
     technical_axis.plot(view.index, view["bband_mid"], color="#3182bd", lw=1.0, ls="--", label="Bollinger middle (SMA20)")
