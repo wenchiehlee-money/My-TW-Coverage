@@ -11,21 +11,12 @@ For each requested stock, the renderer writes a PNG, an SVG using the same figur
 For environments without an installed CJK font, set `TW_CJK_FONT` to a Traditional Chinese
 font file (for example, Noto Sans CJK TC) before rendering. The same selected font is used
 for PNG and SVG output.
-Panel 3 shows trailing EPS (TTM). Panel 4 shows reported quarterly EPS and Panel 5 shows EPS YoY growth.
-Panels 4–11 are bar charts: reported EPS, EPS YoY, monthly revenue, revenue YoY, net profit,
-net profit YoY, net profit margin, and margin YoY change. Positive YoY bars are red; negative YoY bars are green.
-Panel 6 uses GoodInfo Analyzer `raw_revenue.csv` where available, then the synchronized local FinMind
-`raw_revenue.csv`; live `TaiwanStockMonthRevenue` is used only when local feeds have no rows for a symbol.
-Monthly vertical grid lines are shown in every panel so each month aligns across the shared time axis.
-Pass `--analyzer-revenue-csv` to override the Analyzer CSV path. Pass
-`--finmind-revenue-csv` with the synchronized local FinMind monthly-revenue export
-when live FinMind is unavailable or quota-limited; Analyzer values are preferred
-when present and FinMind fills missing months.
+The third panel shows one reconciled monthly-revenue series: GoodInfo Analyzer
+`raw_revenue.csv` is preferred, with FinMind `TaiwanStockMonthRevenue` filling missing months.
+The fourth, short panel shows YoY revenue growth for that reconciled series.
+Pass `--analyzer-revenue-csv` to override the Analyzer CSV path.
 
 Use this skill when a Taiwan stock needs a time-price diagram that separates valuation from technical timing.
-For non-Taiwan tickers with local Yahoo/ConceptStocks data, use
-`scripts/render_international_valuation_box.py`; it reuses the same eleven-panel SVG/PNG
-layout with international daily prices and quarterly/annual EPS.
 
 ## Output
 
@@ -51,7 +42,7 @@ This skill owns only the valuation layer. Its daily CSV is the stable hand-off:
 
 Downstream technical and quality skills must reference this CSV by date; they must not recalculate the valuation box from adjusted prices or later financial statements.
 
-Forward EPS is a distinct layer with its own contract. It is automatically included when a supported local feed has rows for the requested symbol:
+Forward EPS is a distinct, optional layer with its own contract:
 
 - **Consumes:** a dated consensus/forward-EPS feed — FinMind has none of its own, but Yahoo Finance and FactSet do. Point the script at either feed's native export directly (`--yahoo-consensus-csv`, `--factset-report-csv`), or at a CSV already reshaped into this skill's own `symbol,as_of_date,forward_eps` form (`--forward-eps-csv`). All three may be combined; rows are pooled and the backward merge just uses whichever source's estimate was newest as of each trading day.
 - **Emits:** date-available `forward_eps`, `forward_pe`, and `forward_price_m2`/`forward_price_m1`/`forward_price_mean`/`forward_price_p1`/`forward_price_p2` bands, alongside the trailing-EPS columns, in the same daily CSV.
@@ -74,11 +65,14 @@ python skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation
   --trades-csv data/trades.csv \
   --yahoo-consensus-csv ../Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv \
   --factset-report-csv ../Yahoo.Finance/data/reports/raw_factset_detailed_report.csv \
-  --finmind-revenue-csv ../biztrends.TW/data/Python-Actions.FinMind/raw_revenue.csv \
   --output-dir output/dynamic_valuation_box
 ```
 
-`--years` accepts only `2`, `3`, `4`, or `5`. `--end-date YYYY-MM-DD` freezes a historical retrospective. `--window` defaults to 120 trading observations (the minimum); raise it for a longer, less reactive PE baseline. `--yahoo-consensus-csv`, `--factset-report-csv`, and `--forward-eps-csv` can be combined. When omitted, the renderer automatically discovers the standard sibling Yahoo Finance/FactSet report feeds when present, so forward EPS is included by default. Use `--require-forward-eps` to fail instead of falling back to trailing-only output when no forward rows exist.
+`--years` accepts only `2`, `3`, `4`, or `5`. `--end-date YYYY-MM-DD` freezes a historical retrospective. `--window` defaults to 120 trading observations (the minimum); raise it for a longer, less reactive PE baseline. `--yahoo-consensus-csv`, `--factset-report-csv`, and `--forward-eps-csv` are all optional and independent — pass any subset (including none), and any combination; when none are given, the chart and CSV are unchanged from the trailing-only output.
+
+## Price CSV gap-fill (FinMind quota saving)
+
+`--price-csv` (default `../Python-Actions.FinMind/data/stage1_raw/raw_daily_k_chart_flow.csv`) points at a pre-fetched FinMind `TaiwanStockPrice` snapshot with `stock_code`, `交易_日期`, `收盤價_元` columns. `TaiwanStockPrice` is by far this skill's heaviest FinMind call — it pulls `--years + 3` years of daily closes on every run — so before calling it live, the renderer reads whatever the snapshot already covers for that symbol and only fetches the gap after its last date through `--end-date`. A snapshot that already reaches `--end-date` skips the live call entirely; a missing file, a symbol it doesn't have, or one whose last date is older than the requested start all fall back unchanged to fetching the full range live, same as if `--price-csv` had never been given — a stale or absent snapshot costs extra API calls, never wrong data. This only applies to `TaiwanStockPrice`; `TaiwanStockDividend` (no event-level CSV exists anywhere in this codebase, only GoodInfo-style annual rollups without ex-dividend dates), `TaiwanStockFinancialStatements` (the one candidate CSV, a monthly-cadence general-purpose financial-ratio table, is fragile to parse and cadence-mismatched with quarterly EPS), and `TaiwanStockInfo` (cheapest call of the four; not worth it) all stay live-fetched.
 
 ## Optional trade-event CSV
 
@@ -125,8 +119,8 @@ On the bottom EPS panel, Yahoo and FactSet are **not** pooled: each source's own
 
 ## FinMind token resolution
 
-Reads a `.env` file (via `python-dotenv` when available, with a dependency-free fallback) in addition to already-exported environment variables, then checks, in order. Before any data request, each configured token is double-checked through FinMind's `https://api.web.finmindtrade.com/v2/user_info` quota endpoint; tokens whose hourly remaining quota is zero are skipped. Data requests use the token in the `Authorization: Bearer` header: `FINMIND_TOKEN`, `FINMIND_API_TOKEN`, numbered `FINMIND_TOKEN1`..`FINMIND_TOKEN20`, `FINDMIND_GMAIL_TOKEN`, and numbered `FINDMIND_GMAIL_TOKEN1`..`FINDMIND_GMAIL_TOKEN20` (the last group's "FINDMIND" spelling matches `skill-finmind-fetch`'s own convention, which this skill does not import — the name list is duplicated here instead of adding a hard dependency on that skill's heavier `requests`/`python-dotenv` fetch module). Every configured token is pooled: on an HTTP 402 or a `"reach the upper limit"`/`"token is illegal"` response the exhausted token is retired for the rest of the process and the next one is tried, so one run can outlast a single account's quota (FinMind's quota window resets hourly, not daily). With none configured, requests fall back to anonymous FinMind access (a small but real quota) and a one-time warning is printed to stderr; a run that also finds every token or anonymous access already exhausted raises a `RuntimeError` naming the checked env vars, rather than surfacing a bare `HTTP Error 402` deep in a traceback.
+Reads a `.env` file (via `python-dotenv`, if installed) in addition to already-exported environment variables, then checks, in order: `FINMIND_TOKEN`, `FINMIND_API_TOKEN`, `FINMIND_TOKEN1`..`FINMIND_TOKEN6`, `FINDMIND_GMAIL_TOKEN`, `FINDMIND_GMAIL_TOKEN1`..`FINDMIND_GMAIL_TOKEN6` (the last group's "FINDMIND" spelling matches `skill-finmind-fetch`'s own convention, which this skill does not import — the name list is duplicated here instead of adding a hard dependency on that skill's heavier `requests`/`python-dotenv` fetch module). Every configured token is pooled: on an HTTP 402 or a `"reach the upper limit"`/`"token is illegal"` response the exhausted token is retired for the rest of the process and the next one is tried, so one run can outlast a single account's quota (FinMind's quota window resets hourly, not daily). With none configured, requests fall back to anonymous FinMind access (a small but real quota) and a one-time warning is printed to stderr; a run that also finds every token or anonymous access already exhausted raises a `RuntimeError` naming the checked env vars, rather than surfacing a bare `HTTP Error 402` deep in a traceback.
 
 ## Batch rendering
 
-`scripts/render_dynamic_valuation_batch.py` wraps the per-symbol renderer for bulk runs: it scans a directory of company JSON files (`--json-dir`, default `data/enrichment_all`) for numeric tickers, skips ones whose three artifacts (`.png`/`.svg`/`.csv`) already exist unless `--force` is passed, runs the renderer as a subprocess per symbol with a configurable worker pool (`--workers`), and writes any failures to a TSV (`--failure-log`) with tokens redacted from the captured stderr/stdout — so a partial batch run is retryable without re-rendering everything or leaking a credential into the log. Pass the Yahoo/FactSet feed paths through `--yahoo-consensus-csv` and `--factset-report-csv`; `--require-forward-eps` makes missing forward coverage a hard failure instead of silently publishing trailing-only charts. It loads the root `.env`, calls the FinMind quota endpoint once per token before scheduling, and excludes tokens with no reported remaining quota. Each subprocess receives only its assigned token, preventing concurrent workers from accidentally sharing and over-consuming the whole pool; a renderer still performs its own quota preflight and retires a token when the data endpoint returns 402 or an upper-limit response. With `--wait-for-quota`, quota-exhausted symbols are retried after 60-second quota rechecks for up to `--quota-wait-hours` (default 5.5 hours), rather than being abandoned after the first exhausted window. `--token-env-prefix` (default `FINMIND_TOKEN`) and `--workers` control token discovery and concurrency.
+`scripts/render_dynamic_valuation_batch.py` wraps the per-symbol renderer for bulk runs: it scans a directory of company JSON files (`--json-dir`, default `data/enrichment_all`) for numeric tickers, skips ones whose three artifacts (`.png`/`.svg`/`.csv`) already exist unless `--force` is passed, runs the renderer as a subprocess per symbol with a configurable worker pool (`--workers`), and writes any failures to a TSV (`--failure-log`) with tokens redacted from the captured stderr/stdout — so a partial batch run is retryable without re-rendering everything or leaking a credential into the log. It inherits the parent process's full environment into each subprocess, so the same `TOKEN_ENV_NAMES` pool above governs every worker; `--token-env-prefix` (default `FINMIND_TOKEN`) and `--workers` only affect this wrapper's own worker-count heuristic, not which token a given subprocess actually uses.

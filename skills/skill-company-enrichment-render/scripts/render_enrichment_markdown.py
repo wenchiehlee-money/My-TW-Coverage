@@ -9,13 +9,10 @@ from __future__ import annotations
 
 import argparse
 import csv
-import os
 import importlib.util
 import json
 import re
 import sys
-import struct
-from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote
@@ -50,11 +47,7 @@ PLATFORM_REVENUE_ANCHOR = "營收平台佔比-revenue-by-platform-"
 QUARTERLY_HEADING = "### 季度關鍵財務數據 (近 4 季)"
 COMPETITOR_FINANCIAL_HEADING = "### 競爭同業 Revenue/Profit/GM"
 H3_RE = re.compile(r"(?m)^### .*$")
-TAIWAN_TZ = timezone(timedelta(hours=8))
-
-
-def current_updated_at() -> str:
-    return datetime.now(TAIWAN_TZ).strftime("%Y-%m-%d %H:%M CST")
+DEFAULT_UPDATED_AT = "2026-08-01 17:32 CST"
 REQUIRED_RENDER_DATA = {
     "data/ConceptStocks/raw_conceptstock_company_income.csv",
     "data/ConceptStocks/raw_conceptstock_daily.csv",
@@ -289,10 +282,7 @@ def load_segment_weight_summaries(path: Path) -> dict[str, str]:
             segment = str(row.get("segment_name", "")).strip()
             weight = format_approx_pct(str(row.get("weight_pct", "")).strip())
             if segment and weight != "-":
-                # Avoid "~": docsify's markdown renderer treats an odd count of
-                # bare "~" as unmatched subscript-style markup, which silently
-                # eats the first N-1 tildes and only shows the last one.
-                parts.append(f"{segment} (約{weight})")
+                parts.append(f"{segment} (~{weight})")
         if parts:
             summaries[ticker] = "- **主要平台:** " + ", ".join(parts) + "."
     return summaries
@@ -1135,10 +1125,7 @@ def render_relationship_section(data: dict[str, Any], entity_render_index: dict[
             if line:
                 lines.append(line)
         lines.append("")
-    rendered = "\n".join(lines).strip()
-    if rendered:
-        return rendered
-    return str(data.get("source_text", {}).get("customers_suppliers_md", "")).strip()
+    return "\n".join(lines).strip()
 
 
 def render_competitive_position(data: dict[str, Any], entity_render_index: dict[str, str] | None = None) -> str:
@@ -1156,33 +1143,9 @@ def render_competitive_position(data: dict[str, Any], entity_render_index: dict[
                 lines.append(line)
         lines.append("")
     return "\n".join(lines).strip()
-def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path) -> str:
-    ticker = str(data.get("ticker", "")).strip()
-    chart = data.get("chart", {}) or {"kind": "dynamic_valuation_box", "svg_path": f"output/dynamic_valuation_box/{ticker}_dynamic_valuation_box_3y.svg"}
-    if chart.get("kind") != "dynamic_valuation_box":
-        return ""
-    svg_name = Path(str(chart.get("svg_path", ""))).name
-    if not svg_name:
-        return ""
-    svg_path = chart_dir / svg_name
-    if not svg_path.is_file():
-        raise FileNotFoundError(
-            f"{ticker}: missing valuation chart artifact {svg_path}; "
-            "run render_dynamic_valuation_batch.py before rendering company pages"
-        )
-    relative_svg = Path(os.path.relpath(svg_path, output_dir))
-    chart_svg_href = Path(str(chart.get("svg_path", relative_svg.as_posix()))).as_posix()
-    png_path = svg_path.with_suffix(".png")
-    png_size = None
-    if png_path.is_file():
-        png_header = png_path.read_bytes()
-        if png_header[:8] == b"\x89PNG\r\n\x1a\n" and len(png_header) >= 24:
-            png_size = struct.unpack(">II", png_header[16:24])
-    image = f"![Dynamic valuation box]({relative_svg.as_posix()})"
-    return f"## Chart\n\n{image}"
 
 
-def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: dict[str, str] | None = None, segment_weight_summaries: dict[str, str] | None = None, monthly_revenue_totals: dict[str, dict[str, float]] | None = None, competitor_financial_section: str = "", updated_at: str = "", entity_render_index: dict[str, str] | None = None, theme_render_index: dict[str, dict[str, str]] | None = None, chart_dir: Path | None = None, output_dir: Path | None = None) -> str:
+def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: dict[str, str] | None = None, segment_weight_summaries: dict[str, str] | None = None, monthly_revenue_totals: dict[str, dict[str, float]] | None = None, competitor_financial_section: str = "", updated_at: str = "", entity_render_index: dict[str, str] | None = None, theme_render_index: dict[str, dict[str, str]] | None = None) -> str:
     title = data.get("title") or f"{data.get('ticker', '')} - [[{data.get('company_name', '')}]]"
     profile = data.get("profile", {})
     business_summary = data.get("business", {}).get("summary", "").strip()
@@ -1210,10 +1173,6 @@ def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: 
     if financial:
         heading = financial if financial.startswith("## ") else "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n" + financial
         parts.extend(["", heading])
-    if chart_dir is not None and output_dir is not None:
-        chart_section = render_chart_section(data, chart_dir, output_dir)
-        if chart_section:
-            parts.extend(["", chart_section])
     rendered = "\n".join(part.rstrip() for part in parts).rstrip()
     rendered = apply_annotations(rendered, data)
     rendered = apply_theme_badges_to_markdown(rendered, theme_render_index)
@@ -1252,26 +1211,21 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--json-dir", default="data/enrichment_all")
     parser.add_argument("--coverage-root", default=".")
-    parser.add_argument("--out", default="output/themes/company")
+    parser.add_argument("--out", default="output/enrichment_all_rendered")
     parser.add_argument("--compare", default="output/enrichment_all_render_compare.csv")
     parser.add_argument("--segment-weights", default="../biztrends.TW/data/company_segment_weights.csv")
     parser.add_argument("--monthly-revenue", default="../biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv")
     parser.add_argument("--biztrends-root", default="../biztrends.TW")
     parser.add_argument("--themes-dir", default="data/themes")
     parser.add_argument("--competitor-financial-years", type=int, default=3)
-    parser.add_argument("--valuation-chart-dir", default="output/dynamic_valuation_box", help="Directory containing SVGs generated by skill-stock-dynamic-valuation-box")
     parser.add_argument("--updated-at", default=None, help="Defaults to the current time if omitted")
     parser.add_argument("--ticker", nargs="+", help="One or more tickers to render")
     args = parser.parse_args()
-    args.updated_at = args.updated_at or current_updated_at()
 
     json_dir = Path(args.json_dir).resolve()
     coverage_root = Path(args.coverage_root).resolve()
     out_dir = Path(args.out).resolve()
     compare_path = Path(args.compare).resolve()
-    chart_dir = Path(args.valuation_chart_dir)
-    if not chart_dir.is_absolute():
-        chart_dir = (coverage_root / chart_dir).resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
     compare_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -1291,7 +1245,8 @@ def main() -> int:
     print(health_summary)
     if health_issues:
         for issue in health_issues:
-            print(f"Data health warning: {issue}", file=sys.stderr)
+            print(f"Data health issue: {issue}", file=sys.stderr)
+        return 2
 
     competitor_adapter = load_competitor_financial_adapter(coverage_root)
     entity_render_index = build_entity_render_index(json_dir, out_dir)
@@ -1300,8 +1255,6 @@ def main() -> int:
         themes_dir = (coverage_root / themes_dir).resolve()
     theme_render_index = build_theme_render_index(themes_dir)
 
-    json_out_dir = out_dir.parent / "json"
-
     rows = []
     written = 0
     for json_path in load_json_files(json_dir, args.ticker):
@@ -1309,36 +1262,16 @@ def main() -> int:
         src = original_md_path(coverage_root, data)
         original = src.read_text(encoding="utf-8") if src.exists() else ""
         competitor_financial_section = ""
-        competitor_rows: list[dict[str, Any]] = []
         if competitor_adapter is not None:
-            competitor_rows = competitor_adapter.output_rows_for_data(
+            competitor_financial_section = competitor_adapter.render_competitor_financial_section(
                 data,
                 json_dir,
                 biztrends_root,
                 args.competitor_financial_years,
             )
-            competitor_financial_section = competitor_adapter.render_pivot(competitor_rows)
-        rendered = render_markdown(data, "", segment_weight_tables, segment_weight_summaries, monthly_revenue_totals, competitor_financial_section, args.updated_at, entity_render_index, theme_render_index, chart_dir, out_dir)
+        rendered = render_markdown(data, "", segment_weight_tables, segment_weight_summaries, monthly_revenue_totals, competitor_financial_section, args.updated_at, entity_render_index, theme_render_index)
         out_path = out_dir / f"{data['ticker']}_{data['company_name']}.md"
         out_path.write_text(rendered, encoding="utf-8")
-        if competitor_rows:
-            json_out_dir.mkdir(parents=True, exist_ok=True)
-            competitor_json_path = json_out_dir / f"{data['ticker']}_competitors.json"
-            competitor_json_path.write_text(
-                json.dumps(
-                    {
-                        "ticker": data["ticker"],
-                        "company_name": data["company_name"],
-                        "as_of": args.updated_at,
-                        "profile": data.get("profile", {}),
-                        "business_summary": data.get("business", {}).get("summary", ""),
-                        "rows": competitor_rows,
-                    },
-                    ensure_ascii=False,
-                    indent=2,
-                ),
-                encoding="utf-8",
-            )
         row = compare(original, rendered, data)
         row["rendered_md"] = str(out_path.relative_to(coverage_root)) if out_path.is_relative_to(coverage_root) else str(out_path)
         rows.append(row)
