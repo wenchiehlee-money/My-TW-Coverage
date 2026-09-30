@@ -716,8 +716,8 @@ def _plot(
     # history (e.g. FactSet's FY2028E), both panels' x-range is explicitly
     # extended together below, rather than left to independent autoscale.
     figure, (axis, technical_axis, pe_axis, eps_axis, reported_eps_axis, eps_yoy_axis, revenue_axis, growth_axis, net_profit_axis, net_profit_yoy_axis, net_margin_axis, net_margin_yoy_axis) = plt.subplots(
-        12, 1, figsize=(16, 29.5), sharex=True,
-        gridspec_kw={"height_ratios": [3, 1.7, 1.0, 1.6, 0.9, 0.9, 0.9, 0.9, 0.7, 0.7, 0.7, 0.7], "hspace": 0.1},
+        12, 1, figsize=(16, 34.0), sharex=True,
+        gridspec_kw={"height_ratios": [3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "hspace": 0.1},
     )
     label = f"{symbol} {name}" if name else symbol
     figure.suptitle(f"{label} | {years}-year price, valuation box, EPS, revenue & profit trend", x=0.125, ha="left", y=0.975, fontsize=16, fontweight="bold")
