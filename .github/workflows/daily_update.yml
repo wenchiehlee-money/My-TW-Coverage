@@ -2,8 +2,8 @@ name: Daily Update Financials & Valuation
 
 on:
   schedule:
-    # 每天 UTC 19:00 (台灣時間凌晨 03:00) 執行一次
-    - cron: '0 19 * * *'
+    # 每天 UTC 17:00 (台灣時間凌晨 01:00) 執行一次
+    - cron: '0 17 * * *'
   workflow_dispatch: # 允許手動觸發
 
 permissions:
