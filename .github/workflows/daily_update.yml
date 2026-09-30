@@ -83,10 +83,9 @@ jobs:
             --yahoo-consensus-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv" \
             --factset-report-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_factset_detailed_report.csv" \
             --years 3 \
-            --force \
             --wait-for-quota \
             --failure-log output/dynamic_valuation_box_failures.tsv \
-            --workers 5
+            --workers 2
 
       # Regenerate non-Taiwan charts from the local Yahoo/ConceptStocks feeds.
       - name: Render international dynamic valuation charts
