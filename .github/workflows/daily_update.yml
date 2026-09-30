@@ -51,6 +51,13 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: Install Traditional Chinese chart font
+        run: |
+          curl -L --fail --silent --show-error --retry 3 \
+            -o "${{ runner.temp }}/NotoSansCJKtc-Regular.otf" \
+            "https://github.com/notofonts/noto-cjk/raw/main/Sans/OTF/TraditionalChinese/NotoSansCJKtc-Regular.otf"
+          echo "TW_CJK_FONT=${{ runner.temp }}/NotoSansCJKtc-Regular.otf" >> "$GITHUB_ENV"
+
       # Generate charts before rendering company Markdown. Analyzer is the
       # preferred monthly-revenue source; FinMind fills missing months.
       - name: Render dynamic valuation charts
@@ -81,6 +88,51 @@ jobs:
             --wait-for-quota \
             --failure-log output/dynamic_valuation_box_failures.tsv \
             --workers 5
+
+      # Regenerate non-Taiwan charts from the local Yahoo/ConceptStocks feeds.
+      - name: Render international dynamic valuation charts
+        env:
+          INTERNATIONAL_PRICE_CSV: ${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_daily_price.csv
+          INTERNATIONAL_INCOME_CSV: ${{ runner.temp }}/biztrends.TW/data/ConceptStocks/raw_conceptstock_company_income.csv
+          YAHOO_CONSENSUS_CSV: ${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv
+          FACTSET_REPORT_CSV: ${{ runner.temp }}/Yahoo.Finance/data/reports/raw_factset_detailed_report.csv
+        run: |
+          INTERNATIONAL_SYMBOLS=$(python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+          import pandas as pd
+          price_path=Path("${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_daily_price.csv")
+          income_path=Path("${{ runner.temp }}/biztrends.TW/data/ConceptStocks/raw_conceptstock_company_income.csv")
+          price_symbols=set(pd.read_csv(price_path, usecols=["stock_code"], dtype=str)["stock_code"].str.upper())
+          income_symbols=set(pd.read_csv(income_path, usecols=["symbol"], dtype=str)["symbol"].str.upper())
+          symbols=[]; missing=[]
+          for path in sorted(Path("data/enrichment_all").glob("*.json")):
+              try:
+                  ticker=str(json.loads(path.read_text(encoding="utf-8")).get("ticker", "")).strip()
+              except (OSError, ValueError):
+                  continue
+              if ticker and not ticker.isdigit():
+                  if ticker.upper() in price_symbols and ticker.upper() in income_symbols:
+                      symbols.append(ticker)
+                  else:
+                      missing.append(ticker)
+          if missing:
+              print("International charts skipped due to missing local price/income source: " + ", ".join(missing), file=sys.stderr, flush=True)
+          print(" ".join(symbols))
+          PY
+          )
+          if [ -n "$INTERNATIONAL_SYMBOLS" ]; then
+            python skills/skill-stock-dynamic-valuation-box/scripts/render_international_valuation_box.py \
+              --symbols $INTERNATIONAL_SYMBOLS \
+              --price-csv "$INTERNATIONAL_PRICE_CSV" \
+              --income-csv "$INTERNATIONAL_INCOME_CSV" \
+              --yahoo-consensus-csv "$YAHOO_CONSENSUS_CSV" \
+              --factset-report-csv "$FACTSET_REPORT_CSV" \
+              --output-dir output/dynamic_valuation_box \
+              --json-dir data/enrichment_all \
+              --years 3
+          fi
 
       # Must run before Update Financials/Valuation: it rewrites every company
       # page in output/themes/company/ from data/enrichment_all/*.json's frozen

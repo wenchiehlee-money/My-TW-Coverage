@@ -250,6 +250,13 @@ def _adjust_for_stock_dividends(
     return prices, eps
 
 
+def _normalize_symbol_series(values: pd.Series) -> pd.Series:
+    """Normalize Taiwan numeric codes while preserving international tickers."""
+    text = values.astype(str).str.strip()
+    numeric = text.str.extract(r"^(\d+)(?:\.0)?$", expand=False)
+    return numeric.where(numeric.notna(), text.str.upper()).where(numeric.isna(), numeric.str.zfill(4))
+
+
 def _read_forward_eps(path: str | None, symbols: Iterable[str]) -> pd.DataFrame:
     """Manual consensus/forward EPS estimates, one row per re-estimate, in this
     skill's own normalized shape: symbol, as_of_date, forward_eps. Use this when
@@ -271,7 +278,7 @@ def _read_forward_eps(path: str | None, symbols: Iterable[str]) -> pd.DataFrame:
     if missing:
         raise ValueError(f"forward-eps CSV missing columns: {', '.join(missing)}")
     forward = forward.loc[:, columns].copy()
-    forward["symbol"] = forward["symbol"].astype(str).str.extract(r"(\d+)", expand=False).str.zfill(4)
+    forward["symbol"] = _normalize_symbol_series(forward["symbol"])
     forward["as_of_date"] = pd.to_datetime(forward["as_of_date"])
     forward["forward_eps"] = pd.to_numeric(forward["forward_eps"], errors="coerce")
     forward = forward.dropna(subset=["symbol", "as_of_date", "forward_eps"]).sort_values("as_of_date")
@@ -296,7 +303,7 @@ def _read_yahoo_consensus_eps(path: str | None, symbols: Iterable[str]) -> pd.Da
     forward = raw.rename(columns={
         "stock_code": "symbol", "forecast_asof_date": "as_of_date", "earnings_1y_avg": "forward_eps",
     })[columns].copy()
-    forward["symbol"] = forward["symbol"].astype(str).str.extract(r"(\d+)", expand=False).str.zfill(4)
+    forward["symbol"] = _normalize_symbol_series(forward["symbol"])
     forward["as_of_date"] = pd.to_datetime(forward["as_of_date"], errors="coerce")
     forward["forward_eps"] = pd.to_numeric(forward["forward_eps"], errors="coerce")
     forward = forward.dropna(subset=["symbol", "as_of_date", "forward_eps"]).sort_values("as_of_date")
@@ -323,7 +330,7 @@ def _read_factset_eps(path: str | None, symbols: Iterable[str]) -> pd.DataFrame:
     if missing:
         raise ValueError(f"factset-report CSV missing columns: {', '.join(missing)}")
     raw = raw.copy()
-    raw["symbol"] = raw[symbol_col].astype(str).str.extract(r"(\d+)", expand=False).str.zfill(4)
+    raw["symbol"] = _normalize_symbol_series(raw[symbol_col])
     raw["as_of_date"] = pd.to_datetime(raw["MD日期"], errors="coerce")
     raw = raw.dropna(subset=["symbol", "as_of_date"])
     next_fy_col = raw["as_of_date"].dt.year.add(1).astype(str) + "EPS平均值"
@@ -352,7 +359,7 @@ def _yahoo_forward_curve(path: str | None, symbols: Iterable[str]) -> pd.DataFra
     if missing:
         raise ValueError(f"yahoo-consensus CSV missing columns: {', '.join(missing)}")
     raw = raw.copy()
-    raw["symbol"] = raw["stock_code"].astype(str).str.extract(r"(\d+)", expand=False).str.zfill(4)
+    raw["symbol"] = _normalize_symbol_series(raw["stock_code"])
     raw["source_asof_date"] = pd.to_datetime(raw["forecast_asof_date"], errors="coerce")
     raw = raw.dropna(subset=["symbol", "source_asof_date"])
     rows = []
@@ -381,7 +388,7 @@ def _factset_forward_curve(path: str | None, symbols: Iterable[str]) -> pd.DataF
     if missing:
         raise ValueError(f"factset-report CSV missing columns: {', '.join(missing)}")
     raw = raw.copy()
-    raw["symbol"] = raw[symbol_col].astype(str).str.extract(r"(\d+)", expand=False).str.zfill(4)
+    raw["symbol"] = _normalize_symbol_series(raw[symbol_col])
     raw["source_asof_date"] = pd.to_datetime(raw["MD日期"], errors="coerce")
     raw = raw.dropna(subset=["symbol", "source_asof_date"])
     year_columns = [c for c in raw.columns if c.endswith("EPS平均值")]
