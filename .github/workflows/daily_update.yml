@@ -37,7 +37,7 @@ jobs:
           GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
         run: |
           git clone --depth 1 \
-            "https://x-access-token:${GH_PAT}@github.com/wenchiehlee-money/Yahoo.Finance.git" \
+            "https://x-access-token:${GH_PAT}@github.com/wenchiehlee/Yahoo.Finance.git" \
             "${{ runner.temp }}/Yahoo.Finance"
 
       - name: Set up Python
