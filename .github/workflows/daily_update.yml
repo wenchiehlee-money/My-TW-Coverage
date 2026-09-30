@@ -84,7 +84,6 @@ jobs:
             --factset-report-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_factset_detailed_report.csv" \
             --years 3 \
             --force \
-            --require-forward-eps \
             --wait-for-quota \
             --failure-log output/dynamic_valuation_box_failures.tsv \
             --workers 5
