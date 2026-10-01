@@ -85,6 +85,7 @@ jobs:
             --yahoo-consensus-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_yahoo_finance_consensus_daily.csv" \
             --factset-report-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_factset_detailed_report.csv" \
             --years 3 \
+            --max-age-days 3 \
             --failure-log output/dynamic_valuation_box_failures.tsv \
             --deferred-log output/dynamic_valuation_box_deferred_quota.tsv \
             --queue-state output/dynamic_valuation_box_queue_state.json \
@@ -137,6 +138,7 @@ jobs:
 
       - name: Build valuation chart health manifest
         if: always()
+
         id: chart_health
         continue-on-error: true
         run: |
@@ -190,6 +192,7 @@ jobs:
         if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: python scripts/audit_batch.py --all -v
 
+
       - name: Commit and push changes
         id: commit_push
         if: always()
@@ -233,7 +236,6 @@ jobs:
           else
             echo "No changes to commit."
           fi
-
       - name: Report partial-update warnings
         if: always()
         run: |
@@ -252,3 +254,8 @@ jobs:
           else
             echo "Update and artifact commit/push completed successfully."
           fi
+      - name: Fail if chart rendering or health check failed
+        if: steps.render_charts.outcome == 'failure' || steps.chart_health.outcome == 'failure'
+        run: |
+          echo "Chart rendering or chart health failed; generated partial artifacts were committed before failing."
+          exit 1

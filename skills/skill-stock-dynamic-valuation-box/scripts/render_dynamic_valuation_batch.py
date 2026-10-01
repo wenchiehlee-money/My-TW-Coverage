@@ -74,7 +74,7 @@ except (OSError, ValueError, KeyError):
     CHART_MARKER = "chart-version: skill-stock-dynamic-valuation-box@unknown"
 
 
-def _complete(output_dir: Path, symbol: str) -> bool:
+def _complete(output_dir: Path, symbol: str, max_age_days: float | None = None) -> bool:
     artifacts = [output_dir / f"{symbol}{suffix}" for suffix in ARTIFACT_SUFFIXES]
     if not all(path.is_file() for path in artifacts):
         return False
@@ -93,7 +93,12 @@ def _complete(output_dir: Path, symbol: str) -> bool:
                 )
         except (ImportError, OSError):
             pass
-        return svg_ok and csv_ok and png_ok
+        if not (svg_ok and csv_ok and png_ok):
+            return False
+        if max_age_days is None:
+            return True
+        cutoff = time.time() - max_age_days * 86400
+        return all(path.stat().st_mtime >= cutoff for path in artifacts)
     except (OSError, UnicodeDecodeError):
         return False
 
@@ -199,7 +204,8 @@ def main() -> int:
     parser.add_argument("--workers", type=int, default=5)
     parser.add_argument("--years", type=int, choices=(2, 3, 4, 5), default=3)
     parser.add_argument("--end-date")
-    parser.add_argument("--force", action="store_true")
+    parser.add_argument("--force", action="store_true", help="Re-render symbols whose three artifacts already exist")
+    parser.add_argument("--max-age-days", type=float, default=3.0, help="Re-render complete chart sets older than this many days")
     # Kept for CLI compatibility; quota exhaustion is now fail-fast.
     parser.add_argument("--wait-for-quota", action="store_true", help=argparse.SUPPRESS)
     parser.add_argument("--quota-wait-hours", type=float, default=0.0, help=argparse.SUPPRESS)
@@ -210,7 +216,7 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     renderer = Path(args.renderer) if args.renderer else Path(__file__).with_name("render_dynamic_valuation_box.py")
     symbols, company_names = _symbols(json_dir)
-    pending = [symbol for symbol in symbols if args.force or not _complete(output_dir, symbol)]
+    pending = [symbol for symbol in symbols if args.force or not _complete(output_dir, symbol, args.max_age_days)]
 
     state_path = Path(args.queue_state)
     state = {}
@@ -222,7 +228,6 @@ def main() -> int:
     if pending and next_symbol in pending:
         pivot = pending.index(next_symbol)
         pending = pending[pivot:] + pending[:pivot]
-
     token_names = [f"{args.token_env_prefix}{index}" for index in range(1, 21)]
     token_names += [
         "FINMIND_TOKEN", "FINMIND_API_TOKEN",
