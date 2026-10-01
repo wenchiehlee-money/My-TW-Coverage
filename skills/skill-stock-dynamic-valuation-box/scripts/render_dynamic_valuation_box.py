@@ -409,8 +409,9 @@ def _latest_curve_snapshot(curve: pd.DataFrame, cutoff: pd.Timestamp) -> pd.Data
     known as of `cutoff` — never a later report, and never rows mixed in from
     an earlier report once a newer one exists (that would silently blend two
     different vintages' assumptions into one "curve")."""
-    known = curve[curve["source_asof_date"] <= cutoff]
+    known = curve[curve["source_asof_date"] <= cutoff].sort_values("source_asof_date").copy()
     if known.empty:
+        known = known.loc[known.groupby("target_year")["forward_eps"].shift().ne(known["forward_eps"])]
         return known
     latest_date = known["source_asof_date"].max()
     return known[known["source_asof_date"] == latest_date].sort_values("target_year")
@@ -698,14 +699,14 @@ def _plot(
     )):
         if curve is None or curve.empty:
             continue
-        known = curve[curve["source_asof_date"] <= cutoff]
+        known = curve[curve["source_asof_date"] <= cutoff].sort_values("source_asof_date").copy()
         if known.empty:
             continue
-        x_jitter = pd.Timedelta(days=-30 + source_index * 60)
+        known = known.loc[known.groupby("target_year")["forward_eps"].shift().ne(known["forward_eps"])]
         year_latest = []  # (x, target_year, forward_eps) — one per year
         for target_year, revisions in known.groupby("target_year"):
             revisions = revisions.sort_values("source_asof_date")
-            x = pd.Timestamp(year=int(target_year), month=7, day=1) + x_jitter
+            x = pd.Timestamp(year=int(target_year), month=12, day=31)
             year_latest.append((x, int(target_year), revisions["forward_eps"].iloc[-1]))
         year_latest.sort(key=lambda item: item[0])
         source_forward[source_label] = {
@@ -886,7 +887,7 @@ def _plot(
         y_span = max(all_y.max() - all_y.min(), 1e-9)
         for x, y, source_label, target_year, color, source_index in forward_points:
             text_y = y + (0.07 + 0.09 * source_index) * y_span
-            eps_axis.annotate(f"{source_label} FY{target_year}E {y:.1f}", xy=(x, y), xytext=(x, text_y), textcoords="data", fontsize=7.5, color=color, ha="center", va="bottom")
+            eps_axis.annotate(f"{source_label} FY{target_year}E {y:.1f} (as of {source_forward[source_label]['known']['source_asof_date'].max().date()})", xy=(x, y), xytext=(x, text_y), textcoords="data", fontsize=7.5, color=color, ha="center", va="bottom")
         eps_axis.legend(loc="upper left", fontsize=8, frameon=False)
     eps_axis.set_ylabel("Trailing EPS")
     eps_axis.grid(axis="y", color="#e6e6e6", lw=0.7)

@@ -61,6 +61,8 @@ jobs:
       # Generate charts before rendering company Markdown. Analyzer is the
       # preferred monthly-revenue source; FinMind fills missing months.
       - name: Render dynamic valuation charts
+        id: render_charts
+        continue-on-error: true
         env:
           FINMIND_TOKEN1: ${{ secrets.FINMIND_TOKEN1 }}
           FINMIND_TOKEN2: ${{ secrets.FINMIND_TOKEN2 }}
@@ -83,6 +85,7 @@ jobs:
             --yahoo-consensus-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv" \
             --factset-report-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_factset_detailed_report.csv" \
             --years 3 \
+            --max-age-days 3 \
             --wait-for-quota \
             --failure-log output/dynamic_valuation_box_failures.tsv \
             --workers 2
@@ -132,6 +135,16 @@ jobs:
               --years 3
           fi
 
+      - name: Build valuation chart health manifest
+        id: chart_health
+        continue-on-error: true
+        run: |
+          python scripts/build_dynamic_valuation_health.py \
+            --json-dir data/enrichment_all \
+            --chart-dir output/dynamic_valuation_box \
+            --output output/dynamic_valuation_box_health.csv \
+            --max-age-days 3
+
       # Must run before Update Financials/Valuation: it rewrites every company
       # page in output/themes/company/ from data/enrichment_all/*.json's frozen
       # financial_md snapshot. For real TW tickers that snapshot is stale (their
@@ -170,6 +183,7 @@ jobs:
         run: python scripts/audit_batch.py --all -v
 
       - name: Commit and push changes
+        if: always()
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -195,3 +209,9 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
+      - name: Fail if chart rendering or health check failed
+        if: steps.render_charts.outcome == 'failure' || steps.chart_health.outcome == 'failure'
+        run: |
+          echo "Chart rendering or chart health failed; generated partial artifacts were committed before failing."
+          exit 1
