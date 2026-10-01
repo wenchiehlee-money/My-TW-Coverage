@@ -32,14 +32,6 @@ jobs:
             "https://x-access-token:${GH_PAT}@github.com/wenchiehlee-money/biztrends.TW.git" \
             "${{ runner.temp }}/biztrends.TW"
 
-      - name: Clone Yahoo.Finance forward-EPS feeds
-        env:
-          GH_PAT: ${{ secrets.REPO_FILE_SYNC_WENCHIEHLEE_MONEY }}
-        run: |
-          git clone --depth 1 \
-            "https://x-access-token:${GH_PAT}@github.com/wenchiehlee/Yahoo.Finance.git" \
-            "${{ runner.temp }}/Yahoo.Finance"
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -82,8 +74,8 @@ jobs:
             --analyzer-revenue-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv" \
             --finmind-revenue-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.FinMind/raw_revenue.csv" \
             --finmind-financial-ratio-csv "${{ runner.temp }}/biztrends.TW/data/Python-Actions.FinMind/raw_fin_ratio_quarter.csv" \
-            --yahoo-consensus-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv" \
-            --factset-report-csv "${{ runner.temp }}/Yahoo.Finance/data/reports/raw_factset_detailed_report.csv" \
+            --yahoo-consensus-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_yahoo_finance_consensus_daily.csv" \
+            --factset-report-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_factset_detailed_report.csv" \
             --years 3 \
             --max-age-days 3 \
             --wait-for-quota \
@@ -93,17 +85,17 @@ jobs:
       # Regenerate non-Taiwan charts from the local Yahoo/ConceptStocks feeds.
       - name: Render international dynamic valuation charts
         env:
-          INTERNATIONAL_PRICE_CSV: ${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_daily_price.csv
+          INTERNATIONAL_PRICE_CSV: ${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_yahoo_finance_daily_price.csv
           INTERNATIONAL_INCOME_CSV: ${{ runner.temp }}/biztrends.TW/data/ConceptStocks/raw_conceptstock_company_income.csv
-          YAHOO_CONSENSUS_CSV: ${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_consensus_daily.csv
-          FACTSET_REPORT_CSV: ${{ runner.temp }}/Yahoo.Finance/data/reports/raw_factset_detailed_report.csv
+          YAHOO_CONSENSUS_CSV: ${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_yahoo_finance_consensus_daily.csv
+          FACTSET_REPORT_CSV: ${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_factset_detailed_report.csv
         run: |
           INTERNATIONAL_SYMBOLS=$(python - <<'PY'
           import json
           import sys
           from pathlib import Path
           import pandas as pd
-          price_path=Path("${{ runner.temp }}/Yahoo.Finance/data/reports/raw_yahoo_finance_daily_price.csv")
+          price_path=Path("${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_yahoo_finance_daily_price.csv")
           income_path=Path("${{ runner.temp }}/biztrends.TW/data/ConceptStocks/raw_conceptstock_company_income.csv")
           price_symbols=set(pd.read_csv(price_path, usecols=["stock_code"], dtype=str)["stock_code"].str.upper())
           income_symbols=set(pd.read_csv(income_path, usecols=["symbol"], dtype=str)["symbol"].str.upper())
