@@ -136,6 +136,7 @@ jobs:
           fi
 
       - name: Build valuation chart health manifest
+        if: always()
         id: chart_health
         continue-on-error: true
         run: |
