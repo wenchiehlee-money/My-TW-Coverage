@@ -106,6 +106,9 @@ def render(symbol: str, years: int, price_csv: str, income_csv: str, output_dir:
     prices = prices[["date", "close"]].dropna().drop_duplicates("date").sort_values("date")
     income = pd.read_csv(income_csv, dtype={"symbol": str})
     eps = _eps_rows(income, symbol)
+    if prices.empty or eps.empty:
+        print(f"WARNING: skip {symbol}: no usable price or EPS rows", file=__import__("sys").stderr, flush=True)
+        return
     daily = pd.merge_asof(prices, eps.sort_values("available_date"), left_on="date", right_on="available_date", direction="backward").set_index("date")
     bands = r.calc_pe_band_series(daily["close"], daily["ttm_eps"], period=120)
     daily = daily.join(bands[["pe", "pe_mean", "pe_std", "price_m2", "price_m1", "price_mean", "price_p1", "price_p2"]])
