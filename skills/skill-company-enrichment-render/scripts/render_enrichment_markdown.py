@@ -1269,7 +1269,7 @@ def main() -> int:
                 biztrends_root,
                 args.competitor_financial_years,
             )
-        rendered = render_markdown(data, "", segment_weight_tables, segment_weight_summaries, monthly_revenue_totals, competitor_financial_section, args.updated_at, entity_render_index, theme_render_index)
+        rendered = render_markdown(data, "", segment_weight_tables, segment_weight_summaries, monthly_revenue_totals, competitor_financial_section, args.updated_at, entity_render_index, theme_render_index, chart_dir, out_dir)
         out_path = out_dir / f"{data['ticker']}_{data['company_name']}.md"
         out_path.write_text(rendered, encoding="utf-8")
         row = compare(original, rendered, data)
