@@ -171,5 +171,3 @@ P/E Range: `季內最低/平均/最高股價 / TTM EPS (當季 EPS + 最近 3 �
 <tr><td style="text-align: left;">Nikon</td><td style="text-align: left;">Nikon</td><td style="text-align: left;">Other</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
 </tbody>
 </table>
-
-Updated: 2026-09-29 07:47 CST

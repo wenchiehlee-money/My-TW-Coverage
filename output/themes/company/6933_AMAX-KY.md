@@ -3,8 +3,8 @@
 ## 業務簡介
 **板塊:** Technology
 **產業:** Computer Hardware
-**市值:** 16,318 百萬台幣
-**企業價值:** 16,535 百萬台幣
+**市值:** 16,734 百萬台幣
+**企業價值:** 15,941 百萬台幣
 
 艾瑪斯科技控股 (6933，AMAX-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有 [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) 集團約 25% 的強大股權支持。總部位於美國矽谷，為 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 精英合作夥伴。當 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 或 [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
 
@@ -48,10 +48,10 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 - 艾瑪斯科技控股 (6933，AMAX-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有 [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) 集團約 25% 的強大股權支持。總部位於美國矽谷，為 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 精英合作夥伴。當 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 或 [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
-### 估值指標 (股價 $385.00 as of 2026-09-29 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)
+### 估值指標 (股價 $394.50 as of 2026-10-01 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)
 | P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |
 |-----------|-------------|-----------|------|-----------|
-|     48.80 |         N/A |      2.14 | 6.49 |     29.24 |
+|     49.94 |         N/A |      2.20 | 6.66 |     28.19 |
 
 ### 年度關鍵財務數據 (近 3 年)
 |                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |
@@ -88,9 +88,3 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 | Investing Cash Flow     |      -107.58 |       -19.25 |       109.90 |       -23.77 |
 | Financing Cash Flow     |       -12.47 |       601.44 |       163.03 |       -83.24 |
 | CAPEX                   |       -30.15 |       -19.25 |       -13.53 |       -23.80 |
-
-## Chart
-
-![Dynamic valuation box](../../dynamic_valuation_box/6933_dynamic_valuation_box_3y.svg)
-
-Updated: 2026-09-29 16:00 CST

@@ -21,16 +21,7 @@ Silicon Motion Technology Corporation (NasdaqGS: SIMO，慧榮科技) 為全球�
 - **AI 伺服器與資料中心生態系:** 配合 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) AI 生態系推出企業級 SSD 控制晶片與 PCIe NVMe 開機碟方案
 
 ## 主要客戶及供應商
-### 主要客戶
-- SSD／記憶體模組品牌: [[ADATA]]、[[Kingston]]、[[Lexar]]、[[Transcend]]、[[Crucial]]、[[HP]]、[[Seagate]]
-- 資料中心／AI 伺服器生態系: 搭配 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 平台之企業級 SSD 與開機碟方案
 
-### 主要供應商
-- 晶圓代工: [![台積電](https://img.shields.io/badge/%E5%8F%B0%E7%A9%8D%E9%9B%BB-blue)](2330_%E5%8F%B0%E7%A9%8D%E9%9B%BB.md)
-- NAND Flash 顆粒合作夥伴: [[Kioxia]]、[![Micron](https://img.shields.io/badge/Micron-blue)](MU_Micron.md)、[![Samsung](https://img.shields.io/badge/Samsung-blue)](005930.KS_Samsung.md)、[[SK Hynix]]、[[Solidigm]]、[[SanDisk]]、[[YMTC]]
-
-### 主要競爭對手
-- [![群聯](https://img.shields.io/badge/%E7%BE%A4%E8%81%AF-blue)](8299_%E7%BE%A4%E8%81%AF.md) (Phison，台灣同業)、[![Marvell](https://img.shields.io/badge/Marvell-blue)](MRVL_Marvell.md) (企業級/資料中心高階 SSD 控制晶片)
 
 ## 財務概況 (單位: 百萬美元 USD, 只有 Margin 為 %)
 
@@ -62,11 +53,3 @@ Silicon Motion Technology Corporation (NasdaqGS: SIMO，慧榮科技) 為全球�
 | EPS ($, Diluted GAAP) | 3.99 | 1.97 | 1.41 | 1.16 |
 
 > 2026 年 AI 伺服器帶動企業級 SSD 控制晶片 (MonTitan) 與 PCIe NVMe 開機碟 (Ferri) 需求爆發，單季營收連續創新高，Q3 2026 財測為 5.19–5.41 億美元 (QoQ +15%~20%)。
-
-Updated: 2026-09-29 07:47 CST
-
-## Chart
-
-![Dynamic valuation box](../../dynamic_valuation_box/SIMO_dynamic_valuation_box_3y.svg)
-
-Updated: 2026-09-29 16:45 CST

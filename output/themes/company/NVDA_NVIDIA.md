@@ -17,7 +17,7 @@ NVIDIA (NVDA，NVIDIA) 為全球人工智慧 (AI) 算力晶片、圖形處理器
 - **NVIDIA** — 晶片架構設計、CUDA 軟體平台與 NVLink 交換器技術
 
 **下游:**
-- **主要平台:** Data Center (約84.803%), Gaming (約9.988%), Professional Visualization (約3.5656%), Automotive (約1.6434%).
+- **主要平台:** Data Center (~84.803%), Gaming (~9.988%), Professional Visualization (~3.5656%), Automotive (~1.6434%).
 - **AI 伺服器 ODM 夥伴:** [![廣達](https://img.shields.io/badge/%E5%BB%A3%E9%81%94-blue)](2382_%E5%BB%A3%E9%81%94.md)、[![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md)、[![緯創](https://img.shields.io/badge/%E7%B7%AF%E5%89%B5-blue)](3231_%E7%B7%AF%E5%89%B5.md)、[![緯穎](https://img.shields.io/badge/%E7%B7%AF%E7%A9%8E-blue)](6669_%E7%B7%AF%E7%A9%8E.md)、[![技嘉](https://img.shields.io/badge/%E6%8A%80%E5%98%89-blue)](2376_%E6%8A%80%E5%98%89.md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)
 - **終端 CSP 客戶:** [![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)、[![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)
 
@@ -189,9 +189,3 @@ FX: `1 USD = 32.3 TWD`
 <tr><td style="text-align: left;">INTC</td><td style="text-align: left;">Intel Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-10-22<br>法說: 2026-10-22</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
 </tbody>
 </table>
-
-## Chart
-
-![Dynamic valuation box](../../dynamic_valuation_box/NVDA_dynamic_valuation_box_3y.svg)
-
-Updated: 2026-09-29 16:30 CST

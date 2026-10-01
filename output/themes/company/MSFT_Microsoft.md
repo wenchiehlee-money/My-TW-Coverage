@@ -17,7 +17,7 @@ Microsoft Corporation (MSFT，Microsoft) 為全球雲端運算 (Azure) 與軟體
 - **Microsoft** — Azure 雲端基礎架構、Copilot AI 模型整合、Windows 作業系統與 Office 365 軟體
 
 **下游:**
-- **主要平台:** Intelligent Cloud (約43.6667%), Productivity and Business Processes (約42%), More Personal Computing (約14.3333%).
+- **主要平台:** Intelligent Cloud (~43.6667%), Productivity and Business Processes (~42%), More Personal Computing (~14.3333%).
 - **全球企業與個人用戶:** 全球數十萬企業 Azure 客戶、數十億 Office/Windows 使用者與 Xbox 玩家
 
 ## 主要客戶及供應商
@@ -185,9 +185,3 @@ FX: `1 USD = 32.3 TWD`
 <tr><td style="text-align: left;">META</td><td style="text-align: left;">Meta Platforms, Inc.</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-07-29 (Ready)<br>法說: 2026-07-29 (Ready)</td><td style="text-align: right;">財報: 2026-04-29 (Ready)<br>法說: 2026-04-29 (Ready)</td><td style="text-align: right;">財報: 2026-01-29 (Ready)<br>法說: 2026-01-29 (Ready)</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
 </tbody>
 </table>
-
-## Chart
-
-![Dynamic valuation box](../../dynamic_valuation_box/MSFT_dynamic_valuation_box_3y.svg)
-
-Updated: 2026-09-29 17:00 CST

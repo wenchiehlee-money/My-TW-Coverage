@@ -17,7 +17,7 @@ Amazon.com, Inc. (AMZN，Amazon) 為全球最大雲端服務提供商 (AWS) 與�
 - **Amazon** — AWS 雲端運算基礎設施、Trainium AI 晶片研發、Prime 電商物流與廣告平台
 
 **下游:**
-- **主要平台:** North America (約57.9262%), AWS (約21.0369%), International (約21.0369%).
+- **主要平台:** North America (~57.9262%), AWS (~21.0369%), International (~21.0369%).
 - **全球企業與消費者:** 數百萬 AWS 雲端企業客戶、Prime 訂閱會員與全球線上購物者
 
 ## 主要客戶及供應商
@@ -185,9 +185,3 @@ FX: `1 USD = 32.3 TWD`
 <tr><td style="text-align: left;">MSFT</td><td style="text-align: left;">Microsoft Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-01-29 (Ready)<br>法說: 2026-01-29 (Ready)</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
 </tbody>
 </table>
-
-## Chart
-
-![Dynamic valuation box](../../dynamic_valuation_box/AMZN_dynamic_valuation_box_3y.svg)
-
-Updated: 2026-09-29 17:20 CST
