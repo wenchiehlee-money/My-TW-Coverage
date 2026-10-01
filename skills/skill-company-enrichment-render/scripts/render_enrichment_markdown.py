@@ -1218,6 +1218,7 @@ def main() -> int:
     parser.add_argument("--biztrends-root", default="../biztrends.TW")
     parser.add_argument("--themes-dir", default="data/themes")
     parser.add_argument("--competitor-financial-years", type=int, default=3)
+    parser.add_argument("--valuation-chart-dir", default="output/dynamic_valuation_box", help="Directory containing valuation SVG artifacts")
     parser.add_argument("--updated-at", default=None, help="Defaults to the current time if omitted")
     parser.add_argument("--ticker", nargs="+", help="One or more tickers to render")
     args = parser.parse_args()
@@ -1226,6 +1227,9 @@ def main() -> int:
     coverage_root = Path(args.coverage_root).resolve()
     out_dir = Path(args.out).resolve()
     compare_path = Path(args.compare).resolve()
+    chart_dir = Path(args.valuation_chart_dir)
+    if not chart_dir.is_absolute():
+        chart_dir = (coverage_root / chart_dir).resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
     compare_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -1246,7 +1250,7 @@ def main() -> int:
     if health_issues:
         for issue in health_issues:
             print(f"Data health issue: {issue}", file=sys.stderr)
-        return 2
+        # Health warnings are reported but do not block company-page rendering.
 
     competitor_adapter = load_competitor_financial_adapter(coverage_root)
     entity_render_index = build_entity_render_index(json_dir, out_dir)
