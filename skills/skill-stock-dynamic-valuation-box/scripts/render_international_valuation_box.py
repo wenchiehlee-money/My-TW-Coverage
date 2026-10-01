@@ -31,6 +31,8 @@ def _eps_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
             # fictitious negative Q4/TTM EPS from that mismatch.
             if derived_q4 >= -0.1:
                 rows.append({"period_end": fy["end_date"], "value": derived_q4})
+    if not rows:
+        return pd.DataFrame(columns=["available_date", "period_end", "eps", "ttm_eps"])
     eps = pd.DataFrame(rows).drop_duplicates("period_end", keep="last").sort_values("period_end")
     if eps.empty: return pd.DataFrame(columns=["available_date", "period_end", "eps", "ttm_eps"])
     eps["available_date"] = eps["period_end"] + pd.Timedelta(days=45)
@@ -48,6 +50,8 @@ def _revenue_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
         prior = quarterly[(quarterly["end_date"] < fy["end_date"]) & (quarterly["end_date"] >= fy["end_date"] - pd.DateOffset(years=1))].tail(3)
         if len(prior) == 3:
             rows.append({"end_date": fy["end_date"], "revenue": float(fy["revenue"] - prior["revenue"].sum())})
+    if not rows:
+        return pd.DataFrame(columns=["date", "revenue_m_twd", "revenue_yoy_pct", "analyzer_revenue_m_twd", "analyzer_yoy_pct", "finmind_revenue_m_twd", "finmind_yoy_pct"])
     revenue = pd.DataFrame(rows).sort_values("end_date")
     if not revenue.empty:
         revenue = revenue.drop_duplicates("end_date", keep="last").sort_values("end_date")
@@ -79,6 +83,8 @@ def _profit_rows(income: pd.DataFrame, symbol: str) -> pd.DataFrame:
                 "revenue": float(fy["revenue"] - prior["revenue"].sum()),
                 "net_profit": float(fy["net_profit"] - prior["net_profit"].sum()),
             })
+    if not rows:
+        return pd.DataFrame(columns=["period_end", "available_date", "revenue", "net_profit", "net_profit_yoy_pct", "net_margin_pct", "net_margin_yoy_pct"])
     metrics = pd.DataFrame(rows).drop_duplicates("end_date", keep="last").sort_values("end_date")
     if metrics.empty:
         return pd.DataFrame(columns=["period_end", "available_date", "revenue", "net_profit", "net_profit_yoy_pct", "net_margin_pct", "net_margin_yoy_pct"])
