@@ -8,6 +8,7 @@ available, the compare CSV uses it as validation context only.
 from __future__ import annotations
 
 import argparse
+import os
 import csv
 import importlib.util
 import json
@@ -1145,6 +1146,18 @@ def render_competitive_position(data: dict[str, Any], entity_render_index: dict[
     return "\n".join(lines).strip()
 
 
+
+def render_chart_section(data: dict[str, Any], chart_dir: Path, output_dir: Path) -> str:
+    ticker = str(data.get("ticker", "")).strip()
+    if not ticker:
+        return ""
+    svg_path = chart_dir / f"{ticker}_dynamic_valuation_box_3y.svg"
+    if not svg_path.is_file():
+        return ""
+    relative_svg = Path(os.path.relpath(svg_path, output_dir))
+    return f"## Chart\n\n![Dynamic valuation box]({relative_svg.as_posix()})"
+
+
 def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: dict[str, str] | None = None, segment_weight_summaries: dict[str, str] | None = None, monthly_revenue_totals: dict[str, dict[str, float]] | None = None, competitor_financial_section: str = "", updated_at: str = "", entity_render_index: dict[str, str] | None = None, theme_render_index: dict[str, dict[str, str]] | None = None, chart_dir: Path | None = None, output_dir: Path | None = None) -> str:
     title = data.get("title") or f"{data.get('ticker', '')} - [[{data.get('company_name', '')}]]"
     profile = data.get("profile", {})
@@ -1173,6 +1186,11 @@ def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: 
     if financial:
         heading = financial if financial.startswith("## ") else "## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)\n" + financial
         parts.extend(["", heading])
+    if chart_dir is not None and output_dir is not None:
+        chart_section = render_chart_section(data, chart_dir, output_dir)
+        if chart_section:
+            parts.extend(["", chart_section])
+
     rendered = "\n".join(part.rstrip() for part in parts).rstrip()
     rendered = apply_annotations(rendered, data)
     rendered = apply_theme_badges_to_markdown(rendered, theme_render_index)
