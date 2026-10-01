@@ -941,7 +941,7 @@ def normalize_badge_spacing(line: str) -> str:
     return re.sub(rf"({badge})(?=[A-Za-z0-9\u4e00-\u9fff])", r"\1 ", line)
 
 
-def apply_theme_badges(line: str, theme_render_index: dict[str, dict[str, str]] | None = None) -> str:
+def apply_theme_badges(line: str, theme_render_index: dict[str, dict[str, str]] | None = None, chart_dir: Path | None = None, output_dir: Path | None = None) -> str:
     if not theme_render_index:
         return line
 
@@ -1145,7 +1145,7 @@ def render_competitive_position(data: dict[str, Any], entity_render_index: dict[
     return "\n".join(lines).strip()
 
 
-def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: dict[str, str] | None = None, segment_weight_summaries: dict[str, str] | None = None, monthly_revenue_totals: dict[str, dict[str, float]] | None = None, competitor_financial_section: str = "", updated_at: str = "", entity_render_index: dict[str, str] | None = None, theme_render_index: dict[str, dict[str, str]] | None = None) -> str:
+def render_markdown(data: dict[str, Any], original: str, segment_weight_tables: dict[str, str] | None = None, segment_weight_summaries: dict[str, str] | None = None, monthly_revenue_totals: dict[str, dict[str, float]] | None = None, competitor_financial_section: str = "", updated_at: str = "", entity_render_index: dict[str, str] | None = None, theme_render_index: dict[str, dict[str, str]] | None = None, chart_dir: Path | None = None, output_dir: Path | None = None) -> str:
     title = data.get("title") or f"{data.get('ticker', '')} - [[{data.get('company_name', '')}]]"
     profile = data.get("profile", {})
     business_summary = data.get("business", {}).get("summary", "").strip()
