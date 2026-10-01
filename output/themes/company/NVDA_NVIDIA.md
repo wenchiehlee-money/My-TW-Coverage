@@ -189,3 +189,7 @@ FX: `1 USD = 32.3 TWD`
 <tr><td style="text-align: left;">INTC</td><td style="text-align: left;">Intel Corporation</td><td style="text-align: left;">US</td><td style="text-align: left;">產品同業</td><td style="text-align: right;">財報: 2026-10-22<br>法說: 2026-10-22</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
 </tbody>
 </table>
+
+## Chart
+
+![Dynamic valuation box](../../dynamic_valuation_box/NVDA_dynamic_valuation_box_3y.svg)

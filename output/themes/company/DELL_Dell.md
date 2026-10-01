@@ -189,3 +189,7 @@ FX: `1 USD = 32.3 TWD`
 <tr><td style="text-align: left;">0992.HK</td><td style="text-align: left;">Lenovo Group Limited</td><td style="text-align: left;">Hong Kong</td><td style="text-align: left;">產品同業</td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td><td style="text-align: right;"></td></tr>
 </tbody>
 </table>
+
+## Chart
+
+![Dynamic valuation box](../../dynamic_valuation_box/DELL_dynamic_valuation_box_3y.svg)
