@@ -2,8 +2,12 @@ name: Daily Update Financials & Valuation
 
 on:
   schedule:
-    # 每天 UTC 17:00 (台灣時間凌晨 01:00) 執行一次
+    # 每天分 4 個時段執行，約相隔 3 小時；讓 FinMind quota 重置後逐次補齊。
+    # 台灣時間：01:00、04:00、07:00、10:00。
     - cron: '0 17 * * *'
+    - cron: '0 20 * * *'
+    - cron: '0 23 * * *'
+    - cron: '0 2 * * *'
   workflow_dispatch: # 允許手動觸發
 
 permissions:
@@ -176,6 +180,7 @@ jobs:
         run: python scripts/audit_batch.py --all -v
 
       - name: Commit and push changes
+        id: commit_push
         if: always()
         run: |
           git config --global user.name "github-actions[bot]"
@@ -183,15 +188,11 @@ jobs:
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update financial data, valuation, and generated indexes"
-            # This job can run for an hour; a manual push landing on master
-            # while it's in flight makes a bare `git push` reject and throws
-            # away the whole run (the runner is torn down right after, so
-            # there's no second chance). Retry with rebase a few times before
-            # giving up -- rebasing our single commit on top of whatever
-            # landed in the meantime is always safe here since this job only
-            # ever touches generated data files, not hand-edited source.
+            # Retry concurrent-push conflicts; generated artifacts are safe to rebase.
+            pushed=false
             for attempt in 1 2 3 4 5; do
               if git push; then
+                pushed=true
                 break
               fi
               echo "Push rejected (attempt $attempt/5), fetching and rebasing..."
@@ -199,12 +200,23 @@ jobs:
               git rebase origin/master
               sleep 5
             done
+            if [ "$pushed" != true ]; then
+              echo "Unable to push generated artifacts after 5 attempts." >&2
+              exit 1
+            fi
           else
             echo "No changes to commit."
           fi
 
-      - name: Fail if chart rendering or health check failed
-        if: steps.render_charts.outcome == 'failure' || steps.chart_health.outcome == 'failure'
+      - name: Report partial-update warnings
+        if: always()
         run: |
-          echo "Chart rendering or chart health failed; generated partial artifacts were committed before failing."
-          exit 1
+          if [ "${{ steps.commit_push.outcome }}" = "failure" ]; then
+            echo "Artifact commit/push failed; this run is failed." >&2
+            exit 1
+          fi
+          if [ "${{ steps.render_charts.outcome }}" = "failure" ] || [ "${{ steps.chart_health.outcome }}" = "failure" ]; then
+            echo "Partial update committed successfully; unfinished or stale stocks remain in the health artifact for a later run."
+          else
+            echo "Update and artifact commit/push completed successfully."
+          fi
