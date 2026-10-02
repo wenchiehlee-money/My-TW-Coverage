@@ -65,7 +65,12 @@ def _symbols(json_dir: Path) -> tuple[list[str], dict[str, str]]:
     return sorted(symbols), names
 
 
-FONT_MARKER = "chart-font: noto-sans-cjk-tc-v1"
+SKILL_METADATA_PATH = Path(__file__).resolve().parents[1] / "metadata.json"
+try:
+    _skill_metadata = json.loads(SKILL_METADATA_PATH.read_text(encoding="utf-8"))
+    CHART_MARKER = f"chart-version: {_skill_metadata['name']}@{_skill_metadata['version']}"
+except (OSError, ValueError, KeyError):
+    CHART_MARKER = "chart-version: skill-stock-dynamic-valuation-box@unknown"
 
 
 def _complete(output_dir: Path, symbol: str) -> bool:
@@ -73,7 +78,16 @@ def _complete(output_dir: Path, symbol: str) -> bool:
     if not all(path.is_file() for path in artifacts):
         return False
     try:
-        return FONT_MARKER in artifacts[1].read_text(encoding="utf-8")
+        svg_ok = CHART_MARKER in artifacts[1].read_text(encoding="utf-8")
+        csv_ok = CHART_MARKER in artifacts[2].read_text(encoding="utf-8")
+        png_ok = False
+        try:
+            from PIL import Image
+            with Image.open(artifacts[0]) as image:
+                png_ok = image.info.get("ChartVersion", "") == CHART_MARKER.removeprefix("chart-version: ")
+        except (ImportError, OSError):
+            pass
+        return svg_ok and csv_ok and png_ok
     except (OSError, UnicodeDecodeError):
         return False
 

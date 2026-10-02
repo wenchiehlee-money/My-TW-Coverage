@@ -20,6 +20,16 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 import pandas as pd
 
+
+SKILL_METADATA_PATH = Path(__file__).resolve().parents[1] / "metadata.json"
+try:
+    _skill_metadata = json.loads(SKILL_METADATA_PATH.read_text(encoding="utf-8"))
+    CHART_VERSION = f"{_skill_metadata['name']}@{_skill_metadata['version']}"
+except (OSError, ValueError, KeyError):
+    CHART_VERSION = "skill-stock-dynamic-valuation-box@unknown"
+CHART_FONT_VERSION = "noto-sans-cjk-tc-v1"
+CHART_METADATA = f"chart-version: {CHART_VERSION}; font: {CHART_FONT_VERSION}"
+
 try:
     # Optional: matches skill-finmind-fetch's convention of reading tokens from
     # a .env file rather than requiring them already exported in the shell.
@@ -1043,16 +1053,19 @@ def _plot(
     png_path = output_dir / f"{symbol}_dynamic_valuation_box_{years}y.png"
     csv_path = output_dir / f"{symbol}_dynamic_valuation_box_{years}y.csv"
     svg_path = output_dir / f"{symbol}_dynamic_valuation_box_{years}y.svg"
-    figure.savefig(png_path, dpi=180, bbox_inches="tight")
+    figure.savefig(
+        png_path, dpi=180, bbox_inches="tight",
+        metadata={"ChartVersion": CHART_VERSION, "ChartMetadata": CHART_METADATA},
+    )
     figure.savefig(svg_path, format="svg", bbox_inches="tight")
     # Version the embedded Traditional Chinese font so old SVGs can be
     # identified and regenerated incrementally without forcing every ticker.
     svg_text = svg_path.read_text(encoding="utf-8")
-    font_marker = "chart-font: noto-sans-cjk-tc-v1"
-    if font_marker not in svg_text:
-        svg_text = svg_text.replace("?>\n", "?>\n<!-- " + font_marker + " -->\n", 1)
+    if CHART_METADATA not in svg_text:
+        svg_text = svg_text.replace("?>\n", "?>\n<!-- " + CHART_METADATA + " -->\n", 1)
         svg_path.write_text(svg_text, encoding="utf-8")
-    view.reset_index().to_csv(csv_path, index=False, float_format="%.6f")
+    csv_data = view.reset_index().to_csv(index=False, float_format="%.6f")
+    csv_path.write_text("# " + CHART_METADATA + "\n" + csv_data, encoding="utf-8")
     plt.close(figure)
     return png_path, svg_path, csv_path
 
