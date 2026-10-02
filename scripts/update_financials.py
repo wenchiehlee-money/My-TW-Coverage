@@ -314,10 +314,17 @@ def update_file(filepath, ticker, dry_run=False):
 
     new_fin = build_financial_section(data, ticker)
 
-    if re.search(r"## 財務概況", content):
-        new_content = re.sub(r"## 財務概況.*", new_fin, content, flags=re.DOTALL)
+    # The Chart section is appended after the financial section by the
+    # enrichment renderer. Preserve it while replacing the financial data;
+    # otherwise this broad replacement removes every chart from every page.
+    content_before_chart, chart_heading, chart_tail = content.partition("\n## Chart")
+    financial_content = content_before_chart if chart_heading else content
+    if re.search(r"## 財務概況", financial_content):
+        new_content = re.sub(r"## 財務概況.*", new_fin, financial_content, flags=re.DOTALL)
     else:
-        new_content = content.rstrip() + "\n\n" + new_fin
+        new_content = financial_content.rstrip() + "\n\n" + new_fin
+    if chart_heading:
+        new_content = new_content.rstrip() + chart_heading + chart_tail
 
     # Update metadata
     new_content = update_metadata(new_content, data.get("market_cap"), data.get("enterprise_value"))
