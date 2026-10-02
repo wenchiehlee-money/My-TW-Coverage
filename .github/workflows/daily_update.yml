@@ -81,7 +81,6 @@ jobs:
             --yahoo-consensus-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_yahoo_finance_consensus_daily.csv" \
             --factset-report-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_factset_detailed_report.csv" \
             --years 3 \
-            --max-age-days 3 \
             --wait-for-quota \
             --failure-log output/dynamic_valuation_box_failures.tsv \
             --workers 2

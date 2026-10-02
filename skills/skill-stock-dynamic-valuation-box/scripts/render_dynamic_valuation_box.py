@@ -1045,6 +1045,13 @@ def _plot(
     svg_path = output_dir / f"{symbol}_dynamic_valuation_box_{years}y.svg"
     figure.savefig(png_path, dpi=180, bbox_inches="tight")
     figure.savefig(svg_path, format="svg", bbox_inches="tight")
+    # Version the embedded Traditional Chinese font so old SVGs can be
+    # identified and regenerated incrementally without forcing every ticker.
+    svg_text = svg_path.read_text(encoding="utf-8")
+    font_marker = "chart-font: noto-sans-cjk-tc-v1"
+    if font_marker not in svg_text:
+        svg_text = svg_text.replace("?>\n", "?>\n<!-- " + font_marker + " -->\n", 1)
+        svg_path.write_text(svg_text, encoding="utf-8")
     view.reset_index().to_csv(csv_path, index=False, float_format="%.6f")
     plt.close(figure)
     return png_path, svg_path, csv_path

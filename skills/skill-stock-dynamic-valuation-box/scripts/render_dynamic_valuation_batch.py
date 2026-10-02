@@ -65,8 +65,17 @@ def _symbols(json_dir: Path) -> tuple[list[str], dict[str, str]]:
     return sorted(symbols), names
 
 
+FONT_MARKER = "chart-font: noto-sans-cjk-tc-v1"
+
+
 def _complete(output_dir: Path, symbol: str) -> bool:
-    return all((output_dir / f"{symbol}{suffix}").is_file() for suffix in ARTIFACT_SUFFIXES)
+    artifacts = [output_dir / f"{symbol}{suffix}" for suffix in ARTIFACT_SUFFIXES]
+    if not all(path.is_file() for path in artifacts):
+        return False
+    try:
+        return FONT_MARKER in artifacts[1].read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError):
+        return False
 
 
 def _quota_remaining(token: str) -> int:
