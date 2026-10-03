@@ -79,13 +79,18 @@ def _complete(output_dir: Path, symbol: str) -> bool:
     if not all(path.is_file() for path in artifacts):
         return False
     try:
-        svg_ok = CHART_MARKER in artifacts[1].read_text(encoding="utf-8")
-        csv_ok = CHART_MARKER in artifacts[2].read_text(encoding="utf-8")
+        svg_text = artifacts[1].read_text(encoding="utf-8")
+        csv_text = artifacts[2].read_text(encoding="utf-8")
+        svg_ok = CHART_MARKER in svg_text and "Updated: " in svg_text
+        csv_ok = CHART_MARKER in csv_text and "Updated: " in csv_text
         png_ok = False
         try:
             from PIL import Image
             with Image.open(artifacts[0]) as image:
-                png_ok = image.info.get("ChartVersion", "") == CHART_MARKER.removeprefix("chart-version: ")
+                png_ok = (
+                    image.info.get("ChartVersion", "") == CHART_MARKER.removeprefix("chart-version: ")
+                    and bool(image.info.get("Updated", ""))
+                )
         except (ImportError, OSError):
             pass
         return svg_ok and csv_ok and png_ok
