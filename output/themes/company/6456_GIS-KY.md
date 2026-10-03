@@ -61,3 +61,6 @@
 | Investing Cash Flow     |      2978.66 |      1370.50 |     -3955.43 |      -449.93 |
 | Financing Cash Flow     |     -3956.86 |      1183.51 |       433.21 |       484.43 |
 | CAPEX                   |      -504.77 |      -779.86 |      -758.32 |      -540.75 |
+## Chart
+
+![Dynamic valuation box](../../dynamic_valuation_box/6456_dynamic_valuation_box_3y.svg)
