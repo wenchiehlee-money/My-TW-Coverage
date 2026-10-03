@@ -1,12 +1,12 @@
 ---
 name: skill-theme-competitor-groups-curate
 description: >-
-  Curate accurate within-theme competitor groupings for output/themes/*.md by editing
-  data/themes/*.json (`competitive_groups`, `extra_entities`). Use when a theme page groups
-  companies that are not actually competitors (e.g. by GICS sector or raw IC-taxonomy
-  subcategory instead of by real product/business-model overlap), when a theme is missing a
-  company that the source taxonomy simply never tagged, or when a theme's groupings disagree
-  with a company's own `relationships.competitors` in data/enrichment_all/*.json.
+  Curate or consume accurate within-theme competitor groupings. In a theme-owner repo, edit
+  data/themes/*.json (`competitive_groups`, `extra_entities`) and render output/themes/*.md.
+  In a consumer repo that lacks data/themes/ or output/themes/, locate/read the canonical theme
+  repo and produce a local theme/competitive_groups annotation without running the renderer. Use
+  when companies need grouping by real product/business-model overlap rather than broad sector,
+  IC-taxonomy subcategory, or supply-chain adjacency.
 ---
 
 # Theme Competitor Groups Curate Skill
@@ -33,9 +33,77 @@ keeps that grouping consistent with each company's own canonical competitor list
 [skill-company-enrichment-json](../skill-company-enrichment-json/SKILL.md)
 (`data/enrichment_all/{ticker}.json` → `relationships.competitors`).
 
-## Standard Workflow
+**Alignment requirement**: every theme's `competitive_groups` boundaries must agree with the
+`relationship_type` classification (`brand_competitor`/`foundry_competitor`/`odm_peer`/
+`server_peer`/`chip_competitor`) that `skill-theme-competitor-analysis` produces per stock in
+`output/focus/{stock}/company_competitor_analysis_{stock}.csv`. Today `check_group_consistency.py`
+only cross-checks against `relationships.competitors` in `data/enrichment_all/*.json` — a
+separate, text-extracted competitor list that is not guaranteed to be derived from
+`skill-theme-competitor-analysis`'s own output. Treat that as an indirect proxy, not proof of
+alignment: when curating a theme, spot-check disputed group members against
+`skill-theme-competitor-analysis`'s actual `relationship_type` output for that stock, and prefer
+its rule-based classification over `relationships.competitors` when the two disagree. Extending
+`check_group_consistency.py` to diff directly against `skill-theme-competitor-analysis`'s CSV
+output is a known follow-up, not yet implemented.
 
-Run from the My-TW-Coverage repository root.
+## Operating Modes
+
+Use the mode that matches the current workspace.
+
+- **Theme-owner mode**: the current repo has `data/themes/`, `output/themes/`,
+  `data/enrichment_all/`, and `scripts/build_themes.py`. In this mode, curate the canonical
+  theme JSON and run the renderer/consistency checks.
+- **Consumer/annotation mode**: the current repo does not own theme files, but the task needs a
+  theme or `competitive_groups` classification for local notes, research records, media OCR, or
+  downstream structured data. In this mode, do not treat missing `data/themes/` or
+  `output/themes/` as a blocker. Locate a nearby canonical theme repo, read its existing theme
+  files and rendered business summaries, then write only the requested local annotation/artifact
+  in the current repo.
+
+## Consumer/Annotation Workflow
+
+Use this workflow when the current repo lacks `data/themes/` or `output/themes/`. Keep the user
+update neutral: say that the current repo is a consumer of theme mappings, not that the workflow
+will not run.
+
+1. **Locate the canonical theme repository.** Prefer an explicit user path if provided. Otherwise
+   check likely sibling repositories and require these files before using one:
+
+   ```bash
+   find .. -maxdepth 3 -type d -path '*/data/themes' -print
+   find .. -maxdepth 3 -type f -path '*/scripts/build_themes.py' -print
+   ```
+
+   A usable canonical repo should have `data/themes/*.json`; rendered summaries in
+   `output/enrichment_all_rendered/*.md` are strongly preferred. If there are multiple matches,
+   choose the one whose theme file names/tags match the requested domain, and state which repo
+   you used.
+
+2. **Read, do not edit, canonical inputs.** For the requested theme, read the matching
+   `data/themes/<theme>.json`. Read rendered business summaries for only the companies being
+   classified. If the canonical repo is outside the current writable root, do not edit it unless
+   the user explicitly asks to curate the source theme repo.
+
+3. **Classify local records by true competitive overlap.** Reuse canonical
+   `competitive_groups` when a company already appears there. For companies not in a canonical
+   group, classify them as adjacent/supplier/channel/singleton only when supported by their
+   business summary. Do not force distributors, OSATs, components vendors, customers, or suppliers
+   into an ODM/brand/server peer group merely because they appear in the same media table or
+   supply chain theme.
+
+4. **Write a local annotation.** Add a clearly labeled `theme` / `competitive_groups` block to
+   the current repo's requested output file, note the canonical source path used, and state that
+   the mapping is a classification layer only. It must not validate financial figures, OCR cells,
+   research views, market-flow facts, or company facts.
+
+5. **Validate only what applies locally.** Run local repository validators and formatting checks.
+   Skip `scripts/build_themes.py` and `check_group_consistency.py` unless you are operating in
+   the canonical theme-owner repo.
+
+## Theme-Owner Workflow
+
+Run from the My-TW-Coverage repository root or another repository that has the theme-owner
+layout.
 
 0. **Check `references/curation_status.md`** for which themes are already cooked (have real
    `competitive_groups`) and which are still on the TODO list, sorted by size. Update it when
@@ -115,30 +183,30 @@ Run from the My-TW-Coverage repository root.
      `skill-company-enrichment-json`, not this skill; do not edit
      `data/enrichment_all/*.json` from this skill without the user's explicit go-ahead.
 
-   To compare similarly named or potentially overlapping groups using the Jaccard metric
-   (intersection tickers divided by union tickers), generate the Markdown overlap table:
+Before editing, compare similarly named or potentially overlapping groups using the
+Jaccard metric (intersection tickers divided by union tickers):
 
-   ```bash
-   python skills/skill-theme-competitor-groups-curate/scripts/report_group_overlap.py --threshold 0.30
-   ```
+```bash
+python skills/skill-theme-competitor-groups-curate/scripts/report_group_overlap.py --threshold 0.30
+```
 
-   Group A and Group B are reported only when they are in different themes, have different
-   names, and their Jaccard overlap is strictly above the threshold. Use this report to
-   identify candidates for canonical-name review; overlap alone does not authorize merging
-   groups with different products or business models.
+Group A and Group B are reported only when they are in different themes, have different
+names, and their Jaccard overlap is strictly above the threshold. Use this report to
+identify candidates for canonical-name review; overlap alone does not authorize merging
+groups with different products or business models.
 
-   Also check competitor-group names before finalizing:
+Also check competitor-group names before finalizing:
 
-   ```bash
-   python skills/skill-theme-competitor-groups-curate/scripts/check_group_names.py
-   ```
+```bash
+python skills/skill-theme-competitor-groups-curate/scripts/check_group_names.py
+```
 
-   A group name is a cross-theme label, not a theme-specific caption. Reuse the canonical
-   name in `references/canonical_group_names.json` when the same product/business-model
-   competitor set appears in another theme. Do not create a second name merely by adding a
-   market context such as `CSP`, `AI`, or `機櫃`. Keep that context in the theme name, group
-   note, or company role instead. If an existing name is a true alias, add it to the registry
-   and rename the data in the same change; do not silently leave both names in use.
+A group name is a cross-theme label, not a theme-specific caption. Reuse the canonical
+name in `references/canonical_group_names.json` when the same product/business-model
+competitor set appears in another theme. Do not create a second name merely by adding a
+market context such as `CSP`, `AI`, or `機櫃`. Keep that context in the theme name, group
+note, or company role instead. If an existing name is a true alias, add it to the registry
+and rename the data in the same change; do not silently leave both names in use.
 
 5. **Edit `data/themes/<theme>.json`.**
 
@@ -170,8 +238,6 @@ Run from the My-TW-Coverage repository root.
 
    ```bash
    python -m py_compile scripts/build_themes.py
-   python skills/skill-theme-competitor-groups-curate/scripts/check_group_names.py
-   python skills/skill-theme-competitor-groups-curate/scripts/report_group_overlap.py --threshold 0.30
    python skills/skill-theme-competitor-groups-curate/scripts/check_group_consistency.py --theme "<theme tag>"
    git status --short output/themes/
    ```
@@ -218,7 +284,11 @@ Run from the My-TW-Coverage repository root.
 
 ## Validation
 
-After editing theme JSON or the consistency checker:
+For consumer/annotation mode, run the target repository's normal validators and diff/format
+checks only; renderer validation does not apply if the repository does not own `data/themes/`
+or `output/themes/`.
+
+After editing theme JSON or the consistency checker in theme-owner mode:
 
 ```bash
 python -c "import json; json.load(open('data/themes/<theme>.json', encoding='utf-8'))"
