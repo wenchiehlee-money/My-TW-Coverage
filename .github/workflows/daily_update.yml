@@ -10,6 +10,10 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch: # 允許手動觸發
 
+concurrency:
+  group: daily-update-financials-valuation
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -81,8 +85,9 @@ jobs:
             --yahoo-consensus-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_yahoo_finance_consensus_daily.csv" \
             --factset-report-csv "${{ runner.temp }}/biztrends.TW/data/Yahoo.Finance/raw_factset_detailed_report.csv" \
             --years 3 \
-            --wait-for-quota \
             --failure-log output/dynamic_valuation_box_failures.tsv \
+            --deferred-log output/dynamic_valuation_box_deferred_quota.tsv \
+            --queue-state output/dynamic_valuation_box_queue_state.json \
             --workers 2
 
       # Regenerate non-Taiwan charts from the local Yahoo/ConceptStocks feeds.
@@ -151,6 +156,7 @@ jobs:
       # fresh numbers survive; running it last (as before) clobbered every TW
       # ticker's just-updated quarter back to whatever was last baked into JSON.
       - name: Render enrichment Markdown + competitor JSON
+        if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: |
           python skills/skill-company-enrichment-render/scripts/render_enrichment_markdown.py \
             --json-dir data/enrichment_all \
@@ -161,21 +167,27 @@ jobs:
             --monthly-revenue "${{ runner.temp }}/biztrends.TW/data/Python-Actions.GoodInfo.Analyzer/raw_revenue.csv"
 
       - name: Run Update Financials
+        if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: python scripts/update_financials.py
 
       - name: Run Update Valuation
+        if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: python scripts/update_valuation.py
 
       - name: Rebuild Wikilink Index
+        if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: python scripts/build_wikilink_index.py
 
       - name: Rebuild Themes Value Chain
+        if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: python skills/skill-company-enrichment-render/scripts/build_themes.py
 
       - name: Rebuild Network Graph
+        if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: python scripts/build_network.py
 
       - name: Run Quality Audit
+        if: github.event_name != 'schedule' || github.event.schedule == '0 17 * * *'
         run: python scripts/audit_batch.py --all -v
 
       - name: Commit and push changes
@@ -185,18 +197,33 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
+          {
+            echo "### Generated artifact summary"
+            if [ -f output/dynamic_valuation_box_run_summary.json ]; then
+              cat output/dynamic_valuation_box_run_summary.json
+            fi
+            echo "cached_svg=$(git diff --cached --name-only | grep -E "_dynamic_valuation_box_3y\.svg$" | wc -l)"
+            echo "cached_png=$(git diff --cached --name-only | grep -E "_dynamic_valuation_box_3y\.png$" | wc -l)"
+            echo "cached_csv=$(git diff --cached --name-only | grep -E "_dynamic_valuation_box_3y\.csv$" | wc -l)"
+            echo "cached_company_markdown=$(git diff --cached --name-only -- output/themes/company | wc -l)"
+          } >> "$GITHUB_STEP_SUMMARY"
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update financial data, valuation, and generated indexes"
-            # Retry concurrent-push conflicts; generated artifacts are safe to rebase.
             pushed=false
             for attempt in 1 2 3 4 5; do
               if git push; then
                 pushed=true
                 break
               fi
-              echo "Push rejected (attempt $attempt/5), fetching and rebasing..."
+              echo "Push rejected (attempt $attempt/5); refreshing from latest master..."
               git fetch origin master
-              git rebase origin/master
+              git reset --mixed origin/master
+              git add .
+              if git diff --cached --quiet; then
+                pushed=true
+                break
+              fi
+              git commit -m "Auto-update financial data, valuation, and generated indexes"
               sleep 5
             done
             if [ "$pushed" != true ]; then
@@ -214,8 +241,14 @@ jobs:
             echo "Artifact commit/push failed; this run is failed." >&2
             exit 1
           fi
-          if [ "${{ steps.render_charts.outcome }}" = "failure" ] || [ "${{ steps.chart_health.outcome }}" = "failure" ]; then
-            echo "Partial update committed successfully; unfinished or stale stocks remain in the health artifact for a later run."
+          deferred=0
+          if [ -f output/dynamic_valuation_box_deferred_quota.tsv ]; then
+            deferred=$(tail -n +2 output/dynamic_valuation_box_deferred_quota.tsv | sed /^[[:space:]]*$/d | wc -l)
+          fi
+          if [ "$deferred" -gt 0 ]; then
+            echo "Partial chart backfill committed; deferred_due_to_quota=$deferred."
+          elif [ "${{ steps.render_charts.outcome }}" = "failure" ] || [ "${{ steps.chart_health.outcome }}" = "failure" ]; then
+            echo "Partial update committed successfully; unfinished or stale stocks remain in the health artifact."
           else
             echo "Update and artifact commit/push completed successfully."
           fi
