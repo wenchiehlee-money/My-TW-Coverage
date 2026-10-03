@@ -115,6 +115,18 @@ Run from the My-TW-Coverage repository root.
      `skill-company-enrichment-json`, not this skill; do not edit
      `data/enrichment_all/*.json` from this skill without the user's explicit go-ahead.
 
+   To compare similarly named or potentially overlapping groups using the Jaccard metric
+   (intersection tickers divided by union tickers), generate the Markdown overlap table:
+
+   ```bash
+   python skills/skill-theme-competitor-groups-curate/scripts/report_group_overlap.py --threshold 0.30
+   ```
+
+   Group A and Group B are reported only when they are in different themes, have different
+   names, and their Jaccard overlap is strictly above the threshold. Use this report to
+   identify candidates for canonical-name review; overlap alone does not authorize merging
+   groups with different products or business models.
+
    Also check competitor-group names before finalizing:
 
    ```bash
@@ -159,6 +171,7 @@ Run from the My-TW-Coverage repository root.
    ```bash
    python -m py_compile scripts/build_themes.py
    python skills/skill-theme-competitor-groups-curate/scripts/check_group_names.py
+   python skills/skill-theme-competitor-groups-curate/scripts/report_group_overlap.py --threshold 0.30
    python skills/skill-theme-competitor-groups-curate/scripts/check_group_consistency.py --theme "<theme tag>"
    git status --short output/themes/
    ```
