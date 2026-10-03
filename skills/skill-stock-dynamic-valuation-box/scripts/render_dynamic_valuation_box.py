@@ -25,8 +25,10 @@ import pandas as pd
 SKILL_METADATA_PATH = Path(__file__).resolve().parents[1] / "metadata.json"
 try:
     _skill_metadata = json.loads(SKILL_METADATA_PATH.read_text(encoding="utf-8"))
-    CHART_VERSION = f"{_skill_metadata['name']}@{_skill_metadata['version']}"
+    CHART_SKILL_VERSION = str(_skill_metadata["version"])
+    CHART_VERSION = f"{_skill_metadata['name']}@{CHART_SKILL_VERSION}"
 except (OSError, ValueError, KeyError):
+    CHART_SKILL_VERSION = "unknown"
     CHART_VERSION = "skill-stock-dynamic-valuation-box@unknown"
 CHART_FONT_VERSION = "noto-sans-cjk-tc-v1"
 CHART_METADATA = f"chart-version: {CHART_VERSION}; font: {CHART_FONT_VERSION}"
@@ -34,7 +36,7 @@ CHART_METADATA = f"chart-version: {CHART_VERSION}; font: {CHART_FONT_VERSION}"
 
 def _updated_label() -> str:
     updated = datetime.now(ZoneInfo("Asia/Taipei"))
-    return updated.strftime("Updated: %Y-%m-%d %H:%M CST")
+    return updated.strftime("Updated: %Y-%m-%d %H:%M CST") + f" ({CHART_SKILL_VERSION})"
 
 try:
     # Optional: matches skill-finmind-fetch's convention of reading tokens from
