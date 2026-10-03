@@ -48,10 +48,10 @@ AMAX 不僅負責高密度伺服器的硬體組裝設計，更提供從「空冷
 - 艾瑪斯科技控股 (6933，AMAX-KY) 是一家在全球 AI 伺服器與超級電腦運算 (HPC) 領域扮演系統建置關鍵要角的企業，背後擁有 [![鴻海](https://img.shields.io/badge/%E9%B4%BB%E6%B5%B7-blue)](2317_%E9%B4%BB%E6%B5%B7.md) 集團約 25% 的強大股權支持。總部位於美國矽谷，為 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 精英合作夥伴。當 [![NVIDIA](https://img.shields.io/badge/NVIDIA-blue)](NVDA_NVIDIA.md) 或 [![AMD](https://img.shields.io/badge/AMD-blue)](AMD_AMD.md) 推出極致效能的高階 AI 晶片時，如何將這些發熱怪獸組裝成一整座液冷超級電腦機櫃 (Rack)，正是 AMAX 的核心競爭力。
 
 ## 財務概況 (單位: 百萬台幣, 只有 Margin 為 %)
-### 估值指標 (股價 $379.00 as of 2026-10-02 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)
+### 估值指標 (股價 $379.00 as of 2026-10-03 | TTM 截至 2026-06-30 | Forward 預估至 2026-12-31)
 | P/E (TTM) | Forward P/E | P/S (TTM) |  P/B | EV/EBITDA |
 |-----------|-------------|-----------|------|-----------|
-|     50.00 |         N/A |      2.11 | 6.39 |     28.79 |
+|     48.10 |         N/A |      2.11 | 6.39 |     28.79 |
 
 ### 年度關鍵財務數據 (近 3 年)
 |                         |   2025-12-31 |   2024-12-31 |   2023-12-31 |
