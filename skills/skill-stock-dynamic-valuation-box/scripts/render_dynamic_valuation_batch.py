@@ -290,9 +290,14 @@ def main() -> int:
                     failures[symbol] = error
                     print(f"FAIL {symbol}: {error}", file=sys.stderr)
         cursor += len(chunk)
-        if quota_hit and configured_tokens and not active_tokens():
-            deferred.extend((symbol, "FinMind quota exhausted; deferred to a later run") for symbol in pending[cursor:])
-            break
+        if configured_tokens:
+            live_tokens = active_tokens()
+            if not live_tokens:
+                if quota_hit:
+                    deferred.extend((symbol, "FinMind quota exhausted; deferred to a later run") for symbol in pending[cursor:])
+                break
+            tokens = live_tokens
+            workers = max(1, min(args.workers, len(tokens), len(pending) - cursor or 1))
 
     if pending:
         remaining_symbols = {symbol for symbol, _ in deferred}
