@@ -42,7 +42,8 @@ def symbols_from_json(json_dir: Path) -> list[str]:
 def csv_info(path: Path) -> tuple[int, str, bool]:
     try:
         with path.open(encoding="utf-8-sig", newline="") as handle:
-            reader = csv.DictReader(handle)
+            rows_without_metadata = (line for line in handle if not line.lstrip().startswith("#"))
+            reader = csv.DictReader(rows_without_metadata)
             columns = set(reader.fieldnames or [])
             rows = list(reader)
     except (OSError, UnicodeError, csv.Error):

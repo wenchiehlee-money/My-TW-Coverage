@@ -11,9 +11,10 @@ import argparse
 import os
 import json
 import sys
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Iterable
+from zoneinfo import ZoneInfo
 import requests
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
@@ -29,6 +30,11 @@ except (OSError, ValueError, KeyError):
     CHART_VERSION = "skill-stock-dynamic-valuation-box@unknown"
 CHART_FONT_VERSION = "noto-sans-cjk-tc-v1"
 CHART_METADATA = f"chart-version: {CHART_VERSION}; font: {CHART_FONT_VERSION}"
+
+
+def _updated_label() -> str:
+    updated = datetime.now(ZoneInfo("Asia/Taipei"))
+    return updated.strftime("Updated: %Y-%m-%d %H:%M CST")
 
 try:
     # Optional: matches skill-finmind-fetch's convention of reading tokens from
@@ -1047,7 +1053,12 @@ def _plot(
             xycoords=("data", "axes fraction"), ha="center", va="top", fontsize=7.5, color="#888888",
         )
 
-    figure.subplots_adjust(top=0.93)
+    updated_label = _updated_label()
+    figure.text(
+        0.5, 0.004, updated_label, ha="center", va="bottom",
+        fontsize=8, color="#666666", transform=figure.transFigure,
+    )
+    figure.subplots_adjust(top=0.93, bottom=0.02)
 
     output_dir.mkdir(parents=True, exist_ok=True)
     png_path = output_dir / f"{symbol}_dynamic_valuation_box_{years}y.png"
@@ -1055,17 +1066,18 @@ def _plot(
     svg_path = output_dir / f"{symbol}_dynamic_valuation_box_{years}y.svg"
     figure.savefig(
         png_path, dpi=180, bbox_inches="tight",
-        metadata={"ChartVersion": CHART_VERSION, "ChartMetadata": CHART_METADATA},
+        metadata={"ChartVersion": CHART_VERSION, "ChartMetadata": CHART_METADATA, "Updated": updated_label},
     )
     figure.savefig(svg_path, format="svg", bbox_inches="tight")
     # Version the embedded Traditional Chinese font so old SVGs can be
     # identified and regenerated incrementally without forcing every ticker.
     svg_text = svg_path.read_text(encoding="utf-8")
+    svg_comment = CHART_METADATA + "; " + updated_label
     if CHART_METADATA not in svg_text:
-        svg_text = svg_text.replace("?>\n", "?>\n<!-- " + CHART_METADATA + " -->\n", 1)
+        svg_text = svg_text.replace("?>\n", "?>\n<!-- " + svg_comment + " -->\n", 1)
         svg_path.write_text(svg_text, encoding="utf-8")
     csv_data = view.reset_index().to_csv(index=False, float_format="%.6f")
-    csv_path.write_text("# " + CHART_METADATA + "\n" + csv_data, encoding="utf-8")
+    csv_path.write_text("# " + CHART_METADATA + "; " + updated_label + "\n" + csv_data, encoding="utf-8")
     plt.close(figure)
     return png_path, svg_path, csv_path
 
