@@ -14,7 +14,7 @@
 - [![META Meta](https://img.shields.io/badge/META%20Meta-blue)](company/META_Meta.md) (市值: 1,250,000 百萬美元)
 - [![ORCL Oracle](https://img.shields.io/badge/ORCL%20Oracle-blue)](company/ORCL_Oracle.md) (市值: 433,560 百萬美元)
 
-**CSP 主力 AI 伺服器/機櫃 ODM 代工** (7)
+**ODM/系統整合 (AI 伺服器代工)** (7)
 - [![2317 鴻海](https://img.shields.io/badge/2317%20%E9%B4%BB%E6%B5%B7-blue)](company/2317_%E9%B4%BB%E6%B5%B7.md) (市值: 3,318,455 百萬台幣)
 - [![6669 緯穎](https://img.shields.io/badge/6669%20%E7%B7%AF%E7%A9%8E-blue)](company/6669_%E7%B7%AF%E7%A9%8E.md) (市值: 2,862,877 百萬台幣)
 - [![2382 廣達](https://img.shields.io/badge/2382%20%E5%BB%A3%E9%81%94-blue)](company/2382_%E5%BB%A3%E9%81%94.md) (市值: 1,192,973 百萬台幣)
@@ -215,17 +215,17 @@
 |---:|---|---|---:|
 | 1 | [![2308 台達電](https://img.shields.io/badge/2308%20%E5%8F%B0%E9%81%94%E9%9B%BB-blue)](company/2308_%E5%8F%B0%E9%81%94%E9%9B%BB.md) | CSP 資料中心高功率電源與 PDU | 3,883,327 百萬台幣 |
 | 2 | [![NVDA NVIDIA](https://img.shields.io/badge/NVDA%20NVIDIA-blue)](company/NVDA_NVIDIA.md) | 半導體 | 3,450,000 百萬美元 |
-| 3 | [![2317 鴻海](https://img.shields.io/badge/2317%20%E9%B4%BB%E6%B5%B7-blue)](company/2317_%E9%B4%BB%E6%B5%B7.md) | CSP 主力 AI 伺服器/機櫃 ODM 代工 | 3,318,455 百萬台幣 |
+| 3 | [![2317 鴻海](https://img.shields.io/badge/2317%20%E9%B4%BB%E6%B5%B7-blue)](company/2317_%E9%B4%BB%E6%B5%B7.md) | ODM/系統整合 (AI 伺服器代工) | 3,318,455 百萬台幣 |
 | 4 | [![MSFT Microsoft](https://img.shields.io/badge/MSFT%20Microsoft-blue)](company/MSFT_Microsoft.md) | 美國五大超大規模雲端巨頭 (CSP 母廠) | 3,150,000 百萬美元 |
-| 5 | [![6669 緯穎](https://img.shields.io/badge/6669%20%E7%B7%AF%E7%A9%8E-blue)](company/6669_%E7%B7%AF%E7%A9%8E.md) | CSP 主力 AI 伺服器/機櫃 ODM 代工 | 2,862,877 百萬台幣 |
+| 5 | [![6669 緯穎](https://img.shields.io/badge/6669%20%E7%B7%AF%E7%A9%8E-blue)](company/6669_%E7%B7%AF%E7%A9%8E.md) | ODM/系統整合 (AI 伺服器代工) | 2,862,877 百萬台幣 |
 | 6 | [![GOOGL Google](https://img.shields.io/badge/GOOGL%20Google-blue)](company/GOOGL_Google.md) | 美國五大超大規模雲端巨頭 (CSP 母廠) | 2,150,000 百萬美元 |
 | 7 | [![AMZN Amazon](https://img.shields.io/badge/AMZN%20Amazon-blue)](company/AMZN_Amazon.md) | 美國五大超大規模雲端巨頭 (CSP 母廠) | 1,980,000 百萬美元 |
 | 8 | [![2383 台光電](https://img.shields.io/badge/2383%20%E5%8F%B0%E5%85%89%E9%9B%BB-blue)](company/2383_%E5%8F%B0%E5%85%89%E9%9B%BB.md) | 電子零組件 | 1,469,116 百萬台幣 |
 | 9 | [![META Meta](https://img.shields.io/badge/META%20Meta-blue)](company/META_Meta.md) | 美國五大超大規模雲端巨頭 (CSP 母廠) | 1,250,000 百萬美元 |
-| 10 | [![2382 廣達](https://img.shields.io/badge/2382%20%E5%BB%A3%E9%81%94-blue)](company/2382_%E5%BB%A3%E9%81%94.md) | CSP 主力 AI 伺服器/機櫃 ODM 代工 | 1,192,973 百萬台幣 |
+| 10 | [![2382 廣達](https://img.shields.io/badge/2382%20%E5%BB%A3%E9%81%94-blue)](company/2382_%E5%BB%A3%E9%81%94.md) | ODM/系統整合 (AI 伺服器代工) | 1,192,973 百萬台幣 |
 | 11 | [![2345 智邦](https://img.shields.io/badge/2345%20%E6%99%BA%E9%82%A6-blue)](company/2345_%E6%99%BA%E9%82%A6.md) | CSP 高速網通交換器與光收發模組 (400G/800G/1.6T) | 1,067,514 百萬台幣 |
 | 12 | [![3017 奇鋐](https://img.shields.io/badge/3017%20%E5%A5%87%E9%8B%90-blue)](company/3017_%E5%A5%87%E9%8B%90.md) | CSP 機房高階散熱與水冷模組 | 822,378 百萬台幣 |
-| 13 | [![3231 緯創](https://img.shields.io/badge/3231%20%E7%B7%AF%E5%89%B5-blue)](company/3231_%E7%B7%AF%E5%89%B5.md) | CSP 主力 AI 伺服器/機櫃 ODM 代工 | 539,019 百萬台幣 |
+| 13 | [![3231 緯創](https://img.shields.io/badge/3231%20%E7%B7%AF%E5%89%B5-blue)](company/3231_%E7%B7%AF%E5%89%B5.md) | ODM/系統整合 (AI 伺服器代工) | 539,019 百萬台幣 |
 | 14 | [![5274 信驊](https://img.shields.io/badge/5274%20%E4%BF%A1%E9%A9%8A-blue)](company/5274_%E4%BF%A1%E9%A9%8A.md) | 半導體 | 536,836 百萬台幣 |
 | 15 | [![3653 健策](https://img.shields.io/badge/3653%20%E5%81%A5%E7%AD%96-blue)](company/3653_%E5%81%A5%E7%AD%96.md) | CSP 機房高階散熱與水冷模組 | 485,686 百萬台幣 |
 | 16 | [![3443 創意](https://img.shields.io/badge/3443%20%E5%89%B5%E6%84%8F-blue)](company/3443_%E5%89%B5%E6%84%8F.md) | ASIC 自研 AI 晶片設計服務 (IP / ASIC) | 441,566 百萬台幣 |
@@ -233,13 +233,13 @@
 | 18 | [![2301 光寶科](https://img.shields.io/badge/2301%20%E5%85%89%E5%AF%B6%E7%A7%91-blue)](company/2301_%E5%85%89%E5%AF%B6%E7%A7%91.md) | CSP 資料中心高功率電源與 PDU | 419,908 百萬台幣 |
 | 19 | [![6274 台燿](https://img.shields.io/badge/6274%20%E5%8F%B0%E7%87%BF-blue)](company/6274_%E5%8F%B0%E7%87%BF.md) | 電子零組件 | 294,474 百萬台幣 |
 | 20 | [![3661 世芯-KY](https://img.shields.io/badge/3661%20%E4%B8%96%E8%8A%AF--KY-blue)](company/3661_%E4%B8%96%E8%8A%AF-KY.md) | ASIC 自研 AI 晶片設計服務 (IP / ASIC) | 230,266 百萬台幣 |
-| 21 | [![2356 英業達](https://img.shields.io/badge/2356%20%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](company/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md) | CSP 主力 AI 伺服器/機櫃 ODM 代工 | 216,325 百萬台幣 |
+| 21 | [![2356 英業達](https://img.shields.io/badge/2356%20%E8%8B%B1%E6%A5%AD%E9%81%94-blue)](company/2356_%E8%8B%B1%E6%A5%AD%E9%81%94.md) | ODM/系統整合 (AI 伺服器代工) | 216,325 百萬台幣 |
 | 22 | [![2376 技嘉](https://img.shields.io/badge/2376%20%E6%8A%80%E5%98%89-blue)](company/2376_%E6%8A%80%E5%98%89.md) | 電腦硬體 | 215,369 百萬台幣 |
 | 23 | [![6515 穎崴](https://img.shields.io/badge/6515%20%E7%A9%8E%E5%B4%B4-blue)](company/6515_%E7%A9%8E%E5%B4%B4.md) | 半導體 | 195,146 百萬台幣 |
 | 24 | [![2324 仁寶](https://img.shields.io/badge/2324%20%E4%BB%81%E5%AF%B6-blue)](company/2324_%E4%BB%81%E5%AF%B6.md) | 電腦硬體 | 148,361 百萬台幣 |
 | 25 | [![8210 勤誠](https://img.shields.io/badge/8210%20%E5%8B%A4%E8%AA%A0-blue)](company/8210_%E5%8B%A4%E8%AA%A0.md) | 電腦硬體 | 122,938 百萬台幣 |
 | 26 | [![2377 微星](https://img.shields.io/badge/2377%20%E5%BE%AE%E6%98%9F-blue)](company/2377_%E5%BE%AE%E6%98%9F.md) | 電腦硬體 | 116,168 百萬台幣 |
-| 27 | [![3706 神達](https://img.shields.io/badge/3706%20%E7%A5%9E%E9%81%94-blue)](company/3706_%E7%A5%9E%E9%81%94.md) | CSP 主力 AI 伺服器/機櫃 ODM 代工 | 113,211 百萬台幣 |
+| 27 | [![3706 神達](https://img.shields.io/badge/3706%20%E7%A5%9E%E9%81%94-blue)](company/3706_%E7%A5%9E%E9%81%94.md) | ODM/系統整合 (AI 伺服器代工) | 113,211 百萬台幣 |
 | 28 | [![6531 愛普](https://img.shields.io/badge/6531%20%E6%84%9B%E6%99%AE-blue)](company/6531_%E6%84%9B%E6%99%AE.md) | 半導體 | 102,105 百萬台幣 |
 | 29 | [![6213 聯茂](https://img.shields.io/badge/6213%20%E8%81%AF%E8%8C%82-blue)](company/6213_%E8%81%AF%E8%8C%82.md) | 電子零組件 | 90,503 百萬台幣 |
 | 30 | [![6442 光聖](https://img.shields.io/badge/6442%20%E5%85%89%E8%81%96-blue)](company/6442_%E5%85%89%E8%81%96.md) | 電子零組件 | 86,439 百萬台幣 |
@@ -278,7 +278,7 @@
 | 63 | [![3032 偉訓](https://img.shields.io/badge/3032%20%E5%81%89%E8%A8%93-blue)](company/3032_%E5%81%89%E8%A8%93.md) | 電腦硬體 | 8,372 百萬台幣 |
 | 64 | [![6112 邁達特](https://img.shields.io/badge/6112%20%E9%82%81%E9%81%94%E7%89%B9-blue)](company/6112_%E9%82%81%E9%81%94%E7%89%B9.md) | 資訊科技服務 | 7,167 百萬台幣 |
 | 65 | [![6416 瑞祺電通](https://img.shields.io/badge/6416%20%E7%91%9E%E7%A5%BA%E9%9B%BB%E9%80%9A-blue)](company/6416_%E7%91%9E%E7%A5%BA%E9%9B%BB%E9%80%9A.md) | 通訊設備 | 6,770 百萬台幣 |
-| 66 | [![6933 AMAX-KY](https://img.shields.io/badge/6933%20AMAX--KY-blue)](company/6933_AMAX-KY.md) | CSP 主力 AI 伺服器/機櫃 ODM 代工 | 6,273 百萬台幣 |
+| 66 | [![6933 AMAX-KY](https://img.shields.io/badge/6933%20AMAX--KY-blue)](company/6933_AMAX-KY.md) | ODM/系統整合 (AI 伺服器代工) | 6,273 百萬台幣 |
 | 67 | [![6117 迎廣](https://img.shields.io/badge/6117%20%E8%BF%8E%E5%BB%A3-blue)](company/6117_%E8%BF%8E%E5%BB%A3.md) | 電腦硬體 | 6,015 百萬台幣 |
 | 68 | [![6199 天品](https://img.shields.io/badge/6199%20%E5%A4%A9%E5%93%81-blue)](company/6199_%E5%A4%A9%E5%93%81.md) | 電腦硬體 | 5,812 百萬台幣 |
 | 69 | [![4912 聯德控股-KY](https://img.shields.io/badge/4912%20%E8%81%AF%E5%BE%B7%E6%8E%A7%E8%82%A1--KY-blue)](company/4912_%E8%81%AF%E5%BE%B7%E6%8E%A7%E8%82%A1-KY.md) | 金屬加工 | 5,252 百萬台幣 |
