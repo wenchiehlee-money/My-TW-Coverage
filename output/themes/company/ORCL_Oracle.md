@@ -17,7 +17,7 @@ Oracle Corporation (ORCL，Oracle) 原為全球資料庫軟體與企業應用 (E
 - **Oracle** — Oracle Cloud Infrastructure (OCI) 雲端基礎架構建置、Oracle Database 資料庫、Fusion/NetSuite ERP 企業應用軟體與 Stargate AI 算力出租
 
 **下游:**
-- **主要平台:** Cloud (~70.042%), Software (~16.7507%), Services (~8.5353%), Hardware (~4.6721%).
+- **主要平台:** Cloud (約70.042%), Software (約16.7507%), Services (約8.5353%), Hardware (約4.6721%).
 - **AI 大模型訓練客戶:** [[OpenAI]] (Stargate 專案主力承購方)、[[xAI]]、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md)
 - **全球企業與政府客戶:** 數萬家企業資料庫、ERP 與雲端基礎架構用戶
 
@@ -88,8 +88,8 @@ Consensus 截至: 2026-08-08 | Primary: ConceptStocks (SEC/AlphaVantage) | Reven
 | 平台 / 事業群 | 最新佔比 | 趨勢與推動力 |
 |:---|:---|:---|
 | Cloud Services (OCI IaaS + SaaS) | ~50.5% ($34,000M) | Cloud 總營收年增 39%，OCI (IaaS) 年增 77% 至 181 億美元 |
-| Cloud License & On-Premise License / Support | ~42.0% (~$28,300M) | 傳統資料庫授權與維護收入持穩，逐步轉為雲端訂閱 |
-| Hardware & Services | ~7.5% (~$5,100M) | Exadata 硬體設備與顧問導入服務 |
+| Cloud License & On-Premise License / Support | ~42.0% (約$28,300M) | 傳統資料庫授權與維護收入持穩，逐步轉為雲端訂閱 |
+| Hardware & Services | ~7.5% (約$5,100M) | Exadata 硬體設備與顧問導入服務 |
 
 > 財務數據來源: `../ConceptStocks/raw_conceptstock_company_income.csv` (symbol=ORCL, SEC-validated rows)，與 [![Amazon](https://img.shields.io/badge/Amazon-blue)](AMZN_Amazon.md)、[![Microsoft](https://img.shields.io/badge/Microsoft-blue)](MSFT_Microsoft.md)、[![Google](https://img.shields.io/badge/Google-blue)](GOOGL_Google.md)、[![Meta](https://img.shields.io/badge/Meta-blue)](META_Meta.md) 共用同一上游資料管線 (見 `../biztrends.TW/docs/data_pipeline_diagram.md`)。市值/企業價值取自 Yahoo Finance 2026-08-08 快照。競爭同業 Revenue/Profit/GM/PE 比較表由 `render_enrichment_markdown.py` 透過 `--biztrends-root` 動態接上 `../biztrends.TW/data/ConceptStocks/` 自動產生 (見下表)。
 
