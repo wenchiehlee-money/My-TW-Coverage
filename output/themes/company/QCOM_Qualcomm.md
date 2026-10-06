@@ -16,6 +16,7 @@ Qualcomm (QCOM，Qualcomm) 高通為全球行動通訊晶片、5G Modem 與智�
 - **Qualcomm** — Snapdragon 行動 CPU/GPU/NPU 設計與 CDMA/5G 專利授權 (QTL)
 
 **下游:**
+- **主要平台:** Handsets (約59.8071%), IoT (約21.5193%), Automotive (約18.6736%).
 - **智慧型手機:** [![Apple](https://img.shields.io/badge/Apple-blue)](AAPL_Apple.md)、[![三星](https://img.shields.io/badge/%E4%B8%89%E6%98%9F-blue)](5007_%E4%B8%89%E6%98%9F.md)、[[小米]]、[[OPPO]]、[[vivo]]
 - **AI PC 品牌:** [![Dell](https://img.shields.io/badge/Dell-blue)](DELL_Dell.md)、[![Lenovo](https://img.shields.io/badge/Lenovo-blue)](0992.HK_%E8%81%AF%E6%83%B3%E9%9B%86%E5%9C%98.md)、[![HP Inc.](https://img.shields.io/badge/HP%20Inc.-blue)](HPQ_HP%20Inc..md)、[![華碩](https://img.shields.io/badge/%E8%8F%AF%E7%A2%A9-blue)](2357_%E8%8F%AF%E7%A2%A9.md)、[![宏碁](https://img.shields.io/badge/%E5%AE%8F%E7%A2%81-blue)](2353_%E5%AE%8F%E7%A2%81.md)
 
