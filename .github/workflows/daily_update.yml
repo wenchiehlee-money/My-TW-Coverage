@@ -195,6 +195,24 @@ jobs:
         run: python scripts/audit_batch.py --all -v
 
 
+      - name: Sync valuation health to biztrends.TW
+        if: always()
+        run: |
+          test -s output/dynamic_valuation_box_health.csv
+          BIZTRENDS_DIR="${{ runner.temp }}/biztrends.TW"
+          mkdir -p "$BIZTRENDS_DIR/data/My-TW-Coverage"
+          cp output/dynamic_valuation_box_health.csv \
+            "$BIZTRENDS_DIR/data/My-TW-Coverage/raw_dynamic_valuation_box_health.csv"
+          git -C "$BIZTRENDS_DIR" config user.name "github-actions[bot]"
+          git -C "$BIZTRENDS_DIR" config user.email "github-actions[bot]@users.noreply.github.com"
+          git -C "$BIZTRENDS_DIR" add data/My-TW-Coverage/raw_dynamic_valuation_box_health.csv
+          if git -C "$BIZTRENDS_DIR" diff --cached --quiet; then
+            echo "No My-TW-Coverage valuation-health changes to sync."
+          else
+            git -C "$BIZTRENDS_DIR" commit -m "sync: update My-TW-Coverage valuation health"
+            git -C "$BIZTRENDS_DIR" push origin main
+          fi
+
       - name: Commit and push changes
         id: commit_push
         if: always()
