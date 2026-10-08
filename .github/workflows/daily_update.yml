@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           # Pushes made with the default GITHUB_TOKEN don't trigger other
           # workflows' `on: push` (GitHub's anti-recursion rule), which would
@@ -41,7 +41,7 @@ jobs:
             "${{ runner.temp }}/biztrends.TW"
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.10'
           cache: 'pip'
