@@ -58,7 +58,7 @@ def build_rows(json_dir: Path, chart_dir: Path, max_age_days: float) -> list[dic
     rows: list[dict[str, str]] = []
     for symbol in symbols_from_json(json_dir):
         paths = {kind: chart_dir / f"{symbol}{suffix}" for kind, suffix in ARTIFACTS.items()}
-        exists = {kind: path.is_file() for kind, path in paths.items()}
+        exists = {kind: bool(path and path.is_file()) for kind, path in paths.items()}
         sizes = {f"{kind}_bytes": str(path.stat().st_size) if exists[kind] else "0" for kind, path in paths.items()}
         fresh = {kind: exists[kind] and path.stat().st_mtime >= cutoff for kind, path in paths.items()}
         row_count, csv_last_date, columns_ok = csv_info(paths["csv"]) if exists["csv"] else (0, "", False)
