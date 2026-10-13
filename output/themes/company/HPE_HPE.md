@@ -18,6 +18,7 @@ Hewlett Packard Enterprise (HPE，HPE) 總部位於美國德州休士頓，為�
 - **HPE** — 企業伺服器架構設計、GreenLake 混合雲訂閱平台與 Cray 超級電腦整合
 
 **下游:**
+- **主要平台:** Server (約46.9288%), Networking (約29.2001%), Hybrid Cloud (約14.6001%), Financial Services (約9.271%).
 - **全球企業與 Tier-2/3 CSP:** 全球大型企業、金融機構、國防科研機構與雲端服務提供商
 - **經銷與 SI 夥伴:** 全球系統整合商 (SI)、經銷商與直銷經理
 
