@@ -75,3 +75,7 @@ Consensus 截至: 2026-08-01 | Primary: Yahoo.Finance | Revenue 單位: 百萬�
 | Data Center (AI ASIC & 800G PAM4 DSP) | 72.50% ($1,099M) | Custom AI 晶片出貨與 800G/1.6T 光學 DSP 需求爆發 |
 | Enterprise Networking (企業網通) | 14.20% ($215M) | 企業乙太網路 Switch 與 PHY 晶片 |
 | Carrier Infrastructure & Automotive | 13.30% ($202M) | 5G 電信基地台與車用乙太網路晶片 |
+
+## Chart
+
+![Dynamic valuation box](../../dynamic_valuation_box/MRVL_dynamic_valuation_box_3y.svg)
