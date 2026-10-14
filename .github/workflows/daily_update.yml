@@ -211,7 +211,20 @@ jobs:
             echo "No My-TW-Coverage valuation-health changes to sync."
           else
             git -C "$BIZTRENDS_DIR" commit -m "sync: update My-TW-Coverage valuation health"
-            git -C "$BIZTRENDS_DIR" push origin main
+            pushed=false
+            for attempt in 1 2 3 4 5; do
+              if git -C "$BIZTRENDS_DIR" push origin HEAD:main; then
+                pushed=true
+                break
+              fi
+              echo "biztrends.TW push rejected (attempt $attempt/5); rebasing onto latest main..." >&2
+              git -C "$BIZTRENDS_DIR" fetch origin main
+              git -C "$BIZTRENDS_DIR" rebase origin/main
+            done
+            if [ "$pushed" != true ]; then
+              echo "Unable to sync valuation health after 5 push attempts." >&2
+              exit 1
+            fi
           fi
 
       - name: Commit and push changes
