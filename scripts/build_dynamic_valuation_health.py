@@ -6,8 +6,9 @@ import argparse
 import csv
 import json
 import os
+import re
 import tempfile
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 
@@ -24,6 +25,24 @@ REQUIRED_CSV_COLUMNS = {
     "pe_mean",
     "price_mean",
 }
+UPDATED_RE = re.compile(r"Updated: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}) CST")
+CHART_TZ = timezone(timedelta(hours=8))
+
+
+def chart_updated_at(path: Path) -> datetime | None:
+    try:
+        if path.suffix.lower() == ".png":
+            from PIL import Image
+            with Image.open(path) as image:
+                value = str(image.info.get("Updated", ""))
+        else:
+            value = path.read_text(encoding="utf-8")
+        match = UPDATED_RE.search(value)
+        if not match:
+            return None
+        return datetime.strptime(match.group(1), "%Y-%m-%d %H:%M").replace(tzinfo=CHART_TZ)
+    except (ImportError, OSError, UnicodeError, ValueError):
+        return None
 
 
 def symbols_from_json(json_dir: Path) -> list[str]:
@@ -80,7 +99,8 @@ def build_rows(json_dir: Path, chart_dir: Path, max_age_days: float,
         page_fresh = page_exists and page.stat().st_mtime >= cutoff
         exists = {kind: bool(path and path.is_file()) for kind, path in paths.items()}
         sizes = {f"{kind}_bytes": str(path.stat().st_size) if exists[kind] else "0" for kind, path in paths.items()}
-        fresh = {kind: exists[kind] and path.stat().st_mtime >= cutoff for kind, path in paths.items()}
+        updated = {kind: chart_updated_at(path) if exists[kind] else None for kind, path in paths.items()}
+        fresh = {kind: exists[kind] and updated[kind] is not None and updated[kind].timestamp() >= cutoff for kind, path in paths.items()}
         row_count, csv_last_date, columns_ok = csv_info(paths["csv"]) if exists["csv"] else (0, "", False)
         healthy = page_exists and page_bytes > 0 and page_fresh and all(exists.values()) and all(fresh.values()) and all(int(value) > 0 for value in sizes.values()) and columns_ok and row_count > 0 and bool(csv_last_date)
         rows.append({
