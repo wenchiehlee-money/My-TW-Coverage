@@ -193,20 +193,25 @@ jobs:
             --json-dir data/enrichment_all \
             --chart-dir output/dynamic_valuation_box \
             --page-dir output/themes/company \
-            --output output/dynamic_valuation_box_health.csv \
+            --company-md-output output/company_md_health.csv \
+            --artifacts-output output/valuation_artifacts_health.csv \
             --max-age-days 3
 
       - name: Sync valuation health to biztrends.TW
         if: always()
         run: |
-          test -s output/dynamic_valuation_box_health.csv
+          test -s output/company_md_health.csv
+          test -s output/valuation_artifacts_health.csv
           BIZTRENDS_DIR="${{ runner.temp }}/biztrends.TW"
           mkdir -p "$BIZTRENDS_DIR/data/My-TW-Coverage"
-          cp output/dynamic_valuation_box_health.csv \
-            "$BIZTRENDS_DIR/data/My-TW-Coverage/raw_dynamic_valuation_box_health.csv"
+          cp output/company_md_health.csv \
+            "$BIZTRENDS_DIR/data/My-TW-Coverage/raw_company_md_health.csv"
+          cp output/valuation_artifacts_health.csv \
+            "$BIZTRENDS_DIR/data/My-TW-Coverage/raw_valuation_artifacts_health.csv"
+          rm -f "$BIZTRENDS_DIR/data/My-TW-Coverage/raw_dynamic_valuation_box_health.csv"
           git -C "$BIZTRENDS_DIR" config user.name "github-actions[bot]"
           git -C "$BIZTRENDS_DIR" config user.email "github-actions[bot]@users.noreply.github.com"
-          git -C "$BIZTRENDS_DIR" add data/My-TW-Coverage/raw_dynamic_valuation_box_health.csv
+          git -C "$BIZTRENDS_DIR" add -A data/My-TW-Coverage
           if git -C "$BIZTRENDS_DIR" diff --cached --quiet; then
             echo "No My-TW-Coverage valuation-health changes to sync."
           else

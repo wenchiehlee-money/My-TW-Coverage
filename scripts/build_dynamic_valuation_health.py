@@ -102,7 +102,8 @@ def build_rows(json_dir: Path, chart_dir: Path, max_age_days: float,
         updated = {kind: chart_updated_at(path) if exists[kind] else None for kind, path in paths.items()}
         fresh = {kind: exists[kind] and updated[kind] is not None and updated[kind].timestamp() >= cutoff for kind, path in paths.items()}
         row_count, csv_last_date, columns_ok = csv_info(paths["csv"]) if exists["csv"] else (0, "", False)
-        healthy = page_exists and page_bytes > 0 and page_fresh and all(exists.values()) and all(fresh.values()) and all(int(value) > 0 for value in sizes.values()) and columns_ok and row_count > 0 and bool(csv_last_date)
+        page_healthy = page_exists and page_bytes > 0 and page_fresh
+        artifacts_healthy = all(exists.values()) and all(fresh.values()) and all(int(value) > 0 for value in sizes.values()) and columns_ok and row_count > 0 and bool(csv_last_date)
         rows.append({
             "symbol": symbol,
             "generated_at": generated_at,
@@ -110,6 +111,7 @@ def build_rows(json_dir: Path, chart_dir: Path, max_age_days: float,
             "company_md_exists": str(page_exists).lower(),
             "company_md_fresh": str(page_fresh).lower(),
             "company_md_bytes": str(page_bytes),
+            "company_md_status": "healthy" if page_healthy else "broken_or_stale",
             "csv_path": paths["csv"].as_posix(),
             "svg_path": paths["svg"].as_posix(),
             "png_path": paths["png"].as_posix(),
@@ -123,7 +125,7 @@ def build_rows(json_dir: Path, chart_dir: Path, max_age_days: float,
             "csv_last_date": csv_last_date,
             "required_columns_ok": str(columns_ok).lower(),
             **sizes,
-            "artifact_status": "healthy" if healthy else "broken_or_stale",
+            "artifact_status": "healthy" if artifacts_healthy else "broken_or_stale",
         })
     return rows
 
@@ -133,27 +135,42 @@ def main() -> int:
     parser.add_argument("--json-dir", default="data/enrichment_all")
     parser.add_argument("--chart-dir", default="output/dynamic_valuation_box")
     parser.add_argument("--page-dir", default="output/themes/company")
-    parser.add_argument("--output", default="output/dynamic_valuation_box_health.csv")
+    parser.add_argument("--company-md-output", default="output/company_md_health.csv")
+    parser.add_argument("--artifacts-output", default="output/valuation_artifacts_health.csv")
     parser.add_argument("--max-age-days", type=float, default=3.0)
     args = parser.parse_args()
 
     rows = build_rows(Path(args.json_dir), Path(args.chart_dir), args.max_age_days, Path(args.page_dir))
-    fieldnames = list(rows[0]) if rows else ["symbol", "generated_at", "artifact_status"]
-    output = Path(args.output)
-    output.parent.mkdir(parents=True, exist_ok=True)
-    fd, temporary = tempfile.mkstemp(prefix=f".{output.name}.", dir=output.parent, text=True)
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8", newline="") as handle:
-            writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
-            writer.writeheader()
-            writer.writerows(rows)
-        os.replace(temporary, output)
-    finally:
-        if os.path.exists(temporary):
-            os.unlink(temporary)
-    broken = sum(row["artifact_status"] != "healthy" for row in rows)
-    print(f"chart_health rows={len(rows)} broken_or_stale={broken} output={output}")
-    return 1 if broken else 0
+    output_groups = {
+        Path(args.company_md_output): [
+            "symbol", "generated_at", "company_md_path", "company_md_exists",
+            "company_md_fresh", "company_md_bytes", "company_md_status",
+        ],
+        Path(args.artifacts_output): [
+            "symbol", "generated_at", "csv_path", "svg_path", "png_path",
+            "csv_exists", "svg_exists", "png_exists", "csv_fresh", "svg_fresh",
+            "png_fresh", "csv_rows", "csv_last_date", "required_columns_ok",
+            "csv_bytes", "svg_bytes", "png_bytes", "artifact_status",
+        ],
+    }
+    failures = 0
+    for output, fieldnames in output_groups.items():
+        output.parent.mkdir(parents=True, exist_ok=True)
+        fd, temporary = tempfile.mkstemp(prefix=f".{output.name}.", dir=output.parent, text=True)
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
+                writer.writeheader()
+                writer.writerows({name: row.get(name, "") for name in fieldnames} for row in rows)
+            os.replace(temporary, output)
+        finally:
+            if os.path.exists(temporary):
+                os.unlink(temporary)
+        status_field = "company_md_status" if "company_md_status" in fieldnames else "artifact_status"
+        broken = sum(row[status_field] != "healthy" for row in rows)
+        failures += broken
+        print(f"health rows={len(rows)} broken_or_stale={broken} output={output}")
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":
