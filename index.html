@@ -528,8 +528,15 @@
     <!-- Tiny Feet -->
     <path d="M8.5 21v1" />
     <path d="M15.5 21v1" />
-  </symbol>
 </svg>
+  <a class="tw-nav-brand" href="#/">
+    <div class="brand-icon-box">
+      <svg class="ux-icon ux-icon-owl" style="width:22px;height:22px;"><use href="#icon-owl-coverage"></use></svg>
+    </div>
+    <span>My-TW-Coverage</span>
+    <span class="brand-tag">台股個股調研 🦉</span>
+  </a>
+
   <div class="search" id="full-text-search">
     <input type="search" id="fts-input" placeholder="搜尋個股代號、名稱、供應鏈或技術關鍵字..." autocomplete="off">
     <div class="results-panel" id="fts-results" style="display:none;"></div>
@@ -688,29 +695,6 @@
       },
 
       plugins: [
-        // UX-Deck: Inject Brand Bar with Real Cute Owl SVG Mascot
-        function(hook, vm) {
-          hook.ready(function() {
-            var nav = document.querySelector('.app-nav');
-            if (nav && !document.querySelector('.tw-nav-brand')) {
-              var brand = document.createElement('a');
-              brand.className = 'tw-nav-brand';
-              brand.href = '#/';
-              brand.innerHTML = '<div class="brand-icon-box"><svg class="ux-icon ux-icon-owl" style="width:22px;height:22px;"><use href="#icon-owl-coverage"></use></svg></div><span>My-TW-Coverage</span><span class="brand-tag">台股個股調研 🦉</span>';
-              nav.appendChild(brand);
-            }
-          });
-          hook.doneEach(function() {
-            var nav = document.querySelector('.app-nav');
-            if (nav && !document.querySelector('.tw-nav-brand')) {
-              var brand = document.createElement('a');
-              brand.className = 'tw-nav-brand';
-              brand.href = '#/';
-              brand.innerHTML = '<div class="brand-icon-box"><svg class="ux-icon ux-icon-owl" style="width:22px;height:22px;"><use href="#icon-owl-coverage"></use></svg></div><span>My-TW-Coverage</span><span class="brand-tag">台股個股調研 🦉</span>';
-              nav.appendChild(brand);
-            }
-          });
-        },
         // 核心插件：動態解析 [[wikilinks]] 與首頁相對路徑
         function(hook, vm) {
           hook.beforeEach(function(html) {
