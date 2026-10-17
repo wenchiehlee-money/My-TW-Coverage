@@ -69,10 +69,19 @@ def badge_label_text(label: str) -> str:
     return quote(label.replace("-", "--"), safe="")
 
 
-def render_badge_link(label: str, target: str, color: str = "blue", *, quote_target: bool = True) -> str:
+SHIELDS_COLOR_MAP = {
+    "green": "059669",
+    "blue": "0284c7",
+    "orange": "d97706",
+    "red": "dc2626",
+}
+
+
+def render_badge_link(label: str, target: str, color: str = "0284c7", *, quote_target: bool = True) -> str:
     badge_label = str(label).strip()
-    badge_color = str(color or "blue").strip()
-    image = f"https://img.shields.io/badge/{badge_label_text(badge_label)}-{quote(badge_color, safe='')}"
+    raw_color = str(color or "0284c7").strip()
+    badge_color = SHIELDS_COLOR_MAP.get(raw_color.lower(), raw_color)
+    image = f"https://img.shields.io/badge/{badge_label_text(badge_label)}-{quote(badge_color, safe='')}?style=flat"
     href = quote(target) if quote_target else target
     return f"[![{badge_label}]({image})]({href})"
 
@@ -80,13 +89,13 @@ def render_badge_link(label: str, target: str, color: str = "blue", *, quote_tar
 def render_theme_badge(theme_def: dict[str, Any], href: str | None = None, label: str | None = None) -> str:
     render = theme_def.get("render", {}) if isinstance(theme_def.get("render"), dict) else {}
     badge_label = str(label or render.get("badge_label") or theme_def.get("tag") or "Theme").strip()
-    color = str(render.get("badge_color") or "green").strip()
+    color = str(render.get("badge_color") or "059669").strip()
     target = href or theme_output_filename(theme_def)
     return render_badge_link(badge_label, target, color)
 
 
 def render_company_badge(label: str, target: str) -> str:
-    return render_badge_link(label, target, "blue", quote_target=False)
+    return render_badge_link(label, target, "0284c7", quote_target=False)
 
 
 @lru_cache(maxsize=None)
