@@ -81,6 +81,11 @@ html, body {
   display: none !important;
 }
 
+/* Hide redundant diagonal GitHub Corner ribbon (superseded by .app-nav pill button) */
+.github-corner {
+  display: none !important;
+}
+
 /* Brand Bar with Cute Flapping Owl Mascot 🦉 (Matching showcase.html exactly) */
 .tw-nav-brand {
   position: fixed !important;
