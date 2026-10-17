@@ -1,0 +1,307 @@
+/* ==========================================================================
+   My-TW-Coverage: Taiwan Equity Research & Valuation Theme
+   UX-Deck Unified Design System (White Basis Studio Foundation)
+   Applied across Docsify & MkDocs architectures
+   ========================================================================== */
+
+/* 1. Global Tokens: Taiwan Pine Emerald & Research Amber (Override Morandi & Warm Paper) */
+:root {
+  /* Brand Accents */
+  --theme-color:              #059669 !important; /* Taiwan Pine Emerald */
+  --theme-color-rgb:          5, 150, 105 !important;
+  --theme-color-dark:         #047857 !important;
+  --accent-amber:             #d97706 !important; /* Research Amber */
+  --accent-blue:              #0284c7 !important;
+
+  /* Typography Stacks (Studio Foundation) */
+  --base-font-family:         'Plus Jakarta Sans', 'Inter', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  --code-font-family:         'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
+
+  /* Pure White Canvas & Modern Clean Slate Layers (No Yellowed/Warm Paper) */
+  --base-background:          #ffffff !important;
+  --sidebar-background:       #f8fafc !important;
+  --sidebar-border-color:     #e2e8f0 !important;
+  --sidebar-width:            290px !important;
+  --content-max-width:        70em !important;
+
+  /* Text & Contrast */
+  --base-color:               #0f172a !important; /* High contrast Dark Slate */
+  --text-muted:               #64748b !important;
+
+  /* Search & Interactive Inputs */
+  --search-input-background:  #ffffff !important;
+  --search-input-placeholder-color: #94a3b8 !important;
+  --search-result-keyword-background: rgba(5, 150, 105, 0.15) !important;
+
+  /* Code & Tables */
+  --code-inline-background:   #f1f5f9 !important;
+  --code-inline-color:        #047857 !important;
+  --blockquote-background:    #f8fafc !important;
+  --blockquote-border-color:  var(--theme-color) !important;
+  --table-row-odd-background: #ffffff !important;
+  --table-row-even-background:#f8fafc !important;
+  --table-border-color:       #e2e8f0 !important;
+
+  /* TWSE Market Standards */
+  --tw-market-gain:           #dc2626 !important;
+  --tw-market-loss:           #16a34a !important;
+}
+
+/* 2. Global Body & Surface Overrides (Remove Yellow Wash / Texture) */
+body {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #0f172a !important;
+  font-family: var(--base-font-family) !important;
+}
+
+/* 3. Top Header Bar (Clean Frosted Glass on Pure White) */
+.app-nav {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+}
+.app-nav::before {
+  display: none !important; /* Hide old text pseudo element */
+}
+
+/* Custom Header Brand Bar with Real Cute Owl SVG Mascot */
+.tw-nav-brand {
+  position: absolute;
+  left: 28px;
+  top: 0;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none !important;
+  color: #0f172a !important;
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: -0.015em;
+  font-family: var(--base-font-family);
+}
+.tw-nav-brand .brand-icon-box {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #059669;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.15);
+  transition: transform 0.2s ease;
+}
+.tw-nav-brand:hover .brand-icon-box {
+  transform: translateY(-2px) scale(1.08);
+}
+.tw-nav-brand .brand-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-family: var(--code-font-family);
+  margin-left: 4px;
+}
+
+/* Header Links */
+.app-nav a {
+  color: #475569 !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  transition: all 0.2s ease !important;
+}
+.app-nav a:hover, .app-nav li.active a {
+  color: var(--theme-color) !important;
+  border-bottom-color: var(--theme-color) !important;
+}
+
+/* 4. Modern Sidebar (Clean Studio Slate) */
+.sidebar {
+  background-color: var(--sidebar-background) !important;
+  border-right: 1px solid var(--sidebar-border-color) !important;
+  box-shadow: 1px 0 3px rgba(0, 0, 0, 0.02) !important;
+}
+.sidebar nav li a {
+  color: #475569 !important;
+  font-weight: 500 !important;
+  border-radius: 8px !important;
+}
+.sidebar nav li a:hover {
+  background: #f1f5f9 !important;
+  color: var(--theme-color) !important;
+  transform: translateX(3px) !important;
+}
+.sidebar nav li.active > a {
+  background: #ecfdf5 !important;
+  color: #059669 !important;
+  font-weight: 700 !important;
+}
+
+/* 5. Search Bar (Clean Studio Input) */
+.search input {
+  background-color: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  color: #0f172a !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+}
+.search input:focus {
+  border-color: var(--theme-color) !important;
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15) !important;
+}
+
+/* 6. Typography & Headings */
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  color: #0f172a !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.015em !important;
+}
+.markdown-section p,
+.markdown-section li {
+  line-height: 1.7 !important;
+  color: #334155 !important;
+}
+
+/* 7. Numbers & Financial Monospace (JetBrains Mono) */
+.markdown-section code,
+.markdown-section pre code,
+.tw-mono-num {
+  font-family: var(--code-font-family) !important;
+  font-variant-numeric: tabular-nums !important;
+}
+
+/* 8. UX-Deck Mascot Icon Helper */
+.ux-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  stroke-width: 1.6;
+  stroke: currentColor;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin="round";
+  vertical-align: middle;
+}
+.ux-icon-owl {
+  color: var(--theme-color);
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
+}
+.ux-icon-owl:hover {
+  transform: translateY(-2px) scale(1.12);
+}
+
+/* 9. Live Stock Coverage Radar Card */
+.tw-coverage-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 1.75rem 2rem;
+  margin: 1.75rem 0 2.25rem;
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s ease;
+}
+.tw-coverage-card:hover {
+  box-shadow: 0 8px 24px -4px rgba(5, 150, 105, 0.1);
+  border-color: #cbd5e1;
+}
+
+.tw-coverage-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f1f5f9;
+  margin-bottom: 1.25rem;
+}
+
+.tw-rating-pill {
+  font-family: var(--code-font-family);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.tw-rating-buy {
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+}
+.tw-rating-outperform {
+  background: #fef2f2;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+}
+.tw-rating-hold {
+  background: #f8fafc;
+  color: #64748b;
+  border: 1px solid #cbd5e1;
+}
+
+.tw-price-current {
+  font-family: var(--code-font-family);
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: var(--tw-market-gain);
+  font-variant-numeric: tabular-nums;
+}
+.tw-price-target {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.tw-thesis-box {
+  background: #f8fafc;
+  border-left: 3px solid var(--theme-color);
+  border-radius: 0 10px 10px 0;
+  padding: 0.9rem 1.15rem;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: #0f172a;
+  margin-bottom: 1.25rem;
+}
+
+.tw-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.85rem;
+}
+.tw-kpi-tile {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.85rem 0.75rem;
+  text-align: center;
+}
+.tw-kpi-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+}
+.tw-kpi-val {
+  font-family: var(--code-font-family);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0f172a;
+  font-variant-numeric: tabular-nums;
+}
+.tw-kpi-val.gain { color: var(--tw-market-gain); }
+.tw-kpi-val.emerald { color: var(--theme-color); }
