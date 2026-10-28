@@ -1,48 +1,4 @@
 symbol	reason
-6928	[render_dynamic_valuation_box] Warning: No forward EPS rows found for: 6928; trailing-only valuation will be rendered for those symbols.
-Traceback (most recent call last):
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1293, in <module>
-    main()
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1263, in main
-    daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps, args.finmind_financial_ratio_csv)
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 609, in _build_daily_box
-    financials = pd.DataFrame(_fetch("TaiwanStockFinancialStatements", symbol, eps_start, end_text))
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 186, in _fetch
-    raise RuntimeError(
-RuntimeError: 6928 TaiwanStockFinancialStatements: FinMind quota exhausted on every configured token. Set at least one of FINMIND_TOKEN, FINMIND_API_TOKEN, FINMIND_TOKEN1, FINMIND_TOKEN2, ... in the environment or .env.
-6937	[render_dynamic_valuation_box] Warning: No forward EPS rows found for: 6937; trailing-only valuation will be rendered for those symbols.
-Traceback (most recent call last):
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1293, in <module>
-    main()
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1263, in main
-    daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps, args.finmind_financial_ratio_csv)
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 609, in _build_daily_box
-    financials = pd.DataFrame(_fetch("TaiwanStockFinancialStatements", symbol, eps_start, end_text))
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 186, in _fetch
-    raise RuntimeError(
-RuntimeError: 6937 TaiwanStockFinancialStatements: FinMind quota exhausted on every configured token. Set at least one of FINMIND_TOKEN, FINMIND_API_TOKEN, FINMIND_TOKEN1, FINMIND_TOKEN2, ... in the environment or .env.
-6940	[render_dynamic_valuation_box] Warning: No forward EPS rows found for: 6940; trailing-only valuation will be rendered for those symbols.
-Traceback (most recent call last):
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1293, in <module>
-    main()
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1263, in main
-    daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps, args.finmind_financial_ratio_csv)
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 603, in _build_daily_box
-    prices = pd.DataFrame(_fetch("TaiwanStockPrice", symbol, data_start, end_text))
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 186, in _fetch
-    raise RuntimeError(
-RuntimeError: 6940 TaiwanStockPrice: FinMind quota exhausted on every configured token. Set at least one of FINMIND_TOKEN, FINMIND_API_TOKEN, FINMIND_TOKEN1, FINMIND_TOKEN2, ... in the environment or .env.
-6944	[render_dynamic_valuation_box] Warning: No forward EPS rows found for: 6944; trailing-only valuation will be rendered for those symbols.
-Traceback (most recent call last):
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1293, in <module>
-    main()
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1263, in main
-    daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps, args.finmind_financial_ratio_csv)
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 603, in _build_daily_box
-    prices = pd.DataFrame(_fetch("TaiwanStockPrice", symbol, data_start, end_text))
-  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 186, in _fetch
-    raise RuntimeError(
-RuntimeError: 6944 TaiwanStockPrice: FinMind quota exhausted on every configured token. Set at least one of FINMIND_TOKEN, FINMIND_API_TOKEN, FINMIND_TOKEN1, FINMIND_TOKEN2, ... in the environment or .env.
 6947	[render_dynamic_valuation_box] Warning: No forward EPS rows found for: 6947; trailing-only valuation will be rendered for those symbols.
 Traceback (most recent call last):
   File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1293, in <module>
@@ -403,3 +359,25 @@ Traceback (most recent call last):
   File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 186, in _fetch
     raise RuntimeError(
 RuntimeError: 7740 TaiwanStockPrice: FinMind quota exhausted on every configured token. Set at least one of FINMIND_TOKEN, FINMIND_API_TOKEN, FINMIND_TOKEN1, FINMIND_TOKEN2, ... in the environment or .env.
+9960	[render_dynamic_valuation_box] Warning: No forward EPS rows found for: 9960; trailing-only valuation will be rendered for those symbols.
+Traceback (most recent call last):
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1293, in <module>
+    main()
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1263, in main
+    daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps, args.finmind_financial_ratio_csv)
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 603, in _build_daily_box
+    prices = pd.DataFrame(_fetch("TaiwanStockPrice", symbol, data_start, end_text))
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 186, in _fetch
+    raise RuntimeError(
+RuntimeError: 9960 TaiwanStockPrice: FinMind quota exhausted on every configured token. Set at least one of FINMIND_TOKEN, FINMIND_API_TOKEN, FINMIND_TOKEN1, FINMIND_TOKEN2, ... in the environment or .env.
+9962	[render_dynamic_valuation_box] Warning: No forward EPS rows found for: 9962; trailing-only valuation will be rendered for those symbols.
+Traceback (most recent call last):
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1293, in <module>
+    main()
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 1263, in main
+    daily, eps, profit_metrics = _build_daily_box(symbol, args.years, end_date, args.window, forward_eps, args.finmind_financial_ratio_csv)
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 603, in _build_daily_box
+    prices = pd.DataFrame(_fetch("TaiwanStockPrice", symbol, data_start, end_text))
+  File "/home/runner/work/My-TW-Coverage/My-TW-Coverage/skills/skill-stock-dynamic-valuation-box/scripts/render_dynamic_valuation_box.py", line 186, in _fetch
+    raise RuntimeError(
+RuntimeError: 9962 TaiwanStockPrice: FinMind quota exhausted on every configured token. Set at least one of FINMIND_TOKEN, FINMIND_API_TOKEN, FINMIND_TOKEN1, FINMIND_TOKEN2, ... in the environment or .env.
