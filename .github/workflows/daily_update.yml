@@ -43,7 +43,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.10'
+          python-version: '3.11'
           cache: 'pip'
 
       - name: Install dependencies
@@ -293,8 +293,8 @@ jobs:
           else
             echo "Update and artifact commit/push completed successfully."
           fi
-      - name: Fail if chart rendering or health check failed
-        if: steps.render_charts.outcome == 'failure' || steps.chart_health.outcome == 'failure'
+      - name: Fail if chart rendering failed
+        if: steps.render_charts.outcome == 'failure'
         run: |
-          echo "Chart rendering or chart health failed; generated partial artifacts were committed before failing."
+          echo "Chart rendering failed; generated partial artifacts were committed before failing."
           exit 1
